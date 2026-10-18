@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335738",
+ "title": "Evaluate the welfare of a horse",
+ "lessons": [
+  {
+   "title": "Evaluating the wellbeing of a horse",
+   "minutes": 20,
+   "html": "<h3>A structured welfare check</h3>\n<p>Welfare is about how the horse is coping, physically and mentally. Use a structured approach, such as the <strong>Five Domains</strong>: nutrition, environment, health, behavioural interactions and the resulting mental state. Evaluate both the resources given to the horse and the horse itself.</p>\n<h4>Animal-based measures</h4>\n<ul>\n<li><strong>Body condition score (BCS):</strong> use a 1 to 9 or 0 to 5 scale. Feel the ribs, spine, withers and tail head. Too thin and obese are both welfare problems.</li>\n<li><strong>Coat and skin:</strong> shine, rain scald, lice, wounds, saddle or harness sores, rub marks.</li>\n<li><strong>Feet:</strong> overgrown, cracked or neglected hooves; lameness.</li>\n<li><strong>Eyes and nose:</strong> discharge, swelling.</li>\n<li><strong>Behaviour:</strong> alert and curious, or dull and withdrawn. Look for fear of people, aggression, and stereotypies such as crib-biting, weaving and box walking, which point to stress or boredom.</li>\n<li><strong>Vital signs:</strong> temperature, pulse and breathing when there is doubt.</li>\n</ul>\n<h4>Resource-based measures</h4>\n<ul>\n<li>Water: clean, available, enough for all horses.</li>\n<li>Feed: enough roughage, suitable concentrates, stored safely.</li>\n<li>Shelter and space: shade, protection from bad weather, safe fences, enough room.</li>\n<li>Social contact: horses are herd animals; long isolation is stressful.</li>\n<li>Tack and equipment: fits well, clean, in good repair.</li>\n<li>Workload: suitable for age, fitness and condition, with rest days.</li>\n<li>Records: vaccinations, deworming, farrier and dental care.</li>\n</ul>\n<p>Record findings on a welfare assessment form with dates and photographs, so that improvement or decline can be tracked.</p>"
+  },
+  {
+   "title": "When horses need help, and how to report neglect",
+   "minutes": 20,
+   "html": "<h3>Recognising when a horse needs assistance</h3>\n<p>Some situations need immediate action; others need a plan with the owner.</p>\n<table><tr><th>Urgent: act now</th><th>Needs follow-up</th></tr>\n<tr><td>Colic, severe lameness, suspected fracture</td><td>Gradual weight loss</td></tr>\n<tr><td>Deep wounds, heavy bleeding</td><td>Overgrown hooves</td></tr>\n<tr><td>Down and unable to rise</td><td>Poor tack fit, mild sores</td></tr>\n<tr><td>No water in hot weather</td><td>Unsuitable shelter</td></tr>\n<tr><td>BCS very low (emaciated)</td><td>Dental problems, quidding</td></tr></table>\n<p>For urgent cases, call the vet at once and make the horse safe. For follow-up cases, discuss with the owner or manager, agree on actions and set a date to check again. Many owners simply lack knowledge or money; education and links to welfare groups often solve the problem.</p>\n<h3>Reporting neglect and abuse</h3>\n<p>Cruelty and neglect are offences under the Animals Protection Act 71 of 1962. When advice does not work, or when abuse is deliberate, report it.</p>\n<ol>\n<li><strong>Collect evidence:</strong> date, time, place, description of the horse (colour, markings, brand), what you saw, BCS, photos and video.</li>\n<li><strong>Keep it factual:</strong> describe what you saw, not what you think the owner intended.</li>\n<li><strong>Report to:</strong> the local SPCA, whose inspectors can investigate and act; or the South African Police Service, where a criminal case can be opened. Equine welfare organisations can also help.</li>\n<li><strong>Get a reference number</strong> and keep copies of all evidence.</li>\n<li><strong>Be prepared to give a statement</strong> and, if needed, testify.</li>\n</ol>\n<h4>Your own safety</h4>\n<p>Do not confront aggressive people or enter property without permission. Let the inspectors and police do their work.</p>\n<h4>Key points</h4>\n<ul>\n<li>Use a structured check covering animal-based and resource-based measures.</li>\n<li>Body condition, feet, coat, behaviour and stereotypies tell you how the horse is coping.</li>\n<li>Separate urgent cases (call the vet) from follow-up cases (plan with the owner).</li>\n<li>Report neglect or abuse to the SPCA or police with factual evidence.</li>\n<li>Stay safe; do not confront or trespass.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is a stereotypy that can point to stress or boredom?",
+   "options": [
+    {
+     "text": "Grazing",
+     "correct": false
+    },
+    {
+     "text": "Crib-biting",
+     "correct": true
+    },
+    {
+     "text": "Rolling after work",
+     "correct": false
+    },
+    {
+     "text": "Drinking water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is an animal-based welfare measure?",
+   "options": [
+    {
+     "text": "Body condition score",
+     "correct": true
+    },
+    {
+     "text": "Size of the water trough",
+     "correct": false
+    },
+    {
+     "text": "Height of the fence",
+     "correct": false
+    },
+    {
+     "text": "Type of hay stored",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A horse is down and cannot rise. What should you do?",
+   "options": [
+    {
+     "text": "Wait a week and check again",
+     "correct": false
+    },
+    {
+     "text": "Write to the breed society",
+     "correct": false
+    },
+    {
+     "text": "Feed it more grain",
+     "correct": false
+    },
+    {
+     "text": "Call the vet at once and make the horse safe",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When writing evidence of neglect, you should...",
+   "options": [
+    {
+     "text": "Guess the owner's intentions",
+     "correct": false
+    },
+    {
+     "text": "Leave out the date",
+     "correct": false
+    },
+    {
+     "text": "Describe only what you saw, with date, time and photos",
+     "correct": true
+    },
+    {
+     "text": "Post it on social media first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which organisation's inspectors can investigate animal cruelty?",
+   "options": [
+    {
+     "text": "The municipality's parks department",
+     "correct": false
+    },
+    {
+     "text": "The SPCA",
+     "correct": true
+    },
+    {
+     "text": "The breed society",
+     "correct": false
+    },
+    {
+     "text": "The feed company",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Both an emaciated horse and an obese horse have a welfare problem.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should enter private property without permission to rescue a neglected horse.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are resource-based measures of welfare? (select all that apply)",
+   "options": [
+    {
+     "text": "Water availability",
+     "correct": true
+    },
+    {
+     "text": "Coat condition",
+     "correct": false
+    },
+    {
+     "text": "Shelter and space",
+     "correct": true
+    },
+    {
+     "text": "Tack fit",
+     "correct": true
+    },
+    {
+     "text": "Lameness",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

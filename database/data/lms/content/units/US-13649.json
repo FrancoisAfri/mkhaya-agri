@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-13649",
+ "title": "Apply fundamental knowledge of environmental ethics to a field of work or study",
+ "lessons": [
+  {
+   "title": "What environmental ethics is",
+   "minutes": 20,
+   "html": "<h3>Ethics and the environment</h3>\n<p>Ethics asks what is right and wrong, and what we owe to others. Environmental ethics extends that question to nature: what do we owe to soil, water, animals, plants, ecosystems and future generations? For anyone working in agriculture, extension or land care, these questions are practical every day: Should this wetland be drained for more maize? Is it acceptable to poison jackals that kill lambs? How much water may an irrigation scheme take when downstream villages depend on the river?</p>\n<h4>Main viewpoints</h4>\n<table><tr><th>View</th><th>What has moral value</th><th>Farm example</th></tr>\n<tr><td>Anthropocentric (human-centred)</td><td>Humans; nature matters because it serves people</td><td>Protect the catchment because it supplies our irrigation water</td></tr>\n<tr><td>Biocentric (life-centred)</td><td>All living beings, each with its own value</td><td>Avoid needless killing of wildlife and pollinators</td></tr>\n<tr><td>Ecocentric (ecosystem-centred)</td><td>Whole ecosystems, species and processes</td><td>Keep the wetland functioning even if it limits cropping</td></tr></table>\n<h4>Useful principles</h4>\n<ul><li><strong>Stewardship</strong> – land users are caretakers who must hand land on in good condition. Many farming families and communities already hold this value.</li>\n<li><strong>Intergenerational equity</strong> – future generations have a claim on resources.</li>\n<li><strong>Precautionary principle</strong> – when an action may cause serious or irreversible harm, lack of full scientific certainty is not a reason to delay protection.</li>\n<li><strong>Polluter pays</strong> – those who cause pollution should bear the cost of fixing it.</li>\n<li><strong>Environmental justice</strong> – environmental harm and benefits should not fall unfairly on poor or marginalised communities.</li></ul>\n<p>Ubuntu also offers an African ethic: a person is a person through other people, and that relationship can include the land and those who come after us.</p>"
+  },
+  {
+   "title": "Ethics in law and in daily practice",
+   "minutes": 20,
+   "html": "<h3>From values to law</h3>\n<p>South African law turns many ethical principles into duties. Section 24 of the Constitution establishes the environmental right. The National Environmental Management Act (NEMA) sets out principles such as sustainable development, the precautionary approach, polluter pays and public participation, and places a duty of care on anyone who causes significant pollution or degradation. Sector laws apply these: the Conservation of Agricultural Resources Act 43 of 1983 (soil, veld, invasive plants), the National Water Act 36 of 1998 (water use and pollution), and the Animals Protection Act 71 of 1962 (cruelty to animals). Law is the minimum; ethics often asks for more.</p>\n<h3>Ethical dilemmas at work</h3>\n<p>Dilemmas arise when values compete. Examples:</p>\n<ul><li>A client asks you to recommend a cheaper but more toxic pesticide close to a river.</li>\n<li>A community project could earn income from harvesting medicinal plants, but harvesting threatens a scarce species.</li>\n<li>Job creation from clearing land conflicts with protecting a threatened grassland.</li></ul>\n<h3>A decision-making process</h3>\n<ol><li><strong>Get the facts</strong> – what exactly is proposed, and what are the likely impacts?</li>\n<li><strong>Identify stakeholders</strong> – including those without a voice: future generations, wildlife, downstream users.</li>\n<li><strong>Check the law and codes</strong> – legislation, permits, company policy and professional codes.</li>\n<li><strong>Apply principles</strong> – stewardship, precaution, justice, honesty.</li>\n<li><strong>Consider alternatives</strong> – is there an option that meets the need with less harm, such as IPM instead of broad-spectrum spraying, or cultivation of medicinal plants instead of wild harvesting?</li>\n<li><strong>Decide and justify</strong> – be able to explain your reasoning openly.</li>\n<li><strong>Review</strong> – monitor outcomes and learn.</li></ol>\n<h3>Personal and professional conduct</h3>\n<p>Give honest advice even if it is unwelcome, declare conflicts of interest (for example sales commissions on products you recommend), respect indigenous knowledge and obtain consent before using it, and report illegal activities such as dumping or poaching through proper channels.</p>\n<h4>Key points</h4>\n<ul><li>Environmental ethics asks what we owe to nature and future generations.</li>\n<li>Anthropocentric, biocentric and ecocentric views weigh value differently.</li>\n<li>Stewardship, precaution, polluter pays and environmental justice guide decisions.</li>\n<li>Law (Constitution s24, NEMA, CARA, National Water Act) sets the minimum standard.</li>\n<li>Use a structured process to resolve dilemmas and be able to justify your choice.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which view says nature matters mainly because it serves people?",
+   "options": [
+    {
+     "text": "Anthropocentric",
+     "correct": true
+    },
+    {
+     "text": "Biocentric",
+     "correct": false
+    },
+    {
+     "text": "Ecocentric",
+     "correct": false
+    },
+    {
+     "text": "Precautionary",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the precautionary principle say?",
+   "options": [
+    {
+     "text": "Wait for full proof before acting",
+     "correct": false
+    },
+    {
+     "text": "Polluters never pay",
+     "correct": false
+    },
+    {
+     "text": "Lack of full certainty is not a reason to delay protection from serious harm",
+     "correct": true
+    },
+    {
+     "text": "Only humans have value",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which principle says those who cause pollution should bear the cost of fixing it?",
+   "options": [
+    {
+     "text": "Stewardship",
+     "correct": false
+    },
+    {
+     "text": "Polluter pays",
+     "correct": true
+    },
+    {
+     "text": "Ubuntu",
+     "correct": false
+    },
+    {
+     "text": "Intergenerational equity",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act deals with cruelty to animals?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "CARA 43 of 1983",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When a client wants a toxic pesticide near a river, a good ethical step is to:",
+   "options": [
+    {
+     "text": "Recommend it to keep the client happy",
+     "correct": false
+    },
+    {
+     "text": "Ignore the river",
+     "correct": false
+    },
+    {
+     "text": "Consider less harmful alternatives such as IPM",
+     "correct": true
+    },
+    {
+     "text": "Use double the rate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The law sets a minimum standard, and ethics may ask for more than the law requires.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Declaring a conflict of interest, such as a sales commission, is unnecessary if your advice is good.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are environmental ethics principles? (select all that apply)",
+   "options": [
+    {
+     "text": "Stewardship",
+     "correct": true
+    },
+    {
+     "text": "Environmental justice",
+     "correct": true
+    },
+    {
+     "text": "Maximum short-term profit",
+     "correct": false
+    },
+    {
+     "text": "Intergenerational equity",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

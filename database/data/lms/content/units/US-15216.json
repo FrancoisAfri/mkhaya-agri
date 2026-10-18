@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-15216",
+ "title": "Create opportunities for innovation and lead projects to meet innovative ideas",
+ "lessons": [
+  {
+   "title": "Building a culture of innovation",
+   "minutes": 20,
+   "html": "<h3>Innovation in land care and agriculture</h3>\n<p>Innovation is putting a new or improved idea into practice so that it adds value. It need not be high-tech. In South African agriculture and land care, innovations include: using cleared invasive wood to make fence droppers or charcoal; mobile-phone groups that share market prices; rainwater harvesting with trench beds; solar-powered boreholes; youth teams using drones to map erosion; and farmer-led trials of cover crops.</p>\n<h4>Types of innovation</h4>\n<ul><li><strong>Product</strong> – a new crop, product or service (e.g. processing marula into a value-added product).</li>\n<li><strong>Process</strong> – a better way of doing things (e.g. a new layout for a packshed that halves handling time).</li>\n<li><strong>Organisational</strong> – new ways of working together (e.g. a grazing association managing communal camps).</li>\n<li><strong>Social</strong> – new approaches to community problems (e.g. a savings group that funds inputs).</li></ul>\n<h4>Creating opportunities</h4>\n<ul><li><strong>Encourage ideas from everyone</strong> – farm workers, community members and youth often see practical improvements first. Use suggestion boxes, idea sessions and open discussion at meetings.</li>\n<li><strong>Psychological safety</strong> – people must feel safe to suggest ideas and to fail without being blamed.</li>\n<li><strong>Exposure</strong> – exchange visits, farmers' days, research partnerships, and information from extension services and the Agricultural Research Council.</li>\n<li><strong>Time and resources</strong> – small budgets and time for trials.</li>\n<li><strong>Recognition</strong> – celebrate and credit those whose ideas succeed.</li></ul>\n<h4>Barriers</h4>\n<p>Fear of failure, rigid rules, lack of funds, \"we've always done it this way\", top-down management, and short-term funding cycles. Leaders reduce these by modelling openness, giving permission to try, and protecting small experiments.</p>"
+  },
+  {
+   "title": "From idea to project",
+   "minutes": 20,
+   "html": "<h3>Selecting ideas</h3>\n<p>Not every idea should become a project. Screen ideas against clear criteria:</p>\n<table><tr><th>Criterion</th><th>Question</th></tr>\n<tr><td>Need</td><td>Does it solve a real problem or meet a real opportunity?</td></tr>\n<tr><td>Value</td><td>What are the benefits (income, savings, environmental gain, social benefit)?</td></tr>\n<tr><td>Feasibility</td><td>Do we have, or can we get, the skills, technology and resources?</td></tr>\n<tr><td>Cost and risk</td><td>What does it cost in ZAR, and what could go wrong?</td></tr>\n<tr><td>Fit</td><td>Does it fit our goals, culture and the law?</td></tr></table>\n<h3>Testing on a small scale</h3>\n<p>Run a pilot: one camp, one field, one village. Define what success looks like before starting, collect baseline data, and compare with a control (e.g. a plot without the cover crop). Farmer-led trials build ownership and credibility.</p>\n<h3>Leading the innovation project</h3>\n<ol><li><strong>Define the project</strong> – objective, scope, deliverables, success measures.</li>\n<li><strong>Build the team</strong> – include the idea's originator, technical support and users.</li>\n<li><strong>Plan</strong> – tasks, timeline, budget, risks, stakeholders.</li>\n<li><strong>Secure support</strong> – present a short business case to management, funders or the committee.</li>\n<li><strong>Implement and learn</strong> – short cycles of plan, do, check, act. Expect setbacks and adjust.</li>\n<li><strong>Evaluate</strong> – did it meet the success measures? What did we learn?</li>\n<li><strong>Scale or stop</strong> – expand what works; stop what does not, and share lessons.</li></ol>\n<h3>Managing change</h3>\n<p>Innovations change how people work. Communicate why the change is needed, involve people early, train them, address fears honestly, and show early wins. Protect intellectual property and give credit where community or indigenous knowledge is used, with consent.</p>\n<h4>Key points</h4>\n<ul><li>Innovation is putting new ideas into practice to add value; it can be simple.</li>\n<li>Create opportunities by inviting ideas from everyone and making it safe to try.</li>\n<li>Screen ideas for need, value, feasibility, cost, risk and fit.</li>\n<li>Pilot small, measure against a baseline and learn in short cycles.</li>\n<li>Scale what works, stop what does not, and manage the people side of change.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is innovation?",
+   "options": [
+    {
+     "text": "Any new idea, even if never used",
+     "correct": false
+    },
+    {
+     "text": "Putting a new or improved idea into practice so it adds value",
+     "correct": true
+    },
+    {
+     "text": "Buying expensive technology",
+     "correct": false
+    },
+    {
+     "text": "Copying a competitor exactly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A grazing association managing communal camps is an example of which type of innovation?",
+   "options": [
+    {
+     "text": "Product",
+     "correct": false
+    },
+    {
+     "text": "Process",
+     "correct": false
+    },
+    {
+     "text": "Organisational",
+     "correct": true
+    },
+    {
+     "text": "Technological only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is psychological safety important for innovation?",
+   "options": [
+    {
+     "text": "People must feel safe to suggest ideas and fail without blame",
+     "correct": true
+    },
+    {
+     "text": "It reduces costs",
+     "correct": false
+    },
+    {
+     "text": "It is a legal requirement",
+     "correct": false
+    },
+    {
+     "text": "It replaces planning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of a control plot in a pilot?",
+   "options": [
+    {
+     "text": "To store tools",
+     "correct": false
+    },
+    {
+     "text": "To grow extra food",
+     "correct": false
+    },
+    {
+     "text": "To keep visitors out",
+     "correct": false
+    },
+    {
+     "text": "To compare results with and without the innovation",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does plan, do, check, act describe?",
+   "options": [
+    {
+     "text": "A budgeting method",
+     "correct": false
+    },
+    {
+     "text": "A short learning cycle for implementation",
+     "correct": true
+    },
+    {
+     "text": "A conflict style",
+     "correct": false
+    },
+    {
+     "text": "A stakeholder map",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ideas from farm workers and community members should be encouraged because they often see practical improvements first.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Once a pilot starts, it must be scaled up even if it fails to meet its success measures.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are barriers to innovation? (select all that apply)",
+   "options": [
+    {
+     "text": "Fear of failure",
+     "correct": true
+    },
+    {
+     "text": "Rigid rules and top-down management",
+     "correct": true
+    },
+    {
+     "text": "Recognition of good ideas",
+     "correct": false
+    },
+    {
+     "text": "Short-term funding cycles",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246418",
+ "title": "Assess and record the quality and size of a trophy animal",
+ "lessons": [
+  {
+   "title": "Assessing trophy value",
+   "minutes": 16,
+   "html": "<h3>What makes a good trophy?</h3>\n<p>A trophy is the horns, tusks, skull or skin kept from a hunted animal. Clients often judge the success of a hunt by trophy quality, and professional hunters must be able to assess an animal in the field before the shot and measure it afterwards.</p>\n<h4>Factors in trophy value</h4>\n<ul><li><strong>Length</strong> of horns or tusks.</li>\n<li><strong>Mass</strong>: thickness of the horn bases, important for buffalo, kudu and sable.</li>\n<li><strong>Shape and spread</strong>: curls on kudu, width of buffalo horns, the lyre shape of impala.</li>\n<li><strong>Symmetry</strong> between left and right horns.</li>\n<li><strong>Maturity and age</strong>: an old bull with worn tips may score lower but is the ethically preferred animal to hunt, since it has already bred.</li>\n<li><strong>Condition</strong>: broken or broomed (worn) tips, a well-developed boss on a buffalo bull, and good skin for mounting.</li></ul>\n<h4>Field judging</h4>\n<p>Before a client shoots, the professional hunter compares horn length with features of the animal's body. For example, kudu horns are often judged by the number of curls and how far the tips extend; impala horn length can be compared with ear length; buffalo bulls are judged by a hard, fully developed boss and spread beyond the ears. Field judging takes practice: watch the animal from different angles and do not rush. Shooting a young immature male because it looked large is a mistake that harms the population and the hunter's reputation.</p>\n<h4>Record books</h4>\n<p>Two international record books are widely used in South Africa:</p>\n<ul><li><strong>Rowland Ward's Records of Big Game</strong>, one of the oldest record books.</li>\n<li><strong>Safari Club International (SCI) Record Book</strong>.</li></ul>\n<p>Each sets a minimum measurement for each species to qualify, and each uses its own measuring method. A trophy may qualify in one book and not the other.</p>"
+  },
+  {
+   "title": "Measuring and recording trophies",
+   "minutes": 16,
+   "html": "<h3>Measuring equipment</h3>\n<ul><li>A flexible steel tape or a cable that can follow the curve of the horn, then be laid against a straight rule.</li>\n<li>Calipers for diameters.</li>\n<li>The current official measuring manual and score sheets for each record book.</li></ul>\n<p>Measurements are usually recorded in inches and fractions, as the record books require. Trophies are normally measured after the drying period set by the record book, because horns and skulls shrink slightly as they dry. Field measurements before that are for information only.</p>\n<h4>The two systems in principle</h4>\n<table><tr><th>Aspect</th><th>Rowland Ward</th><th>SCI</th></tr>\n<tr><td>Typical horned antelope</td><td>Based mainly on the length of the longer horn measured along the curve</td><td>A total score combining the lengths of both horns and the circumference of both bases</td></tr>\n<tr><td>Effect</td><td>A single long horn can qualify</td><td>Mass and symmetry both count</td></tr>\n<tr><td>Measurer</td><td>Official measurers appointed by the book</td><td>Official SCI measurers</td></tr></table>\n<p>Different species (cats, tusked animals, buffalo, rhino) have their own specific methods. Always follow the current manual for the species, because rules are updated.</p>\n<h4>Measuring step by step</h4>\n<ol><li>Identify the species correctly and choose the right score sheet.</li>\n<li>Clean the trophy and place it on a firm surface.</li>\n<li>Find the official start and end points for each measurement as shown in the manual.</li>\n<li>Run the tape along the correct line (for example the front or outer curve) pressing it close to the horn surface.</li>\n<li>Read to the required fraction and write it down immediately.</li>\n<li>Repeat each measurement to check it.</li></ol>\n<h4>Recording</h4>\n<p>Complete the score sheet with the hunter's name, species, date and place of hunt, farm and permit number, measurements and the measurer's signature. Keep copies with the hunt records and the export documents for the trophy.</p>\n<h4>Key points</h4>\n<ul><li>Trophy value depends on length, mass, shape, symmetry, maturity and condition.</li>\n<li>Old mature males are the ethical choice even if tips are worn.</li>\n<li>Rowland Ward is based mainly on horn length; SCI adds both horns and both base circumferences.</li>\n<li>Use the current manual and measure after the required drying period.</li>\n<li>Record measurements, permit details and signatures accurately.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is an old mature male often the ethical choice for a trophy hunt?",
+   "options": [
+    {
+     "text": "It is cheaper",
+     "correct": false
+    },
+    {
+     "text": "It has the longest tips",
+     "correct": false
+    },
+    {
+     "text": "It has already bred",
+     "correct": true
+    },
+    {
+     "text": "It is the fastest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "For a typical horned antelope, what is the Rowland Ward method mainly based on?",
+   "options": [
+    {
+     "text": "Weight of the skull",
+     "correct": false
+    },
+    {
+     "text": "Length of the longer horn along the curve",
+     "correct": true
+    },
+    {
+     "text": "Width of the ears",
+     "correct": false
+    },
+    {
+     "text": "Total of both horns and both bases",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the SCI score for a typical horned antelope combine?",
+   "options": [
+    {
+     "text": "Number of curls only",
+     "correct": false
+    },
+    {
+     "text": "Tip-to-tip spread only",
+     "correct": false
+    },
+    {
+     "text": "Body weight and age",
+     "correct": false
+    },
+    {
+     "text": "Lengths of both horns and circumference of both bases",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are trophies measured after a drying period?",
+   "options": [
+    {
+     "text": "It is cheaper",
+     "correct": false
+    },
+    {
+     "text": "The tape works better on dry horns",
+     "correct": false
+    },
+    {
+     "text": "To let the client go home",
+     "correct": false
+    },
+    {
+     "text": "Horns and skulls shrink slightly as they dry",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which feature shows a mature buffalo bull?",
+   "options": [
+    {
+     "text": "Hard, fully developed boss",
+     "correct": true
+    },
+    {
+     "text": "Soft, undeveloped boss",
+     "correct": false
+    },
+    {
+     "text": "Short horns inside the ears",
+     "correct": false
+    },
+    {
+     "text": "Spotted skin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A trophy may qualify in one record book and not in the other.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Measurements can be written down later from memory at the end of the day.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which factors affect trophy value? (select all that apply)",
+   "options": [
+    {
+     "text": "Symmetry",
+     "correct": true
+    },
+    {
+     "text": "The colour of the hunting vehicle",
+     "correct": false
+    },
+    {
+     "text": "Horn length",
+     "correct": true
+    },
+    {
+     "text": "Horn mass at the base",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -26,7 +26,7 @@ class Notifier
         $sent = 0;
         if ($instance?->definition?->is_confidential) {
             $title = 'A confidential workflow needs your attention';
-            $message = 'Open Mkhaya Hub to see the details.';
+            $message = 'Open Mkhaya Agri to see the details.';
         }
         $email = (bool) $this->settings->get('email_notifications', $instance?->company_id);
         foreach (array_unique(array_filter($userIds)) as $userId) {

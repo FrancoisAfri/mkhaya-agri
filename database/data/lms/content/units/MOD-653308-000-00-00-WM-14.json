@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-14",
+ "title": "Diagnosis and Repair of Tractor Electronic Control Systems",
+ "lessons": [
+  {
+   "title": "How tractor electronic controls work",
+   "minutes": 20,
+   "html": "<h3>Electronic control on modern tractors</h3> <p>Modern tractors use electronic control units (ECUs) to manage the engine (common rail injection, exhaust after-treatment), the transmission (powershift and CVT), the hitch (electronic draft control), PTO engagement, hydraulics and often guidance and ISOBUS implement control. These units talk to each other over a data network called CAN bus.</p> <h4>Inputs, processing and outputs</h4> <table> <tr><th>Part</th><th>Examples</th></tr> <tr><td>Inputs (sensors and switches)</td><td>Speed sensors, temperature and pressure sensors, position potentiometers, draft sensing pins, operator switches</td></tr> <tr><td>Processing (ECU)</td><td>Compares input signals with its programme and decides what to do</td></tr> <tr><td>Outputs (actuators)</td><td>Solenoid valves, injectors, proportional valves, relays, warning lamps</td></tr> </table> <p>Most sensors receive a reference voltage (commonly 5 V) and an earth from the ECU, and send back a signal that changes with what they measure. Others, such as some speed sensors, produce their own signal or a pulse.</p> <h4>CAN bus basics</h4> <p>The CAN bus is usually a twisted pair of wires (CAN high and CAN low) with terminating resistors at each end of the network. With the power off, you can often measure the resistance between CAN high and CAN low at a diagnostic connector; the expected value comes from the service information. A broken wire, a missing terminator or a water-logged connector can stop several units from communicating at once, giving many fault codes together.</p> <h4>Safety with electronic systems</h4> <ul> <li>A tractor with electronic hitch or PTO can move or engage when a fault is cleared or a unit is reset. Keep everyone clear of the linkage and PTO and lower implements first.</li> <li>Never probe connectors with sharp objects or pierce wire insulation; it lets water in and creates new faults.</li> <li>Disconnect ECUs and the battery before welding, as the manual instructs.</li> <li>Never pull an ECU connector with the ignition on unless the procedure says to.</li> </ul>"
+  },
+  {
+   "title": "Using diagnostic tools and fault codes",
+   "minutes": 20,
+   "html": "<h3>Reading the system</h3> <p>Most tractors show fault codes on the dashboard display, and the dealer diagnostic software (on a laptop with an interface) gives more detail: live data, test functions and calibration. Use the tool your workshop is authorised to use.</p> <h4>Steps with fault codes</h4> <ol> <li>Record all active and stored fault codes before clearing anything, with the hour meter reading.</li> <li>Look up each code in the service information. A code tells you which <em>circuit or signal</em> the ECU does not like, not which part has failed.</li> <li>If many codes appear in different units, suspect power supply, earth or CAN bus problems first.</li> <li>Check the basics: battery voltage, fuses, ECU power and earth connections.</li> <li>Use live data. Compare a sensor's reading with reality, for example the coolant temperature reading on a cold engine should be close to air temperature.</li> <li>Do circuit tests at the connector: reference voltage, signal voltage, earth, and wire continuity back to the ECU. Use back-probe pins or breakout leads.</li> <li>Repair, clear codes, and run the tractor to confirm the code does not return.</li> </ol> <h4>Example from the farm</h4> <p>A tractor's hitch will not lift and shows a position sensor fault. Live data shows the sensor reading stuck at zero. At the sensor connector you measure the reference voltage present, the earth good, but no signal. Moving the harness near the lift arm makes the reading flicker: a chafed signal wire. Repairing and protecting the wire fixes the fault; a new sensor would not have.</p> <h4>Intermittent faults</h4> <p>Watch live data or record a log while wiggling the harness, driving over rough ground in the yard or heating a part. Write down when and how the fault appears. Ask the driver whether it happens after washing the tractor or in rain.</p>"
+  },
+  {
+   "title": "Repair, replacement and calibration",
+   "minutes": 20,
+   "html": "<h3>Repairing electronic circuits</h3> <ul> <li>Repair wiring with the correct gauge wire, sealed crimp connectors and heat-shrink. CAN bus wires must stay twisted and should be repaired as the manufacturer instructs.</li> <li>Replace damaged connector seals and terminals with the correct parts so water cannot enter.</li> <li>Check pins for corrosion or being pushed back in the connector.</li> </ul> <h3>Replacing sensors, actuators and ECUs</h3> <ul> <li>Confirm the fault with tests before ordering a part. ECUs are expensive and rarely fail on their own; wiring and connectors fail far more often.</li> <li>Fit sensors with the correct air gap or position if the manual gives one.</li> <li>A replacement ECU usually needs programming with software and the tractor's configuration using the dealer tool.</li> </ul> <h3>Calibration</h3> <p>After replacing parts such as a hitch position sensor, transmission solenoid, clutch pack or ECU, many systems need calibration. The tool or dashboard menu guides you through steps such as learning the clutch fill points or setting hitch upper and lower limits. Follow every step, keep people clear of moving parts and do not interrupt the process. A tractor that is not calibrated may shift harshly, creep or lift unevenly.</p> <h3>Verification and records</h3> <ol> <li>Clear codes and cycle the ignition.</li> <li>Test the function under realistic conditions, such as lifting a heavy implement or driving through all gears.</li> <li>Re-read codes to confirm none returned.</li> <li>Record codes found, live data readings, tests, the cause, parts, software updates and calibrations done.</li> </ol> <p>Explain to the farmer what failed and how to avoid it, for example not using a high-pressure washer directly on connectors.</p> <h4>Key points</h4> <ul> <li>A fault code points to a circuit or signal, not directly to a failed part.</li> <li>Many codes across units suggest power, earth or CAN bus problems.</li> <li>Use live data and circuit tests to confirm the fault before replacing parts.</li> <li>Never pierce insulation; use back-probes or breakout leads.</li> <li>Calibrate after replacing parts, then verify and record.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a fault code usually tell the technician?",
+   "options": [
+    {
+     "text": "That the ECU has failed",
+     "correct": false
+    },
+    {
+     "text": "Which circuit or signal the ECU has detected a problem with",
+     "correct": true
+    },
+    {
+     "text": "The cost of the repair",
+     "correct": false
+    },
+    {
+     "text": "Exactly which part to replace",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Many fault codes appear at once in several different control units. What should you suspect first?",
+   "options": [
+    {
+     "text": "Every sensor has failed",
+     "correct": false
+    },
+    {
+     "text": "The tyres are under-inflated",
+     "correct": false
+    },
+    {
+     "text": "Power supply, earth or CAN bus problems",
+     "correct": true
+    },
+    {
+     "text": "The engine oil is low",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before clearing fault codes?",
+   "options": [
+    {
+     "text": "Nothing, just clear them",
+     "correct": false
+    },
+    {
+     "text": "Record all active and stored codes",
+     "correct": true
+    },
+    {
+     "text": "Disconnect the ECU",
+     "correct": false
+    },
+    {
+     "text": "Replace the battery",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you not pierce wire insulation with a probe?",
+   "options": [
+    {
+     "text": "It makes the reading too high",
+     "correct": false
+    },
+    {
+     "text": "It erases the ECU programme",
+     "correct": false
+    },
+    {
+     "text": "It drains the battery",
+     "correct": false
+    },
+    {
+     "text": "It lets water in and creates new faults",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is often needed after replacing a hitch position sensor or transmission solenoid?",
+   "options": [
+    {
+     "text": "Changing the tyres",
+     "correct": false
+    },
+    {
+     "text": "Calibration using the tool or dashboard menu",
+     "correct": true
+    },
+    {
+     "text": "Painting the tractor",
+     "correct": false
+    },
+    {
+     "text": "Nothing at all",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "ECUs fail far more often than wiring and connectors, so the ECU should be replaced first.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A CAN bus usually has terminating resistors at each end of the network.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are safe practices with tractor electronic systems? (select all that apply)",
+   "options": [
+    {
+     "text": "Disconnect the battery and ECUs before welding as the manual instructs",
+     "correct": true
+    },
+    {
+     "text": "Lower implements before working on the hitch system",
+     "correct": true
+    },
+    {
+     "text": "Pierce wires with a pin to measure voltage",
+     "correct": false
+    },
+    {
+     "text": "Keep people clear of the linkage and PTO when clearing faults or calibrating",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

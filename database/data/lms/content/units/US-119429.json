@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119429",
+ "title": "Perform and administer record keeping functions in poultry production",
+ "lessons": [
+  {
+   "title": "Why poultry farms keep records",
+   "minutes": 15,
+   "html": "<h3>Records turn observations into decisions</h3><p>A poultry house changes every day. Without records, a manager cannot tell whether a flock is doing well, find the cause of a problem, prove compliance or calculate profit. Records are also legal and commercial evidence: abattoirs, egg buyers, the vet, the state veterinary services and auditors may ask for them.</p><h4>Types of records</h4><table><tr><th>Record</th><th>Typical content</th></tr><tr><td>Placement</td><td>Date, house, hatchery, breed, number of chicks, chick quality, hatchery vaccinations</td></tr><tr><td>Daily house sheet</td><td>Mortality, culls, feed, water, min and max temperatures, humidity, observations</td></tr><tr><td>Weights</td><td>Weekly sample weights, average, uniformity</td></tr><tr><td>Egg production (layers/breeders)</td><td>Eggs collected, grades, floor eggs, cracked, egg weight</td></tr><tr><td>Health</td><td>Vaccinations, treatments, vet visits, lab results, withdrawal periods</td></tr><tr><td>Feed</td><td>Deliveries, ration type, quantity, silo levels</td></tr><tr><td>Biosecurity</td><td>Visitor register, footbath changes, pest control</td></tr><tr><td>Maintenance</td><td>Breakdowns, services, generator tests</td></tr><tr><td>Staff</td><td>Attendance, training, incidents</td></tr><tr><td>Sales</td><td>Birds or eggs sold, weights, prices, abattoir results</td></tr></table><h4>Traceability</h4><p>Records link each flock to its source, inputs, treatments and buyers. If there is a disease outbreak or a residue problem, traceability lets authorities and the company act quickly and limit damage.</p><h4>Example</h4><p>A broiler house shows water intake 8% lower than the day before. Because the worker recorded it, the supervisor checks and finds a blocked filter. It is cleaned before the birds lose weight. Without the record, the problem might not have been noticed until mortality rose.</p><p>Records also help with planning the next flock: placement numbers, feed orders and staffing can be based on real results rather than guesses.</p><p>Train every worker to understand why records matter.</p>"
+  },
+  {
+   "title": "Recording accurately",
+   "minutes": 15,
+   "html": "<h3>Getting the data right</h3><h4>Principles</h4><ul><li><strong>Timely</strong>: record at the time, or as soon as possible. Memory is unreliable.</li><li><strong>Accurate</strong>: count dead birds, read meters exactly, use calibrated scales.</li><li><strong>Complete</strong>: fill every field; write N/A if it does not apply.</li><li><strong>Legible</strong>: neat handwriting in ink, or careful data entry.</li><li><strong>Honest</strong>: never adjust figures to look better. Hidden problems grow.</li><li><strong>Signed</strong>: the person who recorded and, where required, the supervisor who checked.</li></ul><h4>Correcting errors</h4><p>On paper, draw a single line through the mistake, write the correct value and initial it. In electronic systems, use the edit function that keeps an audit trail; do not delete records.</p><h4>Designing simple forms</h4><p>A good daily house sheet has the farm, house and flock number at the top, one row per day, and clear columns with units, for example mortality (birds), feed (kg), water (litres), temperature (°C). Keep forms simple so that workers fill them in correctly. Place them where the work happens, such as in a clipboard at the house entrance.</p><h4>Electronic and mobile systems</h4><p>Many farms now capture data on phones or tablets, which sends figures straight to a central system and creates graphs. Make sure devices are charged, staff are trained, passwords are personal and data is backed up. Have paper back-ups for power or network failure.</p><h4>Supervisor checks</h4><p>Check records daily. Look for missing entries, impossible figures (such as water intake falling to zero) and unusual trends. Ask about them while the facts are fresh.</p><p>Keep blank forms stocked.</p>"
+  },
+  {
+   "title": "Analysing, filing and reporting",
+   "minutes": 15,
+   "html": "<h3>Using records to manage</h3><h4>Calculations</h4><ul><li><strong>Cumulative mortality %</strong> = total dead and culled ÷ birds placed × 100. Example: 900 ÷ 30 000 × 100 = 3%.</li><li><strong>Feed conversion ratio</strong> = total feed used (kg) ÷ total live weight produced (kg).</li><li><strong>Hen-day production %</strong> = eggs produced in a day ÷ hens alive that day × 100. Example: 8 550 eggs ÷ 9 500 hens × 100 = 90%.</li><li><strong>Water to feed ratio</strong> = water used (litres) ÷ feed used (kg).</li></ul><h4>Graphs and trends</h4><p>Plotting daily water intake, mortality or egg production on a graph makes changes easy to see. Compare actual figures with breed targets plotted on the same graph.</p><h4>Filing and storage</h4><ul><li>File records by farm, house and flock so they can be found quickly.</li><li>Keep them in a dry, secure place, protected from pests.</li><li>Keep them for the period required by company policy, customers and authorities.</li><li>Protect personal information on staff records, as the Protection of Personal Information Act 4 of 2013 requires.</li></ul><h4>Reporting</h4><p>Prepare weekly reports for management with key figures, comparisons with targets, problems and actions. At the end of each flock, prepare a flock summary: placement, mortality, weights, FCR or egg production, health events, costs and lessons. Share the results with staff; it motivates them and shows why their recording matters.</p><h4>Key points</h4><ul><li>Records support management decisions, compliance, traceability and audits.</li><li>Record at the time, accurately, completely, legibly and honestly.</li><li>Correct errors with a single line and initials, or with an audit trail electronically.</li><li>Calculate mortality %, FCR and hen-day production % and plot trends.</li><li>File records securely, protect personal information and report weekly and per flock.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A flock had 30 000 chicks placed and 900 died or were culled. What is the cumulative mortality?",
+   "options": [
+    {
+     "text": "3%",
+     "correct": true
+    },
+    {
+     "text": "0,3%",
+     "correct": false
+    },
+    {
+     "text": "9%",
+     "correct": false
+    },
+    {
+     "text": "30%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is hen-day production % calculated?",
+   "options": [
+    {
+     "text": "Hens alive ÷ eggs produced × 100",
+     "correct": false
+    },
+    {
+     "text": "Eggs produced in a day ÷ hens alive that day × 100",
+     "correct": true
+    },
+    {
+     "text": "Eggs per week ÷ 7",
+     "correct": false
+    },
+    {
+     "text": "Feed used ÷ eggs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should records be made at the time of the activity?",
+   "options": [
+    {
+     "text": "It looks better",
+     "correct": false
+    },
+    {
+     "text": "It uses less paper",
+     "correct": false
+    },
+    {
+     "text": "Memory is unreliable",
+     "correct": true
+    },
+    {
+     "text": "The vet prefers it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a mistake be corrected on a paper record?",
+   "options": [
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Use correction fluid",
+     "correct": false
+    },
+    {
+     "text": "Write over it heavily",
+     "correct": false
+    },
+    {
+     "text": "Draw a single line through it, write the correct value and initial",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does traceability allow in a disease or residue problem?",
+   "options": [
+    {
+     "text": "Quick action to trace sources and buyers",
+     "correct": true
+    },
+    {
+     "text": "Avoiding the vet",
+     "correct": false
+    },
+    {
+     "text": "Hiding the problem",
+     "correct": false
+    },
+    {
+     "text": "Changing prices",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Figures may be adjusted to look better if the flock had a bad week.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Paper back-ups are useful when power or network fails on farms using electronic records.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong on a daily house sheet? (select all that apply)",
+   "options": [
+    {
+     "text": "Mortality and culls",
+     "correct": true
+    },
+    {
+     "text": "Feed and water used",
+     "correct": true
+    },
+    {
+     "text": "Minimum and maximum temperatures",
+     "correct": true
+    },
+    {
+     "text": "The worker's favourite food",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

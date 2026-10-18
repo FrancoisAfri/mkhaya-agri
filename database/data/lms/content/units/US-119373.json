@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119373",
+ "title": "Describe and represent objects in terms of shape, space and measurement",
+ "lessons": [
+  {
+   "title": "Shapes and space around the stable yard",
+   "minutes": 15,
+   "html": "<h3>Flat shapes</h3> <p>Flat shapes have length and width but no thickness. You see them in the stable yard every day:</p> <ul> <li><strong>Square</strong> - 4 equal sides, 4 square corners. Many stables are square, for example 3.6 m by 3.6 m.</li> <li><strong>Rectangle</strong> - 4 sides, opposite sides equal, 4 square corners. A riding arena or a camp is often a rectangle.</li> <li><strong>Triangle</strong> - 3 sides. The roof end of a barn.</li> <li><strong>Circle</strong> - round, every point the same distance from the middle. A lunge ring or a round water trough.</li> </ul> <h4>Solid (3-D) shapes</h4> <p>Solid shapes have length, width and height.</p> <table><tr><th>Shape</th><th>Farm example</th></tr> <tr><td>Cube</td><td>A square box of salt licks</td></tr> <tr><td>Rectangular box (cuboid)</td><td>A small hay bale, a feed bin</td></tr> <tr><td>Cylinder</td><td>A round bale, a water tank, a drum</td></tr> <tr><td>Cone</td><td>A pile of sand or a traffic cone at the arena</td></tr></table> <h4>Position and direction</h4> <p>We use words to say where things are: left, right, in front of, behind, next to, between, above, below. For example: \"The feed room is next to stable 4, behind the tack room.\"</p> <p>A compass gives directions: north, south, east and west. In South Africa the sun rises in the east and sets in the west. At midday it is to the north.</p> <h4>Reading a simple plan</h4> <p>A plan is a drawing of a place seen from above. A yard plan shows stables as small rectangles, the arena as a big rectangle and the lunge ring as a circle. A key explains what each symbol means. A scale tells you how big things really are, for example 1 cm on the plan = 2 m on the ground.</p> <p>Example: on the plan, the path from the gate to the feed room is 5 cm. With the scale 1 cm = 2 m, the real path is 5 × 2 = 10 m.</p>"
+  },
+  {
+   "title": "Measuring on the farm",
+   "minutes": 15,
+   "html": "<h3>Units of measurement</h3> <table><tr><th>What we measure</th><th>Units</th><th>Farm example</th></tr> <tr><td>Length</td><td>millimetre (mm), centimetre (cm), metre (m), kilometre (km)</td><td>Fence, stable wall, distance to town</td></tr> <tr><td>Mass (weight)</td><td>gram (g), kilogram (kg)</td><td>Feed, a bag of cubes</td></tr> <tr><td>Volume of liquid</td><td>millilitre (ml), litre (l)</td><td>Water in a bucket, fly spray</td></tr> <tr><td>Time</td><td>minutes, hours, days</td><td>Exercise time, feeding times</td></tr> <tr><td>Temperature</td><td>degrees Celsius (°C)</td><td>A horse's temperature, the weather</td></tr></table> <p>Remember: 10 mm = 1 cm, 100 cm = 1 m, 1 000 m = 1 km, 1 000 g = 1 kg, 1 000 ml = 1 l.</p> <h4>Perimeter</h4> <p>Perimeter is the distance all the way around a shape. You need it to know how much fencing or tape you need.</p> <p>A camp is 40 m long and 25 m wide. Perimeter = 40 + 25 + 40 + 25 = 130 m. If the fence has 3 strands of wire, you need 3 × 130 = 390 m of wire.</p> <h4>Area</h4> <p>Area is the space inside a flat shape. We measure it in square metres (m²). For a rectangle: <strong>area = length × width</strong>.</p> <p>A stable is 4 m by 3.5 m. Area = 4 × 3.5 = 14 m². This helps you know how much bedding or rubber matting to buy.</p> <h4>Volume</h4> <p>Volume is the space inside a solid. For a box shape: <strong>volume = length × width × height</strong>. A feed bin 1 m by 0.5 m by 0.8 m holds 1 × 0.5 × 0.8 = 0.4 m³.</p> <h4>Measuring tools</h4> <ul> <li>Tape measure - stables, fences, horse height</li> <li>Scale - feed and medicine</li> <li>Measuring jug - liquids</li> <li>Thermometer - temperature</li> <li>Weight tape - estimates a horse's weight from around the girth</li> </ul> <h4>Measure carefully</h4> <p>Start the tape at zero. Keep it straight and tight. Measure twice. Write the answer with its unit, for example 14 m², not just 14. A wrong measurement can mean too little wire, or the wrong amount of feed.</p> <h4>Key points</h4> <ul> <li>Know flat shapes (square, rectangle, triangle, circle) and solids (cube, cuboid, cylinder, cone).</li> <li>A plan shows a place from above; use the scale to find real sizes.</li> <li>Perimeter is the distance around; area is length × width.</li> <li>Volume of a box is length × width × height.</li> <li>Always write the unit and measure twice.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which shape is a round bale or a water tank?",
+   "options": [
+    {
+     "text": "Cube",
+     "correct": false
+    },
+    {
+     "text": "Cone",
+     "correct": false
+    },
+    {
+     "text": "Cylinder",
+     "correct": true
+    },
+    {
+     "text": "Triangle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A camp is 40 m long and 25 m wide. What is its perimeter?",
+   "options": [
+    {
+     "text": "65 m",
+     "correct": false
+    },
+    {
+     "text": "130 m",
+     "correct": true
+    },
+    {
+     "text": "1 000 m",
+     "correct": false
+    },
+    {
+     "text": "100 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A stable is 4 m by 3.5 m. What is its area?",
+   "options": [
+    {
+     "text": "7.5 m²",
+     "correct": false
+    },
+    {
+     "text": "14 m²",
+     "correct": true
+    },
+    {
+     "text": "15 m²",
+     "correct": false
+    },
+    {
+     "text": "11 m²",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On a plan, 1 cm = 2 m. A path is 5 cm on the plan. How long is the real path?",
+   "options": [
+    {
+     "text": "2.5 m",
+     "correct": false
+    },
+    {
+     "text": "7 m",
+     "correct": false
+    },
+    {
+     "text": "10 m",
+     "correct": true
+    },
+    {
+     "text": "5 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many grams are in 1 kilogram?",
+   "options": [
+    {
+     "text": "10",
+     "correct": false
+    },
+    {
+     "text": "100",
+     "correct": false
+    },
+    {
+     "text": "1 000",
+     "correct": true
+    },
+    {
+     "text": "10 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Area is the distance all the way around a shape.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In South Africa the sun rises in the east.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tools measure length or size? (select all that apply)",
+   "options": [
+    {
+     "text": "Tape measure",
+     "correct": true
+    },
+    {
+     "text": "Thermometer",
+     "correct": false
+    },
+    {
+     "text": "Weight tape around the girth",
+     "correct": true
+    },
+    {
+     "text": "Measuring jug",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

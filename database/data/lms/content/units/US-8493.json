@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8493",
+ "title": "Maintain occupational health and safety",
+ "lessons": [
+  {
+   "title": "Hazards and risks at work",
+   "minutes": 15,
+   "html": "<h3>Why health and safety matters</h3><p>Every year people are hurt or killed at work on farms and in food factories. Most accidents can be prevented. The <strong>Occupational Health and Safety Act 85 of 1993 (OHS Act)</strong> says the employer must make the workplace as safe as reasonably practicable. Workers must also work safely and follow the rules.</p><h4>Hazard and risk</h4><ul><li>A <strong>hazard</strong> is anything that can cause harm: a sharp knife, a moving tractor, a wet floor, a chemical, a bull.</li><li>A <strong>risk</strong> is the chance that the hazard will hurt someone, and how badly.</li></ul><h4>Common hazards</h4><table><tr><th>Type</th><th>Examples</th></tr><tr><td>Mechanical</td><td>Tractors, PTO shafts, saws, conveyors</td></tr><tr><td>Chemical</td><td>Pesticides, cleaning chemicals, fuel</td></tr><tr><td>Physical</td><td>Noise, heat, cold rooms, sun, electricity</td></tr><tr><td>Biological</td><td>Germs from animals, blood and dung</td></tr><tr><td>Ergonomic</td><td>Heavy lifting, bending, repeated movements</td></tr><tr><td>Animals</td><td>Kicks, bites, crushing</td></tr></table><h4>Controlling hazards</h4><p>The best way is to remove the hazard. If that is not possible, use these controls in this order:</p><ol><li>Remove the hazard or replace it with something safer.</li><li>Use guards and barriers.</li><li>Use safe work procedures and training.</li><li>Use personal protective equipment (PPE) as the last line of defence.</li></ol><h4>Example</h4><p>A wet floor in the packshed is a hazard. You can remove it by fixing the leak, use a barrier and warning sign while it is wet, follow a rule to clean spills at once, and wear non-slip boots. Using several controls together gives the best protection.</p><p>Look for hazards before you start a job, and tell your supervisor if you see something unsafe.</p>"
+  },
+  {
+   "title": "Your rights and duties",
+   "minutes": 15,
+   "html": "<h3>What the employer must do</h3><ul><li>Provide a safe workplace and safe machines.</li><li>Train workers to do their work safely.</li><li>Provide PPE free of charge where it is needed.</li><li>Provide first aid boxes and trained first aiders.</li><li>Appoint health and safety representatives where the law requires.</li><li>Report serious incidents as the law requires.</li></ul><h3>What you must do</h3><ul><li>Follow safety rules and instructions.</li><li>Wear and look after your PPE.</li><li>Use machines only if you are trained and allowed.</li><li>Never remove guards or safety devices.</li><li>Report hazards, unsafe acts and incidents to your supervisor at once.</li><li>Do not come to work under the influence of alcohol or drugs.</li><li>Do not play or fight at work.</li></ul><h4>Your rights</h4><ul><li>To be told about the hazards of your work.</li><li>To receive training and PPE.</li><li>To speak to your health and safety representative.</li><li>To report unsafe conditions without being punished.</li></ul><h4>Health and safety representatives</h4><p>These are workers chosen to help keep the workplace safe. They inspect the workplace, talk to workers about problems, and take part in safety meetings. Tell them about hazards you see.</p><h4>COIDA</h4><p>If you are injured at work, the Compensation for Occupational Injuries and Diseases Act 130 of 1993 (COIDA) can pay for medical costs and lost wages. Report every injury so it can be recorded.</p><p>Safety is a team effort.</p><p>Ask your health and safety representative or supervisor if you do not understand a safety rule. You have the right to know.</p>"
+  },
+  {
+   "title": "Safe work and emergencies",
+   "minutes": 15,
+   "html": "<h3>Working safely every day</h3><h4>PPE</h4><ul><li>Wear the PPE your job needs: safety boots, gloves, goggles, ear plugs, hard hat, apron, dust mask or respirator.</li><li>Check PPE before use. Replace it if it is damaged.</li><li>Clean it and store it properly.</li></ul><h4>Safe lifting</h4><ol><li>Check the weight. Get help or use a trolley if it is heavy.</li><li>Stand close with feet apart.</li><li>Bend your knees, keep your back straight.</li><li>Lift with your legs, keep the load close.</li><li>Do not twist. Turn with your feet.</li></ol><h4>Housekeeping</h4><ul><li>Keep walkways clear. Clean up spills at once.</li><li>Put tools away after use.</li><li>Keep fire exits and fire extinguishers clear.</li></ul><h4>Signs</h4><ul><li><strong>Red circle:</strong> prohibition, for example \"No smoking\".</li><li><strong>Blue circle:</strong> must do, for example \"Wear ear protection\".</li><li><strong>Yellow triangle:</strong> warning, for example \"Danger: electricity\".</li><li><strong>Green:</strong> safe condition, for example emergency exit or first aid.</li></ul><h3>Emergencies</h3><ul><li>Know the emergency number, the assembly point and where fire extinguishers and first aid boxes are.</li><li>If there is a fire: raise the alarm, leave by the nearest exit, go to the assembly point. Fight a small fire only if you are trained and it is safe.</li><li>If someone is hurt: make the area safe, call the first aider and your supervisor, and call an ambulance (10177, or 112 from a cell phone) if needed.</li><li>Report every incident and near miss. A near miss is a warning that next time someone could get hurt.</li></ul><h4>Key points</h4><ul><li>A hazard can cause harm; a risk is the chance and seriousness of harm.</li><li>Remove hazards first; PPE is the last line of defence.</li><li>The OHS Act 85 of 1993 gives duties to employers and workers.</li><li>Lift with your legs, keep your back straight and do not twist.</li><li>Report all hazards, injuries and near misses.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a hazard?",
+   "options": [
+    {
+     "text": "Anything that can cause harm",
+     "correct": true
+    },
+    {
+     "text": "A safety meeting",
+     "correct": false
+    },
+    {
+     "text": "A type of PPE",
+     "correct": false
+    },
+    {
+     "text": "A first aid box",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which control should be used only as the last line of defence?",
+   "options": [
+    {
+     "text": "Removing the hazard",
+     "correct": false
+    },
+    {
+     "text": "Guards and barriers",
+     "correct": false
+    },
+    {
+     "text": "Safe work procedures",
+     "correct": false
+    },
+    {
+     "text": "Personal protective equipment",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a blue circle safety sign mean?",
+   "options": [
+    {
+     "text": "Prohibition",
+     "correct": false
+    },
+    {
+     "text": "Something you must do",
+     "correct": true
+    },
+    {
+     "text": "Warning",
+     "correct": false
+    },
+    {
+     "text": "Emergency exit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law can pay medical costs and lost wages if you are injured at work?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "COIDA (Act 130 of 1993)",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Companies Act 71 of 2008",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you lift a heavy box?",
+   "options": [
+    {
+     "text": "Bend your back and lift fast",
+     "correct": false
+    },
+    {
+     "text": "Bend your knees, keep your back straight and lift with your legs",
+     "correct": true
+    },
+    {
+     "text": "Twist while lifting",
+     "correct": false
+    },
+    {
+     "text": "Hold it far from your body",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may remove machine guards to work faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A near miss should be reported.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are duties of the employer under the OHS Act? (select all that apply)",
+   "options": [
+    {
+     "text": "Provide a safe workplace and safe machines",
+     "correct": true
+    },
+    {
+     "text": "Provide PPE free of charge where needed",
+     "correct": true
+    },
+    {
+     "text": "Train workers to work safely",
+     "correct": true
+    },
+    {
+     "text": "Make workers pay for their own safety boots",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115839",
+ "title": "Sort black tea",
+ "lessons": [
+  {
+   "title": "Why black tea is sorted and the sorting machines",
+   "minutes": 15,
+   "html": "<h3>Why sort tea?</h3><p>Tea that comes out of the dryer is mixed. There are big pieces, small pieces, dust, fibre and stalks all together. Buyers want tea of one size and look in each bag. Sorting separates the tea into <strong>grades</strong>. Each grade sells at its own price. Good sorting means more money for the estate.</p><h4>What grades are</h4><p>Grades are named by the size and look of the tea particles. Common grade names include:</p><ul><li><strong>Leaf grades</strong>, like OP (Orange Pekoe) and Pekoe, which are bigger pieces from orthodox tea.</li><li><strong>Broken grades</strong>, like BOP (Broken Orange Pekoe) and BP (Broken Pekoe).</li><li><strong>Fannings</strong>, like PF (Pekoe Fannings), which are small pieces often used in tea bags.</li><li><strong>Dust</strong>, like PD, which is the smallest.</li></ul><p>Your factory will have its own list of grades and the mesh sizes for each. Learn them from your supervisor.</p><h4>The machines</h4><table><tr><th>Machine</th><th>What it does</th></tr><tr><td>Sifters (sorting screens)</td><td>Shaking screens with holes of different sizes. Small pieces fall through, big pieces stay on top.</td></tr><tr><td>Fibre extractor</td><td>Uses a charged roller to pull out light fibres and hairs.</td></tr><tr><td>Winnower</td><td>Uses air to blow away light flaky pieces and separate heavy from light.</td></tr><tr><td>Stalk extractor or colour sorter</td><td>Removes red stalks and pale pieces.</td></tr><tr><td>Cutter</td><td>Cuts big pieces that are too large into smaller ones to go back through the screens.</td></tr></table><h4>Getting ready</h4><ul><li>Check that screens are clean and not torn. A torn screen lets big pieces into the wrong grade.</li><li>Check that the right screens are fitted for today's grades.</li><li>Place clean, labelled bins under each outlet.</li><li>Check that all guards are on and dust extraction works.</li></ul>"
+  },
+  {
+   "title": "Sorting, checking and keeping the room clean",
+   "minutes": 15,
+   "html": "<h3>Running the sorting line</h3><ol><li>Start the dust extractor and the machines in the order you were trained.</li><li>Feed the dried tea evenly into the first sifter. Do not overload it. Too much tea on the screens means small pieces cannot fall through.</li><li>Watch each outlet. Make sure the tea falls into the right labelled bin.</li><li>Change bins before they overflow. Never mix tea from two outlets.</li><li>Send oversize pieces to the cutter and back through the screens, as your supervisor shows you.</li></ol><h4>Checking the grades</h4><p>Take a small sample from each bin at the set times. Spread it on a clean white tray. Look for:</p><ul><li>Pieces that are too big or too small for the grade</li><li>Red stalks, fibre and hairs</li><li>Brown or pale pieces</li><li>Stones, metal, plastic or other foreign matter</li></ul><p>If a grade is not clean, tell your supervisor. The screens or settings may need to be checked, or the tea may need to go through again.</p><h4>Labelling and records</h4><p>Each bin must have a label with the grade name, the date and the batch or shift. Write the mass of each grade in the sorting record. The records show how much of each grade was made and help the factory plan sales.</p><h4>Safety and hygiene</h4><ul><li>Tea dust gets into your nose and lungs. Wear the dust mask you are given.</li><li>Sorting machines shake and have moving belts. Keep hands out. Stop and lock out before clearing a blockage.</li><li>The room can be noisy. Wear hearing protection where signs say so.</li><li>Tea is food. Wear a hair cover and clean overall. Do not eat or smoke in the sorting room.</li><li>Sweep and vacuum dust often. Dust is a fire risk.</li></ul><h4>Key points</h4><ul><li>Sorting separates tea into grades by size and look; each grade has its own price.</li><li>Check screens are clean, untorn and correct for the grades.</li><li>Feed evenly, do not overload, and never mix outlets.</li><li>Sample each grade and report stalks, fibre or wrong sizes.</li><li>Label bins and keep the room clean and dust-free.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is black tea sorted?",
+   "options": [
+    {
+     "text": "To make it wetter",
+     "correct": false
+    },
+    {
+     "text": "To add flavour",
+     "correct": false
+    },
+    {
+     "text": "To make it green",
+     "correct": false
+    },
+    {
+     "text": "To separate it into grades of one size and look",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a fibre extractor do?",
+   "options": [
+    {
+     "text": "Pulls out light fibres and hairs",
+     "correct": true
+    },
+    {
+     "text": "Cuts big pieces",
+     "correct": false
+    },
+    {
+     "text": "Weighs the bags",
+     "correct": false
+    },
+    {
+     "text": "Dries the tea",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can a torn screen cause?",
+   "options": [
+    {
+     "text": "Faster sorting",
+     "correct": false
+    },
+    {
+     "text": "Cleaner grades",
+     "correct": false
+    },
+    {
+     "text": "Big pieces getting into the wrong grade",
+     "correct": true
+    },
+    {
+     "text": "Less dust",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which grade is the smallest?",
+   "options": [
+    {
+     "text": "OP",
+     "correct": false
+    },
+    {
+     "text": "Dust",
+     "correct": true
+    },
+    {
+     "text": "BOP",
+     "correct": false
+    },
+    {
+     "text": "Pekoe",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be on each grade bin's label?",
+   "options": [
+    {
+     "text": "The worker's phone number",
+     "correct": false
+    },
+    {
+     "text": "The price only",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Grade name, date and batch or shift",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overloading the sifter helps small pieces fall through faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Tea dust in the sorting room is a fire risk and must be swept up often.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you look for when checking a grade sample? (select all that apply)",
+   "options": [
+    {
+     "text": "Pieces too big or small for the grade",
+     "correct": true
+    },
+    {
+     "text": "Red stalks and fibre",
+     "correct": true
+    },
+    {
+     "text": "Stones, metal or plastic",
+     "correct": true
+    },
+    {
+     "text": "The colour of the bin",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

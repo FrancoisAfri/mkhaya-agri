@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-622101-000-00-00-WM-02",
+ "title": "Execution of husbandry processes according to industry standards",
+ "lessons": [
+  {
+   "title": "Taking on full husbandry tasks",
+   "minutes": 15,
+   "html": "<h3>From helper to worker</h3><p>In this work experience you move from helping to doing full tasks yourself. Your supervisor still checks your work, but you plan and finish each job. You show that you can work to the farm's standard.</p><h4>Tasks you must be able to do</h4><ul><li>Run the daily round and fill in the daily sheet.</li><li>Feed each unit from the feeding chart and adjust when fish eat less.</li><li>Take and record water readings: temperature, oxygen and others your farm uses.</li><li>Grade fish and restock tanks at the right numbers.</li><li>Prepare for and help with harvests.</li><li>Clean and disinfect tanks, nets and equipment.</li><li>Spot and report sick fish.</li></ul><h4>Planning your day</h4><ol><li>Check the work list or ask your supervisor in the morning.</li><li>Do urgent things first: gasping fish, broken pumps, blocked outlets.</li><li>Feed at the set times.</li><li>Do cleaning and other jobs between feeds.</li><li>Finish your records before the end of the shift.</li></ol><h4>When things go wrong</h4><p>A pump stops. A pipe blocks. Fish start dying. Stay calm. First make it safe: switch off power at the switch if there is an electrical fault. Then do what the emergency procedure says, such as starting a backup aerator. Then tell your supervisor. Write down what happened and what you did.</p><h4>Working with others</h4><p>You may work in a small team. Agree who does which tanks. Tell the next shift what happened: which fish did not eat, which pump is giving trouble. A short handover stops mistakes.</p><p>At the end of each week, look back at your daily sheets with your supervisor. Check that every feed, reading and dead fish count was written down. Find any gaps and learn how to stop them happening again.</p>"
+  },
+  {
+   "title": "Showing you meet the standard",
+   "minutes": 15,
+   "html": "<h3>Evidence of your work</h3><p>Your assessor needs proof that you can do the tasks. This proof is called evidence. You collect it while you work.</p><h4>Types of evidence</h4><ul><li>Your signed logbook with dates and tasks.</li><li>Record sheets you filled in: feeding, water readings, dead fish counts.</li><li>Your supervisor's notes after watching you work.</li><li>Answers you give when the assessor asks why you do something.</li></ul><h4>Know the why</h4><p>It is not enough to do the task. You must explain why. For example:</p><table><tr><th>Task</th><th>Why we do it</th></tr><tr><td>Stop feeding before harvest</td><td>Fish handle stress better with empty guts</td></tr><tr><td>Grade fish</td><td>Even growth and less bullying</td></tr><tr><td>Remove dead fish daily</td><td>Stops disease and keeps water clean</td></tr><tr><td>Use the foot bath</td><td>Keeps disease out</td></tr></table><h4>Quality and food safety</h4><p>Fish is food. Keep harvested fish cold and clean. Keep feed clean and dry. Do not let chemicals near the feed store or the harvest area. Follow withdrawal times on any treatment exactly as the vet or label says before fish are harvested.</p><h4>Safety every day</h4><ul><li>Boots with grip, gloves and eye protection for chemicals.</li><li>No wet hands on electrical items.</li><li>Never alone in deep water.</li><li>Safe lifting.</li></ul><h4>Getting feedback</h4><p>Ask your supervisor each week what you did well and what to improve. Write it down. Work on one thing at a time.</p><h4>Key points</h4><ul><li>Plan your day: urgent problems first, then feeds, then other jobs.</li><li>In an emergency make it safe, follow the procedure, then report.</li><li>Collect evidence: logbook, record sheets, supervisor notes.</li><li>Be able to explain why each task is done.</li><li>Give a clear handover to the next shift.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which job should you do first in your day?",
+   "options": [
+    {
+     "text": "Clean the office",
+     "correct": false
+    },
+    {
+     "text": "Urgent problems like gasping fish or a broken pump",
+     "correct": true
+    },
+    {
+     "text": "Paint the tank walls",
+     "correct": false
+    },
+    {
+     "text": "Fill in last month's records",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pump has an electrical fault. What is the first thing to do?",
+   "options": [
+    {
+     "text": "Make it safe by switching off at the switch",
+     "correct": true
+    },
+    {
+     "text": "Touch it to see if it is hot",
+     "correct": false
+    },
+    {
+     "text": "Pour water on it",
+     "correct": false
+    },
+    {
+     "text": "Ignore it until tomorrow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do we remove dead fish daily?",
+   "options": [
+    {
+     "text": "To make the tank look full",
+     "correct": false
+    },
+    {
+     "text": "To feed the birds",
+     "correct": false
+    },
+    {
+     "text": "To stop disease and keep water clean",
+     "correct": true
+    },
+    {
+     "text": "Because the logbook needs pages filled",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a handover?",
+   "options": [
+    {
+     "text": "Giving fish to a customer",
+     "correct": false
+    },
+    {
+     "text": "Lifting a feed bag",
+     "correct": false
+    },
+    {
+     "text": "A type of net",
+     "correct": false
+    },
+    {
+     "text": "Telling the next shift what happened",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before fish that were treated are harvested, you must…",
+   "options": [
+    {
+     "text": "Feed them extra",
+     "correct": false
+    },
+    {
+     "text": "Follow the withdrawal time from the vet or label",
+     "correct": true
+    },
+    {
+     "text": "Move them to the sun",
+     "correct": false
+    },
+    {
+     "text": "Treat them again",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The assessor only needs to see you do the task, not hear why you do it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Filled-in record sheets can be used as evidence of your work.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are types of evidence for your assessment? (select all that apply)",
+   "options": [
+    {
+     "text": "Signed logbook",
+     "correct": true
+    },
+    {
+     "text": "Supervisor's notes after watching you",
+     "correct": true
+    },
+    {
+     "text": "A photo of your bakkie",
+     "correct": false
+    },
+    {
+     "text": "Feeding and water record sheets",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

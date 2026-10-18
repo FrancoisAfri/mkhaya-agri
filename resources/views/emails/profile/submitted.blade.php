@@ -250,7 +250,7 @@
   </div>
 
   <div class="footer">
-    © {{ date('Y') }} Mkhaya Hub — This is an automated message.<br>
+    © {{ date('Y') }} Mkhaya Agri — This is an automated message.<br>
     <a href="{{ url('/settings/approvals') }}">View All Approvals</a>
   </div>
 </div>
@@ -305,7 +305,7 @@
   </div>
 
   <div class="footer">
-    © {{ date('Y') }} Mkhaya Hub — This is an automated message.<br>
+    © {{ date('Y') }} Mkhaya Agri — This is an automated message.<br>
     <a href="{{ url('/profile') }}">My Profile</a> ·
     <a href="{{ url('/profile/edit') }}">Edit Profile</a>
   </div>

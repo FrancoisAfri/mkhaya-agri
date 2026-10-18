@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-02",
+ "title": "Practise sustainable land and resources in management",
+ "lessons": [
+  {
+   "title": "Managing soil as the farm's capital",
+   "minutes": 20,
+   "html": "<h3>Soil is not renewable in a lifetime</h3><p>It can take hundreds of years to form a few centimetres of topsoil, but one heavy thunderstorm on bare, ploughed land can wash much of it away. Sustainable land management means using land and natural resources to produce food and income today without reducing their ability to produce in future. The Conservation of Agricultural Resources Act 43 of 1983 (CARA) puts a legal duty on land users to protect soil, veld, wetlands and water sources and to control declared weeds and invader plants.</p><h4>Signs that soil is being degraded</h4><ul><li>Sheet erosion (pale, stony surface), rills and dongas after rain.</li><li>Crusting and poor water infiltration; water runs off instead of soaking in.</li><li>Compacted layers (plough pans) that roots cannot penetrate.</li><li>Falling organic matter, acidification and declining yields despite more fertiliser.</li></ul><h4>Practices that protect soil</h4><ul><li><strong>Conservation agriculture:</strong> minimum or no tillage, permanent soil cover with residues or cover crops, and crop rotation.</li><li><strong>Contour practices:</strong> contour banks, grassed waterways and planting across the slope to slow runoff.</li><li><strong>Liming and balanced fertilisation</strong> based on soil analysis to correct acidity and nutrient shortages.</li><li><strong>Controlled traffic:</strong> keep heavy machinery to set tracks and stay off wet soil.</li><li><strong>Integrating livestock:</strong> graze residues lightly, leaving enough cover, and return manure to the lands.</li></ul><p>As a manager, walk the lands after big rains and note where erosion starts. Small rills fixed early cost far less than a donga repaired later.</p><h4>Monitoring soil health</h4><p>Repeat soil analyses every few years on the same lands so trends in acidity and organic matter can be seen.</p>"
+  },
+  {
+   "title": "Managing veld and grazing sustainably",
+   "minutes": 20,
+   "html": "<h3>Carrying capacity and rest</h3><p>Natural veld is the cheapest feed on most South African livestock farms, but only if it is kept in good condition. Over-grazing removes the palatable perennial grasses, leaving bare soil, pioneer grasses, karoo bushes or encroaching thorn bush.</p><h4>Key principles</h4><ul><li><strong>Stock to carrying capacity.</strong> Carrying capacity is the area needed to keep one large stock unit (LSU) for a year without damaging the veld. Get the recommended figure for your area from the Department of Agriculture and adjust it for your veld condition and rainfall.</li><li><strong>Rotate and rest camps.</strong> Grazing for a short period and then resting allows grasses to recover and set seed. Rest some camps for a full growing season periodically.</li><li><strong>Plan for drought.</strong> Decide in advance at what point you will reduce stock numbers. Selling early in a drought protects both the veld and the cash flow.</li><li><strong>Monitor.</strong> Use fixed photo points and simple veld condition assessments every year.</li><li><strong>Control bush encroachment and invader plants</strong> with approved methods, and use fire only under a proper burning plan and with neighbours informed and the local fire protection association rules followed.</li></ul><h4>Example</h4><p>A 1 200 ha farm in an area with a recommended capacity of 8 ha per LSU can carry about 150 LSU in an average year. If the owner keeps 200 LSU, the veld is overstocked by about a third and will decline, especially in dry years.</p><p>Record stock numbers per camp and the days each camp was grazed and rested. These records show quickly whether the grazing plan is being followed.</p>"
+  },
+  {
+   "title": "Water, biodiversity and waste",
+   "minutes": 20,
+   "html": "<h3>Using shared resources responsibly</h3><h4>Water</h4><p>Under the National Water Act 36 of 1998 water is a national resource held in trust by the state. Taking water for irrigation, building dams or storing water above set limits may need registration or a licence. Keep records of what you use and fix leaks in pipes, troughs and canals.</p><ul><li>Schedule irrigation using soil moisture measurements or weather data instead of the calendar.</li><li>Keep livestock out of river banks and wetlands where possible; provide troughs instead.</li><li>Never mix or wash spray equipment near a borehole, river or dam.</li></ul><h4>Biodiversity</h4><p>Wetlands, riparian zones, natural veld and hedgerows provide pollinators, natural enemies of pests and clean water. Leave buffer strips along streams, protect indigenous trees and do not plough virgin land without checking whether permission is needed.</p><h4>Waste and energy</h4><ul><li>Triple-rinse empty chemical containers, puncture them and return them through an approved collection scheme. Never burn or bury them or use them for water.</li><li>Compost manure and crop waste instead of burning it.</li><li>Service engines and pumps to save diesel and electricity; consider solar pumping.</li></ul><p>Energy is also a resource. Record diesel and electricity use per enterprise to find savings.</p><h4>Key points</h4><ul><li>CARA places a legal duty on land users to protect soil, veld and wetlands.</li><li>Conservation agriculture and contour practices reduce erosion.</li><li>Stock the veld to its carrying capacity and rest camps.</li><li>Water use may need registration or a licence under the National Water Act.</li><li>Dispose of chemical containers through an approved scheme; never burn or reuse them.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act places a duty on land users to protect soil and veld and to control declared weeds?",
+   "options": [
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": true
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a principle of conservation agriculture?",
+   "options": [
+    {
+     "text": "Deep ploughing every season",
+     "correct": false
+    },
+    {
+     "text": "Burning residues before planting",
+     "correct": false
+    },
+    {
+     "text": "Permanent soil cover with residues or cover crops",
+     "correct": true
+    },
+    {
+     "text": "Planting the same crop every year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A 1 200 ha farm has a capacity of 8 ha per LSU. About how many LSU can it carry?",
+   "options": [
+    {
+     "text": "96",
+     "correct": false
+    },
+    {
+     "text": "150",
+     "correct": true
+    },
+    {
+     "text": "200",
+     "correct": false
+    },
+    {
+     "text": "9 600",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with empty chemical containers?",
+   "options": [
+    {
+     "text": "Use them to carry drinking water",
+     "correct": false
+    },
+    {
+     "text": "Burn them behind the shed",
+     "correct": false
+    },
+    {
+     "text": "Bury them in a land",
+     "correct": false
+    },
+    {
+     "text": "Triple-rinse, puncture and return them through an approved scheme",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is selling stock early in a drought a good practice?",
+   "options": [
+    {
+     "text": "It protects both the veld and the farm's cash flow",
+     "correct": true
+    },
+    {
+     "text": "It increases the price of weaners",
+     "correct": false
+    },
+    {
+     "text": "It is required every year",
+     "correct": false
+    },
+    {
+     "text": "It allows more animals to graze the rested camps",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Taking water for irrigation may require registration or a licence under the National Water Act.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Small erosion rills are best left alone because they repair themselves.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of soil degradation? (select all that apply)",
+   "options": [
+    {
+     "text": "Rills and dongas after rain",
+     "correct": true
+    },
+    {
+     "text": "Crusting and poor water infiltration",
+     "correct": true
+    },
+    {
+     "text": "A thick cover of crop residue",
+     "correct": false
+    },
+    {
+     "text": "Compacted plough pans",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

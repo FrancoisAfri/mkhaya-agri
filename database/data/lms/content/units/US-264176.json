@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264176",
+ "title": "Prune and shape shrubs",
+ "lessons": [
+  {
+   "title": "Why, when and what to prune",
+   "minutes": 15,
+   "html": "<h3>Why we prune shrubs</h3>\n<p>Pruning means cutting away parts of a plant on purpose. In gardens, parks and estates we prune shrubs to:</p>\n<ul><li>remove dead, diseased and damaged wood (the three Ds)</li>\n<li>keep the shrub healthy, with good air flow inside</li>\n<li>get more flowers or more leaves</li>\n<li>keep a shape, such as a hedge or a ball (topiary)</li>\n<li>keep paths, windows and signs clear</li></ul>\n<h4>When to prune</h4>\n<p>Timing depends on when the shrub flowers. Get the timing wrong and you cut off next season's flowers.</p>\n<table><tr><th>Shrub type</th><th>When to prune</th><th>Examples</th></tr>\n<tr><td>Flowers on new growth</td><td>Late winter, before new growth</td><td>Roses, plumbago, abelia</td></tr>\n<tr><td>Flowers on old wood</td><td>Straight after flowering</td><td>Azalea, camellia, may (spiraea)</td></tr>\n<tr><td>Hedges</td><td>Light trims during the growing season</td><td>Duranta, syzygium, murraya, spekboom</td></tr></table>\n<p>Your supervisor will tell you the schedule for your site. Dead, broken and diseased branches can be removed at any time.</p>\n<h4>Tools</h4>\n<ul><li><strong>Secateurs</strong> – stems up to about the thickness of a finger.</li>\n<li><strong>Loppers</strong> – thicker stems, with long handles.</li>\n<li><strong>Pruning saw</strong> – thick branches.</li>\n<li><strong>Hedge shears or hedge trimmer</strong> – for shaping hedges.</li></ul>\n<p>Keep tools sharp and clean. Blunt tools crush stems and let disease in. Wipe blades with a disinfectant between plants when cutting diseased wood.</p>"
+  },
+  {
+   "title": "Making good cuts and shaping",
+   "minutes": 15,
+   "html": "<h3>How to make a good cut</h3>\n<ol><li>Find a healthy bud or side shoot facing outwards, the way you want the new growth to go.</li>\n<li>Cut about 5 mm above the bud, sloping away from it so rain runs off.</li>\n<li>Do not leave long stubs. Stubs die back and rot.</li>\n<li>Do not cut too close, or the bud will dry out.</li>\n<li>When removing a whole branch, cut just outside the collar (the swollen ring where it joins the main stem).</li></ol>\n<h3>Thinning and heading back</h3>\n<ul><li><strong>Thinning</strong> – removing whole stems at the base or at a joint. This opens up the shrub and lets in light and air.</li>\n<li><strong>Heading back</strong> – shortening stems to a bud. This makes the shrub bushier.</li></ul>\n<p>Do not remove more than about one third of a shrub at one time unless your supervisor tells you to do a hard rejuvenation prune.</p>\n<h3>Shaping hedges</h3>\n<ul><li>Use a string line and pegs to keep the top straight.</li>\n<li>Make the base slightly wider than the top so light reaches the lower leaves. A hedge that is wider on top gets bare at the bottom.</li>\n<li>Trim the sides first, then the top.</li></ul>\n<h3>Cleaning up</h3>\n<p>Rake up clippings. Healthy material can go to the compost heap. Diseased material must be bagged and removed, not composted.</p>\n<h3>Safety</h3>\n<ul><li>Wear gloves and eye protection. Hedge trimmers also need ear protection.</li>\n<li>Check for wasps' nests, bees and snakes before you push into a shrub.</li>\n<li>Use a stable ladder on firm ground; never stand on the top step. Never use powered trimmers above shoulder height from a ladder.</li>\n<li>Keep the hedge trimmer cable behind you, or use a cordless one.</li></ul>\n<h4>Key points</h4>\n<ul><li>Always remove dead, diseased and damaged wood first.</li>\n<li>Prune at the right time for the flowering type of the shrub.</li>\n<li>Cut 5 mm above an outward-facing bud with a sloping cut; leave no stubs.</li>\n<li>Keep hedges wider at the base than the top.</li>\n<li>Use sharp, clean tools and the right PPE.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What are the three Ds of pruning?",
+   "options": [
+    {
+     "text": "Dead, diseased and damaged wood",
+     "correct": true
+    },
+    {
+     "text": "Dry, dark and dense wood",
+     "correct": false
+    },
+    {
+     "text": "Daily, deep and direct cuts",
+     "correct": false
+    },
+    {
+     "text": "Drip, drain and dig",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a shrub that flowers on old wood, such as azalea, be pruned?",
+   "options": [
+    {
+     "text": "In late winter before growth",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Straight after flowering",
+     "correct": true
+    },
+    {
+     "text": "Every week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you make a pruning cut on a stem?",
+   "options": [
+    {
+     "text": "Halfway between two buds",
+     "correct": false
+    },
+    {
+     "text": "About 5 mm above an outward-facing bud",
+     "correct": true
+    },
+    {
+     "text": "Right through the bud",
+     "correct": false
+    },
+    {
+     "text": "10 cm above a bud to leave a stub",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a hedge be shaped?",
+   "options": [
+    {
+     "text": "Wider on top than the base",
+     "correct": false
+    },
+    {
+     "text": "Perfectly round at the base",
+     "correct": false
+    },
+    {
+     "text": "Taller than the house",
+     "correct": false
+    },
+    {
+     "text": "Slightly wider at the base than the top",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool is best for a branch that is too thick for loppers?",
+   "options": [
+    {
+     "text": "Secateurs",
+     "correct": false
+    },
+    {
+     "text": "Hedge shears",
+     "correct": false
+    },
+    {
+     "text": "Pruning saw",
+     "correct": true
+    },
+    {
+     "text": "Rake",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Diseased prunings should be bagged and removed, not put on the compost heap.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is good practice to remove two thirds of a shrub in one normal pruning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which safety steps apply when pruning shrubs? (select all that apply)",
+   "options": [
+    {
+     "text": "Wear gloves and eye protection",
+     "correct": true
+    },
+    {
+     "text": "Check for wasps' nests and snakes first",
+     "correct": true
+    },
+    {
+     "text": "Stand on the top step of the ladder",
+     "correct": false
+    },
+    {
+     "text": "Keep the trimmer cable behind you",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

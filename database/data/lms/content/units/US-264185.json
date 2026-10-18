@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264185",
+ "title": "Apply pest control practices in ornamental plant production and landscaping",
+ "lessons": [
+  {
+   "title": "Know the pests and diseases",
+   "minutes": 15,
+   "html": "<h3>What is a pest?</h3>\n<p>A pest is any living thing that damages plants: insects, mites, snails, slugs, rodents, and diseases caused by fungi, bacteria and viruses. Weeds are also pests because they compete for water, light and food. In a nursery or garden, pests spoil plants so they cannot be sold or look bad to the client.</p>\n<h4>Common pests</h4>\n<table><tr><th>Pest</th><th>What you see</th></tr>\n<tr><td>Aphids</td><td>Small green or black soft insects on new tips; sticky leaves</td></tr>\n<tr><td>Mealybug</td><td>White, cottony insects in leaf joints</td></tr>\n<tr><td>Scale</td><td>Small brown or white bumps stuck to stems and leaves</td></tr>\n<tr><td>Red spider mite</td><td>Tiny mites under leaves, fine webs, speckled pale leaves; worse in hot dry weather</td></tr>\n<tr><td>Whitefly</td><td>Tiny white flies that rise when you shake the plant</td></tr>\n<tr><td>Snails and slugs</td><td>Holes in leaves, slime trails, worse after rain</td></tr>\n<tr><td>Caterpillars (e.g. lily borer on clivias and amaryllis)</td><td>Chewed leaves, droppings</td></tr></table>\n<h4>Common diseases</h4>\n<ul><li><strong>Powdery mildew</strong> – white powder on leaves.</li>\n<li><strong>Rust</strong> – orange-brown spots under leaves.</li>\n<li><strong>Black spot</strong> – black spots on rose leaves, which turn yellow and fall.</li>\n<li><strong>Damping off</strong> – seedlings collapse at the soil line.</li>\n<li><strong>Root rot</strong> – wilting plant in wet soil, brown soft roots.</li></ul>\n<h4>Scouting</h4>\n<p>Walk through the plants regularly, as your supervisor sets. Look under leaves, on new tips and in leaf joints. Use a hand lens for mites. Write down what you find, where, and how bad it is. Early finding means easier control.</p>"
+  },
+  {
+   "title": "Integrated pest management and safe chemical use",
+   "minutes": 20,
+   "html": "<h3>Integrated pest management (IPM)</h3>\n<p>IPM means using several methods together and only using chemicals when needed.</p>\n<ul><li><strong>Cultural</strong> – healthy plants, right spacing, correct watering (not late in the day), clean pots and media, removing weeds and dead material.</li>\n<li><strong>Physical</strong> – picking off snails and caterpillars, yellow sticky traps for whitefly, washing aphids off with water, pruning out diseased parts.</li>\n<li><strong>Biological</strong> – using natural enemies such as ladybirds, lacewings and predatory mites. Some nurseries buy predatory mites.</li>\n<li><strong>Chemical</strong> – pesticides, only when the other methods are not enough.</li></ul>\n<h3>Using pesticides safely</h3>\n<p>In South Africa, pesticides must be registered under the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947. The label is the law: use the product only for the pests and plants on the label, at the rate on the label.</p>\n<ol><li>Only spray if you are trained and your supervisor has told you to.</li>\n<li>Read the label: rate, PPE, re-entry time and first aid.</li>\n<li>Wear the PPE on the label: usually overalls, chemical gloves, boots, goggles or face shield, and a respirator if required.</li>\n<li>Mix outdoors or in a ventilated area, on a level surface, away from water sources.</li>\n<li>Spray in calm weather, early or late. Never spray when it is windy or rain is about to fall.</li>\n<li>Keep people and animals out of the area for the re-entry time on the label.</li>\n<li>Triple-rinse empty containers, puncture them and return them for safe disposal as your farm requires. Never reuse them.</li>\n<li>Wash yourself and your PPE after spraying. Record the product, rate, date, area and your name.</li></ol>\n<h3>Never</h3>\n<ul><li>Never eat, drink or smoke while handling pesticides.</li>\n<li>Never blow out a blocked nozzle with your mouth.</li>\n<li>Never pour leftover chemical into drains, rivers or dams.</li></ul>\n<p>If someone is poisoned: remove them from the area, take off contaminated clothing, follow the first-aid steps on the label, and get medical help immediately. Take the label with you.</p>\n<h4>Key points</h4>\n<ul><li>Scout often and record pests early.</li>\n<li>IPM combines cultural, physical, biological and chemical control.</li>\n<li>Pesticides are registered under Act 36 of 1947; follow the label.</li>\n<li>Wear the PPE on the label and spray only in calm weather.</li>\n<li>Never reuse containers or pour chemicals into water.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do you usually see with mealybug?",
+   "options": [
+    {
+     "text": "Orange spots under leaves",
+     "correct": false
+    },
+    {
+     "text": "White, cottony insects in leaf joints",
+     "correct": true
+    },
+    {
+     "text": "Black spots on rose leaves",
+     "correct": false
+    },
+    {
+     "text": "Slime trails",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which pest is worse in hot, dry weather and leaves speckled leaves and fine webs?",
+   "options": [
+    {
+     "text": "Snails",
+     "correct": false
+    },
+    {
+     "text": "Aphids",
+     "correct": false
+    },
+    {
+     "text": "Caterpillars",
+     "correct": false
+    },
+    {
+     "text": "Red spider mite",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does IPM mean in practice?",
+   "options": [
+    {
+     "text": "Using several methods together and chemicals only when needed",
+     "correct": true
+    },
+    {
+     "text": "Spraying every week no matter what",
+     "correct": false
+    },
+    {
+     "text": "Only using biological control",
+     "correct": false
+    },
+    {
+     "text": "Never removing weeds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a physical control method?",
+   "options": [
+    {
+     "text": "Releasing ladybirds",
+     "correct": false
+    },
+    {
+     "text": "Spraying a fungicide",
+     "correct": false
+    },
+    {
+     "text": "Yellow sticky traps for whitefly",
+     "correct": true
+    },
+    {
+     "text": "Correct spacing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Under which law are pesticides registered in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should spray pesticides on a windy day so the spray spreads further.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Empty pesticide containers must never be reused.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should you do after spraying? (select all that apply)",
+   "options": [
+    {
+     "text": "Wash yourself and your PPE",
+     "correct": true
+    },
+    {
+     "text": "Record the product, rate, date and area",
+     "correct": true
+    },
+    {
+     "text": "Pour leftovers into the drain",
+     "correct": false
+    },
+    {
+     "text": "Keep people out for the re-entry time",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

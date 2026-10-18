@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-12154",
+ "title": "Apply comprehension skills to engage oral texts in a business environment",
+ "lessons": [
+  {
+   "title": "Listening with purpose",
+   "minutes": 20,
+   "html": "<h3>Oral texts in the agri business</h3><p>An oral text is any spoken message: a customer explaining a problem with a pump, a supplier's product presentation at a farmers' day, a manager's briefing, a phone order, a radio market report, or a voice note on WhatsApp. In sales and service, much of the important information arrives by voice. Misunderstanding it leads to wrong orders, lost sales and unhappy customers.</p><h4>Hearing is not listening</h4><p>Hearing is passive. Listening is active: paying attention, understanding, interpreting and responding. Comprehension means you can explain what was said, why it was said and what it means for you.</p><h4>Prepare to listen</h4><ul><li>Know your purpose: Are you listening for an order, for instructions, for product information, or to understand a complaint?</li><li>Remove distractions: turn away from the screen, lower the radio, move away from the noisy loading bay.</li><li>Have a pen and paper or order pad ready.</li></ul><h4>Active listening techniques</h4><ol><li><strong>Attend:</strong> eye contact, nodding, an open posture.</li><li><strong>Do not interrupt:</strong> let the speaker finish their point.</li><li><strong>Note key facts:</strong> names, quantities, product codes, dates, prices.</li><li><strong>Ask clarifying questions:</strong> \"Do you mean the 20 litre or the 5 litre drum?\"</li><li><strong>Paraphrase:</strong> \"So you need 40 bags of dairy meal delivered to the farm by Thursday, on the Van Wyk account. Is that right?\"</li></ol><h4>Telephone and voice notes</h4><p>On the phone you lose body language, so listen closely to tone. Repeat numbers back digit by digit. For voice notes, replay important parts and confirm by message if anything is unclear. Write down orders immediately; memory is unreliable at a busy counter.</p>"
+  },
+  {
+   "title": "Interpreting and evaluating what you hear",
+   "minutes": 20,
+   "html": "<h3>Main ideas and details</h3><p>In a talk or presentation, identify the main idea first, then supporting details. Speakers often signal structure: \"There are three reasons...\", \"The most important thing is...\", \"In summary...\". Listen for these signals and organise your notes around them.</p><h4>Fact, opinion and persuasion</h4><p>Sales presentations and adverts aim to persuade. A business listener must separate:</p><table><tr><th>Type</th><th>Example</th></tr><tr><td>Fact (can be checked)</td><td>\"This cultivar was tested in trials in the Free State over three seasons.\"</td></tr><tr><td>Opinion</td><td>\"This is the best maize seed on the market.\"</td></tr><tr><td>Emotional appeal</td><td>\"Don't let your family down; protect your harvest with our product.\"</td></tr></table><p>Ask: What evidence supports this claim? Who did the trial, where, and under what conditions? Is the speaker paid to promote it? This critical listening protects you and your customers.</p><h4>Tone, register and non-verbal cues</h4><p>The same words can mean different things depending on tone. A farmer who says \"fine\" with crossed arms and a flat voice may not be satisfied. Notice pace, volume, pauses and body language. Be aware that cultural norms differ; in some cultures avoiding direct eye contact shows respect, not dishonesty.</p><h4>Bias and assumptions</h4><p>Listeners can be biased too. Do not dismiss a speaker because of their accent, age or the size of their farm. Judge the message on its content.</p><h4>Example</h4><p>At a farmers' day, a chemical rep says a new herbicide \"kills everything and is completely safe.\" As a critical listener you note that no product is completely safe, that the claim conflicts with the label's warnings, and that you should rely on the registered label and the safety data sheet, not the sales talk.</p>"
+  },
+  {
+   "title": "Responding appropriately",
+   "minutes": 15,
+   "html": "<h3>Responding to oral texts</h3><p>Comprehension is shown by how you respond. A good response is relevant, accurate, timely and suited to the speaker and situation.</p><h4>Responding to customers</h4><ul><li>Acknowledge what you heard: \"I understand the pump stopped after two weeks.\"</li><li>Answer the actual question, not the one you expected.</li><li>If you do not know, say so and commit to finding out: \"Let me check with the technician and phone you by 3 pm.\"</li><li>Confirm agreements before the customer leaves.</li></ul><h4>Responding to instructions</h4><p>When a manager gives verbal instructions, repeat the key points back and ask about anything unclear. For complex or important instructions, confirm by short email or message: \"As discussed, I will count the chemical store on Friday and send you the variance report by Monday.\"</p><h4>Summarising a presentation</h4><p>After a meeting or presentation you may need to report back to colleagues. A good oral or written summary gives:</p><ol><li>Who spoke, when and on what topic.</li><li>The main points, in your own words.</li><li>Any decisions or actions that affect your team.</li><li>Your evaluation, clearly separated from what the speaker said.</li></ol><h4>Handling complaints</h4><p>An upset customer may speak quickly or angrily. Stay calm, listen without interrupting, show empathy, separate the facts of the complaint from the emotion, and agree on a next step. Write down the details straight afterwards.</p><h4>Key points</h4><ul><li>Listening is active: attend, note, question and paraphrase.</li><li>Repeat numbers and orders back to confirm.</li><li>Separate fact from opinion and persuasion; ask for evidence.</li><li>Read tone and body language, keeping cultural differences in mind.</li><li>Respond accurately and confirm important points in writing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does paraphrasing mean?",
+   "options": [
+    {
+     "text": "Ignoring details",
+     "correct": false
+    },
+    {
+     "text": "Writing a letter",
+     "correct": false
+    },
+    {
+     "text": "Interrupting the speaker",
+     "correct": false
+    },
+    {
+     "text": "Repeating the message in your own words to check understanding",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which statement is a fact rather than an opinion?",
+   "options": [
+    {
+     "text": "This is the best seed on the market",
+     "correct": false
+    },
+    {
+     "text": "You would be foolish not to buy it",
+     "correct": false
+    },
+    {
+     "text": "This cultivar was tested in trials over three seasons",
+     "correct": true
+    },
+    {
+     "text": "Farmers will love this product",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A customer says 'fine' with crossed arms and a flat voice. What might this suggest?",
+   "options": [
+    {
+     "text": "They may not be satisfied",
+     "correct": true
+    },
+    {
+     "text": "Nothing at all",
+     "correct": false
+    },
+    {
+     "text": "They want to buy more",
+     "correct": false
+    },
+    {
+     "text": "They are fully satisfied",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you handle a phone order with many numbers?",
+   "options": [
+    {
+     "text": "Repeat numbers back digit by digit and write them down",
+     "correct": true
+    },
+    {
+     "text": "Ask them to email instead and hang up",
+     "correct": false
+    },
+    {
+     "text": "Trust your memory",
+     "correct": false
+    },
+    {
+     "text": "Guess the missing numbers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A rep says a herbicide is 'completely safe.' What should you rely on?",
+   "options": [
+    {
+     "text": "A friend's opinion",
+     "correct": false
+    },
+    {
+     "text": "The registered label and safety data sheet",
+     "correct": true
+    },
+    {
+     "text": "The colour of the container",
+     "correct": false
+    },
+    {
+     "text": "The rep's claim",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In some cultures avoiding direct eye contact shows respect.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When reporting back on a presentation, your own evaluation should be mixed in with what the speaker said.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are active listening techniques? (select all that apply)",
+   "options": [
+    {
+     "text": "Asking clarifying questions",
+     "correct": true
+    },
+    {
+     "text": "Noting key facts",
+     "correct": true
+    },
+    {
+     "text": "Interrupting often",
+     "correct": false
+    },
+    {
+     "text": "Paraphrasing",
+     "correct": true
+    },
+    {
+     "text": "Looking at your phone",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

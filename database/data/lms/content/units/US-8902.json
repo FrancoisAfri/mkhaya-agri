@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8902",
+ "title": "Monitor quality control practices in a food-manufacturing environment",
+ "lessons": [
+  {
+   "title": "Quality and quality control",
+   "minutes": 20,
+   "html": "<h3>What quality means in food manufacturing</h3><p><strong>Quality</strong> means that a product consistently meets its specification and the customer's expectations, and is safe. <strong>Quality control</strong> is the checking and testing done during production to make sure products meet the specification, and to stop products that do not.</p><h4>Quality control and quality assurance</h4><ul><li><strong>Quality control (QC)</strong> finds defects: inspecting, measuring, testing samples.</li><li><strong>Quality assurance (QA)</strong> prevents defects: procedures, training, audits and systems such as HACCP.</li></ul><h4>Specifications</h4><p>A product specification sets measurable standards, for example:</p><ul><li>Mass of each pack, with a tolerance.</li><li>Temperature at packing and despatch.</li><li>Appearance: colour, fat trim, no bone fragments, no blood spots.</li><li>Packaging and labelling: correct label, date codes, seals intact.</li><li>Microbiological limits tested by the laboratory.</li></ul><h4>HACCP</h4><p>HACCP (Hazard Analysis and Critical Control Points) is a system for food safety. The team identifies hazards at each step, decides which steps are <strong>critical control points (CCPs)</strong> where control is essential, sets <strong>critical limits</strong>, monitors them, and takes corrective action when a limit is not met. In a meat plant, chilling temperature and metal detection are common CCPs.</p><h4>Legislation and standards</h4><p>Food manufacturers must meet the hygiene requirements under the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972, abattoirs under the Meat Safety Act 40 of 2000, and grading standards under the Agricultural Product Standards Act 119 of 1990 where they apply. Many customers also require certification to a recognised food safety standard.</p><p>Every worker has a part in quality.</p><p>Know the specification for your product.</p>"
+  },
+  {
+   "title": "Monitoring quality on the line",
+   "minutes": 20,
+   "html": "<h3>The supervisor's monitoring role</h3><h4>What to monitor</h4><table><tr><th>Area</th><th>Check</th><th>Typical record</th></tr><tr><td>Raw materials</td><td>Temperature, condition and documents on receipt</td><td>Receiving log</td></tr><tr><td>Process</td><td>Line temperatures, times, trim standards, CCPs</td><td>CCP monitoring sheet</td></tr><tr><td>Product</td><td>Mass, appearance, labels, date codes</td><td>QC check sheet</td></tr><tr><td>Hygiene</td><td>Pre-operational inspection, hand wash, PPE</td><td>Hygiene checklist</td></tr><tr><td>Equipment</td><td>Thermometer and scale verification, metal detector test pieces</td><td>Verification log</td></tr></table><h4>Sampling</h4><p>It is not possible to check every item, so samples are taken at set intervals, for example 5 packs every hour. The sampling plan states how many, how often and what to do if a sample fails.</p><h4>Example: pack mass</h4><p>The specification is 500 g per pack. Five packs weigh 502, 498, 505, 496 and 499 g. The average is 2 500 ÷ 5 = 500 g. Check each individual pack against the allowed tolerance too, not only the average.</p><h4>Metal detector checks</h4><p>At set times, pass the test pieces through the detector. It must detect and reject each one. If it fails, stop the line, hold all product since the last good check, and call maintenance and QC.</p><h4>Good recording</h4><ul><li>Record at the time of the check, in ink or in the system.</li><li>Record actual values, not just ticks.</li><li>Sign each entry. Supervisors review and sign the sheets daily.</li></ul><p>Hand over records to the next shift.</p><p>Review results with the team at the end of each shift, and highlight any checks that were missed.</p>"
+  },
+  {
+   "title": "Non-conformance and improvement",
+   "minutes": 20,
+   "html": "<h3>When product does not meet specification</h3><h4>Immediate corrective action</h4><ol><li><strong>Stop</strong> the cause if possible, for example adjust the scale, stop the line, correct the chiller.</li><li><strong>Hold</strong> affected product: mark it clearly \"On hold\" and separate it from good product.</li><li><strong>Record</strong> what was found, when, how much product is affected and what was done.</li><li><strong>Report</strong> to the QC manager or production manager.</li><li><strong>Decide</strong> with QC: release, rework, downgrade or destroy, according to procedure.</li></ol><h4>Finding the root cause</h4><p>Ask \"why\" until the real cause is found. Example: labels show the wrong date. Why? The date on the printer was not changed. Why? There is no start-up check for the printer. Corrective action: add the printer date check to the start-up checklist and train operators.</p><h4>Trends and improvement</h4><ul><li>Track non-conformances by type, line and shift.</li><li>Look for patterns, such as mass problems after a product change-over.</li><li>Discuss results at team meetings.</li><li>Check that corrective actions worked.</li></ul><h4>Customer complaints and recalls</h4><p>Customer complaints are investigated using batch codes and production records. If unsafe product has left the plant, a recall may be needed. Traceability records make it possible to identify exactly which batches are affected.</p><h4>People and quality</h4><p>Quality is everyone's job. Train new workers on the specification, explain why each check matters, and encourage workers to report problems without fear.</p><h4>Key points</h4><ul><li>Quality control finds defects; quality assurance prevents them.</li><li>HACCP identifies critical control points with critical limits that are monitored.</li><li>Follow the sampling plan and record actual values at the time of the check.</li><li>Stop, hold, record, report and decide when product does not meet specification.</li><li>Find the root cause and check that corrective actions work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the difference between quality control and quality assurance?",
+   "options": [
+    {
+     "text": "Quality control finds defects; quality assurance prevents them",
+     "correct": true
+    },
+    {
+     "text": "They are exactly the same",
+     "correct": false
+    },
+    {
+     "text": "Quality assurance is only done by customers",
+     "correct": false
+    },
+    {
+     "text": "Quality control is only paperwork",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does CCP stand for in HACCP?",
+   "options": [
+    {
+     "text": "Customer Complaint Procedure",
+     "correct": false
+    },
+    {
+     "text": "Critical Control Point",
+     "correct": true
+    },
+    {
+     "text": "Clean Cutting Practice",
+     "correct": false
+    },
+    {
+     "text": "Chilling Control Plan",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Five packs weigh 502, 498, 505, 496 and 499 g. What is the average?",
+   "options": [
+    {
+     "text": "498 g",
+     "correct": false
+    },
+    {
+     "text": "500 g",
+     "correct": true
+    },
+    {
+     "text": "502 g",
+     "correct": false
+    },
+    {
+     "text": "505 g",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The metal detector fails to reject a test piece. What should happen?",
+   "options": [
+    {
+     "text": "Continue production and test again tomorrow",
+     "correct": false
+    },
+    {
+     "text": "Stop the line and hold all product since the last good check",
+     "correct": true
+    },
+    {
+     "text": "Remove the test piece and ignore it",
+     "correct": false
+    },
+    {
+     "text": "Only release the product to local customers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when product does not meet specification?",
+   "options": [
+    {
+     "text": "Destroy all product immediately",
+     "correct": false
+    },
+    {
+     "text": "Stop the cause if possible",
+     "correct": true
+    },
+    {
+     "text": "Wait until the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Change the specification",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Records should show actual values, not just ticks.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Checking only the average pack mass is enough; individual packs do not matter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are typical items in a product specification? (select all that apply)",
+   "options": [
+    {
+     "text": "Mass of each pack with a tolerance",
+     "correct": true
+    },
+    {
+     "text": "Temperature at packing",
+     "correct": true
+    },
+    {
+     "text": "Labelling and date codes",
+     "correct": true
+    },
+    {
+     "text": "The supervisor's favourite colour",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

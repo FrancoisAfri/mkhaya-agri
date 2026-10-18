@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335994",
+ "title": "Install and maintain irrigation controllers and climatic sensors",
+ "lessons": [
+  {
+   "title": "Types of irrigation controllers and installation",
+   "minutes": 20,
+   "html": "<h3>What a controller does</h3><p>An irrigation controller is the timer and brain of an automatic system. It sends a low-voltage signal (usually 24 V AC) to solenoid valves to open them in sequence for set run times, and may start a pump through a relay.</p><h4>Types of controllers</h4><table><tr><th>Type</th><th>Description</th><th>Typical use</th></tr><tr><td>Battery-operated tap or valve timers</td><td>Single valve, no mains power</td><td>Small gardens, remote spots</td></tr><tr><td>Conventional (multi-wire) controllers</td><td>One wire from each station to its valve plus a common wire</td><td>Homes, small estates</td></tr><tr><td>Modular controllers</td><td>Station modules can be added</td><td>Growing sites</td></tr><tr><td>Two-wire (decoder) controllers</td><td>One two-wire cable loops past all valves; a decoder at each valve reads its address</td><td>Golf courses, sportsfields, large parks</td></tr><tr><td>Smart / ET-based controllers</td><td>Adjust schedules from weather data or on-site sensors; often Wi-Fi or app based</td><td>Water-wise landscapes</td></tr><tr><td>Central control systems</td><td>Computer or cloud manages many field controllers</td><td>Municipal parks, large sites</td></tr></table><h4>Choosing a location</h4><ul><li>Close to a reliable power supply and as central as possible to the valves.</li><li>Indoor models in a garage or pump room; outdoor models in a weather-rated, lockable enclosure, out of direct sun if possible.</li><li>At a comfortable working height, accessible for programming.</li><li>Away from flood risk and away from where garden sprinklers spray.</li></ul><h4>Installing</h4><ol><li>Mount the controller level and secure with suitable fixings.</li><li>The 230 V supply must be installed by a qualified electrician, with a dedicated, protected circuit and earth leakage protection, in line with SANS 10142-1 wiring rules.</li><li>Bring field wires into the controller through conduit; label each station wire.</li><li>Connect the common wire to COM and station wires to their numbered terminals; connect the pump-start or master valve terminal if used.</li><li>Program date, time, start times, run times and watering days.</li><li>Test each station manually and confirm the right zone opens.</li></ol>"
+  },
+  {
+   "title": "Lightning protection and climatic sensors",
+   "minutes": 20,
+   "html": "<h3>Lightning protection</h3><p>South Africa's Highveld has one of the highest lightning densities in the world. Long field cables act like antennae: a nearby strike induces surges that can destroy controller boards and decoders.</p><h4>Protection measures</h4><ul><li><strong>Earthing:</strong> the controller must be bonded to an effective earth: earth spikes or earth plates driven into moist soil, connected with heavy copper conductor, with earth resistance tested to the manufacturer's requirement.</li><li><strong>Surge arrestors:</strong> on the mains supply side and on field wiring (station outputs, two-wire paths, sensor inputs).</li><li><strong>Two-wire systems:</strong> fit surge protection and earthing at intervals along the cable, as the manufacturer specifies, and at decoders.</li><li><strong>Cable routing:</strong> bury cables at the correct depth, in conduit where needed, and avoid running them parallel to fences or overhead lines for long distances.</li><li><strong>Shielded or twisted cable</strong> where recommended.</li></ul><p>Never work on controllers or cables during a thunderstorm.</p><h4>Climatic sensors for water conservation</h4><table><tr><th>Sensor</th><th>Function</th></tr><tr><td>Rain sensor</td><td>Interrupts watering when rain has fallen (cork discs or a tipping bucket)</td></tr><tr><td>Wind sensor</td><td>Stops sprinklers in high wind to prevent drift and uneven coverage</td></tr><tr><td>Freeze sensor</td><td>Stops watering at low temperatures to prevent ice on paths and plant damage</td></tr><tr><td>Soil moisture sensor</td><td>Allows or blocks watering based on root-zone moisture</td></tr><tr><td>Weather station / ET sensor</td><td>Supplies temperature, humidity, solar radiation, wind and rain data so the controller adjusts run times to evapotranspiration</td></tr><tr><td>Flow sensor</td><td>Detects high flow (burst pipe) or low flow (closed valve) and shuts off zones</td></tr></table><h4>Installing sensors</h4><ul><li><strong>Rain sensors:</strong> mount in open sky, not under trees or eaves and out of sprinkler spray, usually on a fascia or pole.</li><li><strong>Wind sensors:</strong> mount where they read the wind affecting the irrigated area.</li><li><strong>Soil moisture sensors:</strong> bury in the root zone of a representative zone, in full contact with undisturbed soil, away from drip emitters and edges.</li><li>Wire sensors to the controller's sensor terminals (or in series with the common wire for older controllers), and enable the sensor input in programming.</li><li>Test each sensor: wet the rain sensor and confirm watering is suspended.</li></ul>"
+  },
+  {
+   "title": "Maintaining controllers and documentation",
+   "minutes": 15,
+   "html": "<h3>Routine maintenance</h3><table><tr><th>Task</th><th>Frequency (typical)</th></tr><tr><td>Check date, time and programme are correct, especially after power cuts and load shedding</td><td>Monthly and after outages</td></tr><tr><td>Replace the backup battery</td><td>As manufacturer recommends, or yearly</td></tr><tr><td>Adjust run times for the season (or check seasonal adjust %)</td><td>Each season</td></tr><tr><td>Test each station manually; watch zones for faults</td><td>Monthly</td></tr><tr><td>Clean rain sensor, check cork discs or bucket move freely</td><td>Each season</td></tr><tr><td>Check enclosure: seals, insects, rodents, moisture</td><td>Quarterly</td></tr><tr><td>Check earth connections and surge arrestors, especially after storms</td><td>After storms and yearly</td></tr><tr><td>Update firmware on smart controllers</td><td>As released</td></tr></table><h4>Fault finding</h4><ul><li><strong>One station will not open:</strong> measure output voltage at the terminal with a multimeter; if present, test the solenoid resistance and the field wire for breaks.</li><li><strong>Fuse or circuit breaker trips when a station runs:</strong> short circuit in the wire or a failed solenoid.</li><li><strong>No stations work:</strong> check power, transformer, common wire, and whether a sensor is holding the system off.</li><li><strong>Watering at wrong times:</strong> overlapping programmes, wrong clock, or extra start times.</li><li><strong>Controller dead after a storm:</strong> surge damage; check earthing and arrestors before replacing the board.</li></ul><p>Switch off the mains supply before opening the controller's high-voltage compartment, and leave mains faults to an electrician.</p><h4>Documentation</h4><ul><li><strong>As-built plan:</strong> controller location, station numbers, valve locations, wire routes and colours.</li><li><strong>Station chart:</strong> inside the controller door showing each station's area and run time.</li><li><strong>Programme record:</strong> start times, run times, watering days, sensor settings.</li><li><strong>Earth test results</strong> and surge device details.</li><li><strong>Maintenance log:</strong> date, work done, faults, parts replaced.</li><li><strong>Manuals and warranty information</strong> handed to the client.</li></ul><h4>Key points</h4><ul><li>Choose the controller type to suit the site size and control needs.</li><li>Mains supply is installed by a qualified electrician; field wiring is low voltage.</li><li>Earth controllers well and fit surge arrestors in lightning-prone areas.</li><li>Use rain, wind, freeze, soil moisture and ET sensors to save water.</li><li>Check programmes after power cuts and keep full records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What voltage do most controllers send to solenoid valves?",
+   "options": [
+    {
+     "text": "230 V AC",
+     "correct": false
+    },
+    {
+     "text": "24 V AC",
+     "correct": true
+    },
+    {
+     "text": "12 V DC from the mains",
+     "correct": false
+    },
+    {
+     "text": "400 V",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How does a two-wire (decoder) system identify each valve?",
+   "options": [
+    {
+     "text": "By wire colour",
+     "correct": false
+    },
+    {
+     "text": "By the length of cable",
+     "correct": false
+    },
+    {
+     "text": "By its distance from the controller",
+     "correct": false
+    },
+    {
+     "text": "Each decoder has its own address",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a rain sensor be mounted?",
+   "options": [
+    {
+     "text": "In open sky, out of sprinkler spray and not under trees",
+     "correct": true
+    },
+    {
+     "text": "Under the eaves",
+     "correct": false
+    },
+    {
+     "text": "Inside the controller box",
+     "correct": false
+    },
+    {
+     "text": "Buried in the lawn",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a flow sensor help detect?",
+   "options": [
+    {
+     "text": "Wind speed",
+     "correct": false
+    },
+    {
+     "text": "Rainfall",
+     "correct": false
+    },
+    {
+     "text": "A burst pipe or closed valve",
+     "correct": true
+    },
+    {
+     "text": "Soil temperature",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A fuse trips every time station 4 runs. What is the likely cause?",
+   "options": [
+    {
+     "text": "The battery is flat",
+     "correct": false
+    },
+    {
+     "text": "A short circuit in the wire or a failed solenoid",
+     "correct": true
+    },
+    {
+     "text": "The rain sensor is wet",
+     "correct": false
+    },
+    {
+     "text": "The clock is wrong",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Good earthing and surge arrestors help protect controllers from lightning damage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may work on field cables during a thunderstorm if you wear gloves.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks are part of routine controller maintenance? (select all that apply)",
+   "options": [
+    {
+     "text": "Checking time and programme after power cuts",
+     "correct": true
+    },
+    {
+     "text": "Replacing the backup battery",
+     "correct": true
+    },
+    {
+     "text": "Checking earth connections after storms",
+     "correct": true
+    },
+    {
+     "text": "Increasing all run times every month",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

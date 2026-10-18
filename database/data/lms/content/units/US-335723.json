@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335723",
+ "title": "Develop riding proficiency",
+ "lessons": [
+  {
+   "title": "Building a secure, balanced position",
+   "minutes": 15,
+   "html": "<h3>From beginner to proficient rider</h3> <p>At this level you already ride at walk and trot on a trained horse. Now you develop a secure, independent seat so you can ride confidently in walk, trot and canter, in an arena and outside, and begin to influence the horse correctly.</p> <h4>An independent seat</h4> <p>An independent seat means your balance comes from your seat and legs, not from holding on with your hands. Without it, every movement you make pulls on the horse's mouth. Signs of an independent seat:</p> <ul> <li>Your hands stay still and soft while the horse moves.</li> <li>Your lower leg stays under you and does not swing.</li> <li>You can ride transitions without leaning forward or back.</li> </ul> <h4>Exercises to improve the seat</h4> <ul> <li><strong>Riding without stirrups</strong> at walk and slow trot, on a lunge line with an instructor.</li> <li><strong>Arm exercises</strong> at walk: arms out to the side, circles, touching toes, while the instructor controls the horse.</li> <li><strong>Two-point (light seat)</strong> position: shorten the stirrups, lift the seat slightly out of the saddle, weight in the heels, to build leg strength and balance.</li> <li><strong>Transitions</strong>: many changes between halt, walk and trot, keeping the position steady.</li> </ul> <h4>Correct length of stirrups</h4> <p>For flatwork, with your leg hanging long, the bottom of the stirrup iron should be near your ankle bone. For jumping or fast work, shorten by a few holes. Always have both stirrups equal.</p> <h4>Contact</h4> <p>Contact is the soft connection through the reins to the horse's mouth. It should feel like holding a small bird: firm enough that it does not fly away, soft enough not to hurt it. The hands follow the movement of the horse's head, especially in walk and canter.</p> <h4>Safety</h4> <p>Always wear a fitted, certified helmet and suitable boots. Check tack before mounting. Never ride a horse beyond your ability; ask your instructor if you are unsure. Report any fall.</p>"
+  },
+  {
+   "title": "Canter, school figures and riding out",
+   "minutes": 15,
+   "html": "<h3>Riding the canter</h3> <p>Canter is a three-beat pace. On the left rein the horse should lead with the left foreleg; on the right rein with the right foreleg. This is called the correct <strong>lead</strong>.</p> <h4>Asking for canter</h4> <ol> <li>Establish a balanced, active trot. Sit for a few strides.</li> <li>Ask on a corner or circle, where the horse is already bent the right way.</li> <li>Inside leg on the girth to ask for energy; outside leg slightly behind the girth to ask for the canter.</li> <li>Keep a light contact on the outside rein and a slight flexion to the inside.</li> <li>Sit tall and allow with your hands as the horse moves forward.</li> </ol> <p>Check the lead by glancing down at the horse's shoulders: the leading shoulder moves further forward. If the lead is wrong, return to trot and ask again.</p> <h4>Sitting the canter</h4> <p>Let your hips follow the rocking motion. Keep your upper body still and tall. Do not grip with your knees.</p> <h4>School figures</h4> <p>School figures improve control and accuracy. Ride them at walk, trot and later canter:</p> <ul> <li>Large circles (20 m) and smaller circles (15 m, 10 m)</li> <li>Changes of rein across the diagonal</li> <li>Serpentines (loops across the arena)</li> <li>Figure of eight</li> </ul> <p>Look ahead to where you are going. Use the inside leg to keep the horse out on the circle and the outside rein to control the bend.</p> <h4>Riding outside the arena</h4> <p>Riding out in the veld or on farm roads builds confidence but has more hazards: holes, wire, dogs, vehicles, wildlife and other horses.</p> <ul> <li>Always ride with at least one other rider, and tell someone where you are going.</li> <li>Carry a cellphone.</li> <li>Ride at walk on roads and on hard or stony ground.</li> <li>Keep a horse's length between horses.</li> <li>Pass other riders and vehicles at walk, and thank drivers who slow down.</li> <li>Avoid riding in thunderstorms.</li> </ul> <h4>Learning and improving</h4> <p>Ride regularly with an instructor. Ask for feedback. Ride different trained horses to build your skill. Learn from mistakes.</p> <h4>Key points</h4> <ul> <li>An independent seat means balance from seat and legs, not hands.</li> <li>Riding without stirrups and two-point work build balance and strength.</li> <li>Ask for canter with inside leg on the girth, outside leg behind, on a corner.</li> <li>Check the correct lead; if wrong, trot and ask again.</li> <li>Ride out with others, carry a phone and walk on hard or stony ground.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an independent seat?",
+   "options": [
+    {
+     "text": "Riding without a saddle",
+     "correct": false
+    },
+    {
+     "text": "Balance from your seat and legs, not your hands",
+     "correct": true
+    },
+    {
+     "text": "Riding alone",
+     "correct": false
+    },
+    {
+     "text": "Holding the mane",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many beats does the canter have?",
+   "options": [
+    {
+     "text": "Two",
+     "correct": false
+    },
+    {
+     "text": "Three",
+     "correct": true
+    },
+    {
+     "text": "Four",
+     "correct": false
+    },
+    {
+     "text": "One",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On the left rein, which foreleg should the horse lead with in canter?",
+   "options": [
+    {
+     "text": "Right",
+     "correct": false
+    },
+    {
+     "text": "Left",
+     "correct": true
+    },
+    {
+     "text": "Either",
+     "correct": false
+    },
+    {
+     "text": "Neither",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is it easiest to ask for canter?",
+   "options": [
+    {
+     "text": "In the middle of a straight side",
+     "correct": false
+    },
+    {
+     "text": "On a corner or circle",
+     "correct": true
+    },
+    {
+     "text": "Going down a hill",
+     "correct": false
+    },
+    {
+     "text": "At the gate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When riding out, at what pace should you ride on roads and stony ground?",
+   "options": [
+    {
+     "text": "Gallop",
+     "correct": false
+    },
+    {
+     "text": "Canter",
+     "correct": false
+    },
+    {
+     "text": "Walk",
+     "correct": true
+    },
+    {
+     "text": "Fast trot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Riding out alone without telling anyone is safe if you have a calm horse.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Riding without stirrups on the lunge can help improve balance.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are school figures? (select all that apply)",
+   "options": [
+    {
+     "text": "20 m circle",
+     "correct": true
+    },
+    {
+     "text": "Serpentine",
+     "correct": true
+    },
+    {
+     "text": "Figure of eight",
+     "correct": true
+    },
+    {
+     "text": "Dope test",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

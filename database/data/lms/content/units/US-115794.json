@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115794",
+ "title": "Dehusk macadamia nut in husk",
+ "lessons": [
+  {
+   "title": "The dehusking process",
+   "minutes": 15,
+   "html": "<h3>What is dehusking?</h3>\n<p>After harvest, the green husk must be taken off the nut. This is dehusking. It should happen soon after harvest, usually within a day, because nuts in husk heat up and go mouldy, which spoils the kernel.</p>\n<h4>The flow at the dehusking shed</h4>\n<ol><li><strong>Receiving</strong> – nuts in husk arrive from the orchard. Each load is weighed and recorded: block, date and mass.</li>\n<li><strong>Feeding</strong> – nuts are tipped into a hopper or onto a conveyor.</li>\n<li><strong>Dehusking</strong> – the dehusker machine rubs or presses the husks off. It often has a spinning drum or rollers and a rubber belt.</li>\n<li><strong>Separating</strong> – husks fall away and go to the husk heap. Nuts in shell (NIS) go on.</li>\n<li><strong>Sorting</strong> – workers on the sorting table take out bad nuts, nuts still in husk, stones and sticks.</li>\n<li><strong>Drying</strong> – nuts in shell go to drying bins or silos where air (sometimes warm air) dries them slowly.</li></ol>\n<h4>Sorting – what to take out</h4>\n<table><tr><th>Take out</th><th>What it looks like</th></tr>\n<tr><td>Nuts still in husk</td><td>Green husk still on; send back through the dehusker</td></tr>\n<tr><td>Cracked or broken shells</td><td>Visible cracks, kernel showing</td></tr>\n<tr><td>Rotten or mouldy nuts</td><td>Dark, mouldy, soft</td></tr>\n<tr><td>Insect-damaged nuts</td><td>Holes in the shell, stink bug marks</td></tr>\n<tr><td>Floaters and light nuts</td><td>Light, hollow</td></tr>\n<tr><td>Foreign material</td><td>Stones, sticks, leaves, plastic</td></tr></table>\n<p>Stones can damage the cracking machines at the factory and plastic is a food safety risk. Good sorting protects the quality and the price the farm gets.</p>"
+  },
+  {
+   "title": "Operating safely and keeping quality",
+   "minutes": 20,
+   "html": "<h3>Before starting the machine</h3>\n<ul><li>Only operate the dehusker if you are trained and authorised.</li>\n<li>Check that all guards are in place over belts, chains and rollers.</li>\n<li>Check that the emergency stop works and everyone knows where it is.</li>\n<li>Check the machine is clean and nothing is left inside.</li>\n<li>Make sure the area is clear of people before you start.</li></ul>\n<h3>While running</h3>\n<ul><li>Feed nuts at an even rate. Overloading blocks the machine and damages nuts.</li>\n<li>Watch the nuts coming out. If many nuts still have husk, or shells are cracking, tell the supervisor; the settings may need changing.</li>\n<li>Never put hands, sticks or tools into a running machine.</li>\n<li>If the machine blocks: press stop, switch off and lock out the power (lockout), and only then clear it. Your supervisor will show you the lockout procedure.</li>\n<li>Tie back long hair; no loose clothing, scarves or jewellery near moving parts.</li></ul>\n<h3>PPE</h3>\n<ul><li>Ear protection – dehuskers are loud.</li>\n<li>Safety boots and overalls.</li>\n<li>Gloves on the sorting table (husk juice stains and irritates skin).</li>\n<li>Dust mask if there is dust.</li>\n<li>Hairnet if the shed's food safety rules require it.</li></ul>\n<h3>Hygiene and food safety</h3>\n<p>Macadamias are food. Wash your hands after the toilet and before work. Do not eat, drink or smoke on the line. Keep glass and plastic away. Report any injury and cover cuts.</p>\n<h3>Cleaning and records</h3>\n<ul><li>At the end of the shift, lock out the machine and clean it. Remove husk build-up, which goes mouldy.</li>\n<li>Sweep the floor. Take husks to the husk heap; husks can be composted and used as mulch in the orchard.</li>\n<li>Record mass received, mass of nuts in shell sent to drying, rejects, and any machine problems.</li></ul>\n<h4>Key points</h4>\n<ul><li>Dehusk nuts soon after harvest to stop heating and mould.</li>\n<li>Sort out husked nuts, cracked, rotten and insect-damaged nuts and foreign material.</li>\n<li>Guards must be in place; know the emergency stop.</li>\n<li>Stop and lock out the machine before clearing blockages or cleaning.</li>\n<li>Follow food hygiene rules and keep records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must nuts be dehusked soon after harvest?",
+   "options": [
+    {
+     "text": "So they grow",
+     "correct": false
+    },
+    {
+     "text": "Nuts in husk heat up and go mouldy",
+     "correct": true
+    },
+    {
+     "text": "The husk gets softer",
+     "correct": false
+    },
+    {
+     "text": "To make them heavier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with nuts that still have husk after the machine?",
+   "options": [
+    {
+     "text": "Send them back through the dehusker",
+     "correct": true
+    },
+    {
+     "text": "Send them to drying",
+     "correct": false
+    },
+    {
+     "text": "Throw them away",
+     "correct": false
+    },
+    {
+     "text": "Eat them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must stones be removed on the sorting table?",
+   "options": [
+    {
+     "text": "They are heavy",
+     "correct": false
+    },
+    {
+     "text": "They make the nuts dirty",
+     "correct": false
+    },
+    {
+     "text": "They are worth money",
+     "correct": false
+    },
+    {
+     "text": "They can damage cracking machines at the factory",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before clearing a blocked dehusker?",
+   "options": [
+    {
+     "text": "Push it with a stick",
+     "correct": false
+    },
+    {
+     "text": "Speed it up",
+     "correct": false
+    },
+    {
+     "text": "Press stop, switch off and lock out the power",
+     "correct": true
+    },
+    {
+     "text": "Put your hand in quickly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which PPE protects you from the loud noise of a dehusker?",
+   "options": [
+    {
+     "text": "Gloves",
+     "correct": false
+    },
+    {
+     "text": "Ear protection",
+     "correct": true
+    },
+    {
+     "text": "Hairnet",
+     "correct": false
+    },
+    {
+     "text": "Boots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Husks can be composted and used as mulch in the orchard.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to eat and drink on the sorting line.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be removed during sorting? (select all that apply)",
+   "options": [
+    {
+     "text": "Rotten or mouldy nuts",
+     "correct": true
+    },
+    {
+     "text": "Insect-damaged nuts",
+     "correct": true
+    },
+    {
+     "text": "Sticks and plastic",
+     "correct": true
+    },
+    {
+     "text": "Good, clean nuts in shell",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

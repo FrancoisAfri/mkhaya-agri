@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-119471",
+ "title": "Use language and communication in occupational learning programmes",
+ "lessons": [
+  {
+   "title": "Using language to learn at supervisory level",
+   "minutes": 20,
+   "html": "<h3>Language as a learning tool</h3>\n<p>At NQF level 4, occupational learning asks you to do more than understand instructions. You must interpret technical texts, research topics, debate ideas, present findings and write assignments and reports that meet set criteria. You may also help others learn, for example by explaining a procedure to a new groom.</p>\n<h3>Interacting in learning situations</h3>\n<ul>\n<li><strong>Clarify the task:</strong> ask the facilitator about the outcomes, criteria and deadlines.</li>\n<li><strong>Contribute to discussion:</strong> give reasons and evidence, respond to others' views, and keep to the topic.</li>\n<li><strong>Use questioning:</strong> open questions explore (\"Why does this horse resist loading?\"); closed questions confirm (\"Is the vaccine stored at 2 to 8 &deg;C?\").</li>\n<li><strong>Give and receive feedback</strong> in peer review without taking it personally.</li>\n</ul>\n<h3>Reading critically</h3>\n<p>Technical and learning texts include manuals, product labels, research articles, breed society rules, legislation and SOPs.</p>\n<ol>\n<li>Identify the purpose and intended reader.</li>\n<li>Separate main ideas from supporting details.</li>\n<li>Distinguish fact from opinion and check the evidence.</li>\n<li>Interpret graphs, tables and statistics, such as growth curves or rainfall data.</li>\n<li>Compare sources; note where they agree or conflict.</li>\n<li>Summarise in your own words to show understanding.</li>\n</ol>\n<table><tr><th>Strategy</th><th>Use it to</th></tr>\n<tr><td>Skimming</td><td>Get the general idea quickly</td></tr>\n<tr><td>Scanning</td><td>Find a specific fact, like a dosage instruction or deadline</td></tr>\n<tr><td>Close reading</td><td>Understand detailed procedures or legal text</td></tr>\n<tr><td>Mind maps</td><td>Organise ideas and links between topics</td></tr></table>"
+  },
+  {
+   "title": "Writing, presenting and managing your learning",
+   "minutes": 20,
+   "html": "<h3>Writing assignments and reports</h3>\n<p>Workplace learning often requires a written project, such as a report on improving stable hygiene or a plan for a trail ride.</p>\n<ol>\n<li><strong>Analyse the brief:</strong> underline command words (analyse, evaluate, recommend) and the criteria.</li>\n<li><strong>Research:</strong> collect information from manuals, interviews, observation and reliable sources. Record your sources.</li>\n<li><strong>Structure:</strong> title, introduction, findings under headings, conclusions, recommendations, references.</li>\n<li><strong>Write clearly:</strong> plain language, short paragraphs, correct terms, consistent tense.</li>\n<li><strong>Edit and proofread:</strong> check that every criterion is met, then check spelling, grammar and layout.</li>\n<li><strong>Acknowledge sources:</strong> using others' work without acknowledging it is plagiarism.</li>\n</ol>\n<h3>Presenting what you learnt</h3>\n<ul>\n<li>Plan a clear structure and time limit.</li>\n<li>Use visual aids such as a flipchart, photos or a demonstration with equipment.</li>\n<li>Rehearse; speak to the audience, not to your notes.</li>\n<li>Invite and answer questions honestly; say when you do not know and offer to find out.</li>\n</ul>\n<h3>Managing your own learning</h3>\n<ul>\n<li>Keep a learning plan with goals and deadlines.</li>\n<li>Build your portfolio of evidence as you go, with logbooks, witness statements and work samples.</li>\n<li>Reflect: what did I learn, how will I apply it, what do I still need?</li>\n<li>Know your rights: you may ask for reassessment or appeal a decision through the provider's appeals procedure.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Clarify outcomes and criteria before starting a task.</li>\n<li>Read critically: purpose, main ideas, fact versus opinion, evidence.</li>\n<li>Use skimming, scanning and close reading for different purposes.</li>\n<li>Structure reports with findings, conclusions, recommendations and references.</li>\n<li>Acknowledge all sources; plagiarism is not allowed.</li>\n<li>Manage your learning with a plan, a portfolio and reflection.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which reading strategy helps you find one specific fact quickly?",
+   "options": [
+    {
+     "text": "Skimming",
+     "correct": false
+    },
+    {
+     "text": "Scanning",
+     "correct": true
+    },
+    {
+     "text": "Mind mapping",
+     "correct": false
+    },
+    {
+     "text": "Proofreading",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an open question?",
+   "options": [
+    {
+     "text": "Why does this horse resist loading?",
+     "correct": true
+    },
+    {
+     "text": "Is the gate closed?",
+     "correct": false
+    },
+    {
+     "text": "Did you feed the mare?",
+     "correct": false
+    },
+    {
+     "text": "Is the vaccine in the fridge?",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first with a written assignment brief?",
+   "options": [
+    {
+     "text": "Start writing immediately",
+     "correct": false
+    },
+    {
+     "text": "Copy a friend's work",
+     "correct": false
+    },
+    {
+     "text": "Choose a font",
+     "correct": false
+    },
+    {
+     "text": "Analyse the command words and criteria",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which section of a report says what should be done next?",
+   "options": [
+    {
+     "text": "Title",
+     "correct": false
+    },
+    {
+     "text": "Introduction",
+     "correct": false
+    },
+    {
+     "text": "Recommendations",
+     "correct": true
+    },
+    {
+     "text": "References",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During a presentation, if you do not know an answer, you should...",
+   "options": [
+    {
+     "text": "Make something up",
+     "correct": false
+    },
+    {
+     "text": "Say so and offer to find out",
+     "correct": true
+    },
+    {
+     "text": "Ignore the question",
+     "correct": false
+    },
+    {
+     "text": "End the presentation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Using someone else's work without acknowledging it is plagiarism.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Skimming is the best strategy for understanding detailed legal text.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help you manage your own learning? (select all that apply)",
+   "options": [
+    {
+     "text": "A learning plan with goals",
+     "correct": true
+    },
+    {
+     "text": "Building a portfolio as you go",
+     "correct": true
+    },
+    {
+     "text": "Reflecting on what you learnt",
+     "correct": true
+    },
+    {
+     "text": "Waiting until the last day",
+     "correct": false
+    },
+    {
+     "text": "Ignoring feedback",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

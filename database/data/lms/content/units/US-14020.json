@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14020",
+ "title": "Monitor budgets related to community projects",
+ "lessons": [
+  {
+   "title": "Understanding the project budget",
+   "minutes": 20,
+   "html": "<h3>Why budgets matter in community projects</h3>\n<p>Community projects such as a communal vegetable garden, a LandCare erosion project, a poultry co-operative or a borehole and irrigation scheme are often funded by government grants, donors or corporate social investment. Funders expect money to be spent on what was agreed, and members expect fairness and transparency. Poor budget control is one of the most common reasons community projects fail or lose funding.</p>\n<h4>Parts of a budget</h4>\n<ul><li><strong>Income</strong> – grants, member contributions, loans, sales of produce, in-kind contributions (donated labour, land, equipment).</li>\n<li><strong>Capital expenditure</strong> – once-off assets: fencing, tanks, pumps, tunnels, tools.</li>\n<li><strong>Operating expenditure</strong> – recurring costs: seed, fertiliser, feed, fuel, electricity, transport, stipends, repairs.</li>\n<li><strong>Contingency</strong> – a reserve for unexpected costs (often a small percentage, if the funder allows).</li></ul>\n<h4>Budget line items and periods</h4>\n<p>Each budget line has a code, a description, the approved amount and the period. Break the annual budget into a monthly or quarterly <strong>cash flow forecast</strong>, because agricultural spending is seasonal: inputs are bought before planting, income comes after harvest.</p>\n<table><tr><th>Line</th><th>Approved (R)</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>\n<tr><td>Seed and seedlings</td><td>18 000</td><td>9 000</td><td>0</td><td>9 000</td><td>0</td></tr>\n<tr><td>Fertiliser and compost</td><td>12 000</td><td>6 000</td><td>0</td><td>6 000</td><td>0</td></tr>\n<tr><td>Drip irrigation repairs</td><td>8 000</td><td>2 000</td><td>2 000</td><td>2 000</td><td>2 000</td></tr></table>\n<h4>Roles</h4>\n<p>Clarify who may approve spending (usually two signatories), who keeps records (treasurer or bookkeeper), who checks (the committee and, for larger projects, an auditor), and what the funder's reporting requirements are. Make sure everyone has a copy of the approved budget in plain language.</p>"
+  },
+  {
+   "title": "Tracking spending and variances",
+   "minutes": 20,
+   "html": "<h3>Record every transaction</h3>\n<ul><li>Keep a cash book or simple spreadsheet: date, description, budget line, amount, supplier, and document reference.</li>\n<li>Get quotations (often three for larger purchases) and keep them with the order.</li>\n<li>Keep invoices, receipts and proof of payment for every rand spent. No receipt, no reimbursement.</li>\n<li>Use a dedicated project bank account. Avoid cash where possible; if petty cash is needed, keep a petty cash book with a float and slips.</li>\n<li>Reconcile the cash book with the bank statement every month.</li></ul>\n<h3>Comparing budget to actual</h3>\n<p>Each month or quarter, compare actual spending with the budget for each line. The difference is the <strong>variance</strong>.</p>\n<table><tr><th>Line</th><th>Budget to date (R)</th><th>Actual to date (R)</th><th>Variance (R)</th><th>%</th></tr>\n<tr><td>Seed and seedlings</td><td>9 000</td><td>10 800</td><td>-1 800 (over)</td><td>20% over</td></tr>\n<tr><td>Fertiliser</td><td>6 000</td><td>4 500</td><td>+1 500 (under)</td><td>25% under</td></tr></table>\n<p>Variance % = variance ÷ budget × 100. Agree a threshold (for example 10%) above which the committee must discuss the cause.</p>\n<h3>Investigating variances</h3>\n<ul><li>Price change? (Seed prices rose.)</li>\n<li>Timing? (Fertiliser not yet bought, so it is not a real saving.)</li>\n<li>Scope change? (Extra beds planted.)</li>\n<li>Error or misuse? (Wrong line coded, or unauthorised spending.)</li></ul>\n<p>Over-spending on one line may be covered by moving funds from another (a virement), but only if the funder's rules allow and with written approval.</p>"
+  },
+  {
+   "title": "Reporting and accountability",
+   "minutes": 15,
+   "html": "<h3>Financial reports</h3>\n<p>A good monthly or quarterly report to the committee and funder includes:</p>\n<ol><li>Budget versus actual per line, with variances.</li>\n<li>Explanations for significant variances and actions taken.</li>\n<li>Bank balance and reconciliation.</li>\n<li>Cash flow forecast for the next period.</li>\n<li>Progress on outputs (e.g. hectares planted, metres of fence built), so spending is linked to results.</li></ol>\n<h3>Transparency with members</h3>\n<p>Present a simple summary at general meetings, using charts or a poster if literacy levels vary. Allow members to ask questions. Transparency builds trust and reduces conflict.</p>\n<h3>Warning signs of fraud or mismanagement</h3>\n<ul><li>Missing receipts or altered documents</li>\n<li>One person controlling ordering, paying and recording</li>\n<li>Payments to suppliers linked to committee members (conflict of interest)</li>\n<li>Bank reconciliations not done</li></ul>\n<p>Controls such as segregation of duties, two signatories, and regular independent checks protect both the project and honest office-bearers. Report suspected fraud to the funder and, where necessary, the police.</p>\n<h4>Key points</h4>\n<ul><li>A budget has income, capital, operating and contingency lines, broken into a seasonal cash flow.</li>\n<li>Keep source documents for every transaction and reconcile monthly.</li>\n<li>Variance = budget minus actual; investigate variances above an agreed threshold.</li>\n<li>Move funds between lines only with funder approval.</li>\n<li>Report regularly and transparently, and use controls to prevent fraud.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is an example of capital expenditure?",
+   "options": [
+    {
+     "text": "Monthly fuel",
+     "correct": false
+    },
+    {
+     "text": "Seed",
+     "correct": false
+    },
+    {
+     "text": "Stipends",
+     "correct": false
+    },
+    {
+     "text": "Fencing for the garden",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why break an annual budget into a cash flow forecast?",
+   "options": [
+    {
+     "text": "Because banks require colours",
+     "correct": false
+    },
+    {
+     "text": "Agricultural spending and income are seasonal",
+     "correct": true
+    },
+    {
+     "text": "To avoid recording receipts",
+     "correct": false
+    },
+    {
+     "text": "To hide variances",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Budget to date is R9 000 and actual is R10 800. What is the variance?",
+   "options": [
+    {
+     "text": "R1 800 under",
+     "correct": false
+    },
+    {
+     "text": "R10 800 over",
+     "correct": false
+    },
+    {
+     "text": "R1 800 over (20%)",
+     "correct": true
+    },
+    {
+     "text": "R9 000 over",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a virement?",
+   "options": [
+    {
+     "text": "Moving funds from one budget line to another",
+     "correct": true
+    },
+    {
+     "text": "A type of receipt",
+     "correct": false
+    },
+    {
+     "text": "A bank charge",
+     "correct": false
+    },
+    {
+     "text": "An audit report",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a warning sign of possible mismanagement?",
+   "options": [
+    {
+     "text": "Monthly bank reconciliations",
+     "correct": false
+    },
+    {
+     "text": "One person controlling ordering, paying and recording",
+     "correct": true
+    },
+    {
+     "text": "Two signatories on payments",
+     "correct": false
+    },
+    {
+     "text": "Members asking questions",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An under-spend caused by timing (inputs not yet bought) is not necessarily a real saving.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Petty cash does not need any records if the amounts are small.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which records should be kept for each purchase? (select all that apply)",
+   "options": [
+    {
+     "text": "Quotations",
+     "correct": true
+    },
+    {
+     "text": "Invoice and receipt",
+     "correct": true
+    },
+    {
+     "text": "Proof of payment",
+     "correct": true
+    },
+    {
+     "text": "A photo of the treasurer",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

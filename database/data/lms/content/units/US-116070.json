@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116070",
+ "title": "Operate and support a food safety and quality management system in the agricultural supply chain",
+ "lessons": [
+  {
+   "title": "Basic food safety practices on the farm",
+   "minutes": 15,
+   "html": "<h3>Food safety starts on the farm</h3> <p>The food we grow, from apples and table grapes to milk and eggs, ends up on people's plates. If it is dirty or contaminated, people can get sick. Supermarkets and export markets want proof that farms grow food safely. Many farms follow a food safety system such as GLOBALG.A.P. or one based on HACCP (Hazard Analysis and Critical Control Points).</p> <h4>Three kinds of hazards</h4> <table> <tr><th>Hazard</th><th>Examples</th></tr> <tr><td>Biological</td><td>Germs from dirty hands, toilets, animal dung, dirty water</td></tr> <tr><td>Chemical</td><td>Pesticide residues, fuel, oil, cleaning chemicals</td></tr> <tr><td>Physical</td><td>Glass, metal, stones, jewellery, plastic</td></tr> </table> <p>Hazards can come from anywhere: a worker who did not wash after the toilet, a sprayer that drifted onto a block being picked, a piece of a broken crate in a box of oranges. Most of them are prevented by simple daily habits. Every worker, from the picker to the packhouse manager, is part of the food safety system.</p><h4>Your daily food safety practices</h4> <ul> <li>Wash hands with soap and clean water before work, after the toilet, after breaks and after handling chemicals or animals.</li> <li>Use the toilets provided. Never relieve yourself in the field.</li> <li>Do not eat, drink (except water in allowed places), smoke or chew in the lands or packhouse.</li> <li>Keep fingernails short and clean. Remove jewellery if the rules say so.</li> <li>Cover cuts with a blue plaster (easy to see if it falls off) and a glove.</li> <li>Wear clean clothes, hairnets or aprons where required.</li> <li>Keep crates and bins clean and off the soil.</li> <li>Keep animals, including dogs, out of the lands and packhouse.</li> <li>Do not use glass in the packhouse; report broken glass at once.</li> </ul>"
+  },
+  {
+   "title": "Non-conformances, risks and the supply chain",
+   "minutes": 15,
+   "html": "<h3>What is a non-conformance?</h3> <p>A non-conformance is anything that does not follow the farm's food safety, quality or environmental rules. A deviation is when something goes off the normal plan. You must notice them and report them.</p> <h4>Examples</h4> <ul> <li>No soap or water at the hand-wash station.</li> <li>A broken light bulb above the packing table.</li> <li>Fruit picked from a block before the spray withholding period was over.</li> <li>Rat droppings in the packhouse or store.</li> <li>Diesel leaking near the crates.</li> <li>A worker with diarrhoea handling fruit.</li> <li>Rubbish, oil or chemical containers dumped near a river.</li> <li>Crates stored on bare soil.</li> </ul> <h4>How to report</h4> <ol> <li>Stop if the problem can contaminate food (for example broken glass near fruit).</li> <li>Tell your supervisor at once: what, where, when.</li> <li>Do not hide it or try to fix it in a way that makes it worse. Broken glass, for example, must be cleaned by the right procedure and the fruit nearby may need to be thrown away.</li> <li>The supervisor records it and takes corrective action.</li> </ol> <h3>Risk along the supply chain</h3> <p>Food moves from the farm to the packhouse, the truck, the cold store, the market or port and the shop. At each step something can go wrong:</p> <ul> <li><strong>On the farm</strong>: dirty irrigation water, sprays, animals, poor hygiene.</li> <li><strong>Harvest and packing</strong>: dirty crates, hands, glass, pests.</li> <li><strong>Storage and transport</strong>: wrong temperatures, dirty trucks, mixing with chemicals.</li> </ul> <p>If one link fails, the whole chain fails. A single problem can lead to a product recall and the loss of a customer, which can cost jobs.</p>"
+  },
+  {
+   "title": "Health, social issues and record keeping",
+   "minutes": 15,
+   "html": "<h3>Health and social issues at work</h3> <p>Healthy workers produce safe food. Farms also have social responsibilities, and buyers often audit them.</p> <ul> <li><strong>Illness</strong>: tell your supervisor if you are sick, especially with diarrhoea, vomiting, fever or skin infections. You may be given other work away from food.</li> <li><strong>HIV and TB</strong>: these are health issues, not reasons for unfair treatment. TB is spread through coughing; cough into your elbow and get tested if you cough for weeks. Clinics give free testing and treatment.</li> <li><strong>Clean drinking water and toilets</strong> must be provided for workers.</li> <li><strong>Alcohol and drugs</strong> make work unsafe. Do not come to work under the influence.</li> <li><strong>Fair treatment</strong>: no child labour, no unfair discrimination, safe working conditions, as SA labour laws require.</li> </ul> <h3>Why records matter</h3> <p>Auditors and buyers say: \"If it is not written down, it did not happen.\" Records prove the farm follows its system. They also help trace a problem back if something goes wrong. This is called <strong>traceability</strong>.</p> <h4>Common farm records</h4> <ul> <li>Spray records: date, block, product, dose, sprayer's name, withholding period.</li> <li>Harvest records: block, date, team, quantity.</li> <li>Cleaning records: toilets, crates, packhouse.</li> <li>Training registers.</li> <li>Pest control records (rat baits).</li> <li>Non-conformance and corrective action records.</li> </ul> <h4>Good record keeping</h4> <ul> <li>Write clearly with a pen. Do not use pencil.</li> <li>Fill in records at the time, not later from memory.</li> <li>If you make a mistake, draw one line through it, write the correct value and sign. Do not use correction fluid.</li> <li>Never make up or copy records.</li> </ul> <h4>Key points</h4> <ul> <li>Hazards can be biological, chemical or physical.</li> <li>Wash hands, use toilets and keep crates clean and off the soil.</li> <li>Report non-conformances at once: what, where, when.</li> <li>Tell your supervisor if you are sick before handling food.</li> <li>Keep honest, clear records at the time of work.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Pesticide residue on fruit is which kind of hazard?",
+   "options": [
+    {
+     "text": "Social",
+     "correct": false
+    },
+    {
+     "text": "Physical",
+     "correct": false
+    },
+    {
+     "text": "Biological",
+     "correct": false
+    },
+    {
+     "text": "Chemical",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are blue plasters often used in food handling?",
+   "options": [
+    {
+     "text": "They match the uniform",
+     "correct": false
+    },
+    {
+     "text": "They heal faster",
+     "correct": false
+    },
+    {
+     "text": "They are easy to see if they fall off",
+     "correct": true
+    },
+    {
+     "text": "They are cheaper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a non-conformance?",
+   "options": [
+    {
+     "text": "A harvest record",
+     "correct": false
+    },
+    {
+     "text": "A type of fertiliser",
+     "correct": false
+    },
+    {
+     "text": "A spray machine",
+     "correct": false
+    },
+    {
+     "text": "Anything that does not follow the farm's food safety, quality or environmental rules",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a light bulb breaks above the packing table?",
+   "options": [
+    {
+     "text": "Keep packing",
+     "correct": false
+    },
+    {
+     "text": "Sweep the glass into the crates",
+     "correct": false
+    },
+    {
+     "text": "Hide the glass",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell your supervisor at once",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you correct a mistake in a record?",
+   "options": [
+    {
+     "text": "Use correction fluid",
+     "correct": false
+    },
+    {
+     "text": "Draw one line through it, write the correct value and sign",
+     "correct": true
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Records may be filled in at the end of the month from memory.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A worker with diarrhoea should tell the supervisor before handling food.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are physical hazards? (select all that apply)",
+   "options": [
+    {
+     "text": "Jewellery",
+     "correct": true
+    },
+    {
+     "text": "Glass",
+     "correct": true
+    },
+    {
+     "text": "Germs from dirty hands",
+     "correct": false
+    },
+    {
+     "text": "Stones",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

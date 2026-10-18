@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-611202-001-00-KM-05",
+  "title": "Basic Principles of Plant Nutrition",
+  "lessons": [
+    {
+      "title": "Essential nutrients and their roles",
+      "minutes": 20,
+      "html": "<h3>Essential nutrients and their roles</h3><p>Fruit trees and vines need a balanced supply of nutrients for growth, yield and fruit quality. Too little causes deficiency; too much wastes money, can reduce quality and can pollute water.</p><h4>Macronutrients</h4><table><tr><th>Nutrient</th><th>Main roles</th><th>Typical deficiency signs</th></tr><tr><td>Nitrogen (N)</td><td>Leaf and shoot growth, protein</td><td>Pale yellow older leaves, weak growth</td></tr><tr><td>Phosphorus (P)</td><td>Energy transfer, roots, flowering</td><td>Dull, dark or purplish leaves, poor growth</td></tr><tr><td>Potassium (K)</td><td>Water regulation, sugar movement, fruit size and colour</td><td>Leaf margin scorch on older leaves</td></tr><tr><td>Calcium (Ca)</td><td>Cell walls, fruit firmness and storage quality</td><td>Fruit disorders such as bitter pit in apples</td></tr><tr><td>Magnesium (Mg)</td><td>Part of chlorophyll</td><td>Yellowing between veins of older leaves</td></tr><tr><td>Sulphur (S)</td><td>Proteins</td><td>General yellowing of young leaves</td></tr></table><h4>Micronutrients</h4><p>Needed in small amounts but just as essential: zinc, boron, iron, manganese, copper and molybdenum. Zinc deficiency causes small, narrow leaves (little leaf, rosetting). Boron is important for flowering and fruit set; both deficiency and excess cause damage. Iron deficiency shows as yellowing between the veins of young leaves, common on alkaline, high-lime soils.</p><h4>Mobile and immobile nutrients</h4><p>Mobile nutrients (N, P, K, Mg) move from old to new leaves when short, so deficiency shows first on <strong>older</strong> leaves. Immobile nutrients (Ca, B, Fe, Zn, Mn) cannot move, so deficiency shows first on <strong>young</strong> leaves or fruit.</p><h4>Visual symptoms are not enough</h4><p>Pests, diseases, herbicide damage, waterlogging and drought can look like deficiencies. Always confirm with soil and leaf analyses before making big changes.</p><p>Remember that nutrients work together. An excess of one, such as potassium, can reduce the uptake of another, such as magnesium or calcium. Balance matters more than large amounts of any single nutrient.</p>"
+    },
+    {
+      "title": "Soil, pH and nutrient availability",
+      "minutes": 20,
+      "html": "<h3>Soil, pH and nutrient availability</h3><h4>The soil as nutrient store</h4><p>Nutrients are held in the soil on clay particles and organic matter and dissolved in the soil water. Sandy soils with little organic matter hold few nutrients and lose them easily through leaching under irrigation and rain. Clay and organic-rich soils hold more.</p><h4>Soil pH</h4><p>Soil pH strongly controls which nutrients are available:</p><ul><li><strong>Acid soils</strong> (low pH), common in high-rainfall areas such as parts of the Western Cape: aluminium and manganese can become toxic, and calcium, magnesium and phosphorus availability falls. Lime is applied to raise the pH.</li><li><strong>Alkaline soils</strong> (high pH): iron, zinc and manganese availability falls, leading to deficiencies.</li></ul><p>Most fruit crops grow best in a moderately acid to neutral range; the consultant sets the target for each block based on soil analysis.</p><h4>Organic matter</h4><p>Organic matter improves soil structure, water holding, nutrient holding and soil life. Cover crops, compost and mulches increase it.</p><h4>Salinity</h4><p>Irrigation water with high salt content, or poor drainage, can build up salts that damage roots and leaves. Water and soil should be analysed regularly.</p><h4>Soil and leaf analysis</h4><ol><li><strong>Soil samples</strong> are taken at set depths from many spots in a uniform block, mixed into a composite sample, and sent to an accredited laboratory, usually before planting and then every few years.</li><li><strong>Leaf samples</strong> are taken at a specified time in the season from the specified leaf position, because nutrient levels change through the season. Results are compared with norms for the crop.</li></ol><p>Label every sample with block, date and depth or leaf type. Incorrect sampling gives wrong results and wrong fertiliser decisions.</p>"
+    },
+    {
+      "title": "Fertiliser programmes and application",
+      "minutes": 20,
+      "html": "<h3>Fertiliser programmes and application</h3><h4>Building the programme</h4><p>The consultant combines soil and leaf analyses, expected yield, tree age, vigour and previous fruit quality to recommend what to apply, how much, when and how. The foreman's job is to make sure it is applied correctly, on time and recorded.</p><h4>Timing</h4><p>Nutrient uptake follows the growth cycle. Nitrogen is often split between early season (for bud break and fruit set) and post-harvest (to build reserves), with care not to over-stimulate shoot growth in mid-season. Potassium uptake is high during fruit growth. Calcium for fruit quality is often supplemented by foliar sprays during fruit development.</p><h4>Methods</h4><ul><li><strong>Broadcast or band application</strong> of granular fertiliser in the root zone, spread evenly, not piled against trunks.</li><li><strong>Fertigation</strong>: dissolving fertilisers in irrigation water through the drip system - allows small, frequent doses. Requires correct mixing order, compatible products and flushing of lines.</li><li><strong>Foliar sprays</strong>: quick correction of micronutrients and calcium; follow the label and avoid hot conditions that can scorch leaves.</li><li><strong>Lime and gypsum</strong>: usually broadcast and incorporated, often in winter.</li></ul><h4>Calibration and records</h4><p>Calibrate spreaders and injection pumps so the right amount reaches each hectare. Record date, block, product, rate and total used. Compare with the plan.</p><h4>Safety and environment</h4><p>Wear the PPE on the product label; some fertilisers burn skin and eyes. Store fertilisers dry, separate from fuel and agricultural chemicals, and away from water sources. Avoid over-application: excess nitrogen and phosphorus leach into groundwater and rivers, which the National Water Act 36 of 1998 aims to prevent.</p><h4>Key points</h4><ul><li>Each nutrient has a role; deficiencies show on old or young leaves depending on mobility.</li><li>Soil pH strongly controls nutrient availability.</li><li>Confirm problems with correct soil and leaf sampling.</li><li>Apply fertiliser at the right time, rate and place, and record it.</li><li>Avoid over-application to protect water and save money.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Bitter pit in apples is linked to a shortage of which nutrient in the fruit?",
+      "options": [
+        {
+          "text": "Nitrogen",
+          "correct": false
+        },
+        {
+          "text": "Calcium",
+          "correct": true
+        },
+        {
+          "text": "Sulphur",
+          "correct": false
+        },
+        {
+          "text": "Molybdenum",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Deficiency of a mobile nutrient such as nitrogen shows first on:",
+      "options": [
+        {
+          "text": "Older leaves",
+          "correct": true
+        },
+        {
+          "text": "Young leaves",
+          "correct": false
+        },
+        {
+          "text": "Roots only",
+          "correct": false
+        },
+        {
+          "text": "Fruit stalks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Yellowing between the veins of young leaves on high-lime soil most likely indicates:",
+      "options": [
+        {
+          "text": "Potassium excess",
+          "correct": false
+        },
+        {
+          "text": "Nitrogen excess",
+          "correct": false
+        },
+        {
+          "text": "Iron deficiency",
+          "correct": true
+        },
+        {
+          "text": "Too much water only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why are leaf samples taken at a specified time in the season?",
+      "options": [
+        {
+          "text": "Laboratories close at other times",
+          "correct": false
+        },
+        {
+          "text": "Leaves only exist then",
+          "correct": false
+        },
+        {
+          "text": "It is cheaper",
+          "correct": false
+        },
+        {
+          "text": "Nutrient levels in leaves change through the season",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is fertigation?",
+      "options": [
+        {
+          "text": "Applying fertiliser through the irrigation system",
+          "correct": true
+        },
+        {
+          "text": "Spraying fertiliser on fruit at harvest",
+          "correct": false
+        },
+        {
+          "text": "Burning prunings",
+          "correct": false
+        },
+        {
+          "text": "Testing soil pH",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Lime is applied to acid soils to raise the pH.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Visual symptoms alone are always enough to diagnose a nutrient deficiency.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are micronutrients? (select all that apply)",
+      "options": [
+        {
+          "text": "Zinc",
+          "correct": true
+        },
+        {
+          "text": "Boron",
+          "correct": true
+        },
+        {
+          "text": "Nitrogen",
+          "correct": false
+        },
+        {
+          "text": "Iron",
+          "correct": true
+        },
+        {
+          "text": "Potassium",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

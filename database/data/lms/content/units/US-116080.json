@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116080",
+ "title": "Monitor, collect and collate agricultural data",
+ "lessons": [
+  {
+   "title": "What data to collect",
+   "minutes": 15,
+   "html": "<h3>Why farms collect data</h3><p><strong>Data</strong> means facts and numbers. Farms collect data to know what is happening and to make good decisions. For example: How much rain fell? How many calves were born? How many crates were picked?</p><h4>Examples of farm data</h4><table><tr><th>Area</th><th>Data</th></tr><tr><td>Weather</td><td>Rainfall in mm, temperature, frost</td></tr><tr><td>Crops</td><td>Crates or tons picked per land, plant counts, pest counts</td></tr><tr><td>Animals</td><td>Births, deaths, weights, treatments, number in each camp</td></tr><tr><td>Water</td><td>Meter readings, dam levels</td></tr><tr><td>Inputs</td><td>Bags of feed used, litres of diesel</td></tr><tr><td>Work</td><td>Hours worked, tasks done</td></tr></table><h4>Know what is needed</h4><p>Before you start, ask your supervisor:</p><ul><li>What data must I collect?</li><li>Where and when?</li><li>Which tool or form do I use?</li><li>Who gets the data?</li></ul><h4>Collecting data well</h4><ul><li>Use the right tool: rain gauge, scale, measuring tape, counter, meter or tablet.</li><li>Make sure the tool is clean and working. A scale must show zero before you weigh.</li><li>Collect at the same time and in the same way each time. For example, read the rain gauge every morning at 08:00.</li><li>Write the data down straight away. Do not trust your memory.</li><li>Write clearly. Use numbers and units, such as 12 mm or 245 kg.</li><li>If you make a mistake, draw one line through it and write the right number next to it. Do not scratch it out.</li></ul><p>Check that your tool works before you go out.</p><p>Keep the forms clean and dry. A wet, dirty form is hard to read. Put it in a plastic sleeve or a clipboard with a cover.</p>"
+  },
+  {
+   "title": "Collating data and making a report",
+   "minutes": 15,
+   "html": "<h3>Putting data together</h3><p>To <strong>collate</strong> means to bring data together and put it in order. Then it is easy to read and use.</p><h4>Steps</h4><ol><li>Collect all the forms or pages for the period, for example one week.</li><li>Check each one: is the date there? Are numbers missing? Do any look wrong?</li><li>Sort them, for example by date, by land or by camp.</li><li>Add up totals and work out averages.</li><li>Write them in the table or form the farm uses, or type them into the computer.</li></ol><h4>Example: weekly picking report</h4><table><tr><th>Day</th><th>Land 1 crates</th><th>Land 2 crates</th></tr><tr><td>Monday</td><td>120</td><td>80</td></tr><tr><td>Tuesday</td><td>130</td><td>90</td></tr><tr><td>Wednesday</td><td>110</td><td>70</td></tr><tr><td><strong>Total</strong></td><td><strong>360</strong></td><td><strong>240</strong></td></tr></table><p>The average for Land 1 is 360 divided by 3 days, which is 120 crates a day.</p><h4>Writing the report</h4><ul><li>Use the format your supervisor asks for.</li><li>Put a heading: what the report is about, the dates, and your name.</li><li>Show the numbers in a table.</li><li>Write one or two short sentences about anything unusual. For example: \"Land 2 picking was low on Wednesday because of rain.\"</li><li>Hand it in on time to the right person. Keep a copy.</li></ul><p>Farm data is private. Do not share it with people outside the farm without permission.</p><p>If a number looks very strange, check it again before you put it in the report. For example, 1 200 crates in a day when normal is 120 may be a mistake.</p><p>Ask your supervisor if you do not understand the report format. It is better to ask than to make a mistake.</p>"
+  },
+  {
+   "title": "Staying safe while collecting data",
+   "minutes": 15,
+   "html": "<h3>Health and safety</h3><p>Collecting data takes you all over the farm: into lands, kraals, dams and stores. Each place has dangers. Think before you go.</p><h4>In the lands</h4><ul><li>Do not enter a land that was just sprayed. Check the re-entry time with your supervisor.</li><li>Wear a hat, long sleeves and sunscreen. Drink enough water.</li><li>Watch for snakes. Wear boots. Do not put your hand where you cannot see.</li><li>Keep away from working tractors and harvesters.</li></ul><h4>With animals</h4><ul><li>Never go into a pen with a bull alone.</li><li>Stay calm and quiet. Do not stand behind horses or cattle.</li><li>Use the crush when you must weigh or check animals.</li><li>Wash your hands after touching animals.</li></ul><h4>At dams, tanks and stores</h4><ul><li>Do not lean over dam walls or climb into tanks to read levels.</li><li>Do not go into a grain silo or a store that has been fumigated.</li><li>Read chemical store data only with permission and with the door open for air.</li></ul><h4>With equipment</h4><ul><li>Carry tablets and phones carefully. Keep them dry and charged.</li><li>Lift scales and heavy equipment with bent knees and a straight back, or ask for help.</li><li>Do not work in a lightning storm. Go inside.</li></ul><p>If there is an accident, tell your supervisor at once. Report anything unsafe that you see.</p><h4>Key points</h4><ul><li>Know what data is needed, where, when and with which tool.</li><li>Write data down straight away with numbers and units.</li><li>Collate by checking, sorting, adding totals and averages.</li><li>Report in the required format and hand it in on time.</li><li>Stay safe: sprayed lands, animals, dams and storms are dangers.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does it mean to collate data?",
+   "options": [
+    {
+     "text": "To throw away old data",
+     "correct": false
+    },
+    {
+     "text": "To bring data together and put it in order",
+     "correct": true
+    },
+    {
+     "text": "To guess missing numbers",
+     "correct": false
+    },
+    {
+     "text": "To share data on social media",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Land 1 picked 360 crates in 3 days. What is the average per day?",
+   "options": [
+    {
+     "text": "100",
+     "correct": false
+    },
+    {
+     "text": "120",
+     "correct": true
+    },
+    {
+     "text": "360",
+     "correct": false
+    },
+    {
+     "text": "1 080",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you write a wrong number?",
+   "options": [
+    {
+     "text": "Scratch it out until it cannot be read",
+     "correct": false
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Draw one line through it and write the right number next to it",
+     "correct": true
+    },
+    {
+     "text": "Leave it as it is",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the rain gauge be read at the same time every day?",
+   "options": [
+    {
+     "text": "So the data is collected the same way each time",
+     "correct": true
+    },
+    {
+     "text": "Because the rain only falls at 08:00",
+     "correct": false
+    },
+    {
+     "text": "To finish work early",
+     "correct": false
+    },
+    {
+     "text": "Because the gauge breaks in the afternoon",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check before you weigh animals on a scale?",
+   "options": [
+    {
+     "text": "That the scale is painted",
+     "correct": false
+    },
+    {
+     "text": "That the scale shows zero",
+     "correct": true
+    },
+    {
+     "text": "That the animals are hungry",
+     "correct": false
+    },
+    {
+     "text": "That it is raining",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may enter a land that was just sprayed if you walk quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Farm data should not be shared outside the farm without permission.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a report include? (select all that apply)",
+   "options": [
+    {
+     "text": "A heading with the topic, dates and your name",
+     "correct": true
+    },
+    {
+     "text": "A table with the numbers",
+     "correct": true
+    },
+    {
+     "text": "Short notes about anything unusual",
+     "correct": true
+    },
+    {
+     "text": "Your guesses for data you did not collect",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

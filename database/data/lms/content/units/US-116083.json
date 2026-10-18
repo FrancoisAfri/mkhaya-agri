@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-116083",
+  "title": "Illustrate and understand the basic layout of financial statements",
+  "lessons": [
+    {
+      "title": "The income statement",
+      "minutes": 20,
+      "html": "<h3>Why financial statements?</h3><p>Financial statements are short reports that show how a farm business is doing with money. The farmer, the bank, partners and SARS all use them. There are two main statements you should understand: the <strong>income statement</strong> and the <strong>balance sheet</strong>.</p><h4>The income statement</h4><p>The income statement shows <strong>income</strong> and <strong>expenses</strong> for a period of time, usually one year. It answers the question: <em>Did the farm make a profit or a loss this year?</em></p><ul><li><strong>Income</strong> is money earned from selling products and services: weaners, milk, eggs, vegetables, contract ploughing.</li><li><strong>Expenses</strong> are the costs of running the farm: feed, seed, fertiliser, medicine, fuel, wages, repairs, electricity, interest.</li><li><strong>Profit</strong> = income minus expenses. If expenses are bigger than income, the result is a <strong>loss</strong>.</li></ul><h4>Example: small layer farm, one year</h4><table><tr><th>Item</th><th>Rand</th></tr><tr><td><strong>Income</strong></td><td></td></tr><tr><td>Egg sales</td><td>420,000</td></tr><tr><td>Sale of old hens</td><td>18,000</td></tr><tr><td><strong>Total income</strong></td><td><strong>438,000</strong></td></tr><tr><td><strong>Expenses</strong></td><td></td></tr><tr><td>Feed</td><td>250,000</td></tr><tr><td>Point-of-lay pullets</td><td>45,000</td></tr><tr><td>Wages</td><td>60,000</td></tr><tr><td>Electricity and water</td><td>15,000</td></tr><tr><td>Egg trays and transport</td><td>20,000</td></tr><tr><td><strong>Total expenses</strong></td><td><strong>390,000</strong></td></tr><tr><td><strong>Net profit</strong></td><td><strong>48,000</strong></td></tr></table><p>Layout tips: income comes first, then expenses, then profit or loss at the bottom. Group similar items. Show the period covered in the heading, for example <em>Income statement for the year ended 28 February 2026</em>.</p><p>The income statement helps the farmer see which costs are biggest. Here feed is more than half of all expenses, so feed price and wastage need close attention.</p><p>Keep the income statement for each year. When you compare this year with last year, you can see if income is growing, if any cost has jumped and whether the farm is doing better or worse.</p>"
+    },
+    {
+      "title": "The balance sheet",
+      "minutes": 20,
+      "html": "<h3>The balance sheet</h3><p>The balance sheet shows what the business <strong>owns</strong> and what it <strong>owes</strong> on one specific day, for example 28 February 2026. It is like a photograph of the business on that day.</p><ul><li><strong>Assets</strong> – things the business owns that have value: land, buildings, tractor, bakkie, livestock, feed in store, money in the bank, money customers still owe the farm.</li><li><strong>Liabilities</strong> – what the business owes others: bank loans, overdraft, unpaid accounts at the co-op.</li><li><strong>Owner's equity</strong> (or net worth) – the part that really belongs to the owner: assets minus liabilities.</li></ul><p>The balance sheet always balances: <strong>Assets = Liabilities + Owner's equity</strong>.</p><h4>Example: the layer farm on 28 February 2026</h4><table><tr><th>Assets</th><th>Rand</th><th>Liabilities and equity</th><th>Rand</th></tr><tr><td>Hen house and equipment</td><td>300,000</td><td>Bank loan</td><td>150,000</td></tr><tr><td>Bakkie</td><td>120,000</td><td>Co-op account owing</td><td>30,000</td></tr><tr><td>Hens</td><td>60,000</td><td><strong>Total liabilities</strong></td><td><strong>180,000</strong></td></tr><tr><td>Feed in store</td><td>15,000</td><td>Owner's equity</td><td>355,000</td></tr><tr><td>Cash in bank</td><td>40,000</td><td></td><td></td></tr><tr><td><strong>Total assets</strong></td><td><strong>535,000</strong></td><td><strong>Total</strong></td><td><strong>535,000</strong></td></tr></table><h4>Current and fixed items</h4><ul><li><strong>Current assets</strong> are cash or will become cash within a year: cash, feed, stock for sale.</li><li><strong>Fixed assets</strong> last many years: land, buildings, vehicles.</li><li><strong>Current liabilities</strong> must be paid within a year: overdraft, co-op account.</li><li><strong>Long-term liabilities</strong> are paid over many years: a bond or long loan.</li></ul><h4>How the two statements link</h4><p>When the farm makes a profit and the owner leaves it in the business, owner's equity grows. Losses make it shrink. Comparing balance sheets from year to year shows whether the business is growing.</p><h4>Key points</h4><ul><li>The income statement shows income, expenses and profit or loss for a period.</li><li>The balance sheet shows assets, liabilities and owner's equity on one day.</li><li>Assets = Liabilities + Owner's equity.</li><li>Current items turn into cash or must be paid within a year; fixed items last longer.</li><li>Profits kept in the business increase owner's equity.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What does the income statement show?",
+      "options": [
+        {
+          "text": "What the business owns on one day",
+          "correct": false
+        },
+        {
+          "text": "Income, expenses and profit or loss for a period",
+          "correct": true
+        },
+        {
+          "text": "Only the bank balance",
+          "correct": false
+        },
+        {
+          "text": "The names of customers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Total income is R438,000 and total expenses are R390,000. What is the result?",
+      "options": [
+        {
+          "text": "A profit of R48,000",
+          "correct": true
+        },
+        {
+          "text": "A loss of R48,000",
+          "correct": false
+        },
+        {
+          "text": "A profit of R828,000",
+          "correct": false
+        },
+        {
+          "text": "A loss of R390,000",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a liability?",
+      "options": [
+        {
+          "text": "Hens",
+          "correct": false
+        },
+        {
+          "text": "Cash in the bank",
+          "correct": false
+        },
+        {
+          "text": "Feed in store",
+          "correct": false
+        },
+        {
+          "text": "A bank loan",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Total assets are R535,000 and total liabilities are R180,000. What is owner's equity?",
+      "options": [
+        {
+          "text": "R715,000",
+          "correct": false
+        },
+        {
+          "text": "R180,000",
+          "correct": false
+        },
+        {
+          "text": "R355,000",
+          "correct": true
+        },
+        {
+          "text": "R535,000",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a current asset?",
+      "options": [
+        {
+          "text": "Cash in the bank",
+          "correct": true
+        },
+        {
+          "text": "Land",
+          "correct": false
+        },
+        {
+          "text": "Hen house",
+          "correct": false
+        },
+        {
+          "text": "A long-term bond",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The balance sheet shows the position of the business on one specific day.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A loss makes the owner's equity grow.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which items are expenses on the layer farm's income statement? (select all that apply)",
+      "options": [
+        {
+          "text": "Feed",
+          "correct": true
+        },
+        {
+          "text": "Wages",
+          "correct": true
+        },
+        {
+          "text": "Egg sales",
+          "correct": false
+        },
+        {
+          "text": "Electricity and water",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

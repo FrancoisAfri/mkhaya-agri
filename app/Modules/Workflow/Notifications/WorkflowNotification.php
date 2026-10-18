@@ -35,6 +35,6 @@ class WorkflowNotification extends Notification
     {
         $mail = (new MailMessage)->subject($this->title)->line($this->message);
 
-        return $this->url ? $mail->action('Open in Mkhaya Hub', $this->url) : $mail;
+        return $this->url ? $mail->action('Open in Mkhaya Agri', $this->url) : $mail;
     }
 }

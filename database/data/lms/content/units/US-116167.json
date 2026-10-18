@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116167",
+ "title": "Select, use and care for hand tools and basic equipment and infrastructure",
+ "lessons": [
+  {
+   "title": "Choosing the right tool for the job",
+   "minutes": 15,
+   "html": "<h3>The right tool makes work easier and safer</h3> <p>On a farm you use many hand tools and simple equipment. Using the right tool saves time and stops injuries and broken tools.</p> <table> <tr><th>Job</th><th>Tool or equipment</th></tr> <tr><td>Digging holes and trenches</td><td>Spade, pick, crowbar, post-hole digger</td></tr> <tr><td>Weeding</td><td>Hoe, garden fork</td></tr> <tr><td>Levelling soil</td><td>Rake</td></tr> <tr><td>Moving soil, manure or feed</td><td>Wheelbarrow, shovel, fork</td></tr> <tr><td>Cutting branches and pruning</td><td>Secateurs, pruning saw, loppers</td></tr> <tr><td>Cutting grass and bush</td><td>Slasher, sickle, panga, brush cutter (trained users)</td></tr> <tr><td>Fencing</td><td>Fencing pliers, wire strainer, hammer, droppers</td></tr> <tr><td>Watering</td><td>Hose, watering can, knapsack for water</td></tr> <tr><td>Measuring</td><td>Measuring tape, line and pegs</td></tr> </table> <h4>Choosing well</h4> <ul> <li>Ask your supervisor what the job is and which tools to take.</li> <li>Choose the right size: a short spade for small holes, a long one for deep digging.</li> <li>Check the tool before use: handle not cracked or loose, blade sharp, no rust on moving parts.</li> <li>Never use a tool for a job it was not made for. For example, do not use a spade as a lever to lift a rock; use a crowbar.</li> <li>Take only the tools you need, and carry them safely.</li> </ul> <h4>Example</h4><p>Your team must plant 50 fence droppers along a camp. You take a crowbar to break hard ground, a spade to clear the hole, a measuring tape and line to keep the spacing even, fencing pliers to tie the wire, and gloves for everyone. Taking the right tools means no trips back to the store.</p><h4>Basic infrastructure you work with</h4> <p>Infrastructure means the fixed things on the farm: fences, gates, kraals, water troughs, pipes, sheds and tool stores. You use them every day. Close gates behind you, do not climb on fences, and report broken parts.</p>"
+  },
+  {
+   "title": "Using tools safely and solving problems",
+   "minutes": 15,
+   "html": "<h3>Safety measures</h3> <ul> <li>Wear PPE: safety boots, gloves, hat; safety glasses when cutting, chopping or striking.</li> <li>Keep a safe distance from other workers, at least the length of your tool swing, when using hoes, pangas or picks.</li> <li>Carry sharp tools with the blade pointing down and away from your body. Never carry them on your shoulder in a group.</li> <li>Cut away from your body.</li> <li>Stand firmly with feet apart when digging or swinging.</li> <li>Lift with bent knees and a straight back. Do not overload a wheelbarrow.</li> <li>Never leave a rake or fork lying with the teeth up.</li> <li>Do not use tools when you are very tired; take short rests and drink water.</li> <li>Only trained workers use powered equipment such as brush cutters.</li> </ul> <h3>Recognising and acting on problems</h3> <table> <tr><th>Problem</th><th>Action</th></tr> <tr><td>Loose spade or hoe head</td><td>Stop using it; tighten or report; a flying head can injure someone</td></tr> <tr><td>Cracked or splintered handle</td><td>Stop; replace the handle</td></tr> <tr><td>Blunt blade</td><td>Sharpen it or ask for it to be sharpened</td></tr> <tr><td>Flat wheelbarrow tyre</td><td>Report and pump or repair</td></tr> <tr><td>Rusty, stiff secateurs</td><td>Clean and oil</td></tr> <tr><td>Leaking hose or tap</td><td>Close the tap and report</td></tr> <tr><td>Broken gate or fence</td><td>Report so animals do not escape</td></tr> </table> <p>Never try to repair something you were not trained to repair. When in doubt, take it out of use, put a sign on it, and tell your supervisor. A small problem fixed early saves a big problem later.</p> <h3>If someone is hurt</h3> <p>Stop work, call the first aider, and report the accident. Report near misses too.</p>"
+  },
+  {
+   "title": "Maintenance and safe storage",
+   "minutes": 15,
+   "html": "<h3>Routine maintenance</h3> <p>Look after tools every day and they last for years.</p> <ol> <li><strong>Clean</strong>: knock or scrape off soil and plant sap after work. Wash with water if needed.</li> <li><strong>Dry</strong>: wipe tools dry so they do not rust.</li> <li><strong>Oil</strong>: rub a little oil on metal parts and moving joints, like secateurs and pliers.</li> <li><strong>Sharpen</strong>: keep hoes, spades, pangas and secateurs sharp with a file or sharpening stone, as you were shown. Wear gloves and push the file away from your body.</li> <li><strong>Check handles</strong>: sand rough wooden handles smooth; rub them with linseed oil if your farm does this.</li> <li><strong>Tighten</strong>: tighten nuts and screws.</li> <li><strong>Wheelbarrows</strong>: check tyre pressure, grease the wheel, clean out the bin.</li> <li><strong>Disinfect</strong>: clean pruning tools between plants or lands when there is disease, if instructed.</li> </ol> <h3>Storing equipment correctly</h3> <ul> <li>Return every tool to the store at the end of the day. Count them if the farm uses a tool list.</li> <li>Hang long-handled tools on racks or hooks, blades up off the floor or covered, so nobody trips or gets cut.</li> <li>Keep sharp tools in covers or in a rack where hands cannot touch the blades.</li> <li>Store small tools in boxes or on shelves.</li> <li>Keep the store dry and tidy, with walkways clear.</li> <li>Keep chemicals and fuel in their own separate stores, not with hand tools.</li> <li>Lock the store if the farm requires it.</li> <li>Put broken tools aside with a label for repair.</li> </ul> <h3>Caring for infrastructure</h3> <ul> <li>Close gates and latch them.</li> <li>Keep troughs clean and report leaks.</li> <li>Do not lean heavy things on fences.</li> <li>Keep sheds and kraals clean and report damage.</li> </ul> <h4>Key points</h4> <ul> <li>Choose the right tool and check it before use.</li> <li>Carry sharp tools blade down and keep a safe distance from others.</li> <li>Take broken tools out of use and report them.</li> <li>Clean, dry, oil and sharpen tools after work.</li> <li>Store tools safely on racks in a dry, tidy store.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which tool should you use to lift a heavy rock?",
+   "options": [
+    {
+     "text": "A spade",
+     "correct": false
+    },
+    {
+     "text": "Secateurs",
+     "correct": false
+    },
+    {
+     "text": "A crowbar",
+     "correct": true
+    },
+    {
+     "text": "A rake",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you carry sharp tools?",
+   "options": [
+    {
+     "text": "On your shoulder in a group",
+     "correct": false
+    },
+    {
+     "text": "Blade up",
+     "correct": false
+    },
+    {
+     "text": "Blade down and away from your body",
+     "correct": true
+    },
+    {
+     "text": "Swinging them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a hoe head is loose?",
+   "options": [
+    {
+     "text": "Stop using it and tighten or report it",
+     "correct": true
+    },
+    {
+     "text": "Throw it away in the field",
+     "correct": false
+    },
+    {
+     "text": "Keep working faster",
+     "correct": false
+    },
+    {
+     "text": "Give it to someone else",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should tools be dried after cleaning?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "So they do not rust",
+     "correct": true
+    },
+    {
+     "text": "To make them shiny for photos",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should long-handled tools be stored?",
+   "options": [
+    {
+     "text": "On racks or hooks, off the floor",
+     "correct": true
+    },
+    {
+     "text": "Outside in the rain",
+     "correct": false
+    },
+    {
+     "text": "In the chemical store",
+     "correct": false
+    },
+    {
+     "text": "Lying on the floor with teeth up",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only trained workers should use powered equipment such as brush cutters.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should try to repair any tool, even if you were not trained to.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of routine tool maintenance? (select all that apply)",
+   "options": [
+    {
+     "text": "Leaving tools in the rain",
+     "correct": false
+    },
+    {
+     "text": "Sharpening blades",
+     "correct": true
+    },
+    {
+     "text": "Cleaning off soil",
+     "correct": true
+    },
+    {
+     "text": "Oiling moving parts",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

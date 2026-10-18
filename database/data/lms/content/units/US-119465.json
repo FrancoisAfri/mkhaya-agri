@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119465",
+ "title": "Write/present/sign texts for a range of communicative contexts",
+ "lessons": [
+  {
+   "title": "Writing clear workplace texts",
+   "minutes": 15,
+   "html": "<h3>Everyday writing on the farm and in the camp</h3>\n<p>At work you write messages, notes in a logbook, forms, short reports and notices. Your reader must understand quickly what happened and what to do. This unit is about writing texts that fit their purpose and their reader.</p>\n<h4>Know your purpose</h4>\n<ul><li><strong>To inform</strong>: \"The water pump at camp 4 has stopped working.\"</li>\n<li><strong>To instruct</strong>: \"Fill the horses' water troughs before 07:00.\"</li>\n<li><strong>To request</strong>: \"Please may I take leave on Friday 12 June?\"</li>\n<li><strong>To record</strong>: a stable logbook entry or a hunting register.</li></ul>\n<h4>Know your reader</h4>\n<p>Write differently for the stable manager, a client, a vet or a colleague. Use simple, polite language and avoid slang in work messages. If the reader speaks a different home language, use short sentences.</p>\n<h4>Answer the key questions</h4>\n<p>A good message or incident note answers: <strong>Who? What? Where? When? Why? How?</strong></p>\n<p>Example of a weak note: \"Horse sick.\" Example of a good note: \"Monday 08:15. The grey mare Storm in stable 3 is not eating, is sweating and keeps lying down and rolling. I have taken her water bucket out and called Mr Dlamini. Sipho.\" The good note tells the reader what, who, where, when and what was already done. (Rolling and sweating can be signs of colic, which is an emergency; always call the person in charge and the vet.)</p>\n<h4>Filling in forms</h4>\n<ul><li>Read the whole form first.</li>\n<li>Write clearly in block letters, using a pen.</li>\n<li>Fill in every section; write \"N/A\" if it does not apply.</li>\n<li>Check dates, numbers and names.</li>\n<li>Sign and date where required.</li></ul>"
+  },
+  {
+   "title": "Structure, language and checking your writing",
+   "minutes": 15,
+   "html": "<h3>Structure your text</h3>\n<p>Even a short text needs order:</p>\n<ol><li><strong>Opening</strong>: what it is about.</li>\n<li><strong>Middle</strong>: the details, one idea per sentence or paragraph.</li>\n<li><strong>Ending</strong>: what must happen next, or a polite close.</li></ol>\n<h4>Example: a short email</h4>\n<p><em>Subject: Broken gate at the horse camp</em></p>\n<p><em>Good morning Mrs Venter. The gate between the horse camp and the road was found open and the bottom hinge is broken. I closed it with wire for now and checked that all eight horses are in the camp. Please can we buy a new hinge today? Regards, Thabo.</em></p>\n<p>The subject line tells the reader the topic. The email explains the problem, what was done and what is needed.</p>\n<h4>Language tips</h4>\n<ul><li>Use full sentences with a capital letter and a full stop.</li>\n<li>Use the correct tense: past for what happened, present for what is happening, future for plans.</li>\n<li>Use linking words: first, then, after that, because, so.</li>\n<li>Choose the right word: \"lame\" for a horse that walks unevenly, \"colic\" for belly pain.</li>\n<li>Be polite: please, thank you, could you.</li></ul>\n<h4>Other forms of text</h4>\n<p>Some messages are better shown than written: a sketch map of where a broken fence is, a simple table of feed amounts per horse, or a safety notice with a picture. Signs should be short and clear, e.g. \"Danger: stallion. Do not enter.\"</p>\n<h4>Check before you send</h4>\n<ul><li>Read your text again. Does it make sense to someone who was not there?</li>\n<li>Check spelling, especially names of people, animals and places.</li>\n<li>Check numbers and times.</li>\n<li>Make sure it goes to the right person.</li></ul>\n<h4>Key points</h4>\n<ul><li>Know your purpose: inform, instruct, request or record.</li>\n<li>Answer who, what, where, when, why and how.</li>\n<li>Give every text an opening, middle and ending.</li>\n<li>Use clear, polite language and correct tenses.</li>\n<li>Read it again and check names, numbers and the recipient before sending.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which purpose does a logbook entry or hunting register serve?",
+   "options": [
+    {
+     "text": "To advertise",
+     "correct": false
+    },
+    {
+     "text": "To entertain",
+     "correct": false
+    },
+    {
+     "text": "To record",
+     "correct": true
+    },
+    {
+     "text": "To persuade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which note is the most useful?",
+   "options": [
+    {
+     "text": "Monday 08:15. Mare Storm in stable 3 not eating, sweating and rolling; called Mr Dlamini.",
+     "correct": true
+    },
+    {
+     "text": "Something wrong in the stables.",
+     "correct": false
+    },
+    {
+     "text": "Horse sick.",
+     "correct": false
+    },
+    {
+     "text": "Come quick.",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you write in a form section that does not apply to you?",
+   "options": [
+    {
+     "text": "N/A",
+     "correct": true
+    },
+    {
+     "text": "A question mark",
+     "correct": false
+    },
+    {
+     "text": "Your phone number",
+     "correct": false
+    },
+    {
+     "text": "Leave it empty",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which part of an email tells the reader the topic before they open it?",
+   "options": [
+    {
+     "text": "The subject line",
+     "correct": true
+    },
+    {
+     "text": "The signature",
+     "correct": false
+    },
+    {
+     "text": "The greeting",
+     "correct": false
+    },
+    {
+     "text": "The attachment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tense should you use to describe what already happened?",
+   "options": [
+    {
+     "text": "Past tense",
+     "correct": true
+    },
+    {
+     "text": "Present tense",
+     "correct": false
+    },
+    {
+     "text": "No tense",
+     "correct": false
+    },
+    {
+     "text": "Future tense",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A good message answers who, what, where, when, why and how.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spelling of names does not matter in a work message.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check before sending a message? (select all that apply)",
+   "options": [
+    {
+     "text": "That it goes to the right person",
+     "correct": true
+    },
+    {
+     "text": "That it is as long as possible",
+     "correct": false
+    },
+    {
+     "text": "That it makes sense to someone who was not there",
+     "correct": true
+    },
+    {
+     "text": "Names, numbers and times",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

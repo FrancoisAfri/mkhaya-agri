@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119386",
+ "title": "Demonstrate basic understanding of the poultry processing industry",
+ "lessons": [
+  {
+   "title": "The poultry industry in South Africa",
+   "minutes": 15,
+   "html": "<h3>From farm to plate</h3><p>Chicken is the meat South Africans eat most. It is affordable and is eaten in almost every home. The poultry industry is one of the largest parts of South African agriculture and employs many thousands of people.</p><h4>The poultry chain</h4><ol><li><strong>Breeder farms</strong> keep parent birds that lay fertile eggs.</li><li><strong>Hatcheries</strong> incubate the eggs. Day-old chicks hatch after about 21 days.</li><li><strong>Broiler farms</strong> grow the chicks to slaughter weight in about five to six weeks.</li><li><strong>Feed mills</strong> make the feed. Maize and soya are the main ingredients.</li><li><strong>Abattoirs (processing plants)</strong> slaughter and process the birds.</li><li><strong>Distribution</strong>: cold trucks take the chicken to shops, butcheries, fast food outlets and wholesalers.</li></ol><p>There is also an egg industry, where layer hens produce eggs for eating.</p><h4>Who is in the industry</h4><p>There are big companies that own breeders, hatcheries, farms, feed mills and abattoirs. There are also medium and small farmers who sell to abattoirs or sell live birds in their communities. The South African Poultry Association represents many producers.</p><h4>Rules for the industry</h4><p>Abattoirs must follow the Meat Safety Act 40 of 2000. Government meat inspectors and vets check that meat is safe. Animal diseases such as avian influenza are controlled under the Animal Diseases Act 35 of 1984.</p><h4>Your place in the chain</h4><p>If you work in a processing plant, you are in the middle of the chain. Birds come to you from farms, and the product you make goes to shops and homes. What you do affects the farmer before you and the family who buys the chicken after you.</p>"
+  },
+  {
+   "title": "Inside a poultry processing plant",
+   "minutes": 15,
+   "html": "<h3>What happens to the birds</h3><p>A processing plant is a factory where live birds become chicken products. Each step has its own area and team.</p><h4>The main steps</h4><table><tr><th>Step</th><th>What happens</th></tr><tr><td>Receiving</td><td>Trucks bring birds in crates. Birds rest in a shaded, ventilated area.</td></tr><tr><td>Hanging</td><td>Workers hang live birds by the legs on shackles on a moving line.</td></tr><tr><td>Stunning</td><td>Birds are made unconscious so they feel no pain.</td></tr><tr><td>Slaughter and bleeding</td><td>The neck is cut and the blood drains.</td></tr><tr><td>Scalding and plucking</td><td>Warm water loosens feathers; machines remove them.</td></tr><tr><td>Evisceration</td><td>The insides (guts) are removed. Inspectors check each carcass.</td></tr><tr><td>Chilling</td><td>Carcasses are cooled quickly to stop germs growing.</td></tr><tr><td>Portioning and packing</td><td>Birds are sold whole or cut into pieces, packed and labelled.</td></tr><tr><td>Cold storage and despatch</td><td>Product is kept chilled or frozen and loaded on cold trucks.</td></tr></table><h4>Dirty and clean areas</h4><p>The plant is divided into a <strong>dirty area</strong> (live birds, feathers, guts) and a <strong>clean area</strong> (chilling, cutting, packing). Workers and equipment must not move from dirty to clean areas without washing and changing. This stops germs from reaching the meat.</p><h4>By-products</h4><p>Feathers, blood, heads and feet are not wasted. Feet (walkies) and heads may be sold as food. Other parts can be rendered into animal feed.</p><h4>Line speed</h4><p>The line in a plant moves at a set speed. Every person must keep up and do their job well. If you cannot keep up, or something goes wrong, tell your supervisor. Never reach into a moving machine.</p><p>Ask your supervisor to show you where your job fits in the line.</p>"
+  },
+  {
+   "title": "Working in the industry",
+   "minutes": 15,
+   "html": "<h3>Your job and why it matters</h3><h4>Jobs in a processing plant</h4><ul><li>Live bird receiving and hanging</li><li>Slaughter line and evisceration</li><li>Chiller and cutting room operators</li><li>Packers and labellers</li><li>Cleaners and hygiene team</li><li>Quality control and meat inspection</li><li>Cold store and despatch staff, forklift drivers</li><li>Maintenance technicians</li></ul><h4>What the industry expects from workers</h4><ol><li><strong>Hygiene</strong>: wash hands, wear clean protective clothing, no jewellery.</li><li><strong>Safety</strong>: the plant has sharp knives, moving machines, wet floors and cold rooms. Follow safety rules and wear protective equipment. The OHS Act 85 of 1993 protects workers and gives them duties too.</li><li><strong>Animal welfare</strong>: handle live birds gently. Rough handling causes pain, bruising and broken wings, which also lowers meat quality. The Animals Protection Act 71 of 1962 makes cruelty an offence.</li><li><strong>Teamwork and time</strong>: the line moves at a set speed. If one person is late or slow, everyone is affected.</li><li><strong>Reporting</strong>: tell your supervisor about problems such as sick birds, broken machines or dirty product.</li></ol><h4>Challenges facing the industry</h4><p>The industry faces high feed costs, imported chicken competing with local chicken, load shedding that affects cold chains, and disease outbreaks such as avian influenza. Good, efficient and safe work helps the plant stay in business and protects jobs.</p><h4>Key points</h4><ul><li>The poultry chain runs from breeders and hatcheries to broiler farms, abattoirs and shops.</li><li>Abattoirs follow the Meat Safety Act 40 of 2000.</li><li>Main plant steps: receiving, hanging, stunning, bleeding, plucking, evisceration, chilling, packing, cold storage.</li><li>Never move from the dirty area to the clean area without washing and changing.</li><li>Handle live birds gently and follow all hygiene and safety rules.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "About how long do chicken eggs take to hatch in a hatchery?",
+   "options": [
+    {
+     "text": "21 days",
+     "correct": true
+    },
+    {
+     "text": "7 days",
+     "correct": false
+    },
+    {
+     "text": "60 days",
+     "correct": false
+    },
+    {
+     "text": "3 days",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main reason birds are stunned before slaughter?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "So they are unconscious and feel no pain",
+     "correct": true
+    },
+    {
+     "text": "To clean the feathers",
+     "correct": false
+    },
+    {
+     "text": "To cool them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is evisceration?",
+   "options": [
+    {
+     "text": "Hanging live birds",
+     "correct": false
+    },
+    {
+     "text": "Plucking feathers",
+     "correct": false
+    },
+    {
+     "text": "Removing the insides (guts)",
+     "correct": true
+    },
+    {
+     "text": "Packing the meat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are carcasses chilled quickly?",
+   "options": [
+    {
+     "text": "To make them easier to hang",
+     "correct": false
+    },
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "To loosen the feathers",
+     "correct": false
+    },
+    {
+     "text": "To stop germs growing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are the main ingredients of poultry feed?",
+   "options": [
+    {
+     "text": "Maize and soya",
+     "correct": true
+    },
+    {
+     "text": "Grass and hay",
+     "correct": false
+    },
+    {
+     "text": "Fish and rice",
+     "correct": false
+    },
+    {
+     "text": "Sugar and salt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may walk from the dirty area to the clean area without washing if they are in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rough handling of live birds causes bruising and lowers meat quality.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are challenges facing the South African poultry industry? (select all that apply)",
+   "options": [
+    {
+     "text": "High feed costs",
+     "correct": true
+    },
+    {
+     "text": "Imported chicken",
+     "correct": true
+    },
+    {
+     "text": "Load shedding affecting cold chains",
+     "correct": true
+    },
+    {
+     "text": "Too few people eating chicken",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

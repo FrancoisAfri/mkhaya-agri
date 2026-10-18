@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119434",
+ "title": "Apply health and safety practices in poultry production",
+ "lessons": [
+  {
+   "title": "Hazards on a poultry farm",
+   "minutes": 15,
+   "html": "<h3>Hazards on a poultry farm</h3><p>A hazard is anything that can hurt you. Poultry work has many hazards. The Occupational Health and Safety Act 85 of 1993 says your employer must give you a safe workplace and training, and you must work safely and follow the safety rules.</p><h4>Common hazards</h4><table><tr><th>Hazard</th><th>How it can hurt you</th></tr><tr><td>Dust and ammonia</td><td>Coughing, sore eyes, chest problems</td></tr><tr><td>Chemicals (disinfectant, poison, medicine)</td><td>Burns, poisoning, eye damage</td></tr><tr><td>Electricity</td><td>Shock, burns, death, fire</td></tr><tr><td>Heavy lifting (feed bags, crates)</td><td>Back injury</td></tr><tr><td>Machines (augers, fans, feed lines)</td><td>Cuts, crushed or lost fingers</td></tr><tr><td>Slippery floors and ladders</td><td>Falls and broken bones</td></tr><tr><td>Germs from birds</td><td>Some bird germs can make people sick</td></tr><tr><td>Gas heaters and brooders</td><td>Fire, burns, gas poisoning</td></tr></table><h4>Protective clothing (PPE)</h4><p>Wear what your employer gives you, every time:</p><ul><li>overalls and gumboots;</li><li>a dust mask in dusty houses and when cleaning;</li><li>gloves and goggles when mixing chemicals;</li><li>hearing protection near loud machines if given.</li></ul><p>Keep PPE clean and tell your supervisor if it is broken.</p><h4>Health</h4><ul><li>Wash your hands before eating, drinking or smoking.</li><li>Never eat or drink inside the poultry house.</li><li>Cover cuts with a plaster.</li><li>Tell your supervisor if you feel sick with fever or cough after working with sick birds.</li></ul><h4>Your rights and duties</h4><p>You have the right to a safe workplace, to training and to protective clothing. You have a duty to use the protective clothing, follow safety rules, and report anything unsafe. You may refuse work that is clearly dangerous until it is made safe, but tell your supervisor at once. Ask questions if you do not understand a safety rule.</p>"
+  },
+  {
+   "title": "Working safely and responding to accidents",
+   "minutes": 15,
+   "html": "<h3>Working safely and responding to accidents</h3><h4>Safe work rules</h4><ul><li><strong>Machines</strong>: switch off and lock out before you clean or fix augers, fans or feed lines. Keep guards on. Never put hands near moving parts.</li><li><strong>Electricity</strong>: do not touch wires, plugs or switches with wet hands. Report broken cables. Only an electrician repairs wiring.</li><li><strong>Chemicals</strong>: read the label, use the right PPE, never mix chemicals, keep them in labelled containers in a locked store.</li><li><strong>Lifting</strong>: bend your knees, keep the load close, keep your back straight, and ask for help with heavy loads.</li><li><strong>Ladders</strong>: put the ladder on firm ground and have someone hold it.</li><li><strong>Fire</strong>: keep gas bottles upright and away from heat. Know where the fire extinguisher is. No smoking in houses or stores.</li></ul><h4>If there is an accident</h4><ol><li>Make the area safe. Switch off the machine or power if you can do so safely.</li><li>Call for help and tell your supervisor or the first aider.</li><li>Do not move an injured person unless they are in danger.</li><li>If chemicals get in the eyes, rinse with clean running water for a long time and get medical help. Take the product label with you.</li><li>If someone is not breathing, call for emergency help at once. Only trained first aiders should do CPR.</li><li>Report every injury, even a small one. It must be written in the accident book.</li></ol><p>This unit does not make you a first aider. Hands-on first aid training by an accredited provider is needed for that.</p><h4>Report hazards</h4><p>If you see something unsafe, such as a broken guard or leaking gas, report it at once. Do not wait until someone gets hurt.</p><h4>Key points</h4><ul><li>The OHS Act 85 of 1993 requires safe work from employer and worker.</li><li>Wear your PPE every time.</li><li>Switch off and lock out machines before cleaning or fixing.</li><li>Never eat or drink in the poultry house; wash hands often.</li><li>Report every accident and every hazard.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law covers health and safety at work in South Africa?",
+   "options": [
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you wear when mixing chemicals?",
+   "options": [
+    {
+     "text": "Nothing special",
+     "correct": false
+    },
+    {
+     "text": "Only a hat",
+     "correct": false
+    },
+    {
+     "text": "Gloves and goggles",
+     "correct": true
+    },
+    {
+     "text": "Open shoes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before cleaning an auger or feed line?",
+   "options": [
+    {
+     "text": "Run it faster",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out the power",
+     "correct": true
+    },
+    {
+     "text": "Remove the guards",
+     "correct": false
+    },
+    {
+     "text": "Spray it with water while running",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A chemical splashes into a worker's eyes. What should be done?",
+   "options": [
+    {
+     "text": "Rub the eyes hard",
+     "correct": false
+    },
+    {
+     "text": "Wait for it to go away",
+     "correct": false
+    },
+    {
+     "text": "Put milk in the eyes",
+     "correct": false
+    },
+    {
+     "text": "Rinse with clean running water for a long time and get medical help",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where may you eat your lunch?",
+   "options": [
+    {
+     "text": "Away from the poultry house, after washing hands",
+     "correct": true
+    },
+    {
+     "text": "Inside the poultry house",
+     "correct": false
+    },
+    {
+     "text": "In the chemical store",
+     "correct": false
+    },
+    {
+     "text": "Next to the feeders",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A small injury does not need to be reported.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Gas bottles should be kept upright and away from heat.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are hazards in a poultry house? (select all that apply)",
+   "options": [
+    {
+     "text": "Dust and ammonia",
+     "correct": true
+    },
+    {
+     "text": "Moving augers and fans",
+     "correct": true
+    },
+    {
+     "text": "Clean drinking water",
+     "correct": false
+    },
+    {
+     "text": "Heavy feed bags",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-03",
+ "title": "Direct and Control the Performance and Conduct of Subordinate Personnel",
+ "lessons": [
+  {
+   "title": "Directing the depot team",
+   "minutes": 18,
+   "html": "<h3>Leadership in a grain depot</h3>\n<p>The depot manager leads supervisors, graders, weighbridge clerks, operators, maintenance staff and a large seasonal workforce. Directing performance means making sure every person knows what to do, can do it, and does it to standard, safely and honestly.</p>\n<h4>Organising the team</h4>\n<ul>\n<li>Define the structure: who reports to whom on each shift.</li>\n<li>Write or update job descriptions with key outputs and standards.</li>\n<li>Use a skills matrix to place competent people in critical roles such as grading and control room operation.</li>\n<li>Appoint and train supervisors; managers lead through supervisors, not around them.</li>\n</ul>\n<h4>Setting performance standards</h4>\n<table>\n<tr><th>Role</th><th>Example standard</th></tr>\n<tr><td>Weighbridge clerk</td><td>Ticket accuracy 100 percent; average processing time per truck</td></tr>\n<tr><td>Grader</td><td>Agreement with check-grading within tolerance; certificates complete</td></tr>\n<tr><td>Intake operator</td><td>Correct routing; no mixed grades; housekeeping standard</td></tr>\n<tr><td>Supervisor</td><td>Shift targets met; permits controlled; staff briefed daily</td></tr>\n</table>\n<h4>Directing daily work</h4>\n<ol>\n<li>Hold shift briefings: safety topic, intake plan, bin allocation, special instructions.</li>\n<li>Delegate clearly with authority and limits.</li>\n<li>Be visible: walk the site, observe tasks and talk to staff.</li>\n<li>Remove obstacles: equipment faults, missing consumables, unclear procedures.</li>\n<li>Recognise good performance specifically and publicly where appropriate.</li>\n</ol>\n<h4>Motivation</h4>\n<p>People work best when they understand the purpose of their work, feel treated fairly, are recognised, can grow, and work in a safe environment. Long harvest shifts test morale; fair rosters, proper meal breaks, clean facilities and thanks at the end of a hard week matter.</p><p>Seasonal staff need extra attention. Pair new workers with experienced colleagues for their first shifts, check that they understand the critical safety rules, and give quick feedback so that bad habits are corrected before they become routine.</p>"
+  },
+  {
+   "title": "Controlling performance and conduct",
+   "minutes": 18,
+   "html": "<h3>Monitoring</h3>\n<p>Use objective records: weighbridge and grading data, check-grading results, stock variances, attendance, incidents and inspections. Review individual and team results regularly. Identify patterns, such as one grader consistently grading differently from the check grader, or repeated late-coming on a particular shift.</p>\n<h3>Managing poor performance</h3>\n<ol>\n<li>Meet privately; describe the gap between the standard and the actual performance with facts.</li>\n<li>Listen to the employee's view; find causes such as lack of training, unclear instructions or personal problems.</li>\n<li>Agree an improvement plan with training, support and a reasonable time frame.</li>\n<li>Review progress and record each meeting.</li>\n<li>If performance does not improve after a fair process, consult HR on next steps in line with the Labour Relations Act 66 of 1995 Code of Good Practice: Dismissal.</li>\n</ol>\n<h3>Managing misconduct</h3>\n<p>Misconduct is a breach of a rule, such as ignoring lock-out, being under the influence of alcohol, unauthorised absence, falsifying a weighbridge ticket or theft of grain. Apply the disciplinary code consistently:</p>\n<ul>\n<li>Investigate promptly and gather evidence.</li>\n<li>Choose the right level: counselling, warnings, or a disciplinary hearing for serious matters.</li>\n<li>Ensure procedural fairness: notice of allegations, time to prepare, representation, the right to be heard, an impartial chairperson, and reasons for the outcome.</li>\n<li>Consider the employee's record and circumstances when deciding the sanction.</li>\n<li>Keep complete, confidential records.</li>\n</ul>\n<p>Suspension pending a hearing for serious allegations such as fraud should normally be with pay and handled according to company policy.</p>\n<h3>Preventing problems</h3>\n<p>Communicate rules at induction and regularly; make sure seasonal staff understand the disciplinary code in a language they know. Act early on small problems before they grow. Treat everyone consistently regardless of race, gender, language or union membership.</p>\n<h4>Key points</h4>\n<ul>\n<li>Organise the team with clear structure, job descriptions and competent people in critical roles.</li>\n<li>Set measurable standards and direct work through briefings, delegation and visibility.</li>\n<li>Monitor with objective records and look for patterns.</li>\n<li>Manage poor performance with support and time; manage misconduct through a fair disciplinary process.</li>\n<li>Act early, consistently and keep records.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should a manager lead the shift teams?",
+   "options": [
+    {
+     "text": "Without any structure",
+     "correct": false
+    },
+    {
+     "text": "Only by email",
+     "correct": false
+    },
+    {
+     "text": "Through appointed and trained supervisors",
+     "correct": true
+    },
+    {
+     "text": "Around the supervisors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example standard for a grader?",
+   "options": [
+    {
+     "text": "Number of trucks washed",
+     "correct": false
+    },
+    {
+     "text": "Hours spent in the office",
+     "correct": false
+    },
+    {
+     "text": "Kilometres driven",
+     "correct": false
+    },
+    {
+     "text": "Agreement with check-grading within tolerance",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in managing poor performance?",
+   "options": [
+    {
+     "text": "Issue a final warning",
+     "correct": false
+    },
+    {
+     "text": "Meet privately and describe the gap with facts",
+     "correct": true
+    },
+    {
+     "text": "Announce it to the team",
+     "correct": false
+    },
+    {
+     "text": "Dismiss the employee",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of misconduct?",
+   "options": [
+    {
+     "text": "Being slow while learning a task",
+     "correct": false
+    },
+    {
+     "text": "A new grader who is still learning",
+     "correct": false
+    },
+    {
+     "text": "Falsifying a weighbridge ticket",
+     "correct": true
+    },
+    {
+     "text": "Asking for training",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is part of procedural fairness in a disciplinary process?",
+   "options": [
+    {
+     "text": "Secret outcome",
+     "correct": false
+    },
+    {
+     "text": "An impartial chairperson",
+     "correct": true
+    },
+    {
+     "text": "No notice of allegations",
+     "correct": false
+    },
+    {
+     "text": "No chance to be heard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seasonal staff should understand the disciplinary code in a language they know.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Small problems should be left until they become serious.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help motivate depot staff during long harvest shifts? (select all that apply)",
+   "options": [
+    {
+     "text": "Proper meal breaks",
+     "correct": true
+    },
+    {
+     "text": "Unpaid overtime",
+     "correct": false
+    },
+    {
+     "text": "Recognition for hard work",
+     "correct": true
+    },
+    {
+     "text": "Fair rosters",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

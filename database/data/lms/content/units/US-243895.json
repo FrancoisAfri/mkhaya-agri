@@ -1,0 +1,187 @@
+{
+  "unit_key": "US-243895",
+  "title": "Assess the quality of mangoes for export",
+  "lessons": [
+    {
+      "title": "The mango export industry, terms and requirements",
+      "minutes": 18,
+      "html": "<h3>Background and structure</h3><p>Mangoes in South Africa are grown mainly in Limpopo (around Hoedspruit, Tzaneen, Letsitele and the Trichardtsdal area) and Mpumalanga (around Malelane and Nelspruit), with some production in KwaZulu-Natal. A large part of the crop goes to the local fresh market and to processing for juice, achar and dried mango, while a smaller share is exported fresh, mainly to Europe, the UK and the Middle East. The <strong>South African Mango Growers' Association</strong> is part of the subtropical umbrella body Subtrop.</p><p>Common cultivars include Tommy Atkins, Kent, Keitt, Heidi, Sensation, Shelly and Irwin, each with different colour, size and season. The chain includes growers, packhouses, treatment facilities, cold stores, exporters, sea and air freight, and ripening centres overseas.</p><h3>Terminology</h3><ul><li><strong>Blush:</strong> red or purple overcolour on the skin, desired in many markets.</li><li><strong>Ground colour:</strong> background skin colour, changing from green towards yellow as fruit matures.</li><li><strong>Flesh colour:</strong> the colour of the cut flesh near the seed, used as a maturity indicator against a chart.</li><li><strong>Lenticel damage / lenticel spotting:</strong> dark spots around skin pores, often after hot water or wet handling.</li><li><strong>Sap burn:</strong> skin damage from the latex that spurts from the stem when it is broken.</li><li><strong>Anthracnose and soft brown rot / stem-end rot:</strong> fungal decays that usually show during ripening.</li><li><strong>Jelly seed and internal breakdown:</strong> internal disorders around the seed.</li></ul><h3>Legislative and logistical requirements</h3><p>Mangoes for export are regulated under the Agricultural Product Standards Act 119 of 1990, with PPECB inspecting under that Act and overseeing the cold chain under the PPECB Act 9 of 1983. Phytosanitary rules matter: some markets require fruit fly controls, orchard registration or treatments such as hot water treatment. Residue limits for post-harvest fungicides apply.</p><p>Logistically, mangoes must be harvested mature, de-sapped, treated and cooled promptly, and shipped within the planned window. Air freight is used for some premium and soft cultivars, and sea freight for firmer fruit with good shipping ability.</p>"
+    },
+    {
+      "title": "Sampling, external and internal quality",
+      "minutes": 18,
+      "html": "<h3>Drawing a representative sample</h3><ul><li>Use the sample size prescribed in the export standards.</li><li>Draw cartons at random from different pallets and positions.</li><li>Check that cultivar, count, class and registration codes match the contents.</li><li>Record pallet and carton numbers.</li></ul><h3>External quality</h3><ul><li><strong>Size and count:</strong> within the declared range and uniform in the carton.</li><li><strong>Shape:</strong> typical of the cultivar; misshapen fruit limited by class.</li><li><strong>Colour:</strong> ground colour and blush for the cultivar and class.</li><li><strong>Sap burn:</strong> brown or black stains running down from the stem end.</li><li><strong>Lenticel damage:</strong> dark spots, limited by class.</li><li><strong>Blemishes:</strong> wind scarring, sunburn, hail damage, bruises and scratches.</li><li><strong>Pests:</strong> scale, mealybug, fruit fly stings and any quarantine pests.</li><li><strong>Diseases:</strong> anthracnose spots, bacterial black spot and decay.</li><li><strong>Stem:</strong> cut to the correct short length.</li></ul><h3>Internal quality</h3><p>Cut a set number of fruit lengthwise along the seed and check:</p><ul><li><strong>Flesh colour</strong> against the maturity chart for the cultivar.</li><li><strong>Firmness</strong> with a penetrometer; export fruit should be firm.</li><li><strong>TSS</strong> with a refractometer where required.</li><li><strong>Dry matter</strong> where the programme or client uses it as a maturity indicator.</li><li><strong>Internal disorders:</strong> jelly seed, stem-end cavity, internal breakdown, and seed weevil or fruit fly larvae.</li></ul><p>Mangoes are climacteric. Fruit picked mature-green will ripen with good flavour; fruit picked immature will ripen poorly and lack taste. A good assessment protects the importer, who will ripen the fruit, and the exporter's reputation.</p><h4>Recording your results</h4><p>Record each reading per carton as you go, noting the cultivar, because colour and flesh-colour charts differ between Tommy Atkins, Kent, Keitt and others. Keep cut fruit apart from whole fruit, and photograph unusual defects where the procedure allows. Recheck any odd reading with a calibrated instrument before recording it.</p>"
+    },
+    {
+      "title": "Cold chain protocols and the outcome",
+      "minutes": 18,
+      "html": "<h3>Monitoring the mango cold chain</h3><p>Mangoes are a tropical fruit and are <strong>sensitive to chilling injury</strong>. If held too cold, they may show skin discolouration, pitting, uneven ripening and poor flavour. If held too warm, they ripen and soften during the voyage. The correct temperature regime depends on cultivar, maturity and transit time and is set out in the shipping instruction and industry guidelines.</p><p>Cold chain checks for mangoes:</p><ul><li>Fruit should be de-sapped and treated promptly, then cooled without delay.</li><li>Pulp temperatures must be checked with a calibrated probe before loading.</li><li>Container and cold store set points must match the approved regime, not just be as cold as possible.</li><li>Data loggers placed correctly.</li><li>Ventilation and, where used, controlled atmosphere settings correct.</li><li>No ripe fruit or ethylene sources stored with export mangoes.</li></ul><h3>Determining the outcome</h3><ol><li>Calculate external defect percentages: sap burn, lenticel damage, blemishes, decay.</li><li>Evaluate internal maturity (flesh colour, firmness, TSS or dry matter) against minimums.</li><li>Record internal disorders and any larvae or seed weevil.</li><li>Verify that required treatments and records are in place.</li><li>Check packing and marking.</li><li>Decide <strong>pass</strong>, <strong>downgrade</strong> or <strong>reject</strong>, and record reasons.</li></ol><p>Example: a packhouse packs Kent mangoes without allowing them to de-sap properly. Sample inspection shows sap burn above the class tolerance in several cartons. The consignment is downgraded or rejected for the premium market, and the report points the packhouse to its harvest and de-sapping procedure.</p><h4>Key points</h4><ul><li>Mango growers are represented through Subtrop; much of the crop goes to local and processing markets.</li><li>Sap burn and lenticel damage are key external defects.</li><li>Flesh colour against a chart is a common maturity indicator.</li><li>Mangoes are climacteric and sensitive to chilling injury.</li><li>Use the approved temperature regime, not the coldest setting.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Brown or black stains running from the stem end of a mango are usually what?",
+      "options": [
+        {
+          "text": "Sunburn",
+          "correct": false
+        },
+        {
+          "text": "Anthracnose",
+          "correct": false
+        },
+        {
+          "text": "Sap burn",
+          "correct": true
+        },
+        {
+          "text": "Hail damage",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which internal indicator is commonly compared with a chart to judge mango maturity?",
+      "options": [
+        {
+          "text": "Flesh colour",
+          "correct": true
+        },
+        {
+          "text": "Seed mass",
+          "correct": false
+        },
+        {
+          "text": "Stem length",
+          "correct": false
+        },
+        {
+          "text": "Carton colour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What can happen to mangoes stored too cold?",
+      "options": [
+        {
+          "text": "They ripen faster",
+          "correct": false
+        },
+        {
+          "text": "They gain sugar",
+          "correct": false
+        },
+        {
+          "text": "Nothing at all",
+          "correct": false
+        },
+        {
+          "text": "Chilling injury such as skin discolouration and poor flavour",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a mango cultivar grown in South Africa?",
+      "options": [
+        {
+          "text": "Hass",
+          "correct": false
+        },
+        {
+          "text": "Kent",
+          "correct": true
+        },
+        {
+          "text": "Forelle",
+          "correct": false
+        },
+        {
+          "text": "Crimson Seedless",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Sample inspection shows sap burn above tolerance. What should the report point the packhouse to?",
+      "options": [
+        {
+          "text": "Its harvest and de-sapping procedure",
+          "correct": true
+        },
+        {
+          "text": "Its carton printing",
+          "correct": false
+        },
+        {
+          "text": "Its staff canteen",
+          "correct": false
+        },
+        {
+          "text": "Its bank account",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Mangoes are climacteric and can ripen after harvest.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Export mangoes should be stored with ripe fruit to help them ripen evenly in transit.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these are internal checks on cut mangoes? (select all that apply)",
+      "options": [
+        {
+          "text": "Flesh colour",
+          "correct": true
+        },
+        {
+          "text": "Jelly seed",
+          "correct": true
+        },
+        {
+          "text": "Sap burn on the skin",
+          "correct": false
+        },
+        {
+          "text": "Seed weevil or larvae",
+          "correct": true
+        },
+        {
+          "text": "Blush percentage",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

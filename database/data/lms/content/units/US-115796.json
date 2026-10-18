@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115796",
+ "title": "Hole plant stations for planting macadamia trees",
+ "lessons": [
+  {
+   "title": "Getting ready to dig",
+   "minutes": 15,
+   "html": "<h3>What is holing?</h3>\n<p>Holing means digging a hole at each peg where a macadamia tree will be planted. A good hole gives the young tree's roots loose soil to grow into. A bad hole can make the tree grow slowly or die.</p>\n<h4>Find the peg</h4>\n<ul><li>Each peg marks one tree.</li>\n<li>The hole must be dug with the peg in the centre.</li>\n<li>Do not lose the peg. It shows the exact spot.</li></ul>\n<h4>Use a planting board</h4>\n<p>A planting board is a long plank with a notch in the middle and a hole or notch at each end.</p>\n<ol><li>Put the middle notch against the peg.</li>\n<li>Put a small peg in each end hole.</li>\n<li>Lift the board away. Take out the centre peg.</li>\n<li>Dig the hole.</li>\n<li>Later, put the board back on the two end pegs. The middle notch shows the exact centre for the tree.</li></ol>\n<h4>Your tools</h4>\n<ul><li>Spade</li>\n<li>Pick for hard soil</li>\n<li>Crowbar for stones</li>\n<li>Planting board and small pegs</li>\n<li>Measuring stick for depth and width</li></ul>\n<p>Check that your tools are in good condition. A loose pick head is dangerous. Tell your supervisor if a tool is broken.</p>\n<h4>Your PPE</h4>\n<ul><li>Safety boots</li>\n<li>Gloves</li>\n<li>Hat and sunscreen</li></ul>\n<p>Drink water often. Rest in the shade when you can.</p>"
+  },
+  {
+   "title": "Digging the hole",
+   "minutes": 15,
+   "html": "<h3>How big?</h3>\n<p>Your supervisor will tell you the size of the hole. On many farms the soil is prepared with a ridger or ripper first, and the hole is a little bigger than the bag of the young tree. Use the measuring stick to check width and depth.</p>\n<h3>Steps</h3>\n<ol><li>Clear grass and weeds from around the spot.</li>\n<li>Dig the top soil out first. It is darker. Put it on one side of the hole.</li>\n<li>Dig the deeper soil (subsoil). It is lighter. Put it on the other side.</li>\n<li>Keep the sides of the hole rough. Smooth, hard sides stop roots from growing out. Break them with the spade.</li>\n<li>Loosen the bottom of the hole.</li>\n<li>Take out big stones and roots.</li>\n<li>Check the size with the measuring stick.</li>\n<li>If the supervisor says so, mix compost or fertiliser with the topsoil. Use the amount you are given.</li></ol>\n<h3>Do not</h3>\n<ul><li>Do not dig when the soil is very wet. It becomes hard and smooth.</li>\n<li>Do not put the subsoil back on top.</li>\n<li>Do not leave open holes where people or animals walk at night without telling the supervisor. Someone can fall in.</li></ul>\n<h3>Safety</h3>\n<ul><li>Stand with feet apart. Keep your back straight.</li>\n<li>Keep other workers at a safe distance when you swing a pick.</li>\n<li>Look for snakes, scorpions and buried pipes or cables. If you hit a pipe or cable, stop and call the supervisor.</li></ul>\n<h3>Finish</h3>\n<p>Tell the supervisor how many holes you dug. Clean your tools and put them away.</p>\n<h4>Key points</h4>\n<ul><li>Dig the hole with the peg in the centre. Use a planting board.</li>\n<li>Put topsoil on one side and subsoil on the other side.</li>\n<li>Make the sides rough, not smooth.</li>\n<li>Check the size with the measuring stick.</li>\n<li>Keep others away when you swing a pick.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the peg show?",
+   "options": [
+    {
+     "text": "The exact spot for the tree",
+     "correct": true
+    },
+    {
+     "text": "Where to put the soil",
+     "correct": false
+    },
+    {
+     "text": "Where to eat lunch",
+     "correct": false
+    },
+    {
+     "text": "The end of the row",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the planting board used for?",
+   "options": [
+    {
+     "text": "To carry soil",
+     "correct": false
+    },
+    {
+     "text": "To sit on",
+     "correct": false
+    },
+    {
+     "text": "To find the exact centre of the hole again",
+     "correct": true
+    },
+    {
+     "text": "To cut roots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you put the topsoil?",
+   "options": [
+    {
+     "text": "Mixed with the subsoil",
+     "correct": false
+    },
+    {
+     "text": "On one side of the hole, away from the subsoil",
+     "correct": true
+    },
+    {
+     "text": "Back in the hole first, deep down",
+     "correct": false
+    },
+    {
+     "text": "In the road",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the sides of the hole be rough?",
+   "options": [
+    {
+     "text": "It looks nice",
+     "correct": false
+    },
+    {
+     "text": "It is faster",
+     "correct": false
+    },
+    {
+     "text": "To keep water out",
+     "correct": false
+    },
+    {
+     "text": "Smooth, hard sides stop roots growing out",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you hit a pipe or cable?",
+   "options": [
+    {
+     "text": "Keep digging",
+     "correct": false
+    },
+    {
+     "text": "Pull it out",
+     "correct": false
+    },
+    {
+     "text": "Stop and call the supervisor",
+     "correct": true
+    },
+    {
+     "text": "Cover it and move on",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should dig holes when the soil is very wet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Other workers must stay at a safe distance when you swing a pick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which PPE do you wear for holing? (select all that apply)",
+   "options": [
+    {
+     "text": "Safety boots",
+     "correct": true
+    },
+    {
+     "text": "Gloves",
+     "correct": true
+    },
+    {
+     "text": "Hat and sunscreen",
+     "correct": true
+    },
+    {
+     "text": "Sandals",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

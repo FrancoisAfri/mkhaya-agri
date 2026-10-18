@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119428",
+ "title": "Apply cold chain management in poultry processing",
+ "lessons": [
+  {
+   "title": "What is the cold chain?",
+   "minutes": 15,
+   "html": "<h3>Keeping chicken cold</h3>\n<p>Germs grow quickly on warm chicken meat. When chicken is kept cold, germs grow very slowly. The <strong>cold chain</strong> is the unbroken chain of cold temperatures from the moment the bird is slaughtered until the chicken is cooked by the customer. Every link must stay cold: chilling, cutting, packing, the cold store, loading, the truck and the shop.</p>\n<p>If one link breaks, for example a pallet stands in the sun on the loading dock, the meat warms up. Germs multiply and the shelf life gets shorter. The chicken may spoil before its date or make people sick. Cooling the meat down again does not kill those germs.</p>\n<h4>Chilled and frozen products</h4>\n<ul>\n<li><strong>Chilled (fresh)</strong> chicken is kept cold but not frozen. Chilled product is commonly kept between about 0 °C and 4 °C.</li>\n<li><strong>Frozen</strong> chicken, including IQF (individually quick frozen) portions, is commonly kept at -18 °C or colder.</li>\n</ul>\n<p>Always follow the exact temperatures written in your plant's work instructions and on the product specification. Different customers can have different requirements.</p>\n<h4>The chain in a plant</h4>\n<ol>\n<li>Carcasses are cooled in water, ice or air chillers straight after evisceration.</li>\n<li>Cutting and packing rooms are kept cool.</li>\n<li>Packed product goes quickly into the chiller room or blast freezer.</li>\n<li>Product is stored in the cold store.</li>\n<li>Product is loaded into refrigerated trucks for delivery.</li>\n</ol><h4>Who is responsible?</h4><p>Everyone who handles the product is a link in the chain: chiller operators, cutters, packers, cold store staff, forklift drivers and truck drivers. If you see product standing in a warm place, move it or report it at once. Do not assume someone else will deal with it.</p>"
+  },
+  {
+   "title": "Keeping the chain unbroken",
+   "minutes": 15,
+   "html": "<h3>Your job in the cold chain</h3>\n<p>Most cold chain failures are caused by people, not machines. Simple habits make a big difference.</p>\n<h4>Good habits</h4>\n<ul>\n<li>Move product quickly. Do not leave crates or boxes standing in warm passages or on the dock.</li>\n<li>Keep cold room and freezer doors closed. Open them only when you go in or out, and do not prop them open.</li>\n<li>Keep plastic strip curtains in place and report torn ones.</li>\n<li>Do not block the cooling fans with stacked boxes. Cold air must flow around the product.</li>\n<li>Stack boxes neatly on pallets with space for air between pallets and the walls.</li>\n<li>Do not stack chilled product so high that it crushes the boxes below.</li>\n<li>Use first in, first out (FIFO): send out older stock before newer stock.</li>\n</ul>\n<h4>Loading trucks</h4>\n<ol>\n<li>Check that the truck's refrigeration unit is running and the inside has been pre-cooled before loading.</li>\n<li>Check the truck is clean and has no smell.</li>\n<li>Load quickly, and close the truck doors between pallets if there is a delay.</li>\n<li>Record the product temperature and truck temperature on the loading sheet.</li>\n<li>Do not load product that is above the allowed temperature. Report it to your supervisor.</li>\n</ol>\n<h4>Working in the cold</h4>\n<p>Cold rooms and freezers are dangerous if you are not careful. Wear the warm jacket, gloves and boots the plant provides. Take your breaks out of the cold as your plant allows. Before entering a freezer, tell someone. Know where the inside door release and alarm button are. Never block the inside release. If you feel very cold, confused or numb, leave the freezer and tell your supervisor.</p>"
+  },
+  {
+   "title": "Checking and recording temperatures",
+   "minutes": 15,
+   "html": "<h3>Measuring temperature</h3>\n<p>You cannot tell the temperature of chicken by touching it. It must be measured.</p>\n<ul>\n<li><strong>Room thermometers or displays</strong> show the air temperature in a cold room.</li>\n<li><strong>Probe thermometers</strong> measure the temperature inside the product.</li>\n<li><strong>Data loggers</strong> record temperatures automatically, including in trucks.</li>\n</ul>\n<h4>Using a probe thermometer</h4>\n<ol>\n<li>Clean and sanitise the probe before and after every use.</li>\n<li>Push the probe into the thickest part of the product, such as the breast, without touching bone.</li>\n<li>Wait until the reading stops changing.</li>\n<li>Write the reading, product, time, date and your name on the record sheet.</li>\n<li>Clean the probe again.</li>\n</ol>\n<p>Thermometers must be checked (calibrated) regularly by the quality department. If a thermometer is damaged or gives strange readings, report it and do not use it.</p>\n<h4>When a temperature is wrong</h4>\n<p>If the product or room is warmer than the limit:</p>\n<ul>\n<li>Do not ignore it and do not write a false reading.</li>\n<li>Tell your supervisor immediately.</li>\n<li>The product may be put on hold until the quality department decides whether it is safe.</li>\n<li>Report cold room faults such as ice build-up, a door that will not close or an alarm.</li>\n</ul>\n<p><em>Example:</em> On a hot afternoon, a probe on a pallet of fillets on the dock shows a reading above the limit. Nomsa tells her supervisor. The pallet is put on hold, the dock procedure is changed so pallets go straight into the truck, and the customer does not receive warm product.</p>\n<h4>Key points</h4>\n<ul>\n<li>The cold chain must stay unbroken from slaughter to the customer.</li>\n<li>Keep cold room doors closed and move product quickly.</li>\n<li>Do not block cooling fans; leave space for air.</li>\n<li>Measure product temperature with a clean probe and record it honestly.</li>\n<li>Report any temperature above the limit at once.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is chicken kept cold?",
+   "options": [
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "So that germs grow very slowly",
+     "correct": true
+    },
+    {
+     "text": "To make it cheaper to cook",
+     "correct": false
+    },
+    {
+     "text": "So that it changes colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does FIFO mean?",
+   "options": [
+    {
+     "text": "First in, first out",
+     "correct": true
+    },
+    {
+     "text": "Freeze in, freeze out",
+     "correct": false
+    },
+    {
+     "text": "Fast in, fast out",
+     "correct": false
+    },
+    {
+     "text": "Fill in forms only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you push a probe thermometer?",
+   "options": [
+    {
+     "text": "Into the bone",
+     "correct": false
+    },
+    {
+     "text": "Into the thickest part of the product, avoiding bone",
+     "correct": true
+    },
+    {
+     "text": "Into the box only",
+     "correct": false
+    },
+    {
+     "text": "Into the air next to the product",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before loading a refrigerated truck?",
+   "options": [
+    {
+     "text": "Check that the refrigeration is running and the truck is pre-cooled",
+     "correct": true
+    },
+    {
+     "text": "Open all the cold room doors",
+     "correct": false
+    },
+    {
+     "text": "Leave pallets on the dock in the sun",
+     "correct": false
+    },
+    {
+     "text": "Switch off the truck to save fuel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a product temperature is above the limit?",
+   "options": [
+    {
+     "text": "Write down a lower number",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor immediately",
+     "correct": true
+    },
+    {
+     "text": "Load it quickly",
+     "correct": false
+    },
+    {
+     "text": "Put it back on the line",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cooling warm chicken down again kills the germs that grew while it was warm.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should tell someone before you go into a freezer.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which habits help keep the cold chain unbroken? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep cold room doors closed",
+     "correct": true
+    },
+    {
+     "text": "Prop the freezer door open for easy access",
+     "correct": false
+    },
+    {
+     "text": "Do not block the cooling fans",
+     "correct": true
+    },
+    {
+     "text": "Move product quickly off the dock",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

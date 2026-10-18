@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-003-00-KM-04",
+ "title": "Animal Welfare and Humane Handling of Pigs",
+ "lessons": [
+  {
+   "title": "Understanding pigs",
+   "minutes": 15,
+   "html": "<h3>Pigs feel stress and pain</h3><p>Pigs are intelligent animals. They feel fear, pain and stress. The Animals Protection Act 71 of 1962 makes it a crime to treat them cruelly. At the abattoir we must handle pigs calmly and stun them correctly so they do not suffer.</p><h3>Why welfare matters for the meat</h3><table><tr><th>Poor welfare</th><th>Effect on meat</th></tr><tr><td>Rough handling, hitting, fighting</td><td>Bruises and skin damage that must be trimmed</td></tr><tr><td>Stress just before slaughter</td><td>Pale, soft, watery meat (PSE) that loses moisture and value</td></tr><tr><td>Long-term stress, no rest</td><td>Dark, firm, dry meat (DFD) with short shelf life</td></tr><tr><td>Heat stress</td><td>Pigs can collapse and die</td></tr></table><h3>Pigs and heat</h3><p>Pigs do not sweat properly. They cannot cool themselves easily, so they suffer badly in hot weather. In the lairage:</p><ul><li>give shade and good airflow,</li><li>use water sprayers or misters to cool them, as the abattoir's procedure says,</li><li>give clean drinking water at all times,</li><li>move pigs in the cooler parts of the day if possible.</li></ul><h3>How pigs behave</h3><ul><li>Pigs like to stay in groups and move together.</li><li>They see poorly and are easily scared by shadows, bright lights, shiny surfaces, noise and sudden movement.</li><li>Pigs from different groups fight when mixed. Keep groups that arrived together in the same pen.</li><li>Pigs move more easily on a level, non-slip floor, and do not like steep ramps.</li><li>They move away from you if you enter their flight zone, and stop when you step back.</li></ul><p>Watch the pigs in the lairage. Pigs that pant heavily, lie down and will not get up, or have blue or blotchy skin may be suffering from heat stress. Cool them and report them to your supervisor straight away.</p>"
+  },
+  {
+   "title": "Handling and stunning pigs humanely",
+   "minutes": 15,
+   "html": "<h3>Offloading and lairage</h3><ul><li>Offload quietly onto a ramp that is not too steep, with non-slip flooring.</li><li>Let the pigs walk off at their own speed.</li><li>Separate sick, injured or lame pigs and tell the supervisor and meat inspector.</li><li>Do not mix strange groups. Do not overcrowd pens.</li><li>Give water and cooling.</li></ul><h3>Moving pigs</h3><ul><li>Move small groups. Pigs push and pile up when too many are moved at once.</li><li>Use a <strong>pig board</strong> (a solid board) to guide and block, and use your body position.</li><li>Keep noise down. Do not shout or bang.</li><li>Electric prodders should not be used routinely on pigs. Follow the abattoir's rule; if allowed at all, only rarely, on the hindquarters, and never on the face, eyes, anus or genitals.</li><li><strong>Never</strong> kick, hit, lift pigs by the ears or tail, or drag them.</li></ul><h3>Stunning</h3><p><strong>Electrical stunning</strong>: place the tongs correctly on both sides of the head, between the eye and the ear, so the current passes through the brain. Keep them on for the full time set by the procedure.</p><p><strong>Gas stunning</strong> (in large plants): pigs are moved in small groups into a carbon dioxide system. The system must be at the correct concentration and timing.</p><h3>Check the stun</h3><p>A properly stunned pig does not breathe rhythmically, does not blink when the eye is touched, and does not try to lift its head or squeal. Electrical stunning wears off quickly, so sticking must be done very soon after stunning, as the procedure requires. If a pig shows signs of consciousness, re-stun at once.</p><h4>Key points</h4><ul><li>The Animals Protection Act forbids cruelty to pigs.</li><li>Pigs suffer from heat: give shade, water and cooling.</li><li>Move small groups with a pig board and keep noise low.</li><li>Place stunning tongs between eye and ear on both sides of the head.</li><li>Stick quickly after stunning and re-stun any pig that shows signs of consciousness.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why do pigs suffer badly in hot weather?",
+   "options": [
+    {
+     "text": "They have thick hair",
+     "correct": false
+    },
+    {
+     "text": "They do not sweat properly and cannot cool themselves easily",
+     "correct": true
+    },
+    {
+     "text": "They drink too much",
+     "correct": false
+    },
+    {
+     "text": "They are always stressed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What tool should you use to guide pigs?",
+   "options": [
+    {
+     "text": "A stick",
+     "correct": false
+    },
+    {
+     "text": "A whip",
+     "correct": false
+    },
+    {
+     "text": "A pig board",
+     "correct": true
+    },
+    {
+     "text": "A rope on the ears",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should electrical stunning tongs be placed?",
+   "options": [
+    {
+     "text": "On the back",
+     "correct": false
+    },
+    {
+     "text": "On the legs",
+     "correct": false
+    },
+    {
+     "text": "On the tail",
+     "correct": false
+    },
+    {
+     "text": "On both sides of the head, between the eye and the ear",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Stress just before slaughter can cause which meat problem?",
+   "options": [
+    {
+     "text": "Bruising only",
+     "correct": false
+    },
+    {
+     "text": "Pale, soft, watery (PSE) meat",
+     "correct": true
+    },
+    {
+     "text": "Yellow fat",
+     "correct": false
+    },
+    {
+     "text": "Tough skin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must sticking be done very soon after electrical stunning?",
+   "options": [
+    {
+     "text": "Electrical stunning wears off quickly",
+     "correct": true
+    },
+    {
+     "text": "To save time",
+     "correct": false
+    },
+    {
+     "text": "The blood will freeze",
+     "correct": false
+    },
+    {
+     "text": "The tongs get hot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pigs from different groups may fight when they are mixed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to lift pigs by the ears or tail.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps help pigs in the lairage in hot weather? (select all that apply)",
+   "options": [
+    {
+     "text": "Water sprayers or misters",
+     "correct": true
+    },
+    {
+     "text": "Shade and good airflow",
+     "correct": true
+    },
+    {
+     "text": "Overcrowding the pens",
+     "correct": false
+    },
+    {
+     "text": "Clean drinking water at all times",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -60,7 +60,7 @@ class MonthlyReportIssuedNotification extends Notification
 
         return $mail
             ->action('Open the report', $this->url)
-            ->line('Issued from Mkhaya Hub · Project Management.');
+            ->line('Issued from Mkhaya Agri · Project Management.');
     }
 
     /** @return array<string, mixed> */

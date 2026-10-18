@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-116111",
+ "title": "Harvest agricultural crops: Procedures",
+ "lessons": [
+  {
+   "title": "Selecting equipment and sampling for maturity",
+   "minutes": 15,
+   "html": "<h3>Selecting equipment and sampling for maturity</h3><p>At this level you do more than pick. You choose the right equipment, take maturity samples using the farm procedure, and help guide other workers in the team.</p><h4>Choosing equipment for the method</h4><p>The harvesting method depends on the crop and the market:</p><ul><li><strong>Hand picking</strong> (fruit, tomatoes, grapes): picking bags, clippers or scissors, ladders, lugs and bins.</li><li><strong>Hand cutting</strong> (cabbage, lettuce, butternut): sharp harvest knives, crates.</li><li><strong>Lifting</strong> (potatoes, onions, carrots): tractor-drawn lifter, forks, bags.</li><li><strong>Mechanical</strong> (maize, wheat, soya): combine harvester, trailers; trained operators only.</li></ul><p>Before the shift, check that enough clean crates, bins and tools are ready, that knives and clippers are sharp, and ladders are not broken. Make sure the team has PPE, drinking water and toilets nearby.</p><h4>Maturity indexing</h4><p>Maturity indexing means measuring signs that show a crop is ready. Common indices are:</p><table><tr><th>Index</th><th>Example crops</th></tr><tr><td>Colour (colour charts)</td><td>Citrus, tomatoes, apples</td></tr><tr><td>Sugar (Brix with a refractometer)</td><td>Grapes, melons</td></tr><tr><td>Firmness (pressure tester)</td><td>Apples, pears</td></tr><tr><td>Size or mass</td><td>Cabbage, potatoes, fruit</td></tr><tr><td>Grain moisture</td><td>Maize, wheat</td></tr></table><h4>Sampling procedure</h4><ol><li>Follow the farm's sampling plan: how many samples, from which rows or trees.</li><li>Take samples at random across the block, not only the best-looking ones.</li><li>Label each sample with block, date and your name.</li><li>Record results on the sampling sheet and give them to the supervisor.</li></ol><p>The manager or buyer sets the standard that must be met before picking starts.</p><h4>Planning the harvest day</h4><p>Work out with your supervisor how many workers, crates and trips are needed for the area to be picked. Plan when the truck or tractor will collect. Produce must not wait long in the field in the heat.</p>"
+  },
+  {
+   "title": "Harvesting, hygiene and waste",
+   "minutes": 15,
+   "html": "<h3>Harvesting, hygiene and waste</h3><h4>Harvesting procedure</h4><ol><li>Start only in the blocks the supervisor has released.</li><li>Pick to the standard: colour, size and quality as shown.</li><li>Use the correct picking method, for example clipping citrus close to the fruit so stems do not puncture other fruit.</li><li>Place produce gently in crates; do not overfill.</li><li>Keep picked produce in shade and get it to the packhouse or cold store quickly.</li><li>Label bins or crates with the block number for traceability.</li></ol><h4>Guiding others</h4><p>Show new workers how to pick, how to hold tools and what the standard looks like. Check their crates and correct problems kindly and early.</p><h4>Health, hygiene and safety</h4><ul><li>Workers wash hands with soap after the toilet and before work. Make sure soap and water are at the toilets.</li><li>Sick workers with diarrhoea or vomiting must not handle produce.</li><li>No eating, smoking or spitting in the rows.</li><li>Check the spray record. Do not harvest a block until the pre-harvest interval on the product label has passed.</li><li>Use ladders safely and keep away from moving tractors.</li><li>In heat, give water and rest breaks in shade.</li></ul><h4>Waste collection and transport</h4><ul><li>Collect culls, rotten produce, packaging and string in marked containers.</li><li>Take waste to the farm's dump, compost site or collection point.</li><li>Do not leave rotten fruit in the block; it spreads disease and attracts fruit flies.</li><li>Keep waste trailers and crates for produce separate.</li></ul><h4>Maintaining equipment</h4><p>After harvest, clean and sanitise crates and bins, sharpen and oil clippers and knives, check ladders, and store everything. Report damage and help the team do this correctly.</p><h4>Key points</h4><ul><li>Choose equipment to suit the crop and harvesting method.</li><li>Sample randomly across the block and record maturity results.</li><li>Harvest only released blocks and respect pre-harvest intervals.</li><li>Enforce hygiene: hand washing, toilets, no sick workers on produce.</li><li>Collect and remove waste from the block.</li><li>Clean and maintain equipment, guiding others.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which instrument measures sugar (Brix) in grapes?",
+   "options": [
+    {
+     "text": "Pressure tester",
+     "correct": false
+    },
+    {
+     "text": "Refractometer",
+     "correct": true
+    },
+    {
+     "text": "Colour chart",
+     "correct": false
+    },
+    {
+     "text": "Thermometer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are maturity samples taken at random across the block?",
+   "options": [
+    {
+     "text": "So the result represents the whole block",
+     "correct": true
+    },
+    {
+     "text": "To pick the best fruit for staff",
+     "correct": false
+    },
+    {
+     "text": "Because it is faster",
+     "correct": false
+    },
+    {
+     "text": "To avoid labelling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is citrus clipped close to the fruit?",
+   "options": [
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "To change its colour",
+     "correct": false
+    },
+    {
+     "text": "So stems do not puncture other fruit",
+     "correct": true
+    },
+    {
+     "text": "To save clippers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When may a sprayed block be harvested?",
+   "options": [
+    {
+     "text": "The next morning always",
+     "correct": false
+    },
+    {
+     "text": "Whenever the buyer phones",
+     "correct": false
+    },
+    {
+     "text": "After one hour",
+     "correct": false
+    },
+    {
+     "text": "After the pre-harvest interval on the label has passed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should rotten fruit not be left in the block?",
+   "options": [
+    {
+     "text": "It spreads disease and attracts fruit flies",
+     "correct": true
+    },
+    {
+     "text": "It makes the trees grow too fast",
+     "correct": false
+    },
+    {
+     "text": "It is valuable",
+     "correct": false
+    },
+    {
+     "text": "It blocks the tractor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Crates and bins should be labelled with the block number for traceability.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A mechanical harvester may be driven by any worker on the team.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are maturity indices? (select all that apply)",
+   "options": [
+    {
+     "text": "Colour",
+     "correct": true
+    },
+    {
+     "text": "Firmness",
+     "correct": true
+    },
+    {
+     "text": "Grain moisture",
+     "correct": true
+    },
+    {
+     "text": "The day of the week",
+     "correct": false
+    },
+    {
+     "text": "The worker's height",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

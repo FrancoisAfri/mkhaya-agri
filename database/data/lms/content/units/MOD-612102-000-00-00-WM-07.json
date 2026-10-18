@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102-000-00-00-WM-07",
+  "title": "Dairy farm records and administrative processes",
+  "lessons": [
+    {
+      "title": "The dairy office: herd and production records",
+      "minutes": 20,
+      "html": "<h3>Admin is part of farming</h3><p>In this work experience module you will keep real records and carry out admin tasks on a dairy, supervised by the farm manager or office staff. Your logbook should show which records you kept and how you used them.</p><h4>Herd records</h4><ul><li><strong>Animal register</strong>: every animal's ID, date of birth, dam, sire, and movements in and out.</li><li><strong>Calving and breeding</strong>: heats, services, pregnancy checks, calvings, dry-off dates.</li><li><strong>Health and treatment</strong>: diagnosis, medicine, dose, who treated, withdrawal dates.</li><li><strong>Milk recording</strong>: individual yields and test results from the milk recording scheme, if the farm takes part.</li></ul><h4>Production records</h4><ul><li>Daily litres and bulk tank temperatures.</li><li>Milk collection slips and the buyer's monthly statement with quality results.</li><li>Feed received, used and in stock.</li><li>Pasture records: camp grazing dates, fertiliser and irrigation.</li></ul><h4>Herd software</h4><p>Most farms use herd management software. Enter events on the same day. Check the daily action lists the software produces, such as cows due for pregnancy diagnosis, cows to dry off and cows still under withdrawal. Back up data regularly.</p><h4>Checking the milk statement</h4><p>Each month, compare the buyer's statement with your own records:</p><ol><li>Add up your collection slips and compare total litres.</li><li>Check the price per litre and any quality bonuses or penalties for bacteria, SCC, fat and protein.</li><li>Check deductions such as transport or levies.</li><li>Report differences to the manager so they can be queried.</li></ol><p>Example: your slips add up to 182 400 litres but the statement shows 180 900 litres. The difference of 1 500 litres at R7.20 per litre is R10 800, worth querying.</p>"
+    },
+    {
+      "title": "People, stores and purchasing",
+      "minutes": 20,
+      "html": "<h3>Staff administration</h3><p>Supervisors usually provide information that the office uses for wages and HR.</p><ul><li><strong>Time records</strong>: clock cards or time sheets showing hours, overtime, Sunday and public holiday work.</li><li><strong>Leave</strong>: annual, sick and family responsibility leave requests and approvals, in line with the Basic Conditions of Employment Act 75 of 1997.</li><li><strong>Training records</strong>: who has been trained in what, with dates, such as tractor driving, chemical handling and first aid.</li><li><strong>Incident register</strong>: injuries and near misses as the OHS Act 85 of 1993 requires the farm to record and report.</li><li><strong>Disciplinary records</strong>: kept confidential.</li></ul><p>Personal information must be handled confidentially in line with the Protection of Personal Information Act. Do not leave staff files open on the desk.</p><h4>Stores control</h4><p>A dairy uses many consumables: teat dip, detergents, filter socks, liners, medicines, calf milk replacer, ear tags, fuel. Good stock control prevents running out and theft.</p><ol><li>Keep a stock card for each item: received, issued, balance.</li><li>Set a minimum level that triggers an order.</li><li>Issue stock only against a signature.</li><li>Do a physical count monthly and compare with the cards.</li><li>Keep medicines locked, with a register for scheduled medicines.</li></ol><h4>Ordering and receiving</h4><ul><li>Follow the farm's purchasing procedure: requisition, approval, order.</li><li>When goods arrive, check them against the order and delivery note for quantity, condition and expiry dates.</li><li>Sign the delivery note, note any shortages and send it to the office.</li><li>Keep invoices and delivery notes for the accounts.</li></ul><p>Check stock cards against a physical count at the end of each month. Large differences can point to recording errors, waste or theft, and should be reported to the manager so the cause can be found and corrected.</p>"
+    },
+    {
+      "title": "Compliance documents and filing",
+      "minutes": 20,
+      "html": "<h3>Documents the farm must be able to show</h3><p>Milk buyers, auditors, the Department of Agriculture, the Department of Employment and Labour, and the local authority may ask to see records. Typical documents include:</p><table><tr><th>Area</th><th>Examples</th></tr><tr><td>Milk and food safety</td><td>Milk buyer contract, quality results, cleaning and temperature records, dairy certificate where required</td></tr><tr><td>Animal health</td><td>Treatment register, vet visit reports, vaccination and test records, animal movement records</td></tr><tr><td>Environment</td><td>Water use and waste water authorisations under the National Water Act 36 of 1998</td></tr><tr><td>Safety</td><td>Risk assessments, incident register, training, equipment inspection</td></tr><tr><td>Labour</td><td>Employment contracts, time and wage records, leave</td></tr></table><h4>A good filing system</h4><ul><li>One file or folder per subject, clearly labelled.</li><li>Newest documents in front, or dated electronic folders.</li><li>Keep records for the period required by law, buyers and auditors.</li><li>Scan important paper records and back up electronic files off the computer.</li><li>Lock away confidential files.</li></ul><h4>Using admin to improve the farm</h4><p>Records are not just for inspectors. Monthly, help the manager look at trends: litres per cow, SCC, calf deaths, feed cost per litre, stock usage, overtime hours. Highlight what is getting worse and suggest causes.</p><h4>Communicating in writing</h4><p>Write short, clear notes and emails: what happened, when, what you did, what you need. Example: \"Tank 2 temperature 9 °C at 06:00, compressor tripped. Reset at 06:10, 4 °C by 07:00. Technician to check today.\" This gives the manager the facts quickly.</p><h4>Key points</h4><ul><li>Enter herd and production events on the same day.</li><li>Check the monthly milk statement against your collection slips.</li><li>Control stores with stock cards, minimum levels and monthly counts.</li><li>Keep staff information confidential.</li><li>File compliance documents so they can be found quickly and back them up.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Your slips total 182 400 litres and the statement shows 180 900 litres. At R7.20 per litre, what is the difference worth?",
+      "options": [
+        {
+          "text": "R1 500",
+          "correct": false
+        },
+        {
+          "text": "R7 200",
+          "correct": false
+        },
+        {
+          "text": "R10 800",
+          "correct": true
+        },
+        {
+          "text": "R18 240",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should trigger an order for teat dip?",
+      "options": [
+        {
+          "text": "Stock falling to the minimum level on the stock card",
+          "correct": true
+        },
+        {
+          "text": "The last drum being empty",
+          "correct": false
+        },
+        {
+          "text": "A worker asking for a new brand",
+          "correct": false
+        },
+        {
+          "text": "The end of the year",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When goods are delivered, you should check them against:",
+      "options": [
+        {
+          "text": "The weather report",
+          "correct": false
+        },
+        {
+          "text": "The milk statement",
+          "correct": false
+        },
+        {
+          "text": "The order and delivery note",
+          "correct": true
+        },
+        {
+          "text": "The leave register",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which register records injuries and near misses?",
+      "options": [
+        {
+          "text": "The animal register",
+          "correct": false
+        },
+        {
+          "text": "The stock card",
+          "correct": false
+        },
+        {
+          "text": "The breeding record",
+          "correct": false
+        },
+        {
+          "text": "The incident register",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the best written report of a cooling problem?",
+      "options": [
+        {
+          "text": "Tank was warm, sorted it",
+          "correct": false
+        },
+        {
+          "text": "Tank 2 at 9 °C at 06:00, compressor tripped, reset 06:10, 4 °C by 07:00, technician to check",
+          "correct": true
+        },
+        {
+          "text": "Problem with the milk again",
+          "correct": false
+        },
+        {
+          "text": "Call me later",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Medicines should be kept locked with a register for scheduled medicines.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Staff files may be left open on the desk as long as the office door is closed at night.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should you check on the monthly milk statement? (select all that apply)",
+      "options": [
+        {
+          "text": "Total litres against collection slips",
+          "correct": true
+        },
+        {
+          "text": "Quality bonuses and penalties",
+          "correct": true
+        },
+        {
+          "text": "Deductions such as transport",
+          "correct": true
+        },
+        {
+          "text": "The colour of the paper",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116269",
+ "title": "Supervise the collection of agricultural data",
+ "lessons": [
+  {
+   "title": "Planning data collection and equipment",
+   "minutes": 15,
+   "html": "<h3>Why farms collect data</h3> <p>Good decisions need good information. Farms collect data on rainfall, soil moisture, pest scouting counts, crop yields, fruit size, animal weights, milk yields, calving dates, feed use, spray applications and labour hours. As a supervisor, you make sure your team collects this data correctly, safely and on time, because wrong data leads to wrong decisions: spraying when it is not needed, or missing a pest outbreak.</p> <h4>Plan before the team goes out</h4> <ul> <li><strong>Purpose</strong>: what decision will the data support? For example, weekly fruit fly trap counts decide when to bait.</li> <li><strong>What to measure</strong>: the exact variable and unit (kg, mm, count per trap, cm).</li> <li><strong>Where and how often</strong>: which blocks, camps or animals, and the sampling pattern (for example 10 trees per block in a W pattern).</li> <li><strong>Who</strong>: which team members, trained for the task.</li> <li><strong>How to record</strong>: paper forms, a data-capture app, or the farm management system.</li> <li><strong>Deadline</strong>: when the data must reach the manager.</li> </ul> <h4>Equipment and tools</h4> <table> <tr><th>Data</th><th>Equipment</th></tr> <tr><td>Rainfall</td><td>Rain gauge</td></tr> <tr><td>Soil moisture</td><td>Probe or tensiometer readings, auger</td></tr> <tr><td>Pest scouting</td><td>Hand lens, traps, lures, tally counter, scouting forms</td></tr> <tr><td>Fruit size and sugar</td><td>Callipers or sizing rings, refractometer</td></tr> <tr><td>Animal weights</td><td>Scale in the crush, tag reader</td></tr> <tr><td>Yields</td><td>Weighbridge slips, bin counts</td></tr> </table> <p>Before the job, check that equipment is on hand, clean, working and calibrated: zero the scale, check the refractometer with clean water, replace trap lures on schedule, charge phones or tablets. Have spare forms, pens and batteries. Record equipment checks so you can trust readings later.</p>"
+  },
+  {
+   "title": "Ensuring data is collected correctly",
+   "minutes": 15,
+   "html": "<h3>Train and brief the team</h3> <ul> <li>Explain why the data matters, not only how to collect it. People take more care when they understand the purpose.</li> <li>Demonstrate the method, then watch each person do it.</li> <li>Use clear, simple forms with the units printed and examples filled in.</li> <li>Agree on codes, for example block numbers, tag numbers and pest names.</li> </ul> <h3>Quality control in the field</h3> <ul> <li><strong>Spot checks</strong>: repeat a sample of measurements yourself and compare. Large differences show a training or equipment problem.</li> <li><strong>Completeness</strong>: check that all blocks, traps or animals are covered and every field is filled.</li> <li><strong>Consistency</strong>: the same method, time of day and sampling points each time. Weighing animals before and after drinking gives very different results.</li> <li><strong>Plausibility</strong>: question values that look wrong, such as 300 mm of rain overnight, a calf heavier than its mother, or zero counts on a trap that always catches.</li> <li><strong>Honesty</strong>: make it clear that a missed reading must be recorded as missed, never invented. Made-up data is worse than no data.</li> </ul> <h3>Common errors and how to prevent them</h3> <table> <tr><th>Error</th><th>Prevention</th></tr> <tr><td>Wrong units (g instead of kg)</td><td>Units printed on forms</td></tr> <tr><td>Wrong block or tag number</td><td>Check against maps and tag lists; read tags carefully</td></tr> <tr><td>Readings copied wrongly</td><td>Capture directly on the app or check transfers</td></tr> <tr><td>Uncalibrated equipment</td><td>Daily or per-use checks and records</td></tr> <tr><td>Skipped sample points</td><td>Marked points, GPS, or checklists</td></tr> </table> <p>Correct problems on the spot. If an error is found later, correct it with a single line, the correct value, date and initials, and keep the original visible.</p>"
+  },
+  {
+   "title": "Submitting reports and health and safety",
+   "minutes": 15,
+   "html": "<h3>Collating and submitting data</h3> <ol> <li>Collect all forms or check that all app records are synchronised.</li> <li>Check the data for completeness and obvious errors before submitting.</li> <li>Summarise as required: totals, averages per block, counts per trap, trends compared with last week.</li> <li>Note anything unusual: a pest count above the action threshold, a weighing scale problem, a block not scouted because of rain.</li> <li>Submit to the right person by the deadline, in the agreed format. Late data may be useless; scouting data a week old cannot guide this week's spraying.</li> <li>File or back up the originals. Many records are needed for audits, such as GLOBALG.A.P., and for traceability.</li> </ol> <h4>Example summary</h4> <p>\"Week 42 fruit fly trap counts: blocks 1 to 6 below threshold; block 7 above threshold (average per trap per week clearly higher than last week). Trap 7C lure replaced. Recommend baiting block 7. All 24 traps checked.\"</p> <h3>Health and safety during data collection</h3> <ul> <li><strong>Weather</strong>: hats, sunscreen and water in summer; stop field work during lightning.</li> <li><strong>Chemicals</strong>: check spray records and re-entry periods before sending scouts into blocks. Never send people into a block under a re-entry restriction.</li> <li><strong>Animals</strong>: weighing and tagging in crushes needs trained people, good facilities and escape routes; keep away from bulls and cows with calves.</li> <li><strong>Snakes and insects</strong>: boots and long trousers; know the snakebite response.</li> <li><strong>Vehicles</strong>: safe driving between blocks; no riding on the back of bakkies unless the farm's rules and the law allow it safely.</li> <li><strong>Working alone</strong>: scouts in remote blocks should carry a phone or radio and report in.</li> <li><strong>Equipment</strong>: knives and augers handled safely; ladders checked for fruit sampling.</li> </ul> <p>Report incidents and near misses, and include safety in your daily briefing. The OHS Act 85 of 1993 requires supervisors to make sure work is done safely.</p> <h4>Key points</h4> <ul> <li>Plan purpose, method, sampling, recording and deadline before collecting data.</li> <li>Check equipment is on hand and calibrated.</li> <li>Train the team and run spot checks for accuracy and completeness.</li> <li>Submit checked, summarised data on time and keep originals.</li> <li>Protect the team: re-entry periods, weather, animals, vehicles and lone work.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should the team understand the purpose of the data they collect?",
+   "options": [
+    {
+     "text": "It is required for pay",
+     "correct": false
+    },
+    {
+     "text": "It makes forms longer",
+     "correct": false
+    },
+    {
+     "text": "People take more care when they understand why it matters",
+     "correct": true
+    },
+    {
+     "text": "It is not important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A scout's count differs greatly from your own spot check. What does this suggest?",
+   "options": [
+    {
+     "text": "Your check was wrong",
+     "correct": false
+    },
+    {
+     "text": "The pests moved",
+     "correct": false
+    },
+    {
+     "text": "A training or equipment problem",
+     "correct": true
+    },
+    {
+     "text": "Normal variation that should be ignored",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a team member do if a reading was missed?",
+   "options": [
+    {
+     "text": "Copy last week's value",
+     "correct": false
+    },
+    {
+     "text": "Record it as missed",
+     "correct": true
+    },
+    {
+     "text": "Leave the form blank without comment",
+     "correct": false
+    },
+    {
+     "text": "Make up a likely value",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must data be submitted by the deadline?",
+   "options": [
+    {
+     "text": "Deadlines do not matter",
+     "correct": false
+    },
+    {
+     "text": "Managers like early mail",
+     "correct": false
+    },
+    {
+     "text": "To finish forms faster",
+     "correct": false
+    },
+    {
+     "text": "Late data may be useless for decisions",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before sending scouts into a block, what must you check?",
+   "options": [
+    {
+     "text": "The bakkie's radio",
+     "correct": false
+    },
+    {
+     "text": "Fruit prices",
+     "correct": false
+    },
+    {
+     "text": "Spray records and re-entry periods",
+     "correct": true
+    },
+    {
+     "text": "The colour of the traps",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Scales and refractometers should be checked or calibrated before use.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Errors on a data form should be removed with correction fluid so the form looks neat.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help prevent data errors? (select all that apply)",
+   "options": [
+    {
+     "text": "Calibrated equipment",
+     "correct": true
+    },
+    {
+     "text": "Guessing missing values",
+     "correct": false
+    },
+    {
+     "text": "Checking tag numbers against tag lists",
+     "correct": true
+    },
+    {
+     "text": "Units printed on forms",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

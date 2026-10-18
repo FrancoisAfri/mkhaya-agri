@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-10534",
+ "title": "Repair or refurbish equipment",
+ "lessons": [
+  {
+   "title": "Planning a repair job",
+   "minutes": 20,
+   "html": "<h3>Why repair and refurbish?</h3><p>In an agri trade business and on the farm, equipment works hard: hand trolleys, pallet jacks, sprayers on display, scales, sack stitchers, grain augers, wheelbarrows, knapsack sprayers returned for service, and small engines such as brush cutters and pumps. Repairing a machine brings it back to working order. Refurbishing goes further: it restores the item to near-new condition so it can be used, hired out or resold. Good repair work saves the business money, keeps customers loyal and prevents accidents caused by worn parts.</p><h4>Receiving the item and finding the fault</h4><ol><li>Record the item on a job card: customer or department, make, model, serial number, date and the complaint in the customer's own words.</li><li>Look at the whole item before you touch it. Note damage, missing parts and signs of misuse so there is no argument later.</li><li>Ask questions: When did the fault start? Was anything changed? How is it used?</li><li>Test it, if safe, to see the fault yourself.</li><li>Work from simple to complex. On a petrol engine that will not start, check fuel, spark and air before stripping the carburettor.</li></ol><h4>Planning the work</h4><p>Once you know the fault, plan before you strip anything. Check the manufacturer's manual for the correct procedure, torque settings and part numbers. List the parts and consumables needed and check whether they are in stock. Estimate the hours. If the job is for a customer, give a written quote and get approval before you start; a R300 repair that becomes R1,800 without warning causes a complaint.</p><h4>Repair or replace?</h4><p>Compare the repair cost to the replacement cost and the age of the item. If parts are no longer available, or the frame is cracked in a load-bearing place, recommend replacement. Record your recommendation on the job card.</p><h4>Preparing the workplace</h4><ul><li>Clean, well-lit bench with the right tools, not improvised ones.</li><li>Fire extinguisher close by when working with fuel or welding.</li><li>Drip trays and absorbent for oil and fuel.</li><li>PPE ready: safety glasses, gloves, safety shoes, hearing protection for grinding.</li></ul>"
+  },
+  {
+   "title": "Doing the repair safely",
+   "minutes": 20,
+   "html": "<h3>Safe strip-down</h3><p>The Occupational Health and Safety Act 85 of 1993 places duties on both employer and employee. In a workshop that means machinery is made safe before work starts and you use the guards and PPE provided.</p><ul><li><strong>Isolate energy:</strong> unplug electrical items, remove the spark plug lead on small engines, release pressure from sprayers and hydraulic jacks, and block anything that can fall or roll.</li><li><strong>Drain fluids</strong> into labelled containers. Never pour used oil or chemical residues down a drain or onto the ground.</li><li><strong>Decontaminate</strong> sprayers and chemical equipment before you open them: rinse according to the product label and wear chemical gloves.</li><li>Lay parts out in order on a clean cloth or tray and photograph or sketch complex assemblies.</li></ul><h4>Inspect, measure and decide</h4><p>Clean each part and inspect it for wear, cracks, corrosion and distortion. Measure where the manual gives limits, for example bearing play or chain stretch. Replace seals, gaskets and O-rings as a rule once disturbed. Mark worn parts clearly so they are not reused by mistake.</p><h4>Refurbishing</h4><p>Refurbishing may include removing rust with a wire brush or grinder, treating with primer and repainting; replacing tyres, wheels and handles; re-welding broken brackets (only by a competent welder); replacing decals and safety labels; and lubricating all moving points. Safety labels and guards must always go back on. A refurbished item without its guard is more dangerous than a broken one.</p><h4>Never do this</h4><ul><li>Never bypass a safety switch or remove a guard to make a machine run.</li><li>Never weld or grind near fuel, fertiliser dust or chemical containers.</li><li>Never use a damaged grinding disc or a disc without its guard.</li><li>Never work under a load held only by a jack.</li></ul><h4>Reassembly</h4><p>Reassemble in the reverse order, using new parts where required. Tighten fasteners to the specified torque, check alignment and make sure every part is accounted for. Leftover bolts on the bench mean something is wrong.</p>"
+  },
+  {
+   "title": "Testing, handing over and records",
+   "minutes": 15,
+   "html": "<h3>Testing before handover</h3><p>A repair is not finished until it has been tested. Test under conditions as close as possible to real use.</p><ol><li>Check for leaks, loose parts and unusual noise or vibration.</li><li>Run the machine for a reasonable time and check temperature and performance.</li><li>Test safety features: guards, cut-out switches, brakes on trolleys, pressure relief valves on sprayers.</li><li>For scales, check against known test weights; trade scales must be verified by an approved verification body before use for trade.</li><li>Fix any problem found and test again.</li></ol><h4>Completing the job card</h4><p>Record what was found, what was done, parts used (with part numbers), hours worked, test results and your name. This record is used for invoicing, for warranty claims and for spotting items that keep failing. If the same pallet jack comes in every month, the business may need to replace it or retrain the people using it.</p><h4>Handing over to the customer</h4><ul><li>Explain in plain language what was wrong and what you did.</li><li>Show any replaced parts if the customer wants to see them.</li><li>Give simple advice on care: clean the sprayer after every use, check engine oil before each start, do not overload the trolley.</li><li>Explain any warranty on parts or labour according to company policy.</li></ul><h4>Cleaning up</h4><p>Return tools to their places, clean the bench and floor, store usable spares and dispose of waste correctly. Used oil goes to a registered collector, used filters and chemical-contaminated rags go in marked containers, and scrap metal goes to the scrap bin. Report damaged or missing tools to your supervisor.</p><h4>Key points</h4><ul><li>Record the fault, diagnose from simple to complex, and quote before starting.</li><li>Isolate all energy and decontaminate chemical equipment before strip-down.</li><li>Use the manual for procedures, limits and torque settings.</li><li>Guards and safety labels must always be refitted.</li><li>Test thoroughly and complete the job card before handover.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do before starting a costly repair for a customer?",
+   "options": [
+    {
+     "text": "Start work and tell them the price later",
+     "correct": false
+    },
+    {
+     "text": "Give a written quote and get approval",
+     "correct": true
+    },
+    {
+     "text": "Order a new machine",
+     "correct": false
+    },
+    {
+     "text": "Only phone them when it is finished",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A petrol brush cutter will not start. Where should fault-finding begin?",
+   "options": [
+    {
+     "text": "Strip the gearbox",
+     "correct": false
+    },
+    {
+     "text": "Replace the engine",
+     "correct": false
+    },
+    {
+     "text": "Check fuel, spark and air first",
+     "correct": true
+    },
+    {
+     "text": "Repaint the shaft",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in making a small petrol engine safe to work on?",
+   "options": [
+    {
+     "text": "Remove the spark plug lead",
+     "correct": true
+    },
+    {
+     "text": "Fill the tank",
+     "correct": false
+    },
+    {
+     "text": "Start it to warm up",
+     "correct": false
+    },
+    {
+     "text": "Remove the decals",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with used engine oil?",
+   "options": [
+    {
+     "text": "Pour it on the farm road to settle dust",
+     "correct": false
+    },
+    {
+     "text": "Pour it down the drain",
+     "correct": false
+    },
+    {
+     "text": "Mix it with diesel and burn it in the workshop",
+     "correct": false
+    },
+    {
+     "text": "Collect it in labelled containers for a registered collector",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You finish reassembly and two bolts are left on the bench. What does this suggest?",
+   "options": [
+    {
+     "text": "The manufacturer sent extras",
+     "correct": false
+    },
+    {
+     "text": "Something has not been fitted correctly",
+     "correct": true
+    },
+    {
+     "text": "The machine is lighter now",
+     "correct": false
+    },
+    {
+     "text": "Nothing, it is normal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A sprayer must be decontaminated before it is opened for repair.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Removing a guard is acceptable if it helps a refurbished machine run more smoothly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details belong on a completed job card? (select all that apply)",
+   "options": [
+    {
+     "text": "Parts used with part numbers",
+     "correct": true
+    },
+    {
+     "text": "Hours worked",
+     "correct": true
+    },
+    {
+     "text": "The technician's favourite tools",
+     "correct": false
+    },
+    {
+     "text": "Test results",
+     "correct": true
+    },
+    {
+     "text": "The customer's home language",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

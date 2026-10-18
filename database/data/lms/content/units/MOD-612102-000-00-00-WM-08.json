@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102-000-00-00-WM-08",
+  "title": "Implementation of Code of Good Practice for Milk Producers in the dairy industry",
+  "lessons": [
+    {
+      "title": "Assessing the farm against the code",
+      "minutes": 20,
+      "html": "<h3>From knowing the code to living it</h3><p>In this work experience module you will help put the Code of Good Practice for milk producers into practice on a working dairy. You will check the farm against the code, help fix gaps and keep evidence in your logbook and portfolio.</p><h4>Step 1: a self-assessment</h4><p>Use a checklist based on the code and the milk buyer's requirements. Walk the farm with the manager and score each area: complies, partly complies, does not comply.</p><table><tr><th>Area</th><th>Questions to ask</th></tr><tr><td>Milk hygiene</td><td>Is the full routine followed? Are cleaning and tank temperature records complete?</td></tr><tr><td>Medicines</td><td>Are treated cows marked? Are withdrawal dates recorded? Is the medicine store locked and tidy?</td></tr><tr><td>Animal welfare</td><td>Are cows calm, in good condition, not lame? Is there shade, water and clean lying space?</td></tr><tr><td>Feed and water</td><td>Is feed stored safely and free of mould? Are suppliers recorded? Is water clean?</td></tr><tr><td>Environment</td><td>Is effluent contained? Are chemicals stored safely and empty containers disposed of correctly?</td></tr><tr><td>People</td><td>Are workers trained, given protective equipment and treated fairly?</td></tr></table><h4>Step 2: collect evidence</h4><p>For each area, gather proof: records, photos, training registers, vet reports. An auditor will ask, \"Show me.\"</p><h4>Step 3: list the gaps</h4><p>Write down every gap clearly, for example: \"Treatment board not updated on weekends\" or \"Empty detergent drums stored next to the calf feed.\" Rank the gaps by risk. Anything that could put residues in milk or harm people or animals is high priority.</p><p>Include workers in the walk-through. Ask milkers, calf rearers and feeders how they do their tasks. Their answers often reveal gaps that records do not show, such as a step skipped on night shifts or a missing piece of equipment.</p>"
+    },
+    {
+      "title": "Planning and carrying out improvements",
+      "minutes": 20,
+      "html": "<h3>The action plan</h3><p>Turn the list of gaps into an action plan. For each gap record:</p><ul><li>What will be done.</li><li>Who is responsible.</li><li>By when.</li><li>What it will cost, if anything.</li><li>How you will know it is fixed.</li></ul><h4>Example action plan</h4><table><tr><th>Gap</th><th>Action</th><th>Who / when</th></tr><tr><td>Treatment board not updated on weekends</td><td>Add treatment board check to weekend relief milker's shift checklist; train relief milkers</td><td>Supervisor, this week</td></tr><tr><td>Empty chemical drums near calf feed</td><td>Move to a marked, fenced area for collection by the supplier or approved disposal</td><td>Stores worker, today</td></tr><tr><td>No written calf protocol</td><td>Write protocol with the vet; display in calf shed</td><td>Manager and vet, this month</td></tr><tr><td>Some cows lame</td><td>Hoof trimmer visit, repair track near gate, footbath as vet advises</td><td>Manager, next two weeks</td></tr></table><h4>Writing standard operating procedures</h4><p>Many gaps happen because workers do things differently. A short standard operating procedure (SOP) helps. Keep it to one page, use numbered steps and simple words, translate it into the languages your team speaks, and put it up where the job is done, for example the milking routine on the parlour wall.</p><h4>Training the team</h4><p>Train workers on each new SOP. Show, let them practise, check them, and record who was trained and when. Explain the reason: a residue can cost the farm a tanker of milk; a lame cow suffers and gives less milk.</p><h4>The legal base</h4><p>Remember that many code requirements come from law, including the Animals Protection Act 71 of 1962, the Animal Diseases Act 35 of 1984, Act 36 of 1947, the National Water Act 36 of 1998 and the OHS Act 85 of 1993.</p>"
+    },
+    {
+      "title": "Monitoring and keeping standards up",
+      "minutes": 20,
+      "html": "<h3>Making improvements stick</h3><p>Standards slip when nobody checks. Build monitoring into normal work.</p><h4>Monitoring tools</h4><ul><li><strong>Daily checklists</strong> for milking, calf unit and feeding, signed by the person on duty.</li><li><strong>Weekly supervisor walk-through</strong> using the code checklist.</li><li><strong>Monthly review</strong> of buyer results (bacteria, SCC, residues), calf deaths, lameness scores and incidents.</li><li><strong>Repeat self-assessment</strong> before the buyer's audit and at least yearly.</li></ul><h4>Measuring progress</h4><p>Choose a few measures and track them on a board in the office, for example average SCC, number of clinical mastitis cases, calf deaths per 100 calves born, number of residue incidents (target zero) and lame cows per 100 cows. Share the trends with the team.</p><h4>Handling a non-conformance</h4><p>If an audit or a test finds a problem:</p><ol><li>Contain it: for example, divert or dump affected milk.</li><li>Investigate the root cause by asking why several times.</li><li>Correct it and prevent recurrence with an SOP change or training.</li><li>Record and report to the buyer if required.</li><li>Check that the fix works over the next weeks.</li></ol><h4>Building a culture</h4><p>The code works best when every worker sees it as \"how we do things here\", not as extra paperwork. Praise good practice, involve workers in solving problems, and make sure managers follow the same rules.</p><h4>Key points</h4><ul><li>Start with a self-assessment against the code and the buyer's requirements.</li><li>Rank gaps by risk and fix residue and safety risks first.</li><li>Use an action plan with responsibilities and dates.</li><li>Write simple SOPs and train workers on them.</li><li>Monitor with checklists, walk-throughs and monthly reviews.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the first step in implementing the code on a farm?",
+      "options": [
+        {
+          "text": "A self-assessment against the code",
+          "correct": true
+        },
+        {
+          "text": "Buying new equipment",
+          "correct": false
+        },
+        {
+          "text": "Waiting for the auditor",
+          "correct": false
+        },
+        {
+          "text": "Changing the milk buyer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which gap should usually be given the highest priority?",
+      "options": [
+        {
+          "text": "Office walls need painting",
+          "correct": false
+        },
+        {
+          "text": "The farm sign is faded",
+          "correct": false
+        },
+        {
+          "text": "A gap that could put medicine residues in milk",
+          "correct": true
+        },
+        {
+          "text": "The parking area is untidy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What makes a good SOP for workers?",
+      "options": [
+        {
+          "text": "Twenty pages of technical text",
+          "correct": false
+        },
+        {
+          "text": "One page, numbered steps, simple words, in the team's languages",
+          "correct": true
+        },
+        {
+          "text": "Kept locked in the office",
+          "correct": false
+        },
+        {
+          "text": "Written only in English legal terms",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the target number of residue incidents?",
+      "options": [
+        {
+          "text": "One per month",
+          "correct": false
+        },
+        {
+          "text": "Five per year",
+          "correct": false
+        },
+        {
+          "text": "Whatever the neighbours have",
+          "correct": false
+        },
+        {
+          "text": "Zero",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When handling a non-conformance, what comes right after containing it?",
+      "options": [
+        {
+          "text": "Investigating the root cause",
+          "correct": true
+        },
+        {
+          "text": "Closing the file",
+          "correct": false
+        },
+        {
+          "text": "Blaming a worker",
+          "correct": false
+        },
+        {
+          "text": "Hiding it from the buyer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Every action in an action plan should have a responsible person and a date.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Once a gap is fixed it never needs to be checked again.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are useful monitoring tools for the code? (select all that apply)",
+      "options": [
+        {
+          "text": "Daily signed checklists",
+          "correct": true
+        },
+        {
+          "text": "Weekly supervisor walk-through",
+          "correct": true
+        },
+        {
+          "text": "Monthly review of buyer results",
+          "correct": true
+        },
+        {
+          "text": "Removing records before audits",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

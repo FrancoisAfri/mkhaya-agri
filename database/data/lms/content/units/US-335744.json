@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335744",
+ "title": "Care for a foal from birth to weaning",
+ "lessons": [
+  {
+   "title": "The first days and weeks",
+   "minutes": 20,
+   "html": "<h3>The first 24 hours</h3>\n<p>The first day decides much of a foal's future health. Check these milestones and record the times:</p>\n<ul>\n<li>Stands within about 1 hour and suckles within about 2 hours.</li>\n<li>Passes meconium (dark, sticky first dung) within a few hours. Straining without result needs the vet.</li>\n<li>Passes urine within about 12 hours (colts may take a little longer).</li>\n<li>The placenta is passed within about 3 hours and kept for the vet to check.</li>\n</ul>\n<p>Dip the navel as recommended by the vet, and watch it for swelling or dampness in the following days. Many studs have the vet examine the foal and test its antibody (IgG) level at 12 to 24 hours to confirm it received enough colostrum.</p>\n<h3>Daily checks</h3>\n<ul>\n<li>Foal is bright, follows the mare and suckles often.</li>\n<li>Mare's udder is soft, not tight and dripping.</li>\n<li>Normal dung (soft but formed; mild \"foal heat\" diarrhoea around 7 to 12 days is common, but call the vet if the foal is dull, stops suckling or the diarrhoea is severe).</li>\n<li>Joints not swollen, navel dry, breathing calm.</li>\n<li>Legs straight; mild laxity often improves, but tell the vet about crooked legs early, as correction is time-sensitive.</li>\n</ul>\n<h3>Handling the young foal</h3>\n<p>Early, gentle handling makes later work safer.</p>\n<ol>\n<li>Move the foal with one arm around the chest and one around the hindquarters.</li>\n<li>Fit a foal slip (small headcollar) and teach the foal to accept it.</li>\n<li>Teach leading with a rump rope behind the hindquarters, alongside the mare.</li>\n<li>Pick up and handle each foot daily, rewarding calm behaviour.</li>\n<li>Keep sessions short. Never let the foal learn that nipping or kicking works.</li>\n</ol>\n<h4>Safety</h4>\n<p>Always keep the mare in sight of the foal and have a second handler for the mare. Many mares are protective and will kick or bite to defend their foal.</p>"
+  },
+  {
+   "title": "Growth, health programme and weaning",
+   "minutes": 20,
+   "html": "<h3>Feeding the growing foal</h3>\n<ul>\n<li>Milk provides most nutrition in the first two months. From a few weeks old the foal starts nibbling grass, hay and the mare's feed.</li>\n<li>From about 2 to 3 months, offer a balanced <strong>creep feed</strong> in a creep feeder that the mare cannot reach, so the foal gets enough protein, minerals and energy as the mare's milk declines.</li>\n<li>Avoid overfeeding grain; fast growth spurts can cause bone and joint problems (developmental orthopaedic disease).</li>\n<li>Fresh water and good-quality pasture or hay always.</li>\n</ul>\n<h3>Health programme</h3>\n<p>Plan with the vet and record everything:</p>\n<table><tr><th>Area</th><th>Typical approach</th></tr>\n<tr><td>Vaccination</td><td>Start the foal's course at the age the vet recommends, including African horse sickness as required</td></tr>\n<tr><td>Deworming</td><td>Foals are vulnerable to roundworms; use products and timing the vet and label recommend</td></tr>\n<tr><td>Hoof care</td><td>Farrier checks and trims every 4 to 6 weeks to keep feet balanced</td></tr>\n<tr><td>Tick and fly control</td><td>Products safe for foals, as labelled</td></tr>\n<tr><td>Growth checks</td><td>Monitor weight, height and leg conformation</td></tr></table>\n<h3>Weaning</h3>\n<p>Foals are usually weaned at about 4 to 6 months, depending on the stud's system, the mare's condition and the foal's development.</p>\n<h4>Methods</h4>\n<ul>\n<li><strong>Gradual (paddock) weaning:</strong> remove one or two mares at a time from a group, so foals stay with familiar companions. Lower stress.</li>\n<li><strong>Fence-line weaning:</strong> mare and foal in neighbouring paddocks with a safe fence, so they can see each other for a few days.</li>\n<li><strong>Abrupt weaning:</strong> mare and foal separated completely. Higher stress; only use in very safe facilities.</li>\n</ul>\n<h4>Good weaning practice</h4>\n<ol>\n<li>Wean healthy foals that already eat creep feed well.</li>\n<li>Avoid weaning at the same time as vaccinations, transport or other stresses.</li>\n<li>Use safe paddocks with no wire or gaps, and stables without sharp edges.</li>\n<li>Reduce the mare's feed for a few days to help dry her off; check her udder.</li>\n<li>Watch weaned foals closely for injury, weight loss and illness.</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>Check standing, suckling, meconium and urine milestones in the first day.</li>\n<li>A soft udder and a bright foal show good suckling.</li>\n<li>Handle foals early and gently; keep the mare in sight.</li>\n<li>Introduce creep feed at 2 to 3 months; avoid overfeeding grain.</li>\n<li>Follow a vet-planned health programme and farrier care.</li>\n<li>Wean at about 4 to 6 months using a low-stress method.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is meconium?",
+   "options": [
+    {
+     "text": "The mare's first milk",
+     "correct": false
+    },
+    {
+     "text": "The foal's dark, sticky first dung",
+     "correct": true
+    },
+    {
+     "text": "The placenta",
+     "correct": false
+    },
+    {
+     "text": "A type of creep feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a creep feeder used?",
+   "options": [
+    {
+     "text": "To feed the mare more",
+     "correct": false
+    },
+    {
+     "text": "To keep foals in the stable",
+     "correct": false
+    },
+    {
+     "text": "To give foals medicine",
+     "correct": false
+    },
+    {
+     "text": "So the foal can eat feed the mare cannot reach",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you move a young foal?",
+   "options": [
+    {
+     "text": "One arm around the chest and one around the hindquarters",
+     "correct": true
+    },
+    {
+     "text": "Pull it by the ears",
+     "correct": false
+    },
+    {
+     "text": "Push it by the tail",
+     "correct": false
+    },
+    {
+     "text": "Drag it with a rope on its neck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "At about what age are foals usually weaned?",
+   "options": [
+    {
+     "text": "2 weeks",
+     "correct": false
+    },
+    {
+     "text": "2 years",
+     "correct": false
+    },
+    {
+     "text": "4 to 6 months",
+     "correct": true
+    },
+    {
+     "text": "1 month",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which weaning method usually causes the least stress?",
+   "options": [
+    {
+     "text": "Abrupt separation in a strange place",
+     "correct": false
+    },
+    {
+     "text": "Gradual paddock weaning with familiar companions",
+     "correct": true
+    },
+    {
+     "text": "Weaning during transport",
+     "correct": false
+    },
+    {
+     "text": "Weaning on vaccination day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overfeeding grain to foals can cause bone and joint problems.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Weaning is best combined with vaccination and transport on the same day.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be checked daily in a young foal? (select all that apply)",
+   "options": [
+    {
+     "text": "Foal is bright and suckles often",
+     "correct": true
+    },
+    {
+     "text": "Mare's udder is soft",
+     "correct": true
+    },
+    {
+     "text": "Joints and navel are normal",
+     "correct": true
+    },
+    {
+     "text": "The foal's ability to jump fences",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-612102001-WM-10",
+ "title": "The establishment and management of pastures on a dairy farm",
+ "lessons": [
+  {
+   "title": "Planning and establishing dairy pastures",
+   "minutes": 18,
+   "html": "<h3>Why pastures matter</h3>\n<p>On many South African dairies, especially in the Eastern Cape, Southern Cape and KZN Midlands, well-managed pasture is the cheapest source of energy and protein for cows. A hectare of irrigated kikuyu over-sown with ryegrass can carry several cows, but only if it is established and grazed correctly. Poor pasture management forces the farm to buy expensive concentrates and silage.</p>\n<h4>Choosing species</h4>\n<ul>\n<li><strong>Kikuyu</strong> – a perennial summer grass that is the backbone of many coastal dairies; tolerant of grazing but lower in quality when it grows rank.</li>\n<li><strong>Annual and Italian ryegrass</strong> – high-quality winter and spring feed, often over-sown into kikuyu or planted on its own.</li>\n<li><strong>Perennial ryegrass and clover mixes</strong> – high quality in cooler, well-watered areas; clover fixes nitrogen.</li>\n<li><strong>Fescue and other perennials</strong> – more drought and heat tolerant in some areas.</li>\n<li><strong>Annual forages</strong> such as oats or forage sorghum for seasonal gaps.</li>\n</ul>\n<p>Choose species based on climate, soil, water availability and the feed gap in your fodder flow plan. Use cultivars recommended for your region by seed companies and local research.</p>\n<h4>Soil preparation</h4>\n<ol>\n<li>Take soil samples well before planting and have them analysed.</li>\n<li>Correct acidity with lime and apply phosphorus and potassium according to the analysis and an agronomist's advice.</li>\n<li>Control weeds before planting.</li>\n<li>Prepare a firm, fine seedbed, or use no-till drilling or over-sowing into existing kikuyu.</li>\n</ol>\n<h4>Planting</h4>\n<p>Plant at the right time for the species, at the seeding rate on the seed bag or as advised, and at a shallow depth for small seeds. Roll after planting where needed to improve seed-soil contact. Check germination after two to three weeks and control pests such as cutworm and armyworm early, using registered remedies according to the label under Act 36 of 1947.</p>\n<h4>Fodder flow planning</h4>\n<p>Draw up a fodder flow plan showing the feed needed each month for the herd and the feed each pasture and crop will supply. Gaps are filled with silage, hay or concentrates. This plan guides which pastures to establish and when.</p>"
+  },
+  {
+   "title": "Grazing management",
+   "minutes": 18,
+   "html": "<h3>Grazing at the right stage</h3>\n<p>Grasses store energy in their lower leaves and stems. If they are grazed too short or too often they weaken and yield drops; if grazed too late they become stemmy and lose quality. For ryegrass a common guide is to graze at about the three-leaf stage; for kikuyu, graze before it gets rank. Use a rising plate meter, pasture height or leaf stage to decide when to graze, not the calendar.</p>\n<h4>Rotational grazing</h4>\n<ul>\n<li>Divide pastures into camps or strips using electric fencing.</li>\n<li>Calculate how much grass is on offer and how much the herd needs, then allocate the right area each grazing.</li>\n<li>Move cows to fresh pasture after each milking or daily, and do not let them back-graze regrowth.</li>\n<li>Leave a residual height that allows quick regrowth.</li>\n<li>Lengthen the rotation when growth slows in winter or drought and shorten it in flush periods.</li>\n</ul>\n<h4>Avoiding damage</h4>\n<p>In wet weather, heavy cows cause treading damage (pugging) that kills plants and compacts soil. Use a sacrifice camp or feed pad during heavy rain. Keep water troughs and gateways from becoming mud holes.</p>\n<h4>Animal health risks</h4>\n<p>Lush pastures can cause bloat, especially clover-rich swards, and nitrate problems after heavy nitrogen use on some species. Introduce cows gradually, watch for bloat signs and work with your vet on prevention. Kikuyu poisoning outbreaks have been reported in some areas, often linked to armyworm attack; take advice if cattle show unusual signs on kikuyu.</p>\n<h4>Measuring pasture</h4>\n<p>Walk the farm weekly, measure pasture cover in each camp and rank camps from longest to shortest. This farm walk shows which camps to graze next, which have surplus to cut for silage, and whether supplements are needed.</p>"
+  },
+  {
+   "title": "Fertilising, irrigation and pasture renewal",
+   "minutes": 18,
+   "html": "<h3>Fertiliser management</h3>\n<p>Grasses need nitrogen to grow, and dairy pastures are usually fertilised after each grazing or at regular intervals in the growing season. Apply nitrogen based on growth rate and expected response; very high rates waste money and can pollute water. Keep phosphorus, potassium and pH in the right ranges using regular soil sampling. Manure and parlour effluent are valuable fertilisers but must be spread at sensible rates and away from rivers and boreholes to avoid pollution.</p>\n<h3>Irrigation</h3>\n<p>Irrigation is often the biggest cost after feed and labour. To use water well:</p>\n<ul>\n<li>Schedule irrigation using soil moisture probes, tensiometers or evaporation data, not habit.</li>\n<li>Maintain centre pivots, sprinklers and pumps to keep application even.</li>\n<li>Irrigate at off-peak times where electricity tariffs allow and plan for load-shedding.</li>\n<li>Use water within your registered or licensed use under the National Water Act 36 of 1998.</li>\n</ul>\n<h3>Monitoring and renewal</h3>\n<p>Over time pastures thin out, weeds invade and yields fall. Record grazings and yields for each camp so you can see which camps are underperforming. Decide whether to renovate (over-sow, lime, fertilise) or replant. Base the decision on cost per kilogram of dry matter produced compared with the alternatives.</p>\n<h3>Managing pasture costs</h3>\n<table>\n<tr><th>Cost item</th><th>Management action</th></tr>\n<tr><td>Seed</td><td>Correct species, cultivar and seeding rate</td></tr>\n<tr><td>Fertiliser</td><td>Apply to soil analysis and growth</td></tr>\n<tr><td>Irrigation</td><td>Schedule on soil moisture; maintain systems</td></tr>\n<tr><td>Labour and fencing</td><td>Simple, well-maintained camp layouts</td></tr>\n</table>\n<p>The goal is to grow as much quality pasture as possible and have the cows eat it efficiently, so that cost per litre falls.</p>\n<h4>Key points</h4>\n<ul>\n<li>Choose pasture species to fit climate, soil, water and the fodder flow plan.</li>\n<li>Prepare soil using analysis, lime and correct fertiliser before planting.</li>\n<li>Graze by leaf stage or pasture cover, not the calendar, and avoid back-grazing.</li>\n<li>Watch for bloat and treading damage, and get vet advice on animal health risks.</li>\n<li>Schedule irrigation and fertiliser on measurements and keep effluent away from water sources.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a fodder flow plan?",
+   "options": [
+    {
+     "text": "A map of irrigation pipes",
+     "correct": false
+    },
+    {
+     "text": "A list of cows to cull",
+     "correct": false
+    },
+    {
+     "text": "A plan showing monthly feed needs and what each pasture or crop will supply",
+     "correct": true
+    },
+    {
+     "text": "The milk buyer’s price schedule",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done before planting a new pasture?",
+   "options": [
+    {
+     "text": "Take soil samples and correct pH and nutrients according to the analysis",
+     "correct": true
+    },
+    {
+     "text": "Graze the land heavily",
+     "correct": false
+    },
+    {
+     "text": "Apply as much nitrogen as possible",
+     "correct": false
+    },
+    {
+     "text": "Plant first and test soil later",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a common guide for when to graze ryegrass?",
+   "options": [
+    {
+     "text": "At about the three-leaf stage",
+     "correct": true
+    },
+    {
+     "text": "Only once it flowers",
+     "correct": false
+    },
+    {
+     "text": "Only in summer",
+     "correct": false
+    },
+    {
+     "text": "Every day regardless of growth",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with cows during heavy rain to protect pastures?",
+   "options": [
+    {
+     "text": "Let them back-graze all camps",
+     "correct": false
+    },
+    {
+     "text": "Turn off the electric fence",
+     "correct": false
+    },
+    {
+     "text": "Use a sacrifice camp or feed pad",
+     "correct": true
+    },
+    {
+     "text": "Keep them grazing on the wettest camp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should irrigation be scheduled?",
+   "options": [
+    {
+     "text": "Using soil moisture probes, tensiometers or evaporation data",
+     "correct": true
+    },
+    {
+     "text": "Only when cows are thirsty",
+     "correct": false
+    },
+    {
+     "text": "By habit, the same days every week",
+     "correct": false
+    },
+    {
+     "text": "Whenever electricity is most expensive",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Back-grazing regrowth is good for pasture recovery.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Manure and parlour effluent can be used as fertiliser if spread at sensible rates away from water sources.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are risks or problems linked to pasture grazing? (select all that apply)",
+   "options": [
+    {
+     "text": "Nitrate problems after heavy nitrogen use",
+     "correct": true
+    },
+    {
+     "text": "Treading damage in wet weather",
+     "correct": true
+    },
+    {
+     "text": "Pastures growing faster when grazed too short",
+     "correct": false
+    },
+    {
+     "text": "Bloat on lush clover-rich pasture",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

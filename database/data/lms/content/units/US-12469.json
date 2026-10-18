@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12469",
+ "title": "Read and respond to a range of text types",
+ "lessons": [
+  {
+   "title": "Different kinds of text",
+   "minutes": 15,
+   "html": "<h3>Texts are all around us</h3><p>A text is anything with words or pictures that gives a message. At work and at home you read many kinds of text every day.</p><h4>Texts on the farm</h4><ul><li><strong>Signs</strong>: No Smoking, Danger, Keep Out, Wash Hands.</li><li><strong>Labels</strong>: on chemical containers, feed bags, medicine bottles.</li><li><strong>Notices</strong>: on the notice board about meetings, pay day or a new rule.</li><li><strong>Forms</strong>: leave forms, time sheets, store issue slips.</li><li><strong>Instructions</strong>: how to start a pump, how to mix feed.</li><li><strong>Letters and messages</strong>: a letter from the manager, an SMS or WhatsApp from your supervisor.</li><li><strong>Pictures and symbols</strong>: a skull and crossbones means poison; a flame means it can burn.</li></ul><h4>Why the type of text matters</h4><p>Each kind of text has a job. A sign tells you quickly what to do or not to do. A label gives you important facts about the product. A form asks you to give information. When you know what kind of text it is, you know how to read it.</p><h4>Look before you read</h4><p>Before you read, look at the text:</p><ol><li>Look at the heading or title. What is it about?</li><li>Look at the pictures, colours and symbols.</li><li>Look for words in big or bold letters. They are often the most important.</li><li>Ask yourself: who wrote this, and what do they want me to do?</li></ol><p>Red often means danger or stop. Yellow often means be careful. Green often means safe, or first aid.</p><h4>Practice</h4><p>Look at the notice board at work. Find one sign, one notice and one form.</p>"
+  },
+  {
+   "title": "Reading for meaning",
+   "minutes": 15,
+   "html": "<h3>Understanding what you read</h3><h4>Finding the main idea</h4><p>The main idea is the most important message of the text. Read the heading and the first sentence. Then ask: what is this text mostly about?</p><p>Example notice: <em>Staff meeting on Friday at 07:00 at the workshop. We will talk about the new transport times. All workers must attend.</em></p><p>The main idea is: there is a meeting on Friday that everyone must go to. The details are the time (07:00), the place (workshop) and the topic (transport times).</p><h4>Finding details</h4><p>When you need one fact, you do not have to read every word. Look quickly for it. On a feed bag, look for the words for the animal, the mass of the bag and the date. On a time sheet, look for your name and the dates.</p><h4>New words</h4><p>When you find a word you do not know:</p><ul><li>Read the sentence again. The other words may help you guess.</li><li>Look at the pictures.</li><li>Ask your supervisor or a co-worker.</li><li>Use a dictionary or a phone.</li></ul><h4>Is it fact or opinion?</h4><p>A fact can be checked: <em>The tank holds 5 000 litres.</em> An opinion is what someone thinks: <em>This is the best tank.</em> Both can be in one text. Know which is which.</p><h4>Reading safety labels</h4><p>Chemical labels have very important words. Look for: the name of the product, the warning words (such as Danger or Caution), the pictures that show what protective clothing to wear, and first aid steps. If you cannot read or understand a label, do not use the product. Ask your supervisor.</p>"
+  },
+  {
+   "title": "Responding to texts",
+   "minutes": 15,
+   "html": "<h3>Doing something with what you read</h3><p>To respond means to act or answer after reading. Different texts need different responses.</p><h4>Ways to respond</h4><table><tr><th>Text</th><th>How you respond</th></tr><tr><td>Safety sign</td><td>Follow it. Do not smoke where it says No Smoking.</td></tr><tr><td>Notice</td><td>Go to the meeting, tell your team</td></tr><tr><td>Instruction</td><td>Do the steps in the right order</td></tr><tr><td>Form</td><td>Fill it in neatly and correctly</td></tr><tr><td>Message</td><td>Reply, and say if you understand</td></tr></table><h4>Filling in a form</h4><ol><li>Read the whole form first.</li><li>Use a pen and write clearly, in block letters if asked.</li><li>Fill in every part that applies to you: name, worker number, date.</li><li>Check the dates and numbers.</li><li>Sign where it says signature.</li><li>Ask for help if you do not understand a question.</li></ol><h4>Talking about a text</h4><p>Sometimes you respond by speaking. You may tell your co-workers what a notice says, or tell your supervisor that an instruction is not clear. Say what the text says in your own words. If you do not agree with something, say so politely and give your reason.</p><h4>Asking questions</h4><p>It is fine to ask. Good questions are: What does this word mean? When must this be done? Who must I give the form to?</p><h4>Key points</h4><ul><li>Signs, labels, notices, forms and instructions are all texts with different jobs.</li><li>Look at the heading, pictures and big words before you read.</li><li>Find the main idea first, then the details you need.</li><li>Never use a chemical if you cannot read or understand its label.</li><li>Respond correctly: follow, fill in, reply or ask.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a skull and crossbones symbol on a container mean?",
+   "options": [
+    {
+     "text": "Poison",
+     "correct": true
+    },
+    {
+     "text": "Food",
+     "correct": false
+    },
+    {
+     "text": "Recycle",
+     "correct": false
+    },
+    {
+     "text": "First aid",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main idea of a text?",
+   "options": [
+    {
+     "text": "The longest word",
+     "correct": false
+    },
+    {
+     "text": "The most important message",
+     "correct": true
+    },
+    {
+     "text": "The name of the writer",
+     "correct": false
+    },
+    {
+     "text": "The last sentence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a fact?",
+   "options": [
+    {
+     "text": "This is the best tank",
+     "correct": false
+    },
+    {
+     "text": "Our feed is nicer",
+     "correct": false
+    },
+    {
+     "text": "The tank holds 5 000 litres",
+     "correct": true
+    },
+    {
+     "text": "Blue tanks look good",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you cannot read or understand a chemical label?",
+   "options": [
+    {
+     "text": "Guess the amount",
+     "correct": false
+    },
+    {
+     "text": "Smell the product",
+     "correct": false
+    },
+    {
+     "text": "Use half the bottle",
+     "correct": false
+    },
+    {
+     "text": "Do not use it and ask your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first when you fill in a form?",
+   "options": [
+    {
+     "text": "Read the whole form",
+     "correct": true
+    },
+    {
+     "text": "Sign at the bottom",
+     "correct": false
+    },
+    {
+     "text": "Write in pencil",
+     "correct": false
+    },
+    {
+     "text": "Fill in only your name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Words in big or bold letters are often the most important part of a text.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You must read every word of a feed bag to find the mass of the bag.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What can help you understand a new word? (select all that apply)",
+   "options": [
+    {
+     "text": "Read the sentence again",
+     "correct": true
+    },
+    {
+     "text": "Look at the pictures",
+     "correct": true
+    },
+    {
+     "text": "Ask a co-worker or supervisor",
+     "correct": true
+    },
+    {
+     "text": "Skip the whole text",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

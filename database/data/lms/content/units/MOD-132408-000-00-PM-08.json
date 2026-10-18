@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-08",
+ "title": "Plan and Execute Grains and Oilseeds Sampling and Grading Processes",
+ "lessons": [
+  {
+   "title": "Planning the sampling and grading process",
+   "minutes": 15,
+   "html": "<h3>Getting ready for the season</h3>\n<p>Before the first truck arrives, the grading point must be ready. Planning covers people, equipment, procedures and records.</p>\n<h4>Checklist</h4>\n<ol>\n<li><strong>Regulations and procedures</strong> – obtain the current grading regulations for each commodity under the Agricultural Product Standards Act 119 of 1990, and the depot's procedures. Brief graders on any changes.</li>\n<li><strong>People</strong> – confirm the number of certified graders and samplers for the expected truck numbers and shifts, plus relief staff.</li>\n<li><strong>Equipment</strong> – probes or automatic samplers, dividers, prescribed sieves, balances, moisture meters, hectolitre mass equipment for wheat, sample containers, magnifying lamps and work surfaces with good lighting.</li>\n<li><strong>Calibration</strong> – check balances with certified weights, verify moisture meters against reference samples, and record results.</li>\n<li><strong>Records</strong> – grading certificates, sample labels, retained sample storage with space and labelling for the retention period.</li>\n<li><strong>Communication</strong> – inform farmers of the commodities and grades the depot will accept and of grading procedures.</li>\n</ol>\n<h4>Planning for throughput</h4>\n<p>Estimate peak trucks per hour and the time to sample and grade each load. Example: if a full grade takes about 10 minutes and you expect 12 trucks per hour at peak, you need at least two graders working simultaneously plus samplers, otherwise queues build up quickly.</p>\n<h4>Planning for quality of grading</h4>\n<p>Arrange check-grading: a senior grader re-grades a percentage of retained samples daily and compares results. Plan participation in proficiency testing where available. These checks protect both the depot and its clients.</p><p>Plan the physical layout of the grading point too. Samples should flow in one direction from the probe to the grading bench and then to retained sample storage, so that samples are not mixed up and graders do not have to walk through traffic.</p>"
+  },
+  {
+   "title": "Executing sampling and grading",
+   "minutes": 15,
+   "html": "<h3>Step by step at the grading point</h3>\n<ol>\n<li>Confirm the truck ticket number and commodity.</li>\n<li>Sample the load from several points and the full depth, according to procedure, using the platform or automatic probe. Never climb on loads without fall protection.</li>\n<li>Combine and mix the sample, then divide it to the working sample size with the divider. Put aside the retained sample, labelled.</li>\n<li>Check odour and look for live insects and poisonous seeds first; these can make grain unacceptable immediately.</li>\n<li>Measure moisture with the approved meter.</li>\n<li>Determine each deviation required for the commodity: foreign matter, screenings, defective kernels, other grain or colour, and others in the regulations, following exact methods and sieve sizes.</li>\n<li>Compare results with the grade limits and assign the class and grade; the worst deviation sets the grade.</li>\n<li>Record results on the grading certificate and in the system at once, and sign.</li>\n<li>Direct the truck to the correct pit or dryer according to grade and moisture, or to rejection.</li>\n</ol>\n<h3>Handling special cases</h3>\n<ul>\n<li><strong>Above-limit moisture</strong> – direct to drying if the depot accepts wet grain, with drying charges and shrink applied as per tariff.</li>\n<li><strong>Unusual smell or suspected chemical residue</strong> – do not accept; inform the supervisor.</li>\n<li><strong>Grade dispute</strong> – explain the result respectfully; follow the dispute procedure with the retained sample.</li>\n</ul>\n<h3>Daily quality control</h3>\n<ul>\n<li>Check balances and moisture meters at the start of each shift.</li>\n<li>Clean sieves and equipment.</li>\n<li>Do check-grading and investigate differences beyond tolerance.</li>\n<li>Store retained samples properly and dispose of them after the retention period.</li>\n</ul>\n<p>Grading integrity is essential: never change results under pressure, and report any attempt to influence grades.</p>\n<h4>Key points</h4>\n<ul>\n<li>Prepare regulations, people, equipment, calibration and records before the season.</li>\n<li>Plan enough graders for peak truck numbers.</li>\n<li>Sample the whole load, divide correctly and keep retained samples.</li>\n<li>Check odour, insects and poisonous seeds first, then moisture and deviations.</li>\n<li>Do daily calibration checks and check-grading, and protect grading integrity.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Each full grade takes about 10 minutes and 12 trucks per hour are expected. How many graders are needed at minimum?",
+   "options": [
+    {
+     "text": "Two",
+     "correct": true
+    },
+    {
+     "text": "Twelve",
+     "correct": false
+    },
+    {
+     "text": "Ten",
+     "correct": false
+    },
+    {
+     "text": "One",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be checked first on the working sample?",
+   "options": [
+    {
+     "text": "The farmer’s preferred grade",
+     "correct": false
+    },
+    {
+     "text": "Odour, live insects and poisonous seeds",
+     "correct": true
+    },
+    {
+     "text": "Bag weight",
+     "correct": false
+    },
+    {
+     "text": "The truck colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is check-grading?",
+   "options": [
+    {
+     "text": "A senior grader re-grades some retained samples and compares results",
+     "correct": true
+    },
+    {
+     "text": "A fumigation step",
+     "correct": false
+    },
+    {
+     "text": "Checking the farmer’s bank details",
+     "correct": false
+    },
+    {
+     "text": "Checking the truck tyres",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A load has an unusual chemical smell. What should the grader do?",
+   "options": [
+    {
+     "text": "Dilute it in a bin",
+     "correct": false
+    },
+    {
+     "text": "Do not accept it and inform the supervisor",
+     "correct": true
+    },
+    {
+     "text": "Downgrade it one grade",
+     "correct": false
+    },
+    {
+     "text": "Accept it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should balances and moisture meters be checked during the season?",
+   "options": [
+    {
+     "text": "At the start of each shift",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Only after a dispute",
+     "correct": false
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The worst deviation sets the grade.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Grading results may be changed if the farmer insists.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which equipment is needed at a grading point? (select all that apply)",
+   "options": [
+    {
+     "text": "A pellet press",
+     "correct": false
+    },
+    {
+     "text": "Dividers",
+     "correct": true
+    },
+    {
+     "text": "Calibrated balances",
+     "correct": true
+    },
+    {
+     "text": "Prescribed sieves",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

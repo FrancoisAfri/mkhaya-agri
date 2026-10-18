@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8275",
+ "title": "Handling cash",
+ "lessons": [
+  {
+   "title": "Starting with a float and receiving cash",
+   "minutes": 20,
+   "html": "<h3>Cash is everyone's responsibility</h3><p>Cash is the easiest thing in a store to lose or steal. Careful cash handling protects the business and protects you. If your till is short, you may have to explain why. Good habits make sure your till balances every day.</p><h4>The float</h4><p>At the start of the shift you get a <strong>float</strong>: a small amount of notes and coins for giving change, for example R500. Count it in front of the supervisor, check it against the float sheet and sign. If the float is wrong, say so before you start, not later.</p><h4>Your till is yours</h4><ul><li>Only you work on your till. Do not let others use it.</li><li>Log out or lock the till when you step away.</li><li>Keep the drawer closed between sales.</li><li>Never keep your own money in the till or at the till point.</li></ul><h4>Receiving cash</h4><ol><li>Tell the customer the amount due.</li><li>Take the money and say the amount aloud: \"R300 from R250.\"</li><li>Leave the notes on top of the drawer, not inside, until you have given change. This stops arguments about what note was given.</li><li>Count the change from the amount due up to the amount given. For R250 from R300: R50.</li><li>Count the change into the customer's hand, then put the note away.</li></ol><h4>Checking notes</h4><p>Fake notes are a real risk, especially with R100 and R200 notes. South African banknotes have security features you can check: feel the raised print, look for the watermark and the security thread when held to the light, and tilt the note to see the colour-shifting or moving features. Your supervisor will show you the features on the current notes. If you think a note is fake, politely refuse it and call your supervisor. Do not accuse the customer.</p>"
+  },
+  {
+   "title": "Safety, drops and refunds",
+   "minutes": 20,
+   "html": "<h3>Keeping cash safe during the day</h3><p>Too much cash in a till is a robbery and theft risk. Stores set a limit. When your till goes over the limit, the supervisor does a <strong>cash drop</strong>: some cash is taken from the till, counted, recorded on a drop slip and put in the safe. Both of you sign. Keep your copy.</p><h4>If there is a robbery</h4><ul><li>Your life is worth more than the money. Do not fight or argue.</li><li>Do what the robber says. Move slowly and keep your hands visible.</li><li>Try to remember what they look like, without staring.</li><li>Press the panic button only if it is safe to do so.</li><li>After they leave, call security or the police on 10111 and do not touch anything they touched.</li></ul><h4>Refunds and voids</h4><p>Refunds and voids take money out of the till, so they must be controlled. Follow store policy: check the slip, get the supervisor's approval and signature, and keep the paperwork in the till for cash-up.</p><h4>Common ways tills go short</h4><table><tr><th>Cause</th><th>How to prevent it</th></tr><tr><td>Wrong change</td><td>Count change back every time</td></tr><tr><td>Note placed in the drawer too early</td><td>Leave it on top until change is given</td></tr><tr><td>Someone else using the till</td><td>Lock the till when you leave it</td></tr><tr><td>Fake notes</td><td>Check security features</td></tr><tr><td>Sales not rung up</td><td>Ring up every sale, every time</td></tr></table><h4>Distraction tricks</h4><p>Some people try to confuse cashiers by asking for change many times, or changing their mind while you count. Close the drawer, finish one transaction at a time, and start again if you are confused. Call your supervisor if needed.</p>"
+  },
+  {
+   "title": "Cashing up",
+   "minutes": 15,
+   "html": "<h3>Cashing up at the end of the shift</h3><p>Cashing up means counting the money in the till and comparing it with what the till system says you should have.</p><ol><li>Print the till report (sometimes called a Z or X report) as your store requires.</li><li>Count the cash in a safe place, away from customers, with your supervisor present.</li><li>Sort notes by value, all facing the same way. Count each value and write the total on the cash-up sheet.</li><li>Count coins, or weigh them if your store uses a coin scale.</li><li>Take out the float and put it aside.</li><li>Add card slips, account slips, drop slips and approved refund slips.</li><li>Compare your total with the till report.</li></ol><h4>Worked example</h4><table><tr><th>Item</th><th>Amount</th></tr><tr><td>Cash counted (after removing float)</td><td>R4,200</td></tr><tr><td>Cash drops during the day</td><td>R6,000</td></tr><tr><td>Total cash taken</td><td>R10,200</td></tr><tr><td>Cash sales on till report</td><td>R10,250</td></tr><tr><td>Difference</td><td>R50 short</td></tr></table><p>A difference must be reported and written on the cash-up sheet. Never \"fix\" a shortage with your own money or take an overage. Both must be recorded honestly, because they help find mistakes.</p><h4>Banking</h4><p>The cash is put into a bank bag, sealed, and the seal number written down. Banking is done by trained staff or a cash-in-transit company. Vary times and routes if staff take the cash themselves.</p><h4>Key points</h4><ul><li>Count and sign for the float at the start.</li><li>Leave the customer's note on top until change is given, and count change back.</li><li>Check notes for security features.</li><li>In a robbery, do not resist.</li><li>Cash up with a supervisor and record any difference honestly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a float?",
+   "options": [
+    {
+     "text": "A refund slip",
+     "correct": false
+    },
+    {
+     "text": "A small amount of change at the start of the shift",
+     "correct": true
+    },
+    {
+     "text": "The day's profit",
+     "correct": false
+    },
+    {
+     "text": "The bank bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A customer pays R200 for goods costing R165. What change is due?",
+   "options": [
+    {
+     "text": "R25",
+     "correct": false
+    },
+    {
+     "text": "R135",
+     "correct": false
+    },
+    {
+     "text": "R35",
+     "correct": true
+    },
+    {
+     "text": "R45",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why leave the customer's note on top of the drawer until change is given?",
+   "options": [
+    {
+     "text": "To show other customers",
+     "correct": false
+    },
+    {
+     "text": "To avoid an argument about which note was given",
+     "correct": true
+    },
+    {
+     "text": "To dry it",
+     "correct": false
+    },
+    {
+     "text": "So the supervisor can see",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a cash drop?",
+   "options": [
+    {
+     "text": "Removing extra cash from the till to the safe, with a signed slip",
+     "correct": true
+    },
+    {
+     "text": "A short till",
+     "correct": false
+    },
+    {
+     "text": "Dropping coins on the floor",
+     "correct": false
+    },
+    {
+     "text": "A free item",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Your till is R50 over at cash-up. What should you do?",
+   "options": [
+    {
+     "text": "Record the difference honestly on the cash-up sheet",
+     "correct": true
+    },
+    {
+     "text": "Keep the R50",
+     "correct": false
+    },
+    {
+     "text": "Give it to the next customer",
+     "correct": false
+    },
+    {
+     "text": "Hide it in the float",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "During a robbery you should do what the robber says and not fight.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to let a co-worker use your till while you are logged in.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help prevent a till from going short? (select all that apply)",
+   "options": [
+    {
+     "text": "Counting change back",
+     "correct": true
+    },
+    {
+     "text": "Checking notes for security features",
+     "correct": true
+    },
+    {
+     "text": "Ringing up every sale",
+     "correct": true
+    },
+    {
+     "text": "Leaving the till unlocked when you leave",
+     "correct": false
+    },
+    {
+     "text": "Putting the note in the drawer before giving change",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

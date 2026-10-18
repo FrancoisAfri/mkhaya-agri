@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8972",
+ "title": "Interpret a variety of literary texts",
+ "lessons": [
+  {
+   "title": "What are literary texts?",
+   "minutes": 15,
+   "html": "<h3>Stories, poems, plays and songs</h3><p>Literary texts are written or spoken to tell a story, express feelings or explore ideas. They include short stories, novels, poems, plays, praise poetry (izibongo), folk tales, song lyrics and even well-told radio dramas. Unlike a feed label or a policy, a literary text often has more than one meaning, and readers may interpret it differently.</p><h4>Why read literature at work?</h4><p>Reading and discussing stories improves your language, helps you understand other people's points of view, and builds the skill of reading between the lines. These skills help a supervisor understand a worker's complaint, a buyer's email or the real message in a meeting.</p><h4>The main types</h4><ul><li><strong>Narrative</strong> (story, novel, folk tale): has characters, a setting and a plot.</li><li><strong>Poetry</strong>: uses rhythm, sound and images in few words.</li><li><strong>Drama</strong>: written to be performed, told through dialogue and action.</li><li><strong>Oral literature</strong>: praise poems, proverbs, songs and stories passed down by word of mouth.</li></ul><h4>Elements of a story</h4><table><tr><th>Element</th><th>Question to ask</th></tr><tr><td>Setting</td><td>Where and when does it happen? A Karoo farm in a drought?</td></tr><tr><td>Characters</td><td>Who is involved? What do they want?</td></tr><tr><td>Plot</td><td>What happens? What is the conflict and how is it resolved?</td></tr><tr><td>Theme</td><td>What is the deeper message, such as loyalty, land, belonging or change?</td></tr><tr><td>Narrator</td><td>Who tells the story, and can we trust them?</td></tr></table><p>South Africa has a rich literature in all official languages, much of it about land, farming, family and the country's history.</p><p>Choose a short story or poem in a language you read well and identify its setting, characters and theme before the next lesson.</p>"
+  },
+  {
+   "title": "Reading closely: language and technique",
+   "minutes": 15,
+   "html": "<h3>How writers create meaning</h3><p>To interpret a text you look at what the writer says and also <strong>how</strong> they say it.</p><h4>Figurative language</h4><ul><li><strong>Simile</strong>: compares using like or as. <em>The dry veld lay like an old blanket.</em></li><li><strong>Metaphor</strong>: says one thing is another. <em>The dam was the farm's heartbeat.</em></li><li><strong>Personification</strong>: gives human qualities to things. <em>The wind whispered through the maize.</em></li><li><strong>Symbol</strong>: an object that stands for an idea. Rain can stand for hope; a fence can stand for division.</li></ul><h4>Sound and structure in poetry</h4><p>Poets use rhyme, repetition, rhythm and line breaks. Repeating a line can show strong feeling. A short line after long ones can make you stop and think. Praise poems often use repetition and naming to honour a person, a clan or a bull.</p><h4>Tone and mood</h4><p>Tone is the writer's attitude: angry, sad, humorous, proud. Mood is the feeling the text creates in the reader. Word choice creates both. Compare <em>the old farmhouse</em> with <em>the crumbling, silent farmhouse</em>.</p><h4>Character</h4><p>We learn about characters from what they say, what they do, what others say about them and what the narrator tells us. Look for changes: does the young farm worker in the story grow in confidence by the end?</p><h4>Reading between the lines</h4><p>Writers often suggest things rather than state them. If a character always looks away when the landowner speaks, the writer may be showing fear or resentment without saying so. This is called inference.</p><p>Practise by choosing one line of a poem and writing two sentences: what it says, and what it suggests.</p>"
+  },
+  {
+   "title": "Interpreting and responding",
+   "minutes": 15,
+   "html": "<h3>Forming and sharing your interpretation</h3><h4>Steps to interpret a text</h4><ol><li>Read the text once for the overall story or feeling.</li><li>Read again slowly, marking words, images and lines that stand out.</li><li>Identify setting, characters, conflict and theme.</li><li>Look at the techniques the writer uses and what effect they have.</li><li>Consider the context: when was it written, and what was happening in South Africa then?</li><li>Decide what you think the text means, and find evidence from the text to support your view.</li></ol><h4>Using evidence</h4><p>An interpretation must be supported. Instead of saying <em>the poem is sad</em>, say <em>the poem is sad because the speaker repeats 'the rains did not come' and describes the empty kraal</em>. Quoting a few words is better than retelling the whole story.</p><h4>Different interpretations</h4><p>Two readers can interpret the same text differently, and both can be valid if they are supported by evidence. Listen to others' views with respect. Your own background, language and experience shape how you read.</p><h4>Responding</h4><p>You can respond by discussing in a group, writing a paragraph or review, retelling the story from another character's point of view, or relating the theme to your own life and workplace. For example, a story about a farm family facing drought might lead to a discussion about how your community manages hard seasons.</p><h4>Key points</h4><ul><li>Literary texts include stories, poems, plays and oral literature such as praise poems.</li><li>Look at setting, characters, plot, theme and narrator.</li><li>Similes, metaphors, personification and symbols create meaning.</li><li>Tone is the writer's attitude; mood is the feeling created in the reader.</li><li>Support every interpretation with evidence from the text.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is a simile?",
+   "options": [
+    {
+     "text": "The dam was the farm's heartbeat",
+     "correct": false
+    },
+    {
+     "text": "The dry veld lay like an old blanket",
+     "correct": true
+    },
+    {
+     "text": "The wind whispered",
+     "correct": false
+    },
+    {
+     "text": "Rain means hope",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the theme of a story?",
+   "options": [
+    {
+     "text": "The place where it happens",
+     "correct": false
+    },
+    {
+     "text": "The list of characters",
+     "correct": false
+    },
+    {
+     "text": "The deeper message or idea",
+     "correct": true
+    },
+    {
+     "text": "The title",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is tone in a literary text?",
+   "options": [
+    {
+     "text": "The writer's attitude",
+     "correct": true
+    },
+    {
+     "text": "The number of lines",
+     "correct": false
+    },
+    {
+     "text": "The setting",
+     "correct": false
+    },
+    {
+     "text": "The plot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is inference?",
+   "options": [
+    {
+     "text": "Copying a quotation",
+     "correct": false
+    },
+    {
+     "text": "Counting rhymes",
+     "correct": false
+    },
+    {
+     "text": "Reading the title only",
+     "correct": false
+    },
+    {
+     "text": "Working out what the writer suggests but does not state",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you support an interpretation?",
+   "options": [
+    {
+     "text": "Say it louder",
+     "correct": false
+    },
+    {
+     "text": "Retell the whole story",
+     "correct": false
+    },
+    {
+     "text": "With evidence from the text",
+     "correct": true
+    },
+    {
+     "text": "Use the longest words you know",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Two readers can have different valid interpretations if both are supported by evidence.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Praise poems are not literary texts because they are oral.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are elements of a story? (select all that apply)",
+   "options": [
+    {
+     "text": "Setting",
+     "correct": true
+    },
+    {
+     "text": "Characters",
+     "correct": true
+    },
+    {
+     "text": "Plot",
+     "correct": true
+    },
+    {
+     "text": "Fertiliser rate",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

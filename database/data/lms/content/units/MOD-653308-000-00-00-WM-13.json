@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-13",
+ "title": "Diagnosis and Repair of Tractor Electrical Systems",
+ "lessons": [
+  {
+   "title": "Electrical safety and a diagnostic method",
+   "minutes": 20,
+   "html": "<h3>Scope of the work</h3> <p>Tractor electrical systems include the battery, starting circuit, charging circuit (alternator and regulator), lighting and indicators, instruments and warning lights, glow plugs or intake heaters, cab accessories and the wiring harness with fuses and relays. At this level you diagnose faults systematically and repair them to manufacturer standard, with your workplace mentor confirming your work.</p> <h4>Safety</h4> <ul> <li>Batteries give off hydrogen when charging. Keep sparks and flames away, and ventilate the area.</li> <li>Battery acid burns skin and eyes. Wear safety glasses and gloves; if acid splashes into an eye, rinse with clean running water for a long time and get medical help.</li> <li>Disconnect the negative terminal first and reconnect it last. This prevents a spanner shorting from the positive terminal to the chassis.</li> <li>A short circuit on a battery cable can heat a spanner red-hot in seconds and cause a fire. Remove rings and watches.</li> <li>When jump-starting, follow the manual's connection order and never jump-start a frozen or damaged battery.</li> <li>Before welding on the tractor, disconnect the battery and protect electronic units as the manual instructs.</li> </ul> <h4>A systematic diagnostic method</h4> <ol> <li><strong>Verify the complaint.</strong> Talk to the driver: what happens, when, and since when? Try to repeat the fault yourself.</li> <li><strong>Check the basics.</strong> Battery state of charge, clean and tight terminals, fuses, earth (ground) straps.</li> <li><strong>Study the wiring diagram.</strong> Identify the power source, fuse, switch, relay, load and earth for the circuit.</li> <li><strong>Test, do not guess.</strong> Measure voltage, voltage drop, resistance and continuity at logical points to narrow down the fault.</li> <li><strong>Repair the cause</strong>, not just the symptom. A blown fuse means something drew too much current; find out what.</li> <li><strong>Verify the repair</strong> and record it.</li> </ol> <p>Replacing parts at random (\"parts-swapping\") wastes the farmer's money and time. On a farm in the middle of planting, a tractor standing for two extra days because of a wrong diagnosis can cost far more than the repair itself.</p>"
+  },
+  {
+   "title": "Testing batteries, starting and charging circuits",
+   "minutes": 20,
+   "html": "<h3>Using the multimeter properly</h3> <ul> <li><strong>Voltage</strong> is measured in parallel across a component or from a point to earth, with the circuit switched on.</li> <li><strong>Voltage drop</strong> is measured across a cable or connection while current flows. A high reading means resistance, for example a corroded terminal.</li> <li><strong>Resistance and continuity</strong> are measured with the circuit unpowered. Never measure resistance on a live circuit.</li> <li><strong>Current</strong> is measured in series or with a clamp meter. Do not put a multimeter in series with a starter motor; use a clamp meter.</li> </ul> <h4>Battery</h4> <p>A fully charged 12 V lead-acid battery at rest reads about 12.6 V or slightly more; a reading around 12.2 V means it is roughly half charged. Charge it before further testing. Then do a load test with a battery tester or by measuring voltage while cranking, and compare with the tester or manual guidance. Check electrolyte levels on serviceable batteries and top up with distilled water only.</p> <h4>Starting circuit</h4> <ul> <li>If the starter clicks but does not turn, measure voltage at the starter main terminal during cranking. Then measure voltage drop on the positive cable and on the earth path.</li> <li>If nothing happens, check the neutral start or safety switch, the key switch, the start relay and the solenoid feed.</li> <li>Never bypass a neutral start switch to get a tractor going. Bypassing it can let the tractor start in gear and run someone over. Repair or replace the switch.</li> </ul> <h4>Charging circuit</h4> <ul> <li>Check the alternator belt condition and tension first.</li> <li>With the engine running at a fast idle, battery voltage should rise above the resting voltage into the range the manual gives for charging.</li> <li>Check voltage drop on the alternator output and earth cables. Check the warning light circuit; on many alternators it supplies the excitation current.</li> <li>If the alternator output is low after these checks, remove it for bench testing or exchange, as your workshop does.</li> </ul>"
+  },
+  {
+   "title": "Repairing wiring, lights and accessories",
+   "minutes": 20,
+   "html": "<h3>Finding wiring faults</h3> <p>Farm tractors work in dust, vibration, water and mud, and rats and mice like to chew wiring in sheds. Common faults are chafed wires shorting to the chassis, corroded connectors, broken earth straps and loose terminals.</p> <ul> <li>For an <strong>open circuit</strong> (no power at the load), follow the wiring diagram and measure voltage step by step from the fuse towards the load until it disappears.</li> <li>For a <strong>short to earth</strong> (fuse keeps blowing), disconnect loads one at a time, or use a test lamp in place of the fuse while moving the harness, to find where the short is.</li> <li>For <strong>intermittent faults</strong>, wiggle connectors and harness sections while watching a meter or the symptom.</li> </ul> <h3>Making a lasting repair</h3> <ul> <li>Use wire of the same or larger size as the original. Thin wire overheats.</li> <li>Join wires with proper crimp connectors and a ratchet crimper, or solder, then seal with heat-shrink tubing. Insulation tape alone does not last outside.</li> <li>Replace fuses only with the same rating. A bigger fuse can let the wiring burn.</li> <li>Clean corroded terminals and connectors, and use dielectric grease where the manual recommends it.</li> <li>Re-clip and protect the harness so it cannot rub again.</li> </ul> <h3>Lights, instruments and accessories</h3> <p>Tractors on public roads must have working lights and indicators. Test every light, indicator, hazard light and the hooter. For instruments that read wrong, check the sender unit and its earth before blaming the gauge. For cab accessories such as air-conditioning fans or radios, check fuses, relays and earths in the same way.</p> <h3>Verifying and recording</h3> <p>After repair, operate the circuit several times and recheck charging voltage. Record the fault, the tests and readings, the cause found, parts used and time spent. Good records help the farm see repeat faults on the same tractor.</p> <h4>Key points</h4> <ul> <li>Disconnect the negative battery terminal first and reconnect it last.</li> <li>Follow a method: verify, check basics, read the diagram, test, repair the cause, verify.</li> <li>Measure voltage drop to find high-resistance connections.</li> <li>Never bypass a neutral start switch or fit a larger fuse.</li> <li>Make sealed, crimped or soldered repairs and secure the harness.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which battery terminal should be disconnected first?",
+   "options": [
+    {
+     "text": "Either one",
+     "correct": false
+    },
+    {
+     "text": "The negative terminal",
+     "correct": true
+    },
+    {
+     "text": "Both at the same time with one spanner",
+     "correct": false
+    },
+    {
+     "text": "The positive terminal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A 12 V lead-acid battery at rest reads about 12.2 V. What does this suggest?",
+   "options": [
+    {
+     "text": "It is fully charged",
+     "correct": false
+    },
+    {
+     "text": "It is overcharged",
+     "correct": false
+    },
+    {
+     "text": "It is roughly half charged",
+     "correct": true
+    },
+    {
+     "text": "The alternator is faulty",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is a voltage drop test done?",
+   "options": [
+    {
+     "text": "Across a cable or connection while current flows",
+     "correct": true
+    },
+    {
+     "text": "On a circuit with the battery removed",
+     "correct": false
+    },
+    {
+     "text": "In series with the starter motor",
+     "correct": false
+    },
+    {
+     "text": "Only on fuses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A fuse keeps blowing. What does this tell you?",
+   "options": [
+    {
+     "text": "Something in the circuit draws too much current, often a short to earth",
+     "correct": true
+    },
+    {
+     "text": "The alternator belt is loose",
+     "correct": false
+    },
+    {
+     "text": "The fuse rating is too low and must be increased",
+     "correct": false
+    },
+    {
+     "text": "The battery is flat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the best way to join wires in a lasting repair?",
+   "options": [
+    {
+     "text": "Tie a knot in the wires",
+     "correct": false
+    },
+    {
+     "text": "Twist them and use insulation tape",
+     "correct": false
+    },
+    {
+     "text": "Use a thinner wire",
+     "correct": false
+    },
+    {
+     "text": "Crimp or solder and seal with heat-shrink",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to bypass a faulty neutral start switch so the farmer can keep working.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Resistance should only be measured on a circuit that is switched off.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong to a systematic electrical diagnosis? (select all that apply)",
+   "options": [
+    {
+     "text": "Check battery, terminals, fuses and earths",
+     "correct": true
+    },
+    {
+     "text": "Study the wiring diagram and test at logical points",
+     "correct": true
+    },
+    {
+     "text": "Verify the complaint",
+     "correct": true
+    },
+    {
+     "text": "Replace the most expensive part first",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

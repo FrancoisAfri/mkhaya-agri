@@ -47,9 +47,9 @@
 
     <div class="notice">
         This sheet is the approved return, laid out for capture on SARS eFiling. It is not a submission.
-        After filing, record the SARS reference against {{ $return->reference }} in Mkhaya Hub and attach the eFiling receipt.
+        After filing, record the SARS reference against {{ $return->reference }} in Mkhaya Agri and attach the eFiling receipt.
     </div>
 
-    <div class="footer">Generated {{ $generatedAt }} · report version 1 · Mkhaya Hub Tax Management</div>
+    <div class="footer">Generated {{ $generatedAt }} · report version 1 · Mkhaya Agri Tax Management</div>
 </body>
 </html>

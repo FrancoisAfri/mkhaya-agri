@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261589",
+ "title": "Identify and explain the purpose of Acts, Codes and associated legislation pertaining to animal welfare",
+ "lessons": [
+  {
+   "title": "Legislation pertaining to animal welfare",
+   "minutes": 18,
+   "html": "<h3>The welfare legislation landscape</h3>\n<p>Animal welfare in South Africa is protected by a group of laws, each with its own purpose. A welfare officer, farm manager or inspector must know which law applies to which situation.</p>\n<table><tr><th>Law</th><th>Purpose</th></tr>\n<tr><td>Animals Protection Act 71 of 1962</td><td>The main cruelty law: defines offences such as neglect, overloading, abandonment, cruel confinement and fighting, and gives powers to police officers and authorised persons</td></tr>\n<tr><td>Societies for the Prevention of Cruelty to Animals Act 169 of 1993</td><td>Establishes the National Council of SPCAs and regulates SPCA societies and their inspectors</td></tr>\n<tr><td>Performing Animals Protection Act 24 of 1935</td><td>Licensing of the training and exhibition of performing animals and the use of guard dogs</td></tr>\n<tr><td>Animal Diseases Act 35 of 1984</td><td>Control of animal diseases, movement and quarantine</td></tr>\n<tr><td>Meat Safety Act 40 of 2000</td><td>Humane and hygienic slaughter at registered abattoirs</td></tr>\n<tr><td>Veterinary and Para-Veterinary Professions Act 19 of 1982</td><td>Who may perform veterinary procedures</td></tr>\n<tr><td>National Environmental Management: Biodiversity Act 10 of 2004</td><td>Protection of threatened and protected wild species and related permits</td></tr></table>\n<p>Alongside these Acts, the South African National Standards (SANS) and industry codes of practice give detailed requirements for the handling, housing and transport of farm animals. Municipal by-laws often regulate the number of dogs, keeping of livestock in town and noise.</p>\n<h4>Why purpose matters</h4>\n<p>Knowing the purpose of each law helps you decide what action to take. A starving horse in a backyard is an APA matter. A sick pig with possible African swine fever is an Animal Diseases Act matter for the state vet. A circus without a licence for its animals falls under the Performing Animals Protection Act. An illegally kept protected species, such as a pangolin, is a biodiversity matter for conservation officials.</p>"
+  },
+  {
+   "title": "Powers of entry and seizure, and the offences they enforce",
+   "minutes": 18,
+   "html": "<h3>Powers of entry</h3>\n<p>To enforce animal protection law, officials must sometimes enter private property. Under the Animals Protection Act 71 of 1962, police officers have powers to enter premises where animals are kept to check whether an offence is being committed. Authorised officers of SPCA societies, through the SPCA Act 169 of 1993, may exercise certain of these police powers when acting as inspectors.</p>\n<p>Good practice when exercising powers of entry:</p>\n<ul><li>Carry and show official identification and authorisation.</li>\n<li>Explain the reason for the visit to the owner or person in charge.</li>\n<li>Enter at a reasonable time unless there is an urgent risk to an animal.</li>\n<li>Where the law or the situation requires it, obtain a warrant from a magistrate, especially for dwellings.</li>\n<li>Take notes, photographs and video as evidence, with times and dates.</li>\n<li>Remain professional and avoid damage to property.</li></ul>\n<h3>Powers of seizure</h3>\n<p>An officer may seize an animal that is being cruelly treated or is suffering, and may also seize items used to commit an offence, such as fighting equipment or cruel traps. After seizure:</p>\n<ul><li>The animal must be taken for veterinary assessment and cared for.</li>\n<li>A receipt or record of seizure must be given and kept.</li>\n<li>Evidence must be stored safely for court.</li>\n<li>A court decides what happens to the animal: return, forfeiture or, if it is suffering beyond help, destruction.</li></ul>\n<h4>Offences these powers enforce</h4>\n<ul><li>Beating, kicking, overloading or overdriving an animal.</li>\n<li>Failing to provide adequate food, water, shelter or veterinary care.</li>\n<li>Confining or chaining an animal in a way that causes suffering.</li>\n<li>Transporting animals in a way that causes unnecessary suffering.</li>\n<li>Organising or allowing animal fights.</li>\n<li>Abandoning an animal.</li>\n<li>Laying poison or setting traps in ways that cause unnecessary suffering.</li></ul>\n<p>Penalties can include fines, imprisonment and a court order declaring the person unfit to own animals.</p>\n<h4>Key points</h4>\n<ul><li>Several laws protect animal welfare; the Animals Protection Act 71 of 1962 is the main cruelty law.</li>\n<li>Choose the right law for the situation: cruelty, disease, slaughter, performing animals or biodiversity.</li>\n<li>Police officers, and authorised SPCA inspectors, have powers of entry and seizure.</li>\n<li>Identify yourself, record evidence and follow warrant requirements.</li>\n<li>Seized animals must receive veterinary care and the court decides their fate.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law licenses the use of guard dogs and performing animals?",
+   "options": [
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Performing Animals Protection Act 24 of 1935",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pig shows signs of possible African swine fever. Which law and official apply?",
+   "options": [
+    {
+     "text": "Animal Diseases Act; the state vet",
+     "correct": true
+    },
+    {
+     "text": "Animals Protection Act; the SPCA",
+     "correct": false
+    },
+    {
+     "text": "Performing Animals Protection Act; the magistrate",
+     "correct": false
+    },
+    {
+     "text": "Biodiversity Act; SANParks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should an officer do first when entering premises?",
+   "options": [
+    {
+     "text": "Show official identification and explain the reason for the visit",
+     "correct": true
+    },
+    {
+     "text": "Break the gate lock",
+     "correct": false
+    },
+    {
+     "text": "Seize every animal",
+     "correct": false
+    },
+    {
+     "text": "Call the media",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen to a seized animal?",
+   "options": [
+    {
+     "text": "It must be euthanased immediately",
+     "correct": false
+    },
+    {
+     "text": "It must be sold at auction",
+     "correct": false
+    },
+    {
+     "text": "It must be released in the veld",
+     "correct": false
+    },
+    {
+     "text": "It must be taken for veterinary assessment and cared for",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act protects threatened and protected wild species?",
+   "options": [
+    {
+     "text": "National Environmental Management: Biodiversity Act 10 of 2004",
+     "correct": true
+    },
+    {
+     "text": "Veterinary and Para-Veterinary Professions Act 19 of 1982",
+     "correct": false
+    },
+    {
+     "text": "SPCA Act 169 of 1993",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Items used to commit an offence, such as cruel traps, may also be seized.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A court has no role in deciding what happens to a seized animal.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are offences covered by animal cruelty legislation? (select all that apply)",
+   "options": [
+    {
+     "text": "Vaccinating cattle against anthrax",
+     "correct": false
+    },
+    {
+     "text": "Abandoning an animal",
+     "correct": true
+    },
+    {
+     "text": "Organising animal fights",
+     "correct": true
+    },
+    {
+     "text": "Failing to provide adequate water",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

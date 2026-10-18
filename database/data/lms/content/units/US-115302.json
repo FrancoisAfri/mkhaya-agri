@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115302",
+ "title": "Identify and apply safety, health and risk prevention procedures for livestock, game and agricultural products",
+ "lessons": [
+  {
+   "title": "Hazards and risk assessment at auctions and pens",
+   "minutes": 15,
+   "html": "<h3>Dangers when working with livestock and game</h3>\n<p>Auction pens, sale yards, loading ramps and game holding bomas are some of the most dangerous workplaces in agriculture. Workers can be hurt by animals, vehicles, equipment and disease.</p>\n<h4>Common dangerous situations</h4>\n<ul><li>Being kicked, butted, crushed against a rail or trampled by cattle, bulls or game.</li>\n<li>Slipping on wet, muddy or manure-covered walkways and ramps.</li>\n<li>Falling from catwalks or the top of trucks while loading.</li>\n<li>Being hit by reversing trucks and bakkies in the yard.</li>\n<li>Gates swinging back under pressure from animals.</li>\n<li>Lifting heavy bags, crates of produce or sheep by hand.</li>\n<li>Heat stress, dust and noise during long sale days.</li>\n<li>Contact with sick animals that carry zoonoses.</li></ul>\n<h4>Risk assessment in the auctioning industry</h4>\n<p>The Occupational Health and Safety Act 85 of 1993 requires the employer to identify hazards and reduce risks. A simple risk assessment has five steps:</p>\n<ol><li><strong>Identify the hazards</strong>: walk the pens, ramps and yard before a sale.</li>\n<li><strong>Decide who might be harmed and how</strong>: pen workers, buyers, drivers, visitors and children.</li>\n<li><strong>Rate the risk</strong>: how likely and how serious? A broken gate latch in the bull pens is high risk.</li>\n<li><strong>Control the risk</strong>: repair, guard, sign, train, issue protective equipment.</li>\n<li><strong>Record and review</strong>: write it down and check again after changes or incidents.</li></ol>\n<h4>Controls that work</h4>\n<table><tr><th>Hazard</th><th>Control</th></tr>\n<tr><td>Bulls and aggressive animals</td><td>Separate pens, never enter alone, use paddles and flags not bodies</td></tr>\n<tr><td>Slippery floors</td><td>Grooved concrete, regular cleaning, safety boots</td></tr>\n<tr><td>Vehicles</td><td>One-way traffic, banksman for reversing, pedestrian walkways</td></tr>\n<tr><td>Public in the yard</td><td>Barriers, catwalks for buyers, no children in pens</td></tr></table>"
+  },
+  {
+   "title": "Emergencies, disease prevention and monitoring the plan",
+   "minutes": 15,
+   "html": "<h3>Limiting damage in an emergency</h3>\n<p>Emergencies at sale yards and farms include escaped animals, fires, injured workers, truck accidents and chemical spills. The aim is to protect people first, then animals, then property.</p>\n<ul><li>Know the emergency plan: assembly point, fire extinguishers, first aid kit, emergency numbers.</li>\n<li><strong>Escaped animal</strong>: warn people, close outer gates, do not chase it towards roads or crowds, and let trained handlers deal with it.</li>\n<li><strong>Fire</strong>: raise the alarm, call the fire service, use an extinguisher only if it is small and you are trained, and open gates to let animals escape away from the fire if it is safe.</li>\n<li><strong>Injury</strong>: make the area safe, call the trained first aider and emergency services. Do not move a person with a possible neck or back injury unless they are in danger. First aid skills need hands-on training with an accredited provider.</li></ul>\n<h4>Preventing transmittable diseases</h4>\n<p>Auctions bring animals from many farms together, so disease can spread fast. Preventive procedures include:</p>\n<ul><li>Checking animals on arrival and isolating sick ones.</li>\n<li>Making sure movement permits and documents are in order, especially from disease control areas under the Animal Diseases Act 35 of 1984.</li>\n<li>Cleaning and disinfecting pens, ramps and trucks between sales.</li>\n<li>Footbaths and hand-washing stations for workers.</li>\n<li>Protective gloves when handling aborted material or sick animals, because of zoonoses such as brucellosis and anthrax.</li>\n<li>Reporting suspicious signs (blisters, sudden deaths) to the state vet.</li></ul>\n<h4>Monitoring the health and safety plan</h4>\n<p>A plan on paper is only useful if it is followed. Supervisors should:</p>\n<ul><li>Do regular inspections with a checklist.</li>\n<li>Hold short safety talks before each sale.</li>\n<li>Check that protective equipment is worn and in good condition.</li>\n<li>Record and investigate every incident and near miss.</li>\n<li>Work with the health and safety representative and update the plan when things change.</li></ul>\n<h4>Key points</h4>\n<ul><li>Animals, slippery floors, vehicles and falls cause most injuries at sale yards.</li>\n<li>Use the five risk assessment steps required in spirit by the OHS Act 85 of 1993.</li>\n<li>In an emergency protect people first, then animals, then property.</li>\n<li>Cleaning, isolation, documents and protective gear prevent disease spread.</li>\n<li>Monitor the plan through inspections, safety talks and incident records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first step in a risk assessment?",
+   "options": [
+    {
+     "text": "Identify the hazards",
+     "correct": true
+    },
+    {
+     "text": "Control the risk",
+     "correct": false
+    },
+    {
+     "text": "Record and review",
+     "correct": false
+    },
+    {
+     "text": "Buy protective equipment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which control helps prevent people being hit by reversing trucks?",
+   "options": [
+    {
+     "text": "Removing signs",
+     "correct": false
+    },
+    {
+     "text": "A banksman and one-way traffic",
+     "correct": true
+    },
+    {
+     "text": "Wet floors",
+     "correct": false
+    },
+    {
+     "text": "Letting children help",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In an emergency, what must be protected first?",
+   "options": [
+    {
+     "text": "Documents",
+     "correct": false
+    },
+    {
+     "text": "Property",
+     "correct": false
+    },
+    {
+     "text": "Animals",
+     "correct": false
+    },
+    {
+     "text": "People",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "An animal escapes from the pens. What should you do?",
+   "options": [
+    {
+     "text": "Throw stones at it",
+     "correct": false
+    },
+    {
+     "text": "Warn people, close outer gates and let trained handlers deal with it",
+     "correct": true
+    },
+    {
+     "text": "Leave all gates open",
+     "correct": false
+    },
+    {
+     "text": "Chase it towards the road",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which practice helps prevent disease spread at auctions?",
+   "options": [
+    {
+     "text": "Skipping documents",
+     "correct": false
+    },
+    {
+     "text": "Mixing sick and healthy animals",
+     "correct": false
+    },
+    {
+     "text": "Sharing water troughs with untested animals",
+     "correct": false
+    },
+    {
+     "text": "Cleaning and disinfecting pens and trucks between sales",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A person with a possible neck or back injury should not be moved unless they are in danger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Once a health and safety plan is written, it does not need to be checked again.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which actions help monitor the health and safety plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Hiding near misses from the manager",
+     "correct": false
+    },
+    {
+     "text": "Recording and investigating incidents and near misses",
+     "correct": true
+    },
+    {
+     "text": "Short safety talks before each sale",
+     "correct": true
+    },
+    {
+     "text": "Regular inspections with a checklist",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

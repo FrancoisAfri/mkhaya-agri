@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8142",
+ "title": "Merchandise Store",
+ "lessons": [
+  {
+   "title": "Planning the store layout",
+   "minutes": 15,
+   "html": "<h3>What is merchandising?</h3><p>Merchandising means placing and showing goods so customers find them easily and want to buy them. A well-merchandised agri store is clean, tidy and easy to walk through. Farmers are busy. If they can find what they need quickly, they will come back.</p><h4>Group products that belong together</h4><ul><li>Animal health: dips, dewormers, syringes, ear tags and tag applicators together.</li><li>Fencing: wire, droppers, straining posts, fencing pliers and gate hinges together.</li><li>Garden and vegetables: seed packets, small fertiliser bags, hosepipes and watering cans.</li><li>Protective clothing: gloves, overalls, boots, masks and goggles.</li></ul><p>When things that are used together are close, customers often buy more. A farmer who buys a dewormer may also need a dosing gun.</p><h4>Where to place items</h4><ul><li><strong>Eye level</strong> is where customers look first. Put popular items and specials there.</li><li><strong>Heavy items</strong> go on the bottom shelf or on the floor on pallets, for safety.</li><li><strong>Small, costly items</strong> like pocket knives or medicines may be kept near the till or behind the counter to stop theft.</li><li><strong>Chemicals</strong> on display must still be kept away from feed and food and follow the store's rules. Many stores keep only empty display containers on the floor.</li></ul><h4>Keep walkways open</h4><p>Leave aisles wide enough for trolleys and for people to pass. Do not leave boxes in the walkway. Fire exits and extinguishers must always be clear and easy to see.</p>"
+  },
+  {
+   "title": "Building and keeping displays",
+   "minutes": 15,
+   "html": "<h3>Making a good display</h3><ol><li>Clean the shelf first. Wipe dust and remove old stickers.</li><li>Check you have enough stock to fill the space.</li><li>Pack items with the label facing the customer. We call this \"facing\".</li><li>Put the same item in a neat block, not spread around.</li><li>Put older stock in front (first in, first out).</li><li>Put the correct shelf label under each product.</li><li>Step back and look as a customer would. Is it neat? Can you read the prices?</li></ol><h4>Seasonal displays</h4><p>Change the main display with the farming season.</p><table><tr><th>Season</th><th>Display ideas</th></tr><tr><td>Spring (planting)</td><td>Seed, fertiliser, planter spares</td></tr><tr><td>Summer (rain)</td><td>Dips, fly control, dewormers</td></tr><tr><td>Autumn and winter</td><td>Lick, feed, fire-break tools, warm clothing</td></tr></table><h4>Point-of-sale material</h4><p>Posters, price cards and \"special\" signs help sell. Use only approved material from your manager or supplier. Signs must be neat, correct and taken down when the special ends.</p><h4>Keeping it tidy</h4><ul><li>Walk the store at least twice a day.</li><li>Fill empty spaces from the store room.</li><li>Put back items customers left in the wrong place.</li><li>Remove damaged or expired stock.</li><li>Report empty shelves where no stock is left, so it can be ordered.</li></ul><h4>Safety</h4><p>Do not stack displays too high. Make sure nothing can fall on a customer. Use a ladder, not a shelf, to reach high places.</p><h4>Key points</h4><ul><li>Group products that are used together.</li><li>Popular items at eye level, heavy items low.</li><li>Face labels to the customer and keep prices correct.</li><li>Change displays with the season.</li><li>Keep aisles and fire exits clear.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where do customers look first on a shelf?",
+   "options": [
+    {
+     "text": "Eye level",
+     "correct": true
+    },
+    {
+     "text": "Behind the counter",
+     "correct": false
+    },
+    {
+     "text": "The ceiling",
+     "correct": false
+    },
+    {
+     "text": "The bottom shelf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should heavy bags be placed?",
+   "options": [
+    {
+     "text": "In the aisle",
+     "correct": false
+    },
+    {
+     "text": "On the top shelf",
+     "correct": false
+    },
+    {
+     "text": "On the counter",
+     "correct": false
+    },
+    {
+     "text": "On the bottom shelf or on pallets on the floor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is 'facing'?",
+   "options": [
+    {
+     "text": "Pricing goods",
+     "correct": false
+    },
+    {
+     "text": "Putting labels towards the customer",
+     "correct": true
+    },
+    {
+     "text": "Talking face to face",
+     "correct": false
+    },
+    {
+     "text": "Turning stock to the wall",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be displayed in winter?",
+   "options": [
+    {
+     "text": "Planter spares",
+     "correct": false
+    },
+    {
+     "text": "Lick and feed",
+     "correct": true
+    },
+    {
+     "text": "Pool chemicals",
+     "correct": false
+    },
+    {
+     "text": "Summer seed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why put dosing guns near dewormers?",
+   "options": [
+    {
+     "text": "To hide them",
+     "correct": false
+    },
+    {
+     "text": "They are the same colour",
+     "correct": false
+    },
+    {
+     "text": "Because there is no space elsewhere",
+     "correct": false
+    },
+    {
+     "text": "Customers who buy one often need the other",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fire exits must always be kept clear.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A special sign can stay up after the special has ended.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks keep displays tidy? (select all that apply)",
+   "options": [
+    {
+     "text": "Filling empty spaces",
+     "correct": true
+    },
+    {
+     "text": "Removing expired stock",
+     "correct": true
+    },
+    {
+     "text": "Leaving boxes in the aisle",
+     "correct": false
+    },
+    {
+     "text": "Putting back items left in the wrong place",
+     "correct": true
+    },
+    {
+     "text": "Stacking displays very high",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

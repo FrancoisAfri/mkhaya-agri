@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-KM-08",
+ "title": "Feed Milling and out loading processes, technology and operations",
+ "lessons": [
+  {
+   "title": "Grinding and mixing",
+   "minutes": 15,
+   "html": "<h3>Grinding</h3>\n<p>Grinding reduces particle size so that animals digest feed better and ingredients mix evenly and pellet well. The two main machines are:</p>\n<ul>\n<li><strong>Hammer mills</strong> – swinging hammers smash material against a screen; the screen hole size controls particle size. Versatile and common in South African mills.</li>\n<li><strong>Roller mills</strong> – pairs of rollers crack or flake grain with a more even particle size and less fines; often used for ruminant and coarse diets.</li>\n</ul>\n<p>The supervisor should check particle size regularly with sieve analysis, because worn hammers and broken screens change grind and can let whole grains through. A torn screen also reduces pellet quality. Energy use rises when hammers are worn, so track kWh per tonne.</p>\n<h3>Batching and dosing</h3>\n<p>Ingredients are weighed into the mixer according to the formula. Major ingredients come from bins over a scale; minor ingredients and premixes may be weighed on a micro scale or added by hand. Accurate weighing is critical: check scale calibration as scheduled and compare actual weights with target weights on each batch report. Liquids such as molasses and oil are added by metered pumps.</p>\n<h3>Mixing</h3>\n<p>The mixer (usually a horizontal ribbon or paddle mixer) blends all ingredients so every kilogram of feed has the same nutrient content. Follow the set dry mix and wet mix times. Too short and the mix is uneven; overfilling the mixer also gives poor mixing. Mixer uniformity is tested periodically by measuring a tracer or a nutrient in several samples and calculating the coefficient of variation (CV); a low CV means a good mix.</p>\n<h3>Preventing carry-over</h3>\n<p>Some material stays behind in the mixer, conveyors and bins and can contaminate the next batch. Control carry-over by sequencing products (e.g. medicated after non-medicated, and never ionophore feeds before horse feeds), flushing with a clean material where required, and keeping equipment clean.</p>"
+  },
+  {
+   "title": "Packing, storage and out-loading",
+   "minutes": 15,
+   "html": "<h3>Finished product bins</h3>\n<p>After mixing (and pelleting where applicable), feed goes to finished product bins. Each bin must be clearly identified with the product and batch. Sending feed to the wrong bin is a serious error that can lead to the wrong feed reaching a farm.</p>\n<h3>Bagging</h3>\n<ol>\n<li>Confirm the product, batch number and bag type (for example 50 kg or 40 kg bags) before starting.</li>\n<li>Check the bag printing or label: product name, registration number, net mass, batch and date, and feeding instructions as required under Act 36 of 1947.</li>\n<li>Check the bagging scale with a test weight at the start of the shift and regularly during it.</li>\n<li>Sew or seal bags properly so they do not leak.</li>\n<li>Stack bags neatly on clean pallets to the approved height and pattern.</li>\n<li>Record bags packed and reconcile with tonnes produced.</li>\n</ol>\n<h3>Bulk out-loading</h3>\n<p>Many large farms, especially poultry and feedlots, receive feed in bulk trucks with compartments. Before loading, check that the truck is clean, dry and free of previous loads, especially if it previously carried medicated feed. Load the correct product into each compartment, weigh the truck, seal it and complete the delivery documents.</p>\n<h3>Warehouse and dispatch</h3>\n<ul>\n<li>Use first-expired-first-out for bagged feed.</li>\n<li>Keep the warehouse dry, clean and free of rodents and birds.</li>\n<li>Separate damaged or held stock with clear labels.</li>\n<li>Check order picking against the dispatch note before the truck leaves.</li>\n</ul>\n<h3>Safety</h3>\n<p>Packing and out-loading areas carry risks of forklift collisions, falling bags, back injuries from lifting and falls from truck tops. Use marked walkways, correct lifting techniques, fall protection on loading gantries and keep clear of reversing vehicles.</p>\n<h4>Key points</h4>\n<ul>\n<li>Hammer mills and roller mills reduce particle size; check grind and worn parts.</li>\n<li>Weigh ingredients accurately and follow set mixing times; test mixer CV.</li>\n<li>Control carry-over by sequencing, flushing and cleaning.</li>\n<li>Check labels, scales, batch numbers and truck cleanliness when packing and out-loading.</li>\n<li>Use FEFO, keep warehouses clean and work safely around forklifts and trucks.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What controls particle size in a hammer mill?",
+   "options": [
+    {
+     "text": "The mixer time",
+     "correct": false
+    },
+    {
+     "text": "The colour of the hammers",
+     "correct": false
+    },
+    {
+     "text": "The bag size",
+     "correct": false
+    },
+    {
+     "text": "The screen hole size",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a low coefficient of variation (CV) in a mixer test show?",
+   "options": [
+    {
+     "text": "A broken scale",
+     "correct": false
+    },
+    {
+     "text": "A good, uniform mix",
+     "correct": true
+    },
+    {
+     "text": "A poor mix",
+     "correct": false
+    },
+    {
+     "text": "Too much molasses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a method of controlling carry-over?",
+   "options": [
+    {
+     "text": "Flushing with a clean material where required",
+     "correct": true
+    },
+    {
+     "text": "Running horse feed straight after ionophore feed",
+     "correct": false
+    },
+    {
+     "text": "Overfilling the mixer",
+     "correct": false
+    },
+    {
+     "text": "Making mixing time shorter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before loading a bulk truck, what must be checked?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Only the driver’s name",
+     "correct": false
+    },
+    {
+     "text": "The truck’s colour",
+     "correct": false
+    },
+    {
+     "text": "That the truck is clean and free of previous loads",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often should the bagging scale be checked?",
+   "options": [
+    {
+     "text": "Only after complaints",
+     "correct": false
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    },
+    {
+     "text": "At the start of the shift and regularly during it",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Worn hammers can increase energy use per tonne.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overfilling the mixer improves mixing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which information is typically checked on a feed bag label? (select all that apply)",
+   "options": [
+    {
+     "text": "The packer’s home address",
+     "correct": false
+    },
+    {
+     "text": "Batch and date",
+     "correct": true
+    },
+    {
+     "text": "Product name",
+     "correct": true
+    },
+    {
+     "text": "Registration number",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

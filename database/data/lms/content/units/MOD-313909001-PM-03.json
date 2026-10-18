@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-03",
+ "title": "Conduct feed hygienising and compacting processes",
+ "lessons": [
+  {
+   "title": "Starting up and running the conditioning and hygienising process",
+   "minutes": 18,
+   "html": "<h3>Pre-start</h3>\n<ol>\n<li>Confirm the product, recipe and set points for conditioning temperature, retention time, steam pressure and die selection from the approved process specification.</li>\n<li>Check the boiler is running and steam pressure is in range; drain condensate from steam lines so that dry, saturated steam reaches the conditioner. Wet steam causes chokes and poor pellets.</li>\n<li>Verify that temperature probes are reading correctly (calibration status within date).</li>\n<li>Check the hygieniser and conditioner are clean, especially the clean-side zones after the heat step.</li>\n<li>Ensure guards, door interlocks and emergency stops are working.</li>\n</ol>\n<h3>Starting up</h3>\n<p>Start the line from the end: cooler fan and cooler discharge, crumbler and screener, then the press, conditioner and finally the feeder. Begin with a low feeder rate and steam, and bring the conditioning temperature up to set point. Product made before the critical temperature is reached must be diverted to rework or held, according to the procedure, because it has not been hygienised.</p>\n<h3>Monitoring the critical control point</h3>\n<ul>\n<li>Monitor conditioning or hygieniser temperature continuously on the SCADA trend or chart.</li>\n<li>Confirm retention time by checking feeder rate and the retention device settings.</li>\n<li>Record readings at the required frequency and sign the record.</li>\n<li>If the temperature drops below the critical limit, the system should divert automatically; if not, divert or stop manually, note the time and the affected product, and inform the supervisor and quality.</li>\n</ul>\n<h3>Managing conditioning for quality</h3>\n<p>Adjust steam to achieve the target temperature and moisture without making the mash sticky. Watch for signs of over-conditioning: mash balls, press chokes and high motor load swings. Under-conditioning gives poor durability and may fail the hygiene limit. Take mash samples after the conditioner to check temperature and moisture by hand-held probe where required.</p>\n<p>Take care with steam: never open conditioner or hygieniser inspection doors while the line is running or steam is on. Isolate steam and lock out, and allow pressure to release before opening.</p>"
+  },
+  {
+   "title": "Pelleting, cooling and quality checks",
+   "minutes": 18,
+   "html": "<h3>Running the press</h3>\n<p>Bring the feeder rate up in steps while watching press motor load. Aim for the target load without exceeding the rated amps. Typical warning signs:</p>\n<table>\n<tr><th>Sign</th><th>Likely cause</th><th>Action</th></tr>\n<tr><td>Rapid amp rise, press choking</td><td>Wet or over-conditioned mash, die blocked, roller slipping</td><td>Reduce feed, adjust steam, follow choke procedure</td></tr>\n<tr><td>Long, soft pellets</td><td>Knife setting, under-conditioning</td><td>Adjust knives, check temperature</td></tr>\n<tr><td>High fines</td><td>Poor conditioning, worn die or rollers, coarse grind, formulation</td><td>Check each factor and report</td></tr>\n<tr><td>Hot pellets after cooler</td><td>Cooler overloaded or airflow low</td><td>Reduce rate, check fan and bed depth</td></tr>\n</table>\n<p>To clear a choked press, follow the press-specific procedure: stop, isolate and lock out the main motor and steam, then clear the die using the approved tools. Never use hands near rollers or try to clear with the motor able to start.</p>\n<h3>Cooling</h3>\n<p>Set cooler bed depth and airflow to bring pellets close to ambient temperature (as the specification allows) and to the target moisture. Warm or moist pellets in bins and bags will sweat, cake and grow mould. Over-cooled, over-dried pellets break and lose mass.</p>\n<h3>Quality checks</h3>\n<ul>\n<li>Pellet durability index (PDI) with a tumbler or Holmen-type tester at the set frequency.</li>\n<li>Percentage fines after the screener.</li>\n<li>Pellet length and diameter.</li>\n<li>Moisture and temperature after cooling.</li>\n<li>Appearance and smell.</li>\n</ul>\n<p>Record results and compare with specification. If results are out of specification, adjust the process, inform the supervisor and hold affected product as quality decides.</p>\n<h3>Shutdown and changeover</h3>\n<p>Turn off the feeder, then steam, let the press run empty and oil the die with a die-oil mix if the procedure requires to stop it setting. Clean the conditioner, cooler and clean-side conveyors as scheduled to prevent recontamination and mould. Record die hours and roller changes for maintenance.</p>\n<h4>Key points</h4>\n<ul>\n<li>Use dry, saturated steam and confirm set points from the approved specification.</li>\n<li>Divert or hold product made below the critical hygienising temperature.</li>\n<li>Monitor press amps and act early on chokes, fines and soft pellets.</li>\n<li>Lock out motor and steam before clearing chokes or opening doors.</li>\n<li>Check PDI, fines, moisture and temperature and keep clean-side equipment clean.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must condensate be drained from steam lines before conditioning?",
+   "options": [
+    {
+     "text": "It is not necessary",
+     "correct": false
+    },
+    {
+     "text": "So dry, saturated steam reaches the conditioner; wet steam causes chokes and poor pellets",
+     "correct": true
+    },
+    {
+     "text": "To cool the boiler",
+     "correct": false
+    },
+    {
+     "text": "To save water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen to product made before the critical temperature is reached?",
+   "options": [
+    {
+     "text": "Divert to rework or hold",
+     "correct": true
+    },
+    {
+     "text": "Throw it in the veld",
+     "correct": false
+    },
+    {
+     "text": "Send to bagging",
+     "correct": false
+    },
+    {
+     "text": "Mix with finished feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In what order is the pelleting line started?",
+   "options": [
+    {
+     "text": "From the end: cooler and screener, then press, conditioner, then feeder",
+     "correct": true
+    },
+    {
+     "text": "Feeder first",
+     "correct": false
+    },
+    {
+     "text": "All together",
+     "correct": false
+    },
+    {
+     "text": "Press first, then cooler",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Pellets leaving the cooler are hot. What is a likely cause?",
+   "options": [
+    {
+     "text": "Mixer time too long",
+     "correct": false
+    },
+    {
+     "text": "Cooler overloaded or airflow low",
+     "correct": true
+    },
+    {
+     "text": "Hammer mill screen too fine",
+     "correct": false
+    },
+    {
+     "text": "Bag scale out",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which test measures how well pellets resist breaking?",
+   "options": [
+    {
+     "text": "Pellet durability index (PDI)",
+     "correct": true
+    },
+    {
+     "text": "Moisture test only",
+     "correct": false
+    },
+    {
+     "text": "Coefficient of variation test",
+     "correct": false
+    },
+    {
+     "text": "Weighbridge test",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may open the conditioner door while steam is on if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Warm, moist pellets in bins can sweat, cake and grow mould.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can cause high fines? (select all that apply)",
+   "options": [
+    {
+     "text": "Coarse grind",
+     "correct": true
+    },
+    {
+     "text": "Worn die or rollers",
+     "correct": true
+    },
+    {
+     "text": "Poor conditioning",
+     "correct": true
+    },
+    {
+     "text": "A clean screener",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

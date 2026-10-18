@@ -11,7 +11,7 @@
 return [
     'mkhaya' => [
         'url'    => env('AUTHORITY_MKHAYA_URL', 'https://mkhayamk.co.za'),
-        'brand'  => env('AUTHORITY_MKHAYA_BRAND', 'Mkhaya Hub'),
+        'brand'  => env('AUTHORITY_MKHAYA_BRAND', 'Mkhaya Agri'),
         // Rotating anchors — varied automatically so no exact anchor repeats excessively.
         'anchors' => [
             'AI business software',

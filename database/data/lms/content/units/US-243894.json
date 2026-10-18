@@ -1,0 +1,187 @@
+{
+  "unit_key": "US-243894",
+  "title": "Assess the quality of table grapes for export",
+  "lessons": [
+    {
+      "title": "The table grape export industry, terms and requirements",
+      "minutes": 18,
+      "html": "<h3>Background and structure</h3><p>Table grapes are one of South Africa's most important fruit exports. They are grown in several distinct regions that harvest at different times: the Northern Provinces (Limpopo, around Groblersdal and Marble Hall) start earliest, followed by the Orange River region in the Northern Cape, then the Olifants River, the Berg River (Paarl and Wellington) and the Hex River valley in the Western Cape. Main markets are the UK, Europe, the Middle East, the Far East, Russia and other countries. The industry body is the <strong>South African Table Grape Industry (SATI)</strong>.</p><p>Cultivars include seedless white types such as Prime, Thompson Seedless and Sugraone (Superior Seedless), seedless red types such as Crimson Seedless and Flame Seedless, black seedless types, and seeded types such as Red Globe, alongside many newer licensed cultivars.</p><h3>Terminology</h3><ul><li><strong>Bunch:</strong> the cluster, judged on mass, shape and fill.</li><li><strong>Berry size:</strong> diameter, often measured with a berry size gauge.</li><li><strong>Rachis / stem:</strong> the main bunch stem, which must be green and fresh, not brown and dry.</li><li><strong>SO2 pad / sheet:</strong> sulphur dioxide generating pad placed in cartons to control grey mould (Botrytis).</li><li><strong>SO2 bleaching:</strong> pale, damaged berries around the stem end caused by excess SO2.</li><li><strong>Loose berries / shatter:</strong> berries that have fallen off the bunch.</li><li><strong>Split berries, hairline cracks, sunburn, russet.</strong></li><li><strong>TSS:acid ratio</strong> and sugar (Brix): maturity indicators.</li></ul><h3>Legislative and logistical requirements</h3><p>Table grapes for export are regulated under the Agricultural Product Standards Act 119 of 1990, with PPECB inspecting under that Act and overseeing the cold chain under the PPECB Act 9 of 1983. Phytosanitary requirements are important: some markets require cold treatment against fruit fly or specific pest controls, and orchard (vineyard) and packhouse registration. Residue limits apply to field sprays and SO2.</p><p>Grapes are packed in the vineyard packshed or a central packhouse, cooled quickly by forced-air cooling and shipped mainly by sea. Exporters must plan cooling, packing materials and shipping to match each region's harvest window.</p>"
+    },
+    {
+      "title": "Sampling, external and internal quality",
+      "minutes": 18,
+      "html": "<h3>Selecting a representative sample</h3><ul><li>Use the sample size in the export standards.</li><li>Select cartons at random from different pallets and positions.</li><li>Check cultivar, class, packaging type, net mass and codes.</li><li>Handle bunches by the rachis, not the berries, to avoid removing bloom and causing loose berries.</li><li>Record pallet and carton numbers.</li></ul><h3>External quality</h3><ul><li><strong>Net mass:</strong> carton or punnet mass at least the declared mass.</li><li><strong>Bunch:</strong> size and shape within the class requirements; no straggly or compact bunches outside tolerance.</li><li><strong>Berry size:</strong> minimum diameter for the cultivar and class.</li><li><strong>Colour:</strong> even, typical colour for the cultivar, using charts for red and black types.</li><li><strong>Rachis condition:</strong> green and turgid; brown or dry stems show water loss or delays.</li><li><strong>Berry defects:</strong> splits, hairline cracks, sunburn, wind scar, russet, bruising and shrivel.</li><li><strong>Loose berries</strong> in the carton, above tolerance.</li><li><strong>SO2 bleaching</strong> on berries.</li><li><strong>Decay:</strong> grey mould (Botrytis), which can spread through a bunch as nesting.</li><li><strong>Pests:</strong> mealybug, fruit fly, snails, spiders and other live insects. Live pests are serious.</li></ul><h3>Internal quality</h3><ul><li><strong>TSS (Brix)</strong> from a juice sample using a refractometer.</li><li><strong>Acid</strong> by titration, and the <strong>TSS:acid ratio</strong> against minimums for the cultivar.</li><li><strong>Berry firmness and texture:</strong> crisp berries, no water berry or softening.</li><li><strong>Seeds</strong> in seedless cultivars beyond tolerance (rudimentary seed traces).</li></ul><p>Grapes are non-climacteric. They do not become sweeter after harvest, so they must meet maturity standards when picked.</p><h4>Recording your results</h4><p>Record defects per carton and state whether each tolerance is measured by bunch, by berry count or by mass, as the standard requires. Weigh loose berries and decayed berries separately. Note the SO2 pad type and position. Recheck any unusual TSS reading with a freshly calibrated refractometer before recording it.</p>"
+    },
+    {
+      "title": "Cold chain regimes and the outcome",
+      "minutes": 18,
+      "html": "<h3>Monitoring the cold chain</h3><p>Table grapes lose water quickly through the rachis and are vulnerable to Botrytis. The main controls are rapid cooling, cold storage at the specified temperature with high humidity, and correct use of SO2 pads and liners as specified by the packaging protocol. Temperature fluctuations cause condensation inside liners, which encourages decay and SO2 damage.</p><p>The assessor checks:</p><ul><li>time from harvest to forced-air cooling;</li><li>pulp temperatures in the middle of bunches with a calibrated probe;</li><li>correct placement and type of SO2 pad and liner;</li><li>cold store records and container set points;</li><li>for cold treatment markets, calibration and placement of the treatment probes and records showing temperatures stayed within the protocol for the full period;</li><li>container pre-cooling, condition and sealing.</li></ul><h3>Determining the outcome</h3><ol><li>Calculate the percentage of each defect by bunch, berries or mass, as the standard requires.</li><li>Compare TSS and TSS:acid ratio with the minimums for the cultivar.</li><li>Check net mass and packaging.</li><li>Record any decay and live pests.</li><li>Decide <strong>pass</strong>, <strong>downgrade</strong> or <strong>reject</strong>, and record reasons.</li></ol><p>Example: a Crimson Seedless consignment meets colour and berry size, but TSS is below the minimum. Because grapes do not sweeten after harvest, the consignment cannot meet the standard and is rejected for export as presented. The report should advise that the remaining vines be harvested later once they reach maturity.</p><h4>Key points</h4><ul><li>SATI represents table grape growers across several production regions.</li><li>Rachis condition, berry size, colour and loose berries are key external checks.</li><li>SO2 pads control Botrytis but excess causes bleaching.</li><li>Grapes are non-climacteric, so TSS and TSS:acid must be met at harvest.</li><li>Rapid cooling and stable temperatures prevent water loss and decay.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which industry body represents South African table grape growers?",
+      "options": [
+        {
+          "text": "SATI",
+          "correct": true
+        },
+        {
+          "text": "Hortgro",
+          "correct": false
+        },
+        {
+          "text": "CGA",
+          "correct": false
+        },
+        {
+          "text": "Subtrop",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main purpose of an SO2 pad in a grape carton?",
+      "options": [
+        {
+          "text": "To add sugar",
+          "correct": false
+        },
+        {
+          "text": "To keep the carton dry",
+          "correct": false
+        },
+        {
+          "text": "To control grey mould (Botrytis)",
+          "correct": true
+        },
+        {
+          "text": "To improve colour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A brown, dry rachis usually indicates what?",
+      "options": [
+        {
+          "text": "High TSS",
+          "correct": false
+        },
+        {
+          "text": "Water loss or delays in cooling",
+          "correct": true
+        },
+        {
+          "text": "SO2 bleaching",
+          "correct": false
+        },
+        {
+          "text": "Correct handling",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should bunches be handled during inspection?",
+      "options": [
+        {
+          "text": "By the berries",
+          "correct": false
+        },
+        {
+          "text": "By shaking them out of the carton",
+          "correct": false
+        },
+        {
+          "text": "With wet gloves",
+          "correct": false
+        },
+        {
+          "text": "By the rachis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A Crimson Seedless consignment has TSS below the minimum. What is the correct outcome?",
+      "options": [
+        {
+          "text": "Reject it for export as presented",
+          "correct": true
+        },
+        {
+          "text": "Ship it because it will sweeten in transit",
+          "correct": false
+        },
+        {
+          "text": "Add SO2 pads to raise sugar",
+          "correct": false
+        },
+        {
+          "text": "Upgrade it",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Temperature fluctuations can cause condensation in liners, encouraging decay.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Table grapes are climacteric and become sweeter after harvest.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these are external defects of table grapes? (select all that apply)",
+      "options": [
+        {
+          "text": "Loose berries",
+          "correct": true
+        },
+        {
+          "text": "SO2 bleaching",
+          "correct": true
+        },
+        {
+          "text": "Low TSS:acid ratio",
+          "correct": false
+        },
+        {
+          "text": "Split berries",
+          "correct": true
+        },
+        {
+          "text": "Correct net mass",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119413",
+ "title": "Utilise cold chain management in poultry processing",
+ "lessons": [
+  {
+   "title": "What is the cold chain?",
+   "minutes": 15,
+   "html": "<h3>Keeping chicken cold from plant to customer</h3><p>The cold chain is every step where chicken must be kept cold: from the chiller in the plant, to the cold room, onto the truck, into the shop fridge and finally to the customer's home. If any link in the chain breaks and the chicken gets warm, germs grow fast. The chicken can go bad or make people sick.</p><h4>The links in the chain</h4><ol><li>Chilling carcasses after evisceration</li><li>Cutting and packing in a cold room</li><li>Chilled or frozen storage</li><li>Loading onto refrigerated trucks</li><li>Transport</li><li>Shop or butchery fridges and freezers</li></ol><h4>Chilled and frozen</h4><ul><li><strong>Chilled</strong> chicken is kept cold but not frozen. It lasts only a few days.</li><li><strong>Frozen</strong> chicken is kept frozen hard. It lasts much longer.</li></ul><p>Your plant has exact temperature limits for each product and room. Learn them and follow them. Commonly, chilled chicken is kept at about 4°C or colder and frozen chicken at -18°C or colder, but always use your plant's numbers.</p><h4>Why warm chicken is a problem</h4><p>Germs grow quickly when meat is warm. Even if chicken is cooled again, the germs that grew stay there. The meat may smell bad, become slimy or go off before the date on the label. This costs the plant money and customers.</p><h4>Your part</h4><p>Every person in the plant is a link in the chain: the chiller worker, the packer, the cold store worker and the loader. One weak link can spoil the chicken for everyone.</p><p>Ask your supervisor to show you the temperature limits for your area and where they are written.</p>"
+  },
+  {
+   "title": "Doing your part in the cold chain",
+   "minutes": 15,
+   "html": "<h3>Good habits for every worker</h3><h4>In the plant</h4><ul><li>Move product quickly from one step to the next. Do not leave trays of chicken standing in warm areas.</li><li>Put product into the chiller or freezer as soon as it is packed.</li><li>Keep cold room doors closed. Open them only when you need to go in or out.</li><li>Do not overload cold rooms. Cold air must move around the boxes.</li><li>Do not stack boxes against the cooling unit or block the air.</li><li>Do not put warm product in the freezer store; it must be blast frozen first.</li></ul><h4>Checking temperature</h4><p>Your supervisor or QA may ask you to check temperatures.</p><ol><li>Read the room thermometer or display and write it on the form.</li><li>To check product, push a clean, calibrated probe into the thickest part of the meat or between packs as instructed.</li><li>Wait until the reading stops changing.</li><li>Write the reading, the time and your name.</li><li>Clean and sanitise the probe after use.</li></ol><h4>Loading trucks</h4><ul><li>Check the truck is cold before loading.</li><li>Load fast. Do not leave pallets standing on the dock.</li><li>Keep chilled and frozen product apart as instructed.</li><li>Close the truck doors as soon as loading is done.</li></ul><h4>Example</h4><p>Pallets of chicken stand on the dock for an hour while the driver has lunch. The chicken warms up. This should not happen. Only take product out of cold storage when the truck is ready, and load it straight away.</p><p>Remember: cold product, closed doors, quick loading and a written record of every check you do.</p>"
+  },
+  {
+   "title": "Problems, safety and reporting",
+   "minutes": 15,
+   "html": "<h3>When the cold chain is at risk</h3><h4>Signs of a problem</h4><ul><li>The room or truck temperature reading is too high.</li><li>Ice on boxes or soft, thawed frozen product.</li><li>Water dripping from boxes in the freezer.</li><li>Cold room door left open or not closing.</li><li>The cooling unit is not running or makes strange noises.</li><li>Power is off because of load shedding or a fault.</li></ul><h4>What to do</h4><table><tr><th>Problem</th><th>What you do</th></tr><tr><td>Temperature too high</td><td>Tell your supervisor at once; close the door</td></tr><tr><td>Thawed or warm product</td><td>Do not pack or load it; put it aside and tell QA</td></tr><tr><td>Door broken</td><td>Report to supervisor and maintenance</td></tr><tr><td>Power off</td><td>Keep all doors closed; follow the plant plan</td></tr></table><p>Never hide a problem. A quick report can save a whole room of chicken.</p><h4>Working safely in the cold</h4><ul><li>Wear the warm clothes, gloves and boots that the plant gives you.</li><li>Take warm-up breaks as the rules say.</li><li>Before you go into a freezer, check that the door can open from inside and know where the alarm button is.</li><li>Tell someone when you go into a freezer.</li><li>Walk carefully; floors can be icy.</li><li>If you smell a strong sharp smell like ammonia, leave at once and raise the alarm.</li></ul><h4>Key points</h4><ul><li>The cold chain is every step where chicken must stay cold.</li><li>Germs grow fast in warm chicken; cooling again does not remove them.</li><li>Keep doors closed, do not overload rooms and move product quickly.</li><li>Use a clean probe, write down temperatures and report high readings at once.</li><li>Wear warm clothing and check the inside door release before entering a freezer.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the cold chain?",
+   "options": [
+    {
+     "text": "Every step where chicken must be kept cold from plant to customer",
+     "correct": true
+    },
+    {
+     "text": "A chain used to hang birds",
+     "correct": false
+    },
+    {
+     "text": "The plant's fence",
+     "correct": false
+    },
+    {
+     "text": "A type of freezer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is it a problem if chicken gets warm and is then cooled again?",
+   "options": [
+    {
+     "text": "It becomes heavier",
+     "correct": false
+    },
+    {
+     "text": "The germs that grew stay on the meat",
+     "correct": true
+    },
+    {
+     "text": "It changes colour to blue",
+     "correct": false
+    },
+    {
+     "text": "There is no problem",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should cold rooms not be overloaded?",
+   "options": [
+    {
+     "text": "The boxes get lost",
+     "correct": false
+    },
+    {
+     "text": "It looks untidy",
+     "correct": false
+    },
+    {
+     "text": "Cold air must move around the boxes",
+     "correct": true
+    },
+    {
+     "text": "The lights do not work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with frozen product that has thawed?",
+   "options": [
+    {
+     "text": "Pack it quickly",
+     "correct": false
+    },
+    {
+     "text": "Load it on the next truck",
+     "correct": false
+    },
+    {
+     "text": "Refreeze it and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Put it aside and tell QA",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where do you push the probe when checking product temperature?",
+   "options": [
+    {
+     "text": "Into the thickest part of the meat or between packs as instructed",
+     "correct": true
+    },
+    {
+     "text": "Into the air above the box",
+     "correct": false
+    },
+    {
+     "text": "Into the floor",
+     "correct": false
+    },
+    {
+     "text": "Into your pocket",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cold room doors should be kept closed and opened only when needed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Warm product may be put straight into the freezer store without blast freezing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a cold chain problem? (select all that apply)",
+   "options": [
+    {
+     "text": "Soft, thawed frozen product",
+     "correct": true
+    },
+    {
+     "text": "Water dripping from boxes in the freezer",
+     "correct": true
+    },
+    {
+     "text": "Cooling unit not running",
+     "correct": true
+    },
+    {
+     "text": "Room reading within the limit",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119567",
+ "title": "Perform basic life support and first aid procedures",
+ "lessons": [
+  {
+   "title": "Emergency scene and the body",
+   "minutes": 15,
+   "html": "<h3>Important</h3> <p>This lesson helps you understand first aid. It does <strong>not</strong> replace hands-on training. You must complete practical training with an accredited first aid provider before you act as a first aider.</p> <h3>Managing the emergency scene</h3> <p>When someone is hurt, first make sure <strong>you</strong> are safe. A dead or injured first aider cannot help anyone.</p> <ol> <li><strong>Danger</strong>: look for dangers: a running tractor, electricity, fire, chemicals, an angry bull, traffic. Make it safe: switch off engines, stop people coming close. If you cannot make it safe, do not go in; call for help.</li> <li><strong>Protect yourself</strong> from blood and body fluids: wear gloves from the first aid box.</li> <li><strong>Call for help</strong>: shout for others, and phone emergency services. In South Africa, 10177 is the national ambulance number, and 112 works from a cell phone. Know your farm's emergency numbers and the farm's address or GPS location to give the ambulance.</li> <li><strong>Keep others back</strong> and give the injured person space.</li> </ol> <h3>Basic parts of the body</h3> <table> <tr><th>System</th><th>What it does</th></tr> <tr><td>Airway and lungs</td><td>Take air in and out. The airway goes from the mouth and nose to the lungs.</td></tr> <tr><td>Heart and blood vessels</td><td>The heart pumps blood with oxygen around the body.</td></tr> <tr><td>Brain and nerves</td><td>Control the body. The brain is damaged within minutes without oxygen.</td></tr> <tr><td>Bones and muscles</td><td>Support and move the body. The spine protects the spinal cord.</td></tr> <tr><td>Skin</td><td>Protects the body from germs, heat and cold.</td></tr> </table> <p>This is why breathing and blood flow come first in first aid: without oxygen reaching the brain, a person can die in minutes.</p>"
+  },
+  {
+   "title": "Assessing the person and life support",
+   "minutes": 15,
+   "html": "<h3>Check the person</h3> <p>Use <strong>DRSABC</strong>:</p> <ul> <li><strong>D</strong>anger: is the area safe?</li> <li><strong>R</strong>esponse: tap the shoulders and ask loudly, \"Are you all right?\"</li> <li><strong>S</strong>end for help: call the ambulance, or ask someone to call and bring the first aid kit (and an AED if there is one).</li> <li><strong>A</strong>irway: if there is no response, gently tilt the head back and lift the chin to open the airway.</li> <li><strong>B</strong>reathing: look, listen and feel for normal breathing for no more than 10 seconds.</li> <li><strong>C</strong>PR: if the person is not breathing normally, start CPR.</li> </ul> <h3>CPR for an adult</h3> <ol> <li>Kneel next to the person on a firm surface.</li> <li>Put the heel of one hand in the centre of the chest, other hand on top.</li> <li>Keep your arms straight and press down hard and fast, about 5 to 6 cm deep, 100 to 120 times a minute. Let the chest come back up after each push.</li> <li>If trained and willing, give 2 rescue breaths after every 30 compressions. If not, do compressions only without stopping.</li> <li>If an AED arrives, switch it on and follow its voice instructions.</li> <li>Continue until help takes over, the person starts breathing normally, or you are too exhausted to go on.</li> </ol> <h3>Unconscious but breathing</h3> <p>Put the person in the <strong>recovery position</strong> (on their side, head tilted back so the airway stays open). Keep checking breathing. If you suspect a spine injury, for example after a fall from a trailer, keep the head and neck still and move them only if the airway is at risk or the scene is dangerous.</p> <h3>Choking</h3> <p>If an adult is choking and cannot cough or speak: give up to 5 firm back blows between the shoulder blades, then up to 5 abdominal thrusts. Repeat. If they become unconscious, start CPR and call for help.</p>"
+  },
+  {
+   "title": "Treating bleeding and common injuries",
+   "minutes": 15,
+   "html": "<h3>Severe bleeding</h3> <ol> <li>Wear gloves.</li> <li>Press firmly on the wound with a clean dressing or cloth.</li> <li>Keep pressing. If blood soaks through, put another dressing on top; do not remove the first.</li> <li>Bandage firmly over the dressing.</li> <li>Lay the person down and keep them warm. Watch for shock: pale, cold, sweaty skin and a fast pulse. Get help fast.</li> </ol> <h3>Common farm injuries</h3> <table> <tr><th>Injury</th><th>First aid</th></tr> <tr><td>Small cuts and grazes</td><td>Clean with clean water, cover with a plaster or dressing</td></tr> <tr><td>Burns</td><td>Cool under cool running water for at least 20 minutes. Do not use butter, toothpaste or ice. Cover loosely with cling film or a clean non-fluffy cloth. Get medical help for large burns.</td></tr> <tr><td>Chemical in the eye</td><td>Rinse with lots of clean running water for a long time, holding the eye open. Get medical help and take the product label.</td></tr> <tr><td>Chemical on skin</td><td>Remove contaminated clothing (with gloves) and wash skin with plenty of water.</td></tr> <tr><td>Suspected broken bone</td><td>Keep the limb still in the position found; support it with padding. Do not try to straighten it.</td></tr> <tr><td>Sprains</td><td>Rest, cold pack wrapped in a cloth, support, and raise the limb.</td></tr> <tr><td>Heat exhaustion</td><td>Move to shade, loosen clothes, give sips of water if conscious, cool with wet cloths. Get help if confused or not sweating.</td></tr> <tr><td>Snake bite</td><td>Keep the person calm and still, remove rings and watches, keep the limb still and get to hospital fast. Do not cut, suck or put ice on the bite.</td></tr> </table> <h3>Never do this</h3> <ul> <li>Do not give food or drink to an unconscious person.</li> <li>Do not move a person with a possible spine injury unless there is danger.</li> <li>Do not give medicines unless you are trained and allowed to.</li> </ul> <p>Write down what happened and what you did, and give it to the paramedics and your supervisor.</p> <h4>Key points</h4> <ul> <li>Make sure the scene is safe before you help.</li> <li>Use DRSABC; start CPR if the person is not breathing normally.</li> <li>Press hard on severe bleeding and keep pressing.</li> <li>Cool burns with running water for at least 20 minutes.</li> <li>Hands-on training with an accredited provider is required before you act as a first aider.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first thing to check at an emergency scene?",
+   "options": [
+    {
+     "text": "Danger to yourself and others",
+     "correct": true
+    },
+    {
+     "text": "The time",
+     "correct": false
+    },
+    {
+     "text": "The person's name",
+     "correct": false
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should chest compressions be for an adult?",
+   "options": [
+    {
+     "text": "About 5 to 6 cm",
+     "correct": true
+    },
+    {
+     "text": "About 15 cm",
+     "correct": false
+    },
+    {
+     "text": "As deep as possible",
+     "correct": false
+    },
+    {
+     "text": "About 1 cm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How long should you cool a burn under running water?",
+   "options": [
+    {
+     "text": "About 1 minute",
+     "correct": false
+    },
+    {
+     "text": "Until the person says stop, at most 10 seconds",
+     "correct": false
+    },
+    {
+     "text": "At least 20 minutes",
+     "correct": true
+    },
+    {
+     "text": "Do not cool burns",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where do you place your hands for adult CPR?",
+   "options": [
+    {
+     "text": "On the neck",
+     "correct": false
+    },
+    {
+     "text": "On the left shoulder",
+     "correct": false
+    },
+    {
+     "text": "On the stomach",
+     "correct": false
+    },
+    {
+     "text": "In the centre of the chest",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Blood soaks through the dressing on a wound. What should you do?",
+   "options": [
+    {
+     "text": "Put another dressing on top and keep pressing",
+     "correct": true
+    },
+    {
+     "text": "Remove the dressing and start again",
+     "correct": false
+    },
+    {
+     "text": "Wash the wound with petrol",
+     "correct": false
+    },
+    {
+     "text": "Stop pressing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ice and butter are good treatments for burns.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An unconscious person who is breathing normally should be placed in the recovery position.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you do for a snake bite? (select all that apply)",
+   "options": [
+    {
+     "text": "Cut the bite and suck out the venom",
+     "correct": false
+    },
+    {
+     "text": "Keep the person calm and still",
+     "correct": true
+    },
+    {
+     "text": "Remove rings and watches",
+     "correct": true
+    },
+    {
+     "text": "Get to hospital fast",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

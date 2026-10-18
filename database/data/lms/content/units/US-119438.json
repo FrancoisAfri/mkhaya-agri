@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119438",
+ "title": "Operate a processing scale in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Why weighing matters",
+   "minutes": 15,
+   "html": "<h3>The processing scale</h3>\n<p>In a poultry abattoir, scales are used everywhere: to weigh live birds on arrival, to weigh carcasses for grading, to weigh portions and packs, and to weigh boxes before despatch. Many scales are linked to a label printer and the computer system. The scale prints a label with the weight, price per kilogram and total price in rand.</p>\n<h4>Why the weight must be right</h4>\n<ul>\n<li><strong>The customer</strong> pays for the weight on the label. If the pack weighs less than the label, the customer is cheated.</li>\n<li><strong>The company</strong> loses money if packs weigh more than the label (giveaway). A small giveaway on every pack adds up to thousands of rand a week.</li>\n<li><strong>The law</strong> – scales used for trade must be accurate and approved. In South Africa, trade metrology is controlled by national law and enforced by the National Regulator for Compulsory Specifications (NRCS). Inspectors can check scales and packs.</li>\n<li><strong>Stock and yield</strong> – the plant uses weights to know how much meat it gets from each bird.</li>\n</ul>\n<h4>Types of scales</h4>\n<table><tr><th>Scale</th><th>Use</th></tr>\n<tr><td>Bench scale</td><td>Weigh trays and packs by hand</td></tr>\n<tr><td>Weigh-price labeller</td><td>Weighs packs on a conveyor and prints price labels</td></tr>\n<tr><td>Checkweigher</td><td>Checks packs on a line and rejects under- or overweight ones</td></tr>\n<tr><td>Floor or pallet scale</td><td>Weighs crates, bins and pallets</td></tr>\n</table>\n<p>Each scale has a <strong>capacity</strong> (the most it can weigh). Never put more weight on a scale than its capacity, because this damages it.</p><p><em>Example:</em> A packer sets the scale with the tare for a small tray but packs into large trays. Every label now shows a little more chicken than is really in the pack. A shop or inspector who checks the packs will find them underweight.</p>"
+  },
+  {
+   "title": "Setting up and checking the scale",
+   "minutes": 20,
+   "html": "<h3>Before you start</h3>\n<ol>\n<li>Wash your hands and wear your PPE.</li>\n<li>Check that the scale is clean, dry and standing level. Most scales have a bubble level; the bubble must be in the centre circle. Adjust the feet if needed, as you were trained.</li>\n<li>Check the scale is not touching anything, such as a wall, cable or box. Anything touching the platform gives a wrong reading.</li>\n<li>Switch on and let the scale settle.</li>\n<li>Check the display shows zero with nothing on it. If not, press the <strong>zero</strong> key.</li>\n<li>Do a <strong>check weight test</strong>: place the plant's test weight on the scale and see that the reading matches the weight marked on it, within the allowed tolerance in your work instruction. Record the result.</li>\n<li>If the scale fails the test, do not use it. Tell your supervisor or QA.</li>\n</ol>\n<h4>Tare</h4>\n<p>The <strong>tare</strong> is the weight of the packaging: the tray, absorbent pad, film or box. The customer must pay only for the chicken, not the packaging. Set the correct tare for the packaging you are using, or press the tare key with the empty packaging on the scale. If you change the tray size, change the tare too.</p>\n<h4>Selecting the product</h4>\n<p>On a weigh-price labeller, select the correct product code (PLU). This sets the product name, price per kilogram, tare and date on the label. Check the first label carefully against the production plan:</p>\n<ul>\n<li>Correct product name.</li>\n<li>Correct price per kg in rand.</li>\n<li>Correct packing and best-before or use-by dates.</li>\n<li>Correct batch number.</li>\n</ul>\n<p>A wrong PLU means wrong labels on every pack until someone notices. Check it every time you change products.</p>"
+  },
+  {
+   "title": "Weighing, problems and care of the scale",
+   "minutes": 15,
+   "html": "<h3>Weighing correctly</h3>\n<ul>\n<li>Place the product gently in the centre of the platform. Do not drop or throw it.</li>\n<li>Wait for the reading to become steady (stable sign) before printing or recording.</li>\n<li>Do not lean on the scale or touch the product while it is being weighed.</li>\n<li>Keep wind from fans and doors away from sensitive scales.</li>\n<li>Check that packs are within the weight range on the specification. Put out-of-range packs aside.</li>\n<li>Stick the label straight and in the right place on the pack.</li>\n</ul>\n<h4>Common problems</h4>\n<table><tr><th>Problem</th><th>What to do</th></tr>\n<tr><td>Reading keeps changing</td><td>Check nothing is touching the scale and there is no draught; check it is level</td></tr>\n<tr><td>Not showing zero when empty</td><td>Clean the platform and press zero; report if it does not return</td></tr>\n<tr><td>Wrong price or date on label</td><td>Stop, hold the packs, tell your supervisor</td></tr>\n<tr><td>Label printer jams or prints faintly</td><td>Stop and report; replace labels or ribbon as trained</td></tr>\n<tr><td>Check weight test fails</td><td>Stop using the scale and report it</td></tr>\n</table>\n<p>Never try to open or adjust the inside of a trade scale. Scales are sealed after calibration, and breaking the seal can make the scale illegal to use.</p>\n<h4>Cleaning and care</h4>\n<ul>\n<li>Clean the platform during breaks and at the end of the shift with a damp cloth and approved sanitiser.</li>\n<li>Do not hose down a scale unless it is made for wash-down, and never spray the display or electronics.</li>\n<li>Do not overload, drop things on or stand on a scale.</li>\n<li>Report damage straight away.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Correct weight protects the customer, the company and keeps the plant within the law.</li>\n<li>Check level, zero and a test weight before use, and record the result.</li>\n<li>Set the correct tare so customers pay only for the chicken.</li>\n<li>Check the product code, price and dates on the first label.</li>\n<li>Never open or adjust a sealed trade scale.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the tare?",
+   "options": [
+    {
+     "text": "The weight of the chicken only",
+     "correct": false
+    },
+    {
+     "text": "The weight of the packaging",
+     "correct": true
+    },
+    {
+     "text": "The price per kilogram",
+     "correct": false
+    },
+    {
+     "text": "The capacity of the scale",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does giveaway mean?",
+   "options": [
+    {
+     "text": "Packs that weigh more than the label",
+     "correct": true
+    },
+    {
+     "text": "Packs that are free",
+     "correct": false
+    },
+    {
+     "text": "Packs that are too cold",
+     "correct": false
+    },
+    {
+     "text": "Packs with no label",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the scale fails the check weight test?",
+   "options": [
+    {
+     "text": "Use it anyway",
+     "correct": false
+    },
+    {
+     "text": "Stop using it and tell your supervisor or QA",
+     "correct": true
+    },
+    {
+     "text": "Adjust the inside of the scale",
+     "correct": false
+    },
+    {
+     "text": "Add the difference by hand",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why might the reading on a scale keep changing?",
+   "options": [
+    {
+     "text": "Something is touching the scale or there is a draught",
+     "correct": true
+    },
+    {
+     "text": "The product is too cold",
+     "correct": false
+    },
+    {
+     "text": "The label is the wrong colour",
+     "correct": false
+    },
+    {
+     "text": "The tare is correct",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you print or record the weight?",
+   "options": [
+    {
+     "text": "As soon as you drop the product",
+     "correct": false
+    },
+    {
+     "text": "When the reading is steady",
+     "correct": true
+    },
+    {
+     "text": "Before the product is on the scale",
+     "correct": false
+    },
+    {
+     "text": "Only at the end of the shift",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You must check the product code, price and dates on the first label when you change products.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to open a sealed trade scale to adjust it if it reads wrong.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should you do before using the scale? (select all that apply)",
+   "options": [
+    {
+     "text": "Check that it is level",
+     "correct": true
+    },
+    {
+     "text": "Check that it shows zero when empty",
+     "correct": true
+    },
+    {
+     "text": "Do a check weight test",
+     "correct": true
+    },
+    {
+     "text": "Put more than its capacity on it to test it",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL105730",
+ "title": "Advanced Diploma in Animal Health",
+ "lessons": [
+  {
+   "title": "Advanced practice in animal health",
+   "minutes": 18,
+   "html": "<h3>The role of the advanced animal health practitioner</h3>\n<p>The Advanced Diploma in Animal Health (NQF 7) is designed for qualified animal health technicians and practitioners who want to specialise or keep developing professionally. Graduates usually already work in state veterinary services, feedlots, dairies, abattoirs, pharmaceutical companies or extension programmes. The advanced level shifts the focus from carrying out procedures to <strong>designing, leading and evaluating animal health programmes</strong>.</p>\n<h4>Herd health instead of individual treatment</h4>\n<p>On a commercial farm in South Africa the economic unit is the herd or flock, not the single animal. An advanced practitioner works with the veterinarian and the farmer to build a herd health plan that covers:</p>\n<ul><li><strong>Biosecurity</strong>: control of animal, vehicle and people movement onto the farm, quarantine of new stock, footbaths and clean-dirty zones.</li>\n<li><strong>Vaccination and parasite control</strong>: a calendar adapted to the region, for example timing around the summer tick and wire-worm season in the eastern summer-rainfall areas.</li>\n<li><strong>Nutrition and reproduction</strong>: body condition scoring, mineral supplementation, breeding season management.</li>\n<li><strong>Monitoring</strong>: mortality, conception rates, weaning weights, milk somatic cell counts.</li></ul>\n<h4>Controlled and notifiable diseases</h4>\n<p>South Africa regulates many diseases under the Animal Diseases Act 35 of 1984, including foot-and-mouth disease, anthrax, brucellosis, bovine tuberculosis and African swine fever. Suspected cases must be reported to the state veterinarian. The advanced practitioner must be able to recognise the signs, secure the site, stop animal movement and support the official response, while remembering that diagnosis and treatment decisions belong to the veterinarian within the limits of the Veterinary and Para-Veterinary Professions Act 19 of 1982.</p>\n<h4>Using data</h4>\n<p>Specialisation means working with evidence. Practitioners collect samples, interpret laboratory results with the vet, analyse herd records and use simple epidemiology: incidence, prevalence, risk factors and the cost of disease. For example, calculating that lameness in a dairy costs the farm more each year than a footbath upgrade gives the farmer a clear reason to invest.</p>"
+  },
+  {
+   "title": "Leading programmes and professional development",
+   "minutes": 16,
+   "html": "<h3>From technician to programme leader</h3>\n<p>At NQF 7, practitioners are expected to manage projects and people. A typical project might be a district-wide vaccination campaign for communal cattle, a brucellosis testing programme for dairy herds, or an animal health extension course for emerging farmers.</p>\n<h4>Planning a programme</h4>\n<ol><li>Define the problem with data, e.g. high calf losses in a communal grazing area.</li>\n<li>Set measurable objectives, e.g. raise calving rates and vaccinate a target share of the cattle in the area within twelve months.</li>\n<li>Plan resources: staff, vehicles, cold chain for vaccines, crush pens, budget in ZAR.</li>\n<li>Engage the community: traditional leaders, dip tank committees and farmer associations.</li>\n<li>Implement, record every animal treated, and report.</li>\n<li>Evaluate: did the outcomes improve, and what should change?</li></ol>\n<h4>Ethics, welfare and one health</h4>\n<p>Animal health work sits inside the <em>one health</em> idea: human, animal and environmental health are linked. Zoonoses such as rabies, anthrax, brucellosis and bovine TB threaten people as well as animals. Antimicrobial resistance is a growing concern, so practitioners promote responsible use of medicines: correct diagnosis, the right product, following the label and the vet's instructions, and observing withdrawal periods for meat and milk. Animal welfare under the Animals Protection Act 71 of 1962 must be respected in every procedure.</p>\n<h4>Continuing professional development</h4>\n<p>Registered para-veterinary professionals must keep their knowledge current. Good CPD habits include attending congresses and short courses, reading journals, keeping a CPD log, and reflecting on cases with colleagues. Specialising in an area such as epidemiology, food safety, reproduction or wildlife health makes the practitioner more valuable to employers and communities.</p>\n<h4>Key points</h4>\n<ul><li>The advanced practitioner designs, leads and evaluates herd and area health programmes.</li>\n<li>Controlled diseases under the Animal Diseases Act 35 of 1984 must be reported to the state vet.</li>\n<li>Diagnosis and treatment decisions stay within the vet's and the practitioner's legal scope.</li>\n<li>Responsible medicine use helps fight antimicrobial resistance.</li>\n<li>Continuing professional development is a professional duty.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main economic unit an advanced practitioner focuses on in commercial farming?",
+   "options": [
+    {
+     "text": "The herd or flock",
+     "correct": true
+    },
+    {
+     "text": "The farm workshop",
+     "correct": false
+    },
+    {
+     "text": "The feed store",
+     "correct": false
+    },
+    {
+     "text": "The single sick animal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Under which Act are controlled diseases such as foot-and-mouth disease regulated?",
+   "options": [
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A suspected case of a controlled disease is found. Who must it be reported to?",
+   "options": [
+    {
+     "text": "The state veterinarian",
+     "correct": true
+    },
+    {
+     "text": "The neighbouring farmer",
+     "correct": false
+    },
+    {
+     "text": "The local co-op",
+     "correct": false
+    },
+    {
+     "text": "The farm's accountant",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in planning an animal health programme?",
+   "options": [
+    {
+     "text": "Hold a farmers' day",
+     "correct": false
+    },
+    {
+     "text": "Buy vaccines",
+     "correct": false
+    },
+    {
+     "text": "Evaluate the outcomes",
+     "correct": false
+    },
+    {
+     "text": "Define the problem with data",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which practice helps reduce antimicrobial resistance?",
+   "options": [
+    {
+     "text": "Using antibiotics routinely without diagnosis",
+     "correct": false
+    },
+    {
+     "text": "Following the label and the vet's instructions and observing withdrawal periods",
+     "correct": true
+    },
+    {
+     "text": "Doubling the dose to be safe",
+     "correct": false
+    },
+    {
+     "text": "Sharing leftover medicine between farms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The 'one health' idea links human, animal and environmental health.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Once registered, para-veterinary professionals no longer need continuing professional development.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are zoonoses mentioned in the lessons? (select all that apply)",
+   "options": [
+    {
+     "text": "Rabies",
+     "correct": true
+    },
+    {
+     "text": "Anthrax",
+     "correct": true
+    },
+    {
+     "text": "Brucellosis",
+     "correct": true
+    },
+    {
+     "text": "Wire-worm",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

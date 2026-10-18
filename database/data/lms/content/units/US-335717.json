@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-335717",
+ "title": "Describe the anatomy and physiology of an Equine",
+ "lessons": [
+  {
+   "title": "The skeleton and bone problems",
+   "minutes": 15,
+   "html": "<h3>The horse's skeleton</h3>\n<p>The skeleton is the frame of the horse. An adult horse has about 205 bones. The skeleton:</p>\n<ul>\n<li>Holds the body up and gives it shape.</li>\n<li>Protects organs. The skull protects the brain, the ribs protect the heart and lungs.</li>\n<li>Works with muscles to move the horse.</li>\n<li>Makes blood cells in the bone marrow.</li>\n</ul>\n<h4>Main parts</h4>\n<table><tr><th>Part</th><th>Bones</th></tr>\n<tr><td>Head</td><td>Skull and jaw</td></tr>\n<tr><td>Spine</td><td>Neck, back, loin, croup and tail bones</td></tr>\n<tr><td>Chest</td><td>18 pairs of ribs and the breastbone</td></tr>\n<tr><td>Front leg</td><td>Shoulder blade, forearm, knee, cannon, fetlock, pastern and pedal bone</td></tr>\n<tr><td>Hind leg</td><td>Pelvis, thigh, stifle, hock, cannon, fetlock, pastern and pedal bone</td></tr></table>\n<p>The horse's front legs are not joined to the spine by bone. They are held on by muscles. The horse's knee is like our wrist, and the hock is like our ankle.</p>\n<h3>Problems of the bone</h3>\n<ul>\n<li><strong>Splints:</strong> hard lumps on the inside of the cannon, often in young horses that work hard.</li>\n<li><strong>Sore shins:</strong> pain on the front of the cannon in young racehorses.</li>\n<li><strong>Fractures:</strong> broken bones. The horse cannot or will not put weight on the leg. Keep the horse still and call the vet at once.</li>\n<li><strong>Arthritis:</strong> stiff, sore joints, mostly in old horses.</li>\n<li><strong>Ringbone and sidebone:</strong> new bone growth around the pastern and hoof.</li>\n<li><strong>Growth problems in foals:</strong> crooked legs from poor feeding or too much hard work.</li>\n</ul>\n<p>Young horses need good feed with the right minerals, like calcium and phosphorus, to grow strong bones.</p>"
+  },
+  {
+   "title": "The hoof",
+   "minutes": 15,
+   "html": "<h3>No foot, no horse</h3>\n<p>The horse stands and moves on its hooves. A sore hoof means a lame horse that cannot work. You must know the parts of the hoof and look after them every day.</p>\n<h4>Outside parts (look under the foot)</h4>\n<ul>\n<li><strong>Wall:</strong> the hard outside part. It grows down from the coronet band, like your fingernail. It grows about 1 cm a month.</li>\n<li><strong>Sole:</strong> the bottom of the hoof. It should be slightly hollow.</li>\n<li><strong>Frog:</strong> the soft, V-shaped part. It helps to grip the ground and pump blood back up the leg.</li>\n<li><strong>White line:</strong> where the wall joins the sole.</li>\n<li><strong>Heels and bars.</strong></li>\n</ul>\n<h4>Inside parts</h4>\n<ul>\n<li><strong>Pedal bone (coffin bone):</strong> the bone inside the hoof.</li>\n<li><strong>Navicular bone:</strong> a small bone behind the pedal bone.</li>\n<li><strong>Laminae:</strong> thin layers that hold the pedal bone to the wall. When they get inflamed, the horse has <strong>laminitis</strong>.</li>\n<li><strong>Digital cushion:</strong> a soft pad that absorbs shock.</li>\n</ul>\n<h3>Caring for hooves</h3>\n<ol>\n<li>Pick out the hooves every day, from heel to toe.</li>\n<li>Check for stones, nails, cracks, bad smells or heat.</li>\n<li>Keep stables clean and dry to prevent thrush.</li>\n<li>Call the farrier about every 6 to 8 weeks.</li>\n</ol>\n<h4>Safety</h4>\n<p>When you pick up a foot, stand next to the horse's shoulder or hip, facing its tail. Run your hand down the leg. Never kneel or sit on the ground next to the horse.</p>"
+  },
+  {
+   "title": "The digestive system",
+   "minutes": 15,
+   "html": "<h3>How the horse eats</h3>\n<p>Horses are made to eat grass for many hours a day, in small amounts. Their gut is long and delicate.</p>\n<h4>Parts of the gut</h4>\n<ol>\n<li><strong>Mouth and teeth:</strong> the lips pick up food and the teeth grind it. Teeth keep growing and can get sharp edges.</li>\n<li><strong>Oesophagus (gullet):</strong> a pipe to the stomach. Food goes only one way. <strong>Horses cannot vomit.</strong></li>\n<li><strong>Stomach:</strong> small, only about the size of a rugby ball. That is why horses need small meals often.</li>\n<li><strong>Small intestine:</strong> about 20 metres long. It digests sugar, starch, protein and fat.</li>\n<li><strong>Caecum and large colon:</strong> big chambers where good bacteria break down grass and hay (fibre).</li>\n<li><strong>Small colon and rectum:</strong> water is taken back, and dung balls are formed.</li>\n</ol>\n<h3>Feeding rules</h3>\n<ul>\n<li>Give mostly grass or hay.</li>\n<li>Feed small meals, often.</li>\n<li>Change feed slowly, over about 7 to 10 days.</li>\n<li>Always give clean water.</li>\n<li>Do not feed mouldy or dusty feed.</li>\n<li>Do not work a horse hard straight after a big meal.</li>\n</ul>\n<h3>Colic</h3>\n<p>Colic is pain in the belly. Signs: pawing, rolling, looking at the belly, sweating, no dung. Colic can kill. Call the vet straight away, take away the feed and keep the horse in a safe place.</p>\n<h4>Key points</h4>\n<ul>\n<li>The skeleton holds up, protects and moves the horse.</li>\n<li>A horse that will not stand on a leg may have a fracture: call the vet.</li>\n<li>Pick out the hooves every day and see the farrier every 6 to 8 weeks.</li>\n<li>The horse has a small stomach and cannot vomit.</li>\n<li>Feed mostly grass or hay, little and often, and change feed slowly.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which part of the horse's leg is like our wrist?",
+   "options": [
+    {
+     "text": "The knee",
+     "correct": true
+    },
+    {
+     "text": "The hock",
+     "correct": false
+    },
+    {
+     "text": "The stifle",
+     "correct": false
+    },
+    {
+     "text": "The fetlock",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are hard lumps on the inside of the cannon bone called?",
+   "options": [
+    {
+     "text": "Thrush",
+     "correct": false
+    },
+    {
+     "text": "Laminae",
+     "correct": false
+    },
+    {
+     "text": "Splints",
+     "correct": true
+    },
+    {
+     "text": "Frogs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which part of the hoof is soft and V-shaped?",
+   "options": [
+    {
+     "text": "Wall",
+     "correct": false
+    },
+    {
+     "text": "Frog",
+     "correct": true
+    },
+    {
+     "text": "Sole",
+     "correct": false
+    },
+    {
+     "text": "Pedal bone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do horses need small meals often?",
+   "options": [
+    {
+     "text": "Their teeth are weak",
+     "correct": false
+    },
+    {
+     "text": "They drink too much",
+     "correct": false
+    },
+    {
+     "text": "They have no intestines",
+     "correct": false
+    },
+    {
+     "text": "They have a small stomach",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a horse's feed be changed?",
+   "options": [
+    {
+     "text": "Slowly, over about 7 to 10 days",
+     "correct": true
+    },
+    {
+     "text": "All at once",
+     "correct": false
+    },
+    {
+     "text": "Every day to a new feed",
+     "correct": false
+    },
+    {
+     "text": "Only at night",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Horses can vomit if they eat something bad.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The laminae hold the pedal bone to the hoof wall.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of colic? (select all that apply)",
+   "options": [
+    {
+     "text": "Pawing and rolling",
+     "correct": true
+    },
+    {
+     "text": "Looking at the belly",
+     "correct": true
+    },
+    {
+     "text": "Sweating and no dung",
+     "correct": true
+    },
+    {
+     "text": "Eating hay calmly",
+     "correct": false
+    },
+    {
+     "text": "Normal dung balls",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

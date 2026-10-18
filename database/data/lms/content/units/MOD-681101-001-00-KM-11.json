@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-11",
+ "title": "Final Beef Carcass Handling;",
+ "lessons": [
+  {
+   "title": "Final inspection, classification and marking",
+   "minutes": 15,
+   "html": "<h3>The end of the line</h3><p>After the carcass is split, trimmed and washed, it moves to the end of the slaughter line. Here it is inspected, classified, weighed, marked and sent to the chiller. Careful handling here protects all the good work done earlier.</p><h3>Final inspection</h3><p>The meat inspector does a final check of each carcass. If it is passed, it gets the <strong>inspection stamp</strong>. Carcasses that need more trimming or are held for further checks are moved to the detention rail. Never move a detained carcass into the chiller with passed carcasses, and never remove a detention tag.</p><h3>Classification</h3><p>In South Africa, beef carcasses are classified by a trained classifier. The two main parts are:</p><ul><li><strong>Age</strong>, worked out from the number of permanent incisor teeth: classes A (youngest, no permanent incisors), AB, B and C (oldest).</li><li><strong>Fat code</strong>, from 0 (no fat) to 6 (very fat), based on the fat cover.</li></ul><p>A roller mark with the class is put on the carcass. Classification helps buyers know what they are buying and affects the price the farmer is paid.</p><h3>Weighing and identification</h3><ul><li>Each side is weighed on the rail scale, usually as a warm (hot) mass.</li><li>A label or ticket is attached showing the carcass number, owner or lot, mass and date.</li><li>Check that the number on the label matches the carcass and its head and offal records.</li></ul><p>Mixed-up labels mean the wrong farmer gets paid and the carcass cannot be traced if there is a food safety problem. Traceability is a key part of meat safety.</p>"
+  },
+  {
+   "title": "Chilling, storage and dispatch",
+   "minutes": 15,
+   "html": "<h3>Why carcasses must be chilled</h3><p>A freshly slaughtered carcass is warm. Bacteria grow fast at warm temperatures, so the carcass must be cooled quickly and kept cold. Chilling also lets the meat set properly as it goes through <strong>rigor mortis</strong> (stiffening after death).</p><h3>In the chiller</h3><ul><li>Move carcasses into the chiller promptly after weighing.</li><li>Hang sides so they <strong>do not touch</strong> each other or the walls. Cold air must flow around each side.</li><li>Do not overload the chiller. Too many carcasses slow cooling.</li><li>Keep chiller doors closed. Open them only when moving carcasses.</li><li>Do not hang warm carcasses next to cold ones that are ready for dispatch, if the plant has separate rooms.</li><li>Check and record the chiller temperature as instructed. Report any temperature that is too high.</li><li>Keep detained carcasses in the detention area.</li></ul><h3>Hygiene in the chiller</h3><ul><li>Wear clean protective clothing and a hair net.</li><li>Do not touch carcasses unnecessarily.</li><li>Never let a carcass touch the floor. If one falls, tell the supervisor; it must be dealt with as the meat inspector says.</li><li>Keep the floor, rails and walls clean.</li></ul><h3>Dispatch</h3><ol><li>Check the order: correct carcasses, numbers and masses.</li><li>Check that the truck is clean and cold before loading.</li><li>Load carcasses hanging from the truck's rails, not on the floor.</li><li>Close the truck doors quickly.</li><li>Complete the dispatch documents.</li></ol><h3>Safety</h3><p>Wear warm clothes in the chiller. Watch your feet on wet floors. Push carcasses along the rail steadily; do not run them, and never stand in front of a moving carcass.</p><h4>Key points</h4><ul><li>Only passed, stamped carcasses go into the normal chiller.</li><li>Beef is classified by age (A, AB, B, C) and fat code (0 to 6).</li><li>Labels must match each carcass for traceability.</li><li>Chill quickly; sides must not touch each other.</li><li>Load clean, cold trucks with carcasses hanging, never on the floor.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which age class is given to the youngest beef carcasses with no permanent incisors?",
+   "options": [
+    {
+     "text": "B",
+     "correct": false
+    },
+    {
+     "text": "A",
+     "correct": true
+    },
+    {
+     "text": "C",
+     "correct": false
+    },
+    {
+     "text": "AB",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the fat code in beef classification show?",
+   "options": [
+    {
+     "text": "The fat cover, from 0 to 6",
+     "correct": true
+    },
+    {
+     "text": "The age of the animal",
+     "correct": false
+    },
+    {
+     "text": "The owner of the carcass",
+     "correct": false
+    },
+    {
+     "text": "The chiller number",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must carcass sides not touch each other in the chiller?",
+   "options": [
+    {
+     "text": "They will stick together permanently",
+     "correct": false
+    },
+    {
+     "text": "To save space",
+     "correct": false
+    },
+    {
+     "text": "For classification",
+     "correct": false
+    },
+    {
+     "text": "Cold air must flow around each side",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to a carcass that is held by the meat inspector?",
+   "options": [
+    {
+     "text": "Go into the chiller with passed carcasses",
+     "correct": false
+    },
+    {
+     "text": "Be sent for dispatch",
+     "correct": false
+    },
+    {
+     "text": "Be moved to the detention rail and keep its detention tag",
+     "correct": true
+    },
+    {
+     "text": "Be cut up immediately",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must carcass labels match the carcass?",
+   "options": [
+    {
+     "text": "To look neat",
+     "correct": false
+    },
+    {
+     "text": "So the chiller works",
+     "correct": false
+    },
+    {
+     "text": "Because of the colour",
+     "correct": false
+    },
+    {
+     "text": "So the right farmer is paid and the carcass can be traced",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chiller doors should be kept closed except when moving carcasses.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Carcasses can be loaded onto the floor of the truck if it is clean.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks are made at dispatch? (select all that apply)",
+   "options": [
+    {
+     "text": "Dispatch documents completed",
+     "correct": true
+    },
+    {
+     "text": "The driver's shoe size",
+     "correct": false
+    },
+    {
+     "text": "Correct carcasses and numbers for the order",
+     "correct": true
+    },
+    {
+     "text": "The truck is clean and cold",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

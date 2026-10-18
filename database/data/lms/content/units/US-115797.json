@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115797",
+ "title": "Plant macadamia trees",
+ "lessons": [
+  {
+   "title": "Caring for young trees before planting",
+   "minutes": 15,
+   "html": "<h3>Young trees are delicate</h3>\n<p>Macadamia trees come from the nursery in bags. They are grafted trees. This means a piece of a good cultivar was joined onto a strong rootstock. The join is called the graft union. You can see it as a bump on the stem. Young trees cost a lot of money. Handle them with care.</p>\n<h4>When trees arrive</h4>\n<ul><li>Put the trees in the shade.</li>\n<li>Water them. The bags must not dry out.</li>\n<li>Keep each cultivar together. Do not mix up the labels.</li></ul>\n<h4>Carry them correctly</h4>\n<ul><li>Carry the tree by the bag, from below.</li>\n<li>Never carry a tree by the stem or leaves.</li>\n<li>Do not throw or drop trees. This breaks the roots in the bag.</li></ul>\n<h4>Check each tree</h4>\n<ul><li>Green, healthy leaves</li>\n<li>Straight stem</li>\n<li>Graft union is healthy, not broken</li>\n<li>No pests</li></ul>\n<p>Put sick or broken trees to one side and show them to your supervisor.</p>\n<h4>Know the plan</h4>\n<p>Many orchards have more than one cultivar. Different cultivars help each other make more nuts. Your supervisor will tell you which cultivar goes in which row. Put each tree next to the right hole before you start planting.</p>\n<h4>Your tools</h4>\n<ul><li>Spade</li>\n<li>Knife to cut the bag</li>\n<li>Planting board</li>\n<li>Bucket or hose for water</li>\n<li>Stakes and soft ties, if the farm uses them</li></ul>"
+  },
+  {
+   "title": "Planting step by step",
+   "minutes": 15,
+   "html": "<h3>Steps</h3>\n<ol><li>Put the planting board back on its two pegs. The middle notch shows the centre.</li>\n<li>Put some topsoil back into the hole, so the tree will sit at the right height.</li>\n<li>Water the tree in its bag first.</li>\n<li>Cut the bag open carefully with the knife. Do not cut the roots.</li>\n<li>Take off the bag. Keep the soil around the roots together.</li>\n<li>If roots go round and round at the bottom, loosen them gently or cut them as your supervisor shows you.</li>\n<li>Put the tree in the hole, at the notch in the board.</li>\n<li>The top of the soil from the bag must be level with the ground. Not deeper. The graft union must stay well above the soil.</li>\n<li>Fill the hole with topsoil. Press the soil down gently with your hands or foot. Do not stamp hard on the roots.</li>\n<li>Make a small dam (basin) of soil around the tree to hold water.</li>\n<li>Water the tree well straight away.</li>\n<li>Put in a stake if the farm uses one. Tie the tree loosely with a soft tie.</li></ol>\n<h3>After planting</h3>\n<ul><li>Pick up all the bags. Put them in the rubbish bag. Plastic bags hurt animals and the soil.</li>\n<li>Water young trees as the supervisor says.</li>\n<li>Some farms paint the stem white or put on a tree guard against sunburn and animals.</li>\n<li>Count the trees you planted and tell your supervisor.</li></ul>\n<h3>Safety</h3>\n<ul><li>Cut the bag away from your body.</li>\n<li>Bend your knees when you lift trees.</li>\n<li>Wear boots, gloves and a hat. Drink water.</li></ul>\n<h4>Key points</h4>\n<ul><li>Carry trees by the bag, never by the stem.</li>\n<li>Plant the right cultivar in the right row.</li>\n<li>Plant at the same depth as in the bag. Keep the graft union above the soil.</li>\n<li>Press the soil gently and water straight away.</li>\n<li>Pick up all the plastic bags.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should you carry a young macadamia tree?",
+   "options": [
+    {
+     "text": "By the stem",
+     "correct": false
+    },
+    {
+     "text": "By the bag, from below",
+     "correct": true
+    },
+    {
+     "text": "By the leaves",
+     "correct": false
+    },
+    {
+     "text": "By throwing it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the graft union?",
+   "options": [
+    {
+     "text": "The bag",
+     "correct": false
+    },
+    {
+     "text": "A type of pest",
+     "correct": false
+    },
+    {
+     "text": "The planting board",
+     "correct": false
+    },
+    {
+     "text": "The bump where the cultivar was joined to the rootstock",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should the tree be planted?",
+   "options": [
+    {
+     "text": "Soil level from the bag level with the ground",
+     "correct": true
+    },
+    {
+     "text": "Much deeper, with the graft under the soil",
+     "correct": false
+    },
+    {
+     "text": "With roots above the ground",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do straight after planting?",
+   "options": [
+    {
+     "text": "Leave it",
+     "correct": false
+    },
+    {
+     "text": "Cut the leaves off",
+     "correct": false
+    },
+    {
+     "text": "Water the tree well",
+     "correct": true
+    },
+    {
+     "text": "Stamp hard on the roots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why make a small soil dam around the tree?",
+   "options": [
+    {
+     "text": "To keep snakes away",
+     "correct": false
+    },
+    {
+     "text": "To hold water",
+     "correct": true
+    },
+    {
+     "text": "To mark the row",
+     "correct": false
+    },
+    {
+     "text": "To hide the bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Plastic bags from the trees should be picked up and put in the rubbish.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It does not matter which cultivar goes in which row.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should you do on each young tree? (select all that apply)",
+   "options": [
+    {
+     "text": "Green, healthy leaves",
+     "correct": true
+    },
+    {
+     "text": "Healthy graft union",
+     "correct": true
+    },
+    {
+     "text": "No pests",
+     "correct": true
+    },
+    {
+     "text": "The tree has nuts on it",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

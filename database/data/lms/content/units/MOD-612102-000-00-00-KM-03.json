@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-612102-000-00-00-KM-03",
+ "title": "Dairy animal health care",
+ "lessons": [
+  {
+   "title": "Knowing a healthy cow from a sick cow",
+   "minutes": 15,
+   "html": "<h3>Look at the cows every day</h3><p>A sick cow gives less milk and can die if nobody notices. Workers see the cows every day in the parlour and the camps. You are the first to see a problem. Learn what a healthy cow looks like.</p><h4>A healthy cow</h4><ul><li>Bright eyes and ears up.</li><li>Eats well and chews the cud when resting.</li><li>Walks easily on all four legs.</li><li>Clean, shiny coat.</li><li>Normal dung: not too runny, not too hard.</li><li>Comes into the parlour with the herd.</li></ul><h4>Signs of a sick cow</h4><ul><li>Stands alone, head down.</li><li>Does not eat or chew the cud.</li><li>Limps or does not want to walk.</li><li>Breathes fast or coughs.</li><li>Very runny dung or no dung.</li><li>Milk drops suddenly, or milk looks watery or has clots.</li><li>Swollen, hot or hard udder.</li><li>Shivering, or very hot to touch.</li></ul><h4>What to do</h4><ol><li>Note the cow's ear tag number.</li><li>Tell your supervisor straight away.</li><li>Move the cow gently to the sick pen if told to.</li><li>Write it in the sick cow book.</li></ol><p>Never chase or hit a sick cow. Move cows slowly and calmly.</p><h4>Common problems</h4><table><tr><th>Problem</th><th>What you may see</th></tr><tr><td>Mastitis</td><td>Clots in milk, swollen hot quarter</td></tr><tr><td>Lameness</td><td>Limping, standing badly</td></tr><tr><td>Milk fever</td><td>Cow down soon after calving, cold ears</td></tr><tr><td>Tick diseases</td><td>Fever, weak, not eating</td></tr></table><p>A cow down after calving is an emergency. Call your supervisor at once.</p><p>Look at the cows when they walk into the parlour and when they lie in the camp. Learn what is normal for your herd. Then you will see quickly when one cow is different.</p>"
+  },
+  {
+   "title": "Treatments, records and staying safe",
+   "minutes": 15,
+   "html": "<h3>Giving treatments</h3><p>Only give medicine when your supervisor or the vet tells you. Give the right medicine, the right dose and the right way. Read the label or ask.</p><h4>Rules for medicines</h4><ul><li>Check the cow's tag number before treating.</li><li>Use a clean needle and syringe.</li><li>Give the dose the vet or label says. Not more, not less.</li><li>Mark the cow clearly, for example with a coloured leg band or spray, so everyone knows she is treated.</li><li>Write it in the treatment book: date, cow number, medicine, dose and who gave it.</li><li>Keep medicines in the locked cupboard or fridge as the label says.</li></ul><h4>Milk from treated cows</h4><p>Milk from a treated cow may contain medicine. This milk must not go into the bulk tank until the withdrawal time on the label or from the vet has passed. Milk treated cows last, or into a separate bucket, and throw the milk away as the farm says. One mistake can spoil a whole tank of milk and the farm can lose a lot of money.</p><h4>Preventing disease</h4><ul><li>Keep the parlour, yards and walkways clean.</li><li>Dip teats after milking.</li><li>Keep calving pens clean and dry.</li><li>Follow the vaccination and tick control plan.</li><li>Look after hooves and walkways to stop lameness.</li></ul><h4>Stay safe</h4><ul><li>Cows can kick and push. Stand to the side, not behind.</li><li>Be careful of bulls at all times. Never go into a bull camp alone.</li><li>Wear gloves when you handle sick animals, afterbirths or dead calves. Some diseases, like brucellosis, can make people sick.</li><li>Wash your hands well after handling animals and before eating.</li><li>Put used needles in the sharps container.</li></ul><h4>Key points</h4><ul><li>Check cows every day and report sick cows quickly.</li><li>A cow down after calving is an emergency.</li><li>Treat only when told, with the right dose, and record it.</li><li>Keep milk from treated cows out of the bulk tank.</li><li>Wear gloves and wash hands; stay safe around cows and bulls.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a sign of a healthy cow?",
+   "options": [
+    {
+     "text": "Stands alone with head down",
+     "correct": false
+    },
+    {
+     "text": "Chews the cud when resting",
+     "correct": true
+    },
+    {
+     "text": "Limps",
+     "correct": false
+    },
+    {
+     "text": "Does not eat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Clots in the milk and a swollen hot quarter point to…",
+   "options": [
+    {
+     "text": "Mastitis",
+     "correct": true
+    },
+    {
+     "text": "Milk fever",
+     "correct": false
+    },
+    {
+     "text": "Lameness",
+     "correct": false
+    },
+    {
+     "text": "Good health",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first thing to do when you see a sick cow?",
+   "options": [
+    {
+     "text": "Give her any medicine",
+     "correct": false
+    },
+    {
+     "text": "Chase her to the sick pen",
+     "correct": false
+    },
+    {
+     "text": "Note her tag number and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Wait a week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must milk from a treated cow go during the withdrawal time?",
+   "options": [
+    {
+     "text": "Into the bulk tank",
+     "correct": false
+    },
+    {
+     "text": "Mixed with good milk",
+     "correct": false
+    },
+    {
+     "text": "To the calves without asking",
+     "correct": false
+    },
+    {
+     "text": "Kept out of the bulk tank as the farm says",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should used needles go?",
+   "options": [
+    {
+     "text": "In the sharps container",
+     "correct": true
+    },
+    {
+     "text": "In the normal bin",
+     "correct": false
+    },
+    {
+     "text": "On the ground",
+     "correct": false
+    },
+    {
+     "text": "Back in the medicine box",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A cow down soon after calving is an emergency.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to go into a bull camp alone if the bull looks calm.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must you write in the treatment book? (select all that apply)",
+   "options": [
+    {
+     "text": "Cow number",
+     "correct": true
+    },
+    {
+     "text": "Medicine and dose",
+     "correct": true
+    },
+    {
+     "text": "Date and who gave it",
+     "correct": true
+    },
+    {
+     "text": "The cow's favourite camp",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

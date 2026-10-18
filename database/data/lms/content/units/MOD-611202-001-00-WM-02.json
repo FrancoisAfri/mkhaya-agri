@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-611202-001-00-WM-02",
+  "title": "Skilled and Motivated Work Team Output",
+  "lessons": [
+    {
+      "title": "Assessing the team's skills and motivation",
+      "minutes": 20,
+      "html": "<h3>Assessing the team's skills and motivation</h3><p>In this work experience module you lead a real team in the orchard or vineyard over a production period, with the aim of producing a skilled, motivated team that reaches its output and quality goals. You will collect evidence in a portfolio signed by your mentor.</p><h4>Skills assessment</h4><p>Build or update a skills matrix for your team. For each worker and each key operation - pruning, thinning, canopy work, picking, irrigation checks, spraying, tractor driving, first aid - record whether they are competent, in training or not trained. Observe each worker on the job rather than relying only on what they say. Note who could become a team leader or trainer.</p><h4>Performance baseline</h4><p>From job cards and quality sheets, record each team's current productivity and quality: trees pruned per day, bins per picker, quality sample pass rates, damage percentages. Also record attendance and safety incidents. These numbers are your starting point.</p><h4>Understanding motivation</h4><p>Talk to workers informally and listen. Ask what makes the work easier or harder, what they would change, and what they hope for in their work. Common themes on farms include:</p><ul><li>Fair and transparent pay and counts.</li><li>Respectful treatment by supervisors.</li><li>Reliable transport and facilities in the field.</li><li>Good tools and PPE.</li><li>Recognition and chances to learn and grow.</li><li>Job security and fair allocation of work.</li></ul><h4>Identifying gaps</h4><p>Compare skills, performance and motivation findings with what the season requires. List the main gaps: for example, not enough trained pruners for the winter workload, low picking quality in one team, or high absenteeism linked to transport problems. Discuss the list with your mentor and agree priorities.</p>"
+    },
+    {
+      "title": "Developing skills in the team",
+      "minutes": 20,
+      "html": "<h3>Developing skills in the team</h3><h4>Training plan</h4><p>Create a simple training plan for the period: which workers, which skills, by when, who will train them and how competence will be checked. Prioritise skills needed for the next operations in the production calendar.</p><h4>On-the-job training method</h4><ol><li><strong>Prepare</strong>: choose a suitable block, tools and a small group.</li><li><strong>Explain</strong>: what the task is, why it matters, the standard.</li><li><strong>Demonstrate</strong>: do it slowly, step by step, while they watch.</li><li><strong>Practise</strong>: each learner does it while you watch and guide.</li><li><strong>Check</strong>: assess against the standard; repeat until competent.</li><li><strong>Follow up</strong>: check again over the next days.</li></ol><h4>Using experienced workers</h4><p>Pair learners with experienced, patient workers as buddies. Train your best workers to become on-the-job trainers - this builds their pride and spreads skills quickly.</p><h4>Safety-critical skills</h4><p>Some tasks need formal training and authorisation before a worker may do them alone: tractor and forklift driving, chemical mixing and application, first aid, working at height on platforms. Arrange formal courses with accredited providers through the farm and AgriSETA where relevant, and keep certificates on file.</p><h4>Training records</h4><p>Record each training session: date, topic, trainer, attendees and result. Update the skills matrix. Audits often check training records, especially for hygiene, chemical handling and safety.</p><h4>Measuring training results</h4><p>After training, compare the workers' productivity and quality with the baseline. A good training programme should show fewer quality failures and faster work within a few weeks.</p><p>Remember that training also builds motivation. Workers who gain new skills often feel more valued and are more likely to return in the next season.</p>"
+    },
+    {
+      "title": "Motivating the team and achieving output",
+      "minutes": 20,
+      "html": "<h3>Motivating the team and achieving output</h3><h4>Setting and sharing goals</h4><p>Agree daily and weekly team goals that include output, quality and safety. Display them on a board at the shed or share them at the morning briefing. Report progress daily so the team can see how they are doing.</p><h4>Actions that motivate</h4><ul><li>Fix practical barriers quickly: transport, tools, water, toilets, bin supply.</li><li>Make pay counts transparent and correct errors immediately.</li><li>Recognise good work publicly and specifically.</li><li>Use incentive schemes fairly, rewarding quality as well as speed.</li><li>Give responsibility to those who are ready, such as team leader roles.</li><li>Treat everyone with respect and apply rules consistently.</li><li>Listen to ideas and act on good ones.</li></ul><h4>Dealing with low output</h4><p>When a team or worker falls short, find the cause before acting. Is it skill, tools, block conditions, health, personal problems or attitude? Coach and support first. Where there is a pattern of unwillingness after support, follow the farm's disciplinary process with HR.</p><h4>Team spirit</h4><p>Celebrate achievements such as finishing a block on time or an injury-free month. Encourage teams to help each other. Deal with conflict early and fairly.</p><h4>Measuring the outcome</h4><p>At the end of the period, compare with the baseline: productivity, quality pass rates, attendance, incidents and number of workers competent in each skill. Ask workers for feedback on what helped them most.</p><h4>Portfolio report</h4><p>Your report should show the baseline, the gaps you found, your training and motivation actions, the results, and what you learnt about leading people. Include the updated skills matrix and training records.</p><h4>Key points</h4><ul><li>Assess skills by observation and record them in a skills matrix.</li><li>Set a baseline for productivity, quality, attendance and safety.</li><li>Train with explain - demonstrate - practise - check, and record it.</li><li>Motivate by removing barriers, fair pay counts, recognition and respect.</li><li>Find the cause of low output and coach before discipline.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the best way to assess a worker's skill?",
+      "options": [
+        {
+          "text": "Ask them only",
+          "correct": false
+        },
+        {
+          "text": "Observe them doing the job",
+          "correct": true
+        },
+        {
+          "text": "Check their age",
+          "correct": false
+        },
+        {
+          "text": "Look at their clothes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which tasks need formal training and authorisation before working alone?",
+      "options": [
+        {
+          "text": "Tractor driving and chemical application",
+          "correct": true
+        },
+        {
+          "text": "Walking to the block",
+          "correct": false
+        },
+        {
+          "text": "Eating lunch",
+          "correct": false
+        },
+        {
+          "text": "Reading a notice board",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Absenteeism is high in one team and linked to transport problems. What should the foreman do?",
+      "options": [
+        {
+          "text": "Discipline the whole team",
+          "correct": false
+        },
+        {
+          "text": "Ignore it",
+          "correct": false
+        },
+        {
+          "text": "Fix the transport barrier",
+          "correct": true
+        },
+        {
+          "text": "Increase targets",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the final step of the on-the-job training method?",
+      "options": [
+        {
+          "text": "Explain",
+          "correct": false
+        },
+        {
+          "text": "Demonstrate",
+          "correct": false
+        },
+        {
+          "text": "Prepare",
+          "correct": false
+        },
+        {
+          "text": "Follow up over the next days",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why train your best workers to be on-the-job trainers?",
+      "options": [
+        {
+          "text": "It builds their pride and spreads skills quickly",
+          "correct": true
+        },
+        {
+          "text": "So the foreman does no work",
+          "correct": false
+        },
+        {
+          "text": "To reduce their pay",
+          "correct": false
+        },
+        {
+          "text": "It is required by the National Water Act",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Incentive schemes should reward quality as well as speed.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Training records are not needed because audits never check them.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which actions help motivate a team? (select all that apply)",
+      "options": [
+        {
+          "text": "Transparent pay counts",
+          "correct": true
+        },
+        {
+          "text": "Specific public recognition",
+          "correct": true
+        },
+        {
+          "text": "Applying rules inconsistently",
+          "correct": false
+        },
+        {
+          "text": "Listening to and acting on good ideas",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

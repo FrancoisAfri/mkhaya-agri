@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335741",
+ "title": "Care for sick and orphan foals",
+ "lessons": [
+  {
+   "title": "Recognising the sick foal",
+   "minutes": 20,
+   "html": "<h3>Foals get sick fast</h3>\n<p>A newborn foal has small energy reserves and an immature immune system. A foal that seems slightly dull in the morning can be critically ill by the afternoon. Watch every foal several times a day and act quickly.</p>\n<h4>Normal newborn milestones</h4>\n<ul>\n<li>Sits up on its chest within minutes.</li>\n<li>Stands within about 1 hour.</li>\n<li>Suckles within about 2 hours.</li>\n<li>Passes meconium (first dung) within a few hours.</li>\n<li>Suckles many times an hour in the first weeks; the mare's udder should not be tight and dripping.</li>\n</ul>\n<h4>Normal vital signs (newborn, guideline)</h4>\n<table><tr><th>Sign</th><th>Approximate normal</th></tr>\n<tr><td>Temperature</td><td>37.5 to 38.9 &deg;C</td></tr>\n<tr><td>Heart rate</td><td>80 to 120 per minute in the first days</td></tr>\n<tr><td>Breathing</td><td>20 to 40 per minute</td></tr></table>\n<h4>Warning signs</h4>\n<ul>\n<li>Not suckling, or mare's udder full and dripping milk.</li>\n<li>Dull, sleeping more than normal, not following the mare.</li>\n<li>Fever or low temperature.</li>\n<li>Diarrhoea (scours), straining to pass dung (meconium impaction) or urine.</li>\n<li>Swollen, hot joints (joint ill) or a wet, swollen navel.</li>\n<li>Fast breathing, nasal discharge, cough.</li>\n<li>Yellow gums or eyes in the first days (may indicate neonatal isoerythrolysis).</li>\n<li>Abnormal behaviour: wandering, not recognising the mare, seizures (\"dummy foal\").</li>\n</ul>\n<h3>Failure of passive transfer</h3>\n<p>The foal depends on antibodies from <strong>colostrum</strong> in the first hours after birth, because its gut can only absorb them for a short time. A foal that did not get enough colostrum is very likely to get infections. The vet can test the foal's antibody (IgG) level at about 12 to 24 hours and give colostrum or plasma if levels are low.</p>"
+  },
+  {
+   "title": "Nursing the sick foal and raising an orphan",
+   "minutes": 20,
+   "html": "<h3>Nursing care</h3>\n<p>Always follow the vet's treatment plan. Your nursing care includes:</p>\n<ul>\n<li><strong>Warmth:</strong> deep straw bedding, foal rugs, heat lamps placed safely. Weak foals lose heat fast.</li>\n<li><strong>Feeding:</strong> if the foal cannot suckle, the vet may place a stomach tube. Never bottle-feed a foal that cannot swallow properly, as milk can go into the lungs.</li>\n<li><strong>Turning:</strong> a foal that cannot stand must be turned from side to side every 2 hours and kept on its chest when possible.</li>\n<li><strong>Hygiene:</strong> gloves, clean equipment, disinfect between foals. Isolate foals with diarrhoea.</li>\n<li><strong>Monitoring:</strong> record temperature, feeding, urine, dung and treatments on a chart.</li>\n<li><strong>Keep the mare close:</strong> where possible, keep the foal with its mother and milk her out to keep up her milk supply.</li>\n</ul>\n<h3>Orphan foals</h3>\n<p>A foal may be orphaned when the mare dies, has no milk or rejects it.</p>\n<h4>Options in order of preference</h4>\n<ol>\n<li><strong>Nurse mare:</strong> a mare that has lost her own foal or has milk. Introduce carefully, with the vet's help, under close supervision.</li>\n<li><strong>Bucket feeding:</strong> mare's milk replacer mixed exactly as the label says. Teach the foal to drink from a bucket within a few days; it is more hygienic and avoids the foal becoming too attached to people.</li>\n<li><strong>Bottle feeding:</strong> only for short periods; hold the bottle at the foal's natural suckling height, with the foal standing.</li>\n</ol>\n<h4>Feeding guidelines</h4>\n<ul>\n<li>Colostrum first, from a colostrum bank or another mare, in the first hours.</li>\n<li>Small, frequent feeds: hourly at first, then gradually less often, as advised by the vet and the milk replacer label.</li>\n<li>Fresh, clean water from early on; introduce creep feed and good hay over the following weeks.</li>\n<li>Weigh or measure the foal regularly to check growth.</li>\n</ul>\n<h4>Behaviour</h4>\n<p>Orphans raised alone with people can become pushy and dangerous adults. Give them a companion such as a quiet older horse or pony, and handle them with clear, consistent boundaries.</p>\n<h4>Key points</h4>\n<ul>\n<li>Stand in 1 hour, suckle in 2 hours, pass meconium: check the milestones.</li>\n<li>A full, dripping udder means the foal is not suckling.</li>\n<li>Colostrum in the first hours is vital; the vet can test IgG levels.</li>\n<li>Keep sick foals warm, clean, turned and monitored under vet direction.</li>\n<li>For orphans: nurse mare first, then bucket feeding of milk replacer.</li>\n<li>Give orphans equine company and clear boundaries.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Within about how long should a newborn foal stand?",
+   "options": [
+    {
+     "text": "1 hour",
+     "correct": true
+    },
+    {
+     "text": "10 minutes",
+     "correct": false
+    },
+    {
+     "text": "6 hours",
+     "correct": false
+    },
+    {
+     "text": "1 day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A mare's udder is full and dripping milk. What might this mean?",
+   "options": [
+    {
+     "text": "The foal is very healthy",
+     "correct": false
+    },
+    {
+     "text": "The mare needs more water",
+     "correct": false
+    },
+    {
+     "text": "The foal is not suckling",
+     "correct": true
+    },
+    {
+     "text": "The foal is ready for weaning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is colostrum so important in the first hours?",
+   "options": [
+    {
+     "text": "It is sweeter than milk",
+     "correct": false
+    },
+    {
+     "text": "It provides antibodies the foal can only absorb for a short time",
+     "correct": true
+    },
+    {
+     "text": "It stops the foal growing",
+     "correct": false
+    },
+    {
+     "text": "It replaces water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the preferred first option for raising an orphan foal?",
+   "options": [
+    {
+     "text": "Bottle feeding forever",
+     "correct": false
+    },
+    {
+     "text": "Leaving it alone",
+     "correct": false
+    },
+    {
+     "text": "Cow's milk in a bucket",
+     "correct": false
+    },
+    {
+     "text": "A nurse mare",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often should a foal that cannot stand be turned?",
+   "options": [
+    {
+     "text": "Once a day",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "About every 2 hours",
+     "correct": true
+    },
+    {
+     "text": "Once a week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A foal that cannot swallow properly should be bottle-fed to make it stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Orphan foals raised alone with people can become pushy, dangerous adults.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are warning signs in a newborn foal? (select all that apply)",
+   "options": [
+    {
+     "text": "Swollen, hot joints",
+     "correct": true
+    },
+    {
+     "text": "Diarrhoea",
+     "correct": true
+    },
+    {
+     "text": "Not following the mare",
+     "correct": true
+    },
+    {
+     "text": "Suckling often and sleeping normally between feeds",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-PM-04",
+ "title": "Perform Post-slaughter Procedures for Beef Carcasses",
+ "lessons": [
+  {
+   "title": "Washing, inspection and marking",
+   "minutes": 15,
+   "html": "<h3>What are post-slaughter procedures?</h3><p>These are the jobs done after the carcass has been dressed and split, until it leaves the abattoir: final trimming and washing, helping at inspection, weighing and marking, chilling, and dispatch. In this module you practise these jobs.</p><h3>Final trimming and washing</h3><ol><li>Look over both sides of the carcass from top to bottom.</li><li>Trim off any hair, dung, ingesta, bruises, blood clots and loose pieces with a sterilised knife. Put trimmings in the correct bin.</li><li>Wash the carcass at the wash station, from the top down, with clean water. Do not use the hose to remove dung; trim it.</li><li>Do not touch the carcass with dirty hands or aprons.</li></ol><h3>At the inspection point</h3><ul><li>Make sure the carcass, head and offal of each animal carry the same number.</li><li>Present the carcass so the inspector can see all sides; turn it if asked.</li><li>Follow the inspector's instructions exactly, for example to trim a part or move the carcass to the detention rail.</li><li>Never remove an inspection stamp, detention tag or ticket.</li></ul><h3>Weighing and marking</h3><ol><li>Push the carcass onto the rail scale gently and wait for the reading to settle.</li><li>Record the mass with the carcass number, or check the printed ticket.</li><li>Attach the ticket or label in the right place.</li><li>Check that the classification mark and inspection stamp are present.</li></ol><p>Double-check numbers. A swapped label means the wrong farmer is paid, and the carcass cannot be traced if there is a problem with the meat later.</p><h3>Safety</h3><p>Carcass sides are heavy. Push them along the rail at walking speed, keep your fingers away from the rollers and hooks, and never stand in front of a moving side.</p>"
+  },
+  {
+   "title": "Chilling, dispatch and cleaning up",
+   "minutes": 15,
+   "html": "<h3>Moving carcasses into the chiller</h3><ul><li>Move carcasses into the chiller promptly after weighing.</li><li>Space the sides so they do not touch each other or the walls.</li><li>Fill the chiller in the order your supervisor gives, so the oldest stock goes out first.</li><li>Keep detained carcasses in the detention chiller or area, apart from passed carcasses.</li><li>Close the chiller door behind you every time.</li><li>Read the chiller thermometer at the times set and write the temperature on the record sheet. Report a high reading at once.</li></ul><h3>Before dispatch</h3><ol><li>Check the dispatch order: which carcasses, how many, and for which customer.</li><li>Check the truck: it must be clean, without smells, and cold before loading. Report a dirty or warm truck.</li><li>Wear clean protective clothing and a hair net when loading.</li></ol><h3>Loading</h3><ul><li>Hang carcasses on the truck rails. Never put them on the floor of the truck.</li><li>Do not let carcasses touch the dirty outside of the truck or the ground when moving them across.</li><li>Load quickly and close the doors between loads to keep the truck cold.</li><li>Count the carcasses and sign the dispatch note with the driver.</li></ul><h3>If a carcass falls</h3><p>Stop. Do not just hang it back. Tell the supervisor, who will get the meat inspector to decide what must be trimmed or done.</p><h3>Cleaning up</h3><p>At the end of the shift, clean the wash stations, scales and chiller floors following the cleaning schedule: dry clean, rinse, detergent, rinse, sanitise. Put bins in their places and report broken equipment.</p><h4>Key points</h4><ul><li>Trim before washing and keep carcass, head and offal numbers matched.</li><li>Never remove stamps, detention tags or tickets.</li><li>Space carcasses in the chiller and record temperatures.</li><li>Load only clean, cold trucks, with carcasses hanging.</li><li>If a carcass falls, stop and report; the inspector decides.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should dung on a carcass be removed?",
+   "options": [
+    {
+     "text": "Hose it off",
+     "correct": false
+    },
+    {
+     "text": "Trim it off with a sterilised knife",
+     "correct": true
+    },
+    {
+     "text": "Wipe it with an apron",
+     "correct": false
+    },
+    {
+     "text": "Leave it for the butcher",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must match for each animal at inspection?",
+   "options": [
+    {
+     "text": "The colour of the carcass and the head",
+     "correct": false
+    },
+    {
+     "text": "The weight and the price",
+     "correct": false
+    },
+    {
+     "text": "The numbers on the carcass, head and offal",
+     "correct": true
+    },
+    {
+     "text": "The truck and the chiller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a carcass falls on the floor?",
+   "options": [
+    {
+     "text": "Stop and tell the supervisor so the inspector can decide",
+     "correct": true
+    },
+    {
+     "text": "Hang it back quickly",
+     "correct": false
+    },
+    {
+     "text": "Wash it and send it out",
+     "correct": false
+    },
+    {
+     "text": "Hide it in the chiller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the truck is warm and dirty?",
+   "options": [
+    {
+     "text": "Load it anyway",
+     "correct": false
+    },
+    {
+     "text": "Load only half",
+     "correct": false
+    },
+    {
+     "text": "Clean the carcasses after loading",
+     "correct": false
+    },
+    {
+     "text": "Report it and do not load",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should carcasses be loaded onto a truck?",
+   "options": [
+    {
+     "text": "Hanging on the truck rails",
+     "correct": true
+    },
+    {
+     "text": "Stacked on the floor",
+     "correct": false
+    },
+    {
+     "text": "Wrapped in hides",
+     "correct": false
+    },
+    {
+     "text": "Standing against the walls",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chiller temperatures should be read and recorded at the set times.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may remove a detention tag if the carcass looks fine.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks are post-slaughter procedures? (select all that apply)",
+   "options": [
+    {
+     "text": "Stunning",
+     "correct": false
+    },
+    {
+     "text": "Chilling and dispatch",
+     "correct": true
+    },
+    {
+     "text": "Weighing and marking",
+     "correct": true
+    },
+    {
+     "text": "Final trimming and washing",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

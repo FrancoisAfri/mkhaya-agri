@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-05",
+ "title": "Management of Livestock Husbandry and Health for optimal Production and Wellbeing",
+ "lessons": [
+  {
+   "title": "Husbandry routines and welfare",
+   "minutes": 20,
+   "html": "<h3>Good husbandry is the foundation</h3><p>In this work experience module you take part in the daily and seasonal husbandry of the farm's livestock and help manage their health. Productive animals are animals whose welfare needs are met. The Animals Protection Act 71 of 1962 makes cruelty, neglect and causing unnecessary suffering offences, and buyers increasingly check welfare on supplier farms.</p><h4>The five freedoms as a checklist</h4><ol><li>Freedom from hunger and thirst: enough feed and clean water every day.</li><li>Freedom from discomfort: suitable shelter and a comfortable resting area.</li><li>Freedom from pain, injury and disease: prevention, rapid diagnosis and treatment.</li><li>Freedom to express normal behaviour: enough space and company of their own kind.</li><li>Freedom from fear and distress: calm handling and conditions that avoid mental suffering.</li></ol><h4>Daily routine</h4><ul><li>Count animals in each camp and check water points and fences.</li><li>Observe behaviour: an animal standing alone, not eating, limping or with its head down needs attention.</li><li>Check calving, lambing or kidding camps several times a day in season.</li><li>Record births, deaths, treatments and movements in the stock register.</li></ul><h4>Periodic tasks</h4><ul><li>Identification: ear tags, tattoos or brands according to the Animal Identification Act 6 of 2002.</li><li>Castration, dehorning and tail docking only by trained people, at the right age and with methods and pain control advised by your vet.</li><li>Hoof care, shearing and crutching for sheep, and regular body condition scoring.</li></ul><h4>Low-stress handling</h4><p>Use the animal's flight zone and point of balance to move animals quietly. Well-designed kraals, races and crushes reduce injury to animals and people. Never use electric prodders on the face or sensitive areas, and never beat or twist tails.</p>"
+  },
+  {
+   "title": "Health management in practice",
+   "minutes": 20,
+   "html": "<h3>Preventing and treating disease</h3><h4>Herd health programme</h4><p>Work with your vet to follow a programme suited to the farm and region. It usually includes:</p><ul><li>Vaccinations against important local diseases, for example anthrax, botulism, lumpy skin disease or pulpy kidney, as your vet advises.</li><li>Strategic tick control to manage tick-borne diseases such as redwater, heartwater and gallsickness.</li><li>Internal parasite control based on monitoring (FAMACHA, faecal egg counts).</li><li>Breeding soundness examination of bulls and rams, and pregnancy diagnosis.</li><li>Biosecurity: quarantine new animals, control visitors, footbaths at entrances where needed.</li></ul><h4>Recognising illness</h4><table><tr><th>Sign</th><th>Possible problem</th></tr><tr><td>Not eating, separated from group</td><td>Many diseases, pain</td></tr><tr><td>Diarrhoea, dehydration in young animals</td><td>Scours, worms, infection</td></tr><tr><td>Pale eye membranes in sheep and goats</td><td>Wireworm anaemia</td></tr><tr><td>Lameness</td><td>Foot rot, injury, footbaths needed</td></tr><tr><td>Bloated left side in ruminants</td><td>Bloat, an emergency</td></tr></table><p>Sudden deaths, blisters in the mouth or feet, or many animals sick at once must be reported to your supervisor and vet immediately. Some diseases are controlled diseases under the Animal Diseases Act 35 of 1984 and must be reported to the state vet. Never open the carcass of an animal that died suddenly; anthrax is dangerous to people.</p><h4>Giving treatments</h4><p>Follow the label or vet's instructions for dose, route and withdrawal period. Restrain animals safely, use clean equipment, wear gloves and record every treatment.</p><p>Keep the vet's contact number and the state vet's office number on the office wall and in your phone, and keep a well-stocked animal first aid kit.</p><p>Record what you observed and did.</p>"
+  },
+  {
+   "title": "Measuring production and wellbeing",
+   "minutes": 20,
+   "html": "<h3>Using records to manage the herd</h3><h4>Key production records</h4><ul><li>Birth date, dam, sire and birth weight where possible.</li><li>Weaning weight and date.</li><li>Treatments, vaccinations and dates.</li><li>Deaths with cause, and culling reasons.</li><li>Body condition scores at key times such as mating and weaning.</li></ul><h4>Calculating performance</h4><p>A flock of 200 ewes was mated and 230 lambs were weaned. The weaning percentage is 230 divided by 200, times 100, which is 115%. If 12 lambs died between birth and weaning out of 242 born, the pre-weaning mortality is about 5%. Track these numbers each year and investigate when they get worse.</p><h4>Welfare indicators</h4><ul><li>Lameness and injury rates.</li><li>Body condition distribution in the herd.</li><li>Number of animals needing treatment.</li><li>Behaviour during handling: calm or agitated.</li></ul><h4>Improving the system</h4><p>Use your records to propose one practical improvement, such as changing the lambing camp, adjusting supplementary feeding before mating, or repairing a crush that causes injuries. Discuss it with your supervisor, implement it if approved, and record the result for your portfolio.</p><h4>Safety for handlers</h4><p>Never enter a crush or pen with a bull alone. Keep an escape route, wear safety boots, and do not stand behind animals in a race. Wash hands after handling sick animals or birth fluids because some diseases spread to people.</p><h4>Key points</h4><ul><li>The five freedoms provide a practical welfare checklist.</li><li>Follow a herd health programme drawn up with your vet.</li><li>Report sudden deaths and signs of controlled diseases immediately; never open such carcasses.</li><li>Record births, weights, treatments and deaths to measure performance.</li><li>Handle animals calmly and keep yourself safe in kraals and crushes.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is one of the five freedoms?",
+   "options": [
+    {
+     "text": "Freedom from fear and distress",
+     "correct": true
+    },
+    {
+     "text": "Freedom to roam onto neighbouring farms",
+     "correct": false
+    },
+    {
+     "text": "Freedom from being identified",
+     "correct": false
+    },
+    {
+     "text": "Freedom from being vaccinated",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Two hundred ewes were mated and 230 lambs were weaned. What is the weaning percentage?",
+   "options": [
+    {
+     "text": "87%",
+     "correct": false
+    },
+    {
+     "text": "100%",
+     "correct": false
+    },
+    {
+     "text": "115%",
+     "correct": true
+    },
+    {
+     "text": "230%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if an animal dies suddenly?",
+   "options": [
+    {
+     "text": "Open the carcass to find the cause",
+     "correct": false
+    },
+    {
+     "text": "Report it immediately and do not open the carcass",
+     "correct": true
+    },
+    {
+     "text": "Feed it to the dogs",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the camp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can pale eye membranes in sheep and goats indicate?",
+   "options": [
+    {
+     "text": "Bloat",
+     "correct": false
+    },
+    {
+     "text": "Wireworm anaemia",
+     "correct": true
+    },
+    {
+     "text": "Foot rot",
+     "correct": false
+    },
+    {
+     "text": "Good health",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act requires animals to be marked for identification?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": true
+    },
+    {
+     "text": "Fertilizers Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Castration and dehorning may be done by anyone, at any age, without advice.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should wash your hands after handling sick animals or birth fluids.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are welfare indicators you can track? (select all that apply)",
+   "options": [
+    {
+     "text": "Lameness and injury rates",
+     "correct": true
+    },
+    {
+     "text": "Body condition distribution",
+     "correct": true
+    },
+    {
+     "text": "Behaviour during handling",
+     "correct": true
+    },
+    {
+     "text": "Price of the tractor",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

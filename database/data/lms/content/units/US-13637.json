@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-13637",
+ "title": "Network broadly in order to source information and support around a key environmental issue or risk",
+ "lessons": [
+  {
+   "title": "Defining the issue and mapping stakeholders",
+   "minutes": 20,
+   "html": "<h3>Why network?</h3>\n<p>Environmental problems on farms and in rural communities rarely stop at one boundary. Invasive wattle in a catchment, overgrazed communal rangeland, a polluted stream below a feedlot, or a drought that dries up boreholes affect many land users at once. No single farmer or facilitator has all the information, money or authority to solve them. Networking means building working relationships with people and organisations who can provide information, resources, influence and practical support.</p>\n<h4>Step 1: define the issue clearly</h4>\n<p>Write a short problem statement: what is happening, where, since when, who is affected, and what the risk is if nothing is done. Example: \"Gully erosion on the communal grazing land above the village has grown over the past five seasons; it is cutting off the access road and silting the dam used for livestock water.\" A clear statement helps you know whom to approach and lets them understand quickly why it matters.</p>\n<h4>Step 2: map the stakeholders</h4>\n<table><tr><th>Group</th><th>Examples</th><th>What they can offer</th></tr>\n<tr><td>Government</td><td>Provincial Department of Agriculture extension and LandCare programme, national environment and water departments, municipality</td><td>Technical advice, funding programmes, permits, legal authority</td></tr>\n<tr><td>Statutory and research bodies</td><td>Agricultural Research Council, catchment management agencies, universities</td><td>Data, research, monitoring</td></tr>\n<tr><td>Organised agriculture and commodity groups</td><td>Farmers' associations, study groups, commodity organisations</td><td>Peer knowledge, influence, shared equipment</td></tr>\n<tr><td>NGOs and community groups</td><td>Conservation NGOs, water user associations, traditional authorities, youth and women's groups</td><td>Mobilisation, local knowledge, labour</td></tr>\n<tr><td>Private sector</td><td>Agribusiness, input suppliers, corporate social investment programmes</td><td>Funding, materials, expertise</td></tr></table>\n<p>Rate each stakeholder by <strong>interest</strong> in the issue and <strong>influence</strong> over it. High-influence, high-interest players are key partners; high-influence, low-interest players need to be persuaded; high-interest, low-influence groups (often the affected community) must be consulted and empowered.</p>"
+  },
+  {
+   "title": "Building and using the network",
+   "minutes": 20,
+   "html": "<h3>Making contact</h3>\n<ul><li>Prepare a one-page brief: the issue, evidence (photos, simple measurements, maps), what you are asking for, and what you offer in return.</li>\n<li>Use existing relationships first: introductions from extension officers, farmers' days, study group meetings and community forums open doors faster than cold e-mails.</li>\n<li>Follow protocol. In communal areas, engage the traditional council and ward councillor before organising meetings. With government departments, go through the correct office and keep written records.</li>\n<li>Use a mix of channels: meetings, phone, e-mail, WhatsApp groups, newsletters and local radio.</li></ul>\n<h3>Sourcing information</h3>\n<p>Ask specific questions. Collect technical guidelines, maps, rainfall and water-quality data, relevant legal requirements (for example the Conservation of Agricultural Resources Act 43 of 1983 on soil and invasive plants, or the National Water Act 36 of 1998 on water use) and examples of what has worked elsewhere. Evaluate each source: who produced it, how recent it is, and whether it fits your local conditions. Record sources so you can refer back and credit them.</p>\n<h3>Keeping the network alive</h3>\n<ul><li><strong>Reciprocity</strong> – share information back, invite partners to see results, acknowledge their contribution in reports.</li>\n<li><strong>Regular contact</strong> – short updates after milestones; do not only call when you need something.</li>\n<li><strong>Contact database</strong> – names, organisation, role, contact details, interests, last contact and agreed actions. Respect privacy: get consent and store personal information securely in line with the Protection of Personal Information Act.</li>\n<li><strong>Formalise</strong> where useful: a steering committee, memorandum of understanding, or a catchment forum.</li></ul>\n<h3>Ethics</h3>\n<p>Be honest about what you can deliver. Avoid conflicts of interest, do not promise funding you do not control, and make sure the affected community's voice is not drowned out by more powerful partners.</p>\n<h4>Key points</h4>\n<ul><li>Start with a clear problem statement backed by evidence.</li>\n<li>Map stakeholders by interest and influence.</li>\n<li>Follow protocol, especially with traditional authorities and government.</li>\n<li>Check the reliability of information and record sources.</li>\n<li>Maintain the network through reciprocity, regular contact and good records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first step before networking on an environmental issue?",
+   "options": [
+    {
+     "text": "Write a clear problem statement",
+     "correct": true
+    },
+    {
+     "text": "Buy equipment",
+     "correct": false
+    },
+    {
+     "text": "Start rehabilitating the land",
+     "correct": false
+    },
+    {
+     "text": "Hold a press conference",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A stakeholder with high influence but low interest should be:",
+   "options": [
+    {
+     "text": "Ignored",
+     "correct": false
+    },
+    {
+     "text": "Only informed after the project",
+     "correct": false
+    },
+    {
+     "text": "Persuaded to engage",
+     "correct": true
+    },
+    {
+     "text": "Removed from the map",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In communal areas, whom should you engage before organising community meetings?",
+   "options": [
+    {
+     "text": "Only input suppliers",
+     "correct": false
+    },
+    {
+     "text": "The traditional council and ward councillor",
+     "correct": true
+    },
+    {
+     "text": "Only universities",
+     "correct": false
+    },
+    {
+     "text": "No one",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act deals with soil conservation and invasive plants on agricultural land?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does reciprocity mean in networking?",
+   "options": [
+    {
+     "text": "Only asking for help",
+     "correct": false
+    },
+    {
+     "text": "Charging partners for information",
+     "correct": false
+    },
+    {
+     "text": "Sharing information and credit back with partners",
+     "correct": true
+    },
+    {
+     "text": "Avoiding regular contact",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should only contact network partners when you need something from them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Information sources should be checked for who produced them, how recent they are and whether they fit local conditions.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a one-page brief for a potential partner include? (select all that apply)",
+   "options": [
+    {
+     "text": "The issue and evidence",
+     "correct": true
+    },
+    {
+     "text": "What you are asking for",
+     "correct": true
+    },
+    {
+     "text": "What you offer in return",
+     "correct": true
+    },
+    {
+     "text": "Personal details of every community member",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

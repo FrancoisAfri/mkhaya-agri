@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-05",
+ "title": "Communicate Operational Information and Data",
+ "lessons": [
+  {
+   "title": "Collecting and organising operational data",
+   "minutes": 18,
+   "html": "<h3>Data in a grain depot</h3>\n<p>A depot produces large amounts of data every day: weighbridge tickets, grading results, bin stock, temperatures, dryer records, fumigation records, maintenance logs, attendance and incidents. This data is used by managers, head office, grain owners, traders, auditors and industry bodies such as SAGIS. Communicating it accurately and on time is a core responsibility.</p>\n<h4>Data quality</h4>\n<p>Good data is:</p>\n<ul>\n<li><strong>Accurate</strong> – correct figures from calibrated equipment.</li>\n<li><strong>Complete</strong> – no missing tickets or grading records.</li>\n<li><strong>Timely</strong> – captured when the event happens.</li>\n<li><strong>Consistent</strong> – same units, codes and definitions everywhere.</li>\n<li><strong>Secure</strong> – protected from unauthorised changes, with audit trails.</li>\n</ul>\n<p>Common data errors include wrong commodity codes, a grade captured against the wrong ticket, mass entered in kilograms instead of tonnes, and duplicate tickets. Build checks into daily routines: reconcile ticket numbers, compare intake tonnes with bin level changes and review exceptions.</p>\n<h4>Turning data into information</h4>\n<p>Raw data must be summarised to be useful. For example:</p>\n<table>\n<tr><th>Raw data</th><th>Information</th></tr>\n<tr><td>420 weighbridge tickets this week</td><td>14 280 t maize received, 92 percent grade 1</td></tr>\n<tr><td>Truck in and out times</td><td>Average turnaround 72 minutes, up from 55</td></tr>\n<tr><td>Temperature cable readings</td><td>Bin 7 warming by 1 degree per week at the core</td></tr>\n</table>\n<p>Use spreadsheets or the depot system to calculate totals, averages, percentages and trends. Check calculations and spot-check against source records before sharing.</p><p>Source documents such as weighbridge tickets and grading certificates must be filed or stored electronically so that any figure in a report can be traced back. Auditors and grain owners may ask to see this trail at any time.</p>"
+  },
+  {
+   "title": "Presenting and sharing information",
+   "minutes": 18,
+   "html": "<h3>Know your audience</h3>\n<p>Different people need different information:</p>\n<ul>\n<li><strong>Shift staff</strong> – today's plan, bin allocations, safety alerts. Short, verbal, visual.</li>\n<li><strong>Supervisors</strong> – shift performance, problems, actions.</li>\n<li><strong>Head office</strong> – weekly and monthly KPIs, variances, risks, financial results.</li>\n<li><strong>Grain owners and traders</strong> – stock statements, certificates, quality results, out-loading schedules.</li>\n<li><strong>Regulators and industry bodies</strong> – required returns in the required format and by the deadline.</li>\n</ul>\n<h3>Presenting data clearly</h3>\n<ol>\n<li>Lead with the key message: \"Intake is 8 percent ahead of plan; turnaround is worsening.\"</li>\n<li>Use tables for exact figures and simple charts for trends: line charts for change over time, bar charts for comparisons.</li>\n<li>Show plan, actual and variance side by side.</li>\n<li>Explain the cause of big variances and the action taken.</li>\n<li>Keep it short; put detailed data in an appendix.</li>\n</ol>\n<h3>Channels</h3>\n<p>Choose the channel to suit urgency and audience: radio and face-to-face for urgent operational issues, briefings and notice boards for staff, email and reports for management, system dashboards for real-time information, and formal letters or statements for clients.</p>\n<h3>Confidentiality</h3>\n<p>Client stock positions, prices and personal details are confidential. Share them only with authorised people, and protect personal information as the Protection of Personal Information Act 4 of 2013 requires. Do not discuss clients' grain holdings in public or on social media.</p>\n<h3>Escalating information</h3>\n<p>Some information must be escalated immediately: serious incidents, suspected contamination, fumigation problems, large stock variances, suspected fraud. Know the escalation lines and do not wait for the weekly report.</p>\n<h4>Key points</h4>\n<ul>\n<li>Depot data must be accurate, complete, timely, consistent and secure.</li>\n<li>Check and reconcile data before turning it into information.</li>\n<li>Tailor information to the audience and lead with the key message.</li>\n<li>Use tables for figures and simple charts for trends, with plan versus actual.</li>\n<li>Protect confidential client information and escalate urgent matters immediately.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a feature of good data?",
+   "options": [
+    {
+     "text": "Accurate and timely",
+     "correct": true
+    },
+    {
+     "text": "Entered in mixed units",
+     "correct": false
+    },
+    {
+     "text": "Captured weeks later",
+     "correct": false
+    },
+    {
+     "text": "Missing some tickets",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which chart best shows change over time?",
+   "options": [
+    {
+     "text": "Line chart",
+     "correct": true
+    },
+    {
+     "text": "No chart",
+     "correct": false
+    },
+    {
+     "text": "Pie chart only",
+     "correct": false
+    },
+    {
+     "text": "A photo",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a management report begin?",
+   "options": [
+    {
+     "text": "With the key message",
+     "correct": true
+    },
+    {
+     "text": "With staff news",
+     "correct": false
+    },
+    {
+     "text": "With raw data",
+     "correct": false
+    },
+    {
+     "text": "With an apology",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A large unexplained stock variance is found. What should happen?",
+   "options": [
+    {
+     "text": "Adjust the figures to hide it",
+     "correct": false
+    },
+    {
+     "text": "Escalate immediately",
+     "correct": true
+    },
+    {
+     "text": "Wait for the monthly report",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a common data error at depots?",
+   "options": [
+    {
+     "text": "Reconciled ticket numbers",
+     "correct": false
+    },
+    {
+     "text": "Daily checks",
+     "correct": false
+    },
+    {
+     "text": "Mass entered in kilograms instead of tonnes",
+     "correct": true
+    },
+    {
+     "text": "Calibrated scales",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Clients’ grain holdings may be discussed on social media.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Different audiences need different information.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks improve data accuracy? (select all that apply)",
+   "options": [
+    {
+     "text": "Comparing intake tonnes with bin level changes",
+     "correct": true
+    },
+    {
+     "text": "Reconciling ticket numbers",
+     "correct": true
+    },
+    {
+     "text": "Deleting records that look odd",
+     "correct": false
+    },
+    {
+     "text": "Reviewing exceptions daily",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

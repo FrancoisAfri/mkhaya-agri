@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119640",
+ "title": "Read/view and respond to a range of text types",
+ "lessons": [
+  {
+   "title": "Reading different kinds of text",
+   "minutes": 15,
+   "html": "<h3>Texts are all around us</h3> <p>A text is anything with words or pictures that gives a message. At work you read many kinds of text:</p> <table><tr><th>Text</th><th>Example</th><th>Why read it</th></tr> <tr><td>Signs</td><td>\"No smoking\", \"Danger - kicking horse\"</td><td>To stay safe</td></tr> <tr><td>Labels</td><td>Fly spray, feed bags, medicine</td><td>To use products correctly</td></tr> <tr><td>Charts and tables</td><td>Feed chart, duty roster</td><td>To know what to do and when</td></tr> <tr><td>Notices</td><td>Meeting on Friday, payday changes</td><td>To get information</td></tr> <tr><td>Forms</td><td>Leave form, incident report</td><td>To fill in and give information</td></tr> <tr><td>Stories and articles</td><td>Farm newsletter, newspaper</td><td>To learn and enjoy</td></tr></table> <h4>Reading signs and symbols</h4> <p>Some signs use pictures, not words. A red circle with a line through it means \"do not\". A yellow triangle means \"warning\". A blue circle means \"you must\", for example \"wear boots\". A green sign shows safety, such as the first aid box or the exit.</p> <h4>Before you read</h4> <ul> <li>Look at the title and pictures. What is it about?</li> <li>Ask yourself: why am I reading this? To find one fact, or to understand everything?</li> </ul> <h4>While you read</h4> <ul> <li>Read slowly. Use your finger to follow the line if it helps.</li> <li>If you do not know a word, read the sentence again. The other words may help. Or ask someone.</li> <li>Look for key words: numbers, names, \"never\", \"always\", \"must\".</li> </ul> <h4>Reading a feed chart</h4> <p>Find the horse's name in the first column. Move your finger across the row to the right column, for example \"evening\". Read the amount and the type of feed. Check the date at the top: is this chart for today?</p>"
+  },
+  {
+   "title": "Understanding and responding to what you read",
+   "minutes": 15,
+   "html": "<h3>Finding the main idea</h3> <p>Every text has a main idea: the most important message. After reading, ask: \"What is this really telling me?\"</p> <p>Example notice: <em>\"From Monday 5 June all grooms must sign the tack room book when they take out a saddle. This is because two saddles went missing last month.\"</em></p> <ul> <li>Main idea: sign the book when you take a saddle.</li> <li>When: from Monday 5 June.</li> <li>Why: saddles went missing.</li> </ul> <h4>Fact or opinion?</h4> <p>A fact can be checked and proved: \"This horse is 16 hands.\" An opinion is what someone thinks: \"This is the most beautiful horse.\" When you read adverts, think carefully. \"The best horse feed in Africa!\" is an opinion.</p> <h4>Reading a product label</h4> <p>Labels on fly sprays, wormers and dips give important information:</p> <ul> <li>The name of the product</li> <li>What it is used for and on which animals</li> <li>How much to use and how often</li> <li>Safety warnings and protective clothing</li> <li>What to do in an emergency</li> </ul> <p>Always follow the label or your vet's instructions. If you do not understand, ask before you use it.</p> <h4>Responding to what you read</h4> <p>Reading often asks you to do something:</p> <ul> <li>A sign says \"Close the gate\" - you close it.</li> <li>A notice asks you to come to a meeting - you go on time.</li> <li>A form asks questions - you write answers.</li> <li>The roster shows you work Sunday - you plan for it.</li> </ul> <p>You can also respond by talking: tell a co-worker what the notice said, or ask your supervisor a question about it.</p> <h4>Reading for enjoyment</h4> <p>Reading stories, magazines and newspapers makes you a better reader. Try reading a little every day, in any language you like. Many farm libraries and clinics have free magazines.</p> <h4>Key points</h4> <ul> <li>Signs, labels, charts, notices, forms and stories are all texts.</li> <li>Look at the title and pictures before you read.</li> <li>Find the main idea, and what, when and why.</li> <li>A fact can be proved; an opinion is what someone thinks.</li> <li>Always respond: act on signs, notices and labels.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A yellow triangle sign usually means what?",
+   "options": [
+    {
+     "text": "You must",
+     "correct": false
+    },
+    {
+     "text": "Warning",
+     "correct": true
+    },
+    {
+     "text": "Safe area",
+     "correct": false
+    },
+    {
+     "text": "Exit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a fact?",
+   "options": [
+    {
+     "text": "This is the best feed in Africa",
+     "correct": false
+    },
+    {
+     "text": "This horse is 16 hands",
+     "correct": true
+    },
+    {
+     "text": "This is the prettiest mare",
+     "correct": false
+    },
+    {
+     "text": "Grey horses are nicer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main idea of a notice saying grooms must sign the tack book when taking a saddle?",
+   "options": [
+    {
+     "text": "Saddles are expensive",
+     "correct": false
+    },
+    {
+     "text": "Sign the book when you take a saddle",
+     "correct": true
+    },
+    {
+     "text": "Meetings are on Monday",
+     "correct": false
+    },
+    {
+     "text": "Clean the saddles",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You find a word you do not know. What is a good first step?",
+   "options": [
+    {
+     "text": "Stop reading forever",
+     "correct": false
+    },
+    {
+     "text": "Read the sentence again to use the other words",
+     "correct": true
+    },
+    {
+     "text": "Skip the whole text",
+     "correct": false
+    },
+    {
+     "text": "Guess and do anything",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A sign says 'Close the gate'. How do you respond?",
+   "options": [
+    {
+     "text": "Leave it open",
+     "correct": false
+    },
+    {
+     "text": "Close the gate",
+     "correct": true
+    },
+    {
+     "text": "Take the sign down",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A blue circle sign usually means something you must do, such as wear boots.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You do not need to check the date on a feed chart.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What information do product labels usually give? (select all that apply)",
+   "options": [
+    {
+     "text": "How much to use",
+     "correct": true
+    },
+    {
+     "text": "Safety warnings",
+     "correct": true
+    },
+    {
+     "text": "What it is used for",
+     "correct": true
+    },
+    {
+     "text": "The groom's name",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

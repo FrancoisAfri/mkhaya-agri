@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8187",
+ "title": "Care for electronic equipment and measuring instruments",
+ "lessons": [
+  {
+   "title": "Electronic equipment and instruments at work",
+   "minutes": 15,
+   "html": "<h3>Instruments we depend on</h3><p>In a food factory or abattoir, many decisions depend on electronic equipment and measuring instruments. If they are wrong, the product can be unsafe or the business loses money.</p><h4>Examples</h4><table><tr><th>Instrument</th><th>Used for</th></tr><tr><td>Probe thermometer</td><td>Measuring meat or product temperature</td></tr><tr><td>Chiller and freezer thermometers and data loggers</td><td>Recording room temperatures</td></tr><tr><td>Scales</td><td>Weighing carcasses, cartons and ingredients</td></tr><tr><td>pH meter</td><td>Measuring acidity of meat or water</td></tr><tr><td>Metal detector</td><td>Finding metal pieces in packed product</td></tr><tr><td>Handheld scanners and tablets</td><td>Recording data and barcodes</td></tr><tr><td>Electric stunners</td><td>Stunning animals (only trained operators)</td></tr></table><h4>Why care matters</h4><ul><li>A thermometer that reads 2 degrees too low can let warm meat be despatched.</li><li>A scale that reads wrong means customers are over- or under-charged.</li><li>Broken equipment stops production.</li><li>Electronic equipment is expensive to replace.</li></ul><h4>Basic rules</h4><ul><li>Use equipment only for its purpose and as you were trained.</li><li>Read the instructions or ask your supervisor if unsure.</li><li>Never use equipment that is damaged, wet inside or shows an error.</li><li>Report problems at once.</li></ul><h4>Who looks after equipment?</h4><p>Everyone who uses equipment must look after it. Your supervisor makes sure equipment is checked and repaired. A technician or outside company services and calibrates it. You must use it correctly, keep it clean, check it before use and report problems.</p><p>Know which instruments are used in your area and where they are kept. Learn how each one works. If a new instrument comes, ask for training before you use it. Treat instruments with care: do not drop them, throw them or leave them where they can be knocked over or stood on.</p>"
+  },
+  {
+   "title": "Using and cleaning instruments",
+   "minutes": 15,
+   "html": "<h3>Using instruments correctly</h3><h4>Probe thermometers</h4><ol><li>Clean and sanitise the probe before use.</li><li>Push the probe into the thickest part of the meat, not touching bone.</li><li>Wait until the reading is steady.</li><li>Write down the reading, time and product.</li><li>Clean and sanitise the probe after use, and before the next product.</li></ol><h4>Scales</h4><ul><li>Check the scale shows zero before you weigh. Press \"zero\" or \"tare\" if needed.</li><li>Put the item in the middle of the scale.</li><li>Do not drop heavy items on the scale.</li><li>Do not go over the maximum weight on the label.</li></ul><h4>Cleaning electronic equipment</h4><ul><li>Switch off or unplug before cleaning, if the instructions say so.</li><li>Do not spray water directly onto electronic parts unless the equipment is made to be washed down. Use a damp cloth and the cleaning product allowed.</li><li>Keep the screen and buttons clean and dry.</li><li>Do not use sharp objects to press buttons or scratch the screen.</li></ul><h4>Batteries and charging</h4><ul><li>Charge handheld devices at the charging station at the end of the shift.</li><li>Replace batteries in thermometers when the low battery sign shows.</li><li>Dispose of old batteries in the battery bin, not in general waste.</li></ul><h4>Electrical safety</h4><ul><li>Never touch plugs or switches with wet hands.</li><li>Check cables for cuts and damage. Do not use damaged cables.</li><li>Keep cables off wet floors where possible.</li></ul><p>Ask for help if unsure.</p><p>Follow the instructions for each instrument, and ask your supervisor to show you how to clean it.</p>"
+  },
+  {
+   "title": "Checking, storing and reporting",
+   "minutes": 15,
+   "html": "<h3>Is the instrument accurate?</h3><p>Instruments must be checked regularly to make sure they give the right reading. This is called <strong>verification</strong> or <strong>calibration</strong>.</p><h4>Simple checks you may do</h4><ul><li><strong>Thermometer ice-point check:</strong> put the probe in a cup of crushed ice and a little water. After it settles, it should read about 0 °C. If it is wrong by more than your procedure allows, report it.</li><li><strong>Scale check:</strong> weigh a known test weight. The scale must show the correct weight.</li><li>Write the result, date and your name on the check sheet.</li></ul><p>Full calibration is done by a trained technician or an outside company, at the times set by the company. Scales used for trade may need to meet legal metrology requirements.</p><h4>Storing equipment</h4><ul><li>Store in the case or holder provided, in a clean, dry place.</li><li>Do not leave instruments in hot sun, in a freezer, or on wet floors unless they are made for it.</li><li>Do not put heavy things on top of them.</li><li>Return shared equipment to its place at the end of the shift.</li></ul><h4>Reporting faults</h4><ol><li>Stop using the equipment.</li><li>Put a \"Do not use\" tag on it.</li><li>Tell your supervisor what happened.</li><li>Fill in the fault report or maintenance form.</li><li>Use a back-up instrument if there is one.</li></ol><p>Never open electronic equipment or try to repair it yourself unless you are trained and allowed.</p><h4>Key points</h4><ul><li>Instruments such as thermometers and scales protect food safety and fair trade.</li><li>Clean and sanitise probes before and after use.</li><li>Check scales show zero and do not overload them.</li><li>Do ice-point and test-weight checks and record them.</li><li>Tag and report faulty equipment; do not repair it yourself.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should a probe thermometer be pushed into meat?",
+   "options": [
+    {
+     "text": "Into the bone",
+     "correct": false
+    },
+    {
+     "text": "Into the thickest part, not touching bone",
+     "correct": true
+    },
+    {
+     "text": "Just under the surface",
+     "correct": false
+    },
+    {
+     "text": "Into the fat only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a thermometer read in crushed ice and a little water?",
+   "options": [
+    {
+     "text": "About 0 °C",
+     "correct": true
+    },
+    {
+     "text": "About 10 °C",
+     "correct": false
+    },
+    {
+     "text": "About 37 °C",
+     "correct": false
+    },
+    {
+     "text": "About −18 °C",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check before weighing on a scale?",
+   "options": [
+    {
+     "text": "That the scale is warm",
+     "correct": false
+    },
+    {
+     "text": "That it shows zero",
+     "correct": true
+    },
+    {
+     "text": "That it is wet",
+     "correct": false
+    },
+    {
+     "text": "That it is overloaded",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with old batteries?",
+   "options": [
+    {
+     "text": "Put them in general waste",
+     "correct": false
+    },
+    {
+     "text": "Burn them",
+     "correct": false
+    },
+    {
+     "text": "Put them in the battery bin",
+     "correct": true
+    },
+    {
+     "text": "Leave them in the device",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if an instrument shows an error?",
+   "options": [
+    {
+     "text": "Hit it until it works",
+     "correct": false
+    },
+    {
+     "text": "Open it and repair it",
+     "correct": false
+    },
+    {
+     "text": "Stop using it, tag it and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Keep using it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may spray water directly onto any electronic equipment.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A thermometer that reads too low can allow warm meat to be despatched.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good ways to store instruments? (select all that apply)",
+   "options": [
+    {
+     "text": "In the case or holder provided",
+     "correct": true
+    },
+    {
+     "text": "In a clean, dry place",
+     "correct": true
+    },
+    {
+     "text": "In hot sun on the dashboard",
+     "correct": false
+    },
+    {
+     "text": "Back in their place at the end of the shift",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

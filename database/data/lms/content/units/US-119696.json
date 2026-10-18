@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119696",
+ "title": "Identify and prepare soils for landscaped planting",
+ "lessons": [
+  {
+   "title": "Topsoil and subsoil",
+   "minutes": 15,
+   "html": "<h3>Layers in the soil</h3><p>If you dig a deep hole in a garden or on a farm, you will see that the soil is not the same all the way down. It has layers.</p><ul><li><strong>Topsoil</strong> is the top layer. It is usually darker, soft and crumbly. It is full of roots, earthworms, small living things and old plant material (humus). It is often only a hand or two deep.</li><li><strong>Subsoil</strong> is under the topsoil. It is usually lighter in colour, such as red, yellow or grey. It is harder and has fewer roots and less food for plants.</li><li>Under the subsoil there may be rock or gravel.</li></ul><h4>Why topsoil is precious</h4><p>Plants grow best in topsoil because it holds food, water and air. It takes hundreds of years for nature to make a few centimetres of topsoil. But it can be lost in one storm if it is left bare, or in one day if a machine scrapes it away.</p><h4>How to protect topsoil on a landscape job</h4><ol><li>Before building or digging, scrape off the topsoil and put it in a separate heap.</li><li>Put the subsoil in another heap. Never mix the two.</li><li>Keep the topsoil heap low and covered, so rain and wind do not wash it away.</li><li>When the building work is done, spread the subsoil back first, then the topsoil on top.</li><li>Do not drive bakkies or machines over areas you will plant. Wheels press the soil hard.</li><li>Cover bare soil with mulch or plants as soon as possible.</li></ol><p>Saving the soil is also the law on farms. The Conservation of Agricultural Resources Act 43 of 1983 is there to protect soil and water from damage.</p><h4>Safety when digging</h4><ul><li>Ask your supervisor where pipes and cables are before you dig.</li><li>Wear safety boots and gloves.</li><li>Keep spades and forks with the sharp side down when not in use.</li><li>Do not stand in a deep hole whose sides may fall in.</li></ul>"
+  },
+  {
+   "title": "The three main soil types",
+   "minutes": 15,
+   "html": "<h3>Sand, clay and loam</h3><p>Soil is made of tiny pieces of rock. The size of the pieces gives the soil its type. There are three main types.</p><table><tr><th>Soil type</th><th>How it feels</th><th>Good and bad</th></tr><tr><td><strong>Sandy soil</strong></td><td>Gritty and loose. Falls apart in your hand.</td><td>Drains water fast and is easy to dig. But dries out quickly and loses plant food.</td></tr><tr><td><strong>Clay soil</strong></td><td>Sticky when wet. Hard and cracked when dry. Can be rolled into a long thin sausage.</td><td>Holds water and food. But drains slowly, gets waterlogged and is hard to dig.</td></tr><tr><td><strong>Loam soil</strong></td><td>Soft and crumbly. Holds together a little, then breaks.</td><td>A mix of sand, silt and clay. Best for most plants.</td></tr></table><h4>The hand test</h4><ol><li>Take a small handful of soil.</li><li>Add a little water and work it in your hand until it is like putty.</li><li>Feel it. Gritty means sand. Smooth and sticky means clay.</li><li>Try to roll it into a sausage. If it falls apart, it is sandy. If it makes a long thin sausage that bends without breaking, it has a lot of clay. If it makes a short sausage that cracks, it is loam.</li></ol><h4>The jar test</h4><p>Fill a glass jar one third with soil. Fill it up with water and shake well. Leave it to stand for a day. Sand sinks first to the bottom. Silt settles in the middle. Clay settles on top, slowly. You can see how much of each part is in your soil.</p><h4>What this means for planting</h4><ul><li>Sandy soil needs extra compost and more frequent watering. Common in coastal gardens and the Kalahari areas.</li><li>Clay soil needs compost to open it up. Do not dig it when it is very wet. Black clay soils (turf) are found in parts of Gauteng and the Free State.</li><li>Loam needs compost to stay good.</li></ul>"
+  },
+  {
+   "title": "Digging and enriching the soil before planting",
+   "minutes": 15,
+   "html": "<h3>Why we dig before planting</h3><p>New roots grow easily in loose soil. Hard soil stops roots, keeps water out and lets rain run off. Digging (or tilling) opens the soil.</p><h4>What digging does</h4><ul><li>Breaks hard, packed soil so roots can grow deep</li><li>Lets air and water into the soil</li><li>Removes weeds, roots of grass and stones</li><li>Mixes in compost and fertiliser</li></ul><h4>How to dig a bed</h4><ol><li>Mark out the bed with string and pegs.</li><li>Remove weeds and lawn grass, including the roots. Kikuyu and couch grass grow back from small pieces.</li><li>Dig with a spade or fork to about one spade deep. Turn each spadeful over and break up big clods.</li><li>Take out stones, building rubble and rubbish.</li><li>Do not dig when soil is very wet; it becomes like hard bricks when it dries.</li><li>Rake the bed level.</li></ol><p>Lift the spade with your legs, not your back. Take short breaks and drink water in the heat.</p><h4>Adding soil enrichments</h4><p>Most garden soils need extra food and organic matter before planting.</p><table><tr><th>Enrichment</th><th>What it does</th></tr><tr><td>Compost</td><td>Feeds soil life, holds water in sand, opens up clay</td></tr><tr><td>Well-rotted manure</td><td>Adds plant food and organic matter. Must be old, not fresh, or it burns roots.</td></tr><tr><td>Bone meal or superphosphate</td><td>Helps roots grow</td></tr><tr><td>Other fertiliser</td><td>Feeds the plants; use the amount on the bag</td></tr><tr><td>Lime or gypsum</td><td>Only when your supervisor says, after a soil test</td></tr></table><p>Spread the compost about a spade blade thick and dig it into the top layer. Mix fertiliser as the bag says. Wear gloves when handling manure and fertiliser, and wash your hands afterwards. Water the bed before planting.</p><h4>Key points</h4><ul><li>Topsoil is dark and full of life; keep it separate from subsoil and protect it.</li><li>Sandy soil is gritty, clay is sticky, and loam is crumbly and best for most plants.</li><li>Dig to loosen soil, remove weeds and stones, but not when it is very wet.</li><li>Add compost and the right fertiliser before planting.</li><li>Lift safely and wear gloves.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which layer is dark, crumbly and full of roots and earthworms?",
+   "options": [
+    {
+     "text": "Topsoil",
+     "correct": true
+    },
+    {
+     "text": "Subsoil",
+     "correct": false
+    },
+    {
+     "text": "Rock",
+     "correct": false
+    },
+    {
+     "text": "Gravel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with topsoil before building work starts?",
+   "options": [
+    {
+     "text": "Mix it with the subsoil",
+     "correct": false
+    },
+    {
+     "text": "Throw it away",
+     "correct": false
+    },
+    {
+     "text": "Scrape it off and keep it in a separate heap",
+     "correct": true
+    },
+    {
+     "text": "Drive machines over it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil type feels sticky and can be rolled into a long thin sausage?",
+   "options": [
+    {
+     "text": "Sandy soil",
+     "correct": false
+    },
+    {
+     "text": "Clay soil",
+     "correct": true
+    },
+    {
+     "text": "Loam soil",
+     "correct": false
+    },
+    {
+     "text": "Compost",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the jar test, which part sinks to the bottom first?",
+   "options": [
+    {
+     "text": "Clay",
+     "correct": false
+    },
+    {
+     "text": "Silt",
+     "correct": false
+    },
+    {
+     "text": "Water",
+     "correct": false
+    },
+    {
+     "text": "Sand",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must manure be well rotted before you add it to a bed?",
+   "options": [
+    {
+     "text": "It is cheaper",
+     "correct": false
+    },
+    {
+     "text": "It changes colour",
+     "correct": false
+    },
+    {
+     "text": "Fresh manure can burn roots",
+     "correct": true
+    },
+    {
+     "text": "Rotted manure kills earthworms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should dig clay soil when it is very wet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Compost helps sandy soil hold water and opens up clay soil.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What does digging a bed before planting do? (select all that apply)",
+   "options": [
+    {
+     "text": "Lets air and water into the soil",
+     "correct": true
+    },
+    {
+     "text": "Removes weeds and stones",
+     "correct": true
+    },
+    {
+     "text": "Makes the soil hard and packed",
+     "correct": false
+    },
+    {
+     "text": "Lets roots grow deeper",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

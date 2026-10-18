@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8138",
+ "title": "Pricing of merchandise",
+ "lessons": [
+  {
+   "title": "How a selling price is worked out",
+   "minutes": 15,
+   "html": "<h3>Why pricing matters</h3><p>Every item in the store needs the right price. If the price is too low, the store loses money. If it is too high, farmers buy elsewhere. If the price on the shelf is different from the price at the till, customers get angry and the store can get into trouble under the Consumer Protection Act 68 of 2008, which says customers should not be charged more than the displayed price.</p><h4>Words you must know</h4><table><tr><th>Word</th><th>Meaning</th></tr><tr><td>Cost price</td><td>What the store pays the supplier</td></tr><tr><td>Mark-up</td><td>The amount or percentage added to the cost</td></tr><tr><td>Selling price</td><td>What the customer pays</td></tr><tr><td>VAT</td><td>Value-added tax, added to most items</td></tr></table><h4>A simple example</h4><p>A 20 litre drum of dip costs the store R800 (before VAT). The manager says the mark-up is 25%.</p><ol><li>25% of R800 = R800 x 25 / 100 = R200.</li><li>Cost plus mark-up = R800 + R200 = R1,000.</li><li>Add VAT at the rate in force. At 15%, VAT on R1,000 is R150.</li><li>Selling price including VAT = R1,150.</li></ol><p>Always use the VAT rate your store system gives you. Some basic foods are zero-rated, so the manager or system will tell you which items have VAT.</p><h4>Who decides the price?</h4><p>The manager or head office sets the mark-up and selling prices. Your job is to put the correct, approved price on the goods. Do not change prices on your own. If you think a price is wrong, for example a 50 kg bag is cheaper than a 25 kg bag, tell your supervisor.</p>"
+  },
+  {
+   "title": "Putting prices on goods and shelves",
+   "minutes": 15,
+   "html": "<h3>Ways to show price</h3><ul><li><strong>Price sticker</strong> on each item, made with a price gun or printer.</li><li><strong>Shelf label</strong> on the shelf edge, under the product.</li><li><strong>Barcode</strong> read by the scanner at the till.</li><li><strong>Price board</strong> for bulk items in the yard, like poles and cement.</li></ul><h4>Steps for pricing new stock</h4><ol><li>Get the approved price list or print-out from the system.</li><li>Check the product name, size and code on the list against the item.</li><li>Set the price gun or print the labels.</li><li>Put stickers in the same place on each item, where they are easy to see. Do not cover the expiry date, the safety warnings or the instructions on a chemical label.</li><li>Put the shelf label right under the product it belongs to.</li><li>Scan one item at the till to check the system price matches the label.</li></ol><h4>Price changes</h4><p>When a supplier raises prices, the store changes its selling prices. Remove or cover the old sticker completely. Two prices on one item confuse the customer. Change the shelf label at the same time as the system price.</p><h4>Specials</h4><p>A special has a start date and an end date. Put up the special price on the first day and take it down on the last day. Old special signs left on the shelf cause arguments at the till.</p><h4>Checking prices</h4><p>Walk the shelves often. Look for missing labels, wrong labels and faded stickers. Fix them or report them.</p><h4>Key points</h4><ul><li>Selling price = cost price + mark-up, plus VAT where it applies.</li><li>Only use prices approved by the manager or system.</li><li>Never cover safety warnings or expiry dates with a sticker.</li><li>Shelf label, sticker and till price must all match.</li><li>Remove old prices and expired specials.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is mark-up?",
+   "options": [
+    {
+     "text": "A discount",
+     "correct": false
+    },
+    {
+     "text": "The amount added to the cost price",
+     "correct": true
+    },
+    {
+     "text": "The VAT on an item",
+     "correct": false
+    },
+    {
+     "text": "The price the supplier pays",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Cost price is R400 and mark-up is 25%. What is the price before VAT?",
+   "options": [
+    {
+     "text": "R500",
+     "correct": true
+    },
+    {
+     "text": "R425",
+     "correct": false
+    },
+    {
+     "text": "R450",
+     "correct": false
+    },
+    {
+     "text": "R100",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you NOT put a price sticker on a chemical container?",
+   "options": [
+    {
+     "text": "On the cap",
+     "correct": false
+    },
+    {
+     "text": "Over the safety warnings",
+     "correct": true
+    },
+    {
+     "text": "On the side",
+     "correct": false
+    },
+    {
+     "text": "On the shelf label",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see a 50 kg bag priced lower than a 25 kg bag of the same feed. What do you do?",
+   "options": [
+    {
+     "text": "Remove both bags",
+     "correct": false
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    },
+    {
+     "text": "Change it yourself",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can you check that the till price matches the label?",
+   "options": [
+    {
+     "text": "Scan one item at the till",
+     "correct": true
+    },
+    {
+     "text": "Guess",
+     "correct": false
+    },
+    {
+     "text": "Look at last year's price list",
+     "correct": false
+    },
+    {
+     "text": "Ask a customer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When a price changes, the old sticker must be removed or completely covered.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A special price sign can stay up after the end date of the special.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which ways of showing price are used in an agri store? (select all that apply)",
+   "options": [
+    {
+     "text": "Price sticker",
+     "correct": true
+    },
+    {
+     "text": "Shelf label",
+     "correct": true
+    },
+    {
+     "text": "Barcode",
+     "correct": true
+    },
+    {
+     "text": "A price written on the floor",
+     "correct": false
+    },
+    {
+     "text": "A price you say from memory",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

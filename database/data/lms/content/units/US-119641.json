@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-119641",
+ "title": "Identify and respond to selected literary texts",
+ "lessons": [
+  {
+   "title": "Stories, poems and songs",
+   "minutes": 15,
+   "html": "<h3>What are literary texts?</h3><p>Literary texts are stories, poems, songs, plays and folktales. People tell and write them to share feelings, ideas and experiences. They can make us laugh, cry or think. In South Africa we have many stories and poems in all our languages.</p><h4>Kinds of literary texts</h4><table><tr><th>Kind</th><th>What it is</th></tr><tr><td>Story</td><td>Tells what happens to people, often with a beginning, a middle and an end</td></tr><tr><td>Folktale</td><td>An old story told by grandparents, often with animals like the hare or the jackal</td></tr><tr><td>Poem</td><td>Short lines with rhythm, sometimes rhyme, full of feeling</td></tr><tr><td>Praise poem</td><td>A poem that praises a person, family or leader</td></tr><tr><td>Song</td><td>Words with music, like work songs, church songs or songs at weddings</td></tr><tr><td>Play</td><td>A story acted out by people</td></tr><tr><td>Proverb</td><td>A short saying with a lesson</td></tr></table><h4>Stories on the farm</h4><p>Many farm workers know work songs sung while harvesting or loading, and stories told at night. These are literary texts too. They carry the history and wisdom of families and communities.</p><h4>Parts of a story</h4><ul><li><strong>Characters:</strong> the people or animals in the story.</li><li><strong>Setting:</strong> where and when the story happens, for example on a farm in a dry winter.</li><li><strong>Plot:</strong> what happens, step by step.</li><li><strong>Problem:</strong> something goes wrong or someone wants something.</li><li><strong>Ending:</strong> how the problem is solved.</li><li><strong>Lesson or message:</strong> what the story teaches us.</li></ul><h4>Example</h4><p>In many folktales, the clever hare tricks the bigger animals. The lesson is often that being clever can be better than being strong, but tricking others can also bring trouble.</p>"
+  },
+  {
+   "title": "Responding to a text",
+   "minutes": 15,
+   "html": "<h3>How to read or listen well</h3><ol><li>Look at the title. What do you think the text will be about?</li><li>Read or listen to the whole text once.</li><li>Read or listen again, slowly.</li><li>Ask yourself: Who? What? Where? When? Why?</li><li>Find words you do not know. Ask someone or use a dictionary.</li></ol><h4>Talking about the text</h4><p>After reading, you can say what you think. There is no single right feeling. But you must say <em>why</em>, using the text.</p><ul><li>\"I liked the old man in the story because he helped the boy find his lost cattle.\"</li><li>\"The poem made me sad because it talks about the dry dam and the hungry animals.\"</li><li>\"I did not like how the story ended, because the thief was not caught.\"</li></ul><h4>Poems: listen to the sounds</h4><p>Read a poem out loud. Listen for:</p><ul><li><strong>Rhyme:</strong> words that sound the same at the end, like \"rain\" and \"grain\".</li><li><strong>Repetition:</strong> words or lines said again and again.</li><li><strong>Pictures in your mind:</strong> words that help you see, hear or smell things, like \"the red dust rising behind the tractor\".</li></ul><h4>Linking to your life</h4><p>Ask: Has this happened to me or my family? Do I know someone like this character? What would I do? This helps you understand the text and yourself.</p><h4>Sharing</h4><p>You can respond by talking in a group, drawing a picture, writing a few sentences, retelling the story in your own words, or acting it out. Listen to others with respect. They may see the text differently.</p><h4>Key points</h4><ul><li>Literary texts include stories, folktales, poems, songs, plays and proverbs.</li><li>Stories have characters, a setting, a plot, a problem and an ending.</li><li>Read or listen more than once and ask who, what, where, when and why.</li><li>Say what you think and give a reason from the text.</li><li>Listen to the sounds and pictures in poems, and respect other views.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the setting of a story?",
+   "options": [
+    {
+     "text": "The ending",
+     "correct": false
+    },
+    {
+     "text": "The title",
+     "correct": false
+    },
+    {
+     "text": "The people in it",
+     "correct": false
+    },
+    {
+     "text": "Where and when it happens",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a folktale?",
+   "options": [
+    {
+     "text": "A price list",
+     "correct": false
+    },
+    {
+     "text": "An old story told by grandparents, often with animals",
+     "correct": true
+    },
+    {
+     "text": "A safety sign",
+     "correct": false
+    },
+    {
+     "text": "A newspaper report",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which pair of words rhyme?",
+   "options": [
+    {
+     "text": "Rain and grain",
+     "correct": true
+    },
+    {
+     "text": "Cow and sheep",
+     "correct": false
+    },
+    {
+     "text": "Tractor and bakkie",
+     "correct": false
+    },
+    {
+     "text": "Farm and field",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which response gives a reason from the text?",
+   "options": [
+    {
+     "text": "I don't know.",
+     "correct": false
+    },
+    {
+     "text": "It was okay.",
+     "correct": false
+    },
+    {
+     "text": "I liked the old man because he helped the boy find his cattle.",
+     "correct": true
+    },
+    {
+     "text": "I liked it.",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are characters?",
+   "options": [
+    {
+     "text": "The place",
+     "correct": false
+    },
+    {
+     "text": "The words that rhyme",
+     "correct": false
+    },
+    {
+     "text": "The people or animals in a story",
+     "correct": true
+    },
+    {
+     "text": "The page numbers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Work songs sung on farms can be literary texts.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "There is only one right feeling about a poem.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to respond to a story? (select all that apply)",
+   "options": [
+    {
+     "text": "Talking in a group",
+     "correct": true
+    },
+    {
+     "text": "Drawing a picture",
+     "correct": true
+    },
+    {
+     "text": "Retelling it in your own words",
+     "correct": true
+    },
+    {
+     "text": "Tearing up the book",
+     "correct": false
+    },
+    {
+     "text": "Ignoring others",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

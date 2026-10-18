@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123153",
+ "title": "Apply quality assurance in the wool and mohair fibre industry",
+ "lessons": [
+  {
+   "title": "What quality assurance means",
+   "minutes": 15,
+   "html": "<h3>Getting it right every time</h3><p>Quality assurance (QA) means working in a way that makes sure the product and service are right every time. In the wool and mohair industry, buyers all over the world buy fibre without seeing every bale. They trust the description, the test results and the bale marks. QA protects that trust.</p><h4>What can go wrong</h4><ul><li>Wrong bale numbers, so test results go to the wrong lot.</li><li>Wrong weights.</li><li>Samples not taken correctly.</li><li>Contamination with plastic, string, paint, stones or coloured fibre.</li><li>Wet or damaged bales.</li><li>Bales dispatched to the wrong buyer.</li></ul><p>Each mistake costs money: the farmer may be paid less, the buyer may claim back money, and South Africa's name as a supplier suffers.</p><h4>Standards we work to</h4><ul><li>Industry classing and packing standards.</li><li>International testing rules (IWTO) used by laboratories.</li><li>The store's own procedures for receiving, weighing, sampling, storing and dispatching.</li><li>Buyer requirements such as animal welfare and responsible production standards.</li></ul><h4>Your role</h4><p>Everyone in the store is part of QA: follow procedures exactly, check your own work, keep records and report problems.</p><h4>An example</h4><p>A farmer from the Karoo sends twelve bales of young goat mohair. One bale is marked with the wrong number at receiving. Its core sample is then labelled with the wrong lot, and the test result is linked to another farmer's lot. One small mistake now affects two farmers, the buyer who buys on the test certificate, and the broker who must sort out the claim. If the receiving clerk had checked the mark against the farmer's specification, the mistake would have been stopped at the first step. This is why QA is about checking at every stage, not only at the end.</p>"
+  },
+  {
+   "title": "Checks at each stage",
+   "minutes": 15,
+   "html": "<h3>Build quality into every step</h3><table><tr><th>Stage</th><th>Quality checks</th></tr><tr><td>Receiving</td><td>Bale count, marks and numbers match the farmer's specification; bales dry and undamaged</td></tr><tr><td>Weighing</td><td>Scale calibrated and at zero; mass recorded against the right bale</td></tr><tr><td>Sampling</td><td>Correct method; every bale sampled; samples sealed and labelled</td></tr><tr><td>Binning</td><td>Only like types together; contamination removed</td></tr><tr><td>Storage</td><td>Dry, clean, pest-free; lots kept together and located on the store plan</td></tr><tr><td>Dispatch</td><td>Right bales to right buyer; clean vehicle; papers signed</td></tr></table><h4>Contamination control</h4><ul><li>Never use plastic (polypropylene) string or bags near open fibre.</li><li>Use only approved marking ink or paint on bale packs, not on fibre.</li><li>Keep the store free of loose rubbish.</li><li>Keep oil and fuel away from fibre.</li></ul><h4>Checking your own work</h4><p>Before you finish a task, check it: read the bale number twice, look at the label again, count again. A two-second check saves hours of tracing a mistake.</p><h4>Storage checks in more detail</h4><p>Walk through the store at the start and end of each shift. Look at the roof and walls for leaks after rain, because water on bales causes rot and staining. Look for rat and bird droppings and damaged packs. Check that each lot is still in the bay shown on the store plan, so it can be found quickly for display or dispatch. Make sure walkways and fire exits are clear. Write what you checked on the store check sheet and report anything wrong to your supervisor the same day.</p>"
+  },
+  {
+   "title": "Non-conformance and continuous improvement",
+   "minutes": 15,
+   "html": "<h3>When something is not right</h3><p>A <strong>non-conformance</strong> is anything that does not meet the standard or procedure, for example a wet bale, a wrong mark or a missing sample.</p><h4>What to do</h4><ol><li><strong>Identify</strong> – notice the problem.</li><li><strong>Isolate</strong> – keep the problem bale or sample apart and mark it, so it is not used by mistake.</li><li><strong>Report</strong> – tell the supervisor at once.</li><li><strong>Record</strong> – write it in the non-conformance register: date, what, where, who found it.</li><li><strong>Correct</strong> – the supervisor decides the action, such as re-weighing, re-sampling or contacting the farmer.</li></ol><h4>Find the cause</h4><p>Fixing the problem is not enough. Ask why it happened so it does not happen again. For example, if bale numbers are often misread, maybe the lighting is poor or the marks are smudged. A change in method might solve it.</p><h4>Audits</h4><p>Inspectors and auditors check stores to see that procedures are followed and records are correct. Good daily records make audits easy.</p><h4>Records</h4><ul><li>Write clearly in pen, sign and date.</li><li>Never rub out or change a record; draw one line through a mistake, write the correct value and sign.</li><li>Keep records for as long as the company requires.</li></ul><h4>Key points</h4><ul><li>QA makes sure fibre, samples and records are right every time.</li><li>Each stage — receiving, weighing, sampling, binning, storage, dispatch — has its own checks.</li><li>Keep plastic, oil and rubbish away from fibre.</li><li>For a non-conformance: identify, isolate, report, record, correct.</li><li>Find the cause so the problem does not happen again.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is quality assurance?",
+   "options": [
+    {
+     "text": "Only testing fibre at the end",
+     "correct": false
+    },
+    {
+     "text": "Selling fibre quickly",
+     "correct": false
+    },
+    {
+     "text": "Working so that the product and service are right every time",
+     "correct": true
+    },
+    {
+     "text": "Counting workers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a non-conformance?",
+   "options": [
+    {
+     "text": "Anything that does not meet the standard or procedure",
+     "correct": true
+    },
+    {
+     "text": "A buyer's order",
+     "correct": false
+    },
+    {
+     "text": "A type of fibre",
+     "correct": false
+    },
+    {
+     "text": "A bale that meets the standard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first with a wet bale you find?",
+   "options": [
+    {
+     "text": "Mix it with dry bales",
+     "correct": false
+    },
+    {
+     "text": "Send it out quickly",
+     "correct": false
+    },
+    {
+     "text": "Isolate and mark it, then report it",
+     "correct": true
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you correct a mistake on a written record?",
+   "options": [
+    {
+     "text": "Use correction fluid and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Rub it out",
+     "correct": false
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Draw one line through it, write the correct value and sign",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which helps control contamination?",
+   "options": [
+    {
+     "text": "Using plastic string near open fibre",
+     "correct": false
+    },
+    {
+     "text": "Leaving rubbish in the store",
+     "correct": false
+    },
+    {
+     "text": "Storing fuel next to fibre",
+     "correct": false
+    },
+    {
+     "text": "Using only approved marking on bale packs and keeping oil away from fibre",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Finding the cause of a problem helps stop it from happening again.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Quality assurance is only the supervisor's job.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are quality checks at receiving? (select all that apply)",
+   "options": [
+    {
+     "text": "Marks and numbers are correct",
+     "correct": true
+    },
+    {
+     "text": "The truck driver's lunch",
+     "correct": false
+    },
+    {
+     "text": "Bales are dry and undamaged",
+     "correct": true
+    },
+    {
+     "text": "Bale count matches the specification",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

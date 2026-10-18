@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-PM-06",
+  "title": "Initiate and maintain first line discipline",
+  "lessons": [
+    {
+      "title": "Discipline as a supervisor's tool",
+      "minutes": 15,
+      "html": "<h3>What first line discipline means</h3><p>As a dairy supervisor you are the first line of management. You see the work every day, so you are the first person to notice when a worker breaks a rule or does not perform. First line discipline means dealing with these problems early, fairly and consistently, before they grow into serious cases.</p><p>The aim of discipline is <strong>to correct behaviour</strong>, not to punish. A good milker who arrives late three times needs a conversation and a clear expectation, not a dismissal.</p><h4>The legal framework</h4><ul><li>The <strong>Labour Relations Act 66 of 1995</strong> protects workers against unfair dismissal and unfair labour practices.</li><li>Schedule 8 of the LRA, the <strong>Code of Good Practice: Dismissal</strong>, sets out how discipline should be handled: rules must be known, discipline should be progressive and corrective, and workers must be given a fair hearing.</li><li>The <strong>Basic Conditions of Employment Act 75 of 1997</strong> sets working hours, leave and other conditions that also apply on farms.</li><li>Disputes can be referred to the CCMA.</li></ul><h4>The farm's disciplinary code</h4><p>Every farm should have a written disciplinary code and procedure. It lists rules and the likely sanction for each offence. Typical dairy farm rules include:</p><ul><li>Arriving on time for milking, which cannot wait.</li><li>Following the milking routine and keeping treated milk out of the tank.</li><li>No alcohol or drugs at work.</li><li>Treating animals humanely, as the Animals Protection Act 71 of 1962 requires.</li><li>Following safety rules and wearing protective equipment.</li></ul><p>As supervisor you must know the code, explain it to your team and make sure new workers receive it in a language they understand. A worker cannot fairly be disciplined for breaking a rule they did not know about, unless the rule is obvious, such as not stealing.</p><h4>Consistency</h4><p>Treat similar offences in the same way for all workers. If you ignore one person's late coming and discipline another, the process becomes unfair and the team loses trust in you.</p>"
+    },
+    {
+      "title": "Handling minor misconduct and warnings",
+      "minutes": 15,
+      "html": "<h3>Progressive discipline</h3><p>Progressive discipline means the response grows stronger if the behaviour continues. A common sequence is:</p><table><tr><th>Step</th><th>Who usually handles it</th></tr><tr><td>Informal counselling or verbal discussion</td><td>Supervisor</td></tr><tr><td>Verbal warning (recorded)</td><td>Supervisor</td></tr><tr><td>Written warning</td><td>Supervisor or manager</td></tr><tr><td>Final written warning</td><td>Manager after an enquiry</td></tr><tr><td>Dismissal</td><td>Manager after a formal hearing</td></tr></table><p>Serious misconduct, such as theft, assault, gross cruelty to animals or being drunk while driving a tractor, may go straight to a formal hearing. Check your farm's code and your level of authority.</p><h4>How to hold a corrective discussion</h4><ol><li><strong>Act soon.</strong> Deal with the issue the same day or the next day.</li><li><strong>Get the facts.</strong> What happened, when, who saw it? Check records such as the clock card or milking times.</li><li><strong>Meet in private.</strong> Never reprimand a worker in front of the team.</li><li><strong>Explain the rule</strong> and what the worker did. Stick to facts, not personal opinions.</li><li><strong>Listen.</strong> Give the worker a chance to explain. There may be a reason, such as a sick child or a transport problem.</li><li><strong>Agree on the way forward</strong>: what must change and by when.</li><li><strong>Record</strong> the discussion and outcome, and ask the worker to sign. If they refuse, note this with a witness.</li></ol><h4>Issuing a warning</h4><p>A written warning should state the offence, date, the rule broken, the expected improvement, how long the warning stays valid according to the code, and the consequence of repeating the offence. Give the worker a copy. Workers may have a representative, such as a fellow worker or shop steward, as the code allows.</p><p>Do not threaten, swear or make promises you cannot keep. Keep your tone calm and respectful.</p>"
+    },
+    {
+      "title": "Poor performance, hearings and records",
+      "minutes": 15,
+      "html": "<h3>Misconduct versus poor performance</h3><p>Not every problem is misconduct. A worker who <em>will not</em> follow the routine is a misconduct issue. A worker who <em>cannot</em> do it properly, for example a new milker who misses mastitis cases, is a performance issue. Poor performance is handled with training, coaching and support first, giving the worker reasonable time to improve.</p><h4>Steps for poor performance</h4><ul><li>Set clear standards, for example cows per hour, milking routine steps, records filled in.</li><li>Show the worker the gap between the standard and their work.</li><li>Arrange training or coaching and check progress.</li><li>Record each review. If there is still no improvement after fair support, refer to the manager.</li></ul><h4>Preparing for a formal hearing</h4><p>When a case is serious, your role is usually to bring the facts to the manager or chairperson. Prepare:</p><ol><li>A short written statement of what happened.</li><li>Evidence: records, photos, witness names, previous warnings.</li><li>The rule from the disciplinary code that was broken.</li></ol><p>The worker must get written notice of the hearing and the charge, enough time to prepare, the right to a representative and an interpreter if needed, and the chance to state their case. The chairperson should be someone who was not involved in the incident.</p><h4>Keeping records</h4><p>Keep disciplinary records confidential and filed safely. Good records protect both the worker and the farm if a case goes to the CCMA. Remove expired warnings from active use according to the code.</p><h4>Preventing problems</h4><p>Many discipline issues come from unclear instructions, poor housing or transport, or tiredness from long shifts. Talk to your team, fix what you can and raise the rest with management.</p><h4>Key points</h4><ul><li>Discipline should be corrective, consistent and fair.</li><li>Know the farm's disciplinary code and the LRA Code of Good Practice: Dismissal.</li><li>Deal with problems early, in private, and listen to the worker.</li><li>Handle poor performance with training and support before sanctions.</li><li>Record every discussion and warning, and keep records confidential.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the main aim of first line discipline?",
+      "options": [
+        {
+          "text": "To punish workers",
+          "correct": false
+        },
+        {
+          "text": "To correct behaviour early",
+          "correct": true
+        },
+        {
+          "text": "To reduce the number of workers",
+          "correct": false
+        },
+        {
+          "text": "To avoid paying overtime",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should a corrective discussion take place?",
+      "options": [
+        {
+          "text": "In front of the whole team",
+          "correct": false
+        },
+        {
+          "text": "In the parlour during milking",
+          "correct": false
+        },
+        {
+          "text": "In private",
+          "correct": true
+        },
+        {
+          "text": "Over the farm radio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which document sets out guidelines for fair dismissal in South Africa?",
+      "options": [
+        {
+          "text": "Schedule 8 of the Labour Relations Act, the Code of Good Practice: Dismissal",
+          "correct": true
+        },
+        {
+          "text": "The National Water Act",
+          "correct": false
+        },
+        {
+          "text": "The farm's feed sheet",
+          "correct": false
+        },
+        {
+          "text": "The Animal Diseases Act",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A new milker cannot spot mastitis cases yet. This is best treated as:",
+      "options": [
+        {
+          "text": "Gross misconduct",
+          "correct": false
+        },
+        {
+          "text": "A reason for immediate dismissal",
+          "correct": false
+        },
+        {
+          "text": "Something to ignore",
+          "correct": false
+        },
+        {
+          "text": "A performance issue needing training and support",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Who should chair a formal disciplinary hearing?",
+      "options": [
+        {
+          "text": "The supervisor who saw the incident",
+          "correct": false
+        },
+        {
+          "text": "Someone who was not involved in the incident",
+          "correct": true
+        },
+        {
+          "text": "The worker's family member",
+          "correct": false
+        },
+        {
+          "text": "Any witness",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Treating similar offences differently for different workers makes the process unfair.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "If a worker refuses to sign a warning, the warning should be torn up.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What rights should a worker have before a formal hearing? (select all that apply)",
+      "options": [
+        {
+          "text": "Written notice of the charge",
+          "correct": true
+        },
+        {
+          "text": "Time to prepare",
+          "correct": true
+        },
+        {
+          "text": "A representative as the code allows",
+          "correct": true
+        },
+        {
+          "text": "The right to choose the sanction",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

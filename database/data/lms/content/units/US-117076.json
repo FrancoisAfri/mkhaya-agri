@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-117076",
+ "title": "Prepare, operate and maintain a tractor in a non-production situation",
+ "lessons": [
+  {
+   "title": "Knowing the tractor",
+   "minutes": 15,
+   "html": "<h3>Tractors on farms and plantations</h3> <p>Tractors pull trailers of timber, poles and feed, and work implements such as slashers and rippers. This unit is about driving a tractor safely in a non-production situation: moving it around the yard and on roads, without working an implement in production. Only trained and authorised drivers may operate a tractor.</p> <h4>Main parts and controls</h4> <table> <tr><th>Part or control</th><th>What it does</th></tr> <tr><td>Engine</td><td>Usually diesel; gives power</td></tr> <tr><td>Clutch pedal</td><td>Disconnects the engine from the wheels to change gear or stop</td></tr> <tr><td>Brake pedals</td><td>Left and right brakes; lock them together for road driving</td></tr> <tr><td>Gear lever and range lever</td><td>Select speed and direction</td></tr> <tr><td>Hand throttle and foot throttle</td><td>Control engine speed</td></tr> <tr><td>Parking brake</td><td>Holds the tractor when parked</td></tr> <tr><td>Three-point linkage and hydraulic lever</td><td>Lift and lower implements</td></tr> <tr><td>PTO lever</td><td>Drives implements; keep off when not in use</td></tr> <tr><td>Differential lock</td><td>Locks the rear wheels together for grip; never use when turning</td></tr> <tr><td>Instruments</td><td>Oil pressure, temperature, charging, fuel, hour meter</td></tr> <tr><td>ROPS and seat belt</td><td>Roll-over protection; always wear the belt when the ROPS is up</td></tr> </table> <h4>The biggest dangers</h4> <ul> <li><strong>Roll-overs</strong>: on slopes, ditches, river banks, and when turning too fast. Always use the ROPS and seat belt.</li> <li><strong>Run-overs</strong>: people falling off or being run over. Never carry passengers unless there is a proper passenger seat.</li> <li><strong>PTO entanglement</strong>: loose clothing caught in a turning shaft.</li> <li><strong>Starting in gear</strong>: never start the tractor from the ground beside the wheels.</li> </ul> <p>Read the operator's manual for your tractor. Each model has its own controls and warnings.</p>"
+  },
+  {
+   "title": "Preparing and starting the tractor",
+   "minutes": 15,
+   "html": "<h3>Daily pre-start checks</h3> <p>Do these with the engine off, on level ground. Use the checklist your workplace gives you and sign it.</p> <h4>Walk-around</h4> <ul> <li>Look for leaks of oil, fuel, coolant or hydraulic oil under and around the tractor.</li> <li>Tyres: pressure looks right, no cuts or bulges, wheel nuts tight.</li> <li>ROPS and seat belt in good condition.</li> <li>Lights, indicators, mirrors, reflectors and slow-moving vehicle sign clean and working.</li> <li>PTO guard in place.</li> <li>Steps and platform clean; no tools or loose objects in the cab.</li> </ul> <h4>Fluid checks</h4> <ul> <li>Engine oil on the dipstick between the marks.</li> <li>Coolant level in the reservoir (check only when cool).</li> <li>Hydraulic and transmission oil level.</li> <li>Fuel. Refuel with the engine off, no smoking.</li> <li>Air filter: empty the dust bowl or check the indicator.</li> <li>Grease the daily grease points as the manual shows.</li> <li>Battery terminals clean and tight.</li> </ul> <h3>Getting on and starting</h3> <ol> <li>Climb on facing the tractor, using the steps and handholds (three points of contact).</li> <li>Adjust the seat and fasten the seat belt.</li> <li>Check the parking brake is on, gears in neutral, PTO off, hydraulic lever down.</li> <li>Press the clutch if the tractor requires it.</li> <li>Turn the key. Use the cold-start aid only as the manual says.</li> <li>Check that the oil pressure and charging lights go out. If the oil light stays on, switch off at once and report.</li> <li>Let the engine warm up at low speed for a short time.</li> </ol> <p>If any check shows a fault that affects safety, such as a flat tyre, leaking brake fluid or a broken seat belt, do not use the tractor. Tag it and tell your supervisor.</p><p>Never start a tractor in a closed shed without ventilation. Diesel exhaust is dangerous.</p>"
+  },
+  {
+   "title": "Driving, parking and after-use care",
+   "minutes": 15,
+   "html": "<h3>Driving safely</h3> <ul> <li>Look all around, sound the hooter and check no one is near before moving.</li> <li>Choose a low gear and release the clutch smoothly.</li> <li>Drive at a speed that suits the ground. Slow down on rough roads, in the yard and near people.</li> <li>Lock the brake pedals together before driving on roads or at speed.</li> <li>On slopes, drive straight up and down, not across. Go down in a low gear; never coast in neutral or with the clutch pressed.</li> <li>Keep away from the edges of ditches, dams and river banks.</li> <li>Turn slowly. Never use the diff lock when turning.</li> <li>Look behind before reversing.</li> <li>Keep both hands on the wheel. No cell phone use while driving.</li> <li>On public roads, obey traffic rules, use lights and pull over to let traffic pass where safe.</li> </ul> <h3>Parking and shut-down</h3> <ol> <li>Park on level, firm ground, away from traffic and not on slopes if possible.</li> <li>Lower any implement or loader to the ground.</li> <li>Put the gears in neutral and apply the parking brake.</li> <li>Switch off the PTO.</li> <li>Let the engine idle for a short time to cool, especially a turbo engine, then switch off.</li> <li>Remove the key.</li> <li>Climb down facing the tractor, using three points of contact. Never jump.</li> </ol> <h3>Care after use</h3> <ul> <li>Clean mud, grass and debris from the radiator, engine area and steps.</li> <li>Check for new leaks or damage.</li> <li>Refuel at the end of the day if the farm prefers, to reduce condensation in the tank.</li> <li>Write the hours and any faults on the logbook or checklist.</li> <li>Report faults; do not use a tractor with faulty brakes, steering or lights.</li> <li>Service at the hours the manual and workshop schedule say.</li> </ul> <h4>Key points</h4> <ul> <li>Always wear the seat belt with the ROPS up; never carry passengers without a seat.</li> <li>Do the pre-start checks and sign the checklist.</li> <li>Start only from the seat, in neutral, with the PTO off.</li> <li>Drive straight up and down slopes, lock the brakes together on roads.</li> <li>Park with implements down, parking brake on and key removed.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you always wear when the ROPS is up?",
+   "options": [
+    {
+     "text": "The seat belt",
+     "correct": true
+    },
+    {
+     "text": "A watch",
+     "correct": false
+    },
+    {
+     "text": "A tie",
+     "correct": false
+    },
+    {
+     "text": "Nothing extra",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When must the brake pedals be locked together?",
+   "options": [
+    {
+     "text": "When parked",
+     "correct": false
+    },
+    {
+     "text": "For road driving or at speed",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "When turning sharply in the field",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you drive on a slope?",
+   "options": [
+    {
+     "text": "Straight up and down",
+     "correct": true
+    },
+    {
+     "text": "In neutral going down",
+     "correct": false
+    },
+    {
+     "text": "Across the slope",
+     "correct": false
+    },
+    {
+     "text": "With the diff lock on while turning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the oil pressure light stays on after starting?",
+   "options": [
+    {
+     "text": "Drive faster",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Add fuel",
+     "correct": false
+    },
+    {
+     "text": "Switch off at once and report",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you get on and off the tractor?",
+   "options": [
+    {
+     "text": "Jumping down",
+     "correct": false
+    },
+    {
+     "text": "Over the rear wheel",
+     "correct": false
+    },
+    {
+     "text": "While it is moving",
+     "correct": false
+    },
+    {
+     "text": "Facing the tractor with three points of contact",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to start a tractor while standing on the ground beside the wheel.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The differential lock should never be used when turning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong to parking and shutting down a tractor? (select all that apply)",
+   "options": [
+    {
+     "text": "Remove the key",
+     "correct": true
+    },
+    {
+     "text": "Apply the parking brake",
+     "correct": true
+    },
+    {
+     "text": "Lower implements to the ground",
+     "correct": true
+    },
+    {
+     "text": "Leave the PTO running",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

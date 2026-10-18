@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612101001-KM-03",
+  "title": "Livestock health care",
+  "lessons": [
+    {
+      "title": "Recognising sick animals",
+      "minutes": 20,
+      "html": "<h3>Recognising sick animals</h3><p>The earlier a sick animal is found, the cheaper and more successful treatment is. On an extensive farm, animals may only be seen every few days, so every visit to a camp must include a deliberate health check.</p><h4>Watch from a distance first</h4><ul><li>Is the animal with the herd or standing alone?</li><li>Is it grazing and ruminating, or standing with its head down?</li><li>Is it walking normally, or lame, stiff or staggering?</li><li>Is the belly swollen (bloat) or hollow (not eating)?</li><li>Is the breathing fast or laboured?</li></ul><h4>Then look closer</h4><p>In the crush or kraal you can check the eyes (bright or dull, discharge), the gums and eyelids (pink or pale, yellow), the nose (wet and clean or crusty), the dung (normal, runny, bloody, dry), the skin (ticks, wounds, lumps, hair loss) and body temperature with a rectal thermometer. Compare temperature with the reference range your vet gives you for the species and age.</p><h4>Body condition scoring</h4><p>Body condition score (BCS) is a hands-on rating of how much fat and muscle an animal carries, felt over the backbone, ribs and tail head. Scores dropping across a whole herd usually point to a feed problem; one thin animal in a good herd points to disease, worms or bad teeth.</p><h4>Recording and reporting</h4><p>Write down the animal's tag number, the signs, the date and what was done. Report to the supervisor the same day. Some diseases, such as foot-and-mouth disease, anthrax and rabies, are controlled under the Animal Diseases Act 35 of 1984 and must be reported to the state veterinarian. Do not open a carcass of an animal that died suddenly with blood from the nose or anus - anthrax is possible and it can infect people. Keep people and dogs away and call the vet.</p>"
+    },
+    {
+      "title": "Common diseases and parasites",
+      "minutes": 20,
+      "html": "<h3>Common diseases and parasites</h3><h4>Causes of disease</h4><p>Disease can be caused by viruses, bacteria, protozoa, internal and external parasites, poisonous plants, poor nutrition and injury. Knowing the cause tells you whether it can spread and how to prevent it.</p><h4>Tick-borne diseases</h4><p>Ticks spread some of the most costly diseases in South Africa:</p><ul><li><strong>Redwater</strong> (babesiosis) - fever, red-brown urine, anaemia.</li><li><strong>Gallsickness</strong> (anaplasmosis) - fever, yellow gums, constipation.</li><li><strong>Heartwater</strong> - fever and nervous signs such as high stepping and circling; carried by the bont tick.</li></ul><p>Tick control is done by dipping, spraying or pour-on, using registered products under Act 36 of 1947 and following the label for dose, interval and withdrawal period.</p><h4>Internal parasites</h4><p>Wireworm (haemonchus) sucks blood in sheep and goats and causes anaemia and bottle jaw. Tapeworm, liver fluke and coccidia also cause losses. The FAMACHA eye-colour chart helps decide which sheep and goats need dosing, so that you do not dose every animal and speed up resistance.</p><h4>Bacterial and viral diseases</h4><ul><li><strong>Pulpy kidney</strong> in lambs on rich feed - sudden death.</li><li><strong>Botulism</strong> in cattle that chew bones because of phosphate shortage.</li><li><strong>Lumpy skin disease</strong> - lumps over the skin, spread by biting insects.</li><li><strong>Brucellosis</strong> - abortions; can infect people through milk and afterbirths.</li></ul><h4>Zoonoses</h4><p>Diseases that pass from animals to people are called zoonoses. Anthrax, brucellosis, rabies and Q fever are examples. Always wear gloves when handling afterbirths or aborted foetuses, wash your hands, and never drink raw milk from untested herds.</p><h4>Plant poisoning</h4><p>Not every sudden death is an infectious disease. Poisonous plants cause heavy losses in South Africa, especially when hungry animals are moved into a new camp or after fire and early rain. Report sudden deaths or nervous signs after a camp move, so the supervisor and vet can check for poisonous plants.</p>"
+    },
+    {
+      "title": "Prevention, treatment and safe use of remedies",
+      "minutes": 20,
+      "html": "<h3>Prevention, treatment and safe use of remedies</h3><h4>The herd health plan</h4><p>Prevention is cheaper than cure. Every farm should have a health plan drawn up with a vet that sets out vaccinations, parasite control, mineral supplements and biosecurity for the year. Vaccinations are timed to the farming calendar, for example before the breeding season, before lambing or before the rainy season when insect-borne diseases increase.</p><h4>Biosecurity</h4><ul><li>Buy animals from known, healthy herds.</li><li>Keep new animals in a quarantine camp before mixing.</li><li>Maintain boundary fences to keep out neighbours' animals.</li><li>Clean vehicles and equipment that move between farms.</li><li>Dispose of carcasses properly and promptly.</li></ul><h4>Giving medicines</h4><p>Medicines may be given by mouth (dosing gun), by injection under the skin or into the muscle, by pour-on, or into the teat. Always read the label: species, dose per kilogram, route, storage and <strong>withdrawal period</strong> - the time before milk or meat may be sold. Weigh or estimate weight accurately. Use clean needles and change them often. Record every treatment.</p><h4>Safety with remedies</h4><ul><li>Wear the gloves and protective clothing the label requires.</li><li>Never eat, drink or smoke while handling dips and doses.</li><li>Store remedies locked away from children and food.</li><li>Return empty containers according to the label and never reuse them for water or food.</li><li>Restrain animals properly to avoid needle-stick injuries and kicks.</li></ul><p>Antibiotics should be used only as directed by a vet. Wrong use builds resistance and leaves residues in food.</p><h4>Key points</h4><ul><li>Check animals deliberately on every visit and record what you see.</li><li>Ticks spread redwater, gallsickness and heartwater.</li><li>Some diseases must be reported to the state vet; do not open suspect anthrax carcasses.</li><li>Follow the label for dose and withdrawal period every time.</li><li>Wear gloves when handling afterbirths and remedies.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which disease is carried by the bont tick and causes nervous signs such as circling?",
+      "options": [
+        {
+          "text": "Redwater",
+          "correct": false
+        },
+        {
+          "text": "Heartwater",
+          "correct": true
+        },
+        {
+          "text": "Pulpy kidney",
+          "correct": false
+        },
+        {
+          "text": "Brucellosis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "One thin cow in an otherwise well-conditioned herd most likely points to:",
+      "options": [
+        {
+          "text": "A herd-wide feed shortage",
+          "correct": false
+        },
+        {
+          "text": "Too much rain",
+          "correct": false
+        },
+        {
+          "text": "Disease, worms or bad teeth in that animal",
+          "correct": true
+        },
+        {
+          "text": "Overfeeding",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the withdrawal period of a remedy?",
+      "options": [
+        {
+          "text": "The time before milk or meat from a treated animal may be sold",
+          "correct": true
+        },
+        {
+          "text": "The time the product can stay on the shelf",
+          "correct": false
+        },
+        {
+          "text": "How long it takes to inject",
+          "correct": false
+        },
+        {
+          "text": "The time between two vaccinations",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the FAMACHA chart used for?",
+      "options": [
+        {
+          "text": "Scoring udder health",
+          "correct": false
+        },
+        {
+          "text": "Measuring body temperature",
+          "correct": false
+        },
+        {
+          "text": "Counting ticks",
+          "correct": false
+        },
+        {
+          "text": "Deciding which sheep and goats need dosing for wireworm",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Cattle chewing bones because of phosphate shortage are at risk of:",
+      "options": [
+        {
+          "text": "Heartwater",
+          "correct": false
+        },
+        {
+          "text": "Botulism",
+          "correct": true
+        },
+        {
+          "text": "Lumpy skin disease",
+          "correct": false
+        },
+        {
+          "text": "Mastitis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You should open the carcass of an animal that died suddenly with blood from the nose to find the cause.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "New animals should be kept in a quarantine camp before they mix with the herd.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these are zoonoses (diseases that can pass to people)? (select all that apply)",
+      "options": [
+        {
+          "text": "Anthrax",
+          "correct": true
+        },
+        {
+          "text": "Brucellosis",
+          "correct": true
+        },
+        {
+          "text": "Bloat",
+          "correct": false
+        },
+        {
+          "text": "Rabies",
+          "correct": true
+        },
+        {
+          "text": "Acidosis",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

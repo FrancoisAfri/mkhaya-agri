@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264182",
+ "title": "Operate brushcutters in the horticultural environment",
+ "lessons": [
+  {
+   "title": "Know the brushcutter and prepare safely",
+   "minutes": 15,
+   "html": "<h3>What a brushcutter does</h3>\n<p>A brushcutter (often called a weed-eater) is a hand-held machine with an engine at one end and a cutting head at the other. It is used to cut grass along edges, fences, walls and around trees, and to clear long grass and light bush on banks and in camps.</p>\n<h4>Main parts</h4>\n<ul><li>Two-stroke or four-stroke petrol engine (some are battery-powered)</li>\n<li>Shaft and handles (bicycle handle or loop handle)</li>\n<li>Harness that carries the weight on your shoulders</li>\n<li>Cutting head: nylon line head, or metal blade for thick growth</li>\n<li>Guard over the cutting head – never remove it</li>\n<li>Throttle, throttle lock and stop switch</li></ul>\n<h4>Personal protective equipment</h4>\n<ul><li>Face visor and safety glasses (stones and sticks fly out at high speed)</li>\n<li>Ear muffs</li>\n<li>Safety boots and long trousers or chaps</li>\n<li>Gloves</li>\n<li>Hard hat when working near trees or with a blade</li></ul>\n<h4>Before you start</h4>\n<ol><li>Walk the area first. Remove stones, wire, bottles, cans and sticks.</li>\n<li>Look for hidden things: sprinkler heads, pipes, tree roots, snakes.</li>\n<li>Check the machine: guard on, blade or line head tight and not cracked, no fuel leaks, stop switch working.</li>\n<li>Mix fuel exactly as the manufacturer says for two-stroke engines. Wrong oil mix damages the engine.</li>\n<li>Refuel on bare ground with the engine stopped and cool. No smoking. Wipe up spills. Move 3 m away before starting.</li></ol>\n<h4>The 15-metre rule</h4>\n<p>Keep other people and animals at least 15 metres away while the machine is running. Stop the engine if anyone comes closer.</p>"
+  },
+  {
+   "title": "Cutting technique and care of the machine",
+   "minutes": 15,
+   "html": "<h3>Starting</h3>\n<ol><li>Put the machine on the ground, cutting head clear of anything.</li>\n<li>Switch on, set choke if the engine is cold, press the primer bulb.</li>\n<li>Hold the machine firmly and pull the starter rope smoothly.</li>\n<li>Put on the harness and adjust it so the cutting head is just above the ground.</li></ol>\n<h3>Cutting</h3>\n<ul><li>Stand with feet apart and balanced. Keep both hands on the handles.</li>\n<li>Swing the head in a smooth arc from side to side, walking slowly forward.</li>\n<li>With a nylon line head, cut with the tip of the line. Do not push the head into the grass.</li>\n<li>With a blade, cut on the left side of the blade (for a head that turns anticlockwise) to avoid blade thrust (kickback). Your supervisor will show you on your machine.</li>\n<li>Near trees, keep the line away from the bark. Line damage rings the bark and can kill young trees. Use tree guards.</li>\n<li>Cut long grass in two passes: top half first, then low.</li>\n<li>Work so that cut material is thrown away from paths, cars and windows.</li></ul>\n<h3>Do not</h3>\n<ul><li>Do not lift the head above knee height while running.</li>\n<li>Do not work on steep wet slopes where you could slip.</li>\n<li>Do not clear jams with the engine running. Stop the engine first.</li>\n<li>Do not use a blade on stony ground.</li></ul>\n<h3>After work</h3>\n<ol><li>Stop the engine and let it cool.</li>\n<li>Clean grass off the guard, head and air vents.</li>\n<li>Check and clean the air filter. Check the line and blade.</li>\n<li>Store the machine and fuel in a locked, ventilated store.</li>\n<li>Report any fault. Do not use a damaged machine.</li></ol>\n<h4>Key points</h4>\n<ul><li>Always wear a visor, ear muffs, boots and long trousers.</li>\n<li>Clear the area of stones and objects before cutting.</li>\n<li>Keep people and animals at least 15 m away.</li>\n<li>Refuel only with the engine off and cool, and never smoke.</li>\n<li>Stop the engine before clearing jams or doing maintenance.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must you walk the area before using a brushcutter?",
+   "options": [
+    {
+     "text": "To measure the grass height",
+     "correct": false
+    },
+    {
+     "text": "To find the shade",
+     "correct": false
+    },
+    {
+     "text": "To remove stones, wire and other objects that can be thrown",
+     "correct": true
+    },
+    {
+     "text": "To water the grass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How far should other people be kept away while a brushcutter is running?",
+   "options": [
+    {
+     "text": "2 metres",
+     "correct": false
+    },
+    {
+     "text": "At least 15 metres",
+     "correct": true
+    },
+    {
+     "text": "5 metres",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you refuel the brushcutter?",
+   "options": [
+    {
+     "text": "With the engine stopped and cool",
+     "correct": true
+    },
+    {
+     "text": "While the engine is running",
+     "correct": false
+    },
+    {
+     "text": "While smoking",
+     "correct": false
+    },
+    {
+     "text": "Inside the store room",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if grass jams the cutting head?",
+   "options": [
+    {
+     "text": "Pull it out with the engine running",
+     "correct": false
+    },
+    {
+     "text": "Kick it",
+     "correct": false
+    },
+    {
+     "text": "Speed up the engine",
+     "correct": false
+    },
+    {
+     "text": "Stop the engine first, then clear it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should nylon line be kept away from tree bark?",
+   "options": [
+    {
+     "text": "It makes the line longer",
+     "correct": false
+    },
+    {
+     "text": "It can ring the bark and kill young trees",
+     "correct": true
+    },
+    {
+     "text": "It cleans the tree",
+     "correct": false
+    },
+    {
+     "text": "It feeds the tree",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The guard over the cutting head may be removed to cut faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A face visor and ear muffs are required PPE when using a brushcutter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should you do on the machine before starting? (select all that apply)",
+   "options": [
+    {
+     "text": "Guard is fitted",
+     "correct": true
+    },
+    {
+     "text": "Blade or line head is tight and not cracked",
+     "correct": true
+    },
+    {
+     "text": "Remove the stop switch",
+     "correct": false
+    },
+    {
+     "text": "No fuel leaks",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

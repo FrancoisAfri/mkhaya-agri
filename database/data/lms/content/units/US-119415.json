@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119415",
+ "title": "Operate a processing scanner in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "What the processing scanner does",
+   "minutes": 15,
+   "html": "<h3>Scanners on the processing line</h3>\n<p>In a modern poultry abattoir, products are tracked from the line to the cold store and onto the delivery truck. A <strong>processing scanner</strong> reads the barcode or label on each tray, bag, box or crate and records it in the computer system. Some plants also use scanners or cameras that check birds or portions on the line and sort them by grade or size. In this unit we focus on scanning product codes, but the same care applies to any scanner.</p>\n<h4>Why scanning matters</h4>\n<ul>\n<li><strong>Traceability</strong> – if there is a problem, the plant can find which farm, batch and day the product came from, and recall it if needed.</li>\n<li><strong>Stock control</strong> – the system knows how many boxes of each product are in the cold store.</li>\n<li><strong>Correct orders</strong> – customers get the right product, weight and quantity.</li>\n<li><strong>Payment</strong> – invoices are based on what was scanned.</li>\n</ul>\n<h4>Types of scanner</h4>\n<table><tr><th>Type</th><th>How it works</th></tr>\n<tr><td>Fixed scanner</td><td>Mounted over a conveyor; reads boxes as they pass</td></tr>\n<tr><td>Handheld scanner</td><td>You point it at the barcode and press the trigger</td></tr>\n<tr><td>Scanner linked to a scale</td><td>Reads the product and records its weight together</td></tr>\n</table>\n<h4>What a barcode tells the system</h4>\n<p>A barcode or label on chicken product usually includes the product code (for example whole bird, fillets or IQF portions), the batch or lot number, the production date, the best-before or use-by date and often the weight. The scanner reads this so that you do not have to type it in. Typing mistakes are one of the main reasons for wrong stock and wrong orders.</p>"
+  },
+  {
+   "title": "Starting up and scanning product",
+   "minutes": 20,
+   "html": "<h3>Before you start</h3>\n<ol>\n<li>Wash your hands and wear your PPE. Scanners in the clean area are part of the food-contact environment and must be kept clean.</li>\n<li>Check the scanner for damage: cracked window, loose cables, broken trigger or low battery.</li>\n<li>Switch on and log in with your own user name, if your plant uses log-ins. Never use someone else's log-in.</li>\n<li>Select the correct production run, order or product on the screen, as your supervisor tells you.</li>\n<li>Do a test scan on a known label and check the screen shows the right product.</li>\n</ol>\n<h4>Scanning correctly</h4>\n<ul>\n<li>Hold a handheld scanner a short distance from the barcode, at a slight angle, until it beeps.</li>\n<li>Check the screen every time: right product, right date, right quantity.</li>\n<li>Scan each item only once. A double scan counts the product twice.</li>\n<li>Do not miss items. An item that is not scanned does not exist in the system.</li>\n<li>For a fixed scanner, make sure boxes go through with the label facing the scanner and are spaced out, not touching.</li>\n</ul>\n<h4>When a scan fails</h4>\n<p>A scan can fail because the label is wet, torn, smudged, folded, frosted or printed badly. Do not keep hitting the trigger.</p>\n<ol>\n<li>Wipe the label gently if it is only wet.</li>\n<li>If it still fails, put the item aside in the reject area.</li>\n<li>Tell your supervisor or the labelling operator so a new label can be printed.</li>\n<li>Only enter codes by hand if your plant allows it and you are trained to do so. Check every digit.</li>\n</ol>\n<p>If many labels fail, the label printer may have a problem. Report it straight away, before hundreds of boxes are packed with bad labels.</p>\n<p><strong>Safety:</strong> Do not reach over a moving conveyor to scan. Never look into a laser scanner beam or point it at someone's eyes.</p>"
+  },
+  {
+   "title": "Errors, cleaning and end of shift",
+   "minutes": 15,
+   "html": "<h3>Dealing with errors</h3>\n<p>The scanner screen or beep tells you if something is wrong. Common messages:</p>\n<table><tr><th>Message</th><th>What to do</th></tr>\n<tr><td>Wrong product for this order</td><td>Do not force it. Put it aside and tell your supervisor.</td></tr>\n<tr><td>Item already scanned</td><td>Check you did not double scan. Do not scan again.</td></tr>\n<tr><td>Product expired or date wrong</td><td>Stop and report. It must not be sent out.</td></tr>\n<tr><td>No connection</td><td>Report to your supervisor or IT; keep product aside until the system works.</td></tr>\n</table>\n<p>If you scan something by mistake, ask your supervisor to correct it. Do not try to hide the error.</p>\n<h4>Cleaning the scanner</h4>\n<ul>\n<li>Clean it at breaks and at the end of the shift as the cleaning schedule says.</li>\n<li>Wipe with a damp cloth and the approved sanitiser. Do not spray water directly onto it unless it is made for wash-down.</li>\n<li>Keep the scanner window clean. Fat and frost on the window stop it reading.</li>\n<li>Never use a hose on electrical equipment.</li>\n</ul>\n<h4>End of shift</h4>\n<ol>\n<li>Finish all scans and close the run or order on the screen.</li>\n<li>Check the total scanned matches the count from the line or the order. Report differences.</li>\n<li>Log out.</li>\n<li>Put handheld scanners on the charger.</li>\n<li>Report any damage or faults in the logbook.</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>Scanning gives traceability, stock control and correct orders.</li>\n<li>Check the scanner and do a test scan before starting.</li>\n<li>Scan each item once and check the screen every time.</li>\n<li>Put aside items that fail to scan and report label problems.</li>\n<li>Clean the scanner with a damp cloth, charge it and log out at shift end.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main reason products are scanned in a poultry abattoir?",
+   "options": [
+    {
+     "text": "To make the line faster only",
+     "correct": false
+    },
+    {
+     "text": "To track product for traceability and stock control",
+     "correct": true
+    },
+    {
+     "text": "To cook the product",
+     "correct": false
+    },
+    {
+     "text": "To weigh the crates",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if you scan the same box twice?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "The product is counted twice",
+     "correct": true
+    },
+    {
+     "text": "The label is deleted",
+     "correct": false
+    },
+    {
+     "text": "The box is cleaned",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with an item whose label will not scan after wiping it?",
+   "options": [
+    {
+     "text": "Throw it away",
+     "correct": false
+    },
+    {
+     "text": "Keep pressing the trigger",
+     "correct": false
+    },
+    {
+     "text": "Put it aside and report it so a new label can be printed",
+     "correct": true
+    },
+    {
+     "text": "Send it out without scanning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the scanner says the product is expired?",
+   "options": [
+    {
+     "text": "Scan it again",
+     "correct": false
+    },
+    {
+     "text": "Stop and report it; it must not be sent out",
+     "correct": true
+    },
+    {
+     "text": "Change the date by hand",
+     "correct": false
+    },
+    {
+     "text": "Hide the box",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you clean a handheld scanner?",
+   "options": [
+    {
+     "text": "Spray it with a hose",
+     "correct": false
+    },
+    {
+     "text": "Wipe it with a damp cloth and approved sanitiser",
+     "correct": true
+    },
+    {
+     "text": "Put it in the knife steriliser",
+     "correct": false
+    },
+    {
+     "text": "Never clean it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may use another worker's log-in on the scanner if yours is not working.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If many labels fail to scan, the label printer may have a problem and you should report it straight away.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should you do before starting to scan? (select all that apply)",
+   "options": [
+    {
+     "text": "Check the scanner for damage",
+     "correct": true
+    },
+    {
+     "text": "Do a test scan on a known label",
+     "correct": true
+    },
+    {
+     "text": "Select the correct run or order",
+     "correct": true
+    },
+    {
+     "text": "Switch off the cold store",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL115433",
+ "title": "Advanced Diploma in Wildlife Management",
+ "lessons": [
+  {
+   "title": "Applied wildlife management and research",
+   "minutes": 20,
+   "html": "<h3>Wildlife management at advanced level</h3>\n<p>The Advanced Diploma in Wildlife Management (NQF 7) deepens skills for people who manage game ranches, protected areas and conservancies, carry out wildlife research, or work in statutory compliance. At this level the manager must move beyond routine tasks to evidence-based decisions.</p>\n<h4>Population management</h4>\n<p>Wildlife populations grow, stabilise or decline depending on birth rates, deaths, immigration and emigration. Managers need to understand:</p>\n<ul><li><strong>Population estimates</strong> from aerial counts, road strip counts, camera traps and dung counts, each with known biases.</li>\n<li><strong>Sex and age ratios</strong>, which affect breeding potential and trophy quality.</li>\n<li><strong>Density dependence</strong>: as numbers approach the carrying capacity of the habitat, condition and breeding drop.</li>\n<li><strong>Small population risks</strong>: inbreeding and loss of genetic diversity in fenced reserves, managed through metapopulation planning and translocation.</li></ul>\n<h4>Designing a research or monitoring project</h4>\n<ol><li>State a clear question, e.g. \"Is the impala population limiting woody regrowth near the river?\"</li>\n<li>Choose methods: vegetation plots, exclosures, transects, camera traps.</li>\n<li>Plan sampling with replicates and controls so results are reliable.</li>\n<li>Collect data consistently and store it safely.</li>\n<li>Analyse with appropriate statistics and present results honestly, including uncertainty.</li>\n<li>Translate findings into management actions and monitor whether they work (adaptive management).</li></ol>\n<h4>Habitat management</h4>\n<p>Habitat drives wildlife numbers. Managers plan fire regimes, control alien invasive plants under the Conservation of Agricultural Resources Act 43 of 1983 and the Biodiversity Act regulations, manage bush encroachment, and place or close waterpoints to spread grazing pressure. Erosion control and riverine protection are also key.</p>"
+  },
+  {
+   "title": "Statutory compliance and ranch management",
+   "minutes": 18,
+   "html": "<h3>The legal framework</h3>\n<p>Wildlife in South Africa is regulated at national and provincial level.</p>\n<table><tr><th>Law or instrument</th><th>Relevance</th></tr>\n<tr><td>National Environmental Management Act 107 of 1998 (NEMA)</td><td>Environmental authorisation for developments, duty of care</td></tr>\n<tr><td>National Environmental Management: Biodiversity Act 10 of 2004</td><td>Threatened or Protected Species (TOPS) regulations, alien and invasive species regulations, permits</td></tr>\n<tr><td>National Environmental Management: Protected Areas Act 57 of 2003</td><td>Declaration and management of protected areas, including private nature reserves</td></tr>\n<tr><td>Provincial conservation laws</td><td>Hunting, keeping, transporting and selling wild animals, registration of game farms</td></tr>\n<tr><td>Animal Diseases Act 35 of 1984</td><td>Buffalo, foot-and-mouth and other disease controls</td></tr>\n<tr><td>CITES (through national regulations)</td><td>International trade in listed species and trophies</td></tr></table>\n<p>The compliance officer or manager keeps a permit register with expiry dates, ensures every capture, translocation, hunt and sale has the correct permits, and prepares for inspections by conservation officials.</p>\n<h4>Ranch management responsibilities</h4>\n<ul><li>Annual operational plans and budgets aligned with ecological limits.</li>\n<li>Staff management, training and safety under the OHS Act 85 of 1993.</li>\n<li>Security and anti-poaching, co-operating with SAPS and neighbours.</li>\n<li>Community relations: employment, access, benefit sharing and stewardship agreements.</li>\n<li>Veterinary programmes with wildlife vets: disease testing before translocation, parasite monitoring, safe immobilisation.</li></ul>\n<h4>Ethics and sustainability</h4>\n<p>Managers face debates about intensive breeding of colour variants, predator breeding, and trophy hunting. Professional decisions should be based on sound science, the law, animal welfare under the Animals Protection Act 71 of 1962 where it applies to captive animals, and the long-term conservation value of the land.</p>\n<h4>Key points</h4>\n<ul><li>Advanced wildlife management relies on reliable population estimates and research.</li>\n<li>Design projects with clear questions, replicates and controls, then apply adaptive management.</li>\n<li>Habitat management covers fire, alien plants, bush encroachment, water and erosion.</li>\n<li>NEMA, the Biodiversity Act (TOPS), Protected Areas Act and provincial laws govern wildlife.</li>\n<li>Keep a permit register and base ethical decisions on science, law and welfare.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What happens to condition and breeding as a population approaches carrying capacity?",
+   "options": [
+    {
+     "text": "They drop",
+     "correct": true
+    },
+    {
+     "text": "They stay the same",
+     "correct": false
+    },
+    {
+     "text": "They double",
+     "correct": false
+    },
+    {
+     "text": "They increase",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is adaptive management?",
+   "options": [
+    {
+     "text": "Changing managers every year",
+     "correct": false
+    },
+    {
+     "text": "Applying findings, then monitoring whether actions work and adjusting",
+     "correct": true
+    },
+    {
+     "text": "Buying more game each season",
+     "correct": false
+    },
+    {
+     "text": "Ignoring research results",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which regulations under the Biodiversity Act cover threatened or protected species?",
+   "options": [
+    {
+     "text": "Classification regulations",
+     "correct": false
+    },
+    {
+     "text": "Meat safety regulations",
+     "correct": false
+    },
+    {
+     "text": "Labour regulations",
+     "correct": false
+    },
+    {
+     "text": "TOPS regulations",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are replicates and controls used in a research design?",
+   "options": [
+    {
+     "text": "To save money",
+     "correct": false
+    },
+    {
+     "text": "To avoid analysis",
+     "correct": false
+    },
+    {
+     "text": "To make results reliable",
+     "correct": true
+    },
+    {
+     "text": "To confuse inspectors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers declaration of private nature reserves as protected areas?",
+   "options": [
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": false
+    },
+    {
+     "text": "Stock Theft Act 57 of 1959",
+     "correct": false
+    },
+    {
+     "text": "Protected Areas Act 57 of 2003",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Small fenced populations can suffer from inbreeding and loss of genetic diversity.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A compliance officer does not need to track permit expiry dates.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are methods for estimating wildlife populations? (select all that apply)",
+   "options": [
+    {
+     "text": "Guessing from the lodge veranda",
+     "correct": false
+    },
+    {
+     "text": "Camera traps",
+     "correct": true
+    },
+    {
+     "text": "Road strip counts",
+     "correct": true
+    },
+    {
+     "text": "Aerial counts",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

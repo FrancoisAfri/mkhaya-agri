@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-03",
+ "title": "Management of Integrated Pest and Disease Practices and Sustainable Strategies for Crops and Livestock Health",
+ "lessons": [
+  {
+   "title": "Planning an integrated health programme",
+   "minutes": 20,
+   "html": "<h3>One health plan for crops and livestock</h3><p>In this work experience module you help manage pest and disease control for both crops and animals using integrated, sustainable strategies. The goal is healthy crops and animals with as little chemical use, cost and resistance as possible, while meeting legal and market requirements.</p><h4>Building the plan with experts</h4><ul><li><strong>Livestock:</strong> the farm's vet helps draw up a herd health programme: vaccinations, parasite control, biosecurity and record keeping, adapted to local diseases such as redwater, heartwater, gallsickness, anthrax and lumpy skin disease.</li><li><strong>Crops:</strong> crop advisers or agents recommend registered products and action thresholds for the main pests, diseases and weeds of each crop.</li></ul><h4>Contents of the plan</h4><ol><li>Main threats per crop and livestock class, and the time of year they occur.</li><li>Preventive measures: rotation, resistant cultivars, adapted breeds, hygiene, quarantine.</li><li>Monitoring method and frequency: scouting, traps, FAMACHA, faecal egg counts, tick counts.</li><li>Action thresholds and preferred control options in order: cultural, biological, then chemical.</li><li>Product list with registration, dose, withdrawal or pre-harvest periods from the label.</li><li>Responsible person for each task.</li><li>Records and review dates.</li></ol><p>During your placement, obtain a copy of the farm's herd health programme and crop protection programme and compare them with the IPM steps above. Note gaps and discuss them with your supervisor.</p><p>Keep a calendar on the office wall showing when each vaccination, dipping, scouting round and spray programme is due. This keeps everyone informed and helps prevent missed treatments. Tick off each task when it is completed and recorded.</p>"
+  },
+  {
+   "title": "Monitoring and acting in the workplace",
+   "minutes": 20,
+   "html": "<h3>Daily practice</h3><h4>Crop scouting</h4><ul><li>Scout each land at least weekly in season, following a set pattern and sample size.</li><li>Record pest counts, beneficial insects, disease symptoms and weeds on a scouting sheet with date, land and growth stage.</li><li>Compare findings with the threshold and recommend action to your supervisor.</li></ul><h4>Livestock health checks</h4><ul><li>Observe animals daily: appetite, movement, breathing, dung, discharge and behaviour.</li><li>Check for ticks on the tail, udder, ears and between the legs at dipping.</li><li>Use FAMACHA scores on sheep and goats to decide which animals to dose for wireworm.</li><li>Isolate sick animals and call the vet when needed. Report suspected controlled diseases to the state vet as required by the Animal Diseases Act 35 of 1984.</li></ul><h4>Applying treatments safely</h4><ul><li>Read the label or the vet's instructions before every treatment.</li><li>Wear the PPE required: gloves, overalls, boots, eye protection.</li><li>Restrain animals properly in a crush to protect both animal and handler.</li><li>Use a clean needle and syringe; dispose of sharps in a sharps container.</li><li>Record every treatment and mark treated animals or lands with the date when withdrawal or re-entry ends.</li></ul><p>Never sell milk, meat or produce before the withdrawal or pre-harvest period has passed.</p><h4>Communicating</h4><p>Tell all workers which lands or camps are under re-entry or withdrawal restrictions, and post notices at gates. Report results of each scouting round and health check to your supervisor the same day so decisions can be made quickly.</p><p>Keep a copy of every scouting sheet and treatment record in your portfolio.</p>"
+  },
+  {
+   "title": "Sustainable strategies and evaluation",
+   "minutes": 20,
+   "html": "<h3>Reducing reliance on chemicals</h3><h4>Resistance management</h4><p>Pests, weeds, ticks and worms that are treated repeatedly with the same chemical group can become resistant. To slow resistance:</p><ul><li>Rotate products with different modes of action.</li><li>Treat only when needed, guided by monitoring.</li><li>Use the correct dose; under-dosing speeds up resistance.</li><li>Combine chemical control with non-chemical methods.</li></ul><h4>Sustainable strategies</h4><ul><li>Plant flowering strips and keep natural vegetation to support beneficial insects.</li><li>Use adapted, tick-tolerant breeds and select replacement animals with good resistance records.</li><li>Rotate camps to break parasite cycles and rotate crops to break disease cycles.</li><li>Maintain biosecurity: footbaths, controlled visitor access, quarantine of new animals for a period agreed with your vet.</li><li>Dispose of carcasses safely by burial or other approved methods away from water.</li></ul><h4>Evaluating the programme</h4><p>At the end of a season, review records with your supervisor. Ask: Did yields or animal performance improve? How much was spent on chemicals per hectare or per animal? Were there treatment failures that suggest resistance? Were any residue or withdrawal problems reported by buyers? Write a short evaluation with at least two recommendations for next season and include it in your portfolio.</p><p>Share the evaluation with the vet and crop adviser.</p><p>Keep it in your portfolio of evidence.</p><h4>Key points</h4><ul><li>Build the health plan with your vet and crop adviser.</li><li>Monitor first, compare with thresholds, then act.</li><li>Record every treatment and respect withdrawal and re-entry periods.</li><li>Slow resistance by rotating modes of action and using the correct dose.</li><li>Biosecurity and adapted breeds reduce disease pressure.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who should help draw up the herd health programme?",
+   "options": [
+    {
+     "text": "The local hardware shop",
+     "correct": false
+    },
+    {
+     "text": "The farm's vet",
+     "correct": true
+    },
+    {
+     "text": "The tractor driver",
+     "correct": false
+    },
+    {
+     "text": "The fresh produce agent",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the correct order of preference for control options in IPM?",
+   "options": [
+    {
+     "text": "Chemical, biological, cultural",
+     "correct": false
+    },
+    {
+     "text": "Cultural, biological, then chemical",
+     "correct": true
+    },
+    {
+     "text": "Biological only",
+     "correct": false
+    },
+    {
+     "text": "Chemical first, then monitoring",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should ticks be checked on cattle?",
+   "options": [
+    {
+     "text": "Only on the back",
+     "correct": false
+    },
+    {
+     "text": "Tail, udder, ears and between the legs",
+     "correct": true
+    },
+    {
+     "text": "Only on the hooves",
+     "correct": false
+    },
+    {
+     "text": "On the horns",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should used needles be disposed of?",
+   "options": [
+    {
+     "text": "In the general rubbish bin",
+     "correct": false
+    },
+    {
+     "text": "Buried in the land",
+     "correct": false
+    },
+    {
+     "text": "In a sharps container",
+     "correct": true
+    },
+    {
+     "text": "Left in the crush",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does under-dosing matter?",
+   "options": [
+    {
+     "text": "It speeds up resistance",
+     "correct": true
+    },
+    {
+     "text": "It shortens withdrawal periods",
+     "correct": false
+    },
+    {
+     "text": "It improves animal growth",
+     "correct": false
+    },
+    {
+     "text": "It reduces the cost without any risk",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Milk may be sold before the withdrawal period has passed if the animal looks healthy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Flowering strips and natural vegetation can support beneficial insects.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions are useful when evaluating the health programme at season end? (select all that apply)",
+   "options": [
+    {
+     "text": "How much was spent on chemicals per hectare or per animal?",
+     "correct": true
+    },
+    {
+     "text": "Were there treatment failures that suggest resistance?",
+     "correct": true
+    },
+    {
+     "text": "What colour were the spray tanks?",
+     "correct": false
+    },
+    {
+     "text": "Did buyers report any residue problems?",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

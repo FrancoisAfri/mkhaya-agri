@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8136",
+ "title": "Place merchandise order",
+ "lessons": [
+  {
+   "title": "Knowing what to order",
+   "minutes": 15,
+   "html": "<h3>Why we place orders</h3><p>A store can only sell what is on the shelf. When stock runs low, someone must order more from the supplier. If the order is late, the shelf is empty and the farmer goes somewhere else. If the order is too big, money is stuck in stock that does not sell, and products like seed, vaccines and some feeds can expire.</p><h4>Finding out what is needed</h4><ul><li><strong>Check the shelves and the store room.</strong> Count what is left.</li><li><strong>Look at the stock card or computer report.</strong> It shows how many were sold and how many are left.</li><li><strong>Check the minimum level.</strong> Most items have a re-order level. When stock falls to that number, it is time to order.</li><li><strong>Think about the season.</strong> Before planting, farmers buy seed and fertiliser. In winter they buy lick and feed. Before the rains, they buy dip and fly control.</li><li><strong>Listen to customers.</strong> Write down items people asked for that you did not have.</li></ul><h4>Example</h4><p>The re-order level for 50 kg bags of winter lick is 40 bags. On Monday you count 38 bags. It is May and farmers are buying more every week. You tell your supervisor that lick must be ordered, and that the order should be bigger than usual because of the season.</p><h4>Choosing the supplier</h4><p>Your store usually has approved suppliers for each product. Use the supplier list. Do not order from a new supplier without permission from your manager. Check the supplier's price, delivery time and minimum order. Some suppliers deliver only once a week to farming towns, so plan ahead.</p><h4>Who may order?</h4><p>In most stores only certain staff may place orders. You might fill in the order request and a manager signs it. Know the rules in your store and follow them. An order is a promise to pay the supplier, so it must be correct and approved.</p>"
+  },
+  {
+   "title": "Completing and sending the order",
+   "minutes": 15,
+   "html": "<h3>Filling in the order form</h3><p>An order form or purchase order tells the supplier exactly what the store wants. Every detail must be correct.</p><table><tr><th>Field</th><th>What to write</th></tr><tr><td>Order number</td><td>The next number in the order book or system</td></tr><tr><td>Date</td><td>Today's date</td></tr><tr><td>Supplier</td><td>Name and account number</td></tr><tr><td>Item code</td><td>The supplier's product code</td></tr><tr><td>Description</td><td>Full name, size and pack, e.g. \"Winter lick 50 kg bag\"</td></tr><tr><td>Quantity</td><td>How many units or bags</td></tr><tr><td>Price</td><td>Agreed price per unit</td></tr><tr><td>Delivery</td><td>Address and date needed</td></tr><tr><td>Signature</td><td>Person who approves the order</td></tr></table><h4>Check before sending</h4><ol><li>Is the item code correct? A wrong code can bring the wrong product.</li><li>Is the unit correct? \"10\" can mean 10 bags or 10 pallets.</li><li>Is the price the one agreed?</li><li>Is the order signed by the right person?</li></ol><h4>Sending the order</h4><p>Orders can be sent by email, by the computer system, by phone or given to the sales rep. If you phone, write down the name of the person, the time, and what was agreed. Ask for an order confirmation.</p><h4>Keeping records</h4><p>Keep a copy of every order. File it in the \"orders outstanding\" file. When the goods arrive, the receiving clerk checks the delivery against your order. If something does not arrive on time, follow up with the supplier and tell your supervisor.</p><h4>Never do this</h4><ul><li>Never order for yourself on the store account.</li><li>Never change an approved order without telling the manager.</li><li>Never accept a gift from a supplier to place an order with them.</li></ul><h4>Key points</h4><ul><li>Count stock and check the re-order level before ordering.</li><li>Think about the farming season.</li><li>Use approved suppliers and get the order approved.</li><li>Check codes, units and prices before you send.</li><li>Keep a copy and follow up late orders.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When should an item be re-ordered?",
+   "options": [
+    {
+     "text": "When the shelf is completely empty",
+     "correct": false
+    },
+    {
+     "text": "When stock falls to the re-order level",
+     "correct": true
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    },
+    {
+     "text": "Only when a customer complains",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In May, a farm store will most likely sell more of which item?",
+   "options": [
+    {
+     "text": "Winter lick",
+     "correct": true
+    },
+    {
+     "text": "Summer seed",
+     "correct": false
+    },
+    {
+     "text": "Christmas decorations",
+     "correct": false
+    },
+    {
+     "text": "Swimming pool chlorine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the unit on an order be clear?",
+   "options": [
+    {
+     "text": "Because '10' could mean 10 bags or 10 pallets",
+     "correct": true
+    },
+    {
+     "text": "Because suppliers like long orders",
+     "correct": false
+    },
+    {
+     "text": "So the order looks neat",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You phone an order to a supplier. What should you write down?",
+   "options": [
+    {
+     "text": "Only the price",
+     "correct": false
+    },
+    {
+     "text": "Nothing, the supplier will remember",
+     "correct": false
+    },
+    {
+     "text": "The name of the person, the time and what was agreed",
+     "correct": true
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A new supplier offers a cheaper price. What should you do?",
+   "options": [
+    {
+     "text": "Order from them straight away",
+     "correct": false
+    },
+    {
+     "text": "Ask your manager before using a new supplier",
+     "correct": true
+    },
+    {
+     "text": "Cancel all other suppliers",
+     "correct": false
+    },
+    {
+     "text": "Order from them on your own account",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An order is a promise to pay the supplier, so it must be approved.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to accept a gift from a supplier for placing an order with them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check before sending an order? (select all that apply)",
+   "options": [
+    {
+     "text": "Item code",
+     "correct": true
+    },
+    {
+     "text": "Quantity and unit",
+     "correct": true
+    },
+    {
+     "text": "The supplier's favourite colour",
+     "correct": false
+    },
+    {
+     "text": "Agreed price",
+     "correct": true
+    },
+    {
+     "text": "Whether the supplier's driver is friendly",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

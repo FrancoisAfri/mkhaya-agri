@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116322",
+ "title": "Manage water quality parameters",
+ "lessons": [
+  {
+   "title": "Water quality parameters and why they matter",
+   "minutes": 15,
+   "html": "<h3>What is in the water?</h3><p>Water on a farm is used for irrigation, livestock drinking, poultry houses, spraying, dairy cleaning and people. Poor water quality can block drip emitters, damage soil, reduce crop yields, make animals ill, stop vaccines and chemicals working and make people sick. Managing water quality means knowing which parameters to measure, what the results mean and what to do about them.</p><h4>Main parameters</h4><table><tr><th>Parameter</th><th>Why it matters</th></tr><tr><td>pH</td><td>Very high or low pH affects nutrient availability, chemical and vaccine effectiveness and pipe corrosion or scaling</td></tr><tr><td>Electrical conductivity (EC) / total dissolved solids</td><td>Measures salinity; salty water reduces crop growth and can harm animals</td></tr><tr><td>Sodium and chloride</td><td>Can burn leaves under sprinklers and damage soil structure</td></tr><tr><td>Hardness (calcium, magnesium)</td><td>Causes scaling in pipes, nipples and emitters; reduces some chemical sprays</td></tr><tr><td>Iron and manganese</td><td>Cause blockages, staining and bacterial slime in drip systems</td></tr><tr><td>Nitrate</td><td>High levels can poison livestock; signals fertiliser or manure pollution</td></tr><tr><td>Microbes (E. coli, coliforms)</td><td>Show faecal contamination; a disease risk for people, animals and fresh produce</td></tr><tr><td>Suspended solids, algae</td><td>Block filters and emitters, carry microbes</td></tr></table><p>The Department of Water and Sanitation has published water quality guidelines for different agricultural uses, and SANS 241 sets drinking water standards for people. Your laboratory or adviser will compare your results with the right guideline for the use.</p><h4>Example</h4><p>A borehole used for a broiler unit shows high hardness. Over time nipples block with scale and birds drink less. Knowing the parameter lets the supervisor plan line cleaning and, with the adviser, consider treatment before production suffers.</p>"
+  },
+  {
+   "title": "Sampling and testing",
+   "minutes": 15,
+   "html": "<h3>Getting reliable results</h3><p>A test result is only useful if the sample truly represents the water and has been taken correctly.</p><h4>Planning a sampling programme</h4><ol><li>List every water source: boreholes, dams, rivers, canal, municipal supply and storage tanks.</li><li>List every use point: irrigation blocks, drinking troughs, poultry header tanks, packhouse, staff houses.</li><li>Decide what to test and how often. A full chemical analysis of each source at least once a year is common, with more frequent microbial tests where water is used for drinking or washing produce, and after floods or pollution events.</li><li>Use an accredited laboratory for official results.</li></ol><h4>Taking samples</h4><ul><li>Use the clean bottles supplied by the laboratory; sterile bottles for microbial tests.</li><li>Let a tap or borehole run for a few minutes before sampling.</li><li>Do not touch the inside of the bottle or cap.</li><li>Label each bottle with source, date, time and sampler's name.</li><li>Keep microbial samples cool and get them to the laboratory quickly, within the time the laboratory specifies.</li></ul><h4>Field tests</h4><p>Handheld pH and EC meters allow quick daily or weekly checks, especially in fertigation and poultry water systems. Calibrate the meters with buffer solutions as the manufacturer instructs, and record readings in a logbook.</p><h4>Interpreting results</h4><p>Compare each result with the guideline value for the specific use. Water that is acceptable for irrigation of maize may not be acceptable for washing lettuce or for drinking. Look at trends over time, not only one result: a rising nitrate level in a borehole near a kraal is a warning sign.</p>"
+  },
+  {
+   "title": "Treating water and managing problems",
+   "minutes": 15,
+   "html": "<h3>Taking action</h3><h4>Common treatments</h4><ul><li><strong>Filtration</strong>: sand, disc or screen filters remove suspended solids and algae for irrigation.</li><li><strong>Settling</strong>: allowing water to stand in a dam or tank lets sediment settle.</li><li><strong>Chlorination</strong> or other approved sanitisers: kills bacteria in drinking and wash water; dosage must be controlled and residual levels tested.</li><li><strong>pH adjustment</strong>: acid injection into drip or poultry systems where recommended by an adviser, to prevent scaling.</li><li><strong>Aeration and filtration</strong>: helps remove iron and manganese.</li><li><strong>Blending</strong>: mixing salty borehole water with better water to lower EC.</li></ul><h4>Preventing contamination</h4><p>Protecting the source is cheaper than treating the water. Keep kraals, manure heaps, septic tanks, chemical stores and fuel tanks away from boreholes and dams. Fence borehole heads, keep tanks covered and clean troughs regularly. Under the National Water Act 36 of 1998, users must not pollute water resources.</p><h4>Safety</h4><p>Acids and chlorine are dangerous. Wear the gloves, goggles and other protective equipment on the safety data sheet. Always add acid to water, never water to acid. Never mix acid and chlorine products, because toxic chlorine gas can form. Store them apart in a ventilated, locked area.</p><h4>Records and reporting</h4><p>Keep all laboratory reports, field readings, treatment doses and cleaning dates. Many market audits require proof of water testing for produce. Report unusual results to the manager straight away, and stop using water for drinking or produce washing until the problem is solved.</p><h4>Key points</h4><ul><li>Key parameters include pH, EC, hardness, iron, nitrate and microbes.</li><li>Take samples correctly in clean or sterile bottles, label them and get them to an accredited lab quickly.</li><li>Compare results with guidelines for the specific use and watch trends.</li><li>Protect sources from contamination; treat with filtration, chlorination or pH adjustment as advised.</li><li>Never mix acid and chlorine, and always add acid to water.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does electrical conductivity (EC) of water mainly measure?",
+   "options": [
+    {
+     "text": "Its temperature",
+     "correct": false
+    },
+    {
+     "text": "Its salinity",
+     "correct": true
+    },
+    {
+     "text": "Its bacteria",
+     "correct": false
+    },
+    {
+     "text": "Its colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do E. coli results in water show?",
+   "options": [
+    {
+     "text": "Faecal contamination",
+     "correct": true
+    },
+    {
+     "text": "Hardness",
+     "correct": false
+    },
+    {
+     "text": "Iron content",
+     "correct": false
+    },
+    {
+     "text": "High pH",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before taking a sample from a borehole tap?",
+   "options": [
+    {
+     "text": "Rinse the bottle with river water",
+     "correct": false
+    },
+    {
+     "text": "Touch the inside of the cap to check it is clean",
+     "correct": false
+    },
+    {
+     "text": "Let the tap run for a few minutes",
+     "correct": true
+    },
+    {
+     "text": "Add chlorine to the bottle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a rising nitrate level in a borehole near a kraal a concern?",
+   "options": [
+    {
+     "text": "It makes the water too cold",
+     "correct": false
+    },
+    {
+     "text": "It shows the pump is worn",
+     "correct": false
+    },
+    {
+     "text": "It improves crop growth",
+     "correct": false
+    },
+    {
+     "text": "It signals pollution from manure and can harm livestock",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which treatment removes suspended solids from irrigation water?",
+   "options": [
+    {
+     "text": "Filtration",
+     "correct": true
+    },
+    {
+     "text": "Adding fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Heating",
+     "correct": false
+    },
+    {
+     "text": "Adding salt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Acid and chlorine products may be mixed together to save time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Water that is suitable for irrigating maize is always suitable for washing fresh lettuce.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps help protect a water source from contamination? (select all that apply)",
+   "options": [
+    {
+     "text": "Fence the borehole head",
+     "correct": true
+    },
+    {
+     "text": "Keep manure heaps away from boreholes",
+     "correct": true
+    },
+    {
+     "text": "Keep storage tanks covered",
+     "correct": true
+    },
+    {
+     "text": "Place the chemical store next to the dam",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

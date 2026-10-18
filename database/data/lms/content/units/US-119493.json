@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119493",
+ "title": "Manage the rearing of poultry parent stock",
+ "lessons": [
+  {
+   "title": "Goals of breeder rearing and brooding",
+   "minutes": 15,
+   "html": "<h3>The rearing period sets up the whole laying life</h3><p>Parent stock are reared from day old until they are moved to the laying house, usually around the time of light stimulation. What happens in rearing — body weight, frame size, uniformity, vaccination and sexual development — largely decides how well the flock will lay and how fertile it will be. Mistakes made in rearing are very hard to correct later.</p><h4>Main goals</h4><ul><li>Good early growth and frame development.</li><li>Body weight on the breed's target curve for both hens and males.</li><li>High flock uniformity.</li><li>Full vaccination programme completed.</li><li>Birds ready to respond to light stimulation at the right age.</li></ul><h4>Brooding</h4><ul><li>Pre-heat the house so floor and litter are warm when chicks arrive.</li><li>Check chick crop fill in the first day or two: feel a sample of chicks to confirm that crops contain feed and water. Low crop fill means chicks are not finding feed or water.</li><li>Watch chick distribution as a guide to temperature.</li><li>Males and females are often brooded separately, or males are given extra space and feed early, because good early male development is important.</li></ul><h4>Early feeding</h4><p>In the first weeks birds usually receive feed freely or close to freely, then move onto a controlled feed programme as the breed guide describes. Feed changes are planned with the nutritionist.</p>"
+  },
+  {
+   "title": "Controlling body weight and uniformity",
+   "minutes": 15,
+   "html": "<h3>Weigh, compare, adjust</h3><p>Breeder birds have a strong appetite. Fed freely, they would become too heavy and lay poorly. Rearing therefore uses <strong>feed restriction</strong>: a set amount of feed per bird per day, adjusted every week according to body weight.</p><h4>Weekly weighing</h4><ol><li>Weigh a random sample of birds from several places in each pen, on the same day and time each week, before feeding.</li><li>Calculate the average weight and compare it with the breed target for that age.</li><li>Calculate uniformity, for example the percentage of birds within 10% of the average weight, or the CV% if your farm uses it.</li><li>Decide on the next week's feed allocation with the manager.</li></ol><h4>Improving uniformity</h4><ul><li>Feed must be spread fast and evenly so every bird gets its share; check feeder space and how fast feed is distributed.</li><li>Grade birds into light, medium and heavy groups where the system allows, and feed the groups differently to bring them together.</li><li>Check water access and stocking density.</li><li>Reduce disease and stress, which both make flocks uneven.</li></ul><h4>Feeding programmes</h4><p>Some farms do not feed every day but use alternative programmes to improve feed spread. These must be done exactly as the nutritionist and breed guide recommend and within animal welfare requirements.</p><h4>Males</h4><p>Males are weighed and fed separately. Underweight males develop poorly; overweight males lose fertility and have leg problems. Select males at the ages the breed guide gives, keeping the best for mating.</p>"
+  },
+  {
+   "title": "Lighting, vaccination and transfer",
+   "minutes": 15,
+   "html": "<h3>Preparing birds for lay</h3><h4>Lighting in rearing</h4><p>Most breeder programmes use a short, constant day length in rearing so birds do not mature early. Light-proof or well-controlled houses help. Increasing day length too early, or letting it increase naturally in open houses in spring, can start lay early with small eggs and poor peak. Light stimulation is done only when weight and uniformity are on target, as the breed guide states.</p><h4>Vaccination</h4><ul><li>Follow the vet's programme exactly, including live and inactivated vaccines.</li><li>Store vaccines in the fridge at the temperature on the label; protect from sunlight.</li><li>Use the correct method: drinking water, spray, eye drop, wing web or injection.</li><li>Record vaccine name, batch number, date, method and the staff who gave it.</li><li>Injectable vaccines can harm people if accidentally injected. Use safe technique and seek medical help with the vaccine label if self-injection happens.</li></ul><h4>Beak and other treatments</h4><p>Any beak treatment or other procedures are done only by trained staff, using approved methods and in line with animal welfare law and codes.</p><h4>Transfer to the laying house</h4><ul><li>Plan transfer in cool weather, handling birds gently.</li><li>Make sure the laying house has water, feed, correct nest setup and light programme ready.</li><li>Hand over records: weights, uniformity, vaccinations, treatments and mortality.</li></ul><h4>Key points</h4><ul><li>Rearing decides laying performance and fertility; mistakes are hard to fix later.</li><li>Weigh samples weekly and adjust feed against the breed target.</li><li>Even, fast feed distribution is essential for good uniformity.</li><li>Keep day length short and constant in rearing; stimulate only at target weight.</li><li>Follow the vaccination programme exactly and record every vaccination.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are breeder birds feed-restricted during rearing?",
+   "options": [
+    {
+     "text": "To make them grow faster",
+     "correct": false
+    },
+    {
+     "text": "Because they do not like feed",
+     "correct": false
+    },
+    {
+     "text": "To save money on feed only",
+     "correct": false
+    },
+    {
+     "text": "Fed freely they become too heavy and lay poorly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should breeder pullets be weighed each week?",
+   "options": [
+    {
+     "text": "On the same day and time each week, before feeding",
+     "correct": true
+    },
+    {
+     "text": "After a big meal at any time",
+     "correct": false
+    },
+    {
+     "text": "Only when they look thin",
+     "correct": false
+    },
+    {
+     "text": "Only at transfer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does low crop fill in day-old chicks show?",
+   "options": [
+    {
+     "text": "Chicks are not finding feed or water",
+     "correct": true
+    },
+    {
+     "text": "The chicks are too hot",
+     "correct": false
+    },
+    {
+     "text": "The chicks are overfed",
+     "correct": false
+    },
+    {
+     "text": "The light is too long",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if day length increases too early in rearing?",
+   "options": [
+    {
+     "text": "Birds lay larger eggs",
+     "correct": false
+    },
+    {
+     "text": "Nothing changes",
+     "correct": false
+    },
+    {
+     "text": "Birds may start lay early with small eggs and a poor peak",
+     "correct": true
+    },
+    {
+     "text": "Birds stop eating",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these helps improve flock uniformity?",
+   "options": [
+    {
+     "text": "Spreading feed slowly in one corner",
+     "correct": false
+    },
+    {
+     "text": "Fast, even feed distribution and enough feeder space",
+     "correct": true
+    },
+    {
+     "text": "Skipping weekly weighing",
+     "correct": false
+    },
+    {
+     "text": "Increasing stocking density",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Vaccine name, batch number, date and method should be recorded for every vaccination.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overweight breeder males have better fertility than males on target weight.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are main goals of parent stock rearing? (select all that apply)",
+   "options": [
+    {
+     "text": "Bringing the birds into lay as early as possible",
+     "correct": false
+    },
+    {
+     "text": "Completing the vaccination programme",
+     "correct": true
+    },
+    {
+     "text": "High flock uniformity",
+     "correct": true
+    },
+    {
+     "text": "Body weight on the breed target curve",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

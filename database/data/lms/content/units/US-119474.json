@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119474",
+ "title": "Manage the care of poultry parent stock",
+ "lessons": [
+  {
+   "title": "The role of parent stock and the laying period",
+   "minutes": 15,
+   "html": "<h3>Why parent stock is different</h3><p>Parent stock (breeders) are the hens and cockerels that produce fertile hatching eggs for broiler or layer chicks. Their value lies in the number of good chicks each hen produces, not in meat or table eggs. A breeder flock that is poorly managed in lay produces fewer eggs, lower fertility and weaker chicks, and the loss carries through to every broiler farm that buys those chicks.</p><h4>Main goals in the production period</h4><ul><li>Bring the flock into lay at the right body weight and age.</li><li>Keep hens and males in the body condition the breed guide sets out.</li><li>Maximise settable eggs per hen and fertility.</li><li>Keep the flock free of disease, especially diseases that pass through the egg.</li></ul><h4>Light stimulation and onset of lay</h4><p>Breeders are light-stimulated when they reach target weight and uniformity, by increasing day length according to the breed guide. Stimulating birds that are underweight or uneven leads to poor peak production and more problem eggs. After stimulation, day length must never be reduced during lay, because this can cause production to drop.</p><h4>Separate-sex feeding</h4><p>Hens and males have different nutritional needs. Most systems feed them separately: hen feeders have grills that exclude the males' larger heads, and male feeders are raised so hens cannot reach. Supervisors must check daily that grills and heights are correct and that males are not stealing hen feed, because overweight males lose fertility and underfed hens lose production.</p><h4>Feeding to production</h4><p>Feed allocation is increased towards peak production and then gradually reduced, following the guide and the farm nutritionist's programme. Record feed per bird per day, and weigh a sample of hens and males each week. Changes are made based on weight, production and egg weight, never by guessing.</p>"
+  },
+  {
+   "title": "Males, fertility and nests",
+   "minutes": 15,
+   "html": "<h3>Half the flock's genetics come from the males</h3><p>A single cockerel mates with many hens, so male condition has a big effect on fertility.</p><h4>Managing males</h4><ul><li>Keep the male-to-female ratio recommended in the breed guide. Too many males cause over-mating and damaged hens; too few lower fertility.</li><li>Weigh males separately and keep them on their target weight curve.</li><li>Check males for active mating, good comb and wattle colour, sound legs and feet, and normal vent.</li><li>Remove males that are lame, very thin or not working, and replace them where the farm's programme allows (\"spiking\" with younger males is done only with planned biosecurity and vet approval).</li></ul><h4>Signs hens are being mated</h4><p>Feather loss on the back and behind the head of hens shows mating activity. Severe damage or wounds suggest too many or overweight males.</p><h4>Nests and egg collection</h4><ul><li>Have enough clean nests in place before lay starts.</li><li>Walk the house regularly in early lay to discourage floor laying.</li><li>Collect eggs often, grade, sanitise and cool according to the hatching egg procedure.</li></ul><h4>Daily flock checks</h4><ul><li>Feed clean-up time: how long it takes the birds to finish their feed.</li><li>Water use, which normally follows a set ratio to feed.</li><li>Egg numbers, egg weight and percentage of floor eggs.</li><li>Mortality and culls, by sex.</li><li>House temperature and ventilation.</li></ul><p>A sudden change in any of these is a warning. For example, a drop in egg production with soft-shelled eggs may point to disease or a nutrition problem and must be reported to the manager and vet.</p>"
+  },
+  {
+   "title": "Health, biosecurity and records",
+   "minutes": 15,
+   "html": "<h3>Protecting a valuable flock</h3><p>Breeder flocks live for many months and carry the genetics for thousands of chicks. Disease in breeders can pass to chicks through the egg or the hatchery.</p><h4>Health programme</h4><ul><li>Follow the vaccination programme set by the poultry vet, including vaccines given in rearing that protect chicks through maternal antibodies.</li><li>Take blood samples and other tests when the vet requires them, for example to monitor vaccine response and for diseases under official control.</li><li>Avian influenza and Newcastle disease are controlled animal diseases under the Animal Diseases Act 35 of 1984. Sudden high mortality, drop in production or nervous signs must be reported to the manager and vet immediately so the state vet can be informed where required.</li></ul><h4>Strict biosecurity</h4><ul><li>Shower-in or change of clothing and footwear at the farm entry, as the farm requires.</li><li>No visitors without permission and a visitor register entry.</li><li>Workers do not keep backyard chickens or visit other poultry sites.</li><li>Rodent and wild-bird control around houses.</li></ul><h4>Records</h4><table><tr><th>Record</th><th>Use</th></tr><tr><td>Weekly body weights by sex</td><td>Adjust feed</td></tr><tr><td>Daily eggs, settable eggs, floor eggs</td><td>Production against standard</td></tr><tr><td>Fertility and hatch reports from hatchery</td><td>Male management and egg handling</td></tr><tr><td>Vaccinations and treatments</td><td>Health history, withdrawal periods</td></tr><tr><td>Mortality and culls by sex</td><td>Disease warning, ratio control</td></tr></table><p>For any medicine, follow the vet's prescription and the label, including withdrawal periods.</p><h4>Key points</h4><ul><li>Light-stimulate breeders only at target weight and uniformity, and never shorten day length in lay.</li><li>Feed hens and males separately and check grills and feeder heights daily.</li><li>Keep the male-to-female ratio and male weights on target to protect fertility.</li><li>Report sudden drops in production or high mortality to the manager and vet immediately.</li><li>Keep weekly weight, daily production and health records and compare with the breed standard.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main purpose of a parent stock flock?",
+   "options": [
+    {
+     "text": "To produce meat for local sale",
+     "correct": false
+    },
+    {
+     "text": "To produce manure for crops",
+     "correct": false
+    },
+    {
+     "text": "To produce table eggs for supermarkets",
+     "correct": false
+    },
+    {
+     "text": "To produce fertile hatching eggs for commercial chicks",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do hen feeders in breeder houses have grills?",
+   "options": [
+    {
+     "text": "To keep dust out of the feed",
+     "correct": false
+    },
+    {
+     "text": "To slow down the hens' eating",
+     "correct": false
+    },
+    {
+     "text": "To keep rats out",
+     "correct": false
+    },
+    {
+     "text": "To stop males with larger heads eating hen feed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should never be done to day length during the laying period?",
+   "options": [
+    {
+     "text": "Record it",
+     "correct": false
+    },
+    {
+     "text": "Keep it constant",
+     "correct": false
+    },
+    {
+     "text": "Reduce it",
+     "correct": true
+    },
+    {
+     "text": "Follow the breed guide",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Hens show wounds on their backs from mating. What is a likely cause?",
+   "options": [
+    {
+     "text": "Too many nests",
+     "correct": false
+    },
+    {
+     "text": "Too few males",
+     "correct": false
+    },
+    {
+     "text": "Too much light",
+     "correct": false
+    },
+    {
+     "text": "Too many or overweight males",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which disease group must be reported urgently because it is controlled under the Animal Diseases Act?",
+   "options": [
+    {
+     "text": "Minor feather loss",
+     "correct": false
+    },
+    {
+     "text": "Dirty eggs",
+     "correct": false
+    },
+    {
+     "text": "Avian influenza and Newcastle disease",
+     "correct": true
+    },
+    {
+     "text": "Leg weakness in one bird",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Breeder flocks should only be light-stimulated once they reach target weight and uniformity.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Male body weight has little effect on flock fertility.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which daily checks help a supervisor manage a breeder flock? (select all that apply)",
+   "options": [
+    {
+     "text": "Mortality by sex",
+     "correct": true
+    },
+    {
+     "text": "Egg numbers and floor eggs",
+     "correct": true
+    },
+    {
+     "text": "The colour of the feed silo",
+     "correct": false
+    },
+    {
+     "text": "Feed clean-up time",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

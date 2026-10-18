@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14340",
+ "title": "Maintain an existing information system in a business environment",
+ "lessons": [
+  {
+   "title": "What an information system is",
+   "minutes": 15,
+   "html": "<h3>How a business keeps and uses information</h3><p>An information system is the way a business collects, stores, finds and shares information. It can be on paper (files, registers, cards), on computer (spreadsheets, databases, the store or farm system), or both. In a wool store or on a farm, the information system holds things like bale registers, weight lists, stock, orders, staff records and invoices.</p><h4>Parts of an information system</h4><ul><li><strong>Input</strong> – information comes in, for example a delivery note or a weight from the scale.</li><li><strong>Storage</strong> – it is kept in a file, register or computer system.</li><li><strong>Processing</strong> – it is sorted, added up or checked, for example a total mass per lot.</li><li><strong>Output</strong> – it is given to people who need it, such as a report, list or invoice.</li></ul><h4>Why it must be maintained</h4><p>An information system is only useful if the information is correct, up to date and easy to find. If files are out of order, if information is not entered, or if old information is not removed, people make wrong decisions. Maintaining the system means keeping it in good working order every day.</p><h4>Your role</h4><p>In this unit you are not designing a new system. You are working with an existing system: entering information correctly, filing, finding information, keeping it up to date, and following the rules for using it.</p>"
+  },
+  {
+   "title": "Filing and entering information",
+   "minutes": 15,
+   "html": "<h3>Keeping the system in order</h3><h4>Paper filing</h4><p>Files are arranged in a set order so they can be found quickly. Common ways:</p><table><tr><th>Method</th><th>Example</th></tr><tr><td>Alphabetical</td><td>Farmers' files by surname, A to Z</td></tr><tr><td>Numerical</td><td>Delivery notes by number</td></tr><tr><td>Date (chronological)</td><td>Daily weight lists, newest at the front</td></tr><tr><td>Subject</td><td>Safety, staff, maintenance</td></tr></table><ul><li>Use the method your office uses. Do not start your own.</li><li>File papers every day; do not leave piles to build up.</li><li>If you take out a file, use an \"out card\" or register to show who has it.</li><li>Put files back in the right place.</li></ul><h4>Computer entry</h4><ul><li>Enter information exactly as it is on the source document.</li><li>Check numbers twice before saving – one wrong digit can change a bale or a payment.</li><li>Use the right fields: do not type a mass in the bale number field.</li><li>Save often and follow the backup routine.</li><li>Only use the parts of the system you are allowed to use.</li></ul><h4>Finding information</h4><p>Use the search function, filters or the index. If you cannot find something, ask before creating a new record – it may be filed under a different name, and duplicates cause confusion.</p><h4>Example</h4><p>A truck delivers fifteen bales. The receiving clerk enters the delivery note number, farmer, bale numbers and date into the system. Then she files the paper delivery note by number. Later the office needs to check the delivery. They search the system for the farmer's name, find the delivery note number and pull the paper copy from the file in a minute.</p>"
+  },
+  {
+   "title": "Keeping information up to date and secure",
+   "minutes": 15,
+   "html": "<h3>Accurate, current and safe</h3><h4>Updating</h4><ul><li>Update records as soon as something changes, for example when a lot is moved or a farmer's address changes.</li><li>Only change records when you have a source document or instruction, and note who approved the change.</li><li>Report errors you find to your supervisor.</li></ul><h4>Archiving and disposal</h4><p>Old records that are no longer used every day are archived – moved to storage or an archive folder. They must still be kept for the period the company and law require. Disposal (shredding or deleting) is done only with permission.</p><h4>Security</h4><ul><li>Use your own login and keep your password secret.</li><li>Lock the computer when you leave.</li><li>Keep confidential files locked.</li><li>Protect personal information as POPIA requires.</li><li>Do not plug in unknown USB drives or open suspicious emails.</li></ul><h4>Backups</h4><p>Computer information can be lost through breakdowns, theft, viruses or power surges during load shedding. Follow the backup routine so information can be restored.</p><h4>Problems and improvements</h4><p>If the system is slow, hard to use or often wrong, tell your supervisor. Suggest improvements, like a clearer form or better folder names, but do not change the system without approval.</p><h4>Key points</h4><ul><li>An information system collects, stores, processes and outputs information.</li><li>Use the office's filing method and file every day.</li><li>Enter information exactly from the source document and check it twice.</li><li>Update records promptly and only with an instruction or document.</li><li>Keep information secure and backed up; archive and dispose only with permission.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an information system?",
+   "options": [
+    {
+     "text": "A filing cabinet only",
+     "correct": false
+    },
+    {
+     "text": "A telephone",
+     "correct": false
+    },
+    {
+     "text": "The way a business collects, stores, finds and shares information",
+     "correct": true
+    },
+    {
+     "text": "Only a computer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A weight from the scale entered into the computer is an example of what?",
+   "options": [
+    {
+     "text": "Input",
+     "correct": true
+    },
+    {
+     "text": "Archiving",
+     "correct": false
+    },
+    {
+     "text": "Disposal",
+     "correct": false
+    },
+    {
+     "text": "Output",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Delivery notes filed by their number use which filing method?",
+   "options": [
+    {
+     "text": "Alphabetical",
+     "correct": false
+    },
+    {
+     "text": "Colour",
+     "correct": false
+    },
+    {
+     "text": "Subject",
+     "correct": false
+    },
+    {
+     "text": "Numerical",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You cannot find a farmer's record. What should you do?",
+   "options": [
+    {
+     "text": "Give up",
+     "correct": false
+    },
+    {
+     "text": "Create a new record straight away",
+     "correct": false
+    },
+    {
+     "text": "Use another farmer's record",
+     "correct": false
+    },
+    {
+     "text": "Search and ask before creating a new one, to avoid duplicates",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When may old records be shredded?",
+   "options": [
+    {
+     "text": "Only with permission, after the required keeping period",
+     "correct": true
+    },
+    {
+     "text": "After one week",
+     "correct": false
+    },
+    {
+     "text": "Whenever the cabinet is full",
+     "correct": false
+    },
+    {
+     "text": "Never, even with permission",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should check numbers twice before saving them in the system.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to change the system's layout without approval if you think it is better.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help keep an information system secure? (select all that apply)",
+   "options": [
+    {
+     "text": "Plugging in any USB drive you find",
+     "correct": false
+    },
+    {
+     "text": "Using your own login and keeping your password secret",
+     "correct": true
+    },
+    {
+     "text": "Keeping confidential files locked",
+     "correct": true
+    },
+    {
+     "text": "Following the backup routine",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

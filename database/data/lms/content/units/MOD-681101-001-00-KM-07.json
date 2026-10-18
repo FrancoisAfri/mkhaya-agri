@@ -1,0 +1,182 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-07",
+ "title": "Basic Cattle Anatomy and Abnormalities",
+ "lessons": [
+  {
+   "title": "The parts of a beef animal",
+   "minutes": 20,
+   "html": "<h3>Why slaughterers need anatomy</h3><p>To make correct, clean cuts you must know what lies under the hide: where the joints are, where the gut is, and where each organ sits. Knowing anatomy also helps you see when something looks abnormal, so you can tell the meat inspector.</p><h3>The digestive system of a ruminant</h3><p>Cattle are <strong>ruminants</strong>: they chew the cud. Their stomach has four parts:</p><ol><li><strong>Rumen</strong>: the largest part, on the left side, full of fermenting grass and feed.</li><li><strong>Reticulum</strong>: the honeycomb stomach, close to the heart. Sharp wire swallowed by cattle can collect here.</li><li><strong>Omasum</strong>: the many-folded stomach (sometimes called the bible).</li><li><strong>Abomasum</strong>: the true stomach.</li></ol><p>Then come the small intestine, large intestine and rectum. The <strong>oesophagus</strong> (weasand) carries food from the mouth to the rumen. Because the gut is full of germs, it must not be cut or allowed to leak during slaughter.</p><h3>Organs in the chest and belly</h3><table><tr><th>Organ</th><th>Where</th></tr><tr><td>Heart and lungs</td><td>Chest cavity, behind the brisket</td></tr><tr><td>Diaphragm (skirt)</td><td>Muscle wall between chest and belly</td></tr><tr><td>Liver (with gall bladder)</td><td>Right side, against the diaphragm</td></tr><tr><td>Spleen</td><td>Attached to the rumen on the left</td></tr><tr><td>Kidneys</td><td>Under the loin, in kidney fat</td></tr><tr><td>Bladder and reproductive organs</td><td>Pelvis</td></tr></table><h3>Red and rough offal</h3><p><strong>Red offal</strong> includes the heart, lungs, liver, spleen, kidneys, tongue and head meat. <strong>Rough offal</strong> includes the stomachs and intestines. They are handled in separate rooms because the rough offal is dirty.</p><h3>The skeleton and main cuts</h3><p>The carcass is built on the backbone (vertebrae), ribs, pelvis and leg bones. The splitting saw runs down the middle of the backbone. Valuable cuts such as the fillet, sirloin and rump lie along the back and hindquarter, which is why injections and bruises there are costly.</p>"
+  },
+  {
+   "title": "Recognising abnormalities",
+   "minutes": 20,
+   "html": "<h3>What is an abnormality?</h3><p>An abnormality is anything that does not look like healthy tissue: a change in colour, size, smell or texture, a lump, a cyst or pus. Some abnormalities are a danger to people; others only spoil the meat. <strong>Only the meat inspector decides</strong> whether meat is passed, trimmed or condemned. Your job is to notice and report.</p><h3>Common abnormalities</h3><table><tr><th>Abnormality</th><th>What it looks like</th></tr><tr><td>Bruises</td><td>Dark red or blackish, bloody area in the meat, often on the hindquarter or back</td></tr><tr><td>Abscess</td><td>A pocket of pus, often in the liver or at old injection sites. Do not cut into it.</td></tr><tr><td>Beef measles (cysticercosis)</td><td>Small whitish cysts in muscles such as the cheek muscles and heart; caused by a tapeworm that can infect people</td></tr><tr><td>Liver fluke</td><td>Thickened, hard bile ducts in the liver with flat worms</td></tr><tr><td>Hydatid cysts</td><td>Fluid-filled cysts in liver or lungs</td></tr><tr><td>Tuberculosis</td><td>Yellowish, gritty or cheesy lumps in lymph nodes, lungs or other organs</td></tr><tr><td>Pneumonia</td><td>Lungs dark, firm or stuck to the ribs</td></tr><tr><td>Jaundice</td><td>Yellow fat and tissues</td></tr><tr><td>Tumours</td><td>Abnormal growths or lumps</td></tr><tr><td>Injection site damage</td><td>Scar tissue or discoloured muscle in the neck or rump</td></tr></table><h3>What to do</h3><ol><li>Stop and call the meat inspector. Do not continue to process the parts.</li><li>Keep the carcass, head and offal together and identified, so the inspector can examine all of them.</li><li>If you cut an abscess or contaminated organ, sterilise your knife and wash your hands before touching anything else.</li><li>Wear gloves; some animal diseases, such as TB, can infect people.</li></ol><h4>Key points</h4><ul><li>Cattle have four stomach parts: rumen, reticulum, omasum and abomasum.</li><li>Red offal and rough offal are handled separately.</li><li>Know where the organs are so you can cut cleanly.</li><li>Common abnormalities include bruises, abscesses, measles, fluke and TB lesions.</li><li>Report abnormalities; only the meat inspector decides on the meat.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is the largest part of a cow's stomach?",
+   "options": [
+    {
+     "text": "Rumen",
+     "correct": true
+    },
+    {
+     "text": "Abomasum",
+     "correct": false
+    },
+    {
+     "text": "Omasum",
+     "correct": false
+    },
+    {
+     "text": "Reticulum",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is rough offal?",
+   "options": [
+    {
+     "text": "Heart",
+     "correct": false
+    },
+    {
+     "text": "Intestines",
+     "correct": true
+    },
+    {
+     "text": "Liver",
+     "correct": false
+    },
+    {
+     "text": "Tongue",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Beef measles appear as…",
+   "options": [
+    {
+     "text": "Yellow fat",
+     "correct": false
+    },
+    {
+     "text": "Black bruises",
+     "correct": false
+    },
+    {
+     "text": "Small whitish cysts in muscles such as the cheek and heart",
+     "correct": true
+    },
+    {
+     "text": "Hard bile ducts",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you cut into an abscess?",
+   "options": [
+    {
+     "text": "Carry on with the same knife",
+     "correct": false
+    },
+    {
+     "text": "Wipe the knife on your apron",
+     "correct": false
+    },
+    {
+     "text": "Hide the carcass",
+     "correct": false
+    },
+    {
+     "text": "Sterilise your knife and wash your hands before touching anything else",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who decides whether abnormal meat is condemned?",
+   "options": [
+    {
+     "text": "The slaughterer",
+     "correct": false
+    },
+    {
+     "text": "The supervisor",
+     "correct": false
+    },
+    {
+     "text": "The meat inspector",
+     "correct": true
+    },
+    {
+     "text": "The classifier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The carcass, head and offal of an animal with an abnormality should be kept together and identified for the inspector.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Yellow fat and tissues are a sign of a healthy carcass.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are red offal? (select all that apply)",
+   "options": [
+    {
+     "text": "Small intestine",
+     "correct": false
+    },
+    {
+     "text": "Rumen",
+     "correct": false
+    },
+    {
+     "text": "Kidneys",
+     "correct": true
+    },
+    {
+     "text": "Heart",
+     "correct": true
+    },
+    {
+     "text": "Liver",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

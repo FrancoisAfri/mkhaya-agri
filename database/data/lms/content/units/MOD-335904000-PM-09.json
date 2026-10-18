@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-335904000-PM-09",
+ "title": "Conduct fumigation processes for stored agricultural product pests",
+ "lessons": [
+  {
+   "title": "Fumigating silo bins and bulk grain",
+   "minutes": 25,
+   "html": "<h3>Before you begin</h3><p>Conducting a stored product fumigation puts the plan into action at the bin, bunker or bag stack. Confirm that the commodity has been sampled and the pest identified, the bin can be sealed, interconnecting equipment is locked out, the exclusion zone is set, signs are posted, and the team is briefed. Only operators registered for fumigation under Act 36 of 1947, or trained workers under their direct supervision as permitted, may carry out the work, using a fumigant registered for the commodity.</p><h4>Sealing the bin</h4><ul><li>Close and seal bottom slides and outlet gates.</li><li>Seal aeration fan inlets and ducts with plastic sheet and tape.</li><li>Seal inspection doors, cable entries and cracks.</li><li>Leave the top hatch for last, as the access point for application.</li><li>Install sampling lines at the top, middle and lower levels of the grain before final sealing.</li></ul><h4>Calculating the dose</h4><p>Use the label basis, such as dose per ton of grain or per cubic metre of storage space. Determine tonnage from intake records or by calculating the bin volume and using the bulk density for the commodity. Read the grain temperature, which determines the minimum exposure period on the label. Have the calculation checked.</p><h4>Applying phosphide products to bulk grain</h4><ol><li>Applicators wear the respiratory protection specified by the label and work in pairs with a standby person.</li><li>Distribute tablets or pellets as the label directs, for example by probing into the grain at intervals, adding to the grain stream during loading, or placing sachets or blankets on the surface.</li><li>Keep products dry; never allow contact with water or liquids.</li><li>Do not heap tablets together.</li><li>Seal the top hatch immediately after application and record the time and quantity.</li></ol><h4>Working safely at height and over grain</h4><p>Bin tops are high and often windy. Use fall protection where required. Never enter a bin or walk on grain while it is flowing, and never enter without the confined space permit and standby arrangements in place.</p>"
+  },
+  {
+   "title": "Fumigating bag stacks and bunkers",
+   "minutes": 20,
+   "html": "<h3>Sheeted fumigation</h3><p>Bagged maize, wheat, beans, seed and feed are often fumigated under gas-proof sheets in a warehouse or on a hardstand.</p><ol><li>Check the floor: concrete floors with cracks may leak gas; lay floor sheets where needed.</li><li>Place the stack on pallets clear of walls so sheets can be sealed around the base.</li><li>Inspect sheets for holes before use.</li><li>Cover the stack completely with an overlap at joins and enough sheet on the floor to seal.</li><li>Lay sand snakes along the edges, overlapping their ends, with no gaps at corners.</li><li>Place phosphide formulations on trays or in dispensers in the positions the label allows, usually around the base under the sheet, before the final edge is sealed. Spread them out and keep them away from moisture.</li><li>Install sampling lines at the top and sides of the stack.</li></ol><h4>Bunkers</h4><p>Large outdoor bunkers are sealed under covers designed for gas-tightness. Edges and joins must be sealed as the bunker design specifies. Wind and sun affect temperature and leakage, so monitor closely.</p><h4>In-transit and container fumigation</h4><p>Export containers and ship holds may be fumigated in transit under specialist procedures. These involve additional regulatory and shipping requirements, and only specifically trained operators should undertake them.</p><h4>Common sealing faults with bag stacks</h4><ul><li>Gaps at the corners where sand snakes do not overlap.</li><li>Sheets pulled tight over sharp bag edges or pallets, which tear during the exposure.</li><li>Stacks placed against walls so the sheet cannot be sealed along one side.</li><li>Sheets with old patched holes that have opened again.</li><li>Floor drains or cracks under the stack that let gas escape.</li></ul><p>Walk around the sealed stack before application and again shortly after it, checking each of these points, and use a gas monitor along the edges to find leaks.</p>"
+  },
+  {
+   "title": "Monitoring, ventilating and releasing the commodity",
+   "minutes": 20,
+   "html": "<h3>During exposure</h3><ul><li>Read concentrations through each sampling line at the planned times.</li><li>Record readings, grain temperature and weather.</li><li>Check perimeter areas, tunnels, conveyor galleries, offices and the weighbridge for leaks.</li><li>Keep the exclusion zone secure.</li><li>If concentrations fall, locate and fix leaks; do not cut short the exposure period.</li></ul><h4>Ventilation</h4><p>After the full exposure period, open the structure and ventilate as planned, using aeration fans on silos where available. Maintain the exclusion zone. Recover residues where the formulation allows and handle them strictly as the label directs.</p><h4>Testing and release</h4><ol><li>Test the headspace and, using probes, the grain mass.</li><li>Allow entry only when readings are below the label re-entry level.</li><li>When outloading, monitor at the bin outlet, conveyors and truck loading points, because moving grain can release trapped gas.</li><li>Respect any withholding period on the label before the commodity is used or sold.</li></ol><h4>Checking the result</h4><p>Take samples after ventilation and check for live insects. Incubate samples where needed to detect hidden stages. Record results and report survivors to your technical manager.</p><h4>Key points</h4><ul><li>Seal slides, ducts, doors and cracks, and install sampling lines before final sealing.</li><li>Calculate the dose from tonnage or volume and set exposure from grain temperature and the label.</li><li>Keep phosphide products dry and spread out, and work in pairs with protection.</li><li>Seal bag stacks with overlapping sheets and snakes with no gaps at corners.</li><li>Test headspace and grain before entry, and monitor during outloading.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which opening on a silo bin is usually sealed last?",
+   "options": [
+    {
+     "text": "The bottom slide",
+     "correct": false
+    },
+    {
+     "text": "The aeration fan inlet",
+     "correct": false
+    },
+    {
+     "text": "The top hatch used for application",
+     "correct": true
+    },
+    {
+     "text": "The inspection door",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What determines the minimum exposure period on many phosphine labels?",
+   "options": [
+    {
+     "text": "Grain temperature",
+     "correct": true
+    },
+    {
+     "text": "The colour of the grain",
+     "correct": false
+    },
+    {
+     "text": "The day of the week",
+     "correct": false
+    },
+    {
+     "text": "The client's deadline",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should phosphide tablets be placed?",
+   "options": [
+    {
+     "text": "Heaped together in one spot",
+     "correct": false
+    },
+    {
+     "text": "Wetted to start the reaction",
+     "correct": false
+    },
+    {
+     "text": "Placed in a closed plastic bottle",
+     "correct": false
+    },
+    {
+     "text": "Spread out as the label directs and kept dry",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is gas often a hazard during outloading after fumigation?",
+   "options": [
+    {
+     "text": "At the bin outlet, conveyors and truck loading points",
+     "correct": true
+    },
+    {
+     "text": "Only at the bin top",
+     "correct": false
+    },
+    {
+     "text": "Nowhere, once the hatch is open",
+     "correct": false
+    },
+    {
+     "text": "Only in the office",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why might floor sheets be needed under a bag stack?",
+   "options": [
+    {
+     "text": "To keep the bags clean for photos",
+     "correct": false
+    },
+    {
+     "text": "Cracked concrete floors may leak gas",
+     "correct": true
+    },
+    {
+     "text": "To make the stack taller",
+     "correct": false
+    },
+    {
+     "text": "They are never needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A withholding period on the label must be respected before the commodity is used or sold.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to walk on grain while the bin is being emptied if you hold the ladder.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which areas should be checked for leaks during a silo fumigation? (select all that apply)",
+   "options": [
+    {
+     "text": "Tunnels and conveyor galleries",
+     "correct": true
+    },
+    {
+     "text": "Offices and the weighbridge",
+     "correct": true
+    },
+    {
+     "text": "The inside of the sealed bin by entering it",
+     "correct": false
+    },
+    {
+     "text": "Perimeter areas downwind",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

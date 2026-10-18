@@ -2,7 +2,7 @@
 /**
  * Which of the tenant's businesses Accounting is showing.
  *
- * One tenant can trade under several names — Mkhaya MK, Mkhaya Move, Mkhaya Hub — each with its
+ * One tenant can trade under several names — Mkhaya MK, Mkhaya Move, Mkhaya Agri — each with its
  * own customers, suppliers, chart of accounts and letterhead. This sits in the app bar on every
  * Accounting screen for two reasons: so a list is never read as the wrong business's list, and so
  * switching does not mean navigating back to a setup page first.

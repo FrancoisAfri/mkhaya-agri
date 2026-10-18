@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-QUAL125263",
+ "title": "Advanced Certificate in Conservation Agriculture",
+ "lessons": [
+  {
+   "title": "Principles of conservation agriculture",
+   "minutes": 20,
+   "html": "<h3>Why conservation agriculture?</h3><p>Decades of intensive ploughing on South African grain land, from the Free State and North West maize triangle to the Swartland wheat belt, have contributed to loss of topsoil, declining organic matter, crusting, compaction and erosion. Conservation agriculture (CA) is a farming system designed to reverse this while keeping the farm profitable. This qualification prepares farmers, supervisors and advisors to plan and apply CA strategies in crop farming.</p><h4>The three core principles</h4><table><tr><th>Principle</th><th>What it means in practice</th></tr><tr><td>Minimum mechanical soil disturbance</td><td>No-till or strip-till planting; no ploughing, discing or ripping as a routine operation</td></tr><tr><td>Permanent soil cover</td><td>Crop residues and cover crops keep the soil covered as much of the year as possible</td></tr><tr><td>Crop diversification</td><td>Rotations and mixtures of cereals, legumes, oilseeds and cover crops instead of monoculture</td></tr></table><p>In South Africa, the integration of livestock (grazing cover crops or residues in a controlled way) is often treated as a fourth element, because mixed farms dominate in many regions. It must be managed carefully so that grazing does not strip the soil cover that CA depends on.</p><h4>How the principles work together</h4><p>No-till alone, without cover and rotation, often disappoints: weeds and diseases build up and residues are too thin to protect the soil. Cover reduces raindrop impact, evaporation and soil temperature; diverse roots build soil structure and feed soil biology; reduced disturbance protects the pores, fungal networks and aggregates that biology creates. The benefits are cumulative and usually take several seasons to show fully.</p><h4>Expected benefits and trade-offs</h4><ul><li>Better infiltration and water-holding, important in rain-fed systems with erratic rainfall</li><li>Lower fuel, labour and machinery costs per hectare</li><li>Gradual increase in soil organic carbon and biological activity</li><li>Reduced erosion, supporting obligations under the Conservation of Agricultural Resources Act 43 of 1983</li><li>Trade-offs: a transition period with possible yield dips, greater reliance on herbicides for weed control in many systems, new skills and planter investment</li></ul>"
+  },
+  {
+   "title": "Planning the transition on a farm",
+   "minutes": 20,
+   "html": "<h3>Assessing the starting point</h3><p>A CA transition is a management project, not a single change of implement. Begin with a farm-level assessment:</p><ul><li><strong>Soils:</strong> texture, depth, compaction layers (penetrometer and soil pits), pH and acidity, organic carbon, nutrient status.</li><li><strong>Climate:</strong> rainfall amount and distribution, frost dates, length of growing season; these determine which cover crops and rotations are feasible.</li><li><strong>Enterprise mix:</strong> cash crops, livestock numbers and their feed needs, markets for rotational crops.</li><li><strong>Weeds and pests:</strong> herbicide-resistant weeds, problem grasses, cutworm and slug pressure in residues.</li><li><strong>Finances and equipment:</strong> existing planters, access to a no-till planter, contractor options, cash-flow capacity during transition.</li></ul><h4>Correcting constraints first</h4><p>Some problems are easier to fix before stopping tillage: incorporating lime into acidic subsoils, breaking a severe plough pan once, and levelling fields. After this, avoid repeated disturbance.</p><h4>Designing rotations and cover crops</h4><p>A rotation should balance profit, residue production and biological diversity. Example for a summer rainfall dryland farm: maize, then soybean, then a multi-species winter or summer cover where moisture allows, followed by sunflower or sorghum. Cover crop mixes may combine grasses (oats, rye, millet), legumes (vetch, cowpea, sunn hemp) and brassicas (radish, turnip). Select species to suit the season, the following cash crop and the livestock plan.</p><h4>Phasing</h4><p>Start with a few fields, on the best-understood soils, rather than the whole farm. Use on-farm comparisons: a strip of conventional practice next to the CA field, measured for yield, cost, infiltration and soil carbon over several seasons. Study groups and farmer-to-farmer learning, as practised in several SA grain-producing regions, shorten the learning curve.</p><h4>Financial planning</h4><p>Build budgets for the transition years: planter purchase or contracting, cover crop seed, possible yield reduction in early years, against savings in diesel, labour, repairs and fertiliser over time. Gross margin per hectare and whole-farm cash flow should both be tested under poor-season scenarios.</p>"
+  },
+  {
+   "title": "Managing CA systems: equipment, weeds, nutrients and monitoring",
+   "minutes": 20,
+   "html": "<h3>Equipment</h3><p>No-till planters must cut through residue, place seed at a consistent depth into firm soil and close the slot. Key components are residue cutters (coulters or row cleaners), double disc or tine openers, depth control wheels and closing wheels suited to the soil. Correct set-up and down-pressure are as important as the brand. Controlled traffic, keeping wheels on permanent tramlines, limits compaction.</p><h4>Weed management</h4><p>Without tillage, weeds are controlled through competition from cover crops and residues, crop rotation, and herbicides used according to registered labels under Act 36 of 1947. Over-reliance on one herbicide mode of action has led to resistant weeds in SA; rotate modes of action, use cover crops and timely crop establishment, and scout regularly. Roller-crimping can terminate some covers mechanically at the right growth stage.</p><h4>Nutrient and soil health management</h4><ul><li>Legumes in the rotation fix nitrogen and can reduce fertiliser needs for the following crop.</li><li>Residues tie up nitrogen during decomposition in the early years; adjust timing and placement of N.</li><li>Surface-applied lime moves slowly in no-till; correct subsoil acidity before transition where possible.</li><li>Monitor soil biology indicators, aggregate stability and infiltration in addition to standard chemical analysis.</li></ul><h4>Livestock integration</h4><p>Grazing cover crops can add income and recycle nutrients, but set grazing rules: graze only when soils are not saturated, leave a minimum residue cover, and move animals in short, planned periods.</p><h4>Monitoring and evaluation</h4><p>Track indicators per field and per season: yield, input costs, gross margin, percentage soil cover, infiltration rate, soil organic carbon, weed pressure. Use records to adapt the system. As an advisor, present results honestly, including failures, so that farmers trust the advice.</p><h4>Key points</h4><ul><li>CA rests on minimum disturbance, permanent cover and crop diversity, applied together.</li><li>Assess soils, climate, enterprises and finances before transition, and fix constraints first.</li><li>Phase in field by field with on-farm comparisons.</li><li>Manage weeds with rotation, cover and responsible herbicide use, rotating modes of action.</li><li>Monitor yield, cost and soil health indicators over several seasons.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which set lists the three core principles of conservation agriculture?",
+   "options": [
+    {
+     "text": "Deep ploughing, irrigation, monoculture",
+     "correct": false
+    },
+    {
+     "text": "Minimum soil disturbance, permanent soil cover, crop diversification",
+     "correct": true
+    },
+    {
+     "text": "Burning residues, discing, fallow",
+     "correct": false
+    },
+    {
+     "text": "Fertiliser, pesticides, hybrid seed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does no-till alone, without cover and rotation, often disappoint?",
+   "options": [
+    {
+     "text": "Planters are too expensive",
+     "correct": false
+    },
+    {
+     "text": "Yields always double",
+     "correct": false
+    },
+    {
+     "text": "It needs more diesel",
+     "correct": false
+    },
+    {
+     "text": "Weeds and diseases build up and residues are too thin to protect the soil",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a sensible way to begin a CA transition?",
+   "options": [
+    {
+     "text": "Start on a few fields with on-farm comparison strips",
+     "correct": true
+    },
+    {
+     "text": "Convert the whole farm in one season without records",
+     "correct": false
+    },
+    {
+     "text": "Stop all weed control",
+     "correct": false
+    },
+    {
+     "text": "Sell all livestock immediately",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should subsoil acidity be corrected before stopping tillage where possible?",
+   "options": [
+    {
+     "text": "Lime is cheaper later",
+     "correct": false
+    },
+    {
+     "text": "Acidity disappears under no-till",
+     "correct": false
+    },
+    {
+     "text": "Surface-applied lime moves slowly in no-till soils",
+     "correct": true
+    },
+    {
+     "text": "Planters cannot plant into limed soil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a key risk of relying on one herbicide mode of action in CA?",
+   "options": [
+    {
+     "text": "Higher soil carbon",
+     "correct": false
+    },
+    {
+     "text": "Development of herbicide-resistant weeds",
+     "correct": true
+    },
+    {
+     "text": "Better cover crops",
+     "correct": false
+    },
+    {
+     "text": "Reduced compaction",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Benefits of conservation agriculture usually build up over several seasons rather than appearing immediately.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Livestock grazing of cover crops should remove all residue so the planter can work easily.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which indicators are useful for monitoring a CA field over time? (select all that apply)",
+   "options": [
+    {
+     "text": "Percentage soil cover",
+     "correct": true
+    },
+    {
+     "text": "Infiltration rate",
+     "correct": true
+    },
+    {
+     "text": "Number of ploughing passes",
+     "correct": false
+    },
+    {
+     "text": "Soil organic carbon",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

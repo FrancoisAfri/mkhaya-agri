@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-244073",
+ "title": "Receive, handle and store hazardous chemicals safely",
+ "lessons": [
+  {
+   "title": "Preparing to receive and checking deliveries",
+   "minutes": 15,
+   "html": "<h3>Hazardous chemicals at work</h3> <p>Farms and agri-businesses use many hazardous chemicals: pesticides, herbicides, fumigants, fertilisers, acids for irrigation lines, chlorine for water treatment, cleaning chemicals in dairies and packhouses, fuels and oils. They can poison, burn, cause fires or harm the environment. The OHS Act 85 of 1993 and its regulations for hazardous chemical agents require employers to control exposure, and workers to follow safe procedures.</p> <h4>Preparing to receive</h4> <ul> <li>Know what is being delivered and when. Check the order.</li> <li>Make space in the correct store, away from incompatible products.</li> <li>Have the <strong>safety data sheet (SDS)</strong> for each product. It tells you the hazards, PPE, first aid, spill clean-up and storage needs.</li> <li>Get your PPE ready as the SDS and supervisor require: gloves, overalls, safety boots, goggles or face shield, and a respirator if needed.</li> <li>Check that the spill kit, eye-wash station, water and fire extinguisher are ready.</li> <li>Have a pallet jack or lift truck ready for heavy items; only trained people may drive them.</li> </ul> <h4>Receiving and checking</h4> <ol> <li>Check the delivery note against the order: product name, quantity, pack size.</li> <li>Check every container: no leaks, dents, cracks, swollen drums or broken seals.</li> <li>Check labels: product name, hazard pictograms, registration number for agricultural remedies (Act 36 of 1947), batch number and expiry date.</li> <li>Do not accept leaking or unlabelled containers. Put them aside in a safe place, tell your supervisor and note it on the delivery note.</li> <li>Count and sign only for what you received in good order.</li> </ol> <h4>Hazard pictograms</h4> <p>Red diamond pictograms show the type of danger: flame (flammable), skull and crossbones (acute toxic), corrosion (burns skin and metal), exclamation mark (irritant or harmful), health hazard (long-term health effects), environment (toxic to fish and wildlife), flame over circle (oxidiser), gas cylinder and exploding bomb. Learn them and look for them.</p>"
+  },
+  {
+   "title": "Handling chemicals safely",
+   "minutes": 15,
+   "html": "<h3>Basic rules</h3> <ul> <li>Read the label and SDS before handling. If you cannot read it, ask your supervisor to explain.</li> <li>Wear the PPE required, and check it is not damaged. Gloves must be chemical-resistant, not cloth.</li> <li>Never eat, drink, smoke or use your phone while handling chemicals.</li> <li>Work in a well-ventilated place. Do not breathe in dust or fumes.</li> <li>Keep chemicals in their original, labelled containers. Never put chemicals in cold drink bottles or food containers; people have died drinking from them.</li> <li>Keep people who are not involved, especially children, away.</li> </ul> <h3>Moving and lifting</h3> <ul> <li>Use trolleys, pallet jacks or drum lifters for heavy containers.</li> <li>Lift with bent knees and a straight back; ask for help with heavy loads.</li> <li>Carry containers upright with caps tight.</li> <li>Transport chemicals separately from food, feed and people. Never carry them in the cab of a bakkie with passengers.</li> </ul> <h3>Decanting and measuring</h3> <ul> <li>Only trained workers decant or measure chemicals.</li> <li>Use the correct measuring jugs, marked for chemical use only.</li> <li>Pour slowly at waist height or below, over a drip tray, to avoid splashing.</li> <li>Close containers straight after use.</li> </ul> <h3>If something goes wrong</h3> <ul> <li><strong>Splash on skin</strong>: remove contaminated clothing and wash the skin with lots of water.</li> <li><strong>Splash in eyes</strong>: rinse at the eye-wash or with clean running water for a long time, holding the eyelids open; get medical help.</li> <li><strong>Swallowed</strong>: do not make the person vomit unless the label or a doctor says so. Get medical help immediately and take the label or SDS.</li> <li><strong>Breathed in</strong>: move to fresh air if safe; get medical help.</li> <li><strong>Spill</strong>: warn others, stop the source if safe, contain it with the spill kit (absorbent, booms), keep it out of drains and water, and report it.</li> </ul>"
+  },
+  {
+   "title": "Post-handling and storage",
+   "minutes": 15,
+   "html": "<h3>After handling</h3> <ul> <li>Clean equipment such as measuring jugs and trolleys as instructed. Rinse water may be hazardous; do not let it run into drains, dams or rivers.</li> <li>Clean reusable PPE and remove it in the right order so you do not touch the outside with bare hands. Gloves come off last.</li> <li>Wash hands, face and arms with soap and water before eating, drinking, smoking or using the toilet. Shower at the end of the day if required.</li> <li>Wash work clothes separately from family clothing.</li> <li>Empty containers: triple rinse if the label says so, puncture them so they cannot be reused, and keep them in a locked area for collection by an approved recycler or waste contractor. Never burn or bury them, or give them to people for water storage.</li> <li>Record what was received, used and stored.</li> </ul> <h3>Storing hazardous chemicals</h3> <h4>The store</h4> <ul> <li>A separate, locked building or room, with access only for authorised people.</li> <li>Well ventilated, cool and dry, with good lighting.</li> <li>A bunded (sealed) floor or bund wall to contain spills, away from water sources.</li> <li>Warning signs on the door: \"Danger\", \"No smoking\", \"Authorised persons only\", and the hazard signs.</li> <li>Fire extinguisher, spill kit and eye-wash nearby; emergency numbers displayed.</li> </ul> <h4>Storage rules</h4> <ul> <li>Keep chemicals away from food, feed, seed and living quarters.</li> <li>Separate incompatible products as the SDS says, for example oxidisers away from flammables, acids away from alkalis and chlorine.</li> <li>Store liquids below powders, so leaks do not drip onto bags.</li> <li>Do not store on the floor; use pallets or shelves. Heavy items on low shelves.</li> <li>Keep containers closed, upright and labelled.</li> <li>Use first-in, first-out and watch expiry dates.</li> <li>Keep a stock register.</li> </ul> <h4>Key points</h4> <ul> <li>Have the SDS, PPE and spill kit ready before receiving chemicals.</li> <li>Check every container and label; refuse leaking or unlabelled ones.</li> <li>Never put chemicals in food or drink containers.</li> <li>Wash well after handling and manage empty containers safely.</li> <li>Store in a locked, ventilated, bunded store with incompatible products separated.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which document tells you a chemical's hazards, PPE, first aid and storage needs?",
+   "options": [
+    {
+     "text": "The pay slip",
+     "correct": false
+    },
+    {
+     "text": "The delivery note",
+     "correct": false
+    },
+    {
+     "text": "The weather report",
+     "correct": false
+    },
+    {
+     "text": "The safety data sheet (SDS)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a leaking container on delivery?",
+   "options": [
+    {
+     "text": "Pour it into a bottle",
+     "correct": false
+    },
+    {
+     "text": "Accept it and use it first",
+     "correct": false
+    },
+    {
+     "text": "Hide it",
+     "correct": false
+    },
+    {
+     "text": "Put it aside safely, tell your supervisor and note it on the delivery note",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a skull and crossbones pictogram mean?",
+   "options": [
+    {
+     "text": "Acute toxic",
+     "correct": true
+    },
+    {
+     "text": "Environmentally friendly",
+     "correct": false
+    },
+    {
+     "text": "Flammable",
+     "correct": false
+    },
+    {
+     "text": "Recyclable",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should liquids be stored below powders?",
+   "options": [
+    {
+     "text": "Powders need more light",
+     "correct": false
+    },
+    {
+     "text": "It looks neater",
+     "correct": false
+    },
+    {
+     "text": "Liquids are lighter",
+     "correct": false
+    },
+    {
+     "text": "So leaks do not drip onto bags",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with empty chemical containers?",
+   "options": [
+    {
+     "text": "Give them to people for water",
+     "correct": false
+    },
+    {
+     "text": "Bury them near the dam",
+     "correct": false
+    },
+    {
+     "text": "Rinse if the label says, puncture, and keep locked for an approved collector",
+     "correct": true
+    },
+    {
+     "text": "Burn them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chemicals may be stored in cold drink bottles if they are clearly marked.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hands and face should be washed before eating after handling chemicals.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are features of a good chemical store? (select all that apply)",
+   "options": [
+    {
+     "text": "Locked with access for authorised people",
+     "correct": true
+    },
+    {
+     "text": "Stored next to animal feed",
+     "correct": false
+    },
+    {
+     "text": "Well ventilated",
+     "correct": true
+    },
+    {
+     "text": "Bunded floor to contain spills",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

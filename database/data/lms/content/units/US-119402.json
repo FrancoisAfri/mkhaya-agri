@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119402",
+ "title": "Maintain water for poultry production",
+ "lessons": [
+  {
+   "title": "Why water is the most important nutrient",
+   "minutes": 15,
+   "html": "<h3>Water drives feed intake and growth</h3><p>Chickens drink roughly twice as much water as the feed they eat, and more in hot weather. If birds do not drink enough, they eat less, grow slower, lay fewer eggs and become more prone to disease. Water is also used to give vaccines and medicines, so poor water can make these fail. Maintaining water supply and quality is therefore a core supervisor task.</p><h4>Sources and supply</h4><p>Farms use boreholes, municipal water, dams or rivers. Each source has risks: boreholes may be high in salts, iron or nitrates; dams and rivers can carry bacteria, algae and chemical run-off. Water use from boreholes and rivers must comply with the farm's water use entitlement under the National Water Act 36 of 1998. Back-up storage and power are needed for pumps during outages and load shedding, because birds cannot be without water for long.</p><h4>Drinking systems</h4><ul><li><strong>Nipple drinkers</strong>: closed systems, cleaner and keep litter dry; need correct pressure and height.</li><li><strong>Bell drinkers</strong>: open; easy to see water level but get dirty quickly and need daily cleaning.</li><li><strong>Header tanks and pressure regulators</strong>: control the supply to each line.</li><li><strong>Water meters</strong>: measure daily intake per house.</li><li><strong>Medicators / dosers</strong>: inject medicines, vaccines or water treatment.</li></ul><h4>Quality parameters</h4><p>Important checks include pH, total dissolved solids or EC, hardness, iron, nitrate, and bacteria (total count and coliforms). Have each source tested by an accredited laboratory at least annually and when problems occur, and compare results with guidelines for poultry drinking water from your vet or adviser.</p>"
+  },
+  {
+   "title": "Daily and routine water management",
+   "minutes": 15,
+   "html": "<h3>Keeping water flowing, clean and measured</h3><h4>Daily tasks</h4><ul><li>Read and record each house's water meter at the same time every day.</li><li>Walk drinker lines: check that every nipple works, there are no leaks and that drinkers are at the correct height for the birds' age.</li><li>Check pressure regulators and line pressure as the equipment manual specifies.</li><li>Clean bell drinkers daily and adjust their height and water level.</li><li>Check that sanitiser levels, if the farm treats water, are within the range set by the vet or adviser.</li><li>Check that water is cool; in summer, flush lines to remove warm water.</li></ul><h4>Interpreting water intake</h4><p>Plot daily water intake on a chart. Intake should rise steadily as birds grow. A sudden drop of more than a few percent can mean disease, a blocked or broken line, a pump failure, feed problems or heat stress effects, and must be investigated the same day. A sudden rise can mean a leak or heat. The ratio of water to feed intake is also a useful check.</p><h4>Routine maintenance</h4><table><tr><th>Task</th><th>Purpose</th></tr><tr><td>Flush drinker lines regularly at high flow</td><td>Remove sediment and biofilm</td></tr><tr><td>Clean filters</td><td>Prevent blockages</td></tr><tr><td>Clean and cover header tanks</td><td>Prevent contamination by dust, birds and rodents</td></tr><tr><td>Calibrate medicators</td><td>Correct doses of medicines and vaccines</td></tr><tr><td>Inspect pumps and pipes</td><td>Prevent breakdowns</td></tr></table><h4>Biofilm</h4><p>Biofilm is a slimy layer of bacteria that builds up inside pipes, especially when vitamins, sugars or medicines are given in water. It protects bacteria from sanitisers and can block nipples. Clean it between flocks with approved products, and flush after any water medication.</p>"
+  },
+  {
+   "title": "Water treatment, medication and between-flock cleaning",
+   "minutes": 15,
+   "html": "<h3>Treating water safely</h3><h4>Sanitising drinking water</h4><p>Many farms add chlorine or other approved sanitisers to drinking water to control bacteria. The level must be enough to work but not so high that birds drink less. pH affects how well chlorine works. Your vet or adviser sets the target levels; check them daily with a test kit at the end of the line, furthest from the doser, and record them.</p><h4>Giving vaccines and medicines in water</h4><ol><li>Follow the vet's prescription and the product label exactly.</li><li><strong>Stop sanitiser</strong> in the water before and during vaccination as the vaccine instructions say, because chlorine kills live vaccines. A water stabiliser such as skim milk powder or a commercial product may be used as directed.</li><li>Calculate the amount of water birds will drink in the vaccination period, based on recent intake records.</li><li>Withhold water for a short time if instructed, so birds drink the vaccine quickly.</li><li>Make sure all lines are filled with vaccine water and every bird can reach a drinker.</li><li>Record the product, batch, dose, time and houses, and the withdrawal period for medicines.</li><li>Flush lines after medication.</li></ol><h4>Between flocks</h4><p>Drain the system, clean header tanks, flush lines, treat with an approved line cleaner to remove biofilm and scale, rinse thoroughly, and refill with fresh water before chicks arrive.</p><h4>Safety with water chemicals</h4><p>Chlorine products and acids used for water treatment are hazardous. Wear gloves and goggles, store them apart in a locked, ventilated store, always add chemical to water, and never mix acids with chlorine because toxic gas forms.</p><h4>Key points</h4><ul><li>Chickens drink about twice as much water as feed; poor water cuts growth and production.</li><li>Record water meters daily; investigate any sudden drop the same day.</li><li>Flush lines, clean filters and tanks, and control biofilm.</li><li>Stop sanitiser before and during water vaccination; chlorine kills live vaccines.</li><li>Never mix acids and chlorine; store water chemicals safely.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Roughly how much water do chickens drink compared with the feed they eat?",
+   "options": [
+    {
+     "text": "About twice as much",
+     "correct": true
+    },
+    {
+     "text": "About half as much",
+     "correct": false
+    },
+    {
+     "text": "About the same",
+     "correct": false
+    },
+    {
+     "text": "Ten times less",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must sanitiser be stopped before and during vaccination in water?",
+   "options": [
+    {
+     "text": "It makes the water cold",
+     "correct": false
+    },
+    {
+     "text": "Chlorine kills live vaccines",
+     "correct": true
+    },
+    {
+     "text": "Birds like it too much",
+     "correct": false
+    },
+    {
+     "text": "It blocks the water meter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is biofilm?",
+   "options": [
+    {
+     "text": "A plastic cover for tanks",
+     "correct": false
+    },
+    {
+     "text": "A type of vaccine",
+     "correct": false
+    },
+    {
+     "text": "A slimy layer of bacteria inside pipes",
+     "correct": true
+    },
+    {
+     "text": "A water meter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should the sanitiser level be tested?",
+   "options": [
+    {
+     "text": "At the borehole only",
+     "correct": false
+    },
+    {
+     "text": "In the store room",
+     "correct": false
+    },
+    {
+     "text": "In the header tank lid",
+     "correct": false
+    },
+    {
+     "text": "At the end of the line, furthest from the doser",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can a sudden drop in daily water intake indicate?",
+   "options": [
+    {
+     "text": "Disease or a blocked or broken line",
+     "correct": true
+    },
+    {
+     "text": "Birds are growing well",
+     "correct": false
+    },
+    {
+     "text": "Too much feed",
+     "correct": false
+    },
+    {
+     "text": "Better weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Header tanks should be kept covered to prevent contamination.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Acids and chlorine can be mixed safely in one container.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are routine water maintenance tasks? (select all that apply)",
+   "options": [
+    {
+     "text": "Flush drinker lines",
+     "correct": true
+    },
+    {
+     "text": "Clean filters",
+     "correct": true
+    },
+    {
+     "text": "Calibrate medicators",
+     "correct": true
+    },
+    {
+     "text": "Paint the drinkers every week",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

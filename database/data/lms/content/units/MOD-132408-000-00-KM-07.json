@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-07",
+ "title": "Employee of choice",
+ "lessons": [
+  {
+   "title": "What makes an employee of choice",
+   "minutes": 15,
+   "html": "<h3>The idea</h3>\n<p>An \"employee of choice\" is someone employers want to hire, keep and promote. In grain handling, where depots take on many workers each season, the people who are asked back year after year and offered permanent posts are those who are reliable, skilled, honest and easy to work with. This module helps you build those qualities.</p>\n<h4>Core qualities</h4>\n<ul>\n<li><strong>Reliability</strong> – arriving on time, coming to work every scheduled day, and phoning early when you cannot.</li>\n<li><strong>Integrity</strong> – being honest with weights, grades, stock and time sheets. In a depot, honesty protects farmers' grain and the company's reputation.</li>\n<li><strong>Safety awareness</strong> – following rules, wearing PPE and reporting hazards.</li>\n<li><strong>Quality focus</strong> – doing the job right the first time and checking your work.</li>\n<li><strong>Willingness to learn</strong> – asking questions, attending training and learning new tasks.</li>\n<li><strong>Teamwork</strong> – helping others, sharing information and respecting colleagues.</li>\n<li><strong>Positive attitude</strong> – staying calm and polite even during long harvest days and with frustrated drivers.</li>\n</ul>\n<h4>Your rights and responsibilities</h4>\n<p>Employees have rights under South African law, such as fair treatment, safe working conditions, correct pay and the right to join a union. They also have responsibilities: to do the work agreed in the contract, follow reasonable instructions and rules, take care of company property and work safely as the OHS Act 85 of 1993 requires. Knowing both helps you act professionally.</p>\n<h4>Professional behaviour</h4>\n<ol>\n<li>Dress neatly in the required uniform and PPE.</li>\n<li>Use respectful language with everyone, including drivers and farmers.</li>\n<li>Keep your cellphone away during work unless it is needed for the job.</li>\n<li>Keep confidential information private, such as farmers' grain quantities and prices.</li>\n<li>Never come to work under the influence of alcohol or drugs.</li>\n</ol>"
+  },
+  {
+   "title": "Growing your career",
+   "minutes": 15,
+   "html": "<h3>Taking charge of your development</h3>\n<p>Careers in grain handling can grow from seasonal sampler or intake operator to grader, control room operator, shift supervisor and depot manager. Moving up depends on skills, qualifications, experience and reputation.</p>\n<h4>Steps to grow</h4>\n<ol>\n<li><strong>Know your job well</strong> – master the work instructions and standards for your role.</li>\n<li><strong>Learn more roles</strong> – ask to be trained on other tasks so you can cover for colleagues.</li>\n<li><strong>Get qualified</strong> – complete occupational certificates and training such as grading, first aid or forklift operation offered through the company and SETA programmes.</li>\n<li><strong>Ask for feedback</strong> – ask your supervisor how you are doing and what to improve.</li>\n<li><strong>Set goals</strong> – for example, \"Become a certified grader within two seasons.\"</li>\n<li><strong>Keep records</strong> – keep copies of certificates and training records.</li>\n</ol>\n<h4>Managing yourself</h4>\n<ul>\n<li>Plan your time and transport so you are never late.</li>\n<li>Look after your health: rest, eat well, drink water during hot intake days, and use hearing and dust protection.</li>\n<li>Manage money carefully: budget your wages, especially seasonal income, and avoid expensive loans.</li>\n<li>Handle stress by talking to someone you trust or using the employee assistance programme if available.</li>\n</ul>\n<h4>Handling problems at work</h4>\n<p>If you have a problem with a colleague, your pay or your treatment, use the proper channel: speak to your supervisor first, then use the grievance procedure if needed. Stay calm and stick to facts. Avoid gossip and social media complaints, which can damage relationships and your reputation.</p>\n<h4>Example</h4>\n<p>Thandi started as a seasonal sampler. She was never late, asked the grader to explain each deviation, and studied the grading regulations in her free time. After two seasons she was trained and certified as a grader and offered a permanent post.</p>\n<h4>Key points</h4>\n<ul>\n<li>An employee of choice is reliable, honest, safe, quality-focused and willing to learn.</li>\n<li>Know both your rights and your responsibilities.</li>\n<li>Behave professionally and keep confidential information private.</li>\n<li>Grow by learning more roles, getting qualified and asking for feedback.</li>\n<li>Use proper channels to solve problems at work.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does \"employee of choice\" mean?",
+   "options": [
+    {
+     "text": "Someone employers want to hire, keep and promote",
+     "correct": true
+    },
+    {
+     "text": "Someone with the most years of service",
+     "correct": false
+    },
+    {
+     "text": "Someone who never works overtime",
+     "correct": false
+    },
+    {
+     "text": "Someone who chooses their own hours",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You are sick and cannot come to work. What should you do?",
+   "options": [
+    {
+     "text": "Tell a friend to say you are on the way",
+     "correct": false
+    },
+    {
+     "text": "Phone early to tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Come in the next week",
+     "correct": false
+    },
+    {
+     "text": "Just stay away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is integrity especially important in a grain depot?",
+   "options": [
+    {
+     "text": "It protects farmers’ grain and the company’s reputation",
+     "correct": true
+    },
+    {
+     "text": "It changes the grade",
+     "correct": false
+    },
+    {
+     "text": "It is not important",
+     "correct": false
+    },
+    {
+     "text": "It makes trucks faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You have a problem with your pay. What is the right first step?",
+   "options": [
+    {
+     "text": "Stop working",
+     "correct": false
+    },
+    {
+     "text": "Take it out on drivers",
+     "correct": false
+    },
+    {
+     "text": "Complain on social media",
+     "correct": false
+    },
+    {
+     "text": "Speak to your supervisor, then use the grievance procedure if needed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a good career development step?",
+   "options": [
+    {
+     "text": "Learn other roles and get qualified",
+     "correct": true
+    },
+    {
+     "text": "Refuse feedback",
+     "correct": false
+    },
+    {
+     "text": "Avoid training",
+     "correct": false
+    },
+    {
+     "text": "Hide mistakes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Farmers’ grain quantities and prices are confidential information.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Coming to work after drinking alcohol is acceptable if you feel fine.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are qualities of an employee of choice? (select all that apply)",
+   "options": [
+    {
+     "text": "Willingness to learn",
+     "correct": true
+    },
+    {
+     "text": "Reliability",
+     "correct": true
+    },
+    {
+     "text": "Spreading gossip",
+     "correct": false
+    },
+    {
+     "text": "Safety awareness",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

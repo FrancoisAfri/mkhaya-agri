@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-264177",
+ "title": "Identify the different organisms of the plant kingdom",
+ "lessons": [
+  {
+   "title": "The main groups of plants",
+   "minutes": 15,
+   "html": "<h3>What is the plant kingdom?</h3>\n<p>Scientists sort living things into groups. The plant kingdom is the group of living things that make their own food from sunlight using the green colour <strong>chlorophyll</strong>. This is called photosynthesis. In horticulture it helps to know the groups because they grow and reproduce in different ways.</p>\n<h4>Plants without seeds</h4>\n<ul><li><strong>Algae</strong> – simple green organisms in water, on wet walls and on top of potting mix. Many scientists now place algae outside the plant kingdom, but gardeners still meet them every day.</li>\n<li><strong>Mosses and liverworts</strong> – small, soft plants with no real roots and no flowers. They grow in damp, shady places and spread by spores.</li>\n<li><strong>Ferns</strong> – have roots, stems and fronds (leaves) with tubes that carry water. They make spores in small brown dots under the fronds. Example: tree ferns in Knysna forest.</li></ul>\n<h4>Plants with seeds</h4>\n<ul><li><strong>Gymnosperms (cone-bearing plants)</strong> – seeds are not inside a fruit. They are carried on cones. Examples: pine trees, yellowwood (Podocarpus), cycads.</li>\n<li><strong>Angiosperms (flowering plants)</strong> – seeds form inside a fruit, after flowering. This is the biggest group: grasses, vegetables, fruit trees, roses, proteas.</li></ul>\n<h4>What about fungi?</h4>\n<p>Mushrooms, moulds and rusts were once counted as plants, but they are now their own kingdom. Fungi have no chlorophyll and cannot make their own food. They feed on living or dead material. Many plant diseases, such as powdery mildew and rust, are caused by fungi.</p>"
+  },
+  {
+   "title": "Flowering plants: monocots and dicots",
+   "minutes": 15,
+   "html": "<h3>Two big groups of flowering plants</h3>\n<p>Flowering plants are split into monocotyledons (monocots) and dicotyledons (dicots). A cotyledon is a seed leaf, the first leaf or leaves that come out of the seed.</p>\n<table><tr><th>Feature</th><th>Monocots</th><th>Dicots</th></tr>\n<tr><td>Seed leaves</td><td>One</td><td>Two</td></tr>\n<tr><td>Leaf veins</td><td>Parallel (lines side by side)</td><td>Net-like (branching)</td></tr>\n<tr><td>Flower parts</td><td>In threes or multiples of three</td><td>In fours or fives</td></tr>\n<tr><td>Roots</td><td>Fibrous, many thin roots</td><td>Often a main taproot</td></tr>\n<tr><td>Examples</td><td>Grasses, maize, lilies, agapanthus, palms, strelitzia</td><td>Roses, beans, tomatoes, proteas, most trees</td></tr></table>\n<h3>Why this matters in your work</h3>\n<ul><li><strong>Weed control</strong> – some herbicides kill broadleaf (dicot) weeds but not grasses (monocots). That is why a lawn can be sprayed for broadleaf weeds. Always follow the label.</li>\n<li><strong>Propagation</strong> – many dicots grow well from stem cuttings; many monocots are divided (split) or grown from bulbs and seed.</li>\n<li><strong>Pruning</strong> – palms grow from one top bud. If you cut it off, the palm can die.</li></ul>\n<h3>How to identify a plant group</h3>\n<ol><li>Look for flowers or cones. Flowers mean angiosperm; cones mean gymnosperm.</li>\n<li>Look for spores under leaves (fern) or a soft, rootless cushion (moss).</li>\n<li>For flowering plants, check the leaf veins and count the petals.</li>\n<li>Use a plant book or ask your supervisor to confirm.</li></ol>\n<h4>Key points</h4>\n<ul><li>Plants make their own food using chlorophyll and sunlight.</li>\n<li>Mosses and ferns reproduce by spores; gymnosperms and angiosperms by seeds.</li>\n<li>Gymnosperms carry seeds on cones; angiosperms have flowers and fruit.</li>\n<li>Monocots have parallel veins and flower parts in threes; dicots have net veins and parts in fours or fives.</li>\n<li>Fungi are not plants: they have no chlorophyll.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do plants use to make their own food from sunlight?",
+   "options": [
+    {
+     "text": "Spores",
+     "correct": false
+    },
+    {
+     "text": "Chlorophyll",
+     "correct": true
+    },
+    {
+     "text": "Cones",
+     "correct": false
+    },
+    {
+     "text": "Fungi",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which group carries its seeds on cones?",
+   "options": [
+    {
+     "text": "Mosses",
+     "correct": false
+    },
+    {
+     "text": "Ferns",
+     "correct": false
+    },
+    {
+     "text": "Gymnosperms",
+     "correct": true
+    },
+    {
+     "text": "Monocots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do ferns reproduce?",
+   "options": [
+    {
+     "text": "By spores under the fronds",
+     "correct": true
+    },
+    {
+     "text": "By seeds inside fruit",
+     "correct": false
+    },
+    {
+     "text": "By cones",
+     "correct": false
+    },
+    {
+     "text": "Only by cuttings",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a feature of monocots?",
+   "options": [
+    {
+     "text": "Net-like leaf veins",
+     "correct": false
+    },
+    {
+     "text": "Flower parts in fives",
+     "correct": false
+    },
+    {
+     "text": "Two seed leaves",
+     "correct": false
+    },
+    {
+     "text": "Parallel leaf veins",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a dicot?",
+   "options": [
+    {
+     "text": "Maize",
+     "correct": false
+    },
+    {
+     "text": "Tomato",
+     "correct": true
+    },
+    {
+     "text": "Agapanthus",
+     "correct": false
+    },
+    {
+     "text": "Lawn grass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fungi such as mushrooms have chlorophyll and make their own food.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cutting off the top bud of a palm can kill it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are flowering plants (angiosperms)? (select all that apply)",
+   "options": [
+    {
+     "text": "Rose",
+     "correct": true
+    },
+    {
+     "text": "Pine tree",
+     "correct": false
+    },
+    {
+     "text": "Protea",
+     "correct": true
+    },
+    {
+     "text": "Maize",
+     "correct": true
+    },
+    {
+     "text": "Moss",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

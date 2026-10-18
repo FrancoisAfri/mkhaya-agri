@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-116177",
+ "title": "Operate a tractor",
+ "lessons": [
+  {
+   "title": "Checking the tractor before you start",
+   "minutes": 20,
+   "html": "<h3>Tractors are useful and dangerous</h3><p>Tractors pull trailers of grain, run augers, plough lands and move bales. They are also one of the main causes of serious injuries and deaths on farms. Rollovers, run-overs and being caught in the power take-off (PTO) are the big dangers. Only trained, authorised people may drive a tractor. Never let children ride on or drive a tractor.</p><h4>Daily checks before starting</h4><p>Walk around the tractor and check:</p><ol><li><strong>Engine oil</strong> level on the dipstick.</li><li><strong>Coolant</strong> level (only when the engine is cold).</li><li><strong>Fuel</strong> level. Fill up only with the engine off. No smoking.</li><li><strong>Hydraulic oil</strong> level.</li><li><strong>Tyres:</strong> pressure, cuts and wheel nuts.</li><li><strong>Air filter:</strong> clean it if dusty, as the manual says.</li><li><strong>Lights, indicators and mirrors</strong> are clean and work.</li><li><strong>Brakes</strong> and the handbrake work.</li><li><strong>ROPS</strong> (rollover protective structure or safety frame) is in place and not damaged. The seat belt works.</li><li><strong>PTO guard</strong> is in place.</li><li>Look for leaks under the tractor.</li></ol><p>Write the checks in the logbook. Report any fault to your supervisor. Do not use a tractor with a fault in the brakes, steering or ROPS.</p><h4>Getting on and off</h4><ul><li>Use the steps and handholds. Keep three points of contact: two hands and one foot, or two feet and one hand.</li><li>Never jump off.</li><li>Never get on or off a moving tractor.</li></ul><h4>Dress for the job</h4><p>Wear close-fitting clothes, safety boots and hearing protection if it is noisy. Tie back long hair. Loose clothes can be caught in the PTO or moving parts.</p>"
+  },
+  {
+   "title": "Driving the tractor safely",
+   "minutes": 20,
+   "html": "<h3>Starting</h3><ol><li>Sit in the seat and put on the seat belt (when the tractor has a ROPS).</li><li>Check that the gear lever is in neutral and the PTO is off.</li><li>Look around. Make sure no one is near the tractor or the implement.</li><li>Start the engine from the seat only. Never start it while standing on the ground.</li><li>Check the gauges and warning lights.</li></ol><h4>Driving</h4><ul><li>Move off slowly and smoothly.</li><li>Drive at a safe speed for the ground and the load. Slow down on rough, wet or uneven ground and on corners.</li><li>Keep away from ditches, river banks and steep slopes. These cause rollovers.</li><li>On slopes, drive straight up or down where possible, not across. If you must cross a slope, go slowly and keep the heavy side uphill.</li><li>Keep both brake pedals locked together when driving on the road.</li><li>No passengers unless there is a proper passenger seat.</li></ul><h4>Pulling trailers</h4><ul><li>Hitch only to the drawbar or approved hitch point. Never hitch high on the axle or the seat. This can flip the tractor backwards.</li><li>Use a safety pin and safety chain.</li><li>Do not overload the trailer. A heavy trailer can push the tractor downhill.</li><li>Stand clear when someone reverses to hitch up.</li></ul><h4>The PTO</h4><p>The PTO shaft turns very fast. It can grab clothes and pull a person in within a second. Keep guards in place. Switch off the PTO and the engine before you go near the shaft. Never step over a turning PTO shaft.</p><h4>On public roads</h4><p>Use lights and hazard lights as required. Keep left and let traffic pass when it is safe. A slow tractor must be visible to cars.</p>"
+  },
+  {
+   "title": "Parking and looking after the tractor",
+   "minutes": 15,
+   "html": "<h3>Stopping and parking safely</h3><ol><li>Slow down and stop on level ground where possible.</li><li>Lower implements such as the loader bucket or plough to the ground.</li><li>Switch off the PTO.</li><li>Put the gear in neutral or park, and pull on the handbrake.</li><li>Switch off the engine and take out the key.</li><li>Get off using three points of contact.</li></ol><p>If you must park on a slope, turn the wheels so the tractor cannot roll into danger, and use wheel chocks.</p><h4>Never do this</h4><ul><li>Never leave the tractor running with no one in the seat.</li><li>Never work under a raised implement or loader that is held only by hydraulics. Use a stand or block.</li><li>Never refuel with the engine running or near a flame.</li><li>Never remove the ROPS or the PTO guard.</li><li>Never drive after drinking alcohol.</li></ul><h4>After work</h4><ul><li>Clean off mud, chaff and grain dust, especially around the engine and exhaust. Dry chaff can catch fire.</li><li>Check for damage or leaks and write them in the logbook.</li><li>Report faults to your supervisor.</li><li>Do the services the manual and your supervisor ask for, for example greasing points every day.</li></ul><h4>If there is an accident</h4><p>Switch off the engine if it is safe. Call for help and your supervisor. Do not move an injured person unless there is danger such as fire. Give first aid only if you are trained. Hands-on first aid training by an accredited provider is needed.</p><h4>Key points</h4><ul><li>Do the daily checks and report faults before driving.</li><li>Use the ROPS and seat belt; start the engine only from the seat.</li><li>Drive slowly on slopes and rough ground; hitch only to the drawbar.</li><li>Switch off the PTO and engine before going near the shaft.</li><li>Park on level ground, lower implements, handbrake on, key out.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does ROPS stand for?",
+   "options": [
+    {
+     "text": "Rotating PTO shaft",
+     "correct": false
+    },
+    {
+     "text": "Road operating power system",
+     "correct": false
+    },
+    {
+     "text": "Rear oil pump seal",
+     "correct": false
+    },
+    {
+     "text": "Rollover protective structure",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a trailer be hitched?",
+   "options": [
+    {
+     "text": "To the ROPS",
+     "correct": false
+    },
+    {
+     "text": "High on the axle",
+     "correct": false
+    },
+    {
+     "text": "To the drawbar or approved hitch point",
+     "correct": true
+    },
+    {
+     "text": "To the seat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before going near a PTO shaft?",
+   "options": [
+    {
+     "text": "Put on loose clothes",
+     "correct": false
+    },
+    {
+     "text": "Switch off the PTO and the engine",
+     "correct": true
+    },
+    {
+     "text": "Step over it quickly",
+     "correct": false
+    },
+    {
+     "text": "Speed up the engine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you get off a tractor?",
+   "options": [
+    {
+     "text": "Use three points of contact",
+     "correct": true
+    },
+    {
+     "text": "Jump off",
+     "correct": false
+    },
+    {
+     "text": "Get off while it is moving",
+     "correct": false
+    },
+    {
+     "text": "Slide down the wheel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When may you refuel the tractor?",
+   "options": [
+    {
+     "text": "With the engine off and no smoking",
+     "correct": true
+    },
+    {
+     "text": "With the engine running",
+     "correct": false
+    },
+    {
+     "text": "Next to a fire",
+     "correct": false
+    },
+    {
+     "text": "While driving",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should start the tractor only while sitting in the seat.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to work under a loader held up only by hydraulics.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are daily checks before using a tractor? (select all that apply)",
+   "options": [
+    {
+     "text": "Engine oil level",
+     "correct": true
+    },
+    {
+     "text": "Tyres and wheel nuts",
+     "correct": true
+    },
+    {
+     "text": "Brakes",
+     "correct": true
+    },
+    {
+     "text": "The colour of the paint",
+     "correct": false
+    },
+    {
+     "text": "The radio station",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

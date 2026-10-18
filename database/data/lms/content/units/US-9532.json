@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-9532",
+ "title": "Demonstrate basic knowledge of computers",
+ "lessons": [
+  {
+   "title": "The parts of a computer",
+   "minutes": 15,
+   "html": "<h3>Computers in agri business</h3><p>Computers are used in every agri business: the co-op till system, stock control, accounts, grain intake at the silo, feed formulation, payroll and email to suppliers. Even small farms use a computer or smartphone for records, banking and market prices. This unit gives you the basic knowledge to use a computer confidently and safely.</p><h4>Hardware and software</h4><p><strong>Hardware</strong> is the physical parts you can touch. <strong>Software</strong> is the programs that tell the hardware what to do.</p><table><tr><th>Part</th><th>Job</th></tr><tr><td>Processor (CPU)</td><td>Does the calculations; the \"brain\"</td></tr><tr><td>Memory (RAM)</td><td>Holds work while the computer is on; lost when switched off</td></tr><tr><td>Storage (hard drive or SSD)</td><td>Keeps files and programs when switched off</td></tr><tr><td>Input devices</td><td>Keyboard, mouse, barcode scanner, touch screen</td></tr><tr><td>Output devices</td><td>Monitor, printer, till slip printer</td></tr></table><h4>Types of software</h4><ul><li><strong>Operating system</strong>, such as Windows, macOS, Linux, Android: runs the computer and other programs.</li><li><strong>Application software</strong>: word processor for letters, spreadsheet for stock and budgets, email, web browser, and business systems such as the store's point-of-sale or accounting package.</li></ul><h4>Networks and the internet</h4><p>Computers in a store are usually connected in a <strong>network</strong> so the tills, the office and the warehouse share one stock system. The network connects to the internet through a router, using fibre, ADSL, wireless or a mobile data connection. In rural areas the connection can be slow or drop out, so many systems can work offline and update later.</p><h4>Starting and shutting down</h4><p>Switch on at the power button, wait for the operating system to load, and log in with your own username and password. Shut down using the operating system's shut-down option. Pulling the plug can damage files.</p>"
+  },
+  {
+   "title": "Working with files and programs",
+   "minutes": 15,
+   "html": "<h3>Files and folders</h3><p>A <strong>file</strong> is one piece of saved work: a letter, a stock list, a photo. A <strong>folder</strong> holds files, like a file cover in a filing cabinet. Organise folders logically, for example \"Orders &gt; 2026 &gt; Fertiliser suppliers\".</p><h4>Good file habits</h4><ul><li>Give files clear names: \"Stock count Feed store 2026-06-30\" is better than \"Doc1\".</li><li>Save often while working; use Ctrl+S (or Command+S on a Mac).</li><li>Use \"Save As\" when you want a new copy with a different name.</li><li>Do not keep work files on the desktop only; use the folders or shared drive your business provides.</li><li>Delete files only when you are sure they are not needed. Deleted files usually go to the Recycle Bin first.</li></ul><h4>Basic program skills</h4><ul><li><strong>Word processor:</strong> type, edit, format (bold, headings), check spelling, print.</li><li><strong>Spreadsheet:</strong> enter data in cells and use simple formulas. In a stock sheet, if B2 has opening stock and C2 has sales, the formula =B2-C2 gives the balance.</li><li><strong>Email:</strong> write a clear subject, attach files, check the address before sending.</li><li><strong>Browser:</strong> find market prices, weather and supplier catalogues. Check that information comes from a reliable source.</li></ul><h4>Useful shortcuts</h4><table><tr><th>Keys (Windows)</th><th>Action</th></tr><tr><td>Ctrl+C / Ctrl+V</td><td>Copy / paste</td></tr><tr><td>Ctrl+Z</td><td>Undo</td></tr><tr><td>Ctrl+P</td><td>Print</td></tr><tr><td>Alt+Tab</td><td>Switch between programs</td></tr></table><h4>Printing</h4><p>Choose the right printer, check the preview, and select only the pages you need. Paper and toner cost money.</p>"
+  },
+  {
+   "title": "Safe and healthy computer use",
+   "minutes": 15,
+   "html": "<h3>Protecting information</h3><p>Business computers hold customer accounts, prices and banking details. The Protection of Personal Information Act 4 of 2013 (POPIA) requires businesses to protect personal information about customers and staff. You play a part.</p><ul><li><strong>Passwords:</strong> use a strong password (long, mixing words, numbers and symbols). Never share it or write it on a note stuck to the screen.</li><li><strong>Lock the screen</strong> when you leave your desk (Windows key + L).</li><li><strong>Phishing:</strong> be careful of emails asking you to click a link, open an attachment or change a supplier's bank details. Phone the supplier on a known number to check. Fraudsters often target agri businesses with fake \"change of banking details\" letters.</li><li><strong>Viruses:</strong> do not plug in unknown flash drives or install software without permission. Keep antivirus software up to date.</li><li><strong>Backups:</strong> important data must be backed up regularly, for example to the cloud or an external drive kept in another place. Ask who is responsible in your business.</li></ul><h4>Looking after the equipment</h4><ul><li>Keep food and drinks away from the keyboard.</li><li>Keep computers out of dust, direct sun and damp, which are common in grain stores and workshops.</li><li>Use surge protection; lightning and power surges damage equipment, especially in rural areas.</li><li>Report faults to IT instead of opening the computer yourself.</li></ul><h4>Your health</h4><ul><li>Sit with your back supported and feet flat; screen top at eye level.</li><li>Keep wrists straight when typing.</li><li>Look away from the screen every 20 minutes or so and take short breaks.</li><li>Do not overload plugs; trailing cables are a trip hazard.</li></ul><h4>Key points</h4><ul><li>Hardware is the physical parts; software is the programs.</li><li>Name and save files clearly in the right folders.</li><li>Never share passwords and lock your screen when away.</li><li>Check any request to change bank details by phone.</li><li>Back up important data and protect equipment from dust and power surges.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is an input device?",
+   "options": [
+    {
+     "text": "Hard drive",
+     "correct": false
+    },
+    {
+     "text": "Printer",
+     "correct": false
+    },
+    {
+     "text": "Barcode scanner",
+     "correct": true
+    },
+    {
+     "text": "Monitor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens to information in RAM when the computer is switched off?",
+   "options": [
+    {
+     "text": "It is printed",
+     "correct": false
+    },
+    {
+     "text": "It is lost",
+     "correct": true
+    },
+    {
+     "text": "It is saved forever",
+     "correct": false
+    },
+    {
+     "text": "It is emailed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the best file name?",
+   "options": [
+    {
+     "text": "New file",
+     "correct": false
+    },
+    {
+     "text": "asdf",
+     "correct": false
+    },
+    {
+     "text": "Stock count Feed store 2026-06-30",
+     "correct": true
+    },
+    {
+     "text": "Doc1",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a spreadsheet, B2 has opening stock and C2 has sales. Which formula gives the balance?",
+   "options": [
+    {
+     "text": "=B2+C2",
+     "correct": false
+    },
+    {
+     "text": "=B2*C2",
+     "correct": false
+    },
+    {
+     "text": "=C2/B2",
+     "correct": false
+    },
+    {
+     "text": "=B2-C2",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You get an email saying a fertiliser supplier has new bank details. What should you do?",
+   "options": [
+    {
+     "text": "Reply with the store's bank details",
+     "correct": false
+    },
+    {
+     "text": "Update the details straight away",
+     "correct": false
+    },
+    {
+     "text": "Phone the supplier on a known number to check",
+     "correct": true
+    },
+    {
+     "text": "Forward it to all customers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pulling the plug is the correct way to shut down a computer.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "POPIA requires businesses to protect personal information.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good security habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Locking the screen when away",
+     "correct": true
+    },
+    {
+     "text": "Sharing your password with a friend",
+     "correct": false
+    },
+    {
+     "text": "Keeping antivirus up to date",
+     "correct": true
+    },
+    {
+     "text": "Plugging in unknown flash drives",
+     "correct": false
+    },
+    {
+     "text": "Backing up important data",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

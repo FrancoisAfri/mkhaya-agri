@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-PM-10",
+  "title": "Attend to dairy herd management activities",
+  "lessons": [
+    {
+      "title": "Planning herd management activities",
+      "minutes": 25,
+      "html": "<h3>The manager's herd calendar</h3><p>At NQF level 5 you are expected to plan, organise and evaluate herd management, not only perform tasks. A herd calendar brings together all recurring activities so nothing is missed.</p><table><tr><th>Frequency</th><th>Activities</th></tr><tr><td>Daily</td><td>Heat detection, fresh cow checks, calving checks, sick animal treatment, calf feeding</td></tr><tr><td>Weekly / fortnightly</td><td>Vet fertility visits, pregnancy diagnosis, dry-off list, locomotion scoring, hoof trimming list</td></tr><tr><td>Monthly</td><td>Milk recording, body condition scoring of groups, heifer weighing, KPI review</td></tr><tr><td>Seasonal / annual</td><td>Vaccination programme, breeding season start (seasonal herds), bull testing, herd health plan review, culling and replacement plan</td></tr></table><h4>Working with the herd health plan</h4><p>Develop the herd health plan with the farm vet. It should cover vaccinations for diseases relevant to the area, controlled disease testing and vaccination under the Animal Diseases Act 35 of 1984 (such as brucellosis and tuberculosis requirements), parasite control, mastitis control, lameness prevention, transition cow management, calf health and biosecurity. Set targets and review the plan at least annually using herd data.</p><h4>Action lists</h4><p>Use herd software or a well-kept diary to generate weekly lists: cows due to calve, cows to be presented for pregnancy diagnosis, cows not seen on heat by a set number of days after calving, cows to dry off, cows to cull, heifers to breed. Assign each list to a responsible person and check completion.</p><h4>Resource planning</h4><p>Ensure that crushes, handling facilities, medicines, semen, ear tags and labour are available for planned activities. Schedule vet and AI visits so that they fit around milkings and minimise animal stress.</p>"
+    },
+    {
+      "title": "Managing fertility, health and the transition period",
+      "minutes": 25,
+      "html": "<h3>Fertility management</h3><p>Monitor fertility through the KPIs: days to first service, heat detection rate, conception rate, pregnancy rate and calving interval. When results fall below target, investigate systematically:</p><ul><li><strong>Heat detection</strong>: observation times, aids, staff training.</li><li><strong>Nutrition</strong>: body condition loss after calving, energy balance, minerals.</li><li><strong>Health</strong>: retained placentas, uterine infections, lameness, which all reduce fertility.</li><li><strong>AI technique</strong>: semen handling, timing, technician performance.</li><li><strong>Bull fertility</strong> where natural service is used.</li></ul><p>Work with the vet on synchronisation programmes and treatment of problem cows.</p><h4>Transition cow management</h4><p>Most health problems start around calving. A sound transition programme includes:</p><ul><li>Close-up group with a ration designed by the nutritionist.</li><li>Moderate body condition at calving.</li><li>Clean, comfortable calving area and minimal group changes.</li><li>Fresh cow monitoring: temperature, appetite, rumen fill, milk yield, discharge, ketone testing where used.</li></ul><p>Track incidence of milk fever, retained placenta, metritis, ketosis and displaced abomasum. Rising rates call for a review with the vet and nutritionist.</p><h4>Mastitis and udder health</h4><p>Use individual cow cell counts from milk recording to identify chronic high-SCC cows. Decide with the vet on treatment, dry-off strategy or culling. Culture milk samples from clinical cases to identify the main pathogens and target prevention: contagious pathogens point to milking hygiene; environmental pathogens point to housing and yards.</p><h4>Lameness</h4><p>Score locomotion regularly. Investigate causes: walkway surfaces, standing times, hoof trimming frequency, footbath management, nutrition and cow comfort. Early treatment by a trained trimmer reduces suffering and losses.</p><h4>Animal welfare oversight</h4><p>As manager you must ensure that procedures and handling comply with the Animals Protection Act 71 of 1962 and the buyer's welfare standards, including pain relief for painful procedures as advised by the vet and humane euthanasia when needed.</p>"
+    },
+    {
+      "title": "Replacements, culling and evaluating herd performance",
+      "minutes": 25,
+      "html": "<h3>Herd composition decisions</h3><h4>Replacement planning</h4><p>Calculate how many heifers are needed each year to maintain or grow the herd. Example: a 500-cow herd with a 25% replacement rate needs 125 heifers calving each year. Allowing for losses between birth and calving and for heifers that fail to conceive, the farm must rear more heifer calves than this number. Use sexed semen strategically on the best heifers and beef semen on lower-merit cows to manage numbers and value.</p><h4>Culling policy</h4><p>Set clear culling criteria with the owner, such as cows not pregnant by a set number of days after calving, three or more clinical mastitis cases in a lactation, chronic high SCC, chronic lameness or low production relative to herd mates. Plan voluntary culls ahead of feed shortages. Ensure culls are fit to travel and clear of medicine withdrawal periods, in line with the Meat Safety Act 40 of 2000.</p><h4>Genetic strategy</h4><p>Select bulls using breeding values relevant to the farm's goals: milk solids, fertility, udder health, longevity and conformation. Avoid inbreeding through mating plans. Review genetic progress using milk recording and breed society data.</p><h4>Evaluating herd performance</h4><ol><li>Collect data monthly: yields, components, SCC, fertility, health events, culls, deaths, heifer growth.</li><li>Compare with targets and with the previous year.</li><li>Identify the biggest gaps and their likely causes.</li><li>Agree on actions with staff, vet and nutritionist.</li><li>Communicate results to the team and owner.</li></ol><h4>Example interpretation</h4><p>Calving interval has risen and heat detection rate has fallen since a key staff member left. The likely cause is reduced observation skill. Action: retrain staff, introduce tail paint, review observation times, and recheck the KPI in three months.</p><h4>Key points</h4><ul><li>Use a herd calendar and weekly action lists to plan activities.</li><li>Build and review a herd health plan with the vet.</li><li>Investigate fertility, transition, mastitis and lameness problems systematically.</li><li>Plan replacements and apply clear culling criteria.</li><li>Evaluate herd performance monthly and act on the biggest gaps.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "A 500-cow herd has a 25% replacement rate. How many heifers must calve each year?",
+      "options": [
+        {
+          "text": "125",
+          "correct": true
+        },
+        {
+          "text": "25",
+          "correct": false
+        },
+        {
+          "text": "250",
+          "correct": false
+        },
+        {
+          "text": "50",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Contagious mastitis pathogens mainly point to problems with:",
+      "options": [
+        {
+          "text": "Pasture species",
+          "correct": false
+        },
+        {
+          "text": "Milking hygiene",
+          "correct": true
+        },
+        {
+          "text": "Bull fertility",
+          "correct": false
+        },
+        {
+          "text": "Feed storage",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which activity is typically done daily?",
+      "options": [
+        {
+          "text": "Herd health plan review",
+          "correct": false
+        },
+        {
+          "text": "Bull breeding soundness test",
+          "correct": false
+        },
+        {
+          "text": "Fresh cow checks",
+          "correct": true
+        },
+        {
+          "text": "Annual vaccination programme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Heat detection rate dropped after a key staff member left. What is a suitable action?",
+      "options": [
+        {
+          "text": "Stop using AI",
+          "correct": false
+        },
+        {
+          "text": "Cull all open cows",
+          "correct": false
+        },
+        {
+          "text": "Ignore it for a year",
+          "correct": false
+        },
+        {
+          "text": "Retrain staff and introduce heat aids such as tail paint",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should rearing plans include more heifer calves than the replacements needed?",
+      "options": [
+        {
+          "text": "To allow for losses and heifers that fail to conceive",
+          "correct": true
+        },
+        {
+          "text": "To increase bull numbers",
+          "correct": false
+        },
+        {
+          "text": "Because heifers give more milk than cows",
+          "correct": false
+        },
+        {
+          "text": "To reduce feed costs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Most dairy cow health problems start around the time of calving.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Cull cows may be sent for slaughter while still within a medicine withdrawal period.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which factors should be investigated when fertility falls? (select all that apply)",
+      "options": [
+        {
+          "text": "Heat detection",
+          "correct": true
+        },
+        {
+          "text": "Body condition loss after calving",
+          "correct": true
+        },
+        {
+          "text": "AI technique and timing",
+          "correct": true
+        },
+        {
+          "text": "Colour of the parlour walls",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

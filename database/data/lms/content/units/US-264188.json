@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264188",
+ "title": "Propagate plants from stem cuttings",
+ "lessons": [
+  {
+   "title": "Types of stem cuttings and taking them",
+   "minutes": 15,
+   "html": "<h3>What is a cutting?</h3>\n<p>A stem cutting is a piece of stem cut from a parent plant (the mother plant) that grows its own roots. The new plant is an exact copy of the parent. Nurseries use cuttings to make many plants quickly and true to type, for example plumbago, rosemary, lavender, fuchsia, pelargonium, coleus and many hedge plants.</p>\n<h4>Types of stem cuttings</h4>\n<table><tr><th>Type</th><th>When</th><th>Wood</th><th>Examples</th></tr>\n<tr><td>Softwood</td><td>Spring, early summer</td><td>New, soft, bendy tips</td><td>Fuchsia, coleus, pelargonium</td></tr>\n<tr><td>Semi-hardwood</td><td>Late summer, autumn</td><td>Firm at the base, soft at the tip</td><td>Plumbago, duranta, lavender</td></tr>\n<tr><td>Hardwood</td><td>Winter, when dormant</td><td>Mature, woody stems</td><td>Grape vines, roses, figs</td></tr></table>\n<h4>Choosing material</h4>\n<ul><li>Take cuttings from healthy, true-to-type mother plants with no pests or disease.</li>\n<li>Choose shoots that are not flowering, or remove the flowers.</li>\n<li>Take cuttings in the cool early morning when plants are full of water.</li></ul>\n<h4>Taking the cutting</h4>\n<ol><li>Use sharp, clean secateurs or a knife. Disinfect them between batches.</li>\n<li>Cut pieces about 7–15 cm long (depending on the plant), with several nodes. A node is where a leaf joins the stem; roots grow best from nodes.</li>\n<li>Put cuttings straight into a plastic bag or a bucket with a damp cloth, in the shade. Never let them dry out.</li>\n<li>Label each batch with plant name and date.</li></ol>"
+  },
+  {
+   "title": "Preparing, planting and caring for cuttings",
+   "minutes": 15,
+   "html": "<h3>Preparing the cutting</h3>\n<ol><li>Make a clean cut just below a node at the bottom.</li>\n<li>Remove leaves from the lower half so no leaves are buried.</li>\n<li>Cut large leaves in half to reduce water loss.</li>\n<li>Dip the base in rooting hormone powder or gel if your nursery uses it. Tap off the extra. Follow the product label and use the strength for the cutting type.</li></ol>\n<h3>Planting</h3>\n<ul><li>Use a clean, well-drained rooting medium, such as a mix of composted bark and perlite or coarse sand. It must hold air and some water.</li>\n<li>Fill trays or pots and firm lightly. Make a hole with a dibber so hormone is not rubbed off.</li>\n<li>Insert the cutting one-third to half of its length. Firm the medium around it.</li>\n<li>Space cuttings so leaves do not overlap much.</li>\n<li>Water gently with a fine rose.</li>\n<li>Label the tray: plant name, date, number of cuttings, your name.</li></ul>\n<h3>Caring for cuttings</h3>\n<ul><li>Keep them in a propagation area with shade and high humidity, such as a mist bed or a tunnel with a plastic cover.</li>\n<li>Keep the medium moist, but not waterlogged. Too wet causes rot.</li>\n<li>Bottom heat helps rooting in cool weather, if your nursery has heated beds.</li>\n<li>Remove dead or rotten cuttings daily to stop disease spreading.</li>\n<li>Check for roots after a few weeks by gently tugging; resistance means roots. Softwood roots fastest, hardwood slowest.</li></ul>\n<h3>Hardening off and potting</h3>\n<p>When cuttings have good roots, move them slowly to less humid, brighter conditions (harden off). Then pot them up into bigger containers with potting mix.</p>\n<h3>Safety</h3>\n<p>Wear gloves when handling rooting hormone and wash hands before eating. Keep knives sharp and cut away from your body.</p>\n<h4>Key points</h4>\n<ul><li>Cuttings make exact copies of the mother plant.</li>\n<li>Softwood, semi-hardwood and hardwood cuttings are taken at different times of year.</li>\n<li>Cut just below a node, remove lower leaves and keep cuttings moist.</li>\n<li>Use a clean, well-drained rooting medium and high humidity.</li>\n<li>Harden off rooted cuttings before potting up.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a node on a stem?",
+   "options": [
+    {
+     "text": "The bottom of the pot",
+     "correct": false
+    },
+    {
+     "text": "A type of pest",
+     "correct": false
+    },
+    {
+     "text": "The place where a leaf joins the stem",
+     "correct": true
+    },
+    {
+     "text": "The flower",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which type of cutting is taken in winter from mature, woody stems?",
+   "options": [
+    {
+     "text": "Softwood",
+     "correct": false
+    },
+    {
+     "text": "Semi-hardwood",
+     "correct": false
+    },
+    {
+     "text": "Leaf cutting",
+     "correct": false
+    },
+    {
+     "text": "Hardwood",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are the lower leaves removed from a cutting?",
+   "options": [
+    {
+     "text": "So no leaves are buried and rot",
+     "correct": true
+    },
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "To make it flower",
+     "correct": false
+    },
+    {
+     "text": "To attract insects",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if the rooting medium is kept too wet?",
+   "options": [
+    {
+     "text": "Roots grow faster",
+     "correct": false
+    },
+    {
+     "text": "Cuttings can rot",
+     "correct": true
+    },
+    {
+     "text": "Cuttings flower",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can you tell a cutting has rooted?",
+   "options": [
+    {
+     "text": "The leaves fall off",
+     "correct": false
+    },
+    {
+     "text": "The stem turns black",
+     "correct": false
+    },
+    {
+     "text": "Gentle tugging meets resistance",
+     "correct": true
+    },
+    {
+     "text": "It starts to flower",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A plant grown from a cutting is an exact copy of the mother plant.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cuttings can be left lying in the sun for an hour before planting.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices when taking cuttings? (select all that apply)",
+   "options": [
+    {
+     "text": "Use healthy mother plants",
+     "correct": true
+    },
+    {
+     "text": "Take cuttings in the cool morning",
+     "correct": true
+    },
+    {
+     "text": "Label each batch with name and date",
+     "correct": true
+    },
+    {
+     "text": "Use blunt secateurs",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

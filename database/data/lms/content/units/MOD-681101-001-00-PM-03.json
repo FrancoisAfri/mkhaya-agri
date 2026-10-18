@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-PM-03",
+ "title": "Flay and Dress Beef Carcasses",
+ "lessons": [
+  {
+   "title": "Head, feet and opening the hide",
+   "minutes": 25,
+   "html": "<h3>The practical skill</h3><p>Flaying and dressing is the biggest part of a beef slaughterer's work. You must work quickly enough to keep up with the line, but never so fast that you contaminate the carcass or damage the hide. Speed comes with practice; hygiene must be right from the first day.</p><h3>Get ready</h3><ul><li>PPE on: mesh glove on the non-knife hand, mesh apron if required, clean white clothing, hair net, boots.</li><li>Knives sharpened, steel ready, two knives in the steriliser.</li><li>Platform at the right height so you do not bend or stretch.</li></ul><h3>Removing the head</h3><ol><li>Skin the head as your line requires, then cut through the joint between the skull and the first neck bone.</li><li>Tie or clip the weasand before or during head removal, so that rumen contents cannot leak.</li><li>Hang the head on the head rack with the same number as the carcass. It must be inspected with its carcass.</li></ol><h3>Removing feet</h3><p>Cut the front feet off at the knee joint and the hind feet at the hock joint, using the hock cutters or a knife at the joint. Do not cut through bone with a knife.</p><h3>Opening the hide</h3><ul><li>Open the skin on the inside of each leg along the line you were shown.</li><li>Insert the knife under the skin with the blade pointing <strong>outward</strong> and cut towards yourself and out through the hide, so hair is not pulled into the meat.</li><li>Sterilise the knife after each opening cut. Swap to the second knife.</li><li>Open the hide along the midline of the belly and brisket.</li><li>Keep your hand that touched the hide off the meat, or wash and sterilise it first.</li></ul><h3>Common mistakes to avoid</h3><ul><li>Cutting from outside the hide in towards the meat.</li><li>Letting the hide flap against the carcass.</li><li>Not sterilising between cuts.</li><li>Cutting into the muscle or making holes in the hide.</li></ul>"
+  },
+  {
+   "title": "Flaying, bunging and splitting",
+   "minutes": 25,
+   "html": "<h3>Clearing the hide</h3><ol><li>Clear the hide from the hind legs and the tail area, rolling the hide away from the meat.</li><li>Free the rectum (bunging): cut around it, tie it or put it in a plastic bag, and push it into the pelvic cavity. This stops faeces from leaking.</li><li>Clear the hide from the flanks, belly, brisket and front legs with short strokes. Keep the knife blade angled towards the hide, not the meat.</li><li>Leave the thin layer of fat on the carcass. Removing it lowers the value of the carcass.</li></ol><h3>Using the hide puller</h3><ul><li>Fix the hide to the puller chains or clamp as trained.</li><li>Stand clear while it pulls.</li><li>Watch the hide coming off. If it starts tearing meat or fat off the carcass, stop the puller and free the area with a knife.</li><li>Drop the hide down the hide chute.</li></ul><h3>Evisceration and splitting</h3><p>After the hide is off, the brisket is opened and the carcass eviscerated (see the evisceration module). Then the carcass is split:</p><ul><li>Check that the saw guard and emergency stop work.</li><li>Hold the splitting saw with both hands and cut exactly down the centre of the backbone, from the tail to the neck.</li><li>Keep a steady speed; do not force the saw.</li><li>Sterilise or rinse the saw between carcasses as required.</li></ul><h3>Trimming</h3><p>Trim visible dung, hair, ingesta, bruises and blood clots with a sterilised knife. Put trimmings in the right bin. Trim <strong>before</strong> washing. Then the carcass goes to inspection.</p><h3>Check your own work</h3><p>Before the carcass moves on, look: is there hair or dirt on the meat? Did you score the meat or hide? Fix or report problems immediately.</p><h4>Key points</h4><ul><li>Wear full PPE and keep two sterilised knives.</li><li>Keep heads numbered with their carcasses for inspection.</li><li>Open the hide from inside outward and sterilise after each cut.</li><li>Bung the rectum and tie the weasand to prevent leaks.</li><li>Split down the centre of the backbone and trim before washing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must the head have the same number as the carcass?",
+   "options": [
+    {
+     "text": "For the butcher's menu",
+     "correct": false
+    },
+    {
+     "text": "So it can be inspected with its carcass",
+     "correct": true
+    },
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "For the hide price",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should hind feet be removed?",
+   "options": [
+    {
+     "text": "By cutting through the bone with a knife",
+     "correct": false
+    },
+    {
+     "text": "By pulling them off",
+     "correct": false
+    },
+    {
+     "text": "At the hock joint, with hock cutters or a knife at the joint",
+     "correct": true
+    },
+    {
+     "text": "With the splitting saw",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is bunging?",
+   "options": [
+    {
+     "text": "Removing the head",
+     "correct": false
+    },
+    {
+     "text": "Pulling the hide",
+     "correct": false
+    },
+    {
+     "text": "Freeing and tying or bagging the rectum to stop leaks",
+     "correct": true
+    },
+    {
+     "text": "Washing the carcass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the hide puller starts tearing meat off the carcass?",
+   "options": [
+    {
+     "text": "Stop the puller and free the area with a knife",
+     "correct": true
+    },
+    {
+     "text": "Pull faster",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Hose the carcass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should the splitting saw cut?",
+   "options": [
+    {
+     "text": "Exactly down the centre of the backbone",
+     "correct": true
+    },
+    {
+     "text": "Along the ribs",
+     "correct": false
+    },
+    {
+     "text": "Through the shoulder",
+     "correct": false
+    },
+    {
+     "text": "Across the loin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The thin layer of fat on the carcass should be removed together with the hide.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Trimming visible contamination must be done before the carcass is washed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common flaying mistakes to avoid? (select all that apply)",
+   "options": [
+    {
+     "text": "Making holes in the hide",
+     "correct": true
+    },
+    {
+     "text": "Cutting from outside the hide in towards the meat",
+     "correct": true
+    },
+    {
+     "text": "Sterilising the knife after each opening cut",
+     "correct": false
+    },
+    {
+     "text": "Letting the hide flap against the carcass",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909-001-01-WM-02",
+ "title": "Mixed Feed Production Processes",
+ "lessons": [
+  {
+   "title": "Workplace exposure in grinding, batching and mixing",
+   "minutes": 20,
+   "html": "<h3>Workplace exposure in grinding, batching and mixing</h3><p>In this workplace module you apply mixed feed production skills on the job over a sustained period. You work with a mentor in the production area and build evidence that you can produce feed to specification, safely and consistently.</p><h4>Processes to be exposed to</h4><ul><li>Reading and interpreting production schedules and batch tickets.</li><li>Confirming formulation versions and bin allocations.</li><li>Operating and checking hammer mills or roller mills, including screen checks and changes.</li><li>Automatic batching of majors and minors.</li><li>Hand-adding micro-ingredients, premixes and, where your mill makes them, medicaments.</li><li>Liquid addition.</li><li>Mixer operation, discharge and surge bin management.</li><li>Sampling mixed feed and mixer uniformity testing.</li><li>Changeovers, sequencing and flushing.</li><li>Cleaning schedules for mixers, screws and bins.</li></ul><h4>A typical shift for a production learner</h4><ol><li>Attend the briefing and note the products for the shift.</li><li>Do pre-start checks with your mentor and record them.</li><li>Run batches, comparing target and actual weights.</li><li>Perform hand-adds and sign the records.</li><li>Take scheduled samples and label them.</li><li>Handle at least one changeover with flushing, under supervision.</li><li>Clean down and complete handover notes.</li></ol><h4>Evidence to collect</h4><ul><li>Copies or references of batch reports and hand-add records you completed.</li><li>Mentor observation checklists for each process.</li><li>A record of a changeover with flush, signed by your mentor.</li><li>A short report on a deviation you were involved in, with actions taken.</li></ul><p>Ask your mentor to explain the formulation for at least one product: why each ingredient is there and which micro-ingredients are critical. This makes the batching steps meaningful and helps you spot mistakes.</p>"
+  },
+  {
+   "title": "Demonstrating competent and safe practice",
+   "minutes": 20,
+   "html": "<h3>Demonstrating competent and safe practice</h3><h4>What competence looks like</h4><table><tr><th>Area</th><th>You can show that you</th></tr><tr><td>Preparation</td><td>Confirm product, formula version, bins, premixes and equipment condition before starting</td></tr><tr><td>Grinding</td><td>Run the mill within load range, check grind and act on sudden changes</td></tr><tr><td>Batching</td><td>Spot out-of-tolerance weights and follow the deviation procedure</td></tr><tr><td>Hand-add</td><td>Add the right micro-ingredient, correctly weighed, at the right step, every time</td></tr><tr><td>Mixing</td><td>Apply full dry and wet mix times and correct liquid addition</td></tr><tr><td>Changeover</td><td>Follow the sequence and flushing rules, clean where needed, record</td></tr><tr><td>Records</td><td>Complete accurate, legible records during the shift, not afterwards</td></tr></table><h4>Safety behaviours</h4><ul><li>Lock out before opening mixer, mill or screw covers.</li><li>Use lifting aids for premix bags; wear dust masks and gloves for micro-ingredients.</li><li>Keep the hand-add area clean and organised so the wrong bag cannot be picked up.</li><li>Report any guard missing, interlock fault or hazard immediately.</li></ul><h4>Common mistakes to avoid</h4><ul><li>Starting before confirming the formulation version.</li><li>Adding a premix from the wrong product because bags were left from the last run.</li><li>Shortening mix time to catch up.</li><li>Forgetting to record a flush batch.</li><li>Filling records at the end of the shift from memory.</li></ul><h4>Reflection</h4><p>Write short notes on what went well, what was difficult and how you solved it. Discuss these with your mentor. Reflection shows that you understand why the process works, not only how to press buttons.</p><h4>Key points</h4><ul><li>This module builds evidence of consistent, on-the-job competence.</li><li>Confirm formula, bins and premixes before every run.</li><li>Never shorten mix times or compensate weights.</li><li>Keep the hand-add area organised to prevent wrong additions.</li><li>Complete records during the shift and reflect with your mentor.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When should production records be completed?",
+   "options": [
+    {
+     "text": "At the end of the week",
+     "correct": false
+    },
+    {
+     "text": "During the shift as tasks are done",
+     "correct": true
+    },
+    {
+     "text": "From memory the next day",
+     "correct": false
+    },
+    {
+     "text": "Only when audited",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why keep the hand-add area clean and organised?",
+   "options": [
+    {
+     "text": "So the wrong bag cannot be picked up",
+     "correct": true
+    },
+    {
+     "text": "To look nice for visitors only",
+     "correct": false
+    },
+    {
+     "text": "To reduce batch size",
+     "correct": false
+    },
+    {
+     "text": "To speed up the mixer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a common mistake to avoid?",
+   "options": [
+    {
+     "text": "Confirming the formula version",
+     "correct": false
+    },
+    {
+     "text": "Recording a flush batch",
+     "correct": false
+    },
+    {
+     "text": "Shortening mix time to catch up",
+     "correct": true
+    },
+    {
+     "text": "Locking out before opening covers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What evidence shows you can handle a changeover?",
+   "options": [
+    {
+     "text": "A signed record of a changeover with flush",
+     "correct": true
+    },
+    {
+     "text": "A photo of the canteen",
+     "correct": false
+    },
+    {
+     "text": "A blank checklist",
+     "correct": false
+    },
+    {
+     "text": "A supplier invoice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of reflection notes?",
+   "options": [
+    {
+     "text": "To replace records",
+     "correct": false
+    },
+    {
+     "text": "To complain about colleagues",
+     "correct": false
+    },
+    {
+     "text": "To list overtime hours",
+     "correct": false
+    },
+    {
+     "text": "To show you understand why the process works",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may adjust another ingredient to compensate for an out-of-tolerance weight.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Lifting aids should be used for heavy premix bags.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which processes should a production learner be exposed to? (select all that apply)",
+   "options": [
+    {
+     "text": "Hand-adding micro-ingredients",
+     "correct": true
+    },
+    {
+     "text": "Mixer uniformity testing",
+     "correct": true
+    },
+    {
+     "text": "Changeovers and flushing",
+     "correct": true
+    },
+    {
+     "text": "Signing supplier contracts",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

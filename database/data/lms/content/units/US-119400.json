@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119400",
+ "title": "Slaughter birds in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Humane slaughter and the law",
+   "minutes": 15,
+   "html": "<h3>Responsibility at the kill point</h3><p>Slaughter is the point where a live bird becomes food. It must be done humanely, hygienically and efficiently. South African abattoirs work under the Meat Safety Act 40 of 2000 and its regulations, and cruelty to animals is an offence under the Animals Protection Act 71 of 1962. Many plants also meet retailer welfare standards and, where applicable, religious requirements such as halal, under supervision of the certifying body.</p><h4>Principles of humane slaughter</h4><ul><li>Birds must be handled calmly and hung correctly by both legs.</li><li>Birds must be rendered unconscious by stunning before the neck cut, unless the plant operates an approved religious slaughter method under its own procedure.</li><li>The neck cut must follow stunning quickly, before the bird can recover.</li><li>The bird must be dead from bleeding before it enters the scalder.</li></ul><h4>Why it matters for quality</h4><p>Poor stunning and slaughter cause wing flapping, broken bones, bruising, red wing tips and poorly bled carcasses with red skin. Poorly bled carcasses are downgraded or condemned by inspection. Good practice therefore protects both welfare and profit.</p><h4>Your responsibility at NQF level 3</h4><p>You may operate or supervise the stunner and kill line. You must be trained and authorised, know the plant's settings and standards, check that each bird is properly stunned and killed, and stop the line or call the supervisor if something goes wrong.</p><h4>Example</h4><p>An operator notices that several birds are flapping after the stunner. He tells the supervisor at once. The water level in the stunner had dropped, so heads were not making contact. The level is corrected and the birds are checked again.</p>"
+  },
+  {
+   "title": "Stunning and killing",
+   "minutes": 15,
+   "html": "<h3>The process step by step</h3><h4>Stunning</h4><p>The most common method in South African poultry plants is the <strong>electrical water bath stunner</strong>: the bird's head is drawn through electrified water while the shackle line completes the circuit. Some plants use <strong>controlled atmosphere stunning</strong> with gas mixtures before hanging. Settings such as current, frequency and time are set by the plant according to its approved procedure and the type and size of bird.</p><h4>Checking stunning effectiveness</h4><p>Watch birds as they leave the stunner. Signs of an effective stun include: neck arched, wings held close, no rhythmic breathing, no eye blinking when the eye is touched, and no attempt to raise the head. Signs of a poor stun include birds that flap, lift their heads, vocalise or blink. Report poor stunning at once so settings or water level can be corrected.</p><h4>The neck cut</h4><p>The cut is made by an automatic killing machine or by hand with a sharp knife. It must sever the main blood vessels in the neck (carotid arteries and jugular veins) so bleeding is rapid. A back-up operator with a knife stands after the machine to cut any bird the machine missed. No bird may enter the scalder alive.</p><h4>Bleeding</h4><p>Birds pass through a bleed tunnel for the time set by the plant. Blood is collected and handled as a by-product; it must not enter drains uncontrolled.</p><h4>Knife safety</h4><p>Keep knives sharp, use a mesh glove on the non-knife hand where required, cut away from your body, and sterilise knives in the steriliser between uses.</p>"
+  },
+  {
+   "title": "Monitoring, hygiene and problems",
+   "minutes": 15,
+   "html": "<h3>Keeping the kill line safe and under control</h3><h4>Routine checks</h4><table><tr><th>Check</th><th>Why</th></tr><tr><td>Stunner settings and water level</td><td>Ensures every bird is stunned effectively</td></tr><tr><td>Birds after stunner</td><td>Detects poor stuns quickly</td></tr><tr><td>Neck cut on each bird</td><td>Ensures complete bleeding</td></tr><tr><td>Birds entering scalder</td><td>No live birds; red carcasses mean poor bleeding</td></tr><tr><td>Knife sharpness and steriliser temperature</td><td>Clean, effective cuts</td></tr><tr><td>Line speed</td><td>Must allow correct stunning and cutting</td></tr></table><h4>Recording</h4><p>Record stunner settings, checks, the number of birds missed by the machine and any welfare incidents on the plant forms. Records show the inspector and auditors that welfare and hygiene are controlled.</p><h4>Hygiene at the kill point</h4><p>The kill area is a dirty area with blood and feathers. Keep blood in the collection trough, clean splashes regularly, and do not carry knives or equipment into clean areas. Wash hands and aprons often.</p><h4>When things go wrong</h4><ul><li><strong>Power failure or stunner fault</strong>: stop the line; birds on the line must be dealt with humanely as the plant emergency procedure says.</li><li><strong>Many missed cuts</strong>: adjust or stop the killing machine; add back-up staff.</li><li><strong>Line jam</strong>: stop the line using the emergency stop; never reach into moving machinery. Lock out before clearing.</li></ul><h4>Electrical safety</h4><p>The stunner uses electricity and water. Only authorised people adjust it. Never touch the stunner water or electrodes while it is live.</p><h4>Key points</h4><ul><li>Slaughter must be humane under the Animals Protection Act 71 of 1962 and hygienic under the Meat Safety Act 40 of 2000.</li><li>Birds must be stunned effectively and cut quickly before they can recover.</li><li>A back-up operator must cut any bird missed by the killing machine; no live bird may enter the scalder.</li><li>Check stun signs, record settings and report problems immediately.</li><li>Never touch a live stunner or reach into moving machinery.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the most common stunning method in South African poultry plants?",
+   "options": [
+    {
+     "text": "Captive bolt",
+     "correct": false
+    },
+    {
+     "text": "Electrical water bath stunning",
+     "correct": true
+    },
+    {
+     "text": "No stunning",
+     "correct": false
+    },
+    {
+     "text": "Cold water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign shows a bird has NOT been stunned effectively?",
+   "options": [
+    {
+     "text": "Neck arched",
+     "correct": false
+    },
+    {
+     "text": "Wings held close",
+     "correct": false
+    },
+    {
+     "text": "The bird lifts its head and blinks",
+     "correct": true
+    },
+    {
+     "text": "No rhythmic breathing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which blood vessels should the neck cut sever?",
+   "options": [
+    {
+     "text": "The carotid arteries and jugular veins",
+     "correct": true
+    },
+    {
+     "text": "Only the skin",
+     "correct": false
+    },
+    {
+     "text": "The leg veins",
+     "correct": false
+    },
+    {
+     "text": "The wing arteries",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the job of the back-up operator after the killing machine?",
+   "options": [
+    {
+     "text": "To pack the carcasses",
+     "correct": false
+    },
+    {
+     "text": "To clean the scalder",
+     "correct": false
+    },
+    {
+     "text": "To count the shackles",
+     "correct": false
+    },
+    {
+     "text": "To cut any bird the machine missed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a red carcass after scalding usually indicate?",
+   "options": [
+    {
+     "text": "Good stunning",
+     "correct": false
+    },
+    {
+     "text": "Poor bleeding",
+     "correct": true
+    },
+    {
+     "text": "Good feed",
+     "correct": false
+    },
+    {
+     "text": "Correct scald temperature",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A bird may enter the scalder alive if the line is running late.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only authorised people may adjust the stunner settings.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you do if the line jams at the kill point? (select all that apply)",
+   "options": [
+    {
+     "text": "Use the emergency stop",
+     "correct": true
+    },
+    {
+     "text": "Lock out before clearing the jam",
+     "correct": true
+    },
+    {
+     "text": "Reach into the moving machine to free it",
+     "correct": false
+    },
+    {
+     "text": "Report it to the supervisor",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

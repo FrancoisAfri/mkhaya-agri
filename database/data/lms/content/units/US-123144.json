@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-123144",
+ "title": "Demonstrate an understanding of the wool and mohair fibre industry",
+ "lessons": [
+  {
+   "title": "Wool, mohair and where they come from",
+   "minutes": 15,
+   "html": "<h3>Natural fibres from South African farms</h3><p>Wool and mohair are natural animal fibres. They are grown on farms, then cleaned, sorted and sold to make clothes, blankets, carpets and other products around the world.</p><h4>Wool</h4><p>Wool comes from sheep. In South Africa most wool comes from Merino and Merino-type sheep, which grow fine, soft wool. Wool is produced in many provinces, especially the Eastern Cape, Western Cape, Free State and Northern Cape. It is grown by large commercial farmers and by many communal and small-scale farmers.</p><h4>Mohair</h4><p>Mohair comes from Angora goats. It is shiny, strong and takes dye well. South Africa is one of the biggest mohair producers in the world, and most of it comes from the Karoo areas of the Eastern Cape. Mohair is sold by age of the goat: kid mohair (young goats, finest), young goat, and adult mohair.</p><h4>What makes fibre valuable</h4><table><tr><th>Quality</th><th>Meaning</th></tr><tr><td>Fineness</td><td>How thin the fibre is, measured in microns. Finer is usually worth more.</td></tr><tr><td>Length</td><td>Longer staple is often better for spinning.</td></tr><tr><td>Strength</td><td>Weak fibre breaks in processing.</td></tr><tr><td>Yield</td><td>How much clean fibre is left after washing away grease and dirt.</td></tr><tr><td>Colour</td><td>White, bright fibre is preferred.</td></tr><tr><td>Contamination</td><td>Plastic, string, vegetable matter and dark fibres lower value.</td></tr></table>"
+  },
+  {
+   "title": "From farm to buyer",
+   "minutes": 15,
+   "html": "<h3>The wool and mohair pipeline</h3><ol><li><strong>Shearing</strong> on the farm.</li><li><strong>Classing</strong> – the classer sorts fleeces into lines of similar quality.</li><li><strong>Baling</strong> – each class is pressed into bales, marked and recorded.</li><li><strong>Transport</strong> to a broker's store.</li><li><strong>Receiving</strong> – bales are checked, weighed and registered.</li><li><strong>Sampling</strong> – core and grab samples are taken from each bale or lot.</li><li><strong>Testing</strong> – a testing laboratory measures yield, micron, length and strength.</li><li><strong>Display</strong> – samples are shown to buyers before the auction.</li><li><strong>Auction</strong> – buyers bid on lots.</li><li><strong>Dispatch</strong> – sold bales are sent to buyers' processing plants or the port.</li><li><strong>Processing</strong> – washing (scouring), combing, spinning, weaving and knitting, in South Africa or overseas.</li></ol><h4>Main players</h4><ul><li><strong>Producers</strong> – farmers who grow the fibre.</li><li><strong>Brokers</strong> – receive, store, prepare and sell the clip for the farmer.</li><li><strong>Testing laboratories</strong> – give independent test results.</li><li><strong>Buyers and exporters</strong> – buy at auction for processors.</li><li><strong>Processors</strong> – wash and comb fibre into tops.</li><li><strong>Industry organisations</strong> – such as Cape Wools SA, the National Wool Growers' Association and Mohair South Africa, which support farmers, research, training and marketing.</li></ul><p>Most South African wool and mohair is exported, so world prices and the rand exchange rate affect what farmers are paid.</p>"
+  },
+  {
+   "title": "Quality, standards and your role",
+   "minutes": 15,
+   "html": "<h3>Why every worker matters</h3><p>Buyers pay for clean, correctly described fibre. A bale that contains plastic string, a bale that is wrongly weighed, or a sample from the wrong bale can cost the farmer money and damage trust in South African fibre.</p><h4>Standards</h4><ul><li>Clips are classed and packed according to industry standards so that buyers can trust the description.</li><li>Many buyers ask for animal welfare and land care standards, such as responsible wool and mohair standards. Farms are audited.</li><li>Samples and test certificates must match the right bale and lot.</li></ul><h4>Contamination</h4><p>Polypropylene (plastic) from feed bags and bale twine is a serious problem. It does not take dye and shows up in the final cloth. Keep plastic out of shearing sheds and stores.</p><h4>Your role in the store</h4><ul><li>Handle bales carefully and safely.</li><li>Keep bale marks and numbers clear and correct.</li><li>Follow sampling and weighing procedures exactly.</li><li>Keep accurate records.</li><li>Report damaged, wet or contaminated bales.</li></ul><h4>Key points</h4><ul><li>Wool comes from sheep (mostly Merino); mohair comes from Angora goats.</li><li>Value depends on fineness, length, strength, yield, colour and contamination.</li><li>Fibre moves from shearing and classing to brokers, testing, auction and processing.</li><li>Most fibre is exported, so world prices and the rand matter.</li><li>Correct weighing, sampling and records protect the farmer and the industry.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where does mohair come from?",
+   "options": [
+    {
+     "text": "Ostriches",
+     "correct": false
+    },
+    {
+     "text": "Cattle",
+     "correct": false
+    },
+    {
+     "text": "Angora goats",
+     "correct": true
+    },
+    {
+     "text": "Merino sheep",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is wool fineness measured?",
+   "options": [
+    {
+     "text": "In metres",
+     "correct": false
+    },
+    {
+     "text": "In litres",
+     "correct": false
+    },
+    {
+     "text": "In microns",
+     "correct": true
+    },
+    {
+     "text": "In kilograms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is \"yield\"?",
+   "options": [
+    {
+     "text": "The number of sheep sheared",
+     "correct": false
+    },
+    {
+     "text": "How much clean fibre is left after washing out grease and dirt",
+     "correct": true
+    },
+    {
+     "text": "The price at auction",
+     "correct": false
+    },
+    {
+     "text": "The length of the fibre",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a broker do?",
+   "options": [
+    {
+     "text": "Spins the yarn",
+     "correct": false
+    },
+    {
+     "text": "Receives, stores, prepares and sells the clip for the farmer",
+     "correct": true
+    },
+    {
+     "text": "Breeds Angora goats",
+     "correct": false
+    },
+    {
+     "text": "Shears the sheep",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is polypropylene contamination a serious problem?",
+   "options": [
+    {
+     "text": "It does not take dye and shows in the final cloth",
+     "correct": true
+    },
+    {
+     "text": "It makes fibre finer",
+     "correct": false
+    },
+    {
+     "text": "It makes bales lighter",
+     "correct": false
+    },
+    {
+     "text": "It improves the yield",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Kid mohair comes from young goats and is the finest mohair.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Most South African wool is used only inside South Africa.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in the wool and mohair pipeline? (select all that apply)",
+   "options": [
+    {
+     "text": "Classing",
+     "correct": true
+    },
+    {
+     "text": "Core and grab sampling",
+     "correct": true
+    },
+    {
+     "text": "Milking",
+     "correct": false
+    },
+    {
+     "text": "Auction",
+     "correct": true
+    },
+    {
+     "text": "Fermenting",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

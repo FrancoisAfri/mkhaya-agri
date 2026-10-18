@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119393",
+ "title": "Implement personal hygiene principles in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Why personal hygiene matters",
+   "minutes": 15,
+   "html": "<h3>People as a source of contamination</h3><p>Raw chicken can carry bacteria such as Salmonella and Campylobacter. People can spread these and other germs, such as Staphylococcus aureus from skin, nose and infected cuts, to the meat. Contamination can make consumers ill and can cause whole batches to be rejected or recalled. Personal hygiene is a prerequisite programme required in every abattoir food safety system and is part of complying with the Meat Safety Act 40 of 2000 and its regulations.</p><h4>How people contaminate product</h4><ul><li>Unwashed hands after the toilet, eating, smoking or touching the floor</li><li>Dirty protective clothing, boots and aprons</li><li>Hair, jewellery, buttons and plasters falling into product</li><li>Coughing and sneezing over product</li><li>Infected cuts, boils and sores</li><li>Moving from dirty areas (receiving, evisceration) to clean areas (chilling, packing) without changing and washing</li></ul><h4>Your role at NQF level 3</h4><p>As a team leader or senior operator you must do more than follow the rules yourself. You implement them: you check that team members comply, train new workers, keep facilities stocked, correct mistakes and report problems. You also lead by example: if the team leader skips the boot wash, the team will too.</p><h4>Health and illness</h4><p>Workers must report illness before starting work, especially diarrhoea, vomiting, fever, jaundice, skin infections or discharges from eyes, ears or nose. The supervisor decides with the plant's health procedure whether the person may work, must be moved away from exposed product, or must go home. Visitors and contractors must also complete a health declaration.</p>"
+  },
+  {
+   "title": "Hygiene rules and practices",
+   "minutes": 15,
+   "html": "<h3>The rules in practice</h3><h4>Protective clothing</h4><ul><li>Clean overalls or coats every shift, colour-coded by area where the plant uses this.</li><li>Hairnets covering all hair, and beard nets for facial hair.</li><li>White or approved boots, cleaned before entering production.</li><li>Waterproof aprons and gloves as required, cleaned or changed as often as the procedure says.</li><li>Protective clothing is never worn outside the plant, in toilets or in canteens.</li></ul><h4>Hand washing</h4><ol><li>Wet hands with clean warm water.</li><li>Apply liquid soap.</li><li>Rub all surfaces: palms, backs, between fingers, thumbs, fingertips and nails, for at least 20 seconds.</li><li>Rinse well.</li><li>Dry with paper towels or an approved dryer.</li><li>Sanitise if required by the procedure.</li></ol><p>Wash hands on entering production, after toilet, breaks, smoking, eating, touching the face, hair or floor, handling waste or condemned material, and whenever they are soiled.</p><h4>Personal behaviour</h4><ul><li>No jewellery except as the plant allows (usually none), no watches, no false nails or nail polish.</li><li>No eating, drinking, chewing gum, smoking or spitting in production areas.</li><li>Cover cuts with brightly coloured, detectable plasters and a glove.</li><li>No personal items such as phones or pens without lids in production.</li><li>Keep nails short and clean.</li></ul><h4>Hygiene barriers</h4><p>Entrances have boot washers, hand wash stations and sometimes foot baths. Everyone, including managers and visitors, must use them every time.</p><h4>Visitors and contractors</h4><p>Visitors, inspectors and maintenance contractors must follow the same rules: health declaration, protective clothing, hairnets, hand washing and no jewellery. Maintenance staff must also take care that tools and spare parts are counted in and out, so nothing is left behind in a machine.</p>"
+  },
+  {
+   "title": "Implementing and monitoring hygiene",
+   "minutes": 15,
+   "html": "<h3>Making hygiene part of the culture</h3><h4>Training</h4><p>All new workers must be trained in hygiene rules before they start. Use demonstrations, for example a hand-washing demonstration with a glow powder and UV lamp, to show missed areas. Give refresher training regularly and after any hygiene failure. Explain why, not only what.</p><h4>Facilities</h4><p>Check at the start of every shift and during the shift that:</p><ul><li>Hand wash basins have hot and cold water, soap, paper towels and bins.</li><li>Boot washers and foot baths work and the sanitiser is at the correct strength as specified.</li><li>Change rooms and toilets are clean and stocked.</li><li>Enough clean protective clothing is available in the right sizes.</li></ul><p>Report broken facilities immediately; never let work start without hand washing facilities.</p><h4>Monitoring</h4><table><tr><th>Check</th><th>How</th></tr><tr><td>Compliance</td><td>Daily hygiene checklist at entrances and on the line</td></tr><tr><td>Hand cleanliness</td><td>Hand swabs taken by QA for the laboratory</td></tr><tr><td>Health</td><td>Health declarations and return-to-work forms</td></tr><tr><td>Training</td><td>Training register for every worker</td></tr></table><h4>Correcting non-compliance</h4><p>Correct the person straight away and politely, explain the risk and make sure the product they touched is checked. Record repeated non-compliance and follow the plant's disciplinary procedure if needed.</p><h4>Key points</h4><ul><li>People can transfer bacteria such as Salmonella, Campylobacter and Staphylococcus to meat.</li><li>Report illness, diarrhoea, vomiting and skin infections before starting work.</li><li>Wear clean protective clothing and hairnets, and never wear them outside the plant.</li><li>Wash hands thoroughly for at least 20 seconds at all the required times.</li><li>Train, check facilities, monitor compliance and correct problems at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which bacterium is commonly spread from people's skin, nose or infected cuts to food?",
+   "options": [
+    {
+     "text": "Staphylococcus aureus",
+     "correct": true
+    },
+    {
+     "text": "Lactobacillus",
+     "correct": false
+    },
+    {
+     "text": "Rhizobium",
+     "correct": false
+    },
+    {
+     "text": "Yeast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "For how long should you rub your hands with soap when washing them?",
+   "options": [
+    {
+     "text": "2 seconds",
+     "correct": false
+    },
+    {
+     "text": "At least 20 seconds",
+     "correct": true
+    },
+    {
+     "text": "10 minutes",
+     "correct": false
+    },
+    {
+     "text": "Only until they are wet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a worker with diarrhoea do before starting a shift?",
+   "options": [
+    {
+     "text": "Start work and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Take medicine and work in packing",
+     "correct": false
+    },
+    {
+     "text": "Report it to the supervisor before starting",
+     "correct": true
+    },
+    {
+     "text": "Wear two pairs of gloves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a small cut on the hand be covered?",
+   "options": [
+    {
+     "text": "With tape",
+     "correct": false
+    },
+    {
+     "text": "It does not need to be covered",
+     "correct": false
+    },
+    {
+     "text": "With a cloth",
+     "correct": false
+    },
+    {
+     "text": "With a brightly coloured, detectable plaster and a glove",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where may protective clothing NOT be worn?",
+   "options": [
+    {
+     "text": "Outside the plant and in toilets",
+     "correct": true
+    },
+    {
+     "text": "In the packing area",
+     "correct": false
+    },
+    {
+     "text": "On the evisceration line",
+     "correct": false
+    },
+    {
+     "text": "In the chiller area",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Managers and visitors must also use boot washers and hand wash stations.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A worker may move from evisceration to packing without changing or washing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are rules for personal behaviour in production areas? (select all that apply)",
+   "options": [
+    {
+     "text": "No chewing gum",
+     "correct": true
+    },
+    {
+     "text": "No jewellery or watches",
+     "correct": true
+    },
+    {
+     "text": "Keep nails short and clean",
+     "correct": true
+    },
+    {
+     "text": "Phones may be used on the line",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

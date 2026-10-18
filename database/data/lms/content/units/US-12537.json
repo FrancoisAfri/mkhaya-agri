@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12537",
+  "title": "Identify personal values and ethics in the workplace",
+  "lessons": [
+    {
+      "title": "What are values?",
+      "minutes": 15,
+      "html": "<h3>What are values?</h3><p>Values are the things that are important to you. They guide how you behave and the choices you make. You learn values from your family, culture, church, school and friends.</p><h4>Examples of values</h4><ul><li><strong>Honesty:</strong> telling the truth and not stealing.</li><li><strong>Respect:</strong> treating other people well, whatever their age, language, culture or gender.</li><li><strong>Responsibility:</strong> doing what you are supposed to do and owning up to mistakes.</li><li><strong>Hard work:</strong> doing a good job, not only when the boss is watching.</li><li><strong>Fairness:</strong> treating people equally.</li><li><strong>Ubuntu:</strong> caring for others and the community. \"I am because we are.\"</li></ul><h4>Knowing your own values</h4><p>Think about these questions:</p><ol><li>What makes me proud of myself?</li><li>What do I never want to do, even if nobody sees?</li><li>Which people do I respect, and why?</li></ol><p>Your answers show your values. For example, if you are proud when you finish a job well, you value hard work.</p><h4>Values can be different</h4><p>People on a farm come from different backgrounds. One worker may value time with family on Sunday. Another may value earning overtime. Different values are not wrong. We must respect each other's values as long as they do not hurt anyone.</p><h4>Values at work</h4><p>A farm also has values. Many farms say they value safety, honesty, teamwork and care for animals and the land. When your personal values match the farm's values, work is easier and you feel part of the team. When they do not match, talk to your supervisor about it.</p><p>Talk about values with your team. When people understand what matters to each other, they work together better and there are fewer arguments.</p>"
+    },
+    {
+      "title": "Ethics: doing the right thing at work",
+      "minutes": 20,
+      "html": "<h3>Ethics: doing the right thing at work</h3><p>Ethics means knowing what is right and wrong and choosing to do what is right. Workplace ethics are the rules of good behaviour at work.</p><h4>Ethical behaviour on a farm</h4><ul><li>Do not take farm property home: fuel, feed, tools, fruit or animals belong to the farm unless you are allowed to take them.</li><li>Write down the real hours you worked and the real numbers, such as crates picked or litres of milk.</li><li>Treat animals kindly. The Animals Protection Act 71 of 1962 makes cruelty to animals a crime.</li><li>Follow safety rules, even when it takes longer.</li><li>Do not come to work drunk or under the influence of drugs.</li><li>Respect co-workers. No bullying, swearing or sexual harassment.</li><li>Keep private information private, such as other people's pay or health.</li></ul><h4>Hard choices</h4><p>Sometimes the right choice is not easy. Here is an example:</p><p><em>Your friend takes a bag of fertiliser and asks you to keep quiet. If you report it, your friend may be angry. If you do not report it, you are helping to steal.</em></p><p>Ask yourself:</p><ol><li>Is it legal?</li><li>Is it fair to everyone?</li><li>Would I be happy if everyone knew what I did?</li><li>What would a person I respect do?</li></ol><p>If the answer is no, it is not ethical. Speak to your supervisor or the person the farm has chosen for reporting problems.</p><h4>Why ethics matter</h4><p>Ethical workers are trusted. Trusted workers are given more responsibility and better jobs. Unethical behaviour such as theft or lying can lead to disciplinary action or dismissal and hurts the whole team, because a farm that loses money cannot pay wages or create jobs.</p><h4>Key points</h4><ul><li>Values are what is important to you; they guide your behaviour.</li><li>Respect other people's values when they do not harm anyone.</li><li>Ethics means choosing to do what is right.</li><li>Be honest about hours and numbers, do not take farm property, and treat animals and people with respect.</li><li>When unsure, ask: is it legal, is it fair, would I be happy if everyone knew?</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What are values?",
+      "options": [
+        {
+          "text": "The prices of farm products",
+          "correct": false
+        },
+        {
+          "text": "The things that are important to you and guide your behaviour",
+          "correct": true
+        },
+        {
+          "text": "The rules of a sports game",
+          "correct": false
+        },
+        {
+          "text": "Your monthly wage",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does ethics mean?",
+      "options": [
+        {
+          "text": "Doing only what the boss sees",
+          "correct": false
+        },
+        {
+          "text": "Getting as much money as possible",
+          "correct": false
+        },
+        {
+          "text": "Knowing right from wrong and choosing what is right",
+          "correct": true
+        },
+        {
+          "text": "Speaking many languages",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A friend steals fertiliser and asks you to keep quiet. What is the ethical choice?",
+      "options": [
+        {
+          "text": "Report it to your supervisor or the chosen person",
+          "correct": true
+        },
+        {
+          "text": "Ask for half of it",
+          "correct": false
+        },
+        {
+          "text": "Say nothing",
+          "correct": false
+        },
+        {
+          "text": "Take some yourself as well",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law makes cruelty to animals a crime?",
+      "options": [
+        {
+          "text": "The National Water Act 36 of 1998",
+          "correct": false
+        },
+        {
+          "text": "The OHS Act 85 of 1993",
+          "correct": false
+        },
+        {
+          "text": "The Meat Safety Act 40 of 2000",
+          "correct": false
+        },
+        {
+          "text": "The Animals Protection Act 71 of 1962",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of respect at work?",
+      "options": [
+        {
+          "text": "Swearing at a co-worker",
+          "correct": false
+        },
+        {
+          "text": "Treating everyone well whatever their language or culture",
+          "correct": true
+        },
+        {
+          "text": "Sharing other people's pay details",
+          "correct": false
+        },
+        {
+          "text": "Laughing at someone's mistake",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Writing down more crates than you actually picked is unethical.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "If another worker's values are different from yours, their values must be wrong.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which questions help you decide if something is ethical? (select all that apply)",
+      "options": [
+        {
+          "text": "Is it legal?",
+          "correct": true
+        },
+        {
+          "text": "Is it fair to everyone?",
+          "correct": true
+        },
+        {
+          "text": "Will anyone catch me?",
+          "correct": false
+        },
+        {
+          "text": "Would I be happy if everyone knew what I did?",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

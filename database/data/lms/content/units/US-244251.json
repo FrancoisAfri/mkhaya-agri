@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244251",
+ "title": "Perform basic handyman tasks in a stable yard",
+ "lessons": [
+  {
+   "title": "Tools and safety for yard maintenance",
+   "minutes": 15,
+   "html": "<h3>Why handyman work matters</h3> <p>A stable yard must be kept in good repair. A loose board, a sharp nail or a broken latch can injure a horse or let it escape. Small repairs done early stop big, costly problems later. At basic level you do simple repairs and report bigger ones.</p> <h4>Common hand tools</h4> <table><tr><th>Tool</th><th>Use</th></tr> <tr><td>Claw hammer</td><td>Knock in and pull out nails</td></tr> <tr><td>Screwdrivers (flat and Phillips)</td><td>Tighten and loosen screws</td></tr> <tr><td>Pliers and wire cutters</td><td>Cut and twist fencing wire</td></tr> <tr><td>Spanners and shifting spanner</td><td>Tighten nuts and bolts on gates and hinges</td></tr> <tr><td>Hand saw</td><td>Cut wood</td></tr> <tr><td>Tape measure and spirit level</td><td>Measure and check things are straight</td></tr> <tr><td>Paint brush and roller</td><td>Paint walls, doors and fences</td></tr></table> <h4>Safe use of tools</h4> <ul> <li>Use the right tool for the job. A screwdriver is not a chisel.</li> <li>Check tools before use: loose hammer heads and cracked handles are dangerous.</li> <li>Wear gloves, safety glasses and closed boots.</li> <li>Do not use power tools unless you are trained and allowed.</li> <li>Clean tools after use and put them back in the toolbox or on the board.</li> <li>Never leave tools, nails or wire where horses can reach them.</li> </ul> <h4>Horses and repairs</h4> <p>Before you start work in a stable or camp, move the horse out to a safe place. Horses are curious and can step on tools or eat bits of wire and plastic. When you finish, pick up every nail, screw and offcut. Walk the area and check with your eyes. One nail in the bedding can go into a hoof and cause a serious infection.</p> <h4>Ladders</h4> <p>Stand the ladder on firm, level ground. Have someone hold it. Do not stand on the top step. Keep your body between the side rails.</p>"
+  },
+  {
+   "title": "Doing basic repairs in the stable yard",
+   "minutes": 15,
+   "html": "<h3>Common jobs</h3> <h4>Loose or broken boards</h4> <ol> <li>Move the horse out.</li> <li>Check if the board is only loose or cracked.</li> <li>Remove nails that stick out with the claw of the hammer.</li> <li>Re-nail or screw the board firmly. Use nails or screws long enough to hold.</li> <li>Knock any sharp points flat. Run your gloved hand over the area to check nothing sticks out.</li> <li>Report cracked or rotten boards to your supervisor; they must be replaced.</li> </ol> <h4>Doors, latches and hinges</h4> <p>Stable doors and gate latches must close firmly. Horses learn to open loose latches. Tighten screws and bolts on hinges. Oil hinges and bolts so they move easily. Report latches that do not close.</p> <h4>Fences</h4> <ul> <li>Walk the fence lines regularly.</li> <li>Tighten slack wire with the wire strainer if you are trained.</li> <li>Fix broken droppers and loose staples.</li> <li>Cut off and remove loose wire ends; never leave a coil of wire in a camp.</li> <li>Electric fences: switch off at the energiser before working on them, and tell others it is off.</li> </ul> <h4>Water troughs and taps</h4> <p>Check troughs daily. Clean out algae and dirt. Check the ball valve is working so the trough fills but does not overflow. Fix or report dripping taps; they waste water and make mud.</p> <h4>Painting</h4> <ol> <li>Scrape off loose paint and brush off dust.</li> <li>Use only paint that is safe for animals; ask your supervisor. Old paint may contain lead.</li> <li>Keep horses away until the paint is dry.</li> <li>Clean brushes as the tin says and close tins properly.</li> </ol> <h4>Drains and gutters</h4> <p>Clear blocked drains and gutters so water runs away from stables. Wet floors are slippery and cause hoof problems.</p> <h4>Reporting</h4> <p>Some jobs are not for basic level: electrical work, plumbing that needs pipes cut, roof work, welding. Report these. Write the problem in the maintenance book: what, where, when found.</p> <h4>Key points</h4> <ul> <li>Move horses out before you start and check the area for nails afterwards.</li> <li>Use the right tool, check it first and put it away after.</li> <li>Knock flat or remove anything sharp sticking out.</li> <li>Switch off electric fences before working on them.</li> <li>Report electrical, roof and big plumbing jobs; do not attempt them.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which tool do you use to pull out a nail?",
+   "options": [
+    {
+     "text": "Spirit level",
+     "correct": false
+    },
+    {
+     "text": "Claw hammer",
+     "correct": true
+    },
+    {
+     "text": "Paint roller",
+     "correct": false
+    },
+    {
+     "text": "Tape measure",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before repairing a board in a stable?",
+   "options": [
+    {
+     "text": "Leave the horse inside",
+     "correct": false
+    },
+    {
+     "text": "Move the horse out",
+     "correct": true
+    },
+    {
+     "text": "Wet the floor",
+     "correct": false
+    },
+    {
+     "text": "Switch off the lights",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must you pick up every nail after a repair?",
+   "options": [
+    {
+     "text": "Nails are expensive",
+     "correct": false
+    },
+    {
+     "text": "A nail in the bedding can go into a hoof",
+     "correct": true
+    },
+    {
+     "text": "The boss counts them",
+     "correct": false
+    },
+    {
+     "text": "They rust",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before working on an electric fence?",
+   "options": [
+    {
+     "text": "Touch it to test",
+     "correct": false
+    },
+    {
+     "text": "Switch it off at the energiser and tell others",
+     "correct": true
+    },
+    {
+     "text": "Wet your hands",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which job should a basic-level handyman report instead of doing?",
+   "options": [
+    {
+     "text": "Tightening a hinge screw",
+     "correct": false
+    },
+    {
+     "text": "Electrical wiring",
+     "correct": true
+    },
+    {
+     "text": "Oiling a latch",
+     "correct": false
+    },
+    {
+     "text": "Clearing a gutter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand on the top step of a ladder if you are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only paint that is safe for animals should be used on stables.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are safe tool habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Use the right tool for the job",
+     "correct": true
+    },
+    {
+     "text": "Check tools before use",
+     "correct": true
+    },
+    {
+     "text": "Leave tools in the stable for later",
+     "correct": false
+    },
+    {
+     "text": "Wear gloves and safety glasses",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115801",
+ "title": "Harvest macadamia nuts in husk",
+ "lessons": [
+  {
+   "title": "When and how nuts fall",
+   "minutes": 15,
+   "html": "<h3>The macadamia nut</h3>\n<p>A macadamia nut has three layers:</p>\n<ul><li><strong>Husk</strong> – the green outer skin.</li>\n<li><strong>Shell</strong> – the hard brown shell inside the husk.</li>\n<li><strong>Kernel</strong> – the white nut inside the shell. This is what people eat and what the farm sells.</li></ul>\n<p>When nuts are ripe, most of them fall from the tree to the ground. In South Africa the harvest is mostly in autumn and winter, but this changes with area and cultivar. Your supervisor will tell you when harvesting starts.</p>\n<h4>Why pick up nuts quickly?</h4>\n<ul><li>Nuts on wet ground go mouldy.</li>\n<li>Rats, porcupines, monkeys and other animals eat them.</li>\n<li>Nuts can be stolen.</li>\n<li>Old nuts make poor kernels. Poor kernels mean less money for the farm.</li></ul>\n<p>So nuts are picked up often, for example every week or two, as the farm decides.</p>\n<h4>Before you start</h4>\n<ul><li>Your supervisor will tell you which rows to harvest.</li>\n<li>The ground under the trees must be clean. Grass is cut short and leaves are blown away, so nuts are easy to see.</li>\n<li>Check the re-entry time if the orchard was sprayed. Do not go in until the supervisor says it is safe.</li></ul>\n<h4>Your equipment</h4>\n<ul><li>Buckets or bags</li>\n<li>Crates or bins</li>\n<li>A nut roller or picker, if the farm uses one</li>\n<li>Gloves, boots and a hat</li></ul>"
+  },
+  {
+   "title": "Picking up nuts and delivering them",
+   "minutes": 15,
+   "html": "<h3>Steps</h3>\n<ol><li>Start at one end of the row. Work under the whole tree, around the trunk and out to the edge of the branches.</li>\n<li>Pick up all the nuts on the ground. Look carefully in the grass and leaves.</li>\n<li>Put nuts in your bucket or bag.</li>\n<li>Leave out stones, sticks, leaves and soil.</li>\n<li>Put rotten, mouldy or broken nuts in a separate bucket, as your supervisor says.</li>\n<li>Empty your bucket into the crate or bin. Do not overfill the crate.</li>\n<li>Put a label on the crate if the farm uses labels: block number, date and your name or number.</li>\n<li>Move the crates to the end of the row for the tractor or bakkie.</li></ol>\n<h3>Some nuts stay on the tree</h3>\n<p>Some cultivars keep nuts on the tree. The farm may shake the tree or use poles. Only do this if your supervisor tells you to and shows you how. Never climb the trees.</p>\n<h3>Keep nuts in good condition</h3>\n<ul><li>Keep crates in the shade.</li>\n<li>Do not leave nuts in bags in the rain or sun.</li>\n<li>Send nuts to the dehusker the same day if possible.</li></ul>\n<h3>Safety</h3>\n<ul><li>Bend your knees or kneel. Do not bend your back all day. Take short breaks.</li>\n<li>Lift crates with two people if they are heavy.</li>\n<li>Look out for snakes, bees and thorns.</li>\n<li>Keep away from the tractor when it is moving.</li>\n<li>Drink water.</li></ul>\n<h3>Honesty</h3>\n<p>All nuts belong to the farm. Taking nuts is theft.</p>\n<h4>Key points</h4>\n<ul><li>Pick up fallen nuts often so they do not rot or get eaten.</li>\n<li>Pick up all nuts under the whole tree.</li>\n<li>Keep out stones, sticks and leaves.</li>\n<li>Keep crates in the shade and label them.</li>\n<li>Bend your knees and lift heavy crates with two people.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which part of the macadamia nut is eaten and sold?",
+   "options": [
+    {
+     "text": "The husk",
+     "correct": false
+    },
+    {
+     "text": "The shell",
+     "correct": false
+    },
+    {
+     "text": "The kernel",
+     "correct": true
+    },
+    {
+     "text": "The leaf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should fallen nuts be picked up quickly?",
+   "options": [
+    {
+     "text": "They can go mouldy or be eaten by animals",
+     "correct": true
+    },
+    {
+     "text": "They grow into trees",
+     "correct": false
+    },
+    {
+     "text": "They get bigger on the ground",
+     "correct": false
+    },
+    {
+     "text": "It is not important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you leave out of the bucket?",
+   "options": [
+    {
+     "text": "Good nuts",
+     "correct": false
+    },
+    {
+     "text": "Nuts in husk",
+     "correct": false
+    },
+    {
+     "text": "Large nuts",
+     "correct": false
+    },
+    {
+     "text": "Stones, sticks, leaves and soil",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should full crates be kept?",
+   "options": [
+    {
+     "text": "In the sun",
+     "correct": false
+    },
+    {
+     "text": "In the shade",
+     "correct": true
+    },
+    {
+     "text": "In the rain",
+     "correct": false
+    },
+    {
+     "text": "Under the tractor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the orchard was sprayed?",
+   "options": [
+    {
+     "text": "Go in straight away",
+     "correct": false
+    },
+    {
+     "text": "Wash the nuts",
+     "correct": false
+    },
+    {
+     "text": "Wait until the supervisor says it is safe to enter",
+     "correct": true
+    },
+    {
+     "text": "Harvest at night",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may climb the macadamia trees to pick nuts.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Heavy crates should be lifted by two people.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which information goes on a crate label? (select all that apply)",
+   "options": [
+    {
+     "text": "Block number",
+     "correct": true
+    },
+    {
+     "text": "Date",
+     "correct": true
+    },
+    {
+     "text": "Your name or number",
+     "correct": true
+    },
+    {
+     "text": "Your home address",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

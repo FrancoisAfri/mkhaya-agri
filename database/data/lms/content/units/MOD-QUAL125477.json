@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-QUAL125477",
+ "title": "Advanced Certificate in Precision Farming",
+ "lessons": [
+  {
+   "title": "Principles of precision agriculture",
+   "minutes": 20,
+   "html": "<h3>From field averages to managing variability</h3><p>Traditional farming treats a field as uniform: one seeding rate, one fertiliser rate, one spray programme. In reality, soil depth, texture, water-holding capacity, pH, nutrient levels, weed pressure and yield potential vary greatly within a single land, especially on the variable sandy and duplex soils common across South African grain areas. <strong>Precision agriculture</strong> is a management approach that measures this variability and responds to it, applying the right input, at the right rate, in the right place, at the right time.</p><h4>The precision farming cycle</h4><ol><li><strong>Collect data:</strong> GNSS-referenced yield maps, soil sampling grids or zones, electrical conductivity surveys, satellite and drone imagery, weather stations, soil moisture probes.</li><li><strong>Analyse and interpret:</strong> identify patterns that are stable over years, separate causes (soil, drainage, compaction, pests) from noise.</li><li><strong>Make decisions:</strong> define management zones and prescriptions.</li><li><strong>Apply:</strong> variable-rate seeding, fertiliser, lime, irrigation and spraying; auto-steer and section control.</li><li><strong>Evaluate:</strong> compare results against expectations and refine.</li></ol><h4>Where the value comes from</h4><ul><li>Reducing inputs where they will not pay (for example lowering seed and nitrogen on shallow, low-potential soils)</li><li>Raising inputs where yield potential justifies it</li><li>Cutting overlaps and skips with guidance and section control, saving seed, fertiliser, chemicals and diesel</li><li>Correcting limiting factors, such as patchy acidity, with variable-rate lime</li><li>Better records for traceability, audits and financing</li></ul><h4>Limitations</h4><p>Technology does not replace agronomy. Poor data, uncalibrated sensors, or zones drawn without ground-truthing lead to expensive mistakes. Benefits depend on how variable the field actually is; a very uniform field gains little from variable-rate application. Connectivity in rural areas, data compatibility between brands, and the skills to interpret data are real constraints. This qualification develops the ability to select and apply precision tools critically, rather than adopting technology for its own sake.</p>"
+  },
+  {
+   "title": "Data sources and technologies",
+   "minutes": 20,
+   "html": "<h3>Positioning</h3><p>Almost all precision tools depend on Global Navigation Satellite Systems (GNSS), of which GPS is one. Accuracy ranges from a few metres with an uncorrected receiver to around two centimetres with real-time kinematic (RTK) correction from a base station or network. Auto-steer for planting and controlled traffic requires high accuracy; yield mapping and scouting can work with lower accuracy.</p><h4>Measuring the field</h4><table><tr><th>Tool</th><th>What it shows</th><th>Notes</th></tr><tr><td>Yield monitor</td><td>Yield and moisture across the field</td><td>Needs calibration each season and crop; clean data before use</td></tr><tr><td>Grid or zone soil sampling</td><td>pH, acidity, P, K and other nutrients by location</td><td>Sample density and laboratory consistency are critical</td></tr><tr><td>Soil EC survey</td><td>Differences in texture, depth, salinity</td><td>Good basis for zones; must be ground-truthed with pits or auger samples</td></tr><tr><td>Satellite imagery (NDVI and other indices)</td><td>Crop vigour and its change in time</td><td>Cloud cover can limit; low cost per hectare</td></tr><tr><td>Drones</td><td>High-resolution imagery, plant counts, spot detection</td><td>Civil aviation rules apply to commercial use; operators need appropriate licensing</td></tr><tr><td>Soil moisture probes and weather stations</td><td>Water status, rainfall, evapotranspiration</td><td>Key for irrigation scheduling</td></tr></table><h4>Applying inputs</h4><ul><li><strong>Guidance and auto-steer:</strong> reduces overlap and operator fatigue; enables controlled traffic.</li><li><strong>Section and row control:</strong> switches planter rows or boom sections off over areas already covered.</li><li><strong>Variable-rate technology (VRT):</strong> controllers read a prescription map and adjust rates on the go.</li><li><strong>Variable-rate irrigation:</strong> on centre pivots, varies application by sector or nozzle zone.</li><li><strong>Targeted spraying:</strong> camera-based systems that spray only weeds detected in fallow or between rows.</li></ul><h4>Data management</h4><p>Data from different machines and service providers often comes in different formats. Use a farm management information system that can import common formats, keep field boundaries consistent, and store data securely. Agree in writing with service providers who owns and may use the farm's data. Handle any personal information of employees or clients according to the Protection of Personal Information Act 4 of 2013.</p>"
+  },
+  {
+   "title": "Selecting, applying and evaluating precision tools",
+   "minutes": 20,
+   "html": "<h3>Building management zones</h3><p>A management zone is an area within a field that has similar yield-limiting factors and therefore should receive similar treatment. Robust zones combine several layers: multi-year yield maps (normalised so different seasons can be compared), soil EC, elevation, imagery and farmer knowledge. Ground-truth every zone with soil pits or samples before writing prescriptions. Typically two to five zones per field are practical.</p><h4>Writing prescriptions</h4><p>Prescriptions should be based on agronomic response, not only on maps. For example, a variable-rate nitrogen plan uses the expected yield and response in each zone; a seeding prescription lowers plant population on low-potential soils where moisture limits yield. Use the recommendations of a qualified agronomist, soil laboratory and seed company, and always keep the rates within product label limits for any agricultural remedies under Act 36 of 1947.</p><h4>Selecting technology</h4><table><tr><th>Question</th><th>Why it matters</th></tr><tr><td>How variable are my fields?</td><td>Determines potential return from VRT</td></tr><tr><td>What decision will this data improve?</td><td>Avoid collecting data that changes nothing</td></tr><tr><td>Is it compatible with my machinery and software?</td><td>Avoid isolated systems</td></tr><tr><td>What support and training is available locally?</td><td>Downtime at planting is costly</td></tr><tr><td>What is the payback?</td><td>Capital, subscriptions and labour against savings and yield gains</td></tr></table><h4>On-farm trials and evaluation</h4><p>Test prescriptions with strip or checkerboard trials: alternate standard and variable rates across zones, harvest with a calibrated yield monitor, and compare yield and gross margin per hectare. Repeat over seasons, because one season's rainfall can dominate results.</p><h4>Economic analysis</h4><p>Calculate the investment (receivers, controllers, subscriptions, sampling, consulting) and annual savings (seed, fertiliser, chemicals, fuel, labour) plus any yield or quality gains. Consider shared ownership or contracting where the farm is small. Report results in rand per hectare to support management decisions.</p><h4>Key points</h4><ul><li>Precision agriculture measures in-field variability and manages inputs to match it.</li><li>Accurate positioning, calibrated sensors and clean data are the foundation.</li><li>Build zones from several data layers and ground-truth them.</li><li>Choose technology based on the decision it improves and its payback.</li><li>Evaluate with on-farm trials over several seasons and express results in rand per hectare.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the core idea of precision agriculture?",
+   "options": [
+    {
+     "text": "Using the biggest machines available",
+     "correct": false
+    },
+    {
+     "text": "Applying the same rate across the whole field",
+     "correct": false
+    },
+    {
+     "text": "Measuring in-field variability and matching inputs to it",
+     "correct": true
+    },
+    {
+     "text": "Replacing agronomists with software",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which correction gives around two-centimetre GNSS accuracy?",
+   "options": [
+    {
+     "text": "RTK correction",
+     "correct": true
+    },
+    {
+     "text": "An uncorrected handheld GPS",
+     "correct": false
+    },
+    {
+     "text": "Satellite NDVI imagery",
+     "correct": false
+    },
+    {
+     "text": "A yield monitor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must soil EC zones be ground-truthed?",
+   "options": [
+    {
+     "text": "To get more satellite images",
+     "correct": false
+    },
+    {
+     "text": "Because EC measures yield directly",
+     "correct": false
+    },
+    {
+     "text": "EC is always wrong",
+     "correct": false
+    },
+    {
+     "text": "EC shows differences but the causes must be confirmed with pits or samples",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When does a field gain little from variable-rate application?",
+   "options": [
+    {
+     "text": "When it is highly variable",
+     "correct": false
+    },
+    {
+     "text": "When it is very uniform",
+     "correct": true
+    },
+    {
+     "text": "When yield maps are available",
+     "correct": false
+    },
+    {
+     "text": "When the soil is sandy",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the best way to evaluate a variable-rate prescription?",
+   "options": [
+    {
+     "text": "Look at one season's imagery",
+     "correct": false
+    },
+    {
+     "text": "Ask the equipment salesperson",
+     "correct": false
+    },
+    {
+     "text": "Run strip or checkerboard trials over several seasons and compare gross margin",
+     "correct": true
+    },
+    {
+     "text": "Compare with a neighbour's field",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Section control reduces overlaps by switching off rows or boom sections over areas already covered.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A yield monitor needs no calibration once installed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions should guide selection of a precision technology? (select all that apply)",
+   "options": [
+    {
+     "text": "What decision will this data improve?",
+     "correct": true
+    },
+    {
+     "text": "Is it compatible with my machinery and software?",
+     "correct": true
+    },
+    {
+     "text": "Which brand has the best colour?",
+     "correct": false
+    },
+    {
+     "text": "What is the payback?",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

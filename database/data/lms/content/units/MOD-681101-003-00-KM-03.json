@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-003-00-KM-03",
+ "title": "Pig Slaughter Equipment",
+ "lessons": [
+  {
+   "title": "Equipment from stunning to dehairing",
+   "minutes": 20,
+   "html": "<h3>The pork line</h3><p>A pig slaughter line uses some equipment that is different from a beef line, because pigs are usually scalded and dehaired instead of skinned. You must know each piece of equipment, its purpose and its dangers.</p><table><tr><th>Equipment</th><th>Purpose</th></tr><tr><td>Restrainer or stunning pen</td><td>Holds pigs for accurate stunning</td></tr><tr><td>Electrical stunning tongs</td><td>Pass a current through the brain to make the pig unconscious</td></tr><tr><td>Carbon dioxide (CO2) stunning system</td><td>In large plants, pigs are lowered in groups into a high-concentration gas that makes them unconscious</td></tr><tr><td>Shackles and hoist</td><td>Lift the pig onto the bleeding rail</td></tr><tr><td>Sticking knife and blood trough</td><td>Bleeding and blood collection</td></tr><tr><td>Scald tank or scalding tunnel</td><td>Hot water (or steam) that loosens hair and the outer skin layer</td></tr><tr><td>Dehairing machine</td><td>Rotating paddles or scrapers that remove the loosened hair</td></tr><tr><td>Gambrel table</td><td>Where gambrels (spreader hooks) are inserted into the hind legs</td></tr><tr><td>Singer (gas burner or furnace)</td><td>Burns off the remaining hair and dries the skin</td></tr><tr><td>Polisher / scrapers</td><td>Clean off singed hair and scurf</td></tr></table><h3>Scald temperature and time</h3><p>The scald water must be kept at the temperature and time set by the abattoir. Too cold and the hair will not come off; too hot or too long and the skin cooks and tears. The operator checks the thermometer often and records it.</p><h3>Dangers</h3><ul><li>Electric shock from stunning equipment if it is wet or damaged.</li><li>Burns from scald water, steam and the singer flame.</li><li>Entanglement in the dehairing machine.</li><li>Gas: carbon dioxide can suffocate people in pits or enclosed spaces. Never enter the stunning pit.</li></ul>"
+  },
+  {
+   "title": "Dressing equipment, hygiene and maintenance",
+   "minutes": 20,
+   "html": "<h3>Equipment in the clean area</h3><ul><li><strong>Knives, steel and scabbard</strong>: for opening, evisceration, head removal and trimming.</li><li><strong>Brisket or breastbone cutter</strong>: opens the chest.</li><li><strong>Splitting saw or cleaver</strong>: splits the carcass along the backbone.</li><li><strong>Offal trays or conveyors</strong>: carry offal to inspection.</li><li><strong>Knife sterilisers and hand-wash stations</strong>.</li><li><strong>Rail scale and labelling equipment</strong>.</li><li><strong>Platforms</strong>: bring the worker to the right height.</li></ul><h3>Safe use</h3><ul><li>Only operate equipment you have been trained and authorised to use.</li><li>Check guards, emergency stops and cables before you start.</li><li>Stunning tongs: keep them dry, check that cables and electrodes are undamaged, and never touch the electrodes while the switch is on. Place the tongs correctly on the head so the current passes through the brain.</li><li>Keep hands and loose clothing away from the dehairing machine. Stop and lock it out before clearing a jam.</li><li>Keep the singer area clear of flammable materials, and know where the gas shut-off is.</li><li>Use both hands on saws, and keep others clear.</li></ul><h3>Hygiene</h3><p>Equipment that touches carcasses must be cleaned and sanitised. Sterilise knives, saws and cutters between carcasses as required. Scald water becomes dirty during the day and must be changed according to the abattoir's procedure. Dehairing machine paddles and scrapers collect hair and dirt and must be cleaned at the end of the shift.</p><h3>Maintenance</h3><ul><li>Report worn electrodes, damaged cables, blunt saw blades and broken paddles.</li><li>Check stunner current and timing settings are correct, as the maintenance team sets them.</li><li>Record faults in the maintenance book.</li></ul><h4>Key points</h4><ul><li>Pork equipment includes stunning tongs or CO2, scald tank, dehairer and singer.</li><li>Keep scald water at the set temperature and time.</li><li>Never enter a CO2 pit; watch for burns, shocks and entanglement.</li><li>Lock out machines before clearing jams or cleaning.</li><li>Clean, sterilise and report equipment faults.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do electrical stunning tongs do?",
+   "options": [
+    {
+     "text": "Remove hair",
+     "correct": false
+    },
+    {
+     "text": "Pass a current through the brain to make the pig unconscious",
+     "correct": true
+    },
+    {
+     "text": "Hold the carcass",
+     "correct": false
+    },
+    {
+     "text": "Split the carcass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if the scald water is too hot or the pig stays in too long?",
+   "options": [
+    {
+     "text": "The hair will not come off",
+     "correct": false
+    },
+    {
+     "text": "The meat becomes tender",
+     "correct": false
+    },
+    {
+     "text": "The skin cooks and tears",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you never enter the CO2 stunning pit?",
+   "options": [
+    {
+     "text": "It is dirty",
+     "correct": false
+    },
+    {
+     "text": "It is too cold",
+     "correct": false
+    },
+    {
+     "text": "Carbon dioxide can suffocate people",
+     "correct": true
+    },
+    {
+     "text": "The floor is slippery",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the singer used for?",
+   "options": [
+    {
+     "text": "Weighing carcasses",
+     "correct": false
+    },
+    {
+     "text": "Burning off remaining hair and drying the skin",
+     "correct": true
+    },
+    {
+     "text": "Chilling carcasses",
+     "correct": false
+    },
+    {
+     "text": "Bleeding pigs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before clearing a jam in the dehairing machine?",
+   "options": [
+    {
+     "text": "Reach in quickly while it runs",
+     "correct": false
+    },
+    {
+     "text": "Pour water into it",
+     "correct": false
+    },
+    {
+     "text": "Kick it",
+     "correct": false
+    },
+    {
+     "text": "Stop and lock out the machine",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stunning tongs must be kept dry and their cables checked for damage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Scald water never needs to be changed during operation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which dangers are linked to pig slaughter equipment? (select all that apply)",
+   "options": [
+    {
+     "text": "Entanglement in the dehairing machine",
+     "correct": true
+    },
+    {
+     "text": "Electric shock from damaged stunning equipment",
+     "correct": true
+    },
+    {
+     "text": "Sunburn from the chiller lights",
+     "correct": false
+    },
+    {
+     "text": "Burns from scald water and the singer",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

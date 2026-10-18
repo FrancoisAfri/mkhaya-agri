@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264186",
+ "title": "Conduct controlled tree felling in various locations",
+ "lessons": [
+  {
+   "title": "Assessing the tree and the site",
+   "minutes": 20,
+   "html": "<h3>Controlled felling</h3>\n<p>Controlled felling means bringing a tree down in a planned direction, safely, without damage to people, buildings, services or other plants. In horticulture this often happens in parks, estates, along roads and on farms when trees are dead, dangerous, diseased or invasive (for example blue gum or wattle in a riparian zone). Only trained, competent chainsaw operators may fell trees. The OHS Act 85 of 1993 and its regulations require the employer to provide training and a safe system of work, and the operator to follow it.</p>\n<h4>Before felling: the risk assessment</h4>\n<ul><li><strong>The tree</strong> – species, height, lean, crown weight on one side, dead branches (widow-makers), rot or hollow trunk, cracks, fungi at the base, vines.</li>\n<li><strong>The site</strong> – buildings, fences, roads, overhead power lines, underground services, slopes, obstacles and other trees.</li>\n<li><strong>Weather</strong> – wind direction and strength. Do not fell in strong or gusting wind.</li>\n<li><strong>People</strong> – public access, road traffic, livestock.</li></ul>\n<p>If the tree is near power lines, stop: only the power utility or authorised contractors may work there. If the tree is too big, too rotten or in a tight space, it may need sectional felling by a qualified arborist using ropes or a crane. Know your limits and report to your supervisor.</p>\n<h4>Planning the fall</h4>\n<ol><li>Choose the felling direction, normally with the natural lean, into a clear space.</li>\n<li>Set the <strong>danger zone</strong>: at least two tree lengths in all directions. Only the feller and a trained assistant are allowed inside it.</li>\n<li>Plan two <strong>escape routes</strong> at about 45° backwards from the felling direction, cleared of brush.</li>\n<li>Put up warning signs and barrier tape. Use stop-and-go controllers on roads.</li>\n<li>Agree on signals between the feller and the assistant.</li></ol>\n<h4>Permissions</h4>\n<p>Check whether a permit is needed. Some indigenous trees are protected under national forestry law, and municipalities often have by-laws on tree removal. Your manager must confirm this before felling.</p>"
+  },
+  {
+   "title": "Felling cuts, safe chainsaw use and clean-up",
+   "minutes": 20,
+   "html": "<h3>PPE for chainsaw work</h3>\n<ul><li>Hard hat with visor and ear muffs</li>\n<li>Chainsaw-protective trousers or chaps</li>\n<li>Chainsaw safety boots</li>\n<li>Gloves and high-visibility vest</li>\n<li>First aid kit on site and a means to call for help</li></ul>\n<h3>Chainsaw checks</h3>\n<p>Before work check the chain brake, chain catcher, throttle lock, sharp and correctly tensioned chain, and that the stop switch works. Start the saw on the ground with the chain brake on, or with a firm grip as your training showed. Never drop-start a chainsaw.</p>\n<h3>The felling cuts</h3>\n<ol><li><strong>Clear the base</strong> of brush and stones. Prune low branches that are in the way.</li>\n<li><strong>Directional notch (scarf)</strong> on the side facing the fall: a top cut and bottom cut meeting cleanly, about one-fifth to one-quarter of the trunk diameter deep. The notch points the tree.</li>\n<li><strong>Back cut</strong> on the opposite side, slightly above the bottom of the notch.</li>\n<li><strong>Hinge</strong> – leave a strip of uncut wood between notch and back cut, about one-tenth of the diameter. The hinge steers the tree. Never cut through it.</li>\n<li>Insert <strong>felling wedges</strong> into the back cut when needed to stop the bar pinching and to help tip the tree.</li>\n<li>Shout the agreed warning, check the danger zone is clear, then make the final cut and move away along your escape route while watching the crown.</li></ol>\n<h3>Hang-ups and dangers</h3>\n<ul><li>If the tree hangs in another tree, do not work under it and do not fell another tree onto it. Use approved winching methods or call an expert.</li>\n<li>Watch for kickback: never cut with the upper tip of the bar.</li>\n<li>Do not work alone.</li></ul>\n<h3>Clean-up</h3>\n<p>Limb and cross-cut the tree from the uphill side. Stack timber safely, chip or remove branches, and treat stumps of invasive species as the site plan and the product label say. Leave the site tidy and remove signs.</p>\n<h4>Key points</h4>\n<ul><li>Do a full tree and site assessment; stop near power lines.</li>\n<li>Set a danger zone of at least two tree lengths and two escape routes.</li>\n<li>Notch, back cut and hinge control the direction of the fall.</li>\n<li>Wear full chainsaw PPE and never work alone.</li>\n<li>Check permits for protected trees before felling.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How large should the danger zone around a tree being felled be?",
+   "options": [
+    {
+     "text": "Half a tree length",
+     "correct": false
+    },
+    {
+     "text": "5 metres",
+     "correct": false
+    },
+    {
+     "text": "At least two tree lengths",
+     "correct": true
+    },
+    {
+     "text": "One metre",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the job of the hinge in a felling cut?",
+   "options": [
+    {
+     "text": "It steers the tree as it falls",
+     "correct": true
+    },
+    {
+     "text": "It holds the chainsaw",
+     "correct": false
+    },
+    {
+     "text": "It stops the tree from falling",
+     "correct": false
+    },
+    {
+     "text": "It marks the escape route",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should escape routes be planned?",
+   "options": [
+    {
+     "text": "Directly in the felling direction",
+     "correct": false
+    },
+    {
+     "text": "Straight under the crown",
+     "correct": false
+    },
+    {
+     "text": "There is no need for escape routes",
+     "correct": false
+    },
+    {
+     "text": "About 45 degrees backwards from the felling direction",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a tree is close to overhead power lines?",
+   "options": [
+    {
+     "text": "Fell it quickly before anyone notices",
+     "correct": false
+    },
+    {
+     "text": "Stop: only the utility or authorised contractors may work there",
+     "correct": true
+    },
+    {
+     "text": "Cut the lines first",
+     "correct": false
+    },
+    {
+     "text": "Climb the tree",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep is the directional notch usually cut?",
+   "options": [
+    {
+     "text": "Right through the tree",
+     "correct": false
+    },
+    {
+     "text": "Half the diameter",
+     "correct": false
+    },
+    {
+     "text": "About one-fifth to one-quarter of the diameter",
+     "correct": true
+    },
+    {
+     "text": "Only through the bark",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A chainsaw may be drop-started if you are in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Some indigenous trees are protected and may need a permit before felling.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items are chainsaw PPE? (select all that apply)",
+   "options": [
+    {
+     "text": "Chainsaw-protective trousers or chaps",
+     "correct": true
+    },
+    {
+     "text": "Hard hat with visor and ear muffs",
+     "correct": true
+    },
+    {
+     "text": "Chainsaw safety boots",
+     "correct": true
+    },
+    {
+     "text": "Sandals",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

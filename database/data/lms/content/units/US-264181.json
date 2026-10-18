@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264181",
+ "title": "Maintain turf cricket pitches and outfields",
+ "lessons": [
+  {
+   "title": "The pitch and the outfield",
+   "minutes": 15,
+   "html": "<h3>What a groundsman looks after</h3>\n<p>A cricket field has two very different areas. The <strong>square</strong> in the middle holds the pitches. The <strong>outfield</strong> is the large grassed area around it. In South Africa most fields use warm-season grasses such as kikuyu or couch (Cynodon) on the outfield, and couch on the square.</p>\n<h4>The pitch</h4>\n<ul><li>A pitch is 22 yards (about 20.12 m) between the stumps.</li>\n<li>It is made of clay loam that is rolled very hard so the ball bounces evenly.</li>\n<li>Grass on the pitch is cut very short for matches.</li>\n<li>The ends where bowlers land and batters stand get the most wear.</li></ul>\n<h4>The outfield</h4>\n<ul><li>Should be level, firm and smooth, with even grass, so the ball runs true.</li>\n<li>Must drain well so play can start soon after rain.</li>\n<li>No holes, stones, sprinkler heads sticking up or dangerous objects.</li></ul>\n<h4>Daily and weekly tasks</h4>\n<table><tr><th>Task</th><th>Pitch</th><th>Outfield</th></tr>\n<tr><td>Mowing</td><td>Cylinder mower, very low, often</td><td>Cylinder or rotary mower, higher cut</td></tr>\n<tr><td>Rolling</td><td>Heavy roller to prepare and harden</td><td>Light rolling only when needed</td></tr>\n<tr><td>Watering</td><td>Controlled; soak then dry out before a match</td><td>Regular, to keep grass green</td></tr>\n<tr><td>Marking</td><td>Creases painted before each match</td><td>Boundary rope or line</td></tr></table>\n<p>The head groundsman decides what is done. You follow the work plan and tell him or her about any problem you see, such as dry patches, pests or damage.</p>"
+  },
+  {
+   "title": "Preparing a pitch and renovating after the season",
+   "minutes": 20,
+   "html": "<h3>Match pitch preparation</h3>\n<p>Pitch preparation usually starts about 10 to 14 days before a match. The head groundsman sets the plan. A typical pattern is:</p>\n<ol><li><strong>Brush and cut</strong> the grass, reducing the height of cut step by step.</li>\n<li><strong>Water</strong> deeply so the clay is moist all the way down.</li>\n<li><strong>Roll</strong> when the surface is firm enough not to stick to the roller. Start with a light roller and move to the heavy roller. Roll in straight lines, end to end.</li>\n<li><strong>Dry out</strong> slowly. Cover with pitch covers if rain is coming.</li>\n<li><strong>Final cut and roll</strong> the day before and the morning of the match.</li>\n<li><strong>Mark</strong> the creases with a string line, frame and white line paint, to the exact measurements given.</li></ol>\n<h3>During a match</h3>\n<ul><li>Bring on covers quickly when it rains. Work as a team.</li>\n<li>Sweep and roll between innings only as the rules and the umpires allow.</li>\n<li>Repair bowlers' footholes after play with the right clay, packed in firmly.</li></ul>\n<h3>End of season renovation</h3>\n<ol><li>Scarify (rake out dead grass and thatch) hard.</li>\n<li>Spike or core the surface to let in air and water.</li>\n<li>Top-dress with the same clay loam, worked into the holes and levelled.</li>\n<li>Fertilise and water to get grass to grow back.</li>\n<li>Repair worn outfield areas with sods or seed.</li></ol>\n<h3>Safety</h3>\n<ul><li>Only drive a roller or mower you are trained on. Keep people away from moving rollers.</li>\n<li>Wear ear protection and safety boots.</li>\n<li>Never work on the square while play is on.</li>\n<li>Stop work when there is lightning. Open fields are dangerous in storms.</li></ul>\n<h4>Key points</h4>\n<ul><li>The square needs precise mowing, watering and rolling; the outfield needs to be level, firm and well drained.</li>\n<li>Roll only when the surface does not stick to the roller.</li>\n<li>Get covers on quickly when rain comes.</li>\n<li>Renovate at season end: scarify, spike, top-dress, feed and water.</li>\n<li>Use machines only when trained and stop work in lightning.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How long is a cricket pitch between the stumps?",
+   "options": [
+    {
+     "text": "18 yards",
+     "correct": false
+    },
+    {
+     "text": "22 yards (about 20.12 m)",
+     "correct": true
+    },
+    {
+     "text": "30 m",
+     "correct": false
+    },
+    {
+     "text": "10 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which mower is used to cut the pitch very low?",
+   "options": [
+    {
+     "text": "Cylinder mower",
+     "correct": true
+    },
+    {
+     "text": "Brushcutter",
+     "correct": false
+    },
+    {
+     "text": "Flail mower",
+     "correct": false
+    },
+    {
+     "text": "Hand sickle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the pitch be rolled?",
+   "options": [
+    {
+     "text": "When it is flooded",
+     "correct": false
+    },
+    {
+     "text": "Only after the match",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "When the surface is firm enough not to stick to the roller",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does scarifying do?",
+   "options": [
+    {
+     "text": "Paints the creases",
+     "correct": false
+    },
+    {
+     "text": "Adds water",
+     "correct": false
+    },
+    {
+     "text": "Rakes out dead grass and thatch",
+     "correct": true
+    },
+    {
+     "text": "Cuts the boundary rope",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the most important feature of a good outfield?",
+   "options": [
+    {
+     "text": "Long, uneven grass",
+     "correct": false
+    },
+    {
+     "text": "Level, firm and well drained",
+     "correct": true
+    },
+    {
+     "text": "Sprinkler heads sticking up",
+     "correct": false
+    },
+    {
+     "text": "Very wet and soft",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pitch covers should be brought on quickly when it starts to rain.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Groundstaff may work on the square while play is going on.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks are part of end-of-season renovation? (select all that apply)",
+   "options": [
+    {
+     "text": "Spiking or coring",
+     "correct": true
+    },
+    {
+     "text": "Top-dressing with clay loam",
+     "correct": true
+    },
+    {
+     "text": "Fertilising and watering",
+     "correct": true
+    },
+    {
+     "text": "Painting the stumps",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

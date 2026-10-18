@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-7630",
+ "title": "Interpreting financial reports in Retail/Wholesale practices",
+ "lessons": [
+  {
+   "title": "The main financial statements",
+   "minutes": 25,
+   "html": "<h3>Why sales staff need to read financial reports</h3><p>In an agri retail or wholesale business, supervisors and branch staff receive monthly reports on sales, margins, stock and expenses. Understanding them lets you see whether your branch or department is profitable, where money is lost, and what you can do about it.</p><h4>The income statement</h4><p>The income statement (statement of profit or loss) covers a period, such as a month or a year.</p><table><tr><th>Line</th><th>Example (R)</th></tr><tr><td>Sales (turnover), excluding VAT</td><td>2,000,000</td></tr><tr><td>Less: cost of sales</td><td>1,600,000</td></tr><tr><td>Gross profit</td><td>400,000</td></tr><tr><td>Less: operating expenses (salaries, rent, electricity, transport)</td><td>280,000</td></tr><tr><td>Operating profit</td><td>120,000</td></tr><tr><td>Less: interest and tax</td><td>45,000</td></tr><tr><td>Net profit</td><td>75,000</td></tr></table><p>Cost of sales = opening stock + purchases − closing stock. This is why an incorrect stock count directly distorts reported profit: overstating closing stock overstates profit.</p><h4>The statement of financial position (balance sheet)</h4><p>This shows what the business owns and owes at one date. Assets = Liabilities + Equity.</p><ul><li><strong>Current assets:</strong> stock, debtors (customer accounts), cash.</li><li><strong>Non-current assets:</strong> buildings, vehicles, forklifts, shelving.</li><li><strong>Current liabilities:</strong> creditors (suppliers), short-term loans, VAT payable.</li><li><strong>Equity:</strong> owners' or members' investment plus retained profits.</li></ul><h4>The cash flow statement</h4><p>Profit is not cash. A co-op can show a profit while running short of cash if farmers delay paying their accounts after a poor season or stock levels grow. The cash flow statement shows cash from operating, investing and financing activities.</p>"
+  },
+  {
+   "title": "Key ratios and what they mean",
+   "minutes": 25,
+   "html": "<h3>Retail performance measures</h3><h4>Gross profit percentage</h4><p>Gross profit / sales × 100. From the example: 400,000 / 2,000,000 = 20%. Compare against budget and prior periods, and by department. Fertiliser often carries thin margins; hardware and animal health may carry higher ones. A falling GP% may signal price errors, unrecorded discounts, theft, damage or a shift in sales mix.</p><h4>Mark-up versus margin</h4><p>Mark-up is calculated on cost; margin on selling price. A 25% mark-up gives a 20% margin. Confusing the two is a common pricing mistake.</p><h4>Net profit percentage</h4><p>Net profit / sales × 100 = 75,000 / 2,000,000 = 3.75%. This shows how much of each rand of sales remains after all costs.</p><h4>Expense ratios</h4><p>Each expense as a percentage of sales, for example salaries at 8% of sales. Rising ratios mean costs are growing faster than sales.</p><h4>Stock turnover</h4><p>Cost of sales / average stock. If average stock is R400,000, turnover = 1,600,000 / 400,000 = 4 times per year, about every 91 days. Higher turnover generally means less money tied up and less risk of expiry, but too-low stock risks empty shelves in planting season.</p><h4>Debtors' collection period</h4><p>Debtors / credit sales × 365. If debtors are R300,000 and annual credit sales R1,500,000, the period is 73 days. If terms are 30 days, customers are paying late, which strains cash. Seasonal patterns matter: many farmers settle accounts after harvest.</p><h4>Current ratio and acid test</h4><p>Current assets / current liabilities measures short-term solvency. The acid test excludes stock, since stock cannot always be converted to cash quickly.</p><h4>Using ratios wisely</h4><ul><li>Compare like with like: same period last year, budget, other branches.</li><li>Look for trends over several periods, not one figure.</li><li>Consider seasonality typical of agri trade.</li><li>Ask why: a ratio is a question, not an answer.</li></ul>"
+  },
+  {
+   "title": "Acting on financial information",
+   "minutes": 20,
+   "html": "<h3>From report to action</h3><p>A supervisor's job is to turn report findings into practical actions within their area.</p><h4>Example analysis</h4><p>Animal health department, three months:</p><table><tr><th>Month</th><th>Sales (R)</th><th>GP%</th><th>Stock (R)</th></tr><tr><td>March</td><td>180,000</td><td>28%</td><td>210,000</td></tr><tr><td>April</td><td>170,000</td><td>27%</td><td>240,000</td></tr><tr><td>May</td><td>150,000</td><td>22%</td><td>260,000</td></tr></table><p>Observations: sales are falling (seasonal, as tick and fly pressure drops in autumn), but stock is rising and GP% has dropped sharply. Possible causes: over-ordering summer products, markdowns of short-dated stock, price-file errors after a supplier increase, or theft of high-value remedies.</p><p>Actions: reduce orders of summer-season items, run a controlled promotion on short-dated stock before expiry, audit shelf versus system prices, tighten security on high-value lines, and report findings to the branch manager.</p><h4>Budgets and variances</h4><p>A budget is a financial plan. A variance is the difference between actual and budget. Favourable variances (higher sales, lower costs) and unfavourable ones should both be explained.</p><h4>Integrity of reports</h4><p>Reports are only as good as the data. Accurate receiving, pricing, till procedures and stock counts at store level directly determine whether management sees the true picture. Never manipulate figures; misrepresenting financial information can amount to fraud.</p><h4>Confidentiality</h4><p>Financial reports are confidential business information. Do not share them outside the business without authority.</p><h4>Key points</h4><ul><li>The income statement shows performance over a period; the balance sheet shows position at a date.</li><li>Profit is not the same as cash.</li><li>Key ratios: GP%, net profit %, stock turnover, debtors' days, current ratio.</li><li>Interpret ratios in context: trend, budget, season.</li><li>Accurate store-level data is essential for reliable reports.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Sales are R2,000,000 and cost of sales R1,600,000. What is the gross profit percentage?",
+   "options": [
+    {
+     "text": "20%",
+     "correct": true
+    },
+    {
+     "text": "16%",
+     "correct": false
+    },
+    {
+     "text": "80%",
+     "correct": false
+    },
+    {
+     "text": "25%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does overstating closing stock do to reported profit?",
+   "options": [
+    {
+     "text": "Overstates it",
+     "correct": true
+    },
+    {
+     "text": "Has no effect",
+     "correct": false
+    },
+    {
+     "text": "Reduces it",
+     "correct": false
+    },
+    {
+     "text": "Doubles cash",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Cost of sales is R1,600,000 and average stock R400,000. What is stock turnover?",
+   "options": [
+    {
+     "text": "0.25 times",
+     "correct": false
+    },
+    {
+     "text": "2 times",
+     "correct": false
+    },
+    {
+     "text": "6 times",
+     "correct": false
+    },
+    {
+     "text": "4 times",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Debtors' collection period is 73 days and terms are 30 days. What does this suggest?",
+   "options": [
+    {
+     "text": "GP% is too high",
+     "correct": false
+    },
+    {
+     "text": "Stock is too low",
+     "correct": false
+    },
+    {
+     "text": "Customers are paying late",
+     "correct": true
+    },
+    {
+     "text": "Customers pay early",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which statement shows assets, liabilities and equity at a date?",
+   "options": [
+    {
+     "text": "Cash flow statement",
+     "correct": false
+    },
+    {
+     "text": "Statement of financial position",
+     "correct": true
+    },
+    {
+     "text": "Till report",
+     "correct": false
+    },
+    {
+     "text": "Income statement",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A business can show a profit while running short of cash.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A 25% mark-up and a 25% margin are the same thing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which could cause a falling gross profit percentage? (select all that apply)",
+   "options": [
+    {
+     "text": "Price-file errors",
+     "correct": true
+    },
+    {
+     "text": "Theft",
+     "correct": true
+    },
+    {
+     "text": "Markdowns of short-dated stock",
+     "correct": true
+    },
+    {
+     "text": "Accurate stock counts",
+     "correct": false
+    },
+    {
+     "text": "Correct pricing on every item",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

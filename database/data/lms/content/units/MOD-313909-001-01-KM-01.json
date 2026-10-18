@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909-001-01-KM-01",
+ "title": "Introduction to the Feed Milling Work Environment",
+ "lessons": [
+  {
+   "title": "The feed mill and the process flow",
+   "minutes": 20,
+   "html": "<h3>The feed mill and the process flow</h3><p>A feed mill turns raw materials into balanced feed for poultry, pigs, dairy and beef cattle, sheep, horses and pets. In South Africa, feed is a key link in the livestock value chain: most of a broiler or layer farm's costs are feed, and the main ingredients, maize and soya, come from local crop farmers or imports.</p><h4>The basic process</h4><ol><li><strong>Intake</strong>: trucks are weighed on the weighbridge, sampled and off-loaded into intake pits.</li><li><strong>Storage</strong>: grain goes to silos; meals, minerals and premixes go to bins or the bagged store.</li><li><strong>Grinding</strong>: hammer mills or roller mills reduce particle size.</li><li><strong>Batching and mixing</strong>: ingredients are weighed according to the formulation and mixed in a batch mixer.</li><li><strong>Processing</strong>: mash may be conditioned with steam and pelleted, then cooled, crumbled or extruded.</li><li><strong>Finished product</strong>: feed goes to bulk bins for trucks or is bagged and palletised.</li><li><strong>Dispatch</strong>: loaded, weighed out and delivered.</li></ol><h4>Departments and roles</h4><table><tr><th>Area</th><th>Typical roles</th></tr><tr><td>Intake and stores</td><td>Intake operator, sampler, forklift driver</td></tr><tr><td>Production</td><td>Mixer operator, pellet operator, control room operator</td></tr><tr><td>Quality</td><td>Laboratory technician, quality controller</td></tr><tr><td>Maintenance</td><td>Millwright, electrician</td></tr><tr><td>Dispatch</td><td>Bagging team, loader, clerk</td></tr><tr><td>Management</td><td>Shift supervisor, production manager, mill manager</td></tr></table><p>Every role affects feed quality and animal health. A mistake at intake, such as accepting mouldy maize, or at batching, such as a wrong premix, can harm thousands of animals on customer farms.</p><p>Understanding the whole flow helps you see how your own task affects the next step. For example, a choked intake elevator delays reclaim, which can leave production bins empty and stop the mixer.</p>"
+  },
+  {
+   "title": "Rules, safety and quality culture in the mill",
+   "minutes": 20,
+   "html": "<h3>Rules, safety and quality culture in the mill</h3><h4>Legal framework</h4><ul><li>The Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947 requires farm feeds to be registered and correctly labelled.</li><li>The Occupational Health and Safety Act 85 of 1993 places duties on the employer to provide a safe workplace, and on employees to work safely, use PPE and report hazards.</li><li>Many mills also follow food and feed safety systems such as HACCP and ISO-based standards. Your mill's procedures put these into practice.</li></ul><h4>Main hazards</h4><ul><li><strong>Dust explosions and fire</strong>: fine organic dust in the air plus a spark can explode. Good housekeeping, dust extraction and hot-work permits control this.</li><li><strong>Moving machinery</strong>: conveyors, mills and mixers can trap and amputate. Use lockout.</li><li><strong>Confined spaces</strong>: silos, bins and pits can engulf a person in flowing grain or contain low oxygen. Entry only with a permit.</li><li><strong>Noise</strong>: hammer mills and fans are loud; wear hearing protection in marked zones.</li><li><strong>Steam and heat</strong> in the pellet area.</li><li><strong>Forklifts and trucks</strong> in the yard.</li><li><strong>Manual handling</strong> of bags.</li></ul><h4>Expected behaviour</h4><ul><li>Wear PPE as signed: safety boots, hearing protection, dust mask, high-visibility vest.</li><li>Follow standard operating procedures (SOPs). If you do not understand an SOP, ask.</li><li>Keep the work area clean. Spillage attracts rodents and adds dust load.</li><li>Record what you do: batch sheets, checklists, cleaning records.</li><li>Report near misses as well as accidents.</li></ul><h4>Hygiene and contamination control</h4><p>Feed must be free of foreign objects, pests and harmful residues. No glass, food or drinks in production areas. Medicated feeds must be produced in the correct sequence with flushing to prevent carry-over into other feeds.</p><h4>Key points</h4><ul><li>The mill flow is intake, storage, grinding, mixing, processing, packing and dispatch.</li><li>Every role affects animal health on customer farms.</li><li>Act 36 of 1947 governs feed registration; the OHS Act 85 of 1993 governs safety.</li><li>Dust explosions, machinery, confined spaces and noise are key hazards.</li><li>Follow SOPs, wear PPE and keep records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What happens at the intake stage of a feed mill?",
+   "options": [
+    {
+     "text": "Trucks are weighed, sampled and off-loaded",
+     "correct": true
+    },
+    {
+     "text": "Feed is pelleted",
+     "correct": false
+    },
+    {
+     "text": "Finished feed is bagged",
+     "correct": false
+    },
+    {
+     "text": "Formulations are written",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act requires farm feeds to be registered and correctly labelled?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": true
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main control against dust explosions?",
+   "options": [
+    {
+     "text": "Running mills faster",
+     "correct": false
+    },
+    {
+     "text": "Housekeeping, dust extraction and hot-work permits",
+     "correct": true
+    },
+    {
+     "text": "Opening all doors",
+     "correct": false
+    },
+    {
+     "text": "Using more steam",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must medicated feeds be produced in the correct sequence with flushing?",
+   "options": [
+    {
+     "text": "To speed up production",
+     "correct": false
+    },
+    {
+     "text": "To save steam",
+     "correct": false
+    },
+    {
+     "text": "To make pellets harder",
+     "correct": false
+    },
+    {
+     "text": "To prevent carry-over into other feeds",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which role works mainly in the laboratory?",
+   "options": [
+    {
+     "text": "Laboratory technician",
+     "correct": true
+    },
+    {
+     "text": "Forklift driver",
+     "correct": false
+    },
+    {
+     "text": "Millwright",
+     "correct": false
+    },
+    {
+     "text": "Loader",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Silos and bins may be entered without a permit if the person is quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Near misses should be reported as well as accidents.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are major hazards in a feed mill? (select all that apply)",
+   "options": [
+    {
+     "text": "Dust explosions",
+     "correct": true
+    },
+    {
+     "text": "Moving machinery",
+     "correct": true
+    },
+    {
+     "text": "Confined spaces",
+     "correct": true
+    },
+    {
+     "text": "Shortage of paperwork",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

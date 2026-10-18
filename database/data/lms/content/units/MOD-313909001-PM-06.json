@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-06",
+ "title": "Monitor and control feed milling operations",
+ "lessons": [
+  {
+   "title": "Monitoring the process across the mill",
+   "minutes": 18,
+   "html": "<h3>Control means knowing, deciding and acting</h3>\n<p>Monitoring and controlling feed milling operations means continuously knowing the state of the whole mill, comparing it with the plan and standards, and acting quickly when something goes off track. At NQF level 5 the controller or senior supervisor is responsible for the full line from intake to dispatch during the shift.</p>\n<h4>What to monitor</h4>\n<table>\n<tr><th>Area</th><th>Indicators</th></tr>\n<tr><td>Intake and stock</td><td>Trucks waiting, quality results, silo levels, days of cover</td></tr>\n<tr><td>Grinding</td><td>Motor load, tonnes per hour, particle size, kWh per tonne</td></tr>\n<tr><td>Batching and mixing</td><td>Batch accuracy, cycle time, medication records, sequence adherence</td></tr>\n<tr><td>Conditioning and pelleting</td><td>Temperature at the critical control point, press amps, PDI, fines</td></tr>\n<tr><td>Cooling and finished bins</td><td>Pellet temperature and moisture, bin identity</td></tr>\n<tr><td>Packing and dispatch</td><td>Bags per hour, mass checks, orders loaded on time</td></tr>\n<tr><td>Safety and environment</td><td>Incidents, permits open, dust and spillage, emissions</td></tr>\n</table>\n<h4>Tools</h4>\n<ul>\n<li>SCADA screens, trends and alarm logs.</li>\n<li>Hourly or two-hourly production and quality check sheets.</li>\n<li>Laboratory results for in-process and finished product samples.</li>\n<li>Regular floor walks to see, hear and smell what the screen does not show: a vibrating bearing, dust leaks, a blocked chute, unsafe behaviour.</li>\n</ul>\n<h4>Comparing with the plan</h4>\n<p>Track cumulative tonnes against the hourly plan for each line. If by 10:00 the press is 15 tonnes behind, ask why now: low steam pressure, a choke, waiting for mash? Early detection allows recovery within the shift, while late detection usually means a missed delivery.</p>\n<p>Use control charts for key variables. A steady trend towards a limit, such as rising fines over four hours, is a signal to act before the limit is breached.</p>"
+  },
+  {
+   "title": "Taking corrective action and reporting",
+   "minutes": 18,
+   "html": "<h3>Deciding what to do</h3>\n<p>When a deviation is found, follow a structured response:</p>\n<ol>\n<li><strong>Protect people</strong> – if there is any safety risk, stop and make safe first.</li>\n<li><strong>Protect product</strong> – hold or divert product that may be out of specification; do not let it reach customers.</li>\n<li><strong>Contain</strong> – limit the effect, for example switch to another press or re-sequence the plan.</li>\n<li><strong>Find the cause</strong> – use data and ask the operators; use the 5 whys.</li>\n<li><strong>Correct</strong> – fix the cause within your authority, call maintenance or quality, or escalate.</li>\n<li><strong>Record</strong> – log the deviation, cause, actions and product affected.</li>\n</ol>\n<h4>Examples</h4>\n<ul>\n<li><em>Conditioning temperature falls below the critical limit</em> – confirm automatic diversion, hold product made during the deviation, check steam supply and boiler, inform quality.</li>\n<li><em>Wrong recipe selected</em> – stop batching, identify affected batches by batch records, hold them, inform quality and the production manager, and review how the error happened.</li>\n<li><em>Repeated chokes at an elevator</em> – check for overfeeding, worn buckets or belt slip, and request maintenance; adjust feed rates meanwhile.</li>\n</ul>\n<h4>Authority and escalation</h4>\n<p>Know which decisions you can make (re-sequencing, rate adjustments, calling maintenance) and which need the production manager, quality manager or nutritionist (releasing held product, changing formulas, changing critical limits). Never release product that quality has placed on hold.</p>\n<h3>Shift reporting and handover</h3>\n<p>At the end of the shift, report tonnes produced versus plan, downtime with reasons, quality deviations and held product, safety incidents and near misses, stock issues and open maintenance jobs. Hand over in person where possible and in writing always. A good handover lets the next shift continue without surprises.</p>\n<h3>Continuous improvement</h3>\n<p>Review deviations weekly to find repeat problems and fix root causes, update work instructions and train operators on changes.</p>\n<h4>Key points</h4>\n<ul>\n<li>Monitor every section from intake to dispatch with SCADA, check sheets, lab results and floor walks.</li>\n<li>Compare progress with the hourly plan and act on trends early.</li>\n<li>Respond in order: people, product, contain, cause, correct, record.</li>\n<li>Know your authority; never release product held by quality.</li>\n<li>Report and hand over clearly, and review deviations to prevent repeats.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should be the first step when a deviation is found?",
+   "options": [
+    {
+     "text": "Record it at the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Protect people: stop and make safe if there is a safety risk",
+     "correct": true
+    },
+    {
+     "text": "Find someone to blame",
+     "correct": false
+    },
+    {
+     "text": "Increase the feed rate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "By 10:00 the press is 15 tonnes behind plan. What is the best response?",
+   "options": [
+    {
+     "text": "Change the plan figures",
+     "correct": false
+    },
+    {
+     "text": "Stop the mill",
+     "correct": false
+    },
+    {
+     "text": "Ask why now and act to recover within the shift",
+     "correct": true
+    },
+    {
+     "text": "Wait until the end of the shift",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A wrong recipe was selected. What should be done with affected batches?",
+   "options": [
+    {
+     "text": "Mix them into the next product",
+     "correct": false
+    },
+    {
+     "text": "Throw them away without records",
+     "correct": false
+    },
+    {
+     "text": "Send them to customers anyway",
+     "correct": false
+    },
+    {
+     "text": "Identify them from batch records and hold them",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may release product placed on hold by quality?",
+   "options": [
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The customer",
+     "correct": false
+    },
+    {
+     "text": "Any operator",
+     "correct": false
+    },
+    {
+     "text": "Only the authorised quality person or process, not the shift controller on their own",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are floor walks needed when SCADA is available?",
+   "options": [
+    {
+     "text": "To check emails",
+     "correct": false
+    },
+    {
+     "text": "To count workers only",
+     "correct": false
+    },
+    {
+     "text": "They are not needed",
+     "correct": false
+    },
+    {
+     "text": "To notice things the screen does not show, like vibration, dust leaks and unsafe behaviour",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A steady trend towards a control limit is a signal to act before the limit is breached.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Handover only needs to be given verbally.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be included in an end-of-shift report? (select all that apply)",
+   "options": [
+    {
+     "text": "Held product and quality deviations",
+     "correct": true
+    },
+    {
+     "text": "The controller’s weekend plans",
+     "correct": false
+    },
+    {
+     "text": "Downtime with reasons",
+     "correct": true
+    },
+    {
+     "text": "Tonnes produced versus plan",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

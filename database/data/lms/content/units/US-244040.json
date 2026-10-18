@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244040",
+ "title": "Repair racing tack",
+ "lessons": [
+  {
+   "title": "Inspecting racing tack for damage",
+   "minutes": 15,
+   "html": "<h3>Why tack repair matters</h3> <p>Racing tack works hard. It gets wet with sweat, dirty with sand, and pulled hard at speed. Leather dries and cracks, stitching wears, and buckles bend. A rein or girth that breaks at full gallop can cause a fall that injures or kills a horse and jockey. Regular inspection and correct repair are essential safety work.</p> <h4>When to inspect</h4> <ul> <li>Every time you clean the tack, which should be after every use</li> <li>Before every race and every piece of fast work</li> <li>A full, detailed check once a week</li> </ul> <h4>What to look for</h4> <table><tr><th>Part</th><th>Damage signs</th></tr> <tr><td>Leather</td><td>Cracks when bent, dry and stiff, thin or stretched spots, torn holes</td></tr> <tr><td>Stitching</td><td>Loose, rotten, broken or missing stitches, especially at buckles and the bit ends of reins</td></tr> <tr><td>Buckles and fittings</td><td>Bent tongues, rust, sharp edges, cracks</td></tr> <tr><td>Girths and elastics</td><td>Elastic that does not spring back, frayed webbing</td></tr> <tr><td>Rubber grips on reins</td><td>Worn smooth, peeling, splitting</td></tr> <tr><td>Saddle</td><td>Broken tree (the saddle twists or creaks), worn panels, loose stirrup bars</td></tr></table> <h4>How to check leather</h4> <p>Bend each strap gently in a curve. Good leather bends smoothly. Damaged leather shows small cracks on the surface. Pay extra attention to places where leather folds around a buckle or bit, because they wear fastest.</p> <h4>Decide: repair or replace?</h4> <ul> <li><strong>Minor:</strong> a few loose stitches, a stiff strap that needs oiling, a missing keeper - can often be fixed in the yard.</li> <li><strong>Major:</strong> cracked leather on a load-bearing strap, a broken saddle tree, torn girth straps - take out of use, label it, report to the head groom. It may need a saddler or replacement.</li> </ul> <p>When in doubt, take it out of use. Put a tag on damaged items: \"Do not use - needs repair\". Write it in the tack repair book.</p>"
+  },
+  {
+   "title": "Doing basic tack repairs",
+   "minutes": 15,
+   "html": "<h3>Tools and materials</h3> <ul> <li>Waxed linen thread and two harness needles</li> <li>Stitching awl or diamond awl for making holes</li> <li>Leather hole punch</li> <li>Sharp leather knife or scissors (cut away from your body)</li> <li>Saddle soap, leather oil or conditioner</li> <li>Spare buckles, keepers and rubber rein grips</li> <li>A stitching clam or clamp to hold the work</li> </ul> <h4>Safety with tools</h4> <p>Awls, needles and knives are sharp. Work at a table with good light. Keep your hand behind the point. Store sharp tools in a box after use. Wear safety glasses when punching hard leather.</p> <h4>Re-stitching a seam (saddle stitch)</h4> <ol> <li>Clean the leather and remove the old broken thread.</li> <li>Hold the work in a clamp.</li> <li>Use the old holes where possible. If needed, make new holes with the awl, evenly spaced.</li> <li>Thread a needle on each end of one long piece of waxed thread.</li> <li>Push one needle through the first hole and pull until the thread is even on both sides.</li> <li>Pass both needles through each hole from opposite sides, crossing in the hole. Pull each stitch tight and even.</li> <li>Go a few stitches past the damaged area into sound stitching.</li> <li>Back-stitch two holes to lock, then cut the thread close.</li> </ol> <p>Saddle stitching with two needles is stronger than machine stitching, because if one thread breaks the other still holds.</p> <h4>Other basic repairs</h4> <ul> <li><strong>Punching a new hole:</strong> mark the spot in line with the others, punch cleanly with the right size punch.</li> <li><strong>Replacing a keeper:</strong> cut leather to size, stitch the ends, slide on.</li> <li><strong>Replacing rubber grips</strong> on reins: follow the head groom's method; usually the grip is slid on and stitched at the ends.</li> <li><strong>Reconditioning dry leather:</strong> clean, then oil lightly on the flesh (rough) side, let it soak in.</li> </ul> <h4>What you must not repair</h4> <p>Do not try to repair a broken saddle tree, girth straps on the saddle, or a stirrup bar. These need a qualified saddler.</p> <h4>After repair</h4> <p>Pull hard on the repaired part to test it. Show the head groom before the item goes back into use. Record the repair in the tack book.</p> <h4>Key points</h4> <ul> <li>Inspect tack after every use and before every race.</li> <li>Bend leather to find cracks; check stitching at buckles and bit ends.</li> <li>Tag damaged tack \"Do not use\" and record it.</li> <li>Saddle stitch with two needles for strength.</li> <li>Saddle trees, girth straps and stirrup bars go to a qualified saddler.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How do you check leather for cracks?",
+   "options": [
+    {
+     "text": "Smell it",
+     "correct": false
+    },
+    {
+     "text": "Bend it gently in a curve",
+     "correct": true
+    },
+    {
+     "text": "Put it in water",
+     "correct": false
+    },
+    {
+     "text": "Pull it with a bakkie",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where does tack usually wear fastest?",
+   "options": [
+    {
+     "text": "The middle of the reins",
+     "correct": false
+    },
+    {
+     "text": "Where leather folds around a buckle or bit",
+     "correct": true
+    },
+    {
+     "text": "The saddle cloth",
+     "correct": false
+    },
+    {
+     "text": "The browband decoration",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is saddle stitching with two needles strong?",
+   "options": [
+    {
+     "text": "It uses less thread",
+     "correct": false
+    },
+    {
+     "text": "If one thread breaks the other still holds",
+     "correct": true
+    },
+    {
+     "text": "It is faster than a machine",
+     "correct": false
+    },
+    {
+     "text": "It does not need holes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You find a broken saddle tree. What should you do?",
+   "options": [
+    {
+     "text": "Glue it",
+     "correct": false
+    },
+    {
+     "text": "Take it out of use and send it to a qualified saddler",
+     "correct": true
+    },
+    {
+     "text": "Use it for one more race",
+     "correct": false
+    },
+    {
+     "text": "Stitch it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with damaged tack you cannot fix right now?",
+   "options": [
+    {
+     "text": "Hang it back with the good tack",
+     "correct": false
+    },
+    {
+     "text": "Tag it 'Do not use', record it and report it",
+     "correct": true
+    },
+    {
+     "text": "Throw it in the bin",
+     "correct": false
+    },
+    {
+     "text": "Give it to a jockey",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Tack should be inspected every time it is cleaned.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When cutting leather you should cut towards your body for control.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs that tack is damaged? (select all that apply)",
+   "options": [
+    {
+     "text": "Cracks when leather is bent",
+     "correct": true
+    },
+    {
+     "text": "Loose or broken stitches",
+     "correct": true
+    },
+    {
+     "text": "Elastic that does not spring back",
+     "correct": true
+    },
+    {
+     "text": "Clean, soft leather",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

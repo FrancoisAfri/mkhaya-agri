@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335957",
+ "title": "Install and maintain irrigation filtration systems",
+ "lessons": [
+  {
+   "title": "Filtration requirements for irrigation",
+   "minutes": 20,
+   "html": "<h3>Why filtration matters</h3><p>Drippers, micro-sprayers and small sprinkler nozzles have tiny passages. Sand, silt, algae, organic debris, insect larvae and chemical precipitates block them, causing dry spots, uneven growth and expensive replacement. Filtration removes these particles before they enter the system. The finer the emitter passages, the finer the filtration needed.</p><h4>Matching filter to water source</h4><table><tr><th>Water source</th><th>Typical contaminants</th><th>Suitable filtration</th></tr><tr><td>Municipal water</td><td>Low load; occasional pipe scale or sand after repairs</td><td>Screen or disc filter</td></tr><tr><td>Borehole</td><td>Sand, iron and manganese precipitates</td><td>Sand separator (hydrocyclone) followed by screen or disc</td></tr><tr><td>Dam, river, canal</td><td>Algae, organic matter, silt, larvae</td><td>Sand (media) filters followed by disc or screen</td></tr><tr><td>Recycled or effluent water</td><td>High organic load</td><td>Media filters, often with chemical treatment</td></tr></table><h4>Filter types</h4><ul><li><strong>Screen filters:</strong> a stainless steel or plastic mesh. Good for hard particles like sand; clog quickly with algae.</li><li><strong>Disc filters:</strong> stacks of grooved plastic discs; trap particles in depth, good for organic matter and easy to backflush.</li><li><strong>Sand (media) filters:</strong> tanks filled with graded silica sand or crushed media; best for heavy organic loads such as dam water.</li><li><strong>Hydrocyclones (sand separators):</strong> spin water to throw heavy sand out; no use for light organic matter.</li></ul><h4>Filtration grade</h4><p>Filtration grade is expressed in <strong>micron</strong> or <strong>mesh</strong>. The emitter manufacturer states the required filtration for its product; follow it. A finer filter than necessary causes higher pressure loss and more frequent cleaning.</p><h4>Pressure loss</h4><p>A clean filter causes a small pressure loss. As it clogs, the loss increases. Pressure gauges before and after the filter show the <strong>differential pressure</strong>; when it reaches the value set by the manufacturer, the filter must be cleaned or backflushed. Size filters for the system flow so the clean pressure loss stays low.</p>"
+  },
+  {
+   "title": "Installing self-flushing screen and disc filter banks",
+   "minutes": 20,
+   "html": "<h3>Planning the installation</h3><p>Self-flushing filter banks use several filter units connected by an inlet manifold and an outlet manifold. When one unit is flushed, the others keep filtering, so irrigation continues.</p><ol><li>Check the design: number and size of filters, manifold diameters, flow rate, and the position on the delivery pipeline (after the pump and fertiliser injection point, before the mainline).</li><li>Prepare a level concrete plinth or firm base with enough space around it for servicing, and a drain route for flush water away from the pump house and electrical equipment.</li><li>Check that the system pressure is enough for flushing; most automatic filters need a minimum pressure to flush effectively. If not, a pressure-sustaining valve downstream may be required.</li></ol><h4>Assembling the manifolds</h4><ul><li>Lay out the inlet and outlet manifolds (PVC, HDPE or steel, as specified) with flanged or grooved couplings to each filter.</li><li>Fit the flush valve of each unit to a common flush manifold discharging to the drain.</li><li>Install isolating valves at the inlet and outlet of the bank so it can be bypassed or serviced.</li><li>Install pressure gauges or pressure tapping points before and after the bank for differential pressure readings.</li><li>Fit an air release valve on the high point of the outlet manifold.</li><li>Support manifolds so the weight of pipe and water does not hang on the filter bodies.</li></ul><h4>Commissioning</h4><ol><li>Flush the pipeline before connecting so construction debris does not reach the filters.</li><li>Pressurise slowly, with air release open, and check all joints for leaks.</li><li>Record clean differential pressure at design flow.</li><li>Run a manual flush on each unit and check that flush water discharges and the unit returns to filtering.</li></ol><h4>Safety</h4><p>Never open a filter housing or clamp under pressure; isolate and release pressure first. Lift heavy filter bodies with two people or a hoist. Electrical connections to the control unit are for qualified electricians.</p>"
+  },
+  {
+   "title": "Sand filter systems, automatic controls and maintenance",
+   "minutes": 20,
+   "html": "<h3>Assembling a self-flushing sand filter system</h3><ol><li>Place the tanks on a level plinth in a row, with the spacing that the manifolds require.</li><li>Check internal parts: underdrain laterals or nozzles must be undamaged, as broken parts let sand into the irrigation system.</li><li>Fill the tanks with the specified grade and depth of filter media, adding water first to cushion the underdrain. Leave the freeboard (space above the sand) the manufacturer specifies so media can expand during backwash without being washed out.</li><li>Connect the inlet manifold to the tops and the outlet manifold to the bottoms through three-way backwash valves.</li><li>Connect the backwash outlets to a common drain manifold with a backwash flow control valve to stop media loss.</li><li>Install a secondary screen or disc filter downstream of the sand filters to catch any media that escapes.</li></ol><h4>Automatic backwash controls</h4><p>A backwash controller opens each tank's valve in turn, so clean water from the other tanks flows backwards through it, lifting the sand and flushing dirt to drain.</p><ul><li><strong>Triggers:</strong> a differential pressure switch (backwash when dirty), a timer (backwash at intervals), or both.</li><li><strong>Settings:</strong> differential pressure set-point, time interval, flush duration per tank, and the dwell time between tanks, all from the manufacturer's guidance and adjusted for water quality.</li><li>Hydraulic command tubes from the controller to valves must be correctly connected and kept free of kinks.</li></ul><h4>Service and maintenance</h4><table><tr><th>Task</th><th>Why</th></tr><tr><td>Record differential pressure daily or weekly</td><td>Shows filter condition and controller performance</td></tr><tr><td>Check backwash water runs clear by the end of the cycle</td><td>Confirms flush duration is enough</td></tr><tr><td>Inspect sand for clumping, channels, and loss of depth</td><td>Clumped media lets dirty water through</td></tr><tr><td>Top up or replace media as per manufacturer</td><td>Media wears and becomes rounded</td></tr><tr><td>Clean screens and discs manually when needed</td><td>Remove stubborn algae or scale</td></tr><tr><td>Check seals, valves, gauges and controller batteries</td><td>Prevent leaks and missed cycles</td></tr></table><p>Chemical cleaning of media (chlorine for organic matter, acid for scale) is done only under supervision, following the product label and with full PPE.</p><h4>Key points</h4><ul><li>Choose filtration to suit the water source and the emitter's requirements.</li><li>Install isolating valves, gauges and air release on filter banks.</li><li>Leave freeboard in sand filters and fit a secondary filter downstream.</li><li>Set backwash on differential pressure and time, and check flush water runs clear.</li><li>Never open filters under pressure.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which filter type is best for heavy organic loads such as dam water?",
+   "options": [
+    {
+     "text": "Screen filter",
+     "correct": false
+    },
+    {
+     "text": "Hydrocyclone",
+     "correct": false
+    },
+    {
+     "text": "Sand (media) filter",
+     "correct": true
+    },
+    {
+     "text": "No filter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a hydrocyclone remove?",
+   "options": [
+    {
+     "text": "Heavy particles such as sand",
+     "correct": true
+    },
+    {
+     "text": "Algae",
+     "correct": false
+    },
+    {
+     "text": "Dissolved salts",
+     "correct": false
+    },
+    {
+     "text": "Light organic matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a filter be cleaned or backflushed?",
+   "options": [
+    {
+     "text": "Only once a year",
+     "correct": false
+    },
+    {
+     "text": "When the pump stops",
+     "correct": false
+    },
+    {
+     "text": "When the drippers are replaced",
+     "correct": false
+    },
+    {
+     "text": "When the differential pressure reaches the manufacturer's set value",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is freeboard left above the sand in a sand filter?",
+   "options": [
+    {
+     "text": "To store extra water",
+     "correct": false
+    },
+    {
+     "text": "So media can expand during backwash without being washed out",
+     "correct": true
+    },
+    {
+     "text": "To save sand",
+     "correct": false
+    },
+    {
+     "text": "To reduce pressure",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a secondary screen or disc filter fitted after sand filters?",
+   "options": [
+    {
+     "text": "To increase pressure",
+     "correct": false
+    },
+    {
+     "text": "To add fertiliser",
+     "correct": false
+    },
+    {
+     "text": "To catch media that escapes from the sand filters",
+     "correct": true
+    },
+    {
+     "text": "To replace the sand filters",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A filter housing should never be opened while under pressure.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A finer filter than the emitter requires always improves the system with no drawbacks.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can trigger an automatic backwash? (select all that apply)",
+   "options": [
+    {
+     "text": "Differential pressure switch",
+     "correct": true
+    },
+    {
+     "text": "Timer",
+     "correct": true
+    },
+    {
+     "text": "Wind sensor",
+     "correct": false
+    },
+    {
+     "text": "Colour of the water in the dam",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

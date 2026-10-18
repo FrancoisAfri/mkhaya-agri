@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119470",
+ "title": "Evaluate literary texts",
+ "lessons": [
+  {
+   "title": "Criteria for evaluating literary texts",
+   "minutes": 16,
+   "html": "<h3>From understanding to evaluating</h3>\n<p>To evaluate a literary text is to judge its quality and value using clear criteria, and to support that judgement with evidence. At NQF 4 you are expected to evaluate novels, short stories, poems, plays and films, including South African works and works about the land, animals and rural life.</p>\n<h4>Criteria you can use</h4>\n<ul><li><strong>Craft</strong>: how skilfully the writer uses language, structure, imagery and dialogue.</li>\n<li><strong>Characterisation</strong>: are characters complex and believable, or flat stereotypes?</li>\n<li><strong>Structure</strong>: does the plot build tension and resolve it in a satisfying way? Do flashbacks or multiple narrators add meaning?</li>\n<li><strong>Theme and insight</strong>: does the text say something meaningful about human life, society or nature?</li>\n<li><strong>Originality</strong>: does it offer a fresh view, or repeat familiar ideas?</li>\n<li><strong>Effect on the reader</strong>: does it move, challenge or entertain?</li>\n<li><strong>Context and values</strong>: how does it treat issues such as race, gender, power and the environment?</li></ul>\n<h4>Literary devices to recognise</h4>\n<table><tr><th>Device</th><th>Effect</th></tr>\n<tr><td>Symbolism</td><td>An object stands for an idea, e.g. a fence representing division</td></tr>\n<tr><td>Irony</td><td>The opposite of what is expected, e.g. a game ranger who is the poacher</td></tr>\n<tr><td>Foreshadowing</td><td>Hints of what will happen, building suspense</td></tr>\n<tr><td>Personification</td><td>Giving human qualities to non-human things, e.g. \"the veld waited for rain\"</td></tr>\n<tr><td>Juxtaposition</td><td>Placing contrasts side by side, e.g. a luxury lodge beside a poor village</td></tr></table>\n<p>Evaluating means asking not only \"what device is used?\" but \"how well does it work, and why?\"</p>"
+  },
+  {
+   "title": "Writing and discussing an evaluation",
+   "minutes": 15,
+   "html": "<h3>Building an evaluation</h3>\n<p>A written evaluation, such as a review or critical essay, usually follows this structure:</p>\n<ol><li><strong>Introduction</strong>: title, author, genre and a clear statement of your overall judgement (thesis).</li>\n<li><strong>Body paragraphs</strong>: each deals with one criterion, e.g. characterisation, then language, then theme. Each uses point, evidence and explanation.</li>\n<li><strong>Counter-view</strong>: acknowledge a weakness or another reader's view and respond to it.</li>\n<li><strong>Conclusion</strong>: restate your judgement and say who would benefit from reading the text.</li></ol>\n<h4>Example thesis</h4>\n<p>\"Although the novel's descriptions of the Lowveld are vivid and its suspense is well built, its portrayal of farm workers as background figures without inner lives weakens its claim to be a true picture of rural South Africa.\"</p>\n<p>This thesis is balanced, specific and arguable. It names strengths and a weakness.</p>\n<h4>Using evidence well</h4>\n<ul><li>Quote briefly and accurately, then explain.</li>\n<li>Refer to specific scenes or lines.</li>\n<li>Avoid simply retelling the plot; analysis is more important than summary.</li></ul>\n<h4>Comparing texts</h4>\n<p>Comparison sharpens evaluation. You could compare two poems about drought, or a book and its film adaptation: what was changed, and was it effective?</p>\n<h4>Discussing evaluations</h4>\n<p>In a book club or class discussion, present your view, listen to others, ask for their evidence and be open to changing your view. Separate personal taste (\"I don't enjoy war stories\") from evaluation of quality (\"the battle scenes are vividly written\").</p>\n<h4>Key points</h4>\n<ul><li>Evaluate using clear criteria: craft, characterisation, structure, theme, originality, effect and values.</li>\n<li>Recognise devices such as symbolism, irony and foreshadowing, and judge how well they work.</li>\n<li>Start an evaluation with a balanced, specific thesis.</li>\n<li>Support each point with evidence and explanation, not plot summary.</li>\n<li>Separate personal taste from judgement of quality.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is irony?",
+   "options": [
+    {
+     "text": "A hint of future events",
+     "correct": false
+    },
+    {
+     "text": "Giving human qualities to objects",
+     "correct": false
+    },
+    {
+     "text": "A list of characters",
+     "correct": false
+    },
+    {
+     "text": "The opposite of what is expected",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does foreshadowing do?",
+   "options": [
+    {
+     "text": "Ends the story",
+     "correct": false
+    },
+    {
+     "text": "Gives hints of what will happen and builds suspense",
+     "correct": true
+    },
+    {
+     "text": "Describes the author",
+     "correct": false
+    },
+    {
+     "text": "Translates the text",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should the introduction of an evaluation contain?",
+   "options": [
+    {
+     "text": "The price and publisher",
+     "correct": false
+    },
+    {
+     "text": "Only a plot summary",
+     "correct": false
+    },
+    {
+     "text": "Title, author, genre and the overall judgement",
+     "correct": true
+    },
+    {
+     "text": "Only quotations",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "'The veld waited for rain' is an example of which device?",
+   "options": [
+    {
+     "text": "Personification",
+     "correct": true
+    },
+    {
+     "text": "Foreshadowing",
+     "correct": false
+    },
+    {
+     "text": "Juxtaposition",
+     "correct": false
+    },
+    {
+     "text": "Irony",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the best approach to evidence in an evaluation?",
+   "options": [
+    {
+     "text": "Quote briefly and accurately, then explain",
+     "correct": true
+    },
+    {
+     "text": "Retell the whole plot",
+     "correct": false
+    },
+    {
+     "text": "Avoid quoting",
+     "correct": false
+    },
+    {
+     "text": "Use only your feelings",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Personal taste and evaluation of quality are the same thing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A good thesis can name both strengths and weaknesses of a text.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are criteria for evaluating a literary text? (select all that apply)",
+   "options": [
+    {
+     "text": "Length of the author's name",
+     "correct": false
+    },
+    {
+     "text": "Effect on the reader",
+     "correct": true
+    },
+    {
+     "text": "Characterisation",
+     "correct": true
+    },
+    {
+     "text": "Originality",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

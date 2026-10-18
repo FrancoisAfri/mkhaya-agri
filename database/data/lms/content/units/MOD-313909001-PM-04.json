@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-04",
+ "title": "Monitor the availability resources required to achieve production targets",
+ "lessons": [
+  {
+   "title": "Knowing what resources the plan needs",
+   "minutes": 15,
+   "html": "<h3>Resources in a feed mill</h3>\n<p>To meet a production target, for example 900 tonnes of feed this week, the shift supervisor must make sure five groups of resources are available at the right time:</p>\n<ul>\n<li><strong>Raw materials</strong> – maize, oilcakes, bran, minerals, premixes, molasses and oil.</li>\n<li><strong>Packaging</strong> – printed bags, thread, labels, pallets and stretch wrap.</li>\n<li><strong>People</strong> – trained operators for each section, packers, forklift drivers.</li>\n<li><strong>Equipment</strong> – hammer mills, mixers, presses, boilers, bagging lines, forklifts, all in working order.</li>\n<li><strong>Utilities</strong> – electricity, steam, water, compressed air and diesel for generators.</li>\n</ul>\n<h3>Working out requirements</h3>\n<p>Use the production plan and the recipes to calculate how much of each raw material is needed. Example: a dairy meal formula uses 55 percent maize. To make 200 tonnes you need 110 tonnes of maize. Add similar calculations for every product to get total needs per ingredient.</p>\n<p>Then compare with stock:</p>\n<table>\n<tr><th>Ingredient</th><th>Needed this week (t)</th><th>In stock (t)</th><th>Shortfall (t)</th></tr>\n<tr><td>Yellow maize</td><td>480</td><td>350</td><td>130</td></tr>\n<tr><td>Soya oilcake</td><td>160</td><td>190</td><td>0</td></tr>\n<tr><td>Layer premix</td><td>2.5</td><td>1.0</td><td>1.5</td></tr>\n</table>\n<p>Report shortfalls to the planner or procurement early, taking into account delivery lead times. Premixes may take longer to arrive than bulk maize.</p>\n<h3>Bags and consumables</h3>\n<p>Calculate bags needed: 200 tonnes packed in 50 kg bags needs 4 000 bags, plus a small allowance for damaged bags. Check that bags are the correct print for each product and registration.</p>\n<h3>People</h3>\n<p>Check the shift roster against the plan. Who is on leave, sick or on training? Do you have an authorised forklift driver and a trained press operator on every shift? A skills matrix shows quickly who can cover which job.</p>"
+  },
+  {
+   "title": "Monitoring and responding during production",
+   "minutes": 15,
+   "html": "<h3>Daily monitoring</h3>\n<p>Resources change during the week. Check at least daily:</p>\n<ol>\n<li>Silo and bin levels and stock records for each ingredient.</li>\n<li>Expected deliveries: are trucks arriving as planned?</li>\n<li>Packaging stock against the next days' packing plan.</li>\n<li>Equipment status: breakdowns, planned maintenance, parts awaited.</li>\n<li>Attendance and overtime.</li>\n<li>Utility issues: load-shedding schedule, boiler fuel, generator diesel.</li>\n</ol>\n<h3>Responding to shortages</h3>\n<p>When a shortage threatens the target, act early and follow the chain of authority:</p>\n<ul>\n<li>Inform the production manager with facts: what is short, how much, when the plan will be affected.</li>\n<li>Suggest options, such as changing the production sequence to make products that do not need the missing ingredient first.</li>\n<li>Never substitute an ingredient in a formula yourself. Only the nutritionist may approve a formula change.</li>\n<li>Ask maintenance for an expected repair time when equipment is down so the plan can be adjusted.</li>\n<li>Arrange relief staff or approved overtime when people are short.</li>\n</ul>\n<h3>Avoiding waste of resources</h3>\n<ul>\n<li>Use first-in-first-out for raw materials and packaging.</li>\n<li>Reduce spillage and rework.</li>\n<li>Switch off equipment that is idle when the procedure allows.</li>\n<li>Report leaks of steam, air and water.</li>\n</ul>\n<h3>Recording and reporting</h3>\n<p>Keep a daily resource report: stock levels, shortages, breakdowns, staff issues and actions taken. At the end of the week compare the target with actual production and record which resource problems caused losses. This helps managers plan better next week.</p>\n<h4>Key points</h4>\n<ul>\n<li>Production needs raw materials, packaging, people, equipment and utilities.</li>\n<li>Calculate needs from the plan and recipes and compare with stock.</li>\n<li>Report shortfalls early, allowing for supplier lead times.</li>\n<li>Never change a formula yourself to cover a shortage.</li>\n<li>Monitor daily and record resource problems and actions.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A formula uses 55 percent maize. How much maize is needed for 200 tonnes?",
+   "options": [
+    {
+     "text": "145 tonnes",
+     "correct": false
+    },
+    {
+     "text": "110 tonnes",
+     "correct": true
+    },
+    {
+     "text": "200 tonnes",
+     "correct": false
+    },
+    {
+     "text": "55 tonnes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many 50 kg bags are needed for 200 tonnes (before allowances)?",
+   "options": [
+    {
+     "text": "400",
+     "correct": false
+    },
+    {
+     "text": "4 000",
+     "correct": true
+    },
+    {
+     "text": "40 000",
+     "correct": false
+    },
+    {
+     "text": "2 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A premix is running short. Who may approve using a different ingredient in the formula?",
+   "options": [
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The shift supervisor",
+     "correct": false
+    },
+    {
+     "text": "The nutritionist",
+     "correct": true
+    },
+    {
+     "text": "The forklift driver",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What tool shows quickly who can cover which job?",
+   "options": [
+    {
+     "text": "A weighbridge ticket",
+     "correct": false
+    },
+    {
+     "text": "A skills matrix",
+     "correct": true
+    },
+    {
+     "text": "A bag label",
+     "correct": false
+    },
+    {
+     "text": "A delivery note",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must shortfalls be reported early?",
+   "options": [
+    {
+     "text": "It is not needed",
+     "correct": false
+    },
+    {
+     "text": "So production can stop",
+     "correct": false
+    },
+    {
+     "text": "To get a bonus",
+     "correct": false
+    },
+    {
+     "text": "Because suppliers have delivery lead times",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Utilities such as steam, electricity and generator diesel are resources that must be monitored.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is good practice to wait until a bin is empty before reporting a shortage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be checked daily to monitor resources? (select all that apply)",
+   "options": [
+    {
+     "text": "Equipment breakdowns",
+     "correct": true
+    },
+    {
+     "text": "Expected deliveries",
+     "correct": true
+    },
+    {
+     "text": "Silo and bin levels",
+     "correct": true
+    },
+    {
+     "text": "The weather in another province",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

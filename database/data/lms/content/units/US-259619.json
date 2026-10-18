@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-259619",
+ "title": "Conduct workplace Occupational Health and Safety (OHS) inspections",
+ "lessons": [
+  {
+   "title": "The law and planning an inspection",
+   "minutes": 20,
+   "html": "<h3>Why inspections are required</h3><p>The Occupational Health and Safety Act 85 of 1993 (OHS Act) places a duty on the employer to provide and maintain a workplace that is safe and without risk to health, as far as is reasonably practicable. To know whether this is happening, the workplace must be checked regularly.</p><p>Where a workplace has more than 20 employees, the employer must appoint <strong>health and safety representatives (HSRs)</strong>. Section 18 of the Act sets out the functions of an HSR, and these include inspecting the workplace, reviewing the effectiveness of health and safety measures, identifying hazards and making representations to the employer. An inspection is therefore a core HSR duty. Regulations made under the Act (for example on machinery, electrical installations, hazardous chemical substances and fire equipment) give the specific standards you check against.</p><h3>Types of inspection</h3><ul><li><strong>Routine</strong>: at a set interval agreed with the employer, such as monthly, for your designated area.</li><li><strong>Specific</strong>: of one item, such as fire extinguishers, ladders or the chemical store.</li><li><strong>After an incident</strong>: to find what went wrong.</li><li><strong>Pre-use checks</strong>: daily, done by operators on tractors and machines.</li></ul><h3>Planning the inspection</h3><ol><li>Agree the date and time with the area supervisor so work can be seen as it really happens.</li><li>Decide the scope: which buildings, camps, machines and tasks.</li><li>Prepare or update a checklist for that area (see lesson 2).</li><li>Read the previous inspection report and check open actions.</li><li>Review recent incidents and near misses.</li><li>Take PPE, the checklist, a pen, a torch and, if allowed, a camera.</li><li>Know the safety rules of the area you are entering, for example a no-entry period after spraying.</li></ol>"
+  },
+  {
+   "title": "Conducting and reporting the inspection",
+   "minutes": 20,
+   "html": "<h3>Using a checklist</h3><p>A checklist keeps the inspection complete and consistent. A farm workshop checklist might include:</p><table><tr><th>Item</th><th>Yes / No / Comment</th></tr><tr><td>Guards on grinders, PTO shafts and belts</td><td></td></tr><tr><td>Electrical cables and plugs undamaged; distribution board closed</td><td></td></tr><tr><td>Fire extinguishers in place, serviced, not blocked</td><td></td></tr><tr><td>First aid box stocked</td><td></td></tr><tr><td>Walkways clear, floors free of oil</td><td></td></tr><tr><td>Chemicals labelled and stored correctly</td><td></td></tr><tr><td>Workers wearing required PPE</td><td></td></tr><tr><td>Ladders and gas cylinders in good condition and secured</td><td></td></tr></table><h3>During the inspection</h3><ul><li>Look, listen and ask. Speak to workers about problems they have noticed.</li><li>Check that rules are followed in practice, not only on paper.</li><li>Record each non-compliance clearly: what, where, and why it is a hazard.</li><li>If you find an immediate danger, tell the supervisor at once so work can stop and the area can be made safe. Do not wait for the written report.</li><li>Do not touch or repair electrical or mechanical faults yourself unless competent and authorised.</li></ul><h3>Reporting</h3><p>Write the report soon after the inspection. Include:</p><ol><li>Area, date, time and names of inspectors.</li><li>Each finding, with a risk rating (high, medium, low).</li><li>Recommended corrective action.</li><li>The person responsible and a target date (agreed with the supervisor).</li></ol><p>Give the report to the supervisor and the health and safety committee, and keep a copy. At the next inspection, check that actions were completed.</p><h4>Key points</h4><ul><li>The OHS Act requires a safe workplace; inspections are a core HSR function.</li><li>Plan the scope, time and checklist, and read the previous report.</li><li>Record each non-compliance clearly and report immediate dangers at once.</li><li>Reports need findings, risk ratings, actions, responsible persons and dates.</li><li>Follow up open actions at the next inspection.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law requires the employer to provide a safe workplace?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Above how many employees must an employer appoint health and safety representatives?",
+   "options": [
+    {
+     "text": "5",
+     "correct": false
+    },
+    {
+     "text": "10",
+     "correct": false
+    },
+    {
+     "text": "20",
+     "correct": true
+    },
+    {
+     "text": "100",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you find an immediate danger during an inspection?",
+   "options": [
+    {
+     "text": "Note it in the report next week",
+     "correct": false
+    },
+    {
+     "text": "Tell the supervisor at once so the area can be made safe",
+     "correct": true
+    },
+    {
+     "text": "Fix the electrical fault yourself",
+     "correct": false
+    },
+    {
+     "text": "Ignore it if no one is hurt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a checklist used for inspections?",
+   "options": [
+    {
+     "text": "To make the inspection take longer",
+     "correct": false
+    },
+    {
+     "text": "To replace talking to workers",
+     "correct": false
+    },
+    {
+     "text": "To keep the inspection complete and consistent",
+     "correct": true
+    },
+    {
+     "text": "Because the law requires a coloured form",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these should be in an inspection report?",
+   "options": [
+    {
+     "text": "Only the names of workers who broke rules",
+     "correct": false
+    },
+    {
+     "text": "Only the date",
+     "correct": false
+    },
+    {
+     "text": "The supervisor's salary",
+     "correct": false
+    },
+    {
+     "text": "Findings, risk ratings, corrective actions, responsible persons and target dates",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Reading the previous inspection report is a useful step in planning an inspection.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The health and safety representative should repair any electrical faults found during inspection.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items could be on a farm workshop inspection checklist? (select all that apply)",
+   "options": [
+    {
+     "text": "The colour of the tractors",
+     "correct": false
+    },
+    {
+     "text": "Guards on grinders and PTO shafts",
+     "correct": true
+    },
+    {
+     "text": "Fire extinguishers serviced and not blocked",
+     "correct": true
+    },
+    {
+     "text": "First aid box stocked",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

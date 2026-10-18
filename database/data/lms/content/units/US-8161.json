@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8161",
+ "title": "Determine produce grade: Soya",
+ "lessons": [
+  {
+   "title": "Preparing to grade soya beans",
+   "minutes": 20,
+   "html": "<h3>Why we grade soya beans</h3><p>Grading means checking a sample of soya beans and giving it a grade according to the official grading regulations made under the Agricultural Product Standards Act 119 of 1990. The grade tells the buyer and the seller what the quality is, and it decides the price. A wrong grade costs the farmer or the silo money, and can lead to disputes. As a grader you must be accurate, honest and follow the method exactly.</p><h4>Preparing for grading</h4><ol><li>Make sure you have the <strong>current</strong> grading regulations and grade tables for soya beans. The limits for each grade come from these tables, not from memory.</li><li>Check your equipment: approved moisture meter (calibrated and checked), balance or scale (level, zeroed, checked with test weights), the prescribed sieves (clean, undamaged), sample divider, sorting tray, tweezers, containers and worksheets.</li><li>Clean the work area so there is no grain or dust left from the previous sample.</li><li>Wear a dust coat or overalls and a dust mask. Wash hands after grading, especially if grain may be treated or mouldy.</li></ol><h4>Taking and preparing the sample</h4><ul><li>Take the sample from the load at several points and depths with a probe, or from the automatic sampler, following the site procedure.</li><li>Mix the sample well and reduce it with the approved divider to the working sample size the procedure requires. Never pick a handful from the top.</li><li>Label the sample with the delivery or load number, date, time and your name.</li></ul><h4>Know the bean</h4><p>Soya beans are an oilseed and a protein crop, used for oil, oilcake for animal feed and food products. Sound soya beans are round, with a yellow seed coat. Beans of other colours, split beans and damaged beans lower the value.</p>"
+  },
+  {
+   "title": "Moisture and non-compliant material",
+   "minutes": 25,
+   "html": "<h3>Determining moisture content</h3><p>Moisture content is the percentage of water in the soya beans. Grain that is too wet heats, goes mouldy and can be spoiled by insects. The regulations and the buyer set a maximum moisture level; check the current limit.</p><ol><li>Check that the moisture meter is set for soya beans. Each grain has its own setting or calibration chart.</li><li>Let the sample reach room temperature if the meter requires it; very hot or cold grain gives wrong readings.</li><li>Fill the meter exactly as the manufacturer instructs and take the reading. Repeat if the procedure requires two readings.</li><li>Record the reading on the worksheet immediately.</li><li>If the reading is near the limit or the meter seems faulty, use the reference oven method or ask your supervisor.</li></ol><p>Soya beans that are very dry split easily during handling, while wet beans heat and mould in storage.</p><h3>Determining non-compliant material</h3><p>Next, weigh the working sample and separate the material that does not comply. Sort carefully on a clean tray. Put each kind in its own container and weigh it. Work out each as a percentage of the sample mass:</p><p><strong>Percentage = mass of the material ÷ mass of the working sample × 100</strong></p><p>Example: in a 100 g working sample you find 2.5 g of foreign matter. 2.5 ÷ 100 × 100 = 2.5%.</p><table><tr><th>Material</th><th>What to look for</th></tr><tr><td>Foreign matter</td><td>Soil, stones, pods, stems, plant parts</td></tr><tr><td>Split and broken beans</td><td>Halves and pieces</td></tr><tr><td>Damaged beans</td><td>Heat-damaged, frost-damaged, insect-damaged, mouldy or sprouted beans</td></tr><tr><td>Soiled beans</td><td>Beans stained with soil or plant juice</td></tr><tr><td>Other-coloured beans</td><td>Black, brown or green beans in a yellow sample</td></tr><tr><td>Sclerotia</td><td>Hard black bodies of the fungus Sclerotinia</td></tr><tr><td>Poisonous seeds</td><td>For example Datura (thorn apple) seeds</td></tr></table><p>Sclerotia look like small black stones or rat droppings. Keep them separate and weigh them on their own, as the regulations require.</p>"
+  },
+  {
+   "title": "Completing the grading process",
+   "minutes": 15,
+   "html": "<h3>Completing the grading process</h3><ol><li>Write every result on the worksheet: moisture and each deviation as a percentage.</li><li>Compare each result with the grade table in the regulations. Start with the highest grade.</li><li>The sample gets the highest grade for which <strong>all</strong> results are within the limits. If one result is over the limit for that grade, check the next grade.</li><li>Check for conditions that make the soya beans non-compliant or below grade regardless of percentages, such as a musty, sour or chemical smell, live insects, or poisonous seeds above the permitted level. Report these to your supervisor straight away.</li><li>Sign the worksheet or enter the result in the system. The grade goes onto the delivery ticket or certificate.</li><li>Keep the reference sample, sealed and labelled, for the period the site requires, in case of a dispute.</li></ol><h4>Cleaning up</h4><p>Return the sample material as instructed, clean the sieves, trays and meter, and leave the work area clean for the next sample.</p><h4>Honesty</h4><p>Never change a result because a farmer or driver asks you to. If someone pressures you, call your supervisor. If you made a mistake, report it and re-grade.</p><h4>Key points</h4><ul><li>Use the current grading regulations and calibrated equipment.</li><li>Take a representative sample and divide it properly.</li><li>Set the moisture meter for soya beans and record readings straight away.</li><li>Percentage = mass of material ÷ sample mass × 100.</li><li>The grade is the highest grade for which all results comply.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law provides for the grading regulations for soya beans?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a 200 g working sample you find 3 g of foreign matter. What is the percentage?",
+   "options": [
+    {
+     "text": "3%",
+     "correct": false
+    },
+    {
+     "text": "6%",
+     "correct": false
+    },
+    {
+     "text": "1.5%",
+     "correct": true
+    },
+    {
+     "text": "0.3%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What grade does a sample get?",
+   "options": [
+    {
+     "text": "The grade the farmer asks for",
+     "correct": false
+    },
+    {
+     "text": "The average grade",
+     "correct": false
+    },
+    {
+     "text": "Always the top grade",
+     "correct": false
+    },
+    {
+     "text": "The highest grade for which all results are within the limits",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The moisture meter must be set for soya beans before taking a reading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A grader may change a result if the driver is in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are sclerotia?",
+   "options": [
+    {
+     "text": "Hard black bodies of the fungus Sclerotinia",
+     "correct": true
+    },
+    {
+     "text": "Split soya beans",
+     "correct": false
+    },
+    {
+     "text": "Small stones",
+     "correct": false
+    },
+    {
+     "text": "Soya leaves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Green soya beans in a yellow sample are recorded as what?",
+   "options": [
+    {
+     "text": "Sound beans",
+     "correct": false
+    },
+    {
+     "text": "Other-coloured beans",
+     "correct": true
+    },
+    {
+     "text": "Foreign matter",
+     "correct": false
+    },
+    {
+     "text": "Sclerotia",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are damaged soya beans? (select all that apply)",
+   "options": [
+    {
+     "text": "Heat-damaged beans",
+     "correct": true
+    },
+    {
+     "text": "Frost-damaged beans",
+     "correct": true
+    },
+    {
+     "text": "Insect-damaged beans",
+     "correct": true
+    },
+    {
+     "text": "Sound yellow beans",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

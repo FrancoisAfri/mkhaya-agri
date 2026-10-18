@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335722",
+ "title": "Prepare horses and clients for a trail ride of up to one day",
+ "lessons": [
+  {
+   "title": "Preparing the horses and equipment",
+   "minutes": 20,
+   "html": "<h3>Matching horses to the ride</h3>\n<p>Trail rides through the veld, mountains, beaches or vineyards are popular with tourists and locals. A safe ride starts the day before, with horses that are fit, sound and suitable for the route and for clients of different abilities.</p>\n<h4>Checking each horse</h4>\n<ol>\n<li>Health: eating and drinking normally, normal temperature, no coughing or nasal discharge.</li>\n<li>Soundness: trot up on firm ground; no lameness or heat in the legs.</li>\n<li>Feet: shoes secure or bare feet in good condition for the terrain; pick out hooves.</li>\n<li>Back and girth area: no sores, swelling or sensitivity.</li>\n<li>Fitness: suited to the distance and climbs. Rest horses that worked hard the day before.</li>\n<li>Temperament: the quietest, most reliable horses for beginners and children.</li>\n</ol>\n<h4>Tack</h4>\n<ul>\n<li>Saddles that fit both horse and rider, with clean numnahs.</li>\n<li>Check girths, stirrup leathers, buckles and stitching. Replace worn items.</li>\n<li>Bridles fitted correctly with suitable bits. A headcollar under the bridle and a lead rope tied to the saddle are useful on trails.</li>\n<li>Saddle bags for the guide: first aid kits for horse and rider, hoof pick, knife, spare lead rope, a cell phone or radio, water.</li>\n</ul>\n<h3>Planning the route</h3>\n<ul>\n<li>Know the route, distance, terrain, water points, gates and hazards such as dongas, bogs, steep slopes, roads, fences and livestock.</li>\n<li>Check the weather forecast: heat, storms and lightning are serious risks in summer.</li>\n<li>Get permission to ride on neighbouring land and close every gate as you found it.</li>\n<li>Tell someone at the base the route and expected return time.</li>\n</ul>"
+  },
+  {
+   "title": "Preparing and briefing clients",
+   "minutes": 20,
+   "html": "<h3>Assessing clients</h3>\n<p>Before the ride, ask each client about:</p>\n<ul>\n<li>Riding experience: never ridden, beginner, intermediate or experienced.</li>\n<li>Weight and height, to match a suitable horse; many yards have a weight limit.</li>\n<li>Medical conditions, allergies (e.g. bee stings), pregnancy and medication.</li>\n<li>Emergency contact details.</li>\n</ul>\n<p>Clients sign an indemnity form, which explains the risks of riding. Read it with them if needed. An indemnity form does not remove your duty of care.</p>\n<h3>Clothing and equipment for clients</h3>\n<ul>\n<li>An approved riding helmet, correctly fitted and fastened. Compulsory.</li>\n<li>Closed shoes with a small heel; no sandals or bare feet.</li>\n<li>Long trousers to prevent chafing.</li>\n<li>Sunscreen, hat for breaks, sunglasses with a strap, water bottle.</li>\n<li>No loose scarves or dangling bags.</li>\n</ul>\n<h3>The safety briefing</h3>\n<ol>\n<li>Introduce the guides and the horses by name.</li>\n<li>Demonstrate how to mount and dismount safely and how to hold the reins.</li>\n<li>Explain how to stop, steer and slow down.</li>\n<li>Rules: stay in single file, one horse length apart; do not overtake the lead guide; do not let horses eat grass on the trail; tell a guide if you feel uncomfortable.</li>\n<li>What to do if a horse spooks: sit deep, heels down, hold the reins and the saddle, and call to the guide.</li>\n<li>Explain the route, duration, stops and the speed of the ride (walk only, or some trotting for those able).</li>\n</ol>\n<h3>Mounting and final check</h3>\n<p>Help clients mount from a block; adjust stirrups and tighten girths. Watch each client walk in the arena or yard before leaving. If someone cannot control their horse, give them a quieter horse or a lead rein.</p>\n<h4>Key points</h4>\n<ul>\n<li>Check each horse's health, soundness, feet, back and fitness.</li>\n<li>Inspect all tack and pack first aid and communication kits.</li>\n<li>Plan the route, check weather and tell base your plans.</li>\n<li>Assess clients' experience and health and match horses carefully.</li>\n<li>Helmets and closed shoes are compulsory; give a clear safety briefing.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which horses should be given to beginners and children?",
+   "options": [
+    {
+     "text": "The fittest racehorses",
+     "correct": false
+    },
+    {
+     "text": "The quietest, most reliable horses",
+     "correct": true
+    },
+    {
+     "text": "Horses that worked hardest yesterday",
+     "correct": false
+    },
+    {
+     "text": "Young, unschooled horses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you tell someone at the base the route and return time?",
+   "options": [
+    {
+     "text": "So they can cook lunch",
+     "correct": false
+    },
+    {
+     "text": "To book the next ride",
+     "correct": false
+    },
+    {
+     "text": "For marketing",
+     "correct": false
+    },
+    {
+     "text": "So help can find you if something goes wrong",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a client's indemnity form NOT do?",
+   "options": [
+    {
+     "text": "Remove your duty of care",
+     "correct": true
+    },
+    {
+     "text": "Explain the risks of riding",
+     "correct": false
+    },
+    {
+     "text": "Record client details",
+     "correct": false
+    },
+    {
+     "text": "Show the client agreed to the terms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What footwear must clients wear?",
+   "options": [
+    {
+     "text": "Sandals",
+     "correct": false
+    },
+    {
+     "text": "Bare feet",
+     "correct": false
+    },
+    {
+     "text": "Closed shoes with a small heel",
+     "correct": true
+    },
+    {
+     "text": "Flip-flops",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a client do if their horse spooks?",
+   "options": [
+    {
+     "text": "Jump off immediately",
+     "correct": false
+    },
+    {
+     "text": "Sit deep, heels down, hold the reins and call the guide",
+     "correct": true
+    },
+    {
+     "text": "Kick the horse into a gallop",
+     "correct": false
+    },
+    {
+     "text": "Let go of the reins",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Clients may ride side by side and overtake the lead guide when they like.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Gates on a trail should be closed as you found them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be in the guide's saddle bags? (select all that apply)",
+   "options": [
+    {
+     "text": "First aid kits for horse and rider",
+     "correct": true
+    },
+    {
+     "text": "Hoof pick and knife",
+     "correct": true
+    },
+    {
+     "text": "Cell phone or radio",
+     "correct": true
+    },
+    {
+     "text": "A glass bottle of wine for the horses",
+     "correct": false
+    },
+    {
+     "text": "Loose plastic bags to flap",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

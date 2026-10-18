@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-313909001-KM-06",
+ "title": "Feed Mill Safety, Quality Management and Risk Control",
+ "lessons": [
+  {
+   "title": "Safety hazards and controls in a feed mill",
+   "minutes": 18,
+   "html": "<h3>Legal duties</h3>\n<p>The Occupational Health and Safety Act 85 of 1993 requires the employer to provide and maintain, as far as reasonably practicable, a safe working environment, to identify hazards, assess risks and apply controls, and to train and supervise workers. Employees must take reasonable care for themselves and others, obey safety rules and report unsafe conditions. Feed mills must also meet regulations for machinery, electrical installations, pressure equipment such as steam boilers, and hazardous substances.</p>\n<h4>Major hazards</h4>\n<ul>\n<li><strong>Dust explosions</strong> – fine grain and feed dust suspended in air, with an ignition source such as a hot bearing, spark from tramp metal or welding, can explode. Bucket elevators, hammer mills, filters and silos are high-risk.</li>\n<li><strong>Entanglement and crushing</strong> – screws, chains, belts, rollers, pellet presses and mixers.</li>\n<li><strong>Engulfment</strong> – being buried in a bin or silo of flowing material.</li>\n<li><strong>Confined spaces</strong> – bins, silos, pits and mixers with poor air or toxic gas.</li>\n<li><strong>Steam and hot surfaces</strong> – conditioners, boilers and pipes.</li>\n<li><strong>Falls</strong> – from silo tops, ladders and platforms.</li>\n<li><strong>Vehicles</strong> – trucks and forklifts in the yard and warehouse.</li>\n<li><strong>Chemicals</strong> – fumigants, cleaning agents and concentrated additives.</li>\n<li><strong>Noise and dust inhalation</strong>.</li>\n</ul>\n<h4>Hierarchy of controls</h4>\n<ol>\n<li>Eliminate the hazard (e.g. design out manual bin entry).</li>\n<li>Substitute with something less hazardous.</li>\n<li>Engineering controls: guards, dust extraction, explosion vents, magnets, bearing temperature sensors, belt alignment sensors.</li>\n<li>Administrative controls: lock-out procedures, permits to work, confined space and hot work permits, training.</li>\n<li>Personal protective equipment as the last line of defence.</li>\n</ol>\n<p>Never enter a bin or silo without a confined space permit, isolation, atmosphere testing, a harness and lifeline, and a trained standby person. Never perform welding or grinding in the mill without a hot work permit and removal of dust.</p>"
+  },
+  {
+   "title": "Quality management and feed safety",
+   "minutes": 18,
+   "html": "<h3>Quality versus safety</h3>\n<p><strong>Quality</strong> means the feed meets its specification: nutrients, particle size, pellet durability and appearance. <strong>Feed safety</strong> means the feed will not harm animals or the people who eat animal products: no harmful levels of mycotoxins, pathogens, drug residues, heavy metals, foreign bodies or wrong additives.</p>\n<h4>Quality management systems</h4>\n<p>Many mills use ISO 9001 for quality management and HACCP-based feed safety systems, sometimes certified to schemes such as FSSC 22000 or industry feed safety codes. Common elements are:</p>\n<ul>\n<li>Documented procedures and work instructions.</li>\n<li>Supplier approval and raw material specifications.</li>\n<li>Sampling and testing plans for raw materials and products.</li>\n<li>Traceability from raw material lot to finished batch to customer.</li>\n<li>Control of non-conforming product (hold, investigate, rework or reject).</li>\n<li>Internal audits, management review and corrective actions.</li>\n</ul>\n<h4>HACCP in a feed mill</h4>\n<p>HACCP means Hazard Analysis and Critical Control Points. The team lists every process step, identifies biological, chemical and physical hazards, and determines the critical control points where a hazard must be controlled. Examples:</p>\n<table>\n<tr><th>Step</th><th>Hazard</th><th>Control</th></tr>\n<tr><td>Intake</td><td>Mycotoxins</td><td>Testing and rejection limits</td></tr>\n<tr><td>Dosing of medicines</td><td>Wrong dose or carry-over</td><td>Verified weighing, sequencing, flushing</td></tr>\n<tr><td>Conditioning</td><td>Salmonella</td><td>Minimum temperature and time</td></tr>\n<tr><td>Magnets/sieves</td><td>Metal</td><td>Regular inspection and cleaning</td></tr>\n</table>\n<p>For each critical control point set critical limits, monitoring, corrective actions, verification and records. Feeds must also comply with Act 36 of 1947 registration and labelling.</p><p>Prerequisite programmes support HACCP. These include cleaning and sanitation, pest control, supplier control, maintenance hygiene, staff hygiene and training, glass and hard plastics control, and water quality. Without them, critical control points alone cannot keep feed safe.</p>"
+  },
+  {
+   "title": "Risk assessment and emergency preparedness",
+   "minutes": 18,
+   "html": "<h3>Doing a risk assessment</h3>\n<ol>\n<li>Identify the hazards in each area and task, including non-routine tasks such as cleaning bins.</li>\n<li>Identify who could be harmed and how.</li>\n<li>Rate the risk using likelihood and consequence, for example on a 5 x 5 matrix.</li>\n<li>Decide controls using the hierarchy of controls.</li>\n<li>Record the assessment, communicate it to workers and review it after incidents or changes.</li>\n</ol>\n<p>Involve operators and health and safety representatives; they know how work is really done. Use a management of change process whenever equipment, raw materials or procedures change.</p>\n<h3>Incident management</h3>\n<p>All incidents and near misses should be reported and investigated to find root causes. Serious incidents must be reported to the Department of Employment and Labour as the OHS Act requires. Track corrective actions to closure.</p>\n<h3>Business and feed safety risks</h3>\n<p>Risk control also covers events that threaten the business: a contaminated raw material, a recall, a silo fire, a long power failure, loss of a key supplier or a cyber attack on the control system. Keep a risk register with each risk, its rating, controls and owner, and review it with management.</p>\n<h3>Emergency preparedness</h3>\n<ul>\n<li>Emergency plans for fire, dust explosion, chemical spills, injuries and engulfment.</li>\n<li>Trained first aiders and firefighters; first aid must be learnt hands-on from an accredited provider.</li>\n<li>Marked escape routes, assembly points and working alarms.</li>\n<li>Regular drills and checking of fire equipment.</li>\n<li>A product recall procedure tested by mock recalls.</li>\n</ul>\n<p>Never attempt to rescue a person from a silo or confined space without the proper equipment and training; many deaths are would-be rescuers. Raise the alarm and follow the rescue plan.</p>\n<h4>Key points</h4>\n<ul>\n<li>Dust explosions, entanglement, engulfment and confined spaces are major feed mill hazards.</li>\n<li>Apply the hierarchy of controls, with PPE as the last line of defence.</li>\n<li>Quality is meeting specification; feed safety is preventing harm to animals and people.</li>\n<li>HACCP identifies critical control points with limits, monitoring and records.</li>\n<li>Assess risks, investigate incidents and practise emergency and recall plans.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which combination can cause a dust explosion?",
+   "options": [
+    {
+     "text": "Wet grain and cold air",
+     "correct": false
+    },
+    {
+     "text": "Bagged feed stacked on pallets",
+     "correct": false
+    },
+    {
+     "text": "Suspended fine dust in air plus an ignition source",
+     "correct": true
+    },
+    {
+     "text": "Water in a pipe",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the hierarchy of controls, where does PPE fall?",
+   "options": [
+    {
+     "text": "It replaces engineering controls",
+     "correct": false
+    },
+    {
+     "text": "Last line of defence",
+     "correct": true
+    },
+    {
+     "text": "It is not part of the hierarchy",
+     "correct": false
+    },
+    {
+     "text": "First choice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does HACCP stand for?",
+   "options": [
+    {
+     "text": "High Accuracy Critical Check Procedure",
+     "correct": false
+    },
+    {
+     "text": "Hazard Assessment and Cost Control Process",
+     "correct": false
+    },
+    {
+     "text": "Health and Cleaning Control Plan",
+     "correct": false
+    },
+    {
+     "text": "Hazard Analysis and Critical Control Points",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a typical control for Salmonella at conditioning?",
+   "options": [
+    {
+     "text": "A minimum temperature and time",
+     "correct": true
+    },
+    {
+     "text": "Adding more molasses",
+     "correct": false
+    },
+    {
+     "text": "Shorter magnets",
+     "correct": false
+    },
+    {
+     "text": "Bigger bags",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A worker is buried in a bin. What should you do?",
+   "options": [
+    {
+     "text": "Climb in immediately to dig them out",
+     "correct": false
+    },
+    {
+     "text": "Raise the alarm and follow the rescue plan with proper equipment",
+     "correct": true
+    },
+    {
+     "text": "Wait until the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Start the discharge screw to empty the bin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feed safety means feed will not harm animals or people who eat animal products.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hot work such as welding may be done in the mill at any time without a permit.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are elements of a quality management system in a feed mill? (select all that apply)",
+   "options": [
+    {
+     "text": "Traceability from raw material to customer",
+     "correct": true
+    },
+    {
+     "text": "Skipping internal audits",
+     "correct": false
+    },
+    {
+     "text": "Control of non-conforming product",
+     "correct": true
+    },
+    {
+     "text": "Supplier approval",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

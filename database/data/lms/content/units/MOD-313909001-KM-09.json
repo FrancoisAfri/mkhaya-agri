@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-313909001-KM-09",
+ "title": "Feed Milling process control, hygienising and compacting technology and operations",
+ "lessons": [
+  {
+   "title": "Process control in a modern feed mill",
+   "minutes": 18,
+   "html": "<h3>From manual to automated control</h3>\n<p>Most larger South African mills use a PLC (programmable logic controller) and SCADA system to control routes, batching, mixing, conditioning and pelleting. The operator selects recipes and routes; the system sequences motors, opens gates, weighs ingredients and logs data. Smaller mills may still rely on manual panels and paper batch sheets. Either way, the principles of process control are the same.</p>\n<h4>Elements of control</h4>\n<ul>\n<li><strong>Set points</strong> – target values such as conditioning temperature, steam pressure, mixer time, die speed and feeder rate.</li>\n<li><strong>Measurement</strong> – sensors for temperature, pressure, motor load (amps), level, flow and weight.</li>\n<li><strong>Control loops</strong> – the controller compares the measurement with the set point and adjusts, for example a steam valve opens more if conditioning temperature falls below set point.</li>\n<li><strong>Interlocks</strong> – prevent unsafe or wrong operation, e.g. a conveyor cannot start if the one after it is stopped, or a press cannot run if the door is open.</li>\n<li><strong>Alarms</strong> – warn of high levels, motor overload, high bearing temperature or blocked chutes.</li>\n</ul>\n<h4>Statistical process control</h4>\n<p>Control charts of key variables (pellet durability, moisture, batch weights) show whether the process is stable. Points outside control limits or trends in one direction signal a special cause that must be investigated before product goes out of specification.</p>\n<h4>Data and traceability</h4>\n<p>The control system records every batch: recipe, ingredient lots and weights, times, temperatures and destination bin. This record is essential for traceability, for investigating complaints and for proving that critical control points such as heat treatment were met. Manual overrides must be authorised and logged.</p>\n<h4>The manager's role</h4>\n<p>The process manager sets and approves set points with the nutritionist and quality team, makes sure instruments are calibrated, reviews alarm and override logs, and trains operators to understand why a set point exists, not just what it is.</p>"
+  },
+  {
+   "title": "Hygienising feed",
+   "minutes": 18,
+   "html": "<h3>Why hygienise?</h3>\n<p>Raw materials, especially oilseed meals, animal proteins and grains, can carry Salmonella and other pathogens. Salmonella in poultry feed can infect flocks and enter the human food chain through eggs and meat. Hygienising is a heat (and sometimes chemical) treatment designed to reduce pathogens to safe levels.</p>\n<h4>Methods</h4>\n<table>\n<tr><th>Method</th><th>How it works</th></tr>\n<tr><td>Steam conditioning</td><td>Steam heats and moistens mash before the pellet press</td></tr>\n<tr><td>Hygieniser / retention conditioner</td><td>Holds hot mash at temperature for a set retention time</td></tr>\n<tr><td>Expander</td><td>High shear, pressure and temperature for a short time</td></tr>\n<tr><td>Extrusion</td><td>Cooking under pressure, typical in pet food and aqua feeds</td></tr>\n<tr><td>Chemical treatment</td><td>Organic acids or formaldehyde-based products where registered</td></tr>\n</table>\n<p>Effectiveness depends on temperature <strong>and</strong> time together, and on moisture. The validated time-temperature combination set by the quality system must be monitored at the critical control point and recorded. Product below the critical limit must be diverted or held, not sent to customers.</p>\n<h4>Avoiding recontamination</h4>\n<p>Heat treatment is wasted if the feed is recontaminated afterwards. Separate \"dirty\" (raw) and \"clean\" (post-heat) zones, cool with filtered air, prevent condensation in coolers and bins, control birds and rodents, clean coolers and conveyors after heat treatment, and take environmental swabs as scheduled.</p>\n<h4>Quality trade-offs</h4>\n<p>High temperatures can damage heat-sensitive vitamins, enzymes and amino acids such as lysine. Nutritionists may add heat-stable forms or apply enzymes after pelleting by post-pellet liquid application. The process manager must balance feed safety, nutrition and throughput.</p><p>Validation of a hygienising step is done with the quality team, for example by testing feed before and after treatment under normal running conditions. Once validated, the settings may not be changed without a documented management-of-change review.</p>"
+  },
+  {
+   "title": "Compacting: pelleting and related processes",
+   "minutes": 18,
+   "html": "<h3>Why compact feed?</h3>\n<p>Compacting (pelleting, crumbling, cubing) presses mash into dense particles. Benefits include less selective feeding, less dust and waste, higher bulk density for transport, better feed intake and conversion in poultry and pigs, and the hygienising effect of conditioning.</p>\n<h4>The pelleting line</h4>\n<ol>\n<li><strong>Feeder screw</strong> controls the mash rate.</li>\n<li><strong>Conditioner</strong> adds steam to raise temperature and moisture, activating starch and binders.</li>\n<li><strong>Pellet press</strong> – rollers force mash through holes in a ring die; knives cut pellets to length.</li>\n<li><strong>Cooler</strong> – counterflow air cools and dries pellets to near ambient temperature and safe moisture.</li>\n<li><strong>Crumbler</strong> – for young birds, rollers crack pellets into crumbles.</li>\n<li><strong>Screener</strong> – removes fines that are returned for re-pelleting.</li>\n</ol>\n<h4>Factors affecting pellet quality</h4>\n<ul>\n<li>Formulation – fat, fibre, protein and starch levels, and binders.</li>\n<li>Particle size – finer grind usually improves durability.</li>\n<li>Conditioning – steam quality (dry, saturated), temperature and retention time.</li>\n<li>Die specification – hole diameter and effective thickness (compression ratio).</li>\n<li>Die and roller condition and roller gap.</li>\n<li>Cooling – under-cooled pellets sweat and grow mould; over-dried pellets break.</li>\n</ul>\n<p>Pellet durability index (PDI) and percentage fines are measured routinely. Throughput, motor load and kWh per tonne are monitored for efficiency.</p>\n<h3>Safety on the pelleting line</h3>\n<p>Pellet presses and conditioners involve steam, hot surfaces, high torque and heavy dies. Lock out and release steam pressure before opening doors; use lifting equipment for die changes; never put hands near rollers while the die can rotate. Boilers and steam systems must be operated and inspected under the pressure equipment rules.</p>\n<h4>Key points</h4>\n<ul>\n<li>PLC/SCADA control uses set points, measurements, control loops, interlocks and alarms.</li>\n<li>Batch records support traceability and prove critical limits were met.</li>\n<li>Hygienising depends on temperature, time and moisture; prevent recontamination afterwards.</li>\n<li>Pellet quality depends on formulation, grind, conditioning, die and cooling.</li>\n<li>Lock out and release steam before working on presses and conditioners.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an interlock in feed mill process control?",
+   "options": [
+    {
+     "text": "A control that prevents unsafe or wrong operation, such as starting a conveyor when the next one is stopped",
+     "correct": true
+    },
+    {
+     "text": "A type of pellet",
+     "correct": false
+    },
+    {
+     "text": "A wage agreement",
+     "correct": false
+    },
+    {
+     "text": "A type of bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Hygienising effectiveness depends mainly on which combination?",
+   "options": [
+    {
+     "text": "Mixer CV only",
+     "correct": false
+    },
+    {
+     "text": "Number of operators",
+     "correct": false
+    },
+    {
+     "text": "Bag size and colour",
+     "correct": false
+    },
+    {
+     "text": "Temperature, time and moisture",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to product that does not reach the critical hygienising limit?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Send it to the customer",
+     "correct": false
+    },
+    {
+     "text": "Mix it with good product without records",
+     "correct": false
+    },
+    {
+     "text": "Divert or hold it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must pellets be cooled properly?",
+   "options": [
+    {
+     "text": "Cooling makes pellets bigger",
+     "correct": false
+    },
+    {
+     "text": "It is only for appearance",
+     "correct": false
+    },
+    {
+     "text": "Under-cooled pellets sweat and can grow mould",
+     "correct": true
+    },
+    {
+     "text": "It adds vitamins",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of the screener after the cooler?",
+   "options": [
+    {
+     "text": "To print labels",
+     "correct": false
+    },
+    {
+     "text": "To add steam",
+     "correct": false
+    },
+    {
+     "text": "To remove fines for re-pelleting",
+     "correct": true
+    },
+    {
+     "text": "To weigh ingredients",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Heat treatment can damage some vitamins, enzymes and amino acids.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Once feed is heat treated it cannot be recontaminated.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which factors affect pellet quality? (select all that apply)",
+   "options": [
+    {
+     "text": "Conditioning temperature and steam quality",
+     "correct": true
+    },
+    {
+     "text": "The colour of the bag",
+     "correct": false
+    },
+    {
+     "text": "Particle size",
+     "correct": true
+    },
+    {
+     "text": "Die specification",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

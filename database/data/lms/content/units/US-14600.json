@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-14600",
+ "title": "Analyse community and conservation issues",
+ "lessons": [
+  {
+   "title": "People and conservation: where they meet",
+   "minutes": 20,
+   "html": "<h3>The relationship between communities and nature</h3>\n<p>Many rural South Africans live next to protected areas, rivers, wetlands, forests and rangelands that matter for conservation. These same resources provide grazing, firewood, medicinal plants, thatching grass, water, fish and building materials. Conservation goals and community needs can support each other, or clash.</p>\n<h4>Common issues</h4>\n<ul><li><strong>Resource use</strong> – firewood cutting, medicinal plant harvesting, thatch and reed collection, fishing.</li>\n<li><strong>Human–wildlife conflict</strong> – baboons, bushpigs and porcupines raiding crops; jackals and caracals killing small stock; elephants or lions near reserve boundaries.</li>\n<li><strong>Land degradation</strong> – overgrazing, erosion, bush encroachment, invasive alien plants.</li>\n<li><strong>Water</strong> – wetland drainage, river pollution, siltation of dams.</li>\n<li><strong>Access and rights</strong> – fenced reserves that excluded people in the past; land claims on protected areas.</li>\n<li><strong>Benefits</strong> – jobs and income from tourism, hunting, conservation programmes and co-management.</li></ul>\n<h4>History matters</h4>\n<p>Many protected areas were created by removing people, and conservation was often seen as serving the few. This history still affects trust. Since 1994 approaches such as community-based natural resource management (CBNRM), co-management agreements on restituted land, biodiversity stewardship with private and communal landowners, and public works programmes that clear invasive plants have aimed to link conservation with livelihoods.</p>\n<h4>Thinking in systems</h4>\n<p>Issues are linked. Overgrazing leads to erosion, which silts the dam, which reduces water for livestock, which concentrates animals around remaining water points and increases overgrazing there. A systems view helps find leverage points where an intervention has broad effect.</p>"
+  },
+  {
+   "title": "Analysing an issue",
+   "minutes": 20,
+   "html": "<h3>A step-by-step analysis</h3>\n<ol><li><strong>Describe the issue.</strong> What, where, how big, since when? Use maps, photos and simple measurements (e.g. gully depth, percentage bare ground, number of livestock losses).</li>\n<li><strong>Identify stakeholders.</strong> Resource users, landowners, traditional authorities, conservation agencies, municipalities, NGOs, businesses. Note their interests, influence and relationships.</li>\n<li><strong>Find causes.</strong> Use a problem tree: the trunk is the core problem, the roots are causes (direct and underlying, such as poverty, unclear tenure or weak institutions), the branches are effects.</li>\n<li><strong>Consider the policy and legal context.</strong> For example CARA 43 of 1983 (soil, veld and invasive plants), the National Water Act 36 of 1998, NEMA, biodiversity and protected areas legislation, and municipal by-laws.</li>\n<li><strong>Assess impacts</strong> on livelihoods, ecosystems, and different social groups.</li>\n<li><strong>Identify options</strong> and their trade-offs.</li></ol>\n<h3>Tools</h3>\n<table><tr><th>Tool</th><th>Use</th></tr>\n<tr><td>Stakeholder matrix</td><td>Interests, influence, positions</td></tr>\n<tr><td>Problem tree</td><td>Causes and effects</td></tr>\n<tr><td>Resource map and transect</td><td>Where problems and resources are</td></tr>\n<tr><td>Trend lines and timelines</td><td>How things changed over time</td></tr>\n<tr><td>SWOT analysis</td><td>Strengths, weaknesses, opportunities, threats of a proposed response</td></tr></table>\n<h3>Example: livestock losses to jackals</h3>\n<p>Effects: income loss, anger, illegal poisoning that also kills non-target animals such as vultures. Causes: unherded flocks, poor kraaling at night, loss of natural prey. Options: herders, livestock guarding dogs, kraaling at night, lambing in protected camps, compensation or insurance schemes. Each option has costs and benefits for farmers and for biodiversity.</p>\n<h3>Presenting findings</h3>\n<p>Report back to the community first, in accessible language, then to agencies. Include different viewpoints honestly and recommend options that balance conservation and livelihoods.</p>\n<h4>Key points</h4>\n<ul><li>Conservation and community needs are linked and can support or conflict with each other.</li>\n<li>History of exclusion affects trust in conservation today.</li>\n<li>Use systems thinking and problem trees to find root causes.</li>\n<li>Map stakeholders and consider the legal context.</li>\n<li>Report back to the community and recommend balanced options.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In a problem tree, what do the roots represent?",
+   "options": [
+    {
+     "text": "Effects",
+     "correct": false
+    },
+    {
+     "text": "Causes",
+     "correct": true
+    },
+    {
+     "text": "Solutions",
+     "correct": false
+    },
+    {
+     "text": "Stakeholders",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of human-wildlife conflict?",
+   "options": [
+    {
+     "text": "Building a road",
+     "correct": false
+    },
+    {
+     "text": "Planting maize",
+     "correct": false
+    },
+    {
+     "text": "Selling firewood",
+     "correct": false
+    },
+    {
+     "text": "Jackals killing small stock",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does history matter in conservation work?",
+   "options": [
+    {
+     "text": "Many protected areas were created by removing people, which affects trust",
+     "correct": true
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    },
+    {
+     "text": "History determines rainfall",
+     "correct": false
+    },
+    {
+     "text": "Only tourists care about history",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a non-lethal option for reducing livestock losses to jackals?",
+   "options": [
+    {
+     "text": "Poison bait",
+     "correct": false
+    },
+    {
+     "text": "Shooting all wildlife",
+     "correct": false
+    },
+    {
+     "text": "Livestock guarding dogs and kraaling at night",
+     "correct": true
+    },
+    {
+     "text": "Burning the veld",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a systems view help you find?",
+   "options": [
+    {
+     "text": "The cheapest fencing",
+     "correct": false
+    },
+    {
+     "text": "Leverage points where an intervention has broad effect",
+     "correct": true
+    },
+    {
+     "text": "The owner of a reserve",
+     "correct": false
+    },
+    {
+     "text": "Rainfall totals",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Illegal poisoning of predators can also kill non-target animals such as vultures.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Findings should be reported to agencies first and never shared with the community.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tools help analyse community and conservation issues? (select all that apply)",
+   "options": [
+    {
+     "text": "Stakeholder matrix",
+     "correct": true
+    },
+    {
+     "text": "Problem tree",
+     "correct": true
+    },
+    {
+     "text": "SWOT analysis",
+     "correct": true
+    },
+    {
+     "text": "Guessing",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

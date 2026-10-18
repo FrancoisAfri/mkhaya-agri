@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116125",
+ "title": "Apply crop protection and animal health products effectively and responsibly",
+ "lessons": [
+  {
+   "title": "Planning and mixing at the correct dose",
+   "minutes": 20,
+   "html": "<h3>The pre-application plan</h3><p>Before any spraying or dipping, your supervisor makes a plan. You must understand it and check it with them. The plan says:</p><ul><li>which <strong>product</strong> to use and why (the pest, disease, weed or parasite),</li><li>which <strong>field, block or group of animals</strong>,</li><li>the <strong>dose rate</strong> and the amount of water,</li><li>which <strong>equipment</strong> to use,</li><li>the <strong>PPE</strong> needed,</li><li>the <strong>re-entry</strong> and <strong>withholding</strong> periods on the label.</li></ul><p>Only use products registered under Act 36 of 1947 for that crop or animal. The label is the law: it tells you how to use the product.</p><h3>Check the weather and the area</h3><ul><li>Do not spray in strong wind. Spray drift can harm people, animals, bees, water and the neighbour's crops.</li><li>Do not spray if rain is coming soon, unless the label allows it.</li><li>Keep away from dams, rivers and boreholes.</li><li>Warn other workers and put up warning signs.</li></ul><h3>Check the equipment</h3><p>Check the sprayer, hoses, nozzles and dip tank for leaks and blockages. A calibrated sprayer gives the right amount. Your supervisor will show you how to check the output.</p><h3>Mixing</h3><ol><li>Put on full PPE before opening the container.</li><li>Mix in a safe place, away from water sources, on a surface where spills can be cleaned up.</li><li>Half-fill the tank with clean water.</li><li>Measure the product exactly with a measuring jug or scale kept only for chemicals. Never guess.</li><li>Add the product, then fill up with water while the agitator runs.</li><li>Triple-rinse empty containers and pour the rinse water into the tank.</li></ol><p>Too little product will not work, and pests can become resistant. Too much wastes money, harms the crop or animal, and leaves residues on food.</p>"
+  },
+  {
+   "title": "Applying safely",
+   "minutes": 20,
+   "html": "<h3>Applying to crops</h3><ul><li>Walk or drive at the steady speed you used for calibration.</li><li>Keep the boom or nozzle at the right height so the spray covers the plants evenly.</li><li>Spray with the wind behind you or from the side, so the spray moves away from you.</li><li>Do not spray over people, animals, water or houses.</li><li>Stop if the wind picks up.</li></ul><h3>Applying to animals</h3><p>Animal health products include dips, pour-ons, sprays and drenches against ticks, lice, flies and worms.</p><ul><li>Weigh or estimate the animals' mass if the dose depends on mass.</li><li>Keep the dip tank at the right strength, as the label and your supervisor say.</li><li>Do not dip animals that are hot, tired, thirsty or very young unless the label says it is safe.</li><li>Handle animals calmly in the crush or race.</li></ul><h3>Protecting yourself</h3><table><tr><th>PPE</th><th>Why</th></tr><tr><td>Chemical-resistant gloves</td><td>Most poisoning happens through the skin</td></tr><tr><td>Overall or apron</td><td>Protects body and clothes</td></tr><tr><td>Rubber boots, trousers over the boots</td><td>Stops spray running into boots</td></tr><tr><td>Goggles or face shield</td><td>Protects the eyes</td></tr><tr><td>Respirator, if the label says</td><td>Stops you breathing in fumes or dust</td></tr></table><h3>Never</h3><ul><li>Never eat, drink or smoke while working with chemicals.</li><li>Never blow out a blocked nozzle with your mouth. Use a soft brush or water.</li><li>Never put chemicals in food or drink bottles.</li><li>Never work alone with highly toxic products.</li><li>Never let children or untrained people near the mixing site.</li></ul><h4>Working with others</h4><p>Agree on hand signals with the tractor driver or team leader before spraying starts, so that you can stop the work quickly if there is a problem. Keep bystanders, children and animals out of the area being treated until the re-entry time on the label has passed.</p>"
+  },
+  {
+   "title": "After application, reporting and emergencies",
+   "minutes": 20,
+   "html": "<h3>Post-application procedures</h3><ol><li>Clean the sprayer: rinse the tank, hoses and nozzles, and spray the rinse water onto the treated area, as the label allows.</li><li>Triple-rinse empty containers, puncture them so they cannot be reused, and take them to the place your farm uses for chemical waste.</li><li>Store unused product in the locked chemical store, in its original container.</li><li>Wash your PPE, then wash yourself with soap and water. Wash work clothes separately from family clothes.</li><li>Put up or leave up the warning signs until the re-entry period is over.</li><li>Fill in the spray or treatment record: date, product, dose, area or animals treated, operator and weather.</li></ol><h3>Monitor and report</h3><p>Tell your supervisor about anything unusual: a blocked nozzle, a leak, drift, burnt leaves, sick animals, pests still present, or a product that looked different. Report what you saw, where and when.</p><h3>Emergencies</h3><p><strong>Signs of poisoning</strong> can include headache, dizziness, sweating, nausea, vomiting, blurred vision, tight chest and twitching. If you or a colleague show these signs:</p><ol><li>Stop work and move the person away from the chemical into fresh air.</li><li>Remove contaminated clothing.</li><li>Wash skin with lots of clean water and soap. For eyes, rinse with clean running water for at least 15 minutes.</li><li>Do not make the person vomit unless the label or a doctor says so.</li><li>Get medical help at once and take the <strong>product label</strong> with you.</li></ol><p>A national poison information helpline can give advice; your farm should display the number at the chemical store.</p><h3>Spills</h3><p>Keep people and animals away. Wear PPE. Stop the spill and cover it with sand or soil, then scoop it into a container for safe disposal. Never wash a spill into a drain or river. Report every spill.</p><h4>Key points</h4><ul><li>Follow the pre-application plan and the label: the label is the law.</li><li>Measure the product exactly and check the weather before spraying.</li><li>Wear full PPE and never eat, drink or smoke with chemicals.</li><li>Clean equipment, dispose of containers safely and keep records.</li><li>In poisoning, remove the person from the chemical, wash and get medical help with the label.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law covers the registration of agricultural remedies in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first when mixing a chemical into the spray tank?",
+   "options": [
+    {
+     "text": "Add the product to an empty tank",
+     "correct": false
+    },
+    {
+     "text": "Half-fill the tank with clean water",
+     "correct": true
+    },
+    {
+     "text": "Fill the tank right to the top",
+     "correct": false
+    },
+    {
+     "text": "Add the product with your hands",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you not spray in strong wind?",
+   "options": [
+    {
+     "text": "Spray drift can harm people, animals, water and other crops",
+     "correct": true
+    },
+    {
+     "text": "The sprayer uses more fuel",
+     "correct": false
+    },
+    {
+     "text": "The pump will break",
+     "correct": false
+    },
+    {
+     "text": "The label is harder to read",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a blocked nozzle be cleared?",
+   "options": [
+    {
+     "text": "Blow it out with your mouth",
+     "correct": false
+    },
+    {
+     "text": "Hit it with a spanner",
+     "correct": false
+    },
+    {
+     "text": "Spray harder until it clears",
+     "correct": false
+    },
+    {
+     "text": "Use a soft brush or water",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you take with you when a poisoned worker goes to the clinic?",
+   "options": [
+    {
+     "text": "The empty sprayer",
+     "correct": false
+    },
+    {
+     "text": "The spray record of last year",
+     "correct": false
+    },
+    {
+     "text": "The product label",
+     "correct": true
+    },
+    {
+     "text": "Their payslip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Too little product can let pests survive and become resistant.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A chemical spill should be washed into the nearest drain with lots of water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these belong in the spray or treatment record? (select all that apply)",
+   "options": [
+    {
+     "text": "The operator's favourite food",
+     "correct": false
+    },
+    {
+     "text": "The date and area treated",
+     "correct": true
+    },
+    {
+     "text": "The product and dose",
+     "correct": true
+    },
+    {
+     "text": "The name of the operator",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

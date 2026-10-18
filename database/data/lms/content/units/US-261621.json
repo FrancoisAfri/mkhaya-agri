@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261621",
+ "title": "Demonstrate basic knowledge of farm animal use in commercial and non-commercial farming systems",
+ "lessons": [
+  {
+   "title": "Animals used in farming and commercial systems",
+   "minutes": 15,
+   "html": "<h3>Which animals do we farm?</h3>\n<p>South African farms use a wide range of animals. Some are kept to earn money (commercial use), others mainly to feed a family, for work, for culture or as a store of wealth (non-commercial use). The same species can fall into both groups.</p>\n<table><tr><th>Animal</th><th>Main uses</th></tr>\n<tr><td>Cattle (beef and dairy)</td><td>Meat, milk, hides, draught, lobola and ceremonies</td></tr>\n<tr><td>Sheep</td><td>Mutton and lamb, wool (Merino), skins</td></tr>\n<tr><td>Goats</td><td>Meat, milk, mohair (Angora), cashmere, ceremonies</td></tr>\n<tr><td>Pigs</td><td>Pork, bacon, processed meat</td></tr>\n<tr><td>Poultry</td><td>Broilers for meat, layers for eggs, ducks, ostriches</td></tr>\n<tr><td>Horses, donkeys, mules</td><td>Work, transport, herding, sport</td></tr>\n<tr><td>Game</td><td>Venison, hunting, eco-tourism, live sales</td></tr></table>\n<h4>Typical commercial farming systems</h4>\n<ul><li><strong>Extensive</strong>: animals graze large camps of natural veld with low inputs, e.g. beef cattle in the Northern Cape or Merino sheep in the Karoo.</li>\n<li><strong>Semi-intensive</strong>: grazing plus supplementary feed or planted pastures, e.g. pasture-based dairies in the Eastern Cape.</li>\n<li><strong>Intensive</strong>: animals are housed or confined and fed rations, e.g. feedlots, broiler houses, layer cages and piggeries.</li></ul>\n<h4>Welfare concerns in commercial systems</h4>\n<p>Commercial systems produce affordable food in large volumes, but they raise concerns that a supervisor must watch for:</p>\n<ul><li>High stocking density leading to stress, fighting, tail biting in pigs or feather pecking in poultry.</li>\n<li>Painful procedures such as castration, dehorning, tail docking and beak trimming, which should be done at the right age, by trained people and with pain relief where available.</li>\n<li>Lameness and heat stress in feedlots and dairies.</li>\n<li>Long-distance transport to markets and abattoirs.</li>\n<li>Disease spread where many animals are kept together, and responsible use of antibiotics.</li></ul>\n<p>In extensive systems the concerns are different: animals may go unchecked for days, so drought, predators, ticks and stock theft can cause suffering before anyone notices.</p>"
+  },
+  {
+   "title": "Non-commercial systems and the codes that protect animals",
+   "minutes": 15,
+   "html": "<h3>Non-commercial farming</h3>\n<p>Millions of South Africans keep animals in communal and smallholder systems. Cattle graze communal land by day and are brought back to the kraal at night. Goats and chickens roam around the homestead. Animals provide milk, meat for special occasions, manure, draught power and a way to save wealth. Cattle often have deep cultural value in ceremonies and lobola.</p>\n<h4>Concerns in non-commercial systems</h4>\n<ul><li>Limited access to veterinary services and medicines.</li>\n<li>Overgrazing of communal veld, especially in drought.</li>\n<li>Poor control of ticks and internal parasites unless dip tanks are run well.</li>\n<li>Uncontrolled breeding and stray animals on roads.</li>\n<li>Ritual slaughter, which must be carried out quickly and with as little suffering as possible.</li>\n<li>Working donkeys and horses that are overloaded, poorly fed or have harness wounds.</li></ul>\n<p>Animal health technicians, community animal health workers and welfare organisations such as the SPCA play an important role in education and primary animal health care in these areas.</p>\n<h4>Legislation and codes of practice</h4>\n<p>The main laws that apply directly to farm animals include:</p>\n<ul><li><strong>Animals Protection Act 71 of 1962</strong>: makes cruelty to animals an offence, including overloading, starving, neglect and unnecessary suffering during transport.</li>\n<li><strong>Animal Diseases Act 35 of 1984</strong>: controls animal diseases, movement and dipping.</li>\n<li><strong>Animal Identification Act 6 of 2002</strong>: requires owners to mark their animals (for example with a registered brand or tattoo) to fight stock theft.</li>\n<li><strong>Meat Safety Act 40 of 2000</strong>: governs slaughter at registered abattoirs.</li></ul>\n<p>Industry bodies have also written <em>codes of practice</em> for the handling, transport and housing of cattle, sheep, pigs and poultry. These codes are guidelines agreed by the industry, and buyers and retailers often require farms to follow them. When in doubt, ask your manager for the code that applies to your animals.</p>\n<h4>Key points</h4>\n<ul><li>The same species can be farmed commercially and non-commercially.</li>\n<li>Commercial systems range from extensive veld grazing to intensive feedlots and broiler houses.</li>\n<li>Intensive systems raise concerns about density, painful procedures, heat stress and disease.</li>\n<li>Communal systems face limited vet access, overgrazing and parasite problems.</li>\n<li>Key laws include the Animals Protection Act 71 of 1962 and Animal Diseases Act 35 of 1984; industry codes of practice add detailed guidance.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is an example of an intensive farming system?",
+   "options": [
+    {
+     "text": "Merino sheep on Karoo veld",
+     "correct": false
+    },
+    {
+     "text": "Beef cattle in large veld camps",
+     "correct": false
+    },
+    {
+     "text": "Communal cattle grazing",
+     "correct": false
+    },
+    {
+     "text": "A broiler house",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law makes cruelty to animals an offence?",
+   "options": [
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": true
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the Animal Identification Act 6 of 2002 mainly help to fight?",
+   "options": [
+    {
+     "text": "Overgrazing",
+     "correct": false
+    },
+    {
+     "text": "Stock theft",
+     "correct": true
+    },
+    {
+     "text": "Feather pecking",
+     "correct": false
+    },
+    {
+     "text": "Heat stress",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which welfare concern is typical of extensive systems?",
+   "options": [
+    {
+     "text": "Animals going unchecked for days",
+     "correct": true
+    },
+    {
+     "text": "Cage confinement",
+     "correct": false
+    },
+    {
+     "text": "Beak trimming",
+     "correct": false
+    },
+    {
+     "text": "Tail biting from high density",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are industry codes of practice?",
+   "options": [
+    {
+     "text": "Criminal laws with fixed fines",
+     "correct": false
+    },
+    {
+     "text": "Vaccine labels",
+     "correct": false
+    },
+    {
+     "text": "Tax rules for farmers",
+     "correct": false
+    },
+    {
+     "text": "Guidelines agreed by the industry for handling, transport and housing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In communal systems, cattle often have cultural value in ceremonies and lobola.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Painful procedures such as castration have no welfare implications if done quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are concerns in non-commercial farming systems? (select all that apply)",
+   "options": [
+    {
+     "text": "Overloaded working donkeys",
+     "correct": true
+    },
+    {
+     "text": "Limited access to veterinary services",
+     "correct": true
+    },
+    {
+     "text": "Overgrazing of communal veld",
+     "correct": true
+    },
+    {
+     "text": "Too many automated feeders",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

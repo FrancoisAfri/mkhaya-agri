@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116156",
+ "title": "Collect agricultural data",
+ "lessons": [
+  {
+   "title": "Ways to collect farm data",
+   "minutes": 15,
+   "html": "<h3>What is farm data?</h3><p>Data is information we write down or measure. On a farm, data tells the farmer what is happening and helps him or her make good decisions. Examples:</p><ul><li>litres of milk from each cow,</li><li>number of eggs from each house,</li><li>rainfall each day,</li><li>mass of calves at weaning,</li><li>number of animals in each camp,</li><li>crates of fruit picked in each block,</li><li>feed, fuel and sprays used.</li></ul><h3>Simple ways to collect data</h3><table><tr><th>Method</th><th>Example</th></tr><tr><td><strong>Counting</strong></td><td>Counting sheep through a gate, eggs in trays, dead birds in a house</td></tr><tr><td><strong>Measuring</strong></td><td>Rain in the rain gauge, temperature on a thermometer, mass on a scale</td></tr><tr><td><strong>Observing</strong></td><td>Seeing which cow is lame, which plants have pests, what the weather is like</td></tr><tr><td><strong>Asking</strong></td><td>Asking the tractor driver how many hours he worked</td></tr></table><h3>Writing it down</h3><p>Data is only useful if it is written down correctly. Use the form, book or phone app the farm gives you. Every record needs:</p><ul><li>the <strong>date</strong> (and time if needed),</li><li><strong>where</strong>: camp, pen, house or block,</li><li><strong>what</strong> was counted or measured,</li><li>the <strong>number and unit</strong>, for example 25 mm, 12 kg, 340 eggs,</li><li><strong>your name</strong>.</li></ul><p>Write clearly. A 1 that looks like a 7 can cause a big mistake. If you make a mistake, cross it out with one line and write the right number next to it. Do not rub out or guess.</p><h4>A farm example</h4><p>Every morning at 08:00, Nomsa reads the rain gauge next to the farm office. She writes the date, 12 mm and her name in the rain book, then empties the gauge. At the end of the month the farmer adds up the rainfall to plan planting.</p>"
+  },
+  {
+   "title": "Collecting, reporting and caring for equipment",
+   "minutes": 15,
+   "html": "<h3>Follow the method you are given</h3><p>Your supervisor will tell you <strong>what</strong> to collect, <strong>how</strong>, and <strong>when</strong>. Do it the same way every time. For example, read the rain gauge at the same time every morning, or weigh calves on the same scale. If you change the method, the numbers cannot be compared.</p><h3>Reporting</h3><ul><li>Hand in your forms or send your records at the time agreed, usually every day or week.</li><li>Tell your supervisor straight away about anything unusual: very low milk, many dead chickens, a sudden pest outbreak, or a broken water pipe.</li><li>If you could not collect data, say so. Never make up numbers.</li></ul><h3>Using and caring for equipment</h3><table><tr><th>Equipment</th><th>Care</th></tr><tr><td>Rain gauge</td><td>Keep it level and clear of grass and trees; empty after reading</td></tr><tr><td>Scale</td><td>Check it shows zero before weighing; keep it clean and dry</td></tr><tr><td>Thermometer</td><td>Keep out of direct sun unless told otherwise; handle gently</td></tr><tr><td>Measuring tape</td><td>Wipe clean, roll up, keep dry</td></tr><tr><td>Phone or tablet</td><td>Keep charged, in a cover, away from water and dust</td></tr></table><p>Report broken or faulty equipment. A scale that reads wrong gives wrong data every time.</p><h3>Health and safety</h3><ul><li>When weighing or counting animals, stand in a safe place and do not get between animals and a wall.</li><li>Wear gloves and wash your hands after handling animals, dead birds or manure.</li><li>In fields that were sprayed, obey the re-entry signs before going in to scout.</li><li>Wear a hat and drink water when working in the sun.</li><li>Watch for snakes when checking traps or gauges in long grass.</li></ul><h4>Key points</h4><ul><li>Data can be collected by counting, measuring, observing and asking.</li><li>Every record needs date, place, what, number and unit, and your name.</li><li>Use the same method every time and never make up numbers.</li><li>Look after equipment and report faults.</li><li>Work safely around animals, chemicals and in the veld.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Reading the rain gauge is an example of which data collection method?",
+   "options": [
+    {
+     "text": "Asking",
+     "correct": false
+    },
+    {
+     "text": "Guessing",
+     "correct": false
+    },
+    {
+     "text": "Measuring",
+     "correct": true
+    },
+    {
+     "text": "Observing only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must every record have?",
+   "options": [
+    {
+     "text": "A photo",
+     "correct": false
+    },
+    {
+     "text": "The date, place, what was measured, the number with its unit and your name",
+     "correct": true
+    },
+    {
+     "text": "The farmer's signature only",
+     "correct": false
+    },
+    {
+     "text": "The weather forecast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You wrote a wrong number on the form. What should you do?",
+   "options": [
+    {
+     "text": "Rub it out until it is gone",
+     "correct": false
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    },
+    {
+     "text": "Cross it out with one line and write the right number next to it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check before weighing an animal?",
+   "options": [
+    {
+     "text": "That the scale is wet",
+     "correct": false
+    },
+    {
+     "text": "That the animal is asleep",
+     "correct": false
+    },
+    {
+     "text": "That the scale shows zero",
+     "correct": true
+    },
+    {
+     "text": "That the pen is empty",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you use the same method every time?",
+   "options": [
+    {
+     "text": "It is faster",
+     "correct": false
+    },
+    {
+     "text": "So the numbers can be compared",
+     "correct": true
+    },
+    {
+     "text": "The supervisor likes it",
+     "correct": false
+    },
+    {
+     "text": "So you need fewer forms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If you could not collect data one day, you should write a number that looks right.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should obey the re-entry signs before scouting in a sprayed field.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are examples of farm data? (select all that apply)",
+   "options": [
+    {
+     "text": "Daily rainfall",
+     "correct": true
+    },
+    {
+     "text": "Litres of milk from each cow",
+     "correct": true
+    },
+    {
+     "text": "The colour of the farm office walls",
+     "correct": false
+    },
+    {
+     "text": "Number of eggs from each house",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

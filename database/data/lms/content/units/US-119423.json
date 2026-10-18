@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119423",
+ "title": "Clean a poultry house and its equipment",
+ "lessons": [
+  {
+   "title": "Emptying and washing the house",
+   "minutes": 15,
+   "html": "<h3>Emptying and washing the house</h3><p>When a flock leaves the house, the house must be cleaned before new birds come in. Germs from the old flock stay in the litter, dust and equipment. If you do not clean well, the new chicks get sick.</p><h4>Safety first</h4><ul><li>Wear overalls, gumboots, gloves, a dust mask and eye protection.</li><li>Switch off and lock out electricity to the house before you wash. Water and electricity together can kill.</li><li>Never mix chemicals. Mixing some cleaners and disinfectants makes poison gas.</li><li>Use a ladder safely when cleaning high places. Do not stand on feeders or drinkers.</li></ul><h4>Steps to clean the house</h4><ol><li><strong>Remove the birds and leftover feed.</strong> Empty feeders and feed lines.</li><li><strong>Lift equipment.</strong> Raise feeder and drinker lines or take out loose equipment for washing outside.</li><li><strong>Dry clean.</strong> Brush down dust and cobwebs from the roof, walls, fans and curtains. Work from top to bottom.</li><li><strong>Remove the litter.</strong> Shovel or load out all old litter and take it to the place the farm uses, away from the houses.</li><li><strong>Sweep</strong> the floor clean.</li><li><strong>Wash.</strong> Soak the house with water and a detergent, then wash from top to bottom and from the back to the door. Scrub dirty spots.</li><li><strong>Rinse</strong> and let the water drain away.</li></ol><p>Why top to bottom? So dirt falls onto places you have not yet cleaned, not onto clean places.</p><p>A house must be clean before it can be disinfected. Disinfectant does not work on dirt and dung.</p><h4>Plan the work</h4><p>Your supervisor will tell you the day the flock leaves and the day new birds arrive. Cleaning must be finished in this time, with rest days for the house. Get your tools, water hose, pressure washer and chemicals ready before you start.</p>"
+  },
+  {
+   "title": "Disinfecting, equipment and checking",
+   "minutes": 15,
+   "html": "<h3>Disinfecting, equipment and checking</h3><h4>Cleaning equipment</h4><ul><li>Scrub feeder pans, drinkers, chick fonts and trays with detergent and water.</li><li>Flush water lines and clean the header tank. Use the line cleaner your supervisor gives you, mixed as the label says.</li><li>Clean fans, heaters and brooders carefully with the power off.</li><li>Rinse and leave equipment to dry in the sun if possible.</li></ul><h4>Disinfecting</h4><ol><li>Wait until the house is clean.</li><li>Mix the disinfectant exactly as the label says. Too weak does not kill germs; too strong wastes money and can harm you.</li><li>Spray the whole house: roof, walls, floor, equipment and the area outside the doors.</li><li>Leave the house closed and empty for the time the farm sets. This rest time helps kill germs.</li></ol><h4>Outside the house</h4><ul><li>Cut grass around the house.</li><li>Clean up spilt feed and old litter.</li><li>Fix holes where rats and wild birds can get in.</li><li>Clean and refill the foot bath.</li></ul><h4>Getting ready for the new flock</h4><ul><li>Put in clean, dry litter such as wood shavings.</li><li>Put back and set up feeders and drinkers.</li><li>Check that lights, fans, heaters and water work.</li><li>Your supervisor checks the house before birds come in.</li></ul><h4>Chemical storage</h4><p>Store cleaners and disinfectants in their own labelled containers in a locked store, away from feed. Never put chemicals in cool drink bottles. Wash your hands after use.</p><h4>Key points</h4><ul><li>Switch off power and wear protective clothing before washing.</li><li>Remove litter, dry clean, wash and rinse, top to bottom.</li><li>Disinfect only a clean house, mixing as the label says.</li><li>Never mix chemicals or store them in drink bottles.</li><li>Let the house rest empty before new birds arrive.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why do you clean a house from top to bottom?",
+   "options": [
+    {
+     "text": "So dirt falls on places not yet cleaned",
+     "correct": true
+    },
+    {
+     "text": "It is faster to finish at the roof",
+     "correct": false
+    },
+    {
+     "text": "So the floor dries first",
+     "correct": false
+    },
+    {
+     "text": "To save disinfectant",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before washing the house with water?",
+   "options": [
+    {
+     "text": "Turn up the heaters",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out the electricity",
+     "correct": true
+    },
+    {
+     "text": "Put in new litter",
+     "correct": false
+    },
+    {
+     "text": "Mix two disinfectants together",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the house be disinfected?",
+   "options": [
+    {
+     "text": "Before removing the litter",
+     "correct": false
+    },
+    {
+     "text": "While the birds are still inside",
+     "correct": false
+    },
+    {
+     "text": "After it has been cleaned and washed",
+     "correct": true
+    },
+    {
+     "text": "Only once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if disinfectant is mixed too weak?",
+   "options": [
+    {
+     "text": "It works better",
+     "correct": false
+    },
+    {
+     "text": "It smells nicer",
+     "correct": false
+    },
+    {
+     "text": "It dries faster",
+     "correct": false
+    },
+    {
+     "text": "It does not kill the germs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should cleaning chemicals be stored?",
+   "options": [
+    {
+     "text": "In cool drink bottles in the house",
+     "correct": false
+    },
+    {
+     "text": "In labelled containers in a locked store away from feed",
+     "correct": true
+    },
+    {
+     "text": "Next to the feed bags",
+     "correct": false
+    },
+    {
+     "text": "Outside on the ground",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mixing some cleaners and disinfectants can make poison gas.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Disinfectant works just as well on dirt and dung as on a clean floor.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which protective clothing should you wear when cleaning a poultry house? (select all that apply)",
+   "options": [
+    {
+     "text": "Gloves",
+     "correct": true
+    },
+    {
+     "text": "Dust mask",
+     "correct": true
+    },
+    {
+     "text": "Eye protection",
+     "correct": true
+    },
+    {
+     "text": "Open sandals",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

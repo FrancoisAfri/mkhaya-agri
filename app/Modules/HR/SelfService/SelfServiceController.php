@@ -29,8 +29,6 @@ class SelfServiceController extends Controller
             'pending_leaves'  => $person ? $this->pendingLeaves($person->id) : [],
             'recent_payslips' => $person ? $this->recentPayslips($person->id) : [],
             'announcements'   => $this->announcements(),
-            // No helpdesk in this product; the page still renders the (empty) panel.
-            'open_tickets'    => [],
             'assigned_assets' => $person ? $this->assignedAssets($user->id) : [],
         ]);
     }

@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-117902",
+ "title": "Use generic functions in a Graphical User Interface (GUI)-environment",
+ "lessons": [
+  {
+   "title": "Windows, menus and the desktop",
+   "minutes": 15,
+   "html": "<h3>Things that work the same in most programs</h3><p>Most programs in a GUI, like Word, Excel, email and the farm system, use the same basic controls. These are called generic functions. Once you learn them in one program, you can use them in others.</p><h4>A window</h4><p>Each open program shows in a window. At the top right are three buttons:</p><table><tr><th>Button</th><th>What it does</th></tr><tr><td>_ Minimise</td><td>Hides the window to the taskbar</td></tr><tr><td>□ Maximise / Restore</td><td>Makes the window fill the screen, or smaller again</td></tr><tr><td>X Close</td><td>Closes the window or program</td></tr></table><p>The bar at the top with the program name is the title bar. Drag it to move the window. Drag the edge of a window to make it bigger or smaller.</p><h4>Taskbar</h4><p>The taskbar at the bottom of the screen shows open programs. Click one to bring it to the front. You can also press Alt and Tab together to switch between windows.</p><h4>Menus and ribbons</h4><p>Programs have menus or a ribbon at the top with words like File, Home, Insert and View. Click a word to see the commands. The File menu usually has New, Open, Save, Save As, Print and Close.</p><h4>Dialog boxes</h4><p>Sometimes a box pops up to ask a question, like \"Do you want to save changes?\" Read it carefully before clicking Yes, No, OK or Cancel.</p>"
+  },
+  {
+   "title": "Open, save, print and edit",
+   "minutes": 15,
+   "html": "<h3>Everyday commands</h3><h4>Open</h4><p>File, then Open, find the file and double-click it. Or double-click the file in File Explorer.</p><h4>Save and Save As</h4><ul><li><strong>Save</strong> (Ctrl+S) – saves changes to the same file.</li><li><strong>Save As</strong> – saves a new copy with a new name or in a new place. Use it the first time you save, or when you want to keep the old version.</li><li>Save often, especially when there is load shedding.</li></ul><h4>Print</h4><ol><li>File, then Print, or press Ctrl+P.</li><li>Choose the right printer.</li><li>Choose how many copies and which pages.</li><li>Look at the preview, then click Print.</li></ol><p>Only print what you need, to save paper and ink.</p><h4>Editing</h4><table><tr><th>Command</th><th>Shortcut</th><th>What it does</th></tr><tr><td>Cut</td><td>Ctrl+X</td><td>Removes selected text so you can paste it elsewhere</td></tr><tr><td>Copy</td><td>Ctrl+C</td><td>Copies selected text</td></tr><tr><td>Paste</td><td>Ctrl+V</td><td>Puts cut or copied text where the cursor is</td></tr><tr><td>Undo</td><td>Ctrl+Z</td><td>Takes back your last action</td></tr><tr><td>Find</td><td>Ctrl+F</td><td>Finds a word in the document</td></tr></table><h4>Selecting</h4><p>To select text, click at the start and drag to the end. Double-click a word to select it. Ctrl+A selects everything.</p><h4>An example from the wool store</h4><p>The supervisor asks you to update the bale list. You open the file \"Bale register 2026-03\" from the shared folder. You find the bale number with Ctrl+F, type in the new mass, and press Ctrl+S to save. Then the supervisor asks for a copy for the transport company. You use Save As to save a copy called \"Bale list for transport 2026-03-15\", so the main register is not changed. Finally you press Ctrl+P, check the preview shows only the pages you need, and print one copy.</p>"
+  },
+  {
+   "title": "Help, settings and good habits",
+   "minutes": 15,
+   "html": "<h3>Getting help and working smart</h3><h4>Help</h4><ul><li>Many programs have a Help menu or a ? button. Press F1 for help in most programs.</li><li>Hover the mouse over a button and wait – a small label tells you what it does.</li><li>Ask your supervisor or IT person if you are stuck. Do not guess with important records.</li></ul><h4>Simple settings</h4><ul><li>Change zoom (Ctrl and the mouse wheel, or the zoom slider) to make text bigger on the screen. This does not change the printout.</li><li>Change the screen brightness or volume from the taskbar.</li><li>Do not change system settings that your office has set unless you are allowed.</li></ul><h4>When a program freezes</h4><ol><li>Wait a little – it may be busy.</li><li>If it stays frozen, press Ctrl+Alt+Delete and open Task Manager.</li><li>Choose the program and click End task. Unsaved work may be lost.</li><li>Tell your supervisor if it happens often.</li></ol><h4>Good habits</h4><ul><li>Save often and use clear names.</li><li>Close programs you are not using.</li><li>Read every message before clicking.</li><li>Lock the screen (Windows key + L) when you leave your desk.</li></ul><h4>Key points</h4><ul><li>Minimise, maximise and close buttons work the same in most windows.</li><li>Save (Ctrl+S) keeps changes; Save As makes a new copy.</li><li>Cut, copy, paste and undo use Ctrl+X, Ctrl+C, Ctrl+V and Ctrl+Z.</li><li>Use Help (F1) and tooltips when unsure.</li><li>If a program freezes, use Task Manager to end it, then report it.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the minimise button do?",
+   "options": [
+    {
+     "text": "Closes the program",
+     "correct": false
+    },
+    {
+     "text": "Hides the window to the taskbar",
+     "correct": true
+    },
+    {
+     "text": "Deletes the file",
+     "correct": false
+    },
+    {
+     "text": "Prints the page",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which shortcut undoes your last action?",
+   "options": [
+    {
+     "text": "Ctrl+S",
+     "correct": false
+    },
+    {
+     "text": "Ctrl+P",
+     "correct": false
+    },
+    {
+     "text": "Ctrl+Z",
+     "correct": true
+    },
+    {
+     "text": "Ctrl+A",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you use Save As?",
+   "options": [
+    {
+     "text": "To print a file",
+     "correct": false
+    },
+    {
+     "text": "When you want a new copy with a new name or in a new place",
+     "correct": true
+    },
+    {
+     "text": "Every time you type a letter",
+     "correct": false
+    },
+    {
+     "text": "To close the program",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which keys switch between open windows?",
+   "options": [
+    {
+     "text": "Ctrl+F",
+     "correct": false
+    },
+    {
+     "text": "Alt+Tab",
+     "correct": true
+    },
+    {
+     "text": "Ctrl+P",
+     "correct": false
+    },
+    {
+     "text": "Shift+Enter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A program has frozen and does not respond for a long time. What can you do?",
+   "options": [
+    {
+     "text": "Delete all files",
+     "correct": false
+    },
+    {
+     "text": "Pull out the power plug",
+     "correct": false
+    },
+    {
+     "text": "Use Ctrl+Alt+Delete, open Task Manager and end the task",
+     "correct": true
+    },
+    {
+     "text": "Hit the keyboard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Zooming in on the screen does not change the size of the printout.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should click OK on every dialog box without reading it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are commands usually found in the File menu? (select all that apply)",
+   "options": [
+    {
+     "text": "Open",
+     "correct": true
+    },
+    {
+     "text": "Print",
+     "correct": true
+    },
+    {
+     "text": "Undo typing",
+     "correct": false
+    },
+    {
+     "text": "Save",
+     "correct": true
+    },
+    {
+     "text": "Change screen brightness",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

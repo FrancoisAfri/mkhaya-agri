@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-116511",
+ "title": "Carry out basic first aid treatment in the workplace",
+ "lessons": [
+  {
+   "title": "What to do first in an emergency",
+   "minutes": 15,
+   "html": "<h3>First aid at work</h3>\n<p>Accidents happen on farms and in stables. A horse can kick, a person can fall, or someone can cut their hand. First aid is the help you give straight away, before a nurse, doctor or ambulance arrives. <strong>This lesson gives you basic knowledge. You must also do hands-on training with an accredited first aid provider.</strong></p>\n<h3>Step 1: Look for danger</h3>\n<ul>\n<li>Is a horse loose? Is a machine still running? Is there fire, electricity or chemicals?</li>\n<li>Keep yourself safe first. If you get hurt, you cannot help.</li>\n</ul>\n<h3>Step 2: Check the person</h3>\n<ul>\n<li>Talk loudly: \"Can you hear me?\" Tap their shoulders.</li>\n<li>Look if they are breathing: watch the chest go up and down.</li>\n</ul>\n<h3>Step 3: Call for help</h3>\n<ul>\n<li>Shout for help. Call your supervisor or the first aider.</li>\n<li>Phone <strong>10177</strong> for an ambulance, or <strong>112</strong> from a cell phone.</li>\n<li>Say where you are, what happened, and how the person is.</li>\n<li>Send someone to the farm gate to show the ambulance the way.</li>\n</ul>\n<h3>Step 4: Protect yourself from blood</h3>\n<p>Put on gloves from the first aid box before you touch blood. If there are no gloves, use a plastic bag over your hand.</p>\n<h3>The first aid box</h3>\n<p>Know where the first aid box is at your work. It has gloves, bandages, plasters, dressings and a triangle bandage. Tell your supervisor when things are used up.</p>"
+  },
+  {
+   "title": "Treating common injuries",
+   "minutes": 15,
+   "html": "<h3>Bleeding</h3>\n<ol>\n<li>Put on gloves.</li>\n<li>Press hard on the wound with a clean dressing or cloth.</li>\n<li>Keep pressing. If blood comes through, put another cloth on top. Do not take the first one off.</li>\n<li>Tie a bandage firmly over the dressing.</li>\n<li>Let the person lie down if they feel weak.</li>\n</ol>\n<h3>Small cuts and scrapes</h3>\n<p>Wash with clean water, dry, and cover with a plaster or clean dressing.</p>\n<h3>Burns</h3>\n<ul>\n<li>Cool the burn under cool running water for at least 20 minutes.</li>\n<li>Take off rings and watches.</li>\n<li>Cover with cling wrap or a clean cloth.</li>\n<li><strong>Never</strong> put butter, oil or toothpaste on a burn. Do not burst blisters.</li>\n</ul>\n<h3>Broken bones</h3>\n<ul>\n<li>Do not move the arm or leg. Keep it still.</li>\n<li>Support it with soft padding or a sling.</li>\n<li>Get medical help.</li>\n</ul>\n<h3>Head or neck injury</h3>\n<p>If someone fell from a horse and their neck or back hurts, <strong>do not move them</strong>. Keep the head still. Call for help.</p>\n<h3>Chemicals in the eye</h3>\n<p>Wash the eye with lots of clean running water for at least 15 minutes. Take the chemical container label to the clinic.</p>\n<h3>Fainting</h3>\n<p>Lay the person down and lift the legs a little. Loosen tight clothes. Give fresh air.</p>\n<h3>Afterwards</h3>\n<ul>\n<li>Tell your supervisor about every injury, even small ones.</li>\n<li>The injury must be written in the incident book.</li>\n<li>Wash your hands with soap.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Check for danger first and keep yourself safe.</li>\n<li>Phone 10177 or 112 and send someone to the gate.</li>\n<li>Wear gloves when there is blood.</li>\n<li>Press hard on a bleeding wound.</li>\n<li>Cool burns with running water for 20 minutes.</li>\n<li>Do not move a person with a neck or back injury.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first thing to do in an emergency?",
+   "options": [
+    {
+     "text": "Run to the person",
+     "correct": false
+    },
+    {
+     "text": "Phone your family",
+     "correct": false
+    },
+    {
+     "text": "Look for danger",
+     "correct": true
+    },
+    {
+     "text": "Give the person water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which number calls an ambulance in South Africa?",
+   "options": [
+    {
+     "text": "10177",
+     "correct": true
+    },
+    {
+     "text": "10111",
+     "correct": false
+    },
+    {
+     "text": "911",
+     "correct": false
+    },
+    {
+     "text": "123",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do you put on before touching blood?",
+   "options": [
+    {
+     "text": "A hat",
+     "correct": false
+    },
+    {
+     "text": "Boots",
+     "correct": false
+    },
+    {
+     "text": "A jacket",
+     "correct": false
+    },
+    {
+     "text": "Gloves",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you stop bleeding?",
+   "options": [
+    {
+     "text": "Wash it with soap only",
+     "correct": false
+    },
+    {
+     "text": "Press hard on the wound with a clean cloth",
+     "correct": true
+    },
+    {
+     "text": "Leave it open to the air",
+     "correct": false
+    },
+    {
+     "text": "Put butter on it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How long should you cool a burn under running water?",
+   "options": [
+    {
+     "text": "10 seconds",
+     "correct": false
+    },
+    {
+     "text": "1 minute",
+     "correct": false
+    },
+    {
+     "text": "At least 20 minutes",
+     "correct": true
+    },
+    {
+     "text": "2 hours",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should put toothpaste on a burn.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If someone fell and their neck hurts, you should not move them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you do after giving first aid? (select all that apply)",
+   "options": [
+    {
+     "text": "Tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Write it in the incident book",
+     "correct": true
+    },
+    {
+     "text": "Wash your hands with soap",
+     "correct": true
+    },
+    {
+     "text": "Hide the injury",
+     "correct": false
+    },
+    {
+     "text": "Throw the first aid box away",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119443",
+ "title": "Utilise cold storage and despatch practices in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Why the cold chain matters",
+   "minutes": 15,
+   "html": "<h3>Keeping chicken cold from line to customer</h3>\n<p>Chicken meat spoils fast when it gets warm. Germs such as <em>Salmonella</em> and <em>Campylobacter</em> grow quickly in warm meat. Cold slows them down. That is why every abattoir has chillers, freezers and cold rooms. The chain of cold places from the processing line to the shop is called the <strong>cold chain</strong>. If one link breaks, the meat can become unsafe, even if it looks fine.</p>\n<h4>Fresh and frozen</h4>\n<ul>\n<li><strong>Fresh (chilled) chicken</strong> is kept cold but not frozen. Most plants keep it at 4 &deg;C or colder. Your plant sets the exact limit.</li>\n<li><strong>Frozen chicken</strong> is kept hard frozen, usually at -18 &deg;C or colder. Your plant sets the exact limit.</li>\n</ul>\n<p>Never mix them up. Fresh product must never go into a store where it can partly freeze and thaw. Frozen product must never sit on a warm dock.</p>\n<h4>Your job in the cold chain</h4>\n<ol>\n<li>Move product from the line into the cold room quickly. Do not leave crates or boxes standing in the passage.</li>\n<li>Read the thermometer or display on the cold room at the start of your shift and at the times on the checklist.</li>\n<li>Write the temperature, time and your name on the temperature record sheet.</li>\n<li>If the temperature is too high, tell your supervisor at once. Do not wait for the end of the shift.</li>\n<li>Keep doors closed. Every time a door stays open, warm air gets in.</li>\n</ol>\n<h4>Clean and tidy stores</h4>\n<p>Cold rooms must be clean. Wipe up spills, keep drains clear and report ice build-up on floors or fans. Keep product off the floor on pallets or racks. Never store chemicals, tools or personal food in a product cold room. Raw product and packed product must be kept apart so that drips from one cannot fall on the other.</p>\n<p>Under the Meat Safety Act 40 of 2000, the abattoir must keep meat safe and hygienic. The records you write help the plant prove to inspectors that the cold chain was kept.</p>"
+  },
+  {
+   "title": "Storing product correctly",
+   "minutes": 15,
+   "html": "<h3>Putting product away the right way</h3>\n<p>Good storage keeps chicken cold, safe and easy to find. A messy cold room wastes time and causes old stock to be forgotten.</p>\n<h4>Stock rotation</h4>\n<p>Use <strong>FIFO</strong> &ndash; First In, First Out. The oldest stock must go out first. Many plants use <strong>FEFO</strong> &ndash; First Expiry, First Out &ndash; which means the box with the earliest date goes first. Always read the date code on the label before you pick.</p>\n<ul>\n<li>Put new stock behind or under the older stock.</li>\n<li>Keep each product in its own marked place: whole birds, portions, offal, frozen IQF packs.</li>\n<li>Check that every box has a clear label with product name, date and batch number.</li>\n</ul>\n<h4>Stacking</h4>\n<ul>\n<li>Stack boxes square and straight. Do not stack higher than the marked height.</li>\n<li>Leave space between pallets and walls so cold air can move around the product.</li>\n<li>Never block the cooling fans or the emergency door.</li>\n<li>Heavy boxes at the bottom, light boxes on top.</li>\n<li>Remove damaged or wet boxes and tell your supervisor.</li>\n</ul>\n<h4>Working safely in the cold</h4>\n<p>Cold rooms and freezers can hurt you. Floors can be icy and the cold can cause frostbite.</p>\n<ul>\n<li>Wear the issued freezer jacket, gloves, boots and head cover.</li>\n<li>Take the breaks your plant gives for warming up.</li>\n<li>Know where the inside door release and alarm button are. Never jam a door closed.</li>\n<li>Tell someone before you go into a freezer. Never work in a blast freezer alone.</li>\n<li>Only trained and licensed workers may drive forklifts or pallet movers.</li>\n</ul>\n<p>If you see a broken door seal, a light that does not work or an alarm that sounds, report it. The OHS Act 85 of 1993 says employees must report unsafe conditions and use the protective clothing they are given.</p>"
+  },
+  {
+   "title": "Despatch and loading",
+   "minutes": 15,
+   "html": "<h3>Getting the order out safely</h3>\n<p>Despatch is the last step in the abattoir. The product must reach the customer cold, clean, correct and on time.</p>\n<h4>Picking the order</h4>\n<ol>\n<li>Get the order sheet or picking list from the despatch clerk.</li>\n<li>Pick the right product, the right pack size and the right number of boxes.</li>\n<li>Use FIFO or FEFO &ndash; take the oldest good stock first.</li>\n<li>Check each label. Do not send product that is past its date, damaged or not labelled.</li>\n<li>Count again before you move the order to the loading bay.</li>\n</ol>\n<h4>Checking the truck</h4>\n<p>Before loading, the refrigerated truck must be checked:</p>\n<ul>\n<li>The truck body is clean, with no smell, dirt or old blood.</li>\n<li>The fridge unit is running and the truck is already cold (pre-cooled).</li>\n<li>The truck temperature is written on the despatch record.</li>\n</ul>\n<p>If the truck is dirty or warm, do not load. Tell the supervisor.</p>\n<h4>Loading</h4>\n<ul>\n<li>Load quickly. Do not leave product standing on the loading dock.</li>\n<li>Keep the truck doors closed between loads where possible, or use the dock seal.</li>\n<li>Stack so that air can flow and boxes cannot fall over during the trip.</li>\n<li>Keep fresh and frozen product apart unless the truck has separate sections.</li>\n<li>Load the last delivery first, so the first delivery is near the door.</li>\n</ul>\n<h4>Paperwork</h4>\n<p>The driver and the despatch clerk sign the delivery note. Check that the number of boxes on the note matches what is in the truck. Write down the time and the product temperature if your plant asks for it. Good records help if a customer complains or if product must be recalled.</p>\n<h4>Key points</h4>\n<ul>\n<li>Fresh chicken stays chilled and frozen chicken stays hard frozen &ndash; follow your plant's limits.</li>\n<li>Check and record cold room temperatures, and report problems at once.</li>\n<li>Use FIFO or FEFO and read every label.</li>\n<li>Only load clean, pre-cooled trucks, and load quickly.</li>\n<li>Wear freezer clothing and know where the inside door release is.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the cold chain?",
+   "options": [
+    {
+     "text": "The chain used to hang birds on the line",
+     "correct": false
+    },
+    {
+     "text": "The line of cold places that keeps meat cold from the line to the shop",
+     "correct": true
+    },
+    {
+     "text": "A list of cold room cleaners",
+     "correct": false
+    },
+    {
+     "text": "The alarm in the freezer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does FIFO mean?",
+   "options": [
+    {
+     "text": "Fast In, Fast Out",
+     "correct": false
+    },
+    {
+     "text": "Fresh In, Frozen Out",
+     "correct": false
+    },
+    {
+     "text": "Full In, Full Out",
+     "correct": false
+    },
+    {
+     "text": "First In, First Out",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The cold room temperature is too high. What should you do?",
+   "options": [
+    {
+     "text": "Tell your supervisor at once",
+     "correct": true
+    },
+    {
+     "text": "Wait until the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Open the door to let air in",
+     "correct": false
+    },
+    {
+     "text": "Move the thermometer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before loading, what must be true about the refrigerated truck?",
+   "options": [
+    {
+     "text": "It must be parked in the sun",
+     "correct": false
+    },
+    {
+     "text": "It must have the doors open for an hour",
+     "correct": false
+    },
+    {
+     "text": "It must be clean and already cold",
+     "correct": true
+    },
+    {
+     "text": "It must be empty of fuel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which order should you load deliveries in?",
+   "options": [
+    {
+     "text": "First delivery first",
+     "correct": false
+    },
+    {
+     "text": "Last delivery first, so the first delivery is near the door",
+     "correct": true
+    },
+    {
+     "text": "Any order",
+     "correct": false
+    },
+    {
+     "text": "Heaviest delivery last",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to store your lunch in a product cold room.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should never work in a blast freezer alone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are safe ways to work in a freezer? (select all that apply)",
+   "options": [
+    {
+     "text": "Wear the issued freezer jacket and gloves",
+     "correct": true
+    },
+    {
+     "text": "Know where the inside door release is",
+     "correct": true
+    },
+    {
+     "text": "Jam the door closed so it stays shut",
+     "correct": false
+    },
+    {
+     "text": "Tell someone before you go in",
+     "correct": true
+    },
+    {
+     "text": "Block the fans with boxes",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

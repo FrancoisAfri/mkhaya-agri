@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116160",
+ "title": "Apply basic human resource management principles and practices applicable in an agricultural environment",
+ "lessons": [
+  {
+   "title": "Workplace rules and the labour laws",
+   "minutes": 15,
+   "html": "<h3>What is human resource management?</h3><p>Human resource management (HR) is how a farm looks after its people: hiring, pay, leave, rules, safety, training and records. Every farm should have clear rules so that everyone knows what is expected and is treated fairly.</p><h3>Rules and procedures on the farm</h3><ul><li><strong>Working hours</strong>: when you start, when you take breaks and when you finish.</li><li><strong>Reporting absence</strong>: if you are sick or cannot come to work, tell your supervisor as early as you can.</li><li><strong>Disciplinary procedure</strong>: the steps followed when someone breaks a rule, such as a verbal warning, a written warning and a hearing. You have the right to tell your side of the story.</li><li><strong>Grievance procedure</strong>: the steps you follow if you have a complaint about your work or how you are treated. Usually you first speak to your supervisor, and if that does not help you go to the next manager.</li></ul><h3>Labour laws that protect farm workers</h3><table><tr><th>Law</th><th>What it covers</th></tr><tr><td>Basic Conditions of Employment Act 75 of 1997</td><td>Working hours, overtime, leave, payslips</td></tr><tr><td>Sectoral Determination for Farm Workers</td><td>Extra rules for the farm sector</td></tr><tr><td>National Minimum Wage Act 9 of 2018</td><td>The lowest wage that may be paid</td></tr><tr><td>Labour Relations Act 66 of 1995</td><td>Fair dismissal, unions, disputes (CCMA)</td></tr><tr><td>Employment Equity Act 55 of 1998</td><td>No unfair discrimination</td></tr><tr><td>Occupational Health and Safety Act 85 of 1993</td><td>A safe workplace</td></tr><tr><td>Compensation for Occupational Injuries and Diseases Act 130 of 1993</td><td>Pay and care if you are injured at work</td></tr><tr><td>Unemployment Insurance Act 63 of 2001</td><td>UIF payments if you lose your job</td></tr></table><p>You do not need to know every detail. You must know that these laws exist, and where to ask: your supervisor, the farm office, or the Department of Employment and Labour.</p>"
+  },
+  {
+   "title": "Contracts and benefits",
+   "minutes": 15,
+   "html": "<h3>Your employment contract</h3><p>When you start work, you should get the main terms of your job <strong>in writing</strong>. This shows your name, job, start date, working hours, wage, how often you are paid and your leave.</p><h3>Types of contracts and agreements</h3><ul><li><strong>Permanent contract</strong>: no end date. You work until you resign, retire or are fairly dismissed.</li><li><strong>Fixed-term contract</strong>: for a set time, for example six months.</li><li><strong>Seasonal contract</strong>: for a season, such as the harvest or pruning season.</li><li><strong>Casual or day work</strong>: for a short job.</li><li><strong>Collective agreement</strong>: an agreement between the employer and a trade union about pay and conditions for a group of workers.</li><li><strong>Housing agreement</strong>: if you live on the farm, there may be a separate agreement about the house.</li></ul><p>Read your contract or ask someone to read it to you. Do not sign anything you do not understand. Keep your copy safe.</p><h3>Benefits at work</h3><p>A benefit is something you receive from your work besides your wage. Some are required by law and some depend on the farm.</p><ul><li><strong>Annual leave</strong>: paid holiday every year.</li><li><strong>Sick leave</strong>: paid days when you are ill, usually with a doctor's note if you are away longer.</li><li><strong>Family responsibility leave</strong> and <strong>maternity leave</strong>.</li><li><strong>UIF</strong>: you and the employer both pay a small amount each month.</li><li><strong>COIDA</strong>: covers you if you are injured at work.</li><li>Farm benefits such as housing, transport, protective clothing, a pension or provident fund, or medical aid.</li></ul><p>Your payslip shows your wage and every deduction. Check it every pay day and ask the farm office if something looks wrong.</p>"
+  },
+  {
+   "title": "Health and safety rules and HR records",
+   "minutes": 15,
+   "html": "<h3>Health and safety at work</h3><p>The Occupational Health and Safety Act 85 of 1993 says the employer must make the workplace safe, and workers must also work safely. Your duties are:</p><ul><li>Follow the safety rules and instructions.</li><li>Wear the protective clothing (PPE) you are given, such as boots, gloves and masks.</li><li>Use machines and tools only if you are trained to use them.</li><li>Report any unsafe situation and every injury, even a small one, to your supervisor.</li><li>Never work under the influence of alcohol or drugs.</li></ul><p>You may refuse to do work that is clearly dangerous to your life, but tell your supervisor or health and safety representative at once.</p><h3>Human resource records</h3><p>The farm keeps records about every worker. These include:</p><ul><li>contracts and personal details (ID number, address, next of kin),</li><li>attendance registers and clock cards,</li><li>leave forms,</li><li>wage records and payslips,</li><li>training certificates,</li><li>injury reports and disciplinary records.</li></ul><h3>Filing records properly</h3><ol><li>Put each document in the right worker's file, usually filed by surname or employee number.</li><li>Write clearly and date every form.</li><li>Keep files in a locked cabinet or a password-protected computer. Personal information is private and is protected by law (the Protection of Personal Information Act).</li><li>Do not take files home or show them to other workers.</li><li>Return a file to its place as soon as you are done.</li></ol><p>Good records help you too: they prove how much leave you have, what you were paid and what training you have done.</p><h4>Key points</h4><ul><li>Know the farm's rules, disciplinary and grievance procedures.</li><li>Labour laws such as the BCEA, LRA, OHS Act and COIDA protect farm workers.</li><li>Get your contract in writing and do not sign what you do not understand.</li><li>Check your payslip and know your leave and other benefits.</li><li>Keep HR records accurate, filed correctly and private.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law covers working hours, leave and payslips?",
+   "options": [
+    {
+     "text": "National Water Act",
+     "correct": false
+    },
+    {
+     "text": "Basic Conditions of Employment Act",
+     "correct": true
+    },
+    {
+     "text": "Animals Protection Act",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What type of contract is used for the harvest season only?",
+   "options": [
+    {
+     "text": "Permanent contract",
+     "correct": false
+    },
+    {
+     "text": "Collective agreement",
+     "correct": false
+    },
+    {
+     "text": "Housing agreement",
+     "correct": false
+    },
+    {
+     "text": "Seasonal contract",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the grievance procedure for?",
+   "options": [
+    {
+     "text": "Punishing workers who are late",
+     "correct": false
+    },
+    {
+     "text": "Applying for a loan",
+     "correct": false
+    },
+    {
+     "text": "Raising a complaint about your work or treatment",
+     "correct": true
+    },
+    {
+     "text": "Ordering protective clothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law gives you cover if you are injured at work?",
+   "options": [
+    {
+     "text": "COIDA (Compensation for Occupational Injuries and Diseases Act)",
+     "correct": true
+    },
+    {
+     "text": "Employment Equity Act",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act",
+     "correct": false
+    },
+    {
+     "text": "National Minimum Wage Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should HR files be kept?",
+   "options": [
+    {
+     "text": "In a locked cabinet or protected computer",
+     "correct": true
+    },
+    {
+     "text": "On the supervisor's desk for everyone to see",
+     "correct": false
+    },
+    {
+     "text": "At the worker's house",
+     "correct": false
+    },
+    {
+     "text": "In the tractor shed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should sign a contract even if you do not understand it, and ask questions later.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers must report every injury at work, even a small one.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are benefits a farm worker may receive? (select all that apply)",
+   "options": [
+    {
+     "text": "Protective clothing",
+     "correct": true
+    },
+    {
+     "text": "Annual leave",
+     "correct": true
+    },
+    {
+     "text": "UIF",
+     "correct": true
+    },
+    {
+     "text": "A warning letter",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

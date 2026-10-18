@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-14214",
+ "title": "Evaluate and improve the project team`s performance",
+ "lessons": [
+  {
+   "title": "Setting standards and measuring performance",
+   "minutes": 20,
+   "html": "<h3>Teams make projects work</h3>\n<p>Whether it is a LandCare team rehabilitating a donga, an extension team running farmer field schools, or a farm project team building a packshed, results depend on how well the team performs. Evaluating performance is not about blaming people. It is about knowing whether the team is on track, understanding why, and helping it improve.</p>\n<h4>Start with clear expectations</h4>\n<ul><li><strong>Team goals</strong> linked to project objectives, e.g. \"Build 2 km of contour bank in the upper catchment by the end of August.\"</li>\n<li><strong>Roles and responsibilities</strong> – who does what. A simple responsibility chart shows who is Responsible, Accountable, Consulted and Informed (RACI) for each task.</li>\n<li><strong>Performance standards</strong> – quality (e.g. contour banks built to the surveyed level), quantity, time, cost and safety.</li>\n<li><strong>Team norms</strong> – agreed behaviour: punctuality, communication, respect, safety rules.</li></ul>\n<p>Make goals SMART: specific, measurable, achievable, relevant and time-bound.</p>\n<h4>Measuring performance</h4>\n<table><tr><th>Area</th><th>Indicator</th><th>Source of evidence</th></tr>\n<tr><td>Output</td><td>Metres of fence, hectares cleared, farmers trained</td><td>Progress reports, site inspections, attendance registers</td></tr>\n<tr><td>Quality</td><td>Rework needed, specification met</td><td>Inspection checklists, photos</td></tr>\n<tr><td>Time and cost</td><td>Milestones met, budget variance</td><td>Project schedule, financial reports</td></tr>\n<tr><td>Safety</td><td>Incidents, near misses, PPE compliance</td><td>Incident register, toolbox talk records</td></tr>\n<tr><td>Team process</td><td>Communication, cooperation, morale, absenteeism</td><td>Observation, team surveys, attendance</td></tr></table>\n<p>Collect evidence regularly, not only at the end. Combine hard data with feedback from team members, stakeholders and beneficiaries. A short monthly review is better than one big evaluation when it is too late to change.</p>"
+  },
+  {
+   "title": "Analysing gaps and improving",
+   "minutes": 20,
+   "html": "<h3>Finding the cause</h3>\n<p>When the team falls short, ask why before acting. Common causes:</p>\n<ul><li><strong>Unclear goals or roles</strong> – people do not know what is expected.</li>\n<li><strong>Skills gaps</strong> – e.g. team members cannot use a dumpy level or read a site plan.</li>\n<li><strong>Resources</strong> – late materials, broken equipment, transport problems.</li>\n<li><strong>Motivation</strong> – late stipends, poor recognition, conflict, unfair workload.</li>\n<li><strong>External factors</strong> – rain delays, community disputes, permit delays.</li></ul>\n<p>Use tools such as a fishbone (cause-and-effect) diagram or \"5 whys\" with the team. Involving the team improves accuracy and ownership.</p>\n<h3>Team development stages</h3>\n<p>Tuckman's model describes forming, storming, norming and performing. Conflict in the storming stage is normal; the leader's role is to clarify roles and help the team agree norms so it can move on.</p>\n<h3>Improvement actions</h3>\n<ul><li>Clarify goals and roles; update the RACI chart.</li>\n<li>Training, coaching and mentoring for skills gaps; pair experienced and new members.</li>\n<li>Fix resource and logistics problems with the project manager.</li>\n<li>Recognise good performance publicly; address poor performance privately and fairly, in line with labour law and the organisation's disciplinary code.</li>\n<li>Improve communication: short daily briefings, toolbox talks, a team WhatsApp group with clear rules.</li>\n<li>Manage conflict early.</li></ul>\n<h3>Action plan and follow-up</h3>\n<p>Write an improvement plan: problem, action, responsible person, deadline, and how success will be measured. Review it at the next team meeting. Give constructive feedback: describe the specific behaviour, its impact, and what to do differently, and invite the person's view.</p>\n<h4>Key points</h4>\n<ul><li>Set SMART team goals, clear roles and performance standards.</li>\n<li>Measure output, quality, time, cost, safety and team process using evidence.</li>\n<li>Analyse causes of gaps with the team before acting.</li>\n<li>Use training, resources, recognition and communication to improve.</li>\n<li>Write an action plan and follow up regularly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does SMART stand for?",
+   "options": [
+    {
+     "text": "Specific, measurable, achievable, relevant, time-bound",
+     "correct": true
+    },
+    {
+     "text": "Simple, modern, active, real, tested",
+     "correct": false
+    },
+    {
+     "text": "Safe, managed, approved, recorded, timed",
+     "correct": false
+    },
+    {
+     "text": "Strategic, monetary, annual, reviewed, tracked",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a RACI chart, what does the A stand for?",
+   "options": [
+    {
+     "text": "Available",
+     "correct": false
+    },
+    {
+     "text": "Assessed",
+     "correct": false
+    },
+    {
+     "text": "Accountable",
+     "correct": true
+    },
+    {
+     "text": "Absent",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which stage of Tuckman's model typically involves conflict?",
+   "options": [
+    {
+     "text": "Forming",
+     "correct": false
+    },
+    {
+     "text": "Storming",
+     "correct": true
+    },
+    {
+     "text": "Norming",
+     "correct": false
+    },
+    {
+     "text": "Performing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool helps find the root cause of a performance gap?",
+   "options": [
+    {
+     "text": "A payslip",
+     "correct": false
+    },
+    {
+     "text": "A rainfall chart",
+     "correct": false
+    },
+    {
+     "text": "A cash book",
+     "correct": false
+    },
+    {
+     "text": "A fishbone diagram or 5 whys",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should poor performance by an individual be addressed?",
+   "options": [
+    {
+     "text": "Publicly at a community meeting",
+     "correct": false
+    },
+    {
+     "text": "Ignored until the end",
+     "correct": false
+    },
+    {
+     "text": "Privately and fairly, in line with labour law and the disciplinary code",
+     "correct": true
+    },
+    {
+     "text": "By cutting the whole team's stipend",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Regular short reviews are better than one evaluation at the end of the project.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Evaluating team performance is mainly about finding someone to blame.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are sources of evidence for team performance? (select all that apply)",
+   "options": [
+    {
+     "text": "Site inspection checklists",
+     "correct": true
+    },
+    {
+     "text": "Attendance registers",
+     "correct": true
+    },
+    {
+     "text": "Incident register",
+     "correct": true
+    },
+    {
+     "text": "Rumours from outside the project",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

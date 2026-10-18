@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-254066",
+ "title": "Operate a reticulation pump station",
+ "lessons": [
+  {
+   "title": "The reticulation pump station and its components",
+   "minutes": 20,
+   "html": "<h3>What a reticulation pump station does</h3><p>A reticulation pump station moves water from a source (reservoir, tank, dam or borehole) into a distribution network: pipes supplying irrigation zones, a farm village, livestock troughs or an estate. It must deliver the right flow at the right pressure, reliably, day after day.</p><h4>Typical components</h4><table><tr><th>Component</th><th>Function</th></tr><tr><td>Sump or suction tank</td><td>Water source for the pumps; level monitored</td></tr><tr><td>Suction manifold, strainers, isolating valves</td><td>Feed water to each pump; allow isolation</td></tr><tr><td>Duty and standby pumps</td><td>Duty pump runs normally; standby takes over on failure or maintenance; many stations alternate them to share wear</td></tr><tr><td>Non-return valves</td><td>Prevent backflow through stopped pumps</td></tr><tr><td>Delivery manifold, isolating valves, air valves</td><td>Combine pump outputs into the mainline</td></tr><tr><td>Pressure vessel or variable speed drive (VSD)</td><td>Maintain pressure and reduce pump starts</td></tr><tr><td>Flow meter and pressure gauges or transmitters</td><td>Measure performance</td></tr><tr><td>Control panel</td><td>Starters, protection relays, level and pressure controls, alarms, possibly telemetry</td></tr><tr><td>Surge protection</td><td>Surge vessels or valves to limit water hammer</td></tr></table><h4>Control methods</h4><ul><li><strong>Pressure control:</strong> pressure switches or transmitters start and stop pumps between set points.</li><li><strong>Level control:</strong> floats or level probes in the receiving reservoir start pumps when the level falls and stop them when full; low-level probes in the sump protect against dry running.</li><li><strong>Variable speed drives:</strong> adjust pump speed to keep a constant pressure as demand changes, saving energy.</li><li><strong>Timers:</strong> to pump in off-peak electricity periods where tariffs make this worthwhile.</li></ul><h4>Safety in the pump station</h4><ul><li>Only authorised, trained operators; electrical work by qualified electricians.</li><li>Lock out before mechanical work; keep guards on couplings.</li><li>Keep the station dry, lit and ventilated; water and electricity are a deadly combination.</li><li>Sumps and chambers can be confined spaces; never enter without a permit and standby person.</li><li>Hearing protection where noise is high.</li></ul>"
+  },
+  {
+   "title": "Starting, running and stopping the station",
+   "minutes": 20,
+   "html": "<h3>Before start-up</h3><ol><li>Check the sump or source level is above the minimum.</li><li>Check the suction and delivery isolating valves of the pump to be started are open as the procedure requires (some stations start against a partly closed delivery valve).</li><li>Check the pump is primed: casing full of water, air bled.</li><li>Check that guards are fitted, the area is clear, and no one is working on the system.</li><li>Check the control panel: no alarms, selector switches in the correct mode (manual or auto), duty pump selected.</li></ol><h4>Starting</h4><ul><li>Start the pump from the panel. Watch the delivery pressure rise and the motor current settle (as indicated on the panel).</li><li>If starting against a partly closed valve, open it slowly to the normal position. Slow valve operation prevents water hammer.</li><li>Check for unusual noise, vibration, leaks and that the non-return valve operates.</li><li>Confirm flow on the flow meter.</li><li>Switch to automatic if that is the normal mode.</li></ul><h4>Monitoring during operation</h4><table><tr><th>Parameter</th><th>Why</th></tr><tr><td>Suction level</td><td>Prevent dry running and cavitation</td></tr><tr><td>Delivery pressure</td><td>Confirms supply to network; sudden drop may mean a burst</td></tr><tr><td>Flow</td><td>Shows demand; unexpected high flow at night may indicate a leak</td></tr><tr><td>Motor current and temperature</td><td>Overload or bearing problems</td></tr><tr><td>Pump starts per hour</td><td>Too many starts damages motors</td></tr><tr><td>Reservoir levels</td><td>Confirms the system is keeping up</td></tr></table><p>Read and record values at set times on the log sheet or check telemetry.</p><h4>Stopping</h4><ol><li>For a manual stop, close the delivery valve slowly if the procedure requires, then stop the pump.</li><li>For maintenance, isolate electrically and lock out, close suction and delivery valves, drain if needed.</li><li>Make sure the standby pump is available so supply continues.</li></ol><h4>Power failures</h4><p>After a power outage or load shedding, check the station restarts correctly, that no pump is running dry, and that time-based settings are still right. Stations with standby generators must have changeover switching installed by an electrician and generators tested regularly.</p>"
+  },
+  {
+   "title": "Responding to faults and keeping records",
+   "minutes": 15,
+   "html": "<h3>Alarms and common faults</h3><table><tr><th>Alarm or symptom</th><th>Possible cause</th><th>First response</th></tr><tr><td>Low sump level</td><td>Source not refilling, borehole failing, valve closed</td><td>Confirm pumps stopped; check supply; report</td></tr><tr><td>High pressure</td><td>Valve closed downstream, faulty control</td><td>Stop pump if needed; find closed valve</td></tr><tr><td>Low pressure, high flow</td><td>Burst pipe</td><td>Locate burst; isolate section; report</td></tr><tr><td>Motor trip (overload)</td><td>Mechanical binding, electrical fault, running off curve</td><td>Do not keep resetting; call electrician; switch to standby</td></tr><tr><td>Pump runs but no flow</td><td>Lost prime, closed valve, broken coupling</td><td>Stop; check prime and valves</td></tr><tr><td>Frequent starting</td><td>Waterlogged pressure tank, leaking non-return valve, small leak</td><td>Check tank charge and valves</td></tr></table><p>Repeated resetting of an overload without finding the cause can burn out the motor. Report and escalate faults according to the station's procedure.</p><h4>Routine maintenance by the operator</h4><ul><li>Keep the station clean and dry; remove rubbish and check drainage.</li><li>Check and clean suction strainers.</li><li>Exercise isolating valves periodically so they do not seize.</li><li>Alternate duty and standby pumps if not automatic.</li><li>Check gland drips, bearing temperatures, oil levels.</li><li>Report vibration, leaks and noise for maintenance.</li></ul><h4>Records</h4><ul><li><strong>Log sheet:</strong> date, time, levels, pressures, flows, hours run, energy meter readings, pump in duty.</li><li><strong>Incident and fault log:</strong> alarms, actions taken, who was notified.</li><li><strong>Maintenance records:</strong> work done and parts used.</li><li><strong>Water volumes:</strong> required where abstraction is licensed or registered under the National Water Act 36 of 1998.</li></ul><p>Trends in flow and energy use help spot leaks and inefficient pumps, saving water and rand.</p><h4>Key points</h4><ul><li>Know the station's components, control method and duty/standby arrangement.</li><li>Check levels, valves, prime and guards before start-up.</li><li>Open and close valves slowly to avoid water hammer.</li><li>Monitor level, pressure, flow, current and starts; record them.</li><li>Do not keep resetting tripped motors; find the cause and report.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the purpose of a standby pump?",
+   "options": [
+    {
+     "text": "To double pressure all the time",
+     "correct": false
+    },
+    {
+     "text": "To fill the sump",
+     "correct": false
+    },
+    {
+     "text": "To take over on failure or during maintenance",
+     "correct": true
+    },
+    {
+     "text": "To measure flow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a variable speed drive do in a pump station?",
+   "options": [
+    {
+     "text": "Adjusts pump speed to keep pressure constant as demand changes",
+     "correct": true
+    },
+    {
+     "text": "Starts the generator",
+     "correct": false
+    },
+    {
+     "text": "Filters the water",
+     "correct": false
+    },
+    {
+     "text": "Measures sump level",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Low pressure combined with unusually high flow most likely means what?",
+   "options": [
+    {
+     "text": "A closed valve",
+     "correct": false
+    },
+    {
+     "text": "A waterlogged tank",
+     "correct": false
+    },
+    {
+     "text": "A clean strainer",
+     "correct": false
+    },
+    {
+     "text": "A burst pipe",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should delivery valves be opened slowly?",
+   "options": [
+    {
+     "text": "To save power",
+     "correct": false
+    },
+    {
+     "text": "To prevent water hammer",
+     "correct": true
+    },
+    {
+     "text": "To prime the pump",
+     "correct": false
+    },
+    {
+     "text": "To reset alarms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a motor overload keeps tripping?",
+   "options": [
+    {
+     "text": "Keep resetting it",
+     "correct": false
+    },
+    {
+     "text": "Bypass the overload",
+     "correct": false
+    },
+    {
+     "text": "Stop resetting, switch to standby and call an electrician",
+     "correct": true
+    },
+    {
+     "text": "Increase the set point",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Low-level probes in the sump protect pumps from running dry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A pump station sump can be entered by anyone without a permit.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which values should be recorded on the pump station log sheet? (select all that apply)",
+   "options": [
+    {
+     "text": "Delivery pressure",
+     "correct": true
+    },
+    {
+     "text": "Flow and hours run",
+     "correct": true
+    },
+    {
+     "text": "The operator's shoe size",
+     "correct": false
+    },
+    {
+     "text": "Sump and reservoir levels",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

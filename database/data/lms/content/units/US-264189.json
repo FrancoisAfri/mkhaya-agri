@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264189",
+ "title": "Develop the cut rose frame",
+ "lessons": [
+  {
+   "title": "What the frame is and why it matters",
+   "minutes": 15,
+   "html": "<h3>The rose frame</h3>\n<p>In cut rose production, the <strong>frame</strong> is the basic structure of the plant: the strong main stems (basal shoots) that grow from the bud union near the ground. All the flowering stems grow from this frame. A strong, well-built frame gives many high-quality, long stems for years. A weak frame gives short, thin stems that do not sell.</p>\n<h4>Parts of a young rose plant</h4>\n<ul><li><strong>Rootstock</strong> – the root part, chosen for strong roots.</li>\n<li><strong>Bud union (graft union)</strong> – where the flowering variety was grafted or budded onto the rootstock.</li>\n<li><strong>Basal shoots (bottom breaks)</strong> – thick, strong shoots from the bud union. These form the frame.</li>\n<li><strong>Suckers</strong> – shoots from the rootstock below the bud union. They are not the variety and must be removed.</li></ul>\n<h4>The aim</h4>\n<p>The farm sets the target, for example a certain number of strong basal shoots per plant. To get there, young plants are first grown for leaves and roots, not for flowers. Leaves make food. Food builds roots and the frame.</p>\n<h4>Bending (arching)</h4>\n<p>Many South African rose growers use the bending system. Thin, weak and early shoots are bent over, not cut. The bent stems stay on the plant at the bottom and feed it with their leaves. This energy helps the plant push out new, strong basal shoots. The bent leaves form a \"lower canopy\" which feeds the plant. Your supervisor will show you how the farm does it.</p>"
+  },
+  {
+   "title": "Building the frame step by step",
+   "minutes": 15,
+   "html": "<h3>Steps after planting</h3>\n<ol><li><strong>Pinch the first flower buds.</strong> On young plants, remove the small flower buds early (pinching) so that energy goes into growth and roots.</li>\n<li><strong>Bend weak shoots.</strong> Hold the shoot near the base and gently bend it over, down into the path or between the beds, without breaking it off. A small crack is acceptable; a full break is not.</li>\n<li><strong>Let strong basal shoots grow.</strong> When a thick shoot comes from the bud union, let it grow up. Pinch its first bud at the right stage (the soft pinch) as your farm instructs, so it branches and becomes stronger.</li>\n<li><strong>Remove suckers.</strong> Pull or cut suckers off cleanly at the rootstock. Suckers look different: leaves often have seven or more leaflets and a different colour.</li>\n<li><strong>Remove blind shoots</strong> if the farm instructs, or bend them down to feed the plant.</li>\n<li><strong>Repeat</strong> until the plant has the target number of strong basal shoots.</li></ol>\n<h3>Good care during frame development</h3>\n<ul><li>Water and feed exactly as the farm programme says. Young roses need steady moisture.</li>\n<li>Keep beds weed-free.</li>\n<li>Scout for pests like red spider mite and diseases like powdery mildew, and report them.</li>\n<li>Do not walk on the beds. This packs the soil hard.</li></ul>\n<h3>Recording</h3>\n<p>Count basal shoots per plant in sample beds and write it down. This shows the supervisor if the frame is developing well.</p>\n<h3>Safety</h3>\n<ul><li>Wear gloves and long sleeves against thorns.</li>\n<li>Respect the re-entry time after spraying.</li>\n<li>Keep secateurs sharp and clean, and close them when you walk.</li>\n<li>Bend from your knees to avoid back strain during long periods of bending work.</li></ul>\n<h4>Key points</h4>\n<ul><li>The frame is the strong basal shoots from the bud union that carry all future flowers.</li>\n<li>Pinch early flower buds so young plants grow roots and leaves.</li>\n<li>Bend weak shoots down to feed the plant instead of cutting them off.</li>\n<li>Remove suckers from the rootstock.</li>\n<li>Count and record basal shoots to track progress.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the frame of a cut rose plant?",
+   "options": [
+    {
+     "text": "The greenhouse structure",
+     "correct": false
+    },
+    {
+     "text": "The strong basal shoots from the bud union",
+     "correct": true
+    },
+    {
+     "text": "The flower head",
+     "correct": false
+    },
+    {
+     "text": "The irrigation pipes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a sucker?",
+   "options": [
+    {
+     "text": "A strong basal shoot of the variety",
+     "correct": false
+    },
+    {
+     "text": "A pest that sucks sap",
+     "correct": false
+    },
+    {
+     "text": "A flower bud",
+     "correct": false
+    },
+    {
+     "text": "A shoot from the rootstock below the bud union",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are early flower buds pinched on young plants?",
+   "options": [
+    {
+     "text": "So energy goes into growth and roots",
+     "correct": true
+    },
+    {
+     "text": "To sell them early",
+     "correct": false
+    },
+    {
+     "text": "To kill the plant",
+     "correct": false
+    },
+    {
+     "text": "To attract bees",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is done with weak, thin shoots in the bending system?",
+   "options": [
+    {
+     "text": "They are cut off at the ground",
+     "correct": false
+    },
+    {
+     "text": "They are sprayed",
+     "correct": false
+    },
+    {
+     "text": "They are bent over so their leaves feed the plant",
+     "correct": true
+    },
+    {
+     "text": "They are tied upright",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you not walk on the rose beds?",
+   "options": [
+    {
+     "text": "It wakes the plants",
+     "correct": false
+    },
+    {
+     "text": "It packs the soil hard",
+     "correct": true
+    },
+    {
+     "text": "It makes the roses grow faster",
+     "correct": false
+    },
+    {
+     "text": "It is a waste of time",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Suckers should be left on the plant because they make it stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Counting basal shoots in sample beds helps show if the frame is developing well.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks help develop a strong frame? (select all that apply)",
+   "options": [
+    {
+     "text": "Pinching early flower buds",
+     "correct": true
+    },
+    {
+     "text": "Bending weak shoots",
+     "correct": true
+    },
+    {
+     "text": "Walking on the beds",
+     "correct": false
+    },
+    {
+     "text": "Removing suckers",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

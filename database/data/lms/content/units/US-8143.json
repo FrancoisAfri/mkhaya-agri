@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8143",
+ "title": "Implement and run promotions",
+ "lessons": [
+  {
+   "title": "Planning a promotion",
+   "minutes": 20,
+   "html": "<h3>What a promotion is for</h3><p>A promotion is a short-term activity to increase sales or achieve another specific goal: clear slow or short-dated stock, launch a new product, attract new customers, build loyalty, or win back market share from a competitor. Examples in agri retail include a pre-planting fertiliser special, a \"buy 10 bags of lick, get a free mineral block\" deal, a winter feed demonstration day, or a supplier-sponsored animal health talk with discounts on the day.</p><h4>Set a clear, measurable objective</h4><p>\"Sell more dewormer\" is vague. \"Increase dewormer sales by 25% compared with the same four weeks last year, at a GP% of at least 18%\" can be measured. Set the objective before deciding on the mechanism.</p><h4>Choosing the mechanism</h4><table><tr><th>Mechanism</th><th>Best for</th><th>Watch out for</th></tr><tr><td>Price discount</td><td>Quick volume, clearing stock</td><td>Eroding margin; customers waiting for specials</td></tr><tr><td>Bundle or multi-buy</td><td>Raising basket size</td><td>Stock of both items must be sufficient</td></tr><tr><td>Free gift or sample</td><td>New product trial</td><td>Cost of gift; supplier support</td></tr><tr><td>Competition or lucky draw</td><td>Footfall, data collection</td><td>Consumer Protection Act rules for promotional competitions; POPIA for entries</td></tr><tr><td>Demonstration or farmers' day</td><td>Technical products, relationships</td><td>Planning, safety and venue costs</td></tr></table><h4>Planning details</h4><ul><li>Timing: align with the farming calendar and avoid clashing with other promotions.</li><li>Stock: confirm quantities with buyers and suppliers in advance; running out mid-promotion damages credibility.</li><li>Pricing: load promotional prices in the system with exact start and end dates.</li><li>Budget: discounts, advertising, materials, staff overtime, catering. Negotiate supplier contributions.</li><li>Approvals: get management sign-off on the plan, budget and any legal wording.</li></ul>"
+  },
+  {
+   "title": "Running the promotion",
+   "minutes": 20,
+   "html": "<h3>Before launch</h3><ol><li><strong>Brief staff.</strong> Everyone on the floor and at the till must know the offer, the rules, the dates and the products included. Give a one-page summary.</li><li><strong>Prepare stock.</strong> Receive and position promotional stock, with back-up stock accessible.</li><li><strong>Set up displays and signage.</strong> Signs must state the offer clearly, including any conditions such as \"while stocks last\" or \"limit 5 per customer\". The displayed price must be the price charged.</li><li><strong>Test the till.</strong> Ring up a test transaction to confirm the promotional price or bundle discount applies correctly.</li><li><strong>Advertise.</strong> Use channels farmers actually see: WhatsApp broadcast groups, local radio, the co-op newsletter, flyers at the counter, notice boards at the auction pens, and social media.</li></ol><h4>During the promotion</h4><ul><li>Monitor sales and stock daily. Re-order early if stock is moving faster than planned.</li><li>Keep displays full, neat and safe.</li><li>Handle customer queries consistently; refer exceptions to the supervisor.</li><li>Watch for problems: till errors, misunderstandings, competitor responses.</li><li>Keep a log of issues and customer feedback.</li></ul><h4>Demonstration days</h4><p>For a demonstration, such as a supplier showing a new knapsack sprayer or calibrating a planter, plan for safety. Keep the public at a safe distance from working equipment, never use real chemicals near spectators unless the event is planned and controlled by a qualified person, and have a first aid kit and first aider present.</p><h4>Ethics and law</h4><p>The Consumer Protection Act 68 of 2008 requires that promotions are not misleading. Do not advertise a \"special\" that is not actually cheaper, hide important conditions, or run bait advertising where the advertised item is not reasonably available. Honour the promoted price for the advertised period.</p>"
+  },
+  {
+   "title": "Ending and evaluating",
+   "minutes": 15,
+   "html": "<h3>Closing the promotion</h3><ul><li>Remove all promotional signage on the end date.</li><li>Confirm that system prices revert correctly; test at the till.</li><li>Return or reposition leftover promotional stock.</li><li>Collect supplier claims for agreed contributions, with sales data as proof.</li></ul><h4>Evaluating results</h4><p>Compare results with the objective. Typical measures:</p><table><tr><th>Measure</th><th>Example</th></tr><tr><td>Unit sales vs. same period last year</td><td>Dewormer up 32% (target 25%)</td></tr><tr><td>GP% achieved</td><td>19% (target 18%)</td></tr><tr><td>Total promotion cost</td><td>R14,000 incl. advertising and gift items</td></tr><tr><td>Incremental gross profit</td><td>R22,500</td></tr><tr><td>New customers or accounts</td><td>11 new accounts opened</td></tr></table><p>Consider effects beyond the promotion: did sales of other products rise (halo effect), or did customers just buy earlier than they would have (pull-forward)? Did sales drop after the promotion?</p><h4>Reporting</h4><p>Write a short report: objective, what was done, results against target, costs, problems and recommendations. File it with the plan so the next promotion builds on what was learned.</p><h4>Key points</h4><ul><li>Set a measurable objective before choosing the mechanism.</li><li>Confirm stock, prices, budget and approvals before launch.</li><li>Brief staff and test the till price.</li><li>Promotions must not be misleading under the Consumer Protection Act.</li><li>Evaluate against the objective and report lessons learned.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a measurable promotion objective?",
+   "options": [
+    {
+     "text": "Increase dewormer sales by 25% over four weeks at GP% of at least 18%",
+     "correct": true
+    },
+    {
+     "text": "Make customers happy",
+     "correct": false
+    },
+    {
+     "text": "Have a nice display",
+     "correct": false
+    },
+    {
+     "text": "Sell more dewormer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before launch to make sure the till charges correctly?",
+   "options": [
+    {
+     "text": "Ask a customer to check",
+     "correct": false
+    },
+    {
+     "text": "Nothing; the system is always right",
+     "correct": false
+    },
+    {
+     "text": "Wait for complaints",
+     "correct": false
+    },
+    {
+     "text": "Ring up a test transaction",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which risk is linked to frequent price discounts?",
+   "options": [
+    {
+     "text": "Too few customers",
+     "correct": false
+    },
+    {
+     "text": "Lower footfall",
+     "correct": false
+    },
+    {
+     "text": "Customers waiting for specials and eroding margin",
+     "correct": true
+    },
+    {
+     "text": "More stock",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is 'pull-forward' in promotion evaluation?",
+   "options": [
+    {
+     "text": "Customers buying earlier than they otherwise would",
+     "correct": true
+    },
+    {
+     "text": "A type of display",
+     "correct": false
+    },
+    {
+     "text": "A supplier rebate",
+     "correct": false
+    },
+    {
+     "text": "Moving stock to the front",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which act requires that promotions are not misleading?",
+   "options": [
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Consumer Protection Act 68 of 2008",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Promotional signage should be removed on the end date of the promotion.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Running out of promoted stock mid-promotion has no effect on credibility.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be confirmed before a promotion launches? (select all that apply)",
+   "options": [
+    {
+     "text": "Stock quantities",
+     "correct": true
+    },
+    {
+     "text": "Management approval",
+     "correct": true
+    },
+    {
+     "text": "System prices with start and end dates",
+     "correct": true
+    },
+    {
+     "text": "The colour of staff shoes",
+     "correct": false
+    },
+    {
+     "text": "The competitor's staff names",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

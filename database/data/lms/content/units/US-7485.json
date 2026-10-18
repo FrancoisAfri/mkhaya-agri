@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-7485",
+ "title": "Demonstrate understanding of real and complex number systems",
+ "lessons": [
+  {
+   "title": "The real number system",
+   "minutes": 20,
+   "html": "<h3>Classifying numbers</h3><p>Numbers are organised into nested sets:</p><table><tr><th>Set</th><th>Symbol</th><th>Examples</th></tr><tr><td>Natural numbers</td><td>ℕ</td><td>1, 2, 3, ...</td></tr><tr><td>Whole numbers</td><td>ℕ₀</td><td>0, 1, 2, ...</td></tr><tr><td>Integers</td><td>ℤ</td><td>..., −2, −1, 0, 1, 2, ...</td></tr><tr><td>Rational numbers</td><td>ℚ</td><td>a/b with a, b integers, b ≠ 0: ¾, −2.5, 0.333...</td></tr><tr><td>Irrational numbers</td><td></td><td>√2, π, e: non-terminating, non-recurring decimals</td></tr><tr><td>Real numbers</td><td>ℝ</td><td>All rationals and irrationals</td></tr></table><p>A rational number's decimal either terminates (0.25) or recurs (0.1666...). Irrational numbers cannot be written as fractions of integers.</p><h4>Properties of real numbers</h4><ul><li>Closure: adding or multiplying two reals gives a real.</li><li>Commutative: a + b = b + a; ab = ba.</li><li>Associative: (a + b) + c = a + (b + c).</li><li>Distributive: a(b + c) = ab + ac.</li><li>Identity: a + 0 = a; a × 1 = a.</li><li>Inverse: a + (−a) = 0; a × (1/a) = 1 for a ≠ 0.</li></ul><h4>Surds, exponents and rounding</h4><p>Surds such as √50 simplify: √50 = √25 × √2 = 5√2. Exponent laws: aᵐ × aⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁻ⁿ = 1/aⁿ, a^(1/n) = ⁿ√a.</p><p>In business, rounding matters. Interest calculations, VAT and conversion between kilograms and tonnes produce non-terminating decimals. Round only at the final step, and to an appropriate precision (cents for money). Rounding too early in a calculation over 1,000 tonnes of grain can make a noticeable difference to the invoice.</p><h4>Where the reals fall short</h4><p>The equation x² + 1 = 0 has no real solution, because the square of any real number is non-negative. This motivates the complex numbers.</p>"
+  },
+  {
+   "title": "Complex numbers and operations",
+   "minutes": 20,
+   "html": "<h3>Defining i</h3><p>Define the imaginary unit i with i² = −1. A <strong>complex number</strong> has the form z = a + bi, where a is the real part, Re(z), and b is the imaginary part, Im(z). The set of complex numbers is ℂ, and every real number is a complex number with b = 0.</p><h4>Powers of i</h4><p>i¹ = i, i² = −1, i³ = −i, i⁴ = 1, and the pattern repeats every four powers. So i¹⁰ = i⁸ × i² = −1.</p><h4>Operations</h4><ul><li><strong>Addition:</strong> (3 + 2i) + (1 − 5i) = 4 − 3i.</li><li><strong>Subtraction:</strong> (3 + 2i) − (1 − 5i) = 2 + 7i.</li><li><strong>Multiplication:</strong> (3 + 2i)(1 − 5i) = 3 − 15i + 2i − 10i² = 3 − 13i + 10 = 13 − 13i.</li><li><strong>Conjugate:</strong> the conjugate of z = a + bi is z̄ = a − bi. Note z × z̄ = a² + b², a real number.</li><li><strong>Division:</strong> multiply top and bottom by the conjugate of the denominator. (2 + i)/(1 − i) = (2 + i)(1 + i)/[(1 − i)(1 + i)] = (2 + 2i + i + i²)/2 = (1 + 3i)/2 = ½ + (3/2)i.</li></ul><h4>Equality</h4><p>a + bi = c + di only if a = c and b = d. This lets you solve equations by comparing real and imaginary parts.</p><h4>Solving quadratics</h4><p>For ax² + bx + c = 0, x = [−b ± √(b² − 4ac)] / 2a. If the discriminant b² − 4ac &lt; 0, the roots are complex conjugates.</p><p>Example: x² − 4x + 13 = 0. Discriminant = 16 − 52 = −36. √(−36) = 6i. x = (4 ± 6i)/2 = 2 ± 3i.</p>"
+  },
+  {
+   "title": "The Argand diagram and polar form",
+   "minutes": 20,
+   "html": "<h3>Representing complex numbers</h3><p>The <strong>Argand diagram</strong> plots z = a + bi as the point (a; b), with the real axis horizontal and the imaginary axis vertical. Addition of complex numbers corresponds to adding vectors.</p><h4>Modulus and argument</h4><ul><li><strong>Modulus:</strong> |z| = √(a² + b²), the distance from the origin.</li><li><strong>Argument:</strong> arg z = θ, the angle from the positive real axis, with tan θ = b/a. Check the quadrant: for z = −1 + i, θ = 135° (3π/4), not −45°.</li></ul><p>Example: z = 3 + 4i has |z| = 5 and θ = tan⁻¹(4/3) ≈ 53.1°.</p><h4>Polar form</h4><p>z = r(cos θ + i sin θ), where r = |z|. In polar form, multiplication and division are simple:</p><ul><li>Multiply: moduli multiply and arguments add.</li><li>Divide: moduli divide and arguments subtract.</li><li>De Moivre's theorem: [r(cos θ + i sin θ)]ⁿ = rⁿ(cos nθ + i sin nθ).</li></ul><p>Example: (1 + i)⁴. |1 + i| = √2, θ = 45°. So (1 + i)⁴ = (√2)⁴ (cos 180° + i sin 180°) = 4(−1 + 0i) = −4.</p><h4>Why it matters</h4><p>Complex numbers are used in electrical engineering (alternating current in irrigation pumps, motors and power systems), signal processing, control systems and the analysis of oscillating systems. A technician analysing the power factor of a centre-pivot motor uses the same algebra. Understanding the number systems also builds the reasoning needed for higher mathematics and technical work.</p><h4>Key points</h4><ul><li>ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ; irrationals are non-recurring, non-terminating decimals.</li><li>Round only at the final step of calculations.</li><li>i² = −1 and powers of i repeat every four.</li><li>Divide complex numbers by multiplying by the conjugate.</li><li>|z| = √(a² + b²); in polar form, moduli multiply and arguments add.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which number is irrational?",
+   "options": [
+    {
+     "text": "0.25",
+     "correct": false
+    },
+    {
+     "text": "¾",
+     "correct": false
+    },
+    {
+     "text": "√2",
+     "correct": true
+    },
+    {
+     "text": "−3",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is i³?",
+   "options": [
+    {
+     "text": "1",
+     "correct": false
+    },
+    {
+     "text": "−1",
+     "correct": false
+    },
+    {
+     "text": "i",
+     "correct": false
+    },
+    {
+     "text": "−i",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is (3 + 2i)(1 − 5i)?",
+   "options": [
+    {
+     "text": "13 − 13i",
+     "correct": true
+    },
+    {
+     "text": "3 − 10i",
+     "correct": false
+    },
+    {
+     "text": "−7 − 13i",
+     "correct": false
+    },
+    {
+     "text": "4 − 3i",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are the roots of x² − 4x + 13 = 0?",
+   "options": [
+    {
+     "text": "2 ± 3i",
+     "correct": true
+    },
+    {
+     "text": "4 ± 6i",
+     "correct": false
+    },
+    {
+     "text": "−2 ± 3i",
+     "correct": false
+    },
+    {
+     "text": "2 ± 6i",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the modulus of 3 + 4i?",
+   "options": [
+    {
+     "text": "7",
+     "correct": false
+    },
+    {
+     "text": "5",
+     "correct": true
+    },
+    {
+     "text": "25",
+     "correct": false
+    },
+    {
+     "text": "1",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Every real number is also a complex number.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When multiplying complex numbers in polar form, the arguments are multiplied.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which statements are correct? (select all that apply)",
+   "options": [
+    {
+     "text": "√50 = 5√2",
+     "correct": true
+    },
+    {
+     "text": "A rational number's decimal terminates or recurs",
+     "correct": true
+    },
+    {
+     "text": "i² = 1",
+     "correct": false
+    },
+    {
+     "text": "z × z̄ is always real",
+     "correct": true
+    },
+    {
+     "text": "π is rational",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

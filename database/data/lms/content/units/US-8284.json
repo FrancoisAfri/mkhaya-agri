@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8284",
+ "title": "Selling goods and services",
+ "lessons": [
+  {
+   "title": "Preparing to sell",
+   "minutes": 20,
+   "html": "<h3>Selling in agri trade</h3><p>Selling goods and services in agriculture is consultative. Farmers buy inputs to solve production problems: weeds in a maize land, poor condition of cattle in winter, ticks on calves, a broken irrigation line. A good salesperson understands the farming problem first and then recommends a solution. This builds trust, repeat business and referrals.</p><h4>Know your products and services</h4><ul><li>Features: what the product is or has (a 25 kg bag of protein lick with a specific crude protein content per the label).</li><li>Advantages: what the features do (supplements protein deficient winter veld).</li><li>Benefits: what it means for this customer (cattle hold condition through winter, better conception rates in spring).</li></ul><p>Also know services: delivery, credit accounts, technical advice, equipment repair, soil or feed analysis through partners.</p><h4>Know your customers and market</h4><p>Understand the farming systems in your area, the calendar, and current conditions such as drought, disease outbreaks or commodity price changes. Before a farm visit, review the customer's purchase history, account status and any open issues.</p><h4>Prospecting</h4><p>New customers come from referrals, farmers' days, study groups, agricultural shows, new land reform beneficiaries and emerging farmer programmes, and enquiries at the counter. Keep a record of prospects and follow up.</p><h4>Planning a sales call</h4><ol><li>Set an objective: \"Secure the winter lick order for 300 head.\"</li><li>Prepare information: product leaflets, price list, stock availability, delivery options.</li><li>Anticipate questions and objections.</li><li>Arrange the visit at a time that suits the farmer, not during milking or dipping.</li></ol>"
+  },
+  {
+   "title": "The sales conversation",
+   "minutes": 20,
+   "html": "<h3>Opening</h3><p>Greet the customer, introduce yourself and the business, and build rapport, but keep it genuine and respect their time. On a farm visit, follow farm rules: close gates, follow biosecurity measures such as disinfecting boots, and do not drive into camps without permission.</p><h4>Identifying needs</h4><p>Ask open questions and listen more than you talk.</p><ul><li>\"How has the veld held up this winter?\"</li><li>\"What problems did you have with weeds last season?\"</li><li>\"What are you using now, and how is it working?\"</li></ul><p>Summarise to confirm: \"So you want to keep weaners in condition until the rains, without overspending on feed.\"</p><h4>Presenting the solution</h4><p>Match benefits to the needs you heard. Use evidence: label claims, trial results from reputable sources, testimonials from local farmers (with permission). Be honest about limitations. Never make claims beyond the registered label of a chemical or remedy, and never promise yields.</p><h4>Handling objections</h4><p>Objections are often requests for more information.</p><table><tr><th>Objection</th><th>Possible response</th></tr><tr><td>\"It's too expensive.\"</td><td>Explore value: cost per head per day, expected benefit, compare like with like.</td></tr><tr><td>\"I'm happy with what I use.\"</td><td>Respect it; ask what they like about it and where it could be better.</td></tr><tr><td>\"I need to think about it.\"</td><td>Ask what information would help, and agree a follow-up date.</td></tr></table><h4>Closing</h4><p>When the customer shows buying signals (asking about delivery, quantities or payment), ask for the order: \"Shall I put down 120 bags for delivery next Tuesday?\" Confirm all details: product, quantity, price, delivery date and place, payment method.</p>"
+  },
+  {
+   "title": "After the sale",
+   "minutes": 15,
+   "html": "<h3>Completing the sale correctly</h3><ul><li>Capture the order accurately in the system, with the correct account and pricing.</li><li>Check credit limits for account sales; follow the credit policy.</li><li>Confirm the order to the customer in writing.</li><li>Arrange delivery or collection and inform the yard or dispatch team.</li></ul><h4>Follow-up</h4><p>Contact the customer after delivery to check that everything arrived correctly. For technical products, follow up later to see whether the product worked as expected. This is when trust is built, and when problems can be fixed before they become complaints.</p><h4>Building long-term relationships</h4><ul><li>Keep notes on each customer: farm size, enterprises, preferences, seasonal needs.</li><li>Contact customers before their buying periods.</li><li>Share useful information: weather warnings, disease alerts, new regulations.</li><li>Be reliable: do what you say you will do.</li></ul><h4>Ethical selling</h4><p>Selling must comply with the Consumer Protection Act 68 of 2008: no misleading claims, no pressure tactics, clear pricing. Do not oversell quantities the customer does not need. Respect POPIA when keeping customer information and sending marketing messages. For restricted chemicals and remedies, follow legal and company rules on who may buy them.</p><h4>Measuring your performance</h4><p>Track sales against target, number of active customers, new accounts, gross profit on your sales and customer feedback. Review lost sales: why did a customer buy elsewhere, and what can be learned?</p><h4>Key points</h4><ul><li>Sell solutions to farming problems, not just products.</li><li>Use features, advantages and benefits matched to the customer's needs.</li><li>Ask open questions and listen more than you talk.</li><li>Treat objections as requests for information; ask for the order clearly.</li><li>Follow up after the sale and sell ethically.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In 'features, advantages, benefits', what is a benefit?",
+   "options": [
+    {
+     "text": "The price",
+     "correct": false
+    },
+    {
+     "text": "What the product is",
+     "correct": false
+    },
+    {
+     "text": "The pack size",
+     "correct": false
+    },
+    {
+     "text": "What it means for this customer",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time to arrange a farm visit?",
+   "options": [
+    {
+     "text": "Unannounced at dawn",
+     "correct": false
+    },
+    {
+     "text": "During dipping",
+     "correct": false
+    },
+    {
+     "text": "During milking",
+     "correct": false
+    },
+    {
+     "text": "At a time that suits the farmer",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A customer asks about delivery dates and quantities. What does this suggest?",
+   "options": [
+    {
+     "text": "They want a refund",
+     "correct": false
+    },
+    {
+     "text": "An objection",
+     "correct": false
+    },
+    {
+     "text": "They are not interested",
+     "correct": false
+    },
+    {
+     "text": "A buying signal",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you respond to 'It's too expensive'?",
+   "options": [
+    {
+     "text": "Argue",
+     "correct": false
+    },
+    {
+     "text": "Explore value, such as cost per head per day",
+     "correct": true
+    },
+    {
+     "text": "Drop the price immediately",
+     "correct": false
+    },
+    {
+     "text": "End the conversation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after delivery?",
+   "options": [
+    {
+     "text": "Close the account",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Send an invoice only",
+     "correct": false
+    },
+    {
+     "text": "Contact the customer to check everything arrived correctly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Sales claims for a chemical must not go beyond its registered label.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Closing gates and following farm biosecurity rules is optional for salespeople.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good sources of new prospects? (select all that apply)",
+   "options": [
+    {
+     "text": "Referrals",
+     "correct": true
+    },
+    {
+     "text": "Farmers' days and study groups",
+     "correct": true
+    },
+    {
+     "text": "Agricultural shows",
+     "correct": true
+    },
+    {
+     "text": "Buying a random phone list without consent",
+     "correct": false
+    },
+    {
+     "text": "Ignoring counter enquiries",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

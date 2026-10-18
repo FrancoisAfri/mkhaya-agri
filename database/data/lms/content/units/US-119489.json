@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119489",
+ "title": "Manage the care of commercial layers",
+ "lessons": [
+  {
+   "title": "Receiving pullets and housing systems",
+   "minutes": 15,
+   "html": "<h3>Starting the laying flock well</h3><p>Commercial layers are hens kept to produce table eggs. Most farms buy point-of-lay pullets from a rearing farm or rear their own, then move them into the laying house shortly before production starts. How well the transfer goes affects the whole laying cycle.</p><h4>Before the pullets arrive</h4><ul><li>The house is cleaned, disinfected and rested.</li><li>Feeders, drinkers, egg belts, lights and ventilation are checked and working.</li><li>The light programme and feed (pre-lay or layer feed) are set according to the breed guide and the nutritionist.</li><li>Vaccination records from the rearing farm are received and checked.</li></ul><h4>Transfer day</h4><ul><li>Move birds in cool hours and handle them gently by both legs or the body, never by the wings or neck.</li><li>Do not overcrowd crates or cages; follow the stocking density the farm and industry codes set.</li><li>Make sure birds find water immediately; walk the house and check that every cage or section has working drinkers.</li><li>Weigh a sample of birds within the first days to confirm body weight and uniformity.</li></ul><h4>Housing systems</h4><table><tr><th>System</th><th>Main management points</th></tr><tr><td>Cage systems</td><td>Check every row daily for stuck birds, water flow, feed trough level and egg belt function</td></tr><tr><td>Barn or aviary</td><td>Train birds to use nests and perches; manage litter, floor eggs and pecking</td></tr><tr><td>Free range</td><td>Also manage the outside range: shade, predators, wild birds and range rotation</td></tr></table><p>Whichever system is used, the hens' needs are the same: feed, water, suitable environment, freedom from injury and disease, and the ability to express normal behaviour as far as the system allows.</p>"
+  },
+  {
+   "title": "Feeding, lighting and daily care",
+   "minutes": 15,
+   "html": "<h3>Keeping hens productive</h3><h4>Feeding</h4><p>Layers need a balanced feed with enough calcium for eggshells. Feed formulations change with age and production stage, following the nutritionist's programme. Most of the calcium for the shell is laid down at night, so feed availability in the late afternoon matters. Check daily that feed reaches every part of the trough or pan, and that birds eat the expected amount per hen for their age.</p><h4>Lighting</h4><ul><li>Light stimulates and keeps up production. Follow the breed guide light programme.</li><li>Day length is increased to bring birds into lay and must not be decreased during lay.</li><li>Replace failed lamps quickly and keep light intensity even; dark corners lead to uneven production, and very bright areas can increase pecking.</li></ul><h4>Daily walk</h4><ol><li>Check bird behaviour, breathing and alertness.</li><li>Check feed and water in every row or section.</li><li>Remove dead birds and record them.</li><li>Look for and remove sick or injured birds to a hospital pen or cull humanely as the procedure says.</li><li>Check temperature, ventilation and ammonia.</li><li>Check egg collection systems.</li></ol><h4>Feather pecking and cannibalism</h4><p>Pecking can quickly spread through a flock. Common triggers are high light intensity, overcrowding, nutrition gaps, boredom and injured birds left in the flock. Remove injured birds, check the causes and report early. In barn and free-range systems, enrichment such as pecking blocks or scattered material can help.</p>"
+  },
+  {
+   "title": "Health, welfare and records",
+   "minutes": 15,
+   "html": "<h3>Healthy hens lay well</h3><h4>Health programme</h4><ul><li>Follow the vet's vaccination programme, including boosters in lay where prescribed.</li><li>Control external parasites such as red mite, which hides in cracks and feeds at night. Inspect cage joints and perches with a torch at night and report infestations.</li><li>Control internal parasites as the vet advises, especially in floor and free-range systems.</li><li>Any medicine must follow the vet's prescription and label, including the egg withdrawal period.</li></ul><h4>Warning signs to report at once</h4><ul><li>Sudden rise in mortality.</li><li>Drop in feed or water intake.</li><li>Drop in production, or thin, soft or misshapen shells.</li><li>Breathing problems, swollen heads, nervous signs.</li></ul><p>Some of these may indicate a controlled disease under the Animal Diseases Act 35 of 1984, and the vet will decide if the state vet must be notified.</p><h4>Welfare</h4><p>The Animals Protection Act 71 of 1962 makes cruelty and neglect an offence. Handle birds gently, never leave sick birds untreated, and cull humanely using the method the farm and vet approve. Follow the industry code of practice your farm uses.</p><h4>Records</h4><table><tr><th>Daily</th><th>Weekly</th></tr><tr><td>Eggs collected, mortality, feed and water, temperatures</td><td>Body weights, egg weight, production against standard</td></tr></table><h4>Key points</h4><ul><li>Transfer pullets gently in cool hours and check they find water immediately.</li><li>Follow the breed guide light programme and never reduce day length in lay.</li><li>Check feed, water, birds and egg systems in every row every day.</li><li>Remove injured birds quickly to prevent pecking and cannibalism.</li><li>Report sudden mortality, intake or production changes immediately and observe egg withdrawal periods.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should a pullet be held during transfer?",
+   "options": [
+    {
+     "text": "By the wings",
+     "correct": false
+    },
+    {
+     "text": "By one leg only",
+     "correct": false
+    },
+    {
+     "text": "Gently by both legs or by the body",
+     "correct": true
+    },
+    {
+     "text": "By the neck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does feed availability in the late afternoon matter for layers?",
+   "options": [
+    {
+     "text": "Much of the eggshell calcium is laid down at night",
+     "correct": true
+    },
+    {
+     "text": "Feed goes stale at night",
+     "correct": false
+    },
+    {
+     "text": "It reduces water use",
+     "correct": false
+    },
+    {
+     "text": "Hens only eat in the morning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these can trigger feather pecking?",
+   "options": [
+    {
+     "text": "Correct feed",
+     "correct": false
+    },
+    {
+     "text": "Even, correct light intensity",
+     "correct": false
+    },
+    {
+     "text": "Clean drinkers",
+     "correct": false
+    },
+    {
+     "text": "Overcrowding and very bright light",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is red mite most easily found?",
+   "options": [
+    {
+     "text": "Only in the egg store",
+     "correct": false
+    },
+    {
+     "text": "At midday on the feed trough",
+     "correct": false
+    },
+    {
+     "text": "At night with a torch in cracks and joints",
+     "correct": true
+    },
+    {
+     "text": "On the outside of the roof",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law makes cruelty and neglect of animals an offence?",
+   "options": [
+    {
+     "text": "The Conservation of Agricultural Resources Act",
+     "correct": false
+    },
+    {
+     "text": "The Animals Protection Act 71 of 1962",
+     "correct": true
+    },
+    {
+     "text": "The National Water Act",
+     "correct": false
+    },
+    {
+     "text": "The Meat Safety Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Day length can be reduced during lay to save electricity without affecting production.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In free-range systems the outside range must also be managed for shade and predators.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which signs must be reported to the manager at once? (select all that apply)",
+   "options": [
+    {
+     "text": "A sudden rise in mortality",
+     "correct": true
+    },
+    {
+     "text": "Thin or soft-shelled eggs",
+     "correct": true
+    },
+    {
+     "text": "Hens eating and drinking normally",
+     "correct": false
+    },
+    {
+     "text": "Swollen heads or breathing problems",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

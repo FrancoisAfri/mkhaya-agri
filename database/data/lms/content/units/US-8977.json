@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8977",
+ "title": "Evaluate literary texts",
+ "lessons": [
+  {
+   "title": "Elements of literary texts",
+   "minutes": 20,
+   "html": "<h3>Why study literature at work?</h3><p>Evaluating literary texts develops the ability to read closely, interpret meaning, recognise how language persuades and moves people, and form and defend judgements. These skills transfer directly to business: reading between the lines of a supplier letter, understanding a customer's point of view, and communicating persuasively. Literature also deepens understanding of the South African rural experience, from land and labour to drought, community and change.</p><h4>Genres</h4><ul><li><strong>Prose fiction:</strong> novels and short stories.</li><li><strong>Poetry:</strong> including praise poetry (izibongo) and contemporary verse.</li><li><strong>Drama:</strong> plays written for performance.</li><li><strong>Oral literature:</strong> folktales, proverbs and songs passed down by speech.</li></ul><h4>Elements to analyse in prose and drama</h4><table><tr><th>Element</th><th>Questions to ask</th></tr><tr><td>Plot</td><td>What happens? What is the conflict? How is it resolved?</td></tr><tr><td>Character</td><td>Who are the main characters? How are they revealed: through actions, speech, others' views? Do they change?</td></tr><tr><td>Setting</td><td>Where and when? A farm, a township, a drought-stricken valley? How does setting shape events?</td></tr><tr><td>Point of view</td><td>Who tells the story? First person, third person? How reliable is the narrator?</td></tr><tr><td>Theme</td><td>What larger ideas does the text explore: land, belonging, justice, family, survival?</td></tr><tr><td>Style and tone</td><td>Word choice, imagery, sentence rhythm, humour, irony</td></tr></table><h4>Elements in poetry</h4><p>Consider imagery (pictures created with words), figurative language (metaphor, simile, personification), sound (rhyme, rhythm, alliteration, repetition), structure (stanzas, line breaks) and tone. Read a poem aloud; sound is part of its meaning.</p>"
+  },
+  {
+   "title": "Methods of evaluation",
+   "minutes": 20,
+   "html": "<h3>From understanding to evaluation</h3><p>Evaluation goes beyond summary. It asks how well a text achieves its effects, how it reflects or challenges its context, and what its value is for readers.</p><h4>A reading process</h4><ol><li><strong>First reading:</strong> read for overall understanding and personal response. What did you feel and why?</li><li><strong>Close reading:</strong> reread key passages. Annotate images, repeated words, shifts in tone, important dialogue.</li><li><strong>Analysis:</strong> connect techniques to meaning. How does the writer's choice of a single, cracked borehole as an image make drought feel personal?</li><li><strong>Context:</strong> consider when and where the text was written, and the writer's background. A novel written during apartheid about farm labour carries a different weight than one written today.</li><li><strong>Evaluation:</strong> judge effectiveness, relevance and value, with evidence.</li></ol><h4>Criteria for evaluation</h4><ul><li><strong>Craft:</strong> is the language precise and vivid? Is the structure purposeful?</li><li><strong>Characterisation:</strong> are characters believable and complex?</li><li><strong>Insight:</strong> does the text offer fresh understanding of people, society or experience?</li><li><strong>Impact:</strong> does it move, provoke or challenge the reader?</li><li><strong>Representation:</strong> whose voices are heard or silenced? Are groups portrayed fairly or stereotypically?</li></ul><h4>Example</h4><p>Alan Paton's novel <em>Cry, the Beloved Country</em> (1948) opens with a description of the hills of Natal and the eroded valleys below. A reader might evaluate how this landscape description links the damaged land to the damaged society, and also consider critics' views about how the novel represents its black characters. Evaluation weighs strengths and limitations.</p><h4>Comparing texts</h4><p>Comparing two texts on a similar theme, for example two poems about land, sharpens judgement: how does each handle the theme, and which is more effective for its purpose and audience?</p>"
+  },
+  {
+   "title": "Expressing an evaluation",
+   "minutes": 15,
+   "html": "<h3>Writing or speaking your evaluation</h3><p>An evaluation must be clear, structured and supported.</p><h4>Structure</h4><ol><li><strong>Introduction:</strong> name the text, author, genre and your overall judgement (thesis).</li><li><strong>Body paragraphs:</strong> each makes one point, supported by evidence (a quotation or specific reference) and explanation of how the evidence supports the point.</li><li><strong>Counter-view:</strong> acknowledge a different reading and respond to it.</li><li><strong>Conclusion:</strong> restate your judgement and its significance.</li></ol><h4>Using evidence</h4><p>Use short, accurate quotations and explain them. A useful pattern is Point, Evidence, Explanation (PEE). Do not simply retell the plot; the reader of your evaluation wants your analysis, not a summary.</p><h4>Language of evaluation</h4><ul><li>\"The writer effectively conveys...\"</li><li>\"This image is powerful because...\"</li><li>\"However, the characterisation of ... is less convincing, as...\"</li><li>\"Compared with ..., this poem...\"</li></ul><h4>Respecting other views</h4><p>Literature invites different interpretations. A strong evaluation is open to other readings while defending its own with evidence. In group discussion, listen, ask questions and respond to the argument, not the person.</p><h4>Transferring the skill</h4><p>The same process applies to evaluating a supplier's brochure, a competitor's advertisement or a customer's letter: identify the purpose and techniques, test claims against evidence, and reach a supported judgement.</p><h4>Key points</h4><ul><li>Analyse plot, character, setting, point of view, theme, style and tone.</li><li>In poetry, consider imagery, figurative language, sound and structure.</li><li>Evaluation judges craft, insight, impact and representation, in context.</li><li>Support every judgement with evidence and explanation.</li><li>Acknowledge other interpretations and respond to them.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the theme of a literary text?",
+   "options": [
+    {
+     "text": "The order of events",
+     "correct": false
+    },
+    {
+     "text": "A larger idea the text explores",
+     "correct": true
+    },
+    {
+     "text": "The name of the author",
+     "correct": false
+    },
+    {
+     "text": "The number of pages",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of figurative language?",
+   "options": [
+    {
+     "text": "A metaphor",
+     "correct": true
+    },
+    {
+     "text": "A list of dates",
+     "correct": false
+    },
+    {
+     "text": "A table of contents",
+     "correct": false
+    },
+    {
+     "text": "A page number",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does evaluation add beyond summary?",
+   "options": [
+    {
+     "text": "Counting the characters",
+     "correct": false
+    },
+    {
+     "text": "A judgement of effectiveness and value, with evidence",
+     "correct": true
+    },
+    {
+     "text": "Copying the blurb",
+     "correct": false
+    },
+    {
+     "text": "Retelling the plot in more detail",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the PEE pattern, what does the second E stand for?",
+   "options": [
+    {
+     "text": "Ending",
+     "correct": false
+    },
+    {
+     "text": "Emotion",
+     "correct": false
+    },
+    {
+     "text": "Explanation",
+     "correct": true
+    },
+    {
+     "text": "Example",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why consider a text's context?",
+   "options": [
+    {
+     "text": "It affects how the text's meaning and weight are understood",
+     "correct": true
+    },
+    {
+     "text": "To find the price",
+     "correct": false
+    },
+    {
+     "text": "It is not relevant",
+     "correct": false
+    },
+    {
+     "text": "To count words",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A strong evaluation acknowledges other interpretations and responds to them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Retelling the plot in full is the best way to evaluate a novel.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are criteria for evaluating a literary text? (select all that apply)",
+   "options": [
+    {
+     "text": "Craft of language and structure",
+     "correct": true
+    },
+    {
+     "text": "Insight into people or society",
+     "correct": true
+    },
+    {
+     "text": "Impact on the reader",
+     "correct": true
+    },
+    {
+     "text": "The colour of the cover",
+     "correct": false
+    },
+    {
+     "text": "The price of the book",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

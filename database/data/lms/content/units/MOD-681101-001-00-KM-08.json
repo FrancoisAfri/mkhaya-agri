@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-08",
+ "title": "Preparing Cattle for Slaughter",
+ "lessons": [
+  {
+   "title": "Receiving cattle at the abattoir",
+   "minutes": 15,
+   "html": "<h3>Arrival</h3><p>Cattle arrive at the abattoir by truck. They are tired, thirsty and often stressed. Good preparation keeps them calm and makes sure only healthy animals are slaughtered.</p><h3>Checking the documents</h3><p>The truck must bring the right papers:</p><ul><li>documents showing who owns the cattle and where they come from, as needed under stock theft laws,</li><li>the number of animals,</li><li>information about recent treatments, if the abattoir asks for it, so withdrawal periods can be checked,</li><li>any movement permits needed for disease control areas.</li></ul><p>Count the cattle as they come off the truck and check that the number and brand or tag marks match the papers. Report anything that does not match.</p><h3>Offloading</h3><ol><li>Make sure the truck is lined up with the offloading ramp with no gaps.</li><li>Let cattle walk off by themselves at their own pace.</li><li>Do not shout, hit or twist tails.</li><li>Look at each animal: is it lame, injured, sick, very thin or down?</li><li>Put sick or injured animals in a separate pen and call the supervisor and meat inspector at once.</li></ol><h3>In the lairage</h3><ul><li>Put each owner's cattle in their own pen and mark the pen with the lot number.</li><li>Do not mix strange groups or bulls with other cattle.</li><li>Give clean water at all times.</li><li>Do not overcrowd: each animal must be able to lie down.</li><li>Give shade, and shelter in bad weather.</li></ul><p>Cattle need time to rest before slaughter. Rested cattle bleed better and give better quality meat.</p><p>Lairage pens should be cleaned when they are empty, and dung removed so that cattle do not get dirtier while they wait. Clean cattle mean cleaner hides and less contamination of the meat on the slaughter floor.</p>"
+  },
+  {
+   "title": "Ante-mortem inspection and moving cattle to slaughter",
+   "minutes": 15,
+   "html": "<h3>Ante-mortem inspection</h3><p><strong>Ante-mortem</strong> means before death. The meat inspector looks at every animal before it is slaughtered. They check:</p><ul><li>how the animal walks and stands,</li><li>its breathing,</li><li>discharges from the nose, eyes or mouth,</li><li>swellings, wounds and diarrhoea,</li><li>how dirty it is.</li></ul><p>The inspector may pass the animal for normal slaughter, hold it for another check, send it for separate slaughter (often at the end of the day), or reject it. You must follow the inspector's decision. If you see an animal become sick after the inspection, tell the inspector.</p><h3>Getting cattle ready</h3><ul><li><strong>Feed</strong>: cattle are usually kept off feed for a time before slaughter so the gut is less full, but they must still get water. Follow the abattoir's rule.</li><li><strong>Cleanliness</strong>: very dirty cattle carry dung and mud on the hide, which can contaminate the meat. The inspector may require them to be cleaned or slaughtered in a special way.</li><li><strong>Order of slaughter</strong>: follow the slaughter list so that each lot is kept together and the right carcass goes to the right owner.</li></ul><h3>Moving cattle to the stunning box</h3><ol><li>Move a small group from the pen to the crowding pen.</li><li>Fill the race only as much as is needed. Cattle follow each other.</li><li>Use flags or paddles and your body position.</li><li>Keep noise low. Do not use dogs.</li><li>Close the gate behind the animal gently.</li><li>If an animal falls down in the race, stop and call the supervisor. Do not drag it.</li></ol><h3>Safety</h3><p>Never climb into a pen with cattle unless your supervisor allows it and you have a way out. Work from the catwalk or outside the race.</p><h4>Key points</h4><ul><li>Check documents and count cattle on arrival.</li><li>Offload calmly and separate sick or injured animals.</li><li>Give water, rest and space in the lairage; do not mix strange groups.</li><li>Follow the meat inspector's ante-mortem decision.</li><li>Move cattle quietly in small groups and work from outside the pens.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does ante-mortem mean?",
+   "options": [
+    {
+     "text": "Before death",
+     "correct": true
+    },
+    {
+     "text": "After death",
+     "correct": false
+    },
+    {
+     "text": "During stunning",
+     "correct": false
+    },
+    {
+     "text": "In the chiller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a lame or injured animal at offloading?",
+   "options": [
+    {
+     "text": "Put it with the others",
+     "correct": false
+    },
+    {
+     "text": "Drag it to the stunning box",
+     "correct": false
+    },
+    {
+     "text": "Put it in a separate pen and call the supervisor and meat inspector",
+     "correct": true
+    },
+    {
+     "text": "Hide it at the back",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must cattle always have in the lairage?",
+   "options": [
+    {
+     "text": "Feed",
+     "correct": false
+    },
+    {
+     "text": "Clean water",
+     "correct": true
+    },
+    {
+     "text": "Music",
+     "correct": false
+    },
+    {
+     "text": "Medicine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should cattle rest before slaughter?",
+   "options": [
+    {
+     "text": "To gain weight",
+     "correct": false
+    },
+    {
+     "text": "So they become hungry",
+     "correct": false
+    },
+    {
+     "text": "To make the hide thicker",
+     "correct": false
+    },
+    {
+     "text": "Rested cattle bleed better and give better quality meat",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if an animal falls down in the race?",
+   "options": [
+    {
+     "text": "Drag it forward",
+     "correct": false
+    },
+    {
+     "text": "Hit it until it stands",
+     "correct": false
+    },
+    {
+     "text": "Stop and call the supervisor",
+     "correct": true
+    },
+    {
+     "text": "Leave it and continue",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The number of cattle offloaded should be checked against the papers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Strange groups of bulls should be mixed in one pen to save space.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What does the meat inspector check during ante-mortem inspection? (select all that apply)",
+   "options": [
+    {
+     "text": "How the animal walks and stands",
+     "correct": true
+    },
+    {
+     "text": "Discharges from nose, eyes or mouth",
+     "correct": true
+    },
+    {
+     "text": "Its breathing",
+     "correct": true
+    },
+    {
+     "text": "The colour of the truck",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

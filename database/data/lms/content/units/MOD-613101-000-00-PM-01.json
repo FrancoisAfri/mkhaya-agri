@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-01",
+ "title": "Manage crops and livestock production practices",
+ "lessons": [
+  {
+   "title": "Planning the mixed farming year",
+   "minutes": 20,
+   "html": "<h3>From plan to production</h3><p>Managing crop and livestock production starts with a written plan. On a mixed farm the crop and livestock enterprises compete for land, labour, water, machinery and cash, but they also support each other: crop residues feed animals, and manure feeds the soil.</p><h4>Steps in a production plan</h4><ol><li><strong>Know your resources.</strong> Map the lands and camps, soil types, irrigation points, rainfall history, carrying capacity of the veld and the labour available.</li><li><strong>Choose enterprises.</strong> Compare gross margins and risk. For example, dryland maize and a beef weaner herd, with oats planted in winter for grazing.</li><li><strong>Set targets.</strong> Yield per hectare (t/ha), calving percentage, weaning weight, mortality limits.</li><li><strong>Draw up a calendar.</strong> Show soil preparation, planting, spraying and harvest for crops, and breeding season, calving, vaccinations, dipping and weaning for livestock.</li><li><strong>Budget inputs.</strong> Seed, fertiliser, chemicals, feed, licks, vaccines, fuel and casual labour, with the month each is needed.</li><li><strong>Allocate people and machinery.</strong> Avoid peaks where planting and calving need the same team in the same week.</li></ol><h4>Example of a combined calendar (summer rainfall area)</h4><table><tr><th>Period</th><th>Crops</th><th>Livestock</th></tr><tr><td>Winter</td><td>Service planters, soil samples, plan fertiliser</td><td>Lick supplementation on dry veld, graze crop residues</td></tr><tr><td>Spring to early summer</td><td>Prepare lands, plant after good rains</td><td>Breeding season starts, vaccinate, pregnancy diagnosis later</td></tr><tr><td>Mid-summer</td><td>Weed control, top-dressing, scouting</td><td>Tick control, rotate camps</td></tr><tr><td>Autumn</td><td>Harvest and storage</td><td>Weaning and marketing of calves</td></tr></table><p>Adjust this calendar to your own region, rainfall and enterprises. A Western Cape winter-rainfall farm will look very different.</p><p>Review the plan each month.</p>"
+  },
+  {
+   "title": "Managing crop production practices",
+   "minutes": 20,
+   "html": "<h3>Supervising the crop programme</h3><p>The manager's job is to make sure each operation happens at the right time, in the right way, and is recorded.</p><h4>Key control points</h4><ul><li><strong>Soil preparation:</strong> base fertiliser and lime decisions on a soil analysis, not on habit. Avoid working wet soil, which causes compaction.</li><li><strong>Planting:</strong> check seed rate, row width and depth on the first pass of each land. Calibrate the planter before the season.</li><li><strong>Stand count:</strong> about two to three weeks after emergence count plants in a measured row length at several places and compare with the target population.</li><li><strong>Weed, pest and disease control:</strong> use regular scouting reports. Only registered products, applied at label rates by trained operators wearing the correct PPE.</li><li><strong>Harvest:</strong> start at the correct moisture content for the crop, set combines to limit losses, and keep loads separated by land for traceability.</li></ul><h4>Measuring performance</h4><p>Record yield per land and calculate cost per ton. If Land 3 produced 4.2 t/ha at a cost of R14 000/ha, the cost is about R3 333 per ton. Compare this with the price offered by the silo or buyer to see whether the land is profitable, and look for reasons when one land lags behind others.</p><h4>Safety</h4><p>Under the OHS Act 85 of 1993 machinery must have guards in place, only trained and authorised workers may drive tractors, and chemicals must be stored in a locked, ventilated store. Never allow riders on implements or allow anyone to clear a blocked machine while it is running.</p><p>Record every operation.</p>"
+  },
+  {
+   "title": "Managing livestock production practices",
+   "minutes": 20,
+   "html": "<h3>Supervising the livestock programme</h3><p>Livestock performance depends on breeding, feeding, health and handling. Each of these needs a routine, a person responsible and a record.</p><h4>Breeding</h4><ul><li>Use a fixed breeding season so calving or lambing happens when grazing is best and labour is available.</li><li>Have bulls and rams checked for breeding soundness before the season.</li><li>Do pregnancy diagnosis with a vet and cull or re-evaluate open females.</li></ul><h4>Feeding and grazing</h4><ul><li>Stock the veld according to its carrying capacity; rotate camps to allow regrowth.</li><li>Give licks to correct winter protein shortages and mineral deficiencies, following the supplier's instructions.</li><li>Use crop residues and planted pastures to fill feed gaps.</li></ul><h4>Animal health</h4><ul><li>Follow a vaccination and parasite-control programme drawn up with your vet.</li><li>Record every treatment: date, animal or group, product, dose, batch number and withdrawal period from the label.</li><li>Report suspected controlled diseases such as foot-and-mouth disease to the state vet, as required by the Animal Diseases Act 35 of 1984.</li></ul><h4>Performance indicators</h4><table><tr><th>Indicator</th><th>How to calculate</th></tr><tr><td>Calving percentage</td><td>Calves born divided by cows mated, times 100</td></tr><tr><td>Weaning percentage</td><td>Calves weaned divided by cows mated, times 100</td></tr><tr><td>Mortality rate</td><td>Animals died divided by animals in the group, times 100</td></tr></table><p>If 80 cows were mated and 68 calves were weaned, the weaning percentage is 85%. Track these figures every year to see whether management changes are working.</p><h4>Key points</h4><ul><li>Plan crops and livestock together on one calendar so resources do not clash.</li><li>Base fertiliser decisions on soil analysis and check planting on the first pass.</li><li>Record yields, treatments and livestock figures to measure performance.</li><li>Calving and weaning percentages show how well the herd is managed.</li><li>Safety, legal compliance and animal welfare are part of production management.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should fertiliser and lime decisions be based on?",
+   "options": [
+    {
+     "text": "What was applied last year",
+     "correct": false
+    },
+    {
+     "text": "The neighbour's programme",
+     "correct": false
+    },
+    {
+     "text": "A soil analysis",
+     "correct": true
+    },
+    {
+     "text": "The cheapest product available",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A land yielded 4.2 t/ha at a cost of R14 000/ha. What is the approximate cost per ton?",
+   "options": [
+    {
+     "text": "R1 400",
+     "correct": false
+    },
+    {
+     "text": "R3 333",
+     "correct": true
+    },
+    {
+     "text": "R5 880",
+     "correct": false
+    },
+    {
+     "text": "R58 800",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Eighty cows were mated and 68 calves were weaned. What is the weaning percentage?",
+   "options": [
+    {
+     "text": "68%",
+     "correct": false
+    },
+    {
+     "text": "80%",
+     "correct": false
+    },
+    {
+     "text": "85%",
+     "correct": true
+    },
+    {
+     "text": "118%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a fixed breeding season used?",
+   "options": [
+    {
+     "text": "So that bulls can stay with the cows all year",
+     "correct": false
+    },
+    {
+     "text": "So calving happens when grazing is best and labour is available",
+     "correct": true
+    },
+    {
+     "text": "To avoid doing pregnancy diagnosis",
+     "correct": false
+    },
+    {
+     "text": "To increase the number of calves born out of season",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which suspected disease must be reported to the state vet under the Animal Diseases Act?",
+   "options": [
+    {
+     "text": "A sprained leg",
+     "correct": false
+    },
+    {
+     "text": "Mild diarrhoea in one calf",
+     "correct": false
+    },
+    {
+     "text": "Foot-and-mouth disease",
+     "correct": true
+    },
+    {
+     "text": "A small wound from a fence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to clear a blocked machine while it is running if you are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A stand count compares the number of plants in measured row lengths with the target population.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details should be recorded for every animal treatment? (select all that apply)",
+   "options": [
+    {
+     "text": "Product and batch number",
+     "correct": true
+    },
+    {
+     "text": "Withdrawal period from the label",
+     "correct": true
+    },
+    {
+     "text": "The colour of the syringe",
+     "correct": false
+    },
+    {
+     "text": "Date and the animal or group treated",
+     "correct": true
+    },
+    {
+     "text": "The price of the bakkie used",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

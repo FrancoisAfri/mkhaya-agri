@@ -1,0 +1,187 @@
+{
+  "unit_key": "US-243854",
+  "title": "Assess the quality of plums for export",
+  "lessons": [
+    {
+      "title": "The plum export industry, terms and requirements",
+      "minutes": 18,
+      "html": "<h3>Background and structure</h3><p>South Africa is a significant exporter of fresh plums, grown mainly in the Western Cape in areas such as the Franschhoek and Paarl valleys, Wellington, Wolseley, Tulbagh, the Breede River valley, Ceres and Robertson. Most of the crop is exported fresh, mainly to the UK, Europe, the Middle East and the Far East. Plum growers are part of the stone fruit industry represented by <strong>Hortgro</strong>.</p><p>There are many cultivars, with red, black, yellow and green skins and red or yellow flesh, harvested from early summer into autumn. Examples include Laetitia, Songold, Sapphire, African Delight, Fortune and Angeleno, along with newer cultivars and plumcot-type fruit. Each cultivar has its own maturity indices and storage behaviour, which makes cultivar knowledge essential for the assessor.</p><h3>Terminology</h3><ul><li><strong>Ground colour and skin colour:</strong> maturity indicators, often judged against cultivar-specific charts.</li><li><strong>Firmness:</strong> penetrometer reading.</li><li><strong>TSS:</strong> sugar in degrees Brix.</li><li><strong>Bloom:</strong> the natural waxy, dusty layer on the skin; rubbed bloom shows rough handling.</li><li><strong>Gel breakdown:</strong> glassy, translucent flesh near the stone.</li><li><strong>Internal browning / flesh browning:</strong> brown flesh after storage.</li><li><strong>Shrivel:</strong> wrinkled skin from water loss, often at the stem end.</li><li><strong>Dual or multiple temperature regime:</strong> a storage programme that changes temperature at set points during shipping.</li></ul><h3>Legislative and logistical requirements</h3><p>Plums for export are regulated under the Agricultural Product Standards Act 119 of 1990, with PPECB inspecting under the Act and controlling the cold chain under the PPECB Act 9 of 1983. Importing countries may set phytosanitary requirements such as fruit fly controls or cold treatment for certain markets, along with orchard and packhouse registration and residue limits.</p><p>Logistically, plums are packed in cartons or punnets, cooled quickly, and shipped mainly by sea in reefer containers or conventional vessels. Long voyages to Asian markets mean the storage regime must be well chosen for each cultivar.</p>"
+    },
+    {
+      "title": "Sampling, external and internal quality",
+      "minutes": 18,
+      "html": "<h3>Selecting a representative sample</h3><ul><li>Use the sample size prescribed in the export standards.</li><li>Select cartons at random across pallets and positions.</li><li>Check cultivar, class, count and codes.</li><li>Record pallet and carton identification.</li></ul><h3>External quality</h3><ul><li><strong>Size and count:</strong> fruit within the declared range and uniform.</li><li><strong>Colour:</strong> skin and ground colour for the cultivar, using the relevant chart.</li><li><strong>Bloom:</strong> intact bloom shows careful handling; heavily rubbed fruit may be limited.</li><li><strong>Shape:</strong> typical of the cultivar.</li><li><strong>Skin defects:</strong> bruises, wind and limb rub, hail, sunburn, cracks, russeting and gum spots.</li><li><strong>Pests:</strong> fruit fly stings, thrips damage, scale and any live pests.</li><li><strong>Diseases:</strong> brown rot, grey mould and other decay.</li><li><strong>Shrivel</strong> at the stem end or across the fruit.</li><li><strong>Stem</strong> condition and stem cavity tears.</li></ul><h3>Internal quality</h3><p>Cut the prescribed number of fruit and record:</p><ul><li><strong>Firmness</strong> using a calibrated penetrometer.</li><li><strong>TSS</strong> with a refractometer.</li><li><strong>Flesh colour</strong> where it is a maturity indicator for the cultivar.</li><li><strong>Internal disorders:</strong> gel breakdown, internal browning, flesh translucency, and stone-related problems.</li><li><strong>Larvae</strong> in the flesh, which is serious.</li></ul><p>Some internal disorders only develop after cold storage and ripening. Where programmes require it, samples are held for a set period and ripened to check how the fruit will perform when it reaches the consumer. A plum that looks perfect on the packing line can show gel breakdown three weeks later if it was picked over-mature or stored at the wrong temperature.</p><h4>Recording your results</h4><p>Record every reading on the inspection sheet as you go, per carton, not from memory at the end. Note the cultivar, sample number, defects found and internal readings. If a reading looks unusual, such as a very low firmness in one carton, recheck the instrument calibration and take a second reading before you record it as a defect.</p>"
+    },
+    {
+      "title": "Cold chain regimes and the outcome",
+      "minutes": 18,
+      "html": "<h3>Monitoring the cold chain regime</h3><p>Plums are climacteric and vary widely between cultivars in how they respond to cold storage. Some cultivars are prone to internal browning or gel breakdown when held in a particular temperature band, while others store well at a steady low temperature. Industry research has produced cultivar-specific regimes, including <strong>dual temperature</strong> or multiple-step regimes in which fruit is held at one temperature for a period and then moved to another. These must be followed exactly as specified in the shipping instruction.</p><p>The assessor checks:</p><ul><li>that fruit was cooled promptly after packing;</li><li>pulp temperatures with a calibrated probe before loading;</li><li>cold store records and container set points, including the dates and times of any step changes;</li><li>data logger placement and readings;</li><li>container pre-cooling and seal condition;</li><li>that any cold treatment protocol is monitored with calibrated probes, where the market requires it.</li></ul><h3>Determining the outcome</h3><ol><li>Calculate percentages of each external defect and decay.</li><li>Compare firmness, TSS and flesh condition with requirements for the cultivar.</li><li>Record internal disorders and any larvae.</li><li>Check packing, marking and registration codes.</li><li>Decide <strong>pass</strong>, <strong>downgrade</strong> or <strong>reject</strong>, and record reasons.</li></ol><p>Example: a consignment of a red plum cultivar meets colour and firmness requirements, but the container instruction shows a single temperature where the cultivar's regime requires a dual temperature programme. The assessor raises the non-conformance before loading so the instruction can be corrected. Preventing a cold chain error is better than recording a failure in the market.</p><h4>Key points</h4><ul><li>Plums are a major stone fruit export, represented by Hortgro.</li><li>Many cultivars exist, each with its own maturity and storage behaviour.</li><li>Intact bloom shows good handling; rubbed bloom shows rough handling.</li><li>Gel breakdown and internal browning are key storage disorders.</li><li>Dual or stepped temperature regimes must be followed exactly.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the natural waxy, dusty layer on a plum's skin called?",
+      "options": [
+        {
+          "text": "Russet",
+          "correct": false
+        },
+        {
+          "text": "Bloom",
+          "correct": true
+        },
+        {
+          "text": "Blush",
+          "correct": false
+        },
+        {
+          "text": "Pericarp",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is a dual temperature regime?",
+      "options": [
+        {
+          "text": "Storing two cultivars together",
+          "correct": false
+        },
+        {
+          "text": "Using two thermometers",
+          "correct": false
+        },
+        {
+          "text": "A programme in which fruit is held at one temperature and then moved to another",
+          "correct": true
+        },
+        {
+          "text": "Cooling fruit twice a day",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Glassy, translucent flesh near the plum stone is called what?",
+      "options": [
+        {
+          "text": "Gel breakdown",
+          "correct": true
+        },
+        {
+          "text": "Shrivel",
+          "correct": false
+        },
+        {
+          "text": "Gum spot",
+          "correct": false
+        },
+        {
+          "text": "Bloom loss",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "The container instruction shows a single temperature, but the cultivar requires a dual regime. What should the assessor do?",
+      "options": [
+        {
+          "text": "Load anyway and note it later",
+          "correct": false
+        },
+        {
+          "text": "Change the cultivar name",
+          "correct": false
+        },
+        {
+          "text": "Ignore it because colour is fine",
+          "correct": false
+        },
+        {
+          "text": "Raise the non-conformance before loading so it can be corrected",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which body represents plum growers in South Africa?",
+      "options": [
+        {
+          "text": "CGA",
+          "correct": false
+        },
+        {
+          "text": "SAAGA",
+          "correct": false
+        },
+        {
+          "text": "Hortgro",
+          "correct": true
+        },
+        {
+          "text": "SATI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A plum that looks perfect on the packing line can still develop gel breakdown later in storage.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "All plum cultivars respond the same way to cold storage.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these are external defects of plums? (select all that apply)",
+      "options": [
+        {
+          "text": "Shrivel at the stem end",
+          "correct": true
+        },
+        {
+          "text": "Rubbed bloom from rough handling",
+          "correct": true
+        },
+        {
+          "text": "Internal browning",
+          "correct": false
+        },
+        {
+          "text": "Brown rot",
+          "correct": true
+        },
+        {
+          "text": "Low TSS",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

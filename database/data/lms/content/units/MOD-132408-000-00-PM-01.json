@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-01",
+ "title": "Develop, Review and Report on Operational Plans and Targets",
+ "lessons": [
+  {
+   "title": "Developing an operational plan",
+   "minutes": 20,
+   "html": "<h3>From strategy to depot plan</h3>\n<p>Head office sets the company strategy and budget: expected market share, tonnes handled, service standards and profit targets. The depot manager turns these into an operational plan for the depot for the season or financial year, broken down into months and weeks.</p>\n<h4>Steps in developing the plan</h4>\n<ol>\n<li><strong>Analyse the situation</strong> – crop estimates for the area, previous seasons' intake by commodity and grade, competitor depots, condition of infrastructure, staff capacity.</li>\n<li><strong>Set objectives and targets</strong> – SMART targets: Specific, Measurable, Achievable, Relevant, Time-bound. Example: \"Receive 85 000 tonnes of maize between April and July with average truck turnaround under 60 minutes.\"</li>\n<li><strong>Plan activities</strong> – pre-season maintenance, bin cleaning and treatment, recruitment and training, dryer fuel contracts, fumigation programme, out-loading schedule.</li>\n<li><strong>Allocate resources</strong> – people, equipment, budget, bin space.</li>\n<li><strong>Assign responsibilities and deadlines</strong> – who does what by when.</li>\n<li><strong>Identify risks</strong> – late rains, high moisture harvest, breakdowns, labour unrest, load-shedding, and plan contingencies.</li>\n<li><strong>Set the budget</strong> – expected income (handling, storage, drying) and costs.</li>\n</ol>\n<h4>Example of plan components</h4>\n<table>\n<tr><th>Area</th><th>Target</th><th>Key activities</th></tr>\n<tr><td>Intake</td><td>85 000 t maize</td><td>Two grading points, second weighbridge shift</td></tr>\n<tr><td>Quality</td><td>No downgrades in storage</td><td>Temperature monitoring, aeration, fumigation plan</td></tr>\n<tr><td>Safety</td><td>Zero lost-time injuries</td><td>Induction, permits, monthly inspections</td></tr>\n<tr><td>Cost</td><td>Cost per tonne within budget</td><td>Energy management, overtime control</td></tr>\n</table>\n<p>Involve supervisors and key staff in building the plan. They know the practical limits and are more committed to a plan they helped create.</p><p>Make sure the plan links to the budget and to individual performance agreements. When each supervisor's targets come directly from the depot plan, everyone pulls in the same direction during the busy season.</p>"
+  },
+  {
+   "title": "Reviewing and reporting on performance",
+   "minutes": 20,
+   "html": "<h3>Monitoring progress</h3>\n<p>A plan is only useful if progress is tracked. Set up a simple system:</p>\n<ul>\n<li>Daily intake and out-loading reports by commodity and grade.</li>\n<li>Weekly KPI dashboard: tonnes versus plan, truck turnaround, stock variance, shrink, cost per tonne, safety incidents.</li>\n<li>Monthly financial results against budget.</li>\n</ul>\n<h3>Reviewing</h3>\n<p>Hold weekly operational reviews with supervisors and monthly reviews with management. For each target, ask:</p>\n<ol>\n<li>Are we on track? (Actual versus plan.)</li>\n<li>If not, why? Find the real cause using data.</li>\n<li>What will we do about it, who and by when?</li>\n<li>Do we need to change the plan because circumstances changed?</li>\n</ol>\n<p>Example: by the end of May intake is 20 percent below plan. Analysis shows the harvest is late because of late rains, not that farmers are delivering elsewhere. The plan is adjusted: intake peak shifts to June and July, seasonal contracts are extended and the maintenance shutdown is moved.</p>\n<h3>Writing operational reports</h3>\n<p>A good report for head office is short and factual:</p>\n<ul>\n<li><strong>Summary</strong> – the main message in a few sentences.</li>\n<li><strong>Performance versus targets</strong> – a table with plan, actual and variance.</li>\n<li><strong>Explanation of variances</strong> – causes, not excuses.</li>\n<li><strong>Actions</strong> – what has been done and what is planned.</li>\n<li><strong>Risks and support needed</strong> – for example, capital approval for a replacement elevator.</li>\n</ul>\n<p>Use accurate data from the depot system; check numbers before sending. Do not hide bad news; early warning allows management to help.</p>\n<h3>Closing the season</h3>\n<p>At the end of the season do a full review: what went well, what did not, and lessons for next year. Record them so the next plan starts from experience.</p>\n<h4>Key points</h4>\n<ul>\n<li>Turn company strategy into a depot plan with SMART targets, activities, resources, responsibilities and risks.</li>\n<li>Involve supervisors in planning.</li>\n<li>Track progress daily, weekly and monthly using KPIs.</li>\n<li>Review causes of variances and adjust the plan when circumstances change.</li>\n<li>Report clearly with summary, variances, actions and risks, and never hide bad news.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does SMART stand for?",
+   "options": [
+    {
+     "text": "Safe, Measured, Approved, Recorded, Trained",
+     "correct": false
+    },
+    {
+     "text": "Specific, Measurable, Achievable, Relevant, Time-bound",
+     "correct": true
+    },
+    {
+     "text": "Strong, Managed, Agreed, Reviewed, Tested",
+     "correct": false
+    },
+    {
+     "text": "Simple, Modern, Accurate, Rapid, Tidy",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why involve supervisors in building the plan?",
+   "options": [
+    {
+     "text": "To delay the plan",
+     "correct": false
+    },
+    {
+     "text": "It is a legal requirement",
+     "correct": false
+    },
+    {
+     "text": "To share blame",
+     "correct": false
+    },
+    {
+     "text": "They know practical limits and are more committed to the plan",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Intake is 20 percent below plan because of a late harvest. What is the best response?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Report false figures",
+     "correct": false
+    },
+    {
+     "text": "Adjust the plan: shift the peak, extend contracts and move maintenance",
+     "correct": true
+    },
+    {
+     "text": "Close the depot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should come first in an operational report?",
+   "options": [
+    {
+     "text": "A long history",
+     "correct": false
+    },
+    {
+     "text": "Staff complaints",
+     "correct": false
+    },
+    {
+     "text": "Raw data tables only",
+     "correct": false
+    },
+    {
+     "text": "A short summary of the main message",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a SMART target?",
+   "options": [
+    {
+     "text": "Be the best depot",
+     "correct": false
+    },
+    {
+     "text": "Do better this year",
+     "correct": false
+    },
+    {
+     "text": "Work hard during harvest",
+     "correct": false
+    },
+    {
+     "text": "Receive 85 000 tonnes of maize between April and July with average truck turnaround under 60 minutes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Bad news should be reported early so management can help.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An operational plan should never be changed once approved.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be part of developing an operational plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Identifying risks and contingencies",
+     "correct": true
+    },
+    {
+     "text": "Choosing staff by friendship",
+     "correct": false
+    },
+    {
+     "text": "Analysing crop estimates and previous seasons",
+     "correct": true
+    },
+    {
+     "text": "Setting a budget",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

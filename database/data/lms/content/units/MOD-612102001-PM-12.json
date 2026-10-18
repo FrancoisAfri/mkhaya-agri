@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-PM-12",
+  "title": "Attend to farm business management activities",
+  "lessons": [
+    {
+      "title": "Preparing budgets for the dairy",
+      "minutes": 25,
+      "html": "<h3>From knowledge to practice</h3><p>In this practical module you will prepare and use real budgets, analyse financial results and support business decisions on a dairy. Work with the farm's own figures where the owner permits, keeping them confidential.</p><h4>Step 1: gather data</h4><ul><li>Herd budget: cows in milk by month, culls, heifer sales.</li><li>Production forecast: litres per cow per day times cows in milk.</li><li>Milk price forecast including expected component and quality payments.</li><li>Input prices: feed, fertiliser, fuel, electricity, wages, animal health.</li><li>Fixed costs from last year's accounts, adjusted for known changes.</li></ul><h4>Step 2: enterprise budget</h4><table><tr><th>Item</th><th>Per month (R)</th></tr><tr><td>Milk income (420 cows × 21 L × 30 days × R7.40)</td><td>1 958 040</td></tr><tr><td>Cull and calf sales</td><td>70 000</td></tr><tr><td><strong>Gross income</strong></td><td><strong>2 028 040</strong></td></tr><tr><td>Feed</td><td>1 050 000</td></tr><tr><td>Animal health, AI</td><td>85 000</td></tr><tr><td>Parlour, electricity, fuel</td><td>120 000</td></tr><tr><td>Pasture inputs</td><td>140 000</td></tr><tr><td><strong>Total variable costs</strong></td><td><strong>1 395 000</strong></td></tr><tr><td><strong>Gross margin</strong></td><td><strong>633 040</strong></td></tr></table><h4>Step 3: cash flow budget</h4><p>Spread income and expenses over 12 months according to when cash actually moves: milk paid the month after delivery, fertiliser bought in autumn, annual insurance in one payment, loan repayments on set dates. Calculate the opening balance, net flow and closing balance for each month. Identify months that need overdraft and discuss facilities with the bank in advance.</p><h4>Step 4: sensitivity</h4><p>Recalculate the gross margin with milk price 10% lower and feed 10% higher. In the example, income falls by about R196 000 and feed rises by R105 000, cutting the gross margin by about R301 000 to around R332 000. This shows how exposed the farm is.</p>"
+    },
+    {
+      "title": "Monitoring actual performance",
+      "minutes": 25,
+      "html": "<h3>Budget versus actual</h3><p>Each month compare actual income and costs with the budget. Calculate the variance (actual minus budget) and investigate significant variances.</p><table><tr><th>Item</th><th>Budget</th><th>Actual</th><th>Variance</th></tr><tr><td>Milk income</td><td>R1 958 040</td><td>R1 870 000</td><td>−R88 040</td></tr><tr><td>Feed</td><td>R1 050 000</td><td>R1 120 000</td><td>+R70 000 (over)</td></tr></table><p>Ask why. Lower milk income could be lower yield, fewer cows in milk, lower price or quality penalties. Higher feed cost could be price increases, higher intake, waste or more bought feed due to poor pasture growth. Each cause needs a different response.</p><h4>Key operational ratios</h4><ul><li><strong>Feed cost per litre</strong> = feed cost ÷ litres sold.</li><li><strong>Margin over feed cost per cow per day</strong> = (milk income − feed cost) ÷ cow days.</li><li><strong>Labour cost per litre</strong>.</li><li><strong>Total cost per litre</strong> compared with milk price: the basic test of profitability.</li></ul><h4>Bookkeeping tasks</h4><ul><li>Code invoices to the correct cost centres (dairy, young stock, pasture, overheads).</li><li>Reconcile the milk statement with collection records.</li><li>Reconcile bank statements monthly.</li><li>Check payroll inputs: hours, overtime, leave, deductions, UIF.</li><li>Keep supporting documents for tax and audits.</li></ul><h4>Asset register</h4><p>Maintain a register of machinery, equipment and buildings with purchase date, cost and depreciation. Combine with a livestock valuation to prepare the balance sheet. Monitor the debt ratio and current ratio to check solvency and liquidity.</p><h4>Reporting</h4><p>Prepare a short monthly management report for the owner: key physical results (litres, SCC, calvings), financial results versus budget, cash position, main variances with explanations, and recommended actions.</p><p>Explain variances in plain language in your report. For example: feed cost was R70 000 over budget because the maize price rose and pasture growth was poor in a dry month, so more silage was fed.</p>"
+    },
+    {
+      "title": "Supporting business decisions",
+      "minutes": 25,
+      "html": "<h3>Evaluating a proposal with a partial budget</h3><p>Proposal: buy a second-hand mixer wagon for R480 000 instead of paying a contractor to mix feed.</p><table><tr><th>Effects on profit per year</th><th>R</th></tr><tr><td>Reduced costs: contractor fees saved</td><td>+180 000</td></tr><tr><td>Additional income: better intake, estimated</td><td>+60 000</td></tr><tr><td>Additional costs: depreciation (R480 000 over 8 years)</td><td>−60 000</td></tr><tr><td>Additional costs: fuel, repairs, operator time</td><td>−95 000</td></tr><tr><td>Additional costs: interest on capital (approx.)</td><td>−48 000</td></tr><tr><td><strong>Net change in profit</strong></td><td><strong>+37 000</strong></td></tr></table><p>The proposal appears profitable but the margin is modest and depends on the uncertain intake benefit. Without it, the result would be −R23 000. The manager should present both results and the risks to the owner.</p><h4>Labour management activities</h4><ul><li>Prepare job descriptions and organograms.</li><li>Plan recruitment, contracts and induction.</li><li>Keep employment records and comply with the Basic Conditions of Employment Act 75 of 1997, the Labour Relations Act 66 of 1995 and the Employment Equity Act 55 of 1998.</li><li>Plan training and skills development.</li></ul><h4>Compliance calendar</h4><p>Maintain a calendar of statutory and contractual deadlines: tax and UIF submissions, insurance renewals, water use authorisation conditions under the National Water Act 36 of 1998, OHS Act 85 of 1993 requirements, vehicle licences and buyer audits.</p><h4>Risk management</h4><p>Review insurance cover for buildings, machinery, livestock and liability. Maintain feed reserves and cash buffers. Diversify income where it makes sense. Document a business continuity plan for power failure, disease outbreak and loss of key staff.</p><h4>Key points</h4><ul><li>Build enterprise and cash flow budgets from herd and production forecasts.</li><li>Test budgets for lower milk prices and higher feed prices.</li><li>Compare actual with budget monthly and explain variances.</li><li>Use partial budgets and present risks for investment decisions.</li><li>Keep labour, compliance and risk management activities up to date.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "In the example, what is the monthly gross margin?",
+      "options": [
+        {
+          "text": "R633 040",
+          "correct": true
+        },
+        {
+          "text": "R2 028 040",
+          "correct": false
+        },
+        {
+          "text": "R1 395 000",
+          "correct": false
+        },
+        {
+          "text": "R70 000",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Actual milk income is R1 870 000 against a budget of R1 958 040. What is the variance?",
+      "options": [
+        {
+          "text": "+R88 040",
+          "correct": false
+        },
+        {
+          "text": "−R88 040",
+          "correct": true
+        },
+        {
+          "text": "−R8 804",
+          "correct": false
+        },
+        {
+          "text": "R0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the basic test of a dairy's profitability per litre?",
+      "options": [
+        {
+          "text": "Litres per cow",
+          "correct": false
+        },
+        {
+          "text": "Number of staff",
+          "correct": false
+        },
+        {
+          "text": "Total cost per litre compared with the milk price",
+          "correct": true
+        },
+        {
+          "text": "Herd size",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In the mixer wagon example, what happens to the result without the intake benefit?",
+      "options": [
+        {
+          "text": "It becomes +R97 000",
+          "correct": false
+        },
+        {
+          "text": "It stays +R37 000",
+          "correct": false
+        },
+        {
+          "text": "It becomes +R60 000",
+          "correct": false
+        },
+        {
+          "text": "It becomes −R23 000",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is a cash flow budget prepared month by month?",
+      "options": [
+        {
+          "text": "To show when overdraft will be needed",
+          "correct": true
+        },
+        {
+          "text": "To calculate depreciation",
+          "correct": false
+        },
+        {
+          "text": "To value livestock",
+          "correct": false
+        },
+        {
+          "text": "To set the milking routine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Lower milk income can be caused by lower yield, fewer cows in milk, lower price or quality penalties.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Farm financial figures may be shared freely with anyone.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which belong in a monthly management report to the owner? (select all that apply)",
+      "options": [
+        {
+          "text": "Key physical results",
+          "correct": true
+        },
+        {
+          "text": "Financial results versus budget",
+          "correct": true
+        },
+        {
+          "text": "Cash position",
+          "correct": true
+        },
+        {
+          "text": "Rumours about neighbours",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

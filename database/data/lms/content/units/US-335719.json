@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335719",
+ "title": "Develop riding proficiency",
+ "lessons": [
+  {
+   "title": "Position, balance and the aids",
+   "minutes": 20,
+   "html": "<h3>A correct, balanced position</h3>\n<p>Riding proficiency starts with a secure, independent seat. The rider must stay balanced without relying on the reins, so the hands can give clear, soft signals.</p>\n<ul>\n<li><strong>Alignment:</strong> from the side, a straight line runs from the ear through the shoulder and hip to the heel.</li>\n<li><strong>Seat:</strong> sit in the deepest part of the saddle, weight evenly on both seat bones.</li>\n<li><strong>Legs:</strong> long and relaxed, knee and thigh in light contact, lower leg at the girth, heel slightly lower than the toe, ball of the foot on the stirrup.</li>\n<li><strong>Upper body:</strong> tall, shoulders relaxed, eyes looking where you are going.</li>\n<li><strong>Hands:</strong> closed but soft, thumbs on top, a straight line from elbow through hand to the bit.</li>\n</ul>\n<h3>The natural aids</h3>\n<table><tr><th>Aid</th><th>Use</th></tr>\n<tr><td>Seat and weight</td><td>Drive, half-halt, slow down, stop, help the horse turn</td></tr>\n<tr><td>Legs</td><td>At the girth to ask forward; behind the girth to move the hindquarters or ask for canter</td></tr>\n<tr><td>Hands and reins</td><td>Direct, regulate pace, bend, receive the energy created by the legs</td></tr>\n<tr><td>Voice</td><td>Calm, reassure, reward</td></tr></table>\n<p>Artificial aids, such as a schooling whip and spurs, support the natural aids. They are never used to punish, and spurs only by riders with a stable lower leg.</p>\n<h3>Safety basics</h3>\n<ul>\n<li>Always wear an approved riding helmet and boots with a heel.</li>\n<li>Check tack before mounting: girth tight enough, stirrup length correct, bridle fitted.</li>\n<li>Mount from a mounting block where possible to protect the horse's back.</li>\n<li>Keep a safe distance (at least one horse length) from other horses in the arena and pass left hand to left hand.</li>\n</ul>"
+  },
+  {
+   "title": "Riding the paces, transitions and figures",
+   "minutes": 20,
+   "html": "<h3>The paces</h3>\n<ul>\n<li><strong>Walk (four-beat):</strong> follow the horse's head movement with the hands; sit softly.</li>\n<li><strong>Trot (two-beat):</strong> sitting trot absorbs the movement through a relaxed lower back; rising trot rises and sits with the outside foreleg (\"on the correct diagonal\"). Change diagonal when you change rein.</li>\n<li><strong>Canter (three-beat):</strong> ask with the inside leg at the girth, outside leg behind the girth, weight slightly on the inside seat bone. Check the leading leg: on a circle, the inside foreleg should lead.</li>\n<li><strong>Gallop:</strong> a light, forward seat out of the saddle, in an open area with a suitable, fit horse.</li>\n</ul>\n<h3>Transitions</h3>\n<p>Good transitions show control and balance. Prepare with a half-halt (a brief, coordinated closing of seat, leg and hand) to warn the horse, then apply the aid for the new pace. Upward and downward transitions should be smooth, not rushed or abrupt.</p>\n<h3>School figures</h3>\n<ul>\n<li>20 m, 15 m and 10 m circles: the horse bends evenly along its body around the inside leg.</li>\n<li>Serpentines and figures of eight: develop changes of bend and suppleness.</li>\n<li>Changes of rein across the diagonal.</li>\n<li>Turns on the forehand and leg yielding: teach the horse to move away from the leg.</li>\n</ul>\n<h3>Jumping and outrides</h3>\n<p>Once the seat is secure, progress to trotting poles, small fences in a light seat, and outrides on varied ground, such as hills and veld tracks. On slopes, lean slightly forward going uphill and stay upright and balanced going down, letting the horse pick its way.</p>\n<h3>Developing your skills</h3>\n<ul>\n<li>Set goals with your instructor and record progress.</li>\n<li>Ride a variety of horses to build feel.</li>\n<li>Get fit yourself: core strength and flexibility help balance.</li>\n<li>Watch videos of your riding to spot faults.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>A straight line from ear to shoulder to hip to heel shows correct alignment.</li>\n<li>Natural aids are seat, legs, hands and voice; artificial aids support, never punish.</li>\n<li>Rise on the outside diagonal in rising trot and check the leading leg in canter.</li>\n<li>Prepare transitions with a half-halt.</li>\n<li>Always wear a helmet and check tack before mounting.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which line shows correct rider alignment from the side?",
+   "options": [
+    {
+     "text": "Ear, knee, toe",
+     "correct": false
+    },
+    {
+     "text": "Hand, hip, stirrup",
+     "correct": false
+    },
+    {
+     "text": "Head, horse's neck, tail",
+     "correct": false
+    },
+    {
+     "text": "Ear, shoulder, hip, heel",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In rising trot, the rider rises with which foreleg?",
+   "options": [
+    {
+     "text": "The outside foreleg",
+     "correct": true
+    },
+    {
+     "text": "The inside foreleg",
+     "correct": false
+    },
+    {
+     "text": "Either, it does not matter",
+     "correct": false
+    },
+    {
+     "text": "The hind leg",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should the outside leg be to ask for canter?",
+   "options": [
+    {
+     "text": "Off the horse",
+     "correct": false
+    },
+    {
+     "text": "In front of the girth",
+     "correct": false
+    },
+    {
+     "text": "Behind the girth",
+     "correct": true
+    },
+    {
+     "text": "On the horse's neck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a half-halt used for?",
+   "options": [
+    {
+     "text": "Stopping the horse completely",
+     "correct": false
+    },
+    {
+     "text": "Warning and rebalancing the horse before a change",
+     "correct": true
+    },
+    {
+     "text": "Punishing the horse",
+     "correct": false
+    },
+    {
+     "text": "Mounting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should riders pass each other in an arena?",
+   "options": [
+    {
+     "text": "Right hand to right hand",
+     "correct": false
+    },
+    {
+     "text": "Head to tail",
+     "correct": false
+    },
+    {
+     "text": "At a gallop",
+     "correct": false
+    },
+    {
+     "text": "Left hand to left hand",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Artificial aids such as whips may be used to punish the horse.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mounting from a mounting block helps protect the horse's back.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are natural aids? (select all that apply)",
+   "options": [
+    {
+     "text": "Seat and weight",
+     "correct": true
+    },
+    {
+     "text": "Legs",
+     "correct": true
+    },
+    {
+     "text": "Voice",
+     "correct": true
+    },
+    {
+     "text": "Spurs",
+     "correct": false
+    },
+    {
+     "text": "Schooling whip",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

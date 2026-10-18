@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115836",
+ "title": "Fire/dry tea",
+ "lessons": [
+  {
+   "title": "Why tea is fired and preparing the dryer",
+   "minutes": 15,
+   "html": "<h3>What firing does</h3><p>Firing (drying) is the step that stops fermentation. Hot air is blown through the fermented leaf. The heat stops the changes in the leaf and takes out most of the water. The leaf turns black and becomes dry and crisp. Dry tea can be kept for a long time without going bad.</p><p>If tea is not dry enough, it goes mouldy in the bag. If it is dried too hot or too long, it tastes burnt and is worth less.</p><h4>The dryer</h4><p>Most tea factories use one of two types:</p><ul><li><strong>Endless chain pressure (ECP) dryer:</strong> trays or a belt carry the leaf slowly through hot air.</li><li><strong>Fluid bed dryer:</strong> hot air blows up through the leaf so it floats and moves along like a liquid. Often used for CTC tea.</li></ul><p>Hot air comes from a heater or furnace that may burn wood, coal, gas or oil.</p><h4>Getting ready</h4><ol><li>Check that the dryer is clean inside, with no old tea stuck on the trays or mesh. Old tea can burn and catch fire.</li><li>Check that guards and doors are closed.</li><li>Start the heater and fans in the order you were trained, and let the dryer reach the temperature the supervisor gives you.</li><li>Check the thermometers at the inlet (hot air in) and outlet (air out).</li><li>Make sure the fire extinguisher is in place and you know how to use it.</li></ol><h4>Safety</h4><ul><li>Dryers and furnaces are very hot. Do not touch metal parts. Wear the gloves you are given when needed.</li><li>Tea dust can burn. Keep the area swept.</li><li>Never open inspection doors while the dryer is running unless you are trained to do so.</li><li>If you see smoke or flames inside the dryer, raise the alarm and follow the fire procedure. Do not open doors, as more air makes the fire bigger.</li><li>Drink water often; the dryer room is hot.</li></ul>"
+  },
+  {
+   "title": "Running the dryer and checking the tea",
+   "minutes": 15,
+   "html": "<h3>Feeding the dryer</h3><p>Feed the fermented leaf into the dryer as soon as it is ready. Spread it evenly on the feed belt or spreader at the depth your supervisor gives you.</p><ul><li>Too thick: the leaf in the middle stays wet.</li><li>Too thin: the leaf dries too fast and burns.</li><li>Uneven: some leaf is wet and some is burnt.</li></ul><h4>Controlling the dryer</h4><p>Watch the inlet and outlet temperatures all the time. Your supervisor tells you the right range. Write the readings in the log at the set times, for example every half hour. If the temperature goes too high or too low, tell your supervisor. Do not change the settings unless you have been trained and allowed to do so.</p><h4>Checking the dried tea</h4><table><tr><th>Check</th><th>Good</th><th>Problem</th></tr><tr><td>Feel</td><td>Crisp, breaks easily, no soft bits</td><td>Soft or bendy: under-dried</td></tr><tr><td>Colour</td><td>Black, even</td><td>Brown patches: under-dried; very grey or burnt: over-dried</td></tr><tr><td>Smell</td><td>Pleasant, toasty</td><td>Smoky or burnt</td></tr></table><p>The supervisor or quality person may test moisture with a meter. Under-dried tea is sent back through the dryer. Burnt tea is reported and kept apart.</p><h4>After the dryer</h4><ol><li>Let the tea cool before it goes into bins or bags. Warm tea packed tightly can sweat and spoil.</li><li>Send the cooled tea to the sorting room.</li><li>Label bins with the date and batch.</li></ol><h4>Cleaning and records</h4><ul><li>Clean the dryer as the schedule says, after switching off and letting it cool.</li><li>Empty dust collectors.</li><li>Complete the dryer log: batch, times, temperatures and checks.</li></ul><h4>Key points</h4><ul><li>Firing stops fermentation and removes water so tea keeps.</li><li>Spread leaf evenly at the right depth.</li><li>Watch and record inlet and outlet temperatures.</li><li>Check that tea is crisp and black, not soft or burnt.</li><li>Keep the dryer clean; tea dust and old tea can catch fire.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does firing (drying) do to fermented tea?",
+   "options": [
+    {
+     "text": "Stops fermentation and removes most of the water",
+     "correct": true
+    },
+    {
+     "text": "Makes the tea green again",
+     "correct": false
+    },
+    {
+     "text": "Adds flavour from smoke",
+     "correct": false
+    },
+    {
+     "text": "Cuts the leaf smaller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if tea is packed before it is dry enough?",
+   "options": [
+    {
+     "text": "It tastes burnt",
+     "correct": false
+    },
+    {
+     "text": "It becomes greener",
+     "correct": false
+    },
+    {
+     "text": "It can go mouldy",
+     "correct": true
+    },
+    {
+     "text": "It weighs less",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens when the leaf is spread too thick in the dryer?",
+   "options": [
+    {
+     "text": "It burns",
+     "correct": false
+    },
+    {
+     "text": "It dries too fast",
+     "correct": false
+    },
+    {
+     "text": "It turns grey",
+     "correct": false
+    },
+    {
+     "text": "The leaf in the middle stays wet",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you see flames inside the dryer?",
+   "options": [
+    {
+     "text": "Open the doors to look",
+     "correct": false
+    },
+    {
+     "text": "Raise the alarm and follow the fire procedure without opening the doors",
+     "correct": true
+    },
+    {
+     "text": "Pour water into the fan",
+     "correct": false
+    },
+    {
+     "text": "Keep feeding leaf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should dried tea cool before it is packed into bins?",
+   "options": [
+    {
+     "text": "So it weighs more",
+     "correct": false
+    },
+    {
+     "text": "So it turns black",
+     "correct": false
+    },
+    {
+     "text": "Warm tea packed tightly can sweat and spoil",
+     "correct": true
+    },
+    {
+     "text": "So the dryer can stop",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Under-dried tea feels soft or bendy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Any worker may change the dryer temperature settings without training.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good signs of correctly dried tea? (select all that apply)",
+   "options": [
+    {
+     "text": "Crisp and breaks easily",
+     "correct": true
+    },
+    {
+     "text": "Brown soft patches",
+     "correct": false
+    },
+    {
+     "text": "Black, even colour",
+     "correct": true
+    },
+    {
+     "text": "A burnt smell",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

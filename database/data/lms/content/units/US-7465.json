@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-7465",
+ "title": "Collect and use data to establish complex statistical and probability models and solve related problems",
+ "lessons": [
+  {
+   "title": "Collecting and organising data",
+   "minutes": 20,
+   "html": "<h3>Data in agri sales and services</h3><p>Agri businesses run on data: daily sales per product, rainfall, grain prices, delivery times, customer numbers and yields. Statistics turns raw data into information for decisions such as how much seed to stock, which promotions work and how risky a price movement is.</p><h4>Populations and samples</h4><p>A <strong>population</strong> is the whole group of interest, for example every farmer in the co-op's area. A <strong>sample</strong> is the part you actually collect data from. A sample must be <strong>representative</strong>; surveying only customers who visit on Saturday mornings may miss large commercial farmers who order by phone. Random sampling, where every member has an equal chance of selection, reduces bias. Stratified sampling divides the population into groups (small-scale, medium, large farms) and samples from each.</p><h4>Types of data</h4><ul><li><strong>Categorical:</strong> crop type, region, payment method.</li><li><strong>Discrete numerical:</strong> number of bags sold, number of cattle.</li><li><strong>Continuous numerical:</strong> mass, rainfall, price per tonne.</li></ul><h4>Organising data</h4><p>Raw data is organised in frequency tables, often with class intervals for continuous data. Example: daily lick sales over 20 days.</p><table><tr><th>Bags sold</th><th>Frequency</th></tr><tr><td>0 to 9</td><td>3</td></tr><tr><td>10 to 19</td><td>8</td></tr><tr><td>20 to 29</td><td>6</td></tr><tr><td>30 to 39</td><td>3</td></tr></table><p>Graphs then show patterns: histograms for distributions, line graphs for trends over time (monthly sales), scatter plots for relationships between two variables (rainfall and fertiliser sales), and box-and-whisker plots for comparing spreads.</p>"
+  },
+  {
+   "title": "Measures of centre and spread, and regression",
+   "minutes": 25,
+   "html": "<h3>Centre</h3><p>For data 12, 15, 15, 18, 20, 22, 45:</p><ul><li><strong>Mean</strong> = sum / n = 147 / 7 = 21.</li><li><strong>Median</strong> = middle value = 18.</li><li><strong>Mode</strong> = most frequent = 15.</li></ul><p>The value 45 is an outlier that pulls the mean up. When data is skewed or has outliers, the median is often the better summary.</p><h4>Spread</h4><ul><li><strong>Range</strong> = max − min = 33.</li><li><strong>Interquartile range (IQR)</strong> = Q3 − Q1, the spread of the middle 50%.</li><li><strong>Variance and standard deviation:</strong> standard deviation measures the typical distance from the mean. Variance = Σ(x − mean)² / n for a population; standard deviation is its square root. A supplier whose delivery times have a small standard deviation is more reliable, even if the mean is the same.</li></ul><h4>The normal distribution</h4><p>Many measurements, such as kernel mass or daily sales in a stable period, are roughly bell-shaped. For a normal distribution about 68% of values lie within one standard deviation of the mean, about 95% within two, and about 99.7% within three. If mean daily sales are 200 bags with standard deviation 20, sales above 240 bags (two standard deviations above) happen on roughly 2.5% of days.</p><h4>Correlation and regression</h4><p>A scatter plot of monthly rainfall against fertiliser sales may show a positive relationship. The <strong>correlation coefficient r</strong> ranges from −1 to +1; values near ±1 show a strong linear relationship, values near 0 a weak one. A <strong>least-squares regression line</strong> ŷ = a + bx can predict sales from rainfall. Remember: correlation does not prove causation, and predictions far outside the observed data range (extrapolation) are unreliable.</p>"
+  },
+  {
+   "title": "Probability models and decisions",
+   "minutes": 20,
+   "html": "<h3>Probability basics</h3><p>Probability measures how likely an event is, from 0 (impossible) to 1 (certain). P(A) = favourable outcomes / total equally likely outcomes, or estimated from relative frequency in data.</p><h4>Rules</h4><ul><li><strong>Complement:</strong> P(not A) = 1 − P(A).</li><li><strong>Addition rule:</strong> P(A or B) = P(A) + P(B) − P(A and B). For mutually exclusive events, P(A and B) = 0.</li><li><strong>Independent events:</strong> P(A and B) = P(A) × P(B).</li></ul><h4>Example</h4><p>Records show a supplier delivers late 10% of the time and a second supplier, independently, 20% of the time. If you order from both, the probability that both are late = 0.1 × 0.2 = 0.02. The probability that at least one is on time = 1 − 0.02 = 0.98.</p><h4>Tree diagrams and contingency tables</h4><p>Tree diagrams help with sequences of events, such as rain or no rain followed by high or low demand. Two-way contingency tables help with categorical data, for example customers by farm size and payment method, and allow conditional probability: P(account | large farm) = number of large farms on account / number of large farms.</p><h4>Expected value</h4><p>Expected value = Σ (outcome × probability). Suppose a promotion yields an extra R40,000 profit with probability 0.3, R10,000 with probability 0.5 and a loss of R15,000 with probability 0.2. Expected value = 12,000 + 5,000 − 3,000 = R14,000. A positive expected value supports running the promotion, though managers also weigh the risk of loss.</p><h4>Solving problems</h4><ol><li>Define the question.</li><li>Collect representative data.</li><li>Choose the right model and calculate.</li><li>Interpret in context and state limitations.</li></ol><h4>Key points</h4><ul><li>Use representative, preferably random, samples.</li><li>Median resists outliers; standard deviation measures consistency.</li><li>About 95% of normal data lies within two standard deviations of the mean.</li><li>Correlation does not prove causation.</li><li>Use probability rules and expected value to compare decisions.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the median of 4, 7, 9, 12, 30?",
+   "options": [
+    {
+     "text": "12.4",
+     "correct": false
+    },
+    {
+     "text": "9",
+     "correct": true
+    },
+    {
+     "text": "30",
+     "correct": false
+    },
+    {
+     "text": "7",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why might the median be better than the mean for data with an outlier?",
+   "options": [
+    {
+     "text": "It is always larger",
+     "correct": false
+    },
+    {
+     "text": "It is easier to type",
+     "correct": false
+    },
+    {
+     "text": "It uses all the data more",
+     "correct": false
+    },
+    {
+     "text": "It is less affected by extreme values",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "For a normal distribution, roughly what percentage of values lie within two standard deviations of the mean?",
+   "options": [
+    {
+     "text": "68%",
+     "correct": false
+    },
+    {
+     "text": "50%",
+     "correct": false
+    },
+    {
+     "text": "95%",
+     "correct": true
+    },
+    {
+     "text": "100%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "P(late) for supplier A is 0.1 and for independent supplier B is 0.2. What is P(both late)?",
+   "options": [
+    {
+     "text": "0.15",
+     "correct": false
+    },
+    {
+     "text": "0.02",
+     "correct": true
+    },
+    {
+     "text": "0.2",
+     "correct": false
+    },
+    {
+     "text": "0.3",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A correlation coefficient of −0.9 indicates what?",
+   "options": [
+    {
+     "text": "A weak positive relationship",
+     "correct": false
+    },
+    {
+     "text": "Causation",
+     "correct": false
+    },
+    {
+     "text": "A strong negative linear relationship",
+     "correct": true
+    },
+    {
+     "text": "No relationship",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Correlation between two variables proves that one causes the other.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Expected value is the sum of each outcome multiplied by its probability.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which reduce sampling bias? (select all that apply)",
+   "options": [
+    {
+     "text": "Random sampling",
+     "correct": true
+    },
+    {
+     "text": "Stratified sampling by farm size",
+     "correct": true
+    },
+    {
+     "text": "Only surveying Saturday-morning customers",
+     "correct": false
+    },
+    {
+     "text": "Surveying only friends",
+     "correct": false
+    },
+    {
+     "text": "Ensuring every member has an equal chance of selection",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

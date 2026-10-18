@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-QUAL124085",
+ "title": "Higher Certificate in Cannabis Production and Management",
+ "lessons": [
+  {
+   "title": "The legal and regulatory framework",
+   "minutes": 20,
+   "html": "<h3>A tightly regulated crop</h3><p><em>Cannabis sativa</em> is grown commercially for two broad purposes: <strong>hemp</strong> (low-THC types for fibre, seed, oil and some CBD products) and <strong>medicinal cannabis</strong> (higher-cannabinoid types for pharmaceutical use). In South Africa both are regulated, and the rules have been changing. This qualification develops the production and management competence needed to operate within that framework.</p><h4>Key points of the framework</h4><ul><li>Personal, private cultivation and use by adults was decriminalised following the 2018 Constitutional Court judgment and is now governed by the Cannabis for Private Purposes Act of 2024. Private-purpose provisions do <strong>not</strong> authorise commercial production or sale.</li><li>Cultivation of cannabis for medicinal use requires a licence from the South African Health Products Regulatory Authority (SAHPRA), under the Medicines and Related Substances Act 101 of 1965.</li><li>Hemp cultivation requires a permit from the national Department of Agriculture, with conditions on approved varieties, THC limits, sites and record-keeping.</li></ul><p>Regulations, permitted THC thresholds and permit conditions are reviewed from time to time. Before investing or advising, confirm the current requirements directly with SAHPRA and the Department of Agriculture, and obtain legal advice.</p><h4>What licences typically demand</h4><ul><li>A defined, secure site with access control, fencing, alarms and CCTV appropriate to the licence type</li><li>Approved, traceable genetics (seed or clones) from a legal source</li><li>Good Agricultural and Collection Practice (GACP) for medicinal crops, and Good Manufacturing Practice (GMP) where material is processed</li><li>Batch records from propagation to dispatch, with reconciliation of plant numbers and masses</li><li>Controlled destruction of waste plant material, witnessed and recorded</li><li>Named responsible persons and vetted staff</li></ul><h4>Management implications</h4><p>Compliance costs, security and documentation are major parts of the budget and the daily routine. A production manager who cannot demonstrate traceability risks licence suspension and the loss of the whole crop's market value. Plan the quality management system before the first seed is planted.</p>"
+  },
+  {
+   "title": "Crop biology and production systems",
+   "minutes": 20,
+   "html": "<h3>Know the plant</h3><p>Cannabis is an annual, usually <strong>dioecious</strong> plant: individual plants are male or female. For medicinal flower production, only unpollinated female plants are wanted, because pollination diverts energy to seed and reduces cannabinoid yield. Hemp grown for grain or fibre may include both sexes.</p><p>Most types are <strong>short-day plants</strong>: they grow vegetatively under long days and switch to flowering when nights lengthen. Indoor growers control this with lighting schedules (commonly a long-day vegetative regime and a 12-hour light, 12-hour dark flowering regime). Auto-flowering types flower according to age rather than day length.</p><h4>Production systems</h4><table><tr><th>System</th><th>Strengths</th><th>Challenges</th></tr><tr><td>Indoor (controlled environment)</td><td>Year-round, uniform, high control of climate and pests, easier GACP compliance</td><td>High capital and electricity cost; load shedding requires backup power</td></tr><tr><td>Greenhouse / tunnel</td><td>Uses SA sunlight, lower energy cost, light deprivation possible</td><td>Heat in summer, humidity management, some pest pressure</td></tr><tr><td>Open field</td><td>Lowest cost, suits hemp</td><td>Weather, pollination risk, security, uniformity</td></tr></table><h4>Propagation</h4><p>Medicinal producers usually propagate from <strong>clones</strong> (cuttings) taken from selected mother plants, to keep genetics and cannabinoid profile uniform. Hemp is generally direct-seeded with permitted, certified seed.</p><h4>Growing environment</h4><ul><li><strong>Media and nutrition:</strong> coir, peat-based mixes or soil; fertigation programmes are adjusted by growth stage and monitored by EC and pH of feed and runoff.</li><li><strong>Climate:</strong> temperature, relative humidity and vapour pressure deficit (VPD) are managed to drive growth and avoid disease; dense flowers are prone to bud rot (<em>Botrytis</em>) in humid conditions.</li><li><strong>Light:</strong> intensity and daily light integral drive yield in indoor and greenhouse systems.</li></ul><h4>Integrated pest management</h4><p>Common problems include spider mites, thrips, aphids, root aphids, fungus gnats, powdery mildew and Botrytis. Medicinal crops have very strict limits on pesticide residues, and only products registered for the crop under Act 36 of 1947 may be used, so IPM relies heavily on prevention, hygiene, scouting, biological control and environmental control.</p>"
+  },
+  {
+   "title": "Harvest, post-harvest and production management",
+   "minutes": 20,
+   "html": "<h3>Harvesting</h3><p>For flower crops, harvest timing is guided by trichome maturity (observed with a magnifier) and laboratory cannabinoid profiles, in line with the product specification. Hemp grain and fibre are harvested by stage of seed maturity or stem development. Harvest batches must be weighed, labelled and recorded at the moment of cutting, with the chain of custody maintained.</p><h4>Drying and curing</h4><p>Post-harvest handling has a large effect on quality and compliance:</p><ul><li>Dry in a clean, controlled room with managed temperature, humidity and airflow; too fast degrades terpenes, too slow risks mould.</li><li>Trim and cure under controlled conditions until moisture and water activity meet the specification.</li><li>Store in sealed, labelled containers in a secure, climate-controlled vault.</li></ul><h4>Quality control</h4><p>Samples are tested by an accredited laboratory for cannabinoid content, moisture, microbial load, heavy metals, pesticide residues and, where applicable, mycotoxins. A batch that fails is quarantined and dealt with under the licence conditions, which may require documented destruction.</p><h4>Managing the operation</h4><table><tr><th>Area</th><th>Management focus</th></tr><tr><td>Planning</td><td>Crop scheduling for continuous harvests, capacity per room, contracts with buyers before planting</td></tr><tr><td>Finance</td><td>Capital cost per square metre, energy cost per gram, labour per batch, compliance and security costs, realistic export or local prices</td></tr><tr><td>People</td><td>Vetted staff, SOP training, hygiene and gowning discipline, OHS Act 85 of 1993 compliance for chemicals, ladders, electricity and repetitive work</td></tr><tr><td>Documentation</td><td>SOPs, batch manufacturing records, deviations and CAPA (corrective and preventive action), audit readiness</td></tr><tr><td>Risk</td><td>Power outages, crop failure, regulatory change, theft, market price volatility</td></tr></table><p>Use key performance indicators such as yield per square metre per harvest, percentage of batches passing QC first time, cost per kilogram, and audit findings closed on time.</p><h4>Key points</h4><ul><li>Commercial cannabis and hemp production need the correct licence or permit; private-purpose rules do not cover commerce.</li><li>Medicinal flower crops use unpollinated female plants, usually propagated from clones.</li><li>Control climate, nutrition and IPM carefully; residue limits are strict.</li><li>Drying, curing, testing and secure storage determine quality and compliance.</li><li>Traceable records, security and cost control are central management tasks.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which body licenses cultivation of cannabis for medicinal purposes in South Africa?",
+   "options": [
+    {
+     "text": "The local municipality",
+     "correct": false
+    },
+    {
+     "text": "SAHPRA (South African Health Products Regulatory Authority)",
+     "correct": true
+    },
+    {
+     "text": "The South African Revenue Service",
+     "correct": false
+    },
+    {
+     "text": "The Agricultural Research Council",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are only unpollinated female plants wanted for medicinal flower production?",
+   "options": [
+    {
+     "text": "Male plants are illegal",
+     "correct": false
+    },
+    {
+     "text": "Female plants need no water",
+     "correct": false
+    },
+    {
+     "text": "Male plants flower faster",
+     "correct": false
+    },
+    {
+     "text": "Pollination diverts energy to seed and reduces cannabinoid yield",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do medicinal producers usually propagate from clones?",
+   "options": [
+    {
+     "text": "To keep genetics and cannabinoid profile uniform",
+     "correct": true
+    },
+    {
+     "text": "Because seed is illegal",
+     "correct": false
+    },
+    {
+     "text": "Clones need no light",
+     "correct": false
+    },
+    {
+     "text": "Clones cannot be tracked",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which disease is a particular risk in dense flowers under humid conditions?",
+   "options": [
+    {
+     "text": "Rust",
+     "correct": false
+    },
+    {
+     "text": "Foot rot",
+     "correct": false
+    },
+    {
+     "text": "Bud rot (Botrytis)",
+     "correct": true
+    },
+    {
+     "text": "Bacterial wilt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to a harvested batch that fails laboratory quality tests?",
+   "options": [
+    {
+     "text": "Sell it at a lower price",
+     "correct": false
+    },
+    {
+     "text": "Quarantine it and deal with it under licence conditions",
+     "correct": true
+    },
+    {
+     "text": "Mix it with a passing batch",
+     "correct": false
+    },
+    {
+     "text": "Give it to staff",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The private-purpose rules allow a farmer to grow and sell cannabis commercially without a licence.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Most cannabis types are short-day plants that start flowering when nights lengthen.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are typical licence requirements for a commercial cannabis operation? (select all that apply)",
+   "options": [
+    {
+     "text": "Secure, access-controlled site",
+     "correct": true
+    },
+    {
+     "text": "Traceable batch records",
+     "correct": true
+    },
+    {
+     "text": "Open public access to the growing rooms",
+     "correct": false
+    },
+    {
+     "text": "Recorded destruction of waste plant material",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

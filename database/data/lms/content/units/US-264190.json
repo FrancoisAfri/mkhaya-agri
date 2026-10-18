@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264190",
+ "title": "Plant and establish herbaceous plants in landscaped areas",
+ "lessons": [
+  {
+   "title": "Preparing the bed",
+   "minutes": 15,
+   "html": "<h3>What are herbaceous plants?</h3>\n<p>Herbaceous plants have soft, green stems, not woody ones. They include annuals (live for one season, such as petunias, marigolds and alyssum), perennials (live for many years, such as agapanthus, daylilies and gazanias), bulbs and groundcovers. They give colour and fill in beds in gardens, parks, office parks and estates.</p>\n<h4>Read the planting plan</h4>\n<p>Your supervisor will give you a planting plan or instructions. It shows which plants go where, how many, and the spacing. Check that the plants delivered match the plan: right names, right number, healthy.</p>\n<h4>Checking the plants</h4>\n<ul><li>Green, healthy leaves, no yellowing</li>\n<li>No pests or disease</li>\n<li>Roots that fill the pot or tray, but are not badly circling</li>\n<li>Moist root ball. Water the plants in their pots the day before or a few hours before planting.</li>\n<li>Keep plants in the shade until you plant them.</li></ul>\n<h4>Preparing the soil</h4>\n<ol><li>Remove all weeds, including roots of grasses like kikuyu and couch. Remove stones and rubble.</li>\n<li>Dig over the bed to a spade's depth (about 300 mm). Break up clods.</li>\n<li>Mix in compost (for example a 50 mm layer worked into the soil) and planting fertiliser at the rate your supervisor gives you.</li>\n<li>Rake the bed level, with a slight slope so water does not stand.</li>\n<li>Make a neat edge to the bed, cut with a spade or edging tool.</li></ol>\n<p>Do not dig wet clay soil. Wait until it is moist but crumbly.</p>"
+  },
+  {
+   "title": "Planting and after-care",
+   "minutes": 15,
+   "html": "<h3>Setting out</h3>\n<ol><li>Place the plants, still in their pots, on the bed according to the plan.</li>\n<li>Use the spacing given, for example 200 mm for small annuals or 400 mm for perennials. Use a measuring stick.</li>\n<li>Plant in rows offset like a triangle (staggered) for an even, full look.</li>\n<li>Put taller plants at the back of a bed against a wall, or in the middle of an island bed.</li>\n<li>Ask your supervisor to check before you plant.</li></ol>\n<h3>Planting</h3>\n<ol><li>Dig a hole slightly bigger than the root ball.</li>\n<li>Squeeze the pot or push the seedling out from below. Hold the plant by the root ball or leaves, never the stem.</li>\n<li>If roots are circling, gently loosen them.</li>\n<li>Plant at the same depth it was in the pot. Not deeper, not higher.</li>\n<li>Fill in and firm the soil gently with your fingers.</li>\n<li>Water each plant well straight after planting.</li></ol>\n<h3>After-care (establishment)</h3>\n<ul><li>Water often during the first weeks until roots grow into the soil, then less often but deeper.</li>\n<li>Mulch with bark chips or compost to keep moisture in and weeds down. Keep mulch away from stems.</li>\n<li>Remove weeds by hand while they are small.</li>\n<li>Check for snails, cutworm and aphids. Report them.</li>\n<li>Replace plants that die.</li>\n<li>Deadhead annuals (remove old flowers) to get more flowers.</li></ul>\n<h3>Clean up and safety</h3>\n<p>Collect empty pots and trays for recycling. Sweep paths. Wear gloves and wash hands after handling compost and fertiliser. Kneel on a mat to protect your knees.</p>\n<h4>Key points</h4>\n<ul><li>Herbaceous plants have soft stems: annuals, perennials, bulbs and groundcovers.</li>\n<li>Remove weeds, dig over and add compost before planting.</li>\n<li>Follow the planting plan and spacing; stagger rows.</li>\n<li>Plant at the same depth as in the pot and water in straight away.</li>\n<li>Mulch and water regularly until plants are established.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an annual plant?",
+   "options": [
+    {
+     "text": "A plant that lives for one season",
+     "correct": true
+    },
+    {
+     "text": "A plant with woody stems",
+     "correct": false
+    },
+    {
+     "text": "A plant that lives for many years",
+     "correct": false
+    },
+    {
+     "text": "A tree",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should a seedling be planted?",
+   "options": [
+    {
+     "text": "Much deeper than in the pot",
+     "correct": false
+    },
+    {
+     "text": "With roots showing above the soil",
+     "correct": false
+    },
+    {
+     "text": "At the same depth as in the pot",
+     "correct": true
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you hold a seedling when planting?",
+   "options": [
+    {
+     "text": "By the stem",
+     "correct": false
+    },
+    {
+     "text": "By the flower",
+     "correct": false
+    },
+    {
+     "text": "Upside down by the roots",
+     "correct": false
+    },
+    {
+     "text": "By the root ball or leaves, not the stem",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are rows staggered (offset like triangles)?",
+   "options": [
+    {
+     "text": "To use more plants",
+     "correct": false
+    },
+    {
+     "text": "To give an even, full look",
+     "correct": true
+    },
+    {
+     "text": "To make watering harder",
+     "correct": false
+    },
+    {
+     "text": "Because the plan says nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does deadheading mean?",
+   "options": [
+    {
+     "text": "Removing dead plants",
+     "correct": false
+    },
+    {
+     "text": "Cutting the lawn",
+     "correct": false
+    },
+    {
+     "text": "Removing old flowers to get more flowers",
+     "correct": true
+    },
+    {
+     "text": "Spraying for pests",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should water each plant well straight after planting.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mulch should be piled up against the plant stems.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps prepare a bed for planting? (select all that apply)",
+   "options": [
+    {
+     "text": "Remove weeds and their roots",
+     "correct": true
+    },
+    {
+     "text": "Mix in compost and planting fertiliser",
+     "correct": true
+    },
+    {
+     "text": "Dig wet clay soil",
+     "correct": false
+    },
+    {
+     "text": "Rake the bed level",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

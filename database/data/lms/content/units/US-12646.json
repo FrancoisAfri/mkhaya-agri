@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12646",
+  "title": "Perform quality checks",
+  "lessons": [
+    {
+      "title": "What quality means on the farm",
+      "minutes": 20,
+      "html": "<h3>What quality means on the farm</h3><p>Quality means that a product meets the standard the buyer expects. A buyer pays more for good quality and may reject a whole load if it does not meet the standard. Export markets, retailers and processors have strict specifications. Quality also includes food safety: the product must be free of harmful germs, chemical residues above the legal limits, and foreign objects.</p><h4>Who sets quality standards?</h4><ul><li><strong>The law:</strong> the Agricultural Product Standards Act 119 of 1990 sets grading standards for many products sold in or exported from South Africa. Inspectors check export fruit and other regulated products.</li><li><strong>Buyers:</strong> retailers, exporters and processors give specifications (specs).</li><li><strong>Certification schemes:</strong> many farms follow schemes such as GLOBALG.A.P. or SIZA, with rules on food safety, worker welfare and the environment.</li><li><strong>The farm:</strong> its own quality procedures and checklists.</li></ul><h4>What is checked?</h4><table><tr><th>Product</th><th>Examples of quality checks</th></tr><tr><td>Fruit</td><td>Size, colour, ripeness, sugar, blemishes, bruises, pest damage, rot</td></tr><tr><td>Vegetables</td><td>Size, freshness, firmness, cleanliness, no yellow leaves</td></tr><tr><td>Grain</td><td>Moisture, foreign matter, broken kernels, insect damage, mould</td></tr><tr><td>Eggs</td><td>Clean, uncracked shells, correct size grade</td></tr><tr><td>Milk</td><td>Temperature, no antibiotic residues, cleanliness</td></tr><tr><td>Wool</td><td>Clean, free of plastic and twine, correctly classed</td></tr></table><h4>Quality starts in the field</h4><p>Quality cannot be added in the pack house; it can only be kept. Good pruning, irrigation, pest control, careful picking and gentle handling all create quality. Every worker is responsible for quality, not only the quality controller.</p><p>Poor quality has a real cost. A rejected load means lost income for the farm, wasted inputs and labour, and it can damage the farm's name with the buyer.</p>"
+    },
+    {
+      "title": "How to do a quality check and act on the results",
+      "minutes": 25,
+      "html": "<h3>How to do a quality check and act on the results</h3><h4>Steps in a quality check</h4><ol><li><strong>Know the standard.</strong> Have the specification or checklist with you: what is acceptable and what is not. Many pack houses have photo charts of defects.</li><li><strong>Take a sample.</strong> Check a set number of items, taken at random from different places in the load, crate or bin, not only from the top.</li><li><strong>Inspect.</strong> Look, measure, weigh or test each item. Use the tools provided: size rings, colour charts, scales, thermometers, refractometers, moisture meters.</li><li><strong>Record.</strong> Write down the date, time, batch or block number, sample size, and the number and type of defects.</li><li><strong>Decide.</strong> Compare results with the standard: accept, re-sort, downgrade or reject.</li><li><strong>Report.</strong> Tell your supervisor about problems at once, with the numbers.</li></ol><h4>Example</h4><p>A citrus picking team brings in bins. The quality controller samples 50 fruit from one bin and finds 6 with picking damage (clipper cuts and stem pulled out). That is 6 / 50 x 100 = 12%. If the farm's limit is lower than this, the supervisor must speak to the team at once, check their clippers and show the correct method, before more fruit is damaged.</p><h4>Traceability</h4><p>Every batch must be labelled so it can be traced back to the block, the picking date, and sometimes the team. If a problem is found later, for example a chemical residue, the farm can find the cause and remove only the affected product.</p><h4>Calibrating tools</h4><p>Measuring tools must be accurate. Check scales with a known weight, thermometers in iced water, and refractometers with clean water, as the farm's procedure says. Record the check.</p><h4>Good practice</h4><ul><li>Be honest and consistent. Do not pass a bad batch because of pressure to finish.</li><li>Keep samples and records as the procedure says.</li><li>Look for causes, not only defects: if many fruit are bruised, check how bins are filled and moved.</li><li>Keep your work area and tools clean.</li></ul><h4>Key points</h4><ul><li>Quality means meeting the buyer's and legal standard, including food safety.</li><li>Standards come from the law, buyers, certification schemes and the farm.</li><li>Quality is created in the field and kept by careful handling.</li><li>Sample at random, inspect against the spec, record, decide and report.</li><li>Label batches for traceability and keep measuring tools calibrated.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What does quality mean for a farm product?",
+      "options": [
+        {
+          "text": "The product meets the standard the buyer expects",
+          "correct": true
+        },
+        {
+          "text": "The product is the biggest on the market",
+          "correct": false
+        },
+        {
+          "text": "The product is the cheapest",
+          "correct": false
+        },
+        {
+          "text": "The product was harvested quickly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should a sample be taken from a bin?",
+      "options": [
+        {
+          "text": "Only from the top layer",
+          "correct": false
+        },
+        {
+          "text": "At random from different places in the bin",
+          "correct": true
+        },
+        {
+          "text": "Only the best-looking fruit",
+          "correct": false
+        },
+        {
+          "text": "Only from the bottom",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "6 of 50 sampled fruit are damaged. What percentage is that?",
+      "options": [
+        {
+          "text": "6%",
+          "correct": false
+        },
+        {
+          "text": "50%",
+          "correct": false
+        },
+        {
+          "text": "12%",
+          "correct": true
+        },
+        {
+          "text": "30%",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why must batches be labelled?",
+      "options": [
+        {
+          "text": "To make the bins look neat",
+          "correct": false
+        },
+        {
+          "text": "So workers can take some home",
+          "correct": false
+        },
+        {
+          "text": "To increase the weight",
+          "correct": false
+        },
+        {
+          "text": "So problems can be traced back to the block and date",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How can you check a thermometer is accurate?",
+      "options": [
+        {
+          "text": "Put it in iced water",
+          "correct": true
+        },
+        {
+          "text": "Leave it in the sun",
+          "correct": false
+        },
+        {
+          "text": "Shake it hard",
+          "correct": false
+        },
+        {
+          "text": "Compare it with a ruler",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Quality can be added to a poor product in the pack house.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Every worker is responsible for quality, not only the quality controller.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should be recorded during a quality check? (select all that apply)",
+      "options": [
+        {
+          "text": "Date and batch or block number",
+          "correct": true
+        },
+        {
+          "text": "Sample size",
+          "correct": true
+        },
+        {
+          "text": "Number and type of defects",
+          "correct": true
+        },
+        {
+          "text": "Only the good results",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

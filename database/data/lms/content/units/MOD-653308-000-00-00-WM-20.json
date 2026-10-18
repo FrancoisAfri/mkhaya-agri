@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-20",
+ "title": "Diagnosis and Repair of Tractor Steering and Suspension Systems",
+ "lessons": [
+  {
+   "title": "Steering and suspension systems",
+   "minutes": 20,
+   "html": "<h3>Tractor steering systems</h3> <p>Most modern tractors use <strong>hydrostatic steering</strong>: the steering wheel turns a steering control unit (orbitrol) that sends oil to a steering cylinder on the front axle. There is no mechanical link between wheel and wheels. A priority valve makes sure steering gets oil before other functions. Older or smaller tractors may have mechanical or power-assisted steering boxes with drag links.</p> <p>Steering parts include the steering column, control unit, cylinder, track rods and tie rod ends, king pins or swivel housings, wheel bearings and the front axle pivot.</p> <h4>Suspension</h4> <p>Many tractors have a rigid front axle that pivots in the centre to follow uneven ground. Larger tractors may have <strong>front axle suspension</strong> using hydraulic cylinders and accumulators, and <strong>cab suspension</strong> using mechanical springs, air springs or hydraulic units. The driver's seat often has its own suspension.</p> <h4>Why it matters</h4> <p>Tractors are driven on public roads at speed with loaded trailers. Steering play or a failed tie rod end can cause a crash. Wobbling front wheels at road speed are very dangerous. Good suspension also protects the driver from whole-body vibration on long days of work.</p> <h4>Safety</h4> <ul> <li>Support the front axle on stands, not a jack, before working on steering joints or wheels.</li> <li>Front suspension accumulators hold oil under high pressure even with the engine off. Lower the suspension and discharge pressure as the manual describes before opening anything.</li> <li>Never weld or heat steering parts to straighten them. Bent steering parts must be replaced.</li> <li>Keep hands out of the gap between the axle and the frame when the steering or suspension moves.</li> <li>Never feel for hydraulic leaks by hand.</li> </ul> <h4>Gathering information</h4> <p>Ask the driver: is the steering heavy, loose, wandering, slow to one side, or noisy? Does the front end bounce or knock? Is there a fault code for suspension? Then inspect visually for leaks, worn joints and damage.</p>"
+  },
+  {
+   "title": "Diagnosing steering and suspension faults",
+   "minutes": 20,
+   "html": "<h3>Common faults</h3> <table> <tr><th>Complaint</th><th>Possible causes</th></tr> <tr><td>Heavy steering</td><td>Low tyre pressure, low hydraulic flow or pressure, priority valve fault, binding king pins, wrong front tyres</td></tr> <tr><td>Excess free play</td><td>Worn tie rod ends, ball joints, king pins, wheel bearings, loose steering cylinder mounts</td></tr> <tr><td>Wandering or wheel turning by itself</td><td>Internal leakage in steering cylinder or control unit, air in the system, wrong toe-in</td></tr> <tr><td>Front wheel wobble at speed</td><td>Worn joints and bearings, wrong toe-in, damaged tyres or rims</td></tr> <tr><td>Front axle bouncing</td><td>Suspension accumulator gas charge lost, faulty suspension valve or sensor</td></tr> <tr><td>Uneven tyre wear</td><td>Incorrect toe-in, bent track rod, worn bearings</td></tr> </table> <h3>Checks and tests</h3> <ul> <li><strong>Tyre pressure</strong>: check first. It is often the cause of heavy steering or wandering.</li> <li><strong>Free play check</strong>: with the engine running, have a helper turn the wheel slightly back and forth while you watch every joint for movement. Stay clear of pinch points.</li> <li><strong>Wheel bearing and king pin play</strong>: with the axle raised and on stands, rock the wheel top-to-bottom and side-to-side and measure play against the manual.</li> <li><strong>Steering pressure</strong>: fit a gauge as the manual describes and check relief pressure at full lock.</li> <li><strong>Steering cylinder leakage</strong>: test as the manual describes for internal bypass.</li> <li><strong>Toe-in</strong>: measure between the front and back of the front tyres at hub height and compare with the specification.</li> <li><strong>Front axle pivot</strong>: check for wear in the centre pivot bushes.</li> <li><strong>Suspension</strong>: read fault codes, check height sensor readings in live data, and check accumulator pre-charge with the correct tool only, following the manual. Accumulators are filled with nitrogen; never use oxygen or compressed air.</li> </ul> <p>Record all readings with the specification next to them. This builds a clear picture for repair and for the customer.</p>"
+  },
+  {
+   "title": "Repairing and verifying",
+   "minutes": 20,
+   "html": "<h3>Repair work</h3> <ul> <li>Replace worn tie rod ends, ball joints, king pin bushes and bearings with correct parts. Fit new split pins or locking nuts as specified; never reuse split pins.</li> <li>Tighten joints and cylinder mounts to the manual torque.</li> <li>Replace a bent track rod or steering arm. Do not heat or straighten it.</li> <li>Repair or replace leaking steering cylinders and control units with the correct seal kits under clean conditions.</li> <li>Replace front suspension accumulators or have them recharged by someone trained, using the correct equipment.</li> <li>Fix the cause of wear: for example, a dry king pin that wore because its grease nipple was blocked.</li> </ul> <h3>Adjustment</h3> <ol> <li>Set toe-in to the specification by adjusting the track rod, and lock the adjusters.</li> <li>Adjust steering stops so tyres do not touch the frame or mudguards at full lock, as the manual describes.</li> <li>Bleed air from the steering by turning lock to lock several times with the engine running, then check the oil level.</li> <li>On suspended axles, carry out the suspension calibration procedure in the dashboard or diagnostic tool.</li> </ol> <h3>Testing</h3> <ul> <li>Check free play again with the engine running.</li> <li>Steer lock to lock: smooth, even effort, no noise.</li> <li>Road test at different speeds: no wander, no wobble, the tractor returns towards straight.</li> <li>Drive over rough ground to check suspension works and does not knock.</li> <li>Check for leaks and grease all steering points.</li> </ul> <h3>Handover</h3> <p>Record findings, measurements, parts, adjustments, calibration and tests, and have your supervisor sign off steering work. Advise the driver to keep correct tyre pressures and grease the front axle as the service schedule says.</p> <h4>Key points</h4> <ul> <li>Support the front axle on stands and discharge suspension accumulators before work.</li> <li>Check tyre pressures first when steering is heavy or wanders.</li> <li>Replace bent steering parts; never heat or straighten them.</li> <li>Use new split pins, correct torque and set toe-in to specification.</li> <li>Bleed, calibrate, road test and get supervisor sign-off.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In hydrostatic steering, what does the steering wheel turn?",
+   "options": [
+    {
+     "text": "A chain to the wheels",
+     "correct": false
+    },
+    {
+     "text": "A cable to the brakes",
+     "correct": false
+    },
+    {
+     "text": "A steering control unit that sends oil to a cylinder",
+     "correct": true
+    },
+    {
+     "text": "The PTO shaft",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check first when steering is heavy or the tractor wanders?",
+   "options": [
+    {
+     "text": "The radio",
+     "correct": false
+    },
+    {
+     "text": "The tyre pressures",
+     "correct": true
+    },
+    {
+     "text": "The engine oil colour",
+     "correct": false
+    },
+    {
+     "text": "The seat belt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done with a bent track rod?",
+   "options": [
+    {
+     "text": "Ignore it if it still steers",
+     "correct": false
+    },
+    {
+     "text": "Heat it and straighten it",
+     "correct": false
+    },
+    {
+     "text": "Weld a plate on it",
+     "correct": false
+    },
+    {
+     "text": "Replace it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must suspension accumulators be discharged before work?",
+   "options": [
+    {
+     "text": "They contain fuel",
+     "correct": false
+    },
+    {
+     "text": "They are hot",
+     "correct": false
+    },
+    {
+     "text": "They hold oil under high pressure even with the engine off",
+     "correct": true
+    },
+    {
+     "text": "They are electrically live",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is air bled from hydrostatic steering?",
+   "options": [
+    {
+     "text": "Turn lock to lock several times with the engine running, then check oil level",
+     "correct": true
+    },
+    {
+     "text": "Drive in reverse at speed",
+     "correct": false
+    },
+    {
+     "text": "Open all fittings with the engine running",
+     "correct": false
+    },
+    {
+     "text": "Remove the steering wheel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Split pins on steering joints may be reused if they look straight.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Suspension accumulators are charged with nitrogen and never with oxygen or compressed air.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can cause excess steering free play? (select all that apply)",
+   "options": [
+    {
+     "text": "Loose steering cylinder mounts",
+     "correct": true
+    },
+    {
+     "text": "Worn tie rod ends",
+     "correct": true
+    },
+    {
+     "text": "Worn king pins",
+     "correct": true
+    },
+    {
+     "text": "Correct tyre pressure",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

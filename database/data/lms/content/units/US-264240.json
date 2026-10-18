@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-264240",
+ "title": "Establish and manage a composting plant",
+ "lessons": [
+  {
+   "title": "Feasibility and site selection for a composting plant",
+   "minutes": 20,
+   "html": "<h3>Is a composting plant feasible?</h3><p>A composting plant turns organic waste, such as crop residues, manure from feedlots or dairies, garden refuse, fruit and vegetable waste from packhouses, into a valuable soil amendment. Before building, a feasibility study tests whether the plant can work technically, legally and financially.</p><h4>Questions the feasibility study must answer</h4><ul><li><strong>Feedstock:</strong> what materials are available, how much per month, all year or seasonal, and at what cost to collect?</li><li><strong>Market:</strong> who will use or buy the compost: the farm itself, nurseries, landscapers, vegetable growers? At what price per cubic metre or per tonne?</li><li><strong>Costs:</strong> site preparation, machinery (front-end loader, turner, screen), water, labour, transport, compliance.</li><li><strong>Legal requirements:</strong> depending on the type and volume of waste, composting may require registration or authorisation under national waste and environmental legislation, and local municipal approval. Confirm with the provincial environmental department before committing.</li></ul><h4>Choosing the location</h4><table><tr><th>Factor</th><th>What to look for</th></tr><tr><td>Distance</td><td>Close to feedstock sources and users to reduce transport costs</td></tr><tr><td>Neighbours</td><td>Far enough from homes, schools and workers' housing to avoid odour and fly complaints</td></tr><tr><td>Water</td><td>Away from rivers, wetlands, boreholes and flood lines; access to water for wetting</td></tr><tr><td>Slope and soil</td><td>Gentle slope for drainage, firm or paved surface, low risk of leachate reaching groundwater</td></tr><tr><td>Access</td><td>All-weather road for trucks and loaders</td></tr><tr><td>Wind</td><td>Prevailing wind blowing away from neighbours</td></tr></table><h4>Site layout</h4><p>Plan areas for receiving, sorting and shredding; active windrows; curing; screening; storage of finished product; and a leachate collection pond. Allow enough space between windrows for the turner or loader.</p><p>Present the study as a short report with recommendations, costs and risks so management can decide.</p>"
+  },
+  {
+   "title": "Health, safety and environmental management",
+   "minutes": 20,
+   "html": "<h3>Health and safety on a composting site</h3><p>Composting plants have real hazards. The OHS Act 85 of 1993 requires the employer to identify hazards, assess risks and protect workers.</p><h4>Main hazards and controls</h4><table><tr><th>Hazard</th><th>Controls</th></tr><tr><td>Moving machinery (loaders, turners, shredders)</td><td>Trained operators only, exclusion zones, reversing alarms, guards in place, lock-out before maintenance</td></tr><tr><td>Bioaerosols and dust (fungal spores, bacteria)</td><td>Dust masks or respirators when turning and screening, wet the material to reduce dust, work upwind</td></tr><tr><td>Pathogens in manure and food waste</td><td>Gloves, overalls, boots, hand washing, no eating on site, tetanus vaccination as advised</td></tr><tr><td>Sharp objects in waste</td><td>Sort carefully, puncture-resistant gloves</td></tr><tr><td>Heat and fire</td><td>Monitor temperature, keep piles to the design size, fire breaks and extinguishers; very dry, overheated piles can self-ignite</td></tr><tr><td>Sun and heat stress</td><td>Water, shade, rest breaks, hats</td></tr></table><p>Provide first aid kits and trained first aiders, and record incidents.</p><h4>Avoiding pollution</h4><ul><li><strong>Water:</strong> leachate (dark liquid from wet piles) is high in nutrients and organic load. Collect it in a lined pond and reuse it to wet piles. Never let it run into streams or boreholes; protecting water resources is required under the National Water Act 36 of 1998.</li><li><strong>Odour:</strong> caused mainly by anaerobic (airless) conditions. Keep piles aerated, avoid too wet or too much nitrogen-rich material, and cover fresh odorous feedstock with dry carbon material.</li><li><strong>Flies and vermin:</strong> process food waste quickly, keep temperatures high in active piles, keep the site tidy.</li><li><strong>Litter and contaminants:</strong> remove plastic, glass and metal at receiving.</li><li><strong>Soil and air:</strong> do not burn waste on site.</li></ul><h4>Monitoring the environment</h4><p>Keep records of complaints, leachate pond levels, weekly site inspections and corrective actions. Inspectors and neighbours will judge the plant by its odour and runoff.</p>"
+  },
+  {
+   "title": "Preparing material and managing decomposition",
+   "minutes": 20,
+   "html": "<h3>Collecting and preparing feedstock</h3><p>Composting is a biological process. Micro-organisms need a balanced diet of carbon and nitrogen, plus air and water.</p><table><tr><th>Browns (carbon-rich)</th><th>Greens (nitrogen-rich)</th></tr><tr><td>Straw, dry leaves, wood chips, maize stover, sawdust</td><td>Manure, fresh grass clippings, vegetable waste, legume residues</td></tr></table><p>A carbon-to-nitrogen ratio in the region of 25-30:1 is commonly recommended as a starting mix. In practice, plants develop recipes by volume, for example a set number of loader buckets of chipped garden refuse per bucket of manure, then adjust by observation.</p><ul><li>Remove contaminants: plastic, metal, glass, treated wood.</li><li>Shred or chip coarse material to increase surface area, but not so fine that the pile compacts.</li><li>Mix browns and greens thoroughly and wet the mix as you build the windrow.</li></ul><h4>Building windrows</h4><p>Build long piles to the height and width that the turning equipment can handle. Record the windrow number, date built and recipe.</p><h4>Monitoring decomposition</h4><ul><li><strong>Temperature:</strong> use a long-stem compost thermometer at several points. A healthy pile heats quickly to thermophilic temperatures (commonly above 55&deg;C) which help kill weed seeds and pathogens. Follow the plant's procedure for how long piles must be held at high temperature.</li><li><strong>Moisture:</strong> squeeze test: material should feel like a wrung-out sponge. Too dry, activity stops; too wet, it turns anaerobic and smells.</li><li><strong>Turning:</strong> turn when temperature starts to drop or odour appears, to re-introduce air and move outer material inside.</li></ul><h4>Curing and preparing for sale or use</h4><p>When the pile no longer reheats after turning, move it to the curing area for several more weeks to stabilise. Finished compost is dark, crumbly and smells earthy. Screen it to the size the customer needs, and send samples for analysis (nutrients, pH, salinity, contaminants) so the product can be described accurately. Bag or stockpile under cover, label with product name and batch, and keep sales and batch records.</p><h4>Key points</h4><ul><li>Do a feasibility study covering feedstock, market, costs, legal approvals and site.</li><li>Control machinery, dust, pathogen and fire hazards.</li><li>Collect leachate and keep piles aerobic to avoid pollution and odour.</li><li>Balance browns and greens, keep moisture right, and turn on temperature.</li><li>Cure, screen, test and label compost before sale.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which factor is most important when placing a composting site relative to neighbours?",
+   "options": [
+    {
+     "text": "It should be in the centre of town",
+     "correct": false
+    },
+    {
+     "text": "It should be uphill of a river",
+     "correct": false
+    },
+    {
+     "text": "Far enough away and downwind to avoid odour and fly complaints",
+     "correct": true
+    },
+    {
+     "text": "Next to the workers' housing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What mainly causes bad odours in compost piles?",
+   "options": [
+    {
+     "text": "Anaerobic conditions from too little air or too much water",
+     "correct": true
+    },
+    {
+     "text": "Too much carbon material",
+     "correct": false
+    },
+    {
+     "text": "Turning the pile",
+     "correct": false
+    },
+    {
+     "text": "Screening the compost",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with leachate?",
+   "options": [
+    {
+     "text": "Let it run into the nearest stream",
+     "correct": false
+    },
+    {
+     "text": "Spray it onto neighbours' land",
+     "correct": false
+    },
+    {
+     "text": "Pump it into a borehole",
+     "correct": false
+    },
+    {
+     "text": "Collect it in a lined pond and reuse it to wet piles",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which material is a 'brown' (carbon-rich) feedstock?",
+   "options": [
+    {
+     "text": "Fresh grass clippings",
+     "correct": false
+    },
+    {
+     "text": "Maize stover",
+     "correct": true
+    },
+    {
+     "text": "Chicken manure",
+     "correct": false
+    },
+    {
+     "text": "Vegetable waste",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a windrow normally be turned?",
+   "options": [
+    {
+     "text": "Only once at the end",
+     "correct": false
+    },
+    {
+     "text": "Whenever it rains",
+     "correct": false
+    },
+    {
+     "text": "When the temperature starts to drop or odour appears",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Very dry, overheated compost piles can self-ignite.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Finished compost reheats strongly every time it is turned.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are hazards on a composting site? (select all that apply)",
+   "options": [
+    {
+     "text": "Moving loaders and turners",
+     "correct": true
+    },
+    {
+     "text": "Dust and fungal spores",
+     "correct": true
+    },
+    {
+     "text": "Pathogens in manure",
+     "correct": true
+    },
+    {
+     "text": "Low noise levels",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

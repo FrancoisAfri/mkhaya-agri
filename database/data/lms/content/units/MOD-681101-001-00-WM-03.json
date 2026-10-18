@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-WM-03",
+ "title": "Beef Slaughtering Procedures",
+ "lessons": [
+  {
+   "title": "Working on the line: stunning to bleeding",
+   "minutes": 20,
+   "html": "<h3>About this work experience</h3><p>This is the largest work experience module for a beef slaughterer. You will spend many weeks on the slaughter line, rotating through the stations under a mentor. You must show that you can do each step correctly, hygienically, safely and at line speed. Your mentor signs off each station in your logbook once you are competent.</p><h3>Stations you will rotate through</h3><table><tr><th>Station</th><th>What you must show</th></tr><tr><td>Stunning box</td><td>Calm loading, correct stun position, checking the stun, re-stunning, safe stunner handling</td></tr><tr><td>Shackling and hoisting</td><td>Correct shackle placement, staying clear of legs and chains</td></tr><tr><td>Sticking</td><td>Two-knife method, strong bleed, short stun-to-stick time, knife sterilising</td></tr><tr><td>Head and feet removal</td><td>Cutting at joints, weasand tied, head numbered</td></tr><tr><td>Legging and opening</td><td>Cutting from inside the hide outward, sterilising after each cut</td></tr><tr><td>Flaying / hide puller</td><td>Clean hide removal, no flay cuts, fat cover kept</td></tr><tr><td>Bunging and evisceration</td><td>No gut cuts, organs to the inspection trays</td></tr><tr><td>Splitting and trimming</td><td>Centre split, trimming before washing</td></tr></table><h3>Welfare at the start of the line</h3><p>At the stunning box, your mentor will watch closely. You must never stun an animal that is not properly positioned, never leave an animal in the box for long, and always check every stun. If the stun fails, re-stun immediately. Report any welfare problem, even if it was caused by someone else.</p><h3>Hygiene from the first cut</h3><p>Every station must use the two-knife system, sterilise after contamination, and keep hands that touched the hide away from the meat. Hygiene failures at one station cannot be fixed later.</p>"
+  },
+  {
+   "title": "Building speed, skill and teamwork",
+   "minutes": 20,
+   "html": "<h3>Speed comes after skill</h3><p>At first you will be slower than experienced workers. That is normal. Your mentor will first check that you do every step correctly. Speed builds with practice. Never cut corners on hygiene or safety to keep up; tell your supervisor if the line is too fast for you to work safely.</p><h3>Knife skills</h3><ul><li>Sharpen your knives before the shift and use the steel often during work.</li><li>Use smooth, controlled strokes. Let a sharp knife do the work.</li><li>Keep your free hand (in the mesh glove) out of the cutting path.</li><li>Store knives in the scabbard or steriliser, never on the carcass.</li></ul><h3>Looking after your body</h3><p>Repetitive cutting can cause pain in the wrists, shoulders and back.</p><ul><li>Work at the correct height; adjust the platform if you can.</li><li>Stretch before work and during breaks.</li><li>A sharp knife needs less force and protects your wrists.</li><li>Report pain early. It is easier to treat.</li></ul><h3>Teamwork on the line</h3><ul><li>Communicate with the workers before and after you. Tell them if a carcass has a problem.</li><li>Stop the line (or call the supervisor) for a serious problem: a gut spill, a fallen carcass, an injury or a welfare problem.</li><li>Help new workers, as you were helped.</li></ul><h3>Logbook and evidence</h3><p>For each station, record the dates you worked there, the number of carcasses, problems you met and how you solved them. Your mentor and supervisor sign each station. Keep the logbook up to date; it is part of the evidence for your qualification.</p><h3>Common reasons for not being signed off</h3><ul><li>Not sterilising knives after contamination.</li><li>Cutting the gut during evisceration.</li><li>Rough handling of cattle.</li><li>Not wearing PPE.</li><li>Mixing up head, offal and carcass numbers.</li></ul><h4>Key points</h4><ul><li>Rotate through all stations and get each signed off in your logbook.</li><li>Check every stun and re-stun immediately if needed.</li><li>Use the two-knife system and sterilise after every contamination.</li><li>Build speed only after skill; never cut corners on hygiene or safety.</li><li>Look after your body and communicate with your team.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How is a station signed off in this module?",
+   "options": [
+    {
+     "text": "By working there for one day",
+     "correct": false
+    },
+    {
+     "text": "By asking a friend to sign",
+     "correct": false
+    },
+    {
+     "text": "The mentor signs the logbook once you are competent",
+     "correct": true
+    },
+    {
+     "text": "Automatically after a month",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the line is too fast for you to work safely?",
+   "options": [
+    {
+     "text": "Cut corners on hygiene",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Skip sterilising",
+     "correct": false
+    },
+    {
+     "text": "Work without PPE",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does a sharp knife protect your wrists?",
+   "options": [
+    {
+     "text": "It is lighter",
+     "correct": false
+    },
+    {
+     "text": "It has a softer handle",
+     "correct": false
+    },
+    {
+     "text": "It needs less force",
+     "correct": true
+    },
+    {
+     "text": "It cuts slower",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a common reason for not being signed off?",
+   "options": [
+    {
+     "text": "Not sterilising knives after contamination",
+     "correct": true
+    },
+    {
+     "text": "Arriving early",
+     "correct": false
+    },
+    {
+     "text": "Asking questions",
+     "correct": false
+    },
+    {
+     "text": "Stretching before work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you stop the line or call the supervisor?",
+   "options": [
+    {
+     "text": "When you want a break",
+     "correct": false
+    },
+    {
+     "text": "When a carcass is heavy",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "For a gut spill, fallen carcass, injury or welfare problem",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hygiene failures at one station can always be fixed later on the line.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Reporting pain early makes it easier to treat.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you record in your logbook for each station? (select all that apply)",
+   "options": [
+    {
+     "text": "Problems you met and how you solved them",
+     "correct": true
+    },
+    {
+     "text": "Dates you worked there",
+     "correct": true
+    },
+    {
+     "text": "Mentor and supervisor signatures",
+     "correct": true
+    },
+    {
+     "text": "Your favourite station music",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

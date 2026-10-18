@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-115847",
+  "title": "Control pest and weed in tea fields",
+  "lessons": [
+    {
+      "title": "Weeds and pests in tea",
+      "minutes": 15,
+      "html": "<h3>Why we control weeds and pests</h3><p>Tea bushes give us young leaves and buds that are picked and made into tea. Weeds and pests take away from this crop.</p><ul><li><strong>Weeds</strong> take water, light and food from the tea bushes. Tall weeds and creepers can grow over young bushes. Weeds also hide snakes and make picking hard.</li><li><strong>Pests</strong> are insects, mites and other animals that eat or damage the leaves, buds, stems or roots.</li></ul><h4>Weeds you may see</h4><ul><li>Grasses, such as couch grass, that spread under the ground.</li><li>Broad-leaf weeds that grow fast after rain.</li><li>Creepers that climb into the bushes.</li></ul><p>Young tea fields need the most weeding. When the bushes grow and close the gaps, they shade out many weeds.</p><h4>Pests you may see</h4><ul><li><strong>Mites</strong> – very small. Leaves turn bronze, red or dull.</li><li><strong>Thrips and other small insects</strong> – young leaves curl or get marks.</li><li><strong>Caterpillars and beetles</strong> – holes in leaves.</li><li><strong>Termites</strong> – damage to stems and roots.</li></ul><h4>What to do when you find something</h4><ol><li>Do not try to kill it with a chemical yourself.</li><li>Remember where it is: the field and row number.</li><li>Tell your supervisor the same day.</li><li>If you are asked, put a few leaves with the pest in a bag for the supervisor.</li></ol><h4>Stay safe in the field</h4><ul><li>Wear closed shoes, long trousers and a hat.</li><li>Look where you put your hands. Snakes can hide in thick weeds.</li><li>Drink water often on hot days.</li></ul><p><strong>Remember:</strong> healthy, well-fed tea bushes that are weeded and plucked on time are stronger against pests. Your careful daily work in the field is the first and best pest control. Walk your rows with open eyes every day.</p>"
+    },
+    {
+      "title": "Doing weed and pest control work safely",
+      "minutes": 15,
+      "html": "<h3>Ways to control weeds</h3><ul><li><strong>Hand weeding</strong> – pull weeds out by the root, especially near young bushes.</li><li><strong>Hoeing</strong> – cut weeds just under the soil. Do not hit the stems or roots of the tea.</li><li><strong>Slashing</strong> – cut weeds short between rows.</li><li><strong>Mulch</strong> – cover the soil with prunings or grass. Mulch stops weeds and keeps the soil moist.</li><li><strong>Herbicide</strong> – a chemical that kills weeds. Only trained sprayers may use it.</li></ul><h4>Ways to control pests</h4><ul><li>Keep the bushes healthy with good weeding and feeding.</li><li>Pluck on time, as the supervisor tells you.</li><li>Let useful insects like ladybirds and spiders live. They eat pests.</li><li>Spraying is done only by trained sprayers, with chemicals registered under Act 36 of 1947, and only as the label says.</li></ul><h4>If you help with spraying</h4><ul><li>Wear all the protective clothing you are given: overall, gloves, boots, mask and goggles.</li><li>Never eat, drink or smoke while spraying.</li><li>Do not spray when it is windy, or towards people, houses or water.</li><li>Never pour leftover chemical into a stream or onto the ground.</li><li>Do not use empty chemical containers for water or food. Give them back to the store.</li><li>Do not go into a field that has a warning sign after spraying until you are told it is safe.</li><li>Wash well with soap at the end of the day. Wash your overall separately from family clothes.</li></ul><h4>If someone feels sick after spraying</h4><p>Move them away from the chemical, take off wet clothes, wash the skin with lots of clean water and call the supervisor at once. Keep the product label to show the clinic or doctor.</p><h4>Key points</h4><ul><li>Weeds take water, light and food from the tea bushes.</li><li>Use hand weeding, hoeing, slashing and mulch carefully around bushes.</li><li>Report pests to your supervisor; do not spray on your own.</li><li>Only trained sprayers use chemicals, always with full protective clothing.</li><li>Never reuse chemical containers or pour chemicals into water.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why are weeds a problem in a tea field?",
+      "options": [
+        {
+          "text": "They make the tea taste sweet",
+          "correct": false
+        },
+        {
+          "text": "They take water, light and food from the tea bushes",
+          "correct": true
+        },
+        {
+          "text": "They feed the tea bushes",
+          "correct": false
+        },
+        {
+          "text": "They keep snakes away",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Leaves on a tea bush turn bronze and dull. Which pest is a likely cause?",
+      "options": [
+        {
+          "text": "Mites",
+          "correct": true
+        },
+        {
+          "text": "Termites",
+          "correct": false
+        },
+        {
+          "text": "Birds",
+          "correct": false
+        },
+        {
+          "text": "Couch grass",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do when you find a pest in the tea field?",
+      "options": [
+        {
+          "text": "Spray it with any chemical from the store",
+          "correct": false
+        },
+        {
+          "text": "Ignore it",
+          "correct": false
+        },
+        {
+          "text": "Burn the bush",
+          "correct": false
+        },
+        {
+          "text": "Remember the place and tell your supervisor the same day",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How does mulch help in a tea field?",
+      "options": [
+        {
+          "text": "It kills insects",
+          "correct": false
+        },
+        {
+          "text": "It makes the soil dry",
+          "correct": false
+        },
+        {
+          "text": "It stops weeds and keeps the soil moist",
+          "correct": true
+        },
+        {
+          "text": "It replaces plucking",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do with an empty chemical container?",
+      "options": [
+        {
+          "text": "Use it to carry drinking water",
+          "correct": false
+        },
+        {
+          "text": "Give it back to the store",
+          "correct": true
+        },
+        {
+          "text": "Throw it in the stream",
+          "correct": false
+        },
+        {
+          "text": "Take it home for food",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Only trained sprayers may use herbicide in the tea fields.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is fine to spray chemicals on a windy day.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are safe ways to control weeds near tea bushes? (select all that apply)",
+      "options": [
+        {
+          "text": "Hand weeding",
+          "correct": true
+        },
+        {
+          "text": "Hoeing without hitting the tea stems",
+          "correct": true
+        },
+        {
+          "text": "Pouring diesel on the weeds",
+          "correct": false
+        },
+        {
+          "text": "Putting down mulch",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

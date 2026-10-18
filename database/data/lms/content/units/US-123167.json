@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123167",
+ "title": "Monitor the quality assurance in Rooibos processing",
+ "lessons": [
+  {
+   "title": "What quality means for rooibos",
+   "minutes": 15,
+   "html": "<h3>Good tea is safe, clean and the right colour</h3><p>Quality assurance (QA) means checking every step of the work so that the final tea is good every time. It is better to stop problems early than to find bad tea at the end.</p><h4>What buyers check</h4><table><tr><th>Quality point</th><th>What good looks like</th></tr><tr><td>Colour</td><td>Even red-brown for fermented tea; green for green rooibos</td></tr><tr><td>Smell and taste</td><td>Sweet, pleasant, no sour, mouldy or smoky smell</td></tr><tr><td>Cut size</td><td>Short, even pieces as the buyer asks</td></tr><tr><td>Dryness</td><td>Dry enough to store without mould</td></tr><tr><td>Cleanliness</td><td>No stones, sand, weeds, plastic, string, hair, insects</td></tr><tr><td>Food safety</td><td>No harmful germs or chemicals</td></tr></table><h4>Why it matters</h4><p>The processor and buyer test samples from every batch. If tea fails, it can be sold at a low price or rejected. Bad quality can also make people sick and damage the name of South African rooibos.</p><h4>Your job in QA</h4><ul><li>Know what good tea looks and smells like.</li><li>Check the tea at each step.</li><li>Write down what you check.</li><li>Tell the supervisor at once when something is wrong.</li><li>Keep bad tea apart so it does not get mixed with good tea.</li></ul><h4>Know what good looks like</h4><p>Ask your supervisor to show you a sample of good tea and a sample with problems. Look at the colour, smell it, and feel how dry it is. When you know what good tea is like, it is much easier to notice when something is wrong.</p>"
+  },
+  {
+   "title": "Checks at each processing step",
+   "minutes": 15,
+   "html": "<h3>Check, write down, report</h3><h4>When the harvest arrives</h4><ul><li>Is it rooibos only? Remove weeds and rubbish.</li><li>Is it fresh and not heated in the heap?</li><li>Write down the land and time it arrived.</li></ul><h4>Cutting</h4><ul><li>Are the pieces the right length?</li><li>Is there foreign material in the cut tea?</li></ul><h4>Bruising and fermenting</h4><ul><li>Was clean water used?</li><li>Is colour developing evenly?</li><li>Is the smell sweet, not sour?</li><li>Write down start and end times of fermenting.</li></ul><h4>Drying</h4><ul><li>Is the tea spread thinly and evenly?</li><li>Is it protected from rain, dust and animals?</li><li>Is it dry before bagging? The supervisor checks this.</li></ul><h4>Bagging and storage</h4><ul><li>Are bags clean and approved?</li><li>Is every bag labelled with batch and date?</li><li>Is the store dry, clean and free of rats and insects?</li><li>Are bags stacked off the floor, away from walls?</li></ul><h4>Samples</h4><p>Your supervisor may ask you to take samples. Take them from different parts of the batch, put them in a clean container and label them with batch number and date. Never take samples with dirty hands.</p><h4>Using a check sheet</h4><p>Most farms give the team a check sheet for each batch. It has a line for each step: harvest received, cutting, bruising, fermenting, drying, bagging and storage. At each step you tick what you checked, write the time and sign your name. If something was not right, write what you saw and what was done about it. The supervisor checks and signs the sheet at the end of the day. A full, honest check sheet shows the buyer that the tea was made with care, and it helps the farm find the cause if a sample fails at the processor.</p>"
+  },
+  {
+   "title": "Dealing with problems and keeping records",
+   "minutes": 15,
+   "html": "<h3>When tea is not right</h3><ol><li><strong>Stop</strong> – do not carry on with the bad tea.</li><li><strong>Separate</strong> – keep the problem tea apart and mark it.</li><li><strong>Report</strong> – tell the supervisor what you saw.</li><li><strong>Record</strong> – write down the batch, problem and what was done.</li></ol><p>Never hide bad tea by mixing it with good tea. It will be found in testing and the whole batch can be rejected.</p><h4>Common problems and causes</h4><table><tr><th>Problem</th><th>Common cause</th></tr><tr><td>Green pieces in red tea</td><td>Uneven bruising or short fermenting</td></tr><tr><td>Mould or musty smell</td><td>Tea too wet, thick drying layers, damp store</td></tr><tr><td>Sand and stones</td><td>Dirty harvest or dirty tea court</td></tr><tr><td>Germs</td><td>Animals on the court, dirty water, poor hand washing</td></tr></table><h4>Records</h4><p>Records show that the farm did its work correctly. They help find where a problem started. Write clearly, sign and date every record. Never change a record later without the supervisor.</p><h4>Learning from problems</h4><p>When a problem happens, the supervisor and team should talk about why it happened and how to stop it next time. For example, if sand is often found in the tea, the team may need to sweep the court more often or fix a broken wall where wind blows sand in.</p><h4>Key points</h4><ul><li>Quality assurance means checking every step, not only the end.</li><li>Good tea has the right colour, sweet smell, even cut and is clean and dry.</li><li>If something is wrong: stop, separate, report and record.</li><li>Never mix bad tea with good tea.</li><li>Write clear, signed and dated records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is quality assurance?",
+   "options": [
+    {
+     "text": "Checking every step so the final tea is good every time",
+     "correct": true
+    },
+    {
+     "text": "Selling tea quickly",
+     "correct": false
+    },
+    {
+     "text": "Checking only the final tea",
+     "correct": false
+    },
+    {
+     "text": "Weighing workers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What smell should good fermented rooibos have?",
+   "options": [
+    {
+     "text": "Sweet and pleasant",
+     "correct": true
+    },
+    {
+     "text": "Mouldy",
+     "correct": false
+    },
+    {
+     "text": "Smoky",
+     "correct": false
+    },
+    {
+     "text": "Sour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Tea in the store smells musty. What is a likely cause?",
+   "options": [
+    {
+     "text": "The tea was too wet or the store is damp",
+     "correct": true
+    },
+    {
+     "text": "The tea was dried perfectly",
+     "correct": false
+    },
+    {
+     "text": "The cut was even",
+     "correct": false
+    },
+    {
+     "text": "The bags were new",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when you find a problem with a batch?",
+   "options": [
+    {
+     "text": "Throw it in the river",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Stop, separate it, report and record",
+     "correct": true
+    },
+    {
+     "text": "Mix it with good tea",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should samples be taken?",
+   "options": [
+    {
+     "text": "From different parts of the batch, into a clean labelled container",
+     "correct": true
+    },
+    {
+     "text": "From another batch",
+     "correct": false
+    },
+    {
+     "text": "From one corner only, with dirty hands",
+     "correct": false
+    },
+    {
+     "text": "Only from the best-looking tea",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Records help find where a quality problem started.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mixing bad tea with good tea is a good way to save it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks are done at bagging and storage? (select all that apply)",
+   "options": [
+    {
+     "text": "Bags are stacked off the floor",
+     "correct": true
+    },
+    {
+     "text": "Bags are clean and approved",
+     "correct": true
+    },
+    {
+     "text": "Bags are stored next to fuel",
+     "correct": false
+    },
+    {
+     "text": "Bags are labelled with batch and date",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

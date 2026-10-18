@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-13355",
+ "title": "Demonstrate an understanding of the physical and biological environment and its relationship to sustainable crop production",
+ "lessons": [
+  {
+   "title": "Soil, water, air and sun",
+   "minutes": 15,
+   "html": "<h3>What plants need from the environment</h3><p>Crops grow in the environment around them. The <strong>physical environment</strong> is the non-living part: soil, water, air, sun and weather. The <strong>biological environment</strong> is the living part: plants, animals, insects, worms and tiny living things (micro-organisms) in the soil.</p><h4>Soil</h4><p>Soil holds the plant up and gives it water and food. Good soil has:</p><ul><li>small pieces of rock (sand, silt and clay);</li><li>organic matter – rotting leaves, roots and manure;</li><li>air and water in the spaces between;</li><li>living things like earthworms.</li></ul><p>Sandy soil drains fast and dries out quickly. Clay soil holds water but can get hard and wet. Loam is a mix and is good for most crops.</p><h4>Water</h4><p>Plants need water to live and grow. Water comes from rain, rivers, dams and boreholes. Too little water makes plants wilt and die. Too much water drowns the roots.</p><h4>Sun and air</h4><p>Plants use sunlight, air and water to make their own food in their green leaves. That is why plants need light. Roots also need air in the soil.</p><h4>Weather and climate</h4><p>Temperature, rain, wind, frost and hail all affect crops. In South Africa some areas get summer rain, like most of the Highveld, and the Western Cape gets winter rain. Farmers choose crops that suit their area.</p>"
+  },
+  {
+   "title": "Living things that help and harm crops",
+   "minutes": 15,
+   "html": "<h3>Friends and enemies in the field</h3><h4>Helpers</h4><ul><li><strong>Earthworms</strong> – make tunnels for air and water and mix in organic matter.</li><li><strong>Bees and other insects</strong> – carry pollen between flowers so fruit and seed form.</li><li><strong>Ladybirds, spiders and birds</strong> – eat pests like aphids.</li><li><strong>Tiny soil life</strong> – break down dead plants and manure into plant food. Some bacteria on the roots of beans, peas and other legumes take nitrogen from the air for the plant.</li></ul><h4>Problems</h4><ul><li><strong>Weeds</strong> – take water, light and food from crops.</li><li><strong>Pests</strong> – insects like cutworms, aphids and stalk borers, and animals like birds, rats and porcupines.</li><li><strong>Diseases</strong> – caused by fungi, bacteria and viruses. They make leaves spotty, plants wilt or fruit rot.</li></ul><h4>Balance</h4><p>In nature, helpers and pests are in balance. If we spray too many chemicals, we can kill the helpers too, and then pests come back worse. That is why farmers try to use chemicals only when needed, and use other ways too, like crop rotation and removing sick plants.</p><h4>Chemicals</h4><p>Only trained workers may use pesticides and herbicides. Products must be registered under Act 36 of 1947 and used as the label says. Wear PPE, never spray in wind and keep chemicals away from water.</p>"
+  },
+  {
+   "title": "Farming sustainably",
+   "minutes": 15,
+   "html": "<h3>Look after the land so it can feed us tomorrow</h3><p>Sustainable farming means farming in a way that keeps the soil, water and living things healthy, so the land can keep producing for our children too.</p><h4>Protecting soil</h4><ul><li>Erosion is when wind or water carries soil away. Bare soil erodes fast.</li><li>Keep the soil covered with crops, crop residue or mulch.</li><li>Plough and plant across the slope, not up and down.</li><li>Build contours on slopes and keep grass strips.</li><li>Do not overgraze veld – bare veld erodes.</li></ul><p>The Conservation of Agricultural Resources Act 43 of 1983 says land users must protect soil and veld.</p><h4>Keeping soil healthy</h4><ul><li>Add manure and compost.</li><li>Rotate crops – for example maize one year and beans the next. This helps the soil and breaks the life cycle of pests and diseases.</li><li>Do not use more fertiliser than needed.</li></ul><h4>Saving water</h4><ul><li>Fix leaking pipes and taps.</li><li>Water in the early morning or evening, when less water is lost.</li><li>Keep chemicals, fuel and manure away from rivers, dams and boreholes. The National Water Act 36 of 1998 protects our water.</li></ul><h4>Protecting nature</h4><p>Leave natural veld, wetlands and river banks where you can. They are homes for helpers like bees, birds and frogs.</p><h4>Key points</h4><ul><li>The physical environment is soil, water, air, sun and weather; the biological environment is all living things.</li><li>Earthworms, bees and soil life help crops; weeds, pests and diseases harm them.</li><li>Too many chemicals kill helpers as well as pests.</li><li>Keep soil covered and plant across slopes to stop erosion.</li><li>Rotate crops, add organic matter and protect water.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is part of the physical environment?",
+   "options": [
+    {
+     "text": "Earthworms",
+     "correct": false
+    },
+    {
+     "text": "Soil and rain",
+     "correct": true
+    },
+    {
+     "text": "Weeds",
+     "correct": false
+    },
+    {
+     "text": "Bees",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil dries out quickly?",
+   "options": [
+    {
+     "text": "Loam with lots of compost",
+     "correct": false
+    },
+    {
+     "text": "Wet soil",
+     "correct": false
+    },
+    {
+     "text": "Clay soil",
+     "correct": false
+    },
+    {
+     "text": "Sandy soil",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do bees help crops?",
+   "options": [
+    {
+     "text": "They eat weeds",
+     "correct": false
+    },
+    {
+     "text": "They dig tunnels in soil",
+     "correct": false
+    },
+    {
+     "text": "They make fertiliser",
+     "correct": false
+    },
+    {
+     "text": "They carry pollen between flowers so fruit and seed form",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is erosion?",
+   "options": [
+    {
+     "text": "Plants growing fast",
+     "correct": false
+    },
+    {
+     "text": "Wind or water carrying soil away",
+     "correct": true
+    },
+    {
+     "text": "Adding manure",
+     "correct": false
+    },
+    {
+     "text": "Watering in the morning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why rotate crops, like maize one year and beans the next?",
+   "options": [
+    {
+     "text": "To kill earthworms",
+     "correct": false
+    },
+    {
+     "text": "To help the soil and break the life cycle of pests and diseases",
+     "correct": true
+    },
+    {
+     "text": "To make the land bare",
+     "correct": false
+    },
+    {
+     "text": "To use more fertiliser",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spraying too many chemicals can kill helpful insects as well as pests.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ploughing up and down a slope helps stop erosion.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which practices protect the soil? (select all that apply)",
+   "options": [
+    {
+     "text": "Keeping the soil covered with crops or mulch",
+     "correct": true
+    },
+    {
+     "text": "Building contours on slopes",
+     "correct": true
+    },
+    {
+     "text": "Overgrazing the veld",
+     "correct": false
+    },
+    {
+     "text": "Adding manure and compost",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

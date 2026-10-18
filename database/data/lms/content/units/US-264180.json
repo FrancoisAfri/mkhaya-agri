@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264180",
+ "title": "Provide nutrition to plants and landscapes",
+ "lessons": [
+  {
+   "title": "What plants need to grow",
+   "minutes": 15,
+   "html": "<h3>Plant food</h3>\n<p>Plants make sugars from sunlight, water and air. But they also need minerals (nutrients) from the soil to build leaves, roots and flowers. If a nutrient is missing, the plant shows signs of hunger.</p>\n<h4>The big three: N, P, K</h4>\n<table><tr><th>Nutrient</th><th>Main job</th><th>Signs of shortage</th></tr>\n<tr><td>Nitrogen (N)</td><td>Green leaves and growth</td><td>Pale yellow older leaves, slow growth</td></tr>\n<tr><td>Phosphorus (P)</td><td>Roots, flowers, seeds</td><td>Poor roots, purple tinge on leaves</td></tr>\n<tr><td>Potassium (K)</td><td>Strength, flowers, fruit, disease resistance</td><td>Brown, burnt leaf edges</td></tr></table>\n<p>Plants also need calcium, magnesium and sulphur, and small amounts of trace elements such as iron, zinc and boron. Yellow young leaves with green veins often mean iron shortage, common in alkaline soil.</p>\n<h4>Reading a fertiliser bag</h4>\n<p>In South Africa fertiliser bags show three numbers, such as <strong>2:3:2 (22)</strong>. The first three numbers are the ratio of N:P:K. The number in brackets is the total percentage of those nutrients in the bag. So 2:3:2 has more phosphorus, which is good for planting and root growth. A lawn fertiliser like LAN (limestone ammonium nitrate) is mainly nitrogen for green growth.</p>\n<h4>Organic and inorganic</h4>\n<ul><li><strong>Organic</strong> – compost, kraal manure, chicken manure, bone meal. Releases food slowly and improves the soil.</li>\n<li><strong>Inorganic (chemical)</strong> – granules or water-soluble powders. Fast acting and exact, but can burn plants if overused.</li></ul>\n<p>Soil testing by a laboratory tells your supervisor what the soil really needs, including the pH (acid or alkaline).</p>"
+  },
+  {
+   "title": "Applying fertiliser correctly",
+   "minutes": 15,
+   "html": "<h3>Before you apply</h3>\n<ol><li>Get instructions: which product, how much per square metre or per plant, and where.</li>\n<li>Read the label. Follow its rates and safety advice.</li>\n<li>Check the soil is moist. Fertiliser on dry soil can burn roots.</li>\n<li>Wear gloves, and a dust mask for powders.</li></ol>\n<h3>Methods</h3>\n<ul><li><strong>Broadcasting</strong> – spreading granules evenly over a lawn or bed by hand or with a spreader. Walk in straight lines, half the amount one way and half across, so there are no stripes.</li>\n<li><strong>Side dressing</strong> – placing fertiliser in a ring around a plant, away from the stem, under the outer leaves (drip line).</li>\n<li><strong>Liquid feeding</strong> – mixing soluble fertiliser with water and watering it on, or through the irrigation.</li>\n<li><strong>Mixing into soil</strong> – adding compost and planting fertiliser to the planting hole.</li></ul>\n<h3>Measuring</h3>\n<p>If the instruction is 50 g per square metre and the bed is 4 m by 2 m (8 m²), you need 8 × 50 g = 400 g. Weigh it or use a marked cup. Never guess.</p>\n<h3>After applying</h3>\n<ul><li>Water it in well, unless the label says otherwise. This moves food to the roots and stops burning.</li>\n<li>Sweep fertiliser off paths and paving; it stains and washes into drains and rivers.</li>\n<li>Record the date, product, amount and area.</li></ul>\n<h3>Do not</h3>\n<ul><li>Do not put fertiliser against stems or leaves.</li>\n<li>Do not use more than the instruction; too much burns plants and pollutes water.</li>\n<li>Do not apply before heavy rain.</li>\n<li>Do not store fertiliser near food, fuel or in damp places.</li></ul>\n<h4>Key points</h4>\n<ul><li>N is for leaves, P for roots and flowers, K for strength and fruit.</li>\n<li>A bag marked 2:3:2 (22) gives the N:P:K ratio and the total nutrient percentage.</li>\n<li>Measure the right amount; never guess.</li>\n<li>Apply to moist soil, keep it off stems and water it in.</li>\n<li>Sweep up spills and record what you applied.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which nutrient mainly gives green leaves and growth?",
+   "options": [
+    {
+     "text": "Nitrogen (N)",
+     "correct": true
+    },
+    {
+     "text": "Phosphorus (P)",
+     "correct": false
+    },
+    {
+     "text": "Potassium (K)",
+     "correct": false
+    },
+    {
+     "text": "Iron",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On a bag marked 2:3:2 (22), what do the first three numbers show?",
+   "options": [
+    {
+     "text": "The price",
+     "correct": false
+    },
+    {
+     "text": "The weight in kg",
+     "correct": false
+    },
+    {
+     "text": "The ratio of N:P:K",
+     "correct": true
+    },
+    {
+     "text": "The pH",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Brown, burnt leaf edges are often a sign of shortage of:",
+   "options": [
+    {
+     "text": "Nitrogen",
+     "correct": false
+    },
+    {
+     "text": "Water only",
+     "correct": false
+    },
+    {
+     "text": "Iron",
+     "correct": false
+    },
+    {
+     "text": "Potassium",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Instruction: 50 g per square metre. The bed is 8 square metres. How much do you need?",
+   "options": [
+    {
+     "text": "50 g",
+     "correct": false
+    },
+    {
+     "text": "400 g",
+     "correct": true
+    },
+    {
+     "text": "58 g",
+     "correct": false
+    },
+    {
+     "text": "800 g",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should side dressing be placed?",
+   "options": [
+    {
+     "text": "Against the stem",
+     "correct": false
+    },
+    {
+     "text": "On the leaves",
+     "correct": false
+    },
+    {
+     "text": "In a ring under the outer leaves, away from the stem",
+     "correct": true
+    },
+    {
+     "text": "On the paving",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fertiliser should be watered in after application unless the label says otherwise.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Using double the recommended amount of fertiliser is safe and gives better growth.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are organic fertilisers? (select all that apply)",
+   "options": [
+    {
+     "text": "Compost",
+     "correct": true
+    },
+    {
+     "text": "Kraal manure",
+     "correct": true
+    },
+    {
+     "text": "LAN granules",
+     "correct": false
+    },
+    {
+     "text": "Bone meal",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

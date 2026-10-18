@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-336016",
+ "title": "Install and maintain irrigation pressure vessels",
+ "lessons": [
+  {
+   "title": "Hydraulic principles of pressure tanks",
+   "minutes": 20,
+   "html": "<h3>Why pressure vessels are used</h3><p>In an automatic pump station, the pump starts when pressure drops and stops when it rises. Without storage, the pump would start every time a valve opens even slightly, and stop the moment it closes. Frequent starts overheat motors and wear contactors. A <strong>pressure vessel</strong> stores a volume of water under pressure, supplying small demands and reducing the number of pump starts. It also cushions water hammer.</p><h4>How they work</h4><p>Water is almost incompressible, but air compresses. A pressure tank contains a cushion of compressed air. When the pump runs, water enters the tank and compresses the air. When the pump stops, the compressed air pushes water out to the system until pressure falls to the cut-in point.</p><table><tr><th>Type</th><th>Description</th></tr><tr><td>Hydro-pneumatic (galvanised or steel) tank</td><td>Air and water in direct contact; air slowly dissolves into the water and must be topped up with an air charging device or compressor</td></tr><tr><td>Diaphragm or bladder tank (often called a hydrosphere)</td><td>A rubber diaphragm or bladder separates air and water, so the air charge stays much longer</td></tr></table><h4>Key terms</h4><ul><li><strong>Cut-in pressure:</strong> pressure at which the pressure switch starts the pump.</li><li><strong>Cut-out pressure:</strong> pressure at which the switch stops the pump.</li><li><strong>Pre-charge pressure:</strong> air pressure in an empty diaphragm tank; usually set slightly below cut-in pressure as the manufacturer specifies.</li><li><strong>Draw-down:</strong> the volume of water delivered between cut-out and cut-in. A larger tank gives more draw-down and fewer starts per hour.</li></ul><p>Boyle's law explains the behaviour: at constant temperature, pressure multiplied by volume of a gas stays constant, so as water compresses the air into half the space, the air pressure roughly doubles (in absolute terms).</p><p>Tank size is chosen from pump flow, cut-in/cut-out pressures and the maximum starts per hour the motor manufacturer allows.</p>"
+  },
+  {
+   "title": "Hazards and installing pressure vessels",
+   "minutes": 20,
+   "html": "<h3>Hazards</h3><p>A pressure vessel stores energy. If it fails, it can burst violently. Pressure equipment is regulated under the OHS Act 85 of 1993 and its Pressure Equipment Regulations, which set requirements for design, marking, installation, inspection and safety devices.</p><ul><li>Never exceed the tank's rated working pressure stamped on its nameplate.</li><li>Fit a pressure relief (safety) valve set at or below the rated pressure where required.</li><li>Do not weld, drill or modify a pressure vessel.</li><li>Replace tanks with heavy rust, dents, bulges or leaks.</li><li>Isolate and release pressure before working on any part of the system.</li><li>Electrical work on pressure switches and pump panels is for qualified electricians.</li></ul><h4>Installing a hydro-pneumatic tank</h4><ol><li>Place the tank on a level, firm base in the pump room, with access to the nameplate, gauge and fittings.</li><li>Connect the tank to the pump delivery manifold after the non-return valve, through an isolating valve, with fittings of the correct pressure class.</li><li>Fit the pressure gauge, pressure switch (on a short, straight connection close to the tank), pressure relief valve and drain valve.</li><li>Install the air charging equipment: an air volume control, snifter valve or small compressor, as designed, so air lost by absorption is replaced.</li><li>Fit a water level sight glass if supplied, to check the air/water ratio.</li></ol><h4>Installing a hydrosphere (diaphragm tank)</h4><ol><li>Check the pre-charge pressure with a tyre gauge on the air valve while the tank is empty, and adjust to the specified value before connecting.</li><li>Connect to the manifold through an isolating valve and union so it can be removed. Many small tanks can stand on the floor or be mounted inline as specified.</li><li>Fit the pressure switch, gauge and relief valve as for any pump station.</li><li>Support the pipework so the tank does not carry pipe loads.</li></ol><h4>Commissioning</h4><p>Fill slowly, bleed air from pipework, start the pump, and confirm cut-in and cut-out pressures on the gauge. Check for leaks and count pump starts while drawing a small flow.</p>"
+  },
+  {
+   "title": "Servicing pressure vessels and documentation",
+   "minutes": 15,
+   "html": "<h3>Signs of a problem</h3><p>The most common fault is <strong>waterlogging</strong>: the tank loses its air cushion and fills with water. The pump then short-cycles, switching on and off rapidly every time a tap opens. This quickly damages the motor and switchgear.</p><h4>Servicing a hydro-pneumatic tank</h4><ol><li>Check the gauge and sight glass: the air/water level should match the manufacturer's guidance.</li><li>Check the air charging device works; clean or replace snifter valves and air volume controls.</li><li>If waterlogged: isolate the pump electrically, close the outlet, drain the tank completely through the drain valve with the air valve open, close the drain and refill so a fresh air cushion forms.</li><li>Check the relief valve operates and is not leaking.</li><li>Inspect the shell for rust, sweating or damp patches and the base for corrosion.</li></ol><h4>Servicing a hydrosphere</h4><ol><li>Isolate the pump and drain the water side of the tank to zero pressure.</li><li>Check the pre-charge with a tyre gauge; top up with a hand pump or compressor to the correct value.</li><li>If water comes out of the air valve, the diaphragm or bladder has failed; replace the bladder (where replaceable) or the tank.</li><li>Restore supply, recheck cut-in and cut-out pressures.</li></ol><h4>Pressure switch checks</h4><p>Confirm the switch cuts in and out at the set pressures and that the sensing pipe is not blocked with scale or sand. Adjustments are made with power isolated, following the manufacturer's method; electrical faults go to an electrician.</p><h4>Documentation</h4><ul><li>Tank details: manufacturer, serial number, rated working pressure, volume, date installed</li><li>Settings: pre-charge, cut-in, cut-out, relief valve setting</li><li>Inspection and test records as required by the Pressure Equipment Regulations</li><li>Service log: date, readings, faults found, parts replaced, technician's name</li></ul><h4>Key points</h4><ul><li>Pressure vessels reduce pump starts by storing water under an air cushion.</li><li>Diaphragm tanks keep their air; hydro-pneumatic tanks need air charging.</li><li>Never exceed rated pressure; fit relief valves and never modify a vessel.</li><li>Short-cycling usually means a waterlogged tank or lost pre-charge.</li><li>Check pre-charge with the tank empty, and keep full records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main purpose of a pressure vessel in a pump station?",
+   "options": [
+    {
+     "text": "To filter the water",
+     "correct": false
+    },
+    {
+     "text": "To store water under pressure and reduce pump starts",
+     "correct": true
+    },
+    {
+     "text": "To increase pump flow",
+     "correct": false
+    },
+    {
+     "text": "To heat the water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What separates air and water in a hydrosphere?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "A sand layer",
+     "correct": false
+    },
+    {
+     "text": "A float switch",
+     "correct": false
+    },
+    {
+     "text": "A rubber diaphragm or bladder",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the cut-out pressure?",
+   "options": [
+    {
+     "text": "The pressure at which the switch stops the pump",
+     "correct": true
+    },
+    {
+     "text": "The pressure at which the pump starts",
+     "correct": false
+    },
+    {
+     "text": "The air pressure in an empty tank",
+     "correct": false
+    },
+    {
+     "text": "The rated pressure of the tank",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pump switches on and off rapidly whenever a tap opens. What is the likely cause?",
+   "options": [
+    {
+     "text": "The pressure switch is new",
+     "correct": false
+    },
+    {
+     "text": "The tank is too big",
+     "correct": false
+    },
+    {
+     "text": "The tank is waterlogged or has lost its pre-charge",
+     "correct": true
+    },
+    {
+     "text": "The relief valve is set too high",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the pre-charge of a diaphragm tank be checked?",
+   "options": [
+    {
+     "text": "While the pump is running",
+     "correct": false
+    },
+    {
+     "text": "With the water side drained to zero pressure",
+     "correct": true
+    },
+    {
+     "text": "Only when it is full",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to weld a bracket onto a pressure vessel to mount a gauge.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Air in a hydro-pneumatic tank slowly dissolves into the water and must be replaced.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details should be recorded for a pressure vessel? (select all that apply)",
+   "options": [
+    {
+     "text": "Rated working pressure and serial number",
+     "correct": true
+    },
+    {
+     "text": "Cut-in and cut-out settings",
+     "correct": true
+    },
+    {
+     "text": "Colour of the pump room door",
+     "correct": false
+    },
+    {
+     "text": "Service dates and faults found",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

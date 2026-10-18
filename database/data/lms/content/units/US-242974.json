@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-242974",
+ "title": "Operate counter-balanced lift truck",
+ "lessons": [
+  {
+   "title": "Inspecting the lift truck before use",
+   "minutes": 20,
+   "html": "<h3>The counter-balanced lift truck</h3> <p>A counter-balanced lift truck (forklift) carries the load on forks in front of the front wheels. A heavy counterweight at the back stops it tipping forward. On farms and in agri-businesses they are used in packhouses, cold stores, fertiliser and seed stores, grain depots and at loading bays. They may be diesel, LPG (gas) or electric.</p> <p>Under the Driven Machinery Regulations of the Occupational Health and Safety Act 85 of 1993, only trained and authorised operators may drive a lift truck. Carry your operator's certificate or licence as your workplace requires.</p> <h4>Pre-use inspection</h4> <p>Inspect the truck at the start of every shift and record the results on the checklist. Do not use a truck with a fault that affects safety; tag it out and report it.</p> <h4>Walk-around (engine off)</h4> <ul> <li>Forks: no cracks, bends or heel wear; locking pins in place; both forks the same height.</li> <li>Mast and chains: no damage, chains evenly tight and lubricated, no leaking hydraulic hoses or cylinders.</li> <li>Load backrest and overhead guard secure and undamaged.</li> <li>Tyres and wheels: no cuts, chunks missing, or loose wheel nuts; correct pressure on pneumatic tyres.</li> <li>Fluid levels: engine oil, coolant, hydraulic oil, fuel; LPG cylinder secure and no smell of gas; battery charged and connectors sound on electric trucks.</li> <li>Data plate (capacity plate) present and readable.</li> <li>Seat belt, mirrors, lights and warning devices present.</li> </ul> <h4>Operational checks (engine on)</h4> <ul> <li>Hooter, lights, reverse alarm and flashing beacon work.</li> <li>Service brake and parking brake hold.</li> <li>Steering works smoothly.</li> <li>Lift, lower, tilt and side-shift work smoothly with no jerking or leaks.</li> <li>Gauges and warning lights normal.</li> </ul> <p>Sign the checklist. These records show the employer that the equipment is maintained and safe, and help the workshop spot repeat faults.</p>"
+  },
+  {
+   "title": "Freight: identification, handling and storage",
+   "minutes": 20,
+   "html": "<h3>Know your load</h3> <p>Before moving freight, find out what it is, how heavy it is and how it must be handled. Check:</p> <ul> <li><strong>Documents</strong>: delivery note, picking slip or dispatch note, showing product, quantity and destination.</li> <li><strong>Labels</strong>: weight, \"this way up\", \"fragile\", \"do not stack\", maximum stacking height, temperature requirements.</li> <li><strong>Hazard labels</strong>: diamond-shaped signs for dangerous goods, such as flammable fuel, corrosive acids, or toxic agrochemicals. These need special care and separate storage.</li> <li><strong>Packaging</strong>: pallets in good condition, loads wrapped or strapped, no damaged bags or leaking containers.</li> </ul> <h4>Classifying farm freight</h4> <table> <tr><th>Freight</th><th>Handling points</th></tr> <tr><td>Fresh fruit pallets</td><td>Keep cold chain; handle gently; correct cold room</td></tr> <tr><td>Fertiliser bags</td><td>Heavy, can split; keep dry; some types are oxidisers and must be kept away from fuel</td></tr> <tr><td>Agrochemicals</td><td>Dangerous goods; locked chemical store; spill kit ready</td></tr> <tr><td>Seed and feed</td><td>Keep dry, away from chemicals and rodents</td></tr> <tr><td>Bulk bags of grain</td><td>Use correct loops or attachment</td></tr> </table> <h4>Picking up and placing loads</h4> <ol> <li>Approach squarely and slowly with forks level and at the right height.</li> <li>Spread forks as wide as the pallet allows and insert them fully.</li> <li>Lift just clear, tilt the mast back slightly to cradle the load.</li> <li>Travel with the load low (just clear of the floor) and tilted back.</li> <li>At the stack, stop, raise the load only when square to the rack, move forward slowly, level the forks and lower.</li> <li>Check the load is stable before reversing out.</li> </ol> <h4>Storage</h4> <ul> <li>Stack only to the height allowed by the label and rack rating.</li> <li>Keep aisles, fire exits, fire equipment and electrical panels clear.</li> <li>Store incompatible goods apart, for example chemicals away from food, feed and seed.</li> <li>Store first-in, first-out so older stock leaves first.</li> <li>Report damaged racking immediately.</li> </ul>"
+  },
+  {
+   "title": "Capacity, safe operation and emergencies",
+   "minutes": 20,
+   "html": "<h3>Capacity and stability</h3> <p>The data plate shows the rated capacity at a specific load centre (the distance from the fork face to the centre of the load) and lift height. If the load is longer, its centre is further out, or you lift higher, the safe capacity drops. Attachments such as clamps, rotators or bale spikes also reduce capacity; the attachment must have its own rating on the plate.</p> <p>A lift truck tips forward when overloaded, or sideways when turned too fast, especially with a raised load or on a slope. Most fatal accidents involve the truck tipping over.</p> <h4>If the truck starts to tip over</h4> <ul> <li>Do <strong>not</strong> jump out.</li> <li>Keep your seat belt on, hold the steering wheel firmly, brace your feet and lean away from the direction of the fall.</li> </ul> <h4>Operating rules</h4> <ul> <li>Always wear the seat belt.</li> <li>Look in the direction of travel. Reverse when the load blocks your view, or use a banksman.</li> <li>Drive at a safe speed, slow down at corners, doors and on wet floors. Sound the hooter at blind corners.</li> <li>On ramps, travel with the load facing uphill. Never turn on a slope.</li> <li>Never carry passengers or lift people on the forks.</li> <li>Never allow anyone to walk under raised forks.</li> <li>Keep within marked traffic routes; pedestrians have right of way in walkways.</li> <li>Check that the truck or trailer you drive onto is secured, with wheels chocked and the dock plate in place.</li> <li>When leaving the truck: forks fully lowered and tilted forward to the floor, controls in neutral, parking brake on, engine off, key removed.</li> <li>Refuel or charge only in designated areas, no smoking or flames. LPG cylinders are changed only by trained persons.</li> </ul> <h3>Emergencies</h3> <ul> <li>Know where the fire extinguishers, first aid kit, spill kit and emergency numbers are.</li> <li>In an accident: stop, switch off, make the area safe, call for help and the first aider, and do not move injured people unless they are in danger.</li> <li>For a chemical spill: stop, keep people away, use the spill kit if trained, and follow the safety data sheet.</li> <li>Report every incident and near miss and help with the investigation.</li> </ul> <h4>Key points</h4> <ul> <li>Only trained, authorised operators may drive a lift truck.</li> <li>Inspect and record before every shift; tag out unsafe trucks.</li> <li>Read labels and documents; store incompatible goods apart.</li> <li>Never exceed the data plate capacity; attachments and longer loads reduce it.</li> <li>Seat belt on; in a tip-over do not jump; hold on and lean away.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What stops a counter-balanced lift truck tipping forward under a load?",
+   "options": [
+    {
+     "text": "The overhead guard",
+     "correct": false
+    },
+    {
+     "text": "The mirrors",
+     "correct": false
+    },
+    {
+     "text": "The counterweight at the back",
+     "correct": true
+    },
+    {
+     "text": "The hooter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens to the safe capacity if the load centre is further from the forks?",
+   "options": [
+    {
+     "text": "It decreases",
+     "correct": true
+    },
+    {
+     "text": "It stays the same",
+     "correct": false
+    },
+    {
+     "text": "It doubles",
+     "correct": false
+    },
+    {
+     "text": "It increases",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you travel with a load?",
+   "options": [
+    {
+     "text": "Tilted forward",
+     "correct": false
+    },
+    {
+     "text": "Low, just clear of the floor, and tilted back",
+     "correct": true
+    },
+    {
+     "text": "With one fork only",
+     "correct": false
+    },
+    {
+     "text": "Raised high for a good view",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the lift truck starts tipping over?",
+   "options": [
+    {
+     "text": "Raise the forks",
+     "correct": false
+    },
+    {
+     "text": "Keep the seat belt on, hold on and lean away from the fall",
+     "correct": true
+    },
+    {
+     "text": "Jump out",
+     "correct": false
+    },
+    {
+     "text": "Open the door",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On a ramp, which way should the load face?",
+   "options": [
+    {
+     "text": "Sideways",
+     "correct": false
+    },
+    {
+     "text": "Downhill",
+     "correct": false
+    },
+    {
+     "text": "Uphill",
+     "correct": true
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A lift truck with a safety fault may be used carefully until the end of the shift.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Agrochemicals should be stored apart from food, feed and seed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of the pre-use walk-around check? (select all that apply)",
+   "options": [
+    {
+     "text": "Forks and locking pins",
+     "correct": true
+    },
+    {
+     "text": "Lifting a person on the forks to test them",
+     "correct": false
+    },
+    {
+     "text": "Mast chains and hydraulic hoses",
+     "correct": true
+    },
+    {
+     "text": "Tyres and wheel nuts",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

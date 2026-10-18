@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-WM-01",
+ "title": "Intake and reclaim operations in the production of animal feeds or dry pet foods",
+ "lessons": [
+  {
+   "title": "Intake in your workplace",
+   "minutes": 15,
+   "html": "<h3>Learning on the job</h3>\n<p>In this work experience module you do intake and reclaim tasks in a real feed mill or dry pet food plant under the guidance of a mentor or supervisor. You will build a record of the tasks you completed, signed by your mentor, as evidence of competence.</p>\n<h4>Differences between feed and pet food intake</h4>\n<p>Both animal feed mills and dry pet food plants receive grains (maize, rice, wheat), protein meals and minerals. Pet food plants also often receive:</p>\n<ul>\n<li>Animal protein meals such as poultry meal, which need strict checks for smell, temperature and Salmonella.</li>\n<li>Fats and oils in tankers, which are pumped into heated tanks.</li>\n<li>Palatants, flavours, vitamins and colours in small packs that must be stored at the right temperature.</li>\n</ul>\n<p>Because people handle pet food at home and pets live closely with families, pet food plants are very strict about hygiene and pathogen control.</p>\n<h4>Tasks to practise</h4>\n<ol>\n<li>Check documents and match them with the purchase order.</li>\n<li>Direct trucks to the weighbridge, sampling point and correct pit or tank.</li>\n<li>Take samples using the correct probe or sampling tap, label them and deliver them to the laboratory.</li>\n<li>Set routes and start and stop intake conveyors in the right sequence.</li>\n<li>Offload bagged materials with the help of an authorised forklift driver and store them in the correct place.</li>\n<li>Complete the intake register.</li>\n</ol>\n<h4>Example from the workplace</h4>\n<p>A tanker of poultry fat arrives. The delivery note is correct, but the fat smells rancid. You do not start pumping. You call the quality controller, who tests it and rejects the load. Your quick action prevents a tank of fat from being spoilt and many tonnes of pet food from being rejected by customers.</p>"
+  },
+  {
+   "title": "Reclaim, storage and your workplace evidence",
+   "minutes": 15,
+   "html": "<h3>Reclaim in practice</h3>\n<p>Your mentor will show you how the plant's control system or panel is used for reclaim. Practise the following until you can do them without help:</p>\n<ul>\n<li>Reading the production plan to know what the mill needs.</li>\n<li>Checking source silo and destination bin before selecting a route.</li>\n<li>Starting the line from the destination end, then opening the source gate.</li>\n<li>Watching bin levels and stopping before overfilling.</li>\n<li>Updating the silo or bin stock card.</li>\n</ul>\n<h3>Storage duties</h3>\n<ul>\n<li>Check grain temperatures where probes are fitted and report increases.</li>\n<li>Check for insects, birds and rodents and report signs to the pest control officer.</li>\n<li>Keep bagged materials on pallets, away from walls, with space for inspection.</li>\n<li>Rotate stock first-in-first-out, and check expiry dates of vitamins and palatants.</li>\n<li>Keep allergens or special ingredients separate and labelled when the plant requires it.</li>\n</ul>\n<h3>Safety on the job</h3>\n<p>Your mentor will explain the plant's lock-out, confined space and vehicle rules. Never enter a silo, bin or tank. Never stand on flowing grain. Never clear a choke without lock-out. Report every near miss; your report can prevent the next injury.</p>\n<h3>Building your evidence</h3>\n<p>Keep a logbook of what you did each day: date, task, product, quantities and any problems. Ask your mentor to sign each completed task and give feedback. Typical evidence includes:</p>\n<table>\n<tr><th>Evidence</th><th>Example</th></tr>\n<tr><td>Intake register entries</td><td>Loads you received with your name</td></tr>\n<tr><td>Sample records</td><td>Samples you took and labelled</td></tr>\n<tr><td>Reclaim records</td><td>Routes and tonnes you moved</td></tr>\n<tr><td>Mentor observation</td><td>Signed checklist of a full intake</td></tr>\n</table>\n<h4>Key points</h4>\n<ul>\n<li>Work experience means doing real intake and reclaim tasks under a mentor.</li>\n<li>Pet food plants also receive animal protein meals, fats and palatants that need strict checks.</li>\n<li>Never pump or offload a doubtful load; call quality.</li>\n<li>Follow reclaim steps, storage rules and safety rules every time.</li>\n<li>Keep a signed logbook as evidence of your work.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A tanker of fat smells rancid. What should you do?",
+   "options": [
+    {
+     "text": "Mix it with fresh fat",
+     "correct": false
+    },
+    {
+     "text": "Start pumping and mention it later",
+     "correct": false
+    },
+    {
+     "text": "Do not pump; call the quality controller",
+     "correct": true
+    },
+    {
+     "text": "Send the driver away without telling anyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are pet food plants especially strict about hygiene?",
+   "options": [
+    {
+     "text": "Hygiene is not important for pet food",
+     "correct": false
+    },
+    {
+     "text": "Pets do not get sick",
+     "correct": false
+    },
+    {
+     "text": "Pet food is cheaper",
+     "correct": false
+    },
+    {
+     "text": "Pets live closely with families and people handle the food at home",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with bagged materials in storage?",
+   "options": [
+    {
+     "text": "Keep on pallets away from walls with space for inspection",
+     "correct": true
+    },
+    {
+     "text": "Stack against walls on the floor",
+     "correct": false
+    },
+    {
+     "text": "Mix bags of different products",
+     "correct": false
+    },
+    {
+     "text": "Leave outside",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who should sign your logbook tasks?",
+   "options": [
+    {
+     "text": "A friend",
+     "correct": false
+    },
+    {
+     "text": "Nobody",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "Your mentor or supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a safety rule during reclaim?",
+   "options": [
+    {
+     "text": "Never enter a silo or bin",
+     "correct": true
+    },
+    {
+     "text": "Clear chokes while running",
+     "correct": false
+    },
+    {
+     "text": "Stand on flowing grain to help it move",
+     "correct": false
+    },
+    {
+     "text": "Remove lock-out tags of others",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Reporting near misses can help prevent future injuries.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Vitamins and palatants never expire.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which materials are often received at dry pet food plants? (select all that apply)",
+   "options": [
+    {
+     "text": "Diesel for customers’ cars",
+     "correct": false
+    },
+    {
+     "text": "Poultry meal",
+     "correct": true
+    },
+    {
+     "text": "Palatants and flavours",
+     "correct": true
+    },
+    {
+     "text": "Fats and oils in tankers",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

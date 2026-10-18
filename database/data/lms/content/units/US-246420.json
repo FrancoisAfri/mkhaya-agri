@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-246420",
+ "title": "Plan a recreational hunting experience",
+ "lessons": [
+  {
+   "title": "Preparing a legal, ethical hunt",
+   "minutes": 20,
+   "html": "<h3>Hunting in context</h3>\n<p>Hunting has a long history in Southern Africa, from San hunters tracking with bows to the colonial era, when uncontrolled shooting wiped out the quagga and nearly ended the bontebok and Cape mountain zebra. Today, regulated hunting on private game ranches and reserves is part of a wildlife economy that keeps land under natural veld and funds conservation. A professional hunter must understand this: an ethical hunt removes surplus animals within a sustainable off-take, supports the local economy and respects the animal.</p>\n<h3>Laws and permits</h3>\n<p>Hunting is controlled by provincial nature conservation laws and, for threatened or protected species, by the National Environmental Management: Biodiversity Act 10 of 2004 and its TOPS regulations. Firearms are controlled by the Firearms Control Act 60 of 2000. Before any hunt, check:</p>\n<ul>\n<li>Professional hunter and outfitter registration with the province where the hunt takes place.</li>\n<li>Hunting permits or exemption certificates for the property and the species, including any TOPS permits.</li>\n<li>Open seasons, bag limits and the landowner's written permission.</li>\n<li>Firearm licences or temporary import permits for foreign clients.</li>\n<li>Rules on export of trophies, including CITES permits where needed.</li>\n</ul>\n<h3>Planning the experience</h3>\n<ol>\n<li><strong>Agree with the client:</strong> species, trophy quality expectations, daily rates and trophy fees in writing.</li>\n<li><strong>Know the area:</strong> scout the property, water points, wind patterns and where the target animals feed and rest.</li>\n<li><strong>Check firearms and ammunition:</strong> calibre and bullet type must suit the animal. Have the client shoot at a target on arrival to confirm the rifle is sighted in and that they can shoot accurately.</li>\n<li><strong>Brief the client:</strong> safety rules, shot placement, what will happen after the shot and the rules of fair chase.</li>\n<li><strong>Prepare the team:</strong> trackers, skinners and drivers, plus a first aid kit and a communication plan.</li>\n</ol>\n<h4>Firearm safety rules</h4>\n<ul>\n<li>Treat every firearm as loaded.</li>\n<li>Never point the muzzle at anything you do not intend to shoot.</li>\n<li>Chamber a round only when ready to shoot, on your instruction.</li>\n<li>Be sure of the target and what is behind it.</li>\n</ul>"
+  },
+  {
+   "title": "Trailing the animal and making a clean kill",
+   "minutes": 20,
+   "html": "<h3>Tracking and stalking</h3>\n<p>Trailing an animal is skilled work. A good tracker reads spoor, dung, broken twigs, disturbed grass and alarm calls of birds and other game. The hunter controls the approach:</p>\n<ul>\n<li><strong>Wind:</strong> always approach with the wind blowing from the animal towards you. Test it often with a small bag of ash or dust.</li>\n<li><strong>Cover:</strong> use bushes, termite mounds and dongas to stay hidden.</li>\n<li><strong>Noise and movement:</strong> walk slowly, stop often, speak only in whispers or hand signals.</li>\n<li><strong>Identify:</strong> confirm species, sex and that the animal is mature and the agreed trophy before setting up the shot.</li>\n</ul>\n<h3>The clean kill</h3>\n<p>An ethical hunter aims for a quick, humane death. That means:</p>\n<ol>\n<li>A steady rest, such as shooting sticks.</li>\n<li>A safe distance within the client's proven ability.</li>\n<li>A clear shot with no branches in the way and no other animals behind.</li>\n<li>Correct shot placement in the heart and lung area. For most antelope standing broadside, this is in line with the front leg, about one third up the body.</li>\n<li>A clear backstop, so the bullet cannot travel towards people, buildings or roads.</li>\n</ol>\n<p>Never let a client take a running shot, a shot at a partly hidden animal or a shot beyond their skill. A wounded animal is a failure of planning.</p>\n<h3>After the shot</h3>\n<ul>\n<li>Watch the animal's reaction and mark the spot where it stood and where it was last seen.</li>\n<li>Reload and wait a few minutes before following up.</li>\n<li>Look for blood, hair and bone at the spot; the tracker reads the colour of blood to judge the hit.</li>\n<li>Approach a downed animal from behind and above, and check for life signs such as eye blinking when the eye is touched with a stick. If needed, deliver a finishing shot.</li>\n<li>Dangerous game such as buffalo require an experienced professional hunter backing up with a suitable rifle at all times.</li>\n</ul>"
+  },
+  {
+   "title": "Post-kill work and concluding the hunt",
+   "minutes": 15,
+   "html": "<h3>The post-kill phase</h3>\n<p>Respect for the animal continues after death. Many hunters pause for a moment of thanks. Then the team works quickly, especially in hot weather, because meat and skin spoil fast.</p>\n<ol>\n<li><strong>Photographs:</strong> clean blood off the animal, place it naturally, and tuck in the tongue. Keep photos respectful.</li>\n<li><strong>Measure and record:</strong> species, sex, date, GPS position, horn measurements if needed, and permit details.</li>\n<li><strong>Recover the carcass:</strong> load it carefully to protect the cape and horns. Do not drag a trophy animal over rocks.</li>\n<li><strong>Field dressing:</strong> remove the stomach and intestines soon after death to cool the carcass. Keep it in shade.</li>\n<li><strong>Skinning room:</strong> the skinners cape the trophy for the chosen mount and the meat goes to the cold room. Meat sold to the public must follow the Meat Safety Act 40 of 2000.</li>\n</ol>\n<h3>Concluding the hunt</h3>\n<p>A hunt ends properly when all paperwork, payments and records are complete:</p>\n<ul>\n<li>Complete the hunting register and permit returns for the provincial authority.</li>\n<li>Confirm trophy fees and daily rates with the client and provide a clear invoice in ZAR or the agreed currency.</li>\n<li>Arrange trophy treatment, labelling, the dip-and-pack service or taxidermist, and export documents.</li>\n<li>Thank the landowner, trackers and staff, and handle tips fairly.</li>\n<li>Ask the client for feedback to improve future hunts.</li>\n<li>Clean and store firearms and equipment.</li>\n</ul>\n<p>Every ethical, well-run hunt strengthens the case that sustainable use helps conserve wildlife and habitat.</p>\n<h4>Key points</h4>\n<ul>\n<li>Know the history: uncontrolled hunting caused extinctions; regulated hunting supports conservation.</li>\n<li>Check permits, seasons, landowner permission and firearm licences before the hunt.</li>\n<li>Approach with the wind in your face and confirm the animal before the shot.</li>\n<li>Only take a clear, safe heart-lung shot within the client's ability.</li>\n<li>Complete registers, permit returns and trophy arrangements to conclude the hunt.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which species was hunted to extinction in South Africa through uncontrolled shooting?",
+   "options": [
+    {
+     "text": "Blesbok",
+     "correct": false
+    },
+    {
+     "text": "Springbok",
+     "correct": false
+    },
+    {
+     "text": "Quagga",
+     "correct": true
+    },
+    {
+     "text": "Kudu",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When stalking an animal, where should the wind come from?",
+   "options": [
+    {
+     "text": "From the animal towards you",
+     "correct": true
+    },
+    {
+     "text": "From you towards the animal",
+     "correct": false
+    },
+    {
+     "text": "From behind you",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is the correct aim point for most antelope standing broadside?",
+   "options": [
+    {
+     "text": "The hind leg",
+     "correct": false
+    },
+    {
+     "text": "The middle of the stomach",
+     "correct": false
+    },
+    {
+     "text": "The tip of the horns",
+     "correct": false
+    },
+    {
+     "text": "The heart-lung area in line with the front leg",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should the hunter do straight after the shot?",
+   "options": [
+    {
+     "text": "Run immediately after the animal",
+     "correct": false
+    },
+    {
+     "text": "Mark where the animal stood and was last seen, and reload",
+     "correct": true
+    },
+    {
+     "text": "Unload and go back to the vehicle",
+     "correct": false
+    },
+    {
+     "text": "Fire a second shot into the bush",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the carcass be field dressed soon after death?",
+   "options": [
+    {
+     "text": "To make it lighter for photos",
+     "correct": false
+    },
+    {
+     "text": "To remove the horns",
+     "correct": false
+    },
+    {
+     "text": "To help the carcass cool and stop spoiling",
+     "correct": true
+    },
+    {
+     "text": "Because the law requires it within five minutes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A client should be allowed a running shot if they are keen to finish the hunt quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Firearms in South Africa are controlled by the Firearms Control Act 60 of 2000.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks help conclude a hunt properly? (select all that apply)",
+   "options": [
+    {
+     "text": "Completing the hunting register and permit returns",
+     "correct": true
+    },
+    {
+     "text": "Arranging trophy treatment and export documents",
+     "correct": true
+    },
+    {
+     "text": "Leaving firearms uncleaned in the vehicle",
+     "correct": false
+    },
+    {
+     "text": "Asking the client for feedback",
+     "correct": true
+    },
+    {
+     "text": "Skipping the invoice to save time",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -63,7 +63,7 @@
   </tbody>
 </table>
 
-<div class="footer">Mkhaya Hub — Audit Report — {{ $generated }}</div>
+<div class="footer">Mkhaya Agri — Audit Report — {{ $generated }}</div>
 
 </body>
 </html>

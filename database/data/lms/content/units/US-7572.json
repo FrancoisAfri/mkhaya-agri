@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7572",
+ "title": "Demonstrate knowledge of and produce computer spreadsheets using basic functions",
+ "lessons": [
+  {
+   "title": "What a spreadsheet is and how to enter data",
+   "minutes": 15,
+   "html": "<h3>Rows, columns and cells</h3><p>A spreadsheet is a computer program that works like a big table. Common ones are Microsoft Excel, LibreOffice Calc and Google Sheets. On a seed farm you can use it to record germination counts, plot yields, rainfall or stock of seed bags.</p><ul><li><strong>Columns</strong> go up and down and have letters: A, B, C.</li><li><strong>Rows</strong> go across and have numbers: 1, 2, 3.</li><li>A <strong>cell</strong> is one box where a row and column meet. Cell B3 is in column B, row 3.</li><li>A <strong>worksheet</strong> is one page. A <strong>workbook</strong> is the whole file and can have many worksheets.</li></ul><h4>Entering data</h4><ol><li>Click on a cell.</li><li>Type the word or number.</li><li>Press <strong>Enter</strong> to go down, or <strong>Tab</strong> to go right.</li></ol><p>Put headings in row 1, for example: <em>Plot number</em>, <em>Cultivar</em>, <em>Seeds planted</em>, <em>Seeds germinated</em>. Then type one record per row underneath. Keep one kind of information in each column. Do not type units like \"kg\" in the same cell as the number; put the unit in the heading instead, for example <em>Yield (kg)</em>. Then the computer can calculate with the numbers.</p><h4>Changing and clearing cells</h4><p>To change a cell, click it and type the new value, or double-click to edit part of it. Press <strong>Delete</strong> to clear a cell. If you make a mistake, press <strong>Ctrl + Z</strong> to undo.</p><h4>Saving</h4><p>Click <strong>File &gt; Save As</strong>, choose the right folder and give a clear name, for example <em>Germination counts wheat trial 2026</em>. Save often with <strong>Ctrl + S</strong>, especially before load shedding. Make a backup copy where your supervisor tells you.</p><h4>Checking your typing</h4><p>Numbers in a spreadsheet are used for decisions. One wrong number, like 950 instead of 95, can make a cultivar look much better than it is. Check each figure against the field sheet before you move on.</p>"
+  },
+  {
+   "title": "Simple formulas and functions",
+   "minutes": 15,
+   "html": "<h3>Letting the computer do the sums</h3><p>A formula is an instruction to calculate. Every formula starts with an equals sign <strong>=</strong>. When the numbers change, the answer changes by itself.</p><h4>Basic formulas</h4><table><tr><th>Sign</th><th>Meaning</th><th>Example</th></tr><tr><td>+</td><td>add</td><td>=B2+C2</td></tr><tr><td>-</td><td>subtract</td><td>=B2-C2</td></tr><tr><td>*</td><td>multiply</td><td>=B2*C2</td></tr><tr><td>/</td><td>divide</td><td>=B2/C2</td></tr></table><p>Use cell names, not the numbers themselves. Then if a count is corrected, the answer updates.</p><h4>Example: germination percentage</h4><p>Column C has seeds planted and column D has seeds germinated. In E2 type <strong>=D2/C2*100</strong>. If 100 seeds were planted and 87 came up, the answer is 87.</p><h4>Useful functions</h4><ul><li><strong>=SUM(B2:B20)</strong> adds all numbers from B2 to B20, for example total bags in store.</li><li><strong>=AVERAGE(E2:E20)</strong> works out the average, for example average germination.</li><li><strong>=MAX()</strong> and <strong>=MIN()</strong> find the biggest and smallest number.</li><li><strong>=COUNT()</strong> counts how many cells have numbers.</li></ul><p>The colon (:) means \"from ... to\". B2:B20 is a range of cells.</p><h4>Copying a formula down</h4><p>Click the cell with the formula. Move the mouse to the small square at the bottom right corner of the cell. Drag it down. The formula is copied and changes to the right row: E3 becomes =D3/C3*100 and so on.</p><h4>Common errors</h4><ul><li><strong>#DIV/0!</strong> means you divided by zero or an empty cell.</li><li><strong>#VALUE!</strong> often means there is text where a number should be.</li><li><strong>####</strong> means the column is too narrow. Make it wider.</li></ul><p>Always check one answer by hand with a calculator to make sure the formula is right.</p>"
+  },
+  {
+   "title": "Formatting, charts and printing",
+   "minutes": 15,
+   "html": "<h3>Making the sheet easy to read</h3><p>Formatting changes how the sheet looks, not the numbers inside it.</p><ul><li>Make headings <strong>bold</strong> and freeze the top row (<em>View &gt; Freeze Panes</em>) so headings stay visible when you scroll.</li><li>Change column width by dragging the line between column letters.</li><li>Use number formats: decimal places for yields, <strong>Currency (R)</strong> for costs in rand, <strong>Date</strong> for planting dates.</li><li>Add borders around the table so it prints clearly.</li></ul><h4>Sorting and filtering</h4><p>Select your table and use <strong>Sort</strong> to put rows in order, for example highest germination first. Use <strong>Filter</strong> to show only some rows, for example only one cultivar. Always select the whole table before sorting, or the rows can get mixed up and results end up next to the wrong plot.</p><h4>Making a simple chart</h4><ol><li>Select the headings and numbers you want to show.</li><li>Click <strong>Insert &gt; Chart</strong>.</li><li>Choose a column chart to compare cultivars, or a line chart to show change over time, such as weekly rainfall.</li><li>Give the chart a title and label the axes.</li></ol><h4>Printing</h4><ol><li>Click <strong>File &gt; Print</strong> and look at the preview.</li><li>Use Landscape for wide tables.</li><li>Choose <strong>Fit all columns on one page</strong> if the table is cut off.</li><li>Add a header or footer with the farm name, date and page number.</li></ol><h4>Good habits</h4><ul><li>Keep the original field data on its own worksheet and do calculations on another.</li><li>Save a new version before big changes.</li><li>Do not share your password, and do not open files from unknown sources.</li><li>Take breaks to rest your eyes and sit up straight.</li></ul><h4>Key points</h4><ul><li>Each cell has an address, such as B3.</li><li>Every formula starts with =.</li><li>Use SUM and AVERAGE for totals and averages.</li><li>Select the whole table before sorting.</li><li>Check print preview and save often.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is cell B3?",
+   "options": [
+    {
+     "text": "Row B, column 3",
+     "correct": false
+    },
+    {
+     "text": "Column B, row 3",
+     "correct": true
+    },
+    {
+     "text": "Worksheet B, page 3",
+     "correct": false
+    },
+    {
+     "text": "The third workbook",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign must every formula start with?",
+   "options": [
+    {
+     "text": "+",
+     "correct": false
+    },
+    {
+     "text": "#",
+     "correct": false
+    },
+    {
+     "text": "*",
+     "correct": false
+    },
+    {
+     "text": "=",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Seeds planted are in C2 and seeds germinated in D2. Which formula gives the germination percentage?",
+   "options": [
+    {
+     "text": "=D2/C2*100",
+     "correct": true
+    },
+    {
+     "text": "=C2/D2*100",
+     "correct": false
+    },
+    {
+     "text": "=D2+C2",
+     "correct": false
+    },
+    {
+     "text": "=SUM(C2)",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does =SUM(B2:B20) do?",
+   "options": [
+    {
+     "text": "Finds the average of B2 and B20",
+     "correct": false
+    },
+    {
+     "text": "Counts empty cells",
+     "correct": false
+    },
+    {
+     "text": "Adds all the numbers from B2 to B20",
+     "correct": true
+    },
+    {
+     "text": "Divides B2 by B20",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does #### in a cell usually mean?",
+   "options": [
+    {
+     "text": "The formula is wrong",
+     "correct": false
+    },
+    {
+     "text": "The column is too narrow",
+     "correct": true
+    },
+    {
+     "text": "The file is not saved",
+     "correct": false
+    },
+    {
+     "text": "There is a virus",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should put the unit (kg) in the column heading instead of typing it next to each number.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When sorting, it is safe to select only one column of a table.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which chart choices are sensible? (select all that apply)",
+   "options": [
+    {
+     "text": "A column chart to compare cultivars",
+     "correct": true
+    },
+    {
+     "text": "A chart with no title or labels",
+     "correct": false
+    },
+    {
+     "text": "A line chart to show weekly rainfall over time",
+     "correct": true
+    },
+    {
+     "text": "A chart made from the wrong rows",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

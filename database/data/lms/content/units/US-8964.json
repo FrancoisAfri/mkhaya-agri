@@ -1,0 +1,183 @@
+{
+  "unit_key": "US-8964",
+  "title": "Write for a defined context",
+  "lessons": [
+    {
+      "title": "Planning what you write",
+      "minutes": 15,
+      "html": "<h3>Writing at work</h3><p>Even if your job is mostly hands-on, you will need to write at work. You may fill in a cleaning checklist, write a note for the next shift, report an accident, or complete a leave form. Good writing means other people can understand you without asking.</p><h4>Ask three questions before you write</h4><ol><li><strong>Who</strong> will read it? The supervisor, the next shift, the HR office?</li><li><strong>Why</strong> am I writing? To report, to ask, to remind, to record?</li><li><strong>What</strong> must they know? Write down the main facts first.</li></ol><h4>Choose the right type of writing</h4><table><tr><th>Need</th><th>Type of text</th></tr><tr><td>Tell the next shift the chiller door is sticking</td><td>Short note or logbook entry</td></tr><tr><td>Ask for two days of leave</td><td>Leave form</td></tr><tr><td>Report a co-worker's cut hand</td><td>Incident report form</td></tr><tr><td>Record that you cleaned the bins</td><td>Checklist with tick, date and signature</td></tr></table><h4>Collect the facts</h4><p>Good work writing gives facts: what happened, where, when, who was involved and what was done. For example: 'Tuesday 14:30, weighbridge 1, the printer jammed. I switched it off and told the foreman.' Do not write guesses or gossip.</p><h4>Writing in your own language</h4><p>Many forms at the abattoir or silo are in English. If English is not your first language, think about what you want to say in your home language first, then write it in simple English. Ask a co-worker or your supervisor to help with words you do not know. It is better to write a short, correct message than a long one that nobody understands.</p><p>Make a quick plan on scrap paper if the writing is long. Write key words in the order you will use them. Then you are ready to write.</p>"
+    },
+    {
+      "title": "Writing clearly and correctly",
+      "minutes": 15,
+      "html": "<h3>Making your writing easy to read</h3><p>Your reader is busy. Help them by writing short, clear sentences.</p><h4>Tips for clear writing</h4><ul><li>Use short sentences. One idea per sentence.</li><li>Use everyday words. Write 'the pump is leaking' and not 'there is a malfunction'.</li><li>Put the most important point first.</li><li>Write numbers clearly, with units: 25 kg, 4 hours, R150.</li><li>Write dates in full: 3 March 2026.</li><li>Write neatly. If the form says BLOCK LETTERS, use capital letters.</li></ul><h4>Example: a shift note</h4><p><em>Weak:</em> 'Machine thing was funny again, sorted it maybe.'</p><p><em>Better:</em> 'Night shift, 2 May. Plucker 2 stopped twice at 02:00. Belt was loose. Maintenance tightened it at 03:15. Please watch it. Thabo.'</p><p>The better note says what, where, when, what was done, and who wrote it.</p><h4>Spelling and punctuation</h4><ul><li>Start sentences with a capital letter and end with a full stop.</li><li>Use capital letters for names of people and places.</li><li>If you are not sure how to spell a word, ask someone or use a dictionary.</li></ul><h4>Using the right words for the job</h4><p>Every workplace has its own words. In a poultry plant you may write 'shackle line', 'chiller' or 'condemned birds'. At a grain silo you may write 'moisture', 'intake' or 'grade'. Use these correct work words so that everyone knows exactly what you mean.</p><h4>Being polite</h4><p>When you write to a supervisor or the office, start with a greeting such as 'Dear Mr Nkosi' or 'Good morning', and end with 'Thank you' and your name. Polite writing gets better results.</p>"
+    },
+    {
+      "title": "Checking and improving your writing",
+      "minutes": 15,
+      "html": "<h3>Read it again before you hand it in</h3><p>Good writers always check their work. A mistake on a form can cause big problems. If you write the wrong date on an incident report, or the wrong weight on a delivery slip, the records will be wrong.</p><h4>A simple checklist</h4><ol><li>Did I answer what the reader needs to know?</li><li>Are the facts right: dates, times, numbers, names?</li><li>Is it in the right order?</li><li>Can someone else read my handwriting?</li><li>Did I sign and date it where needed?</li></ol><h4>Ask someone to read it</h4><p>For important writing, like a complaint or a long report, ask a trusted co-worker or your supervisor to read it. Ask them: 'Do you understand what I mean?' If they are confused, change it.</p><h4>Fixing mistakes on forms</h4><p>On official forms and records, do not use correction fluid. Draw one neat line through the mistake, write the correct information next to it and put your initials. This shows the record was corrected honestly.</p><h4>Writing records honestly</h4><p>Food safety and safety records must always be true. Never tick a box saying you cleaned something if you did not. Never fill in a temperature you did not read. Falsifying records can put people's health in danger and can lead to discipline.</p><h4>Key points</h4><ul><li>Know who you are writing for and why.</li><li>Give the facts: what, where, when, who and what was done.</li><li>Use short sentences, simple words and clear numbers with units.</li><li>Check your writing before handing it in.</li><li>Correct mistakes on records with one line and your initials, never correction fluid.</li><li>Always write records honestly.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which question should you ask before you start writing?",
+      "options": [
+        {
+          "text": "Who will read it?",
+          "correct": true
+        },
+        {
+          "text": "How long can I make it?",
+          "correct": false
+        },
+        {
+          "text": "Which pen is the nicest?",
+          "correct": false
+        },
+        {
+          "text": "Can I use difficult words?",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which shift note is the best?",
+      "options": [
+        {
+          "text": "Machine was funny again",
+          "correct": false
+        },
+        {
+          "text": "Something broke, sorry",
+          "correct": false
+        },
+        {
+          "text": "Plucker 2 stopped at 02:00, belt loose, maintenance fixed it at 03:15. Thabo",
+          "correct": true
+        },
+        {
+          "text": "Ask me tomorrow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should you correct a mistake on an official record?",
+      "options": [
+        {
+          "text": "Use correction fluid",
+          "correct": false
+        },
+        {
+          "text": "Tear out the page",
+          "correct": false
+        },
+        {
+          "text": "Scribble over it until you cannot read it",
+          "correct": false
+        },
+        {
+          "text": "Draw one line through it, write the correct information and initial it",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you write to report a co-worker's cut hand?",
+      "options": [
+        {
+          "text": "A leave form",
+          "correct": false
+        },
+        {
+          "text": "An incident report",
+          "correct": true
+        },
+        {
+          "text": "A shopping list",
+          "correct": false
+        },
+        {
+          "text": "Nothing at all",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the clearest way to write a weight?",
+      "options": [
+        {
+          "text": "about some kilos",
+          "correct": false
+        },
+        {
+          "text": "25",
+          "correct": false
+        },
+        {
+          "text": "heavy",
+          "correct": false
+        },
+        {
+          "text": "25 kg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to tick a cleaning checklist before you have done the cleaning.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Short sentences with one idea each make writing easier to read.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which facts should a good incident note include? (select all that apply)",
+      "options": [
+        {
+          "text": "What happened",
+          "correct": true
+        },
+        {
+          "text": "When and where it happened",
+          "correct": true
+        },
+        {
+          "text": "Gossip about the people involved",
+          "correct": false
+        },
+        {
+          "text": "What was done about it",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

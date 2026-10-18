@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335934",
+ "title": "Install and maintain fertigation systems",
+ "lessons": [
+  {
+   "title": "Fertigation hazards and backflow prevention",
+   "minutes": 20,
+   "html": "<h3>What fertigation is</h3><p>Fertigation is the injection of dissolved fertiliser (and sometimes other approved products) into irrigation water so nutrients are delivered to the roots with the water. It allows small, frequent feeding, saves labour and is widely used on drip and micro-irrigated orchards, vineyards, tunnels and landscapes.</p><h4>Hazards</h4><ul><li><strong>Contamination of drinking water:</strong> if pressure in the supply drops, fertiliser solution can be siphoned back into a municipal line, borehole or house supply. This is the most serious public health risk.</li><li><strong>Chemical exposure:</strong> concentrated fertilisers and acids used for cleaning can burn skin and eyes and release fumes.</li><li><strong>Incompatible mixes:</strong> some fertilisers react when mixed (for example calcium products with sulphates or phosphates), forming precipitates that block drippers.</li><li><strong>Over-application:</strong> wrong injection rate burns plants and pollutes groundwater.</li><li><strong>Electrical and pressure hazards</strong> at pumps and injectors.</li></ul><h4>Precautions</h4><ul><li>Read the safety data sheet and wear PPE: chemical gloves, goggles or face shield, apron, boots.</li><li>Always add acid to water, never water to acid.</li><li>Store fertilisers and acids separately, in a bunded, ventilated, locked store.</li><li>Fit check valves, vacuum breakers and interlocks so injection stops when irrigation stops.</li><li>Keep a water supply for washing eyes and skin near the fertigation point.</li></ul><h4>Installing a dual-acting backflow preventer</h4><p>Where the irrigation system is connected to a potable (drinking water) pipeline, a backflow prevention device must be installed between the potable supply and any point where fertiliser is injected. Municipal by-laws and the relevant SANS standards set which device type is required for the hazard level; fertigation is regarded as a high hazard.</p><ol><li>Install the device immediately downstream of the meter or point of supply, before any branch to the irrigation system.</li><li>Fit isolating valves on both sides so it can be tested and serviced.</li><li>Install it horizontally (or as the manufacturer requires), with arrows in the direction of flow, above ground and accessible, protected from frost and damage.</li><li>Flush the line before fitting so debris does not foul the check valves.</li><li>Test operation after installation and record the serial number and date.</li></ol>"
+  },
+  {
+   "title": "Installing venturi injectors, fertigators and dosing pumps",
+   "minutes": 20,
+   "html": "<h3>Venturi injector</h3><p>A venturi is a tapered tube. Water speeding up through the narrow throat creates suction, drawing fertiliser solution from a tank through a suction tube. It has no moving parts but needs a pressure difference across it, so it causes some pressure loss.</p><ol><li>Install the venturi on a bypass around a valve or pressure-reducing device in the mainline, so part of the flow passes through it.</li><li>Fit isolating valves on the bypass and a regulating valve on the mainline to create the required pressure difference (from the manufacturer's chart).</li><li>Fit a check valve on the suction line and a strainer on the suction intake.</li><li>Install a filter downstream of the injection point.</li></ol><h4>Fertigator (pressure tank)</h4><p>A fertigator is a pressure-rated tank connected across a pressure-difference point in the mainline. Water enters, dissolves the fertiliser and carries it out. The concentration starts high and drops over time, so it is less precise.</p><ul><li>Mount on a firm level base, connect inlet and outlet with valves across a regulating valve.</li><li>Check tank pressure rating against system pressure.</li><li>Depressurise before opening the lid to refill.</li></ul><h4>Hydraulic dosing pump</h4><p>A water-powered proportional dosing pump is driven by the water flow and injects a set percentage of concentrate in proportion to flow, giving a constant dose.</p><ul><li>Install inline or on a bypass, with isolating valves, a filter upstream to protect the pump, and a check valve.</li><li>Set the dosing ratio as the agronomist's programme requires.</li><li>Check flow range on the model suits the mainline flow.</li></ul><h4>Metering pump in a pump station</h4><p>Electric diaphragm or piston metering pumps inject accurately against high pressure and can be controlled by the irrigation controller or EC/pH sensors.</p><ul><li>Mount on a bracket or base above the fertiliser tank level or as specified, with a foot valve and strainer in the tank.</li><li>Inject downstream of the main pump and upstream of the main filter.</li><li>Fit an injection valve with a non-return function at the injection point.</li><li>The electrician must interlock the metering pump with the main pump so it cannot run when irrigation is off.</li></ul>"
+  },
+  {
+   "title": "Servicing and maintaining fertigation systems",
+   "minutes": 15,
+   "html": "<h3>Routine checks</h3><table><tr><th>Component</th><th>Check</th></tr><tr><td>Backflow preventer</td><td>Test as required by the municipality or manufacturer (often annually) by a qualified tester; check for leaks and relief valve discharge</td></tr><tr><td>Venturi</td><td>Suction rate (timed with a measuring container); clean blocked throat and suction strainer</td></tr><tr><td>Fertigator</td><td>Lid seal, pressure gauge, valves; flush residues</td></tr><tr><td>Dosing pump</td><td>Dosing ratio check, seals, piston and check valves; replace seal kits as scheduled</td></tr><tr><td>Metering pump</td><td>Calibration with a calibration cylinder, diaphragm condition, foot valve, interlock function</td></tr><tr><td>Tanks and lines</td><td>Leaks, cracks, sediment, labelling</td></tr><tr><td>Drippers and filters downstream</td><td>Blockage from precipitates, algae or bacterial slime</td></tr></table><h4>Calibration</h4><p>Measure the actual injection rate by timing how long it takes to draw a known volume from a calibration cylinder or graduated container. Compare with the programme. Also measure the EC (and pH) of water at a dripper before and during fertigation to confirm nutrients are reaching the plants at the intended concentration.</p><h4>Flushing</h4><ul><li>Run clean water for long enough after each fertigation cycle to flush fertiliser out of the lines, so it does not crystallise and feed algae.</li><li>Flush lateral ends periodically.</li><li>Where scale or precipitate builds up, acid or chlorine treatment may be prescribed. Use only as instructed by the supervisor and product label, never mix acid and chlorine (toxic gas), and wear full PPE.</li></ul><h4>End-of-season</h4><p>Rinse tanks and injectors with clean water, drain units exposed to frost, and store dosing pumps as the manufacturer recommends.</p><h4>Records</h4><p>Keep a log of installation details, calibration results, products and quantities injected, service work, backflow tests and faults. Fertiliser records also support food safety audits on export farms.</p><h4>Key points</h4><ul><li>Always protect potable supplies with the correct backflow prevention device.</li><li>Venturis need a pressure difference; dosing pumps give proportional, constant doses.</li><li>Interlock injection with irrigation so it stops when water stops.</li><li>Calibrate injection rates and check EC at the dripper.</li><li>Flush lines after fertigation and never mix acid with chlorine.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the most serious public health risk of fertigation?",
+   "options": [
+    {
+     "text": "Dripper blockage",
+     "correct": false
+    },
+    {
+     "text": "High electricity cost",
+     "correct": false
+    },
+    {
+     "text": "Fertiliser siphoning back into a drinking water supply",
+     "correct": true
+    },
+    {
+     "text": "Weeds in the rows",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How does a venturi injector draw in fertiliser?",
+   "options": [
+    {
+     "text": "Water speeding through a narrow throat creates suction",
+     "correct": true
+    },
+    {
+     "text": "An electric motor drives a piston",
+     "correct": false
+    },
+    {
+     "text": "Gravity alone",
+     "correct": false
+    },
+    {
+     "text": "A diaphragm pump",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must a metering pump be interlocked with the main pump?",
+   "options": [
+    {
+     "text": "To increase pressure",
+     "correct": false
+    },
+    {
+     "text": "To save fertiliser cost",
+     "correct": false
+    },
+    {
+     "text": "So it runs at night",
+     "correct": false
+    },
+    {
+     "text": "So it cannot inject when irrigation is off",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a drawback of a fertigator (pressure tank)?",
+   "options": [
+    {
+     "text": "It needs electricity",
+     "correct": false
+    },
+    {
+     "text": "The concentration starts high and drops over time",
+     "correct": true
+    },
+    {
+     "text": "It cannot be refilled",
+     "correct": false
+    },
+    {
+     "text": "It has no pressure rating",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you dilute acid?",
+   "options": [
+    {
+     "text": "Add water to acid",
+     "correct": false
+    },
+    {
+     "text": "Mix acid with chlorine",
+     "correct": false
+    },
+    {
+     "text": "Add acid to water",
+     "correct": true
+    },
+    {
+     "text": "Heat the acid first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Running clean water after fertigation helps prevent fertiliser crystallising in the lines.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Acid and chlorine may be mixed together to clean drippers faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks are part of servicing fertigation equipment? (select all that apply)",
+   "options": [
+    {
+     "text": "Calibrating the injection rate",
+     "correct": true
+    },
+    {
+     "text": "Testing the backflow preventer",
+     "correct": true
+    },
+    {
+     "text": "Painting the pump house",
+     "correct": false
+    },
+    {
+     "text": "Checking EC at a dripper",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

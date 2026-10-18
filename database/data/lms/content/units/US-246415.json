@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246415",
+ "title": "Plan a dangerous game hunt",
+ "lessons": [
+  {
+   "title": "Requirements and preparation for dangerous game",
+   "minutes": 18,
+   "html": "<h3>What is dangerous game?</h3>\n<p>Dangerous game are animals that can and do kill hunters: buffalo, elephant, lion, leopard, hippo, rhino and crocodile. Hunting them demands higher standards of planning, skill, equipment and legal compliance than plains game. Only professional hunters licensed for dangerous game may guide such hunts, as set by provincial authorities.</p>\n<h4>Legal planning</h4>\n<ul><li>Confirm the species is on the property's quota and that hunting permits are issued for the client before the hunt.</li>\n<li>For TOPS-listed species, obtain the TOPS permit under the Biodiversity Act 10 of 2004; for CITES-listed species (such as leopard and elephant), arrange CITES export permits, and check the client's home country import rules.</li>\n<li>Check disease control rules: buffalo trophies and meat may be subject to veterinary restrictions under the Animal Diseases Act 35 of 1984.</li>\n<li>Check provincial rules on minimum calibres for dangerous game; the .375 H&amp;H Magnum is widely accepted as the minimum for most dangerous game.</li></ul>\n<h4>Equipment</h4>\n<ul><li>Client rifle and bullets: premium solid or controlled-expansion bullets that penetrate deep.</li>\n<li>PH backup rifle, usually a large-calibre double rifle or bolt action, with solids.</li>\n<li>Binoculars, shooting sticks, ammunition belt, knife, GPS, radios with spare batteries.</li>\n<li>A full trauma first aid kit and a medical evacuation plan: nearest hospital, helicopter service, emergency numbers.</li></ul>\n<h4>Team and client preparation</h4>\n<ul><li>Assess the client's experience with large calibres. Recoil causes flinching; practise extensively at the range, including quick follow-up shots.</li>\n<li>Practise at realistic dangerous game distances, which are often short.</li>\n<li>Select experienced trackers familiar with the species and terrain.</li>\n<li>Agree roles: who shoots first, when the PH backs up, and what happens in a charge.</li></ul>"
+  },
+  {
+   "title": "Planning the hunt itself",
+   "minutes": 16,
+   "html": "<h3>Writing the hunt plan</h3>\n<p>A written plan focuses everyone's attention and is important evidence that the hunt was conducted responsibly.</p>\n<table><tr><th>Element</th><th>Content</th></tr>\n<tr><td>Client details</td><td>Name, experience, medical conditions, rifle and ammunition</td></tr>\n<tr><td>Species and permits</td><td>Species, number, permit numbers, trophy standards sought</td></tr>\n<tr><td>Area</td><td>Map of hunting blocks, water, roads, boundaries, no-hunting zones</td></tr>\n<tr><td>Method</td><td>Tracking from water, glassing from hills, baiting (for leopard, where legal), calling</td></tr>\n<tr><td>Team</td><td>PH, second PH or backup, trackers, driver, roles</td></tr>\n<tr><td>Safety</td><td>Charge procedures, communication, first aid, evacuation</td></tr>\n<tr><td>Follow-up procedures</td><td>Who follows up a wounded animal, how, and who stays back</td></tr>\n<tr><td>Trophy and meat handling</td><td>Skinning, salting, veterinary requirements, labelling</td></tr></table>\n<h4>Species knowledge in planning</h4>\n<ul><li><strong>Buffalo</strong>: herd or old \"dagga boy\" bulls; wounded buffalo may circle back and ambush.</li>\n<li><strong>Elephant</strong>: requires precise brain or heart shots and knowledge of herd behaviour; matriarchs protect calves.</li>\n<li><strong>Lion</strong>: charges low and fast from short range; check for mature males to protect pride structure.</li>\n<li><strong>Leopard</strong>: often hunted over bait from a blind at dusk; follow-up of a wounded leopard in thick cover is extremely dangerous.</li>\n<li><strong>Hippo and crocodile</strong>: shot placement must ensure the animal does not escape into water.</li></ul>\n<h4>Risk assessment</h4>\n<p>Identify risks (charge, wounded animal in thick bush, heat, dehydration, rifle malfunction, vehicle breakdown), rate them and plan controls. Under the OHS Act 85 of 1993 the employer must protect staff, including trackers who face the greatest danger.</p>\n<h4>Key points</h4>\n<ul><li>Dangerous game includes buffalo, elephant, lion, leopard, hippo, rhino and crocodile.</li>\n<li>Arrange provincial, TOPS and CITES permits and veterinary requirements before the hunt.</li>\n<li>Use adequate calibres and premium bullets; the PH carries a backup rifle.</li>\n<li>Prepare the client with range practice and agree roles for a charge.</li>\n<li>Write a hunt plan covering area, method, team, safety, follow-up and trophy handling.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which calibre is widely accepted as the minimum for most dangerous game?",
+   "options": [
+    {
+     "text": ".243 Win",
+     "correct": false
+    },
+    {
+     "text": ".22 LR",
+     "correct": false
+    },
+    {
+     "text": ".375 H&H Magnum",
+     "correct": true
+    },
+    {
+     "text": ".308 Win",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which permit is needed to export a leopard trophy?",
+   "options": [
+    {
+     "text": "CITES export permit",
+     "correct": true
+    },
+    {
+     "text": "Liquor licence",
+     "correct": false
+    },
+    {
+     "text": "Stock removal document",
+     "correct": false
+    },
+    {
+     "text": "Fishing licence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should a client practise extensively with a large-calibre rifle?",
+   "options": [
+    {
+     "text": "It is required for plains game",
+     "correct": false
+    },
+    {
+     "text": "Recoil causes flinching",
+     "correct": true
+    },
+    {
+     "text": "To show off",
+     "correct": false
+    },
+    {
+     "text": "To use up the ammunition budget",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which wounded dangerous game animal is known to circle back and ambush?",
+   "options": [
+    {
+     "text": "Buffalo",
+     "correct": true
+    },
+    {
+     "text": "Hippo in water",
+     "correct": false
+    },
+    {
+     "text": "Impala",
+     "correct": false
+    },
+    {
+     "text": "Crocodile",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is leopard often hunted where legal?",
+   "options": [
+    {
+     "text": "With dogs in town",
+     "correct": false
+    },
+    {
+     "text": "From a vehicle at midday",
+     "correct": false
+    },
+    {
+     "text": "In a small enclosure",
+     "correct": false
+    },
+    {
+     "text": "Over bait from a blind at dusk",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A written hunt plan can serve as evidence that the hunt was conducted responsibly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Trackers face little danger on dangerous game hunts, so they need no safety planning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which elements should a dangerous game hunt plan include? (select all that apply)",
+   "options": [
+    {
+     "text": "Follow-up procedures for a wounded animal",
+     "correct": true
+    },
+    {
+     "text": "The client's favourite colour",
+     "correct": false
+    },
+    {
+     "text": "Charge procedures and evacuation plan",
+     "correct": true
+    },
+    {
+     "text": "Permit numbers and species",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

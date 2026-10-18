@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244038",
+ "title": "Fit basic horse racing tack",
+ "lessons": [
+  {
+   "title": "Know your racing tack",
+   "minutes": 15,
+   "html": "<h3>What is racing tack?</h3> <p>Tack is the equipment a horse wears. Racing tack is light and simple so the horse can run fast and the jockey can ride safely. Every piece must fit well. Badly fitted tack can rub, hurt the horse, or break in a race and cause a fall.</p> <h4>The main pieces</h4> <table><tr><th>Item</th><th>What it does</th></tr> <tr><td>Race bridle</td><td>Holds the bit in the mouth; has reins for steering and stopping</td></tr> <tr><td>Bit</td><td>Metal piece in the mouth; most racehorses use a simple snaffle</td></tr> <tr><td>Racing saddle or exercise saddle</td><td>A small light saddle for the jockey</td></tr> <tr><td>Saddle cloth and pad</td><td>Protect the back; the race number goes on the cloth</td></tr> <tr><td>Girth and surcingle</td><td>Hold the saddle in place; the surcingle goes over the saddle as extra safety</td></tr> <tr><td>Breastplate</td><td>Stops the saddle sliding back</td></tr> <tr><td>Blinkers or visor</td><td>Limit what the horse sees, only if the trainer orders</td></tr> <tr><td>Tongue tie</td><td>Keeps the tongue in place, only if the trainer orders</td></tr></table> <h4>Parts of the bridle</h4> <ul> <li>Headpiece - goes over the head behind the ears</li> <li>Browband - across the forehead in front of the ears</li> <li>Cheekpieces - down the sides of the face, holding the bit</li> <li>Throat lash - under the throat, stops the bridle coming off</li> <li>Noseband - around the nose</li> <li>Reins - from the bit to the jockey's hands</li> </ul> <h4>Check before fitting</h4> <p>Before you put tack on, check it:</p> <ul> <li>Is the leather clean and soft, not cracked?</li> <li>Is all stitching strong?</li> <li>Do the buckles work? Are any holes torn?</li> <li>Is the elastic on the girth stretchy, not worn out?</li> </ul> <p>If anything is damaged, do not use it. Give it to the head groom or trainer. A broken rein or girth in a race can kill a jockey.</p> <p>Each horse has its own tack. Check the name tag or the trainer's list so you use the right items.</p>"
+  },
+  {
+   "title": "Fitting the bridle, saddle and girth",
+   "minutes": 15,
+   "html": "<h3>Before you start</h3> <p>Tie the horse up with a quick-release knot, or have a helper hold it. Brush the back and girth area so there is no dirt or sand under the tack. Stand on the left (near) side.</p> <h4>Fitting the bridle</h4> <ol> <li>Put the reins over the horse's head onto the neck.</li> <li>Remove the headcollar, or slip it around the neck so you still have control.</li> <li>Hold the top of the bridle with your right hand in front of the horse's face. Hold the bit on your flat left hand.</li> <li>Gently put the bit to the lips. If the horse does not open, press your thumb in the gap at the corner of the mouth where there are no teeth.</li> <li>Lift the headpiece over the ears, one ear at a time.</li> <li>Pull the forelock over the browband.</li> <li>Do up the throat lash: you should fit a hand's width between it and the cheek.</li> <li>Do up the noseband: you should fit two fingers under it.</li> </ol> <p>Check the bit: it should just make one or two small wrinkles at the corners of the mouth. Too low and it bangs on the teeth; too high and it pulls the lips.</p> <h4>Fitting the saddle</h4> <ol> <li>Put the pad and saddle cloth on, a little forward on the withers.</li> <li>Place the saddle on top and slide everything back together into the right place, behind the shoulder blade, so the hair lies flat.</li> <li>Lift the pad into the arch (gullet) of the saddle so it does not press on the spine.</li> </ol> <h4>Fitting the girth and surcingle</h4> <ol> <li>Go to the right side and let the girth down gently. Check the cloth is flat.</li> <li>Back on the left, reach under for the girth and do it up loosely.</li> <li>Tighten slowly in stages. Many horses blow out their belly at first.</li> <li>Check you can just slide your flat fingers under the girth.</li> <li>Pull each front leg forward gently to smooth the skin under the girth.</li> <li>Fit the surcingle over the saddle and girth, as tight as the girth.</li> </ol> <h4>Final check</h4> <p>Walk around the horse. Is everything straight, done up and in its keepers? Check the girth again just before the jockey mounts.</p> <h4>Key points</h4> <ul> <li>Check tack for cracks, weak stitching and broken buckles; never use damaged tack.</li> <li>Brush the horse before fitting so nothing rubs.</li> <li>Throat lash: a hand's width; noseband: two fingers.</li> <li>The saddle sits behind the shoulder with the pad lifted off the spine.</li> <li>Tighten the girth slowly and check it again before the jockey mounts.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a breastplate do?",
+   "options": [
+    {
+     "text": "Holds the bit",
+     "correct": false
+    },
+    {
+     "text": "Stops the saddle sliding back",
+     "correct": true
+    },
+    {
+     "text": "Covers the eyes",
+     "correct": false
+    },
+    {
+     "text": "Holds the race number",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How much space should there be under the throat lash?",
+   "options": [
+    {
+     "text": "None",
+     "correct": false
+    },
+    {
+     "text": "A hand's width",
+     "correct": true
+    },
+    {
+     "text": "Two hands",
+     "correct": false
+    },
+    {
+     "text": "One finger",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many fingers should fit under the noseband?",
+   "options": [
+    {
+     "text": "None",
+     "correct": false
+    },
+    {
+     "text": "Two",
+     "correct": true
+    },
+    {
+     "text": "Five",
+     "correct": false
+    },
+    {
+     "text": "A fist",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why tighten the girth slowly in stages?",
+   "options": [
+    {
+     "text": "Many horses blow out their belly at first",
+     "correct": true
+    },
+    {
+     "text": "To save time",
+     "correct": false
+    },
+    {
+     "text": "The girth will break",
+     "correct": false
+    },
+    {
+     "text": "The jockey likes it loose",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You find cracked leather on a rein. What should you do?",
+   "options": [
+    {
+     "text": "Use it anyway",
+     "correct": false
+    },
+    {
+     "text": "Give it to the head groom or trainer and do not use it",
+     "correct": true
+    },
+    {
+     "text": "Hide it",
+     "correct": false
+    },
+    {
+     "text": "Tie a knot in it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Blinkers should only be fitted if the trainer orders them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You can leave sand on the horse's back under the saddle.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are parts of a bridle? (select all that apply)",
+   "options": [
+    {
+     "text": "Headpiece",
+     "correct": true
+    },
+    {
+     "text": "Browband",
+     "correct": true
+    },
+    {
+     "text": "Throat lash",
+     "correct": true
+    },
+    {
+     "text": "Stirrup iron",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

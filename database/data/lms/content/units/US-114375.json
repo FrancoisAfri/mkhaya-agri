@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114375",
+ "title": "Slaughter and dress horse and donkey",
+ "lessons": [
+  {
+   "title": "Receiving and stunning horses and donkeys",
+   "minutes": 15,
+   "html": "<h3>Slaughtering equines</h3><p>Horses and donkeys are called <strong>equines</strong>. In South Africa only a few abattoirs are registered to slaughter them. Equine meat is mostly for export or other approved uses. The work must follow the Meat Safety Act 40 of 2000 and the Animals Protection Act 71 of 1962, and the abattoir's registration conditions.</p><h4>Identification and paperwork</h4><ul><li>Every animal must arrive with the documents the abattoir and the veterinary services require.</li><li>Animals that were treated with some medicines may not be slaughtered for food. The abattoir checks the records.</li><li>Equine meat must be kept separate from other meat and marked clearly. It must never be mixed with or sold as beef or other meat.</li></ul><h4>In the lairage</h4><ul><li>Give water and rest. Keep strange horses apart; they can kick and bite.</li><li>Horses are easily frightened. Move them quietly, one at a time if needed. Do not shout or hit.</li><li>Never stand directly behind a horse or donkey. Stay at the shoulder.</li><li>The meat inspector checks every animal before slaughter.</li></ul><h4>Stunning</h4><ul><li>Equines are usually stunned with a <strong>captive bolt gun</strong> or another approved method. Only trained, authorised workers may stun.</li><li>The animal must stand in a stunning box so its head can be reached safely.</li><li>Place the gun at the correct spot on the forehead, as you were trained.</li><li>Check the stun: the animal falls at once, no regular breathing, no blinking. If not, stun again immediately.</li><li>Bleed the animal as quickly as possible after the stun.</li></ul><p>A stunned horse falls heavily. Stay clear of the legs; they may kick even when the animal is unconscious.</p>"
+  },
+  {
+   "title": "Bleeding and skinning",
+   "minutes": 15,
+   "html": "<h3>Bleeding</h3><ul><li>Hoist the animal, or bleed it as your procedure says.</li><li>Use a clean, sharp, sterilised knife to cut the large blood vessels in the chest or neck.</li><li>Collect blood in the blood trough.</li><li>Sterilise the knife after each animal.</li></ul><h3>Skinning</h3><p>Equines are large animals with a thick hide. Skinning is like skinning cattle.</p><ol><li>Remove the head and feet at the right joints. Keep the head numbered with the carcass.</li><li>Open the hide on the legs and the belly with the knife edge pointing outwards.</li><li>Skin the legs, chest and flanks carefully by hand.</li><li>Use the hide puller if your abattoir has one. Stand clear of the chain and hide while it pulls.</li><li>Do not let the outside of the hide touch the meat.</li></ol><h4>Hygiene</h4><ul><li>Wash hands and sterilise knives after touching the outside of the hide.</li><li>Use two knives: one in use, one in the sterilizer.</li><li>Do not cut deep into the meat.</li><li>Put hides in the hide chute. They must be kept for the time the abattoir requires.</li></ul><h4>Safety</h4><ul><li>Carcasses are very heavy. Keep clear of moving carcasses on the rail.</li><li>Wear your cut-resistant glove and protective clothing.</li><li>Work from a platform when the carcass is high. Use the rails on the platform.</li></ul><p>Ask your supervisor if you are not sure how to skin a part. Take your time. Clean, careful work is better than fast, dirty work.</p><p>Clean work protects the meat.</p>"
+  },
+  {
+   "title": "Evisceration, inspection and handling the carcass",
+   "minutes": 15,
+   "html": "<h3>Removing the organs</h3><ol><li>Tie or seal the oesophagus and the rectum.</li><li>Open the chest and belly carefully. Horses have a very large gut. Do not cut it.</li><li>Let the stomach and intestines fall into the offal tray or chute.</li><li>Remove the heart, lungs, liver and kidneys. Keep them with the carcass for inspection.</li><li>If the gut bursts, stop and tell your supervisor. Contaminated meat must be trimmed.</li></ol><h3>Splitting</h3><ul><li>Split the carcass along the middle of the backbone with the saw.</li><li>Sterilise the saw between carcasses.</li><li>Keep both hands on the saw handles.</li></ul><h3>Inspection and marking</h3><p>The meat inspector checks the head, carcass and organs. Only the inspector decides what is fit to eat. Condemned parts go into the condemned bin.</p><p>Equine carcasses must be marked as the law and the abattoir's registration require so that everyone knows the species. Keep them separate in the chiller and during despatch.</p><h3>Final trim and wash</h3><ul><li>Trim bruises, hair and dirt first.</li><li>Then wash the carcass.</li><li>Check the whole carcass before it goes to the chiller.</li></ul><p>Report anything unusual.</p><p>Ask your supervisor to check the carcass before it goes to the chiller.</p><h4>Key points</h4><ul><li>Only registered abattoirs may slaughter horses and donkeys.</li><li>Equine meat must be kept separate, marked clearly and never sold as other meat.</li><li>Never stand behind a horse; stay clear of the legs after stunning.</li><li>The outside of the hide must not touch the meat.</li><li>Seal the gut ends, do not cut the gut, and trim before washing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should you stand when working next to a horse?",
+   "options": [
+    {
+     "text": "Directly behind it",
+     "correct": false
+    },
+    {
+     "text": "At the shoulder",
+     "correct": true
+    },
+    {
+     "text": "Under its belly",
+     "correct": false
+    },
+    {
+     "text": "In front of its back legs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What rule applies to equine meat?",
+   "options": [
+    {
+     "text": "It may be mixed with beef",
+     "correct": false
+    },
+    {
+     "text": "It must be kept separate, marked clearly and never sold as other meat",
+     "correct": true
+    },
+    {
+     "text": "It does not need inspection",
+     "correct": false
+    },
+    {
+     "text": "It may be sold without marks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a horse is not properly stunned?",
+   "options": [
+    {
+     "text": "Wait for it to calm down",
+     "correct": false
+    },
+    {
+     "text": "Stun it again immediately",
+     "correct": true
+    },
+    {
+     "text": "Start skinning",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the box",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you stay clear of the legs after stunning?",
+   "options": [
+    {
+     "text": "The legs may kick even when the animal is unconscious",
+     "correct": true
+    },
+    {
+     "text": "The legs are very dirty",
+     "correct": false
+    },
+    {
+     "text": "It is bad luck",
+     "correct": false
+    },
+    {
+     "text": "The inspector needs space",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the gut bursts during evisceration?",
+   "options": [
+    {
+     "text": "Wash the meat and continue",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell your supervisor; contaminated meat must be trimmed",
+     "correct": true
+    },
+    {
+     "text": "Hide the carcass",
+     "correct": false
+    },
+    {
+     "text": "Throw the carcass away yourself",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Some medicines given to a horse can stop it from being slaughtered for food.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand close to the chain while the hide puller is working.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices when skinning equines? (select all that apply)",
+   "options": [
+    {
+     "text": "Open the hide with the knife edge pointing outwards",
+     "correct": true
+    },
+    {
+     "text": "Sterilise knives after touching the outside of the hide",
+     "correct": true
+    },
+    {
+     "text": "Cut deep into the meat to save time",
+     "correct": false
+    },
+    {
+     "text": "Keep the head numbered with the carcass",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

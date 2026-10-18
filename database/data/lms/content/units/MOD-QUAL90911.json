@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL90911",
+ "title": "Diploma in Animal Health",
+ "lessons": [
+  {
+   "title": "Animal health for small-scale livestock farmers",
+   "minutes": 18,
+   "html": "<h3>Serving small-scale farmers</h3>\n<p>This three-year Diploma in Animal Health (NQF 6) balances theory with practical training and is aimed especially at supporting small-scale and emerging livestock farmers. These farmers keep a few cattle, goats, sheep, pigs or chickens, often on communal land or small plots, and their animals are central to household income and food security.</p>\n<h4>Understanding the farmer's situation</h4>\n<ul><li>Limited cash for medicines and vaccines, so advice must be affordable.</li>\n<li>Long distances to vets and co-ops.</li>\n<li>Shared grazing and water with neighbours' animals, so disease spreads easily.</li>\n<li>Few handling facilities: often no crush, so animals are caught in the kraal.</li>\n<li>Strong local knowledge that should be respected and built on.</li></ul>\n<h4>Priority health problems</h4>\n<table><tr><th>Species</th><th>Common problems</th></tr>\n<tr><td>Cattle</td><td>Ticks and tick-borne diseases, lumpy skin disease, poor winter nutrition, calf losses</td></tr>\n<tr><td>Goats and sheep</td><td>Wire-worm, pneumonia, heartwater, abortions</td></tr>\n<tr><td>Pigs</td><td>African swine fever, mange, worms</td></tr>\n<tr><td>Village chickens</td><td>Newcastle disease, external parasites, predators</td></tr></table>\n<h4>Affordable prevention</h4>\n<p>Prevention costs far less than treating sick animals or losing them. Practical steps include vaccinating chickens against Newcastle disease, keeping pigs penned and never feeding them uncooked kitchen waste (a risk for African swine fever), regular dipping at the community dip tank, deworming goats only when FAMACHA scores show anaemia, and building up winter feed such as hay or crop residues.</p>"
+  },
+  {
+   "title": "Practical skills and working with communities",
+   "minutes": 16,
+   "html": "<h3>Hands-on skills</h3>\n<p>Practical training is a large part of this diploma. Students practise on farms, at state veterinary offices and at clinics so that they can do the job confidently. Core skills include:</p>\n<ul><li>Safe catching and restraint of cattle, small stock, pigs and poultry, even without a crush.</li>\n<li>Clinical examination: temperature, heart and breathing rate, mucous membrane colour, body condition.</li>\n<li>Giving injections under the skin and into the muscle at the right site, and oral dosing with a drench gun.</li>\n<li>Collecting blood, faeces and skin scrapings for the laboratory.</li>\n<li>Assisting at births, treating simple wounds and navel infections.</li>\n<li>Keeping treatment and vaccination records.</li></ul>\n<h4>Safety when restraining animals</h4>\n<p>Work with at least one helper, keep calm and quiet, and plan an escape route before entering a kraal with cattle. Never stand directly behind cattle, and never wrap a rope around your hand. Use a halter and tie with a quick-release knot. Pigs can bite, so use a pig board or snare as trained.</p>\n<h4>Working with the community</h4>\n<p>The best technicians build trust. They arrive when promised, explain what they are doing and why, and involve local leaders and livestock associations. Training a few <em>community animal health workers</em> to vaccinate chickens or recognise disease extends the reach of the service. Farmers' days at the dip tank, demonstrations and simple printed guides in local languages all help.</p>\n<h4>Linking farmers to markets</h4>\n<p>Healthy animals earn more. Technicians can explain how auction buyers judge condition, why animals must be branded or tattooed under the Animal Identification Act 6 of 2002, and why withdrawal periods must be observed before selling (follow the product label or the vet).</p>\n<h4>Key points</h4>\n<ul><li>Small-scale farmers need affordable, practical animal health advice.</li>\n<li>Prevention, such as Newcastle vaccination and not feeding raw swill to pigs, saves money.</li>\n<li>Core practical skills include restraint, clinical examination, injections and sampling.</li>\n<li>Restrain animals safely: helpers, escape routes, quick-release knots.</li>\n<li>Build trust with communities and link healthy animals to markets.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which disease is a key threat to village chickens?",
+   "options": [
+    {
+     "text": "Heartwater",
+     "correct": false
+    },
+    {
+     "text": "Newcastle disease",
+     "correct": true
+    },
+    {
+     "text": "Wire-worm",
+     "correct": false
+    },
+    {
+     "text": "Lumpy skin disease",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should pigs never be fed uncooked kitchen waste?",
+   "options": [
+    {
+     "text": "It causes wire-worm",
+     "correct": false
+    },
+    {
+     "text": "It makes them too fat",
+     "correct": false
+    },
+    {
+     "text": "It is too expensive",
+     "correct": false
+    },
+    {
+     "text": "It is a risk for African swine fever",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should goats be dewormed according to the lessons?",
+   "options": [
+    {
+     "text": "Only after shearing",
+     "correct": false
+    },
+    {
+     "text": "When FAMACHA scores show anaemia",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Every week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What kind of knot should be used when tying an animal?",
+   "options": [
+    {
+     "text": "No knot, hold the rope around your hand",
+     "correct": false
+    },
+    {
+     "text": "A double reef knot",
+     "correct": false
+    },
+    {
+     "text": "A quick-release knot",
+     "correct": true
+    },
+    {
+     "text": "A knot that tightens under pull",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law requires animals to be branded or tattooed?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": true
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Training community animal health workers can extend the reach of the animal health service.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to wrap a rope around your hand when restraining a cow.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which challenges do small-scale farmers often face? (select all that apply)",
+   "options": [
+    {
+     "text": "Shared grazing and water",
+     "correct": true
+    },
+    {
+     "text": "Limited cash for medicines",
+     "correct": true
+    },
+    {
+     "text": "Few handling facilities",
+     "correct": true
+    },
+    {
+     "text": "Too many vets nearby",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

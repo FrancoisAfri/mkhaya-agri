@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-14443",
+  "title": "Demonstrate a critical understanding of the role and impact of technology in society",
+  "lessons": [
+    {
+      "title": "What technology is and how it changed farming",
+      "minutes": 15,
+      "html": "<h3>Technology solves problems</h3><p><strong>Technology</strong> is the use of knowledge, tools and materials to solve problems and meet people's needs. Technology is not only computers. A hoe, a plough, a windmill, a dip tank and a cellphone are all technology.</p><h4>From hand tools to machines</h4><table><tr><th>Then</th><th>Now</th></tr><tr><td>Hand hoe and digging stick</td><td>Tractor with plough or planter</td></tr><tr><td>Oxen pulling a plough</td><td>Diesel tractors, some with GPS steering</td></tr><tr><td>Carrying water in buckets</td><td>Pumps, pipes, drip and centre-pivot irrigation</td></tr><tr><td>Windmill on a borehole</td><td>Solar-powered pump</td></tr><tr><td>Writing records in a book</td><td>Phone apps and computers</td></tr><tr><td>Selling at the local market only</td><td>Cold chain and exports to other countries</td></tr></table><h4>Technology in daily life</h4><p>Technology is everywhere around us: electricity, taxis and trucks, cellphones and WhatsApp, radio, clinics with medicines, and banking on a phone. Many farm workers now get paid into a bank account and can check their balance on a cellphone.</p><h4>The design process</h4><p>People make technology by following steps:</p><ol><li><strong>Identify the problem</strong>, for example chickens getting wet in the rain.</li><li><strong>Investigate</strong> what has been tried before and what materials are available.</li><li><strong>Design</strong> ideas and choose the best one, such as a raised shelter with a sloping roof.</li><li><strong>Make</strong> it with suitable tools and materials.</li><li><strong>Evaluate</strong>: does it work? What can be improved?</li></ol><p>Anyone can use this process to solve problems at home or at work.</p><p>Think of a dip tank on a cattle farm. The problem was ticks that spread disease. People investigated, designed a long, narrow concrete bath that animals swim through, built it, and then checked if tick numbers dropped. That is the design process in action.</p>"
+    },
+    {
+      "title": "Good and bad effects of technology",
+      "minutes": 15,
+      "html": "<h3>Thinking critically</h3><p>To think <strong>critically</strong> means to look at both sides before you decide something is good or bad. Technology brings benefits, but it can also cause problems.</p><h4>Benefits</h4><ul><li><strong>More food:</strong> better seed, fertiliser and irrigation give higher yields.</li><li><strong>Less hard work:</strong> machines do heavy lifting and digging.</li><li><strong>Health:</strong> vaccines for people and animals, clean water and medicines.</li><li><strong>Communication:</strong> cellphones let farmers get weather warnings and market prices.</li><li><strong>Safety:</strong> guards on machines, protective clothing and fire-fighting equipment.</li></ul><h4>Problems</h4><ul><li><strong>Jobs:</strong> one machine can do the work of many people, so some jobs are lost. New jobs need new skills, for example operating or repairing machines.</li><li><strong>Environment:</strong> chemicals can pollute rivers; diesel engines cause air pollution; plastic waste builds up.</li><li><strong>Cost:</strong> new technology is expensive. Small farmers may not afford it, so the gap between rich and poor can grow.</li><li><strong>Dependence:</strong> when the power goes off during load shedding, electric pumps and cold rooms stop.</li><li><strong>Safety risks:</strong> machines can injure people who are not trained.</li><li><strong>Privacy and scams:</strong> cellphones bring fraud messages that try to steal money.</li></ul><h4>Indigenous technology</h4><p>Communities in South Africa have long used their own technology: clay pots that keep water cool, grain stores raised off the ground, kraals made from thorn branches, and knowledge of medicinal plants. These are still useful and often cheap and sustainable.</p><h4>Making good choices</h4><p>Before choosing a technology, ask: Does it solve the real problem? Can we afford it and maintain it? Is it safe? What will it do to people's jobs and to the environment?</p><h4>Key points</h4><ul><li>Technology is using knowledge, tools and materials to solve problems.</li><li>The design process is identify, investigate, design, make and evaluate.</li><li>Technology can bring more food, less hard work and better health.</li><li>It can also cost jobs, pollute and widen the gap between rich and poor.</li><li>Think critically about benefits and problems before choosing a technology.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is technology?",
+      "options": [
+        {
+          "text": "Only computers and cellphones",
+          "correct": false
+        },
+        {
+          "text": "Using knowledge, tools and materials to solve problems",
+          "correct": true
+        },
+        {
+          "text": "Anything that is expensive",
+          "correct": false
+        },
+        {
+          "text": "Only machines with engines",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the first step in the design process?",
+      "options": [
+        {
+          "text": "Identify the problem",
+          "correct": true
+        },
+        {
+          "text": "Make the product",
+          "correct": false
+        },
+        {
+          "text": "Evaluate",
+          "correct": false
+        },
+        {
+          "text": "Buy materials",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a possible negative effect of farm machines?",
+      "options": [
+        {
+          "text": "Less heavy work",
+          "correct": false
+        },
+        {
+          "text": "Higher yields",
+          "correct": false
+        },
+        {
+          "text": "Some jobs are lost",
+          "correct": true
+        },
+        {
+          "text": "Faster planting",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of indigenous technology?",
+      "options": [
+        {
+          "text": "A GPS tractor",
+          "correct": false
+        },
+        {
+          "text": "A centre pivot",
+          "correct": false
+        },
+        {
+          "text": "A banking app",
+          "correct": false
+        },
+        {
+          "text": "A clay pot that keeps water cool",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does it mean to think critically about technology?",
+      "options": [
+        {
+          "text": "To look at both the benefits and the problems",
+          "correct": true
+        },
+        {
+          "text": "To say all technology is bad",
+          "correct": false
+        },
+        {
+          "text": "To buy the newest machine",
+          "correct": false
+        },
+        {
+          "text": "To refuse to use a cellphone",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A hoe and a windmill are examples of technology.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Technology never causes problems for the environment.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which questions should you ask before choosing a new technology? (select all that apply)",
+      "options": [
+        {
+          "text": "Can we afford and maintain it?",
+          "correct": true
+        },
+        {
+          "text": "Is it safe?",
+          "correct": true
+        },
+        {
+          "text": "What will it do to jobs and the environment?",
+          "correct": true
+        },
+        {
+          "text": "Does it have a nice colour?",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

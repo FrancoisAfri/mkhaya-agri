@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-257159",
+ "title": "Provide support to control damage-causing animals",
+ "lessons": [
+  {
+   "title": "Identifying and locating damage-causing animals",
+   "minutes": 20,
+   "html": "<h3>What is a damage-causing animal?</h3>\n<p>A damage-causing animal (DCA) is a wild animal that causes losses to livestock, crops, property or people, or that threatens human life. In South Africa the most common DCAs on farms are the black-backed jackal and caracal, which kill sheep, goats and calves. Others include baboons raiding crops and houses, bushpigs in maize and sugar cane, porcupines ringbarking trees, leopards near the Waterberg or Cederberg, and elephants or hippos breaking out of reserves.</p>\n<p>Control of DCAs is regulated by provincial conservation authorities, and for listed species such as leopard, by the national TOPS regulations under the Biodiversity Act 10 of 2004. Permits may be needed before an animal is captured, moved or killed.</p>\n<h3>Finding out which animal is responsible</h3>\n<p>Never assume. Wrongly blaming a species leads to the wrong control and kills innocent animals. Collect evidence:</p>\n<ul>\n<li><strong>Kill site:</strong> jackals usually bite the throat from below; caracals often bite the back of the neck and may start feeding at the shoulder or rump. Dogs often cause many scattered bite wounds. Have an expert or the conservation officer confirm.</li>\n<li><strong>Spoor:</strong> jackal and dog tracks show claw marks; caracal and leopard tracks usually do not, because cats retract their claws.</li>\n<li><strong>Dung, hair on fences and holes under fences.</strong></li>\n<li><strong>Camera traps</strong> at kill sites, water points and fence crossings.</li>\n<li><strong>Timing and pattern:</strong> record dates, camps, numbers lost and weather. Losses often rise during lambing.</li>\n</ul>\n<h4>Recording</h4>\n<p>Keep a loss register: date, camp, GPS position, animal killed, suspected predator, evidence and photographs. Good records show the size of the problem in rands and help the conservation authority decide on permits.</p>"
+  },
+  {
+   "title": "Working safely and with communities",
+   "minutes": 20,
+   "html": "<h3>Precautions with dangerous animals</h3>\n<p>Some DCAs can kill people. Leopard, buffalo, elephant, hippo, crocodile and large baboon troops must only be handled by trained, authorised teams. As a support person you follow strict rules:</p>\n<ul>\n<li>Never approach a cornered, trapped or wounded predator. A leopard in a cage trap can still injure you through the bars.</li>\n<li>Work in pairs or teams with radio or cell phone contact and a first aid kit.</li>\n<li>Know the escape route and keep the vehicle close with the engine ready.</li>\n<li>Only qualified and licensed people use firearms, and only within the permit conditions.</li>\n<li>Check cage traps early every morning so that animals, including non-target animals, do not suffer.</li>\n<li>Gin traps and poison are cruel, kill non-target animals such as aardwolves and eagles, and are illegal in many situations. Do not use them.</li>\n</ul>\n<h3>Preventing damage: non-lethal methods</h3>\n<p>Killing predators often fails, because new animals move into the empty territory. Prevention usually works better:</p>\n<table><tr><th>Method</th><th>How it helps</th></tr>\n<tr><td>Livestock guardian dogs (e.g. Anatolian)</td><td>Live with the flock and chase predators away</td></tr>\n<tr><td>Alpacas or donkeys</td><td>Guard small flocks</td></tr>\n<tr><td>Kraaling at night</td><td>Protects ewes and lambs when predators are active</td></tr>\n<tr><td>Protective collars</td><td>Stop throat bites on sheep</td></tr>\n<tr><td>Jackal-proof fencing</td><td>Keeps predators out of lambing camps</td></tr>\n<tr><td>Shepherds</td><td>Watch flocks in the veld during the day</td></tr></table>\n<h3>Working with communities</h3>\n<p>Neighbouring farmers and rural communities often suffer the same losses. Hold meetings, share loss records, explain the law and teach non-lethal methods. Respect local knowledge. Explain why baboons should not be fed and how to secure rubbish. Good communication reduces illegal poisoning and conflict.</p>"
+  },
+  {
+   "title": "Skinning and disposing of carcasses",
+   "minutes": 15,
+   "html": "<h3>When an animal has been killed</h3>\n<p>If a DCA is lawfully killed, or livestock carcasses must be cleared, the work must be done hygienically and legally. The permit may require that the skin, skull or carcass is handed to the conservation authority, especially for TOPS species like leopard.</p>\n<h4>Safety and hygiene</h4>\n<ul>\n<li>Wear gloves, preferably disposable, and cover cuts on your hands. Animals can carry rabies and other diseases that spread to people.</li>\n<li>If an animal behaved strangely, for example a jackal that walked into a yard without fear, do not open the head. Report it to the state vet, as it may have rabies. Rabies is a controlled disease under the Animal Diseases Act 35 of 1984.</li>\n<li>Use a sharp skinning knife and cut away from your body.</li>\n<li>Wash hands and tools with soap and disinfectant afterwards.</li>\n</ul>\n<h4>Basic skinning steps</h4>\n<ol>\n<li>Lay the animal on its back.</li>\n<li>Cut from the vent along the belly to the chest, and along the inside of each leg.</li>\n<li>Peel the skin back carefully, using the knife only where needed to avoid holes.</li>\n<li>Salt the skin well on the flesh side, fold it flesh to flesh, and keep it in a cool, dry, shaded place, unless the permit says otherwise.</li>\n<li>Label the skin with species, date, place and permit number.</li>\n</ol>\n<h4>Disposing of carcasses</h4>\n<ul>\n<li>Bury carcasses deep enough that scavengers and dogs cannot dig them up, away from boreholes, rivers and dams.</li>\n<li>Or burn them where this is allowed, or use a registered vulture restaurant if the carcass is free of poisons and lead.</li>\n<li>Never leave poisoned carcasses in the veld; they kill vultures, eagles and jackals for weeks.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Confirm which animal causes the damage with evidence before acting.</li>\n<li>Only authorised, trained people handle dangerous animals and firearms.</li>\n<li>Non-lethal methods such as guard dogs, kraaling and collars often work best.</li>\n<li>Talk to neighbours and communities and share loss records.</li>\n<li>Use gloves and hygiene when skinning; report suspected rabies.</li>\n<li>Dispose of carcasses away from water and never leave poisoned carcasses.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which predator commonly bites sheep on the throat from below?",
+   "options": [
+    {
+     "text": "Black-backed jackal",
+     "correct": true
+    },
+    {
+     "text": "Porcupine",
+     "correct": false
+    },
+    {
+     "text": "Bushpig",
+     "correct": false
+    },
+    {
+     "text": "Baboon",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do caracal and leopard tracks usually show no claw marks?",
+   "options": [
+    {
+     "text": "They walk on their toes only",
+     "correct": false
+    },
+    {
+     "text": "They have no claws",
+     "correct": false
+    },
+    {
+     "text": "They retract their claws",
+     "correct": true
+    },
+    {
+     "text": "They walk on rocks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a jackal walked into a yard without fear and was killed?",
+   "options": [
+    {
+     "text": "Skin the head for a trophy",
+     "correct": false
+    },
+    {
+     "text": "Do not open the head and report to the state vet",
+     "correct": true
+    },
+    {
+     "text": "Feed it to the dogs",
+     "correct": false
+    },
+    {
+     "text": "Bury it in the garden",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does killing predators often fail to solve the problem?",
+   "options": [
+    {
+     "text": "Predators do not eat sheep",
+     "correct": false
+    },
+    {
+     "text": "The law forbids all control",
+     "correct": false
+    },
+    {
+     "text": "Bullets are too expensive",
+     "correct": false
+    },
+    {
+     "text": "New animals move into the empty territory",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should carcasses be buried?",
+   "options": [
+    {
+     "text": "Next to a borehole",
+     "correct": false
+    },
+    {
+     "text": "In a river bed",
+     "correct": false
+    },
+    {
+     "text": "Deep and away from boreholes, rivers and dams",
+     "correct": true
+    },
+    {
+     "text": "Just under the surface near the kraal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cage traps should be checked early every morning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Poison laid in carcasses only affects the target predator.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are non-lethal ways to reduce predation? (select all that apply)",
+   "options": [
+    {
+     "text": "Livestock guardian dogs",
+     "correct": true
+    },
+    {
+     "text": "Kraaling flocks at night",
+     "correct": true
+    },
+    {
+     "text": "Gin traps",
+     "correct": false
+    },
+    {
+     "text": "Protective collars on sheep",
+     "correct": true
+    },
+    {
+     "text": "Leaving lambs alone in far camps",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

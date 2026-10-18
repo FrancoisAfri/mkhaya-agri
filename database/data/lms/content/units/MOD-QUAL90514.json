@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL90514",
+ "title": "Postgraduate Diploma: Aquaculture",
+ "lessons": [
+  {
+   "title": "Aquaculture systems and species in South Africa",
+   "minutes": 20,
+   "html": "<h3>The aquaculture sector</h3>\n<p>Aquaculture is the farming of aquatic animals and plants under controlled conditions. In South Africa it is a growing sector supported by Operation Phakisa and provincial development programmes, but it still faces challenges of water availability, cost of feed, permitting and markets. The Postgraduate Diploma in Aquaculture (NQF 8) builds specialist knowledge for managers, researchers and advisers.</p>\n<h4>Main production systems</h4>\n<table><tr><th>System</th><th>Description</th><th>Typical use</th></tr>\n<tr><td>Extensive ponds and dams</td><td>Low stocking, natural food</td><td>Tilapia, carp in farm dams</td></tr>\n<tr><td>Semi-intensive ponds</td><td>Fertilised ponds plus feed, aeration</td><td>Tilapia, catfish</td></tr>\n<tr><td>Flow-through raceways</td><td>Constant flow of cold, clean water</td><td>Rainbow trout in Mpumalanga and the Western Cape</td></tr>\n<tr><td>Cages and net pens</td><td>In dams or at sea</td><td>Trout in dams, finfish trials</td></tr>\n<tr><td>Recirculating aquaculture systems (RAS)</td><td>Water filtered and reused, high control</td><td>Tilapia, high-value species, hatcheries</td></tr>\n<tr><td>Land-based marine tanks and long-lines</td><td>Pumped seawater; ropes and rafts</td><td>Abalone, oysters and mussels on the West and South coasts</td></tr></table>\n<h4>Key species</h4>\n<p>Abalone is the main export earner; rainbow trout, mussels and oysters are well established; tilapia and African sharptooth catfish are important freshwater candidates. A key strategic issue is that some species are alien. Mozambique tilapia is indigenous in parts of the country, while Nile tilapia is an alien species whose use is restricted in many catchments under the National Environmental Management: Biodiversity Act 10 of 2004 and its alien and invasive species regulations.</p>\n<h4>Water quality as the core science</h4>\n<p>Fish live in their toilet. Managers must monitor and control dissolved oxygen, temperature, pH, ammonia, nitrite, alkalinity and suspended solids. Ammonia from fish waste becomes toxic as pH and temperature rise; in RAS, biofilters convert it to nitrite and then nitrate. Oxygen often crashes at night or on hot, still days in ponds. Species tolerance differs widely: trout need cool, well-oxygenated water while catfish tolerate low oxygen.</p>"
+  },
+  {
+   "title": "Health, regulation and farm management",
+   "minutes": 20,
+   "html": "<h3>Aquatic animal health and biosecurity</h3>\n<p>Disease outbreaks can destroy a farm's stock in days. Prevention is far cheaper than treatment, especially because few medicines are registered for aquatic animals in South Africa.</p>\n<ul><li>Source certified disease-free seed (eggs, fingerlings, spat).</li>\n<li>Quarantine and inspect new stock.</li>\n<li>Disinfect nets, tanks and footwear between units.</li>\n<li>Keep stocking densities and feeding within the system's capacity to limit stress.</li>\n<li>Monitor behaviour, feeding response and daily mortalities; investigate any rise.</li>\n<li>Involve a veterinarian with aquatic experience and report controlled diseases as required under the Animal Diseases Act 35 of 1984.</li></ul>\n<h4>Regulatory environment</h4>\n<p>Aquaculture touches many laws: water use authorisations under the National Water Act 36 of 1998, environmental authorisation for some developments, permits under the Biodiversity Act for alien species, marine aquaculture rights under the Marine Living Resources Act 18 of 1998, and food safety and export certification for shellfish and fish. Permitting can take a long time and must be planned into project timelines.</p>\n<h4>Production planning and economics</h4>\n<p>Feed is usually the largest operating cost. Key performance indicators include:</p>\n<ul><li><strong>Feed conversion ratio (FCR)</strong>: kg of feed per kg of weight gain. A lower FCR means more efficient production.</li>\n<li><strong>Survival rate</strong> from stocking to harvest.</li>\n<li><strong>Specific growth rate</strong> and days to market size.</li>\n<li><strong>Production per unit of water or area</strong>.</li>\n<li><strong>Cost per kg produced</strong> versus the market price in ZAR.</li></ul>\n<p>A manager must also plan harvesting, processing, cold chain and marketing. Many small farms fail not because fish cannot be grown, but because they cannot be sold at a profit. Feasibility studies should test the market, energy cost (pumps and aeration under load shedding needs back-up power) and water security before building.</p>\n<h4>Research and sustainability</h4>\n<p>Specialists are expected to evaluate research, test new species and feeds, reduce reliance on fishmeal, manage effluent and integrate aquaculture with crops through aquaponics.</p>\n<h4>Key points</h4>\n<ul><li>South African aquaculture includes abalone, trout, mussels, oysters, tilapia and catfish across ponds, raceways, cages, RAS and marine systems.</li>\n<li>Water quality, especially oxygen and ammonia, is the core of production management.</li>\n<li>Biosecurity and disease-free seed are essential because few treatments are registered.</li>\n<li>Water, biodiversity and marine laws all affect aquaculture projects.</li>\n<li>FCR, survival and cost per kg drive profitability; markets and power supply must be tested early.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which species is described as the main aquaculture export earner in South Africa?",
+   "options": [
+    {
+     "text": "Carp",
+     "correct": false
+    },
+    {
+     "text": "Tilapia",
+     "correct": false
+    },
+    {
+     "text": "Abalone",
+     "correct": true
+    },
+    {
+     "text": "Catfish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which production system filters and reuses water with high control?",
+   "options": [
+    {
+     "text": "Flow-through raceway",
+     "correct": false
+    },
+    {
+     "text": "Extensive dam",
+     "correct": false
+    },
+    {
+     "text": "Long-line",
+     "correct": false
+    },
+    {
+     "text": "Recirculating aquaculture system",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a biofilter in a RAS do?",
+   "options": [
+    {
+     "text": "Removes all oxygen",
+     "correct": false
+    },
+    {
+     "text": "Heats the water",
+     "correct": false
+    },
+    {
+     "text": "Converts ammonia to nitrite and then nitrate",
+     "correct": true
+    },
+    {
+     "text": "Adds salt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does feed conversion ratio (FCR) measure?",
+   "options": [
+    {
+     "text": "Water temperature",
+     "correct": false
+    },
+    {
+     "text": "Kg of feed per kg of weight gain",
+     "correct": true
+    },
+    {
+     "text": "Fish per tank",
+     "correct": false
+    },
+    {
+     "text": "Price per fish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers water use authorisations for aquaculture?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": true
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rainbow trout need cool, well-oxygenated water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Because many medicines are registered for fish in South Africa, biosecurity is less important.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good biosecurity practices in aquaculture? (select all that apply)",
+   "options": [
+    {
+     "text": "Disinfecting nets and footwear between units",
+     "correct": true
+    },
+    {
+     "text": "Quarantining new stock",
+     "correct": true
+    },
+    {
+     "text": "Moving nets between farms without cleaning",
+     "correct": false
+    },
+    {
+     "text": "Sourcing certified disease-free seed",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

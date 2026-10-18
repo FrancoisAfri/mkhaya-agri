@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335718",
+ "title": "Prepare an Equine for show",
+ "lessons": [
+  {
+   "title": "Preparing the horse in the days before the show",
+   "minutes": 15,
+   "html": "<h3>First impressions count</h3> <p>In the show ring the judge sees the horse for only a few minutes. A clean, well-presented horse shows that it is well cared for and makes the best of its conformation and movement. Preparation starts days before the show, not on the morning.</p> <h4>Health check</h4> <p>Only a sound, healthy horse should go to a show. Check for lameness, cuts, swelling, coughing and nasal discharge. Make sure vaccinations and the passport or identity documents are up to date, as the show rules and movement controls require. Report any problem to your supervisor.</p> <h4>Shoes and feet</h4> <p>Book the farrier about a week before the show so that the shoes are fresh but settled. Check for loose shoes and risen clenches.</p> <h4>Trimming and clipping</h4> <ul> <li>Trim the bridle path (a short section of mane behind the ears) only if the breed and class allow it; some breeds are shown with full manes.</li> <li>Tidy the fetlock hair, jaw line and ears as your class requires.</li> <li>Pull or shorten the mane evenly if it will be plaited.</li> <li>Shape the tail: many classes show a \"banged\" (straight-cut) tail at about the level of the chestnuts or a hand below the hocks when carried.</li> </ul> <p>Use clippers safely: check the blades are sharp and cool, and have a helper hold nervous horses. Rules differ between breed societies and disciplines; always check the class rules.</p> <h4>Bathing</h4> <p>Bath the horse a day or two before the show, on a warm day. Use horse shampoo, rinse thoroughly so no soap is left, and dry the horse well with a sweat scraper and towels before covering it. Wash white socks and the tail carefully; a whitening shampoo may be used for greys.</p> <h4>Keep it clean</h4> <p>After bathing, put on a clean sheet or light rug, bed the stable deeply with clean bedding and use tail and leg bandages to keep the horse clean overnight.</p> <h4>Prepare the tack and kit</h4> <p>Clean and polish all tack the day before. Pack the show kit: grooming kit, plaiting kit, show tack, rugs, bandages, water, hay, buckets, first aid kit, and the horse's documents and entry papers.</p>"
+  },
+  {
+   "title": "Plaiting, final turnout and at the show",
+   "minutes": 15,
+   "html": "<h3>Plaiting the mane</h3> <p>Plaits show off the neck. The number and style depend on the class and breed rules; check first.</p> <ol> <li>Dampen the mane and comb it flat.</li> <li>Divide the mane into equal sections and hold each with a band or clip.</li> <li>Plait each section tightly down to the end.</li> <li>Secure the end with a band or thread.</li> <li>Roll or fold the plait under into a neat ball and sew or band it in place close to the crest.</li> <li>Check all plaits are the same size and evenly spaced.</li> </ol> <p>Stand safely on a sturdy box, not a bucket. Use a blunt-ended needle if sewing. Many grooms plait early on show morning so the plaits stay neat.</p> <h4>Tail</h4> <p>A tail can be plaited from the top down, or left full and brushed out, depending on the class. Bandage it to keep it neat during travel, and remove the bandage before going into the ring.</p> <h4>Final turnout on show day</h4> <ul> <li>Remove rugs and bandages. Brush off any marks; spot-wash stains.</li> <li>Give the coat a final polish with a body brush and stable rubber.</li> <li>Wipe eyes, nostrils and muzzle with a damp sponge.</li> <li>Pick out and oil the hooves if the class allows hoof oil.</li> <li>Quarter marks or a light coat shine can be used where allowed.</li> <li>Fit clean show tack correctly; check every buckle and keeper.</li> </ul> <h4>At the show</h4> <ol> <li>Unload the horse calmly and check it after the trip.</li> <li>Find the secretary's office, collect the number and check the class times.</li> <li>Keep the horse calm, out of the sun and with water available.</li> <li>Have the grooming kit ready at the ring side for a final wipe-over.</li> <li>If you lead in hand, wear neat clothes and suitable footwear, and lead on the left at the horse's shoulder, keeping the horse moving forward freely.</li> </ol> <h4>After the show</h4> <p>Remove the plaits carefully without cutting the mane. Wash off sweat, check legs, offer water, and travel the horse home safely. Clean all tack and kit before storing.</p> <h4>Key points</h4> <ul> <li>Only show a sound, healthy horse with up-to-date documents.</li> <li>Book the farrier, trim and bath in the days before; check class rules.</li> <li>Keep the horse clean overnight with a sheet, bandages and fresh bedding.</li> <li>Plaits must be even, tight and the style the class requires.</li> <li>At the show, check times, keep the horse calm and do a final wipe-over before the ring.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When should the farrier usually come before a show?",
+   "options": [
+    {
+     "text": "On the morning of the show",
+     "correct": false
+    },
+    {
+     "text": "About a week before",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "A day after",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are leg and tail bandages put on the night before?",
+   "options": [
+    {
+     "text": "To keep the horse clean",
+     "correct": true
+    },
+    {
+     "text": "To make it faster",
+     "correct": false
+    },
+    {
+     "text": "For decoration in the ring",
+     "correct": false
+    },
+    {
+     "text": "To keep it warm in summer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check before trimming manes, bridle paths and tails?",
+   "options": [
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "The class and breed rules",
+     "correct": true
+    },
+    {
+     "text": "The horse's name",
+     "correct": false
+    },
+    {
+     "text": "The price of shampoo",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you stand on when plaiting?",
+   "options": [
+    {
+     "text": "A bucket",
+     "correct": false
+    },
+    {
+     "text": "A sturdy box",
+     "correct": true
+    },
+    {
+     "text": "The horse's back",
+     "correct": false
+    },
+    {
+     "text": "The manger",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is one of the first things to do on arrival at the show?",
+   "options": [
+    {
+     "text": "Go into the ring straight away",
+     "correct": false
+    },
+    {
+     "text": "Collect the number and check class times at the secretary's office",
+     "correct": true
+    },
+    {
+     "text": "Remove the horse's shoes",
+     "correct": false
+    },
+    {
+     "text": "Feed a big meal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A horse that is slightly lame can still be shown if it is well plaited.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Soap must be rinsed out thoroughly after bathing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items belong in the show kit? (select all that apply)",
+   "options": [
+    {
+     "text": "Grooming kit",
+     "correct": true
+    },
+    {
+     "text": "Plaiting kit",
+     "correct": true
+    },
+    {
+     "text": "Horse's documents and entry papers",
+     "correct": true
+    },
+    {
+     "text": "A chainsaw",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

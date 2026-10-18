@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612201000-KM-01",
+  "title": "Introduction to the poultry farming industry, at",
+  "lessons": [
+    {
+      "title": "The South African poultry industry",
+      "minutes": 20,
+      "html": "<h3>The South African poultry industry</h3><p>Poultry is the largest single part of South African agriculture by value, and chicken is the most widely eaten animal protein in the country. Eggs and chicken are affordable sources of protein for millions of households, so the industry matters for food security as well as for jobs.</p><h4>Main sectors</h4><ul><li><strong>Broilers</strong>: meat chickens grown in houses from day-old chicks to slaughter weight in a few weeks.</li><li><strong>Layers</strong>: hens kept for table egg production, in cages, barns or free-range systems.</li><li><strong>Breeders</strong>: parent stock flocks that produce fertile hatching eggs for broilers or layers.</li><li><strong>Hatcheries</strong>: incubate eggs and supply day-old chicks.</li><li><strong>Other poultry</strong>: ducks, turkeys, ostriches (a major industry in the Klein Karoo) and indigenous or village chickens.</li></ul><h4>Structure of the industry</h4><p>The industry includes a few large integrated companies that own breeder farms, hatcheries, feed mills, broiler farms, abattoirs and distribution, as well as many independent and contract growers and a large number of small-scale and emerging farmers. Contract growers often raise chicks supplied by an integrator, using the integrator's feed and management standards, and are paid on performance.</p><h4>Industry bodies</h4><p>The South African Poultry Association (SAPA) represents producers, collects industry statistics and supports biosecurity and disease control programmes. Government, through the national and provincial departments responsible for agriculture and the state veterinary services, regulates animal disease control, meat safety and trade.</p><h4>Key drivers</h4><p>The industry is driven by consumer demand, feed costs (maize and soya are the main ingredients), electricity supply, disease outbreaks, and competition from imported chicken. These factors make margins tight and efficient management essential.</p>"
+    },
+    {
+      "title": "Production systems and the value chain",
+      "minutes": 20,
+      "html": "<h3>Production systems and the value chain</h3><h4>The value chain</h4><table><tr><th>Stage</th><th>Activities</th></tr><tr><td>Genetics and breeders</td><td>Grandparent and parent flocks produce hatching eggs</td></tr><tr><td>Hatchery</td><td>Incubation, hatching, chick grading, vaccination, delivery</td></tr><tr><td>Feed mill</td><td>Formulation and production of feed for each age</td></tr><tr><td>Production farm</td><td>Broiler growing or egg production</td></tr><tr><td>Processing</td><td>Abattoir, egg grading and packing</td></tr><tr><td>Distribution and retail</td><td>Cold chain, wholesalers, supermarkets, informal trade</td></tr></table><h4>Production systems</h4><ul><li><strong>Intensive closed houses</strong>: environment-controlled houses with fans, cooling pads and automated feeding and drinking. High stocking density and tight control.</li><li><strong>Open-sided houses</strong>: natural ventilation with curtains; lower cost but more affected by weather.</li><li><strong>Free-range and pasture</strong>: birds have outdoor access; must meet labelling standards to be sold as free-range.</li><li><strong>Village or backyard</strong>: small flocks of indigenous breeds, low inputs.</li></ul><h4>Broiler and layer cycles</h4><p>Broilers are placed as day-old chicks, grown for a short cycle to market weight, removed for slaughter, and the house is cleaned and rested before the next placement. Layer pullets are reared until they reach point of lay, then kept in production for many months before being replaced. Exact timings depend on the breed and company management guide.</p><h4>Markets</h4><p>Products are sold as whole birds, portions, individually quick frozen (IQF) packs, live birds to informal traders, and eggs graded by size. Live bird sales are important in many communities, and must comply with animal welfare and disease control rules.</p><h4>Small-scale and emerging producers</h4><p>Many small-scale producers raise broilers in batches for local markets or keep layers for egg sales. They face the same disease, feed and electricity risks as large farms, often with less capital. Access to reliable chick supply, feed at fair prices, markets and training is key to their success.</p>"
+    },
+    {
+      "title": "Laws, standards and challenges",
+      "minutes": 20,
+      "html": "<h3>Laws, standards and challenges</h3><h4>Key legislation</h4><ul><li><strong>Animal Diseases Act 35 of 1984</strong>: controls diseases such as avian influenza and Newcastle disease, including reporting, movement control and culling orders.</li><li><strong>Animals Protection Act 71 of 1962</strong>: prohibits cruelty and requires proper care, including during catching and transport.</li><li><strong>Meat Safety Act 40 of 2000</strong>: slaughter in registered abattoirs and meat inspection.</li><li><strong>Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947</strong>: registration of feeds and stock remedies.</li><li><strong>OHS Act 85 of 1993</strong>: worker health and safety.</li><li>Environmental laws and municipal by-laws on manure, odour, flies and carcass disposal.</li></ul><h4>Industry standards</h4><p>Producers selling to retailers or integrators must meet their codes of practice for welfare, biosecurity, food safety and traceability. Compartment and biosecurity schemes for export or disease-free status require strict controls and audits.</p><h4>Major challenges</h4><ul><li><strong>Avian influenza</strong>: outbreaks of highly pathogenic avian influenza have led to the culling of millions of birds in South Africa and serious losses. Biosecurity is the main defence.</li><li><strong>Feed costs</strong>: feed is the largest cost; maize and soya prices change with weather, exchange rates and global markets.</li><li><strong>Electricity</strong>: load shedding threatens ventilation, lighting, water pumps and cold chains; generators and backup are essential.</li><li><strong>Imports</strong>: competition from imported chicken affects local prices.</li><li><strong>Water</strong>: reliable, clean water supply.</li></ul><h4>Opportunities</h4><p>Growing demand, emerging farmer development programmes, value-added products and improved efficiency offer opportunities for well-managed farms.</p><h4>Key points</h4><ul><li>Poultry is the largest single agricultural sector by value in South Africa.</li><li>Main sectors are broilers, layers, breeders and hatcheries.</li><li>The value chain runs from genetics to retail, often in integrated companies.</li><li>Avian influenza and Newcastle disease are controlled under the Animal Diseases Act.</li><li>Feed costs, electricity and disease are major industry challenges.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which sector produces fertile hatching eggs?",
+      "options": [
+        {
+          "text": "Broilers",
+          "correct": false
+        },
+        {
+          "text": "Table egg layers",
+          "correct": false
+        },
+        {
+          "text": "Breeders",
+          "correct": true
+        },
+        {
+          "text": "Abattoirs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is a contract grower?",
+      "options": [
+        {
+          "text": "A farmer who raises chicks supplied by an integrator under its standards",
+          "correct": true
+        },
+        {
+          "text": "A feed mill owner",
+          "correct": false
+        },
+        {
+          "text": "A government inspector",
+          "correct": false
+        },
+        {
+          "text": "A retailer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What are the main ingredients that drive poultry feed cost?",
+      "options": [
+        {
+          "text": "Wheat and barley",
+          "correct": false
+        },
+        {
+          "text": "Fish and rice",
+          "correct": false
+        },
+        {
+          "text": "Lucerne and grass",
+          "correct": false
+        },
+        {
+          "text": "Maize and soya",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law controls avian influenza and Newcastle disease?",
+      "options": [
+        {
+          "text": "Meat Safety Act 40 of 2000",
+          "correct": false
+        },
+        {
+          "text": "Animal Diseases Act 35 of 1984",
+          "correct": true
+        },
+        {
+          "text": "National Water Act 36 of 1998",
+          "correct": false
+        },
+        {
+          "text": "OHS Act 85 of 1993",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which organisation represents poultry producers in South Africa?",
+      "options": [
+        {
+          "text": "South African Poultry Association (SAPA)",
+          "correct": true
+        },
+        {
+          "text": "AgriSETA",
+          "correct": false
+        },
+        {
+          "text": "CCMA",
+          "correct": false
+        },
+        {
+          "text": "Water user association",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Load shedding is a risk to poultry farms because ventilation, water and lighting depend on electricity.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Products may be labelled free-range without meeting any standard.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are major challenges for the South African poultry industry? (select all that apply)",
+      "options": [
+        {
+          "text": "Avian influenza",
+          "correct": true
+        },
+        {
+          "text": "Feed costs",
+          "correct": true
+        },
+        {
+          "text": "Electricity supply",
+          "correct": true
+        },
+        {
+          "text": "Too little consumer demand for chicken",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

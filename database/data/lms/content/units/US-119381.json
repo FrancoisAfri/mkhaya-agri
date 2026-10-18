@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119381",
+ "title": "Manage the rearing of pullets for table egg production",
+ "lessons": [
+  {
+   "title": "Preparing for and receiving pullet chicks",
+   "minutes": 15,
+   "html": "<h3>The rearing period shapes the laying flock</h3><p>Pullets are young female chickens reared from day-old until they are ready to start laying, at about 16 to 18 weeks depending on the strain. How well they are reared decides how well they will lay for the rest of their life. A pullet that is underweight or uneven at transfer will not reach peak production. Always follow the management guide of the strain you are rearing, for example the breeder company's body weight, feeding and lighting tables.</p><h4>House preparation</h4><ol><li>Clean and disinfect the house, equipment, water lines and tanks after the previous flock, and allow a rest period.</li><li>Check for pests and seal entry points.</li><li>Place clean litter (for floor rearing) or prepare cages for cage rearing.</li><li>Pre-heat the house at least a day before arrival so floor and air are at the temperature in the guide.</li><li>Fill drinkers and feeders, flush water lines and check the water temperature and quality.</li><li>Check lighting, ventilation, alarms and the generator.</li></ol><h4>Receiving chicks</h4><ul><li>Count chicks and check the delivery documents, including hatchery vaccination records.</li><li>Place chicks quickly near feed and water.</li><li>Observe behaviour after a few hours: chicks evenly spread are comfortable; huddling means cold; panting and moving away from heat means too hot.</li><li>Check crop fill: a large share of chicks should have feed and water in the crop after the first hours, as the guide specifies.</li><li>Record mortalities daily and remove dead chicks.</li></ul><p>Chick quality problems such as weak chicks, unhealed navels or high early mortality must be reported to the hatchery.</p>"
+  },
+  {
+   "title": "Growth, uniformity, feeding and lighting",
+   "minutes": 15,
+   "html": "<h3>Hitting the targets</h3><h4>Body weight and uniformity</h4><p>Weigh a random sample of birds individually each week, or as the guide recommends, from different parts of the house. Compare the average with the strain target. Calculate uniformity: the percentage of birds within a range around the average (often ±10%). A flock with high uniformity comes into lay together and peaks well. Low uniformity shows problems with feeder space, water access, disease or stocking density. Where necessary, birds can be graded by size and managed in separate pens.</p><h4>Feeding phases</h4><p>Pullets are fed a series of rations, typically starter, grower, developer and pre-lay, each with different energy, protein and calcium levels. Change rations by body weight and age as the guide says, not just by the calendar. Provide enough feeder space so all birds can eat at the same time. The pre-lay ration builds calcium reserves for shell formation.</p><h4>Lighting programme</h4><p>Light controls sexual maturity. In rearing, day length is usually reduced in steps from long days at placement to a constant shorter day during growing, to prevent birds maturing too early. Light is then increased (light stimulation) when birds reach the target body weight, to bring them into lay. Never increase day length during rearing unless the programme says so, and never decrease day length once laying has started. Light-proof or controlled houses make this easier; in open houses the programme must allow for natural day length.</p><h4>Beak treatment</h4><p>Many pullets are beak treated at the hatchery to reduce feather pecking and cannibalism. Any further treatment must be done only by trained people, in line with welfare codes.</p>"
+  },
+  {
+   "title": "Health, records and transfer",
+   "minutes": 15,
+   "html": "<h3>Protecting the flock and preparing for lay</h3><h4>Biosecurity and health</h4><ul><li>Control entry: one entrance, shower or change, footbaths, and a visitor register.</li><li>No contact with other poultry, including backyard chickens and wild birds.</li><li>Follow the vaccination programme set by the veterinarian for diseases such as Newcastle disease, infectious bronchitis, Marek's disease (usually at the hatchery), Gumboro and others relevant to the area. Record each vaccination with date, batch number and method.</li><li>Observe birds daily for signs of disease: reduced feed and water intake, respiratory signs, diarrhoea, increased mortality. Report quickly to the vet.</li><li>Control worms, coccidiosis and external parasites as the vet advises.</li></ul><h4>Records</h4><table><tr><th>Record</th><th>Use</th></tr><tr><td>Daily mortality and culls</td><td>Detect disease early</td></tr><tr><td>Feed and water intake</td><td>A drop in water intake is often the first sign of a problem</td></tr><tr><td>Weekly body weight and uniformity</td><td>Compare with the strain target</td></tr><tr><td>Lighting and temperature</td><td>Show the programme was followed</td></tr><tr><td>Vaccinations and treatments</td><td>Health history for the laying farm</td></tr></table><h4>Transfer to the laying house</h4><p>Transfer at the age and weight recommended, before the first eggs. Handle birds gently by the legs or body, never by the wings or neck. Transfer in cool hours, keep crates well ventilated, and make sure feed and water are available immediately in the laying house. Match the drinker and feeder type to what birds used in rearing where possible, or train birds to the new system. Hand over all flock records to the laying farm.</p><h4>Key points</h4><ul><li>Rearing quality decides lifetime laying performance; follow the strain's management guide.</li><li>Pre-heat and prepare the house; watch chick behaviour and crop fill on arrival.</li><li>Weigh samples weekly and manage uniformity, feeder space and ration changes.</li><li>Never increase day length during rearing unless the programme says so; light stimulation starts lay at target weight.</li><li>Follow the vet's vaccination programme, keep records and transfer gently before first eggs.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is body weight uniformity important in pullets?",
+   "options": [
+    {
+     "text": "A uniform flock comes into lay together and peaks well",
+     "correct": true
+    },
+    {
+     "text": "It makes cleaning easier",
+     "correct": false
+    },
+    {
+     "text": "It reduces the need for water",
+     "correct": false
+    },
+    {
+     "text": "It changes egg colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does huddling of chicks under the brooder indicate?",
+   "options": [
+    {
+     "text": "They are too hot",
+     "correct": false
+    },
+    {
+     "text": "They are cold",
+     "correct": true
+    },
+    {
+     "text": "They are thirsty only",
+     "correct": false
+    },
+    {
+     "text": "They are well",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What controls sexual maturity in pullets?",
+   "options": [
+    {
+     "text": "Litter type",
+     "correct": false
+    },
+    {
+     "text": "Feeder colour",
+     "correct": false
+    },
+    {
+     "text": "Day length (light)",
+     "correct": true
+    },
+    {
+     "text": "The number of drinkers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should ration changes be made?",
+   "options": [
+    {
+     "text": "Only on the first of each month",
+     "correct": false
+    },
+    {
+     "text": "Whenever feed is cheapest",
+     "correct": false
+    },
+    {
+     "text": "Never during rearing",
+     "correct": false
+    },
+    {
+     "text": "By body weight and age as the guide says",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which record is often the first sign of a problem in the flock?",
+   "options": [
+    {
+     "text": "A drop in water intake",
+     "correct": true
+    },
+    {
+     "text": "The house paint colour",
+     "correct": false
+    },
+    {
+     "text": "The number of visitors",
+     "correct": false
+    },
+    {
+     "text": "The feed price",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Day length should be increased during rearing whenever the farm manager wants faster growth.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pullets should be handled by the legs or body, never by the wings or neck, during transfer.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be done before chicks arrive? (select all that apply)",
+   "options": [
+    {
+     "text": "Clean and disinfect the house",
+     "correct": true
+    },
+    {
+     "text": "Pre-heat the house",
+     "correct": true
+    },
+    {
+     "text": "Flush water lines",
+     "correct": true
+    },
+    {
+     "text": "Turn off the ventilation alarms",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

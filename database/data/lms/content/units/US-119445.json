@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119445",
+ "title": "Defeather poultry",
+ "lessons": [
+  {
+   "title": "From stunning to scalding",
+   "minutes": 15,
+   "html": "<h3>Getting birds ready for feather removal</h3>\n<p>Defeathering means taking all the feathers off the bird without damaging the skin. Clean skin with no torn patches or leftover feathers gives a good-looking carcass that sells well. Before plucking, the birds go through stunning, bleeding and scalding.</p>\n<h4>Stunning and bleeding</h4>\n<p>Live birds are hung on shackles and stunned so that they feel no pain. Then the neck is cut so the blood drains out. Birds must be properly bled before scalding. A bird that goes into the scalder still alive or badly bled turns red. It is called a \"red bird\" and is usually condemned. The Animals Protection Act 71 of 1962 requires that animals are handled without needless suffering, so report any bird that does not seem properly stunned.</p>\n<h4>Scalding</h4>\n<p>The scalder is a tank of hot water. The birds move through it on the line. The hot water loosens the feathers so the plucker can pull them out.</p>\n<ul>\n<li><strong>Water too cold or time too short:</strong> feathers stay tight and the plucker cannot remove them.</li>\n<li><strong>Water too hot or time too long:</strong> the skin cooks, tears in the plucker and looks patchy.</li>\n</ul>\n<p>Your plant sets the water temperature and line speed. Check the thermometer or display at the times on your checklist, write it down, and tell the supervisor if it is outside the limits.</p>\n<h4>Keeping the scalder clean</h4>\n<ul>\n<li>The water must keep flowing and overflowing to wash away dirt and blood.</li>\n<li>Remove feathers and dirt from the screens when you are told to.</li>\n<li>The scalder is emptied and cleaned at the end of the shift.</li>\n</ul>\n<h4>Safety at the scalder</h4>\n<p>Hot water burns. Steam makes the floor wet and slippery.</p>\n<ul>\n<li>Wear boots, apron and gloves.</li>\n<li>Never lean over the tank or put your hand into the water while the line runs.</li>\n<li>If someone is burned, cool the burn with cool running water and call the first aider.</li>\n</ul>"
+  },
+  {
+   "title": "Plucking and finishing",
+   "minutes": 15,
+   "html": "<h3>Using the plucker</h3>\n<p>After the scalder, the birds pass through the <strong>plucker</strong> (also called the picker). It has rows of spinning discs with rubber fingers. The fingers rub against the birds and pull out the feathers. Water sprays wash the feathers away into a channel.</p>\n<h4>Setting and checking the plucker</h4>\n<ul>\n<li>The plucker banks must be the right distance from the birds. Too close and the skin tears or wings break. Too far and feathers stay behind.</li>\n<li>Check the rubber fingers. Worn, broken or missing fingers must be replaced.</li>\n<li>Check that the water sprays are working.</li>\n<li>Only a trained person may adjust the plucker, and only when it is stopped.</li>\n</ul>\n<h4>Finishing</h4>\n<p>Some feathers stay behind, especially small pin feathers and hair-like feathers. These are removed by:</p>\n<ul>\n<li><strong>hand picking</strong> at the finishing station, using fingers or a small knife;</li>\n<li><strong>singeing</strong> with a gas flame in some plants, which burns off fine hairs.</li>\n</ul>\n<p>Feet are often scalded and peeled in a separate machine so they can be sold.</p>\n<h4>Checking quality</h4>\n<p>Look at each bird as it passes you. Remove or report:</p>\n<ul>\n<li>feathers left on the wings, tail or neck;</li>\n<li>torn skin and broken wings;</li>\n<li>red or bruised birds;</li>\n<li>dirty birds with faeces on the skin.</li>\n</ul>\n<p>If many birds have the same fault, tell the supervisor. The scalder or plucker may need adjusting.</p>\n<h4>Hygiene</h4>\n<p>Feathers carry dirt and germs. Wash your hands and gloves often. Keep feathers off the floor in walkways. Do not carry birds from the dirty area into the clean area. The defeathering area is part of the \"dirty\" side of the plant.</p>"
+  },
+  {
+   "title": "Safety and cleaning in the defeathering area",
+   "minutes": 15,
+   "html": "<h3>Working safely with defeathering machines</h3>\n<p>Pluckers spin fast. They can catch gloves, sleeves, hair and fingers. Many hand injuries in abattoirs happen when people try to clear a machine while it is running.</p>\n<h4>Rules you must always follow</h4>\n<ul>\n<li><strong>Never</strong> put your hand into a running plucker to remove a bird or feathers.</li>\n<li>Stop the machine and lock it out before you clear a jam. Lockout means the power is switched off and locked, and you keep the key or tag, so no one can switch it on.</li>\n<li>Know where the emergency stop buttons are.</li>\n<li>Keep guards in place. Never remove or tie back a guard.</li>\n<li>Tie back long hair and do not wear loose clothing or jewellery.</li>\n<li>Use ear protection if the area is noisy.</li>\n</ul>\n<h4>Cleaning at the end of the shift</h4>\n<ol>\n<li>Stop and lock out the machines.</li>\n<li>Remove feathers and big dirt by hand or with a scraper.</li>\n<li>Rinse with water.</li>\n<li>Apply the cleaning chemical as you were trained. Wear the gloves and eye protection on the label.</li>\n<li>Scrub fingers, discs and the inside of the scalder.</li>\n<li>Rinse well, then apply sanitiser if your plant uses it.</li>\n<li>Check that no chemicals are left on surfaces that touch meat.</li>\n</ol>\n<p>Never mix cleaning chemicals. Some mixtures give off dangerous gas.</p>\n<h4>Feathers as waste</h4>\n<p>Feathers are collected in a channel or bin and sent to rendering or approved waste. Keep the feather channel clear so water does not overflow onto the floor.</p>\n<h4>Key points</h4>\n<ul>\n<li>Birds must be properly stunned and bled before scalding.</li>\n<li>Correct scald temperature and time give clean, unbroken skin.</li>\n<li>Check plucker fingers and settings; only adjust a stopped machine.</li>\n<li>Never put your hand into a running plucker &ndash; stop and lock out first.</li>\n<li>Remove leftover feathers and report damaged or red birds.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are birds scalded before plucking?",
+   "options": [
+    {
+     "text": "To kill germs on the feathers",
+     "correct": false
+    },
+    {
+     "text": "To cool the birds",
+     "correct": false
+    },
+    {
+     "text": "To make the birds heavier",
+     "correct": false
+    },
+    {
+     "text": "To loosen the feathers",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if the scald water is too hot?",
+   "options": [
+    {
+     "text": "The skin cooks and tears",
+     "correct": true
+    },
+    {
+     "text": "Feathers stay tight",
+     "correct": false
+    },
+    {
+     "text": "The birds bleed more",
+     "correct": false
+    },
+    {
+     "text": "Nothing happens",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What part of the plucker pulls out the feathers?",
+   "options": [
+    {
+     "text": "Hot air jets",
+     "correct": false
+    },
+    {
+     "text": "Steel knives",
+     "correct": false
+    },
+    {
+     "text": "Rubber fingers on spinning discs",
+     "correct": true
+    },
+    {
+     "text": "Brushes made of wire",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A bird is stuck in the plucker. What should you do?",
+   "options": [
+    {
+     "text": "Pull it out quickly while the machine runs",
+     "correct": false
+    },
+    {
+     "text": "Stop the machine and lock it out, then clear it",
+     "correct": true
+    },
+    {
+     "text": "Wait for it to fall out",
+     "correct": false
+    },
+    {
+     "text": "Push it through with a stick",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a red bird?",
+   "options": [
+    {
+     "text": "A bird that was not properly bled or was alive in the scalder",
+     "correct": true
+    },
+    {
+     "text": "A breed of chicken",
+     "correct": false
+    },
+    {
+     "text": "A bird with red feathers",
+     "correct": false
+    },
+    {
+     "text": "A bird ready for packing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only a trained person may adjust the plucker, and only when it is stopped.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to mix two cleaning chemicals to make them stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which faults should you look for after plucking? (select all that apply)",
+   "options": [
+    {
+     "text": "Feathers left on the wings",
+     "correct": true
+    },
+    {
+     "text": "Torn skin",
+     "correct": true
+    },
+    {
+     "text": "Birds that are too cold",
+     "correct": false
+    },
+    {
+     "text": "Broken wings",
+     "correct": true
+    },
+    {
+     "text": "Birds that are a little smaller than others",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-02",
+ "title": "Utilisation of Natural Resources in Crop and Livestock Farming",
+ "lessons": [
+  {
+   "title": "Assessing the farm's natural resources",
+   "minutes": 20,
+   "html": "<h3>Know what the farm has</h3><p>In this work experience module you take part in using and protecting the farm's natural resources: soil, water, veld, biodiversity and energy. Begin by assessing what the farm has, so that use can be planned within safe limits.</p><h4>Resource assessment tasks</h4><ul><li><strong>Soil:</strong> walk each land with your supervisor. Note soil colour, texture (sandy, loamy, clayey), slope, erosion signs and depth. Collect soil analysis reports and file them.</li><li><strong>Water:</strong> list all sources: boreholes, dams, rivers, municipal or scheme water. Note how each is used, whether flows or levels are measured, and whether the use is registered or licensed under the National Water Act 36 of 1998.</li><li><strong>Veld:</strong> describe the main grass and bush species in each camp, the condition of the veld and any bush encroachment. Note the recommended carrying capacity for the area.</li><li><strong>Biodiversity:</strong> mark wetlands, riparian zones, indigenous bush and areas with invasive alien plants.</li><li><strong>Energy:</strong> list diesel, electricity and solar use; note which pumps and machines use the most.</li></ul><h4>Making a resource map</h4><p>On a farm map, mark lands, camps, water points, sensitive areas and problem areas such as dongas and alien plant stands. Use colours or symbols and a key. This map becomes the base for your planning and for showing progress over time.</p><p>Take dated photographs from fixed points so later visits can be compared. A photo of a donga today and the same view after repair is strong evidence for your portfolio.</p><p>Ask your supervisor to check and sign your assessment.</p>"
+  },
+  {
+   "title": "Using soil, water and veld wisely",
+   "minutes": 20,
+   "html": "<h3>Practical resource management</h3><h4>Soil</h4><ul><li>Take part in soil sampling and help interpret results with your supervisor.</li><li>Apply lime and fertiliser as recommended, not by guesswork.</li><li>Use minimum tillage and keep residues on the surface where the system allows.</li><li>Help maintain contour banks and waterways; report new erosion.</li></ul><h4>Water</h4><ul><li>Read water meters or measure dam levels and record them weekly.</li><li>Check troughs, pipes and irrigation systems for leaks and fix or report them.</li><li>Help schedule irrigation using soil moisture readings or weather data.</li><li>Keep livestock out of sensitive river banks by using troughs and fencing.</li><li>Never wash spray equipment or dispose of chemicals near water.</li></ul><h4>Veld</h4><ul><li>Follow the grazing plan: move animals on the planned dates and record grazing days per camp.</li><li>Assess grass cover before and after grazing.</li><li>Help with bush control and alien plant clearing using approved methods and correct PPE.</li><li>Take part in fire management only under supervision: firebreaks must be prepared, the burn must follow a plan and local fire protection association rules, and firefighting equipment and people must be ready.</li></ul><p>The Conservation of Agricultural Resources Act 43 of 1983 requires land users to protect these resources and control declared weeds and invaders. Your records show that the farm is meeting this duty.</p><p>Write each task in your logbook with the date, what you did, the resource involved and the result, and ask your supervisor to sign it. Include photos where they help show the work done.</p><p>Discuss any problems you find with your supervisor the same day.</p>"
+  },
+  {
+   "title": "Recording, reporting and improving resource use",
+   "minutes": 20,
+   "html": "<h3>Evidence and continuous improvement</h3><h4>Records to keep</h4><table><tr><th>Resource</th><th>Record</th></tr><tr><td>Soil</td><td>Soil analysis results, lime and fertiliser applied per land</td></tr><tr><td>Water</td><td>Meter readings, irrigation applied, rainfall</td></tr><tr><td>Veld</td><td>Grazing days, stock numbers per camp, photo points</td></tr><tr><td>Biodiversity</td><td>Area cleared of alien plants, wetland condition</td></tr><tr><td>Energy</td><td>Diesel and electricity use per month</td></tr></table><h4>Analysing your records</h4><p>Calculate simple indicators. For example, if 600 mm of irrigation was applied to a land producing 12 t/ha of maize, compare this with another land that used 750 mm for the same yield. The first land uses water more efficiently; find out why, perhaps a better soil, better scheduling or fewer leaks.</p><h4>Reporting</h4><p>Write a short monthly report for your supervisor: what was done, problems found, readings, and recommendations. Use plain language, dates and numbers. Report urgent issues at once, such as a burst pipe, a pollution incident or a veld fire.</p><h4>Improvement project</h4><p>Choose one resource problem on the farm, such as a leaking dam wall, an eroding road or a stand of invasive wattle, and plan a small project to address it. Include the cause, proposed action, labour and cost, and how you will measure success. Carry out the project if your supervisor approves, and record before and after evidence.</p><h4>Key points</h4><ul><li>Start with a resource assessment and a map of the farm.</li><li>Use fixed photo points to show changes over time.</li><li>Record water readings, grazing days, fertiliser and energy use.</li><li>Fire management only under supervision, with firebreaks and a plan.</li><li>Use records to find and fix inefficient resource use.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should photographs be taken from fixed points?",
+   "options": [
+    {
+     "text": "They look better in a report",
+     "correct": false
+    },
+    {
+     "text": "So later photos can be compared to show change",
+     "correct": true
+    },
+    {
+     "text": "It is required for every photo on a farm",
+     "correct": false
+    },
+    {
+     "text": "To measure rainfall",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act requires land users to protect soil and veld and control declared weeds?",
+   "options": [
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Companies Act 71 of 2008",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Two lands both yield 12 t/ha. One used 600 mm of irrigation and the other 750 mm. Which is more water-efficient?",
+   "options": [
+    {
+     "text": "The land that used 600 mm",
+     "correct": true
+    },
+    {
+     "text": "The land that used 750 mm",
+     "correct": false
+    },
+    {
+     "text": "They are equally efficient",
+     "correct": false
+    },
+    {
+     "text": "It cannot be compared",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often should water meters or dam levels be recorded in this module?",
+   "options": [
+    {
+     "text": "Once a year",
+     "correct": false
+    },
+    {
+     "text": "Weekly",
+     "correct": true
+    },
+    {
+     "text": "Only when there is a drought",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be in place before a planned veld burn?",
+   "options": [
+    {
+     "text": "Only a box of matches",
+     "correct": false
+    },
+    {
+     "text": "Prepared firebreaks, a burning plan and firefighting equipment and people",
+     "correct": true
+    },
+    {
+     "text": "A windy day to spread the fire",
+     "correct": false
+    },
+    {
+     "text": "Livestock left in the camp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spray equipment may be washed in the farm dam if it is rinsed well afterwards.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A burst pipe or pollution incident should be reported immediately.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be listed when assessing water resources? (select all that apply)",
+   "options": [
+    {
+     "text": "All water sources, such as boreholes and dams",
+     "correct": true
+    },
+    {
+     "text": "How each source is used",
+     "correct": true
+    },
+    {
+     "text": "Whether the use is registered or licensed",
+     "correct": true
+    },
+    {
+     "text": "The colour of the water tank",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

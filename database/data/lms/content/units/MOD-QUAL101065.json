@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL101065",
+ "title": "Diploma in Animal Health",
+ "lessons": [
+  {
+   "title": "Primary animal health care",
+   "minutes": 18,
+   "html": "<h3>The animal health technician in the field</h3>\n<p>The Diploma in Animal Health (NQF 6) offered through distance learning trains animal health technicians (AHTs) who work mainly in disease prevention, primary animal health care and extension. AHTs are registered para-veterinary professionals with the South African Veterinary Council, and many work for provincial veterinary services, serving both commercial and communal farmers.</p>\n<h4>What is primary animal health care?</h4>\n<p>Primary animal health care means preventing disease and treating common, simple conditions close to where the animals are, before problems become serious. It focuses on:</p>\n<ul><li><strong>Vaccination</strong> against diseases such as anthrax, blackleg, lumpy skin disease, brucellosis (heifers) and rabies (dogs and cats), following the state programme and the product label.</li>\n<li><strong>Parasite control</strong>: dipping or pour-on treatments for ticks, and strategic deworming for roundworms such as wire-worm in sheep and goats.</li>\n<li><strong>Nutrition</strong>: lick blocks and supplements in winter, water quality, body condition scoring.</li>\n<li><strong>Basic husbandry</strong>: clean kraals, colostrum for newborn calves and lambs, hoof care, safe castration.</li>\n<li><strong>Recognising disease early</strong>: high fever, not eating, blisters, lameness, sudden deaths, abortions.</li></ul>\n<h4>The dip tank as a meeting point</h4>\n<p>In many communal areas the dip tank is where the AHT meets farmers each week. It is a chance to inspect cattle, count them, treat sick animals under the vet's protocols, collect samples, and give advice. The AHT also checks the strength of the dip and records how many animals passed through, which helps track herd sizes and disease patterns.</p>\n<h4>Working within scope</h4>\n<p>AHTs work within the scope defined for their profession. When a case is serious, unusual or involves a controlled disease under the Animal Diseases Act 35 of 1984, the technician must report it to the state veterinarian, stop movement of animals from the affected herd and help with sampling and control measures.</p>"
+  },
+  {
+   "title": "Extension: helping farmers change practices",
+   "minutes": 16,
+   "html": "<h3>Extension work</h3>\n<p>Extension means sharing knowledge so that farmers can improve their own practices. A technician who vaccinates a herd helps once; a technician who teaches the farmer why and when to vaccinate helps every year.</p>\n<h4>Principles of good extension</h4>\n<ul><li><strong>Start with the farmer's problem</strong>: ask what is worrying them, such as calves dying, cows not falling pregnant or goats losing weight.</li>\n<li><strong>Use simple language</strong> and the farmer's home language where possible.</li>\n<li><strong>Demonstrate</strong>: show how to give an injection under the skin, how to score body condition or use the FAMACHA eye-colour chart for wire-worm.</li>\n<li><strong>Use farmer groups</strong>: dip tank committees, livestock associations, farmers' days.</li>\n<li><strong>Follow up</strong> to see if the new practice worked.</li></ul>\n<h4>Example: reducing calf losses</h4>\n<p>A group of communal farmers reports many calves dying in their first weeks. The technician visits and finds calves are not suckling soon after birth, kraals are muddy and full of manure, and cows calve in poor condition at the end of winter. Practical advice could include ensuring calves drink colostrum within the first hours, cleaning and draining the kraal, supplementing cows in late winter, and treating navels. The technician records calf deaths for the next season to see if the advice made a difference.</p>\n<h4>Food safety and public health</h4>\n<p>AHTs also protect people. They advise on withdrawal periods (follow the product label or the vet) before milk is sold or animals are slaughtered, support rabies vaccination of dogs, and educate communities about zoonoses such as anthrax: never open or eat an animal that died suddenly, and report it.</p>\n<h4>Key points</h4>\n<ul><li>Primary animal health care prevents disease and treats simple cases close to the animals.</li>\n<li>Vaccination, parasite control, nutrition and husbandry are its core tools.</li>\n<li>The dip tank is a key meeting point between technicians and communal farmers.</li>\n<li>Suspected controlled diseases must be reported to the state veterinarian.</li>\n<li>Good extension starts with the farmer's problem, demonstrates, and follows up.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main aim of primary animal health care?",
+   "options": [
+    {
+     "text": "Running abattoirs",
+     "correct": false
+    },
+    {
+     "text": "Selling medicines at a profit",
+     "correct": false
+    },
+    {
+     "text": "Performing complex surgery",
+     "correct": false
+    },
+    {
+     "text": "Preventing disease and treating simple conditions early, close to the animals",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool is used to check sheep and goats for wire-worm anaemia?",
+   "options": [
+    {
+     "text": "Hoof knife",
+     "correct": false
+    },
+    {
+     "text": "FAMACHA eye-colour chart",
+     "correct": true
+    },
+    {
+     "text": "Body weight tape",
+     "correct": false
+    },
+    {
+     "text": "Dip strength test",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where do technicians in many communal areas meet farmers each week?",
+   "options": [
+    {
+     "text": "At the bank",
+     "correct": false
+    },
+    {
+     "text": "At the abattoir",
+     "correct": false
+    },
+    {
+     "text": "At the dip tank",
+     "correct": true
+    },
+    {
+     "text": "At the auction only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Calves are dying soon after birth. Which advice from the lessons is correct?",
+   "options": [
+    {
+     "text": "Stop supplementing cows in winter",
+     "correct": false
+    },
+    {
+     "text": "Ensure calves drink colostrum within the first hours",
+     "correct": true
+    },
+    {
+     "text": "Leave manure in the kraal for warmth",
+     "correct": false
+    },
+    {
+     "text": "Keep calves away from cows for a day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a community do with an animal that died suddenly and may have anthrax?",
+   "options": [
+    {
+     "text": "Do not open or eat it, and report it",
+     "correct": true
+    },
+    {
+     "text": "Slaughter and share the meat quickly",
+     "correct": false
+    },
+    {
+     "text": "Skin it to save the hide",
+     "correct": false
+    },
+    {
+     "text": "Feed it to the dogs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Good extension work starts with the farmer's own problem.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An animal health technician may handle a suspected controlled disease alone without informing the state veterinarian.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are core tools of primary animal health care? (select all that apply)",
+   "options": [
+    {
+     "text": "Vaccination",
+     "correct": true
+    },
+    {
+     "text": "Parasite control",
+     "correct": true
+    },
+    {
+     "text": "Major orthopaedic surgery",
+     "correct": false
+    },
+    {
+     "text": "Nutrition",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

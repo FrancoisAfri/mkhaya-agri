@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-13172",
+ "title": "Understand the employer/employee relationship",
+ "lessons": [
+  {
+   "title": "The employment relationship and contract",
+   "minutes": 15,
+   "html": "<h3>Who is an employer and who is an employee?</h3> <p>The <strong>employer</strong> is the person or business that gives work and pays wages, for example the stud farm owner or the training yard. The <strong>employee</strong> is the person who does the work and gets paid. The two have an agreement. Each side has duties and rights.</p> <h4>The contract of employment</h4> <p>A contract is an agreement. It can be spoken or written, but a written contract is better because both sides can check it. The employer must give the employee written details of employment. These details include:</p> <ul> <li>Names of the employer and employee</li> <li>Job title and description of the work</li> <li>Place of work</li> <li>Starting date</li> <li>Working hours and days</li> <li>Wage and how often it is paid</li> <li>Leave</li> <li>Notice period to end the job</li> </ul> <p>Read the contract before you sign. Ask questions about anything you do not understand. Keep your copy safe.</p> <h4>Laws that protect workers</h4> <ul> <li><strong>Basic Conditions of Employment Act 75 of 1997</strong> - working hours, overtime, leave, payslips, notice</li> <li><strong>Labour Relations Act 66 of 1995</strong> - fair dismissal, unions, disputes, the CCMA</li> <li><strong>Occupational Health and Safety Act 85 of 1993</strong> - safety at work</li> <li><strong>Employment Equity Act 55 of 1998</strong> - no unfair discrimination</li> </ul> <p>Farm workers are also covered by the national minimum wage and special rules for the farm sector. Your supervisor or the Department of Employment and Labour can tell you the current amounts.</p> <h4>The payslip</h4> <p>Every payday you should get a payslip. It shows your pay, the hours worked, overtime, and deductions such as UIF. Check it every time. If something is wrong, ask politely.</p>"
+  },
+  {
+   "title": "Rights, duties and solving problems",
+   "minutes": 15,
+   "html": "<h3>Duties of the employee</h3> <ul> <li>Come to work on time and do the work agreed</li> <li>Follow reasonable instructions</li> <li>Look after the employer's property, horses and equipment</li> <li>Work safely and follow the rules</li> <li>Be honest</li> <li>Tell your supervisor if you are sick and cannot come to work</li> </ul> <h3>Duties of the employer</h3> <ul> <li>Pay the agreed wage on time</li> <li>Give a safe workplace and protective clothing</li> <li>Give leave as the law says</li> <li>Treat workers fairly and with respect</li> <li>Register workers for UIF and pay contributions</li> </ul> <h4>Your rights</h4> <ul> <li>Fair treatment without discrimination</li> <li>To join a trade union if you want to</li> <li>Annual leave, sick leave and family responsibility leave</li> <li>A fair process before you are disciplined or dismissed</li> </ul> <h4>Discipline</h4> <p>Most workplaces have a disciplinary code. It lists offences such as coming late, being drunk at work, stealing, or hurting an animal. Small problems usually get a verbal or written warning first. Serious offences can lead to a hearing. You have the right to hear what you are accused of, to tell your side and to have a co-worker or union representative help you.</p> <h4>Grievances</h4> <p>A grievance is a complaint by a worker. If you feel you are treated unfairly:</p> <ol> <li>Speak to your supervisor calmly first.</li> <li>If it is not solved, follow the grievance procedure: often a written complaint to the manager.</li> <li>If still not solved, you can get help from a union or refer the dispute to the CCMA (Commission for Conciliation, Mediation and Arbitration). The CCMA does not charge workers.</li> </ol> <h4>A good working relationship</h4> <p>Respect works both ways. Talk early about small problems before they grow. Keep promises. Example: Lindiwe's pay was short by two overtime hours. She showed the yard manager her time sheet. He checked, agreed and fixed it next payday. Calm talk solved it.</p> <h4>Key points</h4> <ul> <li>The employer gives work and pay; the employee does the agreed work.</li> <li>Get written details of employment and read before you sign.</li> <li>The BCEA and LRA protect workers' basic conditions and fair treatment.</li> <li>Check your payslip every payday.</li> <li>Raise grievances calmly, follow the procedure, and use the CCMA if needed.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who is the employer?",
+   "options": [
+    {
+     "text": "The person who does the work",
+     "correct": false
+    },
+    {
+     "text": "The person or business that gives work and pays wages",
+     "correct": true
+    },
+    {
+     "text": "The vet",
+     "correct": false
+    },
+    {
+     "text": "The horse owner's friend",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers working hours, leave and payslips?",
+   "options": [
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before signing a contract?",
+   "options": [
+    {
+     "text": "Sign quickly",
+     "correct": false
+    },
+    {
+     "text": "Read it and ask about anything unclear",
+     "correct": true
+    },
+    {
+     "text": "Give it to a friend to sign",
+     "correct": false
+    },
+    {
+     "text": "Throw it away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a grievance?",
+   "options": [
+    {
+     "text": "A complaint by a worker",
+     "correct": true
+    },
+    {
+     "text": "A type of saddle",
+     "correct": false
+    },
+    {
+     "text": "A pay increase",
+     "correct": false
+    },
+    {
+     "text": "A warning from the boss",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where can a dispute be referred if it is not solved at work?",
+   "options": [
+    {
+     "text": "The SPCA",
+     "correct": false
+    },
+    {
+     "text": "The CCMA",
+     "correct": true
+    },
+    {
+     "text": "The feed store",
+     "correct": false
+    },
+    {
+     "text": "The police only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A worker has the right to tell their side at a disciplinary hearing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is the employee's duty to register themselves for UIF and pay all contributions alone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are duties of the employee? (select all that apply)",
+   "options": [
+    {
+     "text": "Come to work on time",
+     "correct": true
+    },
+    {
+     "text": "Look after the employer's horses and equipment",
+     "correct": true
+    },
+    {
+     "text": "Pay the other workers",
+     "correct": false
+    },
+    {
+     "text": "Follow reasonable instructions",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

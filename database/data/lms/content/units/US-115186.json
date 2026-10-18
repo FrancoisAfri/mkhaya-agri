@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-115186",
+  "title": "Apply safety and health procedures",
+  "lessons": [
+    {
+      "title": "Hazards in the packhouse and your rights and duties",
+      "minutes": 15,
+      "html": "<h3>The law and you</h3><p>The Occupational Health and Safety Act 85 of 1993 (OHS Act) protects people at work. Your employer must provide a safe workplace, safe machines, training, and the protective equipment you need. You, the worker, must:</p><ul><li>Follow safety rules and instructions.</li><li>Use the protective equipment you are given.</li><li>Not interfere with or misuse safety equipment.</li><li>Report unsafe conditions and every injury to your supervisor or health and safety representative as soon as possible.</li></ul><p>Workplaces have <strong>health and safety representatives</strong> chosen from the workers. They help check safety and listen to workers' concerns.</p><h4>Common packhouse hazards</h4><table><tr><th>Hazard</th><th>Example</th></tr><tr><td>Moving machinery</td><td>Belts, rollers, chains, carton machines, strapping machines</td></tr><tr><td>Forklifts and pallet jacks</td><td>Being hit or crushed; falling loads</td></tr><tr><td>Slips and trips</td><td>Wet floors, fruit on the floor, loose straps</td></tr><tr><td>Chemicals</td><td>Fruit treatments, waxes, cleaning chemicals</td></tr><tr><td>Noise</td><td>Sizers, compressors, fans</td></tr><tr><td>Cold</td><td>Working in cold rooms</td></tr><tr><td>Lifting and repetitive work</td><td>Back strain, sore wrists and shoulders</td></tr><tr><td>Electricity</td><td>Damaged cables, wet electrical panels</td></tr><tr><td>Fire</td><td>Cardboard stores, electrical faults, gas forklifts</td></tr></table><h4>Safety signs</h4><p>Learn the signs: red circles mean prohibited, yellow triangles warn of danger, blue circles mean you must do something (wear PPE), and green signs show safe conditions such as exits and first aid.</p><h4>Health hazards you cannot see</h4><p>Not all hazards cause an injury straight away. Loud noise every day slowly damages hearing, and the damage cannot be repaired. Breathing chemical fumes or dust over months can harm the lungs. Standing for long hours and repeating the same movement thousands of times can cause pain in the back, wrists and shoulders. These are called <strong>occupational health</strong> hazards. Your employer may arrange medical checks, such as hearing tests, for workers in noisy areas. Tell your supervisor or the health and safety representative early if you notice pain, ringing in the ears or breathing problems, so the cause can be found and fixed.</p>"
+    },
+    {
+      "title": "Working safely and responding to emergencies",
+      "minutes": 20,
+      "html": "<h3>Personal protective equipment (PPE)</h3><p>Wear the PPE given for your job: safety shoes, hearing protection near noisy machines, gloves and goggles for chemicals, warm clothing in cold rooms, and high-visibility vests where forklifts work. Check PPE before use, keep it clean and ask for a replacement if it is damaged.</p><h4>Safe work rules</h4><ul><li>Never reach into moving machines. Keep guards in place.</li><li>Only trained and authorised people may repair or clear machines, using lockout procedures.</li><li>Walk only in marked walkways. Make eye contact with forklift drivers. Never ride on forklifts.</li><li>Pick up fruit and straps from the floor; report spills and wet floors.</li><li>Lift correctly: feet apart, bend your knees, keep your back straight and the load close, do not twist. Ask for help with heavy loads.</li><li>Change position, stretch, and use anti-fatigue mats where you stand for long periods.</li><li>Never mix chemicals. Read the label and safety data sheet.</li><li>Do not come to work under the influence of alcohol or drugs.</li></ul><h4>Fire</h4><ul><li>Know where the fire extinguishers, hose reels, alarms and exits are.</li><li>Keep exits and fire equipment clear, never blocked by pallets or cartons.</li><li>Smoke only in the marked smoking area.</li><li>If there is a fire, raise the alarm, leave by the nearest exit and go to the assembly point. Only use an extinguisher if you are trained and it is safe.</li></ul><h4>Injuries and first aid</h4><p>If someone is injured: make the area safe (for example press the emergency stop), call the first aider and your supervisor, and do not move a seriously injured person unless they are in danger. Every injury, even a small cut, must be reported and recorded. Injured workers may be able to claim under the Compensation for Occupational Injuries and Diseases Act (COIDA). First aid is only given by trained first aiders; hands-on training by an accredited provider is required.</p><h4>Evacuation</h4><p>When the evacuation alarm sounds, stop work, switch off machines if it is safe, walk (do not run) to the assembly point and wait to be counted. Never go back inside until told it is safe.</p><h4>Key points</h4><ul><li>The OHS Act 85 of 1993 gives duties to both employer and worker.</li><li>Know the hazards: machines, forklifts, slips, chemicals, noise, cold, lifting and fire.</li><li>Wear your PPE and follow safe work rules.</li><li>Report every injury and unsafe condition.</li><li>Know the exits, fire equipment and assembly point.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which law sets out health and safety duties at work in South Africa?",
+      "options": [
+        {
+          "text": "The Occupational Health and Safety Act 85 of 1993",
+          "correct": true
+        },
+        {
+          "text": "The National Water Act",
+          "correct": false
+        },
+        {
+          "text": "The Companies Act",
+          "correct": false
+        },
+        {
+          "text": "The Meat Safety Act",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a worker's duty under the OHS Act?",
+      "options": [
+        {
+          "text": "Buy their own machines",
+          "correct": false
+        },
+        {
+          "text": "Use the protective equipment given",
+          "correct": true
+        },
+        {
+          "text": "Train the manager",
+          "correct": false
+        },
+        {
+          "text": "Ignore small injuries",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a yellow triangle safety sign mean?",
+      "options": [
+        {
+          "text": "First aid",
+          "correct": false
+        },
+        {
+          "text": "You must wear PPE",
+          "correct": false
+        },
+        {
+          "text": "Warning of danger",
+          "correct": true
+        },
+        {
+          "text": "Smoking area",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do when the evacuation alarm sounds?",
+      "options": [
+        {
+          "text": "Finish your carton first",
+          "correct": false
+        },
+        {
+          "text": "Run to your car",
+          "correct": false
+        },
+        {
+          "text": "Hide in the cold room",
+          "correct": false
+        },
+        {
+          "text": "Walk to the assembly point and wait to be counted",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should you lift a heavy carton?",
+      "options": [
+        {
+          "text": "Bend your knees, keep your back straight and the load close",
+          "correct": true
+        },
+        {
+          "text": "Bend at the waist and twist",
+          "correct": false
+        },
+        {
+          "text": "Lift it above your head quickly",
+          "correct": false
+        },
+        {
+          "text": "Hold it at arm's length",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Even a small cut at work must be reported and recorded.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Fire exits may be blocked with pallets during the busy season.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are hazards in a packhouse? (select all that apply)",
+      "options": [
+        {
+          "text": "Forklifts",
+          "correct": true
+        },
+        {
+          "text": "Wet floors",
+          "correct": true
+        },
+        {
+          "text": "Noise from machines",
+          "correct": true
+        },
+        {
+          "text": "A clean, marked walkway",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

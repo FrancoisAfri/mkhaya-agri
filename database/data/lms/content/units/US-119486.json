@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119486",
+ "title": "Manage the production of table eggs",
+ "lessons": [
+  {
+   "title": "Planning and monitoring egg production",
+   "minutes": 15,
+   "html": "<h3>From pullet to peak</h3><p>Table egg production depends on bringing well-grown pullets into lay at the right time and then keeping them productive for as long as is profitable. A supervisor manages the daily work of the layer houses and must understand the numbers that show whether the flock is on track.</p><h4>Key performance measures</h4><table><tr><th>Measure</th><th>What it means</th></tr><tr><td>Hen-day production (%)</td><td>Eggs laid today divided by hens alive today, times 100</td></tr><tr><td>Hen-housed production</td><td>Eggs laid divided by the number of hens originally housed</td></tr><tr><td>Egg weight and size grading</td><td>Proportion of large and extra-large eggs, which affects price</td></tr><tr><td>Feed per hen per day</td><td>Intake against the breed standard</td></tr><tr><td>Feed per dozen eggs</td><td>Efficiency</td></tr><tr><td>Mortality</td><td>Health and welfare</td></tr></table><p>Plot hen-day production weekly against the breed standard curve. A healthy flock rises quickly to peak and then declines slowly. A sudden drop, or a peak far below standard, needs investigation.</p><h4>Example calculation</h4><p>A house has 9 800 hens alive and collects 8 820 eggs today. Hen-day production = 8 820 / 9 800 x 100 = 90%.</p><h4>Causes of production drops</h4><ul><li>Disease (for example infectious bronchitis or Newcastle disease) – often with shell changes.</li><li>Feed problems – change of feed, a running-out feeder, poor feed quality.</li><li>Water shortage, even for a few hours.</li><li>Heat stress.</li><li>Light failure or a shortened light programme.</li><li>Stress from handling, noise or predators.</li></ul><p>Report any drop immediately with the possible causes you have checked.</p>"
+  },
+  {
+   "title": "Collecting, grading and handling eggs",
+   "minutes": 15,
+   "html": "<h3>Protecting quality after the egg is laid</h3><p>An egg is at its best quality the moment it is laid. Good handling slows quality loss and keeps cracks and dirt to a minimum.</p><h4>Collection</h4><ul><li>Collect at set times each day. In cage and aviary systems, run egg belts gently and watch for jams that crack eggs.</li><li>Collect floor and system eggs separately in alternative systems.</li><li>Remove broken eggs and clean egg belts and collection points to prevent contamination.</li></ul><h4>Grading</h4><p>Eggs are graded for quality (clean, uncracked, normal shape, sound shell) and sorted by mass into size classes as required by South African regulations for eggs sold to the public. Your packhouse procedure sets the classes and the checks. Candling is used to detect cracks, blood spots and other defects.</p><h4>Rejected eggs</h4><ul><li>Cracked, dirty and misshapen eggs are kept out of graded packs and handled as the farm procedure says.</li><li>Keep records of the percentage of seconds; a rise often points to a problem in the house (shell quality, belt damage or a disease).</li></ul><h4>Storage and dispatch</h4><ul><li>Store eggs in a cool, clean area, away from strong smells, and avoid temperature swings that cause condensation.</li><li>Pack in clean trays and boxes; label with the information the customer and regulations require, including pack date.</li><li>Dispatch oldest stock first (first in, first out).</li></ul>"
+  },
+  {
+   "title": "Costs, records and end of lay",
+   "minutes": 15,
+   "html": "<h3>Running the house as a business</h3><h4>Feed is the biggest cost</h4><p>Feed is usually the largest cost in egg production. Reduce waste by setting feeder levels correctly, fixing spillage, controlling rodents and wild birds, and keeping the house temperature in the correct range so birds do not eat extra feed to stay warm.</p><h4>Daily house records</h4><ul><li>Eggs collected, graded and rejected.</li><li>Feed delivered and feed per hen per day.</li><li>Water meter reading.</li><li>Mortality and culls.</li><li>Min/max temperature and light hours.</li><li>Vaccinations, treatments and their withdrawal periods (eggs from treated birds may not be sold until the period on the label or vet prescription has passed).</li></ul><h4>Culling non-layers</h4><p>Hens that are not laying still eat. Trained staff can identify non-layers by signs such as a pale, shrunken comb, a dry, small vent and narrow pubic bone spacing. Remove them as the farm procedure allows, handling birds humanely in line with the Animals Protection Act 71 of 1962.</p><h4>End of lay</h4><p>The flock is replaced when the value of eggs produced no longer covers feed and other costs, taking into account the price of spent hens and the cost of a replacement flock. The farm manager makes this decision using your records. Plan depopulation, catching and transport humanely and in cool conditions.</p><h4>Key points</h4><ul><li>Track hen-day production weekly against the breed standard and investigate any sudden drop.</li><li>Check water, feed, light and heat first when production falls, and report it immediately.</li><li>Collect eggs at set times, grade carefully and store cool without temperature swings.</li><li>Do not sell eggs from treated birds until the withdrawal period has passed.</li><li>Good records drive feeding, culling and end-of-lay decisions.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A house has 10 000 hens alive and collects 9 000 eggs today. What is hen-day production?",
+   "options": [
+    {
+     "text": "100%",
+     "correct": false
+    },
+    {
+     "text": "80%",
+     "correct": false
+    },
+    {
+     "text": "95%",
+     "correct": false
+    },
+    {
+     "text": "90%",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is usually the largest cost in table egg production?",
+   "options": [
+    {
+     "text": "Feed",
+     "correct": true
+    },
+    {
+     "text": "Wages for one worker",
+     "correct": false
+    },
+    {
+     "text": "Electricity",
+     "correct": false
+    },
+    {
+     "text": "Egg boxes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a common cause of a sudden drop in egg production?",
+   "options": [
+    {
+     "text": "Well-maintained egg belts",
+     "correct": false
+    },
+    {
+     "text": "A water shortage for a few hours",
+     "correct": true
+    },
+    {
+     "text": "A clean egg store",
+     "correct": false
+    },
+    {
+     "text": "Correct feeder height",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which order should eggs be dispatched in?",
+   "options": [
+    {
+     "text": "Oldest first (first in, first out)",
+     "correct": true
+    },
+    {
+     "text": "Newest first",
+     "correct": false
+    },
+    {
+     "text": "Largest first",
+     "correct": false
+    },
+    {
+     "text": "Random order",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign suggests a hen is not laying?",
+   "options": [
+    {
+     "text": "Wide pubic bone spacing",
+     "correct": false
+    },
+    {
+     "text": "Pale, shrunken comb and small dry vent",
+     "correct": true
+    },
+    {
+     "text": "Bright red, full comb",
+     "correct": false
+    },
+    {
+     "text": "Large, moist vent",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Eggs from birds treated with medicine must not be sold until the withdrawal period has passed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A rise in the percentage of cracked eggs never has anything to do with conditions in the house.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which records should be kept daily in a layer house? (select all that apply)",
+   "options": [
+    {
+     "text": "Water meter reading",
+     "correct": true
+    },
+    {
+     "text": "The workers' favourite radio station",
+     "correct": false
+    },
+    {
+     "text": "Mortality and culls",
+     "correct": true
+    },
+    {
+     "text": "Eggs collected and rejected",
+     "correct": true
+    },
+    {
+     "text": "The colour of the truck that delivers feed",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

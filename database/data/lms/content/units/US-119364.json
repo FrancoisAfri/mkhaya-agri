@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119364",
+ "title": "Evaluate and solve data handling and probability problems within given contexts",
+ "lessons": [
+  {
+   "title": "Collecting and showing data",
+   "minutes": 15,
+   "html": "<h3>What is data?</h3> <p>Data is information we collect, often as numbers. On a horse farm we collect data all the time: how many bales of hay we use, how much water each horse drinks, how many foals are born each month.</p> <h4>Collecting data with a tally</h4> <p>A tally is a quick way to count. Draw one line for each item. Every fifth line goes across the first four. Then you can count in fives.</p> <p>Example: the yard counts how many horses lose a shoe each day for one week. Monday 2, Tuesday 0, Wednesday 1, Thursday 3, Friday 1, Saturday 0, Sunday 1.</p> <h4>Putting data in a table</h4> <table><tr><th>Day</th><th>Lost shoes</th></tr> <tr><td>Mon</td><td>2</td></tr><tr><td>Tue</td><td>0</td></tr><tr><td>Wed</td><td>1</td></tr><tr><td>Thu</td><td>3</td></tr><tr><td>Fri</td><td>1</td></tr><tr><td>Sat</td><td>0</td></tr><tr><td>Sun</td><td>1</td></tr></table> <h4>Graphs</h4> <p>A <strong>bar graph</strong> shows each day as a bar. A tall bar means a big number. We can see at once that Thursday had the most lost shoes. Maybe the horses worked on stony ground that day.</p> <p>A <strong>pictogram</strong> uses small pictures. One horseshoe picture can stand for one lost shoe.</p> <h4>Reading the data</h4> <ul> <li><strong>Total:</strong> add all the numbers. 2 + 0 + 1 + 3 + 1 + 0 + 1 = 8 shoes in the week.</li> <li><strong>Most:</strong> the biggest number is 3, on Thursday.</li> <li><strong>Least:</strong> the smallest number is 0, on Tuesday and Saturday.</li> <li><strong>Average (mean):</strong> total divided by number of days. 8 ÷ 7 is a little more than 1 shoe a day.</li> </ul> <h4>Why it matters</h4> <p>Data helps us make good decisions. If the farrier knows the yard loses about 8 shoes a week, he can bring enough shoes and nails. If feed data shows a horse eats less than usual, we can call the vet early.</p> <p>Always write data down neatly, on the day, with the date. Data that is guessed or written later is not reliable.</p>"
+  },
+  {
+   "title": "Probability: how likely is it?",
+   "minutes": 15,
+   "html": "<h3>What is probability?</h3> <p>Probability tells us how likely something is to happen. We use words like:</p> <ul> <li><strong>Impossible</strong> - it cannot happen. A horse will lay an egg.</li> <li><strong>Unlikely</strong> - it probably will not happen. Snow in Durban in summer.</li> <li><strong>Even chance</strong> - it may or may not happen, 50/50. A foal will be a colt or a filly.</li> <li><strong>Likely</strong> - it probably will happen. Rain in the Highveld in January.</li> <li><strong>Certain</strong> - it will happen. The sun will rise tomorrow.</li> </ul> <h4>Probability with numbers</h4> <p>We can write probability as a fraction:</p> <p><strong>Probability = number of ways it can happen ÷ total number of possible results</strong></p> <p>Example: a bucket has 10 carrots. 3 are big and 7 are small. You pick one without looking. The chance of a big carrot is 3 out of 10, or 3/10. The chance of a small one is 7/10. The two add up to 10/10, which is 1 (certain you get a carrot).</p> <p>Probability is always between 0 (impossible) and 1 (certain).</p> <h4>Using past data</h4> <p>Sometimes we use data from the past to guess the future. Example: on a stud farm, out of 20 mares last season, 16 had a foal. So the chance a mare had a foal was 16/20, which is 4/5. The manager can expect about 4 out of every 5 mares to foal this year too. This is a guess, not a promise.</p> <h4>Solving problems in context</h4> <p>Problem: the feed store has 5 bags of horse cubes and 15 bags of oats. A worker grabs one bag in the dark. What is the chance it is cubes?</p> <ol> <li>Total bags: 5 + 15 = 20.</li> <li>Bags of cubes: 5.</li> <li>Probability: 5/20 = 1/4.</li> </ol> <p>So it is unlikely, but possible. Lesson: label and stack bags properly so nobody grabs the wrong feed.</p> <h4>Be careful with data</h4> <p>A small amount of data can fool us. If one horse got colic after eating new hay, it does not prove the hay is bad. Collect more data and ask an expert.</p> <h4>Key points</h4> <ul> <li>Collect data with tallies and put it in tables.</li> <li>Bar graphs and pictograms help us see data quickly.</li> <li>Average = total divided by how many numbers.</li> <li>Probability goes from 0 (impossible) to 1 (certain).</li> <li>Probability = ways it can happen ÷ all possible results.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "The yard used 4, 6, 5 and 5 bales of hay on four days. What is the total?",
+   "options": [
+    {
+     "text": "15",
+     "correct": false
+    },
+    {
+     "text": "20",
+     "correct": true
+    },
+    {
+     "text": "25",
+     "correct": false
+    },
+    {
+     "text": "18",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Using the same numbers (4, 6, 5, 5), what is the average per day?",
+   "options": [
+    {
+     "text": "4",
+     "correct": false
+    },
+    {
+     "text": "6",
+     "correct": false
+    },
+    {
+     "text": "5",
+     "correct": true
+    },
+    {
+     "text": "20",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A bucket has 3 big and 7 small carrots. What is the chance of picking a big one?",
+   "options": [
+    {
+     "text": "3/10",
+     "correct": true
+    },
+    {
+     "text": "7/10",
+     "correct": false
+    },
+    {
+     "text": "3/7",
+     "correct": false
+    },
+    {
+     "text": "1/2",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which word describes something that cannot happen?",
+   "options": [
+    {
+     "text": "Likely",
+     "correct": false
+    },
+    {
+     "text": "Certain",
+     "correct": false
+    },
+    {
+     "text": "Impossible",
+     "correct": true
+    },
+    {
+     "text": "Even chance",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which graph uses bars of different heights to show numbers?",
+   "options": [
+    {
+     "text": "Pictogram",
+     "correct": false
+    },
+    {
+     "text": "Bar graph",
+     "correct": true
+    },
+    {
+     "text": "Map",
+     "correct": false
+    },
+    {
+     "text": "Tally",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Probability is always a number between 0 and 1.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "One horse getting sick after new hay proves the hay is bad.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good habits when recording data? (select all that apply)",
+   "options": [
+    {
+     "text": "Write it down on the day",
+     "correct": true
+    },
+    {
+     "text": "Add the date",
+     "correct": true
+    },
+    {
+     "text": "Guess the numbers at month end",
+     "correct": false
+    },
+    {
+     "text": "Write neatly",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

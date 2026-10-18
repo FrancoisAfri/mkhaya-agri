@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123151",
+ "title": "Dispatch and ship wool and mohair bales",
+ "lessons": [
+  {
+   "title": "Preparing bales for dispatch",
+   "minutes": 15,
+   "html": "<h3>Getting sold bales to the buyer</h3><p>After an auction, the sold bales must be sent to the buyer, either to a processing plant or to the harbour for export. Dispatch must be correct: the right bales, to the right buyer, with the right papers, in good condition.</p><h4>The dispatch instruction</h4><p>The broker's office gives the store a dispatch instruction. It shows:</p><ul><li>buyer's name and delivery address;</li><li>lot numbers and bale numbers;</li><li>number of bales and mass;</li><li>transport company and collection date;</li><li>any special marks the buyer wants.</li></ul><h4>Picking the bales</h4><ol><li>Find each lot in the store using the store plan or bay numbers.</li><li>Check every bale number against the instruction.</li><li>Check bales are closed, not torn, wet or damaged.</li><li>Bales that were slit for sampling must be closed or patched.</li><li>Put buyer's marks on bales if required, clearly and in the right place.</li><li>Move the bales to the dispatch area, keeping each order together.</li></ol><h4>Damaged or missing bales</h4><p>If a bale is missing, damaged or wet, do not send it without telling the supervisor. Write it down. The office will decide what to do.</p><h4>Plan the order</h4><p>Bring bales to the dispatch area in the order they will be loaded, so the truck does not wait. Leave space around each order, and mark the order clearly with the buyer's name or number. If two orders are loaded on the same day, keep them well apart so bales are not mixed up.</p>"
+  },
+  {
+   "title": "Loading trucks and containers",
+   "minutes": 15,
+   "html": "<h3>Loading safely and correctly</h3><h4>Check the vehicle</h4><ul><li>Check the truck or container is the one on the instruction.</li><li>Inside must be clean, dry and free of oil, nails and sharp edges that can tear packs.</li><li>Containers must have no holes and doors that close properly.</li></ul><h4>Loading</h4><ul><li>Only trained, licensed forklift drivers load bales.</li><li>Count every bale as it is loaded and tick it off the list.</li><li>Load evenly so the weight is spread. Pack bales tightly so they do not move.</li><li>Do not exceed the maximum load of the vehicle or container.</li><li>On open trucks, tie bales down with straps and cover with a tarpaulin against rain.</li></ul><h4>Safety</h4><ul><li>Stay out of the forklift's path and never walk under a raised load.</li><li>Check the truck's wheels are chocked and the dock plate is secure before a forklift drives on.</li><li>Wear safety boots and a reflective vest in the loading area.</li><li>Do not climb on top of stacked bales.</li></ul><h4>Containers for export</h4><p>Export containers are sealed after loading. Write the container number and seal number on the dispatch papers. Once sealed, the seal may not be broken except by customs or the buyer.</p><h4>Weather</h4><p>Do not load bales in the rain unless the loading area is covered. Wet bales can rot on the long trip to the buyer or across the sea. If rain starts, stop loading, close the container or cover the truck, and tell the supervisor.</p>"
+  },
+  {
+   "title": "Papers and records",
+   "minutes": 15,
+   "html": "<h3>The paperwork travels with the bales</h3><h4>Documents</h4><ul><li><strong>Delivery note or waybill</strong> – lists the bales and is signed by the driver when they collect.</li><li><strong>Weight list</strong> – bale numbers and masses.</li><li><strong>Export documents</strong> – prepared by the office or shipping agent for overseas shipments.</li></ul><h4>Before the truck leaves</h4><ol><li>Count the bales on the truck again and compare with the delivery note.</li><li>Write the truck registration, driver's name, container and seal numbers.</li><li>Ask the driver to sign the delivery note. Give the driver their copy.</li><li>File the store's copy and send the information to the office.</li></ol><h4>Records</h4><p>Update the store records so the bales show as dispatched and the space is free. Good records mean any complaint, like a missing bale, can be checked quickly.</p><h4>Problems</h4><p>If the count does not match, stop. Do not let the truck leave until the supervisor has checked. It is much harder to fix mistakes once the bales are gone.</p><h4>Key points</h4><ul><li>Check every bale number against the dispatch instruction.</li><li>Do not send damaged, wet or missing bales without telling the supervisor.</li><li>Load into clean, dry vehicles, evenly and tightly, tied and covered on open trucks.</li><li>Never walk under a raised load; only licensed drivers use the forklift.</li><li>Count again, record container and seal numbers, and get the driver's signature.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the dispatch instruction show?",
+   "options": [
+    {
+     "text": "The workers' wages",
+     "correct": false
+    },
+    {
+     "text": "The farmer's shearing date",
+     "correct": false
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "Buyer, lot and bale numbers, transport and collection date",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should the inside of a truck or container be like before loading?",
+   "options": [
+    {
+     "text": "Wet and oily",
+     "correct": false
+    },
+    {
+     "text": "Full of other goods",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    },
+    {
+     "text": "Clean, dry and free of nails and sharp edges",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done on an open truck?",
+   "options": [
+    {
+     "text": "Tie bales down with straps and cover with a tarpaulin",
+     "correct": true
+    },
+    {
+     "text": "Leave bales loose",
+     "correct": false
+    },
+    {
+     "text": "Load them as high as possible",
+     "correct": false
+    },
+    {
+     "text": "Put workers on top of the bales",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The bale count on the truck does not match the delivery note. What do you do?",
+   "options": [
+    {
+     "text": "Tear up the delivery note",
+     "correct": false
+    },
+    {
+     "text": "Add any bale to make the number right",
+     "correct": false
+    },
+    {
+     "text": "Let the truck go and fix it later",
+     "correct": false
+    },
+    {
+     "text": "Stop and have the supervisor check before the truck leaves",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be written down for an export container?",
+   "options": [
+    {
+     "text": "The driver's shoe size",
+     "correct": false
+    },
+    {
+     "text": "Container number and seal number",
+     "correct": true
+    },
+    {
+     "text": "The buyer's phone number only",
+     "correct": false
+    },
+    {
+     "text": "The colour of the container",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only trained, licensed forklift drivers should load bales.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to walk under a raised load if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks are done when picking bales for dispatch? (select all that apply)",
+   "options": [
+    {
+     "text": "Bale numbers match the instruction",
+     "correct": true
+    },
+    {
+     "text": "Slits from sampling are closed or patched",
+     "correct": true
+    },
+    {
+     "text": "The bales smell nice",
+     "correct": false
+    },
+    {
+     "text": "Bales are not torn, wet or damaged",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

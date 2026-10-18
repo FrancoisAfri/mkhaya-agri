@@ -1,0 +1,192 @@
+{
+ "unit_key": "US-243906",
+ "title": "Assess the quality of groundnuts for the local and export markets",
+ "lessons": [
+  {
+   "title": "The groundnut industry and terminology",
+   "minutes": 25,
+   "html": "<h3>Background and structure</h3><p>Groundnuts (peanuts) are grown in South Africa mainly in the Northern Cape, North West, Free State and Limpopo, under both dryland and irrigation. Sandy, well-drained soils suit the crop because the pods develop underground. Production volumes vary considerably between seasons with rainfall and with the area planted, so availability for export changes from year to year.</p><p>The value chain includes producers, shellers and graders, processors (peanut butter, roasted and salted nuts, confectionery, oil and cake), traders and exporters. Edible-grade groundnuts, especially for export to strict markets such as the European Union, command premiums, while lower grades and rejected lots go to crushing for oil. As with grains, marketing is deregulated, and industry information is published by SAGIS.</p><h4>Why quality is critical</h4><p>Groundnuts are eaten directly, often with little processing, so food safety is paramount. The key hazard is <strong>aflatoxin</strong>, produced by the fungi Aspergillus flavus and A. parasiticus. Aflatoxins are potent carcinogens. Risk rises with drought stress late in the season, insect or mechanical damage to pods, delayed drying and poor storage. Importing markets set strict maximum levels and test consignments.</p><h4>Terminology</h4><table><tr><th>Term</th><th>Meaning</th></tr><tr><td>In-shell / unshelled</td><td>Groundnuts still in the pod</td></tr><tr><td>Kernels / shelled</td><td>Seeds removed from the pod</td></tr><tr><td>Type and cultivar</td><td>Varietal groups such as Spanish and Virginia types differ in size, shape and use</td></tr><tr><td>Count or size</td><td>Often expressed as the number of kernels per unit mass</td></tr><tr><td>Defective kernels</td><td>Kernels that are damaged, mouldy, discoloured, shrivelled, immature, split or insect-damaged, as defined in the regulations</td></tr><tr><td>Foreign matter</td><td>Material other than groundnuts: soil, stones, shells, plant parts</td></tr><tr><td>Blanching</td><td>Removing the skin (testa) from kernels</td></tr></table><p>The exact definitions and grade limits are in the groundnut regulations under the Agricultural Product Standards Act 119 of 1990 and in contract specifications.</p>"
+  },
+  {
+   "title": "Legislation, logistics and sampling",
+   "minutes": 25,
+   "html": "<h3>Legal and market requirements</h3><ul><li><strong>Product standards:</strong> groundnut regulations under Act 119 of 1990 set classes, grades, deviations and methods for local sale and export. Export of regulated products is subject to inspection by the appointed assignee.</li><li><strong>Food safety:</strong> aflatoxin and pesticide residue limits set by South African regulations and by importing countries. Testing must be by accredited laboratories using approved methods.</li><li><strong>Plant health:</strong> phytosanitary certification by the national plant protection organisation where the importing country requires it.</li><li><strong>Traceability:</strong> buyers increasingly require lot traceability from farm to container, and food safety certification of processing facilities.</li></ul><h4>Logistics</h4><p>Groundnuts are lifted, dried in windrows or with mechanical dryers, threshed, and delivered in-shell to shelling plants. After shelling, kernels are sized, sorted (often electronically by colour, plus hand-picking), graded and packed in bags or bulk bags. Most exports move in containers. Containers must be clean, dry, odour-free and in good condition; condensation in transit can cause mould, so packing moisture and ventilation are important.</p><h3>Drawing a representative sample</h3><p>Aflatoxin is distributed very unevenly; a few highly contaminated kernels can make a lot non-compliant. Sampling plans for aflatoxin therefore require many incremental samples and a large aggregate sample.</p><ol><li>Follow the prescribed sampling plan for the lot size: number of increments, increment size, positions.</li><li>For bags, sample from bags spread through the lot, using a suitable probe or by opening bags as allowed.</li><li>For flowing product, take increments across the stream at regular intervals.</li><li>Combine increments, mix thoroughly and reduce with an approved divider. For aflatoxin, the whole laboratory sample is often ground and mixed before a test portion is taken.</li><li>Label and seal samples, retain reference samples and record the chain of custody.</li></ol><p>Wear gloves and a dust mask when handling large samples; groundnut dust can carry mould spores.</p>"
+  },
+  {
+   "title": "Determining quality and compliance",
+   "minutes": 25,
+   "html": "<h3>Quality determinations</h3><p>The grader examines the working sample for the parameters prescribed:</p><ol><li><strong>Odour and visible condition:</strong> musty or rancid odours, live insects, or visible mould make the lot suspect or non-compliant.</li><li><strong>Moisture content:</strong> by approved meter or reference method. Excess moisture promotes mould and aflatoxin.</li><li><strong>Foreign matter</strong> and loose shells: separated and weighed.</li><li><strong>Defective kernels:</strong> sorted into the categories defined in the regulations and weighed. Particular attention goes to mouldy, discoloured and damaged kernels because of their link with aflatoxin.</li><li><strong>Size grading:</strong> kernels are sized with standard screens or counted per unit mass as specified.</li><li><strong>Cultivar or type purity</strong> where required.</li><li><strong>Laboratory tests:</strong> aflatoxin (total and/or B1 as the market specifies), pesticide residues, and sometimes free fatty acids for rancidity.</li></ol><p>Each deviation, as a percentage by mass, is compared with the limits for each grade and with the contract specification. The lot receives the highest grade for which all parameters comply, provided it also meets food safety limits.</p><h4>Local versus export</h4><p>Export contracts, especially for the EU and other strict markets, may specify tighter limits on defects and aflatoxin, specific size counts, blanched or unblanched form, packaging and labelling. Lots that do not meet export requirements may still be sold locally to a suitable grade, or diverted to crushing if they do not meet edible standards.</p><h4>Reducing aflatoxin risk</h4><p>Quality cannot be \"graded in\", but sorting helps. Electronic colour sorters and hand-picking remove discoloured and damaged kernels, which carry most of the toxin. Re-testing after re-sorting must follow the same strict sampling plan.</p><h4>Quality assurance</h4><p>Calibrate equipment, use standard reference photographs for defect categories, take part in proficiency testing, and record results fully.</p>"
+  },
+  {
+   "title": "Shipping and the assessment outcome",
+   "minutes": 20,
+   "html": "<h3>Transport and loading</h3><ul><li><strong>Container inspection:</strong> before packing, check that containers are clean, dry, odour-free, without holes, and that floors are undamaged. Reject unsuitable containers.</li><li><strong>Packing:</strong> pack at safe moisture, use the specified bags or liners, and consider moisture absorbers or ventilation as agreed with the buyer to reduce condensation.</li><li><strong>Fumigation:</strong> where required, by registered fumigators under the product label and safety procedures, with fumigation certificates issued.</li><li><strong>Bulk shipments:</strong> when shipped in bulk or break-bulk, hold inspection and stream sampling during loading follow the same principles as for grain.</li><li><strong>Documentation:</strong> bill of lading, packing list, certificate of quality or grade, aflatoxin analysis certificate, phytosanitary certificate where required, fumigation certificate, health certificate and certificate of origin as the importing country requires.</li></ul><h4>Determining the outcome</h4><ol><li>Compile all grading worksheets and laboratory certificates for the consignment.</li><li>Check every parameter, including aflatoxin, against the regulations and contract.</li><li>Decide: compliant at the contracted grade; compliant at a different grade with any contractual price adjustment; or non-compliant.</li><li>For non-compliance, consider options allowed by law and contract: re-sorting and re-testing, sale to a market where the lot complies, or diversion to crushing.</li><li>Issue signed results and retain sealed reference samples.</li></ol><h4>Consequences of getting it wrong</h4><p>An aflatoxin rejection at the destination port can mean destruction or return of the cargo at great cost, and repeated failures can trigger stricter border checks on all consignments from the exporting country. Accurate, honest assessment protects the whole industry.</p><h4>Key points</h4><ul><li>Aflatoxin is the critical food safety hazard in groundnuts.</li><li>Grading follows regulations under Act 119 of 1990 plus contract specifications.</li><li>Aflatoxin sampling needs many increments and a large, well-mixed sample.</li><li>Grade is the highest for which all parameters comply, and food safety limits must be met.</li><li>Inspect containers, pack dry, and keep complete documentation and reference samples.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which fungus is a main producer of aflatoxin?",
+   "options": [
+    {
+     "text": "Aspergillus flavus",
+     "correct": true
+    },
+    {
+     "text": "Rhizobium",
+     "correct": false
+    },
+    {
+     "text": "Penicillium roqueforti",
+     "correct": false
+    },
+    {
+     "text": "Saccharomyces cerevisiae",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do aflatoxin sampling plans require many increments?",
+   "options": [
+    {
+     "text": "Regulations ban small samples",
+     "correct": false
+    },
+    {
+     "text": "To fill bags",
+     "correct": false
+    },
+    {
+     "text": "It is cheaper",
+     "correct": false
+    },
+    {
+     "text": "Aflatoxin is very unevenly distributed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is blanching?",
+   "options": [
+    {
+     "text": "Bleaching pods",
+     "correct": false
+    },
+    {
+     "text": "Roasting kernels",
+     "correct": false
+    },
+    {
+     "text": "Removing the skin (testa) from kernels",
+     "correct": true
+    },
+    {
+     "text": "Drying in windrows",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to a container that is wet and smells of previous cargo?",
+   "options": [
+    {
+     "text": "Pack it faster",
+     "correct": false
+    },
+    {
+     "text": "Spray perfume",
+     "correct": false
+    },
+    {
+     "text": "Reject it",
+     "correct": true
+    },
+    {
+     "text": "Use it anyway",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A lot fails export aflatoxin limits but may be unfit for edible use. Which option may be allowed?",
+   "options": [
+    {
+     "text": "Diversion to crushing",
+     "correct": true
+    },
+    {
+     "text": "Ship it anyway",
+     "correct": false
+    },
+    {
+     "text": "Relabel it",
+     "correct": false
+    },
+    {
+     "text": "Hide the certificate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Drought stress late in the season and pod damage increase aflatoxin risk.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Sorting can guarantee that every lot becomes compliant without re-testing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which factors raise aflatoxin risk? (select all that apply)",
+   "options": [
+    {
+     "text": "Late-season drought stress",
+     "correct": true
+    },
+    {
+     "text": "Insect damage to pods",
+     "correct": true
+    },
+    {
+     "text": "Delayed drying",
+     "correct": true
+    },
+    {
+     "text": "Prompt drying to safe moisture",
+     "correct": false
+    },
+    {
+     "text": "Clean, dry storage",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

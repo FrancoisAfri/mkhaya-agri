@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-WM-01",
+ "title": "Operational Planning, Review and Management Processes in a Grain Handling and Storage Environment",
+ "lessons": [
+  {
+   "title": "Planning in the real depot",
+   "minutes": 18,
+   "html": "<h3>Work experience focus</h3>\n<p>In this module you take part in, and progressively lead, the operational planning cycle of a real grain handling and storage facility. Your mentor, usually the depot or area manager, will assign planning tasks and review your work. Evidence includes plans you drafted, meeting minutes, reports and your reflections.</p>\n<h4>Tasks you should complete</h4>\n<ol>\n<li><strong>Gather planning inputs</strong> – crop estimates for the depot's draw area, intake history for the past seasons, contracts with traders and processors, maintenance condition reports, staff lists and the budget guidelines from head office.</li>\n<li><strong>Draft the season plan</strong> – targets for intake per commodity, bin allocation, staffing per shift, maintenance programme, drying plan, storage protection and out-loading schedule.</li>\n<li><strong>Prepare the budget</strong> – income from tariffs and costs for labour, electricity, fuel, fumigation, maintenance and consumables.</li>\n<li><strong>Identify risks</strong> – build a risk register with causes, likelihood, impact, controls and owners.</li>\n<li><strong>Present and adjust</strong> – present the plan to your mentor or management, respond to questions and update it.</li>\n</ol>\n<h4>A workplace example</h4>\n<p>Crop estimates show a large soya bean crop in the draw area, while the depot historically stored mainly maize. Planning reveals that bin allocation must change, the pre-cleaner screens must be suitable for soya, and the out-loading schedule must align with crushers' collection plans. Soya beans also need careful handling to limit splits. Because this was picked up in planning, the depot could adjust before harvest.</p>\n<h4>Using systems</h4>\n<p>Use the depot's operational system and spreadsheets to model scenarios: what if intake is 20 percent higher, or harvest moisture is high? Scenario planning prepares the depot to respond quickly.</p>"
+  },
+  {
+   "title": "Reviewing and managing during and after the season",
+   "minutes": 18,
+   "html": "<h3>Managing the plan in operation</h3>\n<p>During the season, take part in daily and weekly management processes:</p>\n<ul>\n<li>Daily production meetings: review yesterday's intake, queues, dryer status, bin levels, breakdowns and safety.</li>\n<li>Weekly reviews: KPIs against plan, variances, actions and responsibilities.</li>\n<li>Monthly reporting to head office: performance, finances, risks and support needed.</li>\n</ul>\n<p>Practise writing the weekly report yourself and ask your mentor for feedback on clarity, accuracy and recommendations.</p>\n<h3>Management of change</h3>\n<p>When circumstances change, such as a breakdown of the main elevator during peak intake, a sudden rise in moisture, or a strike at a transporter, the plan must change in a controlled way:</p>\n<ol>\n<li>Assess the impact on targets, safety, quality and clients.</li>\n<li>Develop options and choose the best one with your mentor.</li>\n<li>Communicate the change to staff, clients and head office.</li>\n<li>Update the plan, budget and risk register.</li>\n<li>Monitor the effect of the change.</li>\n</ol>\n<h3>Season close-out review</h3>\n<p>After the season, lead or assist with a structured review:</p>\n<table>\n<tr><th>Question</th><th>Evidence</th></tr>\n<tr><td>Did we meet intake and service targets?</td><td>Intake records, turnaround data</td></tr>\n<tr><td>Did we preserve quality?</td><td>Temperature logs, insect findings, downgrades</td></tr>\n<tr><td>Did we control stock?</td><td>Stock reconciliations, shrink</td></tr>\n<tr><td>Did we meet budget?</td><td>Financial statements</td></tr>\n<tr><td>Was everyone safe?</td><td>Incident and near-miss records</td></tr>\n</table>\n<p>Record lessons learnt and recommendations for the next plan. Compare these with what was planned and reflect in your logbook on your own decisions.</p>\n<h4>Key points</h4>\n<ul>\n<li>Gather planning inputs, draft the season plan, budget and risk register, and present them.</li>\n<li>Use scenario planning to prepare for different intake and moisture conditions.</li>\n<li>Take part in daily, weekly and monthly management reviews and reporting.</li>\n<li>Manage changes to the plan in a controlled, communicated way.</li>\n<li>Conduct a season close-out review and record lessons learnt.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a key input for a depot season plan?",
+   "options": [
+    {
+     "text": "Crop estimates for the draw area",
+     "correct": true
+    },
+    {
+     "text": "The weather in Europe",
+     "correct": false
+    },
+    {
+     "text": "Office furniture",
+     "correct": false
+    },
+    {
+     "text": "Staff birthdays",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Crop estimates show a large soya crop at a mainly maize depot. What should planning include?",
+   "options": [
+    {
+     "text": "Mixing soya with maize",
+     "correct": false
+    },
+    {
+     "text": "Refusing soya beans",
+     "correct": false
+    },
+    {
+     "text": "Adjusting bin allocation, pre-cleaner screens and out-loading with crushers",
+     "correct": true
+    },
+    {
+     "text": "No changes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is scenario planning?",
+   "options": [
+    {
+     "text": "Planning staff parties",
+     "correct": false
+    },
+    {
+     "text": "Modelling what-if situations such as higher intake or high moisture",
+     "correct": true
+    },
+    {
+     "text": "Copying last year’s plan exactly",
+     "correct": false
+    },
+    {
+     "text": "Writing a novel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The main elevator breaks during peak intake. What is the first step in managing the change?",
+   "options": [
+    {
+     "text": "Assess the impact on targets, safety, quality and clients",
+     "correct": true
+    },
+    {
+     "text": "Hide it from head office",
+     "correct": false
+    },
+    {
+     "text": "Close the depot permanently",
+     "correct": false
+    },
+    {
+     "text": "Continue as normal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which evidence shows whether stock was controlled during the season?",
+   "options": [
+    {
+     "text": "Stock reconciliations and shrink",
+     "correct": true
+    },
+    {
+     "text": "Truck colours",
+     "correct": false
+    },
+    {
+     "text": "Staff uniforms",
+     "correct": false
+    },
+    {
+     "text": "Advertising",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A risk register lists risks with causes, likelihood, impact, controls and owners.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A season close-out review is unnecessary if targets were met.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions belong in a season close-out review? (select all that apply)",
+   "options": [
+    {
+     "text": "Was everyone safe?",
+     "correct": true
+    },
+    {
+     "text": "Did we meet budget?",
+     "correct": true
+    },
+    {
+     "text": "Did we preserve quality?",
+     "correct": true
+    },
+    {
+     "text": "Which staff member is most popular?",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

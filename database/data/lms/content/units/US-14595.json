@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-14595",
+ "title": "Demonstrate an understanding of sociological issues",
+ "lessons": [
+  {
+   "title": "Society, culture and social structure",
+   "minutes": 20,
+   "html": "<h3>Why sociology matters to land care and extension</h3>\n<p>Sociology studies how people live together: families, communities, institutions, power and change. Technical solutions for soil, water and livestock succeed or fail because of people: who owns the land, who decides, who does the work, who benefits. An extension worker who understands social issues can design projects that fit people's lives.</p>\n<h4>Key concepts</h4>\n<ul><li><strong>Culture</strong> – shared beliefs, values, customs and knowledge. Cattle, for example, carry social and cultural value (lobola, ceremonies, status) beyond their market price, which affects decisions on herd size and selling.</li>\n<li><strong>Norms and values</strong> – rules about how people should behave, such as who may speak at a meeting or who works in the fields.</li>\n<li><strong>Social institutions</strong> – family, traditional authority, religion, schools, the state, markets.</li>\n<li><strong>Social stratification</strong> – inequality based on class, race, gender, age and other factors.</li>\n<li><strong>Socialisation</strong> – how people learn the norms of their society.</li>\n<li><strong>Social change</strong> – shifts caused by urbanisation, migration, technology, policy and climate.</li></ul>\n<h4>South African rural context</h4>\n<p>Rural South Africa carries the legacy of colonial and apartheid land dispossession, including the Natives Land Act of 1913 and the former homelands. This created crowded communal areas, insecure tenure, and a dual agricultural system of large commercial farms and small-scale farmers. Land reform (restitution, redistribution and tenure reform) is ongoing. Labour migration has left many households headed by women or grandparents, and remittances and social grants are important incomes. Understanding this history helps explain present patterns of land use, trust and conflict.</p>"
+  },
+  {
+   "title": "Key sociological issues in rural communities",
+   "minutes": 20,
+   "html": "<h3>Gender</h3>\n<p>Women do a large share of farm and household work (planting, weeding, water and fuel collection, food preparation), but often have less secure access to land, credit, extension and decision-making. Projects should involve women in decisions, schedule meetings at suitable times, and check that benefits reach them.</p>\n<h3>Youth and age</h3>\n<p>Many young people leave rural areas for towns because farming is seen as unprofitable or low status. Elders hold authority and traditional knowledge. Bridging the two, for example through youth-led enterprises guided by elder knowledge, can strengthen projects.</p>\n<h3>Poverty and livelihoods</h3>\n<p>Poor households often spread risk across many small income sources and avoid risky investments. A new practice that needs cash up-front or extra labour at a busy time may be rejected, not because people are resistant, but because it does not fit their livelihood strategy.</p>\n<h3>Health</h3>\n<p>HIV and AIDS, tuberculosis and other illnesses reduce labour, increase care burdens and cause loss of skills when adults die. Projects must be realistic about labour and sensitive to stigma.</p>\n<h3>Power, leadership and conflict</h3>\n<p>Power is shared, and sometimes contested, between traditional authorities, elected councillors, committees and influential families. Elite capture (benefits taken by the powerful few) is a common risk. Transparent processes and inclusive committees reduce it.</p>\n<h3>Land tenure</h3>\n<p>Communal land, permission-to-occupy certificates, labour tenants and farm dwellers all have different rights. Insecure tenure discourages investment in soil conservation, fencing or trees.</p>\n<h3>Applying this in practice</h3>\n<ul><li>Do a social analysis (who is who, who decides, who benefits) before designing a project.</li>\n<li>Disaggregate data by gender and age.</li>\n<li>Respect culture while challenging practices that exclude or harm people.</li>\n<li>Be aware of your own assumptions and position as an outsider.</li></ul>\n<h4>Key points</h4>\n<ul><li>Social factors decide whether technical solutions are adopted.</li>\n<li>Culture, norms and institutions shape land and livestock decisions.</li>\n<li>History of land dispossession explains many rural patterns today.</li>\n<li>Gender, age, poverty, health, power and tenure must be considered in project design.</li>\n<li>Do a social analysis and guard against elite capture.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is social stratification?",
+   "options": [
+    {
+     "text": "Soil layers",
+     "correct": false
+    },
+    {
+     "text": "Planting in rows",
+     "correct": false
+    },
+    {
+     "text": "Inequality based on class, race, gender, age and other factors",
+     "correct": true
+    },
+    {
+     "text": "The study of rainfall",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why might a poor household reject a new farming practice?",
+   "options": [
+    {
+     "text": "It needs cash or labour that does not fit their livelihood strategy",
+     "correct": true
+    },
+    {
+     "text": "They dislike learning",
+     "correct": false
+    },
+    {
+     "text": "They have too much money",
+     "correct": false
+    },
+    {
+     "text": "It is always too easy",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is elite capture?",
+   "options": [
+    {
+     "text": "Catching stray livestock",
+     "correct": false
+    },
+    {
+     "text": "An election process",
+     "correct": false
+    },
+    {
+     "text": "A farming method",
+     "correct": false
+    },
+    {
+     "text": "Benefits being taken by a powerful few",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does insecure land tenure matter for conservation?",
+   "options": [
+    {
+     "text": "It increases rainfall",
+     "correct": false
+    },
+    {
+     "text": "It discourages investment in soil conservation, fencing or trees",
+     "correct": true
+    },
+    {
+     "text": "It has no effect",
+     "correct": false
+    },
+    {
+     "text": "It makes land cheaper to fence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law from 1913 is part of the history of land dispossession?",
+   "options": [
+    {
+     "text": "National Water Act",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act",
+     "correct": false
+    },
+    {
+     "text": "Natives Land Act",
+     "correct": true
+    },
+    {
+     "text": "OHS Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cattle in many rural communities carry social and cultural value beyond their market price.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Collecting data by gender and age is unnecessary in project design.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are key sociological issues in rural communities? (select all that apply)",
+   "options": [
+    {
+     "text": "Gender roles and access to resources",
+     "correct": true
+    },
+    {
+     "text": "Land tenure",
+     "correct": true
+    },
+    {
+     "text": "Power and leadership",
+     "correct": true
+    },
+    {
+     "text": "The chemical formula of fertiliser",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

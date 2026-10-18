@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL101858",
+ "title": "Bachelor of Veterinary Nursing",
+ "lessons": [
+  {
+   "title": "The veterinary nurse in practice",
+   "minutes": 18,
+   "html": "<h3>What a veterinary nurse does</h3>\n<p>The Bachelor of Veterinary Nursing (NQF 7) prepares professional veterinary nurses who work alongside veterinarians in small-animal clinics, mixed practices that see farm animals, equine hospitals, research facilities and welfare organisations. Veterinary nurses are registered para-veterinary professionals with the South African Veterinary Council (SAVC) and work within the scope set under the Veterinary and Para-Veterinary Professions Act 19 of 1982. They do not diagnose, prescribe or perform surgery; they make the vet's work safe, efficient and humane.</p>\n<h4>Core areas of work</h4>\n<ul><li><strong>Nursing care</strong>: monitoring hospitalised patients, fluid therapy under instruction, wound care, feeding, hygiene and comfort.</li>\n<li><strong>Anaesthesia support</strong>: preparing patients, monitoring heart rate, breathing, colour and temperature during and after anaesthesia, and recording it on the anaesthetic chart.</li>\n<li><strong>Theatre practice</strong>: sterilising instruments, preparing the surgical site, assisting the surgeon and maintaining asepsis.</li>\n<li><strong>Diagnostic support</strong>: collecting samples, running basic laboratory tests, positioning patients for radiographs with full radiation safety.</li>\n<li><strong>Client communication</strong>: discharge instructions, preventive care advice and supporting owners through euthanasia decisions.</li></ul>\n<h4>Farm animals and the veterinary nurse</h4>\n<p>In mixed practice the nurse may help at a farm call: preparing equipment for a caesarean on a cow, restraining a calf for fluid therapy, keeping records of herd vaccinations or helping with pregnancy diagnosis days. Understanding how to handle cattle, sheep, goats and horses calmly and safely is as important as clinical knowledge. Use crushes, head clamps and halters correctly, and never stand directly behind a cow or horse.</p>"
+  },
+  {
+   "title": "Professional standards, safety and welfare",
+   "minutes": 16,
+   "html": "<h3>Working as a professional</h3>\n<p>A degree-level nurse is expected to think critically, use evidence and take responsibility for their own practice. That includes knowing when a task is outside their scope and referring it to the vet.</p>\n<h4>Patient safety</h4>\n<ul><li>Check identity, weight and the vet's written instructions before giving any medicine.</li>\n<li>Calculate doses carefully and have a colleague check high-risk drugs.</li>\n<li>Record every treatment, time and the person who gave it.</li>\n<li>Store scheduled medicines securely and keep the required registers.</li></ul>\n<h4>Personal and team safety</h4>\n<p>Veterinary work carries real hazards: bites and kicks, needle-stick injuries, anaesthetic gases, radiation, disinfectants and zoonoses such as rabies, brucellosis and ringworm. The Occupational Health and Safety Act 85 of 1993 requires the employer and employees to manage these risks. Practical habits include wearing gloves and protective clothing, using sharps containers, never recapping needles by hand, using scavenging systems in theatre, and wearing lead aprons and dosimeters during radiography. Staff handling animals in rabies areas should discuss pre-exposure vaccination with their employer and doctor.</p>\n<h4>Animal welfare and ethics</h4>\n<p>Veterinary nurses are advocates for the animal. They recognise pain from behaviour and posture, report pain to the vet so it can be treated, and handle animals with minimum stress. The Animals Protection Act 71 of 1962 makes cruelty an offence, and as professionals, nurses must also report suspected abuse through the correct channels. Ethical questions, such as treatment of a patient whose owner cannot pay, or euthanasia of a healthy animal, should be discussed openly with the vet and handled with compassion.</p>\n<h4>Lifelong learning</h4>\n<p>Registration with the SAVC brings a duty to keep skills current through continuing professional development: courses, congresses, reading and reflective practice.</p>\n<h4>Key points</h4>\n<ul><li>Veterinary nurses are SAVC-registered para-veterinary professionals who support, but do not replace, the vet.</li>\n<li>Nursing covers patient care, anaesthesia monitoring, theatre, diagnostics and client communication.</li>\n<li>Check, calculate and record every medicine given.</li>\n<li>Manage hazards such as bites, sharps, gases, radiation and zoonoses.</li>\n<li>Nurses are advocates for animal welfare and must keep learning.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "With which body are veterinary nurses registered in South Africa?",
+   "options": [
+    {
+     "text": "The Department of Labour",
+     "correct": false
+    },
+    {
+     "text": "The Red Meat Industry Forum",
+     "correct": false
+    },
+    {
+     "text": "The South African Veterinary Council",
+     "correct": true
+    },
+    {
+     "text": "The SPCA",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a veterinary nurse allowed to do?",
+   "options": [
+    {
+     "text": "Make the final diagnosis",
+     "correct": false
+    },
+    {
+     "text": "Monitor a patient during anaesthesia",
+     "correct": true
+    },
+    {
+     "text": "Perform surgery",
+     "correct": false
+    },
+    {
+     "text": "Prescribe medicine on their own",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be checked before giving any medicine?",
+   "options": [
+    {
+     "text": "Patient identity, weight and the vet's written instructions",
+     "correct": true
+    },
+    {
+     "text": "Only the colour of the medicine",
+     "correct": false
+    },
+    {
+     "text": "Whether the owner has paid",
+     "correct": false
+    },
+    {
+     "text": "Nothing if the patient is calm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the safe way to deal with used needles?",
+   "options": [
+    {
+     "text": "Recap them by hand",
+     "correct": false
+    },
+    {
+     "text": "Leave them on the table",
+     "correct": false
+    },
+    {
+     "text": "Put them straight into a sharps container without recapping by hand",
+     "correct": true
+    },
+    {
+     "text": "Throw them in the general bin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When working with cattle or horses on a farm call, which position should you avoid?",
+   "options": [
+    {
+     "text": "Standing at the head with a halter",
+     "correct": false
+    },
+    {
+     "text": "Standing beside the shoulder",
+     "correct": false
+    },
+    {
+     "text": "Standing directly behind the animal",
+     "correct": true
+    },
+    {
+     "text": "Standing outside the crush",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The Occupational Health and Safety Act 85 of 1993 requires risks such as radiation and anaesthetic gases to be managed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Veterinary nurses should report pain they observe in a patient to the vet so it can be treated.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which hazards in veterinary work are mentioned in the lessons? (select all that apply)",
+   "options": [
+    {
+     "text": "Radiation",
+     "correct": true
+    },
+    {
+     "text": "Zoonoses such as rabies",
+     "correct": true
+    },
+    {
+     "text": "Needle-stick injuries",
+     "correct": true
+    },
+    {
+     "text": "Sunburn from welding",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

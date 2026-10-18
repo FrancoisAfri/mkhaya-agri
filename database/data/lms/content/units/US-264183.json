@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264183",
+ "title": "Prepare plants for interior environments",
+ "lessons": [
+  {
+   "title": "Choosing the right plant for the space",
+   "minutes": 15,
+   "html": "<h3>Matching plant to place</h3>\n<p>Before a plant goes into an office, mall or hotel, it must be chosen and prepared for that spot. A plant in the wrong place will decline quickly, and the client will be unhappy. The main things to look at are light, temperature, air flow, space and how the client will use the area.</p>\n<h4>Light levels</h4>\n<table><tr><th>Light</th><th>Where</th><th>Plants that cope</th></tr>\n<tr><td>Bright, indirect</td><td>Near windows without direct sun</td><td>Ficus, croton, dracaena marginata</td></tr>\n<tr><td>Medium</td><td>A few metres from windows</td><td>Philodendron, kentia palm, spathiphyllum</td></tr>\n<tr><td>Low</td><td>Passages, far from windows</td><td>Zamioculcas (ZZ), sansevieria, aglaonema</td></tr></table>\n<p>Your supervisor may measure light with a light meter. Never put a plant in a spot without enough light just because it looks nice there.</p>\n<h4>Other things to check</h4>\n<ul><li>Air-conditioning vents, heaters and doors that open to wind</li>\n<li>Space for the plant to grow, height and spread</li>\n<li>Foot traffic: plants with spikes or sharp leaves must not be next to walkways</li>\n<li>Children and pets: some plants are poisonous if eaten, such as dieffenbachia</li>\n<li>Access for watering and cleaning</li></ul>\n<h4>Choosing a healthy plant</h4>\n<ul><li>Full, even shape with good colour</li>\n<li>No pests (check under leaves and in leaf joints)</li>\n<li>No yellow or burnt leaves</li>\n<li>Firm, white roots, not rotten or circling the pot badly</li>\n<li>Already acclimatised to lower light</li></ul>"
+  },
+  {
+   "title": "Potting and dressing the plant",
+   "minutes": 15,
+   "html": "<h3>Preparing the plant</h3>\n<ol><li><strong>Clean the plant.</strong> Remove dead leaves and old flowers. Wipe dust off the leaves.</li>\n<li><strong>Check for pests.</strong> Treat or reject any plant with pests before it goes to the client.</li>\n<li><strong>Water.</strong> Water the plant the day before so the root ball is evenly moist, not soaking.</li>\n<li><strong>Stake</strong> tall or weak stems with a neat, hidden stake if needed.</li></ol>\n<h3>Containers</h3>\n<p>Most interior plants stay in their plastic grow pot, which is placed inside a decorative container (a cachepot or planter). This is called double potting. It makes it easy to swap plants later.</p>\n<ul><li>The decorative container must be waterproof, or have a liner, so water does not damage floors and carpets.</li>\n<li>Put a layer of drainage material, such as LECA clay balls, or a riser in the bottom so the grow pot does not stand in water.</li>\n<li>The top of the grow pot should be just below the rim of the container.</li>\n<li>Fill the gap around the grow pot with packing material or LECA so it stands firm and straight.</li></ul>\n<h3>Top dressing</h3>\n<p>Cover the soil and the edge of the grow pot with a top dressing such as bark chips, moss, pebbles or decorative stone, as the design specifies. This hides the plastic pot, keeps the soil moist and looks neat. Do not pile top dressing against the stem.</p>\n<h3>Transport and placing</h3>\n<ul><li>Sleeve or wrap the plant. Load it lying on its side or secured upright so it cannot fall.</li>\n<li>Protect it from sun, wind and cold in the bakkie or truck.</li>\n<li>Place it, turn its best side to the viewer, check it is straight, and clean up.</li></ul>\n<h3>Safety</h3>\n<p>Use trolleys and work in pairs for big planters. Wear gloves with plants that have irritating sap.</p>\n<h4>Key points</h4>\n<ul><li>Match the plant to the light level and conditions of the spot.</li>\n<li>Only use healthy, pest-free, acclimatised plants.</li>\n<li>Double pot with a waterproof container and drainage layer.</li>\n<li>Finish with a neat top dressing that keeps away from the stem.</li>\n<li>Protect plants during transport and lift big planters safely.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which plant copes best with low light in a passage?",
+   "options": [
+    {
+     "text": "Croton",
+     "correct": false
+    },
+    {
+     "text": "Ficus",
+     "correct": false
+    },
+    {
+     "text": "Rose",
+     "correct": false
+    },
+    {
+     "text": "Zamioculcas (ZZ plant)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is double potting?",
+   "options": [
+    {
+     "text": "Putting two plants in one pot",
+     "correct": false
+    },
+    {
+     "text": "Keeping the grow pot inside a decorative container",
+     "correct": true
+    },
+    {
+     "text": "Repotting twice a year",
+     "correct": false
+    },
+    {
+     "text": "Using two kinds of soil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a drainage layer or riser placed in the bottom of the container?",
+   "options": [
+    {
+     "text": "So the grow pot does not stand in water",
+     "correct": true
+    },
+    {
+     "text": "To make the pot heavier for the client",
+     "correct": false
+    },
+    {
+     "text": "To feed the plant",
+     "correct": false
+    },
+    {
+     "text": "To attract insects",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a plant with spiky, sharp leaves NOT be placed?",
+   "options": [
+    {
+     "text": "In a corner",
+     "correct": false
+    },
+    {
+     "text": "In bright light",
+     "correct": false
+    },
+    {
+     "text": "Next to a busy walkway",
+     "correct": true
+    },
+    {
+     "text": "In a large planter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a plant that has pests before it goes to the client?",
+   "options": [
+    {
+     "text": "Send it anyway",
+     "correct": false
+    },
+    {
+     "text": "Treat or reject it",
+     "correct": true
+    },
+    {
+     "text": "Hide the pests with top dressing",
+     "correct": false
+    },
+    {
+     "text": "Place it in low light",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Top dressing should be piled up against the plant stem.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The decorative container must be waterproof or lined to protect floors.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should you check when choosing a spot for an interior plant? (select all that apply)",
+   "options": [
+    {
+     "text": "Light level",
+     "correct": true
+    },
+    {
+     "text": "Air-conditioning vents and heaters",
+     "correct": true
+    },
+    {
+     "text": "Space for the plant to grow",
+     "correct": true
+    },
+    {
+     "text": "The colour of the client's car",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

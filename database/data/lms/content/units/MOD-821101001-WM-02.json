@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-WM-02",
+ "title": "Production practices in an established vineyard",
+ "lessons": [
+  {
+   "title": "The vineyard year at work",
+   "minutes": 15,
+   "html": "<h3>Work through the seasons</h3> <p>In this work experience you work in a producing vineyard through the year. Each season has its own jobs. You will learn to do them well with your mentor.</p> <table> <tr><th>Season (Western Cape)</th><th>Main jobs</th></tr> <tr><td>Winter (June to August)</td><td>Pruning, pulling out prunings, tying canes, repairing trellis, cover crops growing</td></tr> <tr><td>Spring (September to November)</td><td>Bud burst, suckering, shoot thinning, shoot positioning, weed control, scouting for pests</td></tr> <tr><td>Summer (December to February)</td><td>Tucking shoots, topping, leaf removal, bunch thinning, irrigation checks, bird control, start of harvest</td></tr> <tr><td>Autumn (March to May)</td><td>End of harvest, post-harvest irrigation and fertiliser, sowing cover crops</td></tr> </table> <p>Dates change between areas and cultivars. Your supervisor will tell you when each job starts.</p> <h4>Your logbook</h4> <p>Record each task you do: date, block, task, number of rows or vines, and your supervisor's signature. Aim to get experience in every main job of the year, not only one.</p> <h4>Daily routine</h4> <ol> <li>Sign in and attend the morning meeting.</li> <li>Listen for the block, task and standard for the day.</li> <li>Check PPE and tools.</li> <li>Work your rows in order. Do not skip vines.</li> <li>Report problems you see.</li> <li>Clean and return tools at the end of the day.</li> </ol> <h4>Working in the weather</h4><p>Winter pruning can be cold and wet, and summer canopy work is very hot. Dress for the weather: a warm jacket and rain gear in winter, a hat and long sleeves in summer. If lightning comes, stop work and move away from the wire trellis at once, because wires carry lightning.</p><h4>Safety reminders</h4> <ul> <li>Keep fingers clear of secateur blades.</li> <li>Drink water and use shade on hot days.</li> <li>Watch out for tractors, sprayers and mowers in the rows.</li> <li>Obey spray signs and re-entry times.</li> <li>Report injuries, snakes and bee swarms.</li> </ul>"
+  },
+  {
+   "title": "Quality work and checks",
+   "minutes": 15,
+   "html": "<h3>Doing the job right</h3> <p>Your supervisor will check the quality of your work, often by looking at a few vines in each row. Know what good work looks like.</p> <h4>Pruning quality</h4> <ul> <li>Correct number of spurs and buds per vine.</li> <li>Clean cuts a little above the bud.</li> <li>No dead wood or stubs left.</li> <li>Prunings pulled out of the wires.</li> </ul> <h4>Spring and summer canopy quality</h4> <ul> <li>All suckers removed from the trunk.</li> <li>Shoots evenly spaced and tucked in the wires.</li> <li>No broken shoots carrying bunches.</li> <li>Leaves removed only on the side and amount instructed.</li> <li>Correct number of bunches left after thinning.</li> </ul> <h4>Irrigation and weed control quality</h4> <ul> <li>Every dripper checked; blocked drippers cleared or reported.</li> <li>Weeds removed in the vine row without damaging trunks or pipes.</li> </ul> <h4>When your work is not up to standard</h4> <p>If the supervisor finds a problem, do not argue. Ask them to show you again, then go back and fix it. Every worker learns this way. Poor work on one vine is small; poor work on 5 000 vines can cut the harvest badly.</p> <h4>Working at a good pace</h4> <p>Some tasks are paid per row or per vine. Speed is good, but only when quality is right. A fast worker whose rows must be redone costs the farm money. Practise good technique first; your speed will grow.</p> <h4>Using ladders and platforms</h4><p>On high trellises or table grape overhead systems you may work from a ladder or platform. Check that it stands firm on level ground, never stand on the top step, and move it rather than reaching too far.</p><h4>Taking care of equipment</h4> <ul> <li>Sharpen and oil secateurs regularly.</li> <li>Report broken ladders, tools or trellis parts.</li> <li>Clean tools when moving to a block with disease, if your supervisor asks.</li> </ul>"
+  },
+  {
+   "title": "Watching vine health and reporting",
+   "minutes": 15,
+   "html": "<h3>Being the farm's eyes</h3> <p>While you work, you see every vine. You can be the first to notice a problem.</p> <h4>What to watch for</h4> <ul> <li>White powder on leaves or bunches (powdery mildew).</li> <li>Oily yellow spots on leaves (downy mildew).</li> <li>Grey mould on bunches (botrytis).</li> <li>Sticky leaves, white insects and many ants (mealybug).</li> <li>Eaten buds and shoots (beetles, other pests).</li> <li>Dead arms or wilting vines.</li> <li>Bird, baboon or porcupine damage.</li> <li>Leaking pipes and wet or dry patches.</li> </ul> <h4>How to report</h4> <p>Tell your supervisor the same day:</p> <ul> <li><strong>What</strong> you saw.</li> <li><strong>Where</strong>: block, row and vine number. Mark the vine with tape if asked.</li> <li><strong>How much</strong>: one vine, a few, or the whole row.</li> </ul> <p>Some farms give scouts a form or a phone app. Fill it in carefully.</p> <h4>Your part in vine health</h4> <ul> <li>Good canopy work lets air move so leaves dry fast and disease is less.</li> <li>Clean tools stop disease moving between blocks.</li> <li>Ant control helps stop mealybug.</li> <li>Only trained workers mix and apply chemicals. If you are part of a spray team, use all PPE and follow the label and your supervisor.</li> </ul> <h4>Reflecting and getting signed off</h4> <p>At the end of each season, go through your logbook with your mentor. Check which tasks you have done enough times to work alone, and which need more practice. Your assessor will look at your logbook, watch you work, and ask you questions about why each task is done.</p> <h4>Key points</h4> <ul> <li>Each season has its own vineyard jobs; try to gain experience in all of them.</li> <li>Know what good quality looks like for each task.</li> <li>Fix work that is not up to standard and learn from it.</li> <li>Report what, where and how much on the same day.</li> <li>Keep your logbook signed and up to date.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In the Western Cape, when is pruning mainly done?",
+   "options": [
+    {
+     "text": "During harvest",
+     "correct": false
+    },
+    {
+     "text": "Only in spring",
+     "correct": false
+    },
+    {
+     "text": "Winter (June to August)",
+     "correct": true
+    },
+    {
+     "text": "Summer (December to February)",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of good pruning quality?",
+   "options": [
+    {
+     "text": "Clean cuts a little above the bud",
+     "correct": true
+    },
+    {
+     "text": "As many buds as possible",
+     "correct": false
+    },
+    {
+     "text": "Prunings left hanging in the wires",
+     "correct": false
+    },
+    {
+     "text": "Dead wood left on the vine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the supervisor finds a problem with your work?",
+   "options": [
+    {
+     "text": "Argue",
+     "correct": false
+    },
+    {
+     "text": "Go home",
+     "correct": false
+    },
+    {
+     "text": "Ask to be shown again and fix it",
+     "correct": true
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Sticky leaves, white insects and many ants suggest what?",
+   "options": [
+    {
+     "text": "Too much sun",
+     "correct": false
+    },
+    {
+     "text": "Frost damage",
+     "correct": false
+    },
+    {
+     "text": "Mealybug",
+     "correct": true
+    },
+    {
+     "text": "Powdery mildew",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What helps stop disease moving between blocks?",
+   "options": [
+    {
+     "text": "Working faster",
+     "correct": false
+    },
+    {
+     "text": "Clean tools",
+     "correct": true
+    },
+    {
+     "text": "Skipping vines",
+     "correct": false
+    },
+    {
+     "text": "Leaving prunings in the wires",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Speed is more important than quality when you are paid per row.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Good canopy work lets air move so leaves dry faster and disease is less.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you include when you report a vine problem? (select all that apply)",
+   "options": [
+    {
+     "text": "How much is affected",
+     "correct": true
+    },
+    {
+     "text": "What you saw",
+     "correct": true
+    },
+    {
+     "text": "Where: block, row and vine",
+     "correct": true
+    },
+    {
+     "text": "What you ate for lunch",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

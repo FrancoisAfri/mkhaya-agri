@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-10981",
+ "title": "Supervise work unit to achieve work unit objectives (individuals and teams)",
+ "lessons": [
+  {
+   "title": "Setting objectives and planning the work",
+   "minutes": 20,
+   "html": "<h3>The supervisor's job</h3>\n<p>A supervisor turns the farm or yard's goals into daily work that gets done safely, on time and to standard. On a stud farm or livery yard, your work unit may be a team of grooms; on a mixed farm, it may be the livestock team or a harvesting crew.</p>\n<h3>From goals to work unit objectives</h3>\n<p>Start with what management wants, for example: \"All mares scanned and foaling records up to date by 30 September\" or \"Reduce lost workdays from injuries this season.\" Turn each into <strong>SMART</strong> objectives:</p>\n<ul>\n<li><strong>Specific:</strong> clear about what must be done.</li>\n<li><strong>Measurable:</strong> you can count or check it.</li>\n<li><strong>Achievable:</strong> possible with the people, time and tools you have.</li>\n<li><strong>Relevant:</strong> linked to the business goal.</li>\n<li><strong>Time-bound:</strong> has a deadline.</li>\n</ul>\n<h3>Planning the work</h3>\n<ol>\n<li><strong>Break objectives into tasks:</strong> for example, feeding, mucking out, turnout, exercise, health checks and record keeping.</li>\n<li><strong>Estimate time and resources:</strong> people, vehicles, feed, tack, tools and budget.</li>\n<li><strong>Allocate tasks:</strong> match tasks to skills and experience. Pair new workers with experienced ones.</li>\n<li><strong>Draw up a duty roster:</strong> include weekends, leave and rest days in line with the Basic Conditions of Employment Act 75 of 1997 and the sectoral determination for farm workers.</li>\n<li><strong>Plan for safety:</strong> identify hazards (kicks, machinery, chemicals, heat) and controls, as required by the OHS Act 85 of 1993.</li>\n<li><strong>Plan for problems:</strong> what if a worker is absent, a vehicle breaks down or a horse is sick?</li>\n</ol>\n<h3>Communicating the plan</h3>\n<p>Hold a short meeting at the start of each day or week. Explain the objectives, who does what and the safety points. Check understanding by asking questions, and give the team a chance to raise concerns. Put the roster on a notice board in the tack room or office.</p>"
+  },
+  {
+   "title": "Leading individuals and teams",
+   "minutes": 20,
+   "html": "<h3>Building an effective team</h3>\n<p>People work best when they know what is expected, have the tools to do it, and feel respected. As supervisor you:</p>\n<ul>\n<li>Treat everyone fairly and consistently, regardless of language, culture or gender.</li>\n<li>Explain the reason for tasks, not only the instruction.</li>\n<li>Recognise good work, in public where appropriate.</li>\n<li>Deal with conflict early and privately.</li>\n<li>Support training and skills development.</li>\n</ul>\n<h3>Delegating</h3>\n<ol>\n<li>Choose the right person.</li>\n<li>Explain the task, standard and deadline clearly.</li>\n<li>Give the authority and resources needed.</li>\n<li>Agree check-in points.</li>\n<li>Stay accountable: you delegate the task, not the responsibility.</li>\n</ol>\n<h3>Motivating</h3>\n<p>Motivation comes from fair pay and conditions, but also from respect, clear goals, involvement in decisions, learning opportunities and seeing the results of one's work. A groom who is told that the mare he prepared produced a healthy foal feels part of the success.</p>\n<h3>Handling poor performance</h3>\n<ul>\n<li>Find the cause first: lack of skill, unclear instructions, personal problems or attitude.</li>\n<li>Talk privately, describe the behaviour and its effect, and agree on actions.</li>\n<li>Offer training or support where the problem is skill.</li>\n<li>Follow the company's disciplinary code and the Labour Relations Act 66 of 1995 for misconduct. Keep written records.</li>\n</ul>\n<h3>Team meetings</h3>\n<p>Keep them short, regular and focused: progress, problems, safety and next steps. Encourage quieter members to speak.</p>"
+  },
+  {
+   "title": "Monitoring, reporting and improving",
+   "minutes": 15,
+   "html": "<h3>Monitoring performance</h3>\n<p>You cannot manage what you do not measure. Monitor against the objectives you set:</p>\n<table><tr><th>Objective</th><th>Measure</th><th>How to check</th></tr>\n<tr><td>Horses fed on time</td><td>Feed times met</td><td>Feed chart signed off</td></tr>\n<tr><td>Stables clean</td><td>Daily inspection score</td><td>Walk-through checklist</td></tr>\n<tr><td>Health checks done</td><td>Daily health sheet complete</td><td>Review sheets each afternoon</td></tr>\n<tr><td>Safety</td><td>Incidents and near misses</td><td>Incident register</td></tr>\n<tr><td>Costs</td><td>Feed and bedding use</td><td>Stock records vs budget</td></tr></table>\n<h3>Giving feedback</h3>\n<ul>\n<li>Give it soon after the event, be specific and focus on the work, not the person.</li>\n<li>Balance positive and corrective feedback.</li>\n<li>Agree on what will be done differently and follow up.</li>\n</ul>\n<h3>Reporting to management</h3>\n<p>Report progress regularly in writing: objectives achieved, problems, causes, actions taken and support needed. Bring solutions, not only problems.</p>\n<h3>Continuous improvement</h3>\n<p>After each season or project, review with the team: What went well? What went wrong? What will we change? Update procedures and training plans. Small, steady improvements, such as a better feed room layout or a clearer roster, add up.</p>\n<h4>Key points</h4>\n<ul>\n<li>Turn business goals into SMART work unit objectives.</li>\n<li>Plan tasks, resources, rosters and safety, and communicate clearly.</li>\n<li>Delegate tasks but keep the responsibility.</li>\n<li>Address poor performance by finding the cause and following the disciplinary code.</li>\n<li>Monitor with simple measures and give specific feedback.</li>\n<li>Review and improve after each season.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the M in SMART objectives stand for?",
+   "options": [
+    {
+     "text": "Motivated",
+     "correct": false
+    },
+    {
+     "text": "Measurable",
+     "correct": true
+    },
+    {
+     "text": "Managed",
+     "correct": false
+    },
+    {
+     "text": "Monthly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When you delegate a task, what stays with you?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Only the tools",
+     "correct": false
+    },
+    {
+     "text": "The worker's salary",
+     "correct": false
+    },
+    {
+     "text": "The responsibility",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first when a worker performs poorly?",
+   "options": [
+    {
+     "text": "Find the cause",
+     "correct": true
+    },
+    {
+     "text": "Issue a final warning",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Tell the whole team",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act sets out how misconduct must be handled fairly?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good way to check that stables are clean every day?",
+   "options": [
+    {
+     "text": "Ask a client",
+     "correct": false
+    },
+    {
+     "text": "A walk-through checklist",
+     "correct": true
+    },
+    {
+     "text": "Wait for complaints",
+     "correct": false
+    },
+    {
+     "text": "Check once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feedback should be specific and focus on the work, not the person.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A duty roster does not need to consider rest days and leave.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a report to management include? (select all that apply)",
+   "options": [
+    {
+     "text": "Objectives achieved",
+     "correct": true
+    },
+    {
+     "text": "Problems and their causes",
+     "correct": true
+    },
+    {
+     "text": "Actions taken and support needed",
+     "correct": true
+    },
+    {
+     "text": "Gossip about workers",
+     "correct": false
+    },
+    {
+     "text": "Only good news",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

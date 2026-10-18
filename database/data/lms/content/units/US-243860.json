@@ -1,0 +1,192 @@
+{
+ "unit_key": "US-243860",
+ "title": "Assess the quality of grain for local and export markets",
+ "lessons": [
+  {
+   "title": "The grain industry and its terminology",
+   "minutes": 25,
+   "html": "<h3>Structure of the South African grain industry</h3><p>South Africa produces summer grains and oilseeds (maize, sorghum, sunflower, soya beans, groundnuts, dry beans) mainly in the Free State, North West, Mpumalanga, KwaZulu-Natal and Limpopo, and winter cereals (wheat, barley, oats, canola) mainly in the Western Cape and under irrigation in the north. Maize is the largest crop, and in surplus years the country exports maize, while it regularly imports wheat.</p><p>The industry was deregulated after the Marketing of Agricultural Products Act 47 of 1996, which ended the single-channel control boards. Today prices are set by market forces, with the JSE commodity derivatives market providing price discovery and hedging. Key participants include:</p><ul><li>Producers and producer organisations such as Grain SA.</li><li>Storage operators (silo owners), traders, processors (millers, crushers, feed manufacturers) and exporters.</li><li>Information and quality bodies: SAGIS publishes supply and demand information; the Southern African Grain Laboratory (SAGL) conducts annual crop quality surveys.</li><li>Government: the national Department responsible for agriculture sets product standards and plant health requirements.</li></ul><h4>Key terminology</h4><table><tr><th>Term</th><th>Meaning</th></tr><tr><td>Grade</td><td>The quality class assigned according to the grading regulations</td></tr><tr><td>Class</td><td>A grouping by type, e.g. white or yellow maize; bread wheat class</td></tr><tr><td>Moisture content</td><td>Percentage of water in the grain, affecting storability and mass</td></tr><tr><td>Foreign matter</td><td>Material other than grain, e.g. stones, plant parts, glass, metal</td></tr><tr><td>Defective kernels</td><td>Broken, diseased, insect-damaged, immature or heat-damaged kernels</td></tr><tr><td>Screenings</td><td>Material passing through a prescribed sieve</td></tr><tr><td>Hectolitre mass</td><td>Mass of grain in kg per hectolitre (100 litres), an indicator of soundness</td></tr><tr><td>Mycotoxins</td><td>Toxic compounds produced by fungi, e.g. aflatoxins, fumonisins</td></tr><tr><td>Consignment</td><td>A defined quantity of grain moved and traded as a unit</td></tr></table><p>Precise definitions are set in the grading regulations; always work from the current published version.</p>"
+  },
+  {
+   "title": "Legislation, logistics and sampling",
+   "minutes": 25,
+   "html": "<h3>Legislative requirements</h3><ul><li><strong>Agricultural Product Standards Act 119 of 1990:</strong> grading regulations for each grain set classes, grades, definitions, limits for deviations and methods. Export of regulated products is subject to inspection by the appointed assignee.</li><li><strong>Plant health:</strong> importing countries set phytosanitary requirements; a phytosanitary certificate is issued by the national plant protection organisation after inspection. Pests of quarantine concern must be absent.</li><li><strong>Food safety:</strong> limits on mycotoxins, pesticide residues and contaminants, set by the importing country for exports and by South African regulations locally.</li><li><strong>Contract requirements:</strong> trade contracts specify grade, quality parameters, tolerances, sampling and analysis methods, and dispute procedures.</li></ul><h4>Logistics</h4><p>Grain moves from farm to silo by truck, then by rail or road to processors or ports. Export consignments are accumulated at port terminals, inspected, and loaded onto vessels. Compliance processes include keeping grain segregated by grade and class, maintaining traceability records, fumigation where required, and timing quality certification with vessel arrival.</p><h3>Drawing a representative sample</h3><p>A grading result is only as reliable as the sample. A truckload or a ship's hold is not uniform: broken kernels and fines concentrate in certain areas, moisture varies, and foreign matter may be uneven.</p><ul><li><strong>Truck intake:</strong> use a probe (spear) sampler at several points across and along the load and at different depths, following the site's prescribed pattern, or an approved automatic sampler.</li><li><strong>Flowing grain:</strong> take regular increments across the full stream at fixed intervals, for example at the conveyor or spout during loading.</li><li><strong>Bags:</strong> sample a prescribed proportion of bags from different positions in the stack.</li></ul><p>Combine the increments into a composite, mix thoroughly and reduce to working size with an approved divider such as a Boerner or riffle divider. Never just scoop from the top. Label the sample with consignment, date, time, location and sampler; seal and retain reference samples as the procedures require.</p><h4>Safety</h4><p>Never stand on grain in a bin or truck while it is being discharged. Use fall protection on truck tops, wear dust masks, and keep clear of moving conveyors.</p>"
+  },
+  {
+   "title": "Determining quality and compliance",
+   "minutes": 25,
+   "html": "<h3>Quality determinations</h3><p>A grader determines the parameters required by the regulations and the contract. Typical determinations:</p><ol><li><strong>Odour and appearance:</strong> musty, sour or chemical odours, live insects, or obvious contamination can make the grain non-compliant regardless of other results.</li><li><strong>Moisture content:</strong> using an approved, calibrated moisture meter or the reference oven method.</li><li><strong>Hectolitre mass:</strong> where prescribed (for example wheat), using an approved apparatus.</li><li><strong>Screenings:</strong> sieving the working sample on the prescribed sieve for the prescribed action.</li><li><strong>Foreign matter and other grain:</strong> hand-sorting and weighing.</li><li><strong>Defective kernels:</strong> sorting into categories defined in the regulations: insect-damaged, heat-damaged, mouldy, immature, broken and so on.</li><li><strong>Additional tests</strong> as required: falling number and protein for wheat, oil content for oilseeds, mycotoxin tests by an accredited laboratory, pesticide residue tests.</li></ol><p>Each deviation is expressed as a percentage by mass of the sample and compared with the maximum permissible deviations for each grade in the regulation tables. The grade is the highest grade for which all parameters comply.</p><h4>Comparing local and export requirements</h4><p>Local trade usually follows South African grading regulations. Export contracts may add or tighten parameters: lower moisture for long voyages, specific mycotoxin limits, freedom from certain weed seeds or pests, or protein minimums. The grader must check both the regulation and the contract specification.</p><h4>Equipment and quality assurance</h4><p>Calibrate moisture meters and scales according to schedule, keep sieves undamaged, participate in proficiency testing schemes, and keep complete worksheets. Accurate, traceable results are essential in a dispute.</p><h4>Example</h4><p>An export maize consignment contracted at a particular grade shows compliant moisture and defective kernels, but the laboratory reports aflatoxin above the importing country's limit. The consignment does not comply with the contract, even though its physical grade is acceptable.</p>"
+  },
+  {
+   "title": "Shipping and the assessment outcome",
+   "minutes": 20,
+   "html": "<h3>Transport and ship loading</h3><ul><li><strong>Accumulation:</strong> grain is delivered to the port terminal by rail or road and stored by grade and class. Intake is sampled and graded to keep segregation.</li><li><strong>Vessel inspection:</strong> before loading, holds are inspected for cleanliness, residues of previous cargo, insects, rust scale, moisture and odour. Holds that fail must be cleaned and re-inspected. Loading into an unfit hold can contaminate a whole consignment.</li><li><strong>Loading:</strong> grain is conveyed and spouted into holds. Representative samples are drawn from the flowing stream throughout loading. Quantity is determined by terminal weighing and/or draft survey.</li><li><strong>Fumigation:</strong> where required, fumigation in transit is done by registered fumigators under strict safety rules; holds are sealed and warning notices posted.</li><li><strong>Documentation:</strong> typical documents include the bill of lading, weight certificate, certificate of quality or grade, phytosanitary certificate, fumigation certificate, and certificate of origin, as the contract and importing country require.</li></ul><h4>Determining the outcome</h4><p>The final assessment combines all results for the consignment:</p><ol><li>Compile grading worksheets and laboratory reports for all lots and loading samples.</li><li>Compare every parameter with the regulation limits and contract specifications.</li><li>Decide: compliant at the contracted grade; compliant at a lower grade (price adjustment may apply under the contract); or non-compliant.</li><li>For non-compliance, identify options in line with the contract: re-cleaning or blending where lawful and permitted, diversion to another market, or rejection.</li><li>Issue the certificate or report, signed by the authorised grader, and retain sealed reference samples for possible arbitration.</li></ol><h4>Professional conduct</h4><p>Graders must be independent and objective. Never alter results to fit a contract, and declare any conflict of interest. Incorrect certification can lead to rejected cargoes, claims, and loss of a country's market reputation.</p><h4>Key points</h4><ul><li>The deregulated grain industry relies on accurate grading and information.</li><li>Grading regulations under Act 119 of 1990 define grades and methods; export contracts may add requirements.</li><li>Representative sampling from many points, with proper dividing, is essential.</li><li>A grain's grade is the highest grade for which all parameters comply; mycotoxins or pests can make it non-compliant.</li><li>Inspect ship holds before loading and keep full documentation and reference samples.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act provides for grading regulations for grain in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is hectolitre mass?",
+   "options": [
+    {
+     "text": "The number of kernels per bag",
+     "correct": false
+    },
+    {
+     "text": "Protein content",
+     "correct": false
+    },
+    {
+     "text": "Mass of grain per 100 litres",
+     "correct": true
+    },
+    {
+     "text": "Moisture in a sample",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a truckload be sampled?",
+   "options": [
+    {
+     "text": "Take one handful from the back",
+     "correct": false
+    },
+    {
+     "text": "Scoop from the top",
+     "correct": false
+    },
+    {
+     "text": "Probe at several points and depths following a prescribed pattern",
+     "correct": true
+    },
+    {
+     "text": "Ask the driver for a sample",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the grade of a consignment?",
+   "options": [
+    {
+     "text": "Whatever the buyer wants",
+     "correct": false
+    },
+    {
+     "text": "The grade of the best kernel",
+     "correct": false
+    },
+    {
+     "text": "The average of all grades",
+     "correct": false
+    },
+    {
+     "text": "The highest grade for which all parameters comply",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Maize meets physical grade but exceeds the importing country's aflatoxin limit. What is the outcome?",
+   "options": [
+    {
+     "text": "Upgraded",
+     "correct": false
+    },
+    {
+     "text": "Not compliant with the contract",
+     "correct": true
+    },
+    {
+     "text": "Exempt",
+     "correct": false
+    },
+    {
+     "text": "Compliant",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ship holds should be inspected for cleanliness and insects before grain is loaded.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A grader may adjust results to help a consignment meet its contract.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which documents commonly accompany an export grain consignment? (select all that apply)",
+   "options": [
+    {
+     "text": "Bill of lading",
+     "correct": true
+    },
+    {
+     "text": "Phytosanitary certificate",
+     "correct": true
+    },
+    {
+     "text": "Certificate of quality or grade",
+     "correct": true
+    },
+    {
+     "text": "A farmer's ID copy for every hectare",
+     "correct": false
+    },
+    {
+     "text": "A copy of the grader's school report",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

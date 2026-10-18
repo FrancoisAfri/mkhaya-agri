@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119488",
+ "title": "Demonstrate basic knowledge of the poultry industry",
+ "lessons": [
+  {
+   "title": "The poultry industry in South Africa",
+   "minutes": 15,
+   "html": "<h3>The poultry industry in South Africa</h3><p>Poultry farming is one of the biggest parts of agriculture in South Africa. Chicken is the meat most South Africans eat, because it is cheaper than beef or mutton. Eggs are also an important, low-cost food.</p><h4>Main products</h4><ul><li><strong>Broiler meat</strong>: chickens grown for meat, sold fresh, frozen or as portions.</li><li><strong>Table eggs</strong>: eggs from layers, sold to shops and families.</li><li><strong>Day-old chicks</strong>: sold to farmers by hatcheries.</li><li><strong>By-products</strong>: chicken manure used as fertiliser, feathers and offal used in other products.</li></ul><h4>Types of poultry</h4><p>Most farms keep chickens. Some farms keep other poultry such as ducks, turkeys, geese, guinea fowl or ostriches. Ostrich farming is well known in the Western Cape, around Oudtshoorn.</p><h4>Farmers of all sizes</h4><ul><li>Large companies run breeder farms, hatcheries, feed mills, broiler farms and abattoirs.</li><li>Medium and small commercial farmers often grow broilers or keep layers and sell to shops, markets or bigger companies.</li><li>Many rural families keep free-range village chickens for their own eggs and meat.</li></ul><h4>Why it matters</h4><p>The industry gives jobs to many people, on farms and in feed mills, hatcheries, abattoirs, transport and shops. It also buys a lot of maize and soya from crop farmers, because these make up most of poultry feed. When maize prices go up, chicken and egg prices usually go up too.</p><h4>Where poultry is farmed</h4><p>Big poultry farms are found in many provinces, often close to the maize-growing areas and to cities where the chicken and eggs are sold. Being close to feed mills and markets lowers transport costs.</p>"
+  },
+  {
+   "title": "How the poultry value chain works",
+   "minutes": 15,
+   "html": "<h3>How the poultry value chain works</h3><p>A value chain is all the steps a product goes through from the farm to the person who eats it. Each step adds value and gives jobs.</p><h4>The broiler chain</h4><ol><li><strong>Breeder farms</strong> keep parent stock (hens and cocks) that lay fertile hatching eggs.</li><li><strong>Hatcheries</strong> incubate the eggs and hatch day-old chicks.</li><li><strong>Broiler farms</strong> grow the chicks to slaughter weight in a few weeks.</li><li><strong>Abattoirs</strong> slaughter and process the birds. The Meat Safety Act 40 of 2000 controls meat safety at abattoirs.</li><li><strong>Shops and butcheries</strong> sell the chicken to customers.</li></ol><h4>The egg chain</h4><ol><li>Breeder farms and hatcheries produce female chicks for laying.</li><li>Rearing farms grow pullets until they are ready to lay.</li><li>Laying farms keep hens and collect eggs.</li><li>Eggs are graded, packed and sold to shops.</li></ol><h4>Support services</h4><table><tr><th>Service</th><th>Role</th></tr><tr><td>Feed mills</td><td>Make poultry feed from maize, soya and other ingredients</td></tr><tr><td>Vets</td><td>Advise on health and vaccination</td></tr><tr><td>Transport</td><td>Moves feed, chicks, birds and eggs</td></tr><tr><td>Equipment suppliers</td><td>Sell drinkers, feeders, fans and cages</td></tr></table><h4>Threats to the industry</h4><ul><li>Diseases such as bird flu can wipe out flocks.</li><li>High feed prices.</li><li>Power cuts that stop fans, lights and water pumps.</li><li>Cheap imported chicken.</li></ul><p>Every worker helps the farm by doing good daily work, following bio-security rules and keeping birds healthy.</p><h4>Key points</h4><ul><li>Chicken is South Africa's most eaten meat; eggs are a key low-cost food.</li><li>The broiler chain runs from breeder farm to hatchery, farm, abattoir and shop.</li><li>Maize and soya make up most poultry feed.</li><li>Disease, feed prices and power cuts are major threats.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is chicken the meat most eaten in South Africa?",
+   "options": [
+    {
+     "text": "It is cheaper than beef or mutton",
+     "correct": true
+    },
+    {
+     "text": "It is only sold in winter",
+     "correct": false
+    },
+    {
+     "text": "It is imported from Europe",
+     "correct": false
+    },
+    {
+     "text": "It needs no feed to produce",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where are day-old chicks hatched?",
+   "options": [
+    {
+     "text": "In abattoirs",
+     "correct": false
+    },
+    {
+     "text": "In feed mills",
+     "correct": false
+    },
+    {
+     "text": "In hatcheries",
+     "correct": true
+    },
+    {
+     "text": "In shops",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do breeder farms produce?",
+   "options": [
+    {
+     "text": "Feed",
+     "correct": false
+    },
+    {
+     "text": "Fertile hatching eggs",
+     "correct": true
+    },
+    {
+     "text": "Frozen chicken",
+     "correct": false
+    },
+    {
+     "text": "Fertiliser only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which crops make up most of poultry feed?",
+   "options": [
+    {
+     "text": "Apples and grapes",
+     "correct": false
+    },
+    {
+     "text": "Potatoes and onions",
+     "correct": false
+    },
+    {
+     "text": "Sugar cane and cotton",
+     "correct": false
+    },
+    {
+     "text": "Maize and soya",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law controls meat safety at abattoirs?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": false
+    },
+    {
+     "text": "No law covers abattoirs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Power cuts can be a threat to poultry farms because fans, lights and pumps stop.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only large companies keep chickens in South Africa.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are products of the poultry industry? (select all that apply)",
+   "options": [
+    {
+     "text": "Broiler meat",
+     "correct": true
+    },
+    {
+     "text": "Table eggs",
+     "correct": true
+    },
+    {
+     "text": "Wool",
+     "correct": false
+    },
+    {
+     "text": "Manure used as fertiliser",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

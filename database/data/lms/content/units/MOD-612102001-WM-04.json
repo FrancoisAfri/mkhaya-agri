@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-WM-04",
+  "title": "Milk harvesting, parlour hygiene and equipment care processes on a dairy farm",
+  "lessons": [
+    {
+      "title": "Running a milking shift",
+      "minutes": 20,
+      "html": "<h3>Your role in the parlour</h3><p>In this work experience module you will work milking shifts in a real parlour under supervision, then take more responsibility as you become competent. Record each shift in your logbook: date, number of cows milked, problems seen and actions taken.</p><h4>Before milking</h4><ol><li>Check the parlour board for treated cows, mastitis cows and fresh cows.</li><li>Check the plant was cleaned after the last milking and drained.</li><li>Fit a new filter sock and check liners and tubes.</li><li>Switch on, check the vacuum gauge reads correctly and pulsators are working.</li><li>Prepare teat dips, towels, strip cup and gloves.</li><li>Bring cows up quietly. Do not rush or shout.</li></ol><h4>During milking</h4><ul><li>Follow the farm's routine for every cow: fore-strip, pre-dip, contact time, dry, attach, adjust, remove, post-dip.</li><li>Work in a steady rhythm; on a herringbone, prepare a row while the other row milks.</li><li>Watch for kicking cows, falling clusters and cows that milk slowly.</li><li>Divert milk from treated, mastitis and colostrum cows away from the tank, using a separate bucket or dump line.</li><li>Hose dung off the platform as needed, keeping water away from udders being milked.</li></ul><h4>After milking</h4><ul><li>Check the bulk tank is cooling and record the temperature.</li><li>Look at the filter sock for clots or dirt and record what you see.</li><li>Start the wash cycle.</li><li>Clean the parlour floor, pit and yard.</li><li>Update the treatment and mastitis records.</li></ul><h4>Personal hygiene</h4><p>Wear clean clothing, keep fingernails short, wear gloves, cover cuts and do not milk if you have a stomach illness. Do not smoke, eat or drink in the dairy.</p>"
+    },
+    {
+      "title": "Mastitis control in practice",
+      "minutes": 20,
+      "html": "<h3>Mastitis: the costliest dairy disease</h3><p>Mastitis is infection and inflammation of the udder. It reduces milk yield, raises somatic cell counts, leads to discarded milk and treatment costs, and can cause cows to be culled.</p><h4>Two kinds</h4><ul><li><strong>Clinical mastitis</strong>: you can see it. Clots, flakes, watery or bloody milk, a hot, hard or swollen quarter, sometimes a sick cow with fever.</li><li><strong>Subclinical mastitis</strong>: the milk looks normal but the somatic cell count (SCC) is high. Found by milk recording or the California Mastitis Test (CMT).</li></ul><h4>Where infection comes from</h4><table><tr><th>Source</th><th>How to prevent it</th></tr><tr><td>Other infected cows, via milkers' hands, towels and liners</td><td>Gloves, one towel per cow, post-dipping, milk infected cows last</td></tr><tr><td>The environment: dung, mud, wet bedding</td><td>Clean, dry lying areas and yards; pre-dipping; clean dry teats</td></tr><tr><td>Faulty equipment</td><td>Correct vacuum, working pulsators, liners changed on time</td></tr></table><h4>Handling a clinical case</h4><ol><li>Mark the cow and tell the supervisor.</li><li>Milk her last or into a separate bucket.</li><li>Treat according to the vet's protocol only.</li><li>Record cow, quarter, date, treatment and withdrawal end date.</li><li>Keep milk out of the tank until the withdrawal period on the label is over and the milk is normal.</li></ol><h4>Using CMT</h4><p>Squirt milk from each quarter into the paddle cups, add the reagent, swirl and watch. A thick gel shows a high cell count. Record results and report positive quarters.</p><p>Cows keep standing after milking when they have fresh feed waiting, which gives the teat canal time to close before they lie down.</p>"
+    },
+    {
+      "title": "Cleaning and maintaining the plant",
+      "minutes": 20,
+      "html": "<h3>Keeping the plant clean</h3><p>You will carry out the farm's cleaning programme and keep its records.</p><h4>Typical wash cycle</h4><ol><li>Rinse milk out with lukewarm water, run to waste.</li><li>Circulate hot alkaline detergent, at the temperature and strength on the label, for the set time. Check the return water is still hot at the end.</li><li>Rinse.</li><li>Acid wash as scheduled to remove milkstone.</li><li>Sanitise before milking if the programme requires.</li></ol><p>Signs of poor cleaning: white film or milkstone in the receiver jar, greasy feel inside liners, rising bacteria counts from the buyer.</p><h4>Bulk tank</h4><ul><li>Record temperature after each milking and at collection.</li><li>Check the cooling compressor runs and the agitator turns.</li><li>Clean the tank after each collection, including the outlet valve and dipstick.</li></ul><h4>Maintenance schedule</h4><ul><li>Daily: vacuum level, pulsators, liners, hoses, filter.</li><li>Weekly: pump oil, belts, regulator cleaning.</li><li>Liners: replace after the number of milkings the maker states.</li><li>Professional plant test at the recommended interval.</li></ul><h4>Safety</h4><ul><li>Wear gloves, goggles and an apron when handling detergents and acids.</li><li>Never mix acid with chlorine products.</li><li>Add chemical to water, never water to chemical.</li><li>If chemical splashes in the eyes, rinse with running water for a long time and get medical help.</li><li>Switch off and isolate electrical equipment before maintenance; only qualified people do electrical work.</li><li>Keep floors clean to prevent slips.</li></ul><h4>Key points</h4><ul><li>Check the board, the plant and the vacuum before every milking.</li><li>Follow the full routine for every cow and keep abnormal milk out of the tank.</li><li>Prevent mastitis with hygiene, post-dipping and working equipment.</li><li>Clean the plant after every milking and record temperatures.</li><li>Handle cleaning chemicals with protective equipment and never mix acid and chlorine.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What should you check first before starting milking?",
+      "options": [
+        {
+          "text": "The parlour board for treated and mastitis cows",
+          "correct": true
+        },
+        {
+          "text": "The weather forecast",
+          "correct": false
+        },
+        {
+          "text": "The feed price",
+          "correct": false
+        },
+        {
+          "text": "The fuel level of the bakkie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Subclinical mastitis can be found by:",
+      "options": [
+        {
+          "text": "Looking at the cow's coat",
+          "correct": false
+        },
+        {
+          "text": "The California Mastitis Test or milk recording",
+          "correct": true
+        },
+        {
+          "text": "Weighing the cow",
+          "correct": false
+        },
+        {
+          "text": "Checking her ear tag",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is fresh feed given after milking?",
+      "options": [
+        {
+          "text": "To make cows walk faster",
+          "correct": false
+        },
+        {
+          "text": "To lower feed costs",
+          "correct": false
+        },
+        {
+          "text": "So cows stand while the teat canal closes",
+          "correct": true
+        },
+        {
+          "text": "To dry the teats",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A white film in the receiver jar is a sign of:",
+      "options": [
+        {
+          "text": "Good cleaning",
+          "correct": false
+        },
+        {
+          "text": "Too many cows",
+          "correct": false
+        },
+        {
+          "text": "High milk fat",
+          "correct": false
+        },
+        {
+          "text": "Milkstone from poor cleaning",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In a CMT, a thick gel in the paddle shows:",
+      "options": [
+        {
+          "text": "A high somatic cell count",
+          "correct": true
+        },
+        {
+          "text": "Normal milk",
+          "correct": false
+        },
+        {
+          "text": "Colostrum",
+          "correct": false
+        },
+        {
+          "text": "Added water",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You may milk while you have a stomach illness if you wear gloves.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "When adding chemical to water you should add the chemical to the water, not water to the chemical.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which steps help prevent mastitis spreading from cow to cow? (select all that apply)",
+      "options": [
+        {
+          "text": "One towel per cow",
+          "correct": true
+        },
+        {
+          "text": "Post-dipping teats",
+          "correct": true
+        },
+        {
+          "text": "Milking infected cows last",
+          "correct": true
+        },
+        {
+          "text": "Sharing one cloth for the whole row",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

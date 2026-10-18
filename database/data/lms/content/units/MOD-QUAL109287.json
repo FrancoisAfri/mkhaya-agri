@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL109287",
+ "title": "Advanced Diploma in Game Ranch Management",
+ "lessons": [
+  {
+   "title": "Managing a game ranch as a business and ecosystem",
+   "minutes": 20,
+   "html": "<h3>The game ranch manager</h3>\n<p>The Advanced Diploma in Game Ranch Management (NQF 7) is aimed at middle managers in game ranching and natural resource management. South Africa has one of the largest private wildlife industries in the world, with income from live game sales, hunting, venison, eco-tourism and conservation projects. Managers must balance ecology, economics, people and law.</p>\n<h4>Ecological management</h4>\n<ul><li><strong>Veld condition assessment</strong>: regular surveys of grass species composition, basal cover and woody plant density. Increaser and decreaser grass species indicate whether veld is improving or degrading.</li>\n<li><strong>Carrying capacity</strong>: estimate how many grazers and browsers the ranch can support, expressed in large stock units or browser units, and adjust for rainfall. Overstocking in drought leads to die-offs and long-term damage.</li>\n<li><strong>Species mix</strong>: balance bulk grazers (buffalo, zebra, wildebeest), selective grazers (sable, roan), mixed feeders (impala, eland) and browsers (kudu, giraffe).</li>\n<li><strong>Fire management</strong>: planned burning to remove moribund grass and control bush, using firebreaks and a burning plan; neighbours must be informed, and fire protection associations involved.</li>\n<li><strong>Bush encroachment</strong> and alien plant control under the Conservation of Agricultural Resources Act 43 of 1983.</li>\n<li><strong>Water provision</strong>: placement of artificial waterpoints affects grazing pressure across the ranch.</li></ul>\n<h4>Game counts and offtake</h4>\n<p>Annual aerial or road-strip counts give population estimates. From these, the manager sets a sustainable offtake quota for hunting, live sales and culling, based on growth rates, sex ratios and veld condition.</p>"
+  },
+  {
+   "title": "Finance, people, law and strategy",
+   "minutes": 18,
+   "html": "<h3>The business side</h3>\n<p>Game ranching can be profitable, but costs are high: fencing, water, security, staff and veterinary work. Managers must prepare budgets, track income by enterprise and decide which mix of activities makes sense.</p>\n<table><tr><th>Enterprise</th><th>Considerations</th></tr>\n<tr><td>Live game sales</td><td>Market prices can rise and fall sharply; capture costs and permits</td></tr>\n<tr><td>Trophy and biltong hunting</td><td>Seasonal, needs professional hunters, outfitters and accommodation</td></tr>\n<tr><td>Venison</td><td>Needs registered game abattoir or harvesting under Meat Safety Act rules and a cold chain</td></tr>\n<tr><td>Eco-tourism</td><td>Lodges, guiding, marketing, guest safety</td></tr>\n<tr><td>Conservation partnerships</td><td>Biodiversity stewardship, carbon or research income</td></tr></table>\n<h4>Legal compliance</h4>\n<ul><li>Provincial conservation legislation: exemption or registration of properties, hunting permits, game transport permits.</li>\n<li>National Environmental Management: Biodiversity Act 10 of 2004 and the Threatened or Protected Species (TOPS) regulations for listed species such as rhino, cheetah and sable in some cases.</li>\n<li>Animal Diseases Act 35 of 1984: buffalo and other species are linked to diseases such as foot-and-mouth disease and corridor disease, and movement is controlled.</li>\n<li>Firearms Control Act 60 of 2000 for staff using rifles.</li>\n<li>Labour law and the OHS Act 85 of 1993 for staff.</li></ul>\n<h4>People management and security</h4>\n<p>Rangers, field staff, lodge staff and anti-poaching teams must be recruited, trained and managed fairly. Poaching of rhino and bushmeat snaring are serious threats; managers work with security companies, SAPS and neighbours, and must ensure staff safety and lawful use of force.</p>\n<h4>Strategy</h4>\n<p>A strategic plan sets the ranch's long-term vision, for example moving from live sales towards a mixed hunting and tourism model. It includes risk management for drought, disease outbreaks, market shocks and fire.</p>\n<h4>Key points</h4>\n<ul><li>Game ranch management balances ecology, economics, people and law.</li>\n<li>Veld condition, carrying capacity and game counts guide stocking and offtake.</li>\n<li>Income may come from live sales, hunting, venison, eco-tourism and conservation.</li>\n<li>Comply with provincial permits, TOPS, disease control, firearm and labour laws.</li>\n<li>Plan strategically and manage risks from drought, disease, markets, fire and poaching.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is carrying capacity on a game ranch?",
+   "options": [
+    {
+     "text": "How many grazers and browsers the ranch can support",
+     "correct": true
+    },
+    {
+     "text": "The size of a capture truck",
+     "correct": false
+    },
+    {
+     "text": "The number of guests a lodge can host",
+     "correct": false
+    },
+    {
+     "text": "The number of rifles allowed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which animals are examples of browsers?",
+   "options": [
+    {
+     "text": "Buffalo and sable",
+     "correct": false
+    },
+    {
+     "text": "Kudu and giraffe",
+     "correct": true
+    },
+    {
+     "text": "Warthog and roan",
+     "correct": false
+    },
+    {
+     "text": "Zebra and wildebeest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of annual game counts?",
+   "options": [
+    {
+     "text": "To count staff",
+     "correct": false
+    },
+    {
+     "text": "To estimate populations and set sustainable offtake",
+     "correct": true
+    },
+    {
+     "text": "To check firearm licences",
+     "correct": false
+    },
+    {
+     "text": "To decide on lodge prices",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which regulations protect listed species such as rhino?",
+   "options": [
+    {
+     "text": "Stock Theft regulations",
+     "correct": false
+    },
+    {
+     "text": "TOPS regulations under the Biodiversity Act",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act regulations",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards regulations",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers alien plant control and bush encroachment?",
+   "options": [
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": true
+    },
+    {
+     "text": "SPCA Act 169 of 1993",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overstocking during drought can lead to game die-offs and long-term veld damage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Buffalo movements are not controlled because buffalo are not linked to any diseases.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are possible income sources on a game ranch? (select all that apply)",
+   "options": [
+    {
+     "text": "Free grazing for neighbours' cattle with no payment",
+     "correct": false
+    },
+    {
+     "text": "Eco-tourism",
+     "correct": true
+    },
+    {
+     "text": "Trophy and biltong hunting",
+     "correct": true
+    },
+    {
+     "text": "Live game sales",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

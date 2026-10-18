@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12581",
+  "title": "Demonstrate an understanding of canopy management",
+  "lessons": [
+    {
+      "title": "What the canopy is and why we manage it",
+      "minutes": 15,
+      "html": "<h3>What the canopy is and why we manage it</h3><p>The canopy is all the green parts of the vine above the ground: shoots, leaves, tendrils and bunches. Leaves use sunlight to make sugar, which goes into the grapes. But too many leaves and shoots crowd the vine.</p><h4>Problems with a crowded canopy</h4><ul><li>Bunches are in deep shade and ripen poorly, with less colour and flavour.</li><li>Air cannot move, so leaves and bunches stay wet after rain or dew. Diseases like downy mildew, powdery mildew and bunch rot spread.</li><li>Sprays cannot reach the bunches.</li><li>Picking is slow because bunches are hidden.</li></ul><h4>Problems with too few leaves</h4><p>If too many leaves are removed, bunches can get sunburnt, especially on the side that gets the hot afternoon sun. The vine also has fewer leaves to make sugar. Good canopy management finds a balance.</p><h4>The aim</h4><p>The aim is an open, even canopy where:</p><ul><li>shoots are evenly spaced and not crossing each other;</li><li>bunches get some light and air but are not fully exposed to hot sun;</li><li>leaves are spread out to catch sunlight;</li><li>sprays can reach the bunches.</li></ul><h4>When is it done?</h4><p>Canopy work is done in spring and summer, while the shoots are growing. Each job must be done at the right stage. If it is done too late, shoots are tangled, wounds are bigger and the vine wastes energy. Your supervisor will plan the order of jobs for each block and cultivar.</p><p>Different cultivars grow in different ways. Some make many strong shoots and need more thinning; others grow less and need gentle work. Ask your supervisor what is needed in each block before you start.</p>"
+    },
+    {
+      "title": "Canopy management tasks",
+      "minutes": 25,
+      "html": "<h3>Canopy management tasks</h3><h4>1. Suckering and shoot thinning</h4><p>In early spring, when shoots are still short (often about hand length), remove:</p><ul><li>suckers growing from the trunk and rootstock;</li><li>double shoots (two shoots from one bud) - keep the stronger one;</li><li>weak shoots and shoots without bunches, where the farm instructs;</li><li>shoots growing from the wrong places, such as underneath the cordon.</li></ul><p>Young shoots break off easily by hand. Push them sideways at the base; do not tear the bark.</p><h4>2. Shoot positioning (tucking)</h4><p>As shoots grow, tuck them upwards between the foliage wires so they stand vertically and evenly spaced. Move the foliage wires up as the shoots grow. Do this before shoots become long and tangled.</p><h4>3. Topping</h4><p>When shoots grow far above the top wire and start to hang over, they are cut back (topped) by hand or machine at the height the supervisor gives. This stops shading of the rows.</p><h4>4. Leaf removal</h4><p>Around the bunch zone, some leaves are removed to let in light and air. Usually this is done on the side that gets the morning sun, which is cooler. Leave leaves on the hot afternoon side to protect bunches from sunburn, unless told otherwise. Remove only as many leaves as instructed.</p><h4>5. Lateral removal</h4><p>Side shoots (laterals) in the bunch zone may be removed to keep it open.</p><h4>Good practice and safety</h4><ul><li>Work one side of the row at a time and check your work.</li><li>Do not damage bunches or break the main shoots you want to keep.</li><li>Keep a safe distance from tractors and topping machines. Never go near cutter blades.</li><li>Respect re-entry times after spraying. Do not enter a sprayed block until your supervisor says it is safe.</li><li>Wear a hat and long sleeves; drink water.</li></ul><h4>Key points</h4><ul><li>The canopy is the green part of the vine above the ground.</li><li>A crowded canopy causes poor ripening and more disease.</li><li>Too much leaf removal can cause sunburn.</li><li>Main tasks: suckering and shoot thinning, tucking, topping, leaf and lateral removal.</li><li>Do each task at the right time and never enter a sprayed block before it is safe.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the canopy of a vine?",
+      "options": [
+        {
+          "text": "The roots and trunk",
+          "correct": false
+        },
+        {
+          "text": "All the green parts above the ground: shoots, leaves and bunches",
+          "correct": true
+        },
+        {
+          "text": "The shade net over the vineyard",
+          "correct": false
+        },
+        {
+          "text": "The trellis posts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is one problem with a crowded canopy?",
+      "options": [
+        {
+          "text": "Diseases spread because air cannot move",
+          "correct": true
+        },
+        {
+          "text": "Bunches get sunburnt",
+          "correct": false
+        },
+        {
+          "text": "Sprays reach bunches too easily",
+          "correct": false
+        },
+        {
+          "text": "Grapes ripen too fast",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What can happen if too many leaves are removed?",
+      "options": [
+        {
+          "text": "More bunch rot",
+          "correct": false
+        },
+        {
+          "text": "Bunches stay in deep shade",
+          "correct": false
+        },
+        {
+          "text": "Bunches can get sunburnt",
+          "correct": true
+        },
+        {
+          "text": "Shoots grow tangled",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "With two shoots growing from one bud, what do you do?",
+      "options": [
+        {
+          "text": "Remove both",
+          "correct": false
+        },
+        {
+          "text": "Keep both",
+          "correct": false
+        },
+        {
+          "text": "Tie them together",
+          "correct": false
+        },
+        {
+          "text": "Keep the stronger one and remove the other",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "On which side is leaf removal usually done?",
+      "options": [
+        {
+          "text": "The side that gets the cooler morning sun",
+          "correct": true
+        },
+        {
+          "text": "The hot afternoon side",
+          "correct": false
+        },
+        {
+          "text": "Both sides completely",
+          "correct": false
+        },
+        {
+          "text": "Only the top of the canopy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Shoot positioning means tucking shoots upwards between the foliage wires.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You may enter a sprayed block straight away if you are wearing a hat.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are canopy management tasks? (select all that apply)",
+      "options": [
+        {
+          "text": "Shoot thinning",
+          "correct": true
+        },
+        {
+          "text": "Topping",
+          "correct": true
+        },
+        {
+          "text": "Winter pruning of the trunk",
+          "correct": false
+        },
+        {
+          "text": "Leaf removal in the bunch zone",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

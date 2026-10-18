@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116385",
+ "title": "Integrate sustainable breeding and selection methods",
+ "lessons": [
+  {
+   "title": "Breeding objectives and the principles of selection",
+   "minutes": 20,
+   "html": "<h3>Starting with the end in mind</h3><p>Breeding is a long-term investment: genetic change made today is expressed in the herd or flock for many generations. Sustainable breeding therefore begins with a clear <strong>breeding objective</strong> – a statement of which traits create profit and resilience in a specific production system and environment, and how much each trait matters.</p><h4>Defining the objective</h4><ul><li>Market and product: weaner calves, feedlot finishing, slaughter lambs, wool or mohair fibre, milk, eggs.</li><li>Environment: veld type, rainfall, heat, ticks and disease pressure. A Bonsmara or Nguni herd in the Lowveld, a Dorper flock in the Karoo and a Holstein herd on irrigated pasture face very different constraints.</li><li>Economically important traits: fertility, calving or lambing ease, survival, growth, feed efficiency, carcass or fibre quality, adaptation, temperament and longevity.</li></ul><p>Fertility and survival usually carry the most economic weight in extensive systems, even though they are harder to measure than growth.</p><h4>How selection works</h4><p>An animal's performance (phenotype) is the result of its genes plus its environment. Selection works only on the genetic part. <strong>Heritability</strong> (h²) is the proportion of variation in a trait that is due to additive genetic effects passed from parents to offspring. Growth and carcass traits tend to be moderately to highly heritable; fertility and survival traits tend to have low heritability and respond better to good management and crossbreeding.</p><p>The expected annual genetic gain can be summarised by the breeder's equation:</p><p><em>Response per year = (accuracy x selection intensity x genetic variation) / generation interval</em></p><p>This shows the levers available: more accurate evaluation, selecting a smaller top fraction of animals as parents, maintaining genetic variation, and shortening the generation interval (using young, well-evaluated sires).</p>"
+  },
+  {
+   "title": "Tools for genetic evaluation",
+   "minutes": 20,
+   "html": "<h3>Measuring merit, not just appearance</h3><h4>Performance recording</h4><p>Reliable selection requires records: identification, pedigree, birth date, birth and weaning weights, post-weaning growth, reproduction records and, where relevant, fibre or carcass measures. Animals must be compared within contemporary groups – animals of the same sex and age managed together – so that environmental differences do not masquerade as genetic ones. In South Africa, performance and progeny testing are supported by national recording schemes, breed societies and the Agricultural Research Council, within the framework of the Animal Improvement Act 62 of 1998.</p><h4>Estimated Breeding Values (EBVs)</h4><p>EBVs combine an animal's own records with those of relatives, using statistical methods (BLUP), to predict the genetic merit it will pass on. Key considerations:</p><ul><li>EBVs are expressed relative to a breed base and are comparable only within the same evaluation.</li><li>Each EBV has an <strong>accuracy</strong>; young animals with few records have lower accuracy.</li><li>Selection indexes combine several EBVs weighted by their economic value, aligning selection with the breeding objective.</li></ul><h4>Genomics</h4><p>DNA-based (genomic) information increasingly supplements EBVs, raising accuracy for young animals and hard-to-measure traits such as fertility or disease resistance. Its value depends on a reference population with good phenotypic records.</p><h4>Visual appraisal</h4><p>Functional assessment – feet and legs, udder, testicular development, mouth, structural correctness and adaptation – remains essential, because an animal with high EBVs but poor functional traits will not last in an extensive system. The aim is to combine objective data with functional appraisal, not to select on appearance alone.</p><h4>Reproductive technologies</h4><p>Artificial insemination, embryo transfer and semen evaluation increase selection intensity and spread superior genetics, but they demand good heat detection, nutrition and record keeping to succeed.</p>"
+  },
+  {
+   "title": "Mating systems, diversity and sustainability",
+   "minutes": 20,
+   "html": "<h3>Building herds that last</h3><h4>Purebreeding and crossbreeding</h4><ul><li><strong>Purebreeding</strong> maintains breed characteristics and supplies seedstock.</li><li><strong>Crossbreeding</strong> exploits <strong>heterosis</strong> (hybrid vigour), which is greatest in low-heritability traits such as fertility, survival and longevity, and combines complementary breed strengths – for example, adapted indigenous dams with terminal sires for growth.</li><li>Structured systems (rotational, terminal, composite) keep heterosis predictable; unplanned crossing tends to lose it and produces variable animals.</li></ul><h4>Inbreeding and genetic diversity</h4><p>Mating closely related animals raises inbreeding, which reduces fertility, survival and growth (inbreeding depression) and exposes recessive defects. Over-use of a few popular sires narrows the genetic base of a breed. Manage this by keeping pedigree records, monitoring inbreeding coefficients, limiting the use of any one sire, and planning matings.</p><p>Indigenous and locally developed breeds – Nguni, Afrikaner, Bonsmara, Drakensberger, Dorper, Pedi and Zulu sheep, indigenous goats and village chickens – carry adaptation to heat, ticks, disease and poor-quality veld. Conserving these genetic resources is part of sustainability, especially as climate pressures increase.</p><h4>Genotype x environment interaction</h4><p>The best animals in one environment are not always the best in another. Select replacement animals or sires evaluated under conditions similar to the target system.</p><h4>Sustainability in the breeding objective</h4><ul><li>Fertility, longevity and survival reduce replacement costs and emissions per unit of product.</li><li>Feed efficiency and appropriate mature size match animals to veld carrying capacity, supporting Conservation of Agricultural Resources Act 43 of 1983 obligations to avoid overgrazing.</li><li>Disease and parasite resistance reduce chemical use.</li><li>Calving and lambing ease and temperament support welfare and worker safety.</li></ul><h4>Implementation and extension</h4><p>A breeding programme needs a written objective, consistent recording, annual review of genetic trends, and a culling policy based on data. For communal and emerging farmers, extension programmes such as bull or ram schemes, community recording and access to adapted, performance-tested sires can deliver genetic progress without complex technology.</p><h4>Key points</h4><ul><li>A breeding objective defines the traits that drive profit and resilience in a specific environment.</li><li>Genetic gain depends on accuracy, intensity, genetic variation and generation interval.</li><li>EBVs from recorded contemporary groups, plus functional appraisal, guide selection.</li><li>Crossbreeding captures heterosis, especially in fertility and survival.</li><li>Manage inbreeding and conserve adapted indigenous breeds.</li><li>Include fertility, longevity, efficiency and adaptation for sustainable herds.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is heritability?",
+   "options": [
+    {
+     "text": "The proportion of variation in a trait due to additive genetic effects",
+     "correct": true
+    },
+    {
+     "text": "The number of offspring an animal produces",
+     "correct": false
+    },
+    {
+     "text": "The total value of an animal at auction",
+     "correct": false
+    },
+    {
+     "text": "The effect of feed on growth",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which change would increase annual genetic gain, all else equal?",
+   "options": [
+    {
+     "text": "Lengthening the generation interval",
+     "correct": false
+    },
+    {
+     "text": "Selecting a larger fraction of animals as parents",
+     "correct": false
+    },
+    {
+     "text": "Reducing genetic variation",
+     "correct": false
+    },
+    {
+     "text": "Increasing the accuracy of evaluation",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are animals compared within contemporary groups?",
+   "options": [
+    {
+     "text": "To make records shorter",
+     "correct": false
+    },
+    {
+     "text": "To increase inbreeding",
+     "correct": false
+    },
+    {
+     "text": "So environmental differences are not mistaken for genetic differences",
+     "correct": true
+    },
+    {
+     "text": "Because EBVs are not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Heterosis from crossbreeding is usually greatest in which type of traits?",
+   "options": [
+    {
+     "text": "Coat colour",
+     "correct": false
+    },
+    {
+     "text": "Low-heritability traits such as fertility and survival",
+     "correct": true
+    },
+    {
+     "text": "Horn shape",
+     "correct": false
+    },
+    {
+     "text": "Highly heritable carcass traits",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a main risk of over-using a few popular sires?",
+   "options": [
+    {
+     "text": "Lower accuracy of all EBVs",
+     "correct": false
+    },
+    {
+     "text": "Rising inbreeding and a narrower genetic base",
+     "correct": true
+    },
+    {
+     "text": "Higher heterosis",
+     "correct": false
+    },
+    {
+     "text": "Faster rumen development",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An EBV is only comparable with other EBVs from the same evaluation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The best-performing animals in one environment are always the best in every environment.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which traits support sustainability when included in a breeding objective? (select all that apply)",
+   "options": [
+    {
+     "text": "Disease and parasite resistance",
+     "correct": true
+    },
+    {
+     "text": "Fertility and longevity",
+     "correct": true
+    },
+    {
+     "text": "Maximum mature size regardless of veld",
+     "correct": false
+    },
+    {
+     "text": "Feed efficiency and appropriate mature size",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

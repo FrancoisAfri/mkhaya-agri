@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119472",
+ "title": "Accommodate audience and context needs in oral/signed communication",
+ "lessons": [
+  {
+   "title": "Knowing your audience and context",
+   "minutes": 15,
+   "html": "<h3>Speaking to be understood</h3>\n<p>In hunting camps, stables and farms you talk to many different people: clients from overseas, trackers and skinners, the farm owner, vets, children visiting the lodge. Good oral communication means adjusting how you speak to suit the listener and the situation.</p>\n<h4>Think about the audience</h4>\n<ul><li><strong>Language</strong>: what language does the listener understand best? A German client may speak English as a second language. Speak slowly and clearly, use simple words and avoid slang and local expressions they may not know.</li>\n<li><strong>Knowledge</strong>: a first-time hunter needs more explanation than an experienced one.</li>\n<li><strong>Age and culture</strong>: greet elders respectfully; know local customs of greeting and respect.</li>\n<li><strong>Relationship</strong>: you speak differently to your manager, a colleague and a client.</li></ul>\n<h4>Think about the context</h4>\n<ul><li><strong>Formal</strong>: a safety briefing, a meeting, a talk to a group of guests. Plan, be clear, use polite forms.</li>\n<li><strong>Informal</strong>: chatting at the fire. Friendly, relaxed, but still respectful.</li>\n<li><strong>Urgent</strong>: an emergency. Short, loud, clear commands: \"Stop! Stand still!\"</li>\n<li><strong>Silent</strong>: on a stalk you may use whispers or hand signals agreed beforehand.</li></ul>\n<h4>Non-verbal communication</h4>\n<p>Your body speaks too. Eye contact, posture, facial expression, gestures and distance all send messages. In some cultures direct eye contact with elders is seen as disrespectful, while many foreign clients see it as honesty. Watch how others respond and adjust. A calm, confident posture during a safety briefing builds trust.</p>"
+  },
+  {
+   "title": "Delivering messages, listening and signed communication",
+   "minutes": 15,
+   "html": "<h3>Delivering a clear message</h3>\n<p>Example: giving a short safety briefing to guests before a walk.</p>\n<ol><li><strong>Greet and introduce yourself</strong>: \"Good morning, my name is Bongani, I will be your guide.\"</li>\n<li><strong>Say what you will cover</strong>: \"I will explain the rules for our walk.\"</li>\n<li><strong>Give the main points clearly</strong>: walk in single file, stay behind the armed guide, no talking when I raise my hand, never run if we meet an animal.</li>\n<li><strong>Check understanding</strong>: \"What will you do if I raise my hand?\"</li>\n<li><strong>Invite questions</strong> and close politely.</li></ol>\n<h4>Voice</h4>\n<ul><li><strong>Volume</strong>: loud enough for all to hear, softer near animals.</li>\n<li><strong>Pace</strong>: slow down for important information and for second-language listeners.</li>\n<li><strong>Tone</strong>: friendly and calm; firm for safety rules.</li>\n<li><strong>Pauses</strong> give listeners time to understand.</li></ul>\n<h4>Active listening</h4>\n<p>Communication goes both ways. Active listening means:</p>\n<ul><li>Giving full attention and not interrupting.</li>\n<li>Nodding and showing interest.</li>\n<li>Asking questions to clarify: \"Do you mean the left or the right camp?\"</li>\n<li>Repeating back important information: \"So the vet comes at ten tomorrow?\"</li></ul>\n<h4>Telephone and radio</h4>\n<p>On the radio, keep messages short, say who you are calling and who you are, use clear words and confirm (\"Copy\" or \"Received\"). On the phone, greet, give your name and workplace, and write down messages with the caller's name, number and time.</p>\n<h4>Signed communication</h4>\n<p>South African Sign Language is used by many Deaf South Africans. If a guest or colleague is Deaf, face them when speaking, do not cover your mouth, use gestures and writing, and arrange an interpreter for important briefings. Never shout; it does not help.</p>\n<h4>Key points</h4>\n<ul><li>Adjust language, pace and style to your audience and situation.</li>\n<li>Use formal, informal, urgent or silent communication as the context needs.</li>\n<li>Body language and cultural respect matter as much as words.</li>\n<li>Deliver messages in a clear order and check understanding.</li>\n<li>Listen actively, use correct radio procedure and include Deaf people.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should you speak to a client who speaks English as a second language?",
+   "options": [
+    {
+     "text": "Fast, with lots of slang",
+     "correct": false
+    },
+    {
+     "text": "Loudly and angrily",
+     "correct": false
+    },
+    {
+     "text": "Only in a whisper",
+     "correct": false
+    },
+    {
+     "text": "Slowly and clearly with simple words",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which style suits an emergency?",
+   "options": [
+    {
+     "text": "Long explanations",
+     "correct": false
+    },
+    {
+     "text": "Silence",
+     "correct": false
+    },
+    {
+     "text": "Short, loud, clear commands",
+     "correct": true
+    },
+    {
+     "text": "Jokes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good way to check that guests understood a safety briefing?",
+   "options": [
+    {
+     "text": "Assume they understood",
+     "correct": false
+    },
+    {
+     "text": "End quickly",
+     "correct": false
+    },
+    {
+     "text": "Repeat it in a different language",
+     "correct": false
+    },
+    {
+     "text": "Ask them a question about the rules",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does active listening include?",
+   "options": [
+    {
+     "text": "Interrupting to save time",
+     "correct": false
+    },
+    {
+     "text": "Repeating back important information",
+     "correct": true
+    },
+    {
+     "text": "Looking at your phone",
+     "correct": false
+    },
+    {
+     "text": "Planning your reply while they talk",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when speaking with a Deaf colleague?",
+   "options": [
+    {
+     "text": "Cover your mouth",
+     "correct": false
+    },
+    {
+     "text": "Face them and use gestures and writing",
+     "correct": true
+    },
+    {
+     "text": "Shout",
+     "correct": false
+    },
+    {
+     "text": "Speak from behind them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In some cultures, direct eye contact with elders can be seen as disrespectful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "On a radio, long detailed messages without saying who you are calling are best.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of non-verbal communication? (select all that apply)",
+   "options": [
+    {
+     "text": "Facial expression",
+     "correct": true
+    },
+    {
+     "text": "Posture",
+     "correct": true
+    },
+    {
+     "text": "The spelling of your name",
+     "correct": false
+    },
+    {
+     "text": "Eye contact",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

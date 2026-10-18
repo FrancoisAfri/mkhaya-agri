@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123156",
+ "title": "Conduct post harvest cutting of Rooibos",
+ "lessons": [
+  {
+   "title": "Why rooibos is cut after harvest",
+   "minutes": 15,
+   "html": "<h3>From bundles to small pieces</h3><p>After rooibos is harvested in the lands, the branches are tied in bundles or loaded loose and taken to the tea court (the processing yard). There the long stems and leaves are cut into short, even pieces. This is the first step in processing.</p><h4>Why cutting matters</h4><ul><li>Small pieces bruise and ferment evenly, so the tea gets the right red-brown colour and sweet smell.</li><li>The tea dries faster and more evenly on the drying court.</li><li>The buyer pays for tea of the right size and quality. Uneven or badly cut tea is worth less.</li></ul><h4>Do it quickly</h4><p>Harvested rooibos must be processed soon after it arrives. If it lies in heaps in the sun too long it can heat up, dry out or start to ferment in the wrong way, and quality drops. Your supervisor plans the harvest so the cutter can keep up.</p><h4>Before cutting</h4><ul><li>Check the material is rooibos only. Remove weeds, other plants, stones, wire, plastic and string. Foreign material spoils the tea and can break the machine.</li><li>Keep material from different lands separate if the farm asks, and write down where each load came from.</li><li>Keep the material in the shade if it must wait.</li></ul><h4>The cutting machine</h4><p>Most farms use a cutter (like a chaff cutter) driven by a tractor or electric motor. Material is fed in on a feed table or belt, and sharp knives cut it to a set length. The supervisor sets the cut length the farm and buyer want.</p>"
+  },
+  {
+   "title": "Operating the cutter safely",
+   "minutes": 15,
+   "html": "<h3>The cutter can take a hand or an arm</h3><p>Cutting machines are among the most dangerous machines on a rooibos farm. Knives turn fast, and feed rollers pull material – and hands – into the knives. The OHS Act 85 of 1993 says only trained people may work the machine and guards must stay in place.</p><h4>Before starting</h4><ol><li>Check all guards are in place and tight.</li><li>Check the emergency stop works.</li><li>Check knives are sharp and tight, with the machine switched off and locked out.</li><li>Check the PTO shaft guard if a tractor drives the cutter.</li><li>Clear the area of loose items and people who do not need to be there.</li></ol><h4>PPE</h4><ul><li>Close-fitting overalls, no loose sleeves, scarves or jewellery.</li><li>Tie up long hair.</li><li>Hearing protection, dust mask and safety glasses.</li><li>Safety boots.</li></ul><h4>While cutting</h4><ul><li>Feed material evenly onto the table – not too much at once.</li><li><strong>Never</strong> push material into the feed rollers with your hands or feet. Use the push stick or let the rollers take it.</li><li>Never reach into the machine while it is running.</li><li>If it blocks, stop the machine, switch off the power or tractor, wait for all parts to stop and lock out before clearing it.</li><li>Never step over a turning PTO shaft.</li></ul><h4>If someone is hurt</h4><p>Hit the emergency stop. Call the first aider and supervisor, and phone for an ambulance for serious injuries. Only trained first aiders should treat injuries; hands-on training must be done with an accredited provider.</p>"
+  },
+  {
+   "title": "Checking the cut and cleaning up",
+   "minutes": 15,
+   "html": "<h3>Quality of the cut</h3><p>Check the cut tea often during the day.</p><ul><li>Pieces should be short and even, at the length the supervisor set.</li><li>Too long pieces mean blunt knives, wrong setting or overfeeding.</li><li>Too much fine dust can mean the material was too dry or knives are badly set.</li><li>No foreign material in the cut tea.</li></ul><p>Tell your supervisor if the cut changes. Only trained people may change settings or sharpen knives, with the machine locked out.</p><h4>Moving the cut tea</h4><p>Cut tea goes straight to the bruising and fermenting step. Do not let it lie in the sun.</p><h4>Cleaning</h4><ul><li>Switch off and lock out the machine first.</li><li>Brush out leftover tea and dust.</li><li>Clean the cutting area so it is ready for the next load.</li><li>Do not use the machine area to store chemicals, fuel or food.</li></ul><h4>Records</h4><p>Write down the date, land or load number, amount cut and any problems with the machine.</p><h4>Key points</h4><ul><li>Cut harvested rooibos quickly into short, even pieces so it ferments and dries evenly.</li><li>Remove weeds, stones, wire and plastic before cutting.</li><li>Keep all guards in place and wear close-fitting clothes, ear, eye and dust protection.</li><li>Never push material in by hand; stop and lock out before clearing blockages.</li><li>Check the cut length often and report changes.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is rooibos cut into short, even pieces?",
+   "options": [
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "To feed it to animals",
+     "correct": false
+    },
+    {
+     "text": "So it ferments and dries evenly",
+     "correct": true
+    },
+    {
+     "text": "To make it green",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you remove before feeding material into the cutter?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "The fine stems",
+     "correct": false
+    },
+    {
+     "text": "Weeds, stones, wire and plastic",
+     "correct": true
+    },
+    {
+     "text": "Rooibos leaves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The cutter blocks. What do you do?",
+   "options": [
+    {
+     "text": "Reach in quickly while it runs",
+     "correct": false
+    },
+    {
+     "text": "Push the material in with your foot",
+     "correct": false
+    },
+    {
+     "text": "Stop the machine, wait for all parts to stop and lock out before clearing it",
+     "correct": true
+    },
+    {
+     "text": "Pour water into it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which clothing is safe near a cutter?",
+   "options": [
+    {
+     "text": "Loose sleeves and a scarf",
+     "correct": false
+    },
+    {
+     "text": "Jewellery and open shoes",
+     "correct": false
+    },
+    {
+     "text": "Close-fitting overalls with long hair tied up",
+     "correct": true
+    },
+    {
+     "text": "A loose jacket",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Cut pieces are coming out too long. What is a likely cause?",
+   "options": [
+    {
+     "text": "The material is perfectly cut",
+     "correct": false
+    },
+    {
+     "text": "Blunt knives, wrong setting or overfeeding",
+     "correct": true
+    },
+    {
+     "text": "The weather is cool",
+     "correct": false
+    },
+    {
+     "text": "The emergency stop works",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Harvested rooibos that lies in the sun too long can lose quality.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to step over a turning PTO shaft if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks are done before starting the cutter? (select all that apply)",
+   "options": [
+    {
+     "text": "The emergency stop works",
+     "correct": true
+    },
+    {
+     "text": "The area is clear of people who do not need to be there",
+     "correct": true
+    },
+    {
+     "text": "The radio is on",
+     "correct": false
+    },
+    {
+     "text": "All guards are in place",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-611202-001-00-PM-04",
+  "title": "Supply Accurate Daily Orchard or Vineyard and Production Information",
+  "lessons": [
+    {
+      "title": "What information is needed and why",
+      "minutes": 20,
+      "html": "<h3>What information is needed and why</h3><p>Managers, consultants, packhouses, auditors and payroll all depend on information that starts with the foreman in the block. If daily information is wrong or late, wrong decisions are made: workers are paid incorrectly, sprays are mistimed, costs are misallocated and audits fail.</p><h4>Who uses the information</h4><table><tr><th>User</th><th>Needs</th></tr><tr><td>Farm manager</td><td>Progress, problems, costs, labour, risks</td></tr><tr><td>Technical consultant</td><td>Scouting results, crop stage, maturity, spray and fertiliser records</td></tr><tr><td>Payroll / HR</td><td>Attendance, hours, piece-work counts, leave</td></tr><tr><td>Packhouse or cellar</td><td>Expected volumes, bins dispatched, block and cultivar</td></tr><tr><td>Auditors</td><td>Spray, irrigation, hygiene, training and traceability records</td></tr></table><h4>Types of daily information</h4><ul><li><strong>Labour</strong>: who worked, where, hours, output.</li><li><strong>Operations</strong>: what was done per block, how much was completed.</li><li><strong>Inputs</strong>: chemicals, fertiliser, fuel used per block.</li><li><strong>Machinery</strong>: hours, faults, services.</li><li><strong>Crop</strong>: growth stage, scouting counts, maturity tests, damage events such as hail or wind.</li><li><strong>Harvest</strong>: bins picked per block and team, dispatched and received.</li><li><strong>Incidents</strong>: injuries, near misses, spills, theft.</li><li><strong>Weather</strong>: rainfall, temperatures, frost, wind.</li></ul><h4>Qualities of good information</h4><p>Information must be <strong>accurate</strong> (correct), <strong>complete</strong> (nothing missing), <strong>timely</strong> (when it is needed), <strong>consistent</strong> (same format and units each day) and <strong>traceable</strong> (who recorded it and when).</p><h4>Your role as the source</h4><p>The foreman is often the only person who sees the block, the team and the crop every day. Managers far from the field rely on what you write down. When information is missing, they must guess, and guesses lead to wrong decisions on labour, sprays and harvest. Treat every record as part of the farm's decision-making, not as paperwork. A short, accurate record made on the day is worth far more than a long report written from memory at the end of the week.</p>"
+    },
+    {
+      "title": "Collecting and recording information accurately",
+      "minutes": 20,
+      "html": "<h3>Collecting and recording information accurately</h3><h4>Tools for collecting</h4><p>Farms use paper job cards and registers, spreadsheets, or farm management apps on phones and tablets. Whatever the tool, use the farm's standard forms and codes for blocks, cultivars, operations and workers, so information can be combined and compared.</p><h4>Daily routine</h4><ol><li><strong>Start of day</strong>: record attendance per team; note absentees and late arrivals.</li><li><strong>During the day</strong>: team leaders record output (trees done, bins picked) and problems on job cards. The foreman records quality checks, scouting or maturity results and any incidents.</li><li><strong>Inputs</strong>: record issues and returns from the store against block and job.</li><li><strong>Machines</strong>: operators log hours and fuel.</li><li><strong>End of day</strong>: collect job cards, check them, total output and hours, and enter or submit the information.</li></ol><h4>Checking for accuracy</h4><ul><li>Do hours add up to the attendance list? Is anyone recorded in two places at once?</li><li>Do bins picked agree with bins dispatched and received?</li><li>Are block numbers and cultivar names correct?</li><li>Are output figures realistic compared with normal work rates?</li><li>Are spray records complete, with rate, volume, operator and re-entry and withholding dates?</li></ul><p>Correct mistakes at once, with a note of the change. Never fill in figures you did not observe or estimate without saying so.</p><h4>Piece-work and pay data</h4><p>Counts used for pay must be accurate and transparent. Let workers see their counts daily, and resolve disputes quickly. Errors in pay data damage trust and can lead to labour disputes.</p><h4>Confidentiality</h4><p>Personal information about workers must be handled carefully and only shared with those who need it, in line with the Protection of Personal Information Act and farm policy.</p>"
+    },
+    {
+      "title": "Reporting and using information",
+      "minutes": 20,
+      "html": "<h3>Reporting and using information</h3><h4>Daily report</h4><p>A short daily report to the manager is often enough. It can be a form, an email or an app summary. A useful structure:</p><ul><li>Work completed per block and percentage of each operation done.</li><li>Labour: workers present, hours, productivity against standard.</li><li>Inputs and fuel used.</li><li>Crop observations: stage, pest or disease levels, maturity results.</li><li>Harvest: bins picked and dispatched per block.</li><li>Problems, incidents and actions taken.</li><li>Plan for tomorrow and resources needed.</li></ul><h4>Urgent information</h4><p>Some information cannot wait for the daily report. Report immediately by phone:</p><ul><li>Serious injuries or chemical exposure.</li><li>Hail, frost or fire damage.</li><li>Pest or disease outbreaks above threshold.</li><li>Major breakdowns of irrigation, pumps or sprayers.</li><li>Theft or security incidents.</li><li>Spray mistakes, such as a wrong product or a block sprayed inside a withholding period.</li></ul><h4>Weekly and seasonal summaries</h4><p>Combine daily information into weekly summaries: progress against the operations plan, labour cost per hectare, productivity trends, input use against budget. At season end, information per block - yield, packout, costs, quality results - becomes the basis for next season's planning.</p><h4>Using information yourself</h4><p>Good information is not only for management. Use it to plan tomorrow's work, identify slow teams, find training needs and spot problems early, such as a block with rising pest counts or an irrigation section using more water than normal.</p><h4>Storage and audit</h4><p>File paper records safely and back up electronic records. Keep them for the period the farm's audit schemes require.</p><h4>Key points</h4><ul><li>Many people depend on accurate daily information from the block.</li><li>Good information is accurate, complete, timely, consistent and traceable.</li><li>Use standard forms and codes and check totals at the end of the day.</li><li>Report urgent events immediately by phone.</li><li>Use the information to plan and improve your own work.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which user mainly needs attendance and piece-work counts?",
+      "options": [
+        {
+          "text": "Payroll / HR",
+          "correct": true
+        },
+        {
+          "text": "The technical consultant",
+          "correct": false
+        },
+        {
+          "text": "The fire protection association",
+          "correct": false
+        },
+        {
+          "text": "The fertiliser supplier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does 'traceable' information mean?",
+      "options": [
+        {
+          "text": "It is written in pencil",
+          "correct": false
+        },
+        {
+          "text": "It shows who recorded it and when",
+          "correct": true
+        },
+        {
+          "text": "It is shared on social media",
+          "correct": false
+        },
+        {
+          "text": "It is only kept in memory",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A worker is recorded in two blocks at the same time. What should you do?",
+      "options": [
+        {
+          "text": "Leave it",
+          "correct": false
+        },
+        {
+          "text": "Delete both records",
+          "correct": false
+        },
+        {
+          "text": "Correct the mistake at once with a note of the change",
+          "correct": true
+        },
+        {
+          "text": "Pay them double",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which event should be reported immediately by phone?",
+      "options": [
+        {
+          "text": "A normal day's progress",
+          "correct": false
+        },
+        {
+          "text": "Routine fuel use",
+          "correct": false
+        },
+        {
+          "text": "Completed attendance list",
+          "correct": false
+        },
+        {
+          "text": "A block sprayed with the wrong product",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should workers see their piece-work counts daily?",
+      "options": [
+        {
+          "text": "So disputes are resolved quickly and trust is kept",
+          "correct": true
+        },
+        {
+          "text": "To shorten the workday",
+          "correct": false
+        },
+        {
+          "text": "It is required for spraying",
+          "correct": false
+        },
+        {
+          "text": "To reduce the number of bins",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to fill in figures you did not observe without saying they are estimates.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Season-end information per block is used for next season's planning.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are qualities of good information? (select all that apply)",
+      "options": [
+        {
+          "text": "Accurate",
+          "correct": true
+        },
+        {
+          "text": "Timely",
+          "correct": true
+        },
+        {
+          "text": "Consistent",
+          "correct": true
+        },
+        {
+          "text": "Guessed",
+          "correct": false
+        },
+        {
+          "text": "Late",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

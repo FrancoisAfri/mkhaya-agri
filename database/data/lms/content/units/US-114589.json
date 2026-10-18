@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-114589",
+ "title": "Manage time productively",
+ "lessons": [
+  {
+   "title": "Understanding how you use your time",
+   "minutes": 15,
+   "html": "<h3>Time is a resource</h3>\n<p>On a farm or yard, work is driven by the animals and the weather. Horses must be fed on time, cows milked twice a day, and spraying done when the wind is low. Yet supervisors also have paperwork, meetings, staff issues and phone calls. Managing time well means doing the important things first and doing them well.</p>\n<h3>Keep a time log</h3>\n<p>For one week, write down what you do every 30 minutes. At the end of the week, sort the activities:</p>\n<ul>\n<li>Work that moves your objectives forward.</li>\n<li>Routine tasks that must be done.</li>\n<li>Interruptions and unplanned work.</li>\n<li>Time wasted: waiting, searching for tools or keys, unnecessary trips, long chats.</li>\n</ul>\n<p>Most people are surprised. For example, a yard manager may find that an hour a day goes on driving to town for small purchases that could be grouped into one trip a week.</p>\n<h3>Common time wasters on farms</h3>\n<ul>\n<li>Poor planning, so jobs are done twice or in the wrong order.</li>\n<li>Searching for tools, records and keys.</li>\n<li>Equipment breakdowns from missed maintenance.</li>\n<li>Unclear instructions, so staff come back with questions.</li>\n<li>Constant phone and WhatsApp interruptions.</li>\n<li>Not saying no to tasks that belong to someone else.</li>\n<li>Putting off unpleasant tasks (procrastination).</li>\n</ul>\n<h3>Your energy matters</h3>\n<p>Plan demanding thinking work, like budgets or rosters, for the time of day when you are most alert. Physical routine work can fill other times. Rest and breaks are part of productivity, not the enemy of it.</p>"
+  },
+  {
+   "title": "Prioritising and planning",
+   "minutes": 20,
+   "html": "<h3>Urgent versus important</h3>\n<p>Use the urgent-important matrix to sort tasks:</p>\n<table><tr><th></th><th>Urgent</th><th>Not urgent</th></tr>\n<tr><td><strong>Important</strong></td><td>Do now: a colicking horse, a broken water pipe, a staff injury</td><td>Plan and schedule: training, maintenance, budgets, breeding plans</td></tr>\n<tr><td><strong>Not important</strong></td><td>Delegate or limit: some calls, routine requests</td><td>Drop: time wasters</td></tr></table>\n<p>Productive people spend more time in the important but not urgent box. Good maintenance and planning prevent many emergencies.</p>\n<h3>Planning tools</h3>\n<ul>\n<li><strong>Annual calendar:</strong> breeding season, vaccinations, shows, school holidays, financial year-end.</li>\n<li><strong>Weekly plan:</strong> written on Friday or Sunday for the next week, with key tasks and meetings.</li>\n<li><strong>Daily to-do list:</strong> the top three priorities first, then other tasks. Tick off as you go.</li>\n<li><strong>Diary or phone calendar</strong> for appointments with the vet, farrier and suppliers.</li>\n</ul>\n<h3>Scheduling tips</h3>\n<ol>\n<li>Block time for important tasks and protect it.</li>\n<li>Group similar tasks: all phone calls at once, all town purchases on one trip.</li>\n<li>Build in buffer time for the unexpected.</li>\n<li>Set realistic deadlines and break big tasks into smaller steps.</li>\n<li>Check your plan at the end of each day and move unfinished tasks.</li>\n</ol><h3>A worked example</h3>\n<p>Thandi supervises a livery yard with 30 horses. On Monday her list has: order hay before the price rise, finish the monthly feed report, sort out a leaking trough, phone three clients about overdue fees, and plan the farrier's visit. The leaking trough is urgent and important, because horses need water, so she sends a groom to fix it first. Ordering hay and planning the farrier are important but not yet urgent, so she blocks Tuesday morning for both. She groups the three client calls into one half-hour slot after lunch. The feed report goes into Wednesday's office block. By planning this way, nothing is forgotten and her day is not run by interruptions.</p>"
+  },
+  {
+   "title": "Working productively with others",
+   "minutes": 15,
+   "html": "<h3>Managing interruptions</h3>\n<ul>\n<li>Set times when staff can come with questions, except emergencies.</li>\n<li>Turn off notifications when doing focused work.</li>\n<li>Keep a notebook to capture new tasks instead of acting on them immediately.</li>\n<li>Learn to say no politely, or \"not now, but on Thursday.\"</li>\n</ul>\n<h3>Delegating</h3>\n<p>Ask: Does this task need me? If not, delegate it to a capable person, explain the outcome and deadline, and check back. Delegation also develops your staff.</p>\n<h3>Meetings that do not waste time</h3>\n<ul>\n<li>Have a clear purpose and short agenda.</li>\n<li>Start and end on time.</li>\n<li>Invite only those who need to be there.</li>\n<li>End with who does what by when, and write it down.</li>\n</ul>\n<h3>Organised workspace</h3>\n<p>A tidy tack room, labelled feed bins, a key board and a filing system for records save many minutes each day. \"A place for everything and everything in its place.\"</p>\n<h3>Reviewing and improving</h3>\n<p>Each month, ask yourself: Which tasks took longer than expected? Where did I lose time? Which priorities did I meet? Adjust your plans and habits. Time management is a skill that improves with practice.</p>\n<h4>Key points</h4>\n<ul>\n<li>Keep a time log to see where your time really goes.</li>\n<li>Sort tasks by urgency and importance; invest in important but not urgent work.</li>\n<li>Use annual, weekly and daily plans and group similar tasks.</li>\n<li>Control interruptions and learn to say no politely.</li>\n<li>Delegate tasks that do not need you.</li>\n<li>Run short meetings that end with clear actions.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the purpose of keeping a time log?",
+   "options": [
+    {
+     "text": "To punish staff",
+     "correct": false
+    },
+    {
+     "text": "To show off to management",
+     "correct": false
+    },
+    {
+     "text": "To see where your time really goes",
+     "correct": true
+    },
+    {
+     "text": "To fill in leave forms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which box should productive people spend more time in?",
+   "options": [
+    {
+     "text": "Important but not urgent",
+     "correct": true
+    },
+    {
+     "text": "Urgent but not important",
+     "correct": false
+    },
+    {
+     "text": "Not urgent and not important",
+     "correct": false
+    },
+    {
+     "text": "None of the boxes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A horse with colic is in which category?",
+   "options": [
+    {
+     "text": "Not urgent, not important",
+     "correct": false
+    },
+    {
+     "text": "Not urgent, important",
+     "correct": false
+    },
+    {
+     "text": "Urgent, not important",
+     "correct": false
+    },
+    {
+     "text": "Urgent and important",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good way to save time on town purchases?",
+   "options": [
+    {
+     "text": "Drive to town for every item",
+     "correct": false
+    },
+    {
+     "text": "Group purchases into one trip",
+     "correct": true
+    },
+    {
+     "text": "Send a worker every hour",
+     "correct": false
+    },
+    {
+     "text": "Never buy supplies",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a good meeting end?",
+   "options": [
+    {
+     "text": "With a long speech",
+     "correct": false
+    },
+    {
+     "text": "With no decisions",
+     "correct": false
+    },
+    {
+     "text": "With who does what by when",
+     "correct": true
+    },
+    {
+     "text": "With a new meeting date only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Building buffer time into your schedule helps you deal with the unexpected.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Breaks and rest always reduce productivity.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common time wasters? (select all that apply)",
+   "options": [
+    {
+     "text": "Searching for tools and keys",
+     "correct": true
+    },
+    {
+     "text": "Unclear instructions",
+     "correct": true
+    },
+    {
+     "text": "Planning the week ahead",
+     "correct": false
+    },
+    {
+     "text": "Constant phone interruptions",
+     "correct": true
+    },
+    {
+     "text": "Doing important tasks first",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

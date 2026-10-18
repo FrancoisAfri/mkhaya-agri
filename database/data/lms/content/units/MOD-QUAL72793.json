@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL72793",
+ "title": "Diploma in Animal Health",
+ "lessons": [
+  {
+   "title": "Preventing and controlling animal diseases",
+   "minutes": 18,
+   "html": "<h3>Disease prevention and control</h3>\n<p>This Diploma in Animal Health (NQF 6) prepares animal health technicians who prevent and control animal diseases and support veterinarians in the field. The work protects farm income, food security, export markets and public health.</p>\n<h4>How diseases spread</h4>\n<ul><li><strong>Direct contact</strong> between animals, e.g. at shared grazing, water points or auctions.</li>\n<li><strong>Vectors</strong> such as ticks (heartwater, redwater, gallsickness) and biting insects (lumpy skin disease, bluetongue, African horse sickness).</li>\n<li><strong>Contaminated objects</strong>: vehicles, boots, equipment, feed and water.</li>\n<li><strong>Movement of animals</strong> from infected areas, which is why movement controls are central to disease control.</li>\n<li><strong>Wildlife</strong>: buffalo can carry foot-and-mouth disease and bovine TB, and warthogs and ticks are linked to African swine fever.</li></ul>\n<h4>The control toolbox</h4>\n<table><tr><th>Tool</th><th>Example</th></tr>\n<tr><td>Vaccination</td><td>Anthrax and blackleg in cattle, brucellosis in heifers</td></tr>\n<tr><td>Vector control</td><td>Dipping, pour-ons, fly control</td></tr>\n<tr><td>Biosecurity</td><td>Quarantine new animals, footbaths, restricted access</td></tr>\n<tr><td>Movement control</td><td>Permits, quarantine areas, disease control zones</td></tr>\n<tr><td>Testing and culling</td><td>Bovine TB and brucellosis testing of herds</td></tr>\n<tr><td>Surveillance</td><td>Routine inspections, sampling at dip tanks and abattoirs</td></tr></table>\n<p>The Animal Diseases Act 35 of 1984 gives the state the powers to declare controlled diseases, set control measures and restrict movement. Technicians apply these measures in the field under the direction of the state veterinarian.</p>"
+  },
+  {
+   "title": "Supporting the veterinarian in the field",
+   "minutes": 16,
+   "html": "<h3>Field support</h3>\n<p>Animal health technicians are often the vet's eyes and hands in rural districts. Typical tasks include herd inspections, collecting blood and tissue samples, tuberculin testing under supervision, vaccination campaigns, movement permit checks and outbreak response.</p>\n<h4>Responding to a suspected outbreak</h4>\n<ol><li><strong>Recognise</strong>: e.g. several cattle salivating and lame with blisters on the mouth and feet may indicate foot-and-mouth disease.</li>\n<li><strong>Report immediately</strong> to the state veterinarian.</li>\n<li><strong>Stop movement</strong> of animals, products and vehicles from the farm.</li>\n<li><strong>Protect yourself</strong> and avoid becoming a carrier: protective clothing, disinfecting boots and vehicle, not visiting other farms the same day.</li>\n<li><strong>Collect information</strong>: number of animals sick and dead, when signs started, recent purchases or movements.</li>\n<li><strong>Support control measures</strong> as instructed: sampling, quarantine, vaccination or culling.</li></ol>\n<h4>Taking good samples</h4>\n<p>A laboratory result is only as good as the sample. Label every tube with animal ID, farm, date and sample type. Use the right container, keep samples cool as instructed and send them quickly with a completed submission form. A badly labelled sample wastes time during an outbreak.</p>\n<h4>Records and reporting</h4>\n<p>Record every vaccination, test and inspection: farm, number and ID of animals, product and batch number. These records prove that a region is controlling disease, which matters for export certification of beef, wool, game and ostrich products.</p>\n<h4>Safety</h4>\n<p>Work in crushes and handling facilities is risky. Never put your arm between the bars of a crush while an animal is moving, work in pairs, and use protective gear when handling possible zoonoses such as anthrax, brucellosis and rabies.</p>\n<h4>Key points</h4>\n<ul><li>Diseases spread by contact, vectors, objects, animal movement and wildlife.</li>\n<li>Control tools include vaccination, vector control, biosecurity, movement control, testing and surveillance.</li>\n<li>Report suspected controlled diseases immediately and stop movement.</li>\n<li>Well-labelled samples and complete records support control and exports.</li>\n<li>Protect yourself in the crush and from zoonoses.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which disease is spread by ticks?",
+   "options": [
+    {
+     "text": "Brucellosis",
+     "correct": false
+    },
+    {
+     "text": "Foot-and-mouth disease",
+     "correct": false
+    },
+    {
+     "text": "Rabies",
+     "correct": false
+    },
+    {
+     "text": "Heartwater",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act gives the state powers to declare controlled diseases and restrict movement?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Several cattle are salivating and lame with blisters on mouth and feet. What should the technician do first after recognising this?",
+   "options": [
+    {
+     "text": "Wait a week to see if it passes",
+     "correct": false
+    },
+    {
+     "text": "Sell the cattle quickly",
+     "correct": false
+    },
+    {
+     "text": "Treat with antibiotics and move on",
+     "correct": false
+    },
+    {
+     "text": "Report immediately to the state veterinarian",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be on every sample tube label?",
+   "options": [
+    {
+     "text": "Only the farmer's phone number",
+     "correct": false
+    },
+    {
+     "text": "Nothing, the form is enough",
+     "correct": false
+    },
+    {
+     "text": "The vet's signature only",
+     "correct": false
+    },
+    {
+     "text": "Animal ID, farm, date and sample type",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should a technician not visit other farms the same day after a suspected outbreak?",
+   "options": [
+    {
+     "text": "Because samples go off",
+     "correct": false
+    },
+    {
+     "text": "Because permits expire",
+     "correct": false
+    },
+    {
+     "text": "To avoid becoming a carrier of the disease",
+     "correct": true
+    },
+    {
+     "text": "To save fuel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Buffalo can carry foot-and-mouth disease.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Vaccination records have no value for export certification.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are tools for disease control listed in the lessons? (select all that apply)",
+   "options": [
+    {
+     "text": "Mixing herds at auctions",
+     "correct": false
+    },
+    {
+     "text": "Movement control",
+     "correct": true
+    },
+    {
+     "text": "Biosecurity",
+     "correct": true
+    },
+    {
+     "text": "Surveillance",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612101001-PM-05",
+  "title": "Lead and direct work teams",
+  "lessons": [
+    {
+      "title": "Organising the team and allocating work",
+      "minutes": 20,
+      "html": "<h3>Organising the team and allocating work</h3><p>This practical module is about actually running a team on the farm: planning the work, allocating it, motivating people and dealing with problems, every day.</p><h4>Know your team</h4><p>Keep a simple skills matrix: each worker's name against the tasks they can do (tractor driving, dosing, crush work, fencing, milking, first aid, chemical handling). Mark who is competent, who is in training and who still needs training. This shows you at a glance who can do what, and where the gaps are.</p><table><tr><th>Worker</th><th>Dosing</th><th>Crush</th><th>Fencing</th><th>First aid</th></tr><tr><td>Worker A</td><td>Competent</td><td>Competent</td><td>Training</td><td>Yes</td></tr><tr><td>Worker B</td><td>Training</td><td>Competent</td><td>Competent</td><td>No</td></tr></table><h4>Allocating work</h4><ul><li>Match tasks to skills and experience; licensed drivers only for vehicles and tractors.</li><li>Balance the workload so nobody is always on the hardest jobs.</li><li>Use tasks as training opportunities, pairing a learner with an experienced worker.</li><li>Plan for absence: have at least two people trained for each critical job, such as milking or pump maintenance.</li></ul><h4>Working hours and conditions</h4><p>Plan work within the farm's working hours and the Basic Conditions of Employment Act, including rest breaks and overtime rules your employer applies. In summer, schedule heavy work in the cooler hours and make sure drinking water and shade are available.</p><h4>Delegating</h4><p>Delegating is giving someone the responsibility for a task and the authority to do it. Explain the expected result, agree a deadline, give the resources and check progress. Do not take the task back at the first difficulty; coach instead.</p><p>Review the skills matrix every few months, and after each training session, so that it stays accurate.</p>"
+    },
+    {
+      "title": "Motivating people and building the team",
+      "minutes": 20,
+      "html": "<h3>Motivating people and building the team</h3><h4>What motivates farm workers</h4><p>Pay matters, but it is not the only motivator. People also work better when they:</p><ul><li>Are treated with respect and dignity.</li><li>Understand why their work matters to the farm.</li><li>Have the tools, PPE and training to do the job properly.</li><li>Receive recognition for good work.</li><li>Feel safe to raise problems and ideas.</li><li>See a chance to learn and grow, for example a learnership or a tractor licence.</li></ul><h4>Setting goals with the team</h4><p>Share the farm's targets in simple terms: 'This winter we want no more than a handful of calf losses.' Then agree team goals for the week: all camps checked by midday, all water points working by Friday. Display progress where everyone can see it.</p><h4>Communicating every day</h4><p>Hold a short morning meeting to share the plan and safety reminders. Walk the work during the day. Close the day by checking what was done and what carries over. Use the language your team is comfortable with and check understanding.</p><h4>Recognition</h4><p>Notice and mention specific good work: 'Lerato found that cow with bloat early this morning and saved her.' Recognition does not have to cost money; it must be sincere and fair.</p><h4>Team spirit</h4><p>Encourage people to help each other, share knowledge and solve problems together. Avoid favouritism and gossip. Celebrate team achievements such as a successful weaning or an injury-free month. A good team spirit reduces absenteeism and staff turnover, which saves the farm the cost of recruiting and training.</p><h4>Diversity</h4><p>Teams include people of different ages, genders, languages, cultures and religions. Respect differences, apply rules fairly and do not tolerate discrimination or harassment.</p>"
+    },
+    {
+      "title": "Performance, discipline and conflict",
+      "minutes": 20,
+      "html": "<h3>Performance, discipline and conflict</h3><h4>Managing performance</h4><p>Good performance management is continuous, not a once-a-year event:</p><ol><li><strong>Set clear expectations</strong> for each job.</li><li><strong>Observe and measure</strong> the work.</li><li><strong>Give feedback</strong> often - praise good work, correct problems early.</li><li><strong>Coach and train</strong> where skills are lacking.</li><li><strong>Record</strong> significant feedback, training and incidents.</li></ol><h4>Poor performance or misconduct?</h4><p>Poor performance is when a worker cannot do the job to standard - usually solved by training, support and time. Misconduct is when a worker breaks a rule they know, such as theft, being drunk on duty, or refusing a safe instruction. Misconduct is handled through the farm's disciplinary code. The supervisor's role is usually to gather facts, keep records and refer the matter to management; follow your farm's procedure and the Labour Relations Act. Never punish a worker yourself by withholding pay, shouting, threatening or assaulting.</p><h4>Resolving conflict</h4><ul><li>Act early before small disagreements grow.</li><li>Talk to each person privately and listen.</li><li>Look at the facts, not rumours.</li><li>Help the people involved agree on a solution.</li><li>Follow up to see whether the solution holds.</li><li>Refer serious matters - violence, threats, harassment - to management immediately.</li></ul><h4>Grievances</h4><p>A worker who feels unfairly treated has the right to raise a grievance. Listen seriously, follow the farm's grievance procedure and do not victimise the person.</p><h4>Safety leadership</h4><p>You must stop unsafe work, report incidents and make sure PPE is used, in line with the OHS Act 85 of 1993. Workers have the right to refuse work that is clearly dangerous; respond by fixing the hazard.</p><h4>Key points</h4><ul><li>Use a skills matrix to allocate work and plan training.</li><li>Delegate with clear results, resources and follow-up.</li><li>Motivate with respect, recognition and clear goals.</li><li>Separate poor performance from misconduct and follow procedure.</li><li>Handle conflict early, privately and fairly.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is a skills matrix used for?",
+      "options": [
+        {
+          "text": "Recording rainfall",
+          "correct": false
+        },
+        {
+          "text": "Showing which workers can do which tasks",
+          "correct": true
+        },
+        {
+          "text": "Calculating lick intake",
+          "correct": false
+        },
+        {
+          "text": "Listing the farm's animals",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should at least two people be trained for each critical job?",
+      "options": [
+        {
+          "text": "To cover absence",
+          "correct": true
+        },
+        {
+          "text": "To pay less",
+          "correct": false
+        },
+        {
+          "text": "To create competition",
+          "correct": false
+        },
+        {
+          "text": "The law requires exactly two",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A worker cannot dose sheep accurately even after one demonstration. This is most likely:",
+      "options": [
+        {
+          "text": "Misconduct needing a hearing",
+          "correct": false
+        },
+        {
+          "text": "Theft",
+          "correct": false
+        },
+        {
+          "text": "Poor performance needing training and support",
+          "correct": true
+        },
+        {
+          "text": "A grievance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should a supervisor never do to discipline a worker?",
+      "options": [
+        {
+          "text": "Gather facts",
+          "correct": false
+        },
+        {
+          "text": "Keep records",
+          "correct": false
+        },
+        {
+          "text": "Refer to management",
+          "correct": false
+        },
+        {
+          "text": "Withhold the worker's pay on their own",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of sincere recognition?",
+      "options": [
+        {
+          "text": "A general 'well done everyone' once a year",
+          "correct": false
+        },
+        {
+          "text": "Mentioning that a worker spotted a bloated cow early and saved her",
+          "correct": true
+        },
+        {
+          "text": "Praising only your favourite worker",
+          "correct": false
+        },
+        {
+          "text": "Saying nothing so people stay humble",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Delegating means giving responsibility and authority for a task, then checking progress.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A worker who raises a grievance may be given worse duties as a lesson.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which help motivate farm workers? (select all that apply)",
+      "options": [
+        {
+          "text": "Being treated with respect",
+          "correct": true
+        },
+        {
+          "text": "Having the tools and PPE to do the job",
+          "correct": true
+        },
+        {
+          "text": "Favouritism",
+          "correct": false
+        },
+        {
+          "text": "Chances to learn and grow",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

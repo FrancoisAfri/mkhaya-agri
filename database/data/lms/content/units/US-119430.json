@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119430",
+ "title": "Demonstrate an understanding of poultry nutrition",
+ "lessons": [
+  {
+   "title": "Nutrients poultry need",
+   "minutes": 15,
+   "html": "<h3>What is in a poultry ration</h3><p>Feed is the largest single cost in poultry production, often well over half of total costs. Modern broilers and layers are bred to grow or lay fast, which they can only do on a well-balanced ration. Understanding nutrition helps supervisors manage feed correctly and recognise problems.</p><h4>The six nutrient groups</h4><table><tr><th>Nutrient</th><th>Function</th><th>Main sources</th></tr><tr><td>Water</td><td>Digestion, temperature control, transport of nutrients</td><td>Drinking water</td></tr><tr><td>Energy (carbohydrates and fats)</td><td>Fuel for maintenance, growth and egg production</td><td>Maize, wheat, sorghum, vegetable oil</td></tr><tr><td>Protein and amino acids</td><td>Muscle, feathers, eggs, enzymes</td><td>Soybean oilcake, sunflower oilcake, fishmeal, synthetic amino acids</td></tr><tr><td>Minerals</td><td>Bone, eggshell, body functions</td><td>Limestone, phosphates, salt, trace mineral premix</td></tr><tr><td>Vitamins</td><td>Growth, immunity, reproduction</td><td>Vitamin premix</td></tr><tr><td>Fibre (small amounts)</td><td>Gut health</td><td>Cereal by-products</td></tr></table><h4>Amino acids</h4><p>Proteins are made of amino acids. Some, called essential amino acids, cannot be made by the bird and must be in the feed. In poultry, lysine and methionine are usually the first limiting, meaning they run out first. Feed formulators often add synthetic lysine and methionine so the ration is balanced without excess protein.</p><h4>Calcium and phosphorus</h4><p>Growing birds need calcium and phosphorus for bones. Laying hens need much more calcium, because each eggshell is mostly calcium carbonate. Layer rations have high calcium, often from coarse limestone. Feeding layer ration to young broilers or pullets too early can damage their kidneys.</p><h4>Energy and intake</h4><p>Birds tend to eat to meet their energy needs. If the energy level of the feed changes, intake changes, which affects intake of all other nutrients.</p>"
+  },
+  {
+   "title": "Digestion and feed forms",
+   "minutes": 15,
+   "html": "<h3>How the bird uses its feed</h3><h4>The digestive tract</h4><p>Feed passes from the beak to the crop (storage), the proventriculus (true stomach, acid and enzymes), the gizzard (grinding), the small intestine (most digestion and absorption, with enzymes from the pancreas and bile from the liver), the caeca and the short large intestine, and out through the cloaca. Feed passes through quickly, in a matter of hours, so nutrients must be easily digestible.</p><h4>Feed forms</h4><ul><li><strong>Mash</strong>: ground, mixed feed. Cheaper, but birds may select particles and waste more.</li><li><strong>Crumbles</strong>: broken pellets, used for young chicks.</li><li><strong>Pellets</strong>: compressed feed. Less waste and selection, better intake and growth in broilers.</li></ul><h4>Feed additives</h4><p>Rations may contain enzymes to improve digestion of fibre and phosphorus, coccidiostats to control coccidiosis, toxin binders against mycotoxins, and pigments for yolk colour. Feeds and feed additives in South Africa must be registered under Act 36 of 1947. Medicated feeds are used only as prescribed, with withdrawal periods observed.</p><h4>Feed quality</h4><p>Raw materials such as maize can be contaminated with mycotoxins from moulds, especially after wet harvests or poor storage. Mycotoxins reduce growth, harm immunity and damage organs. Feed must be stored dry, cool and protected from pests, and used before it goes stale. Rancid fats reduce vitamin value and palatability.</p><h4>Example</h4><p>After a wet harvest, a farm notices poor growth and pale birds. Feed samples kept from deliveries are tested and found to contain mycotoxins. The feed company changes its raw material and adds a toxin binder.</p>"
+  },
+  {
+   "title": "Feeding programmes and nutritional problems",
+   "minutes": 15,
+   "html": "<h3>Matching feed to the bird</h3><h4>Phase feeding</h4><p>Nutrient needs change as birds grow, so rations change in phases.</p><table><tr><th>Bird</th><th>Typical phases</th></tr><tr><td>Broilers</td><td>Pre-starter or starter, grower, finisher, and a withdrawal feed if needed</td></tr><tr><td>Layer pullets</td><td>Starter, grower, developer, pre-lay</td></tr><tr><td>Laying hens</td><td>Phase 1, phase 2 (and phase 3) layer rations as production and egg weight change</td></tr><tr><td>Breeders</td><td>Rations with controlled feeding to manage body weight and fertility</td></tr></table><p>Young birds need higher protein and amino acid levels; older birds need relatively more energy. Follow the feed company's programme and the breed guide, changing rations by age or weight as instructed.</p><h4>Feed restriction in breeders</h4><p>Broiler breeders are fed restricted amounts to control body weight; if fed freely they become overweight and fertility falls. Feed must be spread quickly and evenly so all birds get their share.</p><h4>Signs of nutritional problems</h4><ul><li><strong>Poor growth or uneven flock</strong>: incorrect ration, low intake, feeder space problems, mycotoxins.</li><li><strong>Leg problems</strong>: calcium, phosphorus or vitamin D imbalance, or very fast growth.</li><li><strong>Thin or soft eggshells</strong>: low calcium, old hens, heat stress, disease.</li><li><strong>Feather pecking</strong>: may be linked to low protein, salt or fibre, as well as light and stocking density.</li><li><strong>Wet droppings</strong>: high salt, poor-quality fats, or disease.</li></ul><p>Report suspected nutritional problems to the manager, vet or feed company nutritionist. Keep feed samples from each delivery, labelled, so they can be tested if problems appear.</p><h4>Key points</h4><ul><li>Feed is the largest cost; rations must supply water, energy, protein, minerals and vitamins.</li><li>Lysine and methionine are usually the first limiting amino acids in poultry.</li><li>Layers need much more calcium for eggshells; do not feed layer ration to young birds.</li><li>Store feed dry and cool to prevent mould and mycotoxins.</li><li>Use phase feeding and keep labelled samples from each feed delivery.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which amino acids are usually first limiting in poultry rations?",
+   "options": [
+    {
+     "text": "Lysine and methionine",
+     "correct": true
+    },
+    {
+     "text": "Glycine and alanine",
+     "correct": false
+    },
+    {
+     "text": "Vitamin A and D",
+     "correct": false
+    },
+    {
+     "text": "Calcium and salt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do laying hens need much more calcium than growing birds?",
+   "options": [
+    {
+     "text": "For feather growth",
+     "correct": false
+    },
+    {
+     "text": "Eggshells are mostly calcium carbonate",
+     "correct": true
+    },
+    {
+     "text": "For better eyesight",
+     "correct": false
+    },
+    {
+     "text": "To drink more water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which feed form is usually used for very young chicks?",
+   "options": [
+    {
+     "text": "Whole maize",
+     "correct": false
+    },
+    {
+     "text": "Pellets only",
+     "correct": false
+    },
+    {
+     "text": "Crumbles",
+     "correct": true
+    },
+    {
+     "text": "Hay",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are mycotoxins?",
+   "options": [
+    {
+     "text": "Vitamins",
+     "correct": false
+    },
+    {
+     "text": "Amino acids",
+     "correct": false
+    },
+    {
+     "text": "Digestive enzymes",
+     "correct": false
+    },
+    {
+     "text": "Toxins from moulds in feed raw materials",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are broiler breeders fed restricted amounts?",
+   "options": [
+    {
+     "text": "To control body weight and maintain fertility",
+     "correct": true
+    },
+    {
+     "text": "To make them lay faster",
+     "correct": false
+    },
+    {
+     "text": "To save water",
+     "correct": false
+    },
+    {
+     "text": "To make feathers grow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feeding layer ration to young broilers can damage their kidneys.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Birds tend to eat the same amount no matter what the energy level of the feed is.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are possible causes of thin or soft eggshells? (select all that apply)",
+   "options": [
+    {
+     "text": "Low calcium",
+     "correct": true
+    },
+    {
+     "text": "Heat stress",
+     "correct": true
+    },
+    {
+     "text": "Older hens",
+     "correct": true
+    },
+    {
+     "text": "Correct calcium and good health",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

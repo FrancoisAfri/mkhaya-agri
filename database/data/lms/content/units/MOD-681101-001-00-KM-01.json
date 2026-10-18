@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-01",
+ "title": "Background to the Abattoir Industry: Abattoir Layout, Systems and Processes;",
+ "lessons": [
+  {
+   "title": "The red meat industry and the abattoir",
+   "minutes": 15,
+   "html": "<h3>From farm to plate</h3><p>Beef in South Africa comes from cattle raised on farms and in feedlots. Cattle are sold at auctions or directly, and then taken by truck to an <strong>abattoir</strong>, where they are slaughtered and turned into carcasses. The carcasses go to butcheries, supermarkets, meat processors and export markets. The abattoir is the link between the farmer and the consumer.</p><h3>Who is involved</h3><ul><li><strong>Farmers and feedlots</strong> that produce the cattle.</li><li><strong>Transporters</strong> who move animals.</li><li><strong>Abattoir owners and workers</strong>: slaughterers, cleaners, supervisors, quality controllers.</li><li><strong>Meat inspectors</strong> who check animals and carcasses so that only safe meat is passed for people to eat.</li><li><strong>Classifiers</strong> who classify carcasses by age and fat.</li><li><strong>Buyers</strong>: wholesalers, butcheries, retailers.</li></ul><h3>The law</h3><p>Abattoirs work under the <strong>Meat Safety Act 40 of 2000</strong>. It says that animals for meat must be slaughtered at a registered abattoir, under hygiene rules, with inspection of animals and meat. The Animals Protection Act 71 of 1962 protects animals from cruelty, and the OHS Act 85 of 1993 protects workers.</p><h3>Sizes of abattoirs</h3><p>Abattoirs are graded by how many animals they may slaughter per day. Small rural abattoirs may slaughter only a few cattle a day, while large high-throughput plants slaughter hundreds. The bigger the plant, the more workers there are on each step of the line, and the more specialised each job becomes.</p><h3>Your place in it</h3><p>As a beef slaughterer, you do one or more steps on the slaughter line. Every step affects the safety and value of the meat. A careless cut can contaminate a carcass, and a contaminated carcass can make people ill or be condemned, which is a loss for the abattoir and the farmer.</p>"
+  },
+  {
+   "title": "Layout, flow and the slaughter process",
+   "minutes": 15,
+   "html": "<h3>The layout of an abattoir</h3><p>An abattoir is designed so that the product moves in <strong>one direction</strong>: from the live animal (dirty) to the clean, chilled carcass. Clean and dirty areas are kept apart so that dirt and germs do not move back onto meat.</p><table><tr><th>Area</th><th>What happens there</th></tr><tr><td>Offloading ramp and lairage (holding pens)</td><td>Cattle are offloaded, rested, given water and checked (ante-mortem inspection)</td></tr><tr><td>Stunning box and bleeding area</td><td>Cattle are stunned, shackled and bled</td></tr><tr><td>Slaughter floor (dressing)</td><td>Head and feet removed, hide removed (flaying), evisceration, splitting</td></tr><tr><td>Offal rooms</td><td>Red offal and rough offal are cleaned and handled separately</td></tr><tr><td>Inspection points</td><td>Meat inspectors check heads, offal and carcasses</td></tr><tr><td>Chillers</td><td>Carcasses are cooled</td></tr><tr><td>Dispatch</td><td>Carcasses are loaded into refrigerated trucks</td></tr><tr><td>Hide room, by-product and waste areas</td><td>Hides, condemned material and waste are kept apart</td></tr></table><h3>The main steps of beef slaughter</h3><ol><li>Receiving and resting the cattle; ante-mortem inspection.</li><li>Stunning so that the animal is unconscious.</li><li>Shackling, hoisting and bleeding (sticking).</li><li>Removing head and feet.</li><li>Flaying (removing the hide).</li><li>Evisceration (removing the stomach, intestines and organs).</li><li>Splitting the carcass into two sides.</li><li>Post-mortem inspection, trimming and washing.</li><li>Classification, stamping and weighing.</li><li>Chilling and dispatch.</li></ol><h3>Systems that support the process</h3><p>Overhead rails move carcasses along the line. Water, steam and hot water supply clean the plant and knife sterilisers. Effluent systems remove blood and wastewater. Record systems trace each carcass back to its owner.</p><h4>Key points</h4><ul><li>The abattoir links farmers to consumers.</li><li>The Meat Safety Act 40 of 2000 governs abattoirs and meat inspection.</li><li>Product moves one way, from dirty to clean areas.</li><li>Main steps: stun, bleed, flay, eviscerate, split, inspect, chill.</li><li>Every worker's step affects meat safety and value.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law governs abattoirs and meat inspection in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the lairage?",
+   "options": [
+    {
+     "text": "The holding pens where cattle rest before slaughter",
+     "correct": true
+    },
+    {
+     "text": "The chiller",
+     "correct": false
+    },
+    {
+     "text": "The hide room",
+     "correct": false
+    },
+    {
+     "text": "The dispatch bay",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which direction should product move through an abattoir?",
+   "options": [
+    {
+     "text": "From the live animal (dirty) to the clean chilled carcass",
+     "correct": true
+    },
+    {
+     "text": "From clean to dirty areas",
+     "correct": false
+    },
+    {
+     "text": "In circles",
+     "correct": false
+    },
+    {
+     "text": "Any direction",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is flaying?",
+   "options": [
+    {
+     "text": "Removing the stomach",
+     "correct": false
+    },
+    {
+     "text": "Removing the hide",
+     "correct": true
+    },
+    {
+     "text": "Cutting the carcass in two",
+     "correct": false
+    },
+    {
+     "text": "Washing the carcass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who checks animals and carcasses so only safe meat is passed?",
+   "options": [
+    {
+     "text": "The transporter",
+     "correct": false
+    },
+    {
+     "text": "The buyer",
+     "correct": false
+    },
+    {
+     "text": "The cleaner",
+     "correct": false
+    },
+    {
+     "text": "The meat inspector",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stunning comes before bleeding in the slaughter process.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Clean and dirty areas in an abattoir may be mixed if the line is busy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which areas are part of an abattoir layout? (select all that apply)",
+   "options": [
+    {
+     "text": "Chillers",
+     "correct": true
+    },
+    {
+     "text": "Offal rooms",
+     "correct": true
+    },
+    {
+     "text": "A feedlot pen on the farm",
+     "correct": false
+    },
+    {
+     "text": "Lairage",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

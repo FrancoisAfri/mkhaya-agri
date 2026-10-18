@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-653308-000-00-00-PM-01",
+  "title": "Work Safely",
+  "lessons": [
+    {
+      "title": "Spotting hazards and using PPE",
+      "minutes": 15,
+      "html": "<h3>What is a hazard?</h3><p>A hazard is anything that can hurt you. A risk is how likely it is to hurt you and how badly. In a tractor workshop there are many hazards. You must learn to see them and control them before you start a job.</p><h4>Common workshop hazards</h4><ul><li>Heavy parts and machines that can fall or roll</li><li>Moving parts: fans, belts, PTO shafts, augers</li><li>Hot parts: exhausts, engines, turbos, coolant</li><li>Fluids under pressure: hydraulics, fuel, coolant, tyres</li><li>Electricity: batteries, welders, power tools, extension leads</li><li>Chemicals: diesel, oil, solvents, battery acid, coolant</li><li>Noise from grinders and hammering</li><li>Oil on the floor, cables and tools lying around</li><li>Dust, fumes and sparks</li></ul><h4>Think before you start</h4><p>Before each job, stop and ask: What can go wrong? How can I stop it? What PPE do I need? This is called a task risk check. Many workshops use a short checklist for it.</p><h4>Personal protective equipment (PPE)</h4><table><tr><th>PPE</th><th>Protects against</th></tr><tr><td>Safety boots with steel toecaps</td><td>Falling parts, crushing, slipping</td></tr><tr><td>Overalls</td><td>Dirt, oil and minor burns</td></tr><tr><td>Safety glasses</td><td>Flying chips, splashes</td></tr><tr><td>Face shield</td><td>Grinding, battery acid, chemicals</td></tr><tr><td>Gloves</td><td>Cuts, chemicals, heat</td></tr><tr><td>Ear plugs or muffs</td><td>Loud noise</td></tr><tr><td>Welding helmet</td><td>Arc light and sparks</td></tr><tr><td>Dust mask or respirator</td><td>Dust and fumes</td></tr></table><p>Check your PPE before use. Replace it if damaged. Do not wear loose clothing, rings, chains or long loose hair near moving parts. Do not wear gloves near rotating drills or lathes because they can be caught.</p><h4>Report what you cannot fix</h4><p>If you see a hazard you cannot make safe yourself, such as a broken guard or a damaged sling, tell your supervisor at once and warn others.</p>"
+    },
+    {
+      "title": "Safe work procedures and emergencies",
+      "minutes": 15,
+      "html": "<h3>Safe procedures on every job</h3><h4>Making the tractor safe</h4><ol><li>Park on level, firm ground.</li><li>Lower implements and the loader to the ground.</li><li>Put the transmission in park or neutral and apply the handbrake.</li><li>Stop the engine and take out the key. Put a <em>Do not operate</em> tag on the steering wheel.</li><li>Chock the wheels.</li><li>Let hot parts cool down.</li><li>Release hydraulic pressure as the manual shows.</li></ol><h4>Lifting and supporting</h4><ul><li>Use a jack only to lift. Always put the tractor on stands before you go under it.</li><li>Use a crane or hoist with a checked sling for heavy parts.</li><li>Never stand under a raised load.</li><li>Lift small loads with your legs and keep your back straight. Ask for help with heavy items.</li></ul><h4>Electrical safety</h4><p>Check power tool cables and plugs before use. Do not use damaged extension leads. Keep cables out of water and oil. Disconnect the tractor battery before electrical work, negative first.</p><h4>Housekeeping</h4><p>A tidy workshop is a safe workshop. Clean spills at once with absorbent. Put tools back. Keep walkways and fire exits clear. Throw oily rags into a closed metal bin.</p><h4>Fire</h4><p>Know where extinguishers are and what type to use. Do not smoke in the workshop. Keep fuel away from welding and grinding. If a fire is too big, leave, raise the alarm and call for help.</p><h4>Injuries and first aid</h4><p>If someone is hurt: make the area safe, call the first aider and your supervisor, and call emergency services if the injury is serious. Do not move a badly injured person unless they are in danger. Report every injury and near miss, even small ones, so the cause can be fixed. First aid must be learnt hands-on from an accredited first aid training provider; this lesson does not replace that training.</p><h4>Your rights and duties</h4><p>Under the OHS Act 85 of 1993, you must follow safety rules and use PPE. Your employer must give you training, PPE and a safe workplace.</p><h4>Key points</h4><ul><li>Do a quick risk check before every job.</li><li>Wear the right PPE and no loose clothing near moving parts.</li><li>Make the tractor safe: implements down, key out, wheels chocked.</li><li>Never go under a tractor held only by a jack.</li><li>Report every injury and near miss.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is a hazard?",
+      "options": [
+        {
+          "text": "Anything that can hurt you",
+          "correct": true
+        },
+        {
+          "text": "A type of spanner",
+          "correct": false
+        },
+        {
+          "text": "A safe area",
+          "correct": false
+        },
+        {
+          "text": "A job card",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which PPE protects your eyes from flying chips?",
+      "options": [
+        {
+          "text": "Ear plugs",
+          "correct": false
+        },
+        {
+          "text": "Safety boots",
+          "correct": false
+        },
+        {
+          "text": "Safety glasses",
+          "correct": true
+        },
+        {
+          "text": "Overalls",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do after stopping the engine before working on a tractor?",
+      "options": [
+        {
+          "text": "Leave the key in",
+          "correct": false
+        },
+        {
+          "text": "Raise the implement",
+          "correct": false
+        },
+        {
+          "text": "Start the PTO",
+          "correct": false
+        },
+        {
+          "text": "Take out the key and put a Do not operate tag on the steering wheel",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should oily rags go?",
+      "options": [
+        {
+          "text": "Into a closed metal bin",
+          "correct": true
+        },
+        {
+          "text": "On the floor",
+          "correct": false
+        },
+        {
+          "text": "In your pocket",
+          "correct": false
+        },
+        {
+          "text": "Near the welder",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you not wear gloves near a rotating drill?",
+      "options": [
+        {
+          "text": "They get dirty",
+          "correct": false
+        },
+        {
+          "text": "They can be caught and pull your hand in",
+          "correct": true
+        },
+        {
+          "text": "They are too hot",
+          "correct": false
+        },
+        {
+          "text": "They are expensive",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Near misses should be reported even if nobody was hurt.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A jack is safe to support a tractor while you work under it.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are workshop hazards? (select all that apply)",
+      "options": [
+        {
+          "text": "Oil on the floor",
+          "correct": true
+        },
+        {
+          "text": "Moving belts and fans",
+          "correct": true
+        },
+        {
+          "text": "Hydraulic fluid under pressure",
+          "correct": true
+        },
+        {
+          "text": "A clean, tidy walkway",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

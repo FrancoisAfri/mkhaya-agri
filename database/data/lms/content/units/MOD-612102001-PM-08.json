@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102001-PM-08",
+  "title": "Keep dairy farm records",
+  "lessons": [
+    {
+      "title": "Why dairy records matter",
+      "minutes": 15,
+      "html": "<h3>If it is not written down, it did not happen</h3><p>A dairy herd may have hundreds of cows, each with her own calving date, yield, health history and breeding status. Nobody can remember all of this. Records let the supervisor and manager make good decisions, prove that milk is safe, and meet the requirements of milk buyers, vets and the law.</p><h4>What records are used for</h4><ul><li><strong>Milk safety</strong>: proving that treated cows' milk was kept out of the tank.</li><li><strong>Breeding</strong>: knowing which cows are on heat, served, pregnant or due to dry off.</li><li><strong>Health</strong>: spotting repeat mastitis cows, lameness trends or disease outbreaks.</li><li><strong>Feeding and costs</strong>: linking feed used to milk produced.</li><li><strong>Traceability</strong>: knowing where each animal came from and went to, which matters for disease control under the Animal Diseases Act 35 of 1984.</li><li><strong>People</strong>: attendance, leave, training and incidents.</li></ul><h4>Identifying animals</h4><p>Good records start with good identification. Every animal needs a unique number, usually on an ear tag, and often an electronic tag or collar read in the parlour. Brand or tattoo as the farm and law require. Replace lost tags straight away and record the change so the history is not lost.</p><h4>Paper or computer?</h4><p>Many farms use herd management software linked to the parlour, which records yields automatically. Others use books and boards. Either works if records are:</p><ul><li><strong>Accurate</strong>: correct cow number, date and details.</li><li><strong>Complete</strong>: every event recorded, not just some.</li><li><strong>On time</strong>: written on the day, not from memory a week later.</li><li><strong>Readable</strong>: neat handwriting, standard abbreviations.</li><li><strong>Safe</strong>: backed up or stored where they will not be lost or damaged.</li></ul>"
+    },
+    {
+      "title": "The main records on a dairy farm",
+      "minutes": 15,
+      "html": "<h3>Records you will keep as supervisor</h3><table><tr><th>Record</th><th>What to write</th></tr><tr><td>Calving</td><td>Cow number, date, calf sex, calf number, ease of calving, calf alive or dead, colostrum given</td></tr><tr><td>Breeding</td><td>Heat dates, service date, bull or semen used, AI technician, pregnancy check result, expected calving date</td></tr><tr><td>Treatment</td><td>Date, cow number, condition, medicine, dose, route, who treated, withdrawal period end date for milk and meat</td></tr><tr><td>Milk recording</td><td>Individual yields, test results such as fat, protein and somatic cells</td></tr><tr><td>Bulk tank</td><td>Litres collected, tank temperature each milking, collection time, buyer test results</td></tr><tr><td>Feed</td><td>Feed received, mixed and fed per group, stock on hand</td></tr><tr><td>Stock movement</td><td>Births, deaths, purchases, sales, transfers, with dates and numbers</td></tr><tr><td>Cleaning</td><td>Plant wash times, water temperature, detergents used</td></tr></table><h4>The treatment record is critical</h4><p>The treatment record and treatment board protect the milk tank. Write the date when the milk is safe again, calculated from the product label or your vet's instructions, not from guesswork. Keep medicine purchase records and use only registered products as prescribed. Act 36 of 1947 controls stock remedies; follow the label exactly.</p><h4>Stock reconciliation</h4><p>Each month, check that opening numbers plus births and purchases, minus deaths, sales and transfers, equal the animals you can count. Example: 320 cows at the start, 25 calvings into the milking herd, 6 sold and 1 died should give 338. If your count is different, find out why.</p><h4>Death records</h4><p>Record every death with the cause if known, and report unusual deaths or several deaths to the manager and vet immediately, as they may indicate a notifiable disease.</p>"
+    },
+    {
+      "title": "Using records and reporting",
+      "minutes": 15,
+      "html": "<h3>Turning records into decisions</h3><p>Records are only useful if someone reads them and acts. As supervisor you should check them daily and produce simple summaries for the manager.</p><h4>Daily and weekly checks</h4><ul><li>Which cows are due to calve, be served or dried off this week?</li><li>Which cows are under treatment and when can their milk go back in the tank?</li><li>Did the tank temperature stay within the buyer's limit at every milking?</li><li>Which cows have repeat mastitis or lameness?</li><li>Is feed stock enough for the coming week?</li></ul><h4>Simple measures to report</h4><ul><li>Average litres per cow per day and total litres sold.</li><li>Bacteria count and somatic cell count from the buyer.</li><li>Number of cows in milk and dry.</li><li>Calves born, calf deaths and causes.</li><li>Number of cows served and pregnancy rate from vet checks.</li></ul><h4>Checking for errors</h4><p>Look for missing dates, cow numbers that do not exist, two calvings for the same cow in one month, or yields that are far too high. Correct mistakes by crossing out with one line and initialling, so the original is still readable. In software, use the correction function and note why.</p><h4>Confidentiality and storage</h4><p>Personnel records contain personal information and must be kept confidential, in line with the Protection of Personal Information Act. Herd records belong to the farm; do not share them with outsiders without permission. Back up computer records regularly and keep paper records dry and filed. Keep records for the period the farm, buyers and auditors require.</p><h4>Key points</h4><ul><li>Every animal needs a unique ID so records can be linked.</li><li>Records must be accurate, complete, on time, readable and safe.</li><li>The treatment record protects the bulk tank; use label or vet withdrawal times.</li><li>Reconcile stock numbers monthly.</li><li>Check records daily and report simple measures to the manager.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which record proves that treated cows' milk was kept out of the tank?",
+      "options": [
+        {
+          "text": "The feed record",
+          "correct": false
+        },
+        {
+          "text": "The treatment record",
+          "correct": true
+        },
+        {
+          "text": "The leave register",
+          "correct": false
+        },
+        {
+          "text": "The fuel log",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should the milk withdrawal end date be worked out?",
+      "options": [
+        {
+          "text": "From the product label or the vet's instructions",
+          "correct": true
+        },
+        {
+          "text": "From what the milker remembers",
+          "correct": false
+        },
+        {
+          "text": "Always two days after treatment",
+          "correct": false
+        },
+        {
+          "text": "When the cow looks healthy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A herd starts with 320 cows; 25 calve into the herd, 6 are sold and 1 dies. How many should there be?",
+      "options": [
+        {
+          "text": "345",
+          "correct": false
+        },
+        {
+          "text": "320",
+          "correct": false
+        },
+        {
+          "text": "338",
+          "correct": true
+        },
+        {
+          "text": "352",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should you correct a mistake in a paper record?",
+      "options": [
+        {
+          "text": "Tear out the page",
+          "correct": false
+        },
+        {
+          "text": "Cover it with correction fluid",
+          "correct": false
+        },
+        {
+          "text": "Leave it as it is",
+          "correct": false
+        },
+        {
+          "text": "Cross it out with one line and initial it",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do when several animals die unexpectedly?",
+      "options": [
+        {
+          "text": "Record it at the end of the month",
+          "correct": false
+        },
+        {
+          "text": "Report to the manager and vet immediately",
+          "correct": true
+        },
+        {
+          "text": "Bury them and say nothing",
+          "correct": false
+        },
+        {
+          "text": "Remove them from the stock list only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "When a cow loses her ear tag, the new number must be recorded so her history is not lost.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is fine to fill in records from memory a week later.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should a breeding record include? (select all that apply)",
+      "options": [
+        {
+          "text": "Service date",
+          "correct": true
+        },
+        {
+          "text": "Bull or semen used",
+          "correct": true
+        },
+        {
+          "text": "Pregnancy check result",
+          "correct": true
+        },
+        {
+          "text": "Tractor fuel used",
+          "correct": false
+        },
+        {
+          "text": "Detergent brand",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

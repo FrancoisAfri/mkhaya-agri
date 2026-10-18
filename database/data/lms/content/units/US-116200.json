@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116200",
+ "title": "Plant the crop under supervision",
+ "lessons": [
+  {
+   "title": "Tools and equipment for planting",
+   "minutes": 15,
+   "html": "<h3>Getting ready to plant</h3> <p>Planting is one of the most important jobs on the farm. If plants are put in the ground badly, the whole crop suffers. You will plant under the guidance of your supervisor, who tells you what to plant, where and how.</p> <h4>Common planting tools</h4> <table> <tr><th>Tool</th><th>Use</th></tr> <tr><td>Spade or hoe</td><td>Dig holes and loosen soil</td></tr> <tr><td>Planting stick or dibber</td><td>Make holes for seedlings or seed</td></tr> <tr><td>Measuring tape, marked stick, line and pegs</td><td>Measure spacing between rows and plants</td></tr> <tr><td>Rake</td><td>Level the seedbed and cover seed</td></tr> <tr><td>Watering can or hose</td><td>Water after planting</td></tr> <tr><td>Wheelbarrow and seedling trays</td><td>Carry plants to the land</td></tr> <tr><td>Hand planter or jab planter</td><td>Plant seed such as maize or beans by hand</td></tr> </table> <p>Big farms use tractor planters and transplanters. You may help by filling seed boxes, checking that seed falls, or feeding seedlings into a transplanter.</p> <p>Before you go to the land, check with your supervisor which tools are needed for the crop. Take enough for your team and some spare string and pegs.</p><h4>Using tools safely</h4> <ul> <li>Check tools before use. Report loose heads or broken handles.</li> <li>Carry spades and hoes with the blade down.</li> <li>Keep a safe space between you and the next worker.</li> <li>Wear boots, a hat and gloves.</li> <li>Bend your knees, not your back, when lifting trays.</li> <li>Stay away from moving tractors and planters.</li> </ul> <h4>Caring for tools</h4> <ul> <li>Knock off soil after use and wash tools if needed.</li> <li>Dry them so they do not rust. Oil metal parts sometimes.</li> <li>Keep blades sharp.</li> <li>Return tools to the store and hang them up.</li> <li>Clean tools that may carry disease before moving to another land, if told.</li> </ul>"
+  },
+  {
+   "title": "Handling planting material",
+   "minutes": 15,
+   "html": "<h3>Planting material is alive</h3> <p>Planting material can be seed, seedlings, cuttings, tubers (like seed potatoes) or bulbs. All of these are alive and must be handled gently.</p> <h4>Seed</h4> <ul> <li>Keep seed in a cool, dry place, away from rats and insects.</li> <li>Many seeds are treated with chemicals and are coloured (for example pink or red maize seed). <strong>Never eat treated seed or give it to animals.</strong> Wear gloves and wash your hands after handling it.</li> <li>Check the seed bag label for the crop, variety and lot number.</li> <li>Do not mix different varieties.</li> </ul> <h4>Seedlings</h4> <p>Seedlings of cabbage, tomato, onion, peppers and many other crops come from a nursery in trays.</p> <ul> <li>Water the trays well before planting so the plugs come out easily.</li> <li>Keep trays in the shade until planting.</li> <li>Take out seedlings by holding the leaves or the soil plug, never by the thin stem. A crushed stem kills the plant.</li> <li>Plant only healthy seedlings. Put aside yellow, weak or sick ones and show your supervisor.</li> <li>Plant on the same day they arrive if possible.</li> </ul> <h4>Cuttings and tubers</h4> <ul> <li>Keep cuttings moist and shaded.</li> <li>Plant cuttings the right way up, with buds pointing up.</li> <li>Handle seed potatoes gently so sprouts do not break off.</li> </ul> <h3>How the environment affects the crop</h3> <ul> <li><strong>Temperature</strong>: seeds need warm soil to grow. Planting too early in cold soil gives poor germination. Frost kills many young plants.</li> <li><strong>Water</strong>: seeds need moist soil to sprout. Seedlings need water straight after planting.</li> <li><strong>Sun</strong>: hot sun and wind dry out new plants fast. Plant in the cool morning or late afternoon if possible.</li> <li><strong>Soil</strong>: loose, fine soil helps roots grow. Hard or lumpy soil gives poor growth.</li> <li><strong>Wind</strong>: strong wind breaks and dries out seedlings.</li> </ul>"
+  },
+  {
+   "title": "Planting at the right spacing and depth",
+   "minutes": 15,
+   "html": "<h3>Why spacing matters</h3> <p>Each plant needs space for its roots and leaves. If plants are too close, they fight for water, light and food, and you get many small plants. If they are too far apart, land is wasted and weeds grow in the gaps. Your supervisor will give you the spacing for the crop.</p> <h4>Example spacings (your farm may differ)</h4> <table> <tr><th>Crop</th><th>Between rows</th><th>Between plants</th></tr> <tr><td>Cabbage</td><td>about 60 cm</td><td>about 40 to 50 cm</td></tr> <tr><td>Tomatoes</td><td>about 1 to 1.5 m</td><td>about 50 cm</td></tr> <tr><td>Onions</td><td>about 30 cm</td><td>about 8 to 10 cm</td></tr> </table> <h4>Marking out</h4> <ol> <li>Stretch a line tight between two pegs to mark a straight row.</li> <li>Measure the row spacing with a tape or marked stick.</li> <li>Mark plant positions with a marked stick laid along the row.</li> </ol> <h4>Planting depth</h4> <ul> <li><strong>Seed</strong>: a common rule is to plant about two to three times as deep as the seed is wide. Small seeds go shallow; big seeds like maize and beans go deeper. Follow your supervisor's depth.</li> <li><strong>Seedlings</strong>: plant so the top of the soil plug is just covered, at the same depth as in the tray. Some crops, like tomatoes, may be planted a little deeper; your supervisor will say.</li> <li>Too deep: seed may not come up. Too shallow: seed dries out or birds eat it.</li> </ul> <h4>Planting steps for seedlings</h4> <ol> <li>Make a hole at the marked place, a bit bigger than the plug.</li> <li>Put the seedling in, upright.</li> <li>Press soil firmly around it so there are no air pockets.</li> <li>Water straight away.</li> <li>Check your row: straight, correct spacing, no missed places.</li> </ol> <p>After planting, report empty places and dead plants so they can be replanted.</p> <h4>Key points</h4> <ul> <li>Use tools safely and return them clean.</li> <li>Never eat treated seed; wash hands after handling it.</li> <li>Hold seedlings by the leaves or plug, never the stem.</li> <li>Plant at the spacing and depth your supervisor gives.</li> <li>Firm the soil and water straight after planting.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should you hold a seedling when taking it out of the tray?",
+   "options": [
+    {
+     "text": "By the roots only",
+     "correct": false
+    },
+    {
+     "text": "By the thin stem",
+     "correct": false
+    },
+    {
+     "text": "Upside down",
+     "correct": false
+    },
+    {
+     "text": "By the leaves or soil plug",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you never do with coloured, treated seed?",
+   "options": [
+    {
+     "text": "Store it dry",
+     "correct": false
+    },
+    {
+     "text": "Eat it or give it to animals",
+     "correct": true
+    },
+    {
+     "text": "Plant it",
+     "correct": false
+    },
+    {
+     "text": "Check the label",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens when plants are planted too close together?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Weeds grow in the gaps",
+     "correct": false
+    },
+    {
+     "text": "They grow bigger",
+     "correct": false
+    },
+    {
+     "text": "They fight for water, light and food",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should a seedling usually be planted?",
+   "options": [
+    {
+     "text": "So the top of the soil plug is just covered",
+     "correct": true
+    },
+    {
+     "text": "On top of the soil",
+     "correct": false
+    },
+    {
+     "text": "With half the plug above the soil",
+     "correct": false
+    },
+    {
+     "text": "As deep as the spade goes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is it better to plant in the cool morning or late afternoon?",
+   "options": [
+    {
+     "text": "The tools work better",
+     "correct": false
+    },
+    {
+     "text": "Hot sun and wind dry out new plants fast",
+     "correct": true
+    },
+    {
+     "text": "The soil is harder",
+     "correct": false
+    },
+    {
+     "text": "Birds sleep then",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should water seedlings straight after planting.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Weak or sick seedlings should be planted with the others without telling anyone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help you plant in a straight row at the right spacing? (select all that apply)",
+   "options": [
+    {
+     "text": "Marked stick",
+     "correct": true
+    },
+    {
+     "text": "A watering can",
+     "correct": false
+    },
+    {
+     "text": "Measuring tape",
+     "correct": true
+    },
+    {
+     "text": "Line and pegs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

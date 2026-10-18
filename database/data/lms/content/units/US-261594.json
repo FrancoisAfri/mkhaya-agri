@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261594",
+ "title": "Explain the principles of the euthanasia of species commonly dealt with by animal welfare workers",
+ "lessons": [
+  {
+   "title": "Principles of euthanasia and acceptable methods",
+   "minutes": 18,
+   "html": "<h3>What euthanasia means</h3>\n<p>Euthanasia means a \"good death\": ending an animal's life in a way that causes the least possible pain, fear and distress. Animal welfare workers, farm staff and inspectors may be involved when an animal cannot be saved. The decision and method carry legal and ethical weight under the Animals Protection Act 71 of 1962, and many methods may only be used by a veterinarian.</p>\n<h4>General principles</h4>\n<ul><li><strong>Rapid loss of consciousness</strong>, followed by death without the animal regaining consciousness.</li>\n<li><strong>Minimum distress</strong> before and during the procedure: calm handling, familiar surroundings where possible, no other animals watching if avoidable.</li>\n<li><strong>Reliable and irreversible</strong>: the method must work every time when done correctly.</li>\n<li><strong>Operator safety</strong>: firearms, captive bolts and drugs are dangerous; bystanders must be kept clear.</li>\n<li><strong>Trained, competent people</strong> with the right equipment in good order.</li>\n<li><strong>Confirmation of death</strong> before the body is moved or disposed of.</li></ul>\n<h4>Acceptable methods by species (summary)</h4>\n<table><tr><th>Species</th><th>Acceptable methods</th></tr>\n<tr><td>Dogs and cats</td><td>Overdose of an injectable anaesthetic by a veterinarian</td></tr>\n<tr><td>Cattle and horses</td><td>Injection by a vet; or free bullet or penetrating captive bolt followed by bleeding or pithing, by a trained person</td></tr>\n<tr><td>Sheep, goats, pigs</td><td>Injection by a vet; captive bolt or firearm followed by bleeding</td></tr>\n<tr><td>Poultry</td><td>Injection by a vet; cervical dislocation of small birds by a trained person; approved gas systems</td></tr>\n<tr><td>Wildlife</td><td>Usually a correctly placed shot, or drugs given by a vet</td></tr></table>\n<p>The scheduled drugs used for injection are controlled medicines and may only be used by or under the direct control of a veterinarian.</p>\n<h4>Methods that are never acceptable</h4>\n<p>Drowning, poisoning with household or farm chemicals, strangling, burning, burying alive, repeated blows by an untrained person, or a shot from a weapon too small for the species are cruel and illegal.</p>"
+  },
+  {
+   "title": "Humane handling, confirming death and when to euthanase",
+   "minutes": 16,
+   "html": "<h3>Handling animals humanely</h3>\n<ul><li>Move slowly and speak quietly. Fear causes struggling and makes accurate placement of a bolt or bullet harder.</li>\n<li>Use the minimum restraint needed: a halter for a horse, a crush or head clamp for cattle, an assistant holding a dog gently.</li>\n<li>Where possible, carry out the procedure where the animal is, instead of dragging an injured animal.</li>\n<li>For dogs and cats, a vet may first give a sedative so the animal is calm before the final injection.</li>\n<li>Allow owners to stay if they wish and it is safe, and treat them with compassion.</li></ul>\n<h4>Firearm and captive bolt safety</h4>\n<p>Only licensed and trained people may use firearms. Know the correct aiming point for the species, check the backstop, keep everyone behind the shooter, and never fire on hard ground or rock where a bullet can ricochet. With a captive bolt, the bolt must be held firmly against the head; it stuns but may not kill, so it must be followed at once by bleeding or pithing.</p>\n<h4>Confirming death</h4>\n<p>Check for all of the following before the body is moved:</p>\n<ul><li>No breathing movements.</li><li>No heartbeat (listen or feel for several minutes).</li><li>No blink when the surface of the eye is touched.</li><li>Pupils fixed and dilated.</li></ul>\n<p>If in doubt, repeat the procedure.</p>\n<h4>When euthanasia should be performed</h4>\n<ul><li>Severe injury or illness that cannot be treated, or where treatment would cause continued suffering.</li>\n<li>Chronic pain or poor quality of life that cannot be managed.</li>\n<li>Disease control orders from the state veterinarian.</li>\n<li>A dangerous animal that cannot be safely managed.</li>\n<li>Unwanted animals in a welfare organisation when rehoming is not possible, according to the organisation's policy.</li></ul>\n<p>Record the reason, method, person, date and time. Practical competence must be built through supervised training by an accredited provider.</p>\n<h4>Key points</h4>\n<ul><li>Euthanasia must cause rapid unconsciousness and death with minimum distress.</li>\n<li>Methods must suit the species and be done by trained people; injectable drugs are for vets only.</li>\n<li>Drowning, poisoning and similar methods are cruel and illegal.</li>\n<li>Always confirm death: no breathing, no heartbeat, no eye reflex, fixed dilated pupils.</li>\n<li>Record every euthanasia and its reason.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does euthanasia mean?",
+   "options": [
+    {
+     "text": "Treating an animal with antibiotics",
+     "correct": false
+    },
+    {
+     "text": "A 'good death' with the least pain, fear and distress",
+     "correct": true
+    },
+    {
+     "text": "Any slaughter for meat",
+     "correct": false
+    },
+    {
+     "text": "Moving an animal to another farm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may use the scheduled drugs injected for euthanasia?",
+   "options": [
+    {
+     "text": "A veterinarian, or someone under the vet's direct control",
+     "correct": true
+    },
+    {
+     "text": "Any farm worker",
+     "correct": false
+    },
+    {
+     "text": "The owner of the animal",
+     "correct": false
+    },
+    {
+     "text": "Any welfare volunteer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must follow the use of a captive bolt?",
+   "options": [
+    {
+     "text": "Waiting a day",
+     "correct": false
+    },
+    {
+     "text": "Feeding the animal",
+     "correct": false
+    },
+    {
+     "text": "Releasing the animal",
+     "correct": false
+    },
+    {
+     "text": "Bleeding or pithing straight away",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign that death has been confirmed?",
+   "options": [
+    {
+     "text": "Rhythmic breathing",
+     "correct": false
+    },
+    {
+     "text": "A strong heartbeat",
+     "correct": false
+    },
+    {
+     "text": "Fixed and dilated pupils",
+     "correct": true
+    },
+    {
+     "text": "Blinking when the eye is touched",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which method of euthanasia is never acceptable?",
+   "options": [
+    {
+     "text": "A correctly placed shot by a trained person",
+     "correct": false
+    },
+    {
+     "text": "Cervical dislocation of a small bird by a trained person",
+     "correct": false
+    },
+    {
+     "text": "Drowning",
+     "correct": true
+    },
+    {
+     "text": "Injection by a vet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Calm, quiet handling makes accurate placement of a bolt or bullet easier.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to fire a shot on hard rocky ground because the bullet will stop there.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which situations can justify euthanasia? (select all that apply)",
+   "options": [
+    {
+     "text": "Severe untreatable injury",
+     "correct": true
+    },
+    {
+     "text": "A dangerous animal that cannot be safely managed",
+     "correct": true
+    },
+    {
+     "text": "The animal is slightly underweight",
+     "correct": false
+    },
+    {
+     "text": "A disease control order from the state veterinarian",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114335",
+ "title": "Evaluate dressing of carcasses",
+ "lessons": [
+  {
+   "title": "Standards for a well-dressed carcass",
+   "minutes": 20,
+   "html": "<h3>What \"dressing\" means</h3><p>Dressing is the series of steps that turns a stunned, bled animal into a clean carcass ready for inspection and chilling: removing the head, feet, hide or skin, and the internal organs (evisceration), splitting where required, trimming and washing. Evaluating dressing means checking, as a supervisor or quality controller, that each step was done hygienically and to the abattoir's specification, and taking action when it was not.</p><h4>The legal framework</h4><p>The <strong>Meat Safety Act 40 of 2000</strong> and its regulations require that meat is produced hygienically at registered abattoirs, that every carcass is inspected, and that the abattoir runs a hygiene management system. Abattoirs are audited by provincial veterinary services, and hygiene performance is assessed and scored. Red meat carcasses are also classified under the Agricultural Product Standards Act 119 of 1990, with age classes (A, AB, B, C) and fat codes shown by roller marks.</p><h4>What a well-dressed carcass looks like</h4><ul><li><strong>No visible contamination:</strong> no faeces, ingesta (stomach contents), milk, bile, hair, wool or dirt on the meat surfaces. Visible faecal contamination is treated with zero tolerance and must be trimmed off.</li><li><strong>Clean, even hide removal:</strong> no hide pieces left, no deep knife scores or flesh torn off with the hide.</li><li><strong>Intact evisceration:</strong> gut and bladder removed without puncture; the oesophagus and rectum tied or sealed according to procedure.</li><li><strong>Correct trimming:</strong> bruises, injection sites, abscesses and damage removed as directed by the meat inspector; trims not excessive.</li><li><strong>Accurate splitting:</strong> along the centre of the backbone for species that are split, with spinal cord removed where procedures require.</li><li><strong>Correct presentation:</strong> head and offal identified with the carcass for inspection; correct marking and classification.</li></ul>"
+  },
+  {
+   "title": "Evaluating dressing on the line",
+   "minutes": 20,
+   "html": "<h3>Monitoring each work station</h3><p>A supervisor evaluates dressing by watching operators at each station, checking carcasses at fixed points and recording results.</p><h4>Key control points to watch</h4><table><tr><th>Station</th><th>What to check</th></tr><tr><td>Sticking and bleeding</td><td>Clean knife for each animal, sterilised between cuts; complete bleeding</td></tr><tr><td>Hide or skin removal</td><td>Hide not allowed to flap onto meat; hands and knives cleaned after touching the outside of the hide</td></tr><tr><td>Rodding and bunging</td><td>Oesophagus tied, rectum bagged or tied to prevent leakage</td></tr><tr><td>Evisceration</td><td>No puncture of stomachs or intestines; spills trimmed immediately</td></tr><tr><td>Splitting</td><td>Straight split; saw sterilised between carcasses</td></tr><tr><td>Final trim and wash</td><td>All contamination trimmed before washing; washing does not replace trimming</td></tr></table><h4>Carcass checks</h4><ol><li>Choose carcasses at random each hour, or as the hygiene plan specifies.</li><li>Inspect set areas such as the hindquarter, flank, brisket and neck for contamination, hair and damage.</li><li>Record defects by type and by work station.</li><li>Compare with the abattoir's targets.</li></ol><h4>Using the results</h4><p>If one station causes most of the faecal contamination, observe the operator, check knife and sterilizer temperatures, and retrain where needed. Track trends: a rising defect rate at the end of a long shift may point to fatigue or line speed problems.</p><p>Microbiological sampling of carcass surfaces, done as the hygiene plan requires and analysed by an accredited laboratory, confirms whether visual hygiene is effective.</p><p>Share the results with the line team each day.</p><p>Keep the check sheets for audits and review them weekly with management.</p>"
+  },
+  {
+   "title": "Corrective action and supervision",
+   "minutes": 20,
+   "html": "<h3>From finding to fixing</h3><h4>Immediate action</h4><ul><li>Stop or slow the line if contamination is occurring repeatedly.</li><li>Have contaminated areas trimmed under supervision; trimmed material goes to the condemned or inedible container as procedures require.</li><li>Hold affected carcasses for the meat inspector's decision.</li><li>Sterilise equipment that has become contaminated.</li></ul><h4>Root cause and prevention</h4><ul><li>Ask why it happened: blunt knives, poor technique, new operator, faulty equipment, line speed, dirty animals arriving.</li><li>Take corrective action: sharpening routines, retraining, maintenance, adjusting line speed, working with suppliers on animal cleanliness.</li><li>Record the non-conformance, the action and the follow-up result.</li></ul><h4>Personal hygiene and safety</h4><ul><li>Operators wear clean protective clothing, hairnets and boots; wash hands and knives at the required points.</li><li>Knife sterilizers must operate at the temperature the hygiene plan specifies; check and record.</li><li>Cut-resistant gloves and chain-mail aprons where required protect against knife injuries.</li><li>Knives must be carried in scabbards, never left on surfaces, and passed handle-first.</li><li>Report cuts immediately: treat, cover with a waterproof, visible dressing and decide whether the person may return to the line.</li></ul><h4>Communicating results</h4><p>Give daily feedback to operators, share weekly trends with management, and keep records ready for veterinary audits. Recognise teams that improve.</p><h4>Key points</h4><ul><li>The Meat Safety Act 40 of 2000 requires hygienic slaughter and inspection of every carcass.</li><li>Visible faecal contamination has zero tolerance and must be trimmed, not washed off.</li><li>Check each station and sample carcasses at set intervals, recording defects by station.</li><li>Find root causes and correct them through training, maintenance and line speed.</li><li>Knife safety and sterilisation protect both workers and meat.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act requires hygienic slaughter and the inspection of every carcass?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": true
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should visible faecal contamination on a carcass be handled?",
+   "options": [
+    {
+     "text": "Washed off with hot water",
+     "correct": false
+    },
+    {
+     "text": "Trimmed off, since it has zero tolerance",
+     "correct": true
+    },
+    {
+     "text": "Left for the butcher to remove",
+     "correct": false
+    },
+    {
+     "text": "Covered with a stamp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is the rectum tied or bagged during dressing?",
+   "options": [
+    {
+     "text": "To prevent faecal leakage onto the carcass",
+     "correct": true
+    },
+    {
+     "text": "To make the carcass heavier",
+     "correct": false
+    },
+    {
+     "text": "To speed up chilling",
+     "correct": false
+    },
+    {
+     "text": "For classification",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Most contamination comes from one work station. What should the supervisor do first?",
+   "options": [
+    {
+     "text": "Dismiss the whole team",
+     "correct": false
+    },
+    {
+     "text": "Observe the operator and check equipment, then retrain where needed",
+     "correct": true
+    },
+    {
+     "text": "Increase the line speed",
+     "correct": false
+    },
+    {
+     "text": "Ignore it if other stations are clean",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do the classification roller marks on red meat carcasses show?",
+   "options": [
+    {
+     "text": "The farm name",
+     "correct": false
+    },
+    {
+     "text": "Age class and fat code",
+     "correct": true
+    },
+    {
+     "text": "The price per kilogram",
+     "correct": false
+    },
+    {
+     "text": "The slaughter date only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Washing a carcass can replace trimming of contamination.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A rising defect rate late in a shift may point to fatigue or line speed problems.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a well-dressed carcass? (select all that apply)",
+   "options": [
+    {
+     "text": "No visible faeces, ingesta or hair on the meat",
+     "correct": true
+    },
+    {
+     "text": "Gut removed without puncture",
+     "correct": true
+    },
+    {
+     "text": "Deep knife scores from hide removal",
+     "correct": false
+    },
+    {
+     "text": "Bruises and abscesses trimmed as the inspector directs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

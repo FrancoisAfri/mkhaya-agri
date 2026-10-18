@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119414",
+ "title": "Apply abattoir hygiene in poultry processing",
+ "lessons": [
+  {
+   "title": "Hygiene and contamination in the abattoir",
+   "minutes": 15,
+   "html": "<h3>What is abattoir hygiene?</h3>\n<p>Abattoir hygiene means keeping the whole plant clean so that the chicken meat stays safe to eat. It covers the building, the equipment, the tools, the water and the way products move through the plant. Personal hygiene (your own cleanliness) is one part of it. This unit is about the rest.</p>\n<p>The <strong>Meat Safety Act 40 of 2000</strong> requires abattoirs to be registered and to meet hygiene rules. Inspectors check the plant. A dirty plant can be closed.</p>\n<h4>Ways meat gets contaminated</h4>\n<ul>\n<li><strong>Faeces and gut contents</strong> – when intestines are burst during evisceration.</li>\n<li><strong>Dirty surfaces</strong> – tables, belts, cutting boards and containers that were not cleaned.</li>\n<li><strong>Floor contact</strong> – meat that falls on the floor.</li>\n<li><strong>Cross-contamination</strong> – germs moving from the dirty area to the clean area on people, crates, trolleys or water splash.</li>\n<li><strong>Pests</strong> – flies, rats, mice, cockroaches and birds.</li>\n<li><strong>Foreign objects</strong> – plastic, metal, glass, plasters and wood.</li>\n</ul>\n<h4>Flow from dirty to clean</h4>\n<p>The plant is built so that product moves in one direction: from live birds (dirty) through slaughter and plucking, to evisceration, chilling, cutting and packing (clean). Product, people and equipment must never move backwards from dirty to clean. Crates from the live bird area, for example, must never go into the packing hall.</p>\n<p><em>Example:</em> A trolley from the plucking area is pushed into the cutting room to fetch boxes. This breaks the rule. Feathers and germs can now reach the cut portions. The supervisor stops it and the trolley area is cleaned.</p>"
+  },
+  {
+   "title": "Cleaning and sanitising",
+   "minutes": 20,
+   "html": "<h3>Cleaning is not the same as sanitising</h3>\n<p><strong>Cleaning</strong> removes the dirt, fat, blood and meat pieces you can see. <strong>Sanitising</strong> (disinfecting) kills the germs you cannot see. A surface must be cleaned first, because sanitiser does not work well on dirt.</p>\n<h4>The cleaning steps</h4>\n<ol>\n<li><strong>Prepare</strong> – switch off and lock out machines (authorised staff only). Cover electrical parts if instructed. Remove product and packaging from the area.</li>\n<li><strong>Dry clean</strong> – scrape and pick up meat pieces, fat and feathers. Put them in the waste bins, not down the drain.</li>\n<li><strong>Pre-rinse</strong> – rinse with water to remove loose dirt.</li>\n<li><strong>Apply detergent</strong> – use the right chemical at the right strength, often as foam. Leave it for the contact time on the cleaning schedule.</li>\n<li><strong>Scrub</strong> – brush areas with stuck-on dirt.</li>\n<li><strong>Rinse</strong> – rinse off all detergent from top to bottom.</li>\n<li><strong>Sanitise</strong> – apply sanitiser as instructed.</li>\n<li><strong>Inspect</strong> – check that everything is clean before production starts. Record on the cleaning checklist.</li>\n</ol>\n<h4>Chemical safety</h4>\n<ul>\n<li>Only use chemicals you have been trained on. Read the label and the safety data sheet.</li>\n<li>Wear goggles, chemical gloves, apron and boots.</li>\n<li>Never mix chemicals. Some mixtures give off poisonous gas.</li>\n<li>Keep chemicals in labelled containers, stored away from food and packaging.</li>\n<li>If chemical gets in your eyes or on your skin, rinse with plenty of clean water and call the first aider.</li>\n</ul>\n<h4>Tools during production</h4>\n<p>Knives, steels and hand tools are dipped in the knife steriliser (very hot water) regularly as your work instruction says. Hands are washed at the hand wash basins. Hoses must not spray onto product or splash from the floor onto clean surfaces.</p>"
+  },
+  {
+   "title": "Waste, pests and checking hygiene",
+   "minutes": 15,
+   "html": "<h3>Handling waste</h3>\n<p>An abattoir makes a lot of waste: feathers, blood, heads, feet, guts and condemned birds. Waste attracts flies and rats and must be controlled.</p>\n<ul>\n<li>Use the correct bins. Condemned material often goes in clearly marked (usually red) containers.</li>\n<li>Never put waste containers on tables used for product.</li>\n<li>Empty bins regularly and keep the lids closed.</li>\n<li>Keep drains clear of meat and fat. Blocked drains cause floods and bad smells.</li>\n</ul>\n<h4>Pest control</h4>\n<p>Pests carry germs. Help to keep them out:</p>\n<ul>\n<li>Keep doors closed and keep plastic strip curtains and fly screens in good order.</li>\n<li>Do not leave food or waste lying around.</li>\n<li>Do not move or touch bait stations. They are placed and checked by the pest control contractor.</li>\n<li>Report any sign of pests: droppings, gnawed boxes, flies or birds inside.</li>\n</ul>\n<h4>Checking that hygiene works</h4>\n<p>Supervisors and quality staff check hygiene by:</p>\n<ul>\n<li>Pre-operational inspection before the shift starts.</li>\n<li>Swabs of surfaces that are sent to a laboratory to count germs.</li>\n<li>Checking cleaning records and chemical strengths.</li>\n<li>Visual checks during the day.</li>\n</ul>\n<p>If an area fails, it must be cleaned again before production starts there. Do not argue with the result. It means germs were found.</p>\n<h4>Your role</h4>\n<p>Report hygiene problems at once: a broken tile, a dripping pipe over the line, condensation dripping onto product, a damaged cutting board or a hose lying on a clean table.</p>\n<h4>Key points</h4>\n<ul>\n<li>Product, people and equipment move from dirty to clean, never back.</li>\n<li>Clean first, then sanitise.</li>\n<li>Never mix cleaning chemicals; wear chemical PPE.</li>\n<li>Keep waste in marked bins with lids, and keep drains clear.</li>\n<li>Do not touch bait stations; report signs of pests.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the difference between cleaning and sanitising?",
+   "options": [
+    {
+     "text": "There is no difference",
+     "correct": false
+    },
+    {
+     "text": "Cleaning removes visible dirt; sanitising kills germs",
+     "correct": true
+    },
+    {
+     "text": "Sanitising removes visible dirt; cleaning kills germs",
+     "correct": false
+    },
+    {
+     "text": "Cleaning is only done once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which direction should product move through the plant?",
+   "options": [
+    {
+     "text": "From clean to dirty",
+     "correct": false
+    },
+    {
+     "text": "From dirty to clean",
+     "correct": true
+    },
+    {
+     "text": "Any direction",
+     "correct": false
+    },
+    {
+     "text": "Backwards at the end of the day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with meat pieces and fat during dry cleaning?",
+   "options": [
+    {
+     "text": "Wash them down the drain",
+     "correct": false
+    },
+    {
+     "text": "Put them in the waste bins",
+     "correct": true
+    },
+    {
+     "text": "Leave them on the floor",
+     "correct": false
+    },
+    {
+     "text": "Put them back on the line",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who should move or handle the rat bait stations?",
+   "options": [
+    {
+     "text": "Any worker",
+     "correct": false
+    },
+    {
+     "text": "The pest control contractor",
+     "correct": true
+    },
+    {
+     "text": "The cleaners",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if an area fails its pre-operational hygiene check?",
+   "options": [
+    {
+     "text": "Production starts anyway",
+     "correct": false
+    },
+    {
+     "text": "It must be cleaned again before production starts",
+     "correct": true
+    },
+    {
+     "text": "The swab is thrown away",
+     "correct": false
+    },
+    {
+     "text": "The area is closed for a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Sanitiser works well even on surfaces that are still covered in fat and blood.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Crates from the live bird area must never be taken into the packing hall.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these can contaminate chicken meat? (select all that apply)",
+   "options": [
+    {
+     "text": "Burst intestines",
+     "correct": true
+    },
+    {
+     "text": "Flies and rats",
+     "correct": true
+    },
+    {
+     "text": "Clean, sanitised cutting boards",
+     "correct": false
+    },
+    {
+     "text": "Meat falling on the floor",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

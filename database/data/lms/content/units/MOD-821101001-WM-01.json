@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-WM-01",
+ "title": "Vineyard establishment",
+ "lessons": [
+  {
+   "title": "Learning on the job: your logbook and mentor",
+   "minutes": 15,
+   "html": "<h3>What this work experience is</h3> <p>In this module you work on a real farm while a new vineyard is being established. You do the tasks you learnt in class and in practical training, with a mentor or supervisor watching and helping you. You must show that you can do the work safely and correctly, many times, in real conditions.</p> <h4>Your logbook</h4> <p>You keep a logbook or workbook. In it you write:</p> <ul> <li>The date and the block where you worked.</li> <li>The task you did, for example \"marked out 12 rows\" or \"planted 600 vines of Chenin blanc on rootstock\".</li> <li>The tools and PPE you used.</li> <li>Problems you had and how they were solved.</li> <li>Your supervisor's signature.</li> </ul> <p>Write in the logbook every day or at the end of each week. Do not leave it until the end; you will forget details. If writing is difficult for you, ask your mentor to help, or use the farm's checklists.</p> <h4>Your mentor</h4> <p>Your mentor is an experienced worker or supervisor. They:</p> <ul> <li>Show you how to do the task.</li> <li>Watch you do it and correct you.</li> <li>Sign off when you can do it on your own.</li> </ul> <p>Ask questions. Tell your mentor when you are unsure. Mistakes made on hundreds of young vines are expensive.</p> <h4>Tasks you should get experience in</h4> <ul> <li>Clearing land: removing old vines, roots and stones.</li> <li>Helping with soil preparation and spreading lime or compost.</li> <li>Marking out rows and vine positions.</li> <li>Helping lay out irrigation lines.</li> <li>Receiving, storing and handling young vines from the nursery.</li> <li>Planting, firming and watering vines.</li> <li>Putting in stakes, posts and trellis wires.</li> <li>Caring for the young vineyard: watering checks, weeding, training shoots, removing suckers, gap filling.</li> </ul>"
+  },
+  {
+   "title": "Working safely and to standard on the farm",
+   "minutes": 15,
+   "html": "<h3>Each day on the job</h3> <ol> <li>Arrive on time and sign the register.</li> <li>Listen to the morning instructions and the safety talk.</li> <li>Get your PPE and tools and check them.</li> <li>Go to your block and start where you are told.</li> <li>Take breaks and drink water.</li> <li>Before you leave, clean and return tools, and report what you did.</li> </ol> <h4>Safety on an establishment site</h4> <p>A new vineyard site is busy. Tractors rip and level the land, trucks bring posts, post drivers work along the rows.</p> <ul> <li>Keep at a safe distance from all machines. Never stand behind a reversing tractor or truck.</li> <li>Never ride on implements or trailers unless there is a proper seat.</li> <li>Wear gloves and glasses when handling wire and treated poles.</li> <li>Lift posts with a partner and with bent knees.</li> <li>Watch for holes and trenches.</li> <li>Report every injury and near miss.</li> </ul> <h4>Doing the work to standard</h4> <p>The farm sets standards for each job. For example:</p> <table> <tr><th>Task</th><th>Example standard</th></tr> <tr><td>Marking</td><td>Row and vine spacing as given, rows straight</td></tr> <tr><td>Planting</td><td>Graft union above soil, roots spread, soil firm, watered same day</td></tr> <tr><td>Staking</td><td>Stake upright, on the correct side, vine tied loosely</td></tr> <tr><td>Trellis</td><td>Wires at correct heights, tight, posts straight and in line</td></tr> </table> <p>Your mentor checks your work against these standards. If something is wrong, fix it straight away and learn from it. Speed comes with practice; quality must come first.</p> <h4>Working in a team</h4> <p>One person digs, one places the vine, one fills and firms. Agree on who does what. Keep pace with each other so no step is skipped. Help team members who fall behind, and respect everyone.</p>"
+  },
+  {
+   "title": "Records, checks and showing your competence",
+   "minutes": 15,
+   "html": "<h3>Farm records for a new vineyard</h3> <p>The farm keeps records of the new block for many years. You may help fill in:</p> <ul> <li>Block number and size.</li> <li>Cultivar, clone and rootstock planted.</li> <li>Nursery name and the delivery date.</li> <li>Planting date and number of vines planted per row.</li> <li>Number of dead vines found later and replaced.</li> </ul> <p>Count carefully and write clearly. Wrong numbers can cause problems with the nursery, the bank or the buyer.</p> <h3>Checking the young vineyard</h3> <p>In the weeks after planting, walk the rows and check:</p> <ul> <li>Are vines budding? Mark vines that show no growth.</li> <li>Are drippers working at each vine?</li> <li>Are stakes and guards in place?</li> <li>Are there weeds, pests, rabbits or other damage?</li> </ul> <p>Report your findings with the block and row numbers.</p> <h3>Showing your competence</h3> <p>At the end of this work experience, an assessor or your mentor will look at:</p> <ul> <li>Your logbook with signed tasks.</li> <li>Your work in the field: they may watch you plant or build a section of trellis.</li> <li>Your answers to questions such as \"Why must the graft union stay above the soil?\" or \"What do you do if roots dry out?\"</li> <li>How you work safely and with your team.</li> </ul> <p>Be honest in your logbook. Only write what you really did.</p> <h4>Think about your learning</h4> <p>At the end of each week, ask yourself: What did I do well? What was difficult? What will I do better next time? Talk about it with your mentor.</p> <h4>Key points</h4> <ul> <li>Keep your logbook up to date and have tasks signed by your supervisor.</li> <li>Stay clear of tractors, trucks and post drivers on the site.</li> <li>Work to the farm's standards; quality before speed.</li> <li>Count and record vines planted and vines that died.</li> <li>Be honest about what you did and ask when unsure.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you write in your logbook?",
+   "options": [
+    {
+     "text": "The date, block, task done, tools and PPE, problems and a signature",
+     "correct": true
+    },
+    {
+     "text": "Nothing until the last day",
+     "correct": false
+    },
+    {
+     "text": "Only your name",
+     "correct": false
+    },
+    {
+     "text": "Only the weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does your mentor do?",
+   "options": [
+    {
+     "text": "Pays your wages",
+     "correct": false
+    },
+    {
+     "text": "Only checks the time",
+     "correct": false
+    },
+    {
+     "text": "Shows you, watches and corrects you, and signs off",
+     "correct": true
+    },
+    {
+     "text": "Does all the work for you",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is an example standard for planting?",
+   "options": [
+    {
+     "text": "Water the next week",
+     "correct": false
+    },
+    {
+     "text": "Roots folded up in a small hole",
+     "correct": false
+    },
+    {
+     "text": "Graft union above soil, roots spread, soil firm, watered the same day",
+     "correct": true
+    },
+    {
+     "text": "Vines planted anywhere in the row",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you never stand on an establishment site?",
+   "options": [
+    {
+     "text": "In the shade",
+     "correct": false
+    },
+    {
+     "text": "Next to your mentor",
+     "correct": false
+    },
+    {
+     "text": "Behind a reversing tractor or truck",
+     "correct": true
+    },
+    {
+     "text": "At the store",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must vine counts be written correctly?",
+   "options": [
+    {
+     "text": "To fill up the page",
+     "correct": false
+    },
+    {
+     "text": "Wrong numbers cause problems with the nursery, bank or buyer",
+     "correct": true
+    },
+    {
+     "text": "They do not matter",
+     "correct": false
+    },
+    {
+     "text": "Nobody reads them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is best to fill in your whole logbook on the last day.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Near misses should be reported as well as injuries.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which things does the farm record for a new block? (select all that apply)",
+   "options": [
+    {
+     "text": "Number of vines that died and were replaced",
+     "correct": true
+    },
+    {
+     "text": "The names of workers' pets",
+     "correct": false
+    },
+    {
+     "text": "Planting date",
+     "correct": true
+    },
+    {
+     "text": "Cultivar and rootstock planted",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

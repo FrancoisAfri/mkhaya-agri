@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-313909001-KM-02",
+ "title": "Animal Feed Science and Nutrition",
+ "lessons": [
+  {
+   "title": "Nutrients and how animals use them",
+   "minutes": 18,
+   "html": "<h3>The six nutrient classes</h3>\n<p>Feed formulation starts with an understanding of what animals need. All farm animals require water, energy, protein, fats, minerals and vitamins in amounts that depend on species, age, production level and environment.</p>\n<ul>\n<li><strong>Water</strong> – the most important nutrient; intake falls quickly if water is poor, hot or scarce.</li>\n<li><strong>Energy</strong> – mainly from starch (maize, sorghum), sugars (molasses), fibre (in ruminants) and fat. Expressed as metabolisable energy (ME) for poultry and pigs, and as ME or net energy systems for ruminants.</li>\n<li><strong>Protein and amino acids</strong> – monogastrics (poultry and pigs) need specific essential amino acids, especially lysine, methionine, threonine and tryptophan. Ruminants need rumen-degradable protein for microbes and bypass protein for high production.</li>\n<li><strong>Fats and oils</strong> – dense energy and essential fatty acids.</li>\n<li><strong>Minerals</strong> – macro minerals (calcium, phosphorus, sodium, magnesium) and trace minerals (zinc, copper, manganese, selenium, iodine). Excess can be toxic; for example sheep are sensitive to copper.</li>\n<li><strong>Vitamins</strong> – fat-soluble (A, D, E, K) and water-soluble B vitamins; supplied mostly by premix.</li>\n</ul>\n<h3>Monogastrics versus ruminants</h3>\n<p>Chickens and pigs have a simple stomach and digest feed mainly with their own enzymes, so they need high-quality, digestible protein and limited fibre. Cattle, sheep and goats have a rumen where microbes ferment fibre into volatile fatty acids and make microbial protein. This is why ruminants can use veld, hay and crop residues and can use non-protein nitrogen such as urea. Urea must be dosed accurately and mixed well, because overdosing or poor mixing can cause fatal urea poisoning.</p>\n<h3>Digestibility and availability</h3>\n<p>Not all of a nutrient in a raw material is available to the animal. Digestible amino acids, available phosphorus and digestible energy values give a truer picture than crude analysis. Processing such as grinding, heat treatment and pelleting can improve digestibility, while overheating can damage proteins and vitamins.</p>"
+  },
+  {
+   "title": "Raw materials, quality and anti-nutritional factors",
+   "minutes": 18,
+   "html": "<h3>Common South African raw materials</h3>\n<table>\n<tr><th>Group</th><th>Examples</th><th>Main contribution</th></tr>\n<tr><td>Cereals</td><td>Yellow and white maize, sorghum, wheat</td><td>Energy (starch)</td></tr>\n<tr><td>Oilseed meals</td><td>Soya oilcake, sunflower oilcake, cottonseed oilcake, canola</td><td>Protein</td></tr>\n<tr><td>By-products</td><td>Wheat bran, hominy chop, maize gluten feed, molasses</td><td>Energy, fibre, palatability</td></tr>\n<tr><td>Animal proteins</td><td>Fishmeal, carcass meal where permitted</td><td>High-quality protein</td></tr>\n<tr><td>Minerals</td><td>Limestone, monocalcium phosphate, salt</td><td>Calcium, phosphorus, sodium</td></tr>\n<tr><td>Synthetic amino acids</td><td>Lysine, methionine, threonine</td><td>Balancing amino acids</td></tr>\n</table>\n<h3>Quality variation</h3>\n<p>The nutrient content of raw materials varies between suppliers, seasons and batches. Use near-infrared (NIR) analysis and laboratory tests for moisture, protein, fat, fibre and ash, and update the nutrient matrix used in formulation. Formulating on outdated values leads to under- or over-supply and wasted money.</p>\n<h3>Anti-nutritional factors and contaminants</h3>\n<ul>\n<li><strong>Trypsin inhibitors</strong> in raw soya beans – destroyed by correct heat treatment; under-processed soya reduces growth.</li>\n<li><strong>Gossypol</strong> in cottonseed – limits its use in monogastric diets.</li>\n<li><strong>Non-starch polysaccharides</strong> in wheat and barley – reduce digestibility in poultry; enzymes help.</li>\n<li><strong>Mycotoxins</strong> – such as aflatoxin and fumonisin in maize from fungal growth in the field or poor storage. They reduce performance and can harm health; aflatoxin can also carry over into milk.</li>\n<li><strong>Salmonella</strong> and other pathogens – controlled by raw material selection, hygiene and heat treatment.</li>\n</ul>\n<p>Mycotoxin limits are set by regulation and by customers; the mill must test high-risk materials and reject or divert batches above the limits. Binders may reduce some effects but are not a substitute for clean raw materials.</p><p>Price and availability also drive raw material choice. In years when the local maize crop is small, maize prices rise and nutritionists may use more sorghum, wheat or by-products, as long as the animals' needs are still met.</p>"
+  },
+  {
+   "title": "Feed formulation and feeding programmes",
+   "minutes": 18,
+   "html": "<h3>Least-cost formulation</h3>\n<p>Nutritionists use least-cost formulation software. The program is given the nutrient requirements of the animal (minimums and maximums), the nutrient content and price of each raw material, and limits on how much of each ingredient can be used. It then finds the cheapest mix that meets every constraint. Because maize and soya prices change often, formulas are re-run regularly. The cheapest formula is only right if the nutrient values and constraints are correct.</p>\n<h3>Requirements change with stage of production</h3>\n<ul>\n<li>Broilers move from starter to grower to finisher feeds as protein needs fall and energy needs rise relative to protein.</li>\n<li>Laying hens need high calcium for eggshell formation.</li>\n<li>Pigs are fed creep, weaner, grower and finisher diets, plus sow lactation and gestation diets.</li>\n<li>Dairy cows need different rations for fresh, high, low and dry groups.</li>\n<li>Feedlot cattle are stepped up from roughage-rich to high-energy diets gradually to prevent acidosis.</li>\n</ul>\n<h3>Additives</h3>\n<p>Feeds may contain enzymes (phytase, xylanase), coccidiostats, ionophores, pigments, toxin binders, acidifiers and probiotics. Each additive must be registered and used at the stated inclusion and for the species on the label. Some are toxic to non-target species, for example ionophores to horses, so cross-contamination must be prevented.</p>\n<h3>From formula to feed</h3>\n<p>Nutrition only works if the mill makes the formula accurately. Weighing errors, poor mixing, segregation after mixing and overheating in the conditioner can all undo a good formula. The nutritionist, quality team and production team must work together and check finished feed against the specification.</p>\n<h4>Key points</h4>\n<ul>\n<li>Animals need water, energy, protein and amino acids, fats, minerals and vitamins.</li>\n<li>Ruminants ferment fibre in the rumen; monogastrics need digestible protein and low fibre.</li>\n<li>Raw materials vary, so test them and update formulation values.</li>\n<li>Control anti-nutritional factors, mycotoxins and pathogens.</li>\n<li>Least-cost formulation meets constraints at lowest cost, but the mill must make the formula accurately.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which nutrient is considered the most important for all animals?",
+   "options": [
+    {
+     "text": "Water",
+     "correct": true
+    },
+    {
+     "text": "Fat",
+     "correct": false
+    },
+    {
+     "text": "Vitamin A",
+     "correct": false
+    },
+    {
+     "text": "Copper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why can ruminants use urea as a nitrogen source?",
+   "options": [
+    {
+     "text": "Their own enzymes digest urea directly",
+     "correct": false
+    },
+    {
+     "text": "Urea is a source of starch",
+     "correct": false
+    },
+    {
+     "text": "Rumen microbes use it to make microbial protein",
+     "correct": true
+    },
+    {
+     "text": "Urea replaces water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What destroys trypsin inhibitors in raw soya beans?",
+   "options": [
+    {
+     "text": "Freezing",
+     "correct": false
+    },
+    {
+     "text": "Correct heat treatment",
+     "correct": true
+    },
+    {
+     "text": "Adding salt",
+     "correct": false
+    },
+    {
+     "text": "Grinding only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does least-cost formulation software do?",
+   "options": [
+    {
+     "text": "Replaces the need for laboratory analysis",
+     "correct": false
+    },
+    {
+     "text": "Finds the cheapest mix that meets all nutrient and ingredient constraints",
+     "correct": true
+    },
+    {
+     "text": "Sets the selling price of feed",
+     "correct": false
+    },
+    {
+     "text": "Chooses the most expensive raw materials",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which feed is especially high in calcium to support eggshell formation?",
+   "options": [
+    {
+     "text": "Dry cow ration",
+     "correct": false
+    },
+    {
+     "text": "Pig creep feed",
+     "correct": false
+    },
+    {
+     "text": "Layer feed",
+     "correct": true
+    },
+    {
+     "text": "Broiler finisher",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ionophores used in some cattle and poultry feeds are toxic to horses.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Raw material nutrient values never change, so formulation matrices do not need updating.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are contaminants or anti-nutritional factors to control in feed? (select all that apply)",
+   "options": [
+    {
+     "text": "Aflatoxin",
+     "correct": true
+    },
+    {
+     "text": "Lysine",
+     "correct": false
+    },
+    {
+     "text": "Gossypol",
+     "correct": true
+    },
+    {
+     "text": "Salmonella",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-06",
+ "title": "Prepare Soil, Plant/Sow, Fertilize, Irrigate, Control Crop Pests and Diseases of Crops",
+ "lessons": [
+  {
+   "title": "Preparing the soil and planting",
+   "minutes": 20,
+   "html": "<h3>Getting the seedbed right</h3><p>Crop yield is largely decided in the first weeks: a good seedbed, the right seed at the right depth and spacing, and a healthy start. As a manager you plan and check each step.</p><h4>Soil preparation</h4><ul><li><strong>Soil sampling:</strong> take samples from each land in a zig-zag pattern, at the depth the laboratory specifies, a few months before planting so lime has time to work.</li><li><strong>Lime:</strong> acid soils reduce nutrient uptake and root growth. Apply lime according to the analysis.</li><li><strong>Tillage:</strong> choose the least tillage that will give a good seedbed. In conservation agriculture, plant directly into residues with a no-till planter.</li><li><strong>Weed control before planting:</strong> control weeds that have already emerged so the crop does not compete from the start.</li><li>Never work soil that is too wet; it compacts and forms clods.</li></ul><h4>Planting or sowing</h4><ul><li>Choose a cultivar suited to your area, season length and market.</li><li>Plant when soil moisture and temperature are suitable; for summer crops this is usually after good spring or early-summer rains.</li><li>Calibrate the planter: check seed spacing in the row, row width and depth. Dig behind the planter on the first pass of every land.</li><li>Store seed cool and dry. Treated seed is poisonous: never eat it or feed it to animals, and wear gloves when handling.</li></ul><h4>Checking establishment</h4><p>After emergence, count plants in a measured length of row at several places to calculate plants per hectare. Gaps may point to poor seed, planter problems, crusting, insects or birds; record the cause and decide whether replanting is worthwhile.</p>"
+  },
+  {
+   "title": "Fertilising and irrigating",
+   "minutes": 20,
+   "html": "<h3>Feeding and watering the crop</h3><h4>Fertiliser programme</h4><p>The fertiliser recommendation should be based on the soil analysis, the yield target and the crop's needs. The main nutrients are nitrogen (N), phosphorus (P) and potassium (K), plus others such as sulphur and zinc where they are short.</p><ul><li><strong>Base dressing:</strong> applied at or before planting, often containing most of the P and K.</li><li><strong>Top-dressing:</strong> nitrogen applied during the growing season when the crop needs it most.</li><li>Calibrate the spreader so the right amount goes on evenly.</li><li>Manure and compost from the livestock enterprise add nutrients and organic matter; include them in your calculation.</li><li>Do not apply fertiliser just before heavy rain or near rivers and boreholes.</li></ul><h4>Irrigation</h4><ul><li>Irrigate according to crop water need and soil moisture, measured with probes, tensiometers or the feel method, rather than on fixed days.</li><li>Critical stages such as flowering and grain fill are the most sensitive to water stress.</li><li>Check the system: pressure, nozzle wear, blocked drippers and leaks. Uneven application wastes water and lowers yields.</li><li>Record water used per land; water use may need to be registered or licensed under the National Water Act 36 of 1998.</li></ul><p>Electrical pumps and pivots must be maintained by qualified people. Never touch an electrical panel with wet hands or open it without authorisation.</p><p>Record each fertiliser application and irrigation event per land. Comparing these records with yields shows which practices pay and where inputs can be reduced.</p><p>Check fertiliser bags for the correct product and grade before loading the spreader, and keep the delivery notes.</p>"
+  },
+  {
+   "title": "Controlling crop pests and diseases",
+   "minutes": 20,
+   "html": "<h3>Protecting the crop</h3><h4>Know what you are dealing with</h4><p>Scout every land at least weekly during the season, more often at high-risk times. Record insects (pests and beneficials), disease symptoms such as leaf spots, rusts, rots and wilting, and weed pressure. Identify the cause accurately before deciding on control; send samples to an adviser or laboratory when unsure.</p><h4>Control options</h4><ul><li><strong>Prevention:</strong> rotation, resistant cultivars, clean seed, correct planting date and destroying volunteer plants.</li><li><strong>Biological:</strong> protect natural enemies by avoiding unnecessary broad-spectrum sprays.</li><li><strong>Chemical:</strong> only registered products for that crop and pest, at label rates, with the correct pre-harvest interval and re-entry period.</li></ul><h4>Safe spraying</h4><ol><li>Read the whole label before mixing.</li><li>Wear the PPE the label requires.</li><li>Mix in a safe area away from water sources, using a measuring jug kept only for chemicals.</li><li>Calibrate the sprayer and check nozzles.</li><li>Spray when wind is light and steady and no rain is expected; watch for drift onto neighbours, homes and water.</li><li>Rinse the sprayer, triple-rinse empty containers and record the application.</li></ol><p>Never eat, drink or smoke while handling chemicals. If someone is poisoned, take them away from the source, remove contaminated clothing, rinse skin with plenty of clean water and get medical help immediately, taking the label with you.</p><h4>Key points</h4><ul><li>Base lime and fertiliser on soil analysis; take samples well before planting.</li><li>Calibrate planters, spreaders and sprayers and check the first pass.</li><li>Irrigate according to soil moisture and crop stage, not the calendar.</li><li>Identify pests and diseases accurately before choosing a control.</li><li>Follow the label for every chemical, including PPE and pre-harvest interval.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should soil samples be taken a few months before planting?",
+   "options": [
+    {
+     "text": "Because laboratories are closed in spring",
+     "correct": false
+    },
+    {
+     "text": "So lime has time to work before the crop is planted",
+     "correct": true
+    },
+    {
+     "text": "To avoid having to fertilise",
+     "correct": false
+    },
+    {
+     "text": "Because the soil is wetter then",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a top-dressing?",
+   "options": [
+    {
+     "text": "Lime spread before ploughing",
+     "correct": false
+    },
+    {
+     "text": "Nitrogen applied during the growing season",
+     "correct": true
+    },
+    {
+     "text": "A layer of mulch on the soil surface",
+     "correct": false
+    },
+    {
+     "text": "The seed treatment on maize",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which crop stages are most sensitive to water stress?",
+   "options": [
+    {
+     "text": "Just after harvest",
+     "correct": false
+    },
+    {
+     "text": "Before planting",
+     "correct": false
+    },
+    {
+     "text": "Flowering and grain fill",
+     "correct": true
+    },
+    {
+     "text": "During soil sampling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in safe spraying?",
+   "options": [
+    {
+     "text": "Read the whole label before mixing",
+     "correct": true
+    },
+    {
+     "text": "Start spraying the nearest land",
+     "correct": false
+    },
+    {
+     "text": "Mix in the river so water is close",
+     "correct": false
+    },
+    {
+     "text": "Remove your gloves for better grip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with treated seed?",
+   "options": [
+    {
+     "text": "Feed spare seed to chickens",
+     "correct": false
+    },
+    {
+     "text": "Use it for porridge",
+     "correct": false
+    },
+    {
+     "text": "Handle it with gloves and never eat it or feed it to animals",
+     "correct": true
+    },
+    {
+     "text": "Store it in the kitchen",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Irrigation should always be done on fixed days regardless of soil moisture.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Manure from the livestock enterprise should be included in the fertiliser calculation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What first aid steps are given for chemical poisoning? (select all that apply)",
+   "options": [
+    {
+     "text": "Remove the person from the source",
+     "correct": true
+    },
+    {
+     "text": "Remove contaminated clothing and rinse skin with plenty of water",
+     "correct": true
+    },
+    {
+     "text": "Give the person milk and send them back to work",
+     "correct": false
+    },
+    {
+     "text": "Get medical help and take the label along",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

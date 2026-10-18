@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-KM-01",
+ "title": "Introduction to the Animal Feed Industry",
+ "lessons": [
+  {
+   "title": "How the animal feed industry works",
+   "minutes": 15,
+   "html": "<h3>What the feed industry does</h3>\n<p>The animal feed industry turns raw materials such as maize, soya, sunflower oilcake, wheat bran, fishmeal, vitamins and minerals into balanced feeds for animals. In South Africa the biggest users of commercial feed are the poultry industry (broilers and layers), followed by dairy, beef feedlots, pigs, sheep, horses, aquaculture and pet foods. Without good feed, farmers cannot produce affordable chicken, eggs, milk, pork and beef.</p>\n<h4>The value chain</h4>\n<ol>\n<li><strong>Grain and oilseed farmers</strong> grow maize, soya beans and sunflower.</li>\n<li><strong>Grain storage and processors</strong> store grain in silos and crush oilseeds to make oilcake.</li>\n<li><strong>Ingredient suppliers</strong> supply vitamins, minerals, amino acids, additives and premixes.</li>\n<li><strong>Feed mills</strong> receive, store, grind, mix, pellet and pack feed.</li>\n<li><strong>Distributors and co-ops</strong> sell bagged feed to smaller farmers.</li>\n<li><strong>Livestock producers</strong> feed the animals and sell meat, milk and eggs.</li>\n</ol>\n<p>Some feed mills are owned by large poultry or pig companies and only make feed for their own farms (integrated mills). Others are commercial mills that sell to many farmers.</p>\n<h4>Types of feed products</h4>\n<ul>\n<li><strong>Complete feeds</strong> – meant to be the whole diet, such as broiler starter or layer mash.</li>\n<li><strong>Concentrates</strong> – mixed with farm-grown grain or roughage, such as a dairy concentrate.</li>\n<li><strong>Premixes</strong> – small amounts of vitamins, minerals and additives added to rations.</li>\n<li><strong>Licks and blocks</strong> – supplements for cattle and sheep on veld.</li>\n<li><strong>Pet foods</strong> – often extruded kibble for dogs and cats.</li>\n</ul>\n<p>Feeds come as mash (ground meal), pellets, crumbles or extruded products.</p><p>Feed mills in South Africa range from small mills in country towns that make mostly bagged feeds and licks for local farmers, to large automated plants that produce hundreds of thousands of tonnes a year for poultry and pig integrations. Whatever the size, the same basic steps apply: receive, store, grind, mix, pellet and dispatch.</p>"
+  },
+  {
+   "title": "Rules, organisations and your place in the industry",
+   "minutes": 15,
+   "html": "<h3>Laws that control feed</h3>\n<p>In South Africa farm feeds must be registered and labelled according to the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947. This law aims to make sure that feeds are safe for animals and people and that the label tells the truth about what is in the bag. Feed mills must also follow the Occupational Health and Safety Act 85 of 1993 to protect workers, and environmental rules for dust, noise and waste.</p>\n<h4>Industry organisations</h4>\n<p>The Animal Feed Manufacturers Association (AFMA) represents many commercial feed manufacturers. It promotes good manufacturing practice, feed safety and training in the industry. Many mills also follow quality and food safety systems such as ISO standards and HACCP-based feed safety programmes.</p>\n<h3>Why feed safety matters</h3>\n<p>What the animal eats ends up in the food we eat. A feed contaminated with mycotoxins, salmonella, the wrong medicine or a foreign object can kill animals, harm people and cost the mill its customers. For example, some additives used in poultry and cattle feed are poisonous to horses, so mixing them into horse feed by mistake can be fatal. This is why mills control cleaning, sequencing of batches and labelling so strictly.</p>\n<h3>Jobs in a feed mill</h3>\n<table>\n<tr><th>Role</th><th>Main work</th></tr>\n<tr><td>Intake operator</td><td>Receives and samples raw materials, moves them to storage</td></tr>\n<tr><td>Mill/mixer operator</td><td>Grinds, doses and mixes batches</td></tr>\n<tr><td>Pellet press operator</td><td>Conditions and pellets feed</td></tr>\n<tr><td>Packer and out-loader</td><td>Bags, stacks and loads feed</td></tr>\n<tr><td>Quality controller</td><td>Samples and tests materials and products</td></tr>\n<tr><td>Shift supervisor</td><td>Plans and controls the shift</td></tr>\n</table>\n<p>Every worker is part of the chain. When you follow procedures, record your work and report problems, you protect the animals, the farmers and the mill.</p>\n<h4>Key points</h4>\n<ul>\n<li>The feed industry turns grain, oilcake and additives into balanced feeds; poultry is the largest user.</li>\n<li>Products include complete feeds, concentrates, premixes, licks and pet foods.</li>\n<li>Farm feeds are controlled under Act 36 of 1947 and must be registered and correctly labelled.</li>\n<li>Feed safety protects animals and people; mistakes such as wrong additives can kill animals.</li>\n<li>Every mill worker has a role in safe, quality feed.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which livestock sector is the biggest user of commercial feed in South Africa?",
+   "options": [
+    {
+     "text": "Game farming",
+     "correct": false
+    },
+    {
+     "text": "Aquaculture",
+     "correct": false
+    },
+    {
+     "text": "Poultry",
+     "correct": true
+    },
+    {
+     "text": "Horses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law controls the registration and labelling of farm feeds?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947 (Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act)",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a premix?",
+   "options": [
+    {
+     "text": "A complete diet for broilers",
+     "correct": false
+    },
+    {
+     "text": "Whole maize grain",
+     "correct": false
+    },
+    {
+     "text": "A cattle lick block",
+     "correct": false
+    },
+    {
+     "text": "Small amounts of vitamins, minerals and additives added to rations",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are batch sequencing and cleaning controlled in feed mills?",
+   "options": [
+    {
+     "text": "To stop contamination, such as additives that are poisonous to horses getting into horse feed",
+     "correct": true
+    },
+    {
+     "text": "To save electricity",
+     "correct": false
+    },
+    {
+     "text": "To make pellets harder",
+     "correct": false
+    },
+    {
+     "text": "To reduce the number of workers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is an integrated feed mill?",
+   "options": [
+    {
+     "text": "A mill owned by a poultry or pig company that makes feed for its own farms",
+     "correct": true
+    },
+    {
+     "text": "A mill with no packing plant",
+     "correct": false
+    },
+    {
+     "text": "A mill that only stores grain",
+     "correct": false
+    },
+    {
+     "text": "A mill that only makes pet food",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feed safety only matters to animals and has no link to human food safety.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pet foods are often produced as extruded kibble.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are feed product forms? (select all that apply)",
+   "options": [
+    {
+     "text": "Crumbles",
+     "correct": true
+    },
+    {
+     "text": "Mash",
+     "correct": true
+    },
+    {
+     "text": "Silage bags of wet manure",
+     "correct": false
+    },
+    {
+     "text": "Pellets",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

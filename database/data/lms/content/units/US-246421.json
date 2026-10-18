@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246421",
+ "title": "Interpret wildlife behaviour for hunting",
+ "lessons": [
+  {
+   "title": "Identifying huntable fauna and safe interaction",
+   "minutes": 16,
+   "html": "<h3>Know your animals</h3>\n<p>A professional hunter must identify huntable species quickly and correctly, including sex and age, often at a distance and in poor light. Shooting the wrong species or a female instead of a male can be illegal and damages trust.</p>\n<h4>Common huntable indigenous species</h4>\n<table><tr><th>Group</th><th>Examples</th><th>Identification tips</th></tr>\n<tr><td>Small antelope</td><td>Common duiker, steenbok, klipspringer</td><td>Size, colour, habitat (klipspringer on rocks)</td></tr>\n<tr><td>Medium antelope</td><td>Impala, springbok, blesbok, bushbuck</td><td>Impala: black \"M\" on rump; blesbok: white blaze</td></tr>\n<tr><td>Large antelope</td><td>Kudu, eland, gemsbok, red hartebeest, wildebeest, waterbuck</td><td>Kudu bulls have spiral horns; waterbuck have a white ring on the rump</td></tr>\n<tr><td>Other</td><td>Warthog, bushpig, zebra</td><td>Warthog tusks and warts; zebra stripes</td></tr>\n<tr><td>Dangerous game</td><td>Buffalo, elephant, lion, leopard, hippo, crocodile</td><td>Only with special permits and licensed PHs</td></tr></table>\n<p>Use tracks, dung and sounds as well. Learn to tell males from females (horns, body shape, behaviour) and to estimate age from horn development and body condition.</p>\n<h4>Responding appropriately to wild animals</h4>\n<ul><li>Know the warning signs: a kudu's bark, an elephant spreading its ears, shaking its head or mock charging, a buffalo lifting its nose and staring, a lion's tail flicking and growling.</li>\n<li>Keep a safe distance and stay downwind.</li>\n<li>Never run from predators; stand tall and back away slowly.</li>\n<li>Give elephants plenty of space; never get between a mother and calf.</li>\n<li>Hippos are dangerous on land near water at night; never get between a hippo and water.</li>\n<li>Be aware of snakes; watch where you put your feet and hands.</li></ul>"
+  },
+  {
+   "title": "Wildlife ecology and population monitoring",
+   "minutes": 16,
+   "html": "<h3>How wild animals use plants</h3>\n<p>Understanding feeding behaviour tells you where to find animals and how they affect the veld.</p>\n<ul><li><strong>Grazers</strong> (zebra, wildebeest, buffalo, warthog) eat grass. Wildebeest prefer short grass; buffalo can handle tall, coarse grass.</li>\n<li><strong>Browsers</strong> (kudu, giraffe, bushbuck, duiker) eat leaves, shoots, pods and fruit of trees and shrubs.</li>\n<li><strong>Mixed feeders</strong> (impala, eland) graze in summer and browse more in dry winters.</li></ul>\n<p>Animals also use plants for shelter and shade, hiding calves in tall grass, rubbing on trees, and as sources of water from succulent plants (gemsbok in the arid west). Elephants push over trees, opening woodland. Seasonal patterns matter: in winter animals concentrate near water and green flushes after fires.</p>\n<h4>Daily and seasonal behaviour</h4>\n<p>Many antelope feed in the early morning and late afternoon and rest in shade at midday. Kudu bulls are often seen with females during the rut. Knowing these patterns helps plan the hunt and choose the best animal.</p>\n<h4>Collecting and recording population data</h4>\n<p>Hunting quotas depend on good data. Ways to collect it:</p>\n<ul><li><strong>Road strip counts</strong>: drive set routes at a set speed and record every animal seen within a set distance.</li>\n<li><strong>Waterhole counts</strong>: record animals drinking during a set period, usually in the dry season.</li>\n<li><strong>Camera traps</strong> at water or game paths.</li>\n<li><strong>Daily observation records</strong> by PHs and trackers: date, place (GPS), species, number, sex and age, and behaviour.</li>\n<li><strong>Aerial counts</strong> by helicopter, organised by management.</li></ul>\n<p>Data must be recorded accurately and consistently in a notebook, form or app, then given to management. Trends over years matter more than one count. Note movements too: where herds go in different seasons, and whether animals cross boundaries.</p>\n<h4>Key points</h4>\n<ul><li>Identify species, sex and age correctly before any shot.</li>\n<li>Read warning signs and keep safe distances; never run from predators.</li>\n<li>Grazers eat grass, browsers eat leaves and shoots, mixed feeders switch with the seasons.</li>\n<li>Animals use plants for food, shelter, hiding young and water.</li>\n<li>Collect population data with consistent counts and accurate records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which antelope has a black 'M' marking on its rump?",
+   "options": [
+    {
+     "text": "Kudu",
+     "correct": false
+    },
+    {
+     "text": "Blesbok",
+     "correct": false
+    },
+    {
+     "text": "Impala",
+     "correct": true
+    },
+    {
+     "text": "Eland",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which animal is a browser?",
+   "options": [
+    {
+     "text": "Kudu",
+     "correct": true
+    },
+    {
+     "text": "Zebra",
+     "correct": false
+    },
+    {
+     "text": "Warthog",
+     "correct": false
+    },
+    {
+     "text": "Wildebeest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a lion confronts you?",
+   "options": [
+    {
+     "text": "Stand tall and back away slowly",
+     "correct": true
+    },
+    {
+     "text": "Lie down",
+     "correct": false
+    },
+    {
+     "text": "Run away fast",
+     "correct": false
+    },
+    {
+     "text": "Climb a small bush",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign may show that an elephant is agitated?",
+   "options": [
+    {
+     "text": "Grazing quietly",
+     "correct": false
+    },
+    {
+     "text": "Walking away",
+     "correct": false
+    },
+    {
+     "text": "Lying down",
+     "correct": false
+    },
+    {
+     "text": "Spreading its ears and shaking its head",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is a road strip count done?",
+   "options": [
+    {
+     "text": "Counting carcasses",
+     "correct": false
+    },
+    {
+     "text": "Driving set routes at a set speed and recording animals within a set distance",
+     "correct": true
+    },
+    {
+     "text": "Counting tracks on any road at random",
+     "correct": false
+    },
+    {
+     "text": "Asking neighbours",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mixed feeders such as impala browse more in dry winters.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "One single game count is more important than trends over several years.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to collect wildlife population data? (select all that apply)",
+   "options": [
+    {
+     "text": "Daily observation records with GPS",
+     "correct": true
+    },
+    {
+     "text": "Waterhole counts",
+     "correct": true
+    },
+    {
+     "text": "Camera traps",
+     "correct": true
+    },
+    {
+     "text": "Guessing from memory at the end of the season",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

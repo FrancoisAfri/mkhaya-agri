@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-335904000-PM-02",
+ "title": "Identify pest/s encountered and assess the infestation impact",
+ "lessons": [
+  {
+   "title": "Identifying pests in the field",
+   "minutes": 25,
+   "html": "<h3>From evidence to identification</h3><p>In practice the officer often finds signs before the pest itself. Identification should move from evidence to confirmation: interpret the signs, find or trap specimens, and confirm the species or group to the level needed for a control decision.</p><h4>Step 1: interpret the evidence</h4><table><tr><th>Evidence</th><th>Points to</th></tr><tr><td>Droppings by size and shape</td><td>Norway rat, roof rat or mouse; cockroach specks; bird droppings</td></tr><tr><td>Exit holes in kernels</td><td>Internal grain feeders such as weevils and lesser grain borer</td></tr><tr><td>Webbing and frass in stored product</td><td>Stored product moths</td></tr><tr><td>Mud tubes, soil-packed galleries</td><td>Subterranean termites</td></tr><tr><td>Round holes and powdery frass in timber</td><td>Wood boring beetles</td></tr><tr><td>Hexagonal pellets</td><td>Drywood termites</td></tr><tr><td>Blood spots on mattress seams</td><td>Bed bugs</td></tr></table><h4>Step 2: find or capture specimens</h4><ul><li>Search harbourages with a torch at the right time; cockroaches and rodents are mostly active at night.</li><li>Sieve grain samples onto a white tray and examine with a hand lens.</li><li>Place sticky monitors or pheromone traps and return to read them.</li><li>Collect specimens in labelled vials with date, site and exact location.</li></ul><h4>Step 3: confirm identification</h4><p>Use key features: body shape, size, colour, antennae, snout, wing covers and markings. Compare with reference guides and pictorial keys. For example, distinguish the German cockroach (small, light brown, two dark stripes behind the head) from the American cockroach (large, reddish-brown). Distinguish primary grain pests, which attack whole kernels, from secondary pests that feed on broken grain and dust.</p><p>When identification is uncertain, or when it carries regulatory consequences, such as a suspected quarantine pest in export grain or a suspected European house borer in the Western Cape, submit specimens to a specialist or laboratory and handle the situation as your procedures require.</p><h4>Avoid common errors</h4><ul><li>Do not assume the species from previous visits; pest populations change.</li><li>Do not mistake beneficial insects or harmless species for pests.</li><li>Do not conclude current activity from old damage alone.</li></ul>"
+  },
+  {
+   "title": "Assessing the extent of the infestation",
+   "minutes": 20,
+   "html": "<h3>How big is the problem?</h3><p>Once the pest is identified, the officer must estimate how widespread and severe the infestation is. This determines whether action is needed, how urgent it is and what scale of intervention is required.</p><h4>Measuring extent</h4><ul><li><strong>Distribution:</strong> mark every finding on the site plan. Is the problem confined to one room, one bin or one stack, or is it spread through the site?</li><li><strong>Density:</strong> count insects per kilogram of grain sample, rodents caught or baits taken per station, cockroaches per sticky trap, or termite activity points.</li><li><strong>Life stages:</strong> the presence of eggs, larvae, nymphs and adults indicates an established, breeding population.</li><li><strong>Trend:</strong> compare with previous monitoring data. Is the population rising, stable or falling?</li></ul><h4>Activity rating</h4><p>Use a consistent scale, such as none, low, moderate and high, defined in your company procedure, so that ratings are comparable between visits and officers.</p><h4>Identifying the cause</h4><p>Record why the pest is present: spillage and poor sanitation, damp grain, broken proofing, poor stock rotation, clutter, leaks, soil contact with timber or uncontrolled refuse. Treatment without addressing the cause usually fails.</p><h4>Worked example</h4><p>At a maize silo complex, sieved samples from bin 6 show eight live maize weevils per kilogram at the top layer and two per kilogram at mid-depth, with larvae found inside dissected kernels. Bins 5 and 7 show none. The grain temperature cable in bin 6 shows a warm zone near the top. Previous monthly samples showed no insects. This describes a localised but established and rising infestation in one bin, likely linked to a moisture pocket and residual grain left in the bin before filling. The extent statement would record the bin, depths, density, life stages, trend and probable cause, which together guide whether to fumigate bin 6 and how urgently.</p>"
+  },
+  {
+   "title": "Assessing impact and reporting",
+   "minutes": 20,
+   "html": "<h3>What is the impact?</h3><p>Impact assessment considers the consequences of the infestation for the client, people and the environment.</p><table><tr><th>Impact type</th><th>Examples</th></tr><tr><td>Health</td><td>Rodent-borne disease, cockroach allergens, contaminated food</td></tr><tr><td>Product loss and quality</td><td>Grain mass loss, heating, mould, downgrading, insect fragments</td></tr><tr><td>Commercial and regulatory</td><td>Failed audits, rejected consignments, closure by environmental health, loss of export certification</td></tr><tr><td>Structural</td><td>Weakened roof timbers, damaged cables, blocked gutters</td></tr><tr><td>Reputational</td><td>Customer complaints, social media exposure</td></tr></table><h4>Assessing risk level</h4><p>Combine the likelihood of harm with its severity. A few secondary beetles in a feed store may be low risk; a single rat in a food production area, or live primary pests in grain about to be loaded for export, is high risk and urgent. Consider the sensitivity of the site and of people present.</p><h4>Reporting the assessment</h4><ol><li>State the pest identified and how identification was confirmed.</li><li>Describe the extent: locations, density, life stages and trend.</li><li>State the cause or conducive conditions.</li><li>Describe the impact and risk level.</li><li>Recommend actions with priorities: immediate, short-term and long-term, separating client actions from pest management interventions.</li></ol><p>Discuss urgent findings with the responsible manager before leaving the site, then provide the written report promptly. Keep specimens or photographs as evidence where appropriate.</p><h4>Key points</h4><ul><li>Move from evidence to specimens to confirmed identification.</li><li>Use key features and reference guides; send uncertain or regulatory specimens to a specialist.</li><li>Measure distribution, density, life stages and trend, and identify the cause.</li><li>Assess health, product, commercial, structural and reputational impacts.</li><li>Report risk level and prioritised recommendations, and escalate urgent risks immediately.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which features identify the German cockroach?",
+   "options": [
+    {
+     "text": "Large and reddish-brown",
+     "correct": false
+    },
+    {
+     "text": "Small, light brown, with two dark stripes behind the head",
+     "correct": true
+    },
+    {
+     "text": "Long snout and dark body",
+     "correct": false
+    },
+    {
+     "text": "White and soft-bodied",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Hexagonal pellets below timber point to...",
+   "options": [
+    {
+     "text": "Subterranean termites",
+     "correct": false
+    },
+    {
+     "text": "Rodents",
+     "correct": false
+    },
+    {
+     "text": "Bed bugs",
+     "correct": false
+    },
+    {
+     "text": "Drywood termites",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does finding eggs, larvae and adults together indicate?",
+   "options": [
+    {
+     "text": "An established, breeding population",
+     "correct": true
+    },
+    {
+     "text": "A population that is dying out",
+     "correct": false
+    },
+    {
+     "text": "A single visiting insect",
+     "correct": false
+    },
+    {
+     "text": "Nothing important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which situation is highest risk?",
+   "options": [
+    {
+     "text": "A few secondary beetles in a feed store",
+     "correct": false
+    },
+    {
+     "text": "Old exit holes in a garden fence",
+     "correct": false
+    },
+    {
+     "text": "Live primary pests in grain about to be loaded for export",
+     "correct": true
+    },
+    {
+     "text": "One fly in a warehouse office",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the cause of an infestation be recorded?",
+   "options": [
+    {
+     "text": "Treatment usually fails if the cause is not addressed",
+     "correct": true
+    },
+    {
+     "text": "To blame the client",
+     "correct": false
+    },
+    {
+     "text": "Because it shortens the report",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should assume the same pest is present as on the previous visit without checking.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A single rat in a food production area should be treated as an urgent, high-risk finding.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which measures describe the extent of an infestation? (select all that apply)",
+   "options": [
+    {
+     "text": "Distribution on the site plan",
+     "correct": true
+    },
+    {
+     "text": "Density such as insects per kilogram",
+     "correct": true
+    },
+    {
+     "text": "Trend compared with previous data",
+     "correct": true
+    },
+    {
+     "text": "The colour of the client's vehicle",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

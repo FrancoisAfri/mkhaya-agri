@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14590",
+ "title": "Apply community development techniques",
+ "lessons": [
+  {
+   "title": "Principles of community development",
+   "minutes": 20,
+   "html": "<h3>What community development is</h3>\n<p>Community development is a process in which people in a community work together to identify their own needs and act to improve their lives, with outside agencies supporting rather than directing. In agricultural extension and land care, this might be a village organising a grazing association, a women's group starting a seedling nursery, or farm dwellers establishing food gardens.</p>\n<h4>Core principles</h4>\n<ul><li><strong>Participation</strong> – people take part in decisions from the start, not only as labour.</li>\n<li><strong>Self-reliance and empowerment</strong> – build local capacity so the community can continue without outside help.</li>\n<li><strong>Asset-based approach</strong> – start from what the community has (skills, land, water, organisations, culture), not only from what it lacks.</li>\n<li><strong>Felt needs</strong> – work on issues the community itself sees as important.</li>\n<li><strong>Inclusion and equity</strong> – make space for women, youth, the elderly, people with disabilities and the poorest households.</li>\n<li><strong>Sustainability</strong> – environmentally, financially and institutionally.</li>\n<li><strong>Respect for local structures</strong> – traditional authorities, ward committees, churches and existing groups.</li></ul>\n<h4>Common mistakes</h4>\n<p>Outsiders arriving with a ready-made project; giving free inputs that create dependency; working only with the most vocal or connected people; ignoring land tenure questions; and leaving when funding ends without building local institutions. Many failed community gardens and abandoned irrigation schemes show these mistakes.</p>\n<h4>The facilitator's role</h4>\n<p>The community development practitioner is a facilitator, broker and capacity builder: helping people analyse their situation, linking them to resources (government programmes, NGOs, markets), training office-bearers, and stepping back as local leaders take over.</p>"
+  },
+  {
+   "title": "Participatory techniques",
+   "minutes": 20,
+   "html": "<h3>Getting to know the community</h3>\n<p>Entry matters. Introduce yourself through the proper channels (traditional council, ward councillor, existing community structures). Explain who you are, what you can and cannot offer, and avoid raising false expectations.</p>\n<h3>Participatory Rural Appraisal (PRA) tools</h3>\n<table><tr><th>Tool</th><th>What it shows</th></tr>\n<tr><td>Community resource map</td><td>Drawn by residents on the ground or paper: homes, fields, grazing, water points, eroded areas, services</td></tr>\n<tr><td>Transect walk</td><td>Walking across the area with residents, noting land use, soils, problems and opportunities</td></tr>\n<tr><td>Seasonal calendar</td><td>Rainfall, planting, harvests, labour peaks, food shortages, income and disease by month</td></tr>\n<tr><td>Historical timeline</td><td>Key events: droughts, floods, land claims, projects that worked or failed</td></tr>\n<tr><td>Venn (chapati) diagram</td><td>Organisations that matter to the community and how close or important they are</td></tr>\n<tr><td>Wealth ranking</td><td>Local criteria of wealth and poverty, to target support fairly</td></tr>\n<tr><td>Problem ranking / pairwise ranking</td><td>Which problems are most important to the community</td></tr></table>\n<h3>Using the tools well</h3>\n<ul><li>Let community members hold the pen or stick; the facilitator asks open questions.</li>\n<li>Work in separate groups (e.g. women, men, youth) where needed, then compare results.</li>\n<li>Use local language and symbols so non-literate people can take part.</li>\n<li>Cross-check information from different tools and groups (triangulation).</li>\n<li>Give the results back to the community and keep a copy with them.</li></ul>\n<h3>Other techniques</h3>\n<ul><li><strong>Community meetings and imbizo-style forums</strong> for broad decisions.</li>\n<li><strong>Focus groups</strong> for in-depth discussion.</li>\n<li><strong>Exchange visits</strong> to successful projects elsewhere.</li>\n<li><strong>Demonstration plots and farmer field schools</strong> for learning new practices.</li></ul>"
+  },
+  {
+   "title": "From analysis to action",
+   "minutes": 15,
+   "html": "<h3>Community action planning</h3>\n<ol><li>Agree on priority problems and opportunities from the PRA.</li>\n<li>Set a vision and specific objectives.</li>\n<li>Identify actions, using community assets first.</li>\n<li>Assign responsibilities and set time frames.</li>\n<li>Identify external support needed and who will approach whom.</li>\n<li>Agree on simple indicators and how progress will be reported back.</li></ol>\n<h3>Building institutions</h3>\n<p>Projects last when there is a strong local organisation: a committee, co-operative, non-profit company or association with a constitution, elected office-bearers, regular meetings, minutes and financial controls. Train office-bearers in their roles, meeting procedures and record keeping. Rotate leadership and include women and youth.</p>\n<h3>Monitoring and reflection</h3>\n<p>Use participatory monitoring: the community tracks its own indicators, for example number of households with food gardens, number of livestock dipped, metres of gully treated. Hold regular reflection meetings: what worked, what did not, what next?</p>\n<h3>Exit strategy</h3>\n<p>Plan from the start how outside support will reduce over time, and which local structures will take over.</p>\n<h4>Key points</h4>\n<ul><li>Community development is people-driven; outsiders facilitate.</li>\n<li>Start from community assets and felt needs, and include marginalised groups.</li>\n<li>Enter through proper structures and avoid raising false expectations.</li>\n<li>PRA tools such as resource maps, transect walks and seasonal calendars help people analyse their situation.</li>\n<li>Build strong local institutions and plan an exit strategy.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the asset-based approach in community development?",
+   "options": [
+    {
+     "text": "Starting from what the community lacks",
+     "correct": false
+    },
+    {
+     "text": "Starting from what the community already has",
+     "correct": true
+    },
+    {
+     "text": "Buying assets for the community",
+     "correct": false
+    },
+    {
+     "text": "Selling community assets",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which PRA tool shows rainfall, planting, labour peaks and food shortages by month?",
+   "options": [
+    {
+     "text": "Venn diagram",
+     "correct": false
+    },
+    {
+     "text": "Wealth ranking",
+     "correct": false
+    },
+    {
+     "text": "Resource map",
+     "correct": false
+    },
+    {
+     "text": "Seasonal calendar",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is triangulation in PRA?",
+   "options": [
+    {
+     "text": "Cross-checking information from different tools and groups",
+     "correct": true
+    },
+    {
+     "text": "Drawing triangles on a map",
+     "correct": false
+    },
+    {
+     "text": "Choosing three leaders",
+     "correct": false
+    },
+    {
+     "text": "A type of fence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a practitioner first enter a community?",
+   "options": [
+    {
+     "text": "Arrive with a ready-made project",
+     "correct": false
+    },
+    {
+     "text": "Only speak to the wealthiest households",
+     "correct": false
+    },
+    {
+     "text": "Through the proper channels such as the traditional council and ward councillor",
+     "correct": true
+    },
+    {
+     "text": "Without telling anyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a Venn (chapati) diagram show?",
+   "options": [
+    {
+     "text": "Soil types",
+     "correct": false
+    },
+    {
+     "text": "Organisations that matter to the community and their importance",
+     "correct": true
+    },
+    {
+     "text": "Monthly rainfall",
+     "correct": false
+    },
+    {
+     "text": "Household incomes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Giving free inputs without building local capacity can create dependency.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An exit strategy should only be planned when the funding ends.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are core principles of community development? (select all that apply)",
+   "options": [
+    {
+     "text": "Participation",
+     "correct": true
+    },
+    {
+     "text": "Inclusion and equity",
+     "correct": true
+    },
+    {
+     "text": "Outsiders decide the priorities",
+     "correct": false
+    },
+    {
+     "text": "Self-reliance and empowerment",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

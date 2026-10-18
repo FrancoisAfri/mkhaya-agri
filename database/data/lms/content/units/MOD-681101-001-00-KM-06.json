@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-06",
+ "title": "Animal Welfare and Humane Handling of Cattle",
+ "lessons": [
+  {
+   "title": "Why animal welfare matters",
+   "minutes": 15,
+   "html": "<h3>Treat animals with care</h3><p>Cattle feel pain, fear and stress. Animal welfare means making sure animals are treated kindly, from the farm until slaughter. In an abattoir this means calm handling, water, rest, and a quick, correct stun so the animal does not suffer.</p><h3>The law</h3><ul><li>The <strong>Animals Protection Act 71 of 1962</strong> makes it a crime to treat an animal cruelly, for example to beat, kick, overload, starve or cause it unnecessary suffering.</li><li>The <strong>Meat Safety Act 40 of 2000</strong> and its regulations include rules for the humane handling and slaughter of animals at abattoirs.</li></ul><h3>Welfare is good for the meat too</h3><table><tr><th>Bad handling</th><th>Result</th></tr><tr><td>Hitting, prodding, rushing</td><td>Bruises that must be cut away, meat lost</td></tr><tr><td>Long stress, no rest</td><td>Dark cutters: dark, sticky meat with short shelf life</td></tr><tr><td>Fighting in mixed groups</td><td>Injuries and bruises</td></tr><tr><td>Poor stunning</td><td>Animal suffers; dangerous for workers</td></tr></table><h3>How cattle see the world</h3><ul><li>Cattle see well to the sides but have a <strong>blind spot</strong> directly behind them. Do not stand there.</li><li>They are scared of shadows, shiny objects, loud noises, moving flags and things hanging in the race. These make them stop or turn back.</li><li>They like to follow other cattle and move from dark into lighter areas.</li><li>Each animal has a <strong>flight zone</strong>, its personal space. When you step into it, the animal moves away. Step back out of it to make it stop.</li><li>The <strong>point of balance</strong> is at the shoulder. If you stand behind the shoulder, the animal moves forward. If you stand in front of it, the animal moves backward.</li></ul>"
+  },
+  {
+   "title": "Humane handling at the abattoir",
+   "minutes": 15,
+   "html": "<h3>Offloading and lairage</h3><ul><li>Offload cattle calmly using a ramp that is not too steep and has a non-slip surface.</li><li>Check for injured, sick or down animals. Report them at once to your supervisor and the meat inspector. They must not be dragged.</li><li>Keep groups from the same source together. Do not mix bulls or strange groups if you can avoid it.</li><li>Give clean water at all times in the lairage.</li><li>Do not overcrowd pens. Give animals room to lie down and rest.</li></ul><h3>Moving cattle</h3><ul><li>Move small groups at walking pace. Cattle in a race follow each other, so do not overfill the crowding pen.</li><li>Use your body position, flight zone and point of balance, and use flags or paddles to guide.</li><li>Keep quiet. Do not shout, whistle or bang gates.</li><li>Remove things that scare cattle: hanging chains, shiny puddles, coats on rails.</li><li>Electric prodders should be used rarely, only on the hindquarters, and only when an animal refuses to move and there is space in front of it. Never on the face, eyes, anus or genitals.</li><li><strong>Never</strong> hit, kick, twist tails or poke animals with sharp objects.</li></ul><h3>Stunning and bleeding</h3><ul><li>Only one animal in the stunning box at a time.</li><li>The stunner operator must be trained, and the stunner must be well maintained.</li><li>After stunning, check that the animal is unconscious: no rhythmic breathing, no eye reflex, no attempt to lift the head. If it is not, re-stun at once.</li><li>Bleed quickly after stunning, as the abattoir's procedure says, so the animal does not regain consciousness.</li></ul><h4>Key points</h4><ul><li>The Animals Protection Act 71 of 1962 forbids cruelty to animals.</li><li>Calm handling prevents bruises and dark cutters.</li><li>Use the flight zone and point of balance to move cattle.</li><li>Give water and rest; report sick or injured animals.</li><li>Check every stun and re-stun immediately if needed.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law makes it a crime to treat animals cruelly?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is the point of balance on a cow?",
+   "options": [
+    {
+     "text": "At the shoulder",
+     "correct": true
+    },
+    {
+     "text": "At the tail",
+     "correct": false
+    },
+    {
+     "text": "At the head",
+     "correct": false
+    },
+    {
+     "text": "At the back legs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If you stand behind the point of balance, the animal will…",
+   "options": [
+    {
+     "text": "Move backward",
+     "correct": false
+    },
+    {
+     "text": "Move forward",
+     "correct": true
+    },
+    {
+     "text": "Lie down",
+     "correct": false
+    },
+    {
+     "text": "Turn to face you",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is a cow's blind spot?",
+   "options": [
+    {
+     "text": "Directly behind it",
+     "correct": true
+    },
+    {
+     "text": "Directly in front",
+     "correct": false
+    },
+    {
+     "text": "To the sides",
+     "correct": false
+    },
+    {
+     "text": "Above it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a stunned animal still shows rhythmic breathing?",
+   "options": [
+    {
+     "text": "Start bleeding anyway",
+     "correct": false
+    },
+    {
+     "text": "Re-stun it at once",
+     "correct": true
+    },
+    {
+     "text": "Wait a few minutes",
+     "correct": false
+    },
+    {
+     "text": "Release it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rough handling can cause bruises that must be cut away from the carcass.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Electric prodders may be used on the face of the animal if it refuses to move.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which things can make cattle stop or turn back in a race? (select all that apply)",
+   "options": [
+    {
+     "text": "Loud noises",
+     "correct": true
+    },
+    {
+     "text": "Shadows and shiny puddles",
+     "correct": true
+    },
+    {
+     "text": "A calm handler outside the flight zone",
+     "correct": false
+    },
+    {
+     "text": "Chains hanging in the race",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

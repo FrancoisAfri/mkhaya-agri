@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12444",
+ "title": "Measure, estimate and calculate physical quantities and explore, describe and represent geometrical relationships in 2-dimensions in different life or workplace contexts",
+ "lessons": [
+  {
+   "title": "Measuring things at work",
+   "minutes": 15,
+   "html": "<h3>Using the right unit and tool</h3><p>On a farm we measure all the time. We measure length, mass, volume, time and temperature. Good measuring helps you do the job right the first time.</p><h4>What we measure and with what</h4><table><tr><th>What</th><th>Unit</th><th>Tool</th></tr><tr><td>Length</td><td>mm, cm, m, km</td><td>Tape measure, ruler, measuring wheel</td></tr><tr><td>Mass</td><td>g, kg, ton</td><td>Scale, weighbridge</td></tr><tr><td>Volume</td><td>ml, litre, m³</td><td>Measuring jug, cylinder, flow meter</td></tr><tr><td>Time</td><td>seconds, minutes, hours</td><td>Watch, phone</td></tr><tr><td>Temperature</td><td>°C</td><td>Thermometer</td></tr></table><h4>Changing units</h4><ul><li>100 cm = 1 m</li><li>1 000 m = 1 km</li><li>1 000 g = 1 kg</li><li>1 000 kg = 1 ton</li><li>1 000 ml = 1 litre</li></ul><p>Example: a feed bag has 50 kg. Ten bags weigh 500 kg. Twenty bags weigh 1 000 kg, which is 1 ton.</p><h4>Measure carefully</h4><ul><li>Start the tape at zero and keep it straight and tight.</li><li>Put the scale on a flat floor and check it shows zero before weighing.</li><li>Read a measuring jug at eye level, on a flat surface.</li><li>Write the number and the unit, for example 25 litres, not just 25.</li></ul><h4>Estimating</h4><p>To estimate is to make a good guess. One big step is about 1 metre. A 20 litre drum full of water weighs about 20 kg. Estimate first, then measure. If the measurement is very different from your guess, check it again.</p><h4>Practice</h4><p>A drum holds 200 litres. You fill five drums. How many litres is that? 5 × 200 = 1 000 litres. A tank holds 5 000 litres. How many drums can you fill from it? 5 000 ÷ 200 = 25 drums.</p>"
+  },
+  {
+   "title": "Working out perimeter and area",
+   "minutes": 15,
+   "html": "<h3>Around the edge and the space inside</h3><h4>Perimeter</h4><p>Perimeter is the distance all the way around a shape. You need it to know how much fencing or wire to buy.</p><p>Example: a chicken run is 12 m long and 8 m wide. Perimeter = 12 + 8 + 12 + 8 = 40 m. If the fence wire costs R15 per metre, 40 m costs 40 × R15 = R600.</p><h4>Area</h4><p>Area is the space inside a shape. We measure area in square metres (m²) or hectares (ha). You need area to know how much seed, fertiliser or spray to use.</p><ul><li><strong>Rectangle or square</strong>: length × width. The chicken run is 12 × 8 = 96 m².</li><li><strong>Triangle</strong>: half × base × height. A triangle with a base of 10 m and a height of 6 m is ½ × 10 × 6 = 30 m².</li><li><strong>Circle</strong>: 3,14 × radius × radius. The radius is half of the width across the circle.</li></ul><h4>Hectares</h4><p>1 hectare = 10 000 m². That is a square 100 m long and 100 m wide. A field 200 m by 100 m is 20 000 m², which is 2 ha.</p><h4>Using area at work</h4><p>If the manager says plant 25 kg of seed per hectare and the field is 2 ha, you need 2 × 25 = 50 kg of seed. Always ask what the rate is and check your answer with your supervisor before you start.</p><h4>Practice</h4><p>A kraal is 10 m by 10 m. Perimeter = 40 m. Area = 100 m².</p>"
+  },
+  {
+   "title": "Shapes, plans and maps",
+   "minutes": 15,
+   "html": "<h3>Seeing and drawing shapes</h3><h4>Common 2-D shapes</h4><ul><li><strong>Square</strong>: 4 equal sides and 4 right angles (90°).</li><li><strong>Rectangle</strong>: opposite sides equal and 4 right angles.</li><li><strong>Triangle</strong>: 3 sides.</li><li><strong>Circle</strong>: round, every point the same distance from the centre. A centre pivot waters a circle.</li></ul><p>Look around the farm: the shed floor is a rectangle, the gable end of a roof is a triangle, a round water tank looks like a circle from above.</p><h4>Right angles</h4><p>A right angle is a square corner. Shed corners and kraal corners should be right angles. Builders use the 3-4-5 rule: mark 3 m on one side and 4 m on the other. If the distance between the marks is 5 m, the corner is square.</p><h4>Plans and maps</h4><p>A farm map is a drawing of the farm seen from above. It shows camps, lands, roads, dams and buildings. A map uses a <strong>scale</strong>. If the scale says 1 cm = 100 m, then a road 5 cm long on the map is 500 m long on the ground.</p><h4>Directions</h4><p>Maps show north. Learn to describe a place using the map: the borehole is north of the kraal, the dip tank is next to the main road. This helps when you send a co-worker to a camp or report a broken fence.</p><h4>Key points</h4><ul><li>Always write the unit with your number, for example 50 kg or 20 litres.</li><li>Perimeter is the distance around a shape; it tells you how much fence you need.</li><li>Area of a rectangle is length × width; 1 ha = 10 000 m².</li><li>The 3-4-5 rule checks for a square corner.</li><li>A map scale changes map distance into real distance.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How many grams are in 1 kg?",
+   "options": [
+    {
+     "text": "10",
+     "correct": false
+    },
+    {
+     "text": "100",
+     "correct": false
+    },
+    {
+     "text": "1 000",
+     "correct": true
+    },
+    {
+     "text": "10 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A chicken run is 12 m long and 8 m wide. What is its perimeter?",
+   "options": [
+    {
+     "text": "40 m",
+     "correct": true
+    },
+    {
+     "text": "20 m",
+     "correct": false
+    },
+    {
+     "text": "96 m",
+     "correct": false
+    },
+    {
+     "text": "48 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the area of a rectangle 12 m long and 8 m wide?",
+   "options": [
+    {
+     "text": "20 m²",
+     "correct": false
+    },
+    {
+     "text": "96 m²",
+     "correct": true
+    },
+    {
+     "text": "40 m²",
+     "correct": false
+    },
+    {
+     "text": "24 m²",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A field is 2 ha and the seed rate is 25 kg per hectare. How much seed do you need?",
+   "options": [
+    {
+     "text": "25 kg",
+     "correct": false
+    },
+    {
+     "text": "27 kg",
+     "correct": false
+    },
+    {
+     "text": "12,5 kg",
+     "correct": false
+    },
+    {
+     "text": "50 kg",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On a map with the scale 1 cm = 100 m, a road is 5 cm long. How long is it on the ground?",
+   "options": [
+    {
+     "text": "50 m",
+     "correct": false
+    },
+    {
+     "text": "500 m",
+     "correct": true
+    },
+    {
+     "text": "5 000 m",
+     "correct": false
+    },
+    {
+     "text": "105 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Before weighing, you should check that the scale shows zero.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Perimeter tells you how much seed to plant inside a field.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tools measure volume? (select all that apply)",
+   "options": [
+    {
+     "text": "Measuring jug",
+     "correct": true
+    },
+    {
+     "text": "Flow meter",
+     "correct": true
+    },
+    {
+     "text": "Tape measure",
+     "correct": false
+    },
+    {
+     "text": "Measuring cylinder",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

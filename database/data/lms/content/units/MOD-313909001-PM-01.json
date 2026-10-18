@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-01",
+ "title": "Conduct intake and reclaim operations in a feed mill",
+ "lessons": [
+  {
+   "title": "Doing a raw material intake",
+   "minutes": 15,
+   "html": "<h3>Getting ready</h3>\n<p>Before the first truck arrives, prepare your area:</p>\n<ol>\n<li>Put on PPE: safety boots, overall, reflective vest, dust mask and hearing protection.</li>\n<li>Check the intake schedule: which suppliers, which products and how many loads.</li>\n<li>Check which silo or bin each product goes to and how much space is in each.</li>\n<li>Check the intake pit grid, magnets and scalper are clean and undamaged.</li>\n<li>Check the conveyors and elevator are clear and that no lock-out tags are on the line.</li>\n<li>Make sure the sampling probe, sample bags and labels are ready.</li>\n</ol>\n<h3>Receiving a truck</h3>\n<p>Example: a truck arrives with 34 tonnes of yellow maize.</p>\n<ol>\n<li>Check the delivery note against the order: product, supplier, order number, registration.</li>\n<li>Send the truck to the weighbridge to weigh in.</li>\n<li>Take probe samples from different places in the load, as your sampling plan says. Never climb on a load without fall protection.</li>\n<li>Label the sample with truck registration, date, time and product, and take it to the laboratory.</li>\n<li>Wait for the result. The laboratory checks moisture, foreign matter, broken kernels, insects, smell and mycotoxins.</li>\n<li>If accepted, direct the truck to the correct pit. If rejected, keep the truck off the pit and tell the supervisor.</li>\n</ol>\n<h3>Offloading</h3>\n<ol>\n<li>Select the route on the panel or set the slide gates to the correct silo.</li>\n<li>Start the conveyors from the silo end back to the pit.</li>\n<li>Signal the driver to tip or open the hopper. Stay clear of the truck and the tipping area.</li>\n<li>Watch the flow, the elevator load and the silo level. Stop the intake if a conveyor chokes or an alarm sounds.</li>\n<li>When the pit is empty, let the conveyors run empty before stopping them in order from the pit forward.</li>\n<li>Send the truck to weigh out and record the net mass, silo number and sample results.</li>\n</ol>"
+  },
+  {
+   "title": "Reclaiming and keeping records",
+   "minutes": 15,
+   "html": "<h3>Doing a reclaim</h3>\n<p>The mill needs maize in the mill feed bin. You must reclaim it from silo 3.</p>\n<ol>\n<li>Check the production plan or instruction from your supervisor.</li>\n<li>Check the destination bin level and that the bin is the correct one for maize.</li>\n<li>Check silo 3 holds the right material and that its stock record is correct.</li>\n<li>Select the route on the panel. Read it back to yourself: from silo 3, through which conveyors and elevator, to which bin.</li>\n<li>Start the line from the destination end backwards, then open the silo discharge gate.</li>\n<li>Watch the bin high-level indicator and stop before the bin overfills.</li>\n<li>Close the silo gate, let the line run empty and stop it.</li>\n<li>Record the tonnes reclaimed and update the silo stock record.</li>\n</ol>\n<h3>Handling problems</h3>\n<table>\n<tr><th>Problem</th><th>What to do</th></tr>\n<tr><td>Conveyor choke</td><td>Stop the line, lock out, tag and test before clearing</td></tr>\n<tr><td>Hot bearing or burning smell</td><td>Stop the line and report immediately (fire and dust explosion risk)</td></tr>\n<tr><td>Material not flowing from silo</td><td>Report to supervisor; never enter or climb into the silo</td></tr>\n<tr><td>Wrong material in bin</td><td>Stop, tell supervisor, hold the bin until quality decides</td></tr>\n</table>\n<h3>Housekeeping</h3>\n<p>Sweep spillage around pits, conveyors and elevators every shift. Dust on beams and ledges is fuel for a dust explosion. Return clean spillage to the right place as instructed; dirty spillage goes to waste.</p>\n<h3>Records</h3>\n<p>Accurate records let the mill trace every batch of feed back to the trucks of raw material. Fill in the intake register, silo stock cards and shift log neatly and at the time of the work.</p>\n<h4>Key points</h4>\n<ul>\n<li>Prepare the area, PPE and route before intake starts.</li>\n<li>Check, weigh, sample and wait for laboratory acceptance before offloading.</li>\n<li>Start conveyors from the destination end and stop them after they run empty.</li>\n<li>Lock out before clearing chokes and never enter a silo to free material.</li>\n<li>Keep intake registers and silo stock records accurate.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When may a truck be sent to the intake pit?",
+   "options": [
+    {
+     "text": "After the sample is accepted by the laboratory",
+     "correct": true
+    },
+    {
+     "text": "Before it is weighed",
+     "correct": false
+    },
+    {
+     "text": "Whenever the driver wants",
+     "correct": false
+    },
+    {
+     "text": "As soon as it arrives",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which way should conveyors be started for intake?",
+   "options": [
+    {
+     "text": "Only the elevator needs starting",
+     "correct": false
+    },
+    {
+     "text": "In any order",
+     "correct": false
+    },
+    {
+     "text": "From the silo (destination) end back to the pit",
+     "correct": true
+    },
+    {
+     "text": "From the pit forward",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You smell burning near an elevator bearing. What should you do?",
+   "options": [
+    {
+     "text": "Increase the speed",
+     "correct": false
+    },
+    {
+     "text": "Carry on and report at the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Spray water on the dust",
+     "correct": false
+    },
+    {
+     "text": "Stop the line and report immediately",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Material is not flowing out of a silo. What should you do?",
+   "options": [
+    {
+     "text": "Climb into the silo to loosen it",
+     "correct": false
+    },
+    {
+     "text": "Open all the gates",
+     "correct": false
+    },
+    {
+     "text": "Report to the supervisor and never enter the silo",
+     "correct": true
+    },
+    {
+     "text": "Hit the silo with a hammer from inside",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are intake records important?",
+   "options": [
+    {
+     "text": "They allow feed batches to be traced back to raw material trucks",
+     "correct": true
+    },
+    {
+     "text": "They are only for the truck driver",
+     "correct": false
+    },
+    {
+     "text": "They replace laboratory tests",
+     "correct": false
+    },
+    {
+     "text": "They are not important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should let the conveyors run empty before stopping them after intake.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dust on beams and ledges is harmless.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be checked before reclaiming to a bin? (select all that apply)",
+   "options": [
+    {
+     "text": "The driver’s cellphone number",
+     "correct": false
+    },
+    {
+     "text": "That the bin is the correct one for the material",
+     "correct": true
+    },
+    {
+     "text": "The destination bin level",
+     "correct": true
+    },
+    {
+     "text": "That the source silo holds the right material",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

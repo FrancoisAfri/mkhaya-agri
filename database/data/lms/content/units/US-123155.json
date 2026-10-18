@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123155",
+ "title": "Display wool and mohair samples for pre auction evaluation",
+ "lessons": [
+  {
+   "title": "Why samples are displayed",
+   "minutes": 15,
+   "html": "<h3>The buyer's first look</h3><p>Before an auction, buyers come to the show floor to look at samples of every lot on sale. They handle the fibre, look at its colour, length, style and cleanliness, and read the test results. Then they decide which lots they want and how much to bid. The display sample is often the only part of the lot the buyer touches, so it must be correct and well presented.</p><h4>What a display sample is</h4><p>Display samples are usually made from the grab samples taken from the bales in the lot. They show the buyer what the whole lot looks like. Each sample is shown with the lot's details.</p><h4>Information shown with each sample</h4><ul><li>Lot number and sale number.</li><li>Number of bales and mass.</li><li>Description of the fibre (type or class).</li><li>Test results from the laboratory, such as yield and micron.</li><li>Producer's mark or brand, if the broker shows it.</li></ul><h4>The golden rule</h4><p>The sample and its card must belong to the same lot. A mix-up can lead to a buyer paying for fibre that is not what they saw, and to claims against the broker and the farmer.</p><h4>Honesty</h4><p>Never pick out only the best fibre for the display, or remove faults to make it look better. The display must show the lot as it really is.</p>"
+  },
+  {
+   "title": "Setting up the display",
+   "minutes": 15,
+   "html": "<h3>Preparing the show floor</h3><h4>Before the samples arrive</h4><ul><li>Clean the display tables or boxes. Remove dust, old labels and fibre from the last sale.</li><li>Check the lighting is good, because buyers judge colour by eye.</li><li>Get the sale catalogue or display list for the order of lots.</li></ul><h4>Laying out samples</h4><ol><li>Lay out samples in catalogue order, lot by lot.</li><li>Check the label on each sample bag against the catalogue before opening it.</li><li>Place the sample in its box or tray carefully. Do not pull staples apart.</li><li>Put the lot card next to or on the sample.</li><li>Check again that card and sample match.</li><li>Arrange samples neatly so buyers can see and handle them easily.</li></ol><h4>Keep it clean</h4><ul><li>No food, drinks or smoking on the show floor.</li><li>Keep plastic bags and string away from the samples.</li><li>Wash your hands before handling samples.</li></ul><h4>Checking the test results</h4><p>Each lot card shows test results from the laboratory, such as yield and micron. Before the show floor opens, compare the results on each card with the test list from the office. If a card is missing results, or the numbers do not match the list, tell the supervisor at once so it can be corrected before buyers arrive. Buyers often bid on the test results as much as on what they see, so a wrong number on a card can cause a big claim later.</p><h4>Presenting the fibre well</h4><p>Handle samples gently. Open the staples a little so the buyer can see the length, crimp or lustre, but do not tease the fibre apart or mix samples. Keep the boxes in straight rows with the lot numbers easy to read from the walkway. A neat, clean display helps buyers work quickly and shows that the store takes care of the farmers' fibre.</p>"
+  },
+  {
+   "title": "During and after the display",
+   "minutes": 15,
+   "html": "<h3>Looking after the samples</h3><h4>During viewing</h4><ul><li>Buyers will handle samples. After they move on, put the fibre back neatly in its box.</li><li>Watch that samples are not moved to the wrong box.</li><li>Answer buyers' questions politely, or call the supervisor if you do not know.</li><li>Do not give your own opinion about prices.</li></ul><h4>Late changes</h4><p>Sometimes a lot is withdrawn from the sale or a test result changes. The supervisor will tell you. Remove or update the sample and card at once.</p><h4>After the auction</h4><ul><li>Pack samples back into their labelled bags, or handle them as the procedure says (some are returned, kept for a time or sold).</li><li>Clear and clean the tables.</li><li>Return the catalogue and any lists to the office.</li></ul><h4>Records</h4><p>Note which lots were displayed, any withdrawn lots and any problems found, such as a missing sample.</p><h4>Key points</h4><ul><li>Buyers judge lots from the display sample, so it must be correct and show the lot as it is.</li><li>Sample and lot card must always match; check twice.</li><li>Lay out samples in catalogue order on clean tables with good light.</li><li>No food, drink, smoking or plastic on the show floor.</li><li>Update or remove samples at once for withdrawn or changed lots.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are samples displayed before an auction?",
+   "options": [
+    {
+     "text": "To weigh the bales",
+     "correct": false
+    },
+    {
+     "text": "So buyers can see and handle the fibre before they bid",
+     "correct": true
+    },
+    {
+     "text": "For the farmer to take home",
+     "correct": false
+    },
+    {
+     "text": "To decorate the store",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Display samples are usually made from which samples?",
+   "options": [
+    {
+     "text": "Samples from another lot",
+     "correct": false
+    },
+    {
+     "text": "Grab samples",
+     "correct": true
+    },
+    {
+     "text": "Core samples",
+     "correct": false
+    },
+    {
+     "text": "Fleece pieces from the floor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In what order are samples laid out?",
+   "options": [
+    {
+     "text": "Biggest first",
+     "correct": false
+    },
+    {
+     "text": "By colour",
+     "correct": false
+    },
+    {
+     "text": "In any order",
+     "correct": false
+    },
+    {
+     "text": "In catalogue order, lot by lot",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is good lighting important on the show floor?",
+   "options": [
+    {
+     "text": "It keeps rats away",
+     "correct": false
+    },
+    {
+     "text": "It saves electricity",
+     "correct": false
+    },
+    {
+     "text": "It dries the fibre",
+     "correct": false
+    },
+    {
+     "text": "Buyers judge colour by eye",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A lot is withdrawn from the sale. What do you do?",
+   "options": [
+    {
+     "text": "Leave the sample on display",
+     "correct": false
+    },
+    {
+     "text": "Give it to a buyer",
+     "correct": false
+    },
+    {
+     "text": "Remove or update the sample and card at once",
+     "correct": true
+    },
+    {
+     "text": "Move it to another lot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The sample and its lot card must always belong to the same lot.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to show only the best fibre so the lot sells for more.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which rules apply on the show floor? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep plastic away from samples",
+     "correct": true
+    },
+    {
+     "text": "Wash hands before handling samples",
+     "correct": true
+    },
+    {
+     "text": "No food or drinks",
+     "correct": true
+    },
+    {
+     "text": "Smoking is allowed near the tables",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

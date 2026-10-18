@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115841",
+ "title": "Pack and stack made tea",
+ "lessons": [
+  {
+   "title": "Packing made tea",
+   "minutes": 15,
+   "html": "<h3>What made tea is</h3><p>Made tea is the finished tea after sorting. It is dry and ready to sell. It must be packed so it stays dry, clean and full of flavour until it reaches the buyer.</p><h4>Packaging</h4><p>Tea is usually packed in multi-wall paper sacks with a foil or plastic lining, or in lined bags. The lining keeps out moisture and smells. Tea picks up smells easily, so packaging must be clean and stored away from fuel, chemicals and fertiliser.</p><h4>Getting ready</h4><ul><li>Check that the packing area is clean and dry.</li><li>Check the scale with the test weight before you start.</li><li>Find out from your supervisor which grade you are packing and the net mass for each sack.</li><li>Check the sacks for holes, tears and dampness. Do not use damaged sacks.</li><li>Wear a clean overall, hair cover and dust mask.</li></ul><h4>Packing steps</h4><ol><li>Place the empty sack on the scale and set it to zero (tare), or note the sack mass.</li><li>Fill the sack with tea from the correct grade bin only.</li><li>Many factories settle the tea in the sack using a shaker or by gentle tapping, so the sack holds the right amount and keeps its shape.</li><li>Check the mass. Add or remove tea until the mass is correct. Every sack of the same grade should have the same net mass.</li><li>Close the lining and the sack as you were shown: fold, seal or stitch.</li><li>Mark the sack: estate name, grade, invoice or lot number, sack number, gross and net mass, and date. Use the stencil or printed label your factory uses.</li></ol><h4>Checking your work</h4><p>Your supervisor may check-weigh some sacks again. Sacks that are underweight cheat the buyer. Sacks that are overweight give away tea for free. Both cost the estate money and its good name.</p><p>Never mix grades in one sack. Never pack tea from the floor.</p>"
+  },
+  {
+   "title": "Stacking and storing made tea",
+   "minutes": 15,
+   "html": "<h3>Stacking sacks safely</h3><p>Packed sacks are stacked in the store until they are sent to the buyer or auction. Good stacking keeps tea safe and people safe.</p><h4>Rules for stacking</h4><ul><li>Stack on clean wooden pallets, never on the bare floor. Floors can be damp.</li><li>Keep stacks away from walls so air can move and you can check for pests and damp.</li><li>Keep one grade and one lot together in a stack, with the markings facing outwards so they can be read.</li><li>Stack in a stable pattern, crossing the sacks on each layer, so the stack does not lean or fall.</li><li>Do not stack higher than the height your supervisor sets.</li><li>Leave walkways clear.</li></ul><h4>Lifting and moving</h4><ul><li>Sacks are heavy. Bend your knees, keep your back straight and keep the sack close to your body.</li><li>Lift with a partner if needed. Do not twist while carrying.</li><li>Use a hand trolley or pallet jack when you can.</li><li>Only trained and licensed people may drive a forklift. Stay clear of moving forklifts.</li></ul><h4>Keeping the store right</h4><table><tr><th>Do</th><th>Do not</th></tr><tr><td>Keep the store dry and closed</td><td>Store tea next to diesel, paraffin, chemicals or fertiliser</td></tr><tr><td>Check for leaks, rats and insects</td><td>Leave doors open in the rain</td></tr><tr><td>Sweep the floor often</td><td>Smoke or eat in the store</td></tr><tr><td>Report damaged sacks</td><td>Walk on or sit on sacks</td></tr></table><h4>Records</h4><p>Write each stack in the store record: grade, lot number, number of sacks, total mass and place in the store. When sacks leave, write it down too. The numbers in the book must match what is in the store.</p><h4>Key points</h4><ul><li>Use clean, undamaged lined sacks and check the scale first.</li><li>Fill to the correct net mass and never mix grades.</li><li>Mark every sack clearly with grade, lot, number and mass.</li><li>Stack on pallets, away from walls, in a stable crossed pattern.</li><li>Keep tea away from smells and damp; lift safely.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must tea sacks be stored away from diesel and fertiliser?",
+   "options": [
+    {
+     "text": "They are heavy",
+     "correct": false
+    },
+    {
+     "text": "Tea picks up smells easily",
+     "correct": true
+    },
+    {
+     "text": "Tea is a fuel",
+     "correct": false
+    },
+    {
+     "text": "It makes the sacks lighter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do you do to the scale before weighing a sack?",
+   "options": [
+    {
+     "text": "Check it with the test weight and tare the empty sack",
+     "correct": true
+    },
+    {
+     "text": "Put two sacks on it",
+     "correct": false
+    },
+    {
+     "text": "Clean it with water",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is wrong with packing sacks that are overweight?",
+   "options": [
+    {
+     "text": "Nothing; buyers like it",
+     "correct": false
+    },
+    {
+     "text": "The tea goes mouldy",
+     "correct": false
+    },
+    {
+     "text": "The sack cannot close",
+     "correct": false
+    },
+    {
+     "text": "The estate gives tea away for free",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should sacks of made tea be stacked?",
+   "options": [
+    {
+     "text": "On the bare floor",
+     "correct": false
+    },
+    {
+     "text": "Against the wall",
+     "correct": false
+    },
+    {
+     "text": "On clean wooden pallets, away from walls",
+     "correct": true
+    },
+    {
+     "text": "Outside in the sun",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may drive a forklift in the tea store?",
+   "options": [
+    {
+     "text": "Anyone who is strong",
+     "correct": false
+    },
+    {
+     "text": "Only trained and licensed people",
+     "correct": true
+    },
+    {
+     "text": "Any visitor",
+     "correct": false
+    },
+    {
+     "text": "The tea buyer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may pack two different grades in one sack if it is not full.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stacks should be built in a crossed pattern so they do not lean or fall.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must be marked on each sack? (select all that apply)",
+   "options": [
+    {
+     "text": "Grade",
+     "correct": true
+    },
+    {
+     "text": "Lot or invoice number",
+     "correct": true
+    },
+    {
+     "text": "Worker's home address",
+     "correct": false
+    },
+    {
+     "text": "Net mass",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

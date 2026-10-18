@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-PM-03",
+ "title": "Harvest grapes and conduct post-harvesting tasks whilst complying with health, hygiene, quality and safety",
+ "lessons": [
+  {
+   "title": "Getting ready for harvest",
+   "minutes": 15,
+   "html": "<h3>When are the grapes ready?</h3> <p>The farmer or winemaker decides when to pick. They check:</p> <ul> <li><strong>Sugar</strong>: measured with a refractometer. In South Africa sugar is usually given in degrees Balling (°B).</li> <li><strong>Acid</strong> and <strong>taste</strong>: ripe grapes taste sweet and full.</li> <li><strong>Colour</strong>: red grapes are evenly dark; seeds turn brown.</li> <li>For table grapes: size, colour and firmness for the market.</li> </ul> <p>You may help take samples: pick berries from different vines and different sides of the row, as shown, and put them in a marked bag.</p> <h4>Preparing for picking</h4> <ul> <li>Clean harvest crates (lug boxes) or bins before use. Dirty crates spoil grapes.</li> <li>Sharpen and clean harvest secateurs or picking scissors.</li> <li>Make sure toilets, hand-wash water, soap and drinking water are near the picking block.</li> <li>Get PPE: hat, gloves if given, closed shoes.</li> </ul> <h4>Health and hygiene rules</h4> <p>Grapes are food. Dirty hands and sick workers can make people ill.</p> <ul> <li>Wash your hands with soap before starting, after breaks and after the toilet.</li> <li>Tell your supervisor if you have a running stomach, vomiting, a fever or an open wound. Cover small cuts with a plaster and a glove.</li> <li>No eating, smoking or spitting in the rows while picking.</li> <li>No jewellery that can fall into crates, if this is the farm rule.</li> <li>Never put crates directly on the soil if the farm rule says to keep them off the ground.</li> </ul> <h4>Safety</h4> <ul> <li>Picking secateurs are very sharp. Hold the bunch with one hand and cut with the other, keeping fingers away from the blades.</li> <li>Drink water often; harvest is in the heat of summer.</li> <li>Watch out for tractors and trailers moving between rows.</li> <li>Look out for bees and wasps on ripe grapes.</li> </ul>"
+  },
+  {
+   "title": "Picking grapes with quality",
+   "minutes": 15,
+   "html": "<h3>How to pick</h3> <ol> <li>Hold the bunch gently by the stem, not by squeezing the berries.</li> <li>Cut the stem close to the cane with your secateurs.</li> <li>Look at the bunch. Remove rotten, mouldy, sunburnt or green berries if you are told to.</li> <li>Place the bunch in the crate. Do not throw it. Do not press bunches down.</li> <li>Do not fill the crate above the line or rim. Overfull crates crush the grapes when stacked.</li> <li>Pick every good bunch on the vine, on both sides. Look under the leaves.</li> </ol> <h4>Keep the crop clean</h4> <p>Anything that is not grapes is called MOG, \"material other than grapes\". Keep it out of the crates:</p> <ul> <li>Leaves and canes.</li> <li>Stones and soil.</li> <li>Snails, insects and lizards.</li> <li>Plastic, gloves, ties and rubbish.</li> </ul> <h4>Table grapes need extra care</h4> <ul> <li>Touch the bunch as little as possible, by the stem only, to keep the natural bloom (the white dusty layer) on the berries.</li> <li>Pick only bunches that the supervisor's colour or size guide allows.</li> <li>Put bunches in a single layer in the picking tray.</li> <li>Take crates to the shade quickly; heat damages grapes.</li> </ul> <h4>Moving the crop</h4> <ul> <li>Carry full crates close to your body, with a straight back and bent knees.</li> <li>Do not lift too much at once. Ask for help with heavy bins.</li> <li>Stack crates neatly on the trailer or bin.</li> <li>Grapes for wine go to the cellar quickly so they stay fresh.</li> </ul> <p>Your crates may be counted or weighed for your pay. They may also be checked for quality. Rotten fruit or MOG can mean the load is rejected, so pick carefully.</p>"
+  },
+  {
+   "title": "After the harvest",
+   "minutes": 15,
+   "html": "<h3>Cleaning up</h3> <p>The work is not done when the last bunch is cut. Post-harvest tasks keep the next harvest clean and healthy.</p> <ul> <li>Wash crates and bins with clean water and the cleaner given. Stack them to dry, off the ground.</li> <li>Clean and oil secateurs and return them to the store.</li> <li>Pick up rubbish, ties, gloves and broken crates from the rows.</li> <li>Clean the toilets and hand-wash stations as the farm requires.</li> <li>Report any damage: broken wires, pipes cut by tractors, damaged vines.</li> </ul> <h3>Caring for the vines after harvest</h3> <p>After harvest the vine still has leaves. They make food that the vine stores in its roots and trunk for next spring. So vines must stay healthy until the leaves fall.</p> <ul> <li>The farm usually gives a <strong>post-harvest irrigation</strong>. Check drippers work.</li> <li>Fertiliser may be applied. Spread it only as instructed.</li> <li>Pest or disease sprays may still be applied; obey the spray signs.</li> <li>Cover crops are sown between the rows before winter.</li> </ul> <h3>Records</h3> <p>Farms keep records for food safety and for the buyer. These can include:</p> <ul> <li>Which block was picked, on what date, by which team.</li> <li>How many crates or tons were picked.</li> <li>Quality problems found.</li> <li>Cleaning of crates and toilets.</li> </ul> <p>Give correct information when you are asked. Buyers, cellars and export markets check these records.</p> <h4>Key points</h4> <ul> <li>Wash hands with soap and report illness or open wounds before picking.</li> <li>Hold bunches by the stem and keep fingers away from the blades.</li> <li>Do not overfill crates; keep leaves, stones and rubbish out.</li> <li>Clean crates, tools and the rows after harvest.</li> <li>Vines still need water and care after harvest.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What tool measures the sugar in grapes?",
+   "options": [
+    {
+     "text": "A refractometer",
+     "correct": true
+    },
+    {
+     "text": "A thermometer",
+     "correct": false
+    },
+    {
+     "text": "A rain gauge",
+     "correct": false
+    },
+    {
+     "text": "A tape measure",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is MOG?",
+   "options": [
+    {
+     "text": "A spray",
+     "correct": false
+    },
+    {
+     "text": "A type of grape",
+     "correct": false
+    },
+    {
+     "text": "A harvest machine",
+     "correct": false
+    },
+    {
+     "text": "Material other than grapes, such as leaves and stones",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should crates not be filled above the rim?",
+   "options": [
+    {
+     "text": "Grapes get crushed when crates are stacked",
+     "correct": true
+    },
+    {
+     "text": "Birds eat the top grapes",
+     "correct": false
+    },
+    {
+     "text": "It makes them easier to carry",
+     "correct": false
+    },
+    {
+     "text": "The farm runs out of crates",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should table grape bunches be handled?",
+   "options": [
+    {
+     "text": "Squeezed firmly",
+     "correct": false
+    },
+    {
+     "text": "Touched as little as possible, by the stem",
+     "correct": true
+    },
+    {
+     "text": "Thrown into the crate",
+     "correct": false
+    },
+    {
+     "text": "Washed in the dam",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do vines need water and care after harvest?",
+   "options": [
+    {
+     "text": "They make a second harvest",
+     "correct": false
+    },
+    {
+     "text": "To make the leaves green forever",
+     "correct": false
+    },
+    {
+     "text": "They do not need care",
+     "correct": false
+    },
+    {
+     "text": "Leaves still make food that is stored for next spring",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A worker with a running stomach should tell the supervisor before picking.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Harvest crates can be used again without cleaning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are post-harvest tasks? (select all that apply)",
+   "options": [
+    {
+     "text": "Washing crates and bins",
+     "correct": true
+    },
+    {
+     "text": "Stopping all irrigation for the year",
+     "correct": false
+    },
+    {
+     "text": "Cleaning and oiling secateurs",
+     "correct": true
+    },
+    {
+     "text": "Picking up rubbish from the rows",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119459",
+ "title": "Write/present/sign for a wide range of contexts",
+ "lessons": [
+  {
+   "title": "Planning and writing for different purposes",
+   "minutes": 16,
+   "html": "<h3>Writing at work</h3>\n<p>At NQF 4 you are expected to write and present clearly for a wide range of contexts: reports to managers, letters and emails to clients, incident reports, social media posts, presentations to staff and visitors. Good writing gets the right message to the right reader in the right form.</p>\n<h4>Plan first: PAF</h4>\n<ul><li><strong>Purpose</strong>: to inform, instruct, persuade, request or record?</li>\n<li><strong>Audience</strong>: a foreign client, the farm owner, a conservation official, field staff?</li>\n<li><strong>Format</strong>: email, formal letter, report, notice, presentation, form?</li></ul>\n<p>The same event, such as a wounded buffalo that was followed up and recovered, would be written differently in an incident report to the outfitter (factual, times, actions), a message to the client's family (reassuring, short) and a staff safety briefing (lessons learned).</p>\n<h4>Register and tone</h4>\n<p>Formal register suits officials, clients you do not know and reports: full sentences, no slang, polite forms. Informal register suits colleagues and friends. Tone should always be respectful. Be careful with humour across cultures and languages; foreign clients may read English as a second language.</p>\n<h4>Structure</h4>\n<ul><li><strong>Introduction</strong>: say what the text is about.</li>\n<li><strong>Body</strong>: one main idea per paragraph, in a logical order (time order, importance, problem then solution).</li>\n<li><strong>Conclusion</strong>: summary, request or next step.</li></ul>\n<p>Use linking words (first, then, however, therefore, as a result) to guide the reader. Use headings and bullet points in reports and notices.</p>\n<h4>Writing a short report</h4>\n<p>A report usually contains: title, date and author; purpose; findings (what happened or what was found); conclusions; recommendations. Keep facts separate from opinions and recommendations.</p>"
+  },
+  {
+   "title": "Editing, presenting and sign conventions",
+   "minutes": 15,
+   "html": "<h3>Drafting and editing</h3>\n<p>Very few people write well first time. Use a three-step process:</p>\n<ol><li><strong>Draft</strong>: get your ideas down.</li>\n<li><strong>Revise</strong>: check that the content is complete, in the right order and suitable for the reader. Remove repetition and unnecessary words.</li>\n<li><strong>Edit and proofread</strong>: check spelling, grammar, punctuation, names, numbers and dates. Read it aloud or ask a colleague to read it.</li></ol>\n<p>Pay special attention to numbers: a wrong date on a booking confirmation or a wrong calibre on a firearm import list can cause serious problems.</p>\n<h4>Using visuals</h4>\n<p>Tables, maps, photos and simple charts help the reader. A monthly report on game counts is easier to read as a table than as a long paragraph. Every visual needs a title and, where needed, a key.</p>\n<h4>Presenting orally</h4>\n<ul><li>Know your audience and prepare notes with your main points.</li>\n<li>Start by telling them what you will cover, then cover it, then summarise.</li>\n<li>Speak clearly, look at the audience and do not read slides word for word.</li>\n<li>Use real examples, such as a short story from a recent hunt or a safety incident.</li>\n<li>Invite questions and answer honestly; if you do not know, say you will find out.</li></ul>\n<h4>Signed communication</h4>\n<p>South African Sign Language users communicate visually. When writing or presenting for an audience that includes Deaf people, arrange an interpreter, face the audience, keep good lighting on your face and use visuals and written notes. In the field, hunters and trackers also use agreed hand signals to communicate silently; make sure everyone understands the same signals before the stalk.</p>\n<h4>Key points</h4>\n<ul><li>Plan every text by purpose, audience and format.</li>\n<li>Choose formal or informal register to suit the reader, always with a respectful tone.</li>\n<li>Structure texts with an introduction, body and conclusion.</li>\n<li>Draft, revise, then edit and proofread, checking numbers and dates carefully.</li>\n<li>Present clearly with examples, and make communication accessible to signing audiences.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does PAF stand for in planning a text?",
+   "options": [
+    {
+     "text": "Price, amount, fee",
+     "correct": false
+    },
+    {
+     "text": "Paper, adjective, font",
+     "correct": false
+    },
+    {
+     "text": "Purpose, audience, format",
+     "correct": true
+    },
+    {
+     "text": "Plan, answer, finish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which register suits a letter to a conservation official?",
+   "options": [
+    {
+     "text": "Slang",
+     "correct": false
+    },
+    {
+     "text": "Very informal",
+     "correct": false
+    },
+    {
+     "text": "Formal",
+     "correct": true
+    },
+    {
+     "text": "Text-message shorthand",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a report keep separate?",
+   "options": [
+    {
+     "text": "Paragraphs and headings",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Facts and opinions or recommendations",
+     "correct": true
+    },
+    {
+     "text": "Title and date",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the correct order of the writing process?",
+   "options": [
+    {
+     "text": "Proofread, plan, draft",
+     "correct": false
+    },
+    {
+     "text": "Edit, draft, revise",
+     "correct": false
+    },
+    {
+     "text": "Draft, revise, edit and proofread",
+     "correct": true
+    },
+    {
+     "text": "Revise, draft, publish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you cannot answer a question during a presentation?",
+   "options": [
+    {
+     "text": "Make up an answer",
+     "correct": false
+    },
+    {
+     "text": "End the presentation",
+     "correct": false
+    },
+    {
+     "text": "Ignore the question",
+     "correct": false
+    },
+    {
+     "text": "Say you will find out",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hunters and trackers should agree on hand signals before a stalk.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Numbers and dates do not need special checking when proofreading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help when presenting to an audience that includes Deaf people? (select all that apply)",
+   "options": [
+    {
+     "text": "Arranging an interpreter",
+     "correct": true
+    },
+    {
+     "text": "Speaking with your back to the audience",
+     "correct": false
+    },
+    {
+     "text": "Facing the audience with good lighting on your face",
+     "correct": true
+    },
+    {
+     "text": "Using visuals and written notes",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

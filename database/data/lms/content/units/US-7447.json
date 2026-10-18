@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7447",
+ "title": "Working with numbers in various contexts",
+ "lessons": [
+  {
+   "title": "Whole numbers and the four operations at work",
+   "minutes": 15,
+   "html": "<h3>Numbers are everywhere on the farm</h3>\n<p>Every day on a farm we use numbers. We count chickens in a house, eggs in a tray, bags of feed in the store and crates on the bakkie. We read numbers on a scale, a thermometer and a water meter. Being sure with numbers helps you do your work well and check that you are paid correctly.</p>\n<h4>Reading and writing big numbers</h4>\n<p>In South Africa we write big numbers with a space between groups of three digits: 25 000 chickens, R12 500. Read the groups from left to right: \"twenty-five thousand\". The place of a digit gives its value. In 3 482, the 3 means three thousand, the 4 means four hundred, the 8 means eighty and the 2 means two.</p>\n<h4>The four operations</h4>\n<ul>\n<li><strong>Adding (+)</strong> – putting amounts together. House 1 has 12 400 birds and House 2 has 11 900 birds. Together: 12 400 + 11 900 = 24 300 birds.</li>\n<li><strong>Subtracting (−)</strong> – taking away or finding a difference. A house started with 20 000 chicks and 350 died. 20 000 − 350 = 19 650 birds left.</li>\n<li><strong>Multiplying (×)</strong> – adding the same amount many times. One egg tray holds 30 eggs. 40 trays hold 40 × 30 = 1 200 eggs.</li>\n<li><strong>Dividing (÷)</strong> – sharing equally or finding how many groups. 1 500 eggs ÷ 30 eggs per tray = 50 trays.</li>\n</ul>\n<h4>Order matters</h4>\n<p>When a sum has more than one step, do what is inside brackets first, then multiply and divide, then add and subtract. For example, 5 + 3 × 10 = 5 + 30 = 35, not 80. If you mean \"5 plus 3, then times 10\", write (5 + 3) × 10 = 80.</p>\n<h4>Using a calculator</h4>\n<p>A calculator on your phone is a good tool, but you must still think. Type carefully and look at the answer. Ask yourself: does this answer make sense? If you divide 1 500 eggs into trays of 30 and the calculator says 4 500, you pressed the wrong button.</p>"
+  },
+  {
+   "title": "Fractions, decimals and percentages",
+   "minutes": 15,
+   "html": "<h3>Parts of a whole</h3>\n<p>Often we work with parts, not whole things. Half a bag of feed, a quarter of the field, 10% discount. These are all ways to show part of a whole.</p>\n<h4>Fractions</h4>\n<p>A fraction has a top number and a bottom number. In ¾ the bottom number (4) tells how many equal parts the whole is cut into. The top number (3) tells how many parts we have. If a 50 kg feed bag is ¾ full, it holds ¾ of 50 kg. Work it out: 50 ÷ 4 = 12,5, then 12,5 × 3 = 37,5 kg.</p>\n<h4>Decimals</h4>\n<p>Decimals are another way to write parts. In South Africa we use a decimal comma: 2,5 kg means two and a half kilograms. Money uses decimals too: R14,50 means 14 rand and 50 cents. Half = 0,5; a quarter = 0,25; three quarters = 0,75.</p>\n<h4>Percentages</h4>\n<p>Per cent (%) means \"out of 100\". 50% is the same as half. 25% is a quarter. 10% is one tenth.</p>\n<ul>\n<li>To find 10% of an amount, divide by 10. 10% of R3 000 = R300.</li>\n<li>To find 5%, find 10% and halve it. 5% of R3 000 = R150.</li>\n<li>To find any percentage, multiply by the percentage and divide by 100. 8% of R4 500 = 4 500 × 8 ÷ 100 = R360.</li>\n</ul>\n<h4>A farm example: mortality percentage</h4>\n<p>A broiler house received 20 000 chicks and 400 died during the cycle. What percentage died? Divide the number dead by the number placed, then multiply by 100: 400 ÷ 20 000 × 100 = 2%. Managers use this number to compare one cycle with another.</p>\n<h4>A pay example</h4>\n<p>Your wage is R4 000 a month and you get a 6% increase. 6% of R4 000 = R240. Your new wage is R4 000 + R240 = R4 240.</p>"
+  },
+  {
+   "title": "Ratios, rates and checking your answers",
+   "minutes": 15,
+   "html": "<h3>Ratios: comparing amounts</h3>\n<p>A <strong>ratio</strong> compares two or more amounts. A common concrete mix on the farm is 1 : 2 : 3 – one part cement, two parts sand, three parts stone. If you use 2 wheelbarrows of cement, you need 2 × 2 = 4 barrows of sand and 2 × 3 = 6 barrows of stone. The ratio stays the same; only the size changes.</p>\n<p>When you mix any product, for example a disinfectant, the label gives the mixing ratio. Always measure exactly as the label says. Do not guess and do not \"add a bit extra to make it stronger\". A wrong mix can harm people, animals or the product's work.</p>\n<h3>Rates: one thing per another</h3>\n<p>A <strong>rate</strong> tells how much of something per one unit of another thing.</p>\n<ul>\n<li>Pay rate: R30 per hour. 8 hours × R30 = R240 for the day.</li>\n<li>Speed: the tractor moves 10 km per hour.</li>\n<li>Price per unit: a 50 kg bag costs R450, so 1 kg costs R450 ÷ 50 = R9.</li>\n</ul>\n<h4>Best buy</h4>\n<p>Shop A sells 10 kg maize meal for R95. Shop B sells 5 kg for R52. Price per kg at A: R95 ÷ 10 = R9,50. At B: R52 ÷ 5 = R10,40. Shop A is the better buy, if you can use the bigger bag before it goes off.</p>\n<h3>Estimating and checking</h3>\n<p>Before you work out an exact answer, make a quick guess by rounding. 49 bags × R452 is about 50 × R450 = R22 500. If your calculator later says R2 214, you know something is wrong.</p>\n<p>Ways to check an answer:</p>\n<ol>\n<li>Round the numbers and estimate.</li>\n<li>Do the opposite operation. If 1 200 ÷ 30 = 40, then 40 × 30 should give 1 200.</li>\n<li>Ask: is the answer sensible? A worker cannot work 30 hours in one day.</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>Use the four operations (+, −, ×, ÷) to solve everyday farm problems.</li>\n<li>Do brackets first, then × and ÷, then + and −.</li>\n<li>Per cent means out of 100; 10% of an amount is the amount divided by 10.</li>\n<li>Ratios keep the same proportion when you make a bigger or smaller mix.</li>\n<li>Always estimate and check that your answer makes sense.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "One egg tray holds 30 eggs. How many eggs are in 40 trays?",
+   "options": [
+    {
+     "text": "70",
+     "correct": false
+    },
+    {
+     "text": "1 200",
+     "correct": true
+    },
+    {
+     "text": "300",
+     "correct": false
+    },
+    {
+     "text": "120",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is 5 + 3 × 10?",
+   "options": [
+    {
+     "text": "80",
+     "correct": false
+    },
+    {
+     "text": "53",
+     "correct": false
+    },
+    {
+     "text": "35",
+     "correct": true
+    },
+    {
+     "text": "18",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A house received 20 000 chicks and 400 died. What percentage died?",
+   "options": [
+    {
+     "text": "2%",
+     "correct": true
+    },
+    {
+     "text": "4%",
+     "correct": false
+    },
+    {
+     "text": "20%",
+     "correct": false
+    },
+    {
+     "text": "0,4%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Your wage is R4 000 and you get a 6% increase. What is your new wage?",
+   "options": [
+    {
+     "text": "R4 060",
+     "correct": false
+    },
+    {
+     "text": "R4 600",
+     "correct": false
+    },
+    {
+     "text": "R4 024",
+     "correct": false
+    },
+    {
+     "text": "R4 240",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A 1 : 2 : 3 concrete mix uses 2 barrows of cement. How many barrows of stone are needed?",
+   "options": [
+    {
+     "text": "3",
+     "correct": false
+    },
+    {
+     "text": "6",
+     "correct": true
+    },
+    {
+     "text": "4",
+     "correct": false
+    },
+    {
+     "text": "5",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In South Africa, 2,5 kg means two and a half kilograms.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When mixing a disinfectant, it is good practice to add a little extra so it works better.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good ways to check a calculation? (select all that apply)",
+   "options": [
+    {
+     "text": "Round the numbers and estimate first",
+     "correct": true
+    },
+    {
+     "text": "Do the opposite operation",
+     "correct": true
+    },
+    {
+     "text": "Ask whether the answer is sensible",
+     "correct": true
+    },
+    {
+     "text": "Accept the calculator answer without looking",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

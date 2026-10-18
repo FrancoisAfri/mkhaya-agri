@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116277",
+ "title": "Apply machine-shearing skills and prepare shearing equipment",
+ "lessons": [
+  {
+   "title": "Setting up the machine, handpiece and grinder",
+   "minutes": 25,
+   "html": "<h3>The shearing machine</h3><p>A shearing plant is either an overhead gear with a flexible down-tube, or an electric motor driving a handpiece. Erect and set it up as follows:</p><ul><li>Mount the overhead gear securely at the correct height for the shearer, above the shearing board, with the down-tube hanging straight.</li><li>Check that the on/off cord or switch is within easy reach of the shearer and works.</li><li>Check electrical cables, plugs and earth leakage protection. Keep cables away from water and sheep traffic. Report damaged cables; never repair them yourself unless you are qualified.</li><li>Lubricate the gear as the manufacturer's manual says.</li></ul><h3>Setting the handpiece</h3><p>The handpiece holds a <strong>comb</strong> (the bottom plate that enters the wool) and a <strong>cutter</strong> (the top blade that moves across the comb).</p><ol><li>Fit a sharp comb and cutter. Make sure the comb is set at the right position for the conditions and the cutter points sit slightly behind the comb points so they do not cut the sheep.</li><li>Set the tension: just enough for the cutter to cut cleanly. Too much tension makes heat, wears the gear and tires the shearer; too little leaves wool uncut.</li><li>Oil the handpiece regularly through the shearing run, and keep the tension and lubrication points clean.</li><li>Change combs and cutters as soon as they become blunt. Blunt gear pulls wool, overheats and makes second cuts.</li></ol><h3>The grinder</h3><p>Combs and cutters are sharpened on a grinder with abrasive paper on a rotating disc.</p><ul><li>Check the disc runs flat and true; replace worn or torn paper.</li><li>Make sure guards are in place and the grinder is securely mounted.</li><li>Wear eye protection. Hold gear firmly in a correct holder or pendulum and grind evenly across all teeth.</li><li>Do not overheat the steel (blue colour means it is damaged).</li><li>Switch off and wait for the disc to stop before changing paper.</li></ul>"
+  },
+  {
+   "title": "Safety and preparing the shearing area",
+   "minutes": 20,
+   "html": "<h3>General safety in the shed</h3><ul><li><strong>Electricity</strong>: earth leakage units tested, no loose wiring, no water on the board near plugs.</li><li><strong>Handpiece lock-ups</strong>: a handpiece that jams and spins can cause serious cuts. Switch off immediately and keep hands away from the moving gear.</li><li><strong>Slips and trips</strong>: sweep the board often, keep wool, oil and dung off walkways.</li><li><strong>Lifting</strong>: drag and lift sheep using your legs, not your back.</li><li><strong>Fire</strong>: no smoking in the shed; wool and oil burn readily. Extinguisher at the door.</li></ul><h3>Emergencies</h3><p>Know where the main switch, first aid kit and emergency numbers are. For a cut to a person, stop the machine, apply pressure with a clean pad and get help from the first aider. For electric shock, switch off the power before touching the person. Shed workers should have first aid training from an accredited provider. Cuts to sheep must be treated with a wound spray and reported; deep cuts need the farmer's or vet's attention.</p><h3>Preparing the shearing area</h3><ol><li>Clean the shed, board, pens and wool tables before shearing. Remove baling twine, plastic and other contaminants that ruin wool quality.</li><li>Check catching pen gates and let-out chutes for broken rails and sharp edges.</li><li>Set up the wool table, bins for bellies, locks and pieces, and the wool press.</li><li>Make sure there is good light on the board.</li><li>Make sure sheep have been kept off feed and water for the time the farm normally uses, so they are empty and comfortable to handle. Do not shear wet sheep: wet wool cannot be pressed and baled.</li></ol><p>A well-prepared shed means faster shearing, safer workers and better prices from the wool buyer.</p>"
+  },
+  {
+   "title": "Handling and shearing the sheep",
+   "minutes": 25,
+   "html": "<h3>Catching and holding</h3><ul><li>Catch the sheep calmly in the catching pen. Take hold under the jaw and by the flank, never by the wool, which bruises the skin.</li><li>Turn the sheep onto its rump by stepping back and lifting the head round over its shoulder, then drag it backwards to the board, supporting it against your legs.</li><li>Set the sheep in the opening position, sitting on its rump, relaxed against your legs. A sheep that is held properly does not struggle.</li></ul><h3>Shearing technique</h3><p>A standard pattern removes the fleece in one piece with long, smooth blows:</p><ol><li>Belly wool first, kept separate.</li><li>Crutch and inside of the hind legs, taking care around teats and the pizzle.</li><li>Hind leg and up the side.</li><li>Neck and head.</li><li>Long blows along the back.</li><li>The last side, finishing the fleece.</li></ol><p>Keep the comb flat on the skin, pull the skin tight with your free hand where it wrinkles, and avoid <strong>second cuts</strong> (going back over cut wool), which make short fibres and lower the value. Watch for skin folds, teats and the pizzle to avoid cuts. Let the shorn sheep out through the chute and record your tally.</p><h3>Health and fitness for shearers</h3><p>Shearing is hard physical work. Look after your body:</p><ul><li>Warm up and stretch before you start and in breaks, especially your back and legs.</li><li>Use correct posture: bend at the hips, keep the back straight, and use your legs.</li><li>Drink plenty of water and eat regular meals.</li><li>Take the planned breaks and get enough sleep.</li><li>Do not shear under the influence of alcohol.</li><li>Report back pain early instead of working through it.</li></ul><h4>Key points</h4><ul><li>Set up the machine safely with tested electrical protection.</li><li>Use sharp, correctly set gear with the right tension and regular oiling.</li><li>Grind with guards and eye protection and do not overheat the steel.</li><li>Prepare a clean, contaminant-free shed and only shear dry sheep.</li><li>Handle sheep calmly, avoid second cuts and look after your back.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What are the two cutting parts of a shearing handpiece?",
+   "options": [
+    {
+     "text": "The disc and the guard",
+     "correct": false
+    },
+    {
+     "text": "The gear and the down-tube",
+     "correct": false
+    },
+    {
+     "text": "The tension nut and the oil cap",
+     "correct": false
+    },
+    {
+     "text": "The comb and the cutter",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if the handpiece tension is too tight?",
+   "options": [
+    {
+     "text": "It creates heat, wears the gear and tires the shearer",
+     "correct": true
+    },
+    {
+     "text": "The wool is left uncut",
+     "correct": false
+    },
+    {
+     "text": "The sheep relaxes",
+     "correct": false
+    },
+    {
+     "text": "The cutter becomes sharper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when a handpiece locks up and spins?",
+   "options": [
+    {
+     "text": "Grab it quickly",
+     "correct": false
+    },
+    {
+     "text": "Switch off immediately and keep hands away",
+     "correct": true
+    },
+    {
+     "text": "Keep shearing",
+     "correct": false
+    },
+    {
+     "text": "Pour oil on it while it runs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should wet sheep not be shorn?",
+   "options": [
+    {
+     "text": "They bite",
+     "correct": false
+    },
+    {
+     "text": "The comb gets blunt faster",
+     "correct": false
+    },
+    {
+     "text": "It is against the law",
+     "correct": false
+    },
+    {
+     "text": "Wet wool cannot be pressed and baled",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a second cut?",
+   "options": [
+    {
+     "text": "Shearing the second sheep",
+     "correct": false
+    },
+    {
+     "text": "Going back over wool already cut, making short fibres",
+     "correct": true
+    },
+    {
+     "text": "A cut on the shearer's hand",
+     "correct": false
+    },
+    {
+     "text": "Sharpening the comb twice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should catch a sheep by grabbing its wool.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Shearers should warm up, stretch and drink plenty of water to look after their health.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps prepare the shearing area properly? (select all that apply)",
+   "options": [
+    {
+     "text": "Remove baling twine and plastic from the shed",
+     "correct": true
+    },
+    {
+     "text": "Check pen gates and chutes for broken rails",
+     "correct": true
+    },
+    {
+     "text": "Leave oil on the board to keep it smooth",
+     "correct": false
+    },
+    {
+     "text": "Set up the wool table and bins for bellies and locks",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

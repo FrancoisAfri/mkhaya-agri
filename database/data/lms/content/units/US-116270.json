@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116270",
+ "title": "Manage sites for bee keeping",
+ "lessons": [
+  {
+   "title": "Choosing a good bee site",
+   "minutes": 20,
+   "html": "<h3>What bees need from a site</h3><p>An apiary is a place where beehives are kept. A good site keeps colonies strong, productive and calm, and keeps people and animals safe. In South Africa beekeepers work mostly with the African honey bee (<em>Apis mellifera scutellata</em>) in most of the country and the Cape honey bee (<em>Apis mellifera capensis</em>) in the Western Cape. African bees defend their hives strongly, so site choice matters for safety.</p><h4>Evaluating an environmental niche</h4><ul><li><strong>Forage:</strong> plenty of flowering plants that give nectar and pollen through as much of the year as possible: eucalyptus, aloes, fynbos, citrus, sunflowers, canola, lucerne, avocados and indigenous trees. Note when each flowers.</li><li><strong>Water:</strong> clean water within easy flying distance. Bees use water for cooling the hive. If there is none, provide a trough with floating sticks or stones so bees do not drown.</li><li><strong>Shelter:</strong> protection from strong wind, afternoon sun in hot areas, and cold, wet hollows in winter. Light shade in summer is ideal.</li><li><strong>Access:</strong> a road for a bakkie to bring hives and collect honey, but not so open that theft and vandalism are easy.</li><li><strong>Safety distance:</strong> well away from houses, roads, schools, kraals, stables and places where workers often pass.</li><li><strong>Chemical risk:</strong> avoid sites next to lands that are sprayed often, or agree with the farmer on spray notice.</li><li><strong>Pests:</strong> honey badgers, ants and small hive beetles; choose a site where hives can be raised on stands.</li></ul><h4>Placement for pollination</h4><p>For pollination contracts, hives are placed in or beside the crop at the time of flowering, in the numbers and pattern agreed with the grower. Hives are spread through large orchards so bees do not have to fly too far.</p>"
+  },
+  {
+   "title": "Setting up the apiary",
+   "minutes": 20,
+   "html": "<h3>Infrastructure for a bee site</h3><h4>Before moving bees in</h4><ul><li>Get permission from the landowner in writing, including access times and what happens if there is a stinging incident.</li><li>Register as a beekeeper where this is required; in South Africa beekeepers must register with the Department of Agriculture.</li><li>Clear grass around the hive stands to reduce fire risk and make inspections easier.</li></ul><h4>Hive stands</h4><ul><li>Raise hives on stands, often about knee height or higher, to protect from honey badgers, ants, damp and toads.</li><li>Honey badger protection: hives can be suspended on wires or strapped so they cannot be pushed over.</li><li>Ant guards (legs standing in oil or grease) stop ants climbing up.</li><li>Level the hives side-to-side, with a slight forward tilt so rainwater runs out of the entrance.</li></ul><h4>Layout</h4><ul><li>Space hives so the beekeeper can work from behind or beside each hive.</li><li>Face entrances away from paths and prevailing winds; many beekeepers face them towards the morning sun.</li><li>Vary the hive positions or paint marks so returning bees can find their own hive.</li></ul><h4>Signs and security</h4><p>Put up warning signs (\"Danger: Bees\") at access points. Fencing helps keep livestock away. Hives can be marked with the beekeeper's registration or identification to discourage theft.</p><h4>Safety</h4><p>Always wear a bee suit, veil, gloves and boots when working with bees, and use a smoker. Some people are allergic to stings. Anyone with swelling of the face or throat, difficulty breathing or dizziness after a sting needs emergency medical help immediately; call an ambulance (10177, or 112 from a cell phone).</p>"
+  },
+  {
+   "title": "Maintaining sites and understanding pollination",
+   "minutes": 20,
+   "html": "<h3>Keeping the site in good order</h3><ul><li>Inspect hives regularly in the active season: check the queen is laying, enough food is stored, and there are no signs of disease or pests.</li><li>Keep grass short around stands and maintain firebreaks.</li><li>Check stands, wires and lids after storms and repair damage.</li><li>Keep the water supply clean and full.</li><li>Record each visit: date, hive number, strength, honey stores, problems and actions taken.</li><li>Move hives when forage runs out, following the flowering calendar.</li></ul><h3>Basic pollination biology</h3><p>Pollination is the transfer of pollen from the male part of a flower (the <strong>anthers</strong>) to the female part (the <strong>stigma</strong>). After pollination, fertilisation can happen and fruit and seed develop. Poor pollination gives misshapen or small fruit and low yields.</p><h4>Nectar and pollen</h4><ul><li><strong>Nectar</strong> is a sugary liquid made in the flower to attract pollinators. Bees turn it into honey, their energy food.</li><li><strong>Pollen</strong> is the bees' protein source, used to feed the brood.</li><li>Nectar and pollen flow depend on the plant, the weather, soil moisture and the time of day.</li></ul><h4>Pollinating agents</h4><table><tr><th>Agent</th><th>Examples of crops or plants</th></tr><tr><td>Honey bees</td><td>Apples, pears, avocados, macadamias, canola, sunflowers, cucurbits</td></tr><tr><td>Wind</td><td>Maize, wheat and other grasses</td></tr><tr><td>Other insects (wild bees, flies, beetles)</td><td>Many fruit and vegetable crops</td></tr><tr><td>Birds such as sunbirds</td><td>Aloes, proteas, some indigenous plants</td></tr></table><p>Growers must avoid spraying insecticides harmful to bees during flowering, especially when bees are foraging.</p><h4>Key points</h4><ul><li>A good site has forage, water, shelter, access and a safe distance from people and animals.</li><li>Raise hives on stands and protect them from honey badgers and ants.</li><li>Always wear protective clothing; severe sting reactions need emergency help.</li><li>Record every site visit and move hives as forage changes.</li><li>Pollination moves pollen from anthers to stigma; bees, wind, other insects and birds are pollinators.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do bees use pollen for?",
+   "options": [
+    {
+     "text": "Making wax only",
+     "correct": false
+    },
+    {
+     "text": "As their protein source to feed the brood",
+     "correct": true
+    },
+    {
+     "text": "Cooling the hive",
+     "correct": false
+    },
+    {
+     "text": "Building stands",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should hives be raised on stands?",
+   "options": [
+    {
+     "text": "To protect them from honey badgers, ants and damp",
+     "correct": true
+    },
+    {
+     "text": "To make honey sweeter",
+     "correct": false
+    },
+    {
+     "text": "To attract more people",
+     "correct": false
+    },
+    {
+     "text": "Because bees cannot fly from the ground",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which crop is mainly wind-pollinated?",
+   "options": [
+    {
+     "text": "Apples",
+     "correct": false
+    },
+    {
+     "text": "Avocados",
+     "correct": false
+    },
+    {
+     "text": "Maize",
+     "correct": true
+    },
+    {
+     "text": "Macadamias",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if someone has swelling of the throat and difficulty breathing after a sting?",
+   "options": [
+    {
+     "text": "Give them honey and let them rest",
+     "correct": false
+    },
+    {
+     "text": "Tell them to go home",
+     "correct": false
+    },
+    {
+     "text": "Get emergency medical help immediately",
+     "correct": true
+    },
+    {
+     "text": "Put the hive back and continue working",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a bee site be placed?",
+   "options": [
+    {
+     "text": "Next to the farm school",
+     "correct": false
+    },
+    {
+     "text": "Beside the cattle kraal",
+     "correct": false
+    },
+    {
+     "text": "Well away from houses, roads and kraals",
+     "correct": true
+    },
+    {
+     "text": "On the main path to the lands",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pollination is the transfer of pollen from the anthers to the stigma.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is best to spray bee-harmful insecticides while bees are foraging on flowers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be recorded on each site visit? (select all that apply)",
+   "options": [
+    {
+     "text": "Date and hive number",
+     "correct": true
+    },
+    {
+     "text": "Colony strength and honey stores",
+     "correct": true
+    },
+    {
+     "text": "Problems found and actions taken",
+     "correct": true
+    },
+    {
+     "text": "The colour of the beekeeper's bakkie",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

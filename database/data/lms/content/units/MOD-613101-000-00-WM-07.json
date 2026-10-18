@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-07",
+ "title": "Exploring Markets and Establishing Local Relationships",
+ "lessons": [
+  {
+   "title": "Exploring local markets",
+   "minutes": 20,
+   "html": "<h3>Finding out who will buy</h3><p>In this work experience module you explore the markets around the farm and build relationships with buyers, suppliers and the community. Practical market research gives you facts instead of guesses.</p><h4>Market survey tasks</h4><ul><li>List all possible buyers within a reasonable distance: fresh produce markets, retailers, spaza shops, hawkers, schools and hospitals, restaurants, butcheries, abattoirs, feedlots, auctions and silos.</li><li>Visit or phone at least five buyers. Ask what they buy, how much, how often, what quality and packaging, what price, and how and when they pay.</li><li>Record prices at the local market or shops weekly for your main products.</li><li>Note who supplies them now and what problems they have with current suppliers.</li></ul><h4>Recording your findings</h4><table><tr><th>Buyer</th><th>Product</th><th>Volume per week</th><th>Quality needed</th><th>Price</th><th>Payment terms</th></tr><tr><td>Local butchery</td><td>Slaughter lambs</td><td>10</td><td>Young, A-age, fat class 2–3</td><td>Per kg carcass</td><td>7 days</td></tr><tr><td>Spaza shops (3)</td><td>Cabbages</td><td>150</td><td>Firm heads, medium size</td><td>Per head, cash</td><td>On delivery</td></tr></table><p>This table is an example; fill in real figures from your own survey. Compare buyers on price after transport and commission, reliability of payment, and volumes.</p><h4>Being professional</h4><p>Introduce yourself and the farm, explain why you are asking, be on time for meetings, dress neatly and thank people for their time. Never promise volumes or prices you cannot deliver.</p><p>Also visit the nearest fresh produce market or auction if you can, to see how products are graded, priced and sold.</p><p>Thank every buyer you speak to and keep their contact details in a list for later follow-up.</p>"
+  },
+  {
+   "title": "Building and keeping relationships",
+   "minutes": 20,
+   "html": "<h3>Relationships are the farm's market</h3><p>Many sales, especially to local buyers, depend on trust. A buyer who knows the farm delivers reliably will often stay even when a competitor offers a slightly lower price.</p><h4>With buyers</h4><ul><li>Agree in writing on product, quality, quantity, price, delivery days and payment terms.</li><li>Deliver on time with the agreed quality. If there is a problem, phone before the delivery day, not after.</li><li>Ask for feedback regularly and act on complaints.</li><li>Keep delivery notes and invoices, and follow up late payments politely but firmly.</li></ul><h4>With suppliers and service providers</h4><p>Good relationships with input suppliers, vets, mechanics and transporters bring better service, advice and sometimes credit. Pay on time and communicate needs early, for example ordering seed and fertiliser well before planting.</p><h4>With the community and neighbours</h4><ul><li>Employ and buy locally where possible.</li><li>Keep fences in good repair and control fires, stray animals and spray drift.</li><li>Join the local farmers' association or study group, and the fire protection association.</li><li>Support schools or community projects where the farm can.</li></ul><h4>Working with others to reach bigger markets</h4><p>Small producers can combine their product through a co-operative or an informal group to supply larger buyers who need regular volumes, sharing transport and packaging costs. Clear rules on quality, payment and decision-making are essential.</p><h4>Key points</h4><ul><li>Survey local buyers and record real volumes, quality needs, prices and payment terms.</li><li>Compare buyers on price after transport and commission.</li><li>Agree terms in writing and communicate problems early.</li><li>Good supplier and community relationships support the business.</li><li>Groups and co-operatives can help small producers reach bigger markets.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do if you will not be able to deliver the agreed quantity?",
+   "options": [
+    {
+     "text": "Say nothing and hope the buyer does not notice",
+     "correct": false
+    },
+    {
+     "text": "Phone the buyer before the delivery day",
+     "correct": true
+    },
+    {
+     "text": "Send poor quality product instead",
+     "correct": false
+    },
+    {
+     "text": "Stop supplying that buyer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should buyers be compared?",
+   "options": [
+    {
+     "text": "Only on the price they quote",
+     "correct": false
+    },
+    {
+     "text": "On price after transport and commission, payment reliability and volumes",
+     "correct": true
+    },
+    {
+     "text": "On how close they live to you",
+     "correct": false
+    },
+    {
+     "text": "On the colour of their trucks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a professional behaviour during a market visit?",
+   "options": [
+    {
+     "text": "Being on time and explaining why you are asking",
+     "correct": true
+    },
+    {
+     "text": "Promising volumes you cannot deliver",
+     "correct": false
+    },
+    {
+     "text": "Arriving without an appointment and demanding a meeting",
+     "correct": false
+    },
+    {
+     "text": "Refusing to share the farm name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can small producers supply larger buyers who need regular volumes?",
+   "options": [
+    {
+     "text": "By each selling separately at lower prices",
+     "correct": false
+    },
+    {
+     "text": "By combining product through a co-operative or group",
+     "correct": true
+    },
+    {
+     "text": "By buying product from shops to resell",
+     "correct": false
+    },
+    {
+     "text": "By delivering only once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be agreed in writing with a buyer?",
+   "options": [
+    {
+     "text": "Only the delivery address",
+     "correct": false
+    },
+    {
+     "text": "Product, quality, quantity, price, delivery days and payment terms",
+     "correct": true
+    },
+    {
+     "text": "The buyer's family details",
+     "correct": false
+    },
+    {
+     "text": "Nothing; verbal is always enough",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A buyer who trusts the farm may stay even if a competitor offers a slightly lower price.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Relationships with neighbours have nothing to do with farm business.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to build good relationships with the community? (select all that apply)",
+   "options": [
+    {
+     "text": "Employ and buy locally where possible",
+     "correct": true
+    },
+    {
+     "text": "Keep fences in good repair and control stray animals",
+     "correct": true
+    },
+    {
+     "text": "Burn waste near neighbours' houses",
+     "correct": false
+    },
+    {
+     "text": "Join the local farmers' and fire protection associations",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

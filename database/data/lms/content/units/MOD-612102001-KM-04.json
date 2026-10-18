@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-KM-04",
+  "title": "Dairy animal production",
+  "lessons": [
+    {
+      "title": "The lactation cycle",
+      "minutes": 20,
+      "html": "<h3>The cow's year</h3><p>Dairy production follows the cow's reproductive cycle. A cow calves, milks for a lactation, is dried off, rests, and calves again. The farm plans everything around this cycle.</p><h4>The lactation curve</h4><p>After calving, milk yield rises quickly to a <strong>peak</strong> in the first one to two months, then slowly declines until the cow is dried off. A cow with a higher peak usually gives more milk over the whole lactation, so good early-lactation management pays off for months.</p><table><tr><th>Stage</th><th>What happens</th><th>Management focus</th></tr><tr><td>Early lactation</td><td>Yield rises to peak; cow loses body condition because intake lags behind milk demand</td><td>Fresh cow checks, high-quality feed, heat detection</td></tr><tr><td>Mid lactation</td><td>Yield slowly falls; cow should be pregnant</td><td>Maintain intake, confirm pregnancy</td></tr><tr><td>Late lactation</td><td>Yield lower; cow regains condition</td><td>Avoid getting cows fat</td></tr><tr><td>Dry period</td><td>No milking; udder rests and regenerates before next calving</td><td>Dry cow therapy as prescribed, transition feeding</td></tr></table><h4>Calving interval</h4><p>The calving interval is the time between two calvings. A shorter interval means cows spend more of their life in the high-yield part of the curve. To achieve the farm's target, a cow must get pregnant within a few months after calving. Missed heats and poor conception lengthen the interval and reduce income.</p><h4>Milk composition</h4><p>Milk is mostly water, with fat, protein, lactose and minerals. Fat and protein levels depend on breed (Jerseys higher than Holsteins), feeding, stage of lactation and health. Many milk buyers pay for fat and protein, so composition affects income as well as volume.</p>"
+    },
+    {
+      "title": "Breeding and genetics",
+      "minutes": 20,
+      "html": "<h3>Getting cows pregnant</h3><p>The cow's oestrous cycle is about three weeks. She shows heat for a short period, and ovulation follows. Insemination must be timed in relation to heat to give the best chance of conception.</p><h4>Breeding methods</h4><ul><li><strong>Artificial insemination (AI)</strong>: semen from proven bulls is used by trained technicians. AI gives access to top genetics, reduces disease spread and removes the danger of keeping many bulls.</li><li><strong>Natural service</strong>: bulls are used, often as follow-up after AI. Bulls must be fertility tested and disease free, and handled with care.</li><li><strong>Synchronisation programmes</strong>: hormone programmes set up by the vet to control timing of heat and ovulation.</li></ul><h4>Measures of fertility</h4><ul><li><strong>Heat detection rate</strong>: share of cows seen on heat when they should be.</li><li><strong>Conception rate</strong>: share of services that result in pregnancy.</li><li><strong>Services per conception</strong>.</li><li><strong>Days to first service</strong> and <strong>calving interval</strong>.</li></ul><h4>Genetic improvement</h4><p>Each cow's milk production depends on her genes and her environment (feeding, health, comfort). Genetics are improved by choosing bulls with good breeding values for the traits the farm needs: milk volume, fat and protein, udder conformation, fertility, longevity, health traits and calving ease. Records from milk recording and breed societies make this possible.</p><p>Crossbreeding, for example Jersey and Holstein, can improve fertility and health through hybrid vigour. Avoid inbreeding by not using bulls related to the cows.</p><h4>Sexed semen</h4><p>Sexed semen gives mostly heifer calves. It is often used on heifers to produce replacements and is more expensive.</p><p>Good fertility depends on teamwork: milkers who report heats, feeders who keep body condition right, the AI technician, and the vet. Records link all of these and show where the breeding programme is losing cows.</p>"
+    },
+    {
+      "title": "Herd structure, replacements and culling",
+      "minutes": 20,
+      "html": "<h3>Keeping the herd productive</h3><p>A dairy herd is a mix of cows in milk, dry cows, heifers of different ages and calves. The manager plans this structure so that enough heifers enter the herd each year to replace the cows that leave.</p><h4>Replacement rate</h4><p>Cows leave the herd because of low yield, infertility, mastitis, lameness, injury, age or death. The share of the herd replaced each year is the replacement rate. A high rate means high rearing costs; a very low rate can mean old, less productive cows are kept too long.</p><h4>Culling decisions</h4><p>Culling should be planned, not forced by emergencies. Common reasons, in order of what the farm can control:</p><ol><li>Infertility: cow not pregnant after repeated services.</li><li>Chronic mastitis: repeated cases or high cell count.</li><li>Chronic lameness.</li><li>Low production compared with herd mates.</li><li>Poor temperament or udder conformation.</li></ol><p>Cull cows must be fit to transport and must not be sent for slaughter during a medicine withdrawal period. The Meat Safety Act 40 of 2000 applies to slaughter for human consumption.</p><h4>Cow comfort and production</h4><p>Cows produce best when they are comfortable: enough lying time on soft, dry surfaces, shade and cooling in hot weather, good walkways, enough feed and water space and calm handling. Heat stress lowers intake, yield and fertility. Shade, sprinklers and fans can reduce it.</p><h4>Measuring herd performance</h4><ul><li>Litres per cow per day and per lactation.</li><li>Fat and protein yield.</li><li>Calving interval and pregnancy rate.</li><li>Somatic cell count and mastitis cases.</li><li>Replacement and death rates.</li></ul><h4>Key points</h4><ul><li>Yield rises to a peak after calving and then declines; a higher peak means more milk.</li><li>A short calving interval keeps cows in the productive part of the curve.</li><li>AI with good bulls improves genetics; bulls must be handled carefully.</li><li>Plan culling around fertility, mastitis, lameness and production.</li><li>Cow comfort and cooling support yield and fertility.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "When does milk yield usually peak?",
+      "options": [
+        {
+          "text": "In the first one to two months after calving",
+          "correct": true
+        },
+        {
+          "text": "Just before drying off",
+          "correct": false
+        },
+        {
+          "text": "During the dry period",
+          "correct": false
+        },
+        {
+          "text": "A year after calving",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why does a shorter calving interval help income?",
+      "options": [
+        {
+          "text": "Cows eat less",
+          "correct": false
+        },
+        {
+          "text": "Cows spend more time in the high-yield part of the curve",
+          "correct": true
+        },
+        {
+          "text": "Bulls are not needed",
+          "correct": false
+        },
+        {
+          "text": "Milk fat always rises",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "About how long is a cow's oestrous cycle?",
+      "options": [
+        {
+          "text": "One week",
+          "correct": false
+        },
+        {
+          "text": "Two months",
+          "correct": false
+        },
+        {
+          "text": "About three weeks",
+          "correct": true
+        },
+        {
+          "text": "Six months",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is a main advantage of AI over keeping many bulls?",
+      "options": [
+        {
+          "text": "It needs no records",
+          "correct": false
+        },
+        {
+          "text": "It always gives twins",
+          "correct": false
+        },
+        {
+          "text": "It works without heat detection",
+          "correct": false
+        },
+        {
+          "text": "Access to top genetics with less disease and danger",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What may not happen to a cow during a medicine withdrawal period?",
+      "options": [
+        {
+          "text": "She may not be sent for slaughter",
+          "correct": true
+        },
+        {
+          "text": "She may not be fed",
+          "correct": false
+        },
+        {
+          "text": "She may not drink water",
+          "correct": false
+        },
+        {
+          "text": "She may not lie down",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Jersey milk usually has higher fat and protein than Holstein milk.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Heat stress has no effect on fertility.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are common reasons for culling dairy cows? (select all that apply)",
+      "options": [
+        {
+          "text": "Infertility",
+          "correct": true
+        },
+        {
+          "text": "Chronic mastitis",
+          "correct": true
+        },
+        {
+          "text": "Chronic lameness",
+          "correct": true
+        },
+        {
+          "text": "Having a shiny coat",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

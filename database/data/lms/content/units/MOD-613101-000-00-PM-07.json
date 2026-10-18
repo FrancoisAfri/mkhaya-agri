@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-07",
+ "title": "Conduct Market Intelligence and Agribusiness Development",
+ "lessons": [
+  {
+   "title": "Gathering market intelligence",
+   "minutes": 20,
+   "html": "<h3>Know your market before you plant</h3><p>Many farmers decide what to produce and only then look for a buyer. Market intelligence turns this around: find out what buyers want, when, in what quantity, at what quality and at what price, and then plan production to meet that demand.</p><h4>What to find out</h4><ul><li><strong>Who buys:</strong> fresh produce markets (such as the Johannesburg or Tshwane markets), retailers and their packhouses, hawkers and informal traders, silos and grain traders, feedlots, abattoirs, auctions and speculators.</li><li><strong>What they want:</strong> product, grade, size, packaging, volumes and delivery frequency.</li><li><strong>Price trends:</strong> seasonal patterns and the range of prices over several years, not just today's price.</li><li><strong>Requirements:</strong> food safety certification, traceability, delivery documents, payment terms.</li><li><strong>Competition:</strong> who else supplies, and when the market is flooded.</li></ul><h4>Sources of information</h4><ul><li>Daily prices published by fresh produce markets.</li><li>Grain prices quoted by SAFEX (JSE commodity derivatives) and local silos.</li><li>Auction reports and weaner calf prices from feedlot buyers.</li><li>Organised agriculture, commodity organisations, extension officers and study groups.</li><li>Direct conversations with buyers. Ask questions and write down the answers.</li></ul><h4>Using the information</h4><p>Suppose cabbage prices at the local market are usually lowest in mid-winter when many growers harvest, and higher in late summer. Planting to harvest in the higher-price window, if water and climate allow, may increase income without increasing the area planted.</p><p>Keep a simple market file: buyer contacts, specifications, price records and notes from each conversation. Update it every season.</p><p>Visit the market yourself at least once a season to see how products are graded and sold.</p>"
+  },
+  {
+   "title": "Market options and pricing",
+   "minutes": 20,
+   "html": "<h3>Choosing where and how to sell</h3><table><tr><th>Channel</th><th>Advantages</th><th>Disadvantages</th></tr><tr><td>Fresh produce market (agent)</td><td>Takes large volumes, fast payment</td><td>Prices vary daily; commission and transport costs</td></tr><tr><td>Retailer or packhouse contract</td><td>Agreed price or programme</td><td>Strict quality, certification and volume rules</td></tr><tr><td>Informal traders and local community</td><td>Cash, low packaging cost</td><td>Small volumes, price pressure</td></tr><tr><td>Livestock auction</td><td>Competitive bidding, many buyers</td><td>Commission, transport stress, price uncertainty</td></tr><tr><td>Direct to feedlot or abattoir</td><td>Lower costs, possible premium</td><td>Must meet weight and grade specifications</td></tr></table><h4>Know your costs to set your price</h4><p>Calculate the full cost per unit: production costs plus packaging, transport and commission. If tomatoes cost R65 per crate to produce and R15 per crate to pack and deliver, a price below R80 per crate loses money. Know this number before you negotiate.</p><h4>Managing price risk</h4><ul><li>Spread sales across channels and over time.</li><li>Use forward contracts or SAFEX-based contracts for grain, with advice from a broker.</li><li>Keep written agreements with buyers on price, grade, delivery and payment terms.</li></ul><h4>Comparing two channels</h4><p>Suppose a farmer can sell 100 weaners at an auction or directly to a feedlot. At the auction the expected price is R7 600 per head, but commission, transport and weight loss together cost about R700 per head, leaving R6 900. The feedlot offers R7 100 per head collected from the farm, with no commission. The direct sale gives R200 more per animal, R20 000 for the group, as long as the calves meet the feedlot's weight specification. Always compare channels on net price after all costs, and consider payment terms and the risk that the buyer rejects animals.</p>"
+  },
+  {
+   "title": "Developing the agribusiness",
+   "minutes": 20,
+   "html": "<h3>From farm to business plan</h3><p>Growing an agribusiness means adding value, reaching new markets and securing finance. Each step needs a business plan built on market intelligence.</p><h4>Elements of a simple business plan</h4><ol><li>Description of the business and its owners.</li><li>Market analysis: buyers, demand, prices, competitors.</li><li>Production plan: enterprises, area, herd size, inputs and timing.</li><li>Financial plan: enterprise budgets, cash flow, break-even and funding needed.</li><li>Risk plan: weather, disease, price and theft risks and how they are managed.</li><li>Compliance: registrations, certifications, labour and environmental requirements.</li></ol><h4>Ways to develop the business</h4><ul><li><strong>Value adding:</strong> packing and branding vegetables, producing feed for neighbours, selling weaners as backgrounded animals.</li><li><strong>Collective action:</strong> joining a co-operative or study group to buy inputs and sell in larger volumes.</li><li><strong>Certification:</strong> food safety certification such as GLOBALG.A.P. can open retail and export markets.</li><li><strong>Finance:</strong> commercial banks, the Land Bank and development finance institutions require a business plan, records and often collateral.</li></ul><h4>Building relationships</h4><p>Buyers stay with suppliers who deliver what they promised, on time, at the agreed quality. Communicate early if there will be a shortfall. Reliability often matters more than a slightly lower price.</p><p>Review the business plan each year against actual results.</p><p>Update it as markets change.</p><h4>Key points</h4><ul><li>Find out what the buyer wants before planning production.</li><li>Use market prices, auction reports, SAFEX and direct buyer contact as information sources.</li><li>Know your full cost per unit, including packaging, transport and commission.</li><li>Spread price risk across channels and use written agreements.</li><li>A business plan is needed for growth and finance.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main idea of market intelligence?",
+   "options": [
+    {
+     "text": "Plant first and look for a buyer later",
+     "correct": false
+    },
+    {
+     "text": "Find out what buyers want before planning production",
+     "correct": true
+    },
+    {
+     "text": "Always sell at the auction",
+     "correct": false
+    },
+    {
+     "text": "Copy the neighbour's crop choice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Tomatoes cost R65 per crate to produce and R15 per crate to pack and deliver. Below what price does the farmer lose money?",
+   "options": [
+    {
+     "text": "R50",
+     "correct": false
+    },
+    {
+     "text": "R65",
+     "correct": false
+    },
+    {
+     "text": "R80",
+     "correct": true
+    },
+    {
+     "text": "R95",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where are grain prices quoted that can be used for forward contracts?",
+   "options": [
+    {
+     "text": "The fresh produce market",
+     "correct": false
+    },
+    {
+     "text": "SAFEX (JSE commodity derivatives)",
+     "correct": true
+    },
+    {
+     "text": "The local auction",
+     "correct": false
+    },
+    {
+     "text": "The CCMA",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a disadvantage of selling through a fresh produce market agent?",
+   "options": [
+    {
+     "text": "Very slow payment",
+     "correct": false
+    },
+    {
+     "text": "Prices vary daily and commission is charged",
+     "correct": true
+    },
+    {
+     "text": "Only very small volumes are accepted",
+     "correct": false
+    },
+    {
+     "text": "No buyers are present",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of value adding?",
+   "options": [
+    {
+     "text": "Selling unsorted produce at the farm gate",
+     "correct": false
+    },
+    {
+     "text": "Packing and branding vegetables",
+     "correct": true
+    },
+    {
+     "text": "Leaving the crop in the land longer",
+     "correct": false
+    },
+    {
+     "text": "Reducing the number of buyers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Reliability in delivery often matters more to buyers than a slightly lower price.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A business plan does not need a risk plan.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which elements belong in a simple business plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Market analysis",
+     "correct": true
+    },
+    {
+     "text": "Financial plan with cash flow and break-even",
+     "correct": true
+    },
+    {
+     "text": "A list of workers' home addresses",
+     "correct": false
+    },
+    {
+     "text": "Production plan",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

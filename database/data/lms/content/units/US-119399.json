@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119399",
+ "title": "Utilise abattoir hygiene in poultry processing",
+ "lessons": [
+  {
+   "title": "Why abattoir hygiene matters",
+   "minutes": 15,
+   "html": "<h3>Keeping germs away from the meat</h3><p>Chicken meat can carry germs (bacteria) like Salmonella and Campylobacter. If the plant is dirty, germs grow and spread to the meat. People who eat the meat can get sick. The plant can lose customers and even be closed. Abattoirs must follow the Meat Safety Act 40 of 2000, and hygiene is checked by inspectors and auditors.</p><h4>Where germs come from</h4><ul><li>Live birds: feathers, feet and guts carry dirt and germs</li><li>Dirty equipment, knives and tables</li><li>Dirty water and floors</li><li>People: hands, clothes, boots</li><li>Pests: flies, rats, mice, birds</li><li>Waste left lying around</li></ul><h4>Germs grow fast</h4><p>Germs like warm, wet places with food. Small pieces of meat, fat or blood left on equipment are food for germs. In a few hours, a few germs can become millions. That is why we clean often and keep meat cold.</p><h4>Dirty and clean areas</h4><p>The plant has a <strong>dirty side</strong> (live bird receiving, hanging, killing, plucking) and a <strong>clean side</strong> (evisceration end, chilling, cutting, packing). Rules:</p><ul><li>Do not walk from dirty to clean areas without washing hands and boots and changing clothes as the plant requires.</li><li>Do not move equipment, crates or trolleys from dirty to clean areas.</li><li>Use the colour-coded clothing and equipment for your area.</li></ul><h4>Example</h4><p>A worker carries a crate from the hanging area into the packing room to save time. Germs from the live birds' feathers are now in the clean area. This is why equipment stays in its own area.</p><p>Ask your supervisor which areas in your plant are dirty and which are clean.</p>"
+  },
+  {
+   "title": "Cleaning and sanitising",
+   "minutes": 15,
+   "html": "<h3>How we clean the plant</h3><p>Cleaning removes dirt. Sanitising (disinfecting) kills the germs that are left. You must clean first, because chemicals cannot kill germs under dirt and fat.</p><h4>The cleaning steps</h4><ol><li><strong>Prepare</strong>: switch off and lock out machines (only trained people), cover electrical parts, remove product and packaging.</li><li><strong>Dry clean</strong>: scrape and pick up meat pieces, feathers and fat. Put them in the waste bins.</li><li><strong>Pre-rinse</strong>: rinse with water from top to bottom.</li><li><strong>Detergent</strong>: apply the cleaning chemical (often as foam). Leave it for the time on the procedure. Scrub where needed.</li><li><strong>Rinse</strong>: rinse off all detergent and dirt, top to bottom.</li><li><strong>Inspect</strong>: check that everything is visibly clean. Clean again if not.</li><li><strong>Sanitise</strong>: apply the sanitiser at the correct strength. Rinse if the label says so.</li><li><strong>Dry and check</strong>: QA does a pre-start check before production begins.</li></ol><h4>During production</h4><ul><li>Sterilise knives and hand tools often in the hot water steriliser.</li><li>Keep floors clear of meat scraps and water.</li><li>Product that falls on the floor must be handled as the plant procedure says. Never put it back on the line without approval.</li></ul><h4>Chemical safety</h4><p>Cleaning chemicals can burn skin and eyes. Wear gloves, goggles, apron and boots. Use only the chemicals given to you, at the right strength. Never mix chemicals. Never put chemicals in cool drink bottles. If chemicals get in your eyes, rinse with clean running water for a long time and get help.</p><p>Always rinse equipment well after sanitising if the label says so, so no chemical is left on food surfaces.</p>"
+  },
+  {
+   "title": "Pests, waste and good habits",
+   "minutes": 15,
+   "html": "<h3>Keeping the whole plant clean</h3><h4>Pest control</h4><p>Flies, cockroaches, rats, mice and wild birds carry germs. They are attracted by food and waste.</p><ul><li>Keep doors closed and use strip curtains and fly screens.</li><li>Do not leave food or waste lying around.</li><li>Do not move or touch bait stations; they are for the pest control company.</li><li>Report any pests or droppings to your supervisor at once.</li></ul><h4>Waste</h4><table><tr><th>Waste</th><th>What to do</th></tr><tr><td>Condemned birds and parts</td><td>Put in the marked condemned bins only</td></tr><tr><td>Feathers, blood, offal</td><td>Into the correct by-product system</td></tr><tr><td>Packaging, plastic</td><td>Into general or recycling bins</td></tr></table><p>Empty bins often and keep bins clean and closed. Condemned material must never go back into food.</p><h4>Good hygiene habits every day</h4><ul><li>Come to work clean, with short clean nails.</li><li>Wear clean protective clothing, a hairnet and clean boots.</li><li>Wash your hands before work, after the toilet, after breaks and whenever they are dirty.</li><li>No eating, smoking or chewing gum in production areas.</li><li>Tell your supervisor if you are sick, especially with diarrhoea or vomiting.</li></ul><h4>Reporting problems</h4><p>Tell your supervisor if you see: a dirty machine, no soap or paper towels, a broken boot wash, a leaking pipe, pests, or meat that looks or smells bad. Reporting quickly keeps the meat safe.</p><h4>Key points</h4><ul><li>Germs grow fast on meat scraps left on equipment, so clean often.</li><li>Clean first, then sanitise; chemicals do not work on dirt.</li><li>Never move people or equipment from dirty to clean areas without washing.</li><li>Never mix cleaning chemicals; wear gloves and goggles.</li><li>Report pests, broken facilities and bad meat to your supervisor at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the difference between cleaning and sanitising?",
+   "options": [
+    {
+     "text": "Cleaning removes dirt; sanitising kills germs left behind",
+     "correct": true
+    },
+    {
+     "text": "They are the same",
+     "correct": false
+    },
+    {
+     "text": "Sanitising removes dirt; cleaning kills germs",
+     "correct": false
+    },
+    {
+     "text": "Cleaning is only for floors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must you clean before you sanitise?",
+   "options": [
+    {
+     "text": "Sanitiser is cheaper",
+     "correct": false
+    },
+    {
+     "text": "Sanitiser cannot kill germs under dirt and fat",
+     "correct": true
+    },
+    {
+     "text": "Cleaning makes the floor wet",
+     "correct": false
+    },
+    {
+     "text": "It is faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a bait station for rats?",
+   "options": [
+    {
+     "text": "Move it closer to the line",
+     "correct": false
+    },
+    {
+     "text": "Empty it into the bin",
+     "correct": false
+    },
+    {
+     "text": "Leave it alone; it is for the pest control company",
+     "correct": true
+    },
+    {
+     "text": "Take it home",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must condemned birds be placed?",
+   "options": [
+    {
+     "text": "Back on the line",
+     "correct": false
+    },
+    {
+     "text": "In the general bin",
+     "correct": false
+    },
+    {
+     "text": "In the packing area",
+     "correct": false
+    },
+    {
+     "text": "In the marked condemned bins only",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a cleaning chemical splashes in your eyes?",
+   "options": [
+    {
+     "text": "Rinse with clean running water for a long time and get help",
+     "correct": true
+    },
+    {
+     "text": "Rub your eyes",
+     "correct": false
+    },
+    {
+     "text": "Carry on working",
+     "correct": false
+    },
+    {
+     "text": "Wipe with your sleeve",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may put cleaning chemicals in an empty cool drink bottle.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Knives should be sterilised often during production.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help keep pests out of the plant? (select all that apply)",
+   "options": [
+    {
+     "text": "Keeping doors closed",
+     "correct": true
+    },
+    {
+     "text": "Using strip curtains and fly screens",
+     "correct": true
+    },
+    {
+     "text": "Leaving food scraps out",
+     "correct": false
+    },
+    {
+     "text": "Reporting droppings to the supervisor",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

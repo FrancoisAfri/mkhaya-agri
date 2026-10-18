@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-7484",
+ "title": "Describe, represent, analyse and explain changes in shape and motion in 2- and 3-dimensional space with justification",
+ "lessons": [
+  {
+   "title": "Shapes, transformations and position in 2D",
+   "minutes": 16,
+   "html": "<h3>Describing shape and position</h3>\n<p>Maths of shape and space is used every day on a farm or game ranch: reading maps, planning a boma, building a kraal, calculating water in a tank, or understanding how a bullet travels. This unit asks you to describe, represent and analyse changes in shape and motion, and to justify (explain and prove) your answers.</p>\n<h4>Coordinates and maps</h4>\n<p>A position on a flat surface can be given by coordinates (x; y) on a grid, or by grid references on a map. A map has a <strong>scale</strong>. On a 1:50 000 topographical map, 1 cm on the map is 50 000 cm (500 m) on the ground. So 4 cm on the map is 4 × 500 m = 2 000 m = 2 km. Direction is given as a compass bearing in degrees from north: east is 90°, south 180°, west 270°.</p>\n<h4>Transformations</h4>\n<table><tr><th>Transformation</th><th>What changes</th><th>Example</th></tr>\n<tr><td>Translation (slide)</td><td>Position only</td><td>Moving a feeding trough 5 m east</td></tr>\n<tr><td>Reflection (flip)</td><td>Position and orientation, across a mirror line</td><td>Two halves of a symmetrical gate</td></tr>\n<tr><td>Rotation (turn)</td><td>Orientation around a fixed point</td><td>A windmill blade turning around the hub</td></tr>\n<tr><td>Enlargement or reduction</td><td>Size, but not shape</td><td>A scale drawing of a shed</td></tr></table>\n<p>Translations, reflections and rotations keep size and shape the same: the shapes are <strong>congruent</strong>. Enlargements keep shape but change size: the shapes are <strong>similar</strong>, with all lengths multiplied by the same scale factor. If a pen plan is enlarged by a factor of 3, a 4 m side becomes 12 m, but the area becomes 3 × 3 = 9 times larger.</p>\n<h4>Symmetry</h4>\n<p>A shape has line symmetry if a mirror line divides it into two matching halves. Many animal tracks are nearly symmetrical: a buck's cloven hoof print has two halves.</p>"
+  },
+  {
+   "title": "3D objects, measurement and motion",
+   "minutes": 16,
+   "html": "<h3>Three-dimensional objects</h3>\n<p>Solids such as cubes, rectangular prisms (boxes), cylinders (water tanks), cones and pyramids can be represented in different ways:</p>\n<ul><li><strong>Nets</strong>: the flat shape that folds to make the solid. A cylinder's net is two circles and a rectangle.</li>\n<li><strong>Views</strong>: the plan (from above), front elevation and side elevation, used in building drawings.</li>\n<li><strong>Perspective drawings</strong>, showing depth.</li></ul>\n<h4>Surface area and volume</h4>\n<p>Volume of a rectangular prism = length × breadth × height. A cement water trough 2 m × 0.5 m × 0.4 m holds 0.4 m³ = 400 litres (1 m³ = 1 000 L).</p>\n<p>Volume of a cylinder = π × r² × h. A round tank with radius 1.5 m and height 2 m holds π × 1.5 × 1.5 × 2 ≈ 14.14 m³, about 14 140 litres.</p>\n<p><em>Justification</em>: each step is shown, units are converted, and the answer is checked for sense. A tank of about 3 m across and 2 m high holding about 14 000 L is reasonable.</p>\n<p>Surface area tells you how much material is needed, for example paint or sheeting. A closed box has 6 faces; add the area of each.</p>\n<h4>Motion</h4>\n<p>Objects in motion trace paths. A windmill blade traces a circle. A thrown object or a bullet follows a curved path called a <strong>trajectory</strong> because gravity pulls it down from the start. A rifle's line of sight is straight, but the bullet's path curves; the scope is set so that the two cross at the zero distance. Beyond it the bullet drops further below the line of sight, which is why long shots need more skill and are often unethical for inexperienced hunters.</p>\n<p>Speed = distance ÷ time. A bakkie travelling 30 km in 0.5 hours averages 60 km/h.</p>\n<h4>Key points</h4>\n<ul><li>Use coordinates, scale and bearings to describe position.</li>\n<li>Translations, reflections and rotations keep shapes congruent; enlargements make similar shapes.</li>\n<li>Scaling lengths by k scales area by k × k.</li>\n<li>Volume of a prism is l × b × h; of a cylinder is π × r² × h; 1 m³ = 1 000 L.</li>\n<li>Justify answers by showing steps, units and a sense check.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "On a 1:50 000 map, what distance on the ground is 4 cm on the map?",
+   "options": [
+    {
+     "text": "4 km",
+     "correct": false
+    },
+    {
+     "text": "2 km",
+     "correct": true
+    },
+    {
+     "text": "20 km",
+     "correct": false
+    },
+    {
+     "text": "200 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which transformation changes size but not shape?",
+   "options": [
+    {
+     "text": "Translation",
+     "correct": false
+    },
+    {
+     "text": "Reflection",
+     "correct": false
+    },
+    {
+     "text": "Enlargement",
+     "correct": true
+    },
+    {
+     "text": "Rotation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pen plan is enlarged by a scale factor of 3. How many times larger is the area?",
+   "options": [
+    {
+     "text": "3",
+     "correct": false
+    },
+    {
+     "text": "9",
+     "correct": true
+    },
+    {
+     "text": "27",
+     "correct": false
+    },
+    {
+     "text": "6",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many litres does a trough of 2 m × 0.5 m × 0.4 m hold?",
+   "options": [
+    {
+     "text": "400 L",
+     "correct": true
+    },
+    {
+     "text": "40 L",
+     "correct": false
+    },
+    {
+     "text": "0.4 L",
+     "correct": false
+    },
+    {
+     "text": "4 000 L",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the compass bearing for due west?",
+   "options": [
+    {
+     "text": "180°",
+     "correct": false
+    },
+    {
+     "text": "270°",
+     "correct": true
+    },
+    {
+     "text": "90°",
+     "correct": false
+    },
+    {
+     "text": "0°",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A bullet travels in a perfectly straight line along the line of sight.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Translations, reflections and rotations produce congruent shapes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to represent a 3D object on paper? (select all that apply)",
+   "options": [
+    {
+     "text": "A net",
+     "correct": true
+    },
+    {
+     "text": "A compass bearing only",
+     "correct": false
+    },
+    {
+     "text": "A perspective drawing",
+     "correct": true
+    },
+    {
+     "text": "Plan and elevation views",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335714",
+ "title": "Clip an Equine",
+ "lessons": [
+  {
+   "title": "Getting the horse and the clippers ready",
+   "minutes": 15,
+   "html": "<h3>Why we clip</h3>\n<p>Some horses grow a thick winter coat. When they work hard, they sweat and stay wet for a long time. This can make them cold and sick. Clipping removes some of the hair so the horse dries quickly. A clipped horse needs a rug at night and in cold weather.</p>\n<h3>Prepare the horse</h3>\n<ol>\n<li>Choose a dry, well-lit place with a non-slip floor and no water near the cables.</li>\n<li>Tie the horse with a quick-release knot, or ask a helper to hold it.</li>\n<li>Groom the horse well. The coat must be <strong>clean and dry</strong>. Dirt and sweat blunt the blades and pull the hair.</li>\n<li>Check the coat for cuts, lumps or ticks. Do not clip over a wound.</li>\n<li>Mark the lines of the clip with chalk if needed.</li>\n<li>If the horse has never been clipped, let it hear and feel the clippers first, slowly, on the shoulder.</li>\n</ol>\n<h3>Prepare the clippers</h3>\n<p>Always read the manufacturer's instructions for your clippers.</p>\n<ul>\n<li>Check the cable and plug. <strong>Never use clippers with a damaged cable.</strong> Use an earth leakage plug where possible.</li>\n<li>Check that the blades are sharp and clean, and fitted the right way.</li>\n<li>Set the blade tension as the manufacturer says. Too tight makes the blades hot; too loose pulls the hair.</li>\n<li>Oil the blades with clipper oil before you start.</li>\n<li>Test the clippers away from the horse.</li>\n</ul>\n<h4>Your own safety</h4>\n<ul>\n<li>Wear closed shoes and tie back long hair. No loose clothes.</li>\n<li>Keep the cable away from the horse's feet.</li>\n<li>Stand to the side of the horse, never directly behind it.</li>\n</ul>"
+  },
+  {
+   "title": "Clipping technique and care of the clippers",
+   "minutes": 15,
+   "html": "<h3>Types of clip</h3>\n<table><tr><th>Clip</th><th>What is removed</th><th>For which horse</th></tr>\n<tr><td>Bib clip</td><td>Front of neck and chest</td><td>Light work</td></tr>\n<tr><td>Trace clip</td><td>Underside of neck, belly and upper legs</td><td>Medium work</td></tr>\n<tr><td>Blanket clip</td><td>Neck and sides; a blanket shape is left on the back</td><td>Medium to hard work</td></tr>\n<tr><td>Hunter clip</td><td>All the coat except legs and saddle patch</td><td>Hard work</td></tr>\n<tr><td>Full clip</td><td>All the coat</td><td>Very hard work, show horses</td></tr></table>\n<h3>How to clip</h3>\n<ol>\n<li>Start on the shoulder, where most horses accept it.</li>\n<li>Clip <strong>against the direction of the hair</strong>, with long, even strokes.</li>\n<li>Keep the blades flat on the skin. Do not dig in the points.</li>\n<li>Stretch loose skin, for example behind the elbow, with your free hand.</li>\n<li>Feel the blades often. If they get hot, stop, let them cool, brush off hair and oil again.</li>\n<li>Do sensitive areas like the head, belly and between the legs last, with a helper holding the horse.</li>\n<li>Make both sides match.</li>\n<li>Brush off loose hair and put on a rug.</li>\n</ol>\n<h4>Never</h4>\n<ul>\n<li>Never clip a wet horse.</li>\n<li>Never clip inside the ears; it protects them from insects.</li>\n<li>Never pull the clippers by the cable.</li>\n</ul>\n<h3>Care of the clippers after use</h3>\n<ul>\n<li>Unplug first.</li>\n<li>Remove the blades and brush out all hair.</li>\n<li>Clean the blades with blade wash, dry them, and oil them.</li>\n<li>Clean the air filter as the manual says.</li>\n<li>Coil the cable loosely and store the clippers in their box in a dry place.</li>\n<li>Send blunt blades for sharpening.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Only clip a clean, dry horse.</li>\n<li>Check the cable and blades before use; never use a damaged cable.</li>\n<li>Clip against the hair with flat, even strokes.</li>\n<li>Stop when blades get hot; cool and oil them.</li>\n<li>Clean, oil and store clippers after use; rug the clipped horse.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why do we clip a horse that works hard in winter?",
+   "options": [
+    {
+     "text": "To make it look darker",
+     "correct": false
+    },
+    {
+     "text": "So it dries quickly after sweating",
+     "correct": true
+    },
+    {
+     "text": "So it eats less",
+     "correct": false
+    },
+    {
+     "text": "To stop it from growing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must the horse's coat be like before clipping?",
+   "options": [
+    {
+     "text": "Wet",
+     "correct": false
+    },
+    {
+     "text": "Muddy",
+     "correct": false
+    },
+    {
+     "text": "Oily",
+     "correct": false
+    },
+    {
+     "text": "Clean and dry",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which direction should you clip?",
+   "options": [
+    {
+     "text": "Against the direction of the hair",
+     "correct": true
+    },
+    {
+     "text": "With the direction of the hair",
+     "correct": false
+    },
+    {
+     "text": "Only up and down",
+     "correct": false
+    },
+    {
+     "text": "Round in circles",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when the blades get hot?",
+   "options": [
+    {
+     "text": "Clip faster",
+     "correct": false
+    },
+    {
+     "text": "Pour water on them",
+     "correct": false
+    },
+    {
+     "text": "Stop, let them cool, brush off hair and oil them",
+     "correct": true
+    },
+    {
+     "text": "Keep going until done",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which clip removes all the coat?",
+   "options": [
+    {
+     "text": "Bib clip",
+     "correct": false
+    },
+    {
+     "text": "Trace clip",
+     "correct": false
+    },
+    {
+     "text": "Blanket clip",
+     "correct": false
+    },
+    {
+     "text": "Full clip",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to use clippers with a damaged cable if you are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A clipped horse needs a rug at night and in cold weather.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "How do you care for clippers after use? (select all that apply)",
+   "options": [
+    {
+     "text": "Unplug them first",
+     "correct": true
+    },
+    {
+     "text": "Brush out hair and clean the blades",
+     "correct": true
+    },
+    {
+     "text": "Oil the blades and store dry",
+     "correct": true
+    },
+    {
+     "text": "Leave them on the wet floor",
+     "correct": false
+    },
+    {
+     "text": "Pull them by the cable to the shelf",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

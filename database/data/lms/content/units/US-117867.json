@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-117867",
+ "title": "Managing files in a Graphical User Interface (GUI) environment",
+ "lessons": [
+  {
+   "title": "Files, folders and drives",
+   "minutes": 15,
+   "html": "<h3>Where the computer keeps your work</h3><p>A GUI (graphical user interface) is the screen with pictures, windows and icons that you use with a mouse, like Windows. In a GUI your work is saved in <strong>files</strong>, and files are kept in <strong>folders</strong>.</p><h4>Files</h4><p>A file is one piece of work, for example a letter, a list of bales, a photo or a spreadsheet of wages. Every file has a name and a type. The type is shown by the letters after the dot, called the extension:</p><table><tr><th>Extension</th><th>Type of file</th></tr><tr><td>.docx</td><td>Word document</td></tr><tr><td>.xlsx</td><td>Excel spreadsheet</td></tr><tr><td>.pdf</td><td>PDF document</td></tr><tr><td>.jpg</td><td>Photo</td></tr></table><h4>Folders</h4><p>A folder is like a box file in the office. It holds files and can hold other folders. Good folders make files easy to find, for example:</p><ul><li>Wool Store</li><li>— Receiving 2026</li><li>— Dispatch 2026</li><li>— Staff</li></ul><h4>Drives</h4><p>Drives are where files are stored: the computer's own hard drive (usually C:), a USB flash drive, or a network or cloud drive shared with others in the office.</p><h4>File Explorer</h4><p>In Windows you look at files and folders with File Explorer. Open it with the folder icon on the taskbar, or press the Windows key and E together. On the left you see drives and folders. Click a folder to see what is inside on the right.</p>"
+  },
+  {
+   "title": "Creating, naming and moving files",
+   "minutes": 15,
+   "html": "<h3>Working with files and folders</h3><h4>Make a new folder</h4><ol><li>Open File Explorer and go to the place for the new folder.</li><li>Right-click an empty space, choose New, then Folder.</li><li>Type the name and press Enter.</li></ol><h4>Good names</h4><ul><li>Use clear names: \"Bale register March 2026\" is better than \"doc1\".</li><li>Put dates as year-month-day, like 2026-03-15, so files sort in order.</li><li>Do not use these signs in names: \\ / : * ? \" &lt; &gt; |</li></ul><h4>Rename</h4><p>Right-click the file, choose Rename, type the new name and press Enter. Do not change the extension.</p><h4>Copy and move</h4><ul><li><strong>Copy</strong> makes a second copy. Right-click, Copy, go to the new place, right-click, Paste. Or press Ctrl+C then Ctrl+V.</li><li><strong>Move</strong> takes the file away from the old place. Right-click, Cut, then Paste in the new place. Or Ctrl+X then Ctrl+V. You can also drag a file to another folder.</li></ul><h4>Select many files</h4><p>Hold Ctrl and click each file to choose several. Click the first file, hold Shift and click the last to choose all in between.</p><h4>Search</h4><p>If you cannot find a file, type part of the name in the search box in the top right of File Explorer.</p><h4>Practise</h4><p>Try this: make a folder called \"Practice\" on the desktop. Inside it, make a new file and name it with today's date. Copy it, rename the copy, and move it into a new folder inside \"Practice\". Then delete the copy and find it in the Recycle Bin.</p>"
+  },
+  {
+   "title": "Deleting, backing up and keeping files safe",
+   "minutes": 15,
+   "html": "<h3>Look after the files</h3><h4>Delete and restore</h4><ul><li>Choose the file and press Delete, or right-click and choose Delete.</li><li>Deleted files go to the Recycle Bin. If you made a mistake, open the Recycle Bin, right-click the file and choose Restore.</li><li>When the Recycle Bin is emptied, the files are gone.</li><li>Files deleted from a USB drive or network drive may not go to the Recycle Bin. Be careful.</li><li>Never delete files that belong to someone else or that you do not understand. Ask first.</li></ul><h4>Back up</h4><p>A backup is a second copy kept in a different place. If the computer breaks, is stolen or gets a virus, the backup saves the work. Follow your office's backup plan, for example copying to the network drive or cloud every day.</p><h4>USB drives</h4><ul><li>Before pulling out a USB drive, click \"Safely remove\" or \"Eject\" so files are not damaged.</li><li>USB drives can carry viruses. Only use drives your office allows.</li><li>Do not keep the only copy of important files on a USB drive.</li></ul><h4>Keep files private</h4><p>Some files, like wages and staff records, are private. Save them only in the folders your supervisor gives you, and lock the computer when you walk away.</p><h4>Key points</h4><ul><li>Files hold your work; folders organise files; drives store them.</li><li>Use clear file names with dates as year-month-day.</li><li>Copy makes a second copy; cut and paste moves the file.</li><li>Deleted files go to the Recycle Bin until it is emptied.</li><li>Back up important files and eject USB drives safely.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a folder?",
+   "options": [
+    {
+     "text": "A single photo",
+     "correct": false
+    },
+    {
+     "text": "A place that holds files and other folders",
+     "correct": true
+    },
+    {
+     "text": "A printer",
+     "correct": false
+    },
+    {
+     "text": "A computer virus",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What type of file ends in .xlsx?",
+   "options": [
+    {
+     "text": "A PDF",
+     "correct": false
+    },
+    {
+     "text": "A photo",
+     "correct": false
+    },
+    {
+     "text": "A sound file",
+     "correct": false
+    },
+    {
+     "text": "An Excel spreadsheet",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the best file name?",
+   "options": [
+    {
+     "text": "new new final",
+     "correct": false
+    },
+    {
+     "text": "asdf",
+     "correct": false
+    },
+    {
+     "text": "doc1",
+     "correct": false
+    },
+    {
+     "text": "Bale register 2026-03-15",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which keys copy a file?",
+   "options": [
+    {
+     "text": "Ctrl+X",
+     "correct": false
+    },
+    {
+     "text": "Ctrl+Z",
+     "correct": false
+    },
+    {
+     "text": "Ctrl+C",
+     "correct": true
+    },
+    {
+     "text": "Alt+F4",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You deleted a file by mistake from your computer. Where can you find it?",
+   "options": [
+    {
+     "text": "It is always gone forever",
+     "correct": false
+    },
+    {
+     "text": "In the Recycle Bin, until it is emptied",
+     "correct": true
+    },
+    {
+     "text": "In the printer",
+     "correct": false
+    },
+    {
+     "text": "On the monitor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cut and paste moves a file from one place to another.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to pull out a USB drive while files are being copied.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good ways to keep files safe? (select all that apply)",
+   "options": [
+    {
+     "text": "Ejecting USB drives safely",
+     "correct": true
+    },
+    {
+     "text": "Saving private files only in the folders your supervisor gives you",
+     "correct": true
+    },
+    {
+     "text": "Making regular backups",
+     "correct": true
+    },
+    {
+     "text": "Keeping the only copy on a USB drive",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

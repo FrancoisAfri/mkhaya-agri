@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335729",
+ "title": "Determine the farriery requirements of an equine",
+ "lessons": [
+  {
+   "title": "Assessing the horse and its feet",
+   "minutes": 20,
+   "html": "<h3>Start with the whole horse</h3>\n<p>Farriery is not just about nailing on shoes. The right foot care depends on the horse's conformation, work, environment and health. As an equine practitioner you assess these, agree a plan with the farrier and, where there is lameness, the vet.</p>\n<h4>Information to collect</h4>\n<ul>\n<li><strong>Use and workload:</strong> a trail horse on rocky Drakensberg paths needs more protection than a broodmare on soft pasture.</li>\n<li><strong>Ground conditions:</strong> hard, stony, sandy or wet. Wet conditions soften hooves and invite thrush and white line disease.</li>\n<li><strong>History:</strong> previous shoeing, lameness, laminitis or hoof cracks.</li>\n<li><strong>Conformation:</strong> limb alignment, toe-in or toe-out, upright or sloping pasterns affect how the hoof should be trimmed.</li>\n</ul>\n<h3>Assessing the feet</h3>\n<ol>\n<li><strong>Standing:</strong> view each foot from the front and the side on level ground. The hoof-pastern axis should be a straight line. Check for a broken-back axis (long toe, low heel) or broken-forward axis (club foot).</li>\n<li><strong>Balance:</strong> the foot should be symmetrical side to side; heels should be level.</li>\n<li><strong>Lifted:</strong> check the sole, frog, white line, bars and heels. Look for bruises, seedy toe, thrush and abscesses. Check that old shoes are not loose, worn or causing pressure.</li>\n<li><strong>Wear pattern:</strong> uneven wear of the hoof or shoe shows how the horse lands.</li>\n<li><strong>Movement:</strong> walk and trot on a firm surface to see how each foot lands. Ideally the heel lands slightly before or level with the toe.</li>\n<li><strong>Heat and digital pulse:</strong> a hot hoof and strong pulse at the fetlock suggest inflammation such as laminitis or an abscess; call the vet.</li>\n</ol>\n<h4>Common signs of poor farriery</h4>\n<ul>\n<li>Long toes and collapsed heels.</li>\n<li>Shoes too small, set too far back or with nails too high.</li>\n<li>Clenches lifting or shoes shifting.</li>\n<li>Overgrown feet with flares and cracks.</li>\n</ul>"
+  },
+  {
+   "title": "Footcare and shoeing plans, including therapeutic needs",
+   "minutes": 20,
+   "html": "<h3>Building a footcare plan</h3>\n<p>Write a plan for each horse and keep it in the horse's file.</p>\n<table><tr><th>Item</th><th>Example</th></tr>\n<tr><td>Trim or shoe</td><td>Barefoot trim, front shoes only, or all four</td></tr>\n<tr><td>Interval</td><td>Usually every 5 to 8 weeks, depending on hoof growth and work</td></tr>\n<tr><td>Shoe type</td><td>Steel for general work, aluminium for racing, studs for grip on grass</td></tr>\n<tr><td>Daily care</td><td>Picking out, checking for loose shoes, hoof dressing if advised</td></tr>\n<tr><td>Nutrition</td><td>Balanced diet with enough protein and minerals; biotin only on advice</td></tr>\n<tr><td>Environment</td><td>Dry standing areas, clean bedding</td></tr></table>\n<h4>Barefoot or shod?</h4>\n<p>Many horses on soft ground with light work stay healthy barefoot with regular trimming. Shoes are needed when wear is faster than growth, for grip, or for therapy. Hoof boots are an option for occasional rides on stony ground.</p>\n<h3>Therapeutic farriery</h3>\n<p>Therapeutic shoeing is always done on the vet's diagnosis, often using X-rays, with the farrier and vet working together.</p>\n<table><tr><th>Condition</th><th>Typical approach</th></tr>\n<tr><td>Laminitis</td><td>Support the frog and sole, ease breakover, sometimes with pads or heart-bar shoes, as the vet prescribes</td></tr>\n<tr><td>Navicular syndrome</td><td>Correct foot balance, ease breakover, support the heel</td></tr>\n<tr><td>Hoof cracks</td><td>Stabilise the crack with clips or patches; correct imbalance</td></tr>\n<tr><td>Collapsed heels</td><td>Shorten the toe, support heels with shoes extending further back</td></tr>\n<tr><td>Abscess</td><td>Drained by the vet or farrier, then a poultice and clean dressing</td></tr>\n<tr><td>Limb deformities in foals</td><td>Corrective trimming or glue-on extensions early, under vet guidance</td></tr></table>\n<h3>Working with the farrier</h3>\n<ul>\n<li>Have the horse clean, dry and ready, with a handler and a safe, level, shaded area.</li>\n<li>Share the plan and any vet reports.</li>\n<li>Record the date, work done and the next due date.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Assess workload, ground, history and conformation before deciding on farriery.</li>\n<li>Check the hoof-pastern axis, balance, sole, frog and wear patterns.</li>\n<li>A hot foot with a strong digital pulse needs a vet.</li>\n<li>Most horses need trimming or shoeing every 5 to 8 weeks.</li>\n<li>Therapeutic shoeing is based on the vet's diagnosis.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a long toe and low heel create in the hoof-pastern axis?",
+   "options": [
+    {
+     "text": "A club foot",
+     "correct": false
+    },
+    {
+     "text": "A broken-back axis",
+     "correct": true
+    },
+    {
+     "text": "A perfect axis",
+     "correct": false
+    },
+    {
+     "text": "A broken-forward axis",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A hot hoof and a strong digital pulse suggest what?",
+   "options": [
+    {
+     "text": "The horse is well shod",
+     "correct": false
+    },
+    {
+     "text": "The horse is cold",
+     "correct": false
+    },
+    {
+     "text": "The shoe is new",
+     "correct": false
+    },
+    {
+     "text": "Inflammation such as laminitis or an abscess",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often do most horses need trimming or shoeing?",
+   "options": [
+    {
+     "text": "Every 5 to 8 weeks",
+     "correct": true
+    },
+    {
+     "text": "Every 6 months",
+     "correct": false
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    },
+    {
+     "text": "Every day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who should diagnose a condition before therapeutic shoeing?",
+   "options": [
+    {
+     "text": "The groom",
+     "correct": false
+    },
+    {
+     "text": "The rider",
+     "correct": false
+    },
+    {
+     "text": "The vet",
+     "correct": true
+    },
+    {
+     "text": "The feed supplier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which conditions make hooves soft and invite thrush?",
+   "options": [
+    {
+     "text": "Dry, stony ground",
+     "correct": false
+    },
+    {
+     "text": "Wet conditions",
+     "correct": true
+    },
+    {
+     "text": "Regular picking out",
+     "correct": false
+    },
+    {
+     "text": "Clean bedding",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Many horses in light work on soft ground can stay healthy barefoot with regular trimming.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Uneven wear on a shoe tells you nothing about how the horse lands.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of poor farriery? (select all that apply)",
+   "options": [
+    {
+     "text": "Long toes and collapsed heels",
+     "correct": true
+    },
+    {
+     "text": "Shoes too small or set too far back",
+     "correct": true
+    },
+    {
+     "text": "Clenches lifting",
+     "correct": true
+    },
+    {
+     "text": "Balanced feet with a straight hoof-pastern axis",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

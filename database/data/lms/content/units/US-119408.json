@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119408",
+ "title": "Maintain health and safety in poultry production",
+ "lessons": [
+  {
+   "title": "Hazards on a poultry farm",
+   "minutes": 15,
+   "html": "<h3>Knowing what can hurt people</h3><p>Poultry farms look calm, but they hold many hazards for workers. The Occupational Health and Safety Act 85 of 1993 requires the employer to provide a safe workplace, and requires workers to work safely, use protective equipment and report hazards. As a supervisor at NQF level 3, you maintain safety in your section: you spot hazards, make sure controls are used and correct unsafe behaviour.</p><h4>Main hazards</h4><table><tr><th>Hazard</th><th>Where</th><th>Possible harm</th></tr><tr><td>Dust and ammonia</td><td>Inside houses, especially at clean-out</td><td>Breathing problems, eye irritation</td></tr><tr><td>Zoonoses</td><td>Contact with birds, manure, dead birds</td><td>Illnesses passed from birds to people, such as Salmonella, Campylobacter, psittacosis, and avian influenza during outbreaks</td></tr><tr><td>Chemicals</td><td>Disinfectants, insecticides, rodent bait, water treatment</td><td>Burns, poisoning</td></tr><tr><td>Machinery</td><td>Feed augers, fans, tractors, pressure washers</td><td>Entanglement, crushing, cuts</td></tr><tr><td>Electricity</td><td>Heaters, lights, pumps, wet houses</td><td>Shock, fire</td></tr><tr><td>Gas</td><td>LPG brooders</td><td>Fire, explosion, carbon monoxide</td></tr><tr><td>Manual handling</td><td>Feed bags, catching, egg trays</td><td>Back injuries, strain</td></tr><tr><td>Heat</td><td>Houses in summer</td><td>Heat exhaustion</td></tr><tr><td>Working at height</td><td>Roofs, silos, ladders</td><td>Falls</td></tr></table><h4>Risk assessment</h4><p>For each task, ask: what can go wrong, how likely is it, how bad would it be, and what controls are needed? Write it down, discuss it with the team and review it when work changes or after an incident.</p><h4>Example</h4><p>During clean-out, workers shovel dry litter without masks. The dust is thick and contains ammonia and germs. The supervisor stops the work, issues dust masks and arranges for the litter to be lightly damped down.</p><p>Share the risk assessment with every new worker.</p>"
+  },
+  {
+   "title": "Controlling the risks",
+   "minutes": 15,
+   "html": "<h3>Safe ways of working</h3><h4>Protective equipment</h4><ul><li>Dust masks or respirators during catching, clean-out and in dusty houses, as specified.</li><li>Gloves and goggles for chemicals, and the PPE on the label or safety data sheet.</li><li>Overalls and boots for each house, which also support biosecurity.</li><li>Hearing protection near loud fans and generators.</li></ul><p>Check PPE is in good condition, fits and is used correctly. Replace worn equipment.</p><h4>Machinery and electricity</h4><ul><li>Keep guards on augers, fans and belts.</li><li>Switch off and lock out equipment before maintenance or clearing blockages.</li><li>Only qualified electricians work on electrical installations.</li><li>Keep cables off wet floors and report damaged plugs and cables.</li><li>Only trained, authorised operators drive tractors and forklifts.</li></ul><h4>Gas brooders</h4><p>Check gas fittings for leaks with soapy water, never a flame. Keep gas cylinders upright, secured and outside the house where possible. Ensure ventilation to avoid carbon monoxide build-up. Know where to shut off the gas.</p><h4>Chemicals</h4><p>Store chemicals in a locked, ventilated store, away from feed. Keep them in original labelled containers. Never mix chemicals. Use agricultural remedies registered under Act 36 of 1947 exactly as the label says. Keep safety data sheets available.</p><h4>Manual handling</h4><p>Lift with the legs, keep the load close, avoid twisting and share heavy loads. Use trolleys for feed bags where possible. Rotate staff during catching.</p><h4>Hygiene and zoonoses</h4><p>Wash hands before eating, drinking or smoking and at the end of the shift. Do not eat in poultry houses. Cover cuts. Report illness, especially flu-like symptoms during an avian influenza outbreak.</p>"
+  },
+  {
+   "title": "Monitoring, incidents and emergencies",
+   "minutes": 15,
+   "html": "<h3>Keeping safety alive every day</h3><h4>Inspections</h4><p>Do a short daily check and a fuller weekly inspection with a checklist: guards, electrical cables, gas fittings, fire extinguishers, first aid box, chemical store, PPE use, housekeeping, ladders. Record problems, assign who will fix them and by when, and check that they are fixed.</p><h4>Training and toolbox talks</h4><p>New workers must be trained before they start a task. Hold short toolbox talks on topics such as safe lifting, chemical handling or what to do in a fire. Keep a training register.</p><h4>Reporting and investigating incidents</h4><ol><li>Give first aid or get help; make the area safe.</li><li>Report to the manager. Serious incidents must be reported to the Department of Employment and Labour as the OHS Act requires.</li><li>Record what happened, who was involved and witnesses.</li><li>Find the root cause and agree corrective actions.</li><li>Share lessons with the team.</li></ol><p>Near misses must also be reported, because they warn of future accidents. Injured workers' claims are handled under the Compensation for Occupational Injuries and Diseases Act.</p><h4>Emergencies</h4><ul><li><strong>Fire</strong>: raise the alarm, evacuate, call the fire service; fight only small fires if trained and safe.</li><li><strong>Gas leak</strong>: shut off gas if safe, no flames or switches, ventilate, evacuate.</li><li><strong>Chemical spill</strong>: keep people away, wear PPE, contain with absorbent material, follow the safety data sheet.</li><li><strong>Power failure</strong>: start the generator as per procedure, since birds can die quickly without ventilation.</li></ul><h4>First aid</h4><p>Ensure trained first aiders are on site and first aid boxes are stocked. First aid and basic life support require hands-on training by an accredited provider.</p><h4>Key points</h4><ul><li>Poultry farm hazards include dust, ammonia, zoonoses, chemicals, machinery, electricity and gas.</li><li>Use risk assessments and make sure PPE is suitable and used.</li><li>Lock out machines before maintenance; test gas fittings with soapy water, never a flame.</li><li>Inspect regularly, train workers and report incidents and near misses.</li><li>Know emergency procedures for fire, gas, chemical spills and power failure.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a zoonosis?",
+   "options": [
+    {
+     "text": "An illness that can pass from animals to people",
+     "correct": true
+    },
+    {
+     "text": "A type of feed",
+     "correct": false
+    },
+    {
+     "text": "A ventilation system",
+     "correct": false
+    },
+    {
+     "text": "A safety sign",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should gas fittings on brooders be checked for leaks?",
+   "options": [
+    {
+     "text": "With a lit match",
+     "correct": false
+    },
+    {
+     "text": "With soapy water",
+     "correct": true
+    },
+    {
+     "text": "By smell only",
+     "correct": false
+    },
+    {
+     "text": "By listening",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done before clearing a blocked feed auger?",
+   "options": [
+    {
+     "text": "Run it faster",
+     "correct": false
+    },
+    {
+     "text": "Remove the guard while running",
+     "correct": false
+    },
+    {
+     "text": "Switch it off and lock it out",
+     "correct": true
+    },
+    {
+     "text": "Ask a co-worker to hold it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the generator be started quickly during a power failure in a broiler house?",
+   "options": [
+    {
+     "text": "To save fuel",
+     "correct": false
+    },
+    {
+     "text": "To keep the radio on",
+     "correct": false
+    },
+    {
+     "text": "For the office computer",
+     "correct": false
+    },
+    {
+     "text": "Birds can die quickly without ventilation",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should chemicals be stored?",
+   "options": [
+    {
+     "text": "In a locked, ventilated store away from feed",
+     "correct": true
+    },
+    {
+     "text": "Next to feed bags",
+     "correct": false
+    },
+    {
+     "text": "In the poultry house",
+     "correct": false
+    },
+    {
+     "text": "In drink bottles",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Near misses should be reported even if no one was hurt.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may eat their lunch inside the poultry house to save time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which PPE is used on poultry farms? (select all that apply)",
+   "options": [
+    {
+     "text": "Dust masks during catching and clean-out",
+     "correct": true
+    },
+    {
+     "text": "Gloves and goggles for chemicals",
+     "correct": true
+    },
+    {
+     "text": "Hearing protection near loud fans",
+     "correct": true
+    },
+    {
+     "text": "Jewellery",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

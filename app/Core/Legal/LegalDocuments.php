@@ -76,7 +76,7 @@ class LegalDocuments
             [
                 'heading' => 'Who this policy is from',
                 'body'    => [
-                    "{$name} (\"we\", \"us\") operates the Mkhaya Hub business platform at {$op['site']}. "
+                    "{$name} (\"we\", \"us\") operates the Mkhaya Agri business platform at {$op['site']}. "
                         . 'This policy explains what personal information the platform collects, why, who it is '
                         . 'shared with, and what you can ask us to do about it.',
                     'The platform is sold to organisations, and most of the personal information in it is placed '

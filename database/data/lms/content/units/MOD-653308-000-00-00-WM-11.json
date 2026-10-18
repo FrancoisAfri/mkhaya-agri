@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-11",
+ "title": "Installing Tractor Hydraulic System Components and Parts",
+ "lessons": [
+  {
+   "title": "Hydraulic safety and preparation",
+   "minutes": 15,
+   "html": "<h3>The tractor hydraulic system</h3> <p>A tractor's hydraulic system has a reservoir (often the transmission housing), a pump, filters, control valves, the three-point linkage lift cylinder, remote (spool) valves with quick couplers, hoses, pipes and, on many tractors, hydraulic steering and brakes. In this module you install these parts under a qualified mechanic.</p> <h4>Why hydraulics are dangerous</h4> <ul> <li>Oil works at very high pressure. A pinhole leak can inject oil through your skin. It may look like a small prick, but it can cause serious tissue damage and needs a doctor <strong>immediately</strong>. Tell the doctor it is a hydraulic injection injury.</li> <li>Never feel for leaks with your hand. Pass a piece of cardboard or wood along the hose instead.</li> <li>A raised implement or loader can drop suddenly if a hose is loosened.</li> <li>Hot oil burns. Let the system cool before opening it.</li> </ul> <h4>Before you loosen any fitting</h4> <ol> <li>Lower the three-point linkage, loader and all implements to the ground or onto solid supports.</li> <li>Switch off the engine, remove the key and tag the tractor.</li> <li>Release stored pressure: move each control lever back and forth several times with the engine off. If the system has an accumulator, follow the manual to discharge it.</li> <li>Loosen fittings slowly with a rag over them, standing to the side.</li> </ol> <h4>Cleanliness is everything</h4> <p>Most hydraulic failures start with dirt. A grain of sand can score a valve spool or pump. Clean around fittings with a brush and clean solvent before you open them. Cap or plug every open port and hose end straight away with proper plastic caps, not rags. Keep new parts in their packaging until you fit them.</p> <p>Check that you have the correct parts: hose length, fitting thread type, pressure rating and filter part number must match the manual or the old part. A cheap hose with a lower pressure rating can burst in the field.</p>"
+  },
+  {
+   "title": "Fitting pumps, valves, cylinders and hoses",
+   "minutes": 20,
+   "html": "<h3>Installing the main components</h3> <h4>Pumps</h4> <ul> <li>Check the drive coupling or splines and replace worn parts.</li> <li>Fill the pump with clean oil before starting (priming) if the manual says so. A dry start can ruin a new pump.</li> <li>Fit new O-rings and tighten bolts evenly to the specified torque.</li> </ul> <h4>Control valves and spool valves</h4> <ul> <li>Fit new seals between valve sections. Tighten tie-rods or bolts in the order and torque the manual gives; uneven tightening can make spools stick.</li> <li>Connect control linkages and check that each lever moves freely and returns to neutral.</li> </ul> <h4>Cylinders</h4> <ul> <li>Support the cylinder while fitting pins. Fit new bushes if old ones are worn.</li> <li>Secure pins with the correct clips or bolts.</li> <li>Never stand where a cylinder or linkage could crush you if it moves.</li> </ul> <h4>Hoses and pipes</h4> <ul> <li>Route hoses as the old ones were, away from hot exhaust parts, sharp edges and moving parts. Use the clamps provided.</li> <li>Do not twist a hose when tightening. Hold the hose fitting with one spanner and tighten the nut with another.</li> <li>Leave enough slack for movement of the linkage or steering, but not so much that the hose rubs.</li> <li>Match thread types. Never force a fitting that does not screw in easily by hand at first; it may be the wrong thread.</li> </ul> <h4>Filters and oil</h4> <p>Replace filters when installing major parts, because debris from the old failure may still be in the system. Fill with the oil grade the manual specifies. Tractors that use the transmission as the reservoir need a universal tractor transmission oil of the stated specification; the wrong oil can cause brake chatter and wet clutch problems.</p>"
+  },
+  {
+   "title": "Bleeding, testing and recording",
+   "minutes": 15,
+   "html": "<h3>Getting the air out</h3> <p>Air in the system makes the linkage jerky, the steering spongy and the pump noisy. After installation:</p> <ol> <li>Check the oil level with the linkage down and cylinders retracted.</li> <li>Start the engine at low idle.</li> <li>Slowly operate each function through its full stroke several times: lift, lower, each remote, loader, steering lock to lock.</li> <li>Bleed points as described in the manual, for example on brakes or steering.</li> <li>Stop the engine and top up the oil.</li> </ol> <h3>Testing the work</h3> <ul> <li>Check that the three-point linkage lifts smoothly and holds its position without creeping down.</li> <li>Test draft and position control if fitted.</li> <li>Connect a test implement or cylinder to the remotes and check both directions.</li> <li>Where the job requires it, your supervisor will fit a pressure gauge and flow meter to check relief valve pressure and pump flow against the manual.</li> <li>Look for leaks at every joint you touched, using cardboard, not your hand.</li> <li>Check that hoses do not rub or stretch through the full movement of the linkage and steering.</li> </ul> <h3>Recording and clean-up</h3> <p>Write on the job card: parts and part numbers, oil and quantity, filter numbers, test pressures if measured, hours and your signature. Old oil and filters are hazardous waste; put them in the marked drums for a registered collector. Clean oil off the tractor and the floor.</p> <h4>Key points</h4> <ul> <li>Lower all loads and release stored pressure before loosening any fitting.</li> <li>Never feel for leaks by hand; an oil injection injury needs a doctor immediately.</li> <li>Keep the system clean and cap every open port.</li> <li>Use parts with the correct pressure rating and thread type, and the oil grade from the manual.</li> <li>Bleed air, test every function, check for leaks and record the job.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the safe way to look for a hydraulic leak?",
+   "options": [
+    {
+     "text": "Pass a piece of cardboard along the hose",
+     "correct": true
+    },
+    {
+     "text": "Squeeze the hose while the engine runs",
+     "correct": false
+    },
+    {
+     "text": "Put your face close to listen",
+     "correct": false
+    },
+    {
+     "text": "Run your hand along the hose",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before loosening a hydraulic fitting?",
+   "options": [
+    {
+     "text": "Run the engine at full speed",
+     "correct": false
+    },
+    {
+     "text": "Remove the oil filter",
+     "correct": false
+    },
+    {
+     "text": "Raise the linkage fully",
+     "correct": false
+    },
+    {
+     "text": "Lower all loads and release stored pressure",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should hydraulic ports be capped straight away when opened?",
+   "options": [
+    {
+     "text": "To keep dirt out of the system",
+     "correct": true
+    },
+    {
+     "text": "To stop the pump from turning",
+     "correct": false
+    },
+    {
+     "text": "To increase pressure",
+     "correct": false
+    },
+    {
+     "text": "To make the oil cooler",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you tighten a hose fitting so the hose does not twist?",
+   "options": [
+    {
+     "text": "Twist the whole hose by hand",
+     "correct": false
+    },
+    {
+     "text": "Tighten with pliers on the hose",
+     "correct": false
+    },
+    {
+     "text": "Hold the hose fitting with one spanner and turn the nut with another",
+     "correct": true
+    },
+    {
+     "text": "Tighten it with the engine running",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "After installing parts, how is air removed from the system?",
+   "options": [
+    {
+     "text": "By operating each function slowly through its full stroke several times",
+     "correct": true
+    },
+    {
+     "text": "By opening all fittings with the engine running",
+     "correct": false
+    },
+    {
+     "text": "Air does not need to be removed",
+     "correct": false
+    },
+    {
+     "text": "By overfilling the reservoir",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A small hydraulic oil injection through the skin can be treated at home with a plaster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Using the wrong oil in a tractor that uses its transmission as the hydraulic reservoir can cause brake and clutch problems.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks belong to testing after installation? (select all that apply)",
+   "options": [
+    {
+     "text": "Feeling the hoses for leaks with bare hands",
+     "correct": false
+    },
+    {
+     "text": "Hoses do not rub through full movement",
+     "correct": true
+    },
+    {
+     "text": "The linkage holds position without creeping down",
+     "correct": true
+    },
+    {
+     "text": "Each remote works in both directions",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

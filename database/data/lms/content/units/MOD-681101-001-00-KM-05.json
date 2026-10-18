@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-05",
+ "title": "Beef Slaughter Equipment",
+ "lessons": [
+  {
+   "title": "Equipment on the beef slaughter line",
+   "minutes": 20,
+   "html": "<h3>Knowing your equipment</h3><p>A beef slaughterer works with many tools and machines. You must know what each is for, how to use it safely and how to keep it clean.</p><table><tr><th>Equipment</th><th>Use</th></tr><tr><td>Stunning box (restraining pen)</td><td>Holds one animal still for accurate stunning</td></tr><tr><td>Captive bolt stunner (penetrating)</td><td>Makes the animal unconscious with a bolt to the head</td></tr><tr><td>Shackles, hoist and overhead rail</td><td>Lift the stunned animal and move carcasses along the line</td></tr><tr><td>Sticking knife and blood trough</td><td>Bleeding and collecting blood</td></tr><tr><td>Knives (skinning, boning, sticking) and steel</td><td>Cutting and flaying; the steel keeps the edge</td></tr><tr><td>Hock cutters</td><td>Removing feet</td></tr><tr><td>Hide puller</td><td>Pulls the hide off mechanically</td></tr><tr><td>Brisket saw</td><td>Opens the chest</td></tr><tr><td>Splitting saw</td><td>Splits the carcass into two sides along the backbone</td></tr><tr><td>Platforms (fixed or moving)</td><td>Bring the worker to the right height</td></tr><tr><td>Offal trays, trolleys and chutes</td><td>Carry offal to inspection and the offal rooms</td></tr><tr><td>Knife sterilisers and hand-wash stations</td><td>Hot water for hygiene</td></tr><tr><td>Scale and labelling equipment</td><td>Weigh and identify carcasses</td></tr></table><h3>Knives</h3><p>Your knife is your most important tool. Different jobs need different blades. Keep each knife sharp on a stone or grinder, and use the steel often during work to keep the edge straight. Keep handles clean and undamaged so they do not slip. Never use a knife with a loose or cracked handle.</p><h3>Personal equipment</h3><p>Your scabbard, chain-mail glove, apron and steel are also equipment. Check them at the start of each shift and keep them clean.</p><p>At the start of every shift, check that your knives are sharp, your scabbard is clean and your mesh glove fits well and has no broken rings. Report any broken personal equipment so it can be replaced before you start work on the line.</p>"
+  },
+  {
+   "title": "Using, cleaning and checking equipment",
+   "minutes": 20,
+   "html": "<h3>Using equipment safely</h3><ul><li>Only use machines you have been trained and authorised to use.</li><li>Check before use: guards in place, cables and hoses not damaged, emergency stop working.</li><li>Use saws with both hands on the handles and keep the other worker clear.</li><li>Captive bolt stunner: use the right cartridge strength for the animal as instructed, keep it pointed down, never at people, and unload it when not in use. If an animal is not properly stunned, re-stun immediately with the backup stunner.</li><li>Never stand under a carcass on the hoist or rail.</li><li>Report faults at once. Do not use faulty equipment.</li></ul><h3>Hygiene of equipment</h3><p>Equipment that touches meat must be clean and sanitised. Saws and hide pullers must be cleaned between carcasses where required, and knives and hands sterilised after every contamination. The hot water in sterilisers must be at the set temperature. Report a cold steriliser to your supervisor.</p><h3>Cleaning at the end of the shift</h3><ol><li>Switch off and lock out machines before cleaning.</li><li>Remove large pieces of fat and meat by hand (dry clean).</li><li>Rinse with warm water.</li><li>Apply detergent and scrub.</li><li>Rinse again.</li><li>Sanitise with the approved sanitiser at the right strength.</li><li>Let it dry; store knives in a clean, dry place.</li></ol><p>Wear gloves and goggles when using cleaning chemicals.</p><h3>Maintenance</h3><p>Stunners need regular servicing and cleaning as the manufacturer says, because a dirty stunner gives a weak shot. Saw blades must be sharp and correctly tensioned. Shackles and hooks must be checked for wear. Write faults in the maintenance book.</p><h4>Key points</h4><ul><li>Know the use of each tool: stunner, shackles, knives, hide puller, saws.</li><li>Keep knives sharp and handles sound.</li><li>Check guards and emergency stops before use and report faults.</li><li>Re-stun immediately if an animal is not properly stunned.</li><li>Clean, sanitise and lock out equipment at the end of the shift.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the splitting saw used for?",
+   "options": [
+    {
+     "text": "Opening the chest",
+     "correct": false
+    },
+    {
+     "text": "Removing feet",
+     "correct": false
+    },
+    {
+     "text": "Cutting the hide",
+     "correct": false
+    },
+    {
+     "text": "Splitting the carcass into two sides along the backbone",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the steel used for?",
+   "options": [
+    {
+     "text": "Keeping the knife edge straight during work",
+     "correct": true
+    },
+    {
+     "text": "Stunning cattle",
+     "correct": false
+    },
+    {
+     "text": "Weighing carcasses",
+     "correct": false
+    },
+    {
+     "text": "Hanging the carcass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen if an animal is not properly stunned?",
+   "options": [
+    {
+     "text": "Continue with bleeding",
+     "correct": false
+    },
+    {
+     "text": "Wait to see if it calms down",
+     "correct": false
+    },
+    {
+     "text": "Re-stun immediately with the backup stunner",
+     "correct": true
+    },
+    {
+     "text": "Release it to the lairage",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must stunners be cleaned and serviced regularly?",
+   "options": [
+    {
+     "text": "To make them look new",
+     "correct": false
+    },
+    {
+     "text": "A dirty stunner gives a weak shot",
+     "correct": true
+    },
+    {
+     "text": "To use fewer cartridges",
+     "correct": false
+    },
+    {
+     "text": "Because they rust overnight",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in end-of-shift cleaning of a machine?",
+   "options": [
+    {
+     "text": "Switch off and lock out the machine",
+     "correct": true
+    },
+    {
+     "text": "Spray sanitiser",
+     "correct": false
+    },
+    {
+     "text": "Rinse with cold water",
+     "correct": false
+    },
+    {
+     "text": "Scrub with a brush",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand under a carcass that is on the hoist.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A knife with a cracked handle should not be used.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should be made before using a machine? (select all that apply)",
+   "options": [
+    {
+     "text": "The machine has been painted recently",
+     "correct": false
+    },
+    {
+     "text": "Guards are in place",
+     "correct": true
+    },
+    {
+     "text": "Cables and hoses are not damaged",
+     "correct": true
+    },
+    {
+     "text": "Emergency stop works",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

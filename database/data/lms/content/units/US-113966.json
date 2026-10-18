@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-113966",
+ "title": "Identify security, safety and environmental risks in the local environment",
+ "lessons": [
+  {
+   "title": "Safety risks around you",
+   "minutes": 15,
+   "html": "<h3>What is a risk?</h3><p>A hazard is something that can hurt you, like a moving auger or a slippery floor. A risk is the chance that it will hurt someone. On a farm, at a silo or in a grain store there are many hazards. If you learn to see them, you can stay safe and keep others safe.</p><h4>Common safety hazards at work</h4><table><tr><th>Hazard</th><th>What can happen</th></tr><tr><td>Moving machines: augers, conveyors, belts, tractors</td><td>Clothes or hands get pulled in; people get run over</td></tr><tr><td>Grain bins and silos</td><td>A person sinks in grain and cannot breathe</td></tr><tr><td>Grain dust</td><td>Breathing problems; dust can burn or explode</td></tr><tr><td>Heavy bags</td><td>Back injuries; falling stacks</td></tr><tr><td>Chemicals and poisons</td><td>Burns, poisoning</td></tr><tr><td>Heights: ladders, truck tops</td><td>Falls</td></tr><tr><td>Electricity</td><td>Shock, burns, fire</td></tr></table><h4>What you must do</h4><ul><li>Wear your safety shoes, overalls, gloves and dust mask.</li><li>Keep away from moving parts. Never take off a guard.</li><li>Never go into a bin or silo unless you are trained and have permission.</li><li>Do not smoke near grain, fuel or chemicals.</li><li>Keep walkways clean. Sweep up spilled grain.</li><li>Lift with your legs, not your back.</li></ul><h4>Report it</h4><p>If you see something unsafe, tell your supervisor straight away. A broken guard, a leaking pipe or a loose ladder can hurt someone tomorrow. The Occupational Health and Safety Act 85 of 1993 says workers must report unsafe things and must work safely. Reporting is not getting someone into trouble. It is keeping everyone safe.</p><h4>Safety signs</h4><p>Learn the signs. Red signs often mean \"stop\" or \"do not\". Blue signs tell you what you must wear. Yellow signs warn of danger. Green signs show first aid and emergency exits.</p>"
+  },
+  {
+   "title": "Security risks",
+   "minutes": 15,
+   "html": "<h3>What is security?</h3><p>Security means keeping people, grain, machines and money safe from theft, damage and crime. Farms and silos have valuable things: grain, fuel, fertiliser, tools, batteries, cattle and cables. Criminals know this.</p><h4>Signs of a security risk</h4><ul><li>A gate or door left open or unlocked.</li><li>A broken fence or a hole under the fence.</li><li>Strangers walking around without a visitor's badge.</li><li>A vehicle parked where it should not be, especially at night.</li><li>Missing tools, fuel or bags.</li><li>Broken locks or lights that do not work.</li></ul><h4>What you can do</h4><ol><li>Lock gates, doors and stores when you leave them.</li><li>Do not lend keys to anyone without permission.</li><li>Ask strangers politely who they are looking for, and take them to the office or security. Do not fight with anyone.</li><li>Do not tell people outside work when cash, fuel or grain is being moved.</li><li>Report anything strange to your supervisor or security.</li></ol><h4>Your own safety comes first</h4><p>If you see a crime happening, do not try to stop it yourself. Go to a safe place. Call security, your supervisor or the police on 10111. Remember what you saw: how many people, what they wore, the vehicle and its number plate.</p><h4>Stock theft</h4><p>On farms with animals, check fences and count animals often. Report missing animals quickly. Fast reporting helps the police find stolen livestock.</p><h4>Honesty</h4><p>Taking things from work, even small things like a bag of grain or some diesel, is theft. It can cost you your job and lead to a criminal case.</p>"
+  },
+  {
+   "title": "Environmental risks",
+   "minutes": 15,
+   "html": "<h3>What is the environment?</h3><p>The environment is the land, water, air, plants and animals around us. Work on farms and at silos can harm the environment if we are careless. We all need clean water, healthy soil and clean air.</p><h4>Environmental risks at work</h4><table><tr><th>Risk</th><th>What to do</th></tr><tr><td>Diesel or oil spills</td><td>Stop the leak if safe, use sand or absorbent, tell your supervisor</td></tr><tr><td>Chemical spills</td><td>Keep people away, do not touch, report at once</td></tr><tr><td>Washing sprayers near a river or dam</td><td>Never do it; use the proper wash area</td></tr><tr><td>Rubbish and plastic</td><td>Put it in the right bin; do not burn plastic</td></tr><tr><td>Empty chemical containers</td><td>Never use them for water or food; return them as the site rules say</td></tr><tr><td>Veld fires</td><td>No fires or smoking in the veld; report smoke at once</td></tr><tr><td>Grain dust and waste grain</td><td>Clean up; waste grain brings rats and birds</td></tr></table><h4>Water</h4><p>Water is precious in South Africa. Close taps. Report leaks. Never let oil, chemicals or dirty water run into a river, dam or borehole. The National Water Act 36 of 1998 protects water resources.</p><h4>Soil</h4><p>Do not let fuel or chemicals soak into the soil. Keep vehicles on roads so soil does not get hard and bare.</p><h4>Fire</h4><p>In winter the veld is dry. A small spark can start a big fire. Know where the fire beaters and extinguishers are, and know the emergency number for your farm or site.</p><h4>Key points</h4><ul><li>Look for hazards and report them straight away.</li><li>Keep away from moving machines and never enter a bin without permission.</li><li>Lock up and report strangers or damage; do not fight criminals.</li><li>Clean up spills and keep chemicals out of water and soil.</li><li>No fires or smoking in dry veld.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a hazard?",
+   "options": [
+    {
+     "text": "A safety shoe",
+     "correct": false
+    },
+    {
+     "text": "Something that can hurt you",
+     "correct": true
+    },
+    {
+     "text": "A type of tractor",
+     "correct": false
+    },
+    {
+     "text": "A grain grade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see a broken guard on a conveyor. What do you do?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Use it carefully",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor straight away",
+     "correct": true
+    },
+    {
+     "text": "Take the guard home",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see people stealing diesel at night. What should you do?",
+   "options": [
+    {
+     "text": "Shout at them",
+     "correct": false
+    },
+    {
+     "text": "Take some diesel too",
+     "correct": false
+    },
+    {
+     "text": "Fight them",
+     "correct": false
+    },
+    {
+     "text": "Go to a safe place and call security or the police",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with an empty chemical container?",
+   "options": [
+    {
+     "text": "Give it to a neighbour",
+     "correct": false
+    },
+    {
+     "text": "Throw it in the river",
+     "correct": false
+    },
+    {
+     "text": "Return or dispose of it as the site rules say",
+     "correct": true
+    },
+    {
+     "text": "Use it for drinking water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which colour safety sign shows first aid and emergency exits?",
+   "options": [
+    {
+     "text": "Green",
+     "correct": true
+    },
+    {
+     "text": "Red",
+     "correct": false
+    },
+    {
+     "text": "Yellow",
+     "correct": false
+    },
+    {
+     "text": "Blue",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers must report unsafe things at work.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to wash a sprayer in the river if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are security risks? (select all that apply)",
+   "options": [
+    {
+     "text": "A gate left unlocked",
+     "correct": true
+    },
+    {
+     "text": "A hole under the fence",
+     "correct": true
+    },
+    {
+     "text": "A stranger with no visitor's badge",
+     "correct": true
+    },
+    {
+     "text": "A clean, locked store",
+     "correct": false
+    },
+    {
+     "text": "Lights that work well",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

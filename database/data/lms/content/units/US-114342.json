@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-114342",
+ "title": "Classify beef carcasses",
+ "lessons": [
+  {
+   "title": "The South African beef classification system",
+   "minutes": 18,
+   "html": "<h3>Why classify carcasses?</h3>\n<p>Classification describes a carcass so that buyers and consumers know what they are paying for. In South Africa, beef carcasses are classified under the regulations made under the <strong>Agricultural Product Standards Act 119 of 1990</strong>. Classification is done by trained, registered classifiers at the abattoir after slaughter and dressing, and the result is shown by roller marks and stamps on the carcass.</p>\n<h4>The main characteristics</h4>\n<table><tr><th>Characteristic</th><th>How it is judged</th><th>Classes</th></tr>\n<tr><td>Age</td><td>Number of permanent incisor teeth</td><td>A (no permanent incisors), AB (1 to 2), B (3 to 6), C (more than 6)</td></tr>\n<tr><td>Fatness</td><td>Visual assessment of subcutaneous fat cover</td><td>Fat codes 0 (no fat) to 6 (excessively fat)</td></tr>\n<tr><td>Conformation</td><td>Shape and muscling of the carcass</td><td>1 (very flat) to 5 (very round)</td></tr>\n<tr><td>Damage</td><td>Bruising and trimming</td><td>Damage codes</td></tr></table>\n<p>Age is the main indicator of tenderness: younger animals give more tender meat. The age class is shown by the colour of the roller mark along the carcass. Purple is used for A, green for AB, brown for B and red for C. The fat code is stamped on the carcass.</p>\n<h4>Planning and preparing the task</h4>\n<ul><li>Check your classifier registration and that you are fit for the shift.</li>\n<li>Wear protective clothing: white coat or overalls, hairnet, hard hat if required, safety boots, and wash and sanitise hands.</li>\n<li>Prepare equipment: roller marks with the correct ink colours, stamps, a torch, a mouth opener or hook to see teeth, recording sheets or the electronic system.</li>\n<li>Know the line speed and your position on the line, after the head is available for teeth inspection and after the carcass is dressed and split.</li>\n<li>Check ink is food-grade and not mixed up between colours.</li></ul>"
+  },
+  {
+   "title": "Performing and completing classification",
+   "minutes": 16,
+   "html": "<h3>Performing the classification</h3>\n<ol><li><strong>Link head and carcass</strong>: make sure the head you inspect belongs to the carcass you mark, using the line number or tag.</li>\n<li><strong>Determine age</strong>: count permanent incisors. Temporary (milk) teeth are small and narrow; permanent teeth are large and broad. A calf with only milk teeth is A.</li>\n<li><strong>Assess fat</strong>: look at the fat cover over the carcass, especially over the loin and ribs. Compare with the official fat code standards and photos.</li>\n<li><strong>Assess conformation</strong>: look at the shape of the hindquarter, loin and shoulder.</li>\n<li><strong>Note damage</strong>: bruising that needs trimming lowers value. Report heavy bruising, as it may indicate rough handling or transport.</li>\n<li><strong>Apply marks</strong>: roll the correct colour roller along the full length of each side, and stamp the fat code and abattoir number clearly.</li></ol>\n<h4>Accuracy and fairness</h4>\n<p>Farmers are paid on classification, so mistakes cost money. A carcass wrongly put in class B instead of A can lose a significant amount per kilogram for the farmer. Classifiers must be independent: never accept pressure from buyers or sellers to change a class. Supervisors and the industry's assessment body check classifiers' accuracy.</p>\n<h4>Completing the classification</h4>\n<ul><li>Record each carcass: number, class, fat code, conformation, damage, mass.</li>\n<li>Check that the record matches the marks on the carcass.</li>\n<li>Report problems: unclear marks, missing heads, carcasses that could not be classified.</li>\n<li>Clean rollers and stamps, store inks closed, and leave the station clean.</li>\n<li>Hand in records according to abattoir procedure; they are used for payment and industry statistics.</li></ul>\n<h4>Hygiene</h4>\n<p>You touch many carcasses. Sanitise hands and tools regularly, never touch the floor and then the meat, and report any illness such as diarrhoea before working.</p>\n<h4>Key points</h4>\n<ul><li>Beef is classified under the Agricultural Product Standards Act 119 of 1990.</li>\n<li>Age classes A, AB, B and C are based on permanent incisors and shown by roller colour.</li>\n<li>Fat codes run from 0 to 6 and conformation from 1 to 5.</li>\n<li>Link the head to the right carcass, mark clearly and record every carcass.</li>\n<li>Classify independently and hygienically, because payment depends on it.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Under which Act are beef carcasses classified?",
+   "options": [
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A carcass from an animal with 3 to 6 permanent incisors is in which age class?",
+   "options": [
+    {
+     "text": "B",
+     "correct": true
+    },
+    {
+     "text": "AB",
+     "correct": false
+    },
+    {
+     "text": "A",
+     "correct": false
+    },
+    {
+     "text": "C",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which roller mark colour shows age class A?",
+   "options": [
+    {
+     "text": "Green",
+     "correct": false
+    },
+    {
+     "text": "Purple",
+     "correct": true
+    },
+    {
+     "text": "Brown",
+     "correct": false
+    },
+    {
+     "text": "Red",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does fat code 0 mean?",
+   "options": [
+    {
+     "text": "No fat",
+     "correct": true
+    },
+    {
+     "text": "Excessively fat",
+     "correct": false
+    },
+    {
+     "text": "Very round",
+     "correct": false
+    },
+    {
+     "text": "Medium fat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main purpose of the age class?",
+   "options": [
+    {
+     "text": "To show the breed",
+     "correct": false
+    },
+    {
+     "text": "To show the colour of the hide",
+     "correct": false
+    },
+    {
+     "text": "To indicate tenderness",
+     "correct": true
+    },
+    {
+     "text": "To show the farm of origin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Classifiers should change a class if a buyer asks them to.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Heavy bruising should be reported because it may point to rough handling or transport.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which characteristics are assessed in beef classification? (select all that apply)",
+   "options": [
+    {
+     "text": "Age",
+     "correct": true
+    },
+    {
+     "text": "Coat colour",
+     "correct": false
+    },
+    {
+     "text": "Conformation",
+     "correct": true
+    },
+    {
+     "text": "Fatness",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-116166",
+ "title": "Apply basic food safety practices",
+ "lessons": [
+  {
+   "title": "Personal hygiene when handling food",
+   "minutes": 15,
+   "html": "<h3>Food safety starts with you</h3><p>On a farm you may pick, pack or handle food such as fruit, vegetables, eggs or milk. People will eat this food. If it is dirty or carries germs, they can get very sick. Your own hygiene is the first line of defence.</p><h3>Wash your hands</h3><p>Wash your hands with soap and clean water:</p><ul><li>before you start work,</li><li>after using the toilet,</li><li>after eating, smoking or touching your face or hair,</li><li>after touching animals, manure, rubbish or chemicals,</li><li>after a break.</li></ul><p>Wet your hands, use soap, rub the backs, between the fingers and under the nails for about 20 seconds, rinse and dry with a clean paper towel. Do not dry your hands on your clothes.</p><h3>Dress for clean work</h3><ul><li>Wear clean clothes or the overall and apron the farm gives you.</li><li>Cover your hair with a cap or hairnet in the packhouse.</li><li>Take off rings, watches and earrings. They hold dirt and can fall into the product.</li><li>Keep your nails short and clean.</li></ul><h3>When you are sick</h3><p>If you have diarrhoea, vomiting, a fever or an open sore, tell your supervisor <strong>before</strong> you start work. You may need to do other work that does not involve food. Cover small cuts with a waterproof plaster, and wear gloves over it.</p><h3>Habits to stop</h3><ul><li>Do not eat, chew gum, smoke or spit in the field while picking or in the packhouse.</li><li>Do not cough or sneeze over food. Turn away and use your elbow.</li><li>Use the toilets provided. Never relieve yourself in the orchard or field.</li></ul>"
+  },
+  {
+   "title": "Contamination risks and how to prevent them",
+   "minutes": 15,
+   "html": "<h3>What is contamination?</h3><p>Food is <strong>contaminated</strong> when something harmful gets into it or onto it. There are three main types:</p><table><tr><th>Type</th><th>Examples on a farm</th></tr><tr><td>Biological (germs)</td><td>Dirty hands, manure, sick workers, dirty water, animals and birds</td></tr><tr><td>Chemical</td><td>Spray residues, fuel, cleaning chemicals, rat poison</td></tr><tr><td>Physical (foreign objects)</td><td>Glass, stones, wood splinters, hair, jewellery, plastic</td></tr></table><h3>How to prevent contamination</h3><ul><li><strong>Clean hands and clothes</strong>, as you learnt in the first lesson.</li><li><strong>Clean containers</strong>: use only clean picking crates and bins. Do not put crates directly on the soil or in manure.</li><li><strong>Keep animals away</strong> from the crops and the packhouse. Dogs, chickens and goats must not walk among the produce.</li><li><strong>Keep chemicals apart</strong>: never put fuel, sprays or cleaning products near food or in food containers. Never use an old chemical bottle to carry water or food.</li><li><strong>Watch the re-entry and harvest signs</strong>: some sprays mean you may not enter a field or pick for a time.</li><li><strong>Report glass breaks</strong>: if a light or bottle breaks near food, stop work and tell your supervisor.</li><li><strong>Throw away</strong> food that fell on the ground, if your farm rules say so.</li></ul><h3>Keep food cool and covered</h3><p>Germs grow fast in warm food. Keep picked produce in the shade and get it to the cold room quickly.</p><h4>A farm example</h4><p>On a vegetable farm, a picker puts a crate of spinach on the ground next to the kraal. Dust and manure from the animals blow onto the leaves. The spinach is now contaminated, even if it looks clean. Always keep crates off the ground and away from animals and their manure.</p>"
+  },
+  {
+   "title": "Warning signs about product safety",
+   "minutes": 15,
+   "html": "<h3>Why there are warning signs</h3><p>Farms use signs to tell workers about dangers to the food and to themselves. You must know the signs and obey them every time.</p><h3>Common signs you will see</h3><ul><li><strong>Sprayed area / no entry</strong>: the field or orchard was sprayed. Do not go in and do not pick until the supervisor says it is safe.</li><li><strong>Wash your hands</strong>: at toilets and at the entrance to the packhouse.</li><li><strong>No eating, drinking or smoking</strong>: in the packhouse, cold rooms and fields being harvested.</li><li><strong>Hairnets and protective clothing required</strong>: at the door to food handling areas.</li><li><strong>Chemical store / poison</strong>: keep out unless you are trained and allowed.</li><li><strong>Not drinking water</strong>: on taps with irrigation or dam water. Never drink from or wash produce in this water unless told to.</li></ul><h3>Labels on products</h3><p>Food that is packed must carry the right label. If you see a box with a missing or wrong label, or a product that looks spoiled, mouldy or damaged, put it aside and tell your supervisor. Do not pack it.</p><h3>If something goes wrong</h3><ol><li>Stop what you are doing.</li><li>Keep the product apart so it does not get mixed with good product.</li><li>Tell your supervisor straight away.</li></ol><p>Reporting a problem is never wrong. A single contaminated box can make many people sick and can cost the farm its buyers.</p><h4>Key points</h4><ul><li>Wash your hands with soap often, especially after the toilet.</li><li>Tell your supervisor if you are sick before you handle food.</li><li>Contamination can be germs, chemicals or foreign objects.</li><li>Keep animals and chemicals away from food.</li><li>Obey every warning sign and report problems at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When must you wash your hands?",
+   "options": [
+    {
+     "text": "After using the toilet",
+     "correct": true
+    },
+    {
+     "text": "Only at the end of the day",
+     "correct": false
+    },
+    {
+     "text": "Only when they look dirty",
+     "correct": false
+    },
+    {
+     "text": "Only before lunch",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A piece of glass in a box of tomatoes is which type of contamination?",
+   "options": [
+    {
+     "text": "Biological",
+     "correct": false
+    },
+    {
+     "text": "Chemical",
+     "correct": false
+    },
+    {
+     "text": "Physical",
+     "correct": true
+    },
+    {
+     "text": "Natural",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you have diarrhoea before a shift in the packhouse?",
+   "options": [
+    {
+     "text": "Work as normal and wash your hands more",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor before you start work",
+     "correct": true
+    },
+    {
+     "text": "Take medicine and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Wear two pairs of gloves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a sprayed area / no entry sign mean?",
+   "options": [
+    {
+     "text": "You may pick if you are quick",
+     "correct": false
+    },
+    {
+     "text": "Only supervisors may pick there",
+     "correct": false
+    },
+    {
+     "text": "The water is safe to drink",
+     "correct": false
+    },
+    {
+     "text": "Do not go in until the supervisor says it is safe",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you take off rings and watches in the packhouse?",
+   "options": [
+    {
+     "text": "They may get stolen",
+     "correct": false
+    },
+    {
+     "text": "They hold dirt and can fall into the product",
+     "correct": true
+    },
+    {
+     "text": "They slow you down",
+     "correct": false
+    },
+    {
+     "text": "The machines need the space",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to carry drinking water in an old, empty spray bottle if you rinse it first.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Picked produce should be kept in the shade and taken to the cold room quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these can contaminate food on a farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Hair falling into the product",
+     "correct": true
+    },
+    {
+     "text": "Washing hands with soap",
+     "correct": false
+    },
+    {
+     "text": "A clean hairnet",
+     "correct": false
+    },
+    {
+     "text": "Manure on picking crates",
+     "correct": true
+    },
+    {
+     "text": "Spray residue",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

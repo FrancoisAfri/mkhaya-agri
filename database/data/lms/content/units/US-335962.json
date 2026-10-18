@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335962",
+ "title": "Install and maintain valve in head sprinklers and their control networks",
+ "lessons": [
+  {
+   "title": "Valve-in-head sprinklers and control networks",
+   "minutes": 20,
+   "html": "<h3>What a valve-in-head sprinkler is</h3><p>On ordinary landscape systems, one zone valve controls several sprinklers. A <strong>valve-in-head</strong> (VIH) sprinkler has its own valve built into the sprinkler body. Each head can be switched on and off individually by the controller. VIH heads are standard on golf course greens, tees and fairways and on high-quality sportsfields, where each part of the turf may need a different amount of water.</p><h4>Advantages</h4><ul><li>Precise control: water a single dry spot or run greens and surrounds differently</li><li>Even application, because heads at the edge of an area can run longer or shorter</li><li>Mainline is always under pressure up to each head, so long laterals with pressure loss are avoided</li><li>Faults affect one head, not a whole zone</li></ul><h4>Types of valve actuation</h4><table><tr><th>Type</th><th>How it works</th></tr><tr><td>Electric VIH</td><td>A 24 V solenoid on each head, controlled by a conventional multi-wire controller, satellite controllers or a two-wire decoder system</td></tr><tr><td>Hydraulic VIH</td><td>Valve opened or closed by water pressure through small hydraulic tubes from the controller (older systems)</td></tr></table><p>Most modern systems are electric, often using <strong>two-wire decoder</strong> networks: a single pair of cables loops around the course, and a small decoder at each head (or group) responds to its own address.</p><h4>Control network layout</h4><ul><li><strong>Central control:</strong> a computer or cloud system that sends programmes to field satellites or a two-wire interface, often with a weather station.</li><li><strong>Satellites:</strong> field controllers with many stations, each wired to heads nearby.</li><li><strong>Two-wire path:</strong> loops or branches from the interface to decoders; must be surge protected and earthed along its length as the manufacturer specifies.</li><li><strong>Communication:</strong> cable, radio or wireless links between central and satellites.</li></ul><h4>Safety</h4><p>Mainlines on golf courses carry high pressure. Isolate and depressurise before opening a head. Mains power at satellites and pump stations is for qualified electricians only. Watch for golfers and wear high-visibility clothing.</p>"
+  },
+  {
+   "title": "Installing valve-in-head sprinklers",
+   "minutes": 20,
+   "html": "<h3>Preparation</h3><ol><li>Study the as-designed plan: head positions, models, nozzle numbers, arcs, swing joint type, cable routes and decoder addresses.</li><li>Set out head positions with flags or paint, measuring from fixed points or using GPS as the designer requires. Spacing must match the design for uniform coverage.</li><li>Flush the mainline and laterals thoroughly before installing heads; debris jams VIH valves.</li></ol><h4>Swing joints</h4><p>Each head is connected to the pipe by a <strong>swing joint</strong>: a flexible assembly of elbows or a pre-made articulated joint. It allows the head to be set exactly at grade and protects the pipe if heavy machinery runs over the head. Use the pressure-rated swing joint specified for the mainline pressure, and tighten threaded joints as the manufacturer specifies.</p><h4>Setting the head</h4><ul><li>Set the head plumb (vertical) and the top flush with finished grade. On greens and sportsfields this is a safety and playing-quality requirement.</li><li>Place the head the correct distance from edges such as cart paths and bunkers.</li><li>Backfill with fine, stone-free soil, compacting in layers so the head does not tilt or sink.</li><li>Replace turf neatly.</li></ul><h4>Wiring the head</h4><ol><li>Bring the field cable to each head with an extra loop of cable (slack), so the head can be lifted for service.</li><li>Connect the solenoid or decoder wires with waterproof connectors approved for direct burial.</li><li>For decoder systems, record each decoder's address and the head it controls.</li><li>Place splices in a valve box where possible so they can be found later.</li></ol><h4>Nozzles and adjustment</h4><p>Fit the nozzles specified, set the arc for part-circle heads, and adjust radius only within the manufacturer's range. Heads in the same area should have matched precipitation rates.</p><h4>Testing</h4><p>Operate each head from the controller and manually at the head (most VIH heads have a manual on/off/auto selector). Check rotation, arc, radius and that the valve closes completely with no weeping.</p>"
+  },
+  {
+   "title": "Maintaining VIH sprinklers and their networks",
+   "minutes": 20,
+   "html": "<h3>Routine checks</h3><table><tr><th>Check</th><th>What to look for</th></tr><tr><td>Head operation</td><td>Rotates correctly, correct arc and radius, no misting</td></tr><tr><td>Height and level</td><td>Flush with grade, not tilted; turf growing over the cover</td></tr><tr><td>Valve function</td><td>Opens on command, closes fully; no weeping (wet spot at low heads)</td></tr><tr><td>Selector position</td><td>Left in AUTO after service</td></tr><tr><td>Controller and central</td><td>Communication with all satellites and decoders, alarm logs</td></tr><tr><td>Two-wire path</td><td>Current draw and diagnostics on the interface, surge device condition after storms</td></tr></table><h4>Common faults and remedies</h4><ul><li><strong>Head will not turn on:</strong> check manual selector, controller output or decoder response, solenoid resistance with a multimeter, wire splice condition, and blocked pilot ports.</li><li><strong>Head will not turn off (stuck on):</strong> debris in the valve seat, damaged piston or diaphragm, solenoid plunger stuck, or manual selector left on. Isolate the area or use the head's shut-off, then service the valve.</li><li><strong>Weeping:</strong> worn seal or debris on the seat; low-head drainage.</li><li><strong>Poor rotation:</strong> worn gear drive, debris in the inlet screen, low pressure.</li><li><strong>Several heads fail together:</strong> cable break or short on the shared path, failed decoder, satellite fault, or lightning damage.</li></ul><h4>Servicing the head</h4><ol><li>Isolate and depressurise.</li><li>Remove the snap ring or cover and lift out the internal assembly (most VIH heads are serviced from the top without digging).</li><li>Clean the inlet screen, valve seat and pilot passages; replace seals, piston or diaphragm and solenoid as needed with genuine parts.</li><li>Reassemble, set selector to AUTO, test and adjust.</li></ol><h4>Fault-finding tools</h4><p>Multimeter, decoder programmer or tester, cable fault locator, and the system's diagnostic software. Record each repair on the head's record (head number, fault, parts, date).</p><h4>Key points</h4><ul><li>VIH heads have their own valves for individual control.</li><li>Flush pipes before fitting and use pressure-rated swing joints.</li><li>Set heads plumb and flush with grade, with slack cable and waterproof splices.</li><li>Record decoder addresses and test each head.</li><li>Service from the top after depressurising and leave selectors in AUTO.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main feature of a valve-in-head sprinkler?",
+   "options": [
+    {
+     "text": "It has no nozzle",
+     "correct": false
+    },
+    {
+     "text": "It runs only on hydraulic tubes",
+     "correct": false
+    },
+    {
+     "text": "It has its own valve inside the sprinkler body",
+     "correct": true
+    },
+    {
+     "text": "It needs no controller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a swing joint used under each head?",
+   "options": [
+    {
+     "text": "To set the head at grade and protect the pipe from machine loads",
+     "correct": true
+    },
+    {
+     "text": "To filter water",
+     "correct": false
+    },
+    {
+     "text": "To increase pressure",
+     "correct": false
+    },
+    {
+     "text": "To hold the decoder",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a two-wire decoder system, how does each head know when to run?",
+   "options": [
+    {
+     "text": "By the colour of the wire",
+     "correct": false
+    },
+    {
+     "text": "By its distance from the pump",
+     "correct": false
+    },
+    {
+     "text": "By the time of day only",
+     "correct": false
+    },
+    {
+     "text": "Its decoder responds to its own address",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Several heads on the same cable path fail at once after a storm. What is a likely cause?",
+   "options": [
+    {
+     "text": "A blocked nozzle on one head",
+     "correct": false
+    },
+    {
+     "text": "Lightning damage or a cable fault on the shared path",
+     "correct": true
+    },
+    {
+     "text": "A tilted head",
+     "correct": false
+    },
+    {
+     "text": "Low grass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "After servicing a VIH head, where should the manual selector be left?",
+   "options": [
+    {
+     "text": "OFF",
+     "correct": false
+    },
+    {
+     "text": "ON",
+     "correct": false
+    },
+    {
+     "text": "AUTO",
+     "correct": true
+    },
+    {
+     "text": "Removed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pipes should be flushed before VIH heads are installed because debris jams the valves.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Wire splices at heads can be made with ordinary insulation tape for direct burial.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be checked on VIH sprinklers during routine maintenance? (select all that apply)",
+   "options": [
+    {
+     "text": "Arc, radius and rotation",
+     "correct": true
+    },
+    {
+     "text": "Height and level",
+     "correct": true
+    },
+    {
+     "text": "Whether the valve closes fully",
+     "correct": true
+    },
+    {
+     "text": "The brand of mower used",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

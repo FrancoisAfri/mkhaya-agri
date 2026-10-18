@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12462",
+ "title": "Engage in a range of speaking and listening interactions for a variety of purposes",
+ "lessons": [
+  {
+   "title": "Listening well",
+   "minutes": 15,
+   "html": "<h3>Why listening matters at work</h3>\n<p>On a farm or in a plant, people give instructions all the time: which camp to move the cattle to, how much feed to give, when the truck is coming. If you do not listen well, you can make mistakes that cost money or hurt someone. Good listening is a skill you can learn.</p>\n<h4>How to be a good listener</h4>\n<ul>\n<li><strong>Stop what you are doing</strong> and look at the person who is talking.</li>\n<li><strong>Turn off noise</strong> if you can &ndash; switch off the tractor or move away from the machine.</li>\n<li><strong>Do not interrupt.</strong> Let the person finish.</li>\n<li><strong>Show you are listening</strong> &ndash; nod, or say \"yes\" or \"I see\".</li>\n<li><strong>Listen for the main points:</strong> what, where, when, how many and who.</li>\n<li><strong>Ask a question</strong> if you do not understand. It is better to ask than to guess.</li>\n</ul>\n<h4>Repeat back</h4>\n<p>A simple way to check that you understood is to repeat the instruction in your own words.</p>\n<p><em>Supervisor:</em> \"Take the bakkie and fetch ten bags of lucerne from the store. Bring them to the calf pens before twelve.\"</p>\n<p><em>Worker:</em> \"So I must bring ten bags of lucerne to the calf pens before twelve o'clock?\"</p>\n<p><em>Supervisor:</em> \"Yes, that's right.\"</p>\n<p>Now both people know that the message is clear.</p>\n<h4>Listening in a group</h4>\n<p>At a toolbox talk or a morning meeting, many people listen at once. Stand where you can hear. If you miss something, ask after the meeting. Listen to other workers' questions &ndash; they may ask what you also wanted to know.</p>\n<h4>Listening to feelings</h4>\n<p>Sometimes a co-worker is upset or worried. Listen quietly, let them talk and do not laugh or judge. You do not have to fix the problem, but you can say, \"Do you want to talk to the supervisor? I can go with you.\" Good listening builds trust in a team.</p>"
+  },
+  {
+   "title": "Speaking clearly",
+   "minutes": 15,
+   "html": "<h3>Getting your message across</h3>\n<p>When you speak at work you may be giving a message, asking for something, explaining a problem or reporting an accident. People can only help you if they understand you.</p>\n<h4>Tips for speaking clearly</h4>\n<ul>\n<li>Think first: what do I want to say, and what do I want the person to do?</li>\n<li>Speak loudly enough, and slowly, especially if there is noise.</li>\n<li>Look at the person.</li>\n<li>Use short sentences and say the most important thing first.</li>\n<li>Use a language the person understands. If needed, ask a co-worker to help translate.</li>\n<li>Be polite: greet the person, and say \"please\" and \"thank you\".</li>\n</ul>\n<h4>Reporting a problem</h4>\n<p>When you report a problem, say <strong>what</strong>, <strong>where</strong>, <strong>when</strong> and <strong>what you did</strong>.</p>\n<p><em>\"Good morning, Mr Dlamini. The water trough in camp 4 is leaking. I saw it at seven this morning. I closed the tap so the dam does not empty.\"</em></p>\n<p>This report is short, clear and complete.</p>\n<h4>Asking for help or information</h4>\n<p>Do not be shy to ask. Say what you need and why:</p>\n<p><em>\"Excuse me, can you show me how to set the sprayer again? I want to make sure I mix it right.\"</em></p>\n<h4>In an emergency</h4>\n<p>Stay calm. Say who you are, where you are and what happened. For example: <em>\"This is Thandi at the packhouse. A worker fell from the ladder and is bleeding from the head. Please send the first aider.\"</em> Stay on the phone or radio until the other person says they understand.</p>\n<h4>Body language</h4>\n<p>Your face, hands and voice also speak. Shouting or pointing a finger can make people angry, even if your words are right. A calm voice and open hands help people listen.</p>"
+  },
+  {
+   "title": "Conversations, phone calls and meetings",
+   "minutes": 15,
+   "html": "<h3>Different kinds of talk</h3>\n<p>We speak for different purposes: to give information, to ask, to agree on something, to solve a problem or just to be friendly. The way we talk changes with the purpose and the person.</p>\n<table><tr><th>Situation</th><th>How to talk</th></tr>\n<tr><td>Chatting with a friend at lunch</td><td>Relaxed, informal words are fine.</td></tr>\n<tr><td>Speaking to the farm manager</td><td>Polite and clear; use titles like Mr or Mrs.</td></tr>\n<tr><td>Talking to a customer or visitor</td><td>Friendly, helpful and respectful.</td></tr>\n<tr><td>Safety meeting</td><td>Listen carefully, ask and answer questions.</td></tr></table>\n<h4>Using the phone or radio</h4>\n<ol>\n<li>Greet and say your name and where you work.</li>\n<li>Say why you are calling.</li>\n<li>Listen to the answer. Write down important numbers, times or names.</li>\n<li>Repeat the important details to check them.</li>\n<li>Say thank you and goodbye.</li>\n</ol>\n<p>If you take a message for someone else, write down: who called, their number, the message, the date and time.</p>\n<h4>Taking part in a meeting</h4>\n<ul>\n<li>Arrive on time and listen to the chairperson.</li>\n<li>Put up your hand or wait for a turn before you speak.</li>\n<li>Stay on the topic.</li>\n<li>Respect other people's views, even if you disagree. Say \"I see it differently because...\" instead of \"You are wrong.\"</li>\n</ul>\n<h4>Solving a disagreement</h4>\n<p>If two workers disagree, each person should speak in turn while the other listens. Talk about the problem, not about the person. Look for a solution both can accept. If you cannot agree, ask the supervisor to help.</p>\n<h4>Key points</h4>\n<ul>\n<li>Stop, look and listen for what, where, when and how many.</li>\n<li>Repeat an instruction back to check that you understood.</li>\n<li>Speak clearly and say the most important thing first.</li>\n<li>When reporting, say what happened, where, when and what you did.</li>\n<li>Change the way you talk to suit the person and the purpose.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a good way to check that you understood an instruction?",
+   "options": [
+    {
+     "text": "Walk away quickly",
+     "correct": false
+    },
+    {
+     "text": "Ask someone else later",
+     "correct": false
+    },
+    {
+     "text": "Repeat it back in your own words",
+     "correct": true
+    },
+    {
+     "text": "Nod even if you did not hear",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When you report a problem, what should you say?",
+   "options": [
+    {
+     "text": "Only your name",
+     "correct": false
+    },
+    {
+     "text": "What, where, when and what you did",
+     "correct": true
+    },
+    {
+     "text": "Only who is to blame",
+     "correct": false
+    },
+    {
+     "text": "Nothing; just fix it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You do not understand an instruction. What should you do?",
+   "options": [
+    {
+     "text": "Guess",
+     "correct": false
+    },
+    {
+     "text": "Do something else",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Ask a question",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you speak to the farm manager?",
+   "options": [
+    {
+     "text": "Politely and clearly",
+     "correct": true
+    },
+    {
+     "text": "Use rude words",
+     "correct": false
+    },
+    {
+     "text": "Shout so they hear",
+     "correct": false
+    },
+    {
+     "text": "Only with hand signs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You take a phone message for your supervisor. What should you write down?",
+   "options": [
+    {
+     "text": "Only the date",
+     "correct": false
+    },
+    {
+     "text": "Only the caller's name",
+     "correct": false
+    },
+    {
+     "text": "Who called, their number, the message, date and time",
+     "correct": true
+    },
+    {
+     "text": "Nothing; just remember it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is good to interrupt someone so that you can speak sooner.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Body language, like your face and voice, also sends a message.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good listening habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Look at the person who is talking",
+     "correct": true
+    },
+    {
+     "text": "Keep the tractor running loudly",
+     "correct": false
+    },
+    {
+     "text": "Let the person finish before you speak",
+     "correct": true
+    },
+    {
+     "text": "Listen for what, where, when and how many",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-684301000-WM-02",
+ "title": "Sample a range of seed lots",
+ "lessons": [
+  {
+   "title": "Sampling different seed lots in practice",
+   "minutes": 20,
+   "html": "<h3>Range matters</h3><p>Seed comes in many sizes, shapes and packages. In this workplace module you sample a range of seed lots under supervision so that you can handle any situation correctly. Your mentor will arrange work across species and container types.</p><h4>Types of seed you should sample</h4><ul><li><strong>Large, free-flowing seed</strong>: maize, soybeans, beans, sunflower; usually stick or Nobbe triers.</li><li><strong>Small, free-flowing seed</strong>: wheat, canola, sorghum, lucerne; triers with suitable slot sizes.</li><li><strong>Chaffy, non-free-flowing seed</strong>: many pasture grasses; hand sampling.</li><li><strong>Coated, pelleted or treated seed</strong>: extra care to avoid damage and exposure.</li><li><strong>Vegetable seed</strong> in small packets or tins.</li></ul><h4>Types of containers</h4><ul><li>Paper or woven bags stacked on pallets.</li><li>Mini-bulk bags.</li><li>Bulk bins or silos, often sampled from the stream during filling or emptying with an automatic sampler.</li><li>Small sealed containers, where whole containers may be taken as primary samples as the rules allow.</li></ul><h4>Each time you sample</h4><ol><li>Confirm species, lot number, lot size and purpose of sampling.</li><li>Check the lot is within the maximum size and appears uniform.</li><li>Determine the number of primary samples required from the rules.</li><li>Choose the right instrument and sample containers spread across the lot.</li><li>Form the composite sample and reduce it with an approved method.</li><li>Pack, seal and label the submitted sample; complete the sampling report.</li></ol><h4>Safety</h4><p>Wear gloves and a dust mask with treated seed and read the treatment label or safety data sheet. Watch forklift movements, never climb unstable stacks, and wash hands before eating or smoking.</p><p>Keep your sampling kit clean and complete: triers of different sizes, a clean composite container, divider, sample bags, seals, labels, forms, pens, gloves, mask and hand-wash supplies. Check the kit before each visit, because a missing item can mean a wasted trip.</p>"
+  },
+  {
+   "title": "Recording, problems and evidence",
+   "minutes": 20,
+   "html": "<h3>Your sampling log</h3><p>Keep a log of every lot you sample: date, client, species, cultivar, lot number, lot size, number and type of containers, number of primary samples, instrument and method, reduction method, seal numbers and any observations. Have your mentor sign entries after observing your work.</p><h4>Problems you are likely to meet</h4><table><tr><th>Situation</th><th>Correct response</th></tr><tr><td>Containers stacked so only some can be reached</td><td>Ask for the lot to be rearranged; do not sample only the outside</td></tr><tr><td>Lot number missing on some bags</td><td>Do not sample until identity is confirmed</td></tr><tr><td>Different treatment colours within the lot</td><td>Suspect non-uniformity; report and record</td></tr><tr><td>Lot larger than the maximum size</td><td>Lot must be divided before sampling</td></tr><tr><td>Seed bridging in the trier</td><td>Use a more suitable instrument or hand sampling</td></tr><tr><td>Damp or damaged bags</td><td>Record and report; may affect quality and uniformity</td></tr></table><h4>Working with clients</h4><p>Seed company staff may want samples taken quickly. Explain politely that the rules must be followed for the results to be valid, and that a poor sample could lead to an incorrect result that harms them. Remain independent and do not accept samples drawn by others unless the procedure allows it.</p><h4>Evidence for your portfolio</h4><ul><li>Signed sampling log covering a range of species and container types.</li><li>Copies of sampling reports.</li><li>Mentor observation checklists.</li><li>Notes on problems you dealt with and how.</li><li>Laboratory feedback where samples were rejected or questioned, with what you changed.</li></ul><p>All evidence must be your own work and current.</p><h4>Key points</h4><ul><li>Sample a range of species, seed types and containers.</li><li>Choose instruments to suit seed size and flow.</li><li>Confirm lot identity, size and uniformity before sampling.</li><li>Record every sampling in a signed log.</li><li>Stay independent and follow the rules even under time pressure.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which method suits chaffy pasture grass seed?",
+   "options": [
+    {
+     "text": "Hand sampling",
+     "correct": true
+    },
+    {
+     "text": "Nobbe trier only",
+     "correct": false
+    },
+    {
+     "text": "Pouring from the top",
+     "correct": false
+    },
+    {
+     "text": "Weighbridge sampling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Some bags have no lot number. What should you do?",
+   "options": [
+    {
+     "text": "Sample them anyway",
+     "correct": false
+    },
+    {
+     "text": "Do not sample until identity is confirmed",
+     "correct": true
+    },
+    {
+     "text": "Write any number on them",
+     "correct": false
+    },
+    {
+     "text": "Sample only the labelled bags and say nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see different treatment colours within one lot. What does this suggest?",
+   "options": [
+    {
+     "text": "Good quality",
+     "correct": false
+    },
+    {
+     "text": "Higher germination",
+     "correct": false
+    },
+    {
+     "text": "Possible non-uniformity",
+     "correct": true
+    },
+    {
+     "text": "The lot is untreated",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Seed is bridging in the trier. What is the best response?",
+   "options": [
+    {
+     "text": "Force the trier deeper",
+     "correct": false
+    },
+    {
+     "text": "Stop sampling forever",
+     "correct": false
+    },
+    {
+     "text": "Take only one primary sample",
+     "correct": false
+    },
+    {
+     "text": "Use a more suitable instrument or hand sampling",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How are bulk bins often sampled?",
+   "options": [
+    {
+     "text": "From the seed stream with an automatic sampler",
+     "correct": true
+    },
+    {
+     "text": "From the top surface only",
+     "correct": false
+    },
+    {
+     "text": "By entering the bin",
+     "correct": false
+    },
+    {
+     "text": "By guessing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A client's time pressure is a valid reason to skip the sampling rules.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Your sampling log entries should be signed by your mentor after observation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be recorded in the sampling log? (select all that apply)",
+   "options": [
+    {
+     "text": "Lot number and lot size",
+     "correct": true
+    },
+    {
+     "text": "Number of primary samples",
+     "correct": true
+    },
+    {
+     "text": "Seal numbers",
+     "correct": true
+    },
+    {
+     "text": "The client's personal opinions",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

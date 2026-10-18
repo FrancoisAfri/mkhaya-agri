@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116079",
+ "title": "Monitor the establishment of a crop",
+ "lessons": [
+  {
+   "title": "Tools and planting material",
+   "minutes": 15,
+   "html": "<h3>Getting ready to plant</h3><p>A crop is <strong>established</strong> when the seeds or seedlings have started growing well in the land. Your job is to help make sure this happens. It starts with the right tools and good planting material.</p><h4>Tools and equipment</h4><table><tr><th>Tool</th><th>Use</th></tr><tr><td>Hoe and spade</td><td>Making holes and covering seed</td></tr><tr><td>Line or string and pegs</td><td>Marking straight rows</td></tr><tr><td>Measuring tape or marked stick</td><td>Checking spacing between plants and rows</td></tr><tr><td>Dibber (planting stick)</td><td>Making holes for seedlings</td></tr><tr><td>Planter (hand or tractor)</td><td>Putting seed in the ground at the right depth and spacing</td></tr><tr><td>Watering can or hose</td><td>Watering in seedlings</td></tr></table><p><strong>Care for tools:</strong> clean off soil after work, dry them, oil metal parts and store them in the tool shed. Report broken tools. Check the planter before use: seed plates, depth wheels and chains must be clean and working.</p><h4>Handling seed</h4><ul><li>Check the seed bag label: crop, cultivar and amount.</li><li>Keep seed cool and dry, out of the sun.</li><li>Treated seed has a colour on it. It is poisonous. Wear gloves. Never eat it or give it to animals. Wash your hands after.</li></ul><h4>Handling seedlings</h4><ul><li>Keep seedling trays in the shade and water them before planting.</li><li>Plant on the day they arrive if possible.</li><li>Hold seedlings by the leaves or root ball, not the stem. The stem bruises easily.</li><li>Do not leave seedlings lying in the sun or wind.</li><li>Plant in the cool part of the day.</li></ul><p>Count seed bags so you know enough is there.</p><p>Ask if you are unsure.</p>"
+  },
+  {
+   "title": "Weather and soil conditions",
+   "minutes": 15,
+   "html": "<h3>Why conditions matter</h3><p>Seeds need the right conditions to start growing. These are called <strong>environmental conditions</strong>.</p><h4>Water</h4><ul><li>Seed needs moist soil to swell and start growing.</li><li>Too dry: the seed does not grow, or the young plant dies.</li><li>Too wet: the seed rots and the soil gets hard on top.</li><li>Seedlings must be watered in straight after planting.</li></ul><h4>Temperature</h4><ul><li>Each crop needs warm enough soil. Maize and beans need warm soil in spring or summer.</li><li>Frost can kill young plants. Do not plant frost-sensitive crops when frost can still come.</li><li>Very hot sun can burn young seedlings. Shade cloth can help.</li></ul><h4>Soil</h4><ul><li>A fine, firm seedbed helps seed touch moist soil.</li><li>A hard crust on top stops seedlings coming up. Report crusting.</li><li>Big clods leave air pockets. Seeds in air pockets dry out.</li></ul><h4>Other problems</h4><ul><li>Strong wind dries out and breaks seedlings.</li><li>Heavy rain can wash seed away on slopes.</li><li>Birds, cutworms, rats and moles can eat seed and young plants.</li></ul><p>When you see any of these problems, write them down and tell your supervisor. Say which land, what you saw and how many plants are affected.</p><p>Your supervisor decides when to plant. They look at the weather, the soil and the crop. Help them by reporting what you see in the lands each day: Is the soil wet or dry? Did it rain? Are there pests? Good reports help the farm make good choices.</p><p>Write the date with every report you make.</p>"
+  },
+  {
+   "title": "Checking spacing, depth and the new crop",
+   "minutes": 15,
+   "html": "<h3>Planting the right way</h3><h4>Row spacing and plant spacing</h4><p>Your supervisor tells you the spacing for the crop. For example, cabbages may be planted with a set distance between rows and between plants. Plants too close together fight for water and light. Plants too far apart waste land.</p><ul><li>Use a line to keep rows straight.</li><li>Use a marked stick to check the space between plants.</li><li>Check spacing at several places in the row, not only at the start.</li></ul><h4>Planting depth</h4><ul><li>Small seed goes shallow. Big seed like maize and beans goes deeper.</li><li>Too deep: the seedling runs out of food before it reaches the surface.</li><li>Too shallow: the seed dries out or birds eat it.</li><li>Seedlings are planted at the same depth they were in the tray, or as your supervisor says.</li></ul><h4>Checking behind the planter</h4><ol><li>After the planter goes a short distance, ask the driver to stop and switch off.</li><li>Carefully dig up seeds in the row.</li><li>Measure the depth and the distance between seeds.</li><li>Tell the driver and supervisor if it is wrong so they can adjust.</li></ol><p><strong>Safety:</strong> never walk close behind a moving planter or tractor. Wait until the tractor has stopped and the driver can see you.</p><h4>Checking the young crop</h4><p>After the plants come up, walk the land. Count plants in a measured length of row at a few places. Look for gaps, weak plants, eaten leaves or cut stems. Write down what you find and report it.</p><h4>Key points</h4><ul><li>Clean, dry and store tools after use; check the planter before work.</li><li>Treated seed is poisonous: wear gloves and never eat it.</li><li>Seed needs moist soil and the right temperature to grow.</li><li>Check row spacing, plant spacing and depth at several places.</li><li>Count plants after they come up and report gaps.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should you hold a seedling when planting?",
+   "options": [
+    {
+     "text": "By the stem",
+     "correct": false
+    },
+    {
+     "text": "By the leaves or root ball",
+     "correct": true
+    },
+    {
+     "text": "By the tips of the roots",
+     "correct": false
+    },
+    {
+     "text": "Upside down",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if seed is planted too deep?",
+   "options": [
+    {
+     "text": "The seedling runs out of food before it reaches the surface",
+     "correct": true
+    },
+    {
+     "text": "It grows faster",
+     "correct": false
+    },
+    {
+     "text": "Birds eat it more easily",
+     "correct": false
+    },
+    {
+     "text": "It needs less water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is treated seed?",
+   "options": [
+    {
+     "text": "Seed that has been washed",
+     "correct": false
+    },
+    {
+     "text": "Coloured seed with chemicals on it that is poisonous",
+     "correct": true
+    },
+    {
+     "text": "Seed that is ready to eat",
+     "correct": false
+    },
+    {
+     "text": "Seed for animals",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time of day to plant seedlings?",
+   "options": [
+    {
+     "text": "At midday",
+     "correct": false
+    },
+    {
+     "text": "In the cool part of the day",
+     "correct": true
+    },
+    {
+     "text": "At night without light",
+     "correct": false
+    },
+    {
+     "text": "In strong wind",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before digging up seeds behind the planter?",
+   "options": [
+    {
+     "text": "Run behind the moving tractor",
+     "correct": false
+    },
+    {
+     "text": "Ask the driver to stop and switch off",
+     "correct": true
+    },
+    {
+     "text": "Ask the driver to go faster",
+     "correct": false
+    },
+    {
+     "text": "Stand in front of the tractor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A hard crust on the soil can stop seedlings from coming up.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spacing only needs to be checked at the start of the row.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can damage seed and young plants? (select all that apply)",
+   "options": [
+    {
+     "text": "Birds",
+     "correct": true
+    },
+    {
+     "text": "Cutworms",
+     "correct": true
+    },
+    {
+     "text": "Frost",
+     "correct": true
+    },
+    {
+     "text": "Correct watering",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116119",
+ "title": "Demonstrate an understanding of plant propagation",
+ "lessons": [
+  {
+   "title": "Propagation and the right environment",
+   "minutes": 15,
+   "html": "<h3>What is propagation?</h3><p>Propagation means making new plants. Farms and nurseries propagate seedlings for vegetables, rootstocks and young trees for orchards, and cuttings for crops such as sweet potatoes, grapes and many ornamentals.</p><h3>Two main types</h3><ul><li><strong>Sexual propagation</strong>: from <strong>seed</strong>. Each new plant may be a little different from the parent. Used for maize, vegetables, many pasture grasses.</li><li><strong>Asexual (vegetative) propagation</strong>: from a part of a plant, such as a cutting, tuber, runner or bud. The new plant is the same as the parent. Used for potatoes, sugarcane, grapes, citrus and fruit trees.</li></ul><h3>What plants need to propagate</h3><table><tr><th>Need</th><th>Why</th><th>How we provide it</th></tr><tr><td>Water</td><td>Seeds need moisture to germinate; cuttings dry out fast</td><td>Regular watering or misting; never waterlogged</td></tr><tr><td>Temperature</td><td>Each crop has a temperature range for germination and rooting</td><td>Tunnels, shade-net, heated beds in winter</td></tr><tr><td>Air (oxygen)</td><td>Roots and seeds need air</td><td>Loose, well-drained growing medium</td></tr><tr><td>Light</td><td>Seedlings need light once they emerge</td><td>Shade-net in summer, full light later</td></tr><tr><td>Clean medium</td><td>Soil-borne fungi kill seedlings (damping off)</td><td>Clean trays and sterile seedling mix</td></tr><tr><td>Humidity</td><td>Cuttings lose water through leaves</td><td>Mist systems, covers</td></tr></table><p>Too much water and too little air in the medium is one of the most common causes of failure in a nursery. Too much heat in a closed tunnel in a Limpopo summer can kill seedlings in an hour, so watch tunnel temperatures and open vents as instructed.</p><h4>A farm example</h4><p>A citrus nursery keeps rootstock seedlings in a tunnel. On a hot day the worker opens the side vents and checks the trays twice a day, watering only when the top of the medium is dry. The seedlings grow strong without rotting or drying out.</p>"
+  },
+  {
+   "title": "Methods, tools and judging success",
+   "minutes": 20,
+   "html": "<h3>Common propagation methods</h3><ul><li><strong>Seed sowing</strong>: in seedling trays or directly in the field. Sow at the right depth, usually about two to three times the seed's size, and firm the soil gently.</li><li><strong>Cuttings</strong>: a piece of stem is cut and planted to grow roots. A rooting hormone may be used.</li><li><strong>Division</strong>: splitting a clump (for example some grasses and herbs) into smaller plants.</li><li><strong>Layering</strong>: a branch is bent into the soil to root while still on the parent.</li><li><strong>Grafting and budding</strong>: a bud or shoot of a good cultivar (the scion) is joined onto a strong rootstock. Used for citrus, avocados, apples and grapes.</li><li><strong>Tubers, bulbs and runners</strong>: potatoes, onions, strawberries.</li><li><strong>Tissue culture</strong>: in laboratories, for bananas and some other crops.</li></ul><h3>Tools and equipment</h3><p>Seedling trays, growing medium, sharp clean knives or secateurs, grafting tape, rooting hormone, labels, watering cans with fine roses, mist systems and tunnels. Disinfect knives between plants to avoid spreading disease. Always label trays with crop, cultivar and date.</p><h3>Successful or not?</h3><table><tr><th>Successful</th><th>Unsuccessful</th></tr><tr><td>Even germination across the tray</td><td>Gaps and patchy germination</td></tr><tr><td>Strong green seedlings with white healthy roots</td><td>Seedlings falling over at the soil line (damping off); brown roots</td></tr><tr><td>Cuttings with new roots and new leaves</td><td>Cuttings black, soft or dry</td></tr><tr><td>Graft union healed, bud growing</td><td>Bud black or dry, scion dead</td></tr><tr><td>Stocky plants</td><td>Long thin plants (too little light or too much heat)</td></tr></table><p>Count and record the success rate (for example 92 of 100 seedlings came up). Report problems early so the cause can be fixed.</p><h3>Safety</h3><p>Use knives carefully, cutting away from your body. Wear gloves when handling rooting hormone and fungicides, and wash hands afterwards.</p><h4>Key points</h4><ul><li>Seed gives sexual propagation; cuttings, grafting and tubers are vegetative.</li><li>Propagation needs water, the right temperature, air, light and a clean medium.</li><li>Avoid waterlogging and overheating in tunnels.</li><li>Use clean, sharp tools and label every tray.</li><li>Judge success by even germination, healthy roots and healed grafts.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Growing a new plant from a stem cutting is which type of propagation?",
+   "options": [
+    {
+     "text": "Sexual",
+     "correct": false
+    },
+    {
+     "text": "Seed",
+     "correct": false
+    },
+    {
+     "text": "Vegetative (asexual)",
+     "correct": true
+    },
+    {
+     "text": "Pollination",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In grafting, what is the scion?",
+   "options": [
+    {
+     "text": "The root part of the plant",
+     "correct": false
+    },
+    {
+     "text": "The grafting tape",
+     "correct": false
+    },
+    {
+     "text": "The seed tray",
+     "correct": false
+    },
+    {
+     "text": "The bud or shoot of the good cultivar joined to the rootstock",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Seedlings falling over at the soil line is usually a sign of…",
+   "options": [
+    {
+     "text": "Too much light",
+     "correct": false
+    },
+    {
+     "text": "Damping off, a soil-borne fungal problem",
+     "correct": true
+    },
+    {
+     "text": "Good growth",
+     "correct": false
+    },
+    {
+     "text": "Too little fertiliser",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should seed usually be sown?",
+   "options": [
+    {
+     "text": "As deep as possible",
+     "correct": false
+    },
+    {
+     "text": "On top of the soil only",
+     "correct": false
+    },
+    {
+     "text": "Ten times its size",
+     "correct": false
+    },
+    {
+     "text": "About two to three times the size of the seed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Long, thin seedlings usually mean…",
+   "options": [
+    {
+     "text": "They are very healthy",
+     "correct": false
+    },
+    {
+     "text": "Too much fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Too little light or too much heat",
+     "correct": true
+    },
+    {
+     "text": "They were grafted",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Plants grown from cuttings are the same as the parent plant.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A propagation medium should be kept waterlogged so seeds never dry out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of successful propagation? (select all that apply)",
+   "options": [
+    {
+     "text": "Even germination across the tray",
+     "correct": true
+    },
+    {
+     "text": "A healed graft union with the bud growing",
+     "correct": true
+    },
+    {
+     "text": "Black, soft cuttings",
+     "correct": false
+    },
+    {
+     "text": "White, healthy roots",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

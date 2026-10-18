@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116317",
+ "title": "Schedule the operation and maintenance of irrigation systems",
+ "lessons": [
+  {
+   "title": "Why irrigation scheduling matters",
+   "minutes": 15,
+   "html": "<h3>Getting the right water to the crop at the right time</h3><p>Irrigation scheduling means deciding <strong>when</strong> to irrigate and <strong>how much</strong> water to apply. On a South African farm, water is often the most limiting input. Dams run low in a dry winter, boreholes have a safe yield, and water use rights under the National Water Act 36 of 1998 set limits on what a farm may take. A supervisor who schedules well saves water, electricity and fertiliser, and gets better yields.</p><h4>What the crop needs</h4><p>Crop water need depends on the crop, its growth stage and the weather. A young maize stand uses little water; the same field at tasselling and silking uses much more and is very sensitive to stress. Hot, windy, dry days increase evaporation from the soil and transpiration from the leaves (together called evapotranspiration).</p><h4>What the soil can hold</h4><p>Sandy soils hold little water and must be irrigated often with small amounts. Clay and loam soils hold more and can be irrigated less often with larger amounts. The water the plant can use between field capacity and the point where it starts to suffer is called plant-available water. Good scheduling refills this store before the crop is stressed, without overfilling it.</p><h4>Tools that help</h4><ul><li><strong>Soil moisture probes and tensiometers</strong> show how dry the soil is at different depths.</li><li><strong>Weather station or Class A pan data</strong> give daily evaporation figures.</li><li><strong>The spade or auger test</strong> lets you feel the soil in the root zone.</li><li><strong>Crop scheduling tables</strong> from advisers or the irrigation designer.</li></ul><h4>Signs of poor scheduling</h4><p>Under-irrigation shows as wilting at midday, rolled maize leaves, small fruit and early ripening. Over-irrigation shows as waterlogging, yellow plants, run-off, leached fertiliser, root diseases and high electricity bills. Both cost the farm money. Keep a simple record of each irrigation: date, block, hours run and readings, so you can compare water applied with crop response.</p>"
+  },
+  {
+   "title": "Planning the irrigation schedule and team",
+   "minutes": 15,
+   "html": "<h3>Turning crop needs into a weekly plan</h3><p>Once you know how much water each block needs, you must fit irrigation into the real limits of the system: pump capacity, pipe sizes, the number of blocks that can run together, electricity tariffs and labour.</p><h4>Steps to draw up a schedule</h4><ol><li>List all irrigation blocks with crop, planting date, area (ha) and system type (centre pivot, drip, micro, sprinkler, flood).</li><li>Work out the net water need per block for the week from probe readings and weather data.</li><li>Convert the need into running hours, using the system application rate (mm per hour) from the design report.</li><li>Group blocks into shifts so the pump runs within its rated flow and pressure.</li><li>Place long shifts in off-peak electricity times where the farm has a time-of-use tariff, and avoid irrigating overhead in strong wind and midday heat.</li><li>Allocate staff to start and stop shifts, check pressures and walk lines.</li><li>Share the schedule on a board in the pump house and in the farm system so everyone works from the same plan.</li></ol><h4>Fitting in fertigation and spraying</h4><p>If fertiliser is injected through the system, the schedule must show when fertigation runs and allow for flushing the lines afterwards. Coordinate with the spray programme so that overhead irrigation does not wash off a fresh application.</p><h4>Checking the plan works</h4><p>Each week compare planned hours with actual hours from pump meters or the controller. Check probe readings after irrigation to see if water reached the root zone. Adjust the next week if rain fell, if a line was down, or if the crop moved into a higher-demand stage. Report water used to management, because the farm must stay within its registered or licensed water use.</p><h4>Safety for the irrigation team</h4><p>Pump houses contain electricity and moving parts. Only trained people may work on electrical panels. Lock out and tag the pump before working on it, keep guards in place, and never stand in water near live cables.</p>"
+  },
+  {
+   "title": "Scheduling maintenance of the system",
+   "minutes": 15,
+   "html": "<h3>Keeping the system working at design performance</h3><p>A system that leaks, blocks or loses pressure cannot deliver the scheduled water evenly. Maintenance must be planned, not left until something breaks in the middle of a heat wave.</p><h4>A maintenance calendar</h4><table><tr><th>When</th><th>Task</th></tr><tr><td>Daily</td><td>Check pump pressure and flow, look for leaks and burst pipes, check filters' pressure difference</td></tr><tr><td>Weekly</td><td>Flush drip lateral ends, clean or backflush filters, check sprinkler and emitter blockages, check pivot tyres and wheel tracks</td></tr><tr><td>Monthly</td><td>Check valves, pressure regulators and air valves, grease pivot and pump bearings as the manufacturer instructs, check electrical panels (qualified person)</td></tr><tr><td>Season end</td><td>Acid or chlorine treatment of drip systems if your adviser recommends it, service pumps and motors, replace worn nozzles, drain lines that may freeze</td></tr></table><h4>Evaluating the system</h4><p>At least once a season, test how evenly the system applies water. For sprinklers or pivots, set out catch cans and compare the amounts. For drip, measure emitter flow at several points along laterals. Uneven results point to worn nozzles, wrong pressure or blocked emitters.</p><h4>Spares, records and budget</h4><p>Keep common spares in stock: drip fittings, sprinkler nozzles, filter elements, pipe couplings and pivot tyres. Record every breakdown and repair with date, cost in rand and downtime. These records show where the system is weak and support the maintenance budget for next year.</p><h4>Scheduling maintenance around irrigation</h4><p>Plan bigger jobs for times of low crop demand, after harvest or during rain. Tell the irrigation team before a block is shut down so the crop is irrigated in advance.</p><h4>Key points</h4><ul><li>Schedule irrigation from crop need, soil water holding and weather, not habit.</li><li>Convert water need into running hours using the system application rate.</li><li>Fit shifts within pump capacity, electricity tariffs and water use limits.</li><li>Plan daily, weekly, monthly and season-end maintenance and record every repair.</li><li>Lock out pumps before work and leave electrical work to qualified people.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must sandy soils usually be irrigated more often than clay soils?",
+   "options": [
+    {
+     "text": "Sandy soils hold less plant-available water",
+     "correct": true
+    },
+    {
+     "text": "Sandy soils evaporate less water",
+     "correct": false
+    },
+    {
+     "text": "Sandy soils have more nutrients",
+     "correct": false
+    },
+    {
+     "text": "Sandy soils need no fertiliser",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool shows how dry the soil is at different depths?",
+   "options": [
+    {
+     "text": "A pressure gauge",
+     "correct": false
+    },
+    {
+     "text": "A soil moisture probe",
+     "correct": true
+    },
+    {
+     "text": "A catch can",
+     "correct": false
+    },
+    {
+     "text": "A flow meter on the dam",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do you need to convert a block's water need into running hours?",
+   "options": [
+    {
+     "text": "The tractor hours",
+     "correct": false
+    },
+    {
+     "text": "The crop price",
+     "correct": false
+    },
+    {
+     "text": "The system application rate in mm per hour",
+     "correct": true
+    },
+    {
+     "text": "The number of workers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a sign of over-irrigation?",
+   "options": [
+    {
+     "text": "Leaves rolled at midday",
+     "correct": false
+    },
+    {
+     "text": "Small fruit",
+     "correct": false
+    },
+    {
+     "text": "Early ripening",
+     "correct": false
+    },
+    {
+     "text": "Waterlogging and run-off",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can you test how evenly a sprinkler or pivot applies water?",
+   "options": [
+    {
+     "text": "Set out catch cans and compare amounts",
+     "correct": true
+    },
+    {
+     "text": "Count the sprinklers",
+     "correct": false
+    },
+    {
+     "text": "Read the electricity bill",
+     "correct": false
+    },
+    {
+     "text": "Check the tyre pressure",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Before working on a pump, it should be locked out and tagged.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Maintenance is best done only after a part breaks, even in peak season.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks belong on a weekly maintenance list for drip systems? (select all that apply)",
+   "options": [
+    {
+     "text": "Flush lateral ends",
+     "correct": true
+    },
+    {
+     "text": "Clean or backflush filters",
+     "correct": true
+    },
+    {
+     "text": "Replace the pump motor",
+     "correct": false
+    },
+    {
+     "text": "Check for blocked emitters",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

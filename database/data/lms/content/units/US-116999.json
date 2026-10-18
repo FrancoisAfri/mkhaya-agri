@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-116999",
+ "title": "Apply accurate information about HIV & AIDS to everyday life",
+ "lessons": [
+  {
+   "title": "What HIV and AIDS are and how HIV spreads",
+   "minutes": 15,
+   "html": "<h3>What HIV and AIDS are</h3> <p>HIV is a virus. It attacks the body's defence system. This defence system is called the immune system. It fights germs and keeps you well.</p> <p>When HIV is not treated, it slowly damages the immune system. After some years the body cannot fight other illnesses well. Then a person can get sick with TB, pneumonia, thrush and other infections. This late stage is called AIDS.</p> <p>A person can have HIV and look and feel healthy for many years. You cannot see HIV by looking at someone. The only way to know is to <strong>test</strong>.</p> <h4>How HIV spreads</h4> <p>HIV lives in some body fluids. It spreads when these fluids from a person with HIV get into another person's body:</p> <ul> <li>Blood</li> <li>Semen and fluid from the vagina during sex without a condom</li> <li>From a mother to her baby during pregnancy, birth or breastfeeding, if she is not on treatment</li> <li>Sharing needles or blades that have blood on them</li> </ul> <h4>How HIV does NOT spread</h4> <p>You do not get HIV from everyday work and living together. HIV does not spread by:</p> <ul> <li>Shaking hands, hugging or working side by side in the stable yard</li> <li>Sharing cups, plates, food or a toilet</li> <li>Mosquito bites or other insect bites</li> <li>Touching horses or other animals</li> <li>Sweat, tears or coughing</li> </ul> <h4>Blood at work</h4> <p>On a farm or in a stable yard people get cuts from wire, tools or tack. When a worker is bleeding, help them, but protect yourself:</p> <ol> <li>Put on gloves from the first aid box before you touch blood.</li> <li>If there are no gloves, use a clean plastic bag over your hand.</li> <li>Let the injured person press on their own wound with a cloth if they can.</li> <li>Wash your hands with soap and water afterwards.</li> <li>Report the injury to your supervisor.</li> </ol> <p>Never touch another person's blood with bare hands if you can avoid it. This rule protects everyone, whatever their HIV status. First aid needs hands-on training from an accredited provider.</p>"
+  },
+  {
+   "title": "Protecting yourself and living positively",
+   "minutes": 15,
+   "html": "<h3>Ways to protect yourself</h3> <p>You can lower your risk of HIV with a few simple steps:</p> <ul> <li><strong>Use a condom</strong> every time you have sex. Condoms are free at clinics and many workplaces.</li> <li>Have fewer sexual partners and talk openly with your partner.</li> <li>Never share razor blades, needles or tattoo tools.</li> <li>Get tested, and ask your partner to test too.</li> <li>Go to the clinic quickly if you have signs of a sexual infection. These infections make HIV easier to catch.</li> </ul> <h4>Testing</h4> <p>An HIV test is quick. Clinics test for free. The result is private. Only you decide who to tell. Knowing your status early is good, because treatment can start early.</p> <h4>Treatment works</h4> <p>There is no cure for HIV yet. But there is very good treatment. The medicine is called ARVs (antiretrovirals). ARVs are free at government clinics.</p> <ul> <li>Take ARVs every day, at the same time, as the clinic tells you.</li> <li>Do not stop when you feel better.</li> <li>Go back to the clinic for check-ups and blood tests.</li> </ul> <p>A person on ARVs can live a long, healthy life and keep working. When the treatment keeps the virus very low, the person does not pass HIV to a partner through sex. A mother on treatment can protect her baby.</p> <h4>Living positively</h4> <p>Eat good food, sleep enough, do not drink too much alcohol and do not smoke. Treat TB and other illnesses quickly.</p> <h4>Respect at work</h4> <p>Workers with HIV have the same rights as other workers. In South Africa the Employment Equity Act says it is unfair to discriminate against a worker because of HIV status. A worker does not have to tell the employer their status. Do not gossip, make jokes or refuse to work with someone. Stigma stops people from testing and getting help.</p> <p>Example: Sipho on a stud farm tells his friend he is on ARVs. His friend keeps the secret and still shares lunch with him. That is the right way.</p> <h4>Key points</h4> <ul> <li>HIV spreads through blood, sex without a condom, and mother to baby.</li> <li>It does not spread through hugging, sharing cups or working together.</li> <li>Use gloves when you help someone who is bleeding.</li> <li>Testing is free and private; ARVs are free and must be taken every day.</li> <li>Treat workers with HIV with respect; discrimination is against the law.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does HIV attack in the body?",
+   "options": [
+    {
+     "text": "The bones",
+     "correct": false
+    },
+    {
+     "text": "The immune system",
+     "correct": true
+    },
+    {
+     "text": "The skin only",
+     "correct": false
+    },
+    {
+     "text": "The eyes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the only way to know if a person has HIV?",
+   "options": [
+    {
+     "text": "Look at how thin they are",
+     "correct": false
+    },
+    {
+     "text": "Ask their friends",
+     "correct": false
+    },
+    {
+     "text": "Take an HIV test",
+     "correct": true
+    },
+    {
+     "text": "Check if they cough",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A co-worker cuts his hand on wire and is bleeding. What should you do first?",
+   "options": [
+    {
+     "text": "Hold the wound with bare hands",
+     "correct": false
+    },
+    {
+     "text": "Put on gloves before touching the blood",
+     "correct": true
+    },
+    {
+     "text": "Walk away",
+     "correct": false
+    },
+    {
+     "text": "Pour diesel on the cut",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are ARVs?",
+   "options": [
+    {
+     "text": "Vitamins for horses",
+     "correct": false
+    },
+    {
+     "text": "Medicine that controls HIV",
+     "correct": true
+    },
+    {
+     "text": "A type of condom",
+     "correct": false
+    },
+    {
+     "text": "A blood test",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should ARVs be taken?",
+   "options": [
+    {
+     "text": "Only when you feel sick",
+     "correct": false
+    },
+    {
+     "text": "Once a month",
+     "correct": false
+    },
+    {
+     "text": "Every day as the clinic says",
+     "correct": true
+    },
+    {
+     "text": "Only in winter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You can get HIV by sharing a cup or a toilet with a person who has HIV.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In South Africa it is unfair to discriminate against a worker because of HIV status.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these can spread HIV? (select all that apply)",
+   "options": [
+    {
+     "text": "Sex without a condom",
+     "correct": true
+    },
+    {
+     "text": "Sharing razor blades with blood on them",
+     "correct": true
+    },
+    {
+     "text": "Shaking hands",
+     "correct": false
+    },
+    {
+     "text": "Mosquito bites",
+     "correct": false
+    },
+    {
+     "text": "From a mother not on treatment to her baby",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

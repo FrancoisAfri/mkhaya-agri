@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264175",
+ "title": "Conduct post harvest treatment of cut roses",
+ "lessons": [
+  {
+   "title": "From the greenhouse to the pack shed",
+   "minutes": 15,
+   "html": "<h3>Why post-harvest treatment matters</h3>\n<p>A cut rose is still alive. It keeps breathing and losing water, but it has no roots. Good post-harvest treatment keeps the rose fresh so it lasts long in the vase. South African roses go to local markets, florists and export, and buyers pay for quality and vase life.</p>\n<h4>The enemies of a cut rose</h4>\n<ul><li><strong>Heat</strong> – makes the rose breathe faster and age quickly.</li>\n<li><strong>Water loss</strong> – causes wilting and bent necks.</li>\n<li><strong>Bacteria</strong> – grow in dirty buckets and block the stem so water cannot go up.</li>\n<li><strong>Botrytis (grey mould)</strong> – a fungus that spots and rots petals, worse in damp conditions.</li>\n<li><strong>Ethylene</strong> – a gas from ripening fruit, exhaust fumes and old flowers that makes roses age.</li>\n<li><strong>Rough handling</strong> – bruised petals and broken stems.</li></ul>\n<h4>The first hour</h4>\n<ol><li>Put cut stems into clean buckets with clean water or the hydration solution your farm uses, as soon as possible after cutting.</li>\n<li>Keep buckets in the shade while in the greenhouse.</li>\n<li>Move flowers to the cold room quickly. Do not let them stand in the sun.</li></ol>\n<h4>Clean buckets</h4>\n<p>Wash buckets every time with detergent and a sanitiser, as your supervisor shows you. Rinse well. A dirty bucket can spoil a whole batch. Never mix chemicals unless you have been trained and follow the label.</p>"
+  },
+  {
+   "title": "Grading, treating and cooling",
+   "minutes": 15,
+   "html": "<h3>In the pack shed</h3>\n<ol><li><strong>Pre-cool.</strong> Put buckets in the cold room to bring the temperature down. Your farm will set the cold-room temperature; keep the door closed.</li>\n<li><strong>Grade.</strong> Sort stems by length, head size and quality. Remove roses with bent necks, damage, disease or pests.</li>\n<li><strong>Strip.</strong> Remove leaves and thorns from the bottom part of the stem so no leaves sit in the water. Do not damage the stem bark.</li>\n<li><strong>Bunch.</strong> Make bunches with the number of stems the customer orders, heads level. Tie with elastic bands and sleeve them.</li>\n<li><strong>Re-cut.</strong> Cut 2–3 cm off the bottom of each stem with a sharp knife or cutter, at an angle.</li>\n<li><strong>Treat.</strong> Place bunches in the preservative or hydration solution the farm uses. Follow the product label for mixing and time.</li>\n<li><strong>Store cold.</strong> Return bunches to the cold room until dispatch. Keep roses away from fruit and vehicle fumes because of ethylene.</li></ol>\n<h3>Hygiene and records</h3>\n<ul><li>Remove fallen petals and leaves from the floor daily; they spread botrytis.</li>\n<li>Write down the date, variety, grade and number of bunches on the label or record sheet.</li>\n<li>Rotate stock: first in, first out.</li></ul>\n<h3>Safety</h3>\n<ul><li>Wear gloves for thorns and when handling solutions.</li>\n<li>Wear warm clothes in the cold room and do not stay in for long periods.</li>\n<li>Keep floors dry to prevent slips. Use knives carefully, cutting away from your body.</li></ul>\n<h4>Key points</h4>\n<ul><li>Get cut roses into clean water and out of the heat quickly.</li>\n<li>Clean buckets stop bacteria from blocking stems.</li>\n<li>Grade, strip, bunch, re-cut and treat according to farm standards.</li>\n<li>Keep roses cold and away from ethylene sources like fruit and exhaust fumes.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must buckets be cleaned every time?",
+   "options": [
+    {
+     "text": "To make them lighter",
+     "correct": false
+    },
+    {
+     "text": "Bacteria in dirty buckets block the stems",
+     "correct": true
+    },
+    {
+     "text": "To change their colour",
+     "correct": false
+    },
+    {
+     "text": "Clean buckets keep roses warm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which gas makes roses age faster?",
+   "options": [
+    {
+     "text": "Oxygen",
+     "correct": false
+    },
+    {
+     "text": "Nitrogen",
+     "correct": false
+    },
+    {
+     "text": "Carbon dioxide only",
+     "correct": false
+    },
+    {
+     "text": "Ethylene",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are leaves stripped from the lower stem?",
+   "options": [
+    {
+     "text": "So no leaves sit in the water and rot",
+     "correct": true
+    },
+    {
+     "text": "To make the rose heavier",
+     "correct": false
+    },
+    {
+     "text": "To make the stem bend",
+     "correct": false
+    },
+    {
+     "text": "To give the rose more food",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is botrytis?",
+   "options": [
+    {
+     "text": "A type of fertiliser",
+     "correct": false
+    },
+    {
+     "text": "A rose variety",
+     "correct": false
+    },
+    {
+     "text": "A grey mould fungus that spots and rots petals",
+     "correct": true
+    },
+    {
+     "text": "A cold room setting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which stock rotation rule should you follow in the cold room?",
+   "options": [
+    {
+     "text": "Last in, first out",
+     "correct": false
+    },
+    {
+     "text": "First in, first out",
+     "correct": true
+    },
+    {
+     "text": "Oldest stock stays longest",
+     "correct": false
+    },
+    {
+     "text": "Random order",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cut roses should be kept away from ripening fruit and vehicle exhaust fumes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Leaving buckets of cut roses in the sun for an hour does not affect quality.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in the pack shed? (select all that apply)",
+   "options": [
+    {
+     "text": "Grade stems by length and quality",
+     "correct": true
+    },
+    {
+     "text": "Re-cut the stem ends",
+     "correct": true
+    },
+    {
+     "text": "Place bunches in the farm's preservative solution",
+     "correct": true
+    },
+    {
+     "text": "Leave fallen petals on the floor",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

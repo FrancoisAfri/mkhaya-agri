@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-8553",
+ "title": "Operate in a business",
+ "lessons": [
+  {
+   "title": "Understanding how a business works",
+   "minutes": 15,
+   "html": "<h3>The business behind the hunt</h3>\n<p>Whether you work for a hunting outfitter, a game lodge or a farm, you work in a business. Understanding how it makes money, what it costs and how your work affects results makes you more valuable and prepares you to run your own business one day.</p>\n<h4>Forms of business</h4>\n<ul><li><strong>Sole proprietor</strong>: one owner, simple, but the owner is personally liable for debts.</li>\n<li><strong>Partnership</strong>: two or more owners share profits and liability.</li>\n<li><strong>Private company (Pty) Ltd</strong>: a separate legal person registered with CIPC under the Companies Act 71 of 2008; owners' liability is limited.</li>\n<li><strong>Co-operative</strong>: members own and control it together, common in agriculture.</li></ul>\n<h4>Functions of a business</h4>\n<table><tr><th>Function</th><th>In a hunting operation</th></tr>\n<tr><td>Marketing and sales</td><td>Shows, website, agents, quotes</td></tr>\n<tr><td>Operations</td><td>Hunts, accommodation, trophy handling</td></tr>\n<tr><td>Finance</td><td>Budgets, invoices, payments, tax</td></tr>\n<tr><td>Human resources</td><td>Staff, contracts, training</td></tr>\n<tr><td>Administration and compliance</td><td>Permits, registers, licences, records</td></tr></table>\n<h4>Income, costs and profit</h4>\n<p><strong>Profit = income − expenses.</strong> Example for a seven-day hunt:</p>\n<table><tr><th>Item</th><th>Amount (R)</th></tr>\n<tr><td>Income: daily rates and trophy fees</td><td>120 000</td></tr>\n<tr><td>Costs: trophy animals' value to landowner, staff, food, fuel, permits</td><td>85 000</td></tr>\n<tr><td>Profit before overheads and tax</td><td>35 000</td></tr></table>\n<p>The business also has <strong>fixed costs</strong> (salaries, insurance, vehicle finance) that must be paid even when there are no clients, so the season must earn enough to cover the quiet months.</p>"
+  },
+  {
+   "title": "Your role, rules and good business practice",
+   "minutes": 15,
+   "html": "<h3>How your work affects the business</h3>\n<ul><li><strong>Quality</strong>: a well-run hunt brings repeat clients and referrals.</li>\n<li><strong>Cost control</strong>: careful use of fuel, ammunition, food and equipment saves money.</li>\n<li><strong>Time</strong>: punctuality keeps the programme running.</li>\n<li><strong>Reputation</strong>: one unethical or unsafe act can damage the business for years.</li></ul>\n<h4>Laws a business must follow</h4>\n<ul><li>Registration with CIPC for companies; registration with SARS for income tax and, if turnover is above the threshold, VAT.</li>\n<li>Labour laws: Basic Conditions of Employment Act 75 of 1997, Labour Relations Act 66 of 1995, UIF and COIDA registration.</li>\n<li>Occupational Health and Safety Act 85 of 1993.</li>\n<li>Consumer Protection Act 68 of 2008 and POPIA (Act 4 of 2013) for clients.</li>\n<li>Industry laws: provincial hunting permits, Firearms Control Act 60 of 2000, Biodiversity Act TOPS permits.</li></ul>\n<h4>Business documents</h4>\n<ul><li><strong>Quotation</strong>: what will be provided and at what price.</li>\n<li><strong>Contract or booking confirmation</strong>: terms, deposit, cancellation policy.</li>\n<li><strong>Invoice</strong>: request for payment.</li>\n<li><strong>Receipt</strong>: proof of payment.</li>\n<li><strong>Records</strong>: hunting registers, stock lists, staff time sheets.</li></ul>\n<p>Keep documents for the period required by law; SARS can ask to see them.</p>\n<h4>Ethics in business</h4>\n<p>Be honest with clients about prices, game availability and trophy quality. Never accept bribes or take part in illegal hunts or the sale of wildlife products without permits. Treat staff fairly.</p>\n<h4>Planning and growth</h4>\n<p>A simple business plan describes the product, the market, competitors, the team, the finances and the goals. Review it each year. Look for new opportunities, such as adding photographic safaris in the off-season or offering venison products.</p>\n<h4>Key points</h4>\n<ul><li>Businesses can be sole proprietors, partnerships, companies or co-operatives.</li>\n<li>Profit is income minus expenses; fixed costs continue in quiet months.</li>\n<li>Your quality, cost control and reputation affect the bottom line.</li>\n<li>Comply with tax, labour, safety, consumer and industry laws.</li>\n<li>Use proper documents and act ethically.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which form of business is a separate legal person with limited liability?",
+   "options": [
+    {
+     "text": "Partnership",
+     "correct": false
+    },
+    {
+     "text": "Sole proprietor",
+     "correct": false
+    },
+    {
+     "text": "Private company (Pty) Ltd",
+     "correct": true
+    },
+    {
+     "text": "Informal trader",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is profit calculated?",
+   "options": [
+    {
+     "text": "Income − expenses",
+     "correct": true
+    },
+    {
+     "text": "Income × expenses",
+     "correct": false
+    },
+    {
+     "text": "Income + expenses",
+     "correct": false
+    },
+    {
+     "text": "Expenses − income",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the example hunt, what was the profit before overheads and tax?",
+   "options": [
+    {
+     "text": "R85 000",
+     "correct": false
+    },
+    {
+     "text": "R205 000",
+     "correct": false
+    },
+    {
+     "text": "R120 000",
+     "correct": false
+    },
+    {
+     "text": "R35 000",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which document is proof of payment?",
+   "options": [
+    {
+     "text": "Booking request",
+     "correct": false
+    },
+    {
+     "text": "Receipt",
+     "correct": true
+    },
+    {
+     "text": "Quotation",
+     "correct": false
+    },
+    {
+     "text": "Invoice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where are companies registered in South Africa?",
+   "options": [
+    {
+     "text": "CIPC",
+     "correct": true
+    },
+    {
+     "text": "SAPS",
+     "correct": false
+    },
+    {
+     "text": "SANParks",
+     "correct": false
+    },
+    {
+     "text": "The SPCA",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fixed costs such as salaries must be paid even when there are no clients.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Accepting a bribe to allow an illegal hunt is acceptable if the client pays well.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are functions of a business? (select all that apply)",
+   "options": [
+    {
+     "text": "Finance",
+     "correct": true
+    },
+    {
+     "text": "Ignoring compliance",
+     "correct": false
+    },
+    {
+     "text": "Marketing and sales",
+     "correct": true
+    },
+    {
+     "text": "Human resources",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

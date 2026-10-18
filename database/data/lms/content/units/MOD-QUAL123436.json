@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-QUAL123436",
+ "title": "Higher Certificate in General Agriculture",
+ "lessons": [
+  {
+   "title": "Foundations of agricultural science",
+   "minutes": 25,
+   "html": "<h3>About this qualification</h3><p>A Higher Certificate in General Agriculture at NQF level 5 gives a broad foundation across agricultural sciences and management, preparing learners for supervisory, technical and entry management roles, or further study. This overview introduces its core areas. Detailed module content and assessment are set by the provider.</p><h4>Soil science</h4><p>Soil is a living system of minerals, organic matter, water, air and organisms. Key properties:</p><ul><li><strong>Texture</strong> (sand, silt, clay proportions) affects water-holding capacity and drainage.</li><li><strong>Structure</strong> affects root penetration and infiltration; compaction from heavy machinery damages it.</li><li><strong>pH</strong> affects nutrient availability; many South African soils are acidic and need lime based on soil analysis.</li><li><strong>Organic matter</strong> improves structure, water retention and biological activity.</li><li><strong>Nutrients:</strong> macronutrients nitrogen (N), phosphorus (P), potassium (K), plus secondary and micronutrients.</li></ul><h4>Plant science</h4><p>Plants convert light energy into sugars through photosynthesis, using carbon dioxide and water. Growth depends on light, water, temperature, nutrients and freedom from pests and disease; the most limiting factor restricts yield. Understanding growth stages helps time fertiliser, irrigation and protection. In maize, for example, moisture stress around flowering is particularly damaging to yield.</p><h4>Animal science</h4><p>Ruminants such as cattle, sheep and goats digest fibrous feed through microbial fermentation in the rumen, which allows them to use veld grass. Monogastrics such as pigs and poultry need more concentrated diets. Nutrition must supply energy, protein, minerals, vitamins and water appropriate to the animal's stage: maintenance, growth, pregnancy or lactation.</p><h4>Climate and agro-ecological zones</h4><p>South Africa ranges from winter-rainfall areas in the Western Cape to summer-rainfall grain and cattle regions, arid Karoo and Kalahari rangelands and subtropical Lowveld. Climate determines which enterprises are viable. Climate variability and change make drought planning and water efficiency increasingly important.</p>"
+  },
+  {
+   "title": "Production systems",
+   "minutes": 25,
+   "html": "<h3>Field crops</h3><p>Major field crops include maize, wheat, soya beans, sunflower, sorghum, dry beans and groundnuts. Production steps: land preparation, soil fertility correction, cultivar selection, planting, weed, pest and disease control, harvesting, drying and storage. Crop rotation, for example maize after soya, can improve soil nitrogen and break pest and disease cycles.</p><h4>Horticulture</h4><p>Vegetables, fruit and ornamentals are often high-value but input- and labour-intensive, with strict quality standards for markets and export. Irrigation management, integrated pest management, harvest timing and cold-chain handling are critical.</p><h4>Livestock</h4><ul><li><strong>Beef cattle:</strong> extensive veld-based cow-calf systems, backgrounding and feedlots.</li><li><strong>Dairy:</strong> intensive feeding, milking hygiene and herd health.</li><li><strong>Small stock:</strong> sheep for wool and meat, goats for meat and milk; predation management is important.</li><li><strong>Pigs and poultry:</strong> intensive housed systems with strict biosecurity.</li></ul><h4>Rangeland and pasture management</h4><p>Veld is a major resource. Overgrazing reduces palatable grasses, increases bare ground and erosion, and encourages bush encroachment. Managers estimate carrying capacity, use rotational grazing, rest camps and monitor condition.</p><h4>Water and irrigation</h4><p>Irrigation requires authorised water use under the National Water Act 36 of 1998. Efficient systems (drip, centre pivot with scheduling) and soil-moisture monitoring reduce waste.</p><h4>Animal health and biosecurity</h4><p>Controlled diseases under the Animal Diseases Act 35 of 1984, such as foot-and-mouth disease, must be reported to the state veterinarian. Biosecurity measures include quarantining new animals, controlling movement of people and vehicles, and keeping records of treatments. Always follow the product label or your vet for treatments and withdrawal periods.</p><h4>Safety</h4><p>Farms are hazardous workplaces: machinery, chemicals, animals and fire. The Occupational Health and Safety Act 85 of 1993 applies. Train workers, provide PPE, guard machinery and store chemicals securely.</p>"
+  },
+  {
+   "title": "Agricultural economics, extension and sustainability",
+   "minutes": 25,
+   "html": "<h3>Agricultural economics</h3><p>Farming decisions are economic decisions. Key concepts:</p><ul><li><strong>Law of diminishing returns:</strong> adding more of one input, such as fertiliser, increases yield by smaller and smaller amounts. The economic optimum is where the extra yield value equals the extra input cost.</li><li><strong>Opportunity cost:</strong> the value of the best alternative forgone; land used for maize cannot also be used for soya that season.</li><li><strong>Gross margin analysis</strong> compares enterprises.</li><li><strong>Markets:</strong> grain prices are influenced by local supply, international prices and the exchange rate; the JSE commodity derivatives market provides price discovery and hedging tools for grains.</li><li><strong>Value chains:</strong> inputs, production, storage, processing, distribution and retail. Value adding and collective marketing can improve farmers' share.</li></ul><h4>Agricultural extension</h4><p>Extension helps farmers adopt better practices through demonstrations, farmer days, study groups, mentorship and advisory visits. Effective extension listens to farmers, respects local knowledge, demonstrates results on local farms and follows up. People respond better to seeing a neighbour's successful trial than to theory alone.</p><h4>Agricultural development in South Africa</h4><p>The sector includes large commercial farms, medium-scale and emerging farmers, and smallholders on communal land. Development programmes, land reform and blended finance aim to broaden participation. Mentorship, market access and reliable input supply are often decisive for new farmers.</p><h4>Sustainability</h4><p>Sustainable agriculture balances profit, people and planet: conserving soil and water, protecting biodiversity, reducing chemical risks, treating workers fairly and building resilience to climate shocks. Practices include conservation agriculture (minimum soil disturbance, permanent soil cover, crop rotation), integrated pest management and careful grazing management.</p><h4>Key points</h4><ul><li>Soil texture, structure, pH, organic matter and nutrients drive productivity.</li><li>The most limiting growth factor restricts yield.</li><li>Match stocking rate to carrying capacity and use rotational grazing.</li><li>Report controlled diseases to the state veterinarian.</li><li>Use diminishing returns and opportunity cost in input and enterprise decisions.</li><li>Sustainable farming protects resources while remaining profitable.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Many South African soils are acidic. What is commonly applied, based on soil analysis, to correct this?",
+   "options": [
+    {
+     "text": "Lime",
+     "correct": true
+    },
+    {
+     "text": "Sugar",
+     "correct": false
+    },
+    {
+     "text": "Diesel",
+     "correct": false
+    },
+    {
+     "text": "Salt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why can ruminants use veld grass effectively?",
+   "options": [
+    {
+     "text": "They have no stomach",
+     "correct": false
+    },
+    {
+     "text": "Microbial fermentation in the rumen digests fibre",
+     "correct": true
+    },
+    {
+     "text": "They only eat grain",
+     "correct": false
+    },
+    {
+     "text": "They drink more water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the law of diminishing returns state?",
+   "options": [
+    {
+     "text": "Each extra unit of input adds less extra yield",
+     "correct": true
+    },
+    {
+     "text": "Prices always fall",
+     "correct": false
+    },
+    {
+     "text": "More input always gives the same extra yield",
+     "correct": false
+    },
+    {
+     "text": "Inputs have no effect",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done if foot-and-mouth disease is suspected?",
+   "options": [
+    {
+     "text": "Sell the animals quickly",
+     "correct": false
+    },
+    {
+     "text": "Treat it quietly",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Report it to the state veterinarian",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a principle of conservation agriculture?",
+   "options": [
+    {
+     "text": "Minimum soil disturbance",
+     "correct": true
+    },
+    {
+     "text": "Deep ploughing every season",
+     "correct": false
+    },
+    {
+     "text": "Burning crop residues",
+     "correct": false
+    },
+    {
+     "text": "Monoculture",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Irrigation water use requires authorisation under the National Water Act 36 of 1998.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overgrazing increases palatable grasses and reduces erosion.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are components of soil? (select all that apply)",
+   "options": [
+    {
+     "text": "Minerals",
+     "correct": true
+    },
+    {
+     "text": "Organic matter",
+     "correct": true
+    },
+    {
+     "text": "Water and air",
+     "correct": true
+    },
+    {
+     "text": "Plastic",
+     "correct": false
+    },
+    {
+     "text": "Glass",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-08",
+ "title": "Practise Climate-Resilient Farming",
+ "lessons": [
+  {
+   "title": "Climate risks for South African farms",
+   "minutes": 20,
+   "html": "<h3>A changing climate</h3><p>South African farmers have always faced droughts, floods, hail and frost. Climate change is making many of these events more frequent or more severe in many regions, with higher temperatures, more heat waves, more erratic rainfall and longer dry spells. Climate-resilient farming means managing the farm so it can absorb these shocks and recover quickly.</p><h4>Main risks</h4><table><tr><th>Risk</th><th>Effect on crops</th><th>Effect on livestock</th></tr><tr><td>Drought</td><td>Poor germination, crop failure</td><td>Feed and water shortages, forced selling</td></tr><tr><td>Heat waves</td><td>Pollination failure, wilting</td><td>Heat stress, lower milk and fertility, deaths in poultry</td></tr><tr><td>Heavy rain and floods</td><td>Erosion, waterlogging, disease</td><td>Drowning, foot problems, parasite build-up</td></tr><tr><td>Shifting seasons</td><td>Planting windows change</td><td>Grazing season changes</td></tr><tr><td>Pests and diseases</td><td>New pests spread, such as fall armyworm</td><td>Vector-borne diseases spread</td></tr></table><h4>Assessing your farm's risk</h4><ul><li>Study your own rainfall records over many years; note how often drought years occurred.</li><li>Identify the lands most likely to erode or flood and the camps that dry out first.</li><li>List which enterprises fail first in a bad year.</li><li>Use seasonal forecasts from the South African Weather Service and advisories from the Department of Agriculture to adjust plans.</li></ul><h4>Using the risk assessment</h4><p>Rank the risks by how likely they are and how much damage they would cause. Focus first on the risks that are both likely and damaging, for example drought on a dryland farm or heat stress in a broiler house. Write down actions for each one, who is responsible and the cost. Review the list every year after the season, using your own records of what happened. This assessment is the basis for the practices in the next two lessons.</p>"
+  },
+  {
+   "title": "Climate-resilient crop practices",
+   "minutes": 20,
+   "html": "<h3>Making the lands more resilient</h3><h4>Keep water in the soil</h4><ul><li><strong>Conservation agriculture:</strong> minimum tillage, permanent soil cover and rotation increase infiltration and reduce evaporation.</li><li><strong>Mulching and cover crops</strong> protect the soil from heat and heavy rain.</li><li><strong>Contour planting and water harvesting</strong> (basins, tied ridges) hold rainfall where it falls.</li><li>Build organic matter with manure and compost; each increase improves the soil's water-holding capacity.</li></ul><h4>Choose and time crops wisely</h4><ul><li>Use drought-tolerant cultivars and crops such as sorghum, millet, cowpeas or drought-tolerant maize hybrids where suitable.</li><li>Spread planting dates and cultivars of different season lengths to reduce the risk of total failure.</li><li>Diversify enterprises so one bad season does not ruin the whole farm.</li></ul><h4>Irrigation efficiency</h4><ul><li>Use drip or well-maintained sprinkler systems and schedule irrigation by soil moisture.</li><li>Irrigate in the cool part of the day to reduce evaporation.</li><li>Store water in dams and tanks where legally permitted under the National Water Act 36 of 1998.</li></ul><h4>Financial protection</h4><p>Crop insurance for hail and other perils, emergency savings and a fodder reserve help the farm survive a bad year. Discuss the options with your insurer and bank before the season starts.</p><h4>Monitoring</h4><p>Measure soil moisture, record rainfall and compare yields of lands under different practices. These records show which climate-resilient practices work on your farm and are worth expanding. Share results with your study group or extension officer, so that other farmers in the area can learn from them too.</p><p>Plan these practices before the season starts so seed, labour and equipment are ready when they are needed.</p>"
+  },
+  {
+   "title": "Climate-resilient livestock practices",
+   "minutes": 20,
+   "html": "<h3>Protecting the herd</h3><h4>Breeds and stocking</h4><ul><li>Choose adapted breeds such as Nguni, Bonsmara, Drakensberger, Dorper or indigenous goats that tolerate heat, ticks and poor veld better.</li><li>Stock conservatively. Keep the herd below the long-term carrying capacity so there is grass in reserve.</li><li>Have a written drought plan with trigger points, for example, if the rains have not come by a certain date, sell a set percentage of animals, starting with culls and dry animals.</li></ul><h4>Feed and water reserves</h4><ul><li>Keep fodder banks: hay, silage or standing reserve camps.</li><li>Maintain boreholes, pumps and troughs; have a backup such as a solar pump or a second water source.</li><li>Use crop residues from the farm's own lands.</li></ul><h4>Heat stress</h4><p>Signs include panting, open-mouth breathing, drooling, crowding in shade and reduced feeding. Provide shade and plenty of cool water, handle animals only in the cool early morning, and never transport animals in the heat of the day. Poultry and pigs in houses need good ventilation and cooling.</p><h4>Integration and monitoring</h4><p>Integrating crops and livestock spreads risk: residues feed animals in drought and manure builds soil. Record rainfall, veld condition, animal condition scores and yields each year so decisions are based on evidence.</p><h4>Key points</h4><ul><li>Climate change is making droughts, heat waves and heavy rain more frequent or severe in many regions.</li><li>Keep water in the soil with conservation agriculture, mulch and water harvesting.</li><li>Diversify crops, planting dates and enterprises to spread risk.</li><li>Use adapted breeds, conservative stocking and a written drought plan.</li><li>Protect animals from heat stress with shade, water and careful handling times.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does climate-resilient farming mean?",
+   "options": [
+    {
+     "text": "Managing the farm so it can absorb climate shocks and recover quickly",
+     "correct": true
+    },
+    {
+     "text": "Farming only in winter",
+     "correct": false
+    },
+    {
+     "text": "Using more chemicals each year",
+     "correct": false
+    },
+    {
+     "text": "Moving the farm to another province",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which practice increases water infiltration and reduces evaporation?",
+   "options": [
+    {
+     "text": "Burning residues",
+     "correct": false
+    },
+    {
+     "text": "Deep ploughing in summer",
+     "correct": false
+    },
+    {
+     "text": "Conservation agriculture with permanent soil cover",
+     "correct": true
+    },
+    {
+     "text": "Leaving the soil bare after harvest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of heat stress in livestock?",
+   "options": [
+    {
+     "text": "Increased feeding",
+     "correct": false
+    },
+    {
+     "text": "Open-mouth breathing and drooling",
+     "correct": true
+    },
+    {
+     "text": "Shivering",
+     "correct": false
+    },
+    {
+     "text": "Thick winter coat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a drought plan include?",
+   "options": [
+    {
+     "text": "A promise never to sell animals",
+     "correct": false
+    },
+    {
+     "text": "Trigger points for reducing stock numbers",
+     "correct": true
+    },
+    {
+     "text": "Plans to buy more animals in a drought",
+     "correct": false
+    },
+    {
+     "text": "Only the vet's phone number",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why spread planting dates and cultivars of different season lengths?",
+   "options": [
+    {
+     "text": "To make harvesting harder",
+     "correct": false
+    },
+    {
+     "text": "To reduce the risk of total crop failure",
+     "correct": true
+    },
+    {
+     "text": "To use more seed",
+     "correct": false
+    },
+    {
+     "text": "Because the label requires it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Animals should be transported in the heat of the day to arrive quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Keeping the herd below the long-term carrying capacity leaves grass in reserve.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which breeds are mentioned as well adapted to South African conditions? (select all that apply)",
+   "options": [
+    {
+     "text": "Nguni",
+     "correct": true
+    },
+    {
+     "text": "Bonsmara",
+     "correct": true
+    },
+    {
+     "text": "Dorper",
+     "correct": true
+    },
+    {
+     "text": "Breeds that need housing all year",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

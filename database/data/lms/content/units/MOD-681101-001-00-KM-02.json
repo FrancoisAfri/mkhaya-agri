@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-02",
+ "title": "Occupational Health and Safety",
+ "lessons": [
+  {
+   "title": "Hazards in the abattoir",
+   "minutes": 15,
+   "html": "<h3>Why safety matters in an abattoir</h3><p>An abattoir is one of the most dangerous places to work. Workers use sharp knives and saws, work around heavy carcasses and large live animals, and stand on wet, slippery floors. The <strong>Occupational Health and Safety Act 85 of 1993</strong> says your employer must provide a safe workplace, training and protective equipment, and you must work safely and follow the rules.</p><h3>Main hazards</h3><table><tr><th>Hazard</th><th>Example</th></tr><tr><td>Cuts and stabs</td><td>Knives slipping, working too close to another worker</td></tr><tr><td>Machinery</td><td>Saws, hide pullers, hoists, conveyors</td></tr><tr><td>Live animals</td><td>Kicks and crushing in the races and stunning box</td></tr><tr><td>Captive bolt stunner</td><td>Accidental firing</td></tr><tr><td>Falling objects</td><td>Carcasses, hooks or shackles falling from the rail</td></tr><tr><td>Slips and falls</td><td>Fat, blood and water on floors and platforms</td></tr><tr><td>Strain injuries</td><td>Repetitive cutting, lifting heavy parts</td></tr><tr><td>Cold and heat</td><td>Chillers, hot water and steam</td></tr><tr><td>Chemicals</td><td>Cleaning and sanitising chemicals</td></tr><tr><td>Diseases from animals</td><td>Some infections can pass from animals to people through cuts or splashes</td></tr><tr><td>Noise</td><td>Machines and saws</td></tr></table><h3>Personal protective equipment (PPE)</h3><ul><li>White overalls or coat, apron and hair cover.</li><li>Rubber safety boots with non-slip soles.</li><li>Chain-mail (stainless steel mesh) glove and apron for knife work where required.</li><li>Hearing protection near saws.</li><li>Gloves and goggles for chemicals.</li><li>Warm clothing in the chillers.</li></ul><p>Wear PPE every time, and report damaged PPE so it can be replaced.</p><p>Look after your PPE: wash your apron and mesh glove at the end of each shift, store them in the place provided, and never lend them to other workers. Check boots for holes and worn soles that make you slip. Damaged PPE does not protect you.</p>"
+  },
+  {
+   "title": "Working safely and responding to incidents",
+   "minutes": 15,
+   "html": "<h3>Safe knife work</h3><ul><li>Keep your knife sharp. A blunt knife needs more force and slips more easily.</li><li>Always cut away from your body and away from other workers.</li><li>Keep enough space between you and the next worker.</li><li>Never try to catch a falling knife. Step back and let it fall.</li><li>Carry knives in a scabbard, never in your hand while walking.</li><li>Put knives in the steriliser or scabbard when not in use, never on the carcass or the floor.</li></ul><h3>Machinery and stunning</h3><ul><li>Use machines only if you are trained and authorised.</li><li>Never remove guards. Switch off and isolate (lock out) machines before cleaning or fixing them.</li><li>Treat the captive bolt stunner like a firearm: point it down, never at a person, and keep it unloaded when not in use.</li><li>Stay clear of overhead rails and moving carcasses.</li></ul><h3>Good habits</h3><ul><li>Clean up spills and fat to prevent slips.</li><li>Lift with your legs, not your back, and ask for help with heavy loads.</li><li>Stretch and rotate tasks where the abattoir allows, to reduce strain.</li><li>Never come to work under the influence of alcohol or drugs.</li></ul><h3>If there is an incident</h3><ol><li>Stop work and make the area safe; stop the line if needed.</li><li>Call the first aider. For a bleeding cut, press firmly on the wound with a clean pad. First aid must only be given by people trained by an accredited provider.</li><li>Tell your supervisor, and report every injury, even a small cut. Cuts can become infected.</li><li>The injury must be recorded, and you may be covered under COIDA.</li></ol><p>Know where the emergency stops, fire extinguishers, first aid box and exits are in your area.</p><h4>Key points</h4><ul><li>The OHS Act requires a safe workplace and safe behaviour from workers.</li><li>Main hazards are knives, machines, live animals, slippery floors and strain.</li><li>Wear PPE, including mesh gloves and non-slip boots.</li><li>Cut away from yourself and never catch a falling knife.</li><li>Lock out machines before cleaning and report every injury.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is a blunt knife dangerous?",
+   "options": [
+    {
+     "text": "It is heavier",
+     "correct": false
+    },
+    {
+     "text": "It rusts faster",
+     "correct": false
+    },
+    {
+     "text": "It cannot be sterilised",
+     "correct": false
+    },
+    {
+     "text": "It needs more force and slips more easily",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if your knife falls?",
+   "options": [
+    {
+     "text": "Catch it quickly",
+     "correct": false
+    },
+    {
+     "text": "Step back and let it fall",
+     "correct": true
+    },
+    {
+     "text": "Kick it away",
+     "correct": false
+    },
+    {
+     "text": "Grab the blade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before cleaning a machine, you must…",
+   "options": [
+    {
+     "text": "Switch it off and lock it out",
+     "correct": true
+    },
+    {
+     "text": "Remove the guard while it runs",
+     "correct": false
+    },
+    {
+     "text": "Spray it with water while running",
+     "correct": false
+    },
+    {
+     "text": "Ask a co-worker to hold it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which PPE protects your hand during knife work?",
+   "options": [
+    {
+     "text": "A chain-mail (stainless steel mesh) glove",
+     "correct": true
+    },
+    {
+     "text": "A cotton glove",
+     "correct": false
+    },
+    {
+     "text": "A rubber band",
+     "correct": false
+    },
+    {
+     "text": "No glove",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should the captive bolt stunner be handled?",
+   "options": [
+    {
+     "text": "Like a toy",
+     "correct": false
+    },
+    {
+     "text": "Left loaded on the floor",
+     "correct": false
+    },
+    {
+     "text": "Carried in a pocket",
+     "correct": false
+    },
+    {
+     "text": "Like a firearm, pointed down and never at a person",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You only need to report cuts that need stitches.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers should cut away from their own body and away from other workers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are hazards in an abattoir? (select all that apply)",
+   "options": [
+    {
+     "text": "Repetitive cutting strain",
+     "correct": true
+    },
+    {
+     "text": "Carcasses falling from the rail",
+     "correct": true
+    },
+    {
+     "text": "A clean, dry office desk",
+     "correct": false
+    },
+    {
+     "text": "Slippery floors",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

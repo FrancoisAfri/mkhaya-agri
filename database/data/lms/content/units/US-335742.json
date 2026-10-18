@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335742",
+ "title": "Develop a foal from weanling to yearling",
+ "lessons": [
+  {
+   "title": "Feeding and managing the weanling",
+   "minutes": 20,
+   "html": "<h3>A critical growth period</h3>\n<p>Between weaning (about 4 to 6 months) and its first birthday, a young horse grows rapidly. In South Africa, Thoroughbreds all turn a year older on the official birthday (1 August), and yearling sales such as those held in the Western Cape and KwaZulu-Natal mean many youngsters are prepared for sale in this period. Good management now shapes soundness for life.</p>\n<h3>Nutrition</h3>\n<ul>\n<li><strong>Forage first:</strong> good pasture or quality hay such as lucerne mixed with grass hay.</li>\n<li><strong>Balanced concentrate:</strong> a ration made for youngstock, providing protein (especially the amino acid lysine), calcium, phosphorus, copper and zinc in the right balance.</li>\n<li><strong>Steady growth:</strong> avoid both underfeeding and overfeeding. Sudden spurts after periods of poor feeding are linked to developmental orthopaedic disease (DOD), such as physitis and OCD.</li>\n<li>Feed by weight and condition; adjust amounts as the youngster grows. Use a weigh tape or scale monthly.</li>\n<li>Fresh water always; salt and mineral licks as advised.</li>\n</ul>\n<h3>Grouping and environment</h3>\n<ul>\n<li>Keep weanlings in small groups of similar age and size; separate colts from fillies by about 9 to 12 months, or earlier if colts are boisterous.</li>\n<li>Daily free exercise in large, safe paddocks builds strong bone and tendons. Avoid forced exercise like long lunging on young joints.</li>\n<li>Safe fencing with no wire or gaps; shade and shelter.</li>\n<li>An older, quiet \"nanny\" horse in the group teaches manners.</li>\n</ul>\n<h3>Health care</h3>\n<ul>\n<li>Vaccinations and boosters as the vet plans, including African horse sickness.</li>\n<li>Deworming based on faecal egg counts and the vet's programme.</li>\n<li>Farrier every 4 to 6 weeks to keep feet balanced and to correct limb issues while growth plates are open.</li>\n<li>Dental check by the vet within the first year.</li>\n<li>Watch for injuries, swollen joints, lameness and weight loss.</li>\n</ul>"
+  },
+  {
+   "title": "Handling, education and yearling preparation",
+   "minutes": 20,
+   "html": "<h3>Building good manners</h3>\n<p>Young horses learn quickly. Consistent, calm handling now produces a safe, trainable adult.</p>\n<ol>\n<li><strong>Leading:</strong> walk at the shoulder, stop and start on voice command, turn both ways, back up a few steps.</li>\n<li><strong>Standing tied:</strong> short periods tied with a quick-release knot or to baling twine, supervised.</li>\n<li><strong>Feet:</strong> lifts and holds each foot for picking out and the farrier.</li>\n<li><strong>Grooming and touch:</strong> accepts handling all over, including ears, mouth and between the hind legs.</li>\n<li><strong>Desensitisation:</strong> spray bottles, clippers sound, plastic bags, hosepipe, rugs, all introduced gradually.</li>\n<li><strong>Loading:</strong> practise walking into a horsebox calmly before the first real trip.</li>\n</ol>\n<p>Keep sessions short (10 to 15 minutes), end on a good note, reward calm behaviour with release and a scratch, and never allow nipping, barging or kicking to be rewarded.</p>\n<h3>Monitoring development</h3>\n<table><tr><th>Measure</th><th>Why</th></tr>\n<tr><td>Body weight and height</td><td>Check steady growth</td></tr>\n<tr><td>Body condition score</td><td>Not too fat or thin</td></tr>\n<tr><td>Limb conformation</td><td>Spot deviations early for the vet and farrier</td></tr>\n<tr><td>Behaviour</td><td>Progress in handling</td></tr></table>\n<p>Record all findings monthly in the young horse's file with photos.</p>\n<h3>Preparing yearlings for sale or show</h3>\n<ul>\n<li>Begin a preparation programme some weeks before the sale: controlled walking exercise, improved grooming and conditioning feed as advised.</li>\n<li>Teach the youngster to stand square and walk out confidently in hand for inspection.</li>\n<li>Ensure identification and documents are correct: microchip, passport, vaccination records and breed society registration.</li>\n<li>Avoid over-fattening; buyers and vets look for an athletic, well-grown youngster.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Aim for steady growth with balanced forage-based feeding.</li>\n<li>Avoid feeding extremes that cause developmental orthopaedic disease.</li>\n<li>Free exercise in safe paddocks builds sound legs; avoid forced exercise.</li>\n<li>Regular farrier, vet and dental care while growth plates are open.</li>\n<li>Short, consistent handling sessions build good manners.</li>\n<li>Prepare sale yearlings with conditioning, in-hand training and correct papers.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the official birthday of Thoroughbreds in South Africa?",
+   "options": [
+    {
+     "text": "1 January",
+     "correct": false
+    },
+    {
+     "text": "1 March",
+     "correct": false
+    },
+    {
+     "text": "1 August",
+     "correct": true
+    },
+    {
+     "text": "25 December",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can sudden growth spurts after poor feeding lead to?",
+   "options": [
+    {
+     "text": "Developmental orthopaedic disease",
+     "correct": true
+    },
+    {
+     "text": "Better hooves",
+     "correct": false
+    },
+    {
+     "text": "African horse sickness",
+     "correct": false
+    },
+    {
+     "text": "Faster weaning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What type of exercise is best for weanlings?",
+   "options": [
+    {
+     "text": "Long lunging sessions",
+     "correct": false
+    },
+    {
+     "text": "Daily racing gallops",
+     "correct": false
+    },
+    {
+     "text": "No exercise at all",
+     "correct": false
+    },
+    {
+     "text": "Free exercise in large, safe paddocks",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How long should handling sessions for youngsters be?",
+   "options": [
+    {
+     "text": "Two hours",
+     "correct": false
+    },
+    {
+     "text": "About 10 to 15 minutes",
+     "correct": true
+    },
+    {
+     "text": "All day",
+     "correct": false
+    },
+    {
+     "text": "Only once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is farrier care every 4 to 6 weeks important for young horses?",
+   "options": [
+    {
+     "text": "For shoe fashion",
+     "correct": false
+    },
+    {
+     "text": "To keep the farrier busy",
+     "correct": false
+    },
+    {
+     "text": "To balance feet and help correct limb issues while growth plates are open",
+     "correct": true
+    },
+    {
+     "text": "To make the hooves grow faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An older, quiet horse in a group of weanlings can help teach manners.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Yearlings for sale should be as fat as possible.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which documents should be correct before a yearling sale? (select all that apply)",
+   "options": [
+    {
+     "text": "Microchip and passport",
+     "correct": true
+    },
+    {
+     "text": "Vaccination records",
+     "correct": true
+    },
+    {
+     "text": "Breed society registration",
+     "correct": true
+    },
+    {
+     "text": "The buyer's tax return",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-653308-000-00-00-PM-05",
+  "title": "Work with Fluid Power Components",
+  "lessons": [
+    {
+      "title": "Hydraulic hoses, fittings and couplers",
+      "minutes": 15,
+      "html": "<h3>What fluid power does on a tractor</h3><p>Fluid power means using oil (hydraulics) or air (pneumatics) under pressure to do work. On a tractor, hydraulics lift the three-point linkage, work the front-end loader, tip trailers and help steering and brakes. Air may be used for trailer brakes and seats.</p><h4>Danger: oil under pressure</h4><p>Hydraulic oil can be at very high pressure. A tiny leak can shoot oil through your skin. This is a medical emergency, even if it looks like a small cut. Go to a doctor straight away and say it is a hydraulic injection injury.</p><ul><li>Never feel for leaks with your hand. Hold a piece of cardboard near the hose.</li><li>Lower all implements to the ground before you work.</li><li>Stop the engine and move the control levers to release pressure.</li><li>Wear safety glasses and gloves.</li></ul><h4>Hoses</h4><p>Hydraulic hoses have layers of rubber and steel wire. Check hoses for:</p><ul><li>cracks, cuts and worn outer cover</li><li>bulges or blisters</li><li>leaks at the fittings</li><li>kinks or twists</li><li>rubbing against metal</li></ul><p>Replace a damaged hose with one of the same type, size and pressure rating. Never repair a hydraulic hose with tape or clamps.</p><h4>Quick couplers</h4><p>Quick couplers connect implement hoses to the tractor. Before you connect:</p><ol><li>Lower the implement and release pressure.</li><li>Wipe both couplers clean with a clean rag.</li><li>Push firmly until they lock.</li><li>Fit dust caps when hoses are not connected.</li></ol><p>Dirt in couplers is one of the main causes of hydraulic damage.</p><h4>Checking hose routing</h4><p>Hoses must not rub on sharp edges, hot exhausts or moving parts. Check that clamps and clips hold them in place, and that hoses are long enough for the implement to move up and down without pulling tight.</p>"
+    },
+    {
+      "title": "Cylinders, filters and oil",
+      "minutes": 15,
+      "html": "<h3>Hydraulic cylinders</h3><p>A cylinder pushes and pulls. It has a barrel, a piston and a rod. A single-acting cylinder is pushed out by oil and comes back by the weight of the load. A double-acting cylinder is pushed both ways by oil, like on a loader.</p><h4>Checking cylinders</h4><ul><li>Look for oil leaking around the rod seal.</li><li>Check the rod for scratches, rust or bends. A damaged rod damages the seal.</li><li>Check that the pins and bushes at each end are not worn.</li><li>Watch if the implement slowly drops when held up. This can mean internal leaks; tell the mechanic.</li></ul><p>Never work under a raised loader or implement held only by hydraulics. Use the safety lock or stands.</p><h4>Changing hydraulic filters</h4><ol><li>Park safely, lower implements, stop the engine and release pressure.</li><li>Clean around the filter housing.</li><li>Put a drip tray under the filter.</li><li>Remove the old filter. Check its seal came off with it.</li><li>Oil the new filter seal lightly with clean hydraulic oil.</li><li>Fit the new filter and tighten by hand, or as the manual says.</li><li>Start the engine, check for leaks and check the oil level.</li></ol><h4>Hydraulic oil</h4><p>Use only the oil type in the operator's manual. Many tractors use one oil for the gearbox, hydraulics and brakes. The wrong oil can damage seals and cause brake noise. Check the level with implements lowered, as the manual says. Top up only from a clean, closed container using a clean funnel. Report oil that looks milky, which means water, or foamy, which means air.</p><h4>Air systems</h4><p>If the tractor has air brakes, drain water from the air tank as you were shown. Listen for air leaks with the engine off. Report leaks to the mechanic.</p><h4>Disposal</h4><p>Put used oil and filters in the marked containers for recycling. Clean spills with absorbent.</p><h4>Key points</h4><ul><li>Oil under pressure can inject through skin; get medical help immediately.</li><li>Use cardboard, not your hand, to find leaks.</li><li>Clean couplers before connecting and fit dust caps.</li><li>Never work under equipment held up only by hydraulics.</li><li>Use the correct oil and keep it clean.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "How should you look for a hydraulic leak?",
+      "options": [
+        {
+          "text": "Run your hand along the hose",
+          "correct": false
+        },
+        {
+          "text": "Hold a piece of cardboard near the hose",
+          "correct": true
+        },
+        {
+          "text": "Put your face close",
+          "correct": false
+        },
+        {
+          "text": "Increase pressure",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do before connecting quick couplers?",
+      "options": [
+        {
+          "text": "Wipe both couplers clean",
+          "correct": true
+        },
+        {
+          "text": "Spray them with water",
+          "correct": false
+        },
+        {
+          "text": "Raise the implement",
+          "correct": false
+        },
+        {
+          "text": "Remove the dust caps and throw them away",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a double-acting cylinder do?",
+      "options": [
+        {
+          "text": "Only pushes out",
+          "correct": false
+        },
+        {
+          "text": "Only pulls in",
+          "correct": false
+        },
+        {
+          "text": "Pushes and pulls using oil both ways",
+          "correct": true
+        },
+        {
+          "text": "Stores oil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Hydraulic oil looks milky. What does this mean?",
+      "options": [
+        {
+          "text": "It is new",
+          "correct": false
+        },
+        {
+          "text": "There is too much pressure",
+          "correct": false
+        },
+        {
+          "text": "It is very clean",
+          "correct": false
+        },
+        {
+          "text": "There is water in it",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should a damaged hydraulic hose be fixed?",
+      "options": [
+        {
+          "text": "Replace it with one of the same type, size and pressure rating",
+          "correct": true
+        },
+        {
+          "text": "Wrap it in tape",
+          "correct": false
+        },
+        {
+          "text": "Use a hose clamp",
+          "correct": false
+        },
+        {
+          "text": "Leave it until it bursts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A hydraulic injection injury that looks small can wait until after work.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "An implement slowly dropping when held up may mean an internal leak.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are signs that a hose needs replacing? (select all that apply)",
+      "options": [
+        {
+          "text": "Bulges or blisters",
+          "correct": true
+        },
+        {
+          "text": "Cracks and cuts",
+          "correct": true
+        },
+        {
+          "text": "Leaks at the fittings",
+          "correct": true
+        },
+        {
+          "text": "Clean, smooth cover",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-313909-001-01-KM-07",
+ "title": "Operational Management for Feed Millers",
+ "lessons": [
+  {
+   "title": "Production planning and capacity",
+   "minutes": 25,
+   "html": "<h3>Production planning and capacity</h3><p>A feed miller at management level is responsible for turning customer orders into safe, on-specification feed, on time and at the lowest sustainable cost. This starts with planning.</p><h4>Demand and the production plan</h4><ul><li>Collect orders and forecasts from sales: product, quantity, form (mash, pellet, crumble), packaging and delivery date.</li><li>Group products into a production schedule per shift and per line.</li><li>Sequence runs to minimise changeovers and carry-over risk: non-medicated before medicated, sensitive species (for example horse or layer feed) before products with additives that are unsafe for them.</li><li>Match finished-feed bin capacity and dispatch slots to the schedule.</li></ul><h4>Capacity</h4><p>Capacity is limited by the slowest step, the bottleneck. In many mills this is the pellet line. Know the rated and actual throughput (tonnes per hour) of intake, grinding, mixing (batches per hour) and pelleting.</p><p><em>Example</em>: a mixer of 3 tonnes per batch running 10 batches per hour can supply 30 t/h, but if the pellet mill only achieves 15 t/h on broiler grower, the line produces 15 t/h. Improving the mixer will not raise output; improving pellet throughput will.</p><h4>Raw material planning</h4><ul><li>Convert the production plan into ingredient requirements using formulations.</li><li>Check stock and open orders; trigger purchases with lead times in mind, especially for imported soya oilcake and premixes.</li><li>Plan silo allocation so the right grain grades are available.</li></ul><h4>Key performance indicators</h4><table><tr><th>KPI</th><th>Shows</th></tr><tr><td>Tonnes produced versus plan</td><td>Delivery to schedule</td></tr><tr><td>Overall equipment effectiveness (availability, performance, quality)</td><td>How well equipment is used</td></tr><tr><td>Energy per tonne (kWh, steam)</td><td>Efficiency and cost</td></tr><tr><td>Shrinkage (stock loss)</td><td>Material control</td></tr><tr><td>Non-conforming batches and complaints</td><td>Quality</td></tr><tr><td>Lost-time injuries</td><td>Safety</td></tr></table>"
+  },
+  {
+   "title": "Costs, maintenance and inventory control",
+   "minutes": 25,
+   "html": "<h3>Costs, maintenance and inventory control</h3><h4>Cost structure</h4><p>Raw materials are by far the largest share of the cost of a tonne of feed. Conversion costs include labour, electricity, steam (boiler fuel), maintenance spares, packaging, depreciation and overheads. Because raw materials dominate, small percentages of shrinkage or over-formulation cost more than most conversion savings.</p><ul><li><strong>Shrinkage control</strong>: accurate weighbridges and scales, moisture management, spillage control, regular stock counts and reconciliation of book versus physical stock.</li><li><strong>Energy</strong>: South African electricity costs and load-shedding make energy management important. Run large motors efficiently, avoid idle running, monitor kWh per tonne, and plan production around supply interruptions with generator capacity where available.</li><li><strong>Budgeting</strong>: compare actual cost per tonne with budget each month and explain variances.</li></ul><h4>Maintenance management</h4><ul><li><strong>Planned preventive maintenance</strong>: lubrication, belt and chain checks, hammer turning, die and roller changes on a schedule.</li><li><strong>Condition monitoring</strong>: vibration, temperature, motor current and die wear trends.</li><li><strong>Breakdown maintenance</strong>: kept to a minimum; root cause analysis after major failures.</li><li>Keep critical spares in stock, for example a spare die, rollers and hammer sets.</li><li>Coordinate maintenance windows with the production plan.</li></ul><h4>Inventory control</h4><p>Balance two risks: running out (stopping production, failing customers) and holding too much (cash tied up, ageing and quality loss). Set minimum stock and reorder points from usage rate and lead time, and review them when formulations or volumes change. Apply FIFO or FEFO strictly for premixes and medicaments with expiry dates.</p><h4>Reporting cost performance</h4><p>Report cost per tonne monthly, split into raw material, conversion and distribution costs, and compare it with budget and the previous year. Explain the main variances, for example higher steam cost because a new product needed more conditioning, and propose actions.</p>"
+  },
+  {
+   "title": "Compliance, quality systems and people",
+   "minutes": 25,
+   "html": "<h3>Compliance, quality systems and people</h3><h4>Legal and regulatory compliance</h4><ul><li>Act 36 of 1947: feed registration, labelling and use of registered remedies in feed.</li><li>OHS Act 85 of 1993: risk assessments, safety representatives and committees, incident reporting, machinery and pressure equipment requirements.</li><li>Environmental obligations: dust, noise, waste water and boiler emissions as set by local and national authorities.</li><li>Labour legislation for working hours, leave and fair procedures, applied through the company's HR policies.</li></ul><h4>Quality and feed safety systems</h4><p>Many mills operate HACCP-based systems and certified standards. The manager ensures:</p><ul><li>hazard analysis and critical control points are defined, monitored and verified;</li><li>SOPs are current, trained and followed;</li><li>internal audits, management reviews and corrective actions are completed;</li><li>traceability can be demonstrated: from a bag of feed back to batch records and raw material lots, quickly, in a mock recall;</li><li>customer complaints are investigated with root cause analysis.</li></ul><h4>Managing people</h4><ul><li>Plan shifts with enough skilled operators for each line, considering leave and training.</li><li>Set clear targets and review performance regularly.</li><li>Build competence through on-the-job training and accredited qualifications.</li><li>Lead safety by example: walk the floor, stop unsafe work and recognise good practice.</li><li>Communicate the plan, changes and results at shift meetings.</li></ul><h4>Continuous improvement</h4><p>Use data from KPIs, downtime logs and quality results to choose improvement projects. A simple Plan-Do-Check-Act cycle helps: define the problem, try a change, measure the result, and standardise what works.</p><h4>Key points</h4><ul><li>Plan production by sequencing for changeovers and carry-over risk.</li><li>The bottleneck determines mill output.</li><li>Raw materials dominate cost; control shrinkage and formulation accuracy.</li><li>Preventive maintenance and critical spares protect capacity.</li><li>Compliance covers feed registration, OHS, environment and labour law.</li><li>Traceability and continuous improvement sustain quality.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A mixer can supply 30 t/h but the pellet mill achieves 15 t/h. What is the line output?",
+   "options": [
+    {
+     "text": "45 t/h",
+     "correct": false
+    },
+    {
+     "text": "30 t/h",
+     "correct": false
+    },
+    {
+     "text": "15 t/h",
+     "correct": true
+    },
+    {
+     "text": "22.5 t/h",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the largest share of the cost of a tonne of feed?",
+   "options": [
+    {
+     "text": "Raw materials",
+     "correct": true
+    },
+    {
+     "text": "Labour",
+     "correct": false
+    },
+    {
+     "text": "Packaging",
+     "correct": false
+    },
+    {
+     "text": "Electricity",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are medicated feeds usually scheduled after non-medicated feeds?",
+   "options": [
+    {
+     "text": "Medicated feeds are cheaper",
+     "correct": false
+    },
+    {
+     "text": "To reduce carry-over risk into sensitive feeds",
+     "correct": true
+    },
+    {
+     "text": "They pellet faster",
+     "correct": false
+    },
+    {
+     "text": "Customers prefer it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a mock recall test?",
+   "options": [
+    {
+     "text": "Pellet hardness",
+     "correct": false
+    },
+    {
+     "text": "Truck speed",
+     "correct": false
+    },
+    {
+     "text": "Boiler pressure",
+     "correct": false
+    },
+    {
+     "text": "The ability to trace feed back to batch records and raw material lots",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of condition monitoring?",
+   "options": [
+    {
+     "text": "Vibration and temperature trending",
+     "correct": true
+    },
+    {
+     "text": "Waiting for breakdowns",
+     "correct": false
+    },
+    {
+     "text": "Painting machines",
+     "correct": false
+    },
+    {
+     "text": "Changing the formulation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Improving the speed of a non-bottleneck machine increases total mill output.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Reorder points should be based on usage rate and supplier lead time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help control shrinkage? (select all that apply)",
+   "options": [
+    {
+     "text": "Accurate weighbridges and scales",
+     "correct": true
+    },
+    {
+     "text": "Regular stock counts and reconciliation",
+     "correct": true
+    },
+    {
+     "text": "Spillage control",
+     "correct": true
+    },
+    {
+     "text": "Skipping stock counts in busy months",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

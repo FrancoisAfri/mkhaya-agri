@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-253497",
+ "title": "Maintain positive displacement pumps",
+ "lessons": [
+  {
+   "title": "Types and principles of positive displacement pumps",
+   "minutes": 20,
+   "html": "<h3>How they differ from centrifugal pumps</h3><p>A positive displacement (PD) pump traps a fixed volume of liquid and forces it out with each stroke or revolution. Flow depends mainly on speed, not on the pressure against it. That makes PD pumps ideal for accurate dosing, high pressures, viscous liquids and low-yield boreholes.</p><p>The most important rule: <strong>a PD pump must never run against a closed outlet</strong>. Pressure rises until a pipe, fitting or the pump itself fails. A correctly set pressure relief valve must protect the discharge.</p><h4>Common types</h4><table><tr><th>Type</th><th>Principle</th><th>Typical farm or water use</th></tr><tr><td>Piston / plunger (reciprocating)</td><td>Piston moves in a cylinder with inlet and outlet valves</td><td>High-pressure sprayers, cleaners, windmill pumps</td></tr><tr><td>Diaphragm</td><td>Flexing diaphragm with check valves; no seals in contact with liquid</td><td>Chemical dosing, sprayers, fertigation metering</td></tr><tr><td>Progressive cavity (helical rotor)</td><td>Metal rotor turns in a rubber stator, forming moving cavities</td><td>Boreholes, solar pumping, sludge and slurry</td></tr><tr><td>Gear</td><td>Meshing gears carry liquid around the casing</td><td>Oils, hydraulic systems, fuel transfer</td></tr><tr><td>Lobe and vane</td><td>Rotating lobes or sliding vanes</td><td>Food, transfer pumps</td></tr><tr><td>Peristaltic (hose)</td><td>Rollers squeeze a flexible tube</td><td>Dosing chlorine and acids</td></tr></table><h4>Wear parts</h4><ul><li>Valves, valve seats and springs (piston and diaphragm)</li><li>Piston cups, packing or seals</li><li>Diaphragms</li><li>Stators and rotors (progressive cavity)</li><li>Gears, bushes and side plates</li><li>Hoses (peristaltic)</li></ul><p>Abrasive water, dry running, wrong chemicals for the materials and excess pressure all shorten life.</p><h4>Safety</h4><p>Lock out drives, release pressure through the relief or drain, and know the liquid being pumped: chemical dosing pumps can contain concentrated acid, chlorine or fertiliser. Wear PPE as the safety data sheet requires.</p>"
+  },
+  {
+   "title": "Maintaining and repairing positive displacement pumps",
+   "minutes": 20,
+   "html": "<h3>Routine checks</h3><ul><li>Pressure at the discharge and relief valve setting</li><li>Flow or dosing rate compared with the setting (calibration cylinder for dosing pumps)</li><li>Leaks at seals, diaphragms and connections</li><li>Noise and knocking, which can mean worn valves, air in the suction or a loose drive</li><li>Oil level and condition in crankcases and gearboxes</li><li>Belt tension, pulleys and guards</li></ul><h4>Piston pump service</h4><ol><li>Isolate and depressurise.</li><li>Remove valve caps; inspect valves, seats and springs for wear, cracks and debris; replace as a set.</li><li>Inspect piston cups or plunger seals; replace if leaking or scored.</li><li>Change crankcase oil at the interval specified.</li><li>Check pulsation dampener (air chamber) charge where fitted.</li></ol><h4>Diaphragm pump service</h4><ul><li>Replace diaphragms at the interval specified or at the first sign of liquid in the oil or air chamber.</li><li>Clean and inspect check valves; crystallised chemical deposits often cause loss of dosing.</li><li>Flush chemical pumps with clean water before opening.</li></ul><h4>Progressive cavity pump service</h4><ul><li>Check output: falling flow at the same speed indicates stator wear.</li><li>Replace stator and, if worn, rotor; lubricate as the manufacturer instructs on assembly.</li><li>Check universal joints or flexible shaft, and the shaft seal or gland.</li><li>Fit or test dry-run protection.</li></ul><h4>Gear pump service</h4><ul><li>Check end clearance and bushes; worn parts reduce pressure.</li><li>Replace shaft seals; use the right seal material for the liquid.</li></ul><h4>Reassembly and testing</h4><p>Use manufacturer's spare parts and torque values. Prime the suction, start with discharge open, set and test the relief valve, check flow or dosing rate, look for leaks and record readings.</p>"
+  },
+  {
+   "title": "Fault finding and records",
+   "minutes": 15,
+   "html": "<h3>Fault-finding guide</h3><table><tr><th>Symptom</th><th>Possible causes</th><th>Action</th></tr><tr><td>No flow</td><td>Suction blocked, air leak, valve stuck, empty tank, broken drive</td><td>Check suction line, strainer, tank level, valves, drive</td></tr><tr><td>Low flow or dosing</td><td>Worn valves or seals, stator worn, speed low, air in suction</td><td>Inspect wear parts; bleed air; check speed</td></tr><tr><td>Excess pressure, relief valve opening</td><td>Blocked or closed discharge, blocked filter</td><td>Find blockage; never block the relief valve</td></tr><tr><td>Knocking or pulsation</td><td>Worn valves, low pulsation dampener charge, cavitation</td><td>Service valves; recharge dampener; check suction</td></tr><tr><td>Leakage</td><td>Worn seals or diaphragm, loose fittings</td><td>Replace seals or diaphragm; tighten</td></tr><tr><td>Overheating</td><td>Running dry, too high pressure, lack of lubrication</td><td>Stop; find cause; never run dry</td></tr><tr><td>Liquid in oil</td><td>Ruptured diaphragm or seal</td><td>Stop at once; replace diaphragm and oil</td></tr></table><h4>Planning maintenance</h4><p>Use run hours and condition to plan service: dosing pumps on fertigation systems before the season starts; borehole progressive cavity pumps when flow drops; sprayer pumps after each season with a flush and storage oil if recommended. Keep common spares (valve kits, diaphragms, seals, stators) on hand for critical pumps.</p><h4>Records</h4><ul><li>Pump make, model, serial number, liquid pumped and materials of wetted parts</li><li>Relief valve setting and test date</li><li>Calibration results for dosing pumps</li><li>Service dates, parts replaced, hours run and readings</li><li>Faults and root causes</li></ul><p>Records help identify recurring faults, such as a stator failing because a dry-run switch is not working, so the real cause can be fixed.</p><h4>Key points</h4><ul><li>PD pump flow depends on speed, not pressure; never run against a closed outlet.</li><li>A relief valve must protect the discharge and must never be blocked.</li><li>Valves, seals, diaphragms and stators are the main wear parts.</li><li>Flush chemical pumps and wear PPE before opening them.</li><li>Calibrate dosing pumps and keep records to find root causes.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What mainly determines the flow of a positive displacement pump?",
+   "options": [
+    {
+     "text": "The pressure against it",
+     "correct": false
+    },
+    {
+     "text": "Its speed",
+     "correct": true
+    },
+    {
+     "text": "The pipe colour",
+     "correct": false
+    },
+    {
+     "text": "The size of the tank",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What protects a PD pump if the outlet is blocked?",
+   "options": [
+    {
+     "text": "A foot valve",
+     "correct": false
+    },
+    {
+     "text": "A strainer",
+     "correct": false
+    },
+    {
+     "text": "A larger motor",
+     "correct": false
+    },
+    {
+     "text": "A correctly set pressure relief valve",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which PD pump uses a metal rotor turning in a rubber stator?",
+   "options": [
+    {
+     "text": "Progressive cavity pump",
+     "correct": true
+    },
+    {
+     "text": "Gear pump",
+     "correct": false
+    },
+    {
+     "text": "Piston pump",
+     "correct": false
+    },
+    {
+     "text": "Peristaltic pump",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Liquid appears in the oil of a diaphragm pump. What does this indicate?",
+   "options": [
+    {
+     "text": "Normal operation",
+     "correct": false
+    },
+    {
+     "text": "Too much oil",
+     "correct": false
+    },
+    {
+     "text": "A ruptured diaphragm or seal",
+     "correct": true
+    },
+    {
+     "text": "Correct dosing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Falling flow from a progressive cavity pump at the same speed usually indicates what?",
+   "options": [
+    {
+     "text": "Pressure too low",
+     "correct": false
+    },
+    {
+     "text": "Stator wear",
+     "correct": true
+    },
+    {
+     "text": "Too much water",
+     "correct": false
+    },
+    {
+     "text": "A new rotor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chemical dosing pumps should be flushed with clean water before they are opened.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to block the relief valve if it keeps opening.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are typical wear parts in positive displacement pumps? (select all that apply)",
+   "options": [
+    {
+     "text": "Valves and seats",
+     "correct": true
+    },
+    {
+     "text": "Diaphragms",
+     "correct": true
+    },
+    {
+     "text": "Stators",
+     "correct": true
+    },
+    {
+     "text": "Pressure gauge face plates",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

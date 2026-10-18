@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115843",
+ "title": "Prune tea",
+ "lessons": [
+  {
+   "title": "Why tea is pruned and getting ready",
+   "minutes": 15,
+   "html": "<h3>Why we prune tea</h3><p>A tea bush that is never cut grows into a tall tree. Pluckers could not reach the leaves. Pruning cuts the bush back so it stays low and wide. The flat top of the bush where pluckers pick is called the <strong>plucking table</strong>.</p><p>Pruning helps the bush to:</p><ul><li>Stay at a height where pluckers can reach</li><li>Grow many new shoots, which means more leaf</li><li>Get rid of old, weak, dead or sick branches</li><li>Stay healthy and give good leaf for many years</li></ul><h4>Kinds of pruning</h4><table><tr><th>Type</th><th>What it is</th></tr><tr><td>Light prune or skiff</td><td>Cutting just a little off the top to level the plucking table</td></tr><tr><td>Medium or normal prune</td><td>Cutting the bush back lower, at the height your supervisor sets</td></tr><tr><td>Hard or rejuvenation prune</td><td>Cutting old bushes right down so they grow new branches</td></tr></table><p>Your supervisor decides which prune to do, the height, and when. Tea is often pruned in the cooler, quieter time of the year.</p><h4>Tools</h4><ul><li>Pruning knife or sickle</li><li>Secateurs for thin branches</li><li>Pruning saw for thick branches</li><li>A measuring stick to keep the right height</li><li>Sharpening stone or file</li></ul><h4>Prepare your tools</h4><p>Sharp tools make clean cuts that heal quickly. Blunt tools tear the bark, and disease can get in. Sharpen tools before you start and during the day. Check that handles are tight.</p><h4>Safety</h4><ul><li>Wear gloves, boots, long sleeves and eye protection. Branches can flick into your eyes.</li><li>Keep at least two arm's lengths away from other workers.</li><li>Cut away from your body and keep your other hand clear of the blade.</li><li>Watch for snakes, bees and wasps in the bushes.</li></ul>"
+  },
+  {
+   "title": "Pruning the bush and finishing the job",
+   "minutes": 15,
+   "html": "<h3>How to prune</h3><ol><li>Check the height with your measuring stick. Your supervisor tells you the height for this field.</li><li>Start on one side of the bush and work around it, so you can see the whole shape.</li><li>Cut each branch cleanly at the set height. Cut at a slant so water runs off the cut and does not sit on it.</li><li>Do not split or crush branches. If a branch splits, cut it again lower down, cleanly.</li><li>Remove dead, broken, diseased and very thin weak branches.</li><li>Cut branches that grow into the middle of the bush and cross other branches.</li><li>Keep the top of the bush flat and level, or shaped as your supervisor shows you.</li><li>Use the saw for thick branches. Do not twist or bend the knife.</li></ol><h4>Checking your work</h4><p>When you finish a bush, look at it:</p><ul><li>Is it the right height all over?</li><li>Are the cuts clean, not torn?</li><li>Is the middle open, with dead wood removed?</li><li>Is the top level?</li></ul><p>Your supervisor may check some bushes and show you how to improve.</p><h4>What to do with the prunings</h4><p>Leave the cut leaves and thin branches on the ground between the rows, unless your supervisor says otherwise. They rot and feed the soil and protect it from erosion. Diseased branches may need to be removed from the field. Thick wood may be collected for firewood.</p><h4>Completing the job</h4><ul><li>Report bushes that are dead, very sick or have pests.</li><li>Tell your supervisor how many rows or bushes you finished, or write it in the record.</li><li>Clean your tools, wipe and oil the blades, and store them safely.</li><li>Report any injury, even a small cut.</li></ul><p>After pruning, the bushes rest and then grow new shoots. Leave the new shoots to grow until the supervisor says plucking may start again.</p><h4>Key points</h4><ul><li>Pruning keeps the plucking table low and makes more new shoots.</li><li>Use sharp tools and cut cleanly at a slant, at the set height.</li><li>Remove dead, diseased, weak and crossing branches.</li><li>Leave prunings between rows to feed and protect the soil.</li><li>Wear eye protection and keep away from other workers.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the plucking table?",
+   "options": [
+    {
+     "text": "A table in the factory",
+     "correct": false
+    },
+    {
+     "text": "The flat top of the bush where pluckers pick",
+     "correct": true
+    },
+    {
+     "text": "A list of pluckers' names",
+     "correct": false
+    },
+    {
+     "text": "A tool for cutting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should pruning tools be sharp?",
+   "options": [
+    {
+     "text": "So they look new",
+     "correct": false
+    },
+    {
+     "text": "So they are lighter",
+     "correct": false
+    },
+    {
+     "text": "So you can work without gloves",
+     "correct": false
+    },
+    {
+     "text": "Sharp tools make clean cuts that heal quickly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are cuts made at a slant?",
+   "options": [
+    {
+     "text": "So water runs off and does not sit on the cut",
+     "correct": true
+    },
+    {
+     "text": "So the branch grows faster",
+     "correct": false
+    },
+    {
+     "text": "To make the bush taller",
+     "correct": false
+    },
+    {
+     "text": "To save time",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should usually be done with the cut leaves and thin branches?",
+   "options": [
+    {
+     "text": "Burn them on the bush",
+     "correct": false
+    },
+    {
+     "text": "Throw them in the river",
+     "correct": false
+    },
+    {
+     "text": "Leave them between the rows to feed and protect the soil",
+     "correct": true
+    },
+    {
+     "text": "Sell them as tea",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which branches should be removed?",
+   "options": [
+    {
+     "text": "Only the healthy, thick ones",
+     "correct": false
+    },
+    {
+     "text": "Dead, diseased, weak and crossing branches",
+     "correct": true
+    },
+    {
+     "text": "Only branches facing the road",
+     "correct": false
+    },
+    {
+     "text": "None",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should wear eye protection when pruning tea.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A light prune (skiff) cuts the bush right down to rejuvenate it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What does pruning tea help the bush do? (select all that apply)",
+   "options": [
+    {
+     "text": "Stay at a height pluckers can reach",
+     "correct": true
+    },
+    {
+     "text": "Grow many new shoots",
+     "correct": true
+    },
+    {
+     "text": "Get rid of dead and sick branches",
+     "correct": true
+    },
+    {
+     "text": "Grow into a tall tree",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

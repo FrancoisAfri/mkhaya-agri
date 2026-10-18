@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-336014",
+ "title": "Install and maintain borehole and wellpoint pump systems",
+ "lessons": [
+  {
+   "title": "Groundwater basics and hazards",
+   "minutes": 20,
+   "html": "<h3>Hydrology for boreholes and wellpoints</h3><p>Groundwater is water stored in the spaces and cracks of soil and rock below the water table. A layer that holds and yields useful water is an <strong>aquifer</strong>.</p><ul><li><strong>Wellpoints</strong> are used in shallow, sandy aquifers, such as coastal sands in the Cape Flats or along the KZN coast. A perforated pipe with a screen is driven or jetted into the sand a few metres below the water table, and a surface pump sucks water up.</li><li><strong>Boreholes</strong> are drilled into deeper aquifers, often in fractured rock. A pump is installed down the hole because water must be lifted further than a surface pump can suck.</li></ul><h4>Key terms</h4><table><tr><th>Term</th><th>Meaning</th></tr><tr><td>Rest (static) water level</td><td>Water level when not pumping</td></tr><tr><td>Pumping (dynamic) water level</td><td>Lower level while pumping</td></tr><tr><td>Drawdown</td><td>Difference between rest and pumping levels</td></tr><tr><td>Yield</td><td>Flow a source can supply sustainably</td></tr><tr><td>Suction lift</td><td>Height a surface pump must suck; limited in practice to about 7 m at sea level and less at altitude</td></tr></table><p>Over-pumping lowers water levels, draws in sand and, near the coast, can draw in salt water. Groundwater use may need to be registered or licensed under the National Water Act 36 of 1998.</p><h4>Hazards and precautions</h4><ul><li><strong>Electricity:</strong> submersible pumps run on mains power, often three-phase. Only qualified electricians connect and test panels; isolate and lock out before work.</li><li><strong>Lifting:</strong> pipe columns with a pump can weigh hundreds of kilograms; use a tripod with a rated winch or a crane truck, never lift by hand beyond safe limits.</li><li><strong>Falling objects:</strong> keep the borehole capped; tools dropped down a hole are very costly to recover.</li><li><strong>Open holes:</strong> uncapped boreholes and wellpoint pits are a danger to children and animals.</li><li><strong>Pressure:</strong> release pressure before opening fittings.</li><li><strong>Water contamination:</strong> seal the borehole head so surface water, fuel and manure cannot enter.</li></ul><p>Wear safety boots, gloves and a hard hat when lifting equipment, as required under the OHS Act 85 of 1993.</p>"
+  },
+  {
+   "title": "Wellpoint and submersible borehole pump installation",
+   "minutes": 20,
+   "html": "<h3>Constructing a wellpoint</h3><ol><li>Choose a site away from septic tanks, kraals and fuel stores.</li><li>Jet or drive the wellpoint (screen and riser pipe) into the sand to below the lowest expected water level.</li><li>Flush the wellpoint until the water runs clear of sand.</li><li>Connect the riser to the suction pipe of a self-priming centrifugal pump, with a foot valve or non-return valve to hold prime, and a vacuum-tight joint. Air leaks on the suction side stop the pump drawing.</li><li>Keep suction pipe as short and straight as possible, rising steadily to the pump with no high points that trap air.</li><li>Fit a gate valve, non-return valve and pressure gauge on the delivery side.</li><li>Mount the pump on a firm base and protect it from weather and theft.</li></ol><h4>Installing a submersible centrifugal pump with HDPE pipe</h4><ol><li>Confirm borehole depth, casing diameter, rest and pumping water levels and yield from the borehole test report.</li><li>Select pump and motor to suit yield and required head; set the installation depth below the pumping water level but well above the bottom so it does not draw silt.</li><li>Join the HDPE riser to the pump with the correct compression or threaded adaptor.</li><li>Tape the drop cable to the pipe every few metres. Attach a stainless steel safety rope to the pump and to the borehole cap to hold the pump if the pipe fails.</li><li>Install level electrodes or a dry-run protection device so the pump switches off if the water drops.</li><li>Lower the assembly slowly with a tripod and winch, keeping cable unkinked.</li><li>Fit the borehole cap with a sealed cable entry, and a non-return valve, gauge and valve on the surface.</li><li>Have the electrician connect the control panel with overload protection.</li></ol><h4>Commissioning</h4><p>Run the pump, check for clear water, measure flow and pressure, check motor current against the nameplate (electrician), and confirm protection devices trip correctly.</p>"
+  },
+  {
+   "title": "Progressive cavity pumps, maintenance and documentation",
+   "minutes": 20,
+   "html": "<h3>Installing a progressive cavity pump with galvanised pipe</h3><p>A progressive cavity (helical rotor) pump uses a steel rotor turning inside a rubber stator to push water up. It is driven from the surface by a motor, engine, wind or solar head through a drive shaft inside the rising main. It handles low yields and high heads well and is common on farms for stock watering.</p><ol><li>Assemble the pump element at the bottom of the first length of galvanised steel pipe.</li><li>Join pipe lengths with sockets, using thread compound and pipe wrenches; tighten correctly so joints do not leak or unscrew.</li><li>Insert drive shaft sections with their couplings and bearing spiders inside the pipe as each length goes down.</li><li>Use pipe clamps on the borehole head between lifts so the column never hangs only from the winch.</li><li>Set the depth below pumping water level, fit the discharge head and drive unit, and adjust shaft length as the manufacturer specifies.</li></ol><p>Never run a progressive cavity pump dry; the rubber stator is destroyed within a short time without water to lubricate it.</p><h4>Servicing and maintenance</h4><table><tr><th>Check</th><th>Sign of a problem</th></tr><tr><td>Flow and pressure against commissioning values</td><td>Drop shows wear, blockage or falling water level</td></tr><tr><td>Motor current and insulation (electrician)</td><td>High current or low insulation resistance</td></tr><tr><td>Water quality</td><td>Sand, colour or smell changes</td></tr><tr><td>Surface fittings</td><td>Leaks, faulty non-return valve, gauge damage</td></tr><tr><td>Wellpoints</td><td>Loss of prime, air leaks, screens clogging</td></tr><tr><td>Drive heads</td><td>Belt wear, bearing noise, oil level</td></tr></table><p>Pull the pump for inspection when performance drops: check impellers or stator, cable joints, pipe threads and safety rope. Replace worn parts with matching specifications.</p><h4>Documentation</h4><ul><li>Installation record: date, location (GPS), borehole depth, water levels, pump and motor model and serial numbers, installation depth, pipe type and length, cable size</li><li>Commissioning test results</li><li>Service history and parts replaced</li><li>Water use records where required</li></ul><h4>Key points</h4><ul><li>Wellpoints suit shallow sand; boreholes need submersible or shaft-driven pumps.</li><li>Install pumps below the pumping water level with dry-run protection and a safety rope.</li><li>Only qualified electricians work on power supply and panels.</li><li>Never run a progressive cavity pump dry.</li><li>Keep full installation, test and service records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where are wellpoints normally used?",
+   "options": [
+    {
+     "text": "In deep fractured rock",
+     "correct": false
+    },
+    {
+     "text": "In shallow sandy aquifers",
+     "correct": true
+    },
+    {
+     "text": "In concrete reservoirs",
+     "correct": false
+    },
+    {
+     "text": "In rivers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is drawdown?",
+   "options": [
+    {
+     "text": "The depth of the borehole",
+     "correct": false
+    },
+    {
+     "text": "The height of the tank",
+     "correct": false
+    },
+    {
+     "text": "The pump's speed",
+     "correct": false
+    },
+    {
+     "text": "The difference between rest and pumping water levels",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a stainless steel safety rope attached to a submersible pump?",
+   "options": [
+    {
+     "text": "To hold the pump if the pipe fails",
+     "correct": true
+    },
+    {
+     "text": "To carry the electrical current",
+     "correct": false
+    },
+    {
+     "text": "To measure water level",
+     "correct": false
+    },
+    {
+     "text": "To start the motor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if a progressive cavity pump runs dry?",
+   "options": [
+    {
+     "text": "It pumps faster",
+     "correct": false
+    },
+    {
+     "text": "It primes itself",
+     "correct": false
+    },
+    {
+     "text": "The rubber stator is quickly destroyed",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must suction pipe joints on a wellpoint be vacuum-tight?",
+   "options": [
+    {
+     "text": "To reduce cost",
+     "correct": false
+    },
+    {
+     "text": "Air leaks stop the pump drawing water",
+     "correct": true
+    },
+    {
+     "text": "To increase pressure on the delivery side",
+     "correct": false
+    },
+    {
+     "text": "To keep sand out of the motor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only qualified electricians should connect and test borehole pump control panels.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A submersible pump should be set right at the bottom of the borehole to get the most water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details belong on a borehole installation record? (select all that apply)",
+   "options": [
+    {
+     "text": "Rest and pumping water levels",
+     "correct": true
+    },
+    {
+     "text": "Pump and motor model and serial numbers",
+     "correct": true
+    },
+    {
+     "text": "Installation depth and pipe type",
+     "correct": true
+    },
+    {
+     "text": "The owner's favourite crop",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

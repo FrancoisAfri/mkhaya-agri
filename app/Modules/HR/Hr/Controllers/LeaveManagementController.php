@@ -3348,7 +3348,7 @@ class LeaveManagementController extends Controller
 
         $maskedPhone = substr($phone, 0, 3) . str_repeat('*', max(0, strlen($phone) - 5)) . substr($phone, -2);
 
-        SmsService::send($phone, "Your Mkhaya Hub Bulk Balance Adjustment OTP is: {$otp}. Valid for 15 minutes. Do not share.");
+        SmsService::send($phone, "Your Mkhaya Agri Bulk Balance Adjustment OTP is: {$otp}. Valid for 15 minutes. Do not share.");
 
         return response()->json([
             'message'      => 'OTP sent to your registered phone number.',

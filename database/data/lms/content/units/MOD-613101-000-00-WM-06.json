@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-06",
+ "title": "Soil preparation practices, planting/sowing, plant nutrition, irrigation, pest and disease control of crops",
+ "lessons": [
+  {
+   "title": "Soil preparation and planting in the workplace",
+   "minutes": 20,
+   "html": "<h3>Doing the job and recording it</h3><p>In this work experience module you carry out and supervise soil preparation, planting, fertilising, irrigation and crop protection on a working farm, and collect evidence in your logbook. Each task below should be done with your workplace supervisor and recorded with the date, land, method, inputs and results.</p><h4>Soil preparation tasks</h4><ul><li>Take soil samples for at least one land: zig-zag pattern, correct depth, clean bucket, labelled bag. Send to the laboratory and file the results.</li><li>Help calculate lime and fertiliser from the analysis with your supervisor or adviser.</li><li>Take part in the tillage or no-till operation used on the farm. Note soil moisture: never work soil that is too wet.</li><li>Control weeds before planting where needed.</li></ul><h4>Planting tasks</h4><ul><li>Check seed: cultivar, quantity, treatment and storage. Treated seed is poisonous; wear gloves.</li><li>Help calibrate the planter: measure seed spacing and depth, count seeds over a measured distance, adjust and check again.</li><li>On the first pass, dig up seeds behind the planter to confirm depth and spacing.</li><li>For transplanted crops such as cabbage or tomatoes, check seedling quality, plant at the correct depth and spacing, and water in immediately.</li></ul><h4>Machinery safety</h4><p>Only authorised, trained operators drive tractors. Shut off the engine and remove the key before adjusting or unblocking a planter. Keep PTO guards in place and never step over a turning shaft.</p><p>Record each task in your logbook.</p><p>Ask your supervisor to sign each completed task and keep the soil analysis report in your portfolio.</p>"
+  },
+  {
+   "title": "Fertilising and irrigation tasks",
+   "minutes": 20,
+   "html": "<h3>Feeding and watering the crop</h3><h4>Fertilising</h4><ul><li>Calibrate the fertiliser spreader or planter fertiliser box: collect output over a measured distance or time, weigh it and adjust.</li><li>Apply the base dressing at or before planting and top-dressing at the stage recommended.</li><li>Apply manure or compost from the livestock enterprise where it is part of the plan; record the quantity and land.</li><li>Store fertiliser dry and separate from seed, feed and chemicals. Some fertilisers, such as ammonium nitrate types, must be kept away from fuel and heat.</li></ul><h4>Example calibration</h4><p>If the target rate is 200 kg/ha and your test over 0.05 ha delivered 8 kg, the actual rate is 160 kg/ha. The spreader must be opened slightly and tested again.</p><h4>Irrigation</h4><ul><li>Measure soil moisture using the farm's method (probe, tensiometer, or feel) before irrigating.</li><li>Run the system and check: pressure at the pump and at the end of the line, sprinkler rotation, blocked emitters, leaks.</li><li>Record start and end times, meter readings and the land irrigated.</li><li>Report faults immediately; uneven application causes patchy crops.</li></ul><p>Never open electrical panels or repair pump electrics yourself unless you are qualified and authorised.</p><h4>Recording</h4><p>Record every fertiliser application with date, land, product, rate and operator, and every irrigation event with the date, times and meter readings. Your supervisor should sign the records. Compare the actual fertiliser rate applied with the planned rate and explain any difference in your logbook.</p><p>Keep your calibration sheets with the records so an assessor can see how the rate was checked and adjusted.</p>"
+  },
+  {
+   "title": "Crop protection tasks",
+   "minutes": 20,
+   "html": "<h3>Scouting, deciding and spraying</h3><h4>Scouting</h4><p>Scout an allocated land weekly. Follow a set pattern, check the agreed number of plants at each point, and record pests, beneficial insects, disease symptoms and weeds on the scouting sheet. Take photos and collect samples of anything you cannot identify, and give them to your supervisor.</p><h4>Deciding</h4><p>Compare your findings with the action threshold for that pest and crop. Discuss options with your supervisor: can a cultural or mechanical method work, or is a chemical needed? If a chemical is needed, choose a registered product for that crop and pest and check the pre-harvest interval against the planned harvest date.</p><h4>Spraying under supervision</h4><ol><li>Read the label and wear the PPE it lists.</li><li>Calibrate the sprayer with clean water and check nozzles.</li><li>Mix the correct amount in a mixing area away from water and homes.</li><li>Spray in suitable weather with low, steady wind.</li><li>Clean the sprayer, triple-rinse containers and store them for approved collection.</li><li>Record the product, rate, area, date, weather and operator.</li><li>Post re-entry warnings where required.</li></ol><p>If anyone feels dizzy, nauseous or has blurred vision while spraying, stop work, move them to fresh air, remove contaminated clothing, wash the skin and get medical help with the label.</p><h4>Portfolio evidence</h4><p>Include soil analysis results, calibration sheets, planting records, irrigation logs, scouting sheets and spray records, each signed by your supervisor.</p><h4>Key points</h4><ul><li>Take soil samples correctly and use the analysis for lime and fertiliser.</li><li>Calibrate planters, spreaders and sprayers and check the first pass.</li><li>Switch off the engine and remove the key before adjusting machines.</li><li>Measure soil moisture before irrigating and record water use.</li><li>Follow the label for every spray and record every application.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A spreader delivered 8 kg over 0.05 ha. What is the actual rate?",
+   "options": [
+    {
+     "text": "40 kg/ha",
+     "correct": false
+    },
+    {
+     "text": "160 kg/ha",
+     "correct": true
+    },
+    {
+     "text": "200 kg/ha",
+     "correct": false
+    },
+    {
+     "text": "400 kg/ha",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done before adjusting or unblocking a planter?",
+   "options": [
+    {
+     "text": "Slow the tractor down",
+     "correct": false
+    },
+    {
+     "text": "Shut off the engine and remove the key",
+     "correct": true
+    },
+    {
+     "text": "Ask a co-worker to hold the PTO shaft",
+     "correct": false
+    },
+    {
+     "text": "Lift the planter while it runs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be measured before irrigating?",
+   "options": [
+    {
+     "text": "Air pressure in the tractor tyres",
+     "correct": false
+    },
+    {
+     "text": "Soil moisture",
+     "correct": true
+    },
+    {
+     "text": "The price of electricity",
+     "correct": false
+    },
+    {
+     "text": "The colour of the leaves only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should spray mixing take place?",
+   "options": [
+    {
+     "text": "Next to the borehole",
+     "correct": false
+    },
+    {
+     "text": "In a mixing area away from water and homes",
+     "correct": true
+    },
+    {
+     "text": "In the kitchen",
+     "correct": false
+    },
+    {
+     "text": "In the river",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with an insect you cannot identify while scouting?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Spray the land immediately",
+     "correct": false
+    },
+    {
+     "text": "Photograph or collect a sample and give it to your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Wait until next season",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to step over a turning PTO shaft if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Some fertilisers must be stored away from fuel and heat.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details should be recorded for each spray application? (select all that apply)",
+   "options": [
+    {
+     "text": "Product and rate",
+     "correct": true
+    },
+    {
+     "text": "Area and date",
+     "correct": true
+    },
+    {
+     "text": "Weather and operator",
+     "correct": true
+    },
+    {
+     "text": "The operator's favourite food",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

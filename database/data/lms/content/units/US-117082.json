@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-117082",
+ "title": "Contribute to the suppression of wildfires at basic fire-fighting level",
+ "lessons": [
+  {
+   "title": "Understanding wildfires and staying safe",
+   "minutes": 15,
+   "html": "<h3>What a veld fire is</h3> <p>A wildfire is a fire that burns out of control in the veld, plantations or grassland. In much of South Africa the dry season brings veld fires. Strong wind, dry grass and hot days make a fire spread fast. A fire can move faster than a person can run, especially uphill.</p> <h4>The fire triangle</h4> <p>A fire needs three things:</p> <ul> <li><strong>Fuel</strong> - dry grass, bush, hay, wood</li> <li><strong>Heat</strong> - a spark, a match, lightning</li> <li><strong>Air</strong> - oxygen in the air</li> </ul> <p>Take away one of the three and the fire goes out. Fire fighters remove fuel (fire breaks), cool the heat (water) or smother the fire (beaters).</p> <h4>How fires start on farms</h4> <ul> <li>Cigarettes thrown into dry grass</li> <li>Burning rubbish on a windy day</li> <li>Sparks from welding, grinders or vehicles</li> <li>Cooking fires left alone</li> <li>Lightning</li> </ul> <h4>Your safety comes first</h4> <p>At basic level you help the fire team. You do not fight a big fire alone. Follow these rules:</p> <ol> <li>Raise the alarm. Tell your supervisor or crew leader at once.</li> <li>Wear your protective clothing: cotton overalls, boots, gloves, hard hat and goggles. Nylon clothes melt on the skin.</li> <li>Always work with a partner. Know where your crew is.</li> <li>Always have an <strong>escape route</strong> and a <strong>safe zone</strong>, such as an area already burnt or a ploughed land.</li> <li>Keep the wind at your back or side. Never stand downwind in front of a fire.</li> <li>Drink water often. Smoke and heat make you weak.</li> </ol> <h4>Never do this</h4> <ul> <li>Never go into thick smoke.</li> <li>Never work uphill above a fire.</li> <li>Never go back for tools or a bakkie when the leader says move out.</li> </ul> <p>Horses and stock must be moved early, before the fire is close. Panicked horses are dangerous. Lead them calmly to a safe camp.</p>"
+  },
+  {
+   "title": "Helping to put out a wildfire",
+   "minutes": 15,
+   "html": "<h3>Basic tools</h3> <p>At basic level you will use simple hand tools:</p> <table><tr><th>Tool</th><th>Use</th></tr> <tr><td>Fire beater</td><td>Beats and smothers flames in short grass</td></tr> <tr><td>Knapsack sprayer</td><td>Sprays water on the edge of the fire and on hot spots</td></tr> <tr><td>Rake hoe or spade</td><td>Scrapes a line down to bare soil to stop the fire</td></tr></table> <p>Check tools before the fire season. Fill knapsacks. Replace broken handles.</p> <h4>Using a beater</h4> <ol> <li>Work on the edge of the fire, not in the middle.</li> <li>Start from the burnt side where you are safe.</li> <li>Bring the beater down flat onto the flames. Press and lift. Do not swing it high. Swinging fans the flames and throws sparks.</li> <li>Work as a line with your crew, each person covering a short piece of the edge.</li> </ol> <h4>Using a knapsack sprayer</h4> <p>Water is scarce. Use short bursts at the base of the flames, not on the smoke. Work with a beater partner: the sprayer cools, the beater smothers.</p> <h4>Mopping up</h4> <p>After the flames are out, the job is not finished. Cow dung, stumps and fence posts keep burning inside. Wind can start the fire again. Mopping up means:</p> <ul> <li>Walk the whole edge of the burnt area.</li> <li>Scrape open and wet smouldering dung, logs and stumps.</li> <li>Throw burning material back into the burnt area.</li> <li>Stay and watch until the leader says it is safe.</li> </ul> <h4>Fire breaks</h4> <p>Farms make fire breaks before winter. These are strips with no fuel, made by burning or ploughing under control. The National Veld and Forest Fire Act requires landowners to help prevent fires. Your supervisor will tell you how your farm does this.</p> <h4>After the fire</h4> <p>Report any injuries, even small burns. Clean and check your tools. Tell your leader about any place where the fire may start again.</p> <h4>Key points</h4> <ul> <li>A fire needs fuel, heat and air; remove one to stop it.</li> <li>Always work with a partner and know your escape route and safe zone.</li> <li>Beat flames flat and low; do not swing the beater high.</li> <li>Mop up smouldering dung and stumps so the fire cannot restart.</li> <li>Move horses and stock early to a safe camp.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What three things does a fire need?",
+   "options": [
+    {
+     "text": "Fuel, heat and air",
+     "correct": true
+    },
+    {
+     "text": "Water, wind and soil",
+     "correct": false
+    },
+    {
+     "text": "Grass, rain and sand",
+     "correct": false
+    },
+    {
+     "text": "Smoke, ash and wind",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which clothing is safest for fire fighting?",
+   "options": [
+    {
+     "text": "Nylon tracksuit",
+     "correct": false
+    },
+    {
+     "text": "Cotton overalls",
+     "correct": true
+    },
+    {
+     "text": "Shorts and sandals",
+     "correct": false
+    },
+    {
+     "text": "A plastic raincoat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you use a fire beater?",
+   "options": [
+    {
+     "text": "Swing it high over your head",
+     "correct": false
+    },
+    {
+     "text": "Bring it down flat, press and lift",
+     "correct": true
+    },
+    {
+     "text": "Throw it at the fire",
+     "correct": false
+    },
+    {
+     "text": "Use it to fan the flames",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a safe zone?",
+   "options": [
+    {
+     "text": "Thick bush downwind of the fire",
+     "correct": false
+    },
+    {
+     "text": "An area already burnt or ploughed",
+     "correct": true
+    },
+    {
+     "text": "The top of a hill above the fire",
+     "correct": false
+    },
+    {
+     "text": "Inside the smoke",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does mopping up mean?",
+   "options": [
+    {
+     "text": "Washing the bakkie",
+     "correct": false
+    },
+    {
+     "text": "Putting out smouldering dung and stumps after the flames are out",
+     "correct": true
+    },
+    {
+     "text": "Feeding the horses",
+     "correct": false
+    },
+    {
+     "text": "Making tea for the crew",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Working uphill above a fire is safe if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A fire can restart from smouldering cow dung after the flames are out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common ways farm fires start? (select all that apply)",
+   "options": [
+    {
+     "text": "Cigarettes thrown in dry grass",
+     "correct": true
+    },
+    {
+     "text": "Burning rubbish on a windy day",
+     "correct": true
+    },
+    {
+     "text": "Sparks from welding or grinding",
+     "correct": true
+    },
+    {
+     "text": "Washing a horse",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

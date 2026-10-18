@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-622101-000-00-00-WM-01",
+ "title": "Basic husbandry processes",
+ "lessons": [
+  {
+   "title": "Learning on the job at the fish farm",
+   "minutes": 15,
+   "html": "<h3>Work experience</h3><p>In this module you learn by working on a real fish farm. A mentor or supervisor will show you each task. Then you do it while they watch. Later you do it on your own. You keep a logbook of what you did.</p><h4>Tasks you will do</h4><ul><li>The daily round: look at every tank and pond.</li><li>Feeding fish from the feeding chart.</li><li>Taking simple water readings, like temperature.</li><li>Removing and counting dead fish.</li><li>Cleaning screens, pipes, nets and tanks.</li><li>Helping with grading, harvesting and moving fish.</li><li>Filling in record sheets.</li></ul><h4>How to learn well</h4><ol><li>Watch the mentor do the task first.</li><li>Ask questions. There are no silly questions.</li><li>Do the task with the mentor beside you.</li><li>Ask the mentor to check your work.</li><li>Practise until you can do it right every time.</li><li>Write the task in your logbook and ask the mentor to sign.</li></ol><h4>Your logbook</h4><p>The logbook shows that you did the work. Write the date, the task, the tank or pond and what you learned. Keep it clean and safe. You will need it for your assessment. Never write that you did something you did not do.</p><h4>Arrive ready</h4><ul><li>Be on time. Fish need feeding at set times.</li><li>Wear your work clothes, boots and gloves.</li><li>Bring your logbook and a pen.</li></ul><p>Fish farms work every day, also on weekends and holidays. Fish still need food and air. Your supervisor will tell you your shifts.</p><h4>Questions to ask your mentor</h4><p>Ask why each task is done, not only how. Ask what to do if something goes wrong. Ask who to call at night or on a weekend. Write the answers in the back of your logbook so you can read them again later.</p>"
+  },
+  {
+   "title": "Safe and clean work habits",
+   "minutes": 15,
+   "html": "<h3>Stay safe at work</h3><p>Water, electricity, heavy bags and slippery floors are all found on a fish farm. Learn the safe way from day one.</p><h4>Safety rules</h4><ul><li>Wear boots with grip. Walk, do not run, on wet floors and banks.</li><li>Never go into deep water alone. Always have a partner.</li><li>Do not touch pumps, plugs or cables with wet hands.</li><li>Report broken cables, loose covers and damaged nets.</li><li>Lift with bent knees and a straight back. Ask for help with heavy loads.</li><li>Use gloves and eye protection with salt, lime or cleaning chemicals.</li><li>Know where the first aid box is and who the first aider is.</li></ul><h4>If someone falls into a pond</h4><p>Shout for help. Do not jump in if you cannot swim. Reach with a pole or throw a rope or float. Call your supervisor. Learn first aid on a proper course from an accredited provider.</p><h4>Keep it clean</h4><ul><li>Use the foot bath when entering the fish area.</li><li>Use the right net for each tank.</li><li>Disinfect equipment as you are shown.</li><li>Wash hands before eating and after touching dead fish.</li></ul><h4>Good work habits</h4><ul><li>Do tasks at the same time each day. Fish like routine.</li><li>Move slowly and quietly near the fish.</li><li>Tell your supervisor quickly when something looks wrong.</li><li>Finish your record sheet before you go home.</li></ul><p>Your mentor will judge you on doing tasks correctly, safely and on time. Ask for feedback each week so you know what to improve.</p><h4>Key points</h4><ul><li>Watch, practise, then work on your own.</li><li>Fill in your logbook honestly and get it signed.</li><li>Never work alone in deep water.</li><li>Keep electrical items dry and report damage.</li><li>Report problems with fish quickly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first step when learning a new task?",
+   "options": [
+    {
+     "text": "Do it alone straight away",
+     "correct": false
+    },
+    {
+     "text": "Watch the mentor do it first",
+     "correct": true
+    },
+    {
+     "text": "Write it in the logbook before doing it",
+     "correct": false
+    },
+    {
+     "text": "Skip it if it looks hard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does your logbook show?",
+   "options": [
+    {
+     "text": "The tasks you did on the farm",
+     "correct": true
+    },
+    {
+     "text": "The price of fish",
+     "correct": false
+    },
+    {
+     "text": "Your weekend plans",
+     "correct": false
+    },
+    {
+     "text": "The farm's bank details",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Someone falls into a pond and you cannot swim. What should you do?",
+   "options": [
+    {
+     "text": "Jump in at once",
+     "correct": false
+    },
+    {
+     "text": "Walk away",
+     "correct": false
+    },
+    {
+     "text": "Shout for help and reach with a pole or throw a rope",
+     "correct": true
+    },
+    {
+     "text": "Switch on the pumps",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you move slowly and quietly near the fish?",
+   "options": [
+    {
+     "text": "To avoid stressing the fish",
+     "correct": true
+    },
+    {
+     "text": "So the mentor cannot see you",
+     "correct": false
+    },
+    {
+     "text": "To save electricity",
+     "correct": false
+    },
+    {
+     "text": "Because fish sleep all day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you lift a heavy feed bag?",
+   "options": [
+    {
+     "text": "Bend your back and pull fast",
+     "correct": false
+    },
+    {
+     "text": "Drag it through the water",
+     "correct": false
+    },
+    {
+     "text": "Throw it over your shoulder",
+     "correct": false
+    },
+    {
+     "text": "Bend your knees, keep your back straight, ask for help if heavy",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fish farms only need workers on weekdays.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should write in your logbook only tasks you really did.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are safe work habits on a fish farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Wearing boots with grip",
+     "correct": true
+    },
+    {
+     "text": "Running on wet floors",
+     "correct": false
+    },
+    {
+     "text": "Reporting broken cables",
+     "correct": true
+    },
+    {
+     "text": "Using gloves with cleaning chemicals",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

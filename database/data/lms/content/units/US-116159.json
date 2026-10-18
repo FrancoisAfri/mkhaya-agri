@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-116159",
+  "title": "Identify the need for capital and understand the need for the recording of the income and different costs in an agri-business",
+  "lessons": [
+    {
+      "title": "Capital: the money and things you need to farm",
+      "minutes": 15,
+      "html": "<h3>What capital is</h3><p><strong>Capital</strong> is the money and the things of value that a farmer needs to start and run a farm business. Without capital, you cannot buy seed, feed or tools, and you cannot farm.</p><h4>Kinds of capital</h4><table><tr><th>Kind</th><th>Examples</th><th>How long it lasts</th></tr><tr><td>Land and buildings</td><td>Fields, chicken house, store room, kraal</td><td>Many years</td></tr><tr><td>Equipment</td><td>Wheelbarrow, spade, knapsack sprayer, water tank, pump, bakkie</td><td>Several years</td></tr><tr><td>Breeding animals</td><td>Cows, ewes, sows, goats</td><td>Several years</td></tr><tr><td>Working money</td><td>Money for seed, fertiliser, feed, medicine, fuel, wages</td><td>Used up in one season</td></tr></table><h4>Why a farmer needs capital</h4><ul><li><strong>To start</strong> – fence, water, a chicken house, tools.</li><li><strong>To run the farm</strong> – buy inputs before there is anything to sell. A farmer plants cabbages and pays for seedlings and fertiliser now, but only gets paid when the cabbages are sold months later.</li><li><strong>To grow</strong> – buy more animals, more land or better equipment.</li><li><strong>To survive bad times</strong> – drought or disease can stop income for a while.</li></ul><h4>Where capital comes from</h4><ul><li>Your own savings.</li><li>Profit from the farm, kept in the business.</li><li>Family or partners.</li><li>Loans from a bank, a co-op or a development agency. A loan must be paid back with interest.</li><li>Government grants and support programmes.</li><li>Stokvels and savings groups.</li></ul><p>Before you borrow, make sure the enterprise will make enough money to pay back the loan and interest on time.</p><h4>Example</h4><p>Thabo wants to start 100 layer hens. He needs capital for a hen house, feeders and drinkers (lasting many years), the hens themselves, and working money for feed until the hens start laying and the eggs are sold.</p>"
+    },
+    {
+      "title": "Recording income and costs",
+      "minutes": 15,
+      "html": "<h3>Why keep records?</h3><p>Many small farmers do not know if they are making a profit or a loss, because they do not write down what they spend and what they earn. Records help you:</p><ul><li>Know if the enterprise makes a profit.</li><li>See which costs are biggest, so you can try to cut them.</li><li>Plan for next season.</li><li>Show a bank or support programme how your farm is doing.</li><li>Keep business money and household money apart.</li></ul><h4>Income</h4><p><strong>Income</strong> is money coming in: selling vegetables, eggs, animals, milk or services such as ploughing for a neighbour.</p><h4>Different kinds of costs</h4><ul><li><strong>Variable costs</strong> go up and down with how much you produce: seed, seedlings, fertiliser, feed, medicine, packaging, transport to market. More chickens means more feed.</li><li><strong>Fixed costs</strong> stay the same whether you produce a lot or a little: rent, loan repayments, insurance, a permanent worker's wage.</li><li><strong>Capital costs</strong> are for things that last many years, such as a water tank or a pump.</li></ul><h4>A simple record book</h4><table><tr><th>Date</th><th>Details</th><th>Money in (R)</th><th>Money out (R)</th></tr><tr><td>3 May</td><td>Bought 500 cabbage seedlings</td><td></td><td>450</td></tr><tr><td>3 May</td><td>Bought fertiliser</td><td></td><td>600</td></tr><tr><td>20 June</td><td>Transport to market</td><td></td><td>250</td></tr><tr><td>21 June</td><td>Sold 200 cabbages</td><td>2,400</td><td></td></tr><tr><td>28 June</td><td>Sold 250 cabbages</td><td>3,000</td><td></td></tr><tr><td></td><td><strong>Totals</strong></td><td><strong>5,400</strong></td><td><strong>1,300</strong></td></tr></table><p>Money in minus money out: R5,400 minus R1,300 = R4,100. This is before paying for your own time, water and other costs, so write those down too.</p><h4>Good habits</h4><ul><li>Write each sale and payment on the same day.</li><li>Keep all slips and receipts in an envelope or file.</li><li>Add up totals every month.</li><li>Do not take farm money for household use without writing it down.</li></ul><h4>Key points</h4><ul><li>Capital is the money and things of value needed to farm.</li><li>Capital is needed to start, run, grow and survive bad times.</li><li>Borrow only if the farm can pay back the loan and interest.</li><li>Costs can be variable, fixed or capital.</li><li>Record every sale and payment to know your profit.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is capital?",
+      "options": [
+        {
+          "text": "The capital city",
+          "correct": false
+        },
+        {
+          "text": "The money and things of value needed to farm",
+          "correct": true
+        },
+        {
+          "text": "Only the farmer's house",
+          "correct": false
+        },
+        {
+          "text": "The weather",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a variable cost?",
+      "options": [
+        {
+          "text": "Chicken feed",
+          "correct": true
+        },
+        {
+          "text": "Rent for the land",
+          "correct": false
+        },
+        {
+          "text": "Insurance",
+          "correct": false
+        },
+        {
+          "text": "A loan repayment",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Money in is R5,400 and money out is R1,300. What is the difference?",
+      "options": [
+        {
+          "text": "R6,700",
+          "correct": false
+        },
+        {
+          "text": "R1,300",
+          "correct": false
+        },
+        {
+          "text": "R4,100",
+          "correct": true
+        },
+        {
+          "text": "R5,400",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why does a farmer need working money before the crop is sold?",
+      "options": [
+        {
+          "text": "To pay for inputs like seed and fertiliser before there is income",
+          "correct": true
+        },
+        {
+          "text": "To buy a new house",
+          "correct": false
+        },
+        {
+          "text": "Because buyers pay before planting",
+          "correct": false
+        },
+        {
+          "text": "It is not needed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What must you be sure of before taking a loan?",
+      "options": [
+        {
+          "text": "That the bank is close by",
+          "correct": false
+        },
+        {
+          "text": "That your neighbour also has a loan",
+          "correct": false
+        },
+        {
+          "text": "That prices will double",
+          "correct": false
+        },
+        {
+          "text": "That the farm will make enough to pay back the loan and interest",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You should write down each sale and payment on the same day.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Fixed costs go up when you produce more.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Where can capital for a farm come from? (select all that apply)",
+      "options": [
+        {
+          "text": "Own savings",
+          "correct": true
+        },
+        {
+          "text": "Profit kept in the business",
+          "correct": true
+        },
+        {
+          "text": "Loans from a bank or co-op",
+          "correct": true
+        },
+        {
+          "text": "Taking a neighbour's animals",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

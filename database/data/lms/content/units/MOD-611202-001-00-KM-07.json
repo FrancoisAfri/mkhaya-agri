@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-611202-001-00-KM-07",
+  "title": "Assets in Horticultural Production",
+  "lessons": [
+    {
+      "title": "The assets of an orchard or vineyard farm",
+      "minutes": 15,
+      "html": "<h3>The assets of an orchard or vineyard farm</h3><p>An asset is something the farm owns or controls that helps it produce income. Fruit and wine grape farms have large amounts of money tied up in assets, and the foreman is responsible for many of them every day.</p><h4>Types of assets</h4><table><tr><th>Type</th><th>Examples</th></tr><tr><td>Land and biological assets</td><td>Soil, orchard blocks, vineyard blocks (the trees and vines themselves)</td></tr><tr><td>Infrastructure</td><td>Trellis, irrigation systems, dams, pump stations, roads, windbreaks, hail or shade netting, fences</td></tr><tr><td>Buildings</td><td>Chemical store, workshop, fertiliser store, packshed, cold rooms, staff facilities</td></tr><tr><td>Vehicles and machinery</td><td>Tractors, sprayers, mowers, forklifts, bakkies, trailers, platforms</td></tr><tr><td>Equipment and tools</td><td>Ladders, picking bags, bins, secateurs, loppers, refractometers, PPE</td></tr><tr><td>Consumables (stock)</td><td>Fertiliser, agricultural remedies, fuel, ties, spare parts</td></tr></table><h4>Why assets matter</h4><p>A block of trees can take several years to come into full production and stays productive for many years after that. Losing trees through poor irrigation, disease or damage costs both the replacement cost and years of lost production. A broken sprayer in the middle of the disease season can mean an untreated block and a lost crop. Tools that go missing must be replaced from the farm's profits.</p><h4>Your responsibility</h4><p>Foremen are trusted with assets. Use them only for farm work, make sure workers use them correctly, report damage and losses straight away, and keep them secure.</p><h4>Depreciation</h4><p>Machinery, buildings and blocks lose value over time through wear and age. This is called depreciation, and it is a real cost for the business even though no cash is paid each month. Good care slows depreciation and extends the useful life of each asset, which saves the farm money when it would otherwise have to replace them.</p><p>Asset care is also part of food safety and sustainability audits. Auditors check that chemical stores, workshops and equipment are in good condition and safe to use.</p>"
+    },
+    {
+      "title": "Care, maintenance and control of assets",
+      "minutes": 15,
+      "html": "<h3>Care, maintenance and control of assets</h3><h4>Asset register</h4><p>The farm keeps an asset register listing major items: description, serial or fleet number, location, condition and responsible person. The foreman helps keep it up to date by reporting new items, transfers between sections, damage and items written off.</p><h4>Daily checks</h4><ul><li><strong>Tractors and vehicles</strong>: oil, water, fuel, tyres, lights and brakes before use, by the trained, licensed operator. Report faults; do not operate unsafe machines.</li><li><strong>Sprayers</strong>: nozzles, filters, pressure gauge, leaks, calibration as scheduled.</li><li><strong>Irrigation</strong>: leaks, blocked drippers, filters, pressure and pump operation.</li><li><strong>Trellis and netting</strong>: broken wires, posts or anchors, torn nets.</li><li><strong>Tools and ladders</strong>: sharp, clean, undamaged; ladders with sound steps.</li></ul><h4>Planned maintenance</h4><p>Machinery is serviced according to the manufacturer's schedule, based on hours or kilometres. Irrigation filters are cleaned and lines flushed regularly. Off-season time in winter is used for bigger maintenance: trellis repairs, net repairs, workshop overhauls. Planned maintenance is cheaper than breakdowns in the busy season.</p><h4>Tool control</h4><p>Issue tools from a store against a tool register: date, worker, item, returned date and condition. Count tools at the end of the day. Teach workers to clean and look after tools.</p><h4>Stock control</h4><p>Fertilisers, chemicals and fuel are expensive and some are dangerous. Keep stores locked, record issues against blocks and jobs, check stock levels and report shortages or losses. Agricultural remedies must be stored according to their labels and Act 36 of 1947 requirements.</p><h4>Security and safety</h4><p>Lock stores, workshops and vehicles. Do not leave keys in tractors. Under the OHS Act 85 of 1993, machines must be safe and guards must be in place; never remove PTO shaft guards.</p><h4>Key points</h4><ul><li>Assets include blocks, infrastructure, buildings, machinery, tools and stock.</li><li>Losing trees or machinery in season costs years of production or a crop.</li><li>Do daily pre-use checks and report faults immediately.</li><li>Use planned maintenance, especially in the off-season.</li><li>Control tools and stock with registers, counts and locked stores.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which of these is an infrastructure asset?",
+      "options": [
+        {
+          "text": "Fertiliser bags",
+          "correct": false
+        },
+        {
+          "text": "Irrigation system",
+          "correct": true
+        },
+        {
+          "text": "Secateurs",
+          "correct": false
+        },
+        {
+          "text": "Diesel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is losing trees in a block so costly?",
+      "options": [
+        {
+          "text": "Trees cost nothing to replace",
+          "correct": false
+        },
+        {
+          "text": "There is replacement cost and years of lost production",
+          "correct": true
+        },
+        {
+          "text": "The block becomes more productive",
+          "correct": false
+        },
+        {
+          "text": "Only the fruit is lost that day",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When is the best time for large maintenance like trellis and net repairs?",
+      "options": [
+        {
+          "text": "During harvest",
+          "correct": false
+        },
+        {
+          "text": "During the peak spray season",
+          "correct": false
+        },
+        {
+          "text": "In the off-season in winter",
+          "correct": true
+        },
+        {
+          "text": "Never",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should be recorded in a tool register?",
+      "options": [
+        {
+          "text": "Weather and rainfall",
+          "correct": false
+        },
+        {
+          "text": "Fruit prices",
+          "correct": false
+        },
+        {
+          "text": "Worker's home address",
+          "correct": false
+        },
+        {
+          "text": "Date, worker, item, return date and condition",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A tractor has faulty brakes. What should the operator do?",
+      "options": [
+        {
+          "text": "Report the fault and not operate it",
+          "correct": true
+        },
+        {
+          "text": "Drive slowly and carry on",
+          "correct": false
+        },
+        {
+          "text": "Give it to a less experienced driver",
+          "correct": false
+        },
+        {
+          "text": "Remove the PTO guard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Planned maintenance is usually cheaper than breakdowns in the busy season.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "PTO shaft guards may be removed to make hitching faster.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are pre-use checks for a tractor? (select all that apply)",
+      "options": [
+        {
+          "text": "Oil and water",
+          "correct": true
+        },
+        {
+          "text": "Tyres",
+          "correct": true
+        },
+        {
+          "text": "Brakes and lights",
+          "correct": true
+        },
+        {
+          "text": "Fruit sugar levels",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

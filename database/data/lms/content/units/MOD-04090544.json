@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-04090544",
+  "title": "Management: Farming N4",
+  "lessons": [
+    {
+      "title": "The management functions on a farm",
+      "minutes": 25,
+      "html": "<h3>What management is</h3><p>Management is the process of achieving the goals of the business by using its resources (land, labour, capital, equipment and information) effectively and efficiently. <strong>Effective</strong> means doing the right things; <strong>efficient</strong> means doing things with the least waste. A farm manager balances biological processes, weather, markets, people and money, often with little warning when conditions change.</p><h4>The four management functions</h4><table><tr><th>Function</th><th>Meaning</th><th>Farm example</th></tr><tr><td>Planning</td><td>Setting goals and deciding how to reach them</td><td>Deciding the hectares of maize and soya for the season and the input programme</td></tr><tr><td>Organising</td><td>Arranging people, tasks and resources</td><td>Assigning teams, tractors and planters to fields; ordering inputs</td></tr><tr><td>Leading</td><td>Directing and motivating people</td><td>Briefing teams, communicating targets, resolving conflict</td></tr><tr><td>Controlling</td><td>Measuring results against plans and correcting</td><td>Comparing planting progress and costs with the plan each week</td></tr></table><p>The functions form a cycle: control results feed back into the next round of planning.</p><h4>Levels of management</h4><ul><li><strong>Top management</strong> – owner or general manager; long-term direction, major investments.</li><li><strong>Middle management</strong> – section managers (livestock, crops, packhouse); translate plans into programmes.</li><li><strong>First-line management</strong> – supervisors and foremen; daily work with teams.</li></ul><h4>Management skills</h4><p>Managers need <em>technical skills</em> (knowing crops, animals, machinery), <em>human skills</em> (working with and through people) and <em>conceptual skills</em> (seeing how the parts of the farm fit together and how outside forces affect it). Higher levels require more conceptual skill.</p><h4>Example</h4><p>A citrus farm manager plans the harvest programme (planning), assigns picking teams, bins and tractors to each block (organising), briefs supervisors on quality standards and motivates teams with a fair incentive (leading), and checks daily bins picked and packhouse rejection rates against targets (controlling). When rejections rise in one block, the findings feed back into planning for the following week, for example retraining pickers or changing the picking order.</p>"
+    },
+    {
+      "title": "Goals, decision-making and the farm environment",
+      "minutes": 25,
+      "html": "<h3>Setting goals</h3><p>Goals give direction. Good goals are often described as SMART: Specific, Measurable, Achievable, Realistic and Time-bound. For example, <em>increase the weaning percentage of the beef herd from 78% to 85% within three years</em> is far more useful than <em>improve the herd</em>.</p><p>Farm goals may be financial (profit, debt reduction), production (yield, quality), resource (soil and veld condition), and personal or family goals (succession, lifestyle). Conflicting goals must be prioritised.</p><h4>The decision-making process</h4><ol><li>Identify and define the problem or opportunity.</li><li>Gather information: records, advisors, market data.</li><li>Identify alternatives.</li><li>Evaluate alternatives: costs, benefits, risks, fit with goals.</li><li>Choose the best alternative.</li><li>Implement the decision.</li><li>Evaluate the results and learn from them.</li></ol><p>Example: rising feed costs reduce feedlot margins. Alternatives include buying feed forward, growing more silage, lengthening grazing periods or reducing numbers. Each is evaluated with records and partial budgets before a decision is made.</p><h4>The farm's environment</h4><p>A farm operates within an environment it does not fully control.</p><ul><li><strong>Internal environment</strong> – land, soils, water, infrastructure, staff, finances, management ability.</li><li><strong>Market environment</strong> – customers, suppliers, competitors, co-operatives, processors.</li><li><strong>Macro environment</strong> – weather and climate, economic conditions such as interest rates and exchange rates, political and legal factors such as labour and water law, technology, and social factors.</li></ul><p>Managers scan this environment to identify opportunities and threats and adapt plans in time.</p><h4>Risk</h4><p>Farming carries production risk (drought, hail, disease), market risk (price changes), financial risk (interest rates, debt) and human risk (injury, loss of key staff). Tools to manage risk include insurance, diversification, forward contracts, cash reserves and good records.</p><h4>Key points</h4><ul><li>Management achieves goals through planning, organising, leading and controlling.</li><li>Effective means doing the right things; efficient means doing them with least waste.</li><li>Use SMART goals and a structured decision-making process.</li><li>Scan the internal, market and macro environments for opportunities and threats.</li><li>Identify and manage production, market, financial and human risks.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which management function compares actual results with the plan and corrects deviations?",
+      "options": [
+        {
+          "text": "Planning",
+          "correct": false
+        },
+        {
+          "text": "Organising",
+          "correct": false
+        },
+        {
+          "text": "Leading",
+          "correct": false
+        },
+        {
+          "text": "Controlling",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does 'efficient' mean in management?",
+      "options": [
+        {
+          "text": "Doing things with the least waste",
+          "correct": true
+        },
+        {
+          "text": "Doing the right things",
+          "correct": false
+        },
+        {
+          "text": "Working the longest hours",
+          "correct": false
+        },
+        {
+          "text": "Employing more staff",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which goal is SMART?",
+      "options": [
+        {
+          "text": "Improve the herd",
+          "correct": false
+        },
+        {
+          "text": "Make more money soon",
+          "correct": false
+        },
+        {
+          "text": "Increase weaning percentage from 78% to 85% within three years",
+          "correct": true
+        },
+        {
+          "text": "Be the best farm in the district",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Interest rates and exchange rates are part of which environment?",
+      "options": [
+        {
+          "text": "Internal environment",
+          "correct": false
+        },
+        {
+          "text": "Macro environment",
+          "correct": true
+        },
+        {
+          "text": "Workshop environment",
+          "correct": false
+        },
+        {
+          "text": "Family environment",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which skill becomes more important at higher levels of management?",
+      "options": [
+        {
+          "text": "Conceptual skill",
+          "correct": true
+        },
+        {
+          "text": "Welding skill",
+          "correct": false
+        },
+        {
+          "text": "Typing speed",
+          "correct": false
+        },
+        {
+          "text": "Driving skill",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The last step of decision-making is to evaluate the results and learn from them.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Supervisors and foremen are part of top management.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are tools for managing farm risk? (select all that apply)",
+      "options": [
+        {
+          "text": "Insurance",
+          "correct": true
+        },
+        {
+          "text": "Diversification",
+          "correct": true
+        },
+        {
+          "text": "Forward contracts",
+          "correct": true
+        },
+        {
+          "text": "Ignoring weather forecasts",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

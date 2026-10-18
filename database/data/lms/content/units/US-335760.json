@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335760",
+ "title": "Perform horse riding instruction",
+ "lessons": [
+  {
+   "title": "Planning safe riding lessons",
+   "minutes": 20,
+   "html": "<h3>The instructor's responsibility</h3>\n<p>A riding instructor is responsible for the safety and progress of riders in the lesson. You must plan, choose suitable horses, control the arena and teach in a way that riders understand. Riding schools in South Africa often teach children, adult beginners and riders working towards competition or graded tests through bodies such as SANEF disciplines or Pony Club.</p>\n<h3>Assessing the rider</h3>\n<ul>\n<li>Experience, confidence and goals.</li>\n<li>Age, height, weight and fitness, to match a suitable horse.</li>\n<li>Medical conditions; signed indemnity and emergency contact.</li>\n<li>Learning style: some learn by watching, some by explanation, some by feel.</li>\n</ul>\n<h3>Choosing the horse</h3>\n<p>Beginners need calm, honest, well-schooled horses that respond to light aids and forgive mistakes. Check the horse's soundness and tack before every lesson.</p>\n<h3>Lesson plan</h3>\n<table><tr><th>Part</th><th>Content</th></tr>\n<tr><td>Introduction (5 min)</td><td>Greet, check tack and helmets, explain the aim</td></tr>\n<tr><td>Warm-up (10 min)</td><td>Walk and trot on both reins, suppling exercises for rider and horse</td></tr>\n<tr><td>Main teaching (20 to 30 min)</td><td>One clear topic, e.g. rising trot diagonals or canter transitions, with demonstration and practice</td></tr>\n<tr><td>Cool-down (5 to 10 min)</td><td>Walk on a long rein</td></tr>\n<tr><td>Review (5 min)</td><td>Summarise, give feedback, set homework or the next goal</td></tr></table>\n<h3>Arena safety</h3>\n<ul>\n<li>Helmets and correct footwear compulsory.</li>\n<li>Safe, level surface; gate closed; no loose equipment.</li>\n<li>Arena rules: pass left hand to left hand, keep a horse length apart, walking horses give way to faster paces on the track, call out when entering or leaving.</li>\n<li>Limit group size to what you can see and control; beginners in small groups.</li>\n<li>First aid kit and phone at hand; know the emergency procedure.</li>\n</ul>"
+  },
+  {
+   "title": "Teaching techniques and feedback",
+   "minutes": 20,
+   "html": "<h3>Effective instruction</h3>\n<p>Use the <strong>explain, demonstrate, practise, correct</strong> method:</p>\n<ol>\n<li><strong>Explain</strong> the exercise simply and why it matters.</li>\n<li><strong>Demonstrate,</strong> either by riding yourself or with a competent rider.</li>\n<li><strong>Practise:</strong> riders try it, one at a time or as a ride.</li>\n<li><strong>Correct:</strong> give clear, specific feedback, then let them try again.</li>\n</ol>\n<h3>Giving commands</h3>\n<ul>\n<li>Give a preparatory command, then the executive command: \"Whole ride, prepare to trot... and trot!\"</li>\n<li>Use a clear, confident voice that carries across the arena. Do not shout in anger.</li>\n<li>Position yourself where you can see all riders, usually in the centre or at a corner, and move to view each rider from different angles.</li>\n</ul>\n<h3>Feedback that helps</h3>\n<ul>\n<li>One or two corrections at a time. Too many confuse.</li>\n<li>Be specific: \"Shorten your reins by two fingers\" rather than \"Fix your hands.\"</li>\n<li>Praise progress: \"Good, your heel stayed down through the whole corner.\"</li>\n<li>Use images riders understand: \"Sit tall as if a string is pulling your head up.\"</li>\n</ul>\n<h3>Progressing riders</h3>\n<p>Build skills in a logical sequence: position and balance at walk; steering and halting; rising trot; sitting trot; canter; poles and small jumps; outrides. Move on only when the rider is secure. Lunge lessons help riders develop a seat without worrying about steering.</p>\n<h3>Handling problems</h3>\n<ul>\n<li>A rider losing balance: tell them to sit deep, hold the neck strap and slow down.</li>\n<li>A horse misbehaving: bring the ride to walk or halt, deal with it calmly, or swap horses.</li>\n<li>A fall: halt the ride immediately, assess the rider, give first aid within your training and complete an incident report.</li>\n<li>Fear: lower the difficulty and rebuild confidence.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Assess the rider and match a suitable horse.</li>\n<li>Plan lessons with warm-up, main topic, cool-down and review.</li>\n<li>Enforce helmets and arena rules; keep groups small enough to control.</li>\n<li>Explain, demonstrate, practise and correct.</li>\n<li>Give a preparatory then executive command.</li>\n<li>Give specific feedback, one or two points at a time, and praise progress.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What kind of horse suits a beginner rider?",
+   "options": [
+    {
+     "text": "A young, unschooled horse",
+     "correct": false
+    },
+    {
+     "text": "A calm, honest, well-schooled horse",
+     "correct": true
+    },
+    {
+     "text": "A fit racehorse",
+     "correct": false
+    },
+    {
+     "text": "A stallion",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the correct order of the teaching method?",
+   "options": [
+    {
+     "text": "Correct, practise, explain, demonstrate",
+     "correct": false
+    },
+    {
+     "text": "Practise, correct, demonstrate",
+     "correct": false
+    },
+    {
+     "text": "Demonstrate only",
+     "correct": false
+    },
+    {
+     "text": "Explain, demonstrate, practise, correct",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of a preparatory then executive command?",
+   "options": [
+    {
+     "text": "'Whole ride, prepare to trot... and trot!'",
+     "correct": true
+    },
+    {
+     "text": "'Go!'",
+     "correct": false
+    },
+    {
+     "text": "'Do whatever you like'",
+     "correct": false
+    },
+    {
+     "text": "'Stop shouting'",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many corrections should you give at a time?",
+   "options": [
+    {
+     "text": "Ten",
+     "correct": false
+    },
+    {
+     "text": "None",
+     "correct": false
+    },
+    {
+     "text": "One or two",
+     "correct": true
+    },
+    {
+     "text": "As many as you can",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do immediately if a rider falls?",
+   "options": [
+    {
+     "text": "Carry on with the lesson",
+     "correct": false
+    },
+    {
+     "text": "Halt the ride and assess the rider",
+     "correct": true
+    },
+    {
+     "text": "Make them remount at once",
+     "correct": false
+    },
+    {
+     "text": "Leave the arena",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Lunge lessons help riders develop their seat without worrying about steering.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Helmets are optional for experienced adult riders in lessons.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong in a lesson plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Warm-up",
+     "correct": true
+    },
+    {
+     "text": "Main teaching topic",
+     "correct": true
+    },
+    {
+     "text": "Cool-down and review",
+     "correct": true
+    },
+    {
+     "text": "A gallop for beginners on day one",
+     "correct": false
+    },
+    {
+     "text": "No aim at all",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612201000-KM-05",
+  "title": "Poultry farm business management concepts, at",
+  "lessons": [
+    {
+      "title": "The economics of a poultry enterprise",
+      "minutes": 25,
+      "html": "<h3>The economics of a poultry enterprise</h3><p>Poultry production is a high-volume, low-margin business. Small differences in feed conversion, mortality or price can decide whether a farm makes a profit or a loss. A manager must understand the cost structure and the drivers of profitability.</p><h4>Cost structure</h4><table><tr><th>Cost item</th><th>Notes</th></tr><tr><td>Feed</td><td>Usually by far the largest cost; driven by maize and soya prices</td></tr><tr><td>Day-old chicks or point-of-lay pullets</td><td>Second major cost; price and quality matter</td></tr><tr><td>Labour</td><td>Wages, overtime, benefits</td></tr><tr><td>Energy</td><td>Electricity, gas or coal for brooding, diesel for generators</td></tr><tr><td>Health</td><td>Vaccines, medicines, vet fees, disinfectants</td></tr><tr><td>Litter, water, packaging</td><td>Shavings, egg trays, cartons</td></tr><tr><td>Overheads</td><td>Depreciation, insurance, interest, repairs, administration</td></tr></table><h4>Key profit drivers</h4><ul><li><strong>Feed conversion ratio (FCR)</strong>: kilograms of feed per kilogram of live weight (or per dozen eggs). A small improvement in FCR across a large flock saves a lot of money.</li><li><strong>Mortality</strong>: every dead bird represents lost chick cost plus all the feed it ate.</li><li><strong>Growth rate and uniformity</strong>: uniform flocks process better and earn better prices.</li><li><strong>Egg production and grade</strong>: number of eggs, size distribution and quality.</li><li><strong>Selling price</strong>: market conditions, contracts, quality.</li><li><strong>House utilisation</strong>: number of cycles per year and birds per square metre within welfare limits.</li></ul><h4>Performance indices</h4><p>Integrators and broiler farms often use a combined efficiency index that brings together liveability, live weight, age and FCR into one number to compare flocks and growers. Understand how your contract or company calculates it, because payments may depend on it.</p><p>Because so many birds are involved, a change of a few cents per bird or per kilogram has a large effect on the total. Managers must learn to think in unit costs as well as in totals.</p>"
+    },
+    {
+      "title": "Budgeting, records and financial analysis",
+      "minutes": 25,
+      "html": "<h3>Budgeting, records and financial analysis</h3><h4>Enterprise budgets</h4><p>An enterprise budget shows expected income and costs per flock, per bird or per dozen eggs. Building one forces the manager to set realistic targets for FCR, mortality, weights, production and prices.</p><p>A simplified broiler flock budget:</p><ol><li>Birds placed x expected liveability = birds sold.</li><li>Birds sold x average weight = kilograms sold.</li><li>Kilograms sold x price per kg = income.</li><li>Kilograms sold x FCR = feed used; x feed price = feed cost.</li><li>Add chick cost, labour, energy, health, litter and overheads.</li><li>Income minus total costs = profit per flock.</li></ol><h4>Gross margin and break-even</h4><p><strong>Gross margin</strong> = income minus variable costs. It shows the contribution to overheads and profit. <strong>Break-even price</strong> = total cost divided by kilograms (or dozens) sold - the price below which the farm loses money. Knowing the break-even helps in negotiating contracts and deciding whether to place another flock.</p><h4>Financial statements</h4><ul><li><strong>Income statement</strong>: income and expenses over a period, giving profit or loss.</li><li><strong>Balance sheet</strong>: assets, liabilities and owner's equity at a date.</li><li><strong>Cash flow statement</strong>: actual cash in and out. Poultry farms pay for feed and chicks before birds are sold; cash flow planning prevents running out of money mid-cycle.</li></ul><h4>Records</h4><p>Accurate production records per flock - placements, mortality, feed deliveries, weights, water use, medication, sales - are the basis of financial analysis. Reconcile feed deliveries with feed used, and bird numbers placed with birds sold plus deaths. Unexplained differences may mean recording errors, wastage or theft.</p><h4>Analysing results</h4><p>Compare each flock with the budget, with previous flocks and with the breed standard or industry benchmarks. Look for causes of differences and act.</p>"
+    },
+    {
+      "title": "Planning, risk and marketing",
+      "minutes": 25,
+      "html": "<h3>Planning, risk and marketing</h3><h4>Business planning</h4><p>A business plan sets out the farm's goals, markets, production plan, resources, financial projections and risks. It is needed for loans, investors, development programmes and contract negotiations, and is a working tool for management. Review it at least annually.</p><h4>Production planning</h4><p>Plan placement dates so that birds are ready when the market or abattoir needs them, and so that houses have the correct cleaning and rest time between flocks. For layers, plan pullet replacement so that egg supply stays steady.</p><h4>Risk management</h4><table><tr><th>Risk</th><th>Management options</th></tr><tr><td>Disease (avian influenza, Newcastle disease)</td><td>Biosecurity, vaccination, compartment schemes, insurance where available</td></tr><tr><td>Feed price increases</td><td>Forward contracts, efficient feeding, FCR improvement</td></tr><tr><td>Power failures</td><td>Generators, fuel reserves, alarms, maintenance</td></tr><tr><td>Market price drops</td><td>Contracts, market diversification, cost control</td></tr><tr><td>Water supply failure</td><td>Storage tanks, backup boreholes</td></tr><tr><td>Theft and security</td><td>Fencing, access control, stock reconciliation</td></tr></table><h4>Marketing options</h4><ul><li><strong>Integrator contracts</strong>: lower market risk but less control over price.</li><li><strong>Abattoir or processor supply</strong>: requires consistent volumes and quality.</li><li><strong>Live bird sales</strong> to informal traders: often good prices but variable demand, and must comply with welfare and disease control rules.</li><li><strong>Direct sales</strong> of eggs to retailers, spaza shops or institutions.</li></ul><p>Each option has different requirements for volume, consistency, packaging, food safety and payment terms.</p><h4>Compliance as a business requirement</h4><p>Compliance with the Animal Diseases Act 35 of 1984, Meat Safety Act 40 of 2000, Animals Protection Act 71 of 1962, labour and safety law, and buyer standards protects market access. Non-compliance can close a business.</p><h4>Key points</h4><ul><li>Feed is usually the largest cost; FCR and mortality drive profit.</li><li>Use enterprise budgets and calculate gross margin and break-even.</li><li>Plan cash flow because costs come before income.</li><li>Reconcile bird numbers and feed to detect losses.</li><li>Manage disease, feed, power and market risks deliberately.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is usually the largest cost in poultry production?",
+      "options": [
+        {
+          "text": "Labour",
+          "correct": false
+        },
+        {
+          "text": "Feed",
+          "correct": true
+        },
+        {
+          "text": "Litter",
+          "correct": false
+        },
+        {
+          "text": "Packaging",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How is the break-even price calculated?",
+      "options": [
+        {
+          "text": "Total cost divided by kilograms or dozens sold",
+          "correct": true
+        },
+        {
+          "text": "Income minus overheads",
+          "correct": false
+        },
+        {
+          "text": "Feed cost times FCR",
+          "correct": false
+        },
+        {
+          "text": "Birds placed times price",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is cash flow planning important on a poultry farm?",
+      "options": [
+        {
+          "text": "Income always arrives before costs",
+          "correct": false
+        },
+        {
+          "text": "Banks require daily statements",
+          "correct": false
+        },
+        {
+          "text": "Feed and chicks are paid for before birds are sold",
+          "correct": true
+        },
+        {
+          "text": "It replaces the income statement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Birds placed do not equal birds sold plus recorded deaths. What could this mean?",
+      "options": [
+        {
+          "text": "The flock performed perfectly",
+          "correct": false
+        },
+        {
+          "text": "FCR improved",
+          "correct": false
+        },
+        {
+          "text": "Prices increased",
+          "correct": false
+        },
+        {
+          "text": "Recording errors or theft",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which marketing option usually gives lower market risk but less price control?",
+      "options": [
+        {
+          "text": "Integrator contracts",
+          "correct": true
+        },
+        {
+          "text": "Live bird sales",
+          "correct": false
+        },
+        {
+          "text": "Roadside sales",
+          "correct": false
+        },
+        {
+          "text": "Direct sales to spaza shops",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Every dead bird represents lost chick cost plus the feed it ate.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A balance sheet shows income and expenses over a period.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are key profit drivers in poultry production? (select all that apply)",
+      "options": [
+        {
+          "text": "Feed conversion ratio",
+          "correct": true
+        },
+        {
+          "text": "Mortality",
+          "correct": true
+        },
+        {
+          "text": "Selling price",
+          "correct": true
+        },
+        {
+          "text": "Colour of the farm sign",
+          "correct": false
+        },
+        {
+          "text": "Number of office chairs",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

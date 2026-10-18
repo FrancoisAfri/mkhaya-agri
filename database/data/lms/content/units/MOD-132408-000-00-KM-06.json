@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-06",
+ "title": "Sampling and Grading of Grains and Oilseed",
+ "lessons": [
+  {
+   "title": "Sampling grain correctly",
+   "minutes": 18,
+   "html": "<h3>Why sampling matters</h3>\n<p>The grade of a 34-tonne load is decided from a sample of a few kilograms. If the sample does not represent the load, the grade is wrong: the farmer may be underpaid, or the depot may store a lower grade grain in a higher grade bin. Sampling is therefore the most important step in grading.</p>\n<h4>Legal basis</h4>\n<p>Grading of grains and oilseeds sold in South Africa follows regulations made under the Agricultural Product Standards Act 119 of 1990. The regulations for each commodity (for example maize, wheat, sorghum, soya beans, sunflower seed) set out classes, grades, sampling methods and the deviations that are measured. Always use the current regulations and your depot's procedures.</p>\n<h4>Sampling equipment</h4>\n<ul>\n<li><strong>Probes (spears)</strong> – manual or mechanical probes that take grain from different depths of the load.</li>\n<li><strong>Automatic samplers</strong> – mechanical probes operated from a platform.</li>\n<li><strong>Dividers</strong> – such as a riffle or Boerner-type divider, to reduce the sample to working size without bias.</li>\n<li>Clean sample containers and labels.</li>\n</ul>\n<h4>Taking a representative sample</h4>\n<ol>\n<li>Probe the load at several points as the procedure prescribes, covering the front, middle and back and the full depth.</li>\n<li>Combine the probe samples into one composite sample.</li>\n<li>Mix and divide the sample with a divider to get the working sample and a retained sample.</li>\n<li>Label with truck registration, ticket number, commodity, date and time.</li>\n<li>Keep retained samples for the required period for disputes and checks.</li>\n</ol>\n<h4>Safety when sampling</h4>\n<p>Use the sampling platform or automatic probe. Never climb on loads without fall protection. Be aware of moving trucks and of fumigant residues on loads that may have been treated; report any garlic-like or unusual smell.</p>"
+  },
+  {
+   "title": "Grading the sample",
+   "minutes": 18,
+   "html": "<h3>What grading measures</h3>\n<p>Grading compares the sample with the standards in the regulations. For each commodity there are specific deviations. Typical examples include:</p>\n<ul>\n<li><strong>Moisture content</strong> – measured with an approved moisture meter.</li>\n<li><strong>Foreign matter</strong> – stones, sticks, soil and other material that is not grain.</li>\n<li><strong>Defective kernels</strong> – broken, shrivelled, heat-damaged, insect-damaged, sprouted or mouldy kernels.</li>\n<li><strong>Other grain and colour</strong> – for example yellow kernels in white maize.</li>\n<li><strong>Screenings</strong> – material that passes through a prescribed sieve.</li>\n<li><strong>Insects</strong> – live insects in the sample.</li>\n<li><strong>Odour and poisonous seeds</strong> – musty, sour or chemical smells, and seeds of poisonous plants, which can make grain unfit.</li>\n<li>For wheat, additional quality tests such as hectolitre mass and falling number may apply.</li>\n</ul>\n<h3>Classes and grades</h3>\n<p>Each commodity is divided into classes (for example white or yellow maize) and grades (such as grade 1, 2 or 3, or class-specific grades for wheat). The grade is the best grade whose limits the sample meets for every deviation. If any single deviation exceeds the limit for a grade, the sample falls to a lower grade, and if limits are exceeded further it may be classed as \"other\" or not fit for intake.</p>\n<h3>Accuracy and integrity</h3>\n<ul>\n<li>Use calibrated scales and moisture meters and check them daily.</li>\n<li>Follow the method exactly, including sieve sizes and sample masses.</li>\n<li>Record results on the grading certificate and in the system immediately.</li>\n<li>Take part in check-grading and proficiency tests.</li>\n<li>Never change a grade under pressure from a farmer, driver or colleague.</li>\n</ul>\n<h3>Disputes</h3>\n<p>If a depositor disagrees with a grade, follow the dispute procedure: re-grade the retained sample, or refer it to an independent grader or laboratory if the procedure allows.</p>\n<h4>Key points</h4>\n<ul>\n<li>A representative sample is the foundation of correct grading.</li>\n<li>Grading follows regulations under the Agricultural Product Standards Act 119 of 1990.</li>\n<li>Probe the full load, combine, divide and retain samples.</li>\n<li>The grade is set by the worst deviation compared with grade limits.</li>\n<li>Use calibrated equipment, follow methods exactly and protect grading integrity.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is sampling the most important step in grading?",
+   "options": [
+    {
+     "text": "It sets the truck tariff",
+     "correct": false
+    },
+    {
+     "text": "If the sample does not represent the load, the grade is wrong",
+     "correct": true
+    },
+    {
+     "text": "It is required only for exports",
+     "correct": false
+    },
+    {
+     "text": "It is the fastest step",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a divider (such as a riffle divider) used for?",
+   "options": [
+    {
+     "text": "To reduce the sample to working size without bias",
+     "correct": true
+    },
+    {
+     "text": "To weigh trucks",
+     "correct": false
+    },
+    {
+     "text": "To measure moisture",
+     "correct": false
+    },
+    {
+     "text": "To fumigate samples",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is the final grade decided?",
+   "options": [
+    {
+     "text": "By the average of all deviations",
+     "correct": false
+    },
+    {
+     "text": "By the colour of the truck",
+     "correct": false
+    },
+    {
+     "text": "By the farmer’s request",
+     "correct": false
+    },
+    {
+     "text": "By the best grade whose limits the sample meets for every deviation",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should the load be probed?",
+   "options": [
+    {
+     "text": "Only at the top of the back of the load",
+     "correct": false
+    },
+    {
+     "text": "At several points covering front, middle, back and full depth",
+     "correct": true
+    },
+    {
+     "text": "Only one point",
+     "correct": false
+    },
+    {
+     "text": "Only where it is easiest to reach",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farmer pressures the grader to give a better grade. What should the grader do?",
+   "options": [
+    {
+     "text": "Change the grade",
+     "correct": false
+    },
+    {
+     "text": "Split the difference",
+     "correct": false
+    },
+    {
+     "text": "Leave the sample ungraded",
+     "correct": false
+    },
+    {
+     "text": "Never change the grade under pressure and follow the dispute procedure if needed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Retained samples are kept for disputes and checks.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A garlic-like smell on a load can be ignored.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of grading deviations? (select all that apply)",
+   "options": [
+    {
+     "text": "The farmer’s name",
+     "correct": false
+    },
+    {
+     "text": "Moisture content",
+     "correct": true
+    },
+    {
+     "text": "Foreign matter",
+     "correct": true
+    },
+    {
+     "text": "Defective kernels",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

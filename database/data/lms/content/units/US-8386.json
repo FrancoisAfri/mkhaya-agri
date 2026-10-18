@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-8386",
+ "title": "Implement integrated catchment management",
+ "lessons": [
+  {
+   "title": "The catchment as a system",
+   "minutes": 20,
+   "html": "<h3>What is a catchment?</h3>\n<p>A catchment (or watershed) is the area of land from which all rainfall drains to a common point: a stream, river, dam or wetland. Everything that happens on the land in a catchment affects the water downstream. Ploughing a steep slope, overgrazing, invasive trees, informal settlements without sanitation, mines and feedlots all change the quantity and quality of water reaching the next user.</p>\n<h4>Why integrated management?</h4>\n<p>Traditionally, land, water, forests and settlements were managed by different authorities and owners with little coordination. Integrated catchment management (ICM) treats the catchment as one system and brings land and water users together to manage it for social, economic and environmental benefits. In South Africa, the National Water Act 36 of 1998 is built on this idea: water is managed by water management areas, with catchment management agencies and water user associations, and a <strong>Reserve</strong> of water must be kept for basic human needs and for ecosystems before other uses are allocated.</p>\n<h4>Parts of a catchment</h4>\n<ul><li><strong>Upper catchment</strong> – mountain grasslands, fynbos and wetlands that act like sponges; source areas often critical for water supply.</li>\n<li><strong>Middle catchment</strong> – farming, forestry, settlements.</li>\n<li><strong>Lower catchment</strong> – larger rivers, floodplains, towns and estuaries.</li>\n<li><strong>Riparian zones</strong> – vegetation along rivers that filters runoff and stabilises banks.</li>\n<li><strong>Wetlands</strong> – store water, reduce floods, purify water and support biodiversity.</li></ul>\n<h4>Key catchment issues</h4>\n<ul><li>Invasive alien trees (wattle, pine, gum) using large volumes of water in the upper catchment and riparian zones.</li>\n<li>Erosion and siltation of dams.</li>\n<li>Pollution from fertiliser, pesticides, manure, sewage and industry.</li>\n<li>Over-abstraction and unlawful water use.</li>\n<li>Wetland drainage and cultivation in riparian zones.</li></ul>"
+  },
+  {
+   "title": "Putting ICM into practice",
+   "minutes": 20,
+   "html": "<h3>Steps in implementing ICM</h3>\n<ol><li><strong>Establish a forum.</strong> Bring together farmers, communities, traditional authorities, municipalities, industry, conservation agencies, the water department and catchment agency. Agree on purpose and terms of reference.</li>\n<li><strong>Build a shared picture.</strong> Map land use, water sources, users, problem areas and sensitive areas (wetlands, springs, riparian zones) using existing data, satellite images and community mapping.</li>\n<li><strong>Assess condition.</strong> Water quantity and quality monitoring (e.g. flow, turbidity, nutrients, E. coli), biomonitoring of river invertebrates, erosion and invasive plant density.</li>\n<li><strong>Agree priorities.</strong> Focus on actions with the greatest benefit, often in source areas and hotspots.</li>\n<li><strong>Develop an action plan</strong> with responsibilities, budget and timelines.</li>\n<li><strong>Implement</strong> on-the-ground projects.</li>\n<li><strong>Monitor, review and adapt.</strong></li></ol>\n<h3>Typical actions</h3>\n<table><tr><th>Issue</th><th>Actions</th></tr>\n<tr><td>Invasive plants</td><td>Clearing with follow-up, prioritising riparian zones and upper catchment</td></tr>\n<tr><td>Erosion</td><td>Grazing management, gully rehabilitation, road drainage</td></tr>\n<tr><td>Riparian zones</td><td>Buffer strips, fencing, indigenous replanting, no cultivation on the banks</td></tr>\n<tr><td>Wetlands</td><td>Blocking drainage channels, controlling grazing and burning, rehabilitation</td></tr>\n<tr><td>Pollution</td><td>Nutrient management plans, safe pesticide handling, manure storage, sanitation</td></tr>\n<tr><td>Water use</td><td>Registration and licensing of water use, efficient irrigation, metering</td></tr></table>\n<h3>Making it work</h3>\n<ul><li>Link actions to benefits that people value: reliable water, better grazing, jobs.</li>\n<li>Coordinate funding from different programmes.</li>\n<li>Communicate results with simple indicators and maps.</li>\n<li>Respect legal processes: water use authorisations and environmental authorisations where required.</li></ul>\n<h4>Key points</h4>\n<ul><li>A catchment is all land draining to a common point; land use affects water downstream.</li>\n<li>ICM manages land and water together with all stakeholders.</li>\n<li>The National Water Act 36 of 1998 requires a Reserve for basic human needs and ecosystems.</li>\n<li>Protect source areas, wetlands and riparian zones and clear invasive trees.</li>\n<li>Implement through a forum, shared assessment, priorities, action plan and monitoring.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a catchment?",
+   "options": [
+    {
+     "text": "A farm dam",
+     "correct": false
+    },
+    {
+     "text": "The area of land from which rainfall drains to a common point",
+     "correct": true
+    },
+    {
+     "text": "A pipeline",
+     "correct": false
+    },
+    {
+     "text": "A wetland only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the Reserve under the National Water Act?",
+   "options": [
+    {
+     "text": "Money set aside for dams",
+     "correct": false
+    },
+    {
+     "text": "Water kept for irrigation only",
+     "correct": false
+    },
+    {
+     "text": "A nature reserve",
+     "correct": false
+    },
+    {
+     "text": "Water kept for basic human needs and ecosystems",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which function do wetlands provide?",
+   "options": [
+    {
+     "text": "They store water, reduce floods and purify water",
+     "correct": true
+    },
+    {
+     "text": "They increase erosion",
+     "correct": false
+    },
+    {
+     "text": "They use more water than invasive trees",
+     "correct": false
+    },
+    {
+     "text": "They have no function",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are invasive trees in the upper catchment a problem?",
+   "options": [
+    {
+     "text": "They provide shade",
+     "correct": false
+    },
+    {
+     "text": "They prevent fire",
+     "correct": false
+    },
+    {
+     "text": "They use large volumes of water",
+     "correct": true
+    },
+    {
+     "text": "They purify water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the first step in implementing ICM?",
+   "options": [
+    {
+     "text": "Building dams",
+     "correct": false
+    },
+    {
+     "text": "Establishing a stakeholder forum",
+     "correct": true
+    },
+    {
+     "text": "Issuing fines",
+     "correct": false
+    },
+    {
+     "text": "Planting crops in riparian zones",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cultivating right up to the river bank helps protect the riparian zone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Biomonitoring of river invertebrates can be used to assess water quality.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which actions protect riparian zones? (select all that apply)",
+   "options": [
+    {
+     "text": "Buffer strips",
+     "correct": true
+    },
+    {
+     "text": "Fencing",
+     "correct": true
+    },
+    {
+     "text": "Replanting indigenous vegetation",
+     "correct": true
+    },
+    {
+     "text": "Ploughing the river bank",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

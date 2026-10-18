@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909-001-01-WM-05",
+ "title": "Feed Mill Operations Control Practices",
+ "lessons": [
+  {
+   "title": "Controlling the mill over time",
+   "minutes": 25,
+   "html": "<h3>Controlling the mill over time</h3><p>This is the largest workplace module of the Feed Miller qualification. You must show, over an extended period, that you can control a feed mill's operations: plan, monitor, correct and improve, across all departments and shifts. Your mentor is typically the production or mill manager.</p><h4>Scope of exposure</h4><ul><li>Weekly and daily production planning and scheduling.</li><li>Raw material planning with procurement.</li><li>Running shifts as the responsible supervisor, including night shifts where applicable.</li><li>Quality holds, releases and customer complaint investigations.</li><li>Maintenance planning and breakdown coordination.</li><li>Safety management: permits, incident investigations, inspections.</li><li>Cost and performance reporting.</li><li>Audits: internal, customer and certification.</li></ul><h4>Planning cycle</h4><ol><li><strong>Weekly</strong>: agree the production plan with sales and procurement; confirm raw material and premix availability; schedule maintenance windows.</li><li><strong>Daily</strong>: finalise sequences by line, considering medicated runs, changeovers and dispatch slots; brief shift supervisors.</li><li><strong>During the shift</strong>: monitor against plan and adjust.</li><li><strong>After</strong>: review performance, losses and actions.</li></ol><h4>Monthly review</h4><table><tr><th>Area</th><th>Indicators</th></tr><tr><td>Output</td><td>Tonnes produced versus plan, on-time dispatch</td></tr><tr><td>Efficiency</td><td>OEE, downtime by cause, kWh and steam per tonne</td></tr><tr><td>Cost</td><td>Conversion cost per tonne, shrinkage</td></tr><tr><td>Quality</td><td>Non-conforming batches, complaints, analysis results versus specification</td></tr><tr><td>Safety</td><td>Incidents, near misses, inspections completed</td></tr><tr><td>People</td><td>Absenteeism, overtime, training completed</td></tr></table><p>Prepare these reports from mill data and present them with explanations and proposed actions.</p><h4>Leading supervisors</h4><p>At this level you direct shift supervisors as well as operators. Hold regular meetings with supervisors to review performance, agree priorities and share lessons. Make sure shift practices are consistent, so that day and night shifts produce to the same standard.</p>"
+  },
+  {
+   "title": "Investigations, audits and change control",
+   "minutes": 25,
+   "html": "<h3>Investigations, audits and change control</h3><h4>Root cause investigations</h4><p>When something significant goes wrong, such as a contaminated batch, a serious injury, a major breakdown or a customer losing animals, you must lead or take part in an investigation.</p><ol><li>Secure the scene and evidence; contain affected product.</li><li>Collect facts: records, samples, interviews, SCADA data.</li><li>Build a timeline.</li><li>Use a structured method such as the 5 Whys or a fishbone diagram to find root causes, not just the immediate cause.</li><li>Agree corrective and preventive actions with owners and dates.</li><li>Follow up to verify effectiveness and share lessons with all shifts.</li></ol><p>Serious incidents may also have to be reported to authorities under the OHS Act 85 of 1993; follow your company's procedure.</p><h4>Audits</h4><ul><li>Prepare: records complete, SOPs current, housekeeping, calibration up to date.</li><li>During the audit, answer honestly and show evidence.</li><li>After: address findings with root cause and corrective actions within the agreed time.</li></ul><h4>Change control</h4><p>Changes to equipment, processes, ingredients, suppliers or software can introduce new hazards. A change control procedure requires that changes are proposed, risk-assessed (safety and feed safety), approved, communicated, trained and verified before full use. For example, introducing a new medicament requires a review of sequencing, flushing and carry-over risk.</p><h4>Continuous improvement</h4><p>Choose improvement projects using data: the biggest downtime causes, highest energy users, most frequent deviations. Involve operators; they often know the cause. Measure results and standardise successful changes into SOPs.</p><h4>Portfolio evidence</h4><ul><li>Production plans and reports you produced.</li><li>A completed root cause investigation.</li><li>Audit preparation and corrective action records.</li><li>A change control you managed.</li><li>An improvement project with measured results.</li><li>Mentor assessments over the period.</li></ul><h4>Key points</h4><ul><li>Control the mill through weekly, daily and shift planning cycles.</li><li>Review output, efficiency, cost, quality, safety and people monthly.</li><li>Investigate significant events to the root cause and verify actions.</li><li>Prepare for audits and close findings properly.</li><li>Use change control so changes do not create new hazards.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which method helps find root causes in an investigation?",
+   "options": [
+    {
+     "text": "The 5 Whys",
+     "correct": true
+    },
+    {
+     "text": "Guessing",
+     "correct": false
+    },
+    {
+     "text": "Blaming the operator",
+     "correct": false
+    },
+    {
+     "text": "Deleting records",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is change control used?",
+   "options": [
+    {
+     "text": "To slow down all work",
+     "correct": false
+    },
+    {
+     "text": "So changes are risk-assessed and approved before use",
+     "correct": true
+    },
+    {
+     "text": "To avoid training",
+     "correct": false
+    },
+    {
+     "text": "To reduce reports",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Introducing a new medicament should trigger a review of what?",
+   "options": [
+    {
+     "text": "Canteen hours",
+     "correct": false
+    },
+    {
+     "text": "Weighbridge paint",
+     "correct": false
+    },
+    {
+     "text": "Sequencing, flushing and carry-over risk",
+     "correct": true
+    },
+    {
+     "text": "Parking bays",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in an investigation of a contaminated batch?",
+   "options": [
+    {
+     "text": "Write the final report",
+     "correct": false
+    },
+    {
+     "text": "Dispatch the remaining stock",
+     "correct": false
+    },
+    {
+     "text": "Change suppliers",
+     "correct": false
+    },
+    {
+     "text": "Secure evidence and contain affected product",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which indicator belongs to efficiency in the monthly review?",
+   "options": [
+    {
+     "text": "OEE and downtime by cause",
+     "correct": true
+    },
+    {
+     "text": "Number of complaints",
+     "correct": false
+    },
+    {
+     "text": "Absenteeism",
+     "correct": false
+    },
+    {
+     "text": "Training completed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "During an audit you should answer honestly and show evidence.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fixing the immediate cause is always enough; root causes do not matter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are suitable portfolio evidence for this module? (select all that apply)",
+   "options": [
+    {
+     "text": "A completed root cause investigation",
+     "correct": true
+    },
+    {
+     "text": "A change control you managed",
+     "correct": true
+    },
+    {
+     "text": "An improvement project with measured results",
+     "correct": true
+    },
+    {
+     "text": "A copy of a competitor's price list",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

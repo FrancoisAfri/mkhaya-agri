@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-17",
+ "title": "Diagnosis and Repair Tractor Hydraulic Systems",
+ "lessons": [
+  {
+   "title": "Understanding hydraulic circuits for diagnosis",
+   "minutes": 20,
+   "html": "<h3>Know the system before you test it</h3> <p>To diagnose a hydraulic fault you must understand the type of system and read its circuit diagram. Tractors commonly have:</p> <ul> <li><strong>Open centre systems</strong> with a fixed-displacement gear pump. Oil flows back to the tank through the valves when nothing is working; pressure builds only when a function is used.</li> <li><strong>Closed centre, load-sensing systems</strong> with a variable-displacement piston pump. The pump adjusts its flow to the demand and keeps a standby pressure.</li> </ul> <p>Many tractors also have a separate low-pressure circuit for transmission lubrication, PTO and clutch engagement, and a priority valve that sends oil to steering first.</p> <h4>Reading symbols</h4> <p>Hydraulic diagrams use standard symbols for pumps, relief valves, directional valves, cylinders, motors, filters and the reservoir. Trace the oil from the reservoir through the pump, the priority valve, control valves and back to the tank, so you know where to fit gauges.</p> <h4>Common complaints and what they suggest</h4> <table> <tr><th>Complaint</th><th>Possible causes</th></tr> <tr><td>Everything slow or weak</td><td>Low oil, blocked suction filter, worn pump, relief valve set low, wrong oil</td></tr> <tr><td>One function slow or weak</td><td>That valve section, its relief, the cylinder seals or hose restriction</td></tr> <tr><td>Linkage drops when parked</td><td>Leaking cylinder seals or lift valve</td></tr> <tr><td>Oil overheating</td><td>Continuous relief valve operation, internal leakage, blocked oil cooler</td></tr> <tr><td>Noisy pump, foamy oil</td><td>Air in suction line, low level, cavitation</td></tr> </table> <h4>Safety</h4> <ul> <li>Lower all loads or block them mechanically before opening any circuit, and release stored pressure, including accumulators.</li> <li>Use gauges and hoses rated above the maximum system pressure.</li> <li>Never search for leaks by hand. An oil injection injury needs a doctor immediately, even if it looks small.</li> <li>Hot oil causes burns; let it cool before opening.</li> </ul>"
+  },
+  {
+   "title": "Pressure and flow testing",
+   "minutes": 20,
+   "html": "<h3>Preparing for tests</h3> <ol> <li>Check the oil level and condition. Milky oil means water; dark burnt-smelling oil means overheating. A sample can be sent for analysis.</li> <li>Check and replace filters. A blocked filter can cause many symptoms.</li> <li>Warm the oil to the test temperature given in the manual. Readings on cold oil are misleading.</li> <li>Set engine speed as the test procedure requires.</li> </ol> <h3>Pressure tests</h3> <ul> <li>Fit a gauge to the test port shown in the manual, or to a remote coupler.</li> <li>Operate the function against its stop (for example hold the lift fully up) briefly, and read the relief valve pressure. Compare with the specification.</li> <li>On load-sensing systems, check standby pressure with no function operating, and the margin pressure as the manual describes.</li> <li>Do not hold a relief valve open for long; it heats the oil quickly.</li> </ul> <h3>Flow tests</h3> <p>Pressure alone does not show a worn pump. A worn pump may still make full pressure at low flow. Use a flow meter with a loading valve:</p> <ol> <li>Connect the flow meter as the manual shows, usually to the remote outlets.</li> <li>With the loading valve open, read the free flow.</li> <li>Slowly close the loading valve to raise pressure in steps, recording flow at each step.</li> <li>A large drop in flow as pressure rises points to internal leakage in the pump or valves.</li> </ol> <h3>Isolating the fault</h3> <p>Test at different points to narrow down the fault: pump outlet, valve outlet, cylinder. For example, if pump flow is good but one remote is slow, the fault lies in that valve section or beyond. A cylinder can be checked for internal leakage by extending it fully, disconnecting the return line safely as the manual describes, and watching for oil flow under pressure.</p> <p>Record every reading against its specification. These numbers support your diagnosis and the farmer's decision on an expensive pump or valve replacement.</p>"
+  },
+  {
+   "title": "Repair, flushing and verification",
+   "minutes": 20,
+   "html": "<h3>Repairing the fault</h3> <ul> <li>Replace or recondition the faulty component: pump, valve section, relief valve cartridge, cylinder seals or hoses.</li> <li>Rebuild components only if you have the seal kit, clean conditions and the procedure. Keep spools in their own bores; they are matched.</li> <li>Never adjust a relief valve above the manufacturer's setting to \"get more power\". It overloads hoses and parts and can cause bursts.</li> </ul> <h3>Contamination control after a failure</h3> <p>When a pump fails, metal particles spread through the whole system. If you only fit a new pump, it can be destroyed by the debris of the old one. Depending on the failure:</p> <ul> <li>Drain the reservoir and clean it, including magnetic plugs and screens.</li> <li>Replace all filters, and again after a short running period if the manual or your supervisor recommends it.</li> <li>Flush lines and clean or replace components that may hold debris, such as coolers.</li> <li>Fill with new oil of the correct specification.</li> </ul> <h3>Verification</h3> <ol> <li>Bleed air by operating each function slowly through full strokes.</li> <li>Repeat the pressure and flow tests and compare with the earlier readings and the specification.</li> <li>Check that the linkage holds a load without dropping over time.</li> <li>Check for leaks and that oil temperature stays normal during work.</li> <li>Test with implements in conditions close to real farm work.</li> </ol> <h3>Report to the client</h3> <p>Give the farmer a clear report: complaint, tests and readings, cause, repair, parts and advice, for example \"keep couplers clean and capped; dirt from the implement couplers damaged the valves\". Dispose of old oil and filters through a registered waste collector.</p> <h4>Key points</h4> <ul> <li>Read the circuit diagram and know whether the system is open or closed centre.</li> <li>Test with warm oil, rated gauges and a flow meter; pressure alone does not prove a good pump.</li> <li>Never raise relief valve settings above specification.</li> <li>After a pump failure, clean the whole system and replace filters.</li> <li>Repeat the tests after repair to prove the result.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is a flow test needed as well as a pressure test?",
+   "options": [
+    {
+     "text": "Flow tests measure oil colour",
+     "correct": false
+    },
+    {
+     "text": "A worn pump may still make full pressure at low flow",
+     "correct": true
+    },
+    {
+     "text": "Flow tests are quicker than looking at the oil",
+     "correct": false
+    },
+    {
+     "text": "Pressure gauges are never accurate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does milky hydraulic oil usually indicate?",
+   "options": [
+    {
+     "text": "Correct oil",
+     "correct": false
+    },
+    {
+     "text": "Overheating",
+     "correct": false
+    },
+    {
+     "text": "A new filter",
+     "correct": false
+    },
+    {
+     "text": "Water contamination",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the oil be warmed before hydraulic tests?",
+   "options": [
+    {
+     "text": "To make the gauges work",
+     "correct": false
+    },
+    {
+     "text": "Cold oil cannot be pumped at all",
+     "correct": false
+    },
+    {
+     "text": "To clean the filters",
+     "correct": false
+    },
+    {
+     "text": "Cold oil gives misleading readings",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done after a hydraulic pump fails and breaks up inside?",
+   "options": [
+    {
+     "text": "Add a thicker oil",
+     "correct": false
+    },
+    {
+     "text": "Clean the system, replace filters and refill with new oil",
+     "correct": true
+    },
+    {
+     "text": "Fit a new pump only",
+     "correct": false
+    },
+    {
+     "text": "Raise the relief valve setting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In an open centre system, when does pressure build up?",
+   "options": [
+    {
+     "text": "Only when the engine is off",
+     "correct": false
+    },
+    {
+     "text": "Only when a function is used",
+     "correct": true
+    },
+    {
+     "text": "All the time",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Turning the relief valve above the manufacturer's setting is a good way to get more lifting power.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Gauges and hoses used for testing must be rated above the maximum system pressure.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are possible causes of everything being slow or weak? (select all that apply)",
+   "options": [
+    {
+     "text": "Blocked suction filter",
+     "correct": true
+    },
+    {
+     "text": "Low oil level",
+     "correct": true
+    },
+    {
+     "text": "Worn pump",
+     "correct": true
+    },
+    {
+     "text": "Clean new oil of the correct type",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

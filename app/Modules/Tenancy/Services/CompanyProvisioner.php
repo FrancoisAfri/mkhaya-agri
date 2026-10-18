@@ -90,6 +90,17 @@ class CompanyProvisioner
             Log::warning('CompanyProvisioner: reference seeding failed', ['company' => $result['company']->id, 'error' => $e->getMessage()]);
         }
 
+        // Every farm starts with the agricultural training library (SAQA qualifications, skills
+        // programmes and compliance courses). Non-fatal for the same reason: a farm that signed up
+        // must not be turned away because a course failed to copy — `lms:install-agri-library`
+        // finishes the job afterwards.
+        try {
+            app(\App\Modules\HR\LMS\Services\AgriTrainingLibrary::class)
+                ->installFor($result['company']->id, $result['user']->id ?? null);
+        } catch (\Throwable $e) {
+            Log::warning('CompanyProvisioner: training library install failed', ['company' => $result['company']->id, 'error' => $e->getMessage()]);
+        }
+
         return $result;
     }
 

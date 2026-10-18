@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-115178",
+  "title": "Pack fruit",
+  "lessons": [
+    {
+      "title": "Getting ready to pack",
+      "minutes": 15,
+      "html": "<h3>Packing is the last touch</h3><p>The packer is the last person to handle the fruit before the customer opens the carton, maybe in London, Dubai or Shanghai. A well-packed carton protects the fruit, looks good and contains exactly what the label says.</p><h4>Know the pack specification</h4><p>Before you start, your supervisor or the pack instruction card tells you:</p><ul><li>The <strong>fruit, cultivar and grade</strong> (class) being packed.</li><li>The <strong>size or count</strong>: how many fruit go in a carton, or the size range.</li><li>The <strong>carton type</strong> and any inner packaging: trays, liners, bags, wraps or punnets.</li><li>The <strong>pack pattern</strong>: how fruit must lie in the carton.</li><li>The <strong>weight</strong> the carton must reach.</li><li>The <strong>market</strong> and labels needed.</li></ul><p>If you are not sure, ask before you start. A whole pallet packed wrong must be repacked.</p><h4>Prepare your work station</h4><ol><li>Wash your hands and put on your clean apron, hairnet and any gloves required.</li><li>Remove jewellery, watches and anything that could fall into a carton.</li><li>Check that your station is clean.</li><li>Have enough cartons, trays, liners and labels within reach.</li><li>Check that the cartons are the right type and not damaged, wet or dirty.</li></ol><h4>Check each fruit</h4><p>Even after grading, check each fruit as you pick it up. Take out fruit with defects, the wrong size or the wrong colour for that grade and put it in the correct return bin. Do not pack fruit that has fallen on the floor.</p><p>Remember that a carton of export fruit can be worth several hundred rand. Careful packing protects the farm's income and your packhouse's name.</p>"
+    },
+    {
+      "title": "Packing to specification",
+      "minutes": 20,
+      "html": "<h3>Packing the carton</h3><ol><li>Place the liner, bag or tray in the carton as shown on the instruction card.</li><li>Pick fruit up gently with your whole hand. Do not squeeze, drop or throw it.</li><li>Place the fruit in the correct <strong>pattern</strong>, for example with stems all facing the same way, or in a set number of rows. Tray packs have one fruit per cup.</li><li>Pack firmly so fruit does not move and rub during transport, but do not press fruit in so tightly that it bruises.</li><li>The fruit must not stick up above the carton edge, or the lid will crush it.</li><li>Fold or close the liner if one is used.</li></ol><h4>Count and weight</h4><p>Each carton must have the right count or weight. Many packhouses check-weigh cartons on a scale. If a carton is underweight, add fruit of the same size; if it is over, take fruit out. Do not over-pack to be safe; giving away extra fruit costs the farm money and can break the size rules.</p><h4>Labelling and traceability</h4><p>Every carton is marked with information such as the packhouse code, the producer or orchard code, the packing date, the cultivar, class and count. This is called <strong>traceability</strong>: if there is a problem in the market, the carton can be traced back to where it came from. Put labels and stickers exactly where the instruction says, straight and clean. Some packhouses also record a packer number on each carton.</p><h4>Common faults to avoid</h4><table><tr><th>Fault</th><th>Result</th></tr><tr><td>Loose pack</td><td>Fruit moves and bruises</td></tr><tr><td>Over-tight pack</td><td>Pressure bruising, lid damage</td></tr><tr><td>Mixed sizes or colours</td><td>Carton fails inspection</td></tr><tr><td>Wrong or missing label</td><td>Pallet may be rejected</td></tr></table><h4>Inspection</h4><p>Quality controllers and sometimes government inspectors check cartons. If your cartons are rejected, listen to the reason and correct it.</p><h4>Key points</h4><ul><li>Follow the pack specification: grade, count, carton, pattern, weight and market.</li><li>Prepare a clean station and check cartons before packing.</li><li>Handle fruit gently and pack firmly in the correct pattern.</li><li>Make sure count or weight is correct.</li><li>Label every carton correctly for traceability.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Where do you find how many fruit go in a carton and the pack pattern?",
+      "options": [
+        {
+          "text": "On the pack specification or instruction card",
+          "correct": true
+        },
+        {
+          "text": "On the fruit itself",
+          "correct": false
+        },
+        {
+          "text": "By guessing",
+          "correct": false
+        },
+        {
+          "text": "From the truck driver",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What happens if fruit is packed too loosely?",
+      "options": [
+        {
+          "text": "It stays fresh longer",
+          "correct": false
+        },
+        {
+          "text": "It moves and bruises",
+          "correct": true
+        },
+        {
+          "text": "The carton weighs more",
+          "correct": false
+        },
+        {
+          "text": "Nothing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why must fruit not stick up above the carton edge?",
+      "options": [
+        {
+          "text": "It looks untidy only",
+          "correct": false
+        },
+        {
+          "text": "The label will not fit",
+          "correct": false
+        },
+        {
+          "text": "The lid will crush it",
+          "correct": true
+        },
+        {
+          "text": "It is too heavy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is traceability?",
+      "options": [
+        {
+          "text": "Drawing pictures on cartons",
+          "correct": false
+        },
+        {
+          "text": "Counting packers",
+          "correct": false
+        },
+        {
+          "text": "Weighing fruit",
+          "correct": false
+        },
+        {
+          "text": "Being able to trace a carton back to where it came from",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A carton is underweight on the check-scale. What should you do?",
+      "options": [
+        {
+          "text": "Add fruit of the same size",
+          "correct": true
+        },
+        {
+          "text": "Add a bigger fruit of any grade",
+          "correct": false
+        },
+        {
+          "text": "Send it anyway",
+          "correct": false
+        },
+        {
+          "text": "Add paper to make it heavier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You should remove jewellery and watches before packing.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Fruit that has fallen on the floor can be packed if it looks clean.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which information is usually marked on an export carton? (select all that apply)",
+      "options": [
+        {
+          "text": "Packhouse code",
+          "correct": true
+        },
+        {
+          "text": "Cultivar, class and count",
+          "correct": true
+        },
+        {
+          "text": "Packing date",
+          "correct": true
+        },
+        {
+          "text": "The packer's home address",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

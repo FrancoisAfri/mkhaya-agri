@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-01",
+ "title": "Grain Handling Operations HR Management",
+ "lessons": [
+  {
+   "title": "Staffing a grain depot",
+   "minutes": 18,
+   "html": "<h3>The people side of a grain depot</h3>\n<p>A grain depot (silo complex) has a small permanent team and a large seasonal workforce during harvest. In summer-rainfall areas the maize and soya bean intake peaks from about April to July; in the Western Cape the wheat and barley intake peaks in late spring and early summer. The depot manager must plan people for these peaks while keeping fixed costs down in quieter months.</p>\n<h4>Workforce planning</h4>\n<ol>\n<li>Estimate the expected intake volumes and number of trucks per day from crop estimates and history.</li>\n<li>Decide which roles are needed per shift: weighbridge clerks, graders, samplers, intake operators, control room operators, fumigation and pest control staff, maintenance, cleaners and security.</li>\n<li>Compare with permanent staff and decide how many seasonal or contract workers are required.</li>\n<li>Plan recruitment, contracts and training well before the season.</li>\n</ol>\n<h4>Recruitment and contracts</h4>\n<ul>\n<li>Use job descriptions and fair selection criteria, in line with the Employment Equity Act 55 of 1998.</li>\n<li>Issue written particulars of employment as the Basic Conditions of Employment Act 75 of 1997 requires, including hours, pay and the duration of fixed-term contracts.</li>\n<li>Comply with the national minimum wage and any applicable agreement.</li>\n<li>Check competence for critical roles: graders must be trained and certified as the grading regulations and industry require.</li>\n</ul>\n<h4>Induction and training</h4>\n<p>Every seasonal worker needs an induction on safety (silos, conveyors, vehicles, dust, fumigants), site rules, hygiene and their tasks. Use a skills matrix and plan refresher training for permanent staff. Training can be funded partly through the Skills Development Act 97 of 1998 system, by submitting a workplace skills plan to the relevant SETA.</p>\n<h4>Working hours in harvest</h4>\n<p>Long intake days are common. Plan shifts to stay within legal limits on hours and overtime, give required rest periods and meal intervals, and pay overtime correctly. Fatigue increases accidents on weighbridges and in conveyor areas.</p>"
+  },
+  {
+   "title": "Managing performance, relations and wellbeing",
+   "minutes": 18,
+   "html": "<h3>Performance management</h3>\n<p>Set clear standards for each role, such as truck turnaround time at the weighbridge, sampling accuracy, grading accuracy compared with check-grading, and housekeeping. Review performance regularly, give feedback and recognise good work. For permanent staff, hold formal reviews with development plans.</p>\n<h3>Discipline and grievances</h3>\n<p>Apply the company disciplinary code in line with the Labour Relations Act 66 of 1995 and its Code of Good Practice: Dismissal. Discipline should be corrective, consistent and procedurally fair: the employee knows the allegation, can prepare, can be represented and is heard before a decision. Grading integrity is critical: manipulation of grades or weighbridge figures is serious misconduct and must be investigated thoroughly.</p>\n<p>Provide a grievance procedure with time limits and make sure seasonal workers know how to use it.</p>\n<h3>Union relations</h3>\n<p>Where a union has organisational rights, consult shop stewards on matters such as shift patterns and seasonal hiring where agreements require it. Build relationships before harvest, not during a dispute.</p>\n<h3>Health, safety and wellbeing</h3>\n<ul>\n<li>Grain dust can cause respiratory problems; provide dust control and suitable respirators and arrange medical surveillance where required.</li>\n<li>Noise from fans and conveyors requires hearing protection.</li>\n<li>Fumigants are highly toxic; only trained, authorised people may handle them.</li>\n<li>Support employees with personal problems through an employee assistance programme where available, and treat HIV status and health information confidentially.</li>\n</ul>\n<h3>HR records</h3>\n<p>Keep accurate records of contracts, attendance, overtime, leave, training, warnings and incidents. They are needed for payroll, for labour inspections and if a dispute reaches the CCMA.</p>\n<h4>Key points</h4>\n<ul>\n<li>Plan permanent and seasonal staff from expected harvest volumes and truck numbers.</li>\n<li>Recruit fairly, issue written particulars and pay at least the national minimum wage.</li>\n<li>Induct every worker on silo, conveyor, vehicle, dust and fumigant hazards.</li>\n<li>Manage hours, fatigue, discipline and grievances fairly and lawfully.</li>\n<li>Protect grading integrity and keep complete HR records.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When does the summer-rainfall maize and soya intake usually peak?",
+   "options": [
+    {
+     "text": "Only in spring",
+     "correct": false
+    },
+    {
+     "text": "December only",
+     "correct": false
+    },
+    {
+     "text": "About April to July",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law requires written particulars of employment including hours and pay?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can training be partly funded?",
+   "options": [
+    {
+     "text": "By deducting from wages",
+     "correct": false
+    },
+    {
+     "text": "Through the Skills Development Act system and a workplace skills plan submitted to the SETA",
+     "correct": true
+    },
+    {
+     "text": "By grain buyers only",
+     "correct": false
+    },
+    {
+     "text": "It cannot be funded",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A grader is suspected of manipulating grades. How should this be treated?",
+   "options": [
+    {
+     "text": "As a training issue only",
+     "correct": false
+    },
+    {
+     "text": "With immediate dismissal without a hearing",
+     "correct": false
+    },
+    {
+     "text": "As serious misconduct to be investigated thoroughly and fairly",
+     "correct": true
+    },
+    {
+     "text": "Ignored during harvest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should shift planning consider fatigue?",
+   "options": [
+    {
+     "text": "To increase overtime",
+     "correct": false
+    },
+    {
+     "text": "It is not relevant",
+     "correct": false
+    },
+    {
+     "text": "Fatigue increases accidents",
+     "correct": true
+    },
+    {
+     "text": "To reduce pay",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only trained, authorised people may handle fumigants.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seasonal workers do not need a safety induction.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which roles are typically needed at a grain depot during harvest? (select all that apply)",
+   "options": [
+    {
+     "text": "Intake operators",
+     "correct": true
+    },
+    {
+     "text": "Pastry chefs",
+     "correct": false
+    },
+    {
+     "text": "Weighbridge clerks",
+     "correct": true
+    },
+    {
+     "text": "Graders and samplers",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

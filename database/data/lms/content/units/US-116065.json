@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116065",
+ "title": "Store and control agrochemical products effectively and responsibly",
+ "lessons": [
+  {
+   "title": "Receiving, storing and issuing agrochemicals",
+   "minutes": 15,
+   "html": "<h3>Why control matters</h3> <p>Agrochemicals (pesticides, herbicides, fungicides, fumigants) are registered under the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947. Used well, they protect crops. Stored badly, they poison people, animals and water, cause fires, and cost the farm money through theft, waste and failed audits.</p> <h4>Receiving stock</h4> <ol> <li>Check the delivery against the order: product, registration number, pack size, quantity.</li> <li>Inspect containers: no leaks, damage or broken seals; labels readable.</li> <li>Check expiry or manufacture dates.</li> <li>Get the safety data sheet (SDS) for new products.</li> <li>Refuse or separate damaged or unlabelled products and report them.</li> <li>Wear gloves and PPE while unloading; use a trolley for heavy items.</li> <li>Record the receipt in the stock register straight away.</li> </ol> <h4>Issuing stock</h4> <ul> <li>Issue only against a written spray instruction or recommendation signed by the responsible person.</li> <li>Issue only to trained, authorised operators.</li> <li>Issue the exact product and quantity needed; issue the oldest stock first (first-in, first-out).</li> <li>Record: date, product, quantity, batch, block or purpose, and who received it. Get a signature.</li> <li>Unused full containers come back to the store and are booked back in.</li> </ul> <h4>Example of a good issue</h4><p>The farm manager writes a spray instruction for block 7: a fungicide at the label rate for 4 hectares. The storeman checks the instruction, issues the oldest container of the right product, writes it in the register with the batch number and gets the spray operator's signature. At the end of the day an unopened container comes back and is booked back in. The register now matches the shelf exactly.</p><h4>The person in charge</h4> <p>One responsible person should control the store keys and the register, with a named stand-in. This makes it clear who is accountable.</p>"
+  },
+  {
+   "title": "Categorising, segregating and securing stock",
+   "minutes": 15,
+   "html": "<h3>Categorising stock</h3> <p>Group products so that they are easy to find and so incompatible products are kept apart.</p> <ul> <li><strong>By type</strong>: herbicides, insecticides, fungicides, fumigants, adjuvants.</li> <li><strong>By formulation</strong>: liquids and powders or granules. Store liquids on lower shelves and powders above, so leaks do not run onto bags.</li> <li><strong>By hazard</strong>: label colour bands and pictograms show toxicity. Very toxic products may need a separate locked section.</li> <li><strong>By compatibility</strong>: the SDS tells you what must not be stored together, for example oxidisers away from flammable products.</li> </ul> <h4>Herbicides need special care</h4> <p>Keep herbicides separate from other products. A herbicide used by mistake instead of a fungicide can destroy a whole orchard or vineyard. Fumigants are often stored separately in their own sealed store because they give off toxic gas.</p> <h3>Safety and security measures</h3> <ul> <li>A dedicated, locked store, away from houses, kitchens, animal feed, water sources and flood areas.</li> <li>Strong door and lock; keys controlled.</li> <li>Good ventilation, lighting and protection from direct sun and heat.</li> <li>A bunded, impervious floor to contain spills; no floor drains to the outside.</li> <li>Non-absorbent shelves; nothing on the floor.</li> <li>Warning signs on the outside: danger, no smoking, no unauthorised entry, hazard pictograms.</li> <li>Fire extinguisher outside the door, spill kit, eye-wash and water nearby.</li> <li>Emergency numbers and the SDS file at the door.</li> <li>PPE stored in a separate clean area, not inside the chemical store.</li> <li>Never store food, drink, seed or clothing in the chemical store.</li> </ul> <p>Unauthorised people, and especially children, must never get into the store.</p>"
+  },
+  {
+   "title": "Records, hygiene and emergencies",
+   "minutes": 15,
+   "html": "<h3>Stock records</h3> <p>A stock register shows exactly what is in the store at any time. For each product record:</p> <ul> <li>Opening stock, receipts (date, supplier, quantity, batch).</li> <li>Issues (date, quantity, block, person).</li> <li>Returns and disposals.</li> <li>Balance on hand.</li> </ul> <p>Do a physical stock count regularly and compare it with the register. Differences must be investigated: they may mean theft, spills or recording mistakes. Records are also checked in food safety audits.</p> <h3>Cleanliness and hygiene</h3> <ul> <li>Keep the store tidy and swept; clean up small spills immediately with absorbent material.</li> <li>Wipe down containers with leaking residue, wearing gloves.</li> <li>Check containers weekly for leaks, corrosion and damaged labels. Re-label only with the supplier's label.</li> <li>Empty containers: triple rinse if the label says so (pour rinse water into the spray tank), puncture so they cannot be reused, store in a locked area and send to an approved recycler or waste collector. Never burn, bury or give them away.</li> <li>Obsolete or expired products are returned to the supplier or disposed of through a licensed hazardous waste contractor.</li> <li>Wash hands and face after working in the store.</li> </ul> <h3>Emergencies</h3> <h4>Spills</h4> <ol> <li>Warn others and keep them away.</li> <li>Put on PPE.</li> <li>Stop the leak if safe (turn the container upright, close it).</li> <li>Contain the spill with absorbent material or sand; keep it out of drains and water.</li> <li>Sweep up into a labelled container for hazardous waste.</li> <li>Report and record the spill.</li> </ol> <h4>Fire</h4> <p>Raise the alarm, evacuate and call the fire brigade, telling them that agrochemicals are involved. Toxic smoke is very dangerous: stay upwind. Do not use large amounts of water that will wash chemicals into rivers unless the fire service decides to.</p> <h4>Poisoning</h4> <p>Remove the person from exposure, follow the first aid on the label and SDS, and get medical help immediately, taking the label with you.</p> <h4>Key points</h4> <ul> <li>Receive, issue and record every product; issue only to authorised operators against a written instruction.</li> <li>Separate herbicides, fumigants and incompatible products; liquids below powders.</li> <li>Keep the store locked, ventilated, bunded and signposted.</li> <li>Count stock regularly and investigate differences.</li> <li>Know the spill, fire and poisoning procedures.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Under which Act are agricultural remedies registered in South Africa?",
+   "options": [
+    {
+     "text": "Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Against what should agrochemicals be issued?",
+   "options": [
+    {
+     "text": "A phone message from a friend",
+     "correct": false
+    },
+    {
+     "text": "No paperwork is needed",
+     "correct": false
+    },
+    {
+     "text": "A written, signed spray instruction",
+     "correct": true
+    },
+    {
+     "text": "A verbal request from anyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should herbicides be stored separately from other products?",
+   "options": [
+    {
+     "text": "They are lighter",
+     "correct": false
+    },
+    {
+     "text": "They do not need a label",
+     "correct": false
+    },
+    {
+     "text": "Using one by mistake can destroy a crop",
+     "correct": true
+    },
+    {
+     "text": "They are cheaper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What may a difference between the stock count and the register mean?",
+   "options": [
+    {
+     "text": "Theft, spills or recording mistakes",
+     "correct": true
+    },
+    {
+     "text": "Nothing at all",
+     "correct": false
+    },
+    {
+     "text": "The products grew",
+     "correct": false
+    },
+    {
+     "text": "The register is always wrong",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first if there is a chemical spill in the store?",
+   "options": [
+    {
+     "text": "Leave it for tomorrow",
+     "correct": false
+    },
+    {
+     "text": "Wash it down the drain",
+     "correct": false
+    },
+    {
+     "text": "Cover it with feed bags",
+     "correct": false
+    },
+    {
+     "text": "Warn others and keep them away",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "PPE should be stored inside the chemical store next to the products.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Expired agrochemicals should be returned to the supplier or disposed of through a licensed hazardous waste contractor.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details belong in the stock register? (select all that apply)",
+   "options": [
+    {
+     "text": "The sprayer operator's shoe size",
+     "correct": false
+    },
+    {
+     "text": "Receipts with date and quantity",
+     "correct": true
+    },
+    {
+     "text": "Issues with block and person",
+     "correct": true
+    },
+    {
+     "text": "Balance on hand",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

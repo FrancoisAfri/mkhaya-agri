@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119382",
+ "title": "Apply health management practices for poultry",
+ "lessons": [
+  {
+   "title": "Healthy and sick birds",
+   "minutes": 15,
+   "html": "<h3>Knowing what healthy looks like</h3><p>To keep chickens healthy, you must first know what a healthy bird looks like. Then you can quickly see when something is wrong. Walk through the house slowly at least twice a day and look, listen and smell.</p><h4>A healthy flock</h4><ul><li>Birds are active, alert and spread evenly through the house.</li><li>They eat and drink normally.</li><li>Eyes are bright and clear; nostrils are clean.</li><li>Feathers are smooth and clean.</li><li>Breathing is quiet.</li><li>Droppings are firm, brown with a white cap.</li><li>The house smells fresh, not of ammonia.</li></ul><h4>Signs of a sick bird</h4><ul><li>Sits alone, does not move, feathers ruffled, eyes closed</li><li>Does not eat or drink</li><li>Coughing, sneezing, rattling breath, breathing with beak open</li><li>Runny or bloody droppings, dirty vent</li><li>Swollen head, eyes or joints</li><li>Lame, cannot walk, twisted neck</li><li>Pale or blue comb</li></ul><h4>Signs in the whole flock</h4><p>Watch the numbers. More dead birds than normal, birds drinking or eating less, or a drop in egg production can be the first sign of disease. Write down the numbers every day and tell your supervisor if they change.</p><h4>Report quickly</h4><p>Some poultry diseases, such as avian influenza and Newcastle disease, spread very fast and must be reported to the state vet under the Animal Diseases Act 35 of 1984. If many birds die suddenly, tell your supervisor at once. Do not move birds, equipment or people to other houses until you are told it is safe.</p><h4>Example</h4><p>On her morning walk a worker notices birds in one corner standing with eyes closed and feathers ruffled, and droppings that are runny. She tells her supervisor straight away, who calls the vet.</p>"
+  },
+  {
+   "title": "Preventing disease",
+   "minutes": 15,
+   "html": "<h3>Prevention is better than cure</h3><p>It is much cheaper and easier to stop disease than to treat it. Good health management uses many steps together.</p><h4>Biosecurity</h4><ul><li>Only people who work in the house may go in.</li><li>Use the footbath and wash hands before entering.</li><li>Wear the clothes and boots for that house only.</li><li>Keep wild birds, rats and other animals out.</li><li>Do not keep your own chickens at home if the farm rules say no; they can carry disease to work.</li><li>Never bring birds or eggs from outside onto the farm.</li></ul><h4>Good management</h4><ul><li>Correct temperature and good airflow. Too hot, too cold or bad air make birds sick.</li><li>Clean, fresh water every day.</li><li>The right feed for the age of the birds.</li><li>Dry litter. Wet litter causes foot problems, ammonia and disease. Fix leaking drinkers.</li><li>The right number of birds per house. Overcrowding causes stress and disease.</li></ul><h4>Vaccination</h4><p>Vaccines protect birds against diseases like Newcastle disease and Gumboro. The vet sets the vaccination programme. Vaccines must be kept cold and used exactly as instructed. Only trained workers give vaccines.</p><h4>Clean between flocks</h4><p>After each flock leaves, the house is cleaned and disinfected and rested before new chicks arrive. This breaks the cycle of disease.</p><h4>Removing dead birds</h4><p>Pick up dead birds at least daily. Put them in the closed bin or the disposal system the farm uses. Wash your hands after. Dead birds left in the house spread disease and attract flies and rats.</p><p>Every worker plays a part. One person who skips the footbath can bring disease to the whole house.</p>"
+  },
+  {
+   "title": "Treating birds and keeping records",
+   "minutes": 15,
+   "html": "<h3>Following the vet's instructions</h3><h4>Treatment</h4><p>When birds are sick, the vet decides what is wrong and what treatment to give. The treatment is often given in the drinking water or feed. Your supervisor tells you what to do.</p><ul><li>Use only the medicine the vet or supervisor gives you.</li><li>Use the exact amount and for the exact number of days on the instructions. Do not stop early.</li><li>Mix medicine in water as instructed and make sure all birds can drink.</li><li>Wear gloves and other protective clothing the label asks for.</li><li>Wash your hands after handling medicines.</li></ul><h4>Withdrawal period</h4><p>After some medicines, there is a <strong>withdrawal period</strong>. During this time, the meat or eggs may not be sold for food, because there may still be medicine in them. The label or vet gives the withdrawal period. Write down the date treatment stopped so everyone knows when the birds or eggs may be sold.</p><h4>Sick and injured birds</h4><p>Sick or injured birds that will not get better must be culled (killed) quickly and humanely by a trained person, using the farm's approved method. Never leave a suffering bird. Cruelty to animals is an offence under the Animals Protection Act 71 of 1962.</p><h4>Records</h4><table><tr><th>Record</th><th>What to write</th></tr><tr><td>Daily mortality</td><td>Date, house, number dead, number culled</td></tr><tr><td>Feed and water</td><td>Amounts used each day</td></tr><tr><td>Vaccination</td><td>Date, vaccine, batch number, method, who gave it</td></tr><tr><td>Treatment</td><td>Date, medicine, dose, days, withdrawal end date</td></tr></table><p>Write neatly and on time. Records help the vet find the cause of problems.</p><h4>Key points</h4><ul><li>Walk the house at least twice a day and know the signs of sick birds.</li><li>Report sudden deaths at once; some diseases must be reported to the state vet.</li><li>Biosecurity, good management, vaccination and cleaning prevent disease.</li><li>Give medicine exactly as the vet instructs and respect withdrawal periods.</li><li>Record mortality, feed, water, vaccinations and treatments every day.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do healthy chicken droppings usually look like?",
+   "options": [
+    {
+     "text": "Firm, brown with a white cap",
+     "correct": true
+    },
+    {
+     "text": "Bloody",
+     "correct": false
+    },
+    {
+     "text": "Very watery and green",
+     "correct": false
+    },
+    {
+     "text": "Black and runny",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if many birds die suddenly?",
+   "options": [
+    {
+     "text": "Wait a few days",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor at once and do not move birds or equipment",
+     "correct": true
+    },
+    {
+     "text": "Move the birds to another house",
+     "correct": false
+    },
+    {
+     "text": "Sell the birds quickly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes ammonia smell and foot problems in a chicken house?",
+   "options": [
+    {
+     "text": "Too much light",
+     "correct": false
+    },
+    {
+     "text": "Clean water",
+     "correct": false
+    },
+    {
+     "text": "Wet litter",
+     "correct": true
+    },
+    {
+     "text": "Fresh air",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a withdrawal period?",
+   "options": [
+    {
+     "text": "The time to clean the house",
+     "correct": false
+    },
+    {
+     "text": "The time between flocks",
+     "correct": false
+    },
+    {
+     "text": "The time birds are not fed before slaughter",
+     "correct": false
+    },
+    {
+     "text": "The time after treatment when meat or eggs may not be sold for food",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who decides what treatment sick birds receive?",
+   "options": [
+    {
+     "text": "The vet",
+     "correct": true
+    },
+    {
+     "text": "Any worker",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The neighbour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may stop giving medicine early if the birds look better.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Vaccines must be kept cold and used exactly as instructed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are biosecurity practices? (select all that apply)",
+   "options": [
+    {
+     "text": "Using the footbath before entering",
+     "correct": true
+    },
+    {
+     "text": "Keeping wild birds and rats out",
+     "correct": true
+    },
+    {
+     "text": "Wearing clothes and boots for that house only",
+     "correct": true
+    },
+    {
+     "text": "Bringing chickens from home to the farm",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

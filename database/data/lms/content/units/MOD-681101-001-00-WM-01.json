@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-WM-01",
+ "title": "Abattoir Sanitising and Personal Hygiene",
+ "lessons": [
+  {
+   "title": "Personal hygiene on the job",
+   "minutes": 15,
+   "html": "<h3>Learning in the workplace</h3><p>This work experience module happens on the job, under a supervisor or mentor. You will practise personal hygiene and sanitising every day, and your supervisor will sign your logbook when you show you can do it properly. This lesson tells you what you will be checked on.</p><h3>Starting your shift</h3><ol><li>Arrive clean: shower, clean short nails, no nail polish or false nails.</li><li>Remove all jewellery, watches, earrings and piercings. Leave phones in the locker.</li><li>Change into clean protective clothing in the change room: overall or coat, apron, hair net (and beard cover if needed), boots.</li><li>Report any illness, diarrhoea, vomiting, fever, or infected cuts and sores to your supervisor before going onto the floor.</li><li>Walk through the footbath and boot wash at the entrance.</li><li>Wash your hands and forearms at the hand-wash station.</li></ol><h3>Hand washing, the right way</h3><ul><li>Wet hands and forearms with warm water.</li><li>Use soap and rub palms, backs of hands, between fingers, thumbs, nails and wrists.</li><li>Rinse well.</li><li>Dry with a paper towel and throw it in the bin.</li><li>Sterilise if your area requires it.</li></ul><h3>During the shift</h3><ul><li>Wash hands after touching the hide, gut contents, the floor, your face or hair, and after every break.</li><li>Never eat, drink, smoke, chew gum or spit in production areas.</li><li>Do not cough or sneeze over meat. Turn away.</li><li>If you cut yourself, stop, report, and get the cut cleaned and covered with a blue (easy to see) waterproof plaster and a glove.</li><li>Keep your protective clothing on in the plant, and take it off when you go to the toilet or outside.</li></ul><p>Your mentor will watch you and ask questions. Following these rules every time, without being reminded, is what earns your sign-off.</p>"
+  },
+  {
+   "title": "Sanitising your area and tools",
+   "minutes": 15,
+   "html": "<h3>Workplace tasks</h3><p>During work experience you will also clean and sanitise your work area and tools. Your supervisor will check that you follow the abattoir's cleaning procedure and safety rules.</p><h3>Tools and personal equipment</h3><ul><li><strong>Knives</strong>: sterilise in the hot water steriliser between carcasses and whenever contaminated. Use the two-knife system.</li><li><strong>Steel and scabbard</strong>: wash and sanitise at the end of each shift and whenever they get dirty.</li><li><strong>Mesh glove and apron</strong>: wash with warm water and detergent, rinse, sanitise and hang to dry.</li><li><strong>Boots</strong>: wash at the boot wash before leaving and entering.</li></ul><h3>Work area</h3><p>Use the standard steps:</p><ol><li>Dry clean: remove solid waste.</li><li>Rinse with warm water.</li><li>Apply detergent and scrub.</li><li>Rinse.</li><li>Sanitise at the correct strength.</li><li>Inspect and record.</li></ol><h3>Working with chemicals</h3><ul><li>Use only the chemicals supplied, in labelled containers.</li><li>Measure them as instructed. Too weak does not work; too strong is dangerous and wasteful.</li><li>Wear gloves, goggles and an apron.</li><li>Never mix chemicals.</li><li>Rinse surfaces that touch meat after using chemicals, when the label says so.</li></ul><h3>Record keeping</h3><p>Sign the cleaning checklist after each task. In your logbook, record what you did and when, and ask your supervisor to sign it.</p><h3>What your mentor looks for</h3><table><tr><th>Area</th><th>Evidence</th></tr><tr><td>Hand washing</td><td>Correct method, at the right times</td></tr><tr><td>Clothing</td><td>Clean, complete, no jewellery</td></tr><tr><td>Tools</td><td>Sterilised and stored correctly</td></tr><tr><td>Cleaning</td><td>Steps in order, area left clean</td></tr><tr><td>Safety</td><td>PPE worn, chemicals handled correctly</td></tr></table><h4>Key points</h4><ul><li>Arrive clean, remove jewellery and report illness before starting.</li><li>Wash hands correctly and often.</li><li>Sterilise knives and clean all personal equipment.</li><li>Follow the cleaning steps and never mix chemicals.</li><li>Record your work and get your logbook signed.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do with your watch before going onto the slaughter floor?",
+   "options": [
+    {
+     "text": "Remove it and leave it in the locker",
+     "correct": true
+    },
+    {
+     "text": "Wear it under your glove",
+     "correct": false
+    },
+    {
+     "text": "Put it in your apron pocket",
+     "correct": false
+    },
+    {
+     "text": "Tie it to your boot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When must you report diarrhoea to your supervisor?",
+   "options": [
+    {
+     "text": "After the shift",
+     "correct": false
+    },
+    {
+     "text": "Before going onto the floor",
+     "correct": true
+    },
+    {
+     "text": "Only if it lasts a week",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you dry your hands after washing?",
+   "options": [
+    {
+     "text": "With a paper towel, then throw it in the bin",
+     "correct": true
+    },
+    {
+     "text": "On your apron",
+     "correct": false
+    },
+    {
+     "text": "By shaking them",
+     "correct": false
+    },
+    {
+     "text": "On a shared cloth",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are blue waterproof plasters used?",
+   "options": [
+    {
+     "text": "They are cheaper",
+     "correct": false
+    },
+    {
+     "text": "They heal faster",
+     "correct": false
+    },
+    {
+     "text": "They match the uniform",
+     "correct": false
+    },
+    {
+     "text": "They are easy to see if one falls into the meat",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if a cleaning chemical is mixed too weak?",
+   "options": [
+    {
+     "text": "It works better",
+     "correct": false
+    },
+    {
+     "text": "It becomes poisonous",
+     "correct": false
+    },
+    {
+     "text": "It does not work properly",
+     "correct": true
+    },
+    {
+     "text": "It dries faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should take off your protective clothing when you go to the toilet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chewing gum on the slaughter floor is allowed if you keep your mouth closed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which will your mentor check for sign-off? (select all that apply)",
+   "options": [
+    {
+     "text": "Tools sterilised and stored correctly",
+     "correct": true
+    },
+    {
+     "text": "Clean, complete protective clothing",
+     "correct": true
+    },
+    {
+     "text": "How fast you can run",
+     "correct": false
+    },
+    {
+     "text": "Correct hand washing at the right times",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335726",
+ "title": "Conduct a horse trail of up to one day",
+ "lessons": [
+  {
+   "title": "Leading the ride",
+   "minutes": 20,
+   "html": "<h3>Before leaving the yard</h3>\n<p>Do a final check: all clients mounted, helmets fastened, stirrups and girths checked, saddle bags packed, phones charged, and base informed of the route and return time. Count the riders.</p>\n<h3>Guide positions</h3>\n<ul>\n<li><strong>Lead guide:</strong> sets the pace, chooses the line, warns of hazards and decides on stops and gaits.</li>\n<li><strong>Back guide (tail rider):</strong> watches the whole group, helps riders who fall behind, closes gates, and keeps contact with the lead by voice or radio.</li>\n<li>For larger groups, a middle guide may help. A typical ratio is one guide for every few novice riders; follow your yard's policy.</li>\n</ul>\n<h3>Managing the pace</h3>\n<ul>\n<li>Ride at the pace of the least experienced rider.</li>\n<li>Walk the first and last part of the ride to warm up and cool down the horses.</li>\n<li>Only trot or canter where the ground is safe and visible, uphill where possible, and only with riders who have shown they can cope. Warn the group before changing pace, and give those who want to walk the option.</li>\n<li>Keep one horse length between horses. A red ribbon on a horse's tail warns that it may kick.</li>\n</ul>\n<h3>Communication</h3>\n<p>Pass warnings down the line: \"Low branch!\", \"Hole on the left!\", \"Walking!\" Check on clients often. Tell stories about the area, the veld, birds and wildlife: it is part of the experience and keeps riders relaxed.</p>\n<h3>Hazards on the trail</h3>\n<table><tr><th>Hazard</th><th>Action</th></tr>\n<tr><td>Steep slopes</td><td>Walk; lean forward uphill, stay balanced downhill; dismount if very steep</td></tr>\n<tr><td>River crossings</td><td>Check depth and bottom first; let horses drink but not roll</td></tr>\n<tr><td>Roads</td><td>Cross together at a right angle, guide stops traffic if safe</td></tr>\n<tr><td>Game and livestock</td><td>Keep distance; buffalo, ostriches and bulls can be dangerous</td></tr>\n<tr><td>Snakes and bees</td><td>Steer clear; move group away calmly</td></tr>\n<tr><td>Storms</td><td>Watch the sky; avoid ridges and lone trees in lightning</td></tr></table>"
+  },
+  {
+   "title": "Breaks, emergencies and finishing the ride",
+   "minutes": 20,
+   "html": "<h3>Breaks</h3>\n<ul>\n<li>Plan rest stops at shade and water every hour or two on long rides.</li>\n<li>Dismount clients in a safe, open area away from roads and cliffs.</li>\n<li>Loosen girths, run up stirrups and let horses drink. Hold or tie horses with headcollars and lead ropes using quick-release knots, well spaced so they cannot kick each other.</li>\n<li>Make sure clients drink water and use sunscreen.</li>\n<li>Remove all litter; leave no trace.</li>\n</ul>\n<h3>Emergencies</h3>\n<h4>A rider falls</h4>\n<ol>\n<li>Call \"Stop!\" and halt the whole group.</li>\n<li>One guide goes to the rider; the other controls the group and the loose horse.</li>\n<li>Check for danger, response and breathing. Do not move the rider if a neck or back injury is suspected.</li>\n<li>Give first aid within your training and call for help (10177 or 112) with a clear location.</li>\n<li>Only remount the rider if they are uninjured and willing; consider leading their horse.</li>\n</ol>\n<h4>A horse is injured or lame</h4>\n<p>Dismount, check the injury, lead the horse slowly and call base for a horsebox if needed. Put the client on a spare or guide's horse if available.</p>\n<h4>A horse bolts</h4>\n<p>Stop the rest of the group. Do not chase it, which makes the horse run faster. Shout clear instructions: \"Sit back, turn its head in a big circle.\"</p>\n<h3>Finishing the ride</h3>\n<ul>\n<li>Walk the last stretch so horses arrive cool and calm.</li>\n<li>Help clients dismount and thank them.</li>\n<li>Untack, check horses for injuries, girth rubs and loose shoes, wash or brush down, water and feed.</li>\n<li>Record the ride: clients, horses, route, times, incidents and any horse problems.</li>\n<li>Report incidents in the incident register and to the manager.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>A lead guide sets the pace; a back guide watches the group.</li>\n<li>Ride at the pace of the least experienced rider.</li>\n<li>Pass warnings down the line and keep one horse length apart.</li>\n<li>If a rider falls, stop the group and check before moving them.</li>\n<li>Never chase a bolting horse.</li>\n<li>Check horses after the ride and record incidents.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who sets the pace on a trail ride?",
+   "options": [
+    {
+     "text": "The lead guide",
+     "correct": true
+    },
+    {
+     "text": "The fastest client",
+     "correct": false
+    },
+    {
+     "text": "The back guide",
+     "correct": false
+    },
+    {
+     "text": "The horse at the back",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "At whose pace should the ride go?",
+   "options": [
+    {
+     "text": "The fastest rider",
+     "correct": false
+    },
+    {
+     "text": "The guide's favourite horse",
+     "correct": false
+    },
+    {
+     "text": "The least experienced rider",
+     "correct": true
+    },
+    {
+     "text": "Whoever is in front",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a red ribbon on a horse's tail mean?",
+   "options": [
+    {
+     "text": "It is a show winner",
+     "correct": false
+    },
+    {
+     "text": "It may kick",
+     "correct": true
+    },
+    {
+     "text": "It is a beginner horse",
+     "correct": false
+    },
+    {
+     "text": "It is for sale",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a horse bolts?",
+   "options": [
+    {
+     "text": "Chase it at a gallop",
+     "correct": false
+    },
+    {
+     "text": "Let all horses gallop after it",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Stop the group and do not chase it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you avoid being during a lightning storm?",
+   "options": [
+    {
+     "text": "Ridges and under lone trees",
+     "correct": true
+    },
+    {
+     "text": "Low open ground away from trees",
+     "correct": false
+    },
+    {
+     "text": "Inside a building",
+     "correct": false
+    },
+    {
+     "text": "In a vehicle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If a rider falls with suspected neck injury, you should sit them up immediately.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Horses should be walked for the last stretch so they arrive cool and calm.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be done at rest stops? (select all that apply)",
+   "options": [
+    {
+     "text": "Loosen girths and let horses drink",
+     "correct": true
+    },
+    {
+     "text": "Tie horses with quick-release knots, well spaced",
+     "correct": true
+    },
+    {
+     "text": "Leave litter behind",
+     "correct": false
+    },
+    {
+     "text": "Make sure clients drink water",
+     "correct": true
+    },
+    {
+     "text": "Let horses roll in their saddles",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

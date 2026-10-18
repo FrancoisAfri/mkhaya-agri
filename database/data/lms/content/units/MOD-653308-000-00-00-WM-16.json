@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-16",
+ "title": "Diagnosis and Repair of Tractor Mechanical and Accessory Systems",
+ "lessons": [
+  {
+   "title": "Mechanical and accessory systems on a tractor",
+   "minutes": 20,
+   "html": "<h3>What falls under this module</h3> <p>Apart from the engine, drivetrain, hydraulics and brakes, a tractor has many mechanical and accessory systems that keep it working and safe. These include:</p> <ul> <li>The three-point linkage parts: lift arms, lower links, top link, stabilisers, check chains and draw bar.</li> <li>Front-end loader frames, brackets and quick-attach mechanisms.</li> <li>The cab and ROPS (roll-over protective structure), seats, seat belts, doors, windows and wipers.</li> <li>Air-conditioning and heating systems.</li> <li>Wheels, rims, wheel weights and ballast, and track width adjustment.</li> <li>PTO guards, mudguards, steps and handrails.</li> </ul> <p>Faults here are often treated as small things, but a missing PTO guard, a cracked ROPS or a broken seat belt can cost a life. Many farm deaths in South Africa involve tractor roll-overs and PTO entanglement.</p> <h4>Safety rules</h4> <ul> <li>Never weld, drill or modify a ROPS or cab frame. A damaged ROPS must be replaced with a certified part as the manufacturer requires.</li> <li>Support lift arms and loader arms mechanically before working under them. Use the loader's service lock if fitted.</li> <li>Tractor wheels and tyres are heavy. Use a wheel dolly or hoist and never stand in front of a tyre being inflated after fitting; split rims can fly apart. Use an inflation cage where available.</li> <li>Air-conditioning refrigerant must only be handled with proper recovery equipment by a person trained and authorised to do so. Never vent refrigerant into the air.</li> </ul> <h4>A diagnostic approach</h4> <ol> <li>Confirm the complaint and look at the system working.</li> <li>Inspect for wear, cracks, bending, missing pins and loose bolts.</li> <li>Measure wear against limits in the manual: pin and bush clearance, wheel bearing play, linkage play.</li> <li>Find the cause: wear, overloading, poor lubrication or accident damage.</li> </ol>"
+  },
+  {
+   "title": "Diagnosing and repairing common faults",
+   "minutes": 20,
+   "html": "<h3>Three-point linkage and drawbar</h3> <ul> <li>Worn pins and ball ends cause implement sway and uneven work. Measure and replace worn parts with the correct category size.</li> <li>Check lift rods and levelling boxes for bending and free movement. Grease all grease points.</li> <li>Check stabilisers and check chains so implements do not swing into the rear tyres.</li> <li>Inspect the drawbar and hitch pins for cracks. Use only the correct pin with a locking clip.</li> </ul> <h3>Front-end loader</h3> <ul> <li>Look for cracks in welds near brackets and pivot points. Report cracks; structural welding must be done by a qualified welder following the manufacturer's guidance.</li> <li>Replace worn pivot pins and bushes. Check the quick-attach locking mechanism engages fully.</li> </ul> <h3>Wheels and ballast</h3> <ul> <li>Check wheel nuts are tightened to the manual torque, and recheck after the first hours of work when wheels have been removed.</li> <li>Check wheel bearing play on front axles and adjust or replace as the manual describes.</li> <li>Set ballast and wheel track for the job: a tractor with a heavy mounted implement needs front ballast to keep steering control.</li> </ul> <h3>Cab, seat and controls</h3> <ul> <li>Repair seat suspension and replace damaged seat belts. Drivers should wear the belt whenever the ROPS is up.</li> <li>Fix door latches, mirrors, wipers and windows so the driver can see properly.</li> <li>Clean or replace cab air filters; dusty farm conditions block them quickly, and the driver then breathes dust.</li> </ul> <h3>Air-conditioning (basic checks)</h3> <p>Check that the condenser is clean of chaff, the belt is tight, the compressor clutch engages and the cab filter is clear. If refrigerant work is needed, refer it to an authorised technician with recovery equipment. Do not overfill or \"top up\" refrigerant from a can.</p> <h3>Guards</h3> <p>Refit or replace every PTO shield, belt guard and fan guard removed during a repair. A tractor does not leave the workshop without its guards.</p>"
+  },
+  {
+   "title": "Testing, handover and records",
+   "minutes": 15,
+   "html": "<h3>Testing the repair</h3> <ul> <li>Operate the linkage through its full range with an implement fitted. Check for sway, binding and contact with tyres.</li> <li>Test the loader through full lift and tilt with a bucket, and check that the quick-attach locks.</li> <li>Drive the tractor and check steering feel with the ballast fitted.</li> <li>Test cab functions: lights, wipers, air-conditioning, doors and seat.</li> <li>Check every guard is fitted and secure.</li> </ul> <h3>Giving advice to the client</h3> <p>Many mechanical faults come from how the tractor is used. Explain causes simply. For example: \"These linkage pins wore out because they were not greased. Please grease them every day during ploughing season.\" Or: \"The loader bracket cracked from lifting round bales that are too heavy; please keep to the loader's rated capacity.\"</p> <h3>Recording the job</h3> <table> <tr><th>Record</th><th>Example</th></tr> <tr><td>Complaint</td><td>Plough sways sideways and hits right tyre</td></tr> <tr><td>Findings</td><td>Stabiliser broken; lower link ball worn beyond limit</td></tr> <tr><td>Work done</td><td>Replaced stabiliser and ball ends, greased linkage</td></tr> <tr><td>Parts and time</td><td>Part numbers, quantities, hours worked</td></tr> <tr><td>Test and sign-off</td><td>Tested with plough fitted; signed by mechanic and supervisor</td></tr> </table> <p>Records help the farm plan services and warn of repeat problems, such as the same bracket cracking every season.</p> <h4>Key points</h4> <ul> <li>Never weld or modify a ROPS; replace it if damaged.</li> <li>Support lift and loader arms mechanically before working under them.</li> <li>Use an inflation cage and stand clear when inflating fitted tyres.</li> <li>Refrigerant work is only for authorised technicians with recovery equipment.</li> <li>Refit all guards, test the repair and advise the client on the cause.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should be done with a cracked ROPS frame?",
+   "options": [
+    {
+     "text": "Drill and bolt a plate over it",
+     "correct": false
+    },
+    {
+     "text": "Leave it, it is only part of the cab",
+     "correct": false
+    },
+    {
+     "text": "Weld it carefully",
+     "correct": false
+    },
+    {
+     "text": "Replace it with a certified part as the manufacturer requires",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a common result of worn three-point linkage pins and ball ends?",
+   "options": [
+    {
+     "text": "Higher fuel use only",
+     "correct": false
+    },
+    {
+     "text": "Electrical faults",
+     "correct": false
+    },
+    {
+     "text": "Implement sway and uneven work",
+     "correct": true
+    },
+    {
+     "text": "Better ploughing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does a tractor carrying a heavy rear-mounted implement need front ballast?",
+   "options": [
+    {
+     "text": "To keep steering control",
+     "correct": true
+    },
+    {
+     "text": "To charge the battery",
+     "correct": false
+    },
+    {
+     "text": "To cool the engine",
+     "correct": false
+    },
+    {
+     "text": "To increase top speed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who should handle air-conditioning refrigerant?",
+   "options": [
+    {
+     "text": "Nobody; vent it into the air",
+     "correct": false
+    },
+    {
+     "text": "The tractor driver",
+     "correct": false
+    },
+    {
+     "text": "A trained, authorised technician using recovery equipment",
+     "correct": true
+    },
+    {
+     "text": "Any worker with a top-up can",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When must wheel nuts be rechecked after wheels have been removed and refitted?",
+   "options": [
+    {
+     "text": "After the first hours of work",
+     "correct": true
+    },
+    {
+     "text": "Only if the tyre goes flat",
+     "correct": false
+    },
+    {
+     "text": "Only at the annual service",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A tractor may leave the workshop without its PTO shield if the farmer is in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should stand clear and use an inflation cage when inflating a fitted tractor tyre.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be checked when testing a front-end loader repair? (select all that apply)",
+   "options": [
+    {
+     "text": "Full lift and tilt with a bucket",
+     "correct": true
+    },
+    {
+     "text": "Cracks near brackets and pivots",
+     "correct": true
+    },
+    {
+     "text": "That the quick-attach locks fully",
+     "correct": true
+    },
+    {
+     "text": "The radio station settings",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

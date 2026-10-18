@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-PM-02",
+ "title": "Apply viticulture production practices in an established vineyard and attend to basic vine health",
+ "lessons": [
+  {
+   "title": "Pruning an established vine",
+   "minutes": 15,
+   "html": "<h3>Winter pruning in practice</h3> <p>In winter you prune the vines in your rows as the supervisor shows you. Pruning decides how many grapes the vine will carry next season, so each cut matters.</p> <h4>Before you start</h4> <ul> <li>Check that your secateurs are sharp, clean and oiled.</li> <li>Wear gloves and safety glasses. Keep your other hand away from the blades.</li> <li>Find out the pruning method for this block: spur or cane pruning, and how many buds to leave.</li> </ul> <h4>Spur pruning steps</h4> <ol> <li>Look at the whole vine first. Find the cordon (arm) and the canes growing from it.</li> <li>At each spur position, choose the best cane: healthy, pencil thick, growing in the right direction, low on the old spur.</li> <li>Cut it back to the number of buds you were told, usually about two. Cut a little above the top bud, at a slight slope away from the bud.</li> <li>Cut away the other canes at that position cleanly.</li> <li>Remove dead wood, old stubs and tendrils on the wire.</li> <li>Do not leave spurs too close together or too far apart.</li> </ol> <h4>Cane pruning steps</h4> <ol> <li>Choose one or two good canes near the head of the vine.</li> <li>Cut them to the length or bud number shown.</li> <li>Leave a short spur near the base for next year's cane, if instructed.</li> <li>Remove all other canes, and tie the kept canes to the wire later.</li> </ol> <h4>Quality checks</h4> <p>Your supervisor will check your vines. Good pruning looks the same on every vine. Poor pruning leaves too many buds (too many small bunches) or too few (low crop). After pruning, prunings are pulled out of the wires and left in the row middle for mulching, or removed.</p>"
+  },
+  {
+   "title": "Spring and summer work on the vine",
+   "minutes": 15,
+   "html": "<h3>Working with the green vine</h3> <h4>Suckering and shoot thinning (spring)</h4> <ul> <li>Break off suckers growing from the trunk and from below the graft, when they are still soft. Pull them down and away cleanly.</li> <li>Remove double shoots from one bud, and shoots in the wrong place, as shown.</li> <li>Leave the shoots that carry bunches and are in the right place.</li> </ul> <h4>Shoot positioning and tying</h4> <ul> <li>Lift the foliage wires and tuck shoots between them so they grow upright.</li> <li>Work gently. Young shoots break easily at the base.</li> <li>Tie canes or young vines to the wire with the ties provided. Do not tie too tightly; the vine grows thicker.</li> </ul> <h4>Topping and leaf removal</h4> <ul> <li>Cut long shoot tips at the height given, by hand or with a machine.</li> <li>Remove leaves around the bunches on the side shown, usually the side that gets morning sun. Do not take too many, or the grapes can get sunburn.</li> </ul> <h4>Bunch and berry work</h4> <ul> <li>Remove extra bunches when you are told, for example small bunches or bunches touching each other.</li> <li>On table grapes, you may thin berries inside bunches with small scissors so the bunch has the right shape and berry size. Follow the example bunch your supervisor shows you.</li> </ul> <h4>Irrigation and weeds</h4> <ul> <li>Walk the rows and check drippers. Unblock or report blocked drippers and leaking pipes.</li> <li>Hoe or pull weeds in the vine row as instructed. Do not damage pipes or trunks.</li> </ul> <p>Keep a steady pace. Quality is more important than speed. If you are paid per row or per task, the work must still pass the quality check.</p>"
+  },
+  {
+   "title": "Looking after vine health",
+   "minutes": 15,
+   "html": "<h3>Healthy vines, good grapes</h3> <p>Workers are the eyes of the farm. You see the vines every day, so you can find problems early.</p> <h4>What to look for</h4> <table> <tr><th>What you see</th><th>Possible problem</th></tr> <tr><td>White-grey powder on leaves or berries</td><td>Powdery mildew</td></tr> <tr><td>Yellow oily spots on leaves, white fluff underneath</td><td>Downy mildew</td></tr> <tr><td>Grey furry mould on bunches</td><td>Botrytis bunch rot</td></tr> <tr><td>Small white insects, sticky leaves, black mould, many ants</td><td>Mealybug</td></tr> <tr><td>Eaten buds and young shoots</td><td>Snout beetle or other pests</td></tr> <tr><td>Wilting vine, dying arms</td><td>Water problem or trunk disease</td></tr> </table> <h4>How to scout</h4> <ol> <li>Walk the rows you were given.</li> <li>Look at leaves on top and underneath, shoots, bunches and the trunk.</li> <li>Write down the block, row and vine number, what you saw and how many vines have it.</li> <li>Mark the vine with tape if you are told to.</li> <li>Tell your supervisor the same day.</li> </ol> <h4>Helping with control</h4> <ul> <li>Put ant bands or glue around trunks if instructed, to stop ants protecting mealybug.</li> <li>Cut out and remove diseased bunches or wood as shown, and clean your secateurs afterwards.</li> <li>Help keep the canopy open so leaves dry fast.</li> </ul> <h4>Chemical safety</h4> <ul> <li>Only trained workers mix and spray. Never mix or spray on your own.</li> <li>Obey red flags and spray signs. Do not enter until the re-entry time is over and your supervisor allows it.</li> <li>If you help, wear all PPE you are given and wash well afterwards.</li> <li>Never eat or smoke while working with chemicals.</li> </ul> <h4>Key points</h4> <ul> <li>Use sharp, clean secateurs and cut a little above the bud.</li> <li>Remove suckers early and position shoots gently.</li> <li>Do not remove too many leaves; grapes can get sunburn.</li> <li>Scout carefully and report block, row, what and how many.</li> <li>Obey spray signs; only trained workers mix and spray.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should you cut when pruning to a bud?",
+   "options": [
+    {
+     "text": "A little above the top bud",
+     "correct": true
+    },
+    {
+     "text": "At the bottom of the trunk",
+     "correct": false
+    },
+    {
+     "text": "Right through the bud",
+     "correct": false
+    },
+    {
+     "text": "Anywhere on the cane",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if you leave too many buds when pruning?",
+   "options": [
+    {
+     "text": "No grapes at all",
+     "correct": false
+    },
+    {
+     "text": "The trellis falls",
+     "correct": false
+    },
+    {
+     "text": "Too many small bunches",
+     "correct": true
+    },
+    {
+     "text": "The vine dies",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time to remove suckers?",
+   "options": [
+    {
+     "text": "After they are woody",
+     "correct": false
+    },
+    {
+     "text": "When they are still soft in spring",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "At harvest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Grey furry mould on bunches is a sign of what?",
+   "options": [
+    {
+     "text": "Too much water in the dam",
+     "correct": false
+    },
+    {
+     "text": "Frost",
+     "correct": false
+    },
+    {
+     "text": "Botrytis bunch rot",
+     "correct": true
+    },
+    {
+     "text": "Powdery mildew",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do farms put ant bands around trunks?",
+   "options": [
+    {
+     "text": "To mark the row",
+     "correct": false
+    },
+    {
+     "text": "To stop ants protecting mealybug",
+     "correct": true
+    },
+    {
+     "text": "To catch birds",
+     "correct": false
+    },
+    {
+     "text": "To hold the trunk up",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may mix and spray chemicals on their own if they have seen it done.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When removing leaves, taking too many can cause sunburn on the grapes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you write down when you find a vine health problem? (select all that apply)",
+   "options": [
+    {
+     "text": "Block and row number",
+     "correct": true
+    },
+    {
+     "text": "How many vines have it",
+     "correct": true
+    },
+    {
+     "text": "What you saw",
+     "correct": true
+    },
+    {
+     "text": "Your favourite cultivar",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

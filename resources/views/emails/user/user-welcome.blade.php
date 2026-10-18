@@ -43,7 +43,7 @@
       ⚠️ Please change your password after your first login.
     </div>
   </div>
-  <div class="footer">© {{ date('Y') }} Mkhaya Hub — This is an automated message.</div>
+  <div class="footer">© {{ date('Y') }} Mkhaya Agri — This is an automated message.</div>
 </div>
 </body>
 </html>

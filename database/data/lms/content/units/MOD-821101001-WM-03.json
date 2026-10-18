@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-WM-03",
+ "title": "Harvesting of grapes",
+ "lessons": [
+  {
+   "title": "A harvest day on the farm",
+   "minutes": 15,
+   "html": "<h3>Harvest is the busiest time</h3> <p>In this work experience you take part in the grape harvest on a real farm. Harvest is fast, hot and busy. Everyone must work together, safely and cleanly, so the grapes reach the cellar or packhouse in top condition.</p> <h4>Before the day starts</h4> <ul> <li>Picking often starts very early, in the cool of the morning. Grapes picked cool stay fresh.</li> <li>Sign in and attend the briefing. Listen for the block, the cultivar, and the quality rules for today.</li> <li>Collect clean crates, sharp picking secateurs and PPE.</li> <li>Wash your hands with soap.</li> <li>Tell the supervisor if you are sick or have an open wound.</li> </ul> <h4>During picking</h4> <ol> <li>Work in pairs or teams on both sides of the row.</li> <li>Pick every good bunch, including those under leaves.</li> <li>Leave out rotten or green bunches as instructed.</li> <li>Keep leaves, stones, snails and rubbish out of the crates.</li> <li>Fill crates only to the rim.</li> <li>Carry full crates to the collection point or trailer with a straight back.</li> </ol> <h4>Machine harvesting</h4> <p>Some wine farms use harvesting machines. Workers may then help by removing wires or clips, picking missed bunches, or sorting grapes. Never go near a harvester when it is moving. Make sure the driver knows where you are.</p> <h4>Safety during harvest</h4> <ul> <li>Fingers away from secateur blades. Cuts are the most common harvest injury.</li> <li>Drink water often. Report anyone who looks unwell in the heat.</li> <li>Stay clear of tractors and trailers. Never ride on a trailer of crates or bins.</li> <li>Watch for bees and wasps on ripe fruit.</li> <li>Report every injury, even small ones.</li> </ul>"
+  },
+  {
+   "title": "Quality, hygiene and the buyer",
+   "minutes": 15,
+   "html": "<h3>Why quality matters</h3> <p>The cellar or packhouse checks every load. Wine grapes with rot or too much MOG (material other than grapes) can be rejected or paid less. Table grapes for export must meet strict rules on size, colour, damage and cleanliness. Your careful picking protects the farm's income and jobs.</p> <h4>Food safety on the farm</h4> <p>Many buyers and export markets require farms to follow a food safety system and to be audited. Auditors look at whether:</p> <ul> <li>Toilets and hand-wash stations with soap and clean water are near the work.</li> <li>Workers wash hands and follow hygiene rules.</li> <li>Crates are clean and kept off the soil.</li> <li>No glass, jewellery or rubbish gets near the fruit.</li> <li>Sick workers do not handle fruit.</li> <li>Chemical withholding periods were kept before harvest.</li> </ul> <p>You play a part in passing these audits every day.</p> <h4>Quality checks you do</h4> <table> <tr><th>Check</th><th>What to do</th></tr> <tr><td>Rot or mould</td><td>Cut out or leave the bunch, as instructed</td></tr> <tr><td>Sunburnt or shrivelled berries</td><td>Remove if instructed</td></tr> <tr><td>Unripe (green) bunches</td><td>Leave on the vine if told</td></tr> <tr><td>MOG</td><td>Remove leaves, stones, insects, plastic</td></tr> <tr><td>Table grapes</td><td>Handle by the stem, keep the bloom, follow the colour and size guide</td></tr> </table> <h4>Personal hygiene checklist</h4><ul><li>Hands washed with soap before work, after breaks and after the toilet.</li><li>Small cuts covered with a plaster and glove.</li><li>No eating, smoking or spitting in the rows.</li><li>Clean clothes each day where possible.</li></ul><h4>Moving fruit quickly</h4> <p>Heat spoils grapes. Put full crates in the shade and help load them fast. Wine grapes should reach the cellar soon after picking; table grapes go to the cold store at the packhouse quickly.</p>"
+  },
+  {
+   "title": "Records, clean-up and sign-off",
+   "minutes": 15,
+   "html": "<h3>Counting and records</h3> <p>Harvest has many records:</p> <ul> <li>Crates or bins picked per worker or team, often with tickets or tags. This may be used for pay.</li> <li>Block, cultivar and date for each load.</li> <li>Weight of each load at the weighbridge or cellar.</li> <li>Quality results from the cellar or packhouse.</li> <li>Cleaning records for crates, toilets and hand-wash stations.</li> </ul> <p>Keep your tickets safe. If your count is wrong, tell your supervisor politely the same day. Never take another worker's tickets or crates.</p> <h3>After each day</h3> <ul> <li>Return secateurs, clean and dry.</li> <li>Wash empty crates as the farm instructs and stack them off the ground.</li> <li>Pick up rubbish and lost ties in the rows.</li> <li>Report damaged trellis, pipes and vines.</li> </ul> <h3>After the harvest season</h3> <p>The vines still need care: post-harvest irrigation, fertiliser if planned, and pest control. You may help with these and with sowing cover crops.</p> <h3>Your logbook and assessment</h3> <p>Write in your logbook each harvest day: date, block, cultivar, task, crates picked, and any problems. Your mentor signs it. At the end, the assessor may:</p> <ul> <li>Watch you pick and check your crates for quality.</li> <li>Ask why hygiene matters, what MOG is, or how to handle table grapes.</li> <li>Look at your logbook and records.</li> </ul> <p>Think about what you learnt: how could you pick faster while keeping quality? How could your team work better together?</p> <h4>Key points</h4> <ul> <li>Pick in the cool morning, carefully, and only to the rim of the crate.</li> <li>Follow hygiene rules: they protect consumers and help the farm pass audits.</li> <li>Keep MOG out and move fruit into the shade quickly.</li> <li>Stay away from moving harvesters, tractors and trailers.</li> <li>Keep tickets and your logbook correct and honest.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why does picking often start very early in the morning?",
+   "options": [
+    {
+     "text": "The birds are asleep",
+     "correct": false
+    },
+    {
+     "text": "Grapes picked cool stay fresh",
+     "correct": true
+    },
+    {
+     "text": "The cellar opens at night",
+     "correct": false
+    },
+    {
+     "text": "Workers are paid more",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the most common harvest injury?",
+   "options": [
+    {
+     "text": "Sunburn on grapes",
+     "correct": false
+    },
+    {
+     "text": "Cuts from secateurs",
+     "correct": true
+    },
+    {
+     "text": "Lost tickets",
+     "correct": false
+    },
+    {
+     "text": "Broken trellis",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What may happen to wine grapes with rot or too much MOG?",
+   "options": [
+    {
+     "text": "They are rejected or paid less",
+     "correct": true
+    },
+    {
+     "text": "They are sent back to the vine",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "They are paid more",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if your crate count is wrong?",
+   "options": [
+    {
+     "text": "Stop working",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor politely the same day",
+     "correct": true
+    },
+    {
+     "text": "Take another worker's tickets",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should full crates be put while waiting?",
+   "options": [
+    {
+     "text": "In the dam",
+     "correct": false
+    },
+    {
+     "text": "In the sun",
+     "correct": false
+    },
+    {
+     "text": "On the dirt road",
+     "correct": false
+    },
+    {
+     "text": "In the shade",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to walk next to a grape harvester while it is moving.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Auditors check that toilets and hand-wash stations are near the work.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which records are kept during harvest? (select all that apply)",
+   "options": [
+    {
+     "text": "Weight of each load",
+     "correct": true
+    },
+    {
+     "text": "Block, cultivar and date of each load",
+     "correct": true
+    },
+    {
+     "text": "Workers' favourite songs",
+     "correct": false
+    },
+    {
+     "text": "Crates picked per worker or team",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

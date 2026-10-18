@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119422",
+ "title": "Utilise health and safety principles in poultry processing",
+ "lessons": [
+  {
+   "title": "Health and safety at work",
+   "minutes": 15,
+   "html": "<h3>Your right to a safe workplace, and your duties</h3><p>A poultry processing plant has many dangers: sharp knives, fast machines, wet and slippery floors, hot water and steam, cold rooms, chemicals, noise, forklifts and electricity. Health and safety rules protect you and your co-workers.</p><h4>The law</h4><p>The Occupational Health and Safety Act 85 of 1993 (OHS Act) says the employer must provide a safe workplace, safe machines, training and protective equipment. It also says workers have duties:</p><ul><li>Look after your own health and safety and that of others.</li><li>Follow the safety rules and instructions.</li><li>Use the protective equipment you are given.</li><li>Report unsafe conditions and incidents to your supervisor or health and safety representative.</li><li>Do not interfere with or misuse safety equipment.</li></ul><h4>Health and safety representatives</h4><p>Workers elect health and safety representatives. They inspect the workplace, listen to concerns and take part in the health and safety committee. Know who your representative is.</p><h4>Hazard and risk</h4><p>A <strong>hazard</strong> is something that can cause harm, such as a wet floor. <strong>Risk</strong> is how likely it is that someone will be hurt and how badly. A wet floor near a busy door is a high risk. Cleaning it up and putting out a warning sign lowers the risk.</p><h4>Safety signs</h4><table><tr><th>Colour and shape</th><th>Meaning</th></tr><tr><td>Red circle</td><td>Do not do this (prohibition), for example No Smoking</td></tr><tr><td>Blue circle</td><td>You must do this, for example Wear Ear Protection</td></tr><tr><td>Yellow triangle</td><td>Warning, for example Slippery Floor</td></tr><tr><td>Green square</td><td>Safe condition, for example First Aid, Emergency Exit</td></tr></table>"
+  },
+  {
+   "title": "Hazards in the plant and how to stay safe",
+   "minutes": 15,
+   "html": "<h3>Know the dangers in your area</h3><h4>Knives and cuts</h4><ul><li>Keep knives sharp; a blunt knife needs more force and slips.</li><li>Wear the mesh glove or apron your job needs.</li><li>Cut away from your body.</li><li>Never try to catch a falling knife.</li><li>Carry knives pointing down and keep them in the holder or scabbard.</li></ul><h4>Machines</h4><ul><li>Never remove guards.</li><li>Never reach into a moving machine. Stop the machine with the emergency stop.</li><li>Only trained people may clear jams, after the machine is locked out.</li><li>Tie back long hair and do not wear loose clothing near machines.</li></ul><h4>Slips and falls</h4><p>Floors get wet with water, fat and blood. Wear non-slip boots, walk, do not run, keep walkways clear and report spills.</p><h4>Hot water, steam and cold</h4><p>Sterilisers and scalders can burn. Cold rooms can cause frostbite and cold stress. Wear the protective clothing given, take warm-up breaks and check that freezer doors open from the inside.</p><h4>Chemicals</h4><p>Cleaning chemicals can burn skin and eyes. Wear gloves and goggles, use only the right chemical at the right strength, never mix chemicals and never put chemicals in food or drink containers.</p><h4>Noise</h4><p>Some areas are very loud. Wear ear plugs or ear muffs where the sign says so. Noise damage to hearing cannot be fixed.</p><h4>Lifting and repetitive work</h4><p>Lift with your legs, not your back, keep the load close and get help for heavy loads. Many jobs repeat the same movement. Do stretching exercises and rotate tasks as your supervisor arranges. Report pain early.</p><h4>Forklifts</h4><p>Stay in walkways and keep away from forklifts. Only trained, licensed drivers may operate them.</p>"
+  },
+  {
+   "title": "Emergencies, first aid and reporting",
+   "minutes": 15,
+   "html": "<h3>What to do when something happens</h3><h4>Reporting incidents</h4><p>Report every injury, near miss and unsafe condition to your supervisor at once, even if it seems small. A near miss is when something almost caused an injury, like a box falling next to you. Reporting helps stop the next accident. Injuries at work must be recorded, and serious injuries are reported further by the employer. Injured workers may be covered under the Compensation for Occupational Injuries and Diseases Act (COIDA).</p><h4>Emergencies</h4><ul><li>Know where the emergency exits, assembly point, fire extinguishers and alarm buttons are.</li><li>When the alarm sounds, stop work, switch off your machine if it is safe, and walk to the assembly point. Do not go back for your things.</li><li>If you smell ammonia (a very sharp smell), leave the area at once and raise the alarm.</li><li>Only use a fire extinguisher if you are trained and the fire is small. Never put yourself in danger.</li></ul><h4>First aid</h4><p>Every plant has trained first aiders and first aid boxes. Know who they are.</p><ul><li><strong>Cuts</strong>: press on the wound with a clean cloth to stop bleeding, and call the first aider.</li><li><strong>Chemical in the eye</strong>: rinse with clean running water for at least 15 minutes and get help.</li><li><strong>Burns</strong>: cool the burn under cool running water for at least 10 to 20 minutes. Do not put butter, oil or toothpaste on it.</li><li><strong>Someone is not breathing</strong>: call for help, call the emergency number and the first aider. Only trained people should do CPR.</li><li>Wear gloves when you help someone who is bleeding, if you can.</li></ul><p>This lesson does not make you a first aider. To give first aid you need hands-on training by an accredited first aid training provider.</p><h4>Key points</h4><ul><li>The OHS Act 85 of 1993 gives the employer and workers duties for safety.</li><li>Never remove guards or reach into moving machines; use the emergency stop.</li><li>Wear the protective equipment for your job: mesh gloves, boots, ear protection, goggles.</li><li>Report every injury, near miss and unsafe condition at once.</li><li>Know the exits and assembly point; hands-on first aid training is needed to be a first aider.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law sets out health and safety duties for employers and workers?",
+   "options": [
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a blue circle safety sign mean?",
+   "options": [
+    {
+     "text": "Warning",
+     "correct": false
+    },
+    {
+     "text": "You must do this",
+     "correct": true
+    },
+    {
+     "text": "Do not do this",
+     "correct": false
+    },
+    {
+     "text": "Emergency exit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a knife falls?",
+   "options": [
+    {
+     "text": "Catch it quickly",
+     "correct": false
+    },
+    {
+     "text": "Kick it away",
+     "correct": false
+    },
+    {
+     "text": "Let it fall and step back",
+     "correct": true
+    },
+    {
+     "text": "Grab the blade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How long should you rinse an eye with a chemical in it?",
+   "options": [
+    {
+     "text": "10 seconds",
+     "correct": false
+    },
+    {
+     "text": "1 minute",
+     "correct": false
+    },
+    {
+     "text": "Only until it feels better",
+     "correct": false
+    },
+    {
+     "text": "At least 15 minutes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a near miss?",
+   "options": [
+    {
+     "text": "Something that almost caused an injury",
+     "correct": true
+    },
+    {
+     "text": "A finished shift",
+     "correct": false
+    },
+    {
+     "text": "A machine service",
+     "correct": false
+    },
+    {
+     "text": "A first aid box",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should put butter on a burn to cool it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When the alarm sounds you should walk to the assembly point and not go back for your things.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you do to stay safe around machines? (select all that apply)",
+   "options": [
+    {
+     "text": "Never remove guards",
+     "correct": true
+    },
+    {
+     "text": "Use the emergency stop instead of reaching in",
+     "correct": true
+    },
+    {
+     "text": "Wear loose clothing",
+     "correct": false
+    },
+    {
+     "text": "Tie back long hair",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119380",
+ "title": "Monitor the quality assurance in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "The quality assurance system in a poultry abattoir",
+   "minutes": 15,
+   "html": "<h3>What quality assurance means</h3><p>Quality assurance (QA) is the system that makes sure every carcass and portion leaving the abattoir is safe, wholesome and meets the customer's specification. In South Africa, abattoirs operate under the Meat Safety Act 40 of 2000 and its regulations, and work under the oversight of the provincial veterinary services and meat inspection staff. Most plants also run a HACCP-based food safety system, and many supply retailers who audit them against their own standards.</p><h4>Parts of the QA system</h4><ul><li><strong>Prerequisite programmes</strong>: cleaning and sanitation, personal hygiene, pest control, water quality, maintenance, training, waste management and supplier control.</li><li><strong>HACCP plan</strong>: identifies hazards (biological, chemical, physical) and sets critical control points (CCPs) with critical limits, monitoring, corrective action and records.</li><li><strong>Product specifications</strong>: weight bands, grades, portion cuts, packaging and labelling for each customer.</li><li><strong>Meat inspection</strong>: ante-mortem and post-mortem inspection, by or under the supervision of authorised inspectors.</li></ul><h4>Typical CCPs in poultry processing</h4><p>The plant's own HACCP plan sets the CCPs, but common examples are: no visible faecal contamination on carcasses after evisceration, chilling to the specified carcass temperature within the specified time, metal detection on portions and further-processed products, and the cold store temperature. As a monitor, you must know each CCP on your line, its critical limit, how often to check it and what to do if it fails.</p><h4>Your role as a QA monitor</h4><p>At NQF level 3 you check that the system is working on the floor: taking measurements, inspecting product, checking records, reporting deviations and making sure corrective action is taken.</p>"
+  },
+  {
+   "title": "Monitoring along the line",
+   "minutes": 15,
+   "html": "<h3>Checking each stage</h3><table><tr><th>Stage</th><th>What to monitor</th></tr><tr><td>Receiving</td><td>Bird condition, dead on arrival, feed withdrawal records, crate cleanliness</td></tr><tr><td>Stunning and bleeding</td><td>Effective stunning, complete bleeding, no live birds entering the scalder</td></tr><tr><td>Scalding and defeathering</td><td>Scald water temperature and flow, feather removal, skin damage</td></tr><tr><td>Evisceration</td><td>Gut breaks, visible faecal contamination, removal of all viscera, inspection outcomes</td></tr><tr><td>Washing and chilling</td><td>Water flow, chlorine or other approved sanitiser levels as specified, carcass temperature out of the chiller</td></tr><tr><td>Portioning and packing</td><td>Cut specification, weights, bone fragments, packaging integrity, labels and dates</td></tr><tr><td>Storage and despatch</td><td>Chiller and freezer temperatures, product temperature on loading, truck cleanliness</td></tr></table><h4>Sampling</h4><p>You cannot check every bird, so follow the sampling plan: for example a set number of carcasses every hour from each line. Choose samples at random, not just the ones that look good. Use calibrated probes and scales. Samples for microbiological testing must be taken aseptically and sent to the laboratory as procedure requires.</p><h4>Recording</h4><p>Write each result on the correct form or system at the time of the check, with time, line, result and your signature. Never fill in records in advance or after the shift from memory. Records are legal evidence that the product was produced safely.</p><h4>Hygiene inspections</h4><p>Before start-up, do a pre-operational check: equipment clean, no residue, no chemicals left, hand wash stations stocked, no pests. During production, watch staff hygiene, cross-contamination between dirty and clean areas, and floor drains.</p><h4>Example</h4><p>A QA monitor probes ten carcasses leaving the chiller every hour. Two are above the limit. She records this, holds product since the last check and informs the supervisor, who finds that the chiller water flow had been reduced.</p>"
+  },
+  {
+   "title": "Deviations, corrective action and reporting",
+   "minutes": 15,
+   "html": "<h3>When something goes wrong</h3><p>A deviation is any result outside the specification or critical limit. The aim is to catch it quickly, protect the consumer and fix the cause.</p><h4>Steps when a deviation is found</h4><ol><li><strong>Stop or hold</strong>: hold the affected product back from the last good check. Tag it clearly as on hold.</li><li><strong>Report</strong> immediately to the line supervisor and QA manager.</li><li><strong>Correct the process</strong>: for example adjust the chiller, repair a worn eviscerating machine part, re-train a worker.</li><li><strong>Decide on the product</strong>: the QA manager or inspector decides whether product is re-worked, downgraded, or condemned and destroyed.</li><li><strong>Record</strong> what happened, what was done and who authorised it.</li><li><strong>Prevent</strong>: find the root cause and stop it happening again.</li></ol><h4>Example</h4><p>At 10:00 you find carcasses with visible faecal contamination after evisceration, above the plant limit. You inform the supervisor, carcasses since the last good check at 09:30 are held for re-inspection and trimming as procedure allows, the machine is adjusted, and checks are increased until results are stable.</p><h4>Trends and reporting</h4><p>Look at results over days and weeks. Rising condemnations from one farm may show a flock health problem; rising gut breaks may show a feed withdrawal problem or machine setting. Report trends in the daily or weekly QA report so management can act.</p><h4>Audits and complaints</h4><p>Internal audits check that procedures are followed. Customer complaints, such as off-odour, wrong weights or foreign bodies, must be logged, investigated and answered. Traceability through batch codes allows product to be traced back to the flock and forward to customers, and supports recalls if needed.</p><h4>Key points</h4><ul><li>QA in poultry abattoirs is based on the Meat Safety Act 40 of 2000, prerequisite programmes and HACCP.</li><li>Know each CCP on your line, its limit, the check frequency and the corrective action.</li><li>Sample at random, use calibrated equipment and record results at the time of checking.</li><li>When a deviation occurs: hold product, report, correct, decide on product, record and prevent.</li><li>Use trends and traceability to find causes and support recalls.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act governs abattoirs and meat safety in South Africa?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a critical control point (CCP)?",
+   "options": [
+    {
+     "text": "A place where staff take breaks",
+     "correct": false
+    },
+    {
+     "text": "A step where control is essential to prevent or reduce a food safety hazard",
+     "correct": true
+    },
+    {
+     "text": "The office of the QA manager",
+     "correct": false
+    },
+    {
+     "text": "A customer complaint",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should QA samples be chosen from the line?",
+   "options": [
+    {
+     "text": "Only the best-looking birds",
+     "correct": false
+    },
+    {
+     "text": "Only at the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "At random, following the sampling plan",
+     "correct": true
+    },
+    {
+     "text": "Only birds from one farm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when you find product outside a critical limit?",
+   "options": [
+    {
+     "text": "Throw away the records",
+     "correct": false
+    },
+    {
+     "text": "Wait for the next check",
+     "correct": false
+    },
+    {
+     "text": "Ship it quickly",
+     "correct": false
+    },
+    {
+     "text": "Hold the affected product back from the last good check",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Rising condemnations from one supplier farm may point to what?",
+   "options": [
+    {
+     "text": "A flock health problem on that farm",
+     "correct": true
+    },
+    {
+     "text": "A broken office printer",
+     "correct": false
+    },
+    {
+     "text": "Too many QA staff",
+     "correct": false
+    },
+    {
+     "text": "Good feed withdrawal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Records may be filled in at the end of the shift from memory if you were busy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Traceability through batch codes supports product recalls.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a pre-operational hygiene check confirm? (select all that apply)",
+   "options": [
+    {
+     "text": "Equipment is clean with no residue",
+     "correct": true
+    },
+    {
+     "text": "Hand wash stations are stocked",
+     "correct": true
+    },
+    {
+     "text": "No pests are present",
+     "correct": true
+    },
+    {
+     "text": "The line is already running at full speed",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

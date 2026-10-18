@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-119303",
+ "title": "Handle and dispose of waste",
+ "lessons": [
+  {
+   "title": "Kinds of waste in the stable yard and on the farm",
+   "minutes": 15,
+   "html": "<h3>What waste is</h3> <p>Waste is anything we do not need any more and must throw away or reuse. On a horse farm or stud there is a lot of waste every day. If waste is left lying around it brings flies, rats and bad smells. It can make people and horses sick. It can also pollute rivers and boreholes.</p> <h4>Types of waste</h4> <table><tr><th>Type</th><th>Examples</th></tr> <tr><td>Manure and bedding</td><td>Horse dung, wet straw, wood shavings</td></tr> <tr><td>General waste</td><td>Food wrappers, broken buckets, old rope</td></tr> <tr><td>Recyclable</td><td>Clean plastic feed bags, cans, glass, cardboard</td></tr> <tr><td>Hazardous waste</td><td>Empty dip and spray containers, old engine oil, batteries</td></tr> <tr><td>Medical (sharps) waste</td><td>Used needles, syringes, blades from the vet</td></tr> <tr><td>Animal carcasses</td><td>A dead horse, calf or sheep</td></tr></table> <h4>Why we sort waste</h4> <p>Different waste needs a different place. When we sort it:</p> <ul> <li>Manure can become compost for the garden or lands.</li> <li>Recyclables can be sold or collected, so less goes to the dump.</li> <li>Hazardous and sharp waste is kept away from people, children and animals.</li> </ul> <h4>Bins and colours</h4> <p>Your farm will have marked bins or areas. Learn what each one is for. Read the sign or ask your supervisor. Do not mix waste. One oil can in the compost heap spoils the whole heap.</p> <h4>Danger signs on containers</h4> <p>Some containers have warning pictures, such as a skull, a flame or a dead fish and tree. These mean the product is poisonous, can burn, or harms the environment. Never reuse these containers for water, feed or food. Never give them to people to take home.</p> <h4>Example</h4> <p>Thandi mucks out six stables. She puts dung and wet shavings in the wheelbarrow for the manure heap. She finds a used syringe left by the vet. She does not pick it up with her fingers. She calls the yard manager, who puts it in the sharps box with tongs.</p>"
+  },
+  {
+   "title": "Handling and getting rid of waste safely",
+   "minutes": 15,
+   "html": "<h3>Protect yourself first</h3> <p>Before you handle waste, put on your protective clothing:</p> <ul> <li>Gloves - rubber gloves for wet or chemical waste, leather gloves for sharp things</li> <li>Closed boots</li> <li>Overall</li> <li>Mask or goggles if there is dust or chemical smell</li> </ul> <p>Lift heavy bags with your legs, not your back. Ask for help with a full drum or a heavy load.</p> <h4>Manure</h4> <ol> <li>Muck out stables every day.</li> <li>Take manure to the marked manure heap, away from water troughs, rivers and boreholes.</li> <li>Keep the heap neat so it can rot into compost.</li> <li>Do not throw plastic, string or wire on the heap.</li> </ol> <h4>General and recyclable waste</h4> <p>Put it in the right bin. Close the lids so dogs, baboons and wind cannot spread it. Fold feed bags flat. Keep baling twine together; horses and cattle can choke on it or get it wrapped around legs.</p> <h4>Hazardous waste</h4> <ul> <li>Never pour old oil, diesel or chemicals on the ground or down a drain.</li> <li>Rinse empty chemical containers the way the label says, then pierce them so nobody can reuse them.</li> <li>Store them in the locked hazardous waste area until they are collected.</li> <li>Never burn plastic chemical containers; the smoke is poisonous.</li> </ul> <h4>Sharps</h4> <p>Used needles go only into the yellow sharps container. Never put the cap back on a used needle by hand. If you are pricked, wash the place with soap and water and report it to your supervisor at once.</p> <h4>Dead animals</h4> <p>Do not touch a dead animal with bare hands. Tell your supervisor. Some diseases, such as anthrax, are very dangerous. The farm will bury or remove carcasses as the vet or state vet says.</p> <h4>Keep the area clean</h4> <p>Wash your hands with soap after handling waste and before eating. Sweep the yard. Report full bins, leaking drums and spills.</p> <h4>Key points</h4> <ul> <li>Sort waste: manure, general, recyclable, hazardous, sharps, carcasses.</li> <li>Wear gloves and boots, and wash your hands after handling waste.</li> <li>Never reuse or burn chemical containers; store them for collection.</li> <li>Used needles go only into the sharps container.</li> <li>Keep manure heaps away from water sources.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should horse manure go?",
+   "options": [
+    {
+     "text": "Into the river",
+     "correct": false
+    },
+    {
+     "text": "To the marked manure heap",
+     "correct": true
+    },
+    {
+     "text": "Into the sharps box",
+     "correct": false
+    },
+    {
+     "text": "Into the feed room",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You find a used syringe in a stable. What should you do?",
+   "options": [
+    {
+     "text": "Pick it up and put the cap back on",
+     "correct": false
+    },
+    {
+     "text": "Throw it on the manure heap",
+     "correct": false
+    },
+    {
+     "text": "Do not touch it with fingers and call your supervisor so it goes in the sharps box",
+     "correct": true
+    },
+    {
+     "text": "Leave it for the horse",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with old engine oil?",
+   "options": [
+    {
+     "text": "Pour it on the ground",
+     "correct": false
+    },
+    {
+     "text": "Pour it down the drain",
+     "correct": false
+    },
+    {
+     "text": "Keep it in the hazardous waste area for collection",
+     "correct": true
+    },
+    {
+     "text": "Mix it into the compost",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must baling twine be kept together and thrown away properly?",
+   "options": [
+    {
+     "text": "It is worth a lot of money",
+     "correct": false
+    },
+    {
+     "text": "Animals can choke on it or get it caught on their legs",
+     "correct": true
+    },
+    {
+     "text": "It makes compost better",
+     "correct": false
+    },
+    {
+     "text": "It keeps flies away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A worker is pricked by a used needle. What comes first?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Wash with soap and water and report it",
+     "correct": true
+    },
+    {
+     "text": "Put a plaster on and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Burn the needle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An empty chemical container can be washed and used to carry drinking water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should wash your hands with soap after handling waste and before eating.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are hazardous waste? (select all that apply)",
+   "options": [
+    {
+     "text": "Empty dip containers",
+     "correct": true
+    },
+    {
+     "text": "Old batteries",
+     "correct": true
+    },
+    {
+     "text": "Clean cardboard",
+     "correct": false
+    },
+    {
+     "text": "Used engine oil",
+     "correct": true
+    },
+    {
+     "text": "Horse dung",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119452",
+ "title": "Show an understanding of the anatomy and physiology of poultry",
+ "lessons": [
+  {
+   "title": "The outside of the bird",
+   "minutes": 15,
+   "html": "<h3>Knowing the parts of a chicken</h3><p>Anatomy is the study of the parts of the body. Physiology is how those parts work. People who work with poultry, on farms or in processing plants, need to know the body of the bird to look after it, spot illness and process it correctly.</p><h4>External parts</h4><ul><li><strong>Comb and wattles</strong>: red fleshy parts on the head. A bright red comb often shows a healthy, laying hen. A pale or blue comb can mean illness.</li><li><strong>Beak</strong>: used to pick up food. Birds have no teeth.</li><li><strong>Eyes</strong>: should be bright and clear.</li><li><strong>Ear lobes</strong>: on the side of the head.</li><li><strong>Feathers</strong>: keep the bird warm and protect the skin. Wing feathers are used for flapping.</li><li><strong>Breast</strong>: the big muscle on the front. This is the most valuable meat.</li><li><strong>Wings, thighs and drumsticks</strong>: other main meat parts.</li><li><strong>Shanks and feet</strong>: the scaly lower legs and toes. Feet are sold as food in South Africa.</li><li><strong>Vent</strong>: the opening under the tail where droppings and eggs come out.</li></ul><h4>Skin and feathers</h4><p>Chickens do not sweat. In hot weather they pant with an open beak and hold their wings away from the body to lose heat. That is why heat stress is so dangerous for chickens.</p><h4>Healthy or sick?</h4><p>A healthy bird is alert, with bright eyes, clean feathers and a clean vent. A sick bird may sit with ruffled feathers and closed eyes, have a dirty vent, breathe noisily or not eat. Report sick birds to your supervisor.</p>"
+  },
+  {
+   "title": "Digestion: how a chicken uses food",
+   "minutes": 15,
+   "html": "<h3>The digestive system</h3><p>The digestive system breaks food into small parts the body can use. A chicken's digestive system is different from ours.</p><h4>The parts in order</h4><ol><li><strong>Beak and mouth</strong>: pick up food. Saliva wets it. There are no teeth.</li><li><strong>Oesophagus (gullet)</strong>: the tube that takes food down.</li><li><strong>Crop</strong>: a pouch at the base of the neck that stores food for a while. A full crop shows the bird has eaten.</li><li><strong>Proventriculus</strong>: the true stomach, where digestive juices start to break down food.</li><li><strong>Gizzard</strong>: a strong muscle that grinds food, using small stones or grit in some birds. It does the work of teeth.</li><li><strong>Small intestine</strong>: where most food is digested and taken into the blood. The liver and pancreas help here.</li><li><strong>Caeca</strong>: two blind pouches where some fibre is broken down.</li><li><strong>Large intestine</strong>: short; takes water back.</li><li><strong>Cloaca and vent</strong>: where droppings, urine and eggs leave the body.</li></ol><h4>Why this matters in processing</h4><p>Before slaughter, feed is taken away from birds for a time set by the plant. This empties the crop and the intestines. If the gut is full, it can break during evisceration and the gut contents (faeces) can dirty the carcass. Dirty carcasses are a food safety risk and are trimmed or condemned.</p><h4>Organs removed during evisceration</h4><p>The intestines, crop, proventriculus and other organs are removed. The liver, heart and gizzard are often kept as giblets and sold. The gall bladder on the liver must not burst, because the bile is bitter and stains the meat green.</p>"
+  },
+  {
+   "title": "Other body systems",
+   "minutes": 15,
+   "html": "<h3>Breathing, blood, bones and eggs</h3><h4>Respiratory system (breathing)</h4><p>Chickens have lungs and also <strong>air sacs</strong>, thin bags of air in the body and even in some bones. Air moves through the lungs and air sacs. This system works very well but it also means diseases and dust spread easily in the body. Dusty or ammonia-smelling houses harm the lungs. Signs of breathing problems are coughing, sneezing, wheezing and breathing with an open beak.</p><h4>Circulatory system (blood)</h4><p>The heart pumps blood through blood vessels to the whole body. Blood carries food, oxygen and heat. At slaughter, the large blood vessels in the neck are cut so that the bird bleeds well. A well-bled carcass is pale; a poorly bled one is red.</p><h4>Skeleton and muscles</h4><p>The skeleton supports the body. The keel bone (breast bone) holds the breast muscles. Bones are light and some are hollow. Rough handling causes broken wings and legs and bruises, which spoil the meat.</p><h4>Reproductive system</h4><p>A hen has one working ovary and oviduct, on the left side. The yolk forms in the ovary. In the oviduct, the white, shell membranes and shell are added. An egg takes about a day to form. Cockerels have two testes inside the body.</p><h4>Body temperature</h4><p>A chicken's normal body temperature is higher than a person's. Day-old chicks cannot keep themselves warm and need heat from a brooder.</p><h4>Key points</h4><ul><li>Chickens have no teeth; the gizzard grinds food.</li><li>Food passes from crop to proventriculus, gizzard, intestines and out through the vent.</li><li>Feed withdrawal before slaughter empties the gut and reduces carcass contamination.</li><li>Chickens breathe with lungs and air sacs and do not sweat, so heat and dust harm them.</li><li>A hen has one working ovary and oviduct, on the left side.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What part of a chicken grinds food, doing the work of teeth?",
+   "options": [
+    {
+     "text": "Gizzard",
+     "correct": true
+    },
+    {
+     "text": "Crop",
+     "correct": false
+    },
+    {
+     "text": "Caeca",
+     "correct": false
+    },
+    {
+     "text": "Comb",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the crop?",
+   "options": [
+    {
+     "text": "The breast muscle",
+     "correct": false
+    },
+    {
+     "text": "A pouch at the base of the neck that stores food",
+     "correct": true
+    },
+    {
+     "text": "The true stomach",
+     "correct": false
+    },
+    {
+     "text": "Part of the leg",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is feed withdrawn from birds before slaughter?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "To make feathers loose",
+     "correct": false
+    },
+    {
+     "text": "To empty the gut so it does not dirty the carcass",
+     "correct": true
+    },
+    {
+     "text": "To make them calm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do chickens lose heat in hot weather?",
+   "options": [
+    {
+     "text": "By sweating",
+     "correct": false
+    },
+    {
+     "text": "By eating more",
+     "correct": false
+    },
+    {
+     "text": "By sleeping",
+     "correct": false
+    },
+    {
+     "text": "By panting and holding wings away from the body",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the gall bladder not burst during evisceration?",
+   "options": [
+    {
+     "text": "The bile is bitter and stains the meat green",
+     "correct": true
+    },
+    {
+     "text": "It is very expensive",
+     "correct": false
+    },
+    {
+     "text": "It has feathers inside",
+     "correct": false
+    },
+    {
+     "text": "It contains the egg",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chickens have air sacs as well as lungs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A hen has two working ovaries.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a healthy bird? (select all that apply)",
+   "options": [
+    {
+     "text": "Alert and active",
+     "correct": true
+    },
+    {
+     "text": "Bright, clear eyes",
+     "correct": true
+    },
+    {
+     "text": "Ruffled feathers and closed eyes",
+     "correct": false
+    },
+    {
+     "text": "Clean vent",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

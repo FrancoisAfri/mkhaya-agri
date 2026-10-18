@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-15",
+ "title": "Diagnosis and Repair of Tractor Engines and Engine Sub-Systems",
+ "lessons": [
+  {
+   "title": "Diagnosing engine complaints",
+   "minutes": 20,
+   "html": "<h3>Start with the story</h3> <p>Engine complaints on farms often sound like: \"it smokes when ploughing\", \"it loses power on the hill\", \"it uses oil\", \"it is hard to start on cold winter mornings\" or \"the temperature gauge goes into the red at harvest\". Your job is to find the real cause using a logical method, under the guidance of your workplace mentor.</p> <h4>Questions to ask the driver</h4> <ul> <li>When did the problem start? Was there recent work, a new fuel delivery, or a hard job?</li> <li>Does it happen hot or cold, under load or at idle?</li> <li>Are there warning lights or fault codes?</li> <li>How many hours since the last service?</li> </ul> <h4>Reading the symptoms</h4> <table> <tr><th>Symptom</th><th>Possible causes to check</th></tr> <tr><td>Black smoke under load</td><td>Blocked air filter, turbo problem, intake leak, faulty injectors, overloading</td></tr> <tr><td>Blue smoke</td><td>Oil burning: worn rings or valve guides, turbo seals, overfilled sump</td></tr> <tr><td>White smoke</td><td>Cold start or poor fuel atomisation; persistent white smoke with coolant loss may point to a head gasket or cracked head</td></tr> <tr><td>Loss of power</td><td>Fuel restriction (filters, water in fuel), air restriction, turbo, injection timing, low compression</td></tr> <tr><td>Overheating</td><td>Blocked radiator, slipping belt, thermostat, water pump, low coolant, head gasket</td></tr> </table> <h4>Safety during diagnosis</h4> <ul> <li>Run engines outdoors or with exhaust extraction; diesel exhaust in a closed shed is dangerous.</li> <li>Keep hands, hair and loose clothing away from fans, belts and pulleys on a running engine.</li> <li>Do not touch exhaust manifolds or turbochargers; they get hot enough to cause severe burns.</li> <li>Never open a hot cooling system.</li> <li>Apply the parking brake, put the tractor in neutral and chock the wheels before running it in the workshop.</li> </ul> <p>Look before you test: check fluid levels, look for leaks, loose hoses, damaged wiring, and the colour and smell of oil and coolant. Many faults show themselves to a careful eye.</p>"
+  },
+  {
+   "title": "Engine tests and measurements",
+   "minutes": 20,
+   "html": "<h3>Common diagnostic tests</h3> <p>Each test answers a question. Choose tests that follow from the symptoms, and compare results with the specifications in the service manual.</p> <h4>Fuel system tests</h4> <ul> <li>Check the fuel for water and dirt by draining a sample from the filter bowl or sedimenter into a clear jar.</li> <li>Measure fuel supply pressure or restriction with gauges where the manual describes it.</li> <li>On common rail engines, use the diagnostic tool to read rail pressure and injector correction or balance values.</li> <li>Have suspect injectors tested by a fuel injection specialist; do not adjust injection pumps without training and the correct equipment.</li> </ul> <h4>Air and exhaust tests</h4> <ul> <li>Check air filter restriction indicators and intake hoses.</li> <li>Measure boost pressure against the manual figure. Check the turbo for shaft play and oil leaks.</li> </ul> <h4>Mechanical condition tests</h4> <ul> <li><strong>Compression test:</strong> with the correct diesel adaptor and gauge, compare all cylinders. One low cylinder points to a valve or ring problem in that cylinder.</li> <li><strong>Leak-down test:</strong> shows where compression escapes: intake, exhaust, crankcase or cooling system.</li> <li><strong>Crankcase blow-by:</strong> heavy fumes from the breather suggest worn rings or liners.</li> <li><strong>Oil pressure test:</strong> fit a mechanical gauge to confirm a warning light or gauge reading.</li> <li><strong>Oil analysis:</strong> a sample sent to a laboratory can show coolant, fuel dilution, dust and wear metals.</li> </ul> <h4>Cooling system tests</h4> <ul> <li>Pressure test the cooling system and radiator cap with a pressure tester on a cool engine.</li> <li>Use a combustion gas (block) tester to check for exhaust gas in the coolant, which indicates a head gasket or head problem.</li> <li>Use an infrared thermometer to look for cold spots in a radiator that show blocked tubes.</li> </ul> <p>Write down every reading. A list of measurements makes your diagnosis clear to your mentor and to the farmer, and justifies the cost of the repair.</p>"
+  },
+  {
+   "title": "Repairing and verifying engine work",
+   "minutes": 20,
+   "html": "<h3>Deciding on the repair</h3> <p>Once tests show the cause, discuss the repair with your supervisor and the client. Options may be a minor repair (filters, hoses, a thermostat), a component exchange (turbo, injector, water pump) or a major overhaul (head work, liners, pistons, bearings). Give the farmer a quote and a time estimate; during planting or harvest, time is often as important as cost.</p> <h4>Doing the repair</h4> <ul> <li>Follow the manual for dismantling and assembly, torque figures, tightening sequences and clearances.</li> <li>Measure wear on parts such as liners, crankshaft journals and valve guides with micrometers, bore gauges and feeler gauges, and compare with service limits.</li> <li>Replace all gaskets, seals and any single-use bolts the manual lists.</li> <li>Keep the work area and parts clean; engine wear often starts with dirt left in during a repair.</li> <li>Set valve clearances (tappets) to the manual figure with the engine in the correct position.</li> <li>Fix the root cause. If an engine overheated because of a blocked radiator, a new head gasket alone will fail again.</li> </ul> <h4>After the repair</h4> <ol> <li>Fill with the correct oil and coolant, bleed the fuel and cooling systems.</li> <li>Start and check oil pressure immediately.</li> <li>Check for leaks and abnormal noise at idle, then bring to operating temperature.</li> <li>Repeat the test that showed the fault (for example boost or compression) to prove the repair worked.</li> <li>Test under load if possible, in the field or on a dynamometer.</li> <li>Follow any running-in instructions after an overhaul and tell the driver about them.</li> </ol> <h4>Records</h4> <p>Record the complaint, tests and readings, cause, parts, fluids, hours and follow-up checks. Dispose of oil, filters and coolant correctly.</p> <h4>Key points</h4> <ul> <li>Question the driver, inspect visually, then choose tests that follow the symptoms.</li> <li>Compare every measurement with the service manual and write it down.</li> <li>Run engines with ventilation and keep clear of fans, belts and hot parts.</li> <li>Repair the root cause, not just the failed part.</li> <li>Repeat the original test to prove the repair, then record everything.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Blue exhaust smoke usually points to what?",
+   "options": [
+    {
+     "text": "A faulty starter motor",
+     "correct": false
+    },
+    {
+     "text": "Low tyre pressure",
+     "correct": false
+    },
+    {
+     "text": "A blocked air filter only",
+     "correct": false
+    },
+    {
+     "text": "Oil being burnt",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A compression test shows one cylinder much lower than the others. What does this suggest?",
+   "options": [
+    {
+     "text": "A valve or ring problem in that cylinder",
+     "correct": true
+    },
+    {
+     "text": "A fuel tank problem",
+     "correct": false
+    },
+    {
+     "text": "A faulty alternator",
+     "correct": false
+    },
+    {
+     "text": "A loose fan belt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which test checks for exhaust gas in the coolant?",
+   "options": [
+    {
+     "text": "Boost pressure test",
+     "correct": false
+    },
+    {
+     "text": "Battery load test",
+     "correct": false
+    },
+    {
+     "text": "Oil pressure test",
+     "correct": false
+    },
+    {
+     "text": "Combustion gas (block) tester",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "An engine overheated because of a blocked radiator and blew its head gasket. What is the correct repair?",
+   "options": [
+    {
+     "text": "Replace only the head gasket",
+     "correct": false
+    },
+    {
+     "text": "Replace the head gasket and clean or repair the radiator",
+     "correct": true
+    },
+    {
+     "text": "Add more coolant and return it",
+     "correct": false
+    },
+    {
+     "text": "Fit a bigger fan belt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you prove an engine repair worked?",
+   "options": [
+    {
+     "text": "Repeat the test that showed the fault and test under load",
+     "correct": true
+    },
+    {
+     "text": "Ask the driver to guess",
+     "correct": false
+    },
+    {
+     "text": "Look at the paint",
+     "correct": false
+    },
+    {
+     "text": "Clear the fault codes only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Diesel engines may be run for long periods in a closed shed without extraction.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Oil analysis can show coolant, fuel dilution, dust and wear metals in engine oil.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are possible causes of loss of power? (select all that apply)",
+   "options": [
+    {
+     "text": "Air restriction",
+     "correct": true
+    },
+    {
+     "text": "A new tractor seat",
+     "correct": false
+    },
+    {
+     "text": "Turbo problems",
+     "correct": true
+    },
+    {
+     "text": "Blocked fuel filters or water in fuel",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12470",
+ "title": "Write for a variety of different purposes",
+ "lessons": [
+  {
+   "title": "Why we write and who we write for",
+   "minutes": 15,
+   "html": "<h3>Writing at work and at home</h3>\n<p>We write for many reasons. On a farm or in a plant you may need to:</p>\n<ul>\n<li>fill in a form, such as a leave form or a stock sheet;</li>\n<li>write a short note or message for a co-worker;</li>\n<li>write down a temperature, a count or a weight on a record sheet;</li>\n<li>write an incident report after an accident;</li>\n<li>write a letter, for example to apply for a job or a training course.</li>\n</ul>\n<p>Each kind of writing has a <strong>purpose</strong> (why you write) and a <strong>reader</strong> (who will read it). Before you write, ask yourself two questions:</p>\n<ol>\n<li>Why am I writing? To tell, to ask, to record or to explain?</li>\n<li>Who will read it? A friend, a supervisor, the manager, a clinic, a government office?</li>\n</ol>\n<h4>Formal and informal writing</h4>\n<table><tr><th>Informal</th><th>Formal</th></tr>\n<tr><td>A note to a friend or family member</td><td>A letter to the farm manager</td></tr>\n<tr><td>\"Hi Sipho, see you at the bus.\"</td><td>\"Dear Mr Botha, I would like to apply for...\"</td></tr>\n<tr><td>Short words and SMS language may be fine</td><td>Full sentences, polite words, no SMS language</td></tr></table>\n<h4>Write clearly</h4>\n<ul>\n<li>Use short sentences.</li>\n<li>Put one idea in each sentence.</li>\n<li>Start each sentence with a capital letter and end it with a full stop.</li>\n<li>Write neatly so others can read it. Use a pen on records, not a pencil.</li>\n<li>Write numbers, dates and names carefully &ndash; a wrong number on a feed sheet or a temperature record can cause big problems.</li>\n</ul>\n<p>Good writing saves time. When your note or report is clear, the reader does not have to come and ask you what you meant.</p>"
+  },
+  {
+   "title": "Notes, messages and forms",
+   "minutes": 15,
+   "html": "<h3>Short everyday writing</h3>\n<h4>Writing a message</h4>\n<p>A good message answers: <strong>who</strong>, <strong>what</strong>, <strong>when</strong> and <strong>where</strong>.</p>\n<p><em>To: Lindiwe<br>From: Peter<br>Date: Tuesday 14 May, 10:30<br>The vet phoned. She will come at 2 o'clock today to see the sick heifer in camp 6. Please make sure the crush is open.</em></p>\n<p>Notice that the message has the name of the reader and writer, the date and time, and the important details.</p>\n<h4>Filling in forms</h4>\n<p>Forms ask for information in a fixed way. Follow these steps:</p>\n<ol>\n<li>Read the whole form first.</li>\n<li>Look for words like <em>PRINT</em> (write in capital letters), <em>sign</em> and <em>tick</em>.</li>\n<li>Write in the right boxes. Do not leave out parts that you need to fill in.</li>\n<li>Write <em>N/A</em> (not applicable) if a question does not apply to you.</li>\n<li>Check that names, ID number and dates are correct.</li>\n<li>Sign and date the form.</li>\n<li>Ask for help if you do not understand a question. Never sign something you do not understand.</li>\n</ol>\n<h4>Record sheets</h4>\n<p>At work you may write daily records: the number of eggs collected, the dip tank level, cold room temperatures, or hours worked. Write the date and time, the number, and your name or initials. If you make a mistake, draw one line through it, write the correct value next to it and initial it. Never use correction fluid or tear out pages on records.</p>\n<h4>Lists</h4>\n<p>Lists help you remember. A shopping list for the farm store or a list of jobs for the day is written one item per line. Put the most important item first.</p>"
+  },
+  {
+   "title": "Reports and letters",
+   "minutes": 15,
+   "html": "<h3>Longer writing: plan, write, check</h3>\n<p>For a report or a letter, use three steps.</p>\n<ol>\n<li><strong>Plan.</strong> Write down the main points you want to say, in order.</li>\n<li><strong>Write.</strong> Turn the points into sentences. Use a new paragraph for each new idea.</li>\n<li><strong>Check.</strong> Read it again. Fix spelling, missing words and wrong numbers. Ask: will the reader understand?</li>\n</ol>\n<h4>An incident report</h4>\n<p>If there is an accident or a near-miss, your supervisor may ask you to write what happened. Write only the facts:</p>\n<ul>\n<li>date, time and place;</li>\n<li>who was involved;</li>\n<li>what happened, step by step;</li>\n<li>what was done afterwards (first aid, machine switched off);</li>\n<li>your name and signature.</li>\n</ul>\n<p><em>On 3 June at about 08:15 in the feed store, Joseph Mokoena slipped on spilled maize and hurt his left wrist. I helped him up and called the first aider, Mrs Nkosi. She put on a sling and the manager drove him to the clinic.</em></p>\n<h4>A formal letter</h4>\n<p>A formal letter has a fixed layout:</p>\n<ul>\n<li>your address and the date at the top;</li>\n<li>the reader's name and address;</li>\n<li>a greeting: \"Dear Mr Botha\" or \"Dear Sir or Madam\";</li>\n<li>a subject line, for example \"Application for tractor driver training\";</li>\n<li>the body: why you are writing, the details, and what you would like to happen;</li>\n<li>an ending: \"Yours faithfully\" (if you do not know the name) or \"Yours sincerely\" (if you do), then your signature and name.</li>\n</ul>\n<p>Keep a copy of important letters and forms you hand in.</p>\n<h4>Key points</h4>\n<ul>\n<li>Before writing, think about your purpose and your reader.</li>\n<li>Messages should say who, what, when and where.</li>\n<li>Read forms first and never sign what you do not understand.</li>\n<li>Correct mistakes on records with one line and your initials.</li>\n<li>For longer writing: plan, write, then check.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What two things should you think about before you write?",
+   "options": [
+    {
+     "text": "The colour of the pen and paper",
+     "correct": false
+    },
+    {
+     "text": "Your purpose and your reader",
+     "correct": true
+    },
+    {
+     "text": "The weather and the time",
+     "correct": false
+    },
+    {
+     "text": "How long and how fast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does PRINT mean on a form?",
+   "options": [
+    {
+     "text": "Draw a picture",
+     "correct": false
+    },
+    {
+     "text": "Use a printer",
+     "correct": false
+    },
+    {
+     "text": "Sign your name",
+     "correct": false
+    },
+    {
+     "text": "Write in capital letters",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You make a mistake on a temperature record. What should you do?",
+   "options": [
+    {
+     "text": "Draw one line through it, write the correct value and initial it",
+     "correct": true
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Use correction fluid",
+     "correct": false
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which ending do you use in a formal letter when you do not know the reader's name?",
+   "options": [
+    {
+     "text": "Love from",
+     "correct": false
+    },
+    {
+     "text": "See you",
+     "correct": false
+    },
+    {
+     "text": "Yours faithfully",
+     "correct": true
+    },
+    {
+     "text": "Cheers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should an incident report contain?",
+   "options": [
+    {
+     "text": "Your opinion of the person",
+     "correct": false
+    },
+    {
+     "text": "Only facts: date, time, place, who and what happened",
+     "correct": true
+    },
+    {
+     "text": "A joke to make it lighter",
+     "correct": false
+    },
+    {
+     "text": "Only your signature",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "SMS language is fine in a formal letter to the manager.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should never sign a form that you do not understand.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details should a good message include? (select all that apply)",
+   "options": [
+    {
+     "text": "Who it is for and from",
+     "correct": true
+    },
+    {
+     "text": "What the message is",
+     "correct": true
+    },
+    {
+     "text": "Your favourite food",
+     "correct": false
+    },
+    {
+     "text": "When and where",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

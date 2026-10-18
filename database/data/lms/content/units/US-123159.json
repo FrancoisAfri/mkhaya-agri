@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123159",
+ "title": "Conduct soil preparation and transplant rooibos seedlings",
+ "lessons": [
+  {
+   "title": "Preparing the land",
+   "minutes": 15,
+   "html": "<h3>Getting the soil ready</h3><p>Rooibos seedlings are planted out from the seedbeds into the lands in winter, when the rains have made the soil wet. Before that, the land must be prepared so the young plants can grow strong roots quickly.</p><h4>Steps in soil preparation</h4><ol><li><strong>Clear the land</strong> – remove old rooibos plants, weeds, stones and rubbish.</li><li><strong>Work the soil</strong> – the soil is ploughed or ripped with a tractor so it is loose and water can soak in. Only trained drivers may use the tractor and implements.</li><li><strong>Level the land</strong> so water does not run off and wash the soil away.</li><li><strong>Mark the rows</strong> – the supervisor sets the row spacing. Rows are marked with a marker, string lines or the tractor.</li></ol><h4>Protecting the soil</h4><p>Sandy soil in the rooibos area blows away easily in strong wind and washes away in heavy rain. The Conservation of Agricultural Resources Act 43 of 1983 says farmers must protect soil from erosion. On many farms:</p><ul><li>strips of natural plants or windbreaks are left between lands;</li><li>rows run across the slope, not down it;</li><li>old plant material or a cover crop is left on the soil.</li></ul><h4>Fertiliser and lime</h4><p>Rooibos needs little fertiliser because bacteria on its roots give it nitrogen. Only apply fertiliser or lime when the supervisor says, based on a soil test, and at the amount given.</p><h4>Safety near tractors</h4><ul><li>Stay out of the way of a moving tractor and implement.</li><li>Never ride on the tractor drawbar or implement.</li><li>Make sure the driver can see you.</li></ul>"
+  },
+  {
+   "title": "Transplanting seedlings",
+   "minutes": 15,
+   "html": "<h3>Planting out</h3><h4>When to plant</h4><p>Plant when the soil is wet after good rains, usually in winter, on the days the supervisor chooses. Do not plant in dry soil or on very windy, hot days.</p><h4>Getting seedlings ready</h4><ul><li>Seedlings are lifted from the seedbed gently, keeping roots whole.</li><li>Keep the roots damp and in the shade, wrapped in a wet bag or in a container with damp soil.</li><li>Bring only as many seedlings as can be planted that day.</li><li>Throw out seedlings that are sick, broken or very weak.</li></ul><h4>How to plant</h4><ol><li>Make a hole in the row with a spade, planting stick or planting tool, deep enough for the whole root.</li><li>Put the seedling in the hole so the root hangs straight down. Do not bend the root up (a \"J-root\" grows badly).</li><li>Plant at the same depth the seedling grew in the seedbed, or as the supervisor shows.</li><li>Close the hole and press the soil firmly around the roots with your hand or foot, so there are no air pockets.</li><li>Move to the next spot at the spacing the supervisor set.</li></ol><h4>Planting machines</h4><p>Some farms use planters pulled by a tractor, with workers sitting on the planter and feeding seedlings. Keep hands away from moving parts and follow the operator's signals.</p><h4>Work well together</h4><p>Planting teams usually work in lines. Keep up with the team but do not rush. Badly planted seedlings die and must be replanted.</p>"
+  },
+  {
+   "title": "Care after planting and records",
+   "minutes": 15,
+   "html": "<h3>The first weeks in the land</h3><ul><li>Walk the rows after a few days. Look for dead, dry or pulled-out seedlings.</li><li>Replace dead seedlings (\"gap filling\") while the soil is still wet.</li><li>Keep weeds down by hoeing or hand pulling, carefully so you do not cut the young plants.</li><li>Report insect damage, wilting, or animals eating plants.</li><li>Keep gates closed so livestock do not get in.</li></ul><h4>Records</h4><p>Write down:</p><ul><li>land number and date planted;</li><li>number of seedlings planted and which seedbed they came from;</li><li>number of gaps filled later;</li><li>rain received.</li></ul><p>These records show the farm how many plants survived and help plan next year.</p><h4>Look after yourself</h4><p>Planting is hard work, often in cold and wet weather. Wear warm clothes, a raincoat and boots. Bend your knees and change position often to protect your back. Drink water and take your breaks.</p><h4>Key points</h4><ul><li>Clear, loosen and level the soil and mark rows before planting.</li><li>Protect sandy soil from erosion with windbreaks and rows across the slope.</li><li>Plant in wet soil in winter, with roots kept damp and shaded.</li><li>Keep the root straight down and press soil firmly to remove air pockets.</li><li>Check the rows, fill gaps and record numbers planted.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When are rooibos seedlings usually transplanted?",
+   "options": [
+    {
+     "text": "At harvest time",
+     "correct": false
+    },
+    {
+     "text": "On very windy, hot days",
+     "correct": false
+    },
+    {
+     "text": "In winter when the soil is wet after rain",
+     "correct": true
+    },
+    {
+     "text": "In mid-summer when soil is dry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a \"J-root\"?",
+   "options": [
+    {
+     "text": "A root bent upwards in the planting hole, which grows badly",
+     "correct": true
+    },
+    {
+     "text": "A type of fertiliser",
+     "correct": false
+    },
+    {
+     "text": "A root with nodules",
+     "correct": false
+    },
+    {
+     "text": "A very long, straight root",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should rows run across the slope?",
+   "options": [
+    {
+     "text": "To make harvesting faster",
+     "correct": false
+    },
+    {
+     "text": "It is easier to drive down the slope",
+     "correct": false
+    },
+    {
+     "text": "To give more sun",
+     "correct": false
+    },
+    {
+     "text": "To reduce soil being washed away",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why press the soil firmly around the seedling?",
+   "options": [
+    {
+     "text": "To remove air pockets so the roots touch the soil",
+     "correct": true
+    },
+    {
+     "text": "To break the roots",
+     "correct": false
+    },
+    {
+     "text": "To keep insects away",
+     "correct": false
+    },
+    {
+     "text": "To make the seedling taller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a seedling that is sick or broken?",
+   "options": [
+    {
+     "text": "Plant two together",
+     "correct": false
+    },
+    {
+     "text": "Plant it anyway",
+     "correct": false
+    },
+    {
+     "text": "Throw it out and use a healthy one",
+     "correct": true
+    },
+    {
+     "text": "Water it with fertiliser",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dead seedlings should be replaced while the soil is still wet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to ride on a tractor's drawbar to get to the land faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps are part of preparing the land? (select all that apply)",
+   "options": [
+    {
+     "text": "Burning plastic in the land",
+     "correct": false
+    },
+    {
+     "text": "Clearing old plants, weeds and stones",
+     "correct": true
+    },
+    {
+     "text": "Loosening the soil",
+     "correct": true
+    },
+    {
+     "text": "Marking the rows",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

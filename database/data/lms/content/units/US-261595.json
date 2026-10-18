@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261595",
+ "title": "Demonstrate basic knowledge of welfare issues relating to wildlife",
+ "lessons": [
+  {
+   "title": "Wildlife classifications, legislation and facilities",
+   "minutes": 16,
+   "html": "<h3>Classifying wildlife</h3>\n<p>Animal welfare workers increasingly deal with wild animals: injured animals brought to rehabilitation centres, animals in zoos, sanctuaries and breeding facilities, and wildlife kept illegally as pets. Wildlife can be classified in several ways:</p>\n<ul><li><strong>By origin</strong>: indigenous (native to South Africa) or alien (introduced from elsewhere).</li>\n<li><strong>By conservation status</strong>: from least concern to endangered and critically endangered, as listed nationally and by the IUCN Red List.</li>\n<li><strong>By legal protection</strong>: listed species under the Threatened or Protected Species (TOPS) regulations of the National Environmental Management: Biodiversity Act 10 of 2004, and categories under provincial conservation laws.</li>\n<li><strong>By management setting</strong>: free-ranging, managed on game farms, or held in captivity.</li></ul>\n<h4>Relevant legislation</h4>\n<ul><li>Biodiversity Act 10 of 2004 and TOPS: permits for keeping, breeding, moving and selling listed species.</li>\n<li>Provincial conservation laws: permits to keep, transport or rehabilitate wild animals.</li>\n<li>Animals Protection Act 71 of 1962: applies to wild animals in captivity or under human control.</li>\n<li>Performing Animals Protection Act 24 of 1935: for wild animals used in performances or films.</li>\n<li>Animal Diseases Act 35 of 1984: for diseases such as rabies and foot-and-mouth disease.</li></ul>\n<h4>General requirements in different facilities</h4>\n<table><tr><th>Facility</th><th>Main welfare requirements</th></tr>\n<tr><td>Zoos and aquaria</td><td>Enclosures meeting species needs, enrichment, vet care, education role</td></tr>\n<tr><td>Rehabilitation centres</td><td>Minimal human contact, preparation for release, permits</td></tr>\n<tr><td>Sanctuaries</td><td>Lifelong care for non-releasable animals, no breeding or trade</td></tr>\n<tr><td>Breeding facilities and game farms</td><td>Space, natural diet, social groups, safe handling</td></tr>\n<tr><td>Transport and holding</td><td>Crates, bomas, quiet, shade, water</td></tr></table>"
+  },
+  {
+   "title": "Welfare requirements and alien animals",
+   "minutes": 16,
+   "html": "<h3>Welfare requirements for wildlife</h3>\n<p>Wild animals are not domesticated; they do not get used to people in the way a dog or cow does. Stress is a major welfare problem and can kill.</p>\n<ul><li><strong>Space and shelter</strong>: enough room to move, hide and escape the sight of people and other species.</li>\n<li><strong>Diet</strong>: species-appropriate food; a browser needs browse, not only lucerne. Poor diet in captive animals leads to bone and dental disease.</li>\n<li><strong>Water</strong>: clean and always available.</li>\n<li><strong>Social needs</strong>: herd animals such as antelope need companions; solitary species such as leopards need to be housed alone.</li>\n<li><strong>Behavioural needs</strong>: foraging, climbing, digging, swimming and enrichment to prevent pacing and other abnormal behaviour.</li>\n<li><strong>Health care</strong>: a wildlife vet, parasite control, safe immobilisation and quarantine.</li>\n<li><strong>Handling</strong>: minimal, planned and quiet. Risks include capture myopathy and overheating.</li></ul>\n<h4>Public interaction concerns</h4>\n<p>Cub petting, walking with predators and selfies with wild animals are controversial. Young animals may be removed from their mothers early, and adult animals may later be sold or used in breeding. Welfare workers should understand the concerns and advise the public on responsible tourism.</p>\n<h4>Alien animals in the wildlife industry</h4>\n<p>Alien species are used in the industry for hunting, venison and the pet trade. Examples include fallow deer, Himalayan tahr, and exotic birds and reptiles kept as pets. Concerns include:</p>\n<ul><li>Escape and establishment in the wild, competing with or hybridising with indigenous species.</li>\n<li>Introduction of diseases and parasites.</li>\n<li>Welfare of exotic pets kept without proper knowledge or conditions.</li></ul>\n<p>The alien and invasive species regulations under the Biodiversity Act control which alien species may be kept, and some require permits. Releasing an alien animal into the wild is not acceptable.</p>\n<h4>Key points</h4>\n<ul><li>Wildlife is classified by origin, conservation status, legal protection and setting.</li>\n<li>The Biodiversity Act (TOPS) and provincial laws govern keeping and moving wildlife.</li>\n<li>Welfare needs include space, correct diet, social grouping, enrichment and minimal handling.</li>\n<li>Public interaction with wild animals raises welfare concerns.</li>\n<li>Alien animals can escape, spread disease and harm indigenous species; permits apply.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which regulations under the Biodiversity Act cover threatened or protected species?",
+   "options": [
+    {
+     "text": "Meat safety regulations",
+     "correct": false
+    },
+    {
+     "text": "Labour regulations",
+     "correct": false
+    },
+    {
+     "text": "Water use regulations",
+     "correct": false
+    },
+    {
+     "text": "TOPS regulations",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which facility gives lifelong care to non-releasable animals without breeding or trade?",
+   "options": [
+    {
+     "text": "Sanctuary",
+     "correct": true
+    },
+    {
+     "text": "Auction",
+     "correct": false
+    },
+    {
+     "text": "Abattoir",
+     "correct": false
+    },
+    {
+     "text": "Breeding facility",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a key aim in rehabilitation centres?",
+   "options": [
+    {
+     "text": "Training animals for shows",
+     "correct": false
+    },
+    {
+     "text": "Maximum human contact",
+     "correct": false
+    },
+    {
+     "text": "Selling animals",
+     "correct": false
+    },
+    {
+     "text": "Minimal human contact and preparation for release",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of an alien animal used in the wildlife industry?",
+   "options": [
+    {
+     "text": "Springbok",
+     "correct": false
+    },
+    {
+     "text": "Kudu",
+     "correct": false
+    },
+    {
+     "text": "Blesbok",
+     "correct": false
+    },
+    {
+     "text": "Fallow deer",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a solitary species such as a leopard have in captivity?",
+   "options": [
+    {
+     "text": "Housing alone",
+     "correct": true
+    },
+    {
+     "text": "No shelter",
+     "correct": false
+    },
+    {
+     "text": "A large mixed group",
+     "correct": false
+    },
+    {
+     "text": "A diet of lucerne",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The Animals Protection Act 71 of 1962 applies to wild animals in captivity or under human control.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Releasing an unwanted alien pet into the wild is an acceptable solution.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are concerns about alien animals? (select all that apply)",
+   "options": [
+    {
+     "text": "Introducing diseases and parasites",
+     "correct": true
+    },
+    {
+     "text": "Escape and establishment in the wild",
+     "correct": true
+    },
+    {
+     "text": "Hybridising with indigenous species",
+     "correct": true
+    },
+    {
+     "text": "Making veld fires less likely",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-260723",
+ "title": "Install, test and maintain a basic fluid power system",
+ "lessons": [
+  {
+   "title": "Fluid power principles and components",
+   "minutes": 20,
+   "html": "<h3>What fluid power is</h3><p>Fluid power uses a pressurised liquid (hydraulics) or compressed air (pneumatics) to transmit force and motion. On farms and landscape sites you find it in tractor three-point linkages and remotes, front-end loaders, tipping trailers, hydraulic valve actuators, workshop presses, air tools and pneumatic controls in packhouses.</p><h4>Pascal's principle</h4><p>Pressure applied to a confined fluid acts equally in all directions. Force = pressure &times; area. A small force on a small piston produces the same pressure on a large piston, which then exerts a larger force. This is how a hydraulic jack lifts a bakkie.</p><table><tr><th>Feature</th><th>Hydraulics</th><th>Pneumatics</th></tr><tr><td>Medium</td><td>Oil (incompressible)</td><td>Air (compressible)</td></tr><tr><td>Pressure</td><td>High; strong forces</td><td>Lower; lighter forces</td></tr><tr><td>Motion</td><td>Smooth, precise, holds position</td><td>Fast, can be springy</td></tr><tr><td>Leaks</td><td>Messy, environmental hazard</td><td>Clean but waste energy</td></tr></table><h4>Basic system components</h4><ul><li><strong>Reservoir (hydraulic) or receiver (pneumatic):</strong> stores the fluid or air.</li><li><strong>Pump or compressor:</strong> creates flow; pressure develops when flow meets resistance.</li><li><strong>Filters:</strong> keep fluid clean; dirt is the main cause of hydraulic failure. Pneumatic systems also have water separators and lubricators (FRL units).</li><li><strong>Pressure relief valve:</strong> limits maximum pressure to protect the system.</li><li><strong>Directional control valves:</strong> send fluid to one side of an actuator or the other; described by ports and positions, for example a 4/3 valve.</li><li><strong>Flow control valves:</strong> set the speed of actuators.</li><li><strong>Actuators:</strong> cylinders (single or double acting) for straight-line motion; motors for rotation.</li><li><strong>Hoses, pipes and fittings</strong> rated for the system pressure.</li><li><strong>Gauges</strong> to read pressure.</li></ul><h4>Circuit symbols</h4><p>Fluid power circuits are drawn with standard ISO 1219 symbols. Learn to read the symbols for pump, relief valve, directional valve, cylinder, filter and tank so you can follow a circuit diagram.</p>"
+  },
+  {
+   "title": "Installing a basic fluid power system safely",
+   "minutes": 20,
+   "html": "<h3>Hazards</h3><p>Fluid power systems store a lot of energy.</p><ul><li><strong>Fluid injection:</strong> a pinhole leak in a hydraulic hose can inject oil through the skin. It may look minor but is a medical emergency needing urgent surgical attention. Never feel for leaks with your hand; use cardboard.</li><li><strong>Stored pressure:</strong> accumulators and cylinders holding loads keep pressure after the pump stops.</li><li><strong>Falling loads:</strong> loaders, tipping bins and lifted implements can drop if a hose is disconnected or a valve moved. Lower loads to the ground or block them securely.</li><li><strong>Whipping hoses:</strong> a burst hose or loose air line can whip violently.</li><li><strong>Hot oil and burns, slippery floors, noise from compressors.</strong></li></ul><p>Under the OHS Act 85 of 1993, machinery must be made safe before maintenance: isolate the power source, release stored pressure, and lock out.</p><h4>Installation steps</h4><ol><li>Study the circuit diagram and parts list. Check that all components are rated for the maximum system pressure and flow.</li><li>Mount the pump, reservoir, valves and actuators securely, aligned to avoid side loads on cylinder rods.</li><li>Clean all components and lines before assembly; cap open ports to keep dirt out.</li><li>Route hoses with no twisting, sharp bends or rubbing on edges; allow length for movement; use clamps and protective sleeves. Never exceed the hose's minimum bend radius.</li><li>Use correct fittings and seals; do not mix thread types. Tighten to the specified torque.</li><li>Fill the reservoir with the correct, clean fluid grade through a filter.</li><li>For pneumatics, fit an FRL unit (filter, regulator, lubricator) at the supply point and drain valves on receivers.</li><li>Label lines and valves as on the diagram.</li></ol><h4>Personal protection</h4><p>Wear safety glasses, gloves suited to oils, and safety boots. Clean up spills immediately with absorbent material and dispose of oily waste correctly; never wash oil into drains or soil.</p>"
+  },
+  {
+   "title": "Testing, commissioning and maintaining the system",
+   "minutes": 20,
+   "html": "<h3>Commissioning</h3><ol><li>Check all connections, levels and that the relief valve is set low initially (or as the procedure specifies).</li><li>Make sure people are clear of actuators and the load path.</li><li>Start the pump or compressor briefly to check rotation and that it delivers flow.</li><li>Bleed air from hydraulic lines and cylinders by cycling actuators slowly through full stroke with no load. Air causes spongy, jerky movement.</li><li>Raise the relief valve to the specified setting while watching the gauge. Never set it above the lowest-rated component.</li><li>Test each function: correct direction, speed (adjust flow controls), holding under load, and smooth operation.</li><li>Check for leaks, temperature rise and noise. Top up fluid after bleeding.</li></ol><h4>Routine maintenance</h4><table><tr><th>Task</th><th>Why</th></tr><tr><td>Check fluid level and condition</td><td>Milky oil means water; dark or burnt smell means overheating</td></tr><tr><td>Replace filters as scheduled or when indicators show</td><td>Dirt causes valve sticking and pump wear</td></tr><tr><td>Inspect hoses for cracks, bulges, abrasion and leaking fittings</td><td>Prevent bursts and injection injuries</td></tr><tr><td>Check cylinder rods for scoring and seals for leaks</td><td>Damaged rods destroy seals</td></tr><tr><td>Drain water from air receivers and filters daily</td><td>Water corrodes and damages pneumatic parts</td></tr><tr><td>Check pressure settings</td><td>Confirm relief valve and regulators are correct</td></tr></table><h4>Fault finding</h4><ul><li><strong>Slow actuator:</strong> low flow, worn pump, internal leakage, flow control set too low, clogged filter.</li><li><strong>No movement:</strong> no pressure, relief valve stuck open, valve not shifting, load too high.</li><li><strong>Overheating:</strong> relief valve constantly blowing off, low fluid level, blocked cooler.</li><li><strong>Noisy pump:</strong> cavitation from blocked suction strainer, low fluid, air leak in suction.</li><li><strong>Load creeps down:</strong> worn cylinder seals or leaking valve.</li></ul><h4>Records</h4><p>Keep a record of settings, fluid type, filter changes, hose replacements with dates, and faults, so recurring problems are spotted.</p><h4>Key points</h4><ul><li>Force = pressure &times; area; hydraulics use oil, pneumatics use air.</li><li>Never check for hydraulic leaks by hand; injection injuries are emergencies.</li><li>Lower loads, release pressure and lock out before work.</li><li>Keep fluid clean, bleed air and set relief valves correctly.</li><li>Inspect hoses, filters and seals regularly and record the work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does Pascal's principle state?",
+   "options": [
+    {
+     "text": "Pressure applied to a confined fluid acts equally in all directions",
+     "correct": true
+    },
+    {
+     "text": "Air is incompressible",
+     "correct": false
+    },
+    {
+     "text": "Flow is constant in all pipes",
+     "correct": false
+    },
+    {
+     "text": "Oil expands when pressurised",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you check a hydraulic hose for a pinhole leak?",
+   "options": [
+    {
+     "text": "Run your hand along it",
+     "correct": false
+    },
+    {
+     "text": "Squeeze it while pressurised",
+     "correct": false
+    },
+    {
+     "text": "Listen with your ear against it",
+     "correct": false
+    },
+    {
+     "text": "Pass a piece of cardboard along it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main cause of hydraulic system failure?",
+   "options": [
+    {
+     "text": "Too much paint",
+     "correct": false
+    },
+    {
+     "text": "Dirt in the fluid",
+     "correct": true
+    },
+    {
+     "text": "Cold weather",
+     "correct": false
+    },
+    {
+     "text": "Using cardboard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are cylinders cycled slowly through full stroke during commissioning?",
+   "options": [
+    {
+     "text": "To heat the oil",
+     "correct": false
+    },
+    {
+     "text": "To test the paint",
+     "correct": false
+    },
+    {
+     "text": "To bleed air from the lines and cylinders",
+     "correct": true
+    },
+    {
+     "text": "To set the relief valve",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Milky hydraulic oil usually indicates what?",
+   "options": [
+    {
+     "text": "Water in the oil",
+     "correct": true
+    },
+    {
+     "text": "Overheating",
+     "correct": false
+    },
+    {
+     "text": "Correct operation",
+     "correct": false
+    },
+    {
+     "text": "Too much filter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A load held up by a hydraulic cylinder can drop if a hose is disconnected.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The relief valve may be set above the rating of the weakest component for extra power.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What is part of routine fluid power maintenance? (select all that apply)",
+   "options": [
+    {
+     "text": "Checking fluid level and condition",
+     "correct": true
+    },
+    {
+     "text": "Replacing filters",
+     "correct": true
+    },
+    {
+     "text": "Draining water from air receivers",
+     "correct": true
+    },
+    {
+     "text": "Removing the relief valve",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

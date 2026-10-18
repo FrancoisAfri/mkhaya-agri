@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116319",
+ "title": "Prepare a whole farm budget and establish a proper integrated information system for an agri-business",
+ "lessons": [
+  {
+   "title": "Building enterprise budgets",
+   "minutes": 15,
+   "html": "<h3>From enterprise budgets to the whole farm</h3><p>A whole farm budget is a plan in rand of all the income and costs of the farm for the coming year. It is built from smaller <strong>enterprise budgets</strong>: one for each activity such as maize, soybeans, a beef herd, a broiler unit or a vegetable tunnel.</p><h4>Parts of an enterprise budget</h4><ul><li><strong>Gross production value</strong>: expected yield times expected price, for example 6 t/ha maize at R3 800 per ton on 120 ha.</li><li><strong>Directly allocated variable costs</strong>: seed, fertiliser, chemicals, fuel, repairs, contract work, seasonal labour, feed, vet costs, packaging, transport and marketing costs.</li><li><strong>Gross margin</strong>: gross production value minus directly allocated variable costs.</li></ul><p>Gross margins let you compare enterprises. If soybeans give a higher gross margin per hectare than maize on the same land, management may shift area towards soybeans, while still respecting crop rotation.</p><h4>Where the numbers come from</h4><p>Use your own farm records first: yields per block, actual input use and last year's invoices. Add current quotes from suppliers, the latest market price outlook and guideline budgets from organisations such as Grain SA or provincial departments of agriculture. Write down your assumptions so others can check them.</p><h4>Risk in the budget</h4><p>Yields and prices change. A good habit is to calculate the gross margin for a bad, normal and good year. This sensitivity test shows how much the enterprise can carry before it loses money, and it helps when talking to the bank.</p><p>Example: a 120 ha maize block at 6 t/ha and R3 800 per ton gives a gross production value of about R2,74 million. If directly allocated costs are R1,9 million, the gross margin is about R840 000, or R7 000 per hectare.</p>"
+  },
+  {
+   "title": "The whole farm budget and cash flow",
+   "minutes": 15,
+   "html": "<h3>Adding overheads and cash timing</h3><p>The whole farm budget adds together the gross margins of all enterprises and then subtracts the costs that cannot be allocated to one enterprise, called <strong>overhead</strong> or fixed costs.</p><h4>Overhead costs</h4><ul><li>Permanent salaries and wages, and statutory payments such as UIF</li><li>Insurance, licences, municipal rates and electricity for the homestead and offices</li><li>Depreciation of buildings, vehicles and machinery</li><li>Office, telephone, accounting and audit fees</li><li>Interest on loans and rent for leased land</li></ul><p><strong>Total gross margin minus overhead costs = net farm income.</strong> This is the money available to pay off capital debt, to reinvest and to reward the owner.</p><h4>Cash flow budget</h4><p>A profit on paper does not mean money in the bank every month. A cash flow budget lists expected cash in and cash out for each month. For a summer grain farm, big payments for seed, fertiliser and chemicals fall in September to December, while income only comes after harvest in May to July. The cash flow shows how much production credit you need and when, so you can arrange it with the bank or co-op before planting.</p><h4>Capital budget</h4><p>Large purchases such as a new tractor, a borehole or a broiler house go in a separate capital budget. Compare the cost with the expected extra income or savings over several years.</p><h4>Monitoring</h4><p>Each month compare actual figures with the budget. Explain big variances, for example a diesel price increase or a hail-damaged block, and update the forecast. A budget that is never checked is of little value.</p>"
+  },
+  {
+   "title": "An integrated farm information system",
+   "minutes": 15,
+   "html": "<h3>Getting the right information to the right people</h3><p>A budget is only as good as the information behind it. An integrated information system links the records of all parts of the farm so that data is entered once and used many times.</p><h4>What the system should hold</h4><table><tr><th>Area</th><th>Examples of records</th></tr><tr><td>Production</td><td>Planting dates, inputs per block, yields, animal numbers, births, deaths, weights</td></tr><tr><td>Stores</td><td>Stock received and issued, chemical register, fuel use per vehicle</td></tr><tr><td>Labour</td><td>Attendance, hours per task, leave, training</td></tr><tr><td>Finance</td><td>Invoices, payments, income, loans, budget versus actual</td></tr><tr><td>Assets</td><td>Machinery hours, services, repairs, depreciation</td></tr></table><h4>Design principles</h4><ol><li>Decide which reports management needs: gross margin per enterprise, cost per ton or per kilogram, monthly cash flow.</li><li>Work backwards to the data needed and who records it.</li><li>Use one coding system so that a fuel slip, a labour sheet and a fertiliser issue can all be linked to the same block or enterprise.</li><li>Capture data close to the source, for example on a phone app in the field, and check it weekly.</li><li>Protect the data: passwords, back-ups and limited access to payroll and personal information, as required by the Protection of Personal Information Act.</li></ol><h4>Using the information</h4><p>Hold a monthly meeting where supervisors review the reports for their sections. When people see their own data used, record keeping improves.</p><h4>Key points</h4><ul><li>Gross margin is gross production value minus directly allocated variable costs.</li><li>Total gross margin minus overhead costs gives net farm income.</li><li>A cash flow budget shows the monthly timing of cash and credit needs.</li><li>Compare actual results with the budget every month and explain variances.</li><li>An integrated system uses one coding system so data is captured once and used for many reports.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the gross margin of an enterprise?",
+   "options": [
+    {
+     "text": "Gross production value minus directly allocated variable costs",
+     "correct": true
+    },
+    {
+     "text": "Total income minus all overheads",
+     "correct": false
+    },
+    {
+     "text": "Yield multiplied by area",
+     "correct": false
+    },
+    {
+     "text": "The bank loan for the season",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is an overhead cost?",
+   "options": [
+    {
+     "text": "Maize seed",
+     "correct": false
+    },
+    {
+     "text": "Fertiliser for a block",
+     "correct": false
+    },
+    {
+     "text": "Insurance on farm buildings",
+     "correct": true
+    },
+    {
+     "text": "Feed for broilers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a cash flow budget mainly show?",
+   "options": [
+    {
+     "text": "The value of the land",
+     "correct": false
+    },
+    {
+     "text": "The monthly timing of cash coming in and going out",
+     "correct": true
+    },
+    {
+     "text": "Which crop has the best yield",
+     "correct": false
+    },
+    {
+     "text": "The number of workers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why calculate a gross margin for a bad, normal and good year?",
+   "options": [
+    {
+     "text": "To impress the auditor",
+     "correct": false
+    },
+    {
+     "text": "To avoid buying inputs",
+     "correct": false
+    },
+    {
+     "text": "To work out depreciation",
+     "correct": false
+    },
+    {
+     "text": "To see how much risk the enterprise can carry",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In an integrated information system, why use one coding system for blocks and enterprises?",
+   "options": [
+    {
+     "text": "So records can be deleted easily",
+     "correct": false
+    },
+    {
+     "text": "So different records can be linked to the same block or enterprise",
+     "correct": true
+    },
+    {
+     "text": "So fewer reports are needed",
+     "correct": false
+    },
+    {
+     "text": "So workers do not need training",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Net farm income is total gross margin minus overhead costs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A farm showing a profit in its budget will always have enough cash every month.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good principles for a farm information system? (select all that apply)",
+   "options": [
+    {
+     "text": "Capture data close to the source",
+     "correct": true
+    },
+    {
+     "text": "Protect personal information with passwords and limited access",
+     "correct": true
+    },
+    {
+     "text": "Keep separate unlinked spreadsheets for every person",
+     "correct": false
+    },
+    {
+     "text": "Decide first which reports management needs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

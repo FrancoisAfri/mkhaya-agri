@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909-001-01-KM-02",
+ "title": "Material Handling Equipment;",
+ "lessons": [
+  {
+   "title": "Types of material handling equipment in a feed mill",
+   "minutes": 15,
+   "html": "<h3>What is material handling?</h3>\n<p>In a feed mill, raw materials such as maize, soya oilcake, wheat bran, molasses and minerals must be moved from the truck to storage, from storage to the mill and mixer, and finally to bagging or bulk out-loading. Material handling equipment does this moving. Knowing how each machine works helps you run it safely and spot problems early.</p>\n<h4>Conveying equipment</h4>\n<ul>\n<li><strong>Screw (auger) conveyors</strong> – a rotating screw inside a trough or tube pushes material along. Common for meal and short distances.</li>\n<li><strong>Drag chain (en-masse) conveyors</strong> – paddles on a chain drag grain or meal along a closed box. Good for long, level runs.</li>\n<li><strong>Belt conveyors</strong> – a rubber belt carries bulk grain over long distances.</li>\n<li><strong>Bucket elevators</strong> – buckets on a belt lift material vertically to the top of silos and bins.</li>\n<li><strong>Pneumatic conveying</strong> – air blows or sucks material through pipes.</li>\n</ul>\n<h4>Storage and flow equipment</h4>\n<ul>\n<li>Silos and bins with slide gates and discharge valves.</li>\n<li>Distributors and diverter valves that send product to the right bin.</li>\n<li>Feeders and screw dosers that control flow into a mill or mixer.</li>\n<li>Magnets and scalpers that remove metal and large rubbish.</li>\n</ul>\n<h4>Mobile equipment</h4>\n<ul>\n<li>Forklifts for pallets of bagged feed and raw materials.</li>\n<li>Pallet jacks and hand trolleys.</li>\n<li>Front-end loaders in some bulk stores.</li>\n</ul>\n<p>Forklifts and other lifting machines may only be driven by trained and authorised operators. Never drive one you have not been trained and appointed to use.</p>\n<p>Each machine has a rated capacity in tonnes per hour. Running conveyors above their capacity causes chokes, spillage and motor overloads; running one machine faster than the next one can take will cause a back-up and a choke.</p>"
+  },
+  {
+   "title": "Safe operation and basic care",
+   "minutes": 15,
+   "html": "<h3>Main hazards</h3>\n<p>Material handling equipment can injure or kill. The main hazards are:</p>\n<ul>\n<li>Entanglement in screws, chains, belts, pulleys and shafts.</li>\n<li>Being struck or crushed by forklifts and falling pallets or bags.</li>\n<li>Dust, which can harm your lungs and can explode if a dust cloud is ignited.</li>\n<li>Noise from conveyors, fans and elevators.</li>\n<li>Falls from ladders, platforms and silo tops.</li>\n</ul>\n<h3>Safe work rules</h3>\n<ol>\n<li>Never remove or bypass guards on moving parts.</li>\n<li>Never reach into a screw conveyor, elevator boot or chain conveyor while it can move.</li>\n<li>Before clearing a choke or doing maintenance, switch off and <strong>lock out</strong> the machine at the isolator, tag it and test that it will not start.</li>\n<li>Keep emergency stops and pull-cords working and know where they are.</li>\n<li>Wear the PPE required: safety boots, hearing protection, dust mask and high-visibility clothing in forklift areas.</li>\n<li>Walk only in marked walkways and keep clear of forklift routes.</li>\n<li>Report damaged equipment, unusual noises, hot bearings or belt slipping immediately.</li>\n</ol>\n<p>The Occupational Health and Safety Act 85 of 1993 requires the employer to provide safe machinery and training, and requires employees to follow safe procedures and report unsafe conditions.</p>\n<h3>Daily checks</h3>\n<ul>\n<li>Look for spillage and dust build-up around conveyors and clean it up.</li>\n<li>Check belt tracking and tension on belt conveyors and elevators.</li>\n<li>Listen for knocking or squealing from bearings and gearboxes.</li>\n<li>Check that magnets are clean and covers are closed.</li>\n<li>Check forklift tyres, forks, brakes, hooter and fluid levels before use.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Feed mills use screw, chain, belt and pneumatic conveyors, bucket elevators and forklifts.</li>\n<li>Never run equipment above its rated capacity.</li>\n<li>Always lock out, tag and test before clearing chokes or maintaining machines.</li>\n<li>Never remove guards and only operate forklifts if trained and authorised.</li>\n<li>Do daily checks and report faults straight away.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which equipment lifts grain vertically to the top of a silo?",
+   "options": [
+    {
+     "text": "Belt conveyor",
+     "correct": false
+    },
+    {
+     "text": "Pallet jack",
+     "correct": false
+    },
+    {
+     "text": "Screw doser",
+     "correct": false
+    },
+    {
+     "text": "Bucket elevator",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of a magnet in the handling line?",
+   "options": [
+    {
+     "text": "To mix ingredients",
+     "correct": false
+    },
+    {
+     "text": "To remove metal from the material",
+     "correct": true
+    },
+    {
+     "text": "To speed up the conveyor",
+     "correct": false
+    },
+    {
+     "text": "To measure moisture",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before clearing a choke in a screw conveyor?",
+   "options": [
+    {
+     "text": "Switch off, lock out, tag and test that it cannot start",
+     "correct": true
+    },
+    {
+     "text": "Increase the speed to push the choke through",
+     "correct": false
+    },
+    {
+     "text": "Reach in quickly while it is running slowly",
+     "correct": false
+    },
+    {
+     "text": "Ask a colleague to hold the start button",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if one conveyor feeds faster than the next one can take?",
+   "options": [
+    {
+     "text": "Material backs up and causes a choke",
+     "correct": true
+    },
+    {
+     "text": "The motor uses less power",
+     "correct": false
+    },
+    {
+     "text": "Nothing happens",
+     "correct": false
+    },
+    {
+     "text": "Product quality improves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may drive a forklift in the mill?",
+   "options": [
+    {
+     "text": "Any worker during a busy shift",
+     "correct": false
+    },
+    {
+     "text": "Anyone who has driven a car",
+     "correct": false
+    },
+    {
+     "text": "Visitors with permission",
+     "correct": false
+    },
+    {
+     "text": "Only trained and authorised operators",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Guards may be removed to make cleaning faster as long as you are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A cloud of fine feed dust can explode if it is ignited.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are daily checks on material handling equipment? (select all that apply)",
+   "options": [
+    {
+     "text": "Listening for noisy bearings",
+     "correct": true
+    },
+    {
+     "text": "Cleaning spillage and dust",
+     "correct": true
+    },
+    {
+     "text": "Removing guards for inspection during running",
+     "correct": false
+    },
+    {
+     "text": "Belt tracking and tension",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

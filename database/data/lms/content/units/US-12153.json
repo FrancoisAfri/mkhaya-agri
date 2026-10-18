@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-12153",
+ "title": "Use the writing process to compose texts required in the business environment",
+ "lessons": [
+  {
+   "title": "Planning business writing",
+   "minutes": 20,
+   "html": "<h3>The writing process</h3><p>Business writing in agri sales and services includes emails to suppliers, quotations to farmers, letters about overdue accounts, product notices, reports to management and short articles for a co-op newsletter. Good writing is not a gift; it is a process with clear steps: plan, draft, revise, edit and proofread, then publish or send.</p><h4>Step 1: Know your purpose</h4><p>Ask: Why am I writing? To inform, to request, to persuade, to complain, or to record? Write your purpose in one sentence before you start. For example: \"To ask the supplier to replace 20 damaged bags of 2:3:2 fertiliser delivered on 4 March.\"</p><h4>Step 2: Know your audience</h4><ul><li>Who will read it: a farmer, a supplier's credit department, your manager, a government official?</li><li>What do they already know? What do they need to know?</li><li>What tone suits them: formal, friendly but professional, firm?</li><li>What language level and language? Many farm customers prefer short, plain sentences.</li></ul><h4>Step 3: Choose the format</h4><table><tr><th>Text</th><th>Typical use</th></tr><tr><td>Email</td><td>Quick requests, confirmations, routine communication</td></tr><tr><td>Formal letter</td><td>Account matters, legal or official correspondence</td></tr><tr><td>Memo</td><td>Internal instructions or notices</td></tr><tr><td>Report</td><td>Information and recommendations for decision-makers</td></tr><tr><td>Notice or flyer</td><td>Promotions, farmers' days, store hours</td></tr></table><h4>Step 4: Gather and organise information</h4><p>Collect facts: dates, order numbers, quantities, prices. Brainstorm the points and then put them in a logical order. A simple structure works for most business texts: <strong>opening</strong> (purpose), <strong>body</strong> (details, one main idea per paragraph), <strong>closing</strong> (what you want the reader to do next).</p>"
+  },
+  {
+   "title": "Drafting, revising and editing",
+   "minutes": 20,
+   "html": "<h3>Drafting</h3><p>Write a first draft quickly, following your plan. Do not stop to perfect every sentence. Use plain language:</p><ul><li>Short sentences, average 15 to 20 words.</li><li>Active voice: \"We will deliver the seed on Friday\" rather than \"The seed will be delivered by us on Friday.\"</li><li>Concrete words: \"20 bags damaged by water\" rather than \"some issues with the stock.\"</li><li>Avoid jargon the reader may not know, or explain it.</li></ul><h4>Revising: the big picture</h4><p>Put the draft aside, then reread it as the reader. Ask:</p><ol><li>Is the purpose clear in the first paragraph?</li><li>Is anything missing that the reader needs?</li><li>Is anything there that the reader does not need?</li><li>Is the order logical?</li><li>Is the tone right? A late-payment letter should be firm but respectful, never threatening or insulting.</li></ol><h4>Editing and proofreading</h4><p>Now check the details: spelling, grammar, punctuation, names, numbers, dates and amounts. In business, a wrong figure is serious; R12,500 typed as R1,250 on a quote can cost the business or anger the customer. Read numbers aloud against the source documents. Spell-check helps but will not catch \"form\" instead of \"from\".</p><h4>Example: before and after</h4><p><em>Before:</em> \"Hi, the stuff you sent was a problem, pls sort out asap.\"</p><p><em>After:</em> \"Good morning Ms Naidoo. On 4 March we received order PO 4471. Twenty of the 100 bags of 2:3:2 fertiliser were wet and torn and could not be sold. Please arrange replacement or a credit note by 15 March. Photographs and the signed delivery note are attached. Regards, Thabo Mokoena, Receiving, Mkhaya Agri Store.\"</p><h4>Getting feedback</h4><p>For important documents, ask a colleague or your manager to read the draft. Accept feedback as help, not criticism.</p>"
+  },
+  {
+   "title": "Presenting and sending the final text",
+   "minutes": 15,
+   "html": "<h3>Layout and presentation</h3><p>Presentation affects how seriously a text is taken. Use the company template where one exists, with the logo, address, VAT number and registration details. Use headings in reports, white space between paragraphs, and bullet points for lists. Keep fonts consistent and readable.</p><h4>Format conventions</h4><ul><li><strong>Formal letter:</strong> sender's address, date, recipient's name and address, reference line, salutation, body, closing (\"Yours sincerely\"), name, title and signature.</li><li><strong>Email:</strong> a specific subject line (\"Credit request: PO 4471 damaged fertiliser\"), greeting, short body, clear request, signature block with contact details.</li><li><strong>Report:</strong> title, introduction (purpose and scope), findings, conclusions, recommendations, appendices if needed.</li><li><strong>Memo:</strong> To, From, Date, Subject, then short body.</li></ul><h4>Before you send</h4><ol><li>Check the recipient's name and email address, especially with auto-complete.</li><li>Check attachments are actually attached and are the right versions.</li><li>Check that you are not sharing personal information that should be protected under POPIA, such as another customer's account details.</li><li>Consider whether anyone else must be copied, and whether copying is appropriate.</li></ol><h4>Keeping records</h4><p>Save sent letters and important emails in the correct customer or supplier file. Business correspondence can become evidence in a dispute, so keep it organised.</p><h4>Reflect and improve</h4><p>Notice what works. If customers keep phoning to ask what a notice means, it was not clear. Use the response to improve the next text.</p><h4>Key points</h4><ul><li>Writing is a process: plan, draft, revise, edit, send.</li><li>Start with purpose and audience.</li><li>Use plain language, active voice and concrete facts.</li><li>Check every name, number, date and amount.</li><li>Use the correct format and keep records of what you send.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first step in the writing process?",
+   "options": [
+    {
+     "text": "Send the email",
+     "correct": false
+    },
+    {
+     "text": "Proofread",
+     "correct": false
+    },
+    {
+     "text": "Choose a font",
+     "correct": false
+    },
+    {
+     "text": "Plan your purpose and audience",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sentence is in the active voice?",
+   "options": [
+    {
+     "text": "Seed delivered Friday was",
+     "correct": false
+    },
+    {
+     "text": "The seed will be delivered by us on Friday",
+     "correct": false
+    },
+    {
+     "text": "We will deliver the seed on Friday",
+     "correct": true
+    },
+    {
+     "text": "Delivery of seed is to be done",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which format best suits an internal instruction to staff?",
+   "options": [
+    {
+     "text": "Newsletter article",
+     "correct": false
+    },
+    {
+     "text": "Memo",
+     "correct": true
+    },
+    {
+     "text": "Flyer for farmers",
+     "correct": false
+    },
+    {
+     "text": "Formal letter to a bank",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main focus of revising, as opposed to proofreading?",
+   "options": [
+    {
+     "text": "The big picture: purpose, content, order and tone",
+     "correct": true
+    },
+    {
+     "text": "Font size",
+     "correct": false
+    },
+    {
+     "text": "Spelling only",
+     "correct": false
+    },
+    {
+     "text": "The signature",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which subject line is best?",
+   "options": [
+    {
+     "text": "Problem",
+     "correct": false
+    },
+    {
+     "text": "Hi",
+     "correct": false
+    },
+    {
+     "text": "Urgent!!!",
+     "correct": false
+    },
+    {
+     "text": "Credit request: PO 4471 damaged fertiliser",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spell-check will catch every error, so proofreading is not needed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A late-payment letter should be firm but respectful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check before sending an email? (select all that apply)",
+   "options": [
+    {
+     "text": "Recipient's address",
+     "correct": true
+    },
+    {
+     "text": "Attachments are attached",
+     "correct": true
+    },
+    {
+     "text": "That no protected personal information is shared wrongly",
+     "correct": true
+    },
+    {
+     "text": "The weather forecast",
+     "correct": false
+    },
+    {
+     "text": "Your lunch order",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

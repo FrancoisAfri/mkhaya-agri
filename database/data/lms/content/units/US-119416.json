@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119416",
+ "title": "Apply bio-security in poultry production",
+ "lessons": [
+  {
+   "title": "What bio-security is and why it matters",
+   "minutes": 15,
+   "html": "<h3>What bio-security is and why it matters</h3><p>Bio-security means all the things we do to keep diseases out of the farm and to stop them spreading from one house to another. Germs are too small to see. They travel on people, boots, clothes, vehicles, crates, wild birds, rats and flies.</p><h4>Why it matters</h4><p>Some poultry diseases, like bird flu (avian influenza) and Newcastle disease, can kill many birds very fast. When bird flu has broken out in South Africa, millions of birds have had to be killed. A farm can lose its whole flock and its income. Some diseases must by law be reported to the state vet under the Animal Diseases Act 35 of 1984.</p><h4>How germs get in</h4><ul><li><strong>People</strong>: on hands, boots and clothes, especially people who keep their own chickens at home.</li><li><strong>Vehicles</strong>: feed trucks, bakkies and egg trucks bring dirt on their wheels.</li><li><strong>Equipment</strong>: crates, trays and tools moved between farms or houses.</li><li><strong>Wild birds, rats and mice</strong>: they carry germs and eat feed.</li><li><strong>Dead birds</strong>: left lying around, they attract dogs, jackals and flies.</li><li><strong>Dirty water and feed</strong>.</li></ul><h4>Your part</h4><p>Bio-security only works if every worker follows the rules every day. One person who skips the foot bath can bring disease into a house of thousands of birds. Do not keep your own chickens or pigeons at home if the farm rules say so, and never bring birds onto the farm.</p><h4>Visitors</h4><p>Visitors are a big risk. Only people with a reason to be there may enter. They must sign the book, wear clean farm clothes and boots, and should not have been on another poultry farm recently. Ask your supervisor before you let anyone in.</p>"
+  },
+  {
+   "title": "Bio-security rules in daily work",
+   "minutes": 15,
+   "html": "<h3>Bio-security rules in daily work</h3><h4>Entering the farm and the house</h4><ol><li>Sign the visitors or entry book at the gate.</li><li>Vehicles drive through the wheel bath or are sprayed at the gate.</li><li>Shower in and change into farm clothes and boots if your farm has a shower block.</li><li>Step into the foot bath at every house door. Brush off mud first, because dirt stops the disinfectant working.</li><li>Wash or sanitise your hands.</li></ol><h4>Foot baths</h4><ul><li>Keep them filled with the correct disinfectant mixed as the label says.</li><li>Change them when they are dirty or as often as the farm rule says.</li><li>Wear gloves and eye protection when you mix disinfectant.</li></ul><h4>Working order</h4><p>Work from the youngest birds to the oldest, and from healthy houses to sick houses. Never go from a sick house back to young chicks on the same day without a full change and wash.</p><h4>Dead birds</h4><ul><li>Collect dead birds every day.</li><li>Put them in the closed bin or take them to the incinerator, pit or composting place the farm uses.</li><li>Never throw them in the veld or give them to dogs.</li></ul><h4>Pests and wild birds</h4><ul><li>Keep doors and nets closed so wild birds cannot get in.</li><li>Clean up spilt feed.</li><li>Report rats and holes in walls.</li><li>Only trained staff may handle rat poison.</li></ul><h4>Report at once</h4><p>Tell your supervisor straight away if many birds die suddenly, birds have swollen heads, stop eating or drinking, or eggs drop sharply.</p><h4>Key points</h4><ul><li>Bio-security keeps disease out and stops it spreading.</li><li>Germs travel on people, vehicles, equipment, pests and wild birds.</li><li>Use the foot bath at every door and brush off mud first.</li><li>Work from young to old and from healthy to sick.</li><li>Remove dead birds daily and report sudden deaths at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does bio-security mean?",
+   "options": [
+    {
+     "text": "Locking the farm gate at night",
+     "correct": false
+    },
+    {
+     "text": "Keeping diseases out of the farm and stopping them spreading",
+     "correct": true
+    },
+    {
+     "text": "Guarding the eggs from theft",
+     "correct": false
+    },
+    {
+     "text": "Giving birds more feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you brush off mud before stepping into a foot bath?",
+   "options": [
+    {
+     "text": "Dirt stops the disinfectant working",
+     "correct": true
+    },
+    {
+     "text": "To keep your boots shiny",
+     "correct": false
+    },
+    {
+     "text": "Mud makes the water too cold",
+     "correct": false
+    },
+    {
+     "text": "There is no reason",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should you work through the houses?",
+   "options": [
+    {
+     "text": "From sick houses to healthy houses",
+     "correct": false
+    },
+    {
+     "text": "From oldest birds to youngest",
+     "correct": false
+    },
+    {
+     "text": "In any order",
+     "correct": false
+    },
+    {
+     "text": "From youngest to oldest and healthy to sick",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with dead birds?",
+   "options": [
+    {
+     "text": "Throw them in the veld",
+     "correct": false
+    },
+    {
+     "text": "Give them to the farm dogs",
+     "correct": false
+    },
+    {
+     "text": "Put them in the closed bin or the farm disposal place",
+     "correct": true
+    },
+    {
+     "text": "Leave them in the house until the end of the week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign you must report to your supervisor straight away?",
+   "options": [
+    {
+     "text": "Birds eating normally",
+     "correct": false
+    },
+    {
+     "text": "Many birds dying suddenly",
+     "correct": true
+    },
+    {
+     "text": "A full feed silo",
+     "correct": false
+    },
+    {
+     "text": "Clean drinkers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Bird flu and Newcastle disease can kill many birds very fast.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Bio-security works even if only some workers follow the rules.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "How can germs get into a poultry farm? (select all that apply)",
+   "options": [
+    {
+     "text": "On people's boots and clothes",
+     "correct": true
+    },
+    {
+     "text": "On vehicle wheels",
+     "correct": true
+    },
+    {
+     "text": "Through wild birds and rats",
+     "correct": true
+    },
+    {
+     "text": "Through a clean, closed water tank",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

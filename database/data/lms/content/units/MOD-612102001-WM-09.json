@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-612102001-WM-09",
+ "title": "Dairy farming management processes and systems",
+ "lessons": [
+  {
+   "title": "Planning the dairy business",
+   "minutes": 18,
+   "html": "<h3>The dairy as a system</h3>\n<p>A dairy unit is a set of linked systems: the herd, feed (pastures, silage, concentrates), the milking parlour, people, money and compliance. A decision in one system ripples through the others. For example, cutting concentrate to save cash may lower yield, worsen body condition and lengthen the calving interval a year later. The dairy unit manager must see and manage the whole system rather than putting out fires one at a time.</p>\n<h4>Setting objectives</h4>\n<p>Start with a clear annual plan agreed with the owner. Typical targets include:</p>\n<ul>\n<li>Litres sold per cow per year and per hectare</li>\n<li>Milk solids (butterfat and protein) and quality bonuses</li>\n<li>Calving interval and age at first calving of heifers</li>\n<li>Somatic cell count and bacterial count targets</li>\n<li>Feed cost per litre and margin over feed cost</li>\n<li>Cow mortality, culling rate and replacement rate</li>\n</ul>\n<h4>Choosing a production system</h4>\n<p>South African dairies range from pasture-based systems on the Eastern Cape coast and the KZN Midlands, where kikuyu and ryegrass carry most of the feed, to total mixed ration (TMR) systems in drier inland areas where cows are housed or kept in feedlots. Pasture systems usually have lower cost per litre but more variable yields and are exposed to rainfall and irrigation costs. TMR systems give higher, steadier yields but depend on bought-in feed prices and need more capital in housing, mixer wagons and effluent handling. The manager must know which drivers matter most in the chosen system.</p>\n<h4>Budgeting</h4>\n<p>Build a monthly cash-flow budget: expected litres times expected price, less feed, labour, veterinary, electricity, fuel, repairs, fertiliser and finance costs. Compare actual results monthly and explain big variances. A budget is a management tool, not just a document for the bank.</p>"
+  },
+  {
+   "title": "Herd management systems",
+   "minutes": 18,
+   "html": "<h3>Reproduction</h3>\n<p>Reproduction drives milk production because a cow only produces after calving. Key processes are heat detection (tail paint, activity collars, observation), timely insemination by a trained AI technician or bull, pregnancy diagnosis by the vet, and a calving programme. Monitor submission rate, conception rate and calving interval each month. A drop in conception often signals a feeding or health problem, not only an AI problem.</p>\n<h3>Health</h3>\n<p>Work with your vet on a written herd health plan that covers vaccination, parasite control, mastitis control, lameness, and the dry cow and transition period. Diseases such as brucellosis and tuberculosis are controlled under the Animal Diseases Act 35 of 1984, so testing and reporting requirements must be followed as your state vet or private vet directs. Record every treatment and keep medicine withdrawal periods as the label or vet specifies.</p>\n<h3>Youngstock and replacements</h3>\n<p>Heifers are the future herd. Set growth targets with your vet or nutritionist, weigh or measure calves regularly and check colostrum management. Poor heifer rearing shows up two years later as small first-calvers and low yields.</p>\n<h3>Feeding management</h3>\n<p>Feed is the largest cost on most dairies. Manage it by:</p>\n<ul>\n<li>Having rations formulated by a nutritionist for each group (fresh, high, low, dry, heifers).</li>\n<li>Testing silage and pasture quality.</li>\n<li>Checking that what is mixed and fed matches the ration sheet.</li>\n<li>Monitoring body condition score, dung and milk solids as feedback.</li>\n<li>Controlling feed waste in storage and at the trough.</li>\n</ul>\n<h3>Data systems</h3>\n<p>Use a herd management program or well-kept registers that link every cow's ID to calving, breeding, health and milk recording data. Monthly milk recording gives individual yields and cell counts so that problem cows can be dealt with. The value is in acting on the reports, not just collecting them.</p>"
+  },
+  {
+   "title": "People, infrastructure and performance review",
+   "minutes": 18,
+   "html": "<h3>Managing people</h3>\n<p>Milkers, herdsmen, tractor drivers and calf rearers make the system work. The manager must set clear job descriptions and routines, train staff, schedule shifts fairly for early and late milkings, and apply labour law such as the Basic Conditions of Employment Act 75 of 1997 and the Labour Relations Act 66 of 1995. Recognise good work and deal consistently with poor performance. High staff turnover in the parlour quickly shows up in cell counts.</p>\n<h3>Infrastructure and maintenance</h3>\n<p>Plan preventive maintenance for the milking machine (liners, pulsators, vacuum), the cooling plant, generators for load-shedding, pumps, irrigation, tractors and feeding equipment. Have the milking machine tested by a technician at regular intervals. Breakdowns at milking time are expensive and stressful for cows.</p>\n<h3>Safety and compliance</h3>\n<p>Under the Occupational Health and Safety Act 85 of 1993 the employer must provide a safe workplace. Typical dairy hazards are kicks and crushing by cows and bulls, chemicals, electrical equipment in wet areas, tractor and PTO accidents, and slippery floors. Combine safety with the milk producers' code of practice, milk buyer requirements and environmental duties around effluent.</p>\n<h3>Reviewing performance</h3>\n<p>Hold a monthly management meeting using a simple dashboard:</p>\n<table>\n<tr><th>Area</th><th>Indicator</th></tr>\n<tr><td>Production</td><td>Litres per cow per day, milk solids</td></tr>\n<tr><td>Quality</td><td>Somatic cell count, bacterial count</td></tr>\n<tr><td>Fertility</td><td>Conception rate, calving interval</td></tr>\n<tr><td>Feed</td><td>Feed cost per litre, margin over feed</td></tr>\n<tr><td>Finance</td><td>Actual versus budget</td></tr>\n</table>\n<p>For each indicator that is off target, agree the cause, the action, who is responsible and the deadline. Then check at the next meeting whether it worked. This plan-do-check-act loop is the heart of dairy management.</p>\n<h4>Key points</h4>\n<ul>\n<li>A dairy is a set of linked systems; decisions in one area affect the others.</li>\n<li>Set clear targets and a monthly budget, and compare actual results.</li>\n<li>Reproduction, health, youngstock and feeding are the core herd processes.</li>\n<li>Data is only useful when it leads to action.</li>\n<li>Review key indicators monthly and follow up actions using plan-do-check-act.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is reproduction so important in a dairy system?",
+   "options": [
+    {
+     "text": "It removes the need for feeding",
+     "correct": false
+    },
+    {
+     "text": "A cow only produces milk after calving, so fertility drives production",
+     "correct": true
+    },
+    {
+     "text": "It reduces electricity costs",
+     "correct": false
+    },
+    {
+     "text": "It lowers the price of milk",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a typical advantage of a pasture-based dairy compared with a TMR system?",
+   "options": [
+    {
+     "text": "Higher and steadier yields",
+     "correct": false
+    },
+    {
+     "text": "No effluent to manage",
+     "correct": false
+    },
+    {
+     "text": "No need for irrigation or rainfall",
+     "correct": false
+    },
+    {
+     "text": "Usually lower cost per litre",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Conception rates suddenly drop. What does the lesson suggest?",
+   "options": [
+    {
+     "text": "It has no effect on milk production",
+     "correct": false
+    },
+    {
+     "text": "It is always the AI technician’s fault",
+     "correct": false
+    },
+    {
+     "text": "It often signals a feeding or health problem too",
+     "correct": true
+    },
+    {
+     "text": "It should be ignored until next year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law sets out basic conditions such as working hours and leave for dairy staff?",
+   "options": [
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": true
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen for each indicator that is off target in the monthly review?",
+   "options": [
+    {
+     "text": "Nothing until the annual review",
+     "correct": false
+    },
+    {
+     "text": "Agree the cause, action, responsible person and deadline, then check it",
+     "correct": true
+    },
+    {
+     "text": "Change the target to match the result",
+     "correct": false
+    },
+    {
+     "text": "Replace the staff responsible",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feed is the largest cost on most dairies.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Poor heifer rearing has no effect on the herd in later years.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are useful indicators for a dairy monthly dashboard? (select all that apply)",
+   "options": [
+    {
+     "text": "Number of visitors to the farm",
+     "correct": false
+    },
+    {
+     "text": "Calving interval",
+     "correct": true
+    },
+    {
+     "text": "Somatic cell count",
+     "correct": true
+    },
+    {
+     "text": "Feed cost per litre",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

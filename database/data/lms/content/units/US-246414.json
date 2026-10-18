@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246414",
+ "title": "Provide instruction to clients and hunting staff",
+ "lessons": [
+  {
+   "title": "Instructing clients",
+   "minutes": 15,
+   "html": "<h3>Why instruction matters</h3>\n<p>Many hunting accidents and wounded animals come from poor communication. A professional hunter is a teacher: clients and staff must know exactly what to do, how and why. Good instruction protects lives, the animals and the business's reputation.</p>\n<h4>Principles of good instruction</h4>\n<ul><li><strong>Know your learner</strong>: experience, language, physical fitness, expectations.</li>\n<li><strong>Explain, demonstrate, practise, check</strong>: tell them, show them, let them try, then check they can do it.</li>\n<li><strong>Keep it simple</strong>: short sentences and one point at a time.</li>\n<li><strong>Be positive and respectful</strong>, even when correcting a mistake.</li>\n<li><strong>Repeat key safety rules</strong> often.</li></ul>\n<h4>What clients need to be instructed on</h4>\n<table><tr><th>Topic</th><th>Examples</th></tr>\n<tr><td>Firearm safety</td><td>Muzzle control, when to load and unload, safety catch, chamber empty in vehicle</td></tr>\n<tr><td>Shooting sticks</td><td>Setting up quickly and quietly, resting the rifle, steady position</td></tr>\n<tr><td>Shot placement</td><td>Heart-lung area for each species from different angles</td></tr>\n<tr><td>Movement in the veld</td><td>Walk in single file behind the PH, step where the tracker steps, stop at signals</td></tr>\n<tr><td>Signals</td><td>Raised hand means stop; pointing; \"shoot\" only on the PH's word</td></tr>\n<tr><td>Camp rules</td><td>No alcohol before or during hunting, storage of rifles in the safe</td></tr>\n<tr><td>Legal points</td><td>Permit limits, which animals may be shot</td></tr></table>\n<h4>Practice before the hunt</h4>\n<p>Practise on the range from shooting sticks at realistic distances. Use a target showing the animal's outline and vital area. Watch the client's handling and correct unsafe habits immediately and clearly: \"Please keep the muzzle pointed down towards the ground while we walk.\"</p>"
+  },
+  {
+   "title": "Instructing hunting staff",
+   "minutes": 15,
+   "html": "<h3>The hunting team</h3>\n<p>A hunt depends on trackers, skinners, drivers, camp staff and sometimes apprentice hunters. Each must know their role and how to stay safe.</p>\n<h4>Daily briefing</h4>\n<p>Each morning, give a short briefing:</p>\n<ul><li>Where you will hunt and which species.</li>\n<li>The role of each person: who tracks, who carries water and the first aid kit, who stays with the vehicle.</li>\n<li>Radio channels and call signs.</li>\n<li>Safety points, such as known dangerous animals in the area or a neighbour working near the boundary.</li>\n<li>Expected return time.</li></ul>\n<h4>Instructions for trackers</h4>\n<ul><li>Agreed hand signals and how to point out animals silently.</li>\n<li>Never walk in front of the rifle; stay behind or beside the PH when the client is ready to shoot.</li>\n<li>Mark the spot of the shot and the last place the animal was seen.</li>\n<li>How to approach a downed animal safely.</li></ul>\n<h4>Instructions for skinners and meat handlers</h4>\n<ul><li>Correct skinning cuts for the type of mount the client wants (shoulder mount, full mount, flat skin).</li>\n<li>Salting and drying skins, and labelling trophies with the client's name and species.</li>\n<li>Hygiene: clean knives, clean hands, gloves, cool room.</li>\n<li>Knife safety: always cut away from your body, use a cut-resistant glove, keep knives sharp.</li>\n<li>Protect against zoonoses such as anthrax: report any animal that died without a clear cause, and never open such a carcass.</li></ul>\n<h4>Training apprentices</h4>\n<p>Experienced staff should coach apprentices step by step and let them take responsibility gradually. Give feedback on what went well and what to improve.</p>\n<h4>Checking understanding</h4>\n<p>Ask open questions (\"What will you do if the animal gets up?\") rather than \"Do you understand?\", which most people answer \"yes\".</p>\n<h4>Key points</h4>\n<ul><li>Explain, demonstrate, practise and check.</li>\n<li>Instruct clients on firearm safety, sticks, shot placement, movement and signals.</li>\n<li>Correct unsafe habits immediately and respectfully.</li>\n<li>Brief staff every morning on area, roles, radios and safety.</li>\n<li>Check understanding with open questions.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the correct sequence for good instruction?",
+   "options": [
+    {
+     "text": "Practise, check, explain, demonstrate",
+     "correct": false
+    },
+    {
+     "text": "Check, explain, end",
+     "correct": false
+    },
+    {
+     "text": "Explain, demonstrate, practise, check",
+     "correct": true
+    },
+    {
+     "text": "Demonstrate only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What signal usually means 'stop' in the field?",
+   "options": [
+    {
+     "text": "Clapping",
+     "correct": false
+    },
+    {
+     "text": "Shouting",
+     "correct": false
+    },
+    {
+     "text": "A whistle",
+     "correct": false
+    },
+    {
+     "text": "A raised hand",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a tracker never walk when the client is ready to shoot?",
+   "options": [
+    {
+     "text": "In front of the rifle",
+     "correct": true
+    },
+    {
+     "text": "Beside the PH",
+     "correct": false
+    },
+    {
+     "text": "At the vehicle",
+     "correct": false
+    },
+    {
+     "text": "Behind the PH",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which question best checks understanding?",
+   "options": [
+    {
+     "text": "Okay?",
+     "correct": false
+    },
+    {
+     "text": "What will you do if the animal gets up?",
+     "correct": true
+    },
+    {
+     "text": "Are you ready?",
+     "correct": false
+    },
+    {
+     "text": "Do you understand?",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a skinner do with an animal that died without a clear cause?",
+   "options": [
+    {
+     "text": "Report it and never open the carcass",
+     "correct": true
+    },
+    {
+     "text": "Bury it secretly",
+     "correct": false
+    },
+    {
+     "text": "Feed it to the dogs",
+     "correct": false
+    },
+    {
+     "text": "Skin it quickly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Alcohol before or during hunting is not allowed under good camp rules.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Unsafe firearm handling by a client should be ignored to keep the client happy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be covered in the morning staff briefing? (select all that apply)",
+   "options": [
+    {
+     "text": "Lodge menu for next month",
+     "correct": false
+    },
+    {
+     "text": "Where you will hunt and which species",
+     "correct": true
+    },
+    {
+     "text": "The role of each person",
+     "correct": true
+    },
+    {
+     "text": "Radio channels and call signs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

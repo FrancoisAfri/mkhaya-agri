@@ -16,7 +16,7 @@
 </style>
 </head>
 <body>
-  <div class="logo">MKHAYA HUB — Disciplinary Module</div>
+  <div class="logo">MKHAYA AGRI — Disciplinary Module</div>
   <h1>{{ $title }}</h1>
   <p>Generated: {{ $date }} &nbsp;|&nbsp; {{ count($rows) }} records</p>
 

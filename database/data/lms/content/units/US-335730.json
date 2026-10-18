@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-335730",
+ "title": "Demonstrate an understanding of Equine welfare",
+ "lessons": [
+  {
+   "title": "The law that protects horses",
+   "minutes": 15,
+   "html": "<h3>Why there are animal laws</h3>\n<p>Horses, donkeys and mules cannot speak for themselves. The law protects them from cruelty and neglect. In South Africa the main law is the <strong>Animals Protection Act 71 of 1962</strong>.</p>\n<h4>What the Act does</h4>\n<ul>\n<li>It makes cruelty to animals a crime. Examples are beating, overloading, overworking, starving, keeping an animal without water or shelter, or leaving a sick or injured animal without help.</li>\n<li>It covers domestic animals, including horses, donkeys and mules, and the owner and anyone looking after the animal.</li>\n<li>A person found guilty can get a fine or jail, and the court can take away the animal.</li>\n</ul>\n<h4>Some words in the Act</h4>\n<ul>\n<li><strong>Animal:</strong> includes equines such as horses, donkeys and mules.</li>\n<li><strong>Owner:</strong> the person who owns the animal, and also a person who has it in their care.</li>\n<li><strong>Cruelty:</strong> causing an animal suffering that is not necessary.</li>\n</ul>\n<h4>What the Act allows</h4>\n<p>The Act does not stop people from using horses for work, riding, sport or farming. It also allows a sick animal to be put down humanely. What it forbids is <strong>unnecessary suffering</strong>.</p>\n<h3>The Performing Animals Protection Act</h3>\n<p>The <strong>Performing Animals Protection Act 24 of 1935</strong> controls animals used in shows, circuses, films and other performances. People who exhibit or train animals for performances need a licence. Cruel training methods are not allowed.</p>\n<h3>Why it matters to you</h3>\n<p>As a groom or stable worker, you are the person who looks after the horse every day. If a horse in your care suffers because you did not feed it, give it water or tell someone it was sick, you can be held responsible.</p>"
+  },
+  {
+   "title": "Welfare goals, rights and standards of care",
+   "minutes": 15,
+   "html": "<h3>The aim of equine welfare</h3>\n<p>Good welfare means the horse is healthy, comfortable, well fed, safe and able to behave like a horse. Many people use the <strong>Five Freedoms</strong> as a simple guide:</p>\n<ol>\n<li><strong>Freedom from hunger and thirst:</strong> clean water all the time and enough good feed.</li>\n<li><strong>Freedom from discomfort:</strong> shelter from sun, rain and cold, and a dry, clean place to rest.</li>\n<li><strong>Freedom from pain, injury and disease:</strong> quick treatment, vaccinations, hoof and teeth care.</li>\n<li><strong>Freedom to behave normally:</strong> space, time out in a paddock, and other horses for company.</li>\n<li><strong>Freedom from fear and distress:</strong> calm, kind handling with no beating or shouting.</li>\n</ol>\n<h3>Why horses need protection</h3>\n<p>Horses are prey animals. They get scared easily and can be hurt by bad handling. Working horses and donkeys, such as cart horses in towns, may be overloaded, worked in the heat or given badly fitting harness. They depend fully on people.</p>\n<h3>Standards of care</h3>\n<table><tr><th>Need</th><th>Good standard</th></tr>\n<tr><td>Water</td><td>Clean water always, more in hot weather and after work</td></tr>\n<tr><td>Feed</td><td>Mostly grass or hay; small, regular meals</td></tr>\n<tr><td>Shelter</td><td>Shade and protection from wind and rain</td></tr>\n<tr><td>Hooves</td><td>Pick out daily; farrier about every 6 to 8 weeks</td></tr>\n<tr><td>Health</td><td>Vaccinate and deworm as the vet says; check daily</td></tr>\n<tr><td>Work</td><td>Rest days; never work a lame, sick or very thin horse</td></tr>\n<tr><td>Tack and harness</td><td>Clean and fits well; no sores</td></tr></table>"
+  },
+  {
+   "title": "Reporting an offence",
+   "minutes": 15,
+   "html": "<h3>When to report</h3>\n<p>Report when you see a horse that is:</p>\n<ul>\n<li>Very thin with ribs and hip bones showing.</li>\n<li>Without water or feed.</li>\n<li>Lame, wounded or sick and not being treated.</li>\n<li>Being beaten, overloaded or worked when it is too weak.</li>\n<li>Tied up for long times in the sun with no shade.</li>\n</ul>\n<h3>Who to report to</h3>\n<ul>\n<li><strong>The SPCA:</strong> the local Society for the Prevention of Cruelty to Animals. SPCA inspectors are trained to investigate cruelty.</li>\n<li><strong>The police (SAPS):</strong> you can open a case at the police station.</li>\n<li><strong>Your supervisor or farm manager:</strong> if the problem is at your workplace.</li>\n</ul>\n<h3>How to report</h3>\n<ol>\n<li>Stay calm and safe. Do not fight with the owner.</li>\n<li>Write down what you saw: the date, time, place, what happened and the horse's colour and markings.</li>\n<li>Take photos if it is safe.</li>\n<li>Write down the names of other people who saw it.</li>\n<li>Phone or go to the SPCA or police and give them the facts.</li>\n<li>Keep a copy of your notes and the case or reference number.</li>\n</ol>\n<p>The inspector or police will investigate. They may give the owner a warning, take the horse away or take the owner to court. You may be asked to give a statement as a witness.</p>\n<h4>Key points</h4>\n<ul>\n<li>The Animals Protection Act 71 of 1962 makes cruelty and neglect a crime.</li>\n<li>The Performing Animals Protection Act controls animals used in shows.</li>\n<li>Use the Five Freedoms to check a horse's welfare.</li>\n<li>Horses need water, feed, shelter, hoof care and kind handling.</li>\n<li>Report cruelty to the SPCA or police with clear notes and photos.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is the main law against animal cruelty in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": true
+    },
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the Animals Protection Act forbid?",
+   "options": [
+    {
+     "text": "Unnecessary suffering",
+     "correct": true
+    },
+    {
+     "text": "Riding horses",
+     "correct": false
+    },
+    {
+     "text": "Using horses for farm work",
+     "correct": false
+    },
+    {
+     "text": "Putting a sick animal down humanely",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law controls animals used in shows and circuses?",
+   "options": [
+    {
+     "text": "Firearms Control Act",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act",
+     "correct": false
+    },
+    {
+     "text": "Performing Animals Protection Act",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often should a horse have clean water?",
+   "options": [
+    {
+     "text": "Once a week",
+     "correct": false
+    },
+    {
+     "text": "All the time",
+     "correct": true
+    },
+    {
+     "text": "Only after work",
+     "correct": false
+    },
+    {
+     "text": "Only in winter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who can you report horse cruelty to?",
+   "options": [
+    {
+     "text": "The bank",
+     "correct": false
+    },
+    {
+     "text": "The post office",
+     "correct": false
+    },
+    {
+     "text": "The SPCA or the police",
+     "correct": true
+    },
+    {
+     "text": "The feed shop",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A groom who looks after a horse can be held responsible if the horse suffers from neglect.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should fight with the owner when you see cruelty.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you write down when you see cruelty? (select all that apply)",
+   "options": [
+    {
+     "text": "The date, time and place",
+     "correct": true
+    },
+    {
+     "text": "What happened",
+     "correct": true
+    },
+    {
+     "text": "Your own favourite food",
+     "correct": false
+    },
+    {
+     "text": "The horse's colour and markings",
+     "correct": true
+    },
+    {
+     "text": "The price of petrol",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

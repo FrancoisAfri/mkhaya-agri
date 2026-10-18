@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8137",
+ "title": "Receive merchandise",
+ "lessons": [
+  {
+   "title": "Getting ready for a delivery",
+   "minutes": 15,
+   "html": "<h3>Why receiving matters</h3><p>When a truck arrives at the store, someone must check the goods. If you sign for goods that are short or damaged, the store pays for them anyway. Good receiving protects the money of the business.</p><h4>Before the truck arrives</h4><ul><li>Find the order copy in the \"orders outstanding\" file.</li><li>Clear space in the store room or yard for the goods.</li><li>Make sure the pallet jack, trolley or forklift is ready, with a trained driver.</li><li>Have a pen, a calculator and the receiving book or scanner ready.</li><li>Wear safety shoes and gloves.</li></ul><h4>When the truck arrives</h4><ol><li>Ask the driver for the <strong>delivery note</strong>. This paper lists what the supplier says is on the truck.</li><li>Compare the delivery note with your <strong>order</strong>. Is it the right supplier? Are these the items you ordered?</li><li>Check the truck is parked safely, with the engine off and handbrake on before unloading starts.</li></ol><h4>Safety while unloading</h4><ul><li>Stand clear of the tailgate and of loads being lifted.</li><li>Do not climb on stacked bags on the truck.</li><li>Lift with bent knees and a straight back. Use help for heavy bags such as 50 kg fertiliser.</li><li>Chemicals must be unloaded carefully and taken straight to the chemical store. Check for leaks. If a container leaks, stop, keep people away and call your supervisor.</li><li>Keep feed and food away from chemicals and fertiliser at all times.</li></ul><p>Never let the driver rush you. Take the time you need to check properly. A good supplier understands this.</p>"
+  },
+  {
+   "title": "Checking, signing and recording",
+   "minutes": 15,
+   "html": "<h3>Checking the goods</h3><p>Check each item against the delivery note. Count everything.</p><ul><li><strong>Quantity:</strong> count bags, boxes and pallets. Do not trust the label on a pallet; count the layers.</li><li><strong>Product:</strong> check the name, size and code. A 25 kg bag is not a 50 kg bag.</li><li><strong>Condition:</strong> look for torn bags, wet bags, crushed boxes, broken seals and leaks.</li><li><strong>Dates:</strong> check expiry dates on seed, vaccines, remedies and feed. Short-dated stock may be refused according to store policy.</li><li><strong>Cold goods:</strong> vaccines must arrive cold. Put them in the fridge straight away.</li></ul><h4>When something is wrong</h4><table><tr><th>Problem</th><th>What to do</th></tr><tr><td>Short delivery</td><td>Write the real count on the delivery note. Driver signs too.</td></tr><tr><td>Damaged goods</td><td>Refuse them or write \"damaged\" with details. Take a photo if allowed.</td></tr><tr><td>Wrong product</td><td>Refuse it and note it on the delivery note.</td></tr><tr><td>Extra items not ordered</td><td>Ask your supervisor before accepting.</td></tr></table><h4>Signing</h4><p>Sign only for what you received in good condition. Write your name, the date and the time. Keep your copy of the delivery note. Your signature says, \"I checked this and it is correct.\"</p><h4>Recording and putting away</h4><ol><li>Enter the goods in the receiving book or computer system.</li><li>Staple the delivery note to the order and give it to the office.</li><li>Report any shortages or damage to your supervisor the same day.</li><li>Put goods away quickly in the right place, with older stock in front.</li></ol><h4>Key points</h4><ul><li>Compare the delivery note with the order.</li><li>Count everything and check condition and dates.</li><li>Write down shortages and damage before you sign.</li><li>Unload safely and keep chemicals away from feed.</li><li>Record the delivery and put stock away the same day.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a delivery note?",
+   "options": [
+    {
+     "text": "The supplier's list of what is on the truck",
+     "correct": true
+    },
+    {
+     "text": "The store's price list",
+     "correct": false
+    },
+    {
+     "text": "A note from the farmer",
+     "correct": false
+    },
+    {
+     "text": "A safety sign",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pallet label says 40 bags. What should you do?",
+   "options": [
+    {
+     "text": "Accept 40 bags",
+     "correct": false
+    },
+    {
+     "text": "Count the bags yourself",
+     "correct": true
+    },
+    {
+     "text": "Ask the driver if it is right",
+     "correct": false
+    },
+    {
+     "text": "Sign quickly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Five bags are torn and wet. What do you do?",
+   "options": [
+    {
+     "text": "Accept them and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Hide them in the back",
+     "correct": false
+    },
+    {
+     "text": "Refuse them or write 'damaged' with details on the delivery note",
+     "correct": true
+    },
+    {
+     "text": "Sell them first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must vaccines go as soon as they are received?",
+   "options": [
+    {
+     "text": "On the counter",
+     "correct": false
+    },
+    {
+     "text": "Into the fridge",
+     "correct": true
+    },
+    {
+     "text": "In the yard",
+     "correct": false
+    },
+    {
+     "text": "Next to the fertiliser",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does your signature on the delivery note mean?",
+   "options": [
+    {
+     "text": "That you were at work",
+     "correct": false
+    },
+    {
+     "text": "That the driver was friendly",
+     "correct": false
+    },
+    {
+     "text": "That you checked the goods and they are correct",
+     "correct": true
+    },
+    {
+     "text": "That the store will pay late",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should take the time you need to check a delivery, even if the driver is in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feed can be stacked next to leaking chemical containers if there is no space.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must you check on each delivered item? (select all that apply)",
+   "options": [
+    {
+     "text": "Quantity",
+     "correct": true
+    },
+    {
+     "text": "Condition",
+     "correct": true
+    },
+    {
+     "text": "Expiry date where relevant",
+     "correct": true
+    },
+    {
+     "text": "The driver's age",
+     "correct": false
+    },
+    {
+     "text": "Whether the truck has been washed",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

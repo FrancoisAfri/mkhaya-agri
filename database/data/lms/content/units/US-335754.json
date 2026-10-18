@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335754",
+ "title": "Tack up an Equine",
+ "lessons": [
+  {
+   "title": "Preparing to tack up and fitting the saddle",
+   "minutes": 15,
+   "html": "<h3>Before you start</h3> <p>Tacking up means putting the saddle and bridle on a horse correctly so it is comfortable and the rider is safe. Poorly fitted tack causes sore backs, rubs, mouth injuries and accidents.</p> <h4>Check the tack</h4> <ul> <li>Is it the correct saddle and bridle for this horse? Check the name tag.</li> <li>Is the leather clean, soft and free of cracks?</li> <li>Is all stitching sound, especially girth straps and stirrup leathers?</li> <li>Do buckles work properly?</li> <li>Is the saddle pad or numnah clean and smooth?</li> </ul> <p>Never use damaged tack. Report it.</p> <h4>Prepare the horse</h4> <ol> <li>Tie the horse up with a quick-release knot to a string loop.</li> <li>Groom the back and girth area well. Sand, dried sweat or mud under the saddle will rub.</li> <li>Pick out the feet.</li> <li>Fit protective boots if the rider or trainer wants them.</li> </ol> <h4>Fitting the saddle</h4> <ol> <li>Run the stirrups up the leathers and lay the girth over the seat, or have it attached on the right side only.</li> <li>Stand on the left side. Place the pad a little forward on the withers.</li> <li>Lift the saddle gently onto the pad, then slide both back together into place, so the front of the saddle sits just behind the shoulder blade. Never slide the saddle forward against the hair.</li> <li>Lift the pad up into the gullet (the channel under the saddle) so it does not press on the withers or spine.</li> <li>Go round the front of the horse to the right side. Let the girth down and check the pad is flat and straight.</li> <li>Back on the left, reach under for the girth. Do it up loosely at first.</li> <li>Tighten gradually. Many horses blow up their belly when the girth is first done up.</li> </ol> <h4>Checking the saddle fit</h4> <ul> <li>You should be able to fit about two or three fingers between the withers and the front arch of the saddle (with a rider, it must still clear the withers).</li> <li>The saddle must not touch the spine anywhere along the gullet.</li> <li>The saddle should sit level, not tipping forward or back.</li> </ul>"
+  },
+  {
+   "title": "Fitting the bridle and final checks",
+   "minutes": 15,
+   "html": "<h3>Fitting the bridle</h3> <ol> <li>Undo the headcollar and buckle it around the horse's neck so you still have control.</li> <li>Put the reins over the horse's head.</li> <li>Stand on the left, next to the head, facing forward. Hold the top of the bridle in your right hand, in front of the face.</li> <li>Hold the bit on your flat left hand and bring it to the lips. If the horse does not open its mouth, slide your thumb into the corner of the mouth where there are no teeth and press lightly on the gum.</li> <li>As the mouth opens, guide the bit in gently and lift the headpiece. Do not bang the teeth.</li> <li>Put the headpiece over one ear, then the other. Pull the forelock out over the browband.</li> <li>Straighten the bridle.</li> <li>Do up the throat lash, then the noseband.</li> <li>Put all straps into their keepers and runners.</li> <li>Remove the headcollar.</li> </ol> <h4>Checking the bridle fit</h4> <table><tr><th>Part</th><th>Correct fit</th></tr> <tr><td>Bit</td><td>One or two small wrinkles at the corners of the mouth; sticks out about 0.5 cm on each side</td></tr> <tr><td>Browband</td><td>Does not pull the headpiece into the back of the ears, and not so loose it flaps</td></tr> <tr><td>Throat lash</td><td>A hand's width (four fingers) between it and the cheek</td></tr> <tr><td>Cavesson noseband</td><td>About two fingers' width below the cheekbone, two fingers under it</td></tr> <tr><td>Cheekpieces</td><td>Level on both sides</td></tr></table> <h4>Final checks before the rider mounts</h4> <ol> <li>Check the girth again; tighten if needed. You should just slide your flat fingers under it.</li> <li>Pull each foreleg forward gently to smooth out wrinkles of skin under the girth.</li> <li>Check the saddle is straight from behind.</li> <li>Pull the stirrups down and check the leathers are the same length.</li>  </ol> <h4>Untacking</h4> <p>Reverse the order: run up the stirrups, loosen and undo the girth, lift off the saddle and pad (do not drag them), put on the headcollar, then take off the bridle, letting the horse drop the bit gently. Check the back and girth area for rubs or sore spots, brush off sweat marks, and clean the tack.</p> <h4>Safety</h4> <ul> <li>Never leave a tacked-up horse tied by the reins.</li> <li>Never leave stirrups hanging down when leading; they can catch or bang the horse.</li> <li>Put the saddle on a saddle rack, never on the ground in a walkway.</li> </ul> <h4>Key points</h4> <ul> <li>Check tack and groom the back and girth area before tacking up.</li> <li>Slide the saddle back into place, lift the pad into the gullet, tighten the girth gradually.</li> <li>The saddle must clear the withers and spine.</li> <li>Bit: one or two wrinkles; throat lash: a hand's width; noseband: two fingers.</li> <li>Check the girth again and smooth the skin before the rider mounts.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must you groom the back and girth area before tacking up?",
+   "options": [
+    {
+     "text": "To make the horse shine for photos",
+     "correct": false
+    },
+    {
+     "text": "Dirt under the saddle and girth will rub",
+     "correct": true
+    },
+    {
+     "text": "To save time",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which way should the saddle be slid into place?",
+   "options": [
+    {
+     "text": "Forward, against the hair",
+     "correct": false
+    },
+    {
+     "text": "Backward, with the hair",
+     "correct": true
+    },
+    {
+     "text": "Sideways",
+     "correct": false
+    },
+    {
+     "text": "It should be dropped on",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a correctly fitted bit look?",
+   "options": [
+    {
+     "text": "Pulling the lips up high",
+     "correct": false
+    },
+    {
+     "text": "One or two small wrinkles at the corners of the mouth",
+     "correct": true
+    },
+    {
+     "text": "Hanging against the front teeth",
+     "correct": false
+    },
+    {
+     "text": "Hidden inside the mouth",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How much space should be under the throat lash?",
+   "options": [
+    {
+     "text": "None",
+     "correct": false
+    },
+    {
+     "text": "One finger",
+     "correct": false
+    },
+    {
+     "text": "A hand's width",
+     "correct": true
+    },
+    {
+     "text": "Two hands",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a saddle be put when not on the horse?",
+   "options": [
+    {
+     "text": "On the ground in a walkway",
+     "correct": false
+    },
+    {
+     "text": "On a saddle rack",
+     "correct": true
+    },
+    {
+     "text": "On top of the horse's head",
+     "correct": false
+    },
+    {
+     "text": "In the water trough",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A tacked-up horse may be tied up by its reins.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The saddle must not touch the horse's spine anywhere along the gullet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are final checks before the rider mounts? (select all that apply)",
+   "options": [
+    {
+     "text": "Check the girth again",
+     "correct": true
+    },
+    {
+     "text": "Smooth the skin under the girth by pulling the forelegs forward",
+     "correct": true
+    },
+    {
+     "text": "Check the stirrup leathers are the same length",
+     "correct": true
+    },
+    {
+     "text": "Remove the bit",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

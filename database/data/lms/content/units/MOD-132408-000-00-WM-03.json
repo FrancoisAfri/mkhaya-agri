@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-WM-03",
+ "title": "Operational Resource Utilisation Practices in a Grain Handling and Storage Operation",
+ "lessons": [
+  {
+   "title": "Analysing resource utilisation across the operation",
+   "minutes": 20,
+   "html": "<h3>A management-level view</h3>\n<p>At NQF level 6 you are expected to evaluate how well the whole operation, often a group of depots, uses its resources and to lead improvements with measurable financial results. The work takes place in a real operation with your mentor or line manager.</p>\n<h4>Framework for analysis</h4>\n<table>\n<tr><th>Resource</th><th>Utilisation measure</th><th>Typical questions</th></tr>\n<tr><td>Storage capacity</td><td>Average and peak percentage filled, revenue per tonne of capacity</td><td>Are some depots full while others are under-used? Should bunkers be used less?</td></tr>\n<tr><td>Handling equipment</td><td>Throughput, availability, OEE, cost per tonne handled</td><td>Where are the bottlenecks? What is downtime costing?</td></tr>\n<tr><td>Dryers</td><td>Fuel per tonne of water removed, hours run</td><td>Are dryers drying below target moisture? Is fuel the right type?</td></tr>\n<tr><td>Energy</td><td>kWh per tonne by depot, maximum demand</td><td>Which depots are outliers and why?</td></tr>\n<tr><td>People</td><td>Tonnes per labour hour, overtime percentage, seasonal versus permanent mix</td><td>Is overtime caused by breakdowns or poor rostering?</td></tr>\n<tr><td>Stock</td><td>Shrink, variances</td><td>Which losses are normal and which are controllable?</td></tr>\n<tr><td>Capital</td><td>Return on investment, age and condition of assets</td><td>Which assets should be refurbished, replaced or retired?</td></tr>\n</table>\n<h4>Benchmarking</h4>\n<p>Compare depots against each other and over several seasons. Normalise data where needed, for example per tonne handled or per tonne of water removed, so that depots of different sizes and moisture conditions are compared fairly. Look for best practice in the top performers and transfer it.</p>\n<h4>Cost of losses</h4>\n<p>Express every loss in rand. For example, if shrink is 0.3 percentage points above the accepted level on 150 000 tonnes of maize, that is 450 tonnes of grain; multiplied by the current market price, this often exceeds the annual cost of better weighbridge controls, moisture meter verification and spillage repairs. Financial framing helps management prioritise.</p>"
+  },
+  {
+   "title": "Leading resource optimisation initiatives",
+   "minutes": 20,
+   "html": "<h3>Selecting initiatives</h3>\n<p>Choose initiatives based on value, cost, risk and ease of implementation. A simple matrix of impact versus effort helps: start with high-impact, low-effort actions (quick wins) while planning larger projects.</p>\n<h4>Examples of initiatives</h4>\n<ul>\n<li><strong>Storage optimisation</strong> – redistribute intake among depots to reduce bunker use and associated quality risk; align out-loading with storage risk.</li>\n<li><strong>Energy</strong> – install aeration controllers, variable speed drives on large fans, power factor correction, or solar PV with load-shifting; manage maximum demand.</li>\n<li><strong>Drying</strong> – automate moisture control to avoid over-drying; maintain burners; insulate and seal.</li>\n<li><strong>Maintenance</strong> – move from breakdown to condition-based maintenance on elevators and dryers, reducing peak-season downtime.</li>\n<li><strong>Labour</strong> – multi-skill staff, adjust roster patterns to truck arrival profiles, reduce overtime.</li>\n<li><strong>Stock control</strong> – tighten weighbridge and moisture controls, monthly reconciliations and security improvements.</li>\n</ul>\n<h3>Business case</h3>\n<p>For capital initiatives prepare a business case: problem, options, costs, expected savings, payback period, risks, and implementation plan. Consider safety, legal compliance and client service, not only cost. For example, replacing an old elevator may be justified by dust explosion risk reduction as much as by throughput.</p>\n<h3>Implementation and change leadership</h3>\n<ol>\n<li>Agree objectives and measures with management.</li>\n<li>Appoint a project owner and team, including operators.</li>\n<li>Communicate the reasons and expected benefits to staff.</li>\n<li>Implement in phases where possible; pilot at one depot first.</li>\n<li>Measure results against baseline and adjust.</li>\n<li>Standardise successful practices across depots and update procedures.</li>\n</ol>\n<h3>Reporting</h3>\n<p>Report utilisation performance and initiative results to senior management regularly: savings achieved, KPIs improved, lessons learnt and next steps. Keep the report focused on decisions management needs to make.</p>\n<h4>Key points</h4>\n<ul>\n<li>Evaluate utilisation of storage, equipment, dryers, energy, people, stock and capital.</li>\n<li>Benchmark depots using normalised data and transfer best practice.</li>\n<li>Express losses in rand to prioritise action.</li>\n<li>Build business cases that include safety, compliance and service as well as cost.</li>\n<li>Pilot, measure, standardise and report results to management.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should data be normalised when benchmarking depots?",
+   "options": [
+    {
+     "text": "To hide poor results",
+     "correct": false
+    },
+    {
+     "text": "So depots of different sizes and conditions are compared fairly",
+     "correct": true
+    },
+    {
+     "text": "To make reports longer",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Shrink is 0.3 percentage points above the accepted level on 150 000 t. How much extra grain is lost?",
+   "options": [
+    {
+     "text": "45 t",
+     "correct": false
+    },
+    {
+     "text": "4 500 t",
+     "correct": false
+    },
+    {
+     "text": "450 t",
+     "correct": true
+    },
+    {
+     "text": "150 t",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which actions should usually be started first?",
+   "options": [
+    {
+     "text": "High-impact, low-effort quick wins",
+     "correct": true
+    },
+    {
+     "text": "Only the most expensive projects",
+     "correct": false
+    },
+    {
+     "text": "Low-impact, high-effort projects",
+     "correct": false
+    },
+    {
+     "text": "Nothing until all projects are planned",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a business case for capital include?",
+   "options": [
+    {
+     "text": "Only the supplier’s brochure",
+     "correct": false
+    },
+    {
+     "text": "Only the purchase price",
+     "correct": false
+    },
+    {
+     "text": "Problem, options, costs, savings, payback, risks and implementation plan",
+     "correct": true
+    },
+    {
+     "text": "Staff opinions only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why pilot an initiative at one depot first?",
+   "options": [
+    {
+     "text": "To test and adjust before rolling out widely",
+     "correct": true
+    },
+    {
+     "text": "To avoid measuring results",
+     "correct": false
+    },
+    {
+     "text": "It is required by law",
+     "correct": false
+    },
+    {
+     "text": "To keep it secret",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Replacing an old elevator may be justified by safety risk reduction as well as throughput.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Resource utilisation analysis should only consider electricity costs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of energy initiatives at grain depots? (select all that apply)",
+   "options": [
+    {
+     "text": "Aeration controllers",
+     "correct": true
+    },
+    {
+     "text": "Variable speed drives on large fans",
+     "correct": true
+    },
+    {
+     "text": "Managing maximum demand",
+     "correct": true
+    },
+    {
+     "text": "Running fans continuously in humid weather",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

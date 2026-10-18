@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8140",
+ "title": "Determine stock levels",
+ "lessons": [
+  {
+   "title": "Counting and recording stock",
+   "minutes": 15,
+   "html": "<h3>What are stock levels?</h3><p>A stock level is how much of an item the store has. Managers need to know stock levels to order on time, to stop theft and to know how much money is tied up in stock.</p><h4>Ways to keep track</h4><ul><li><strong>Stock card or bin card:</strong> a card for each item. Every time stock comes in or goes out, it is written down and the balance is worked out.</li><li><strong>Computer system:</strong> the till and receiving system add and subtract stock automatically. People must still count to check it is right.</li></ul><h4>Working out the balance</h4><p>Balance = opening stock + received − sold − damaged or returned to supplier.</p><table><tr><th>Date</th><th>In</th><th>Out</th><th>Balance</th></tr><tr><td>1 June opening</td><td></td><td></td><td>60 bags</td></tr><tr><td>3 June delivery</td><td>40</td><td></td><td>100</td></tr><tr><td>4 June sold</td><td></td><td>25</td><td>75</td></tr><tr><td>6 June sold</td><td></td><td>30</td><td>45</td></tr></table><h4>Counting stock</h4><ol><li>Get the count sheet for your area.</li><li>Count each item. Count in units the system uses: bags, litres, metres, boxes.</li><li>For pallets, count bags per layer and multiply by the number of layers. Check that the middle is full.</li><li>Write the number clearly in pen. If you make a mistake, cross it out with one line and write the new number next to it.</li><li>Do not count stock that has been sold but not yet collected. Mark it separately.</li><li>Sign the count sheet.</li></ol><p>Counts are often done with two people: one counts and one writes. This helps stop mistakes.</p>"
+  },
+  {
+   "title": "Using stock levels to make decisions",
+   "minutes": 15,
+   "html": "<h3>Comparing count with records</h3><p>After counting, compare your count with the stock card or system. The difference is called a <strong>variance</strong>.</p><ul><li>Count lower than records: stock is missing. It may be theft, damage, a sale not captured, or a delivery recorded wrongly.</li><li>Count higher than records: maybe a delivery was not captured, or the wrong code was used at the till.</li></ul><p>Report all variances to your supervisor. Do not change numbers to make them match.</p><h4>Minimum, maximum and re-order levels</h4><table><tr><th>Level</th><th>Meaning</th></tr><tr><td>Minimum</td><td>The lowest safe amount. Below this, the store may run out.</td></tr><tr><td>Re-order level</td><td>When stock reaches this number, order more.</td></tr><tr><td>Maximum</td><td>The most the store should hold. More is money stuck on the shelf.</td></tr></table><h4>Example</h4><p>Wire: re-order level 20 rolls, maximum 80 rolls. Count shows 18 rolls. Stock is below re-order level, so tell the buyer. They may order up to about 60 rolls so the store does not go over its maximum.</p><h4>Seasons change the levels</h4><p>In spring, maize seed and fertiliser sell fast, so the levels go up. In autumn and winter, lick and feed sell more. A good stock controller watches the season and talks to the buyer.</p><h4>Slow and dead stock</h4><p>Some items sit on the shelf for months. Write them on a list for your manager. They may go on special before they expire.</p><h4>Key points</h4><ul><li>Balance = opening + in − out.</li><li>Count carefully, in the right units, and sign the sheet.</li><li>A variance is the difference between count and records; report it.</li><li>Order when stock reaches the re-order level.</li><li>Never change numbers to make them match.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Opening stock is 50, 30 are received and 20 sold. What is the balance?",
+   "options": [
+    {
+     "text": "40",
+     "correct": false
+    },
+    {
+     "text": "80",
+     "correct": false
+    },
+    {
+     "text": "100",
+     "correct": false
+    },
+    {
+     "text": "60",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a variance?",
+   "options": [
+    {
+     "text": "A delivery note",
+     "correct": false
+    },
+    {
+     "text": "The difference between the count and the records",
+     "correct": true
+    },
+    {
+     "text": "A type of fertiliser",
+     "correct": false
+    },
+    {
+     "text": "The maximum level",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pallet has 5 bags per layer and 8 layers. How many bags?",
+   "options": [
+    {
+     "text": "58",
+     "correct": false
+    },
+    {
+     "text": "35",
+     "correct": false
+    },
+    {
+     "text": "40",
+     "correct": true
+    },
+    {
+     "text": "13",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Your count is lower than the system. What do you do?",
+   "options": [
+    {
+     "text": "Add stock from another shelf",
+     "correct": false
+    },
+    {
+     "text": "Say nothing",
+     "correct": false
+    },
+    {
+     "text": "Report the variance to your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Change the count to match",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the re-order level tell you?",
+   "options": [
+    {
+     "text": "When to order more stock",
+     "correct": true
+    },
+    {
+     "text": "When to raise prices",
+     "correct": false
+    },
+    {
+     "text": "When to close the store",
+     "correct": false
+    },
+    {
+     "text": "When to count again",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Two people counting together helps prevent mistakes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Holding more stock than the maximum level is good because it can never run out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Why might the count be lower than the records? (select all that apply)",
+   "options": [
+    {
+     "text": "Theft",
+     "correct": true
+    },
+    {
+     "text": "Damaged stock not recorded",
+     "correct": true
+    },
+    {
+     "text": "A delivery not captured",
+     "correct": false
+    },
+    {
+     "text": "A sale not captured",
+     "correct": true
+    },
+    {
+     "text": "More rain than usual",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

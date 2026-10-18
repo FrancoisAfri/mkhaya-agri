@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-313909001-KM-04",
+ "title": "Employee relations management",
+ "lessons": [
+  {
+   "title": "The legal framework for employment relations",
+   "minutes": 18,
+   "html": "<h3>Why employee relations matter in a mill</h3>\n<p>A feed mill runs 24 hours on many sites, with shift workers, contractors, drivers and seasonal staff. Disputes about overtime, shift allowances, discipline or safety can quickly stop production. A supervisor or manager who understands the law and handles people fairly prevents most disputes and resolves the rest quickly.</p>\n<h4>Key South African labour laws</h4>\n<table>\n<tr><th>Law</th><th>Main purpose</th></tr>\n<tr><td>Labour Relations Act 66 of 1995 (LRA)</td><td>Fair labour practices, unfair dismissal, unions, collective bargaining, strikes, CCMA and bargaining councils</td></tr>\n<tr><td>Basic Conditions of Employment Act 75 of 1997 (BCEA)</td><td>Working hours, overtime, leave, notice and payslips</td></tr>\n<tr><td>Employment Equity Act 55 of 1998</td><td>Prohibits unfair discrimination; affirmative action for designated employers</td></tr>\n<tr><td>Skills Development Act 97 of 1998</td><td>Workplace skills planning, SETAs and learnerships</td></tr>\n<tr><td>Occupational Health and Safety Act 85 of 1993</td><td>Safe workplace duties of employer and employees</td></tr>\n</table>\n<p>The national minimum wage and any sectoral determination or bargaining council agreement that applies must also be followed.</p>\n<h4>Rights and duties</h4>\n<p>Employees have the right to join a trade union, to fair treatment, to safe conditions and to be paid correctly. They have a duty to work as agreed, follow reasonable instructions, be honest and follow rules. The employer has the right to manage and set reasonable rules, and the duty to apply those rules fairly and consistently.</p>\n<h4>Unions and collective bargaining</h4>\n<p>A union that has enough members can acquire organisational rights under the LRA, such as access to the workplace, stop-order deductions of union fees and shop stewards. Wages and conditions may be negotiated in a collective agreement. Managers must respect shop stewards' roles and consult where agreements require it.</p>\n<h4>Disputes</h4>\n<p>Disputes about dismissal and unfair labour practice can be referred to the CCMA or a bargaining council with jurisdiction, where conciliation is tried first and arbitration may follow. A well-documented, fair process is the employer's best defence.</p>"
+  },
+  {
+   "title": "Discipline, grievances and dismissal",
+   "minutes": 18,
+   "html": "<h3>Discipline is corrective</h3>\n<p>The LRA's Code of Good Practice: Dismissal expects discipline to be corrective and progressive. The aim is to get the employee to meet the standard, not to punish. Typical steps are counselling, verbal warning, written warning, final written warning, and only then dismissal for repeated misconduct. Serious misconduct, such as theft, gross dishonesty, assault or wilful endangering of others, may justify dismissal for a first offence after a fair hearing.</p>\n<h4>Fairness has two parts</h4>\n<ul>\n<li><strong>Substantive fairness</strong> – there was a valid rule, the employee knew it or should have known it, the rule was applied consistently, the employee broke it, and the sanction is appropriate.</li>\n<li><strong>Procedural fairness</strong> – the employee was told of the allegations, given reasonable time to prepare, allowed to state their case with a representative such as a fellow employee or shop steward, and given the decision and reasons.</li>\n</ul>\n<h4>Example</h4>\n<p>A pellet press operator removes a guard to clear a choke without locking out. This breaks a known safety rule that could cause a serious injury. The manager suspends the operator on full pay if needed, investigates, holds a disciplinary hearing with a chairperson who was not involved, considers the employee's record and explanation, and decides the sanction. Every step is recorded.</p>\n<h4>Poor performance and incapacity</h4>\n<p>Poor work performance is not misconduct. The employee must be told the standard, given training, guidance and reasonable time to improve, and evaluated before any dismissal is considered. Ill health or injury requires investigation of the extent of incapacity and of reasonable alternatives.</p>\n<h4>Grievances</h4>\n<p>Employees must have a clear way to raise complaints. A good grievance procedure has time limits at each level, starting with the immediate supervisor and moving up to senior management. Treat grievances seriously: unresolved small complaints often grow into disputes or strikes.</p>"
+  },
+  {
+   "title": "Building positive workplace relations",
+   "minutes": 18,
+   "html": "<h3>Preventing conflict</h3>\n<p>Most disputes can be prevented. Good managers build trust by communicating openly, being consistent and keeping promises. Practical actions include:</p>\n<ul>\n<li>Clear written contracts, job descriptions and workplace rules that are explained in a language staff understand.</li>\n<li>Fair and transparent shift rosters and overtime allocation.</li>\n<li>Correct, on-time pay with understandable payslips.</li>\n<li>Regular meetings with staff and shop stewards to share production plans and listen to concerns.</li>\n<li>Recognising good performance.</li>\n</ul>\n<h3>Managing diversity</h3>\n<p>Mill teams include people of different languages, cultures, ages and genders. The Employment Equity Act prohibits unfair discrimination on grounds such as race, gender, pregnancy, disability, religion and HIV status. Harassment, including sexual harassment, must be dealt with promptly under the company's policy.</p>\n<h3>Handling collective conflict</h3>\n<p>If tension builds over wages or conditions, engage early with the union or workplace forum. Know the company's procedures for protected strikes, picketing and essential services. During industrial action, keep communication respectful, follow legal advice, protect safety and never threaten or victimise employees for lawful union activity.</p>\n<h3>Records and consistency</h3>\n<p>Keep accurate records of warnings, hearings, grievances, attendance and training. Records allow consistent treatment, which the CCMA examines closely. If two operators commit the same offence and receive very different sanctions without good reason, the dismissal may be found unfair.</p>\n<h3>The supervisor's role</h3>\n<p>Supervisors are the face of management on the mill floor. They need to know the disciplinary code, act early on problems, and escalate correctly. Training supervisors in these skills is one of the best investments a mill can make.</p>\n<h4>Key points</h4>\n<ul>\n<li>The LRA, BCEA, Employment Equity Act, Skills Development Act and OHS Act frame employment relations.</li>\n<li>Discipline should be corrective and progressive, and both substantively and procedurally fair.</li>\n<li>Poor performance requires standards, training and time to improve before dismissal.</li>\n<li>Clear grievance procedures and regular communication prevent disputes.</li>\n<li>Consistent treatment and good records protect the employer and employees.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law deals with unfair dismissal, unions and the CCMA?",
+   "options": [
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": false
+    },
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": true
+    },
+    {
+     "text": "Skills Development Act 97 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main aim of progressive discipline?",
+   "options": [
+    {
+     "text": "To build a case for dismissal quickly",
+     "correct": false
+    },
+    {
+     "text": "To replace employees cheaply",
+     "correct": false
+    },
+    {
+     "text": "To correct behaviour so the employee meets the standard",
+     "correct": true
+    },
+    {
+     "text": "To punish the employee",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is part of procedural fairness?",
+   "options": [
+    {
+     "text": "The rule was valid",
+     "correct": false
+    },
+    {
+     "text": "The employee was allowed to state their case with a representative",
+     "correct": true
+    },
+    {
+     "text": "The sanction was appropriate",
+     "correct": false
+    },
+    {
+     "text": "The rule was applied consistently",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should poor work performance be handled first?",
+   "options": [
+    {
+     "text": "Reduce the employee’s pay",
+     "correct": false
+    },
+    {
+     "text": "Tell the employee the standard, give training and reasonable time to improve",
+     "correct": true
+    },
+    {
+     "text": "Issue a final written warning",
+     "correct": false
+    },
+    {
+     "text": "Immediate dismissal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where are dismissal disputes usually referred first?",
+   "options": [
+    {
+     "text": "The CCMA or a bargaining council with jurisdiction",
+     "correct": true
+    },
+    {
+     "text": "The police",
+     "correct": false
+    },
+    {
+     "text": "The Department of Agriculture",
+     "correct": false
+    },
+    {
+     "text": "The company shareholders",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Applying very different sanctions for the same offence without good reason can make a dismissal unfair.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Poor performance should be treated in exactly the same way as misconduct.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which actions help prevent workplace disputes? (select all that apply)",
+   "options": [
+    {
+     "text": "Correct, on-time pay",
+     "correct": true
+    },
+    {
+     "text": "Regular meetings with staff and shop stewards",
+     "correct": true
+    },
+    {
+     "text": "Ignoring small grievances",
+     "correct": false
+    },
+    {
+     "text": "Fair and transparent overtime allocation",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "unit_key": "US-8157",
+ "title": "Determine produce grade: Wheat",
+ "lessons": [
+  {
+   "title": "Preparing to grade wheat",
+   "minutes": 20,
+   "html": "<h3>Why we grade wheat</h3><p>Grading means checking a sample of wheat and giving it a grade according to the official grading regulations made under the Agricultural Product Standards Act 119 of 1990. The grade tells the buyer and the seller what the quality is, and it decides the price. A wrong grade costs the farmer or the silo money, and can lead to disputes. As a grader you must be accurate, honest and follow the method exactly.</p><h4>Preparing for grading</h4><ol><li>Make sure you have the <strong>current</strong> grading regulations and grade tables for wheat. The limits for each grade come from these tables, not from memory.</li><li>Check your equipment: approved moisture meter (calibrated and checked), balance or scale (level, zeroed, checked with test weights), the prescribed sieves (clean, undamaged), sample divider, sorting tray, tweezers, containers and worksheets.</li><li>Clean the work area so there is no grain or dust left from the previous sample.</li><li>Wear a dust coat or overalls and a dust mask. Wash hands after grading, especially if grain may be treated or mouldy.</li></ol><h4>Taking and preparing the sample</h4><ul><li>Take the sample from the load at several points and depths with a probe, or from the automatic sampler, following the site procedure.</li><li>Mix the sample well and reduce it with the approved divider to the working sample size the procedure requires. Never pick a handful from the top.</li><li>Label the sample with the delivery or load number, date, time and your name.</li></ul><h4>Many tests for wheat</h4><p>Wheat grading has more steps than most grains, because millers and bakers need to know how the wheat will bake. Besides moisture and non-compliant material, you will determine the cultivar class, screenings, hectolitre mass, falling number and protein content.</p>"
+  },
+  {
+   "title": "Moisture and non-compliant material",
+   "minutes": 25,
+   "html": "<h3>Determining moisture content</h3><p>Moisture content is the percentage of water in the wheat. Grain that is too wet heats, goes mouldy and can be spoiled by insects. The regulations and the buyer set a maximum moisture level; check the current limit.</p><ol><li>Check that the moisture meter is set for wheat. Each grain has its own setting or calibration chart.</li><li>Let the sample reach room temperature if the meter requires it; very hot or cold grain gives wrong readings.</li><li>Fill the meter exactly as the manufacturer instructs and take the reading. Repeat if the procedure requires two readings.</li><li>Record the reading on the worksheet immediately.</li><li>If the reading is near the limit or the meter seems faulty, use the reference oven method or ask your supervisor.</li></ol><h3>Determining non-compliant material</h3><p>Next, weigh the working sample and separate the material that does not comply. Sort carefully on a clean tray. Put each kind in its own container and weigh it. Work out each as a percentage of the sample mass:</p><p><strong>Percentage = mass of the material ÷ mass of the working sample × 100</strong></p><p>Example: in a 100 g working sample you find 2.5 g of foreign matter. 2.5 ÷ 100 × 100 = 2.5%.</p><table><tr><th>Material</th><th>What to look for</th></tr><tr><td>Foreign matter</td><td>Stones, soil, chaff, straw, glass, metal</td></tr><tr><td>Other grain</td><td>Kernels of barley, oats, rye or other crops</td></tr><tr><td>Damaged kernels</td><td>Heat-damaged, insect-damaged, mouldy or sprouted kernels</td></tr><tr><td>Poisonous seeds</td><td>Seeds of poisonous weeds listed in the regulations</td></tr><tr><td>Unthreshed ears</td><td>Pieces of ear with kernels still in them</td></tr></table>"
+  },
+  {
+   "title": "Cultivar, screenings and hectolitre mass",
+   "minutes": 25,
+   "html": "<h3>Determining the wheat cultivar</h3><p>Wheat is classed according to cultivar. Bread wheat cultivars approved for baking quality fall in the bread wheat class, with grades such as B1 to B4; other wheat may be classed as utility or other wheat. The class decides which grade table applies and the price.</p><ul><li>The cultivar is usually declared by the producer on the delivery documents.</li><li>The grader checks the declaration against the list of cultivars approved for each class, as published for the season.</li><li>Look at the sample: kernel colour, shape and size should match the declared cultivar type. If something looks wrong, report it to your supervisor. A laboratory test may be used to identify cultivars.</li><li>Undeclared or unapproved cultivars cannot be given a bread wheat grade.</li></ul><h3>Determining screenings</h3><p>Screenings are the small, broken and shrivelled kernels and fine material that pass through the prescribed sieve.</p><ol><li>Weigh the working sample.</li><li>Put it on the prescribed slotted sieve and sieve it exactly as the method says: the number of strokes or the set time on the mechanical shaker.</li><li>Weigh what passes through.</li><li>Screenings % = mass that passed ÷ sample mass × 100.</li></ol><p>Shrivelled kernels from drought or heat stress raise screenings.</p><h3>Determining hectolitre mass</h3><p>Hectolitre mass is the mass of wheat in kilograms that fills 100 litres. It shows how sound and well-filled the kernels are. Wheat that was rained on before harvest, or shrivelled, has a lower hectolitre mass.</p><ol><li>Use the approved hectolitre mass apparatus; check that it is clean and level.</li><li>Fill the container exactly as the method says, without pressing or shaking the wheat.</li><li>Level off as instructed and weigh.</li><li>Read the hectolitre mass in kg/hl from the scale or conversion chart and record it.</li></ol><p>The grade tables give a minimum hectolitre mass for each grade.</p>"
+  },
+  {
+   "title": "Falling number, protein and completing the grade",
+   "minutes": 25,
+   "html": "<h3>Determining the falling number</h3><p>When wheat starts to sprout in the ear, often after rain at harvest time, it makes an enzyme (alpha-amylase) that breaks down starch. Flour from sprouted wheat makes sticky, poor bread. The falling number test measures this.</p><ol><li>Mill a sub-sample of wheat into meal with the approved mill.</li><li>Weigh the prescribed amount of meal and add the prescribed volume of water into the test tube.</li><li>Shake to mix, then place the tube in the boiling water bath of the instrument.</li><li>The instrument stirs the mixture, then lets the stirrer fall through it. The time in seconds is the falling number.</li></ol><p>A <strong>low</strong> falling number means the stirrer fell quickly through a thin paste: there is a lot of enzyme activity, which means sprout damage. A <strong>high</strong> falling number means sound wheat. The grade tables set a minimum falling number for bread wheat grades. Take care with the boiling water bath to avoid burns.</p><h3>Determining protein content</h3><p>Protein content strongly affects baking quality; bakers need enough strong protein (gluten) for bread to rise. Higher protein grades usually earn better prices.</p><ul><li>Protein is usually measured with an approved near-infrared (NIR) analyser on whole grain or meal.</li><li>The instrument must be calibrated for wheat and checked with reference samples as the procedure requires.</li><li>Fill the sample cell correctly, run the analysis and record the result, with the moisture basis the regulations prescribe.</li><li>If results look unusual, re-run the sample and inform your supervisor.</li></ul><h3>Completing the grading process</h3><ol><li>Write every result on the worksheet: moisture and each deviation or test result.</li><li>Compare each result with the grade table in the regulations. Start with the highest grade.</li><li>The sample gets the highest grade for which <strong>all</strong> results are within the limits. If one result is over the limit for that grade, check the next grade.</li><li>Check for conditions that make the wheat non-compliant or below grade regardless of percentages, such as a musty, sour or chemical smell, live insects, or poisonous seeds above the permitted level. Report these to your supervisor straight away.</li><li>Sign the worksheet or enter the result in the system.</li><li>Keep the reference sample, sealed and labelled, for the period the site requires, in case of a dispute.</li></ol><h4>Honesty</h4><p>Never change a result because a farmer or driver asks you to. If someone pressures you, call your supervisor. If you made a mistake, report it and re-grade.</p><h4>Key points</h4><ul><li>Use the current grading regulations and calibrated equipment.</li><li>Take a representative sample and divide it properly.</li><li>Set the moisture meter for wheat and record readings straight away.</li><li>Percentage = mass of material ÷ sample mass × 100.</li><li>The grade is the highest grade for which all results comply.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law provides for the grading regulations for wheat?",
+   "options": [
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a 200 g working sample you find 3 g of foreign matter. What is the percentage?",
+   "options": [
+    {
+     "text": "1.5%",
+     "correct": true
+    },
+    {
+     "text": "6%",
+     "correct": false
+    },
+    {
+     "text": "3%",
+     "correct": false
+    },
+    {
+     "text": "0.3%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What grade does a sample get?",
+   "options": [
+    {
+     "text": "The grade the farmer asks for",
+     "correct": false
+    },
+    {
+     "text": "The highest grade for which all results are within the limits",
+     "correct": true
+    },
+    {
+     "text": "The average grade",
+     "correct": false
+    },
+    {
+     "text": "Always the top grade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The moisture meter must be set for wheat before taking a reading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A grader may change a result if the driver is in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a low falling number indicate?",
+   "options": [
+    {
+     "text": "Sound wheat",
+     "correct": false
+    },
+    {
+     "text": "Sprout damage",
+     "correct": true
+    },
+    {
+     "text": "High protein",
+     "correct": false
+    },
+    {
+     "text": "Low moisture",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Hectolitre mass is expressed in which units?",
+   "options": [
+    {
+     "text": "kg/hl",
+     "correct": true
+    },
+    {
+     "text": "seconds",
+     "correct": false
+    },
+    {
+     "text": "percent protein",
+     "correct": false
+    },
+    {
+     "text": "litres per kg",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which determinations are part of wheat grading? (select all that apply)",
+   "options": [
+    {
+     "text": "Falling number",
+     "correct": true
+    },
+    {
+     "text": "Protein content",
+     "correct": true
+    },
+    {
+     "text": "Hectolitre mass",
+     "correct": true
+    },
+    {
+     "text": "Popping expansion",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

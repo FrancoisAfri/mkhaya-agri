@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7717",
+ "title": "Handle and maintain utensils and equipment",
+ "lessons": [
+  {
+   "title": "Knives and hand tools",
+   "minutes": 15,
+   "html": "<h3>Your tools are part of food safety</h3><p>Utensils are the hand tools you use: knives, steels, hooks, scrapers, cutting boards, crates and trays. Equipment means bigger items such as saws, scales and machines. Dirty or broken tools spread germs and can cause accidents.</p><h4>Knives</h4><ul><li>Use the right knife for the job: sticking knife, skinning knife, boning knife.</li><li>Keep the knife sharp. A sharp knife needs less force and slips less. Use the steel often during the shift.</li><li>Carry knives in a scabbard (knife holder). Never carry a knife in your hand while walking, or in your pocket.</li><li>Pass a knife handle first, or put it down on the table for the other person to pick up.</li><li>Never try to catch a falling knife. Step back and let it fall.</li><li>Wear a cut-resistant glove on the hand that does not hold the knife.</li><li>Cut away from your body.</li></ul><h4>Sterilising knives</h4><ul><li>Put the knife in the sterilizer (very hot water) between animals or when you are told.</li><li>Use two knives: one in use, one in the sterilizer.</li><li>Rinse off blood and fat first, then sterilise.</li><li>Be careful of the hot water. Do not put your hand into the sterilizer.</li><li>Tell your supervisor if the sterilizer is not hot enough.</li></ul><h4>Other hand tools</h4><ul><li>Hooks, scrapers and shackles must be clean and not bent or broken.</li><li>Cutting boards must have no deep cuts where germs can hide. Report damaged boards.</li><li>Never put tools on the floor. If one falls, wash and sterilise it before using it again.</li></ul>"
+  },
+  {
+   "title": "Cleaning utensils and equipment",
+   "minutes": 15,
+   "html": "<h3>Clean after use</h3><h4>Steps to clean utensils</h4><ol><li>Scrape off meat, fat and dirt into the right bin.</li><li>Rinse with warm water.</li><li>Wash with detergent and a brush. Scrub handles, joints and corners.</li><li>Rinse with clean water.</li><li>Sanitise or sterilise as your procedure says.</li><li>Let it drain and dry on a clean rack.</li><li>Store in the right place, off the floor.</li></ol><h4>Cleaning equipment</h4><ul><li><strong>Switch off and unplug or lock out</strong> machines before cleaning. Never clean a moving machine.</li><li>Take apart only the parts you are trained to take apart.</li><li>Keep water away from electrical boxes and plugs.</li><li>Clean saw blades, guards and tables carefully. Blades are sharp even when stopped.</li><li>Put parts back correctly and make sure all guards are in place before the machine is used.</li></ul><h4>Crates and trays</h4><ul><li>Wash crates after every use.</li><li>Stack clean crates off the floor, away from dirty crates.</li><li>Do not use broken crates. Broken plastic can get into food.</li></ul><h4>Chemicals</h4><ul><li>Use the right detergent and sanitiser at the right strength.</li><li>Wear gloves and goggles.</li><li>Never mix chemicals.</li></ul><h4>Wash hands too</h4><p>Your hands touch the tools. Wash your hands with soap before you start, after breaks, after the toilet and after touching dirty things. Clean hands keep clean tools clean.</p><p>Clean as you go during the shift. Do not wait until the end of the day for all the cleaning. Tools that are cleaned quickly are easier to clean, because blood and fat have not dried on them. Ask your supervisor to show you the cleaning schedule for your area.</p>"
+  },
+  {
+   "title": "Maintaining and storing tools",
+   "minutes": 15,
+   "html": "<h3>Keep tools in good condition</h3><h4>Daily checks</h4><ul><li>Check knives for loose or cracked handles and chipped blades.</li><li>Check scabbards and cut-resistant gloves for holes and tears.</li><li>Check machines: guards in place, cables not damaged, no strange noises.</li><li>Check scales show zero before use.</li></ul><h4>Report and remove</h4><p>If a tool or machine is broken or unsafe:</p><ol><li>Stop using it.</li><li>Mark it \"Do not use\" or put a tag on it.</li><li>Tell your supervisor.</li><li>Do not try to fix machines yourself unless you are trained and allowed.</li></ol><h4>Sharpening</h4><ul><li>Use the steel during work to keep the edge straight.</li><li>Sharpen knives on the stone or machine as you were trained, or give them to the person who sharpens.</li><li>Clean the knife after sharpening to remove metal dust.</li></ul><h4>Storage</h4><ul><li>Store clean tools in a clean, dry place, off the floor.</li><li>Store knives in racks or holders, not loose in a drawer.</li><li>Keep clean tools away from dirty tools, chemicals and rubbish.</li><li>Count tools at the end of the shift if your workplace asks you to. A missing tool may be in the meat.</li></ul><p>Look after your tools.</p><p>Ask your supervisor to show you how to check each tool.</p><h4>Key points</h4><ul><li>Carry knives in a scabbard, pass them handle first and never catch a falling knife.</li><li>Sterilise knives between animals and use two knives.</li><li>Clean: scrape, rinse, wash, rinse, sanitise, dry, store.</li><li>Switch off and lock out machines before cleaning.</li><li>Stop using broken tools, tag them and tell your supervisor.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should you carry a knife when walking?",
+   "options": [
+    {
+     "text": "In your hand",
+     "correct": false
+    },
+    {
+     "text": "In your pocket",
+     "correct": false
+    },
+    {
+     "text": "In a scabbard",
+     "correct": true
+    },
+    {
+     "text": "Behind your ear",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a knife falls?",
+   "options": [
+    {
+     "text": "Try to catch it",
+     "correct": false
+    },
+    {
+     "text": "Step back and let it fall",
+     "correct": true
+    },
+    {
+     "text": "Kick it away",
+     "correct": false
+    },
+    {
+     "text": "Pick it up and keep using it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before cleaning a machine?",
+   "options": [
+    {
+     "text": "Switch it off and unplug or lock it out",
+     "correct": true
+    },
+    {
+     "text": "Turn it to a slow speed",
+     "correct": false
+    },
+    {
+     "text": "Spray water on the electrical box",
+     "correct": false
+    },
+    {
+     "text": "Remove the guards while it runs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a broken tool?",
+   "options": [
+    {
+     "text": "Keep using it carefully",
+     "correct": false
+    },
+    {
+     "text": "Throw it in the meat bin",
+     "correct": false
+    },
+    {
+     "text": "Stop using it, tag it and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Hide it in a drawer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should cutting boards with deep cuts be reported?",
+   "options": [
+    {
+     "text": "They are too heavy",
+     "correct": false
+    },
+    {
+     "text": "Germs can hide in the cuts",
+     "correct": true
+    },
+    {
+     "text": "They make the knife sharper",
+     "correct": false
+    },
+    {
+     "text": "They are the wrong colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A tool that fell on the floor can be used again without washing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Using two knives lets one be sterilised while the other is used.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in cleaning utensils? (select all that apply)",
+   "options": [
+    {
+     "text": "Scrape off meat and fat",
+     "correct": true
+    },
+    {
+     "text": "Wash with detergent and a brush",
+     "correct": true
+    },
+    {
+     "text": "Sanitise or sterilise",
+     "correct": true
+    },
+    {
+     "text": "Store them on the floor to dry",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

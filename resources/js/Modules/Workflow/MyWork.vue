@@ -20,7 +20,7 @@ const tab = ref(props.mine.length ? 'mine' : props.queue.length ? 'queue' : prop
     <div class="d-flex flex-wrap align-center justify-space-between gap-3 mb-4">
       <div>
         <h4 class="text-h4">My work</h4>
-        <div class="text-body-2 text-medium-emphasis">Everything waiting for you across Mkhaya Hub's workflows, the most urgent first.</div>
+        <div class="text-body-2 text-medium-emphasis">Everything waiting for you across Mkhaya Agri's workflows, the most urgent first.</div>
       </div>
       <div class="d-flex gap-2">
         <VBtn variant="tonal" prepend-icon="tabler-file-description" @click="router.get(route('workflow.requests'))">My requests</VBtn>

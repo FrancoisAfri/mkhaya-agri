@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-PM-02",
+ "title": "Perform Cattle Slaughtering Procedures in an Abattoir, Taking Animal Welfare into Account",
+ "lessons": [
+  {
+   "title": "Stunning cattle humanely",
+   "minutes": 20,
+   "html": "<h3>The aim</h3><p>The animal must be made unconscious instantly and stay unconscious until it dies from bleeding. Done properly, it feels no pain. This is required by law, and it also makes the work safer and the meat better.</p><h3>Before stunning</h3><ul><li>Check that the stunner is clean, serviced and loaded with the correct cartridge for the size of the animal. Have a backup stunner ready.</li><li>Check that the stunning box works and the floor is not slippery.</li><li>Move one animal at a time into the box quietly. Do not use the prodder on its face. Wait for the head to be still; use the head restraint if there is one.</li></ul><h3>The stun position</h3><p>For a penetrating captive bolt on cattle, the correct place is on the front of the head, where two imaginary lines cross: each line runs from the inside corner of one eye to the base of the opposite horn (or the opposite side of the poll). Hold the stunner firmly against the head, at right angles to the skull, and fire.</p><h3>Check the stun at once</h3><table><tr><th>Effective stun</th><th>Poor stun: re-stun now</th></tr><tr><td>Animal collapses immediately</td><td>Animal does not collapse or tries to stand</td></tr><tr><td>No rhythmic breathing</td><td>Rhythmic breathing</td></tr><tr><td>Eyes fixed, no blinking when the eye is touched</td><td>Blinking or eyes following movement</td></tr><tr><td>Relaxed jaw, tongue hanging out</td><td>Bellowing or head lifting</td></tr></table><p>Some leg kicking after a good stun is normal and is not a sign of consciousness. If you see any sign of a poor stun, <strong>re-stun immediately</strong> with the backup stunner, slightly away from the first hole. Report repeated poor stuns so the stunner can be checked.</p><h3>Safety</h3><p>Point the stunner only at the animal's head, never at people. Unload it when not in use. Wear hearing protection.</p>"
+  },
+  {
+   "title": "Shackling, hoisting and bleeding",
+   "minutes": 20,
+   "html": "<h3>Shackling and hoisting</h3><ol><li>Open the stunning box and let the unconscious animal roll out onto the landing area.</li><li>Put the shackle chain around one hind leg, above the hock.</li><li>Hoist the animal onto the bleeding rail. Stand clear of the legs and of the hoist chain.</li><li>Check the stun again as the animal is lifted.</li></ol><p>Kicking legs can injure you. Keep your body out of the reach of the legs and work from the side.</p><h3>Bleeding (sticking)</h3><p>Bleeding must happen as soon as possible after stunning, within the time set by your abattoir's procedure, so that the animal dies before it can recover.</p><ul><li>Use a clean, sharp, sterilised sticking knife.</li><li>Make a cut through the skin at the base of the neck, then use a second clean knife to sever the main blood vessels near the entrance of the chest, as you have been trained. Using two knives prevents germs from the hide entering the bloodstream.</li><li>Sterilise the knife after each animal.</li><li>Check that the blood flows strongly. A weak flow means the vessels were not properly cut.</li><li>Allow enough time for bleeding before any other work is done on the carcass. No dressing may start while the animal could still be conscious.</li></ul><h3>Blood collection</h3><p>Collect the blood in the blood trough. Do not let it run into the drains. Keep the area clean.</p><h3>Welfare checks throughout</h3><ul><li>Watch for signs of returning consciousness during bleeding: rhythmic breathing, blinking, righting the head. If seen, re-stun immediately.</li><li>Never stun more animals than the sticker can bleed in time.</li><li>Report any animal welfare problem to your supervisor and the meat inspector.</li></ul><h4>Key points</h4><ul><li>Stun at the crossing point of lines from each eye to the opposite horn.</li><li>Check every stun: collapse, no rhythmic breathing, no eye reflex.</li><li>Re-stun immediately if the stun is poor.</li><li>Bleed quickly with sterilised knives, using two knives.</li><li>Never start dressing while the animal could be conscious.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should the captive bolt be placed on a cow's head?",
+   "options": [
+    {
+     "text": "Behind the ear",
+     "correct": false
+    },
+    {
+     "text": "On the nose",
+     "correct": false
+    },
+    {
+     "text": "On the neck",
+     "correct": false
+    },
+    {
+     "text": "Where lines from each eye to the opposite horn base cross",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of an effective stun?",
+   "options": [
+    {
+     "text": "Rhythmic breathing",
+     "correct": false
+    },
+    {
+     "text": "Immediate collapse and no rhythmic breathing",
+     "correct": true
+    },
+    {
+     "text": "Blinking when the eye is touched",
+     "correct": false
+    },
+    {
+     "text": "Bellowing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the animal shows signs of a poor stun?",
+   "options": [
+    {
+     "text": "Bleed it quickly",
+     "correct": false
+    },
+    {
+     "text": "Re-stun immediately with the backup stunner",
+     "correct": true
+    },
+    {
+     "text": "Wait for it to calm down",
+     "correct": false
+    },
+    {
+     "text": "Release it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are two knives used for sticking?",
+   "options": [
+    {
+     "text": "To work faster",
+     "correct": false
+    },
+    {
+     "text": "Because one gets blunt",
+     "correct": false
+    },
+    {
+     "text": "To stop germs from the hide entering the bloodstream",
+     "correct": true
+    },
+    {
+     "text": "To cut the hide in two places",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When may dressing of the carcass start?",
+   "options": [
+    {
+     "text": "Only after enough bleeding time when the animal cannot be conscious",
+     "correct": true
+    },
+    {
+     "text": "Straight after stunning",
+     "correct": false
+    },
+    {
+     "text": "While the animal is still bleeding strongly and may be conscious",
+     "correct": false
+    },
+    {
+     "text": "Before hoisting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Some leg kicking after a good stun can be normal.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to stun several animals ahead even if the sticker cannot keep up.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps should be done before stunning? (select all that apply)",
+   "options": [
+    {
+     "text": "Have a backup stunner ready",
+     "correct": true
+    },
+    {
+     "text": "Check the stunner is clean and loaded with the correct cartridge",
+     "correct": true
+    },
+    {
+     "text": "Move one animal at a time quietly into the box",
+     "correct": true
+    },
+    {
+     "text": "Use the prodder on the animal's face",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

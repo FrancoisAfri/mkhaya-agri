@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12615",
+  "title": "Demonstrate a basic understanding of the primary agricultural industry",
+  "lessons": [
+    {
+      "title": "What primary agriculture is",
+      "minutes": 20,
+      "html": "<h3>What primary agriculture is</h3><p>Primary agriculture is the part of farming that produces raw products from plants and animals: grain, fruit, vegetables, sugarcane, milk, meat, eggs, wool and timber. Farms are where the food chain starts.</p><h4>The agricultural value chain</h4><ol><li><strong>Inputs:</strong> businesses that supply seed, fertiliser, feed, chemicals, machinery and fuel.</li><li><strong>Primary production:</strong> the farm grows the crop or raises the animals.</li><li><strong>Processing:</strong> mills, abattoirs, dairies, wineries, sugar mills and pack houses turn raw products into food and goods.</li><li><strong>Marketing and trade:</strong> fresh produce markets, retailers, exporters and silos.</li><li><strong>Consumers:</strong> people who buy and eat the food, in South Africa and overseas.</li></ol><p>Every link depends on the others. If farms have a bad season, mills, transport companies and shops are also affected.</p><h4>Main branches of farming in South Africa</h4><table><tr><th>Branch</th><th>Examples and main areas</th></tr><tr><td>Field crops (grain and oilseeds)</td><td>Maize, wheat, soybeans, sunflower - Free State, North West, Mpumalanga, Western Cape (wheat)</td></tr><tr><td>Horticulture</td><td>Citrus, deciduous fruit, grapes, subtropical fruit, vegetables - Western Cape, Limpopo, Mpumalanga, Eastern Cape</td></tr><tr><td>Livestock</td><td>Beef cattle, sheep, goats, dairy, poultry, pigs - all provinces</td></tr><tr><td>Industrial crops</td><td>Sugarcane (KwaZulu-Natal, Mpumalanga), cotton, tobacco</td></tr><tr><td>Forestry</td><td>Pine and eucalyptus plantations</td></tr></table><h4>Commercial and smallholder farming</h4><p>South Africa has large commercial farms that produce most of the marketed food, and many smallholder and household farmers in rural areas, often in the former homelands, who farm on smaller plots for their families and local markets. Government programmes support smallholders to grow into commercial farmers.</p><p>Agriculture also links to other sectors. Farms buy services from mechanics, transport companies, banks and insurers, so a strong farming sector supports many other businesses in towns and cities.</p>"
+    },
+    {
+      "title": "Why agriculture matters and the role of workers",
+      "minutes": 20,
+      "html": "<h3>Why agriculture matters and the role of workers</h3><h4>Importance of agriculture</h4><ul><li><strong>Food security:</strong> farms feed the country. Without local production, food would be more expensive and less available.</li><li><strong>Jobs:</strong> agriculture employs hundreds of thousands of people directly, mostly in rural areas where other jobs are scarce, and many more in processing and transport.</li><li><strong>Exports:</strong> South Africa exports citrus, table grapes, wine, apples, pears, nuts, wool and other products, which brings in foreign money.</li><li><strong>Rural development:</strong> farms support towns, schools, shops and services in rural areas.</li><li><strong>Raw materials</strong> for industries such as sugar, textiles, leather and biofuels.</li></ul><h4>Challenges facing the industry</h4><ul><li>Drought and climate change; water is scarce.</li><li>Rising costs of fuel, fertiliser, feed and electricity.</li><li>Animal diseases such as foot-and-mouth disease and avian influenza, which can close export markets.</li><li>Stock theft and crime.</li><li>Market price changes and strict export standards.</li><li>Land reform and access to land, finance and markets for new farmers.</li></ul><h4>Organisations in agriculture</h4><p>The Department of Agriculture supports and regulates farming. The Agricultural Research Council (ARC) does research. Commodity organisations (for example for grain, citrus, wine, red meat and wool) support their industries. Farmers' unions represent farmers. The AgriSETA supports skills training in the sector.</p><h4>Your role as a worker</h4><p>Workers are the backbone of primary agriculture. Your work affects the quality of the product, the safety of the food, the health of animals and the farm's ability to sell to good markets. By working safely, carefully and honestly, keeping records and learning new skills, you help the farm succeed and protect your own job.</p><h4>Key points</h4><ul><li>Primary agriculture produces raw products from plants and animals.</li><li>The value chain runs from inputs to farm, processing, marketing and consumers.</li><li>Main branches are field crops, horticulture, livestock, industrial crops and forestry.</li><li>Agriculture gives food security, rural jobs and exports.</li><li>Workers' skills and care directly affect product quality and the farm's success.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is primary agriculture?",
+      "options": [
+        {
+          "text": "Producing raw products from plants and animals on farms",
+          "correct": true
+        },
+        {
+          "text": "Selling food in supermarkets",
+          "correct": false
+        },
+        {
+          "text": "Making canned food in factories",
+          "correct": false
+        },
+        {
+          "text": "Building tractors",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of processing in the value chain?",
+      "options": [
+        {
+          "text": "Planting maize",
+          "correct": false
+        },
+        {
+          "text": "A sugar mill turning cane into sugar",
+          "correct": true
+        },
+        {
+          "text": "Buying seed",
+          "correct": false
+        },
+        {
+          "text": "Eating bread",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In which provinces is most of South Africa's sugarcane grown?",
+      "options": [
+        {
+          "text": "Northern Cape and Western Cape",
+          "correct": false
+        },
+        {
+          "text": "Free State and North West",
+          "correct": false
+        },
+        {
+          "text": "KwaZulu-Natal and Mpumalanga",
+          "correct": true
+        },
+        {
+          "text": "Gauteng and Limpopo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why can an animal disease outbreak hurt the whole industry?",
+      "options": [
+        {
+          "text": "It makes feed cheaper",
+          "correct": false
+        },
+        {
+          "text": "It increases rainfall",
+          "correct": false
+        },
+        {
+          "text": "It creates more jobs",
+          "correct": false
+        },
+        {
+          "text": "It can close export markets",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which organisation supports skills training in agriculture?",
+      "options": [
+        {
+          "text": "AgriSETA",
+          "correct": true
+        },
+        {
+          "text": "The Road Accident Fund",
+          "correct": false
+        },
+        {
+          "text": "SARS",
+          "correct": false
+        },
+        {
+          "text": "The SABC",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "If farms have a bad season, mills, transporters and shops can also be affected.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Farm workers have no effect on the quality of farm products.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Why is agriculture important to South Africa? (select all that apply)",
+      "options": [
+        {
+          "text": "Food security",
+          "correct": true
+        },
+        {
+          "text": "Jobs in rural areas",
+          "correct": true
+        },
+        {
+          "text": "Export earnings",
+          "correct": true
+        },
+        {
+          "text": "It causes drought",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

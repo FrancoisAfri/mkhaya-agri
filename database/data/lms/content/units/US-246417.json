@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246417",
+ "title": "Pursue a dangerous game quarry",
+ "lessons": [
+  {
+   "title": "Tracking and approaching dangerous game",
+   "minutes": 16,
+   "html": "<h3>The pursuit</h3>\n<p>Pursuing dangerous game is the most demanding task in professional hunting. Mistakes can kill the client, the tracker or the professional hunter. Calm discipline and clear roles keep everyone alive.</p>\n<h4>Finding the quarry</h4>\n<ul><li>Start early at waterholes, river crossings or feeding areas. Read fresh tracks and dung: moist dung and crisp track edges mean the animal is close.</li>\n<li>Let the lead tracker follow the spoor while the PH watches ahead and to the sides, rifle ready.</li>\n<li>Keep the wind in your face. Check it every few minutes; swirling wind in valleys can give you away.</li>\n<li>Move slowly and silently in single file: tracker, PH, client, second tracker.</li></ul>\n<h4>The approach</h4>\n<ul><li>Get close enough for a sure shot, but not so close that the animal detects you before the client is ready.</li>\n<li>Use cover and glass the animal carefully: confirm species, sex, maturity and trophy quality.</li>\n<li>Check what is behind and around the animal. With buffalo, a shot through one animal can wound another; with elephant, know where the rest of the herd is.</li>\n<li>Set up the client on the sticks. The PH stands beside the client, rifle ready to back up.</li></ul>\n<h4>Shot placement</h4>\n<p>Dangerous game must be hit hard in the vitals. For buffalo, the heart-lung area low on the shoulder is the usual target. For elephant, brain shots require exact knowledge of the angles. Agree in advance that the client should keep shooting while the animal is standing, if the PH says so, and that the PH will back up immediately if needed.</p>"
+  },
+  {
+   "title": "Follow-up, charges and safety after the shot",
+   "minutes": 16,
+   "html": "<h3>After the shot</h3>\n<ol><li>Reload immediately and keep watching the animal and the herd.</li>\n<li>Listen: buffalo often give a death bellow; this is a good sign but not proof.</li>\n<li>Mark the place of the shot and the line the animal ran.</li>\n<li>Wait if the PH decides it is wise, to let a hard-hit animal lie down and die, but do not wait so long that a wounded animal recovers and moves far.</li></ol>\n<h4>Following up a wounded animal</h4>\n<p>This is the most dangerous phase. The PH takes control:</p>\n<ul><li>The client may be asked to stay back with a tracker, or follow directly behind the PH, depending on experience.</li>\n<li>Trackers follow blood and tracks, and point; the PH watches ahead, not at the ground.</li>\n<li>Move slowly in thick cover, stop often, look under bushes at animal height.</li>\n<li>Expect an ambush. Wounded buffalo often turn back on their own track; lion and leopard hide in thick cover and charge from close range.</li>\n<li>Never give up a follow-up until the animal is found, and inform the property owner and authorities as required.</li></ul>\n<h4>Handling a charge</h4>\n<ul><li>Stand your ground. Running triggers pursuit and makes you impossible to protect.</li>\n<li>Trackers move behind the PH, never in the line of fire.</li>\n<li>The PH shoots to stop the animal, aiming at the brain or spine as the angle allows, and keeps shooting until it is down.</li>\n<li>Approach a downed animal from behind, rifle ready, and confirm death by touching the eye with a stick or rifle barrel from a safe position; a \"dead\" buffalo can get up.</li></ul>\n<h4>Emergencies</h4>\n<p>If someone is injured, make the area safe first, then give first aid for bleeding and call for evacuation as planned. Hands-on trauma first aid training from an accredited provider is essential for every PH.</p>\n<h4>Key points</h4>\n<ul><li>Track with the wind in your face, in single file, the PH watching ahead.</li>\n<li>Confirm the animal and its surroundings before setting up the client.</li>\n<li>Reload, watch and mark after the shot; follow up wounded animals to the end.</li>\n<li>Expect ambushes in follow-ups; stand your ground in a charge.</li>\n<li>Confirm death carefully and be ready for medical emergencies.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do moist dung and crisp track edges indicate?",
+   "options": [
+    {
+     "text": "The animal passed weeks ago",
+     "correct": false
+    },
+    {
+     "text": "It will rain",
+     "correct": false
+    },
+    {
+     "text": "The animal is close",
+     "correct": true
+    },
+    {
+     "text": "The tracks are fake",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During tracking, where should the PH mainly look?",
+   "options": [
+    {
+     "text": "At the client's boots",
+     "correct": false
+    },
+    {
+     "text": "At the sky",
+     "correct": false
+    },
+    {
+     "text": "Ahead and to the sides with the rifle ready",
+     "correct": true
+    },
+    {
+     "text": "At the ground only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do during a charge?",
+   "options": [
+    {
+     "text": "Drop your rifle",
+     "correct": false
+    },
+    {
+     "text": "Climb a small bush",
+     "correct": false
+    },
+    {
+     "text": "Run away",
+     "correct": false
+    },
+    {
+     "text": "Stand your ground",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should trackers move during a charge?",
+   "options": [
+    {
+     "text": "Towards the animal",
+     "correct": false
+    },
+    {
+     "text": "Back to the vehicle alone",
+     "correct": false
+    },
+    {
+     "text": "In front of the PH",
+     "correct": false
+    },
+    {
+     "text": "Behind the PH, out of the line of fire",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What behaviour is typical of a wounded buffalo?",
+   "options": [
+    {
+     "text": "It goes to sleep",
+     "correct": false
+    },
+    {
+     "text": "It may turn back on its own track to ambush",
+     "correct": true
+    },
+    {
+     "text": "It always runs far away",
+     "correct": false
+    },
+    {
+     "text": "It swims away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A buffalo that appears dead can still get up, so death must be confirmed carefully.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A follow-up of a wounded dangerous animal can be abandoned once it gets dark the first evening without informing anyone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are correct follow-up practices? (select all that apply)",
+   "options": [
+    {
+     "text": "Trackers follow blood and tracks while the PH watches ahead",
+     "correct": true
+    },
+    {
+     "text": "Look under bushes at animal height",
+     "correct": true
+    },
+    {
+     "text": "Rush through thick bush to save time",
+     "correct": false
+    },
+    {
+     "text": "Move slowly in thick cover and stop often",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

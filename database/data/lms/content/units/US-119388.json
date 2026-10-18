@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119388",
+ "title": "Apply health and safety practices in poultry processing",
+ "lessons": [
+  {
+   "title": "Hazards in a poultry plant",
+   "minutes": 15,
+   "html": "<h3>Why safety matters in the plant</h3>\n<p>A poultry processing plant is a busy place. Birds come in on crates. Machines cut, pluck and move birds on a shackle line. Floors are wet. Knives are sharp. Many people work close together. If you do not work safely, you or your team mate can get hurt.</p>\n<p>In South Africa the <strong>Occupational Health and Safety Act 85 of 1993</strong> says the employer must give you a safe workplace. It also says <strong>you</strong> must work safely, follow the rules and report anything that is not safe.</p>\n<h4>Common hazards you will find</h4>\n<ul>\n<li><strong>Wet and greasy floors</strong> – you can slip and fall.</li>\n<li><strong>Knives and blades</strong> – cuts to hands and arms.</li>\n<li><strong>Moving machines</strong> – the shackle line, pluckers, chain belts and conveyors can catch hair, clothes or fingers.</li>\n<li><strong>Live birds</strong> – scratches, pecks, dust and feathers in the air.</li>\n<li><strong>Cold</strong> – chillers and cold rooms can make you very cold.</li>\n<li><strong>Hot water and steam</strong> – the scalder can burn you.</li>\n<li><strong>Chemicals</strong> – cleaning chemicals can burn skin and eyes.</li>\n<li><strong>Lifting</strong> – heavy crates and boxes can hurt your back.</li>\n<li><strong>Noise</strong> – loud machines can damage your hearing over time.</li>\n</ul>\n<h4>Look before you work</h4>\n<p>At the start of every shift, look at your work area. Ask yourself:</p>\n<ol>\n<li>Is the floor clear and not too slippery?</li>\n<li>Are the machine guards in place?</li>\n<li>Do I have all my protective clothing?</li>\n<li>Do I know where the emergency stop button is?</li>\n</ol>\n<p>If something is wrong, do not start work. Tell your supervisor straight away. A small problem, like a missing guard or a broken mat, can cause a big injury.</p>\n<p><em>Example:</em> Thandi sees water leaking from a pipe near the evisceration line. The floor is getting slippery. She tells her supervisor, who puts up a warning sign and calls maintenance. Nobody falls.</p>"
+  },
+  {
+   "title": "Protective clothing and safe work",
+   "minutes": 15,
+   "html": "<h3>Personal protective equipment (PPE)</h3>\n<p>PPE is the clothing and equipment that protects your body. The plant gives it to you. You must wear it the right way, every time.</p>\n<table><tr><th>PPE</th><th>What it protects</th></tr>\n<tr><td>Gumboots with non-slip soles</td><td>Feet, stops slipping</td></tr>\n<tr><td>Cut-resistant (mesh) glove</td><td>The hand that holds the bird when you use a knife</td></tr>\n<tr><td>Waterproof apron</td><td>Body and clothes from water and blood</td></tr>\n<tr><td>Ear plugs or ear muffs</td><td>Hearing in noisy areas</td></tr>\n<tr><td>Goggles and chemical gloves</td><td>Eyes and skin when using chemicals</td></tr>\n<tr><td>Warm jacket</td><td>Body in cold rooms</td></tr>\n</table>\n<p>Check your PPE before you use it. If a glove has a hole or a boot is split, ask for a new one.</p>\n<h4>Working safely with knives</h4>\n<ul>\n<li>Keep your knife sharp. A blunt knife needs more force and slips more.</li>\n<li>Always cut away from your body.</li>\n<li>Never try to catch a falling knife. Step back and let it fall.</li>\n<li>Put the knife in its holder (scabbard) when you are not using it.</li>\n<li>Never walk around with an open knife in your hand.</li>\n</ul>\n<h4>Working safely with machines</h4>\n<ul>\n<li>Never put your hand into a moving machine.</li>\n<li>Never remove a guard.</li>\n<li>Tie back long hair and do not wear loose jewellery.</li>\n<li>Only trained people may fix or clean inside a machine, and only after it is switched off and locked out.</li>\n<li>Know where the emergency stop is and use it if someone is in danger.</li>\n</ul>\n<h4>Lifting the right way</h4>\n<p>Bend your knees, keep your back straight, hold the load close to your body and lift with your legs. If a crate is too heavy, ask for help or use a trolley.</p>"
+  },
+  {
+   "title": "Accidents, emergencies and reporting",
+   "minutes": 15,
+   "html": "<h3>When something goes wrong</h3>\n<p>Even in a safe plant, accidents can happen. You must know what to do.</p>\n<h4>If someone is hurt</h4>\n<ol>\n<li>Make the area safe. Press the emergency stop if a machine is involved.</li>\n<li>Call for help. Shout for your supervisor and the first aider.</li>\n<li>Do not move the injured person unless they are in more danger where they are.</li>\n<li>Let the trained first aider help the person.</li>\n<li>Report what happened.</li>\n</ol>\n<p>For a small cut, go to the first aider. Do not keep working with an open wound, because blood can get on the meat and the cut can get infected. Only trained first aiders should give first aid. First aid must be learned through hands-on training with an accredited provider.</p>\n<h4>Chemical splash</h4>\n<p>If chemical gets in your eyes or on your skin, rinse with plenty of clean running water straight away, use the eyewash station if there is one, and call the first aider. Never mix cleaning chemicals. Mixing can make poisonous gas.</p>\n<h4>Fire and evacuation</h4>\n<ul>\n<li>Know where the fire exits and the assembly point are.</li>\n<li>When the alarm sounds, stop work, leave calmly and go to the assembly point.</li>\n<li>Never use a lift or go back inside to fetch your things.</li>\n<li>Never block a fire exit with crates or pallets.</li>\n</ul>\n<h4>Report everything</h4>\n<p>Tell your supervisor about every injury, even a small one, and about every <em>near miss</em>. A near miss is when something almost caused an injury. Reporting helps the plant fix the problem before someone gets hurt. Your safety representative can also help you raise safety problems.</p>\n<p><em>Example:</em> A crate falls off a stack and lands just next to Sipho. Nobody is hurt, but he reports it. The supervisor finds that crates are stacked too high and changes the rule.</p>\n<h4>Key points</h4>\n<ul>\n<li>Check your work area and PPE before every shift.</li>\n<li>Never put your hands into a moving machine or remove a guard.</li>\n<li>Cut away from your body and never catch a falling knife.</li>\n<li>Know the emergency stops, fire exits and assembly point.</li>\n<li>Report every injury and every near miss to your supervisor.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do if you see a machine guard missing at the start of your shift?",
+   "options": [
+    {
+     "text": "Start work and be careful",
+     "correct": false
+    },
+    {
+     "text": "Do not start work and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Remove the other guards too",
+     "correct": false
+    },
+    {
+     "text": "Fix it yourself with tape",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which hand protection is used on the hand that holds the bird while cutting?",
+   "options": [
+    {
+     "text": "A cotton glove",
+     "correct": false
+    },
+    {
+     "text": "A rubber chemical glove",
+     "correct": false
+    },
+    {
+     "text": "A cut-resistant mesh glove",
+     "correct": true
+    },
+    {
+     "text": "No glove is needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if your knife falls?",
+   "options": [
+    {
+     "text": "Catch it quickly",
+     "correct": false
+    },
+    {
+     "text": "Kick it away",
+     "correct": false
+    },
+    {
+     "text": "Step back and let it fall",
+     "correct": true
+    },
+    {
+     "text": "Grab it by the blade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a near miss?",
+   "options": [
+    {
+     "text": "An injury that needs a doctor",
+     "correct": false
+    },
+    {
+     "text": "Something that almost caused an injury",
+     "correct": true
+    },
+    {
+     "text": "A machine that is running slowly",
+     "correct": false
+    },
+    {
+     "text": "A late delivery of birds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first if cleaning chemical splashes into your eyes?",
+   "options": [
+    {
+     "text": "Rub your eyes",
+     "correct": false
+    },
+    {
+     "text": "Rinse with plenty of clean running water",
+     "correct": true
+    },
+    {
+     "text": "Wait to see if it hurts",
+     "correct": false
+    },
+    {
+     "text": "Wipe with your apron",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Under the OHS Act 85 of 1993, workers also have a duty to work safely and report unsafe conditions.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When the fire alarm sounds you should first go back to fetch your bag.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are safe ways to work with machines? (select all that apply)",
+   "options": [
+    {
+     "text": "Tie back long hair",
+     "correct": true
+    },
+    {
+     "text": "Put your hand in to clear a blockage while it runs",
+     "correct": false
+    },
+    {
+     "text": "Know where the emergency stop is",
+     "correct": true
+    },
+    {
+     "text": "Remove a guard to work faster",
+     "correct": false
+    },
+    {
+     "text": "Do not wear loose jewellery",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

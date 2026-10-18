@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-PM-07",
+  "title": "Lead and direct work teams",
+  "lessons": [
+    {
+      "title": "Planning and allocating the team's work",
+      "minutes": 15,
+      "html": "<h3>The supervisor's role on a dairy</h3><p>A dairy never stops. Cows are milked two or three times a day, calves fed, feed mixed and pastures moved, seven days a week. The supervisor turns the manager's plan into daily tasks and makes sure the right people do them at the right time.</p><h4>Planning the day and the week</h4><ul><li><strong>Know the targets</strong>: milking times, litres, calf feeding times, cleaning schedules, breeding checks.</li><li><strong>Draw up a duty roster</strong> that covers every milking, weekends and public holidays, while respecting the working hours and rest days in the Basic Conditions of Employment Act 75 of 1997 and any sectoral rules that apply.</li><li><strong>Plan for absence</strong>: train at least two people for each key job, such as the milker, calf rearer and mixer wagon driver.</li><li><strong>Check resources</strong>: teat dip, liners, filter socks, detergents, calf milk, fuel, protective clothing.</li></ul><h4>Allocating tasks</h4><p>Match people to jobs by skill, experience and safety requirements. Only trained, licensed or authorised workers may drive tractors or handle bulls. Give new workers simpler tasks with a buddy first.</p><h4>Giving clear instructions</h4><ol><li>Say what must be done, where, by when and to what standard.</li><li>Explain why it matters, for example why treated cows are milked last.</li><li>Use the language the worker understands best and simple words.</li><li>Ask the worker to repeat the key points back to you.</li><li>Show the job if it is new, then watch them do it.</li></ol><p>Short daily briefings at the start of a shift work well: five minutes to cover the plan, sick or treated cows, safety reminders and any changes. Write important points on the parlour board so the next shift sees them too.</p>"
+    },
+    {
+      "title": "Motivating and communicating with the team",
+      "minutes": 15,
+      "html": "<h3>People make the dairy work</h3><p>Good cows and equipment are wasted without a committed team. Dairy work is early, repetitive and tiring, so motivation matters.</p><h4>What motivates farm workers</h4><ul><li>Being treated with respect and fairness.</li><li>Clear expectations and knowing how they are doing.</li><li>Recognition when work is done well, for example praising a milker when the herd's cell count drops.</li><li>Safe working conditions and proper protective clothing.</li><li>Chances to learn new skills and grow, such as training to become a relief supervisor.</li><li>Fair pay and incentives, where the farm offers them, for quality milk or calf survival.</li></ul><h4>Leadership style</h4><p>Adjust your style to the situation. In an emergency, such as a cow down in the parlour or a fire, give firm, direct instructions. For routine improvement, such as how to speed up the milking, ask the team for ideas. People support plans they helped to make.</p><h4>Communication habits</h4><ul><li>Listen more than you talk. Workers often see problems first.</li><li>Give feedback soon, privately for criticism and publicly for praise.</li><li>Be consistent: do what you say you will do.</li><li>Pass information both ways: from management to workers and from workers to management.</li><li>Respect cultural and language differences in the team.</li></ul><h4>Dealing with conflict</h4><p>Conflict between workers, for example over shifts or overtime, should be handled early. Hear both sides separately, find the facts, look for a fair solution and follow up. If it involves misconduct or harassment, follow the farm's disciplinary or grievance procedure and involve the manager.</p><p>Remember that motivation drops quickly when workers feel ignored. A supervisor who greets each person at the start of the 04:00 milking, asks about problems and acts on them builds a team that cares about the cows and the milk quality.</p>"
+    },
+    {
+      "title": "Monitoring work, safety and improvement",
+      "minutes": 15,
+      "html": "<h3>Checking that work meets the standard</h3><p>Directing a team means checking results, not just giving orders. Use simple measures you can see every day.</p><table><tr><th>Area</th><th>What to monitor</th></tr><tr><td>Milking</td><td>Routine followed, milking time, cows per hour, clinical mastitis cases</td></tr><tr><td>Milk quality</td><td>Bacteria and somatic cell counts from the milk buyer, tank temperature</td></tr><tr><td>Calves</td><td>Colostrum given, sickness and deaths, growth</td></tr><tr><td>Feeding</td><td>Feed sheet followed, refusals, wastage</td></tr><tr><td>Housekeeping</td><td>Parlour and yards clean, records completed</td></tr></table><h4>Safety leadership</h4><p>Under the OHS Act 85 of 1993 the employer must provide a safe workplace, and supervisors help enforce the safety rules. On a dairy, watch for:</p><ul><li>Kicks and crushing from cows and especially bulls. Never work alone with a bull.</li><li>Slippery floors in the parlour.</li><li>Chemical burns from detergents and acids.</li><li>Tractor and PTO injuries.</li><li>Electrical faults around water.</li></ul><p>Stop unsafe work immediately. Report and record every incident and near miss, and make sure the first aid box is stocked and trained first aiders are on each shift.</p><h4>Continuous improvement</h4><p>Hold a short team review each week or month. Look at the numbers, discuss what went well and what went wrong, and agree on one or two improvements. Record the actions and check them at the next meeting.</p><h4>Developing your people</h4><p>Identify training needs from what you see. Coach on the job, use skills programmes and give promising workers more responsibility.</p><h4>Key points</h4><ul><li>Plan rosters that cover every milking and respect labour law.</li><li>Give clear instructions and check understanding.</li><li>Motivate through respect, recognition, fairness and growth.</li><li>Monitor results with simple daily measures.</li><li>Lead on safety and stop unsafe work immediately.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why should at least two people be trained for each key dairy job?",
+      "options": [
+        {
+          "text": "To cover absence so the work never stops",
+          "correct": true
+        },
+        {
+          "text": "To pay less overtime",
+          "correct": false
+        },
+        {
+          "text": "To make the roster longer",
+          "correct": false
+        },
+        {
+          "text": "Because the law requires two milkers per cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is a good way to check that a worker understood an instruction?",
+      "options": [
+        {
+          "text": "Repeat it louder",
+          "correct": false
+        },
+        {
+          "text": "Write it in English only",
+          "correct": false
+        },
+        {
+          "text": "Ask the worker to repeat the key points back",
+          "correct": true
+        },
+        {
+          "text": "Assume they understood",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should criticism be given?",
+      "options": [
+        {
+          "text": "Publicly so others learn",
+          "correct": false
+        },
+        {
+          "text": "Soon and privately",
+          "correct": true
+        },
+        {
+          "text": "Only at the end of the year",
+          "correct": false
+        },
+        {
+          "text": "Through another worker",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which leadership approach suits an emergency such as a cow down in the parlour?",
+      "options": [
+        {
+          "text": "Hold a long team discussion",
+          "correct": false
+        },
+        {
+          "text": "Wait for the manager",
+          "correct": false
+        },
+        {
+          "text": "Ask for a vote",
+          "correct": false
+        },
+        {
+          "text": "Give firm, direct instructions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a sound safety rule around bulls?",
+      "options": [
+        {
+          "text": "Bulls are safe if they are young",
+          "correct": false
+        },
+        {
+          "text": "Bulls can be handled by any new worker",
+          "correct": false
+        },
+        {
+          "text": "Use dogs to move bulls in the parlour",
+          "correct": false
+        },
+        {
+          "text": "Never work alone with a bull",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Workers are more likely to support plans they helped to make.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Near misses do not need to be reported if nobody was hurt.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are useful measures to monitor milking work? (select all that apply)",
+      "options": [
+        {
+          "text": "Clinical mastitis cases",
+          "correct": true
+        },
+        {
+          "text": "Cows milked per hour",
+          "correct": true
+        },
+        {
+          "text": "Somatic cell count from the milk buyer",
+          "correct": true
+        },
+        {
+          "text": "The colour of the workers' overalls",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

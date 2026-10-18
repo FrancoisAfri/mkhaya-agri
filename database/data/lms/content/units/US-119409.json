@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119409",
+ "title": "Manage the brooding of poultry chicks",
+ "lessons": [
+  {
+   "title": "Preparing for chick placement",
+   "minutes": 15,
+   "html": "<h3>The first days set up the whole flock</h3><p>Brooding is the care of chicks from day-old until they can control their own body temperature, usually the first one to two weeks for broilers and longer for layer pullets. Chicks cannot keep themselves warm at first, their immune systems are immature and their gut is still developing. Mistakes in brooding cause high early mortality and poor performance that cannot be recovered later. Use the breed's management guide for target temperatures, humidity and space.</p><h4>House preparation checklist</h4><ol><li>House cleaned, disinfected and rested; results of any hygiene swabs checked.</li><li>Fresh, dry, clean litter spread evenly to the recommended depth.</li><li>Brooders (gas, electric, or underfloor heating) serviced and tested.</li><li>Pre-heat the house well before arrival, as the guide says, so that litter and air reach target temperature. Cold litter chills chicks from below.</li><li>Water lines flushed, drinkers filled with fresh water at room temperature, and set at chick height.</li><li>Feed placed on paper or chick trays near the drinkers, plus the main feeder system.</li><li>Brooding area defined with surrounds or curtains if partial-house brooding is used.</li><li>Lighting set for bright, even light in the first days to help chicks find feed and water.</li><li>Ventilation set for minimum ventilation to remove gases while keeping warmth.</li><li>Generator, alarms and thermometers checked and placed at chick level.</li></ol><h4>Arrival</h4><p>Unload chicks quickly and gently, close to feed and water. Count chicks and check documents, including hatchery vaccinations. Note chick quality: active, dry, bright-eyed, with healed navels. Record any problems and inform the hatchery.</p>"
+  },
+  {
+   "title": "Managing temperature, air and behaviour",
+   "minutes": 15,
+   "html": "<h3>Reading the chicks</h3><p>Thermometers help, but the chicks themselves are the best guide. Watch their behaviour several times a day, especially in the first 48 hours.</p><h4>Chick behaviour and what it means</h4><table><tr><th>Behaviour</th><th>Meaning</th><th>Action</th></tr><tr><td>Evenly spread, active, eating and drinking, some resting</td><td>Comfortable</td><td>Keep conditions</td></tr><tr><td>Huddled under heaters, noisy</td><td>Too cold</td><td>Increase heat, check for draughts</td></tr><tr><td>Away from heaters, panting, wings out</td><td>Too hot</td><td>Reduce heat, increase ventilation</td></tr><tr><td>Grouped to one side</td><td>Draught or uneven light or heat</td><td>Find and fix the cause</td></tr></table><h4>Temperature reduction</h4><p>Reduce temperature gradually as chicks grow, following the guide. Avoid sudden changes.</p><h4>Humidity</h4><p>Very dry air dehydrates chicks; very humid air leads to wet litter. Measure and manage humidity within the range in the guide.</p><h4>Ventilation</h4><p>Even in cold weather, minimum ventilation is needed to remove carbon dioxide, ammonia, moisture and, with gas brooders, combustion gases. Avoid draughts at chick level.</p><h4>Crop fill</h4><p>Gently feel the crops of a sample of chicks from different areas a few hours after placement and again the next morning. A full, soft crop shows the chick has found feed and water. Low crop fill means chicks are not finding feed or water, or are too cold or hot. Correct immediately.</p><h4>Expanding space</h4><p>As chicks grow, widen the brooding area in steps, adjust feeder and drinker heights, and remove paper and chick trays once birds use the main lines.</p><p>Repeat these checks at night as well.</p><p>Record what you see and what you changed, so the next shift knows. Small corrections made early, such as closing a draughty curtain, prevent big losses later.</p>"
+  },
+  {
+   "title": "Health, records and supervision",
+   "minutes": 15,
+   "html": "<h3>Protecting the young flock</h3><h4>Biosecurity</h4><p>Young chicks are very vulnerable. Limit entry to essential staff, use footbaths and house-specific clothing, and do not visit older flocks before the brooding house. Keep wild birds and rodents out.</p><h4>Daily tasks</h4><ul><li>Walk the house at least three times a day in the first week.</li><li>Remove dead and culled chicks and record numbers twice daily.</li><li>Check feed and water availability, drinker height and pressure.</li><li>Check temperature and humidity readings and the brooders.</li><li>Check litter condition, especially around drinkers.</li><li>Record water intake.</li></ul><h4>First-week mortality</h4><p>First-week mortality is a key measure of chick quality and brooding. Compare it with company targets. High mortality in the first three days often points to chick quality or transport problems; later in the week it points more to brooding conditions or disease. Report problems to the vet and the hatchery.</p><h4>Vaccination</h4><p>Follow the vet's vaccination programme. Some vaccines are given at the hatchery; others on the farm by spray or water. Keep vaccines cold, follow the label and record each vaccination.</p><h4>Supervising the team</h4><p>Assign clear tasks, train staff in reading chick behaviour and in emergency procedures, and make sure someone can respond to alarms at night. A power failure during brooding can kill chicks within a short time.</p><h4>Records</h4><p>Keep daily records of mortality, culls, temperatures, humidity, feed delivered, water intake, vaccinations and observations. These records help solve problems and improve the next flock.</p><h4>Key points</h4><ul><li>Pre-heat the house so litter and air reach the target temperature before chicks arrive.</li><li>Place chicks quickly near feed and water and check chick quality.</li><li>Use chick behaviour to judge temperature: huddling means cold, panting means hot.</li><li>Check crop fill a few hours after placement and the next morning.</li><li>Record first-week mortality, temperatures and water intake, and respond to alarms at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must litter be pre-heated before chicks arrive?",
+   "options": [
+    {
+     "text": "Cold litter chills chicks from below",
+     "correct": true
+    },
+    {
+     "text": "It makes the litter smell better",
+     "correct": false
+    },
+    {
+     "text": "It kills all weeds",
+     "correct": false
+    },
+    {
+     "text": "It saves feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Chicks are grouped to one side of the house. What is the likely cause?",
+   "options": [
+    {
+     "text": "They are perfectly comfortable",
+     "correct": false
+    },
+    {
+     "text": "A draught or uneven light or heat",
+     "correct": true
+    },
+    {
+     "text": "Too much feed",
+     "correct": false
+    },
+    {
+     "text": "The vaccine worked",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a full, soft crop a few hours after placement show?",
+   "options": [
+    {
+     "text": "The chick is sick",
+     "correct": false
+    },
+    {
+     "text": "The chick is too hot",
+     "correct": false
+    },
+    {
+     "text": "The chick has found feed and water",
+     "correct": true
+    },
+    {
+     "text": "The chick needs vaccination",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does chicks panting and moving away from the heaters mean?",
+   "options": [
+    {
+     "text": "Too cold",
+     "correct": false
+    },
+    {
+     "text": "Hungry",
+     "correct": false
+    },
+    {
+     "text": "Thirsty only",
+     "correct": false
+    },
+    {
+     "text": "Too hot",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "High mortality in the first three days most often points to what?",
+   "options": [
+    {
+     "text": "Chick quality or transport problems",
+     "correct": true
+    },
+    {
+     "text": "Too much light at six weeks",
+     "correct": false
+    },
+    {
+     "text": "Old litter",
+     "correct": false
+    },
+    {
+     "text": "Slaughter weight",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Minimum ventilation is needed even in cold weather during brooding.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Thermometers are a better guide to chick comfort than chick behaviour, so behaviour can be ignored.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be checked during house preparation for brooding? (select all that apply)",
+   "options": [
+    {
+     "text": "Brooders serviced and tested",
+     "correct": true
+    },
+    {
+     "text": "Water lines flushed",
+     "correct": true
+    },
+    {
+     "text": "Generator and alarms checked",
+     "correct": true
+    },
+    {
+     "text": "Slaughter crates loaded",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

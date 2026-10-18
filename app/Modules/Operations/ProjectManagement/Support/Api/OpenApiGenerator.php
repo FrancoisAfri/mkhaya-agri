@@ -112,7 +112,7 @@ class OpenApiGenerator
         return [
             'openapi' => '3.1.0',
             'info' => [
-                'title'       => 'Mkhaya Hub — Project Management API',
+                'title'       => 'Mkhaya Agri — Project Management API',
                 'version'     => self::VERSION,
                 'description' => "Evidence-based project management.\n\n"
                     . "Every error is `application/problem+json` (RFC 7807). An id belonging to another tenant returns "

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335935",
+ "title": "Conduct pressure and flow tests on various irrigation water sources",
+ "lessons": [
+  {
+   "title": "Hydraulic principles for testing a water source",
+   "minutes": 20,
+   "html": "<h3>Why test the water source?</h3><p>An irrigation system can only deliver what the water source can supply. Before a system is designed or extended, the designer needs to know two numbers at the point of connection: the <strong>flow rate</strong> available and the <strong>pressure</strong> at that flow. Guessing leads to sprinklers that do not throw far enough, zones that cannot run together, or a pump that runs dry.</p><h4>Key terms</h4><table><tr><th>Term</th><th>Meaning</th><th>Common units</th></tr><tr><td>Flow rate (Q)</td><td>Volume of water passing per unit of time</td><td>litres per second (l/s), litres per minute, cubic metres per hour (m&sup3;/h)</td></tr><tr><td>Pressure</td><td>Force of the water per unit area</td><td>kilopascal (kPa), bar</td></tr><tr><td>Head</td><td>Pressure expressed as a height of water</td><td>metres (m)</td></tr><tr><td>Static pressure</td><td>Pressure when no water is flowing</td><td></td></tr><tr><td>Dynamic (working) pressure</td><td>Pressure while water is flowing</td><td></td></tr><tr><td>Friction loss</td><td>Pressure lost as water rubs against pipe walls and fittings</td><td></td></tr></table><p>Useful conversions: 1 bar = 100 kPa, and 1 bar is approximately 10 metres of head. 1 m&sup3;/h = 1 000 litres per hour, or about 0.28 l/s.</p><h4>The pressure-flow relationship</h4><p>When no water flows, the gauge shows the highest pressure: the static pressure. As you open a valve and flow increases, friction losses in the supply pipe and meter increase, so the pressure at your gauge drops. The more flow you draw, the lower the pressure. A water source is therefore described by a curve or table of pressure against flow, not one number.</p><p>Elevation also matters: for every 10 m the outlet is above the source, you lose about 1 bar; for every 10 m below, you gain about 1 bar.</p><h4>Equipment</h4><ul><li>Calibrated pressure gauge (glycerine-filled for steady readings) with a range suited to the expected pressure</li><li>Test fitting with a gauge point and a valve to control flow</li><li>Flow meter, or a container of known volume and a stopwatch</li><li>Record sheet</li></ul>"
+  },
+  {
+   "title": "Testing a municipal supply",
+   "minutes": 15,
+   "html": "<h3>Municipal connections</h3><p>Many landscape irrigation systems in towns and estates run from a municipal connection. Municipal pressure varies through the day: it is often lowest in the early morning and evening peaks when households use most water, which is also when irrigation tends to run. Test at the time the system will operate, and note the date and time.</p><h4>Rules and courtesy</h4><ul><li>Work only on the customer's side of the meter. The municipal side belongs to the municipality.</li><li>Check local by-laws on water restrictions and backflow protection before testing; some municipalities require a backflow preventer on irrigation connections.</li><li>Inform the owner before testing, because flow to the house will be affected.</li></ul><h4>Procedure</h4><ol><li>Fit the test assembly (gauge plus valve) to the outlet closest to the meter, such as an outside tap.</li><li>With all other water use off, close the valve and read the <strong>static pressure</strong>.</li><li>Open the valve partly. Measure the flow: time how long it takes to fill a container of known volume, for example a 20 litre bucket. Flow (l/s) = volume (l) &divide; time (s). If a 20 l bucket fills in 25 seconds, the flow is 0.8 l/s.</li><li>Read the pressure at that flow.</li><li>Repeat at three or more flow rates, up to fully open.</li><li>Record each pair of readings.</li></ol><h4>Example record</h4><table><tr><th>Flow (l/s)</th><th>Pressure (kPa)</th></tr><tr><td>0 (static)</td><td>450</td></tr><tr><td>0.4</td><td>420</td></tr><tr><td>0.8</td><td>360</td></tr><tr><td>1.2</td><td>270</td></tr></table><p>(These figures are an illustration only.) The designer chooses a working point where enough pressure is left for sprinklers after losses in the irrigation pipes, commonly not drawing the supply down to its lowest pressure.</p><p>Also check the meter size and service pipe diameter; these often limit available flow more than the main does.</p>"
+  },
+  {
+   "title": "Testing pump stations and boreholes",
+   "minutes": 20,
+   "html": "<h3>Pump station tests</h3><p>Where water comes from a dam, river, tank or reservoir through a pump, test the pump's actual output, which may differ from its catalogue curve because of wear, suction conditions or voltage.</p><ol><li>Check the pump is primed and suction is not drawing air.</li><li>Fit gauges on the suction side (a compound or vacuum gauge) and delivery side, close to the pump.</li><li>With the delivery valve partly closed, read pressure and flow (from a flow meter on the delivery or by volumetric method into a tank).</li><li>Open the valve in steps, recording pressure and flow at each step, to build the actual curve.</li><li>Note motor current with a clamp meter if trained to do so, and listen for cavitation (a gravel-like noise).</li></ol><p>Never run a pump against a fully closed valve for more than a moment; the water heats and the pump can be damaged.</p><h4>Borehole tests</h4><p>A borehole has two limits: the pump's performance and the aquifer's sustainable yield. Over-pumping lowers the water level until the pump runs dry or draws sand.</p><ul><li>Measure the <strong>rest water level</strong> with a dip meter before pumping.</li><li>Run the pump and measure flow at the outlet and pressure at the borehole head.</li><li>Measure the <strong>pumping water level</strong> at intervals. If it keeps falling, the yield is being exceeded.</li><li>Use the yield from a proper pump test by a registered groundwater professional to set the long-term pumping rate.</li></ul><p>Water use from boreholes may need to be registered or licensed under the National Water Act 36 of 1998.</p><h4>Safety</h4><ul><li>Isolate electrical supply before fitting gauges on pump stations; only qualified electricians work on electrical panels.</li><li>Release pressure before opening fittings.</li><li>Keep the borehole head covered so tools and people cannot fall in.</li></ul><h4>Reporting</h4><p>Record date, time, source, location of test point, static pressure, flow-pressure pairs, water levels and observations. Hand the record to the designer or supervisor.</p><h4>Key points</h4><ul><li>A water source is described by pressure at different flows, not one number.</li><li>1 bar = 100 kPa, about 10 m of head.</li><li>Test municipal supply at the time irrigation will run and only on the customer side.</li><li>Build the actual pump curve with step tests and never run against a closed valve for long.</li><li>For boreholes, monitor water levels and respect the sustainable yield.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is static pressure?",
+   "options": [
+    {
+     "text": "Pressure at full flow",
+     "correct": false
+    },
+    {
+     "text": "Pressure lost in fittings",
+     "correct": false
+    },
+    {
+     "text": "Pressure when no water is flowing",
+     "correct": true
+    },
+    {
+     "text": "Pressure in a sprinkler",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Approximately how many metres of head is 1 bar?",
+   "options": [
+    {
+     "text": "10 m",
+     "correct": true
+    },
+    {
+     "text": "1 m",
+     "correct": false
+    },
+    {
+     "text": "100 m",
+     "correct": false
+    },
+    {
+     "text": "50 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A 20 litre bucket fills in 25 seconds. What is the flow?",
+   "options": [
+    {
+     "text": "0.5 l/s",
+     "correct": false
+    },
+    {
+     "text": "1.25 l/s",
+     "correct": false
+    },
+    {
+     "text": "5 l/s",
+     "correct": false
+    },
+    {
+     "text": "0.8 l/s",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens to the pressure at the gauge as you draw more flow from a supply?",
+   "options": [
+    {
+     "text": "It rises",
+     "correct": false
+    },
+    {
+     "text": "It drops",
+     "correct": true
+    },
+    {
+     "text": "It stays the same",
+     "correct": false
+    },
+    {
+     "text": "It doubles",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you not run a pump against a fully closed valve for long?",
+   "options": [
+    {
+     "text": "It uses less power",
+     "correct": false
+    },
+    {
+     "text": "It increases flow",
+     "correct": false
+    },
+    {
+     "text": "The water heats and the pump can be damaged",
+     "correct": true
+    },
+    {
+     "text": "It primes the pump",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Municipal pressure can vary through the day, so you should test at the time irrigation will run.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If the pumping water level in a borehole keeps falling, the pump is within the sustainable yield.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which equipment is needed for a flow and pressure test? (select all that apply)",
+   "options": [
+    {
+     "text": "Calibrated pressure gauge",
+     "correct": true
+    },
+    {
+     "text": "Container of known volume and a stopwatch, or flow meter",
+     "correct": true
+    },
+    {
+     "text": "Soil auger",
+     "correct": false
+    },
+    {
+     "text": "Test fitting with a valve",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

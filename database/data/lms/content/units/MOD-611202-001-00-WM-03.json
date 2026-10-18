@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-611202-001-00-WM-03",
+  "title": "Daily Orchard or Vineyard and Production Information Availability",
+  "lessons": [
+    {
+      "title": "Setting up the daily information system",
+      "minutes": 20,
+      "html": "<h3>Setting up the daily information system</h3><p>In this work experience module you are responsible, over a production period, for making accurate daily information about your section available to the people who need it. You will show that the information is complete, correct and on time, and that it is used for decisions.</p><h4>Agree what is needed</h4><p>Meet your mentor or manager and agree:</p><ul><li>What information is needed daily, weekly and at season end.</li><li>Who receives it: manager, consultant, payroll, packhouse or cellar, auditors.</li><li>The format: paper forms, spreadsheet, farm management app.</li><li>Deadlines: for example, daily summary by 17:00, payroll data every Friday by noon.</li></ul><h4>Standard forms and codes</h4><p>Make sure everyone uses the same block numbers, cultivar names, operation codes and worker numbers. Check that forms are available in the field and that team leaders know how to complete them. If an app is used, check that phones are charged and that team leaders can capture data offline where signal is weak.</p><h4>Roles</h4><table><tr><th>Person</th><th>Responsibility</th></tr><tr><td>Team leaders</td><td>Attendance, output per worker, problems on job cards</td></tr><tr><td>Tractor and sprayer operators</td><td>Machine logs and spray records</td></tr><tr><td>Storekeeper</td><td>Issues and returns of inputs</td></tr><tr><td>Scout</td><td>Pest, disease and trap counts</td></tr><tr><td>Foreman</td><td>Checking, combining and reporting</td></tr></table><h4>Training the data collectors</h4><p>Train team leaders and operators on how to fill in forms correctly and why accuracy matters. Show examples of good and bad records. Check their first forms closely and give feedback.</p><h4>Start small</h4><p>If the farm has no system yet, start with the most important information - attendance, output per block and spray records - and add more once these work reliably. A small system that is used well is better than a large one that is filled in badly.</p>"
+    },
+    {
+      "title": "Daily collection, checking and reporting",
+      "minutes": 20,
+      "html": "<h3>Daily collection, checking and reporting</h3><h4>The daily cycle</h4><ol><li><strong>Morning</strong>: attendance captured; plan for the day confirmed.</li><li><strong>During the day</strong>: output, quality checks, scouting, input issues, machine hours and incidents recorded as they happen.</li><li><strong>Afternoon</strong>: collect all forms or check app entries; reconcile; correct errors.</li><li><strong>End of day</strong>: send the daily summary to the manager; flag urgent issues.</li></ol><h4>Checks before submitting</h4><ul><li>Hours worked match attendance; no worker in two places at once.</li><li>Output figures are realistic compared with standard rates.</li><li>Bins picked match bins dispatched and the packhouse or cellar receipt.</li><li>Input issues match block areas and recommended rates.</li><li>Spray records are complete with withholding and re-entry dates.</li><li>No blank fields where information is required.</li></ul><h4>Handling errors</h4><p>When you find an error, check with the person who recorded it, correct it and note the correction. Never change data to make figures look better. If the same error keeps happening, retrain or simplify the form.</p><h4>Urgent information</h4><p>Report immediately, not in the daily summary: serious injuries, chemical exposures or spills, hail or fire, pest outbreaks above threshold, irrigation or pump failures, theft, and any spray mistake affecting withholding periods.</p><h4>Keeping a log</h4><p>For your portfolio, keep a log showing each day's report: time submitted, any late or missing items and why, and errors found and corrected. This shows the reliability of the information you provided over the period.</p><h4>Respecting privacy</h4><p>Worker information such as ID numbers, pay and disciplinary records must be kept confidential and only shared with those who need it, in line with the Protection of Personal Information Act and farm policy.</p>"
+    },
+    {
+      "title": "Using information and evaluating the system",
+      "minutes": 20,
+      "html": "<h3>Using information and evaluating the system</h3><h4>From data to decisions</h4><p>Information is valuable only when it leads to action. Show in your portfolio examples where daily information was used, for example:</p><ul><li>Rising mealybug counts in a block led to an earlier spray decision by the consultant.</li><li>Low productivity in one team led to coaching and better bin placement.</li><li>Fuel use above normal on one tractor led to a service that found a fault.</li><li>Maturity results led to a change in the picking order of blocks.</li><li>Bin reconciliation identified missing bins that were found at the wrong depot.</li></ul><h4>Weekly summaries</h4><p>Combine daily data into weekly reports: progress against plan per block, labour hours and cost per hectare, productivity trends, inputs against budget, scouting trends and incidents. Use simple tables and graphs so trends are easy to see.</p><h4>Evaluating the information system</h4><p>At the end of the period, evaluate how well the system worked:</p><table><tr><th>Question</th><th>Evidence</th></tr><tr><td>Was information on time?</td><td>Percentage of daily reports submitted by the deadline</td></tr><tr><td>Was it accurate?</td><td>Number of errors found later, payroll queries</td></tr><tr><td>Was it complete?</td><td>Missing fields or forms</td></tr><tr><td>Was it useful?</td><td>Decisions it supported, feedback from users</td></tr></table><p>Ask the manager, consultant and payroll for feedback on what was useful and what was missing.</p><h4>Recommending improvements</h4><p>Suggest practical improvements: simpler forms, an app, better codes, training for team leaders, earlier collection times, or automated reconciliation. Explain the expected benefit of each.</p><h4>Storing records</h4><p>File and back up records for the period required by the farm's audit schemes, so they can be retrieved during audits or investigations.</p><h4>Key points</h4><ul><li>Agree with users what information is needed, in what format and by when.</li><li>Use standard codes and train the people who collect data.</li><li>Check and reconcile data daily before submitting it.</li><li>Report urgent events immediately and never alter data to look better.</li><li>Evaluate the system on timeliness, accuracy, completeness and usefulness.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why should everyone use the same block and operation codes?",
+      "options": [
+        {
+          "text": "So information can be combined and compared",
+          "correct": true
+        },
+        {
+          "text": "To make forms longer",
+          "correct": false
+        },
+        {
+          "text": "To confuse auditors",
+          "correct": false
+        },
+        {
+          "text": "Codes are never needed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Who usually records attendance and output per worker in the field?",
+      "options": [
+        {
+          "text": "The packhouse manager",
+          "correct": false
+        },
+        {
+          "text": "Team leaders",
+          "correct": true
+        },
+        {
+          "text": "The consultant",
+          "correct": false
+        },
+        {
+          "text": "The storekeeper",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "The same recording error keeps happening on a form. What is a sensible response?",
+      "options": [
+        {
+          "text": "Change the figures yourself every day without telling anyone",
+          "correct": false
+        },
+        {
+          "text": "Stop collecting the data",
+          "correct": false
+        },
+        {
+          "text": "Retrain the recorder or simplify the form",
+          "correct": true
+        },
+        {
+          "text": "Ignore it",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which measure shows whether information was on time?",
+      "options": [
+        {
+          "text": "Number of tractors",
+          "correct": false
+        },
+        {
+          "text": "Yield per hectare",
+          "correct": false
+        },
+        {
+          "text": "Rainfall total",
+          "correct": false
+        },
+        {
+          "text": "Percentage of daily reports submitted by the deadline",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A tractor's fuel use is above normal. What is a good use of this information?",
+      "options": [
+        {
+          "text": "Have it serviced to check for a fault",
+          "correct": true
+        },
+        {
+          "text": "Buy more fuel",
+          "correct": false
+        },
+        {
+          "text": "Delete the record",
+          "correct": false
+        },
+        {
+          "text": "Give it to another driver",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to adjust data to make the section's figures look better.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Worker ID numbers and pay information should be kept confidential.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which checks should be done before submitting the daily report? (select all that apply)",
+      "options": [
+        {
+          "text": "Hours match attendance",
+          "correct": true
+        },
+        {
+          "text": "Bins picked match bins received",
+          "correct": true
+        },
+        {
+          "text": "Spray records include withholding and re-entry dates",
+          "correct": true
+        },
+        {
+          "text": "The weather next month",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

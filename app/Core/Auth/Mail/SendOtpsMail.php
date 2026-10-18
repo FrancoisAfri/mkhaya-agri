@@ -37,7 +37,7 @@ class SendOtpsMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('info@mkhayahub.co.za', 'Mkhaya Hub'),
+            from: new Address('info@mkhayahub.co.za', 'Mkhaya Agri'),
             subject: 'Your One-Time Password',
         );
     }

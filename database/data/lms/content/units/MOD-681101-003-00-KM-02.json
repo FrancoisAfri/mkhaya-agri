@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-003-00-KM-02",
+ "title": "Statutory Compliance for Pork Slaughter",
+ "lessons": [
+  {
+   "title": "The laws that apply to pork slaughter",
+   "minutes": 15,
+   "html": "<h3>What is statutory compliance?</h3><p>A <strong>statute</strong> is a law made by Parliament. <strong>Compliance</strong> means following it. A pork abattoir must follow several laws. If it does not, it can be fined or closed, and people can be harmed. Every worker plays a part in compliance.</p><h3>The main laws</h3><table><tr><th>Law</th><th>What it means for you</th></tr><tr><td>Meat Safety Act 40 of 2000</td><td>Pigs may only be slaughtered for sale at a registered abattoir. Hygiene rules must be followed and meat must be inspected before it is sold.</td></tr><tr><td>Animals Protection Act 71 of 1962</td><td>No cruelty to pigs. Handle them calmly and stun them correctly.</td></tr><tr><td>Animal Diseases Act 35 of 1984</td><td>Controls serious diseases such as African swine fever and foot-and-mouth disease. Suspected cases must be reported, and movement rules followed.</td></tr><tr><td>Agricultural Product Standards Act 119 of 1990</td><td>Rules for classifying and marking carcasses.</td></tr><tr><td>Occupational Health and Safety Act 85 of 1993</td><td>A safe workplace and safe working by employees.</td></tr><tr><td>National Water Act 36 of 1998</td><td>Do not pollute water with blood or wastewater.</td></tr><tr><td>Basic Conditions of Employment Act 75 of 1997</td><td>Working hours, leave and pay.</td></tr></table><p>Regulations made under these Acts give the detailed rules, for example the hygiene requirements for abattoirs under the Meat Safety Act.</p><h3>Inspection services</h3><p>Meat inspectors carry out ante-mortem (before slaughter) and post-mortem (after slaughter) inspection. Only meat passed by the inspector may receive the inspection stamp and be sold. Workers must follow inspectors' instructions and never interfere with their decisions.</p><p>If you do not understand a rule, ask your supervisor to explain it. Not knowing the law is not an excuse for breaking it, and every worker can help the abattoir stay compliant by following procedures every day.</p>"
+  },
+  {
+   "title": "Compliance in daily work",
+   "minutes": 15,
+   "html": "<h3>What compliance looks like on the floor</h3><h4>Meat safety and hygiene</h4><ul><li>Wash hands and sterilise knives as required.</li><li>Wear clean protective clothing; no jewellery.</li><li>Report illness before work.</li><li>Keep carcass, head and offal identified for inspection.</li><li>Never remove inspection stamps or detention tags.</li><li>Put condemned material in the marked containers only.</li></ul><h4>Animal welfare</h4><ul><li>Give pigs water and rest in the lairage, and cool them in hot weather.</li><li>Move pigs with boards, not sticks or kicks.</li><li>Check that every pig is properly stunned before sticking.</li></ul><h4>Animal disease control</h4><p>Pig diseases such as African swine fever can spread very fast and cause huge losses. If you notice many sick or dead pigs arriving, unusual skin colour, bleeding or high fevers, tell the supervisor and the meat inspector at once. Follow the abattoir's biosecurity rules: clean trucks, footbaths, and no pork products brought from outside into the lairage.</p><h4>Classification</h4><p>Pork carcasses are classified (in South Africa, using the PORCUS system based on the lean meat percentage) and marked. Do not interfere with classification marks or labels.</p><h4>Health and safety</h4><ul><li>Wear PPE, follow safe procedures and report hazards and injuries.</li><li>Use machines only when trained.</li></ul><h4>Environment</h4><ul><li>Collect blood; do not wash it into drains.</li><li>Dry-clean before hosing and keep drain screens in place.</li></ul><h3>Records are evidence</h3><p>Cleaning checklists, temperature records, slaughter lists and training records show inspectors that the law is being followed. Fill them in honestly and on time. A record that is made up is worse than no record.</p><h4>Key points</h4><ul><li>The Meat Safety Act 40 of 2000 requires registered abattoirs, hygiene and inspection.</li><li>The Animals Protection Act forbids cruelty; stun every pig properly.</li><li>Report suspected disease under the Animal Diseases Act 35 of 1984.</li><li>Follow OHS, water and labour laws in daily work.</li><li>Keep honest, complete records as evidence of compliance.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does compliance mean?",
+   "options": [
+    {
+     "text": "Breaking a law",
+     "correct": false
+    },
+    {
+     "text": "Following the law",
+     "correct": true
+    },
+    {
+     "text": "Writing a new law",
+     "correct": false
+    },
+    {
+     "text": "Paying a fine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Under which Act must pigs for sale be slaughtered at a registered abattoir?",
+   "options": [
+    {
+     "text": "Labour Relations Act",
+     "correct": false
+    },
+    {
+     "text": "National Water Act",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": true
+    },
+    {
+     "text": "Basic Conditions of Employment Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if many pigs arrive sick or dead with unusual skin colour?",
+   "options": [
+    {
+     "text": "Tell the supervisor and meat inspector at once",
+     "correct": true
+    },
+    {
+     "text": "Slaughter them quickly",
+     "correct": false
+    },
+    {
+     "text": "Send them home",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What system is used to classify pork carcasses in South Africa?",
+   "options": [
+    {
+     "text": "A, AB, B, C",
+     "correct": false
+    },
+    {
+     "text": "Fat codes only",
+     "correct": false
+    },
+    {
+     "text": "Colour grading",
+     "correct": false
+    },
+    {
+     "text": "PORCUS",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers pollution of water by blood and wastewater?",
+   "options": [
+    {
+     "text": "Animals Protection Act",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act only",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards Act",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A record that is made up is better than no record.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only meat passed by the meat inspector may receive the inspection stamp and be sold.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of compliance in daily work? (select all that apply)",
+   "options": [
+    {
+     "text": "Removing detention tags to speed up dispatch",
+     "correct": false
+    },
+    {
+     "text": "Checking every pig is properly stunned",
+     "correct": true
+    },
+    {
+     "text": "Collecting blood instead of washing it into drains",
+     "correct": true
+    },
+    {
+     "text": "Sterilising knives",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

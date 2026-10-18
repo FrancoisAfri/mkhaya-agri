@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115793",
+ "title": "Peg plant stations for macadamia orchards",
+ "lessons": [
+  {
+   "title": "The orchard layout",
+   "minutes": 15,
+   "html": "<h3>Why pegging matters</h3>\n<p>A macadamia tree can produce nuts for 40 years or more. Where it is planted on day one decides how easy it will be to spray, mow, harvest and irrigate for its whole life. Pegging means marking the exact spot for every tree with a peg, according to the orchard plan. If the pegs are wrong, rows are crooked, tractors cannot pass, and trees get too little light.</p>\n<h4>The orchard plan</h4>\n<p>The farm manager or consultant draws the plan. It shows:</p>\n<ul><li>the blocks and their borders</li>\n<li>the <strong>row direction</strong> – often north–south for even sunlight, or along the contour on slopes</li>\n<li>the <strong>row spacing</strong> – distance between rows</li>\n<li>the <strong>in-row spacing</strong> – distance between trees in a row</li>\n<li>roads, headlands (turning space at row ends), drainage and windbreaks</li>\n<li>which cultivar goes in which rows, often with more than one cultivar for cross-pollination</li></ul>\n<p>Spacing differs between farms and cultivars. For example a plan may use 8 m between rows and 4 m between trees. Always use the spacing in your farm's plan.</p>\n<h4>Tools and materials</h4>\n<ul><li>Measuring tapes (50 m or 100 m) or a marked chain or wire</li>\n<li>Pegs (wood, bamboo or steel), painted at the top so they are easy to see</li>\n<li>Sighting poles (ranging rods)</li>\n<li>Builder's square or a 3-4-5 triangle of rope</li>\n<li>Hammer or mallet</li>\n<li>GPS or survey equipment if the farm uses it</li>\n<li>The orchard plan and a notebook</li></ul>"
+  },
+  {
+   "title": "Pegging step by step",
+   "minutes": 15,
+   "html": "<h3>Setting the base line</h3>\n<ol><li>Find the starting point on the plan, usually a corner of the block. Your supervisor will show you the reference point.</li>\n<li>Peg a straight <strong>base line</strong> along one edge of the block, using sighting poles. Stand behind the first pole and line up the others so you see only one pole.</li>\n<li>Along the base line, measure the row spacing and put a peg at the start of each row.</li></ol>\n<h3>Making a right angle</h3>\n<p>Rows must be at a right angle (90°) to the base line on flat land. Use the <strong>3-4-5 method</strong>:</p>\n<ol><li>From a peg on the base line, measure 3 m along the base line and put a mark.</li>\n<li>From the first peg, measure 4 m out at roughly a right angle.</li>\n<li>Move the 4 m point until the distance between it and the 3 m mark is exactly 5 m. Now you have a right angle.</li></ol>\n<p>Use bigger numbers (6-8-10 or 30-40-50) for long rows; they are more accurate.</p>\n<h3>Pegging the rows</h3>\n<ol><li>Line up sighting poles along each row.</li>\n<li>Measure the in-row spacing with the tape, keeping it tight and straight.</li>\n<li>Knock a peg in firmly at each tree spot.</li>\n<li>Check that pegs line up in all directions: along the row, across rows and on the diagonal.</li>\n<li>On slopes, the supervisor may use contour lines instead. Follow the plan.</li></ol>\n<h3>Checking and recording</h3>\n<p>Walk the rows and look along them. A crooked peg is easy to fix now and impossible to fix later. Count the pegs per row and record them. This tells the farm how many trees to order.</p>\n<h3>Safety</h3>\n<ul><li>Wear boots, a hat and sunscreen. Drink water.</li>\n<li>Watch for snakes, holes and thorns in new land.</li>\n<li>Be careful with the hammer and keep fingers clear.</li></ul>\n<h4>Key points</h4>\n<ul><li>Pegs mark the exact place for every tree, following the orchard plan.</li>\n<li>Start from a straight base line using sighting poles.</li>\n<li>Use the 3-4-5 method to make a right angle.</li>\n<li>Measure spacing with a tight, straight tape.</li>\n<li>Check that pegs line up in all directions and count them.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is correct pegging important in a macadamia orchard?",
+   "options": [
+    {
+     "text": "Trees grow faster when pegged",
+     "correct": false
+    },
+    {
+     "text": "Tree positions affect spraying, mowing, harvesting and light for the tree's whole life",
+     "correct": true
+    },
+    {
+     "text": "Pegs feed the trees",
+     "correct": false
+    },
+    {
+     "text": "It is only for the photos",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the in-row spacing?",
+   "options": [
+    {
+     "text": "The distance between blocks",
+     "correct": false
+    },
+    {
+     "text": "The width of the road",
+     "correct": false
+    },
+    {
+     "text": "The distance between trees in a row",
+     "correct": true
+    },
+    {
+     "text": "The depth of the hole",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which measurements make a right angle in the 3-4-5 method?",
+   "options": [
+    {
+     "text": "3 m, 4 m and 5 m between the points",
+     "correct": true
+    },
+    {
+     "text": "3 m, 3 m and 3 m",
+     "correct": false
+    },
+    {
+     "text": "4 m, 4 m and 8 m",
+     "correct": false
+    },
+    {
+     "text": "5 m, 5 m and 5 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you line up sighting poles?",
+   "options": [
+    {
+     "text": "Look from the side",
+     "correct": false
+    },
+    {
+     "text": "Use only one pole",
+     "correct": false
+    },
+    {
+     "text": "Guess",
+     "correct": false
+    },
+    {
+     "text": "Stand behind the first pole so you see only one pole",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why count the pegs in each row?",
+   "options": [
+    {
+     "text": "To pay the pegs",
+     "correct": false
+    },
+    {
+     "text": "So the farm knows how many trees to order",
+     "correct": true
+    },
+    {
+     "text": "To measure rainfall",
+     "correct": false
+    },
+    {
+     "text": "To mark the roads",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should always use the spacing on your farm's orchard plan.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A crooked peg is easy to fix after the tree has been planted for five years.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tools are used for pegging plant stations? (select all that apply)",
+   "options": [
+    {
+     "text": "Measuring tape",
+     "correct": true
+    },
+    {
+     "text": "Sighting poles",
+     "correct": true
+    },
+    {
+     "text": "Chainsaw",
+     "correct": false
+    },
+    {
+     "text": "Painted pegs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123370",
+ "title": "Demonstrate knowledge of hygiene awareness in a food production facility",
+ "lessons": [
+  {
+   "title": "Why hygiene matters",
+   "minutes": 15,
+   "html": "<h3>Clean food, healthy people</h3><p>Food can carry germs that make people sick. Germs are so small that you cannot see them. In a food production facility, such as an abattoir, packhouse or meat processing plant, many people handle food. One person with dirty hands can make many people ill.</p><h4>Where germs come from</h4><ul><li>Hands, especially after using the toilet, touching your face, hair or phone.</li><li>Sick workers with diarrhoea, vomiting, coughs or infected wounds.</li><li>Animals, dung and raw meat.</li><li>Dirty equipment, tables, knives and crates.</li><li>Pests such as flies, cockroaches, rats and birds.</li><li>Dirty water.</li></ul><h4>Three kinds of hazards</h4><table><tr><th>Hazard</th><th>Examples</th></tr><tr><td>Biological</td><td>Bacteria, viruses, parasites</td></tr><tr><td>Chemical</td><td>Cleaning chemicals, pesticides, oil</td></tr><tr><td>Physical</td><td>Glass, hair, jewellery, plasters, metal pieces</td></tr></table><h4>The law</h4><p>Food businesses must follow hygiene rules made under the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972. Abattoirs must also follow the Meat Safety Act 40 of 2000. If a facility is dirty, it can be closed and people can lose their jobs.</p><h4>Germs grow fast when food is warm</h4><p>Germs grow quickly when food is warm. Keep cold food cold, in the fridge or chiller. Do not leave meat or other food standing out longer than your procedure allows.</p><p>Clean food protects customers and also protects your job.</p><p>Everyone in the facility has a part to play. Managers, supervisors, cleaners and line workers must all follow the same hygiene rules. Visitors and contractors must follow them too. Ask your supervisor if you are not sure what a rule means.</p>"
+  },
+  {
+   "title": "Personal hygiene",
+   "minutes": 15,
+   "html": "<h3>Your part in clean food</h3><h4>Wash your hands well</h4><ol><li>Wet your hands with clean water.</li><li>Use soap.</li><li>Rub the palms, backs, between the fingers, thumbs, nails and wrists for about 20 seconds.</li><li>Rinse with clean water.</li><li>Dry with a paper towel or hand dryer. Do not wipe your hands on your clothes.</li></ol><h4>When to wash your hands</h4><ul><li>When you start work and after every break.</li><li>After using the toilet.</li><li>After touching your face, hair, nose or phone.</li><li>After touching rubbish, dirty surfaces or the floor.</li><li>After coughing or sneezing.</li><li>When you move from a dirty area to a clean area.</li></ul><h4>Clothing and appearance</h4><ul><li>Wear clean protective clothing every day: overall or coat, apron, hairnet, and boots.</li><li>Keep all hair inside the hairnet. Men with beards wear beard nets if required.</li><li>Take off all jewellery, watches and earrings. Do not wear false nails or nail polish.</li><li>Keep nails short and clean.</li><li>Do not wear your work clothes outside the facility or in the toilet.</li></ul><h4>Behaviour</h4><ul><li>No eating, drinking, chewing gum or smoking in work areas.</li><li>Do not spit.</li><li>Cough or sneeze into your elbow, away from food, then wash your hands.</li><li>Cover cuts with a blue waterproof plaster, so it is easy to see if it falls into food.</li><li>Tell your supervisor if you have diarrhoea, vomiting, fever, a skin infection or a cut that is infected. You may need to stay away from food.</li></ul><p>Wash hands well.</p><p>Ask your supervisor for clean clothing if yours gets very dirty.</p>"
+  },
+  {
+   "title": "Keeping the facility clean",
+   "minutes": 15,
+   "html": "<h3>Stopping cross-contamination</h3><p><strong>Cross-contamination</strong> is when germs move from something dirty to something clean. For example, from raw meat to cooked meat, or from the floor to a table.</p><ul><li>Keep dirty areas and clean areas apart. Follow the set routes.</li><li>Wash hands and boots at the wash points between areas.</li><li>Use colour-coded equipment where your facility has it.</li><li>Never put food, crates or knives on the floor.</li><li>If food falls on the floor, tell your supervisor. Follow the procedure.</li></ul><h4>Cleaning</h4><ul><li>Clean as you go during the shift.</li><li>Follow the cleaning schedule for every area.</li><li>Use the right chemical in the right amount. Never mix chemicals.</li><li>Store cleaning chemicals away from food, in labelled containers.</li></ul><h4>Pest control</h4><ul><li>Keep doors closed and fly screens in place.</li><li>Do not leave food scraps lying around.</li><li>Put waste in closed bins and empty them often.</li><li>Report signs of pests: droppings, gnawed boxes, flies, birds inside.</li><li>Do not touch or move bait stations.</li></ul><h4>Waste</h4><ul><li>Use the right bin for each kind of waste.</li><li>Keep waste bins away from food.</li><li>Wash hands after handling waste.</li></ul><p>Report all problems.</p><p>Ask your supervisor to show you the cleaning schedule and the waste bins for your area.</p><h4>Key points</h4><ul><li>Germs come from hands, sick people, raw meat, dirty equipment and pests.</li><li>Wash hands well with soap at the right times.</li><li>Wear clean protective clothing and no jewellery.</li><li>Report illness and cover cuts with a blue waterproof plaster.</li><li>Prevent cross-contamination and report pests.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How long should you rub your hands with soap?",
+   "options": [
+    {
+     "text": "About 2 seconds",
+     "correct": false
+    },
+    {
+     "text": "About 20 seconds",
+     "correct": true
+    },
+    {
+     "text": "About 5 minutes",
+     "correct": false
+    },
+    {
+     "text": "You do not need soap",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are blue waterproof plasters used?",
+   "options": [
+    {
+     "text": "They are easy to see if they fall into food",
+     "correct": true
+    },
+    {
+     "text": "They are cheaper",
+     "correct": false
+    },
+    {
+     "text": "They heal cuts faster",
+     "correct": false
+    },
+    {
+     "text": "They match the uniform",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is cross-contamination?",
+   "options": [
+    {
+     "text": "Cooking food twice",
+     "correct": false
+    },
+    {
+     "text": "When germs move from something dirty to something clean",
+     "correct": true
+    },
+    {
+     "text": "Mixing two kinds of meat",
+     "correct": false
+    },
+    {
+     "text": "Cleaning with two chemicals",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a physical hazard?",
+   "options": [
+    {
+     "text": "Bacteria",
+     "correct": false
+    },
+    {
+     "text": "Cleaning chemicals",
+     "correct": false
+    },
+    {
+     "text": "A piece of jewellery in the food",
+     "correct": true
+    },
+    {
+     "text": "A virus",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you have diarrhoea?",
+   "options": [
+    {
+     "text": "Come to work and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor; you may need to stay away from food",
+     "correct": true
+    },
+    {
+     "text": "Work faster to finish early",
+     "correct": false
+    },
+    {
+     "text": "Only wash your hands once",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may wear your watch and rings while handling food if you wash them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Germs grow quickly when food is warm.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "When should you wash your hands? (select all that apply)",
+   "options": [
+    {
+     "text": "After using the toilet",
+     "correct": true
+    },
+    {
+     "text": "After touching your phone or face",
+     "correct": true
+    },
+    {
+     "text": "When moving from a dirty area to a clean area",
+     "correct": true
+    },
+    {
+     "text": "Only at the end of the week",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

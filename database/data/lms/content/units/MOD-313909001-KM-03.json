@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-KM-03",
+ "title": "Productive work in feed milling operations",
+ "lessons": [
+  {
+   "title": "Being productive on the mill floor",
+   "minutes": 15,
+   "html": "<h3>What productive work means</h3>\n<p>Productive work means getting the right feed made, in the right amount, to the right quality, safely and on time, without wasting raw materials, energy or time. In a feed mill every shift has a production plan, for example 120 tonnes of broiler grower pellets and 40 tonnes of dairy meal. Each operator's work adds to meeting that plan.</p>\n<h4>Starting the shift well</h4>\n<ol>\n<li>Arrive on time and in full PPE: overalls, safety boots, hearing protection and dust mask.</li>\n<li>Attend the shift briefing and get the production plan and any special instructions.</li>\n<li>Read the handover notes from the previous shift: chokes, breakdowns, bins nearly empty, batches waiting.</li>\n<li>Do your pre-start checks on your machines and area.</li>\n<li>Report anything not ready before production starts, not halfway through.</li>\n</ol>\n<h4>During the shift</h4>\n<ul>\n<li>Follow the work instructions and the batch sheets exactly.</li>\n<li>Keep an eye on gauges, alarms and the control screen.</li>\n<li>Avoid unplanned stops: watch bin levels, change dies or screens when planned, and keep magnets clean.</li>\n<li>Record production, stoppages and their reasons accurately.</li>\n<li>Keep your area clean – housekeeping reduces dust, pests, slips and fire risk.</li>\n</ul>\n<h4>Wasting less</h4>\n<p>Waste in a mill includes spilt raw materials, fines from pelleting that must be reworked, bags damaged when stacking, and electricity used by machines running empty. Small habits make a difference: switch off conveyors that are running empty when the procedure allows, sweep up and return clean spillage to the right rework bin, and stack bags properly so they do not burst.</p>"
+  },
+  {
+   "title": "Teamwork, communication and improvement",
+   "minutes": 15,
+   "html": "<h3>Working as a team</h3>\n<p>A feed mill is a chain: intake feeds the bins, the mill and mixer feed the pellet press, and the press feeds packing and out-loading. If one link stops, the whole chain slows. Good teamwork means:</p>\n<ul>\n<li>Telling the next section early if your section will stop or slow down.</li>\n<li>Helping a colleague clear a problem when your supervisor asks.</li>\n<li>Respecting each other and following instructions from the supervisor.</li>\n<li>Handing over clearly at shift change.</li>\n</ul>\n<h3>Communicating clearly</h3>\n<p>Use the radio or intercom correctly: say who you are, where you are and what the problem is. Write handover notes and logbooks so the next person can understand them. If you do not understand an instruction, ask rather than guess. A wrong guess can mean a whole batch of feed is made with the wrong formula.</p>\n<h3>Measuring performance</h3>\n<table>\n<tr><th>Measure</th><th>What it tells you</th></tr>\n<tr><td>Tonnes per hour</td><td>How fast the line is running</td></tr>\n<tr><td>Downtime minutes</td><td>How long machines stood still and why</td></tr>\n<tr><td>Rework tonnes</td><td>How much product had to be done again</td></tr>\n<tr><td>Plan achieved</td><td>Tonnes made compared with the plan</td></tr>\n</table>\n<h3>Improving the work</h3>\n<p>Operators often see problems first. When a chute keeps blocking or a step in the work instruction is unclear, tell your supervisor and suggest a fix. Many mills hold short daily meetings where operators raise issues and track actions.</p>\n<h3>Safety is part of productivity</h3>\n<p>Never take shortcuts to save time, such as reaching into a running machine or skipping lock-out. An injury stops production for much longer than doing the job correctly, and it can change your life. Under the OHS Act 85 of 1993 you must work safely and report unsafe conditions.</p>\n<h4>Key points</h4>\n<ul>\n<li>Productive work is the right feed, right quantity and quality, safely and on time, with little waste.</li>\n<li>Start the shift with PPE, the briefing, handover notes and pre-start checks.</li>\n<li>Communicate early with other sections and ask when unsure.</li>\n<li>Record production and downtime accurately so problems can be fixed.</li>\n<li>Safety shortcuts are never productive.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should an operator do first at the start of the shift?",
+   "options": [
+    {
+     "text": "Start the machines immediately",
+     "correct": false
+    },
+    {
+     "text": "Go to the canteen",
+     "correct": false
+    },
+    {
+     "text": "Put on PPE, attend the briefing and read handover notes",
+     "correct": true
+    },
+    {
+     "text": "Clean the office",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does \"downtime minutes\" measure?",
+   "options": [
+    {
+     "text": "How many bags were packed",
+     "correct": false
+    },
+    {
+     "text": "Tonnes produced per hour",
+     "correct": false
+    },
+    {
+     "text": "How long machines stood still and why",
+     "correct": true
+    },
+    {
+     "text": "The number of workers on shift",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You do not understand an instruction about which formula to run. What should you do?",
+   "options": [
+    {
+     "text": "Run the previous formula",
+     "correct": false
+    },
+    {
+     "text": "Ask your supervisor before starting",
+     "correct": true
+    },
+    {
+     "text": "Skip the batch",
+     "correct": false
+    },
+    {
+     "text": "Guess the most likely formula",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you tell the next section early if your section will stop?",
+   "options": [
+    {
+     "text": "Because the mill is a chain and they need to plan for the stop",
+     "correct": true
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    },
+    {
+     "text": "So they can blame you",
+     "correct": false
+    },
+    {
+     "text": "So they can take a break",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of waste in a feed mill?",
+   "options": [
+    {
+     "text": "Following the batch sheet",
+     "correct": false
+    },
+    {
+     "text": "Wearing PPE",
+     "correct": false
+    },
+    {
+     "text": "Conveyors running empty for long periods",
+     "correct": true
+    },
+    {
+     "text": "Recording production",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Skipping lock-out to save time improves productivity.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Good housekeeping reduces dust, pests, slips and fire risk.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good handover and communication practices? (select all that apply)",
+   "options": [
+    {
+     "text": "Report bins that are nearly empty",
+     "correct": true
+    },
+    {
+     "text": "Tell nobody about a choke you fixed",
+     "correct": false
+    },
+    {
+     "text": "Write clear handover notes",
+     "correct": true
+    },
+    {
+     "text": "Say who and where you are on the radio",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

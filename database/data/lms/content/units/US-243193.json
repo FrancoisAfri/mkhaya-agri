@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-243193",
+ "title": "Practice good health and grooming habits",
+ "lessons": [
+  {
+   "title": "Looking after your body",
+   "minutes": 15,
+   "html": "<h3>Why personal health matters</h3> <p>Working with horses is hard physical work. You lift bales, push wheelbarrows, ride and walk all day. A healthy body works better and gets hurt less. Good health and grooming habits also keep you from spreading germs to co-workers and food.</p> <h4>Eat well</h4> <ul> <li>Eat breakfast before work. An empty stomach makes you tired and dizzy.</li> <li>Eat a mix of foods: pap or bread for energy, beans, eggs, meat or fish for strength, and vegetables and fruit for vitamins.</li> <li>Do not eat too much sugar, fat or salt.</li> <li>Drink plenty of clean water, especially on hot days.</li> </ul> <h4>Sleep and rest</h4> <p>Your body needs about 7 to 8 hours of sleep each night. Yard work starts early, so go to bed early. A tired groom makes mistakes and can be kicked or fall.</p> <h4>Exercise and posture</h4> <p>Yard work is exercise, but stretch your back, legs and arms before you start. Lift with your knees, not your back.</p> <h4>Alcohol, smoking and drugs</h4> <p>Alcohol and drugs slow you down and make you careless. Never come to work drunk or high. Horses can sense this and become nervous. Smoking damages your lungs, and in a stable it can start a fire. Smoke only in the marked area, far from hay.</p> <h4>See the clinic</h4> <ul> <li>Go to the clinic when you are sick. Do not wait until it is serious.</li> <li>Have regular check-ups: blood pressure, eyes, TB and HIV testing.</li> <li>Keep your tetanus injection up to date. Tetanus germs live in soil and manure and enter through cuts. Ask the clinic about it.</li> </ul> <h4>Look after your mind</h4> <p>Stress, worry and sadness also affect health. Talk to someone you trust: a friend, family member, nurse or pastor. Ask for help early.</p>"
+  },
+  {
+   "title": "Personal hygiene and grooming",
+   "minutes": 15,
+   "html": "<h3>Keep clean</h3> <p>Hygiene means keeping yourself clean to stop germs. In a stable yard you work with manure, dirt and sweat every day. Germs from manure can make you sick if they get into your mouth or a wound.</p> <h4>Wash your hands</h4> <p>Wash with soap and clean water:</p> <ul> <li>Before you eat or prepare food</li> <li>After using the toilet</li> <li>After mucking out or handling manure</li> <li>After touching a sick horse or giving medicine</li> <li>After handling chemicals</li> </ul> <p>How: wet hands, rub soap all over, between fingers and under nails, for about 20 seconds; rinse; dry on a clean towel.</p> <h4>Body care</h4> <ul> <li>Bath or shower every day, especially after work.</li> <li>Use deodorant.</li> <li>Brush your teeth twice a day.</li> <li>Keep nails short and clean. Long nails collect dirt and break.</li> <li>Keep hair clean and tied back when working with horses so it does not get caught.</li> </ul> <h4>Clothes</h4> <ul> <li>Wear clean work clothes each day. Wash overalls often.</li> <li>Wear closed boots, never sandals, in the yard.</li> <li>Keep work clothes separate from home clothes.</li> <li>Wear a hat and sunscreen outside; the South African sun is strong.</li> </ul> <h4>Cuts and wounds</h4> <p>Clean small cuts with clean water and cover them with a plaster before working. Report bigger wounds to your supervisor. Watch for redness, swelling or pus, and go to the clinic if you see these.</p> <h4>Looking professional</h4> <p>On race days, shows and when owners visit, grooms represent the yard. Clean, tidy staff in neat uniform give a good picture of the business. Take pride in how you look.</p> <h4>Key points</h4> <ul> <li>Eat well, drink water and sleep 7 to 8 hours.</li> <li>Never work drunk or high, and smoke only away from hay.</li> <li>Wash hands with soap after manure, the toilet and chemicals, and before eating.</li> <li>Bath daily, keep nails short and hair tied back.</li> <li>Cover cuts and keep your tetanus injection up to date.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should you eat breakfast before yard work?",
+   "options": [
+    {
+     "text": "It is not needed",
+     "correct": false
+    },
+    {
+     "text": "An empty stomach makes you tired and dizzy",
+     "correct": true
+    },
+    {
+     "text": "Horses like it",
+     "correct": false
+    },
+    {
+     "text": "To save money",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When must you wash your hands?",
+   "options": [
+    {
+     "text": "Only on Sundays",
+     "correct": false
+    },
+    {
+     "text": "After mucking out and before eating",
+     "correct": true
+    },
+    {
+     "text": "Only when they look dirty",
+     "correct": false
+    },
+    {
+     "text": "Never at work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many hours of sleep does your body need each night?",
+   "options": [
+    {
+     "text": "3 to 4",
+     "correct": false
+    },
+    {
+     "text": "5",
+     "correct": false
+    },
+    {
+     "text": "7 to 8",
+     "correct": true
+    },
+    {
+     "text": "12",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should long hair be tied back when working with horses?",
+   "options": [
+    {
+     "text": "It looks fancy",
+     "correct": false
+    },
+    {
+     "text": "So it does not get caught",
+     "correct": true
+    },
+    {
+     "text": "Horses eat hair",
+     "correct": false
+    },
+    {
+     "text": "It is cooler",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where do tetanus germs live?",
+   "options": [
+    {
+     "text": "In clean water",
+     "correct": false
+    },
+    {
+     "text": "In soil and manure",
+     "correct": true
+    },
+    {
+     "text": "In soap",
+     "correct": false
+    },
+    {
+     "text": "In sunscreen",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to wear sandals in the stable yard on hot days.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Talking to someone you trust can help with stress and worry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good personal hygiene habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Bath or shower every day",
+     "correct": true
+    },
+    {
+     "text": "Keep nails short and clean",
+     "correct": true
+    },
+    {
+     "text": "Brush teeth twice a day",
+     "correct": true
+    },
+    {
+     "text": "Wear the same overall for a month without washing",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123147",
+ "title": "Weigh and slit wool and mohair bales",
+ "lessons": [
+  {
+   "title": "Why bales are weighed",
+   "minutes": 15,
+   "html": "<h3>The weight is what the farmer is paid on</h3><p>When bales of wool or mohair arrive at the broker's store, each one is weighed. The farmer is paid for the clean fibre in the bale, which is worked out from the bale weight and the laboratory yield. If the weight is wrong, the farmer is paid wrongly, and the buyer may not trust the store.</p><h4>The scale</h4><ul><li>Stores use a platform scale strong enough for bales.</li><li>The scale must be calibrated (checked against known weights) and certified as the law and the store require. Never use a scale that is out of date or damaged.</li><li>Check the scale reads zero before every weighing. Use the zero or tare button if needed.</li><li>Keep the scale clean. Stones, fibre or a pallet left on it change the reading.</li></ul><h4>Gross, tare and nett</h4><table><tr><th>Word</th><th>Meaning</th></tr><tr><td>Gross mass</td><td>Bale plus its pack (bag)</td></tr><tr><td>Tare</td><td>The mass of the empty pack</td></tr><tr><td>Nett mass</td><td>Fibre only: gross minus tare</td></tr></table><p>Example: gross 182 kg, tare 2 kg, nett 180 kg. Your store tells you the tare to use for each type of pack.</p><h4>Why accuracy matters</h4><p>Even a small error matters. If every bale in a clip of fifty bales is recorded 1 kg too light, the farmer is paid for 50 kg less fibre than they sent. If the scale reads too heavy, the buyer pays too much and may claim back money. Careful weighing is fair to everyone.</p>"
+  },
+  {
+   "title": "Weighing step by step",
+   "minutes": 15,
+   "html": "<h3>Weighing a bale</h3><ol><li>Check the scale is at zero.</li><li>Move the bale onto the scale with the bale clamp, forklift or trolley, as the store allows. Only trained and licensed operators may use the forklift.</li><li>Place the bale in the middle of the platform. It must not touch the wall or anything else.</li><li>Wait for the reading to settle.</li><li>Read the mass and check the bale number and farmer's mark on the bale.</li><li>Write the mass on the record sheet or enter it into the computer, next to the correct bale number. Some scales print a ticket or send the weight to the computer directly.</li><li>Mark the bale if the store asks.</li><li>Move the bale off and check the scale returns to zero.</li></ol><h4>Check for problems</h4><ul><li>Bales that are very light or very heavy compared with others in the lot – tell the supervisor.</li><li>Wet bales – wet fibre weighs more and can rot. Report them.</li><li>Torn packs, missing marks or wrong numbers – report them.</li></ul><h4>Safety</h4><ul><li>Bales are very heavy. Never try to lift one by hand.</li><li>Keep feet and hands away from moving bales and forklift forks.</li><li>Wear safety boots.</li><li>Do not stand between a moving bale and a wall.</li></ul>"
+  },
+  {
+   "title": "Slitting bales",
+   "minutes": 15,
+   "html": "<h3>Opening bales for sampling and inspection</h3><p>After weighing, bales may be slit. Slitting means cutting the pack open in the places the store's procedure shows, so that samples can be drawn (for example grab samples) and the fibre can be checked.</p><h4>How to slit</h4><ol><li>Make sure the bale is stable and will not roll or fall.</li><li>Use the knife or cutter the store gives you. Keep it sharp; a blunt knife slips.</li><li>Cut at the position and length the procedure sets. Cut only the pack, not deep into the fibre.</li><li>Always cut away from your body and keep your other hand out of the line of the cut.</li><li>Do not leave pieces of pack or string in the fibre.</li></ol><h4>Knife safety</h4><ul><li>Wear cut-resistant gloves if the store gives them.</li><li>Close or cover the blade when you are not using it.</li><li>Never put a knife in your pocket open, or leave it on a bale.</li><li>Report cuts at once and have them treated by a first aider.</li></ul><h4>After slitting</h4><ul><li>Check the bale number again before samples are taken, so samples match the right bale.</li><li>Look for problems inside: wet or mouldy fibre, stones, plastic, or fibre that does not match the description. Report them.</li><li>Close or patch the slit as the store requires after sampling.</li></ul><h4>Key points</h4><ul><li>The farmer is paid on mass and yield, so weights must be correct.</li><li>Use only a calibrated scale and check zero before every weighing.</li><li>Nett mass is gross mass minus tare.</li><li>Record each mass against the correct bale number and report wet or damaged bales.</li><li>Slit only the pack, cut away from your body and keep knives covered.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is nett mass?",
+   "options": [
+    {
+     "text": "Bale plus pack",
+     "correct": false
+    },
+    {
+     "text": "Fibre only: gross minus tare",
+     "correct": true
+    },
+    {
+     "text": "The mass of the pallet",
+     "correct": false
+    },
+    {
+     "text": "The mass of the empty pack",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A bale has a gross mass of 175 kg and the tare is 2 kg. What is the nett mass?",
+   "options": [
+    {
+     "text": "175 kg",
+     "correct": false
+    },
+    {
+     "text": "173 kg",
+     "correct": true
+    },
+    {
+     "text": "2 kg",
+     "correct": false
+    },
+    {
+     "text": "177 kg",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you check before every weighing?",
+   "options": [
+    {
+     "text": "The colour of the bale",
+     "correct": false
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "That the scale reads zero",
+     "correct": true
+    },
+    {
+     "text": "The buyer's name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should wet bales be reported?",
+   "options": [
+    {
+     "text": "They are easier to sample",
+     "correct": false
+    },
+    {
+     "text": "Wet fibre weighs more and can rot",
+     "correct": true
+    },
+    {
+     "text": "They are lighter",
+     "correct": false
+    },
+    {
+     "text": "They have a higher yield",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you cut when slitting a bale?",
+   "options": [
+    {
+     "text": "Towards your body",
+     "correct": false
+    },
+    {
+     "text": "Deep into the fibre",
+     "correct": false
+    },
+    {
+     "text": "With a blunt knife",
+     "correct": false
+    },
+    {
+     "text": "Away from your body, cutting only the pack",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only trained and licensed operators may use the forklift to move bales.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A bale touching the wall while on the scale still gives a correct reading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which problems should be reported when weighing? (select all that apply)",
+   "options": [
+    {
+     "text": "A wet bale",
+     "correct": true
+    },
+    {
+     "text": "A bale with a clear, correct number",
+     "correct": false
+    },
+    {
+     "text": "A bale much heavier than others in the lot",
+     "correct": true
+    },
+    {
+     "text": "A torn pack or missing mark",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

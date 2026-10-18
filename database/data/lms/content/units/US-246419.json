@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246419",
+ "title": "Manage and maintain weapons for hunting",
+ "lessons": [
+  {
+   "title": "Choosing and handling hunting weapons safely",
+   "minutes": 15,
+   "html": "<h3>The right weapon for the job</h3>\n<p>A professional hunter must manage rifles for themselves, their clients and the business. The weapon and ammunition must suit the species, the distance and the terrain, and must be handled safely at all times.</p>\n<h4>Matching calibre and bullet to game</h4>\n<table><tr><th>Game</th><th>General guidance</th></tr>\n<tr><td>Small antelope (duiker, steenbok)</td><td>Light calibres, bullets that do not destroy the skin</td></tr>\n<tr><td>Medium plains game (impala, blesbok, springbok)</td><td>Medium calibres such as .270 or .308 with expanding bullets</td></tr>\n<tr><td>Large plains game (kudu, eland, zebra)</td><td>Heavier calibres such as .30-06 or 7 mm magnums and above, with tough bullets</td></tr>\n<tr><td>Dangerous game</td><td>.375 H&amp;H Magnum or larger, premium bullets, as provincial rules require</td></tr></table>\n<p>The bullet design matters as much as calibre: it must expand or penetrate as needed for a quick, clean kill.</p>\n<h4>The basic safety rules</h4>\n<ol><li>Treat every firearm as if it is loaded.</li>\n<li>Never point the muzzle at anything you are not willing to shoot.</li>\n<li>Keep your finger off the trigger until you are ready to shoot.</li>\n<li>Be sure of your target and what is beyond it.</li>\n<li>Unload firearms when not in use, and before getting in a vehicle, crossing a fence or climbing.</li></ol>\n<h4>Legal duties</h4>\n<p>Under the Firearms Control Act 60 of 2000 every firearm must be licensed, the holder must have a competency certificate, firearms and ammunition must be stored in an approved safe when not in use, and loss or theft must be reported to the police immediately. Firearms may never be handled under the influence of alcohol or drugs. Keep a register of firearms and ammunition issued to staff and clients.</p>"
+  },
+  {
+   "title": "Maintenance, storage and transport",
+   "minutes": 15,
+   "html": "<h3>Cleaning and maintenance</h3>\n<p>A rifle that is not maintained can fail at the worst moment, for example a jammed bolt during a buffalo charge.</p>\n<h4>Routine after each day</h4>\n<ol><li>Unload and check the chamber and magazine are empty. Point the rifle in a safe direction.</li>\n<li>Wipe off dust, moisture and blood from the outside.</li>\n<li>Clean the bore with a cleaning rod or pull-through and patches, from the chamber end if possible.</li>\n<li>Lightly oil metal parts, then wipe off excess; too much oil collects dust.</li>\n<li>Check the scope mounts and screws are tight, and the lens is clean.</li>\n<li>Check the sling and swivels for wear.</li></ol>\n<h4>Periodic checks</h4>\n<ul><li>Strip and clean the bolt as the manufacturer instructs.</li>\n<li>Check the stock for cracks and the action screws for tightness.</li>\n<li>Have a qualified gunsmith inspect rifles and repair faults; never modify triggers or safety mechanisms yourself.</li>\n<li>Re-check zero after any knock, travel or change of ammunition.</li></ul>\n<h4>Ammunition care</h4>\n<ul><li>Store ammunition in a cool, dry place, separate from firearms where the law requires.</li>\n<li>Do not use corroded, dented or wet cartridges.</li>\n<li>Use only the correct calibre for each rifle; check the headstamp.</li>\n<li>Keep track of rounds issued and returned.</li></ul>\n<h4>Storage and transport</h4>\n<ul><li>Lock firearms in an approved safe, with keys kept by authorised people only.</li>\n<li>Transport firearms unloaded, in a lockable case, out of sight in the vehicle.</li>\n<li>Never leave a firearm unattended in a vehicle or at camp.</li>\n<li>On the hunting vehicle, carry rifles in racks with chambers empty.</li></ul>\n<h4>Records</h4>\n<p>Keep a firearm register: serial number, licence details, cleaning and service dates, faults found, and who used the firearm on which day.</p>\n<h4>Key points</h4>\n<ul><li>Match calibre and bullet to the species for a clean kill.</li>\n<li>Follow the basic safety rules every time.</li>\n<li>Licences, competency, safe storage and reporting loss are legal duties under the Firearms Control Act 60 of 2000.</li>\n<li>Clean, oil lightly and inspect rifles daily; use a gunsmith for repairs.</li>\n<li>Store and transport firearms unloaded and locked, and keep records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which calibre range suits medium plains game such as impala?",
+   "options": [
+    {
+     "text": ".270 or .308 with expanding bullets",
+     "correct": true
+    },
+    {
+     "text": ".22 LR",
+     "correct": false
+    },
+    {
+     "text": ".458 Lott with solids",
+     "correct": false
+    },
+    {
+     "text": "A shotgun with birdshot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first safety rule?",
+   "options": [
+    {
+     "text": "Keep your finger on the trigger",
+     "correct": false
+    },
+    {
+     "text": "Clean the rifle weekly",
+     "correct": false
+    },
+    {
+     "text": "Point the muzzle at the ground only when shooting",
+     "correct": false
+    },
+    {
+     "text": "Treat every firearm as if it is loaded",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should excess oil be wiped off a rifle?",
+   "options": [
+    {
+     "text": "It collects dust",
+     "correct": true
+    },
+    {
+     "text": "The law forbids oil",
+     "correct": false
+    },
+    {
+     "text": "It makes the rifle heavier",
+     "correct": false
+    },
+    {
+     "text": "It is too expensive",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who should repair a trigger or safety mechanism?",
+   "options": [
+    {
+     "text": "Anyone in camp",
+     "correct": false
+    },
+    {
+     "text": "The client",
+     "correct": false
+    },
+    {
+     "text": "A qualified gunsmith",
+     "correct": true
+    },
+    {
+     "text": "The tracker",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How must firearms be transported?",
+   "options": [
+    {
+     "text": "Loaded on the seat",
+     "correct": false
+    },
+    {
+     "text": "Hanging out of the window",
+     "correct": false
+    },
+    {
+     "text": "Left in the vehicle overnight",
+     "correct": false
+    },
+    {
+     "text": "Unloaded, in a lockable case, out of sight",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Zero should be re-checked after travel, a knock or a change of ammunition.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Corroded or dented cartridges are safe to use if they fit the chamber.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are legal duties under the Firearms Control Act 60 of 2000? (select all that apply)",
+   "options": [
+    {
+     "text": "Report loss or theft to the police",
+     "correct": true
+    },
+    {
+     "text": "Store firearms in an approved safe when not in use",
+     "correct": true
+    },
+    {
+     "text": "Every firearm must be licensed",
+     "correct": true
+    },
+    {
+     "text": "Clean the rifle every hour",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

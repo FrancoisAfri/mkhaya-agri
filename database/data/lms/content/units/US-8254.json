@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8254",
+ "title": "Providing customer service",
+ "lessons": [
+  {
+   "title": "Understanding customer needs and expectations",
+   "minutes": 20,
+   "html": "<h3>Why service matters in agri trade</h3><p>Farmers often have a choice of co-ops and stores, and in a farming community word travels fast. Many agri products are similar across suppliers, so service is often what makes the difference: correct advice, accurate orders, stock when needed, and respectful treatment. A farmer who spends R500,000 a year on inputs is worth far more than one sale; retaining that customer for ten years is the real goal.</p><h4>Who are your customers?</h4><ul><li><strong>External customers:</strong> farmers, farm managers, farm workers collecting orders, contractors, gardeners.</li><li><strong>Internal customers:</strong> colleagues who depend on your work, such as the yard team depending on correct yard slips.</li></ul><h4>Customer needs</h4><p>Customers have functional needs (the right product, the right quantity, on time, at a fair price) and personal needs (to be respected, listened to, understood and served efficiently). Agri customers often also need information: which lick suits their veld in winter, how to calibrate a sprayer, or what a dip's withdrawal period means. Give advice only within your competence; refer technical questions to the agronomist, animal health adviser or the product label.</p><h4>Expectations and service standards</h4><p>Customers compare their experience with what they expect. Service standards make expectations clear and consistent, for example:</p><ul><li>Greet every customer within 30 seconds of arrival at the counter.</li><li>Answer the phone within four rings with the store name and your name.</li><li>Confirm telephone orders by message the same day.</li><li>Have yard orders loaded within 15 minutes of payment.</li><li>Respond to written queries within one working day.</li></ul><h4>Diversity</h4><p>Serve every customer with equal respect, regardless of race, language, gender, age or farm size. Where possible, serve customers in a language they are comfortable with, or find a colleague who can. Unfair discrimination is unlawful and damages the business.</p>"
+  },
+  {
+   "title": "Delivering excellent service",
+   "minutes": 20,
+   "html": "<h3>The service encounter</h3><ol><li><strong>Welcome:</strong> greet, make eye contact, smile, use the customer's name if you know it.</li><li><strong>Identify needs:</strong> ask open questions. \"What are you planting this season?\" \"How many head of cattle are on that camp?\"</li><li><strong>Listen actively</strong> and confirm: \"So you need enough dip for 120 head, in a pour-on, and you want it delivered with the lick on Thursday.\"</li><li><strong>Offer solutions:</strong> explain options, benefits and any limitations honestly. Mention related items they may need.</li><li><strong>Complete the transaction</strong> accurately and efficiently.</li><li><strong>Close warmly:</strong> thank them and confirm next steps.</li></ol><h4>Telephone and digital service</h4><p>Many farmers order by phone or WhatsApp. Be clear and professional, confirm details in writing, and respond promptly. Do not leave messages unanswered. Protect personal information in line with POPIA; do not discuss a customer's account with someone who is not authorised.</p><h4>Going the extra mile</h4><ul><li>Phone a farmer when the backordered planter part arrives.</li><li>Remind regular customers before dipping or vaccination season.</li><li>Help an elderly customer load the bakkie.</li><li>Follow up after a technical recommendation to ask if it worked.</li></ul><h4>Service under pressure</h4><p>Peak periods such as month-end, the start of planting or before a long weekend test service. Prepare by pre-packing popular orders, having extra staff on the till, and keeping customers informed about waiting times. Acknowledge waiting customers: \"I'll be with you in a moment.\"</p><h4>Product knowledge</h4><p>Customers trust staff who know the products. Learn the main lines, read labels and product literature, attend supplier training, and know when to say, \"Let me get our specialist to help you.\"</p>"
+  },
+  {
+   "title": "Handling complaints and improving service",
+   "minutes": 20,
+   "html": "<h3>Complaints are opportunities</h3><p>A customer who complains is giving the business a chance to fix the problem. Many unhappy customers say nothing and simply go elsewhere. A complaint resolved well often creates a more loyal customer than one who never had a problem.</p><h4>Steps to handle a complaint</h4><ol><li><strong>Listen</strong> without interrupting. Let the customer explain fully.</li><li><strong>Empathise:</strong> \"I understand how frustrating it is to have the wrong seed delivered at planting time.\"</li><li><strong>Apologise</strong> for the inconvenience, without blaming colleagues or the customer.</li><li><strong>Get the facts:</strong> invoice number, product, dates, what happened.</li><li><strong>Agree a solution</strong> within your authority, or escalate promptly to someone who can authorise it.</li><li><strong>Act</strong> quickly and do what you promised.</li><li><strong>Follow up</strong> to confirm the customer is satisfied.</li><li><strong>Record</strong> the complaint and outcome so patterns can be identified.</li></ol><h4>Difficult situations</h4><p>Stay calm and professional if a customer is angry. Do not argue or take it personally. If a customer becomes threatening or abusive, call your supervisor and follow the store's safety procedure. Your safety comes first.</p><h4>Consumer rights</h4><p>The Consumer Protection Act 68 of 2008 gives consumers rights including fair and honest dealing, disclosure of information, and the right to return defective goods within the periods the Act sets. Know your company's returns policy and how it applies the Act; ask your supervisor when unsure. Note that some business customers may fall outside the Act's protection depending on their size, but good service applies to everyone.</p><h4>Measuring and improving service</h4><ul><li>Track complaints, compliments and resolution times.</li><li>Ask for feedback through short surveys or conversations.</li><li>Discuss service issues in team meetings and agree improvements.</li><li>Fix root causes, such as a recurring delivery error, not just symptoms.</li></ul><h4>Key points</h4><ul><li>Service is often what sets one agri store apart from another.</li><li>Identify needs with open questions and confirm with active listening.</li><li>Give advice only within your competence; refer technical questions.</li><li>Handle complaints by listening, empathising, solving, acting and following up.</li><li>Record complaints and fix root causes.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who is an internal customer?",
+   "options": [
+    {
+     "text": "A competitor",
+     "correct": false
+    },
+    {
+     "text": "A supplier's driver",
+     "correct": false
+    },
+    {
+     "text": "A colleague who depends on your work",
+     "correct": true
+    },
+    {
+     "text": "A farmer buying feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an open question?",
+   "options": [
+    {
+     "text": "Do you want dip?",
+     "correct": false
+    },
+    {
+     "text": "Cash or card?",
+     "correct": false
+    },
+    {
+     "text": "Is that all?",
+     "correct": false
+    },
+    {
+     "text": "What are you planting this season?",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A customer asks a technical question beyond your knowledge. What should you do?",
+   "options": [
+    {
+     "text": "Ignore the question",
+     "correct": false
+    },
+    {
+     "text": "Refer them to the specialist or the product label",
+     "correct": true
+    },
+    {
+     "text": "Guess",
+     "correct": false
+    },
+    {
+     "text": "Tell them it doesn't matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when handling a complaint?",
+   "options": [
+    {
+     "text": "Blame the delivery driver",
+     "correct": false
+    },
+    {
+     "text": "Offer a refund immediately",
+     "correct": false
+    },
+    {
+     "text": "Ask them to come back later",
+     "correct": false
+    },
+    {
+     "text": "Listen without interrupting",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why record complaints and outcomes?",
+   "options": [
+    {
+     "text": "To identify patterns and fix root causes",
+     "correct": true
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    },
+    {
+     "text": "For decoration",
+     "correct": false
+    },
+    {
+     "text": "To punish customers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A complaint resolved well can create a more loyal customer.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to discuss a customer's account with anyone who asks by phone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of going the extra mile? (select all that apply)",
+   "options": [
+    {
+     "text": "Phoning a farmer when a backordered part arrives",
+     "correct": true
+    },
+    {
+     "text": "Reminding regular customers before dipping season",
+     "correct": true
+    },
+    {
+     "text": "Ignoring WhatsApp orders",
+     "correct": false
+    },
+    {
+     "text": "Helping an elderly customer load the bakkie",
+     "correct": true
+    },
+    {
+     "text": "Arguing with an angry customer",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

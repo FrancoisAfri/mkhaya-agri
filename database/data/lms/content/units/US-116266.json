@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116266",
+ "title": "Monitor the operation and maintenance of irrigation systems",
+ "lessons": [
+  {
+   "title": "Irrigation scheduling",
+   "minutes": 20,
+   "html": "<h3>How much water, and when?</h3><p>An irrigation schedule tells the team when to irrigate each block and how much water to apply. A good schedule gives the crop what it needs, no more and no less. Too little water lowers yield and quality; too much wastes water and electricity, leaches fertiliser, waterlogs roots and encourages disease.</p><h4>Information needed for a schedule</h4><ul><li><strong>Crop and growth stage:</strong> young plants use little water; water use peaks during flowering and fruit or grain fill.</li><li><strong>Weather:</strong> hot, dry and windy days increase crop water use. Rain reduces the need to irrigate.</li><li><strong>Soil:</strong> sandy soils hold little water and need short, frequent irrigations; clay soils hold more and need longer intervals.</li><li><strong>Root depth:</strong> water only the root zone; water below it is lost.</li><li><strong>System delivery rate:</strong> how many millimetres per hour the system applies.</li></ul><h4>Methods</h4><ul><li><strong>Soil moisture monitoring:</strong> probes, tensiometers or the feel method tell you when the soil is getting dry.</li><li><strong>Weather-based:</strong> evaporation data from a weather station or service gives estimated crop water use.</li><li><strong>Adviser schedules:</strong> irrigation consultants or software provide schedules for each block.</li></ul><h4>Modifying the schedule</h4><p>A schedule is a starting point, not a fixed rule. If 25 mm of rain fell overnight, postpone irrigation on blocks that received it and check soil moisture before restarting. In a heat wave, the interval may need to shorten. Record every change and the reason.</p><h4>Example</h4><p>A drip system delivers 2 mm per hour and the block needs 10 mm. Run time is 10 divided by 2, which is 5 hours.</p>"
+  },
+  {
+   "title": "Efficient operation and data recording",
+   "minutes": 20,
+   "html": "<h3>Running the system well</h3><h4>Daily checks during irrigation</h4><ul><li>Pressure at the pump, at the filter (before and after) and at the end of the line. A big pressure difference across the filter means it is blocked.</li><li>Flow meter reading at start and end.</li><li>Leaks, burst pipes and broken sprinklers.</li><li>Blocked drippers or sprinklers that do not turn.</li><li>Wet spots and dry spots in the land.</li><li>Centre pivots: check tower alignment, wheel tracks and end guns.</li></ul><h4>Efficiency tips</h4><ul><li>Irrigate in the cooler parts of the day or at night where possible to reduce evaporation, and use off-peak electricity tariffs where available.</li><li>Do not irrigate in strong wind with sprinklers.</li><li>Fix leaks immediately.</li><li>Keep the system's pressure in the range the designer specified.</li></ul><h4>Data to collect</h4><table><tr><th>Data</th><th>Why</th></tr><tr><td>Date, block, start and end time</td><td>Shows what was applied</td></tr><tr><td>Meter readings (m³)</td><td>Water use and compliance with the water use authorisation</td></tr><tr><td>Pressures</td><td>Early warning of blockages or leaks</td></tr><tr><td>Rainfall</td><td>Adjusting the schedule</td></tr><tr><td>Soil moisture readings</td><td>Checking whether the schedule is right</td></tr><tr><td>Faults and repairs</td><td>Maintenance planning</td></tr></table><p>Water use from rivers, dams and boreholes may need registration or a licence under the National Water Act 36 of 1998. Accurate meter records protect the farm.</p><p>Review the data weekly with the irrigation team. Compare water applied with the schedule and soil moisture readings, and look for blocks that always need more water; they may have leaks, blocked drippers or poor pressure.</p><p>Keep the records in one file per block so they can be compared from season to season.</p>"
+  },
+  {
+   "title": "Maintenance programmes and supervising teams",
+   "minutes": 20,
+   "html": "<h3>Planned maintenance</h3><p>A maintenance programme lists each part of the system, what must be done, how often and by whom. Planned maintenance prevents breakdowns in the hottest, busiest weeks.</p><table><tr><th>Frequency</th><th>Tasks</th></tr><tr><td>Daily (when running)</td><td>Check pressures, leaks, filters, pump noise and heat</td></tr><tr><td>Weekly</td><td>Clean or backflush filters, flush ends of drip lines, check sprinklers</td></tr><tr><td>Monthly</td><td>Check valves, pressure regulators, meter accuracy, pivot gearboxes and tyres</td></tr><tr><td>Each season</td><td>Acid or chlorine treatment of drip lines as advised, pump service, replace worn nozzles, test system uniformity</td></tr></table><p>Keep a stock of common spares (couplings, drippers, nozzles, clamps) and record all repairs with date and cost.</p><h3>Supervising irrigation activities</h3><ul><li>Give each irrigator a written daily plan: blocks, times, valves to open and close.</li><li>Train workers on the system, the checks to do and how to record readings.</li><li>Check their records daily and walk the blocks to confirm.</li><li>Make sure faults are reported and fixed, and give feedback.</li></ul><h4>Safety</h4><ul><li>Only qualified, authorised people work on pump electrics and control panels. Lock out and tag out power before working on pumps.</li><li>Chemicals for cleaning drip lines (acids, chlorine) and fertigation products need PPE: gloves, goggles, apron. Always add acid to water, never water to acid.</li><li>Prevent backflow of fertiliser or chemicals into boreholes and rivers with the correct valves.</li><li>Keep clear of moving pivots and reels.</li></ul><h4>Key points</h4><ul><li>Base schedules on crop stage, soil, weather and system delivery rate, and adjust after rain or heat.</li><li>Run time equals water needed divided by the system's delivery rate.</li><li>Check pressures, filters and leaks every time the system runs.</li><li>Record meter readings, rainfall, soil moisture and faults.</li><li>Plan maintenance and supervise teams with written daily plans and safety rules.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A drip system delivers 2 mm per hour and the block needs 10 mm. What is the run time?",
+   "options": [
+    {
+     "text": "2 hours",
+     "correct": false
+    },
+    {
+     "text": "5 hours",
+     "correct": true
+    },
+    {
+     "text": "10 hours",
+     "correct": false
+    },
+    {
+     "text": "20 hours",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil needs short, frequent irrigations?",
+   "options": [
+    {
+     "text": "Sandy soil",
+     "correct": true
+    },
+    {
+     "text": "Clay soil",
+     "correct": false
+    },
+    {
+     "text": "All soils need the same",
+     "correct": false
+    },
+    {
+     "text": "Waterlogged soil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a big pressure difference across a filter mean?",
+   "options": [
+    {
+     "text": "The pump is too small",
+     "correct": false
+    },
+    {
+     "text": "The filter is blocked",
+     "correct": true
+    },
+    {
+     "text": "The system is working perfectly",
+     "correct": false
+    },
+    {
+     "text": "There is too little water in the dam",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with the schedule after 25 mm of rain overnight?",
+   "options": [
+    {
+     "text": "Irrigate as planned",
+     "correct": false
+    },
+    {
+     "text": "Postpone irrigation on blocks that received it and check soil moisture",
+     "correct": true
+    },
+    {
+     "text": "Double the irrigation",
+     "correct": false
+    },
+    {
+     "text": "Stop irrigating for the season",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may work on pump electrics?",
+   "options": [
+    {
+     "text": "Any irrigator",
+     "correct": false
+    },
+    {
+     "text": "The newest worker",
+     "correct": false
+    },
+    {
+     "text": "Only qualified, authorised people with power locked out",
+     "correct": true
+    },
+    {
+     "text": "Anyone wearing gloves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When mixing acid for drip line cleaning, always add water to acid.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Accurate meter records help show compliance with water use authorisations.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks belong in a seasonal maintenance programme? (select all that apply)",
+   "options": [
+    {
+     "text": "Pump service",
+     "correct": true
+    },
+    {
+     "text": "Replace worn nozzles",
+     "correct": true
+    },
+    {
+     "text": "Test system uniformity",
+     "correct": true
+    },
+    {
+     "text": "Ignore the filters until they fail",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

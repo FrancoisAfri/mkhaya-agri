@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119636",
+ "title": "Write/Sign for a variety of different purposes",
+ "lessons": [
+  {
+   "title": "Writing for work: notes, records and forms",
+   "minutes": 15,
+   "html": "<h3>Why we write at work</h3> <p>In a stable yard, many people look after the same horses. The morning groom must tell the afternoon groom what happened. We do this by writing. Writing also gives proof: who did what, and when.</p> <h4>Things you may write</h4> <ul> <li>A daily stable record: which horses ate, drank, worked, and anything unusual</li> <li>A note to the next shift</li> <li>A message for your supervisor</li> <li>Forms: leave forms, incident reports, stock sheets</li> <li>A list: feed or tack that is running low</li> </ul> <h4>Filling in a form</h4> <ol> <li>Read the whole form first.</li> <li>Use a pen, not a pencil. Use capital letters if the form asks for them.</li> <li>Fill in every box. If a box does not apply, write N/A (not applicable).</li> <li>Write the date and the time.</li> <li>Sign your name.</li> <li>Check before you hand it in.</li> </ol> <h4>Writing a daily record</h4> <table><tr><th>Date</th><th>Horse</th><th>Ate</th><th>Notes</th><th>Groom</th></tr> <tr><td>12/03</td><td>Duke</td><td>All</td><td>Lunged 20 min</td><td>T. Mokoena</td></tr> <tr><td>12/03</td><td>Bella</td><td>Half</td><td>Quiet, told supervisor 16:00</td><td>T. Mokoena</td></tr></table> <p>Short notes are fine. Write facts: what you saw. Do not write guesses as facts. \"Bella left half her feed\" is a fact. \"Bella is sick\" is a guess. Let the supervisor or vet decide.</p> <h4>Example</h4><p>At 15:00 Peter sees that the grey mare has a small cut on her knee. He writes in the record: date, time, horse, \"small cut on left knee, cleaned with water\", and his name. He also tells his supervisor before he goes home.</p><h4>Good handwriting</h4> <p>Write so others can read it. Leave spaces between words. Write numbers clearly; a badly written 1 can look like a 7. In feed and medicine records this can be dangerous.</p>"
+  },
+  {
+   "title": "Writing messages, letters and signing",
+   "minutes": 15,
+   "html": "<h3>Writing a short message</h3> <p>A message must answer: who is it for, what happened or what must be done, and who wrote it.</p> <p><strong>Example note:</strong></p> <p><em>To: Afternoon groom. Date: 14 May, 11:30. Farrier put new front shoes on Storm. Keep him in his stable today. From: Sipho.</em></p> <h4>Writing a simple letter or request</h4> <p>Sometimes you write to ask for leave or to explain something.</p> <ol> <li>Your name and the date at the top.</li> <li>Who the letter is for: \"Dear Mr Venter\".</li> <li>Say why you are writing in the first sentence: \"I would like to ask for leave on 3 and 4 June.\"</li> <li>Give the reason and details in one or two sentences.</li> <li>End politely: \"Thank you. Yours faithfully,\" then your name and signature.</li> </ol> <h4>Planning your writing</h4> <ul> <li><strong>Think:</strong> Who will read this? What do they need to know?</li> <li><strong>Write:</strong> Use short sentences and simple words.</li> <li><strong>Check:</strong> Read it again. Is it clear? Is anything missing? Fix spelling of names and numbers.</li> </ul> <h4>Writing for different readers</h4> <p>A note to a co-worker can be short and friendly. A letter to the manager or a report for the vet must be neat and polite. A form must follow the boxes exactly.</p> <h4>Your signature</h4> <p>Your signature means: \"I agree\" or \"I did this.\" Never sign something you have not read or do not understand. Ask someone to explain it first. Never sign for someone else.</p> <h4>Sign language</h4> <p>Deaf people in South Africa use South African Sign Language. In this unit, \"signing\" can also mean communicating a message in sign language. The same rules apply: plan the message, make it clear, check it was understood.</p> <h4>Using a phone</h4> <p>WhatsApp messages at work must also be clear and polite. Write the horse's name and the stable number. Do not send rude jokes in work groups.</p> <h4>Key points</h4> <ul> <li>Write facts, not guesses, in records.</li> <li>Fill in every box on a form, with date, time and signature.</li> <li>A message says who it is for, what must be done and who wrote it.</li> <li>Think, write, check before you hand in.</li> <li>Never sign something you have not read.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a fact you should write in a stable record?",
+   "options": [
+    {
+     "text": "Bella is very sick",
+     "correct": false
+    },
+    {
+     "text": "Bella left half her feed",
+     "correct": true
+    },
+    {
+     "text": "Bella is lazy",
+     "correct": false
+    },
+    {
+     "text": "Bella hates me",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A box on a form does not apply to you. What should you write?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "N/A",
+     "correct": true
+    },
+    {
+     "text": "A cross",
+     "correct": false
+    },
+    {
+     "text": "Your phone number",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be in the first sentence of a leave request?",
+   "options": [
+    {
+     "text": "A joke",
+     "correct": false
+    },
+    {
+     "text": "Why you are writing",
+     "correct": true
+    },
+    {
+     "text": "Your shoe size",
+     "correct": false
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must numbers be written clearly in feed records?",
+   "options": [
+    {
+     "text": "It looks nice",
+     "correct": false
+    },
+    {
+     "text": "A badly written number can cause a wrong amount of feed or medicine",
+     "correct": true
+    },
+    {
+     "text": "The boss likes neat work only",
+     "correct": false
+    },
+    {
+     "text": "It is not important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are the three steps for good writing?",
+   "options": [
+    {
+     "text": "Think, write, check",
+     "correct": true
+    },
+    {
+     "text": "Read, sleep, write",
+     "correct": false
+    },
+    {
+     "text": "Copy, paste, send",
+     "correct": false
+    },
+    {
+     "text": "Write, throw away, forget",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should never sign a form you have not read.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to sign for a co-worker who is absent.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must a short message to the next shift include? (select all that apply)",
+   "options": [
+    {
+     "text": "Who it is for",
+     "correct": true
+    },
+    {
+     "text": "What happened or must be done",
+     "correct": true
+    },
+    {
+     "text": "Who wrote it",
+     "correct": true
+    },
+    {
+     "text": "Your favourite food",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

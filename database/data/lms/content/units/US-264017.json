@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264017",
+ "title": "Utilize irrigation equipment and operate manual sprinkler systems",
+ "lessons": [
+  {
+   "title": "Know your irrigation equipment",
+   "minutes": 15,
+   "html": "<h3>Why we irrigate</h3>\n<p>In most parts of South Africa rain does not come when plants need it. Nurseries, parks, sports fields and gardens must be watered by hand or with irrigation. Your job is to give plants the right amount of water, in the right place, at the right time, without wasting it.</p>\n<h4>Parts of a simple irrigation system</h4>\n<ul>\n<li><strong>Water source</strong> – a municipal tap, borehole, dam or JoJo tank.</li>\n<li><strong>Pump</strong> – pushes water through the pipes when there is not enough pressure.</li>\n<li><strong>Filter</strong> – catches sand and dirt so nozzles do not block.</li>\n<li><strong>Valves and taps</strong> – open and close water to each zone (block).</li>\n<li><strong>Main line and lateral pipes</strong> – usually PVC or polyethylene (black poly pipe).</li>\n<li><strong>Hoses and fittings</strong> – couplings, elbows, tees, end caps and clamps.</li>\n<li><strong>Sprinklers</strong> – spray, rotary (impact) or pop-up heads that throw water over an area.</li>\n</ul>\n<h4>Types of manual sprinklers</h4>\n<table><tr><th>Type</th><th>How it works</th><th>Good for</th></tr>\n<tr><td>Static spray head</td><td>Fixed fan of water, short throw</td><td>Small beds and lawns</td></tr>\n<tr><td>Impact sprinkler</td><td>Arm hits the stream and turns the head</td><td>Large lawns, sports fields</td></tr>\n<tr><td>Oscillating sprinkler</td><td>Bar moves side to side</td><td>Square or rectangular lawns</td></tr>\n<tr><td>Hose-end sprinkler on a stand</td><td>Moved by hand from place to place</td><td>Spot watering</td></tr></table>\n<h4>Caring for equipment</h4>\n<p>Check hoses for cracks and leaks before use. Do not drive a bakkie or mower over hoses. Roll hoses up after work and keep them out of the hot sun. Clean filters regularly. Report broken parts to your supervisor and do not use them until they are fixed. A leaking fitting wastes water and makes muddy, slippery ground.</p>"
+  },
+  {
+   "title": "Operating a manual sprinkler system",
+   "minutes": 15,
+   "html": "<h3>Before you start</h3>\n<ol>\n<li>Get your instructions: which area, how long, and at what time.</li>\n<li>Look at the soil. Push your finger or a trowel into the soil. If it is still wet 5 cm down, it may not need water yet. Ask your supervisor.</li>\n<li>Check the weather. Do not water in strong wind (water blows away) or during rain.</li>\n<li>Check that hoses, couplings and sprinklers are in good condition.</li>\n</ol>\n<h3>Setting up</h3>\n<ol>\n<li>Lay the hose out straight, with no kinks.</li>\n<li>Connect the sprinkler firmly. Couplings must click in.</li>\n<li>Place the sprinkler so the spray covers the plants, not paths, walls or roads.</li>\n<li>Overlap the spray circles a little (head to head) so there are no dry patches.</li>\n<li>Open the tap slowly. Opening fast can burst pipes (water hammer).</li>\n</ol>\n<h3>While watering</h3>\n<ul>\n<li>Watch the spray. Adjust the arc and throw so water lands where it should.</li>\n<li>Look for run-off. If water runs off the surface, close the tap and water again later in shorter cycles.</li>\n<li>Time each position. Write down the start and stop time.</li>\n<li>Water early in the morning or late afternoon. Less water is lost to heat and wind.</li>\n</ul>\n<h3>Moving and finishing</h3>\n<p>Close the tap before you move a sprinkler. Move it to the next position and repeat. When finished, close all valves, drain and roll up hoses, and store sprinklers in the store room. Report any leaks, blocked nozzles or dry spots.</p>\n<h4>Safety</h4>\n<ul><li>Never point a sprinkler at electrical boxes, pumps or cables.</li>\n<li>Keep hoses off walkways so people do not trip.</li>\n<li>Do not drink irrigation water from dams or boreholes unless it is marked safe.</li></ul>\n<h4>Key points</h4>\n<ul><li>Check soil moisture and weather before watering.</li>\n<li>Inspect hoses, fittings and sprinklers before use.</li>\n<li>Overlap spray patterns so there are no dry patches.</li>\n<li>Open taps slowly and close them before moving a sprinkler.</li>\n<li>Water early or late in the day and avoid run-off.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the job of a filter in an irrigation system?",
+   "options": [
+    {
+     "text": "To increase water pressure",
+     "correct": false
+    },
+    {
+     "text": "To catch sand and dirt so nozzles do not block",
+     "correct": true
+    },
+    {
+     "text": "To turn the sprinkler head",
+     "correct": false
+    },
+    {
+     "text": "To measure how much water is used",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time of day to water with sprinklers?",
+   "options": [
+    {
+     "text": "At midday when it is hottest",
+     "correct": false
+    },
+    {
+     "text": "During strong wind",
+     "correct": false
+    },
+    {
+     "text": "Early morning or late afternoon",
+     "correct": true
+    },
+    {
+     "text": "Only at night after rain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you open the tap slowly?",
+   "options": [
+    {
+     "text": "Opening fast can burst pipes (water hammer)",
+     "correct": true
+    },
+    {
+     "text": "It makes the sprinkler throw further",
+     "correct": false
+    },
+    {
+     "text": "It saves electricity",
+     "correct": false
+    },
+    {
+     "text": "It cleans the filter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if water starts running off the surface?",
+   "options": [
+    {
+     "text": "Open the tap more",
+     "correct": false
+    },
+    {
+     "text": "Move the sprinkler onto the path",
+     "correct": false
+    },
+    {
+     "text": "Leave it running until finished",
+     "correct": false
+    },
+    {
+     "text": "Close the tap and water again later in shorter cycles",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sprinkler type is best for large lawns and sports fields?",
+   "options": [
+    {
+     "text": "Static spray head",
+     "correct": false
+    },
+    {
+     "text": "Impact sprinkler",
+     "correct": true
+    },
+    {
+     "text": "Watering can",
+     "correct": false
+    },
+    {
+     "text": "Drip emitter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should close the tap before moving a sprinkler to a new position.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to point a sprinkler at an electrical box as long as it is closed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should you do before you start watering? (select all that apply)",
+   "options": [
+    {
+     "text": "Check soil moisture",
+     "correct": true
+    },
+    {
+     "text": "Check the weather for wind or rain",
+     "correct": true
+    },
+    {
+     "text": "Paint the sprinkler heads",
+     "correct": false
+    },
+    {
+     "text": "Check hoses and couplings for leaks",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

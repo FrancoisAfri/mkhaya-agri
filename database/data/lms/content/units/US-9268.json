@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-9268",
+ "title": "Manage basic personal finance",
+ "lessons": [
+  {
+   "title": "Planning your money with a budget",
+   "minutes": 15,
+   "html": "<h3>Why plan your money?</h3> <p>Many workers find that their money is finished before the next payday. A budget helps you see where your money goes and plan so that you can pay for what you need and still save a little.</p> <h4>Income</h4> <p>Your income is all the money you receive: wages, overtime, bonuses, a grant, money from a side job. Look at your payslip. The <strong>gross</strong> pay is the full amount before deductions. The <strong>net</strong> pay (take-home pay) is what you get after deductions such as UIF, tax (if you earn enough), and any loans or accommodation deductions. Budget with your <strong>net</strong> pay.</p> <h4>Expenses</h4> <ul> <li><strong>Fixed expenses</strong> stay the same each month: rent, school fees, funeral policy, account repayments.</li> <li><strong>Variable expenses</strong> change: food, transport, electricity, airtime, clothes.</li> </ul> <h4>Needs and wants</h4> <p>A <strong>need</strong> is something you must have: food, shelter, transport to work, school fees. A <strong>want</strong> is something nice to have: new takkies, takeaways, a bigger TV. Pay needs first.</p> <h4>A simple monthly budget</h4> <table><tr><th>Item</th><th>Amount (R)</th></tr> <tr><td>Net pay</td><td>5 800</td></tr> <tr><td>Groceries</td><td>2 000</td></tr> <tr><td>Money sent home</td><td>1 200</td></tr> <tr><td>Transport</td><td>600</td></tr> <tr><td>Funeral policy</td><td>250</td></tr> <tr><td>Airtime and data</td><td>300</td></tr> <tr><td>School costs</td><td>500</td></tr> <tr><td>Savings</td><td>400</td></tr> <tr><td>Other</td><td>550</td></tr> <tr><td><strong>Total expenses</strong></td><td><strong>5 800</strong></td></tr></table> <p>Your total expenses must not be more than your income. If they are, cut wants first, look for cheaper options, or find ways to earn more.</p> <h4>Keep track</h4> <p>For one month, write down everything you spend, even small things like a cooldrink. You may be surprised. Small daily spending adds up: R15 a day is about R450 a month.</p>"
+  },
+  {
+   "title": "Saving, borrowing and banking wisely",
+   "minutes": 15,
+   "html": "<h3>Saving</h3> <p>Saving means keeping some money for later. Save for:</p> <ul> <li>Emergencies: illness, a funeral, losing your job</li> <li>Goals: school uniforms in January, a deposit on a house, a course</li> </ul> <p>Tips: pay yourself first by saving as soon as you get paid; save a fixed amount every month, even if small; keep savings in a separate account so you are not tempted. A stokvel can help people save together, but join one you trust, with clear rules written down.</p> <h4>Banking</h4> <p>A bank account keeps your money safer than cash in the room. Compare bank fees; some accounts are cheaper for low balances. Protect your card and PIN:</p> <ul> <li>Never tell anyone your PIN, not even a bank worker.</li> <li>Cover the keypad at the ATM.</li> <li>Do not accept help from strangers at the ATM.</li> <li>Never give your banking details or one-time PIN by SMS, WhatsApp or phone call.</li> </ul> <h4>Borrowing and credit</h4> <p>Credit means buying now and paying later, for example a clothing account or a loan. Credit is expensive because you pay <strong>interest</strong> and fees. You pay back more than you borrowed.</p> <p>Before borrowing ask:</p> <ol> <li>Do I really need this now, or can I save for it?</li> <li>What is the total amount I will pay back, including interest and fees?</li> <li>Can I afford the monthly payment from my budget?</li> </ol> <p>Borrow only from registered credit providers. Lenders in South Africa must be registered with the National Credit Regulator. Be careful of illegal moneylenders (mashonisas) who keep your bank card or ID; this is illegal and can trap you in debt.</p> <h4>If you are in debt</h4> <p>Do not ignore it. Make a list of what you owe. Talk to the lenders and agree on a payment plan. Stop taking new credit. You can ask a registered debt counsellor for help.</p> <h4>Insurance and funeral cover</h4> <p>A funeral policy can help your family. Read the policy: what it covers, the waiting period, and the monthly premium. Do not pay for several policies that cover the same thing.</p> <h4>Key points</h4> <ul> <li>Budget using your net (take-home) pay.</li> <li>Pay for needs before wants and track your spending.</li> <li>Save a fixed amount every month, starting on payday.</li> <li>Never share your PIN or one-time PIN with anyone.</li> <li>Borrow only from registered lenders and check the total cost before you sign.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which pay should you use to make your budget?",
+   "options": [
+    {
+     "text": "Gross pay",
+     "correct": false
+    },
+    {
+     "text": "Net (take-home) pay",
+     "correct": true
+    },
+    {
+     "text": "Last year's pay",
+     "correct": false
+    },
+    {
+     "text": "Your friend's pay",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a need?",
+   "options": [
+    {
+     "text": "New takkies",
+     "correct": false
+    },
+    {
+     "text": "Food",
+     "correct": true
+    },
+    {
+     "text": "A bigger TV",
+     "correct": false
+    },
+    {
+     "text": "Takeaways every day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a fixed expense?",
+   "options": [
+    {
+     "text": "Rent",
+     "correct": true
+    },
+    {
+     "text": "Cooldrinks",
+     "correct": false
+    },
+    {
+     "text": "Clothes",
+     "correct": false
+    },
+    {
+     "text": "Airtime top-ups",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "R15 a day adds up to about how much in a month?",
+   "options": [
+    {
+     "text": "R45",
+     "correct": false
+    },
+    {
+     "text": "R150",
+     "correct": false
+    },
+    {
+     "text": "R450",
+     "correct": true
+    },
+    {
+     "text": "R4 500",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A person phones saying they are from the bank and asks for your one-time PIN. What should you do?",
+   "options": [
+    {
+     "text": "Give it to them",
+     "correct": false
+    },
+    {
+     "text": "Refuse and never share it",
+     "correct": true
+    },
+    {
+     "text": "Send it by SMS instead",
+     "correct": false
+    },
+    {
+     "text": "Give half of it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When you borrow money you usually pay back more than you borrowed because of interest and fees.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is legal for a moneylender to keep your bank card and ID as security.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good saving habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Save as soon as you get paid",
+     "correct": true
+    },
+    {
+     "text": "Save a fixed amount every month",
+     "correct": true
+    },
+    {
+     "text": "Keep savings in a separate account",
+     "correct": true
+    },
+    {
+     "text": "Spend everything first and save what is left",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

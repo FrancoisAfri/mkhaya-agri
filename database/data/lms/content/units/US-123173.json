@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123173",
+ "title": "Demonstrate knowledge of hygiene practices in Rooibos production and processing",
+ "lessons": [
+  {
+   "title": "Why hygiene matters for rooibos",
+   "minutes": 15,
+   "html": "<h3>Rooibos is food</h3><p>Rooibos tea is drunk by people all over the world. That means it is a food product. If it gets dirty, it can carry germs that make people sick. Buyers test tea for germs like Salmonella and E. coli. If tea has germs, it can be rejected and the farm loses money. The good name of rooibos can also be hurt.</p><h4>How tea gets dirty</h4><ul><li><strong>People</strong> – dirty hands, sick workers, hair, spitting.</li><li><strong>Animals</strong> – dogs, chickens, birds, rats and goats on the tea court leave droppings.</li><li><strong>Water</strong> – dirty water used for bruising.</li><li><strong>Equipment</strong> – dirty rakes, machines, trailers and bags.</li><li><strong>Foreign objects</strong> – stones, glass, plastic, wire, cigarette ends.</li><li><strong>Chemicals</strong> – fuel, oil, pesticides near the tea.</li></ul><h4>Hygiene is everyone's job</h4><p>Pasteurising at the processor kills many germs, but it cannot remove stones, plastic or chemicals, and very dirty tea may still fail. Every worker must keep the tea clean from the land to the bag.</p><h4>Every step counts</h4><p>Think about the path the tea takes. It is cut in the lands, loaded on a trailer, cut again in the machine, wetted, fermented in heaps, spread on the court, raked, swept and bagged. At each of these steps hands, tools and the ground touch the tea. A dirty trailer that carried manure, a rake used in the kraal, or a dog walking over the drying tea can each add germs. That is why the farm has rules for each step, and why the rules must be followed every day, not only when a buyer or inspector visits.</p>"
+  },
+  {
+   "title": "Personal hygiene",
+   "minutes": 15,
+   "html": "<h3>Clean worker, clean tea</h3><h4>Wash your hands</h4><p>Wash your hands with soap and clean water:</p><ul><li>before you start work;</li><li>after using the toilet;</li><li>after eating or smoking;</li><li>after touching animals, rubbish or chemicals;</li><li>after blowing your nose or coughing into your hands.</li></ul><h4>How to wash hands</h4><ol><li>Wet your hands.</li><li>Use soap.</li><li>Rub palms, backs, between fingers and under nails.</li><li>Rinse with clean water.</li><li>Dry with a clean paper towel or clean cloth.</li></ol><h4>Clothes and hair</h4><ul><li>Wear clean work clothes.</li><li>Cover your hair if the farm gives hair nets or caps.</li><li>No jewellery that can fall into tea.</li></ul><h4>Behaviour</h4><ul><li>Do not eat, drink, smoke or spit on the tea court or in the store.</li><li>Use the toilets. Never relieve yourself in the lands or near the tea court.</li><li>Cover cuts with a plaster.</li></ul><h4>If you are sick</h4><p>Tell your supervisor if you have diarrhoea, vomiting, fever or a skin infection. You may need to do other work until you are well, so germs do not get into the tea.</p><h4>Good habits</h4><p>Keep your fingernails short and clean, because dirt and germs hide under long nails. Do not touch your face, nose or mouth while handling tea. If you must cough or sneeze, turn away from the tea and use your elbow or a tissue, then wash your hands. Keep your lunch and drinks in the rest area, not on the court or in the store. Small habits like these, done by every worker, keep the whole batch safe.</p>"
+  },
+  {
+   "title": "Clean areas, equipment and storage",
+   "minutes": 15,
+   "html": "<h3>Keeping the work place clean</h3><h4>Tea court</h4><ul><li>Sweep before and after work.</li><li>Keep animals off. Close gates and fix fences.</li><li>Use only clean, safe water for bruising.</li><li>No vehicles driving over the tea, and no fuel or oil on the court.</li></ul><h4>Equipment</h4><ul><li>Clean rakes, spades, machines and trailers after use.</li><li>Use tools only for tea work, not for manure or chemicals.</li><li>Use only clean, approved bags. Never use fertiliser or chemical bags.</li></ul><h4>Toilets and hand wash</h4><p>The farm must have toilets and hand washing places near the work area, with soap and clean water. Report it if soap runs out or toilets are dirty or broken.</p><h4>Store</h4><ul><li>Keep the store clean, dry and closed.</li><li>Stack bags on pallets, off the floor and away from walls.</li><li>Keep out rats, birds and insects. Report droppings or damage.</li><li>Never store chemicals, fuel or fertiliser with tea.</li></ul><h4>Rubbish</h4><p>Put rubbish in closed bins. Do not leave plastic, string or food waste near the tea.</p><h4>Key points</h4><ul><li>Rooibos is food, so it must be kept free of germs, objects and chemicals.</li><li>Wash hands with soap before work, after the toilet and after eating.</li><li>No eating, smoking or spitting on the tea court or in the store.</li><li>Tell the supervisor if you have diarrhoea, vomiting or fever.</li><li>Keep animals off the tea court and store tea away from chemicals.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is hygiene important for rooibos?",
+   "options": [
+    {
+     "text": "Rooibos is not eaten, so it is not important",
+     "correct": false
+    },
+    {
+     "text": "It makes the tea heavier",
+     "correct": false
+    },
+    {
+     "text": "It changes the colour",
+     "correct": false
+    },
+    {
+     "text": "Rooibos is a food and dirty tea can make people sick",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When must you wash your hands?",
+   "options": [
+    {
+     "text": "After using the toilet and before starting work",
+     "correct": true
+    },
+    {
+     "text": "Only on Mondays",
+     "correct": false
+    },
+    {
+     "text": "Only at the end of the day",
+     "correct": false
+    },
+    {
+     "text": "Only when they look dirty",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you have diarrhoea?",
+   "options": [
+    {
+     "text": "Go home without telling anyone",
+     "correct": false
+    },
+    {
+     "text": "Work on the tea court as normal",
+     "correct": false
+    },
+    {
+     "text": "Hide it",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which water may be used for bruising tea?",
+   "options": [
+    {
+     "text": "Only clean, safe water",
+     "correct": true
+    },
+    {
+     "text": "Any water",
+     "correct": false
+    },
+    {
+     "text": "Used wash water",
+     "correct": false
+    },
+    {
+     "text": "Water from the dam where cattle drink",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should bags of tea be stacked?",
+   "options": [
+    {
+     "text": "Outside in the rain",
+     "correct": false
+    },
+    {
+     "text": "On the floor next to the fertiliser",
+     "correct": false
+    },
+    {
+     "text": "In the chemical store",
+     "correct": false
+    },
+    {
+     "text": "On pallets, off the floor and away from walls",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pasteurising cannot remove stones or plastic from tea.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to use a fertiliser bag for tea if it is shaken out first.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can make rooibos dirty? (select all that apply)",
+   "options": [
+    {
+     "text": "Clean, approved bags",
+     "correct": false
+    },
+    {
+     "text": "Dirty hands",
+     "correct": true
+    },
+    {
+     "text": "Fuel and oil near the tea",
+     "correct": true
+    },
+    {
+     "text": "Dogs and chickens on the tea court",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

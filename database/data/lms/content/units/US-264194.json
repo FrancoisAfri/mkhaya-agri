@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264194",
+ "title": "Operate specialised walk-behind mowers",
+ "lessons": [
+  {
+   "title": "Types of specialised mowers and pre-start checks",
+   "minutes": 15,
+   "html": "<h3>Specialised walk-behind mowers</h3>\n<p>Ordinary rotary mowers cut most garden lawns. On golf greens, bowling greens, cricket squares and fine lawns, groundsmen use specialised walk-behind mowers to get a very short, even, high-quality cut.</p>\n<table><tr><th>Mower</th><th>How it cuts</th><th>Used on</th></tr>\n<tr><td>Cylinder (reel) mower</td><td>A spinning cylinder of blades cuts against a fixed bottom blade, like scissors</td><td>Golf and bowling greens, cricket pitches</td></tr>\n<tr><td>Hover mower</td><td>Rotary blade, floats on a cushion of air</td><td>Banks and slopes</td></tr>\n<tr><td>Flail mower</td><td>Many small swinging blades on a shaft</td><td>Long, rough grass</td></tr>\n<tr><td>Scarifier / verti-cutter</td><td>Vertical blades that slice into thatch</td><td>Renovating fine turf</td></tr></table>\n<h4>Height of cut</h4>\n<p>On a cylinder mower the height is set by moving the front roller up or down. It is measured with a setting bar or gauge. Greens may be cut at only a few millimetres; your head groundsman sets the height for each surface and season. Never take off more than about one third of the grass leaf in one cut.</p>\n<h4>Pre-start checks</h4>\n<ol><li>Read the operator's manual and only use a machine you are trained on.</li>\n<li>Check engine oil and fuel. Refuel outdoors with the engine off and cool. No smoking.</li>\n<li>Check that the cylinder and bottom blade are sharp and set correctly. A paper test: a sheet of paper should be cut cleanly across the blades (engine off, spark plug lead removed or key out).</li>\n<li>Check guards, grass box, controls, the dead-man's handle (operator presence control) and that the cylinder stops when you let go.</li>\n<li>Check tyres or rollers and look for loose bolts or leaks.</li></ol>\n<h4>PPE</h4>\n<p>Safety boots, ear protection, long trousers, and eye protection when needed.</p>"
+  },
+  {
+   "title": "Mowing technique and maintenance",
+   "minutes": 15,
+   "html": "<h3>Before mowing</h3>\n<ul><li>Walk the area. Remove stones, sticks, golf balls, bowls and anything else. A stone can wreck a cylinder.</li>\n<li>Do not mow wet greens if the head groundsman says not to; wet grass gives a poor cut and the mower can skid.</li>\n<li>Remove dew by brushing or switching (with a long cane) on greens if required.</li></ul>\n<h3>Mowing</h3>\n<ol><li>Start the engine with the drive and cylinder disengaged.</li>\n<li>Walk at a steady, even pace. Do not rush.</li>\n<li>Mow in straight lines, slightly overlapping each strip. Use a fixed point at the far end to walk straight.</li>\n<li>Turn off the green or surface (on the apron or surround) to avoid scuffing. Lift the front of the mower slightly on turns.</li>\n<li>Change direction each time you mow (for example, diagonal one day, straight the next) so the grass does not lean one way.</li>\n<li>Do a clean-up cut around the edge at the end, but not every day in the same track, to avoid wear (triplex ring).</li>\n<li>Empty the grass box before it is full so the cut stays clean. Spread or compost clippings as your supervisor says.</li></ol>\n<h3>Safety rules</h3>\n<ul><li>Never put hands or feet near the cylinder while the engine is running.</li>\n<li>Stop the engine and disconnect the spark plug lead before clearing blockages or adjusting blades.</li>\n<li>Never pull a mower backwards towards your feet.</li>\n<li>Keep people away while mowing.</li>\n<li>Never mow across steep slopes where the mower can tip.</li></ul>\n<h3>After mowing</h3>\n<ul><li>Clean grass off the mower with a brush or low-pressure water (keep water off the engine and electrics).</li>\n<li>Check blades for damage. Report faults.</li>\n<li>Oil and grease as the service schedule says. Record hours used.</li>\n<li>Store in a locked shed.</li></ul>\n<h4>Key points</h4>\n<ul><li>Cylinder mowers give the short, fine cut needed on greens and pitches.</li>\n<li>Set the height with a gauge and never remove more than one third of the leaf.</li>\n<li>Clear debris before mowing and mow in straight, overlapping strips.</li>\n<li>Change mowing direction each time.</li>\n<li>Stop the engine and disconnect the plug before touching blades.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which mower is used for golf and bowling greens?",
+   "options": [
+    {
+     "text": "Cylinder (reel) mower",
+     "correct": true
+    },
+    {
+     "text": "Flail mower",
+     "correct": false
+    },
+    {
+     "text": "Brushcutter",
+     "correct": false
+    },
+    {
+     "text": "Hover mower",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which mower is best for banks and slopes?",
+   "options": [
+    {
+     "text": "Cylinder mower",
+     "correct": false
+    },
+    {
+     "text": "Roller",
+     "correct": false
+    },
+    {
+     "text": "Hover mower",
+     "correct": true
+    },
+    {
+     "text": "Scarifier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the most you should remove from the grass leaf in one cut?",
+   "options": [
+    {
+     "text": "Half",
+     "correct": false
+    },
+    {
+     "text": "About one third",
+     "correct": true
+    },
+    {
+     "text": "All of it",
+     "correct": false
+    },
+    {
+     "text": "Two thirds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before clearing a blockage in the cylinder?",
+   "options": [
+    {
+     "text": "Speed up the engine",
+     "correct": false
+    },
+    {
+     "text": "Use your foot",
+     "correct": false
+    },
+    {
+     "text": "Tip the mower while running",
+     "correct": false
+    },
+    {
+     "text": "Stop the engine and disconnect the spark plug lead",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you change mowing direction each time?",
+   "options": [
+    {
+     "text": "To save fuel",
+     "correct": false
+    },
+    {
+     "text": "To finish faster",
+     "correct": false
+    },
+    {
+     "text": "So the grass does not lean one way",
+     "correct": true
+    },
+    {
+     "text": "To scare birds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should never pull a mower backwards towards your feet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stones on a green do not matter because the cylinder will cut them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are pre-start checks? (select all that apply)",
+   "options": [
+    {
+     "text": "Engine oil and fuel",
+     "correct": true
+    },
+    {
+     "text": "Guards and operator presence control",
+     "correct": true
+    },
+    {
+     "text": "Blade sharpness and setting",
+     "correct": true
+    },
+    {
+     "text": "Painting the grass box",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

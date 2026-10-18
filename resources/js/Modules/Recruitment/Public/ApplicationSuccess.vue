@@ -17,12 +17,12 @@ defineProps<{
       <div class="d-flex align-center gap-3 mb-8">
         <img
           src="/images/logo_default.png"
-          alt="Mkhaya Hub"
+          alt="Mkhaya Agri"
           style="height: 40px; object-fit: contain;"
           @error="($event.target as HTMLImageElement).style.display = 'none'"
         />
         <span style="font-size: 1.25rem; font-weight: 800; color: #0f172a; letter-spacing: -0.3px;">
-          MKHAYA HUB
+          MKHAYA AGRI
         </span>
       </div>
 
@@ -116,7 +116,7 @@ defineProps<{
 
       <!-- Footer note -->
       <p class="text-caption text-medium-emphasis text-center mt-6 mb-0">
-        Powered by Mkhaya Hub — Talent Acquisition Platform
+        Powered by Mkhaya Agri — Talent Acquisition Platform
       </p>
     </div>
   </VApp>

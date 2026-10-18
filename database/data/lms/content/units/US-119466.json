@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119466",
+ "title": "Interpret a variety of literary texts",
+ "lessons": [
+  {
+   "title": "Understanding stories, poems and plays",
+   "minutes": 15,
+   "html": "<h3>What is a literary text?</h3>\n<p>A literary text is a creative piece of writing or performance: a story, novel, poem, play, song or film. People have told stories around the fire for thousands of years. In South Africa we have oral stories, folk tales such as the clever hare and the jackal, praise poems, and written books in all our languages.</p>\n<h4>Parts of a story</h4>\n<ul><li><strong>Characters</strong>: the people or animals in the story. The main character is often called the protagonist.</li>\n<li><strong>Setting</strong>: where and when the story happens, such as a farm in the Karoo during a drought.</li>\n<li><strong>Plot</strong>: what happens, usually in this order: beginning, problem (conflict), rising action, climax (the most exciting point), and ending.</li>\n<li><strong>Theme</strong>: the lesson or big idea, such as courage, greed, friendship or respect for nature.</li>\n<li><strong>Narrator</strong>: who tells the story. \"I\" means first person; \"he\" or \"she\" means third person.</li></ul>\n<h4>Example</h4>\n<p>In a short story, a young tracker, Lerato, must find a wounded kudu before dark. The older hunters doubt her. She reads the tracks carefully, finds the kudu, and earns their respect. Characters: Lerato and the older hunters. Setting: the bushveld in the late afternoon. Conflict: finding the kudu before dark, and proving herself. Climax: finding the kudu. Theme: skill and patience matter more than age or gender.</p>\n<h4>Poems</h4>\n<p>Poems use few words with strong meaning. Look for:</p>\n<ul><li><strong>Images</strong>: words that help you see, hear or feel something.</li>\n<li><strong>Similes</strong>: comparisons using \"like\" or \"as\" (\"as quiet as a leopard\").</li>\n<li><strong>Metaphors</strong>: saying one thing is another (\"the river is a silver snake\").</li>\n<li><strong>Repetition and rhythm</strong>, which give a poem its sound.</li></ul>"
+  },
+  {
+   "title": "Interpreting meaning and responding",
+   "minutes": 15,
+   "html": "<h3>Reading between the lines</h3>\n<p>Writers do not always say everything directly. To interpret a text, you use clues to work out what is meant.</p>\n<ul><li>A character who slams the door and does not eat is probably angry, even if the text does not say \"angry\".</li>\n<li>A dark, stormy setting can create a feeling of danger.</li>\n<li>The title often hints at the theme.</li></ul>\n<h4>Mood and tone</h4>\n<p><strong>Mood</strong> is the feeling the reader gets: sad, tense, peaceful, funny. <strong>Tone</strong> is the writer's attitude: serious, angry, playful, respectful. A poem about a dying old elephant may have a sad mood and a respectful tone.</p>\n<h4>Films and plays</h4>\n<p>In films and plays, meaning also comes from what you see and hear: actors' faces and voices, music, lighting and camera shots. A close-up shot of a face shows emotion. Slow, quiet music can build sadness; fast drums can build tension.</p>\n<h4>Responding to a text</h4>\n<p>When you respond, give your opinion and a reason from the text. For example: \"I think Lerato is brave because she follows the tracks alone into thick bush even though it is getting dark.\" Use these questions to guide you:</p>\n<ul><li>What happened, and why?</li>\n<li>How do the characters change?</li>\n<li>What is the message?</li>\n<li>Does it remind you of something in your own life or work?</li>\n<li>What did you like or not like, and why?</li></ul>\n<h4>Different interpretations</h4>\n<p>People from different backgrounds may understand a story differently. A farmer and a city reader may feel differently about a story about jackals killing lambs. Both views can be valid if they are supported by the text. Listen to others with respect.</p>\n<h4>Key points</h4>\n<ul><li>Stories have characters, setting, plot, theme and a narrator.</li>\n<li>Poems use images, similes, metaphors, repetition and rhythm.</li>\n<li>Interpret by using clues to read between the lines.</li>\n<li>Mood is the reader's feeling; tone is the writer's attitude.</li>\n<li>Support your response with reasons from the text and respect other views.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the climax of a story?",
+   "options": [
+    {
+     "text": "The first sentence",
+     "correct": false
+    },
+    {
+     "text": "The title",
+     "correct": false
+    },
+    {
+     "text": "The list of characters",
+     "correct": false
+    },
+    {
+     "text": "The most exciting point",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a simile?",
+   "options": [
+    {
+     "text": "The wind howled",
+     "correct": false
+    },
+    {
+     "text": "The river is a silver snake",
+     "correct": false
+    },
+    {
+     "text": "As quiet as a leopard",
+     "correct": true
+    },
+    {
+     "text": "Lerato ran",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A story uses 'I' to tell what happened. What point of view is this?",
+   "options": [
+    {
+     "text": "No narrator",
+     "correct": false
+    },
+    {
+     "text": "Third person",
+     "correct": false
+    },
+    {
+     "text": "First person",
+     "correct": true
+    },
+    {
+     "text": "Second chapter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is mood?",
+   "options": [
+    {
+     "text": "The setting",
+     "correct": false
+    },
+    {
+     "text": "The number of characters",
+     "correct": false
+    },
+    {
+     "text": "The writer's address",
+     "correct": false
+    },
+    {
+     "text": "The feeling the reader gets",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a film, what does a close-up shot of a face usually show?",
+   "options": [
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "The setting",
+     "correct": false
+    },
+    {
+     "text": "Emotion",
+     "correct": true
+    },
+    {
+     "text": "The time of day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A character who slams the door and refuses to eat is probably angry even if the text does not say so.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only one interpretation of a story can ever be correct.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are parts of a story? (select all that apply)",
+   "options": [
+    {
+     "text": "Price",
+     "correct": false
+    },
+    {
+     "text": "Plot",
+     "correct": true
+    },
+    {
+     "text": "Characters",
+     "correct": true
+    },
+    {
+     "text": "Setting",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

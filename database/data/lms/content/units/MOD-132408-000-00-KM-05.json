@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-05",
+ "title": "Bulk Grain Handling and Storage Process Technology",
+ "lessons": [
+  {
+   "title": "Storage structures and handling equipment",
+   "minutes": 20,
+   "html": "<h3>Storage structures</h3>\n<table>\n<tr><th>Structure</th><th>Features</th></tr>\n<tr><td>Concrete silos</td><td>Tall, durable, good for long-term storage; can be sealed for fumigation; high capital cost</td></tr>\n<tr><td>Steel bins</td><td>Flat or hopper bottom, quicker to build; need good aeration and sealing; temperature swings from sun</td></tr>\n<tr><td>Bunkers</td><td>Grain heaped on a prepared floor between walls and covered with tarpaulins; low cost, used for peak intake; higher risk from weather and pests</td></tr>\n<tr><td>Silo bags</td><td>Sealed plastic tubes on the ground; flexible capacity; vulnerable to puncture by animals and birds</td></tr>\n<tr><td>Warehouses</td><td>For bagged grain</td></tr>\n</table>\n<h3>Handling equipment</h3>\n<ul>\n<li><strong>Intake pits and grids</strong> – trucks tip into pits; grids remove large objects.</li>\n<li><strong>Bucket elevators</strong> – lift grain to the top of the silo complex; high dust explosion risk.</li>\n<li><strong>Chain (en-masse) and belt conveyors</strong> – move grain horizontally to bins and back to out-loading.</li>\n<li><strong>Screw conveyors and sweep augers</strong> – used in bins and for short transfers.</li>\n<li><strong>Distributors and slide gates</strong> – direct grain to the right bin.</li>\n<li><strong>Pre-cleaners and cleaners</strong> – screens and aspirators remove fines, chaff and foreign matter.</li>\n<li><strong>Dryers</strong> – column or mixed-flow dryers using hot air to remove moisture.</li>\n<li><strong>Aeration fans and ducts</strong> – push or pull ambient air through stored grain.</li>\n<li><strong>Weighbridges and hopper scales</strong> – measure mass in and out.</li>\n<li><strong>Temperature cables and level sensors</strong> – monitor stored grain.</li>\n</ul>\n<h3>System design and capacity</h3>\n<p>Handling capacity in tonnes per hour must match peak intake demand. A depot that receives 100 trucks of 34 tonnes per day needs enough pits, elevator and conveyor capacity, grading points and weighbridge throughput to avoid long queues. The slowest element sets the capacity of the whole system. Expansion planning should identify that bottleneck.</p>\n<h3>Control systems</h3>\n<p>Modern depots use PLC and SCADA systems with route selection, interlocks (downstream equipment must be running before upstream starts), speed sensors, belt alignment switches and bearing temperature monitoring. These are both production and safety systems.</p>"
+  },
+  {
+   "title": "Drying, aeration and process safety technology",
+   "minutes": 20,
+   "html": "<h3>Grain drying</h3>\n<p>Drying allows early harvest and safe storage of grain delivered above storage moisture. Hot air passes through grain, evaporating water. Key principles:</p>\n<ul>\n<li>Higher air temperature dries faster but can crack kernels, scorch grain and reduce quality; for seed, malting barley and some uses, lower temperatures are required.</li>\n<li>Grain must be cooled after drying to prevent condensation and spoilage.</li>\n<li>Drying uses a lot of energy (gas, diesel, coal or electricity), so moisture removed per rand of fuel is a key cost measure.</li>\n<li>Dryers are a fire risk: fines and chaff build up and ignite. Clean dryers regularly and keep fire detection and procedures in place.</li>\n</ul>\n<p>Weight loss from drying (shrink) is calculated from initial and final moisture and must be accounted for in stock records and charged to depositors as per tariffs.</p>\n<h3>Aeration</h3>\n<p>Aeration uses low airflow ambient air to cool grain and equalise temperature. It is not meant to dry grain significantly. Correct duct design and fan capacity give even airflow; fines cores and over-filling restrict airflow. Controllers run fans when air temperature and humidity are suitable. Grain chilling units are used in some depots for high-value grain.</p>\n<h3>Dust control and explosion prevention</h3>\n<p>Grain dust is combustible. Prevention measures include:</p>\n<ul>\n<li>Dust extraction at transfer points with filters maintained.</li>\n<li>Good housekeeping: no layers of dust on floors, beams and equipment.</li>\n<li>Magnets to remove tramp metal before elevators and cleaners.</li>\n<li>Monitoring of bearing temperature, belt speed and alignment in elevators.</li>\n<li>Electrical equipment suitable for dusty, hazardous locations.</li>\n<li>Hot work permits for welding and cutting.</li>\n<li>Explosion venting and isolation on high-risk equipment.</li>\n</ul>\n<h3>Engulfment and confined space technology</h3>\n<p>Bin entry should be avoided through design: sweep augers, power sweeps and external access for maintenance. When entry is necessary it requires a permit, isolation and lock-out of all equipment, atmosphere testing (oxygen, phosphine, carbon dioxide), body harness and lifeline, and a trained standby person. Never enter a bin while grain is being drawn out.</p>\n<h4>Key points</h4>\n<ul>\n<li>Depots use concrete silos, steel bins, bunkers and silo bags, each with trade-offs.</li>\n<li>Handling capacity is set by the slowest element in the system.</li>\n<li>Drying removes moisture but must protect quality, account for shrink and manage fire risk.</li>\n<li>Aeration cools grain; it is not a dryer.</li>\n<li>Prevent dust explosions and engulfment through design, housekeeping, monitoring and permits.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which storage type is low cost and often used for peak intake but has higher weather and pest risk?",
+   "options": [
+    {
+     "text": "Concrete silos",
+     "correct": false
+    },
+    {
+     "text": "Warehouses",
+     "correct": false
+    },
+    {
+     "text": "Bunkers",
+     "correct": true
+    },
+    {
+     "text": "Steel hopper bins",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What sets the handling capacity of the whole depot system?",
+   "options": [
+    {
+     "text": "The size of the office",
+     "correct": false
+    },
+    {
+     "text": "The fastest machine",
+     "correct": false
+    },
+    {
+     "text": "The slowest element (bottleneck)",
+     "correct": true
+    },
+    {
+     "text": "The number of staff only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main purpose of aeration?",
+   "options": [
+    {
+     "text": "To dry grain quickly",
+     "correct": false
+    },
+    {
+     "text": "To cool grain and equalise temperature",
+     "correct": true
+    },
+    {
+     "text": "To add moisture",
+     "correct": false
+    },
+    {
+     "text": "To fumigate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must grain be cooled after drying?",
+   "options": [
+    {
+     "text": "To increase weight",
+     "correct": false
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    },
+    {
+     "text": "To prevent condensation and spoilage",
+     "correct": true
+    },
+    {
+     "text": "To change the grade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a dust explosion prevention measure?",
+   "options": [
+    {
+     "text": "Allowing dust layers on beams",
+     "correct": false
+    },
+    {
+     "text": "Welding without a permit",
+     "correct": false
+    },
+    {
+     "text": "Magnets to remove tramp metal before elevators",
+     "correct": true
+    },
+    {
+     "text": "Removing filters",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Very high drying temperatures can crack kernels and reduce quality.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to enter a bin while grain is being drawn out if you wear a harness.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are required before bin entry? (select all that apply)",
+   "options": [
+    {
+     "text": "Permit and lock-out of all equipment",
+     "correct": true
+    },
+    {
+     "text": "Atmosphere testing",
+     "correct": true
+    },
+    {
+     "text": "Harness, lifeline and trained standby person",
+     "correct": true
+    },
+    {
+     "text": "Running the discharge auger",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

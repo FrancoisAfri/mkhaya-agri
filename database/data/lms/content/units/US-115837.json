@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115837",
+ "title": "Prepare nurserybed and fill pot",
+ "lessons": [
+  {
+   "title": "Preparing the nursery site and making beds",
+   "minutes": 15,
+   "html": "<h3>The tea nursery</h3><p>Young tea plants are grown from cuttings or seed in a nursery. They grow in sleeves (plastic pots) that stand in nursery beds. The beds must be well made so the young plants get water, shade and protection.</p><h4>Preparing the site</h4><ol><li>Your supervisor shows you where the beds go. The site should be flat or gently sloping, near water, and protected from strong wind.</li><li>Clear the site. Remove weeds, grass, stones, sticks and rubbish.</li><li>Level the ground with a rake or hoe.</li><li>Mark the beds with pegs and string, to the length and width your supervisor gives you. Beds are made narrow enough that a worker can reach the middle from the path.</li><li>Leave paths between beds for walking, watering and carrying.</li></ol><h4>Making the beds</h4><ul><li>Dig or loosen the soil in the bed area, or make the bed floor flat and firm, as your supervisor says.</li><li>Make sure water can drain away. Water standing in the bed rots the roots. A small drain along the side of the bed helps.</li><li>Some nurseries make a low edge around the bed with bricks, poles or soil so the sleeves stand straight.</li><li>Build the shade frame over the bed if needed. Young tea plants need shade. Poles and shade cloth or grass are used.</li></ul><h4>Tools</h4><p>Hoe, spade, rake, pegs, string, measuring tape, wheelbarrow and watering can or hosepipe.</p><h4>Safety</h4><ul><li>Wear boots, gloves and a hat.</li><li>Carry tools with the blade down. Do not leave a rake lying with the teeth up.</li><li>Lift soil and poles with bent knees.</li><li>Watch for snakes and scorpions when moving stones and rubbish.</li><li>Drink water often in hot weather.</li></ul>"
+  },
+  {
+   "title": "Filling pots and completing the job",
+   "minutes": 15,
+   "html": "<h3>The soil for the pots</h3><p>Your supervisor will tell you which soil to use. Tea likes acid soil. Often, good topsoil from a forest or old tea field is used, sometimes mixed with sand or other material. The soil is sifted through a mesh to remove stones, roots and big lumps. Do not use soil from places where lime, cement or ash was put down, because it is not acid.</p><h4>Filling the sleeves</h4><ol><li>Open the sleeve fully. Check that it has drainage holes. If not, tell your supervisor.</li><li>Fill the sleeve with soil, a bit at a time.</li><li>Tap the sleeve on the ground or press gently as you fill, so the soil settles. There should be no big air gaps. Do not press so hard that the soil becomes like a brick.</li><li>Fill to just below the top of the sleeve, as your supervisor shows you. Leave a little space for water.</li><li>Every sleeve should be filled the same way. Uneven sleeves give uneven plants.</li></ol><h4>Placing the sleeves in the bed</h4><ul><li>Stand the sleeves upright in straight rows, close together so they hold each other up.</li><li>Fill gaps between sleeves at the edges with soil so they do not fall over.</li><li>Do not stand on the sleeves.</li></ul><h4>Completing the preparation</h4><ol><li>Water the filled sleeves well, so the soil settles. Add more soil to any sleeve that sinks too low.</li><li>Count the sleeves in each bed and tell your supervisor or write it down.</li><li>Put a label on each bed with the date filled and the bed number.</li><li>Sweep up spilled soil and collect empty sleeve packets and rubbish.</li><li>Clean and put away all tools.</li></ol><p>The beds are now ready for the cuttings or seed.</p><h4>Key points</h4><ul><li>Clear, level and mark the nursery site with paths between beds.</li><li>Make sure beds drain well and have shade.</li><li>Use sifted, acid soil as your supervisor says.</li><li>Fill sleeves evenly, firm but not hard, with no air gaps.</li><li>Stand sleeves upright, water, count and label the beds.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must nursery beds drain well?",
+   "options": [
+    {
+     "text": "So the beds look neat",
+     "correct": false
+    },
+    {
+     "text": "So pests stay away",
+     "correct": false
+    },
+    {
+     "text": "Standing water rots the roots",
+     "correct": true
+    },
+    {
+     "text": "So the soil turns black",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are beds made narrow?",
+   "options": [
+    {
+     "text": "So a worker can reach the middle from the path",
+     "correct": true
+    },
+    {
+     "text": "So they hold more water",
+     "correct": false
+    },
+    {
+     "text": "To save shade cloth only",
+     "correct": false
+    },
+    {
+     "text": "Because tea needs little space",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil should you NOT use for tea pots?",
+   "options": [
+    {
+     "text": "Sifted forest topsoil",
+     "correct": false
+    },
+    {
+     "text": "Soil from an old tea field",
+     "correct": false
+    },
+    {
+     "text": "Soil mixed with sand as the supervisor says",
+     "correct": false
+    },
+    {
+     "text": "Soil from where lime, cement or ash was put down",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How firm should the soil in the sleeve be?",
+   "options": [
+    {
+     "text": "Pressed hard like a brick",
+     "correct": false
+    },
+    {
+     "text": "Settled with no big air gaps, but not too hard",
+     "correct": true
+    },
+    {
+     "text": "Very loose with big gaps",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after filling and watering the sleeves?",
+   "options": [
+    {
+     "text": "Stand on them to settle them",
+     "correct": false
+    },
+    {
+     "text": "Leave them unlabelled",
+     "correct": false
+    },
+    {
+     "text": "Count them and label the bed",
+     "correct": true
+    },
+    {
+     "text": "Remove the shade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Young tea plants in the nursery need shade.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to use sleeves without drainage holes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of preparing the nursery site? (select all that apply)",
+   "options": [
+    {
+     "text": "Clearing weeds and stones",
+     "correct": true
+    },
+    {
+     "text": "Levelling the ground",
+     "correct": true
+    },
+    {
+     "text": "Pouring cement over the bed",
+     "correct": false
+    },
+    {
+     "text": "Marking beds with pegs and string",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

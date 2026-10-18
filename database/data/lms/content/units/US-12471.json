@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12471",
+ "title": "Explore and use a variety of strategies to learn (revised)",
+ "lessons": [
+  {
+   "title": "How people learn",
+   "minutes": 15,
+   "html": "<h3>Everyone can learn</h3>\n<p>Learning does not stop when you leave school. On the farm we learn new things all the time: a new tractor, a new spray, a new way to treat sick animals, a new computer system for records. People who keep learning do their jobs better, stay safe and can get better jobs.</p>\n<h4>Different ways of learning</h4>\n<p>People learn in different ways. Most people use more than one.</p>\n<ul>\n<li><strong>Seeing:</strong> watching someone show you, looking at pictures, posters and diagrams.</li>\n<li><strong>Hearing:</strong> listening to explanations, talking about it, asking questions.</li>\n<li><strong>Doing:</strong> trying it yourself with your hands, practising.</li>\n<li><strong>Reading and writing:</strong> reading a manual or label, writing notes.</li>\n</ul>\n<p>Think about something you learned well, for example driving or milking a cow. How did you learn it? Most likely someone showed you, explained it and then let you practise. That mix of seeing, hearing and doing works very well.</p>\n<h4>What helps learning</h4>\n<ul>\n<li>Being rested and not hungry.</li>\n<li>A quiet place without too much noise.</li>\n<li>Knowing <em>why</em> you need to learn something.</li>\n<li>Learning a little at a time, not everything at once.</li>\n<li>Practising often.</li>\n<li>Someone to ask when you are stuck.</li>\n</ul>\n<h4>What gets in the way</h4>\n<ul>\n<li>Being afraid to ask questions or to make mistakes.</li>\n<li>Worry, stress or tiredness.</li>\n<li>Not understanding the language that is used. Ask for words to be explained.</li>\n</ul>\n<p>Remember: asking a question is not a sign of weakness. It shows that you want to get it right. A good trainer or supervisor is happy when you ask.</p>"
+  },
+  {
+   "title": "Strategies you can use",
+   "minutes": 15,
+   "html": "<h3>Tools for learning</h3>\n<h4>Ask questions</h4>\n<p>Questions help you understand. Use question words: <em>what, why, how, when, where, who</em>. For example: \"Why do we close the dip tank lid?\" \"How many litres do I put in?\"</p>\n<h4>Take notes</h4>\n<p>Write down short points, not every word. Use your own words. You can draw a simple picture or arrow. Keep your notes in one small book so you can read them later.</p>\n<h4>Break it into steps</h4>\n<p>A big job is easier when you break it into small steps. Learn one step, then the next.</p>\n<ol>\n<li>Watch the whole job once.</li>\n<li>Do step one with help.</li>\n<li>Do step one alone. Then add step two.</li>\n<li>Keep going until you can do the whole job.</li>\n</ol>\n<h4>Memory tricks</h4>\n<ul>\n<li><strong>Repeat</strong> things out loud or in your head.</li>\n<li><strong>Make a short word</strong> from the first letters. For example, FIFO means First In, First Out.</li>\n<li><strong>Link it</strong> to something you already know. \"The cold room is like a fridge at home, but bigger.\"</li>\n<li><strong>Teach someone else.</strong> When you explain it to a co-worker, you remember it better.</li>\n</ul>\n<h4>Use what is around you</h4>\n<ul>\n<li>Labels, posters and safety signs.</li>\n<li>Manuals and booklets.</li>\n<li>The LMS lessons on a phone or computer.</li>\n<li>Experienced workers, your supervisor, the extension officer or the vet.</li>\n<li>The library or the radio.</li>\n</ul>\n<h4>Learn from mistakes</h4>\n<p>Everyone makes mistakes. When something goes wrong, ask: What happened? Why? What will I do differently next time? Then try again. On the farm, report mistakes that affect safety or animals at once, so they can be fixed.</p>"
+  },
+  {
+   "title": "Planning your learning",
+   "minutes": 15,
+   "html": "<h3>Being in charge of your own learning</h3>\n<p>You learn best when you know what you want to learn and make a plan.</p>\n<h4>Set a goal</h4>\n<p>A goal says what you want to be able to do. Make it clear and possible. For example: \"In two months I want to be able to read the feed mixing sheet without help.\" A goal like \"I want to know everything\" is too big.</p>\n<h4>Make a simple plan</h4>\n<table><tr><th>What I want to learn</th><th>How I will learn it</th><th>Who can help</th><th>By when</th></tr>\n<tr><td>Read the feed sheet</td><td>Practise each morning with the supervisor</td><td>Mr Khumalo</td><td>End of June</td></tr>\n<tr><td>Finish two LMS lessons</td><td>Read on my phone during lunch</td><td>Training officer</td><td>Friday</td></tr></table>\n<h4>Find time</h4>\n<p>Many workers learn in small pieces of time: during lunch, on the bus, or for 15 minutes after supper. Small, regular learning is better than one long session once a month.</p>\n<h4>Check your progress</h4>\n<ul>\n<li>Can I do it now without help?</li>\n<li>What is still difficult?</li>\n<li>Do I need to try a different way, for example watching instead of reading?</li>\n</ul>\n<p>If one way of learning does not work for you, try another. Ask the trainer to show you again, find a picture, or practise more.</p>\n<h4>Working with others</h4>\n<p>Study groups help. Two or three co-workers can read a lesson together, ask each other questions and share notes. Help each other, but do your own quiz so you know what you have learned.</p>\n<h4>Key points</h4>\n<ul>\n<li>People learn by seeing, hearing, doing, and reading and writing &ndash; a mix works best.</li>\n<li>Ask questions; it shows you want to get it right.</li>\n<li>Break big jobs into small steps and practise often.</li>\n<li>Use memory tricks like repeating, short words and teaching others.</li>\n<li>Set a clear goal, make a plan and check your progress.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which mix of learning works well for most people?",
+   "options": [
+    {
+     "text": "Only reading",
+     "correct": false
+    },
+    {
+     "text": "Learning while very tired",
+     "correct": false
+    },
+    {
+     "text": "Only listening to the radio",
+     "correct": false
+    },
+    {
+     "text": "Seeing, hearing and doing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good way to learn a big job?",
+   "options": [
+    {
+     "text": "Break it into small steps",
+     "correct": true
+    },
+    {
+     "text": "Do it all at once without help",
+     "correct": false
+    },
+    {
+     "text": "Only watch others forever",
+     "correct": false
+    },
+    {
+     "text": "Skip the hard parts",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a memory trick?",
+   "options": [
+    {
+     "text": "Never asking questions",
+     "correct": false
+    },
+    {
+     "text": "Sleeping during training",
+     "correct": false
+    },
+    {
+     "text": "Teaching someone else",
+     "correct": true
+    },
+    {
+     "text": "Throwing away your notes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a clear, possible learning goal?",
+   "options": [
+    {
+     "text": "I want to know everything",
+     "correct": false
+    },
+    {
+     "text": "In two months I will read the feed sheet without help",
+     "correct": true
+    },
+    {
+     "text": "I want to be the best",
+     "correct": false
+    },
+    {
+     "text": "Learning is not for me",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You made a mistake that affects animal safety. What should you do?",
+   "options": [
+    {
+     "text": "Report it at once and learn from it",
+     "correct": true
+    },
+    {
+     "text": "Blame a co-worker",
+     "correct": false
+    },
+    {
+     "text": "Wait a week",
+     "correct": false
+    },
+    {
+     "text": "Hide it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Asking a question shows that you want to get it right.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "One long study session once a month is better than short regular sessions.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which things help learning? (select all that apply)",
+   "options": [
+    {
+     "text": "Being rested",
+     "correct": true
+    },
+    {
+     "text": "A quiet place",
+     "correct": true
+    },
+    {
+     "text": "Being afraid to make mistakes",
+     "correct": false
+    },
+    {
+     "text": "Knowing why you need to learn it",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

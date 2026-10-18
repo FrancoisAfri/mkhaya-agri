@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-253391",
+ "title": "Maintain centrifugal pumps",
+ "lessons": [
+  {
+   "title": "How centrifugal pumps work and their parts",
+   "minutes": 20,
+   "html": "<h3>Operating principle</h3><p>A centrifugal pump uses a spinning <strong>impeller</strong> to throw water outwards. Water enters at the centre (the eye), is accelerated by the vanes, and leaves at the edge into the <strong>volute</strong> casing, which slows it down and turns the speed into pressure. Centrifugal pumps are the workhorses of farm irrigation, pump stations and water supply.</p><h4>Main parts</h4><table><tr><th>Part</th><th>Function</th><th>Typical wear or fault</th></tr><tr><td>Impeller</td><td>Adds energy to the water</td><td>Erosion by sand, cavitation pitting, blockage by debris</td></tr><tr><td>Casing / volute</td><td>Collects water, converts speed to pressure</td><td>Erosion, cracks from freezing</td></tr><tr><td>Wear rings</td><td>Small clearance between impeller and casing to limit leakage back to suction</td><td>Wear opens the gap, reducing flow and pressure</td></tr><tr><td>Shaft</td><td>Transmits power from motor</td><td>Bending, wear at seal area</td></tr><tr><td>Shaft seal (gland packing or mechanical seal)</td><td>Stops water leaking along the shaft</td><td>Leaks, overheating</td></tr><tr><td>Bearings</td><td>Support the shaft</td><td>Noise, heat, vibration from wear or lack of grease</td></tr><tr><td>Coupling</td><td>Connects motor to pump</td><td>Misalignment, worn rubber elements</td></tr></table><h4>Performance basics</h4><p>Flow drops as head rises. Pumps are most efficient near their best efficiency point; running far left or right on the curve increases wear, vibration and power cost. A centrifugal pump must be primed (full of water) before starting, unless it is a self-priming type with its casing filled.</p><h4>Safety before any maintenance</h4><ul><li>Isolate the motor electrically and apply lock-out and tag-out; only qualified electricians work on electrical parts.</li><li>Close suction and delivery valves and release pressure through a drain or bleed.</li><li>Allow hot parts to cool.</li><li>Keep coupling guards in place whenever the pump runs.</li><li>Use correct lifting equipment for heavy pumps and motors.</li></ul><p>These precautions are required under the OHS Act 85 of 1993 and its Driven Machinery Regulations.</p>"
+  },
+  {
+   "title": "Routine inspection and preventive maintenance",
+   "minutes": 20,
+   "html": "<h3>Daily and weekly checks</h3><ul><li><strong>Gauges:</strong> compare suction and delivery pressure with normal readings. A change signals a problem.</li><li><strong>Noise:</strong> a gravel-like rattle suggests cavitation; a whine or grinding suggests bearing trouble.</li><li><strong>Vibration:</strong> feel the bearing housing or use a vibration meter; increasing vibration warns of misalignment, imbalance or bearing wear.</li><li><strong>Temperature:</strong> bearings should be warm, not too hot to keep a hand on.</li><li><strong>Leaks:</strong> at seals, joints and gaskets.</li><li><strong>Motor current:</strong> checked by an electrician against nameplate.</li></ul><h4>Gland packing</h4><p>Gland packing is made of rings of braided material pressed around the shaft. It must <strong>drip slowly</strong> while running, because the water cools and lubricates the packing. A dry gland burns and scores the shaft sleeve.</p><ol><li>If leakage is too high, tighten the gland nuts evenly, a little at a time, while running (only where safe and guarded, as trained), until the drip returns to normal.</li><li>When packing cannot be adjusted further, isolate the pump, remove old rings with a packing hook, clean the box, cut new rings to size with joints staggered, and fit them one by one.</li></ol><h4>Mechanical seals</h4><p>A mechanical seal has two very flat faces, one rotating and one stationary, pressed together. It should not leak visibly. It must never run dry. When a mechanical seal leaks, replace it as a unit, keeping faces clean and handling them by the edges.</p><h4>Bearings and lubrication</h4><p>Grease or oil as the manufacturer specifies: the right grease type, the right amount and the right interval. Too much grease causes overheating just as too little causes wear. Wipe grease nipples before greasing.</p><h4>Alignment</h4><p>Check alignment between pump and motor with a straight edge, feeler gauges or dial indicators. Misalignment is a major cause of bearing and seal failure. Re-check after any work on the pump, base or pipes.</p>"
+  },
+  {
+   "title": "Overhaul, fault finding and records",
+   "minutes": 20,
+   "html": "<h3>When to overhaul</h3><p>Plan an overhaul when performance drops below an acceptable level (lower flow or pressure at the same valve setting), when vibration or noise increases, or at intervals set by the maintenance plan.</p><h4>Typical overhaul steps</h4><ol><li>Isolate, lock out, drain and release pressure.</li><li>Mark coupling halves and parts to aid reassembly.</li><li>Remove coupling guard, disconnect coupling, and remove the back pull-out assembly (on back pull-out designs) without disturbing pipework.</li><li>Inspect the impeller for wear, pitting and blockage; measure wear ring clearance against the manufacturer's limit.</li><li>Inspect shaft and sleeve, bearings, seal and gaskets.</li><li>Replace worn parts with correct spares. Use new gaskets and O-rings.</li><li>Reassemble, set impeller clearance if adjustable, align coupling, refit guards.</li><li>Prime, start against a partly open valve, check direction of rotation (electrician), and record pressure, flow and current.</li></ol><h4>Fault finding</h4><table><tr><th>Symptom</th><th>Likely causes</th></tr><tr><td>No water delivered</td><td>Not primed, suction air leak, foot valve stuck, wrong rotation, blocked impeller</td></tr><tr><td>Low flow or pressure</td><td>Worn impeller or wear rings, partly blocked suction or impeller, air entering, speed too low</td></tr><tr><td>Loses prime</td><td>Leaking foot valve or suction joints</td></tr><tr><td>Noisy, rattling</td><td>Cavitation from high suction lift or blocked strainer</td></tr><tr><td>Vibration</td><td>Misalignment, bent shaft, worn bearings, impeller imbalance, loose base</td></tr><tr><td>Motor overloads</td><td>Pump running far right on curve, tight gland, rubbing parts</td></tr></table><h4>Records</h4><p>Keep a pump history card or digital log: pump and motor data, duty point, commissioning readings, inspection results, lubrication dates, parts replaced, hours run and faults. Trends in pressure, flow and current help plan maintenance before breakdown, which matters most in peak irrigation season.</p><h4>Key points</h4><ul><li>Lock out, close valves and release pressure before maintenance.</li><li>Gland packing must drip slowly; mechanical seals must never run dry.</li><li>Grease correctly and keep pump and motor aligned.</li><li>Measure wear ring clearance and impeller wear during overhaul.</li><li>Use fault-finding tables and keep a pump history.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the volute casing do?",
+   "options": [
+    {
+     "text": "Collects water and converts speed into pressure",
+     "correct": true
+    },
+    {
+     "text": "Seals the shaft",
+     "correct": false
+    },
+    {
+     "text": "Supports the bearings",
+     "correct": false
+    },
+    {
+     "text": "Primes the pump",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the effect of worn wear rings?",
+   "options": [
+    {
+     "text": "Higher pressure",
+     "correct": false
+    },
+    {
+     "text": "Quieter pump",
+     "correct": false
+    },
+    {
+     "text": "More leakage back to suction, reducing flow and pressure",
+     "correct": true
+    },
+    {
+     "text": "Better efficiency",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should gland packing behave when the pump runs?",
+   "options": [
+    {
+     "text": "Completely dry",
+     "correct": false
+    },
+    {
+     "text": "Drip slowly",
+     "correct": true
+    },
+    {
+     "text": "Spray water",
+     "correct": false
+    },
+    {
+     "text": "Smoke slightly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pump keeps losing prime. What is a likely cause?",
+   "options": [
+    {
+     "text": "New impeller",
+     "correct": false
+    },
+    {
+     "text": "Correct alignment",
+     "correct": false
+    },
+    {
+     "text": "High motor current",
+     "correct": false
+    },
+    {
+     "text": "Leaking foot valve or suction joints",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a major cause of bearing and seal failure?",
+   "options": [
+    {
+     "text": "Misalignment between pump and motor",
+     "correct": true
+    },
+    {
+     "text": "Using a pressure gauge",
+     "correct": false
+    },
+    {
+     "text": "Correct greasing",
+     "correct": false
+    },
+    {
+     "text": "Running near the best efficiency point",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A mechanical seal can safely run dry for long periods.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Too much grease in a bearing can cause overheating.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks belong in routine pump inspection? (select all that apply)",
+   "options": [
+    {
+     "text": "Suction and delivery pressure",
+     "correct": true
+    },
+    {
+     "text": "Noise and vibration",
+     "correct": true
+    },
+    {
+     "text": "Paint colour",
+     "correct": false
+    },
+    {
+     "text": "Leaks at seals and joints",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

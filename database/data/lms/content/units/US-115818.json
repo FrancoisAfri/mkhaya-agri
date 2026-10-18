@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115818",
+ "title": "Wither green leaf",
+ "lessons": [
+  {
+   "title": "What withering does and getting ready",
+   "minutes": 15,
+   "html": "<h3>Why tea leaf is withered</h3><p>Withering is the first step in making tea in the factory. Fresh green leaf is full of water and is stiff. During withering, air is blown through the leaf for many hours. The leaf loses some water and becomes soft and floppy, like a limp cloth. It also starts small chemical changes that help the flavour.</p><p>Soft, well-withered leaf rolls or cuts well in the next step. If the leaf is under-withered (too wet) it breaks and the juice runs out. If it is over-withered (too dry) it does not roll well and the tea is weak.</p><h4>The withering trough</h4><p>Most factories use long troughs. A trough has a wire mesh bed, a fan at one end and a duct that pushes air under the mesh and up through the leaf. Some troughs can add warm air when the weather is cold or wet.</p><h4>Getting ready</h4><ol><li>Check that the trough mesh is clean and not torn. Old leaf in the mesh blocks the air.</li><li>Check that the fan guards are in place.</li><li>Find out from your supervisor the target for the wither: the time and how soft or how much mass the leaf must lose.</li><li>Wear your overall, hair cover and boots. Wash your hands.</li></ol><h4>Spreading the leaf</h4><ul><li>Spread leaf evenly over the whole trough, to the depth your supervisor gives you.</li><li>Shake the leaf loose with your hands or a fork. No lumps or thick patches.</li><li>Do not press the leaf down or walk on it.</li><li>Leave no bare spots. Air rushes through bare spots and does not go through the leaf.</li><li>Put a tag on the trough with the field number, the time the leaf went in and the mass.</li></ul><h4>Safety</h4><ul><li>Never put your hands near the fan blades. Switch off and lock out before cleaning.</li><li>Do not climb onto the trough edges.</li><li>Keep walkways clear of leaf so nobody slips.</li></ul>"
+  },
+  {
+   "title": "Controlling and finishing the wither",
+   "minutes": 15,
+   "html": "<h3>Watching the wither</h3><p>Withering is not \"switch on and walk away\". The weather changes, and the leaf changes. You must check often.</p><h4>What to check</h4><ul><li><strong>Air flow:</strong> the fans are running and air comes through all parts of the trough.</li><li><strong>Air temperature:</strong> read the thermometer at the fan. Warm air may be used when the air outside is cold or very damp, but too much heat damages the leaf. Follow the settings your supervisor gives you.</li><li><strong>Leaf feel:</strong> take a handful. Squeeze it. Well-withered leaf feels soft and limp, the stalk bends without snapping, and the leaf has a fresh, fruity smell.</li><li><strong>Turning:</strong> if your factory does it, turn the leaf gently at the set times so the top and bottom wither evenly.</li></ul><h4>Problems and what to do</h4><table><tr><th>Problem</th><th>What you see</th><th>Tell supervisor and</th></tr><tr><td>Under-withered</td><td>Leaf still stiff, stalk snaps</td><td>Give more time or air</td></tr><tr><td>Over-withered</td><td>Leaf dry, brittle, edges crisp</td><td>Send it to rolling sooner</td></tr><tr><td>Uneven</td><td>Some patches soft, some stiff</td><td>Spread more evenly, turn leaf</td></tr><tr><td>Red or brown leaf</td><td>Leaf bruised or heated</td><td>Remove, report</td></tr></table><h4>Finishing the wither</h4><ol><li>When your supervisor says the leaf is ready, switch off the warm air if it is on.</li><li>Take the leaf off the trough gently and send it to the rolling or CTC machine, in the order the supervisor gives.</li><li>Do not let withered leaf stand around. Process it soon.</li><li>Fill in the withering record: trough number, time in, time out, temperature, and the leaf check result.</li><li>Clean the mesh and sweep the floor before new leaf comes in.</li></ol><h4>Key points</h4><ul><li>Withering takes water out of the leaf and makes it soft for rolling.</li><li>Spread leaf evenly and loosely, with no bare spots.</li><li>Check air, temperature and leaf feel often.</li><li>Report under-withered, over-withered or bruised leaf.</li><li>Keep hands away from fans; lock out before cleaning.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main purpose of withering tea leaf?",
+   "options": [
+    {
+     "text": "To make it green",
+     "correct": false
+    },
+    {
+     "text": "To add water",
+     "correct": false
+    },
+    {
+     "text": "To remove some water and make the leaf soft for rolling",
+     "correct": true
+    },
+    {
+     "text": "To sort it by size",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must leaf be spread evenly with no bare spots?",
+   "options": [
+    {
+     "text": "Air rushes through bare spots and does not pass through the leaf",
+     "correct": true
+    },
+    {
+     "text": "Bare spots make the leaf heavier",
+     "correct": false
+    },
+    {
+     "text": "The supervisor likes neat troughs",
+     "correct": false
+    },
+    {
+     "text": "It makes the leaf turn red",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How does well-withered leaf feel?",
+   "options": [
+    {
+     "text": "Stiff, and the stalk snaps",
+     "correct": false
+    },
+    {
+     "text": "Wet and dripping",
+     "correct": false
+    },
+    {
+     "text": "Dry and crisp",
+     "correct": false
+    },
+    {
+     "text": "Soft and limp, and the stalk bends without snapping",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to over-withered leaf?",
+   "options": [
+    {
+     "text": "Leave it for another day",
+     "correct": false
+    },
+    {
+     "text": "Send it to rolling sooner, as the supervisor says",
+     "correct": true
+    },
+    {
+     "text": "Add water to it",
+     "correct": false
+    },
+    {
+     "text": "Mix it with green leaf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before cleaning near the fan?",
+   "options": [
+    {
+     "text": "Speed the fan up",
+     "correct": false
+    },
+    {
+     "text": "Wear gloves only",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out",
+     "correct": true
+    },
+    {
+     "text": "Ask a friend to watch",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may press leaf down in the trough so more fits in.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Withered leaf should be processed soon and not left standing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details go on the withering record? (select all that apply)",
+   "options": [
+    {
+     "text": "Trough number",
+     "correct": true
+    },
+    {
+     "text": "Time in and time out",
+     "correct": true
+    },
+    {
+     "text": "The name of the tea buyer",
+     "correct": false
+    },
+    {
+     "text": "Air temperature",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

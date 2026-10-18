@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-07",
+ "title": "Maintain Safety and Health Standards in a Grain Handling and Storage Environment",
+ "lessons": [
+  {
+   "title": "Hazards in grain handling and storage",
+   "minutes": 18,
+   "html": "<h3>A high-risk workplace</h3>\n<p>Grain depots look peaceful outside the harvest rush, but they contain some of the most serious hazards in agriculture. The OHS Act 85 of 1993 requires the employer to provide and maintain a safe workplace, identify hazards, assess risks and apply controls, and train and supervise workers. The depot manager is responsible for making this happen on site.</p>\n<h4>Major hazards</h4>\n<table>\n<tr><th>Hazard</th><th>Where</th><th>Possible harm</th></tr>\n<tr><td>Engulfment</td><td>Bins, silos, bunkers, trucks</td><td>Suffocation in flowing or bridged grain</td></tr>\n<tr><td>Dust explosion and fire</td><td>Elevators, tunnels, dryers, filters</td><td>Multiple deaths, destruction of structures</td></tr>\n<tr><td>Toxic gases</td><td>Fumigated structures, confined spaces</td><td>Phosphine poisoning, oxygen deficiency</td></tr>\n<tr><td>Entanglement</td><td>Conveyors, augers, elevator boots, drives</td><td>Amputation, death</td></tr>\n<tr><td>Falls</td><td>Silo tops, ladders, truck tops, gantries</td><td>Serious injury, death</td></tr>\n<tr><td>Vehicles</td><td>Yard, weighbridge, tipping areas</td><td>Crushing, collisions</td></tr>\n<tr><td>Dust and noise</td><td>Intake, cleaning, elevators</td><td>Lung disease, hearing loss</td></tr>\n<tr><td>Heat and fatigue</td><td>Long harvest shifts</td><td>Heat stress, errors</td></tr>\n</table>\n<h4>Risk assessment</h4>\n<ol>\n<li>List all tasks, including non-routine ones such as bin cleaning, unblocking and maintenance.</li>\n<li>Identify hazards and who could be harmed.</li>\n<li>Rate risk by likelihood and consequence.</li>\n<li>Apply the hierarchy of controls: eliminate, substitute, engineer, administrate, PPE.</li>\n<li>Communicate the assessment to workers and review it after incidents and changes.</li>\n</ol>\n<p>Involve health and safety representatives and the health and safety committee, as the OHS Act provides for, in inspections and in reviewing risk assessments.</p><p>Remember that non-routine tasks, such as cleaning out a bin at the end of the season or clearing a blocked elevator boot, are where many serious grain incidents happen. These tasks need specific risk assessments and close supervision every time.</p>"
+  },
+  {
+   "title": "Controls, permits and emergency response",
+   "minutes": 18,
+   "html": "<h3>Key controls</h3>\n<ul>\n<li><strong>Lock-out / tag-out</strong> – isolate, lock, tag and test before any work on equipment; each worker places their own lock.</li>\n<li><strong>Bin entry permits</strong> – avoid entry where possible; when unavoidable require isolation of all equipment, atmosphere testing, harness and lifeline, trained standby, and rescue plan. Never enter while grain is flowing or when grain is bridged above.</li>\n<li><strong>Hot work permits</strong> – remove dust, fire watch, extinguishers, gas test where needed.</li>\n<li><strong>Working at height</strong> – guardrails, fall arrest equipment, trained workers.</li>\n<li><strong>Fumigation control</strong> – only trained, registered fumigators; placards, gas monitoring, exclusion zones and clearance before re-entry.</li>\n<li><strong>Dust control</strong> – extraction, housekeeping schedules, magnets, elevator monitoring, suitable electrical equipment.</li>\n<li><strong>Traffic management</strong> – one-way routes, speed limits, pedestrian walkways, banksmen at tipping.</li>\n<li><strong>PPE</strong> – respirators suited to the dust, hearing protection, safety boots, reflective vests, harnesses.</li>\n<li><strong>Health</strong> – medical surveillance for dust and noise exposure where required, hydration and rest breaks.</li>\n</ul>\n<h3>Training and supervision</h3>\n<p>Induct all staff, seasonal workers and contractors. Train and authorise people for high-risk tasks. Supervisors must check that procedures are followed and stop unsafe work.</p>\n<h3>Emergency preparedness</h3>\n<ul>\n<li>Written emergency plans for engulfment, fire or explosion, gas exposure, injuries and severe weather.</li>\n<li>Trained rescue team or arrangements with emergency services, and rescue equipment at the site.</li>\n<li>Trained first aiders and stocked first aid boxes. First aid skills must be learnt through hands-on training with an accredited provider.</li>\n<li>Regular drills and checks of alarms, escape routes and fire equipment.</li>\n</ul>\n<p>In an engulfment, never send untrained people into the bin; shut down all grain flow, raise the alarm and follow the rescue plan. Many grain deaths are would-be rescuers.</p>\n<h3>Incidents</h3>\n<p>Report and investigate all incidents and near misses for root causes, report incidents to the Department of Employment and Labour where the OHS Act requires, and track actions to closure.</p>\n<h4>Key points</h4>\n<ul>\n<li>Engulfment, dust explosions, toxic gases, entanglement, falls and vehicles are major depot hazards.</li>\n<li>Assess risks for all tasks, including non-routine ones, and apply the hierarchy of controls.</li>\n<li>Use lock-out, bin entry, hot work and fumigation controls without exception.</li>\n<li>Train, supervise and prepare for emergencies with drills and rescue plans.</li>\n<li>Never send untrained people into a bin; stop grain flow, raise the alarm and follow the plan.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is engulfment?",
+   "options": [
+    {
+     "text": "A type of fumigant",
+     "correct": false
+    },
+    {
+     "text": "A conveyor belt",
+     "correct": false
+    },
+    {
+     "text": "Being buried in flowing or bridged grain",
+     "correct": true
+    },
+    {
+     "text": "A grading deviation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which gas is a major risk in fumigated structures?",
+   "options": [
+    {
+     "text": "Helium",
+     "correct": false
+    },
+    {
+     "text": "Phosphine",
+     "correct": true
+    },
+    {
+     "text": "Oxygen",
+     "correct": false
+    },
+    {
+     "text": "Nitrogen",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the hierarchy of controls, what comes first?",
+   "options": [
+    {
+     "text": "Administrative controls",
+     "correct": false
+    },
+    {
+     "text": "Eliminate the hazard",
+     "correct": true
+    },
+    {
+     "text": "Signs",
+     "correct": false
+    },
+    {
+     "text": "PPE",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may perform fumigation?",
+   "options": [
+    {
+     "text": "Any staff member",
+     "correct": false
+    },
+    {
+     "text": "Truck drivers",
+     "correct": false
+    },
+    {
+     "text": "Visitors",
+     "correct": false
+    },
+    {
+     "text": "Only trained, registered fumigators",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A worker is engulfed in a bin. What should you do first?",
+   "options": [
+    {
+     "text": "Send colleagues in to dig",
+     "correct": false
+    },
+    {
+     "text": "Shut down all grain flow, raise the alarm and follow the rescue plan",
+     "correct": true
+    },
+    {
+     "text": "Start the discharge auger",
+     "correct": false
+    },
+    {
+     "text": "Wait to see if they climb out",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Each worker should place their own lock during lock-out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to enter a bin with bridged grain above if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are controls for hot work in a depot? (select all that apply)",
+   "options": [
+    {
+     "text": "Extinguishers available",
+     "correct": true
+    },
+    {
+     "text": "Remove dust",
+     "correct": true
+    },
+    {
+     "text": "Working without a permit",
+     "correct": false
+    },
+    {
+     "text": "Fire watch",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

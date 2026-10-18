@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-335735",
+ "title": "Establish and maintain grazing for horses",
+ "lessons": [
+  {
+   "title": "Assessing a pasture for horses",
+   "minutes": 20,
+   "html": "<h3>Horses graze differently</h3>\n<p>Horses are selective grazers. They bite grass very short with their front teeth, overgraze the areas they like (lawns) and leave tall, rank areas where they dung (roughs). Their hooves also cut up wet soil. A camp that suits cattle may not suit horses without extra management.</p>\n<h3>What to assess</h3>\n<ol>\n<li><strong>Size and stocking rate:</strong> the number of horses the camp can carry depends on rainfall, soil and grass type. Use local extension advice or records of past grazing rather than guessing. Overstocking leads to bare soil, weeds, worms and erosion, which is against the Conservation of Agricultural Resources Act 43 of 1983.</li>\n<li><strong>Grass species:</strong> palatable species such as kikuyu, Eragrostis curvula, Smuts finger grass and red grass (rooigras) on veld; or planted ryegrass, fescue and lucerne in high-rainfall or irrigated areas.</li>\n<li><strong>Grass cover and condition:</strong> estimate the percentage of bare ground, the proportion of good versus weedy species and the height of the sward.</li>\n<li><strong>Poisonous plants:</strong> walk the camp and look for plants such as Senecio species (which cause liver damage), Crotalaria (linked to jaagsiekte, a lung disease in horses), Datura (stinkblaar), oleander and lantana.</li>\n<li><strong>Soil:</strong> take soil samples for analysis of pH and nutrients. Check drainage; waterlogged areas cause hoof problems.</li>\n<li><strong>Water and shelter:</strong> clean, reliable water in troughs; shade trees or shelters; no stagnant pools.</li>\n<li><strong>Fencing and hazards:</strong> horse-safe fencing (no barbed wire, no loose wire), no holes, rubbish or machinery. Check gates and corners where horses can be trapped.</li>\n<li><strong>Parasite load:</strong> faecal egg counts of horses on the camp show how contaminated it is.</li>\n</ol>\n<p>Record your findings on a camp assessment sheet with a sketch map so you can compare season to season.</p>"
+  },
+  {
+   "title": "Establishing suitable grazing",
+   "minutes": 20,
+   "html": "<h3>Plan before you plant</h3>\n<p>Establishing pasture is expensive, so choose species that suit the climate, soil, water supply and the horses' needs.</p>\n<table><tr><th>Situation</th><th>Suitable options</th></tr>\n<tr><td>Summer rainfall Highveld, dryland</td><td>Eragrostis curvula, Smuts finger grass, kikuyu where moist</td></tr>\n<tr><td>Coastal and high rainfall</td><td>Kikuyu, with ryegrass oversown for winter</td></tr>\n<tr><td>Irrigated</td><td>Mixed ryegrass and clover, lucerne for hay</td></tr>\n<tr><td>Winter rainfall (Western Cape)</td><td>Ryegrass, oats and other winter species</td></tr></table>\n<h4>Steps to establish</h4>\n<ol>\n<li><strong>Soil analysis:</strong> lime and fertilise according to the laboratory recommendation, usually some months before planting so lime can work.</li>\n<li><strong>Weed control:</strong> remove weeds and poisonous plants. Follow the label of any herbicide strictly and keep horses off for the period on the label, under Act 36 of 1947.</li>\n<li><strong>Seedbed preparation:</strong> plough or disc, then roll to get a fine, firm seedbed.</li>\n<li><strong>Planting:</strong> sow at the seed rate and depth recommended by the seed supplier, at the right time of the season. Small grass seeds must not be planted too deep.</li>\n<li><strong>Rest:</strong> keep horses off until the pasture is well established and roots hold firmly when you tug the grass. Early grazing pulls plants out.</li>\n<li><strong>First grazing:</strong> light and short, ideally with a few horses for a few hours.</li>\n</ol>\n<h4>Safety and introduction</h4>\n<ul>\n<li>Introduce horses to lush new grass slowly, a little longer each day, to avoid colic and laminitis.</li>\n<li>Horses or ponies with a history of laminitis may need restricted grazing or a muzzle.</li>\n</ul>"
+  },
+  {
+   "title": "Maintaining horse pastures",
+   "minutes": 15,
+   "html": "<h3>Keep grazing productive</h3>\n<h4>Rotational grazing</h4>\n<p>Divide land into several camps and move horses before grass is grazed shorter than about 5 cm. Rest each camp so grass can recover. Resting also breaks parasite cycles.</p>\n<h4>Dung management</h4>\n<ul>\n<li>Pick up dung from small camps once or twice a week. This greatly reduces worm larvae on grass.</li>\n<li>Harrowing spreads dung; do this only in hot, dry weather when larvae die in the sun, and rest the camp afterwards.</li>\n<li>Cross-grazing with cattle or sheep helps, because they eat the horse roughs and the worms of horses do not survive in cattle and sheep.</li>\n</ul>\n<h4>Mowing and topping</h4>\n<p>Mow roughs and tall grass to encourage fresh regrowth and to stop weeds seeding.</p>\n<h4>Fertilising</h4>\n<p>Apply fertiliser according to soil tests every few years. Keep horses off as long as the product label requires.</p>\n<h4>Weeds and poisonous plants</h4>\n<p>Check camps monthly. Pull or spray weeds and remove poisonous plants, including from fence lines and hay.</p>\n<h4>Protect the soil</h4>\n<ul>\n<li>Use a sacrifice paddock or dry lot in very wet or very dry periods to protect the main camps.</li>\n<li>Move water troughs and feeders to prevent bare, muddy patches.</li>\n<li>Repair erosion and gullies early.</li>\n</ul>\n<h4>Fodder flow</h4>\n<p>Plan for winter, when veld grass loses quality. Make or buy good-quality hay, such as Eragrostis, teff or lucerne, and store it dry. Check hay for mould, dust and poisonous plants.</p>\n<h4>Key points</h4>\n<ul>\n<li>Horses graze selectively, making lawns and roughs.</li>\n<li>Assess grass, soil, water, fences, poisonous plants and parasite load.</li>\n<li>Establish pasture after soil tests and keep horses off until roots hold.</li>\n<li>Introduce horses to lush grass slowly.</li>\n<li>Rotate camps, pick up dung and cross-graze with cattle or sheep.</li>\n<li>Plan winter fodder and check hay for mould.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How do horses graze compared with cattle?",
+   "options": [
+    {
+     "text": "They eat everything evenly",
+     "correct": false
+    },
+    {
+     "text": "They only eat at night",
+     "correct": false
+    },
+    {
+     "text": "They are selective and create lawns and roughs",
+     "correct": true
+    },
+    {
+     "text": "They eat only trees",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which plant group is known to cause liver damage in horses?",
+   "options": [
+    {
+     "text": "Senecio species",
+     "correct": true
+    },
+    {
+     "text": "Kikuyu",
+     "correct": false
+    },
+    {
+     "text": "Lucerne",
+     "correct": false
+    },
+    {
+     "text": "Ryegrass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should horses first graze a newly established pasture?",
+   "options": [
+    {
+     "text": "The day after planting",
+     "correct": false
+    },
+    {
+     "text": "Before the seed germinates",
+     "correct": false
+    },
+    {
+     "text": "As soon as it rains",
+     "correct": false
+    },
+    {
+     "text": "When roots hold firmly and the pasture is well established",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does picking up dung from small camps help?",
+   "options": [
+    {
+     "text": "It makes the grass taller",
+     "correct": false
+    },
+    {
+     "text": "It reduces worm larvae on the grass",
+     "correct": true
+    },
+    {
+     "text": "It feeds the soil faster",
+     "correct": false
+    },
+    {
+     "text": "It stops horses from drinking",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is cross-grazing with cattle or sheep useful?",
+   "options": [
+    {
+     "text": "They share horse feed",
+     "correct": false
+    },
+    {
+     "text": "They make the camp muddy",
+     "correct": false
+    },
+    {
+     "text": "Horse worms do not survive in them and they eat roughs",
+     "correct": true
+    },
+    {
+     "text": "It doubles the stocking rate safely",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Barbed wire is a suitable fence for horse camps.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Horses should be introduced to lush new grass gradually to avoid colic and laminitis.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you assess in a pasture for horses? (select all that apply)",
+   "options": [
+    {
+     "text": "Poisonous plants",
+     "correct": true
+    },
+    {
+     "text": "Soil pH and nutrients",
+     "correct": true
+    },
+    {
+     "text": "Water, shelter and fencing",
+     "correct": true
+    },
+    {
+     "text": "The colour of the barn roof",
+     "correct": false
+    },
+    {
+     "text": "The rider's height",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

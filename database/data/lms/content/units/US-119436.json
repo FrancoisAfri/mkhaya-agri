@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119436",
+ "title": "Implement health and safety principles in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Legal framework and responsibilities",
+   "minutes": 15,
+   "html": "<h3>Implementing safety, not just following it</h3><p>At NQF level 3 you lead others, so your job is to put health and safety into practice in your section: identifying hazards, making sure controls are in place, training and supervising your team, and reporting. The Occupational Health and Safety Act 85 of 1993 (OHS Act) requires the employer to provide and maintain, as far as reasonably practicable, a working environment that is safe and without risk to health. The employer may appoint supervisors in writing to assist with this, and supervisors are then accountable for safety in their area.</p><h4>Key duties in your section</h4><ul><li>Know the hazards and the safe work procedures for every task.</li><li>Ensure that workers are trained, competent and authorised before they do a task.</li><li>Make sure protective equipment is available, in good condition and used.</li><li>Inspect the area regularly and correct unsafe conditions and acts.</li><li>Report and investigate incidents.</li><li>Work with the health and safety representative and committee.</li></ul><h4>Other relevant legislation</h4><p>The Compensation for Occupational Injuries and Diseases Act deals with compensation for injured workers. Regulations under the OHS Act cover topics such as hazardous chemical substances, noise, electrical installations and driven machinery. The Meat Safety Act 40 of 2000 governs hygiene and food safety, which overlaps with health and safety in areas such as chemical use and cleaning.</p><h4>Safety culture</h4><p>Rules alone do not keep people safe; attitude does. A good supervisor stops work when it is unsafe, never shortcuts procedures to meet line targets, praises safe behaviour and makes it easy for workers to report concerns without fear.</p>"
+  },
+  {
+   "title": "Hazard identification and risk assessment",
+   "minutes": 15,
+   "html": "<h3>Finding and controlling the risks</h3><h4>Steps of a risk assessment</h4><ol><li>List the tasks in your section: hanging, killing, evisceration, cutting, packing, cleaning, cold storage, loading.</li><li>Identify hazards for each task: cuts, entanglement, slips, burns, cold, chemicals, noise, ergonomic strain, biological hazards from birds, electricity, ammonia, forklifts.</li><li>Decide who could be harmed and how.</li><li>Rate the risk by likelihood and severity.</li><li>Choose controls using the hierarchy below.</li><li>Record the assessment, share it with the team and review it when tasks or equipment change, or after an incident.</li></ol><h4>Hierarchy of controls</h4><table><tr><th>Level</th><th>Example in a poultry abattoir</th></tr><tr><td>Eliminate</td><td>Remove an unnecessary manual lift by redesigning the flow</td></tr><tr><td>Substitute</td><td>Use a less hazardous cleaning chemical</td></tr><tr><td>Engineering</td><td>Machine guards, interlocks, non-slip flooring, local exhaust, ammonia detectors</td></tr><tr><td>Administrative</td><td>Safe work procedures, lockout, job rotation, training, signs</td></tr><tr><td>Personal protective equipment</td><td>Mesh gloves, safety boots, hearing protection, goggles, thermal clothing</td></tr></table><p>PPE is the last line of defence, not the first.</p><h4>Biological hazards</h4><p>Workers handling live birds and raw meat may be exposed to dust and to organisms that cause illness, including zoonoses such as Campylobacter and, during outbreaks, avian influenza. Controls include ventilation, dust masks or respirators as specified, gloves, hand washing and following the plant's outbreak procedures.</p><h4>Lockout and isolation</h4><p>Before maintenance or cleaning inside machines, energy sources must be isolated, locked and tagged by each person working on the machine, and the machine tested to be sure it cannot start.</p><h4>Example</h4><p>Packers on a portioning line report sore wrists. The supervisor's assessment rates the risk as high. Controls include adjusting table heights (engineering), job rotation every two hours (administrative), training in technique, and referral to occupational health for affected workers.</p>"
+  },
+  {
+   "title": "Inspections, incidents and emergencies",
+   "minutes": 15,
+   "html": "<h3>Monitoring and responding</h3><h4>Workplace inspections</h4><p>Use a checklist at least weekly, and do a quick check at the start of every shift: guards in place, emergency stops working, floors clean and dry, exits and walkways clear, fire equipment in place and in date, first aid box stocked, chemicals labelled and stored correctly, PPE in use. Record findings, assign actions with a date, and follow up.</p><h4>Incident management</h4><ol><li>Make the scene safe and get first aid or medical help.</li><li>Report to management; serious incidents must be reported to the Department of Employment and Labour as the OHS Act requires, and the scene may need to be preserved.</li><li>Record the incident and gather facts: what happened, where, when, who, witness statements, photographs.</li><li>Find the root causes, not just the immediate cause. Ask why several times.</li><li>Put corrective actions in place and share lessons with the team.</li></ol><p>Investigate near misses too. They are free lessons.</p><h4>Emergency preparedness</h4><p>The plant must have an emergency plan for fire, ammonia leaks, power failure, chemical spills and medical emergencies. As a supervisor, make sure your team knows the alarms, exits and assembly point, that a headcount can be done, and that drills are held. Only trained people with the correct breathing apparatus may respond to ammonia leaks.</p><h4>First aid</h4><p>The OHS Act regulations require first aid facilities and trained first aiders where the number of workers requires it. Ensure first aiders are available on every shift and first aid boxes are checked. Learners should know that basic life support and first aid require hands-on training by an accredited provider; this lesson is an overview only.</p><h4>Key points</h4><ul><li>Supervisors implement safety: training, PPE, inspections, correction and reporting.</li><li>Assess risks by task and apply the hierarchy of controls, with PPE as the last resort.</li><li>Isolate, lock and tag machines before work inside them.</li><li>Investigate incidents and near misses to find root causes.</li><li>Maintain emergency readiness and ensure trained first aiders on every shift.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In the hierarchy of controls, which is the last line of defence?",
+   "options": [
+    {
+     "text": "Personal protective equipment",
+     "correct": true
+    },
+    {
+     "text": "Elimination",
+     "correct": false
+    },
+    {
+     "text": "Engineering controls",
+     "correct": false
+    },
+    {
+     "text": "Substitution",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an engineering control?",
+   "options": [
+    {
+     "text": "Training",
+     "correct": false
+    },
+    {
+     "text": "Machine guards and interlocks",
+     "correct": true
+    },
+    {
+     "text": "Job rotation",
+     "correct": false
+    },
+    {
+     "text": "Gloves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen before cleaning inside a machine?",
+   "options": [
+    {
+     "text": "Slow the machine down",
+     "correct": false
+    },
+    {
+     "text": "Ask a co-worker to watch it",
+     "correct": false
+    },
+    {
+     "text": "Isolate, lock and tag the energy sources and test it cannot start",
+     "correct": true
+    },
+    {
+     "text": "Remove the guards while it runs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should near misses be investigated?",
+   "options": [
+    {
+     "text": "To punish workers",
+     "correct": false
+    },
+    {
+     "text": "To fill in forms",
+     "correct": false
+    },
+    {
+     "text": "Because the law forbids them",
+     "correct": false
+    },
+    {
+     "text": "They show causes that could lead to injury next time",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may respond inside an area with an ammonia leak?",
+   "options": [
+    {
+     "text": "Only trained people with the correct breathing apparatus",
+     "correct": true
+    },
+    {
+     "text": "Any supervisor",
+     "correct": false
+    },
+    {
+     "text": "The nearest worker",
+     "correct": false
+    },
+    {
+     "text": "Visitors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A supervisor should never shortcut a safety procedure to meet line targets.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A risk assessment never needs review once it is written.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items belong on a workplace inspection checklist? (select all that apply)",
+   "options": [
+    {
+     "text": "Guards in place",
+     "correct": true
+    },
+    {
+     "text": "Emergency exits clear",
+     "correct": true
+    },
+    {
+     "text": "First aid box stocked",
+     "correct": true
+    },
+    {
+     "text": "Workers' favourite radio stations",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119426",
+ "title": "Operate an automatic tray wrapper in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "The tray wrapper and how it works",
+   "minutes": 15,
+   "html": "<h3>What is an automatic tray wrapper?</h3>\n<p>Chicken portions and whole birds for supermarkets are often packed in a polystyrene or plastic tray and covered with clear stretch film. An <strong>automatic tray wrapper</strong> does this job. The packer places product in a tray, the tray goes onto the infeed conveyor, and the machine pulls the film around the tray, folds it underneath and seals it on a heated plate. The wrapped tray then goes to the scale and labeller.</p>\n<h4>Main parts</h4>\n<ul>\n<li><strong>Infeed conveyor</strong> – carries trays into the machine.</li>\n<li><strong>Film roll and holder</strong> – holds the stretch film.</li>\n<li><strong>Film grippers and stretchers</strong> – pull the film tight over the tray.</li>\n<li><strong>Elevator or pusher</strong> – lifts the tray up into the film.</li>\n<li><strong>Folders</strong> – fold the film under the tray.</li>\n<li><strong>Cutting knife</strong> – cuts the film to length.</li>\n<li><strong>Heat seal plate or belt</strong> – seals the folded film under the tray.</li>\n<li><strong>Control panel</strong> – start, stop, settings and alarms.</li>\n<li><strong>Emergency stop</strong> – red button that stops the machine at once.</li>\n<li><strong>Guards and doors</strong> – keep hands out; the machine stops if they are opened.</li>\n</ul>\n<h4>Why a good wrap matters</h4>\n<p>A tight, sealed pack keeps germs and dirt out, stops the product from leaking and drying out, and looks good on the shelf. A loose, torn or leaking pack may be rejected by the supermarket, and the whole delivery can be sent back. Rewrapping costs film, trays, time and money.</p>\n<h4>Safety first</h4>\n<p>The wrapper has a sharp film knife, moving parts that can trap fingers and a hot seal plate that can burn. Only trained and authorised operators may run it.</p>"
+  },
+  {
+   "title": "Starting up and running the wrapper",
+   "minutes": 20,
+   "html": "<h3>Before you start</h3>\n<ol>\n<li>Wash your hands and wear your PPE. The wrapper is in the clean area.</li>\n<li>Check that the machine was cleaned and sanitised and that the pre-operational check is signed.</li>\n<li>Check all guards and doors are closed and the emergency stop works (test it as your work instruction says).</li>\n<li>Check you have the correct film roll and the correct tray size for the product on the production plan.</li>\n<li>Load the film by following the threading diagram on the machine. Switch the machine off before you thread film.</li>\n<li>Select the right program on the control panel for the tray size.</li>\n<li>Switch on and let the seal plate reach its working temperature.</li>\n<li>Run a few test trays and check the wrap before full production.</li>\n</ol>\n<h4>Feeding trays</h4>\n<ul>\n<li>Place trays square and in the centre of the infeed conveyor, one at a time, with space between them.</li>\n<li>Do not overfill trays. Product hanging over the edge will tear the film and stop a good seal.</li>\n<li>Use only clean, undamaged trays. Cracked trays break in the machine.</li>\n<li>Keep absorbent pads in place under the product if the product needs them.</li>\n</ul>\n<h4>Checking the packs</h4>\n<table><tr><th>Good pack</th><th>Bad pack</th></tr>\n<tr><td>Film tight with no wrinkles on top</td><td>Loose or wrinkled film</td></tr>\n<tr><td>Fully sealed underneath</td><td>Film open underneath, leaking</td></tr>\n<tr><td>No holes or tears</td><td>Holes, tears or burnt film</td></tr>\n<tr><td>Product inside the tray</td><td>Product sticking out</td></tr>\n</table>\n<p>Check packs often during the shift. Put bad packs aside for rewrapping as your plant instructs and tell your supervisor if many packs are bad. Do not let bad packs go on to the labeller.</p>"
+  },
+  {
+   "title": "Faults, changing film and cleaning",
+   "minutes": 15,
+   "html": "<h3>Common faults</h3>\n<table><tr><th>Fault</th><th>Possible cause</th></tr>\n<tr><td>Film tears</td><td>Wrong film, tension too high, overfilled tray</td></tr>\n<tr><td>Film not sealed</td><td>Seal plate not hot enough or dirty</td></tr>\n<tr><td>Burnt film</td><td>Seal plate too hot</td></tr>\n<tr><td>Tray jams</td><td>Tray not square, cracked tray, wrong program</td></tr>\n<tr><td>Film runs out or breaks</td><td>Roll finished or threaded wrongly</td></tr>\n</table>\n<p>You may adjust only the settings you have been trained and authorised to change. Report other faults to your supervisor or the technician.</p>\n<h4>Clearing a jam safely</h4>\n<ol>\n<li>Press stop or the emergency stop.</li>\n<li>Wait until all parts have stopped moving.</li>\n<li>Follow lock-out procedure if you must put your hands inside.</li>\n<li>Remove the tray carefully. Keep fingers away from the film knife and the hot seal plate.</li>\n<li>Close all guards before restarting.</li>\n</ol>\n<p><strong>Never</strong> put your hand into a running wrapper, bypass a guard switch or touch the seal plate.</p>\n<h4>Changing the film roll</h4>\n<p>Switch off, remove the empty core, fit the new roll the right way round and thread it following the diagram. Record the roll batch if your plant requires it for traceability.</p>\n<h4>Cleaning</h4>\n<p>At the end of the shift, switch off and lock out the machine and let the seal plate cool. Remove film pieces and meat juice. Clean the conveyor and surfaces with approved detergent and sanitiser, avoiding electrical parts. Fill in the cleaning and production records.</p>\n<h4>Key points</h4>\n<ul>\n<li>Check guards, emergency stop, film and tray size before starting.</li>\n<li>Feed trays square and centred, and do not overfill.</li>\n<li>Check packs for tight film, full seal and no holes.</li>\n<li>Stop the machine and wait before clearing jams; never bypass guards.</li>\n<li>Let the seal plate cool before cleaning.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the job of the heat seal plate?",
+   "options": [
+    {
+     "text": "To cut the film",
+     "correct": false
+    },
+    {
+     "text": "To seal the folded film under the tray",
+     "correct": true
+    },
+    {
+     "text": "To weigh the tray",
+     "correct": false
+    },
+    {
+     "text": "To cool the product",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must trays not be overfilled?",
+   "options": [
+    {
+     "text": "It looks too generous",
+     "correct": false
+    },
+    {
+     "text": "Product over the edge tears the film and stops a good seal",
+     "correct": true
+    },
+    {
+     "text": "The scale will break",
+     "correct": false
+    },
+    {
+     "text": "It uses less film",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a likely cause of burnt film?",
+   "options": [
+    {
+     "text": "Seal plate too hot",
+     "correct": true
+    },
+    {
+     "text": "Tray too small",
+     "correct": false
+    },
+    {
+     "text": "Film roll finished",
+     "correct": false
+    },
+    {
+     "text": "Conveyor too slow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first to clear a tray jam?",
+   "options": [
+    {
+     "text": "Pull the tray out while the machine runs",
+     "correct": false
+    },
+    {
+     "text": "Press stop and wait until all parts have stopped",
+     "correct": true
+    },
+    {
+     "text": "Open the guard and keep running",
+     "correct": false
+    },
+    {
+     "text": "Call the supermarket",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with badly wrapped packs?",
+   "options": [
+    {
+     "text": "Send them on to the labeller",
+     "correct": false
+    },
+    {
+     "text": "Put them aside for rewrapping as instructed",
+     "correct": true
+    },
+    {
+     "text": "Throw away the product",
+     "correct": false
+    },
+    {
+     "text": "Put more film on by hand",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should switch off the machine before threading new film.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to bypass a guard switch to keep the wrapper running faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a good pack? (select all that apply)",
+   "options": [
+    {
+     "text": "Film tight with no wrinkles",
+     "correct": true
+    },
+    {
+     "text": "Fully sealed underneath",
+     "correct": true
+    },
+    {
+     "text": "Holes in the film",
+     "correct": false
+    },
+    {
+     "text": "No product sticking out",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

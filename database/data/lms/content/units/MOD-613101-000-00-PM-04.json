@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-04",
+ "title": "Apply Post-Harvest Management and Livestock Weaning",
+ "lessons": [
+  {
+   "title": "Harvest timing and handling of crops",
+   "minutes": 20,
+   "html": "<h3>Quality is made in the field and kept after harvest</h3><p>Post-harvest losses can be large: grain lost at harvest, damaged by insects in storage, or vegetables that wilt and rot before they reach the market. Post-harvest management is about protecting the quality and quantity that the farm worked all season to produce.</p><h4>Harvesting at the right time</h4><ul><li><strong>Grain (maize, sorghum, wheat):</strong> harvest when grain moisture is low enough for safe storage or delivery; silos test moisture and may deduct for high moisture. Measure moisture with a calibrated meter.</li><li><strong>Vegetables and fruit:</strong> harvest at the maturity the buyer specifies, for example firm, full-coloured tomatoes for a local market or mature-green for a distant market.</li><li>Harvest in the cool part of the day for fresh produce, and get it into shade quickly.</li></ul><h4>Handling</h4><ul><li>Use clean crates; do not overfill them or throw produce.</li><li>Sort and grade, removing damaged, diseased or undersized product.</li><li>Keep harvest records by land and date so product can be traced.</li><li>Workers must wash hands, use clean toilets and not handle produce when ill.</li></ul><h4>Combine settings</h4><p>Check behind the combine for lost grain and adjust the reel, concave and fan settings. Losses that seem small per square metre can add up to many tons over a whole land.</p><h4>Records and planning</h4><p>Plan harvest labour, crates, bins, transport and storage space before the crop is ready. Record yield and quality per land; these figures guide next season's cultivar and planting decisions. Compare losses measured behind the combine or in the packshed with previous seasons.</p>"
+  },
+  {
+   "title": "Storage of grain and fresh produce",
+   "minutes": 20,
+   "html": "<h3>Keeping product in good condition</h3><h4>Grain storage</h4><ul><li>Clean bins, silos or stores thoroughly before filling; remove old grain where insects breed.</li><li>Store only dry, clean grain. Damp grain heats and grows moulds, some of which produce mycotoxins that are dangerous to people and animals.</li><li>Monitor stored grain regularly for heating, smell, insects and rodents.</li><li>Fumigation is a highly dangerous operation: it may only be done by trained, registered fumigators following the product label and legal requirements. Never enter a fumigated store until it has been declared safe.</li><li>Use rodent control with bait stations placed where children, pets and livestock cannot reach them.</li></ul><h4>Fresh produce</h4><ul><li>Remove field heat quickly with shade, ventilation or cold rooms.</li><li>Keep different products at the temperatures and humidity recommended for them; some fruit gives off ethylene which ripens other products.</li><li>Rotate stock: first in, first out.</li><li>Clean cold rooms and crates regularly to prevent disease build-up.</li></ul><h4>Using crop by-products</h4><p>On a mixed farm, cull vegetables, maize residues and screenings can become livestock feed, but check them for mould first and introduce new feeds gradually. Mouldy feed must be discarded.</p><h4>Storage records</h4><p>Keep a storage register for each bin or cold room: date in, product, land of origin, quantity, condition checks and date out. These records support traceability and help you find where losses occur. Check temperatures and humidity in cold rooms at least daily and record them. Report heating, mould or pest activity in grain immediately so the problem can be dealt with before the whole store is affected.</p>"
+  },
+  {
+   "title": "Weaning livestock",
+   "minutes": 20,
+   "html": "<h3>Weaning with minimum stress</h3><p>Weaning separates young animals from their mothers so the mothers can regain condition before the next breeding season and the young animals can be grown out or marketed. Badly managed weaning causes weight loss, illness and sometimes death.</p><h4>Planning weaning</h4><ul><li>Wean beef calves, lambs and kids at the age or weight set in your management plan, considering veld condition and market timing.</li><li>Vaccinate and deworm according to your vet's programme, ideally before weaning so the stress is spread out.</li><li>Prepare a clean weaning camp with good fences, shade, clean water and quality feed that the young animals already know.</li></ul><h4>Low-stress weaning methods</h4><ul><li><strong>Fence-line weaning:</strong> calves and cows are separated by a strong fence so they can still see and hear each other.</li><li><strong>Creep feeding before weaning:</strong> calves learn to eat supplementary feed, so the change is less abrupt.</li><li>Handle animals calmly; no sticks, shouting or dogs in the kraal.</li></ul><h4>After weaning</h4><ul><li>Check the weaners at least twice a day for the first days: look for coughing, diarrhoea, dullness and animals that are not eating or drinking.</li><li>Weigh weaners and record weaning weights; these figures help select replacements and judge cow performance.</li><li>Move the mothers to a camp out of hearing range if fence-line weaning is not used, and check udders for mastitis.</li></ul><h4>Key points</h4><ul><li>Harvest at the right moisture or maturity, and handle produce gently.</li><li>Store only dry, clean grain and monitor stores regularly.</li><li>Fumigation is only for trained, registered fumigators.</li><li>Plan weaning with vaccination, a prepared camp and low-stress methods.</li><li>Check weaners closely after weaning and record weaning weights.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should damp grain not be stored?",
+   "options": [
+    {
+     "text": "It weighs less",
+     "correct": false
+    },
+    {
+     "text": "It heats and grows moulds that may produce mycotoxins",
+     "correct": true
+    },
+    {
+     "text": "It attracts fewer insects",
+     "correct": false
+    },
+    {
+     "text": "Silos pay more for damp grain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may fumigate a grain store?",
+   "options": [
+    {
+     "text": "Any general worker",
+     "correct": false
+    },
+    {
+     "text": "The tractor driver",
+     "correct": false
+    },
+    {
+     "text": "Trained, registered fumigators following the label and the law",
+     "correct": true
+    },
+    {
+     "text": "Anyone wearing a dust mask",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is fence-line weaning?",
+   "options": [
+    {
+     "text": "Calves and cows are separated by a strong fence but can still see and hear each other",
+     "correct": true
+    },
+    {
+     "text": "Calves are sold directly from the cows",
+     "correct": false
+    },
+    {
+     "text": "Calves are tied to a fence for a day",
+     "correct": false
+    },
+    {
+     "text": "Cows are moved to another farm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time of day to harvest fresh produce?",
+   "options": [
+    {
+     "text": "Midday",
+     "correct": false
+    },
+    {
+     "text": "In the cool part of the day",
+     "correct": true
+    },
+    {
+     "text": "During rain",
+     "correct": false
+    },
+    {
+     "text": "Any time, it makes no difference",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What stock rotation principle should be used in produce stores?",
+   "options": [
+    {
+     "text": "Last in, first out",
+     "correct": false
+    },
+    {
+     "text": "First in, first out",
+     "correct": true
+    },
+    {
+     "text": "Oldest product last",
+     "correct": false
+    },
+    {
+     "text": "Random order",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mouldy crop by-products can safely be fed to livestock.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Creep feeding before weaning helps calves get used to eating supplementary feed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you look for when checking weaners in the first days? (select all that apply)",
+   "options": [
+    {
+     "text": "Coughing",
+     "correct": true
+    },
+    {
+     "text": "Diarrhoea",
+     "correct": true
+    },
+    {
+     "text": "Animals not eating or drinking",
+     "correct": true
+    },
+    {
+     "text": "Wool length",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

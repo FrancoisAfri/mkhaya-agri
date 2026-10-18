@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119468",
+ "title": "Clean and prepare the poultry house for a new flock",
+ "lessons": [
+  {
+   "title": "Why clean-out matters and how to start",
+   "minutes": 15,
+   "html": "<h3>Breaking the disease cycle</h3><p>Every flock leaves behind germs, parasites, insects and rodents in the litter, equipment and building. If the next flock is placed into a house that is not properly cleaned, it starts life carrying the problems of the last one. A thorough clean-out between flocks, followed by a rest period, is one of the cheapest and most effective ways to protect bird health and performance.</p><h4>Plan the turnaround</h4><p>The farm manager sets the date the house must be ready. Work backwards and plan labour, equipment, chemicals and litter delivery. A typical sequence is:</p><ol><li>Depopulate and treat for insects and rodents while the house is still warm.</li><li>Remove all portable equipment.</li><li>Remove litter.</li><li>Dry clean (sweep and blow dust).</li><li>Wash with detergent.</li><li>Disinfect.</li><li>Dry, repair, reassemble and set up.</li><li>Rest period, then final checks before chick placement.</li></ol><h4>Immediately after depopulation</h4><ul><li>Apply insecticide for darkling beetles (lesser mealworm) while litter is warm, using a registered product under Act 36 of 1947 at label rate.</li><li>Check and refill rodent bait stations.</li><li>Drain and flush drinker lines and header tanks.</li><li>Empty feed lines and pans; empty feed bins and arrange for leftover feed to be removed as instructed.</li></ul><h4>Litter removal</h4><p>Remove used litter completely and take it off site or to an approved area far from poultry houses. Cover loads so litter does not blow along farm roads. Litter is valuable fertiliser, but it must not be stockpiled near houses because it carries disease and breeds flies.</p>"
+  },
+  {
+   "title": "Washing and disinfecting",
+   "minutes": 15,
+   "html": "<h3>Clean first, then disinfect</h3><p>Disinfectants do not work on dirt. Organic matter such as dust, droppings and feed protects germs and uses up the disinfectant. That is why dry cleaning and washing come before disinfection.</p><h4>Dry clean</h4><ul><li>Brush or blow dust from roof beams, fans, inlets, light fittings, curtains and walls, from top to bottom.</li><li>Remove all dust and debris from the floor.</li></ul><h4>Wash</h4><ul><li>Soak surfaces first with water and a detergent so dirt softens.</li><li>Wash with a pressure washer from top to bottom and from the back of the house to the front.</li><li>Do not forget fan housings, cooling pads (as the manufacturer allows), door frames, cracks and the area outside the house.</li><li>Wash portable equipment (feeders, drinkers, chick paper holders) separately outside the house.</li><li>Inspect: a clean surface shows no visible dirt.</li></ul><h4>Disinfect</h4><ul><li>Use a disinfectant approved by the vet, mixed exactly to the label rate.</li><li>Apply to all surfaces, equipment and the drinker system (with a product suitable for water lines, then flush well).</li><li>Allow the contact time on the label.</li><li>Some farms fumigate or fog after setup; this is done only by trained staff with full PPE and the house sealed and marked.</li></ul><h4>Safety</h4><p>Isolate electricity before washing electrical items and fans. Wear waterproof clothing, gumboots, gloves, goggles and a respirator as the label requires. Never mix detergents and disinfectants unless the label says they are compatible; some mixtures release toxic gases.</p>"
+  },
+  {
+   "title": "Setting up and checking before placement",
+   "minutes": 15,
+   "html": "<h3>Ready for the chicks</h3><h4>Repairs and maintenance</h4><p>Use the empty period to repair holes in walls and curtains, broken inlets, leaking water lines, damaged feeders and faulty lights. Service fans, heaters, generator and alarm. Seal rodent entry points.</p><h4>Set-up</h4><ul><li>Spread new, clean, dry litter (for example wood shavings) evenly to the depth set in the farm procedure.</li><li>Set up brooding areas, chick paper and supplementary feeders and drinkers as the breed guide recommends.</li><li>Adjust drinker and feeder height for day-old chicks.</li><li>Flush drinker lines with fresh water just before placement.</li><li>Pre-heat the house so floor and litter, not only air, are warm when chicks arrive. Allow enough time; the breed guide gives targets.</li></ul><h4>Final inspection checklist</h4><table><tr><th>Check</th><th>OK?</th></tr><tr><td>No visible dirt anywhere</td><td>Yes / No</td></tr><tr><td>Rodent stations baited, no signs of rodents</td><td>Yes / No</td></tr><tr><td>Water clean and flowing on all lines</td><td>Yes / No</td></tr><tr><td>Feed available</td><td>Yes / No</td></tr><tr><td>Heating, ventilation, lights, alarm tested</td><td>Yes / No</td></tr><tr><td>Footbath and entry point ready</td><td>Yes / No</td></tr></table><p>Some farms take swabs after disinfection to test that cleaning worked. Record the clean-out dates, products used, rates and inspection results in the house file.</p><h4>Key points</h4><ul><li>Treat for beetles and rodents straight after depopulation, while the house is warm.</li><li>Remove all litter and keep it away from poultry houses.</li><li>Always dry clean and wash before disinfecting; disinfectant does not work on dirt.</li><li>Mix chemicals to label rate, allow contact time and never mix products unless the label allows.</li><li>Pre-heat the house and complete a written checklist before chicks arrive.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must the house be washed before disinfectant is applied?",
+   "options": [
+    {
+     "text": "Dirt and droppings protect germs and weaken the disinfectant",
+     "correct": true
+    },
+    {
+     "text": "Washing makes the disinfectant cheaper",
+     "correct": false
+    },
+    {
+     "text": "Disinfectant smells less on a wet surface",
+     "correct": false
+    },
+    {
+     "text": "It is only done for appearance",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time to treat for darkling beetles?",
+   "options": [
+    {
+     "text": "Only in winter",
+     "correct": false
+    },
+    {
+     "text": "Straight after depopulation while the litter is still warm",
+     "correct": true
+    },
+    {
+     "text": "On the day chicks arrive",
+     "correct": false
+    },
+    {
+     "text": "After new litter has been spread",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which direction should you wash a poultry house?",
+   "options": [
+    {
+     "text": "From the front door to the back",
+     "correct": false
+    },
+    {
+     "text": "Only the floor needs washing",
+     "correct": false
+    },
+    {
+     "text": "From the floor upwards",
+     "correct": false
+    },
+    {
+     "text": "From top to bottom, from the back of the house to the front",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with used litter?",
+   "options": [
+    {
+     "text": "Stockpile it next to the house",
+     "correct": false
+    },
+    {
+     "text": "Remove it off site or to an approved area away from poultry houses",
+     "correct": true
+    },
+    {
+     "text": "Spread it under the new litter",
+     "correct": false
+    },
+    {
+     "text": "Leave it to dry inside the house",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is the house pre-heated before placement?",
+   "options": [
+    {
+     "text": "So the litter and floor are warm when chicks arrive",
+     "correct": true
+    },
+    {
+     "text": "To kill disinfectant",
+     "correct": false
+    },
+    {
+     "text": "To dry the chicks' feathers",
+     "correct": false
+    },
+    {
+     "text": "To save electricity later",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Detergents and disinfectants can always be mixed together to save time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The empty period is a good time to repair walls, service fans and seal rodent entry points.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks are part of setting up the house for new chicks? (select all that apply)",
+   "options": [
+    {
+     "text": "Leaving last flock's feed in the pans",
+     "correct": false
+    },
+    {
+     "text": "Testing heating, ventilation and alarms",
+     "correct": true
+    },
+    {
+     "text": "Spreading clean, dry litter evenly",
+     "correct": true
+    },
+    {
+     "text": "Flushing drinker lines just before placement",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

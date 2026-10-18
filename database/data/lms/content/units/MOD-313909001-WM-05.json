@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-WM-05",
+ "title": "Control of feed milling or dry pet food production operations",
+ "lessons": [
+  {
+   "title": "Taking control of a production shift",
+   "minutes": 18,
+   "html": "<h3>The production controller's role</h3>\n<p>In this work module you take charge of a production shift or area in a feed mill or dry pet food plant. You coordinate people, plan, quality, safety and equipment from intake to dispatch, make decisions within your authority and escalate where needed.</p>\n<h4>Before the shift</h4>\n<ol>\n<li>Review the production plan, order priorities and any changes from planning.</li>\n<li>Read the previous shift's handover: held product, breakdowns, open permits and stock issues.</li>\n<li>Check raw material and packaging availability against the plan.</li>\n<li>Check staffing against the skills matrix and allocate operators.</li>\n<li>Check maintenance plans and confirm when equipment will be available.</li>\n<li>Hold a shift briefing covering safety, plan, quality alerts and responsibilities.</li>\n</ol>\n<h4>During the shift</h4>\n<ul>\n<li>Track production against the hourly plan for each line.</li>\n<li>Monitor critical control points and quality checks, and review lab results.</li>\n<li>Walk the plant at set intervals and look at safety, hygiene and equipment condition.</li>\n<li>Manage deviations: protect people, protect product, contain, find cause, correct, record.</li>\n<li>Communicate with dispatch about order readiness and with maintenance about breakdowns.</li>\n<li>Coach operators and deal with conduct and performance issues as they arise.</li>\n</ul>\n<h4>Making decisions</h4>\n<p>Example: at 02:00 the main pellet press breaks down with an expected repair time of four hours. You have a priority order of 60 tonnes broiler finisher due at 07:00. Options include moving the order to the second press and delaying a lower-priority product, checking finished stock of the same product, or informing dispatch and sales early so the customer can be told. You decide within your authority, document the decision and inform the production manager as the escalation procedure requires.</p>"
+  },
+  {
+   "title": "Reviewing performance and leading improvement",
+   "minutes": 18,
+   "html": "<h3>End-of-shift and daily review</h3>\n<p>At the end of each shift record and report:</p>\n<ul>\n<li>Tonnes per product versus plan, with reasons for any shortfall.</li>\n<li>Downtime by equipment and cause.</li>\n<li>Quality results, non-conformances and held product.</li>\n<li>Safety incidents, near misses and open permits.</li>\n<li>Resource issues: stock, packaging, utilities, staffing.</li>\n</ul>\n<p>Hand over face to face where possible and in writing. In the daily production meeting, present your shift results briefly and agree actions.</p>\n<h3>Weekly and monthly review</h3>\n<table>\n<tr><th>KPI</th><th>Purpose</th></tr>\n<tr><td>Plan adherence</td><td>Reliability to customers</td></tr>\n<tr><td>OEE per line</td><td>Equipment effectiveness</td></tr>\n<tr><td>Cost per tonne</td><td>Efficiency of conversion</td></tr>\n<tr><td>Right-first-time batches</td><td>Quality of the process</td></tr>\n<tr><td>Complaints</td><td>Customer view of quality</td></tr>\n<tr><td>Injury and near-miss rates</td><td>Safety performance</td></tr>\n</table>\n<p>Look for trends and repeat problems. Use root-cause tools and plan-do-check-act to tackle them, and assign owners and dates for actions.</p>\n<h3>Leading people</h3>\n<p>Control of operations is achieved through people. Set clear expectations, recognise good work, coach operators on standards, apply discipline fairly and consistently in line with company procedure and the Labour Relations Act 66 of 1995, and develop operators so they can cover more roles. Encourage operators to raise problems and ideas.</p>\n<h3>Compliance</h3>\n<p>Ensure your shift meets the OHS Act 85 of 1993 duties in your area, feed registration and labelling requirements under Act 36 of 1947, environmental controls and the plant's quality and feed safety system. Keep records complete because they are your proof during audits.</p>\n<h3>Workplace evidence</h3>\n<p>Your portfolio should show shift plans, handover reports, deviation reports with your decisions, improvement projects and mentor or manager feedback.</p>\n<h4>Key points</h4>\n<ul>\n<li>Prepare each shift: plan, handover, resources, staffing, maintenance and briefing.</li>\n<li>Track progress hourly and manage deviations in a structured way.</li>\n<li>Make decisions within authority, document them and escalate as required.</li>\n<li>Review KPIs and lead improvement with root-cause analysis.</li>\n<li>Lead people fairly and ensure safety, feed law and quality compliance.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should a production controller do first before the shift?",
+   "options": [
+    {
+     "text": "Start all machines",
+     "correct": false
+    },
+    {
+     "text": "Go home",
+     "correct": false
+    },
+    {
+     "text": "Order new equipment",
+     "correct": false
+    },
+    {
+     "text": "Review the production plan and the previous shift’s handover",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The main press breaks down with a priority order due. Which is a good response?",
+   "options": [
+    {
+     "text": "Change the customer’s order without telling them",
+     "correct": false
+    },
+    {
+     "text": "Consider moving the order to the second press, check stock, inform dispatch and sales early, and document",
+     "correct": true
+    },
+    {
+     "text": "Send a different product",
+     "correct": false
+    },
+    {
+     "text": "Do nothing and hope it is fixed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which KPI shows the customer’s view of quality?",
+   "options": [
+    {
+     "text": "OEE",
+     "correct": false
+    },
+    {
+     "text": "Complaints",
+     "correct": true
+    },
+    {
+     "text": "Cost per tonne",
+     "correct": false
+    },
+    {
+     "text": "Plan adherence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of OEE per line?",
+   "options": [
+    {
+     "text": "Measuring rainfall",
+     "correct": false
+    },
+    {
+     "text": "Measuring staff happiness",
+     "correct": false
+    },
+    {
+     "text": "Counting trucks",
+     "correct": false
+    },
+    {
+     "text": "Measuring equipment effectiveness",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should discipline be applied by a controller?",
+   "options": [
+    {
+     "text": "By shouting",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Fairly and consistently in line with company procedure and the LRA",
+     "correct": true
+    },
+    {
+     "text": "Only to people they dislike",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Records are proof of compliance during audits.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A controller should make all decisions alone without escalation, whatever the situation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be reported at the end of a shift? (select all that apply)",
+   "options": [
+    {
+     "text": "Downtime by cause",
+     "correct": true
+    },
+    {
+     "text": "Tonnes versus plan with reasons",
+     "correct": true
+    },
+    {
+     "text": "Held product",
+     "correct": true
+    },
+    {
+     "text": "Rumours about other staff",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

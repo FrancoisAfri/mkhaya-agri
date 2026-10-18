@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-QUAL91698",
+ "title": "Diploma in Agriculture Animal Production",
+ "lessons": [
+  {
+   "title": "Overview: the livestock enterprise and the production manager",
+   "minutes": 20,
+   "html": "<h3>What this qualification prepares you for</h3>\n<p>The Diploma in Agriculture Animal Production prepares technical managers and advisors for livestock enterprises: beef and dairy cattle, sheep and goats, pigs, poultry and others. At NQF level 6 you are expected to plan, analyse and advise, not only to carry out tasks. You link animal science, veld and pasture management, economics and people management to run a profitable, sustainable and legal enterprise.</p>\n<h3>South African livestock context</h3>\n<p>About 80% of South Africa's agricultural land is suited only to extensive grazing, which makes livestock central to the rural economy. Key sectors include:</p>\n<ul>\n<li><strong>Beef:</strong> cow-calf operations on natural veld, with weaners sold to feedlots.</li>\n<li><strong>Dairy:</strong> pasture-based systems in the Eastern and Western Cape and KwaZulu-Natal, and total mixed ration systems elsewhere.</li>\n<li><strong>Small stock:</strong> Merino and Dohne Merino for wool, Dorper and other mutton breeds in the Karoo, and Boer goats.</li>\n<li><strong>Poultry and pigs:</strong> intensive systems with high biosecurity, the largest animal protein sectors by volume.</li>\n<li><strong>Emerging and communal farmers:</strong> a large share of the national herd, with growing links to formal markets.</li>\n</ul>\n<h3>The production manager's role</h3>\n<p>A production manager balances four areas:</p>\n<ol>\n<li><strong>Animal performance:</strong> reproduction, growth, milk or fibre yield, and survival.</li>\n<li><strong>Resource management:</strong> veld condition, carrying capacity, fodder flow, water and soil conservation under the Conservation of Agricultural Resources Act 43 of 1983.</li>\n<li><strong>Financial results:</strong> gross margin per large stock unit or per hectare, cost control and marketing.</li>\n<li><strong>Compliance and people:</strong> animal welfare under the Animals Protection Act 71 of 1962, disease control under the Animal Diseases Act 35 of 1984, labour law and safety under the OHS Act 85 of 1993.</li>\n</ol>\n<p>Throughout the diploma you will apply this whole-system view: a decision on, say, calving season affects feed demand, labour, cash flow and market timing all at once.</p>"
+  },
+  {
+   "title": "Breeding, nutrition and health as a system",
+   "minutes": 20,
+   "html": "<h3>Reproduction drives profit</h3>\n<p>In most extensive enterprises, the number of weaned calves or lambs per breeding female is the single biggest driver of income. A production manager therefore monitors:</p>\n<ul>\n<li>Conception and weaning percentages, calving or lambing interval and age at first calving.</li>\n<li>Body condition score (BCS) of females at mating and before birth.</li>\n<li>Bull and ram fertility (breeding soundness examination by a vet before each season).</li>\n<li>A restricted breeding season, so that births fall when veld quality is good and management is easier.</li>\n</ul>\n<p>Genetic improvement uses performance recording and estimated breeding values (EBVs) from breed societies and recording schemes to select sires that suit the environment and the market.</p>\n<h3>Nutrition and the fodder flow</h3>\n<p>Feed is usually the largest cost. A <strong>fodder flow plan</strong> matches monthly feed demand of the herd with supply from veld, planted pastures, crop residues, hay and silage. In summer-rainfall areas the winter gap is usually filled with protein licks on dry veld or with planted fodder. Ration formulation for intensive systems balances energy, protein, minerals and fibre, normally with a nutritionist's support.</p>\n<h3>Animal health and biosecurity</h3>\n<p>Prevention costs less than treatment. A herd health programme, set up with the farm's veterinarian, covers:</p>\n<ul>\n<li>Vaccinations for diseases common in the area, scheduled before the high-risk season.</li>\n<li>Internal and external parasite control, using monitoring (e.g. FAMACHA for wireworm in small stock) to avoid resistance.</li>\n<li>Biosecurity: quarantine of new animals, control of visitors and vehicles, and record keeping.</li>\n<li>Reporting of controlled and notifiable diseases such as foot-and-mouth disease to the state vet.</li>\n</ul>\n<p>Product withdrawal periods must always be followed according to the product label or vet's instructions before animals or milk go to market.</p>"
+  },
+  {
+   "title": "Economics, marketing and advisory skills",
+   "minutes": 20,
+   "html": "<h3>Measuring financial performance</h3>\n<p>The diploma expects you to analyse an enterprise with numbers. Key tools:</p>\n<table><tr><th>Tool</th><th>Use</th></tr>\n<tr><td>Gross margin</td><td>Income minus directly allocated variable costs (feed, vet, transport, marketing) per enterprise</td></tr>\n<tr><td>Enterprise budget</td><td>Plans expected income and costs for a season</td></tr>\n<tr><td>Cash flow budget</td><td>Shows monthly money in and out, to plan finance</td></tr>\n<tr><td>Partial budget</td><td>Tests the effect of one change, e.g. switching to winter calving</td></tr>\n<tr><td>Break-even price</td><td>The price per kg needed to cover costs</td></tr></table>\n<p>Compare results year on year and against benchmarks from study groups, and always express results per unit (per cow, per hectare, per LSU) so that enterprises can be compared.</p>\n<h3>Marketing</h3>\n<p>Livestock can be sold through auctions, direct to feedlots and abattoirs, through weaner contracts or to informal markets. Know the carcass classification system used at abattoirs, the timing of price cycles, and the costs of transport and commission. Value-adding, such as backgrounding weaners or selling breeding stock, can improve returns.</p>\n<h3>Advisory and extension skills</h3>\n<p>As a technical advisor you will work with commercial, emerging and communal farmers. Good advice:</p>\n<ul>\n<li>Starts by listening and understanding the farmer's goals and resources.</li>\n<li>Uses farm records and simple numbers to show the effect of a change.</li>\n<li>Recommends small, practical steps and follows up.</li>\n<li>Respects local knowledge and language.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Most SA farmland is suited only to extensive grazing, making livestock central.</li>\n<li>Weaning percentage is a major driver of income in extensive systems.</li>\n<li>A fodder flow plan matches herd feed demand with supply through the year.</li>\n<li>Herd health programmes are set up with the veterinarian; follow label withdrawal periods.</li>\n<li>Gross margins and budgets let you compare and test management changes.</li>\n<li>Advisors listen first and recommend practical, measurable steps.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Roughly what share of South Africa's agricultural land is suited only to extensive grazing?",
+   "options": [
+    {
+     "text": "About 10%",
+     "correct": false
+    },
+    {
+     "text": "About 30%",
+     "correct": false
+    },
+    {
+     "text": "About 80%",
+     "correct": true
+    },
+    {
+     "text": "All of it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is usually the biggest driver of income in an extensive cow-calf enterprise?",
+   "options": [
+    {
+     "text": "Calves weaned per breeding cow",
+     "correct": true
+    },
+    {
+     "text": "Colour of the cattle",
+     "correct": false
+    },
+    {
+     "text": "Number of tractors",
+     "correct": false
+    },
+    {
+     "text": "Size of the farmhouse",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a fodder flow plan do?",
+   "options": [
+    {
+     "text": "Lists the farm's vehicles",
+     "correct": false
+    },
+    {
+     "text": "Records rainfall only",
+     "correct": false
+    },
+    {
+     "text": "Sets labour wages",
+     "correct": false
+    },
+    {
+     "text": "Matches monthly feed demand with feed supply",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool tests the effect of a single change, such as switching calving season?",
+   "options": [
+    {
+     "text": "Cash flow budget",
+     "correct": false
+    },
+    {
+     "text": "Partial budget",
+     "correct": true
+    },
+    {
+     "text": "Balance sheet",
+     "correct": false
+    },
+    {
+     "text": "Asset register",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act deals with disease control in animals?",
+   "options": [
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Gross margin is income minus directly allocated variable costs for an enterprise.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A good advisor gives the same recommendations to every farmer without first listening.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong in a herd health programme? (select all that apply)",
+   "options": [
+    {
+     "text": "Vaccinations before the high-risk season",
+     "correct": true
+    },
+    {
+     "text": "Parasite control with monitoring",
+     "correct": true
+    },
+    {
+     "text": "Buying new animals without quarantine",
+     "correct": false
+    },
+    {
+     "text": "Biosecurity and record keeping",
+     "correct": true
+    },
+    {
+     "text": "Ignoring notifiable diseases",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

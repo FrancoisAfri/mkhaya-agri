@@ -1,0 +1,188 @@
+{
+ "unit_key": "US-335774",
+ "title": "Manage equine ration formulation and feeding",
+ "lessons": [
+  {
+   "title": "The equine digestive tract",
+   "minutes": 20,
+   "html": "<h3>A trickle-feeding hindgut fermenter</h3> <p>The horse evolved to graze for most of the day on fibrous forage, eating small amounts almost continuously. Its digestive tract is designed for that, and most feeding-related disease in stabled horses comes from management that ignores it. A feeding manager must understand each section and what it does.</p> <table><tr><th>Section</th><th>Features</th><th>Management implication</th></tr> <tr><td>Mouth and teeth</td><td>Lips select feed; molars grind fibre; chewing produces saliva that buffers stomach acid</td><td>Dental problems reduce chewing efficiency and cause weight loss and choke; forage promotes chewing and saliva</td></tr> <tr><td>Oesophagus</td><td>One-way valve into the stomach; horses effectively cannot vomit</td><td>Dry, bolted feed (especially pellets or beet pulp not soaked) can cause choke; toxins cannot be expelled</td></tr> <tr><td>Stomach</td><td>Small relative to body size; acid is secreted continuously; upper (non-glandular) area poorly protected</td><td>Large meals overflow quickly; long periods without forage increase gastric ulcer risk</td></tr> <tr><td>Small intestine</td><td>Main site of enzymatic digestion of starch, sugar, protein and fat; absorption of most vitamins and minerals</td><td>Starch capacity is limited; large grain meals overflow undigested into the hindgut</td></tr> <tr><td>Caecum</td><td>Large fermentation vat; microbes digest fibre</td><td>Sudden diet changes disturb the microbes</td></tr> <tr><td>Large colon</td><td>Main site of microbial fermentation, producing volatile fatty acids for energy; absorbs water; has several bends (flexures)</td><td>Flexures are common sites of impaction colic; adequate water and forage are essential</td></tr> <tr><td>Small colon and rectum</td><td>Water absorption and formation of droppings</td><td>Dry, hard droppings indicate inadequate water or fibre</td></tr></table> <h4>The hindgut microbes</h4> <p>Bacteria and protozoa in the caecum and colon break down fibre that the horse's own enzymes cannot. They are sensitive to change. When large amounts of starch reach the hindgut, starch-fermenting bacteria multiply, lactic acid accumulates, the gut becomes acidic and fibre-digesting microbes die. Toxins released can trigger colic and laminitis. This is why grain overload is an emergency.</p> <h4>Consequences for feeding</h4> <ul> <li>Forage should be the base of every ration.</li> <li>Concentrates should be fed in several small meals rather than one or two large ones.</li> <li>All changes in feed type should be gradual.</li> <li>Clean water must always be available.</li> <li>Horses should not go long periods without access to forage.</li> </ul>"
+  },
+  {
+   "title": "Principles of ration formulation",
+   "minutes": 20,
+   "html": "<h3>Nutrients the ration must supply</h3> <table><tr><th>Nutrient</th><th>Main sources</th><th>Notes</th></tr> <tr><td>Water</td><td>Troughs, buckets, moisture in grass</td><td>The most important nutrient; needs rise sharply with heat, sweating and lactation</td></tr> <tr><td>Energy</td><td>Fibre (via fermentation), starch, sugar, oil</td><td>Usually expressed as digestible energy (DE) in megajoules (MJ)</td></tr> <tr><td>Protein</td><td>Lucerne, soya, sunflower oilcake</td><td>Quality depends on essential amino acids, especially lysine</td></tr> <tr><td>Minerals</td><td>Forage, concentrates, licks, supplements</td><td>Calcium and phosphorus ratio is critical; also salt, magnesium, trace elements such as copper, zinc and selenium</td></tr> <tr><td>Vitamins</td><td>Fresh grazing, good hay, supplements</td><td>Stored hay loses vitamins A and E over time</td></tr></table> <h4>Steps in formulating a ration</h4> <ol> <li><strong>Estimate body weight</strong> with a weighbridge or a weight tape and formula.</li> <li><strong>Assess body condition</strong> using a condition scoring system (for example a 1-9 scale) and decide whether to maintain, gain or lose weight.</li> <li><strong>Define the workload and life stage</strong>: maintenance, light, moderate, heavy or intense work; growth; late pregnancy; lactation; old age.</li> <li><strong>Calculate daily requirements</strong> for energy, protein, calcium, phosphorus and other nutrients from recognised feeding standards (for example NRC tables) or software.</li> <li><strong>Estimate total feed intake.</strong> A commonly used guideline is total daily dry matter intake of roughly 2 to 2.5% of body weight, with forage making up the majority. Treat this as a starting point, not a fixed rule.</li> <li><strong>Choose and analyse forage.</strong> Forage varies widely. A laboratory analysis of hay (for example eragrostis, teff or lucerne) gives its energy, protein and mineral content.</li> <li><strong>Calculate what forage supplies</strong> and identify the shortfall.</li> <li><strong>Fill the gap</strong> with concentrate, a balancer or supplements, keeping concentrate to the minimum needed.</li> <li><strong>Check the mineral balance</strong>, especially the calcium to phosphorus ratio. Calcium should not fall below phosphorus; grain-heavy rations are often high in phosphorus.</li> <li><strong>Cost the ration</strong> in rand per horse per day and look for efficiencies.</li> </ol> <h4>Feed in weight, not volume</h4> <p>A scoop of oats and a scoop of pellets weigh different amounts. A ration is formulated in kilograms, so every feed must be weighed at least once to calibrate the scoops, and hay nets weighed regularly. Feed labels on registered commercial feeds show guaranteed analysis; under Act 36 of 1947 farm feeds sold in South Africa must be registered.</p> <h4>Using expertise</h4> <p>Commercial feed companies and equine nutritionists can formulate or check rations. The manager's role is to supply accurate information (weights, workload, forage analysis), interpret the advice, and monitor the result.</p>"
+  },
+  {
+   "title": "Individual rations and feeding management",
+   "minutes": 20,
+   "html": "<h3>Every horse is an individual</h3> <p>Two horses of the same weight doing the same work can need very different rations because of temperament, metabolism, age and health. Group rations are a starting point; individual adjustment is the manager's job.</p> <h4>Examples of individual requirements</h4> <table><tr><th>Horse</th><th>Ration emphasis</th></tr> <tr><td>Racehorse in training</td><td>High energy density; part of energy from oil to reduce starch load; electrolytes; split concentrate into several meals</td></tr> <tr><td>Easy-keeping pony or cob</td><td>Restricted, lower-energy forage; balancer instead of concentrate; grazing muzzle or restricted grazing; monitor for laminitis</td></tr> <tr><td>Broodmare, late pregnancy and lactation</td><td>Increased energy, protein, calcium and phosphorus; good quality forage; balanced minerals for the foal</td></tr> <tr><td>Growing youngstock</td><td>Correct protein quality and minerals; avoid excess energy and rapid growth that can contribute to developmental orthopaedic disease</td></tr> <tr><td>Old horse with poor teeth</td><td>Soaked fibre feeds, chopped forage, soaked pellets; regular dental care</td></tr> <tr><td>Horse with a history of ulcers</td><td>Constant forage access, lucerne before exercise, low starch</td></tr></table> <h4>The feed chart</h4> <p>Each horse should have a written feed chart on its stable door and in the feed room, showing the horse's name, each feed by weight, times of feeding, supplements and any medication. The chart is signed and dated when changed. Grooms must feed exactly to the chart.</p> <h4>Rules of feeding</h4> <ul> <li>Feed plenty of forage; keep periods without forage short.</li> <li>Feed concentrate in small meals, ideally three or more per day for horses on high concentrate rations.</li> <li>Feed at regular times.</li> <li>Make all changes gradually, typically over one to two weeks.</li> <li>Do not work a horse hard immediately after a large concentrate meal.</li> <li>Use good quality, dust-free, mould-free feed; soak or steam dusty hay for horses with respiratory problems.</li> <li>Keep feed stores secure and rodent-free; lock concentrate rooms so a loose horse cannot gorge.</li> <li>Never feed cattle or poultry feeds to horses. Some contain ionophores such as monensin, which are highly toxic to horses even in small amounts.</li> </ul> <h4>Monitoring</h4> <p>Weigh or weight-tape horses every two to four weeks and condition score them. Record feed refusals, droppings, behaviour and performance. Adjust the ration in small steps and review again. Keep records of feed purchases and usage to control cost and detect wastage or theft.</p>"
+  },
+  {
+   "title": "Nutritional disorders, additives and supplements",
+   "minutes": 20,
+   "html": "<h3>Managing nutritional disorders</h3> <table><tr><th>Disorder</th><th>Nutritional causes</th><th>Prevention and management</th></tr> <tr><td>Colic</td><td>Sudden feed changes, grain overload, poor forage, too little water, sand ingestion</td><td>Regular routine, gradual changes, water, good forage; call the vet immediately for signs of colic</td></tr> <tr><td>Laminitis</td><td>Grain overload, lush pasture high in sugars, obesity and insulin dysregulation</td><td>Control body weight and sugar/starch intake, restrict grazing; veterinary emergency</td></tr> <tr><td>Gastric ulcers</td><td>Long periods without forage, high starch meals, stress of training and travel</td><td>Constant forage, lower starch, lucerne; vet diagnosis by gastroscopy and treatment</td></tr> <tr><td>Choke</td><td>Bolting dry feed, dental problems, unsoaked beet pulp</td><td>Soak feeds as instructed, spread feed out, dental care</td></tr> <tr><td>Obesity / equine metabolic syndrome</td><td>Excess energy for workload</td><td>Weighed, restricted forage; exercise; vet assessment</td></tr> <tr><td>Exertional rhabdomyolysis (tying-up)</td><td>High starch rations in susceptible horses, electrolyte imbalance</td><td>Lower starch and higher oil; consistent exercise; vet-guided management</td></tr> <tr><td>Nutritional secondary hyperparathyroidism (\"big head\")</td><td>Low calcium, high phosphorus rations, or grazing oxalate-rich grasses such as kikuyu and some setaria</td><td>Correct calcium supplementation and diet balance under veterinary advice</td></tr> <tr><td>Developmental orthopaedic disease in youngstock</td><td>Imbalanced minerals, excess energy, rapid growth</td><td>Balanced ration, controlled growth</td></tr></table> <p>The manager's responsibility is early recognition, immediate referral to the veterinarian when signs are acute, and correction of the underlying ration.</p> <h3>Feed additives and supplements</h3> <p>Additives and supplements are used to correct a known deficiency or support a specific need. Common categories:</p> <ul> <li>Vitamin and mineral balancers - correct shortfalls in forage-based rations</li> <li>Electrolytes - replace salts lost in sweat in hard-working horses</li> <li>Oils - increase energy density without starch</li> <li>Yeast and probiotics - aim to support hindgut function</li> <li>Hoof supplements (for example biotin), joint and coat supplements</li> </ul> <h4>Managing their use</h4> <ol> <li>Identify the need first, based on ration analysis, condition and veterinary advice.</li> <li>Avoid stacking several supplements that contain the same nutrients; some, such as selenium, are toxic in excess.</li> <li>Use registered products and follow the label for dose.</li> <li>For competition and racehorses, check every product against the racing or sport body's prohibited substances rules; some herbal and imported products contain banned substances.</li> <li>Record what each horse receives and evaluate whether the supplement produces the intended effect; stop those that do not.</li> </ol> <h4>Key points</h4> <ul> <li>The horse is a trickle-feeding hindgut fermenter with a small stomach that cannot vomit.</li> <li>Formulate from body weight, condition, workload and forage analysis; forage first.</li> <li>Feed by weight, in small regular meals, and change rations gradually.</li> <li>Never feed ionophore-containing cattle or poultry feeds to horses.</li> <li>Use supplements only for an identified need, at label doses, and check racing rules.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which part of the horse's gut is the main site of microbial fibre fermentation?",
+   "options": [
+    {
+     "text": "Stomach",
+     "correct": false
+    },
+    {
+     "text": "Small intestine",
+     "correct": false
+    },
+    {
+     "text": "Caecum and large colon",
+     "correct": true
+    },
+    {
+     "text": "Oesophagus",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a large grain meal dangerous?",
+   "options": [
+    {
+     "text": "Horses dislike grain",
+     "correct": false
+    },
+    {
+     "text": "Starch overflows into the hindgut, causing acidosis that can trigger colic and laminitis",
+     "correct": true
+    },
+    {
+     "text": "It makes the horse thirsty only",
+     "correct": false
+    },
+    {
+     "text": "It is too expensive",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must every feed be weighed at least once?",
+   "options": [
+    {
+     "text": "Rations are formulated in kilograms and scoops of different feeds weigh different amounts",
+     "correct": true
+    },
+    {
+     "text": "It is required for tax",
+     "correct": false
+    },
+    {
+     "text": "To find out the price",
+     "correct": false
+    },
+    {
+     "text": "Horses prefer weighed feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which feeds must never be fed to horses because they may contain ionophores such as monensin?",
+   "options": [
+    {
+     "text": "Eragrostis hay",
+     "correct": false
+    },
+    {
+     "text": "Cattle or poultry feeds",
+     "correct": true
+    },
+    {
+     "text": "Lucerne",
+     "correct": false
+    },
+    {
+     "text": "Soaked beet pulp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Grazing oxalate-rich grasses such as kikuyu is linked to which disorder?",
+   "options": [
+    {
+     "text": "Choke",
+     "correct": false
+    },
+    {
+     "text": "Nutritional secondary hyperparathyroidism (big head)",
+     "correct": true
+    },
+    {
+     "text": "Tying-up",
+     "correct": false
+    },
+    {
+     "text": "Gastric ulcers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Horses can vomit to get rid of toxic feed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Long periods without forage increase the risk of gastric ulcers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are sound rules of feeding? (select all that apply)",
+   "options": [
+    {
+     "text": "Make changes gradually over one to two weeks",
+     "correct": true
+    },
+    {
+     "text": "Feed concentrate in small, regular meals",
+     "correct": true
+    },
+    {
+     "text": "Base the ration on forage",
+     "correct": true
+    },
+    {
+     "text": "Work the horse hard straight after a big concentrate meal",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

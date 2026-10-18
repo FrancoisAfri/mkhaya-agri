@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14063",
+ "title": "Apply Self Management through the Concepts of Positive Self-esteem and Resiliency",
+ "lessons": [
+  {
+   "title": "Understanding self-esteem",
+   "minutes": 15,
+   "html": "<h3>How you see yourself shapes how you work</h3><p>Self-esteem is the opinion you have of yourself: whether you believe you have value, can learn and can handle what life brings. It is not the same as being proud or loud. A person with healthy self-esteem respects themselves and others, accepts their strengths and weaknesses, and is willing to try new things.</p><h4>Signs of healthy and low self-esteem</h4><table><tr><th>Healthy self-esteem</th><th>Low self-esteem</th></tr><tr><td>Speaks up with ideas or concerns</td><td>Stays silent even when something is wrong</td></tr><tr><td>Accepts feedback and learns from mistakes</td><td>Takes feedback as a personal attack, or blames others</td></tr><tr><td>Sets goals and works towards them</td><td>Believes nothing will ever change</td></tr><tr><td>Can say no politely</td><td>Agrees to everything to be liked</td></tr><tr><td>Respects others</td><td>Puts others down to feel better</td></tr></table><h4>Where self-esteem comes from</h4><p>Our self-esteem is shaped by family, community, school, experiences at work, and the messages we hear about ourselves. A worker who was told for years that they are stupid may start to believe it. The good news is that self-esteem can be built at any age.</p><h4>Self-talk</h4><p>We all talk to ourselves in our minds. Negative self-talk sounds like <em>I always mess up</em> or <em>I will never be a supervisor</em>. Positive, realistic self-talk sounds like <em>I made a mistake with the feed records, but I can learn the correct method</em>. Notice your self-talk and replace unfair thoughts with fair, realistic ones.</p><h4>Self-esteem at work</h4><p>On a farm or in a poultry plant, people with healthy self-esteem report safety problems, ask questions when they do not understand, help new workers and take pride in quality work.</p>"
+  },
+  {
+   "title": "Building self-esteem and self-management",
+   "minutes": 15,
+   "html": "<h3>Practical ways to grow</h3><h4>Know yourself</h4><p>Write down your strengths: perhaps you are reliable, good with animals, careful with records or good at calming down a team. Write down areas you want to improve. Ask someone you trust for their view. Knowing yourself is the start of managing yourself.</p><h4>Set goals</h4><p>Goals give direction. Use SMART goals: Specific, Measurable, Achievable, Relevant and Time-bound. For example: <em>By the end of March I will complete my forklift licence training</em>, or <em>I will save R200 every month for six months</em>. Break big goals into small steps and celebrate when you reach each one.</p><h4>Manage yourself</h4><ul><li><strong>Time</strong>: arrive on time, plan your tasks, keep promises.</li><li><strong>Emotions</strong>: when you feel angry, pause, breathe and think before you respond.</li><li><strong>Money</strong>: make a budget, avoid unnecessary debt and loan sharks.</li><li><strong>Health</strong>: sleep, eat well, avoid alcohol and drug abuse, exercise.</li><li><strong>Learning</strong>: take opportunities for training and ask questions.</li></ul><h4>Assertive communication</h4><p>Being assertive means stating your needs and views clearly and respectfully, without being passive (saying nothing) or aggressive (shouting, threatening). An assertive statement uses I: <em>I feel worried when the guard is left off the machine. I would like us to put it back before we start.</em></p><h4>Respecting others</h4><p>Healthy self-esteem includes respecting others' dignity. Avoid gossip, insults and discrimination. Recognise good work by co-workers. A respectful team builds everyone's self-esteem.</p><h4>Example</h4><p>Sipho is asked to work a double shift again. Instead of agreeing and feeling resentful, or refusing angrily, he says: I worked late twice this week and I am very tired. I can do Saturday, but not tonight.</p>"
+  },
+  {
+   "title": "Resilience: bouncing back",
+   "minutes": 15,
+   "html": "<h3>Coping with setbacks and stress</h3><p>Resilience is the ability to recover from difficulties and keep going. Farm and processing work brings many setbacks: drought, a disease outbreak that closes a house, retrenchments, injury, family problems, or not getting a promotion. Resilient people still feel pain and disappointment, but they find ways to adapt.</p><h4>Habits of resilient people</h4><ul><li><strong>Accept what cannot be changed</strong> and focus energy on what can.</li><li><strong>Keep perspective</strong>: one bad day or one mistake does not define you.</li><li><strong>Solve problems step by step</strong> rather than feeling overwhelmed.</li><li><strong>Stay connected</strong>: talk to family, friends, a church or community group, or a co-worker.</li><li><strong>Look after your body</strong>: rest, food, exercise.</li><li><strong>Learn from experience</strong>: ask what the setback taught you.</li><li><strong>Keep hope</strong>: remind yourself of difficulties you overcame before.</li></ul><h4>Managing stress</h4><p>Signs of too much stress include poor sleep, headaches, irritability, drinking more, and losing interest in things. Try simple methods: slow breathing, a short walk, writing your worries down and making a plan, and talking to someone. If stress or sadness continues for weeks, or you have thoughts of harming yourself, seek help from a clinic, a doctor, your employer's wellness programme or a helpline such as SADAG.</p><h4>Example</h4><p>Nomsa applied for a team leader post and was not chosen. At first she felt hurt. She asked her manager for feedback, learned she needed more experience with records, took a short course and offered to help with the house records. A year later she was appointed. That is resilience.</p><h4>Key points</h4><ul><li>Self-esteem is the opinion you hold of your own worth; it can be built at any age.</li><li>Replace negative self-talk with fair, realistic thoughts.</li><li>Use SMART goals and manage your time, emotions, money and health.</li><li>Be assertive: clear and respectful, neither passive nor aggressive.</li><li>Resilience means adapting after setbacks; seek help if stress continues.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is self-esteem?",
+   "options": [
+    {
+     "text": "The opinion you have of your own worth",
+     "correct": true
+    },
+    {
+     "text": "Your salary",
+     "correct": false
+    },
+    {
+     "text": "Your job title",
+     "correct": false
+    },
+    {
+     "text": "How loud you speak",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the M in a SMART goal stand for?",
+   "options": [
+    {
+     "text": "Many",
+     "correct": false
+    },
+    {
+     "text": "Measurable",
+     "correct": true
+    },
+    {
+     "text": "Monthly",
+     "correct": false
+    },
+    {
+     "text": "Modern",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which statement is assertive?",
+   "options": [
+    {
+     "text": "Saying nothing about a problem",
+     "correct": false
+    },
+    {
+     "text": "Shouting at a co-worker",
+     "correct": false
+    },
+    {
+     "text": "I feel worried when the guard is left off. I would like us to put it back.",
+     "correct": true
+    },
+    {
+     "text": "Threatening to report someone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of positive, realistic self-talk?",
+   "options": [
+    {
+     "text": "I always mess up",
+     "correct": false
+    },
+    {
+     "text": "I will never be promoted",
+     "correct": false
+    },
+    {
+     "text": "Nobody likes me",
+     "correct": false
+    },
+    {
+     "text": "I made a mistake but I can learn the correct method",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is resilience?",
+   "options": [
+    {
+     "text": "The ability to recover from difficulties and keep going",
+     "correct": true
+    },
+    {
+     "text": "Never feeling sad",
+     "correct": false
+    },
+    {
+     "text": "Avoiding all problems",
+     "correct": false
+    },
+    {
+     "text": "Working without breaks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Self-esteem is fixed in childhood and cannot change.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If stress or sadness continues for weeks, you should seek help from a clinic, doctor or wellness programme.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are habits of resilient people? (select all that apply)",
+   "options": [
+    {
+     "text": "Staying connected with others",
+     "correct": true
+    },
+    {
+     "text": "Solving problems step by step",
+     "correct": true
+    },
+    {
+     "text": "Learning from experience",
+     "correct": true
+    },
+    {
+     "text": "Blaming everyone else",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

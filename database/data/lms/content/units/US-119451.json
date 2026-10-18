@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119451",
+ "title": "Perform 1st phase evisceration in poultry",
+ "lessons": [
+  {
+   "title": "What first phase evisceration is",
+   "minutes": 15,
+   "html": "<h3>Opening the bird and drawing the guts</h3>\n<p>Evisceration means taking out the inside organs (the viscera) of the bird. In most plants it is done in two phases. <strong>First phase</strong> evisceration opens the bird and pulls the guts out so that they hang on the outside of the carcass. This lets the meat inspector look at the organs and the carcass together. <strong>Second phase</strong> then removes and harvests the organs.</p>\n<h4>Main steps in first phase</h4>\n<ol>\n<li><strong>Removing the head and feet.</strong> The head is pulled or cut off. The feet are cut at the hock joint and the bird is rehung on the evisceration line.</li>\n<li><strong>Removing the oil gland</strong> on the tail, in plants that do this.</li>\n<li><strong>Cutting the neck skin</strong> so the crop and windpipe can be freed later.</li>\n<li><strong>Venting</strong> &ndash; cutting around the vent (cloaca) so the end of the gut is freed.</li>\n<li><strong>Opening cut</strong> &ndash; a cut across or down the belly to open the body.</li>\n<li><strong>Drawing</strong> &ndash; pulling out the intestines, gizzard, liver and heart so they hang out of the bird.</li>\n</ol>\n<p>In big plants, machines do many of these steps. Workers then watch the machines, fix missed birds by hand and keep the line clean.</p>\n<h4>Why care is needed</h4>\n<p>The intestines are full of faeces and germs. If you cut or tear the gut, faeces spill onto the meat. This is called <strong>faecal contamination</strong>. Contaminated birds must be trimmed or washed as the plant says, or condemned. Contamination spreads germs such as <em>Salmonella</em> to people who eat the chicken.</p>\n<h4>Clean side of the plant</h4>\n<p>Evisceration is part of the clean area. Keep the doors between the dirty area (receiving, stunning, defeathering) and the clean area closed. Do not walk from the dirty side to the clean side without changing your apron and washing your hands and boots.</p>\n<p>Under the Meat Safety Act 40 of 2000, meat must be produced hygienically and must be inspected. Your careful work helps the inspector do his or her job and keeps the public safe.</p>"
+  },
+  {
+   "title": "Doing the cuts well",
+   "minutes": 15,
+   "html": "<h3>Working with knives and machines</h3>\n<h4>Using your knife</h4>\n<ul>\n<li>Use a sharp knife. A blunt knife needs more force, slips and cuts you.</li>\n<li>Cut away from your body and away from the hand that holds the bird.</li>\n<li>Wear the cut-resistant glove (mesh or Kevlar) on the hand that holds the bird.</li>\n<li>Put your knife in the knife holder or pouch when you are not using it. Never leave it on the line.</li>\n<li>Sterilise your knife in the hot-water steriliser between birds or as often as the plant says.</li>\n</ul>\n<h4>Venting and opening</h4>\n<p>Cut around the vent without cutting into the gut. Make the opening cut only as deep as the skin and belly wall. A deep cut can cut the intestines. A cut that is too long can damage the breast meat.</p>\n<h4>Drawing</h4>\n<p>Pull the viscera out gently in one piece. Leave them hanging on the side of the bird as your plant shows you. Do not tear off the liver or gizzard &ndash; the inspector must see them attached to the bird they came from.</p>\n<h4>Machines</h4>\n<p>Machines for venting, opening and drawing must be set to the size of the birds. If birds are bigger or smaller than usual, the machine may tear guts. Tell the supervisor if you see many torn guts or missed birds.</p>\n<ul>\n<li>Never reach into a running machine.</li>\n<li>Stop and lock out a machine before clearing it.</li>\n<li>Keep guards in place.</li>\n</ul>\n<h4>Hygiene</h4>\n<ul>\n<li>Wash hands and gloves often, and every time they touch faeces.</li>\n<li>Rinse your apron at the station.</li>\n<li>Keep the floor clear of guts and blood &ndash; it is slippery.</li>\n<li>If faeces gets on a bird, remove it from the line or flag it for trimming as your plant says.</li>\n</ul>"
+  },
+  {
+   "title": "Inspection and quality checks",
+   "minutes": 15,
+   "html": "<h3>Helping the meat inspector</h3>\n<p>After first phase evisceration, each bird passes the inspection point. The meat inspector or trained inspection assistant looks at the carcass and the organs. He or she looks for signs of disease, such as spots on the liver, abscesses, swelling, a bad smell or a very thin bird.</p>\n<h4>What you must do</h4>\n<ul>\n<li>Present the viscera so the inspector can see them clearly.</li>\n<li>Keep each set of organs with its own carcass.</li>\n<li>Follow the inspector's instructions. If a bird is condemned, it goes into the condemned bin, not back on the line.</li>\n<li>Never hide or rework a bird that the inspector has rejected.</li>\n</ul>\n<h4>Quality checks you can make</h4>\n<table><tr><th>Fault</th><th>What to do</th></tr>\n<tr><td>Torn gut, faeces on bird</td><td>Remove or flag the bird for trimming as the plant says.</td></tr>\n<tr><td>Bile (green) stain on meat</td><td>Flag for trimming; bile is bitter.</td></tr>\n<tr><td>Missed bird (not opened)</td><td>Open by hand or send to the rework station.</td></tr>\n<tr><td>Bruised or broken wing</td><td>Flag for trimming or downgrading.</td></tr></table>\n<h4>Count and record</h4>\n<p>Your supervisor may ask you to count faults over a period of time, for example how many torn guts in 100 birds. These counts help the plant find problems with the machines or with the birds from a certain farm.</p>\n<h4>End of shift</h4>\n<p>Clean your station: knives, steriliser, holders, line and floor. Store your knife where the plant says. Report any damaged equipment.</p>\n<h4>Key points</h4>\n<ul>\n<li>First phase evisceration opens the bird and draws out the viscera for inspection.</li>\n<li>Cutting or tearing the gut causes faecal contamination &ndash; cut carefully.</li>\n<li>Use a sharp, sterilised knife and wear a cut-resistant glove.</li>\n<li>Keep organs with their own carcass so the inspector can check them.</li>\n<li>Never reach into running machines; stop and lock out first.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main aim of first phase evisceration?",
+   "options": [
+    {
+     "text": "To pack the giblets",
+     "correct": false
+    },
+    {
+     "text": "To remove feathers",
+     "correct": false
+    },
+    {
+     "text": "To open the bird and draw out the viscera for inspection",
+     "correct": true
+    },
+    {
+     "text": "To freeze the bird",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is venting?",
+   "options": [
+    {
+     "text": "Opening a window",
+     "correct": false
+    },
+    {
+     "text": "Cutting around the vent (cloaca) to free the end of the gut",
+     "correct": true
+    },
+    {
+     "text": "Cutting off the feet",
+     "correct": false
+    },
+    {
+     "text": "Washing the bird",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes faecal contamination?",
+   "options": [
+    {
+     "text": "Cutting or tearing the gut",
+     "correct": true
+    },
+    {
+     "text": "Washing the bird",
+     "correct": false
+    },
+    {
+     "text": "A sharp knife",
+     "correct": false
+    },
+    {
+     "text": "Removing the head",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the organs stay with their own carcass?",
+   "options": [
+    {
+     "text": "To save time packing",
+     "correct": false
+    },
+    {
+     "text": "To make the bird heavier",
+     "correct": false
+    },
+    {
+     "text": "So they freeze faster",
+     "correct": false
+    },
+    {
+     "text": "So the inspector can check them together",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which glove should you wear on the hand that holds the bird?",
+   "options": [
+    {
+     "text": "A woollen glove",
+     "correct": false
+    },
+    {
+     "text": "No glove",
+     "correct": false
+    },
+    {
+     "text": "A cut-resistant mesh or Kevlar glove",
+     "correct": true
+    },
+    {
+     "text": "A thin plastic glove only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A blunt knife is safer than a sharp knife.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A bird condemned by the inspector must go into the condemned bin.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good knife safety habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Cut away from your body",
+     "correct": true
+    },
+    {
+     "text": "Leave the knife lying on the line",
+     "correct": false
+    },
+    {
+     "text": "Put the knife in its holder when not in use",
+     "correct": true
+    },
+    {
+     "text": "Sterilise the knife as often as the plant says",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264192",
+ "title": "Provide care for ornamental plants",
+ "lessons": [
+  {
+   "title": "Daily and weekly care",
+   "minutes": 15,
+   "html": "<h3>Caring for plants in a nursery or garden</h3>\n<p>Ornamental plants are grown for their looks: flowers, leaves, shape. Whether they are in pots in a nursery or in beds in a garden, they need regular care to stay healthy and attractive. Most of this care is done every day or every week.</p>\n<h4>Watering</h4>\n<ul><li>Check soil moisture with your finger. Water when the top few centimetres are dry, unless the plant needs different care.</li>\n<li>Water the soil, not the leaves, to reduce disease.</li>\n<li>Water deeply and less often for plants in beds. Pots dry out faster and may need daily watering in summer.</li>\n<li>Water early in the day.</li>\n<li>Follow municipal water restrictions.</li></ul>\n<h4>Weeding</h4>\n<p>Weeds take water, food and light. Pull them by hand while small, including roots. In pots, remove weeds every time you see them. Hoe beds lightly so you do not damage plant roots.</p>\n<h4>Grooming</h4>\n<ul><li>Remove dead and yellow leaves.</li>\n<li>Deadhead old flowers.</li>\n<li>Tie in climbers and stake tall plants.</li>\n<li>Space pot plants in the nursery so leaves do not touch, for air flow.</li></ul>\n<h4>Checking for problems</h4>\n<p>As you work, look for pests, disease, wilting, yellowing and broken stems. Report what you find to your supervisor. Early action saves plants.</p>"
+  },
+  {
+   "title": "Feeding, mulching, pruning and record keeping",
+   "minutes": 15,
+   "html": "<h3>Feeding</h3>\n<p>Plants in pots use up nutrients in the potting mix, and nutrients wash out with watering. Feed according to the programme your supervisor gives: slow-release granules, liquid feeds or fertiliser on beds. Always measure, apply to moist soil, keep fertiliser off leaves and stems, and water in.</p>\n<h3>Mulching</h3>\n<p>Mulch is a layer of material on top of the soil, such as bark chips, compost, straw or pebbles. It:</p>\n<ul><li>keeps the soil moist and cool</li>\n<li>stops weeds</li>\n<li>adds organic matter as it breaks down (organic mulches)</li>\n<li>makes beds look neat</li></ul>\n<p>Spread mulch about 50–75 mm deep and keep it a hand's width away from stems and trunks.</p>\n<h3>Light pruning and trimming</h3>\n<p>Trim plants to keep a good shape and remove the three Ds: dead, diseased and damaged parts. Use sharp, clean tools. Larger pruning jobs follow the supervisor's schedule.</p>\n<h3>Potting on</h3>\n<p>When a pot plant fills its pot with roots, it is potted on into a bigger pot with fresh mix. Signs: roots coming out of the drainage holes, the plant drying out very fast, or the plant falling over.</p>\n<h3>Record keeping</h3>\n<p>Write down what you did on the work sheet or job card: watering, feeding (product and amount), spraying, pests found. Good records help the team plan and prove that work was done.</p>\n<h3>Safety</h3>\n<ul><li>Wear gloves and wash hands after handling fertiliser, compost and potting mix.</li>\n<li>Wear a hat and sunscreen and drink water.</li>\n<li>Lift pots and bags correctly.</li>\n<li>Keep paths clear of hoses and tools.</li></ul>\n<h4>Key points</h4>\n<ul><li>Check moisture before watering and water the soil, not the leaves.</li>\n<li>Remove weeds while small.</li>\n<li>Feed according to the programme and water fertiliser in.</li>\n<li>Mulch 50–75 mm deep, away from stems.</li>\n<li>Report problems early and record all work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should you check if a plant needs water?",
+   "options": [
+    {
+     "text": "Look at the sky",
+     "correct": false
+    },
+    {
+     "text": "Water every hour",
+     "correct": false
+    },
+    {
+     "text": "Feel the soil moisture with your finger",
+     "correct": true
+    },
+    {
+     "text": "Check the fertiliser bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you water the soil and not the leaves?",
+   "options": [
+    {
+     "text": "To reduce disease",
+     "correct": true
+    },
+    {
+     "text": "To make leaves shiny",
+     "correct": false
+    },
+    {
+     "text": "To save fertiliser",
+     "correct": false
+    },
+    {
+     "text": "To attract bees",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should mulch be spread?",
+   "options": [
+    {
+     "text": "5 mm",
+     "correct": false
+    },
+    {
+     "text": "500 mm",
+     "correct": false
+    },
+    {
+     "text": "Right up against the stem",
+     "correct": false
+    },
+    {
+     "text": "About 50–75 mm, away from stems",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign that a pot plant needs potting on?",
+   "options": [
+    {
+     "text": "Flowers are open",
+     "correct": false
+    },
+    {
+     "text": "Roots coming out of the drainage holes",
+     "correct": true
+    },
+    {
+     "text": "Leaves are green",
+     "correct": false
+    },
+    {
+     "text": "It was watered yesterday",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should weeds be removed while small?",
+   "options": [
+    {
+     "text": "They are prettier",
+     "correct": false
+    },
+    {
+     "text": "They hold the soil",
+     "correct": false
+    },
+    {
+     "text": "They take water, food and light, and are easier to pull",
+     "correct": true
+    },
+    {
+     "text": "They feed the plants",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pots usually dry out faster than beds and may need daily watering in summer.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Record keeping is not needed if you remember what you did.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What are benefits of mulch? (select all that apply)",
+   "options": [
+    {
+     "text": "Keeps soil moist and cool",
+     "correct": true
+    },
+    {
+     "text": "Stops weeds",
+     "correct": true
+    },
+    {
+     "text": "Adds organic matter as it breaks down",
+     "correct": true
+    },
+    {
+     "text": "Attracts snakes into the bed",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-15091",
+ "title": "Plan to manage one`s time",
+ "lessons": [
+  {
+   "title": "Why time matters and how you use it",
+   "minutes": 15,
+   "html": "<h3>Time is precious</h3> <p>Everyone has 24 hours in a day. Some people get much done; others always feel rushed. The difference is often how they plan their time.</p> <p>In a stable yard time is very important. Horses must be fed at the same times every day. A horse that is fed late can get stressed and is more at risk of colic. Racehorses must be ready for the track at a set time. The farrier and vet come at booked times.</p> <h4>Where does your time go?</h4> <p>Think about a normal day. Write down what you do and how long it takes:</p> <table><tr><th>Time</th><th>Activity</th></tr> <tr><td>05:00 - 05:30</td><td>Get up, wash, eat</td></tr> <tr><td>05:30 - 06:00</td><td>Walk to the yard</td></tr> <tr><td>06:00 - 07:00</td><td>Feed and water, check horses</td></tr> <tr><td>07:00 - 09:00</td><td>Muck out stables</td></tr> <tr><td>09:00 - 09:30</td><td>Breakfast break</td></tr> <tr><td>09:30 - 12:00</td><td>Grooming, exercise, cleaning tack</td></tr></table> <p>This shows you where your time goes. You may find time that is wasted, such as long chats or looking for lost tools.</p> <h4>Time wasters</h4> <ul> <li>Not knowing what to do next</li> <li>Looking for tools that were not put back</li> <li>Too much time on the phone</li> <li>Doing a job badly and having to do it again</li> <li>Arriving late</li> </ul> <h4>Being on time</h4> <p>Being punctual shows respect for your employer, your co-workers and the horses. If you are going to be late, tell your supervisor as early as you can. Know your transport times. Plan to arrive a few minutes early.</p> <p>Your time outside work matters too: rest, family, church, sport and study. A good plan leaves time for all of these.</p>"
+  },
+  {
+   "title": "Planning your day and week",
+   "minutes": 15,
+   "html": "<h3>Make a to-do list</h3> <p>Each morning, or the night before, write down what you must do. Cross off each job when it is done. This feels good and helps you remember.</p> <h4>Decide what comes first</h4> <p>Not all jobs are equally important. Sort them:</p> <table><tr><th>Priority</th><th>Meaning</th><th>Example</th></tr> <tr><td>1. Urgent and important</td><td>Do now</td><td>A horse is cast in its stable; feeding time</td></tr> <tr><td>2. Important, not urgent</td><td>Plan a time for it</td><td>Clean and oil the saddles; study for your course</td></tr> <tr><td>3. Urgent, less important</td><td>Do quickly or ask for help</td><td>Answering a phone call about a delivery</td></tr> <tr><td>4. Not urgent, not important</td><td>Do later or leave</td><td>Chatting on social media</td></tr></table> <p>Animal welfare and safety always come first.</p> <h4>Use a timetable</h4> <p>A weekly plan helps you see the whole week: farrier on Tuesday, deep clean stables Wednesday, payday Friday, study on Sunday afternoon. Write it on a calendar or in a small notebook.</p> <h4>Set goals</h4> <p>A goal is something you want to reach. Make it clear and give it a date. \"By the end of the month I will be able to plait a mane.\" Then plan small steps: practise 15 minutes each day after lunch.</p> <h4>Tips to save time</h4> <ul> <li>Get all tools ready before you start a job.</li> <li>Put tools back in the same place every time.</li> <li>Do one job properly so you do not have to do it twice.</li> <li>Do similar jobs together, for example fill all water buckets in one round.</li> <li>Ask for help when you are behind, before it is too late.</li> </ul> <h4>When plans change</h4> <p>On a farm plans often change: a horse gets sick, it rains, a truck arrives early. Stay calm. Look at your list again. Decide what is most important now. Tell your supervisor if something will not get done.</p> <h4>Check your plan</h4> <p>At the end of the week look back: Did I do what I planned? What took longer? What can I do better next week?</p> <h4>Key points</h4> <ul> <li>Know where your time goes and cut out time wasters.</li> <li>Be punctual and tell your supervisor early if you will be late.</li> <li>Make a to-do list and do urgent and important jobs first.</li> <li>Animal welfare and safety always come first.</li> <li>Set clear goals with dates and check your plan each week.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is feeding horses on time important?",
+   "options": [
+    {
+     "text": "Horses do not care about time",
+     "correct": false
+    },
+    {
+     "text": "Late feeding can stress horses and raise colic risk",
+     "correct": true
+    },
+    {
+     "text": "It saves feed",
+     "correct": false
+    },
+    {
+     "text": "It is only important on weekends",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which job is urgent and important?",
+   "options": [
+    {
+     "text": "Chatting on social media",
+     "correct": false
+    },
+    {
+     "text": "A horse is cast in its stable",
+     "correct": true
+    },
+    {
+     "text": "Oiling saddles next week",
+     "correct": false
+    },
+    {
+     "text": "Reading a magazine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you are going to be late?",
+   "options": [
+    {
+     "text": "Say nothing",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor as early as you can",
+     "correct": true
+    },
+    {
+     "text": "Stay home",
+     "correct": false
+    },
+    {
+     "text": "Arrive and blame the horses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a time waster?",
+   "options": [
+    {
+     "text": "Putting tools back in place",
+     "correct": false
+    },
+    {
+     "text": "Looking for tools that were not put back",
+     "correct": true
+    },
+    {
+     "text": "Making a to-do list",
+     "correct": false
+    },
+    {
+     "text": "Doing a job properly once",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a clear goal?",
+   "options": [
+    {
+     "text": "I want to be better",
+     "correct": false
+    },
+    {
+     "text": "By the end of the month I will be able to plait a mane",
+     "correct": true
+    },
+    {
+     "text": "Someday I will learn",
+     "correct": false
+    },
+    {
+     "text": "Maybe I will study",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Doing similar jobs together, like filling all water buckets in one round, saves time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When plans change, you should panic and stop working.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tips help you save time? (select all that apply)",
+   "options": [
+    {
+     "text": "Get tools ready before you start",
+     "correct": true
+    },
+    {
+     "text": "Do a job properly the first time",
+     "correct": true
+    },
+    {
+     "text": "Ask for help early when you are behind",
+     "correct": true
+    },
+    {
+     "text": "Spend long breaks on your phone",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

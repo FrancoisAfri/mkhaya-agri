@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7464",
+ "title": "Analyse cultural products and processes as representations of shape, space and time",
+ "lessons": [
+  {
+   "title": "Shape and pattern in art, beadwork and crafts",
+   "minutes": 15,
+   "html": "<h3>Maths in culture</h3>\n<p>People everywhere make things that use shape, pattern and space: mats, baskets, beadwork, house paintings, clothing and buildings. These are called <strong>cultural products</strong>. When we look at them carefully, we find a lot of mathematics. Our ancestors used this maths long before it was written in school books.</p>\n<h4>Geometric shapes</h4>\n<p>Ndebele house painting, from Mpumalanga and Gauteng, uses bold straight lines, triangles, rectangles, steps and V-shapes in bright colours with black outlines. Zulu beadwork uses triangles and diamond shapes, and the colours and shapes can carry messages. Basotho blankets have patterns of shapes repeated across the cloth. Sotho and Tswana women decorate walls with patterns pressed into mud plaster, a practice called litema.</p>\n<h4>Symmetry</h4>\n<p>A shape has <strong>line symmetry</strong> when you can fold it along a line and the two halves match exactly, like a mirror image. Many beadwork panels and wall paintings are symmetrical: the left side mirrors the right. A butterfly, a leaf and a human face are close to symmetrical in nature too.</p>\n<p>Some patterns have <strong>rotational symmetry</strong>: if you turn them around the centre, they look the same before you complete a full turn. A round woven basket lid often has this.</p>\n<h4>Repeating patterns</h4>\n<p>A pattern repeats a unit again and again. In a beaded band, a unit like \"red, red, white, blue\" may repeat along the whole strip. If you know the unit, you can predict what comes next and work out how many beads you need: a 4-bead unit repeated 25 times needs 100 beads.</p>\n<h4>Tessellation</h4>\n<p>When shapes fit together with no gaps and no overlaps, this is called <strong>tessellation</strong>. Floor tiles, brick walls, honeycomb made by bees and many woven grass mats show it. Squares, rectangles, triangles and hexagons tessellate. Circles do not – they always leave gaps.</p>"
+  },
+  {
+   "title": "Space in traditional buildings and homesteads",
+   "minutes": 15,
+   "html": "<h3>Using space well</h3>\n<p>The way people build and lay out homes shows careful thinking about space and shape.</p>\n<h4>The round house</h4>\n<p>Many traditional houses in Southern Africa, such as the rondavel, are round with a cone-shaped thatch roof. There are good mathematical reasons for this:</p>\n<ul>\n<li>For the same length of wall, a circle encloses more floor area than a square. This saves building material.</li>\n<li>A round wall is strong because it has no weak corners.</li>\n<li>A cone roof sheds rain quickly in all directions.</li>\n</ul>\n<p>The Zulu beehive house (iqhugwane) is close to half a sphere, built from bent saplings and grass. It is strong and uses very little material.</p>\n<h4>The homestead layout</h4>\n<p>A traditional Zulu homestead (umuzi) is often built in a circle or curve, with the cattle kraal in the centre and the houses around it. The main house usually faces the entrance, often built lower down a slope. This layout:</p>\n<ul>\n<li>protects the cattle, the family's wealth, in the safest central place;</li>\n<li>lets people see who is coming;</li>\n<li>shows respect and order: the position of each house tells its place in the family.</li>\n</ul>\n<h4>Modern farm buildings</h4>\n<p>Today's poultry houses are long rectangles. This shape suits tunnel ventilation, where fans at one end pull air the length of the house. It also makes it easy to run straight lines of feeders and drinkers. Every shape has a purpose linked to how the space is used.</p>\n<h4>Thinking about it</h4>\n<p>Look at buildings in your community. Ask: What shapes are used? Why might the builder have chosen them? How is the space shared between people, animals and storage? Comparing old and new buildings shows how people solve problems with shape and space.</p>"
+  },
+  {
+   "title": "Time, seasons and rhythm in culture",
+   "minutes": 15,
+   "html": "<h3>Measuring time without a clock</h3>\n<p>Long before clocks and printed calendars, people measured time by watching nature. Farmers still do this.</p>\n<h4>The moon and the seasons</h4>\n<p>Many African cultures counted months by the moon. The moon takes about 29 to 30 days to go from new moon to full moon and back again. Month names often describe what happens in nature or farming at that time. In isiZulu, for example, <em>uMasingana</em> (January) and <em>uNcwaba</em> (July) are traditional month names linked to the seasons. In Sesotho, months have similar seasonal names.</p>\n<p>Planting, harvesting, initiation and other ceremonies were timed by seasons, rains and stars. For example, many farming communities watched for the first summer rains and the warming of the soil before planting maize. This is a form of data collection and prediction.</p>\n<h4>Time in daily life</h4>\n<p>People also measured the day by the position of the sun and the length of shadows. A short shadow means around midday; long shadows mean early morning or late afternoon. Cattle herders knew when to bring animals back to the kraal by the sun's height.</p>\n<h4>Rhythm in music and dance</h4>\n<p>Music is organised time. Drum rhythms repeat in regular beats, like a pattern in time instead of in space. Gumboot dancing, which started among mine workers, uses repeated counts of stamps and slaps. Choirs and dancers keep the same count together. When you clap a rhythm of \"1-2-3-4, 1-2-3-4\", you are using counting and repeating patterns, just like a beadwork band.</p>\n<h4>Why this matters</h4>\n<p>Seeing maths in our own culture shows that mathematics is not something foreign. It grows from people solving real problems: building strong homes, making beautiful objects, planting at the right time and moving together in song and dance.</p>\n<h4>Key points</h4>\n<ul>\n<li>Cultural products like beadwork, wall painting and weaving use shapes, symmetry and repeating patterns.</li>\n<li>Tessellating shapes fit together with no gaps; circles do not tessellate.</li>\n<li>Round houses enclose more floor space for the same wall length and are strong.</li>\n<li>Homestead layouts arrange space for protection and social order.</li>\n<li>Moon cycles, seasons, shadows and musical rhythm are ways of measuring and showing time.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When can a shape be said to have line symmetry?",
+   "options": [
+    {
+     "text": "When it is brightly coloured",
+     "correct": false
+    },
+    {
+     "text": "When it can be folded so the two halves match exactly",
+     "correct": true
+    },
+    {
+     "text": "When it is round",
+     "correct": false
+    },
+    {
+     "text": "When it has many corners",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A beadwork unit has 4 beads and is repeated 25 times. How many beads are needed?",
+   "options": [
+    {
+     "text": "29",
+     "correct": false
+    },
+    {
+     "text": "50",
+     "correct": false
+    },
+    {
+     "text": "100",
+     "correct": true
+    },
+    {
+     "text": "125",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which shape does NOT tessellate?",
+   "options": [
+    {
+     "text": "Circle",
+     "correct": true
+    },
+    {
+     "text": "Square",
+     "correct": false
+    },
+    {
+     "text": "Triangle",
+     "correct": false
+    },
+    {
+     "text": "Hexagon",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a long rectangle a good shape for a modern poultry house?",
+   "options": [
+    {
+     "text": "It uses the least material of any shape",
+     "correct": false
+    },
+    {
+     "text": "It is the traditional shape of the rondavel",
+     "correct": false
+    },
+    {
+     "text": "It sheds rain in all directions",
+     "correct": false
+    },
+    {
+     "text": "It suits tunnel ventilation and straight lines of feeders and drinkers",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a traditional Zulu homestead, what is often placed in the centre?",
+   "options": [
+    {
+     "text": "The cattle kraal",
+     "correct": true
+    },
+    {
+     "text": "The main house",
+     "correct": false
+    },
+    {
+     "text": "The vegetable garden",
+     "correct": false
+    },
+    {
+     "text": "The water tank",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "For the same length of wall, a circle encloses more floor area than a square.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Short shadows show that it is early morning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of cultural products that show shape and pattern? (select all that apply)",
+   "options": [
+    {
+     "text": "Ndebele house painting",
+     "correct": true
+    },
+    {
+     "text": "Zulu beadwork",
+     "correct": true
+    },
+    {
+     "text": "Litema patterns on mud walls",
+     "correct": true
+    },
+    {
+     "text": "A plain blank sheet of paper",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

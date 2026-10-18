@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114381",
+ "title": "Slaughter and dress crocodile",
+ "lessons": [
+  {
+   "title": "Crocodiles and safe handling",
+   "minutes": 15,
+   "html": "<h3>Slaughtering farmed crocodiles</h3><p>In South Africa, Nile crocodiles are farmed mainly for their skins. The meat is also sold. The skin is very valuable, so it must not be damaged. The meat must be safe, so hygiene is important. Slaughter must follow the Meat Safety Act 40 of 2000 and the Animals Protection Act 71 of 1962. It must take place at a registered facility.</p><h4>Crocodiles are dangerous</h4><ul><li>Even a small crocodile can bite hard and hurt you badly.</li><li>Only trained workers may catch and restrain crocodiles.</li><li>Never put your hand near the mouth.</li><li>Secure the jaws as you were trained before you carry the animal.</li><li>Watch the tail. A crocodile can swing its tail very hard.</li><li>Always work in a team. Never go into a pen alone.</li></ul><h4>Before slaughter</h4><ul><li>Crocodiles are usually not fed for some time before slaughter, as the farm's procedure says. This keeps the gut empty.</li><li>Catch and restrain them calmly and quickly to limit stress and skin damage.</li><li>Do not drag crocodiles on rough floors. Scratches damage the skin.</li><li>The meat inspector or veterinary services check the animals as the law requires.</li></ul><h4>Stunning and killing</h4><p>The animal must be made unconscious quickly and humanely by a trained person using an approved method. Then it is killed and bled quickly, before it can wake up. Check that it is unconscious: no movement of the eyes, no response when touched. If you are not sure, tell the operator at once.</p><p>Follow all instructions.</p>"
+  },
+  {
+   "title": "Skinning crocodiles",
+   "minutes": 15,
+   "html": "<h3>The skin is the main product</h3><p>Buyers pay most for the belly skin. It must have no cuts, holes or scratches. One bad knife cut can lower the price a lot.</p><h4>Steps for skinning</h4><ol><li>Wash the outside of the carcass to remove mud and dirt.</li><li>Lay the carcass on a clean table.</li><li>Make cuts only where the skinning pattern says. The pattern keeps the belly skin whole.</li><li>Loosen the skin slowly with a sharp knife held flat, close to the skin.</li><li>Pull the skin away gently. Do not tear it.</li><li>Remove the skin fully and lay it flat on a clean surface.</li></ol><h4>Caring for the skin</h4><ul><li>Scrape off fat and meat from the inside of the skin as you were trained.</li><li>Salt or treat the skin as your procedure says.</li><li>Store skins flat or rolled as instructed, in a cool place.</li><li>Write the tag number and size on the record.</li></ul><h4>Hygiene</h4><ul><li>The outside of the skin must not touch the meat.</li><li>Wash your hands and sterilise the knife after touching the outside of the skin.</li><li>Use two knives: one in use, one in the sterilizer.</li></ul><h4>Safety</h4><ul><li>Teeth and claws are sharp even after death. Handle the head and feet carefully.</li><li>Wear a cut-resistant glove and keep knives sharp.</li></ul><p>Ask your supervisor to check your first skins. Learn from their feedback. A good skinner is very valuable to the farm.</p><p>Clean your knives and table often.</p>"
+  },
+  {
+   "title": "Evisceration, inspection and meat handling",
+   "minutes": 15,
+   "html": "<h3>Removing the organs</h3><ol><li>Open the belly carefully with the knife tip away from the gut.</li><li>Tie off the gut ends if your procedure says so.</li><li>Remove the stomach and intestines without cutting them.</li><li>Remove the other organs and keep them with the carcass, with the same tag number, for inspection.</li><li>If the gut breaks, stop and tell your supervisor. The dirty meat must be trimmed.</li></ol><h3>Germs from reptiles</h3><p>Reptiles such as crocodiles often carry <strong>Salmonella</strong> bacteria in their gut and on their skin. These germs can make people very sick. So hygiene is very important:</p><ul><li>Wash hands often, especially after touching the gut or the outside of the skin.</li><li>Keep clean and dirty tables and tools apart.</li><li>Clean and sanitise all surfaces after work.</li><li>Do not eat, drink or smoke in the work area.</li></ul><h3>Inspection and meat</h3><p>The meat inspector checks the carcass and organs. Only the inspector decides what may be eaten. Condemned material goes into the condemned bin.</p><ul><li>The tail meat and other cuts are trimmed of fat, dirt and damaged parts.</li><li>Meat goes into the chiller quickly.</li><li>Pack and label the meat as your procedure says, with the date and batch.</li></ul><h4>Key points</h4><ul><li>Crocodiles are dangerous: secure the jaws, watch the tail, always work in a team.</li><li>Stunning and killing must be quick and humane, by trained people.</li><li>The belly skin is the most valuable part; cut only where the pattern says.</li><li>Crocodiles often carry Salmonella; wash hands and keep clean and dirty apart.</li><li>Only the meat inspector decides what may be eaten.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What are farmed crocodiles in South Africa mainly farmed for?",
+   "options": [
+    {
+     "text": "Their teeth",
+     "correct": false
+    },
+    {
+     "text": "Their skins",
+     "correct": true
+    },
+    {
+     "text": "Their eggs only",
+     "correct": false
+    },
+    {
+     "text": "Their bones",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which part of the crocodile skin is most valuable?",
+   "options": [
+    {
+     "text": "The tail tip",
+     "correct": false
+    },
+    {
+     "text": "The head",
+     "correct": false
+    },
+    {
+     "text": "The belly skin",
+     "correct": true
+    },
+    {
+     "text": "The feet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which germ do reptiles such as crocodiles often carry?",
+   "options": [
+    {
+     "text": "Salmonella",
+     "correct": true
+    },
+    {
+     "text": "Measles",
+     "correct": false
+    },
+    {
+     "text": "Anthrax",
+     "correct": false
+    },
+    {
+     "text": "Rabies",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before carrying a crocodile?",
+   "options": [
+    {
+     "text": "Hold it by the tail only",
+     "correct": false
+    },
+    {
+     "text": "Secure the jaws as you were trained",
+     "correct": true
+    },
+    {
+     "text": "Put your hand on its mouth",
+     "correct": false
+    },
+    {
+     "text": "Carry it alone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the gut breaks during evisceration?",
+   "options": [
+    {
+     "text": "Wash it and carry on",
+     "correct": false
+    },
+    {
+     "text": "Throw the carcass away",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell your supervisor; the dirty meat must be trimmed",
+     "correct": true
+    },
+    {
+     "text": "Hide it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dragging crocodiles on rough floors can damage the skin.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to work alone in a crocodile pen.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good hygiene practices when slaughtering crocodiles? (select all that apply)",
+   "options": [
+    {
+     "text": "Wash hands after touching the gut or the outside of the skin",
+     "correct": true
+    },
+    {
+     "text": "Keep clean and dirty tables and tools apart",
+     "correct": true
+    },
+    {
+     "text": "Eat lunch at the skinning table",
+     "correct": false
+    },
+    {
+     "text": "Clean and sanitise surfaces after work",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

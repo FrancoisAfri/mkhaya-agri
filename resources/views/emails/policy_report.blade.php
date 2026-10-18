@@ -20,7 +20,7 @@
     <div class="wrapper">
         <div class="header">
             <h1>{{ $reportName }}</h1>
-            <p>Mkhaya Hub — Automated Policy Report</p>
+            <p>Mkhaya Agri — Automated Policy Report</p>
         </div>
         <div class="body">
             <span class="badge">{{ ucfirst($cadence) }} Report</span>
@@ -29,7 +29,7 @@
             <p>If you have any questions or believe you received this email in error, please contact your system administrator.</p>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} Mkhaya Hub. This is an automated message — please do not reply directly to this email.
+            &copy; {{ date('Y') }} Mkhaya Agri. This is an automated message — please do not reply directly to this email.
         </div>
     </div>
 </body>

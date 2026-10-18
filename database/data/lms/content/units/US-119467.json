@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-119467",
+ "title": "Use language and communication in occupational learning programmes",
+ "lessons": [
+  {
+   "title": "Language for learning at work",
+   "minutes": 15,
+   "html": "<h3>Why language matters in training</h3>\n<p>In an occupational learning programme you learn by reading manuals, listening to facilitators, taking part in group work, keeping a portfolio of evidence and writing assessments. Strong language skills help you understand, take part and show what you know.</p>\n<h3>Listening and speaking in learning</h3>\n<ul>\n<li>Listen for key words, steps and safety warnings in demonstrations, for example how to tack up a horse or mix a dip.</li>\n<li>Ask questions when something is unclear. There are no stupid questions in training.</li>\n<li>Take part in group discussions and give reasons for your answers.</li>\n<li>Explain a procedure in your own words to check that you understand it.</li>\n</ul>\n<h3>Reading learning material</h3>\n<ol>\n<li><strong>Preview:</strong> read headings, pictures and summaries first.</li>\n<li><strong>Read for meaning:</strong> underline key words and new terms.</li>\n<li><strong>Build vocabulary:</strong> keep a glossary of technical words, like \"farrier\", \"withers\", \"biosecurity\" or \"dosage\", with meanings in your own language.</li>\n<li><strong>Read instructions carefully:</strong> labels, SOPs and assessment questions. Look for command words such as list, describe, explain and compare.</li>\n<li><strong>Read tables and diagrams:</strong> such as a feed chart or vaccination schedule.</li>\n</ol>\n<table><tr><th>Command word</th><th>What it asks you to do</th></tr>\n<tr><td>List</td><td>Give items, no explanation</td></tr>\n<tr><td>Describe</td><td>Say what something looks like or how it happens</td></tr>\n<tr><td>Explain</td><td>Give reasons, say why</td></tr>\n<tr><td>Compare</td><td>Show how things are the same and different</td></tr></table>"
+  },
+  {
+   "title": "Writing and using information in your learning",
+   "minutes": 15,
+   "html": "<h3>Writing in learning programmes</h3>\n<p>You will write answers, reports, logbook entries and reflections. Good writing is clear, correct and organised.</p>\n<h4>Steps for writing</h4>\n<ol>\n<li><strong>Plan:</strong> what is the purpose and who will read it? Jot down main points.</li>\n<li><strong>Draft:</strong> write in short paragraphs, one main idea each.</li>\n<li><strong>Check:</strong> spelling, punctuation, and that you answered the question.</li>\n<li><strong>Final copy:</strong> neat and complete, with your name and date.</li>\n</ol>\n<h4>Logbooks and workplace records</h4>\n<p>A logbook entry should say what you did, when, where, with which animal or equipment, and what you learnt. Example: \"14 March, Stable 3: Picked out the hooves of the bay mare Lady. Found a stone in the left fore. Removed it and told the supervisor.\"</p>\n<h3>Finding and using information</h3>\n<ul>\n<li>Use manuals, the facilitator, colleagues, labels and reliable websites.</li>\n<li>Check that information is current and from a trusted source.</li>\n<li>Write information in your own words. Copying someone else's work is plagiarism and is not allowed in assessments.</li>\n</ul>\n<h3>Preparing for assessment</h3>\n<ul>\n<li>Know what evidence you need for your portfolio.</li>\n<li>Ask the assessor to explain anything you do not understand.</li>\n<li>You have the right to appeal an assessment decision if you think it was unfair.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Listen for key steps and safety warnings and ask questions.</li>\n<li>Preview, read for meaning and keep a glossary of new words.</li>\n<li>Understand command words such as list, describe, explain and compare.</li>\n<li>Plan, draft and check your writing.</li>\n<li>Use reliable sources and your own words; plagiarism is not allowed.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the command word 'explain' ask you to do?",
+   "options": [
+    {
+     "text": "Give a list only",
+     "correct": false
+    },
+    {
+     "text": "Draw a picture",
+     "correct": false
+    },
+    {
+     "text": "Give reasons and say why",
+     "correct": true
+    },
+    {
+     "text": "Copy the textbook",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first when reading learning material?",
+   "options": [
+    {
+     "text": "Preview headings, pictures and summaries",
+     "correct": true
+    },
+    {
+     "text": "Read the last page only",
+     "correct": false
+    },
+    {
+     "text": "Skip all tables",
+     "correct": false
+    },
+    {
+     "text": "Start writing answers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a glossary?",
+   "options": [
+    {
+     "text": "A type of horse feed",
+     "correct": false
+    },
+    {
+     "text": "A test score",
+     "correct": false
+    },
+    {
+     "text": "A tool for hooves",
+     "correct": false
+    },
+    {
+     "text": "A list of words and their meanings",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Copying someone else's work in an assessment is called...",
+   "options": [
+    {
+     "text": "Reflection",
+     "correct": false
+    },
+    {
+     "text": "Plagiarism",
+     "correct": true
+    },
+    {
+     "text": "Previewing",
+     "correct": false
+    },
+    {
+     "text": "Summarising",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a logbook entry include?",
+   "options": [
+    {
+     "text": "Only your name",
+     "correct": false
+    },
+    {
+     "text": "Only the weather",
+     "correct": false
+    },
+    {
+     "text": "What you did, when, where and what you learnt",
+     "correct": true
+    },
+    {
+     "text": "Jokes from the day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You have the right to appeal an assessment decision you think is unfair.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should never ask questions in training in case they sound stupid.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good steps for writing? (select all that apply)",
+   "options": [
+    {
+     "text": "Plan",
+     "correct": true
+    },
+    {
+     "text": "Draft",
+     "correct": true
+    },
+    {
+     "text": "Check",
+     "correct": true
+    },
+    {
+     "text": "Skip the question",
+     "correct": false
+    },
+    {
+     "text": "Hand in without reading",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

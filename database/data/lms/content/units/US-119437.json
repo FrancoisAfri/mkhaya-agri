@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119437",
+ "title": "Utilise feed management in poultry production",
+ "lessons": [
+  {
+   "title": "Why feed matters",
+   "minutes": 15,
+   "html": "<h3>Feed is the biggest cost on a poultry farm</h3><p>Feed makes up most of the cost of producing chickens and eggs. Chickens need the right feed, in the right amount, at the right time, to grow well and lay eggs. Wasted or spoiled feed is wasted money. Good feed management is part of every poultry worker's job.</p><h4>Types of feed</h4><p>Chickens eat different feeds at different ages:</p><ul><li><strong>Broilers</strong>: starter, then grower, then finisher.</li><li><strong>Young layer pullets</strong>: starter, grower, developer, pre-lay.</li><li><strong>Laying hens</strong>: layer feed, with extra calcium for strong eggshells.</li></ul><p>Each feed has a name and colour code or label from the feed company. Using the wrong feed can harm the birds. For example, layer feed has too much calcium for young chicks.</p><h4>What is in the feed</h4><p>Most poultry feed is made from maize for energy and soya for protein, plus minerals and vitamins. Some feeds have medicine in them. Medicated feed may only be used as the vet or supervisor says.</p><h4>Feed forms</h4><ul><li><strong>Crumbles</strong>: small pieces for chicks.</li><li><strong>Pellets</strong>: little sticks of pressed feed.</li><li><strong>Mash</strong>: fine powder-like feed.</li></ul><h4>Your job</h4><p>Your job is to receive feed, store it well, put it in the feeders correctly, stop waste, and write down how much is used. Tell your supervisor if feed looks or smells bad, or if birds are not eating.</p><h4>Example</h4><p>If 5 kg of feed is spilled each day in a house, that is 150 kg a month. At about R8 per kg that is about R1 200 lost from one house.</p>"
+  },
+  {
+   "title": "Receiving and storing feed",
+   "minutes": 15,
+   "html": "<h3>Keeping feed fresh and safe</h3><h4>When feed arrives</h4><ol><li>Check the delivery note: farm name, feed type, amount and date.</li><li>Check that it is the right feed for the house. Starter must not go into the layer house silo.</li><li>Look at the feed: no mould, no wet lumps, no strange smell, no insects.</li><li>Check bags are not torn or wet.</li><li>Tell your supervisor about any problem before you sign.</li><li>Write the delivery in the feed record.</li><li>Keep a small sample of each delivery in a labelled bag if the farm asks you to.</li></ol><h4>Storing bagged feed</h4><ul><li>Store bags on pallets, not on the floor, and away from walls.</li><li>Keep the store dry, cool and closed.</li><li>Keep rats, mice, birds and insects out. Report droppings or holes in bags.</li><li>Use old bags first (first in, first out).</li><li>Do not store chemicals, fuel or fertiliser with feed.</li><li>Keep each feed type in its own marked place.</li></ul><h4>Silos</h4><ul><li>Keep silo lids closed so rain cannot get in.</li><li>Check silo levels every day and tell your supervisor when it is time to order.</li><li>Do not climb silos unless you are trained and it is safe, with a harness if required.</li><li>Empty and clean silos between flocks as the farm says. Old feed stuck inside goes mouldy.</li></ul><h4>Mouldy feed</h4><p>Mould in feed can make birds very sick. Never give mouldy, wet or bad-smelling feed to birds. Put it aside and tell your supervisor.</p><p>Clean up spilled feed in the store every day.</p><p>Ask your supervisor which feed goes into which silo.</p>"
+  },
+  {
+   "title": "Feeding birds and recording",
+   "minutes": 15,
+   "html": "<h3>Getting feed to every bird</h3><h4>Feeders</h4><ul><li>Set feeder height at about the height of the birds' backs. Raise feeders as birds grow.</li><li>Make sure there is enough feeder space so all birds can eat.</li><li>Check that feeder lines and pans fill properly. Fix or report blocked augers and empty pans.</li><li>Do not let feeders run empty, unless the supervisor says to, for example before catching.</li><li>Check that the feed in pans is not wet, caked or dirty.</li></ul><h4>Stopping waste</h4><ul><li>Do not overfill feeders. Overfilled pans spill feed onto the litter.</li><li>Fix leaking drinkers so feed and litter stay dry.</li><li>Sweep up spilled feed in the store.</li><li>Keep rats and wild birds out; they eat a lot of feed.</li></ul><h4>Safety with feeding equipment</h4><p>Feed augers and motors can catch hands and clothes. Never put your hand in a feeder line or auger while it can run. Switch off and lock out before fixing. Lift feed bags with your legs, not your back, and get help with heavy loads.</p><h4>Recording feed</h4><table><tr><th>Date</th><th>House</th><th>Feed type</th><th>Kg used</th><th>Name</th></tr><tr><td>12 May</td><td>House 2</td><td>Grower</td><td>1 250</td><td>T. Mokoena</td></tr></table><p>Write feed received, feed used each day and silo levels. If birds eat much less than normal, tell your supervisor quickly. It may be the first sign that birds are sick.</p><h4>Key points</h4><ul><li>Feed is the biggest cost; use the right feed for the age of the birds.</li><li>Check deliveries for the right feed, mould, wet bags and insects.</li><li>Store feed on pallets in a dry, closed store, and use old stock first.</li><li>Never give mouldy feed; set feeders at back height and avoid overfilling.</li><li>Switch off augers before touching them and record feed every day.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the biggest cost on a poultry farm?",
+   "options": [
+    {
+     "text": "Feed",
+     "correct": true
+    },
+    {
+     "text": "Light bulbs",
+     "correct": false
+    },
+    {
+     "text": "Paint",
+     "correct": false
+    },
+    {
+     "text": "Fencing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must layer feed not be given to young chicks?",
+   "options": [
+    {
+     "text": "It is too cheap",
+     "correct": false
+    },
+    {
+     "text": "It has too much calcium for young chicks",
+     "correct": true
+    },
+    {
+     "text": "It has no energy",
+     "correct": false
+    },
+    {
+     "text": "It is the wrong colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should bagged feed be stored?",
+   "options": [
+    {
+     "text": "On the floor next to fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Outside in the sun",
+     "correct": false
+    },
+    {
+     "text": "On pallets in a dry, closed store",
+     "correct": true
+    },
+    {
+     "text": "In the chicken house",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "At about what height should feeders be set?",
+   "options": [
+    {
+     "text": "At the height of the roof",
+     "correct": false
+    },
+    {
+     "text": "On the floor for all ages",
+     "correct": false
+    },
+    {
+     "text": "As high as possible",
+     "correct": false
+    },
+    {
+     "text": "At about the height of the birds' backs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with mouldy feed?",
+   "options": [
+    {
+     "text": "Put it aside and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Mix it with fresh feed",
+     "correct": false
+    },
+    {
+     "text": "Give it to older birds",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the silo",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may put your hand in a feed auger if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A big drop in feed eaten can be the first sign that birds are sick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check when feed is delivered? (select all that apply)",
+   "options": [
+    {
+     "text": "Right feed type for the house",
+     "correct": true
+    },
+    {
+     "text": "No mould or wet lumps",
+     "correct": true
+    },
+    {
+     "text": "Bags not torn",
+     "correct": true
+    },
+    {
+     "text": "The driver's shoe size",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

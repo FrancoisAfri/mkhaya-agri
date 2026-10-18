@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-119406",
+ "title": "Provide feed and nutrition for poultry",
+ "lessons": [
+  {
+   "title": "What poultry need to eat",
+   "minutes": 15,
+   "html": "<h3>What poultry need to eat</h3><p>Chickens grow and lay eggs from the feed they eat. Good feed, given the right way, keeps birds healthy and makes money for the farm.</p><h4>What is in the feed</h4><ul><li><strong>Energy</strong> comes mostly from maize. It gives birds power to move, keep warm and grow.</li><li><strong>Protein</strong> comes from soya and other meals. It builds muscle, feathers and eggs.</li><li><strong>Minerals</strong> like calcium make strong bones and egg shells.</li><li><strong>Vitamins</strong> keep birds healthy.</li><li><strong>Water</strong> is not in the bag, but birds need clean water all the time.</li></ul><h4>Different feeds for different birds</h4><p>Birds need different feed at different ages. The feed mill makes each feed for one stage.</p><table><tr><th>Bird</th><th>Example feeds</th></tr><tr><td>Broilers (meat chickens)</td><td>Starter, grower, finisher</td></tr><tr><td>Young layers (pullets)</td><td>Chick starter, grower, developer</td></tr><tr><td>Laying hens</td><td>Layer feed with extra calcium</td></tr></table><p>Always read the bag label. Give each group of birds only the feed your supervisor tells you. Wrong feed can make birds sick or stop them laying.</p><h4>Feed forms</h4><p>Feed comes as mash (powder), crumbles (small pieces) or pellets. Small chicks usually get crumbles. Older birds may get pellets or mash.</p><h4>Never feed</h4><ul><li>Mouldy, wet or caked feed.</li><li>Feed that smells bad.</li><li>Feed from a torn bag that rats have been in.</li><li>Feed made for other animals, unless your supervisor says so.</li></ul><p>Mouldy feed can contain poisons that harm birds and lower growth and egg numbers.</p><h4>Grit and shell</h4><p>Some farms give layers extra limestone grit or oyster shell for strong shells. Give it only if your supervisor tells you, and in the amount you are shown. Too much calcium for young birds can harm their kidneys.</p>"
+  },
+  {
+   "title": "Feeding birds and storing feed",
+   "minutes": 15,
+   "html": "<h3>Feeding birds and storing feed</h3><h4>Filling feeders</h4><ol><li>Check the feeders on every round.</li><li>Set the feeder height so the lip of the pan or trough is about level with the birds' backs. Raise it as the birds grow.</li><li>Fill feeders so birds can eat but do not throw feed out. Wasted feed on the floor is wasted money.</li><li>Make sure there is enough feeder space so all birds can eat at the same time.</li><li>Check that automatic feed lines run to the end of the house.</li><li>Clean out wet or caked feed from pans.</li></ol><h4>Storing feed</h4><ul><li>Keep bags on pallets, off the floor and away from the walls.</li><li>Keep the store dry, cool and closed to rats, birds and wild animals.</li><li>Use old feed first: first in, first out.</li><li>Close silo lids so rain cannot get in.</li><li>Keep chemicals, poisons and fuel away from feed.</li></ul><h4>Safety</h4><p>Feed bags are heavy, often 40 or 50 kg. Bend your knees, keep your back straight and ask for help with heavy loads. Never climb into a silo. Feed can move and bury you. Only trained people with the right safety plan may enter a silo. Wear a dust mask when you handle dusty feed.</p><h4>Records</h4><p>Write down how much feed each house used each day and the feed type. If the birds eat much less than usual, tell your supervisor at once. Sick birds eat less.</p><h4>Key points</h4><ul><li>Feed gives energy, protein, minerals and vitamins.</li><li>Give each age group only its own feed, as your supervisor tells you.</li><li>Never give mouldy, wet or bad-smelling feed.</li><li>Store feed dry, off the floor, first in first out.</li><li>Never climb into a feed silo.</li><li>Record feed used and report a drop in eating.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which part of the feed builds muscle, feathers and eggs?",
+   "options": [
+    {
+     "text": "Protein",
+     "correct": true
+    },
+    {
+     "text": "Energy",
+     "correct": false
+    },
+    {
+     "text": "Water",
+     "correct": false
+    },
+    {
+     "text": "Mould",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does layer feed have extra calcium?",
+   "options": [
+    {
+     "text": "To make the birds sleep",
+     "correct": false
+    },
+    {
+     "text": "To make strong egg shells",
+     "correct": true
+    },
+    {
+     "text": "To colour the feathers",
+     "correct": false
+    },
+    {
+     "text": "To make the feed cheaper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How high should a feeder pan be set?",
+   "options": [
+    {
+     "text": "On the floor at all ages",
+     "correct": false
+    },
+    {
+     "text": "Above the birds' heads",
+     "correct": false
+    },
+    {
+     "text": "About level with the birds' backs",
+     "correct": true
+    },
+    {
+     "text": "As high as the roof",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does 'first in, first out' mean in a feed store?",
+   "options": [
+    {
+     "text": "Feed the first birds first",
+     "correct": false
+    },
+    {
+     "text": "Open the first door first",
+     "correct": false
+    },
+    {
+     "text": "Use new feed first",
+     "correct": false
+    },
+    {
+     "text": "Use the oldest feed first",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A feed bag is torn and rats have been in it. What should you do?",
+   "options": [
+    {
+     "text": "Do not feed it and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Feed it to the youngest chicks",
+     "correct": false
+    },
+    {
+     "text": "Mix it with good feed",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the feeder",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may climb into a feed silo to loosen stuck feed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If birds eat much less than usual, it can be a sign that they are sick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good ways to store feed? (select all that apply)",
+   "options": [
+    {
+     "text": "On pallets off the floor",
+     "correct": true
+    },
+    {
+     "text": "Next to the poison and fuel",
+     "correct": false
+    },
+    {
+     "text": "In a dry store closed to rats",
+     "correct": true
+    },
+    {
+     "text": "With silo lids closed",
+     "correct": true
+    },
+    {
+     "text": "Outside in the rain",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

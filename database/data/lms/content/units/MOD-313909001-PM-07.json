@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-07",
+ "title": "Monitor and maintain quality standards",
+ "lessons": [
+  {
+   "title": "Quality standards and how they are checked",
+   "minutes": 18,
+   "html": "<h3>What the standards are</h3>\n<p>Quality standards in a feed mill come from several sources: the product specifications set by the nutritionist, the registration of the feed under Act 36 of 1947 and its label claims, customer requirements, and the mill's quality and feed safety system (for example ISO 9001 or a HACCP-based scheme). The quality supervisor must know where each standard comes from and why it matters.</p>\n<h4>Typical specifications</h4>\n<table>\n<tr><th>Stage</th><th>Example parameters</th></tr>\n<tr><td>Raw materials</td><td>Moisture, protein, fat, fibre, mycotoxins, foreign matter, insects</td></tr>\n<tr><td>Grinding</td><td>Particle size distribution</td></tr>\n<tr><td>Mixing</td><td>Batch weight accuracy, mixer uniformity (CV)</td></tr>\n<tr><td>Pelleting</td><td>Conditioning temperature, PDI, fines, pellet size</td></tr>\n<tr><td>Finished feed</td><td>Nutrient analysis, moisture, appearance, label accuracy, net mass</td></tr>\n</table>\n<h4>Sampling plans</h4>\n<p>Results only mean something if the sample represents the batch. A sampling plan states what to sample, where, how often, how much and how to label and store retained samples. Composite samples are taken from several points or times. Retained samples of finished feed are kept for the period the procedure specifies so complaints can be investigated.</p>\n<h4>Testing</h4>\n<p>Tests range from quick checks on the floor (temperature, moisture meter, sieve test, bag weights, PDI) to NIR analysis and laboratory tests (proximate analysis, minerals, mycotoxins, Salmonella). Instruments must be calibrated and checked with reference samples. Laboratories used for critical tests should be accredited or their methods verified.</p>\n<h4>Using the results</h4>\n<p>Record results against the specification and plot key ones on control charts. Look for trends, not only out-of-specification points. For example, protein in finished broiler feed drifting downwards over two weeks may point to a change in soya oilcake quality that the formulation matrix has not caught up with.</p>"
+  },
+  {
+   "title": "Handling non-conformance and improving quality",
+   "minutes": 18,
+   "html": "<h3>When a standard is not met</h3>\n<p>A non-conformance is any result, product or practice that does not meet a requirement. Examples: a maize load above the mycotoxin limit, a batch with a weighing error, pellets with high fines, a bag label with the wrong registration number, or a missed cleaning record.</p>\n<h4>Control of non-conforming product</h4>\n<ol>\n<li>Identify and physically separate the product; place clear hold labels on bins or pallets and block it on the stock system.</li>\n<li>Assess the risk with the quality manager and nutritionist.</li>\n<li>Decide disposition: release with concession (only by authorised persons), rework, downgrade to another approved use, return to supplier or destroy.</li>\n<li>Record the decision, who made it and the quantities involved.</li>\n</ol>\n<p>If product that may be unsafe has already left the mill, the recall procedure must be activated with management immediately; traceability records show which customers received it.</p>\n<h4>Corrective and preventive action</h4>\n<p>For each significant non-conformance, investigate the root cause, take corrective action, and check whether it worked. For example, repeated high fines traced to worn dies leads to a die-life tracking system and planned die changes.</p>\n<h3>Maintaining standards day to day</h3>\n<ul>\n<li>Train operators on why each check matters and how to do it.</li>\n<li>Audit records on the floor: are checks being done at the right frequency and signed?</li>\n<li>Do internal audits of procedures and prerequisite programmes (cleaning, pest control, glass and hard plastics, maintenance hygiene).</li>\n<li>Review customer complaints for patterns.</li>\n<li>Report quality KPIs to management: right-first-time batches, non-conformances, complaints, hold tonnes.</li>\n</ul>\n<p>Quality is built in by the process, not tested in at the end. The supervisor's job is to keep the process capable and the people committed.</p>\n<h4>Key points</h4>\n<ul>\n<li>Standards come from specifications, feed registration, customers and the quality system.</li>\n<li>Representative sampling and calibrated testing make results meaningful.</li>\n<li>Use control charts to see trends early.</li>\n<li>Separate, label and block non-conforming product; only authorised people decide disposition.</li>\n<li>Find root causes, verify corrective actions and audit routines regularly.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is a sampling plan needed?",
+   "options": [
+    {
+     "text": "To reduce the number of tests",
+     "correct": false
+    },
+    {
+     "text": "To replace specifications",
+     "correct": false
+    },
+    {
+     "text": "So that samples represent the batch and results are meaningful",
+     "correct": true
+    },
+    {
+     "text": "To speed up out-loading",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are retained samples of finished feed kept?",
+   "options": [
+    {
+     "text": "So complaints can be investigated",
+     "correct": true
+    },
+    {
+     "text": "To feed staff animals",
+     "correct": false
+    },
+    {
+     "text": "To sell later",
+     "correct": false
+    },
+    {
+     "text": "They are not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Protein in finished feed drifts down over two weeks. What might it indicate?",
+   "options": [
+    {
+     "text": "A change in raw material quality that the formulation values have not caught up with",
+     "correct": true
+    },
+    {
+     "text": "Nothing important",
+     "correct": false
+    },
+    {
+     "text": "The bags are too big",
+     "correct": false
+    },
+    {
+     "text": "The weighbridge is broken",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step with non-conforming product?",
+   "options": [
+    {
+     "text": "Mix it with good product",
+     "correct": false
+    },
+    {
+     "text": "Send it to the customer quickly",
+     "correct": false
+    },
+    {
+     "text": "Identify, separate, label and block it",
+     "correct": true
+    },
+    {
+     "text": "Destroy it without records",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Possibly unsafe feed has already left the mill. What should happen?",
+   "options": [
+    {
+     "text": "Activate the recall procedure with management immediately",
+     "correct": true
+    },
+    {
+     "text": "Wait for complaints",
+     "correct": false
+    },
+    {
+     "text": "Change the records",
+     "correct": false
+    },
+    {
+     "text": "Do nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Quality is built in by the process, not tested in at the end.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Any operator may release product with a concession.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are possible dispositions for non-conforming product? (select all that apply)",
+   "options": [
+    {
+     "text": "Rework",
+     "correct": true
+    },
+    {
+     "text": "Hide it in the warehouse",
+     "correct": false
+    },
+    {
+     "text": "Destroy",
+     "correct": true
+    },
+    {
+     "text": "Return to supplier",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

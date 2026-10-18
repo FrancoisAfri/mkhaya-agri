@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102001-WM-06",
+  "title": "Direct a work team in different dairy farming production activities",
+  "lessons": [
+    {
+      "title": "Directing teams across the dairy",
+      "minutes": 20,
+      "html": "<h3>One supervisor, many activities</h3><p>In this work experience module you will direct teams in real production activities: milking, calf rearing, feeding, pasture and herd health work. You will plan, allocate, check and report, and your workplace mentor will sign off your logbook.</p><h4>Typical dairy team activities</h4><table><tr><th>Activity</th><th>Critical standard</th></tr><tr><td>Milking</td><td>On time, full routine, no residues in the tank</td></tr><tr><td>Calf rearing</td><td>Colostrum on time, clean buckets, sick calves reported</td></tr><tr><td>Feeding</td><td>Feed sheet followed, troughs clean, water available</td></tr><tr><td>Pasture</td><td>Correct camp or strip, fences working, irrigation as scheduled</td></tr><tr><td>Herd health</td><td>Heat detection, treatments recorded, cows handled calmly</td></tr><tr><td>Maintenance</td><td>Parlour checks, yards clean, waste system working</td></tr></table><h4>Planning a week</h4><ol><li>List fixed tasks: milkings, calf feeds, feeding times.</li><li>Add planned tasks from the manager: vaccination days, vet visits, silage making, AI, drying off.</li><li>Draw up the roster and assign people by skill. Make sure each shift has someone who can handle emergencies and someone trained in first aid.</li><li>Check that equipment, medicines and supplies are available.</li><li>Brief the team and display the plan.</li></ol><h4>Special tasks</h4><p>For less common jobs, such as a herd vaccination day or moving cows to a new farm section, hold a short planning talk: who does what, how many people at the crush, where the escape routes are, what records are needed. Move cattle calmly and in manageable groups.</p><h4>Respecting labour law</h4><p>Rosters must respect working hours, overtime, rest days and leave under the Basic Conditions of Employment Act 75 of 1997 and the sectoral determination for farm workers. Keep accurate time records.</p>"
+    },
+    {
+      "title": "Checking work and solving problems",
+      "minutes": 20,
+      "html": "<h3>Inspect what you expect</h3><p>Walk the farm during the day. Watch milking at least part of each shift, look into the calf unit, check feed troughs and camps. Use a short checklist so you are consistent.</p><h4>When standards are not met</h4><ol><li>Find out what happened and why. Was the instruction clear? Was equipment missing? Was the worker trained?</li><li>Fix the immediate problem.</li><li>Coach or retrain the worker if needed.</li><li>If it is a repeated rule breach, follow the disciplinary code.</li><li>Record what happened and what was done.</li></ol><h4>Example</h4><p>The buyer reports a high bacteria count. You check and find the wash water is not getting hot enough because the geyser element has failed. The night milker did not notice the return water was lukewarm. Actions: get the element replaced, wash the plant with hot water and an acid rinse, show all milkers how to check wash temperature, add the check to the cleaning record, and watch the next results.</p><h4>Emergencies</h4><p>Be ready for:</p><ul><li><strong>Power failure</strong>: generator start-up procedure, keeping milk cool.</li><li><strong>Injured worker</strong>: first aid by a trained first aider, call for medical help, report the incident.</li><li><strong>Animal emergencies</strong>: bloat, milk fever, difficult calving. Call the vet.</li><li><strong>Fire</strong>: evacuate people first, then animals if safe, and call the fire protection association or emergency services.</li></ul><p>Make sure every worker knows emergency numbers and where the first aid box and fire extinguishers are.</p><p>After every problem or emergency, hold a short debrief with the team: what happened, what worked, what should change. Record the outcome so that the next shift learns from it and the same mistake is not repeated.</p>"
+    },
+    {
+      "title": "Reporting and developing the team",
+      "minutes": 20,
+      "html": "<h3>Reporting to management</h3><p>Give the manager a short daily or weekly report. Keep it factual:</p><ul><li>Litres produced and any milk dumped, with reasons.</li><li>Cows calved, calves born, deaths, sick animals and treatments.</li><li>Cows served and on heat; problems found by the vet.</li><li>Feed stock and pasture cover.</li><li>Staff attendance, incidents and near misses.</li><li>Equipment faults and repairs needed.</li></ul><h4>Team meetings</h4><p>Hold a short team meeting each week. Share results such as SCC and bacteria counts, praise improvements, discuss problems and agree on actions. Let workers raise their own concerns.</p><h4>Developing team members</h4><ul><li>Identify skills gaps from what you see during checks.</li><li>Use job rotation so workers learn milking, calves and feeding.</li><li>Pair new workers with experienced buddies.</li><li>Recommend workers for formal training and learnerships.</li><li>Give responsibility step by step, for example a capable milker leads the Sunday shift.</li></ul><h4>Health and safety culture</h4><p>Under the OHS Act 85 of 1993 the employer must provide a safe workplace and train workers on hazards. As supervisor you set the example: wear your own protective equipment, stop unsafe work, and report hazards. Hold short safety talks on topics such as chemical handling, bull safety and tractor safety.</p><p>Ask your workplace mentor for regular feedback on your own leadership: how clear your instructions are, how you handle conflict and how well your team meets its targets. Record this feedback and your improvement actions in your logbook.</p><h4>Key points</h4><ul><li>Plan the week around fixed tasks, add planned work and assign by skill.</li><li>Make sure rosters follow labour law and each shift can handle emergencies.</li><li>Inspect work regularly and find the root cause of problems.</li><li>Report facts to the manager daily or weekly.</li><li>Develop workers through coaching, rotation and training.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the first step when a work standard is not met?",
+      "options": [
+        {
+          "text": "Find out what happened and why",
+          "correct": true
+        },
+        {
+          "text": "Issue a final warning",
+          "correct": false
+        },
+        {
+          "text": "Ignore it",
+          "correct": false
+        },
+        {
+          "text": "Change the whole team",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In the example, why was the bacteria count high?",
+      "options": [
+        {
+          "text": "Too much feed",
+          "correct": false
+        },
+        {
+          "text": "Wash water was not hot enough",
+          "correct": true
+        },
+        {
+          "text": "Cows were on heat",
+          "correct": false
+        },
+        {
+          "text": "Milk was too cold",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In a fire, what comes first?",
+      "options": [
+        {
+          "text": "Saving the tractor",
+          "correct": false
+        },
+        {
+          "text": "Saving the records",
+          "correct": false
+        },
+        {
+          "text": "Evacuating people",
+          "correct": true
+        },
+        {
+          "text": "Moving feed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law sets working hours, rest days and leave?",
+      "options": [
+        {
+          "text": "National Water Act",
+          "correct": false
+        },
+        {
+          "text": "Animal Diseases Act",
+          "correct": false
+        },
+        {
+          "text": "Meat Safety Act",
+          "correct": false
+        },
+        {
+          "text": "Basic Conditions of Employment Act 75 of 1997",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is a good way for workers to learn several jobs?",
+      "options": [
+        {
+          "text": "Job rotation",
+          "correct": true
+        },
+        {
+          "text": "Working only night shifts",
+          "correct": false
+        },
+        {
+          "text": "Reading the feed sheet once",
+          "correct": false
+        },
+        {
+          "text": "Avoiding team meetings",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Each shift should have someone trained in first aid.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A supervisor does not need to wear protective equipment if the workers do.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should a weekly report to the manager include? (select all that apply)",
+      "options": [
+        {
+          "text": "Litres produced and milk dumped",
+          "correct": true
+        },
+        {
+          "text": "Sick animals and treatments",
+          "correct": true
+        },
+        {
+          "text": "Incidents and near misses",
+          "correct": true
+        },
+        {
+          "text": "Gossip about workers",
+          "correct": false
+        },
+        {
+          "text": "Personal opinions about the neighbours",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

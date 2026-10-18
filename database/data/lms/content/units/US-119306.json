@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119306",
+ "title": "Recognise, group, use and care for materials which can impact on health and the environment",
+ "lessons": [
+  {
+   "title": "Materials that can harm health and the environment",
+   "minutes": 15,
+   "html": "<h3>Materials around us</h3> <p>On a farm we use many materials every day. Most are safe. Some can hurt people, animals, soil and water if we use them wrongly. We call these hazardous materials.</p> <h4>Grouping materials</h4> <table><tr><th>Group</th><th>Farm examples</th><th>Possible harm</th></tr> <tr><td>Poisons</td><td>Rat poison, dips, sprays for ticks and flies</td><td>Poisoning people, horses, dogs, birds</td></tr> <tr><td>Fuels and oils</td><td>Diesel, petrol, engine oil, paraffin</td><td>Fire, burns, polluting soil and water</td></tr> <tr><td>Corrosives</td><td>Battery acid, strong cleaners, caustic soda</td><td>Burns to skin and eyes</td></tr> <tr><td>Gases and fumes</td><td>Gas bottles, exhaust smoke, welding fumes</td><td>Breathing problems, explosions</td></tr> <tr><td>Dusts</td><td>Dusty hay, cement, fertiliser dust</td><td>Coughing, lung problems in people and horses</td></tr> <tr><td>Plastics and metals</td><td>Feed bags, twine, wire, tins</td><td>Injure animals, litter, do not rot</td></tr></table> <h4>Read the label</h4> <p>Every chemical has a label. The label tells you what it is, how to use it, what protective clothing to wear and what to do if there is an accident. If you cannot read the label well, ask your supervisor to explain it. Never use a product from an unmarked bottle.</p> <h4>Warning pictures</h4> <p>Labels have pictures in a red diamond. Learn them:</p> <ul> <li>Skull and crossbones - poison, can kill</li> <li>Flame - catches fire easily</li> <li>Hand and metal being eaten away - burns skin</li> <li>Dead fish and tree - harms the environment and water</li> <li>Exclamation mark - harmful, irritates</li> </ul> <h4>How harm gets into the body</h4> <p>Chemicals can get in by breathing them, swallowing them, through the skin, or into the eyes. This is why we wear gloves, masks and goggles, and why we never eat or smoke while working with chemicals.</p>"
+  },
+  {
+   "title": "Using, storing and caring for hazardous materials",
+   "minutes": 15,
+   "html": "<h3>Using materials safely</h3> <ol> <li>Read the label or ask your supervisor before you start.</li> <li>Wear the protective clothing the label asks for: gloves, overall, boots, mask, goggles.</li> <li>Use only the amount you need. More is not better.</li> <li>Mix chemicals outside or in a place with fresh air, away from water troughs and feed.</li> <li>Keep people, children and animals away while you work.</li> <li>Never eat, drink or smoke while working.</li> <li>Wash your hands and face when you finish.</li> </ol> <h4>Storing materials</h4> <ul> <li>Keep chemicals in their own labelled containers. Never put them in cooldrink bottles.</li> <li>Lock poisons in the chemical store, away from the feed room.</li> <li>Store fuel away from the stables and away from fire. Keep a fire extinguisher near.</li> <li>Keep gas bottles upright and in the shade.</li> <li>Store hay dry and off the ground so it does not go mouldy.</li> </ul> <h4>Spills</h4> <p>If a chemical or diesel spills:</p> <ol> <li>Keep people and horses away.</li> <li>Tell your supervisor.</li> <li>Stop the spill if it is safe, for example stand the drum upright.</li> <li>Cover it with sand or soil to soak it up. Do not hose it into a drain or river.</li> <li>Put the dirty sand in a marked container for safe disposal.</li> </ol> <h4>If someone is poisoned or splashed</h4> <p>Get the person away from the chemical. Wash skin or eyes with lots of clean water. Take the label or container with you to the clinic so the nurse knows what it was. Call for help at once. Proper first aid needs hands-on training from an accredited provider.</p> <h4>Caring for the environment</h4> <p>Do not let chemicals, oil or dirty water run into rivers, dams or boreholes. Pick up wire, plastic and twine from the camps. Reuse or recycle what you can. Every worker helps keep the farm safe for the next generation.</p> <h4>Key points</h4> <ul> <li>Group materials: poisons, fuels, corrosives, gases, dusts, plastics and metals.</li> <li>Always read the label and learn the warning pictures.</li> <li>Wear protective clothing and never eat or smoke while using chemicals.</li> <li>Store chemicals locked, labelled and away from feed.</li> <li>Soak up spills with sand; never wash them into water.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the skull and crossbones picture on a label mean?",
+   "options": [
+    {
+     "text": "Catches fire",
+     "correct": false
+    },
+    {
+     "text": "Poison that can kill",
+     "correct": true
+    },
+    {
+     "text": "Safe for animals",
+     "correct": false
+    },
+    {
+     "text": "Keep cold",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which material belongs in the 'fuels and oils' group?",
+   "options": [
+    {
+     "text": "Rat poison",
+     "correct": false
+    },
+    {
+     "text": "Diesel",
+     "correct": true
+    },
+    {
+     "text": "Battery acid",
+     "correct": false
+    },
+    {
+     "text": "Wood shavings",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should poisons be stored?",
+   "options": [
+    {
+     "text": "In the feed room",
+     "correct": false
+    },
+    {
+     "text": "In a cooldrink bottle",
+     "correct": false
+    },
+    {
+     "text": "Locked in the chemical store away from feed",
+     "correct": true
+    },
+    {
+     "text": "Next to the water trough",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Diesel spills in the yard. What should you use to soak it up?",
+   "options": [
+    {
+     "text": "Water from the hosepipe",
+     "correct": false
+    },
+    {
+     "text": "Sand or soil",
+     "correct": true
+    },
+    {
+     "text": "Hay",
+     "correct": false
+    },
+    {
+     "text": "Your overall",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A worker gets chemical in the eye. What should you do first?",
+   "options": [
+    {
+     "text": "Rub the eye",
+     "correct": false
+    },
+    {
+     "text": "Wash the eye with lots of clean water",
+     "correct": true
+    },
+    {
+     "text": "Wait to see if it gets better",
+     "correct": false
+    },
+    {
+     "text": "Put oil in the eye",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to smoke while mixing a tick spray if you work outside.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When you take a poisoned person to the clinic, you should take the product label with you.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "How can chemicals get into the body? (select all that apply)",
+   "options": [
+    {
+     "text": "Breathing them in",
+     "correct": true
+    },
+    {
+     "text": "Through the skin",
+     "correct": true
+    },
+    {
+     "text": "Swallowing them",
+     "correct": true
+    },
+    {
+     "text": "Looking at the label",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

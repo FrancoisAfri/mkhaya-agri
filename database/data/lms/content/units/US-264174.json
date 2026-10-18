@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264174",
+ "title": "Acclimatise plants for interior plantscaping",
+ "lessons": [
+  {
+   "title": "Why plants need acclimatising",
+   "minutes": 15,
+   "html": "<h3>From the nursery to the office</h3>\n<p>Interior plantscaping means placing living plants inside offices, malls, hotels and homes. Most of these plants are grown in shade houses or tunnels where there is a lot of light, warmth, humidity and fertiliser. Inside a building there is much less light, the air is dry from air conditioning, and there is less water and feeding.</p>\n<p>If a plant moves straight from the tunnel to an office, it gets a shock. It drops leaves, turns yellow and may die. <strong>Acclimatising</strong> means slowly getting the plant used to the new conditions before it goes inside.</p>\n<h4>What changes for the plant</h4>\n<table><tr><th>Factor</th><th>Nursery</th><th>Building</th></tr>\n<tr><td>Light</td><td>High</td><td>Low</td></tr>\n<tr><td>Humidity</td><td>High</td><td>Low (dry air)</td></tr>\n<tr><td>Water</td><td>Often</td><td>Less often</td></tr>\n<tr><td>Fertiliser</td><td>Lots, for fast growth</td><td>Little, for slow growth</td></tr>\n<tr><td>Temperature</td><td>Changes day and night</td><td>Steady</td></tr></table>\n<h4>Signs of shock</h4>\n<ul><li>Leaves turning yellow and falling</li>\n<li>Brown leaf tips and edges</li>\n<li>Long, thin, weak new growth stretching to the light</li>\n<li>Wilting even when the soil is wet</li></ul>\n<p>Plants that are commonly used indoors in South Africa include ficus, dracaena, spathiphyllum (peace lily), zamioculcas (ZZ plant), sansevieria, philodendron and palms such as kentia. Each one handles low light differently, so ask your supervisor which plants can go where.</p>"
+  },
+  {
+   "title": "The acclimatising process",
+   "minutes": 15,
+   "html": "<h3>Step by step</h3>\n<ol><li><strong>Choose healthy plants.</strong> Check for pests, disease, damaged leaves and good roots. Never acclimatise a sick plant.</li>\n<li><strong>Move to more shade.</strong> Put the plants under heavier shade cloth (for example from 40% to 70–80% shade) or into an acclimatising house. Do this for the time your supervisor sets, usually several weeks for big plants.</li>\n<li><strong>Cut back fertiliser.</strong> Give less feeding so growth slows down and the plant does not make soft, weak leaves.</li>\n<li><strong>Water less often.</strong> Let the top of the potting mix dry a little between waterings. Indoor plants are more often killed by too much water than too little.</li>\n<li><strong>Lower the humidity slowly.</strong> Reduce misting and keep plants away from wet floors.</li>\n<li><strong>Clean and check.</strong> Remove dead leaves. Look under leaves for mealybug, scale and red spider mite.</li>\n<li><strong>Record.</strong> Write the date the plant started and any problems on the batch card.</li></ol>\n<h3>Moving the plant</h3>\n<ul><li>Wrap or sleeve the plant so leaves do not break.</li>\n<li>Keep it out of wind, hot sun and cold during transport. Do not leave plants in a closed bakkie in the sun.</li>\n<li>Place it in the building where the light suits that plant. Keep it away from air-conditioning vents and heaters.</li></ul>\n<h3>Safety</h3>\n<ul><li>Lift big pots with two people or a trolley.</li>\n<li>Some plants have sap that irritates the skin (for example dieffenbachia and euphorbia). Wear gloves and wash your hands.</li></ul>\n<h4>Key points</h4>\n<ul><li>Acclimatising slowly prepares nursery plants for low light and dry air indoors.</li>\n<li>Increase shade step by step and reduce fertiliser and water.</li>\n<li>Only acclimatise healthy, pest-free plants.</li>\n<li>Protect plants during transport and keep them away from air-con vents.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does acclimatising a plant mean?",
+   "options": [
+    {
+     "text": "Giving it more fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Repotting it every week",
+     "correct": false
+    },
+    {
+     "text": "Slowly getting it used to new conditions",
+     "correct": true
+    },
+    {
+     "text": "Spraying it with pesticide",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Compared with a nursery, the air inside an office is usually:",
+   "options": [
+    {
+     "text": "Drier",
+     "correct": true
+    },
+    {
+     "text": "Wetter",
+     "correct": false
+    },
+    {
+     "text": "Full of fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Much brighter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign that a plant is in shock after moving indoors?",
+   "options": [
+    {
+     "text": "Shiny green leaves",
+     "correct": false
+    },
+    {
+     "text": "Strong short stems",
+     "correct": false
+    },
+    {
+     "text": "Many new flowers",
+     "correct": false
+    },
+    {
+     "text": "Leaves turning yellow and dropping",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During acclimatising, what should happen to fertiliser?",
+   "options": [
+    {
+     "text": "Increase it",
+     "correct": false
+    },
+    {
+     "text": "Reduce it",
+     "correct": true
+    },
+    {
+     "text": "Stop watering instead",
+     "correct": false
+    },
+    {
+     "text": "Double it every week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you NOT place an indoor plant?",
+   "options": [
+    {
+     "text": "In light that suits the plant",
+     "correct": false
+    },
+    {
+     "text": "On a saucer",
+     "correct": false
+    },
+    {
+     "text": "Right next to an air-conditioning vent",
+     "correct": true
+    },
+    {
+     "text": "Away from heaters",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Indoor plants are more often killed by too much water than too little.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A plant with pests should be acclimatised first and treated later.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in acclimatising plants? (select all that apply)",
+   "options": [
+    {
+     "text": "Move them to heavier shade",
+     "correct": true
+    },
+    {
+     "text": "Water less often",
+     "correct": true
+    },
+    {
+     "text": "Give extra fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Check for pests under the leaves",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

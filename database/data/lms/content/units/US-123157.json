@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123157",
+ "title": "Provide care for rooibos seedlings",
+ "lessons": [
+  {
+   "title": "Watering and weeding seedlings",
+   "minutes": 15,
+   "html": "<h3>Looking after young plants</h3><p>Rooibos seedlings stay in the seedbed for a few months, from sowing until they are big enough to plant out in winter. In this time they are small and easily hurt by dry soil, too much water, weeds, insects, diseases and animals. Good daily care gives strong seedlings that survive in the lands.</p><h4>Watering</h4><ul><li>Check the soil every day. Push your finger into the soil. If the top is dry, water.</li><li>Water early in the morning or late afternoon, not in the heat of the day.</li><li>Use a fine spray or sprinkler so you do not wash out seedlings.</li><li>Do not overwater. Wet soil causes roots to rot and seedlings to fall over.</li><li>Water evenly. Dry corners and wet low spots both cause losses.</li></ul><h4>Weeding</h4><p>Weeds take water, light and food from seedlings.</p><ul><li>Pull weeds by hand when they are small, before they get strong roots.</li><li>Hold the weed low and pull gently so you do not pull out the seedlings next to it.</li><li>Do not walk on the beds. Use the paths.</li><li>Take weeds away from the beds so seeds do not fall back.</li><li>Do not use weed killer on seedbeds unless your supervisor tells you and you are trained.</li></ul>"
+  },
+  {
+   "title": "Pests, diseases and protection",
+   "minutes": 15,
+   "html": "<h3>Watch for problems</h3><h4>Signs to look for</h4><ul><li>Seedlings falling over at the soil line – damping off, a fungus disease.</li><li>Yellow, wilting or dying patches.</li><li>Chewed or missing leaves – insects like cutworms or grasshoppers.</li><li>Seedlings dug out or eaten – birds, rabbits, buck or livestock.</li></ul><p>Tell your supervisor about any problem as soon as you see it, and say which bed and where in the bed. Early action saves seedlings.</p><h4>Spraying</h4><p>Sometimes the farm uses a registered product against insects or fungus. Only products registered under Act 36 of 1947 may be used, at the rate on the label. Only trained workers may spray.</p><ul><li>Wear the PPE the label says: gloves, overall, mask, goggles, boots.</li><li>Never spray when it is windy.</li><li>Never eat, drink or smoke while spraying.</li><li>Wash well afterwards.</li><li>Keep people out of the beds for the time the label says.</li></ul><h4>Checking the beds every day</h4><p>Walk along the paths beside every bed each morning. Look closely at the seedlings, not only from far away. Lift a few leaves and look at the stems near the soil. Check the soil for holes, tracks or droppings that show animals were there in the night. If you find a problem, put a small stick or marker next to the spot so the supervisor can find it quickly. Write down what you saw, the bed number and the date in the seedbed book. Small problems seen early can be fixed. Problems left for a week can kill a whole bed.</p><h4>Protection</h4><ul><li>Keep fences and gates closed.</li><li>Repair shade net or wind breaks if they are damaged.</li><li>Keep the area around beds clean of weeds that hide insects.</li></ul>"
+  },
+  {
+   "title": "Hardening off and getting ready for transplanting",
+   "minutes": 15,
+   "html": "<h3>Making seedlings tough</h3><p>Seedlings grown with plenty of water are soft. The lands are drier, sunnier and windier. Before transplanting, seedlings are <strong>hardened off</strong> so they can survive.</p><h4>How to harden off</h4><ul><li>Your supervisor will tell you when to start, usually some weeks before planting out.</li><li>Water less often, so the plants get used to drier soil, but do not let them die.</li><li>Remove shade cover step by step so they get used to full sun.</li></ul><h4>A good seedling to plant out</h4><ul><li>Healthy green colour.</li><li>Strong stem and good roots.</li><li>The size your supervisor wants.</li><li>No signs of disease or insects.</li></ul><h4>Lifting seedlings</h4><ol><li>Water the bed the day before so the soil is soft.</li><li>Loosen the soil with a fork, a little away from the plants.</li><li>Lift seedlings gently, holding the leaves or stem gently, keeping the roots whole.</li><li>Keep roots damp and in the shade, covered with a wet bag.</li><li>Take them to the lands and plant them the same day.</li></ol><h4>Records</h4><p>Write down the bed number, date lifted and how many seedlings were taken.</p><h4>Key points</h4><ul><li>Check soil every day and water early or late, gently and evenly.</li><li>Pull weeds by hand when small and stay off the beds.</li><li>Report damping off, insects or animal damage straight away.</li><li>Only trained workers spray, using registered products at label rate with PPE.</li><li>Harden off seedlings before transplanting and keep roots damp and shaded when lifting.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When is the best time to water seedlings?",
+   "options": [
+    {
+     "text": "Only at night",
+     "correct": false
+    },
+    {
+     "text": "Early morning or late afternoon",
+     "correct": true
+    },
+    {
+     "text": "Only when they are dying",
+     "correct": false
+    },
+    {
+     "text": "At midday in full sun",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Seedlings fall over at the soil line. What is a likely cause?",
+   "options": [
+    {
+     "text": "Too little sun",
+     "correct": false
+    },
+    {
+     "text": "Damping off, a fungus disease",
+     "correct": true
+    },
+    {
+     "text": "Hardening off",
+     "correct": false
+    },
+    {
+     "text": "Too much weeding",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should weeds in seedbeds be removed?",
+   "options": [
+    {
+     "text": "Leave them to shade the seedlings",
+     "correct": false
+    },
+    {
+     "text": "Pull them by hand when small, gently, from the paths",
+     "correct": true
+    },
+    {
+     "text": "Dig up the whole bed",
+     "correct": false
+    },
+    {
+     "text": "Spray any weed killer without asking",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are seedlings hardened off?",
+   "options": [
+    {
+     "text": "To kill weeds",
+     "correct": false
+    },
+    {
+     "text": "To make them easier to lift",
+     "correct": false
+    },
+    {
+     "text": "So they can survive drier, sunnier conditions in the lands",
+     "correct": true
+    },
+    {
+     "text": "To make them grow faster in the bed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should lifted seedlings be kept before planting?",
+   "options": [
+    {
+     "text": "Roots damp, shaded and covered with a wet bag",
+     "correct": true
+    },
+    {
+     "text": "In a bucket of fertiliser",
+     "correct": false
+    },
+    {
+     "text": "In the sun so they dry",
+     "correct": false
+    },
+    {
+     "text": "In a dry plastic bag in the bakkie all day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only products registered under Act 36 of 1947 may be used to control pests on seedlings.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Walking on the seedbeds helps press the soil around the seedlings.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which signs should be reported to the supervisor? (select all that apply)",
+   "options": [
+    {
+     "text": "Yellow, wilting patches",
+     "correct": true
+    },
+    {
+     "text": "Healthy, green seedlings growing evenly",
+     "correct": false
+    },
+    {
+     "text": "Chewed or missing leaves",
+     "correct": true
+    },
+    {
+     "text": "Seedlings dug out by animals",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

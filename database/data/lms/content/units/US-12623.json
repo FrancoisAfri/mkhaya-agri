@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12623",
+  "title": "Control weeds",
+  "lessons": [
+    {
+      "title": "Identifying weeds and choosing a control method",
+      "minutes": 20,
+      "html": "<h3>Identifying weeds and choosing a control method</h3><p>Weeds compete with crops and pastures for water, nutrients, light and space. They can host pests and diseases, poison animals, lower the quality of the harvest and slow down work. Some invasive alien plants also use a lot of water and spread into veld and river banks.</p><h4>Types of weeds</h4><ul><li><strong>Annual broadleaf weeds:</strong> such as pigweed (misbredie), blackjacks and thorn apple (stinkblaar).</li><li><strong>Annual grasses:</strong> such as crabfinger grass.</li><li><strong>Perennial weeds:</strong> such as kweek (couch grass) and uintjies (nutgrass), which regrow from runners, rhizomes or bulbs.</li><li><strong>Invasive alien plants:</strong> such as wattle, prickly pear, lantana and bugweed. Landowners have a legal duty to control declared weeds and invader plants, under the Conservation of Agricultural Resources Act 43 of 1983 and environmental laws.</li></ul><p>Correct identification is important because different weeds need different control. A herbicide that kills broadleaf weeds may not kill grasses.</p><h4>Integrated weed control</h4><p>The best results come from combining methods:</p><table><tr><th>Method</th><th>Examples</th></tr><tr><td>Preventive</td><td>Certified clean seed; cleaning implements and vehicles; stopping weeds from setting seed</td></tr><tr><td>Cultural</td><td>Crop rotation; correct plant spacing so the crop shades weeds; cover crops; mulching</td></tr><tr><td>Mechanical</td><td>Hand hoeing, cultivation, mowing, slashing, uprooting</td></tr><tr><td>Chemical</td><td>Registered herbicides applied correctly by trained operators</td></tr><tr><td>Biological</td><td>Insects or diseases released to control some alien invaders, such as cactus-feeding insects on prickly pear</td></tr></table><h4>Timing</h4><p>Control weeds early. The first weeks after crop emergence are the critical period: weeds that compete then cause the most yield loss. Never let weeds set seed.</p><p>Keep a record of the weeds found in each field. Over time this shows which weeds are increasing and helps the manager plan the right control for the next season.</p>"
+    },
+    {
+      "title": "Applying herbicides safely",
+      "minutes": 25,
+      "html": "<h3>Applying herbicides safely</h3><p>Herbicides are agricultural remedies registered under Act 36 of 1947. Using a product in a way not on the label is against the law. Only trained, authorised workers may mix and apply them.</p><h4>Types of herbicides</h4><ul><li><strong>Pre-emergence:</strong> applied to the soil before weeds come up.</li><li><strong>Post-emergence:</strong> applied to weeds that are already growing.</li><li><strong>Selective:</strong> kills certain weeds but not the crop.</li><li><strong>Non-selective:</strong> kills most green plants it touches, including the crop.</li></ul><h4>Before spraying</h4><ol><li>Get the instruction: field, product, rate, water volume and nozzles.</li><li>Read the label: rate, crops, weeds controlled, PPE, re-entry period, first aid and disposal.</li><li>Put on the PPE the label requires, for example chemical-resistant gloves, overalls, boots, face shield or goggles and a respirator.</li><li>Check the sprayer for leaks, worn nozzles and a clean filter. Make sure it has been calibrated so it delivers the correct volume.</li><li>Check the weather: no strong wind, no rain expected soon, not in the hottest part of the day if the label warns against it.</li></ol><h4>Mixing</h4><ul><li>Mix in the chemical mixing area, away from water sources, people and animals.</li><li>Half-fill the tank with clean water, add the measured product, then fill up while agitating.</li><li>Measure exactly with the measuring jug. Never guess.</li><li>Triple-rinse empty containers and add the rinse water to the tank. Puncture containers so they cannot be reused, and store them for proper disposal.</li></ul><h4>Spraying</h4><ul><li>Walk or drive at a steady speed; keep the nozzle at the right height.</li><li>Do not let spray drift onto crops, neighbours, water or people.</li><li>Never eat, drink or smoke while spraying. Never clear a blocked nozzle by blowing it with your mouth.</li><li>Put up warning signs if required.</li></ul><h4>After spraying</h4><ul><li>Clean the sprayer at the wash bay; spray the rinse water onto the treated area as the label allows.</li><li>Wash gloves before removing them, then shower and change clothes.</li><li>Record field, date, product, rate, area and operator.</li></ul><h4>Poisoning</h4><p>If a worker is splashed or feels ill, remove contaminated clothing, wash skin or eyes with plenty of clean water, follow the first aid on the label and get medical help, taking the label with you.</p><h4>Key points</h4><ul><li>Identify weeds correctly; different weeds need different control.</li><li>Combine preventive, cultural, mechanical, chemical and biological methods.</li><li>Control weeds early and never let them set seed.</li><li>Use only registered herbicides as the label says, with the right PPE and a calibrated sprayer.</li><li>Prevent drift, triple-rinse containers, wash up and keep records.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why is correct weed identification important?",
+      "options": [
+        {
+          "text": "Different weeds need different control methods",
+          "correct": true
+        },
+        {
+          "text": "All weeds are controlled the same way",
+          "correct": false
+        },
+        {
+          "text": "So you can sell the weeds",
+          "correct": false
+        },
+        {
+          "text": "It is not important",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a non-selective herbicide do?",
+      "options": [
+        {
+          "text": "Kills only grasses",
+          "correct": false
+        },
+        {
+          "text": "Kills most green plants it touches, including the crop",
+          "correct": true
+        },
+        {
+          "text": "Only feeds the crop",
+          "correct": false
+        },
+        {
+          "text": "Kills only insects",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When is the critical period for weed control in a crop?",
+      "options": [
+        {
+          "text": "After harvest",
+          "correct": false
+        },
+        {
+          "text": "In the middle of winter fallow",
+          "correct": false
+        },
+        {
+          "text": "The first weeks after crop emergence",
+          "correct": true
+        },
+        {
+          "text": "Only when weeds have flowered",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do with empty herbicide containers?",
+      "options": [
+        {
+          "text": "Use them to carry drinking water",
+          "correct": false
+        },
+        {
+          "text": "Throw them into the river",
+          "correct": false
+        },
+        {
+          "text": "Give them to neighbours",
+          "correct": false
+        },
+        {
+          "text": "Triple-rinse, puncture and store them for proper disposal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A nozzle is blocked while spraying. What must you NOT do?",
+      "options": [
+        {
+          "text": "Blow it clear with your mouth",
+          "correct": true
+        },
+        {
+          "text": "Stop spraying and use a soft brush",
+          "correct": false
+        },
+        {
+          "text": "Replace it with a clean nozzle",
+          "correct": false
+        },
+        {
+          "text": "Wear gloves while cleaning it",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Using a herbicide in a way not on the label is against the law.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to spray herbicides in strong wind if you walk fast.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are cultural or preventive weed control methods? (select all that apply)",
+      "options": [
+        {
+          "text": "Using certified clean seed",
+          "correct": true
+        },
+        {
+          "text": "Crop rotation",
+          "correct": true
+        },
+        {
+          "text": "Cleaning implements between fields",
+          "correct": true
+        },
+        {
+          "text": "Letting weeds set seed",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

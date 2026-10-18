@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-611202-001-00-KM-09",
+  "title": "Human Resource Management and Processes",
+  "lessons": [
+    {
+      "title": "Labour law basics for foremen",
+      "minutes": 20,
+      "html": "<h3>Labour law basics for foremen</h3><p>Foremen manage people every day, so they must understand the main employment laws and the farm's HR policies. The farm's HR or management team makes final decisions, but the foreman's actions can create legal risk for the employer.</p><h4>Key laws</h4><ul><li><strong>Basic Conditions of Employment Act</strong>: working hours, overtime, rest periods, leave and payslips.</li><li><strong>Labour Relations Act</strong>: fair dismissal, fair disciplinary procedures, unions, the CCMA for disputes.</li><li><strong>Employment Equity Act</strong>: no unfair discrimination; equal treatment.</li><li><strong>Sectoral determination for farm workers</strong>: the minimum wage and conditions set for the agricultural sector, together with the National Minimum Wage Act.</li><li><strong>OHS Act 85 of 1993</strong> and the Compensation for Occupational Injuries and Diseases Act: safety and injury compensation.</li><li><strong>Skills Development Act</strong>: training and learnerships through the AgriSETA.</li></ul><p>Ask HR for the current minimum wage and conditions; they change regularly.</p><h4>Contracts</h4><p>Every worker, permanent or seasonal, should have written particulars of employment: job, hours, pay, leave and notice. Seasonal workers for harvest or thinning have the same basic rights as permanent workers for the period they work.</p><h4>Working hours</h4><p>Keep accurate attendance and time records. Overtime must be agreed and paid as the law and contract require. Make sure workers get their meal intervals and rest periods.</p><h4>Labour brokers and contractors</h4><p>When teams come from a labour broker or contractor, the farm still has duties for safety and, in some cases, shared responsibility for conditions. Check that contractors' workers are trained and have PPE.</p><p>When in doubt about a labour law question, do not guess. Ask HR or the farm manager before acting, and write down what was decided.</p>"
+    },
+    {
+      "title": "Recruitment, induction and training",
+      "minutes": 20,
+      "html": "<h3>Recruitment, induction and training</h3><h4>Planning labour needs</h4><p>Fruit farms need many extra hands in peak periods: pruning, thinning and harvest. Use the production calendar to estimate how many workers are needed per week and per skill. Plan recruitment early - good seasonal workers are in demand.</p><h4>Recruitment and selection</h4><ul><li>Agree the job requirements with the manager: tasks, skills, physical demands.</li><li>Recruit fairly; use the same criteria for everyone and avoid discrimination.</li><li>Use practical tests where useful, such as a short pruning or picking trial.</li><li>Check documents as HR requires.</li><li>Prefer returning seasonal workers with good records where policy allows.</li></ul><h4>Induction</h4><p>A good induction on the first day saves time and prevents accidents. Cover:</p><ol><li>Farm layout, facilities, toilets, drinking water and first aid.</li><li>Working hours, breaks, pay and how production is counted.</li><li>Farm rules and the disciplinary code.</li><li>Safety rules, hazards (machinery, chemicals, ladders, heat, snakes) and PPE.</li><li>Food safety and hygiene rules for working with fruit.</li><li>Who their team leader and foreman are, and how to raise problems.</li></ol><p>Record that each worker attended induction; audits check this.</p><h4>Training on the job</h4><p>Use the explain - demonstrate - practise - check method. Train in small groups. Check competence before workers work alone, especially for chemical handling, tractor driving and ladder work. Keep a training register. Formal training and learnerships can be arranged through the AgriSETA and accredited providers.</p><h4>Developing people</h4><p>Identify workers with potential to become team leaders and give them responsibility and training. Developing people from within builds loyalty and skills on the farm.</p>"
+    },
+    {
+      "title": "Discipline, grievances and wellbeing",
+      "minutes": 20,
+      "html": "<h3>Discipline, grievances and wellbeing</h3><h4>The disciplinary code</h4><p>The farm's disciplinary code lists offences and the usual sanctions, from verbal warning for minor first offences to dismissal for serious misconduct. Discipline must be <strong>fair in substance</strong> (there is a rule, the worker knew it, it was broken, the sanction is consistent) and <strong>fair in procedure</strong> (the worker is told of the allegation, can respond and be represented, and a decision is made by an impartial person).</p><h4>The foreman's role</h4><ul><li>Explain rules clearly at induction and remind teams regularly.</li><li>Deal with minor issues early through counselling and verbal warnings, as the code allows.</li><li>For serious matters, gather facts: what happened, when, witnesses, evidence. Write it down.</li><li>Refer to HR or management; never discipline by shouting, threats, pay deductions or assault.</li><li>Apply rules consistently to everyone.</li></ul><h4>Poor performance</h4><p>Poor work performance is different from misconduct. The worker must be told the standard, given training and support, and time to improve before formal steps are taken.</p><h4>Grievances</h4><p>Workers may raise grievances about treatment, pay or conditions. Listen, record, try to resolve at your level if appropriate, and follow the grievance procedure. Never victimise a worker for raising a grievance.</p><h4>Wellbeing and fairness</h4><p>Farm work is physically hard. Supporting workers' wellbeing improves productivity and retention: clean water, toilets and shade in the field, fair allocation of work, respect, and recognition of good work. Be alert to signs of substance abuse, fatigue or personal problems and refer to the farm's support structures. Sexual harassment and discrimination must not be tolerated and must be reported.</p><h4>Records and confidentiality</h4><p>Keep attendance, leave, training, warnings and incident records accurate and confidential. Share them only with those who need them.</p><h4>Key points</h4><ul><li>Know the basics of the BCEA, LRA, EEA, OHS Act and sectoral wage rules.</li><li>Plan seasonal labour early and recruit fairly.</li><li>Induct every worker on safety, hygiene and rules, and record it.</li><li>Discipline must be fair in substance and procedure.</li><li>Never victimise workers for raising grievances.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which law mainly covers working hours, overtime and leave?",
+      "options": [
+        {
+          "text": "Basic Conditions of Employment Act",
+          "correct": true
+        },
+        {
+          "text": "Employment Equity Act",
+          "correct": false
+        },
+        {
+          "text": "National Water Act",
+          "correct": false
+        },
+        {
+          "text": "Skills Development Act",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which body handles many labour disputes about dismissal?",
+      "options": [
+        {
+          "text": "AgriSETA",
+          "correct": false
+        },
+        {
+          "text": "CCMA",
+          "correct": true
+        },
+        {
+          "text": "The packhouse",
+          "correct": false
+        },
+        {
+          "text": "The fire protection association",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is part of procedural fairness in discipline?",
+      "options": [
+        {
+          "text": "The foreman decides alone in anger",
+          "correct": false
+        },
+        {
+          "text": "The worker is not told the charge",
+          "correct": false
+        },
+        {
+          "text": "The worker can respond and be represented",
+          "correct": true
+        },
+        {
+          "text": "Pay is deducted immediately",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the recommended on-the-job training method?",
+      "options": [
+        {
+          "text": "Hand out a manual only",
+          "correct": false
+        },
+        {
+          "text": "Let workers figure it out",
+          "correct": false
+        },
+        {
+          "text": "Shout instructions from the bakkie",
+          "correct": false
+        },
+        {
+          "text": "Explain, demonstrate, practise, check",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A worker's pruning is consistently below standard. What should happen first?",
+      "options": [
+        {
+          "text": "Explain the standard and give training and time to improve",
+          "correct": true
+        },
+        {
+          "text": "Immediate dismissal",
+          "correct": false
+        },
+        {
+          "text": "Stop paying them",
+          "correct": false
+        },
+        {
+          "text": "Move them without telling them why",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Seasonal workers have the same basic employment rights as permanent workers for the period they work.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to give a worker worse tasks because they raised a grievance.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which topics belong in a new worker's induction? (select all that apply)",
+      "options": [
+        {
+          "text": "Safety rules and PPE",
+          "correct": true
+        },
+        {
+          "text": "Hygiene rules for working with fruit",
+          "correct": true
+        },
+        {
+          "text": "Working hours and pay",
+          "correct": true
+        },
+        {
+          "text": "The manager's personal finances",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

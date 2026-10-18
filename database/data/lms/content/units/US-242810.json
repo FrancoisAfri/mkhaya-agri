@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-242810",
+ "title": "Manage Expenditure against a budget",
+ "lessons": [
+  {
+   "title": "Understanding the budget",
+   "minutes": 20,
+   "html": "<h3>What a budget is</h3>\n<p>A budget is a financial plan for a period, usually a year, broken into months. It shows the expected income and the money each section may spend. For a supervisor of a stable yard, stud or farm section, the budget is your spending limit and your target.</p>\n<h4>Typical expense lines for an equine unit</h4>\n<table><tr><th>Category</th><th>Examples</th></tr>\n<tr><td>Feed</td><td>Hay, concentrates, supplements</td></tr>\n<tr><td>Bedding</td><td>Shavings, straw</td></tr>\n<tr><td>Veterinary and medicines</td><td>Vaccines, dewormers, call-outs</td></tr>\n<tr><td>Farrier</td><td>Trims, shoeing</td></tr>\n<tr><td>Labour</td><td>Wages, overtime, protective clothing</td></tr>\n<tr><td>Repairs and maintenance</td><td>Fences, stables, water systems</td></tr>\n<tr><td>Fuel and transport</td><td>Bakkie, horsebox, tractor</td></tr>\n<tr><td>Capital items</td><td>New saddles, a horsebox (usually a separate capital budget)</td></tr></table>\n<h3>How the budget is built</h3>\n<p>Budgets are usually based on last year's actual spending, adjusted for planned changes (more horses, a new arena) and price increases such as inflation and feed price rises. You may be asked to give input: number of horses, feed per horse per day, farrier cycles and planned projects. Accurate input leads to a realistic budget.</p>\n<h3>Fixed and variable costs</h3>\n<ul>\n<li><strong>Fixed costs</strong> stay the same regardless of activity, such as insurance or a fixed salary.</li>\n<li><strong>Variable costs</strong> change with activity, such as feed and bedding per horse.</li>\n</ul>\n<p>Knowing which is which helps you explain why spending goes up or down.</p>\n<h3>Your responsibilities</h3>\n<ul>\n<li>Know your budget lines and limits.</li>\n<li>Spend only on approved items, within your authority level.</li>\n<li>Follow the procurement policy: quotes, orders and approvals.</li>\n<li>Keep records and report variances.</li>\n</ul>"
+  },
+  {
+   "title": "Controlling spending and reporting variances",
+   "minutes": 20,
+   "html": "<h3>Controlling expenditure</h3>\n<ol>\n<li><strong>Plan purchases:</strong> use the monthly budget figure, not the annual total, as your guide. Seasonal items like winter hay may be planned for specific months.</li>\n<li><strong>Get quotes:</strong> follow the company rule, for example three quotes for items above a set amount in ZAR.</li>\n<li><strong>Use purchase orders:</strong> an approved order before buying, so that spending is authorised.</li>\n<li><strong>Check deliveries:</strong> count and check quality against the order and delivery note before signing.</li>\n<li><strong>Match invoices:</strong> order, delivery note and invoice must agree before payment.</li>\n<li><strong>Control stock:</strong> keep feed and medicine stock records to prevent waste and theft.</li>\n</ol>\n<h3>Monitoring: budget versus actual</h3>\n<p>Each month, compare what you spent with the budget.</p>\n<table><tr><th>Line</th><th>Budget (R)</th><th>Actual (R)</th><th>Variance (R)</th></tr>\n<tr><td>Feed</td><td>45 000</td><td>49 500</td><td>-4 500 (over)</td></tr>\n<tr><td>Bedding</td><td>8 000</td><td>7 200</td><td>+800 (under)</td></tr>\n<tr><td>Farrier</td><td>12 000</td><td>12 000</td><td>0</td></tr></table>\n<p>A <strong>variance</strong> is the difference between budget and actual. Investigate significant variances: why did feed cost R4 500 more? Perhaps the hay price rose after drought, or two extra horses arrived, or feed was wasted.</p>\n<h3>Taking action</h3>\n<ul>\n<li>For overspending: find savings elsewhere, reduce waste, renegotiate prices, or ask management for approval of extra spending with reasons.</li>\n<li>For underspending: check that it is a true saving and not a delayed purchase or a skipped task like maintenance.</li>\n<li>Report variances in writing, with causes and proposed actions, by the deadline.</li>\n</ul>\n<h3>Integrity</h3>\n<p>Never split orders to avoid approval limits, accept gifts from suppliers that could influence you, or buy for personal use with company funds. Report any irregularities.</p>\n<h4>Key points</h4>\n<ul>\n<li>A budget is a plan and a spending limit for each line.</li>\n<li>Know fixed and variable costs.</li>\n<li>Use quotes, purchase orders and invoice matching.</li>\n<li>Compare budget with actual monthly and investigate variances.</li>\n<li>Report variances with causes and actions; act with integrity.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a variance?",
+   "options": [
+    {
+     "text": "The difference between budget and actual spending",
+     "correct": true
+    },
+    {
+     "text": "A type of feed",
+     "correct": false
+    },
+    {
+     "text": "A supplier's invoice",
+     "correct": false
+    },
+    {
+     "text": "A capital item",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a variable cost in a stable yard?",
+   "options": [
+    {
+     "text": "Insurance premium",
+     "correct": false
+    },
+    {
+     "text": "Fixed manager salary",
+     "correct": false
+    },
+    {
+     "text": "Feed per horse",
+     "correct": true
+    },
+    {
+     "text": "Annual licence fee",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What three documents should agree before an invoice is paid?",
+   "options": [
+    {
+     "text": "Payslip, roster and invoice",
+     "correct": false
+    },
+    {
+     "text": "Budget, quote and leave form",
+     "correct": false
+    },
+    {
+     "text": "Delivery note, payslip and receipt",
+     "correct": false
+    },
+    {
+     "text": "Purchase order, delivery note and invoice",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Feed budget was R45 000 and actual was R49 500. What is the variance?",
+   "options": [
+    {
+     "text": "R4 500 under budget",
+     "correct": false
+    },
+    {
+     "text": "R4 500 over budget",
+     "correct": true
+    },
+    {
+     "text": "R94 500",
+     "correct": false
+    },
+    {
+     "text": "No variance",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check when spending appears under budget?",
+   "options": [
+    {
+     "text": "Nothing, it is always good",
+     "correct": false
+    },
+    {
+     "text": "That the bookkeeper is on leave",
+     "correct": false
+    },
+    {
+     "text": "That it is a true saving and not a delayed purchase or skipped task",
+     "correct": true
+    },
+    {
+     "text": "That the budget is deleted",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Splitting an order to avoid approval limits is acceptable if it saves time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Budgets are often based on last year's actual spending, adjusted for planned changes and price increases.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which actions can address overspending? (select all that apply)",
+   "options": [
+    {
+     "text": "Reduce waste",
+     "correct": true
+    },
+    {
+     "text": "Renegotiate prices",
+     "correct": true
+    },
+    {
+     "text": "Ask for approval with reasons",
+     "correct": true
+    },
+    {
+     "text": "Hide the invoices",
+     "correct": false
+    },
+    {
+     "text": "Stop reporting",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

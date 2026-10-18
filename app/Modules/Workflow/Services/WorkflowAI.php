@@ -30,7 +30,7 @@ class WorkflowAI extends BaseModuleAI
 
     protected function systemPrompt(): string
     {
-        return 'You assist with business workflow design in Mkhaya Hub. Use only the node types, assignee types, roles, operators and actions you are given. '
+        return 'You assist with business workflow design in Mkhaya Agri. Use only the node types, assignee types, roles, operators and actions you are given. '
             . 'Never invent people, roles, permissions, endpoints or actions. Be concise and plain.';
     }
 

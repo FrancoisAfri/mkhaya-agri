@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12618",
+  "title": "Demonstrate a basic understanding of agricultural production systems",
+  "lessons": [
+    {
+      "title": "What a production system is",
+      "minutes": 20,
+      "html": "<h3>What a production system is</h3><p>A production system is the way a farm puts together its land, water, animals or plants, people, machines and money to produce a product. Like a machine, it has inputs, processes and outputs.</p><table><tr><th>Inputs</th><th>Processes</th><th>Outputs</th></tr><tr><td>Land, water, seed, animals, feed, fertiliser, labour, fuel, money</td><td>Planting, irrigating, feeding, spraying, milking, harvesting</td><td>Grain, fruit, milk, meat, eggs, wool, plus waste such as manure</td></tr></table><p>If one part fails, for example the water pump breaks or feed runs out, the whole system is affected.</p><h4>Types of production systems</h4><ul><li><strong>Crop production:</strong> field crops (maize, wheat), horticulture (fruit and vegetables), or plantation crops (sugarcane, timber).</li><li><strong>Animal production:</strong> beef, dairy, small stock, pigs, poultry.</li><li><strong>Mixed farming:</strong> crops and animals on one farm, for example maize with cattle that graze the crop residues in winter.</li></ul><h4>Extensive and intensive systems</h4><table><tr><th>Extensive</th><th>Intensive</th></tr><tr><td>Large area, few inputs per hectare</td><td>Small area, many inputs per hectare</td></tr><tr><td>Cattle or sheep grazing on veld in the Karoo or bushveld</td><td>Feedlots, broiler houses, piggeries, greenhouse tomatoes</td></tr><tr><td>Dryland grain relying on rain</td><td>Irrigated orchards and vegetables</td></tr><tr><td>Lower cost, lower production per hectare</td><td>Higher cost, higher production per hectare, needs careful management</td></tr></table><h4>Dryland and irrigated</h4><p>Dryland farming depends on rainfall. Irrigated farming uses water from dams, rivers or boreholes, which allows higher and more reliable yields but costs more and needs a legal water use right under the National Water Act 36 of 1998.</p><p>Many South African farms combine several systems. A farm in the Western Cape may have irrigated vineyards, dryland wheat and a flock of sheep that grazes the stubble after harvest.</p>"
+    },
+    {
+      "title": "Organic, conventional and conservation systems",
+      "minutes": 20,
+      "html": "<h3>Organic, conventional and conservation systems</h3><h4>Conventional farming</h4><p>Conventional farms use registered chemical fertilisers, pesticides and herbicides, improved cultivars, and machinery to produce high yields. Chemicals must be registered under Act 36 of 1947 and used as the label says.</p><h4>Organic farming</h4><p>Organic farms do not use synthetic fertilisers and pesticides. They use compost, manure, crop rotation, natural enemies of pests and approved products. To sell as \"organic\", the farm must be certified and follow the standard of the certifying body. Organic products can fetch higher prices but yields may be lower and more labour is needed.</p><h4>Conservation agriculture</h4><p>Conservation agriculture is used more and more in South Africa on grain farms. Its three principles are:</p><ol><li><strong>Minimum soil disturbance:</strong> little or no ploughing; seed is planted directly into the residue of the last crop (no-till).</li><li><strong>Permanent soil cover:</strong> crop residues or cover crops always protect the soil.</li><li><strong>Crop rotation and diversity:</strong> different crops follow each other, for example maize, soybeans and a cover crop.</li></ol><p>It reduces erosion, saves fuel and improves soil water and health over time.</p><h4>Choosing a system</h4><p>The farm owner or manager chooses the system based on:</p><ul><li>climate, rainfall and soil;</li><li>water available;</li><li>markets and prices;</li><li>money available and the cost of inputs;</li><li>skills, labour and equipment;</li><li>risk, for example drought or disease.</li></ul><h4>Your role</h4><p>Whatever the system, each worker is part of it. Doing your job at the right time and in the right way, and reporting problems, keeps the whole system running. Understanding the system helps you see why tasks like rotating camps, recording inputs or keeping crop residue on the soil are important.</p><h4>Key points</h4><ul><li>A production system combines inputs and processes to make outputs.</li><li>Systems can be crop, animal or mixed.</li><li>Extensive systems use large areas with few inputs; intensive systems use many inputs on small areas.</li><li>Conventional, organic and conservation agriculture are different ways to farm.</li><li>Conservation agriculture: minimum disturbance, permanent soil cover and rotation.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which of these is an input in a production system?",
+      "options": [
+        {
+          "text": "Milk",
+          "correct": false
+        },
+        {
+          "text": "Fertiliser",
+          "correct": true
+        },
+        {
+          "text": "Wool",
+          "correct": false
+        },
+        {
+          "text": "Eggs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of an intensive system?",
+      "options": [
+        {
+          "text": "A broiler house",
+          "correct": true
+        },
+        {
+          "text": "Sheep grazing on Karoo veld",
+          "correct": false
+        },
+        {
+          "text": "Cattle in the bushveld",
+          "correct": false
+        },
+        {
+          "text": "Dryland grazing on a large area",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is mixed farming?",
+      "options": [
+        {
+          "text": "Mixing chemicals in a tank",
+          "correct": false
+        },
+        {
+          "text": "Farming only one crop",
+          "correct": false
+        },
+        {
+          "text": "Having both crops and animals on one farm",
+          "correct": true
+        },
+        {
+          "text": "Farming in two countries",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a principle of conservation agriculture?",
+      "options": [
+        {
+          "text": "Deep ploughing every season",
+          "correct": false
+        },
+        {
+          "text": "Burning crop residues",
+          "correct": false
+        },
+        {
+          "text": "Planting the same crop every year",
+          "correct": false
+        },
+        {
+          "text": "Permanent soil cover",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What must a farm have to sell its products as organic?",
+      "options": [
+        {
+          "text": "Certification from a certifying body",
+          "correct": true
+        },
+        {
+          "text": "A large tractor",
+          "correct": false
+        },
+        {
+          "text": "A borehole",
+          "correct": false
+        },
+        {
+          "text": "Green packaging",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Dryland farming depends on rainfall.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "In a production system, a failure in one part does not affect the rest.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What does a manager consider when choosing a production system? (select all that apply)",
+      "options": [
+        {
+          "text": "Climate and soil",
+          "correct": true
+        },
+        {
+          "text": "Markets and prices",
+          "correct": true
+        },
+        {
+          "text": "Water available",
+          "correct": true
+        },
+        {
+          "text": "The colour of the farm sign",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

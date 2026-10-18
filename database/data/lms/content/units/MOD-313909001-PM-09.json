@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-09",
+ "title": "Inspect and coordinate maintenance of equipment",
+ "lessons": [
+  {
+   "title": "Inspecting feed mill equipment",
+   "minutes": 15,
+   "html": "<h3>Why inspection matters</h3>\n<p>Most breakdowns give warning signs before they happen: noise, heat, vibration, leaks, wear or dust. Regular inspection catches these early so repairs can be planned during a stop instead of in the middle of a rush order. Inspection also prevents fires and dust explosions caused by hot bearings and misaligned belts.</p>\n<h4>Types of maintenance</h4>\n<ul>\n<li><strong>Breakdown maintenance</strong> – fix it when it fails. Costly and disruptive.</li>\n<li><strong>Preventive maintenance</strong> – planned tasks at set intervals, such as greasing, changing filters and replacing elevator buckets.</li>\n<li><strong>Condition-based maintenance</strong> – act based on measurements: vibration, temperature, wear checks, oil analysis.</li>\n</ul>\n<h4>Inspection checklist examples</h4>\n<table>\n<tr><th>Equipment</th><th>Check</th></tr>\n<tr><td>Bucket elevator</td><td>Belt tracking, bucket damage, head and boot condition, speed sensor, bearing temperature</td></tr>\n<tr><td>Hammer mill</td><td>Hammer wear, screen damage, vibration, magnet cleanliness</td></tr>\n<tr><td>Mixer</td><td>Ribbon or paddle wear, discharge door seal, leaking</td></tr>\n<tr><td>Pellet press</td><td>Die and roller wear, roller gap, lubrication, knives, safety interlocks</td></tr>\n<tr><td>Conveyors</td><td>Chain or screw wear, guards in place, spillage, drive condition</td></tr>\n<tr><td>Boiler and steam</td><td>Leaks, traps working, pressure gauges, records of inspections</td></tr>\n<tr><td>Dust filters</td><td>Bag condition, pressure differential, emission</td></tr>\n</table>\n<h4>How to inspect safely</h4>\n<ol>\n<li>Use the inspection checklist for each machine.</li>\n<li>For any check that needs covers opened or hands near moving parts, isolate and lock out first.</li>\n<li>Use your senses from a safe position on running equipment: listen, look, smell, and use an infrared thermometer for bearings.</li>\n<li>Record findings with details: what, where, how bad.</li>\n</ol><p>Operators are the first line of inspection. Train them to do simple daily checks on their own machines and to report findings on a defect card, so that small problems reach maintenance long before they cause a breakdown.</p>"
+  },
+  {
+   "title": "Coordinating maintenance work",
+   "minutes": 15,
+   "html": "<h3>From finding to fixing</h3>\n<ol>\n<li><strong>Report</strong> – log every defect on a job card or in the maintenance system with priority: urgent (safety or imminent failure), high (affects production soon), normal.</li>\n<li><strong>Plan</strong> – agree with the maintenance planner when the job will be done, which parts are needed and how long the equipment will be down.</li>\n<li><strong>Schedule</strong> – fit the job into the production plan, for example during a product changeover or a planned stop.</li>\n<li><strong>Prepare</strong> – empty and clean the equipment if needed; arrange lock-out and permits.</li>\n<li><strong>Hand over</strong> – formally hand the equipment to maintenance with lock-out applied by each person working on it.</li>\n<li><strong>Accept back</strong> – after the job, check guards are refitted, tools and parts removed, the area cleaned, and test run the machine before production resumes.</li>\n<li><strong>Close</strong> – sign off the job card and record the work done.</li>\n</ol>\n<h3>Hygiene after maintenance</h3>\n<p>Maintenance can contaminate feed with grease, metal, bolts, rags or glass. After work on product-contact equipment, check for loose items, clean thoroughly and, where the procedure requires, flush the line before running feed.</p>\n<h3>Contractors</h3>\n<p>Specialist work such as boiler inspections, electrical work and welding is often done by contractors. Make sure they are inducted, competent, have the correct permits and are supervised. Hot work in a mill needs a hot work permit, dust removed and a fire watch.</p>\n<h3>Spares and records</h3>\n<p>Keep critical spares in stock: hammer sets, screens, elevator buckets and belts, bearings, die and rollers. Record running hours and failures for each machine. Patterns, such as one bearing failing every month, show where root-cause work or a design change is needed.</p>\n<h4>Key points</h4>\n<ul>\n<li>Inspect regularly using checklists; most failures give early warning.</li>\n<li>Preventive and condition-based maintenance reduce costly breakdowns.</li>\n<li>Lock out before any check that needs covers opened.</li>\n<li>Report, plan, schedule, prepare, hand over, accept back and close each job.</li>\n<li>Clean and check for loose items after maintenance to protect feed safety.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which type of maintenance acts based on measurements such as vibration or temperature?",
+   "options": [
+    {
+     "text": "No maintenance",
+     "correct": false
+    },
+    {
+     "text": "Breakdown maintenance",
+     "correct": false
+    },
+    {
+     "text": "Cosmetic maintenance",
+     "correct": false
+    },
+    {
+     "text": "Condition-based maintenance",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you use to check bearing temperature on running equipment from a safe position?",
+   "options": [
+    {
+     "text": "An infrared thermometer",
+     "correct": true
+    },
+    {
+     "text": "A tape measure",
+     "correct": false
+    },
+    {
+     "text": "Your hand",
+     "correct": false
+    },
+    {
+     "text": "A broom",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A defect could cause a safety risk or imminent failure. What priority should it be given?",
+   "options": [
+    {
+     "text": "Low",
+     "correct": false
+    },
+    {
+     "text": "None",
+     "correct": false
+    },
+    {
+     "text": "Normal",
+     "correct": false
+    },
+    {
+     "text": "Urgent",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen before production resumes after maintenance?",
+   "options": [
+    {
+     "text": "Check guards, remove tools, clean, and test run",
+     "correct": true
+    },
+    {
+     "text": "Start immediately at full rate",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Only sign the job card",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must equipment be checked for loose items after maintenance?",
+   "options": [
+    {
+     "text": "Maintenance can leave grease, bolts or rags that contaminate feed",
+     "correct": true
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    },
+    {
+     "text": "To check paint",
+     "correct": false
+    },
+    {
+     "text": "To find lost money",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Most breakdowns give warning signs such as noise, heat or vibration before they happen.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hot work in a feed mill may be done without removing dust if the welder is experienced.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good examples of critical spares in a feed mill? (select all that apply)",
+   "options": [
+    {
+     "text": "Bearings",
+     "correct": true
+    },
+    {
+     "text": "Hammer sets and screens",
+     "correct": true
+    },
+    {
+     "text": "Elevator buckets and belts",
+     "correct": true
+    },
+    {
+     "text": "Office furniture",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

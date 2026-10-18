@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264193",
+ "title": "Manage the cut rose canopy",
+ "lessons": [
+  {
+   "title": "The rose canopy and its parts",
+   "minutes": 15,
+   "html": "<h3>What is the canopy?</h3>\n<p>The canopy is all the leaves and shoots of a rose plant above the frame. In greenhouse cut roses there are often two parts:</p>\n<ul><li><strong>Upper (production) canopy</strong> – the upright shoots that will become flowering stems for sale.</li>\n<li><strong>Lower (bent) canopy</strong> – shoots that have been bent over. Their leaves make food for the plant, but are not harvested.</li></ul>\n<p>A healthy, well-managed canopy means more stems, longer stems and better quality. A crowded, messy canopy gives short stems, disease and pests.</p>\n<h4>Why manage the canopy?</h4>\n<ul><li>Leaves are the plant's factory. Enough leaves are needed to feed new flowers.</li>\n<li>Light must reach the leaves; shaded leaves turn yellow and drop.</li>\n<li>Air must move through the plants to keep leaves dry and reduce mildew and botrytis.</li>\n<li>Sprays must reach all leaves to control pests like red spider mite.</li>\n<li>Harvesting is easier when the canopy is neat.</li></ul>\n<h4>Timing of flushes</h4>\n<p>Rose growers plan when flowers will be ready, for example for Valentine's Day or Mother's Day. Pinching and cutting at the right time controls when the next flush of flowers comes. Your supervisor sets the dates; you must follow them exactly.</p>"
+  },
+  {
+   "title": "Canopy tasks",
+   "minutes": 15,
+   "html": "<h3>Main canopy tasks</h3>\n<h4>Disbudding</h4>\n<p>For single-stem (standard) roses, side buds under the main bud are removed so all the energy goes to one big flower. Rub or snap off side buds while they are small, without damaging the main bud or leaves. For spray roses, the centre bud is often removed instead so the side buds open together. Follow the farm standard for each variety.</p>\n<h4>Bending</h4>\n<p>Thin, weak and blind (no flower) shoots are bent down into the lower canopy. Bend near the base, gently, so the stem cracks but does not break off.</p>\n<h4>Pinching</h4>\n<p>Pinching removes the soft tip of a shoot to make it branch or to time the next flower. Do it at the stage your supervisor shows you.</p>\n<h4>Cleaning the canopy</h4>\n<ul><li>Remove dead, yellow and diseased leaves and stems.</li>\n<li>Cut out old stubs (dead snags) that can rot.</li>\n<li>Remove suckers from the rootstock.</li>\n<li>Clear dropped leaves and petals from paths and beds.</li></ul>\n<h4>Support</h4>\n<p>Keep stems inside the support wires on each side of the bed. Move wires up as the canopy grows, so stems grow straight.</p>\n<h3>Working well</h3>\n<ul><li>Work one bed at a time, both sides.</li>\n<li>Keep your hands and tools clean. Disinfect secateurs between beds if there is disease.</li>\n<li>Report pests and diseases.</li>\n<li>Record the bed numbers you completed.</li></ul>\n<h3>Safety</h3>\n<ul><li>Gloves and long sleeves against thorns.</li>\n<li>Respect spray re-entry times.</li>\n<li>Drink water: greenhouses are hot. Take breaks.</li>\n<li>Rotate tasks and stretch to avoid back strain from bending all day.</li></ul>\n<h4>Key points</h4>\n<ul><li>The upper canopy produces flowering stems; the lower bent canopy feeds the plant.</li>\n<li>Light and air movement through the canopy reduce disease.</li>\n<li>Disbud standard roses so energy goes to one flower.</li>\n<li>Bend weak shoots, pinch to time flushes, and keep the canopy clean.</li>\n<li>Keep stems inside the support wires.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the job of the lower (bent) canopy?",
+   "options": [
+    {
+     "text": "To produce stems for sale",
+     "correct": false
+    },
+    {
+     "text": "To make food for the plant",
+     "correct": true
+    },
+    {
+     "text": "To hold the wires",
+     "correct": false
+    },
+    {
+     "text": "To attract pests",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is air movement through the canopy important?",
+   "options": [
+    {
+     "text": "It keeps leaves dry and reduces mildew and botrytis",
+     "correct": true
+    },
+    {
+     "text": "It makes roses smell",
+     "correct": false
+    },
+    {
+     "text": "It pulls stems down",
+     "correct": false
+    },
+    {
+     "text": "It removes thorns",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is disbudding on standard roses?",
+   "options": [
+    {
+     "text": "Removing the main flower bud",
+     "correct": false
+    },
+    {
+     "text": "Cutting the whole stem off",
+     "correct": false
+    },
+    {
+     "text": "Bending the stem",
+     "correct": false
+    },
+    {
+     "text": "Removing side buds so energy goes to one main flower",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is pinching used for?",
+   "options": [
+    {
+     "text": "Killing pests",
+     "correct": false
+    },
+    {
+     "text": "Removing roots",
+     "correct": false
+    },
+    {
+     "text": "Making a shoot branch or timing the next flower",
+     "correct": true
+    },
+    {
+     "text": "Feeding the plant",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with dead stubs (snags) in the canopy?",
+   "options": [
+    {
+     "text": "Leave them",
+     "correct": false
+    },
+    {
+     "text": "Cut them out because they can rot",
+     "correct": true
+    },
+    {
+     "text": "Paint them",
+     "correct": false
+    },
+    {
+     "text": "Bend them over",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stems should be kept inside the support wires on the sides of the bed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A crowded, shaded canopy gives longer, better stems.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are canopy management tasks? (select all that apply)",
+   "options": [
+    {
+     "text": "Disbudding",
+     "correct": true
+    },
+    {
+     "text": "Bending weak shoots",
+     "correct": true
+    },
+    {
+     "text": "Removing dead and diseased leaves",
+     "correct": true
+    },
+    {
+     "text": "Leaving suckers on the plant",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

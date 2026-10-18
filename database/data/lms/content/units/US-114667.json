@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114667",
+ "title": "Test vigour of seed",
+ "lessons": [
+  {
+   "title": "Seed vigour and preparing the work area",
+   "minutes": 20,
+   "html": "<h3>What is seed vigour?</h3><p>The standard germination test tells you how many seeds can produce normal seedlings under ideal laboratory conditions. But fields are seldom ideal: soils are cold, wet, crusted or dry. <strong>Seed vigour</strong> describes how well a seed lot will perform under a range of conditions. Two lots can both germinate at 90% in the lab, yet one may emerge poorly in a cold, wet Free State spring because its vigour is lower.</p><p>Vigour tests help seed companies rank lots, decide which lots to sell first, which to carry over, and which to send to areas with difficult planting conditions.</p><h4>Common vigour tests</h4><table><tr><th>Test</th><th>Principle</th><th>Often used for</th></tr><tr><td>Accelerated ageing</td><td>Seed is exposed to high temperature and humidity, then germinated; high-vigour seed survives the stress better</td><td>Soybean and other large-seeded crops</td></tr><tr><td>Electrical conductivity</td><td>Seeds soaked in water leak electrolytes; weaker membranes leak more, giving higher readings</td><td>Garden pea and other legumes</td></tr><tr><td>Cold test</td><td>Seed is planted in cold, moist field soil, then moved to warm conditions</td><td>Maize</td></tr><tr><td>Seedling growth / evaluation</td><td>Seedling length or dry mass is measured</td><td>Various</td></tr></table><p>Methods validated by ISTA are described in the ISTA Rules and the ISTA Handbook on Seed Vigour Testing. Your laboratory's standard operating procedure (SOP) sets the exact temperatures, times and volumes; follow it precisely.</p><h4>Preparing the work area</h4><ul><li>Clean benches and wipe them down; remove seed from previous tests to avoid mix-ups.</li><li>Check that the ageing chamber, germinator, water bath or conductivity meter is switched on, at the correct setting and within its calibration date.</li><li>Prepare deionised or distilled water, clean containers, germination paper or sand.</li><li>Wear a lab coat, and gloves and a dust mask when handling treated seed. Know where the safety data sheets are.</li></ul>"
+  },
+  {
+   "title": "Preparing samples and documentation",
+   "minutes": 20,
+   "html": "<h3>The sample</h3><p>A vigour result is only as good as the sample. The working sample must represent the whole seed lot.</p><h4>Receiving the sample</h4><ol><li>Check the submitted sample label against the request form: crop, cultivar, lot number, test requested, client.</li><li>Record the sample in the lab register and give it a unique laboratory number.</li><li>Note the condition of the sample: treated or untreated, damaged packaging, unusual smell.</li></ol><h4>Drawing the working sample</h4><ul><li>Mix and divide the submitted sample using a mechanical divider or the method in the SOP, so the working sample is random.</li><li>Use <strong>pure seed</strong> from the purity analysis where the method requires it.</li><li>Count out the replicates required by the SOP, for example a set number of replicates of a set number of seeds. Do not pick out only good-looking seeds; that biases the result.</li></ul><h4>Moisture content</h4><p>For several vigour tests, especially accelerated ageing and conductivity, the starting seed moisture content affects the result. The SOP will state whether moisture must be determined first and the acceptable range. If moisture is outside the range, the result may not be valid and the supervisor must decide how to proceed.</p><h4>Documentation</h4><p>Prepare the worksheet before you start. It should include:</p><ul><li>Lab number, lot number, crop and cultivar</li><li>Test method and SOP version</li><li>Equipment identification and settings</li><li>Start date and time, analyst name</li><li>Space for each replicate's readings or counts</li></ul><p>Label every container, towel roll or tray with the lab number and replicate number in waterproof marker. Many mistakes in seed labs come from unlabelled or swapped replicates. Accredited laboratories must be able to trace each result back to the sample, the equipment and the person who did the work.</p>"
+  },
+  {
+   "title": "Conducting and evaluating the vigour test",
+   "minutes": 20,
+   "html": "<h3>Conducting the test</h3><p>Follow the SOP step by step and record times and conditions as you go. Two examples:</p><h4>Electrical conductivity (outline)</h4><ol><li>Weigh each replicate and record the mass.</li><li>Place the seeds in a measured volume of deionised water in a labelled container, with a blank container of water only.</li><li>Keep containers at the set temperature for the set soak time.</li><li>Swirl gently, then measure conductivity with a calibrated meter, rinsing the probe between readings.</li><li>Subtract the blank and calculate conductivity per gram of seed as the SOP prescribes.</li></ol><h4>Accelerated ageing (outline)</h4><ol><li>Spread a single layer of seed on the mesh tray above water in the ageing box.</li><li>Place boxes in the ageing chamber at the set temperature for the set time. Do not open the chamber during ageing.</li><li>Remove the seed and set up a standard germination test immediately.</li><li>Count normal seedlings at the time stated in the method.</li></ol><h4>Evaluating results</h4><ul><li>Check that replicates agree within the tolerance in the SOP or ISTA tables. If they do not, the test may need to be repeated.</li><li>Calculate the mean result.</li><li>Interpret relative to standards: for conductivity, lower values mean higher vigour; for accelerated ageing, a higher germination after ageing means higher vigour.</li><li>Compare against the lab's or company's vigour categories (for example high, medium, low) and the standard germination of the same lot.</li></ul><h4>Completing the process</h4><ul><li>Enter results into the system and have them checked by a second person or senior analyst.</li><li>Issue the report with method, result, and any remarks such as moisture outside range.</li><li>Dispose of used seed, especially treated seed, as hazardous waste per the farm or lab procedure.</li><li>Clean equipment, record maintenance and return retained samples to storage.</li></ul><h4>Key points</h4><ul><li>Vigour predicts performance under stress better than germination alone.</li><li>Follow the SOP and ISTA method exactly; record every setting.</li><li>Use a random, representative working sample and label every replicate.</li><li>Check replicate tolerance before reporting.</li><li>Lower conductivity and higher post-ageing germination indicate higher vigour.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a seed vigour test tell you that a standard germination test does not?",
+   "options": [
+    {
+     "text": "The seed's cultivar name",
+     "correct": false
+    },
+    {
+     "text": "The seed's price",
+     "correct": false
+    },
+    {
+     "text": "How well the lot is likely to perform under less-than-ideal conditions",
+     "correct": true
+    },
+    {
+     "text": "The seed's colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the electrical conductivity test, what does a high reading usually indicate?",
+   "options": [
+    {
+     "text": "Lower vigour, because weak membranes leak more",
+     "correct": true
+    },
+    {
+     "text": "Higher vigour",
+     "correct": false
+    },
+    {
+     "text": "High seed moisture only",
+     "correct": false
+    },
+    {
+     "text": "That the meter is off",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which test is commonly used for maize vigour?",
+   "options": [
+    {
+     "text": "Conductivity test on peas",
+     "correct": false
+    },
+    {
+     "text": "Tetrazolium on grass",
+     "correct": false
+    },
+    {
+     "text": "Purity test",
+     "correct": false
+    },
+    {
+     "text": "Cold test",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must you not pick out only good-looking seeds for the working sample?",
+   "options": [
+    {
+     "text": "It takes too long",
+     "correct": false
+    },
+    {
+     "text": "It biases the result so it no longer represents the lot",
+     "correct": true
+    },
+    {
+     "text": "Good-looking seeds are always treated",
+     "correct": false
+    },
+    {
+     "text": "The SOP asks for damaged seeds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if replicates do not agree within the SOP tolerance?",
+   "options": [
+    {
+     "text": "Report the highest replicate",
+     "correct": false
+    },
+    {
+     "text": "Average them and ignore it",
+     "correct": false
+    },
+    {
+     "text": "Consider repeating the test as the SOP directs",
+     "correct": true
+    },
+    {
+     "text": "Throw away the worksheet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seed moisture content at the start can affect accelerated ageing and conductivity results.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A higher germination after accelerated ageing means lower vigour.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be recorded on a vigour test worksheet? (select all that apply)",
+   "options": [
+    {
+     "text": "Lab number and lot number",
+     "correct": true
+    },
+    {
+     "text": "Equipment identification and settings",
+     "correct": true
+    },
+    {
+     "text": "The analyst's home address",
+     "correct": false
+    },
+    {
+     "text": "Test method and SOP version",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

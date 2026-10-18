@@ -60,7 +60,7 @@
 @endif
 
 <div class="footer">
-  Mkhaya Hub &bull; Performance Management &bull; {{ $generatedAt }}
+  Mkhaya Agri &bull; Performance Management &bull; {{ $generatedAt }}
 </div>
 
 </body>

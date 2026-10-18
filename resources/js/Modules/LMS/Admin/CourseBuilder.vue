@@ -378,7 +378,7 @@ async function runAiGenerate() {
                     <VBtn size="small" variant="tonal" color="primary" prepend-icon="tabler-edit" @click="openEditLesson(selectedLesson)">{{ t('lms_course_builder.builder.edit') }}</VBtn>
                   </div>
                   <div v-if="selectedLesson.external_url" class="mb-3"><p class="text-caption text-medium-emphasis mb-1">{{ t('lms_course_builder.builder.external_url_label') }}</p><a :href="selectedLesson.external_url" target="_blank" class="text-body-2 text-primary">{{ selectedLesson.external_url }}</a></div>
-                  <div v-if="selectedLesson.content_body" class="mb-0"><p class="text-caption text-medium-emphasis mb-1">{{ t('lms_course_builder.builder.content_label') }}</p><VCard elevation="0" color="surface-variant" rounded="lg" class="pa-3"><p class="text-body-2 mb-0 lesson-body">{{ selectedLesson.content_body }}</p></VCard></div>
+                  <div v-if="selectedLesson.content_body" class="mb-0"><p class="text-caption text-medium-emphasis mb-1">{{ t('lms_course_builder.builder.content_label') }}</p><VCard elevation="0" variant="outlined" rounded="lg" class="pa-4"><!-- Rendered as the learner sees it; the same HTML the lesson player shows with v-html. --><div class="text-body-2 lesson-html-preview" v-html="selectedLesson.content_body" /></VCard></div>
                 </VCardText>
               </VCard>
               <VCard rounded="lg" elevation="0" border>
@@ -596,6 +596,11 @@ async function runAiGenerate() {
 </template>
 
 <style scoped>
+.lesson-html-preview { max-height: 420px; overflow-y: auto; }
+.lesson-html-preview :deep(h3) { font-size: 1.05rem; font-weight: 600; margin: 0 0 .5rem; }
+.lesson-html-preview :deep(h4) { font-size: .95rem; font-weight: 600; margin: .75rem 0 .35rem; }
+.lesson-html-preview :deep(p), .lesson-html-preview :deep(ul), .lesson-html-preview :deep(ol) { margin: 0 0 .6rem; }
+.lesson-html-preview :deep(ul), .lesson-html-preview :deep(ol) { padding-left: 1.25rem; }
 .lesson-body { white-space: pre-wrap; max-height: 180px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; }
 .upload-zone { border: 2px dashed rgba(var(--v-border-color), var(--v-border-opacity)); min-height: 140px; transition: border-color 0.2s; }
 .upload-zone:hover { border-color: rgb(var(--v-theme-primary)); }

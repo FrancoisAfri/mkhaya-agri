@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8978",
+ "title": "Motivate judgements on selected literary texts",
+ "lessons": [
+  {
+   "title": "Forming a judgement",
+   "minutes": 20,
+   "html": "<h3>What it means to motivate a judgement</h3><p>To motivate a judgement means to state a clear opinion about a literary text and support it with reasons and evidence so that others can follow and assess your thinking. \"I liked this story\" is a preference. \"This story is effective because its spare, repetitive language mirrors the monotony of the farm worker's life, as seen in...\" is a motivated judgement.</p><h4>Types of judgement</h4><ul><li><strong>Aesthetic:</strong> about the quality of the writing and its artistry.</li><li><strong>Interpretive:</strong> about what the text means.</li><li><strong>Ethical or social:</strong> about the values the text promotes or challenges, and how it represents people and society.</li><li><strong>Relevance:</strong> about the text's significance for a particular audience today.</li></ul><h4>Developing your judgement</h4><ol><li>Read the text more than once.</li><li>Note your first response honestly, then ask why you responded that way.</li><li>Gather evidence: quotations, events, images, structural features.</li><li>Consider the writer's purpose, audience and context.</li><li>Test your view: what would someone who disagrees say? Is your evidence strong enough?</li><li>Refine your judgement into a clear thesis statement.</li></ol><h4>Example thesis statements</h4><ul><li>\"In this poem about a drought-stricken farm, the poet's use of silence and empty space on the page is more powerful than any description of suffering could be.\"</li><li>\"The play's portrayal of the farm owner is one-dimensional, which weakens its message about reconciliation.\"</li></ul><p>A good thesis is specific, arguable and can be supported with evidence from the text.</p>"
+  },
+  {
+   "title": "Supporting and presenting a judgement",
+   "minutes": 20,
+   "html": "<h3>Building the argument</h3><p>Every claim needs support. Use a clear structure for each point:</p><ol><li><strong>Claim:</strong> what you are arguing.</li><li><strong>Evidence:</strong> a short quotation or specific reference to the text.</li><li><strong>Analysis:</strong> how the evidence supports the claim, focusing on technique and effect.</li><li><strong>Link:</strong> how this point connects to your overall judgement.</li></ol><h4>Kinds of evidence</h4><ul><li>Direct quotation, kept short and accurate.</li><li>Reference to events, dialogue or a character's actions.</li><li>Patterns: repeated images, symbols, words.</li><li>Structural features: the order of events, a surprise ending, a shift in narrator.</li><li>Context: historical or biographical information, used to illuminate, not replace, analysis of the text.</li><li>Critical opinions: views of published critics, acknowledged as such.</li></ul><h4>Avoiding weak arguments</h4><table><tr><th>Weakness</th><th>Example</th><th>Fix</th></tr><tr><td>Unsupported claim</td><td>\"The ending is bad.\"</td><td>Explain why with evidence.</td></tr><tr><td>Plot summary instead of analysis</td><td>Retelling the story</td><td>Focus on how and why.</td></tr><tr><td>Over-generalising</td><td>\"All farm novels are sad.\"</td><td>Limit claims to the text discussed.</td></tr><tr><td>Judging the author, not the text</td><td>\"The writer is a bad person.\"</td><td>Discuss the writing and its effects.</td></tr></table><h4>Presenting orally</h4><p>In a discussion or presentation, state your judgement early, give two or three well-supported reasons, read short quotations clearly, and finish by summarising. Speak to the audience, not to your notes.</p>"
+  },
+  {
+   "title": "Responding to other judgements",
+   "minutes": 15,
+   "html": "<h3>Engaging with different views</h3><p>Readers bring different experiences to a text. A farm worker, a landowner and a student in the city may respond very differently to the same story about land. These differences can enrich understanding.</p><h4>Respectful debate</h4><ul><li>Listen fully to another reader's judgement before responding.</li><li>Identify their claim and their evidence.</li><li>Acknowledge strong points: \"You make a good point about the symbolism of the windmill.\"</li><li>Respond with evidence, not emotion: \"However, in the final chapter...\"</li><li>Be willing to adjust your view if their argument is stronger.</li></ul><h4>Evaluating critics' judgements</h4><p>When reading a review or critical essay, ask: What is the critic's thesis? What evidence do they use? Do they consider the text's context? Do they acknowledge other views? Do you agree, and why?</p><h4>Reflecting on your own judgement</h4><p>After discussion, write a short reflection: Has your judgement changed? What persuaded you? What would you look for in your next reading? This reflective habit strengthens critical thinking.</p><h4>Application at work</h4><p>Motivating judgements is a core business skill. Recommending a supplier, defending a promotion budget, or responding to a customer's complaint all require a clear position supported by evidence, presented respectfully, with openness to other views.</p><h4>Key points</h4><ul><li>A motivated judgement is a clear opinion supported by reasons and evidence.</li><li>Write a specific, arguable thesis.</li><li>Use claim, evidence, analysis and link for each point.</li><li>Avoid unsupported claims, plot summary and over-generalising.</li><li>Engage respectfully with other views and be willing to refine your own.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a motivated judgement rather than a preference?",
+   "options": [
+    {
+     "text": "I liked this story",
+     "correct": false
+    },
+    {
+     "text": "This story is effective because its repetitive language mirrors the monotony of farm life",
+     "correct": true
+    },
+    {
+     "text": "I did not finish it",
+     "correct": false
+    },
+    {
+     "text": "It was long",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What makes a good thesis statement?",
+   "options": [
+    {
+     "text": "It is a question",
+     "correct": false
+    },
+    {
+     "text": "It is specific, arguable and supportable",
+     "correct": true
+    },
+    {
+     "text": "It summarises the plot",
+     "correct": false
+    },
+    {
+     "text": "It is vague",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an unsupported claim?",
+   "options": [
+    {
+     "text": "The narrator's shift in chapter 5 creates suspense.",
+     "correct": false
+    },
+    {
+     "text": "The ending is abrupt, as the final line cuts off mid-sentence, leaving the conflict unresolved.",
+     "correct": false
+    },
+    {
+     "text": "The repeated image of dust reinforces drought.",
+     "correct": false
+    },
+    {
+     "text": "The ending is bad.",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should context be used for in an argument?",
+   "options": [
+    {
+     "text": "To avoid quoting",
+     "correct": false
+    },
+    {
+     "text": "To replace analysis",
+     "correct": false
+    },
+    {
+     "text": "To fill space",
+     "correct": false
+    },
+    {
+     "text": "To illuminate analysis of the text",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When another reader makes a stronger argument, what should you do?",
+   "options": [
+    {
+     "text": "Ignore them",
+     "correct": false
+    },
+    {
+     "text": "Be willing to adjust your view",
+     "correct": true
+    },
+    {
+     "text": "Raise your voice",
+     "correct": false
+    },
+    {
+     "text": "Change the topic",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Judging the author as a person is the same as evaluating the text.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Different readers can respond differently to the same text because of their experiences.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are valid kinds of evidence for a literary judgement? (select all that apply)",
+   "options": [
+    {
+     "text": "Short accurate quotations",
+     "correct": true
+    },
+    {
+     "text": "Patterns of images or symbols",
+     "correct": true
+    },
+    {
+     "text": "Structural features",
+     "correct": true
+    },
+    {
+     "text": "Rumours about the author",
+     "correct": false
+    },
+    {
+     "text": "Your neighbour's unrelated opinion",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

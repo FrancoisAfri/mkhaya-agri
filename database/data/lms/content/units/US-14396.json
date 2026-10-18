@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-14396",
+  "title": "Demonstrate an understanding of grafting vines on a commercial scale",
+  "lessons": [
+    {
+      "title": "Why vines are grafted",
+      "minutes": 15,
+      "html": "<h3>Rootstock and scion</h3><p>Wine grapes and table grapes in South Africa are almost always grown as <strong>grafted vines</strong>. A grafted vine has two parts:</p><ul><li>The <strong>rootstock</strong>: the bottom part that forms the roots.</li><li>The <strong>scion</strong>: the top part, the cultivar that gives the grapes, for example Chenin Blanc, Cabernet Sauvignon or a table grape cultivar.</li></ul><h4>Why graft?</h4><p>The main reason is a small insect called <strong>phylloxera</strong>. It lives in the soil and attacks the roots of the European grapevine (Vitis vinifera). It destroyed many vineyards around the world, including in South Africa, in the late 1800s. American vine species and their crosses have roots that resist phylloxera, so they are used as rootstocks. Rootstocks also help with:</p><ul><li>Resistance to nematodes (tiny soil worms).</li><li>Suitability to the soil, for example wet, dry or limey soils.</li><li>Controlling how strongly the vine grows.</li></ul><h4>Commercial vine nurseries</h4><p>Nurseries make many thousands of grafted vines each year. They work with <strong>certified</strong>, virus-tested material from registered mother plantings, so that diseases such as leafroll virus are not spread to new vineyards. Every batch is labelled with the scion cultivar, clone and rootstock.</p><h4>Collecting material</h4><p>In winter, when the vines are dormant, canes are cut from the rootstock and scion mother plants. They are cut to length, bundled, labelled, treated as the nursery prescribes and kept cool and moist in cold storage until grafting. Canes must never dry out.</p><p>Labels and records follow each batch all the way from the mother planting to the farmer, so the cultivar, clone and rootstock of every vine can be traced.</p>"
+    },
+    {
+      "title": "Bench grafting, callusing and planting out",
+      "minutes": 15,
+      "html": "<h3>Bench grafting</h3><p>Most commercial vines are <strong>bench grafted</strong>: grafting is done indoors at a work table, not in the vineyard. A common method uses a grafting machine that cuts an omega-shaped (or similar) joint.</p><ol><li>Soak the canes in clean water if the nursery instructs, so they are full of water.</li><li>Prepare rootstock cuttings: remove all buds so the rootstock does not grow its own shoots.</li><li>Prepare scion pieces with one good bud each.</li><li>Match the thickness of scion and rootstock so the cambium (the green growing layer) lines up on both sides.</li><li>Cut and join them with the machine. The joint must fit tightly.</li><li>Dip the top of the graft in grafting wax to stop it drying out, as instructed.</li></ol><h3>Callusing</h3><p>The grafted cuttings are packed in boxes with a moist medium such as sawdust or perlite and kept in a warm, humid callusing room for a few weeks. During this time the two parts form <strong>callus</strong>, soft new tissue that grows them together. Workers check temperature, moisture and mould.</p><h3>Planting out and grading</h3><p>After callusing, the grafts are planted in nursery beds, often through plastic mulch, and irrigated. They grow roots and a shoot through the season. In winter they are lifted, and each vine is <strong>graded</strong>: the union must be fully healed all around, with good roots and a good shoot. Weak or poorly joined vines are thrown out.</p><h4>Quality and hygiene</h4><ul><li>Keep tools and machines clean and disinfect them as instructed.</li><li>Never mix labels or batches.</li><li>Work quickly so cut surfaces do not dry.</li></ul><h4>Safety</h4><p>Grafting machines and knives are sharp. Keep fingers clear of the cutting blades, never remove guards and switch off before cleaning.</p><h4>Key points</h4><ul><li>Vines are grafted onto rootstocks mainly to resist phylloxera.</li><li>Use certified, virus-tested material and label every batch.</li><li>Bench grafting joins scion and rootstock with a tight fit of the cambium.</li><li>Callusing in warm, humid conditions grows the parts together.</li><li>Grafted vines are graded and weak unions are thrown out.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the main reason grapevines are grafted onto rootstocks?",
+      "options": [
+        {
+          "text": "To make the grapes red",
+          "correct": false
+        },
+        {
+          "text": "To resist the root insect phylloxera",
+          "correct": true
+        },
+        {
+          "text": "To make the vines flower in winter",
+          "correct": false
+        },
+        {
+          "text": "To avoid pruning",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which part of a grafted vine gives the grape cultivar?",
+      "options": [
+        {
+          "text": "The scion",
+          "correct": true
+        },
+        {
+          "text": "The rootstock",
+          "correct": false
+        },
+        {
+          "text": "The callus",
+          "correct": false
+        },
+        {
+          "text": "The wax",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why are all buds removed from the rootstock cutting?",
+      "options": [
+        {
+          "text": "To make it lighter",
+          "correct": false
+        },
+        {
+          "text": "To help it dry out",
+          "correct": false
+        },
+        {
+          "text": "So the rootstock does not grow its own shoots",
+          "correct": true
+        },
+        {
+          "text": "To make the scion fit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is callus?",
+      "options": [
+        {
+          "text": "A vine disease",
+          "correct": false
+        },
+        {
+          "text": "A type of rootstock",
+          "correct": false
+        },
+        {
+          "text": "A grafting tool",
+          "correct": false
+        },
+        {
+          "text": "Soft new tissue that grows the two parts together",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When are canes collected from mother plants?",
+      "options": [
+        {
+          "text": "In winter when vines are dormant",
+          "correct": true
+        },
+        {
+          "text": "At harvest time",
+          "correct": false
+        },
+        {
+          "text": "During flowering",
+          "correct": false
+        },
+        {
+          "text": "Any day of the year",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Nurseries should use certified, virus-tested material to avoid spreading diseases like leafroll.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Vines with a poorly healed union should be sold anyway.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are good practices in vine grafting? (select all that apply)",
+      "options": [
+        {
+          "text": "Match scion and rootstock thickness",
+          "correct": true
+        },
+        {
+          "text": "Let cut surfaces dry before joining",
+          "correct": false
+        },
+        {
+          "text": "Keep labels and batches separate",
+          "correct": true
+        },
+        {
+          "text": "Keep tools clean and disinfected as instructed",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

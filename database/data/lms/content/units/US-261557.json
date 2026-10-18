@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261557",
+ "title": "Explain slaughter procedures and related animal welfare concerns",
+ "lessons": [
+  {
+   "title": "Categories of slaughter, the law and abattoir species",
+   "minutes": 15,
+   "html": "<h3>Categories of slaughter</h3>\n<p>Animals are slaughtered in South Africa in several different settings. Each has its own rules and welfare risks.</p>\n<ul><li><strong>Commercial slaughter</strong> at a registered abattoir, where meat is inspected and sold to the public.</li>\n<li><strong>Religious slaughter</strong>, such as halaal and kosher slaughter, done according to religious rules, usually in abattoirs registered for that purpose.</li>\n<li><strong>Traditional or cultural slaughter</strong>, for example a goat or ox slaughtered at home for a ceremony.</li>\n<li><strong>Slaughter for own consumption</strong> on the farm, where the meat is not sold.</li>\n<li><strong>Emergency slaughter</strong> of an injured animal that is fit to be eaten, and <strong>killing for disease control</strong>, where carcasses are destroyed, not eaten.</li></ul>\n<h4>Legislation</h4>\n<ul><li><strong>Meat Safety Act 40 of 2000</strong>: requires animals slaughtered for meat for sale to be slaughtered at a registered abattoir, with ante-mortem and post-mortem inspection, and sets hygiene and humane slaughter standards. It allows for slaughter for own consumption and for religious or cultural purposes under conditions.</li>\n<li><strong>Animals Protection Act 71 of 1962</strong>: applies everywhere, including at home and at the abattoir. Causing unnecessary suffering during handling, transport or killing is an offence.</li>\n<li><strong>Animal Diseases Act 35 of 1984</strong>: controls movement and slaughter linked to disease control.</li></ul>\n<p>Industry codes and the Meat Safety Act regulations require trained operators, correct stunning equipment and calm handling in lairages.</p>\n<h4>Species slaughtered in abattoirs</h4>\n<table><tr><th>Type</th><th>Species</th></tr>\n<tr><td>Red meat</td><td>Cattle, sheep, goats, pigs, horses (for export and other markets)</td></tr>\n<tr><td>White meat</td><td>Chickens, ducks, turkeys, ostriches (handled in ostrich abattoirs)</td></tr>\n<tr><td>Other</td><td>Game species, rabbits, crocodiles in specialised facilities</td></tr></table>\n<p>Some carcasses or animals are slaughtered for <em>non-human</em> use, such as pet food or animal feed. These must be kept separate and clearly marked so that they never enter the human food chain.</p>"
+  },
+  {
+   "title": "The slaughter process in red and white meat abattoirs",
+   "minutes": 18,
+   "html": "<h3>Red meat abattoirs</h3>\n<ol><li><strong>Arrival and lairage</strong>: animals are offloaded calmly and rested in pens with water. Injured animals are identified at once.</li>\n<li><strong>Ante-mortem inspection</strong>: a meat inspector checks animals for disease, injury and fitness for slaughter.</li>\n<li><strong>Moving to the stunning box</strong>: along a race without shouting, sticks or electric prodders used carelessly.</li>\n<li><strong>Stunning</strong>: cattle are usually stunned with a penetrating captive bolt; sheep and pigs often with electrical head-only stunning. The animal must be unconscious immediately.</li>\n<li><strong>Shackling and bleeding (sticking)</strong>: the main blood vessels are cut quickly after stunning so that the animal dies before it can regain consciousness.</li>\n<li><strong>Dressing</strong>: removing the head, feet and hide, then evisceration (removing the organs).</li>\n<li><strong>Post-mortem inspection</strong> of carcass and organs, then splitting, washing, classification and chilling.</li></ol>\n<h4>Welfare checkpoints</h4>\n<ul><li>Short time from stun to stick.</li>\n<li>Check every animal for signs of consciousness after stunning: rhythmic breathing, blinking when the eye is touched, trying to lift the head, or vocalising. If seen, re-stun immediately.</li>\n<li>Equipment maintained and a back-up stunner ready.</li></ul>\n<h3>White meat abattoirs</h3>\n<ol><li><strong>Receiving</strong>: crates of birds are kept in shade with ventilation. Dead-on-arrival birds are counted.</li>\n<li><strong>Shackling</strong>: live birds are hung by the legs gently. Rough shackling causes broken legs and bruising.</li>\n<li><strong>Stunning</strong>: most often an electrical water-bath, sometimes controlled-atmosphere systems.</li>\n<li><strong>Neck cutting and bleeding</strong>, by machine with a back-up person to catch missed birds.</li>\n<li><strong>Scalding and plucking</strong>, then evisceration, inspection and chilling in air or water.</li>\n<li><strong>Portioning and packing</strong>.</li></ol>\n<p>A bird must never enter the scald tank alive. The back-up operator is the key welfare safeguard.</p>\n<h4>Key points</h4>\n<ul><li>Slaughter categories include commercial, religious, cultural, own consumption and emergency slaughter.</li>\n<li>Meat for sale must come from a registered abattoir under the Meat Safety Act 40 of 2000.</li>\n<li>The Animals Protection Act 71 of 1962 applies to all slaughter.</li>\n<li>Stunning must cause immediate unconsciousness, followed quickly by bleeding.</li>\n<li>Check for signs of consciousness and re-stun at once if needed.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Under which Act must meat for sale come from a registered abattoir?",
+   "options": [
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": true
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What stunning method is usually used for cattle?",
+   "options": [
+    {
+     "text": "Carbon dioxide",
+     "correct": false
+    },
+    {
+     "text": "No stunning",
+     "correct": false
+    },
+    {
+     "text": "Penetrating captive bolt",
+     "correct": true
+    },
+    {
+     "text": "Water-bath stunning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign that an animal may be conscious after stunning?",
+   "options": [
+    {
+     "text": "No movement at all",
+     "correct": false
+    },
+    {
+     "text": "No response when the eye is touched",
+     "correct": false
+    },
+    {
+     "text": "Fixed, dilated pupils",
+     "correct": false
+    },
+    {
+     "text": "Rhythmic breathing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen if an animal shows signs of consciousness after stunning?",
+   "options": [
+    {
+     "text": "Wait for it to die",
+     "correct": false
+    },
+    {
+     "text": "Continue dressing",
+     "correct": false
+    },
+    {
+     "text": "Re-stun immediately",
+     "correct": true
+    },
+    {
+     "text": "Move it back to lairage",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the key welfare safeguard at the neck cutter in a poultry abattoir?",
+   "options": [
+    {
+     "text": "A faster line speed",
+     "correct": false
+    },
+    {
+     "text": "A hotter scald tank",
+     "correct": false
+    },
+    {
+     "text": "The back-up operator",
+     "correct": true
+    },
+    {
+     "text": "More birds per crate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The Animals Protection Act 71 of 1962 applies to slaughter at home as well as in abattoirs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Animals slaughtered for pet food may be mixed with meat for human consumption if they look healthy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps form part of the red meat slaughter process? (select all that apply)",
+   "options": [
+    {
+     "text": "Scalding and plucking",
+     "correct": false
+    },
+    {
+     "text": "Ante-mortem inspection",
+     "correct": true
+    },
+    {
+     "text": "Post-mortem inspection",
+     "correct": true
+    },
+    {
+     "text": "Stunning",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

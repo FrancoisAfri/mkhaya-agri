@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-11235",
+ "title": "Maintain effective working relationships with other members of staff",
+ "lessons": [
+  {
+   "title": "Why working relationships matter",
+   "minutes": 15,
+   "html": "<h3>Teams make the business work</h3><p>In an agri sales or service business, no one works alone. The counter staff depend on the store room to have stock ready. The yard staff depend on the counter to give correct yard slips. The sales rep depends on the office to process orders and the office depends on the rep for correct paperwork. When relationships are good, work flows. When they are poor, customers wait, mistakes happen and people become unhappy.</p><h4>What a good working relationship looks like</h4><ul><li>People greet each other and are courteous.</li><li>Information is shared openly and in time.</li><li>People do what they promised, or warn early when they cannot.</li><li>People help each other in busy times, such as month-end or the start of planting.</li><li>Disagreements are raised respectfully and solved, not left to grow.</li></ul><h4>Respecting diversity</h4><p>Agri businesses in South Africa employ people of many languages, cultures, ages and backgrounds. The Constitution and the Employment Equity Act 55 of 1998 prohibit unfair discrimination. In practice this means treating everyone with the same respect, not using insulting names or jokes, being patient with different language abilities, and respecting different religious and cultural practices where possible.</p><h4>Knowing your role and others' roles</h4><p>Understand your own job description and how it connects to others. If you know what the receiving clerk needs from you, you can make their work easier. Ask colleagues about their work; it builds understanding and helps you solve problems together.</p><h4>Communicating well</h4><ul><li>Listen fully before answering.</li><li>Be clear about what you need and by when.</li><li>Confirm important requests in writing, such as a note or message.</li><li>Pass on messages accurately and promptly.</li></ul>"
+  },
+  {
+   "title": "Handling problems and conflict",
+   "minutes": 15,
+   "html": "<h3>When things go wrong</h3><p>Even good teams have conflict. A colleague may keep taking your trolley, a co-worker may not pass on a customer's message, or two people may disagree about how stock should be packed. Conflict is not always bad; handled well, it can lead to better ways of working.</p><h4>Steps to resolve a problem with a colleague</h4><ol><li><strong>Cool down.</strong> Do not react in anger, especially in front of customers.</li><li><strong>Talk privately.</strong> Choose a suitable time and place.</li><li><strong>Describe the problem, not the person.</strong> Say \"The yard slip for Mr Dlamini's order was not given to me and he waited 30 minutes\" rather than \"You are useless.\"</li><li><strong>Listen</strong> to their side. There may be a reason you did not know about.</li><li><strong>Agree on a solution</strong> that works for both of you.</li><li><strong>Follow up</strong> to check it is working.</li></ol><h4>When to involve your supervisor</h4><p>If you cannot solve it yourself, or if the issue involves harassment, threats, discrimination, theft or safety, report it to your supervisor or follow the company grievance procedure. You should not be victimised for raising a genuine grievance.</p><h4>Behaviour that damages relationships</h4><ul><li>Gossip and spreading rumours.</li><li>Taking credit for someone else's work.</li><li>Leaving your work for others to finish.</li><li>Ignoring safety rules that put others at risk.</li><li>Being late often, so others must cover for you.</li></ul><h4>Building trust</h4><p>Trust is built over time by small actions: keeping promises, admitting mistakes, sharing information and helping without being asked. Thank colleagues who help you.</p><h4>Key points</h4><ul><li>Good relationships help work flow and keep customers happy.</li><li>Treat all colleagues with equal respect; unfair discrimination is unlawful.</li><li>Raise problems privately and describe the problem, not the person.</li><li>Use the grievance procedure for serious issues.</li><li>Build trust by keeping promises and sharing information.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the best first step when a colleague upsets you?",
+   "options": [
+    {
+     "text": "Shout at them in front of customers",
+     "correct": false
+    },
+    {
+     "text": "Tell everyone else",
+     "correct": false
+    },
+    {
+     "text": "Ignore it forever",
+     "correct": false
+    },
+    {
+     "text": "Cool down before reacting",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which statement describes the problem, not the person?",
+   "options": [
+    {
+     "text": "You always mess up",
+     "correct": false
+    },
+    {
+     "text": "You never do anything right",
+     "correct": false
+    },
+    {
+     "text": "You are lazy",
+     "correct": false
+    },
+    {
+     "text": "The yard slip was not passed on and the customer waited 30 minutes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law prohibits unfair discrimination at work?",
+   "options": [
+    {
+     "text": "Employment Equity Act 55 of 1998",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you take a problem to your supervisor?",
+   "options": [
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Only on Fridays",
+     "correct": false
+    },
+    {
+     "text": "Before talking to the colleague about a small issue",
+     "correct": false
+    },
+    {
+     "text": "When it involves harassment, threats, theft or safety, or you cannot solve it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which behaviour builds trust?",
+   "options": [
+    {
+     "text": "Gossip",
+     "correct": false
+    },
+    {
+     "text": "Keeping promises",
+     "correct": true
+    },
+    {
+     "text": "Taking credit for others' work",
+     "correct": false
+    },
+    {
+     "text": "Being late",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Conflict, handled well, can lead to better ways of working.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Confirming important requests in writing is a waste of time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which behaviours damage working relationships? (select all that apply)",
+   "options": [
+    {
+     "text": "Spreading rumours",
+     "correct": true
+    },
+    {
+     "text": "Leaving your work for others",
+     "correct": true
+    },
+    {
+     "text": "Thanking colleagues",
+     "correct": false
+    },
+    {
+     "text": "Ignoring safety rules",
+     "correct": true
+    },
+    {
+     "text": "Listening before answering",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

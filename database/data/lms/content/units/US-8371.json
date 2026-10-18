@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8371",
+ "title": "Control Soil Erosion",
+ "lessons": [
+  {
+   "title": "Understanding soil erosion",
+   "minutes": 20,
+   "html": "<h3>Why erosion matters</h3>\n<p>Soil forms very slowly, yet a single storm can strip away topsoil that took centuries to build. Much of South Africa is vulnerable: rainfall often comes in intense summer thunderstorms, many soils are shallow or easily eroded (such as duplex soils with a sandy topsoil over clay), and large areas of rangeland are degraded. Erosion reduces crop yields and grazing, silts dams and rivers, damages roads and infrastructure, and increases flooding. The Conservation of Agricultural Resources Act 43 of 1983 (CARA) places duties on land users to protect soil, including control of runoff and prevention of erosion.</p>\n<h4>Agents and types of erosion</h4>\n<table><tr><th>Type</th><th>Description</th></tr>\n<tr><td>Splash</td><td>Raindrops hit bare soil and detach particles</td></tr>\n<tr><td>Sheet</td><td>Thin layer of topsoil removed evenly; often unnoticed until roots and stones are exposed</td></tr>\n<tr><td>Rill</td><td>Small channels a few centimetres deep, removable by tillage</td></tr>\n<tr><td>Gully (donga)</td><td>Deep channels that cannot be crossed by implements; grow by headcut retreat and side collapse</td></tr>\n<tr><td>Wind</td><td>Fine particles blown away from dry, bare, sandy soils, especially in the western and central interior</td></tr>\n<tr><td>Streambank</td><td>River and stream banks undercut and collapsing</td></tr></table>\n<h4>Causes</h4>\n<ul><li>Loss of plant cover through overgrazing, burning at the wrong time, and clearing.</li>\n<li>Cultivation of steep slopes or up-and-down the slope.</li>\n<li>Concentrated runoff from roads, tracks, paths, roofs and livestock trails.</li>\n<li>Soil compaction and loss of organic matter, which reduce infiltration.</li>\n<li>Dispersive (sodic) soils that collapse when wet.</li></ul>\n<h4>Assessing erosion</h4>\n<p>Walk the area after rain. Map erosion features with GPS, note their size and whether they are active (fresh soil, raw headcut) or stable (vegetated). Measure basal cover of grass, slope, and sources of runoff. Look upslope: the cause of a gully is often far above it.</p>"
+  },
+  {
+   "title": "Preventing erosion",
+   "minutes": 20,
+   "html": "<h3>Keep the soil covered</h3>\n<p>Vegetation cover is the first line of defence. Plant cover intercepts raindrops, slows runoff and binds the soil with roots.</p>\n<ul><li><strong>Rangeland</strong> – match stocking rate to carrying capacity, use rotational grazing and resting, and avoid concentrating animals near water points and gates.</li>\n<li><strong>Cropland</strong> – conservation agriculture (minimum or no tillage, permanent soil cover with residues or cover crops, crop rotation), strip cropping and contour cultivation.</li>\n<li><strong>Orchards and vineyards</strong> – cover crops or mulch in the inter-row.</li></ul>\n<h3>Manage runoff</h3>\n<ul><li><strong>Contour banks (terraces)</strong> – earth banks along the contour on cropland that intercept runoff and lead it at a gentle gradient to a grassed waterway.</li>\n<li><strong>Grassed waterways</strong> – broad, shallow, vegetated channels that carry runoff safely downslope.</li>\n<li><strong>Diversion berms</strong> – lead water away from erosion-prone areas.</li>\n<li><strong>Roads and tracks</strong> – build mitre drains and cross-drains (whoa-bars) so water leaves the road frequently instead of running down it; avoid steep straight tracks.</li>\n<li><strong>Livestock paths</strong> – relocate troughs and gates, fence off sensitive areas.</li></ul>\n<h3>Wind erosion</h3>\n<p>Keep residues on the surface, plant windbreaks, avoid fallow bare land in windy seasons, and cultivate across the prevailing wind direction.</p>\n<h3>Laying out on the contour</h3>\n<p>Contour lines are pegged using a dumpy level, line level, A-frame or water-tube level. An A-frame is cheap and community-friendly: two poles and a crossbar with a plumb line, used to find points of equal height. Layout must be checked by a trained person, as wrongly graded banks concentrate water and make erosion worse.</p>"
+  },
+  {
+   "title": "Rehabilitating gullies and eroded land",
+   "minutes": 20,
+   "html": "<h3>Principles of gully rehabilitation</h3>\n<ol><li><strong>Treat the cause first</strong> – reduce runoff into the gully from upslope by restoring cover and diverting water. Structures in the gully will fail if runoff is not controlled.</li>\n<li><strong>Stabilise the headcut</strong> – the head of the gully moves upslope with each storm. Shape it to a gentler slope and protect it with stone, gabions or packed brush.</li>\n<li><strong>Reduce flow velocity in the channel</strong> – with check structures that trap sediment.</li>\n<li><strong>Revegetate</strong> – the long-term goal is a stable, vegetated channel.</li></ol>\n<h3>Structures</h3>\n<table><tr><th>Structure</th><th>Use</th></tr>\n<tr><td>Brush packs</td><td>Branches (often cleared invasive wood) packed in small gullies and on bare patches to trap soil and seed</td></tr>\n<tr><td>Stone packs and loose rock check dams</td><td>Small to medium gullies; cheap where stone is available</td></tr>\n<tr><td>Gabions</td><td>Wire baskets filled with rock, for larger gullies and headcuts; need proper design and keying into the banks and floor</td></tr>\n<tr><td>Silt fences, geotextiles and fibre logs</td><td>Trap sediment and protect slopes while vegetation establishes</td></tr></table>\n<p>Check dams must have a spillway in the centre lower than the sides, so water does not cut around the ends, and an apron below the spillway to prevent scouring. Space them so the top of one is level with the base of the next upstream.</p>\n<h3>Revegetation</h3>\n<p>Use locally adapted grasses (seed or tufts) and protect them from grazing until established, often for at least one growing season. Fencing and agreements with livestock owners are essential.</p>\n<h3>Safety and maintenance</h3>\n<p>Gully sides can collapse; do not work under overhanging banks. Wear gloves and boots when handling rock and wire. Inspect structures after every major storm and repair quickly.</p>\n<h4>Key points</h4>\n<ul><li>Erosion types range from sheet and rill to gully and wind erosion.</li>\n<li>Vegetation cover and good grazing management are the first defence.</li>\n<li>Manage runoff with contour banks, waterways and road drainage.</li>\n<li>Treat the cause upslope before building structures in a gully.</li>\n<li>Check dams need a central spillway and apron; revegetate and protect from grazing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which type of erosion removes a thin even layer of topsoil and is often unnoticed?",
+   "options": [
+    {
+     "text": "Sheet erosion",
+     "correct": true
+    },
+    {
+     "text": "Gully erosion",
+     "correct": false
+    },
+    {
+     "text": "Streambank erosion",
+     "correct": false
+    },
+    {
+     "text": "Wind erosion",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first principle of gully rehabilitation?",
+   "options": [
+    {
+     "text": "Build gabions in the gully floor",
+     "correct": false
+    },
+    {
+     "text": "Plant trees in the gully",
+     "correct": false
+    },
+    {
+     "text": "Treat the cause by reducing runoff from upslope",
+     "correct": true
+    },
+    {
+     "text": "Fill the gully with rubbish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a grassed waterway?",
+   "options": [
+    {
+     "text": "A dam",
+     "correct": false
+    },
+    {
+     "text": "A broad, shallow vegetated channel that carries runoff safely",
+     "correct": true
+    },
+    {
+     "text": "A type of gabion",
+     "correct": false
+    },
+    {
+     "text": "An irrigation canal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should a check dam have a central spillway lower than its sides?",
+   "options": [
+    {
+     "text": "To hold more water",
+     "correct": false
+    },
+    {
+     "text": "To look attractive",
+     "correct": false
+    },
+    {
+     "text": "To allow livestock to cross",
+     "correct": false
+    },
+    {
+     "text": "So water does not cut around the ends",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What helps water leave a farm road instead of running down it?",
+   "options": [
+    {
+     "text": "Wider straight tracks",
+     "correct": false
+    },
+    {
+     "text": "Removing grass",
+     "correct": false
+    },
+    {
+     "text": "Mitre drains and cross-drains",
+     "correct": true
+    },
+    {
+     "text": "Driving faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Revegetated gullies should be protected from grazing until the grass is established.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Incorrectly graded contour banks can concentrate water and make erosion worse.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which practices reduce erosion on cropland? (select all that apply)",
+   "options": [
+    {
+     "text": "Minimum tillage",
+     "correct": true
+    },
+    {
+     "text": "Cover crops and residue retention",
+     "correct": true
+    },
+    {
+     "text": "Contour cultivation",
+     "correct": true
+    },
+    {
+     "text": "Ploughing up and down the slope",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

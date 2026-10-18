@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-03",
+ "title": "Environment, Condemned Material, Waste and By-products",
+ "lessons": [
+  {
+   "title": "Condemned material and by-products",
+   "minutes": 15,
+   "html": "<h3>Not everything becomes meat</h3><p>When an animal is slaughtered, only part of it becomes meat. The rest is <strong>by-products</strong> (useful materials) or <strong>waste</strong>. Some parts, or even whole carcasses, are <strong>condemned</strong> by the meat inspector because they are not safe to eat.</p><h3>Condemned material</h3><p>The meat inspector condemns meat or organs that are diseased, damaged, contaminated or otherwise unfit, such as livers with parasites, bruised meat, abscesses, or a carcass from a sick animal.</p><ul><li>Condemned material is put into special marked containers, often red or clearly labelled.</li><li>It is kept apart from edible meat and must never go back into the food chain.</li><li>It is often stained or denatured so that no one can use it as food.</li><li>It goes to an approved disposal method, such as rendering, incineration or an approved disposal site, as the abattoir's procedure says.</li><li>Only the meat inspector decides what is condemned. Never take condemned material home or sell it.</li></ul><h3>By-products</h3><table><tr><th>By-product</th><th>Use</th></tr><tr><td>Hides</td><td>Leather; salted and sold to tanneries</td></tr><tr><td>Edible offal (liver, heart, tongue, tripe)</td><td>Sold as food after inspection</td></tr><tr><td>Blood</td><td>Blood meal for animal feed or fertiliser</td></tr><tr><td>Bones, fat and inedible parts</td><td>Rendered into meat-and-bone meal and tallow</td></tr><tr><td>Horns and hooves</td><td>Various products</td></tr><tr><td>Rumen contents and manure</td><td>Compost</td></tr></table><p>By-products earn money for the abattoir. Handle them cleanly and put each one in its correct container so their value is not lost.</p><p>Keep by-products and condemned material apart from each other too. If condemned material is mixed with hides or edible offal, the whole container may have to be condemned and the abattoir loses money. When you are not sure which container to use, ask your supervisor.</p>"
+  },
+  {
+   "title": "Waste and protecting the environment",
+   "minutes": 15,
+   "html": "<h3>Abattoir waste</h3><p>An abattoir produces a lot of waste every day: blood, wastewater, rumen contents, manure from the lairage, fat, hair, and packaging. If waste is not managed, it causes serious problems.</p><h3>Why waste is a danger</h3><ul><li><strong>Water pollution</strong>: blood and wastewater are very rich in organic material. If they reach a river or dam they use up the oxygen, kill fish and spread disease. The National Water Act 36 of 1998 protects water resources.</li><li><strong>Flies and rats</strong>: they breed in waste and carry germs back onto meat.</li><li><strong>Bad smells</strong>, which upset neighbours.</li><li><strong>Disease</strong>: waste from sick animals can spread disease to people and animals.</li></ul><h3>Good waste practice on the slaughter floor</h3><ol><li>Collect blood in the blood trough or tank; do not let it run into the drains.</li><li>Dry-clean first: scrape and shovel solid waste (fat, meat scraps, rumen contents) into bins before hosing. This saves water and keeps solids out of the drains.</li><li>Keep drains open and the screens in place, so solids are caught.</li><li>Put each type of waste in its marked container: condemned, inedible, edible by-product, general waste.</li><li>Close bins and remove them from the slaughter area regularly.</li><li>Do not mix chemical waste with organic waste.</li></ol><h3>Saving water and energy</h3><ul><li>Close taps and hoses when not in use; report leaks.</li><li>Use the right nozzle so you clean well with less water.</li><li>Close chiller doors quickly to save electricity.</li></ul><h3>Your responsibility</h3><p>If you see blood or waste running to a river, a full or broken bin, or a blocked drain, tell your supervisor straight away.</p><h4>Key points</h4><ul><li>Only the meat inspector condemns meat; condemned material never returns to the food chain.</li><li>By-products like hides, blood and bones have value: keep them clean and sorted.</li><li>Blood and wastewater pollute rivers if not controlled.</li><li>Dry-clean solids before hosing and keep drain screens in place.</li><li>Report leaks, spills and full bins.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who decides that meat must be condemned?",
+   "options": [
+    {
+     "text": "The slaughterer",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The buyer",
+     "correct": false
+    },
+    {
+     "text": "The meat inspector",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen to condemned material?",
+   "options": [
+    {
+     "text": "Sold cheaply to workers",
+     "correct": false
+    },
+    {
+     "text": "Mixed with edible offal",
+     "correct": false
+    },
+    {
+     "text": "Kept apart in marked containers and sent for approved disposal",
+     "correct": true
+    },
+    {
+     "text": "Washed and returned to the line",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is blood often turned into?",
+   "options": [
+    {
+     "text": "Blood meal for animal feed or fertiliser",
+     "correct": true
+    },
+    {
+     "text": "Leather",
+     "correct": false
+    },
+    {
+     "text": "Tallow only",
+     "correct": false
+    },
+    {
+     "text": "Cleaning chemicals",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in cleaning the slaughter floor to reduce waste in drains?",
+   "options": [
+    {
+     "text": "Hose everything into the drain",
+     "correct": false
+    },
+    {
+     "text": "Pour chemicals on the floor",
+     "correct": false
+    },
+    {
+     "text": "Dry-clean: scrape and shovel solids into bins first",
+     "correct": true
+    },
+    {
+     "text": "Remove the drain screens",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is blood dangerous if it reaches a river?",
+   "options": [
+    {
+     "text": "It uses up oxygen, kills fish and spreads disease",
+     "correct": true
+    },
+    {
+     "text": "It changes the river colour only",
+     "correct": false
+    },
+    {
+     "text": "It cleans the river",
+     "correct": false
+    },
+    {
+     "text": "It makes the water too cold",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may take condemned meat home if it looks fine.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hides are a by-product that can be sold to tanneries.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good waste practices on the slaughter floor? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep drain screens in place",
+     "correct": true
+    },
+    {
+     "text": "Put each waste type in its marked container",
+     "correct": true
+    },
+    {
+     "text": "Hose fat and meat scraps down the drain",
+     "correct": false
+    },
+    {
+     "text": "Collect blood in the blood trough",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-02",
+ "title": "Conduct feed milling operations",
+ "lessons": [
+  {
+   "title": "Running the grinding and batching sections",
+   "minutes": 15,
+   "html": "<h3>Pre-start checks</h3>\n<ol>\n<li>Read the production plan and the batch sheet for the first product.</li>\n<li>Check the hammer mill screen size matches the product specification and that the screen is not torn.</li>\n<li>Check magnets in front of the hammer mill are clean.</li>\n<li>Check the ingredient bins have enough material for the run.</li>\n<li>Check the scales: zero reading and, where scheduled, a test weight check.</li>\n<li>Check the micro-ingredients and premixes needed are available, labelled and in date.</li>\n<li>Confirm no lock-out tags are on the equipment and that guards are in place.</li>\n</ol>\n<h3>Running the hammer mill</h3>\n<p>Start the hammer mill and let it reach full speed before starting the feeder. Increase the feed rate until the motor load (amps) is at the target, not above it. Watch for:</p>\n<ul>\n<li>Motor amps too high – the mill is overloaded; reduce feed.</li>\n<li>Amps dropping suddenly – the feeder may be blocked or the bin empty.</li>\n<li>Unusual vibration or noise – stop and report; hammers may be broken or unbalanced.</li>\n<li>Whole grains in the ground meal – the screen may be torn.</li>\n</ul>\n<p>Take a ground sample at the set frequency for particle size checks.</p>\n<h3>Batching</h3>\n<p>Select the correct recipe on the control system or batch sheet. Double-check the product name and code against the plan. As each ingredient is weighed, compare actual and target weights. Hand-added premixes must be weighed on a calibrated scale, checked by a second person if the procedure says so, and recorded with the lot number. Medicated premixes must be recorded in the medication register.</p>\n<p>If a weight is outside the allowed tolerance, stop and tell the supervisor before the batch is mixed and released.</p>"
+  },
+  {
+   "title": "Mixing, changeovers and packing",
+   "minutes": 15,
+   "html": "<h3>Mixing</h3>\n<ol>\n<li>Make sure all ingredients for the batch are in the mixer before starting the mix timer.</li>\n<li>Run the dry mix time, add liquids such as molasses or oil, then run the wet mix time.</li>\n<li>Discharge only when the full mix time is complete.</li>\n<li>Check the surge bin below the mixer is empty enough to take the batch.</li>\n</ol>\n<p>Never shorten mix time to catch up on the plan. An unmixed batch can mean some animals receive too much of a mineral or medicine and others too little.</p>\n<h3>Changeovers</h3>\n<p>Follow the sequence on the production plan. Typical rules:</p>\n<ul>\n<li>Run non-medicated feeds before medicated feeds where possible.</li>\n<li>Never run horse feed straight after feeds with ionophores or other additives toxic to horses.</li>\n<li>Flush the mixer and lines with the flushing material when the procedure says so, and send the flush to the correct place.</li>\n<li>Clean out the mixer and check it is empty before a sensitive product.</li>\n<li>Record each flush and clean-out.</li>\n</ul>\n<h3>Packing and out-loading</h3>\n<ol>\n<li>Confirm product, batch number and bag print at the bagging station.</li>\n<li>Check the bagging scale with a test weight at start-up and as scheduled.</li>\n<li>Check several bags per hour for correct mass and good sewing.</li>\n<li>Stack bags neatly on pallets using the approved pattern and height.</li>\n<li>For bulk trucks, check the truck is clean and load each compartment with the correct product.</li>\n<li>Record tonnes packed and loaded.</li>\n</ol>\n<h3>Safety reminders</h3>\n<ul>\n<li>Lock out before opening a mixer or hammer mill door.</li>\n<li>Use lifting aids and correct lifting for bags.</li>\n<li>Stay out of forklift routes.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Do pre-start checks on screens, magnets, scales and ingredients.</li>\n<li>Run the hammer mill at target amps and watch for signs of damage.</li>\n<li>Check every ingredient weight and stop if it is out of tolerance.</li>\n<li>Never shorten mixing time and follow changeover and flushing rules.</li>\n<li>Check bag mass, labels and truck cleanliness when packing and loading.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When should the hammer mill feeder be started?",
+   "options": [
+    {
+     "text": "Before the mill motor",
+     "correct": false
+    },
+    {
+     "text": "After the mill reaches full speed",
+     "correct": true
+    },
+    {
+     "text": "At the same time as the mill",
+     "correct": false
+    },
+    {
+     "text": "Only after the mixer starts",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can whole grains in ground meal indicate?",
+   "options": [
+    {
+     "text": "The scale is wrong",
+     "correct": false
+    },
+    {
+     "text": "The bags are wrong",
+     "correct": false
+    },
+    {
+     "text": "The screen may be torn",
+     "correct": true
+    },
+    {
+     "text": "The mixer time is too long",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "An ingredient weight is outside the allowed tolerance. What do you do?",
+   "options": [
+    {
+     "text": "Mix and release the batch",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Add extra of another ingredient",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell the supervisor before the batch is mixed and released",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the correct mixing order?",
+   "options": [
+    {
+     "text": "Add premix after discharge",
+     "correct": false
+    },
+    {
+     "text": "All ingredients in, dry mix time, add liquids, wet mix time",
+     "correct": true
+    },
+    {
+     "text": "Liquids first, then dry mix",
+     "correct": false
+    },
+    {
+     "text": "Discharge immediately after adding ingredients",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which product must never be run straight after ionophore feeds?",
+   "options": [
+    {
+     "text": "Horse feed",
+     "correct": true
+    },
+    {
+     "text": "Layer feed",
+     "correct": false
+    },
+    {
+     "text": "Feedlot feed",
+     "correct": false
+    },
+    {
+     "text": "Broiler feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Shortening mix time to catch up on the plan is acceptable.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hand-added premixes must be weighed on a calibrated scale and recorded with the lot number.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of correct changeover practice? (select all that apply)",
+   "options": [
+    {
+     "text": "Recording each flush and clean-out",
+     "correct": true
+    },
+    {
+     "text": "Skipping clean-out to save time",
+     "correct": false
+    },
+    {
+     "text": "Flushing when the procedure requires",
+     "correct": true
+    },
+    {
+     "text": "Running non-medicated feeds before medicated where possible",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

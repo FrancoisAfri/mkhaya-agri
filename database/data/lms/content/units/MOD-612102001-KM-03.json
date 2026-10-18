@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102001-KM-03",
+  "title": "Dairy animal health care",
+  "lessons": [
+    {
+      "title": "Knowing a healthy cow from a sick cow",
+      "minutes": 15,
+      "html": "<h3>Look at your cows every day</h3><p>You see the cows every day. You are the first person who can notice that a cow is sick. If you report it early, the cow can get help quickly. She gets better faster, and the farm loses less milk.</p><h4>A healthy cow</h4><ul><li>Bright eyes. Ears up and moving.</li><li>Eats well. Comes to the feed with the others.</li><li>Chews the cud when she lies down.</li><li>Walks easily on all four legs.</li><li>Shiny coat.</li><li>Dung is soft but not watery.</li><li>Breathes slowly and easily when resting.</li></ul><h4>A sick cow</h4><ul><li>Dull. Head and ears down.</li><li>Stands alone, away from the herd.</li><li>Does not eat. Does not chew the cud.</li><li>Gives less milk than normal.</li><li>Limps, or does not want to walk.</li><li>Very runny dung, or no dung.</li><li>Fast breathing, coughing, or snot from the nose.</li><li>Swollen, hot or hard udder. Clots in the milk.</li></ul><h4>What to do</h4><ol><li>Note the cow's ear tag number.</li><li>Write down what you saw and when.</li><li>Tell your supervisor straight away.</li><li>If the cow is down and cannot get up, or is badly bloated, it is an emergency. Call the supervisor at once.</li></ol><p>Do not give medicine yourself unless you are trained and the supervisor or vet tells you to.</p><h4>Taking a temperature</h4><p>A thermometer in the rectum shows if a cow has a fever. Your supervisor will show you how to do it safely. Stand to the side, not straight behind the cow, so she cannot kick you.</p><p>Get to know your cows. When you know how a cow normally behaves, it is easier to see when something is wrong. A cow that is always first into the parlour but today stays at the back may be sick.</p>"
+    },
+    {
+      "title": "Common dairy diseases",
+      "minutes": 15,
+      "html": "<h3>Diseases you must know</h3><table><tr><th>Disease</th><th>What you see</th></tr><tr><td>Mastitis</td><td>Clots or watery milk. Hot, hard or swollen udder quarter.</td></tr><tr><td>Milk fever</td><td>Soon after calving. Cow is wobbly, then lies down. Cold ears. Cannot get up. Call for help fast.</td></tr><tr><td>Lameness</td><td>Limps. Walks slowly. Back is bent up.</td></tr><tr><td>Bloat</td><td>Left side swells up high. Cow is in pain. Call for help fast.</td></tr><tr><td>Retained afterbirth</td><td>Afterbirth still hanging a day after calving. Smell.</td></tr><tr><td>Scours in calves</td><td>Runny dung. Dirty tail. Sunken eyes.</td></tr><tr><td>Tick diseases (redwater, gallsickness, heartwater)</td><td>Fever, weakness, red urine, yellow eyes, odd behaviour.</td></tr></table><h4>Diseases that must be reported to the state vet</h4><p>Some diseases are very dangerous for all farms. The Animal Diseases Act 35 of 1984 says they must be reported. Examples are foot-and-mouth disease and anthrax. Tell your supervisor at once if you see:</p><ul><li>Blisters or sores in the mouth or on the feet, with drooling.</li><li>Several animals dying suddenly.</li><li>Blood coming from the nose or other openings of a dead animal. Do not cut or open such a carcass.</li></ul><h4>Diseases people can catch</h4><p>Some cattle diseases can spread to people, such as brucellosis and tuberculosis. Protect yourself:</p><ul><li>Wear gloves when you help with calving or touch afterbirth.</li><li>Wash your hands with soap after working with animals.</li><li>Do not drink raw milk from the parlour.</li></ul><h4>Lame cows</h4><p>Lameness is painful. A lame cow eats less and gives less milk. Tell your supervisor about every lame cow. Keep walkways clean and free of stones. Walk cows slowly to and from the parlour. Never hurry them with sticks or dogs.</p>"
+    },
+    {
+      "title": "Preventing disease and giving treatments",
+      "minutes": 15,
+      "html": "<h3>Stop disease before it starts</h3><p>It is better to stop disease than to treat it. The vet makes a health plan for the farm. Your job is to help follow it.</p><h4>Ways to prevent disease</h4><ul><li><strong>Vaccinate</strong> on the dates in the health plan.</li><li><strong>Keep things clean</strong>: parlour, calf pens, water troughs, buckets.</li><li><strong>Dry bedding</strong> and clean walkways.</li><li><strong>Control ticks and flies</strong> with the products and methods the vet says.</li><li><strong>Good feed and clean water</strong> every day.</li><li><strong>Keep new animals apart</strong> for a while before they join the herd.</li><li><strong>Keep visitors and their vehicles</strong> away from the animals unless allowed.</li></ul><h4>Giving medicine safely</h4><p>Only trained workers may give medicine, and only as the vet or supervisor says.</p><ol><li>Read the label. Check the name, the dose and the expiry date.</li><li>Use a clean needle for each animal or as the vet says.</li><li>Inject in the right place. Your supervisor will show you.</li><li>Mark the cow with a leg band or spray.</li><li>Write in the treatment book: date, cow number, medicine, dose and your name.</li><li>Put used needles in the sharps container.</li></ol><h4>Withdrawal period</h4><p>After some medicines, the milk and meat are not safe for a time. This is called the withdrawal period. It is written on the label. The cow's milk must <strong>not</strong> go into the bulk tank until this time is over. The cow must not be sold for slaughter during this time either.</p><h4>Storing medicine</h4><p>Keep medicine locked up. Some must be in a fridge. Keep it away from children and food.</p><h4>Key points</h4><ul><li>Check every cow every day and report sick cows quickly.</li><li>Down cows and bloat are emergencies.</li><li>Report mouth or foot blisters and sudden deaths at once.</li><li>Wear gloves and wash hands to protect yourself.</li><li>Follow the label and keep treated milk out of the tank.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which is a sign of a healthy cow?",
+      "options": [
+        {
+          "text": "She stands alone with her head down",
+          "correct": false
+        },
+        {
+          "text": "She chews the cud when lying down",
+          "correct": true
+        },
+        {
+          "text": "She has clots in her milk",
+          "correct": false
+        },
+        {
+          "text": "She limps",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do first when you see a sick cow?",
+      "options": [
+        {
+          "text": "Give her any medicine you find",
+          "correct": false
+        },
+        {
+          "text": "Wait until next week",
+          "correct": false
+        },
+        {
+          "text": "Note her number and tell the supervisor",
+          "correct": true
+        },
+        {
+          "text": "Chase her to the camp",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A cow has blisters in her mouth and is drooling. What must you do?",
+      "options": [
+        {
+          "text": "Tell the supervisor at once, it may need to go to the state vet",
+          "correct": true
+        },
+        {
+          "text": "Give her water and forget it",
+          "correct": false
+        },
+        {
+          "text": "Sell her quickly",
+          "correct": false
+        },
+        {
+          "text": "Milk her into the tank",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the withdrawal period?",
+      "options": [
+        {
+          "text": "The time a cow is dry",
+          "correct": false
+        },
+        {
+          "text": "The time before a cow calves",
+          "correct": false
+        },
+        {
+          "text": "Time off for the milker",
+          "correct": false
+        },
+        {
+          "text": "The time after medicine when milk and meat are not safe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should you stand when taking a cow's temperature?",
+      "options": [
+        {
+          "text": "Straight behind her",
+          "correct": false
+        },
+        {
+          "text": "To the side",
+          "correct": true
+        },
+        {
+          "text": "In front of her head",
+          "correct": false
+        },
+        {
+          "text": "Under her",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Milk fever usually happens soon after calving.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to drink raw milk straight from the parlour.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are ways to prevent disease? (select all that apply)",
+      "options": [
+        {
+          "text": "Vaccinate on the right dates",
+          "correct": true
+        },
+        {
+          "text": "Keep bedding dry",
+          "correct": true
+        },
+        {
+          "text": "Keep new animals apart for a while",
+          "correct": true
+        },
+        {
+          "text": "Let visitors walk among the cows freely",
+          "correct": false
+        },
+        {
+          "text": "Leave dirty water in troughs",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

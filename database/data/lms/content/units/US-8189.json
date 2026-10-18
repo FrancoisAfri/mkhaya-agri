@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8189",
+ "title": "Determine produce grade: Dry beans",
+ "lessons": [
+  {
+   "title": "Preparing to grade dry beans",
+   "minutes": 20,
+   "html": "<h3>Why we grade dry beans</h3><p>Grading means checking a sample of dry beans and giving it a grade according to the official grading regulations made under the Agricultural Product Standards Act 119 of 1990. The grade tells the buyer and the seller what the quality is, and it decides the price. A wrong grade costs the farmer or the silo money, and can lead to disputes. As a grader you must be accurate, honest and follow the method exactly.</p><h4>Preparing for grading</h4><ol><li>Make sure you have the <strong>current</strong> grading regulations and grade tables for dry beans. The limits for each grade come from these tables, not from memory.</li><li>Check your equipment: approved moisture meter (calibrated and checked), balance or scale (level, zeroed, checked with test weights), the prescribed sieves (clean, undamaged), sample divider, sorting tray, tweezers, containers and worksheets.</li><li>Clean the work area so there is no grain or dust left from the previous sample.</li><li>Wear a dust coat or overalls and a dust mask. Wash hands after grading, especially if grain may be treated or mouldy.</li></ol><h4>Taking and preparing the sample</h4><ul><li>Take the sample from the load at several points and depths with a probe, or from the automatic sampler, following the site procedure.</li><li>Mix the sample well and reduce it with the approved divider to the working sample size the procedure requires. Never pick a handful from the top.</li><li>Label the sample with the delivery or load number, date, time and your name.</li></ul><h4>Know the bean classes</h4><p>Dry beans are graded by class, for example red speckled sugar beans, small white canning beans, carioca beans and large white kidney beans. Check that the sample matches the declared class; beans of other classes or colours count as a deviation.</p>"
+  },
+  {
+   "title": "Moisture and non-compliant material",
+   "minutes": 25,
+   "html": "<h3>Determining moisture content</h3><p>Moisture content is the percentage of water in the dry beans. Grain that is too wet heats, goes mouldy and can be spoiled by insects. The regulations and the buyer set a maximum moisture level; check the current limit.</p><ol><li>Check that the moisture meter is set for dry beans. Each grain has its own setting or calibration chart.</li><li>Let the sample reach room temperature if the meter requires it; very hot or cold grain gives wrong readings.</li><li>Fill the meter exactly as the manufacturer instructs and take the reading. Repeat if the procedure requires two readings.</li><li>Record the reading on the worksheet immediately.</li><li>If the reading is near the limit or the meter seems faulty, use the reference oven method or ask your supervisor.</li></ol><p>Bean seed coats crack if dried too fast or handled roughly when very dry, so moisture also affects splits and breakage.</p><h3>Determining non-compliant material</h3><p>Next, weigh the working sample and separate the material that does not comply. Sort carefully on a clean tray. Put each kind in its own container and weigh it. Work out each as a percentage of the sample mass:</p><p><strong>Percentage = mass of the material ÷ mass of the working sample × 100</strong></p><p>Example: in a 100 g working sample you find 2.5 g of foreign matter. 2.5 ÷ 100 × 100 = 2.5%.</p><table><tr><th>Material</th><th>What to look for</th></tr><tr><td>Foreign matter</td><td>Stones, soil, sticks, plant parts, other seeds</td></tr><tr><td>Insect-damaged beans</td><td>Round holes from bean bruchids (weevils), or live insects</td></tr><tr><td>Discoloured or stained beans</td><td>Beans with weather or mould staining</td></tr><tr><td>Split and broken beans</td><td>Beans split into halves or pieces</td></tr><tr><td>Shrivelled or immature beans</td><td>Wrinkled, small, underdeveloped beans</td></tr><tr><td>Other classes</td><td>Beans of a different type or colour</td></tr></table><p>Stones in beans are a serious problem for canners and households, because they look like beans and can break teeth. Sort carefully. Live bruchids must be reported; they keep breeding in storage.</p>"
+  },
+  {
+   "title": "Completing the grading process",
+   "minutes": 15,
+   "html": "<h3>Completing the grading process</h3><ol><li>Write every result on the worksheet: moisture and each deviation as a percentage.</li><li>Compare each result with the grade table in the regulations. Start with the highest grade.</li><li>The sample gets the highest grade for which <strong>all</strong> results are within the limits. If one result is over the limit for that grade, check the next grade.</li><li>Check for conditions that make the dry beans non-compliant or below grade regardless of percentages, such as a musty, sour or chemical smell, live insects, or poisonous seeds above the permitted level. Report these to your supervisor straight away.</li><li>Sign the worksheet or enter the result in the system. The grade goes onto the delivery ticket or certificate.</li><li>Keep the reference sample, sealed and labelled, for the period the site requires, in case of a dispute.</li></ol><h4>Cleaning up</h4><p>Return the sample material as instructed, clean the sieves, trays and meter, and leave the work area clean for the next sample.</p><h4>Honesty</h4><p>Never change a result because a farmer or driver asks you to. If someone pressures you, call your supervisor. If you made a mistake, report it and re-grade.</p><h4>Key points</h4><ul><li>Use the current grading regulations and calibrated equipment.</li><li>Take a representative sample and divide it properly.</li><li>Set the moisture meter for dry beans and record readings straight away.</li><li>Percentage = mass of material ÷ sample mass × 100.</li><li>The grade is the highest grade for which all results comply.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law provides for the grading regulations for dry beans?",
+   "options": [
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a 200 g working sample you find 3 g of foreign matter. What is the percentage?",
+   "options": [
+    {
+     "text": "1.5%",
+     "correct": true
+    },
+    {
+     "text": "0.3%",
+     "correct": false
+    },
+    {
+     "text": "3%",
+     "correct": false
+    },
+    {
+     "text": "6%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What grade does a sample get?",
+   "options": [
+    {
+     "text": "Always the top grade",
+     "correct": false
+    },
+    {
+     "text": "The grade the farmer asks for",
+     "correct": false
+    },
+    {
+     "text": "The highest grade for which all results are within the limits",
+     "correct": true
+    },
+    {
+     "text": "The average grade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The moisture meter must be set for dry beans before taking a reading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A grader may change a result if the driver is in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Round holes in beans usually show damage by what?",
+   "options": [
+    {
+     "text": "Bruchids (bean weevils)",
+     "correct": true
+    },
+    {
+     "text": "Hail",
+     "correct": false
+    },
+    {
+     "text": "Rust",
+     "correct": false
+    },
+    {
+     "text": "Frost",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A red speckled sugar bean sample contains white beans. How are the white beans treated?",
+   "options": [
+    {
+     "text": "As the best beans",
+     "correct": false
+    },
+    {
+     "text": "Added to the mass",
+     "correct": false
+    },
+    {
+     "text": "As a deviation (other class)",
+     "correct": true
+    },
+    {
+     "text": "Ignored",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are non-compliant materials in dry beans? (select all that apply)",
+   "options": [
+    {
+     "text": "Stones and soil",
+     "correct": true
+    },
+    {
+     "text": "Insect-damaged beans",
+     "correct": true
+    },
+    {
+     "text": "Split beans",
+     "correct": true
+    },
+    {
+     "text": "Sound beans of the declared class",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

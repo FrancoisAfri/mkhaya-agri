@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-12155",
+ "title": "Apply comprehension skills to engage written texts in a business environment",
+ "lessons": [
+  {
+   "title": "Reading business texts strategically",
+   "minutes": 20,
+   "html": "<h3>Written texts in agri business</h3><p>Every day in agri sales and services you read written texts: supplier price lists and catalogues, product labels and safety data sheets, contracts and credit agreements, emails, policy documents, market reports, newsletters and statutory notices. Reading them accurately protects the business and the customer. Misreading a price list or a chemical label can cost money or cause harm.</p><h4>Purpose decides strategy</h4><table><tr><th>Strategy</th><th>When to use it</th></tr><tr><td>Skimming</td><td>Quickly getting the gist: headings, first sentences, summaries. Useful for a long market report.</td></tr><tr><td>Scanning</td><td>Searching for a specific fact: a product code, a price, a delivery date.</td></tr><tr><td>Intensive reading</td><td>Reading every word carefully: contract terms, label directions for use, a credit application.</td></tr></table><h4>Before reading</h4><ul><li>Identify the type of text and who wrote it. A supplier brochure and an independent trial report have different purposes.</li><li>Look at the date. Price lists and regulations change; using an old one is a common error.</li><li>Survey the layout: headings, tables, footnotes and small print.</li></ul><h4>While reading</h4><ul><li>Identify the main idea of each section and the supporting details.</li><li>Use context to work out unfamiliar words, then check a dictionary or glossary. Technical terms such as \"withholding period\" or \"active ingredient\" have exact meanings.</li><li>Pay attention to qualifiers: \"may\", \"must\", \"up to\", \"excluding VAT\", \"subject to availability\". These change meaning significantly.</li><li>Read tables carefully: check column headings and units (kg, litres, per hectare, per 100 litres of water).</li><li>Highlight or note key points and questions.</li></ul>"
+  },
+  {
+   "title": "Interpreting and evaluating",
+   "minutes": 20,
+   "html": "<h3>Literal and inferred meaning</h3><p>Literal meaning is what the text says directly. Inferred meaning is what you can reasonably conclude. If a supplier's letter says \"Due to increased input costs, our pricing will be reviewed from 1 August,\" the literal message is a price review; the inference is that prices are likely to rise and you may want to order before August.</p><h4>Fact, opinion and bias</h4><p>Business texts often mix facts and persuasion. A seed catalogue may show yield results from selected trial sites only. Ask:</p><ul><li>Who wrote this, and what do they gain?</li><li>Is the evidence complete? Where, when and how were trials done?</li><li>Are claims supported by data or only by adjectives such as \"superior\" or \"unbeatable\"?</li><li>What is left out?</li></ul><h4>Reading visual information</h4><p>Graphs and charts are common in market reports, for example SAFEX maize price trends or rainfall graphs. Check the axes, the scale and the time period. A graph whose vertical axis starts at R3,000 rather than zero makes small changes look dramatic.</p><h4>Contracts and terms</h4><p>Read terms and conditions intensively. Note payment terms (\"30 days from statement\"), interest on overdue accounts, delivery responsibilities, returns policy and who carries risk in transit. If anything is unclear, ask your manager or the legal adviser before signing or advising a customer. Never tell a customer what a contract \"means\" if you are not sure.</p><h4>Example: reading a label</h4><p>A dip label states the dilution rate, the animals it is registered for, safety precautions and a withdrawal period for meat and milk. Your role is to read and point the customer to these sections accurately, not to change the instructions. The label is a legal document under Act 36 of 1947, and directions must be followed.</p>"
+  },
+  {
+   "title": "Using what you read",
+   "minutes": 15,
+   "html": "<h3>From reading to action</h3><p>Comprehension is only useful if it leads to correct action. After reading, you may need to summarise, respond, advise a customer or update records.</p><h4>Summarising</h4><ol><li>Identify the purpose and main points.</li><li>Leave out examples, repetition and minor detail.</li><li>Use your own words, but keep technical terms exact.</li><li>Check the summary against the original for accuracy.</li></ol><p>Example: A three-page supplier circular becomes: \"From 1 August, fertiliser prices rise by about 6%. Orders placed before 25 July at current prices will be honoured. Delivery lead time increases to 10 working days.\"</p><h4>Comparing texts</h4><p>Buyers often compare quotations from several suppliers. Build a simple table with the same items in rows and suppliers in columns. Compare like with like: price including or excluding VAT, delivery included or not, pack size, payment terms and validity date.</p><h4>Responding</h4><p>When responding to a written text such as a customer complaint letter, refer to their specific points, reference their dates and numbers, and answer each concern. This shows you have understood.</p><h4>Recognising when to escalate</h4><p>Some texts carry legal or financial weight: summons, letters of demand, regulatory notices, product recall notices. Read them carefully, record the date received, and pass them immediately to your manager. Recalls must be acted on at once: remove the product from shelves and follow the supplier's instructions.</p><h4>Key points</h4><ul><li>Choose skimming, scanning or intensive reading to suit your purpose.</li><li>Check dates, units and qualifiers such as \"excluding VAT\".</li><li>Separate fact from persuasion and check the evidence.</li><li>Read graph axes and scales carefully.</li><li>Summarise accurately and escalate legal or recall documents immediately.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which strategy is best for finding one product code in a long price list?",
+   "options": [
+    {
+     "text": "Skimming",
+     "correct": false
+    },
+    {
+     "text": "Intensive reading",
+     "correct": false
+    },
+    {
+     "text": "Scanning",
+     "correct": true
+    },
+    {
+     "text": "Reading backwards",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which text needs intensive reading?",
+   "options": [
+    {
+     "text": "A magazine cover",
+     "correct": false
+    },
+    {
+     "text": "A poster title",
+     "correct": false
+    },
+    {
+     "text": "A credit agreement",
+     "correct": true
+    },
+    {
+     "text": "A billboard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A letter says 'pricing will be reviewed from 1 August.' What is a reasonable inference?",
+   "options": [
+    {
+     "text": "Nothing will change",
+     "correct": false
+    },
+    {
+     "text": "Prices will probably rise",
+     "correct": true
+    },
+    {
+     "text": "The store will close",
+     "correct": false
+    },
+    {
+     "text": "Delivery is free",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A graph's vertical axis starts at R3,000 instead of zero. What is the effect?",
+   "options": [
+    {
+     "text": "The graph is more honest",
+     "correct": false
+    },
+    {
+     "text": "There is no effect",
+     "correct": false
+    },
+    {
+     "text": "Small changes can look dramatic",
+     "correct": true
+    },
+    {
+     "text": "Changes look smaller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do when you receive a product recall notice?",
+   "options": [
+    {
+     "text": "Sell the stock quickly",
+     "correct": false
+    },
+    {
+     "text": "File it for next year",
+     "correct": false
+    },
+    {
+     "text": "Act at once: remove the product and inform your manager",
+     "correct": true
+    },
+    {
+     "text": "Ignore it if stock is low",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A product label for an agricultural remedy is a legal document whose directions must be followed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When comparing quotations, it does not matter whether prices include VAT.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions help evaluate a supplier's claims? (select all that apply)",
+   "options": [
+    {
+     "text": "Who wrote this and what do they gain?",
+     "correct": true
+    },
+    {
+     "text": "Is the evidence complete?",
+     "correct": true
+    },
+    {
+     "text": "What colour is the brochure?",
+     "correct": false
+    },
+    {
+     "text": "What is left out?",
+     "correct": true
+    },
+    {
+     "text": "How heavy is the catalogue?",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

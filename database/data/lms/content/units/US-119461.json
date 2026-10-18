@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119461",
+ "title": "Make and motivate judgements on selected literary texts",
+ "lessons": [
+  {
+   "title": "Responding to literary texts",
+   "minutes": 16,
+   "html": "<h3>What are literary texts?</h3>\n<p>Literary texts are imaginative or creative works: novels, short stories, poems, plays, films, songs and praise poetry. South African literature includes works in all our official languages, from the oral praise poems (izibongo) of Nguni traditions to the hunting and bush stories of writers such as Sir Percy FitzPatrick, whose <em>Jock of the Bushveld</em> tells of a dog and transport riders in the Lowveld in the 1880s.</p>\n<p>Making and motivating judgements means forming a reasoned opinion about a text and supporting it with evidence from the text.</p>\n<h4>Elements to look at</h4>\n<ul><li><strong>Theme</strong>: the main message or idea, e.g. loyalty, survival, the relationship between people and the land.</li>\n<li><strong>Characters</strong>: who they are, how they change, how the writer reveals them through actions and words.</li>\n<li><strong>Setting</strong>: time and place, e.g. the Lowveld in the gold rush days.</li>\n<li><strong>Plot and structure</strong>: how events are arranged, conflicts and climax.</li>\n<li><strong>Point of view</strong>: who tells the story, and whose voice is missing.</li>\n<li><strong>Language and style</strong>: imagery, metaphor, simile, repetition, tone, rhythm in poetry.</li></ul>\n<h4>Context matters</h4>\n<p>A text reflects the time and society in which it was written. A colonial-era hunting story may present attitudes to wildlife, land and people that today we would question. Judging a text includes noticing these attitudes: how are black African characters represented? What does the story assume about wildlife? This does not mean the text has no value, but your judgement should consider both its strengths and its limits.</p>"
+  },
+  {
+   "title": "Making and motivating judgements",
+   "minutes": 15,
+   "html": "<h3>Forming a judgement</h3>\n<p>A judgement is a clear opinion, such as: \"The story succeeds in showing the bond between a dog and its owner, but it gives a one-sided view of the people who lived in the Lowveld.\" It goes beyond saying \"I liked it\".</p>\n<h4>Motivating your judgement</h4>\n<p>A motivated judgement uses the PEE pattern:</p>\n<ul><li><strong>Point</strong>: state your opinion.</li>\n<li><strong>Evidence</strong>: give a quotation or example from the text.</li>\n<li><strong>Explanation</strong>: explain how the evidence supports your point.</li></ul>\n<p>Example: <em>Point</em>: The poem shows deep respect for the buffalo. <em>Evidence</em>: It calls the buffalo \"the black storm that walks\". <em>Explanation</em>: The metaphor compares the animal to a storm, suggesting power and danger that humans cannot control.</p>\n<h4>Criteria for judging</h4>\n<ul><li>Does the text achieve its purpose, e.g. to entertain, to move, to make us think?</li>\n<li>Is the language effective and suited to the audience?</li>\n<li>Are characters believable and is the plot well built?</li>\n<li>How does the text treat values such as respect, fairness and justice?</li>\n<li>How does it compare with other texts on a similar theme?</li></ul>\n<h4>Respecting other views</h4>\n<p>Readers can reach different judgements about the same text. In a discussion, listen to others, ask for their evidence, and be willing to change your mind if their argument is stronger. Disagree with the idea, not the person.</p>\n<h4>Applying the skill at work</h4>\n<p>The same skill helps you judge any text critically: a hunting magazine article, a lodge's advertising, a documentary about poaching. Ask what message it gives, how it persuades, and whether the evidence supports it.</p>\n<h4>Key points</h4>\n<ul><li>Literary texts include stories, poems, plays, films, songs and praise poetry.</li>\n<li>Analyse theme, character, setting, plot, point of view and language.</li>\n<li>Consider the context and attitudes of the time the text was written.</li>\n<li>Motivate judgements with Point, Evidence and Explanation.</li>\n<li>Respect other readers' views and use evidence in discussion.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the theme of a literary text?",
+   "options": [
+    {
+     "text": "The time and place",
+     "correct": false
+    },
+    {
+     "text": "The main message or idea",
+     "correct": true
+    },
+    {
+     "text": "The number of pages",
+     "correct": false
+    },
+    {
+     "text": "The writer's address",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which book by Sir Percy FitzPatrick is set in the Lowveld?",
+   "options": [
+    {
+     "text": "Things Fall Apart",
+     "correct": false
+    },
+    {
+     "text": "Long Walk to Freedom",
+     "correct": false
+    },
+    {
+     "text": "Jock of the Bushveld",
+     "correct": true
+    },
+    {
+     "text": "Cry, the Beloved Country",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the PEE pattern, what does the second E stand for?",
+   "options": [
+    {
+     "text": "Ending",
+     "correct": false
+    },
+    {
+     "text": "Explanation",
+     "correct": true
+    },
+    {
+     "text": "Example",
+     "correct": false
+    },
+    {
+     "text": "Evidence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is izibongo?",
+   "options": [
+    {
+     "text": "A type of antelope",
+     "correct": false
+    },
+    {
+     "text": "A novel",
+     "correct": false
+    },
+    {
+     "text": "A hunting rifle",
+     "correct": false
+    },
+    {
+     "text": "Oral praise poetry",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a motivated judgement rather than a simple opinion?",
+   "options": [
+    {
+     "text": "I liked it.",
+     "correct": false
+    },
+    {
+     "text": "It was boring.",
+     "correct": false
+    },
+    {
+     "text": "The poem shows respect for the buffalo by calling it 'the black storm that walks', suggesting uncontrollable power.",
+     "correct": true
+    },
+    {
+     "text": "Poems are always good.",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Different readers may reach different judgements about the same text.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Context and attitudes of the time a text was written are irrelevant when judging it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which elements are analysed in a literary text? (select all that apply)",
+   "options": [
+    {
+     "text": "The price of the book",
+     "correct": false
+    },
+    {
+     "text": "Point of view",
+     "correct": true
+    },
+    {
+     "text": "Characters",
+     "correct": true
+    },
+    {
+     "text": "Setting",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

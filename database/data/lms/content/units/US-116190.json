@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116190",
+ "title": "Recognise defensive behavior in animals",
+ "lessons": [
+  {
+   "title": "How farm animals behave",
+   "minutes": 15,
+   "html": "<h3>Animals are not people</h3> <p>Cattle, sheep, goats, pigs and horses think and see differently from us. They are prey animals (except dogs) and their main idea is to stay safe. If they feel scared or trapped, they defend themselves. Knowing how they behave keeps you and the animals safe.</p> <h4>How animals see</h4> <ul> <li>Cattle and sheep can see almost all the way around them, but they have a <strong>blind spot</strong> directly behind them. Never walk up behind an animal without speaking first.</li> <li>They do not see depth well. Shadows, puddles and bright patches can make them stop or turn back.</li> <li>They notice quick movements easily.</li> </ul> <h4>The flight zone</h4> <p>Every animal has a \"personal space\" called the <strong>flight zone</strong>. When you come inside it, the animal moves away. Tame animals have a small flight zone; wild or scared ones have a big zone. If you go deep into the flight zone fast, the animal may panic, run into fences or turn on you.</p> <h4>Animals like to be together</h4> <ul> <li>Cattle, sheep and goats are herd animals. An animal alone gets stressed and can become dangerous.</li> <li>They follow a leader. If one moves, the others follow.</li> </ul> <h4>Normal behaviour of different animals</h4> <table> <tr><th>Animal</th><th>Normal behaviour</th></tr> <tr><td>Cattle</td><td>Calm, graze in groups, move away slowly from people</td></tr> <tr><td>Sheep</td><td>Flock tightly, run away from danger, follow each other</td></tr> <tr><td>Goats</td><td>Curious, climb, browse on bushes</td></tr> <tr><td>Pigs</td><td>Root in soil, curious, can be noisy</td></tr> <tr><td>Horses</td><td>Alert, move away from sudden things, can kick or bolt when frightened</td></tr> </table> <p>When you know what normal looks like, you can see when an animal is not normal.</p>"
+  },
+  {
+   "title": "Signs of defensive behaviour",
+   "minutes": 15,
+   "html": "<h3>Warning signs</h3> <p>Animals usually warn you before they attack or kick. Learn the signs.</p> <h4>Cattle</h4> <ul> <li>Head down, facing you, pawing the ground: a bull or cow ready to charge.</li> <li>Standing side-on to look bigger.</li> <li>Bellowing, snorting.</li> <li>Ears back, tail swishing hard.</li> <li>A cow with a new calf standing between you and the calf.</li> </ul> <h4>Sheep and goats</h4> <ul> <li>A ram lowering his head and backing up: ready to butt.</li> <li>Stamping a front foot.</li> <li>Ewes with lambs staring at you or a dog.</li> </ul> <h4>Pigs</h4> <ul> <li>Loud barking or squealing, champing teeth, foam at the mouth.</li> <li>A sow with piglets or a boar walking stiffly towards you. Boars have sharp tusks; sows protect piglets fiercely.</li> </ul> <h4>Horses and donkeys</h4> <ul> <li>Ears flat back against the head.</li> <li>Showing teeth, swinging the back end towards you.</li> <li>Raising a back leg.</li> <li>Snorting, eyes showing white.</li> </ul> <h4>When animals are most likely to defend themselves</h4> <ul> <li>Mothers with newborn young.</li> <li>Bulls, rams, boars and stallions, especially in the breeding season.</li> <li>Animals that are sick, hurt or in pain.</li> <li>Animals alone or separated from their group.</li> <li>Animals that are cornered or trapped in a pen or crush.</li> <li>Animals that were handled roughly before.</li> <li>Strange noises, dogs, shouting or new places.</li> </ul> <h4>Changes in normal behaviour</h4><p>An animal that is usually calm but suddenly stands apart, stops eating, keeps lying down or becomes jumpy may be sick or in pain. Sick or hurt animals can kick or bite when touched. Tell your supervisor so the animal can be checked, and handle it with extra care.</p><p>If you see warning signs, stop, move back slowly and tell your supervisor.</p>"
+  },
+  {
+   "title": "Managing animals to reduce defensive behaviour",
+   "minutes": 15,
+   "html": "<h3>Calm handling</h3> <ul> <li>Move slowly and quietly. Speak softly so animals know where you are.</li> <li>Work at the edge of the flight zone. Step in to make animals move; step back to make them stop.</li> <li>Never shout, hit, kick or twist tails. Rough handling makes animals scared and more dangerous next time.</li> <li>Keep animals in groups. Do not leave one animal alone in a pen.</li> <li>Give mothers with young extra space.</li> <li>Keep dogs under control near livestock.</li> <li>Always have an escape route: know where you can climb out or step through.</li> <li>Never turn your back on a bull, boar or ram.</li> <li>Work in pairs with dangerous animals.</li> </ul> <h3>Good facilities help</h3> <ul> <li>Strong, well-built kraals, races and crushes with no sharp edges.</li> <li>Solid sides on races so animals do not see people and get scared.</li> <li>Non-slip floors.</li> <li>Even lighting with no deep shadows.</li> <li>Gates that open and close easily and quietly.</li> </ul> <h3>Equipment for handling animals</h3> <table> <tr><th>Equipment</th><th>Use</th></tr> <tr><td>Crush and head clamp</td><td>Hold cattle still for treatment</td></tr> <tr><td>Race</td><td>Move animals in single file</td></tr> <tr><td>Flags, paddles or rattles</td><td>Guide animals without hitting them</td></tr> <tr><td>Pig boards</td><td>Guide pigs and protect your legs</td></tr> <tr><td>Halters and lead ropes</td><td>Lead cattle and horses</td></tr> <tr><td>Hurdles and portable panels</td><td>Make small pens for sheep and goats</td></tr> <tr><td>Bull ring and lead pole</td><td>Control bulls safely</td></tr> <tr><td>PPE: boots, gloves, overalls</td><td>Protect you</td></tr> </table> <p>The Animals Protection Act 71 of 1962 makes it a crime to treat animals cruelly. Handle them with care.</p> <h4>Key points</h4> <ul> <li>Animals have a blind spot behind them and a flight zone around them.</li> <li>Learn the warning signs: head down, pawing, ears back, raised leg.</li> <li>Mothers with young, males, sick and lonely animals are more likely to defend themselves.</li> <li>Move slowly and quietly; never hit animals.</li> <li>Always have an escape route and use the right equipment.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where is a cow's blind spot?",
+   "options": [
+    {
+     "text": "Directly behind it",
+     "correct": true
+    },
+    {
+     "text": "In front of its nose",
+     "correct": false
+    },
+    {
+     "text": "Above its head",
+     "correct": false
+    },
+    {
+     "text": "On its left side only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the flight zone?",
+   "options": [
+    {
+     "text": "The feeding area",
+     "correct": false
+    },
+    {
+     "text": "The dip tank",
+     "correct": false
+    },
+    {
+     "text": "A place for aeroplanes",
+     "correct": false
+    },
+    {
+     "text": "An animal's personal space; it moves away when you enter",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A bull lowers his head, faces you and paws the ground. What does this mean?",
+   "options": [
+    {
+     "text": "He is hungry",
+     "correct": false
+    },
+    {
+     "text": "He is ready to charge",
+     "correct": true
+    },
+    {
+     "text": "He is sleeping",
+     "correct": false
+    },
+    {
+     "text": "He is happy to see you",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you see warning signs?",
+   "options": [
+    {
+     "text": "Run at the animal",
+     "correct": false
+    },
+    {
+     "text": "Shout and wave your arms",
+     "correct": false
+    },
+    {
+     "text": "Turn your back and walk away fast",
+     "correct": false
+    },
+    {
+     "text": "Stop, move back slowly and tell your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which animal is most likely to defend itself?",
+   "options": [
+    {
+     "text": "A cow with a newborn calf",
+     "correct": true
+    },
+    {
+     "text": "A sleeping sheep in the flock",
+     "correct": false
+    },
+    {
+     "text": "A calm cow grazing in a group",
+     "correct": false
+    },
+    {
+     "text": "A tame goat being fed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hitting animals makes them calmer next time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Solid sides on a race help to stop animals getting scared by people.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are warning signs in a horse? (select all that apply)",
+   "options": [
+    {
+     "text": "Showing teeth",
+     "correct": true
+    },
+    {
+     "text": "Ears flat back",
+     "correct": true
+    },
+    {
+     "text": "Raising a back leg",
+     "correct": true
+    },
+    {
+     "text": "Grazing quietly",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

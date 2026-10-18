@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL97096",
+ "title": "Diploma in Game Ranch Management",
+ "lessons": [
+  {
+   "title": "Sustainable game production",
+   "minutes": 18,
+   "html": "<h3>The game ranch practitioner</h3>\n<p>The Diploma in Game Ranch Management (NQF 6) is a three-year higher-education programme that prepares practitioners for sustainable game production and utilisation. Graduates work as ranch managers, assistant managers, field rangers and advisers on private game ranches and conservancies.</p>\n<h4>The ranch as a production system</h4>\n<p>A game ranch converts veld into income through animals. Like a cattle farm, it depends on soil, rainfall, grass, browse and water, but game species have different feeding habits and needs.</p>\n<ul><li><strong>Grazers</strong> (white rhino, zebra, blue wildebeest, buffalo, blesbok) eat grass.</li>\n<li><strong>Browsers</strong> (kudu, giraffe, bushbuck, black rhino) eat leaves and twigs.</li>\n<li><strong>Mixed feeders</strong> (impala, eland, springbok) switch between grass and browse with the seasons.</li></ul>\n<p>A balanced species mix uses the vegetation more fully than cattle alone. The manager calculates <strong>stocking rate</strong> from veld condition and rainfall, and adjusts numbers before drought or overgrazing causes damage.</p>\n<h4>Veld and habitat management</h4>\n<ul><li>Veld condition assessments every year at fixed sites.</li>\n<li>Planned burns to remove old grass and control bush, with firebreaks and neighbour notification.</li>\n<li>Control of alien plants and bush encroachment under the Conservation of Agricultural Resources Act 43 of 1983.</li>\n<li>Waterpoint management, erosion control and road maintenance.</li></ul>\n<h4>Animal health</h4>\n<p>Game generally needs less routine treatment than livestock, but ticks, internal parasites, and diseases such as anthrax, tuberculosis, corridor disease (buffalo) and rabies must be monitored. Disease testing is often required before translocation, and some diseases are controlled under the Animal Diseases Act 35 of 1984. Immobilisation and treatment are done by wildlife vets.</p>"
+  },
+  {
+   "title": "Utilisation, business and compliance",
+   "minutes": 16,
+   "html": "<h3>Forms of game utilisation</h3>\n<table><tr><th>Use</th><th>What the practitioner does</th></tr>\n<tr><td>Live sales</td><td>Plans capture, works with game capture teams and auctioneers, arranges permits and transport</td></tr>\n<tr><td>Hunting</td><td>Sets quotas, works with professional hunters, maintains hunting registers</td></tr>\n<tr><td>Venison</td><td>Arranges harvesting (often night culling by licensed teams), hygiene, cold chain and a registered abattoir or approved process</td></tr>\n<tr><td>Eco-tourism</td><td>Game drives, walking trails, birding, accommodation</td></tr>\n<tr><td>By-products</td><td>Skins, horns for curios, under permit where required</td></tr></table>\n<h4>Setting sustainable offtake</h4>\n<p>Each year after the game count, the manager estimates how many animals can be removed without reducing the breeding population. Typical factors are the population size, growth rate, sex ratio, age structure, veld condition and predator numbers. Offtake is spread over live sales, hunting and culling.</p>\n<h4>Running the ranch as a business</h4>\n<ul><li>Prepare an annual budget with income by enterprise and costs such as fencing, water, salaries, security, fuel and vet fees.</li>\n<li>Keep accurate records: game counts, sales, hunts, mortalities, rainfall and veld data.</li>\n<li>Market the ranch to hunters, buyers and tourists.</li>\n<li>Manage staff fairly and safely under labour law and the OHS Act 85 of 1993.</li></ul>\n<h4>Compliance</h4>\n<ul><li>Provincial permits for hunting, capture, transport and keeping game; registration or exemption of the property.</li>\n<li>TOPS permits under the Biodiversity Act 10 of 2004 for listed species.</li>\n<li>Game fencing standards set by the provincial authority.</li>\n<li>Firearm licences under the Firearms Control Act 60 of 2000 for culling staff.</li></ul>\n<h4>Key points</h4>\n<ul><li>Game ranching turns veld into income through a balanced mix of grazers, browsers and mixed feeders.</li>\n<li>Stocking rates follow veld condition and rainfall.</li>\n<li>Utilisation includes live sales, hunting, venison, eco-tourism and by-products.</li>\n<li>Sustainable offtake is set annually from counts, growth rates and veld condition.</li>\n<li>Budgets, records and permits keep the ranch profitable and legal.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which animals are mixed feeders?",
+   "options": [
+    {
+     "text": "Bushbuck and black rhino",
+     "correct": false
+    },
+    {
+     "text": "Zebra and buffalo",
+     "correct": false
+    },
+    {
+     "text": "Kudu and giraffe",
+     "correct": false
+    },
+    {
+     "text": "Impala and eland",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should determine the stocking rate on a game ranch?",
+   "options": [
+    {
+     "text": "The price of diesel",
+     "correct": false
+    },
+    {
+     "text": "The owner's wish",
+     "correct": false
+    },
+    {
+     "text": "Veld condition and rainfall",
+     "correct": true
+    },
+    {
+     "text": "The number of lodge rooms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is sustainable offtake usually set?",
+   "options": [
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Each year after the game count",
+     "correct": true
+    },
+    {
+     "text": "Every ten years",
+     "correct": false
+    },
+    {
+     "text": "Only when animals die",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which disease is linked to buffalo?",
+   "options": [
+    {
+     "text": "Parvovirus",
+     "correct": false
+    },
+    {
+     "text": "Wire-worm",
+     "correct": false
+    },
+    {
+     "text": "Corridor disease",
+     "correct": true
+    },
+    {
+     "text": "Newcastle disease",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which permits are needed for listed species under the Biodiversity Act?",
+   "options": [
+    {
+     "text": "TOPS permits",
+     "correct": true
+    },
+    {
+     "text": "Liquor licences",
+     "correct": false
+    },
+    {
+     "text": "Building permits",
+     "correct": false
+    },
+    {
+     "text": "Water permits",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A balanced mix of game species uses vegetation more fully than cattle alone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Game never needs disease testing before translocation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are forms of game utilisation? (select all that apply)",
+   "options": [
+    {
+     "text": "Venison production",
+     "correct": true
+    },
+    {
+     "text": "Live sales",
+     "correct": true
+    },
+    {
+     "text": "Hunting",
+     "correct": true
+    },
+    {
+     "text": "Overgrazing for quick profit",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-08",
+ "title": "Management of Climate- Responsive Practices for Crops and Livestock",
+ "lessons": [
+  {
+   "title": "Observing climate risks on the farm",
+   "minutes": 20,
+   "html": "<h3>Know your local climate</h3><p>In this work experience module you help put climate-responsive practices in place for crops and livestock, and record evidence of what was done and how well it worked.</p><h4>Weather and climate records</h4><ul><li>Read the farm rain gauge every morning at the same time and record the reading, even when it is zero.</li><li>Record minimum and maximum temperatures, frost, hail and strong winds.</li><li>Compare this season with the farm's long-term average to see whether it is wetter or drier than normal.</li><li>Follow seasonal outlooks and warnings from the South African Weather Service.</li></ul><h4>Identifying vulnerable areas</h4><p>Walk the farm with your supervisor and identify:</p><ul><li>Lands with erosion, low-lying areas that flood and slopes that lose topsoil.</li><li>Camps that dry out first in drought or have poor water supply.</li><li>Animal housing that gets too hot, and areas without shade.</li><li>Crops and animals most sensitive to heat or drought.</li></ul><p>Mark these on the farm map. This is the starting point for choosing practices to put in place.</p><h4>Linking climate to farm records</h4><p>Climate data becomes useful when it is compared with production records. Note how yields, calving percentages, weaning weights and feed purchases changed in wet and dry years. For example, if the farm had to buy hay in three of the last five winters, feed shortages are a regular risk rather than bad luck, and the farm needs a permanent fodder plan.</p><p>Keep all records in a file or spreadsheet, and bring a summary to your supervisor each month. Include the readings, the dates of extreme events and any damage that occurred, such as erosion, hail damage or animal losses.</p>"
+  },
+  {
+   "title": "Putting climate-responsive practices in place",
+   "minutes": 20,
+   "html": "<h3>Practical actions</h3><h4>Crops</h4><ul><li>Help implement conservation agriculture practices: no-till planting, keeping residues and planting cover crops.</li><li>Build or maintain water-harvesting structures such as contours, basins or tied ridges.</li><li>Apply mulch to vegetable beds to keep soil cool and moist.</li><li>Plant drought-tolerant crops or cultivars on the driest lands, and stagger planting dates.</li><li>Schedule irrigation in the cooler parts of the day using soil moisture readings.</li></ul><h4>Livestock</h4><ul><li>Provide shade (trees or shade cloth) and extra water troughs in hot camps.</li><li>Move handling, dipping and loading to the early morning on hot days.</li><li>Help prepare fodder reserves: baling hay, making silage or resting reserve camps.</li><li>Assist with destocking decisions according to the farm's drought plan.</li><li>Check animal houses for ventilation and use fans or sprinklers where they are part of the system.</li></ul><h4>Recognising heat stress</h4><p>Watch for panting, open-mouth breathing, drooling, animals crowding into shade and reduced feeding. Move affected animals to shade with water and inform your supervisor. Never load or transport animals in the heat of the day.</p><h4>Responding to extreme events</h4><p>Before floods or storms, move animals from low-lying camps and secure loose materials. After an event, check fences, water points and animals and report losses. Stay safe: never cross flooded rivers or low-water bridges in a bakkie or on foot.</p><p>Record each practice you helped to put in place, with dates and photos.</p><p>Always ask your supervisor before changing any practice, and record what was changed, where and when, so the results can be measured fairly later.</p>"
+  },
+  {
+   "title": "Evaluating and reporting",
+   "minutes": 20,
+   "html": "<h3>Did the practices work?</h3><p>Climate-responsive practices must be measured to show whether they help. Collect simple before-and-after evidence.</p><h4>What to measure</h4><table><tr><th>Practice</th><th>Indicator</th></tr><tr><td>Mulching or no-till</td><td>Soil moisture a few days after rain, yield</td></tr><tr><td>Water harvesting</td><td>Signs of runoff and erosion after storms</td></tr><tr><td>Shade for livestock</td><td>Heat stress signs, feed intake, milk yield</td></tr><tr><td>Fodder reserve</td><td>Days of feed in store, animals kept through drought</td></tr><tr><td>Irrigation scheduling</td><td>Water used per ton produced</td></tr></table><h4>Example</h4><p>One vegetable bed was mulched and the neighbouring bed was not. Over a hot, dry month the mulched bed needed irrigation twice a week and the unmulched bed four times a week. Record this as evidence that mulching halved irrigation needs in that bed for that month.</p><h4>Writing the report</h4><ol><li>Describe the climate risk you addressed.</li><li>Describe the practice and how it was implemented.</li><li>Present the measurements with dates.</li><li>Explain the results honestly, including what did not work.</li><li>Recommend what the farm should continue, change or expand.</li></ol><p>Have your supervisor sign the report and include it in your portfolio of evidence.</p><p>Share your results with your workplace team.</p><p>Keep your raw readings with the report so an assessor can check your calculations and see how the evidence was collected.</p><h4>Key points</h4><ul><li>Record rainfall and temperatures daily and compare with long-term averages.</li><li>Map vulnerable lands, camps and housing.</li><li>Use conservation agriculture, mulch, water harvesting and drought-tolerant crops.</li><li>Provide shade and water and handle animals early on hot days.</li><li>Measure results and report honestly with recommendations.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How often should the farm rain gauge be read?",
+   "options": [
+    {
+     "text": "Only when it rains heavily",
+     "correct": false
+    },
+    {
+     "text": "Every morning at the same time",
+     "correct": true
+    },
+    {
+     "text": "Once a month",
+     "correct": false
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with animals showing heat stress?",
+   "options": [
+    {
+     "text": "Move them to shade with water and inform your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Load them for transport immediately",
+     "correct": false
+    },
+    {
+     "text": "Dip them at midday",
+     "correct": false
+    },
+    {
+     "text": "Leave them in the sun",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A mulched bed needed irrigation twice a week and an unmulched bed four times a week. What does this show?",
+   "options": [
+    {
+     "text": "Mulching doubled irrigation needs",
+     "correct": false
+    },
+    {
+     "text": "Mulching halved irrigation needs in that bed for that month",
+     "correct": true
+    },
+    {
+     "text": "Mulching had no effect",
+     "correct": false
+    },
+    {
+     "text": "The unmulched bed was more efficient",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done before a flood or storm?",
+   "options": [
+    {
+     "text": "Move animals into low-lying camps",
+     "correct": false
+    },
+    {
+     "text": "Move animals out of low-lying camps and secure loose materials",
+     "correct": true
+    },
+    {
+     "text": "Open all the gates",
+     "correct": false
+    },
+    {
+     "text": "Cross the river to check the far camp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which indicator shows the effect of shade for livestock?",
+   "options": [
+    {
+     "text": "Days of feed in store",
+     "correct": false
+    },
+    {
+     "text": "Heat stress signs and feed intake",
+     "correct": true
+    },
+    {
+     "text": "Water used per ton of crop",
+     "correct": false
+    },
+    {
+     "text": "Soil moisture after rain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may cross a flooded low-water bridge in a bakkie if you drive slowly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A rainfall reading of zero should still be recorded.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are climate-responsive practices for crops? (select all that apply)",
+   "options": [
+    {
+     "text": "No-till planting and keeping residues",
+     "correct": true
+    },
+    {
+     "text": "Water harvesting with basins or tied ridges",
+     "correct": true
+    },
+    {
+     "text": "Burning crop residues after harvest",
+     "correct": false
+    },
+    {
+     "text": "Staggering planting dates",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

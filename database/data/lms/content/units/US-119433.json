@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119433",
+ "title": "Apply quality assurance in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "What quality means",
+   "minutes": 15,
+   "html": "<h3>Quality and quality assurance</h3>\n<p>A <strong>quality</strong> chicken product is safe to eat, looks good, has the right weight and is packed and labelled correctly. <strong>Quality assurance (QA)</strong> is the system a plant uses to make sure every product meets these standards every day. It is not only the job of the QA office. Every worker on the line is part of quality.</p>\n<p>Customers such as supermarkets and fast-food chains have their own specifications. If a plant sends them poor product, they can reject the whole delivery or stop buying. The <strong>Meat Safety Act 40 of 2000</strong> also requires meat to be safe and wholesome, and inspectors check the plant.</p>\n<h4>What makes a good carcass or portion</h4>\n<ul>\n<li>Clean, with no faeces, feathers, bile (green stain) or dirt.</li>\n<li>Well bled, with no dark red areas.</li>\n<li>No bruises, broken wings or broken legs.</li>\n<li>No torn skin or scalded (cooked) skin.</li>\n<li>Correct cut and correct size or weight.</li>\n<li>Correct temperature (properly chilled or frozen).</li>\n<li>No foreign objects such as plastic, metal or plasters.</li>\n</ul>\n<h4>Grades</h4>\n<p>Many plants sort carcasses into grades. Grade A birds have no defects and are sold whole. Birds with small defects may be downgraded and cut into portions, with the damaged part trimmed off. Birds that are not fit for food are <strong>condemned</strong> and destroyed. Follow your plant's grading chart and the instructions of the meat inspector.</p>\n<p><em>Example:</em> Bongani on the grading line sees a bird with a broken wing. It is not condemned. He moves it to the portions line where the wing is removed, and the rest of the bird is used.</p>"
+  },
+  {
+   "title": "Checks and inspections on the line",
+   "minutes": 15,
+   "html": "<h3>Who checks what</h3>\n<ul>\n<li><strong>Meat inspectors</strong> check birds for disease and decide if they are fit for food.</li>\n<li><strong>QA staff</strong> take samples, check temperatures and weights, take swabs and audit the plant.</li>\n<li><strong>Line workers</strong> check their own work and report problems.</li>\n</ul>\n<h4>Checks you may do</h4>\n<ol>\n<li><strong>Visual check</strong> – look at each carcass or portion for defects.</li>\n<li><strong>Temperature check</strong> – probe the product and record the result.</li>\n<li><strong>Weight check</strong> – weigh packs to see they meet the label weight.</li>\n<li><strong>Label check</strong> – right product name, dates, batch number and weight.</li>\n<li><strong>Pack check</strong> – sealed, not torn, no leaks.</li>\n<li><strong>Foreign object check</strong> – metal detector working and tested at set times.</li>\n</ol>\n<h4>Critical control points</h4>\n<p>Most plants use a food safety system called <strong>HACCP</strong> (Hazard Analysis and Critical Control Points). A critical control point (CCP) is a step where a check must be done to keep the food safe, such as carcass chilling temperature or the metal detector. Each CCP has a limit. If the limit is not met, the product must be held and the problem fixed. CCP checks must be done on time and recorded honestly.</p>\n<h4>Recording</h4>\n<p>Write clearly on the record sheet: the date, time, what you checked, the result and your name or signature. Never fill in a record before you do the check, and never write a result you did not measure. A false record can hide a food safety problem and lead to sick customers.</p><p><em>Example:</em> The metal detector test is due every hour. Sizwe is busy and misses one test. When he does the next test, the detector fails. Because the last good test is two hours ago, all product packed in those two hours must now be held and checked again.</p>"
+  },
+  {
+   "title": "When something is wrong",
+   "minutes": 15,
+   "html": "<h3>Non-conforming product</h3>\n<p>Product that does not meet the standard is called <strong>non-conforming</strong>. It must be kept apart so that it cannot be sent out by mistake.</p>\n<h4>What to do</h4>\n<ol>\n<li><strong>Stop</strong> – if the problem is serious, stop your part of the line or call your supervisor at once.</li>\n<li><strong>Separate</strong> – put the product in the hold area or a marked container.</li>\n<li><strong>Label</strong> – mark it \"ON HOLD\" with the date, time and reason, as your plant requires.</li>\n<li><strong>Report</strong> – tell your supervisor or QA.</li>\n<li><strong>Wait</strong> – QA decides whether it is reworked, downgraded or condemned. Do not release held product yourself.</li>\n</ol>\n<h4>Examples</h4>\n<table><tr><th>Problem</th><th>Action</th></tr>\n<tr><td>Faecal contamination on carcasses</td><td>Remove from line, report; carcasses are trimmed or reprocessed as the plant procedure says</td></tr>\n<tr><td>Metal detector rejects a pack</td><td>Keep the pack for QA to investigate</td></tr>\n<tr><td>Wrong date on labels</td><td>Stop labelling, hold all affected packs</td></tr>\n<tr><td>Product too warm</td><td>Hold and report to QA</td></tr>\n</table>\n<h4>Finding the cause</h4>\n<p>QA and the supervisor will look for the cause so it does not happen again. For example, many burst guts may mean the evisceration machine needs adjusting or birds were not off feed long enough. You can help by explaining what you saw.</p>\n<h4>Traceability and recalls</h4>\n<p>Batch numbers and records allow the plant to find exactly which product was affected. If unsafe product has left the plant, it can be recalled from shops. Good records make a recall smaller and faster.</p>\n<h4>Key points</h4>\n<ul>\n<li>Quality means safe, clean, correctly cut, weighed, packed and labelled product.</li>\n<li>Every worker checks their own work and reports problems.</li>\n<li>CCP checks must be done on time and recorded honestly.</li>\n<li>Separate, label and report non-conforming product; never release it yourself.</li>\n<li>Batch numbers and records make traceability and recalls possible.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a green stain on a carcass usually caused by?",
+   "options": [
+    {
+     "text": "Bile from the gall bladder",
+     "correct": true
+    },
+    {
+     "text": "Too much ice",
+     "correct": false
+    },
+    {
+     "text": "Good bleeding",
+     "correct": false
+    },
+    {
+     "text": "The label printer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens to a bird that is not fit for food?",
+   "options": [
+    {
+     "text": "It is sold as Grade A",
+     "correct": false
+    },
+    {
+     "text": "It is condemned and destroyed",
+     "correct": true
+    },
+    {
+     "text": "It is sent to packing",
+     "correct": false
+    },
+    {
+     "text": "It is given to workers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does HACCP stand for?",
+   "options": [
+    {
+     "text": "Hazard Analysis and Critical Control Points",
+     "correct": true
+    },
+    {
+     "text": "Health And Chicken Care Plan",
+     "correct": false
+    },
+    {
+     "text": "High Accuracy Chilling Control Process",
+     "correct": false
+    },
+    {
+     "text": "Hygiene And Cleaning Check Points",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with non-conforming product?",
+   "options": [
+    {
+     "text": "Send it out quickly",
+     "correct": false
+    },
+    {
+     "text": "Separate it, label it on hold and report it",
+     "correct": true
+    },
+    {
+     "text": "Mix it with good product",
+     "correct": false
+    },
+    {
+     "text": "Release it yourself after an hour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A bird has a broken wing but is otherwise good. What usually happens?",
+   "options": [
+    {
+     "text": "It is condemned",
+     "correct": false
+    },
+    {
+     "text": "It is downgraded and cut into portions with the wing removed",
+     "correct": true
+    },
+    {
+     "text": "It is sold as Grade A",
+     "correct": false
+    },
+    {
+     "text": "It is put back on the shackle line",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may fill in a temperature record before you do the check, to save time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Batch numbers and good records help the plant recall unsafe product quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are quality defects on a carcass? (select all that apply)",
+   "options": [
+    {
+     "text": "Bruises",
+     "correct": true
+    },
+    {
+     "text": "Feathers left on",
+     "correct": true
+    },
+    {
+     "text": "Well bled, clean skin",
+     "correct": false
+    },
+    {
+     "text": "Torn skin",
+     "correct": true
+    },
+    {
+     "text": "Correct weight",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119490",
+ "title": "Utilise bio-security practices in poultry production",
+ "lessons": [
+  {
+   "title": "What biosecurity means",
+   "minutes": 15,
+   "html": "<h3>Keep germs out</h3><p>Biosecurity means all the things we do to stop germs getting onto the farm, and to stop them spreading from house to house. Chickens live close together, so one sick bird can quickly make thousands sick. Diseases like bird flu (avian influenza) and Newcastle disease can kill a whole flock and force the farm to close.</p><h4>How germs come onto the farm</h4><ul><li>People – on shoes, clothes, hands and hair.</li><li>Vehicles – feed trucks, egg trucks, bakkies.</li><li>Equipment – crates, trays, tools moved between farms.</li><li>Wild birds, rats, mice, flies and beetles.</li><li>Backyard chickens, ducks or pigeons kept by workers.</li><li>Dirty water or feed.</li><li>New birds brought in.</li></ul><h4>Your part</h4><p>Biosecurity only works if every person follows the rules every time. One person who skips the footbath can bring disease in for everyone. That is why you must follow the rules even when no one is watching.</p><h4>Rules for workers</h4><ul><li>Do not keep chickens, ducks or birds at home if the farm says so.</li><li>Do not visit other poultry farms or live bird markets.</li><li>Tell your supervisor if you have been near other birds.</li></ul><h4>Inside the farm</h4><p>Biosecurity is also about stopping germs moving inside the farm. Germs can move from one house to the next on your boots, on a wheelbarrow, on egg trays or on a feed scoop. If one house has sick birds, careful work can stop the sickness reaching the other houses. That is why each house has its own footbath, boots or tools, and why the order of work matters.</p>"
+  },
+  {
+   "title": "Entering the farm and the houses",
+   "minutes": 15,
+   "html": "<h3>Clean in, clean out</h3><h4>At the farm gate</h4><ul><li>Only people with permission may enter. Visitors sign the visitor book.</li><li>Vehicles go through the wheel dip or are sprayed, as the farm says.</li><li>On many farms you must shower and put on farm clothes and boots before you go in.</li></ul><h4>At each house</h4><ol><li>Stop at the door.</li><li>Scrape dirt off your boots.</li><li>Step into the footbath and stand for the time your supervisor says, or change to the house boots.</li><li>Wash or sanitise your hands.</li><li>Go in and close the door.</li></ol><h4>Footbaths</h4><ul><li>Footbaths stop working when they are dirty. Change the disinfectant as often as the farm procedure says, and when it is dirty.</li><li>Mix the disinfectant at the strength on the label.</li><li>Keep a lid or roof over it so rain does not make it weak.</li></ul><h4>Order of work</h4><p>Always work from the youngest birds to the oldest birds, and from healthy houses to sick houses. Young chicks catch disease easily. If you must go to a sick house, go last and change your clothes after.</p><h4>Equipment</h4><p>Each house should have its own tools, like spades and buckets. If you must move equipment, clean and disinfect it first.</p><h4>Visitors and vehicles</h4><p>Visitors like technicians, vets and feed reps must also follow the rules. They sign the visitor book, wear the farm's clean clothes and boots and use the footbaths. Vehicles stay outside the clean area where possible. If you see someone enter without following the rules, tell your supervisor politely and quickly.</p>"
+  },
+  {
+   "title": "Pests, dead birds and reporting",
+   "minutes": 15,
+   "html": "<h3>Close the other doors to disease</h3><h4>Wild birds and rodents</h4><ul><li>Keep doors closed and fix holes in nets and walls so wild birds cannot get in.</li><li>Clean up spilt feed at once.</li><li>Keep grass short around houses.</li><li>Check rat bait stations and tell your supervisor if bait is eaten or you see rats.</li><li>Rat poison is dangerous to people and animals. Use gloves and keep it in bait stations only.</li></ul><h4>Dead birds</h4><ul><li>Pick up dead birds every day with gloves.</li><li>Put them in the closed bin or approved disposal system.</li><li>Never leave them where dogs, jackals or birds can get them.</li></ul><h4>Signs of disease</h4><p>Tell your supervisor at once if you see:</p><ul><li>many more dead birds than usual;</li><li>birds not eating or drinking;</li><li>birds with swollen heads, blue combs or breathing problems;</li><li>birds twisting their necks or falling over;</li><li>fewer eggs or eggs with bad shells.</li></ul><p>Bird flu and Newcastle disease are controlled diseases under the Animal Diseases Act 35 of 1984. The farm must tell the state vet if they are suspected. Your quick report can save the farm.</p><h4>Key points</h4><ul><li>Biosecurity stops germs coming onto the farm and spreading between houses.</li><li>Use the footbath, change boots and wash hands at every house.</li><li>Work from young birds to old birds and from healthy to sick houses.</li><li>Keep wild birds and rats out and remove dead birds every day.</li><li>Report signs of disease at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is biosecurity?",
+   "options": [
+    {
+     "text": "A type of chicken feed",
+     "correct": false
+    },
+    {
+     "text": "Locking the office at night",
+     "correct": false
+    },
+    {
+     "text": "Security guards at the gate only",
+     "correct": false
+    },
+    {
+     "text": "Everything we do to stop germs coming onto the farm and spreading",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should you visit houses?",
+   "options": [
+    {
+     "text": "Youngest birds first, then oldest",
+     "correct": true
+    },
+    {
+     "text": "Oldest birds first, then youngest",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    },
+    {
+     "text": "Sick houses first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When does a footbath stop working well?",
+   "options": [
+    {
+     "text": "When it is covered with a roof",
+     "correct": false
+    },
+    {
+     "text": "When it is mixed at label strength",
+     "correct": false
+    },
+    {
+     "text": "When it is dirty or the disinfectant is old",
+     "correct": true
+    },
+    {
+     "text": "When people stand in it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should workers not keep backyard chickens if the farm asks this?",
+   "options": [
+    {
+     "text": "They eat too much feed",
+     "correct": false
+    },
+    {
+     "text": "Backyard birds can carry disease to the farm",
+     "correct": true
+    },
+    {
+     "text": "Chickens are noisy",
+     "correct": false
+    },
+    {
+     "text": "They are not allowed by the municipality",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which disease must be reported to the state vet if it is suspected?",
+   "options": [
+    {
+     "text": "Dirty eggs",
+     "correct": false
+    },
+    {
+     "text": "A broken wing on one chicken",
+     "correct": false
+    },
+    {
+     "text": "A blocked nipple drinker",
+     "correct": false
+    },
+    {
+     "text": "Bird flu (avian influenza)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Every house should have its own tools, such as spades and buckets.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to skip the footbath if you are only going in for a minute.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these can bring germs onto a poultry farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Wild birds and rats",
+     "correct": true
+    },
+    {
+     "text": "Dirty vehicles",
+     "correct": true
+    },
+    {
+     "text": "Clean farm clothes kept on the farm",
+     "correct": false
+    },
+    {
+     "text": "Visitors who have been on other poultry farms",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

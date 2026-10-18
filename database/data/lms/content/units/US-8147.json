@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8147",
+ "title": "Introduction to Agri Trade",
+ "lessons": [
+  {
+   "title": "What agri trade is and how to get ready",
+   "minutes": 15,
+   "html": "<h3>What is agri trade?</h3><p>Agri trade is the shop side of farming. It is the co-op, the farm store or the input shop in town. Farmers come here to buy seed, fertiliser, animal feed, dip, fencing wire, tools, spares and protective clothing. Some stores also buy grain or sell to the public.</p><p>You may work at the counter, in the store room, in the yard where the bags of feed and fertiliser are kept, or at the loading bay. Every job helps the farmer get the right thing at the right time.</p><h4>Who are the customers?</h4><ul><li>Commercial farmers who buy big orders, often on account.</li><li>Small-scale and emerging farmers who buy smaller amounts and often pay cash.</li><li>Farm workers sent by the farmer with an order note.</li><li>Gardeners and people from town.</li></ul><h4>Getting ready for work</h4><p>Before you start a shift, plan your day. A good plan stops mistakes and makes you calm.</p><ol><li>Arrive on time and sign in.</li><li>Put on your uniform, name badge and safety shoes.</li><li>Ask your supervisor what the main jobs are today. Is a truck coming? Is there a special on feed?</li><li>Check that your tools are ready: pen, order book, price list, hand trolley, scanner.</li><li>Look at your work area. Is it clean? Is anything blocking the walkway?</li></ol><h4>Know the main product groups</h4><table><tr><th>Group</th><th>Examples</th></tr><tr><td>Crop inputs</td><td>Seed, fertiliser, lime, crop sprays</td></tr><tr><td>Animal health and feed</td><td>Lick, feed, dip, vaccines</td></tr><tr><td>Hardware</td><td>Wire, poles, droppers, tools, pipes</td></tr><tr><td>Clothing and safety</td><td>Overalls, boots, gloves, masks</td></tr></table><p>You do not need to know everything on day one. Ask questions. Learn one shelf at a time. When a farmer asks for something you do not know, say: \"Let me find out for you,\" and ask a senior person. Never guess.</p>"
+  },
+  {
+   "title": "Basic principles of trade",
+   "minutes": 15,
+   "html": "<h3>How the store works</h3><p>Every store follows the same simple cycle. Goods come in, goods are stored, goods are sold, and money comes in. Then the store orders again.</p><ol><li><strong>Ordering:</strong> the buyer orders stock from suppliers.</li><li><strong>Receiving:</strong> the truck arrives. Someone counts the goods and checks them against the delivery note.</li><li><strong>Storing:</strong> goods are packed on shelves or pallets in the right place.</li><li><strong>Selling:</strong> the customer chooses goods and pays at the till or on account.</li><li><strong>Re-ordering:</strong> when stock runs low, the store orders again.</li></ol><h4>Price, cost and profit</h4><p>The store pays the supplier a <strong>cost price</strong>. It sells to the farmer at a <strong>selling price</strong>. The difference pays wages, electricity, transport and the profit. Example: a bag of lick costs the store R200 and is sold for R250. The R50 is not all profit. Some of it pays for the truck, the staff and the building.</p><h4>Why stock matters</h4><p>If the store runs out of maize seed in planting time, the farmer goes to another store and may never come back. If the store buys too much, money is stuck on the shelf and some products expire. That is why counting and recording stock is so important.</p><h4>The customer is the reason for the job</h4><ul><li>Greet every customer.</li><li>Listen to what they need.</li><li>Give the right product and the right amount.</li><li>Help load heavy bags onto the bakkie safely.</li><li>Say thank you.</li></ul><p>A farmer who is helped well tells other farmers. Word of mouth is very strong in farming areas.</p><h4>Paperwork you will see</h4><p>You will see order forms, delivery notes, invoices, till slips and stock cards. Each one is a record. Write clearly, use the right date and sign where you must. If a paper is wrong, tell your supervisor. Do not tear it up or throw it away.</p>"
+  },
+  {
+   "title": "Safety and work ethics",
+   "minutes": 15,
+   "html": "<h3>Safety in the store and yard</h3><p>An agri store has many dangers. Bags are heavy. Forklifts move in the yard. Some products are poisons. The Occupational Health and Safety Act 85 of 1993 says the employer must make the workplace safe, and you must also work safely and follow the rules.</p><h4>Lifting</h4><ul><li>Bend your knees, keep your back straight, hold the load close.</li><li>Use a trolley or ask for help with heavy bags.</li><li>Never throw bags down from a high stack.</li></ul><h4>Chemicals</h4><ul><li>Keep sprays, dips and poisons in their own locked area, away from feed and food.</li><li>Never open, decant or smell a chemical container.</li><li>If a container leaks, keep people away and call your supervisor at once.</li><li>Wash your hands before you eat.</li></ul><h4>Yard and vehicles</h4><ul><li>Walk in the marked walkways.</li><li>Keep away from a working forklift unless the driver can see you.</li><li>Only trained people may drive a forklift.</li></ul><h4>Fire</h4><p>Know where the fire extinguishers and exits are. Do not smoke near fertiliser, fuel or chemicals. Report blocked exits.</p><h3>Work ethics</h3><p>Work ethics means doing the right thing, even when nobody is watching.</p><ul><li><strong>Honesty:</strong> never take stock or money. Give the correct change.</li><li><strong>Punctuality:</strong> be on time, every day.</li><li><strong>Respect:</strong> treat every customer and co-worker the same, no matter who they are.</li><li><strong>Reliability:</strong> finish what you start. If you cannot, say so.</li><li><strong>Confidentiality:</strong> do not talk about a customer's account or what they buy.</li></ul><h4>Finishing your shift</h4><ol><li>Pack away your tools and trolley.</li><li>Clean your area.</li><li>Hand in order notes and paperwork.</li><li>Tell the next person about anything not finished.</li></ol><h4>Key points</h4><ul><li>Agri trade supplies farmers with the inputs they need.</li><li>Goods move in a cycle: order, receive, store, sell, re-order.</li><li>Lift safely and keep chemicals locked away from feed.</li><li>Be honest, on time and respectful.</li><li>Ask when you do not know. Never guess.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main job of an agri trade store?",
+   "options": [
+    {
+     "text": "To run the dip tank",
+     "correct": false
+    },
+    {
+     "text": "To repair tractors only",
+     "correct": false
+    },
+    {
+     "text": "To grow crops for the town",
+     "correct": false
+    },
+    {
+     "text": "To supply farmers with inputs like seed, feed and fencing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the cost price?",
+   "options": [
+    {
+     "text": "The price on a special",
+     "correct": false
+    },
+    {
+     "text": "The price the store pays the supplier",
+     "correct": true
+    },
+    {
+     "text": "The price the farmer pays",
+     "correct": false
+    },
+    {
+     "text": "The money left after wages",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A chemical container is leaking in the store. What do you do first?",
+   "options": [
+    {
+     "text": "Smell it to see what it is",
+     "correct": false
+    },
+    {
+     "text": "Clean it up with your hands",
+     "correct": false
+    },
+    {
+     "text": "Keep people away and call your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Put it back on the shelf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farmer asks for a product you do not know. What is the best answer?",
+   "options": [
+    {
+     "text": "Say you will find out and ask a senior person",
+     "correct": true
+    },
+    {
+     "text": "Guess the closest product",
+     "correct": false
+    },
+    {
+     "text": "Tell them to come back tomorrow",
+     "correct": false
+    },
+    {
+     "text": "Say the store does not have it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should poisons and dips be kept?",
+   "options": [
+    {
+     "text": "In the yard in the sun",
+     "correct": false
+    },
+    {
+     "text": "In their own locked area away from feed and food",
+     "correct": true
+    },
+    {
+     "text": "Next to the animal feed",
+     "correct": false
+    },
+    {
+     "text": "At the till",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If the store runs out of seed in planting time, the farmer may go to another store.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Anyone in the store may drive the forklift if they are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are good work ethics? (select all that apply)",
+   "options": [
+    {
+     "text": "Giving the correct change",
+     "correct": true
+    },
+    {
+     "text": "Talking about a customer's account to friends",
+     "correct": false
+    },
+    {
+     "text": "Being on time every day",
+     "correct": true
+    },
+    {
+     "text": "Treating all customers with respect",
+     "correct": true
+    },
+    {
+     "text": "Taking a bag of feed home without paying",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-113819",
+ "title": "Assist with capturing, restraining and transporting animals",
+ "lessons": [
+  {
+   "title": "Capture equipment and its care",
+   "minutes": 16,
+   "html": "<h3>Selecting capture equipment</h3>\n<p>Animals are captured for veterinary treatment, relocation, sale or research. The method depends on the species, number of animals, terrain and purpose. Your role is to assist the capture team leader and the veterinarian.</p>\n<table><tr><th>Method</th><th>Typical use</th></tr>\n<tr><td>Boma (mass capture) with plastic curtains, often with a helicopter</td><td>Herds of antelope, zebra, buffalo</td></tr>\n<tr><td>Drop nets and drive nets</td><td>Smaller antelope such as impala</td></tr>\n<tr><td>Chemical immobilisation by dart</td><td>Single large animals such as rhino, giraffe, predators; vet only</td></tr>\n<tr><td>Cage traps</td><td>Predators such as caracal, leopard, and baboons</td></tr>\n<tr><td>Hand nets, catch poles, blankets</td><td>Small mammals, birds, zoo and rescue work</td></tr></table>\n<p>Supporting equipment includes blindfolds, ear plugs, ropes, stretchers, crates, water, a thermometer and a first-aid kit for animals and people.</p>\n<h4>Immobilisation drugs: danger</h4>\n<p>Some drugs used to dart wildlife are extremely potent opioids. A tiny amount through a cut, splash in the eye or a needle prick can kill a person. Only the veterinarian prepares and handles them. Assistants must never touch darts or drug containers without instruction, must wear gloves, and must know where the human antidote kit is and who is trained to use it.</p>\n<h4>Maintaining, storing and repairing equipment</h4>\n<ul><li>After each capture, clean and disinfect nets, crates, ropes and stretchers.</li>\n<li>Dry nets and curtains before storage to prevent rot; store away from rats and sunlight.</li>\n<li>Inspect for holes, worn ropes, broken crate doors, loose bolts and sharp edges.</li>\n<li>Write a <strong>repair plan</strong>: list faults, priority, materials needed, who repairs and by when.</li>\n<li>Repair only what you are trained to repair, and test repaired equipment before the next capture.</li>\n<li>Dart guns, darts and drugs are stored locked under the vet's control.</li></ul>"
+  },
+  {
+   "title": "Hazards, monitoring and transporting on site",
+   "minutes": 16,
+   "html": "<h3>Identifying and eliminating hazards</h3>\n<p>Before a capture, the team walks the area and removes or marks hazards:</p>\n<ul><li>Fences, holes, dams, cliffs and rivers where animals can be injured or drown.</li>\n<li>Sharp objects and loose wire in bomas and crates.</li>\n<li>Heat: captures are planned for cool early mornings or cool seasons.</li>\n<li>Crowds and noise: only essential people, quiet voices.</li>\n<li>Risks to people: horns, hooves, teeth, darts, vehicles and helicopters. Stay clear of helicopter tail rotors and follow the pilot's instructions.</li></ul>\n<h4>Monitoring the animal intensively</h4>\n<p>Captured animals can die from stress. Two major threats are <strong>overheating</strong> and <strong>capture myopathy</strong>, a muscle breakdown caused by over-exertion and stress that can kill days after capture. Once an animal is restrained or immobilised:</p>\n<ul><li>Blindfold it and plug its ears to reduce stress.</li>\n<li>Check breathing rate and depth, and the colour of the gums.</li>\n<li>Measure body temperature regularly as the vet instructs; cool an overheating animal with water and shade.</li>\n<li>Keep the animal in a natural position (sternal for antelope) to help breathing, unless told otherwise.</li>\n<li>Report any change to the vet immediately.</li>\n<li>Continue to watch the animal in the crate or holding pen until it is calm, eating and drinking, for as long as the vet specifies.</li></ul>\n<h4>Transporting animals within the site</h4>\n<ol><li>Move the animal with enough people and a stretcher or sled; support the head and neck.</li>\n<li>Load into a crate of the right size, dark and well ventilated.</li>\n<li>Secure the crate on the vehicle so it cannot slide.</li>\n<li>Drive slowly and smoothly, avoid stopping in the sun.</li>\n<li>Release quietly into the boma or holding pen and leave the area.</li></ol>\n<p>Cruel handling or transport is an offence under the Animals Protection Act 71 of 1962, and wildlife translocation requires permits from the provincial conservation authority.</p>\n<h4>Key points</h4>\n<ul><li>Choose capture methods to suit species and purpose; darting is for vets only.</li>\n<li>Immobilising opioids can kill people; never handle darts or drugs without instruction.</li>\n<li>Clean, dry, inspect and repair equipment with a written repair plan.</li>\n<li>Prevent overheating and capture myopathy with cool timing, blindfolds and close monitoring.</li>\n<li>Transport in dark, secure crates and drive smoothly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which capture method is used for herds of antelope or zebra?",
+   "options": [
+    {
+     "text": "Boma mass capture with plastic curtains",
+     "correct": true
+    },
+    {
+     "text": "Hand nets",
+     "correct": false
+    },
+    {
+     "text": "Cage traps",
+     "correct": false
+    },
+    {
+     "text": "Fishing lines",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who prepares and handles immobilisation drugs?",
+   "options": [
+    {
+     "text": "Any team member",
+     "correct": false
+    },
+    {
+     "text": "The helicopter pilot",
+     "correct": false
+    },
+    {
+     "text": "The driver",
+     "correct": false
+    },
+    {
+     "text": "The veterinarian",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is capture myopathy?",
+   "options": [
+    {
+     "text": "A skin disease",
+     "correct": false
+    },
+    {
+     "text": "A type of dart",
+     "correct": false
+    },
+    {
+     "text": "A muscle breakdown from over-exertion and stress",
+     "correct": true
+    },
+    {
+     "text": "A broken horn",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When are captures best planned?",
+   "options": [
+    {
+     "text": "Midday in summer",
+     "correct": false
+    },
+    {
+     "text": "Cool early mornings or cool seasons",
+     "correct": true
+    },
+    {
+     "text": "During thunderstorms",
+     "correct": false
+    },
+    {
+     "text": "At any time",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done for an overheating captured animal?",
+   "options": [
+    {
+     "text": "Drive faster",
+     "correct": false
+    },
+    {
+     "text": "Remove the blindfold and leave",
+     "correct": false
+    },
+    {
+     "text": "Cover it with a black plastic sheet",
+     "correct": false
+    },
+    {
+     "text": "Cool it with water and shade and inform the vet",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Blindfolds and ear plugs help reduce stress in captured animals.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Nets can be stored wet because they will dry on their own.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps belong to a repair plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Materials needed",
+     "correct": true
+    },
+    {
+     "text": "Listing faults and priority",
+     "correct": true
+    },
+    {
+     "text": "Who repairs and by when",
+     "correct": true
+    },
+    {
+     "text": "Hiding broken equipment",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

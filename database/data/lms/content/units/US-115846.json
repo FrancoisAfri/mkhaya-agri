@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115846",
+ "title": "Blend secondary tea grades",
+ "lessons": [
+  {
+   "title": "What secondary grades are and preparing to blend",
+   "minutes": 15,
+   "html": "<h3>Primary and secondary grades</h3><p>When black tea is sorted, the best, cleanest grades are called <strong>primary grades</strong>. They sell for the highest prices. Some tea is left over that is not as good: pieces with more fibre or stalk, uneven sizes, flaky pieces, or small amounts of a grade. These are called <strong>secondary grades</strong>.</p><p>Secondary grades still have value. When they are blended (mixed) carefully into larger, even lots, they can be sold as one product instead of many small, messy lots. Small odd lots are hard to sell and get poor prices.</p><h4>What blending must achieve</h4><ul><li>A lot that looks the same all through</li><li>The same particle size and colour all through</li><li>The right mix, as the recipe from the supervisor or tea taster says</li><li>No foreign matter</li></ul><h4>Getting ready</h4><ol><li>Get the blend instruction from your supervisor. It tells you which grades and how much of each, for example a number of kilograms of one secondary grade with a number of kilograms of another.</li><li>Find the bins or sacks of each grade in the store. Check the labels: grade, date and lot.</li><li>Check that the blending drum or mixing area is clean and dry. Old tea from a different blend must not get in.</li><li>Check the scale with the test weight.</li><li>Have clean, lined sacks and labels ready.</li><li>Wear a clean overall, hair cover and dust mask.</li></ol><h4>Check the tea before blending</h4><p>Look at a sample of each grade on a white tray. Tell your supervisor if you see mould, a bad smell, damp tea, or stones and metal. Never blend spoilt tea into good tea. It spoils the whole lot.</p>"
+  },
+  {
+   "title": "Blending, packing and recording",
+   "minutes": 15,
+   "html": "<h3>Weighing the parts</h3><p>Weigh each grade exactly as the blend instruction says. Write down each mass as you weigh it. If you do not have enough of one grade, stop and ask your supervisor. Do not guess or swap in another grade.</p><h4>Mixing</h4><p>Factories blend in different ways:</p><ul><li><strong>Blending drum:</strong> a big turning drum. Load the grades in layers, close the door, and run the drum for the time your supervisor gives you.</li><li><strong>Floor or heap blending:</strong> spread each grade in thin layers on a clean floor or sheet, one on top of the other. Then turn the heap from one side to the other with clean shovels, several times.</li></ul><p>Mix gently. Rough handling breaks the tea into dust, which lowers its value.</p><h4>Checking the blend</h4><p>Take samples from different parts of the drum or heap: top, middle, bottom, sides. Spread them on a white tray next to each other. They should all look the same: same size, same colour, same amount of fibre. If not, mix more. The supervisor or taster may also brew and taste a sample.</p><h4>Packing the blend</h4><ol><li>Pack into clean, lined sacks to the set net mass.</li><li>Mark each sack with the blend name or grade, lot number, sack number, mass and date.</li><li>Stack on pallets, away from walls, with the markings facing out.</li></ol><h4>Records</h4><p>Write in the blending record: date, blend name, each grade used with its lot number and mass, total mass made, number of sacks and your name. The total out should be close to the total in. If a lot of tea is missing, report it.</p><h4>Safety</h4><ul><li>Keep hands and clothes away from the turning drum. Stop and lock out before loading by hand or cleaning.</li><li>Lift sacks safely with bent knees.</li><li>Wear a dust mask; sweep dust often because it can burn.</li></ul><h4>Key points</h4><ul><li>Blending turns small, uneven secondary lots into larger even lots that sell better.</li><li>Follow the blend instruction exactly and weigh each grade.</li><li>Never blend spoilt or contaminated tea.</li><li>Mix gently until samples from all parts look the same.</li><li>Record every grade, lot and mass used.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What are secondary grades?",
+   "options": [
+    {
+     "text": "The most expensive grades",
+     "correct": false
+    },
+    {
+     "text": "Green leaf",
+     "correct": false
+    },
+    {
+     "text": "Leftover tea that is not as clean or even as the primary grades",
+     "correct": true
+    },
+    {
+     "text": "Tea from another estate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are secondary grades blended?",
+   "options": [
+    {
+     "text": "To make larger, even lots that sell better",
+     "correct": true
+    },
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "To turn them green",
+     "correct": false
+    },
+    {
+     "text": "To hide mould",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if there is not enough of one grade for the blend?",
+   "options": [
+    {
+     "text": "Swap in any other grade",
+     "correct": false
+    },
+    {
+     "text": "Add stalks",
+     "correct": false
+    },
+    {
+     "text": "Guess the amount",
+     "correct": false
+    },
+    {
+     "text": "Stop and ask your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should tea be mixed gently?",
+   "options": [
+    {
+     "text": "So it smells better",
+     "correct": false
+    },
+    {
+     "text": "Rough handling breaks tea into dust, which lowers its value",
+     "correct": true
+    },
+    {
+     "text": "So it dries faster",
+     "correct": false
+    },
+    {
+     "text": "So it changes colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you check that the blend is mixed well?",
+   "options": [
+    {
+     "text": "Weigh only one sack",
+     "correct": false
+    },
+    {
+     "text": "Smell the drum",
+     "correct": false
+    },
+    {
+     "text": "Compare samples from different parts; they should all look the same",
+     "correct": true
+    },
+    {
+     "text": "Ask the driver",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mouldy tea may be blended into good tea if it is only a small amount.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The total mass of blended tea should be close to the total mass of the grades used.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What belongs in the blending record? (select all that apply)",
+   "options": [
+    {
+     "text": "Each grade and its lot number",
+     "correct": true
+    },
+    {
+     "text": "Mass of each grade used",
+     "correct": true
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "Number of sacks made",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

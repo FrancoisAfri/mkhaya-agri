@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-336015",
+ "title": "Install and maintain irrigation pumps",
+ "lessons": [
+  {
+   "title": "Hydraulic principles and hazards",
+   "minutes": 20,
+   "html": "<h3>What a pump must do</h3><p>An irrigation pump adds energy to water so it can be lifted and pushed through pipes to the emitters at the right pressure. The total energy needed is expressed as <strong>total dynamic head</strong> (TDH) in metres:</p><ul><li><strong>Static suction lift or head:</strong> vertical distance from water level to the pump</li><li><strong>Static delivery head:</strong> vertical distance from the pump to the highest outlet</li><li><strong>Friction losses</strong> in pipes, fittings, valves and filters</li><li><strong>Operating pressure</strong> required at the emitters (1 bar is about 10 m)</li></ul><p>Each pump has a <strong>performance curve</strong>: as head increases, flow decreases. The operating point is where the pump curve crosses the system curve. Choose a pump whose best efficiency point is close to the required duty.</p><h4>Suction and cavitation</h4><p>Pumps cannot pull water; atmospheric pressure pushes it into the suction. The practical suction lift is limited and gets less at higher altitude, such as on the Highveld. If pressure at the pump inlet falls too low, water boils into vapour bubbles that collapse violently: <strong>cavitation</strong>. It sounds like gravel in the pump and erodes impellers. Avoid it by keeping suction lift low, suction pipes short and large enough, and ensuring the net positive suction head available exceeds that required by the pump.</p><h4>Hazards and precautions</h4><table><tr><th>Hazard</th><th>Precaution</th></tr><tr><td>Electricity</td><td>Only qualified electricians work on motors and panels; lock out and tag out before mechanical work</td></tr><tr><td>Rotating shafts and couplings</td><td>Keep guards fitted; never run without them</td></tr><tr><td>Stored pressure</td><td>Isolate valves and release pressure before opening</td></tr><tr><td>Heavy lifting</td><td>Use slings, hoists and correct technique</td></tr><tr><td>Hot surfaces and engines</td><td>Allow to cool; fuel only with engine off</td></tr><tr><td>Water bodies</td><td>Care at dam and river intakes; never work alone near deep water</td></tr><tr><td>Noise</td><td>Hearing protection near diesel engines</td></tr></table><p>The OHS Act 85 of 1993 and its Driven Machinery Regulations require machinery to be guarded and safely maintained.</p>"
+  },
+  {
+   "title": "Types of irrigation pumps",
+   "minutes": 15,
+   "html": "<h3>Two families of pumps</h3><p>Pumps are grouped into <strong>dynamic</strong> (rotodynamic) pumps, which add velocity to water with a spinning impeller, and <strong>positive displacement</strong> pumps, which trap a fixed volume and push it out.</p><h4>Dynamic pumps</h4><table><tr><th>Type</th><th>Features and use</th></tr><tr><td>End-suction centrifugal</td><td>Most common surface irrigation pump; one impeller, suction at the end, delivery on top</td></tr><tr><td>Split-case centrifugal</td><td>Double-suction impeller, high flows, easy service; large pump stations</td></tr><tr><td>Multistage centrifugal</td><td>Several impellers in series to build high pressure; booster sets, drip on long runs</td></tr><tr><td>Submersible borehole pump</td><td>Multistage pump with a sealed motor below water</td></tr><tr><td>Vertical turbine</td><td>Bowls below water driven from a surface motor; sumps and canals</td></tr><tr><td>Self-priming centrifugal</td><td>Holds water in its casing to re-prime; wellpoints and small dams</td></tr><tr><td>Axial and mixed flow</td><td>Very high flow, low head; flood and canal irrigation</td></tr></table><p>Flow from a dynamic pump changes with head: throttling the delivery valve reduces flow. It can run briefly against a closed valve, but heats up quickly.</p><h4>Positive displacement pumps</h4><table><tr><th>Type</th><th>Features and use</th></tr><tr><td>Piston (reciprocating) pump</td><td>High pressure, low flow; spray pumps, older windmill pumps</td></tr><tr><td>Diaphragm pump</td><td>Chemical dosing and metering</td></tr><tr><td>Progressive cavity (helical rotor)</td><td>Boreholes with low yield and high head; solar pumps</td></tr><tr><td>Gear and vane pumps</td><td>Mainly hydraulics and fuel, sometimes small dosing</td></tr></table><p>A positive displacement pump delivers nearly the same flow regardless of pressure. <strong>Never run it against a closed valve</strong>: pressure builds until something bursts. A pressure relief valve must protect it.</p><h4>Choosing a pump</h4><p>Consider the duty (flow and head), water source and quality, power source (Eskom, solar, diesel), efficiency, spares availability and service support in your area.</p>"
+  },
+  {
+   "title": "Mounting, servicing and documentation",
+   "minutes": 20,
+   "html": "<h3>Mounting a pump on a concrete base</h3><ol><li>Build a concrete plinth larger than the baseplate, level, above flood level, with holding-down bolts set in the right positions (or drilled anchors once cured).</li><li>Place the pump and motor (on a common baseplate) and level it with shims.</li><li>Align the coupling between pump and motor with a straight edge or dial gauge as the manufacturer specifies; misalignment destroys bearings and seals.</li><li>Tighten the holding-down bolts and recheck alignment.</li></ol><h4>Suction manifold</h4><ul><li>Use a pipe larger than the pump inlet, with an eccentric reducer at the pump, <strong>flat side on top</strong>, so air pockets cannot form.</li><li>Slope suction pipe steadily upwards towards the pump; no high points.</li><li>Fit a foot valve with strainer below the lowest water level for lift installations, or an isolating valve for flooded suction.</li><li>Keep a straight length before the inlet, without elbows directly at the pump.</li><li>All joints must be airtight.</li></ul><h4>Delivery manifold</h4><p>Concentric reducer, then pressure gauge, non-return valve, isolating (gate or butterfly) valve, air release valve, and connection to the mainline. Support pipes so their weight does not rest on the pump casing.</p><h4>Servicing and maintenance</h4><table><tr><th>Check</th><th>Interval (typical)</th></tr><tr><td>Noise, vibration, leaks, gauge readings, motor temperature</td><td>Daily or each run</td></tr><tr><td>Gland packing drip or mechanical seal leakage</td><td>Weekly</td></tr><tr><td>Bearing lubrication</td><td>As manufacturer specifies</td></tr><tr><td>Coupling alignment and rubber elements</td><td>Every few months</td></tr><tr><td>Flow and pressure against commissioning values</td><td>Seasonally</td></tr><tr><td>Impeller and wear ring inspection</td><td>When performance drops</td></tr><tr><td>Engine oil, filters, belts on diesel units</td><td>Per engine hours</td></tr></table><h4>Documentation</h4><ul><li>Pump nameplate data, motor data, duty point and installation date</li><li>Commissioning flow, pressure and current readings</li><li>Maintenance log: date, hours run, work done, parts, readings</li><li>Faults and corrective action</li></ul><h4>Key points</h4><ul><li>Total dynamic head includes lift, delivery height, friction and emitter pressure.</li><li>Avoid cavitation with low suction lift and correctly sized, airtight suction pipes.</li><li>Never run a positive displacement pump against a closed valve.</li><li>Align couplings and use an eccentric reducer flat side up on the suction.</li><li>Lock out before work, keep guards on, and keep full records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is cavitation?",
+   "options": [
+    {
+     "text": "Air leaking from the delivery valve",
+     "correct": false
+    },
+    {
+     "text": "Pump running backwards",
+     "correct": false
+    },
+    {
+     "text": "Vapour bubbles forming and collapsing at low inlet pressure, eroding the impeller",
+     "correct": true
+    },
+    {
+     "text": "Water hammer in the mainline",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which pump has several impellers in series to build high pressure?",
+   "options": [
+    {
+     "text": "Multistage centrifugal",
+     "correct": true
+    },
+    {
+     "text": "Axial flow",
+     "correct": false
+    },
+    {
+     "text": "Diaphragm",
+     "correct": false
+    },
+    {
+     "text": "Gear pump",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must a positive displacement pump never run against a closed valve?",
+   "options": [
+    {
+     "text": "It loses prime",
+     "correct": false
+    },
+    {
+     "text": "Flow increases",
+     "correct": false
+    },
+    {
+     "text": "It runs cooler",
+     "correct": false
+    },
+    {
+     "text": "Pressure builds until something bursts",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should an eccentric reducer be fitted on a pump suction?",
+   "options": [
+    {
+     "text": "Flat side at the bottom",
+     "correct": false
+    },
+    {
+     "text": "Flat side on top",
+     "correct": true
+    },
+    {
+     "text": "Any way",
+     "correct": false
+    },
+    {
+     "text": "It should not be used on suction",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is part of total dynamic head?",
+   "options": [
+    {
+     "text": "The pump's colour",
+     "correct": false
+    },
+    {
+     "text": "The motor's weight",
+     "correct": false
+    },
+    {
+     "text": "Friction losses in pipes and fittings",
+     "correct": true
+    },
+    {
+     "text": "The size of the field",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Guards on couplings and shafts must stay fitted while the pump runs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A dynamic pump delivers the same flow no matter how high the head.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are positive displacement pumps? (select all that apply)",
+   "options": [
+    {
+     "text": "Piston pump",
+     "correct": true
+    },
+    {
+     "text": "End-suction centrifugal pump",
+     "correct": false
+    },
+    {
+     "text": "Progressive cavity pump",
+     "correct": true
+    },
+    {
+     "text": "Diaphragm pump",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

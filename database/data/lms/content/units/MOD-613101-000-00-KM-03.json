@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-613101-000-00-KM-03",
+ "title": "Integrated Pest and Disease Management in Agriculture",
+ "lessons": [
+  {
+   "title": "Principles of integrated pest management",
+   "minutes": 25,
+   "html": "<h3>Principles of integrated pest management</h3><p>Integrated pest management (IPM) combines several methods to keep pests, diseases and weeds below the level where they cause economic loss, while protecting people, animals, beneficial organisms and the environment. Chemicals are used only when needed and in a targeted way.</p><h4>The IPM cycle</h4><ol><li><strong>Prevent</strong>: choose resistant cultivars, clean seed, rotation, correct planting dates, good hygiene.</li><li><strong>Monitor</strong>: scout fields regularly, use pheromone traps and sticky traps, record pest numbers and damage.</li><li><strong>Identify</strong> the pest correctly. Not every insect is harmful; many are beneficial predators.</li><li><strong>Decide</strong> using an action threshold: the pest level at which control costs less than the expected loss.</li><li><strong>Control</strong> using the most selective effective method.</li><li><strong>Evaluate</strong>: check the result and record it for next season.</li></ol><h4>Control methods</h4><table><tr><th>Method</th><th>Examples</th></tr><tr><td>Cultural</td><td>Rotation, destroying crop residues that host pests, adjusting planting date, removing volunteer plants</td></tr><tr><td>Biological</td><td>Conserving ladybirds, lacewings and parasitic wasps; using registered biopesticides</td></tr><tr><td>Mechanical and physical</td><td>Hand weeding, traps, netting, cultivation</td></tr><tr><td>Genetic</td><td>Resistant or tolerant cultivars, including Bt maize where used, with refuge requirements</td></tr><tr><td>Chemical</td><td>Registered agricultural remedies, applied at threshold, selective where possible</td></tr></table><h4>South African examples</h4><ul><li><strong>Fall armyworm</strong> in maize: scout for window-pane feeding and frass in the whorl; act at threshold.</li><li><strong>Maize stalk borer</strong>: residue management, resistant cultivars, refuge compliance.</li><li><strong>Fruit flies</strong> in orchards: orchard hygiene, bait stations, monitoring traps.</li><li><strong>Late blight</strong> in potatoes and tomatoes: resistant cultivars, forecast-based fungicide programmes.</li></ul><p>Keep scouting records by land and date. Over several seasons they show which lands have recurring problems, when pests usually appear and which controls worked, so that next season's plan can start with prevention rather than reaction.</p>"
+  },
+  {
+   "title": "Chemical use, resistance and livestock health",
+   "minutes": 25,
+   "html": "<h3>Chemical use, resistance and livestock health</h3><h4>Responsible chemical use</h4><ul><li>Only use agricultural and stock remedies registered under Act 36 of 1947, for the crop or animal and pest on the label.</li><li>Follow the label for dose, mixing, application method, re-entry interval, pre-harvest interval and withdrawal period. The label is a legal document.</li><li>Calibrate sprayers before use so the right volume is applied.</li><li>Spray in suitable weather; avoid wind drift onto neighbours, water and homes.</li><li>Train and equip operators: correct PPE, washing facilities, and medical surveillance where required by OHS regulations.</li><li>Store chemicals in a locked, ventilated store; triple-rinse and dispose of containers as the label and local rules require.</li></ul><h4>Managing resistance</h4><p>Repeated use of the same chemical group selects for resistant pests, weeds and parasites. To delay resistance:</p><ul><li>rotate chemical groups by mode of action, using the group codes on labels;</li><li>combine chemical with non-chemical methods;</li><li>use full label rates; under-dosing speeds resistance;</li><li>comply with refuge requirements for Bt crops.</li></ul><h4>IPM in livestock</h4><ul><li><strong>Ticks</strong>: tick-borne diseases such as heartwater, redwater and gallsickness cause major losses. Use strategic dipping or pour-ons, rotate actives, and consider breeds with natural tick resistance such as Nguni.</li><li><strong>Internal parasites</strong> in sheep and goats, especially wireworm: use FAMACHA eye scoring to treat only anaemic animals, rotate camps, and monitor with faecal egg counts. This slows dewormer resistance.</li><li><strong>Biosecurity</strong>: quarantine new animals, control movement, and vaccinate according to the vet's programme.</li><li>Report controlled and notifiable diseases as required by the Animal Diseases Act 35 of 1984.</li></ul><h4>Records</h4><p>Record every scouting result, treatment, product, batch, rate, date, operator and withdrawal or pre-harvest interval. Records support decisions, traceability and market access requirements.</p><h4>Key points</h4><ul><li>IPM: prevent, monitor, identify, decide at threshold, control, evaluate.</li><li>Use cultural, biological, mechanical, genetic and chemical methods together.</li><li>Use only registered remedies under Act 36 of 1947 and follow the label.</li><li>Rotate modes of action and avoid under-dosing to delay resistance.</li><li>Apply IPM to ticks and worms, including targeted treatment such as FAMACHA.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an action threshold in IPM?",
+   "options": [
+    {
+     "text": "The pest level at which control costs less than the expected loss",
+     "correct": true
+    },
+    {
+     "text": "The first day a pest is seen",
+     "correct": false
+    },
+    {
+     "text": "The maximum spray rate",
+     "correct": false
+    },
+    {
+     "text": "The farm boundary",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a biological control method?",
+   "options": [
+    {
+     "text": "Ploughing",
+     "correct": false
+    },
+    {
+     "text": "Conserving ladybirds and parasitic wasps",
+     "correct": true
+    },
+    {
+     "text": "Spraying a broad-spectrum insecticide",
+     "correct": false
+    },
+    {
+     "text": "Burning residues",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can resistance to pesticides be delayed?",
+   "options": [
+    {
+     "text": "Use the same chemical group every time",
+     "correct": false
+    },
+    {
+     "text": "Use half the label rate",
+     "correct": false
+    },
+    {
+     "text": "Rotate chemical groups by mode of action",
+     "correct": true
+    },
+    {
+     "text": "Ignore refuge requirements",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the FAMACHA system used for?",
+   "options": [
+    {
+     "text": "Scoring tick loads on cattle",
+     "correct": false
+    },
+    {
+     "text": "Measuring soil pH",
+     "correct": false
+    },
+    {
+     "text": "Calibrating sprayers",
+     "correct": false
+    },
+    {
+     "text": "Eye scoring sheep and goats to treat only anaemic animals",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which remedies may be used on crops and livestock?",
+   "options": [
+    {
+     "text": "Products registered under Act 36 of 1947, used as on the label",
+     "correct": true
+    },
+    {
+     "text": "Any product from a neighbour",
+     "correct": false
+    },
+    {
+     "text": "Unlabelled mixtures",
+     "correct": false
+    },
+    {
+     "text": "Products registered only in other countries",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Under-dosing can speed up the development of resistance.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In IPM, every insect found in a field should be sprayed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are tick-borne diseases of cattle in South Africa? (select all that apply)",
+   "options": [
+    {
+     "text": "Heartwater",
+     "correct": true
+    },
+    {
+     "text": "Redwater",
+     "correct": true
+    },
+    {
+     "text": "Gallsickness",
+     "correct": true
+    },
+    {
+     "text": "Late blight",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

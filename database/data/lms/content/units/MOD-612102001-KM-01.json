@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-612102001-KM-01",
+  "title": "South African dairy farming environment",
+  "lessons": [
+    {
+      "title": "The shape of the South African dairy industry",
+      "minutes": 20,
+      "html": "<h3>Where milk comes from in South Africa</h3><p>Milk is produced in most provinces, but the biggest share comes from the cooler, wetter coastal and high-rainfall areas where pasture grows well:</p><ul><li><strong>Eastern Cape</strong>: Tsitsikamma, Humansdorp and the coast, mostly pasture-based Jersey and Holstein herds.</li><li><strong>Western Cape</strong>: the southern Cape around George and the Swartland and Boland.</li><li><strong>KwaZulu-Natal</strong>: the Midlands, with pasture and irrigated ryegrass.</li><li><strong>Inland</strong>: Free State, North West, Gauteng and Mpumalanga, where many herds are housed and fed a total mixed ration.</li></ul><h4>Main dairy breeds</h4><table><tr><th>Breed</th><th>Features</th></tr><tr><td>Holstein (Friesland)</td><td>Large, highest volumes of milk</td></tr><tr><td>Jersey</td><td>Smaller, high fat and protein, efficient on pasture, heat tolerant</td></tr><tr><td>Ayrshire and Guernsey</td><td>Smaller numbers, hardy</td></tr><tr><td>Crossbreds</td><td>Often Jersey x Holstein, for hybrid vigour and fertility</td></tr></table><h4>The value chain</h4><ol><li><strong>Input suppliers</strong>: feed, genetics (semen), medicines, equipment, fertiliser.</li><li><strong>Milk producers</strong>: the farms.</li><li><strong>Processors</strong>: large and small dairies that make fresh milk, UHT, cheese, yoghurt, maas and butter.</li><li><strong>Retailers and the food service trade</strong>.</li><li><strong>Consumers</strong>.</li></ol><p>Most farmers sell raw milk to a processor under a supply agreement. A smaller number process and sell their own products.</p><h4>Industry organisations</h4><p>The Milk Producers' Organisation (MPO) represents milk producers. Milk SA is an industry body funded by statutory levies under the Marketing of Agricultural Products Act 47 of 1996, and supports projects such as consumer education, research, and milk quality and safety programmes. Breed societies and the milk recording scheme help with genetics and herd data.</p><p>Many dairy farms also sell bull calves and cull cows into the beef chain, and buy feed from crop farmers. The dairy is therefore closely linked to other parts of South African agriculture and to the wider rural economy.</p>"
+    },
+    {
+      "title": "Forces that shape a dairy farm",
+      "minutes": 20,
+      "html": "<h3>A market without fixed prices</h3><p>The milk price is not set by government. Processors and producers agree on prices, usually per litre with bonuses or penalties for fat, protein, bacteria count and somatic cell count. Prices change with supply and demand, the season and the economy. In spring, when pasture is plentiful, there is more milk and prices may come under pressure.</p><h4>Costs and margins</h4><p>Feed is usually the biggest cost on a dairy, followed by labour, then items like electricity, fuel, animal health and repairs. Rising feed prices, for example after a maize drought, squeeze the margin between the milk price and the cost per litre. Over the years many smaller dairies have closed and the remaining herds have become larger and more efficient.</p><h4>Environmental challenges</h4><ul><li><strong>Drought</strong> reduces pasture and raises feed prices.</li><li><strong>Heat stress</strong> lowers intake, yield and fertility, especially in Holsteins.</li><li><strong>Water</strong> use and pollution are controlled under the National Water Act 36 of 1998.</li><li><strong>Soil and veld</strong> must be protected; the Conservation of Agricultural Resources Act 43 of 1983 controls land use and erosion.</li></ul><h4>Disease and biosecurity</h4><p>Outbreaks such as foot-and-mouth disease can restrict animal movements and trade. Diseases are controlled under the Animal Diseases Act 35 of 1984. Good biosecurity protects the farm and the industry.</p><h4>Electricity and infrastructure</h4><p>Cows must be milked and milk cooled on time, whatever happens. Power cuts make generators and backup plans essential. Poor rural roads can delay milk collection.</p><h4>People and law</h4><p>Dairies depend on skilled, reliable workers. Labour law, including the Basic Conditions of Employment Act 75 of 1997 and the Labour Relations Act 66 of 1995, applies on farms. Food safety law, such as the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972, applies to milk.</p><h4>Key points</h4><ul><li>Most SA milk comes from coastal and high-rainfall pasture areas, with housed TMR herds inland.</li><li>Holstein and Jersey are the main breeds.</li><li>Prices are agreed in the market, with quality bonuses and penalties.</li><li>Feed is usually the biggest cost.</li><li>Drought, heat, disease, electricity and labour all affect dairy farms.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which breed is known for high fat and protein and suits pasture systems?",
+      "options": [
+        {
+          "text": "Jersey",
+          "correct": true
+        },
+        {
+          "text": "Brahman",
+          "correct": false
+        },
+        {
+          "text": "Dorper",
+          "correct": false
+        },
+        {
+          "text": "Bonsmara",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which organisation represents milk producers in South Africa?",
+      "options": [
+        {
+          "text": "SANParks",
+          "correct": false
+        },
+        {
+          "text": "The Milk Producers' Organisation (MPO)",
+          "correct": true
+        },
+        {
+          "text": "The CCMA",
+          "correct": false
+        },
+        {
+          "text": "SARS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is usually the biggest cost on a dairy farm?",
+      "options": [
+        {
+          "text": "Electricity",
+          "correct": false
+        },
+        {
+          "text": "Fuel",
+          "correct": false
+        },
+        {
+          "text": "Feed",
+          "correct": true
+        },
+        {
+          "text": "Ear tags",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How is the milk price mainly set in South Africa?",
+      "options": [
+        {
+          "text": "By government decree",
+          "correct": false
+        },
+        {
+          "text": "By the breed societies",
+          "correct": false
+        },
+        {
+          "text": "By the Department of Labour",
+          "correct": false
+        },
+        {
+          "text": "By agreement between processors and producers in the market",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law controls land use and soil erosion on farms?",
+      "options": [
+        {
+          "text": "Conservation of Agricultural Resources Act 43 of 1983",
+          "correct": true
+        },
+        {
+          "text": "Meat Safety Act 40 of 2000",
+          "correct": false
+        },
+        {
+          "text": "Labour Relations Act 66 of 1995",
+          "correct": false
+        },
+        {
+          "text": "Animals Protection Act 71 of 1962",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Heat stress can lower milk yield and fertility, especially in Holsteins.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "All South African milk producers process and sell their own products.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are parts of the dairy value chain? (select all that apply)",
+      "options": [
+        {
+          "text": "Input suppliers",
+          "correct": true
+        },
+        {
+          "text": "Milk producers",
+          "correct": true
+        },
+        {
+          "text": "Processors",
+          "correct": true
+        },
+        {
+          "text": "Gold mines",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

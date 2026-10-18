@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119390",
+ "title": "Manage the receiving of live birds and placing on the poultry processing line",
+ "lessons": [
+  {
+   "title": "Planning bird arrivals",
+   "minutes": 15,
+   "html": "<h3>Getting birds to the plant in good condition</h3><p>The receiving area is where the farm and the abattoir meet. Good management here protects animal welfare, keeps the line running smoothly and improves carcass quality. As a supervisor you plan arrivals, manage the team and check that legal and welfare rules are followed under the Animals Protection Act 71 of 1962, the Meat Safety Act 40 of 2000 and the plant's procedures.</p><h4>Planning with farms and catching teams</h4><ul><li>Agree on a slaughter schedule: which flock, how many birds, which day and time.</li><li>Make sure the farm follows the feed withdrawal period set by the plant before catching. Correct feed withdrawal empties the gut and reduces faecal contamination during evisceration; too long a withdrawal causes weight loss and stress. The plant specifies the times.</li><li>Get the flock information before arrival: farm, house, age, number of birds, average weight, any medication or vaccine given with withdrawal periods, and mortality history.</li><li>Plan truck arrivals so that birds do not wait too long in lairage and the line never runs empty.</li></ul><h4>Transport conditions</h4><p>Birds are transported in crates or modules. Overcrowded crates in hot weather cause heat stress and death. In cold, wet weather birds need protection from wind. Trucks should travel during cooler times in summer where possible, and be parked in shade with ventilation on arrival.</p><h4>Documents on arrival</h4><p>Check the delivery documents: farm of origin, flock number, number of crates and birds, time of catching and any health declaration required by the plant and inspection service. Record arrival time.</p>"
+  },
+  {
+   "title": "Receiving and lairage",
+   "minutes": 15,
+   "html": "<h3>Checking and holding birds</h3><h4>On arrival</h4><ol><li>Direct the truck to the lairage area, which must be shaded and ventilated, with fans and misters for hot days.</li><li>Inspect the birds in the crates: are they calm, panting, wet, cold, injured or dead?</li><li>Count and record dead on arrival (DOA) birds. High DOA indicates a problem with catching, transport or flock health, and must be reported.</li><li>Inform the meat inspection staff so that ante-mortem inspection can be done as required. Birds showing signs of disease are dealt with as the inspector directs.</li><li>Record the time birds entered lairage.</li></ol><h4>Managing lairage</h4><ul><li>Monitor temperature and bird behaviour regularly. Panting and wings held away from the body show heat stress; huddling shows cold stress.</li><li>Process birds in order of arrival unless welfare requires otherwise, for example heat-stressed birds first.</li><li>Keep holding time as short as possible.</li><li>Keep the area quiet; avoid loud noise and bright light which stress birds.</li></ul><h4>Notifiable diseases</h4><p>If birds show signs that could indicate a serious disease, such as sudden high mortality, swollen heads, or blue combs and wattles, stop, isolate the load and report immediately to the inspector and manager. Avian influenza and Newcastle disease are controlled diseases under the Animal Diseases Act 35 of 1984.</p><h4>Crate and truck hygiene</h4><p>Empty crates and trucks must be cleaned and disinfected before going back to farms, to prevent spreading disease between farms.</p><h4>Example</h4><p>On a hot afternoon a truck arrives late. The supervisor sees birds panting in the crates. She parks the truck under the fans, switches on the misters and asks the line to process this load next, then records the delay and reports it to the farm.</p>"
+  },
+  {
+   "title": "Placing birds on the line",
+   "minutes": 15,
+   "html": "<h3>Hanging: welfare, quality and safety</h3><h4>The hanging area</h4><p>Birds are taken out of crates and hung by both legs on shackles. Many plants use dim or blue lighting, which calms birds. A breast comforter (a smooth rail under the birds' breasts) reduces flapping before stunning.</p><h4>Correct hanging practice</h4><ul><li>Remove birds gently from crates, holding both legs, not by the wings, neck or one leg.</li><li>Hang both legs in the shackle, never one leg.</li><li>Do not throw or swing birds.</li><li>Keep a steady pace matched to the line speed so no shackle is missed and birds are not rushed.</li><li>Remove dead birds and place them in the correct bin; they must not go onto the line for human consumption. Record them.</li><li>Report birds that are injured or too small for the shackles.</li></ul><h4>Managing the team</h4><p>Hanging is physically demanding and dusty. Rotate workers and give breaks according to the plant's rules. Ensure they wear dust masks, gloves, aprons and hearing protection where needed. Train new hangers on welfare and technique before they work at full speed. Watch for injuries from scratches and repetitive strain.</p><h4>Records and reporting</h4><p>Record birds received, DOA, birds hung, rejects and any welfare incidents per flock. Compare birds counted with the farm's numbers. Give feedback to farms about catching damage, bruising and DOA so they can improve.</p><h4>Key points</h4><ul><li>Plan arrivals with farms, including the feed withdrawal times the plant specifies.</li><li>Keep lairage shaded, ventilated, quiet and holding times short.</li><li>Count and report dead on arrival birds and signs of disease immediately.</li><li>Hang birds gently by both legs, at a steady pace, in calm lighting.</li><li>Clean and disinfect crates and trucks before they return to farms.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is correct feed withdrawal before catching important?",
+   "options": [
+    {
+     "text": "It makes the birds heavier",
+     "correct": false
+    },
+    {
+     "text": "It empties the gut and reduces faecal contamination during evisceration",
+     "correct": true
+    },
+    {
+     "text": "It improves feather colour",
+     "correct": false
+    },
+    {
+     "text": "It shortens the line",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should lairage provide for birds on a hot day?",
+   "options": [
+    {
+     "text": "Shade, ventilation and fans or misters",
+     "correct": true
+    },
+    {
+     "text": "Bright lights and loud music",
+     "correct": false
+    },
+    {
+     "text": "Extra feed",
+     "correct": false
+    },
+    {
+     "text": "Closed doors and no air",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a high number of dead on arrival birds indicate?",
+   "options": [
+    {
+     "text": "Good transport",
+     "correct": false
+    },
+    {
+     "text": "Small birds",
+     "correct": false
+    },
+    {
+     "text": "A problem with catching, transport or flock health",
+     "correct": true
+    },
+    {
+     "text": "A fast line speed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a live bird be hung on the shackle?",
+   "options": [
+    {
+     "text": "By one leg",
+     "correct": false
+    },
+    {
+     "text": "By the neck",
+     "correct": false
+    },
+    {
+     "text": "By the wings",
+     "correct": false
+    },
+    {
+     "text": "By both legs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if birds on a load show sudden high mortality and swollen heads?",
+   "options": [
+    {
+     "text": "Isolate the load and report to the inspector and manager immediately",
+     "correct": true
+    },
+    {
+     "text": "Process them quickly",
+     "correct": false
+    },
+    {
+     "text": "Send them back to the farm without telling anyone",
+     "correct": false
+    },
+    {
+     "text": "Mix them with other birds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dim or blue lighting in the hanging area helps calm birds.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dirty crates can go back to farms without cleaning if they are needed urgently.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which signs show heat stress in birds? (select all that apply)",
+   "options": [
+    {
+     "text": "Panting",
+     "correct": true
+    },
+    {
+     "text": "Wings held away from the body",
+     "correct": true
+    },
+    {
+     "text": "Huddling together",
+     "correct": false
+    },
+    {
+     "text": "Calm, normal breathing",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

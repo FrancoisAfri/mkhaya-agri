@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12556",
+ "title": "Apply fertiliser manually",
+ "lessons": [
+  {
+   "title": "What fertiliser is and why we use it",
+   "minutes": 15,
+   "html": "<h3>Food for plants</h3><p>Plants need food to grow. They get food from the soil. When the soil does not have enough food, we add fertiliser. Fertiliser helps plants grow strong and give a good crop.</p><h4>Kinds of fertiliser</h4><ul><li><strong>Chemical fertiliser</strong> – comes in bags. It can be small balls (granules) or powder. Examples are LAN, urea, and mixed fertilisers like 2:3:2. The numbers on the bag show how much of each plant food is inside.</li><li><strong>Organic fertiliser</strong> – kraal manure, chicken manure and compost.</li></ul><h4>The three main plant foods</h4><table><tr><th>Letter</th><th>Name</th><th>Helps with</th></tr><tr><td>N</td><td>Nitrogen</td><td>Green leaves and growth</td></tr><tr><td>P</td><td>Phosphorus</td><td>Roots, flowers and seeds</td></tr><tr><td>K</td><td>Potassium</td><td>Strong plants and good fruit</td></tr></table><h4>Who decides how much?</h4><p>The farmer or supervisor decides which fertiliser to use and how much. They look at a soil test and the crop. Your job is to put the right fertiliser in the right place, in the right amount, at the right time. Too little fertiliser gives a poor crop. Too much wastes money, can burn plants and can wash into rivers and make the water dirty.</p><h4>Read the bag</h4><p>Check the name on the bag is the one the supervisor asked for. If you cannot read the bag, ask. Do not use a bag that has no label.</p><h4>Store it well</h4><p>Keep bags dry, off the floor, in a store. Wet fertiliser makes hard lumps. Keep fertiliser away from food, seed and animal feed.</p>"
+  },
+  {
+   "title": "How to apply fertiliser by hand",
+   "minutes": 15,
+   "html": "<h3>Putting fertiliser on the land</h3><h4>Get ready</h4><ul><li>Put on gloves, closed shoes, long sleeves and a dust mask if the fertiliser is dusty.</li><li>Get the measuring cup or tin the supervisor gives you. This shows how much to use for each plant or each part of the row.</li><li>Fill a bucket or bag that you can carry easily.</li></ul><h4>Ways to apply</h4><ul><li><strong>Band</strong> – put fertiliser in a line next to the row of plants.</li><li><strong>Ring</strong> – put fertiliser in a circle around a plant or tree, not touching the stem.</li><li><strong>Broadcast</strong> – spread it evenly over the whole area by throwing it with a swing of the hand.</li><li><strong>In the planting hole</strong> – put it in the hole and cover with some soil before planting, so the seed or root does not touch it.</li></ul><h4>Steps</h4><ol><li>Start at the place the supervisor shows you.</li><li>Use one full measure for each plant or each measured length.</li><li>Keep fertiliser away from leaves and stems. It can burn them.</li><li>Walk at an even speed so the fertiliser is even.</li><li>Do not put extra in some places and none in others.</li><li>Cover with soil if the supervisor says.</li></ol><h4>Weather</h4><p>Do not apply fertiliser when it is very windy, because it blows away. Do not apply just before heavy rain, because it washes away. Most fertiliser works best when the soil is damp.</p>"
+  },
+  {
+   "title": "Safety and cleaning up",
+   "minutes": 15,
+   "html": "<h3>Stay safe with fertiliser</h3><ul><li>Do not eat, drink or smoke while you work with fertiliser.</li><li>Do not rub your eyes.</li><li>Wash your hands and face with soap when you finish, and before you eat.</li><li>If fertiliser gets in your eyes, wash them with lots of clean water and tell your supervisor.</li><li>Lift bags with your knees bent and your back straight. Ask for help with heavy bags. Two people can carry one bag together.</li><li>Some fertilisers, like LAN, can burn if they touch fuel or fire. Keep them away from fuel, oil and fire.</li></ul><h4>Protect water</h4><p>Never wash buckets or spill fertiliser in a river, dam or near a borehole. Fertiliser in water makes it green with algae and can kill fish.</p><h4>After work</h4><ol><li>Close open bags tightly.</li><li>Take left-over fertiliser back to the store.</li><li>Pick up empty bags. Do not leave them in the land.</li><li>Shake out and clean your buckets and measures away from water.</li><li>Tell your supervisor which rows you finished and how many bags you used.</li></ol><h4>Key points</h4><ul><li>Fertiliser is food for plants; N, P and K are the main plant foods.</li><li>Use the fertiliser and amount the supervisor gives, with the measure.</li><li>Keep fertiliser off leaves and stems so it does not burn them.</li><li>Do not apply in strong wind or just before heavy rain.</li><li>Wear gloves, wash your hands after work and keep fertiliser out of water.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does N stand for on a fertiliser bag?",
+   "options": [
+    {
+     "text": "Nitrogen",
+     "correct": true
+    },
+    {
+     "text": "Natural",
+     "correct": false
+    },
+    {
+     "text": "Number",
+     "correct": false
+    },
+    {
+     "text": "Nutrient water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who decides how much fertiliser to use?",
+   "options": [
+    {
+     "text": "The person who carries the bags",
+     "correct": false
+    },
+    {
+     "text": "Any worker",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The farmer or supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must fertiliser not touch the leaves or stem?",
+   "options": [
+    {
+     "text": "It makes them taste sweet",
+     "correct": false
+    },
+    {
+     "text": "It changes their colour to blue",
+     "correct": false
+    },
+    {
+     "text": "It can burn them",
+     "correct": true
+    },
+    {
+     "text": "It makes them grow too fast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you not apply fertiliser?",
+   "options": [
+    {
+     "text": "When it is very windy",
+     "correct": true
+    },
+    {
+     "text": "In the morning",
+     "correct": false
+    },
+    {
+     "text": "When the soil is damp",
+     "correct": false
+    },
+    {
+     "text": "When the supervisor says",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is \"broadcast\" application?",
+   "options": [
+    {
+     "text": "Putting it in a ring around a tree",
+     "correct": false
+    },
+    {
+     "text": "Mixing it with water",
+     "correct": false
+    },
+    {
+     "text": "Putting fertiliser in a planting hole",
+     "correct": false
+    },
+    {
+     "text": "Spreading it evenly over the whole area with a swing of the hand",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Too much fertiliser wastes money and can make river water dirty.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to eat lunch while you spread fertiliser.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you do after applying fertiliser? (select all that apply)",
+   "options": [
+    {
+     "text": "Wash the buckets in the river",
+     "correct": false
+    },
+    {
+     "text": "Wash your hands with soap",
+     "correct": true
+    },
+    {
+     "text": "Pick up empty bags from the land",
+     "correct": true
+    },
+    {
+     "text": "Close open bags tightly",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

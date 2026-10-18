@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116066",
+ "title": "Operate and maintain specific irrigation systems",
+ "lessons": [
+  {
+   "title": "Pre-start inspection of your system",
+   "minutes": 15,
+   "html": "<h3>Know your system</h3> <p>This unit is about operating one specific system well. Common systems on South African farms are:</p> <ul> <li><strong>Drip</strong>: drippers along lines give water at each plant. Used in orchards, vineyards, vegetables and tunnels.</li> <li><strong>Micro-sprinklers</strong>: small sprinklers under trees in citrus and subtropical orchards.</li> <li><strong>Sprinkler (dragline or permanent)</strong>: sprinklers on risers in vegetables, pastures and sugar cane.</li> <li><strong>Centre pivot</strong>: a long pipe on towers that turns around a centre point over maize, wheat, lucerne or potatoes.</li> </ul> <h4>Pre-start inspection checklist</h4> <p>Do this before every start. A five-minute check can prevent a day of damage.</p> <ol> <li><strong>Water source</strong>: enough water in the dam, canal or reservoir; suction strainer clear of weeds and debris.</li> <li><strong>Pump station</strong>: no leaks, guards on couplings, area clear. Only trained people open electrical panels.</li> <li><strong>Filters</strong>: clean. Check pressure gauges before and after the filter; a big difference means it is dirty.</li> <li><strong>Fertigation unit</strong> (if used): set as instructed, connected correctly, back-flow valve in place.</li> <li><strong>Valves</strong>: correct valves open for the block to irrigate, others closed.</li> <li><strong>Lines</strong>: no visible cuts, kinks or loose end plugs.</li> <li><strong>Centre pivot</strong>: wheel tracks clear, tyres inflated, no tools, animals, vehicles or people in the path, towers aligned, end gun working.</li> </ol> <p>Write down what you checked and any faults. Report faults before starting if they are serious.</p> <h4>Safety</h4> <ul> <li>Pivots and pump stations use high-voltage electricity. Never open control boxes unless trained and authorised. Report damaged cables at once.</li> <li>Never climb on a pivot or stand in front of moving towers.</li> <li>Keep clear of pump couplings and belts.</li> <li>Fertigation chemicals and acids need PPE; follow the label and your supervisor.</li> </ul>"
+  },
+  {
+   "title": "Start-up, irrigating and shut-down",
+   "minutes": 15,
+   "html": "<h3>Start-up procedure</h3> <ol> <li>Confirm the block, irrigation time or depth from the schedule your supervisor gives you.</li> <li>Prime the pump if needed, as you were shown.</li> <li>Start the pump with the delivery valve partly closed, then open it slowly to bring pressure up gradually. This prevents water hammer.</li> <li>Check pressure at the pump and at the block. Compare with the normal pressure on the farm's record sheet.</li> <li>For a pivot: set direction, speed (percentage timer) and end gun as instructed, then start. Watch the first towers move properly.</li> <li>Write down the start time and pressure readings, and the meter reading if there is a water meter.</li> </ol> <h3>Irrigating according to guidelines</h3> <p>The farm's irrigation schedule says how much water each block needs, based on crop, growth stage, soil and weather. Your job is to apply it accurately.</p> <ul> <li>Walk or drive the block during irrigation. Look for burst pipes, blocked emitters, broken sprinklers and dry or wet spots.</li> <li>Watch for run-off and puddles. Report them; the system may be running too long or at the wrong pressure.</li> <li>Avoid sprinkler irrigation in strong wind if your supervisor has said so; water blows away.</li> <li>During fertigation, run clean water before and after the fertiliser, as instructed, so lines are flushed.</li> <li>Check soil moisture with the method your farm uses: probe, tensiometer reading or digging.</li> </ul> <h3>Shut-down procedure</h3> <ol> <li>Close valves slowly or stop the pump as the procedure says.</li> <li>For a pivot, stop it in the position the supervisor wants and make sure it is safe.</li> <li>Record the stop time, final meter reading and any faults.</li> <li>Drain lines in frost areas if the farm requires it.</li> </ol> <p>Report straight away if the system will not reach normal pressure, a pivot stops with a fault, or the pump makes strange noises.</p>"
+  },
+  {
+   "title": "Care of equipment and tools",
+   "minutes": 15,
+   "html": "<h3>Routine maintenance</h3> <p>Good maintenance keeps water even across the land and saves money.</p> <h4>Drip and micro systems</h4> <ul> <li>Clean screen and disc filters regularly; backflush sand filters as shown.</li> <li>Flush drip lines by opening the ends until clean water runs.</li> <li>Replace blocked or broken drippers and micro-sprinklers with the same type and flow rate. A different flow rate gives some plants more water than others.</li> <li>Repair rat, mole or hoe damage with joiners.</li> <li>Some farms treat lines with acid or chlorine to clear blockages. Only trained workers do this, with full PPE.</li> </ul> <h4>Sprinklers</h4> <ul> <li>Check nozzles for wear and blockage; replace worn nozzles with the correct size.</li> <li>Keep risers upright and sprinklers turning freely.</li> <li>Move draglines carefully so pipes and fittings do not break.</li> </ul> <h4>Centre pivots</h4> <ul> <li>Check tyre pressures and wheel gearbox oil as the schedule says.</li> <li>Check sprinkler packages and drops for damage or blockage.</li> <li>Fill or level deep wheel tracks so towers do not get stuck.</li> <li>Report alignment faults and electrical faults to a qualified technician.</li> </ul> <h4>Pumps</h4> <ul> <li>Keep the pump house clean and dry.</li> <li>Report leaks, overheating, vibration or noise.</li> <li>Grease as shown, only when the pump is switched off and locked out.</li> </ul> <h3>Caring for tools</h3> <p>Clean spades, cutters, spanners and punches after use. Store spare fittings sorted by size. Return tools and report broken ones. Keep a small repair kit with joiners and plugs ready.</p> <h3>Records</h3> <p>Record dates, times, pressures, meter readings, faults and repairs. Records help the farm manage water use and show it is using water responsibly under its water use authorisation.</p> <h4>Key points</h4> <ul> <li>Do a pre-start inspection every time.</li> <li>Start and stop slowly to avoid water hammer.</li> <li>Apply the schedule accurately and watch for run-off.</li> <li>Replace emitters with the same type and flow rate.</li> <li>Never open electrical panels unless trained; never climb a pivot.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a big pressure difference before and after a filter usually mean?",
+   "options": [
+    {
+     "text": "The pump is new",
+     "correct": false
+    },
+    {
+     "text": "The filter is dirty",
+     "correct": true
+    },
+    {
+     "text": "The valves are closed",
+     "correct": false
+    },
+    {
+     "text": "The crop is ripe",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a pump be brought up to pressure?",
+   "options": [
+    {
+     "text": "Open everything at once",
+     "correct": false
+    },
+    {
+     "text": "Run it dry first",
+     "correct": false
+    },
+    {
+     "text": "Close all valves completely",
+     "correct": false
+    },
+    {
+     "text": "Open the delivery valve slowly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why replace a dripper with the same type and flow rate?",
+   "options": [
+    {
+     "text": "So plants get even water",
+     "correct": true
+    },
+    {
+     "text": "Because other types are illegal",
+     "correct": false
+    },
+    {
+     "text": "To make the line longer",
+     "correct": false
+    },
+    {
+     "text": "It is cheaper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check in a centre pivot path before starting?",
+   "options": [
+    {
+     "text": "The radio signal",
+     "correct": false
+    },
+    {
+     "text": "That no tools, animals, vehicles or people are in the path",
+     "correct": true
+    },
+    {
+     "text": "The colour of the towers",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done before and after fertigation?",
+   "options": [
+    {
+     "text": "Switch off the filters",
+     "correct": false
+    },
+    {
+     "text": "Open the electrical panel",
+     "correct": false
+    },
+    {
+     "text": "Add more fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Run clean water to flush the lines",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to climb onto a centre pivot while it is moving.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Run-off and puddles during irrigation should be reported.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong in a pre-start inspection? (select all that apply)",
+   "options": [
+    {
+     "text": "Correct valves open",
+     "correct": true
+    },
+    {
+     "text": "Opening the pivot control box without training",
+     "correct": false
+    },
+    {
+     "text": "Filter condition",
+     "correct": true
+    },
+    {
+     "text": "Water level and suction strainer",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

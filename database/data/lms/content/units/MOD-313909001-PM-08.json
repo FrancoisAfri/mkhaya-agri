@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-08",
+ "title": "Enforce compliance to Safety, Health, Environmental Protection and Quality standards",
+ "lessons": [
+  {
+   "title": "Setting up for compliance",
+   "minutes": 18,
+   "html": "<h3>What SHEQ covers</h3>\n<p>SHEQ stands for Safety, Health, Environment and Quality. In a feed mill these standards come from law (such as the OHS Act 85 of 1993, environmental legislation including air quality and waste rules, and Act 36 of 1947 for farm feeds), from company policies and from certification schemes and customer requirements. Enforcing compliance means making sure that what is written is actually done by everyone, every day, including contractors and visitors.</p>\n<h4>The supervisor's legal position</h4>\n<p>Under the OHS Act, the employer may appoint supervisors to oversee health and safety in their areas. As an appointed supervisor you must ensure that rules are followed, hazards are identified and controlled, and incidents are reported in your area. Health and safety representatives elected by workers also have functions such as inspections and taking part in investigations; work with them.</p>\n<h4>Foundations</h4>\n<ul>\n<li>Up-to-date risk assessments for each area and task.</li>\n<li>Written safe work procedures and permits: lock-out, confined space, hot work, working at height.</li>\n<li>Induction for new staff, contractors and visitors.</li>\n<li>Training records and authorisations (forklift, boiler operator, first aid, firefighting).</li>\n<li>Environmental controls: dust extraction and filters, noise control, waste separation, spill kits, effluent management.</li>\n<li>Quality and feed safety controls: hygiene rules, pest control, glass and plastic policy, cleaning schedules, critical control point records.</li>\n</ul>\n<h4>Communicating standards</h4>\n<p>People comply when they understand and accept the rule. Use toolbox talks, visual signs in local languages, demonstrations and short daily safety topics. Explain the why: \"We close the magnet cover because tramp metal can spark a dust explosion\" works better than \"Close the cover.\"</p>"
+  },
+  {
+   "title": "Inspecting, correcting and enforcing",
+   "minutes": 18,
+   "html": "<h3>Inspections and observations</h3>\n<p>Use planned inspections with checklists for each area: guards in place, emergency stops working, housekeeping and dust levels, fire equipment checked and accessible, PPE worn, chemicals labelled and stored correctly, waste in the right bins, hygiene and pest control points in order. Add behaviour-based observations: watch a task being done and give immediate feedback, positive and corrective.</p>\n<h3>Responding to non-compliance</h3>\n<table>\n<tr><th>Situation</th><th>Response</th></tr>\n<tr><td>Imminent danger (e.g. person working inside a running mixer area without lock-out)</td><td>Stop the work immediately, make safe, then investigate</td></tr>\n<tr><td>Unsafe condition (missing guard)</td><td>Barricade or isolate, report for repair, do not allow use</td></tr>\n<tr><td>Unsafe act without danger (PPE not worn correctly)</td><td>Correct on the spot, coach, record</td></tr>\n<tr><td>Repeated or deliberate breach</td><td>Apply the disciplinary code fairly and consistently</td></tr>\n<tr><td>Environmental incident (molasses spill to stormwater)</td><td>Contain with spill kit, report, clean up, investigate</td></tr>\n<tr><td>Quality or feed safety breach (missed CCP record)</td><td>Hold affected product, inform quality, investigate</td></tr>\n</table>\n<h3>Contractors</h3>\n<p>Contractors doing maintenance, welding or cleaning must follow the same standards. Check their induction, competence, permits and equipment before they start, and inspect during the job. The mill remains responsible for what happens on its site.</p>\n<h3>Incidents and investigations</h3>\n<p>Report all incidents and near misses. Investigate to find root causes, not to blame. Incidents defined as reportable under the OHS Act must be reported to the Department of Employment and Labour by the responsible person. Track actions until closed.</p>\n<h3>Leading by example</h3>\n<p>The supervisor's own behaviour sets the standard. If you walk past a missing guard or skip your own PPE, the team learns that rules are optional. Consistent, fair enforcement combined with recognition of good practice builds a compliance culture.</p>\n<h4>Key points</h4>\n<ul>\n<li>SHEQ standards come from law, company policy, certification and customers.</li>\n<li>Risk assessments, procedures, permits, training and environmental and hygiene controls are the foundation.</li>\n<li>Explain the reason for rules and use toolbox talks and signs.</li>\n<li>Stop work in imminent danger; correct, coach and discipline consistently.</li>\n<li>Control contractors, investigate incidents and lead by example.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does SHEQ stand for?",
+   "options": [
+    {
+     "text": "Safety, Health, Environment and Quality",
+     "correct": true
+    },
+    {
+     "text": "Safety, Hazards, Emissions and Questions",
+     "correct": false
+    },
+    {
+     "text": "Security, Hygiene, Energy and Quantity",
+     "correct": false
+    },
+    {
+     "text": "Shift, Hours, Equipment and Quality",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see a person working near a running mixer without lock-out. What do you do?",
+   "options": [
+    {
+     "text": "Wait until the task is finished",
+     "correct": false
+    },
+    {
+     "text": "Take a photo and walk on",
+     "correct": false
+    },
+    {
+     "text": "Note it for the monthly meeting",
+     "correct": false
+    },
+    {
+     "text": "Stop the work immediately and make safe",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A guard is missing on a conveyor. What is the correct response?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Let the operator use it carefully",
+     "correct": false
+    },
+    {
+     "text": "Barricade or isolate, report for repair, and do not allow use",
+     "correct": true
+    },
+    {
+     "text": "Remove the other guards too",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should supervisors explain the reason behind a rule?",
+   "options": [
+    {
+     "text": "To avoid enforcing it",
+     "correct": false
+    },
+    {
+     "text": "Rules do not need reasons",
+     "correct": false
+    },
+    {
+     "text": "It wastes time",
+     "correct": false
+    },
+    {
+     "text": "People comply better when they understand and accept the rule",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Molasses spills into the stormwater drain. What is the first action?",
+   "options": [
+    {
+     "text": "Contain it with the spill kit and report",
+     "correct": true
+    },
+    {
+     "text": "Cover it with feed",
+     "correct": false
+    },
+    {
+     "text": "Leave it to dry",
+     "correct": false
+    },
+    {
+     "text": "Hose it further down the drain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Contractors on site must follow the same SHEQ standards as employees.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Incident investigations are mainly to find someone to blame.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are foundations for SHEQ compliance? (select all that apply)",
+   "options": [
+    {
+     "text": "Up-to-date risk assessments",
+     "correct": true
+    },
+    {
+     "text": "Allowing staff to skip PPE when busy",
+     "correct": false
+    },
+    {
+     "text": "Permits for hot work and confined spaces",
+     "correct": true
+    },
+    {
+     "text": "Induction for contractors and visitors",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-115177",
+  "title": "Pre-sort fruit",
+  "lessons": [
+    {
+      "title": "Why fruit is pre-sorted",
+      "minutes": 15,
+      "html": "<h3>The first check on the line</h3><p>When bins of fruit arrive at the packhouse, they are tipped onto the line, usually into water or onto a dry tipper. The first job is <strong>pre-sorting</strong>. Pre-sorters stand at the start of the line and remove fruit that must not go further.</p><h4>Why pre-sort?</h4><ul><li><strong>Remove rotten fruit</strong> before it spreads decay to good fruit and contaminates water and brushes.</li><li><strong>Save money and time</strong>, because the packhouse does not wash, wax, treat, size and grade fruit that will be thrown away.</li><li><strong>Protect machines</strong> by taking out stones, sticks, leaves and other foreign objects.</li><li><strong>Keep the line clean</strong> and food safe.</li></ul><h4>What to remove</h4><table><tr><th>Remove</th><th>Examples</th></tr><tr><td>Rotten or decayed fruit</td><td>Soft, mouldy, leaking or smelly fruit</td></tr><tr><td>Badly damaged fruit</td><td>Split, crushed, deep cuts, large bird or hail damage</td></tr><tr><td>Fruit far too small or misshapen</td><td>As your supervisor sets for the day</td></tr><tr><td>Foreign material</td><td>Stones, leaves, twigs, insects, glass, plastic, gloves</td></tr><tr><td>Other kinds or cultivars</td><td>A lemon in a batch of oranges</td></tr></table><h4>Where the fruit goes</h4><p>The packhouse decides where pre-sorted fruit goes. Usually there are separate bins or chutes:</p><ul><li><strong>Decay / waste</strong> for rotten fruit.</li><li><strong>Juice or processing</strong> for sound fruit that is too damaged or small for packing.</li><li>A container for foreign objects.</li></ul><p>Put each fruit in the correct place. Never put rotten fruit into the juice bin, and never throw fruit on the floor, where people can slip.</p><p>Pre-sorting is not the same as grading. Pre-sorters remove only fruit that is clearly unusable. Graders later decide the quality class of the good fruit.</p>"
+    },
+    {
+      "title": "Pre-sorting well and safely",
+      "minutes": 15,
+      "html": "<h3>How to pre-sort</h3><ol><li>Get your instructions for the day: which fruit and cultivar is running and what must be removed.</li><li>Wash your hands, put on your clean apron, hairnet and gloves if required, and remove jewellery.</li><li>Stand at your position, facing the flow of fruit.</li><li>Watch the fruit as it rolls past. Rollers turn the fruit so you can see all sides.</li><li>Pick out fruit to be removed with a gentle hand and place it in the correct bin. Do not throw it.</li><li>Do not squeeze or drop good fruit. Handle every fruit as if you were going to buy it.</li></ol><h4>Keep your attention</h4><p>Pre-sorting needs concentration. Look along the line, not only straight ahead. If too much fruit is coming for you to sort properly, or a lot of rot is coming through, tell your supervisor. They may slow the line or check the batch. A bin with a lot of decay should be reported, because it may mean a problem in that orchard or with how the fruit was handled.</p><h4>Hygiene</h4><ul><li>Wash your hands after touching rotten fruit and after using the toilet.</li><li>Do not eat, drink, smoke or chew gum on the line.</li><li>Cover cuts with a blue plaster or as the packhouse requires.</li><li>Report illness such as diarrhoea or vomiting before you start work.</li><li>Keep your area clean: empty waste bins when they are full and clean up spills.</li></ul><h4>Safety</h4><ul><li>Never reach into moving rollers, belts or chains.</li><li>Keep long hair tied back and sleeves fastened.</li><li>Know where the emergency stop button is.</li><li>Wear the hearing protection and safety shoes given to you.</li><li>Stand on the anti-fatigue mat and change positions to rest your back and legs.</li></ul><h4>Key points</h4><ul><li>Pre-sorting removes rotten, badly damaged and foreign material early.</li><li>This protects good fruit, machines and food safety.</li><li>Put each removed fruit in the correct bin, never on the floor.</li><li>Handle good fruit gently and report heavy decay.</li><li>Keep hands away from moving parts and know the emergency stop.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why is rotten fruit removed at the start of the line?",
+      "options": [
+        {
+          "text": "So it can be packed later",
+          "correct": false
+        },
+        {
+          "text": "So it does not spread decay to good fruit",
+          "correct": true
+        },
+        {
+          "text": "Because it is heavier",
+          "correct": false
+        },
+        {
+          "text": "To make the line faster",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should you put a stone you find on the line?",
+      "options": [
+        {
+          "text": "In the container for foreign objects",
+          "correct": true
+        },
+        {
+          "text": "Back on the line",
+          "correct": false
+        },
+        {
+          "text": "On the floor",
+          "correct": false
+        },
+        {
+          "text": "In the juice bin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do if a lot of rotten fruit is coming through?",
+      "options": [
+        {
+          "text": "Let it go past",
+          "correct": false
+        },
+        {
+          "text": "Stop sorting",
+          "correct": false
+        },
+        {
+          "text": "Put it in the juice bin",
+          "correct": false
+        },
+        {
+          "text": "Tell your supervisor",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should sound fruit that is too damaged for packing usually go?",
+      "options": [
+        {
+          "text": "The decay bin",
+          "correct": false
+        },
+        {
+          "text": "The floor",
+          "correct": false
+        },
+        {
+          "text": "Juice or processing",
+          "correct": true
+        },
+        {
+          "text": "Back into the orchard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What must you know before you start working on the line?",
+      "options": [
+        {
+          "text": "Where the emergency stop button is",
+          "correct": true
+        },
+        {
+          "text": "The price of fruit overseas",
+          "correct": false
+        },
+        {
+          "text": "The name of the ship",
+          "correct": false
+        },
+        {
+          "text": "The supervisor's home address",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You should never reach into moving rollers or belts.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is fine to throw removed fruit onto the floor if the bin is far away.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which items must pre-sorters remove from the line? (select all that apply)",
+      "options": [
+        {
+          "text": "Rotten fruit",
+          "correct": true
+        },
+        {
+          "text": "Leaves and twigs",
+          "correct": true
+        },
+        {
+          "text": "Good, sound fruit of the right cultivar",
+          "correct": false
+        },
+        {
+          "text": "Split or crushed fruit",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

@@ -164,11 +164,25 @@ const headers = computed(() => [
           </div>
         </template>
         <template #item.actions="{ item }">
-          <div class="d-flex justify-end align-center gap-1">
-            <VBtn size="small" variant="tonal" color="primary" prepend-icon="tabler-edit" @click="openEdit(item)">{{ t('lms_courses_index.table.edit') }}</VBtn>
-            <VBtn :href="route('lms.admin.courses.builder', { course: item.uuid })" size="small" variant="tonal" color="secondary" prepend-icon="tabler-layout-board" tag="a">{{ t('lms_courses_index.table.builder') }}</VBtn>
-            <VBtn size="small" variant="tonal" :color="item.is_published ? 'warning' : 'success'" :prepend-icon="item.is_published ? 'tabler-eye-off' : 'tabler-eye'" @click="togglePublish(item)">{{ item.is_published ? t('lms_courses_index.table.unpublish') : t('lms_courses_index.table.publish') }}</VBtn>
-            <VBtn size="small" variant="tonal" color="error" prepend-icon="tabler-trash" @click="confirmDelete(item)">{{ t('lms_courses_index.table.delete') }}</VBtn>
+          <div class="d-flex justify-end align-center">
+            <VMenu location="bottom end">
+              <template #activator="{ props: menuProps }">
+                <VBtn v-bind="menuProps" icon variant="text" size="small" color="default" :aria-label="t('lms_courses_index.table.actions')">
+                  <VIcon icon="tabler-dots-vertical" />
+                </VBtn>
+              </template>
+              <VList density="compact" min-width="180">
+                <VListItem prepend-icon="tabler-edit" :title="t('lms_courses_index.table.edit')" @click="openEdit(item)" />
+                <VListItem prepend-icon="tabler-layout-board" :title="t('lms_courses_index.table.builder')" :href="route('lms.admin.courses.builder', { course: item.uuid })" />
+                <VListItem
+                  :prepend-icon="item.is_published ? 'tabler-eye-off' : 'tabler-eye'"
+                  :title="item.is_published ? t('lms_courses_index.table.unpublish') : t('lms_courses_index.table.publish')"
+                  @click="togglePublish(item)"
+                />
+                <VDivider class="my-1" />
+                <VListItem prepend-icon="tabler-trash" base-color="error" :title="t('lms_courses_index.table.delete')" @click="confirmDelete(item)" />
+              </VList>
+            </VMenu>
           </div>
         </template>
         <template #no-data><div class="text-center pa-10"><VIcon icon="tabler-books" size="56" color="secondary" class="mb-3" /><p class="text-body-1 text-medium-emphasis">{{ t('lms_courses_index.table.no_courses') }}</p></div></template>

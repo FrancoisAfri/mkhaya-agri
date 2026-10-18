@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264179",
+ "title": "Identify the various soil types and their uses in plant propagation and landscaping",
+ "lessons": [
+  {
+   "title": "Soil types and how to tell them apart",
+   "minutes": 15,
+   "html": "<h3>What is soil?</h3>\n<p>Soil is a mix of tiny rock pieces (minerals), organic matter (rotted plant and animal material), water, air and living things like earthworms. Plants need soil for support, water, air and food.</p>\n<h4>Sand, silt and clay</h4>\n<table><tr><th>Type</th><th>Particle size</th><th>Feels like</th><th>Water</th></tr>\n<tr><td>Sand</td><td>Large</td><td>Gritty, falls apart</td><td>Drains fast, dries out quickly, holds little food</td></tr>\n<tr><td>Silt</td><td>Medium</td><td>Smooth, like flour</td><td>Holds water fairly well</td></tr>\n<tr><td>Clay</td><td>Very small</td><td>Sticky when wet, hard when dry</td><td>Holds a lot of water, drains slowly, can waterlog</td></tr>\n<tr><td>Loam</td><td>A mix of all three plus organic matter</td><td>Crumbly</td><td>Drains well and holds enough water: best for most plants</td></tr></table>\n<p>In South Africa you will find sandy soils on the coast and in the Kalahari, red clay soils on the Highveld, and black \"turf\" clay in some areas that swells when wet and cracks when dry.</p>\n<h4>The squeeze (ribbon) test</h4>\n<ol><li>Take a small handful of soil and wet it a little.</li>\n<li>Squeeze it into a ball.</li>\n<li>Push it between your thumb and finger to make a ribbon.</li></ol>\n<ul><li>Will not form a ball, feels gritty: <strong>sand</strong>.</li>\n<li>Forms a ball but breaks easily, short ribbon: <strong>loam</strong>.</li>\n<li>Makes a long, shiny, sticky ribbon: <strong>clay</strong>.</li></ul>\n<h4>Topsoil and subsoil</h4>\n<p>Topsoil is the dark top layer with organic matter and life. Subsoil below is lighter in colour and poorer. When digging, always keep topsoil and subsoil in separate heaps and put them back in the same order.</p>"
+  },
+  {
+   "title": "Using soil and growing media",
+   "minutes": 15,
+   "html": "<h3>Soil in landscaping</h3>\n<ul><li><strong>Sandy soil</strong> – add compost to hold water and food. Water more often, in smaller amounts. Mulch to keep moisture in.</li>\n<li><strong>Clay soil</strong> – add compost to open it up and improve drainage. Do not dig or walk on clay when it is very wet; it becomes hard and airless (compacted). Make raised beds where water stands.</li>\n<li><strong>Loam</strong> – the ideal garden soil. Keep it good by adding compost and mulch each season.</li>\n<li><strong>Lawns</strong> are usually laid on a well-drained topsoil or sandy loam layer.</li></ul>\n<h3>Growing media for propagation</h3>\n<p>Seeds and cuttings in a nursery are not grown in plain garden soil. Garden soil can be heavy, may carry diseases and weed seeds, and does not drain well in a small container. Nurseries use a <strong>growing medium</strong> made of materials like:</p>\n<table><tr><th>Material</th><th>Use</th></tr>\n<tr><td>Composted pine bark</td><td>Main base of many SA potting mixes; drains well</td></tr>\n<tr><td>Peat or coir (coconut fibre)</td><td>Holds water; used in seedling mixes</td></tr>\n<tr><td>Perlite or vermiculite</td><td>Adds air (perlite) or holds water (vermiculite)</td></tr>\n<tr><td>Coarse river sand</td><td>Drainage and weight for cutting mixes</td></tr>\n<tr><td>Compost</td><td>Adds organic matter and some food</td></tr></table>\n<h3>Good growing medium is</h3>\n<ul><li>free of weeds, pests and diseases</li>\n<li>well drained, with air spaces for roots</li>\n<li>able to hold enough water</li>\n<li>the right mix for the job (fine for seeds, open for cuttings)</li></ul>\n<h3>Handling soil and media safely</h3>\n<ul><li>Wear a dust mask when mixing dry media, especially perlite and peat.</li>\n<li>Wear gloves; wash hands before eating.</li>\n<li>Lift bags with bent knees.</li>\n<li>Store media dry and covered so weeds and diseases do not get in.</li></ul>\n<h4>Key points</h4>\n<ul><li>Sand drains fast, clay holds water, loam is best for most plants.</li>\n<li>Use the squeeze test to tell soil types apart.</li>\n<li>Add compost to improve both sandy and clay soils.</li>\n<li>Use clean, well-drained growing media, not garden soil, for propagation.</li>\n<li>Keep topsoil and subsoil separate when digging.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which soil type drains fastest and dries out quickly?",
+   "options": [
+    {
+     "text": "Sand",
+     "correct": true
+    },
+    {
+     "text": "Clay",
+     "correct": false
+    },
+    {
+     "text": "Loam",
+     "correct": false
+    },
+    {
+     "text": "Silt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the squeeze test, a long, shiny, sticky ribbon means:",
+   "options": [
+    {
+     "text": "Sand",
+     "correct": false
+    },
+    {
+     "text": "Compost",
+     "correct": false
+    },
+    {
+     "text": "Clay",
+     "correct": true
+    },
+    {
+     "text": "Perlite",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil is best for most plants?",
+   "options": [
+    {
+     "text": "Pure clay",
+     "correct": false
+    },
+    {
+     "text": "Pure sand",
+     "correct": false
+    },
+    {
+     "text": "Subsoil",
+     "correct": false
+    },
+    {
+     "text": "Loam",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What improves both sandy and clay soils?",
+   "options": [
+    {
+     "text": "Adding more clay",
+     "correct": false
+    },
+    {
+     "text": "Adding compost",
+     "correct": true
+    },
+    {
+     "text": "Walking on it when wet",
+     "correct": false
+    },
+    {
+     "text": "Removing the topsoil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is plain garden soil not used for cuttings in a nursery?",
+   "options": [
+    {
+     "text": "It is too light",
+     "correct": false
+    },
+    {
+     "text": "It is too expensive",
+     "correct": false
+    },
+    {
+     "text": "It can be heavy, drain poorly and carry diseases and weed seeds",
+     "correct": true
+    },
+    {
+     "text": "It has too much perlite",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should keep topsoil and subsoil in separate heaps when digging.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is good to dig clay soil when it is very wet.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What makes a good growing medium? (select all that apply)",
+   "options": [
+    {
+     "text": "Free of weeds and diseases",
+     "correct": true
+    },
+    {
+     "text": "Well drained with air spaces",
+     "correct": true
+    },
+    {
+     "text": "Very heavy and sticky",
+     "correct": false
+    },
+    {
+     "text": "Holds enough water",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

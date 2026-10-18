@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-13647",
+ "title": "Investigate options for improved environmental management and sustainable living",
+ "lessons": [
+  {
+   "title": "Understanding environmental problems on farms and in communities",
+   "minutes": 20,
+   "html": "<h3>What sustainable living means</h3>\n<p>Sustainability means meeting today's needs without destroying the ability of future generations to meet theirs. For farms and rural communities it has three linked parts: <strong>environmental</strong> (healthy soil, water, veld and biodiversity), <strong>social</strong> (health, fairness, community well-being) and <strong>economic</strong> (livelihoods that pay their way). Section 24 of the Constitution gives everyone the right to an environment that is not harmful to health or well-being, and to have it protected for present and future generations.</p>\n<h4>Common environmental issues in South African agriculture</h4>\n<ul><li><strong>Soil degradation</strong> – erosion, loss of organic matter, compaction, acidification.</li>\n<li><strong>Water</strong> – scarcity, over-abstraction from boreholes and rivers, pollution from fertiliser, manure, pesticides and effluent.</li>\n<li><strong>Rangeland degradation</strong> – overgrazing, bush encroachment, loss of palatable grasses.</li>\n<li><strong>Invasive alien plants</strong> – wattle, blue gum, prosopis (mesquite) using water and reducing grazing.</li>\n<li><strong>Biodiversity loss</strong> – ploughing of natural veld, loss of wetlands, poisoning of predators and pollinators.</li>\n<li><strong>Waste and energy</strong> – plastic, chemical containers, burning, reliance on diesel and coal power.</li>\n<li><strong>Climate change</strong> – hotter temperatures, more variable rainfall, more extreme events.</li></ul>\n<h4>Investigating a problem</h4>\n<ol><li>Define the scope: a farm, a village, a catchment.</li>\n<li>Gather evidence: observation, photos, transect walks, soil and water tests, interviews, existing reports and maps.</li>\n<li>Use participatory tools such as community resource mapping and historical timelines to bring in local knowledge.</li>\n<li>Identify root causes, not only symptoms. Erosion may be a symptom; root causes may include overstocking, lack of grazing management, road drainage, and unclear land-use rights.</li>\n<li>Identify who is affected and who has influence.</li></ol>"
+  },
+  {
+   "title": "Identifying and comparing options",
+   "minutes": 20,
+   "html": "<h3>Generating options</h3>\n<p>For each root cause, list possible responses. Draw on extension services, research, other farmers' experience and local knowledge.</p>\n<table><tr><th>Issue</th><th>Possible options</th></tr>\n<tr><td>Soil degradation</td><td>Conservation agriculture (minimum tillage, cover crops, crop rotation), contour planting, composting, liming to correct acidity</td></tr>\n<tr><td>Water scarcity</td><td>Drip irrigation, irrigation scheduling with soil moisture probes, rainwater harvesting, fixing leaks, water-wise gardens</td></tr>\n<tr><td>Rangeland</td><td>Matching stocking rate to carrying capacity, rotational grazing in camps, resting veld, bush control</td></tr>\n<tr><td>Invasive plants</td><td>Clearing with follow-up, biological control agents, using cleared wood for fuel or poles</td></tr>\n<tr><td>Energy and waste</td><td>Solar pumps and lighting, biogas from manure, container return schemes, recycling, fuel-efficient stoves</td></tr></table>\n<h3>Comparing options</h3>\n<p>Use clear criteria and score each option, ideally with the people who will implement it:</p>\n<ul><li><strong>Environmental benefit</strong> – how much does it reduce the problem? Any side effects?</li>\n<li><strong>Cost and affordability</strong> – capital and running costs in ZAR, payback period, available funding.</li>\n<li><strong>Technical feasibility</strong> – skills, equipment and maintenance needed.</li>\n<li><strong>Social acceptability</strong> – does it fit local culture, labour availability and gender roles? Who benefits and who carries the cost?</li>\n<li><strong>Legal compliance</strong> – permits, e.g. water use under the National Water Act 36 of 1998 or clearing obligations under CARA 43 of 1983.</li>\n<li><strong>Time to results and risk</strong> – how quickly will benefits show, and what could go wrong?</li></ul>\n<p>A simple weighted matrix (criteria weights × scores) makes trade-offs visible. Often a package of options works better than one: for example, rotational grazing plus gully rehabilitation plus fencing a spring.</p>"
+  },
+  {
+   "title": "Recommending and acting",
+   "minutes": 15,
+   "html": "<h3>Making recommendations</h3>\n<p>Write a short report for the farm owner, community committee or funder:</p>\n<ol><li>The issue and evidence.</li>\n<li>Root causes.</li>\n<li>Options considered and how they were compared.</li>\n<li>Recommended option(s) with reasons.</li>\n<li>Implementation steps, responsibilities, budget and timeline.</li>\n<li>Indicators for monitoring, such as basal cover of grass, gully length, litres of water used per hectare, number of households using solar lights.</li></ol>\n<h3>Starting with pilots</h3>\n<p>Test new practices on a small scale first, such as one camp, one field or ten households. Farmer-to-farmer learning from a successful demonstration site convinces people better than a presentation. Record baseline data before you start so you can show change.</p>\n<h3>Sustaining change</h3>\n<ul><li>Build ownership: people must see benefits for themselves.</li>\n<li>Train local champions to maintain structures and practices.</li>\n<li>Link to support programmes (provincial LandCare, Working for Water type programmes, municipal initiatives).</li>\n<li>Review regularly and adapt; environmental management is long-term work.</li></ul>\n<h4>Key points</h4>\n<ul><li>Sustainability links environmental, social and economic well-being.</li>\n<li>Investigate using evidence and local knowledge, and look for root causes.</li>\n<li>Compare options against clear criteria including cost, feasibility, acceptability and legal compliance.</li>\n<li>Recommend a practical package with indicators and pilot it first.</li>\n<li>Build local ownership so changes last.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which three parts make up sustainability?",
+   "options": [
+    {
+     "text": "Speed, size and cost",
+     "correct": false
+    },
+    {
+     "text": "Environmental, social and economic",
+     "correct": true
+    },
+    {
+     "text": "Soil, seed and fertiliser",
+     "correct": false
+    },
+    {
+     "text": "Legal, technical and political",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Erosion on grazing land is best treated as:",
+   "options": [
+    {
+     "text": "Always the root cause",
+     "correct": false
+    },
+    {
+     "text": "Unimportant",
+     "correct": false
+    },
+    {
+     "text": "A symptom that may have root causes like overstocking",
+     "correct": true
+    },
+    {
+     "text": "A legal matter only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an option to address water scarcity on an irrigated farm?",
+   "options": [
+    {
+     "text": "Irrigation scheduling with soil moisture probes",
+     "correct": true
+    },
+    {
+     "text": "Ploughing natural veld",
+     "correct": false
+    },
+    {
+     "text": "Increasing stocking rate",
+     "correct": false
+    },
+    {
+     "text": "Burning plastic",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a weighted matrix used for?",
+   "options": [
+    {
+     "text": "Measuring rainfall",
+     "correct": false
+    },
+    {
+     "text": "Mapping stakeholders",
+     "correct": false
+    },
+    {
+     "text": "Counting livestock",
+     "correct": false
+    },
+    {
+     "text": "Comparing options against criteria",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why start with a pilot?",
+   "options": [
+    {
+     "text": "It is cheaper to skip monitoring",
+     "correct": false
+    },
+    {
+     "text": "To test practices at small scale and build evidence",
+     "correct": true
+    },
+    {
+     "text": "To avoid involving the community",
+     "correct": false
+    },
+    {
+     "text": "Because pilots never need baseline data",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Section 24 of the Constitution gives everyone the right to an environment that is not harmful to health or well-being.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "One single option is always better than a package of options.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good indicators for monitoring environmental projects? (select all that apply)",
+   "options": [
+    {
+     "text": "Basal cover of grass",
+     "correct": true
+    },
+    {
+     "text": "Gully length",
+     "correct": true
+    },
+    {
+     "text": "Litres of water used per hectare",
+     "correct": true
+    },
+    {
+     "text": "The colour of the project logo",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

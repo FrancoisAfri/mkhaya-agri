@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-246412",
+ "title": "Skin, handle, treat and dispatch hunting trophies",
+ "lessons": [
+  {
+   "title": "Skinning and caping for different mounts",
+   "minutes": 20,
+   "html": "<h3>Plan the mount before you cut</h3>\n<p>The cuts you make depend on the type of mount the client wants. Ask before skinning begins and write it on the trophy tag. A wrong cut cannot be undone.</p>\n<table><tr><th>Mount</th><th>What to keep</th></tr>\n<tr><td>Shoulder mount</td><td>Cape from behind the shoulders forward, with the skull and horns</td></tr>\n<tr><td>Full mount</td><td>The whole skin with feet, plus skull and measurements</td></tr>\n<tr><td>Skull or European mount</td><td>Skull and horns only</td></tr>\n<tr><td>Flat skin or rug</td><td>Whole skin opened along the belly</td></tr>\n<tr><td>Back skin</td><td>Skin from the back and sides</td></tr></table>\n<h3>Caping for a shoulder mount</h3>\n<ol>\n<li>Work in shade on a clean surface, as soon as possible after the kill.</li>\n<li>Make a cut around the body well behind the front legs, behind the shoulders. Cut too short and the taxidermist cannot make a good mount.</li>\n<li>Cut around each front leg above the knee.</li>\n<li>Make a cut up the back of the neck from the shoulders to just behind the horns, then a Y-cut to the base of each horn. Never cut the throat or brisket of a shoulder mount.</li>\n<li>Peel the skin forward to the base of the skull and remove the head with the cape attached.</li>\n<li>Skin the face carefully: cut the ears close to the skull, keep the eyelids whole by cutting close to the bone, split the lips and turn the ears inside out.</li>\n</ol>\n<h3>Full mounts</h3>\n<p>For a full mount, cut along the back of the legs and up the back or belly as the taxidermist prefers, and keep the feet in the skin with the toe bones. Take measurements before skinning: nose to eye, nose to back of skull, neck girth and body length.</p>\n<h4>Safety</h4>\n<ul>\n<li>Use sharp knives and a cut-resistant glove on the non-knife hand.</li>\n<li>Cut away from yourself and others.</li>\n<li>Wear gloves; animals can carry diseases such as anthrax. Never open a carcass of an animal found dead from unknown causes; report it.</li>\n</ul>"
+  },
+  {
+   "title": "Treating, marking and storing trophies",
+   "minutes": 15,
+   "html": "<h3>Treating the skin</h3>\n<p>Bacteria start to break down skin within hours, which causes <strong>hair slip</strong>. Quick and correct treatment is the most important thing you do.</p>\n<ol>\n<li>Remove all fat and meat from the skin (fleshing).</li>\n<li>Split the lips, turn the ears and open the eyelids and nose so salt can reach all thick areas.</li>\n<li>Rub fine, clean, non-iodised salt into every part of the flesh side.</li>\n<li>Roll or fold the skin flesh to flesh and let it drain on a slope for about a day.</li>\n<li>Shake off the wet salt, salt again and hang or lay it to dry in a cool, shaded, airy place. Never dry skins in the sun.</li>\n</ol>\n<h4>Skulls and horns</h4>\n<ul>\n<li>Remove as much meat as possible, remove the brain and boil or clean the skull as your trophy room procedure requires. Do not boil the skull too long, as bones and teeth get damaged.</li>\n<li>Remove the horn sheaths only if this is the standard practice for that species and the taxidermist agrees.</li>\n</ul>\n<h3>Marking trophies</h3>\n<p>Every part of a trophy must be traceable to the client and the permit. Use metal or plastic tags with a unique number punched or written in permanent marker, attached to the skin (e.g. through the ear or leg) and the skull. Record the number in the trophy register with the client name, species, date, permit number and mount type.</p>\n<h3>Storing safely and securely</h3>\n<ul>\n<li>Keep trophies in a locked, dry, ventilated trophy room with no direct sun.</li>\n<li>Protect against insects such as dermestid beetles and against rodents; treat with the approved insecticide as directed by the label.</li>\n<li>Keep different clients' trophies apart, on racks, not on the floor.</li>\n<li>Valuable trophies like ivory or rhino horn need special permits and high security; follow the law strictly.</li>\n</ul>"
+  },
+  {
+   "title": "Documentation and dispatch to the taxidermist",
+   "minutes": 15,
+   "html": "<h3>Paperwork comes first</h3>\n<p>A trophy without correct papers can be seized. Before dispatch, gather:</p>\n<ul>\n<li>The hunting permit and proof of lawful hunt from the provincial authority.</li>\n<li>TOPS permits for listed species.</li>\n<li>CITES export permits for species listed under CITES, when the trophy leaves South Africa.</li>\n<li>Veterinary documents. Raw trophies may need treatment or a veterinary permit to move out of disease control areas, for example for foot-and-mouth disease.</li>\n<li>A trophy list with tag numbers, species, parts and client details.</li>\n</ul>\n<h3>Packing and transport</h3>\n<ol>\n<li>Check that each skin is properly salted and dry.</li>\n<li>Pack skins flat or folded flesh to flesh in strong bags or boxes. Protect horn tips with foam or cardboard.</li>\n<li>Label each package with the client name, tag numbers and the destination.</li>\n<li>Send by a reliable courier or deliver yourself to a registered taxidermist or dip-and-pack facility.</li>\n<li>Get a signed receipt listing every item and tag number.</li>\n</ol>\n<h3>Communicating with the client and taxidermist</h3>\n<p>Give the taxidermist clear written instructions on the mount type, pose and any special requests. Send the client a copy of the trophy list and receipt. Keep copies of all documents in the hunt file.</p>\n<h4>Key points</h4>\n<ul>\n<li>Agree on the mount type before you cut.</li>\n<li>For shoulder mounts, cut well behind the shoulders and never cut the throat.</li>\n<li>Flesh, salt and dry skins in shade quickly to prevent hair slip.</li>\n<li>Tag every part and record it in the trophy register.</li>\n<li>Store trophies locked, dry and protected from insects.</li>\n<li>Dispatch only with all permits and get a signed receipt.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "For a shoulder mount, where should the cut around the body be made?",
+   "options": [
+    {
+     "text": "Just behind the ears",
+     "correct": false
+    },
+    {
+     "text": "Well behind the shoulders",
+     "correct": true
+    },
+    {
+     "text": "Around the hind legs",
+     "correct": false
+    },
+    {
+     "text": "Along the throat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes hair slip on a trophy skin?",
+   "options": [
+    {
+     "text": "Too much salt",
+     "correct": false
+    },
+    {
+     "text": "Drying in the shade",
+     "correct": false
+    },
+    {
+     "text": "Turning the ears",
+     "correct": false
+    },
+    {
+     "text": "Bacteria breaking down the skin before it is treated",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What kind of salt is used to treat skins?",
+   "options": [
+    {
+     "text": "Fine, clean, non-iodised salt",
+     "correct": true
+    },
+    {
+     "text": "Iodised table salt with flavouring",
+     "correct": false
+    },
+    {
+     "text": "Rock salt licks",
+     "correct": false
+    },
+    {
+     "text": "Any salt mixed with sand",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should skins be dried?",
+   "options": [
+    {
+     "text": "In direct sun on the bakkie",
+     "correct": false
+    },
+    {
+     "text": "On the floor of the kitchen",
+     "correct": false
+    },
+    {
+     "text": "In a cool, shaded, airy place",
+     "correct": true
+    },
+    {
+     "text": "Inside a sealed plastic bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you get from the taxidermist or courier when handing over trophies?",
+   "options": [
+    {
+     "text": "A cash tip",
+     "correct": false
+    },
+    {
+     "text": "A signed receipt listing every item and tag",
+     "correct": true
+    },
+    {
+     "text": "A new hunting permit",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should cut the throat of an animal that will be a shoulder mount.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Each trophy part should carry a tag number that is recorded in the trophy register.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which documents may be needed before dispatching a trophy? (select all that apply)",
+   "options": [
+    {
+     "text": "Hunting permit",
+     "correct": true
+    },
+    {
+     "text": "CITES export permit for listed species",
+     "correct": true
+    },
+    {
+     "text": "Veterinary documents",
+     "correct": true
+    },
+    {
+     "text": "A fishing licence",
+     "correct": false
+    },
+    {
+     "text": "A driver's learner licence",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

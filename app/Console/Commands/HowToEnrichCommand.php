@@ -125,7 +125,7 @@ class HowToEnrichCommand extends Command
         return $q->get();
     }
 
-    private const SYSTEM = 'You write clear, friendly end-user help for an HR/ERP web app called Mkhaya Hub. '
+    private const SYSTEM = 'You write clear, friendly end-user help for an HR/ERP web app called Mkhaya Agri. '
         . 'Produce practical, step-by-step guidance a non-technical employee can follow. '
         . 'Return ONLY valid JSON: an array of objects, each {"question": "...", "answer": "..."}. '
         . 'Questions must be real things a user would ask. Answers must be descriptive (3-6 sentences), '

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-8551",
+ "title": "Oversee arrival and departure of customers",
+ "lessons": [
+  {
+   "title": "Preparing for and welcoming customers",
+   "minutes": 15,
+   "html": "<h3>First impressions count</h3>\n<p>For a hunting lodge, guest farm or game reserve, the arrival is the client's first real experience of your business, and the departure is the last. Overseeing both well builds loyalty and referrals.</p>\n<h4>Before arrival</h4>\n<ul><li>Check the booking: names, number of guests, arrival time, flight details, special needs (diet, medical, mobility, children).</li>\n<li>Arrange transfers from the airport and brief the driver: name board, vehicle clean, water on board.</li>\n<li>Prepare rooms: clean, linen, towels, working lights, hot water, insect control, welcome note.</li>\n<li>For hunting clients: confirm firearm import permit details, prepare the gun safe and range time.</li>\n<li>Brief staff on who is arriving and their needs.</li></ul>\n<h4>The arrival</h4>\n<ol><li>Greet guests warmly by name, introduce yourself and key staff.</li>\n<li>Offer a cold drink or refreshment and help with luggage.</li>\n<li>Complete registration: ID or passport details, indemnity forms, emergency contacts. Handle personal information confidentially under POPIA (Protection of Personal Information Act 4 of 2013).</li>\n<li>Give a short orientation: meal times, Wi-Fi, safety rules (do not walk alone at night in unfenced camps, keep doors closed against monkeys and baboons), emergency procedures.</li>\n<li>Store firearms in the safe with a register entry, and check permits.</li>\n<li>Show guests to their rooms and explain the plan for the next day.</li></ol>\n<h4>Handling problems on arrival</h4>\n<p>Flights are delayed, luggage gets lost, rooms are not ready. Stay calm, apologise sincerely, explain what you will do, and do it. For example, if a client's rifle has been held at the airport, help them contact SAPS at the port and arrange a lodge rifle in the meantime where the law allows.</p>"
+  },
+  {
+   "title": "Overseeing departure",
+   "minutes": 15,
+   "html": "<h3>A smooth departure</h3>\n<p>Departure involves accounts, trophies, transport and saying goodbye. Plan it the day before.</p>\n<h4>Before departure day</h4>\n<ul><li>Confirm departure time and transfer arrangements, allowing enough time for airport check-in, especially international flights with firearms.</li>\n<li>Prepare the final account: daily rates, trophy fees, extra services, bar account. Check it carefully for errors.</li>\n<li>Prepare trophy paperwork: species list, permits, taxidermist or dip-and-pack instructions, export documents, and the client's shipping preferences.</li>\n<li>Return firearms from the safe and check the temporary import permit and serial numbers.</li></ul>\n<h4>On the day</h4>\n<ol><li>Present the account, explain each item and accept payment in the agreed way. Issue a receipt.</li>\n<li>Check rooms for items left behind before the guests leave.</li>\n<li>Help with luggage and confirm the transfer.</li>\n<li>Ask for feedback: a short form or conversation about what they enjoyed and what could be better.</li>\n<li>Thank guests sincerely and invite them back.</li></ol>\n<h4>After departure</h4>\n<ul><li>Record feedback and pass it on to the manager.</li>\n<li>Inform housekeeping that the room is free.</li>\n<li>Update the client database (with consent) for future marketing.</li>\n<li>Follow up on trophies: keep the client informed about progress with the taxidermist and shipping.</li>\n<li>Send a thank-you message within a few days.</li></ul>\n<h4>Handling complaints</h4>\n<p>If a guest complains at departure, listen without interrupting, thank them for telling you, apologise for the experience, and explain what will be done. Refer billing disputes to the manager if you cannot resolve them. A complaint handled well can turn an unhappy client into a loyal one.</p>\n<h4>Key points</h4>\n<ul><li>Check bookings, transfers, rooms and permits before guests arrive.</li>\n<li>Greet by name, register guests, give safety orientation and secure firearms.</li>\n<li>Prepare accurate accounts and trophy paperwork the day before departure.</li>\n<li>Ask for feedback, thank guests and follow up afterwards.</li>\n<li>Handle complaints calmly: listen, apologise, act.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should be checked in the booking before guests arrive?",
+   "options": [
+    {
+     "text": "The guests' social media",
+     "correct": false
+    },
+    {
+     "text": "The weather next year",
+     "correct": false
+    },
+    {
+     "text": "Names, numbers, arrival time and special needs",
+     "correct": true
+    },
+    {
+     "text": "Only the payment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers confidential handling of guests' personal information?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "POPIA (Act 4 of 2013)",
+     "correct": true
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the final account be prepared?",
+   "options": [
+    {
+     "text": "After the guest has left",
+     "correct": false
+    },
+    {
+     "text": "On arrival",
+     "correct": false
+    },
+    {
+     "text": "The day before departure",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before guests leave their room?",
+   "options": [
+    {
+     "text": "Lock them in",
+     "correct": false
+    },
+    {
+     "text": "Remove the luggage without asking",
+     "correct": false
+    },
+    {
+     "text": "Check for items left behind",
+     "correct": true
+    },
+    {
+     "text": "Start cleaning while they pack",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in handling a complaint?",
+   "options": [
+    {
+     "text": "Listen without interrupting",
+     "correct": true
+    },
+    {
+     "text": "Argue",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Offer a refund immediately",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Safety orientation on arrival should include rules about walking alone at night in unfenced camps.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Client trophy progress does not need to be followed up after departure.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks happen on departure day? (select all that apply)",
+   "options": [
+    {
+     "text": "Ask for feedback",
+     "correct": true
+    },
+    {
+     "text": "Thank guests and invite them back",
+     "correct": true
+    },
+    {
+     "text": "Present and explain the account",
+     "correct": true
+    },
+    {
+     "text": "Issue new hunting permits for next year",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

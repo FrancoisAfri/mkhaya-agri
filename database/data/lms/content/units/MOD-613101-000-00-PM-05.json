@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-05",
+ "title": "Provide Livestock Nutrition and Shelter",
+ "lessons": [
+  {
+   "title": "Nutrient needs of farm animals",
+   "minutes": 20,
+   "html": "<h3>What livestock need from their feed</h3><p>Feed is usually the biggest single cost in livestock production, and poor nutrition is behind many problems blamed on other causes: low conception rates, weak calves, slow growth and poor resistance to disease. A manager must understand what animals need and how to supply it at the lowest cost per kilogram of product.</p><h4>The main nutrients</h4><table><tr><th>Nutrient</th><th>Function</th><th>Typical sources</th></tr><tr><td>Water</td><td>Every body function; the most important nutrient</td><td>Clean troughs, dams, boreholes</td></tr><tr><td>Energy</td><td>Maintenance, growth, milk, work</td><td>Grazing, maize, molasses, hay</td></tr><tr><td>Protein</td><td>Growth, milk, rumen microbes</td><td>Green grazing, lucerne, oilcake, licks with urea (ruminants only, as labelled)</td></tr><tr><td>Minerals</td><td>Bones, fertility, enzymes (e.g. phosphorus, calcium, salt, trace minerals)</td><td>Mineral licks, salt</td></tr><tr><td>Vitamins</td><td>Health and fertility</td><td>Green feed, supplements, injections on vet advice</td></tr><tr><td>Fibre</td><td>Healthy rumen function in ruminants</td><td>Roughage, hay, veld grass</td></tr></table><h4>Needs change with production stage</h4><p>A dry cow in mid-pregnancy needs far less than the same cow in early lactation that must also conceive again. Growing weaners, ewes carrying twins and dairy cows in peak milk have the highest demands. Group animals by need and feed each group accordingly.</p><h4>The seasonal feed gap</h4><p>In summer-rainfall areas the veld is green and protein-rich in summer but becomes dry and low in protein in winter. Ruminants on dry veld therefore usually need a protein (winter) lick, while in summer a phosphorus (summer) lick is often required. Your feed supplier or animal nutritionist should formulate the programme for your farm.</p><h4>Body condition scoring</h4><p>Score animals regularly, using a scale such as 1 (very thin) to 5 (very fat), by feeling the backbone, ribs and tail-head. Body condition at mating and calving strongly affects fertility. Adjust feeding when the score drifts from the target.</p>"
+  },
+  {
+   "title": "Feeding programmes and safe feeding",
+   "minutes": 20,
+   "html": "<h3>Putting the programme into practice</h3><h4>Building a feed budget</h4><ol><li>Count animals in each group and estimate their daily needs.</li><li>Estimate how much grazing is available in each camp and for how long.</li><li>Plan supplementary feeds, licks, hay or silage to fill the gap.</li><li>Price the options. Compare cost per unit of nutrient, not cost per bag.</li><li>Store at least a reserve of roughage for drought.</li></ol><h4>Safe feeding rules</h4><ul><li>Change rations gradually over about a week or more. Sudden access to grain can cause acidosis, and sudden lush legumes can cause bloat.</li><li>Urea-containing licks are for ruminants only. Mix and feed exactly as the label says. Urea poisoning kills quickly; keep these licks dry and away from horses, pigs and poultry.</li><li>Provide enough trough space so timid animals also get their share.</li><li>Never feed mouldy feed. Store feed dry, off the floor, and protected from rodents.</li><li>Only use feeds registered under Act 36 of 1947 and follow withdrawal periods for medicated feeds.</li><li>Check water every day: troughs clean, ball valves working, no dead birds or algae.</li></ul><h4>Example</h4><p>A 25 kg bag of protein lick costs R420 and one at R380 has a lower protein level. Calculate the cost per kilogram of protein for each before choosing. The cheaper bag may cost more for the nutrient you actually need.</p><p>Review the feed budget monthly. If grazing runs out sooner than planned, adjust early by buying feed, reducing numbers or moving animals, rather than waiting for animals to lose condition.</p><p>Record feed used per group.</p>"
+  },
+  {
+   "title": "Shelter and housing for livestock",
+   "minutes": 20,
+   "html": "<h3>Protection from weather, predators and stress</h3><p>Good shelter protects animals from cold, heat, wind, rain and predators, and makes handling easier. The Animals Protection Act 71 of 1962 makes it an offence to keep animals in conditions that cause unnecessary suffering, including lack of shelter, water or food.</p><h4>Requirements of good shelter</h4><ul><li><strong>Space:</strong> enough room for all animals to lie down at the same time and move without injury.</li><li><strong>Ventilation:</strong> fresh air without draughts at animal level; ammonia smell means poor ventilation or dirty bedding.</li><li><strong>Drainage and flooring:</strong> dry, non-slip floors that slope to drains; no sharp edges.</li><li><strong>Shade:</strong> trees or shade structures in hot areas, especially for pigs, dairy cows and feedlot cattle.</li><li><strong>Protection from predators:</strong> secure night kraals for sheep and goats where jackals or caracal are a problem.</li><li><strong>Easy cleaning:</strong> surfaces that can be scraped, washed and disinfected.</li></ul><h4>Special cases</h4><ul><li>Lambing and calving pens: clean, dry and sheltered, with good light for checking at night.</li><li>Sick pens: separate from healthy animals to limit disease spread.</li><li>Poultry and pigs: temperature control is critical for young animals; follow the breed or supplier management guide.</li></ul><h4>Maintenance routine</h4><p>Inspect shelters weekly for broken boards, loose roof sheets, protruding nails and blocked drains. Remove manure regularly and compost it for the lands. Record repairs and costs so they can be budgeted.</p><h4>Key points</h4><ul><li>Water is the most important nutrient; check it daily.</li><li>Match feeding to production stage and fill the seasonal feed gap with the right lick.</li><li>Change rations gradually; urea licks are for ruminants only and must follow the label.</li><li>Compare feeds on cost per unit of nutrient.</li><li>Shelter must give space, ventilation, drainage, shade and predator protection.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the most important nutrient for livestock?",
+   "options": [
+    {
+     "text": "Protein",
+     "correct": false
+    },
+    {
+     "text": "Water",
+     "correct": true
+    },
+    {
+     "text": "Energy",
+     "correct": false
+    },
+    {
+     "text": "Vitamins",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On dry winter veld in a summer-rainfall area, which lick do ruminants usually need?",
+   "options": [
+    {
+     "text": "A protein lick",
+     "correct": true
+    },
+    {
+     "text": "A pure salt lick only",
+     "correct": false
+    },
+    {
+     "text": "No lick at all",
+     "correct": false
+    },
+    {
+     "text": "A urea lick for horses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should rations be changed gradually?",
+   "options": [
+    {
+     "text": "To save money on feed",
+     "correct": false
+    },
+    {
+     "text": "To avoid problems such as acidosis and bloat",
+     "correct": true
+    },
+    {
+     "text": "Because the label requires a different colour",
+     "correct": false
+    },
+    {
+     "text": "To make the animals hungrier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should two protein licks be compared?",
+   "options": [
+    {
+     "text": "By the price per bag only",
+     "correct": false
+    },
+    {
+     "text": "By the colour of the bag",
+     "correct": false
+    },
+    {
+     "text": "By the cost per kilogram of protein",
+     "correct": true
+    },
+    {
+     "text": "By which supplier is closest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a strong ammonia smell in a shed usually indicate?",
+   "options": [
+    {
+     "text": "Too much shade",
+     "correct": false
+    },
+    {
+     "text": "Poor ventilation or dirty bedding",
+     "correct": true
+    },
+    {
+     "text": "The animals are well fed",
+     "correct": false
+    },
+    {
+     "text": "The floor is too dry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Urea-containing licks may safely be fed to horses and pigs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Body condition at mating and calving affects fertility.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are requirements of good livestock shelter? (select all that apply)",
+   "options": [
+    {
+     "text": "Enough space for all animals to lie down",
+     "correct": true
+    },
+    {
+     "text": "Ventilation without draughts at animal level",
+     "correct": true
+    },
+    {
+     "text": "Slippery floors that are easy to wash",
+     "correct": false
+    },
+    {
+     "text": "Dry flooring with good drainage",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

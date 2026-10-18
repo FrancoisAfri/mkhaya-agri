@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123165",
+ "title": "Demonstrate an understanding of the Rooibos industry",
+ "lessons": [
+  {
+   "title": "What the rooibos industry is",
+   "minutes": 15,
+   "html": "<h3>A South African product known around the world</h3><p>Rooibos is a tea made from the plant <em>Aspalathus linearis</em>. It grows naturally only in the Cederberg and nearby areas of the Western and Northern Cape. The Khoi and San people of the area used it long ago. Today rooibos is drunk in South Africa and sold to many countries.</p><p>Rooibos is protected as a special product of South Africa. Its name is registered so that only rooibos from this area may be sold as \"rooibos\" in some markets, for example in the European Union. This protects the farmers and workers who grow it.</p><h4>Who works in the industry</h4><ul><li><strong>Commercial farmers</strong> – grow rooibos on large farms.</li><li><strong>Small-scale farmers</strong> – in communities such as Wupperthal and Suid-Bokkeveld, often in co-operatives.</li><li><strong>Farm workers</strong> – plant, harvest and process the tea.</li><li><strong>Processors</strong> – clean, sort, grade, pasteurise and pack the tea.</li><li><strong>Packers and brand owners</strong> – put tea in tea bags and boxes and sell it.</li><li><strong>Exporters and shops</strong> – sell rooibos in South Africa and overseas.</li><li><strong>Researchers</strong> – study the plant, diseases and health benefits.</li></ul><h4>The industry body</h4><p>The South African Rooibos Council works for the industry. It supports research, protects the rooibos name and helps the industry follow good practice.</p>"
+  },
+  {
+   "title": "From the farm to the customer",
+   "minutes": 15,
+   "html": "<h3>The rooibos value chain</h3><p>A value chain shows all the steps a product goes through. At each step someone adds value.</p><ol><li><strong>Seed and seedlings</strong> – seed is collected, treated and sown.</li><li><strong>Planting and growing</strong> – seedlings are planted in the lands in winter.</li><li><strong>Harvest</strong> – branches are cut in summer.</li><li><strong>Farm processing</strong> – cutting, bruising, fermenting and drying on the tea court.</li><li><strong>Processing plant</strong> – sieving, grading, cleaning, pasteurising, testing.</li><li><strong>Packing</strong> – loose tea, tea bags, and products like iced tea, cosmetics and food flavours.</li><li><strong>Selling</strong> – shops in South Africa and export overseas.</li></ol><h4>Why your work matters</h4><p>Customers want safe, clean tea of good quality. If one bag of tea has stones, plastic, weeds, or germs, the whole batch can be rejected. Buyers test tea for dirt, germs and chemicals. Good work on the farm keeps the tea safe and protects everyone's jobs.</p><h4>Fair trade and organic</h4><p>Some rooibos is sold as organic or Fairtrade. Organic tea is grown without synthetic chemicals and fertilisers. Fairtrade has rules on fair pay and working conditions. Farms with these certificates are checked by inspectors and must keep good records.</p><h4>An example</h4><p>A farm in the Clanwilliam area harvests a land in January. The tea is cut, fermented and dried on the tea court in a few days, then bagged and sent to a processor. The processor tests and pasteurises it, and it is packed into tea bags. A few months later, the same tea is drunk by a family in South Africa, Germany or Japan. Every worker along the way helped make that cup.</p>"
+  },
+  {
+   "title": "Challenges and the future",
+   "minutes": 15,
+   "html": "<h3>Looking after the industry</h3><h4>Challenges</h4><ul><li><strong>Climate</strong> – droughts and hotter summers make it harder to grow rooibos.</li><li><strong>Soil erosion</strong> – sandy soil blows and washes away if not protected.</li><li><strong>Protecting fynbos</strong> – the Cederberg has many rare plants and animals. Farms must not clear more natural veld than allowed.</li><li><strong>Prices</strong> – when there is too much tea, prices fall.</li><li><strong>Quality and food safety</strong> – buyers have strict rules.</li></ul><h4>Benefit sharing</h4><p>Because the Khoi and San people first knew and used rooibos, the industry agreed to share some benefits with these communities. This is called benefit sharing.</p><h4>What workers can do</h4><ul><li>Do your work carefully and keep the tea clean.</li><li>Follow safety and hygiene rules.</li><li>Save water and protect the veld.</li><li>Learn new skills, which can lead to better jobs in the industry.</li></ul><h4>Learning and growing</h4><p>The rooibos industry needs skilled people: tea court supervisors, machine operators, quality checkers, drivers, and people who understand records and computers. Workers who learn and show they are careful and honest can move into these jobs.</p><h4>Key points</h4><ul><li>Rooibos grows naturally only in the Cederberg and nearby areas.</li><li>The rooibos name is protected, so only tea from this area may use it in some markets.</li><li>The value chain runs from seed to farm processing, processing plant, packing and selling.</li><li>Clean, safe tea protects the whole industry and everyone's jobs.</li><li>Climate, erosion, fynbos protection and prices are big challenges.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which people first used rooibos?",
+   "options": [
+    {
+     "text": "Tea farmers from India",
+     "correct": false
+    },
+    {
+     "text": "The Khoi and San people",
+     "correct": true
+    },
+    {
+     "text": "European settlers",
+     "correct": false
+    },
+    {
+     "text": "Workers from Gauteng",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the South African Rooibos Council do?",
+   "options": [
+    {
+     "text": "Builds roads",
+     "correct": false
+    },
+    {
+     "text": "Sells cold drinks",
+     "correct": false
+    },
+    {
+     "text": "Pays all workers",
+     "correct": false
+    },
+    {
+     "text": "Supports research and protects the rooibos name",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a value chain?",
+   "options": [
+    {
+     "text": "A list of prices",
+     "correct": false
+    },
+    {
+     "text": "All the steps a product goes through, each adding value",
+     "correct": true
+    },
+    {
+     "text": "A chain used to lock the tea store",
+     "correct": false
+    },
+    {
+     "text": "A type of tea bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why can one bag with stones and plastic be a problem?",
+   "options": [
+    {
+     "text": "It helps fermentation",
+     "correct": false
+    },
+    {
+     "text": "It makes the tea heavier and earns more",
+     "correct": false
+    },
+    {
+     "text": "The whole batch can be rejected",
+     "correct": true
+    },
+    {
+     "text": "Buyers like it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a challenge for the rooibos industry?",
+   "options": [
+    {
+     "text": "Drought and hotter summers",
+     "correct": true
+    },
+    {
+     "text": "Too few customers in the world",
+     "correct": false
+    },
+    {
+     "text": "Too much rain every year",
+     "correct": false
+    },
+    {
+     "text": "Rooibos grows everywhere",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Organic rooibos is grown without synthetic chemicals and fertilisers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rooibos from any country may be sold as rooibos in all markets.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in the rooibos value chain? (select all that apply)",
+   "options": [
+    {
+     "text": "Harvest in the lands",
+     "correct": true
+    },
+    {
+     "text": "Fermenting and drying on the tea court",
+     "correct": true
+    },
+    {
+     "text": "Pasteurising and packing",
+     "correct": true
+    },
+    {
+     "text": "Milking cows",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

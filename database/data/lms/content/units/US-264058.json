@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264058",
+ "title": "Utilise health and safety principles in horticulture",
+ "lessons": [
+  {
+   "title": "Hazards in horticultural work",
+   "minutes": 15,
+   "html": "<h3>Safety is everyone's job</h3>\n<p>Nurseries, gardens, parks and orchards can be dangerous places. The Occupational Health and Safety Act 85 of 1993 says the employer must provide a safe workplace, training and protective equipment. It also says that you, the worker, must work safely, follow instructions, use your protective equipment and report unsafe conditions and injuries.</p>\n<h4>Common hazards</h4>\n<table><tr><th>Hazard</th><th>Example</th></tr>\n<tr><td>Chemicals</td><td>Pesticides, herbicides, fertilisers, fuel</td></tr>\n<tr><td>Machines and tools</td><td>Mowers, brushcutters, chainsaws, secateurs, spades</td></tr>\n<tr><td>Weather</td><td>Heat, sunburn, lightning, cold</td></tr>\n<tr><td>Lifting</td><td>Bags of compost, pots, trays, wheelbarrows</td></tr>\n<tr><td>Nature</td><td>Snakes, bees, spiders, thorns, plant sap that irritates skin</td></tr>\n<tr><td>Slips and trips</td><td>Wet floors, hoses, uneven ground, holes</td></tr>\n<tr><td>Electricity</td><td>Pumps, extension cords near water</td></tr></table>\n<h4>Spot the hazard, then act</h4>\n<ol><li><strong>See it</strong> – look around before you start a job.</li>\n<li><strong>Think</strong> – how could someone get hurt?</li>\n<li><strong>Act</strong> – remove it if it is safe and easy (pick up a hose), or warn others and report it to your supervisor or the health and safety representative.</li></ol>\n<p>Never ignore a hazard because \"it is not my job\". A loose cable or a broken ladder can hurt your team-mate tomorrow.</p>\n<h4>Signs</h4>\n<p>Learn the safety signs on your site. Red circles mean \"do not\". Blue circles mean \"you must\" (for example, wear ear protection). Yellow triangles mean \"warning\". Green signs show safe things, like the first aid box and the emergency exit.</p>"
+  },
+  {
+   "title": "Working safely every day",
+   "minutes": 15,
+   "html": "<h3>Personal protective equipment (PPE)</h3>\n<ul><li><strong>Safety boots</strong> – protect toes from tools and heavy pots.</li>\n<li><strong>Gloves</strong> – leather for thorns and tools, chemical-resistant for sprays.</li>\n<li><strong>Eye protection</strong> – goggles or a visor when cutting, mowing or mixing chemicals.</li>\n<li><strong>Ear protection</strong> – muffs or plugs near loud machines.</li>\n<li><strong>Hat, long sleeves and sunscreen</strong> – against the sun.</li>\n<li><strong>Overalls and respirator</strong> – when spraying, as the product label says.</li></ul>\n<p>Check your PPE before use. Report damaged PPE and get a new one. PPE only works if you wear it.</p>\n<h3>Safe habits</h3>\n<ul><li>Lift with bent knees and a straight back. Get help for heavy loads.</li>\n<li>Drink water often on hot days. Rest in the shade. Tell your supervisor if you feel dizzy or sick.</li>\n<li>Use tools only for their proper job. Carry sharp tools pointing down.</li>\n<li>Only use machines you have been trained on.</li>\n<li>Read the label before using any chemical. Wash hands before eating, drinking or smoking.</li>\n<li>Keep chemicals in their own containers. Never put chemicals in cool drink bottles.</li>\n<li>Stop work outside when there is lightning.</li></ul>\n<h3>When someone is hurt</h3>\n<ol><li>Make sure the area is safe for you.</li>\n<li>Call for help: your supervisor, the first aider, or emergency services.</li>\n<li>Only give first aid if you are trained. Hands-on first aid training must be done with an accredited provider.</li>\n<li>Report every injury, even a small cut, and every near miss. Your supervisor must record it.</li></ol>\n<p>If you see a snake, move away slowly and keep others away. Do not try to catch or kill it.</p>\n<h4>Key points</h4>\n<ul><li>The OHS Act 85 of 1993 gives duties to both the employer and the worker.</li>\n<li>Look for hazards before you start work and report them.</li>\n<li>Wear the right PPE and check it before use.</li>\n<li>Never store chemicals in food or drink containers.</li>\n<li>Report all injuries and near misses.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law deals with health and safety at work in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a blue circle safety sign mean?",
+   "options": [
+    {
+     "text": "Do not",
+     "correct": false
+    },
+    {
+     "text": "Warning",
+     "correct": false
+    },
+    {
+     "text": "You must",
+     "correct": true
+    },
+    {
+     "text": "First aid",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you see a snake while working?",
+   "options": [
+    {
+     "text": "Move away slowly and keep others away",
+     "correct": true
+    },
+    {
+     "text": "Try to catch it",
+     "correct": false
+    },
+    {
+     "text": "Throw stones at it",
+     "correct": false
+    },
+    {
+     "text": "Keep working next to it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which PPE protects you against loud machine noise?",
+   "options": [
+    {
+     "text": "Gloves",
+     "correct": false
+    },
+    {
+     "text": "Safety boots",
+     "correct": false
+    },
+    {
+     "text": "Hat",
+     "correct": false
+    },
+    {
+     "text": "Ear muffs or plugs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a small cut you got at work?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Report it so it can be recorded",
+     "correct": true
+    },
+    {
+     "text": "Wait a week",
+     "correct": false
+    },
+    {
+     "text": "Tell only a friend",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to keep a pesticide in a cool drink bottle if you write the name on it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers also have duties under the OHS Act, such as using PPE and reporting unsafe conditions.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are safe lifting and heat habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Lift with bent knees and a straight back",
+     "correct": true
+    },
+    {
+     "text": "Work through dizziness on hot days",
+     "correct": false
+    },
+    {
+     "text": "Drink water often",
+     "correct": true
+    },
+    {
+     "text": "Get help for heavy loads",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

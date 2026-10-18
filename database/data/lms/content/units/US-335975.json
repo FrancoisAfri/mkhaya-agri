@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335975",
+ "title": "Service and maintain irrigation control valves",
+ "lessons": [
+  {
+   "title": "Servicing isolation, direction control and air valves",
+   "minutes": 20,
+   "html": "<h3>Before any valve service</h3><ul><li>Identify the valve and its function from the system plan.</li><li>Close upstream (and if needed downstream) isolating valves, switch off the pump or zone, and release pressure through a drain or bleed.</li><li>Have the correct service kit or spare parts for the make and model.</li><li>Lay parts out in order on a clean surface as you strip the valve. Take photos if helpful.</li></ul><h4>Isolation valves</h4><table><tr><th>Valve</th><th>Common faults</th><th>Service</th></tr><tr><td>Gate valve</td><td>Gland leak at spindle, stiff operation, not sealing</td><td>Tighten or repack the gland; clean and grease spindle threads; replace wedge or seat if worn</td></tr><tr><td>Ball valve</td><td>Leaks at stem, handle loose, seals worn</td><td>Replace stem O-rings and seat seals with kit; replace valve if ball is scored</td></tr><tr><td>Butterfly valve</td><td>Liner worn, disc not sealing</td><td>Replace liner or seat; check disc and shaft</td></tr></table><p>Operate isolation valves fully open and closed periodically so they do not seize.</p><h4>Direction control valves</h4><ul><li><strong>Non-return (check) valves:</strong> faults include stuck open (water runs back, pumps lose prime), stuck closed (no flow), slamming (water hammer). Strip, clean debris, replace the flap, spring or seal, and check the seat for damage.</li><li><strong>Foot valves:</strong> clean the strainer, check the flap or poppet seals so the pump stays primed.</li><li><strong>Three-way valves:</strong> on filter backwash, check the diaphragm or seal and command tubes.</li></ul><h4>Air release valves</h4><p>Faults: leaking water continuously (seal dirty or worn, float damaged), not releasing air (orifice blocked, float stuck). Strip, clean the float and orifice, replace seals, and check the float moves freely. Ensure the isolating valve below the air valve is open after service.</p>"
+  },
+  {
+   "title": "Hydraulic and solenoid valve malfunctions",
+   "minutes": 20,
+   "html": "<h3>How diaphragm valves work</h3><p>Most irrigation control valves are diaphragm valves. Water from upstream enters the chamber above the diaphragm through a small bleed port. Because the area on top is larger, the diaphragm is held closed. To open the valve, the water above is vented, either by a hydraulic command (hydraulic valve) or by a solenoid opening a pilot port (solenoid valve). Upstream pressure then lifts the diaphragm.</p><h4>Hydraulic valve malfunctions</h4><table><tr><th>Malfunction</th><th>Possible cause</th><th>Remedy</th></tr><tr><td>Does not open</td><td>Command tube blocked or kinked; controller or command valve not venting; diaphragm stuck</td><td>Check and flush command tubes; check controller; strip and clean</td></tr><tr><td>Does not close</td><td>Leaking command tube; blocked bleed port; torn diaphragm; debris on seat</td><td>Repair tube; clean port; replace diaphragm; clean seat</td></tr><tr><td>Slow closing</td><td>Partly blocked port or filter on the command circuit</td><td>Clean</td></tr><tr><td>Chatter or noise</td><td>Low flow for valve size, air in chamber</td><td>Adjust flow control; bleed air</td></tr></table><h4>Solenoid valve malfunctions</h4><table><tr><th>Malfunction</th><th>Possible cause</th><th>Remedy</th></tr><tr><td>Does not open electrically but opens with manual bleed</td><td>Electrical fault: no voltage, broken wire, failed solenoid coil</td><td>Measure voltage at the valve; measure coil resistance; repair wire or replace solenoid</td></tr><tr><td>Does not open at all</td><td>Flow control closed; upstream isolating valve closed; diaphragm stuck</td><td>Open flow control and isolation; clean valve</td></tr><tr><td>Does not close</td><td>Debris under diaphragm, blocked bleed port, plunger stuck, manual bleed open, solenoid loose</td><td>Clean; replace plunger or diaphragm; close bleed; tighten solenoid by hand</td></tr><tr><td>Weeping</td><td>Worn seat, small debris, diaphragm damage</td><td>Clean or replace parts</td></tr></table><h4>Stripping a solenoid valve</h4><ol><li>Isolate and depressurise.</li><li>Turn the solenoid anticlockwise to remove it, keeping the plunger and spring together.</li><li>Undo the bonnet screws and lift off the bonnet; remove the spring and diaphragm.</li><li>Clean the bleed port with a fine wire, wash the diaphragm and seat, inspect for tears or warping.</li><li>Replace damaged parts with the manufacturer's kit, reassemble with the diaphragm seated correctly, tighten screws evenly.</li></ol>"
+  },
+  {
+   "title": "Servicing pressure control valves and documentation",
+   "minutes": 15,
+   "html": "<h3>Pressure control valves</h3><p>Pressure reducing, sustaining and relief valves are usually pilot-operated: a small pilot valve senses pressure and controls the main valve.</p><h4>Common malfunctions</h4><table><tr><th>Symptom</th><th>Possible cause</th></tr><tr><td>Downstream pressure too high (PRV)</td><td>Pilot blocked, main diaphragm torn, debris on seat, pilot set wrong</td></tr><tr><td>Downstream pressure too low</td><td>Pilot filter blocked, main valve partly stuck, setting too low</td></tr><tr><td>Pressure hunting (fluctuating)</td><td>Air in control chamber, speed control needle mis-set, valve oversized for the flow</td></tr><tr><td>Relief valve leaking continuously</td><td>Seat damage, debris, setting too close to working pressure</td></tr></table><h4>Servicing steps</h4><ol><li>Record the current pilot setting and pressures before work.</li><li>Isolate and depressurise.</li><li>Clean the pilot filter or strainer; flush control tubing.</li><li>Strip the pilot: clean, replace diaphragm and seals from the kit.</li><li>Strip the main valve: replace diaphragm or seals, clean the seat.</li><li>Reassemble; restore pressure slowly while bleeding air from the control chamber.</li><li>Set the pilot to the required pressure using a calibrated gauge downstream (PRV) or upstream (sustaining), adjusting in small steps.</li><li>Check stable operation at low and high flow.</li></ol><p>Never set a relief valve above the pressure rating of the pipes and components it protects.</p><h4>Testing after any valve service</h4><ul><li>Valve opens and closes correctly on command</li><li>No leaks at body, bonnet, fittings</li><li>Correct pressure and flow downstream</li><li>Isolation valves restored to their normal positions</li></ul><h4>Documentation</h4><ul><li>Valve location, type, make, model and size</li><li>Fault found and cause</li><li>Parts replaced and kit numbers</li><li>Settings before and after</li><li>Date and technician</li><li>Recommendations, such as installing a filter upstream if debris keeps causing faults</li></ul><h4>Key points</h4><ul><li>Isolate and depressurise before stripping any valve.</li><li>Most control valves are diaphragm valves held closed by upstream pressure on top.</li><li>If a solenoid valve opens on manual bleed but not electrically, the fault is electrical.</li><li>Debris, blocked bleed ports and torn diaphragms cause most failures to close.</li><li>Record settings, set pilots with a calibrated gauge and document all work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do before stripping any irrigation valve?",
+   "options": [
+    {
+     "text": "Isolate it and release the pressure",
+     "correct": true
+    },
+    {
+     "text": "Increase the pressure",
+     "correct": false
+    },
+    {
+     "text": "Run the pump",
+     "correct": false
+    },
+    {
+     "text": "Open all zones",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A non-return valve stuck open at a pump will cause what?",
+   "options": [
+    {
+     "text": "Higher pressure",
+     "correct": false
+    },
+    {
+     "text": "Better filtration",
+     "correct": false
+    },
+    {
+     "text": "Water running back and the pump losing prime",
+     "correct": true
+    },
+    {
+     "text": "Faster closing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A solenoid valve opens with the manual bleed but not from the controller. Where is the fault?",
+   "options": [
+    {
+     "text": "Torn diaphragm",
+     "correct": false
+    },
+    {
+     "text": "Electrical: voltage, wiring or solenoid coil",
+     "correct": true
+    },
+    {
+     "text": "Debris on the seat",
+     "correct": false
+    },
+    {
+     "text": "Pipe too large",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these commonly stops a diaphragm valve from closing?",
+   "options": [
+    {
+     "text": "Low voltage",
+     "correct": false
+    },
+    {
+     "text": "Correct flow control setting",
+     "correct": false
+    },
+    {
+     "text": "A clean bleed port",
+     "correct": false
+    },
+    {
+     "text": "Debris under the diaphragm",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can cause pressure hunting in a pilot-operated PRV?",
+   "options": [
+    {
+     "text": "Air in the control chamber",
+     "correct": true
+    },
+    {
+     "text": "A new diaphragm",
+     "correct": false
+    },
+    {
+     "text": "A closed upstream valve",
+     "correct": false
+    },
+    {
+     "text": "Correct speed control setting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Isolation valves should be exercised periodically so they do not seize.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A relief valve may be set above the pipe's pressure rating to avoid leaks.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be recorded after servicing a valve? (select all that apply)",
+   "options": [
+    {
+     "text": "Fault found and cause",
+     "correct": true
+    },
+    {
+     "text": "Parts replaced",
+     "correct": true
+    },
+    {
+     "text": "Settings before and after",
+     "correct": true
+    },
+    {
+     "text": "The weather the previous week",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

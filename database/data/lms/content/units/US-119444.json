@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119444",
+ "title": "Monitor and manage the poultry production environment",
+ "lessons": [
+  {
+   "title": "What birds need from their house",
+   "minutes": 15,
+   "html": "<h3>The house is the bird's whole world</h3><p>A broiler or layer spends its whole life inside one house. It cannot move to shade, find water or get away from bad air. Everything it needs must come from the house and from the people who manage it. As a supervisor you are responsible for checking that environment every day and correcting problems before birds suffer and production drops.</p><h4>The main environmental factors</h4><ul><li><strong>Temperature</strong> – chicks cannot control their own body heat well in the first weeks, so brooding heat is critical. Older birds suffer more from heat than from cold.</li><li><strong>Relative humidity</strong> – too dry causes dust and dehydration; too wet gives caked litter, ammonia and footpad lesions.</li><li><strong>Air quality</strong> – birds produce carbon dioxide, moisture and, through droppings, ammonia. Gas heaters also produce carbon dioxide and can produce carbon monoxide if badly maintained.</li><li><strong>Air speed</strong> – moving air cools birds in summer but causes chilling of young chicks.</li><li><strong>Light</strong> – the light programme (hours and intensity) drives feeding, growth and, in layers, egg production.</li><li><strong>Litter</strong> – dry, friable litter keeps feet healthy and limits disease.</li><li><strong>Feed and water access</strong> – correct height and spacing of feeders and drinkers.</li></ul><h4>Targets come from the breed guide</h4><p>Each breed company (for example the suppliers of the broiler and layer strains used in South Africa) publishes a management guide with target temperatures by age, light programmes, stocking densities and ventilation rates. Do not guess these values. Keep the current guide in the farm office and use it to set the controller and your daily check sheet.</p><h4>Read the birds, not only the instruments</h4><p>Thermometers and controllers can be wrong or badly placed. Bird behaviour tells you the truth. Chicks huddled under the heater are cold. Chicks spread away from the heat, panting with wings held out, are too hot. Birds crowding to one side may be avoiding a draught or a cold wall. Always compare what the instruments say with what the birds show you.</p>"
+  },
+  {
+   "title": "Daily monitoring and record keeping",
+   "minutes": 15,
+   "html": "<h3>A routine for every house, every day</h3><p>Problems in a poultry house build up quietly and then become losses very quickly. A fixed routine, done at the same times each day, is the best protection.</p><h4>Walk-through check</h4><ol><li>Stop at the door, listen and smell. A quiet, even chatter is normal. Strong ammonia smell, silence or distress calls are warning signs.</li><li>Look at bird spread and behaviour across the whole house.</li><li>Read minimum and maximum temperature and humidity at bird height, at several points, not only near the door.</li><li>Check that every drinker line has water and correct pressure, and that feeders are filling.</li><li>Check litter, especially under drinkers and along side walls.</li><li>Check fans, inlets, curtains, heaters and lights are working and set correctly.</li><li>Remove and record dead or culled birds.</li></ol><h4>What to record</h4><table><tr><th>Item</th><th>Why it matters</th></tr><tr><td>Min/max temperature and humidity</td><td>Shows night chilling or afternoon heat stress</td></tr><tr><td>Water consumed (meter reading)</td><td>Often the first sign of disease or a heat problem</td></tr><tr><td>Feed delivered and used</td><td>Feed conversion and growth</td></tr><tr><td>Mortality and culls</td><td>Early warning of disease</td></tr><tr><td>Body weights (sample)</td><td>Growth against breed target</td></tr></table><p>Records are only useful if someone looks at them. Compare today with yesterday and with the breed target. A sudden drop in water intake or a rise in deaths must be reported to the farm manager and, where needed, the poultry vet the same day.</p><h4>Alarms and backup</h4><p>Closed houses depend on electricity. With load shedding common in South Africa, the generator, alarm system and emergency curtain or door opening procedure must be tested regularly. Know who is on call at night and how the alarm reaches them.</p>"
+  },
+  {
+   "title": "Correcting the environment",
+   "minutes": 15,
+   "html": "<h3>Making adjustments safely</h3><p>When monitoring shows a problem, act on the cause, not only the symptom, and make changes in small steps so birds are not shocked.</p><h4>Too hot</h4><ul><li>Increase ventilation in steps; in tunnel houses bring on more fans to raise air speed.</li><li>Run evaporative cooling pads where fitted, but watch humidity – cooling becomes weaker when the air is already humid.</li><li>Make sure there is cool, clean water and enough drinker space; flush lines on hot afternoons.</li><li>Avoid disturbing birds, catching or moving them in the heat of the day.</li></ul><h4>Too cold or draughty</h4><ul><li>Check heaters and close gaps, torn curtains or open doors.</li><li>Keep minimum ventilation running even in cold weather; never shut ventilation off completely to save heat, because gases build up.</li></ul><h4>Poor air and wet litter</h4><ul><li>Increase minimum ventilation to remove moisture and ammonia.</li><li>Fix leaking drinkers and adjust drinker height and pressure.</li><li>Remove caked patches and top up with fresh litter as instructed.</li></ul><h4>Safety for workers</h4><p>Ammonia and dust harm people too. Wear the dust mask or respirator supplied when working in dusty houses or during clean-out. Never work on fans or electrical controls unless you are trained and the power is isolated and locked out, as required under the Occupational Health and Safety Act 85 of 1993. Report faulty gas heaters immediately; a faulty heater can produce carbon monoxide, which you cannot smell.</p><p>After any change, go back within an hour and check how the birds have responded, then note what you did on the house sheet.</p><h4>Key points</h4><ul><li>Target values for temperature, light and ventilation come from the breed management guide.</li><li>Bird behaviour is the best check on what the instruments say.</li><li>Record temperature, water, feed, mortality and weights daily and compare with targets.</li><li>Never switch minimum ventilation off completely, even in cold weather.</li><li>Test generators and alarms regularly because closed houses depend on power.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should a supervisor get the target brooding temperatures and light programme for a flock?",
+   "options": [
+    {
+     "text": "From the weather forecast",
+     "correct": false
+    },
+    {
+     "text": "From what was used on the neighbour's farm",
+     "correct": false
+    },
+    {
+     "text": "From the feed delivery slip",
+     "correct": false
+    },
+    {
+     "text": "From the breed company's management guide",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Chicks are spread away from the heater, panting with their wings held out. What does this show?",
+   "options": [
+    {
+     "text": "They are too hot",
+     "correct": true
+    },
+    {
+     "text": "They are hungry",
+     "correct": false
+    },
+    {
+     "text": "They are cold",
+     "correct": false
+    },
+    {
+     "text": "The light is too dim",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which daily record is often the first sign of disease or heat problems?",
+   "options": [
+    {
+     "text": "Water consumption from the meter",
+     "correct": true
+    },
+    {
+     "text": "Number of bags of litter used",
+     "correct": false
+    },
+    {
+     "text": "The number of staff on shift",
+     "correct": false
+    },
+    {
+     "text": "The colour of the house walls",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In cold weather, what should happen to minimum ventilation?",
+   "options": [
+    {
+     "text": "Keep it running so moisture and gases are removed",
+     "correct": true
+    },
+    {
+     "text": "Run it only when birds are being caught",
+     "correct": false
+    },
+    {
+     "text": "Only run it during the day",
+     "correct": false
+    },
+    {
+     "text": "Switch it off completely to save heat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should gas heaters with faults be reported immediately?",
+   "options": [
+    {
+     "text": "They use too much electricity",
+     "correct": false
+    },
+    {
+     "text": "They attract rats",
+     "correct": false
+    },
+    {
+     "text": "They can produce carbon monoxide, which cannot be smelled",
+     "correct": true
+    },
+    {
+     "text": "They make the litter too dry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Evaporative cooling works less well when the air is already very humid.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to work on a fan motor while it is switched on, as long as you are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are signs of a problem when you enter a poultry house? (select all that apply)",
+   "options": [
+    {
+     "text": "A quiet, even chatter from the flock",
+     "correct": false
+    },
+    {
+     "text": "Birds crowding to one side of the house",
+     "correct": true
+    },
+    {
+     "text": "A strong ammonia smell",
+     "correct": true
+    },
+    {
+     "text": "Distress calls from the birds",
+     "correct": true
+    },
+    {
+     "text": "Birds spread evenly eating and drinking",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119418",
+ "title": "Implement quality assurance in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "What quality means in a poultry plant",
+   "minutes": 15,
+   "html": "<h3>Safe, clean and to specification</h3><p>Quality in a poultry abattoir means two things. First, the chicken must be <strong>safe</strong> to eat, with no harmful germs, chemicals or foreign objects. Second, it must meet the <strong>specification</strong>: the right size, weight, cut, appearance, packaging and label that the customer ordered.</p><h4>Rules we follow</h4><p>Abattoirs work under the Meat Safety Act 40 of 2000. Meat inspectors check birds and carcasses. The plant has a food safety system, often called HACCP, which finds the dangers and controls them. Customers such as retailers also check the plant with audits.</p><h4>What can go wrong</h4><table><tr><th>Type</th><th>Examples</th></tr><tr><td>Germs</td><td>Faeces (gut contents) on carcasses, dirty hands, warm meat</td></tr><tr><td>Chemicals</td><td>Cleaning chemical left on equipment, oil from machines</td></tr><tr><td>Foreign objects</td><td>Plastic, metal, hair, jewellery, plasters, glass</td></tr><tr><td>Quality defects</td><td>Bruises, broken wings, feathers left on, wrong weight, torn bags, wrong labels</td></tr></table><h4>Everyone is responsible</h4><p>Quality is not only the job of the QA department. Every worker on the line checks the product they handle. If you see a problem and let it pass, the next person may not see it, and it can reach a customer.</p><h4>Example</h4><p>A worker on the cutting line sees a feather on a thigh portion. She removes it, or puts the portion aside for trimming as the plant rule says. If she lets it pass, the customer may find it and complain, and the plant may lose the order.</p><p>If you are not sure whether a product is good enough, put it aside and ask your supervisor. It is better to ask than to send a bad product to a customer.</p>"
+  },
+  {
+   "title": "Quality checks on the line",
+   "minutes": 15,
+   "html": "<h3>Checking as you work</h3><h4>Common checks for workers</h4><ul><li><strong>Evisceration</strong>: no visible gut contents (faeces), bile or feathers on the carcass. All insides removed as the plant requires.</li><li><strong>After washing</strong>: carcass looks clean.</li><li><strong>Grading</strong>: sort carcasses by grade. Remove birds with bruises, broken bones or skin damage to the correct trim or downgrade point.</li><li><strong>Cutting</strong>: portions cut to the correct shape; no bone splinters or extra skin.</li><li><strong>Weighing</strong>: packs within the weight band on the scale or specification.</li><li><strong>Packing</strong>: bags sealed, no tears, no leaks, product looks good.</li><li><strong>Labelling</strong>: the right label, correct date and batch code, readable.</li></ul><h4>Using a check sheet</h4><ol><li>Do the check at the time shown on the sheet.</li><li>Write the result clearly in pen.</li><li>If the result is outside the limit, mark it and tell your supervisor at once.</li><li>Sign or initial.</li></ol><p>Never write a result you did not check. Never change a record without permission; if you make a mistake, draw one line through it and write the correct result next to it with your initials.</p><h4>Scales and probes</h4><p>Scales and thermometers must be accurate. Check scales with a test weight when the procedure says. If a scale or probe seems wrong, report it and do not use it.</p><h4>Example</h4><p>A packer notices that labels show yesterday's date. She stops packing and tells the supervisor. The label printer is corrected, and the wrongly labelled packs are held and relabelled. This small check saves a recall.</p><p>Ask your supervisor for the specification sheet for the products you work with.</p>"
+  },
+  {
+   "title": "Dealing with non-conforming product",
+   "minutes": 15,
+   "html": "<h3>What to do when product is not right</h3><p>Product that does not meet the standard is called <strong>non-conforming</strong>. It must be stopped so that it does not reach customers.</p><h4>Steps</h4><ol><li><strong>Stop</strong>: take the product off the line or stop packing.</li><li><strong>Separate</strong>: put it in the marked hold or reject container. Never mix it with good product.</li><li><strong>Tell</strong>: report to your supervisor or QA immediately.</li><li><strong>Wait</strong>: QA or the inspector decides what happens: rework (for example trim or repack), downgrade, or condemn.</li><li><strong>Record</strong>: help fill in the hold or reject record.</li></ol><h4>Foreign objects</h4><p>If you find metal, plastic, glass or other objects in product, stop and report at once. If something is missing from a machine, such as a blade piece or a bolt, or from your own equipment, such as a glove piece, report it immediately so product can be checked. Many plants have metal detectors; never bypass them.</p><h4>Condemned material</h4><p>Birds and parts condemned by inspectors go only into the marked condemned bins. They must never go back into the food line.</p><h4>Helping to improve</h4><p>Tell your supervisor if you notice the same problem happening often, for example many broken wings from one farm or many gut breaks on one machine. Your ideas help the plant fix the cause.</p><h4>Key points</h4><ul><li>Quality means safe chicken that meets the customer's specification.</li><li>Every worker checks the product they handle.</li><li>Record checks at the right time, in pen, and never write a result you did not check.</li><li>Stop, separate, tell, wait and record when product is not right.</li><li>Report foreign objects and missing machine parts immediately; condemned material never returns to the line.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What two things does quality mean in a poultry abattoir?",
+   "options": [
+    {
+     "text": "Safe to eat and meets the specification",
+     "correct": true
+    },
+    {
+     "text": "Cheap and fast",
+     "correct": false
+    },
+    {
+     "text": "Big and heavy",
+     "correct": false
+    },
+    {
+     "text": "Frozen and packed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a foreign object hazard?",
+   "options": [
+    {
+     "text": "Bruising",
+     "correct": false
+    },
+    {
+     "text": "A piece of plastic in a pack",
+     "correct": true
+    },
+    {
+     "text": "Faeces on a carcass",
+     "correct": false
+    },
+    {
+     "text": "Wrong weight",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you correct a mistake on a check sheet?",
+   "options": [
+    {
+     "text": "Use correction fluid",
+     "correct": false
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Draw one line through it, write the correct result and initial",
+     "correct": true
+    },
+    {
+     "text": "Write over it heavily",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who decides what happens to product on hold?",
+   "options": [
+    {
+     "text": "The packer",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The cleaner",
+     "correct": false
+    },
+    {
+     "text": "QA or the inspector",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a piece of a machine blade is missing?",
+   "options": [
+    {
+     "text": "Report it immediately so product can be checked",
+     "correct": true
+    },
+    {
+     "text": "Wait until break time",
+     "correct": false
+    },
+    {
+     "text": "Keep working and look later",
+     "correct": false
+    },
+    {
+     "text": "Replace it yourself",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Quality is only the responsibility of the QA department.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Condemned birds must never go back into the food line.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be checked at the labelling step? (select all that apply)",
+   "options": [
+    {
+     "text": "Correct label",
+     "correct": true
+    },
+    {
+     "text": "Correct date and batch code",
+     "correct": true
+    },
+    {
+     "text": "Label is readable",
+     "correct": true
+    },
+    {
+     "text": "Colour of the worker's apron",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

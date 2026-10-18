@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115853",
+ "title": "Take in green leaf",
+ "lessons": [
+  {
+   "title": "Receiving green leaf at the factory",
+   "minutes": 15,
+   "html": "<h3>Green leaf is fresh and delicate</h3><p>Green leaf is the fresh tea leaf that pluckers pick in the field, usually two leaves and a bud. From the moment it is picked, the leaf starts to change. If it gets hot, crushed or wet, it can spoil and the made tea will be poor. Taking in green leaf carefully is the first step to good tea.</p><h4>Getting ready</h4><ul><li>Check that the leaf intake area is clean and swept.</li><li>Check the scale. Put the test weight on it and make sure it reads correctly. Tell your supervisor if it does not.</li><li>Have the intake book or computer ready to record each delivery.</li><li>Make sure the withering troughs or racks are clean and ready for the leaf.</li><li>Wear your overall, safety boots and a hair cover. Wash your hands. Tea is food.</li></ul><h4>When the leaf arrives</h4><ol><li>The leaf comes in bags, baskets or on a trailer. Help to unload it gently. Do not throw bags or stand on them.</li><li>Weigh each load. Write down the field or block number, the time, the mass and the name of the plucking team or grower.</li><li>Do not leave leaf lying in the sun or packed tightly in bags. Leaf heats up inside a tight bag.</li><li>Spread the leaf out or move it to the withering area quickly.</li></ol><h4>Checking leaf quality</h4><p>Your supervisor may ask you to take a sample to check the leaf. Look for:</p><table><tr><th>Good leaf</th><th>Poor leaf</th></tr><tr><td>Two leaves and a bud, fresh and green</td><td>Coarse leaves, long stalks, old hard leaves</td></tr><tr><td>Cool, not bruised</td><td>Hot, red or brown, crushed</td></tr><tr><td>Clean</td><td>Mixed with stones, weeds, plastic or soil</td></tr></table><p>Write down the result of the leaf count. Report poor leaf to your supervisor. The field team needs to know so they can pluck better.</p>"
+  },
+  {
+   "title": "Handling, recording and keeping the area safe",
+   "minutes": 15,
+   "html": "<h3>Moving the leaf</h3><p>After weighing, the leaf goes to the withering troughs. Move it gently. Use the trolley, conveyor or containers the factory gives you. Do not press leaf down to make it fit. Leaf must stay loose so air can move through it.</p><h4>Keeping wet leaf apart</h4><p>On rainy days leaf comes in wet. Surface water on leaf makes withering slow. Tell your supervisor when leaf is wet. It may be put in a separate trough and given more air. Write \"wet leaf\" on the record.</p><h4>Keeping records</h4><p>Records show how much leaf came in and from where. The factory uses them to pay growers or teams and to plan the work. Records must be correct and neat.</p><ul><li>Write in pen, not pencil.</li><li>Do not tear pages out. If you make a mistake, draw one line through it, write the right number and sign next to it.</li><li>Add up the total at the end of each delivery round and at the end of the day.</li><li>Hand the book or report to your supervisor.</li></ul><h4>Keeping things clean</h4><ul><li>Sweep up fallen leaf and stalks. Old leaf on the floor rots and smells.</li><li>Keep stones, glass, metal and plastic out of the leaf. These can break machines and are dangerous in food.</li><li>Never smoke, eat or spit in the leaf area.</li></ul><h4>Working safely</h4><ul><li>Lift bags with your knees bent and your back straight. Ask for help with heavy bags.</li><li>Keep away from trailers and tractors when they move. Stand where the driver can see you.</li><li>Keep hands away from moving conveyors. Know where the stop button is.</li><li>Keep walkways clear so nobody trips.</li><li>Report any injury, even a small one.</li></ul><h4>Key points</h4><ul><li>Check the scale before the first load.</li><li>Weigh and record every load: field, time, mass and team.</li><li>Do not let leaf heat up in bags or in the sun; move it gently and quickly.</li><li>Check leaf quality and report poor or wet leaf.</li><li>Keep the area clean and work safely around trailers and conveyors.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is good green leaf usually made of?",
+   "options": [
+    {
+     "text": "Old hard leaves and stalks",
+     "correct": false
+    },
+    {
+     "text": "Two leaves and a bud",
+     "correct": true
+    },
+    {
+     "text": "Only stalks",
+     "correct": false
+    },
+    {
+     "text": "Brown crushed leaves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you check before weighing the first load?",
+   "options": [
+    {
+     "text": "The colour of the bags",
+     "correct": false
+    },
+    {
+     "text": "The weather report",
+     "correct": false
+    },
+    {
+     "text": "The price of tea",
+     "correct": false
+    },
+    {
+     "text": "That the scale reads correctly with the test weight",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should leaf not stay packed tightly in bags?",
+   "options": [
+    {
+     "text": "It heats up and spoils",
+     "correct": true
+    },
+    {
+     "text": "It gets lighter",
+     "correct": false
+    },
+    {
+     "text": "It becomes greener",
+     "correct": false
+    },
+    {
+     "text": "It dries too fast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you make a mistake in the intake book?",
+   "options": [
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Use correction fluid and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Draw one line through it, write the right number and sign",
+     "correct": true
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with wet leaf?",
+   "options": [
+    {
+     "text": "Hide it under dry leaf",
+     "correct": false
+    },
+    {
+     "text": "Tell the supervisor and record it as wet leaf",
+     "correct": true
+    },
+    {
+     "text": "Throw it away",
+     "correct": false
+    },
+    {
+     "text": "Press it down in the trough",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stones, plastic and metal must be kept out of the green leaf.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to stand behind a reversing trailer if you are in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must be recorded for each delivery? (select all that apply)",
+   "options": [
+    {
+     "text": "Field or block number",
+     "correct": true
+    },
+    {
+     "text": "Mass",
+     "correct": true
+    },
+    {
+     "text": "Time",
+     "correct": true
+    },
+    {
+     "text": "Your favourite colour",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

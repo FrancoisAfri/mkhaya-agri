@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-10",
+ "title": "Installing Tractor Drivetrain System Components and Parts",
+ "lessons": [
+  {
+   "title": "Preparing to install drivetrain parts safely",
+   "minutes": 15,
+   "html": "<h3>What this work experience covers</h3> <p>In this module you work under a qualified tractor mechanic in a workshop or on the farm, installing drivetrain parts: clutch, gearbox and range box parts, PTO (power take-off) parts, differential, final drives, front axle drive on 4WD tractors, drive shafts and universal joints. The job is not finished when the part is in. It is finished when the tractor works, nothing leaks and the job card is complete.</p> <h4>Start with the job card and the manual</h4> <ul> <li>Read the work order. Confirm the tractor model, serial number and the fault or service reported.</li> <li>Get the manufacturer's service manual for that model. Torque values, shim settings, clearances and oil grades come from the manual, never from memory or guesswork.</li> <li>Check the new parts against the part numbers. A clutch plate for a 75 kW tractor may look like one for a 65 kW model but have a different spline count or diameter.</li> <li>Collect the special tools: clutch alignment tool, splitting stands, bearing pullers, torque wrench, dial gauge.</li> </ul> <h4>Make the tractor safe</h4> <ul> <li>Park on level concrete, engine off, key removed and kept by you. Hang a \"Do not operate\" tag on the steering wheel.</li> <li>Disconnect the battery negative terminal before work near starter or wiring.</li> <li>Chock the wheels in front and behind. Lower all implements to the ground.</li> <li>When splitting a tractor between engine and gearbox, support <strong>both</strong> halves on rated splitting stands or a splitting trolley. Never rely on a hydraulic jack alone, and never put any part of your body under a load held only by a jack.</li> <li>Drain oil into a clean container and keep it for proper disposal. Clean up spills at once so nobody slips.</li> </ul> <h4>Personal protective equipment</h4> <p>Wear safety boots, overalls, safety glasses and gloves. Heavy parts such as a gearbox housing or final drive need a hoist or crane and a second person. Know the safe lifting limit of the workshop crane and check slings before use.</p> <p>A good mechanic also keeps the area clean. Dirt that falls into an open gearbox can destroy new bearings within hours, so cover openings with clean cloth or plastic while you work.</p>"
+  },
+  {
+   "title": "Fitting clutch, gearbox, PTO and final drive parts",
+   "minutes": 20,
+   "html": "<h3>Working cleanly and in the right order</h3> <p>Lay parts out on a clean bench in the order they came off, or in the order the manual shows. Take photos on your phone during stripping; they help you put things back correctly.</p> <h4>Clutch and flywheel</h4> <ul> <li>Check the flywheel face for heat cracks and scoring. Report damage to your supervisor; it may need skimming or replacing.</li> <li>Replace the spigot (pilot) bearing and release bearing when fitting a new clutch, unless the supervisor says otherwise.</li> <li>Fit the clutch plate the right way round (the manual or marking shows \"flywheel side\"). Centre it with an alignment tool.</li> <li>Tighten pressure plate bolts evenly in a cross pattern to the specified torque.</li> <li>On dual clutches (drive and PTO), set the finger heights exactly as the manual describes.</li> </ul> <h4>Gearbox, PTO and differential parts</h4> <ul> <li>Fit new seals and O-rings; never reuse old ones. Lightly oil seal lips before fitting and drive seals in square with the correct drift.</li> <li>Press bearings on by the race that carries the load. Pressing through the balls or rollers damages the bearing.</li> <li>Check gear end float and backlash with a dial gauge and set shims to the manual figure.</li> <li>Use only the gasket or sealant type the manual names.</li> </ul> <h4>Final drives, front axle and drive shafts</h4> <ul> <li>Clean splines and check for wear before sliding shafts together.</li> <li>Fit universal joints with yokes in phase (lined up) as the manual shows, or the shaft will vibrate.</li> <li>Grease new UJs and fit all circlips and locking devices. A missing circlip can let a shaft come loose at speed.</li> </ul> <h4>Rejoining a split tractor</h4> <p>Line up the halves slowly on stands, turning the input shaft slightly so the splines enter the clutch. Never force the halves together with the bolts; this can crack the housing or bend the clutch plate. Tighten the split bolts to torque in the stated sequence.</p>"
+  },
+  {
+   "title": "Testing, checking and handing over",
+   "minutes": 15,
+   "html": "<h3>Before the first start</h3> <ul> <li>Fill the transmission with the oil grade and quantity in the manual, then check the level on the dipstick or level plug.</li> <li>Reconnect linkages: clutch pedal, gear levers, PTO lever, diff lock. Adjust clutch pedal free play to the manual figure.</li> <li>Count your tools. A spanner left inside a housing is a serious failure.</li> <li>Reconnect the battery and remove the lock-out tag only when everyone is clear.</li> </ul> <h3>Testing</h3> <ol> <li>Start the engine in neutral with the PTO off.</li> <li>Check that the clutch disengages fully: gears should select without grinding.</li> <li>Drive slowly in the yard, forward and reverse, in different ranges. Listen for whining, knocking or clunking.</li> <li>Test the PTO at low speed with no implement attached, and with all people well clear of the shaft.</li> <li>Test the diff lock and 4WD engagement.</li> <li>Stop, let the oil settle, and check the level again. Look for leaks at seals, gaskets and drain plugs.</li> </ol> <h3>Recording and handover</h3> <p>Complete the job card: parts fitted with part numbers, oil used, torque and shim settings recorded, hours on the tractor, test results and your signature. Your supervisor checks and signs off. Tell the tractor driver about anything they must watch, for example \"check the gearbox oil level after the first day of work\".</p> <p>Return unused parts to the store with the paperwork. Old oil goes into the used-oil drum for a registered collector, not onto the ground.</p> <h4>Key points</h4> <ul> <li>Torque, shim and oil specifications always come from the service manual.</li> <li>Support both halves of a split tractor on rated stands; never work under a jack alone.</li> <li>Fit new seals and press bearings only through the loaded race.</li> <li>Test in the yard, recheck oil and leaks, then complete and sign the job card.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where must torque values and shim settings for a drivetrain job come from?",
+   "options": [
+    {
+     "text": "The parts supplier's invoice",
+     "correct": false
+    },
+    {
+     "text": "The manufacturer's service manual for that model",
+     "correct": true
+    },
+    {
+     "text": "The tractor driver's experience",
+     "correct": false
+    },
+    {
+     "text": "A similar tractor's figures",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must hold up both halves of a tractor when it is split?",
+   "options": [
+    {
+     "text": "A single hydraulic jack",
+     "correct": false
+    },
+    {
+     "text": "Rated splitting stands or a splitting trolley",
+     "correct": true
+    },
+    {
+     "text": "The front-end loader",
+     "correct": false
+    },
+    {
+     "text": "Wooden blocks under the engine only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a new bearing be pressed onto a shaft?",
+   "options": [
+    {
+     "text": "Through the race that carries the load",
+     "correct": true
+    },
+    {
+     "text": "By hammering the outer race directly",
+     "correct": false
+    },
+    {
+     "text": "Any way, as long as it goes on quickly",
+     "correct": false
+    },
+    {
+     "text": "Through the balls or rollers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are universal joint yokes fitted in phase?",
+   "options": [
+    {
+     "text": "To make the shaft lighter",
+     "correct": false
+    },
+    {
+     "text": "To increase engine power",
+     "correct": false
+    },
+    {
+     "text": "So that no grease is needed",
+     "correct": false
+    },
+    {
+     "text": "To stop the shaft vibrating",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after the first yard test drive?",
+   "options": [
+    {
+     "text": "Remove the clutch for inspection",
+     "correct": false
+    },
+    {
+     "text": "Drain all the new oil",
+     "correct": false
+    },
+    {
+     "text": "Let the oil settle, recheck the level and look for leaks",
+     "correct": true
+    },
+    {
+     "text": "Hand over without further checks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to pull the two halves of a split tractor together by tightening the split bolts.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Old seals and O-rings should be replaced with new ones when drivetrain parts are installed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps make the tractor safe before drivetrain work? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep the implement raised on the linkage",
+     "correct": false
+    },
+    {
+     "text": "Remove the key and tag the steering wheel",
+     "correct": true
+    },
+    {
+     "text": "Disconnect the battery negative terminal",
+     "correct": true
+    },
+    {
+     "text": "Chock the wheels",
+     "correct": true
+    },
+    {
+     "text": "Leave the engine idling so it stays warm",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

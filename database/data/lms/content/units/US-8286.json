@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8286",
+ "title": "Co-ordinating promotional activities",
+ "lessons": [
+  {
+   "title": "Coordinating promotional activities",
+   "minutes": 20,
+   "html": "<h3>The coordinator's role</h3><p>A promotional coordinator plans and synchronises promotional activities across a store, department or group of branches, so that they support the marketing plan rather than competing with each other. In an agri business this might include a calendar of seasonal specials, supplier-funded promotions, farmers' days, agricultural show stands, radio campaigns and in-store demonstrations.</p><h4>Building the promotional calendar</h4><p>Start from the farming year and the marketing plan. For each period, decide the theme, the products, the mechanism and the channels.</p><table><tr><th>Period</th><th>Theme</th><th>Example activities</th></tr><tr><td>Late winter</td><td>Planting preparation</td><td>Early-order fertiliser and seed deals, planter maintenance day</td></tr><tr><td>Early summer</td><td>Crop protection and animal health</td><td>Tick and fly control campaign, sprayer calibration clinic</td></tr><tr><td>Autumn</td><td>Harvest and storage</td><td>Grain bags, storage hygiene, scale servicing</td></tr><tr><td>Winter</td><td>Livestock nutrition</td><td>Lick and feed promotion, nutrition talk by feed company</td></tr></table><h4>Coordinating stakeholders</h4><ul><li><strong>Suppliers:</strong> agree funding, stock, materials, presenters and claim procedures in writing.</li><li><strong>Buyers:</strong> confirm stock levels and delivery timing.</li><li><strong>Branch managers and staff:</strong> communicate plans early; allocate responsibilities.</li><li><strong>Finance:</strong> budgets, pricing loads, supplier claims.</li><li><strong>External partners:</strong> show organisers, radio stations, printers, venues.</li></ul><h4>Avoiding conflicts</h4><p>Check that promotions do not overlap in ways that confuse customers or cannibalise margin, for example two competing lick brands discounted in the same week, or a branch-level special undercutting a group campaign.</p>"
+  },
+  {
+   "title": "Managing resources and execution",
+   "minutes": 20,
+   "html": "<h3>Resources</h3><ul><li><strong>Budget:</strong> track committed and actual spend per activity. Include advertising, printing, display materials, venue, catering, staff overtime, prizes and transport.</li><li><strong>People:</strong> schedule staff for events and peak sales periods; brief and train them.</li><li><strong>Materials:</strong> posters, shelf talkers, banners, flyers, branded gazebos; manage stock of materials and their return after events.</li><li><strong>Stock:</strong> ensure promoted lines are allocated to branches according to expected demand.</li></ul><h4>Communication pack</h4><p>For each promotion, send branches a pack in good time: objective, dates, products and codes, prices, mechanism and rules, display guide, staff talking points and FAQs, and contact person.</p><h4>Event coordination</h4><p>For a farmers' day or show stand:</p><ol><li>Book the venue or stand and confirm requirements: power, water, shade, parking for bakkies and trailers.</li><li>Arrange presenters and topics that farmers value.</li><li>Plan logistics: transport of equipment and stock, set-up and strike times.</li><li>Plan safety: an emergency plan, first aid kit and first aider, fire extinguishers, barriers around equipment demonstrations, and no handling of hazardous chemicals by the public.</li><li>Arrange registration to capture attendance, with consent for future contact under POPIA.</li></ol><h4>Monitoring execution</h4><p>Check that branches implement promotions correctly: signage up on time, correct prices at the till, displays built to guide. Use photographs, store visits and reports. Correct problems quickly and share good practice between branches.</p><h4>Legal compliance</h4><p>Promotional competitions, advertising claims and pricing must comply with the Consumer Protection Act 68 of 2008. Product claims for agricultural remedies must stay within the registered label.</p>"
+  },
+  {
+   "title": "Evaluating the promotional programme",
+   "minutes": 15,
+   "html": "<h3>Measuring each activity</h3><p>For each activity, compare results with its objective: sales uplift against a baseline, GP achieved, cost, return on investment, number of attendees, leads generated and new accounts opened.</p><p>Return on investment (ROI) = (incremental gross profit − promotion cost) / promotion cost × 100. Example: incremental GP R60,000 and cost R20,000 gives ROI = 40,000 / 20,000 × 100 = 200%.</p><h4>Evaluating the programme as a whole</h4><ul><li>Did the calendar support the marketing plan's objectives?</li><li>Which mechanisms and channels worked best for which segments?</li><li>Were there clashes, gaps or periods of overload for staff?</li><li>Were supplier claims submitted and recovered in full?</li><li>Was the budget managed within limits?</li></ul><h4>Feedback</h4><p>Gather feedback from branch staff, customers and suppliers. Staff often know which promotions confused customers or created extra work for little return.</p><h4>Reporting and planning ahead</h4><p>Produce a concise report with results, insights and recommendations, and use it to build next year's calendar. Keep an archive of materials, results and supplier agreements.</p><h4>Key points</h4><ul><li>Build a promotional calendar from the farming year and the marketing plan.</li><li>Coordinate suppliers, buyers, branches and finance, with agreements in writing.</li><li>Send branches a complete communication pack in good time.</li><li>Plan safety and POPIA consent for events.</li><li>Evaluate ROI and lessons learned for the next cycle.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should the promotional calendar be built from?",
+   "options": [
+    {
+     "text": "Competitor holidays",
+     "correct": false
+    },
+    {
+     "text": "Staff birthdays",
+     "correct": false
+    },
+    {
+     "text": "The farming year and the marketing plan",
+     "correct": true
+    },
+    {
+     "text": "Random dates",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Incremental GP is R60,000 and promotion cost R20,000. What is the ROI?",
+   "options": [
+    {
+     "text": "200%",
+     "correct": true
+    },
+    {
+     "text": "300%",
+     "correct": false
+    },
+    {
+     "text": "50%",
+     "correct": false
+    },
+    {
+     "text": "100%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why check for overlapping promotions?",
+   "options": [
+    {
+     "text": "To double the budget",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    },
+    {
+     "text": "To avoid confusing customers and cannibalising margin",
+     "correct": true
+    },
+    {
+     "text": "To reduce stock",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should agreements with suppliers on promotional funding be?",
+   "options": [
+    {
+     "text": "Secret",
+     "correct": false
+    },
+    {
+     "text": "In writing",
+     "correct": true
+    },
+    {
+     "text": "Optional",
+     "correct": false
+    },
+    {
+     "text": "Verbal only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a key safety measure at an equipment demonstration?",
+   "options": [
+    {
+     "text": "Letting the public operate equipment",
+     "correct": false
+    },
+    {
+     "text": "Barriers around equipment demonstrations",
+     "correct": true
+    },
+    {
+     "text": "Removing the first aid kit",
+     "correct": false
+    },
+    {
+     "text": "No emergency plan",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Event registration that captures contact details should include consent for future contact.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Branch implementation of promotions does not need monitoring once the pack is sent.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What belongs in a promotion communication pack for branches? (select all that apply)",
+   "options": [
+    {
+     "text": "Products, codes and prices",
+     "correct": true
+    },
+    {
+     "text": "Mechanism and rules",
+     "correct": true
+    },
+    {
+     "text": "Staff talking points and FAQs",
+     "correct": true
+    },
+    {
+     "text": "Competitors' staff rosters",
+     "correct": false
+    },
+    {
+     "text": "Personal bank details of customers",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244035",
+ "title": "Apply race day routines",
+ "lessons": [
+  {
+   "title": "Preparing a racehorse for race day",
+   "minutes": 15,
+   "html": "<h3>Race day is different</h3> <p>On race day everything must happen on time. A racehorse must arrive at the course fit, calm and clean, with the right tack. The groom's work helps the horse run its best. Mistakes, such as feeding the horse at the wrong time or forgetting a piece of tack, can spoil the race or harm the horse.</p> <h4>The day before</h4> <ul> <li>Check the race card or the trainer's list: which horses run, in which race, and at what time.</li> <li>Clean all tack and check stitching, buckles and girths.</li> <li>Pack the race day kit (see list below).</li> <li>Check the horse's legs and feet. Report any heat, swelling or a loose shoe to the trainer at once.</li> </ul> <h4>Feeding and water</h4> <p>Racehorses usually get a smaller feed on race morning and no hay or feed for some hours before the race. The exact times are set by the trainer. Follow the trainer's instructions exactly. Write down when the horse last ate and drank, and tell the trainer if the horse did not eat.</p> <h4>Race day kit</h4> <ul> <li>Headcollar and lead rope, spare lead rope</li> <li>Race bridle and any special gear the trainer lists (for example blinkers)</li> <li>Grooming kit, sponge, sweat scraper, towels</li> <li>Water bucket and clean water</li> <li>Cooler or sweat sheet and travel boots</li> <li>Hoof pick</li> <li>The horse's passport or identity documents if the trainer asks you to carry them</li> </ul> <h4>Before leaving the yard</h4> <ol> <li>Groom the horse well. Pick out the hooves.</li> <li>Put on travel boots or bandages and a sheet.</li> <li>Load the horse calmly onto the horse box.</li> <li>Check that everything on the kit list is in the truck.</li> </ol> <p>Leave on time. Arriving late puts pressure on everyone and can upset the horse.</p>"
+  },
+  {
+   "title": "At the racecourse and after the race",
+   "minutes": 15,
+   "html": "<h3>Arriving at the course</h3> <ol> <li>Unload the horse calmly and walk it to its allocated stable.</li> <li>Check the horse: is it sweating, shaking or hurt from the trip? Tell the trainer.</li> <li>Offer water if the trainer allows.</li> <li>Remove travel boots and let the horse settle.</li> <li>Have your groom's identity card with you; racecourse security will check it.</li> </ol> <h4>Getting ready for the race</h4> <ul> <li>Follow the race times closely. Know when your horse must be saddled and in the parade ring.</li> <li>Groom the horse until it shines. Wipe eyes and nostrils with a damp sponge.</li> <li>Help the trainer saddle the horse. Check that the bridle fits and the noseband and throat lash are done up.</li> <li>Lead the horse in the parade ring on the correct side, usually the left (near) side. Keep a steady walk and a safe distance from other horses.</li> <li>Hand over to the jockey as the trainer instructs, and leg the jockey up if asked.</li> </ul> <h4>Safety</h4> <p>Racehorses on race day are excited and strong. Always wear your boots and keep hold of the lead rope. Never wrap the rope around your hand. Stay alert near other horses, crowds and loud noise.</p> <h4>After the race</h4> <ol> <li>Meet the horse when it comes off the track. Take hold of the bridle and walk the horse.</li> <li>Remove the saddle when allowed. Sponge the horse down with cool water and scrape off the water.</li> <li>Walk the horse until its breathing is normal and it stops blowing.</li> <li>Give small amounts of water as the trainer says.</li> <li>Check the legs and feet for cuts, heat or lost shoes. Report anything to the trainer.</li> <li>If the horse is called for a dope test, go with it to the testing stable and follow the officials' instructions.</li> </ol> <h4>Back home</h4> <p>Unload, put on a clean stable rug if needed, feed as the trainer says, and check the horse again later in the evening. Clean and pack away all tack.</p> <h4>Key points</h4> <ul> <li>Check race times, tack and the horse's legs the day before.</li> <li>Follow the trainer's feeding instructions exactly.</li> <li>Pack and check the full race day kit before leaving.</li> <li>Lead calmly and safely; never wrap the lead rope around your hand.</li> <li>After the race, cool the horse, walk it, check legs and report problems.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who sets the feeding times for a racehorse on race day?",
+   "options": [
+    {
+     "text": "The groom chooses",
+     "correct": false
+    },
+    {
+     "text": "The trainer",
+     "correct": true
+    },
+    {
+     "text": "The jockey",
+     "correct": false
+    },
+    {
+     "text": "The security guard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The day before the race you find heat in a leg. What should you do?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Tell the trainer at once",
+     "correct": true
+    },
+    {
+     "text": "Bandage it and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Give the horse extra feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On which side do you usually lead a horse?",
+   "options": [
+    {
+     "text": "Right side",
+     "correct": false
+    },
+    {
+     "text": "Left (near) side",
+     "correct": true
+    },
+    {
+     "text": "Behind the horse",
+     "correct": false
+    },
+    {
+     "text": "In front of the horse",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do right after the race?",
+   "options": [
+    {
+     "text": "Put the horse straight in the truck",
+     "correct": false
+    },
+    {
+     "text": "Sponge and walk the horse until breathing is normal",
+     "correct": true
+    },
+    {
+     "text": "Give a big bucket of feed",
+     "correct": false
+    },
+    {
+     "text": "Leave the horse with the saddle on",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you always carry at the racecourse?",
+   "options": [
+    {
+     "text": "Your groom's identity card",
+     "correct": true
+    },
+    {
+     "text": "A cellphone charger only",
+     "correct": false
+    },
+    {
+     "text": "Lunch for the jockey",
+     "correct": false
+    },
+    {
+     "text": "A spade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should wrap the lead rope around your hand for a better grip.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A horse may be called for a dope test after the race.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items belong in a race day kit? (select all that apply)",
+   "options": [
+    {
+     "text": "Headcollar and lead rope",
+     "correct": true
+    },
+    {
+     "text": "Sponge and sweat scraper",
+     "correct": true
+    },
+    {
+     "text": "Cooler or sweat sheet",
+     "correct": true
+    },
+    {
+     "text": "A fire beater",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

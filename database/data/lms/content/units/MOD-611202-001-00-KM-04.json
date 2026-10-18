@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-611202-001-00-KM-04",
+  "title": "Harvesting",
+  "lessons": [
+    {
+      "title": "Knowing when to harvest",
+      "minutes": 20,
+      "html": "<h3>Knowing when to harvest</h3><p>Harvest is the moment a year's work becomes income. Fruit picked too early or too late loses value, and fruit damaged during picking may be rejected at the packhouse or cellar.</p><h4>Maturity indices</h4><p>Maturity is measured, not guessed. Common measurements include:</p><ul><li><strong>Sugar (total soluble solids)</strong> measured with a refractometer as degrees Brix - important for grapes and many fruits.</li><li><strong>Firmness</strong> measured with a penetrometer - apples, pears and stone fruit.</li><li><strong>Starch</strong> conversion - apples, using an iodine stain on a cut fruit.</li><li><strong>Acidity</strong> - grapes and citrus.</li><li><strong>Colour</strong> - background and blush colour against colour charts.</li><li><strong>Size</strong> - against market specifications.</li></ul><p>The farm's technical adviser, the packhouse or the cellar sets the targets for each cultivar and market. Export markets have their own minimum standards.</p><h4>Sampling</h4><p>Take samples that represent the whole block: fruit from different trees and rows, from inside and outside the canopy, from different heights. A sample picked only from the sunny outside of the trees gives a misleading result. Record date, block, cultivar and results.</p><h4>Planning the harvest</h4><p>Once maturity is near, plan with the manager: which blocks will be picked on which days, how many pickers, bins, ladders, picking bags, tractors and trailers, and transport to the packhouse or cellar. Some cultivars are picked in several rounds (strip picking versus selective picking by colour or size). Check that withholding periods for all sprays applied before harvest have passed - the spray records must show this before any fruit is picked.</p><p>Keep the maturity results for each block from year to year. Over time they show how each cultivar ripens on your farm and help you plan the harvest earlier and more accurately.</p>"
+    },
+    {
+      "title": "Picking and handling fruit",
+      "minutes": 20,
+      "html": "<h3>Picking and handling fruit</h3><h4>Picking technique</h4><p>Fruit is living and bruises easily. Bruises and punctures may not show at once but appear later in the cold store or on the shelf.</p><ul><li>Pick by lifting and twisting so the stalk breaks at the natural point, or cut with clippers as the cultivar requires (for example, grapes and citrus).</li><li>Do not pull fruit downward; it damages the spur and next year's crop.</li><li>Keep nails short; workers may wear gloves where required.</li><li>Place fruit into the picking bag; do not throw or drop it.</li><li>Empty bags gently into bins by lowering the bag to the bottom of the bin.</li><li>Do not overfill bins, and keep them level.</li></ul><h4>Quality at the tree</h4><p>Pickers should leave or separate fruit that is undersized, damaged, diseased, sunburnt or bird-pecked, according to the instructions for the block. Teach pickers what each defect looks like. Check sample bags and bins and give feedback immediately.</p><h4>Keeping fruit cool</h4><p>Fruit keeps respiring after picking and heat speeds this up. Place full bins in shade, never leave them in the sun, and get them to the packhouse or cool store quickly. For wine grapes, picking in the cool early morning is common.</p><h4>Hygiene and food safety</h4><p>Fresh fruit is eaten raw, so contamination must be prevented. Pickers must wash their hands after using the toilet, use the field toilets provided, and not eat, smoke or spit in the rows. Bins must be clean, and bins must not be placed directly on soil where this is not allowed by the food safety standard the farm follows. Report and keep separate any fruit that has touched the ground, animal droppings or chemicals.</p><h4>Ladder safety</h4><p>Set ladders on firm ground, never stand on the top step, and move the ladder rather than overreaching.</p>"
+    },
+    {
+      "title": "Managing the harvest team and records",
+      "minutes": 20,
+      "html": "<h3>Managing the harvest team and records</h3><h4>Organising pickers</h4><p>Divide pickers into teams with a team leader. Allocate rows so each team works systematically without skipping trees. Explain the day's standards at the start: which fruit to pick, which to leave, how to handle bags and bins. Many farms pay piece rates or production incentives; make sure counting is accurate and transparent, as disputes damage morale.</p><h4>Traceability</h4><p>Every bin must be traceable to its block, cultivar, picking date and often the picking team. Use bin tickets, barcodes or the farm's system. Traceability lets the packhouse and buyer trace any quality or residue problem back to its source, which is a requirement of export food safety standards.</p><h4>Daily harvest records</h4><table><tr><th>Record</th><th>Purpose</th></tr><tr><td>Bins picked per block and team</td><td>Yield and pay</td></tr><tr><td>Maturity results</td><td>Timing decisions</td></tr><tr><td>Quality checks and rejections</td><td>Feedback and training</td></tr><tr><td>Bins dispatched and time</td><td>Cold chain and reconciliation</td></tr><tr><td>Hours and attendance</td><td>Labour cost</td></tr></table><h4>Reconciliation</h4><p>At the end of each day, reconcile bins picked in the field with bins received at the packhouse or cellar. Investigate differences immediately.</p><h4>Safety and welfare</h4><p>Harvest is intensive. Provide clean drinking water, shade, toilets and handwashing facilities in the field. Schedule breaks, watch for heat stress and make sure tractor drivers are trained and move slowly between pickers. Under the OHS Act 85 of 1993, injuries must be reported.</p><h4>After harvest</h4><p>Clean and store bags, ladders and bins. Review yield and quality per block with the manager and record lessons for next season.</p><h4>Key points</h4><ul><li>Measure maturity with representative samples; do not guess.</li><li>Confirm all spray withholding periods have passed before picking.</li><li>Handle fruit gently and keep bins in the shade.</li><li>Pickers must follow hygiene rules to keep fruit safe.</li><li>Every bin must be traceable to block, cultivar and date.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which instrument measures sugar content as degrees Brix?",
+      "options": [
+        {
+          "text": "Penetrometer",
+          "correct": false
+        },
+        {
+          "text": "Refractometer",
+          "correct": true
+        },
+        {
+          "text": "Rain gauge",
+          "correct": false
+        },
+        {
+          "text": "Thermometer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should maturity samples come from inside and outside the canopy and different trees?",
+      "options": [
+        {
+          "text": "So the sample represents the whole block",
+          "correct": true
+        },
+        {
+          "text": "To speed up picking",
+          "correct": false
+        },
+        {
+          "text": "To reduce bin numbers",
+          "correct": false
+        },
+        {
+          "text": "Because inside fruit is always ripe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What must the spray records show before picking begins?",
+      "options": [
+        {
+          "text": "The weather forecast",
+          "correct": false
+        },
+        {
+          "text": "The pickers' names",
+          "correct": false
+        },
+        {
+          "text": "The fruit price",
+          "correct": false
+        },
+        {
+          "text": "That all withholding periods have passed",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should full bins be kept in the shade?",
+      "options": [
+        {
+          "text": "Heat speeds up respiration and shortens fruit life",
+          "correct": true
+        },
+        {
+          "text": "Shade makes fruit heavier",
+          "correct": false
+        },
+        {
+          "text": "To hide them from the manager",
+          "correct": false
+        },
+        {
+          "text": "Bins melt in the sun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why must every bin be traceable to block, cultivar and date?",
+      "options": [
+        {
+          "text": "To decorate the bin",
+          "correct": false
+        },
+        {
+          "text": "So problems can be traced back to their source",
+          "correct": true
+        },
+        {
+          "text": "To count ladders",
+          "correct": false
+        },
+        {
+          "text": "It is optional for export",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Pulling fruit downward is the correct way to pick apples.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Field bins picked and bins received at the packhouse should be reconciled daily.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which hygiene rules apply to pickers? (select all that apply)",
+      "options": [
+        {
+          "text": "Wash hands after using the toilet",
+          "correct": true
+        },
+        {
+          "text": "No eating or smoking in the rows",
+          "correct": true
+        },
+        {
+          "text": "Keep fruit that touched droppings separate",
+          "correct": true
+        },
+        {
+          "text": "Spit in the row if needed",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

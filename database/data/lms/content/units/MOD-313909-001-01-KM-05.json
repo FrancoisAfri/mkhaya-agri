@@ -1,0 +1,182 @@
+{
+ "unit_key": "MOD-313909-001-01-KM-05",
+ "title": "Mixed Feed Processing",
+ "lessons": [
+  {
+   "title": "Conditioning and pelleting",
+   "minutes": 20,
+   "html": "<h3>Conditioning and pelleting</h3><p>Many feeds are processed after mixing. Pelleting compresses mash into firm pellets. Pellets reduce waste and dust, stop animals picking out ingredients, increase bulk density for transport and, for poultry, usually improve feed intake and growth.</p><h4>The pelleting line</h4><ol><li><strong>Pellet bin</strong> holds mash above the line.</li><li><strong>Feeder screw</strong> meters mash at a controlled rate.</li><li><strong>Conditioner</strong>: mash is mixed with dry, saturated steam. Steam adds heat and moisture, softens particles, partly gelatinises starch and activates binding. It also reduces bacteria such as Salmonella when temperature and retention time are adequate.</li><li><strong>Pellet mill</strong>: rollers press conditioned mash through holes in a ring die.</li><li><strong>Knives</strong> cut pellets to length.</li><li><strong>Cooler</strong>: counter-flow air cools and dries pellets.</li><li><strong>Crumbler</strong> (optional): rolls break pellets into crumbles for chicks.</li><li><strong>Screener</strong>: removes fines, which return to the pellet bin.</li></ol><h4>Factors that affect pellet quality</h4><table><tr><th>Factor</th><th>Effect</th></tr><tr><td>Formulation</td><td>Fat, fibre and starch levels change binding</td></tr><tr><td>Particle size</td><td>Finer grind usually gives better pellets</td></tr><tr><td>Conditioning</td><td>Correct temperature, moisture and retention time are key</td></tr><tr><td>Die specification</td><td>Hole size and thickness (compression ratio)</td></tr><tr><td>Cooling</td><td>Poor cooling gives soft, warm pellets that can grow mould</td></tr></table><p>Pellet durability is tested with a durability tester (for example a tumbling box), giving a pellet durability index. Targets are set by the mill per product.</p><h4>Heat-sensitive ingredients</h4><p>Some vitamins, enzymes and probiotics are damaged by high conditioning temperatures. They may be protected forms or sprayed on after pelleting (post-pellet liquid application).</p><p>Throughput and quality must be balanced. Running the pellet mill at maximum feed rate may increase tonnes per hour but reduce conditioning time and pellet durability. The mill sets targets for both.</p>"
+  },
+  {
+   "title": "Extrusion, other processes and process safety",
+   "minutes": 20,
+   "html": "<h3>Extrusion, other processes and process safety</h3><h4>Extrusion and expansion</h4><p>Extruders cook feed under high temperature, pressure and shear in a barrel with screws, then force it through a die where it expands. Extrusion is used for pet food, fish and aqua feeds (floating or sinking pellets) and some young animal feeds. Expanders give a short, intense treatment before pelleting. These processes need more energy and tighter control than standard pelleting.</p><h4>Other processes</h4><ul><li><strong>Steam flaking</strong> of maize for feedlot and dairy rations.</li><li><strong>Liquid coating</strong> with fat or enzymes after pelleting.</li><li><strong>Blocks and licks</strong>: molasses or mineral blocks pressed or poured, used widely on South African veld for cattle and sheep.</li><li><strong>Bagging</strong> and bulk loading of finished feed.</li></ul><h4>Process monitoring</h4><ul><li>Record conditioner temperature, steam pressure, motor load (amps), throughput and cooler outlet temperature at set intervals.</li><li>Check pellet length, hardness and fines visually and by test.</li><li>Pellets leaving the cooler should be close to ambient temperature and at the target moisture; warm, moist pellets can sweat and mould in bins.</li></ul><h4>Common problems</h4><ul><li><strong>Die choke</strong>: wet mash, too much feed rate or a cold start. Follow the SOP to clear it with the mill isolated.</li><li><strong>High fines</strong>: poor conditioning, worn die or rollers, wrong grind.</li><li><strong>Burnt pellets</strong>: excessive temperature or friction.</li></ul><h4>Safety</h4><ul><li>Steam lines and conditioners are very hot; wear gloves and keep insulation in place.</li><li>Never open a pellet mill door or reach near the die while it can turn. Lock out first.</li><li>Pellet coolers and extruders can catch fire; know the fire procedure and keep extinguishers ready.</li><li>Dust from coolers and crumbler must be controlled to prevent explosions.</li></ul><h4>Key points</h4><ul><li>Pelleting reduces waste and dust and improves intake for many species.</li><li>Conditioning with steam is the key step for pellet quality and hygiene.</li><li>Cool and screen pellets properly to avoid mould and fines.</li><li>Extrusion cooks and expands feed for pets and fish.</li><li>Lock out pellet mills before any work near the die.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main role of the conditioner on a pelleting line?",
+   "options": [
+    {
+     "text": "Add steam heat and moisture to the mash",
+     "correct": true
+    },
+    {
+     "text": "Cut pellets to length",
+     "correct": false
+    },
+    {
+     "text": "Weigh ingredients",
+     "correct": false
+    },
+    {
+     "text": "Remove metal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must pellets be properly cooled?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "To change their colour",
+     "correct": false
+    },
+    {
+     "text": "Warm, moist pellets can sweat and mould in bins",
+     "correct": true
+    },
+    {
+     "text": "To increase fines",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which product is commonly made by extrusion?",
+   "options": [
+    {
+     "text": "Mash for layers",
+     "correct": false
+    },
+    {
+     "text": "Floating fish feed",
+     "correct": true
+    },
+    {
+     "text": "Bagged limestone",
+     "correct": false
+    },
+    {
+     "text": "Whole maize",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can heat-sensitive enzymes be protected?",
+   "options": [
+    {
+     "text": "Add them before grinding",
+     "correct": false
+    },
+    {
+     "text": "Pellet at the highest temperature",
+     "correct": false
+    },
+    {
+     "text": "Store them in the cooler",
+     "correct": false
+    },
+    {
+     "text": "Spray them on after pelleting",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a crumbler used for?",
+   "options": [
+    {
+     "text": "Breaking pellets into crumbles for chicks",
+     "correct": true
+    },
+    {
+     "text": "Grinding whole maize",
+     "correct": false
+    },
+    {
+     "text": "Mixing liquids",
+     "correct": false
+    },
+    {
+     "text": "Cooling steam",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to reach near a pellet die if the feeder is stopped but the mill is not locked out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pellet durability can be tested with a tumbling box tester.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which factors affect pellet quality? (select all that apply)",
+   "options": [
+    {
+     "text": "Formulation",
+     "correct": true
+    },
+    {
+     "text": "Particle size",
+     "correct": true
+    },
+    {
+     "text": "Conditioning",
+     "correct": true
+    },
+    {
+     "text": "Truck colour",
+     "correct": false
+    },
+    {
+     "text": "Weighbridge make",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

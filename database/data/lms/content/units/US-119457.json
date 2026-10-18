@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119457",
+ "title": "Interpret and use information from texts",
+ "lessons": [
+  {
+   "title": "Reading for meaning",
+   "minutes": 15,
+   "html": "<h3>Why reading skills matter at work</h3>\n<p>On a farm or in a hunting camp you read many kinds of text: permits, rifle manuals, chemical labels, client booking forms, safety notices, emails and WhatsApp messages from the manager. Reading well means understanding what the text says, why it was written and what you must do.</p>\n<h4>Before you read</h4>\n<ul><li>Look at the title, headings, pictures and tables to see what the text is about.</li>\n<li>Ask: who wrote it, and for whom? A label is written by the manufacturer for the user. A permit is written by the conservation authority for the landowner.</li>\n<li>Ask: what do I need from it? An instruction? A date? A price?</li></ul>\n<h4>While you read</h4>\n<ul><li><strong>Skim</strong> to get the main idea quickly.</li>\n<li><strong>Scan</strong> to find a specific fact, such as the expiry date on a hunting permit.</li>\n<li><strong>Read closely</strong> for instructions and safety information, word by word.</li>\n<li>Look for key words: <em>must, never, only, before, after, unless</em>. These change the meaning.</li>\n<li>Work out unknown words from the sentence around them, or look them up.</li></ul>\n<h4>Main idea and supporting details</h4>\n<p>Most paragraphs have one main idea, often in the first sentence. The other sentences give details or examples. Example: \"Bomas must be checked before every capture. Look for loose wire, gaps under the curtains and sharp objects.\" The main idea is that bomas must be checked; the rest are details of what to check.</p>\n<h4>Fact and opinion</h4>\n<p>A fact can be checked: \"The permit expires on 30 June.\" An opinion is someone's view: \"This is the best hunting area in Limpopo.\" Advertisements and social media often mix the two. Learn to separate them.</p>"
+  },
+  {
+   "title": "Using information from texts, tables and visuals",
+   "minutes": 15,
+   "html": "<h3>Following instructions</h3>\n<p>Instructions are usually in numbered steps. Read all the steps before you start, collect what you need, then follow them in order. If a step is unclear, ask before you act, especially with firearms, chemicals or animals.</p>\n<h4>Reading tables</h4>\n<p>Tables organise information in rows and columns. Read the headings first. Example:</p>\n<table><tr><th>Species</th><th>Season</th><th>Permit needed</th></tr>\n<tr><td>Impala</td><td>All year on registered property</td><td>Property permit</td></tr>\n<tr><td>Kudu</td><td>All year on registered property</td><td>Property permit</td></tr>\n<tr><td>Leopard</td><td>As per quota</td><td>CITES and TOPS permits</td></tr></table>\n<p>To find what permit is needed for leopard, go to the leopard row and read across to the \"Permit needed\" column. (This table is an example for reading practice only; always check the current permits for your province.)</p>\n<h4>Visual texts</h4>\n<p>Signs, maps, diagrams and graphs carry information without many words. Safety signs use colours and shapes: red circles for prohibitions, yellow triangles for warnings, blue circles for things you must do, green for safety and first aid. A farm map shows camps, gates, waterpoints and roads; use the legend (key) and the north arrow.</p>\n<h4>Using the information</h4>\n<ul><li>Summarise in your own words: write three or four short points.</li>\n<li>Pass the information on correctly, for example telling the tracker team about a change in hunting area.</li>\n<li>Fill in forms using the information: client details from a booking email onto the hunting register.</li>\n<li>Check that the source is reliable and current. An old price list or an expired permit can cause real problems.</li></ul>\n<h4>Key points</h4>\n<ul><li>Know the purpose and audience of every text you read.</li>\n<li>Skim for the main idea, scan for facts, read closely for instructions.</li>\n<li>Watch for key words like must, never and only.</li>\n<li>Read tables by headings, rows and columns; read signs by colour and shape.</li>\n<li>Separate fact from opinion and check that information is current.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which reading method do you use to find a specific fact such as an expiry date?",
+   "options": [
+    {
+     "text": "Reading backwards",
+     "correct": false
+    },
+    {
+     "text": "Scanning",
+     "correct": true
+    },
+    {
+     "text": "Skimming",
+     "correct": false
+    },
+    {
+     "text": "Guessing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a fact?",
+   "options": [
+    {
+     "text": "Our lodge has the friendliest staff",
+     "correct": false
+    },
+    {
+     "text": "This is the best hunting area in Limpopo",
+     "correct": false
+    },
+    {
+     "text": "The permit expires on 30 June",
+     "correct": true
+    },
+    {
+     "text": "Kudu are the most beautiful antelope",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is the main idea of a paragraph often found?",
+   "options": [
+    {
+     "text": "In the first sentence",
+     "correct": true
+    },
+    {
+     "text": "In the last word",
+     "correct": false
+    },
+    {
+     "text": "In the pictures only",
+     "correct": false
+    },
+    {
+     "text": "In the page number",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a red circle on a safety sign usually mean?",
+   "options": [
+    {
+     "text": "A prohibition",
+     "correct": true
+    },
+    {
+     "text": "First aid",
+     "correct": false
+    },
+    {
+     "text": "A warning",
+     "correct": false
+    },
+    {
+     "text": "Something you must do",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when a step in an instruction is unclear?",
+   "options": [
+    {
+     "text": "Do the next step first",
+     "correct": false
+    },
+    {
+     "text": "Ask before you act",
+     "correct": true
+    },
+    {
+     "text": "Skip it",
+     "correct": false
+    },
+    {
+     "text": "Guess and carry on",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Key words such as 'must', 'never' and 'unless' can change the meaning of an instruction.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An old price list is always good enough to give to a client.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions help you before reading a text? (select all that apply)",
+   "options": [
+    {
+     "text": "What colour is the paper?",
+     "correct": false
+    },
+    {
+     "text": "Who wrote it?",
+     "correct": true
+    },
+    {
+     "text": "What do I need from it?",
+     "correct": true
+    },
+    {
+     "text": "Who is it written for?",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

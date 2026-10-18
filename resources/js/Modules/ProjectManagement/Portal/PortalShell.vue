@@ -35,7 +35,7 @@ const page = usePage()
  * outside party ever sees.
  */
 const systemLogo = computed(() => (page.props as any).branding?.system_logo || '/images/logo_default.png')
-const systemName = computed(() => (page.props as any).branding?.system_name || 'MKHAYA HUB')
+const systemName = computed(() => (page.props as any).branding?.system_name || 'MKHAYA AGRI')
 
 function signOut() {
   // The route is named `auth.logout`, not `logout`. Ziggy throws on an unknown name, which is

@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335715",
+ "title": "Use a horse in a ceremonial proceeding",
+ "lessons": [
+  {
+   "title": "Preparing horse, rider and equipment for ceremony",
+   "minutes": 20,
+   "html": "<h3>Horses in ceremonies</h3>\n<p>Mounted units take part in parades, guards of honour, state occasions, funerals, commemorations, the opening of Parliament and civic events. In South Africa, the SAPS mounted units and military and ceremonial units, as well as private equestrian groups, may be asked to escort dignitaries or lead parades. The horse must be calm, obedient and turned out to the highest standard, because the unit represents the organisation in public.</p>\n<h3>Selecting suitable horses</h3>\n<ul>\n<li>Temperament: steady in crowds, noise, flags, music and traffic.</li>\n<li>Training: responds to aids, stands still for long periods, moves in formation.</li>\n<li>Soundness and fitness: able to walk on tar and stand for hours.</li>\n<li>Matching: units often match horses by colour and height for a uniform look.</li>\n</ul>\n<h3>Desensitisation training</h3>\n<p>Weeks before the event, expose horses gradually to the conditions they will meet: brass bands, drums, cheering crowds, flags, umbrellas, gun salutes, vehicles and confetti. Start at a distance, reward calm behaviour and reduce the distance step by step. Rehearse the route and formation if possible.</p>\n<h3>Turnout of the horse</h3>\n<ol>\n<li>Bath and groom thoroughly; trim fetlocks, ears and jaw where the unit's standard requires.</li>\n<li>Plait or hog the mane as the dress code says.</li>\n<li>Check and polish shoes; use road studs or rubber pads if the route is on smooth tar, according to the farrier's advice.</li>\n<li>Oil hooves for appearance.</li>\n</ol>\n<h3>Ceremonial tack and dress</h3>\n<ul>\n<li>Clean and polish leather; shine buckles, brass and steel.</li>\n<li>Fit ceremonial items such as breastplates, shabracks (saddle cloths), plumes or rosettes securely; nothing must rub or flap loosely.</li>\n<li>Check every buckle and stitch; a broken rein in a parade is dangerous.</li>\n<li>The rider's uniform, boots and helmet must meet the dress code and safety standards.</li>\n</ul>"
+  },
+  {
+   "title": "Performing in the proceeding",
+   "minutes": 20,
+   "html": "<h3>Before the event</h3>\n<ul>\n<li>Attend the briefing: route, timing, formation, commands, positions and contingency plans.</li>\n<li>Transport horses early, allowing time to settle, water and warm up.</li>\n<li>Carry a grooming kit, spare tack, water buckets, a first aid kit for horse and rider, and fly spray.</li>\n<li>Check weather; plan shade and water for hot days.</li>\n</ul>\n<h3>During the proceeding</h3>\n<ol>\n<li><strong>Formation riding:</strong> keep your position, distance and dressing (alignment) with the riders beside and in front. Watch the leader and respond to words of command or signals.</li>\n<li><strong>Standing still:</strong> keep the horse square and quiet with light contact. Shift weight subtly if the horse gets restless.</li>\n<li><strong>Salutes:</strong> follow the unit's drill for saluting during anthems, wreath laying or the passing of dignitaries.</li>\n<li><strong>Gait:</strong> mostly a steady, collected walk; trot only on command.</li>\n<li><strong>Composure:</strong> riders keep posture upright and still, eyes front.</li>\n</ol>\n<h3>Handling problems</h3>\n<ul>\n<li>If a horse becomes upset, the rider calmly circles or moves it to the rear if the drill allows; a handler on foot may lead it out.</li>\n<li>Never punish a frightened horse in public. Remove it from the stress.</li>\n<li>If a rider falls or a horse breaks loose, follow the emergency plan; nearby riders hold position to prevent a chain reaction.</li>\n<li>Keep crowds at a safe distance; marshals or officers on foot help.</li>\n</ul>\n<h3>After the event</h3>\n<ul>\n<li>Water, untack, wash off and check each horse for injuries or heat stress.</li>\n<li>Check legs and hooves after long periods on tar.</li>\n<li>Clean and store ceremonial tack.</li>\n<li>Debrief: what went well, what to improve, and record any incidents.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Select calm, well-trained, sound horses and match them for appearance.</li>\n<li>Desensitise gradually to bands, crowds, flags and noise.</li>\n<li>Turn out horse, tack and rider to the dress code and check every buckle.</li>\n<li>Keep position, dressing and stillness, and follow commands.</li>\n<li>Remove a frightened horse calmly; never punish it in public.</li>\n<li>Care for horses and tack, and debrief after the event.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which temperament is needed in a ceremonial horse?",
+   "options": [
+    {
+     "text": "Nervous and quick",
+     "correct": false
+    },
+    {
+     "text": "Steady in crowds and noise",
+     "correct": true
+    },
+    {
+     "text": "Aggressive towards other horses",
+     "correct": false
+    },
+    {
+     "text": "Lazy and unresponsive",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should horses be desensitised to brass bands?",
+   "options": [
+    {
+     "text": "Put them right next to the band on the day",
+     "correct": false
+    },
+    {
+     "text": "Never expose them before the event",
+     "correct": false
+    },
+    {
+     "text": "Punish them when they react",
+     "correct": false
+    },
+    {
+     "text": "Start at a distance and reduce it step by step, rewarding calm behaviour",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a shabrack?",
+   "options": [
+    {
+     "text": "A ceremonial saddle cloth",
+     "correct": true
+    },
+    {
+     "text": "A type of bit",
+     "correct": false
+    },
+    {
+     "text": "A road stud",
+     "correct": false
+    },
+    {
+     "text": "A grooming brush",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does 'dressing' mean in formation riding?",
+   "options": [
+    {
+     "text": "Putting on the uniform",
+     "correct": false
+    },
+    {
+     "text": "Bandaging legs",
+     "correct": false
+    },
+    {
+     "text": "Keeping alignment with other riders",
+     "correct": true
+    },
+    {
+     "text": "Plaiting the mane",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a rider do if their horse becomes frightened during a parade?",
+   "options": [
+    {
+     "text": "Punish it in public",
+     "correct": false
+    },
+    {
+     "text": "Calmly remove it from the stress as the drill allows",
+     "correct": true
+    },
+    {
+     "text": "Gallop through the crowd",
+     "correct": false
+    },
+    {
+     "text": "Dismount and leave the horse",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Every buckle and stitch of ceremonial tack should be checked before the event.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "After a long parade on tar, legs and hooves do not need checking.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be done after the event? (select all that apply)",
+   "options": [
+    {
+     "text": "Water and check each horse",
+     "correct": true
+    },
+    {
+     "text": "Clean and store tack",
+     "correct": true
+    },
+    {
+     "text": "Leave horses tacked up overnight",
+     "correct": false
+    },
+    {
+     "text": "Hold a debrief",
+     "correct": true
+    },
+    {
+     "text": "Skip incident records",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

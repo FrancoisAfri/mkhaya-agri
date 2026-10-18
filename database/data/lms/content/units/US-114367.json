@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114367",
+ "title": "Slaughter and dress small stock",
+ "lessons": [
+  {
+   "title": "Receiving and stunning sheep and goats",
+   "minutes": 15,
+   "html": "<h3>Before slaughter</h3><p>Small stock means sheep and goats. Slaughter must be quick, humane and clean. This follows the Meat Safety Act 40 of 2000 and the Animals Protection Act 71 of 1962.</p><h4>In the lairage</h4><ul><li>Animals rest in the pens with clean water.</li><li>The meat inspector checks them before slaughter. Sick animals are kept apart.</li><li>Move animals calmly. Sheep follow each other. Do not lift sheep by the wool, legs or tail. Do not use dogs or sticks.</li><li>Dirty, wet sheep make carcasses dirty. Tell your supervisor about very dirty animals.</li></ul><h4>Stunning</h4><p>Stunning makes the animal unconscious so it feels no pain. Only trained workers may stun.</p><ul><li>Small stock are often stunned with <strong>electric tongs</strong> placed on the head, or with a <strong>captive bolt</strong> gun.</li><li>Restrain the animal well so you can stun it correctly the first time.</li><li>Check that it is stunned: no rhythmic breathing, no blinking when you touch the eye, head hangs loose.</li><li>If it is not properly stunned, stun it again at once.</li><li>Bleed (stick) it as soon as possible after stunning, before it can wake up.</li></ul><p>Where religious slaughter is done, follow the abattoir's approved procedure.</p><h4>Safety</h4><ul><li>Electric tongs: keep hands dry, check cables, never touch the tong ends.</li><li>Captive bolt: always point it down at the animal, never at people. Unload it when not in use.</li></ul><p>Report any animal that cannot walk.</p><p>Calm animals are easier and safer to handle. Stressed animals give poorer meat.</p>"
+  },
+  {
+   "title": "Bleeding and skinning",
+   "minutes": 15,
+   "html": "<h3>Bleeding</h3><ul><li>Use a clean, sharp knife sterilised in hot water.</li><li>Cut the blood vessels in the neck as you were trained.</li><li>Collect blood in the blood trough. Do not let it run on the floor.</li><li>Sterilise the knife after each animal.</li><li>Let the animal bleed out completely before the next step.</li></ul><h3>Skinning (flaying)</h3><p>The outside of the skin is very dirty. It has dung, soil and wool. The main rule is: <strong>the outside of the skin must never touch the meat.</strong></p><ol><li>Remove the feet at the right joint.</li><li>Open the skin along the legs and the middle of the chest with the knife edge pointing out, away from the meat.</li><li>Loosen the skin with the fist or by pulling, depending on the method at your abattoir. Use the knife as little as possible.</li><li>Pull the skin down and off without letting the wool side touch the carcass.</li><li>Remove the head as your procedure says and keep it with the carcass for inspection.</li><li>Put the skin in the skin chute or bin.</li></ol><h4>Hygiene rules</h4><ul><li>Wash hands and sterilise the knife after touching the outside of the skin.</li><li>Use two knives: one in use, one in the sterilizer.</li><li>Do not cut into the meat. Knife cuts lower the value of the carcass.</li></ul><p>Keep your work area clean as you go.</p><p>Ask your supervisor to check your work. Clean, careful skinning is more important than speed.</p>"
+  },
+  {
+   "title": "Evisceration, inspection and trimming",
+   "minutes": 15,
+   "html": "<h3>Removing the organs</h3><p><strong>Evisceration</strong> means taking out the stomach, intestines and other organs.</p><ol><li>Tie or seal the end of the food pipe (oesophagus) and the rectum so nothing leaks out.</li><li>Open the belly carefully. Hold the knife so the tip does not cut the stomach or intestines.</li><li>Pull out the stomach and intestines (the green offal) into the offal tray or chute.</li><li>Take out the heart, lungs and liver (the red offal). Keep them with the carcass for inspection.</li><li>If the stomach or gut bursts, stop. Tell your supervisor. The dirty part must be trimmed off.</li></ol><h3>Inspection</h3><p>The meat inspector checks the carcass, the head and the organs. Keep them together with the same number. Only the inspector decides if they are fit to eat. Condemned parts go to the condemned bin.</p><h3>Final trim and wash</h3><ul><li>Trim off bruises, hair, wool and dirt as you are told.</li><li>Trim first, then wash. Washing does not remove dung.</li><li>Check the carcass all over before it goes to the chiller.</li></ul><h4>Your safety</h4><ul><li>Wear a cut-resistant glove on the hand that does not hold the knife, and a chain-mail apron if required.</li><li>Keep knives sharp. A blunt knife slips more.</li><li>Never try to catch a falling knife.</li><li>Report any cut at once.</li></ul><h4>Key points</h4><ul><li>Handle sheep and goats calmly; do not lift by the wool or legs.</li><li>Check that the stun worked and bleed quickly.</li><li>The outside of the skin must never touch the meat.</li><li>Seal the oesophagus and rectum and do not cut the gut.</li><li>Keep carcass, head and organs together for inspection; trim before washing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are sheep stunned before bleeding?",
+   "options": [
+    {
+     "text": "So they are unconscious and feel no pain",
+     "correct": true
+    },
+    {
+     "text": "To make the meat heavier",
+     "correct": false
+    },
+    {
+     "text": "To clean the wool",
+     "correct": false
+    },
+    {
+     "text": "To speed up chilling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign that a sheep is properly stunned?",
+   "options": [
+    {
+     "text": "It blinks when you touch the eye",
+     "correct": false
+    },
+    {
+     "text": "It breathes in a regular rhythm",
+     "correct": false
+    },
+    {
+     "text": "The head hangs loose and there is no blinking",
+     "correct": true
+    },
+    {
+     "text": "It tries to stand up",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the main hygiene rule when skinning?",
+   "options": [
+    {
+     "text": "Wash the carcass first",
+     "correct": false
+    },
+    {
+     "text": "The outside of the skin must never touch the meat",
+     "correct": true
+    },
+    {
+     "text": "Cut the skin off in small pieces",
+     "correct": false
+    },
+    {
+     "text": "Leave the wool on the meat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the stomach bursts during evisceration?",
+   "options": [
+    {
+     "text": "Wash it quickly and carry on",
+     "correct": false
+    },
+    {
+     "text": "Stop, tell your supervisor, and have the dirty part trimmed",
+     "correct": true
+    },
+    {
+     "text": "Throw the carcass away yourself",
+     "correct": false
+    },
+    {
+     "text": "Hide it from the inspector",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you point a captive bolt gun?",
+   "options": [
+    {
+     "text": "At the people around you",
+     "correct": false
+    },
+    {
+     "text": "Down at the animal, never at people",
+     "correct": true
+    },
+    {
+     "text": "At the ceiling",
+     "correct": false
+    },
+    {
+     "text": "At the floor while loaded and walking around",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to lift sheep by the wool.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The carcass, head and organs must be kept together for inspection.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good hygiene practices during skinning? (select all that apply)",
+   "options": [
+    {
+     "text": "Sterilise the knife after touching the outside of the skin",
+     "correct": true
+    },
+    {
+     "text": "Use two knives, one in the sterilizer",
+     "correct": true
+    },
+    {
+     "text": "Let the wool side touch the carcass",
+     "correct": false
+    },
+    {
+     "text": "Wash hands after touching the skin",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

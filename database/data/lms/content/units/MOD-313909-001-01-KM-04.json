@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909-001-01-KM-04",
+ "title": "Mixed Feed Production",
+ "lessons": [
+  {
+   "title": "Grinding and batching",
+   "minutes": 20,
+   "html": "<h3>Grinding and batching</h3><p>Mixed feed production turns individual ingredients into a uniform blend that matches the nutritionist's formulation. Two steps come first: reducing particle size and weighing ingredients accurately.</p><h4>Grinding</h4><p>Grinding increases surface area, which improves digestibility and helps mixing and pelleting.</p><table><tr><th>Mill</th><th>Features</th></tr><tr><td>Hammer mill</td><td>Swinging hammers shatter material against a screen; screen hole size controls fineness; versatile but uses more energy and makes more fines</td></tr><tr><td>Roller mill</td><td>Grain passes between rollers; more uniform particles, less dust and energy; less suited to fibrous material</td></tr></table><p>The correct particle size depends on the species. Poultry often need a coarser grind than pigs, and pellet quality needs a reasonably fine grind. Follow the specification for each product. Check screens for holes every shift: a torn screen lets coarse particles through and changes the product. Magnets ahead of the mill protect the hammers and screens.</p><h4>Batching</h4><p>The batching system weighs each ingredient for a batch according to the formulation:</p><ul><li><strong>Major ingredients</strong> (maize, soya, wheat bran) are weighed on large hopper scales from production bins.</li><li><strong>Minor ingredients</strong> (limestone, salt, monocalcium phosphate) on smaller scales.</li><li><strong>Micro-ingredients</strong> (premixes, enzymes, amino acids, medicaments) on precision scales, often hand-added with a check.</li><li><strong>Liquids</strong> (fat, oil, molasses) by meter or load cell.</li></ul><p>Scale accuracy is critical. Scales are calibrated on a schedule and checked with test weights. Every batch record shows target and actual weights. Deviations outside tolerance must be stopped and reported, not corrected by guessing.</p><p>Common batching errors include an ingredient bin running empty, a bin containing the wrong material, a feeder gate that sticks open, and a hand-add that is forgotten or doubled. Most automated systems detect weight errors, but only careful operators detect a correct weight of the wrong material.</p>"
+  },
+  {
+   "title": "Mixing and preventing contamination",
+   "minutes": 20,
+   "html": "<h3>Mixing and preventing contamination</h3><h4>Mixers</h4><ul><li><strong>Horizontal ribbon or paddle mixers</strong> are the most common batch mixers. They mix quickly and allow liquid addition.</li><li><strong>Vertical mixers</strong> are cheaper but slower and leave more residue.</li></ul><h4>Mixing time and sequence</h4><p>Each mixer has a validated mixing time. Too short leaves an uneven mix; too long wastes time and can cause separation. A typical sequence is: majors in, then minors and micros, a dry mix, then liquids, then a wet mix, then discharge. Your mill's SOP sets the exact sequence and times.</p><h4>Mix uniformity</h4><p>A uniform mix means every mouthful contains the right nutrients. Mills test this by adding a tracer or measuring a nutrient in several samples from one batch and calculating the coefficient of variation (CV). A low CV means a uniform mix. The target CV is set by the mill's quality system. Poor results point to worn ribbons, overfilling, wrong mixing time or wrong addition sequence.</p><h4>Carry-over and cross-contamination</h4><p>Residue from one batch can end up in the next. This is dangerous when the previous batch contained medicaments or ingredients unsafe for some species, for example certain ionophores that are toxic to horses.</p><ul><li>Follow the production sequence plan: non-medicated before medicated, sensitive species first.</li><li>Use flush batches (for example ground maize) where required and record them.</li><li>Keep mixers, screws and bins clean; check for build-up.</li><li>Use dedicated equipment for medicaments where possible.</li></ul><h4>Records</h4><p>Batch records include formulation, ingredient lots, weights, mix times, operator and any deviations. They are the basis of traceability under feed registration and food safety systems.</p><h4>Key points</h4><ul><li>Grinding sets particle size; check screens and magnets every shift.</li><li>Accurate, calibrated scales are essential for correct nutrition.</li><li>Follow validated mixing times and addition sequence.</li><li>Uniformity is measured by CV; a low CV means an even mix.</li><li>Sequence, flushing and cleaning control carry-over.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What controls fineness in a hammer mill?",
+   "options": [
+    {
+     "text": "The screen hole size",
+     "correct": true
+    },
+    {
+     "text": "The colour of the hammers",
+     "correct": false
+    },
+    {
+     "text": "The mixer time",
+     "correct": false
+    },
+    {
+     "text": "The weighbridge",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Compared with a hammer mill, a roller mill generally produces:",
+   "options": [
+    {
+     "text": "More dust and fines",
+     "correct": false
+    },
+    {
+     "text": "More uniform particles with less energy",
+     "correct": true
+    },
+    {
+     "text": "Better grinding of fibrous material",
+     "correct": false
+    },
+    {
+     "text": "Pellets",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A batch weight is outside tolerance. What should the operator do?",
+   "options": [
+    {
+     "text": "Guess a correction and continue",
+     "correct": false
+    },
+    {
+     "text": "Ignore small errors",
+     "correct": false
+    },
+    {
+     "text": "Double the mixing time",
+     "correct": false
+    },
+    {
+     "text": "Stop and report the deviation",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a low coefficient of variation (CV) in a mixer test show?",
+   "options": [
+    {
+     "text": "A poor mix",
+     "correct": false
+    },
+    {
+     "text": "A uniform mix",
+     "correct": true
+    },
+    {
+     "text": "High moisture",
+     "correct": false
+    },
+    {
+     "text": "Large particle size",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are flush batches used?",
+   "options": [
+    {
+     "text": "To reduce carry-over from medicated batches",
+     "correct": true
+    },
+    {
+     "text": "To increase pellet hardness",
+     "correct": false
+    },
+    {
+     "text": "To test the weighbridge",
+     "correct": false
+    },
+    {
+     "text": "To cool the mixer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mixing for longer than the validated time always improves uniformity.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Some medicaments used in feed for other species can be toxic to horses.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can cause poor mix uniformity? (select all that apply)",
+   "options": [
+    {
+     "text": "Worn ribbons",
+     "correct": true
+    },
+    {
+     "text": "Overfilling the mixer",
+     "correct": true
+    },
+    {
+     "text": "Wrong addition sequence",
+     "correct": true
+    },
+    {
+     "text": "A correctly calibrated scale",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

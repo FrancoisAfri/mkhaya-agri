@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-PM-09",
+  "title": "Attend to concepts related to the dairy code of good practise for milk producers",
+  "lessons": [
+    {
+      "title": "What the Code of Good Practice is for",
+      "minutes": 15,
+      "html": "<h3>Producing milk people can trust</h3><p>Consumers, retailers and processors want to know that milk is safe, that cows are well treated and that farms look after people and the environment. The South African dairy industry has a Code of Good Practice for milk producers that sets out what responsible milk production looks like. Milk buyers and processors may audit farms against it or against their own standards based on similar principles.</p><h4>Main areas the code deals with</h4><ul><li><strong>Milk safety and quality</strong>: hygienic milking, cooling, no residues of medicines or chemicals.</li><li><strong>Animal health</strong>: disease prevention, vet involvement, correct use of medicines.</li><li><strong>Animal welfare</strong>: freedom from hunger, thirst, discomfort, pain and fear; humane handling.</li><li><strong>Feed and water</strong>: safe, good quality feed and clean water.</li><li><strong>Environment</strong>: managing waste water, manure and chemicals responsibly.</li><li><strong>People</strong>: safe working conditions, training and fair labour practice.</li><li><strong>Records and traceability</strong>: proof of what was done.</li></ul><h4>Laws behind the code</h4><p>The code builds on South African law. Examples are the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972 for food safety, the Animals Protection Act 71 of 1962, the Animal Diseases Act 35 of 1984, Act 36 of 1947 for stock remedies, the National Water Act 36 of 1998 and the OHS Act 85 of 1993. Following the code helps the farm stay within these laws.</p><h4>Why it matters to the farm</h4><p>A farm that does not meet buyer standards can be paid less, have milk rejected, or lose its milk contract. A residue or contamination incident can damage the reputation of the whole industry. As a supervisor you make the code real in the daily work of your team.</p>"
+    },
+    {
+      "title": "Applying the code in daily work",
+      "minutes": 15,
+      "html": "<h3>Milk safety in practice</h3><ul><li>Follow the full milking routine, including pre- and post-dipping.</li><li>Mark treated cows clearly and keep their milk out of the tank until the withdrawal period on the label or from the vet is over.</li><li>Cool milk quickly and record the tank temperature at every milking.</li><li>Clean the plant correctly after every milking and keep cleaning records.</li><li>Keep chemicals, fuel and pesticides away from the dairy room and feed.</li></ul><h4>Animal health and medicines</h4><ul><li>Work with the farm vet on a herd health plan, including vaccinations and mastitis control.</li><li>Use only registered medicines, as prescribed, and store them as the label says, locked and cool where required.</li><li>Record every treatment.</li><li>Dispose of needles and empty containers safely.</li></ul><h4>Animal welfare</h4><ul><li>Move cows quietly. No hitting with sticks, no electric prodders on sensitive parts, no dogs chasing cows.</li><li>Provide shade, shelter, clean dry lying areas and enough feed and water space.</li><li>Treat lame and sick cows quickly. Do not leave a downer cow without help; call the vet.</li><li>Humane euthanasia must be done by a vet or trained person.</li></ul><h4>Environment and people</h4><ul><li>Keep effluent in the waste system and out of rivers.</li><li>Train workers, provide protective clothing and keep a stocked first aid box.</li><li>Treat workers fairly and follow labour law.</li></ul><p>Small daily habits are what auditors look for: clean towels, filled-in records, calm cows and tidy chemical stores.</p><h4>Your role as supervisor</h4><p>Check these habits every shift, not only before an audit. Walk through the parlour, the medicine store and the calf shed, and correct problems on the spot. Explain to new workers why each rule exists, so that they follow it even when you are not there.</p>"
+    },
+    {
+      "title": "Audits, records and corrective action",
+      "minutes": 15,
+      "html": "<h3>Showing that you follow the code</h3><p>An audit checks whether the farm actually does what the code requires. An auditor, who may come from the milk buyer or an independent body, will walk through the dairy, ask workers questions and check records.</p><h4>What auditors commonly check</h4><table><tr><th>Area</th><th>Evidence</th></tr><tr><td>Milk hygiene</td><td>Clean parlour, cleaning records, tank temperature records</td></tr><tr><td>Medicines</td><td>Treatment records, medicine store, withdrawal dates</td></tr><tr><td>Animal welfare</td><td>Cow condition, lameness, handling, housing, water</td></tr><tr><td>Feed</td><td>Feed storage, supplier records</td></tr><tr><td>Environment</td><td>Effluent system, chemical storage</td></tr><tr><td>People</td><td>Training records, protective equipment, safety signs</td></tr></table><h4>Preparing your team</h4><ul><li>Explain to every worker why the rules exist, not just what they are.</li><li>Make sure workers can answer simple questions such as how they know a cow is treated.</li><li>Check records weekly so they are complete before any audit.</li><li>Do your own walk-through using a checklist each month.</li></ul><h4>Corrective action</h4><p>When a problem is found, by an auditor or by you, deal with it in four steps:</p><ol><li>Fix the immediate problem, for example dump contaminated milk.</li><li>Find the root cause, for example a new milker was not shown the treatment board.</li><li>Prevent it happening again, for example add the board to induction training.</li><li>Record what was done and check it is working.</li></ol><p>Never hide a problem from an auditor or buyer. An honest, fixed problem is far less serious than a hidden one that is found later.</p><h4>Key points</h4><ul><li>The code covers milk safety, animal health and welfare, feed, environment, people and records.</li><li>It is built on SA law such as the Animals Protection Act and the National Water Act.</li><li>Daily habits and complete records are the evidence of good practice.</li><li>Fix problems, find the root cause, prevent repeats and record the action.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the main purpose of the Code of Good Practice for milk producers?",
+      "options": [
+        {
+          "text": "To set prices for milk",
+          "correct": false
+        },
+        {
+          "text": "To describe responsible, safe milk production",
+          "correct": true
+        },
+        {
+          "text": "To replace all SA laws",
+          "correct": false
+        },
+        {
+          "text": "To choose which breed to farm",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law deals with the protection of animals from cruelty?",
+      "options": [
+        {
+          "text": "National Water Act 36 of 1998",
+          "correct": false
+        },
+        {
+          "text": "Meat Safety Act 40 of 2000",
+          "correct": false
+        },
+        {
+          "text": "Animals Protection Act 71 of 1962",
+          "correct": true
+        },
+        {
+          "text": "OHS Act 85 of 1993",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the first step of corrective action?",
+      "options": [
+        {
+          "text": "Fix the immediate problem",
+          "correct": true
+        },
+        {
+          "text": "Hide the problem from the auditor",
+          "correct": false
+        },
+        {
+          "text": "Blame the newest worker",
+          "correct": false
+        },
+        {
+          "text": "Wait for the next audit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should be done about a downer cow?",
+      "options": [
+        {
+          "text": "Leave her until the next day",
+          "correct": false
+        },
+        {
+          "text": "Drag her with a tractor",
+          "correct": false
+        },
+        {
+          "text": "Use dogs to make her stand",
+          "correct": false
+        },
+        {
+          "text": "Give her help and call the vet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is good evidence of milk hygiene for an auditor?",
+      "options": [
+        {
+          "text": "A new tractor",
+          "correct": false
+        },
+        {
+          "text": "Tank temperature and cleaning records",
+          "correct": true
+        },
+        {
+          "text": "The farm's bank balance",
+          "correct": false
+        },
+        {
+          "text": "Number of dogs on the farm",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "An honest, fixed problem is less serious than a hidden problem found later.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The code only covers milk quality and has nothing to do with workers.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are good animal welfare practices? (select all that apply)",
+      "options": [
+        {
+          "text": "Moving cows quietly",
+          "correct": true
+        },
+        {
+          "text": "Providing shade and clean water",
+          "correct": true
+        },
+        {
+          "text": "Treating lame cows quickly",
+          "correct": true
+        },
+        {
+          "text": "Using dogs to chase cows to the parlour",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244252",
+ "title": "Perform basic stable yard operations",
+ "lessons": [
+  {
+   "title": "The daily stable yard routine",
+   "minutes": 15,
+   "html": "<h3>A routine keeps horses healthy</h3> <p>Horses like routine. They feel calm when feeding, exercise and rest happen at the same times every day. A good yard has a clear daily timetable and every groom knows their tasks.</p> <h4>A typical day</h4> <table><tr><th>Time</th><th>Task</th></tr> <tr><td>Early morning</td><td>Check every horse, give water and morning feed</td></tr> <tr><td>After feed</td><td>Muck out stables, turn horses out or exercise them</td></tr> <tr><td>Mid-morning</td><td>Grooming, tack cleaning, yard sweeping</td></tr> <tr><td>Midday</td><td>Lunch feed, check water</td></tr> <tr><td>Afternoon</td><td>Bring horses in, skip out stables, fill hay nets</td></tr> <tr><td>Evening</td><td>Evening feed, last check, rugs on if cold, lock up</td></tr></table> <h4>The morning check</h4> <p>Before anything else, look at each horse. Is it standing normally? Did it finish last night's feed? Has it drunk water? Are there normal droppings? Any cuts, swelling or heat in the legs? Is it rolling, sweating or looking at its belly? Report anything unusual to your supervisor at once. Signs of colic are an emergency.</p> <h4>Water</h4> <p>Horses must always have clean, fresh water. Scrub buckets and troughs often. Check automatic drinkers work. In winter break ice on troughs.</p> <h4>Feeding rules</h4> <ul> <li>Feed only what is on the feed chart for that horse.</li> <li>Feed at the same times every day.</li> <li>Keep the feed room closed so horses cannot break in. A horse that eats too much concentrate can become very ill.</li> <li>Report a horse that does not eat.</li> </ul> <h4>Turning out and bringing in</h4> <p>Lead the horse from the left side with a headcollar and lead rope. Open the gate fully. Turn the horse to face the gate before you let it go, then step back. Close the gate behind you. Never let go and run.</p>"
+  },
+  {
+   "title": "Mucking out, bedding and keeping the yard clean",
+   "minutes": 15,
+   "html": "<h3>Mucking out</h3> <p>Mucking out means removing dung and wet bedding from the stable and putting down fresh bedding. It keeps the horse's feet and lungs healthy.</p> <h4>Equipment</h4> <ul> <li>Wheelbarrow</li> <li>Fork for straw, or shavings fork for shavings</li> <li>Shovel and broom</li> <li>Skip (bucket) for quick removing of droppings</li> <li>Gloves and boots</li> </ul> <h4>Steps (full muck-out)</h4> <ol> <li>Move the horse out, or tie it up safely in the stable if allowed.</li> <li>Take out water buckets and feed bowls.</li> <li>Park the wheelbarrow across the doorway so the horse cannot walk out over it, or outside if the horse is out.</li> <li>Remove all droppings.</li> <li>Move clean bedding to the sides of the stable.</li> <li>Remove wet, dirty bedding. Sweep the floor.</li> <li>Let the floor air and dry for a while if possible.</li> <li>Put the clean bedding back and add fresh bedding. Make banks up the walls; they help stop a horse getting stuck (cast) when it rolls.</li> <li>Scrub and refill water buckets. Put them back.</li> </ol> <h4>Skipping out</h4> <p>During the day, pick up droppings with a skip. This keeps the stable clean and saves bedding.</p> <h4>The manure heap</h4> <p>Take manure to the marked heap. Keep it neat and square. Keep it away from stables, water and the feed room. No plastic, string or rubbish on the heap.</p> <h4>Keeping the yard tidy</h4> <ul> <li>Sweep the yard every day.</li> <li>Hang tools on the wall, prongs facing in.</li> <li>Coil hosepipes.</li> <li>Store hay and bedding dry and off the floor.</li> <li>Keep fire extinguishers clear and know where they are. No smoking near hay or in stables.</li> </ul> <h4>Safety around horses</h4> <p>Speak to a horse before you go near it. Never walk directly behind a horse without speaking and keeping a hand on it. Never kneel or sit on the floor next to a horse; squat so you can move away quickly.</p> <h4>Key points</h4> <ul> <li>Follow the daily routine; horses need regular times.</li> <li>Check every horse first thing and report anything unusual at once.</li> <li>Always give clean fresh water and only the feed on the chart.</li> <li>Muck out daily, bank the bedding and skip out during the day.</li> <li>Keep the yard tidy, tools hung up and no smoking near hay.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the first task of the morning?",
+   "options": [
+    {
+     "text": "Clean the tack",
+     "correct": false
+    },
+    {
+     "text": "Check every horse and give water and feed",
+     "correct": true
+    },
+    {
+     "text": "Paint the doors",
+     "correct": false
+    },
+    {
+     "text": "Sweep the car park",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a horse always have?",
+   "options": [
+    {
+     "text": "A saddle on",
+     "correct": false
+    },
+    {
+     "text": "Clean, fresh water",
+     "correct": true
+    },
+    {
+     "text": "A full bucket of concentrate",
+     "correct": false
+    },
+    {
+     "text": "Its rug on",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the feed room be kept closed?",
+   "options": [
+    {
+     "text": "To keep it warm",
+     "correct": false
+    },
+    {
+     "text": "A horse that breaks in and eats too much concentrate can become very ill",
+     "correct": true
+    },
+    {
+     "text": "Rats like open doors",
+     "correct": false
+    },
+    {
+     "text": "It looks neat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do we make banks of bedding up the stable walls?",
+   "options": [
+    {
+     "text": "To save bedding",
+     "correct": false
+    },
+    {
+     "text": "To help stop a horse getting cast when it rolls",
+     "correct": true
+    },
+    {
+     "text": "To hide dirt",
+     "correct": false
+    },
+    {
+     "text": "For decoration",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When turning a horse out, what should you do before letting it go?",
+   "options": [
+    {
+     "text": "Turn the horse to face the gate, then step back",
+     "correct": true
+    },
+    {
+     "text": "Let go and run",
+     "correct": false
+    },
+    {
+     "text": "Slap the horse",
+     "correct": false
+    },
+    {
+     "text": "Leave the gate open",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Skipping out means picking up droppings during the day.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to sit on the stable floor next to a horse.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs you must report in the morning check? (select all that apply)",
+   "options": [
+    {
+     "text": "Horse did not finish its feed",
+     "correct": true
+    },
+    {
+     "text": "Swelling or heat in a leg",
+     "correct": true
+    },
+    {
+     "text": "Horse rolling and looking at its belly",
+     "correct": true
+    },
+    {
+     "text": "Horse standing normally and eating",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

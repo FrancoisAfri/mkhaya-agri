@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119304",
+ "title": "Compile a portfolio of evidence for assessment",
+ "lessons": [
+  {
+   "title": "What a portfolio of evidence is",
+   "minutes": 15,
+   "html": "<h3>What is a portfolio of evidence?</h3> <p>When you do a training course, an assessor must check that you can really do the work. You show this with <strong>evidence</strong>. Evidence is proof. A <strong>portfolio of evidence</strong> (often called a PoE) is a file where you keep all the proof together, in good order.</p> <p>The assessor reads your portfolio and decides if you are <em>competent</em> (you can do the work) or <em>not yet competent</em> (you need more practice).</p> <h4>Kinds of evidence</h4> <table><tr><th>Evidence</th><th>Example in a stable yard</th></tr> <tr><td>Worksheets and tests</td><td>Your answers about grooming tools</td></tr> <tr><td>Observation checklist</td><td>The assessor watched you tack up a horse and ticked each step</td></tr> <tr><td>Work records</td><td>Your daily feed chart or mucking-out list</td></tr> <tr><td>Witness statement</td><td>Your supervisor signs that you clean tack every day</td></tr> <tr><td>Photos</td><td>A picture of a stable you bedded down</td></tr> <tr><td>Certificates</td><td>A first aid course certificate</td></tr></table> <h4>Good evidence</h4> <p>Good evidence must be:</p> <ul> <li><strong>Your own</strong> - you did the work yourself. Copying is not allowed.</li> <li><strong>Current</strong> - recent, showing what you can do now.</li> <li><strong>Enough</strong> - it covers everything the unit asks for.</li> <li><strong>Relevant</strong> - it matches the task being assessed.</li> </ul> <h4>Your rights</h4> <p>You have the right to know how you will be assessed. You may ask questions. If you do not agree with a result, you may appeal. Ask your facilitator how the appeal works at your training provider.</p> <p>Example: Jabu is doing a horse care course. His supervisor signs a witness form every Friday. Jabu keeps these forms in a plastic sleeve so they stay clean and dry in the tack room.</p>"
+  },
+  {
+   "title": "Putting your portfolio together",
+   "minutes": 15,
+   "html": "<h3>Step by step</h3> <ol> <li><strong>Get the guide.</strong> Your training provider gives you a learner guide and a list of what must go in the portfolio.</li> <li><strong>Get a file.</strong> Use a lever-arch file or a strong folder. Write your name, ID number and the course name on the front.</li> <li><strong>Make a contents page.</strong> List every section and the page numbers.</li> <li><strong>Use dividers.</strong> Put one section for each unit or outcome.</li> <li><strong>Collect evidence as you go.</strong> Do not wait until the end. Put each worksheet or form in the right section on the day you get it.</li> <li><strong>Sign and date.</strong> Sign your own work. Make sure your supervisor and assessor sign where they must.</li> <li><strong>Check the list.</strong> Before you hand in, tick off each item on the list. Is anything missing?</li> <li><strong>Hand in on time.</strong> Get a receipt or signature showing the date you handed it in.</li> </ol> <h4>Look after your portfolio</h4> <ul> <li>Keep it in a dry, clean place, away from horses, water and feed.</li> <li>Do not fold or crumple pages.</li> <li>Make a copy of important pages if you can.</li> <li>Never let someone else write your answers.</li> </ul> <h4>The declaration</h4> <p>Most portfolios have a page where you sign that the work is your own. Read it before you sign. Signing a false declaration is dishonest and can stop you from getting the qualification.</p> <h4>When you get feedback</h4> <p>The assessor gives you feedback. Listen carefully. If you are <em>not yet competent</em> on a part, it is not the end. You get a chance to practise and add new evidence. Ask: \"What exactly must I show?\"</p> <h4>Example</h4> <p>Lerato's assessor says her feeding section is missing a feed chart. She asks the yard manager for a copy of the chart she filled in on Tuesday, puts it behind the feeding divider, updates her contents page and hands the file back.</p> <h4>Key points</h4> <ul> <li>A portfolio of evidence is a file that proves you can do the work.</li> <li>Evidence must be your own, current, enough and relevant.</li> <li>Use a contents page and dividers, and collect evidence as you go.</li> <li>Sign and date your work and hand in on time.</li> <li>Not yet competent means you can practise and add more evidence.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a portfolio of evidence?",
+   "options": [
+    {
+     "text": "A file of proof that you can do the work",
+     "correct": true
+    },
+    {
+     "text": "A list of horse names",
+     "correct": false
+    },
+    {
+     "text": "A pay slip",
+     "correct": false
+    },
+    {
+     "text": "A feed order",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of a witness statement?",
+   "options": [
+    {
+     "text": "A photo of a horse",
+     "correct": false
+    },
+    {
+     "text": "Your supervisor signs that you clean tack every day",
+     "correct": true
+    },
+    {
+     "text": "A test you wrote",
+     "correct": false
+    },
+    {
+     "text": "A shop receipt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you collect evidence?",
+   "options": [
+    {
+     "text": "Only on the last day",
+     "correct": false
+    },
+    {
+     "text": "As you go, during the course",
+     "correct": true
+    },
+    {
+     "text": "Never, the assessor does it",
+     "correct": false
+    },
+    {
+     "text": "Only after the assessment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does 'not yet competent' mean?",
+   "options": [
+    {
+     "text": "You have failed forever",
+     "correct": false
+    },
+    {
+     "text": "You need more practice and can add new evidence",
+     "correct": true
+    },
+    {
+     "text": "You passed with distinction",
+     "correct": false
+    },
+    {
+     "text": "You must leave your job",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you keep your portfolio?",
+   "options": [
+    {
+     "text": "In the stable next to the water bucket",
+     "correct": false
+    },
+    {
+     "text": "In a dry, clean place",
+     "correct": true
+    },
+    {
+     "text": "In the bakkie in the rain",
+     "correct": false
+    },
+    {
+     "text": "In the feed bin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable for a friend to write your answers if you sign them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You have the right to appeal an assessment result you do not agree with.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which describe good evidence? (select all that apply)",
+   "options": [
+    {
+     "text": "Your own work",
+     "correct": true
+    },
+    {
+     "text": "Current",
+     "correct": true
+    },
+    {
+     "text": "Copied from another learner",
+     "correct": false
+    },
+    {
+     "text": "Relevant to the task",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335731",
+ "title": "Assess conformation and movement of a horse",
+ "lessons": [
+  {
+   "title": "Overall form, type and the conformation terms",
+   "minutes": 20,
+   "html": "<h3>Why conformation matters</h3>\n<p>Conformation is the shape and structure of the horse: how its bones, muscles and joints are put together. Good conformation helps a horse stay sound and do its job. Poor conformation can lead to strain, lameness and a short working life. As an equine practitioner you assess conformation when buying, breeding, selling or choosing horses for a purpose.</p>\n<h3>Assessing overall form and type</h3>\n<p>Stand the horse square on level, firm ground. Look first from about five metres away, from both sides, the front and the back.</p>\n<ul>\n<li><strong>Balance:</strong> the body should divide into three roughly equal parts: shoulder, back and hindquarters. The withers and croup should be about the same height in a mature horse.</li>\n<li><strong>Proportion:</strong> body length roughly equal to height at the withers for most riding horses.</li>\n<li><strong>Type:</strong> fit for purpose. A Thoroughbred racehorse is lean and long-legged; a Boerperd or Nooitgedachter is compact and hardy for farm and endurance work; a draught horse is heavy-boned and powerful.</li>\n<li><strong>Condition:</strong> score body condition separately so that fat or thinness does not hide or fake conformation.</li>\n</ul>\n<h3>Key terms you must use</h3>\n<table><tr><th>Area</th><th>Good</th><th>Faults</th></tr>\n<tr><td>Head and neck</td><td>Neck in proportion, clean throat</td><td>Ewe neck, thick throat</td></tr>\n<tr><td>Shoulder</td><td>Sloping shoulder</td><td>Upright (straight) shoulder</td></tr>\n<tr><td>Back</td><td>Short, strong back</td><td>Sway back, roach back</td></tr>\n<tr><td>Front legs</td><td>Straight from the side and front</td><td>Back at the knee, over at the knee, bench knees, toes in or out</td></tr>\n<tr><td>Hind legs</td><td>Correct hock angle</td><td>Sickle hocks, cow hocks, post-legged</td></tr>\n<tr><td>Pasterns and feet</td><td>Medium-length, sloping pasterns; matched feet</td><td>Upright or long, weak pasterns; boxy or flat feet</td></tr></table>"
+  },
+  {
+   "title": "Detailed conformation and movement assessment",
+   "minutes": 20,
+   "html": "<h3>A systematic conformation check</h3>\n<ol>\n<li><strong>From the front:</strong> a straight line dropped from the point of the shoulder should pass down the middle of the knee, cannon, fetlock and hoof. Toes turned in (pigeon-toed) or out cause uneven wear and winging or paddling.</li>\n<li><strong>From the side, front leg:</strong> a line from the middle of the forearm should drop through the knee and fetlock to the heel. Back at the knee strains tendons and is a serious fault.</li>\n<li><strong>From the side, hind leg:</strong> a line from the point of the buttock should touch the back of the hock and run down the back of the cannon. Sickle hocks place the feet too far under the body.</li>\n<li><strong>From behind:</strong> a line from the point of the buttock should split the hock, cannon and hoof. Cow hocks point the hocks towards each other.</li>\n<li><strong>Feet:</strong> the hoof-pastern axis should be unbroken. Front and hind pairs should match in size and shape.</li>\n</ol>\n<h3>Assessing movement</h3>\n<p>Use a firm, level surface such as a hard sand lane. Have a handler lead the horse on a loose rope.</p>\n<ul>\n<li><strong>Walk</strong> away from you and back towards you, then watch from the side. The walk is a four-beat gait.</li>\n<li><strong>Trot</strong> away and back. The trot is two-beat with diagonal pairs. It is the best gait for spotting lameness.</li>\n<li><strong>Canter</strong> on the lunge or under saddle if needed (three-beat).</li>\n</ul>\n<h4>What to look for</h4>\n<ul>\n<li>Straightness: feet should travel in straight lines. Winging (feet swing inward) or paddling (outward) are faults.</li>\n<li>Length of stride and tracking up: the hind hoof should land in or near the print of the front hoof at walk.</li>\n<li>Even rhythm and sound of footfalls.</li>\n<li>Head nod: a horse lame in front lifts its head when the sore leg lands. A hip hike shows hind lameness.</li>\n<li>Interference: hooves striking the opposite leg, forging or over-reaching.</li>\n</ul>\n<p>Record findings on a conformation sheet using correct terms. If you see lameness, stop and refer the horse to a vet.</p>\n<h4>Key points</h4>\n<ul>\n<li>Stand the horse square on level ground and look from all four sides.</li>\n<li>Judge balance, proportion and type for purpose.</li>\n<li>Use correct terms such as back at the knee, sickle hocks and cow hocks.</li>\n<li>Check straight leg lines from front, side and behind.</li>\n<li>Assess movement at walk and trot on a firm, level surface; refer lameness to a vet.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What surface should the horse stand on for a conformation assessment?",
+   "options": [
+    {
+     "text": "Firm, level ground",
+     "correct": true
+    },
+    {
+     "text": "A steep slope",
+     "correct": false
+    },
+    {
+     "text": "Deep mud",
+     "correct": false
+    },
+    {
+     "text": "Loose gravel on a hill",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Into how many roughly equal parts should a balanced horse's body divide?",
+   "options": [
+    {
+     "text": "Two",
+     "correct": false
+    },
+    {
+     "text": "Five",
+     "correct": false
+    },
+    {
+     "text": "Three",
+     "correct": true
+    },
+    {
+     "text": "Seven",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which front leg fault strains the tendons and is considered serious?",
+   "options": [
+    {
+     "text": "Short cannon",
+     "correct": false
+    },
+    {
+     "text": "Back at the knee",
+     "correct": true
+    },
+    {
+     "text": "Sloping shoulder",
+     "correct": false
+    },
+    {
+     "text": "Matched feet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which gait is the best for spotting lameness?",
+   "options": [
+    {
+     "text": "Gallop",
+     "correct": false
+    },
+    {
+     "text": "Canter",
+     "correct": false
+    },
+    {
+     "text": "Rein back",
+     "correct": false
+    },
+    {
+     "text": "Trot",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A horse lame in a front leg will usually...",
+   "options": [
+    {
+     "text": "Lift its head when the sore leg lands",
+     "correct": true
+    },
+    {
+     "text": "Drop its head when the sore leg lands",
+     "correct": false
+    },
+    {
+     "text": "Walk faster",
+     "correct": false
+    },
+    {
+     "text": "Swish its tail only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cow hocks means the hocks point towards each other when viewed from behind.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The walk is a two-beat gait with diagonal pairs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are faults of the hind legs? (select all that apply)",
+   "options": [
+    {
+     "text": "Correct hock angle",
+     "correct": false
+    },
+    {
+     "text": "Sickle hocks",
+     "correct": true
+    },
+    {
+     "text": "Cow hocks",
+     "correct": true
+    },
+    {
+     "text": "Post-legged",
+     "correct": true
+    },
+    {
+     "text": "Sloping pasterns",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

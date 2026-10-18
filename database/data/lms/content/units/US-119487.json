@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119487",
+ "title": "Utilise water management in poultry production",
+ "lessons": [
+  {
+   "title": "Why water is so important for chickens",
+   "minutes": 15,
+   "html": "<h3>Water first</h3><p>Chickens drink about twice as much water as the feed they eat, and more when it is hot. A chicken can live longer without feed than without water. If birds do not get enough clean water, they stop eating, stop growing and stop laying, and in hot weather they can die quickly.</p><h4>Good water is</h4><ul><li><strong>Enough</strong> – every bird must reach a drinker easily.</li><li><strong>Clean</strong> – no dirt, slime or germs.</li><li><strong>Cool</strong> – birds drink less when water is warm.</li><li><strong>Safe</strong> – no harmful minerals or chemicals.</li></ul><h4>Where water comes from</h4><p>On many farms water comes from a borehole, a dam or the municipal supply. Borehole and dam water can carry germs or too many minerals. The farm manager has the water tested at a laboratory, and the vet says if it needs treatment.</p><h4>Drinker types</h4><ul><li><strong>Nipple drinkers</strong> – birds peck a nipple to get water. Water stays cleaner.</li><li><strong>Bell drinkers</strong> – round open drinkers. They get dirty quickly and must be cleaned often.</li><li><strong>Chick drinkers</strong> – small drinkers used in the first days.</li></ul><p>The right height matters. As a guide, birds should stretch up a little to drink from a nipple, and the lip of a bell drinker should be about level with the bird's back. Follow your supervisor and the breed guide.</p>"
+  },
+  {
+   "title": "Daily water checks",
+   "minutes": 15,
+   "html": "<h3>Check water every day</h3><ol><li>Read the water meter at the same time each day and write it down.</li><li>Walk every drinker line. Check water comes out of nipples at the start, middle and end of the line.</li><li>Check the height of drinkers and lift them as the birds grow.</li><li>Look for leaks. Wet litter under a drinker means a leak or the pressure is too high.</li><li>Check bell drinkers for dirt and clean them.</li><li>Check header tanks and filters.</li></ol><h4>Why the meter reading matters</h4><p>If birds suddenly drink much less, they may be sick, the water may be blocked, or the feed may have a problem. If they suddenly drink much more, it may be very hot, or there may be a leak. Tell your supervisor when the reading changes a lot from yesterday.</p><h4>Hot days</h4><ul><li>Flush lines so warm water is replaced with cooler water.</li><li>Make sure all drinkers work.</li><li>Shade water tanks and pipes where you can.</li></ul><h4>Wet litter</h4><p>Wet litter makes ammonia and sore feet. Fix leaks fast. Lower the pressure if the supervisor says so. Remove wet caked litter and put down dry litter.</p><h4>Write it down</h4><p>Use the house record sheet every day. Write the meter reading, the time, any leaks you found and fixed, and any lines that were blocked. If you lifted the drinkers, write that down too. Your supervisor compares your numbers with other days and with the breed guide, so the numbers must be correct and written at the right time.</p>"
+  },
+  {
+   "title": "Cleaning and treating water lines",
+   "minutes": 15,
+   "html": "<h3>Keep water lines clean</h3><p>Slime called biofilm grows inside water pipes. It hides germs and blocks nipples. Vitamins and medicines added to water feed the slime.</p><h4>Between flocks</h4><ul><li>Drain the lines and tanks.</li><li>Clean them with the product the vet or supervisor gives you, at the strength on the label.</li><li>Leave it for the time the label says.</li><li>Flush with lots of clean water before new chicks come.</li></ul><h4>During the flock</h4><ul><li>Flush lines as your farm procedure says, and always after giving vaccines, vitamins or medicine in the water.</li><li>Some farms add a sanitiser like chlorine to drinking water. Only add it as your supervisor says.</li></ul><h4>Vaccines in water</h4><p>Some vaccines are given in water. A sanitiser in the water can kill the vaccine, so the supervisor will tell you to stop it before vaccinating. Follow the instructions exactly.</p><h4>Safety</h4><ul><li>Wear gloves and goggles when you mix cleaning chemicals.</li><li>Never mix two chemicals together.</li><li>Make sure chickens do not drink strong cleaning chemicals; flush well.</li><li>Wash your hands after the work.</li></ul><h4>Key points</h4><ul><li>Chickens drink about twice as much water as feed, and more in heat.</li><li>Read the water meter every day and report big changes.</li><li>Check every drinker line, height and leaks daily.</li><li>Clean lines between flocks and flush after medicines and vitamins.</li><li>Stop water sanitiser before giving a vaccine in the water, as the supervisor says.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "About how much water do chickens drink compared with feed?",
+   "options": [
+    {
+     "text": "Half as much",
+     "correct": false
+    },
+    {
+     "text": "The same amount",
+     "correct": false
+    },
+    {
+     "text": "Ten times less",
+     "correct": false
+    },
+    {
+     "text": "About twice as much",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Wet litter under a nipple drinker usually means what?",
+   "options": [
+    {
+     "text": "There is a leak or the water pressure is too high",
+     "correct": true
+    },
+    {
+     "text": "The feed is old",
+     "correct": false
+    },
+    {
+     "text": "The lights are too bright",
+     "correct": false
+    },
+    {
+     "text": "The birds are hungry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Birds suddenly drink much less water than yesterday. What should you do?",
+   "options": [
+    {
+     "text": "Nothing, it is normal",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor because the birds may be sick or the water may be blocked",
+     "correct": true
+    },
+    {
+     "text": "Switch off the lights",
+     "correct": false
+    },
+    {
+     "text": "Add more feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is biofilm?",
+   "options": [
+    {
+     "text": "A type of chicken feed",
+     "correct": false
+    },
+    {
+     "text": "A water meter",
+     "correct": false
+    },
+    {
+     "text": "A plastic cover for drinkers",
+     "correct": false
+    },
+    {
+     "text": "Slime that grows inside water pipes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do on a very hot day?",
+   "options": [
+    {
+     "text": "Close all the drinkers",
+     "correct": false
+    },
+    {
+     "text": "Flush lines so birds get cooler water",
+     "correct": true
+    },
+    {
+     "text": "Give less water",
+     "correct": false
+    },
+    {
+     "text": "Heat the water tanks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A water sanitiser can kill a vaccine given in the drinking water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to mix two cleaning chemicals together to make them stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of the daily water check? (select all that apply)",
+   "options": [
+    {
+     "text": "Checking water flows at the end of each line",
+     "correct": true
+    },
+    {
+     "text": "Looking for leaks and wet litter",
+     "correct": true
+    },
+    {
+     "text": "Painting the water tank",
+     "correct": false
+    },
+    {
+     "text": "Reading the water meter",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

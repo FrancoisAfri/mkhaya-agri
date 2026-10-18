@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119396",
+ "title": "Manage post-brooding broiler production activities",
+ "lessons": [
+  {
+   "title": "From brooding to grow-out",
+   "minutes": 15,
+   "html": "<h3>Managing the growing broiler</h3><p>Post-brooding is the period after the first one to two weeks, when chicks no longer need supplementary heat for most of the day and the flock grows rapidly to slaughter weight, usually at about five to six weeks. Growth is fast, so small management mistakes quickly cost money. The supervisor manages environment, feed, water, health and staff so that the flock reaches target weight with low mortality and good feed conversion. Use the breeder company's management guide for target weights, temperatures and space.</p><h4>Transition from brooding</h4><ul><li>Reduce temperature gradually as birds grow, following the guide and watching bird behaviour.</li><li>Expand the brooding area to the full house in steps, so birds are not crowded.</li><li>Remove chick feeder trays and paper and switch to the main feeder and drinker lines, at the correct height.</li><li>Change from starter to grower ration on schedule.</li></ul><h4>Equipment height and space</h4><p>Raise feeders and drinkers as birds grow. Feeder pans should be at about the height of the birds' back; nipple drinkers should be set so birds stretch slightly to drink, as the guide describes. Check that each bird has enough feeder and drinker space for the stocking density.</p><h4>Stocking density</h4><p>Density is usually managed in kilograms of live weight per square metre at the end of the cycle. Overcrowding causes heat stress, poor litter, leg problems and higher mortality. Plan placement numbers according to house type, ventilation and the farm's welfare standards.</p><p>Record each change you make, with date and reason, on the house sheet.</p>"
+  },
+  {
+   "title": "Environment, feed and water",
+   "minutes": 15,
+   "html": "<h3>The four essentials: air, temperature, feed and water</h3><h4>Ventilation and temperature</h4><p>Growing broilers produce a lot of heat, moisture and carbon dioxide. Ventilation removes these and brings in fresh air.</p><ul><li><strong>Minimum ventilation</strong> in cool weather removes moisture and gases without chilling birds.</li><li><strong>Transitional and tunnel ventilation</strong> in hot weather increases air speed over birds for cooling.</li><li><strong>Evaporative cooling pads or foggers</strong> reduce temperature in South African summers; manage them carefully to avoid wet litter.</li></ul><p>Watch the birds: panting and wings held out mean too hot; huddling means too cold; birds avoiding an area may mean draughts. A strong ammonia smell that makes your eyes water means ventilation is too low.</p><h4>Litter</h4><p>Keep litter dry and friable. Wet litter causes foot pad lesions, breast blisters, ammonia and disease. Fix leaking drinkers, adjust ventilation and remove caked litter where needed.</p><h4>Feed</h4><ul><li>Feed phases such as grower and finisher are changed by age or weight on the feed programme.</li><li>Keep feed available and fresh; avoid feeder lines running empty.</li><li>Check feed deliveries for the correct ration, and record the quantity.</li><li>Withdrawal feed is used before slaughter if any medicated feed has been given, as the vet and label direct.</li></ul><h4>Water</h4><p>Water intake rises sharply as birds grow and in hot weather. Record daily water intake from the meter. A sudden drop in water intake is often the first sign of a problem: disease, a blocked line or feed issues. Flush lines regularly and keep water clean and cool.</p><h4>Lighting</h4><p>Follow the lighting programme in the guide and the farm's welfare standards, which usually include a period of darkness every day for rest.</p>"
+  },
+  {
+   "title": "Monitoring performance and preparing for slaughter",
+   "minutes": 15,
+   "html": "<h3>Measuring, recording and finishing the cycle</h3><h4>Weekly weighing</h4><p>Weigh a random sample of birds from different parts of the house weekly. Compare with the target. Calculate uniformity. Poor growth or uniformity points to feeder or water access problems, disease, poor chick quality or environment problems.</p><h4>Key performance figures</h4><table><tr><th>Measure</th><th>Meaning</th></tr><tr><td>Mortality %</td><td>Birds dead and culled as a share of birds placed</td></tr><tr><td>Average live weight</td><td>Kilograms per bird at a given age</td></tr><tr><td>Feed conversion ratio (FCR)</td><td>Kilograms of feed used per kilogram of live weight produced</td></tr><tr><td>Average daily gain</td><td>Grams gained per bird per day</td></tr><tr><td>Production efficiency factor</td><td>A combined index used by many integrators</td></tr></table><p>Example: 60 000 kg of feed producing 36 000 kg of live weight gives an FCR of 60 000 ÷ 36 000 = 1,67.</p><h4>Health and welfare</h4><p>Walk the house at least twice a day. Cull sick and injured birds humanely through trained staff. Follow the vet's vaccination and treatment programme and record withdrawal periods. Report unusual mortality immediately; avian influenza and Newcastle disease are controlled diseases under the Animal Diseases Act 35 of 1984.</p><h4>Preparing for catching</h4><ul><li>Confirm the slaughter date and bird numbers with the abattoir.</li><li>Check withdrawal periods of any medicines are complete.</li><li>Withdraw feed for the time the abattoir specifies, but keep water available until catching.</li><li>Catch in dim light and in the cool part of the day, handle birds gently and do not overload crates.</li><li>Raise feeder and drinker lines to give catchers space.</li></ul><h4>Key points</h4><ul><li>Expand space, reduce temperature and raise equipment as birds grow, following the breed guide.</li><li>Ventilation removes heat, moisture and ammonia; watch bird behaviour.</li><li>Record daily water intake; a sudden drop is an early warning sign.</li><li>FCR = feed used ÷ live weight produced; track mortality and weight weekly.</li><li>Before catching, complete withdrawal periods, withdraw feed as specified and handle birds gently.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the feed conversion ratio (FCR)?",
+   "options": [
+    {
+     "text": "Kilograms of feed used per kilogram of live weight produced",
+     "correct": true
+    },
+    {
+     "text": "Birds dead per day",
+     "correct": false
+    },
+    {
+     "text": "Water used per hour",
+     "correct": false
+    },
+    {
+     "text": "Birds per square metre",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If 60 000 kg of feed produces 36 000 kg of live weight, what is the FCR?",
+   "options": [
+    {
+     "text": "0,60",
+     "correct": false
+    },
+    {
+     "text": "1,67",
+     "correct": true
+    },
+    {
+     "text": "2,40",
+     "correct": false
+    },
+    {
+     "text": "36",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a strong ammonia smell that makes your eyes water indicate?",
+   "options": [
+    {
+     "text": "Too much feed",
+     "correct": false
+    },
+    {
+     "text": "Too much light",
+     "correct": false
+    },
+    {
+     "text": "Ventilation is too low",
+     "correct": true
+    },
+    {
+     "text": "The birds are cold",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is often the first sign of a problem in a broiler flock?",
+   "options": [
+    {
+     "text": "Increased feed deliveries",
+     "correct": false
+    },
+    {
+     "text": "More light",
+     "correct": false
+    },
+    {
+     "text": "The house gets cleaner",
+     "correct": false
+    },
+    {
+     "text": "A sudden drop in water intake",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before catching for slaughter, what should be withdrawn for the time the abattoir specifies?",
+   "options": [
+    {
+     "text": "Feed",
+     "correct": true
+    },
+    {
+     "text": "Water",
+     "correct": false
+    },
+    {
+     "text": "Light completely",
+     "correct": false
+    },
+    {
+     "text": "Ventilation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Water should be kept available to broilers until catching.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Overcrowding has no effect on litter quality or leg problems.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which signs show birds are too hot? (select all that apply)",
+   "options": [
+    {
+     "text": "Panting",
+     "correct": true
+    },
+    {
+     "text": "Wings held away from the body",
+     "correct": true
+    },
+    {
+     "text": "Huddling together",
+     "correct": false
+    },
+    {
+     "text": "Reduced activity and seeking cooler areas",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

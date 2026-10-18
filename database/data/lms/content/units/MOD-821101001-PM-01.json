@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-PM-01",
+ "title": "Prepare for and assist with the establishment of a vineyard",
+ "lessons": [
+  {
+   "title": "Getting ready to plant",
+   "minutes": 15,
+   "html": "<h3>Your part in a new vineyard</h3> <p>When the farm plants a new vineyard, many hands are needed. You will help to prepare the land, mark rows, handle young vines, plant them and build the trellis. Your supervisor tells you what to do. Do it carefully: these vines will grow here for many years.</p> <h4>Before work starts</h4> <ul> <li>Listen to the instructions for the day: which block, which task, which tools.</li> <li>Get your PPE: hat, boots, gloves, safety glasses for wire work.</li> <li>Collect your tools from the store: spade, pick, measuring tape, marking line, pegs, hammer, wire cutters, pliers.</li> <li>Check tools are not broken. A loose spade head can fly off.</li> <li>Take water with you.</li> </ul> <h4>Helping prepare the land</h4> <p>Big jobs like deep ripping and ploughing are done with tractors. You may help with:</p> <ul> <li>Picking up stones and old roots from the land.</li> <li>Removing old vines and burning or carrying away wood as instructed.</li> <li>Spreading lime or compost by hand where told.</li> <li>Helping lay irrigation pipes.</li> </ul> <p>Stay away from tractors when they work. Never ride on an implement. Make sure the driver sees you before you go near.</p> <h4>Marking out rows</h4> <ol> <li>The supervisor shows you the starting point and the row direction.</li> <li>Stretch the marking line or wire tight between two pegs.</li> <li>Measure the space between rows with the tape, as given (for example 2.5 m).</li> <li>Measure the space between vines along the line, and put a peg or mark at each place.</li> <li>Check your measurements twice. A mistake in the first row spoils every row after it.</li> </ol> <p>Some farms use GPS or a tractor with a marker. Then you check the marks and help fix mistakes.</p>"
+  },
+  {
+   "title": "Handling and planting young vines",
+   "minutes": 15,
+   "html": "<h3>Young vines are alive</h3> <p>Young grafted vines come from the nursery in bundles. They are alive, but they can die fast if they dry out.</p> <h4>Handling vines</h4> <ul> <li>Keep bundles in the shade, in a cool place.</li> <li>Keep roots wet. Cover them with wet sacks or keep them in water if your supervisor says so.</li> <li>Take only as many vines to the row as you can plant quickly.</li> <li>Do not throw, drop or step on vines. The graft union can break.</li> <li>Hold a vine by the stem, not by the roots.</li> <li>Check the labels; do not mix up cultivars or rootstocks.</li> </ul> <h4>Planting steps</h4> <ol> <li>Dig the hole at the marked place. Make it deep and wide enough for the roots.</li> <li>Trim roots only if the supervisor tells you, and only as long as shown.</li> <li>Put the vine in the hole and spread the roots out downwards and sideways. Do not fold roots up.</li> <li>Hold the vine so the <strong>graft union is above the soil</strong>, at the height shown.</li> <li>Fill the hole with loose soil. Press the soil firmly around the vine with your hands or foot. This removes air.</li> <li>Water the vine straight away, or check that the drippers are working.</li> <li>Put a stake next to the vine on the side shown, and tie the vine loosely.</li> <li>Fit a grow tube or vine guard if the farm uses them. They protect from wind, rabbits and spray.</li> </ol> <h4>Check your work</h4> <ul> <li>Is the vine straight?</li> <li>Is the graft union above the soil?</li> <li>Is the soil firm, with no hole around the stem?</li> <li>Has it been watered?</li> </ul> <p>Your supervisor may count the vines planted in each row. Help them by working in order and not skipping places.</p>"
+  },
+  {
+   "title": "Building the trellis and caring for new plants",
+   "minutes": 15,
+   "html": "<h3>Helping to build the trellis</h3> <p>The trellis is built in the first year or two. It holds the vines up for their whole life.</p> <h4>Posts</h4> <ul> <li>End posts are big and strong. They are set deep and held with an anchor in the ground.</li> <li>Line posts are put along the row at the spacing given.</li> <li>Posts are often driven in with a tractor post driver. Stay well away from the driver while it works. Never put your hands on top of a post being driven.</li> <li>Check posts stand straight and in line.</li> </ul> <h4>Wires</h4> <ul> <li>Roll out wire carefully. Do not let it kink.</li> <li>Fix wires to the end posts and through or onto the line posts at the heights given.</li> <li>Wires are tightened with a strainer. Tight wire is dangerous. Stand to the side, wear gloves and safety glasses.</li> <li>Never cut a tight wire without asking. It can whip back and injure you.</li> <li>Pick up wire pieces. Loose wire hurts animals and catches in tractors.</li> </ul> <h3>Care after planting</h3> <ul> <li><strong>Watering</strong>: young vines need regular water. Check drippers and report dry vines.</li> <li><strong>Weeds</strong>: hoe weeds around young vines carefully. Do not cut the vine.</li> <li><strong>Training</strong>: tie the strongest shoot to the stake so it grows straight up. Remove other shoots if told.</li> <li><strong>Suckers</strong>: remove shoots growing from the rootstock below the graft.</li> <li><strong>Dead vines</strong>: mark places where vines died, so they can be replaced (gap filling).</li> </ul> <h4>Key points</h4> <ul> <li>Check row and vine measurements twice before planting.</li> <li>Keep young vines cool and their roots wet.</li> <li>Plant with the graft union above the soil, firm the soil and water at once.</li> <li>Stand clear of post drivers and tight wires; wear gloves and glasses.</li> <li>Water, weed, tie up and report dead vines after planting.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should young vines be kept before planting?",
+   "options": [
+    {
+     "text": "Thrown in a pile on the land",
+     "correct": false
+    },
+    {
+     "text": "In a dry bag in the bakkie",
+     "correct": false
+    },
+    {
+     "text": "In the sun so they warm up",
+     "correct": false
+    },
+    {
+     "text": "In the shade with wet roots",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you check row measurements twice?",
+   "options": [
+    {
+     "text": "A mistake in the first row spoils every row after it",
+     "correct": true
+    },
+    {
+     "text": "The supervisor likes numbers",
+     "correct": false
+    },
+    {
+     "text": "To waste time",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you hold a young vine?",
+   "options": [
+    {
+     "text": "By the stem",
+     "correct": true
+    },
+    {
+     "text": "By the graft union only",
+     "correct": false
+    },
+    {
+     "text": "By the roots",
+     "correct": false
+    },
+    {
+     "text": "By the label",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after filling the planting hole with soil?",
+   "options": [
+    {
+     "text": "Cover the graft with soil",
+     "correct": false
+    },
+    {
+     "text": "Press the soil firmly and water the vine",
+     "correct": true
+    },
+    {
+     "text": "Pull the vine up a little",
+     "correct": false
+    },
+    {
+     "text": "Leave the soil loose",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you never cut a tight trellis wire without asking?",
+   "options": [
+    {
+     "text": "It can whip back and injure you",
+     "correct": true
+    },
+    {
+     "text": "It rusts",
+     "correct": false
+    },
+    {
+     "text": "It costs too much",
+     "correct": false
+    },
+    {
+     "text": "It makes noise",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may put your hand on top of a post while the post driver is working.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Places where vines died should be marked so they can be replaced.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which jobs are part of caring for young vines after planting? (select all that apply)",
+   "options": [
+    {
+     "text": "Breaking off the main shoot",
+     "correct": false
+    },
+    {
+     "text": "Checking drippers and watering",
+     "correct": true
+    },
+    {
+     "text": "Removing suckers",
+     "correct": true
+    },
+    {
+     "text": "Hoeing weeds carefully",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

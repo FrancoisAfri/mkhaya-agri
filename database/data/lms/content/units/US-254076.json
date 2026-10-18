@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-254076",
+ "title": "Demonstrate knowledge of hydraulics and flow measurement in water and wastewater systems",
+ "lessons": [
+  {
+   "title": "Basic hydraulic principles",
+   "minutes": 20,
+   "html": "<h3>Water at rest and in motion</h3><p>Hydraulics is the study of how water behaves. Whether you are working with irrigation, a farm water supply or a wastewater pond system, the same principles apply.</p><h4>Pressure and head</h4><ul><li>Pressure in still water increases with depth. At 10 m below the surface, water pressure is about 1 bar (100 kPa) above atmospheric pressure.</li><li><strong>Head</strong> is pressure expressed as a height of water in metres. It is a convenient way to add up lift, pressure and losses.</li><li>Pressure in a still, connected system is the same at the same level, regardless of pipe shape.</li></ul><h4>Flow and velocity</h4><p>Flow rate (Q) is volume per time, for example litres per second (l/s) or cubic metres per hour (m&sup3;/h). It relates to velocity (v) and the cross-sectional area (A) of the pipe or channel:</p><p><strong>Q = A &times; v</strong></p><p>This is the <strong>continuity principle</strong>: the same flow passing through a narrower section must move faster. Example: a pipe with an internal area of 0.01 m&sup2; carrying water at 1 m/s carries 0.01 m&sup3;/s, which is 10 l/s.</p><h4>Energy (Bernoulli's principle)</h4><p>Moving water has energy in three forms: pressure, velocity and elevation. Along a pipe without pumps, the total stays the same except for friction losses. Where water speeds up (in a constriction), its pressure drops. This principle is used by venturi meters and venturi fertiliser injectors.</p><h4>Friction losses</h4><p>Friction loss increases with pipe length, velocity, roughness and fittings, and decreases with larger diameter. Designers use friction tables or formulas (such as Hazen-Williams or Darcy-Weisbach) to calculate losses.</p><h4>Open channel flow</h4><p>In canals, furrows and wastewater channels, water flows under gravity with a free surface. Flow depends on slope, channel shape, roughness and depth.</p><h4>Water hammer</h4><p>Suddenly stopping flow, by fast valve closure or pump trip, creates a pressure surge that can burst pipes. Slow valve operation and surge protection prevent it.</p>"
+  },
+  {
+   "title": "Flow measurement devices",
+   "minutes": 20,
+   "html": "<h3>Why measure flow?</h3><p>Flow measurement shows how much water is abstracted, delivered or treated. It is needed for water licences and registration under the National Water Act 36 of 1998, for billing, for checking pump performance, for irrigation scheduling and for detecting leaks.</p><h4>Closed pipe meters</h4><table><tr><th>Meter</th><th>Principle</th><th>Notes</th></tr><tr><td>Mechanical (turbine, Woltmann, multi-jet)</td><td>Water turns a rotor; revolutions counted</td><td>Common and affordable; wear and sand affect accuracy</td></tr><tr><td>Electromagnetic (mag meter)</td><td>Water moving through a magnetic field generates a voltage proportional to velocity</td><td>No moving parts; accurate; needs full pipe and conductive liquid; suits wastewater</td></tr><tr><td>Ultrasonic (clamp-on or inline)</td><td>Sound pulses measure velocity</td><td>Clamp-on types can be fitted without cutting the pipe</td></tr><tr><td>Venturi and orifice meters</td><td>Pressure difference across a constriction</td><td>Robust; based on Bernoulli</td></tr></table><h4>Open channel measurement</h4><table><tr><th>Device</th><th>Principle</th></tr><tr><td>Sharp-crested weirs (V-notch, rectangular)</td><td>Water flows over a notch; flow calculated from the head (depth above the crest) using the weir's rating table</td></tr><tr><td>Flumes (such as Parshall flumes)</td><td>A shaped constriction; flow from water depth at a set point; less silting than weirs, suits wastewater</td></tr><tr><td>Velocity-area method</td><td>Measure velocity with a current meter at points across the channel and multiply by area</td></tr></table><h4>Simple field methods</h4><ul><li><strong>Volumetric:</strong> time how long it takes to fill a container of known volume. Q = volume &divide; time.</li><li><strong>Float method:</strong> time a float over a measured distance to estimate surface velocity, then multiply by area and a correction factor; rough but useful.</li></ul><h4>Installation essentials</h4><ul><li>Pipe meters need straight pipe lengths upstream and downstream, as the manufacturer specifies, to give smooth flow.</li><li>Pipes must be full; air pockets cause errors.</li><li>Install a strainer before mechanical meters on dirty water.</li><li>Weirs must be level, with a clean sharp crest and free fall of water, and the head measured at the correct distance upstream.</li></ul>"
+  },
+  {
+   "title": "Reading meters, calculations and records",
+   "minutes": 15,
+   "html": "<h3>Reading meters</h3><p>Most totalising meters show cumulative volume in cubic metres (m&sup3;), sometimes with extra dials for litres. To find volume used in a period, subtract the earlier reading from the later one.</p><p>Example: Monday 08:00 reading 12 450 m&sup3;; Tuesday 08:00 reading 12 690 m&sup3;. Volume in 24 hours = 240 m&sup3;. Average flow = 240 m&sup3; &divide; 24 h = 10 m&sup3;/h, which is about 2.8 l/s.</p><h4>Useful conversions</h4><table><tr><th>From</th><th>To</th></tr><tr><td>1 m&sup3;</td><td>1 000 litres</td></tr><tr><td>1 l/s</td><td>3.6 m&sup3;/h</td></tr><tr><td>1 m&sup3;/h</td><td>about 0.28 l/s</td></tr><tr><td>1 Ml (megalitre)</td><td>1 000 m&sup3;</td></tr><tr><td>1 bar</td><td>100 kPa, about 10 m head</td></tr></table><h4>Checking for problems</h4><ul><li><strong>Unusually high night flow</strong> in a supply network suggests leaks.</li><li><strong>Falling flow at the same pressure</strong> from a pump suggests wear or blockage.</li><li><strong>A meter that does not move</strong> while water flows may be blocked or broken.</li><li><strong>Readings that jump</strong> may mean air in the pipe or electronic faults.</li></ul><h4>Accuracy and maintenance</h4><ul><li>Clean strainers before mechanical meters.</li><li>Keep weir crests clean of algae and silt, and keep the approach channel clear.</li><li>Check electronic meters' zero and settings as the manufacturer recommends.</li><li>Have meters verified or calibrated at the intervals required by the licence or the organisation.</li></ul><h4>Records</h4><p>Record date, time, meter reading, calculated volume and flow, and observations. Use the same time each day for consistent comparisons. Report anomalies immediately. Records support licence compliance, water accounting and decisions on maintenance.</p><h4>Safety</h4><p>Take care near open channels, weirs and ponds; never work alone near deep or fast water. Wastewater contains pathogens: wear gloves, avoid splashes and wash hands. Meter chambers may be confined spaces.</p><h4>Key points</h4><ul><li>Q = A &times; v: narrower sections mean faster water.</li><li>Where water speeds up, pressure drops (Bernoulli), as used in venturi meters.</li><li>Choose pipe meters, weirs or flumes to suit the situation.</li><li>Install meters with straight runs and full pipes.</li><li>Subtract readings to find volume; record and report anomalies.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "According to the continuity principle, what happens to water velocity in a narrower section of pipe?",
+   "options": [
+    {
+     "text": "It slows down",
+     "correct": false
+    },
+    {
+     "text": "It speeds up",
+     "correct": true
+    },
+    {
+     "text": "It stays the same",
+     "correct": false
+    },
+    {
+     "text": "It stops",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pipe area is 0.01 m² and velocity is 1 m/s. What is the flow?",
+   "options": [
+    {
+     "text": "1 l/s",
+     "correct": false
+    },
+    {
+     "text": "100 l/s",
+     "correct": false
+    },
+    {
+     "text": "0.1 l/s",
+     "correct": false
+    },
+    {
+     "text": "10 l/s",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which meter has no moving parts and suits wastewater?",
+   "options": [
+    {
+     "text": "Electromagnetic (mag) meter",
+     "correct": true
+    },
+    {
+     "text": "Multi-jet meter",
+     "correct": false
+    },
+    {
+     "text": "Woltmann meter",
+     "correct": false
+    },
+    {
+     "text": "Turbine meter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is flow over a V-notch weir determined?",
+   "options": [
+    {
+     "text": "By the colour of the water",
+     "correct": false
+    },
+    {
+     "text": "By counting rotor turns",
+     "correct": false
+    },
+    {
+     "text": "From the head above the crest using a rating table",
+     "correct": true
+    },
+    {
+     "text": "By measuring pipe pressure",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Meter readings are 12 450 m³ and 24 hours later 12 690 m³. What is the average flow?",
+   "options": [
+    {
+     "text": "240 m³/h",
+     "correct": false
+    },
+    {
+     "text": "10 m³/h",
+     "correct": true
+    },
+    {
+     "text": "24 m³/h",
+     "correct": false
+    },
+    {
+     "text": "1 m³/h",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pipe flow meters need straight pipe lengths upstream and downstream for accurate readings.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Where water speeds up through a constriction, its pressure rises.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are open channel flow measurement devices? (select all that apply)",
+   "options": [
+    {
+     "text": "V-notch weir",
+     "correct": true
+    },
+    {
+     "text": "Parshall flume",
+     "correct": true
+    },
+    {
+     "text": "Electromagnetic meter",
+     "correct": false
+    },
+    {
+     "text": "Multi-jet meter",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

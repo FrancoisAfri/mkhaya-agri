@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119431",
+ "title": "Maintain the health of poultry",
+ "lessons": [
+  {
+   "title": "Knowing healthy and sick birds",
+   "minutes": 15,
+   "html": "<h3>Knowing healthy and sick birds</h3><p>You see the birds every day. That makes you the first person who can notice when something is wrong. Early action can save a whole flock.</p><h4>A healthy bird</h4><ul><li>Is alert and moves around.</li><li>Has bright, clear eyes and clean nostrils.</li><li>Eats and drinks well.</li><li>Has smooth, clean feathers.</li><li>Breathes quietly with a closed beak, unless it is very hot.</li><li>Has firm droppings.</li></ul><h4>A sick bird</h4><ul><li>Sits alone, fluffed up, with eyes half closed.</li><li>Does not eat or drink.</li><li>Coughs, sneezes, gasps or has a runny nose or eyes.</li><li>Has a swollen head, face or wattles.</li><li>Has watery, green, white or bloody droppings.</li><li>Limps, cannot stand or has twisted neck.</li></ul><h4>Flock signs</h4><p>Look at the whole flock, not just one bird. Warning signs are:</p><ul><li>more dead birds than normal;</li><li>a drop in feed or water use;</li><li>a drop in egg numbers or soft-shelled eggs;</li><li>birds growing slowly or unevenly.</li></ul><h4>What to do</h4><ol><li>Tell your supervisor straight away. Do not wait until tomorrow.</li><li>Write down what you saw, which house and how many birds.</li><li>Keep dead birds for the supervisor or vet to look at if asked.</li><li>Do not move birds or equipment from that house to other houses.</li></ol><p>Some diseases, such as bird flu and Newcastle disease, are controlled by law. A sudden rise in deaths must be reported quickly so the vet can act.</p><h4>Look every day</h4><p>Walk through the house slowly at least twice a day. Stand still for a moment and listen. Healthy birds make a soft, steady sound. Coughing, sneezing or very quiet birds can mean trouble. Look at birds in every part of the house, including corners.</p>"
+  },
+  {
+   "title": "Preventing disease and giving treatment",
+   "minutes": 15,
+   "html": "<h3>Preventing disease and giving treatment</h3><p>It is cheaper and better to stop disease than to treat it.</p><h4>Ways to keep birds healthy</h4><ul><li><strong>Good care</strong>: clean water, correct feed, right temperature and fresh air.</li><li><strong>Not too many birds</strong>: crowding causes stress, pecking and disease.</li><li><strong>Dry litter</strong>: wet litter grows germs and parasites.</li><li><strong>Bio-security</strong>: foot baths, clean clothes, no visitors, no wild birds.</li><li><strong>Vaccination</strong>: following the vet's programme.</li></ul><h4>Vaccination</h4><p>Vaccines help birds fight a disease before it comes. They are given by eye drop, nose drop, in the water, by spray or by injection. Your supervisor will show you the method.</p><ul><li>Keep vaccines cold, as the label says, and out of the sun.</li><li>Use them before the expiry date.</li><li>For water vaccination, the water must be free of disinfectants that kill the vaccine. Follow the instructions exactly.</li><li>Record the date, vaccine, batch number and house.</li></ul><h4>Giving medicine</h4><ul><li>Only give medicine your supervisor or vet tells you to.</li><li>Use the dose on the label or the vet's instruction. Never guess.</li><li>Medicines have withdrawal periods: eggs or meat cannot be sold for a time after treatment. Follow the label and record the treatment so no product is sold too early.</li><li>Wear gloves and wash your hands after handling medicines.</li><li>Return empty containers for safe disposal.</li></ul><h4>Parasites</h4><p>Mites and lice live on birds and in cracks. Worms live in the gut. Look for pale birds, feather loss and mites on eggs or perches, and report them.</p><h4>Key points</h4><ul><li>Check birds and flock signs every day.</li><li>Report sick birds and sudden deaths at once.</li><li>Prevention through good care, bio-security and vaccination is best.</li><li>Keep vaccines cold and record every vaccination.</li><li>Give medicine only as instructed and respect withdrawal periods.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a sign of a sick bird?",
+   "options": [
+    {
+     "text": "Bright, clear eyes",
+     "correct": false
+    },
+    {
+     "text": "Sitting alone, fluffed up, eyes half closed",
+     "correct": true
+    },
+    {
+     "text": "Eating and drinking well",
+     "correct": false
+    },
+    {
+     "text": "Smooth, clean feathers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see more dead birds than normal in a house. What should you do first?",
+   "options": [
+    {
+     "text": "Wait to see if it gets better tomorrow",
+     "correct": false
+    },
+    {
+     "text": "Move the birds to another house",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor straight away",
+     "correct": true
+    },
+    {
+     "text": "Give medicine you have at home",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should vaccines be kept?",
+   "options": [
+    {
+     "text": "Cold, as the label says, and out of the sun",
+     "correct": true
+    },
+    {
+     "text": "In the sun to keep warm",
+     "correct": false
+    },
+    {
+     "text": "In the feed store",
+     "correct": false
+    },
+    {
+     "text": "Anywhere, they do not spoil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a withdrawal period?",
+   "options": [
+    {
+     "text": "The time birds rest after vaccination",
+     "correct": false
+    },
+    {
+     "text": "The time to clean a house",
+     "correct": false
+    },
+    {
+     "text": "The time a worker takes leave",
+     "correct": false
+    },
+    {
+     "text": "The time after treatment when eggs or meat may not be sold",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why can disinfectant in the drinking water be a problem during water vaccination?",
+   "options": [
+    {
+     "text": "It makes the water too cold",
+     "correct": false
+    },
+    {
+     "text": "It can kill the vaccine",
+     "correct": true
+    },
+    {
+     "text": "It makes birds drink too much",
+     "correct": false
+    },
+    {
+     "text": "It changes the egg colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Preventing disease is usually cheaper and better than treating it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If you are not sure of the dose, it is fine to guess.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to keep poultry healthy? (select all that apply)",
+   "options": [
+    {
+     "text": "Keeping litter dry",
+     "correct": true
+    },
+    {
+     "text": "Putting too many birds in a house",
+     "correct": false
+    },
+    {
+     "text": "Following the vaccination programme",
+     "correct": true
+    },
+    {
+     "text": "Using foot baths and clean clothes",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

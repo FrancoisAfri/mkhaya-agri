@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-377301",
+ "title": "Organise and record the transportation of livestock, game and agricultural products",
+ "lessons": [
+  {
+   "title": "Moving, loading and unloading livestock, game and products",
+   "minutes": 16,
+   "html": "<h3>Moving livestock and game</h3>\n<p>Animals move best when handlers work with their natural behaviour. Cattle and sheep have a <em>flight zone</em>: step into it and they move away; step out and they stop. They also follow a leader and move towards light and open space.</p>\n<ul><li>Work quietly; no shouting, dogs biting or sticks. Use flags, paddles or plastic bags on sticks.</li>\n<li>Move at a walking pace, especially in heat. Plan early-morning moves in summer.</li>\n<li>Remove distractions in races: shadows, chains, puddles, people in the way.</li>\n<li>Game is far more easily stressed. Game capture and transport is done by trained capture teams using bomas, plastic curtains, darkened crates and often veterinary sedation.</li></ul>\n<h4>Moving agricultural products</h4>\n<p>Products such as fruit, vegetables, grain, wool and hides must be moved in a way that keeps their quality. Use clean vehicles, cover loads against sun and rain, keep cold chain for perishable produce, stack crates so they cannot fall, and never load chemicals together with food products.</p>\n<h4>Loading and unloading</h4>\n<ul><li>Use a ramp with non-slip flooring, solid sides and a gentle slope, lined up with the truck with no gap.</li>\n<li>Check the truck: clean, no sharp edges, partitions in place, ventilation and good flooring.</li>\n<li>Load to the density in the industry code of practice for the species and weather. Overloading and underloading both cause injury.</li>\n<li>Separate horned from polled cattle, bulls from cows, and large from small animals.</li>\n<li>Do not load animals that are sick, injured, heavily pregnant or too weak to travel, unless a vet approves.</li>\n<li>Unload promptly at the destination, give water and rest, and check for injuries.</li></ul>\n<p>The Animals Protection Act 71 of 1962 makes it an offence to transport animals in a way that causes them unnecessary suffering. The driver and the person who loaded can both be held responsible.</p>"
+  },
+  {
+   "title": "Identification, weighing, negotiating transport and documents",
+   "minutes": 18,
+   "html": "<h3>Identifying and weighing</h3>\n<p>Every animal sent off the farm must be identifiable. The Animal Identification Act 6 of 2002 requires livestock owners to mark animals with their registered identification mark, by branding or tattooing, and many farms also use ear tags. Check marks and tag numbers against your list before loading.</p>\n<p>Weighing gives the basis for payment. Livestock are weighed on a calibrated livestock scale or a weighbridge (full truck weight minus empty truck weight). Products are weighed in bags, bins or bulk. Record the weight, date, scale used and the person who weighed. Animals lose weight in transport, so note whether weights are farm weights or delivered weights.</p>\n<h4>Negotiating transport</h4>\n<p>When hiring a transporter, compare and agree on:</p>\n<ul><li>Price: per kilometre, per load or per head, including return trips and waiting time.</li>\n<li>Vehicle type and condition, partitions, livestock or refrigerated body.</li>\n<li>Driver experience with animals and adherence to industry codes.</li>\n<li>Insurance for animals and goods in transit, and who carries the risk for deaths or damage.</li>\n<li>Timing: departure, rest stops, arrival time at the abattoir, auction or buyer.</li></ul>\n<p>Get the agreement in writing, even as a simple quote and acceptance by email or WhatsApp.</p>\n<h4>Documentation</h4>\n<table><tr><th>Document</th><th>Purpose</th></tr>\n<tr><td>Stock removal document</td><td>Under the Stock Theft Act 57 of 1959, a person transporting livestock must carry a document from the owner identifying the animals</td></tr>\n<tr><td>Veterinary movement permit</td><td>Needed for animals leaving or entering disease control areas</td></tr>\n<tr><td>Game transport permit</td><td>Issued by the provincial conservation authority</td></tr>\n<tr><td>Weighbridge tickets and delivery notes</td><td>Proof of quantity for payment</td></tr>\n<tr><td>Treatment records</td><td>Show that withdrawal periods were observed</td></tr></table>\n<p>Keep copies of all documents on file.</p>\n<h4>Key points</h4>\n<ul><li>Use animal behaviour, not force, to move and load stock.</li>\n<li>Load to the code of practice density and never load unfit animals.</li>\n<li>Identify and weigh everything that leaves the farm and record it.</li>\n<li>Agree price, vehicle, insurance and timing with transporters in writing.</li>\n<li>Carry stock removal documents and any veterinary or game permits.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What happens when a handler steps into an animal's flight zone?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "The animal moves away",
+     "correct": true
+    },
+    {
+     "text": "The animal lies down",
+     "correct": false
+    },
+    {
+     "text": "The animal runs towards the handler",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which animals should not be loaded unless a vet approves?",
+   "options": [
+    {
+     "text": "Polled cattle",
+     "correct": false
+    },
+    {
+     "text": "Animals with ear tags",
+     "correct": false
+    },
+    {
+     "text": "Healthy weaners",
+     "correct": false
+    },
+    {
+     "text": "Sick, injured or heavily pregnant animals",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is weight on a weighbridge worked out?",
+   "options": [
+    {
+     "text": "Empty truck weight only",
+     "correct": false
+    },
+    {
+     "text": "Full truck weight minus empty truck weight",
+     "correct": true
+    },
+    {
+     "text": "Number of animals times ten",
+     "correct": false
+    },
+    {
+     "text": "The driver's estimate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Under which Act must a person transporting livestock carry a document identifying the animals?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Stock Theft Act 57 of 1959",
+     "correct": true
+    },
+    {
+     "text": "Performing Animals Protection Act 24 of 1935",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who issues a game transport permit?",
+   "options": [
+    {
+     "text": "The provincial conservation authority",
+     "correct": true
+    },
+    {
+     "text": "The auctioneer",
+     "correct": false
+    },
+    {
+     "text": "The local co-op",
+     "correct": false
+    },
+    {
+     "text": "The transporter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chemicals may be loaded on the same vehicle as fresh food products if the trip is short.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Both the driver and the person who loaded can be held responsible for cruel transport.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be agreed when negotiating transport? (select all that apply)",
+   "options": [
+    {
+     "text": "Price and how it is calculated",
+     "correct": true
+    },
+    {
+     "text": "Insurance and who carries the risk",
+     "correct": true
+    },
+    {
+     "text": "Timing and rest stops",
+     "correct": true
+    },
+    {
+     "text": "The transporter's favourite sport team",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

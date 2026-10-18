@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335755",
+ "title": "Receive and despatch stud horses",
+ "lessons": [
+  {
+   "title": "Receiving stud horses on arrival",
+   "minutes": 15,
+   "html": "<h3>Planning for arrivals</h3> <p>Stud farms receive mares coming to be covered, mares with foals at foot, young stock for rearing and sometimes stallions. Each arrival brings a risk of disease and injury and must be managed carefully. Good reception also builds trust with clients who are sending valuable animals.</p> <h4>Before the horse arrives</h4> <ul> <li>Confirm with the owner or agent: date and time, the horse's name and identity, purpose of the visit.</li> <li>Request the required documents in advance: identity document or passport with markings and microchip number, vaccination record (for example African horse sickness, equine influenza where required), any movement permits, and veterinary certificates required by the stud's biosecurity policy.</li> <li>Prepare an isolation or quarantine stable or paddock, cleaned and disinfected, with water, hay and safe fencing.</li> <li>Have a headcollar, lead rope and handlers ready at the offloading point.</li> </ul> <h4>On arrival</h4> <ol> <li>Meet the transporter and check the paperwork before unloading where possible.</li> <li>Unload calmly onto a safe, non-slip area.</li> <li><strong>Identify the horse</strong>: compare markings, brand and microchip against the documents. Never accept a horse whose identity does not match without reporting to the stud manager.</li> <li>Check the horse's general condition: injuries from travel, lameness, nasal discharge, cough, sweating, signs of colic or dehydration. Take the temperature.</li> <li>Note the condition of the horse and any injuries on the arrival form, sign it, and have the transporter sign it too. Take photographs of any wounds.</li> <li>Check what came with the horse: rugs, headcollar, feed, documents. List them.</li> </ol> <h4>Why recording matters</h4> <p>A clear record protects the stud. If a mare arrives with a wound or a cough, it is documented that it happened before she arrived. It also allows the vet to compare later findings with the arrival state.</p>"
+  },
+  {
+   "title": "Treating and settling the new arrival",
+   "minutes": 15,
+   "html": "<h3>Isolation</h3> <p>New arrivals should be kept apart from resident horses for a period set by the stud's biosecurity plan and veterinarian. During this time:</p> <ul> <li>Use separate buckets, feed bowls, grooming kit and tack for isolated horses.</li> <li>Handle isolated horses last, or use dedicated staff, and wash hands and change overalls afterwards.</li> <li>Take and record the temperature twice daily. Report any rise immediately.</li> <li>Watch for nasal discharge, cough, swollen glands under the jaw, diarrhoea or dullness.</li> </ul> <h4>Treatment procedures</h4> <p>Many studs carry out standard procedures on arrival, as instructed by the stud vet and the owner. These may include:</p> <ul> <li>Deworming, based on the stud's parasite programme or a faecal egg count</li> <li>Vaccinations if records are not complete, by or under the instruction of the vet</li> <li>Swabs or blood tests for breeding mares, as the stud vet requires</li> <li>Hoof trimming or removing hind shoes for mares that will be covered or turned out with others</li> <li>Treating any travel wounds as the vet instructs</li> </ul> <p>Only give treatments that have been authorised, and record the product, dose, batch number, date and who gave it. Follow the product label and the vet's instructions.</p> <h4>Settling in</h4> <ul> <li>Offer water straight away and good hay. Keep the same type of feed the horse is used to if possible, and change gradually.</li> <li>Introduce to companions and the main herd gradually after isolation, starting with a quiet companion over a fence.</li> <li>Watch mares and foals closely: the foal must be suckling and the mare's udder must not stay tight and full.</li> <li>Record daily observations.</li> </ul>"
+  },
+  {
+   "title": "Despatching stud horses",
+   "minutes": 15,
+   "html": "<h3>Planning the departure</h3> <ol> <li>Confirm the date, time, transporter and destination with the owner.</li> <li>Prepare documents: identity document or passport, vaccination records, veterinary certificates or movement permits required, and covering or pregnancy test certificates for mares.</li> <li>Prepare a handover report: feeding, treatments given, covering dates, scan results, any health issues during the stay.</li> <li>Make sure the account and any instructions from the stud manager about release are cleared.</li> </ol> <h4>Preparing the horse</h4> <ul> <li>Check the horse is fit to travel: sound, normal temperature, eating and drinking. If not, inform the manager before loading.</li> <li>Groom the horse; it represents the stud.</li> <li>Fit travel equipment: headcollar, travel boots or bandages, tail guard, and a suitable sheet for the weather.</li> <li>Pack the horse's own belongings and check them against the arrival list.</li> </ul> <h4>Loading</h4> <p>Check the vehicle is safe and clean. Load calmly with enough helpers. For mares with foals, load the mare first and keep the foal close by her side; never separate them. Close the breech bar before tying the mare.</p> <h4>Handover to the transporter</h4> <ul> <li>Confirm identity against documents once more.</li> <li>Hand over documents and the report; get a signature on the despatch form.</li> <li>Record the time of departure and the condition of the horse.</li> <li>Inform the owner the horse has left.</li> </ul> <h4>After departure</h4> <p>Clean and disinfect the stable, buckets and equipment the horse used. Update the stud's records. Report any problems that occurred during despatch.</p> <h4>Key points</h4> <ul> <li>Prepare isolation stables and request documents before arrival.</li> <li>Check identity, condition and temperature on arrival and record them with the transporter's signature.</li> <li>Isolate new arrivals with separate equipment and twice-daily temperatures.</li> <li>Give only authorised treatments and record product, dose and batch.</li> <li>On despatch, check fitness to travel, hand over documents and a report, and get a signature.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you compare to identify an arriving horse?",
+   "options": [
+    {
+     "text": "Its colour only",
+     "correct": false
+    },
+    {
+     "text": "Markings, brand and microchip against the documents",
+     "correct": true
+    },
+    {
+     "text": "Its temperament",
+     "correct": false
+    },
+    {
+     "text": "The transporter's name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the transporter sign the arrival form?",
+   "options": [
+    {
+     "text": "For fun",
+     "correct": false
+    },
+    {
+     "text": "To document the horse's condition on arrival",
+     "correct": true
+    },
+    {
+     "text": "To pay the stud",
+     "correct": false
+    },
+    {
+     "text": "To book the next trip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are new arrivals isolated?",
+   "options": [
+    {
+     "text": "To punish them",
+     "correct": false
+    },
+    {
+     "text": "To reduce the risk of spreading disease to resident horses",
+     "correct": true
+    },
+    {
+     "text": "Because they are tired",
+     "correct": false
+    },
+    {
+     "text": "To save bedding",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be recorded when a treatment is given?",
+   "options": [
+    {
+     "text": "Only the date",
+     "correct": false
+    },
+    {
+     "text": "Product, dose, batch number, date and who gave it",
+     "correct": true
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "The horse's favourite food",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When loading a mare with a foal, what should you do?",
+   "options": [
+    {
+     "text": "Load the foal in a separate vehicle",
+     "correct": false
+    },
+    {
+     "text": "Load the mare first and keep the foal close by her side",
+     "correct": true
+    },
+    {
+     "text": "Leave the foal at the stud",
+     "correct": false
+    },
+    {
+     "text": "Tie the foal to the mare's tail",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Isolated horses can share buckets and grooming kits with resident horses.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A horse that is not fit to travel should be reported to the manager before loading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which documents may be needed when despatching a stud horse? (select all that apply)",
+   "options": [
+    {
+     "text": "Identity document or passport",
+     "correct": true
+    },
+    {
+     "text": "Vaccination records",
+     "correct": true
+    },
+    {
+     "text": "Covering or pregnancy test certificates for mares",
+     "correct": true
+    },
+    {
+     "text": "The groom's payslip",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

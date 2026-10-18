@@ -1,0 +1,187 @@
+{
+  "unit_key": "US-243886",
+  "title": "Assess the quality of peaches and nectarines for export",
+  "lessons": [
+    {
+      "title": "The peach and nectarine export industry, terms and requirements",
+      "minutes": 18,
+      "html": "<h3>Background and structure</h3><p>Peaches and nectarines are stone fruit grown mainly in the Western Cape, in areas such as the Ceres region, the Klein Karoo, the Breede River valley, Wolseley, Tulbagh and the Franschhoek and Paarl areas. Yellow cling peaches are grown largely for canning, while fresh peaches and nectarines (including white- and yellow-fleshed types) are sold locally and exported, mainly to the UK, Europe and the Middle East. The industry falls under <strong>Hortgro</strong>, which represents stone fruit growers.</p><p>A nectarine is a smooth-skinned form of peach. Both are climacteric, soft when ripe and sensitive to handling and temperature, so they need careful packing and cooling. The chain includes growers, packhouses, cold stores, exporters, shipping lines and overseas importers.</p><h3>Terminology</h3><ul><li><strong>Ground colour:</strong> the background colour; green means immature.</li><li><strong>Blush / red colour:</strong> overcolour, required at certain levels for some cultivars and classes.</li><li><strong>Firmness:</strong> penetrometer reading; must be high enough to survive shipping.</li><li><strong>TSS:</strong> sugar content in degrees Brix.</li><li><strong>Split pit:</strong> a stone that has split open, sometimes leading to internal decay.</li><li><strong>Woolliness / mealiness:</strong> dry, mealy flesh that does not release juice, a chilling-related disorder.</li><li><strong>Internal browning and flesh bleeding:</strong> discolouration of flesh after storage.</li><li><strong>Pressure bruising:</strong> flattened, discoloured areas from tight packing.</li></ul><h3>Legislative and logistical requirements</h3><p>Fresh peaches and nectarines for export are regulated under the Agricultural Product Standards Act 119 of 1990, with PPECB inspecting under that Act and overseeing the cold chain under the PPECB Act 9 of 1983. Some markets impose phytosanitary requirements, for example regarding fruit fly, and require orchard and packhouse registration. Residue limits apply.</p><p>The logistics are tight because the fruit softens quickly. Exporters plan harvest by maturity, pick in the cool of the day, pack in single-layer trays or punnets, cool quickly, and move fruit to port and onto the vessel with minimal delay.</p>"
+    },
+    {
+      "title": "Sampling, external and internal quality",
+      "minutes": 18,
+      "html": "<h3>Selecting a representative sample</h3><ul><li>Use the sample size prescribed in the export standards.</li><li>Select cartons at random across pallets and positions.</li><li>Check cultivar, class, count and codes against the contents.</li><li>Handle fruit gently; peaches bruise easily even during inspection.</li><li>Record pallet and carton numbers.</li></ul><h3>External quality</h3><ul><li><strong>Size and count:</strong> within the declared range and uniform.</li><li><strong>Ground colour and blush:</strong> against the chart for the cultivar.</li><li><strong>Shape:</strong> typical of the cultivar; uneven sutures or deformities limited by class.</li><li><strong>Skin defects:</strong> bruises, pressure marks, wind and limb rub, hail damage, sunburn, cracks and russeting on nectarines.</li><li><strong>Pest damage:</strong> fruit fly stings, thrips damage (especially on nectarines), oriental fruit moth and scale.</li><li><strong>Diseases:</strong> brown rot, which spreads fast in a carton, and other decays.</li><li><strong>Stem cavity:</strong> tears or splits.</li><li><strong>Packing:</strong> fruit firmly placed in trays, correct count, no loose fruit.</li></ul><h3>Internal quality</h3><p>Cut the required number of fruit and record:</p><ul><li><strong>Firmness</strong> using a calibrated penetrometer on both cheeks after removing a thin skin disc.</li><li><strong>TSS</strong> with a refractometer.</li><li><strong>Flesh condition:</strong> woolliness, internal browning, flesh bleeding (red streaks in yellow flesh, often normal for some cultivars) and gel breakdown.</li><li><strong>Stone:</strong> split pits and any internal decay or larvae.</li></ul><p>Some disorders such as woolliness show only after storage and ripening. Where the programme requires, a sample may be ripened after a simulated shipping period to check eating quality. This shelf-life evaluation helps predict how the consignment will perform in the market.</p><h4>Recording your results</h4><p>Record every reading per carton as you go. Note the cultivar, because firmness and TSS minimums differ between cultivars. Keep cut fruit separate from whole fruit so nothing is counted twice, and recheck any unusual reading with a calibrated instrument before recording it as a defect.</p>"
+    },
+    {
+      "title": "Cold chain regimes and the outcome",
+      "minutes": 18,
+      "html": "<h3>Monitoring the cold chain</h3><p>Peaches and nectarines are particularly prone to <strong>chilling injury</strong>, showing as woolliness, internal browning and flesh that fails to ripen properly. Research has shown that the risk depends on the storage temperature band and time, and on cultivar. For this reason, industry-developed regimes are followed, which may include specific holding temperatures or stepped temperatures for certain cultivars and markets. The exporter's shipping instruction states the regime.</p><p>The assessor checks:</p><ul><li>time from harvest to cooling, and that fruit was not left in the sun or on a warm dock;</li><li>pulp temperatures with a calibrated probe before loading;</li><li>cold store records and container set points against the regime;</li><li>data logger placement and container condition;</li><li>stacking that allows air flow through the pallets.</li></ul><h3>Determining the outcome</h3><ol><li>Calculate external defect percentages per category.</li><li>Compare firmness and TSS against the minimums and maximums.</li><li>Record internal disorders and any decay or larvae.</li><li>Check packing, marking and registration codes.</li><li>Decide <strong>pass</strong>, <strong>downgrade</strong> or <strong>reject</strong>, and record reasons.</li></ol><p>Example: a consignment of nectarines has good colour and TSS, but brown rot is found in several sample cartons. Because brown rot spreads rapidly during transport, the decay result may lead to rejection for the market even though other measures pass. The report should note the cartons, the percentage found and the likely cause, such as poor orchard spray coverage or wounds from handling.</p><h4>Key points</h4><ul><li>Hortgro represents stone fruit growers, including peaches and nectarines.</li><li>Ground colour, firmness and TSS indicate maturity.</li><li>Woolliness and internal browning are chilling-related disorders.</li><li>Follow the cultivar's approved temperature regime.</li><li>Brown rot spreads fast and is a serious finding.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Dry, mealy peach flesh that does not release juice is called what?",
+      "options": [
+        {
+          "text": "Split pit",
+          "correct": false
+        },
+        {
+          "text": "Woolliness",
+          "correct": true
+        },
+        {
+          "text": "Russeting",
+          "correct": false
+        },
+        {
+          "text": "Sap burn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is a nectarine?",
+      "options": [
+        {
+          "text": "A type of plum",
+          "correct": false
+        },
+        {
+          "text": "A cross between an apricot and a pear",
+          "correct": false
+        },
+        {
+          "text": "A smooth-skinned form of peach",
+          "correct": true
+        },
+        {
+          "text": "A citrus fruit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which decay spreads rapidly in stone fruit cartons and is a serious finding?",
+      "options": [
+        {
+          "text": "Brown rot",
+          "correct": true
+        },
+        {
+          "text": "Green mould on citrus",
+          "correct": false
+        },
+        {
+          "text": "Bitter pit",
+          "correct": false
+        },
+        {
+          "text": "Superficial scald",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why may a sample be ripened after a simulated shipping period?",
+      "options": [
+        {
+          "text": "To make it easier to eat",
+          "correct": false
+        },
+        {
+          "text": "To increase the count",
+          "correct": false
+        },
+        {
+          "text": "To remove blush",
+          "correct": false
+        },
+        {
+          "text": "To reveal disorders like woolliness that only show after storage",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Flattened, discoloured areas from tight packing are called what?",
+      "options": [
+        {
+          "text": "Hail damage",
+          "correct": false
+        },
+        {
+          "text": "Sunburn",
+          "correct": false
+        },
+        {
+          "text": "Pressure bruising",
+          "correct": true
+        },
+        {
+          "text": "Thrips scarring",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Peaches and nectarines are climacteric fruit.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The risk of chilling injury in peaches is the same for every cultivar and temperature.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these are internal quality checks for peaches and nectarines? (select all that apply)",
+      "options": [
+        {
+          "text": "Firmness with a penetrometer",
+          "correct": true
+        },
+        {
+          "text": "TSS with a refractometer",
+          "correct": true
+        },
+        {
+          "text": "Split pits",
+          "correct": true
+        },
+        {
+          "text": "Ground colour chart",
+          "correct": false
+        },
+        {
+          "text": "Carton count",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

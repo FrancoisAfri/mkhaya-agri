@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123152",
+ "title": "Bin and blend wool and mohair fibres",
+ "lessons": [
+  {
+   "title": "What binning and blending are",
+   "minutes": 15,
+   "html": "<h3>Making bigger, even lots</h3><p>Many farmers, especially small-scale and communal farmers, send only a few bales or bags of fibre. Small lots are hard to sell and get lower prices, because buyers want big lots of the same type. In the broker's store, fibre of the same type from different farmers can be sorted into <strong>bins</strong> and then <strong>blended</strong> (mixed) and pressed into new bales to make bigger, even lots.</p><h4>Words to know</h4><ul><li><strong>Bin</strong> – a large container or compartment where one type of fibre is collected.</li><li><strong>Bulk classing</strong> – sorting small lots into the right type before binning.</li><li><strong>Blending</strong> – mixing fibre of the same description so the new lot is even.</li><li><strong>Interlotting</strong> – combining small lots of the same type from different farmers into one sale lot, while keeping a record of each farmer's share.</li></ul><h4>Why it helps</h4><ul><li>Bigger lots get more buyer interest and better prices.</li><li>Even lots test and process better.</li><li>Small farmers can sell into the same market as big farmers.</li></ul><h4>The key rule</h4><p>Only fibre of the same type may be put together. Mixing different types — for example fine with strong wool, or kid mohair with adult mohair — lowers the value of the whole lot.</p>"
+  },
+  {
+   "title": "Sorting into bins",
+   "minutes": 15,
+   "html": "<h3>Getting the right fibre into the right bin</h3><h4>Before binning</h4><ul><li>Each farmer's fibre is received, weighed and registered so we know exactly how much belongs to whom.</li><li>A trained classer decides the type of each lot (for example by fineness, length, colour and condition).</li><li>Bins are clearly marked with the type they hold.</li></ul><h4>Steps</h4><ol><li>Check the label on the farmer's lot and the classer's instruction.</li><li>Open the bag or bale carefully. Do not leave pieces of pack, string or plastic in the fibre.</li><li>Remove contamination you see — plastic, string, stones, dags (dung-covered pieces) — as the procedure says.</li><li>Put the fibre into the correct bin only.</li><li>Record the farmer, lot, mass and bin number.</li></ol><h4>Keep bins separate</h4><ul><li>Never put fibre in a bin because it is the nearest one.</li><li>If you are not sure of the type, ask the classer.</li><li>Keep the floor around bins clean so loose fibre does not mix between bins.</li><li>Coloured or stained fibre must be kept out of white fibre bins.</li></ul><h4>Dust and lifting</h4><p>Opening bales makes dust. Wear a dust mask if given. Bags of fibre are bulky — lift with your legs, and use trolleys where you can.</p><h4>Labels on bins</h4><p>Each bin has a label with the type of fibre and the bin number. Check the label every time before you add fibre. If a label is missing or hard to read, stop and tell the supervisor so it can be replaced before more fibre goes in.</p>"
+  },
+  {
+   "title": "Blending, pressing and records",
+   "minutes": 15,
+   "html": "<h3>From bin to new bale</h3><h4>Blending</h4><p>When a bin is full enough, the fibre is mixed so the new bales are even. Fibre is taken from different parts of the bin, not only the top, so each new bale has a fair mix. Some stores use machines for blending; only trained operators may run them, with all guards in place.</p><h4>Pressing</h4><ul><li>Blended fibre is pressed into new bale packs with the store's press.</li><li>Each new bale gets a new number and the lot mark.</li><li>New bales are weighed and recorded.</li></ul><h4>Records are very important</h4><p>When fibre from many farmers is put together, the store must still know how much each farmer put in. When the lot is sold, each farmer is paid their share. Records must show:</p><table><tr><th>Record</th><th>Why</th></tr><tr><td>Farmer, lot and mass put into each bin</td><td>To work out each farmer's share</td></tr><tr><td>Bin type and number</td><td>To trace what went where</td></tr><tr><td>New bale numbers and masses</td><td>To check total in equals total out</td></tr></table><p>The mass going in should match the mass coming out, apart from small losses. Big differences must be reported.</p><h4>Honesty</h4><p>Never add poor fibre to a good bin to \"hide\" it. It will show in the test results and hurt every farmer in the lot.</p><h4>Key points</h4><ul><li>Binning and blending make bigger, even lots that sell better.</li><li>Only fibre of the same type may be put together.</li><li>Remove contamination and keep coloured fibre out of white bins.</li><li>Record every farmer's mass into each bin so each is paid their share.</li><li>Total mass in should match total mass out; report big differences.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are small lots binned and blended?",
+   "options": [
+    {
+     "text": "To make bigger, even lots that get better prices",
+     "correct": true
+    },
+    {
+     "text": "To make them smaller",
+     "correct": false
+    },
+    {
+     "text": "To avoid testing",
+     "correct": false
+    },
+    {
+     "text": "To change the colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which fibre may be put in the same bin?",
+   "options": [
+    {
+     "text": "Any fibre in the store",
+     "correct": false
+    },
+    {
+     "text": "Kid and adult mohair together",
+     "correct": false
+    },
+    {
+     "text": "Fine and strong wool together",
+     "correct": false
+    },
+    {
+     "text": "Fibre of the same type only",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the mass from each farmer be recorded?",
+   "options": [
+    {
+     "text": "So each farmer is paid their share when the lot is sold",
+     "correct": true
+    },
+    {
+     "text": "To decide the colour of the bale",
+     "correct": false
+    },
+    {
+     "text": "For the weather report",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You are not sure which bin a lot belongs in. What do you do?",
+   "options": [
+    {
+     "text": "Ask the classer",
+     "correct": true
+    },
+    {
+     "text": "Throw it away",
+     "correct": false
+    },
+    {
+     "text": "Put it in the nearest bin",
+     "correct": false
+    },
+    {
+     "text": "Mix it into all bins",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should fibre be taken from a bin for blending?",
+   "options": [
+    {
+     "text": "Only from the bottom",
+     "correct": false
+    },
+    {
+     "text": "From different parts of the bin",
+     "correct": true
+    },
+    {
+     "text": "Only from the top",
+     "correct": false
+    },
+    {
+     "text": "Only the cleanest fibre",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Coloured or stained fibre must be kept out of white fibre bins.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Adding poor fibre to a good bin is a good way to hide it and earn more.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be removed before fibre goes into a bin? (select all that apply)",
+   "options": [
+    {
+     "text": "Plastic and string",
+     "correct": true
+    },
+    {
+     "text": "Clean fibre of the correct type",
+     "correct": false
+    },
+    {
+     "text": "Stones",
+     "correct": true
+    },
+    {
+     "text": "Dags",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

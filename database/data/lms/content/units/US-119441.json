@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119441",
+ "title": "Maintain bio-security in poultry production",
+ "lessons": [
+  {
+   "title": "Principles of biosecurity",
+   "minutes": 15,
+   "html": "<h3>Keeping disease out and containing it</h3><p>Biosecurity is the set of practices that prevents disease-causing organisms from entering a poultry farm (bio-exclusion), spreading within it, and leaving it to infect other farms (bio-containment). It is the cheapest and most effective form of disease control. Outbreaks of highly pathogenic avian influenza in South Africa have led to the culling of millions of birds and serious losses, showing how important it is. Avian influenza and Newcastle disease are controlled diseases under the Animal Diseases Act 35 of 1984, and must be reported to the state veterinarian.</p><h4>How diseases spread</h4><ul><li><strong>Live birds</strong>: new stock, wild birds, backyard poultry</li><li><strong>People</strong>: on boots, clothes, hands and hair</li><li><strong>Vehicles and equipment</strong>: feed trucks, catching crews' crates, egg trays, shared tools</li><li><strong>Pests</strong>: rats, mice, flies, litter beetles</li><li><strong>Feed and water</strong>: contaminated by rodents, wild birds or surface water</li><li><strong>Air and dust</strong>: over short distances between houses and farms</li><li><strong>Dead birds and manure</strong>: if not disposed of properly</li></ul><h4>Levels of biosecurity</h4><table><tr><th>Level</th><th>Examples</th></tr><tr><td>Conceptual</td><td>Site location away from other poultry and water birds; single-age farms; distance between houses</td></tr><tr><td>Structural</td><td>Perimeter fence, single controlled entry, shower or change facilities, bird-proof houses, concrete aprons, vehicle wash bays</td></tr><tr><td>Operational</td><td>Daily procedures: footbaths, clothing changes, visitor control, cleaning, pest control, records</td></tr></table><p>A supervisor's main role is operational biosecurity: making sure procedures are followed every day by everyone, without exception.</p><h4>Example</h4><p>A good biosecurity design places the change room at the only entrance, with a dirty side and a clean side, so nobody can walk into the farm without changing.</p>"
+  },
+  {
+   "title": "Daily biosecurity procedures",
+   "minutes": 15,
+   "html": "<h3>The rules that protect the flock</h3><h4>People</h4><ul><li>Restrict entry to essential people; keep a visitor register with dates, previous farm visits and contact details.</li><li>Visitors should not have been in contact with other poultry recently, according to the farm's policy.</li><li>Shower in and change into farm clothing and boots where facilities exist; otherwise change at the entrance.</li><li>Wash and sanitise hands before entering each house.</li><li>Use house-specific boots or boot covers, and step through footbaths.</li><li>Work from youngest to oldest flocks, and from healthy to sick houses.</li><li>Staff must not keep backyard poultry or pet birds, or must follow strict separation rules set by the farm.</li></ul><h4>Vehicles and equipment</h4><ul><li>Only essential vehicles on site; park outside the clean area where possible.</li><li>Wash and disinfect vehicle wheels and arches at entry, especially catching, feed and dead-bird vehicles.</li><li>Do not share equipment between houses or farms without cleaning and disinfection.</li><li>Feed trucks should fill silos from outside the perimeter where the layout allows.</li></ul><h4>Footbaths</h4><p>Footbaths must contain the correct disinfectant at the correct strength, be deep enough to cover boot soles, be under cover to avoid dilution by rain, and be changed as often as the procedure says or when dirty. Brush off mud before stepping in, because dirt inactivates disinfectant.</p><h4>Wild birds and pests</h4><ul><li>Keep houses bird-proof with intact mesh and closed doors.</li><li>Clean up spilled feed immediately.</li><li>Keep grass short around houses and remove rubbish.</li><li>Run a rodent and insect control programme with bait stations, mapped and checked regularly.</li><li>Keep water sources covered and away from wild water birds.</li></ul>"
+  },
+  {
+   "title": "Disposal, cleaning, monitoring and outbreaks",
+   "minutes": 15,
+   "html": "<h3>Closing the gaps</h3><h4>Dead birds and waste</h4><p>Collect dead birds at least daily, store them in closed containers away from houses, and dispose of them by approved methods such as rendering, incineration or authorised pits or composting. Dead-bird collection vehicles must not enter the clean area. Litter and manure must be removed and stored or transported so that it does not spread disease to other houses or farms.</p><h4>Cleaning between flocks</h4><p>All-in, all-out placement, followed by thorough cleaning, disinfection and a rest period, breaks the disease cycle. Check cleaning quality visually and with swabs where the company requires.</p><h4>Monitoring and auditing</h4><ul><li>Use a biosecurity checklist and audit each site regularly.</li><li>Check visitor and footbath records, pest control reports and cleaning records.</li><li>Observe staff behaviour at entry points.</li><li>Train new staff before they start and refresh training regularly.</li><li>Review mortality, production and water intake daily for early warning signs.</li></ul><h4>Suspected disease outbreak</h4><ol><li>Signs such as sudden high mortality, sharp drops in feed or water intake or egg production, swollen heads, blue combs, nervous signs or severe respiratory signs must be reported at once to the manager and the vet.</li><li>The vet will report suspected controlled diseases to the state veterinarian.</li><li>Stop all movement of birds, eggs, manure, equipment and people off and onto the farm until advised.</li><li>Increase biosecurity; staff should not visit other poultry.</li><li>Follow the instructions of the state veterinary services, which may include quarantine, sampling and culling.</li></ol><p>Workers handling sick birds should wear PPE such as gloves, masks and eye protection as advised, because some avian influenza strains can infect people.</p><h4>Key points</h4><ul><li>Biosecurity keeps disease out (bio-exclusion) and in (bio-containment).</li><li>People, vehicles, equipment, wild birds and pests are the main ways disease spreads.</li><li>Control entry, use footbaths correctly, and work from youngest to oldest flocks.</li><li>Dispose of dead birds properly and use all-in, all-out with cleaning and rest periods.</li><li>Report suspected outbreaks immediately and stop movements until advised.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is bio-exclusion?",
+   "options": [
+    {
+     "text": "Preventing disease from entering the farm",
+     "correct": true
+    },
+    {
+     "text": "Removing birds for slaughter",
+     "correct": false
+    },
+    {
+     "text": "A type of feed",
+     "correct": false
+    },
+    {
+     "text": "Cleaning the office",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should a worker visit flocks?",
+   "options": [
+    {
+     "text": "Oldest to youngest",
+     "correct": false
+    },
+    {
+     "text": "Youngest to oldest, and healthy before sick",
+     "correct": true
+    },
+    {
+     "text": "Sick houses first",
+     "correct": false
+    },
+    {
+     "text": "Any order",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should mud be brushed off boots before using a footbath?",
+   "options": [
+    {
+     "text": "To keep boots shiny",
+     "correct": false
+    },
+    {
+     "text": "To save water",
+     "correct": false
+    },
+    {
+     "text": "Dirt inactivates the disinfectant",
+     "correct": true
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to movements when an outbreak is suspected?",
+   "options": [
+    {
+     "text": "Increase bird sales quickly",
+     "correct": false
+    },
+    {
+     "text": "Allow visitors as usual",
+     "correct": false
+    },
+    {
+     "text": "Move birds to another farm",
+     "correct": false
+    },
+    {
+     "text": "Stop all movement on and off the farm until advised",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of structural biosecurity?",
+   "options": [
+    {
+     "text": "Perimeter fence and single controlled entry",
+     "correct": true
+    },
+    {
+     "text": "Daily footbath changes",
+     "correct": false
+    },
+    {
+     "text": "Visitor register",
+     "correct": false
+    },
+    {
+     "text": "Hand washing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Avian influenza is a controlled disease that must be reported to the state veterinarian.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dead-bird collection vehicles should drive right up to the poultry houses in the clean area.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways diseases can spread onto a poultry farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Visitors' boots and clothes",
+     "correct": true
+    },
+    {
+     "text": "Wild birds",
+     "correct": true
+    },
+    {
+     "text": "Shared equipment not disinfected",
+     "correct": true
+    },
+    {
+     "text": "Clean, covered water tanks",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

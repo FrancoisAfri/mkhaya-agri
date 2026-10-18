@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119419",
+ "title": "Implement administration and record keeping in poultry processing",
+ "lessons": [
+  {
+   "title": "Why records matter in poultry processing",
+   "minutes": 15,
+   "html": "<h3>If it is not written down, it did not happen</h3><p>Records in a poultry plant are evidence. They show inspectors, auditors and customers that birds were received, slaughtered, processed, stored and despatched safely and legally. They also give management the information to control costs and improve performance. The Meat Safety Act 40 of 2000 and its regulations, the plant's HACCP system and customer standards all require records to be kept.</p><h4>Main types of records</h4><table><tr><th>Area</th><th>Examples</th></tr><tr><td>Receiving</td><td>Flock information, birds received, dead on arrival, weights</td></tr><tr><td>Processing</td><td>Line speed, stunner settings, condemnations, yields, CCP monitoring</td></tr><tr><td>Hygiene</td><td>Cleaning schedules, pre-operational checks, pest control reports</td></tr><tr><td>Quality</td><td>Weights, grades, temperatures, laboratory results, non-conformances</td></tr><tr><td>Storage and despatch</td><td>Stock in and out, cold room temperatures, delivery notes, truck checks</td></tr><tr><td>People</td><td>Attendance, training, health declarations, incidents</td></tr><tr><td>Maintenance</td><td>Breakdowns, services, calibration of scales and probes</td></tr></table><h4>Traceability</h4><p>Batch or lot codes link each pack to the flock, the processing day and the customer. If a problem is found, the plant can trace product back to its source and forward to where it went, and recall it if necessary. Records that are missing or inaccurate break traceability.</p><h4>Your role at NQF level 3</h4><p>As a team leader or administrator you design simple forms, make sure records are completed correctly, check them, file or capture them and use them to report.</p><h4>Example</h4><p>A customer complains about chicken bought on a certain date. Using the batch code on the pack, the plant finds the processing day, the flock it came from, the chiller and cold room temperatures and the delivery record, and answers the complaint with facts.</p>"
+  },
+  {
+   "title": "Completing and checking records",
+   "minutes": 15,
+   "html": "<h3>Good recording practice</h3><h4>Rules for paper records</h4><ul><li>Use permanent ink, not pencil.</li><li>Write at the time the activity is done, never before or long after.</li><li>Fill in every field: date, time, area, result, name and signature. Use N/A where a field does not apply rather than leaving a blank.</li><li>Correct mistakes with a single line through the error, the correct value and initials. Never use correction fluid or tear out pages.</li><li>Write clearly so others can read it.</li></ul><h4>Rules for electronic records</h4><ul><li>Log in with your own user name; never share passwords.</li><li>Capture data as soon as possible and check it before saving.</li><li>Do not delete records; follow the system's correction process.</li><li>Make sure systems are backed up.</li></ul><h4>Checking and verification</h4><p>A supervisor or QA person should review key records every shift or day and sign them as verified. When checking, ask:</p><ol><li>Is the record complete?</li><li>Are results within limits?</li><li>Where a result is out of limits, was corrective action recorded?</li><li>Do numbers add up, for example birds received minus DOA and condemnations compared with birds processed?</li></ol><h4>Administration tasks</h4><p>Typical admin tasks include preparing daily production reports, filing delivery notes and invoices, updating stock sheets, keeping the training register and attendance registers up to date, and ordering forms and stationery.</p><h4>Example check</h4><p>Birds received 24 000; dead on arrival 120; condemned 180. Expected birds processed: 24 000 - 120 - 180 = 23 700. If the line count shows 23 100, the 600-bird difference must be investigated.</p><p>Raise such differences at once so they can be explained while the facts are fresh.</p>"
+  },
+  {
+   "title": "Storing, protecting and using records",
+   "minutes": 15,
+   "html": "<h3>From filing to decisions</h3><h4>Storage and retention</h4><p>Keep records organised so they can be found quickly during an audit or recall. File by date and area, label boxes and folders, and keep them in a dry, secure place away from production. Keep them for the period the plant procedure, customers and regulations require. Electronic files must be backed up and protected from loss.</p><h4>Confidentiality</h4><p>Some records contain personal information such as ID numbers, medical declarations and pay details. The Protection of Personal Information Act 4 of 2013 requires that personal information is protected. Limit access to those who need it, lock away files and do not discuss personal records.</p><h4>Using records to manage</h4><p>Records become useful when they are summarised and acted on.</p><ul><li><strong>Yield</strong>: compare carcass weight with live weight per flock to spot losses.</li><li><strong>Condemnations</strong>: rising rates from one farm suggest a flock health issue to discuss with the farm.</li><li><strong>Downtime</strong>: breakdown records show which machines need attention.</li><li><strong>Absenteeism</strong>: attendance records show patterns that affect staffing.</li><li><strong>Temperatures</strong>: trends in cold room readings show refrigeration problems before they become failures.</li></ul><h4>Reporting</h4><p>Prepare short daily or weekly reports with key numbers, problems and actions. Use tables and simple charts. Report to the manager on time and highlight anything urgent separately.</p><h4>Key points</h4><ul><li>Records are evidence of safe and legal production and support traceability and recalls.</li><li>Write records in ink at the time of the activity, complete every field and correct errors with a single line.</li><li>Never share passwords or delete electronic records.</li><li>Verify records by checking completeness, limits, corrective actions and whether numbers add up.</li><li>Protect personal information and use summarised records to manage yield, condemnations and downtime.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do batch or lot codes allow a plant to do?",
+   "options": [
+    {
+     "text": "Trace product back to the flock and forward to customers",
+     "correct": true
+    },
+    {
+     "text": "Change the price",
+     "correct": false
+    },
+    {
+     "text": "Skip inspections",
+     "correct": false
+    },
+    {
+     "text": "Avoid keeping records",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a record be completed?",
+   "options": [
+    {
+     "text": "At the end of the week",
+     "correct": false
+    },
+    {
+     "text": "At the time the activity is done",
+     "correct": true
+    },
+    {
+     "text": "Before the activity",
+     "correct": false
+    },
+    {
+     "text": "Only if there is a problem",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you write in a field that does not apply?",
+   "options": [
+    {
+     "text": "Leave it blank",
+     "correct": false
+    },
+    {
+     "text": "Draw a picture",
+     "correct": false
+    },
+    {
+     "text": "N/A",
+     "correct": true
+    },
+    {
+     "text": "Copy the field above",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act requires personal information to be protected?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Protection of Personal Information Act 4 of 2013",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Comparing carcass weight with live weight per flock shows what?",
+   "options": [
+    {
+     "text": "Yield",
+     "correct": true
+    },
+    {
+     "text": "Absenteeism",
+     "correct": false
+    },
+    {
+     "text": "Training needs",
+     "correct": false
+    },
+    {
+     "text": "Pest activity",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to share your system password with a co-worker to save time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A supervisor should check that corrective action was recorded where a result was out of limits.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices for paper records? (select all that apply)",
+   "options": [
+    {
+     "text": "Use permanent ink",
+     "correct": true
+    },
+    {
+     "text": "Correct errors with a single line and initials",
+     "correct": true
+    },
+    {
+     "text": "Use correction fluid",
+     "correct": false
+    },
+    {
+     "text": "Write clearly",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

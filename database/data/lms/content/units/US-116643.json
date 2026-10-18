@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-116643",
+ "title": "Administer livestock processing treatments",
+ "lessons": [
+  {
+   "title": "Getting ready for processing day",
+   "minutes": 15,
+   "html": "<h3>What is processing?</h3><p>In a feedlot, new animals are <strong>processed</strong> soon after they arrive. Processing means each animal gets the treatments it needs: vaccines, dosing for worms and ticks, an ear tag, and sometimes an implant or other treatment the vet has prescribed. The work is done in the crush, one animal at a time.</p><h3>Check the facilities</h3><ul><li>Walk the pens, races and crush before the animals come in. Look for broken rails, loose bolts, sharp edges and slippery floors.</li><li>Test the head clamp and the side gates of the crush. They must open and close easily.</li><li>Make sure there is shade or a cool place for the processing team and the medicines.</li><li>Have water and a clean table or trolley for equipment.</li></ul><h3>Get the equipment ready</h3><ul><li>Dosing guns and vaccinators, cleaned and checked.</li><li>Enough clean needles of the right size. Have spares.</li><li>Ear tags and the tag applicator, in the right number order.</li><li>A cooler box with ice packs for vaccines.</li><li>A sharps container for used needles.</li><li>The processing record sheet or tablet, and a pen.</li></ul><h3>Protect yourself</h3><p>Wear overalls, safety boots and gloves. Some products also need eye protection. Read the label for each product. Never eat, drink or smoke while you work with medicines.</p><h3>Handle the animals calmly</h3><p>Cattle that arrive in a feedlot are often tired and stressed from the truck. Move them quietly. Do not shout, hit or use an electric prodder unless your supervisor allows it, and never on the face or sensitive parts. The Animals Protection Act 71 of 1962 makes it an offence to treat animals cruelly. Calm animals are also safer for you, because a frightened steer can kick or crush you against a rail.</p><p>Before you start, your supervisor will give you the <strong>processing order</strong>: which treatments each group of animals must get, in what order, and at what dose.</p>"
+  },
+  {
+   "title": "Selecting vaccines and medicines",
+   "minutes": 15,
+   "html": "<h3>Use only what is on the processing order</h3><p>The vet or feedlot manager decides which vaccines and medicines to use. Your job is to pick the <strong>correct product</strong> and make sure it is fit to use. Medicines for animals must be registered in South Africa, under Act 36 of 1947 or the Medicines Act. Only use products that your supervisor has issued.</p><h3>Check every product before you use it</h3><ol><li><strong>Name:</strong> Is it the product on the processing order? Some bottles look alike.</li><li><strong>Expiry date:</strong> Never use a product that has expired.</li><li><strong>Condition:</strong> Look for cracks, leaks, a changed colour, lumps or a broken seal. If something looks wrong, put it aside and tell your supervisor.</li><li><strong>Storage:</strong> Most vaccines must be kept cool, usually in a fridge. Check the label for the right temperature.</li><li><strong>Label instructions:</strong> Read the dose, the way it must be given (for example under the skin or into the muscle) and the withdrawal period.</li></ol><h3>The cold chain</h3><p>Vaccines are living or delicate products. Heat and direct sun can destroy them, and then the animal is not protected even though it was injected. Keep vaccines in a cooler box with ice packs in the shade. Take out only what you need for the next group. Once a vaccine is mixed or opened, use it within the time on the label and throw away what is left over.</p><h3>Withdrawal periods</h3><p>After some treatments, the meat may not be used for food for a certain time. This is the <strong>withdrawal period</strong>. It is different for each product. Always follow the product label or your vet. Write the product and the date on the record so the manager knows when the animal may be slaughtered.</p>"
+  },
+  {
+   "title": "Giving treatments and finishing off",
+   "minutes": 20,
+   "html": "<h3>Set the dose</h3><p>Set the dosing gun or vaccinator to the dose on the processing order. Some doses depend on the animal's mass, so the animals may be weighed first. Before you start, squirt a few doses into a measuring cup to check that the gun gives the right amount.</p><h3>Giving the treatment</h3><ul><li>Make sure the animal is properly held in the crush before you start.</li><li>Inject in the place shown on the label. In cattle, injections are usually given in the <strong>neck</strong>, not in the rump or leg, because injection damage spoils valuable meat cuts.</li><li>Under the skin (subcutaneous): lift a fold of skin and inject into the tent. Into the muscle (intramuscular): push the needle straight in.</li><li>Oral doses: put the nozzle in the corner of the mouth, over the tongue, and give the dose slowly so the animal does not choke.</li><li>Pour-on products: pour along the backline as the label says.</li><li>Change the needle when it is blunt, bent or dirty. Never straighten a bent needle.</li></ul><h3>Ear tagging</h3><p>Put the tag in the middle of the ear, between the two big veins. Check that the number matches the record.</p><h3>Safety: what never to do</h3><ul><li>Never put your arm or head between the animal and the crush rails.</li><li>Never carry a needle in your mouth or pocket.</li><li>If you inject yourself by accident, tell your supervisor at once and take the product label to the clinic.</li></ul><h3>Finishing off</h3><ol><li>Record each animal: tag number, products, doses, date and your name.</li><li>Put used needles in the sharps container and empty bottles in the medicine waste bin, not in the veld.</li><li>Clean and dry the guns, and return medicines to the fridge or store.</li><li>Watch treated animals for problems such as swelling, breathing trouble or collapse, and report them.</li></ol><h4>Key points</h4><ul><li>Prepare the crush, equipment and records before the animals arrive.</li><li>Check name, expiry date and condition of every product, and keep vaccines cool.</li><li>Inject cattle in the neck and give the dose the label and processing order say.</li><li>Record every treatment so withdrawal periods can be followed.</li><li>Dispose of needles in a sharps container.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should vaccines be kept in a cooler box with ice packs during processing?",
+   "options": [
+    {
+     "text": "So they are easier to inject",
+     "correct": false
+    },
+    {
+     "text": "So the needles stay sharp",
+     "correct": false
+    },
+    {
+     "text": "Because the law says bottles must be cold to the touch",
+     "correct": false
+    },
+    {
+     "text": "Heat and sun can destroy them so the animal is not protected",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where are injections in cattle usually given?",
+   "options": [
+    {
+     "text": "In the neck",
+     "correct": true
+    },
+    {
+     "text": "In the rump",
+     "correct": false
+    },
+    {
+     "text": "In the back leg",
+     "correct": false
+    },
+    {
+     "text": "In the tail",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a vaccine bottle has passed its expiry date?",
+   "options": [
+    {
+     "text": "Use it quickly before it gets worse",
+     "correct": false
+    },
+    {
+     "text": "Do not use it, put it aside and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Give a double dose",
+     "correct": false
+    },
+    {
+     "text": "Mix it with a new bottle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the withdrawal period?",
+   "options": [
+    {
+     "text": "The time after a treatment before the meat may be used for food",
+     "correct": true
+    },
+    {
+     "text": "The time it takes to process one animal",
+     "correct": false
+    },
+    {
+     "text": "The time a vaccine can stay out of the fridge",
+     "correct": false
+    },
+    {
+     "text": "The time between two ear tags",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you check that a dosing gun gives the right dose?",
+   "options": [
+    {
+     "text": "Guess by looking at the bottle",
+     "correct": false
+    },
+    {
+     "text": "Ask the animal's owner",
+     "correct": false
+    },
+    {
+     "text": "Weigh the gun",
+     "correct": false
+    },
+    {
+     "text": "Squirt a few doses into a measuring cup before you start",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to straighten a bent needle and keep using it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should record the tag number, product, dose and date for every treated animal.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these must you check on a product before using it? (select all that apply)",
+   "options": [
+    {
+     "text": "The colour of the crush",
+     "correct": false
+    },
+    {
+     "text": "The weather forecast for next week",
+     "correct": false
+    },
+    {
+     "text": "That the seal is not broken and it looks normal",
+     "correct": true
+    },
+    {
+     "text": "That it is the product on the processing order",
+     "correct": true
+    },
+    {
+     "text": "The expiry date",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-117871",
+ "title": "Facilitate learning using a variety of given methodologies",
+ "lessons": [
+  {
+   "title": "The facilitator's role and adult learning",
+   "minutes": 20,
+   "html": "<h3>From trainer to facilitator</h3>\n<p>Agricultural extension officers, Landcare facilitators and farm trainers work mostly with adults: farm workers, smallholder farmers, community members and supervisors. A facilitator does not just \"tell\". A facilitator creates conditions in which people learn by doing, discussing and reflecting, and draws on what they already know. In South Africa's outcomes-based system, learning is judged by what the learner can demonstrate, so facilitation must link to the specific outcomes and assessment criteria of the unit standard or programme.</p>\n<h4>Principles of adult learning</h4>\n<ul><li><strong>Relevance</strong> – adults learn when they see how it solves a real problem on their farm or project.</li>\n<li><strong>Experience</strong> – they bring years of practical knowledge. Use it; do not ignore it.</li>\n<li><strong>Self-direction</strong> – involve them in setting goals and choosing activities.</li>\n<li><strong>Respect</strong> – avoid talking down; respect culture, age and language.</li>\n<li><strong>Practice and feedback</strong> – learning sticks when people try, get feedback and try again.</li></ul>\n<h4>The experiential learning cycle</h4>\n<p>Kolb's cycle is a useful frame: concrete experience (do something, e.g. a field visit to an eroded donga) → reflection (what did we see?) → conceptualisation (why does it happen? what principles apply?) → active experimentation (plan and build a stone pack, then observe it after the next rain). A good session moves learners around the whole cycle.</p>\n<h4>Know your learners</h4>\n<p>Before facilitating, find out learners' literacy and numeracy levels, home languages, prior knowledge, physical needs, and the context they work in. A group of commercial farm supervisors in the Western Cape needs a different approach from a rural village garden group in Limpopo. Plan for language: use interpreters or co-facilitators, visual materials and local examples. Consider recognition of prior learning (RPL) where learners already have competence.</p>"
+  },
+  {
+   "title": "Choosing and using methodologies",
+   "minutes": 20,
+   "html": "<h3>A toolbox of methods</h3>\n<table><tr><th>Method</th><th>Best for</th><th>Watch out for</th></tr>\n<tr><td>Short input / mini-lecture</td><td>New facts, concepts, legal requirements</td><td>Keep it under 15–20 minutes; use visuals</td></tr>\n<tr><td>Demonstration</td><td>Skills: grafting, calibrating a sprayer, building a contour</td><td>Everyone must see; follow with practice</td></tr>\n<tr><td>Guided practice</td><td>Building competence</td><td>Enough materials; safety supervision</td></tr>\n<tr><td>Group discussion / buzz groups</td><td>Sharing experience, problem solving</td><td>Dominant voices; give roles</td></tr>\n<tr><td>Case study</td><td>Applying principles to real situations</td><td>Make it local and realistic</td></tr>\n<tr><td>Role play</td><td>Conflict, negotiation, extension conversations</td><td>Debrief carefully; respect comfort levels</td></tr>\n<tr><td>Field visit / farmer field school</td><td>Observation, peer learning</td><td>Logistics, transport, permission</td></tr>\n<tr><td>Participatory tools (mapping, transect walk, seasonal calendar)</td><td>Community analysis and planning</td><td>Needs skilled facilitation</td></tr></table>\n<h4>Choosing well</h4>\n<p>Match the method to the outcome: knowledge outcomes suit inputs and reading; skill outcomes need demonstration and practice; attitude and behaviour outcomes need discussion, reflection and role play. Consider group size, time, venue (often outdoors with no electricity), resources and learner profile. Mixing methods keeps energy up and caters for different learning preferences.</p>\n<h4>Demonstration technique (tell–show–do–review)</h4>\n<ol><li>Explain the purpose and safety points.</li>\n<li>Demonstrate at normal speed, then slowly with explanation.</li>\n<li>Learners practise while you observe and coach.</li>\n<li>Review: what went well, what to improve.</li></ol>"
+  },
+  {
+   "title": "Running the session and reviewing it",
+   "minutes": 20,
+   "html": "<h3>Managing the learning environment</h3>\n<ul><li><strong>Prepare</strong> a session plan: outcomes, timing, activities, materials, assessment opportunities and a plan B (e.g. rain during a field session).</li>\n<li><strong>Open well</strong>: introductions, expectations, ground rules, and the link to learners' work.</li>\n<li><strong>Safety</strong>: practical sessions with tools, chemicals or animals need briefing, PPE and supervision in line with the OHS Act 85 of 1993.</li>\n<li><strong>Inclusion</strong>: give quieter learners a voice (pairs, small groups), manage dominant participants tactfully, and be sensitive to gender and age dynamics in community groups.</li>\n<li><strong>Check understanding</strong> often with open questions (\"What would you do if…?\") rather than \"Do you understand?\".</li></ul>\n<h4>Handling difficulties</h4>\n<p>Learners may arrive late because of farm duties, disagree with new practices, or be anxious about written work. Stay calm, acknowledge concerns, link back to evidence and their own experience, and adapt methods: for example, replace a written exercise with an oral report-back or a drawing.</p>\n<h4>Evaluating the session</h4>\n<p>Collect feedback from learners (simple smiley-face forms, a round of \"one thing I learned, one thing to improve\"), observe whether outcomes were achieved, and reflect on your own performance. Record attendance and progress for the training provider or SETA records. Use the evidence to improve the next session.</p>\n<h4>Key points</h4>\n<ul><li>Facilitation builds on adult learners' experience and focuses on real problems.</li>\n<li>Use the experiential learning cycle: do, reflect, conceptualise, apply.</li>\n<li>Match methods to the type of outcome, group and context.</li>\n<li>Plan sessions with safety, inclusion and a plan B.</li>\n<li>Evaluate each session and use feedback to improve.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a key principle of adult learning?",
+   "options": [
+    {
+     "text": "Adults learn best by memorising without context",
+     "correct": false
+    },
+    {
+     "text": "Adults learn when material is relevant to real problems",
+     "correct": true
+    },
+    {
+     "text": "Adults' experience should be ignored",
+     "correct": false
+    },
+    {
+     "text": "Adults prefer to be talked down to",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In Kolb's cycle, what follows concrete experience?",
+   "options": [
+    {
+     "text": "Active experimentation",
+     "correct": false
+    },
+    {
+     "text": "Assessment",
+     "correct": false
+    },
+    {
+     "text": "Reflection",
+     "correct": true
+    },
+    {
+     "text": "Certification",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which method best suits a skill outcome such as calibrating a sprayer?",
+   "options": [
+    {
+     "text": "Demonstration followed by guided practice",
+     "correct": true
+    },
+    {
+     "text": "A long lecture",
+     "correct": false
+    },
+    {
+     "text": "A written essay",
+     "correct": false
+    },
+    {
+     "text": "Reading a policy document",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does tell–show–do–review describe?",
+   "options": [
+    {
+     "text": "A conflict process",
+     "correct": false
+    },
+    {
+     "text": "A budgeting method",
+     "correct": false
+    },
+    {
+     "text": "A feedback form",
+     "correct": false
+    },
+    {
+     "text": "A demonstration technique",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which question best checks understanding?",
+   "options": [
+    {
+     "text": "Do you understand?",
+     "correct": false
+    },
+    {
+     "text": "What would you do if the contour overflowed after a storm?",
+     "correct": true
+    },
+    {
+     "text": "Is everyone happy?",
+     "correct": false
+    },
+    {
+     "text": "Any questions?",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A good session plan includes a plan B, such as for rain during a field session.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Role play should never be debriefed because it takes too much time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you find out about learners before facilitating? (select all that apply)",
+   "options": [
+    {
+     "text": "Literacy and numeracy levels",
+     "correct": true
+    },
+    {
+     "text": "Home languages",
+     "correct": true
+    },
+    {
+     "text": "Prior knowledge and work context",
+     "correct": true
+    },
+    {
+     "text": "Their personal bank balances",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

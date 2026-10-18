@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335740",
+ "title": "Ride a horse in a jockey seat on a sand track",
+ "lessons": [
+  {
+   "title": "The jockey seat",
+   "minutes": 15,
+   "html": "<h3>What is the jockey seat?</h3> <p>The jockey seat (also called the forward or crouch seat) is the position used to ride racehorses at speed. The rider uses very short stirrups and stays off the horse's back, balanced over the withers. This lets the horse use its back and hindquarters freely and reduces wind resistance.</p> <h4>Building the position</h4> <ol> <li><strong>Stirrups:</strong> much shorter than for normal riding. Your trainer or instructor will help set the length. Both stirrups must be equal unless the instructor sets them otherwise for a reason.</li> <li><strong>Feet:</strong> ball of the foot or slightly further in on the iron, heels slightly down, ankles flexible to absorb movement.</li> <li><strong>Knees and thighs:</strong> knees bent and placed against the saddle; thighs support the body.</li> <li><strong>Seat:</strong> lifted clear of the saddle, hips back.</li> <li><strong>Back:</strong> flat and low, roughly parallel to the horse's back at gallop.</li> <li><strong>Head:</strong> up, looking ahead between the horse's ears.</li> <li><strong>Hands:</strong> low on the neck, usually holding a bridge.</li> </ol> <h4>Balance</h4> <p>The jockey's centre of balance must stay over the horse's centre of balance. If you lean too far forward, you can be thrown over the shoulder when the horse stumbles or stops. If you sit back, you get left behind and pull on the mouth. Your legs, not your hands, hold your balance.</p> <h4>Practising safely</h4> <ul> <li>Practise the position at standstill and in walk first, then trot and canter.</li> <li>Many training centres use a mechanical horse (equicizer) for practice.</li> <li>Build leg and core strength with exercises such as squats and holding the position for longer each day.</li> <li>Ride under supervision of a qualified instructor or experienced work rider.</li> </ul> <h4>Protective equipment</h4> <p>Always wear a certified skull cap, a body protector, suitable boots and gloves. Goggles protect your eyes from sand. Check your equipment before every ride.</p>"
+  },
+  {
+   "title": "Riding at pace on the sand track",
+   "minutes": 15,
+   "html": "<h3>Holding the reins</h3> <p>Most work riders and jockeys use a <strong>bridge</strong>: the reins are crossed over the neck so each hand holds both reins. The bridge rests on the neck and gives a stable support. A single bridge is used for steady work; a double bridge gives more control on a horse that pulls. Press the bridge into the neck to steady the horse rather than pulling back.</p> <h4>From canter to gallop</h4> <ol> <li>Move off in a steady canter in the correct direction on the track.</li> <li>Settle into the jockey position, balanced, with a steady contact.</li> <li>When the instruction is to quicken, let the horse lengthen its stride by softening slightly and asking with your legs and body, keeping the rhythm even.</li> <li>Stay low and still. Extra movement wastes the horse's energy.</li> <li>Keep the horse straight; correct any hanging (drifting) with the rein and leg on the side it drifts to.</li> </ol> <h4>Sand track conditions</h4> <p>Sand can be deep or harrowed, wet or dry. Deep sand is harder work for the horse and tires it faster. Kicked-back sand hits riders behind, so wear goggles and keep a safe distance. Report holes, ridges or wet patches to the track staff.</p> <h4>Riding in company</h4> <ul> <li>Keep the gap the trainer asked for.</li> <li>Do not cross in front of another horse unless you are clear by several lengths.</li> <li>Call out to warn other riders if there is a problem.</li> </ul> <h4>Pulling up</h4> <p>Sit up gradually, keep your weight back a little and slowly take a firmer feel on the bridge. Pull up over a long distance. Look behind before you move across the track. Walk the horse until it stops blowing.</p> <h4>If things go wrong</h4> <ul> <li><strong>Horse bolts:</strong> stay balanced, steady the bridge, steer in a large arc towards the outside rail, and use the length of the track to slow down.</li> <li><strong>Horse goes lame:</strong> pull up gradually and safely; dismount and lead off if needed.</li> <li><strong>Fall:</strong> tuck and roll, protect your head, stay down until loose horses pass unless you are in danger. Report every fall.</li> </ul> <h4>Report back</h4> <p>Tell the trainer how the horse moved, breathed and behaved, including anything unusual.</p> <h4>Key points</h4> <ul> <li>Jockey seat: short stirrups, seat clear of the saddle, flat back, hands low on a bridge.</li> <li>Balance with your legs over the horse's centre of balance, not with your hands.</li> <li>Stay low and still and keep an even rhythm at pace.</li> <li>Wear goggles, skull cap and body protector on the sand track.</li> <li>Pull up gradually and look behind before moving across.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why does a jockey ride with very short stirrups and the seat out of the saddle?",
+   "options": [
+    {
+     "text": "To look good",
+     "correct": false
+    },
+    {
+     "text": "So the horse can use its back freely and wind resistance is reduced",
+     "correct": true
+    },
+    {
+     "text": "To rest the rider",
+     "correct": false
+    },
+    {
+     "text": "Because the saddle is small",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What holds the jockey's balance?",
+   "options": [
+    {
+     "text": "The reins",
+     "correct": false
+    },
+    {
+     "text": "The legs",
+     "correct": true
+    },
+    {
+     "text": "The horse's mane",
+     "correct": false
+    },
+    {
+     "text": "The whip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if you lean too far forward?",
+   "options": [
+    {
+     "text": "You go faster",
+     "correct": false
+    },
+    {
+     "text": "You can be thrown over the shoulder if the horse stumbles",
+     "correct": true
+    },
+    {
+     "text": "The horse slows down",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why wear goggles on a sand track?",
+   "options": [
+    {
+     "text": "For fashion",
+     "correct": false
+    },
+    {
+     "text": "Sand is kicked back by horses in front",
+     "correct": true
+    },
+    {
+     "text": "To see in the dark",
+     "correct": false
+    },
+    {
+     "text": "To keep warm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A horse bolts on the track. What should you do?",
+   "options": [
+    {
+     "text": "Jump off at once",
+     "correct": false
+    },
+    {
+     "text": "Stay balanced, steady the bridge and steer a large arc to slow down",
+     "correct": true
+    },
+    {
+     "text": "Pull hard on one rein and stop suddenly",
+     "correct": false
+    },
+    {
+     "text": "Close your eyes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Deep sand is harder work for a horse and tires it faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should pull up suddenly at the end of a gallop.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which describe the jockey seat? (select all that apply)",
+   "options": [
+    {
+     "text": "Short stirrups",
+     "correct": true
+    },
+    {
+     "text": "Flat, low back",
+     "correct": true
+    },
+    {
+     "text": "Seat clear of the saddle",
+     "correct": true
+    },
+    {
+     "text": "Sitting deep and leaning back",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

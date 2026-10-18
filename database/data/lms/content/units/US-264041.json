@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-264041",
+ "title": "Maintain landscape and sportsturf irrigation systems",
+ "lessons": [
+  {
+   "title": "Inspecting landscape and sportsturf irrigation systems",
+   "minutes": 20,
+   "html": "<h3>Why maintenance matters</h3><p>A well-designed irrigation system only performs if it is maintained. Broken heads, blocked nozzles, tilted sprinklers and wrong programmes waste water, cause dry patches and wet spots, and damage turf on school fields, golf courses, parks and estates. In water-scarce South Africa, municipal water restrictions also make efficient systems essential.</p><h4>System walk-through (audit)</h4><p>Run each zone in turn, from the controller, and walk the zone while it runs. Check:</p><ul><li><strong>Heads:</strong> broken, missing, stuck down, stuck up, leaking at the base, tilted or sunken below turf level</li><li><strong>Nozzles:</strong> blocked, wrong size or type, mismatched in one zone</li><li><strong>Arc and radius:</strong> spraying paths, buildings or roads; not reaching head to head</li><li><strong>Pressure:</strong> misting (too high) or poor throw and large drops (too low)</li><li><strong>Leaks:</strong> wet areas, water bubbling up, soggy patches, low head drainage at the lowest heads</li><li><strong>Valves:</strong> not opening, not closing (weeping), noisy</li><li><strong>Drip zones:</strong> missing emitters, kinked or cut lines, blocked drippers</li><li><strong>Obstructions:</strong> shrubs that have grown and block spray</li></ul><p>Mark faults with flags and record them on a zone sheet with a sketch.</p><h4>Measuring performance</h4><p>On sportsfields, a catch-can test measures how evenly water is applied: set out identical containers in a grid, run the zone for a set time, measure the depth in each and compare. Large differences show poor uniformity, often caused by mixed nozzles, wrong spacing, poor pressure or tilted heads.</p><h4>Checking the controller</h4><ul><li>Date, time and programme correct after power cuts</li><li>Run times and watering days suit the season and turf type</li><li>Rain and other sensors working</li><li>Station chart up to date</li></ul><h4>Safety</h4><p>Wear high-visibility clothing on sites with traffic or golf play, watch for golf balls, keep away from mowers, and keep valve box lids closed so nobody trips.</p>"
+  },
+  {
+   "title": "Repairing sprinklers, pipes, valves and drip lines",
+   "minutes": 20,
+   "html": "<h3>Before repairs</h3><p>Turn off the zone or isolate the mainline. Release pressure. Dig carefully by hand near heads, pipes and wires to avoid cutting them. Lay turf and soil on a tarpaulin so you can reinstate the area neatly.</p><h4>Sprinkler heads</h4><ul><li><strong>Blocked nozzle:</strong> remove nozzle and screen, rinse, replace. Do not enlarge holes.</li><li><strong>Wrong nozzle:</strong> replace with the size and arc specified; keep matched precipitation in each zone.</li><li><strong>Tilted or sunken head:</strong> dig around, straighten and set it at the correct height, plumb, and compact soil around it. On sportsfields, heads must be flush with the surface for player safety.</li><li><strong>Broken head:</strong> replace with the same model, flush the riser before fitting, and adjust arc and radius.</li><li><strong>Leaking at base:</strong> check the riser or swing joint; replace seals or fittings.</li><li><strong>Low-head drainage:</strong> fit heads with check valves at low points.</li></ul><h4>Pipes</h4><ol><li>Expose the damaged section, cut out cleanly.</li><li>Use a repair coupling or slip coupling of the same class; for solvent-weld PVC, clean and cement as the product requires and allow cure time.</li><li>Flush before reconnecting heads.</li><li>Pressure test, then backfill in layers and replace turf.</li></ol><h4>Valves</h4><ul><li><strong>Valve does not open:</strong> check controller output, solenoid, wiring connections, flow control fully closed, or blocked ports.</li><li><strong>Valve does not close (weeping):</strong> debris on diaphragm seat, torn diaphragm, blocked bleed port, manual bleed left open.</li><li>Clean or replace diaphragms and solenoids; use waterproof wire connectors.</li></ul><h4>Drip zones</h4><p>Flush lateral ends, replace blocked or missing emitters, repair cuts with couplers, clean the zone filter and check pressure regulators.</p><p>After every repair, run the zone and confirm correct operation.</p>"
+  },
+  {
+   "title": "Scheduling, seasonal maintenance and records",
+   "minutes": 15,
+   "html": "<h3>Adjusting watering schedules</h3><p>Turf and plants need less water in cool months and more in hot, dry, windy periods. Adjust run times or use the seasonal adjust feature each season, or use an ET-based smart controller. Water early in the morning to reduce evaporation and wind drift, and to avoid wet turf during play. On clay soils, use several short cycles (cycle and soak) to prevent runoff. Comply with local municipal water restrictions on days and times.</p><h4>Maintenance schedule</h4><table><tr><th>Interval</th><th>Tasks</th></tr><tr><td>Weekly (sportsturf) or monthly (landscape)</td><td>Run zones, check heads and spray patterns, check controller</td></tr><tr><td>Monthly</td><td>Clean filters, inspect valve boxes, check rain sensor, check drip zones</td></tr><tr><td>Seasonally</td><td>Adjust schedules, audit uniformity, raise sunken heads, trim plants around heads, check backflow device</td></tr><tr><td>Yearly</td><td>Full system audit, pump and controller service, replace controller battery, update as-built drawings</td></tr></table><h4>Working around events and turf operations</h4><p>Coordinate with groundsmen: no irrigation before matches or during aeration, scarifying and top-dressing in ways that damage heads. Mark heads before heavy machinery works on a field.</p><h4>Records</h4><ul><li>Inspection sheets per zone: date, faults found, repairs done, parts used</li><li>Controller programme record</li><li>Catch-can test results</li><li>Water meter readings to track use and detect leaks</li><li>Updated as-built plan when anything changes</li></ul><p>Good records let you show the client the value of maintenance, plan budgets, and find recurring problems.</p><h4>Key points</h4><ul><li>Walk each zone while it runs and record every fault.</li><li>Keep heads plumb and at the correct height; flush before fitting new heads.</li><li>Keep nozzles matched within a zone and test uniformity with catch cans.</li><li>Adjust schedules for season and soil, and obey water restrictions.</li><li>Follow a maintenance schedule and keep zone records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the best way to inspect an irrigation zone?",
+   "options": [
+    {
+     "text": "Look at the controller only",
+     "correct": false
+    },
+    {
+     "text": "Inspect it when it is off",
+     "correct": false
+    },
+    {
+     "text": "Run the zone and walk it while it runs",
+     "correct": true
+    },
+    {
+     "text": "Read last year's records",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does misting from sprinkler nozzles usually indicate?",
+   "options": [
+    {
+     "text": "Pressure is too high",
+     "correct": true
+    },
+    {
+     "text": "Pressure is too low",
+     "correct": false
+    },
+    {
+     "text": "The nozzle is the right size",
+     "correct": false
+    },
+    {
+     "text": "The valve is closed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a catch-can test used for?",
+   "options": [
+    {
+     "text": "Testing water quality",
+     "correct": false
+    },
+    {
+     "text": "Checking wire connections",
+     "correct": false
+    },
+    {
+     "text": "Measuring pump power",
+     "correct": false
+    },
+    {
+     "text": "Measuring how evenly water is applied",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A valve keeps weeping after the zone is switched off. What is a likely cause?",
+   "options": [
+    {
+     "text": "Controller time wrong",
+     "correct": false
+    },
+    {
+     "text": "Debris on the diaphragm seat or a torn diaphragm",
+     "correct": true
+    },
+    {
+     "text": "Rain sensor wet",
+     "correct": false
+    },
+    {
+     "text": "Nozzle blocked",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time of day to irrigate turf?",
+   "options": [
+    {
+     "text": "Midday",
+     "correct": false
+    },
+    {
+     "text": "Late afternoon in wind",
+     "correct": false
+    },
+    {
+     "text": "Early morning",
+     "correct": true
+    },
+    {
+     "text": "During a match",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "On sportsfields, sprinkler heads must be set flush with the surface for player safety.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Enlarging nozzle holes is a good way to clear blockages.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks are part of seasonal irrigation maintenance? (select all that apply)",
+   "options": [
+    {
+     "text": "Adjusting watering schedules",
+     "correct": true
+    },
+    {
+     "text": "Raising sunken heads",
+     "correct": true
+    },
+    {
+     "text": "Removing all rain sensors",
+     "correct": false
+    },
+    {
+     "text": "Trimming plants that block spray",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

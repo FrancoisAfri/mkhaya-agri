@@ -1,0 +1,183 @@
+{
+  "unit_key": "US-243891",
+  "title": "Assess the quality of pears for export",
+  "lessons": [
+    {
+      "title": "The pear export industry, terms and requirements",
+      "minutes": 18,
+      "html": "<h3>Background and structure</h3><p>South African pears are grown mainly in the Western Cape, in the Ceres region, the Elgin and Grabouw valley, Wolseley and Tulbagh, Villiersdorp and the Langkloof. A large share of the crop is exported to Europe, the UK, the Middle East, the Far East and Africa, and the rest is sold locally, canned or juiced. Pear growers are represented by <strong>Hortgro</strong>, which also represents apple and stone fruit growers.</p><p>Major cultivars include <strong>Packham's Triumph</strong>, <strong>Forelle</strong> (a bicolour pear with red blush and freckles), Williams Bon Chretien, Abate Fetel, Rosemarie and Beurre Bosc. Some cultivars, especially Forelle, are known to need a period of cold storage before they ripen with good texture, and industry rules have been applied to ensure this. Always check the current requirement for the cultivar and market.</p><h3>Terminology</h3><ul><li><strong>Firmness:</strong> penetrometer pressure, a key maturity index for pears.</li><li><strong>TSS:</strong> sugar in degrees Brix.</li><li><strong>Ground colour and blush:</strong> background and red overcolour.</li><li><strong>Russeting:</strong> brown, rough skin; normal on some cultivars like Bosc, a defect on others.</li><li><strong>Mealiness:</strong> dry, grainy texture after ripening if fruit was not stored correctly.</li><li><strong>Core breakdown and internal browning:</strong> internal disorders often linked to over-maturity or long storage.</li><li><strong>Friction marks and bruising:</strong> pears mark easily and the marks darken over time.</li></ul><h3>Legislative and logistical requirements</h3><p>Pears for export are regulated under the Agricultural Product Standards Act 119 of 1990, which sets class, size, maturity, packing and marking standards; PPECB inspects under the Act and oversees the cold chain under the PPECB Act 9 of 1983. Phytosanitary requirements of certain markets, for example concerning codling moth or fruit fly, may require orchard and packhouse registration and specific treatments or cold protocols.</p><p>Pears may be stored for months in regular or controlled atmosphere cold stores before shipping, so logistics include long-term storage planning as well as shipping. Each lot must stay traceable to its orchard and harvest date throughout storage.</p>"
+    },
+    {
+      "title": "Sampling, external and internal quality",
+      "minutes": 18,
+      "html": "<h3>Drawing a representative sample</h3><ul><li>Use the sample size prescribed in the export standards for the consignment size.</li><li>Draw cartons at random across pallets and stack positions.</li><li>Check cultivar, class, count and codes on the carton.</li><li>Record pallet and carton numbers.</li></ul><h3>External quality</h3><ul><li><strong>Size and count:</strong> within the declared range.</li><li><strong>Shape:</strong> typical of the cultivar; misshapen fruit limited by class.</li><li><strong>Colour:</strong> ground colour and, for bicolour types such as Forelle, the required blush level.</li><li><strong>Stem:</strong> intact; broken or missing stems may be limited.</li><li><strong>Skin defects:</strong> friction marks, bruises, limb rub, hail, sunburn, and russeting beyond what is normal for the cultivar.</li><li><strong>Pest and disease:</strong> codling moth stings and entries, scale, mealybug, black spot (scab), and decays such as grey mould and blue mould.</li><li><strong>Packing:</strong> correct wrapping or liners where required, firm pack and correct count.</li></ul><h3>Internal quality</h3><p>Cut the prescribed number of fruit and check:</p><ul><li><strong>Firmness</strong> with a calibrated penetrometer on peeled cheeks. Pears are harvested firm and ripen afterwards.</li><li><strong>TSS</strong> with a refractometer.</li><li><strong>Starch</strong> pattern where used for some cultivars.</li><li><strong>Internal disorders:</strong> core breakdown, internal browning, cork spot, and any larvae.</li><li><strong>Ripening sample:</strong> where required, ripen sample fruit to check texture, mealiness and flavour.</li></ul><p>Pears are climacteric. If they are picked too mature, they may soften in storage and develop breakdown; picked too immature, they ripen poorly or shrivel. The assessor reports the facts so the exporter can decide on storage and marketing.</p><h4>Recording your results</h4><p>Record readings per carton on the inspection sheet as you go. Note the cultivar and storage history, because a pear from long CA storage is judged with that history in mind. If a firmness reading looks out of line, check the penetrometer tip and calibration and take a second reading before you record it.</p>"
+    },
+    {
+      "title": "Cold chain regimes and the outcome",
+      "minutes": 18,
+      "html": "<h3>Monitoring the cold chain regime</h3><p>Pears store well when cooled quickly after harvest and kept at the correct low temperature and high relative humidity. Controlled atmosphere storage further slows ripening for long-term storage. Cultivar-specific regimes apply, including any required minimum cold storage period before shipping or ripening for certain cultivars. Because pears are often stored for weeks or months, temperature records over that whole period matter.</p><p>The assessor should:</p><ul><li>verify cold store temperature and, for CA rooms, oxygen and carbon dioxide records;</li><li>check the date fruit entered cold storage to confirm required storage periods were met;</li><li>check pulp temperatures with a calibrated probe before loading;</li><li>check container set points, data loggers and container condition;</li><li>check that pears are not exposed to warm conditions that cause condensation and decay.</li></ul><h3>Determining the outcome</h3><ol><li>Calculate external defect percentages and decay.</li><li>Compare firmness, TSS and internal condition with requirements.</li><li>Verify required storage regimes and records for the cultivar.</li><li>Check packing, marking and traceability.</li><li>Decide <strong>pass</strong>, <strong>downgrade</strong> or <strong>reject</strong>, and record reasons.</li></ol><p>Example: Packham's Triumph pears from long CA storage are presented for shipment. Firmness is still within range, but a ripening sample shows core breakdown in a high proportion of fruit. The assessor records the result, and the consignment may be rejected for the long voyage market and redirected to a nearer market or local sale, depending on the rules.</p><h4>Key points</h4><ul><li>Hortgro represents pear growers; Packham's Triumph and Forelle are key cultivars.</li><li>Firmness is a key maturity index for pears.</li><li>Friction marks and bruises darken with time, so handle pears gently.</li><li>Some cultivars require a minimum cold storage period; check current rules.</li><li>Long-stored fruit must be checked for core breakdown and other disorders.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which pear cultivar is a bicolour pear with red blush and freckles?",
+      "options": [
+        {
+          "text": "Packham's Triumph",
+          "correct": false
+        },
+        {
+          "text": "Williams Bon Chretien",
+          "correct": false
+        },
+        {
+          "text": "Beurre Bosc",
+          "correct": false
+        },
+        {
+          "text": "Forelle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Russeting on a pear is best described as what?",
+      "options": [
+        {
+          "text": "Always a serious defect",
+          "correct": false
+        },
+        {
+          "text": "Normal on some cultivars like Bosc but a defect on others",
+          "correct": true
+        },
+        {
+          "text": "A type of decay",
+          "correct": false
+        },
+        {
+          "text": "A sign of chilling injury",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why must the date pears entered cold storage be checked?",
+      "options": [
+        {
+          "text": "To confirm required storage periods were met",
+          "correct": true
+        },
+        {
+          "text": "To calculate VAT",
+          "correct": false
+        },
+        {
+          "text": "To choose the carton colour",
+          "correct": false
+        },
+        {
+          "text": "To decide the picker's wage",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A ripening sample of long-stored pears shows core breakdown in many fruit. What is the likely result?",
+      "options": [
+        {
+          "text": "Approval for any market",
+          "correct": false
+        },
+        {
+          "text": "Upgrade to a higher class",
+          "correct": false
+        },
+        {
+          "text": "Rejection for the long voyage market and possible redirection",
+          "correct": true
+        },
+        {
+          "text": "No record is needed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which instrument measures pear firmness?",
+      "options": [
+        {
+          "text": "Refractometer",
+          "correct": false
+        },
+        {
+          "text": "Penetrometer",
+          "correct": true
+        },
+        {
+          "text": "Hygrometer",
+          "correct": false
+        },
+        {
+          "text": "Sizing ring",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Pears are harvested firm and ripen after harvest.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Friction marks on pears fade and disappear during cold storage.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which records should an assessor check for pears from CA storage? (select all that apply)",
+      "options": [
+        {
+          "text": "Cold store temperature records",
+          "correct": true
+        },
+        {
+          "text": "Oxygen and carbon dioxide records",
+          "correct": true
+        },
+        {
+          "text": "The date fruit entered storage",
+          "correct": true
+        },
+        {
+          "text": "The packhouse's electricity tariff",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

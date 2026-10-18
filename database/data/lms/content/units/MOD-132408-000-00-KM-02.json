@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-02",
+ "title": "Communication Studies",
+ "lessons": [
+  {
+   "title": "Communication in a grain depot",
+   "minutes": 18,
+   "html": "<h3>Why communication matters</h3>\n<p>A grain depot manager communicates every day with farmers delivering grain, truck drivers, staff and shop stewards, head office, grain buyers and traders, inspectors and contractors. Poor communication causes long truck queues, grading disputes, safety incidents and lost clients. Good communication is a core management skill.</p>\n<h4>The communication process</h4>\n<p>Communication involves a sender, a message, a channel, a receiver and feedback. Barriers can enter at every step: language differences, noise from fans and conveyors, technical jargon, emotions (a farmer upset about a downgrade), cultural assumptions and information overload. Feedback, where the receiver confirms understanding, is how you know the message arrived.</p>\n<h4>Choosing the channel</h4>\n<table>\n<tr><th>Purpose</th><th>Suitable channel</th></tr>\n<tr><td>Urgent safety instruction</td><td>Face to face or radio, then written</td></tr>\n<tr><td>Daily intake update to staff</td><td>Shift briefing, notice board</td></tr>\n<tr><td>Grading results to a farmer</td><td>Weighbridge ticket and grading certificate, explained in person</td></tr>\n<tr><td>Weekly stock report</td><td>Written report or system dashboard</td></tr>\n<tr><td>Policy change</td><td>Meeting plus written notice and opportunity for questions</td></tr>\n<tr><td>Quick coordination with depots</td><td>Phone, messaging group, email</td></tr>\n</table>\n<h4>Multilingual workplaces</h4>\n<p>Depots in rural South Africa work in several languages, for example isiZulu, Sesotho, Setswana, Afrikaans and English. Use simple words, check understanding, use visual signs and translate key safety information. Never assume silence means understanding.</p>\n<h4>Listening</h4>\n<p>Active listening means giving full attention, not interrupting, asking questions to clarify, summarising what you heard and noticing body language. It is especially important when dealing with complaints and grievances.</p><p>Non-verbal communication matters too. Tone of voice, facial expressions and posture can support or contradict your words. A manager who explains a downgrade politely but with folded arms and an impatient tone may still leave the farmer feeling dismissed.</p>"
+  },
+  {
+   "title": "Written communication, meetings and difficult conversations",
+   "minutes": 18,
+   "html": "<h3>Business writing</h3>\n<p>Managers write reports, emails, memos, incident reports and procedures. Good business writing is clear, concise, correct and courteous:</p>\n<ul>\n<li>Start with the purpose or main point.</li>\n<li>Use short sentences and plain words.</li>\n<li>Use headings, lists and tables for facts and figures.</li>\n<li>Check facts, numbers and spelling before sending.</li>\n<li>End with the action required, by whom and by when.</li>\n</ul>\n<p>Example: instead of \"There have been some issues with the intake recently that may require attention,\" write \"Truck waiting time at Depot A rose from 40 to 95 minutes this week because one grading station was down. Please approve a second grader for the night shift from Monday.\"</p>\n<h3>Running meetings</h3>\n<ol>\n<li>Have a clear purpose and short agenda, shared in advance.</li>\n<li>Invite only the people needed.</li>\n<li>Start and end on time.</li>\n<li>Encourage everyone to speak; manage dominant voices.</li>\n<li>Record decisions, actions, owners and dates.</li>\n<li>Follow up on actions at the next meeting.</li>\n</ol>\n<h3>Presentations</h3>\n<p>When presenting to head office or clients, know your audience, keep to a few key messages, use simple visuals and be ready for questions.</p>\n<h3>Difficult conversations</h3>\n<p>A farmer disputes the grade of a load. Stay calm and respectful, listen fully, explain the grading process and the result with facts, show the sample if appropriate and explain the dispute or re-grading procedure available. Do not argue or make promises outside procedure. Similarly, when giving an employee difficult feedback, describe the behaviour and its impact, listen to their side and agree next steps.</p>\n<h3>Negotiation basics</h3>\n<p>Prepare your goals and limits, understand the other party's interests, look for options that meet both sides' needs and confirm agreements in writing.</p>\n<h4>Key points</h4>\n<ul>\n<li>Communication needs a clear message, the right channel and feedback.</li>\n<li>Overcome barriers such as noise, language and emotion; never assume silence means understanding.</li>\n<li>Write clearly: main point first, facts, and required actions.</li>\n<li>Run meetings with an agenda and record decisions and actions.</li>\n<li>Handle disputes calmly with facts, listening and the proper procedure.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How do you know a message was understood?",
+   "options": [
+    {
+     "text": "By sending it twice",
+     "correct": false
+    },
+    {
+     "text": "By writing in capitals",
+     "correct": false
+    },
+    {
+     "text": "Through feedback where the receiver confirms understanding",
+     "correct": true
+    },
+    {
+     "text": "The receiver stays silent",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the best channel for an urgent safety instruction?",
+   "options": [
+    {
+     "text": "A notice next month",
+     "correct": false
+    },
+    {
+     "text": "A monthly report",
+     "correct": false
+    },
+    {
+     "text": "Face to face or radio, then in writing",
+     "correct": true
+    },
+    {
+     "text": "A social media post",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a business email start with?",
+   "options": [
+    {
+     "text": "Jokes",
+     "correct": false
+    },
+    {
+     "text": "A list of attachments",
+     "correct": false
+    },
+    {
+     "text": "The purpose or main point",
+     "correct": true
+    },
+    {
+     "text": "A long background story",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farmer disputes a grade. What should the manager do?",
+   "options": [
+    {
+     "text": "Refuse to talk",
+     "correct": false
+    },
+    {
+     "text": "Change the grade to keep the farmer happy",
+     "correct": false
+    },
+    {
+     "text": "Argue until the farmer leaves",
+     "correct": false
+    },
+    {
+     "text": "Listen, explain the process with facts and explain the dispute procedure",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be recorded at the end of a meeting?",
+   "options": [
+    {
+     "text": "Decisions, actions, owners and dates",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Who arrived late",
+     "correct": false
+    },
+    {
+     "text": "Only the attendance",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Active listening includes summarising what you heard.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In a multilingual workplace silence always means understanding.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are barriers to communication in a depot? (select all that apply)",
+   "options": [
+    {
+     "text": "Technical jargon",
+     "correct": true
+    },
+    {
+     "text": "Language differences",
+     "correct": true
+    },
+    {
+     "text": "Clear, simple words",
+     "correct": false
+    },
+    {
+     "text": "Noise from fans and conveyors",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

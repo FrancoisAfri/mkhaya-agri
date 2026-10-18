@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8038",
+ "title": "Operating lift trucks",
+ "lessons": [
+  {
+   "title": "Identifying and classifying freight",
+   "minutes": 15,
+   "html": "<h3>Lift trucks in agriculture</h3> <p>Lift trucks (forklifts) move goods in grain silos and depots, packhouses, fertiliser and feed stores, and on loading docks. They save heavy lifting but can cause serious accidents. You must be trained and authorised before you operate one.</p> <h4>Why freight must be identified</h4> <p>The way you handle a load depends on what it is. Before you lift anything, identify:</p> <ul> <li><strong>What it is</strong>: check the delivery note, dispatch note or picking list.</li> <li><strong>How heavy it is</strong>: the weight is often printed on the bag, pallet label or document. Compare it with your truck's data plate.</li> <li><strong>Its size and shape</strong>: long, high or uneven loads change the load centre and stability.</li> <li><strong>Special handling</strong>: labels such as \"fragile\", \"keep dry\", \"this way up\", \"do not stack\" or a maximum stack height.</li> <li><strong>Hazards</strong>: dangerous goods labels (diamond signs) for flammable, toxic, corrosive or oxidising products.</li> </ul> <h4>Classes of freight you may handle</h4> <table> <tr><th>Type</th><th>Examples</th><th>Care needed</th></tr> <tr><td>General bagged goods</td><td>Maize meal, seed, animal feed</td><td>Keep dry, check bags for tears, keep away from chemicals</td></tr> <tr><td>Bulk bags</td><td>Grain, fertiliser</td><td>Lift by loops or on pallets as designed</td></tr> <tr><td>Perishable goods</td><td>Fruit, vegetables</td><td>Gentle handling, quick movement, keep cold</td></tr> <tr><td>Dangerous goods</td><td>Pesticides, fuel, acids</td><td>Separate storage, spill kit, follow the safety data sheet</td></tr> <tr><td>Machinery parts</td><td>Implements, spares</td><td>Find the centre of gravity, secure with straps</td></tr> </table> <p>If documents and labels do not match the goods, or if packaging is damaged or leaking, do not move the load. Report it to your supervisor.</p>"
+  },
+  {
+   "title": "Handling, loading and storing freight",
+   "minutes": 15,
+   "html": "<h3>Picking up a load</h3> <ol> <li>Check the truck has been inspected for the shift.</li> <li>Approach the load slowly and squarely, forks level.</li> <li>Set the forks as wide as possible for the pallet.</li> <li>Drive the forks fully under the load.</li> <li>Lift slightly and tilt back.</li> <li>Check the load is stable and not touching anything.</li> </ol> <h3>Travelling</h3> <ul> <li>Carry the load low and tilted back.</li> <li>Look where you are going; if the load blocks your view, drive in reverse.</li> <li>Slow down at corners, wet floors and doorways; sound the hooter at blind spots.</li> <li>Drive straight up and down ramps, load facing uphill.</li> </ul> <h3>Placing and stacking</h3> <ul> <li>Stop in front of the stack or rack, square to it.</li> <li>Raise the load to just above the place, move forward slowly, level the forks and lower.</li> <li>Lower the forks clear and reverse out carefully.</li> <li>Stack within the rated height and label limits. Heavier goods go at the bottom.</li> </ul> <h3>Loading trucks and trailers</h3> <ul> <li>Check the truck or trailer is braked and chocked, and the driver is out of the cab, before you load.</li> <li>Check the dock plate is secure and can take the weight.</li> <li>Load evenly so the vehicle is balanced. Heavy goods low and towards the front axle, as the driver or supervisor directs.</li> <li>Do not damage the vehicle floor with the forks.</li> </ul> <h3>Good storage</h3> <ul> <li>Keep aisles, exits, fire hoses and extinguishers clear.</li> <li>Store chemicals, fuel and fertiliser apart from food, feed and seed.</li> <li>Use first-in, first-out.</li> <li>Keep grain and feed dry and off the floor on pallets to protect against moisture and rodents.</li> <li>Report damaged pallets, racking and spills at once.</li> </ul>"
+  },
+  {
+   "title": "Getting the best from the truck safely",
+   "minutes": 15,
+   "html": "<h3>Work performance and capacity</h3> <p>Getting maximum work from a lift truck means working steadily and safely, not fast and carelessly. Know:</p> <ul> <li><strong>Dimensions</strong>: the height of the mast (for doorways and roofs), the width and turning circle (for aisles).</li> <li><strong>Controls</strong>: lift, lower, tilt, side-shift and any attachments. Use them smoothly.</li> <li><strong>Capacity</strong>: from the data plate, at a stated load centre and height. Longer loads, higher lifts and attachments all reduce capacity.</li> <li><strong>Working conditions</strong>: uneven floors, gravel yards, slopes and wet surfaces reduce stability.</li> </ul> <h3>Organisational and legal standards</h3> <ul> <li>Only trained and authorised operators may drive. The OHS Act 85 of 1993 and its Driven Machinery Regulations place duties on employer and operator.</li> <li>Do the pre-shift inspection and fill in the checklist.</li> <li>Wear the seat belt and required PPE.</li> <li>No passengers. Never lift people on the forks.</li> <li>Nobody walks or stands under raised forks.</li> <li>Follow site traffic routes and speed limits.</li> <li>When parking: forks on the floor, neutral, parking brake on, engine off, key removed. Never park in front of fire equipment or exits.</li> <li>Refuel or charge only in the designated area, no smoking or flames.</li> </ul> <h3>Incidents and emergencies</h3> <ul> <li>Know where the first aid box, fire extinguishers, spill kit and emergency numbers are, and who the first aider is.</li> <li>If there is an accident: stop, switch off, make the area safe, call for help. Do not move an injured person unless they are in more danger where they are.</li> <li>For a spill of chemicals or fuel: keep people away, stop the source if safe, use the spill kit if trained, and tell your supervisor.</li> <li>For a fire: raise the alarm, use the extinguisher only if trained and safe, and evacuate.</li> <li>If the truck tips over: do not jump; hold on, brace and lean away.</li> <li>Report every incident and near miss.</li> </ul> <h4>Key points</h4> <ul> <li>Identify the load, its weight and hazards before lifting.</li> <li>Travel low and tilted back; reverse if the view is blocked.</li> <li>Store dangerous goods apart and keep exits clear.</li> <li>Never exceed capacity, carry passengers or lift people.</li> <li>Know the emergency equipment and report all incidents.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do if the goods do not match the documents or are leaking?",
+   "options": [
+    {
+     "text": "Hide them at the back",
+     "correct": false
+    },
+    {
+     "text": "Do not move the load and report it to your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Wrap them in plastic and carry on",
+     "correct": false
+    },
+    {
+     "text": "Move them quickly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where can you find the safe capacity of a lift truck?",
+   "options": [
+    {
+     "text": "On the delivery note",
+     "correct": false
+    },
+    {
+     "text": "On the tyres",
+     "correct": false
+    },
+    {
+     "text": "On the data plate",
+     "correct": true
+    },
+    {
+     "text": "On the fuel tank",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be checked before loading a truck or trailer?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "The radio is on",
+     "correct": false
+    },
+    {
+     "text": "The trailer is moving",
+     "correct": false
+    },
+    {
+     "text": "It is braked and chocked and the driver is out of the cab",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should grain and feed be stored?",
+   "options": [
+    {
+     "text": "On wet floors",
+     "correct": false
+    },
+    {
+     "text": "Against fire exits",
+     "correct": false
+    },
+    {
+     "text": "Next to pesticides",
+     "correct": false
+    },
+    {
+     "text": "Dry, off the floor on pallets",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which reduces a lift truck's capacity?",
+   "options": [
+    {
+     "text": "A charged battery",
+     "correct": false
+    },
+    {
+     "text": "A clean floor",
+     "correct": false
+    },
+    {
+     "text": "Longer loads and higher lifts",
+     "correct": true
+    },
+    {
+     "text": "A full fuel tank",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A lift truck may carry a passenger on the forks if it drives slowly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Heavier goods should go at the bottom of a stack.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you do when parking a lift truck? (select all that apply)",
+   "options": [
+    {
+     "text": "Lower the forks to the floor",
+     "correct": true
+    },
+    {
+     "text": "Put on the parking brake",
+     "correct": true
+    },
+    {
+     "text": "Remove the key",
+     "correct": true
+    },
+    {
+     "text": "Park in front of the fire extinguisher",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

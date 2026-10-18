@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246416",
+ "title": "Demonstrate an understanding of ethics and traditions pertaining to the hunting of wild animals",
+ "lessons": [
+  {
+   "title": "Best practice, the law and respect for others",
+   "minutes": 15,
+   "html": "<h3>Ethical hunting starts with the law</h3>\n<p>Ethics is about doing what is right even when nobody is watching. For a professional hunter, the minimum standard is the law: provincial hunting permits and seasons, TOPS regulations for listed species, the Firearms Control Act 60 of 2000, and the Animals Protection Act 71 of 1962 where it applies. Generally accepted best practice goes further than the law.</p>\n<h4>Best practices</h4>\n<ul><li>Hunt only with valid permits and on properties where hunting is allowed.</li>\n<li>Use a rifle and bullet suitable for the species, and make sure you and your client can shoot accurately at the distance.</li>\n<li>Take only shots that give a high chance of a quick, clean kill: a standing animal, broadside or quartering, within range, with a clear view of the vital area.</li>\n<li>Follow up every wounded animal until it is found, no matter how long it takes.</li>\n<li>Use the whole animal where possible: venison, skins and by-products.</li>\n<li>Select old, mature males past their breeding prime where trophies are sought.</li>\n<li>Keep accurate hunting registers.</li></ul>\n<h4>Respect for the rights of others</h4>\n<ul><li><strong>Landowners</strong>: get permission, follow farm rules, close gates, do not hunt outside agreed areas.</li>\n<li><strong>Neighbours</strong>: never shoot across fences or near boundaries, and do not cross fences after a wounded animal without permission.</li>\n<li><strong>Farm workers and communities</strong>: tell them where and when you are hunting so they are safe.</li>\n<li><strong>Clients</strong>: honest descriptions of what animals are available, fair prices, no false promises.</li>\n<li><strong>Other hunters and the public</strong>: be discreet. Do not post graphic pictures that disrespect the animal.</li>\n<li><strong>Cultural respect</strong>: some communities have traditional beliefs about certain animals and places; respect them.</li></ul>"
+  },
+  {
+   "title": "Fair chase and hunting traditions",
+   "minutes": 15,
+   "html": "<h3>The principle of fair chase</h3>\n<p>Fair chase means hunting a wild animal in a way that does not give the hunter an unfair or improper advantage, and gives the animal a reasonable chance to escape. It is the heart of ethical hunting.</p>\n<h4>Fair chase in practice</h4>\n<ul><li>The animal must be free-ranging within an area large enough for it to evade the hunter.</li>\n<li>Do not shoot animals from vehicles, at night with spotlights, or in small enclosures unless a legal management cull requires it.</li>\n<li>Do not chase animals with vehicles or aircraft to tire them before the hunt.</li>\n<li>Do not shoot animals that are drugged, trapped, recently released from a crate, or helpless in water or a fence.</li>\n<li>Do not use baits or calls where the law or the hunt rules forbid them.</li></ul>\n<p>\"Canned\" hunting, where a captive-bred animal is released into a small area to be shot, is widely condemned and in many cases illegal. A professional hunter who takes part damages the reputation of the whole industry.</p>\n<h4>Hunting traditions and history</h4>\n<p>Hunting in southern Africa is ancient. San hunter-gatherers tracked game for thousands of years with bows, poisoned arrows and remarkable tracking skills, many of which are still used by trackers today. Many African cultures had rules about which animals could be hunted, by whom and when. Colonial-era hunting in the 1800s greatly reduced game numbers, leading to the creation of reserves such as the Sabie Game Reserve, which later became the Kruger National Park. In the late twentieth century, private game ranching grew rapidly, and today hunting contributes to conservation by giving wildlife a value that encourages landowners to keep land under natural veld.</p>\n<h4>Traditions to keep</h4>\n<ul><li>Respect the animal after the shot: a moment of silence, the \"last bite\" tradition in some hunting cultures.</li>\n<li>Thank the tracker and skinners and share the success.</li>\n<li>Pass on skills and ethics to young hunters.</li></ul>\n<h4>Key points</h4>\n<ul><li>The law is the minimum; best practice goes further.</li>\n<li>Take only shots that give a quick, clean kill, and always follow up wounded animals.</li>\n<li>Respect landowners, neighbours, workers, clients and communities.</li>\n<li>Fair chase gives the animal a reasonable chance to escape; canned hunting is unethical.</li>\n<li>Hunting has deep roots, from San trackers to modern game ranching.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does fair chase mean?",
+   "options": [
+    {
+     "text": "Hunting with as many people as possible",
+     "correct": false
+    },
+    {
+     "text": "Hunting only at night",
+     "correct": false
+    },
+    {
+     "text": "Hunting with the fastest vehicle",
+     "correct": false
+    },
+    {
+     "text": "Hunting without an unfair advantage, giving the animal a reasonable chance to escape",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must a hunter do after wounding an animal?",
+   "options": [
+    {
+     "text": "Leave it and look for another",
+     "correct": false
+    },
+    {
+     "text": "Wait until next season",
+     "correct": false
+    },
+    {
+     "text": "Report it as missed",
+     "correct": false
+    },
+    {
+     "text": "Follow it up until it is found",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which shot is the most ethical choice?",
+   "options": [
+    {
+     "text": "A running animal at long range",
+     "correct": false
+    },
+    {
+     "text": "An animal partly behind a bush",
+     "correct": false
+    },
+    {
+     "text": "An animal facing away at dusk",
+     "correct": false
+    },
+    {
+     "text": "A standing animal broadside within range with a clear view of the vitals",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a wounded animal crosses into a neighbour's property?",
+   "options": [
+    {
+     "text": "Forget about it",
+     "correct": false
+    },
+    {
+     "text": "Cross the fence immediately without asking",
+     "correct": false
+    },
+    {
+     "text": "Shoot across the fence",
+     "correct": false
+    },
+    {
+     "text": "Get the neighbour's permission before crossing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which park grew out of the Sabie Game Reserve?",
+   "options": [
+    {
+     "text": "Kruger National Park",
+     "correct": true
+    },
+    {
+     "text": "Golden Gate",
+     "correct": false
+    },
+    {
+     "text": "Addo Elephant National Park",
+     "correct": false
+    },
+    {
+     "text": "Pilanesberg",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Canned hunting is widely condemned and in many cases illegal.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The law sets the highest standard of ethics, so best practice cannot go further.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which practices break fair chase? (select all that apply)",
+   "options": [
+    {
+     "text": "Stalking a free-ranging animal on foot",
+     "correct": false
+    },
+    {
+     "text": "Shooting an animal trapped in a fence",
+     "correct": true
+    },
+    {
+     "text": "Chasing animals with aircraft to tire them",
+     "correct": true
+    },
+    {
+     "text": "Shooting animals from vehicles",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

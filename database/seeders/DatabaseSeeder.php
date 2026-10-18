@@ -88,6 +88,7 @@ class DatabaseSeeder extends Seeder
         $this->call(FinanceAccessSeeder::class); // Manual-journal posting permission
         $this->call(OffboardingPermissionSeeder::class);   // Termination-authority gate
         $this->call(AccountingModuleSeeder::class); // Nav + access for all finance users
+        $this->call(AgriTrainingLibrarySeeder::class); // SAQA agricultural courses for every farm
 
         // ── Demo / sample data (org structure, sample employees, fleet, etc.) ──
         // Never on a live system. By default this follows APP_ENV, but an

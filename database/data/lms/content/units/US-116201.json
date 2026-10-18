@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116201",
+ "title": "Harvest agricultural crops",
+ "lessons": [
+  {
+   "title": "Tools and checking if crops are ready",
+   "minutes": 15,
+   "html": "<h3>Tools and checking if crops are ready</h3><p>Harvesting is picking or cutting the crop when it is ready. If you pick too early, the crop is not ripe and tastes bad. If you pick too late, it may be soft, rotten or lost. Careful harvesting gives the farm a better price.</p><h4>Tools and equipment</h4><p>Your supervisor tells you the harvesting method. Use the right tool for it:</p><table><tr><th>Crop</th><th>Tools</th></tr><tr><td>Citrus, apples</td><td>Picking bags, clippers, ladders, bins</td></tr><tr><td>Vegetables (cabbage, lettuce)</td><td>Sharp knife, crates</td></tr><tr><td>Potatoes, carrots</td><td>Fork, lifter, crates or bags</td></tr><tr><td>Table grapes</td><td>Grape scissors, lugs (picking crates)</td></tr><tr><td>Maize, wheat</td><td>Combine harvester (only trained drivers)</td></tr></table><p>Check tools before work. Knives and clippers must be sharp and clean. Report broken tools.</p><h4>Sampling for ripeness</h4><p>Before harvest, the supervisor checks if the crop is ready. This is called maturity indexing. You may help by taking samples.</p><ol><li>Pick samples from different parts of the block, not only the edge.</li><li>Take the number of samples your supervisor asks for.</li><li>Put them in a marked bag or crate with the block name.</li><li>Take them to the supervisor or the testing place.</li></ol><p>Signs of ripeness can be colour, size, firmness, sweetness or dry grain. Each crop has its own signs, and the farm or buyer sets the standard.</p><h4>Before you start</h4><p>Listen carefully to the supervisor's briefing. You will be told which block to pick, what size or colour to pick, and where to take full crates. Ask if you are not sure. Picking the wrong produce wastes the crop and money.</p>"
+  },
+  {
+   "title": "Picking safely and cleaning up",
+   "minutes": 15,
+   "html": "<h3>Picking safely and cleaning up</h3><h4>How to harvest</h4><ul><li>Pick only produce that meets the standard your supervisor shows you.</li><li>Handle produce gently. Bruises and cuts make fruit and vegetables rot.</li><li>Do not throw produce into crates or bins.</li><li>Do not overfill crates. Stacked crates crush produce.</li><li>Keep harvested produce in the shade.</li><li>Take full crates to the collection point quickly.</li></ul><h4>Health and hygiene</h4><p>People eat these crops, often raw. Germs from hands can make people sick.</p><ul><li>Wash your hands with soap after using the toilet and before work.</li><li>Use the field toilets. Never relieve yourself in the field.</li><li>Do not work with produce if you have diarrhoea or are vomiting. Tell your supervisor.</li><li>Cover cuts with a plaster and gloves.</li><li>Do not eat, smoke or spit in the rows.</li></ul><h4>Safety</h4><ul><li>Wear a hat, long sleeves and drink water often in the heat.</li><li>Use ladders on firm ground. Do not lean too far out.</li><li>Cut away from your body with knives.</li><li>Stay away from tractors and harvesters unless the driver can see you.</li><li>Do not enter a block that has just been sprayed until your supervisor says it is safe.</li></ul><h4>Waste</h4><p>Put rotten produce, leaves and rubbish in the place your supervisor shows you. Plastic and string go in the rubbish bin, not on the land. Keep rotten produce away from good produce.</p><h4>Caring for equipment</h4><p>At the end of the day, under your supervisor's guidance, clean knives, clippers and crates, dry them and store them in the right place. Report broken items.</p><h4>Key points</h4><ul><li>Use the right, clean tool for the harvesting method.</li><li>Take ripeness samples from all over the block.</li><li>Handle produce gently and keep it in the shade.</li><li>Wash hands and use toilets; people eat this food.</li><li>Dispose of waste correctly and clean tools after work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What happens if a crop is picked too early?",
+   "options": [
+    {
+     "text": "It is not ripe and tastes bad",
+     "correct": true
+    },
+    {
+     "text": "It always gets a higher price",
+     "correct": false
+    },
+    {
+     "text": "It lasts forever",
+     "correct": false
+    },
+    {
+     "text": "It becomes heavier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should ripeness samples be taken?",
+   "options": [
+    {
+     "text": "Only on the edge of the block",
+     "correct": false
+    },
+    {
+     "text": "Only near the road",
+     "correct": false
+    },
+    {
+     "text": "From different parts of the block",
+     "correct": true
+    },
+    {
+     "text": "From the rubbish pile",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must produce be handled gently?",
+   "options": [
+    {
+     "text": "It makes picking slower",
+     "correct": false
+    },
+    {
+     "text": "Bruises and cuts make it rot",
+     "correct": true
+    },
+    {
+     "text": "The supervisor likes it",
+     "correct": false
+    },
+    {
+     "text": "It makes the crates lighter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You have diarrhoea on a harvest day. What should you do?",
+   "options": [
+    {
+     "text": "Work as normal",
+     "correct": false
+    },
+    {
+     "text": "Work but do not tell anyone",
+     "correct": false
+    },
+    {
+     "text": "Only pick on the edge of the block",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor and do not handle produce",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool is used to harvest table grapes?",
+   "options": [
+    {
+     "text": "Grape scissors",
+     "correct": true
+    },
+    {
+     "text": "A fork",
+     "correct": false
+    },
+    {
+     "text": "A combine harvester",
+     "correct": false
+    },
+    {
+     "text": "A spade",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may enter a block that was just sprayed if you are in a hurry.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Harvested produce should be kept in the shade.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good hygiene practices during harvest? (select all that apply)",
+   "options": [
+    {
+     "text": "Wash hands with soap after the toilet",
+     "correct": true
+    },
+    {
+     "text": "Spit in the rows",
+     "correct": false
+    },
+    {
+     "text": "Use the field toilets",
+     "correct": true
+    },
+    {
+     "text": "Cover cuts with a plaster and gloves",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

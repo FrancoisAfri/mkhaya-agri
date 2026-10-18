@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116684",
+ "title": "Participate in the development and management of an agricultural marketing plan",
+ "lessons": [
+  {
+   "title": "Understanding agricultural markets",
+   "minutes": 15,
+   "html": "<h3>Selling is part of farming</h3><p>Producing a good crop or healthy animals is only half the job. The farm must sell at a price that covers costs and leaves a profit. A marketing plan sets out what the farm will sell, to whom, when, at what price and how.</p><h4>Market channels in South Africa</h4><ul><li><strong>Fresh produce markets</strong> such as the Johannesburg, Tshwane and Cape Town markets, where agents sell on commission.</li><li><strong>Grain marketing</strong> through silo owners and traders, with prices linked to the futures market of the JSE.</li><li><strong>Livestock auctions</strong>, direct sales to feedlots and abattoirs, or sales on weight and grade.</li><li><strong>Contracts</strong> with retailers, processors and packers, often with quality and food safety requirements.</li><li><strong>Export</strong> through exporters, needing certification and compliance with importing country rules.</li><li><strong>Local and informal markets</strong>: hawkers, spaza shops, farm stalls, schools and communities.</li></ul><h4>What drives price</h4><p>Prices move with supply and demand. A good season across the country means lots of supply and lower prices. Quality, grade, size, packaging, timing and reliability of supply also affect the price a buyer will pay. The exchange rate and world prices affect grain, wool and export fruit.</p><h4>Market information</h4><p>Collect information from market price reports, the JSE commodity prices, auction results, agents, buyers and industry organisations. Track prices over several seasons to see patterns, for example tomato prices that rise in certain months.</p><h4>Example</h4><p>A vegetable farmer in Limpopo notices from three years of market reports that tomato prices are often low in a certain month when many growers harvest at once. Planting a little earlier or later to avoid that peak can lift the average price received.</p>"
+  },
+  {
+   "title": "Developing the marketing plan",
+   "minutes": 15,
+   "html": "<h3>Putting the plan together</h3><p>As a supervisor or junior manager you may not set the strategy alone, but you take part in developing it and supply information from production.</p><h4>Steps in a marketing plan</h4><ol><li><strong>Situation analysis</strong>: what the farm produces, volumes, quality, timing, and strengths and weaknesses compared with competitors.</li><li><strong>Target markets</strong>: choose the channels and buyers that fit the product, for example Class 1 tomatoes to a retailer contract and Class 2 to the local market.</li><li><strong>Marketing objectives</strong>: clear targets such as sell 500 tons of maize at an average of at least R4 000 per ton, or sell 80% of weaners directly to a feedlot.</li><li><strong>Marketing mix</strong>: product (grade, packaging), price (pricing method, contracts, hedging), place (channel, transport, cold chain) and promotion (relationships with buyers, brand, certification).</li><li><strong>Budget</strong>: transport, packaging, agent's commission, market levies, certification and advertising costs.</li><li><strong>Action plan</strong>: who does what and when.</li></ol><h4>Managing price risk</h4><p>Ways to reduce price risk include forward contracts with buyers, hedging on the futures market through a broker, spreading sales over time, and selling to more than one channel. These tools need care and expert advice, because they can also limit gains when prices rise.</p><h4>Linking production and marketing</h4><p>The production plan must match the marketing plan. If the retailer wants a steady weekly supply of butternut, plantings must be staggered. If the export market needs certain residue limits, the spray programme must comply.</p><h4>Example</h4><p>A cattle farm sells weaners. The plan might set a target weight, choose between the local auction and a direct feedlot contract, budget for transport and commission, and name the person who negotiates with the feedlot buyer each season.</p>"
+  },
+  {
+   "title": "Managing and reviewing the plan",
+   "minutes": 15,
+   "html": "<h3>Making the plan work during the season</h3><h4>Your role in implementation</h4><ul><li>Give regular estimates of volumes and quality to the marketing person so that buyers can be told in time.</li><li>Make sure grading, packing and labelling meet the buyer's specification.</li><li>Organise transport so that products arrive fresh and on time.</li><li>Keep delivery notes, weighbridge slips, grading reports and market statements.</li><li>Report problems early, such as hail damage or a disease outbreak that will cut supply.</li></ul><h4>Monitoring results</h4><table><tr><th>Measure</th><th>Example</th></tr><tr><td>Volume sold</td><td>Tons or cartons per week against target</td></tr><tr><td>Average price</td><td>Rand per ton, per kilogram or per carton</td></tr><tr><td>Marketing costs</td><td>Commission, transport, packaging as a percentage of sales</td></tr><tr><td>Quality</td><td>Percentage rejected or downgraded by buyers</td></tr><tr><td>Payment</td><td>Days taken by buyers to pay</td></tr></table><h4>Customer relationships</h4><p>Buyers prefer reliable suppliers. Communicate honestly, deliver what you promised and solve complaints quickly. A long-term relationship with a buyer can be worth more than chasing the highest price each week.</p><h4>Review</h4><p>After the season, compare actual results with the objectives. Ask what worked, which channel gave the best net price after costs, and what should change next season. Feed these lessons into the next marketing and production plans.</p><h4>Key points</h4><ul><li>A marketing plan sets out what to sell, to whom, when, at what price and how.</li><li>Prices depend on supply and demand, quality, timing and world markets.</li><li>The marketing mix covers product, price, place and promotion.</li><li>Forward contracts, hedging and spreading sales reduce price risk but need expert advice.</li><li>Monitor volumes, net prices, costs and rejections and review the plan each season.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which grain price in South Africa is linked to the JSE?",
+   "options": [
+    {
+     "text": "The futures market price",
+     "correct": true
+    },
+    {
+     "text": "The auction price of weaners",
+     "correct": false
+    },
+    {
+     "text": "The fresh produce market price",
+     "correct": false
+    },
+    {
+     "text": "The spaza shop price",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What usually happens to prices when there is a good season across the whole country?",
+   "options": [
+    {
+     "text": "Prices rise sharply",
+     "correct": false
+    },
+    {
+     "text": "Prices tend to fall because of high supply",
+     "correct": true
+    },
+    {
+     "text": "Prices stay fixed by law",
+     "correct": false
+    },
+    {
+     "text": "Prices only change for export",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a clear marketing objective?",
+   "options": [
+    {
+     "text": "Sell more",
+     "correct": false
+    },
+    {
+     "text": "Do better than last year",
+     "correct": false
+    },
+    {
+     "text": "Sell 500 tons of maize at an average of at least R4 000 per ton",
+     "correct": true
+    },
+    {
+     "text": "Find some buyers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are the four parts of the marketing mix?",
+   "options": [
+    {
+     "text": "Seed, fertiliser, water, labour",
+     "correct": false
+    },
+    {
+     "text": "Budget, cash flow, loans, interest",
+     "correct": false
+    },
+    {
+     "text": "Planting, spraying, harvesting, storage",
+     "correct": false
+    },
+    {
+     "text": "Product, price, place and promotion",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should plantings be staggered for a retailer who wants weekly butternut?",
+   "options": [
+    {
+     "text": "To provide a steady weekly supply",
+     "correct": true
+    },
+    {
+     "text": "To use less fertiliser",
+     "correct": false
+    },
+    {
+     "text": "To avoid grading",
+     "correct": false
+    },
+    {
+     "text": "To reduce transport costs to zero",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hedging on the futures market can reduce price risk but may also limit gains when prices rise.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The channel with the highest gross price always gives the best net price after costs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which measures should you monitor while the marketing plan runs? (select all that apply)",
+   "options": [
+    {
+     "text": "Average price per unit",
+     "correct": true
+    },
+    {
+     "text": "Percentage of product rejected by buyers",
+     "correct": true
+    },
+    {
+     "text": "Marketing costs",
+     "correct": true
+    },
+    {
+     "text": "The number of tractors on the farm",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

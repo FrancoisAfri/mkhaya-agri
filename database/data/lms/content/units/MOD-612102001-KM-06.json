@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-KM-06",
+  "title": "Milk harvesting and in-parlour processing",
+  "lessons": [
+    {
+      "title": "How the udder makes and releases milk",
+      "minutes": 20,
+      "html": "<h3>Udder structure</h3><p>The udder has four separate quarters, each with its own teat. Milk is made by millions of tiny sacs called alveoli, lined with secretory cells that take nutrients from the blood. Large volumes of blood must flow through the udder to make each litre of milk, which is why feed, water and health matter so much.</p><p>Milk collects in ducts and the gland and teat cisterns. At the tip of each teat is the <strong>teat canal</strong>, closed by a ring of muscle and lined with keratin. It is the udder's main barrier against bacteria.</p><h4>Milk let-down</h4><p>Most milk is held in the alveoli and is only released during let-down:</p><ol><li>Stimulation of the teats (fore-stripping, cleaning, a calf sucking) sends nerve signals to the brain.</li><li>The brain releases the hormone <strong>oxytocin</strong> into the blood.</li><li>Oxytocin makes muscle cells around the alveoli contract and push milk into the ducts and cisterns.</li></ol><p>The effect of oxytocin lasts only a few minutes, so the cluster should be attached within the time set by the farm's routine after preparation. Fear and pain release <strong>adrenaline</strong>, which blocks oxytocin. Rough handling, shouting or dogs can cause incomplete milking and lower yields.</p><h4>Milk composition and quality</h4><p>Milk contains water, fat, protein (mainly casein), lactose, minerals and vitamins. Somatic cells are mostly white blood cells; their number rises sharply when a quarter is infected, so the somatic cell count (SCC) is used as a measure of udder health.</p><p>Milk is made continuously between milkings, and pressure in the udder slowly rises. Regular milking intervals keep production high. Incomplete milking leaves residual milk, which can lower yields over time.</p>"
+    },
+    {
+      "title": "Machine milking principles",
+      "minutes": 20,
+      "html": "<h3>How a milking machine works</h3><p>A milking machine removes milk with vacuum and protects the teat with a pulsation cycle.</p><h4>Main parts</h4><ul><li><strong>Vacuum pump and regulator</strong>: create and hold the vacuum level set by the technician.</li><li><strong>Pulsator</strong>: switches each liner between vacuum and atmospheric pressure in a regular rhythm.</li><li><strong>Cluster</strong>: four teat cups with liners, the claw, and short milk and pulse tubes.</li><li><strong>Milk line, receiver and milk pump</strong>: carry milk to the filter, cooler and bulk tank.</li><li><strong>Automatic cluster removers</strong>: take the cluster off when milk flow drops, preventing overmilking.</li></ul><h4>The pulsation cycle</h4><table><tr><th>Phase</th><th>What happens</th></tr><tr><td>Milking phase</td><td>Vacuum on both sides of the liner; liner open; milk flows out of the teat</td></tr><tr><td>Rest (massage) phase</td><td>Air enters the pulsation chamber; liner collapses and squeezes the teat, restoring blood flow</td></tr></table><p>Without the rest phase, teats would swell and be damaged. Faulty pulsation, incorrect vacuum, worn liners and overmilking cause teat-end damage and increase mastitis risk.</p><h4>Parlour types</h4><ul><li><strong>Herringbone</strong>: cows stand at an angle, common on SA farms.</li><li><strong>Parallel or swing-over</strong>: variations to fit more units.</li><li><strong>Rotary</strong>: cows on a turning platform, for large herds.</li><li><strong>Robotic (automatic) milking</strong>: cows visit a robot voluntarily; still uncommon but growing.</li></ul><p>Throughput (cows per hour) depends on the parlour, the routine and the number of milkers. Plant tests by a qualified technician check vacuum, pulsation and airflow.</p><p>Milking machine settings must be checked by a qualified technician, because vacuum level, pulsation rate and ratio are matched to the liners and parlour. Operators should never change these settings themselves.</p>"
+    },
+    {
+      "title": "Cooling, cleaning and milk quality control",
+      "minutes": 20,
+      "html": "<h3>In-parlour processing</h3><p>On most farms, in-parlour processing means filtering, cooling and storing raw milk safely until collection.</p><h4>Bacteria and temperature</h4><p>Bacteria multiply very quickly in warm milk. Rapid cooling slows them down. Plate coolers pre-cool milk with water before it reaches the refrigerated bulk tank, which then cools it to the storage temperature required by the buyer. Tank temperature must be recorded at every milking.</p><h4>Sources of bacteria in milk</h4><ul><li>Dirty teats: dung and mud from yards and lying areas.</li><li>Poorly cleaned equipment: milk residue builds a film where bacteria grow.</li><li>Infected udders: mastitis bacteria.</li><li>Slow or failed cooling.</li></ul><h4>Cleaning-in-place</h4><p>Effective cleaning depends on four factors, sometimes called TACT: <strong>T</strong>emperature, <strong>A</strong>ction (turbulent flow), <strong>C</strong>hemical concentration and <strong>T</strong>ime. If one is low, the others cannot fully compensate. Alkaline detergents remove fat and protein; acid detergents remove mineral deposits (milkstone). Never mix acids and chlorine products, and use protective equipment.</p><h4>Quality testing</h4><table><tr><th>Test</th><th>Purpose</th></tr><tr><td>Bacteria count</td><td>Hygiene and cooling</td></tr><tr><td>Somatic cell count</td><td>Udder health</td></tr><tr><td>Residue (inhibitory substance) test</td><td>Antibiotics and other drugs</td></tr><tr><td>Freezing point</td><td>Added water</td></tr><tr><td>Fat, protein, lactose</td><td>Composition and payment</td></tr></table><h4>Legal framework</h4><p>Milk is a foodstuff under the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972, and its regulations govern milk hygiene. Medicines and remedies are regulated under Act 36 of 1947 and must be used according to the label.</p><h4>Key points</h4><ul><li>Oxytocin causes let-down; fear releases adrenaline and blocks it.</li><li>Pulsation protects the teat; check vacuum, pulsators and liners.</li><li>Cool milk quickly and record tank temperature every milking.</li><li>Cleaning needs correct temperature, action, chemical and time.</li><li>Buyer tests measure hygiene, udder health, residues, added water and composition.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which hormone causes milk let-down?",
+      "options": [
+        {
+          "text": "Oxytocin",
+          "correct": true
+        },
+        {
+          "text": "Adrenaline",
+          "correct": false
+        },
+        {
+          "text": "Insulin",
+          "correct": false
+        },
+        {
+          "text": "Progesterone",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the teat canal's main role?",
+      "options": [
+        {
+          "text": "To make milk",
+          "correct": false
+        },
+        {
+          "text": "To act as a barrier against bacteria",
+          "correct": true
+        },
+        {
+          "text": "To store colostrum",
+          "correct": false
+        },
+        {
+          "text": "To cool milk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What happens in the rest phase of pulsation?",
+      "options": [
+        {
+          "text": "Milk flows fastest",
+          "correct": false
+        },
+        {
+          "text": "The vacuum pump stops",
+          "correct": false
+        },
+        {
+          "text": "The liner collapses and massages the teat",
+          "correct": true
+        },
+        {
+          "text": "Milk is cooled",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a high somatic cell count indicate?",
+      "options": [
+        {
+          "text": "Added water",
+          "correct": false
+        },
+        {
+          "text": "Good cooling",
+          "correct": false
+        },
+        {
+          "text": "High milk fat",
+          "correct": false
+        },
+        {
+          "text": "Udder infection",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What do acid detergents mainly remove?",
+      "options": [
+        {
+          "text": "Mineral deposits (milkstone)",
+          "correct": true
+        },
+        {
+          "text": "Milk fat",
+          "correct": false
+        },
+        {
+          "text": "Dung on the floor",
+          "correct": false
+        },
+        {
+          "text": "Bacteria in the udder",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Fear and pain can block milk let-down.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "If the wash water is cold, using more detergent fully makes up for it.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are sources of bacteria in bulk milk? (select all that apply)",
+      "options": [
+        {
+          "text": "Dirty teats",
+          "correct": true
+        },
+        {
+          "text": "Poorly cleaned equipment",
+          "correct": true
+        },
+        {
+          "text": "Slow cooling",
+          "correct": true
+        },
+        {
+          "text": "Correctly post-dipped teats",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

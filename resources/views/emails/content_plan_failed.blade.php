@@ -48,7 +48,7 @@
             <p><a class="btn" href="{{ $calendarUrl }}">Open the content calendar</a></p>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} Mkhaya Hub. This is an automated message — please do not reply directly to this email.
+            &copy; {{ date('Y') }} Mkhaya Agri. This is an automated message — please do not reply directly to this email.
         </div>
     </div>
 </body>

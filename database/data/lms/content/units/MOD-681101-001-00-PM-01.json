@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-PM-01",
+ "title": "Conduct Continuous Cleaning and Sanitising of the Abattoir",
+ "lessons": [
+  {
+   "title": "Cleaning during production",
+   "minutes": 15,
+   "html": "<h3>Continuous cleaning</h3><p>In an abattoir, cleaning does not only happen at the end of the day. It goes on all the time while the line is running. This is called <strong>continuous cleaning</strong>. It stops dirt, blood and fat from building up and keeps meat safe.</p><h3>Your cleaning tasks during the shift</h3><ul><li><strong>Knives and hands</strong>: sterilise knives in the hot water steriliser and wash hands at the hand-wash station after every carcass and whenever they touch the hide, gut contents or the floor.</li><li><strong>Aprons and mesh gloves</strong>: rinse them at the apron wash when they become dirty.</li><li><strong>Floors</strong>: scrape up fat, meat scraps and hair with a squeegee and shovel into the right bin. Keep the floor free of slippery fat.</li><li><strong>Platforms and equipment</strong>: rinse blood and fat off platforms, saws and stands when your supervisor tells you, without splashing carcasses.</li><li><strong>Drains</strong>: keep drain screens in place and clear the solids from them.</li><li><strong>Bins</strong>: empty bins before they overflow and take them to the correct waste area.</li></ul><h3>Do not splash</h3><p>When you hose near carcasses, keep the water low and point it away from meat. Splashing from the floor carries germs onto the carcass. Never hose a floor where carcasses or offal are hanging just above it.</p><h3>Check the hygiene equipment</h3><p>At the start of the shift and during the day, check:</p><ul><li>sterilisers are full and hot (at the set temperature, commonly at least 82 °C),</li><li>hand-wash stations have soap, water and paper towels,</li><li>footbaths at entrances are filled with fresh sanitiser.</li></ul><p>Report any that do not work. Do not use a cold steriliser.</p><h3>Safety</h3><p>Hot water and steam burn. Keep hands away from the hot steriliser water. Wear non-slip boots and walk carefully on wet floors.</p>"
+  },
+  {
+   "title": "End-of-day cleaning and sanitising",
+   "minutes": 20,
+   "html": "<h3>The cleaning steps</h3><p>At the end of production, the whole plant is cleaned and sanitised. Follow the cleaning schedule and these steps in order:</p><ol><li><strong>Prepare</strong>: remove all meat, offal and carcasses from the area. Switch off and lock out machines. Cover electrical boxes if instructed.</li><li><strong>Dry clean</strong>: scrape and shovel all solid waste into bins. Do not hose solids into the drains.</li><li><strong>Pre-rinse</strong>: rinse surfaces with warm water, from top to bottom.</li><li><strong>Detergent</strong>: apply the detergent at the correct strength and scrub or let it soak for the time on the label. Detergent removes fat and protein.</li><li><strong>Rinse</strong>: rinse well with clean water to remove all detergent and loosened dirt.</li><li><strong>Sanitise</strong>: apply the approved sanitiser at the right strength. Sanitiser kills the germs that are left.</li><li><strong>Final rinse</strong> if the label says so, then let surfaces drain and dry.</li><li><strong>Check</strong>: look for remaining fat, blood or residues. Clean again if needed. The supervisor or quality controller inspects before production starts.</li></ol><h3>What to clean</h3><p>Work from top to bottom and from clean areas to dirty areas: rails, walls, platforms, equipment, tables, trays, then the floor and finally the drains.</p><h3>Using chemicals safely</h3><ul><li>Read the label and the safety data sheet.</li><li>Wear gloves, goggles, an apron and boots.</li><li>Measure the chemical; never guess.</li><li>Never mix chemicals. Some mixtures (like chlorine with acid) give off poisonous gas.</li><li>Store chemicals in their labelled containers in the chemical store, away from meat.</li><li>If chemical gets in your eyes, rinse with clean running water for a long time and get help.</li></ul><h3>Record the cleaning</h3><p>Sign the cleaning checklist: area, date, time and your name. These records show inspectors that the plant is clean.</p><h4>Key points</h4><ul><li>Clean continuously during the shift: knives, hands, aprons, floors and bins.</li><li>Do not splash water from the floor onto carcasses.</li><li>End-of-day steps: dry clean, rinse, detergent, rinse, sanitise, check.</li><li>Work top to bottom and clean to dirty.</li><li>Never mix chemicals and always wear PPE.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is continuous cleaning?",
+   "options": [
+    {
+     "text": "Cleaning that goes on all the time while the line runs",
+     "correct": true
+    },
+    {
+     "text": "Cleaning only at weekends",
+     "correct": false
+    },
+    {
+     "text": "Cleaning by machines only",
+     "correct": false
+    },
+    {
+     "text": "Cleaning once a month",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step in end-of-day cleaning, after preparing the area?",
+   "options": [
+    {
+     "text": "Apply sanitiser",
+     "correct": false
+    },
+    {
+     "text": "Final rinse",
+     "correct": false
+    },
+    {
+     "text": "Dry clean: scrape solids into bins",
+     "correct": true
+    },
+    {
+     "text": "Spray detergent on solids",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a detergent do?",
+   "options": [
+    {
+     "text": "Kills all germs",
+     "correct": false
+    },
+    {
+     "text": "Makes floors slippery",
+     "correct": false
+    },
+    {
+     "text": "Removes fat and protein",
+     "correct": true
+    },
+    {
+     "text": "Dries the surfaces",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should you clean an area?",
+   "options": [
+    {
+     "text": "Bottom to top",
+     "correct": false
+    },
+    {
+     "text": "Drains first",
+     "correct": false
+    },
+    {
+     "text": "Any order",
+     "correct": false
+    },
+    {
+     "text": "Top to bottom, clean areas to dirty areas",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a steriliser is cold?",
+   "options": [
+    {
+     "text": "Report it and do not use it",
+     "correct": true
+    },
+    {
+     "text": "Use it anyway",
+     "correct": false
+    },
+    {
+     "text": "Add cold water",
+     "correct": false
+    },
+    {
+     "text": "Turn off the line yourself",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mixing chlorine with acid can give off a poisonous gas.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hosing the floor under hanging carcasses is good practice.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which hygiene equipment should be checked during the shift? (select all that apply)",
+   "options": [
+    {
+     "text": "Hand-wash stations have soap and paper towels",
+     "correct": true
+    },
+    {
+     "text": "The colour of the walls",
+     "correct": false
+    },
+    {
+     "text": "Footbaths have fresh sanitiser",
+     "correct": true
+    },
+    {
+     "text": "Knife sterilisers are full and hot",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

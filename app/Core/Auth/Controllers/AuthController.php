@@ -95,7 +95,7 @@ class AuthController extends Controller
 
                     SmsService::send(
                         $phone,
-                        "Your Mkhaya Hub login OTP is: {$otp}. Valid for 10 minutes. Do not share this code."
+                        "Your Mkhaya Agri login OTP is: {$otp}. Valid for 10 minutes. Do not share this code."
                     );
 
                     return redirect()->route('2fa.index');
@@ -255,7 +255,7 @@ class AuthController extends Controller
         $otp = $this->service->generate2FaOtp($pendingUserId);
 
         if ($phone) {
-            SmsService::send($phone, "Your Mkhaya Hub login OTP is: {$otp}. Valid for 10 minutes. Do not share this code.");
+            SmsService::send($phone, "Your Mkhaya Agri login OTP is: {$otp}. Valid for 10 minutes. Do not share this code.");
 
             return back()->with('twoFactorResult', ['success' => true, 'message' => 'OTP resent to your registered phone number.']);
         }

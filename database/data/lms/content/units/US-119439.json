@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119439",
+ "title": "Manage the incubation process in hatcheries",
+ "lessons": [
+  {
+   "title": "Hatching egg handling and storage",
+   "minutes": 15,
+   "html": "<h3>Quality starts before the setter</h3><p>A hatchery cannot improve the quality of an egg; it can only maintain it. Hatchability and chick quality depend on breeder flock health, egg handling on the farm, transport, storage and incubation. As a supervisor you manage the incubation process to get the highest number of good-quality chicks from every egg set.</p><h4>Egg collection and selection</h4><ul><li>Eggs should be collected frequently on breeder farms so they cool and stay clean.</li><li>Only clean, normal-shaped eggs of acceptable size with sound shells are set. Reject cracked, dirty, double-yolked, very small or misshapen eggs and floor eggs, as the hatchery policy states.</li><li>Eggs are sanitised on the farm or on arrival using the hatchery's approved method, such as fumigation or approved sanitisers.</li><li>Eggs are packed in clean trays with the blunt end (air cell) up.</li></ul><h4>Transport</h4><p>Transport in clean, temperature-controlled vehicles. Avoid temperature swings, which cause condensation (sweating) on eggs that lets bacteria enter through the shell pores. Handle trays gently to avoid cracks and damaged yolks.</p><h4>Egg storage</h4><p>Store eggs in a clean, cool egg room at the temperature and humidity set by the hatchery's programme. Longer storage reduces hatchability and increases incubation time, so set eggs in order of age, oldest first unless the programme specifies otherwise. Some hatcheries turn stored eggs or use short heating periods during storage for eggs held longer; follow the procedure.</p><h4>Pre-warming</h4><p>Before setting, eggs are pre-warmed gradually to room temperature to avoid condensation and uneven start of development. Follow the hatchery's time and temperature.</p>"
+  },
+  {
+   "title": "The setter: incubation conditions",
+   "minutes": 15,
+   "html": "<h3>Creating the right environment for the embryo</h3><p>Chicken eggs take about 21 days to hatch. For most of this time, about the first 18 days, eggs are in the <strong>setter</strong>; then they are transferred to the <strong>hatcher</strong>.</p><h4>The four key factors</h4><table><tr><th>Factor</th><th>Why it matters</th></tr><tr><td>Temperature</td><td>Controls the rate of development. Too high causes early hatching, weak chicks and deformities; too low delays hatching. Machines run around 37.5°C, with exact set points from the hatchery's programme and machine type. Eggshell temperature is often monitored as the best guide.</td></tr><tr><td>Humidity</td><td>Controls moisture loss from the egg. Eggs must lose a certain percentage of weight by transfer for the air cell to develop correctly.</td></tr><tr><td>Turning</td><td>Prevents the embryo sticking to the shell membrane; eggs are turned automatically, usually every hour, through a set angle.</td></tr><tr><td>Ventilation</td><td>Supplies oxygen and removes carbon dioxide and heat. Embryos produce more heat as they develop.</td></tr></table><h4>Single-stage and multi-stage</h4><p>In single-stage machines, all eggs are set at once and conditions are adjusted as embryos develop. In multi-stage machines, eggs of different ages share a machine and the older embryos help warm the younger ones. Each needs a different management approach.</p><h4>Monitoring</h4><ul><li>Check and record machine readings at set intervals: temperature, humidity, turning, CO2, alarms.</li><li>Calibrate sensors against reference thermometers regularly.</li><li>Check turning visually.</li><li>Respond to alarms immediately; have a plan for power failure, including a generator.</li></ul><h4>Candling</h4><p>Candling shines a bright light through eggs to see development. It can be done around the first week or at transfer. Clear eggs (infertile or early dead) and late dead embryos are removed and recorded. Breakout analysis of these eggs helps find causes.</p>"
+  },
+  {
+   "title": "Transfer, hatching and chick processing",
+   "minutes": 15,
+   "html": "<h3>From egg to day-old chick</h3><h4>Transfer to the hatcher</h4><p>At about day 18, eggs are moved from setter trays to hatcher baskets, and turning stops. Many hatcheries vaccinate in ovo at this point using automated machines. Transfer must be quick and gentle, to avoid chilling and cracking eggs. Hatcher baskets are clean and disinfected.</p><h4>The hatcher</h4><p>Temperature is usually slightly lower, and humidity is raised during hatching, as the programme specifies. Ventilation is increased as chicks hatch. The hatch window is the time from the first to the last chick hatching; a narrow window shows good uniformity. Chicks are taken off at the right time: too early and many are wet and unhatched; too late and chicks become dehydrated.</p><h4>Chick processing</h4><ul><li>Remove chicks from baskets and separate them from shells and unhatched eggs.</li><li>Grade chicks: active, bright-eyed, dry, with healed navels and normal legs and beaks. Cull poor-quality chicks humanely according to procedure.</li><li>Count chicks and, where required, sex them.</li><li>Vaccinate as the vet's programme requires, for example by spray.</li><li>Hold chicks in a ventilated, temperature-controlled room before despatch, and transport in climate-controlled vehicles.</li></ul><h4>Hygiene</h4><p>Hatcheries must be designed for one-way flow from clean (egg receiving) to dirty (chick processing and waste). Clean and disinfect machines, trays and baskets after each hatch. Hatchery waste is disposed of by approved methods.</p><h4>Performance and records</h4><p>Key measures are fertility %, hatch of fertile %, hatch of eggs set %, chick quality grade and first-week mortality reported by farms. Example: 9 000 chicks from 10 000 eggs set is a hatch of 90%. Record flock source, egg age, machine, conditions and results for each batch.</p><h4>Key points</h4><ul><li>Set only clean, sound eggs, stored cool and pre-warmed before setting.</li><li>Temperature, humidity, turning and ventilation are the four key incubation factors.</li><li>Calibrate sensors, record readings and respond to alarms immediately.</li><li>Transfer at about day 18; turning stops in the hatcher.</li><li>Keep one-way hygiene flow and track fertility, hatchability and chick quality.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "About how many days do chicken eggs take to hatch?",
+   "options": [
+    {
+     "text": "21 days",
+     "correct": true
+    },
+    {
+     "text": "14 days",
+     "correct": false
+    },
+    {
+     "text": "28 days",
+     "correct": false
+    },
+    {
+     "text": "10 days",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must temperature swings during egg transport be avoided?",
+   "options": [
+    {
+     "text": "They change shell colour",
+     "correct": false
+    },
+    {
+     "text": "They cause condensation that lets bacteria enter the shell",
+     "correct": true
+    },
+    {
+     "text": "They make eggs heavier",
+     "correct": false
+    },
+    {
+     "text": "They improve hatchability",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are eggs turned in the setter?",
+   "options": [
+    {
+     "text": "To clean them",
+     "correct": false
+    },
+    {
+     "text": "To count them",
+     "correct": false
+    },
+    {
+     "text": "To prevent the embryo sticking to the shell membrane",
+     "correct": true
+    },
+    {
+     "text": "To cool them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "At about what day are eggs transferred from the setter to the hatcher?",
+   "options": [
+    {
+     "text": "Day 5",
+     "correct": false
+    },
+    {
+     "text": "Day 10",
+     "correct": false
+    },
+    {
+     "text": "Day 21",
+     "correct": false
+    },
+    {
+     "text": "Day 18",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If 10 000 eggs are set and 9 000 chicks hatch, what is the hatch of eggs set?",
+   "options": [
+    {
+     "text": "90%",
+     "correct": true
+    },
+    {
+     "text": "9%",
+     "correct": false
+    },
+    {
+     "text": "80%",
+     "correct": false
+    },
+    {
+     "text": "100%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hatcheries should have one-way flow from clean areas to dirty areas.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Eggs should be turned in the hatcher during hatching.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a good-quality day-old chick? (select all that apply)",
+   "options": [
+    {
+     "text": "Active and bright-eyed",
+     "correct": true
+    },
+    {
+     "text": "Dry with a healed navel",
+     "correct": true
+    },
+    {
+     "text": "Normal legs and beak",
+     "correct": true
+    },
+    {
+     "text": "Wet with an open navel",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

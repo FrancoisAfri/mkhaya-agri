@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114686",
+ "title": "Treat and enhance seed",
+ "lessons": [
+  {
+   "title": "Preparing for treatment and enhancement",
+   "minutes": 20,
+   "html": "<h3>Treatment versus enhancement</h3><p><strong>Seed treatment</strong> is the application of registered products, such as fungicides, insecticides or biological agents, to protect seed and young seedlings from soil-borne diseases and pests. <strong>Seed enhancement</strong> improves how seed handles or performs: polymer film coating, pelleting small seed (for example lettuce or carrot) so it can be planted precisely, priming to speed up germination, and colouring to identify treated seed.</p><p>Both add value, but both carry risk: the wrong product or rate can damage germination, and many treatments are toxic to people, livestock, birds and fish.</p><h4>Planning the job</h4><ol><li>Confirm the work order: crop, cultivar, lot numbers, quantity, treatment recipe and target rate.</li><li>Check that each product is registered for that crop and use under Act 36 of 1947, and read the label and safety data sheet (SDS).</li><li>Confirm the lot has passed cleaning and quality checks; there is no point treating seed with poor germination.</li><li>Calculate the quantities of product and water or carrier per batch, and have a second person check the calculation.</li></ol><h4>Preparing the equipment</h4><ul><li>Clean the treater (batch or continuous) to remove residues of previous products and colours, which could contaminate the next lot.</li><li>Calibrate: check the seed flow rate and the slurry pump output so that the rate per 100 kg (or per unit) matches the recipe.</li><li>Check mixing chambers, atomiser discs, dust extraction and the bagging point.</li><li>Ensure the area has an emergency eyewash, spill kit and running water.</li></ul><h4>Personal protective equipment</h4><p>Wear the PPE specified on the label and SDS, typically chemical-resistant gloves, overalls, eye protection and a suitable respirator where dust or mist is present. The OHS Act 85 of 1993 and its Hazardous Chemical Agents Regulations require the employer to assess the risk, provide PPE and train workers. Do not eat, drink or smoke in the treatment area. Wash before breaks.</p>"
+  },
+  {
+   "title": "Treating and enhancing the seed",
+   "minutes": 20,
+   "html": "<h3>Running the treater</h3><p>Once the equipment is calibrated, the key is consistency: every seed should receive the correct amount of product.</p><h4>Mixing the slurry</h4><ul><li>Measure products accurately using calibrated jugs or scales.</li><li>Add products to the water in the order the label or supplier specifies, and agitate continuously so solids do not settle.</li><li>Mix only what is needed for the shift; record the batch of each product used.</li></ul><h4>During treatment</h4><ol><li>Start seed flow and slurry flow together. A start-up without seed can flood the chamber; a start-up without slurry produces untreated seed.</li><li>Take samples at intervals and check coverage visually: colour should be even, with no bare seeds and no clumps.</li><li>Check the actual rate: compare seed mass treated with product used. Adjust only within the procedure, and record any change.</li><li>Watch for wet, sticky seed that does not dry; it may jam planters and harm germination. Drying air may need adjustment.</li><li>Keep dust extraction running. Treated seed dust drifting to bees and water is a known environmental hazard.</li></ol><h4>Enhancement processes</h4><table><tr><th>Process</th><th>Key control points</th></tr><tr><td>Film coating</td><td>Even polymer layer, dry before bagging, low dust-off</td></tr><tr><td>Pelleting</td><td>Uniform pellet size, one seed per pellet, pellet breaks down in moist soil</td></tr><tr><td>Priming</td><td>Controlled water uptake and time, then re-drying to safe moisture; primed seed may store for a shorter time</td></tr></table><h4>Labelling and packing</h4><p>Bag treated seed in clean, labelled bags. Labels must show that the seed is treated, the active ingredients and the warning statements required. Treated seed is usually coloured so it cannot be mistaken for grain. Never repack treated seed into feed or food bags.</p><h4>Handling spills</h4><p>Stop the flow, contain the spill with absorbent material, sweep up wearing PPE and place it in a marked hazardous waste container. Report all spills and exposures to the supervisor.</p>"
+  },
+  {
+   "title": "Completing the treatment process",
+   "minutes": 15,
+   "html": "<h3>Quality checks after treatment</h3><p>Before treated seed leaves the plant, confirm it meets specification.</p><ul><li><strong>Loading check:</strong> the lab may test that the active ingredient on the seed is within the target range.</li><li><strong>Germination check:</strong> a sample is germinated to confirm the treatment has not caused damage (phytotoxicity).</li><li><strong>Physical checks:</strong> dust-off, flowability through a planter, pellet strength, moisture content.</li></ul><p>Lots that fail are put on hold and reported to the quality manager. Do not release them.</p><h4>Cleaning down</h4><ol><li>Run the treater empty and flush slurry lines with clean water into a collection container.</li><li>Clean the mixing chamber, atomiser and conveyors.</li><li>Collect rinse water and residues; reuse in the next compatible batch or dispose of as hazardous waste as the label and farm procedure require. Never wash residues into drains, furrows or rivers; this would breach the National Water Act 36 of 1998.</li><li>Triple-rinse empty product containers, puncture them so they cannot be reused, and store them for collection by an approved container recycling or disposal service.</li></ol><h4>Records</h4><p>Complete the treatment record for every lot:</p><table><tr><th>Record</th><th>Example</th></tr><tr><td>Lot and quantity</td><td>Maize lot MZ-2611, 12 000 kg</td></tr><tr><td>Products and batch numbers</td><td>Product name, registration number, batch</td></tr><tr><td>Target and actual rate</td><td>From calibration and usage</td></tr><tr><td>Operator, date, equipment</td><td>Name, shift, treater ID</td></tr><tr><td>QC results</td><td>Germination, coverage, dust</td></tr></table><p>Records are essential for traceability if a farmer reports poor emergence or a pest problem.</p><h4>Personal hygiene</h4><p>Remove PPE in the correct order, wash gloves before taking them off, shower and change, and keep contaminated overalls separate from family laundry.</p><h4>Key points</h4><ul><li>Use only registered products at the label rate, and calibrate before treating.</li><li>Start seed and slurry flow together and check coverage throughout.</li><li>Label treated seed clearly; never use food or feed bags.</li><li>Test germination after treatment and hold failed lots.</li><li>Dispose of residues and containers safely and keep full records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is an example of seed enhancement rather than protection?",
+   "options": [
+    {
+     "text": "Applying a fungicide against damping off",
+     "correct": false
+    },
+    {
+     "text": "Applying an insecticide",
+     "correct": false
+    },
+    {
+     "text": "Fumigating a store",
+     "correct": false
+    },
+    {
+     "text": "Pelleting small lettuce seed for precision planting",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the treater be cleaned before a new lot?",
+   "options": [
+    {
+     "text": "To avoid contaminating the next lot with previous products or colours",
+     "correct": true
+    },
+    {
+     "text": "To make the seed heavier",
+     "correct": false
+    },
+    {
+     "text": "Because the label requires a new colour each day",
+     "correct": false
+    },
+    {
+     "text": "To cool the motor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if seed flow starts without slurry flow?",
+   "options": [
+    {
+     "text": "The seed is over-treated",
+     "correct": false
+    },
+    {
+     "text": "Untreated seed is produced",
+     "correct": true
+    },
+    {
+     "text": "The chamber floods",
+     "correct": false
+    },
+    {
+     "text": "Nothing at all",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a germination test done after treatment?",
+   "options": [
+    {
+     "text": "To measure bag mass",
+     "correct": false
+    },
+    {
+     "text": "To check colour",
+     "correct": false
+    },
+    {
+     "text": "To confirm the treatment has not damaged the seed",
+     "correct": true
+    },
+    {
+     "text": "To calculate the price",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should empty product containers be handled?",
+   "options": [
+    {
+     "text": "Reused for drinking water",
+     "correct": false
+    },
+    {
+     "text": "Triple-rinsed, punctured and kept for approved collection",
+     "correct": true
+    },
+    {
+     "text": "Burnt on the farm dump",
+     "correct": false
+    },
+    {
+     "text": "Given to workers to store maize",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Treated seed may be packed in empty feed bags if they are clean.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Primed seed may have a shorter storage life than unprimed seed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details belong on a seed treatment record? (select all that apply)",
+   "options": [
+    {
+     "text": "Products used and their batch numbers",
+     "correct": true
+    },
+    {
+     "text": "The weather forecast",
+     "correct": false
+    },
+    {
+     "text": "Target and actual rate",
+     "correct": true
+    },
+    {
+     "text": "Operator, date and equipment",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

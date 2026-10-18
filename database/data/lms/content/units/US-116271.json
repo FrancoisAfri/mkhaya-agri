@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116271",
+ "title": "Monitor and supervise a food safety and quality management system in the agricultural supply chain",
+ "lessons": [
+  {
+   "title": "Traceability and record keeping",
+   "minutes": 20,
+   "html": "<h3>Following food from farm to fork</h3><p><strong>Traceability</strong> means being able to follow a product through every step of the supply chain: from the land or camp where it was produced, through packing, storage and transport, to the buyer. If there is a food safety problem, such as a chemical residue or a contamination, traceability lets the farm and the buyer quickly find which product is affected and recall only that product.</p><h4>How traceability works on the farm</h4><ul><li>Each land, block or tunnel has a fixed name or number on the farm map.</li><li>Each animal or group is identified, for example with ear tags or brands.</li><li>Every harvest or batch gets a code that links to the land, date and team.</li><li>Packaging is labelled with the batch code.</li><li>Delivery notes record the code, quantity and buyer.</li></ul><p>The test: can you take any carton on the buyer's shelf and say which land it came from, when it was picked, and what was sprayed on that land? This is called \"one step forward, one step back\".</p><h4>Basic records you supervise</h4><table><tr><th>Record</th><th>Contents</th></tr><tr><td>Spray record</td><td>Date, land, product, rate, operator, pre-harvest interval</td></tr><tr><td>Fertiliser record</td><td>Date, land, product, quantity</td></tr><tr><td>Harvest record</td><td>Date, land, quantity, batch code</td></tr><tr><td>Animal treatment register</td><td>Date, animal, product, dose, withdrawal period</td></tr><tr><td>Hygiene and training records</td><td>Toilet cleaning, handwashing checks, training attended</td></tr></table><p>Records must be written at the time, in ink or in the farm system, complete, legible and signed. Never fill in records afterwards from memory or change entries without a dated note explaining why.</p>"
+  },
+  {
+   "title": "Food safety principles and non-conformances",
+   "minutes": 20,
+   "html": "<h3>Keeping food safe</h3><p>Food can be contaminated by three types of hazards:</p><ul><li><strong>Biological:</strong> bacteria, viruses and parasites, for example from dirty water, manure, animals, or workers' hands.</li><li><strong>Chemical:</strong> pesticide residues, veterinary medicine residues, fuel, cleaning chemicals.</li><li><strong>Physical:</strong> glass, stones, metal, jewellery, plastic.</li></ul><h4>Basic controls</h4><ul><li>Workers wash hands with soap and clean water after using the toilet and before handling produce.</li><li>Clean toilets and handwashing points near work areas.</li><li>Workers who are ill with diarrhoea or vomiting do not handle produce.</li><li>No eating, smoking or jewellery in packing areas.</li><li>Only registered chemicals, correct rates and respected pre-harvest intervals and withdrawal periods.</li><li>Clean crates, bins and vehicles; no glass in packing areas.</li><li>Irrigation and washing water of suitable quality, tested as the scheme or buyer requires.</li></ul><h4>Non-conformances</h4><p>A <strong>non-conformance</strong> is any situation where a requirement is not met. It can relate to food safety, production, the environment or social practices. Examples:</p><ul><li>A land harvested before its pre-harvest interval ended.</li><li>No soap at a handwashing point.</li><li>Empty chemical containers dumped next to a river.</li><li>Workers spraying without the required PPE, or not paid correctly.</li></ul><h4>Reporting a non-conformance</h4><ol><li>Stop the problem from getting worse, for example hold the affected product.</li><li>Record what, where, when and who on the non-conformance form.</li><li>Report it to the food safety or quality manager immediately.</li><li>Agree on the corrective action and deadline.</li><li>Check that the action was done and worked, and close the report.</li></ol><p>Keep all non-conformance forms in one file.</p><p>Review them at team meetings.</p>"
+  },
+  {
+   "title": "Health, social, environmental issues and internal audits",
+   "minutes": 20,
+   "html": "<h3>The wider farm picture</h3><p>Food safety and quality schemes, such as GLOBALG.A.P. and buyers' own standards, also look at workers' health and welfare and at the environment.</p><h4>Health and social issues</h4><ul><li>Safe work under the OHS Act 85 of 1993: training, PPE, first aid kits and trained first aiders.</li><li>Fair labour practice under the Basic Conditions of Employment Act 75 of 1997: contracts, correct pay, working hours and no child labour.</li><li>Clean drinking water, toilets and eating areas for workers.</li><li>A way for workers to raise complaints without fear.</li></ul><h4>Environmental issues</h4><ul><li>Protecting water sources from chemicals, fuel and manure.</li><li>Correct storage and disposal of chemicals and containers.</li><li>Preventing soil erosion and conserving natural areas.</li><li>Managing waste: recycling, no burning of plastic.</li></ul><h3>Internal audits</h3><p>An <strong>internal audit</strong> is a check that the farm does itself, before the external auditor comes, to see whether it meets the standard. It is a tool for finding and fixing problems, not for punishing people.</p><h4>Doing an internal audit</h4><ol><li>Use the checklist of the standard the farm follows.</li><li>Look at records, walk the farm and talk to workers.</li><li>For every checklist point, record whether it complies and the evidence you saw.</li><li>Write up each non-conformance with a corrective action, a responsible person and a date.</li><li>Follow up to make sure the actions are completed.</li></ol><p>Internal audits are usually done at least once a year, and more often in busy or high-risk areas.</p><h4>Key points</h4><ul><li>Traceability means one step forward and one step back for every batch.</li><li>Records must be complete, written at the time and signed.</li><li>Food hazards are biological, chemical or physical.</li><li>Report non-conformances immediately and follow up corrective actions.</li><li>Internal audits check compliance before the external audit and help the farm improve.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does traceability allow the farm to do if there is a food safety problem?",
+   "options": [
+    {
+     "text": "Sell the product faster",
+     "correct": false
+    },
+    {
+     "text": "Quickly find and recall only the affected product",
+     "correct": true
+    },
+    {
+     "text": "Avoid keeping records",
+     "correct": false
+    },
+    {
+     "text": "Change the labels",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a chemical hazard?",
+   "options": [
+    {
+     "text": "Glass from a broken light",
+     "correct": false
+    },
+    {
+     "text": "Bacteria from dirty hands",
+     "correct": false
+    },
+    {
+     "text": "Pesticide residues",
+     "correct": true
+    },
+    {
+     "text": "Stones in a crate",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A worker has diarrhoea. What should happen?",
+   "options": [
+    {
+     "text": "They continue packing but wear gloves",
+     "correct": false
+    },
+    {
+     "text": "They do not handle produce until they are well",
+     "correct": true
+    },
+    {
+     "text": "They work faster to finish early",
+     "correct": false
+    },
+    {
+     "text": "Nothing, it is not a food safety issue",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when you find a non-conformance?",
+   "options": [
+    {
+     "text": "Stop the problem from getting worse, for example hold the product",
+     "correct": true
+    },
+    {
+     "text": "Wait for the external audit",
+     "correct": false
+    },
+    {
+     "text": "Throw away the records",
+     "correct": false
+    },
+    {
+     "text": "Ignore it if it is small",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is an internal audit?",
+   "options": [
+    {
+     "text": "A police inspection",
+     "correct": false
+    },
+    {
+     "text": "A check the farm does itself to see whether it meets the standard",
+     "correct": true
+    },
+    {
+     "text": "A tax return",
+     "correct": false
+    },
+    {
+     "text": "A buyer's price negotiation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Records may be filled in later from memory if the farm was busy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Food safety schemes can also check workers' welfare and environmental practices.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of non-conformances? (select all that apply)",
+   "options": [
+    {
+     "text": "A land harvested before its pre-harvest interval ended",
+     "correct": true
+    },
+    {
+     "text": "No soap at a handwashing point",
+     "correct": true
+    },
+    {
+     "text": "Workers washing hands before packing",
+     "correct": false
+    },
+    {
+     "text": "Empty chemical containers dumped next to a river",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

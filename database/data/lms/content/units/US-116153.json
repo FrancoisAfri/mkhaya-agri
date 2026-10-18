@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116153",
+ "title": "Apply basic pig husbandry practices",
+ "lessons": [
+  {
+   "title": "Preparing the farrowing house and the sows",
+   "minutes": 15,
+   "html": "<h3>The farrowing house</h3><p>The farrowing house is where sows give birth (farrow) and feed their piglets. Newborn piglets are weak and catch diseases easily, so the house must be clean, dry and warm before the sows come in.</p><h3>Preparing the farrowing house</h3><ol><li>Empty the whole room. Many piggeries use <strong>all-in, all-out</strong>: all the sows move out together, the room is cleaned, and the next group moves in together.</li><li>Clean and disinfect the room (see lesson 3).</li><li>Leave the room empty to dry for the time your supervisor says.</li><li>Check the farrowing crates: no broken bars, sharp edges or loose parts.</li><li>Check that the water nipples and feeders work.</li><li>Set up the heat lamp or heat pad in the <strong>creep area</strong>, the warm corner where piglets lie away from the sow so she does not lie on them.</li><li>Put down dry bedding if your farm uses it.</li></ol><h3>Preparing the sows</h3><ul><li>Move sows into the farrowing house some days before they are due, as the farm's programme says. Check each sow's card for her due date.</li><li>Move them quietly with a pig board. Do not kick or hit sows, especially pregnant ones.</li><li>Wash the sow with warm water and soap, especially the belly and udder, to remove dirt and worm eggs before she enters the clean room.</li><li>Give any treatments (such as deworming) only as the farm manager or vet has prescribed.</li><li>Watch for signs of farrowing: restlessness, nest-making, milk in the teats.</li></ul><h3>Safety</h3><p>A sow with piglets can bite to protect them. Use a pig board between you and the sow and never get between an angry sow and her litter.</p>"
+  },
+  {
+   "title": "Feeding pigs at different stages",
+   "minutes": 15,
+   "html": "<h3>Each stage needs different feed</h3><p>Pigs grow fast. They need the right feed for their age and job. The farm buys or mixes different rations. Your job is to give the <strong>right feed, in the right amount, at the right time</strong>, as your supervisor tells you.</p><table><tr><th>Stage</th><th>What they eat</th></tr><tr><td>Newborn piglets</td><td>Colostrum (first milk) from the sow in the first hours; this protects them against disease</td></tr><tr><td>Suckling piglets</td><td>Sow's milk plus creep feed in small amounts</td></tr><tr><td>Weaners</td><td>Weaner ration, often fed several times a day</td></tr><tr><td>Growers and finishers</td><td>Grower then finisher ration, often fed as much as they want</td></tr><tr><td>Dry and pregnant sows</td><td>A measured ration so they do not get too fat</td></tr><tr><td>Lactating sows</td><td>More feed, increased step by step after farrowing</td></tr></table><h3>Good feeding practice</h3><ul><li>Check the feed bag label so you give the correct ration to each pen.</li><li>Do not use feed that is mouldy, wet or smells bad. Report it.</li><li>Clean out old and wet feed from troughs before adding new feed.</li><li>Keep feed in a dry store, off the floor, away from rats and birds.</li><li>Make sure every pen has clean water all the time. Pigs that do not drink do not eat. Check the nipples each day.</li><li>Watch the pigs at feeding. A pig that does not come to eat may be sick. Report it.</li></ul><h3>Never feed swill without permission</h3><p>Kitchen scraps and meat waste can carry serious diseases such as African swine fever and foot-and-mouth disease. Never feed food waste to pigs unless the manager says it is allowed and it has been treated as the law requires.</p>"
+  },
+  {
+   "title": "Cleaning, disinfecting and biosecurity",
+   "minutes": 20,
+   "html": "<h3>Cleaning and disinfecting pig houses</h3><p>Germs build up in pig pens. Cleaning removes dirt; disinfecting kills the germs that are left. Disinfectant does not work well on dirty surfaces, so always clean first.</p><ol><li>Remove all pigs, feed and bedding.</li><li>Scrape out manure.</li><li>Soak the floors and walls with water, then wash with detergent. Scrub corners, feeders and drinkers.</li><li>Rinse well and let it dry.</li><li>Apply the disinfectant at the strength on the label. Wear gloves, goggles and boots.</li><li>Let the room dry and stand empty before new pigs come in.</li></ol><p>Never mix disinfectants and never use them in a closed room without air flow.</p><h3>Biosecurity: keeping disease out</h3><p>Biosecurity means the steps we take to stop diseases getting into the piggery and spreading inside it. Some pig diseases, such as African swine fever, have no cure and can wipe out a whole herd. Diseases like this are controlled under the Animal Diseases Act 35 of 1984.</p><ul><li><strong>Footbaths</strong> at every door: step through each time and keep the disinfectant fresh.</li><li><strong>Clean clothes and boots</strong> that stay at the piggery. On many farms you shower in and out.</li><li><strong>Visitors</strong> sign the register and only enter if the manager allows it.</li><li><strong>No pork or meat products</strong> brought into the piggery.</li><li><strong>New pigs</strong> are kept apart (quarantine) before they join the herd.</li><li><strong>Vehicles</strong> such as feed trucks stay outside the fence where possible.</li><li><strong>Rats, birds and stray dogs</strong> are kept out.</li><li>Work from the youngest pigs to the oldest, and from healthy to sick pens.</li></ul><p>If you see many sick or dead pigs, tell your supervisor straight away.</p><h4>Key points</h4><ul><li>Clean, disinfect and dry the farrowing house before sows enter.</li><li>Wash sows and move them calmly before farrowing.</li><li>Feed the right ration for each stage and give clean water at all times.</li><li>Always clean before you disinfect.</li><li>Use footbaths, control visitors and never bring meat into the piggery.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the creep area in a farrowing house?",
+   "options": [
+    {
+     "text": "A warm corner where piglets lie away from the sow",
+     "correct": true
+    },
+    {
+     "text": "The place where the sow eats",
+     "correct": false
+    },
+    {
+     "text": "The footbath at the door",
+     "correct": false
+    },
+    {
+     "text": "The manure pit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do newborn piglets need in their first hours?",
+   "options": [
+    {
+     "text": "Colostrum from the sow",
+     "correct": true
+    },
+    {
+     "text": "Finisher ration",
+     "correct": false
+    },
+    {
+     "text": "Swill",
+     "correct": false
+    },
+    {
+     "text": "Only water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must you clean before you disinfect?",
+   "options": [
+    {
+     "text": "Cleaning is quicker",
+     "correct": false
+    },
+    {
+     "text": "Disinfectant is cheap",
+     "correct": false
+    },
+    {
+     "text": "So the pigs can eat the dirt",
+     "correct": false
+    },
+    {
+     "text": "Disinfectant does not work well on dirty surfaces",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should kitchen scraps not be fed to pigs without permission?",
+   "options": [
+    {
+     "text": "Pigs do not like them",
+     "correct": false
+    },
+    {
+     "text": "They make pigs too fat",
+     "correct": false
+    },
+    {
+     "text": "They can carry diseases such as African swine fever",
+     "correct": true
+    },
+    {
+     "text": "They are too expensive",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should you work through the piggery?",
+   "options": [
+    {
+     "text": "From sick pens to healthy pens",
+     "correct": false
+    },
+    {
+     "text": "From oldest to youngest",
+     "correct": false
+    },
+    {
+     "text": "From youngest to oldest and healthy to sick",
+     "correct": true
+    },
+    {
+     "text": "In any order",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Every pig pen should have clean water available at all times.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Visitors may walk freely into the piggery without signing in.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good biosecurity practices in a piggery? (select all that apply)",
+   "options": [
+    {
+     "text": "Stepping through the footbath",
+     "correct": true
+    },
+    {
+     "text": "Bringing a pork sandwich for lunch into the pig house",
+     "correct": false
+    },
+    {
+     "text": "Keeping rats and stray dogs out",
+     "correct": true
+    },
+    {
+     "text": "Keeping new pigs apart before they join the herd",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

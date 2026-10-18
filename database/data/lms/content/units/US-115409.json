@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115409",
+ "title": "Assist with tasks related to marketing, market research and promotions",
+ "lessons": [
+  {
+   "title": "Marketing and market research basics",
+   "minutes": 15,
+   "html": "<h3>What is marketing?</h3>\n<p>Marketing is everything a business does to understand what customers want and to offer it to them at a profit. For a hunting outfitter, game ranch or farm, marketing decides whether the season is full or empty. You may not run the marketing yourself, but you will often assist: answering enquiries, collecting information, helping at expos and keeping client records.</p>\n<h4>The marketing mix</h4>\n<ul><li><strong>Product</strong>: what you offer, e.g. a seven-day plains game hunt for four species, with accommodation and trophy preparation.</li>\n<li><strong>Price</strong>: daily rates and trophy fees, in ZAR or US dollars for foreign clients, and what is included or excluded.</li>\n<li><strong>Place</strong>: how clients reach you, e.g. directly, through booking agents or international hunting shows.</li>\n<li><strong>Promotion</strong>: website, social media, brochures, shows, client referrals.</li></ul>\n<h4>Market research</h4>\n<p>Market research is collecting information to make better decisions. Examples of tasks you might assist with:</p>\n<ul><li>Sending a short questionnaire to clients after their hunt about what they enjoyed and what could improve.</li>\n<li>Recording where each new enquiry came from (website, show, referral, agent).</li>\n<li>Collecting prices and packages offered by competitors in the area.</li>\n<li>Summarising feedback and enquiry numbers in a simple table for the manager.</li></ul>\n<table><tr><th>Source of enquiry</th><th>Enquiries</th><th>Bookings</th></tr>\n<tr><td>Website</td><td>40</td><td>6</td></tr>\n<tr><td>Hunting show</td><td>25</td><td>8</td></tr>\n<tr><td>Referral</td><td>10</td><td>7</td></tr></table>\n<p>In this example, referrals bring few enquiries but most of them book, which tells the manager that keeping past clients happy is valuable.</p>"
+  },
+  {
+   "title": "Assisting with promotions and client communication",
+   "minutes": 15,
+   "html": "<h3>Promotions</h3>\n<p>A promotion is a specific activity to attract or keep customers, such as a stand at a hunting expo, an early-booking discount, a social media campaign or a newsletter to past clients.</p>\n<h4>Helping at an expo or show</h4>\n<ul><li>Prepare brochures, price lists, photos and a booking diary before the event.</li>\n<li>Set up the stand neatly: banners, trophy photos, a screen with video if available.</li>\n<li>Greet visitors, ask open questions (\"What species are you interested in?\") and listen.</li>\n<li>Record each visitor's name, contact details and interests on an enquiry form.</li>\n<li>Pass the list to the manager for follow-up within a few days.</li></ul>\n<h4>Honest and legal promotion</h4>\n<p>Promotional material must be truthful. Do not promise trophy sizes, guaranteed success, or species that are not on the quota. Under the Consumer Protection Act 68 of 2008, misleading marketing is not allowed. Photos used must be of your own hunts or properly licensed, and client photos should only be used with their permission. Under the Protection of Personal Information Act 4 of 2013 (POPIA), client contact details must be kept safely and used only for the purpose agreed, such as sending the newsletter they signed up for.</p>\n<h4>Social media</h4>\n<p>Hunting is a sensitive topic for some members of the public. Posts should show respect for the animal, focus on conservation, the experience and the people, and avoid graphic images. Always follow the company's social media rules and get approval before posting.</p>\n<h4>Answering enquiries</h4>\n<p>Reply quickly, politely and clearly. Confirm dates, prices, what is included, permit and firearm import requirements, and the next step for booking. Record every enquiry in the client database.</p>\n<h4>Key points</h4>\n<ul><li>The marketing mix is product, price, place and promotion.</li>\n<li>Market research collects facts, such as where enquiries come from and what clients think.</li>\n<li>At promotions, record every contact and pass it on for follow-up.</li>\n<li>Marketing must be honest; follow the Consumer Protection Act and POPIA.</li>\n<li>Reply to enquiries quickly and record them.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is part of the marketing mix?",
+   "options": [
+    {
+     "text": "Permits",
+     "correct": false
+    },
+    {
+     "text": "Payroll",
+     "correct": false
+    },
+    {
+     "text": "Product",
+     "correct": true
+    },
+    {
+     "text": "Profit tax",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the example table, which source had the highest share of enquiries that became bookings?",
+   "options": [
+    {
+     "text": "Hunting show",
+     "correct": false
+    },
+    {
+     "text": "They were equal",
+     "correct": false
+    },
+    {
+     "text": "Website",
+     "correct": false
+    },
+    {
+     "text": "Referral",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is market research?",
+   "options": [
+    {
+     "text": "Hiring more staff",
+     "correct": false
+    },
+    {
+     "text": "Shooting more animals",
+     "correct": false
+    },
+    {
+     "text": "Collecting information to make better decisions",
+     "correct": true
+    },
+    {
+     "text": "Lowering all prices",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law protects client personal information?",
+   "options": [
+    {
+     "text": "Protection of Personal Information Act 4 of 2013",
+     "correct": true
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with visitor details collected at an expo?",
+   "options": [
+    {
+     "text": "Post them on social media",
+     "correct": false
+    },
+    {
+     "text": "Throw them away after the show",
+     "correct": false
+    },
+    {
+     "text": "Sell them to other outfitters",
+     "correct": false
+    },
+    {
+     "text": "Pass them to the manager for follow-up",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to promise clients guaranteed trophy sizes in a brochure.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Client photos should only be used in promotions with their permission.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of promotions? (select all that apply)",
+   "options": [
+    {
+     "text": "A stand at a hunting expo",
+     "correct": true
+    },
+    {
+     "text": "A newsletter to past clients",
+     "correct": true
+    },
+    {
+     "text": "Repairing a fence",
+     "correct": false
+    },
+    {
+     "text": "An early-booking discount",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

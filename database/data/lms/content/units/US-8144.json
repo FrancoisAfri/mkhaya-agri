@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8144",
+ "title": "Complete sales transactions",
+ "lessons": [
+  {
+   "title": "Serving the customer and ringing up the sale",
+   "minutes": 15,
+   "html": "<h3>The sale starts with the customer</h3><p>A sales transaction is everything that happens from the moment a customer brings goods to the till until they leave with their goods and slip. In an agri store, customers may be farmers, farm workers sent with an order note, or people from town. Each one must be served correctly and politely.</p><h4>Greeting and checking</h4><ol><li>Greet the customer and make eye contact.</li><li>Ask how they will pay: cash, card, account or EFT.</li><li>If a farm worker brings an order note for an account, check that it is signed by the account holder or an authorised person, and that the account is open. Follow store rules exactly.</li></ol><h4>Ringing up</h4><ul><li>Scan each item, or type in the code if there is no barcode.</li><li>Check the description on the screen matches the item. A 25 kg bag must not be rung up as a 50 kg bag.</li><li>For many of the same item, use the quantity key. Count twice.</li><li>For bulk yard items (poles, wire, cement), the customer may bring a yard slip. Ring up exactly what is on the slip.</li><li>Tell the customer the total clearly.</li></ul><h4>Mistakes at the till</h4><p>If you scan something wrong, do not hide it. Follow the store's void procedure. Usually a supervisor must approve a void and sign. This protects you, because every void is recorded.</p><h4>Selling restricted products</h4><p>Some products need extra steps. Certain animal remedies and stock remedies need the customer's details to be recorded. Some agricultural chemicals may only be sold to certain buyers. Ask your supervisor which products in your store have special rules, and follow them every time.</p>"
+  },
+  {
+   "title": "Payment, slips and after the sale",
+   "minutes": 15,
+   "html": "<h3>Taking payment</h3><table><tr><th>Method</th><th>What to do</th></tr><tr><td>Cash</td><td>Count the money in front of the customer, give change and count the change back.</td></tr><tr><td>Card</td><td>Customer taps or inserts the card and types the PIN. Never ask for or look at the PIN.</td></tr><tr><td>Account</td><td>Check the account is open and has enough credit. Get the customer or the order note signed.</td></tr><tr><td>EFT</td><td>Only release goods when the money shows in the store's bank account, as confirmed by the office. A proof of payment can be fake.</td></tr></table><h4>The till slip or invoice</h4><p>Always give the customer a slip. It is proof of purchase and needed for returns and warranty. For account sales, the customer signs a copy that the store keeps. VAT vendors who are farmers may ask for a tax invoice with their VAT number; your system will print one.</p><h4>Packing and loading</h4><ul><li>Pack heavy items at the bottom and light items on top.</li><li>Keep chemicals separate from food and feed in the bag or on the bakkie.</li><li>Help load heavy items, using a trolley. Lift with your legs, not your back.</li><li>Check the yard slip is stamped so the yard knows the goods are paid.</li></ul><h4>Returns and refunds</h4><p>Follow store policy. Check the slip, the product condition and the date. Many chemicals and remedies cannot be returned once they have left the store, for safety reasons. A supervisor usually approves refunds.</p><h4>Ending the sale</h4><p>Thank the customer. Make the till area ready for the next person. Keep the counter clean and tidy.</p><h4>Key points</h4><ul><li>Check every item on the screen as you scan.</li><li>Voids and refunds need supervisor approval.</li><li>Never ask for a card PIN; confirm EFT payments before releasing goods.</li><li>Always give a slip or invoice.</li><li>Pack chemicals apart from food and feed.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A worker brings an order note to buy on the farmer's account. What must you check?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Only the date",
+     "correct": false
+    },
+    {
+     "text": "That the worker is tall",
+     "correct": false
+    },
+    {
+     "text": "That the note is signed by an authorised person and the account is open",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You scanned an item twice by mistake. What should you do?",
+   "options": [
+    {
+     "text": "Follow the void procedure with supervisor approval",
+     "correct": true
+    },
+    {
+     "text": "Delete the slip",
+     "correct": false
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    },
+    {
+     "text": "Give the customer cash",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A customer shows a proof of EFT payment on a phone. When can goods be released?",
+   "options": [
+    {
+     "text": "After lunch",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Straight away",
+     "correct": false
+    },
+    {
+     "text": "When the office confirms the money is in the bank",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should cash change be given?",
+   "options": [
+    {
+     "text": "Count it back to the customer",
+     "correct": true
+    },
+    {
+     "text": "Keep the coins",
+     "correct": false
+    },
+    {
+     "text": "Put it in the bag",
+     "correct": false
+    },
+    {
+     "text": "Throw it on the counter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must chemicals be packed apart from food and feed?",
+   "options": [
+    {
+     "text": "To stop contamination",
+     "correct": true
+    },
+    {
+     "text": "To save space",
+     "correct": false
+    },
+    {
+     "text": "Because they are cheap",
+     "correct": false
+    },
+    {
+     "text": "The customer prefers it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should never ask for or look at a customer's card PIN.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A till slip is not needed if the customer pays cash.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which payment methods are mentioned for an agri store? (select all that apply)",
+   "options": [
+    {
+     "text": "Cash",
+     "correct": true
+    },
+    {
+     "text": "Card",
+     "correct": true
+    },
+    {
+     "text": "Account",
+     "correct": true
+    },
+    {
+     "text": "Barter with chickens",
+     "correct": false
+    },
+    {
+     "text": "EFT",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

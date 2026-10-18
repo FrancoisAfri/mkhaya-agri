@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114654",
+ "title": "Store seed",
+ "lessons": [
+  {
+   "title": "Preparing the store and the seed",
+   "minutes": 20,
+   "html": "<h3>Why storage conditions matter</h3><p>Seed is alive. From the day it is harvested it slowly ages, and the speed of ageing depends mainly on two things: <strong>seed moisture content</strong> and <strong>temperature</strong>. A widely used rule of thumb (Harrington's rules) says that, within normal storage ranges, each drop of about 1% in seed moisture or about 5&deg;C in temperature roughly doubles the storage life of orthodox seed. Relative humidity in the store matters because seed absorbs or loses moisture until it is in balance with the air around it.</p><p>Some seed, such as many tropical tree and fruit seeds, is <em>recalcitrant</em>: it dies if dried. Check the species requirements before you plan storage.</p><h4>Preparing the storage facility</h4><ul><li>Clean the store: sweep, remove old seed, spilled grain, dust and webs that harbour weevils, moths and rodents.</li><li>Check the structure: roof leaks, damaged doors, gaps where rats and birds can enter, damp floors.</li><li>Check and calibrate equipment: thermometers, hygrometers, dehumidifiers, cooling units and data loggers.</li><li>Place pallets so bags are off the floor and away from walls, with aisles for inspection and airflow.</li><li>Arrange pest control according to the farm's integrated pest management plan. Fumigation may only be done by a registered fumigation operator, using products registered under Act 36 of 1947.</li></ul><h4>Preparing the seed</h4><ol><li>Confirm that the lot has been cleaned and, where required, treated.</li><li>Test moisture content with a calibrated moisture meter, or send a sample to the lab. Seed that is too wet must be dried before it goes into storage.</li><li>Check the lot's germination result and any quality certificate.</li><li>Make sure every bag or container is labelled with the lot number, cultivar, crop, date, mass and treatment status.</li></ol><h4>Choosing packaging</h4><table><tr><th>Package</th><th>Use</th></tr><tr><td>Woven polypropylene or jute bags</td><td>Short-term storage in a dry, cool store; seed still exchanges moisture with the air.</td></tr><tr><td>Moisture-proof (sealed foil, sealed tins, hermetic bags)</td><td>Long-term or high-value seed; seed must be dried properly <em>before</em> sealing.</td></tr></table><p>Sealing wet seed in a moisture-proof container speeds up its death, so dry first, then seal.</p>"
+  },
+  {
+   "title": "Placing seed into storage",
+   "minutes": 20,
+   "html": "<h3>Storing the seed</h3><p>Once the store and the seed are ready, the seed lots must be placed so that they stay identifiable, safe and easy to inspect.</p><h4>Receiving and recording</h4><ul><li>Check each consignment against the dispatch note or internal transfer: lot number, number of bags, mass, cultivar.</li><li>Inspect bags for damage, damp patches, insects or treatment dust on the outside.</li><li>Record the location of each lot on the store plan or in the stock system (bay, pallet, tier).</li></ul><h4>Stacking</h4><ol><li>Stack on clean pallets, never directly on concrete, which draws moisture.</li><li>Keep stacks at least an arm's length from walls and below roof sheeting, which gets hot.</li><li>Use a stable pattern, such as cross-stacking, and do not exceed the safe stack height set by the farm or the pallet rating.</li><li>Keep one lot per stack where possible, with the label facing the aisle.</li><li>Separate treated seed from untreated seed and from any food or feed. Treated seed must never be fed to animals or people.</li></ol><h4>Controlling conditions</h4><p>Set cooling and dehumidifying equipment to the conditions in the farm's storage procedure for the crop. Keep doors closed. In humid areas, such as the KwaZulu-Natal coast or Lowveld in summer, humidity control is often more important than cooling. Avoid opening a cold room to warm, humid air for long, because moisture condenses on cold seed.</p><h4>Safety in the store</h4><ul><li>Handle bags with correct lifting technique or a pallet jack; heavy bags cause back injuries.</li><li>Only trained, authorised people may drive forklifts.</li><li>Wear gloves and a dust mask when handling treated seed and follow the label and the safety data sheet.</li><li>Never enter a store under fumigation; obey warning signs until the fumigator clears it.</li><li>Keep fire extinguishers serviced and exits clear, as required under the OHS Act 85 of 1993.</li></ul><h4>First in, first out</h4><p>Plan the layout so the oldest lots, or the lots with the lowest germination, are dispatched first. This reduces the risk of seed dropping below the minimum germination needed for sale.</p>"
+  },
+  {
+   "title": "Monitoring seed and completing the storage process",
+   "minutes": 20,
+   "html": "<h3>Monitoring during storage</h3><p>Stored seed must be checked regularly, because problems such as insect build-up or damp can spread quickly and destroy a whole lot.</p><h4>What to monitor</h4><table><tr><th>Item</th><th>How</th></tr><tr><td>Temperature and relative humidity</td><td>Read thermometers and hygrometers or download data loggers daily or as per procedure</td></tr><tr><td>Insects</td><td>Inspect bags, use probe traps or pheromone traps, look for webbing, frass and holes</td></tr><tr><td>Rodents and birds</td><td>Check bait stations, droppings, chewed bags</td></tr><tr><td>Moisture and mould</td><td>Look for wet patches, musty smell, caking</td></tr><tr><td>Seed quality</td><td>Re-test germination of lots at the intervals set in the quality plan</td></tr></table><h4>Acting on problems</h4><ul><li>Rising humidity: check doors, seals, dehumidifier; move affected lots.</li><li>Insects found: isolate the lot, inform the supervisor, arrange treatment through the pest control service.</li><li>Germination dropping: report to the quality manager, who may decide to downgrade, re-test or dispose of the lot.</li></ul><p>Record every reading and action. If conditions go out of range, note the time, the reading and what you did.</p><h4>Completing the storage process</h4><p>When seed is removed for dispatch, processing or planting:</p><ol><li>Check the lot number and quantity against the order.</li><li>Update the stock records and store plan so the system matches what is in the store.</li><li>Inspect the empty space, clean up spilled seed, and repair any damage.</li><li>Dispose of damaged or condemned seed as instructed. Treated seed must be disposed of according to the product label and the farm's hazardous waste procedure, never dumped where animals can eat it.</li><li>Report equipment faults and maintenance needs.</li></ol><p>Accurate records protect the business: a buyer or certification inspector may ask for the storage history of a lot.</p><h4>Key points</h4><ul><li>Low moisture and low temperature are the main keys to long seed life.</li><li>Dry seed before sealing it in moisture-proof packaging.</li><li>Stack on pallets, away from walls, and keep treated seed separate.</li><li>Monitor temperature, humidity, pests and germination, and record everything.</li><li>Update stock records and clean the store when seed leaves.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which two factors mainly control how fast stored seed ages?",
+   "options": [
+    {
+     "text": "Bag colour and stack height",
+     "correct": false
+    },
+    {
+     "text": "Seed moisture content and temperature",
+     "correct": true
+    },
+    {
+     "text": "Cultivar name and lot number",
+     "correct": false
+    },
+    {
+     "text": "Light and wind speed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if wet seed is sealed in a moisture-proof container?",
+   "options": [
+    {
+     "text": "It stays fresh for longer",
+     "correct": false
+    },
+    {
+     "text": "It dries out on its own",
+     "correct": false
+    },
+    {
+     "text": "Nothing changes",
+     "correct": false
+    },
+    {
+     "text": "It deteriorates faster",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should seed bags not be stacked directly on concrete?",
+   "options": [
+    {
+     "text": "Concrete draws moisture into the seed",
+     "correct": true
+    },
+    {
+     "text": "Concrete is too slippery",
+     "correct": false
+    },
+    {
+     "text": "Pallets are cheaper than floors",
+     "correct": false
+    },
+    {
+     "text": "Labels cannot be read",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may fumigate a seed store?",
+   "options": [
+    {
+     "text": "Any general worker",
+     "correct": false
+    },
+    {
+     "text": "The storekeeper on weekends",
+     "correct": false
+    },
+    {
+     "text": "A registered fumigation operator",
+     "correct": true
+    },
+    {
+     "text": "The seed buyer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does 'first in, first out' mean in a seed store?",
+   "options": [
+    {
+     "text": "New lots are sold first",
+     "correct": false
+    },
+    {
+     "text": "The oldest lots are dispatched first",
+     "correct": true
+    },
+    {
+     "text": "Lots are stored by colour",
+     "correct": false
+    },
+    {
+     "text": "Only one lot is stored at a time",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Treated seed must be kept separate from food and feed and must never be fed to animals.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Recalcitrant seed should always be dried to low moisture before storage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items should be monitored regularly in a seed store? (select all that apply)",
+   "options": [
+    {
+     "text": "Temperature and relative humidity",
+     "correct": true
+    },
+    {
+     "text": "Insects and rodents",
+     "correct": true
+    },
+    {
+     "text": "The colour of the store's roof",
+     "correct": false
+    },
+    {
+     "text": "Germination of stored lots",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

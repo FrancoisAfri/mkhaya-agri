@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114370",
+ "title": "Slaughter and dress pork",
+ "lessons": [
+  {
+   "title": "Receiving and stunning pigs",
+   "minutes": 15,
+   "html": "<h3>Pigs need special care</h3><p>Pigs get stressed easily. Stress makes the pig suffer and also makes the meat pale, soft and watery. Calm handling gives better meat. The Animals Protection Act 71 of 1962 and the Meat Safety Act 40 of 2000 apply.</p><h4>In the lairage</h4><ul><li>Give pigs water and rest. Do not mix pigs from different groups; they fight.</li><li>Keep them cool. Some abattoirs use water sprays in hot weather.</li><li>The meat inspector checks them before slaughter.</li><li>Move pigs in small groups using boards. Do not hit them. Use electric prodders only where the rules allow, and never on the face, belly or anus.</li></ul><h4>Stunning</h4><p>Only trained workers may stun pigs.</p><ul><li>Pigs are usually stunned with <strong>electric tongs</strong> on the head, or with <strong>carbon dioxide (CO2) gas</strong> in large abattoirs.</li><li>Place the tongs correctly, as you were trained.</li><li>Check the stun: no regular breathing, no blinking, no attempt to stand.</li><li>If the stun failed, stun again at once.</li><li>Stick (bleed) the pig quickly after stunning.</li></ul><h4>Safety</h4><ul><li>Electric equipment: dry hands, check cables, never touch the electrodes.</li><li>CO2 is a deadly gas. Never go into a CO2 pit or system. Only trained people may service it.</li><li>Pigs can bite and knock you over. Keep boards between you and the pigs.</li></ul><p>Report any pig that cannot walk or is sick.</p><p>Calm pigs are safer to handle and give better meat. Never rush them.</p>"
+  },
+  {
+   "title": "Bleeding, scalding and dehairing",
+   "minutes": 15,
+   "html": "<h3>Bleeding</h3><ul><li>Use a clean, sharp knife, sterilised before each pig.</li><li>Stick the pig as you were trained. Do not make the cut too big; dirty scald water can get into the wound.</li><li>Collect blood in the blood trough.</li><li>The pig must be fully bled and dead before it goes into the scald tank.</li></ul><h3>Scalding</h3><p>Pigs are usually not skinned. The skin stays on. To remove the hair, the pig goes into a tank of hot water. This is called <strong>scalding</strong>.</p><ul><li>The water must be at the temperature your abattoir sets. Too cold: the hair does not come out. Too hot: the skin gets damaged.</li><li>The pig stays in for the time your procedure says.</li><li>Keep the scald water as clean as possible. Change it as often as the procedure says.</li><li>Hot water burns. Be careful near the tank.</li></ul><h3>Dehairing and singeing</h3><ul><li>A dehairing machine scrapes off most of the hair.</li><li>Workers scrape off the rest by hand with scrapers.</li><li>The pig may be singed with a flame to burn off small hairs, then scraped or polished.</li><li>Check the whole skin, especially the head, legs and between the legs.</li></ul><h4>Safety</h4><ul><li>Never put your hands into a running dehairing machine. Switch off and lock out before clearing it.</li><li>Singeing flames are very hot. Stay at a safe distance and wear the right protection.</li></ul><p>Report hair left on the skin.</p><p>Ask your supervisor to check your work.</p>"
+  },
+  {
+   "title": "Evisceration, inspection and trimming",
+   "minutes": 15,
+   "html": "<h3>Opening the pig</h3><ol><li>Wash the dehaired pig before opening it.</li><li>Loosen and tie or bag the rectum (bung) so dung cannot leak.</li><li>Open the belly carefully with the knife tip pointing away from the intestines.</li><li>Remove the stomach and intestines into the offal tray.</li><li>Remove the heart, lungs, liver and other red offal. Keep them with the carcass for inspection.</li><li>Split the carcass down the middle of the backbone if your abattoir does this. Sterilise the saw between pigs.</li></ol><h4>If something goes wrong</h4><p>If the stomach or intestines burst, stop and tell your supervisor. The dirty meat must be trimmed off.</p><h3>Inspection</h3><p>The meat inspector checks the head, carcass and organs. One thing they look for in pork is <strong>measles</strong>: small cysts of the pork tapeworm in the meat. People can get tapeworm from eating such meat if it is not condemned or treated as the law requires. Only the inspector decides what happens to the carcass.</p><h3>Final trim and wash</h3><ul><li>Trim bruises, hair and dirt.</li><li>Trim first, then wash.</li><li>Check that the carcass has its marks before it goes to the chiller.</li></ul><h4>Your safety</h4><ul><li>Wear a cut-resistant glove and chain-mail apron where needed.</li><li>Saws: keep both hands on the handles. Never reach past the blade.</li><li>Floors are wet and greasy; walk carefully.</li></ul><h4>Key points</h4><ul><li>Handle pigs calmly; stress causes suffering and poor meat.</li><li>Check the stun and bleed quickly.</li><li>Scald at the set temperature and time, then dehair and singe.</li><li>Never reach into a running dehairing machine.</li><li>The inspector checks for problems such as measles; only the inspector decides.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should pigs be handled calmly?",
+   "options": [
+    {
+     "text": "So they run faster",
+     "correct": false
+    },
+    {
+     "text": "Stress makes pigs suffer and can make the meat pale, soft and watery",
+     "correct": true
+    },
+    {
+     "text": "So they eat more",
+     "correct": false
+    },
+    {
+     "text": "Calm handling is not important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is scalding?",
+   "options": [
+    {
+     "text": "Putting the pig in hot water to loosen the hair",
+     "correct": true
+    },
+    {
+     "text": "Freezing the carcass",
+     "correct": false
+    },
+    {
+     "text": "Skinning the pig",
+     "correct": false
+    },
+    {
+     "text": "Stunning the pig",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before clearing a blocked dehairing machine?",
+   "options": [
+    {
+     "text": "Reach in quickly",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out the machine",
+     "correct": true
+    },
+    {
+     "text": "Pour hot water on it",
+     "correct": false
+    },
+    {
+     "text": "Ask a co-worker to hold the pig",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are measles in pork?",
+   "options": [
+    {
+     "text": "Spots from sunburn",
+     "correct": false
+    },
+    {
+     "text": "Small cysts of the pork tapeworm in the meat",
+     "correct": true
+    },
+    {
+     "text": "Bruises from transport",
+     "correct": false
+    },
+    {
+     "text": "Fat spots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a common way to stun pigs?",
+   "options": [
+    {
+     "text": "A blow with a stick",
+     "correct": false
+    },
+    {
+     "text": "Electric tongs on the head",
+     "correct": true
+    },
+    {
+     "text": "Cold water",
+     "correct": false
+    },
+    {
+     "text": "Loud noise",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pigs from different groups should be mixed in the lairage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "CO2 is a deadly gas and workers must never go into a CO2 system.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps remove hair from a pig? (select all that apply)",
+   "options": [
+    {
+     "text": "Scalding",
+     "correct": true
+    },
+    {
+     "text": "Dehairing machine",
+     "correct": true
+    },
+    {
+     "text": "Hand scraping and singeing",
+     "correct": true
+    },
+    {
+     "text": "Skinning with the hide puller",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

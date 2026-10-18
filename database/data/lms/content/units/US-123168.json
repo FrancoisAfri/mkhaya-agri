@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123168",
+ "title": "Receive and register bulk wool and mohair bulk fibre",
+ "lessons": [
+  {
+   "title": "Receiving fibre at the store",
+   "minutes": 15,
+   "html": "<h3>The first step in the store</h3><p>Wool and mohair arrive at the broker's store from farms by truck. Receiving is the first step in the store, and it must be correct. If a bale is wrongly registered, the mistake follows it through weighing, sampling, testing and sale, and the farmer may be paid wrongly.</p><h4>Before the truck arrives</h4><ul><li>The office may already have the farmer's <strong>specification</strong> (spec): a list of the bales, their marks, numbers and descriptions.</li><li>Prepare a clean, dry receiving area.</li><li>Have the receiving book or computer ready.</li></ul><h4>When the truck arrives</h4><ol><li>Get the delivery note from the driver.</li><li>Check the truck: was the load covered? Is anything wet or damaged?</li><li>Offload safely with the forklift or clamp. Only licensed drivers may do this.</li><li>Count the bales or bags and compare with the delivery note and the spec.</li></ol><h4>Check each bale</h4><ul><li>Farmer's brand or mark clear and correct.</li><li>Bale number and class description.</li><li>Pack in good condition, closed, not torn.</li><li>Dry — wet bales must be reported and kept apart.</li><li>No signs of contamination like plastic sticking out.</li></ul><h4>Be polite and clear</h4><p>The driver also wants to finish quickly. Explain what you are checking and why. If there is a problem, like a wet or torn bale, show the driver, write it on the delivery note, and ask the driver to sign next to your note. This protects the store, the farmer and the driver.</p>"
+  },
+  {
+   "title": "Registering the fibre",
+   "minutes": 15,
+   "html": "<h3>Giving each bale its identity</h3><p>Registering means recording each bale or lot in the store's system, so it can be traced from arrival to sale.</p><h4>What to register</h4><table><tr><th>Item</th><th>Example</th></tr><tr><td>Date received</td><td>2026-03-15</td></tr><tr><td>Farmer's name and mark</td><td>J Mokoena, brand \"JM\"</td></tr><tr><td>Bale numbers</td><td>1 to 12</td></tr><tr><td>Description or class</td><td>As marked by the classer</td></tr><tr><td>Transporter and delivery note number</td><td>From the driver's papers</td></tr><tr><td>Condition</td><td>Good, wet, torn, etc.</td></tr></table><p>The store may give each consignment a reference number or barcode labels. Stick labels where the procedure says, so they can be read later.</p><h4>Small lots and bags</h4><p>Small farmers may bring fibre in bags rather than bales. Each bag must still be recorded with the farmer's name and mass, so the farmer is paid correctly when it is binned with other fibre of the same type.</p><h4>Differences</h4><p>If the number of bales does not match the delivery note or spec, or marks are missing, write it on the delivery note before signing, and tell the supervisor. Do not \"fix\" numbers yourself.</p><h4>Signing</h4><p>Sign the driver's delivery note only after counting. Give the driver a copy and keep one for the store.</p><h4>Check twice</h4><p>Before you finish registering a consignment, read through all the entries again and compare them with the bales in front of you. Look especially at the farmer's mark and the bale numbers. A short check now saves a long search later.</p>"
+  },
+  {
+   "title": "After receiving",
+   "minutes": 15,
+   "html": "<h3>Moving fibre to the next step</h3><ul><li>Move registered bales to the weighing area or to their bay in the store.</li><li>Keep each farmer's consignment together.</li><li>Write the bay or location on the record, so bales can be found.</li><li>Wet bales go to a separate area to dry, as the supervisor says.</li></ul><h4>Telling the farmer</h4><p>The office tells the farmer that the clip has arrived and reports any problems, such as wet or damaged bales. This is why your notes must be clear.</p><h4>Safety during receiving</h4><ul><li>Wear safety boots and a reflective vest.</li><li>Stay clear of the forklift and never stand under raised loads.</li><li>Check the truck is parked, the engine is off and wheels are chocked before offloading.</li><li>Do not climb on the truck load.</li></ul><h4>Good records</h4><ul><li>Write clearly and check numbers twice.</li><li>Never rub out a record. Draw one line through a mistake and write the correct value, with your initials.</li><li>Enter records into the computer on the same day.</li></ul><h4>Key points</h4><ul><li>Receiving is the first step; mistakes here follow the bale to sale.</li><li>Count and check every bale against the delivery note and specification.</li><li>Check marks, numbers, pack condition and dryness; keep wet bales apart.</li><li>Register each bale with date, farmer, mark, number, description and condition.</li><li>Note differences on the delivery note before signing and tell the supervisor.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a farmer's specification?",
+   "options": [
+    {
+     "text": "The price of the clip",
+     "correct": false
+    },
+    {
+     "text": "A list of the bales with their marks, numbers and descriptions",
+     "correct": true
+    },
+    {
+     "text": "The farmer's bank details",
+     "correct": false
+    },
+    {
+     "text": "The truck's licence",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Bales on the truck are fewer than on the delivery note. What do you do?",
+   "options": [
+    {
+     "text": "Sign the note anyway",
+     "correct": false
+    },
+    {
+     "text": "Write the difference on the note before signing and tell the supervisor",
+     "correct": true
+    },
+    {
+     "text": "Change the number on the note to match",
+     "correct": false
+    },
+    {
+     "text": "Send the truck away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with wet bales?",
+   "options": [
+    {
+     "text": "Stack them with dry bales",
+     "correct": false
+    },
+    {
+     "text": "Report them and keep them apart",
+     "correct": true
+    },
+    {
+     "text": "Cover them with plastic and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Sell them first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must each bag from a small farmer be recorded with name and mass?",
+   "options": [
+    {
+     "text": "It is not needed",
+     "correct": false
+    },
+    {
+     "text": "To choose the bag colour",
+     "correct": false
+    },
+    {
+     "text": "So the farmer is paid correctly when it is binned with other fibre",
+     "correct": true
+    },
+    {
+     "text": "To make the store look busy",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you sign the driver's delivery note?",
+   "options": [
+    {
+     "text": "Before offloading",
+     "correct": false
+    },
+    {
+     "text": "Only after counting and checking the bales",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Before the truck arrives",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Registered bales should have their bay or location written on the record.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may climb on the truck load to count bales faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check on each bale when receiving? (select all that apply)",
+   "options": [
+    {
+     "text": "The bale number",
+     "correct": true
+    },
+    {
+     "text": "That the pack is dry and not torn",
+     "correct": true
+    },
+    {
+     "text": "The driver's favourite music",
+     "correct": false
+    },
+    {
+     "text": "The farmer's mark",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

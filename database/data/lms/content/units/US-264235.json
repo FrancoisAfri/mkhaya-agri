@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-264235",
+ "title": "Apply supervisory management principles in an enterprise",
+ "lessons": [
+  {
+   "title": "The supervisor's role and management functions",
+   "minutes": 20,
+   "html": "<h3>From worker to supervisor</h3><p>A supervisor is the first level of management: the person responsible for getting work done through a team, whether an irrigation installation crew, a nursery team or a farm maintenance gang. Many supervisors are promoted because they were good at the technical work. The new challenge is to plan, organise, lead and control the work of others.</p><h4>The four management functions</h4><table><tr><th>Function</th><th>What it means for a supervisor</th></tr><tr><td>Planning</td><td>Deciding what must be done, by when, with what people, materials and equipment</td></tr><tr><td>Organising</td><td>Allocating tasks, arranging materials, transport and tools, setting up the work site</td></tr><tr><td>Leading</td><td>Communicating, motivating, guiding and developing people</td></tr><tr><td>Controlling</td><td>Checking progress, quality, cost and safety against the plan, and correcting deviations</td></tr></table><h4>Responsibilities</h4><ul><li>Achieving production targets and quality standards</li><li>Health and safety of the team</li><li>Use and care of equipment, materials and vehicles</li><li>Discipline, attendance and conduct</li><li>Communication between management and workers</li><li>Training and developing team members</li><li>Records: time sheets, job cards, material usage, incident reports</li></ul><h4>Labour law the supervisor must respect</h4><p>Supervisors act on behalf of the employer, so their actions must comply with labour law: the Basic Conditions of Employment Act 75 of 1997 (working hours, overtime, leave), the Labour Relations Act 66 of 1995 (fair discipline and dismissal procedures, the right to union membership), the Employment Equity Act 55 of 1998 (no unfair discrimination) and the OHS Act 85 of 1993. When unsure, consult HR or management before acting.</p><h4>Authority and accountability</h4><p>A supervisor is given authority to direct work and is accountable for results. Use authority fairly and consistently. Favouritism and inconsistency destroy trust quickly.</p>"
+  },
+  {
+   "title": "Planning, organising and controlling work",
+   "minutes": 20,
+   "html": "<h3>Planning a job</h3><p>Example: installing irrigation on a new school field in three weeks.</p><ol><li><strong>Define the objective:</strong> what, where, standard required, deadline, budget.</li><li><strong>Break the work into tasks:</strong> set out, trenching, mainline, valves, laterals, heads, wiring, controller, testing, reinstatement.</li><li><strong>Sequence tasks</strong> and identify which must finish before others start.</li><li><strong>Estimate time and resources</strong> for each: people, skills, machines, materials.</li><li><strong>Schedule:</strong> a simple bar chart (Gantt) shows who does what each day.</li><li><strong>Plan for risks:</strong> rain days, late deliveries, buried services, absent staff.</li></ol><h4>Organising</h4><ul><li>Match tasks to people's skills and develop others by pairing them with experienced workers.</li><li>Order materials in time; check deliveries against orders.</li><li>Arrange transport, tools and site facilities (water, toilets, shade).</li><li>Make sure everyone knows their tasks, standards and deadlines.</li></ul><h4>Controlling</h4><p>Control means comparing actual results with the plan and acting on differences.</p><table><tr><th>What to control</th><th>How</th></tr><tr><td>Progress</td><td>Daily check against schedule; adjust allocation</td></tr><tr><td>Quality</td><td>Inspect work at key points (before backfilling, pressure test)</td></tr><tr><td>Cost</td><td>Track hours, overtime, materials used against budget</td></tr><tr><td>Safety</td><td>Daily inspections, PPE use</td></tr><tr><td>Resources</td><td>Tool and stock registers, vehicle logbooks</td></tr></table><h4>Problem solving and decision making</h4><ol><li>Define the problem clearly, using facts.</li><li>Find the cause, not just the symptom.</li><li>List options and consider costs, risks and effects on people.</li><li>Choose, implement, and check that it worked.</li></ol><p>Involve the team: workers closest to the problem often know the best solution.</p>"
+  },
+  {
+   "title": "Leading people: communication, motivation and discipline",
+   "minutes": 20,
+   "html": "<h3>Communication</h3><ul><li>Give clear instructions: what, why, how, by when and to what standard. Ask the person to repeat key points back.</li><li>Use the language and terms the team understands; South African teams are often multilingual.</li><li>Listen actively: give full attention, ask questions, check understanding.</li><li>Pass information both ways: management decisions down, worker concerns up.</li><li>Hold short daily meetings and toolbox talks.</li></ul><h4>Motivation</h4><p>People work better when they feel respected, know what is expected, have the tools to do the job, and see that good work is recognised. Practical ways to motivate:</p><ul><li>Recognise good work publicly and promptly</li><li>Give responsibility and chances to learn new skills</li><li>Treat people fairly and consistently</li><li>Involve the team in planning and problem solving</li><li>Deal with problems that frustrate the team, such as broken tools or late transport</li></ul><h4>Performance and discipline</h4><p>Distinguish between <strong>poor performance</strong> (cannot do the job to standard) and <strong>misconduct</strong> (breaks rules). Poor performance is addressed with guidance, training and a fair chance to improve. Misconduct is addressed through the company's disciplinary code, which must follow fair procedure under the Labour Relations Act: the employee must know the rule, be told of the allegation, have a chance to respond and be represented where the code allows, and the sanction must be consistent and fair.</p><ul><li>Address issues early, privately and calmly.</li><li>Keep factual written records: dates, what happened, what was said.</li><li>Never threaten, shout or humiliate. Never act outside your authority; involve HR.</li></ul><h4>Handling conflict and grievances</h4><p>Listen to both sides, focus on the issue not the person, look for a solution both can accept, and follow the grievance procedure when needed.</p><h4>Developing your team</h4><p>Identify skills gaps, arrange on-the-job coaching and formal training, and keep training records. Developing people improves productivity and retention.</p><h4>Key points</h4><ul><li>Supervisors plan, organise, lead and control work through others.</li><li>Comply with labour law and consult HR when unsure.</li><li>Plan jobs by breaking them into tasks, sequencing and scheduling resources.</li><li>Control progress, quality, cost and safety against the plan.</li><li>Communicate clearly, motivate fairly and follow fair disciplinary procedure.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which management function involves checking progress against the plan and correcting deviations?",
+   "options": [
+    {
+     "text": "Planning",
+     "correct": false
+    },
+    {
+     "text": "Organising",
+     "correct": false
+    },
+    {
+     "text": "Leading",
+     "correct": false
+    },
+    {
+     "text": "Controlling",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act governs working hours, overtime and leave?",
+   "options": [
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the difference between poor performance and misconduct?",
+   "options": [
+    {
+     "text": "There is no difference",
+     "correct": false
+    },
+    {
+     "text": "Poor performance is always dismissed immediately",
+     "correct": false
+    },
+    {
+     "text": "Poor performance is not meeting standards; misconduct is breaking rules",
+     "correct": true
+    },
+    {
+     "text": "Misconduct is handled by training only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good way to check that an instruction was understood?",
+   "options": [
+    {
+     "text": "Shout it louder",
+     "correct": false
+    },
+    {
+     "text": "Ask the person to repeat key points back",
+     "correct": true
+    },
+    {
+     "text": "Write it in English only",
+     "correct": false
+    },
+    {
+     "text": "Assume they understood",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which tool shows who does what each day on a project?",
+   "options": [
+    {
+     "text": "A bar chart (Gantt chart)",
+     "correct": true
+    },
+    {
+     "text": "A pressure gauge",
+     "correct": false
+    },
+    {
+     "text": "A tool register",
+     "correct": false
+    },
+    {
+     "text": "A disciplinary code",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A fair disciplinary process gives the employee a chance to respond to the allegation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A supervisor may humiliate a worker in front of the team to set an example.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are practical ways to motivate a team? (select all that apply)",
+   "options": [
+    {
+     "text": "Recognise good work promptly",
+     "correct": true
+    },
+    {
+     "text": "Involve the team in problem solving",
+     "correct": true
+    },
+    {
+     "text": "Show favouritism to some workers",
+     "correct": false
+    },
+    {
+     "text": "Fix problems that frustrate the team",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

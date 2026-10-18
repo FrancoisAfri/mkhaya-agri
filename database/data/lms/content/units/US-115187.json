@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-115187",
+  "title": "Explain product characteristics",
+  "lessons": [
+    {
+      "title": "Fruit kinds and their features",
+      "minutes": 15,
+      "html": "<h3>Know the fruit you handle</h3><p>Every fruit kind has its own <strong>characteristics</strong>: how it looks, feels, ripens and stores. When you know these, you handle the fruit correctly and can recognise when something is wrong.</p><h4>Main fruit groups in South African packhouses</h4><table><tr><th>Group</th><th>Examples</th><th>Typical features</th></tr><tr><td>Citrus</td><td>Oranges, soft citrus (mandarins), lemons, grapefruit</td><td>Thick peel with oil glands; does not ripen further after picking</td></tr><tr><td>Pome fruit</td><td>Apples, pears</td><td>Firm flesh, core with seeds; many ripen after picking; can store for months</td></tr><tr><td>Stone fruit</td><td>Peaches, nectarines, plums, apricots, cherries</td><td>One hard stone; soft skin, bruises easily; short storage life</td></tr><tr><td>Table grapes</td><td>White, red and black cultivars</td><td>Bunches; berries can fall off (shatter); stems dry out quickly</td></tr><tr><td>Subtropical</td><td>Avocados, mangoes, litchis</td><td>Sensitive to cold injury; many ripen after picking</td></tr></table><h4>Characteristics we look at</h4><ul><li><strong>Size and shape</strong>: typical for the cultivar.</li><li><strong>Colour</strong>: background colour and blush; shows maturity.</li><li><strong>Firmness</strong>: how hard the fruit is.</li><li><strong>Skin or peel</strong>: smooth, rough, waxy, thin or thick.</li><li><strong>Taste</strong>: sugar (sweetness) and acid (sourness).</li><li><strong>Juice content</strong>: important for citrus.</li><li><strong>Aroma</strong>: smell of ripe fruit.</li></ul><h4>Cultivars</h4><p>Within one kind there are many cultivars, for example Navel and Valencia oranges, Granny Smith and Royal Gala apples, Packham's Triumph and Forelle pears. Cultivars differ in colour, shape, season and how they must be handled. Never mix cultivars in a carton.</p><p>Even within one cultivar, fruit from different orchards or picked on different days can behave differently. That is why fruit is kept in batches by producer and orchard, and why quality controllers test samples from each batch.</p>"
+    },
+    {
+      "title": "Maturity, ripening and keeping quality",
+      "minutes": 15,
+      "html": "<h3>Mature and ripe are not the same</h3><p>A fruit is <strong>mature</strong> when it has developed enough on the tree to ripen properly and taste good later. A fruit is <strong>ripe</strong> when it is ready to eat. Export fruit is picked mature but often not yet fully ripe, so it can survive the long journey.</p><h4>How maturity is measured</h4><ul><li><strong>Colour charts</strong> compare the fruit's colour to standard pictures.</li><li><strong>Firmness</strong> is measured with a penetrometer (pressure tester).</li><li><strong>Sugar content</strong> (total soluble solids, TSS) is measured with a refractometer, in degrees Brix.</li><li><strong>Acid</strong> and the sugar-acid ratio, important for citrus.</li><li><strong>Starch</strong> in apples and pears, shown with an iodine test.</li><li><strong>Juice percentage</strong> in citrus.</li></ul><p>Markets set minimum standards for these. The quality controller tests samples before and during packing.</p><h4>Ripening and ethylene</h4><p>Some fruits, called <strong>climacteric</strong> fruits (apples, pears, stone fruit, avocados, mangoes), keep ripening after picking and give off a gas called <strong>ethylene</strong>, which speeds up ripening. Others, called <strong>non-climacteric</strong> (citrus, grapes, cherries), do not ripen further after picking; they only age. This is why some fruits must not be stored together.</p><h4>What shortens keeping quality</h4><table><tr><th>Cause</th><th>Effect</th></tr><tr><td>Heat</td><td>Faster ripening, softening and decay</td></tr><tr><td>Bruising and cuts</td><td>Brown spots and entry points for rot</td></tr><tr><td>Water loss</td><td>Shrivelling and dry stems</td></tr><tr><td>Wrong cold temperature</td><td>Chilling injury in sensitive fruit</td></tr><tr><td>Decay organisms</td><td>Moulds and rots spreading in the carton</td></tr></table><h4>Your role</h4><p>Handle gently, keep fruit cool and shaded, keep cultivars apart, and report fruit that looks over-ripe, soft, shrivelled or rotten.</p><h4>Key points</h4><ul><li>Each fruit group has its own features, such as citrus, pome, stone fruit and grapes.</li><li>Characteristics include size, colour, firmness, skin, taste and juice.</li><li>Mature means ready to ripen; ripe means ready to eat.</li><li>Maturity is measured with colour charts, penetrometers and refractometers.</li><li>Heat, bruising and water loss shorten keeping quality.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which of these is a pome fruit?",
+      "options": [
+        {
+          "text": "Peach",
+          "correct": false
+        },
+        {
+          "text": "Orange",
+          "correct": false
+        },
+        {
+          "text": "Apple",
+          "correct": true
+        },
+        {
+          "text": "Grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a refractometer measure?",
+      "options": [
+        {
+          "text": "Firmness",
+          "correct": false
+        },
+        {
+          "text": "Sugar content in degrees Brix",
+          "correct": true
+        },
+        {
+          "text": "Colour",
+          "correct": false
+        },
+        {
+          "text": "Weight",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is ethylene?",
+      "options": [
+        {
+          "text": "A gas that speeds up ripening",
+          "correct": true
+        },
+        {
+          "text": "A type of carton",
+          "correct": false
+        },
+        {
+          "text": "A citrus cultivar",
+          "correct": false
+        },
+        {
+          "text": "A cleaning chemical",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which fruit does NOT ripen further after picking?",
+      "options": [
+        {
+          "text": "Avocado",
+          "correct": false
+        },
+        {
+          "text": "Pear",
+          "correct": false
+        },
+        {
+          "text": "Mango",
+          "correct": false
+        },
+        {
+          "text": "Citrus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a penetrometer measure?",
+      "options": [
+        {
+          "text": "Juice percentage",
+          "correct": false
+        },
+        {
+          "text": "Acid",
+          "correct": false
+        },
+        {
+          "text": "Firmness",
+          "correct": true
+        },
+        {
+          "text": "Starch",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Mature fruit and ripe fruit mean exactly the same thing.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Stone fruit such as peaches bruise easily and have a short storage life.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which things shorten the keeping quality of fruit? (select all that apply)",
+      "options": [
+        {
+          "text": "Heat",
+          "correct": true
+        },
+        {
+          "text": "Bruising",
+          "correct": true
+        },
+        {
+          "text": "Water loss",
+          "correct": true
+        },
+        {
+          "text": "Gentle handling and correct cooling",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

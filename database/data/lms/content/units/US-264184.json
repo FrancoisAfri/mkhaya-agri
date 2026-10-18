@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264184",
+ "title": "Identify common ornamental plants",
+ "lessons": [
+  {
+   "title": "How to identify a plant",
+   "minutes": 15,
+   "html": "<h3>Why identification matters</h3>\n<p>A horticulture worker must know the plants on site. You need to know a plant's name to water, feed and prune it correctly, to pick the right plant for an order, and to tell a weed from a valuable plant. You also need to know which plants are poisonous or invasive.</p>\n<h4>Common and botanical names</h4>\n<p>Most plants have a common name and a botanical (scientific) name. Common names change from place to place. \"Wild dagga\", for example, is a common name. The botanical name, <em>Leonotis leonurus</em>, is the same all over the world. A botanical name has two parts:</p>\n<ul><li><strong>Genus</strong> – the first word, with a capital letter, e.g. <em>Agapanthus</em>.</li>\n<li><strong>Species</strong> – the second word, small letter, e.g. <em>praecox</em>.</li></ul>\n<p>A cultivar name in quotes may follow, e.g. <em>Agapanthus</em> 'Snowball'. Nursery labels use botanical names, so learn them.</p>\n<h4>What to look at</h4>\n<ul><li><strong>Growth form</strong> – tree, shrub, climber, groundcover, grass, bulb, succulent.</li>\n<li><strong>Leaves</strong> – shape, size, edge (smooth, toothed), arrangement (opposite or alternate), colour, smell when crushed.</li>\n<li><strong>Flowers</strong> – colour, shape, season.</li>\n<li><strong>Stems and bark</strong> – thorns, colour, texture.</li>\n<li><strong>Fruit and seeds</strong>.</li></ul>\n<p>Use a plant book, the nursery labels, and ask your supervisor. Practise by walking the site and naming each plant every day.</p>"
+  },
+  {
+   "title": "Common ornamental plants in South Africa",
+   "minutes": 20,
+   "html": "<h3>Indigenous plants</h3>\n<p>South Africa has one of the richest floras in the world. Many indigenous plants are used in gardens because they cope with local conditions and use less water.</p>\n<table><tr><th>Common name</th><th>Botanical name</th><th>Type and notes</th></tr>\n<tr><td>Agapanthus</td><td><em>Agapanthus praecox</em></td><td>Clump-forming perennial, blue or white summer flowers</td></tr>\n<tr><td>Bird of paradise</td><td><em>Strelitzia reginae</em></td><td>Orange and blue flowers like a bird's head</td></tr>\n<tr><td>Wild dagga</td><td><em>Leonotis leonurus</em></td><td>Shrub, orange tubular flowers, attracts sunbirds</td></tr>\n<tr><td>Plumbago</td><td><em>Plumbago auriculata</em></td><td>Scrambling shrub, pale blue flowers, good hedge</td></tr>\n<tr><td>Spekboom</td><td><em>Portulacaria afra</em></td><td>Succulent shrub, very drought tolerant</td></tr>\n<tr><td>King protea</td><td><em>Protea cynaroides</em></td><td>Shrub with very large flower heads; national flower</td></tr>\n<tr><td>Wild iris</td><td><em>Dietes grandiflora</em></td><td>Tough clump plant with white flowers</td></tr>\n<tr><td>Cape honeysuckle</td><td><em>Tecoma capensis</em></td><td>Scrambling shrub, orange flowers</td></tr></table>\n<h3>Exotic ornamentals</h3>\n<ul><li><strong>Roses</strong> (<em>Rosa</em>) – shrubs with thorny stems.</li>\n<li><strong>Azaleas</strong> (<em>Rhododendron</em>) – shade shrubs with spring flowers, like acid soil.</li>\n<li><strong>Hydrangeas</strong> – large leaves and flower heads; flower colour changes with soil acidity.</li>\n<li><strong>Lavender</strong> (<em>Lavandula</em>) – grey, scented leaves.</li></ul>\n<h3>Plants to be careful with</h3>\n<ul><li><strong>Invasive aliens</strong> – some plants spread into the veld and use water, for example lantana (<em>Lantana camara</em>) and syringa (<em>Melia azedarach</em>). They are regulated and must not be planted. Report them.</li>\n<li><strong>Poisonous plants</strong> – oleander (<em>Nerium oleander</em>) is poisonous to people and animals. Euphorbia sap can burn skin and eyes. Wear gloves and wash hands.</li></ul>\n<h4>Key points</h4>\n<ul><li>Botanical names (genus and species) are the same everywhere; learn them.</li>\n<li>Identify plants by growth form, leaves, flowers, stems and fruit.</li>\n<li>Know common indigenous plants such as agapanthus, strelitzia, plumbago and spekboom.</li>\n<li>Recognise and report invasive plants such as lantana.</li>\n<li>Know poisonous plants like oleander and handle them with gloves.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In the botanical name Agapanthus praecox, what is Agapanthus?",
+   "options": [
+    {
+     "text": "The genus",
+     "correct": true
+    },
+    {
+     "text": "The species",
+     "correct": false
+    },
+    {
+     "text": "The cultivar",
+     "correct": false
+    },
+    {
+     "text": "The common name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are botanical names useful?",
+   "options": [
+    {
+     "text": "They are shorter",
+     "correct": false
+    },
+    {
+     "text": "They change in every town",
+     "correct": false
+    },
+    {
+     "text": "They are the same all over the world",
+     "correct": true
+    },
+    {
+     "text": "They show the price",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which plant is South Africa's national flower?",
+   "options": [
+    {
+     "text": "Agapanthus",
+     "correct": false
+    },
+    {
+     "text": "King protea",
+     "correct": true
+    },
+    {
+     "text": "Lantana",
+     "correct": false
+    },
+    {
+     "text": "Oleander",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is an invasive alien plant that must not be planted?",
+   "options": [
+    {
+     "text": "Spekboom",
+     "correct": false
+    },
+    {
+     "text": "Plumbago",
+     "correct": false
+    },
+    {
+     "text": "Wild iris",
+     "correct": false
+    },
+    {
+     "text": "Lantana",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which plant is poisonous to people and animals?",
+   "options": [
+    {
+     "text": "Lavender",
+     "correct": false
+    },
+    {
+     "text": "Wild dagga",
+     "correct": false
+    },
+    {
+     "text": "Oleander",
+     "correct": true
+    },
+    {
+     "text": "Spekboom",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A common name is the same in every part of the country.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spekboom is a drought-tolerant succulent shrub.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which features help you identify a plant? (select all that apply)",
+   "options": [
+    {
+     "text": "Leaf shape and arrangement",
+     "correct": true
+    },
+    {
+     "text": "Flower colour and shape",
+     "correct": true
+    },
+    {
+     "text": "Growth form",
+     "correct": true
+    },
+    {
+     "text": "The day of the week",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

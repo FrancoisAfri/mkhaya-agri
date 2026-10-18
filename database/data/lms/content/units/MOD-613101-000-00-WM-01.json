@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-01",
+ "title": "Processes of Integrated Crop Livestock Farming, Systems Management",
+ "lessons": [
+  {
+   "title": "How an integrated crop-livestock system works",
+   "minutes": 20,
+   "html": "<h3>Two enterprises, one system</h3><p>In this work experience module you take part in running an integrated crop and livestock farm and document what you do in your logbook or portfolio of evidence. The aim is to understand the farm as one connected system, not as separate crop and livestock businesses that happen to share a fence.</p><h4>The main flows in the system</h4><table><tr><th>From</th><th>To</th><th>What moves</th></tr><tr><td>Crop lands</td><td>Livestock</td><td>Residues (maize stover, wheat stubble), grain, silage, planted pastures, cull vegetables</td></tr><tr><td>Livestock</td><td>Crop lands</td><td>Manure and urine (nutrients and organic matter), weed and residue control by grazing</td></tr><tr><td>Both</td><td>Farm business</td><td>Income spread over the year, shared labour and machinery</td></tr></table><h4>Benefits</h4><ul><li>Lower fertiliser and feed bills because each enterprise supplies the other.</li><li>Risk spread: if the crop fails, residues and grazing still have value; if livestock prices fall, crops still earn.</li><li>Better soil through manure, rotation with pastures and fewer bare fallows.</li><li>More even use of labour across the year.</li></ul><h4>Challenges</h4><ul><li>Over-grazing residues leaves the soil bare and undoes conservation agriculture gains.</li><li>Livestock compact wet soils if they graze lands in the rainy season.</li><li>Planting and calving peaks may compete for the same people.</li><li>Management is more complex and needs good records.</li></ul><p>During your placement, draw a simple map of the farm showing lands, camps, water points, kraals, stores and roads. Mark which lands are grazed after harvest and where manure is applied. This map is the starting point for most of your logbook tasks.</p><p>Update the map each season as lands and camps change.</p>"
+  },
+  {
+   "title": "Planning and coordinating daily and seasonal work",
+   "minutes": 20,
+   "html": "<h3>The work plan in practice</h3><p>Systems management means coordinating people, machinery, animals and inputs so the right job happens at the right time. In the workplace you will help draw up and follow work plans at three levels.</p><h4>Seasonal plan</h4><p>A calendar for the year showing land preparation, planting, spraying, harvest, breeding, calving, vaccination, dipping, weaning and marketing. Note where activities clash and how the farm resolves them, for example by using contractors for planting while permanent staff manage calving.</p><h4>Weekly plan</h4><p>Lists the tasks for each team for the week, the equipment and inputs needed, and who is in charge. Check that inputs such as seed, fertiliser, vaccines and diesel are on the farm before the week starts.</p><h4>Daily routine</h4><ul><li>Morning check of animals, water points and fences.</li><li>Toolbox talk with the team: tasks, safety points and weather.</li><li>Pre-use checks on tractors and implements.</li><li>End-of-day report: what was done, problems found, stock counts.</li></ul><h4>Coordinating safely</h4><p>Under the OHS Act 85 of 1993 the farm must identify hazards and control them. When crop and livestock work overlap, watch for specific risks: animals near moving machinery, chemical-treated lands that animals must not graze until the label allows, and gates left open between lands and camps. Communicate clearly so everyone knows which lands are closed.</p><h4>Logbook evidence</h4><p>Record at least one seasonal plan, several weekly plans you helped to prepare, and examples of daily reports, signed by your workplace supervisor.</p><p>Review plans with your supervisor at the end of each week.</p><p>Keep copies in your portfolio.</p>"
+  },
+  {
+   "title": "Monitoring and improving the system",
+   "minutes": 20,
+   "html": "<h3>Measuring how well the system performs</h3><p>A system can only be improved if it is measured. Collect and analyse records for both enterprises and for the links between them.</p><h4>What to measure</h4><ul><li><strong>Crops:</strong> yield per hectare, input costs per hectare, residue left after grazing.</li><li><strong>Livestock:</strong> calving or lambing percentage, weaning weights, mortality, grazing days per camp or land.</li><li><strong>Soil:</strong> soil analysis trends, organic matter, signs of compaction or erosion.</li><li><strong>Finance:</strong> gross margin per enterprise and for the whole farm.</li></ul><h4>Example analysis</h4><p>A farm grazes 50 cows on 40 ha of maize residue for 60 days in winter. This saves buying hay. If the hay that would otherwise be needed costs R60 000, then the residue has a feed value to the farm of about R60 000, which should be shown as a benefit when comparing the integrated system with selling the crop alone. Against this, check whether the soil cover left after grazing is still adequate.</p><h4>Problem solving</h4><ol><li>Identify the problem from records or observation, for example falling maize yields on one land.</li><li>Gather information: soil analysis, grazing history, planting records.</li><li>List possible causes: compaction from grazing wet soil, acidity, poor stand.</li><li>Decide on action with your supervisor and record it.</li><li>Check the result next season.</li></ol><p>Present one improvement proposal in your portfolio with supporting records and a simple cost-benefit estimate.</p><h4>Key points</h4><ul><li>Crops and livestock are linked by flows of residues, feed and manure.</li><li>Integration spreads risk and reduces input costs but needs careful grazing management.</li><li>Plan work at seasonal, weekly and daily levels and resolve clashes early.</li><li>Close treated lands to animals until the label allows grazing.</li><li>Measure crop, livestock, soil and financial results to improve the system.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What moves from livestock to the crop lands in an integrated system?",
+   "options": [
+    {
+     "text": "Crop residues",
+     "correct": false
+    },
+    {
+     "text": "Manure and urine",
+     "correct": true
+    },
+    {
+     "text": "Silage",
+     "correct": false
+    },
+    {
+     "text": "Grain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a risk of over-grazing crop residues?",
+   "options": [
+    {
+     "text": "The soil is left bare and conservation benefits are lost",
+     "correct": true
+    },
+    {
+     "text": "The crop yields more next year",
+     "correct": false
+    },
+    {
+     "text": "The animals gain too much weight",
+     "correct": false
+    },
+    {
+     "text": "The residues rot faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which document lists the tasks for each team for the coming week?",
+   "options": [
+    {
+     "text": "The seasonal plan",
+     "correct": false
+    },
+    {
+     "text": "The weekly plan",
+     "correct": true
+    },
+    {
+     "text": "The soil analysis",
+     "correct": false
+    },
+    {
+     "text": "The payslip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farm saves R60 000 of hay by grazing maize residue. How should this be treated when comparing systems?",
+   "options": [
+    {
+     "text": "Ignored, because residue is free",
+     "correct": false
+    },
+    {
+     "text": "Shown as a benefit of the integrated system",
+     "correct": true
+    },
+    {
+     "text": "Subtracted from the crop yield",
+     "correct": false
+    },
+    {
+     "text": "Counted as a livestock expense",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen with a land recently sprayed with a chemical?",
+   "options": [
+    {
+     "text": "Animals may graze it immediately",
+     "correct": false
+    },
+    {
+     "text": "It stays closed to animals until the label allows grazing",
+     "correct": true
+    },
+    {
+     "text": "It must be ploughed straight away",
+     "correct": false
+    },
+    {
+     "text": "The gate should be left open",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Planting and calving peaks can compete for the same workers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A system can be improved without keeping any records.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are benefits of integrating crops and livestock? (select all that apply)",
+   "options": [
+    {
+     "text": "Lower fertiliser and feed bills",
+     "correct": true
+    },
+    {
+     "text": "Risk spread across enterprises",
+     "correct": true
+    },
+    {
+     "text": "Simpler management with fewer records",
+     "correct": false
+    },
+    {
+     "text": "Better soil from manure and rotation",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

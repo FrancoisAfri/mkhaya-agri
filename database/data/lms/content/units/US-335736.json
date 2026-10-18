@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335736",
+ "title": "Use a horse for rural operational duties",
+ "lessons": [
+  {
+   "title": "Rural patrols and the working horse",
+   "minutes": 20,
+   "html": "<h3>Horses in rural operations</h3>\n<p>In rural South Africa, horses remain valuable for police stock theft units, game reserve anti-poaching patrols, farm security, border patrols and search and rescue. Horses can cover rough veld, mountains and riverbeds where vehicles cannot go, move quietly, and carry a rider high enough to see over grass and bush. Stock theft units use horses to follow tracks of stolen cattle and sheep across mountains, for example in the Eastern Cape and along the Lesotho border.</p>\n<h3>Selecting and conditioning horses</h3>\n<ul>\n<li>Hardy, sure-footed breeds such as the Boerperd, Nooitgedachter and Basotho pony suit mountainous terrain.</li>\n<li>Calm around livestock, wildlife, water, gunfire (where relevant) and helicopters.</li>\n<li>Fit for long days: build fitness gradually over weeks with longer rides and hills.</li>\n<li>Sound feet: shod or protected for rocky ground; check shoes daily.</li>\n</ul>\n<h3>Planning a rural operation</h3>\n<ol>\n<li>Briefing: objective (patrol, tracking, search), area, maps and GPS, expected duration, team members and radio call signs.</li>\n<li>Route: water points, grazing, river crossings, steep sections and possible camp sites.</li>\n<li>Equipment for the rider: water, food, rain gear, first aid kit, GPS and maps, radio or satellite communicator, torch, and operational equipment.</li>\n<li>Equipment for the horse: well-fitted saddle and numnah, saddle bags, headcollar and lead rope, hoof pick, easy boot or spare shoe, basic horse first aid.</li>\n<li>Back-up: vehicle support points, horsebox for evacuation, contact with base.</li>\n</ol>\n<h3>Riding in rural terrain</h3>\n<ul>\n<li>Let the horse pick its way on rocks; keep a light contact.</li>\n<li>On steep climbs, lean forward and hold the mane if needed; zigzag up very steep slopes.</li>\n<li>On descents, sit upright, keep the horse straight; dismount and lead on dangerous slopes.</li>\n<li>Check river depth and current before crossing; never cross in flood.</li>\n</ul>"
+  },
+  {
+   "title": "Tracking, searching and caring for the horse in the field",
+   "minutes": 20,
+   "html": "<h3>Tracking stolen stock or people</h3>\n<ul>\n<li>Pick up the spoor at the point of loss: hoof prints of cattle or sheep, footprints, dung, broken grass and fence damage.</li>\n<li>The tracker may work on foot while the mounted members follow and watch ahead and to the sides.</li>\n<li>Age the spoor: fresh dung, moist soil in prints and grass still bent indicate recent passage.</li>\n<li>Record GPS points and photograph evidence for the case docket.</li>\n<li>Communicate regularly with base and with other units ahead.</li>\n</ul>\n<h3>Search and rescue</h3>\n<p>Mounted teams search large areas in line abreast, at set spacing, for missing hikers, children or livestock. Height lets riders see further, and horses often notice people or animals before the rider does: watch the horse's ears.</p>\n<h3>Safety in the field</h3>\n<ul>\n<li>Always work in pairs or teams and stay in radio contact.</li>\n<li>Be aware of armed suspects; follow the unit's tactical procedures.</li>\n<li>Watch the weather: lightning on open mountain tops, cold fronts and mist in the Drakensberg can be deadly.</li>\n<li>Beware of dangerous wildlife on reserves and of snakes in long grass.</li>\n</ul>\n<h3>Caring for the horse in the field</h3>\n<ol>\n<li>Rest and water the horse regularly; let it graze during halts.</li>\n<li>Loosen the girth at long stops, check back and girth area for rubs.</li>\n<li>Check feet and shoes at every halt.</li>\n<li>At night, tether or hobble safely on good grazing, away from cliffs and rivers, or use a portable electric fence; check for ticks.</li>\n<li>Watch for colic, lameness, exhaustion and dehydration (skin pinch test, dry gums).</li>\n<li>After the operation, examine the horse fully, treat wounds, rest it and record its condition.</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>Horses reach rough rural terrain where vehicles cannot.</li>\n<li>Choose hardy, sure-footed, calm horses and condition them gradually.</li>\n<li>Plan route, water, equipment, communication and back-up.</li>\n<li>Follow spoor carefully and record GPS evidence.</li>\n<li>Work in teams and watch for weather and wildlife hazards.</li>\n<li>Check feet, back and condition at every halt.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which breeds suit mountainous rural terrain well?",
+   "options": [
+    {
+     "text": "Thoroughbred racehorses",
+     "correct": false
+    },
+    {
+     "text": "Boerperd, Nooitgedachter and Basotho pony",
+     "correct": true
+    },
+    {
+     "text": "Miniature ponies",
+     "correct": false
+    },
+    {
+     "text": "Shire horses only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you ride down a dangerous steep slope?",
+   "options": [
+    {
+     "text": "Gallop down",
+     "correct": false
+    },
+    {
+     "text": "Lean far back and pull hard",
+     "correct": false
+    },
+    {
+     "text": "Zigzag at a trot",
+     "correct": false
+    },
+    {
+     "text": "Dismount and lead the horse",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign suggests that spoor is fresh?",
+   "options": [
+    {
+     "text": "Fresh dung and grass still bent",
+     "correct": true
+    },
+    {
+     "text": "Dry, crumbly dung",
+     "correct": false
+    },
+    {
+     "text": "Prints full of rain water from last week",
+     "correct": false
+    },
+    {
+     "text": "Faded tracks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you NOT cross a river?",
+   "options": [
+    {
+     "text": "In shallow, clear water",
+     "correct": false
+    },
+    {
+     "text": "After checking the bottom",
+     "correct": false
+    },
+    {
+     "text": "When it is in flood",
+     "correct": true
+    },
+    {
+     "text": "During daylight",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check at every halt?",
+   "options": [
+    {
+     "text": "The rider's phone apps",
+     "correct": false
+    },
+    {
+     "text": "The horse's feet and shoes",
+     "correct": true
+    },
+    {
+     "text": "Only the saddle colour",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Horses often notice people or animals before the rider does, so watching the ears helps in searches.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rural patrols are safest when done alone without radio contact.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of dehydration or exhaustion in a horse? (select all that apply)",
+   "options": [
+    {
+     "text": "Slow skin pinch return",
+     "correct": true
+    },
+    {
+     "text": "Dry gums",
+     "correct": true
+    },
+    {
+     "text": "Dull and reluctant to move",
+     "correct": true
+    },
+    {
+     "text": "Bright, alert and eating well",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

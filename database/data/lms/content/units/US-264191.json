@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264191",
+ "title": "Demonstrate an understanding of a flowering plant's reproductive cycle",
+ "lessons": [
+  {
+   "title": "Parts of a flower",
+   "minutes": 15,
+   "html": "<h3>Why flowers matter</h3>\n<p>Flowers are how flowering plants make seed. In horticulture we grow plants for their flowers, fruit and seed, so we need to know how this works. It helps us understand why bees are important, why some fruit trees need a second variety nearby, and why seed from a hybrid plant does not grow true.</p>\n<h4>Parts of a flower</h4>\n<table><tr><th>Part</th><th>What it does</th></tr>\n<tr><td>Sepals</td><td>Green leaf-like parts that protect the bud</td></tr>\n<tr><td>Petals</td><td>Coloured parts that attract pollinators such as bees, birds and beetles</td></tr>\n<tr><td>Stamen (male)</td><td>Made of the filament (stalk) and anther, which makes pollen</td></tr>\n<tr><td>Pistil or carpel (female)</td><td>Made of the stigma (sticky top that catches pollen), style (tube) and ovary (holds ovules, which become seeds)</td></tr>\n<tr><td>Nectary</td><td>Makes sweet nectar that feeds pollinators</td></tr></table>\n<h4>Different kinds of flowers</h4>\n<ul><li><strong>Perfect (complete) flowers</strong> have male and female parts in one flower, e.g. roses, tomatoes, citrus.</li>\n<li><strong>Separate male and female flowers on the same plant</strong>, e.g. pumpkins, butternut and maize (tassel is male, cob silk is female).</li>\n<li><strong>Male and female plants</strong>, e.g. some palms and kiwifruit. You need both kinds to get fruit.</li></ul>\n<p>Look closely at a flower in the garden. Find the petals, the yellow dusty anthers and the stigma in the middle.</p>"
+  },
+  {
+   "title": "Pollination, fertilisation and seed",
+   "minutes": 15,
+   "html": "<h3>The cycle</h3>\n<ol><li><strong>Flowering</strong> – the plant grows and forms flowers.</li>\n<li><strong>Pollination</strong> – pollen moves from an anther to a stigma.</li>\n<li><strong>Fertilisation</strong> – the pollen grows a tube down the style to the ovary. Male and female cells join in the ovule.</li>\n<li><strong>Seed and fruit</strong> – the ovule becomes a seed. The ovary swells to become the fruit around the seed.</li>\n<li><strong>Seed dispersal</strong> – seeds are spread by wind, water, animals, birds, or by bursting pods.</li>\n<li><strong>Germination</strong> – with water, air and the right temperature, the seed sprouts and a new plant grows, which will flower again.</li></ol>\n<h3>How pollen moves</h3>\n<ul><li><strong>Insects</strong> – bees, flies, beetles. Insect flowers are colourful, scented and have nectar.</li>\n<li><strong>Birds</strong> – sunbirds visit aloes, wild dagga and proteas with long tubular flowers.</li>\n<li><strong>Wind</strong> – grasses and maize have small dull flowers with lots of light pollen.</li></ul>\n<h3>Self- and cross-pollination</h3>\n<p>Self-pollination is pollen from the same flower or plant. Cross-pollination is pollen from another plant. Some plants need cross-pollination with a different variety; for example, many apple, pear and macadamia orchards are planted with more than one cultivar, and beehives are brought in at flowering.</p>\n<h3>What this means for your work</h3>\n<ul><li>Do not spray insecticides on flowering plants when bees are active. Follow the label and farm rules.</li>\n<li>Seed from F1 hybrid plants does not grow true to the parent. Buy fresh seed or propagate by cuttings.</li>\n<li>Deadheading stops seed forming and makes the plant produce more flowers.</li></ul>\n<h4>Key points</h4>\n<ul><li>The stamen (anther and filament) is male; the pistil (stigma, style, ovary) is female.</li>\n<li>Pollination moves pollen to the stigma; fertilisation forms the seed.</li>\n<li>The ovary becomes the fruit and the ovule becomes the seed.</li>\n<li>Pollen is carried by insects, birds and wind.</li>\n<li>Protect bees: do not spray insecticides on flowers when bees are working.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which part of the flower makes pollen?",
+   "options": [
+    {
+     "text": "Stigma",
+     "correct": false
+    },
+    {
+     "text": "Anther",
+     "correct": true
+    },
+    {
+     "text": "Ovary",
+     "correct": false
+    },
+    {
+     "text": "Sepal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the ovary become after fertilisation?",
+   "options": [
+    {
+     "text": "The petal",
+     "correct": false
+    },
+    {
+     "text": "The root",
+     "correct": false
+    },
+    {
+     "text": "The leaf",
+     "correct": false
+    },
+    {
+     "text": "The fruit",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is pollination?",
+   "options": [
+    {
+     "text": "Movement of pollen from an anther to a stigma",
+     "correct": true
+    },
+    {
+     "text": "The seed sprouting",
+     "correct": false
+    },
+    {
+     "text": "Watering the flowers",
+     "correct": false
+    },
+    {
+     "text": "Cutting off old flowers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which plants usually rely on wind for pollination?",
+   "options": [
+    {
+     "text": "Aloes",
+     "correct": false
+    },
+    {
+     "text": "Roses",
+     "correct": false
+    },
+    {
+     "text": "Grasses and maize",
+     "correct": true
+    },
+    {
+     "text": "Proteas",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are beehives brought into some orchards at flowering?",
+   "options": [
+    {
+     "text": "To eat pests",
+     "correct": false
+    },
+    {
+     "text": "To help cross-pollination",
+     "correct": true
+    },
+    {
+     "text": "To make the trees taller",
+     "correct": false
+    },
+    {
+     "text": "To scare birds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seed from an F1 hybrid plant always grows true to the parent.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The ovule becomes the seed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are female parts of a flower? (select all that apply)",
+   "options": [
+    {
+     "text": "Stigma",
+     "correct": true
+    },
+    {
+     "text": "Style",
+     "correct": true
+    },
+    {
+     "text": "Anther",
+     "correct": false
+    },
+    {
+     "text": "Ovary",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

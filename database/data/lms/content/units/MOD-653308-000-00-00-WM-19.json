@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-19",
+ "title": "Diagnosis and Repair of Tractor Drivetrain Systems",
+ "lessons": [
+  {
+   "title": "Drivetrain layout and diagnosis",
+   "minutes": 20,
+   "html": "<h3>From engine to wheels</h3> <p>The tractor drivetrain carries engine power to the wheels and PTO. It includes the clutch or hydraulic wet clutches, the gearbox (manual synchromesh, powershift or continuously variable transmission), range box, differential with diff lock, final drives, front axle drive and its engagement clutch, drive shafts and the PTO with its clutch and brake.</p> <p>Drivetrain repairs are expensive and often need the tractor to be split, so a correct diagnosis before stripping saves the farmer thousands of rand and days of downtime.</p> <h4>Gathering information</h4> <ul> <li>What is the complaint: noise, slipping, jumping out of gear, hard shifting, no drive, PTO problems, overheating?</li> <li>When does it happen: in which gears or ranges, loaded or unloaded, hot or cold, turning or straight?</li> <li>Read fault codes on electronically controlled transmissions and record them.</li> <li>Check oil level and condition. Look at the drain plug magnet: fine paste is normal wear, chips and pieces mean damage.</li> </ul> <h4>Symptom guide</h4> <table> <tr><th>Symptom</th><th>Possible causes</th></tr> <tr><td>Clutch slips under load</td><td>Worn or oil-soaked lining, no pedal free play, weak pressure plate; on wet clutches, low pressure or wrong oil</td></tr> <tr><td>Grinding when selecting gears</td><td>Clutch not disengaging fully, worn synchros</td></tr> <tr><td>Jumps out of gear</td><td>Worn selector detents, forks or gear dogs, excess end float</td></tr> <tr><td>Noise only when turning</td><td>Differential side or planet gears</td></tr> <tr><td>Whine changing with speed</td><td>Bearings or gear mesh</td></tr> <tr><td>Vibration</td><td>Drive shaft UJ wear or out-of-phase shafts, bent shafts</td></tr> </table> <h4>Safety</h4> <ul> <li>When testing in the yard, keep people clear and test PTO only with shields in place.</li> <li>When lifting a wheel to test, support the axle on stands and remember that a lifted wheel can drive the tractor off the stands if the other wheel touches the ground.</li> <li>Split the tractor only with rated splitting stands supporting both halves.</li> </ul>"
+  },
+  {
+   "title": "Testing transmissions and PTO",
+   "minutes": 20,
+   "html": "<h3>Tests before stripping</h3> <h4>Road and field test</h4> <p>Drive the tractor through every gear and range, forward and reverse, with and without load if possible. Note exactly when the fault appears. A chassis stethoscope helps pinpoint where a noise comes from.</p> <h4>Clutch tests</h4> <ul> <li>Check pedal free play. No free play makes a clutch slip; too much makes it drag.</li> <li>A simple stall check described in some manuals shows whether a clutch slips; follow the manual exactly and do it only in a safe area.</li> </ul> <h4>Powershift and wet clutch tests</h4> <ul> <li>Fit gauges to the test ports and measure clutch pack pressures in each gear, as the manual lists. A low pressure in one clutch suggests a leaking seal ring or piston seal in that pack.</li> <li>Use the diagnostic tool to read live data: clutch fill times, slip, shaft speeds and oil temperature.</li> <li>Check that the correct oil is used; the wrong oil causes slipping and chatter.</li> </ul> <h4>PTO tests</h4> <ul> <li>Check that the PTO engages smoothly and stops when disengaged (PTO brake).</li> <li>Check PTO speed with a tachometer against the dashboard reading.</li> <li>On electro-hydraulic PTOs, check the engagement pressure and solenoid operation.</li> <li>Never stand near a turning PTO shaft. Entanglement happens in a fraction of a second.</li> </ul> <h4>4WD and diff lock</h4> <p>Check that the front drive engages and disengages, that the diff lock engages and releases, and look for \"wind-up\" (tyre scuffing, hard steering) which can come from mismatched front and rear tyre sizes, not only mechanical faults.</p> <h3>Measuring during strip-down</h3> <p>When the unit is opened, measure end float, gear backlash, bearing preload, clutch disc thickness and synchro clearances, and compare each with the service limits. Inspect teeth for pitting, chipping and wear patterns; the pattern often shows the cause, such as misalignment or lack of oil.</p>"
+  },
+  {
+   "title": "Repair and verification",
+   "minutes": 20,
+   "html": "<h3>Planning the repair</h3> <p>Present your findings and measurements to your supervisor and the client with a quote for parts and labour. Consider the hours and value of the tractor: on an old tractor an exchange gearbox may be better value than a full rebuild.</p> <h3>Doing the repair</h3> <ul> <li>Work in clean conditions. Wash parts in clean solvent and dry them before assembly.</li> <li>Replace all bearings, seals, O-rings and gaskets that the manual requires, plus any part that fails measurement.</li> <li>Find the cause. A clutch soaked with oil needs the leaking seal replaced. Gears damaged by low oil need the leak that lost the oil fixed.</li> <li>Set end float, backlash, bearing preload and shims exactly to specification using a dial gauge, and check tooth contact patterns where the manual asks.</li> <li>Tighten to torque with locking devices fitted as specified.</li> <li>Fit UJs and shafts in phase, and replace guards and shields.</li> </ul> <h3>Calibration and verification</h3> <ol> <li>Fill with the correct oil and check level after first running.</li> <li>On electronic transmissions, carry out clutch calibration and any software update needed.</li> <li>Repeat the pressure tests and compare with your earlier readings.</li> <li>Road test through all gears and ranges, loaded if possible, and test PTO, 4WD and diff lock.</li> <li>Recheck for leaks and noise, and recheck oil levels after cooling.</li> </ol> <h3>Handover</h3> <p>Write a clear report: complaint, test results, measurements, cause, parts, oil and calibration. Tell the driver what caused the failure and how to prevent it, for example \"do not ride the clutch\" or \"check transmission oil weekly during the season\". Ask for any follow-up check, such as an oil change after a short run-in period, if the manual recommends it.</p> <h4>Key points</h4> <ul> <li>Diagnose fully before splitting a tractor; drivetrain work is costly.</li> <li>Check oil level, condition and drain plug magnets early.</li> <li>Measure clutch pack pressures and use live data on powershift transmissions.</li> <li>Set end float, backlash and preload to specification and fix the root cause.</li> <li>Calibrate, road test and report clearly to the client.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Chips and pieces of metal on the drain plug magnet suggest what?",
+   "options": [
+    {
+     "text": "Internal damage",
+     "correct": true
+    },
+    {
+     "text": "The oil is new",
+     "correct": false
+    },
+    {
+     "text": "Correct shimming",
+     "correct": false
+    },
+    {
+     "text": "Normal wear",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Noise that appears only when the tractor turns most likely comes from where?",
+   "options": [
+    {
+     "text": "The fuel tank",
+     "correct": false
+    },
+    {
+     "text": "The seat suspension",
+     "correct": false
+    },
+    {
+     "text": "The air filter",
+     "correct": false
+    },
+    {
+     "text": "The differential side or planet gears",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A powershift tractor slips in one gear only. What test helps find the cause?",
+   "options": [
+    {
+     "text": "Measuring that clutch pack's pressure at the test port",
+     "correct": true
+    },
+    {
+     "text": "A battery load test",
+     "correct": false
+    },
+    {
+     "text": "A compression test",
+     "correct": false
+    },
+    {
+     "text": "Checking tyre pressure only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can cause 4WD wind-up apart from mechanical faults?",
+   "options": [
+    {
+     "text": "A clean air filter",
+     "correct": false
+    },
+    {
+     "text": "A full fuel tank",
+     "correct": false
+    },
+    {
+     "text": "Mismatched front and rear tyre sizes",
+     "correct": true
+    },
+    {
+     "text": "New wiper blades",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A clutch is soaked with oil. What must be repaired as well as replacing the clutch?",
+   "options": [
+    {
+     "text": "The leaking seal",
+     "correct": true
+    },
+    {
+     "text": "The radiator",
+     "correct": false
+    },
+    {
+     "text": "The steering wheel",
+     "correct": false
+    },
+    {
+     "text": "The headlights",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to stand near a turning PTO shaft as long as you are careful.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Electronic transmissions often need clutch calibration after repair.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions help diagnose a drivetrain complaint? (select all that apply)",
+   "options": [
+    {
+     "text": "Does it happen when turning or going straight?",
+     "correct": true
+    },
+    {
+     "text": "In which gears or ranges does it happen?",
+     "correct": true
+    },
+    {
+     "text": "What colour is the tractor?",
+     "correct": false
+    },
+    {
+     "text": "Does it happen loaded or unloaded?",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

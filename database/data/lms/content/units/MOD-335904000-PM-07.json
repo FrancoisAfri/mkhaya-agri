@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-335904000-PM-07",
+ "title": "Monitor and control implementation of work site fumigation interventions",
+ "lessons": [
+  {
+   "title": "Controlling the application and exposure period",
+   "minutes": 25,
+   "html": "<h3>Control from start to finish</h3><p>The fumigation supervisor is responsible for the safety of everyone on and around the site from the moment fumigant is introduced until clearance is given. Monitoring and control during fumigation combines gas measurement, site security, record keeping and decisive action when something goes wrong.</p><h4>During application</h4><ul><li>Confirm the readiness checklist and occupancy check are complete and signed.</li><li>Ensure applicators wear respiratory protection as the label requires and work in pairs, with a standby person outside who is equipped to respond.</li><li>Control the sequence: apply from the farthest point towards the exit, and seal final openings immediately.</li><li>Record the quantity applied at each location and the start time.</li><li>Account for every team member at the end of application.</li></ul><h4>Monitoring gas concentration</h4><p>Take readings from the sampling lines at the intervals set in the plan, often more frequently early in the exposure. Record each reading with time, location and temperature. Compare with the concentration profile the label requires for the pest, commodity and temperature.</p><table><tr><th>Observation</th><th>Likely meaning and action</th></tr><tr><td>Concentration rises then holds steady</td><td>Good seal; continue monitoring</td></tr><tr><td>Concentration fails to reach target</td><td>Poor distribution, leaks or under-dosing; investigate</td></tr><tr><td>Concentration falls quickly</td><td>Leak; locate with perimeter monitoring and repair</td></tr><tr><td>Large differences between top and bottom</td><td>Poor distribution; consider recirculation as planned</td></tr></table><p>Do not shorten the exposure period or reduce the dose to make up time. If the label requirements cannot be met, consult your technical manager on the appropriate action and record the decision.</p><h4>Perimeter and site security</h4><ul><li>Monitor at the exclusion zone boundary and in nearby occupied areas, offices, tunnels and conveyor galleries.</li><li>Keep signage and barriers in place and guard or patrol as planned.</li><li>Prevent unauthorised entry, including by site staff who may not understand the danger.</li></ul>"
+  },
+  {
+   "title": "Responding to incidents during fumigation",
+   "minutes": 20,
+   "html": "<h3>Gas detected outside the zone</h3><ol><li>Warn and move people away from the affected area immediately.</li><li>Extend the exclusion zone.</li><li>Locate the source of the leak using monitoring, approaching with suitable respiratory protection and a standby person.</li><li>Repair the seal if it can be done safely.</li><li>Continue to monitor the affected area until readings are below the safe level.</li><li>Record the incident and report it to the client and your manager.</li></ol><h4>Person found inside or suspected exposure</h4><ul><li>Never attempt a rescue without suitable breathing apparatus and a standby person; untrained rescuers often become casualties.</li><li>Remove the casualty to fresh air, call emergency medical services, and give first aid as the label and SDS direct.</li><li>Take the label and SDS to the medical facility.</li><li>Keep exposed people under observation, since symptoms of some fumigants can be delayed.</li></ul><p>Fumigation teams must have hands-on first aid training from an accredited provider.</p><h4>Other incidents</h4><p>Fire, equipment failure, severe weather damaging tarpaulins, or unexpected changes in site activity can all require you to adjust or suspend the operation. Follow the contingency plan, keep people out of danger and communicate clearly.</p><h4>Communicating during incidents</h4><p>During any incident, one person, normally the fumigation supervisor, takes charge and gives clear instructions. Inform the site manager and security immediately so they can control people movement on the site. Keep a written log of times, readings, actions and people involved; this record is needed for the investigation and for any report to authorities. After the incident, review what happened with the team and the client, identify the root cause, such as a torn sheet, a missed duct or a gate left unlocked, and update the plan and checklists so the same failure does not happen again.</p>"
+  },
+  {
+   "title": "Aeration, clearance and evaluation",
+   "minutes": 20,
+   "html": "<h3>Controlled aeration</h3><p>Aeration releases concentrated gas, so it is a high-risk phase.</p><ul><li>Confirm the full exposure period has been completed.</li><li>Check wind direction; open first on the downwind side and from outside where possible.</li><li>Use fans or aeration systems as planned.</li><li>Maintain the exclusion zone and perimeter monitoring throughout.</li></ul><h4>Clearance testing</h4><ol><li>Test throughout the structure, including enclosed spaces, furniture, bin headspaces and the commodity itself.</li><li>Compare readings with the re-entry level on the label and applicable occupational exposure requirements.</li><li>Continue aeration until all readings are below that level.</li><li>Collect and deactivate or dispose of fumigant residues as the label requires.</li><li>Issue a written clearance certificate with time and readings, then remove warning signs.</li></ol><h4>Evaluating effectiveness</h4><p>Sample the treated commodity or inspect the structure for live insects at all life stages. Incubate samples where appropriate to detect survivors emerging from inside kernels or timber. Survivors indicate inadequate concentration, time or temperature, or possible resistance, and must be reported.</p><h4>Records</h4><p>Keep the complete fumigation record: plan, occupancy checks, application details, all concentration readings, incidents, aeration and clearance readings, certificate, and evaluation results.</p><h4>Key points</h4><ul><li>Work in pairs with a standby person and account for all team members after application.</li><li>Monitor concentrations against label requirements and never shorten exposure or reduce dose.</li><li>Respond to leaks by warning people, extending the zone and repairing seals safely.</li><li>Never attempt a rescue without breathing apparatus and a standby person.</li><li>Clear only when all readings are below the label re-entry level, and evaluate for survivors.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Gas concentration in a sealed bin falls quickly after application. What does this most likely mean?",
+   "options": [
+    {
+     "text": "The fumigation is complete",
+     "correct": false
+    },
+    {
+     "text": "There is a leak that must be located and repaired",
+     "correct": true
+    },
+    {
+     "text": "The insects are dead",
+     "correct": false
+    },
+    {
+     "text": "The instrument needs no attention",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should applicators work inside a structure?",
+   "options": [
+    {
+     "text": "From the farthest point towards the exit",
+     "correct": true
+    },
+    {
+     "text": "From the exit inwards",
+     "correct": false
+    },
+    {
+     "text": "In any order",
+     "correct": false
+    },
+    {
+     "text": "Starting at the middle",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The label exposure period cannot be met. What is the correct approach?",
+   "options": [
+    {
+     "text": "Shorten the exposure and add more product",
+     "correct": false
+    },
+    {
+     "text": "End it and tell nobody",
+     "correct": false
+    },
+    {
+     "text": "Consult the technical manager and record the decision",
+     "correct": true
+    },
+    {
+     "text": "Ask the client to decide",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Gas is detected in an office near the exclusion zone. What is the first action?",
+   "options": [
+    {
+     "text": "Finish the paperwork",
+     "correct": false
+    },
+    {
+     "text": "Open the fumigated structure",
+     "correct": false
+    },
+    {
+     "text": "Ignore low readings",
+     "correct": false
+    },
+    {
+     "text": "Warn and move people away immediately",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should samples be incubated after fumigation?",
+   "options": [
+    {
+     "text": "To detect survivors emerging from inside kernels",
+     "correct": true
+    },
+    {
+     "text": "To dry the grain",
+     "correct": false
+    },
+    {
+     "text": "To increase the price",
+     "correct": false
+    },
+    {
+     "text": "To remove residues",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "During aeration the exclusion zone may be removed because the exposure is over.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Exposed people should be kept under observation because symptoms of some fumigants can be delayed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items belong in the complete fumigation record? (select all that apply)",
+   "options": [
+    {
+     "text": "Occupancy checks",
+     "correct": true
+    },
+    {
+     "text": "All concentration readings",
+     "correct": true
+    },
+    {
+     "text": "Clearance readings and certificate",
+     "correct": true
+    },
+    {
+     "text": "The client's lunch order",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

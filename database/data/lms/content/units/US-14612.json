@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14612",
+ "title": "Supervise the implementation of a community development programme",
+ "lessons": [
+  {
+   "title": "Planning for implementation",
+   "minutes": 20,
+   "html": "<h3>From plan to action</h3>\n<p>A community development programme (for example a district food-garden programme, a LandCare veld rehabilitation programme, or a smallholder livestock improvement programme) often has several projects in different villages. The supervisor's job is to make sure that what was planned with communities is delivered: on time, within budget, to quality, safely, and in a way that builds local capacity.</p>\n<h4>Know the programme</h4>\n<ul><li>Objectives and expected results (outputs, outcomes and impact).</li>\n<li>Logical framework or results framework, with indicators and means of verification.</li>\n<li>Budget and funder conditions.</li>\n<li>Roles of partners: government departments, municipality, NGOs, community structures.</li>\n<li>Legal and policy requirements, such as OHS Act 85 of 1993 for work teams and environmental authorisations where relevant.</li></ul>\n<h4>Implementation plan</h4>\n<table><tr><th>Element</th><th>What it contains</th></tr>\n<tr><td>Work breakdown</td><td>Activities and tasks per project site</td></tr>\n<tr><td>Schedule</td><td>Timeline linked to seasons (planting, rainy season, school holidays)</td></tr>\n<tr><td>Resources</td><td>People, materials, equipment, transport, budget per activity</td></tr>\n<tr><td>Responsibilities</td><td>Who does what, who signs off</td></tr>\n<tr><td>Risks</td><td>Drought, late funding, community conflict, theft, with mitigation plans</td></tr>\n<tr><td>Communication</td><td>Meetings, reports, feedback to communities</td></tr></table>\n<h4>Seasonality</h4>\n<p>Agricultural programmes run on nature's calendar. Fencing must be finished before planting; seed and fertiliser must arrive before the rains; erosion structures are best built in the dry season. Procurement delays are a common cause of missed seasons, so start early.</p>"
+  },
+  {
+   "title": "Supervising teams, resources and quality",
+   "minutes": 20,
+   "html": "<h3>Supervising people</h3>\n<ul><li>Brief field staff and community facilitators on objectives, tasks and standards.</li>\n<li>Hold regular team meetings and site visits. Be present in the field, not only in the office.</li>\n<li>Support community committees: help them run meetings, keep records and make decisions, without taking over.</li>\n<li>Coach and develop staff; recognise good work; deal with poor performance fairly.</li>\n<li>For work teams (e.g. stipend-based clearing teams), ensure contracts, attendance registers, PPE, toolbox talks and first aid arrangements are in place.</li></ul>\n<h3>Managing resources</h3>\n<ul><li>Follow procurement rules: quotations, approvals, delivery notes.</li>\n<li>Check deliveries against orders; store materials securely; keep stock registers.</li>\n<li>Track spending against budget monthly and explain variances.</li>\n<li>Maintain vehicles and equipment with logbooks.</li></ul>\n<h3>Quality and compliance</h3>\n<p>Set clear standards (e.g. gabion specifications, fence height and strainer spacing, garden bed preparation) and inspect against checklists. Record findings with photos and GPS points. Require rework before sign-off where needed. Check environmental and safety compliance.</p>\n<h3>Working with stakeholders</h3>\n<p>Keep traditional leaders, ward councillors and partner departments informed. Coordinate so that programmes do not duplicate or contradict each other. Manage expectations honestly when delays happen.</p>\n<h3>Problem solving</h3>\n<p>When problems arise (late materials, a dispute over who gets a job, drought), act quickly: gather facts, consult those affected, decide, communicate, and record what was done. Escalate issues beyond your authority.</p>"
+  },
+  {
+   "title": "Monitoring, reporting and closing out",
+   "minutes": 15,
+   "html": "<h3>Monitoring</h3>\n<p>Monitoring is regular tracking of activities and outputs against the plan. Use the programme indicators: number of households participating, hectares rehabilitated, metres of fencing, people trained (disaggregated by gender and age), money spent. Include participatory monitoring, where communities record and review their own progress.</p>\n<h3>Reporting</h3>\n<ul><li>Monthly progress reports: achievements, challenges, actions, finances.</li>\n<li>Quarterly reports to funders in the required format, with evidence (registers, photos, invoices).</li>\n<li>Feedback meetings in communities in local language.</li></ul>\n<h3>Adapting</h3>\n<p>Use monitoring findings to adjust the plan. If a practice is not being adopted, find out why and change the approach.</p>\n<h3>Close-out and handover</h3>\n<ol><li>Complete and inspect all works.</li>\n<li>Hand over assets formally to the community structure, with records and maintenance responsibilities.</li>\n<li>Close financial records and return unused funds if required.</li>\n<li>Hold a lessons-learned session with staff and communities.</li>\n<li>Support an evaluation of outcomes and impact.</li></ol>\n<h4>Key points</h4>\n<ul><li>Base implementation on a clear plan linked to objectives, indicators, budget and seasons.</li>\n<li>Supervise in the field and build community capacity rather than taking over.</li>\n<li>Control resources and quality with procurement rules, registers and checklists.</li>\n<li>Monitor against indicators, report with evidence and adapt.</li>\n<li>Hand over assets formally and capture lessons learned.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is seasonality important in agricultural programmes?",
+   "options": [
+    {
+     "text": "It is not important",
+     "correct": false
+    },
+    {
+     "text": "Only for tourism",
+     "correct": false
+    },
+    {
+     "text": "Activities like fencing and seed delivery must be timed before planting and rains",
+     "correct": true
+    },
+    {
+     "text": "Seasons only affect reporting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a common cause of missed planting seasons?",
+   "options": [
+    {
+     "text": "Procurement delays",
+     "correct": true
+    },
+    {
+     "text": "Too many meetings",
+     "correct": false
+    },
+    {
+     "text": "Early seed delivery",
+     "correct": false
+    },
+    {
+     "text": "Good planning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the supervisor's correct role with community committees?",
+   "options": [
+    {
+     "text": "Take over all decisions",
+     "correct": false
+    },
+    {
+     "text": "Ignore them",
+     "correct": false
+    },
+    {
+     "text": "Only attend when there is a problem",
+     "correct": false
+    },
+    {
+     "text": "Support them to run meetings and make decisions, without taking over",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be checked when materials are delivered?",
+   "options": [
+    {
+     "text": "Only the driver's name",
+     "correct": false
+    },
+    {
+     "text": "Deliveries against orders, with secure storage and stock registers",
+     "correct": true
+    },
+    {
+     "text": "Nothing if the supplier is known",
+     "correct": false
+    },
+    {
+     "text": "Only the colour of the material",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is formal handover at close-out?",
+   "options": [
+    {
+     "text": "Leaving without notice",
+     "correct": false
+    },
+    {
+     "text": "Selling the assets",
+     "correct": false
+    },
+    {
+     "text": "Transferring assets to the community structure with records and maintenance responsibilities",
+     "correct": true
+    },
+    {
+     "text": "Stopping all reports",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Monitoring findings should be used to adjust the implementation plan.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A supervisor should spend nearly all their time in the office rather than visiting sites.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be in place for stipend-based work teams? (select all that apply)",
+   "options": [
+    {
+     "text": "Attendance registers",
+     "correct": true
+    },
+    {
+     "text": "PPE and toolbox talks",
+     "correct": true
+    },
+    {
+     "text": "First aid arrangements",
+     "correct": true
+    },
+    {
+     "text": "No contracts",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115826",
+ "title": "Roll and fermentise withered leaf",
+ "lessons": [
+  {
+   "title": "Rolling withered leaf",
+   "minutes": 15,
+   "html": "<h3>Why we roll the leaf</h3><p>After withering, the soft leaf is rolled or cut. Rolling twists the leaf and breaks the cells inside it. The juice inside the leaf comes out onto the surface and mixes with the air. This starts <strong>fermentation</strong>, the change that turns green leaf into black tea with its colour and strong taste.</p><h4>Two ways of rolling</h4><table><tr><th>Method</th><th>How it works</th><th>Tea it makes</th></tr><tr><td>Orthodox roller</td><td>A table moves in circles under a heavy box of leaf. The leaf is twisted.</td><td>Long, twisted leaf grades</td></tr><tr><td>CTC (crush, tear, curl)</td><td>Leaf goes between rollers with sharp teeth.</td><td>Small, round granules, often for tea bags</td></tr></table><p>Many factories first pass leaf through a rotorvane, which cuts and presses the leaf before CTC.</p><h4>Getting ready</h4><ul><li>Check that the machine is clean. Old fermented leaf left in the machine spoils new tea.</li><li>Check that all guards are on.</li><li>Ask your supervisor for the settings: how much leaf per load, how long to roll, how much pressure.</li><li>Wear your overall, hair cover and boots. Remove rings and loose bracelets.</li></ul><h4>Rolling steps</h4><ol><li>Load the right amount of withered leaf. Too much leaf rolls badly; too little wastes time.</li><li>Start the machine as you were trained.</li><li>Roll for the set time and add pressure as the supervisor says.</li><li>Unload the rolled leaf. On orthodox lines, the leaf goes to a sifter (roll breaker) that breaks lumps and separates fine leaf.</li></ol><h4>Safety at the rollers</h4><ul><li>Never put your hand into a moving roller or CTC machine. Teeth and rollers can cut off fingers.</li><li>Use the stop button and lock out before clearing a blockage or cleaning.</li><li>Keep loose clothes and long hair tied back.</li><li>Rolling makes heat and noise. Wear hearing protection if the area is loud.</li></ul>"
+  },
+  {
+   "title": "Fermenting and checking the leaf",
+   "minutes": 15,
+   "html": "<h3>What fermentation is</h3><p>In tea, \"fermentation\" means the leaf juice reacts with oxygen from the air. It is really oxidation. The leaf changes colour from green to a bright copper brown, and the smell changes from grassy to a sweet, fruity smell.</p><h4>How fermentation is done</h4><p>The rolled leaf is spread out on clean trays, floors or a moving fermenting belt (continuous fermenting machine). Cool, damp air is blown over or through it. Your supervisor gives you the depth to spread and the time.</p><ul><li>Spread the leaf evenly to the right depth. Thick patches get hot and ferment too much.</li><li>Keep the air cool and damp. Humidifiers or wet sacks may be used.</li><li>Keep the area very clean. Old leaf on trays brings bacteria and sour smells.</li></ul><h4>Checking the leaf</h4><p>Check the leaf often during fermentation:</p><table><tr><th>Check</th><th>Good</th><th>Problem</th></tr><tr><td>Colour</td><td>Bright, even copper</td><td>Still green (under), dark dull brown (over)</td></tr><tr><td>Smell</td><td>Fresh, fruity, sweet</td><td>Grassy (under), sour or flat (over)</td></tr><tr><td>Temperature</td><td>Cool</td><td>Warm to hot patches</td></tr></table><p>Use a thermometer to check the leaf temperature as you were shown. Write it down.</p><h4>Ending fermentation</h4><p>When the leaf reaches the right colour and smell, the supervisor will say it is ready. It must go straight to the dryer. The dryer stops fermentation with heat. Leaf that waits too long over-ferments, and the tea becomes dull and flat. That tea is worth less money.</p><h4>Records and cleaning</h4><ul><li>Record the batch, the time rolling started, time fermenting started and ended, and the temperatures.</li><li>Clean trays, belts and floors after each batch.</li><li>Report any machine noise, broken belts or humidifier problems.</li></ul><h4>Key points</h4><ul><li>Rolling breaks the leaf cells so the juice meets the air.</li><li>Never put hands into moving rollers; lock out before cleaning.</li><li>Spread fermenting leaf evenly and keep it cool and damp.</li><li>Check colour, smell and temperature often.</li><li>Send correctly fermented leaf straight to the dryer.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is withered leaf rolled?",
+   "options": [
+    {
+     "text": "To dry it",
+     "correct": false
+    },
+    {
+     "text": "To break the leaf cells so the juice meets the air",
+     "correct": true
+    },
+    {
+     "text": "To make it green",
+     "correct": false
+    },
+    {
+     "text": "To remove stalks only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What kind of tea does a CTC machine make?",
+   "options": [
+    {
+     "text": "Long, twisted leaf",
+     "correct": false
+    },
+    {
+     "text": "Green tea only",
+     "correct": false
+    },
+    {
+     "text": "Whole leaves",
+     "correct": false
+    },
+    {
+     "text": "Small, round granules often used in tea bags",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What colour should well-fermented leaf be?",
+   "options": [
+    {
+     "text": "Bright, even copper",
+     "correct": true
+    },
+    {
+     "text": "Bright green",
+     "correct": false
+    },
+    {
+     "text": "Black and dull",
+     "correct": false
+    },
+    {
+     "text": "Grey",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if fermented leaf waits too long before drying?",
+   "options": [
+    {
+     "text": "It becomes greener",
+     "correct": false
+    },
+    {
+     "text": "It gets more valuable",
+     "correct": false
+    },
+    {
+     "text": "It over-ferments and the tea becomes dull and flat",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before clearing a blockage in a roller?",
+   "options": [
+    {
+     "text": "Push the leaf with your hand while it runs",
+     "correct": false
+    },
+    {
+     "text": "Stop the machine and lock it out",
+     "correct": true
+    },
+    {
+     "text": "Increase the speed",
+     "correct": false
+    },
+    {
+     "text": "Add more leaf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Thick patches of fermenting leaf can get hot and ferment too much.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A grassy smell means the leaf is over-fermented.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check during fermentation? (select all that apply)",
+   "options": [
+    {
+     "text": "Colour",
+     "correct": true
+    },
+    {
+     "text": "Smell",
+     "correct": true
+    },
+    {
+     "text": "Price of the tea",
+     "correct": false
+    },
+    {
+     "text": "Leaf temperature",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-QUAL122312",
+ "title": "Higher Certificate in Farming",
+ "lessons": [
+  {
+   "title": "The farm as a business system",
+   "minutes": 25,
+   "html": "<h3>About this qualification</h3><p>A Higher Certificate in Farming is an NQF level 5 qualification for people who run or will run farming operations: farm owners, farm managers, supervisors moving into management, and new entrant farmers. This overview introduces the management thinking that runs through the programme. The provider's detailed modules, assessment and rules apply; check them with your provider.</p><h4>Thinking in systems</h4><p>A farm is a system of interacting parts: natural resources (soil, water, climate, veld), enterprises (crops, livestock, horticulture), people, capital (land, machinery, infrastructure, cash), markets and the regulatory environment. A decision in one part affects others. Increasing cattle numbers raises income potential but also grazing pressure, labour, water demand, disease risk and cash needs for feed.</p><h4>Enterprise selection</h4><p>Choose enterprises that fit:</p><ul><li><strong>Natural resources:</strong> rainfall amount and reliability, soil type and depth, slope, frost, water rights.</li><li><strong>Markets:</strong> access to buyers, transport distances, price trends, contract opportunities.</li><li><strong>Skills and labour:</strong> what the farmer and team know and can learn.</li><li><strong>Capital:</strong> what can be funded without unsustainable debt.</li><li><strong>Risk:</strong> diversification across enterprises can smooth income.</li></ul><h4>The farming calendar</h4><p>Every enterprise has a calendar of operations: soil preparation, planting, fertilising, crop protection, harvesting and marketing for crops; breeding, calving, weaning, vaccination, dipping and marketing for livestock. Integrating calendars shows where labour, machinery and cash peaks clash, so they can be planned around.</p><h4>Legal environment</h4><p>Farm managers operate within legislation including the Conservation of Agricultural Resources Act 43 of 1983 (soil, veld and water conservation), the National Water Act 36 of 1998 (water use authorisation), Act 36 of 1947 (agricultural remedies), the Animal Diseases Act 35 of 1984, the Occupational Health and Safety Act 85 of 1993, and labour legislation including the Basic Conditions of Employment Act 75 of 1997.</p>"
+  },
+  {
+   "title": "Production management",
+   "minutes": 25,
+   "html": "<h3>Managing crops</h3><p>Crop production management covers:</p><ul><li><strong>Soil:</strong> soil sampling and analysis guide liming and fertiliser decisions. Conservation practices such as minimum tillage, contours and crop rotation protect soil structure and reduce erosion.</li><li><strong>Cultivar choice:</strong> match cultivar to the area, season length and market. Use regional cultivar trial results from reputable sources.</li><li><strong>Planting:</strong> correct planting date, seed rate and plant population for expected rainfall or irrigation.</li><li><strong>Crop protection:</strong> integrated pest management: scouting, economic thresholds, biological and cultural control, and registered chemicals applied according to the label by trained operators.</li><li><strong>Harvest and storage:</strong> timely harvest, correct moisture, clean storage to protect quality and grade.</li></ul><h4>Managing livestock</h4><ul><li><strong>Veld and pasture:</strong> match stocking rate to carrying capacity; use rotational grazing and rest periods; monitor veld condition.</li><li><strong>Nutrition:</strong> supplement according to season and veld quality, for example protein licks on winter veld in summer-rainfall areas.</li><li><strong>Breeding:</strong> defined breeding seasons, bull fertility testing, selection for adaptability and performance.</li><li><strong>Animal health:</strong> a herd health programme designed with a veterinarian; vaccination, parasite control, biosecurity and record-keeping.</li><li><strong>Welfare:</strong> the Animals Protection Act 71 of 1962 prohibits cruelty; handle animals calmly with suitable facilities.</li></ul><h4>Measuring performance</h4><p>Key performance indicators include yield per hectare, input cost per tonne, calving percentage, weaning mass, mortality rate and gross margin per hectare or per large stock unit. Measure, compare with benchmarks and previous seasons, and act on the gaps.</p><h4>Mechanisation and infrastructure</h4><p>Plan machinery capacity to match the timeliness of operations. Maintenance schedules, operator training and safe practices reduce breakdowns and accidents.</p>"
+  },
+  {
+   "title": "Financial, people and risk management",
+   "minutes": 25,
+   "html": "<h3>Financial management</h3><ul><li><strong>Enterprise budgets</strong> estimate income, direct costs and gross margin per enterprise. Gross margin = gross production value − directly allocated variable costs.</li><li><strong>Whole-farm budget</strong> adds overhead costs (permanent labour, insurance, administration, depreciation) to show net farm income.</li><li><strong>Cash flow budget</strong> by month shows when cash comes in and goes out. Crop farmers often face large outflows at planting and inflows only after harvest, so production credit must be planned.</li><li><strong>Records:</strong> accurate financial and production records support decisions, tax compliance and loan applications.</li></ul><h4>People management</h4><p>Farm employees are covered by labour law, including sectoral determinations for farm workers on minimum wages and conditions. Good people management includes clear job descriptions, written contracts, fair disciplinary and grievance procedures, training, safe working conditions and respectful communication. Skilled, motivated people are a farm's most important resource.</p><h4>Risk management</h4><table><tr><th>Risk</th><th>Examples of responses</th></tr><tr><td>Production (drought, hail, disease)</td><td>Drought-tolerant cultivars, fodder banks, insurance, biosecurity</td></tr><tr><td>Market (price falls)</td><td>Forward contracts, diversification, value adding</td></tr><tr><td>Financial (interest, debt)</td><td>Conservative borrowing, cash reserves</td></tr><tr><td>Human (injury, skills loss)</td><td>Safety systems, training, succession planning</td></tr><tr><td>Legal and institutional</td><td>Compliance systems, staying informed</td></tr></table><h4>Planning and sustainability</h4><p>A farm business plan sets the vision, goals, enterprise mix, production and financial plans, and actions. Sustainable farming protects soil, water and biodiversity for future seasons as well as producing profit now.</p><h4>Key points</h4><ul><li>Manage the farm as a system; decisions in one area affect others.</li><li>Choose enterprises that fit resources, markets, skills, capital and risk.</li><li>Use KPIs and benchmarks to measure production performance.</li><li>Budget gross margins, whole-farm results and monthly cash flow.</li><li>Manage people fairly and lawfully, and plan for production, market and financial risks.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does thinking of a farm as a system mean?",
+   "options": [
+    {
+     "text": "Using computers for everything",
+     "correct": false
+    },
+    {
+     "text": "Decisions in one part affect other parts",
+     "correct": true
+    },
+    {
+     "text": "Only crops matter",
+     "correct": false
+    },
+    {
+     "text": "Each part works independently",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does gross margin equal?",
+   "options": [
+    {
+     "text": "Sales minus depreciation",
+     "correct": false
+    },
+    {
+     "text": "Total income minus tax",
+     "correct": false
+    },
+    {
+     "text": "Net profit plus overheads",
+     "correct": false
+    },
+    {
+     "text": "Gross production value minus directly allocated variable costs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act deals with soil, veld and water conservation on farms?",
+   "options": [
+    {
+     "text": "Consumer Protection Act 68 of 2008",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a monthly cash flow budget important for crop farmers?",
+   "options": [
+    {
+     "text": "Outflows at planting come long before harvest income",
+     "correct": true
+    },
+    {
+     "text": "It is required for every sale",
+     "correct": false
+    },
+    {
+     "text": "It sets stocking rates",
+     "correct": false
+    },
+    {
+     "text": "It replaces the income statement",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a response to market price risk?",
+   "options": [
+    {
+     "text": "Forward contracts",
+     "correct": true
+    },
+    {
+     "text": "Fodder banks",
+     "correct": false
+    },
+    {
+     "text": "Vaccination",
+     "correct": false
+    },
+    {
+     "text": "Contour banks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stocking rate should be matched to the carrying capacity of the veld.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Integrated pest management relies only on spraying chemicals on a fixed calendar.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are livestock key performance indicators? (select all that apply)",
+   "options": [
+    {
+     "text": "Calving percentage",
+     "correct": true
+    },
+    {
+     "text": "Weaning mass",
+     "correct": true
+    },
+    {
+     "text": "Mortality rate",
+     "correct": true
+    },
+    {
+     "text": "Tractor colour",
+     "correct": false
+    },
+    {
+     "text": "Number of farm visitors",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

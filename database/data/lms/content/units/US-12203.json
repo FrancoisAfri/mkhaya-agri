@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12203",
+ "title": "Demonstrate knowledge of issues relating to HIV and AIDS",
+ "lessons": [
+  {
+   "title": "What HIV and AIDS are",
+   "minutes": 15,
+   "html": "<h3>HIV and AIDS</h3>\n<p><strong>HIV</strong> is a virus. Its full name is Human Immunodeficiency Virus. It attacks the body's immune system. The immune system is the body's army that fights sickness.</p>\n<p><strong>AIDS</strong> is the late stage of HIV infection when it is not treated. Its full name is Acquired Immune Deficiency Syndrome. When the immune system is very weak, the person gets sick easily from illnesses like TB, pneumonia and thrush.</p>\n<h4>HIV and AIDS are not the same</h4>\n<ul>\n<li>A person can have HIV for many years and look and feel healthy.</li>\n<li>With treatment, a person with HIV can stay healthy and never get AIDS.</li>\n<li>You cannot tell if someone has HIV by looking at them. Only a test can tell.</li>\n</ul>\n<h4>How HIV spreads</h4>\n<p>HIV lives in some body fluids. It spreads when these fluids from a person with HIV get into another person's body:</p>\n<ul>\n<li>blood;</li>\n<li>semen and fluids from the vagina, during sex without a condom;</li>\n<li>breast milk, and from mother to baby during pregnancy or birth;</li>\n<li>sharing needles, razors or blades that have blood on them.</li>\n</ul>\n<h4>How HIV does NOT spread</h4>\n<ul>\n<li>shaking hands, hugging or working side by side;</li>\n<li>sharing cups, plates, toilets or the bakkie seat;</li>\n<li>mosquito bites;</li>\n<li>coughing, sneezing or sweat.</li>\n</ul>\n<p>So it is safe to work with, eat with and live with a person who has HIV. Many people in South Africa live with HIV. They work on farms, in packhouses and in abattoirs like everyone else.</p>\n<h4>HIV and TB</h4>\n<p>People with HIV who are not on treatment get TB more easily. If you have a cough for more than two weeks, night sweats or weight loss, go to the clinic. TB can be cured with treatment.</p>"
+  },
+  {
+   "title": "Protecting yourself and others",
+   "minutes": 15,
+   "html": "<h3>How to prevent HIV</h3>\n<p>You can protect yourself and the people you love. Here are the main ways:</p>\n<ul>\n<li><strong>Use a condom</strong> every time you have sex. Clinics give condoms for free.</li>\n<li><strong>Know your status and your partner's status.</strong> Test together.</li>\n<li><strong>Be faithful</strong> to one partner who has tested negative, and have fewer partners.</li>\n<li><strong>Do not share</strong> razors, blades or needles.</li>\n<li><strong>Medical male circumcision</strong> lowers the chance of a man getting HIV. It is free at many clinics. Men must still use condoms.</li>\n<li><strong>PrEP</strong> is a pill that HIV-negative people can take to prevent HIV. Ask at the clinic.</li>\n<li><strong>Pregnant women</strong> should test early. With treatment, a mother with HIV can have a baby without HIV.</li>\n</ul>\n<h4>Accidents at work</h4>\n<p>If someone is bleeding after an accident on the farm or in the plant, you can help safely:</p>\n<ol>\n<li>Put on gloves from the first aid box before you touch blood. If there are no gloves, use a clean plastic bag over your hands.</li>\n<li>Press on the wound with a clean cloth to stop the bleeding.</li>\n<li>Call the trained first aider.</li>\n<li>Wash your hands with soap and water afterwards.</li>\n<li>Clean blood off surfaces with the cleaning product your workplace gives you, wearing gloves.</li>\n</ol>\n<p>If someone's blood gets into your cut, eye or mouth, wash the area well with water and go to the clinic or doctor <strong>straight away</strong>. There is medicine called <strong>PEP</strong> that can stop HIV, but it must be started very soon, within 72 hours. Report the accident to your supervisor.</p>\n<p>First aid must be learned properly. Ask your employer about hands-on first aid training with an accredited provider.</p>"
+  },
+  {
+   "title": "Testing, treatment and rights",
+   "minutes": 15,
+   "html": "<h3>Testing and treatment</h3>\n<p>An HIV test is free at government clinics. It is quick, and the result is private. A counsellor talks to you before and after the test. Self-test kits can also be bought at pharmacies.</p>\n<p>If the test shows HIV, the clinic will start you on <strong>ARVs</strong> (antiretroviral treatment). ARVs do not cure HIV, but they stop the virus from growing. A person who takes ARVs every day can live a long and healthy life and work normally. When the virus is so low that tests cannot find it, the person does not pass HIV to a partner through sex. Take ARVs every day, exactly as the clinic says. Never stop or share them.</p>\n<h4>Living positively</h4>\n<ul>\n<li>Eat healthy food, like vegetables, beans, eggs and pap.</li>\n<li>Drink less alcohol and do not smoke.</li>\n<li>Go to the clinic for every check-up.</li>\n<li>Get help early for coughs, sores or weight loss.</li>\n</ul>\n<h4>Your rights at work</h4>\n<ul>\n<li>Your employer may not force you to take an HIV test.</li>\n<li>You do not have to tell your employer or co-workers your status. It is your private information.</li>\n<li>You may not be fired or treated unfairly because you have HIV. The Employment Equity Act protects you against unfair discrimination.</li>\n<li>If you tell your supervisor or nurse, they must keep it confidential.</li>\n</ul>\n<h4>Stop stigma</h4>\n<p>Stigma means treating people badly because of HIV &ndash; gossiping, calling names or refusing to work with them. Stigma stops people from testing and taking treatment. Be kind. Do not spread rumours. Support co-workers who are sick.</p>\n<h4>Key points</h4>\n<ul>\n<li>HIV is a virus that weakens the immune system; AIDS is the late stage when HIV is not treated.</li>\n<li>HIV spreads through blood, sex without a condom, and from mother to baby &ndash; not by touching or sharing cups.</li>\n<li>Use condoms, test, and wear gloves when you help someone who is bleeding.</li>\n<li>ARVs taken every day keep a person with HIV healthy.</li>\n<li>Your HIV status is private, and you may not be treated unfairly because of it.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does HIV attack?",
+   "options": [
+    {
+     "text": "The bones",
+     "correct": false
+    },
+    {
+     "text": "The teeth",
+     "correct": false
+    },
+    {
+     "text": "The eyes",
+     "correct": false
+    },
+    {
+     "text": "The immune system",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these can spread HIV?",
+   "options": [
+    {
+     "text": "Shaking hands",
+     "correct": false
+    },
+    {
+     "text": "Sharing a cup",
+     "correct": false
+    },
+    {
+     "text": "Sex without a condom",
+     "correct": true
+    },
+    {
+     "text": "Mosquito bites",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before touching someone's blood after an accident?",
+   "options": [
+    {
+     "text": "Wash the person's clothes",
+     "correct": false
+    },
+    {
+     "text": "Put on gloves",
+     "correct": true
+    },
+    {
+     "text": "Give them water",
+     "correct": false
+    },
+    {
+     "text": "Nothing; just help",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do ARVs do?",
+   "options": [
+    {
+     "text": "They cure HIV completely",
+     "correct": false
+    },
+    {
+     "text": "They replace food",
+     "correct": false
+    },
+    {
+     "text": "They prevent TB",
+     "correct": false
+    },
+    {
+     "text": "They stop the virus from growing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Your employer asks you to tell everyone your HIV status. What is true?",
+   "options": [
+    {
+     "text": "Your status is private; you do not have to tell",
+     "correct": true
+    },
+    {
+     "text": "You must take a test at work",
+     "correct": false
+    },
+    {
+     "text": "You will be fired if you refuse",
+     "correct": false
+    },
+    {
+     "text": "You must tell everyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You can tell if someone has HIV by looking at them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If someone's blood gets into your cut, you should go to the clinic straight away.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to prevent HIV? (select all that apply)",
+   "options": [
+    {
+     "text": "Use a condom every time",
+     "correct": true
+    },
+    {
+     "text": "Do not share razors or needles",
+     "correct": true
+    },
+    {
+     "text": "Avoid sharing toilets",
+     "correct": false
+    },
+    {
+     "text": "Know your status and test with your partner",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

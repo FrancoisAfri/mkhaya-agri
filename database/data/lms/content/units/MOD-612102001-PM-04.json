@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102001-PM-04",
+  "title": "Harvest milk, attend to milk parlour hygiene and equipment",
+  "lessons": [
+    {
+      "title": "The milking routine step by step",
+      "minutes": 15,
+      "html": "<h3>Calm cows give more milk</h3><p>Milk let-down is controlled by a hormone called oxytocin. A calm cow lets her milk down well. A frightened cow holds her milk back. Bring cows to the parlour quietly, with no shouting, hitting or dogs. Keep the same routine and the same times every day.</p><h4>The milking routine</h4><ol><li><strong>Prepare yourself</strong>: clean overalls, apron, clean gloves on clean hands.</li><li><strong>Fore-strip</strong>: squirt two or three streams from each teat into a strip cup. Look for clots, watery milk or blood. These are signs of clinical mastitis.</li><li><strong>Pre-dip</strong>: dip or spray teats with the pre-milking teat disinfectant used on the farm and leave it for the contact time on the label.</li><li><strong>Dry</strong>: wipe each cow's teats with her own clean paper towel or cloth. Never use one cloth for many cows.</li><li><strong>Attach</strong> the cluster within the time set by the farm, usually soon after preparation, so you catch the let-down. Attach without letting in a lot of air.</li><li><strong>Watch</strong> the milking. Adjust the cluster if it slips or twists.</li><li><strong>Remove</strong>: switch off the vacuum before taking the cluster off, or let the automatic take-off work. Do not overmilk.</li><li><strong>Post-dip</strong>: cover the whole teat with post-milking dip straight after removal. This protects the teat while the teat canal closes.</li></ol><h4>Cows that must not go into the tank</h4><p>Milk from these cows must be kept separate and dumped or used as the manager directs:</p><ul><li>Cows treated with antibiotics or other drugs, until the withdrawal period on the label or from your vet is over.</li><li>Cows with clinical mastitis.</li><li>Fresh cows still giving colostrum.</li></ul><p>Mark these cows clearly, for example with leg bands or spray marks, and milk them last or into a separate bucket. One treated cow's milk in the bulk tank can spoil the whole load and the farm can be penalised by the milk buyer.</p><p>Write every treated cow on the treatment board and in the treatment record so every milker knows.</p>"
+    },
+    {
+      "title": "Parlour hygiene and cleaning the plant",
+      "minutes": 15,
+      "html": "<h3>Clean equipment means clean milk</h3><p>Milk is food. Bacteria grow quickly in milk residue left in pipes, liners and the bulk tank. High bacteria counts lower the price the farm is paid and can lead to milk being rejected.</p><h4>Cleaning-in-place (CIP) routine</h4><p>Most parlours are cleaned with a CIP system after every milking. A typical routine is:</p><ol><li><strong>Pre-rinse</strong> with lukewarm water to wash out milk. Do not recirculate this water.</li><li><strong>Hot alkaline wash</strong> to remove fat and protein. Water must be hot enough, as set on the detergent label, and must circulate for the full time.</li><li><strong>Acid rinse</strong>, usually a few times a week or as the programme says, to remove milkstone and minerals.</li><li><strong>Final rinse or sanitise</strong> before the next milking as the farm programme requires.</li></ol><p>Check water temperature, detergent amounts and circulation time. Cold water or too little detergent leaves fat behind.</p><h4>Bulk tank</h4><ul><li>Cool milk quickly after milking to the temperature your milk buyer requires.</li><li>Check and record the tank temperature at each milking.</li><li>Clean the tank after every collection and check the outlet valve and lid.</li></ul><h4>Chemical safety</h4><ul><li>Dairy detergents and acids can burn skin and eyes. Wear gloves, goggles and an apron.</li><li><strong>Never</strong> mix acid and chlorine products. They can give off a poisonous gas.</li><li>Always add chemical to water, not water to chemical.</li><li>Keep chemicals in their original labelled containers, locked away from feed and milk.</li><li>If chemical gets in the eyes, rinse with clean running water for a long time and get medical help. Read the safety data sheet for first aid.</li></ul><p>Keep the parlour floor, walls and pit clean. Hose down dung during and after milking and keep the dairy room separate and clean.</p>"
+    },
+    {
+      "title": "Caring for milking equipment",
+      "minutes": 15,
+      "html": "<h3>Equipment that works properly protects udders</h3><p>A badly working milking machine can damage teats and spread mastitis. Daily checks and planned servicing keep the plant working well.</p><h4>Daily checks</h4><ul><li>Vacuum gauge reads the level set by the technician, and is steady during milking.</li><li>Pulsators are clicking evenly. A pulsator that is stuck or slow hurts teats.</li><li>Liners are not cracked, twisted or rough. Short milk tubes and air vents are not blocked.</li><li>Milk filter (sock) is changed every milking. Look at the used filter for clots or dirt and report what you see.</li><li>No air leaks at the claw, hoses or milk line.</li></ul><h4>Regular maintenance</h4><table><tr><th>Item</th><th>Action</th></tr><tr><td>Liners</td><td>Replace after the number of milkings the maker recommends. Old liners harbour bacteria and milk slowly.</td></tr><tr><td>Rubber parts</td><td>Replace perished hoses and seals.</td></tr><tr><td>Vacuum pump</td><td>Check oil and belts as the manual says.</td></tr><tr><td>Full plant test</td><td>Done by a qualified technician at the interval the supplier recommends.</td></tr></table><h4>Signs of equipment problems</h4><ul><li>Teat ends that are red, swollen, ringed or cracked after milking.</li><li>Clusters falling off or squawking (air slipping in).</li><li>Rising mastitis or somatic cell counts.</li><li>Slow milking times.</li></ul><p>Write problems in the parlour logbook and report them to the manager. Lock out and switch off electrical equipment before any work on it, and let only qualified people work on electrics.</p><h4>Key points</h4><ul><li>Keep cows calm and follow the same milking routine every time.</li><li>Fore-strip, pre-dip, dry, attach, post-dip, and use one towel per cow.</li><li>Keep milk from treated, mastitis and colostrum cows out of the bulk tank.</li><li>Clean the plant after every milking with the correct water temperature and detergent.</li><li>Never mix acid and chlorine products; wear protective equipment.</li><li>Check vacuum, pulsators and liners daily and report faults.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why should cows be kept calm before milking?",
+      "options": [
+        {
+          "text": "Calm cows let their milk down better",
+          "correct": true
+        },
+        {
+          "text": "Calm cows need less feed",
+          "correct": false
+        },
+        {
+          "text": "It makes the parlour cleaner",
+          "correct": false
+        },
+        {
+          "text": "It lowers the water bill",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the purpose of fore-stripping?",
+      "options": [
+        {
+          "text": "To clean the floor",
+          "correct": false
+        },
+        {
+          "text": "To check milk for clots or abnormal milk",
+          "correct": true
+        },
+        {
+          "text": "To dry the teats",
+          "correct": false
+        },
+        {
+          "text": "To test the vacuum",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Milk from a cow treated with antibiotics must:",
+      "options": [
+        {
+          "text": "Go into the bulk tank if it looks normal",
+          "correct": false
+        },
+        {
+          "text": "Be mixed with plenty of other milk",
+          "correct": false
+        },
+        {
+          "text": "Be kept out of the tank until the withdrawal period is over",
+          "correct": true
+        },
+        {
+          "text": "Be sold to the neighbour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which chemicals must never be mixed?",
+      "options": [
+        {
+          "text": "Water and detergent",
+          "correct": false
+        },
+        {
+          "text": "Teat dip and water",
+          "correct": false
+        },
+        {
+          "text": "Alkaline detergent and hot water",
+          "correct": false
+        },
+        {
+          "text": "Acid and chlorine products",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How often should the milk filter sock be changed?",
+      "options": [
+        {
+          "text": "Once a week",
+          "correct": false
+        },
+        {
+          "text": "Every milking",
+          "correct": true
+        },
+        {
+          "text": "Once a month",
+          "correct": false
+        },
+        {
+          "text": "Only when it tears",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "One drying towel may be used for several cows to save paper.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The hot alkaline wash removes fat and protein from the milking plant.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which can be signs of a milking equipment problem? (select all that apply)",
+      "options": [
+        {
+          "text": "Red or ringed teat ends after milking",
+          "correct": true
+        },
+        {
+          "text": "Clusters squawking or falling off",
+          "correct": true
+        },
+        {
+          "text": "Cows chewing the cud",
+          "correct": false
+        },
+        {
+          "text": "Rising somatic cell counts",
+          "correct": true
+        },
+        {
+          "text": "Clean water in the trough",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

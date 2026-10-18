@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-116207",
+ "title": "Apply basic dairy production practices",
+ "lessons": [
+  {
+   "title": "Bringing cows in for milking",
+   "minutes": 15,
+   "html": "<h3>Cows like a routine</h3><p>Dairy cows give the most milk when they are calm and milked at the same times every day. A frightened cow holds back her milk. So the way you bring her in matters.</p><h3>Bringing the cows in</h3><ol><li>Go to the camp at the same time every day.</li><li>Walk behind the herd. Let the cows walk at their own pace. Do not run them, shout or use dogs to chase them.</li><li>Open the gates before you start so the cows do not bunch up.</li><li>Look at each cow as she walks. Is she lame? Is her udder swollen? Report any cow that looks sick.</li></ol><h3>In the milking parlour</h3><ul><li>Let the cows walk into the bails one at a time.</li><li>Close the bail or neck clamp gently. Many farms give a little feed in the bail to keep the cow still.</li><li>Stand to the side of the cow, not straight behind her, so she cannot kick you.</li><li>Use a kick bar or leg rope only if your supervisor shows you how.</li></ul><h3>Letting the cows out</h3><p>When milking is finished, take off the cups, open the bail and let the cow walk out quietly. Do not hit her to make her move faster. Close gates behind the group so cows go back to the right camp. Make sure there is water for them.</p><h3>Safety</h3><ul><li>Never stand in a narrow place between a cow and a wall.</li><li>Watch out for a bull that may be running with the herd. Never go into a camp with a bull alone.</li><li>Wear gumboots with a good grip because parlour floors are wet and slippery.</li></ul><p>Handling cows kindly is also the law. The Animals Protection Act 71 of 1962 protects animals from cruel treatment.</p>"
+  },
+  {
+   "title": "Cleaning the parlour, wastewater and manure",
+   "minutes": 15,
+   "html": "<h3>Why a clean dairy matters</h3><p>Milk is food for people. Dirt and manure carry germs into the milk and can also cause mastitis, an infection of the udder. A clean parlour means good milk and healthy cows.</p><h3>Cleaning the working area</h3><ol><li>After milking, scrape manure off the floor and out of the bails.</li><li>Hose down the floor, walls and bails with water. Start high and work down.</li><li>Use the detergent your supervisor gives you. Read the label and wear gloves and boots.</li><li>Rinse well so no soap or chemical is left behind.</li></ol><h3>Letting wastewater run away</h3><p>Dirty water must flow away from where you work. If water stands in the parlour, flies breed and cows slip.</p><ul><li>Keep the drains and gutters open. Pull out straw, stones and manure that block them.</li><li>Check the grids over the drains are in place so no one steps into a hole.</li><li>Make sure the water runs to the dairy dam or sump, not into a river or the veld. Dairy waste pollutes water, and the National Water Act 36 of 1998 protects water resources.</li></ul><h3>Removing solid waste</h3><p>Manure, old bedding and spilt feed are solid waste. Take them with a wheelbarrow or tractor to the <strong>place the farm has set aside</strong>, such as the manure heap or compost site. Never dump manure next to the dairy, near the milk room or next to a borehole. Manure is useful: when it is composted it can go back onto the pastures.</p><h3>Your own safety</h3><p>Wash your hands after cleaning. Do not mix cleaning chemicals, because some mixtures give off poisonous gas.</p>"
+  },
+  {
+   "title": "Cleaning utensils and controlling flies",
+   "minutes": 15,
+   "html": "<h3>Cleaning dairy utensils</h3><p>Buckets, milk cans, filters, milking cups and pipes all touch the milk. Milk left on them goes sour and germs grow. Clean them after every milking.</p><ol><li><strong>Rinse</strong> with clean lukewarm water straight after milking to wash off milk. Hot water first makes milk stick.</li><li><strong>Wash</strong> with hot water and the dairy detergent, using a brush. Scrub inside and outside.</li><li><strong>Rinse</strong> again with clean water.</li><li><strong>Sanitise</strong> if your farm uses a sanitiser, following the label.</li><li><strong>Dry</strong>: turn buckets and cans upside down on a clean rack. Do not wipe them with a dirty cloth.</li></ol><p>Look for milk stone (a hard white layer) or cracks in rubber parts. Report them, because germs hide there.</p><h3>Fly control</h3><p>Flies bother the cows, spread disease and land in milk. To keep flies down:</p><ul><li>Remove manure every day. Flies lay eggs in wet manure.</li><li>Do not let water stand. Keep drains open.</li><li>Clean up spilt feed and milk.</li><li>Keep the milk room door closed and the screens in good order.</li><li>Use fly traps or fly baits only where your supervisor shows you. Some fly sprays are poisons. Never spray near milk, feed or the cows' faces unless the label allows it, and never spray with bare hands or without the PPE on the label.</li></ul><h3>Daily routine</h3><table><tr><th>When</th><th>Job</th></tr><tr><td>Before milking</td><td>Check the parlour is clean and drains are open</td></tr><tr><td>After milking</td><td>Clean parlour, utensils and remove manure</td></tr><tr><td>Every day</td><td>Check fly traps and remove waste</td></tr></table><h4>Key points</h4><ul><li>Move cows calmly and keep to a fixed milking time.</li><li>Clean the parlour after every milking and keep drains open.</li><li>Take manure to the farm's waste site, never into rivers.</li><li>Rinse, wash, rinse and dry all utensils.</li><li>Remove manure and standing water to control flies.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should cows be brought in calmly to the milking parlour?",
+   "options": [
+    {
+     "text": "So they walk faster",
+     "correct": false
+    },
+    {
+     "text": "So the dogs can rest",
+     "correct": false
+    },
+    {
+     "text": "A frightened cow holds back her milk",
+     "correct": true
+    },
+    {
+     "text": "Because the parlour is small",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you stand when working with a cow in the bail?",
+   "options": [
+    {
+     "text": "Straight behind her",
+     "correct": false
+    },
+    {
+     "text": "Between the cow and the wall",
+     "correct": false
+    },
+    {
+     "text": "To the side of the cow",
+     "correct": true
+    },
+    {
+     "text": "In front of her head",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when cleaning a milk bucket?",
+   "options": [
+    {
+     "text": "Wash with hot water first",
+     "correct": false
+    },
+    {
+     "text": "Dry it with a cloth",
+     "correct": false
+    },
+    {
+     "text": "Put it in the sun",
+     "correct": false
+    },
+    {
+     "text": "Rinse with clean lukewarm water",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should dairy wastewater go?",
+   "options": [
+    {
+     "text": "To the dairy dam or sump",
+     "correct": true
+    },
+    {
+     "text": "Into the nearest river",
+     "correct": false
+    },
+    {
+     "text": "Onto the road",
+     "correct": false
+    },
+    {
+     "text": "Into the milk room",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should manure be removed every day?",
+   "options": [
+    {
+     "text": "To make the cows hungry",
+     "correct": false
+    },
+    {
+     "text": "Flies lay eggs in wet manure",
+     "correct": true
+    },
+    {
+     "text": "To keep the dairy warm",
+     "correct": false
+    },
+    {
+     "text": "So there is less milk",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to mix different cleaning chemicals to make them stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Blocked drains should be cleared so that water does not stand in the parlour.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these help control flies at the dairy? (select all that apply)",
+   "options": [
+    {
+     "text": "Removing manure every day",
+     "correct": true
+    },
+    {
+     "text": "Keeping the milk room door closed",
+     "correct": true
+    },
+    {
+     "text": "Spraying poison over the milk",
+     "correct": false
+    },
+    {
+     "text": "Keeping drains open so water does not stand",
+     "correct": true
+    },
+    {
+     "text": "Leaving spilt feed on the floor",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

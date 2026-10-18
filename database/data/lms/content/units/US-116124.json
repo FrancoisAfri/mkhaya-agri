@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116124",
+ "title": "Control pests, diseases and weeds on all crops effectively and responsibly",
+ "lessons": [
+  {
+   "title": "Recognising insects, diseases and weeds",
+   "minutes": 20,
+   "html": "<h3>Know your enemies</h3><p>To protect a crop you must first know what is attacking it. Pests, diseases and weeds all lower yield and quality, which means less money for the farm.</p><h3>Common insect pests</h3><table><tr><th>Pest</th><th>Crop (examples)</th><th>What you see</th></tr><tr><td>Aphids</td><td>Vegetables, citrus, wheat</td><td>Small soft insects in groups on new growth; sticky honeydew; curled leaves</td></tr><tr><td>Fall armyworm and stalk borer</td><td>Maize, sorghum</td><td>Holes in leaves, sawdust-like frass in the whorl, holes in stems</td></tr><tr><td>Bollworm</td><td>Tomatoes, cotton, maize</td><td>Caterpillars and holes in fruit or cobs</td></tr><tr><td>Red spider mite</td><td>Beans, tomatoes, fruit trees</td><td>Tiny mites under leaves, fine webbing, speckled yellow leaves</td></tr><tr><td>Fruit fly / false codling moth</td><td>Citrus, deciduous fruit</td><td>Sting marks and rotting fruit, larvae inside</td></tr></table><p>Remember: not all insects are pests. Ladybirds, lacewings and bees are friends of the farmer. Do not report them as pests.</p><h3>Signs of disease</h3><ul><li><strong>Spots</strong> on leaves or fruit (brown, black, yellow or with rings).</li><li><strong>Powdery or furry growth</strong> (mildew, mould).</li><li><strong>Wilting</strong> even when the soil is wet.</li><li><strong>Rot</strong> on stems, roots or fruit.</li><li><strong>Yellowing, mottling or curling</strong> (sometimes viruses).</li></ul><h3>Weeds</h3><p>Learn the common names of the weeds in your fields, for example <em>blackjack</em>, <em>pigweed (misbredie)</em>, <em>nutgrass</em>, <em>khakibos</em>, <em>thorn apple (stinkblaar)</em> and <em>couch grass</em>. Weeds steal water, food and light from the crop, and some, like thorn apple, are poisonous. Report new or unknown weeds too.</p><h4>Report what you see</h4><p>If you are not sure what a pest, disease or weed is, do not guess. Mark the plant with a flag or tape, write down the block and row, and show your supervisor. A photo on a phone can also help the farm manager or adviser identify it.</p>"
+  },
+  {
+   "title": "Scouting, damage and checking control results",
+   "minutes": 20,
+   "html": "<h3>Scouting</h3><p>Scouting means walking through the field in a set pattern and checking plants for pests, diseases and weeds. Your supervisor tells you the pattern and how many plants to check.</p><ol><li>Walk the pattern, for example a W or zigzag through the block. Do not only check the edges.</li><li>Check the set number of plants at each stop: the top, the underside of leaves, the stem, fruit and the soil around the base.</li><li>Count what you see and write it on the scouting sheet, with the block number and date.</li><li>Check traps if there are any, and record the count.</li><li>Report hot spots straight away.</li></ol><h3>Old or new damage?</h3><p>The farmer must know whether the problem is still active.</p><table><tr><th>New (active) damage</th><th>Old damage</th></tr><tr><td>Fresh, green edges on chewed leaves</td><td>Dry, brown edges</td></tr><tr><td>Live insects or caterpillars present</td><td>No insects, or only dead ones</td></tr><tr><td>Fresh, moist frass (droppings)</td><td>Dry, old frass</td></tr><tr><td>Spots still spreading onto new leaves</td><td>Only old leaves affected; new growth clean</td></tr></table><p>Report both, but say clearly which it is.</p><h3>After spraying or other control</h3><p>Scout the block again at the time your supervisor says. If the pest levels have <strong>not gone down</strong>, report it. Possible reasons you can mention:</p><ul><li>the product did not reach the pest (poor coverage, pest under leaves),</li><li>rain washed it off,</li><li>the wrong product or dose was used,</li><li>the pest was at a stage that the product does not kill,</li><li>the pest has become resistant.</li></ul><h3>Safety</h3><p>Never enter a sprayed block before the re-entry time on the sign. Wear long sleeves and a hat, and wash your hands before eating.</p><h4>Key points</h4><ul><li>Learn the common pests, disease symptoms and weeds of your crop.</li><li>Not every insect is a pest: protect ladybirds and bees.</li><li>Scout in a set pattern, check the whole plant and record counts.</li><li>Tell old damage from new damage.</li><li>Report when pest levels do not drop after control.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Small soft insects on new growth with sticky honeydew are most likely…",
+   "options": [
+    {
+     "text": "Ladybirds",
+     "correct": false
+    },
+    {
+     "text": "Bees",
+     "correct": false
+    },
+    {
+     "text": "Aphids",
+     "correct": true
+    },
+    {
+     "text": "Earthworms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a beneficial insect, not a pest?",
+   "options": [
+    {
+     "text": "Bollworm",
+     "correct": false
+    },
+    {
+     "text": "Red spider mite",
+     "correct": false
+    },
+    {
+     "text": "Fruit fly",
+     "correct": false
+    },
+    {
+     "text": "Ladybird",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign shows new, active damage?",
+   "options": [
+    {
+     "text": "Dry brown edges on chewed leaves",
+     "correct": false
+    },
+    {
+     "text": "Fresh green edges and live caterpillars",
+     "correct": true
+    },
+    {
+     "text": "Only old leaves affected",
+     "correct": false
+    },
+    {
+     "text": "Dead insects only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you walk through a block when scouting?",
+   "options": [
+    {
+     "text": "Only along the edge",
+     "correct": false
+    },
+    {
+     "text": "Only where it is shady",
+     "correct": false
+    },
+    {
+     "text": "Wherever is quickest",
+     "correct": false
+    },
+    {
+     "text": "In the set pattern, such as a W or zigzag",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are weeds a problem in crops?",
+   "options": [
+    {
+     "text": "They take water, food and light from the crop",
+     "correct": true
+    },
+    {
+     "text": "They attract ladybirds",
+     "correct": false
+    },
+    {
+     "text": "They make the soil wet",
+     "correct": false
+    },
+    {
+     "text": "They are always poisonous to people",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Wilting when the soil is wet can be a sign of disease.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may enter a sprayed block as soon as the tractor leaves.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can explain why pest numbers did not drop after spraying? (select all that apply)",
+   "options": [
+    {
+     "text": "The pest has become resistant",
+     "correct": true
+    },
+    {
+     "text": "The scout wore a hat",
+     "correct": false
+    },
+    {
+     "text": "Rain washed the product off",
+     "correct": true
+    },
+    {
+     "text": "Poor spray coverage",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

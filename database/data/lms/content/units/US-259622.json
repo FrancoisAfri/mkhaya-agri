@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-259622",
+ "title": "Describe the functions of the workplace health and safety representative",
+ "lessons": [
+  {
+   "title": "The legal framework for HSRs",
+   "minutes": 20,
+   "html": "<h3>The OHS Act and health and safety representatives</h3><p>The Occupational Health and Safety Act 85 of 1993 (OHS Act) is the main law for health and safety at most workplaces, including farms. (Mines fall under separate mine health and safety law.) It gives duties to employers and employees and creates the role of the <strong>health and safety representative (HSR)</strong>.</p><h3>Key sections</h3><table><tr><th>Section</th><th>Topic</th></tr><tr><td>Section 8</td><td>General duties of employers to their employees</td></tr><tr><td>Section 14</td><td>General duties of employees at work</td></tr><tr><td>Section 17</td><td>Appointment of health and safety representatives</td></tr><tr><td>Section 18</td><td>Functions of health and safety representatives</td></tr><tr><td>Section 19</td><td>Health and safety committees</td></tr></table><h3>Appointment</h3><ul><li>An employer with more than 20 employees at a workplace must appoint HSRs in writing.</li><li>HSRs are full-time employees who know the workplace and the work.</li><li>They are appointed after consultation with employees or their union, for a period agreed in that consultation.</li><li>Each HSR is designated to a specific area, such as the packhouse, the dairy or the workshop.</li></ul><h3>Rights and protection</h3><ul><li>The employer must give HSRs the facilities, help and training they reasonably need, and allow them to do their functions during working hours.</li><li>No one may victimise an employee for doing their duties under the Act.</li><li>An HSR does not become personally liable simply because they failed to do something they may do as an HSR. Responsibility for safety remains with the employer.</li></ul><p>The HSR is the link between the workers and management on safety. They do not replace the supervisor's duty to manage safely; they help make sure safety works in practice.</p>"
+  },
+  {
+   "title": "What HSRs do and how committees work",
+   "minutes": 20,
+   "html": "<h3>Functions of an HSR</h3><p>Within their designated area, an HSR may:</p><ul><li>review how effective health and safety measures are,</li><li>identify potential hazards and potential major incidents,</li><li>examine the causes of incidents, together with the employer,</li><li>investigate complaints from employees about health and safety,</li><li>make representations (recommendations) to the employer and the committee,</li><li>inspect the workplace, including articles, substances, plant and machinery, at agreed intervals,</li><li>take part in consultations with labour inspectors and accompany them on inspections,</li><li>attend health and safety committee meetings.</li></ul><h3>Addressing issues within your authority</h3><p>An HSR does not have the authority to discipline workers or spend company money. When you find a problem:</p><ol><li>If someone is in immediate danger, warn them and report to the supervisor at once.</li><li>Speak to the worker politely and explain the safe way, such as putting on hearing protection at the grinder.</li><li>Report hazards in writing, using the farm's hazard report form.</li><li>Follow up to see if the issue was fixed. If not, take it to the committee.</li></ol><h3>Health and safety committees</h3><ul><li>Where two or more HSRs are appointed, the employer must set up one or more committees.</li><li>The committee includes HSRs and members nominated by the employer.</li><li>It meets at least once every three months, keeps minutes, and makes recommendations to the employer.</li><li>It discusses incidents, inspection reports, risk assessments and training needs.</li></ul><h3>Environmental issues</h3><p>On farms, safety, health and environment overlap: chemical spills, waste, dust and water pollution. HSRs can raise these at committee meetings too.</p><h4>Key points</h4><ul><li>Sections 17 to 19 of the OHS Act cover HSRs and committees.</li><li>Employers with more than 20 employees must appoint HSRs.</li><li>HSRs inspect, identify hazards, investigate complaints and make recommendations.</li><li>Committees meet at least every three months and keep minutes.</li><li>HSRs act within their authority: report, advise and follow up.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which section of the OHS Act sets out the functions of health and safety representatives?",
+   "options": [
+    {
+     "text": "Section 8",
+     "correct": false
+    },
+    {
+     "text": "Section 18",
+     "correct": true
+    },
+    {
+     "text": "Section 14",
+     "correct": false
+    },
+    {
+     "text": "Section 19",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often must a health and safety committee meet at least?",
+   "options": [
+    {
+     "text": "Once a year",
+     "correct": false
+    },
+    {
+     "text": "Every day",
+     "correct": false
+    },
+    {
+     "text": "Once every three months",
+     "correct": true
+    },
+    {
+     "text": "Only after an injury",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a function of an HSR?",
+   "options": [
+    {
+     "text": "Investigating complaints from employees about health and safety",
+     "correct": true
+    },
+    {
+     "text": "Disciplining workers",
+     "correct": false
+    },
+    {
+     "text": "Approving the farm budget",
+     "correct": false
+    },
+    {
+     "text": "Signing payslips",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When must an employer set up a health and safety committee?",
+   "options": [
+    {
+     "text": "Always, even with one employee",
+     "correct": false
+    },
+    {
+     "text": "When two or more HSRs are appointed",
+     "correct": true
+    },
+    {
+     "text": "Only when an inspector asks",
+     "correct": false
+    },
+    {
+     "text": "Only on mines",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should an HSR do first if a worker is in immediate danger?",
+   "options": [
+    {
+     "text": "Write a report next week",
+     "correct": false
+    },
+    {
+     "text": "Wait for the committee meeting",
+     "correct": false
+    },
+    {
+     "text": "Ignore it if it is not in their area",
+     "correct": false
+    },
+    {
+     "text": "Warn the worker and report to the supervisor at once",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Employers with more than 20 employees at a workplace must appoint health and safety representatives.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An HSR takes over the employer's legal responsibility for safety.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which rights or protections do HSRs have? (select all that apply)",
+   "options": [
+    {
+     "text": "Training and facilities from the employer",
+     "correct": true
+    },
+    {
+     "text": "Time during working hours to do their functions",
+     "correct": true
+    },
+    {
+     "text": "The power to dismiss unsafe workers",
+     "correct": false
+    },
+    {
+     "text": "Protection from victimisation",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

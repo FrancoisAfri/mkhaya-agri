@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14084",
+ "title": "Demonstrate an understanding of and use the numbering system",
+ "lessons": [
+  {
+   "title": "Reading and writing whole numbers",
+   "minutes": 15,
+   "html": "<h3>Numbers are everywhere on the farm</h3>\n<p>We use numbers every day: the number of chickens in a house, litres of milk, bags of feed, kilograms of maize, rands on a payslip and degrees on a cold room thermometer. To use numbers well, you must read and write them correctly.</p>\n<h4>Place value</h4>\n<p>We use ten digits: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. The <strong>place</strong> of a digit tells you its value.</p>\n<table><tr><th>Ten thousands</th><th>Thousands</th><th>Hundreds</th><th>Tens</th><th>Units</th></tr>\n<tr><td>2</td><td>5</td><td>3</td><td>0</td><td>8</td></tr></table>\n<p>This number is 25 308: twenty-five thousand three hundred and eight.</p>\n<ul>\n<li>The 2 means 20 000 (twenty thousand).</li>\n<li>The 5 means 5 000.</li>\n<li>The 3 means 300.</li>\n<li>The 0 means there are no tens.</li>\n<li>The 8 means 8 units.</li>\n</ul>\n<p>The zero is important. Without it, the number would be 2 538 &ndash; a very different number.</p>\n<h4>Writing big numbers</h4>\n<p>In South Africa we leave a small space between groups of three digits, counting from the right: 1 250 000 (one million two hundred and fifty thousand). This makes big numbers easy to read.</p>\n<h4>Number words</h4>\n<table><tr><th>Digits</th><th>Words</th></tr>\n<tr><td>45</td><td>forty-five</td></tr>\n<tr><td>360</td><td>three hundred and sixty</td></tr>\n<tr><td>1 007</td><td>one thousand and seven</td></tr>\n<tr><td>12 500</td><td>twelve thousand five hundred</td></tr></table>\n<p>Cheques, contracts and some forms ask you to write amounts in words as well as digits. This stops someone from changing the number.</p>\n<h4>Even and odd</h4>\n<p>Even numbers end in 0, 2, 4, 6 or 8 and can be shared into two equal groups. Odd numbers end in 1, 3, 5, 7 or 9. If 36 calves are split into two camps equally, each camp gets 18.</p>"
+  },
+  {
+   "title": "Comparing, ordering and rounding",
+   "minutes": 15,
+   "html": "<h3>Which is more?</h3>\n<p>To compare two numbers, first look at how many digits they have. The number with more digits is bigger: 1 200 is bigger than 980. If they have the same number of digits, compare from the left.</p>\n<p>Compare 4 562 and 4 526: the thousands (4) are the same, the hundreds (5) are the same, the tens are 6 and 2. 6 is more than 2, so <strong>4 562 is bigger</strong>.</p>\n<h4>Signs</h4>\n<ul>\n<li><strong>&gt;</strong> means \"is greater than\": 50 &gt; 30.</li>\n<li><strong>&lt;</strong> means \"is less than\": 30 &lt; 50.</li>\n<li><strong>=</strong> means \"is equal to\": 25 + 25 = 50.</li>\n</ul>\n<h4>Ordering</h4>\n<p>Egg counts for four houses this week were 3 410, 3 104, 3 401 and 3 140. From smallest to biggest: <strong>3 104, 3 140, 3 401, 3 410</strong>.</p>\n<h4>Rounding</h4>\n<p>We round numbers to make them easier to work with or to estimate.</p>\n<ol>\n<li>Find the place you are rounding to (tens, hundreds, thousands).</li>\n<li>Look at the digit just to the right.</li>\n<li>If it is 5 or more, round up. If it is 4 or less, keep the digit and round down.</li>\n<li>Change the digits after it to zeros.</li>\n</ol>\n<table><tr><th>Number</th><th>To nearest 10</th><th>To nearest 100</th></tr>\n<tr><td>347</td><td>350</td><td>300</td></tr>\n<tr><td>862</td><td>860</td><td>900</td></tr>\n<tr><td>1 455</td><td>1 460</td><td>1 500</td></tr></table>\n<h4>Estimating</h4>\n<p>Estimating helps you check if an answer makes sense. If a bakkie carries 18 bags and you need 62 bags, think: about 20 bags a trip, so about 3 trips &ndash; really 4, because 3 trips of 18 is only 54 bags. A quick estimate warns you before you make a big mistake.</p>"
+  },
+  {
+   "title": "Using numbers at work",
+   "minutes": 15,
+   "html": "<h3>Numbers in daily tasks</h3>\n<h4>Money</h4>\n<p>Rand amounts have rands and cents: R125,50 means 125 rand and 50 cents. In South Africa we usually write a comma before the cents. There are 100 cents in R1. When you check your payslip, read each number carefully and ask the office to explain anything you do not understand.</p>\n<h4>Counting in groups</h4>\n<p>On a farm we often count in groups. Eggs come in trays of 30. Chickens may be counted in crates. If you have 7 full trays, you have 7 &times; 30 = 210 eggs. Counting in groups is faster and makes fewer mistakes.</p>\n<h4>Numbers below zero</h4>\n<p>A thermometer can show numbers below zero. These are <strong>negative numbers</strong>, written with a minus sign, like -18 &deg;C. The further below zero, the colder: -20 &deg;C is colder than -18 &deg;C. A freezer at -10 &deg;C is warmer than one at -18 &deg;C. Read the minus sign carefully when you record temperatures.</p>\n<h4>Parts of a whole</h4>\n<ul>\n<li>A half (&frac12;) means 1 of 2 equal parts: half of 40 litres is 20 litres.</li>\n<li>A quarter (&frac14;) means 1 of 4 equal parts: a quarter of 100 kg is 25 kg.</li>\n<li>Decimals use a comma in South Africa: 2,5 kg means two and a half kilograms.</li>\n</ul>\n<h4>Ordinal numbers</h4>\n<p>Ordinal numbers show order: first (1st), second (2nd), third (3rd), fourth (4th). For example: \"Load the third pallet first.\"</p>\n<h4>Checking your work</h4>\n<ul>\n<li>Count twice when the count matters, for example animals going into a truck.</li>\n<li>Write numbers clearly so a 1 does not look like a 7.</li>\n<li>Use an estimate to see if the answer makes sense.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>The place of a digit gives its value; zeros hold places.</li>\n<li>Compare numbers from the left, and use &gt;, &lt; and =.</li>\n<li>Round up when the next digit is 5 or more, down when it is 4 or less.</li>\n<li>Negative numbers are below zero; -20 &deg;C is colder than -18 &deg;C.</li>\n<li>Count in groups and check your counts.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "In the number 25 308, what is the value of the 3?",
+   "options": [
+    {
+     "text": "3",
+     "correct": false
+    },
+    {
+     "text": "30",
+     "correct": false
+    },
+    {
+     "text": "300",
+     "correct": true
+    },
+    {
+     "text": "3 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which number is bigger?",
+   "options": [
+    {
+     "text": "4 526",
+     "correct": false
+    },
+    {
+     "text": "4 562",
+     "correct": true
+    },
+    {
+     "text": "They are equal",
+     "correct": false
+    },
+    {
+     "text": "You cannot tell",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Round 862 to the nearest 100.",
+   "options": [
+    {
+     "text": "900",
+     "correct": true
+    },
+    {
+     "text": "860",
+     "correct": false
+    },
+    {
+     "text": "870",
+     "correct": false
+    },
+    {
+     "text": "800",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You have 7 full egg trays of 30 eggs. How many eggs is that?",
+   "options": [
+    {
+     "text": "37",
+     "correct": false
+    },
+    {
+     "text": "730",
+     "correct": false
+    },
+    {
+     "text": "200",
+     "correct": false
+    },
+    {
+     "text": "210",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is an even number?",
+   "options": [
+    {
+     "text": "17",
+     "correct": false
+    },
+    {
+     "text": "45",
+     "correct": false
+    },
+    {
+     "text": "36",
+     "correct": true
+    },
+    {
+     "text": "9",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "-20 °C is colder than -18 °C.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The sign > means \"is less than\".",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which numbers are correctly rounded to the nearest 10? (select all that apply)",
+   "options": [
+    {
+     "text": "347 becomes 350",
+     "correct": true
+    },
+    {
+     "text": "862 becomes 860",
+     "correct": true
+    },
+    {
+     "text": "1 455 becomes 1 450",
+     "correct": false
+    },
+    {
+     "text": "24 becomes 30",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

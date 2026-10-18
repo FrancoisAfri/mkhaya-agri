@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119469",
+ "title": "Read/view, analyse and respond to a variety of texts",
+ "lessons": [
+  {
+   "title": "Analysing texts critically",
+   "minutes": 16,
+   "html": "<h3>Reading and viewing at NQF 4</h3>\n<p>At this level you must not only understand texts but also analyse them: how they are built, who made them, what they want you to believe and how well they support their claims. Texts include written documents, websites, adverts, social media posts, news reports, documentaries and visual material such as maps and infographics.</p>\n<h4>Questions for critical analysis</h4>\n<ul><li><strong>Who created it, and why?</strong> A conservation NGO, a hunting association, a lodge marketing team and a journalist may all write about trophy hunting with different purposes.</li>\n<li><strong>Who is the target audience?</strong> Language, images and platform show this.</li>\n<li><strong>What is the main message?</strong></li>\n<li><strong>What evidence is given?</strong> Statistics, expert quotes, personal stories, photos.</li>\n<li><strong>What is left out?</strong> A brochure may not mention extra trophy fees; a campaign video may not mention the conservation funding hunting provides.</li></ul>\n<h4>Persuasive techniques</h4>\n<table><tr><th>Technique</th><th>Example</th></tr>\n<tr><td>Emotive language</td><td>\"Slaughtered\", \"majestic\", \"heartbreaking\"</td></tr>\n<tr><td>Appeal to authority</td><td>\"Experts agree...\"</td></tr>\n<tr><td>Bandwagon</td><td>\"Thousands of hunters choose us\"</td></tr>\n<tr><td>Selective statistics</td><td>Quoting only the numbers that support one side</td></tr>\n<tr><td>Images</td><td>A sad-eyed animal close-up, or a sunset over the bushveld</td></tr></table>\n<h4>Bias and stereotypes</h4>\n<p>Bias is a one-sided presentation. Look for loaded words, only one side quoted, or stereotypes about groups of people, such as assuming all rural people are poachers or all hunters are cruel. Recognising bias does not mean rejecting the text; it means weighing it carefully.</p>"
+  },
+  {
+   "title": "Visual texts, structure and responding",
+   "minutes": 15,
+   "html": "<h3>Analysing visual and multimedia texts</h3>\n<p>Images carry meaning through choices made by the creator:</p>\n<ul><li><strong>Framing and angle</strong>: a low-angle shot makes a buffalo look powerful; a high angle makes a subject look small or weak.</li>\n<li><strong>Colour and light</strong>: warm golden light suggests peace and beauty; dark tones suggest danger.</li>\n<li><strong>Layout</strong>: what is placed largest or first draws attention.</li>\n<li><strong>Text and image together</strong>: a caption can change how we read a photo.</li></ul>\n<p>Graphs and infographics can mislead: check the axis scale, the source and the date of the data.</p>\n<h4>Text structure and language features</h4>\n<ul><li>Reports and articles often use headings, topic sentences and conclusions.</li>\n<li>Arguments use claims, reasons, evidence and counter-arguments.</li>\n<li>Instructions use the imperative (\"Load the rifle only at the firing point\").</li>\n<li>Tone shows through word choice: formal, sarcastic, urgent, neutral.</li></ul>\n<h4>Responding to texts</h4>\n<p>A good response:</p>\n<ol><li>Summarises the main message accurately in your own words.</li>\n<li>Analyses how the text tries to achieve its purpose.</li>\n<li>Evaluates how convincing it is, with reasons.</li>\n<li>Compares it with other sources where possible.</li>\n<li>States your own reasoned view.</li></ol>\n<h4>Checking sources</h4>\n<p>Before you share or rely on information, especially online: check the author and date, look for the same facts in reliable sources, and be careful of forwarded WhatsApp messages and edited images. A fake message claiming a disease outbreak in the area, for example, can cause panic and losses.</p>\n<h4>Key points</h4>\n<ul><li>Ask who made the text, for whom, why, with what evidence, and what is left out.</li>\n<li>Recognise persuasive techniques such as emotive language, authority and selective statistics.</li>\n<li>Identify bias and stereotypes and weigh the text carefully.</li>\n<li>Analyse visuals by framing, angle, colour, layout and captions.</li>\n<li>Verify sources before sharing or relying on information.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which persuasive technique uses words like 'slaughtered' or 'majestic'?",
+   "options": [
+    {
+     "text": "Bandwagon",
+     "correct": false
+    },
+    {
+     "text": "Emotive language",
+     "correct": true
+    },
+    {
+     "text": "Neutral tone",
+     "correct": false
+    },
+    {
+     "text": "Appeal to authority",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is bias?",
+   "options": [
+    {
+     "text": "A balanced report",
+     "correct": false
+    },
+    {
+     "text": "A spelling mistake",
+     "correct": false
+    },
+    {
+     "text": "A one-sided presentation",
+     "correct": true
+    },
+    {
+     "text": "A type of graph",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What effect does a low-angle shot of a buffalo usually create?",
+   "options": [
+    {
+     "text": "It makes the buffalo look powerful",
+     "correct": true
+    },
+    {
+     "text": "It shows the weather",
+     "correct": false
+    },
+    {
+     "text": "It hides the buffalo",
+     "correct": false
+    },
+    {
+     "text": "It makes the buffalo look small",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you check on a graph to see if it misleads?",
+   "options": [
+    {
+     "text": "The axis scale, source and date",
+     "correct": true
+    },
+    {
+     "text": "The colour of the title only",
+     "correct": false
+    },
+    {
+     "text": "The font",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "'Thousands of hunters choose us' is an example of which technique?",
+   "options": [
+    {
+     "text": "Emotive language",
+     "correct": false
+    },
+    {
+     "text": "Bandwagon",
+     "correct": true
+    },
+    {
+     "text": "Imperative",
+     "correct": false
+    },
+    {
+     "text": "Selective statistics",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Recognising bias means you must reject the text completely.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Forwarded WhatsApp messages should be checked against reliable sources before you share them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions are part of critical analysis of a text? (select all that apply)",
+   "options": [
+    {
+     "text": "What evidence is given?",
+     "correct": true
+    },
+    {
+     "text": "How heavy is the paper?",
+     "correct": false
+    },
+    {
+     "text": "Who created it and why?",
+     "correct": true
+    },
+    {
+     "text": "What is left out?",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

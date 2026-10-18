@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-12",
+ "title": "Personal Development and Workplace Skills",
+ "lessons": [
+  {
+   "title": "Being a good worker and team member",
+   "minutes": 20,
+   "html": "<h3>Skills for the workplace</h3><p>Being good at your job is not only about using a knife well. It is also about how you work with others, how you communicate, and how you look after yourself. These skills help you keep your job, earn the trust of your supervisor and grow in your career.</p><h3>Work ethic</h3><ul><li><strong>Be on time</strong>: the slaughter line cannot start if people are missing. If you will be late or absent, phone your supervisor before the shift starts.</li><li><strong>Be reliable</strong>: do your job properly every time, even when no one is watching.</li><li><strong>Follow instructions and procedures</strong>, especially on hygiene and safety.</li><li><strong>Be honest</strong>: report mistakes and problems. Hiding a mistake, such as a dropped carcass, can make people ill.</li><li><strong>Respect</strong> your colleagues, supervisors and inspectors, whatever their language, culture or gender.</li></ul><h3>Teamwork on the line</h3><p>On a slaughter line, each person does one step. If one person works too slowly or badly, everyone after them is affected. Help new workers, share knowledge, and speak up politely when you see a problem.</p><h3>Communication</h3><ul><li>Listen carefully to instructions. If you do not understand, ask again. It is better to ask than to guess.</li><li>Speak clearly and politely. In a noisy plant, use agreed hand signals.</li><li>When you report something, say <strong>what</strong> happened, <strong>where</strong> and <strong>when</strong>.</li><li>Read the notices, signs and work instructions in your area.</li></ul><h3>Handling conflict</h3><p>Disagreements happen. Stay calm, do not shout or fight, and talk to the person privately. If that does not solve it, ask your supervisor to help, or use the grievance procedure. Violence at work leads to dismissal.</p>"
+  },
+  {
+   "title": "Rights, money, health and growing your career",
+   "minutes": 20,
+   "html": "<h3>Know your rights and duties</h3><ul><li>You should have a written contract with your job, hours, wage and leave.</li><li>The Basic Conditions of Employment Act 75 of 1997 covers working hours, overtime, leave and payslips. The National Minimum Wage Act sets the lowest wage that may be paid.</li><li>The OHS Act 85 of 1993 gives you the right to a safe workplace and the duty to work safely.</li><li>COIDA covers you if you are injured at work. UIF helps if you lose your job.</li><li>You have the right to join a trade union.</li></ul><h3>Managing your money</h3><p>Check your payslip every pay day: hours, rate, overtime and deductions (UIF, tax, union fees, loans). Ask the office if something is wrong.</p><ul><li>Make a simple budget: write down your income, then your fixed costs (rent, transport, food, school fees), then savings.</li><li>Save a little every month, even R50, for emergencies.</li><li>Be careful of loan sharks (mashonisas) and lenders who keep your bank card. Use only registered credit providers and only borrow what you can pay back.</li></ul><h3>Basic numeracy at work</h3><p>You will use numbers every day: carcass numbers, mass in kilograms, temperatures, counting animals and reading the time sheet. For example, if 120 cattle must be slaughtered and the line does 15 per hour, it will take 120 ÷ 15 = 8 hours.</p><h3>Health and wellness</h3><ul><li>Eat well, drink water and sleep enough; slaughter work is physically demanding.</li><li>Avoid alcohol and drugs; they cause accidents.</li><li>Know your HIV status and protect yourself. Use the wellness programme or the clinic.</li><li>Ask for help with stress; many workplaces have an employee assistance programme.</li></ul><h3>Growing your career</h3><p>Learn more than one job on the line. Keep your training certificates. With experience and further qualifications you can become a team leader, a supervisor or a quality controller.</p><h4>Key points</h4><ul><li>Be on time, reliable, honest and respectful.</li><li>Listen, ask when unsure, and report clearly what, where and when.</li><li>Know your rights under labour and safety laws.</li><li>Check your payslip, budget and avoid loan sharks.</li><li>Look after your health and keep learning to grow your career.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do if you will be absent from work?",
+   "options": [
+    {
+     "text": "Say nothing and explain the next day",
+     "correct": false
+    },
+    {
+     "text": "Phone your supervisor before the shift starts",
+     "correct": true
+    },
+    {
+     "text": "Send a friend to work for you",
+     "correct": false
+    },
+    {
+     "text": "Leave a note on the line",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When you report a problem, what should you say?",
+   "options": [
+    {
+     "text": "Only your name",
+     "correct": false
+    },
+    {
+     "text": "Who is to blame",
+     "correct": false
+    },
+    {
+     "text": "Nothing, just point",
+     "correct": false
+    },
+    {
+     "text": "What happened, where and when",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you do not understand an instruction?",
+   "options": [
+    {
+     "text": "Guess what the supervisor meant",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Do something else",
+     "correct": false
+    },
+    {
+     "text": "Ask again",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If the line slaughters 15 cattle per hour, how long will 120 cattle take?",
+   "options": [
+    {
+     "text": "8 hours",
+     "correct": true
+    },
+    {
+     "text": "6 hours",
+     "correct": false
+    },
+    {
+     "text": "10 hours",
+     "correct": false
+    },
+    {
+     "text": "12 hours",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law covers working hours, leave and payslips?",
+   "options": [
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act",
+     "correct": false
+    },
+    {
+     "text": "National Water Act",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hiding a mistake such as a dropped carcass is acceptable if no one saw it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Saving a small amount every month helps you deal with emergencies.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good ways to manage your money? (select all that apply)",
+   "options": [
+    {
+     "text": "Only borrow what you can pay back",
+     "correct": true
+    },
+    {
+     "text": "Check your payslip every pay day",
+     "correct": true
+    },
+    {
+     "text": "Make a simple budget",
+     "correct": true
+    },
+    {
+     "text": "Give your bank card to a lender",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

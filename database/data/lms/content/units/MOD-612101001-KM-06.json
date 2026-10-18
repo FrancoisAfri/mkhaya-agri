@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612101001-KM-06",
+  "title": "Supervise livestock farming activities",
+  "lessons": [
+    {
+      "title": "Planning livestock work: the farming calendar",
+      "minutes": 20,
+      "html": "<h3>Planning livestock work: the farming calendar</h3><p>A livestock supervisor turns the farm's production plan into weekly and daily work. Good supervision starts with a clear calendar that shows when each activity must happen and what it needs.</p><h4>Building the annual calendar</h4><p>Start with the fixed points: the breeding season, calving or lambing, weaning, shearing, and main sales. Then add the activities that depend on them:</p><ul><li>Vaccinations timed before breeding, before birth or before the rainy season, according to the vet's health plan.</li><li>Pregnancy testing after the bulls or rams are removed.</li><li>Lick changes from summer phosphate to winter protein.</li><li>Tick and worm control based on season and monitoring.</li><li>Veld assessments and the grazing plan for the coming season.</li><li>Fire breaks before the dry season, in line with local fire protection association rules.</li></ul><h4>Weekly and daily planning</h4><p>Each week, list what must be done, who will do it, which equipment and materials are needed and which camps or kraals are involved. Check stock: is there enough vaccine in the fridge, dip in the store, ear tags, lick, diesel for the bakkie? Order early; delays in remedies or lick cost far more than the item.</p><h4>Resources</h4><p>Match the work to the people and skills available. Dipping a herd needs enough hands to bring the animals in, work the race and record. Do not plan a big kraal job on the same day the team is short or the vet is booked elsewhere.</p><h4>Contingency</h4><p>Plan for what can go wrong: a heat wave, a broken borehole pump, a disease outbreak, a stock theft. Know who to call and what the first steps are. Keep the vet's, state vet's, police stock theft unit's and pump technician's numbers available to the team.</p>"
+    },
+    {
+      "title": "Monitoring production and keeping records",
+      "minutes": 20,
+      "html": "<h3>Monitoring production and keeping records</h3><h4>Why records matter</h4><p>Without records, a farm cannot tell whether it is improving. Records also protect the farm legally: proof of ownership, treatments and withdrawal periods, and movements are needed for sales, abattoirs, insurance and disease control.</p><h4>What to record</h4><table><tr><th>Area</th><th>Records</th></tr><tr><td>Herd or flock</td><td>Counts per camp, births, deaths, purchases, sales, losses to theft or predators</td></tr><tr><td>Health</td><td>Treatments, vaccinations, dose, batch number, withdrawal dates, vet visits</td></tr><tr><td>Production</td><td>Weaning weights, milk yields, wool weights, body condition scores</td></tr><tr><td>Grazing</td><td>Camp use dates, rainfall, veld condition</td></tr><tr><td>Inputs</td><td>Lick and feed used, remedies stock, fuel</td></tr></table><h4>Key performance indicators</h4><p>A supervisor should watch a few measures closely and report them to management:</p><ul><li><strong>Weaning percentage</strong> - young weaned per 100 females mated.</li><li><strong>Mortality rate</strong> by age group and cause.</li><li><strong>Average weaning weight</strong> or average daily gain.</li><li><strong>Stock count reconciliation</strong> - does the physical count match the register?</li><li><strong>Cost per animal</strong> for feed and health.</li></ul><h4>Acting on the numbers</h4><p>Look for trends rather than single figures. A rising lamb mortality in one camp may point to predators, poor shelter or a disease. A falling body condition across the herd in autumn may mean licks should start earlier. Investigate, decide on action with the manager, and check whether it worked.</p><h4>Count often</h4><p>Count animals in every camp regularly and reconcile with the register. Missing animals must be searched for and reported quickly; stock theft cases are more likely to succeed when reported early.</p><h4>Using a simple system</h4><p>Records can be kept in a notebook, on printed forms, in a spreadsheet or on a farm app. The best system is the one the team will actually use every day. Keep it simple, use the same tag numbers and camp names everywhere, and check entries weekly.</p>"
+    },
+    {
+      "title": "Supervising quality, welfare and compliance",
+      "minutes": 20,
+      "html": "<h3>Supervising quality, welfare and compliance</h3><h4>Standards for each task</h4><p>Every important task should have a clear standard: how animals are brought in, how the crush is operated, how doses are measured, how the dip tank is replenished, how carcasses are disposed of. Write down simple standard operating procedures and train the team on them. Then check: watch the work, sample records, and walk the camps.</p><h4>Animal welfare</h4><p>Supervisors are responsible for making sure animals have feed, water, shelter, health care and are handled without cruelty, as required by the Animals Protection Act 71 of 1962. Welfare problems also cost money through lost weight, bruising and deaths. Watch for rough handling, overcrowded transport, and animals left without water.</p><h4>Disease control compliance</h4><p>Controlled and notifiable diseases fall under the Animal Diseases Act 35 of 1984. Know the signs your vet has trained you to look for, and report suspicions immediately. During an outbreak, follow the state vet's instructions on movement restrictions, vaccination and quarantine exactly.</p><h4>Food safety</h4><p>Never allow animals still within a withdrawal period to be sold for slaughter or their milk to enter the bulk tank. Make sure treated animals are clearly marked and recorded. The Meat Safety Act 40 of 2000 governs slaughter for human consumption.</p><h4>Environment and resources</h4><p>Check that grazing plans are followed, erosion is reported and controlled, and water points do not leak. These duties link to the Conservation of Agricultural Resources Act 43 of 1983 and the National Water Act 36 of 1998.</p><h4>Health and safety</h4><p>Conduct risk assessments for high-risk tasks (bulls, dipping, vehicles, chemicals), ensure PPE is available and used, and investigate incidents under the OHS Act 85 of 1993.</p><h4>Key points</h4><ul><li>Build an annual calendar around breeding, birth, weaning and sales.</li><li>Plan resources weekly and order inputs early.</li><li>Keep accurate records and track a few key indicators.</li><li>Count stock regularly and report losses fast.</li><li>Never sell animals or milk within a withdrawal period.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which activities are the fixed points around which the annual livestock calendar is built?",
+      "options": [
+        {
+          "text": "Fence painting and office cleaning",
+          "correct": false
+        },
+        {
+          "text": "Breeding season, births, weaning and main sales",
+          "correct": true
+        },
+        {
+          "text": "Public holidays only",
+          "correct": false
+        },
+        {
+          "text": "Fuel deliveries",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does weaning percentage measure?",
+      "options": [
+        {
+          "text": "Young weaned per 100 females mated",
+          "correct": true
+        },
+        {
+          "text": "Weight of the weaners",
+          "correct": false
+        },
+        {
+          "text": "Number of bulls used",
+          "correct": false
+        },
+        {
+          "text": "Feed cost per animal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "The physical count in camp 4 is five animals lower than the register. What should the supervisor do?",
+      "options": [
+        {
+          "text": "Change the register to match",
+          "correct": false
+        },
+        {
+          "text": "Wait for the next count in six months",
+          "correct": false
+        },
+        {
+          "text": "Search for the animals and report the loss quickly",
+          "correct": true
+        },
+        {
+          "text": "Ignore small differences",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A cow was treated and is still within the withdrawal period. Which action is correct?",
+      "options": [
+        {
+          "text": "Send her to the abattoir if she is fat",
+          "correct": false
+        },
+        {
+          "text": "Put her milk in the bulk tank",
+          "correct": false
+        },
+        {
+          "text": "Remove her tag",
+          "correct": false
+        },
+        {
+          "text": "Keep her marked and recorded and do not sell her milk or meat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law covers controlled and notifiable animal diseases?",
+      "options": [
+        {
+          "text": "Animal Diseases Act 35 of 1984",
+          "correct": true
+        },
+        {
+          "text": "National Water Act 36 of 1998",
+          "correct": false
+        },
+        {
+          "text": "OHS Act 85 of 1993",
+          "correct": false
+        },
+        {
+          "text": "Meat Safety Act 40 of 2000",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Supervisors should look for trends in records rather than react only to single figures.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Ordering remedies and lick at the last minute is acceptable because delays are cheap.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which should be included in health records? (select all that apply)",
+      "options": [
+        {
+          "text": "Dose given",
+          "correct": true
+        },
+        {
+          "text": "Product batch number",
+          "correct": true
+        },
+        {
+          "text": "Withdrawal date",
+          "correct": true
+        },
+        {
+          "text": "The worker's favourite food",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

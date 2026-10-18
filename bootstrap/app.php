@@ -171,6 +171,7 @@ return Application::configure(basePath: dirname(__DIR__))
         EscalateOverdueDisciplinaryItemsCommand::class,
         RunComplianceChecksCommand::class,
         RunCertificationChecksCommand::class,
+        \App\Modules\HR\LMS\Console\InstallAgriLibraryCommand::class,
         SendPaScheduledReportsCommand::class,
         GeneratePaNudgesCommand::class,
         ProvisionRolesCommand::class,

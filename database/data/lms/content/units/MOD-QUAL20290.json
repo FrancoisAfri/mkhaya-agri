@@ -1,0 +1,182 @@
+{
+ "unit_key": "MOD-QUAL20290",
+ "title": "National Certificate: Farming",
+ "lessons": [
+  {
+   "title": "The farm supervisor's role in planning and control",
+   "minutes": 15,
+   "html": "<h3>From doing the work to running the work</h3>\n<p>The National Certificate: Farming at NQF 4 is aimed at the person who stands between the farm manager and the field team: the foreman, the section supervisor, the young farmer taking over a block of the farm. At this level you are no longer only doing the tasks. You are expected to <strong>monitor, co-ordinate, plan and control</strong> the agricultural processes for one commodity, whether that is maize under dryland, citrus under drip, a broiler house or a beef herd on veld.</p>\n<h4>The four management functions on a farm</h4>\n<ul>\n<li><strong>Plan</strong>: decide what must happen, when and with what. Example: a planting plan for 120 ha of soya beans that sets dates, seed rate, fertiliser, labour and tractor hours.</li>\n<li><strong>Organise</strong>: get people, equipment and inputs in place. Book the planter, service it, make sure the seed is on the farm a week before planting.</li>\n<li><strong>Lead and co-ordinate</strong>: brief the team each morning, give clear instructions, solve conflicts, keep sections working together.</li>\n<li><strong>Control</strong>: compare what happened with what was planned and act on the gaps. If only 80 ha was planted by the target date, find out why and fix it.</li>\n</ul>\n<h4>Choosing your commodity focus</h4>\n<p>The qualification lets you specialise in <em>agronomy</em> (field crops such as maize, wheat, sugarcane), <em>horticulture</em> (fruit, vegetables, nursery plants) or <em>animal husbandry</em> (cattle, sheep, goats, pigs, poultry). The management principles are the same, but the production calendar differs. A citrus supervisor plans around flowering, fruit set and the export packing season. A sheep supervisor plans around mating, lambing, shearing and marketing.</p>\n<h4>Decisions grounded in knowledge</h4>\n<p>Good supervisors base decisions on three kinds of knowledge: <strong>production knowledge</strong> (soil, plant or animal science), <strong>management knowledge</strong> (budgets, records, planning) and <strong>people knowledge</strong> (labour law, motivation, safety). A decision to irrigate, to vaccinate, or to move a team to another block should always be checked against all three: is it technically right, can we afford it, and do we have the right people to do it safely?</p>"
+  },
+  {
+   "title": "Records, budgets and people",
+   "minutes": 15,
+   "html": "<h3>Controlling production with records</h3>\n<p>You cannot control what you do not measure. On a farm, records are the supervisor's main control tool. Typical records include:</p>\n<table><tr><th>Area</th><th>Example records</th></tr>\n<tr><td>Crops</td><td>Planting dates, rainfall, spray records, yields per land</td></tr>\n<tr><td>Livestock</td><td>Births, deaths, weights, treatments, stock counts per camp</td></tr>\n<tr><td>Labour</td><td>Attendance, hours, tasks completed, training</td></tr>\n<tr><td>Inputs</td><td>Stock of seed, fertiliser, chemicals, diesel</td></tr></table>\n<p>Compare records with your plan every week. A rising diesel use per hectare, a drop in calving percentage or many sick days in one team are early warnings.</p>\n<h4>Working with a budget</h4>\n<p>The farm manager usually sets the budget, but the supervisor spends much of it. Know your cost centres: if fertiliser for your section is budgeted at R450 000 and you have already spent R400 000 before top-dressing, report it early. Small savings matter: fixing a leaking irrigation line, reducing tractor idling, or cutting feed waste at the troughs.</p>\n<h4>Managing people fairly and safely</h4>\n<p>As a supervisor you represent the employer. You must follow the Basic Conditions of Employment Act and the sectoral determination for farm workers on working hours and pay, and the Occupational Health and Safety Act 85 of 1993 on safe work. In practice that means:</p>\n<ul><li>Clear daily instructions and realistic targets.</li>\n<li>Correct protective clothing for spraying, chainsaw or workshop work.</li>\n<li>Fair, consistent discipline that follows the farm's disciplinary code.</li>\n<li>Training new workers before they use machinery or chemicals.</li></ul>\n<h4>Continuous improvement</h4>\n<p>At the end of each season, sit with your manager and review: what went well, what went wrong, what should change next year. Write it down. This habit turns experience into better plans.</p>\n<h4>Key points</h4>\n<ul><li>The NQF 4 farming supervisor plans, organises, leads and controls production for one commodity.</li>\n<li>Decisions must be technically sound, affordable and safe for people.</li>\n<li>Records are the main control tool: compare actual results with the plan every week.</li>\n<li>Know your section's budget and report overspending early.</li>\n<li>Follow labour law and the OHS Act 85 of 1993 in daily supervision.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which management function involves comparing actual results with the plan and acting on the gaps?",
+   "options": [
+    {
+     "text": "Leading",
+     "correct": false
+    },
+    {
+     "text": "Organising",
+     "correct": false
+    },
+    {
+     "text": "Planning",
+     "correct": false
+    },
+    {
+     "text": "Controlling",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is an example of horticulture?",
+   "options": [
+    {
+     "text": "Citrus production under drip irrigation",
+     "correct": true
+    },
+    {
+     "text": "Dryland maize",
+     "correct": false
+    },
+    {
+     "text": "A broiler house",
+     "correct": false
+    },
+    {
+     "text": "A beef herd on veld",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is described as the supervisor's main control tool?",
+   "options": [
+    {
+     "text": "The bakkie",
+     "correct": false
+    },
+    {
+     "text": "Records",
+     "correct": true
+    },
+    {
+     "text": "Discipline",
+     "correct": false
+    },
+    {
+     "text": "Overtime",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Fertiliser spending is close to budget before top-dressing is done. What should the supervisor do?",
+   "options": [
+    {
+     "text": "Wait until the end of the season",
+     "correct": false
+    },
+    {
+     "text": "Buy cheaper fertiliser on credit",
+     "correct": false
+    },
+    {
+     "text": "Stop top-dressing without telling anyone",
+     "correct": false
+    },
+    {
+     "text": "Report it to the manager early",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act covers safe work in the lessons?",
+   "options": [
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The management principles stay the same whether you specialise in agronomy, horticulture or animal husbandry, but the production calendar differs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "New workers can use machinery and chemicals before they are trained, as long as a supervisor is nearby.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which three kinds of knowledge should a supervisor's decisions be based on? (select all that apply)",
+   "options": [
+    {
+     "text": "Management knowledge",
+     "correct": true
+    },
+    {
+     "text": "People knowledge",
+     "correct": true
+    },
+    {
+     "text": "Production knowledge",
+     "correct": true
+    },
+    {
+     "text": "Rumours from neighbours",
+     "correct": false
+    },
+    {
+     "text": "Weather superstitions",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

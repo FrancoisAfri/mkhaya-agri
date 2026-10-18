@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-115188",
+  "title": "Apply environmental protection procedures",
+  "lessons": [
+    {
+      "title": "How a packhouse can harm the environment",
+      "minutes": 15,
+      "html": "<h3>The packhouse and nature</h3><p>A fruit packhouse uses a lot of water, electricity, chemicals and packaging, and it produces waste. If these are not managed well, they can pollute soil, rivers and groundwater, harm animals and people, and waste money. Many export customers and audit schemes now check how packhouses look after the environment.</p><h4>Main environmental risks</h4><table><tr><th>Activity</th><th>Possible harm</th></tr><tr><td>Fruit treatment and wash water</td><td>Water with fungicides and other chemicals can poison rivers and soil</td></tr><tr><td>Cleaning chemicals</td><td>Spills down drains harm water life</td></tr><tr><td>Fruit waste</td><td>Rotting fruit smells, attracts flies and rats, and can pollute water</td></tr><tr><td>Packaging waste</td><td>Plastic, straps and cardboard litter the area</td></tr><tr><td>Refrigeration plant</td><td>Leaking refrigerant gas can harm people and the environment</td></tr><tr><td>Forklifts and generators</td><td>Diesel and oil leaks, exhaust fumes</td></tr><tr><td>Electricity and water use</td><td>Waste of scarce resources</td></tr></table><h4>Water is precious</h4><p>South Africa is a water-scarce country. The National Water Act 36 of 1998 controls the use of water and the discharge of waste water. Packhouses must manage their used water and not let polluted water run into rivers, streams or the veld.</p><h4>Hazardous waste</h4><p>Some waste is <strong>hazardous</strong>, for example empty chemical containers, used oil, old fluorescent tubes and batteries. It must never be thrown in the general bin, burned or buried. It is collected separately and handled by approved contractors according to the packhouse procedure.</p><h4>Why it matters to you</h4><p>A polluted river affects the communities downstream who use it for drinking water, washing and their animals. Wasted water and electricity also raise the packhouse's costs, which affects the business and jobs. Many buyers and audits now ask for proof that waste, water and chemicals are well managed.</p>"
+    },
+    {
+      "title": "Protecting the environment in daily work",
+      "minutes": 15,
+      "html": "<h3>Your daily actions count</h3><h4>Saving water</h4><ul><li>Close taps and hoses when you are not using them. Use a hose with a trigger nozzle.</li><li>Sweep up dry waste before washing floors, so you use less water.</li><li>Report leaking pipes, taps and toilets.</li></ul><h4>Saving electricity</h4><ul><li>Switch off lights, fans and machines that are not needed, according to procedure.</li><li>Keep cold room doors closed; open doors waste a lot of energy.</li><li>Report doors that do not close properly.</li></ul><h4>Sorting waste</h4><p>Use the correct, labelled bins. A common system is:</p><table><tr><th>Bin</th><th>What goes in</th></tr><tr><td>Cardboard and paper</td><td>Damaged cartons, paper, trays (clean)</td></tr><tr><td>Plastic</td><td>Liners, bags, straps, wrap</td></tr><tr><td>Organic</td><td>Fruit waste, leaves</td></tr><tr><td>Hazardous</td><td>Chemical containers, oily rags, batteries</td></tr><tr><td>General</td><td>Waste that cannot be recycled</td></tr></table><p>Do not mix waste. Recyclables that are dirty or mixed with food waste cannot be recycled.</p><h4>Chemicals and spills</h4><ul><li>Use only the amount of chemical needed. Follow the dilution instructions.</li><li>Keep chemicals in the locked chemical store with spill trays (bunding).</li><li>If there is a spill, warn others, keep people away, stop the leak if it is safe, and contain it with the spill kit (absorbent material). Never wash it down a drain. Report it to your supervisor immediately.</li><li>Wear the correct PPE when cleaning up.</li></ul><h4>Litter and surroundings</h4><p>Keep the yard and surroundings clean. Do not burn waste. Do not dump fruit waste in the veld or near water. Report oil leaks from vehicles.</p><h4>Reporting</h4><p>Report every environmental incident: spills, leaks, blocked drains, smoke or bad smells. Early reporting prevents bigger damage.</p><h4>Key points</h4><ul><li>Packhouse water, chemicals and waste can pollute if badly managed.</li><li>Save water and electricity in your daily work.</li><li>Sort waste into the correct bins; hazardous waste is handled separately.</li><li>Contain chemical spills with the spill kit and never wash them down drains.</li><li>Report every environmental incident quickly.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Where should an empty chemical container go?",
+      "options": [
+        {
+          "text": "In the general bin",
+          "correct": false
+        },
+        {
+          "text": "Burned in the yard",
+          "correct": false
+        },
+        {
+          "text": "Into the hazardous waste collection",
+          "correct": true
+        },
+        {
+          "text": "Buried behind the packhouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do first if a chemical spills?",
+      "options": [
+        {
+          "text": "Warn others and keep people away",
+          "correct": true
+        },
+        {
+          "text": "Wash it down the drain",
+          "correct": false
+        },
+        {
+          "text": "Leave it to dry",
+          "correct": false
+        },
+        {
+          "text": "Cover it with fruit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law controls the use of water and discharge of waste water?",
+      "options": [
+        {
+          "text": "The Companies Act",
+          "correct": false
+        },
+        {
+          "text": "The National Water Act 36 of 1998",
+          "correct": true
+        },
+        {
+          "text": "The Meat Safety Act",
+          "correct": false
+        },
+        {
+          "text": "The Animals Protection Act",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you sweep up dry waste before washing a floor?",
+      "options": [
+        {
+          "text": "To use less water",
+          "correct": true
+        },
+        {
+          "text": "To make the floor slippery",
+          "correct": false
+        },
+        {
+          "text": "To make more waste",
+          "correct": false
+        },
+        {
+          "text": "It is not needed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which bin should plastic straps and liners go into?",
+      "options": [
+        {
+          "text": "Organic",
+          "correct": false
+        },
+        {
+          "text": "Hazardous",
+          "correct": false
+        },
+        {
+          "text": "Cardboard",
+          "correct": false
+        },
+        {
+          "text": "Plastic",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Keeping cold room doors closed saves electricity.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Fruit waste can be dumped in a nearby stream.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these are hazardous waste? (select all that apply)",
+      "options": [
+        {
+          "text": "Used oil",
+          "correct": true
+        },
+        {
+          "text": "Batteries",
+          "correct": true
+        },
+        {
+          "text": "Clean cardboard",
+          "correct": false
+        },
+        {
+          "text": "Oily rags",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

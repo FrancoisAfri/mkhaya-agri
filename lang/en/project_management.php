@@ -353,7 +353,7 @@ return [
         'inapp_requested' => 'A :subject is waiting for your approval: :label',
         'inapp_decided' => '“:label” was :status',
         'subject_progress_claim' => 'Payment certificate',
-        'sms_requested' => 'Approval needed: :subject :label :amount. Open Mkhaya Hub to decide.',
+        'sms_requested' => 'Approval needed: :subject :label :amount. Open Mkhaya Agri to decide.',
         'subject_change_request' => 'Change request',
         'subject_contract' => "Contract",
     ],

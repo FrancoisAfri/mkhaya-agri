@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-261561",
+ "title": "Explain equine characteristics and needs, husbandry, health and welfare",
+ "lessons": [
+  {
+   "title": "Equine physiology and signs of health",
+   "minutes": 20,
+   "html": "<h3>Physiology that shapes care</h3>\n<p>Horses, donkeys and mules share key features that determine how they must be kept:</p>\n<ul>\n<li><strong>Digestion:</strong> a small stomach and a large hindgut that ferments fibre. Equines are built to graze 14 to 16 hours a day and cannot vomit. Sudden feed changes or large grain meals can cause colic or laminitis.</li>\n<li><strong>Breathing:</strong> equines breathe only through the nose, so dusty hay and stables cause respiratory problems.</li>\n<li><strong>Temperature control:</strong> horses sweat to cool down; donkeys sweat less and their coats are less waterproof, so they need shelter from rain.</li>\n<li><strong>Prey animal senses:</strong> wide vision with blind spots in front and behind, sharp hearing, and a strong flight response.</li>\n<li><strong>Legs and hooves:</strong> no muscles below the knee and hock; tendons and hooves carry huge loads.</li>\n<li><strong>Teeth:</strong> grow continuously and wear by grinding; sharp edges need regular rasping.</li>\n</ul>\n<h3>Signs of health</h3>\n<table><tr><th>Sign</th><th>Normal adult horse</th></tr>\n<tr><td>Temperature</td><td>About 37.5 to 38.5 &deg;C</td></tr>\n<tr><td>Heart rate at rest</td><td>About 28 to 44 per minute</td></tr>\n<tr><td>Breathing at rest</td><td>About 8 to 16 per minute</td></tr>\n<tr><td>Gums</td><td>Moist, salmon pink</td></tr>\n<tr><td>Behaviour</td><td>Alert, eats and drinks well, normal dung</td></tr></table>\n<p>Donkeys are stoic and often hide pain, so small changes like eating less or standing apart can be serious.</p>\n<h3>Common diseases and ailments</h3>\n<ul>\n<li>Colic, laminitis and choke.</li>\n<li>African horse sickness (midge-borne virus; controlled disease), equine influenza, strangles, tetanus and biliary (tick-borne).</li>\n<li>Internal parasites (worms) and external parasites (ticks, lice).</li>\n<li>Skin conditions: rain scald, mud fever, sarcoids.</li>\n<li>Wounds, harness sores and lameness.</li>\n</ul>"
+  },
+  {
+   "title": "Handling, equipment and inspection",
+   "minutes": 20,
+   "html": "<h3>Correct handling</h3>\n<ul>\n<li>Approach calmly from the side towards the shoulder, speaking softly.</li>\n<li>Use a well-fitting halter and lead rope; lead from the left side at the shoulder, holding the rope in folds, never wrapped around the hand.</li>\n<li>Tie with a quick-release knot to something solid at about wither height.</li>\n<li>Stay close when moving around the hindquarters, with a hand on the horse, or keep well out of kicking range.</li>\n<li>Use reward and pressure-release, not beating. Fear makes horses dangerous.</li>\n<li>When loading for transport, use a ramp with good footing and never force with whips.</li>\n</ul>\n<h3>Equipment and potential abuses</h3>\n<table><tr><th>Equipment</th><th>Correct use</th><th>Abuse to watch for</th></tr>\n<tr><td>Bridle and bit</td><td>Fits the mouth, correct height</td><td>Wire or severe bits, mouth cuts</td></tr>\n<tr><td>Saddle</td><td>Clears the withers and spine, clean pad</td><td>Sores, white hairs from old pressure</td></tr>\n<tr><td>Harness and collar</td><td>Padded, fitted, load spread evenly</td><td>Rubbing, open wounds, overloading carts</td></tr>\n<tr><td>Hobbles and tethers</td><td>Short periods, soft material, supervised</td><td>Wire, long tethering without water or shade</td></tr>\n<tr><td>Whip</td><td>Light aid only</td><td>Beating, welts</td></tr>\n<tr><td>Twitch</td><td>Brief restraint for vet work</td><td>Long use, causing injury</td></tr></table>\n<h3>Inspection requirements</h3>\n<p>Inspections may be done by welfare inspectors, vets at events, or managers checking working horses. A typical inspection covers:</p>\n<ol>\n<li><strong>Identification:</strong> markings, brand, microchip, passport, and vaccination records including African horse sickness where required.</li>\n<li><strong>Condition:</strong> body condition score, coat, eyes, nose and feet.</li>\n<li><strong>Soundness:</strong> trot up on firm ground to check for lameness.</li>\n<li><strong>Equipment:</strong> fit and condition of tack or harness and the vehicle or cart.</li>\n<li><strong>Environment:</strong> water, feed, shelter, fencing and stable hygiene.</li>\n<li><strong>Movement documents:</strong> where required for transport between areas.</li>\n</ol>\n<p>Record findings and actions; serious cruelty falls under the Animals Protection Act 71 of 1962.</p>\n<h4>Key points</h4>\n<ul>\n<li>Equines need grazing time, clean air and gradual feed changes.</li>\n<li>Know normal vital signs; donkeys hide pain.</li>\n<li>Handle calmly, lead safely and use quick-release knots.</li>\n<li>Check tack and harness fit and look for signs of abuse.</li>\n<li>Inspections cover identification, condition, soundness, equipment and environment.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How many hours a day are equines built to graze?",
+   "options": [
+    {
+     "text": "2 to 4",
+     "correct": false
+    },
+    {
+     "text": "6 to 8",
+     "correct": false
+    },
+    {
+     "text": "14 to 16",
+     "correct": true
+    },
+    {
+     "text": "24",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do donkeys need shelter from rain more than horses?",
+   "options": [
+    {
+     "text": "They cannot walk in mud",
+     "correct": false
+    },
+    {
+     "text": "Their coats are less waterproof",
+     "correct": true
+    },
+    {
+     "text": "They are allergic to water",
+     "correct": false
+    },
+    {
+     "text": "They do not drink water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which knot should you use to tie a horse?",
+   "options": [
+    {
+     "text": "A reef knot",
+     "correct": false
+    },
+    {
+     "text": "A double knot",
+     "correct": false
+    },
+    {
+     "text": "No knot at all",
+     "correct": false
+    },
+    {
+     "text": "A quick-release knot",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "White hairs on a horse's back often show...",
+   "options": [
+    {
+     "text": "Old saddle pressure",
+     "correct": true
+    },
+    {
+     "text": "Old age only",
+     "correct": false
+    },
+    {
+     "text": "Good grooming",
+     "correct": false
+    },
+    {
+     "text": "A healthy diet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is checked in a soundness test during inspection?",
+   "options": [
+    {
+     "text": "Eye colour",
+     "correct": false
+    },
+    {
+     "text": "Coat length",
+     "correct": false
+    },
+    {
+     "text": "Lameness at a trot on firm ground",
+     "correct": true
+    },
+    {
+     "text": "Tail length",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Donkeys often hide pain, so small changes in behaviour can be serious.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Wrapping the lead rope around your hand gives you better control and is safe.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of equipment abuse? (select all that apply)",
+   "options": [
+    {
+     "text": "Mouth cuts from wire bits",
+     "correct": true
+    },
+    {
+     "text": "Open wounds from harness",
+     "correct": true
+    },
+    {
+     "text": "A padded, well-fitted collar",
+     "correct": false
+    },
+    {
+     "text": "Welts from beating",
+     "correct": true
+    },
+    {
+     "text": "A clean saddle pad",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

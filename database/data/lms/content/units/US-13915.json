@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-13915",
+ "title": "Demonstrate knowledge and understanding of HIV/AIDS in a workplace, and its effects on a business sub-sector, own organisation and a specific workplace",
+ "lessons": [
+  {
+   "title": "HIV, the immune system and transmission",
+   "minutes": 20,
+   "html": "<h3>What is HIV and what is AIDS?</h3><p><strong>HIV</strong> (human immunodeficiency virus) attacks the body's immune system, especially the CD4 cells that help the body fight infections. Without treatment, the number of CD4 cells drops over years until the body cannot defend itself against illnesses such as TB, pneumonia and certain cancers. This advanced stage is called <strong>AIDS</strong> (acquired immune deficiency syndrome).</p><p>There is no cure yet, but <strong>antiretroviral treatment (ART)</strong> controls the virus. A person who takes ART every day as prescribed can live a long, healthy and productive working life. When ART keeps the virus at an undetectable level in the blood, HIV is not passed on through sex. This is known as <em>undetectable = untransmittable</em>.</p><h3>Stages</h3><ol><li>Early infection: may feel like flu, or no signs at all.</li><li>Long period with no or few symptoms, while the virus slowly damages the immune system.</li><li>Symptoms and opportunistic infections (weight loss, TB, thrush, chronic diarrhoea).</li><li>AIDS, if not treated.</li></ol><p>The only way to know your status is to <strong>test</strong>. Tests are free at public clinics.</p><h3>How HIV is transmitted</h3><p>HIV is passed on through certain body fluids: blood, semen, vaginal fluids and breast milk. The main routes are:</p><ul><li>unprotected vaginal or anal sex with a person who has HIV and is not virally suppressed,</li><li>sharing needles or other sharp instruments,</li><li>from mother to child during pregnancy, birth or breastfeeding (greatly reduced by treatment),</li><li>contact of infected blood with open wounds or mucous membranes.</li></ul><h3>HIV is not transmitted by</h3><p>Shaking hands, hugging, sharing cups, plates, toilets, showers or tools, mosquito bites, sweat or tears, or working side by side. There is no reason to avoid a colleague who has HIV.</p>"
+  },
+  {
+   "title": "Safe and risky behaviour, and workplace support",
+   "minutes": 20,
+   "html": "<h3>Behaviour that carries risk</h3><ul><li>Sex without a condom with a partner whose status you do not know.</li><li>Many sexual partners, or partners who have many partners.</li><li>Alcohol and drug abuse, which leads to unsafe decisions.</li><li>Sharing razors or needles.</li><li>Handling blood or helping an injured person without gloves.</li></ul><h3>Safer behaviour</h3><ul><li>Use a condom correctly every time. Free condoms are available at clinics and should be available at the workplace.</li><li>Know your status and your partner's status; test together.</li><li>Be faithful to one partner who has tested negative.</li><li>If you have HIV, take ART every day.</li><li>Ask the clinic about <strong>PrEP</strong> (medicine that prevents HIV in people at high risk) and <strong>PEP</strong> (emergency medicine after possible exposure, which must be started as soon as possible and within 72 hours).</li><li>Treat sexually transmitted infections early, because they increase HIV risk.</li></ul><h3>First aid and universal precautions</h3><p>On a farm or in an abattoir, cuts and injuries happen. Treat <strong>all</strong> blood as if it could be infected. Wear gloves from the first aid box, cover your own cuts, clean up blood with a bleach solution, and dispose of sharps and dressings safely. In an abattoir, wear cut-resistant gloves and report every knife injury.</p><h3>Guidelines and support at work</h3><ul><li>The <strong>Employment Equity Act 55 of 1998</strong> prohibits unfair discrimination on the basis of HIV status, and HIV testing of employees is only allowed in limited circumstances authorised by the Labour Court.</li><li>The Code of Good Practice on HIV and AIDS and the World of Work guides employers on policy, confidentiality and reasonable accommodation.</li><li>Your status is private. No one may tell others without your consent.</li><li>Employees with HIV have the same rights to work, leave, benefits and promotion as others.</li><li>Many workplaces have wellness programmes, peer educators, employee assistance programmes, and links to clinics.</li></ul>"
+  },
+  {
+   "title": "The impact of the epidemic on business and the workplace",
+   "minutes": 20,
+   "html": "<h3>South Africa's epidemic</h3><p>South Africa has one of the largest HIV epidemics in the world, with millions of people living with HIV. Most are of working age, so the epidemic directly affects farms, abattoirs and agribusiness.</p><h3>Effects on the individual and family</h3><ul><li>Illness and lost income if not on treatment.</li><li>Stigma, fear and stress.</li><li>Extra costs of care, transport to clinics and funerals.</li><li>Children who lose parents, and older family members who become caregivers.</li></ul><h3>Effects on the workplace and organisation</h3><table><tr><th>Area</th><th>Effect</th></tr><tr><td>Absenteeism</td><td>Sick leave, clinic visits, caring for sick family, funerals</td></tr><tr><td>Productivity</td><td>Lower output, especially in physically demanding work such as slaughtering or harvesting</td></tr><tr><td>Skills</td><td>Loss of experienced workers, such as skilled slaughterers or tractor drivers</td></tr><tr><td>Costs</td><td>Recruitment, training of replacements, overtime, medical and benefit costs</td></tr><tr><td>Morale</td><td>Fear and stigma can damage teamwork</td></tr></table><h3>Effects on the sub-sector</h3><p>In the red meat and agricultural sectors, a reduced and less healthy workforce raises production costs and can affect food supply. Seasonal and migrant work, long periods away from families and living in hostels can increase risk. Rural areas also often have weaker access to clinics.</p><h3>What a good workplace does</h3><ul><li>Has a written HIV and AIDS policy, developed with workers and unions.</li><li>Runs awareness and testing campaigns and provides condoms.</li><li>Keeps medical information confidential and fights stigma.</li><li>Adjusts duties for workers who are ill (reasonable accommodation).</li><li>Plans for skills by training more than one person for key jobs.</li><li>Supports treatment, for example by allowing time for clinic visits.</li></ul><p>Treatment and prevention have turned HIV into a manageable chronic condition. A supportive workplace protects both its people and its business.</p><h4>Key points</h4><ul><li>HIV attacks the immune system; ART controls it and allows a healthy working life.</li><li>HIV spreads through blood, sexual fluids and breast milk, not casual contact.</li><li>Condoms, testing, ART, PrEP and PEP prevent transmission.</li><li>The Employment Equity Act protects workers from HIV discrimination; status is confidential.</li><li>The epidemic raises absenteeism, costs and skills loss, so workplaces need a policy and support.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does HIV attack in the body?",
+   "options": [
+    {
+     "text": "The muscles",
+     "correct": false
+    },
+    {
+     "text": "The bones",
+     "correct": false
+    },
+    {
+     "text": "The immune system, especially CD4 cells",
+     "correct": true
+    },
+    {
+     "text": "The liver only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these can transmit HIV?",
+   "options": [
+    {
+     "text": "Sharing a cup",
+     "correct": false
+    },
+    {
+     "text": "Sharing needles",
+     "correct": true
+    },
+    {
+     "text": "Shaking hands",
+     "correct": false
+    },
+    {
+     "text": "Mosquito bites",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "PEP after a possible HIV exposure must be started…",
+   "options": [
+    {
+     "text": "Within a month",
+     "correct": false
+    },
+    {
+     "text": "After a positive test",
+     "correct": false
+    },
+    {
+     "text": "As soon as possible and within 72 hours",
+     "correct": true
+    },
+    {
+     "text": "Only after symptoms start",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act prohibits unfair discrimination based on HIV status?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Employment Equity Act 55 of 1998",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does undetectable = untransmittable mean?",
+   "options": [
+    {
+     "text": "HIV cannot be found by any test",
+     "correct": false
+    },
+    {
+     "text": "The person is cured",
+     "correct": false
+    },
+    {
+     "text": "Condoms are no longer made",
+     "correct": false
+    },
+    {
+     "text": "A person whose virus is suppressed by ART does not pass HIV on through sex",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should treat all blood as if it could be infected when giving first aid.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An employer may tell co-workers about a worker's HIV status without consent.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are effects of HIV/AIDS on a workplace? (select all that apply)",
+   "options": [
+    {
+     "text": "Higher recruitment and training costs",
+     "correct": true
+    },
+    {
+     "text": "Loss of skilled workers",
+     "correct": true
+    },
+    {
+     "text": "Lower electricity prices",
+     "correct": false
+    },
+    {
+     "text": "Higher absenteeism",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

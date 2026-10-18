@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7567",
+ "title": "Produce and use spreadsheets for business",
+ "lessons": [
+  {
+   "title": "Spreadsheet basics",
+   "minutes": 20,
+   "html": "<h3>What a spreadsheet does</h3><p>A spreadsheet program, such as Microsoft Excel, LibreOffice Calc or Google Sheets, arranges data in a grid so you can calculate, sort, analyse and present it. On a farm or in an abattoir it can be used for slaughter tallies, stock registers, payroll hours, feed costs, temperature logs and budgets.</p><h4>Parts of a spreadsheet</h4><ul><li><strong>Workbook:</strong> the file. It can contain several <strong>worksheets</strong> (tabs).</li><li><strong>Columns</strong> have letters (A, B, C ...) and <strong>rows</strong> have numbers (1, 2, 3 ...).</li><li>A <strong>cell</strong> is where a column and row meet, named by its address, for example B4.</li><li>A <strong>range</strong> is a group of cells, for example B2:B10.</li><li>The <strong>formula bar</strong> shows the contents of the selected cell.</li></ul><h4>Entering data well</h4><ul><li>Put headings in the first row, one heading per column, for example Date, Carcass number, Species, Mass (kg).</li><li>One record per row. Do not leave blank rows inside the data.</li><li>Keep one kind of data per column. Do not type \"kg\" in the number cells; put the unit in the heading.</li><li>Use a consistent date format.</li></ul><h4>Formatting</h4><ul><li>Number formats: currency (R), decimal places, percentages, dates.</li><li>Bold headings, adjust column width, wrap text, borders.</li><li>Freeze the top row so headings stay visible when you scroll.</li><li>Conditional formatting can highlight values, for example temperatures above a limit in red.</li></ul><h4>Saving and protecting work</h4><p>Save often, with a clear file name such as \"Slaughter tally 2026-10.xlsx\". Keep backups. Protect sheets or files with passwords where data is confidential, such as wages, and follow the Protection of Personal Information Act 4 of 2013 (POPIA) when spreadsheets contain personal information.</p>"
+  },
+  {
+   "title": "Formulas and functions",
+   "minutes": 20,
+   "html": "<h3>Making the spreadsheet calculate</h3><p>Every formula starts with an equals sign (=). Use cell addresses, not typed numbers, so results update automatically when data changes.</p><h4>Basic operators</h4><table><tr><th>Operator</th><th>Meaning</th><th>Example</th></tr><tr><td>+</td><td>Add</td><td>=B2+C2</td></tr><tr><td>-</td><td>Subtract</td><td>=B2-C2</td></tr><tr><td>*</td><td>Multiply</td><td>=B2*C2</td></tr><tr><td>/</td><td>Divide</td><td>=B2/C2</td></tr></table><h4>Common functions</h4><ul><li><strong>=SUM(B2:B20)</strong> adds the range.</li><li><strong>=AVERAGE(B2:B20)</strong> gives the mean.</li><li><strong>=MAX()</strong> and <strong>=MIN()</strong> find the highest and lowest values.</li><li><strong>=COUNT(B2:B20)</strong> counts cells with numbers.</li><li><strong>=IF(C2&gt;7,\"Too warm\",\"OK\")</strong> tests a condition.</li><li><strong>=ROUND(B2,1)</strong> rounds to one decimal place.</li></ul><h4>Relative and absolute references</h4><p>When you copy a formula down a column, cell references change automatically (relative references). Sometimes one reference must stay fixed, such as a price per kilogram in cell F1. Use a dollar sign to make it absolute: <strong>=B2*$F$1</strong>. Copied down, it becomes =B3*$F$1, =B4*$F$1 and so on.</p><h4>Example: carcass payment</h4><p>Column B has carcass mass in kg, cell F1 has the price of R65.00 per kg. In C2 type =B2*$F$1 and copy down. A 240 kg carcass gives R15 600. At the bottom, =SUM(C2:C51) gives the total payment.</p><h4>Checking formulas</h4><p>Estimate the answer first. Error messages such as #DIV/0! (dividing by zero) or #VALUE! (text where a number is expected) show something is wrong. Check your ranges include all the rows.</p><p>Save a copy before changing formulas, so you can go back if something goes wrong.</p><p>Use the Show Formulas option to see all formulas at once when checking a sheet, and test formulas with simple numbers you can calculate by hand.</p>"
+  },
+  {
+   "title": "Analysing and presenting data",
+   "minutes": 20,
+   "html": "<h3>Turning data into information</h3><h4>Sorting and filtering</h4><ul><li><strong>Sort</strong> rows by a column, for example from heaviest to lightest carcass, or by date. Select the whole data range first so rows stay together.</li><li><strong>Filter</strong> shows only rows that match a condition, for example only species \"Sheep\" or only temperatures above the limit.</li></ul><h4>Summary tables</h4><p>Functions such as <strong>SUMIF</strong> and <strong>COUNTIF</strong> summarise by category: =COUNTIF(C2:C200,\"Cattle\") counts cattle; =SUMIF(C2:C200,\"Cattle\",D2:D200) adds their mass. A <strong>pivot table</strong> creates totals and averages by category without writing formulas.</p><h4>Charts</h4><table><tr><th>Chart type</th><th>Best for</th></tr><tr><td>Column or bar</td><td>Comparing categories, such as slaughter numbers per species</td></tr><tr><td>Line</td><td>Trends over time, such as daily chiller temperatures</td></tr><tr><td>Pie</td><td>Parts of a whole, used sparingly with few categories</td></tr></table><p>Give every chart a clear title, axis labels with units, and a legend if there is more than one series.</p><h4>Printing and sharing</h4><ul><li>Use Print Preview. Set orientation (portrait or landscape), fit to page width, and print titles so headings repeat on every page.</li><li>Add a header or footer with the report name, date and page numbers.</li><li>Save as PDF to share a report that others should not change.</li></ul><h4>Using the results in business</h4><p>A weekly summary of mass, payment and condemnations per supplier helps managers see trends, spot problems and make decisions. Always check the data before presenting it.</p><h4>Key points</h4><ul><li>Use one record per row, one kind of data per column, and clear headings.</li><li>Formulas start with = and should use cell addresses.</li><li>Use $ to make an absolute reference when copying formulas.</li><li>Sort, filter, SUMIF, COUNTIF and pivot tables summarise data.</li><li>Choose the right chart, label it clearly and use Print Preview.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does every spreadsheet formula start with?",
+   "options": [
+    {
+     "text": "A plus sign",
+     "correct": false
+    },
+    {
+     "text": "An equals sign",
+     "correct": true
+    },
+    {
+     "text": "A dollar sign",
+     "correct": false
+    },
+    {
+     "text": "A bracket",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does =AVERAGE(B2:B20) do?",
+   "options": [
+    {
+     "text": "Adds the range",
+     "correct": false
+    },
+    {
+     "text": "Gives the mean of the range",
+     "correct": true
+    },
+    {
+     "text": "Counts the cells",
+     "correct": false
+    },
+    {
+     "text": "Finds the highest value",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which formula keeps the price in F1 fixed when copied down?",
+   "options": [
+    {
+     "text": "=B2*F1",
+     "correct": false
+    },
+    {
+     "text": "=B2*$F$1",
+     "correct": true
+    },
+    {
+     "text": "=$B$2*F1",
+     "correct": false
+    },
+    {
+     "text": "=B2+F1",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which chart is best for showing daily chiller temperatures over a month?",
+   "options": [
+    {
+     "text": "Pie chart",
+     "correct": false
+    },
+    {
+     "text": "Line chart",
+     "correct": true
+    },
+    {
+     "text": "No chart",
+     "correct": false
+    },
+    {
+     "text": "A chart with no labels",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A carcass of 240 kg at R65.00 per kg is worth how much?",
+   "options": [
+    {
+     "text": "R1 560",
+     "correct": false
+    },
+    {
+     "text": "R15 600",
+     "correct": true
+    },
+    {
+     "text": "R305",
+     "correct": false
+    },
+    {
+     "text": "R156 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is good practice to type \"kg\" in every number cell.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The #DIV/0! error means a formula is dividing by zero.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices for entering data? (select all that apply)",
+   "options": [
+    {
+     "text": "Headings in the first row",
+     "correct": true
+    },
+    {
+     "text": "One record per row with no blank rows inside the data",
+     "correct": true
+    },
+    {
+     "text": "One kind of data per column",
+     "correct": true
+    },
+    {
+     "text": "Mixing dates and names in the same column",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

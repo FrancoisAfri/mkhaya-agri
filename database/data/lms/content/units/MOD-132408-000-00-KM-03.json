@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-03",
+ "title": "Grain Handling Operations Management",
+ "lessons": [
+  {
+   "title": "The grain depot business",
+   "minutes": 20,
+   "html": "<h3>What a grain depot does</h3>\n<p>Grain depots receive, grade, weigh, clean, dry, store, protect and out-load grains and oilseeds such as maize, wheat, soya beans, sunflower and sorghum. In South Africa many depots are run by agribusinesses that store grain on behalf of farmers, traders and processors. Stored grain is often represented by silo certificates (silo receipts), which can be traded and used for deliveries against JSE grain futures contracts. The depot is therefore trusted to keep the right quantity and quality of each owner's grain safely.</p>\n<h4>Main processes</h4>\n<ol>\n<li><strong>Receiving</strong> – truck registration, weighbridge weighing in, sampling and grading.</li>\n<li><strong>Intake</strong> – tipping into intake pits, pre-cleaning, conveying to the correct bin by grade and class.</li>\n<li><strong>Conditioning</strong> – drying, cooling or aeration, and cleaning where needed.</li>\n<li><strong>Storage</strong> – concrete silos, steel bins, bunkers and sometimes silo bags.</li>\n<li><strong>Protection</strong> – temperature monitoring, aeration, insect control and fumigation.</li>\n<li><strong>Out-loading</strong> – loading trucks or rail, weighing out and certifying grade.</li>\n<li><strong>Administration</strong> – stock records, ownership, certificates, reporting to industry information systems such as SAGIS.</li>\n</ol>\n<h4>Revenue and costs</h4>\n<p>Depot income usually comes from handling fees, storage tariffs, drying and cleaning charges and related services. Costs include labour, electricity, fuel for dryers, fumigants, maintenance, insurance and losses (shrinkage). A manager must understand these to keep the depot profitable.</p>\n<h4>Planning the season</h4>\n<p>Before harvest, use crop estimates, customer contracts and previous seasons to forecast intake per commodity and grade. Plan bin allocation (which bins will hold which commodity and grade), staffing, maintenance shutdowns, dryer fuel, fumigants and consumables. Plan how to handle peak days to keep truck waiting times acceptable to farmers and transporters.</p>"
+  },
+  {
+   "title": "Controlling depot operations",
+   "minutes": 20,
+   "html": "<h3>Daily control</h3>\n<p>During intake the manager tracks trucks received, tonnes per commodity and grade, waiting times, bin fill levels, dryer throughput and breakdowns. Key decisions include opening extra grading points, changing bin allocations, running dryers through the night or restricting intake of wet grain when dryers are full.</p>\n<h3>Stock management</h3>\n<p>Stock management is central to a depot's reputation. Grain is held for many owners, so the depot must always know:</p>\n<ul>\n<li>Total tonnes per commodity, class and grade in each bin.</li>\n<li>Tonnes owned by each depositor and the certificates issued.</li>\n<li>Expected losses from drying, cleaning and handling.</li>\n</ul>\n<p>Physical stock is measured by bin volume surveys or measurement and bulk density, and compared with book stock. Differences beyond accepted tolerances must be investigated: weighbridge errors, unrecorded moisture loss, spillage, theft or mixing errors.</p>\n<h3>Quality preservation</h3>\n<p>Grain quality cannot be improved in storage, only preserved. Store grain dry and cool, monitor temperatures, aerate, control insects and keep different grades apart. Mixing grades lowers the value of the higher grade and can create disputes with owners.</p>\n<h3>Safety and compliance</h3>\n<p>Silo complexes are high-risk: dust explosions, engulfment in bins, confined spaces, falls from height, conveyor entanglement, vehicles and toxic fumigants. Apply the OHS Act 85 of 1993, permit systems and strict fumigation control. Grading must follow the regulations under the Agricultural Product Standards Act 119 of 1990. Agricultural remedies such as fumigants and protectants must be registered under Act 36 of 1947 and used strictly as the label instructs.</p>\n<h3>Performance indicators</h3>\n<table>\n<tr><th>Area</th><th>KPI</th></tr>\n<tr><td>Service</td><td>Truck turnaround time, client complaints</td></tr>\n<tr><td>Stock</td><td>Stock variance, shrinkage percentage</td></tr>\n<tr><td>Quality</td><td>Downgrades in storage, insect findings</td></tr>\n<tr><td>Cost</td><td>Cost per tonne handled, kWh per tonne</td></tr>\n<tr><td>Safety</td><td>Incidents, near misses</td></tr>\n</table>\n<h4>Key points</h4>\n<ul>\n<li>Depots receive, grade, condition, store, protect and out-load grain for many owners.</li>\n<li>Plan bins, staff, maintenance and consumables before the season.</li>\n<li>Reconcile physical and book stock and investigate variances.</li>\n<li>Grain quality can only be preserved in storage, so keep it dry, cool, pest-free and graded separately.</li>\n<li>Comply with safety, grading and agricultural remedy laws and track KPIs.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a silo certificate represent?",
+   "options": [
+    {
+     "text": "A fumigation licence",
+     "correct": false
+    },
+    {
+     "text": "A truck licence",
+     "correct": false
+    },
+    {
+     "text": "A safety permit",
+     "correct": false
+    },
+    {
+     "text": "Grain stored at the depot on behalf of an owner",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law provides the framework for grain grading regulations?",
+   "options": [
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must different grades be kept apart?",
+   "options": [
+    {
+     "text": "To save electricity",
+     "correct": false
+    },
+    {
+     "text": "Mixing lowers the value of the higher grade and can cause disputes",
+     "correct": true
+    },
+    {
+     "text": "It makes no difference",
+     "correct": false
+    },
+    {
+     "text": "To speed up intake",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is physical stock in a bin estimated?",
+   "options": [
+    {
+     "text": "By counting trucks only",
+     "correct": false
+    },
+    {
+     "text": "By guessing",
+     "correct": false
+    },
+    {
+     "text": "By bin volume measurement and bulk density",
+     "correct": true
+    },
+    {
+     "text": "By asking the farmer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a manager do when dryers are full and wet grain keeps arriving?",
+   "options": [
+    {
+     "text": "Consider restricting intake of wet grain or running dryers longer",
+     "correct": true
+    },
+    {
+     "text": "Store wet grain anyway in dry bins",
+     "correct": false
+    },
+    {
+     "text": "Mix wet and dry grain in the same bin without control",
+     "correct": false
+    },
+    {
+     "text": "Close the depot permanently",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Grain quality can be improved during storage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fumigants must be used strictly as the registered label instructs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are sources of depot income? (select all that apply)",
+   "options": [
+    {
+     "text": "Drying and cleaning charges",
+     "correct": true
+    },
+    {
+     "text": "Storage tariffs",
+     "correct": true
+    },
+    {
+     "text": "Fines paid by staff",
+     "correct": false
+    },
+    {
+     "text": "Handling fees",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

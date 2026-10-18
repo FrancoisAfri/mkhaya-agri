@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL101937",
+ "title": "Higher Certificate in Animal Welfare",
+ "lessons": [
+  {
+   "title": "The veterinary welfare assistant",
+   "minutes": 16,
+   "html": "<h3>A recognised welfare role</h3>\n<p>The Higher Certificate in Animal Welfare (NQF 5) prepares <strong>veterinary welfare assistants</strong>, a para-veterinary category recognised by the South African Veterinary Council (SAVC). Graduates work in animal welfare organisations such as SPCAs and community clinics, often in under-served townships and rural areas where many people cannot afford private veterinary care. The programme includes practical work at a welfare organisation.</p>\n<h4>What the role covers</h4>\n<ul><li><strong>Primary animal care</strong> under the direction of a vet: vaccination, deworming, parasite control, wound care.</li>\n<li><strong>Sterilisation campaign support</strong>: preparing animals, recovery care, record keeping.</li>\n<li><strong>Handling and restraint</strong> of dogs, cats, and also working animals such as donkeys and horses, and livestock in peri-urban areas.</li>\n<li><strong>Community education</strong>: responsible pet ownership, rabies awareness, care of working animals.</li>\n<li><strong>Kennel and cattery management</strong>: hygiene, disease control (for example parvovirus in puppies), feeding and enrichment.</li></ul>\n<p>Welfare assistants work within a defined scope of practice. They support the veterinarian and must not diagnose, prescribe or operate independently.</p>\n<h4>The Five Freedoms</h4>\n<p>Welfare work is often guided by the Five Freedoms, a widely used framework:</p>\n<ol><li>Freedom from hunger and thirst.</li>\n<li>Freedom from discomfort (shelter, resting area).</li>\n<li>Freedom from pain, injury and disease.</li>\n<li>Freedom to express normal behaviour.</li>\n<li>Freedom from fear and distress.</li></ol>\n<p>When you assess a dog chained in a yard or a donkey pulling a cart, use the freedoms as a checklist. Is there water and shade? Are there harness wounds? Can the animal move and rest normally?</p>"
+  },
+  {
+   "title": "Law, safety and working with communities",
+   "minutes": 16,
+   "html": "<h3>The legal framework</h3>\n<p>Welfare assistants must understand the laws behind their work:</p>\n<ul><li><strong>Animals Protection Act 71 of 1962</strong>: defines cruelty offences such as neglect, overloading and abandonment.</li>\n<li><strong>Societies for the Prevention of Cruelty to Animals Act 169 of 1993</strong>: governs the SPCA movement and its inspectors.</li>\n<li><strong>Veterinary and Para-Veterinary Professions Act 19 of 1982</strong>: sets the scope of practice for vets and para-vets, including welfare assistants.</li>\n<li><strong>Animal Diseases Act 35 of 1984</strong>: rabies is a controlled disease and suspected cases must be reported.</li></ul>\n<h4>Safety at work</h4>\n<p>Bites and scratches are the main risk. Approach unknown dogs side-on and slowly, read body language (raised hackles, stiff body, hard stare, growling), and use a leash, muzzle or catch pole correctly. Wear gloves when handling wounds and faeces. In rabies areas, staff should discuss pre-exposure vaccination with their employer and doctor. Any bite must be washed at once with soap and running water for several minutes and reported for medical care.</p>\n<h4>Working in communities</h4>\n<p>Welfare work succeeds when the community trusts the organisation. Good practice includes:</p>\n<ul><li>Respecting owners, even when conditions are poor; most neglect comes from lack of money or knowledge.</li>\n<li>Explaining in simple language and the home language where possible.</li>\n<li>Offering practical help: a kennel, a bag of food, a harness adjustment for a donkey cart.</li>\n<li>Reporting cruelty cases to an inspector when education does not work.</li>\n<li>Keeping accurate records of every animal treated.</li></ul>\n<h4>Self-care</h4>\n<p>Welfare work exposes staff to suffering and euthanasia. Compassion fatigue is real. Talk to colleagues, use debriefing sessions and ask for support.</p>\n<h4>Key points</h4>\n<ul><li>Veterinary welfare assistants are SAVC-recognised and work under a vet's direction.</li>\n<li>The Five Freedoms give a practical checklist for assessing welfare.</li>\n<li>Key laws include the Animals Protection Act 71 of 1962 and the SPCA Act 169 of 1993.</li>\n<li>Prevent bites by reading body language and using correct restraint; wash any bite immediately.</li>\n<li>Respectful community engagement and self-care keep welfare work effective.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which body recognises veterinary welfare assistants?",
+   "options": [
+    {
+     "text": "The Department of Labour",
+     "correct": false
+    },
+    {
+     "text": "SANParks",
+     "correct": false
+    },
+    {
+     "text": "The South African Veterinary Council",
+     "correct": true
+    },
+    {
+     "text": "The SAPS",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is part of the Five Freedoms?",
+   "options": [
+    {
+     "text": "Freedom from fences",
+     "correct": false
+    },
+    {
+     "text": "Freedom from vaccination",
+     "correct": false
+    },
+    {
+     "text": "Freedom to roam roads",
+     "correct": false
+    },
+    {
+     "text": "Freedom to express normal behaviour",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done immediately after a dog bite?",
+   "options": [
+    {
+     "text": "Apply mud to stop bleeding",
+     "correct": false
+    },
+    {
+     "text": "Ignore it if the dog looked healthy",
+     "correct": false
+    },
+    {
+     "text": "Wash it with soap and running water for several minutes and report it",
+     "correct": true
+    },
+    {
+     "text": "Cover it and carry on working",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which body language warns that a dog may bite?",
+   "options": [
+    {
+     "text": "Lying on its back",
+     "correct": false
+    },
+    {
+     "text": "Loose wagging body",
+     "correct": false
+    },
+    {
+     "text": "Raised hackles and a hard stare",
+     "correct": true
+    },
+    {
+     "text": "Play bow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act sets the scope of practice for para-veterinary professionals?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Veterinary and Para-Veterinary Professions Act 19 of 1982",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Welfare assistants may diagnose and prescribe medicine independently.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Most neglect cases in communities come from lack of money or knowledge, so respectful education is important.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks are part of the veterinary welfare assistant role? (select all that apply)",
+   "options": [
+    {
+     "text": "Vaccination and deworming under a vet's direction",
+     "correct": true
+    },
+    {
+     "text": "Kennel hygiene and disease control",
+     "correct": true
+    },
+    {
+     "text": "Community education on responsible pet ownership",
+     "correct": true
+    },
+    {
+     "text": "Performing sterilisation surgery alone",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

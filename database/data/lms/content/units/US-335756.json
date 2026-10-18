@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335756",
+ "title": "Move tactically with a horse in law enforcement",
+ "lessons": [
+  {
+   "title": "Principles of tactical mounted movement",
+   "minutes": 20,
+   "html": "<h3>What tactical movement means</h3>\n<p>Tactical movement is how a mounted section moves as a team during operations: patrols in high-crime areas, searches, cordons, vehicle checkpoints, crowd situations and pursuits on foot by suspects. The goals are to stay safe, keep control of the horses, see and be seen as needed, and support other units. Mounted members must work within the law, their unit's standing orders and lawful command.</p>\n<h3>Command and communication</h3>\n<ul>\n<li>Each section has a commander who gives clear words of command and hand signals.</li>\n<li>Radio procedure: short, clear messages using call signs; confirm instructions.</li>\n<li>Hand signals for noisy places: halt, advance, form line, file, wheel, take cover.</li>\n<li>Every member knows the plan, the rendezvous point and the withdrawal route.</li>\n</ul>\n<h3>Basic formations</h3>\n<table><tr><th>Formation</th><th>Use</th></tr>\n<tr><td>Single file</td><td>Narrow paths, between informal houses, through gates</td></tr>\n<tr><td>Pairs (half sections)</td><td>Routine patrols; mutual support</td></tr>\n<tr><td>Line abreast</td><td>Searching open ground; presenting a front; moving people</td></tr>\n<tr><td>Echelon</td><td>Covering one flank, approaching at an angle</td></tr>\n<tr><td>Wedge</td><td>Splitting a crowd, forcing a path</td></tr>\n<tr><td>Box or diamond</td><td>All-round observation and protection</td></tr></table>\n<h3>Horse and rider preparation</h3>\n<ul>\n<li>Horses trained to stand steady under noise, to move sideways and backwards on command and to tolerate other horses close by.</li>\n<li>Correct tack, protective gear for horse and rider, and shoes with grip.</li>\n<li>Pre-operation check of horses' soundness and fitness.</li>\n<li>Rider knowledge of the area, the threats and the law on use of force.</li>\n</ul>"
+  },
+  {
+   "title": "Executing tactical movements safely",
+   "minutes": 20,
+   "html": "<h3>Moving through different terrain</h3>\n<ul>\n<li><strong>Urban streets:</strong> stay to the left, use cover from buildings, watch rooftops and windows, keep away from slippery surfaces at speed.</li>\n<li><strong>Open veld:</strong> spread out in line to search, keeping visual contact.</li>\n<li><strong>Bush and informal settlements:</strong> single file or pairs, slower pace, watch for wire, holes and dogs.</li>\n<li><strong>Night operations:</strong> reflective gear for traffic, torches only as tactics allow, extra caution with footing.</li>\n</ul>\n<h3>Changing formation</h3>\n<ol>\n<li>The commander warns, then commands.</li>\n<li>Members move to new positions at a controlled pace, keeping safe distances (at least a horse length unless the formation requires knee-to-knee).</li>\n<li>Dressing: check alignment with the marker rider.</li>\n<li>Report \"in position\" if required.</li>\n</ol>\n<h3>Cordons and checkpoints</h3>\n<ul>\n<li>Mounted members form the outer ring of a cordon, where their height lets them watch for people trying to slip through.</li>\n<li>At checkpoints, mounted members observe and block escape routes while members on foot do searches.</li>\n</ul>\n<h3>Pursuit and contact</h3>\n<ul>\n<li>Pursue on horseback only where ground and traffic are safe; the horse's welfare and public safety come first.</li>\n<li>One member stays mounted holding the horses or covering while another acts.</li>\n<li>Use only force that is lawful, necessary and proportional.</li>\n</ul>\n<h3>Taking cover and withdrawal</h3>\n<p>If threatened by gunfire or thrown objects, move horses behind solid cover and out of the line of fire, or withdraw along the planned route on command. Protect the horses: an injured horse becomes a danger to everyone.</p>\n<h3>After the operation</h3>\n<ul>\n<li>Check horses for injuries and stress; cool, water and rest them.</li>\n<li>Debrief: what worked, what did not, lessons for training.</li>\n<li>Complete reports on incidents, use of force and injuries.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Tactical movement relies on clear command, radio procedure and hand signals.</li>\n<li>Choose the formation for the terrain and task: file, pairs, line, echelon, wedge, box.</li>\n<li>Change formation in a controlled way and keep dressing.</li>\n<li>Mounted members are effective on cordon outer rings and checkpoints.</li>\n<li>Use only lawful, necessary and proportional force; protect horses and the public.</li>\n<li>Debrief and report after every operation.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which formation is best for narrow paths between houses?",
+   "options": [
+    {
+     "text": "Single file",
+     "correct": true
+    },
+    {
+     "text": "Line abreast",
+     "correct": false
+    },
+    {
+     "text": "Wedge",
+     "correct": false
+    },
+    {
+     "text": "Box",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which formation gives all-round observation and protection?",
+   "options": [
+    {
+     "text": "Single file",
+     "correct": false
+    },
+    {
+     "text": "Echelon",
+     "correct": false
+    },
+    {
+     "text": "Line abreast",
+     "correct": false
+    },
+    {
+     "text": "Box or diamond",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are mounted members useful on the outer ring of a cordon?",
+   "options": [
+    {
+     "text": "They can sleep there",
+     "correct": false
+    },
+    {
+     "text": "Their height lets them watch for people slipping through",
+     "correct": true
+    },
+    {
+     "text": "They can gallop through the cordon",
+     "correct": false
+    },
+    {
+     "text": "They do the searches",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should the commander do before changing formation?",
+   "options": [
+    {
+     "text": "Gallop off",
+     "correct": false
+    },
+    {
+     "text": "Say nothing",
+     "correct": false
+    },
+    {
+     "text": "Warn, then command",
+     "correct": true
+    },
+    {
+     "text": "Dismount everyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When threatened by gunfire, what should the section do?",
+   "options": [
+    {
+     "text": "Charge straight at the threat",
+     "correct": false
+    },
+    {
+     "text": "Move behind solid cover or withdraw on command",
+     "correct": true
+    },
+    {
+     "text": "Stand still in the open",
+     "correct": false
+    },
+    {
+     "text": "Split up without telling anyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mounted pursuit should only take place where ground and traffic are safe.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Force used by mounted members does not have to be proportional.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should happen after a tactical operation? (select all that apply)",
+   "options": [
+    {
+     "text": "Check horses for injuries",
+     "correct": true
+    },
+    {
+     "text": "Debrief the section",
+     "correct": true
+    },
+    {
+     "text": "Complete incident and use-of-force reports",
+     "correct": true
+    },
+    {
+     "text": "Skip records if nothing went wrong",
+     "correct": false
+    },
+    {
+     "text": "Leave horses tacked up",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

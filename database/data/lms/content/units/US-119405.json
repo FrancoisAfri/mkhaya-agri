@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119405",
+ "title": "Utilise water management in poultry processing",
+ "lessons": [
+  {
+   "title": "Water in the processing plant",
+   "minutes": 15,
+   "html": "<h3>Why water matters</h3><p>A poultry processing plant uses a lot of water. Water is used for scalding, washing carcasses, chilling, cleaning equipment and floors, hand washing and boot washing. Water that touches meat must be safe and clean, like drinking water. Dirty water can spread germs to many carcasses at once.</p><h4>Where water is used</h4><ul><li><strong>Scalder</strong>: hot water loosens feathers.</li><li><strong>Washers</strong>: spray water cleans carcasses inside and outside.</li><li><strong>Chillers</strong>: cold water or ice cools carcasses.</li><li><strong>Cleaning</strong>: washing machines, floors and crates.</li><li><strong>Hand wash and boot wash stations</strong>.</li><li><strong>Steam and hot water</strong> for knife sterilisers.</li></ul><h4>Safe water</h4><p>The water must be tested often by the plant. Many plants add chlorine or another sanitiser to keep the water safe. The QA team checks the levels. Only use water from the plant's approved supply. Never use river or dam water that has not been treated.</p><h4>Water costs money</h4><p>The plant pays for water and for getting rid of dirty water (effluent). South Africa is a dry country, and water is scarce in many areas. Saving water saves money and helps the community.</p><h4>Hot and cold water</h4><p>The scalder uses hot water to loosen feathers. The chiller uses very cold water or ice to cool the carcasses. Knife sterilisers use very hot water. Each one is set by trained staff, and you must not change the settings. If water in your area looks wrong, too hot, too cold or dirty, tell your supervisor.</p><p>Learn where the water points in your area are and who to call if there is a problem.</p>"
+  },
+  {
+   "title": "Using water correctly",
+   "minutes": 15,
+   "html": "<h3>Doing your part every shift</h3><h4>Save water</h4><ul><li>Close taps and hoses when you are not using them.</li><li>Use hoses with trigger nozzles that stop when you let go.</li><li>Do not leave hoses running on the floor.</li><li>Dry clean first: pick up and scrape meat, fat and feathers before using water. This saves a lot of water.</li><li>Report leaking taps, pipes and valves to your supervisor.</li><li>Do not change the flow on washers or chillers. Only trained people may set them.</li></ul><h4>Keep water clean</h4><ul><li>Keep hoses off the floor when not in use so the nozzle does not get dirty.</li><li>Do not wash dirty boots or equipment in water meant for product.</li><li>Do not let floor water splash onto meat.</li><li>Tell your supervisor if water looks dirty, smells bad, or if there is no water pressure.</li></ul><h4>Hot water safety</h4><p>Water in sterilisers and scalders is very hot and can burn. Do not put your hands in the steriliser. Use the handles. Watch out for steam. High pressure hoses can injure skin and eyes. Never point a hose at a person.</p><h4>Chemicals in water</h4><p>Chlorine and other sanitisers are added by trained staff with dosing equipment. Do not add chemicals to water yourself. If you smell strong chlorine or your eyes burn, move away and tell your supervisor.</p><h4>Example</h4><p>At the end of a shift, a cleaner leaves a hose running in a corner. By morning thousands of litres have gone down the drain. A trigger nozzle or a quick check before leaving would have stopped this.</p>"
+  },
+  {
+   "title": "Dirty water and reporting",
+   "minutes": 15,
+   "html": "<h3>Looking after effluent and drains</h3><p>Water that leaves the plant carries blood, fat, feathers and bits of meat. This dirty water is called <strong>effluent</strong>. It must be treated before it goes to the municipal sewer or anywhere else, because it can pollute rivers and harm people and animals. The National Water Act 36 of 1998 protects water resources from pollution, and municipalities have rules about what may go into the sewer.</p><h4>What you can do</h4><ul><li>Keep blood in the blood trough. Do not wash it into the drain.</li><li>Pick up feathers, meat scraps and fat and put them in the correct bins, not down the drain.</li><li>Keep drain covers and screens in place. Clean screens as instructed.</li><li>Report blocked drains straight away. Blocked drains cause flooding and germs.</li><li>Never pour chemicals, oil or diesel down the drain.</li></ul><h4>Simple water records</h4><p>Some plants ask workers to read water meters or record water use in their area. Write the reading, date, time and your name neatly. If the number is much higher than normal, tell your supervisor because there may be a leak.</p><table><tr><th>Problem</th><th>What to do</th></tr><tr><td>Leaking tap or pipe</td><td>Report it</td></tr><tr><td>Blocked drain</td><td>Report it; keep product away</td></tr><tr><td>Dirty or smelly water</td><td>Stop using it on product; report it</td></tr><tr><td>No water</td><td>Stop work that needs water; report it</td></tr></table><h4>Key points</h4><ul><li>Water that touches meat must be clean and safe.</li><li>Dry clean first and close hoses to save water.</li><li>Keep blood, feathers and fat out of the drains.</li><li>Never point a hose at a person or add chemicals to water yourself.</li><li>Report leaks, blocked drains and dirty water at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must water that touches meat be clean and safe?",
+   "options": [
+    {
+     "text": "Dirty water can spread germs to many carcasses",
+     "correct": true
+    },
+    {
+     "text": "It makes the meat heavier",
+     "correct": false
+    },
+    {
+     "text": "It is cheaper",
+     "correct": false
+    },
+    {
+     "text": "It cools faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before using water to clean?",
+   "options": [
+    {
+     "text": "Turn on all hoses",
+     "correct": false
+    },
+    {
+     "text": "Dry clean by picking up and scraping meat, fat and feathers",
+     "correct": true
+    },
+    {
+     "text": "Add your own chemicals",
+     "correct": false
+    },
+    {
+     "text": "Wait for the next shift",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is effluent?",
+   "options": [
+    {
+     "text": "Clean drinking water",
+     "correct": false
+    },
+    {
+     "text": "Steam",
+     "correct": false
+    },
+    {
+     "text": "Dirty water leaving the plant",
+     "correct": true
+    },
+    {
+     "text": "Ice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should blood from the kill line go?",
+   "options": [
+    {
+     "text": "Down the floor drain",
+     "correct": false
+    },
+    {
+     "text": "Onto the floor",
+     "correct": false
+    },
+    {
+     "text": "Into the scalder",
+     "correct": false
+    },
+    {
+     "text": "Into the blood trough",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you smell strong chlorine and your eyes burn?",
+   "options": [
+    {
+     "text": "Move away and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Add more water",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Pour more chlorine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may point a high pressure hose at a co-worker as a joke.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A water meter reading much higher than normal may mean there is a leak.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which actions save water? (select all that apply)",
+   "options": [
+    {
+     "text": "Closing hoses when not in use",
+     "correct": true
+    },
+    {
+     "text": "Using trigger nozzles",
+     "correct": true
+    },
+    {
+     "text": "Leaving hoses running on the floor",
+     "correct": false
+    },
+    {
+     "text": "Reporting leaking taps",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119537",
+ "title": "Demonstrate an understanding of basic health management practices on poultry holdings",
+ "lessons": [
+  {
+   "title": "Recognising healthy and sick birds",
+   "minutes": 15,
+   "html": "<h3>The first line of defence is a trained eye</h3><p>On a poultry holding, disease can spread through thousands of birds in days. The earlier a problem is spotted, the better the chance of limiting losses. Supervisors must know what normal looks like, so they can see when something is wrong.</p><h4>A healthy bird</h4><ul><li>Alert, active, responds to sound and movement.</li><li>Bright eyes, clean nostrils, breathes quietly with a closed beak at normal temperatures.</li><li>Smooth, clean feathers (allowing for age and moult).</li><li>Eats and drinks normally; crop fills after feeding.</li><li>Firm droppings with a white urate cap.</li><li>Walks evenly on both legs.</li></ul><h4>Signs of illness</h4><ul><li>Dull, hunched, ruffled feathers, eyes closed.</li><li>Gasping, coughing, rattling sounds, nasal discharge, swollen face or head.</li><li>Diarrhoea, bloody or very watery droppings.</li><li>Lameness, twisted necks, paralysis.</li><li>Drop in feed and water intake, weight gain or egg production.</li><li>Rising daily mortality.</li></ul><h4>Flock-level signs</h4><p>Look at the whole flock, not only individual birds. Daily records of water, feed, mortality and production often show a problem before birds look sick. A drop in water intake is one of the earliest signs.</p><h4>Main disease groups</h4><table><tr><th>Cause</th><th>Examples</th></tr><tr><td>Viruses</td><td>Newcastle disease, avian influenza, infectious bronchitis, Gumboro (IBD), Marek's disease</td></tr><tr><td>Bacteria</td><td>Salmonella, E. coli infections, mycoplasma</td></tr><tr><td>Parasites</td><td>Coccidiosis, worms, mites, lice</td></tr><tr><td>Management and nutrition</td><td>Heat stress, ammonia, deficiencies, leg problems</td></tr></table>"
+  },
+  {
+   "title": "Prevention: vaccination, biosecurity and management",
+   "minutes": 15,
+   "html": "<h3>Prevention is cheaper than cure</h3><h4>Biosecurity</h4><p>Keep disease out with controlled entry, footbaths or boot changes, clean vehicles, rodent and wild-bird control, all-in all-out placement, and proper cleaning and resting between flocks. Work from young to old and from healthy to sick houses.</p><h4>Vaccination</h4><ul><li>The poultry vet designs the programme for the farm's disease risks.</li><li>Vaccines are stored cold, at the label temperature, and used before expiry.</li><li>Correct method and dose are critical; a poorly given vaccine gives poor protection.</li><li>Record vaccine, batch, date, method and birds vaccinated.</li></ul><h4>Good management</h4><ul><li>Correct temperature, ventilation and stocking density.</li><li>Clean water and good-quality feed.</li><li>Dry litter (reduces coccidiosis and footpad problems).</li><li>Low stress: calm handling, avoid sudden changes.</li></ul><h4>Medicines</h4><p>Treatments are given only on the vet's instruction and in line with the label. Every treatment must be recorded with the date, product, dose and withdrawal period. Meat or eggs from treated birds must not go to market before the withdrawal period ends. Unnecessary use of antibiotics encourages resistance, which makes future infections harder to treat in animals and people.</p><h4>Safe handling of medicines and vaccines</h4><p>Wear gloves and eye protection as the label requires, avoid self-injection, dispose of empty vaccine vials and needles in the correct container, and never store medicines with food.</p>"
+  },
+  {
+   "title": "Responding to disease and reporting",
+   "minutes": 15,
+   "html": "<h3>Acting when something goes wrong</h3><h4>Steps when disease is suspected</h4><ol><li>Report to the farm manager immediately with what you have seen and the records.</li><li>Restrict movement of people, equipment and birds to and from the affected house.</li><li>Collect fresh dead or sick birds for the vet as instructed, in sealed bags, kept cool.</li><li>Follow the vet's instructions for treatment, culling or further testing.</li><li>Increase cleaning and disinfection at the affected house.</li></ol><h4>Notifiable and controlled diseases</h4><p>Under the Animal Diseases Act 35 of 1984, certain diseases must be reported to the state veterinarian. For poultry, these include avian influenza and Newcastle disease. If these are suspected, the farm must not move birds, eggs or manure off the property until the state vet gives instructions. Concealing such a disease is illegal and puts the whole industry at risk.</p><h4>Humane culling and disposal</h4><p>Sick birds that will not recover should be culled promptly and humanely by trained staff using an approved method, as the Animals Protection Act 71 of 1962 requires. Carcasses go to the approved disposal system, never left in the open.</p><h4>Learning from each flock</h4><p>At the end of each flock, review mortality, treatments and lab results with the manager and vet. Adjust the vaccination programme, biosecurity and management for the next flock.</p><h4>Key points</h4><ul><li>Know normal behaviour and appearance so you can spot sick birds early.</li><li>Daily records, especially water intake and mortality, often show disease first.</li><li>Prevention through biosecurity, vaccination and good management is cheaper than treatment.</li><li>Medicines only on vet instruction, recorded, with withdrawal periods observed.</li><li>Avian influenza and Newcastle disease must be reported to the state vet.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a sign of a healthy bird?",
+   "options": [
+    {
+     "text": "Gasping with an open beak at normal temperature",
+     "correct": false
+    },
+    {
+     "text": "Alert, bright eyes and quiet breathing",
+     "correct": true
+    },
+    {
+     "text": "Ruffled feathers and closed eyes",
+     "correct": false
+    },
+    {
+     "text": "Watery, bloody droppings",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which daily record is often one of the earliest signs of a problem?",
+   "options": [
+    {
+     "text": "A drop in water intake",
+     "correct": true
+    },
+    {
+     "text": "Number of egg trays ordered",
+     "correct": false
+    },
+    {
+     "text": "The staff duty roster",
+     "correct": false
+    },
+    {
+     "text": "Litter delivery date",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Coccidiosis is caused by what kind of organism?",
+   "options": [
+    {
+     "text": "A nutrient deficiency",
+     "correct": false
+    },
+    {
+     "text": "A fungus in the feed",
+     "correct": false
+    },
+    {
+     "text": "A virus",
+     "correct": false
+    },
+    {
+     "text": "A parasite",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should antibiotics not be used unnecessarily?",
+   "options": [
+    {
+     "text": "They damage drinker lines",
+     "correct": false
+    },
+    {
+     "text": "They make birds grow too fast",
+     "correct": false
+    },
+    {
+     "text": "They are always ineffective",
+     "correct": false
+    },
+    {
+     "text": "Overuse encourages resistance",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If avian influenza is suspected, what must the farm do?",
+   "options": [
+    {
+     "text": "Wait until more birds die",
+     "correct": false
+    },
+    {
+     "text": "Sell the flock quickly",
+     "correct": false
+    },
+    {
+     "text": "Move birds to another farm",
+     "correct": false
+    },
+    {
+     "text": "Report to the state vet and stop movements until instructed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Meat or eggs from treated birds must not be marketed before the withdrawal period ends.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hiding a suspected notifiable disease is acceptable if it protects the farm's sales.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which practices help prevent disease on a poultry holding? (select all that apply)",
+   "options": [
+    {
+     "text": "Mixing birds of different ages from different sources",
+     "correct": false
+    },
+    {
+     "text": "Correct vaccine storage and administration",
+     "correct": true
+    },
+    {
+     "text": "Keeping litter dry",
+     "correct": true
+    },
+    {
+     "text": "All-in all-out placement with cleaning between flocks",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

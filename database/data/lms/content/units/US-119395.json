@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-119395",
+ "title": "Demonstrate an understanding of the basic anatomy and physiology of poultry",
+ "lessons": [
+  {
+   "title": "The outside of a chicken",
+   "minutes": 15,
+   "html": "<h3>Knowing the bird</h3>\n<p>Whether you work on a broiler farm or in a poultry abattoir, you work with chickens every day. If you know the parts of the bird and how its body works, you can see when a bird is sick, handle it better and cut it correctly.</p>\n<p><em>Anatomy</em> means the parts of the body. <em>Physiology</em> means how the body works.</p>\n<h4>Parts on the outside</h4>\n<ul>\n<li><strong>Comb</strong> – the red skin on top of the head. A healthy bird usually has a bright red comb.</li>\n<li><strong>Wattles</strong> – the red skin that hangs under the beak.</li>\n<li><strong>Beak</strong> – used to pick up food. Chickens have no teeth.</li>\n<li><strong>Eyes</strong> – should be bright and clear.</li>\n<li><strong>Neck</strong> – long and moves easily.</li>\n<li><strong>Breast</strong> – the big meat on the front of the bird.</li>\n<li><strong>Wings</strong> – made of three parts: the drumette, the middle part (flat) and the tip.</li>\n<li><strong>Legs</strong> – the thigh, the drumstick and the shank (the scaly lower leg) with the feet.</li>\n<li><strong>Vent</strong> – the opening under the tail. Droppings and eggs come out here.</li>\n<li><strong>Feathers</strong> – keep the bird warm and dry.</li>\n</ul>\n<h4>Healthy or sick?</h4>\n<table><tr><th>Healthy bird</th><th>Sick bird</th></tr>\n<tr><td>Bright eyes, alert</td><td>Dull or closed eyes, sleepy</td></tr>\n<tr><td>Clean, smooth feathers</td><td>Ruffled or dirty feathers</td></tr>\n<tr><td>Eats and drinks well</td><td>Does not eat, sits alone</td></tr>\n<tr><td>Clean vent</td><td>Dirty, wet vent (diarrhoea)</td></tr>\n<tr><td>Breathes quietly</td><td>Gasps, coughs or sneezes</td></tr>\n</table>\n<p>If you see sick birds, tell your supervisor. Sick birds can spread disease to the whole house, and in the abattoir they may not be fit for food.</p>"
+  },
+  {
+   "title": "Inside the bird: digestion and breathing",
+   "minutes": 15,
+   "html": "<h3>How a chicken eats</h3>\n<p>A chicken's digestive system is different from a cow's or a person's. Follow the food:</p>\n<ol>\n<li><strong>Beak</strong> – picks up the feed. There are no teeth, so food is swallowed whole.</li>\n<li><strong>Oesophagus</strong> – the tube from the mouth down the neck.</li>\n<li><strong>Crop</strong> – a pouch at the bottom of the neck where food is stored and softened.</li>\n<li><strong>Proventriculus</strong> – the true stomach, where digestive juices are added.</li>\n<li><strong>Gizzard</strong> – a strong, muscular organ that grinds the food, like teeth would.</li>\n<li><strong>Intestines</strong> – food is broken down and taken into the blood here.</li>\n<li><strong>Caeca</strong> – two blind pouches that help break down hard food.</li>\n<li><strong>Vent (cloaca)</strong> – waste leaves the body here.</li>\n</ol>\n<p>The <strong>liver</strong> helps digestion and cleans the blood. The green <strong>gall bladder</strong> sits on the liver. In the abattoir you must take care not to burst the gall bladder or the intestines, because they will dirty the meat.</p>\n<p>This is also why birds are taken off feed for some hours before slaughter: an empty gut is less likely to spill and contaminate the carcass. Follow your plant's feed withdrawal times.</p>\n<h4>How a chicken breathes</h4>\n<p>Chickens have two small <strong>lungs</strong> pressed against the back ribs, and extra <strong>air sacs</strong> that spread through the body. Air moves through the lungs and air sacs. Because of the air sacs, chickens are very sensitive to dust, ammonia from wet litter and poor ventilation. Bad air in a poultry house can make birds sick quickly.</p>\n<h4>The heart and blood</h4>\n<p>The heart pumps blood around the body. A chicken's heart beats much faster than a person's. In the abattoir, good bleeding after the neck cut is important so the meat looks and keeps well.</p>"
+  },
+  {
+   "title": "Body temperature, muscles and reproduction",
+   "minutes": 15,
+   "html": "<h3>Keeping warm and cool</h3>\n<p>Chickens are warm-blooded. Their normal body temperature is higher than ours. They cannot sweat. When they are too hot they pant with open beaks and hold their wings away from the body. On a hot summer day in Limpopo or the North West, a crowded truck or poultry house can kill birds from heat stress. Good ventilation, shade and clean water help.</p>\n<p>Young chicks cannot keep themselves warm at first. That is why they are kept under brooders.</p>\n<h4>Bones and muscles</h4>\n<p>The bird's skeleton is light. Some bones are hollow and connect to the air sacs. The <strong>keel</strong> is the big breast bone that the breast muscle attaches to. The breast meat is white meat. The legs and thighs have darker meat because these muscles work more and have more blood supply. Bones in broilers can break easily if birds are caught or hung roughly, causing bruises and broken wings. Handle birds gently.</p>\n<h4>Reproduction</h4>\n<p>A hen has one working ovary and oviduct, on the left side. The egg yolk forms in the ovary and moves down the oviduct, where the white, the shell membranes and the shell are added. The egg is laid through the vent. A cock (rooster) is needed for a fertile egg that can hatch, but hens lay eggs without a cock.</p>\n<h4>Why this matters at work</h4>\n<ul>\n<li>On the farm: you notice sick or stressed birds early.</li>\n<li>When catching: you handle the bird without breaking wings or legs.</li>\n<li>In the abattoir: you know where the organs are so you can remove them cleanly.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Healthy birds have bright eyes, clean feathers and a clean vent.</li>\n<li>The crop stores food and the gizzard grinds it, because chickens have no teeth.</li>\n<li>Do not burst the gall bladder or intestines; they contaminate the meat.</li>\n<li>Chickens have air sacs, so dust and ammonia harm them quickly.</li>\n<li>Chickens cannot sweat; they pant when hot.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which organ grinds the food in a chicken?",
+   "options": [
+    {
+     "text": "Crop",
+     "correct": false
+    },
+    {
+     "text": "Gizzard",
+     "correct": true
+    },
+    {
+     "text": "Liver",
+     "correct": false
+    },
+    {
+     "text": "Caeca",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where is food stored and softened at the bottom of the neck?",
+   "options": [
+    {
+     "text": "Gizzard",
+     "correct": false
+    },
+    {
+     "text": "Vent",
+     "correct": false
+    },
+    {
+     "text": "Crop",
+     "correct": true
+    },
+    {
+     "text": "Lungs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must you be careful not to burst the gall bladder in the abattoir?",
+   "options": [
+    {
+     "text": "It is the most valuable part",
+     "correct": false
+    },
+    {
+     "text": "It will dirty the meat",
+     "correct": true
+    },
+    {
+     "text": "It makes the knife blunt",
+     "correct": false
+    },
+    {
+     "text": "It makes the bird heavier",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How does a chicken try to cool down when it is too hot?",
+   "options": [
+    {
+     "text": "It sweats",
+     "correct": false
+    },
+    {
+     "text": "It pants with an open beak",
+     "correct": true
+    },
+    {
+     "text": "It eats more",
+     "correct": false
+    },
+    {
+     "text": "It fluffs up its feathers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a sign of a sick bird?",
+   "options": [
+    {
+     "text": "Bright eyes",
+     "correct": false
+    },
+    {
+     "text": "Clean vent",
+     "correct": false
+    },
+    {
+     "text": "Ruffled feathers and sitting alone",
+     "correct": true
+    },
+    {
+     "text": "Eating and drinking well",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chickens have teeth to chew their food.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chickens have air sacs, so dusty air and ammonia can make them sick quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are parts of a chicken's digestive system? (select all that apply)",
+   "options": [
+    {
+     "text": "Crop",
+     "correct": true
+    },
+    {
+     "text": "Comb",
+     "correct": false
+    },
+    {
+     "text": "Gizzard",
+     "correct": true
+    },
+    {
+     "text": "Wattles",
+     "correct": false
+    },
+    {
+     "text": "Intestines",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

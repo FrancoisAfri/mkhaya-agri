@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102001-WM-01",
+  "title": "Calf and heifer rearing practices and a dairy farm",
+  "lessons": [
+    {
+      "title": "From birth to weaning: the calf's first weeks",
+      "minutes": 20,
+      "html": "<h3>Your workplace tasks in the calf unit</h3><p>In this work experience module you will take part in the daily calf and heifer routine on a working dairy, under supervision, and record what you did in your logbook. The calves you rear today are the cows that will fill the tank in two years' time.</p><h4>At calving</h4><ul><li>Check calving cows often. Call the supervisor or vet early if a cow is straining for a long time without progress, or if the calf is coming the wrong way.</li><li>Make sure the newborn calf is breathing. Clear mucus from the nose and mouth.</li><li>Dip the navel in the disinfectant used on the farm to prevent navel infection.</li><li>Tag the calf and record cow number, calf number, sex, date and calving ease.</li></ul><h4>Colostrum: the most important feed</h4><p>A calf is born with almost no protection against disease. It gets antibodies from colostrum, the first milk. The calf's gut can absorb these antibodies only for a short time after birth, so:</p><ul><li>Feed good quality colostrum as soon as possible, ideally within the first few hours of life.</li><li>Feed the volume set in the farm's calf protocol, by bottle or tube feeder if the calf will not suck. Only trained people should tube-feed.</li><li>Test colostrum quality with a colostrometer or refractometer if the farm uses one, and freeze good surplus colostrum labelled with date and cow number.</li></ul><h4>Milk feeding to weaning</h4><ul><li>Feed whole milk or milk replacer at the same times, temperature and amounts every day, as set in the protocol.</li><li>Mix milk replacer exactly as the bag says. Wrong mixing causes scours.</li><li>Offer clean water and calf starter meal from the first week to develop the rumen.</li><li>Wash buckets, teats and bottles after every feed.</li><li>Wean when the calf eats enough starter, using the farm's weaning criteria, not only age.</li></ul>"
+    },
+    {
+      "title": "Calf health and housing",
+      "minutes": 20,
+      "html": "<h3>Spotting sick calves early</h3><p>Check every calf at every feed. The main problems are scours (diarrhoea) and pneumonia. Signs of a sick calf:</p><ul><li>Not drinking or drinking slowly.</li><li>Runny, smelly or bloody dung; dirty tail.</li><li>Sunken eyes, which show dehydration.</li><li>Coughing, runny nose, fast breathing.</li><li>Dull, ears drooping, lying apart from others.</li><li>High temperature taken with a thermometer.</li></ul><p>Report sick calves immediately. Scouring calves lose fluid fast; the supervisor or vet will decide on oral electrolytes and treatment. Keep feeding milk unless told otherwise. Record every treatment and the withdrawal time from the label or vet.</p><h4>Housing</h4><ul><li>Individual hutches or pens for young calves reduce spread of disease.</li><li>Bedding must be clean and dry. A calf lying on wet bedding loses body heat and gets sick.</li><li>Good airflow without cold draughts at calf level.</li><li>Shade in summer and shelter from cold winds and rain in winter, especially on the Highveld and in the Eastern Cape.</li><li>Clean and rest pens between calves.</li></ul><h4>Hygiene and biosecurity</h4><ul><li>Feed the youngest calves first and sick calves last.</li><li>Wash hands and boots between groups.</li><li>Keep visitors and dogs out of the calf unit.</li></ul><h4>Routine procedures</h4><p>Dehorning or disbudding, vaccinations and deworming follow the vet's herd health plan. Disbudding must be done by a trained person with pain relief as advised by the vet. Under the Animals Protection Act 71 of 1962, causing unnecessary suffering is an offence.</p><h4>Recording in your logbook</h4><p>Each day write down how many calves you fed, which calves were sick, what signs you saw and what action the supervisor or vet took. These notes show your assessor that you can spot problems early and follow the farm's calf protocol.</p>"
+    },
+    {
+      "title": "Rearing heifers to first calving",
+      "minutes": 20,
+      "html": "<h3>Growing the future herd</h3><p>After weaning, heifers are grouped by age and size. The goal is to grow them steadily so they are big enough to be bred at the target age and weight set by the farm, and calve down without problems.</p><h4>Feeding heifers</h4><ul><li>Feed good pasture, hay or silage with the meal and minerals set by the nutritionist.</li><li>Keep groups of similar size so small heifers are not pushed away from feed.</li><li>Clean water always available.</li><li>Do not let heifers get too fat or too thin. Both cause calving and fertility problems.</li></ul><h4>Monitoring growth</h4><p>Weigh heifers regularly using a scale or weigh band, and record the weights. Compare with the farm's growth targets for the breed. A Jersey heifer has a lower target weight than a Holstein. Report groups that are falling behind.</p><h4>Health</h4><ul><li>Vaccinate and deworm according to the herd health plan.</li><li>Control ticks and flies as advised by the vet; follow product labels.</li><li>Watch for lameness, eye problems and redwater or heartwater in tick areas.</li></ul><h4>Breeding heifers</h4><ul><li>Watch heifers for heat signs: standing to be mounted, restlessness, mucus, swollen vulva.</li><li>Record heats and services. AI is done by a trained technician.</li><li>Pregnancy is confirmed by the vet.</li><li>Move in-calf heifers to the close-up group before calving as the farm plan says, and introduce them to the parlour calmly.</li></ul><h4>Your logbook</h4><p>Record the tasks you did each day, the number of animals, problems you saw and what action was taken. Ask your supervisor to sign off each week.</p><h4>Key points</h4><ul><li>Feed colostrum as soon as possible after birth, as set in the calf protocol.</li><li>Check every calf at every feed and report sick calves immediately.</li><li>Keep bedding dry and buckets clean; feed sick calves last.</li><li>Weigh heifers regularly and keep them growing to target.</li><li>Record every birth, treatment, weight and service.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why is colostrum so important for a newborn calf?",
+      "options": [
+        {
+          "text": "It gives the calf antibodies against disease",
+          "correct": true
+        },
+        {
+          "text": "It makes the calf grow horns",
+          "correct": false
+        },
+        {
+          "text": "It replaces water for the first month",
+          "correct": false
+        },
+        {
+          "text": "It is cheaper than milk replacer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When should colostrum be fed?",
+      "options": [
+        {
+          "text": "After one week",
+          "correct": false
+        },
+        {
+          "text": "Only when the calf is weaned",
+          "correct": false
+        },
+        {
+          "text": "As soon as possible, ideally within the first few hours",
+          "correct": true
+        },
+        {
+          "text": "Only if the calf looks sick",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does a sunken eye in a scouring calf usually show?",
+      "options": [
+        {
+          "text": "The calf is overfed",
+          "correct": false
+        },
+        {
+          "text": "The calf is dehydrated",
+          "correct": true
+        },
+        {
+          "text": "The calf is ready to wean",
+          "correct": false
+        },
+        {
+          "text": "The calf is cold only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In which order should calves be fed for good biosecurity?",
+      "options": [
+        {
+          "text": "Sick calves first",
+          "correct": false
+        },
+        {
+          "text": "Oldest calves first",
+          "correct": false
+        },
+        {
+          "text": "Any order",
+          "correct": false
+        },
+        {
+          "text": "Youngest first and sick calves last",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is the navel of a newborn calf dipped?",
+      "options": [
+        {
+          "text": "To prevent navel infection",
+          "correct": true
+        },
+        {
+          "text": "To mark the calf",
+          "correct": false
+        },
+        {
+          "text": "To stop bleeding from the nose",
+          "correct": false
+        },
+        {
+          "text": "To help the calf drink",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Calf starter meal and clean water should be offered from the first week of life.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Heifers should be made as fat as possible before breeding.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are signs of heat in a heifer? (select all that apply)",
+      "options": [
+        {
+          "text": "Standing to be mounted",
+          "correct": true
+        },
+        {
+          "text": "Clear mucus and swollen vulva",
+          "correct": true
+        },
+        {
+          "text": "Restlessness",
+          "correct": true
+        },
+        {
+          "text": "Sunken eyes",
+          "correct": false
+        },
+        {
+          "text": "Coughing",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

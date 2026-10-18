@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119425",
+ "title": "Apply water management in poultry processing",
+ "lessons": [
+  {
+   "title": "Why water matters in the plant",
+   "minutes": 15,
+   "html": "<h3>Water in a poultry abattoir</h3>\n<p>A poultry plant uses a lot of water. Water is used in the scalder, for washing carcasses inside and outside, in the chillers, for cleaning floors and machines, for washing hands and boots and for making ice. Without enough clean water, the plant cannot work.</p>\n<p>South Africa is a dry country. Many towns have water restrictions, and water costs money. The <strong>National Water Act 36 of 1998</strong> controls how water is used and how dirty water is returned to the environment. Every worker can help save water and keep it clean.</p>\n<h4>Water must be safe</h4>\n<p>Any water that touches the chicken must be <strong>potable</strong>, which means safe to drink. If dirty water touches the meat, germs can spread to thousands of birds. Plants test their water regularly against the drinking-water standard and many add chlorine or another treatment as instructed by the quality department.</p>\n<h4>Where water is used</h4>\n<table><tr><th>Area</th><th>Use</th></tr>\n<tr><td>Scalder</td><td>Hot water to loosen feathers</td></tr>\n<tr><td>Inside-outside washer</td><td>Sprays clean carcasses after evisceration</td></tr>\n<tr><td>Chillers</td><td>Cold water or ice to cool carcasses</td></tr>\n<tr><td>Hand wash and boot wash</td><td>Personal hygiene</td></tr>\n<tr><td>Cleaning</td><td>Floors, walls, machines and crates</td></tr>\n</table>\n<p><em>Example:</em> On a cleaning shift at a plant near Rustenburg, a worker leaves a hose running on the floor during a 30-minute tea break. Thousands of litres of treated water go down the drain for nothing. The plant pays for that water and again for the effluent it produces.</p><p>Your supervisor may ask you to help find ways to save water in your area. Think about where you see water running with no birds or product, where hoses are left open and where floors are rinsed before they are scraped. Small changes by every worker save a lot of water over a year.</p>"
+  },
+  {
+   "title": "Saving water at work",
+   "minutes": 15,
+   "html": "<h3>Use only what you need</h3>\n<p>Saving water does not mean making the plant dirty. It means using water wisely while keeping hygiene standards.</p>\n<h4>Good habits</h4>\n<ul>\n<li>Close taps and hoses when you are not using them. Never leave a hose running on the floor.</li>\n<li>Use hoses with trigger nozzles that stop the water when you let go.</li>\n<li>Dry clean first: scrape and sweep meat pieces and feathers into bins before you rinse. This saves a lot of water.</li>\n<li>Use the correct pressure and spray only where needed.</li>\n<li>Report leaking taps, pipes, valves and toilets at once.</li>\n<li>Report sprays on the line that are blocked, broken or spraying when there are no birds.</li>\n<li>Do not change chiller overflow or water settings unless you are authorised.</li>\n</ul>\n<h4>Reading meters and records</h4>\n<p>Many plants have water meters in different areas. You may be asked to read a meter at the start and end of a shift and write it down. The plant can then see how many litres are used per bird. If the number suddenly goes up, there may be a leak or a bad habit.</p>\n<ol>\n<li>Read the numbers from left to right.</li>\n<li>Write down the exact reading, the date and time.</li>\n<li>Tell your supervisor if the reading looks strange.</li>\n</ol>\n<h4>When water is not safe</h4>\n<p>Stop and tell your supervisor if you notice:</p>\n<ul>\n<li>Water that is brown, cloudy or smells bad.</li>\n<li>No water pressure at hand wash basins.</li>\n<li>A hose lying in a dirty drain or on the floor and then used on product.</li>\n<li>Non-potable water (for example from a borehole that is not treated) connected where it can touch the product.</li>\n</ul>\n<p>Production may have to stop until safe water is restored. That is the correct decision for food safety.</p>"
+  },
+  {
+   "title": "Waste water and the environment",
+   "minutes": 15,
+   "html": "<h3>What happens to dirty water</h3>\n<p>Water leaving the plant is called <strong>effluent</strong>. It contains blood, fat, feathers, meat pieces and cleaning chemicals. If it goes into a river or the veld untreated, it kills fish, smells bad and can make people and animals sick. The municipality or the plant's own treatment works must treat it, and the plant may be charged or fined if the effluent is too dirty.</p>\n<h4>How you can reduce dirty water</h4>\n<ul>\n<li>Collect blood in the blood tank. Never wash blood down the drain on purpose.</li>\n<li>Pick up feathers, guts and meat pieces with a shovel or squeegee and put them in the bins.</li>\n<li>Keep drain screens and fat traps in place. Do not remove a screen to make water flow faster.</li>\n<li>Use cleaning chemicals at the correct strength only. Too much chemical is waste and harms the treatment works.</li>\n<li>Never pour oil, fuel or unused chemicals down the drain.</li>\n</ul>\n<h4>Safety around water</h4>\n<ul>\n<li>Wet floors are slippery. Wear non-slip boots and walk, do not run.</li>\n<li>Hot water from the scalder and cleaning hoses can burn.</li>\n<li>Never spray water onto electrical boxes, motors or plugs.</li>\n<li>Do not enter effluent pits or tanks. These are confined spaces with dangerous gases. Only trained people with the right equipment may enter.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Water that touches the product must be potable (safe to drink).</li>\n<li>Close taps and hoses when not in use and report leaks.</li>\n<li>Dry clean before rinsing to save water.</li>\n<li>Keep blood, fat and solids out of the drains.</li>\n<li>Never spray water on electrical equipment or enter effluent pits.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does potable water mean?",
+   "options": [
+    {
+     "text": "Hot water",
+     "correct": false
+    },
+    {
+     "text": "Water that is safe to drink",
+     "correct": true
+    },
+    {
+     "text": "Water from a dam",
+     "correct": false
+    },
+    {
+     "text": "Recycled effluent",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before rinsing a floor with water?",
+   "options": [
+    {
+     "text": "Add more chemical",
+     "correct": false
+    },
+    {
+     "text": "Dry clean by picking up pieces and feathers",
+     "correct": true
+    },
+    {
+     "text": "Open all the hoses",
+     "correct": false
+    },
+    {
+     "text": "Remove the drain screens",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is effluent?",
+   "options": [
+    {
+     "text": "Clean drinking water",
+     "correct": false
+    },
+    {
+     "text": "Dirty water leaving the plant",
+     "correct": true
+    },
+    {
+     "text": "Ice used in chillers",
+     "correct": false
+    },
+    {
+     "text": "A type of chemical",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the water at the hand wash basin is brown and smells bad?",
+   "options": [
+    {
+     "text": "Use it anyway",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Add soap",
+     "correct": false
+    },
+    {
+     "text": "Use the hose instead",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should blood from the bleeding area go?",
+   "options": [
+    {
+     "text": "Into the drain",
+     "correct": false
+    },
+    {
+     "text": "Into the blood tank",
+     "correct": true
+    },
+    {
+     "text": "Onto the floor",
+     "correct": false
+    },
+    {
+     "text": "Into the scalder",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to leave a hose running on the floor during a tea break.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only trained people with the right equipment may enter effluent pits, because of dangerous gases.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good water-saving habits? (select all that apply)",
+   "options": [
+    {
+     "text": "Use hoses with trigger nozzles",
+     "correct": true
+    },
+    {
+     "text": "Report leaking taps and pipes",
+     "correct": true
+    },
+    {
+     "text": "Remove drain screens",
+     "correct": false
+    },
+    {
+     "text": "Dry clean before rinsing",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

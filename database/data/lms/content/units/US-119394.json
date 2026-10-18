@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119394",
+ "title": "Clean and disinfect on poultry holdings",
+ "lessons": [
+  {
+   "title": "Why we clean and disinfect",
+   "minutes": 15,
+   "html": "<h3>Breaking the disease cycle</h3><p>After a flock leaves the house, germs, worms, beetles and other pests stay behind in the litter, dust, droppings and equipment. If the house is not cleaned well, the next flock of chicks gets sick. Cleaning and disinfection (C&amp;D) breaks the cycle of disease between flocks.</p><h4>Cleaning and disinfecting are different</h4><ul><li><strong>Cleaning</strong> removes dirt: litter, manure, dust, feathers and feed.</li><li><strong>Disinfecting</strong> kills the germs that are left after cleaning.</li></ul><p>A disinfectant cannot work on dirt. If you spray disinfectant on a dirty floor, most germs will survive under the dirt. Always clean first.</p><h4>What must be cleaned</h4><ul><li>The whole house: floor, walls, ceiling, curtains, fans and inlets</li><li>Feeders, drinkers, water lines and header tanks</li><li>Brooders and heaters</li><li>Egg trays, crates and nests</li><li>The area outside the house: paths, drains and the area around the door</li><li>Store rooms, change rooms and footbaths</li><li>Vehicles and equipment that move between houses or farms</li></ul><h4>Safety first</h4><p>Cleaning chemicals and disinfectants can burn skin, eyes and lungs. Always wear the protective clothing your supervisor gives you: gloves, goggles, mask, overalls and boots. Read the label or ask your supervisor. Never mix chemicals. Keep chemicals in their own labelled containers, away from feed and water. Switch off electricity to equipment before washing it with water; only trained people may isolate electricity.</p><h4>Example</h4><p>On one farm, chicks in a house that was not cleaned well got sick in the first week, while chicks in a well-cleaned house next door stayed healthy.</p><p>Ask your supervisor to show you the cleaning plan.</p>"
+  },
+  {
+   "title": "Step-by-step cleaning",
+   "minutes": 15,
+   "html": "<h3>How to clean a poultry house</h3><ol><li><strong>Remove birds and feed</strong>: when the flock has left, empty feeders and feed bins.</li><li><strong>Pest control</strong>: spray for insects such as litter beetles while the house is still warm, if the farm programme says so.</li><li><strong>Remove equipment</strong>: take out movable feeders, drinkers and brooders, or lift them up, for washing.</li><li><strong>Dry clean</strong>: remove all litter and manure. Brush down dust from walls, beams, fans and ceilings, from the top to the bottom. Sweep the floor.</li><li><strong>Remove litter far away</strong>: take old litter away from the poultry houses, cover the load, and dispose of it as the farm instructs. Do not leave it next to the house.</li><li><strong>Soak</strong>: wet surfaces with water so dirt softens.</li><li><strong>Wash with detergent</strong>: apply detergent, leave it for the time on the label, then scrub and wash with a pressure washer, top to bottom, back to front, toward the door.</li><li><strong>Rinse</strong>: rinse off all detergent and dirt.</li><li><strong>Clean water lines</strong>: flush drinker lines and clean header tanks with the product the supervisor gives you.</li><li><strong>Let it dry</strong>.</li><li><strong>Check</strong>: your supervisor inspects. If any dirt is left, clean again.</li></ol><h4>Tips</h4><ul><li>Work from the top to the bottom so dirt falls onto areas not yet cleaned.</li><li>Do not forget hidden places: behind fans, inside feeder pans, on beams, cracks in floors.</li><li>Fix broken things while the house is empty.</li></ul><p>Wear your protective clothing during all of these steps.</p><p>Ask your supervisor to check each house before you move on.</p>"
+  },
+  {
+   "title": "Disinfecting and getting ready for the next flock",
+   "minutes": 15,
+   "html": "<h3>Killing the germs and resting the house</h3><h4>Disinfecting</h4><ol><li>Use only the disinfectant your supervisor gives you.</li><li>Mix it at the strength written on the label. Too weak will not work; too strong wastes money and can be dangerous.</li><li>Use a measuring jug to measure. Add the chemical to water, not water to the chemical.</li><li>Spray all surfaces, top to bottom, until wet.</li><li>Leave it for the contact time on the label. Do not rinse it off early.</li><li>Disinfect cleaned equipment before putting it back.</li><li>Some farms also fog or fumigate the closed house; only trained people may do this, wearing full protective equipment.</li></ol><h4>Footbaths</h4><p>Footbaths at house doors must be cleaned and refilled with fresh disinfectant as often as the farm rules say, and whenever they are dirty. Dirty footbaths do not work.</p><h4>Resting the house</h4><p>After disinfection, the house is closed and left empty for a rest period, as the farm programme sets. This helps kill remaining germs.</p><h4>Before the new flock</h4><ul><li>Put back clean equipment.</li><li>Put in fresh, clean litter.</li><li>Check that water and feed systems work.</li><li>Keep the house closed to people who do not need to be there.</li></ul><h4>Records</h4><p>Write down the date of each step, the chemicals used, the strength, and who did the work. Your supervisor signs the check. Some farms send swabs to a laboratory to test how well the house was cleaned.</p><h4>Key points</h4><ul><li>Cleaning removes dirt; disinfecting kills the germs left behind. Always clean first.</li><li>Dry clean, soak, wash with detergent and rinse, from top to bottom.</li><li>Mix disinfectant at the label strength and leave it for the contact time.</li><li>Wear protective clothing and never mix chemicals.</li><li>Rest the house, keep footbaths fresh and record all the work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must you clean before you disinfect?",
+   "options": [
+    {
+     "text": "Disinfectant cannot work on dirt",
+     "correct": true
+    },
+    {
+     "text": "Cleaning is cheaper",
+     "correct": false
+    },
+    {
+     "text": "Disinfectant makes dirt harder",
+     "correct": false
+    },
+    {
+     "text": "It saves water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which direction should you clean walls and equipment?",
+   "options": [
+    {
+     "text": "Bottom to top",
+     "correct": false
+    },
+    {
+     "text": "Top to bottom",
+     "correct": true
+    },
+    {
+     "text": "Left to right only",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen to old litter?",
+   "options": [
+    {
+     "text": "Leave it next to the house",
+     "correct": false
+    },
+    {
+     "text": "Spread it inside the next house",
+     "correct": false
+    },
+    {
+     "text": "Take it away from the houses, covered, as the farm instructs",
+     "correct": true
+    },
+    {
+     "text": "Burn it inside the house",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should disinfectant not be mixed stronger than the label says?",
+   "options": [
+    {
+     "text": "It works better",
+     "correct": false
+    },
+    {
+     "text": "It is cheaper",
+     "correct": false
+    },
+    {
+     "text": "The label is wrong",
+     "correct": false
+    },
+    {
+     "text": "It wastes money and can be dangerous",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the contact time?",
+   "options": [
+    {
+     "text": "How long the disinfectant must stay on the surface",
+     "correct": true
+    },
+    {
+     "text": "How long you take for lunch",
+     "correct": false
+    },
+    {
+     "text": "The time the flock is in the house",
+     "correct": false
+    },
+    {
+     "text": "The time to drive to the farm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cleaning chemicals may be mixed together to make them stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Footbaths must be refilled with fresh disinfectant when they are dirty.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items must be cleaned and disinfected between flocks? (select all that apply)",
+   "options": [
+    {
+     "text": "Feeders and drinkers",
+     "correct": true
+    },
+    {
+     "text": "Water lines and header tanks",
+     "correct": true
+    },
+    {
+     "text": "Fans and inlets",
+     "correct": true
+    },
+    {
+     "text": "The farm manager's car radio",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

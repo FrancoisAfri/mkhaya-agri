@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-WM-05",
+ "title": "Grain Grading Practices and Procedures",
+ "lessons": [
+  {
+   "title": "Grading in the workplace",
+   "minutes": 15,
+   "html": "<h3>Work experience focus</h3>\n<p>In this module you grade grains and oilseeds at a working depot under supervision until you can grade accurately and independently. Your mentor, a senior certified grader, will check your results through check-grading and sign off your logbook.</p>\n<h4>Your daily routine</h4>\n<ol>\n<li>Arrive early and set up the grading station: clean work surface, good lighting, sieves, divider, balances, moisture meter, sample containers and forms.</li>\n<li>Check balances with test weights and the moisture meter against a reference sample. Record the checks.</li>\n<li>Confirm which commodities and grades the depot is accepting today and which bins they go to.</li>\n<li>Grade loads as they arrive, following the regulations and depot procedure exactly.</li>\n<li>Label and store retained samples.</li>\n<li>Complete records and hand over at the end of the shift.</li>\n</ol>\n<h4>Practising each commodity</h4>\n<p>Each commodity has its own deviations and methods in the regulations under the Agricultural Product Standards Act 119 of 1990. Build experience with all commodities your depot handles, for example:</p>\n<ul>\n<li><strong>Maize</strong> – class by colour, and deviations such as defective kernels, foreign matter, other colour kernels and screenings.</li>\n<li><strong>Wheat</strong> – class and grade with tests such as hectolitre mass and falling number where required.</li>\n<li><strong>Soya beans and sunflower seed</strong> – oilseed-specific deviations such as split or damaged seeds and foreign matter.</li>\n<li><strong>Sorghum</strong> – class and deviations specific to sorghum.</li>\n</ul>\n<p>Keep a reference set of example defects (heat-damaged, insect-damaged, mouldy kernels) approved by your mentor to help you identify them consistently.</p><p>Ask your mentor to watch you grade complete loads of each commodity and to give feedback on your method, speed and accuracy. Record the dates and results in your logbook as evidence of growing competence.</p>"
+  },
+  {
+   "title": "Accuracy, integrity and client interaction",
+   "minutes": 15,
+   "html": "<h3>Getting it right</h3>\n<p>Grading accuracy affects farmers' income and the depot's stock quality. Common errors and how to avoid them:</p>\n<table>\n<tr><th>Error</th><th>Prevention</th></tr>\n<tr><td>Unrepresentative sample</td><td>Probe the whole load as prescribed; divide correctly</td></tr>\n<tr><td>Wrong sieve or method</td><td>Use the method sheet for each commodity</td></tr>\n<tr><td>Misidentified defects</td><td>Use reference samples; ask the senior grader when unsure</td></tr>\n<tr><td>Calculation mistakes</td><td>Double-check percentages; use system calculations where available</td></tr>\n<tr><td>Recording errors</td><td>Record immediately against the correct ticket number</td></tr>\n</table>\n<p>Your check-grading results will show where you differ from the senior grader. Discuss each difference and learn from it.</p>\n<h3>Integrity</h3>\n<p>A grader must be independent. Never accept gifts or favours from farmers or drivers, never change a result under pressure and report any attempt to influence grading to your supervisor. Grading fraud harms farmers, buyers and the depot and is serious misconduct.</p>\n<h3>Dealing with farmers and drivers</h3>\n<ul>\n<li>Greet them respectfully and explain the process if they are new.</li>\n<li>When a grade is lower than expected, explain which deviation caused it and show the sample where the procedure allows.</li>\n<li>If they disagree, explain the dispute procedure and call your supervisor.</li>\n<li>Stay calm and polite, even if the person is angry.</li>\n</ul>\n<h3>Safety at the grading point</h3>\n<p>Use the sampling platform, never climb loads without fall protection, keep clear of moving trucks and report unusual smells that may indicate fumigant residues or chemicals.</p>\n<h3>Building your portfolio</h3>\n<p>Include your daily logbook, calibration records, grading certificates you issued, check-grading comparisons and mentor sign-offs for each commodity.</p>\n<h4>Key points</h4>\n<ul>\n<li>Set up and calibrate the grading station every day.</li>\n<li>Grade each commodity using its own regulations and methods.</li>\n<li>Use reference samples and check-grading to improve accuracy.</li>\n<li>Stay independent; never change grades under pressure and report attempts to influence you.</li>\n<li>Treat farmers and drivers respectfully and follow the dispute procedure.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should a grader do first each day?",
+   "options": [
+    {
+     "text": "Phone farmers",
+     "correct": false
+    },
+    {
+     "text": "Set up the station and check balances and the moisture meter",
+     "correct": true
+    },
+    {
+     "text": "Go to the canteen",
+     "correct": false
+    },
+    {
+     "text": "Grade the first truck immediately",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How can misidentified defects be avoided?",
+   "options": [
+    {
+     "text": "Using reference samples and asking the senior grader when unsure",
+     "correct": true
+    },
+    {
+     "text": "Letting the farmer decide",
+     "correct": false
+    },
+    {
+     "text": "Guessing",
+     "correct": false
+    },
+    {
+     "text": "Ignoring defects",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farmer offers the grader a gift. What should the grader do?",
+   "options": [
+    {
+     "text": "Accept it after grading",
+     "correct": false
+    },
+    {
+     "text": "Refuse it and report any attempt to influence grading",
+     "correct": true
+    },
+    {
+     "text": "Share it with colleagues",
+     "correct": false
+    },
+    {
+     "text": "Accept it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farmer disagrees with a grade. What should the grader do?",
+   "options": [
+    {
+     "text": "Refuse to speak",
+     "correct": false
+    },
+    {
+     "text": "Send the farmer away",
+     "correct": false
+    },
+    {
+     "text": "Change the grade",
+     "correct": false
+    },
+    {
+     "text": "Explain the dispute procedure and call the supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which test may be required for wheat?",
+   "options": [
+    {
+     "text": "Hectolitre mass",
+     "correct": true
+    },
+    {
+     "text": "Pellet durability",
+     "correct": false
+    },
+    {
+     "text": "Mixer CV",
+     "correct": false
+    },
+    {
+     "text": "Bulk density of kibble",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Check-grading results help a learner grader see where they differ from the senior grader.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Recording results later at the end of the day is good practice.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be included in a grader’s portfolio? (select all that apply)",
+   "options": [
+    {
+     "text": "Grading certificates issued",
+     "correct": true
+    },
+    {
+     "text": "Check-grading comparisons",
+     "correct": true
+    },
+    {
+     "text": "Personal shopping lists",
+     "correct": false
+    },
+    {
+     "text": "Calibration records",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

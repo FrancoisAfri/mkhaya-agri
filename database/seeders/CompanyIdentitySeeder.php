@@ -15,8 +15,8 @@ class CompanyIdentitySeeder extends Seeder
         CompanyIdentity::updateOrCreate(
             ['id' => 1],
             [
-                'company_name' => 'Mkhaya Hub',
-                'full_company_name' => 'Mkhaya Hub Technologies',
+                'company_name' => 'Mkhaya Agri',
+                'full_company_name' => 'Mkhaya Agri Technologies',
                 'header_name_bold' => 'MKHAYA',
                 'header_name_regular' => 'Hub',
                 'header_acronym_bold' => 'MH',
@@ -25,7 +25,7 @@ class CompanyIdentitySeeder extends Seeder
 
                 'sys_theme_color' => '#020d31',
 
-                'mailing_name' => 'Mkhaya Hub',
+                'mailing_name' => 'Mkhaya Agri',
                 'mailing_address' => 'Douala, Cameroun',
 
                 'support_email' => 'support@mkhaya.com',
@@ -36,7 +36,7 @@ class CompanyIdentitySeeder extends Seeder
                 'system_background_image' => null,
                 'login_background_image' => null,
 
-                'brought_to_text' => 'Powered by Mkhaya Hub',
+                'brought_to_text' => 'Powered by Mkhaya Agri',
                 'brought_to_text_image' => null,
             ]
         );

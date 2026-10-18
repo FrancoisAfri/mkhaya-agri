@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116820",
+ "title": "Drive a tractor",
+ "lessons": [
+  {
+   "title": "Legal requirements and operating hazards",
+   "minutes": 20,
+   "html": "<h3>The law</h3><ul><li><strong>OHS Act 85 of 1993</strong> and its Driven Machinery Regulations: the employer must make sure that only trained and authorised people operate tractors and other driven machinery, and that machines are safe and guarded. Operators must follow instructions and report defects.</li><li><strong>National Road Traffic Act 93 of 1996</strong>: when a tractor goes on a public road, the driver needs a valid driving licence of the correct code, and the tractor must be roadworthy with working lights and the required markings.</li><li>Never drive under the influence of alcohol or drugs, on the farm or on the road.</li></ul><p>Your supervisor should give you written authority to drive a specific tractor. Do not drive one you are not trained on.</p><h3>The main hazards</h3><table><tr><th>Hazard</th><th>How it happens</th></tr><tr><td>Rollover sideways</td><td>Driving across steep slopes, near ditches, dam walls and river banks; turning too fast</td></tr><tr><td>Rear overturn</td><td>Hitching a load too high (to the top link or axle), pulling a stuck tractor out with power, popping the clutch uphill</td></tr><tr><td>PTO entanglement</td><td>Clothing or hair caught on a spinning PTO shaft without a guard</td></tr><tr><td>Run over</td><td>Passengers falling off, starting the tractor from the ground, people walking near when reversing or hitching</td></tr><tr><td>Hitching injuries</td><td>Standing between tractor and implement while the tractor moves</td></tr><tr><td>Noise, dust, heat</td><td>Long hours without hearing protection, sun protection or water</td></tr></table><h3>Rules that save lives</h3><ul><li>Use a tractor with a <strong>rollover protective structure (ROPS)</strong>, and wear the seatbelt.</li><li><strong>No passengers</strong> unless there is a proper seat for them.</li><li>Keep PTO guards in place. Switch off and wait for everything to stop before going near the PTO.</li><li>Hitch only to the drawbar.</li><li>Lower your speed on rough ground and slopes; drive straight up and down steep slopes, not across.</li></ul>"
+  },
+  {
+   "title": "Operating the tractor",
+   "minutes": 20,
+   "html": "<h3>Before you start</h3><ol><li>Do the daily checks (lesson 3).</li><li>Walk around the tractor: check that no person, child or animal is near or under it.</li><li>Climb on using the steps and handholds, facing the tractor, with three points of contact.</li><li>Adjust the seat and fasten the seatbelt.</li><li>Check the gear lever is in neutral and the PTO is off, and the handbrake is on.</li></ol><h3>Starting</h3><p>Start only from the driver's seat. Never start a tractor by shorting across the starter from the ground: the tractor can lurch forward in gear and run you over. Let the engine warm up and check the warning lights and gauges.</p><h3>Driving</h3><ul><li>Choose a low gear for starting, loads and slopes. Release the clutch smoothly.</li><li>Keep the brake pedals locked together when driving on roads or at speed, so the tractor does not swerve.</li><li>Look behind before reversing and use a guide if you cannot see.</li><li>Slow down before turns. Keep away from the edges of ditches, dams and banks.</li><li>Raise mounted implements before turning on headlands; lower them for transport where required, and use the transport lock.</li><li>On a public road, use lights and hazard lights, keep left and let traffic pass.</li><li>If the front wheels lift, push the clutch in immediately.</li></ul><h3>Working with implements</h3><ul><li>When hitching, reverse slowly. The helper must stand to the side and only step in when the tractor has stopped and the handbrake is on.</li><li>Use the correct pins and lynch pins.</li><li>Engage the PTO only at the correct speed for the implement.</li></ul><h3>Stopping and parking</h3><p>Lower implements to the ground, put the gear in neutral, apply the handbrake, switch off the PTO and engine, and remove the key. Park on level ground. Climb down facing the tractor; never jump.</p>"
+  },
+  {
+   "title": "Daily care of the tractor",
+   "minutes": 15,
+   "html": "<h3>Why daily care matters</h3><p>A tractor that is checked every day breaks down less, uses less fuel and is safer. Most daily checks are done with the engine off, the tractor on level ground, the handbrake on and the key out.</p><h3>Daily checklist</h3><table><tr><th>Check</th><th>What to look for</th></tr><tr><td>Engine oil</td><td>Level between the marks on the dipstick</td></tr><tr><td>Coolant</td><td>Level in the overflow tank; open the radiator cap only when cold</td></tr><tr><td>Fuel</td><td>Enough for the day; clean diesel, no water</td></tr><tr><td>Hydraulic and transmission oil</td><td>Correct level as in the manual</td></tr><tr><td>Air filter</td><td>Clean; empty the dust bowl; check the warning indicator</td></tr><tr><td>Radiator grille</td><td>Clear of grass seed and chaff</td></tr><tr><td>Tyres</td><td>Correct pressure, no cuts, wheel nuts tight</td></tr><tr><td>Grease points</td><td>Grease as the manual shows (often daily on front axle and linkage)</td></tr><tr><td>Battery, lights, horn</td><td>Clean terminals, working lights and indicators</td></tr><tr><td>Leaks</td><td>Oil, fuel or water under the tractor</td></tr><tr><td>Safety items</td><td>ROPS, seatbelt, PTO guard, mirrors, fire extinguisher</td></tr></table><h3>Refuelling safely</h3><ul><li>Switch off the engine and let it cool down if it is very hot.</li><li>No smoking or open flames.</li><li>Do not overfill; wipe up spills.</li></ul><h3>Report and record</h3><p>Write the hours, fuel and any faults in the tractor logbook. Report faults to your supervisor. Do not drive a tractor with faulty brakes, steering, lights or missing guards.</p><h4>Key points</h4><ul><li>Only trained, authorised drivers may operate a tractor; a licence is needed on public roads.</li><li>Use ROPS and a seatbelt, carry no passengers and keep PTO guards on.</li><li>Hitch only to the drawbar and start only from the seat.</li><li>Park with implements down, handbrake on and key out.</li><li>Do daily checks, record hours and faults, and report problems.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What causes a rear overturn of a tractor?",
+   "options": [
+    {
+     "text": "Hitching a load too high, such as to the top link or axle",
+     "correct": true
+    },
+    {
+     "text": "Driving slowly on flat ground",
+     "correct": false
+    },
+    {
+     "text": "Using the seatbelt",
+     "correct": false
+    },
+    {
+     "text": "Lowering the implement",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you wear when driving a tractor fitted with ROPS?",
+   "options": [
+    {
+     "text": "Nothing extra",
+     "correct": false
+    },
+    {
+     "text": "A loose jacket",
+     "correct": false
+    },
+    {
+     "text": "The seatbelt",
+     "correct": true
+    },
+    {
+     "text": "A long scarf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a tractor be started?",
+   "options": [
+    {
+     "text": "From the ground by shorting the starter",
+     "correct": false
+    },
+    {
+     "text": "Only from the driver's seat with gear in neutral",
+     "correct": true
+    },
+    {
+     "text": "While a helper pushes",
+     "correct": false
+    },
+    {
+     "text": "In top gear",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the front wheels lift while pulling?",
+   "options": [
+    {
+     "text": "Push the clutch in immediately",
+     "correct": true
+    },
+    {
+     "text": "Accelerate",
+     "correct": false
+    },
+    {
+     "text": "Turn sharply",
+     "correct": false
+    },
+    {
+     "text": "Jump off",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the radiator cap be opened?",
+   "options": [
+    {
+     "text": "While the engine is running hot",
+     "correct": false
+    },
+    {
+     "text": "Every hour",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Only when the engine is cold",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Passengers may ride on the tractor drawbar if they hold on tightly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "On steep slopes it is safer to drive straight up and down than across the slope.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items belong on the daily tractor checklist? (select all that apply)",
+   "options": [
+    {
+     "text": "Tyre pressure and wheel nuts",
+     "correct": true
+    },
+    {
+     "text": "The colour of the paint",
+     "correct": false
+    },
+    {
+     "text": "Engine oil level",
+     "correct": true
+    },
+    {
+     "text": "Air filter and radiator grille",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335974",
+ "title": "Install control cables for automatic irrigation systems",
+ "lessons": [
+  {
+   "title": "Control cable types and planning the route",
+   "minutes": 20,
+   "html": "<h3>The role of control cables</h3><p>Automatic irrigation depends on low-voltage control cables carrying signals from the controller to solenoid valves, decoders and sensors. A cable fault stops zones from running or leaves them running. Faults buried under turf are slow and costly to find, so good installation pays off for years.</p><h4>Cable types</h4><table><tr><th>Cable</th><th>Use</th></tr><tr><td>Multi-core direct-burial irrigation cable</td><td>Conventional systems: one core per station plus a common; colour-coded cores</td></tr><tr><td>Single-core direct-burial wire</td><td>Individual station or common runs</td></tr><tr><td>Two-wire (decoder) cable</td><td>Twisted or jacketed pair for decoder systems, often in specified colours, with the gauge set by the manufacturer for distance and number of decoders</td></tr><tr><td>Sensor and communication cable</td><td>Rain sensors, flow sensors, satellite communication; may require shielded cable</td></tr></table><p>Use only cable rated for direct burial in wet conditions, or run it in conduit as specified. Ordinary household flex is not suitable underground.</p><h4>Cable size and voltage drop</h4><p>Long runs reduce the voltage reaching the solenoid. If it drops too far, the valve may not open, especially when two valves run together or a master valve is also on. Choose the cable size from the controller or valve manufacturer's tables for the distance, and size the common wire generously because it carries current for every station.</p><h4>Planning the route</h4><ul><li>Run cables alongside the mainline in the same trench where possible, so they are protected and easy to find.</li><li>Keep cables to the side of the pipe, not directly on top, to avoid damage during pipe repairs.</li><li>Avoid crossing under paths and roads without a conduit sleeve.</li><li>Keep separation from mains power cables as the electrical wiring code (SANS 10142-1) requires; never share a conduit with 230 V cables.</li><li>Plan splice boxes at valves and at changes of direction.</li></ul><h4>Safety</h4><p>Find existing services before trenching. Field control wiring is low voltage, but connections at the controller's mains side are for qualified electricians only. Never work on cables during thunderstorms.</p>"
+  },
+  {
+   "title": "Laying, connecting and protecting control cables",
+   "minutes": 20,
+   "html": "<h3>Laying cable</h3><ol><li>Trench to the specified depth, at least as deep as the mainline or as the specification states, so aeration tines and spades will not reach the cable.</li><li>Remove sharp stones from the trench bottom; lay cable on a bed of fine soil or sand.</li><li>Unroll cable from a drum stand; do not pull it off in coils, which kinks and twists it.</li><li>Lay cable loosely with slight snaking, so it can move as soil settles and temperature changes. Never pull cable tight.</li><li>Tape cables together and to the side of the pipe at intervals if specified.</li><li>Leave expansion loops at each valve box and at every splice.</li><li>Sleeve cable in conduit under paths, roads and where it rises to the controller.</li><li>Lay warning tape above the cable before final backfill where the specification requires.</li></ol><h4>Splicing and connecting</h4><ul><li>Use waterproof connectors approved for direct burial (gel- or grease-filled connectors, or resin splice kits). Water in a splice causes corrosion and current leakage to earth, a common cause of faults.</li><li>Strip only the length needed, twist conductors firmly, push fully into the connector so no bare copper is exposed.</li><li>Keep splices to a minimum and place them in valve boxes, never buried loose in the field where possible.</li><li>Use colour coding consistently, for example a specific colour for the common, and record it.</li><li>Label each wire at the controller and in valve boxes with its station number.</li></ul><h4>Two-wire specifics</h4><ul><li>Follow the manufacturer's rules on maximum length, cable gauge and loop or branch layout.</li><li>Install surge arrestors and earth rods at the intervals specified.</li><li>Connect decoders with their approved splice kits and record each address.</li></ul><h4>Lightning protection</h4><p>Earth the controller properly, fit surge protection at the controller and on field wiring, and avoid long cable runs parallel to fences or overhead lines.</p>"
+  },
+  {
+   "title": "Testing, fault finding and documentation",
+   "minutes": 15,
+   "html": "<h3>Testing before backfill</h3><p>Test cables before the trench is closed, when faults are easy to fix.</p><ul><li><strong>Continuity:</strong> with a multimeter, check each conductor is unbroken from controller to valve.</li><li><strong>Solenoid resistance:</strong> measure across station and common at the controller terminals; compare with the solenoid's normal value. Very low means a short; very high or open means a break.</li><li><strong>Insulation resistance:</strong> where required, a qualified person tests that current is not leaking to earth through damaged insulation.</li><li><strong>Operation:</strong> run each station from the controller and confirm the correct valve opens.</li></ul><h4>Fault finding in existing systems</h4><table><tr><th>Symptom</th><th>Likely cause</th></tr><tr><td>One station does not work</td><td>Broken station wire, failed solenoid, poor splice</td></tr><tr><td>Several stations fail</td><td>Broken common wire, controller fault</td></tr><tr><td>Fuse or breaker trips on one station</td><td>Short in station wire or solenoid</td></tr><tr><td>Valves open intermittently</td><td>Corroded splice, voltage drop, water in connector</td></tr><tr><td>Two-wire faults across an area</td><td>Cable damage, failed decoder, lightning</td></tr></table><p>Cable fault locators and valve locators help trace buried cables and find breaks without digging up large areas.</p><h4>Repairs</h4><p>Expose the damaged section, cut back to clean conductor, splice with approved waterproof connectors, ideally in a valve box, retest and backfill carefully.</p><h4>Documentation</h4><ul><li>As-built drawing showing cable routes, depths, splice locations, valve boxes and controller position</li><li>Colour code and station numbering</li><li>Decoder addresses and locations</li><li>Test results (resistance values per station)</li><li>Surge protection and earth details</li></ul><p>Accurate as-built records save hours when faults occur years later.</p><h4>Key points</h4><ul><li>Use direct-burial cable sized for distance and current.</li><li>Lay cable loosely beside the mainline with loops at valves and splices.</li><li>Make every splice waterproof and keep splices in valve boxes.</li><li>Test continuity and solenoid resistance before backfilling.</li><li>Keep as-built drawings and colour codes up to date.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is the common wire sized generously?",
+   "options": [
+    {
+     "text": "It is the cheapest wire",
+     "correct": false
+    },
+    {
+     "text": "It carries current for every station",
+     "correct": true
+    },
+    {
+     "text": "It connects to mains power",
+     "correct": false
+    },
+    {
+     "text": "It is used only for sensors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can excessive voltage drop on a long run cause?",
+   "options": [
+    {
+     "text": "Higher water pressure",
+     "correct": false
+    },
+    {
+     "text": "Faster rotation",
+     "correct": false
+    },
+    {
+     "text": "Better lightning protection",
+     "correct": false
+    },
+    {
+     "text": "Valves failing to open",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should cable be laid in the trench?",
+   "options": [
+    {
+     "text": "Loosely with slight snaking and loops at valves",
+     "correct": true
+    },
+    {
+     "text": "Pulled as tight as possible",
+     "correct": false
+    },
+    {
+     "text": "On top of sharp stones",
+     "correct": false
+    },
+    {
+     "text": "In the same conduit as 230 V cable",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Several stations stop working at once. What is the most likely cause?",
+   "options": [
+    {
+     "text": "One blocked nozzle",
+     "correct": false
+    },
+    {
+     "text": "A wet rain sensor only for one zone",
+     "correct": false
+    },
+    {
+     "text": "A broken common wire or controller fault",
+     "correct": true
+    },
+    {
+     "text": "A tilted head",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A very low resistance reading across a station and common indicates what?",
+   "options": [
+    {
+     "text": "A broken wire",
+     "correct": false
+    },
+    {
+     "text": "A short circuit",
+     "correct": true
+    },
+    {
+     "text": "A normal solenoid",
+     "correct": false
+    },
+    {
+     "text": "A wet rain sensor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ordinary household flex is suitable for burying directly in irrigation trenches.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cables should be tested before the trench is backfilled.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be on the cable as-built documentation? (select all that apply)",
+   "options": [
+    {
+     "text": "Cable routes and splice locations",
+     "correct": true
+    },
+    {
+     "text": "Colour code and station numbers",
+     "correct": true
+    },
+    {
+     "text": "Workers' lunch times",
+     "correct": false
+    },
+    {
+     "text": "Decoder addresses",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

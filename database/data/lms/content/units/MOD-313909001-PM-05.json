@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-PM-05",
+ "title": "Monitor and direct subordinates performance and conduct",
+ "lessons": [
+  {
+   "title": "Setting expectations and directing work",
+   "minutes": 18,
+   "html": "<h3>Performance starts with clarity</h3>\n<p>Most poor performance on the mill floor comes from unclear expectations, missing training or poor equipment, not from bad attitude. A supervisor who makes expectations clear prevents many problems.</p>\n<h4>Clear expectations</h4>\n<ul>\n<li>Every employee has a job description and knows the work instructions for their section.</li>\n<li>Targets are specific: for example, \"pack 1 600 bags per shift within plus or minus 200 g of declared mass, with no unsewn bags\".</li>\n<li>Standards of conduct are explained: attendance, PPE, safety rules, honesty, respect, use of cellphones on the floor.</li>\n<li>The disciplinary code and grievance procedure are available and explained in a language staff understand.</li>\n</ul>\n<h4>Allocating and directing work</h4>\n<ol>\n<li>Hold a short briefing at the start of each shift: safety topic, production plan, special instructions, who is where.</li>\n<li>Allocate people according to their competence and authorisations, using the skills matrix.</li>\n<li>Give instructions that are clear and checked for understanding (ask the person to repeat key points).</li>\n<li>Walk the floor regularly. Observe how work is done, not just the output numbers.</li>\n<li>Give support when problems arise and remove obstacles such as missing tools.</li>\n</ol>\n<h4>Delegation</h4>\n<p>Delegate tasks that develop people, such as letting an experienced packer lead the packing line, while remaining accountable. Agree what authority they have and when they must check back with you.</p>\n<h4>Recognition</h4>\n<p>Recognise good work promptly and specifically: \"You spotted the torn screen early and saved us a batch of rework – thank you.\" Recognition costs nothing and builds a team that wants to perform.</p><p>Remember that seasonal and new employees need more frequent check-ins. Pair them with experienced operators for their first shifts, and check that they understand the critical rules such as lock-out and medication handling before they work alone.</p>"
+  },
+  {
+   "title": "Monitoring, feedback and handling poor performance or misconduct",
+   "minutes": 18,
+   "html": "<h3>Monitoring performance</h3>\n<p>Use objective information: production records, downtime logs, quality results, bag weight checks, attendance records and safety observations. Compare each person's or team's results with the agreed standards. Look for patterns over time rather than reacting to one bad day.</p>\n<h3>Giving feedback</h3>\n<p>Give feedback regularly, not only at the annual review. A simple model:</p>\n<ol>\n<li><strong>Situation</strong> – when and where.</li>\n<li><strong>Behaviour</strong> – what you observed, not your opinion of the person.</li>\n<li><strong>Impact</strong> – the effect on safety, quality, production or the team.</li>\n<li><strong>Next step</strong> – agree what will change and how you will support it.</li>\n</ol>\n<p>Give corrective feedback privately and praise publicly where appropriate.</p>\n<h3>Poor performance versus misconduct</h3>\n<table>\n<tr><th></th><th>Poor performance</th><th>Misconduct</th></tr>\n<tr><td>Meaning</td><td>Cannot meet the standard</td><td>Will not follow a rule</td></tr>\n<tr><td>Example</td><td>New press operator keeps getting high fines</td><td>Operator removes a guard to save time</td></tr>\n<tr><td>Response</td><td>Counsel, train, support, set time to improve, review</td><td>Investigate and apply the disciplinary code fairly</td></tr>\n</table>\n<p>For poor performance, keep notes of the standard, the gap, the support given and the review dates. If there is still no improvement after reasonable support, involve HR on next steps as the Labour Relations Act 66 of 1995 Code of Good Practice: Dismissal requires a fair process.</p>\n<h3>Handling misconduct</h3>\n<ul>\n<li>Act promptly and consistently; ignoring rule-breaking tells everyone the rule does not matter.</li>\n<li>Gather facts: what happened, witnesses, records.</li>\n<li>Follow the disciplinary code. Minor first offences may need counselling or a verbal warning; serious offences go to a hearing chaired by someone independent.</li>\n<li>Allow the employee to state their side and to be represented.</li>\n<li>Record everything and keep records confidential.</li>\n</ul>\n<p>Never shout at, threaten or humiliate an employee, and never treat people differently because of race, gender, language, religion or union membership.</p>\n<h4>Key points</h4>\n<ul>\n<li>Make expectations and conduct standards clear and allocate work by competence.</li>\n<li>Monitor with objective records and look for patterns.</li>\n<li>Give regular feedback using situation, behaviour, impact and next step.</li>\n<li>Treat poor performance with support and time; treat misconduct through the disciplinary code.</li>\n<li>Act promptly, consistently and respectfully, and keep records.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the most common cause of poor performance on the mill floor?",
+   "options": [
+    {
+     "text": "Unclear expectations, missing training or poor equipment",
+     "correct": true
+    },
+    {
+     "text": "Bad attitude only",
+     "correct": false
+    },
+    {
+     "text": "Bad weather",
+     "correct": false
+    },
+    {
+     "text": "Long lunch breaks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a specific performance target?",
+   "options": [
+    {
+     "text": "Pack 1 600 bags per shift within plus or minus 200 g of declared mass",
+     "correct": true
+    },
+    {
+     "text": "Be quicker",
+     "correct": false
+    },
+    {
+     "text": "Do your best",
+     "correct": false
+    },
+    {
+     "text": "Work hard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the feedback model, what does \"behaviour\" refer to?",
+   "options": [
+    {
+     "text": "The person’s background",
+     "correct": false
+    },
+    {
+     "text": "What you observed the person do",
+     "correct": true
+    },
+    {
+     "text": "The company policy",
+     "correct": false
+    },
+    {
+     "text": "Your opinion of the person",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A new press operator keeps getting high fines despite trying hard. How should this be treated?",
+   "options": [
+    {
+     "text": "Dismiss immediately",
+     "correct": false
+    },
+    {
+     "text": "As misconduct with a final warning",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "As poor performance: counsel, train, support and review",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should corrective feedback be given?",
+   "options": [
+    {
+     "text": "Only in writing to HR",
+     "correct": false
+    },
+    {
+     "text": "By shouting",
+     "correct": false
+    },
+    {
+     "text": "Publicly in front of the team",
+     "correct": false
+    },
+    {
+     "text": "Privately",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ignoring rule-breaking tells everyone the rule does not matter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An employee in a disciplinary process has no right to state their side.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices when directing subordinates? (select all that apply)",
+   "options": [
+    {
+     "text": "Check that instructions are understood",
+     "correct": true
+    },
+    {
+     "text": "Allocate people according to competence and authorisations",
+     "correct": true
+    },
+    {
+     "text": "Hold a short briefing at the start of each shift",
+     "correct": true
+    },
+    {
+     "text": "Give instructions without explaining them",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

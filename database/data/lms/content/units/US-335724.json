@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335724",
+ "title": "Use a horse for urban patrols",
+ "lessons": [
+  {
+   "title": "The mounted patrol in the city",
+   "minutes": 20,
+   "html": "<h3>Why mounted patrols?</h3>\n<p>Police and security services in South Africa use mounted units in cities, townships, informal settlements, parks, beaches and events. A rider on a horse sits about three metres high, giving excellent visibility over crowds and traffic. Mounted officers are approachable and visible, which helps crime prevention and community relations, and horses can move where vehicles cannot, such as through parks, along beachfronts and between informal houses.</p>\n<h3>Suitable horses</h3>\n<ul>\n<li>Calm and confident, tolerant of traffic, sirens, hooters, taxis, dogs, crowds and loud music.</li>\n<li>Trained to stand still for long periods, move sideways, and go through narrow spaces.</li>\n<li>Sound feet and legs for long hours on tar and paving.</li>\n<li>Usually larger horses for height and presence, but temperament is most important.</li>\n</ul>\n<h3>Preparing for patrol</h3>\n<ol>\n<li>Check the horse's health and soundness.</li>\n<li>Shoes in good condition; road nails, studs or pads as advised by the farrier for grip on tar.</li>\n<li>Tack correctly fitted; reflective or high-visibility leg wraps and breastplate for visibility, especially at dusk.</li>\n<li>Rider's equipment: helmet, uniform, radio, cell phone, notebook, and the unit's operational equipment.</li>\n<li>Patrol plan: route, area, times, radio call signs, rendezvous points and water points.</li>\n<li>Briefing on crime patterns, events and hazards in the area.</li>\n</ol>\n<h3>Rules of the road</h3>\n<p>Riders follow the road traffic rules for animal-drawn or ridden traffic. Ride on the left, in single file or pairs as the unit's procedures say, give clear hand signals, and use pedestrian crossings and traffic lights correctly. Avoid steep, slippery surfaces such as painted lines, metal covers and wet paving at speed. Ride in pairs for safety; a lone rider and horse are vulnerable.</p>"
+  },
+  {
+   "title": "Patrolling, interacting with the public and handling incidents",
+   "minutes": 20,
+   "html": "<h3>On patrol</h3>\n<ul>\n<li>Walk at a steady pace, scanning the area. From the saddle you can see over walls and cars.</li>\n<li>Vary routes and times so patterns cannot be predicted.</li>\n<li>Stop regularly at visible points; a stationary mounted pair is a strong deterrent.</li>\n<li>Keep radio contact and report position as required.</li>\n<li>Rest and water horses at planned points; watch for heat stress on hot days.</li>\n</ul>\n<h3>Interacting with the public</h3>\n<p>Horses attract people, especially children. Use this for community policing, but stay safe:</p>\n<ul>\n<li>Only one partner interacts while the other watches the surroundings.</li>\n<li>Control how people approach: from the front-side towards the shoulder, never from behind.</li>\n<li>Show people how to stroke the neck with a flat hand; no feeding.</li>\n<li>Be courteous and professional at all times.</li>\n</ul>\n<h3>Handling incidents</h3>\n<ol>\n<li>Report to control by radio, giving location and the nature of the incident.</li>\n<li>Use the horse's height to observe and direct back-up.</li>\n<li>Position the horse to block or guide people, as trained and within the law.</li>\n<li>If you must dismount to make an arrest, hand the horse to your partner. Never tie a horse to a pole in public.</li>\n<li>Write notes in your pocketbook as soon as possible.</li>\n</ol>\n<h3>Hazards to the horse</h3>\n<ul>\n<li>Broken glass, wire and litter.</li>\n<li>Fireworks, especially around Guy Fawkes and New Year.</li>\n<li>People throwing objects or trying to scare the horse.</li>\n<li>Slippery surfaces and storm drains.</li>\n</ul>\n<p>After patrol, check the horse's legs and feet, cool and wash down, feed and record the patrol and any injuries.</p>\n<h4>Key points</h4>\n<ul>\n<li>Mounted patrols give height, visibility and good public contact.</li>\n<li>Use calm, sound horses with suitable shoes for tar.</li>\n<li>Ride in pairs, follow road rules and keep radio contact.</li>\n<li>Control how the public approaches; one partner watches the area.</li>\n<li>Hand the horse to your partner before dismounting for an incident.</li>\n<li>Check legs and feet after patrol and keep records.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is a mounted officer effective in crowds?",
+   "options": [
+    {
+     "text": "The horse is fast on tar",
+     "correct": false
+    },
+    {
+     "text": "Horses scare everyone away",
+     "correct": false
+    },
+    {
+     "text": "The rider's height gives excellent visibility",
+     "correct": true
+    },
+    {
+     "text": "Horses do not need care",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should mounted officers usually patrol for safety?",
+   "options": [
+    {
+     "text": "In pairs",
+     "correct": true
+    },
+    {
+     "text": "Alone",
+     "correct": false
+    },
+    {
+     "text": "In groups of twenty",
+     "correct": false
+    },
+    {
+     "text": "Only at night",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should members of the public approach a patrol horse?",
+   "options": [
+    {
+     "text": "From behind",
+     "correct": false
+    },
+    {
+     "text": "Running",
+     "correct": false
+    },
+    {
+     "text": "With food in hand",
+     "correct": false
+    },
+    {
+     "text": "From the front-side towards the shoulder",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with the horse if you must dismount to make an arrest?",
+   "options": [
+    {
+     "text": "Tie it to a pole",
+     "correct": false
+    },
+    {
+     "text": "Hand it to your partner",
+     "correct": true
+    },
+    {
+     "text": "Let it go",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the street",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which surfaces are slippery for horses at speed?",
+   "options": [
+    {
+     "text": "Dry grass",
+     "correct": false
+    },
+    {
+     "text": "Sand tracks",
+     "correct": false
+    },
+    {
+     "text": "Painted lines, metal covers and wet paving",
+     "correct": true
+    },
+    {
+     "text": "Gravel roads",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Varying patrol routes and times makes patterns harder to predict.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Members of the public should be encouraged to feed patrol horses.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are hazards to patrol horses in the city? (select all that apply)",
+   "options": [
+    {
+     "text": "Broken glass and litter",
+     "correct": true
+    },
+    {
+     "text": "Fireworks",
+     "correct": true
+    },
+    {
+     "text": "People throwing objects",
+     "correct": true
+    },
+    {
+     "text": "Clean, dry grass verges",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

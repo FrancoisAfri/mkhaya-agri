@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-09",
+ "title": "Flaying and Dressing of Beef Carcasses",
+ "lessons": [
+  {
+   "title": "Preparing the carcass and opening the hide",
+   "minutes": 20,
+   "html": "<h3>What is dressing?</h3><p><strong>Dressing</strong> is all the work that turns a bled animal into a clean carcass: removing the head, feet and hide, removing the gut and organs, splitting and trimming. <strong>Flaying</strong> is removing the hide. The hide is the dirtiest part of the animal, so most contamination of meat happens during flaying.</p><h3>The order of work (typical)</h3><ol><li>After bleeding, remove the head (with the tongue), and keep it identified with the carcass for inspection.</li><li>Remove the front and hind feet at the joints.</li><li>Open the hide on the legs (legging) and transfer the carcass onto the dressing rail with hooks or gambrels in the hind legs.</li><li>Tie (rod) the weasand to stop rumen contents leaking out.</li><li>Free and bag or tie the rectum (bunging).</li><li>Make the opening cuts along the belly and remove the hide, by hand or with a hide puller.</li><li>Open the brisket, eviscerate (remove gut and organs), split the carcass, trim and wash.</li></ol><p>The exact order differs between abattoirs; follow your line's procedure.</p><h3>Opening cuts</h3><ul><li>Make opening cuts with the knife blade facing <strong>outward</strong>, cutting from the inside of the hide to the outside. This stops hair and dirt being dragged into the meat.</li><li>Use one knife for opening the hide and a clean, sterilised knife for meat.</li><li>Sterilise the knife after each opening cut.</li><li>Pull the hide away from the carcass; do not let the outside of the hide flap against the meat.</li><li>Do not touch the meat with hands that have touched the hide; wash and sterilise first.</li></ul><h3>Quality of the hide</h3><p>The hide is a valuable by-product. Avoid knife cuts and holes in it (called scores or flay cuts), because damaged hides earn much less from the tannery.</p>"
+  },
+  {
+   "title": "Removing the hide and finishing the carcass",
+   "minutes": 20,
+   "html": "<h3>Removing the hide</h3><ul><li>Clear the hide from the hind legs, flanks, brisket and shoulders with short, controlled strokes, keeping the knife flat against the hide side, not the meat.</li><li>Leave the thin fat cover on the carcass. Cutting into it damages the meat and lowers its value.</li><li>If a hide puller is used, the hide is clamped and pulled off. Stand clear while it pulls and watch that the hide does not tear flesh off the carcass.</li><li>Drop the hide straight into the hide chute; never onto the floor in the clean area.</li></ul><h3>Splitting</h3><p>After evisceration, the carcass is split into two sides with the splitting saw, cutting exactly down the middle of the backbone. An off-centre split damages valuable cuts like the sirloin. Keep the saw clean and sterilised between carcasses.</p><h3>Trimming and washing</h3><ul><li>Trim away visible contamination (dung, hair, ingesta), bruises and damaged tissue with a sterilised knife.</li><li>Trimming must be done <strong>before</strong> washing. Washing alone spreads contamination.</li><li>Remove the spinal cord and any blood clots as your line requires.</li><li>Wash the carcass from top to bottom with clean water at the wash station.</li></ul><h3>Inspection, classification and chilling</h3><p>The meat inspector examines the carcass, head and offal. Passed carcasses are stamped. The classifier classifies the carcass by age and fat, and it is weighed and labelled. Then it goes to the chiller. Sides must hang freely without touching each other, so cold air can move around them.</p><h3>Safety</h3><p>Wear a mesh glove and apron for knife work, keep space between workers, and work at the right height on the platform.</p><h4>Key points</h4><ul><li>Flaying is the main source of contamination: protect the meat from the hide.</li><li>Make opening cuts from the inside of the hide outward and sterilise knives after each.</li><li>Rod the weasand and bag the rectum to stop leaks.</li><li>Avoid flay cuts in the hide and leave the fat cover on the carcass.</li><li>Trim contamination before washing; split exactly down the backbone.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is flaying?",
+   "options": [
+    {
+     "text": "Splitting the carcass",
+     "correct": false
+    },
+    {
+     "text": "Removing the stomach",
+     "correct": false
+    },
+    {
+     "text": "Chilling the carcass",
+     "correct": false
+    },
+    {
+     "text": "Removing the hide",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which direction should opening cuts in the hide be made?",
+   "options": [
+    {
+     "text": "From the inside of the hide outward",
+     "correct": true
+    },
+    {
+     "text": "From the outside of the hide into the meat",
+     "correct": false
+    },
+    {
+     "text": "Across the backbone",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is the weasand tied (rodded)?",
+   "options": [
+    {
+     "text": "To stop rumen contents leaking out",
+     "correct": true
+    },
+    {
+     "text": "To make the head lighter",
+     "correct": false
+    },
+    {
+     "text": "To help bleeding",
+     "correct": false
+    },
+    {
+     "text": "For classification",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should flay cuts in the hide be avoided?",
+   "options": [
+    {
+     "text": "They slow the line",
+     "correct": false
+    },
+    {
+     "text": "They stop the hide puller",
+     "correct": false
+    },
+    {
+     "text": "Damaged hides earn less from the tannery",
+     "correct": true
+    },
+    {
+     "text": "They make the meat tougher",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done before washing a carcass?",
+   "options": [
+    {
+     "text": "Classification",
+     "correct": false
+    },
+    {
+     "text": "Chilling",
+     "correct": false
+    },
+    {
+     "text": "Weighing",
+     "correct": false
+    },
+    {
+     "text": "Trimming visible contamination",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An off-centre split can damage valuable cuts like the sirloin.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The hide may be dropped on the floor of the clean area if it is picked up quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which practices help prevent contamination during flaying? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep the outside of the hide away from the meat",
+     "correct": true
+    },
+    {
+     "text": "Wash and sterilise hands after touching the hide",
+     "correct": true
+    },
+    {
+     "text": "Sterilise the knife after each opening cut",
+     "correct": true
+    },
+    {
+     "text": "Use the same knife for hide and meat without cleaning",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

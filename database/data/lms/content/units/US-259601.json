@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-259601",
+ "title": "Participate in the implementation and evaluation of a safety and health management programme in the workplace",
+ "lessons": [
+  {
+   "title": "What a safety and health management programme needs",
+   "minutes": 15,
+   "html": "<h3>A plan to keep people safe</h3> <p>A safety and health management programme is the workplace's organised plan to prevent injuries and illness. On a farm it covers tractors and machinery, chemicals, animals, workshops, packhouses, heat, fire and more. Under the Occupational Health and Safety Act 85 of 1993, the employer must provide and maintain a safe workplace, and employees must take care of their own and others' safety and follow the rules.</p> <h4>Main parts of the programme</h4> <ul> <li><strong>Policy and commitment</strong>: a signed safety policy showing that management takes safety seriously.</li> <li><strong>Responsibilities</strong>: who does what, for example the manager, supervisors, health and safety representatives, first aiders and fire team.</li> <li><strong>Hazard identification and risk assessment</strong>: listing hazards in each job and deciding how to control them.</li> <li><strong>Safe work procedures</strong>: written steps for risky jobs such as spraying, chainsaw work or working at height.</li> <li><strong>Training</strong>: induction for new workers and job-specific training.</li> <li><strong>PPE</strong>: the right equipment, issued, used and replaced.</li> <li><strong>Inspections</strong>: regular checks of work areas and equipment.</li> <li><strong>Incident reporting and investigation</strong>.</li> <li><strong>Emergency plans</strong>: fire, first aid, chemical spills, evacuation.</li> <li><strong>Records and review</strong>.</li> </ul> <h4>Health and safety representatives and committees</h4> <p>Workplaces with more than a certain number of employees must have health and safety representatives elected or appointed from workers, and a health and safety committee. Representatives inspect the workplace, take part in investigations and bring workers' concerns to management. Your workplace will tell you who your representative is.</p> <h4>Your role</h4> <ul> <li>Attend safety talks and training.</li> <li>Follow procedures and use your PPE.</li> <li>Report hazards, injuries and near misses.</li> <li>Take part in inspections and risk assessments when asked.</li> <li>Speak up: you know your job's dangers best.</li> </ul>"
+  },
+  {
+   "title": "Taking part in safety evaluations",
+   "minutes": 15,
+   "html": "<h3>How safety performance is checked</h3> <p>A programme only works if someone checks it. The programme sets out how and when safety is evaluated. You may be asked to help.</p> <h4>Workplace inspections</h4> <p>Inspections use a checklist for each area. For example, a workshop checklist may ask:</p> <ul> <li>Are guards fitted on the grinder and drill press?</li> <li>Is the fire extinguisher in place, sealed and in date?</li> <li>Are walkways clear and floors free of oil?</li> <li>Are electrical cords undamaged?</li> <li>Is the first aid box stocked?</li> </ul> <p>When you take part:</p> <ol> <li>Get the correct checklist and understand each item.</li> <li>Walk the whole area. Look, listen and ask workers.</li> <li>Tick yes or no honestly, and write details of problems: what, where, how serious.</li> <li>Do not fix dangerous problems yourself unless you are trained; report them.</li> <li>Hand in the checklist and tell the supervisor of urgent dangers at once.</li> </ol> <h4>Other evaluation methods</h4> <ul> <li><strong>Task observations</strong>: watching a job being done to see if the safe procedure is followed.</li> <li><strong>Incident investigations</strong>: finding why an accident or near miss happened.</li> <li><strong>PPE checks</strong>: is it being used, and is it in good condition?</li> <li><strong>Emergency drills</strong>: fire or evacuation drills, timed and reviewed.</li> <li><strong>Talking to workers</strong>: asking about hazards they face.</li> </ul> <h4>Reporting incidents</h4> <p>Report every injury, near miss and dangerous occurrence on the farm's form, the same day. Include date, time, place, people involved, what happened, and any injuries. Serious incidents must be reported to the Department of Employment and Labour as the law requires; your employer handles that. Never cover up an incident. Hidden incidents happen again.</p>"
+  },
+  {
+   "title": "Evaluating results and improving",
+   "minutes": 15,
+   "html": "<h3>Looking at the results</h3> <p>After inspections and other checks, the results are compared with the programme's targets and standards. This shows what is working and what is not.</p> <h4>Simple measures of safety performance</h4> <table> <tr><th>Measure</th><th>Example</th></tr> <tr><td>Inspections done on time</td><td>10 of 12 monthly inspections completed</td></tr> <tr><td>Problems found and fixed</td><td>18 found, 15 fixed within the agreed time</td></tr> <tr><td>Incidents and near misses</td><td>Number this month compared with last year</td></tr> <tr><td>Training completed</td><td>All sprayer operators trained this season</td></tr> <tr><td>PPE compliance</td><td>Percentage of workers seen wearing the right PPE</td></tr> </table> <p>A rise in near-miss reports can be a good sign: people are reporting more. Fewer injuries is the goal, but fewer reports may just mean people stopped reporting.</p> <h4>From findings to action</h4> <ol> <li>List each problem found.</li> <li>Decide the action to fix it, for example \"replace the missing grinder guard\".</li> <li>Name the person responsible.</li> <li>Set a date.</li> <li>Check that it was done and that it worked.</li> </ol> <p>This is often kept as an action list and discussed at the health and safety committee meeting.</p> <h4>Example from a farm</h4> <p>Inspections in the packhouse showed that forklift drivers often drove through the pedestrian walkway. The committee painted clear walkways, added a mirror at a blind corner and gave drivers a refresher talk. At the next inspection, observations showed the problem had nearly stopped.</p> <h4>Your contribution</h4> <ul> <li>Give honest information during evaluations.</li> <li>Suggest practical improvements.</li> <li>Follow up on actions in your area.</li> <li>Help new workers learn the safe way.</li> </ul> <h4>Key points</h4> <ul> <li>A programme includes policy, responsibilities, risk assessment, procedures, training, PPE, inspections, incidents and emergencies.</li> <li>Use checklists honestly and report dangers at once.</li> <li>Report every injury and near miss the same day.</li> <li>Turn findings into actions with a person and a date.</li> <li>Check that actions were done and worked.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law requires the employer to provide and maintain a safe workplace?",
+   "options": [
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a health and safety representative do?",
+   "options": [
+    {
+     "text": "Sells the crops",
+     "correct": false
+    },
+    {
+     "text": "Inspects the workplace and brings workers' concerns to management",
+     "correct": true
+    },
+    {
+     "text": "Pays the workers",
+     "correct": false
+    },
+    {
+     "text": "Drives the tractors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During an inspection you find a dangerous fault you are not trained to fix. What should you do?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Fix it anyway",
+     "correct": false
+    },
+    {
+     "text": "Write it down next month",
+     "correct": false
+    },
+    {
+     "text": "Report it, and tell the supervisor at once if urgent",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must an action to fix a safety problem include?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "A fine for workers",
+     "correct": false
+    },
+    {
+     "text": "Only the problem",
+     "correct": false
+    },
+    {
+     "text": "The action, a responsible person and a date",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why can a rise in near-miss reports be a good sign?",
+   "options": [
+    {
+     "text": "People are reporting more",
+     "correct": true
+    },
+    {
+     "text": "Nobody is working",
+     "correct": false
+    },
+    {
+     "text": "The forms are new",
+     "correct": false
+    },
+    {
+     "text": "There are more accidents",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An incident should be hidden if nobody was hurt.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A fire evacuation drill is one way to evaluate safety performance.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are parts of a safety and health management programme? (select all that apply)",
+   "options": [
+    {
+     "text": "Hazard identification and risk assessment",
+     "correct": true
+    },
+    {
+     "text": "Emergency plans",
+     "correct": true
+    },
+    {
+     "text": "Training",
+     "correct": true
+    },
+    {
+     "text": "Monthly sales targets",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

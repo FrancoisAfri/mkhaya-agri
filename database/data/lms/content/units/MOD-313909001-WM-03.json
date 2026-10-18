@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-WM-03",
+ "title": "Hygienising and compacting process in the production of animal feeds or dry pet foods",
+ "lessons": [
+  {
+   "title": "Hygienising and pelleting in the workplace",
+   "minutes": 18,
+   "html": "<h3>Workplace application</h3>\n<p>This module asks you to run and take responsibility for hygienising and compacting lines in a working mill or pet food plant, including decisions on deviations. Evidence comes from your records, your mentor's observations and your problem-solving reports.</p>\n<h4>Running the hygienising step</h4>\n<p>Each site has a validated hygienising specification, for example a minimum product temperature held for a set retention time. In practice you must:</p>\n<ul>\n<li>Confirm set points against the approved process specification before each run.</li>\n<li>Monitor the critical control point continuously and sign records at the required frequency.</li>\n<li>Manage start-up and shutdown material so that un-hygienised feed never reaches finished bins.</li>\n<li>Respond to deviations: divert, hold, record, inform quality.</li>\n<li>Verify the system: check that temperature probes are calibrated and that diversion valves work during routine tests.</li>\n<li>Support environmental Salmonella swabbing and act on positive results with quality.</li>\n</ul>\n<h4>Pelleting and compacting</h4>\n<p>On the press you will balance throughput, pellet quality and energy. Use data from your shift to make decisions. For example, if PDI falls on a broiler grower while press amps are lower than normal and steam use has risen, check steam quality (wet steam), conditioner temperature and grind. Change one variable at a time and record the effect.</p>\n<p>Work with maintenance on die and roller management: track tonnes per die, inspect wear and plan changes. Record each die change and the start-up performance of the new die.</p>\n<h4>Safety leadership</h4>\n<p>As the person running the line you set the example on lock-out, steam isolation, hot surfaces and lifting heavy dies. Stop anyone who opens a door on a running conditioner or reaches toward rollers.</p>"
+  },
+  {
+   "title": "Extrusion for dry pet food and aqua feeds",
+   "minutes": 18,
+   "html": "<h3>What extrusion does</h3>\n<p>Dry pet food and many fish feeds are made by extrusion. A preconditioner adds steam and water to finely ground mash. The extruder screw then forces the mash through a barrel under high pressure, shear and temperature, cooking the starch. As the product leaves through the die plate, the pressure drops and the product expands into kibble, which a knife cuts to size. The cooking step also hygienises the product.</p>\n<h4>Key process variables</h4>\n<table>\n<tr><th>Variable</th><th>Effect</th></tr>\n<tr><td>Preconditioner steam and water</td><td>Starch cook, moisture, product density</td></tr>\n<tr><td>Screw speed and configuration</td><td>Shear, pressure, throughput</td></tr>\n<tr><td>Barrel temperature</td><td>Cook and expansion</td></tr>\n<tr><td>Die and knife speed</td><td>Kibble shape and size</td></tr>\n<tr><td>Dryer temperature and time</td><td>Final moisture and shelf life</td></tr>\n</table>\n<p>Monitor bulk density of the kibble regularly; it shows the degree of expansion and helps keep bag fill consistent. Floating or sinking fish feed is controlled by expansion.</p>\n<h4>Drying, coating and cooling</h4>\n<p>After extrusion the kibble is wet and must be dried to a safe moisture to prevent mould; it is then coated with fat and palatants in a coater and cooled. Under-drying causes mould; over-drying wastes energy and makes kibble brittle. The dryer and coater are post-heat-treatment zones and must be kept hygienic to prevent recontamination.</p>\n<h4>Fire and safety risks</h4>\n<p>Dryers can catch fire if fines build up. Follow cleaning schedules, monitor dryer temperatures and know the fire procedure. Extruder start-up involves hot steam and product under pressure; stand clear of the die during start-up and use the plant's procedure.</p>\n<h4>Key points</h4>\n<ul>\n<li>Run hygienising to the validated specification and never let un-hygienised feed reach finished bins.</li>\n<li>Use shift data and change one variable at a time when solving pellet quality problems.</li>\n<li>Extrusion cooks and expands mash; preconditioning, screw, barrel, die and dryer settings control the product.</li>\n<li>Dry kibble to safe moisture and keep post-heat zones hygienic.</li>\n<li>Manage fire risk in dryers and stand clear of the die at extruder start-up.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What must never happen with start-up material on a hygienising line?",
+   "options": [
+    {
+     "text": "Un-hygienised feed must never reach finished bins",
+     "correct": true
+    },
+    {
+     "text": "It must never be recorded",
+     "correct": false
+    },
+    {
+     "text": "It must never be diverted",
+     "correct": false
+    },
+    {
+     "text": "It must never be sampled",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "PDI falls while steam use rises and press amps fall. What should be checked first?",
+   "options": [
+    {
+     "text": "Truck cleanliness",
+     "correct": false
+    },
+    {
+     "text": "Bag print",
+     "correct": false
+    },
+    {
+     "text": "Steam quality, conditioner temperature and grind",
+     "correct": true
+    },
+    {
+     "text": "The weighbridge",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When solving a pellet quality problem, how should variables be changed?",
+   "options": [
+    {
+     "text": "One at a time, recording the effect",
+     "correct": true
+    },
+    {
+     "text": "All at once",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Randomly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes kibble to expand at the extruder die?",
+   "options": [
+    {
+     "text": "The bagging scale",
+     "correct": false
+    },
+    {
+     "text": "Cooling water",
+     "correct": false
+    },
+    {
+     "text": "The sudden pressure drop as product leaves the die",
+     "correct": true
+    },
+    {
+     "text": "Adding fat first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a risk of under-drying kibble?",
+   "options": [
+    {
+     "text": "Brittle kibble",
+     "correct": false
+    },
+    {
+     "text": "Lower bulk density",
+     "correct": false
+    },
+    {
+     "text": "Too much expansion",
+     "correct": false
+    },
+    {
+     "text": "Mould growth",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Bulk density of kibble shows the degree of expansion.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dryers carry no fire risk because they only use warm air.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which variables control extruded product? (select all that apply)",
+   "options": [
+    {
+     "text": "Preconditioner steam and water",
+     "correct": true
+    },
+    {
+     "text": "Barrel temperature",
+     "correct": true
+    },
+    {
+     "text": "The colour of the warehouse",
+     "correct": false
+    },
+    {
+     "text": "Screw speed",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

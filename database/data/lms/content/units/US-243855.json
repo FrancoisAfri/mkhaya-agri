@@ -1,0 +1,183 @@
+{
+  "unit_key": "US-243855",
+  "title": "Assess the quality of litchis for export",
+  "lessons": [
+    {
+      "title": "The litchi export industry, terms and requirements",
+      "minutes": 18,
+      "html": "<h3>Background and structure</h3><p>Litchis are a small but valuable subtropical crop in South Africa, grown mainly in the warm, humid Lowveld of Mpumalanga (around Nelspruit, Hazyview and Malelane), in Limpopo (around Tzaneen and Levubu) and in parts of northern KwaZulu-Natal. The season is short, roughly over the December holiday period, so litchis are strongly linked to the Christmas trade in Europe and the UK as well as the local market. The <strong>South African Litchi Growers' Association</strong> falls under the subtropical umbrella body Subtrop.</p><p>The main cultivar has been <strong>HLH Mauritius</strong>, with others such as McLean's Red and newer cultivars planted to extend the season. The chain includes growers, packhouses that often treat the fruit, cold stores, exporters and both air and sea freight.</p><h3>Terminology</h3><ul><li><strong>Pericarp:</strong> the rough outer skin. Its red colour is a key quality feature.</li><li><strong>Aril:</strong> the white, juicy edible flesh.</li><li><strong>Browning:</strong> the pericarp turns brown quickly after harvest through water loss and enzyme action.</li><li><strong>SO2 treatment / fumigation:</strong> sulphur dioxide is used in many export programmes to preserve red colour and control decay. Residue limits apply and the treatment must follow the approved protocol.</li><li><strong>Bleaching:</strong> a pale or yellow skin from SO2 treatment, acceptable in some markets after re-colouring with acid dip where permitted.</li><li><strong>Cracking:</strong> split skins, which allow rot and juice leakage.</li><li><strong>Bunch / loose fruit:</strong> sold as bunches with stems or as individual fruit.</li></ul><h3>Legislative and logistical requirements</h3><p>Litchis for export are regulated under the Agricultural Product Standards Act 119 of 1990, with PPECB conducting inspections and cold chain oversight under the PPECB Act 9 of 1983. Markets set maximum residue levels for SO2 and other treatments, and phytosanitary requirements, for example concerning fruit fly and false codling moth, may require orchard registration and specific treatments.</p><p>Because the season is short and the fruit is perishable, logistics are tight. Harvest, treatment, cooling and dispatch must be planned so fruit arrives in the market before the holiday demand ends.</p>"
+    },
+    {
+      "title": "Sampling, external and internal quality",
+      "minutes": 18,
+      "html": "<h3>Drawing a representative sample</h3><ul><li>Use the sample size prescribed for the consignment.</li><li>Draw packages at random from different pallets and positions.</li><li>Check that the declared cultivar, class, size and codes match.</li><li>Record pallet and package identification.</li></ul><h3>External quality</h3><ul><li><strong>Size:</strong> fruit diameter within the declared size grade; check uniformity.</li><li><strong>Colour:</strong> for untreated or colour-retained fruit, an even red pericarp; for treated fruit, the colour required by the market and the programme.</li><li><strong>Browning:</strong> brown patches on the pericarp, measured against tolerance.</li><li><strong>Cracking and splits:</strong> cracked fruit leaks juice and rots; tolerances are low.</li><li><strong>Blemishes:</strong> wind scarring, sunburn, insect damage such as litchi moth or fruit fly stings.</li><li><strong>Decay:</strong> mould on the skin or stem end.</li><li><strong>Stems:</strong> cut to the correct length, not torn.</li><li><strong>Packing:</strong> correct net mass, punnets or cartons clean and properly closed.</li></ul><h3>Internal quality</h3><p>Peel a set number of fruit and check:</p><ul><li><strong>TSS</strong> with a refractometer, compared with the minimum for export.</li><li><strong>Aril condition:</strong> white, firm, translucent and juicy; no browning, fermentation or off-flavour.</li><li><strong>Larvae</strong> of fruit fly or moths around the seed, which is a serious finding.</li><li><strong>SO2 residue:</strong> where required, samples are tested in a laboratory against the market limit.</li></ul><p>Litchis are non-climacteric. They do not ripen or sweeten after harvest, so they must be picked at full maturity, judged mainly by skin colour, TSS and taste. Immature fruit will remain sour.</p><h4>Recording your results</h4><p>Work quickly but carefully, because litchis brown while they stand on the inspection table at room temperature. Record readings per package as you go, note the treatment status of the fruit (treated or untreated) and keep peeled samples separate so they are not counted twice. Recheck any unusual reading with a calibrated instrument before recording it.</p>"
+    },
+    {
+      "title": "Cold chain protocols and the outcome",
+      "minutes": 18,
+      "html": "<h3>Monitoring the litchi cold chain</h3><p>The litchi pericarp browns very quickly in warm, dry conditions. A few hours in the sun after harvest can spoil the colour. Good cold chain practice therefore starts in the orchard:</p><ul><li>Harvest in the cooler part of the day and keep fruit shaded.</li><li>Transport quickly to the packhouse for treatment and cooling.</li><li>Cool promptly to the temperature specified in the programme and keep relative humidity high to slow water loss.</li><li>Use packaging with liners or punnets that reduce moisture loss, as specified.</li><li>Avoid condensation from temperature swings, which encourages rot.</li></ul><p>The assessor checks pulp temperatures with a calibrated probe, cold store and container records, container pre-cooling and set points, and the treatment records showing that the SO2 or other treatment was applied according to the approved protocol.</p><h3>Determining the outcome</h3><ol><li>Calculate percentages of browning, cracking, blemishes and decay in the sample.</li><li>Compare internal quality (TSS, aril condition) with the minimum requirements.</li><li>Check for pests and larvae; any quarantine pest finding is serious.</li><li>Confirm residue results where testing is required.</li><li>Check packing, mass and marking.</li><li>Decide <strong>pass</strong>, <strong>downgrade</strong> or <strong>reject</strong>, and record the reasons clearly.</li></ol><p>Example: a consignment of HLH Mauritius has good TSS but more than an hour of standing on a hot loading bay has added browning above tolerance on some packages. The assessor records the browning percentage per package and the decision follows the class tolerances. The report also helps the packhouse fix the loading procedure for the next day.</p><h4>Key points</h4><ul><li>Litchis have a short season linked to the year-end holiday market.</li><li>Red pericarp colour is key, and browning happens quickly in heat.</li><li>SO2 treatment must follow the approved protocol and residue limits.</li><li>Litchis are non-climacteric and must be picked fully mature.</li><li>Shade, rapid cooling and high humidity protect quality.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the red outer skin of a litchi called?",
+      "options": [
+        {
+          "text": "Aril",
+          "correct": false
+        },
+        {
+          "text": "Calyx",
+          "correct": false
+        },
+        {
+          "text": "Pericarp",
+          "correct": true
+        },
+        {
+          "text": "Albedo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is SO2 used in many litchi export programmes?",
+      "options": [
+        {
+          "text": "To increase sugar content",
+          "correct": false
+        },
+        {
+          "text": "To preserve red colour and control decay",
+          "correct": true
+        },
+        {
+          "text": "To make the fruit larger",
+          "correct": false
+        },
+        {
+          "text": "To remove the seed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which main cultivar has dominated South African litchi production?",
+      "options": [
+        {
+          "text": "HLH Mauritius",
+          "correct": true
+        },
+        {
+          "text": "Hass",
+          "correct": false
+        },
+        {
+          "text": "Packham's Triumph",
+          "correct": false
+        },
+        {
+          "text": "Star Ruby",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What quickly causes the litchi pericarp to turn brown?",
+      "options": [
+        {
+          "text": "High humidity in the cold store",
+          "correct": false
+        },
+        {
+          "text": "Shade in the orchard",
+          "correct": false
+        },
+        {
+          "text": "Correct cooling",
+          "correct": false
+        },
+        {
+          "text": "Warm, dry conditions after harvest",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Larvae are found around the seed of sample fruit. How should this be treated?",
+      "options": [
+        {
+          "text": "As a minor cosmetic defect",
+          "correct": false
+        },
+        {
+          "text": "As a serious finding",
+          "correct": true
+        },
+        {
+          "text": "As normal for litchis",
+          "correct": false
+        },
+        {
+          "text": "As a packing fault only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Litchis continue to sweeten after harvest, so they can be picked early.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Cracked litchis are a concern because they leak juice and rot.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which practices protect litchi quality in the cold chain? (select all that apply)",
+      "options": [
+        {
+          "text": "Harvesting in the cooler part of the day",
+          "correct": true
+        },
+        {
+          "text": "Keeping relative humidity high",
+          "correct": true
+        },
+        {
+          "text": "Leaving fruit in the sun to dry",
+          "correct": false
+        },
+        {
+          "text": "Prompt cooling after treatment",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

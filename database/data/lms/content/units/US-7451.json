@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7451",
+ "title": "Collect, analyse, use and communicate numerical data",
+ "lessons": [
+  {
+   "title": "Collecting data on the farm",
+   "minutes": 15,
+   "html": "<h3>What is data?</h3>\n<p><strong>Data</strong> is information that we collect, often as numbers. On a poultry farm, workers record data every day: how many birds died, how many eggs were collected, how much feed and water was used and the temperature in the house. Managers use this data to see problems early and make good decisions.</p>\n<h4>Ask a clear question first</h4>\n<p>Before you collect data, know what you want to find out. For example: \"Are more birds dying in House 3 than in the other houses?\" or \"Which day of the week do we collect the most broken eggs?\" The question tells you what to count and for how long.</p>\n<h4>Ways to collect data</h4>\n<ul>\n<li><strong>Counting</strong> – count dead birds, eggs or bags.</li>\n<li><strong>Measuring</strong> – read the scale, thermometer or water meter.</li>\n<li><strong>Asking</strong> – a short survey, for example \"How do you travel to work?\"</li>\n<li><strong>Watching</strong> – note what you see, such as birds panting in the heat.</li>\n</ul>\n<h4>Tally marks</h4>\n<p>A tally is a quick way to count while you work. Make one stripe for each item. After four stripes, draw the fifth one across them to make a group of five. Groups of five are easy to count later.</p>\n<h4>Record sheets</h4>\n<p>Most farms use a daily record sheet stuck on the wall at the house door. Write clearly and on time:</p>\n<table>\n<tr><th>Date</th><th>House</th><th>Dead birds</th><th>Feed used (kg)</th><th>Signed</th></tr>\n<tr><td>03/03</td><td>2</td><td>12</td><td>1 250</td><td>S.M.</td></tr>\n</table>\n<h4>Rules for good data</h4>\n<ul>\n<li>Record at the same time every day.</li>\n<li>Write the number straight away. Do not trust your memory.</li>\n<li>Never guess or \"make up\" a number. If you missed a count, write that it was missed and tell your supervisor.</li>\n<li>Use the correct unit (kg, litres, °C).</li>\n<li>Sign your entry so others know who recorded it.</li>\n</ul>\n<p>Honest records protect the birds, the farm and you. A made-up number can hide a disease outbreak.</p>"
+  },
+  {
+   "title": "Organising data: tables and graphs",
+   "minutes": 15,
+   "html": "<h3>Putting data in order</h3>\n<p>A long list of numbers is hard to understand. We organise data into tables and graphs so we can see what is happening.</p>\n<h4>Frequency tables</h4>\n<p>A frequency table shows how many times each thing happened. Workers counted broken eggs each day for a week:</p>\n<table>\n<tr><th>Day</th><th>Broken eggs</th></tr>\n<tr><td>Monday</td><td>18</td></tr>\n<tr><td>Tuesday</td><td>12</td></tr>\n<tr><td>Wednesday</td><td>14</td></tr>\n<tr><td>Thursday</td><td>11</td></tr>\n<tr><td>Friday</td><td>25</td></tr>\n</table>\n<p>From the table we see that Friday had the most broken eggs. That is a clue: maybe a new worker was on the collection shift, or the trays were stacked too high for the weekend.</p>\n<h4>Bar graphs</h4>\n<p>A bar graph uses bars to show amounts. To draw one:</p>\n<ol>\n<li>Draw a line across the bottom (horizontal axis) and write the days under it.</li>\n<li>Draw a line up the side (vertical axis) and mark numbers evenly, starting at 0 – for example 0, 5, 10, 15, 20, 25.</li>\n<li>Draw a bar for each day up to its number. Keep all bars the same width.</li>\n<li>Give the graph a title, for example \"Broken eggs per day, week 10\".</li>\n</ol>\n<h4>Line graphs</h4>\n<p>A line graph is good for showing change over time, like the weight of broilers each week or the house temperature every hour. Plot a dot for each reading and join the dots. If the line suddenly goes up or down, something has changed and should be checked.</p>\n<h4>Pie charts</h4>\n<p>A pie chart shows parts of a whole as slices of a circle. For example, it can show how the farm's monthly costs are split between feed, labour, electricity and medicine. Feed is often the biggest slice in poultry production.</p>\n<p>Choose the graph that answers your question most clearly. Always label the axes and use a title.</p>"
+  },
+  {
+   "title": "Analysing and reporting data",
+   "minutes": 15,
+   "html": "<h3>Finding the story in the numbers</h3>\n<p>Once data is organised, we look for what it tells us. Three useful numbers are the mean, median and mode, and the range.</p>\n<h4>Mean (average)</h4>\n<p>Add all the values and divide by how many values there are. Broken eggs Monday to Friday: 18 + 12 + 14 + 11 + 25 = 80. 80 ÷ 5 = 16 broken eggs per day on average.</p>\n<h4>Median (middle)</h4>\n<p>Put the values in order and find the middle one: 11, 12, 14, 18, 25. The median is 14. The median is not pulled up by one very big value the way the mean is.</p>\n<h4>Mode (most common)</h4>\n<p>The mode is the value that appears most often. In a list of bird weights 1,8 – 1,9 – 1,9 – 2,0 – 1,9 kg the mode is 1,9 kg.</p>\n<h4>Range (spread)</h4>\n<p>The range is the biggest value minus the smallest. For broken eggs: 25 − 11 = 14. A big range means results change a lot from day to day.</p>\n<h3>Using data to make decisions</h3>\n<p>Data is only useful if someone acts on it. If deaths in House 3 are much higher than in the other houses, tell your supervisor the same day. If water use suddenly drops, the drinkers may be blocked or birds may be sick. Report changes, not just the numbers.</p>\n<h4>Communicating your findings</h4>\n<ul>\n<li>Say what you counted, where and when.</li>\n<li>Show a simple table or graph.</li>\n<li>Say what you noticed: \"Friday had more than double Thursday's broken eggs.\"</li>\n<li>Suggest a reason or next step if you can, but keep facts and guesses apart.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Start with a clear question, then decide what data to collect.</li>\n<li>Record data on time, honestly and with the correct unit.</li>\n<li>Tables and graphs make patterns easy to see; always label them.</li>\n<li>Mean, median, mode and range summarise a set of numbers.</li>\n<li>Report unusual changes to your supervisor quickly.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Broken eggs for five days were 18, 12, 14, 11 and 25. What is the mean?",
+   "options": [
+    {
+     "text": "14",
+     "correct": false
+    },
+    {
+     "text": "16",
+     "correct": true
+    },
+    {
+     "text": "25",
+     "correct": false
+    },
+    {
+     "text": "80",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "For the same values (18, 12, 14, 11, 25), what is the median?",
+   "options": [
+    {
+     "text": "18",
+     "correct": false
+    },
+    {
+     "text": "12",
+     "correct": false
+    },
+    {
+     "text": "14",
+     "correct": true
+    },
+    {
+     "text": "16",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which graph is best for showing the house temperature every hour of the day?",
+   "options": [
+    {
+     "text": "Line graph",
+     "correct": true
+    },
+    {
+     "text": "Pie chart",
+     "correct": false
+    },
+    {
+     "text": "Tally chart",
+     "correct": false
+    },
+    {
+     "text": "No graph is needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the range of 11, 12, 14, 18 and 25?",
+   "options": [
+    {
+     "text": "11",
+     "correct": false
+    },
+    {
+     "text": "25",
+     "correct": false
+    },
+    {
+     "text": "36",
+     "correct": false
+    },
+    {
+     "text": "14",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You missed the morning count of dead birds. What should you do?",
+   "options": [
+    {
+     "text": "Write down yesterday's number",
+     "correct": false
+    },
+    {
+     "text": "Guess a number close to normal",
+     "correct": false
+    },
+    {
+     "text": "Leave it blank and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Record that the count was missed and tell your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The vertical axis of a bar graph should normally start at 0.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The mode is the value found by adding all the values and dividing by how many there are.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good rules for recording farm data? (select all that apply)",
+   "options": [
+    {
+     "text": "Record at the same time every day",
+     "correct": true
+    },
+    {
+     "text": "Write numbers straight away",
+     "correct": true
+    },
+    {
+     "text": "Use the correct unit such as kg or litres",
+     "correct": true
+    },
+    {
+     "text": "Round numbers to make the sheet look neat",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

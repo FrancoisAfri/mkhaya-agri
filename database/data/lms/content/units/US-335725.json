@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335725",
+ "title": "Assist a mare to foal",
+ "lessons": [
+  {
+   "title": "Preparing for foaling",
+   "minutes": 20,
+   "html": "<h3>Know when foaling is near</h3>\n<p>Average gestation is about 340 days, but mares can foal normally from roughly 320 to 365 days. Keep accurate covering dates and watch for signs from about a month before the due date.</p>\n<h4>Signs that foaling is approaching</h4>\n<ul>\n<li>Udder enlarges over the last 2 to 4 weeks.</li>\n<li>Muscles around the tail head and pelvis relax and soften.</li>\n<li>The vulva lengthens and relaxes.</li>\n<li><strong>Waxing:</strong> drops of dried colostrum on the teat ends, often 1 to 4 days before foaling.</li>\n<li>Milk dripping or running. If milk runs for a long time before foaling, tell the vet, because the foal may miss out on colostrum.</li>\n<li>Milk test strips that measure calcium in the udder secretion help predict foaling.</li>\n</ul>\n<h3>Preparing the foaling area</h3>\n<ul>\n<li>A large, clean, well-bedded foaling stable (straw is better than shavings, which stick to the wet foal) or a clean, safe grass paddock.</li>\n<li>Good light and a way to observe without disturbing the mare: a viewing window or camera.</li>\n<li>Move the mare to the foaling area about a month before her due date so she builds immunity to local germs.</li>\n</ul>\n<h4>Foaling kit</h4>\n<ul>\n<li>Vet's phone number on the wall; transport available.</li>\n<li>Tail bandage, clean towels, bucket, mild soap, disposable gloves and long obstetric sleeves.</li>\n<li>Navel dip as recommended by the vet.</li>\n<li>Torch, watch to record times, notebook.</li>\n<li>Scissors (for the red bag emergency), a halter and lead rope.</li>\n<li>Frozen colostrum, if the stud keeps a bank, and a bottle.</li>\n</ul>\n<p>Most mares foal at night, quickly and without help. Your job is to watch quietly, record the times and know when to call the vet.</p>"
+  },
+  {
+   "title": "The three stages of foaling and when to act",
+   "minutes": 20,
+   "html": "<h3>Stage 1: preparation (about 1 to 4 hours)</h3>\n<p>The cervix opens and the foal turns into position. The mare is restless, walks the stable, looks at her flanks, sweats, lies down and gets up, and may pass small amounts of dung or urine. Bandage her tail and wash the udder and vulva gently if she allows.</p>\n<h3>Stage 2: delivery (usually 20 to 30 minutes)</h3>\n<p>Stage 2 starts when the waters break. Then a white, shiny membrane (the amnion) appears at the vulva. Normal presentation: <strong>two front feet, one slightly ahead of the other, soles pointing down, with the nose resting on the knees.</strong></p>\n<ul>\n<li>Record the time the waters broke.</li>\n<li>If the foal is not delivered within about 20 to 30 minutes, or the presentation looks wrong (only one leg, no head, soles pointing up, or a head without legs), call the vet <strong>immediately</strong>.</li>\n<li>If you must assist, wear a clean sleeve and only pull gently <strong>downwards towards the mare's hocks</strong>, in time with her straining. Never pull hard or with ropes unless trained.</li>\n</ul>\n<h4>Red bag emergency</h4>\n<p>If a red, velvety bag appears instead of the white membrane, the placenta has separated early and the foal will suffocate. Cut the red bag at once, help deliver the foal, and call the vet.</p>\n<h3>Stage 3: placenta (within about 3 hours)</h3>\n<ul>\n<li>Do not cut the cord; let it break naturally when the mare or foal moves.</li>\n<li>Tie the hanging placenta up in a knot above the hocks so the mare does not stand on it. Do not pull it out.</li>\n<li>If the placenta is not passed within about 3 hours, call the vet; retained placenta is dangerous.</li>\n<li>Keep the placenta for the vet to check that it is complete.</li>\n</ul>\n<h3>Care of the newborn foal</h3>\n<ul>\n<li>Clear membranes from the nostrils so it can breathe.</li>\n<li>Dip the navel as the vet recommends.</li>\n<li>The foal should stand within about 1 hour and suckle within about 2 hours to get colostrum.</li>\n<li>Watch for passing of the first dung (meconium); straining without passing it needs vet attention.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Waxing, udder filling and relaxed muscles show foaling is near.</li>\n<li>Normal presentation: two front feet, soles down, nose on the knees.</li>\n<li>Delivery should take about 20 to 30 minutes after the waters break.</li>\n<li>A red bag is an emergency: cut it and call the vet.</li>\n<li>Placenta within about 3 hours; foal standing in 1 hour and suckling in 2.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is 'waxing' in a mare close to foaling?",
+   "options": [
+    {
+     "text": "Shiny coat",
+     "correct": false
+    },
+    {
+     "text": "Drops of dried colostrum on the teats",
+     "correct": true
+    },
+    {
+     "text": "Swelling of the legs",
+     "correct": false
+    },
+    {
+     "text": "Sweating on the neck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the normal presentation of a foal?",
+   "options": [
+    {
+     "text": "Hind feet first, soles up",
+     "correct": false
+    },
+    {
+     "text": "Head first with no legs",
+     "correct": false
+    },
+    {
+     "text": "One front leg only",
+     "correct": false
+    },
+    {
+     "text": "Two front feet, soles down, nose on the knees",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do if a red, velvety bag appears at the vulva?",
+   "options": [
+    {
+     "text": "Cut it at once, help deliver the foal and call the vet",
+     "correct": true
+    },
+    {
+     "text": "Wait an hour",
+     "correct": false
+    },
+    {
+     "text": "Push it back in",
+     "correct": false
+    },
+    {
+     "text": "Give the mare feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If you must assist delivery, in which direction should you pull?",
+   "options": [
+    {
+     "text": "Straight up",
+     "correct": false
+    },
+    {
+     "text": "Sideways",
+     "correct": false
+    },
+    {
+     "text": "Gently downwards towards the mare's hocks",
+     "correct": true
+    },
+    {
+     "text": "Backwards and up as hard as possible",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the placenta usually be passed?",
+   "options": [
+    {
+     "text": "Within 10 minutes",
+     "correct": false
+    },
+    {
+     "text": "Within about 3 hours",
+     "correct": true
+    },
+    {
+     "text": "After 2 days",
+     "correct": false
+    },
+    {
+     "text": "Before the foal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should cut the umbilical cord immediately after birth.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A newborn foal should suckle within about 2 hours to get colostrum.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "When should you call the vet during foaling? (select all that apply)",
+   "options": [
+    {
+     "text": "Foal not delivered within about 20 to 30 minutes of the waters breaking",
+     "correct": true
+    },
+    {
+     "text": "Soles of the feet pointing up",
+     "correct": true
+    },
+    {
+     "text": "Placenta not passed within about 3 hours",
+     "correct": true
+    },
+    {
+     "text": "Foal standing after about 1 hour",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

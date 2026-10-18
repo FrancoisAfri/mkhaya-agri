@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-18",
+ "title": "Diagnosis and Repair Tractor Brake Systems",
+ "lessons": [
+  {
+   "title": "Tractor brake systems and safety",
+   "minutes": 20,
+   "html": "<h3>Types of tractor brakes</h3> <p>Most tractors have independent left and right brake pedals that can be latched together for road travel. Separate pedals allow sharp turns in the field. Common designs are:</p> <ul> <li><strong>Wet multi-disc brakes</strong> running in transmission oil, often in the rear axle or final drives. They are applied hydraulically or mechanically.</li> <li><strong>Dry disc or drum brakes</strong> on older or smaller tractors, usually mechanically operated by rods and cables.</li> <li><strong>Front axle braking</strong> on many 4WD tractors, by automatic 4WD engagement during braking or by front brakes.</li> <li><strong>Parking brake</strong>: a separate mechanical brake, a transmission park lock, or a spring-applied hydraulic release brake.</li> <li><strong>Trailer brakes</strong>: air or hydraulic trailer brake valves controlled from the tractor.</li> </ul> <h4>Why brakes matter so much on farms</h4> <p>Tractors pull heavy trailers of maize, sugar cane or bales on gravel roads and public roads, often on slopes. A brake failure with a loaded trailer going downhill can kill the driver and other road users. Brakes that pull to one side can make a tractor swerve or jack-knife.</p> <h4>Safety while working on brakes</h4> <ul> <li>Work on level ground. Chock the wheels securely on both sides before releasing or removing any brake, because the tractor may roll freely.</li> <li>Support the tractor on rated stands, never only a jack, before removing wheels or axles.</li> <li>Hydraulic brake fluid or oil can be under pressure; release it before opening lines.</li> <li>Older brake linings may contain asbestos. Do not blow brake dust with compressed air. Use a wet cleaning method and wear a suitable dust mask as your workplace requires.</li> <li>Brake fluid damages paint and irritates eyes and skin; wear gloves and glasses.</li> </ul> <h4>Starting the diagnosis</h4> <p>Ask the driver: does the pedal feel soft or hard? Does the tractor pull to one side? Is there noise, overheating or loss of braking under load? Inspect pedal free play, linkages, fluid levels and leaks before stripping anything.</p>"
+  },
+  {
+   "title": "Diagnosing brake faults",
+   "minutes": 20,
+   "html": "<h3>Common complaints and causes</h3> <table> <tr><th>Complaint</th><th>Possible causes</th></tr> <tr><td>Spongy or low pedal</td><td>Air in hydraulic brakes, low fluid, leaking master or slave cylinder, wrong adjustment</td></tr> <tr><td>Pulls to one side when pedals are latched</td><td>Unequal adjustment, worn or oil-soaked linings on one side, sticking piston</td></tr> <tr><td>Brakes drag or overheat</td><td>No pedal free play, seized linkage, return springs broken, piston sticking</td></tr> <tr><td>Poor braking with good pedal</td><td>Worn discs or linings, glazed friction surfaces, wrong oil in wet brakes</td></tr> <tr><td>Chatter or noise in wet brakes</td><td>Incorrect transmission oil type, worn discs</td></tr> <tr><td>Parking brake does not hold</td><td>Cable or linkage stretched, worn parking brake, out of adjustment</td></tr> </table> <h3>Tests and measurements</h3> <ul> <li><strong>Pedal free play and travel:</strong> measure and compare with the manual.</li> <li><strong>Hydraulic brake pressure:</strong> on hydraulically applied brakes, fit a gauge where the manual shows, and compare pressures between left and right.</li> <li><strong>Disc and lining wear:</strong> after stripping, measure disc thickness and stack height and compare with service limits. Check for warping, scoring and glazing.</li> <li><strong>Trailer brake output:</strong> check air pressure or hydraulic trailer brake pressure with gauges and the manual procedure.</li> <li><strong>Road test:</strong> in a safe area, with pedals latched, brake at moderate speed and check for a straight stop. Test the parking brake on a slope with the engine off and wheels chocked downhill for safety.</li> </ul> <p>Look for the cause behind worn brakes. One worn side may mean the driver uses one brake for turning all day, or that the brake is dragging because of seized linkage. Oil-soaked dry linings mean a leaking axle seal that must also be repaired.</p> <p>Record every measurement. They show the farmer why parts must be replaced and help you prove the repair later.</p>"
+  },
+  {
+   "title": "Repairing, adjusting and testing brakes",
+   "minutes": 20,
+   "html": "<h3>Repair work</h3> <ul> <li>Replace friction discs, steel plates or linings as sets on both sides so braking stays balanced.</li> <li>Replace seals on brake pistons and cylinders with the correct kit. Clean parts with the cleaner the manual allows; wrong solvents can swell seals.</li> <li>Repair any oil leak that contaminated the linings, for example an axle seal.</li> <li>Free and lubricate seized linkages and pivots; replace broken return springs.</li> <li>Use the fluid or oil the manual specifies. Mixing brake fluid types, or putting mineral oil in a system designed for brake fluid (or the other way round), destroys seals and can cause total brake failure.</li> </ul> <h3>Adjustment and bleeding</h3> <ol> <li>Adjust each brake to the specified pedal free play so both pedals are at the same height when latched.</li> <li>Bleed hydraulic brakes in the sequence the manual gives, keeping the reservoir topped up so no air is drawn in.</li> <li>Adjust the parking brake to hold within the stated number of clicks or travel.</li> <li>Check that the brake lights work.</li> </ol> <h3>Testing before handover</h3> <ul> <li>Check pedal feel: firm, not spongy, with correct travel.</li> <li>Road test in a safe area with pedals latched; the tractor must stop straight.</li> <li>Test each brake separately for turning.</li> <li>Test the parking brake holds on a slope.</li> <li>Test trailer brake function with a trailer or a gauge.</li> <li>Check for leaks and overheating after the test.</li> </ul> <p>Some new brake friction parts need bedding in; follow the manual and advise the driver. Remind the driver to latch the pedals together for road travel and never to coast downhill out of gear.</p> <p>Record measurements, parts, fluid, adjustments, test results and sign-off. Brake work must always be checked by your supervisor before the tractor is released.</p> <h4>Key points</h4> <ul> <li>Chock wheels and support the tractor on stands before brake work.</li> <li>Never blow brake dust with compressed air; use wet cleaning.</li> <li>Replace friction parts in sets on both sides and fix any oil leaks.</li> <li>Use only the specified brake fluid or oil; mixing types can cause brake failure.</li> <li>Adjust, bleed, road test with latched pedals and get supervisor sign-off.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a likely cause of a spongy brake pedal on hydraulic brakes?",
+   "options": [
+    {
+     "text": "New brake discs",
+     "correct": false
+    },
+    {
+     "text": "Air in the system",
+     "correct": true
+    },
+    {
+     "text": "Clean linings",
+     "correct": false
+    },
+    {
+     "text": "Correct pedal free play",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The tractor pulls to one side when the pedals are latched. What should you check?",
+   "options": [
+    {
+     "text": "Tyre tread on the front only",
+     "correct": false
+    },
+    {
+     "text": "The fuel filter",
+     "correct": false
+    },
+    {
+     "text": "The radio",
+     "correct": false
+    },
+    {
+     "text": "Unequal adjustment or worn or oil-soaked linings on one side",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are brake friction parts replaced on both sides?",
+   "options": [
+    {
+     "text": "To keep braking balanced",
+     "correct": true
+    },
+    {
+     "text": "Only one side ever wears",
+     "correct": false
+    },
+    {
+     "text": "To make the pedal softer",
+     "correct": false
+    },
+    {
+     "text": "Because they are cheaper in pairs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can happen if mineral oil is put into a system designed for brake fluid?",
+   "options": [
+    {
+     "text": "Seals are destroyed and brakes can fail",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "The brake lights stop working",
+     "correct": false
+    },
+    {
+     "text": "Better braking",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should brake dust be cleaned?",
+   "options": [
+    {
+     "text": "Blow it with compressed air",
+     "correct": false
+    },
+    {
+     "text": "Sweep it with a dry broom",
+     "correct": false
+    },
+    {
+     "text": "Use a wet cleaning method",
+     "correct": true
+    },
+    {
+     "text": "Leave it inside the drum",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Wheels must be chocked before releasing or removing a tractor's brakes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Brake work may be released to the farmer without a supervisor check if the mechanic is confident.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong to testing brakes before handover? (select all that apply)",
+   "options": [
+    {
+     "text": "Test that the parking brake holds on a slope",
+     "correct": true
+    },
+    {
+     "text": "Test trailer brake function",
+     "correct": true
+    },
+    {
+     "text": "Remove the brake lights",
+     "correct": false
+    },
+    {
+     "text": "Road test with pedals latched to check a straight stop",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

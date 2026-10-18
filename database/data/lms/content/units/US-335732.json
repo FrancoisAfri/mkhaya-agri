@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335732",
+ "title": "Use a horse in crowd management",
+ "lessons": [
+  {
+   "title": "Principles of mounted crowd management",
+   "minutes": 20,
+   "html": "<h3>The role of the horse in crowd management</h3>\n<p>Mounted units are used at sports stadiums, concerts, festivals, marches and public gatherings. One mounted officer can do the work of many officers on foot, because a horse is big, visible and can move people without contact. The aim is to keep people safe, keep routes open, and prevent crushes and conflict. In South Africa, crowd management at gatherings is governed by the Regulation of Gatherings Act 205 of 1993 and the policing standards of the SAPS and municipal police.</p>\n<h3>Crowd behaviour</h3>\n<ul>\n<li>Most crowds are peaceful. Friendly, visible policing helps keep them that way.</li>\n<li>Crowds can change quickly because of rumour, alcohol, delays, provocation or overcrowding.</li>\n<li>Dense crowds can crush people at gates and exits; early action to manage flow saves lives.</li>\n</ul>\n<h3>The crowd horse</h3>\n<ul>\n<li>Exceptionally calm and trained to tolerate noise, flags, vuvuzelas, smoke, thrown objects and people touching it.</li>\n<li>Responds instantly to the rider's aids to move sideways, back up, stand and push gently forward.</li>\n<li>Protective equipment as used by the unit: face visors, leg protection and reflective gear.</li>\n<li>Rider equipment: helmet, protective gear, radio and the unit's approved equipment.</li>\n</ul>\n<h3>Preparation</h3>\n<ol>\n<li>Attend the operational briefing: venue layout, entry and exit routes, expected crowd size, known risks, command structure and radio channels.</li>\n<li>Walk or ride the venue beforehand to know surfaces, steps, barriers and escape routes.</li>\n<li>Check horses: soundness, shoes with grip for tar and paving, tack and protective gear.</li>\n<li>Plan rest, water and relief rotations for horses and riders during long events.</li>\n</ol>"
+  },
+  {
+   "title": "Mounted tactics, safety and after-action care",
+   "minutes": 20,
+   "html": "<h3>Using the horse in a crowd</h3>\n<ul>\n<li><strong>Presence and observation:</strong> mounted officers stand at high points to watch the crowd, spot trouble and direct ground teams.</li>\n<li><strong>Directing flow:</strong> horses positioned at gates, intersections and queues guide people and keep lanes open.</li>\n<li><strong>Line formation:</strong> riders side by side, knee to knee, form a moving wall to move or hold a crowd. They advance at a slow walk, giving people time and space to move.</li>\n<li><strong>Wedge or arrowhead:</strong> used to split a crowd or create a path for emergency services.</li>\n<li><strong>Separation:</strong> keep opposing groups apart.</li>\n</ul>\n<h3>Rules for safe use</h3>\n<ol>\n<li>Always give people space and a clear way to move away; never push a crowd against a wall, fence or into a dead end.</li>\n<li>Advance slowly, under command. The aim is to move people, not to injure them.</li>\n<li>Work in pairs or sections, never alone; keep radio contact with command.</li>\n<li>Use only force that is lawful, necessary and proportional, as the unit's standing orders and the law require.</li>\n<li>Watch for children, elderly and disabled people and help them out of the way.</li>\n</ol>\n<h3>Protecting the horse</h3>\n<ul>\n<li>Watch for thrown objects, fireworks, broken glass and people trying to grab reins or injure the horse.</li>\n<li>Withdraw a horse that is injured, frightened or exhausted.</li>\n<li>Water and rest horses regularly; watch for heat stress on hot days.</li>\n</ul>\n<h3>After the event</h3>\n<ul>\n<li>Check each horse for injuries, especially legs, face and feet; treat and report.</li>\n<li>Cool, water and feed; check shoes.</li>\n<li>Clean and check tack and protective gear.</li>\n<li>Debrief with the team and command; record incidents, use of force and injuries in the required reports.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Mounted officers give height, visibility and the ability to move people without contact.</li>\n<li>Crowd horses must be exceptionally calm and responsive.</li>\n<li>Brief, recce the venue and plan horse rotations.</li>\n<li>Always leave the crowd a way out; never push people into a dead end.</li>\n<li>Use only lawful, necessary and proportional force under command.</li>\n<li>Check horses, tack and records after the event.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act governs gatherings in South Africa?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Regulation of Gatherings Act 205 of 1993",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the most important rule when moving a crowd with horses?",
+   "options": [
+    {
+     "text": "Always leave the crowd a clear way to move away",
+     "correct": true
+    },
+    {
+     "text": "Push them against a wall",
+     "correct": false
+    },
+    {
+     "text": "Move as fast as possible",
+     "correct": false
+    },
+    {
+     "text": "Work alone for speed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which formation is used to create a path for emergency services?",
+   "options": [
+    {
+     "text": "Single file",
+     "correct": false
+    },
+    {
+     "text": "Circle",
+     "correct": false
+    },
+    {
+     "text": "Line at the back",
+     "correct": false
+    },
+    {
+     "text": "Wedge or arrowhead",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a line of mounted officers advance on a crowd?",
+   "options": [
+    {
+     "text": "At a gallop",
+     "correct": false
+    },
+    {
+     "text": "At a slow walk, under command",
+     "correct": true
+    },
+    {
+     "text": "Backwards",
+     "correct": false
+    },
+    {
+     "text": "Without orders",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with a horse that is injured or exhausted during an event?",
+   "options": [
+    {
+     "text": "Keep it in the front line",
+     "correct": false
+    },
+    {
+     "text": "Ride it harder",
+     "correct": false
+    },
+    {
+     "text": "Withdraw it",
+     "correct": true
+    },
+    {
+     "text": "Leave it tied in the crowd",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Most crowds are peaceful, and friendly visible policing helps keep them that way.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mounted officers should work alone in a crowd to cover more ground.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should happen after a crowd event? (select all that apply)",
+   "options": [
+    {
+     "text": "Check horses for injuries",
+     "correct": true
+    },
+    {
+     "text": "Clean and check tack",
+     "correct": true
+    },
+    {
+     "text": "Debrief and record incidents",
+     "correct": true
+    },
+    {
+     "text": "Skip reporting use of force",
+     "correct": false
+    },
+    {
+     "text": "Turn horses out without checking",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

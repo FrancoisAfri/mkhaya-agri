@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119635",
+ "title": "Engage in a range of speaking/signing and listening interactions for a variety of purposes",
+ "lessons": [
+  {
+   "title": "Listening well at work",
+   "minutes": 15,
+   "html": "<h3>Why listening matters</h3> <p>In a stable yard many instructions are spoken, not written. \"Give Duke only half a scoop tonight.\" \"Do not turn out the grey mare, she is lame.\" If you do not listen well, a horse can get hurt. Good listening keeps horses and people safe.</p> <h4>How to listen well</h4> <ol> <li><strong>Stop and look.</strong> Stop what you are doing. Look at the person speaking.</li> <li><strong>Pay attention.</strong> Do not think about something else. Put your phone away.</li> <li><strong>Listen for the main point.</strong> What must I do? To which horse? When?</li> <li><strong>Ask if you do not understand.</strong> \"Do you mean the bay horse in stable 6?\"</li> <li><strong>Repeat it back.</strong> \"So, half a scoop for Duke tonight. Okay.\"</li> </ol> <p>Repeating back is very important. It shows the speaker you understood. If you got it wrong, they can correct you at once.</p> <h4>Things that block listening</h4> <ul> <li>Noise: a tractor, a radio, horses calling</li> <li>Being in a hurry</li> <li>Thinking you already know what the person will say</li> <li>Not liking the speaker</li> <li>Different home languages</li> </ul> <p>If it is noisy, move to a quieter place. If you speak a different language from the speaker, use simple words, show with your hands, or ask a co-worker to help.</p> <h4>Body language</h4> <p>We also talk with our bodies. Nodding shows you understand. Crossed arms and looking away can show you are not interested. A friendly face makes people want to talk to you.</p> <p>Horses also use body language: ears pinned back means angry; ears forward means interested. Good grooms listen to horses with their eyes.</p> <h4>Example</h4> <p>The vet tells Nomsa: \"Cold hose his leg for 15 minutes, twice a day.\" Nomsa repeats: \"Fifteen minutes, morning and afternoon, right front leg?\" The vet says: \"Left front.\" Nomsa's question stopped a mistake.</p>"
+  },
+  {
+   "title": "Speaking clearly for different purposes",
+   "minutes": 15,
+   "html": "<h3>We speak for many reasons</h3> <table><tr><th>Purpose</th><th>Example</th></tr> <tr><td>To give information</td><td>\"The farrier is coming at 10:00.\"</td></tr> <tr><td>To report a problem</td><td>\"Storm has a swollen hind leg.\"</td></tr> <tr><td>To ask for something</td><td>\"Can I have new gloves, please?\"</td></tr> <tr><td>To give instructions</td><td>\"Lead the horse on the left side.\"</td></tr> <tr><td>To be friendly</td><td>\"Good morning, how was your weekend?\"</td></tr></table> <h4>Speaking clearly</h4> <ul> <li>Think before you speak: what do I want to say?</li> <li>Speak loud enough and not too fast.</li> <li>Use simple words the listener knows.</li> <li>Say the most important thing first.</li> <li>Look at the person.</li> </ul> <h4>Reporting a problem</h4> <p>When you report a problem to your supervisor, say:</p> <ol> <li><strong>Who</strong> - which horse or person</li> <li><strong>What</strong> - what you saw</li> <li><strong>Where</strong> - which stable or camp</li> <li><strong>When</strong> - when you noticed</li> </ol> <p>Example: \"Storm, in stable 3, is not eating and keeps lying down and rolling. I saw it at 7 o'clock.\" This tells the supervisor everything needed to call the vet quickly. Colic is an emergency, so report at once.</p> <h4>Using the phone or radio</h4> <p>Say your name first. Speak slowly. Give the message. Ask the other person to repeat important details. In an emergency, say where you are first.</p> <h4>Being polite</h4> <p>Use please and thank you. Do not shout at co-workers or at horses. If you disagree, speak calmly and explain why. Respect people of different languages and cultures. Wait for your turn to speak in a meeting.</p> <h4>Signing</h4> <p>Some co-workers may be Deaf and use South African Sign Language. Face them, get their attention with a gentle wave or touch on the shoulder, and do not cover your mouth. Learn a few basic signs; it shows respect.</p> <h4>Key points</h4> <ul> <li>Stop, look, listen and repeat instructions back.</li> <li>Ask questions when you are not sure.</li> <li>Speak clearly, simply and say the most important thing first.</li> <li>Report problems with who, what, where and when.</li> <li>Be polite and respect different languages, including sign language.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should you repeat an instruction back to the speaker?",
+   "options": [
+    {
+     "text": "To waste time",
+     "correct": false
+    },
+    {
+     "text": "To show you understood and let them correct mistakes",
+     "correct": true
+    },
+    {
+     "text": "Because you did not hear",
+     "correct": false
+    },
+    {
+     "text": "To be rude",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first when someone gives you an instruction?",
+   "options": [
+    {
+     "text": "Keep working and half listen",
+     "correct": false
+    },
+    {
+     "text": "Stop and look at the person",
+     "correct": true
+    },
+    {
+     "text": "Walk away",
+     "correct": false
+    },
+    {
+     "text": "Start talking",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a good report of a problem?",
+   "options": [
+    {
+     "text": "Something is wrong somewhere",
+     "correct": false
+    },
+    {
+     "text": "Storm in stable 3 is rolling and not eating; I saw it at 7 o'clock",
+     "correct": true
+    },
+    {
+     "text": "A horse looks funny",
+     "correct": false
+    },
+    {
+     "text": "I think there is a problem",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A horse has its ears pinned back. What does this usually show?",
+   "options": [
+    {
+     "text": "It is happy",
+     "correct": false
+    },
+    {
+     "text": "It is sleeping",
+     "correct": false
+    },
+    {
+     "text": "It is angry",
+     "correct": true
+    },
+    {
+     "text": "It is hungry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On the phone in an emergency, what should you say first?",
+   "options": [
+    {
+     "text": "Where you are",
+     "correct": true
+    },
+    {
+     "text": "Your favourite horse",
+     "correct": false
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "Goodbye",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Noise from a tractor can block good listening.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to shout at co-workers when you disagree.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a problem report include? (select all that apply)",
+   "options": [
+    {
+     "text": "Who or which horse",
+     "correct": true
+    },
+    {
+     "text": "What you saw",
+     "correct": true
+    },
+    {
+     "text": "Where it is",
+     "correct": true
+    },
+    {
+     "text": "Your shoe size",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

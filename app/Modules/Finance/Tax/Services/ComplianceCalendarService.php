@@ -46,7 +46,7 @@ class ComplianceCalendarService
                     'tax_type_id' => $type->id, 'registration_id' => $registration->id,
                     'title' => "{$type->code} {$period->label} — " . ($kind === 'filing' ? 'return due' : 'payment due'),
                     'due_date' => $due, 'source' => 'rule', 'status' => $historical ? 'waived' : 'open',
-                    'resolution_note' => $historical ? 'Before the registration was confirmed in Mkhaya Hub; not tracked here.' : null,
+                    'resolution_note' => $historical ? 'Before the registration was confirmed in Mkhaya Agri; not tracked here.' : null,
                     'owner_id' => $registration->preparer_id, 'reviewer_id' => $registration->reviewer_id,
                     'escalation_id' => $registration->escalation_id ?? $registration->reviewer_id,
                     'reminder_days' => app(\App\Modules\Finance\Tax\Support\TaxSettings::class)->get('reminder_days', $period->company_id) ?: self::DEFAULT_REMINDER_DAYS,

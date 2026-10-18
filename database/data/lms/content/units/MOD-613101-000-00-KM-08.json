@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-613101-000-00-KM-08",
+ "title": "Climate-Resilient Farming and Livestock Management",
+ "lessons": [
+  {
+   "title": "Climate risks for South African farms",
+   "minutes": 25,
+   "html": "<h3>Climate risks for South African farms</h3><p>South African farming has always dealt with variable rainfall, but climate change is increasing temperatures and the frequency of extreme events. Recent droughts, such as the severe drought affecting the Western Cape around 2015 to 2018 and widespread summer-rainfall droughts linked to El Nino, and floods in KwaZulu-Natal and the Eastern Cape, show the scale of the risk.</p><h4>Main climate risks</h4><table><tr><th>Risk</th><th>Effects on crops</th><th>Effects on livestock</th></tr><tr><td>Drought</td><td>Crop failure, lower yields, irrigation limits</td><td>Veld loss, forced sales, low conception</td></tr><tr><td>Heat waves</td><td>Pollination failure, heat stress at flowering</td><td>Heat stress, lower milk yield and fertility, deaths in intensive units</td></tr><tr><td>Heavy rain and floods</td><td>Erosion, waterlogging, lost inputs</td><td>Drowning, disease outbreaks, damaged infrastructure</td></tr><tr><td>Hail and frost</td><td>Direct crop damage</td><td>Exposure losses in young stock</td></tr><tr><td>Shifting seasons</td><td>Unreliable planting windows</td><td>Changing pest and disease ranges, for example ticks</td></tr><tr><td>Veld fires</td><td>Loss of grazing and crops</td><td>Animal deaths, fence and infrastructure loss</td></tr></table><h4>Assessing farm vulnerability</h4><ol><li>Review long-term rainfall and temperature records for the farm or nearest station.</li><li>Identify which enterprises and resources are most exposed: dryland lands, water sources, high-value intensive units.</li><li>List current coping measures: fodder reserves, insurance, water storage, drought-tolerant cultivars.</li><li>Identify gaps and prioritise actions by risk and cost.</li></ol><p>Use seasonal forecasts from the South African Weather Service and agricultural advisory services to inform planting and stocking decisions, while remembering they give probabilities, not certainties.</p><p>Climate risk also affects the value chain: drought raises feed prices for livestock, floods damage roads to markets, and heat waves reduce worker productivity. Resilience planning should consider inputs, markets and people, not only the land.</p>"
+  },
+  {
+   "title": "Adaptation practices for crops and livestock",
+   "minutes": 25,
+   "html": "<h3>Adaptation practices for crops and livestock</h3><h4>Crops</h4><ul><li><strong>Conservation agriculture</strong>: minimum tillage, permanent soil cover and rotation increase infiltration, soil organic matter and water-holding capacity.</li><li><strong>Drought-tolerant and early-maturing cultivars</strong>, and crops such as sorghum and cowpeas in marginal areas.</li><li><strong>Flexible planting</strong>: plant only once adequate soil moisture is present; adjust populations to expected rainfall.</li><li><strong>Efficient irrigation</strong>: drip or well-maintained centre pivots, scheduling by soil moisture.</li><li><strong>Diversification</strong>: several crops with different timing reduce the chance of total failure.</li><li><strong>Insurance</strong>: crop insurance against hail, drought or multi-peril where available.</li></ul><h4>Livestock</h4><ul><li><strong>Conservative stocking</strong>: stock below the long-term grazing capacity so there is reserve for dry years.</li><li><strong>Drought plan</strong>: set trigger dates (for example, if a set amount of rain has not fallen by a certain month) to reduce numbers early by selling culls and weaners, before prices fall and condition is lost.</li><li><strong>Fodder banks</strong>: hay, silage and drought-tolerant fodder crops such as spineless cactus or saltbush in arid areas.</li><li><strong>Adapted breeds</strong>: indigenous breeds such as Nguni cattle and Dorper sheep tolerate heat, ticks and poor veld better than many exotic breeds.</li><li><strong>Heat stress management</strong>: shade, extra water points, cooling in dairies and intensive units, working animals in the cool of the day.</li><li><strong>Water security</strong>: maintain boreholes and reservoirs, protect springs, and add storage.</li></ul><h4>Climate-smart resource management</h4><ul><li>Protect wetlands and riparian zones, which buffer floods and droughts.</li><li>Clear invasive alien plants that use large amounts of water, as required under CARA (Act 43 of 1983).</li><li>Build firebreaks and maintain fire-fighting equipment; join the local fire protection association.</li><li>Use renewable energy, such as solar pumping, to reduce costs and dependence on grid supply.</li></ul><h4>Planning and finance</h4><p>Build a cash reserve or access to credit for bad years, and plan the timing of capital spending. Keep good records to support insurance claims and any drought relief applications.</p><h4>Key points</h4><ul><li>Drought, heat, floods, hail, fire and shifting seasons are key climate risks.</li><li>Assess vulnerability and use seasonal forecasts as probabilities.</li><li>Conservation agriculture and adapted cultivars build crop resilience.</li><li>Conservative stocking, drought triggers and fodder banks protect livestock.</li><li>Protect water, wetlands and veld; plan finance for bad years.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How does conservation agriculture help with drought resilience?",
+   "options": [
+    {
+     "text": "It increases infiltration and soil water-holding capacity",
+     "correct": true
+    },
+    {
+     "text": "It removes all crop residues",
+     "correct": false
+    },
+    {
+     "text": "It requires more ploughing",
+     "correct": false
+    },
+    {
+     "text": "It increases run-off",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of drought trigger dates in a livestock plan?",
+   "options": [
+    {
+     "text": "To buy more animals",
+     "correct": false
+    },
+    {
+     "text": "To reduce numbers early before condition and prices fall",
+     "correct": true
+    },
+    {
+     "text": "To delay all decisions",
+     "correct": false
+    },
+    {
+     "text": "To start the breeding season",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should seasonal forecasts be used?",
+   "options": [
+    {
+     "text": "As certainties",
+     "correct": false
+    },
+    {
+     "text": "Ignored completely",
+     "correct": false
+    },
+    {
+     "text": "As probabilities to inform decisions",
+     "correct": true
+    },
+    {
+     "text": "Only after harvest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a heat stress measure for livestock?",
+   "options": [
+    {
+     "text": "Working animals at midday",
+     "correct": false
+    },
+    {
+     "text": "Reducing water points",
+     "correct": false
+    },
+    {
+     "text": "Removing shade",
+     "correct": false
+    },
+    {
+     "text": "Providing shade and extra water",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why clear invasive alien plants?",
+   "options": [
+    {
+     "text": "They use large amounts of water",
+     "correct": true
+    },
+    {
+     "text": "They improve grazing capacity",
+     "correct": false
+    },
+    {
+     "text": "They prevent erosion better than veld",
+     "correct": false
+    },
+    {
+     "text": "They are required for insurance",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stocking below long-term grazing capacity gives a reserve for dry years.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Wetlands increase flood and drought risk on farms.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are climate adaptation practices for livestock? (select all that apply)",
+   "options": [
+    {
+     "text": "Fodder banks such as hay and silage",
+     "correct": true
+    },
+    {
+     "text": "Using adapted indigenous breeds",
+     "correct": true
+    },
+    {
+     "text": "Conservative stocking",
+     "correct": true
+    },
+    {
+     "text": "Increasing stock numbers during drought",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

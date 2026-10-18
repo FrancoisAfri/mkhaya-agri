@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12622",
+  "title": "Perform routine maintenance on farm installations",
+  "lessons": [
+    {
+      "title": "Farm installations and inspection",
+      "minutes": 20,
+      "html": "<h3>Farm installations and inspection</h3><p>Farm installations are the fixed structures and systems on a farm. They are expensive to replace, so regular maintenance saves money and prevents accidents and losses.</p><h4>Examples of farm installations</h4><ul><li><strong>Water systems:</strong> boreholes, windmills, pumps, reservoirs, tanks, pipelines, troughs, irrigation lines.</li><li><strong>Animal facilities:</strong> kraals, crushes, races, loading ramps, dip tanks, feed troughs, poultry and pig houses.</li><li><strong>Fences and gates.</strong></li><li><strong>Buildings:</strong> stores, sheds, workshops, pack houses, workers' houses.</li><li><strong>Roads, drains, culverts and contour banks.</strong></li></ul><h4>Routine inspection</h4><p>Inspect installations on a regular schedule, and always after storms, floods and fires. Use a checklist so nothing is missed.</p><table><tr><th>Installation</th><th>What to look for</th></tr><tr><td>Troughs and tanks</td><td>Leaks, broken floats, algae, dirt, low water level</td></tr><tr><td>Pipelines</td><td>Wet spots, burst pipes, loose joints</td></tr><tr><td>Windmill</td><td>Loose bolts, worn or noisy parts, oil level in the head, damaged blades</td></tr><tr><td>Kraal and crush</td><td>Broken rails, protruding nails or wire, sharp edges, loose hinges</td></tr><tr><td>Buildings</td><td>Roof leaks, broken windows, damaged gutters, cracked walls, rat holes</td></tr><tr><td>Roads and drains</td><td>Potholes, erosion, blocked culverts</td></tr></table><h4>Recording faults</h4><p>Write down every fault: what, where, how serious, and the date. Mark urgent faults, for example a broken water supply to animals, a dangerous crush, or exposed electrical wiring, and report them straight away. Some work, such as electrical repairs, must only be done by qualified people.</p><p>A small fault left alone often becomes a big, costly one. A dripping trough float can empty a reservoir overnight, and one broken crush rail can lead to an injured animal or worker. Report and fix faults early.</p>"
+    },
+    {
+      "title": "Doing routine maintenance safely",
+      "minutes": 25,
+      "html": "<h3>Doing routine maintenance safely</h3><h4>Common routine tasks</h4><ul><li><strong>Cleaning troughs and tanks:</strong> drain, scrub out algae and dirt, rinse and refill. Clean troughs regularly so animals drink enough.</li><li><strong>Replacing floats and taps</strong> on troughs.</li><li><strong>Fixing pipe leaks:</strong> close the valve, cut out the damaged piece and fit a coupling of the right size.</li><li><strong>Repairing kraal and crush rails:</strong> replace broken poles or pipes, remove nails and wire, file down sharp edges.</li><li><strong>Gates:</strong> oil hinges, fix latches, rehang sagging gates.</li><li><strong>Roofs and gutters:</strong> clear gutters, replace loose screws and broken sheets.</li><li><strong>Painting and rust treatment</strong> on steel structures.</li><li><strong>Clearing drains and culverts</strong> before the rainy season.</li><li><strong>Greasing and oiling</strong> moving parts such as windmill heads and pump bearings, as the manual says.</li></ul><h4>Planning the job</h4><ol><li>Get the job card or instruction from your supervisor.</li><li>Collect the right tools and materials before you start.</li><li>Plan how to keep the installation working, for example give animals temporary water while a trough is repaired.</li><li>Do the work, test it and clean up.</li><li>Record what was done and the materials used.</li></ol><h4>Safety</h4><ul><li><strong>Working at height</strong> (roofs, windmills, reservoirs): use a safe ladder footed by another person or tied off, and a harness where required. Never climb a windmill while it is turning; switch it out of the wind and lock it first.</li><li><strong>Electricity:</strong> never work on electrical wiring, pumps or motors unless you are qualified. Switch off and lock out before maintenance near electrical equipment.</li><li><strong>Confined spaces:</strong> never enter reservoirs, tanks, silos or pits without permission and a trained standby person. Gases or lack of air can kill.</li><li><strong>Tools:</strong> use grinders and drills with guards and wear safety glasses, gloves and hearing protection.</li><li><strong>Dip tanks:</strong> dip chemicals are poisonous. Only trained workers clean dip tanks, using the PPE on the label.</li><li><strong>Lifting:</strong> get help with heavy poles, pipes and sheets.</li></ul><h4>Key points</h4><ul><li>Installations include water systems, animal facilities, fences, buildings and roads.</li><li>Inspect on a schedule and after storms, using a checklist.</li><li>Record faults and report urgent ones straight away.</li><li>Plan the job so animals and crops are not left without water or shelter.</li><li>Work safely at height, never work on electrics unless qualified, and never enter confined spaces without permission.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which of these is a farm installation?",
+      "options": [
+        {
+          "text": "A dip tank",
+          "correct": true
+        },
+        {
+          "text": "A bag of seed",
+          "correct": false
+        },
+        {
+          "text": "A herd of cattle",
+          "correct": false
+        },
+        {
+          "text": "A crop of maize",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When should installations always be inspected, apart from the normal schedule?",
+      "options": [
+        {
+          "text": "On birthdays",
+          "correct": false
+        },
+        {
+          "text": "After storms, floods and fires",
+          "correct": true
+        },
+        {
+          "text": "Only when the farm is sold",
+          "correct": false
+        },
+        {
+          "text": "Never",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What must you do before climbing a windmill?",
+      "options": [
+        {
+          "text": "Wait for strong wind",
+          "correct": false
+        },
+        {
+          "text": "Grease the ladder",
+          "correct": false
+        },
+        {
+          "text": "Turn it out of the wind and lock it",
+          "correct": true
+        },
+        {
+          "text": "Climb while it is turning slowly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A trough must be repaired. What should you plan first?",
+      "options": [
+        {
+          "text": "Leave the animals without water for the day",
+          "correct": false
+        },
+        {
+          "text": "Move the trough to another farm",
+          "correct": false
+        },
+        {
+          "text": "Fill the trough with feed",
+          "correct": false
+        },
+        {
+          "text": "Give the animals temporary water",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Who may work on electrical wiring and motors?",
+      "options": [
+        {
+          "text": "Only qualified people",
+          "correct": true
+        },
+        {
+          "text": "Any worker",
+          "correct": false
+        },
+        {
+          "text": "The youngest worker",
+          "correct": false
+        },
+        {
+          "text": "Visitors",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You may enter a reservoir or silo alone without telling anyone.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Protruding nails and sharp edges in a crush should be removed or filed down.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should you look for when inspecting water troughs? (select all that apply)",
+      "options": [
+        {
+          "text": "Leaks",
+          "correct": true
+        },
+        {
+          "text": "Broken floats",
+          "correct": true
+        },
+        {
+          "text": "Algae and dirt",
+          "correct": true
+        },
+        {
+          "text": "The colour of the animals",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

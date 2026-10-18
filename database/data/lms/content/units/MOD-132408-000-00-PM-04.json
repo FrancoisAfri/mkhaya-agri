@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-04",
+ "title": "Plan, Direct and Control the Utilisation of Operational Resources",
+ "lessons": [
+  {
+   "title": "Planning depot resources",
+   "minutes": 18,
+   "html": "<h3>The resources of a depot</h3>\n<ul>\n<li><strong>Storage capacity</strong> – bins, silos, bunkers and silo bags.</li>\n<li><strong>Handling capacity</strong> – pits, elevators, conveyors, dryers, cleaners, weighbridges.</li>\n<li><strong>People</strong> – permanent and seasonal staff and contractors.</li>\n<li><strong>Energy and fuel</strong> – electricity, dryer fuel, diesel for generators and vehicles.</li>\n<li><strong>Consumables</strong> – fumigants, protectants, tarpaulins, sample bags, tickets, PPE.</li>\n<li><strong>Money</strong> – operating budget and capital for repairs and upgrades.</li>\n</ul>\n<h3>Capacity planning</h3>\n<p>Start with the expected intake per commodity, class and grade. Allocate bins so that each grade has space, with flexibility for unexpected grades. Example: if 30 percent of expected maize intake may be grade 2 or 3 because of a dry season, bins must be planned for that rather than assuming everything is grade 1.</p>\n<p>Calculate peak daily handling demand and compare with the capacity of each step: weighbridge (trucks per hour), grading points (samples per hour), pits, elevators and dryers (tonnes per hour of water removal). The smallest capacity determines the depot's real throughput.</p>\n<h3>Budgeting resources</h3>\n<p>Prepare a budget for the season: labour (including overtime and seasonal contracts), electricity (based on kWh per tonne and tariffs), dryer fuel (based on expected wet grain and moisture to be removed), fumigation, maintenance and consumables. Compare with expected income from handling, storage and drying tariffs.</p>\n<h3>Maintenance planning</h3>\n<p>Schedule major maintenance before the harvest peak: elevator belts and buckets, conveyor chains, dryer burners, aeration fans, weighbridge calibration and bin repairs. Order critical spares early. Breakdowns during the intake peak are the most expensive.</p><p>Also plan consumables early. Fumigants, tarpaulins for bunkers, sample bags and PPE can have long lead times during harvest, when every depot in the region is ordering at the same time.</p>"
+  },
+  {
+   "title": "Directing and controlling resource use",
+   "minutes": 18,
+   "html": "<h3>Directing use during the season</h3>\n<ul>\n<li>Allocate staff to shifts according to forecast truck arrivals.</li>\n<li>Direct trucks with wet grain to dryers and dry grain direct to storage to balance loads.</li>\n<li>Run dryers efficiently: dry to target moisture, not lower; over-drying wastes fuel and reduces grain mass sold.</li>\n<li>Use aeration fans only when air conditions are suitable to save electricity.</li>\n<li>Stagger large motor starts and manage peak electricity periods where tariffs penalise demand.</li>\n<li>Control fumigant stock tightly; it is toxic, expensive and must be accounted for.</li>\n</ul>\n<h3>Monitoring and controlling</h3>\n<table>\n<tr><th>Resource</th><th>Control measure</th></tr>\n<tr><td>Storage</td><td>Bin fill percentage, grade allocation compliance</td></tr>\n<tr><td>Handling</td><td>Tonnes per hour, downtime, OEE</td></tr>\n<tr><td>Labour</td><td>Tonnes per labour hour, overtime hours</td></tr>\n<tr><td>Energy</td><td>kWh per tonne, dryer fuel per tonne of water removed</td></tr>\n<tr><td>Stock</td><td>Shrink percentage, book versus physical variance</td></tr>\n<tr><td>Budget</td><td>Actual versus budget each month</td></tr>\n</table>\n<p>Investigate variances. If kWh per tonne rises, check for equipment running empty, worn elevator buckets, air leaks or aeration running in unsuitable conditions. If shrink is high, check weighbridge calibration, moisture meter accuracy, spillage, dust losses and security.</p>\n<h3>Security of grain and assets</h3>\n<p>Grain is valuable and theft happens. Controls include weighbridge procedures with two-person checks, CCTV, sealed out-loading trucks, access control, reconciliation of tickets and regular stock counts.</p>\n<h3>Reporting and improving</h3>\n<p>Report resource utilisation monthly with causes of variances and actions. At season end, review what resources were under- or over-used and adjust the next season's plan and budget.</p>\n<h4>Key points</h4>\n<ul>\n<li>Plan storage, handling, people, energy, consumables and budget from expected intake by grade.</li>\n<li>The smallest capacity in the chain sets depot throughput.</li>\n<li>Do major maintenance before the harvest peak.</li>\n<li>Dry to target moisture, use aeration wisely and manage electricity demand.</li>\n<li>Monitor resource KPIs, investigate variances and protect grain against theft.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should bins be planned for lower grades in a dry season?",
+   "options": [
+    {
+     "text": "It saves fumigant",
+     "correct": false
+    },
+    {
+     "text": "Lower grades never occur",
+     "correct": false
+    },
+    {
+     "text": "Lower grades may make up a larger share of intake and need separate space",
+     "correct": true
+    },
+    {
+     "text": "Grades do not matter for bin planning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What determines the depot’s real throughput?",
+   "options": [
+    {
+     "text": "The number of offices",
+     "correct": false
+    },
+    {
+     "text": "The smallest capacity step in the chain",
+     "correct": true
+    },
+    {
+     "text": "The largest machine",
+     "correct": false
+    },
+    {
+     "text": "The tariff",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should grain not be dried below target moisture?",
+   "options": [
+    {
+     "text": "It cools the grain",
+     "correct": false
+    },
+    {
+     "text": "It improves the grade",
+     "correct": false
+    },
+    {
+     "text": "It is required by law",
+     "correct": false
+    },
+    {
+     "text": "It wastes fuel and reduces grain mass sold",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time for major maintenance?",
+   "options": [
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Only after breakdowns",
+     "correct": false
+    },
+    {
+     "text": "Before the harvest peak",
+     "correct": true
+    },
+    {
+     "text": "During the intake peak",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "kWh per tonne has risen. What should be checked?",
+   "options": [
+    {
+     "text": "Farmers’ names",
+     "correct": false
+    },
+    {
+     "text": "Staff birthdays",
+     "correct": false
+    },
+    {
+     "text": "Equipment running empty and air leaks",
+     "correct": true
+    },
+    {
+     "text": "The colour of the bins",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fumigant stock must be tightly controlled and accounted for.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Theft of grain is not a concern at depots.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are controls against grain theft? (select all that apply)",
+   "options": [
+    {
+     "text": "CCTV and access control",
+     "correct": true
+    },
+    {
+     "text": "Leaving gates open at night",
+     "correct": false
+    },
+    {
+     "text": "Sealed out-loading trucks",
+     "correct": true
+    },
+    {
+     "text": "Two-person weighbridge checks",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8146",
+ "title": "Purchase Merchandise",
+ "lessons": [
+  {
+   "title": "Planning purchases",
+   "minutes": 20,
+   "html": "<h3>The buyer's role</h3><p>Purchasing in agri retail or wholesale means buying the right products, in the right quantity, of the right quality, at the right price, from the right supplier, delivered at the right time. Mistakes are costly: over-buying ties up cash and risks expiry of seed, vaccines and remedies; under-buying means empty shelves during planting or dipping season and lost customers.</p><h4>Forecasting demand</h4><p>Base purchase plans on:</p><ul><li>Sales history by product and month, ideally for at least two seasons.</li><li>The farming calendar for your area.</li><li>Market signals: commodity prices, rainfall outlooks, planting intentions, livestock prices. High maize prices before planting may increase fertiliser demand; drought may increase feed and lick sales.</li><li>Planned promotions and new customers or accounts.</li><li>Feedback from reps and counter staff.</li></ul><h4>Stock policy</h4><p>Use minimum, re-order and maximum levels. A simple re-order level = average daily usage × lead time in days + safety stock. If a branch sells 12 bags of dairy meal a day, lead time is 5 days and safety stock is 30 bags, re-order level = 12 × 5 + 30 = 90 bags.</p><h4>Seasonal pre-buying</h4><p>Fertiliser and seed are often bought well ahead of the season, sometimes with early-order discounts or price agreements. Pre-buying requires space, cash or credit, and a realistic forecast. Weigh the discount against the cost of holding stock and the risk that a dry season reduces demand.</p><h4>Open-to-buy</h4><p>Many businesses set a purchase budget per department per month, sometimes called open-to-buy. It prevents a buyer from spending more than planned sales and stock targets allow.</p>"
+  },
+  {
+   "title": "Choosing and negotiating with suppliers",
+   "minutes": 20,
+   "html": "<h3>Selecting suppliers</h3><p>Evaluate suppliers on more than price:</p><table><tr><th>Criterion</th><th>Questions</th></tr><tr><td>Price and terms</td><td>Unit price, volume discounts, rebates, payment terms, settlement discount</td></tr><tr><td>Quality</td><td>Consistent product quality, registered products, certificates of analysis</td></tr><tr><td>Reliability</td><td>On-time, complete deliveries; history of shortages</td></tr><tr><td>Lead time</td><td>Days from order to delivery to your branch</td></tr><tr><td>Support</td><td>Technical advice, training, promotional support, handling of returns and claims</td></tr><tr><td>Compliance</td><td>Tax compliance, B-BBEE status where relevant to company policy, legal registration of products</td></tr></table><p>Agricultural remedies, fertilisers and stock remedies must be registered under Act 36 of 1947. Do not buy unregistered or suspiciously cheap products; counterfeit chemicals and seed are a real problem.</p><h4>Negotiation</h4><ol><li><strong>Prepare:</strong> know your volumes, current prices, competitor offers and what you want: price, terms, delivery, marketing support.</li><li><strong>Open with your needs</strong> and listen to the supplier's.</li><li><strong>Trade, do not just demand:</strong> e.g. a larger committed volume or earlier order in exchange for a better price or extended terms.</li><li><strong>Agree in writing:</strong> price, quantities, delivery schedule, terms and validity.</li></ol><h4>Ethics</h4><p>Buyers have power, and with it risk. Follow your company's procurement policy: declare conflicts of interest, do not accept gifts or kickbacks beyond policy limits, get competitive quotes where required, and treat suppliers fairly. Corruption in purchasing can be a criminal offence under the Prevention and Combating of Corrupt Activities Act 12 of 2004.</p>"
+  },
+  {
+   "title": "Placing, tracking and reviewing purchases",
+   "minutes": 15,
+   "html": "<h3>The purchase order</h3><p>A purchase order (PO) is the formal instruction to the supplier and a commitment to pay. It should include the PO number, date, supplier details, item codes and descriptions, quantities and units, agreed prices, delivery address and date, and authorisation. Only authorised staff may approve POs, often within set limits.</p><h4>Tracking</h4><ul><li>Keep a list of open POs and expected delivery dates.</li><li>Follow up before the due date on critical items, especially before planting season.</li><li>Communicate delays to the branch and sales staff so they can inform customers.</li></ul><h4>Matching</h4><p>The three-way match compares the PO, the goods received note and the supplier invoice. Only when quantities and prices agree should the invoice be passed for payment. Differences must be resolved: short deliveries, price discrepancies, damaged goods needing credit notes.</p><h4>Reviewing supplier performance</h4><p>Track on-time delivery percentage, order completeness, quality problems and claims. Review regularly and discuss results with suppliers. A supplier with the lowest price but frequent late deliveries in October may cost more in lost sales than a slightly dearer reliable one.</p><h4>Reviewing buying decisions</h4><p>After each season, analyse: Which lines sold out early? Which were left over? What expired? Was the forecast accurate? Use the answers to improve next season's plan.</p><h4>Key points</h4><ul><li>Forecast from sales history, the farming calendar and market signals.</li><li>Re-order level = average daily usage × lead time + safety stock.</li><li>Evaluate suppliers on price, quality, reliability, lead time, support and compliance.</li><li>Buy only registered agricultural remedies and fertilisers.</li><li>Use three-way matching and review supplier performance.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Daily sales 12 bags, lead time 5 days, safety stock 30 bags. What is the re-order level?",
+   "options": [
+    {
+     "text": "60",
+     "correct": false
+    },
+    {
+     "text": "120",
+     "correct": false
+    },
+    {
+     "text": "90",
+     "correct": true
+    },
+    {
+     "text": "47",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is open-to-buy?",
+   "options": [
+    {
+     "text": "A supplier discount",
+     "correct": false
+    },
+    {
+     "text": "A type of shop",
+     "correct": false
+    },
+    {
+     "text": "A purchase budget limit per department and period",
+     "correct": true
+    },
+    {
+     "text": "An account for farmers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which documents are compared in a three-way match?",
+   "options": [
+    {
+     "text": "Quote, flyer and receipt",
+     "correct": false
+    },
+    {
+     "text": "Budget, forecast and price list",
+     "correct": false
+    },
+    {
+     "text": "Purchase order, goods received note and supplier invoice",
+     "correct": true
+    },
+    {
+     "text": "Bank statement, till slip and payslip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A supplier offers suspiciously cheap unregistered crop chemicals. What should a buyer do?",
+   "options": [
+    {
+     "text": "Buy and relabel them",
+     "correct": false
+    },
+    {
+     "text": "Sell them under the counter",
+     "correct": false
+    },
+    {
+     "text": "Decline; buy only registered products",
+     "correct": true
+    },
+    {
+     "text": "Buy a large quantity",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In negotiation, what does 'trade, do not just demand' mean?",
+   "options": [
+    {
+     "text": "Offer something such as committed volume in exchange for better terms",
+     "correct": true
+    },
+    {
+     "text": "Refuse to talk",
+     "correct": false
+    },
+    {
+     "text": "Threaten the supplier",
+     "correct": false
+    },
+    {
+     "text": "Swap goods instead of paying",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The lowest-price supplier is always the best choice.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Buyers should declare conflicts of interest according to company policy.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which factors should inform a demand forecast? (select all that apply)",
+   "options": [
+    {
+     "text": "Sales history by month",
+     "correct": true
+    },
+    {
+     "text": "The farming calendar",
+     "correct": true
+    },
+    {
+     "text": "Rainfall outlook and commodity prices",
+     "correct": true
+    },
+    {
+     "text": "The buyer's favourite brand",
+     "correct": false
+    },
+    {
+     "text": "Random guesses",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

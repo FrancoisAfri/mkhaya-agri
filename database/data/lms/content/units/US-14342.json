@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14342",
+ "title": "Manage time and work processes within a business environment",
+ "lessons": [
+  {
+   "title": "Why time matters at work",
+   "minutes": 15,
+   "html": "<h3>Time is money on a farm or in a plant</h3><p>In farming and food processing, many jobs must be done at the right time. Chickens must be fed and watered every day. Eggs must be collected on time. A processing line runs at a set speed. Trucks must leave on time so the chicken stays cold. If one person is late, the whole team is affected.</p><h4>What managing time means</h4><ul><li>Arriving at work on time and ready to start</li><li>Knowing what tasks you must do</li><li>Doing the most important tasks first</li><li>Finishing tasks by the time they are due</li><li>Not wasting time</li><li>Telling your supervisor early if you cannot finish</li></ul><h4>Things that waste time</h4><ul><li>Looking for tools that were not put back</li><li>Long chats and phone calls during work time</li><li>Not understanding the instruction and having to do the job again</li><li>Starting many jobs and not finishing any</li><li>Waiting for supplies that were not ordered in time</li><li>Poor planning</li></ul><h4>Your working hours</h4><p>Know your starting time, break times and finishing time. Keep to the break times. Clock in and out correctly. The Basic Conditions of Employment Act sets rules about working hours, overtime and breaks. If you must be late or absent, phone or message your supervisor as early as possible and follow the farm's leave rules.</p><h4>Example</h4><p>A worker arrives 20 minutes late. The chickens in house 3 are not checked on time, and a broken drinker line is found later. Many birds went without water. Being on time protects the animals and the farm.</p>"
+  },
+  {
+   "title": "Planning your work",
+   "minutes": 15,
+   "html": "<h3>Plan the day, then work the plan</h3><h4>Make a to-do list</h4><p>At the start of the day or shift, write down or think through the tasks you must do. Your supervisor may give you a job card or task list.</p><h4>Decide what comes first</h4><p>Some tasks are urgent and important. Others can wait. A simple way to sort them:</p><table><tr><th>Type</th><th>Example</th><th>When</th></tr><tr><td>Urgent and important</td><td>Water system broken in a chicken house</td><td>Do it now or report at once</td></tr><tr><td>Important, not urgent</td><td>Cleaning the store room this week</td><td>Plan a time for it</td></tr><tr><td>Urgent, not important</td><td>A non-work phone call</td><td>Keep it short or do it at break</td></tr><tr><td>Not urgent, not important</td><td>Chatting</td><td>Leave it for break time</td></tr></table><h4>Estimate time</h4><p>Think about how long each task takes. If cleaning a feeder line takes one hour and you have three lines, plan three hours. Leave some time for problems.</p><h4>Get ready</h4><p>Before you start, get all the tools, protective clothing and materials you need. This saves walking up and down.</p><h4>Use a diary or calendar</h4><p>Write down dates for regular tasks, such as weekly water meter readings or monthly fire extinguisher checks. A phone calendar or a wall chart works well.</p><h4>Finish what you start</h4><p>Try to finish one task before starting another, unless something urgent comes up. Tick off tasks when done.</p><h4>Practice</h4><p>Write down your tasks for tomorrow. Mark the most important ones with a star.</p><p>At the end of the day, look at your list again. Did you finish the starred tasks? If not, why not? Use this to plan better tomorrow.</p>"
+  },
+  {
+   "title": "Work processes and working with others",
+   "minutes": 15,
+   "html": "<h3>Following the steps and helping the flow</h3><h4>What is a work process?</h4><p>A work process is a set of steps that turns inputs into a result. For example, in an egg unit: collect eggs, grade, pack, label, store, despatch. Each step depends on the one before. If one step is slow, the next step waits.</p><h4>Follow the procedure</h4><p>Most tasks have a written procedure or standard way of working. Follow the steps in order. Procedures help everyone do the job safely, the same way and in the right time. If you think there is a better way, tell your supervisor; do not just change it yourself.</p><h4>Communicate</h4><ul><li>Tell the next person in the process when your part is done.</li><li>Report problems early, such as a broken machine, missing supplies or a sick worker, so the supervisor can make a plan.</li><li>When you hand over to the next shift, tell them what is finished, what is not, and any problems.</li></ul><h4>Keep your workplace tidy</h4><p>Put tools back in their place. Keep work areas clean and clear. Label things. A tidy workplace saves time and prevents accidents.</p><h4>Check your work</h4><p>Doing a job right the first time is faster than doing it again. Check your work before moving on.</p><h4>Dealing with interruptions</h4><p>If someone interrupts you, decide if it is urgent. If not, ask politely if it can wait until you finish. If your supervisor gives you a new urgent task, ask which task should come first.</p><h4>Key points</h4><ul><li>Arrive on time, keep to break times and tell your supervisor early if you will be late.</li><li>Make a to-do list and do urgent and important tasks first.</li><li>Get all tools and materials ready before you start.</li><li>Follow work procedures and report problems early.</li><li>Keep your workplace tidy and do the job right the first time.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do first?",
+   "options": [
+    {
+     "text": "A task that is urgent and important",
+     "correct": true
+    },
+    {
+     "text": "A long chat",
+     "correct": false
+    },
+    {
+     "text": "A non-work phone call",
+     "correct": false
+    },
+    {
+     "text": "Tidying your locker",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you are going to be late for work?",
+   "options": [
+    {
+     "text": "Say nothing",
+     "correct": false
+    },
+    {
+     "text": "Phone or message your supervisor as early as possible",
+     "correct": true
+    },
+    {
+     "text": "Ask a friend to clock in for you",
+     "correct": false
+    },
+    {
+     "text": "Stay home",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you get all tools and materials ready before you start?",
+   "options": [
+    {
+     "text": "To look busy",
+     "correct": false
+    },
+    {
+     "text": "So you can take a longer break",
+     "correct": false
+    },
+    {
+     "text": "It saves time walking up and down",
+     "correct": true
+    },
+    {
+     "text": "Because the supervisor likes it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you think there is a better way to do a task?",
+   "options": [
+    {
+     "text": "Change the procedure yourself",
+     "correct": false
+    },
+    {
+     "text": "Ignore the procedure",
+     "correct": false
+    },
+    {
+     "text": "Tell your co-workers to stop",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you tell the next shift at handover?",
+   "options": [
+    {
+     "text": "What is finished, what is not, and any problems",
+     "correct": true
+    },
+    {
+     "text": "Only your name",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "The weather forecast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Looking for tools that were not put back wastes time.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is best to start many jobs at once and finish none of them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help you manage time well? (select all that apply)",
+   "options": [
+    {
+     "text": "Making a to-do list",
+     "correct": true
+    },
+    {
+     "text": "Estimating how long tasks take",
+     "correct": true
+    },
+    {
+     "text": "Using a diary or calendar",
+     "correct": true
+    },
+    {
+     "text": "Long phone calls during work time",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

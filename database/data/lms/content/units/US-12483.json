@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12483",
+ "title": "Perform basic first aid",
+ "lessons": [
+  {
+   "title": "First steps at an emergency",
+   "minutes": 20,
+   "html": "<h3>The first aider's job</h3><p>First aid is the help you give an injured or sick person until a nurse, paramedic or doctor takes over. Good first aid can save a life, stop an injury getting worse and help the person recover. <strong>This lesson is not enough to make you a first aider.</strong> You must do hands-on training and assessment with an accredited first aid training provider. The OHS Act 85 of 1993 requires employers to provide first aid boxes and trained first aiders at work.</p><h4>Remember DRSABC</h4><ol><li><strong>D - Danger:</strong> check for danger to you, bystanders and the person. Switch off machines, turn off electricity, keep away from animals, traffic, fire or chemicals. Do not become a second casualty.</li><li><strong>R - Response:</strong> tap the shoulders and shout: \"Can you hear me? Open your eyes.\" If there is no response, the person is unconscious.</li><li><strong>S - Send for help:</strong> shout for help. Ask someone to call an ambulance (10177, or 112 from a cell phone) and to bring the first aid box and an AED (defibrillator) if there is one.</li><li><strong>A - Airway:</strong> tilt the head back gently and lift the chin to open the airway.</li><li><strong>B - Breathing:</strong> look, listen and feel for normal breathing for no more than 10 seconds.</li><li><strong>C - CPR:</strong> if the person is not breathing normally, start CPR.</li></ol><h4>Protect yourself</h4><ul><li>Wear disposable gloves from the first aid box when touching blood or body fluids.</li><li>Use a face shield or pocket mask for rescue breaths if you have one.</li><li>Wash your hands well afterwards.</li></ul><h4>When the person is breathing</h4><p>If an unconscious person is breathing normally and you do not suspect a spinal injury, put them in the <strong>recovery position</strong>: on their side, top leg bent, head tilted back so that vomit can drain out. Keep checking their breathing until help arrives.</p>"
+  },
+  {
+   "title": "CPR, choking and bleeding",
+   "minutes": 20,
+   "html": "<h3>Cardiopulmonary resuscitation (CPR) for adults</h3><ol><li>Kneel next to the person, who must be on their back on a firm surface.</li><li>Put the heel of one hand in the centre of the chest, the other hand on top, fingers locked.</li><li>With straight arms, push down hard about 5 to 6 cm, then let the chest come back up.</li><li>Push fast: 100 to 120 compressions a minute.</li><li>After 30 compressions, give 2 rescue breaths if you are trained and willing. If not, keep doing chest compressions only.</li><li>Continue 30 compressions to 2 breaths until help arrives, an AED is ready, the person starts breathing normally, or you are too tired to go on.</li><li>If an AED arrives, switch it on and follow its voice instructions.</li></ol><h3>Choking (adult who cannot breathe, cough or speak)</h3><ol><li>Ask: \"Are you choking?\" If they can cough, encourage them to keep coughing.</li><li>If they cannot cough, lean them forward and give up to 5 firm back blows between the shoulder blades.</li><li>If that does not work, give up to 5 abdominal thrusts: stand behind them, fist above the navel, pull sharply in and up.</li><li>Repeat 5 back blows and 5 abdominal thrusts. If they become unconscious, call for help and start CPR.</li></ol><h3>Severe bleeding</h3><ul><li>Put on gloves.</li><li>Press firmly on the wound with a clean pad or dressing.</li><li>Keep pressing. If blood soaks through, add another pad on top; do not remove the first one.</li><li>Bandage the pad firmly in place.</li><li>Lay the person down and keep them warm. Get medical help.</li><li>If an object is stuck in the wound, do not pull it out. Press around it.</li></ul>"
+  },
+  {
+   "title": "Burns, shock, fractures and farm emergencies",
+   "minutes": 20,
+   "html": "<h3>Burns</h3><ul><li>Cool the burn under cool running water for about 20 minutes.</li><li>Remove rings and watches before swelling starts, but do not pull off clothing stuck to the burn.</li><li>Cover loosely with cling wrap or a clean, non-fluffy dressing.</li><li><strong>Never</strong> put butter, oil, toothpaste or ice on a burn. Do not burst blisters.</li><li>For chemical burns, rinse with plenty of running water and check the product label or safety data sheet.</li></ul><h3>Shock</h3><p>Shock is a life-threatening condition after severe bleeding, burns or other injuries. Signs: pale, cold, sweaty skin, fast weak pulse, fast breathing, confusion.</p><ul><li>Lay the person down and raise the legs if this does not cause pain or harm.</li><li>Keep them warm with a blanket.</li><li>Do not give anything to eat or drink.</li><li>Get medical help urgently.</li></ul><h3>Fractures and sprains</h3><ul><li>Do not move the person unless they are in danger.</li><li>Support the injured part in the position you found it; use padding and a sling or splint if trained.</li><li>If you suspect a head, neck or back injury, keep the head still and wait for paramedics.</li></ul><h3>Farm and work emergencies</h3><ul><li><strong>Snakebite:</strong> keep the person calm and still, remove rings, keep the bitten limb still and get them to hospital fast. Do not cut, suck, apply ice or use a tight tourniquet.</li><li><strong>Chemical poisoning:</strong> remove from the source, remove contaminated clothing, rinse skin, and take the label to the hospital.</li><li><strong>Eye splash:</strong> rinse with clean running water for a long time.</li></ul><p>Always report the incident to your supervisor and write it in the incident register. Restock the first aid box after use.</p><h4>Key points</h4><ul><li>Follow DRSABC: Danger, Response, Send for help, Airway, Breathing, CPR.</li><li>Adult CPR: 30 compressions (5 to 6 cm, 100 to 120 a minute) to 2 breaths, or compressions only.</li><li>Stop severe bleeding with firm direct pressure.</li><li>Cool burns under running water for about 20 minutes; never use butter or oil.</li><li>Hands-on training by an accredited first aid provider is required.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the D in DRSABC stand for?",
+   "options": [
+    {
+     "text": "Danger",
+     "correct": true
+    },
+    {
+     "text": "Doctor",
+     "correct": false
+    },
+    {
+     "text": "Dressing",
+     "correct": false
+    },
+    {
+     "text": "Drink",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should chest compressions be for an adult?",
+   "options": [
+    {
+     "text": "About 1 cm",
+     "correct": false
+    },
+    {
+     "text": "About 2 to 3 cm",
+     "correct": false
+    },
+    {
+     "text": "About 5 to 6 cm",
+     "correct": true
+    },
+    {
+     "text": "As deep as possible",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the ratio of compressions to rescue breaths in adult CPR?",
+   "options": [
+    {
+     "text": "15 to 1",
+     "correct": false
+    },
+    {
+     "text": "30 to 2",
+     "correct": true
+    },
+    {
+     "text": "5 to 5",
+     "correct": false
+    },
+    {
+     "text": "10 to 2",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a burn be treated first?",
+   "options": [
+    {
+     "text": "Cover it with butter",
+     "correct": false
+    },
+    {
+     "text": "Put ice directly on it",
+     "correct": false
+    },
+    {
+     "text": "Cool it under cool running water for about 20 minutes",
+     "correct": true
+    },
+    {
+     "text": "Burst the blisters",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do for a snakebite?",
+   "options": [
+    {
+     "text": "Cut the bite and suck out the poison",
+     "correct": false
+    },
+    {
+     "text": "Tie a tight tourniquet",
+     "correct": false
+    },
+    {
+     "text": "Keep the person calm and still and get them to hospital fast",
+     "correct": true
+    },
+    {
+     "text": "Make the person run to the clinic",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If blood soaks through a pad, you should remove it and put on a new one.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An unconscious person who is breathing normally can be placed in the recovery position if no spinal injury is suspected.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of shock? (select all that apply)",
+   "options": [
+    {
+     "text": "Pale, cold and sweaty skin",
+     "correct": true
+    },
+    {
+     "text": "Fast, weak pulse",
+     "correct": true
+    },
+    {
+     "text": "Confusion",
+     "correct": true
+    },
+    {
+     "text": "Rosy, warm skin and slow calm breathing",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116320",
+ "title": "Plan and maintain environmentally sound agricultural processes",
+ "lessons": [
+  {
+   "title": "Understanding the farm's environmental impact",
+   "minutes": 15,
+   "html": "<h3>Farming without damaging the resource base</h3><p>Every farm depends on soil, water, veld and biodiversity. Environmentally sound farming means producing food and income today without destroying these resources for the next generation. In South Africa this is also a legal duty. The Conservation of Agricultural Resources Act 43 of 1983 deals with protecting soil, veld and water sources and controlling invader plants. The National Water Act 36 of 1998 controls water use and pollution of water resources. The National Environmental Management Act 107 of 1998 places a general duty of care on everyone who causes pollution or degradation.</p><h4>Main environmental risks on farms</h4><ul><li><strong>Soil erosion</strong> from bare lands, overgrazing, ploughing on steep slopes and poorly placed roads.</li><li><strong>Loss of soil fertility and structure</strong> from continuous monoculture and burning residues.</li><li><strong>Water pollution</strong> from fertiliser and chemical run-off, manure from feedlots and piggeries, dirty water from dairies and abattoirs, and diesel spills.</li><li><strong>Over-use of water</strong> from boreholes and rivers.</li><li><strong>Veld degradation</strong> and bush encroachment.</li><li><strong>Invasive alien plants</strong> such as wattle, prickly pear and lantana along rivers.</li><li><strong>Waste</strong>: empty chemical containers, plastic, old oil and tyres.</li></ul><h4>Doing an environmental assessment</h4><p>Walk the farm with a map. Mark rivers, wetlands, steep slopes, erosion gullies, dip tanks, fuel stores, chemical stores, kraals, manure heaps and waste dumps. For each, note the risk, how serious it is and who could be affected, for example a downstream community that drinks river water. This becomes the base for your environmental plan.</p><h4>Example</h4><p>On a mixed farm near the Vaal, the walk-through might show a fuel tank 20 m from a stream, a gully forming below the dairy and wattle spreading along the river bank. Each of these goes onto the risk list with a priority rating.</p>"
+  },
+  {
+   "title": "Planning sound practices",
+   "minutes": 15,
+   "html": "<h3>Building an environmental management plan</h3><p>Once the risks are known, plan practical actions with clear responsibility, timing and budget.</p><h4>Soil</h4><ul><li>Use conservation agriculture where suitable: minimum tillage, permanent soil cover and crop rotation.</li><li>Maintain contour banks and waterways on cultivated lands and keep them grassed.</li><li>Do not cultivate steep slopes or wetland areas.</li><li>Base fertiliser and lime on soil analysis, not guesswork.</li></ul><h4>Water</h4><ul><li>Keep chemical mixing, fuel stores and manure heaps well away from rivers, boreholes and wetlands.</li><li>Use bunded areas for diesel tanks so spills are contained.</li><li>Collect and treat dirty water from dairies, piggeries and processing areas in proper dams or systems, as the farm's authorisation requires.</li><li>Measure and record water taken from boreholes and rivers.</li></ul><h4>Veld and biodiversity</h4><ul><li>Use a grazing plan with rest periods for each camp and stock at the carrying capacity of the veld.</li><li>Leave buffer strips of natural vegetation along rivers.</li><li>Clear invasive alien plants and follow up on regrowth.</li><li>Protect wildlife corridors and avoid poisoning non-target animals.</li></ul><h4>Chemicals and waste</h4><ul><li>Use agricultural remedies registered under Act 36 of 1947 and follow the label exactly.</li><li>Triple rinse empty containers, puncture them and return them through an approved collection scheme.</li><li>Separate waste: recyclables, used oil, hazardous waste and general waste.</li><li>Never burn plastics or chemical containers.</li></ul><p>Set each action out in a table with who, when and the cost in rand, and include it in the farm budget.</p><h4>Example action table entry</h4><p>Move the sprayer mixing point away from the borehole: responsible person the workshop supervisor, by the end of May, estimated cost R15 000 for a concrete slab with a sump. Writing actions this way makes them easy to track and budget.</p>"
+  },
+  {
+   "title": "Maintaining and monitoring the plan",
+   "minutes": 15,
+   "html": "<h3>Keeping environmental practices working</h3><p>A plan on paper does nothing unless it is followed and checked. As a supervisor you make sure that daily work matches the plan.</p><h4>Training and communication</h4><p>Explain to workers why the practices matter, for example why the sprayer must never be rinsed in the river, or why cattle must be moved out of a camp on time. Use toolbox talks at the start of a shift and put simple signs at stores and wash bays.</p><h4>Monitoring</h4><table><tr><th>What</th><th>How to monitor</th></tr><tr><td>Erosion</td><td>Photograph gullies and contour banks each season; note new damage after storms</td></tr><tr><td>Water quality</td><td>Sample boreholes and river points as advised; watch for algae, foam, dead fish</td></tr><tr><td>Veld condition</td><td>Fixed-point photographs, grass cover and species checks in each camp</td></tr><tr><td>Chemical use</td><td>Spray records, store register, container returns</td></tr><tr><td>Waste</td><td>Volumes collected and recycled each month</td></tr></table><h4>Dealing with incidents</h4><p>If there is a spill of diesel, chemicals or manure: stop the source, contain the spill with soil or absorbent material, keep people and animals away, and report to the manager at once. The manager decides whether authorities must be informed. Record what happened and what will be done to prevent it happening again.</p><h4>Reviewing and improving</h4><p>Review the plan every year with management. Look at monitoring results, incidents, costs and new legal or market requirements. Many buyers and export schemes now audit environmental practices, so good records also protect market access.</p><h4>Key points</h4><ul><li>Farmers have a legal duty to protect soil, water and veld under laws such as Act 43 of 1983 and the National Water Act.</li><li>Map environmental risks and plan practical actions with responsibility and budget.</li><li>Keep chemicals, fuel and manure away from water sources and contain spills.</li><li>Monitor erosion, water, veld, chemical use and waste, and keep records.</li><li>Review the plan every year and train workers on why practices matter.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act deals with protecting soil, veld and water sources and controlling invader plants on farms?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Conservation of Agricultural Resources Act 43 of 1983",
+     "correct": true
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good practice to prevent soil erosion on cultivated lands?",
+   "options": [
+    {
+     "text": "Ploughing up and down steep slopes",
+     "correct": false
+    },
+    {
+     "text": "Removing all crop residue",
+     "correct": false
+    },
+    {
+     "text": "Maintaining grassed contour banks and waterways",
+     "correct": true
+    },
+    {
+     "text": "Cultivating wetland areas",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should empty chemical containers be handled?",
+   "options": [
+    {
+     "text": "Burn them behind the shed",
+     "correct": false
+    },
+    {
+     "text": "Use them to store drinking water",
+     "correct": false
+    },
+    {
+     "text": "Throw them in the river",
+     "correct": false
+    },
+    {
+     "text": "Triple rinse, puncture and return through an approved scheme",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first if diesel spills near a stream?",
+   "options": [
+    {
+     "text": "Stop the source and contain the spill",
+     "correct": true
+    },
+    {
+     "text": "Wash it into the stream with water",
+     "correct": false
+    },
+    {
+     "text": "Leave it to dry",
+     "correct": false
+    },
+    {
+     "text": "Cover it and say nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should diesel tanks stand in a bunded area?",
+   "options": [
+    {
+     "text": "To make refuelling faster",
+     "correct": false
+    },
+    {
+     "text": "So spills are contained",
+     "correct": true
+    },
+    {
+     "text": "To keep the tank cool",
+     "correct": false
+    },
+    {
+     "text": "To stop theft",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Buffer strips of natural vegetation along rivers help protect water quality.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Once an environmental plan is written it never needs to be reviewed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are environmental risks on a farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Overgrazing of veld",
+     "correct": true
+    },
+    {
+     "text": "Manure run-off into rivers",
+     "correct": true
+    },
+    {
+     "text": "Invasive alien plants along streams",
+     "correct": true
+    },
+    {
+     "text": "Keeping accurate spray records",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

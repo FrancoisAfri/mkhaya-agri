@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-264040",
+ "title": "Install automatic and manual control valves in an irrigation system",
+ "lessons": [
+  {
+   "title": "Manual valves and direction control valves",
+   "minutes": 20,
+   "html": "<h3>Why valves matter</h3><p>Valves control where water goes, how much flows and at what pressure. A good installer knows each valve by sight and knows where it should go in the system.</p><h4>Manually operated valves</h4><table><tr><th>Valve</th><th>How it works</th><th>Use</th></tr><tr><td>Gate valve</td><td>A wedge (gate) moves up and down by turning a handwheel</td><td>Fully open or fully closed isolation; not for throttling</td></tr><tr><td>Ball valve</td><td>A ball with a hole turns a quarter turn</td><td>Quick on/off isolation on smaller pipes</td></tr><tr><td>Butterfly valve</td><td>A disc turns a quarter turn in the pipe</td><td>Isolation and some regulation on large pipes</td></tr><tr><td>Globe valve</td><td>A plug moves onto a seat</td><td>Regulating (throttling) flow</td></tr><tr><td>Quick-coupling valve</td><td>A key is pushed in and turned to open</td><td>Taking hose water from a sportsfield or garden system</td></tr></table><p>Close gate valves slowly. Closing quickly causes <strong>water hammer</strong>, a pressure shock that can burst pipes.</p><h4>Direction control valves</h4><ul><li><strong>Non-return (check) valve:</strong> lets water flow one way only. Used after pumps so water cannot run back. Types include swing, spring and ball checks. Fit with the arrow pointing in the direction of flow.</li><li><strong>Foot valve:</strong> a non-return valve with a strainer at the bottom of a suction pipe; keeps the pump primed.</li><li><strong>Three-way valve:</strong> sends water one of two ways, for example to filters or to backflush.</li><li><strong>Backflow preventer:</strong> stops dirty or fertiliser water flowing back into drinking water supplies.</li></ul><h4>Installing manual and direction valves</h4><ol><li>Check the valve's pressure class and size match the pipe.</li><li>Check the flow arrow on the body.</li><li>Use the right joint: threaded with sealing tape, solvent-weld, compression or flanged.</li><li>Install in a valve box so it can be reached and is protected.</li><li>Support heavy valves so the weight is not on the pipe.</li></ol>"
+  },
+  {
+   "title": "Air valves and pressure control valves",
+   "minutes": 20,
+   "html": "<h3>Air valves</h3><p>Air trapped in irrigation pipes causes many problems: it blocks flow, causes pressure surges, makes sprinklers spit, and when a pipe drains, a vacuum can suck soil and dirt into drippers or collapse thin-wall pipes.</p><table><tr><th>Type</th><th>What it does</th></tr><tr><td>Kinetic (large orifice) air valve</td><td>Lets large amounts of air out when filling and lets air in when draining, preventing vacuum</td></tr><tr><td>Automatic (small orifice) air release valve</td><td>Releases small pockets of air that collect while the system is running under pressure</td></tr><tr><td>Double-acting (combination) air valve</td><td>Does both jobs in one body</td></tr><tr><td>Vacuum breaker</td><td>Lets air in only, to stop vacuum, often at the end of drip laterals</td></tr></table><h4>Installing air valves</h4><ul><li>Fit at high points in the pipeline, where air collects.</li><li>Fit after pumps, after filters and at the start of each drip zone.</li><li>Fit at long, flat runs at regular intervals as the design shows.</li><li>Install vertically, on a tee on top of the pipe, with an isolating valve below so it can be serviced.</li><li>Keep the outlet clear of soil; put it in a valve box with gravel for drainage.</li></ul><h4>Pressure control valves</h4><p>Emitters work best within a set pressure range. Too high wastes water and causes misting; too low gives poor coverage.</p><ul><li><strong>Pressure reducing valve (PRV):</strong> keeps pressure downstream at a set value even when upstream pressure is higher.</li><li><strong>Pressure sustaining valve:</strong> keeps pressure upstream from falling below a set value, for example to make sure filters can backflush.</li><li><strong>Pressure relief valve:</strong> opens to release water when pressure rises too high, protecting pipes and pumps.</li><li><strong>Pressure regulators:</strong> small fixed regulators at drip zones or sprinkler bases.</li></ul><h4>Installing pressure control valves</h4><ol><li>Flush the pipe first so dirt does not block the pilot.</li><li>Fit a filter upstream if the valve has a small pilot circuit.</li><li>Install isolating valves on both sides and pressure gauge points.</li><li>Check the flow arrow and set the pressure using the gauge and the adjusting screw, as the manufacturer says.</li></ol>"
+  },
+  {
+   "title": "Remote-controlled solenoid valves",
+   "minutes": 20,
+   "html": "<h3>What a solenoid valve is</h3><p>A solenoid valve opens and closes automatically when the irrigation controller sends it an electrical signal. It lets one controller run many zones on a timetable without anyone turning taps.</p><h4>How it works</h4><ol><li>The valve has a rubber diaphragm that closes the flow. Water pressure from upstream fills a chamber above the diaphragm through a small bleed hole, holding it shut.</li><li>When the controller sends 24 V AC, the solenoid (a small electric coil) lifts a plunger and opens a tiny port.</li><li>Water above the diaphragm escapes downstream faster than it can refill. The diaphragm lifts and the valve opens.</li><li>When the signal stops, the plunger drops, the chamber refills and the diaphragm closes.</li></ol><p>Most valves also have a <strong>manual bleed</strong> screw to open them by hand for testing, and a <strong>flow control</strong> handle to limit flow.</p><h4>Uses of solenoid valves</h4><ul><li>Zone valves for lawns, beds, drip lines and sportsfields</li><li>Master valve at the start of the system, closing the mainline when no zone runs</li><li>Valves controlled by rain or soil moisture sensors through the controller</li><li>Valve-in-head sprinklers on golf courses, where each sprinkler has its own valve</li></ul><h4>Installing a solenoid valve</h4><ol><li>Flush the pipe before fitting, so sand does not block the small ports.</li><li>Check the flow arrow and pressure rating.</li><li>Fit an isolating valve upstream so the valve can be serviced without shutting down the whole system.</li><li>Install in a valve box with a gravel base, with room to reach the solenoid and bleed screw.</li><li>Join the field wires with <strong>waterproof connectors</strong> (gel-filled or grease caps): one wire to the station wire, one to the common wire.</li><li>Leave a loop of extra wire in the box so the valve can be lifted.</li><li>Test by turning on the station at the controller and by opening the manual bleed.</li></ol><h4>Safety</h4><p>Field wiring is low voltage, but the controller's mains connection is for a qualified electrician. Release pressure before opening any valve.</p><h4>Key points</h4><ul><li>Gate valves isolate; globe valves regulate; close valves slowly to avoid water hammer.</li><li>Non-return valves allow flow one way; fit with the arrow in the flow direction.</li><li>Fit air valves at high points and after pumps and filters.</li><li>PRVs keep downstream pressure steady; relief valves protect from high pressure.</li><li>Solenoid valves open on a 24 V signal; use waterproof wire connectors and flush pipes first.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which valve is best for regulating (throttling) flow?",
+   "options": [
+    {
+     "text": "Gate valve",
+     "correct": false
+    },
+    {
+     "text": "Globe valve",
+     "correct": true
+    },
+    {
+     "text": "Foot valve",
+     "correct": false
+    },
+    {
+     "text": "Non-return valve",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes water hammer?",
+   "options": [
+    {
+     "text": "Opening an air valve",
+     "correct": false
+    },
+    {
+     "text": "Using a PRV",
+     "correct": false
+    },
+    {
+     "text": "A clean filter",
+     "correct": false
+    },
+    {
+     "text": "Closing a valve too quickly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should air valves be fitted?",
+   "options": [
+    {
+     "text": "At high points in the pipeline",
+     "correct": true
+    },
+    {
+     "text": "Only at the lowest points",
+     "correct": false
+    },
+    {
+     "text": "Inside the controller",
+     "correct": false
+    },
+    {
+     "text": "Under the pump",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a pressure reducing valve do?",
+   "options": [
+    {
+     "text": "Lets air into the pipe",
+     "correct": false
+    },
+    {
+     "text": "Stops backflow",
+     "correct": false
+    },
+    {
+     "text": "Keeps downstream pressure at a set value",
+     "correct": true
+    },
+    {
+     "text": "Increases pump flow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be used to join solenoid valve wires underground?",
+   "options": [
+    {
+     "text": "Ordinary insulation tape",
+     "correct": false
+    },
+    {
+     "text": "Waterproof connectors such as gel-filled caps",
+     "correct": true
+    },
+    {
+     "text": "Twisted bare wires",
+     "correct": false
+    },
+    {
+     "text": "Cable ties",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A non-return valve must be fitted with the arrow pointing in the direction of flow.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A gate valve is designed to be left half open to regulate flow.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are types of air valve? (select all that apply)",
+   "options": [
+    {
+     "text": "Kinetic (large orifice) air valve",
+     "correct": true
+    },
+    {
+     "text": "Automatic air release valve",
+     "correct": true
+    },
+    {
+     "text": "Globe valve",
+     "correct": false
+    },
+    {
+     "text": "Double-acting air valve",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

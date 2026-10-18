@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123170",
+ "title": "Collect and treat Rooibos seed",
+ "lessons": [
+  {
+   "title": "Where rooibos seed comes from",
+   "minutes": 15,
+   "html": "<h3>Finding the seed</h3><p>Rooibos plants flower in spring. After flowering they make small pods, each with one or two tiny seeds. When the pods are ripe, they burst open and throw the seeds onto the sand around the plant. Ants also carry seeds away and store them.</p><p>Because the pods burst, it is very hard to pick the seed from the plant. Instead, seed is usually collected from the sand around and under the plants after it has fallen.</p><h4>When to collect</h4><p>Seed is collected after the pods have burst, in summer, often around the time of harvest and after it. The supervisor tells the team which lands to collect from.</p><h4>Choose good plants</h4><ul><li>Collect under healthy, strong plants.</li><li>Do not collect where plants are sick or dying.</li><li>Keep seed from different lands apart if the farm asks.</li></ul><h4>Tools</h4><ul><li>Spade or scraper.</li><li>Sieves of different sizes.</li><li>Buckets or bags.</li><li>Labels and a pen.</li></ul><h4>Know the seed</h4><p>Rooibos seed is very small, hard and shiny, and usually light brown to dark brown. It is easy to mix it up with small stones, sand grains and seeds of other plants. Ask your supervisor to show you real rooibos seed before you start, and keep a small sample in a clear container to compare with. Collect only under rooibos plants, not under other fynbos bushes in the same area. Seed is valuable: new lands cannot be planted without it, and good seed is often scarce in dry years. Work carefully and do not waste it.</p>"
+  },
+  {
+   "title": "Collecting and cleaning seed",
+   "minutes": 15,
+   "html": "<h3>Sieving the sand</h3><ol><li>Scrape the top layer of sand from under and around the plant. Do not dig deep, because the seed is near the top.</li><li>Sieve the sand. The sand falls through and the seed, bits of plant and stones stay in the sieve. Farms use sieves of the right size for this.</li><li>Put the material from the sieve into a bucket or bag.</li><li>Put the sand back so you do not leave holes and cause erosion.</li></ol><h4>Cleaning the seed</h4><p>The collected material has seed mixed with small stones, plant bits and sand. It must be cleaned.</p><ul><li>Sieve again with finer sieves.</li><li>Winnow: let a light wind or a fan blow away light plant bits while the heavier seed falls.</li><li>Pick out stones and rubbish by hand.</li><li>Some farms use cleaning machines. Keep hands away from moving parts.</li></ul><h4>Look after your body</h4><p>Seed collecting means bending for many hours. Bend your knees, change position, take breaks and stretch. Wear a hat, sunscreen and gloves. Drink water often. Look out for snakes and scorpions under bushes.</p><h4>Dust</h4><p>Sieving makes dust. Wear a dust mask if the farm gives one, and work with your back to the wind.</p><h4>Keep each lot apart</h4><p>Put the cleaned seed from each land in its own container with a label. Do not mix seed from different lands unless the supervisor says so. Weigh the cleaned seed if the farm asks, and write the mass on the label and in the seed book.</p>"
+  },
+  {
+   "title": "Treating and storing seed",
+   "minutes": 15,
+   "html": "<h3>Making the seed ready to grow</h3><p>Rooibos seed has a hard coat. Water cannot get in easily, so seed may not grow for a long time. Treatment, called <strong>scarification</strong>, softens or scratches the coat so the seed can take up water and grow.</p><h4>How seed is treated</h4><ul><li>Some farms use hot water.</li><li>Some use a machine that scratches the seed coat.</li><li>Some use strong acid. This is very dangerous and only trained people, with full protective clothing and safety equipment, may do it.</li></ul><p>Always use the method and times the farm or seed supplier gives. Wrong treatment can kill the seed.</p><h4>Fungicide coating</h4><p>Seed may be coated with a fungicide to protect it from soil diseases. Only use a registered product (Act 36 of 1947) at the label rate. Wear gloves, a mask and an overall. Treated seed is poisonous – never let people or animals eat it.</p><h4>Storing seed</h4><ul><li>Store dry seed in clean, closed containers.</li><li>Keep in a cool, dry store, away from rats and insects.</li><li>Label with the date, land, and whether it is treated.</li><li>Keep treated seed away from food and animal feed.</li></ul><h4>Records</h4><p>Write down where seed was collected, how much, the date, the cleaning and treatment done, and where it is stored.</p><h4>Key points</h4><ul><li>Rooibos pods burst, so seed is collected by sieving the sand around plants.</li><li>Collect under healthy plants and put the sand back after sieving.</li><li>Clean seed by sieving, winnowing and picking out stones.</li><li>Seed is scarified so water can get in; only trained people may use acid.</li><li>Label and store seed dry and closed; never let anyone eat treated seed.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is rooibos seed collected from the sand, not from the plant?",
+   "options": [
+    {
+     "text": "The seed is too big to pick",
+     "correct": false
+    },
+    {
+     "text": "The plant has no seed",
+     "correct": false
+    },
+    {
+     "text": "The ripe pods burst and throw the seed onto the sand",
+     "correct": true
+    },
+    {
+     "text": "It is the law",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is used to separate seed from sand?",
+   "options": [
+    {
+     "text": "A hammer",
+     "correct": false
+    },
+    {
+     "text": "Sieves",
+     "correct": true
+    },
+    {
+     "text": "A rake only",
+     "correct": false
+    },
+    {
+     "text": "A hosepipe",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is winnowing?",
+   "options": [
+    {
+     "text": "Letting wind or a fan blow away light bits while heavy seed falls",
+     "correct": true
+    },
+    {
+     "text": "Watering the seed",
+     "correct": false
+    },
+    {
+     "text": "Planting the seed",
+     "correct": false
+    },
+    {
+     "text": "Burning the plant bits",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may treat seed with acid?",
+   "options": [
+    {
+     "text": "Visitors",
+     "correct": false
+    },
+    {
+     "text": "Only trained people with full protective clothing",
+     "correct": true
+    },
+    {
+     "text": "Anyone on the farm",
+     "correct": false
+    },
+    {
+     "text": "Children",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you put the sand back after collecting?",
+   "options": [
+    {
+     "text": "So you do not leave holes and cause erosion",
+     "correct": true
+    },
+    {
+     "text": "To hide the seed",
+     "correct": false
+    },
+    {
+     "text": "To feed the ants",
+     "correct": false
+    },
+    {
+     "text": "To grow weeds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seed coated with fungicide is poisonous and must not be eaten by people or animals.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seed should be stored in open bags on the floor.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which things help you work safely when collecting seed? (select all that apply)",
+   "options": [
+    {
+     "text": "Working with your face into the dusty wind",
+     "correct": false
+    },
+    {
+     "text": "Looking out for snakes and scorpions under bushes",
+     "correct": true
+    },
+    {
+     "text": "Bending your knees and taking breaks",
+     "correct": true
+    },
+    {
+     "text": "Wearing a hat, sunscreen and gloves",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

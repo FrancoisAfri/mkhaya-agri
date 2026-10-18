@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119407",
+ "title": "Implement water management in poultry processing",
+ "lessons": [
+  {
+   "title": "Water quality requirements",
+   "minutes": 15,
+   "html": "<h3>Water as an ingredient and a hazard</h3><p>In a poultry plant, water touches the product in the scalder, carcass washers and chillers, and it is used to clean every surface. Water that contacts product or food-contact surfaces must be of potable (drinking) quality. In South Africa, drinking water quality is measured against SANS 241. Abattoir regulations under the Meat Safety Act 40 of 2000 require a supply of potable water, and the plant's HACCP plan treats water as a prerequisite programme.</p><h4>Hazards in water</h4><ul><li><strong>Microbial</strong>: E. coli and coliforms show faecal contamination; Salmonella and Campylobacter can spread between carcasses in chill water.</li><li><strong>Chemical</strong>: incorrect sanitiser levels, heavy metals, or cleaning chemical residue.</li><li><strong>Physical</strong>: sediment, rust, debris from damaged pipes or tanks.</li></ul><h4>Water supply and treatment</h4><p>Water may come from the municipality, a borehole or another source. Non-municipal water usually needs treatment such as filtration and chlorination. Even municipal water may be stored in on-site tanks, where it can become contaminated if tanks are not covered and cleaned.</p><h4>Process water controls</h4><ul><li>Sanitiser levels in chill water and washers maintained within the plant's specified range.</li><li>Chill water temperature and overflow or replenishment rate as specified, so that dirty water is replaced.</li><li>Counter-flow chillers where water flows against the direction of carcass movement, so the cleanest water meets the cleanest carcasses.</li><li>Scalder temperature and overflow as specified.</li></ul><p>As a team leader you ensure these controls are checked, recorded and corrected.</p><h4>Your role</h4><p>As a team leader, know where water touches product in your section, what the plant's limits are and who checks them. Make sure operators know what to do if a reading is out of range.</p>"
+  },
+  {
+   "title": "Monitoring and recording water",
+   "minutes": 15,
+   "html": "<h3>Checks that show the water is safe</h3><h4>Monitoring programme</h4><table><tr><th>What</th><th>Typical method</th><th>Who</th></tr><tr><td>Free chlorine or sanitiser level</td><td>Test kit or meter at set points and times</td><td>Operators / QA</td></tr><tr><td>pH</td><td>Meter, since pH affects how well chlorine works</td><td>QA</td></tr><tr><td>Chill water temperature</td><td>Calibrated thermometer</td><td>Chiller operator</td></tr><tr><td>Microbiology</td><td>Samples to an accredited laboratory on a schedule</td><td>QA</td></tr><tr><td>Water use</td><td>Meter readings per area or shift</td><td>Team leader</td></tr><tr><td>Storage tanks</td><td>Inspection and cleaning schedule</td><td>Maintenance</td></tr></table><h4>Sampling points</h4><p>Plants usually have a map of numbered water outlets. Samples are rotated through these points so that every outlet is tested over time. Record the outlet number with every result.</p><h4>Good recording</h4><ul><li>Record at the time of the check: time, point, result, initials.</li><li>Mark results outside limits clearly and record the corrective action.</li><li>Keep records for the period the plant's procedure requires; inspectors and auditors will ask for them.</li></ul><h4>Corrective action</h4><p>If sanitiser is too low, product may be exposed to contamination; if too high, there may be residue or worker health effects. Inform the supervisor and QA, adjust dosing through trained staff, and QA decides on any affected product. If potable supply fails or is contaminated, production that relies on it must stop until it is restored.</p><h4>Example</h4><p>A chiller operator records a low sanitiser reading at 08:00. The team leader informs QA, the dosing technician corrects the pump, and the reading is checked again after 30 minutes. QA reviews the carcasses chilled during that period and records its decision.</p><p>Review the week's water records with QA so that repeat problems are found and fixed.</p>"
+  },
+  {
+   "title": "Reducing water use and managing effluent",
+   "minutes": 15,
+   "html": "<h3>Efficiency and environmental responsibility</h3><p>Water is costly and scarce, and effluent charges can be high. Good water management reduces cost without compromising food safety.</p><h4>Reducing use</h4><ul><li>Fit trigger nozzles on hoses and auto shut-off on hand wash taps.</li><li>Dry clean before wet cleaning: remove solids by scraping and sweeping.</li><li>Fix leaks quickly; a dripping tap or running toilet wastes thousands of litres a month.</li><li>Check that washers and sprays switch off when the line stops.</li><li>Set chiller overflow to the specification, not higher.</li><li>Reuse water only where the plant's approved procedure allows it and food safety is not affected, for example certain non-product uses.</li><li>Train staff and display water-use figures per shift to motivate them.</li></ul><h4>Effluent management</h4><p>Effluent from poultry plants is high in blood, fat, protein and solids. It must be pre-treated, for example with screens, fat traps and dissolved air flotation, before discharge, and must meet the municipal by-law or authorisation limits. The National Water Act 36 of 1998 prohibits polluting water resources.</p><ul><li>Collect blood separately; it is a major source of pollution load.</li><li>Keep feathers and offal out of drains.</li><li>Clean screens and fat traps on schedule.</li><li>Report spills of blood or chemicals to drains.</li></ul><h4>Load shedding and supply interruptions</h4><p>Pumps and dosing systems stop during power cuts. The plant should have a plan: back-up power for critical pumps and dosing, stored potable water, and rules about when production must stop.</p><h4>Key points</h4><ul><li>Water contacting product must be potable and is controlled as a prerequisite programme.</li><li>Monitor sanitiser, pH, chill water temperature, microbiology and water use, and record results at the time.</li><li>Counter-flow chilling lets the cleanest water meet the cleanest carcasses.</li><li>Save water by dry cleaning, trigger nozzles and fixing leaks quickly.</li><li>Collect blood separately and keep solids out of drains to reduce effluent load.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which South African standard is used for drinking water quality?",
+   "options": [
+    {
+     "text": "SANS 241",
+     "correct": true
+    },
+    {
+     "text": "SANS 10400",
+     "correct": false
+    },
+    {
+     "text": "ISO 9001",
+     "correct": false
+    },
+    {
+     "text": "OHS Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does pH matter for chlorinated process water?",
+   "options": [
+    {
+     "text": "It changes the colour",
+     "correct": false
+    },
+    {
+     "text": "pH affects how well chlorine works",
+     "correct": true
+    },
+    {
+     "text": "It makes the water hotter",
+     "correct": false
+    },
+    {
+     "text": "It is only for boilers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the benefit of a counter-flow chiller?",
+   "options": [
+    {
+     "text": "It uses no water",
+     "correct": false
+    },
+    {
+     "text": "It warms carcasses",
+     "correct": false
+    },
+    {
+     "text": "The cleanest water meets the cleanest carcasses",
+     "correct": true
+    },
+    {
+     "text": "It removes feathers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should happen if the potable water supply is contaminated?",
+   "options": [
+    {
+     "text": "Continue production",
+     "correct": false
+    },
+    {
+     "text": "Add more chlorine yourself",
+     "correct": false
+    },
+    {
+     "text": "Use river water",
+     "correct": false
+    },
+    {
+     "text": "Stop production that relies on it until it is restored",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a major source of pollution load in poultry effluent?",
+   "options": [
+    {
+     "text": "Blood",
+     "correct": true
+    },
+    {
+     "text": "Clean rinse water",
+     "correct": false
+    },
+    {
+     "text": "Air",
+     "correct": false
+    },
+    {
+     "text": "Cardboard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Results outside limits should be marked clearly with the corrective action recorded.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Setting chiller overflow higher than the specification is good practice for saving water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which measures reduce water use in a plant? (select all that apply)",
+   "options": [
+    {
+     "text": "Trigger nozzles on hoses",
+     "correct": true
+    },
+    {
+     "text": "Dry cleaning before wet cleaning",
+     "correct": true
+    },
+    {
+     "text": "Fixing leaks quickly",
+     "correct": true
+    },
+    {
+     "text": "Leaving washers running when the line stops",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264036",
+ "title": "Install irrigation sprinklers and emitters in landscaped areas",
+ "lessons": [
+  {
+   "title": "Planning the installation",
+   "minutes": 15,
+   "html": "<h3>Read the plan first</h3>\n<p>Before you dig, your supervisor will give you an irrigation layout plan. It shows where the pipes run, where each sprinkler or emitter goes, and which valve controls each zone. Lawns and flower beds are usually on separate zones because they need different amounts of water.</p>\n<h4>Sprinklers or emitters?</h4>\n<table><tr><th>Item</th><th>Use it for</th></tr>\n<tr><td>Pop-up spray heads</td><td>Small lawns and ground covers</td></tr>\n<tr><td>Rotors (gear-driven)</td><td>Large lawns and sports fields</td></tr>\n<tr><td>Micro-sprayers</td><td>Shrub beds and nursery areas</td></tr>\n<tr><td>Drip emitters and drip line</td><td>Trees, shrubs, pots and water-wise beds</td></tr></table>\n<p>Drip irrigation puts water right at the roots and wastes very little. It is a good choice in dry areas and where water restrictions apply.</p>\n<h4>Tools and materials</h4>\n<ul><li>Spade, trenching spade, pick and measuring tape</li>\n<li>Pegs, string line and spray paint for marking</li>\n<li>PVC or polyethylene pipe, fittings, risers, sprinklers, emitters</li>\n<li>Hacksaw or pipe cutter, PVC solvent cement (glue), thread tape</li>\n<li>Punch tool for drip line, goggles and gloves</li></ul>\n<h4>Before digging</h4>\n<ol><li>Ask your supervisor to check for buried electric cables, water and gas pipes, and telephone lines.</li>\n<li>Mark the pipe routes with string and spray paint.</li>\n<li>Mark each sprinkler point with a peg.</li>\n<li>Check that the sprinkler spacing gives head-to-head coverage: each sprinkler should throw water to the next one.</li>\n<li>Keep sprays away from walls, windows, paving and roads.</li></ol>\n<p>Lift the lawn sods neatly and put them on plastic so you can put them back after the work. Keep topsoil and subsoil in separate heaps.</p>"
+  },
+  {
+   "title": "Installing pipes, sprinklers and emitters",
+   "minutes": 20,
+   "html": "<h3>Trenching and laying pipe</h3>\n<ol><li>Dig trenches to the depth on the plan (often 200–300 mm for laterals, deeper for mains). Keep the bottom flat and free of stones.</li>\n<li>Cut pipe square with a pipe cutter. Remove burrs.</li>\n<li>For PVC, clean the ends, apply solvent cement and push the joint together with a small twist. Hold it a few seconds. Follow the product label for drying time.</li>\n<li>For poly pipe, use compression fittings and tighten by hand plus a little more.</li>\n<li>Flush the pipes with water before fitting sprinklers. This removes soil that would block the nozzles.</li></ol>\n<h3>Fitting sprinklers</h3>\n<ul><li>Use a flexible riser or swing joint so a mower or foot does not break the pipe.</li>\n<li>Set pop-up heads level with the soil surface, straight up, not tilted.</li>\n<li>Adjust the arc (quarter, half or full circle) and the radius so water stays on the lawn or bed.</li></ul>\n<h3>Fitting drip emitters</h3>\n<ul><li>Lay drip line on the soil surface or just under mulch.</li>\n<li>Punch a clean hole and push the emitter in firmly.</li>\n<li>Place emitters at the root zone of each plant. Bigger plants and trees need more emitters, spaced around the drip line of the canopy.</li>\n<li>Close the end of each line with an end cap or figure-8 closure, so it can be opened for flushing.</li></ul>\n<h3>Testing and finishing</h3>\n<ol><li>Turn on each zone. Look for leaks, blocked heads and dry spots.</li>\n<li>Fix problems before backfilling.</li>\n<li>Backfill: subsoil first, then topsoil. Firm it down. Replace the lawn sods and water them.</li>\n<li>Clean up off-cuts, glue tins and packaging.</li></ol>\n<h4>Safety</h4>\n<ul><li>Wear gloves and goggles when using solvent cement. Use it in open air and keep it away from flames.</li>\n<li>Never dig before buried services have been checked.</li>\n<li>Lift with your legs, not your back.</li></ul>\n<h4>Key points</h4>\n<ul><li>Follow the layout plan and check for buried services before digging.</li>\n<li>Space sprinklers for head-to-head coverage.</li>\n<li>Flush pipes before fitting sprinklers and emitters.</li>\n<li>Drip emitters go at the root zone and save water.</li>\n<li>Test every zone and fix leaks before backfilling.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should you flush the pipes before fitting sprinklers?",
+   "options": [
+    {
+     "text": "To cool the pipe",
+     "correct": false
+    },
+    {
+     "text": "To test the glue",
+     "correct": false
+    },
+    {
+     "text": "To remove soil that would block nozzles",
+     "correct": true
+    },
+    {
+     "text": "To fill the trench",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be checked before you start digging trenches?",
+   "options": [
+    {
+     "text": "Buried electric cables and other services",
+     "correct": true
+    },
+    {
+     "text": "The colour of the pipes",
+     "correct": false
+    },
+    {
+     "text": "The price of sprinklers",
+     "correct": false
+    },
+    {
+     "text": "The wind speed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which item is best for watering trees and shrubs with little waste?",
+   "options": [
+    {
+     "text": "Rotor",
+     "correct": false
+    },
+    {
+     "text": "Impact sprinkler",
+     "correct": false
+    },
+    {
+     "text": "Pop-up spray head",
+     "correct": false
+    },
+    {
+     "text": "Drip emitters",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does head-to-head coverage mean?",
+   "options": [
+    {
+     "text": "Two sprinklers on one riser",
+     "correct": false
+    },
+    {
+     "text": "Each sprinkler throws water to the next sprinkler",
+     "correct": true
+    },
+    {
+     "text": "Sprinklers face the wall",
+     "correct": false
+    },
+    {
+     "text": "Only one sprinkler per zone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why use a flexible riser or swing joint?",
+   "options": [
+    {
+     "text": "To make water hotter",
+     "correct": false
+    },
+    {
+     "text": "To save glue",
+     "correct": false
+    },
+    {
+     "text": "So a mower or foot does not break the pipe",
+     "correct": true
+    },
+    {
+     "text": "To make the spray wider",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pop-up sprinkler heads should be set level with the soil surface and straight up.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should backfill the trenches before testing the system for leaks.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices when using PVC solvent cement? (select all that apply)",
+   "options": [
+    {
+     "text": "Wear gloves and goggles",
+     "correct": true
+    },
+    {
+     "text": "Use it in open air",
+     "correct": true
+    },
+    {
+     "text": "Use it near an open flame",
+     "correct": false
+    },
+    {
+     "text": "Follow the product label for drying time",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

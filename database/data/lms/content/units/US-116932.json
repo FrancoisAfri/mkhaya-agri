@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116932",
+ "title": "Operate a personal computer system",
+ "lessons": [
+  {
+   "title": "The parts of a computer",
+   "minutes": 15,
+   "html": "<h3>Getting to know the computer</h3><p>Many farms and wool stores use computers for records, stock lists, wages and email. You do not need to be an expert to use one. Start by knowing the main parts.</p><table><tr><th>Part</th><th>What it does</th></tr><tr><td>System unit (tower) or laptop body</td><td>The \"brain\" of the computer that does the work</td></tr><tr><td>Monitor (screen)</td><td>Shows you what the computer is doing</td></tr><tr><td>Keyboard</td><td>Used to type letters and numbers</td></tr><tr><td>Mouse or touchpad</td><td>Moves the pointer on the screen and lets you click</td></tr><tr><td>Printer</td><td>Prints on paper</td></tr><tr><td>USB flash drive</td><td>Carries files from one computer to another</td></tr></table><h4>Hardware and software</h4><p><strong>Hardware</strong> is the parts you can touch, like the keyboard and screen. <strong>Software</strong> is the programs that run on the computer, like Windows, a word processor, a spreadsheet or the farm's record program.</p><h4>Important keys</h4><ul><li><strong>Enter</strong> – start a new line or say \"yes, do it\".</li><li><strong>Backspace</strong> – delete the letter to the left.</li><li><strong>Delete</strong> – delete the letter to the right, or a selected item.</li><li><strong>Shift</strong> – hold it to type a capital letter.</li><li><strong>Space bar</strong> – makes a space between words.</li><li><strong>Esc</strong> – cancel or close a box.</li></ul><h4>Using the mouse</h4><ul><li>Click (left button once) – choose something.</li><li>Double-click – open something.</li><li>Right-click – show a short list of options.</li><li>Drag – hold the left button down and move.</li></ul>"
+  },
+  {
+   "title": "Switching on, logging in and switching off",
+   "minutes": 15,
+   "html": "<h3>Starting and stopping the right way</h3><h4>Switching on</h4><ol><li>Check the cables are plugged in, and the plug is switched on at the wall.</li><li>Press the power button on the computer, and switch on the monitor if needed.</li><li>Wait for the computer to start.</li></ol><h4>Logging in</h4><p>Most computers ask for a username and password. Type them carefully. Passwords are case-sensitive: \"Farm\" and \"farm\" are different.</p><ul><li>Never share your password or write it on the screen.</li><li>Use a password that is hard to guess, with letters and numbers.</li><li>Lock the computer when you walk away (on Windows, press the Windows key and L together).</li></ul><h4>The desktop</h4><p>After logging in you see the desktop. It has icons (small pictures) for programs and files, the taskbar at the bottom and the Start button. Click Start to find programs.</p><h4>Opening and closing programs</h4><ul><li>Double-click an icon, or choose it from the Start menu, to open a program.</li><li>Click the X in the top right corner to close it. Save your work first.</li></ul><h4>Switching off</h4><ol><li>Save your work and close all programs.</li><li>Click Start, then Power, then Shut down.</li><li>Wait for the computer to switch off before switching off at the wall.</li></ol><p>Never just pull out the plug. You can lose work and damage the computer. With load shedding, save your work often.</p>"
+  },
+  {
+   "title": "Looking after the computer and yourself",
+   "minutes": 15,
+   "html": "<h3>Care and safety</h3><h4>Caring for the computer</h4><ul><li>Keep food and drinks away from the keyboard. Spills can break it.</li><li>Keep the computer in a clean, dry, cool place, away from dust and direct sun.</li><li>Do not block the air holes.</li><li>Use a surge protector, as power cuts and surges can damage computers.</li><li>Clean the screen with a soft dry cloth, with the computer switched off.</li><li>Do not install programs unless your supervisor or IT person allows it.</li></ul><h4>Viruses and scams</h4><ul><li>Do not open emails or attachments from people you do not know.</li><li>Do not click on strange links or pop-ups that say you won a prize.</li><li>Never give passwords or bank details because of an email or phone call.</li><li>Tell your supervisor if the computer acts strangely.</li></ul><h4>Your health</h4><ul><li>Sit straight with your back supported and feet flat on the floor.</li><li>Keep the screen at eye level, about an arm's length away.</li><li>Rest your eyes: look away from the screen often.</li><li>Stand up and stretch every hour.</li></ul><h4>Electrical safety</h4><p>Do not open the computer or repair cables yourself. Report damaged plugs and cables. Never use a computer with wet hands.</p><h4>Key points</h4><ul><li>Hardware is the parts you can touch; software is the programs.</li><li>Keep your password secret and lock the computer when you leave.</li><li>Save your work and use Shut down; never just pull the plug.</li><li>Keep food and drink away and do not open emails from strangers.</li><li>Sit straight, keep the screen at eye level and take breaks.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is hardware?",
+   "options": [
+    {
+     "text": "An email",
+     "correct": false
+    },
+    {
+     "text": "Windows",
+     "correct": false
+    },
+    {
+     "text": "The keyboard",
+     "correct": true
+    },
+    {
+     "text": "A spreadsheet program",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does double-click usually do?",
+   "options": [
+    {
+     "text": "Delete a file",
+     "correct": false
+    },
+    {
+     "text": "Switch off the computer",
+     "correct": false
+    },
+    {
+     "text": "Open something",
+     "correct": true
+    },
+    {
+     "text": "Print a page",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which key deletes the letter to the left of the cursor?",
+   "options": [
+    {
+     "text": "Esc",
+     "correct": false
+    },
+    {
+     "text": "Enter",
+     "correct": false
+    },
+    {
+     "text": "Shift",
+     "correct": false
+    },
+    {
+     "text": "Backspace",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you switch off a computer?",
+   "options": [
+    {
+     "text": "Close the laptop lid while saving",
+     "correct": false
+    },
+    {
+     "text": "Press the monitor button only",
+     "correct": false
+    },
+    {
+     "text": "Save work, close programs, then Start, Power, Shut down",
+     "correct": true
+    },
+    {
+     "text": "Pull out the plug",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You get an email from a stranger saying you won a prize. What should you do?",
+   "options": [
+    {
+     "text": "Send your bank details",
+     "correct": false
+    },
+    {
+     "text": "Click the link quickly",
+     "correct": false
+    },
+    {
+     "text": "Do not open the link or attachment and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Forward it to everyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Passwords are case-sensitive, so \"Farm\" and \"farm\" are different.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to keep your coffee next to the keyboard.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help protect your health when using a computer? (select all that apply)",
+   "options": [
+    {
+     "text": "Sitting bent over with feet off the floor",
+     "correct": false
+    },
+    {
+     "text": "Keeping the screen at eye level",
+     "correct": true
+    },
+    {
+     "text": "Looking away from the screen often",
+     "correct": true
+    },
+    {
+     "text": "Standing up and stretching every hour",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-10",
+ "title": "Evisceration and Handling of Red and Rough Offal",
+ "lessons": [
+  {
+   "title": "Evisceration without contamination",
+   "minutes": 20,
+   "html": "<h3>What is evisceration?</h3><p><strong>Evisceration</strong> means removing the organs and gut from the carcass: the stomachs, intestines, liver, heart, lungs and other organs. The gut is full of germs. If it is cut or torn, its contents spill onto the meat. This is one of the most serious hygiene failures on the slaughter line, so evisceration must be done carefully and by trained workers.</p><h3>Before you start</h3><ul><li>Check that the weasand was tied and the rectum bagged or tied (bunged) earlier on the line. If not, tell your supervisor.</li><li>Make sure your knife is sharp and sterilised and your hands are clean.</li><li>Have the offal tray or chute ready, and know the identification system so offal can be matched to its carcass.</li></ul><h3>Typical steps</h3><ol><li>Open the brisket with the brisket saw.</li><li>Open the belly with a careful cut along the midline. Guard the knife point with your hand or use a knife with a rounded tip, so the point does not cut the stomach or intestines.</li><li>Free the bung and pull it through into the belly.</li><li>Ease out the stomachs and intestines (rough offal) together into the tray or chute, without cutting them. Release the attachments with your hands and short cuts only where needed.</li><li>Remove the liver, carefully separating the gall bladder without bursting it.</li><li>Cut through the diaphragm and remove the heart and lungs (the pluck) with the windpipe.</li><li>Remove the kidneys as your line requires.</li></ol><h3>If the gut is cut</h3><p>Stop. Tell the supervisor and meat inspector. Contaminated parts must be trimmed under the inspector's direction. Sterilise your knife, wash your hands and arms, and clean your apron before continuing.</p><p>Never pull the gut by force, never cut blindly inside the cavity, and never let organs touch the floor.</p>"
+  },
+  {
+   "title": "Handling red and rough offal",
+   "minutes": 20,
+   "html": "<h3>Two kinds of offal</h3><table><tr><th>Red offal</th><th>Rough offal</th></tr><tr><td>Heart, lungs, liver, kidneys, spleen, tongue, cheek meat, head</td><td>Rumen, reticulum, omasum, abomasum, intestines</td></tr><tr><td>Cleaner; handled in the red offal room</td><td>Dirty, full of gut contents; handled in the rough offal room</td></tr></table><p>Red and rough offal are kept apart all the way, because rough offal would contaminate red offal. Workers, trays and tools for rough offal should not go into the red offal area without cleaning and changing.</p><h3>Inspection first</h3><p>Every organ must stay identified with its carcass until the meat inspector has examined it. The inspector checks lymph nodes, liver, lungs, heart and other organs for signs of disease. If a carcass is held, its offal is held too. Never remove offal from the inspection point before it is passed.</p><h3>Red offal processing</h3><ul><li>Separate the organs, trim off fat, blood vessels and any parts marked by the inspector.</li><li>Rinse with clean water.</li><li>Hang or place on clean trays and chill quickly.</li><li>Pack and label for sale.</li></ul><h3>Rough offal processing</h3><ul><li>Empty the stomachs of their contents into the waste system without splashing.</li><li>Wash the stomachs and, where required, scald and scrape them to produce clean tripe.</li><li>Intestines are emptied, cleaned or sent as inedible, depending on the abattoir.</li><li>Rumen contents go to the waste or compost system, never into rivers.</li></ul><h3>Hygiene and safety</h3><p>Wear waterproof aprons and boots; floors in the offal rooms are very slippery. Take care with hot water and scalding equipment. Wash hands and sterilise tools often.</p><h4>Key points</h4><ul><li>Evisceration removes the gut and organs without cutting the gut.</li><li>Guard the knife point when opening the belly.</li><li>If the gut is cut, stop, report and clean up.</li><li>Keep red and rough offal apart at all times.</li><li>Offal stays identified with its carcass until the inspector passes it.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is evisceration?",
+   "options": [
+    {
+     "text": "Removing the hide",
+     "correct": false
+    },
+    {
+     "text": "Stunning the animal",
+     "correct": false
+    },
+    {
+     "text": "Washing the carcass",
+     "correct": false
+    },
+    {
+     "text": "Removing the organs and gut from the carcass",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you stop the knife point cutting the gut when opening the belly?",
+   "options": [
+    {
+     "text": "Guard the knife point with your hand or use a rounded-tip knife",
+     "correct": true
+    },
+    {
+     "text": "Cut very fast",
+     "correct": false
+    },
+    {
+     "text": "Push the knife deep",
+     "correct": false
+    },
+    {
+     "text": "Use a saw",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you cut the intestine during evisceration?",
+   "options": [
+    {
+     "text": "Wipe it with a cloth and continue",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell the supervisor and meat inspector",
+     "correct": true
+    },
+    {
+     "text": "Hide the cut",
+     "correct": false
+    },
+    {
+     "text": "Wash the meat with a hose",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is part of the rough offal?",
+   "options": [
+    {
+     "text": "Heart",
+     "correct": false
+    },
+    {
+     "text": "Rumen",
+     "correct": true
+    },
+    {
+     "text": "Tongue",
+     "correct": false
+    },
+    {
+     "text": "Kidneys",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When may offal leave the inspection point?",
+   "options": [
+    {
+     "text": "Whenever the tray is full",
+     "correct": false
+    },
+    {
+     "text": "Before the carcass is inspected",
+     "correct": false
+    },
+    {
+     "text": "Only after the meat inspector has passed it",
+     "correct": true
+    },
+    {
+     "text": "At the end of the day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Red and rough offal should be kept apart because rough offal can contaminate red offal.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Organs may be placed on the floor for a short time if the trays are full.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps are part of red offal processing? (select all that apply)",
+   "options": [
+    {
+     "text": "Trim off fat and blood vessels",
+     "correct": true
+    },
+    {
+     "text": "Rinse with clean water",
+     "correct": true
+    },
+    {
+     "text": "Chill quickly",
+     "correct": true
+    },
+    {
+     "text": "Empty the stomach contents",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

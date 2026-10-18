@@ -41,15 +41,6 @@ type Payslip = {
   run_name: string | null
 }
 
-type Ticket = {
-  id: number
-  ticket_number: string
-  subject: string
-  status: string | null
-  status_color: string
-  created_at: string
-}
-
 type Announcement = {
   id: number
   title: string
@@ -69,7 +60,6 @@ const props = defineProps<{
   leave_balances: LeaveBalance[]
   pending_leaves: PendingLeave[]
   recent_payslips: Payslip[]
-  open_tickets: Ticket[]
   announcements: Announcement[]
   assigned_assets: Asset[]
 }>()
@@ -128,13 +118,8 @@ const initials = computed(() => {
           <VCol cols="12" md="auto" class="d-flex flex-wrap gap-2 justify-end">
             <VBtn color="white" variant="elevated" prepend-icon="tabler-calendar-plus"
               style="color:#7367f0;font-weight:600"
-              :href="route('hr.leave.create')">
+              :href="route('hr.leave.apply')">
               Apply for Leave
-            </VBtn>
-            <VBtn color="white" variant="outlined" prepend-icon="tabler-ticket"
-              class="text-white"
-              :href="route('helpdesk.tickets.create')">
-              Raise a Ticket
             </VBtn>
           </VCol>
         </VRow>
@@ -226,42 +211,6 @@ const initials = computed(() => {
             <div v-else class="text-center text-medium-emphasis py-6">
               <VIcon icon="tabler-calendar-check" size="36" class="mb-2 text-disabled d-block mx-auto" />
               <p class="text-caption">No recent leave requests</p>
-            </div>
-          </VCardText>
-        </VCard>
-      </VCol>
-
-      <!-- ── Open Helpdesk Tickets ──────────────────────────────────────────── -->
-      <VCol cols="12" md="6">
-        <VCard elevation="0" border class="h-100">
-          <VCardItem class="pa-5 pb-0">
-            <VCardTitle class="text-h6 font-weight-semibold">My Open Tickets</VCardTitle>
-            <template #append>
-              <VBtn variant="text" size="small" color="primary" :href="route('helpdesk.tickets.index')">View all</VBtn>
-            </template>
-          </VCardItem>
-          <VCardText class="pa-5">
-            <template v-if="open_tickets.length">
-              <div
-                v-for="t in open_tickets"
-                :key="t.id"
-                class="d-flex align-center gap-3 py-2 cursor-pointer"
-                style="border-bottom:1px solid rgba(var(--v-border-color),var(--v-border-opacity))"
-                @click="router.visit(route('helpdesk.tickets.show', t.id))"
-              >
-                <VAvatar size="32" color="primary" variant="tonal" class="flex-shrink-0">
-                  <VIcon icon="tabler-ticket" size="16" />
-                </VAvatar>
-                <div class="flex-1 min-width-0">
-                  <p class="text-body-2 font-weight-medium mb-0 text-truncate">{{ t.subject }}</p>
-                  <p class="text-caption text-disabled mb-0">{{ t.ticket_number }} · {{ t.created_at }}</p>
-                </div>
-                <VChip :color="t.status_color" size="x-small" label>{{ t.status }}</VChip>
-              </div>
-            </template>
-            <div v-else class="text-center text-medium-emphasis py-6">
-              <VIcon icon="tabler-circle-check" size="36" class="mb-2 text-disabled d-block mx-auto" />
-              <p class="text-caption">No open tickets — all is well!</p>
             </div>
           </VCardText>
         </VCard>

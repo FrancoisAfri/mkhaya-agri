@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115304",
+ "title": "Organise and record the transportation, handling, moving and loading of livestock, game and agricultural products",
+ "lessons": [
+  {
+   "title": "Handling, moving and loading",
+   "minutes": 15,
+   "html": "<h3>Working with animal behaviour</h3>\n<p>At this level you are the person in the pens and on the ramp. Good handling protects the animals, the meat and you.</p>\n<ul><li>Animals see almost all around them but have a blind spot directly behind. Do not stand there.</li>\n<li>Move into the <strong>flight zone</strong> to make animals move, step back to stop them.</li>\n<li>Animals follow each other. Move small groups, not one at a time.</li>\n<li>Keep calm and quiet. Use flags or paddles. Never twist tails, hit or kick animals.</li>\n<li>For game, follow the capture team's instructions. Keep quiet, stay out of sight, and never enter a boma alone.</li></ul>\n<h4>Moving agricultural products</h4>\n<p>Handle produce carefully: bruised fruit and torn bags lose money. Lift with your legs, not your back, and use trolleys or forklifts for heavy loads. Keep products dry, shaded and away from fuel, fertiliser and chemicals.</p>\n<h4>Loading and unloading safely</h4>\n<ol><li>Check the vehicle is clean and safe, with partitions, no sharp edges and a good floor.</li>\n<li>Line the ramp up with the truck so there is no gap.</li>\n<li>Check each animal is fit to travel. Leave behind sick, injured, weak or heavily pregnant animals and tell your supervisor.</li>\n<li>Load to the density your supervisor gives from the code of practice.</li>\n<li>Close each partition gate behind the group.</li>\n<li>At the destination, unload quietly, give water and check for injuries.</li></ol>\n<p><strong>Never</strong> climb into a compartment with cattle on board or put your arm through the sides of a moving truck. Cruel handling or transport is an offence under the Animals Protection Act 71 of 1962.</p>"
+  },
+  {
+   "title": "Identification, weighing, organising transport and documents",
+   "minutes": 15,
+   "html": "<h3>Permanent identification</h3>\n<p>The Animal Identification Act 6 of 2002 requires owners to mark their livestock with a registered identification mark. Permanent methods include:</p>\n<ul><li><strong>Branding</strong> with a hot or freeze brand, used on cattle.</li>\n<li><strong>Tattooing</strong> in the ear, common on sheep, goats and pigs.</li>\n<li><strong>Microchips</strong>, used for horses, game and stud animals.</li></ul>\n<p>Ear tags help with management but can be lost, so they are not enough on their own. Branding and tattooing must be done by trained people with the animal properly restrained, to keep pain and injury to a minimum.</p>\n<h4>Weighing</h4>\n<p>Check that the scale is zeroed and working before you start. Weigh animals one at a time or in groups as instructed. Write down the animal number, weight, date and your name straight away. Weigh bags and bins of produce the same way and keep the tickets.</p>\n<h4>Organising transport</h4>\n<p>Before the truck arrives, make sure:</p>\n<ul><li>The number of animals or the amount of product is ready and sorted.</li>\n<li>The vehicle booked is the right type and size.</li>\n<li>The driver knows the address, route and arrival time.</li>\n<li>Water and handling equipment are ready, and the ramp is safe.</li></ul>\n<h4>Documents</h4>\n<table><tr><th>Document</th><th>Why</th></tr>\n<tr><td>Stock removal document</td><td>Required under the Stock Theft Act 57 of 1959 when transporting livestock</td></tr>\n<tr><td>Veterinary movement permit</td><td>For animals from or into disease control areas</td></tr>\n<tr><td>Game transport permit</td><td>From the provincial conservation authority</td></tr>\n<tr><td>Weight tickets, delivery note</td><td>Proof of what was sent</td></tr></table>\n<p>Check the numbers on the documents match what is on the truck. Give copies to the driver and keep a copy on the farm.</p>\n<h4>Key points</h4>\n<ul><li>Use the flight zone and herd behaviour; never hit or twist tails.</li>\n<li>Do not load unfit animals; report them to your supervisor.</li>\n<li>Brands, tattoos and microchips are permanent identification under the Animal Identification Act 6 of 2002.</li>\n<li>Zero the scale and record weights straight away.</li>\n<li>Check that documents match the load before the truck leaves.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where is an animal's blind spot?",
+   "options": [
+    {
+     "text": "Directly behind",
+     "correct": true
+    },
+    {
+     "text": "On the left side only",
+     "correct": false
+    },
+    {
+     "text": "Directly in front",
+     "correct": false
+    },
+    {
+     "text": "Above its head",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a permanent identification method used on cattle?",
+   "options": [
+    {
+     "text": "Ear tag only",
+     "correct": false
+    },
+    {
+     "text": "Paint mark",
+     "correct": false
+    },
+    {
+     "text": "Chalk number",
+     "correct": false
+    },
+    {
+     "text": "Branding",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a weak or injured animal that was meant to be loaded?",
+   "options": [
+    {
+     "text": "Load it at the front",
+     "correct": false
+    },
+    {
+     "text": "Leave it behind and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Hide it in the middle of the group",
+     "correct": false
+    },
+    {
+     "text": "Load it last",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you check before weighing animals?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "That the truck is full",
+     "correct": false
+    },
+    {
+     "text": "That the scale is zeroed and working",
+     "correct": true
+    },
+    {
+     "text": "That the animals are wet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which document is required under the Stock Theft Act 57 of 1959?",
+   "options": [
+    {
+     "text": "Fuel slip",
+     "correct": false
+    },
+    {
+     "text": "Fruit packing list",
+     "correct": false
+    },
+    {
+     "text": "Stock removal document",
+     "correct": true
+    },
+    {
+     "text": "Weighbridge ticket",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ear tags alone are enough as permanent identification because they never fall out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Game should be handled following the capture team's instructions, and a boma should never be entered alone.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be ready before the truck arrives? (select all that apply)",
+   "options": [
+    {
+     "text": "Dogs ready to bite slow animals",
+     "correct": false
+    },
+    {
+     "text": "The right vehicle type booked",
+     "correct": true
+    },
+    {
+     "text": "Driver informed of address and arrival time",
+     "correct": true
+    },
+    {
+     "text": "Animals or product sorted and counted",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

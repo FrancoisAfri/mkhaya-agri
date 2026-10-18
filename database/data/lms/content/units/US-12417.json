@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-12417",
+ "title": "Measure, estimate & calculate physical quantities & explore, critique & prove geometrical relationships in 2 and 3 dimensional space in the life and workplace of adult with increasing responsibilities",
+ "lessons": [
+  {
+   "title": "Measuring and estimating on the farm",
+   "minutes": 15,
+   "html": "<h3>Units, accuracy and estimation</h3><p>Supervisors measure and calculate every day: hectares to plant, litres of spray mix, tons of feed, the volume of a dam, the capacity of a silo. Mistakes can waste thousands of rand or harm crops and animals, so you must choose the right unit, measure accurately and check answers with an estimate.</p><h4>SI units and conversions</h4><table><tr><th>Quantity</th><th>Units and conversions</th></tr><tr><td>Length</td><td>1 km = 1 000 m; 1 m = 100 cm = 1 000 mm</td></tr><tr><td>Area</td><td>1 ha = 10 000 m²; 1 km² = 100 ha</td></tr><tr><td>Volume</td><td>1 m³ = 1 000 litres; 1 litre = 1 000 ml</td></tr><tr><td>Mass</td><td>1 ton = 1 000 kg; 1 kg = 1 000 g</td></tr><tr><td>Rainfall / irrigation</td><td>1 mm on 1 ha = 10 m³ = 10 000 litres</td></tr></table><h4>Estimation</h4><p>Before calculating, estimate. A camp about 400 m by 250 m is about 10 ha (400 × 250 = 100 000 m²). If your calculator says 100 ha, you know you made an error. Estimation is also used when you cannot measure exactly, for example estimating the mass of a steer from a weigh band, or the yield of an orchard by counting fruit on sample trees.</p><h4>Accuracy and error</h4><p>Every measurement has some error. A tape stretched on a slope, a scale that is not zeroed or reading a measuring cylinder from above all give wrong readings. Use the right instrument, check calibration, and repeat important measurements. Round answers sensibly: a field area to two decimal places of a hectare, not to eight.</p>"
+  },
+  {
+   "title": "Calculating area, volume and rates",
+   "minutes": 15,
+   "html": "<h3>Formulae for 2D and 3D shapes</h3><h4>Area formulae</h4><ul><li>Rectangle: length × breadth</li><li>Triangle: ½ × base × perpendicular height</li><li>Circle: π × r² (π ≈ 3,14)</li><li>Trapezium: ½ × (sum of parallel sides) × height</li></ul><p>Irregular fields can be divided into rectangles and triangles, worked out separately and added up. A centre pivot with a radius of 400 m irrigates about 3,14 × 400 × 400 = 502 400 m², or about 50,2 ha.</p><h4>Volume formulae</h4><ul><li>Rectangular tank or trench: length × breadth × height</li><li>Cylinder (round tank, silo): π × r² × height</li><li>Cone (heap of grain): ⅓ × π × r² × height</li></ul><p>Example: a round reservoir with a diameter of 10 m and a water depth of 2 m holds 3,14 × 5 × 5 × 2 = 157 m³, which is 157 000 litres.</p><h4>Surface area</h4><p>Surface area tells you how much material you need, for example paint for a tank or plastic for a tunnel. The curved surface of a cylinder is 2 × π × r × h.</p><h4>Rates</h4><p>Rates combine two quantities. A spray rate of 200 litres per hectare on 15 ha needs 3 000 litres of mix. A pump delivering 30 m³ per hour applies 1 mm on 1 ha (10 m³) every 20 minutes. Always write units in your working so you can check them.</p><h4>Worked check</h4><p>A trench silo is 30 m long, 6 m wide and 2,5 m high. Its volume is 30 × 6 × 2,5 = 450 m³. Estimate first: 30 × 6 is 180, and about 2,5 times that is roughly 450, so the answer is reasonable.</p>"
+  },
+  {
+   "title": "Geometrical relationships and proof",
+   "minutes": 15,
+   "html": "<h3>Using geometry to solve and check problems</h3><h4>Pythagoras</h4><p>In a right-angled triangle, the square of the longest side (hypotenuse) equals the sum of the squares of the other two sides: c² = a² + b². Farmers use the 3-4-5 rule to set out a square corner for a shed or a kraal: measure 3 m along one side, 4 m along the other, and adjust until the diagonal is exactly 5 m. Because 3² + 4² = 9 + 16 = 25 = 5², the corner must be 90°.</p><h4>Similar shapes and scale</h4><p>Shapes that are similar have the same angles and their sides are in the same ratio. Farm maps and building plans use a scale, for example 1:10 000, where 1 cm on the map is 10 000 cm (100 m) on the ground. If the scale doubles the length, area grows four times and volume eight times. This is why a tank with double the diameter holds four times as much at the same height.</p><h4>Critiquing a calculation</h4><p>With more responsibility you must check other people's work. Ask: Are the units consistent? Is the formula correct for the shape? Does the answer agree with an estimate? Has a diameter been used where a radius was needed? These checks catch most mistakes before they cost money.</p><h4>Proving a relationship</h4><p>A proof shows that something is always true, not only in one example. For instance, you can show with the 3-4-5 rule that any triangle with sides in the ratio 3:4:5 has a right angle, because the sides satisfy Pythagoras.</p><h4>Key points</h4><ul><li>1 ha = 10 000 m², 1 m³ = 1 000 litres, and 1 mm on 1 ha = 10 m³.</li><li>Estimate before you calculate to catch errors.</li><li>Use the correct formula: circle area π r², cylinder volume π r² h.</li><li>The 3-4-5 rule uses Pythagoras to set out a right angle.</li><li>Doubling lengths multiplies area by four and volume by eight.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How many square metres are in one hectare?",
+   "options": [
+    {
+     "text": "1 000",
+     "correct": false
+    },
+    {
+     "text": "100",
+     "correct": false
+    },
+    {
+     "text": "10 000",
+     "correct": true
+    },
+    {
+     "text": "100 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many litres are in 1 m³?",
+   "options": [
+    {
+     "text": "1 000",
+     "correct": true
+    },
+    {
+     "text": "100",
+     "correct": false
+    },
+    {
+     "text": "10",
+     "correct": false
+    },
+    {
+     "text": "10 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the formula for the volume of a cylindrical tank?",
+   "options": [
+    {
+     "text": "length × breadth",
+     "correct": false
+    },
+    {
+     "text": "π × r² × height",
+     "correct": true
+    },
+    {
+     "text": "½ × base × height",
+     "correct": false
+    },
+    {
+     "text": "2 × π × r",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A camp is 400 m by 250 m. About how big is it?",
+   "options": [
+    {
+     "text": "1 ha",
+     "correct": false
+    },
+    {
+     "text": "100 ha",
+     "correct": false
+    },
+    {
+     "text": "1 000 ha",
+     "correct": false
+    },
+    {
+     "text": "10 ha",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When setting out a square corner with the 3-4-5 rule, what must the diagonal measure if the sides are 3 m and 4 m?",
+   "options": [
+    {
+     "text": "5 m",
+     "correct": true
+    },
+    {
+     "text": "6 m",
+     "correct": false
+    },
+    {
+     "text": "7 m",
+     "correct": false
+    },
+    {
+     "text": "4,5 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If you double the diameter of a round tank and keep the height the same, it holds four times as much.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Using the diameter instead of the radius in π × r² gives the correct area.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks help you critique someone else's calculation? (select all that apply)",
+   "options": [
+    {
+     "text": "Are the units consistent?",
+     "correct": true
+    },
+    {
+     "text": "Does the answer agree with an estimate?",
+     "correct": true
+    },
+    {
+     "text": "Is the formula correct for the shape?",
+     "correct": true
+    },
+    {
+     "text": "Was the calculation done in pen?",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

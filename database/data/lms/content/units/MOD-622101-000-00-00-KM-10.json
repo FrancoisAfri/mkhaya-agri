@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-622101-000-00-00-KM-10",
+ "title": "Aquaculture farm equipment management",
+ "lessons": [
+  {
+   "title": "Equipment on an aquaculture farm",
+   "minutes": 20,
+   "html": "<h3>Know your equipment</h3><p>Fish farms depend on equipment running day and night. A failed aerator or pump at 02:00 can kill a whole tank before morning. A supervisor must know what each item does, how it fails and how to keep it running.</p><h4>Water supply and movement</h4><ul><li><strong>Pumps</strong>: centrifugal and submersible pumps move water from boreholes, dams and sumps.</li><li><strong>Pipework, valves and plumbing</strong>: control flow to each unit; leaks waste water and power.</li><li><strong>Screens</strong>: on inlets and outlets keep wild fish and debris out and farm fish in.</li></ul><h4>Aeration and oxygen</h4><ul><li><strong>Paddlewheel aerators</strong> are common in earth ponds.</li><li><strong>Air blowers and diffusers</strong> supply air to tanks.</li><li><strong>Oxygen cones and pure oxygen</strong> are used in intensive systems; oxygen cylinders must be handled as pressurised gas.</li></ul><h4>Recirculating system equipment</h4><ul><li>Mechanical filters (drum filters, settling tanks) remove solids.</li><li>Biofilters host bacteria that convert ammonia.</li><li>UV units reduce pathogens in the water.</li><li>Heaters or heat pumps where warm-water species are grown in cold areas.</li></ul><h4>Husbandry and harvest equipment</h4><ul><li>Seine nets, scoop nets, graders, baskets, crates and bins.</li><li>Scales for weighing samples and harvests.</li><li>Transport tanks with aeration.</li><li>Feeders: hand scoops, demand feeders, automatic feeders.</li></ul><h4>Monitoring and power</h4><ul><li>DO, temperature and pH meters, and test kits.</li><li>Alarms that warn of low oxygen, low water level or power failure.</li><li>Standby generators, which are essential given load shedding and rural power outages in South Africa.</li></ul><p>Keep an equipment register listing each item, its location, serial number, supplier, date bought and service schedule.</p><p>Keep spare parts for critical items on site: aerator motors or paddles, pump seals, fuses, diffuser heads and net repair twine. A missing R200 part can otherwise cause losses worth many thousands of rand while a supplier is found.</p>"
+  },
+  {
+   "title": "Maintenance, safety and records",
+   "minutes": 20,
+   "html": "<h3>Planned maintenance</h3><p>Breakdown repairs cost more than planned care. Set daily, weekly and monthly checks for each item.</p><table><tr><th>Frequency</th><th>Example checks</th></tr><tr><td>Daily</td><td>Aerators running, pumps primed, screens clear, alarms armed, oxygen supply level</td></tr><tr><td>Weekly</td><td>Clean filters and diffusers, check nets for holes, run generator under load</td></tr><tr><td>Monthly</td><td>Lubricate bearings and gearboxes per manual, check belts, inspect cables and earth leakage</td></tr><tr><td>Annually or as manual says</td><td>Pump and motor service, calibration by supplier</td></tr></table><h4>Standby and redundancy</h4><p>Critical systems need backup: spare aerators, a spare pump, enough fuel for the generator and an oxygen reserve. Test backup equipment on a schedule, not only when it is needed.</p><h4>Safety</h4><ul><li><strong>Electricity and water</strong>: use earth leakage protection, keep connections dry and off the ground, and allow only qualified electricians to do electrical work.</li><li><strong>Lockout</strong>: isolate and lock out power before cleaning or repairing pumps and aerators so nobody can switch them on.</li><li><strong>Rotating parts</strong>: paddlewheels and belts must have guards; never reach in while they run.</li><li><strong>Generators</strong>: run outdoors or in ventilated areas because exhaust gas can kill; store fuel safely away from heat.</li><li><strong>Oxygen cylinders</strong>: secure upright, keep oil and grease away, no smoking or flames nearby.</li><li><strong>Chemicals</strong> for cleaning and disinfection: follow the label and safety data sheet.</li></ul><p>The Occupational Health and Safety Act 85 of 1993 requires the employer to provide and maintain safe machinery and to train workers in safe use.</p><h4>Cleaning and biosecurity</h4><p>Nets, graders and transport tanks move between units and farms and carry disease. Clean off organic matter first, then disinfect, then dry. Keep separate equipment for quarantine units.</p><h4>Records and replacement</h4><p>Log every service, fault and repair with date, cost and who did it. Repeated failures show when an item should be replaced. Use these records when budgeting.</p><h4>Key points</h4><ul><li>Keep an equipment register with service schedules.</li><li>Do daily checks on aerators, pumps, screens and alarms.</li><li>Test standby generators and backup aeration regularly.</li><li>Lock out power before working on equipment.</li><li>Clean, disinfect and dry equipment that moves between units.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are standby generators especially important on South African fish farms?",
+   "options": [
+    {
+     "text": "They make the water warmer",
+     "correct": false
+    },
+    {
+     "text": "Power cuts can stop aeration and pumps and kill fish",
+     "correct": true
+    },
+    {
+     "text": "They are needed for feeding",
+     "correct": false
+    },
+    {
+     "text": "They are required for weighing fish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a biofilter do?",
+   "options": [
+    {
+     "text": "Hosts bacteria that convert ammonia",
+     "correct": true
+    },
+    {
+     "text": "Heats the water",
+     "correct": false
+    },
+    {
+     "text": "Grades fish by size",
+     "correct": false
+    },
+    {
+     "text": "Weighs feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done before repairing a pump?",
+   "options": [
+    {
+     "text": "Run it faster",
+     "correct": false
+    },
+    {
+     "text": "Pour water over the motor",
+     "correct": false
+    },
+    {
+     "text": "Isolate and lock out the power",
+     "correct": true
+    },
+    {
+     "text": "Remove the guards while running",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a generator be run?",
+   "options": [
+    {
+     "text": "In a closed storeroom",
+     "correct": false
+    },
+    {
+     "text": "Inside the workers' rest room",
+     "correct": false
+    },
+    {
+     "text": "Next to the oxygen cylinders",
+     "correct": false
+    },
+    {
+     "text": "Outdoors or in a well-ventilated area",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the correct order for cleaning nets between units?",
+   "options": [
+    {
+     "text": "Remove organic matter, disinfect, then dry",
+     "correct": true
+    },
+    {
+     "text": "Dry, then disinfect, then rinse in pond water",
+     "correct": false
+    },
+    {
+     "text": "Disinfect only, no need to clean",
+     "correct": false
+    },
+    {
+     "text": "Rinse in the next pond",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Backup equipment only needs testing when the main equipment fails.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Oil and grease must be kept away from oxygen cylinders.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are daily equipment checks? (select all that apply)",
+   "options": [
+    {
+     "text": "Aerators running",
+     "correct": true
+    },
+    {
+     "text": "Screens clear",
+     "correct": true
+    },
+    {
+     "text": "Alarms armed",
+     "correct": true
+    },
+    {
+     "text": "Annual pump service",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

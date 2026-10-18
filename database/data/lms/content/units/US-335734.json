@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335734",
+ "title": "Exercise race horses at various paces on a sand track",
+ "lessons": [
+  {
+   "title": "Before going onto the sand track",
+   "minutes": 15,
+   "html": "<h3>The work rider's job</h3> <p>Racehorses are exercised every day to build fitness. Work riders ride them on the training track at the paces and distances the trainer sets. On many South African training centres this is a sand track. The work rider must follow instructions exactly, because the trainer plans each horse's work carefully to bring it to peak fitness without injury.</p> <h4>Getting instructions</h4> <p>Before each lot goes out, check the work board or ask the trainer:</p> <ul> <li>Which horse you ride</li> <li>Which track and which direction</li> <li>What paces and distances: for example walk, trot, canter, then a faster piece of work</li> <li>Whether you work alone or alongside another horse (\"in company\")</li> <li>Any special notes: the horse pulls, shies, or must be kept on the inside</li> </ul> <p>If you do not understand, ask. Never guess.</p> <h4>Protective equipment</h4> <ul> <li>A certified skull cap (helmet), done up</li> <li>A body protector (safety vest)</li> <li>Boots with a heel, and gloves</li> <li>Goggles where sand is kicked back</li> </ul> <h4>Checking the horse and tack</h4> <ol> <li>Check the girth and surcingle are tight and the saddle is in place.</li> <li>Check the bridle, bit, reins and any special gear.</li> <li>Adjust your stirrups to the length you need for the work.</li> <li>Look for any sign of lameness as the horse walks out of the yard. Report it to the trainer before the horse works.</li> </ol> <h4>Track rules</h4> <p>Every training track has rules set by the training centre. Common ones are:</p> <ul> <li>Enter and leave the track only at marked gates.</li> <li>Walk and trot on the outside; faster work on the inside, or as the centre rules state.</li> <li>Keep to the set direction of travel.</li> <li>Never stop or turn suddenly on the track.</li> <li>Look and listen before crossing or entering.</li> <li>Follow the instructions of track officials.</li> </ul>"
+  },
+  {
+   "title": "Riding the paces and finishing the work",
+   "minutes": 15,
+   "html": "<h3>Paces on the track</h3> <table><tr><th>Pace</th><th>Purpose</th><th>Rider</th></tr> <tr><td>Walk</td><td>Warm up and cool down</td><td>Relaxed, long rein but in control</td></tr> <tr><td>Trot</td><td>Loosen muscles</td><td>Rising trot or standing in short stirrups</td></tr> <tr><td>Canter (slow work)</td><td>Build stamina</td><td>Two-point position, steady even rhythm</td></tr> <tr><td>Faster work (half-speed, gallop work as instructed)</td><td>Build speed and fitness</td><td>Shorter stirrups, balanced over the withers, steady contact</td></tr></table> <h4>Controlling the pace</h4> <p>The trainer often gives the work as distances and a speed, for example \"canter 1 600 m steady, then 600 m half-speed\". Use the furlong markers or distance poles to know where you are. Keep an even rhythm; do not let the horse pull you faster than instructed. A horse that goes too fast in work can get tired, injured or \"leave its race on the track\".</p> <h4>Using the bridge</h4> <p>Work riders often hold the reins in a bridge: the reins crossed over the horse's neck so that both hands hold both reins, giving a stable support. Press the bridge onto the neck to steady a horse that pulls. Do not jerk the mouth.</p> <h4>Working in company</h4> <p>When two horses work together, keep the distance the trainer wants: upsides (side by side) or a set length behind. Talk to the other rider. Do not cut across in front of another horse.</p> <h4>Pulling up</h4> <ol> <li>At the end of the work, look behind before you move off the line.</li> <li>Pull up gradually over a long distance, not suddenly.</li> <li>Move to the outside rail as the track rules state.</li> <li>Walk until the horse's breathing settles.</li> </ol> <h4>After the work</h4> <p>Report to the trainer: how the horse went, whether it blew hard, pulled, changed legs, hung to one side, or felt uneven. This information helps the trainer plan. Check the legs after the horse is washed down.</p> <h4>Emergencies</h4> <p>If a horse goes lame on the track, pull up safely and get off if needed. If you fall, stay down and keep your arms over your head until loose horses have passed, unless you are in danger. Report every incident.</p> <h4>Key points</h4> <ul> <li>Get exact instructions on horse, track, paces and distances before you ride.</li> <li>Always wear a skull cap and body protector.</li> <li>Follow track rules: marked gates, direction, no sudden stops.</li> <li>Use distance markers and keep an even rhythm at the set pace.</li> <li>Pull up gradually and report how the horse went to the trainer.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What protective equipment must a work rider wear?",
+   "options": [
+    {
+     "text": "A cap and sandals",
+     "correct": false
+    },
+    {
+     "text": "A certified skull cap and body protector",
+     "correct": true
+    },
+    {
+     "text": "Only gloves",
+     "correct": false
+    },
+    {
+     "text": "A raincoat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You do not understand the trainer's instructions. What should you do?",
+   "options": [
+    {
+     "text": "Guess",
+     "correct": false
+    },
+    {
+     "text": "Ask",
+     "correct": true
+    },
+    {
+     "text": "Ride as fast as possible",
+     "correct": false
+    },
+    {
+     "text": "Skip the work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What helps you know how far you have gone on the track?",
+   "options": [
+    {
+     "text": "The sun",
+     "correct": false
+    },
+    {
+     "text": "Furlong markers or distance poles",
+     "correct": true
+    },
+    {
+     "text": "Other riders shouting",
+     "correct": false
+    },
+    {
+     "text": "Your watch alarm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you pull up after fast work?",
+   "options": [
+    {
+     "text": "Suddenly in the middle of the track",
+     "correct": false
+    },
+    {
+     "text": "Gradually, after looking behind",
+     "correct": true
+    },
+    {
+     "text": "By turning sharply",
+     "correct": false
+    },
+    {
+     "text": "By jumping off",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a bridge?",
+   "options": [
+    {
+     "text": "A track crossing",
+     "correct": false
+    },
+    {
+     "text": "Reins crossed over the neck so both hands hold both reins",
+     "correct": true
+    },
+    {
+     "text": "A type of bit",
+     "correct": false
+    },
+    {
+     "text": "A horse box ramp",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Letting a horse go faster than instructed in work is good for its fitness.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "After work, the rider should report to the trainer how the horse went.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common training track rules? (select all that apply)",
+   "options": [
+    {
+     "text": "Enter and leave only at marked gates",
+     "correct": true
+    },
+    {
+     "text": "Keep to the set direction",
+     "correct": true
+    },
+    {
+     "text": "Never stop or turn suddenly",
+     "correct": true
+    },
+    {
+     "text": "Ride in any direction you like",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

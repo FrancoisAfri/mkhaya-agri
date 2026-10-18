@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114346",
+ "title": "Handle effluent",
+ "lessons": [
+  {
+   "title": "What effluent is",
+   "minutes": 15,
+   "html": "<h3>Dirty water from the abattoir</h3><p><strong>Effluent</strong> is the dirty water that comes out of the abattoir. It has blood, fat, dung, stomach contents, hair and cleaning chemicals in it.</p><p>Effluent is dangerous:</p><ul><li>It has germs that make people and animals sick.</li><li>It smells and brings flies and rats.</li><li>It kills fish and plants if it goes into a river.</li><li>It can block drains and pipes.</li></ul><p>The abattoir must not let effluent go into rivers or onto the veld. The National Water Act 36 of 1998 protects water. The town also has rules for what may go into its sewers.</p><h4>Where effluent comes from</h4><ul><li>The bleeding area: blood.</li><li>The gut room: dung and stomach contents.</li><li>Washing of carcasses, floors, crates and trucks.</li><li>Lairages (pens where animals wait): dung and urine.</li></ul><h4>Less waste in the water</h4><p>The best way to handle effluent is to keep waste <strong>out</strong> of the water.</p><ul><li>Collect blood in the blood tank. Do not hose it into the drain.</li><li>Scrape dung, fat and meat pieces off the floor first. Put them in the right bin.</li><li>Then wash the floor.</li><li>Close taps and hoses when you are not using them.</li></ul><h4>Save water</h4><p>Clean water costs money. Do not leave hoses running. Use the right nozzle. Report leaking taps and pipes. Less water used also means less effluent to treat.</p><p>Effluent is everyone's job. When every worker keeps waste out of the drains, the abattoir saves money and protects the environment. Ask your supervisor where each kind of waste must go.</p>"
+  },
+  {
+   "title": "Screens, traps and drains",
+   "minutes": 15,
+   "html": "<h3>Cleaning the water before it leaves</h3><p>The abattoir has equipment to take solids out of the effluent.</p><h4>Floor drains and grids</h4><ul><li>Drains have grids or baskets on top. They catch big pieces.</li><li>Empty the baskets often. Put the waste in the right bin.</li><li>Never take off the grid to push waste down the drain.</li></ul><h4>Screens</h4><ul><li>A screen is like a big sieve. It catches hair, stomach contents and small pieces.</li><li>Clean the screen as often as you are told. A blocked screen makes the water overflow.</li><li>Put the solids from the screen in the bin or skip for them.</li></ul><h4>Fat traps</h4><ul><li>Fat floats on top of the water in the fat trap.</li><li>Scoop or skim off the fat as your supervisor shows you.</li><li>Put the fat in the fat container. Never pour it down the drain.</li></ul><h4>Check and report</h4><p>Tell your supervisor at once if you see:</p><ul><li>Water overflowing from a drain, screen or trap.</li><li>A blocked pipe.</li><li>Effluent running onto the ground or towards a river.</li><li>A very bad smell that is new.</li><li>Broken equipment.</li></ul><p>Write down what you cleaned and when, on the form your abattoir uses.</p><p>Keep the area around screens and traps clean and tidy. Spilt waste attracts flies and rats.</p><h4>Cleaning schedule</h4><p>Your supervisor will give you a schedule. It tells you which drains, screens and traps to clean, and how often. Follow it every day. Sign the form after you finish each job.</p>"
+  },
+  {
+   "title": "Working safely with effluent",
+   "minutes": 15,
+   "html": "<h3>Protect yourself</h3><p>Effluent has germs. Always wear your protective clothing:</p><ul><li>Rubber boots.</li><li>Waterproof apron or overall.</li><li>Long rubber gloves.</li><li>Goggles or a face shield when you might get splashed.</li></ul><h4>Hygiene</h4><ul><li>Wash your hands with soap after work and before you eat.</li><li>Do not touch your mouth, eyes or face with dirty gloves.</li><li>Cover cuts with a waterproof plaster.</li><li>Wash your boots at the boot wash before you go into a clean area.</li><li>Do not wear your effluent clothes in the meat areas.</li></ul><h4>Dangers</h4><ul><li><strong>Slipping:</strong> floors are wet and greasy. Walk carefully.</li><li><strong>Pits and tanks:</strong> never go into a pit, sump or tank. Dangerous gases can collect there and kill you in a short time. Only trained people with special equipment may enter.</li><li><strong>Do not try to rescue someone in a pit by going in yourself.</strong> Call for help and raise the alarm.</li><li><strong>Chemicals:</strong> cleaning chemicals can burn. Use them only as you were trained. Never mix chemicals.</li><li><strong>Lifting:</strong> bins of wet waste are heavy. Use a trolley or ask for help.</li></ul><h4>If something goes wrong</h4><p>If effluent splashes into your eyes, rinse them with clean running water for a long time and tell your supervisor. If you feel sick after work, see the clinic and say you work with effluent.</p><h4>Key points</h4><ul><li>Effluent is dirty water with blood, fat, dung and chemicals.</li><li>Keep waste out of the water: collect blood and scrape floors first.</li><li>Clean grids, screens and fat traps often and report overflows.</li><li>Always wear boots, apron, gloves and eye protection.</li><li>Never go into a pit or tank; call for help.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is effluent?",
+   "options": [
+    {
+     "text": "Clean drinking water",
+     "correct": false
+    },
+    {
+     "text": "Dirty water from the abattoir with blood, fat, dung and chemicals",
+     "correct": true
+    },
+    {
+     "text": "Meat for sale",
+     "correct": false
+    },
+    {
+     "text": "Animal feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should blood be collected?",
+   "options": [
+    {
+     "text": "In the floor drain",
+     "correct": false
+    },
+    {
+     "text": "In the blood tank",
+     "correct": true
+    },
+    {
+     "text": "In the river",
+     "correct": false
+    },
+    {
+     "text": "On the veld",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before washing the floor?",
+   "options": [
+    {
+     "text": "Scrape dung, fat and meat pieces off and put them in the right bin",
+     "correct": true
+    },
+    {
+     "text": "Pour fat down the drain",
+     "correct": false
+    },
+    {
+     "text": "Remove the drain grids",
+     "correct": false
+    },
+    {
+     "text": "Leave all the taps open",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a worker has fallen into a pit?",
+   "options": [
+    {
+     "text": "Climb in to pull them out",
+     "correct": false
+    },
+    {
+     "text": "Call for help and raise the alarm; do not go in yourself",
+     "correct": true
+    },
+    {
+     "text": "Wait until the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Throw water into the pit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with fat from the fat trap?",
+   "options": [
+    {
+     "text": "Pour it down the drain",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the trap",
+     "correct": false
+    },
+    {
+     "text": "Put it in the fat container",
+     "correct": true
+    },
+    {
+     "text": "Spread it on the floor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dangerous gases can collect in pits and tanks.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to wear your effluent clothes in the meat areas.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must you tell your supervisor about at once? (select all that apply)",
+   "options": [
+    {
+     "text": "Water overflowing from a drain or trap",
+     "correct": true
+    },
+    {
+     "text": "Effluent running towards a river",
+     "correct": true
+    },
+    {
+     "text": "A blocked pipe",
+     "correct": true
+    },
+    {
+     "text": "A clean, working screen",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

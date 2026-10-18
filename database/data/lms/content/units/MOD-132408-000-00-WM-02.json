@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-WM-02",
+ "title": "Staff Management and Leadership in a Grain Handling and Storage Environment",
+ "lessons": [
+  {
+   "title": "Leading people on site",
+   "minutes": 18,
+   "html": "<h3>Work experience focus</h3>\n<p>In this module you lead staff in a working depot under the guidance of your mentor. You will plan staffing, lead shifts, manage performance and conduct and develop people. Evidence includes rosters, briefing records, performance discussions, training plans and mentor observations.</p>\n<h4>Staffing for the season</h4>\n<ul>\n<li>Work out staff needs from the season plan and draw up rosters that cover peak intake while respecting working-hour limits, rest periods and overtime rules under the Basic Conditions of Employment Act 75 of 1997.</li>\n<li>Take part in recruiting seasonal staff: fair selection, clear fixed-term contracts and induction.</li>\n<li>Match people to roles using the skills matrix; keep critical roles (graders, control room, fumigation) staffed by competent, authorised people.</li>\n</ul>\n<h4>Leading a shift</h4>\n<ol>\n<li>Start with a briefing: safety message, intake plan, bin allocations, roles.</li>\n<li>Be visible on site; check high-risk activities such as bin cleaning permits and fumigation exclusion zones.</li>\n<li>Support staff when problems arise; make decisions and explain them.</li>\n<li>End with a handover and a word of thanks.</li>\n</ol>\n<h4>Leadership styles</h4>\n<p>Good leaders adapt their style. With a new seasonal worker, give clear instructions and close supervision. With an experienced grader, discuss and delegate. In an emergency, be directive. Over time, aim to build a team that can take responsibility with less supervision.</p>\n<h4>Building trust</h4>\n<p>Trust grows when leaders are consistent, keep promises, listen, treat everyone with respect regardless of race, gender, language or union membership, and admit mistakes. In a depot where many workers return every season, a reputation for fair leadership attracts the best people back.</p>"
+  },
+  {
+   "title": "Performance, discipline and development in practice",
+   "minutes": 18,
+   "html": "<h3>Managing performance</h3>\n<p>Agree standards with each team member, monitor using objective data and give regular feedback. Practise holding at least one formal performance discussion with your mentor's support:</p>\n<ol>\n<li>Prepare facts and examples.</li>\n<li>Start with what is going well.</li>\n<li>Describe any gaps clearly and listen to the employee's view.</li>\n<li>Agree actions, support and a review date.</li>\n<li>Record the discussion.</li>\n</ol>\n<h3>Handling conduct issues</h3>\n<p>You may face late-coming, absenteeism, safety rule breaches or dishonesty. Apply the disciplinary code consistently with the Labour Relations Act 66 of 1995: investigate, choose the right level of action, follow a fair procedure and record everything. Involve HR for serious cases. Act quickly; delays make discipline less effective and less fair.</p>\n<h3>Handling grievances and conflict</h3>\n<p>Listen to complaints seriously and follow the grievance procedure. For conflict between staff, meet with those involved, focus on the issue rather than personalities, agree on behaviour going forward and follow up.</p>\n<h3>Developing people</h3>\n<ul>\n<li>Identify training needs from the skills matrix and performance discussions.</li>\n<li>Arrange on-the-job coaching, for example a sampler shadowing a grader.</li>\n<li>Support staff in formal qualifications and record training for the workplace skills plan under the Skills Development Act 97 of 1998.</li>\n<li>Plan succession for key roles so the depot is not dependent on one person.</li>\n</ul>\n<h3>Wellbeing</h3>\n<p>Watch for fatigue, heat stress and personal difficulties during long seasons. Provide water, shade and breaks, and refer staff to support services where available.</p>\n<h3>Reflection</h3>\n<p>Keep a leadership journal: situations you handled, what you did, what happened and what you would do differently. Discuss it with your mentor.</p>\n<h4>Key points</h4>\n<ul>\n<li>Plan rosters and recruitment within labour law and keep critical roles staffed by competent people.</li>\n<li>Lead shifts with briefings, visibility, support and handovers.</li>\n<li>Adapt leadership style to the person and situation and build trust.</li>\n<li>Manage performance with facts and feedback; manage conduct through a fair, consistent process.</li>\n<li>Develop people, plan succession, look after wellbeing and reflect on your leadership.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which leadership style suits a new seasonal worker?",
+   "options": [
+    {
+     "text": "No supervision",
+     "correct": false
+    },
+    {
+     "text": "Only written instructions",
+     "correct": false
+    },
+    {
+     "text": "Clear instructions and close supervision",
+     "correct": true
+    },
+    {
+     "text": "Full delegation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law sets working-hour limits and overtime rules for rosters?",
+   "options": [
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "Basic Conditions of Employment Act 75 of 1997",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a performance discussion start with?",
+   "options": [
+    {
+     "text": "A warning",
+     "correct": false
+    },
+    {
+     "text": "What is going well",
+     "correct": true
+    },
+    {
+     "text": "The disciplinary code",
+     "correct": false
+    },
+    {
+     "text": "Salary cuts",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should discipline be applied quickly?",
+   "options": [
+    {
+     "text": "Delays make discipline less effective and less fair",
+     "correct": true
+    },
+    {
+     "text": "To avoid a hearing",
+     "correct": false
+    },
+    {
+     "text": "It should not be quick",
+     "correct": false
+    },
+    {
+     "text": "To save paper",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why plan succession for key roles?",
+   "options": [
+    {
+     "text": "It is not useful",
+     "correct": false
+    },
+    {
+     "text": "So the depot is not dependent on one person",
+     "correct": true
+    },
+    {
+     "text": "To reduce training",
+     "correct": false
+    },
+    {
+     "text": "To replace everyone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Trust grows when leaders are consistent and keep promises.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In conflict between staff, the leader should focus on personalities rather than the issue.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to develop depot staff? (select all that apply)",
+   "options": [
+    {
+     "text": "Never giving feedback",
+     "correct": false
+    },
+    {
+     "text": "Shadowing experienced colleagues",
+     "correct": true
+    },
+    {
+     "text": "On-the-job coaching",
+     "correct": true
+    },
+    {
+     "text": "Supporting formal qualifications",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

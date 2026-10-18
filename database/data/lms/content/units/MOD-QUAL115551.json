@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-QUAL115551",
+ "title": "Diploma in Wildlife Management",
+ "lessons": [
+  {
+   "title": "Wildlife management in the South African context",
+   "minutes": 18,
+   "html": "<h3>The wildlife sector</h3>\n<p>The Diploma in Wildlife Management (NQF 6) prepares practitioners for the South African game ranching and conservation sector. This includes national and provincial parks, private reserves, conservancies, game ranches and community conservation areas. Wildlife managers protect biodiversity while enabling sustainable use.</p>\n<h4>Core knowledge areas</h4>\n<ul><li><strong>Ecology</strong>: how plants, animals, soil, water and fire interact. South Africa's biomes include savanna, grassland, Nama-Karoo, Succulent Karoo, fynbos, forest and thicket, each with its own management needs.</li>\n<li><strong>Wildlife identification and behaviour</strong>: mammals, birds, reptiles and key plants, including tracks and signs.</li>\n<li><strong>Population monitoring</strong>: aerial counts, road counts, camera traps, call-up surveys for predators.</li>\n<li><strong>Habitat management</strong>: fire, alien plant control, bush encroachment, erosion, water provision.</li>\n<li><strong>Animal health and capture</strong>: working with vets on immobilisation, translocation and disease testing.</li></ul>\n<h4>Conservation versus utilisation</h4>\n<p>Protected areas focus mainly on conserving biodiversity, while game ranches focus on sustainable utilisation such as hunting, live sales and tourism. In practice the two overlap. Biodiversity stewardship programmes allow private and communal land to be declared protected under the National Environmental Management: Protected Areas Act 57 of 2003 while landowners keep ownership. Wildlife economy projects aim to bring benefits to rural communities through employment, game donations and community-owned reserves.</p>\n<h4>Threats to wildlife</h4>\n<ul><li>Habitat loss and fragmentation from farming, mining and settlements.</li>\n<li>Poaching, especially of rhino, and bushmeat snaring.</li>\n<li>Human-wildlife conflict: predators killing livestock, elephants damaging crops.</li>\n<li>Alien invasive species and diseases.</li>\n<li>Climate change and drought.</li></ul>"
+  },
+  {
+   "title": "Practical management and compliance",
+   "minutes": 16,
+   "html": "<h3>Day-to-day management</h3>\n<p>Wildlife managers combine field work with planning and administration. Typical tasks:</p>\n<ul><li>Fence and road patrols and maintenance.</li>\n<li>Monitoring waterpoints, veld condition and animal condition.</li>\n<li>Recording sightings, mortalities and births in a database.</li>\n<li>Supervising field staff and anti-poaching teams.</li>\n<li>Arranging game captures and sales with permits.</li>\n<li>Managing burns under a fire plan with firebreaks and fire protection association rules.</li></ul>\n<h4>Human-wildlife conflict</h4>\n<p>Conflict reduces support for conservation. Practical responses include predator-proof kraals and livestock guarding dogs or Anatolian shepherds for neighbouring farmers, early warning systems, maintenance of electrified fences, and compensation or incentive schemes. Damage-causing animals must be handled according to the provincial norms and permits, not by poisoning, which kills non-target species such as vultures.</p>\n<h4>Statutory compliance</h4>\n<table><tr><th>Area</th><th>Law or instrument</th></tr>\n<tr><td>Protected and threatened species</td><td>Biodiversity Act 10 of 2004 and TOPS regulations</td></tr>\n<tr><td>Protected areas</td><td>Protected Areas Act 57 of 2003</td></tr>\n<tr><td>Environmental authorisation</td><td>NEMA 107 of 1998</td></tr>\n<tr><td>Hunting, keeping and transporting game</td><td>Provincial conservation laws</td></tr>\n<tr><td>Animal diseases</td><td>Animal Diseases Act 35 of 1984</td></tr>\n<tr><td>Firearms</td><td>Firearms Control Act 60 of 2000</td></tr>\n<tr><td>International trade</td><td>CITES through national regulations</td></tr></table>\n<h4>Safety in the field</h4>\n<p>Field work brings risks from dangerous animals, snakes, heat, lightning and vehicles. Always tell someone your route, carry water and a radio or phone, never approach elephants or buffalo on foot without a trained armed guide, and follow the OHS Act 85 of 1993 safety rules of your employer.</p>\n<h4>Key points</h4>\n<ul><li>Wildlife managers protect biodiversity while enabling sustainable use.</li>\n<li>Core skills include ecology, identification, monitoring, habitat management and animal health.</li>\n<li>Biodiversity stewardship lets private land be protected while owners keep ownership.</li>\n<li>Manage human-wildlife conflict without poisoning.</li>\n<li>Comply with national and provincial wildlife laws and work safely in the field.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which programme allows private land to be declared protected while owners keep ownership?",
+   "options": [
+    {
+     "text": "Meat classification",
+     "correct": false
+    },
+    {
+     "text": "Land expropriation",
+     "correct": false
+    },
+    {
+     "text": "Biodiversity stewardship",
+     "correct": true
+    },
+    {
+     "text": "Stock theft prevention",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a major threat to rhino?",
+   "options": [
+    {
+     "text": "Newcastle disease",
+     "correct": false
+    },
+    {
+     "text": "Wire-worm",
+     "correct": false
+    },
+    {
+     "text": "Overfeeding",
+     "correct": false
+    },
+    {
+     "text": "Poaching",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is poisoning damage-causing animals unacceptable?",
+   "options": [
+    {
+     "text": "It is too expensive",
+     "correct": false
+    },
+    {
+     "text": "It kills non-target species such as vultures",
+     "correct": true
+    },
+    {
+     "text": "It works too slowly",
+     "correct": false
+    },
+    {
+     "text": "It is only allowed on Sundays",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which practical measure helps neighbouring farmers reduce predator losses?",
+   "options": [
+    {
+     "text": "Leaving kraals open at night",
+     "correct": false
+    },
+    {
+     "text": "Removing fences",
+     "correct": false
+    },
+    {
+     "text": "Predator-proof kraals and livestock guarding dogs",
+     "correct": true
+    },
+    {
+     "text": "Feeding predators",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law requires environmental authorisation for some developments?",
+   "options": [
+    {
+     "text": "Performing Animals Protection Act 24 of 1935",
+     "correct": false
+    },
+    {
+     "text": "Stock Theft Act 57 of 1959",
+     "correct": false
+    },
+    {
+     "text": "NEMA 107 of 1998",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fynbos and savanna are both South African biomes with their own management needs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to approach buffalo on foot without a trained armed guide if you move quietly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are threats to wildlife in South Africa? (select all that apply)",
+   "options": [
+    {
+     "text": "Alien invasive species",
+     "correct": true
+    },
+    {
+     "text": "Biodiversity stewardship",
+     "correct": false
+    },
+    {
+     "text": "Human-wildlife conflict",
+     "correct": true
+    },
+    {
+     "text": "Habitat loss and fragmentation",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

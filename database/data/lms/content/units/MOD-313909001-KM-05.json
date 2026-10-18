@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-313909001-KM-05",
+ "title": "Operational management for Feed Millers",
+ "lessons": [
+  {
+   "title": "Planning production",
+   "minutes": 18,
+   "html": "<h3>The feed mill as an operation</h3>\n<p>Operational management turns customer orders and forecasts into feed delivered on time, at the right quality and lowest reasonable cost. The feed miller links sales, procurement, production, quality, maintenance and dispatch.</p>\n<h4>Demand and production planning</h4>\n<ol>\n<li>Collect orders and forecasts by product, for example broiler starter crumbles, layer mash and dairy pellets.</li>\n<li>Check finished goods stock and set target stock levels for fast-moving products.</li>\n<li>Calculate the tonnes needed per product for the week.</li>\n<li>Check capacity: tonnes per hour for grinding, mixing, pelleting and packing, minus planned maintenance.</li>\n<li>Sequence production to reduce changeovers and contamination risk (for example non-medicated before medicated, and flushing where required).</li>\n<li>Issue a daily plan to each shift.</li>\n</ol>\n<p>The bottleneck is often the pellet press. If the plan needs 600 tonnes of pellets in a week but the presses can only make 500 tonnes in the available hours, the plan must change: extra shifts, moving some product to mash, or agreeing delivery dates with customers.</p>\n<h4>Raw material planning</h4>\n<p>Work with procurement to ensure enough maize, oilcakes, minerals and premixes for the plan, considering lead times, silo capacity and price strategy. Track days of cover for each ingredient. Running out of one minor ingredient such as a premix can stop the whole mill.</p>\n<h4>Capacity and efficiency measures</h4>\n<ul>\n<li>Overall equipment effectiveness (OEE) = availability x performance x quality.</li>\n<li>Tonnes per hour per line and per shift.</li>\n<li>Energy use (kWh per tonne) and steam use.</li>\n<li>Yield: tonnes of finished feed versus tonnes of raw materials issued.</li>\n</ul>"
+  },
+  {
+   "title": "Controlling costs, stock and people",
+   "minutes": 18,
+   "html": "<h3>Cost control</h3>\n<p>Raw materials make up most of the cost of feed, so small losses matter. Track the main cost drivers:</p>\n<table>\n<tr><th>Cost</th><th>Control</th></tr>\n<tr><td>Raw materials</td><td>Accurate weighing, stock control, reducing shrinkage and spillage</td></tr>\n<tr><td>Energy</td><td>Running equipment loaded, maintaining hammer mill screens and dies, managing peak tariffs</td></tr>\n<tr><td>Labour</td><td>Right crew size for the plan, overtime control</td></tr>\n<tr><td>Maintenance</td><td>Preventive maintenance to avoid expensive breakdowns</td></tr>\n<tr><td>Packaging</td><td>Bag usage reconciled to tonnes packed</td></tr>\n</table>\n<h3>Stock control and reconciliation</h3>\n<p>Do a regular stock take of silos, bins, warehouse and finished goods. Reconcile: opening stock + receipts - usage - dispatches = expected closing stock. Compare with the physical count. Investigate differences beyond the accepted tolerance: weighbridge errors, moisture loss, wrong batch records, theft or unrecorded rework. Use first-expired-first-out for raw materials and finished feed, and watch shelf life of premixes and vitamins.</p>\n<h3>Managing teams</h3>\n<p>Organise shifts with competent operators for each section and a shift supervisor in charge. Make sure workers are trained and authorised for their machines. Hold daily production meetings to review yesterday's performance, today's plan, safety issues and maintenance needs. Use a skills matrix to identify gaps and plan training.</p>\n<h3>Maintenance coordination</h3>\n<p>Plan preventive maintenance with the maintenance team into the production schedule, such as hammer mill screen changes, pellet die and roller changes, and elevator belt inspections. Breakdowns cost production, overtime and sometimes quality.</p><p>Track the cost of each section separately where possible, for example grinding, pelleting and packing. This shows where conversion costs are rising and allows targeted action rather than broad cost cutting that may harm quality or safety.</p>"
+  },
+  {
+   "title": "Performance reporting and improvement",
+   "minutes": 18,
+   "html": "<h3>Key performance indicators</h3>\n<p>Report weekly and monthly on a small set of indicators that show how the operation is doing:</p>\n<ul>\n<li>Plan achievement (tonnes produced versus plan).</li>\n<li>On-time, in-full deliveries to customers.</li>\n<li>Production cost per tonne, split into conversion costs and raw materials.</li>\n<li>Pellet quality (durability and fines) and batch accuracy.</li>\n<li>Customer complaints and product recalls or holds.</li>\n<li>Lost-time injuries and near misses.</li>\n<li>Stock variance.</li>\n</ul>\n<h3>Analysing problems</h3>\n<p>When an indicator goes off target, find the root cause rather than blaming people. Tools include the \"5 whys\", fishbone diagrams (people, methods, machines, materials, measurement, environment) and Pareto charts of downtime causes. For example, a Pareto chart may show that 60 percent of downtime comes from chokes at one elevator; fixing that one problem gives the biggest gain.</p>\n<h3>Continuous improvement</h3>\n<p>Use the plan-do-check-act cycle. Plan a change, try it, check the results with data, then standardise it in work instructions if it works. Involve operators: they know where the daily losses are. Small daily improvements add up to large cost savings over a year.</p>\n<h3>Working with other departments</h3>\n<p>The feed miller must work closely with sales (to understand customer needs), procurement (raw materials), quality (specifications and releases), maintenance, finance (budgets and costing) and SHEQ. Regular cross-department meetings prevent surprises, such as a large order arriving when a press is scheduled for a rebuild.</p>\n<h4>Key points</h4>\n<ul>\n<li>Plan production from orders, stock targets and real capacity, and identify the bottleneck.</li>\n<li>Track raw material days of cover; a missing minor ingredient can stop the mill.</li>\n<li>Control costs through accurate weighing, energy management and preventive maintenance.</li>\n<li>Reconcile stock regularly and investigate variances.</li>\n<li>Report a small set of KPIs and use root-cause analysis and plan-do-check-act to improve.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is often the bottleneck in a pelleted feed mill?",
+   "options": [
+    {
+     "text": "The canteen",
+     "correct": false
+    },
+    {
+     "text": "The pellet press",
+     "correct": true
+    },
+    {
+     "text": "The office printer",
+     "correct": false
+    },
+    {
+     "text": "The weighbridge",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is overall equipment effectiveness (OEE) calculated?",
+   "options": [
+    {
+     "text": "Energy x labour",
+     "correct": false
+    },
+    {
+     "text": "Availability x performance x quality",
+     "correct": true
+    },
+    {
+     "text": "Tonnes divided by workers",
+     "correct": false
+    },
+    {
+     "text": "Sales minus costs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the stock reconciliation formula?",
+   "options": [
+    {
+     "text": "Receipts x price",
+     "correct": false
+    },
+    {
+     "text": "Usage + dispatches = receipts",
+     "correct": false
+    },
+    {
+     "text": "Closing stock - opening stock = sales",
+     "correct": false
+    },
+    {
+     "text": "Opening stock + receipts - usage - dispatches = expected closing stock",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A Pareto chart shows most downtime comes from one elevator. What should you do?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Replace all equipment",
+     "correct": false
+    },
+    {
+     "text": "Focus improvement on that elevator first",
+     "correct": true
+    },
+    {
+     "text": "Stop recording downtime",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should production be sequenced (for example non-medicated before medicated)?",
+   "options": [
+    {
+     "text": "To confuse operators",
+     "correct": false
+    },
+    {
+     "text": "To increase rework",
+     "correct": false
+    },
+    {
+     "text": "To use more energy",
+     "correct": false
+    },
+    {
+     "text": "To reduce contamination risk and changeovers",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Running out of a minor ingredient such as a premix can stop the whole mill.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Root-cause analysis means finding the person to blame.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are useful KPIs for a feed mill? (select all that apply)",
+   "options": [
+    {
+     "text": "Production cost per tonne",
+     "correct": true
+    },
+    {
+     "text": "On-time, in-full deliveries",
+     "correct": true
+    },
+    {
+     "text": "Number of parking bays",
+     "correct": false
+    },
+    {
+     "text": "Lost-time injuries",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

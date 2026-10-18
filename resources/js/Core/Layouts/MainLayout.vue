@@ -207,7 +207,7 @@ const impersonating = computed(() => (page.props as any).impersonating)
 const systemLogo = computed(() => (page.props as any).branding?.system_logo || '/images/logo_default.png')
 // When white-label is on, the company's own name (from Settings › Company Identity)
 // replaces the product name beside the logo.
-const systemName = computed(() => (page.props as any).branding?.system_name || 'MKHAYA HUB')
+const systemName = computed(() => (page.props as any).branding?.system_name || 'MKHAYA AGRI')
 function stopImpersonating() { userMenuOpen.value = false; useForm({}).post(route('tenancy.stop-impersonating')) }
 
 // ── Theme: apply saved DB settings on load ──────────────────────────────────

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264178",
+ "title": "Clean interior plants",
+ "lessons": [
+  {
+   "title": "Why and when to clean interior plants",
+   "minutes": 15,
+   "html": "<h3>Clean leaves, healthy plants</h3>\n<p>Plants in offices, malls and hotels collect dust. Dust on leaves blocks light, so the plant makes less food. Dusty leaves also look bad, and clients pay for plants that look good. Cleaning is a normal part of every service visit by an interior plant technician.</p>\n<h4>What you clean off</h4>\n<ul><li>Dust and dirt</li>\n<li>Water marks and hard-water spots</li>\n<li>Cobwebs</li>\n<li>Dead and yellow leaves, old flowers</li>\n<li>Litter in the pot, such as paper, cigarette ends and coffee</li>\n<li>Pests such as mealybug and scale (report these)</li></ul>\n<h4>How often</h4>\n<p>Most sites are serviced weekly or every two weeks. Dust large-leaved plants at each visit. Your supervisor or the service schedule tells you which sites and plants to do.</p>\n<h4>Equipment</h4>\n<ul><li>Soft clean cloths or sponges</li>\n<li>A bucket of clean, lukewarm water</li>\n<li>A soft brush or feather duster for hairy or fine leaves</li>\n<li>Sharp, clean scissors or secateurs</li>\n<li>A refuse bag</li>\n<li>A drop sheet to protect carpets and floors</li>\n<li>Leaf shine only if your company allows it and the product label says it is safe for that plant</li></ul>\n<h4>Working in a client's building</h4>\n<p>You are a guest. Sign in at reception, wear your uniform and name tag, and be polite. Work quietly. Do not use the client's phones or kitchens unless allowed. Leave the area cleaner than you found it.</p>"
+  },
+  {
+   "title": "Cleaning step by step",
+   "minutes": 15,
+   "html": "<h3>Steps for cleaning a plant</h3>\n<ol><li><strong>Protect the area.</strong> Put a drop sheet down if you will be trimming or washing.</li>\n<li><strong>Inspect.</strong> Look at the whole plant, top and underneath leaves. Check for pests, disease and soil moisture.</li>\n<li><strong>Remove dead material.</strong> Pull off yellow and dead leaves gently, or cut them at the base. Cut brown tips following the natural leaf shape, leaving a thin brown edge so you do not cut into green tissue.</li>\n<li><strong>Dust smooth leaves.</strong> Hold each leaf from below with one hand. Wipe from the stem to the tip with a damp cloth. Support the leaf so it does not tear.</li>\n<li><strong>Brush fine or hairy leaves.</strong> African violets and some ferns must not be wiped; use a soft brush.</li>\n<li><strong>Clean the pot.</strong> Wipe the outside of the container. Remove litter from the soil surface. Top up decorative stones or mulch if needed.</li>\n<li><strong>Clean up.</strong> Pick up all leaves, wipe up spills and take the refuse bag with you.</li>\n<li><strong>Record.</strong> Note on the service sheet what you did and any problems, such as pests or a plant in decline.</li></ol>\n<h3>Things you must not do</h3>\n<ul><li>Do not use household polish, oil, milk or soap mixtures on leaves unless your company approves it. They can block leaf pores.</li>\n<li>Do not use cold water straight from a cold tap on tropical plants; it can mark leaves.</li>\n<li>Do not spray pesticides in a client's building unless you are trained, authorised and following the label and site rules. Report pests to your supervisor.</li>\n<li>Do not leave water on floors: someone may slip.</li></ul>\n<h3>Safety</h3>\n<ul><li>Use a safe step ladder for tall plants and ask a colleague to hold it.</li>\n<li>Wear gloves with plants whose sap irritates skin.</li></ul>\n<h4>Key points</h4>\n<ul><li>Dust blocks light; clean leaves help plants make food and look good.</li>\n<li>Inspect the whole plant and report pests.</li>\n<li>Support each leaf and wipe from stem to tip with a damp cloth.</li>\n<li>Use a soft brush on hairy leaves.</li>\n<li>Leave the client's area clean and dry, and record your work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is dust on leaves a problem?",
+   "options": [
+    {
+     "text": "It blocks light so the plant makes less food",
+     "correct": true
+    },
+    {
+     "text": "It adds fertiliser",
+     "correct": false
+    },
+    {
+     "text": "It keeps pests away",
+     "correct": false
+    },
+    {
+     "text": "It makes the plant grow faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which way should you wipe a smooth leaf?",
+   "options": [
+    {
+     "text": "From the tip to the stem, pressing hard",
+     "correct": false
+    },
+    {
+     "text": "In circles without supporting the leaf",
+     "correct": false
+    },
+    {
+     "text": "From the stem to the tip while supporting the leaf",
+     "correct": true
+    },
+    {
+     "text": "Only the top half",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should hairy leaves like African violets be cleaned?",
+   "options": [
+    {
+     "text": "Wiped with a wet cloth",
+     "correct": false
+    },
+    {
+     "text": "With a soft brush",
+     "correct": true
+    },
+    {
+     "text": "With leaf shine",
+     "correct": false
+    },
+    {
+     "text": "With household polish",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When trimming a brown leaf tip, you should:",
+   "options": [
+    {
+     "text": "Cut straight across into green tissue",
+     "correct": false
+    },
+    {
+     "text": "Pull the leaf off",
+     "correct": false
+    },
+    {
+     "text": "Leave it",
+     "correct": false
+    },
+    {
+     "text": "Follow the natural leaf shape, leaving a thin brown edge",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you find mealybug on a client's plant?",
+   "options": [
+    {
+     "text": "Spray any chemical you have",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Record it and report it to your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Throw the plant away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Household furniture polish is a good leaf shine for all indoor plants.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should take the refuse bag with you and leave the client's area clean.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which items are part of the cleaning kit? (select all that apply)",
+   "options": [
+    {
+     "text": "Soft clean cloths",
+     "correct": true
+    },
+    {
+     "text": "A drop sheet",
+     "correct": true
+    },
+    {
+     "text": "A chainsaw",
+     "correct": false
+    },
+    {
+     "text": "Sharp clean scissors",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

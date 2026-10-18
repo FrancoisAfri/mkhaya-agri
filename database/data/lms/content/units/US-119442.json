@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119442",
+ "title": "Demonstrate basic understanding of the poultry production industry",
+ "lessons": [
+  {
+   "title": "The poultry industry in South Africa",
+   "minutes": 15,
+   "html": "<h3>A big industry that feeds the country</h3><p>Poultry is one of the biggest parts of farming in South Africa. Chicken is the meat that South Africans eat most, because it is affordable and easy to cook. Eggs are also a cheap, healthy source of protein. The industry gives jobs to many thousands of people on farms, in hatcheries, feed mills, abattoirs and shops.</p><h4>Two main parts</h4><ul><li><strong>Broiler industry</strong>: chickens grown for meat.</li><li><strong>Egg (layer) industry</strong>: hens kept to lay eggs for eating.</li></ul><h4>The production chain</h4><ol><li><strong>Breeding companies</strong> supply parent stock.</li><li><strong>Breeder farms</strong> keep parent hens and roosters to produce fertile eggs.</li><li><strong>Hatcheries</strong> hatch the eggs. Chicks hatch after about 21 days.</li><li><strong>Broiler farms</strong> grow chicks to slaughter weight in about five to six weeks.</li><li><strong>Layer farms</strong> rear pullets and keep hens that lay table eggs.</li><li><strong>Feed mills</strong> make feed from maize, soya, minerals and vitamins.</li><li><strong>Abattoirs</strong> slaughter and process broilers.</li><li><strong>Egg packing stations</strong> grade and pack eggs.</li><li><strong>Shops, butcheries and restaurants</strong> sell to consumers.</li></ol><h4>Who produces</h4><p>There are large companies that own many parts of the chain, and many medium and small farmers. Some small farmers sell live birds to local communities or grow broilers under contract for larger companies. The South African Poultry Association represents producers.</p><h4>Example</h4><p>A small farmer in KwaZulu-Natal may grow 2 000 broilers at a time and sell them live to the community, while a large company may grow millions of birds a week.</p><p>Each part of the chain depends on the others. If the feed mill stops, the farms cannot feed their birds.</p>"
+  },
+  {
+   "title": "Production systems",
+   "minutes": 15,
+   "html": "<h3>How chickens are kept</h3><h4>Broiler production</h4><p>Broilers are usually kept on the floor in closed or open-sided houses, on litter such as wood shavings. Day-old chicks arrive from the hatchery. The house is warmed for them. Workers give feed and water, control the temperature and air, and check the birds every day. After about five to six weeks the birds are caught and taken to the abattoir. The house is then cleaned and disinfected for the next flock. This is called <strong>all-in, all-out</strong>.</p><h4>Egg production</h4><p>Pullets are reared from day-old until about 16 to 18 weeks, then moved to laying houses. Hens are kept in:</p><ul><li><strong>Cages</strong>: hens live in cages, eggs roll out to be collected.</li><li><strong>Barn or free-range</strong>: hens move freely in a house, and free-range hens can also go outside.</li></ul><p>Eggs are collected every day, graded by size, packed and kept cool.</p><h4>Small-scale and village chickens</h4><p>Many families keep indigenous chickens, such as Potchefstroom Koekoek or village chickens, for eggs and meat. These birds are hardy but grow more slowly.</p><h4>Important jobs on a poultry farm</h4><ul><li>Feeding and checking water</li><li>Checking temperature and ventilation</li><li>Removing dead birds and writing records</li><li>Collecting eggs</li><li>Cleaning and disinfecting</li><li>Following biosecurity rules</li></ul><h4>Example</h4><p>A broiler worker's day starts with checking the birds, feed and water, removing dead birds and writing the numbers in the house record.</p><p>Workers on layer farms collect, sort and pack eggs, and check that hens are healthy. On every farm, workers clean and disinfect houses between flocks and follow biosecurity rules every day.</p>"
+  },
+  {
+   "title": "Rules, challenges and your role",
+   "minutes": 15,
+   "html": "<h3>Working well in the industry</h3><h4>Laws and rules</h4><ul><li><strong>Animal Diseases Act 35 of 1984</strong>: controls serious diseases such as avian influenza and Newcastle disease. Sudden deaths must be reported.</li><li><strong>Animals Protection Act 71 of 1962</strong>: animals must not be treated cruelly.</li><li><strong>Act 36 of 1947</strong>: feeds and stock remedies must be registered.</li><li><strong>Meat Safety Act 40 of 2000</strong>: for abattoirs.</li><li><strong>OHS Act 85 of 1993</strong>: worker health and safety.</li></ul><p>Customers such as supermarkets also check farms for food safety and animal welfare.</p><h4>Challenges</h4><ul><li><strong>Feed costs</strong>: maize and soya prices go up and down. Feed is the biggest cost.</li><li><strong>Disease</strong>: bird flu outbreaks have killed or forced the culling of millions of birds.</li><li><strong>Imports</strong>: cheaper imported chicken competes with local chicken.</li><li><strong>Load shedding</strong>: power cuts can kill birds if fans, heaters and pumps stop, and generators cost money.</li><li><strong>Water</strong>: droughts and poor water quality.</li></ul><h4>Your role</h4><p>Every worker helps the farm succeed. Follow biosecurity rules, look after the birds kindly, check feed and water, write records correctly, work safely and report problems early. When the farm does well, jobs are safer.</p><h4>Key points</h4><ul><li>Poultry is one of the biggest farming industries in South Africa; chicken is the most eaten meat.</li><li>The chain runs from breeders and hatcheries to farms, abattoirs and shops.</li><li>Broilers reach slaughter weight in about five to six weeks; houses are run all-in, all-out.</li><li>Laws control disease, animal cruelty, feeds, abattoirs and safety.</li><li>Feed costs, bird flu, imports and load shedding are big challenges.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which meat do South Africans eat most?",
+   "options": [
+    {
+     "text": "Chicken",
+     "correct": true
+    },
+    {
+     "text": "Beef",
+     "correct": false
+    },
+    {
+     "text": "Mutton",
+     "correct": false
+    },
+    {
+     "text": "Pork",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "About how long does it take to grow broilers to slaughter weight?",
+   "options": [
+    {
+     "text": "Two weeks",
+     "correct": false
+    },
+    {
+     "text": "Five to six weeks",
+     "correct": true
+    },
+    {
+     "text": "Six months",
+     "correct": false
+    },
+    {
+     "text": "One year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does all-in, all-out mean?",
+   "options": [
+    {
+     "text": "Birds go outside every day",
+     "correct": false
+    },
+    {
+     "text": "Workers all start at the same time",
+     "correct": false
+    },
+    {
+     "text": "The whole house is filled and emptied together, then cleaned",
+     "correct": true
+    },
+    {
+     "text": "Feed is given all day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act controls serious diseases such as avian influenza?",
+   "options": [
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do breeder farms produce?",
+   "options": [
+    {
+     "text": "Fertile eggs for hatcheries",
+     "correct": true
+    },
+    {
+     "text": "Table eggs only",
+     "correct": false
+    },
+    {
+     "text": "Feed",
+     "correct": false
+    },
+    {
+     "text": "Packaging",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Load shedding can kill birds if fans, heaters and pumps stop.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feed is a very small cost on a poultry farm.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are challenges for the South African poultry industry? (select all that apply)",
+   "options": [
+    {
+     "text": "Feed costs",
+     "correct": true
+    },
+    {
+     "text": "Bird flu outbreaks",
+     "correct": true
+    },
+    {
+     "text": "Imported chicken",
+     "correct": true
+    },
+    {
+     "text": "Too much cheap electricity",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119447",
+ "title": "Utilise health and safety principles in poultry production",
+ "lessons": [
+  {
+   "title": "Hazards on a poultry farm",
+   "minutes": 15,
+   "html": "<h3>Know what can hurt you</h3><p>Working with chickens looks safe, but poultry farms have many hazards. The Occupational Health and Safety Act 85 of 1993 says the employer must make the workplace safe. It also says you, the worker, must work safely, use the safety equipment you are given and report dangers.</p><h4>Common hazards</h4><ul><li><strong>Dust and ammonia</strong> – the air in a chicken house can hurt your lungs and eyes.</li><li><strong>Germs from birds</strong> – some germs from chickens and their droppings can make people sick, for example Salmonella. Bird flu can also infect people in rare cases.</li><li><strong>Chemicals</strong> – disinfectants, insect sprays, rat poison and vaccines.</li><li><strong>Machines</strong> – fans, augers, feed lines, egg belts and tractors.</li><li><strong>Electricity</strong> – heaters, lights and cables in wet places.</li><li><strong>Lifting</strong> – feed bags, egg trays, crates of birds.</li><li><strong>Slips and falls</strong> – wet floors, ladders, roofs and silos.</li><li><strong>Gas</strong> – gas heaters and gas bottles.</li></ul><h4>Report it</h4><p>If you see something dangerous, like a broken cable, a missing guard on an auger or a leaking gas bottle, tell your supervisor straight away. Do not wait. Do not try to fix electrical or gas problems yourself.</p><h4>Check yourself</h4><p>Before you start work, ask: Do I have my safety gear? Do I know how to do this job safely? Is the machine switched off before I touch it? If the answer is no, stop and ask.</p>"
+  },
+  {
+   "title": "Protective clothing and safe work",
+   "minutes": 15,
+   "html": "<h3>Use your PPE every time</h3><p>PPE means personal protective equipment. Your employer must give it to you free. You must wear it and look after it.</p><table><tr><th>Job</th><th>PPE</th></tr><tr><td>Working in the house</td><td>Overall, boots, dust mask</td></tr><tr><td>Clean-out and washing</td><td>Overall, gumboots, gloves, mask or respirator, goggles</td></tr><tr><td>Mixing disinfectant</td><td>Chemical gloves, goggles, apron, as the label says</td></tr><tr><td>Catching birds</td><td>Overall, gloves, dust mask</td></tr><tr><td>Vaccinating</td><td>Gloves, goggles where needed</td></tr></table><h4>Safe lifting</h4><ol><li>Stand close to the load with feet apart.</li><li>Bend your knees, not your back.</li><li>Hold the load close to your body.</li><li>Lift with your legs and do not twist.</li><li>Ask for help with heavy loads.</li></ol><h4>Machines</h4><ul><li>Switch off and lock out a machine before you clean or fix it.</li><li>Never remove guards.</li><li>Keep loose clothes and long hair away from augers and belts.</li></ul><h4>Chemicals</h4><ul><li>Read the label and follow it. Use the exact amount it says.</li><li>Never mix different chemicals together.</li><li>Never put chemicals in cold drink bottles or food containers.</li><li>Wash your hands before you eat, drink or smoke.</li><li>Keep rat poison where children, dogs and chickens cannot reach it.</li></ul><h4>Look after your PPE</h4><p>Check your PPE before you put it on. A mask that is wet or dirty does not protect you. Gloves with holes let chemicals reach your skin. Wash your overall and boots after work, and keep your mask in a clean bag. Tell your supervisor when PPE is broken or worn out so you can get new PPE. Do not take PPE home for other work, and never share a dust mask with another worker.</p>"
+  },
+  {
+   "title": "Hygiene and what to do if someone is hurt",
+   "minutes": 15,
+   "html": "<h3>Keep yourself and the birds healthy</h3><p>Good hygiene protects you from germs from the birds. It also protects the birds from germs you bring in.</p><ul><li>Wash hands with soap after work, after touching dead birds and before eating.</li><li>Eat only in the rest room, never inside the chicken house.</li><li>Change clothes and boots before going home.</li><li>Cover cuts and scratches with a plaster.</li><li>If many birds die suddenly, tell the supervisor at once and do not handle them without gloves.</li></ul><h4>If someone is injured</h4><ol><li>Make sure the area is safe. Switch off the machine or power.</li><li>Call the first aider and your supervisor.</li><li>If the person is badly hurt, phone for an ambulance.</li><li>Do not move a person with a possible back or neck injury unless they are in danger.</li></ol><h4>If chemicals get on you</h4><ul><li>On skin: take off dirty clothes and wash the skin with lots of clean water.</li><li>In eyes: rinse with clean running water for a long time and get medical help.</li><li>Swallowed: get medical help at once and take the label with you. Do not make the person vomit unless the label or a doctor says so.</li></ul><p>Only trained first aiders should give first aid. Hands-on first aid training must be done with an accredited provider.</p><p>Every injury, even a small one, must be reported and written in the injury register.</p><h4>Key points</h4><ul><li>The OHS Act 85 of 1993 says both employer and worker must work safely.</li><li>Wear the PPE you are given for each job.</li><li>Switch off and lock out machines before cleaning or fixing them.</li><li>Never mix chemicals or store them in food or drink bottles.</li><li>Wash hands after work and before eating.</li><li>Report every injury and every danger.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law says employers and workers must work safely?",
+   "options": [
+    {
+     "text": "The Animal Diseases Act",
+     "correct": false
+    },
+    {
+     "text": "The National Water Act",
+     "correct": false
+    },
+    {
+     "text": "The Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "The Meat Safety Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before cleaning an auger?",
+   "options": [
+    {
+     "text": "Pour water on the motor",
+     "correct": false
+    },
+    {
+     "text": "Remove the guard",
+     "correct": false
+    },
+    {
+     "text": "Switch it off and lock it out",
+     "correct": true
+    },
+    {
+     "text": "Clean it quickly while it is running",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you lift a heavy feed bag?",
+   "options": [
+    {
+     "text": "Twist while lifting",
+     "correct": false
+    },
+    {
+     "text": "Hold the bag far from your body",
+     "correct": false
+    },
+    {
+     "text": "Bend your knees and lift with your legs, holding the bag close",
+     "correct": true
+    },
+    {
+     "text": "Bend your back and lift fast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you eat your lunch?",
+   "options": [
+    {
+     "text": "In the rest room, after washing your hands",
+     "correct": true
+    },
+    {
+     "text": "In the feed store",
+     "correct": false
+    },
+    {
+     "text": "On the egg belt",
+     "correct": false
+    },
+    {
+     "text": "Inside the chicken house",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Disinfectant splashes in your eyes. What do you do?",
+   "options": [
+    {
+     "text": "Rinse them with clean running water for a long time and get medical help",
+     "correct": true
+    },
+    {
+     "text": "Put on goggles and carry on",
+     "correct": false
+    },
+    {
+     "text": "Wait to see if it gets better",
+     "correct": false
+    },
+    {
+     "text": "Rub your eyes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to store disinfectant in an old cold drink bottle if it is labelled.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You must report even a small injury and write it in the injury register.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are hazards on a poultry farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Germs from birds and droppings",
+     "correct": true
+    },
+    {
+     "text": "Dust and ammonia in the house",
+     "correct": true
+    },
+    {
+     "text": "Unguarded augers and feed lines",
+     "correct": true
+    },
+    {
+     "text": "Clean drinking water in the rest room",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

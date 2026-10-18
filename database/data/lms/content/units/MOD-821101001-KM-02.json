@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-KM-02",
+ "title": "Viticulture Practices in the Vineyard",
+ "lessons": [
+  {
+   "title": "Pruning and the growing season",
+   "minutes": 15,
+   "html": "<h3>Why we prune</h3> <p>A vine that is not pruned grows wild. It makes too many shoots and many small, poor bunches. Winter pruning keeps the vine in shape and controls how many buds grow next season. It is done in winter (about June to August) when the vine is dormant.</p> <h4>Two main pruning types</h4> <ul> <li><strong>Spur pruning</strong>: canes on the cordon are cut back to short spurs with about two buds each. It is common on cordon-trained wine grapes.</li> <li><strong>Cane pruning</strong>: one or more long canes are kept and tied along the wire. It is used for some cultivars, including some table grapes.</li> </ul> <h4>Good pruning cuts</h4> <ul> <li>Use sharp, clean secateurs. Blunt blades crush the wood.</li> <li>Cut a little above the bud, not right on it.</li> <li>Remove dead wood and old stubs.</li> <li>Choose healthy canes the thickness of a pencil, in the right place.</li> <li>Prune pieces fall between the rows; they are mulched or removed as the farm decides.</li> </ul> <h3>Summer canopy work</h3> <p>The canopy is all the leaves and shoots of the vine. Summer work keeps it open and healthy.</p> <ul> <li><strong>Suckering and shoot thinning</strong> (spring): remove suckers from the trunk and extra shoots, so the vine feeds the right shoots.</li> <li><strong>Shoot positioning</strong>: tuck shoots between the foliage wires so they grow upright.</li> <li><strong>Tipping or topping</strong>: cut the ends of long shoots.</li> <li><strong>Leaf removal</strong>: take off some leaves around the bunches so air and light get in. This helps prevent rot. Take care: too much removal lets sun burn the grapes.</li> <li><strong>Bunch thinning</strong>: remove some bunches when there are too many, so the rest ripen well. For table grapes, workers also thin berries in the bunch.</li> </ul> <p>Always do summer work exactly as your supervisor shows you. Each block and cultivar may have its own instructions.</p>"
+  },
+  {
+   "title": "Water, nutrition and soil care",
+   "minutes": 15,
+   "html": "<h3>Water for the vine</h3> <p>Most South African vineyards need irrigation in summer. Many farms use <strong>drip irrigation</strong>: small drippers along a pipe give water close to each vine. Some use micro-sprinklers.</p> <ul> <li>Too little water: leaves wilt and turn yellow, berries stay small.</li> <li>Too much water: shoots grow too much, roots can rot, grapes are less tasty.</li> <li>The farmer uses soil moisture probes or other tools to decide when to irrigate.</li> </ul> <h4>What workers check</h4> <ul> <li>Drippers that are blocked or leaking.</li> <li>Pipes damaged by animals, tractors or spades.</li> <li>Wet spots or dry spots in the row.</li> </ul> <p>Report problems to your supervisor straight away. Water is precious; do not waste it.</p> <h3>Feeding the vine</h3> <p>Vines need nutrients such as nitrogen, phosphorus, potassium, calcium and magnesium. The farmer sends soil and leaf samples to a laboratory and then decides on fertiliser. Fertiliser may be spread by hand, by tractor, or through the drip system (fertigation).</p> <ul> <li>Spread fertiliser only where and how much your supervisor tells you.</li> <li>Wear gloves and wash hands after handling fertiliser.</li> </ul> <h3>Caring for the soil</h3> <ul> <li><strong>Cover crops</strong> such as oats, rye or legumes are grown between rows in winter. They protect soil from wind and rain, add organic matter and feed soil life.</li> <li><strong>Mulch</strong> such as straw keeps soil moist and cool.</li> <li><strong>Weed control</strong>: weeds in the vine row take water and food. They are controlled by hoeing, mowing or herbicide. Only trained workers apply herbicide.</li> <li><strong>Avoid soil compaction</strong>: tractors on wet soil press it hard, and roots cannot grow well.</li> </ul>"
+  },
+  {
+   "title": "Pests, diseases and spraying",
+   "minutes": 15,
+   "html": "<h3>Common problems in South African vineyards</h3> <table> <tr><th>Problem</th><th>What you see</th></tr> <tr><td>Powdery mildew (oidium)</td><td>White-grey powder on leaves and berries; berries may crack</td></tr> <tr><td>Downy mildew</td><td>Yellow oily spots on top of leaves, white fluffy growth underneath</td></tr> <tr><td>Botrytis (bunch rot)</td><td>Grey furry mould on bunches, often after rain near harvest</td></tr> <tr><td>Mealybug</td><td>Small white soft insects with sticky honeydew and black sooty mould; often with ants</td></tr> <tr><td>Snout beetle</td><td>Beetles eat buds and young shoots at night</td></tr> <tr><td>Birds and baboons</td><td>Eaten or damaged bunches near harvest</td></tr> </table> <h4>Scouting and reporting</h4> <p>Scouting means walking through the vineyard and looking carefully for problems. Look at leaves (top and bottom), shoots, bunches and the trunk. Write down what you see, where (block and row number) and how much. Tell your supervisor at once. Early action saves the crop.</p> <h4>How problems are controlled</h4> <ul> <li>Good canopy work so air moves and leaves dry quickly.</li> <li>Removing sick plant parts when instructed.</li> <li>Controlling ants so they cannot protect mealybugs.</li> <li>Releasing natural enemies (beneficial insects) on some farms.</li> <li>Spraying registered products at the right time.</li> </ul> <h4>Spray safety</h4> <ul> <li>Only trained and authorised workers mix and spray chemicals.</li> <li>Obey warning signs. Do not enter a block that has just been sprayed until the re-entry time on the label has passed and your supervisor says it is safe.</li> <li>Never eat grapes from a block that has been sprayed until you are told it is safe.</li> <li>If spray gets on your skin or in your eyes, wash with lots of clean water and tell your supervisor.</li> </ul> <h4>Key points</h4> <ul> <li>Winter pruning shapes the vine and controls the crop.</li> <li>Summer canopy work keeps the vine open, healthy and in balance.</li> <li>Check and report irrigation problems; do not waste water.</li> <li>Scout carefully and report pests and diseases early.</li> <li>Obey spray warning signs and re-entry times.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When is winter pruning done?",
+   "options": [
+    {
+     "text": "Any time the farmer likes",
+     "correct": false
+    },
+    {
+     "text": "When the berries are flowering",
+     "correct": false
+    },
+    {
+     "text": "During harvest",
+     "correct": false
+    },
+    {
+     "text": "When the vine is dormant in winter",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is spur pruning?",
+   "options": [
+    {
+     "text": "Keeping long canes tied along the wire",
+     "correct": false
+    },
+    {
+     "text": "Cutting the trunk off",
+     "correct": false
+    },
+    {
+     "text": "Removing all bunches",
+     "correct": false
+    },
+    {
+     "text": "Cutting canes back to short spurs with about two buds",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are some leaves removed around the bunches?",
+   "options": [
+    {
+     "text": "To feed the birds",
+     "correct": false
+    },
+    {
+     "text": "To stop irrigation",
+     "correct": false
+    },
+    {
+     "text": "To let air and light in and help prevent rot",
+     "correct": true
+    },
+    {
+     "text": "To make the vine grow faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "White-grey powder on leaves and berries is a sign of what?",
+   "options": [
+    {
+     "text": "Powdery mildew",
+     "correct": true
+    },
+    {
+     "text": "Mealybug",
+     "correct": false
+    },
+    {
+     "text": "Frost",
+     "correct": false
+    },
+    {
+     "text": "Too much fertiliser",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when you find pests while scouting?",
+   "options": [
+    {
+     "text": "Pull out the vine",
+     "correct": false
+    },
+    {
+     "text": "Write down what, where and how much, and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Spray any chemical you find",
+     "correct": false
+    },
+    {
+     "text": "Ignore them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may enter a block that has just been sprayed as long as you walk quickly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cover crops between rows help protect the soil and add organic matter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of too little water in a vine? (select all that apply)",
+   "options": [
+    {
+     "text": "Berries stay small",
+     "correct": true
+    },
+    {
+     "text": "Leaves wilt",
+     "correct": true
+    },
+    {
+     "text": "Shoots grow very fast",
+     "correct": false
+    },
+    {
+     "text": "Leaves turn yellow",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

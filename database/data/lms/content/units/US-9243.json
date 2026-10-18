@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-9243",
+ "title": "Monitor occupational health and safety",
+ "lessons": [
+  {
+   "title": "Health and safety duties and hazards",
+   "minutes": 16,
+   "html": "<h3>Why monitor health and safety?</h3>\n<p>Hunting operations, lodges and farms have many hazards: firearms, dangerous animals, vehicles, knives, chemicals, heat, fire and remote locations far from hospitals. The Occupational Health and Safety Act 85 of 1993 (OHS Act) requires employers to provide a workplace that is safe and without risk to health as far as reasonably practicable, and requires employees to take care of their own safety and that of others.</p>\n<h4>Duties under the OHS Act (in summary)</h4>\n<ul><li><strong>Employer</strong>: identify hazards, assess risks, put controls in place, provide training, information, supervision and protective equipment, and keep machinery safe.</li>\n<li><strong>Employees</strong>: follow safety rules, use protective equipment, report unsafe conditions and incidents, and not interfere with safety equipment.</li>\n<li><strong>Health and safety representatives</strong>: in workplaces with more than 20 employees, representatives must be appointed to inspect the workplace and raise concerns.</li></ul>\n<p>Injuries and occupational diseases must be reported, and the Compensation for Occupational Injuries and Diseases Act 130 of 1993 (COIDA) provides compensation for injured workers.</p>\n<h4>Common hazards in a hunting operation</h4>\n<table><tr><th>Hazard</th><th>Example controls</th></tr>\n<tr><td>Firearms</td><td>Safety rules, training, chamber empty in vehicles, safe storage</td></tr>\n<tr><td>Dangerous animals</td><td>Armed PH present, briefings, no walking alone</td></tr>\n<tr><td>Vehicles on rough roads</td><td>Speed limits, seat belts where fitted, no riding on bonnets, maintenance</td></tr>\n<tr><td>Knives in skinning sheds</td><td>Sharp knives, cut-resistant gloves, first aid kit</td></tr>\n<tr><td>Zoonoses</td><td>Gloves, hygiene, report unexplained deaths</td></tr>\n<tr><td>Heat and sun</td><td>Water, hats, rest in shade, work early</td></tr>\n<tr><td>Snakes and insects</td><td>Boots, awareness, snakebite plan</td></tr></table>"
+  },
+  {
+   "title": "Monitoring, inspections and incidents",
+   "minutes": 16,
+   "html": "<h3>Monitoring health and safety</h3>\n<p>Monitoring means checking regularly that safety controls are in place and working, and acting when they are not.</p>\n<h4>Tools for monitoring</h4>\n<ul><li><strong>Inspections</strong> with a checklist: vehicles (brakes, tyres, lights, first aid kit, fire extinguisher), skinning shed (floors, knives, hygiene), gun safe and register, kitchen and gas installations.</li>\n<li><strong>Observation</strong>: watching how people work, e.g. firearm handling in the vehicle.</li>\n<li><strong>Safety talks</strong>: short \"toolbox talks\" before activities.</li>\n<li><strong>Records</strong>: training, inspections, incidents, equipment servicing.</li>\n<li><strong>Feedback</strong> from staff and the health and safety representative.</li></ul>\n<h4>Acting on findings</h4>\n<p>When you find a hazard: make it safe immediately if you can (for example, take a vehicle with faulty brakes out of service), report it to the person in charge, record it, and follow up until it is fixed.</p>\n<h4>Incidents and emergencies</h4>\n<ol><li>Make the area safe and prevent further injury.</li>\n<li>Give first aid by a trained first aider and call for medical help. Remote operations need an evacuation plan with GPS coordinates and emergency numbers.</li>\n<li>Report the incident to management. Serious incidents must be reported to the Department of Employment and Labour as the OHS Act requires.</li>\n<li>Investigate: what happened, why (root causes), and how to prevent it.</li>\n<li>Record the incident and the corrective actions.</li></ol>\n<p>Near misses, such as an accidental discharge that hurt nobody, must also be reported and investigated; they are warnings.</p>\n<h4>First aid readiness</h4>\n<p>Every vehicle and camp needs a stocked first aid kit, including trauma dressings for severe bleeding. Staff must be trained in first aid by an accredited provider; online learning alone is not enough.</p>\n<h4>Key points</h4>\n<ul><li>The OHS Act 85 of 1993 places duties on employers and employees.</li>\n<li>Major hazards include firearms, dangerous animals, vehicles, knives, zoonoses and heat.</li>\n<li>Monitor through inspections, observation, safety talks and records.</li>\n<li>Make hazards safe, report, record and follow up.</li>\n<li>Report and investigate incidents and near misses; keep first aid ready.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act is the main health and safety law for workplaces?",
+   "options": [
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act provides compensation for injured workers?",
+   "options": [
+    {
+     "text": "Consumer Protection Act 68 of 2008",
+     "correct": false
+    },
+    {
+     "text": "COIDA 130 of 1993",
+     "correct": true
+    },
+    {
+     "text": "Stock Theft Act 57 of 1959",
+     "correct": false
+    },
+    {
+     "text": "Companies Act 71 of 2008",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with a vehicle found to have faulty brakes?",
+   "options": [
+    {
+     "text": "Ignore it until it fails",
+     "correct": false
+    },
+    {
+     "text": "Use it carefully",
+     "correct": false
+    },
+    {
+     "text": "Lend it to a neighbour",
+     "correct": false
+    },
+    {
+     "text": "Take it out of service and report it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a near miss?",
+   "options": [
+    {
+     "text": "A missed meal",
+     "correct": false
+    },
+    {
+     "text": "An incident where nobody was hurt but could have been",
+     "correct": true
+    },
+    {
+     "text": "A minor paperwork error",
+     "correct": false
+    },
+    {
+     "text": "A successful hunt",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a duty of employees under the OHS Act?",
+   "options": [
+    {
+     "text": "Ignore safety rules if busy",
+     "correct": false
+    },
+    {
+     "text": "Report unsafe conditions and incidents",
+     "correct": true
+    },
+    {
+     "text": "Remove guards from machines",
+     "correct": false
+    },
+    {
+     "text": "Avoid protective equipment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Online learning alone is enough to qualify as a first aider.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Health and safety representatives must be appointed in workplaces with more than 20 employees.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are tools for monitoring health and safety? (select all that apply)",
+   "options": [
+    {
+     "text": "Incident and training records",
+     "correct": true
+    },
+    {
+     "text": "Inspections with a checklist",
+     "correct": true
+    },
+    {
+     "text": "Toolbox talks",
+     "correct": true
+    },
+    {
+     "text": "Hiding incidents from management",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

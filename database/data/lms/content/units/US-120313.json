@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-120313",
+ "title": "Investigate work opportunities in order to make a personal employment or work decision",
+ "lessons": [
+  {
+   "title": "Knowing yourself and finding work opportunities",
+   "minutes": 15,
+   "html": "<h3>Start with yourself</h3> <p>Before you look for a new job or decide on a career step, look at yourself honestly. A good work decision fits your skills, interests, values and life situation.</p> <ul> <li><strong>Skills:</strong> What can you do well? For example: grooming, lungeing, riding work, driving a tractor, reading a feed chart, leading a team.</li> <li><strong>Interests:</strong> What do you enjoy? Working with racehorses, breeding stock, show horses, or maybe tourism such as trail riding?</li> <li><strong>Qualifications:</strong> What certificates do you have? Which unit standards have you completed?</li> <li><strong>Values and needs:</strong> Do you need to live near your family? Do you want accommodation on the farm? Do you need a fixed salary, or are you willing to earn commission or tips?</li> </ul> <h4>The equine industry in South Africa</h4> <p>There are many kinds of work with horses:</p> <table><tr><th>Sector</th><th>Example jobs</th></tr> <tr><td>Racing</td><td>Groom, work rider, apprentice jockey, travelling head groom, assistant trainer</td></tr> <tr><td>Stud farms</td><td>Stud groom, foaling attendant, yard supervisor</td></tr> <tr><td>Sport and showing</td><td>Groom for show jumping, dressage or endurance yards</td></tr> <tr><td>Riding schools and tourism</td><td>Stable hand, trail guide, riding instructor assistant</td></tr> <tr><td>Services</td><td>Farrier assistant, saddlery, feed sales, veterinary practice assistant</td></tr> <tr><td>Welfare</td><td>Animal welfare organisations working with working horses and donkeys</td></tr></table> <h4>Where to find opportunities</h4> <ul> <li>Word of mouth: tell people in the industry you are looking</li> <li>Notices at feed stores, racecourses, the co-op and vet practices</li> <li>Newspapers and online job sites</li> <li>Training providers and learnerships through the AgriSETA</li> <li>The Department of Employment and Labour's labour centres</li> </ul> <p>Be careful of job scams. A real employer does not ask you to pay money to get a job.</p>"
+  },
+  {
+   "title": "Comparing options and making a decision",
+   "minutes": 15,
+   "html": "<h3>Gather information</h3> <p>For each opportunity, find out the facts. Ask questions politely, or speak to people who work there.</p> <ul> <li>What are the duties and working hours, including weekends and race days?</li> <li>What is the pay? Is it weekly or monthly? Are there overtime and bonuses?</li> <li>Is accommodation, transport or food provided?</li> <li>Is there training and a chance to grow?</li> <li>Is the job permanent, seasonal or a contract?</li> <li>How far is it from your family?</li> </ul> <h4>Compare your options</h4> <p>Make a simple table. Give each point a score from 1 (poor) to 5 (good).</p> <table><tr><th>Factor</th><th>Job A: Stud groom</th><th>Job B: Racing groom</th></tr> <tr><td>Pay</td><td>3</td><td>4</td></tr> <tr><td>Hours</td><td>4</td><td>2</td></tr> <tr><td>Accommodation</td><td>5</td><td>3</td></tr> <tr><td>Training and growth</td><td>3</td><td>5</td></tr> <tr><td>Near family</td><td>4</td><td>2</td></tr> <tr><td><strong>Total</strong></td><td><strong>19</strong></td><td><strong>16</strong></td></tr></table> <p>The totals help, but think about which factors matter most to you. If growth is very important, Job B may still be better.</p> <h4>Making the decision</h4> <ol> <li>List your options.</li> <li>Write the advantages and disadvantages of each.</li> <li>Talk to people you trust: family, a mentor, your supervisor.</li> <li>Decide, and write down why.</li> <li>Make a plan: when you will apply, what you need (CV, ID copy, certificates, references).</li> </ol> <h4>Preparing to apply</h4> <ul> <li>A short CV: name, contact details, skills, work history, training, two references.</li> <li>Certified copies of your ID and certificates.</li> <li>For an interview: arrive on time, dress neatly, take your documents, answer honestly.</li> </ul> <h4>Leaving a job properly</h4> <p>If you accept a new job, give your current employer the notice in your contract, in writing. Leave on good terms; you may need a reference later.</p> <h4>Key points</h4> <ul> <li>Know your skills, interests, qualifications and needs.</li> <li>The equine industry offers work in racing, studs, sport, tourism, services and welfare.</li> <li>Gather facts on pay, hours, accommodation and growth.</li> <li>Compare options in a table and talk to people you trust.</li> <li>Never pay money to get a job; give proper notice when you leave.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you look at before deciding on a new job?",
+   "options": [
+    {
+     "text": "Only the pay",
+     "correct": false
+    },
+    {
+     "text": "Your skills, interests, qualifications and needs",
+     "correct": true
+    },
+    {
+     "text": "What your friend chose",
+     "correct": false
+    },
+    {
+     "text": "The colour of the uniform",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of a job scam?",
+   "options": [
+    {
+     "text": "The employer asks you to pay money to get the job",
+     "correct": true
+    },
+    {
+     "text": "The employer asks for your ID copy",
+     "correct": false
+    },
+    {
+     "text": "There is an interview",
+     "correct": false
+    },
+    {
+     "text": "There is a written contract",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a job in racing?",
+   "options": [
+    {
+     "text": "Trail guide",
+     "correct": false
+    },
+    {
+     "text": "Work rider",
+     "correct": true
+    },
+    {
+     "text": "Saddle maker",
+     "correct": false
+    },
+    {
+     "text": "Feed sales",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when you accept a new job?",
+   "options": [
+    {
+     "text": "Leave the old job the same day without telling anyone",
+     "correct": false
+    },
+    {
+     "text": "Give your current employer written notice as in your contract",
+     "correct": true
+    },
+    {
+     "text": "Take the horses with you",
+     "correct": false
+    },
+    {
+     "text": "Stop coming to work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which documents should you prepare when applying?",
+   "options": [
+    {
+     "text": "A CV, ID copy and certificates",
+     "correct": true
+    },
+    {
+     "text": "Only a photo",
+     "correct": false
+    },
+    {
+     "text": "Your payslip from ten years ago",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Totals in a comparison table help, but you should also think about which factors matter most to you.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Learnerships are never available in agriculture.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good places to find work opportunities? (select all that apply)",
+   "options": [
+    {
+     "text": "Notices at feed stores and racecourses",
+     "correct": true
+    },
+    {
+     "text": "Word of mouth in the industry",
+     "correct": true
+    },
+    {
+     "text": "Labour centres",
+     "correct": true
+    },
+    {
+     "text": "Paying an agent who promises a job for a fee",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

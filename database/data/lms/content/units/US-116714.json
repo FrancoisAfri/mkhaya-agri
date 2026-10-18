@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116714",
+ "title": "Lead a team, plan, allocate and assess their work",
+ "lessons": [
+  {
+   "title": "Leading a team",
+   "minutes": 15,
+   "html": "<h3>From worker to team leader</h3><p>A team leader on a farm or in a poultry unit is responsible for getting work done through other people. You are still part of the team, but now you also plan the work, give instructions, check quality and look after the people.</p><h4>What makes a good team leader</h4><ul><li><strong>Leads by example</strong>: arrives on time, follows safety and biosecurity rules, works hard.</li><li><strong>Communicates clearly</strong>: gives instructions that everyone understands, in a language they understand.</li><li><strong>Is fair</strong>: treats everyone the same, does not play favourites, shares good and hard tasks.</li><li><strong>Listens</strong>: hears problems and ideas from the team.</li><li><strong>Takes responsibility</strong>: owns mistakes and solves problems instead of blaming.</li></ul><h4>Building the team</h4><p>A team works well when members know the goal, know their roles, trust one another and feel respected. Hold a short meeting at the start of each shift. Explain the day's targets, for example: clean and disinfect house 3, catch and load 12 000 birds by 04:00, or weigh a sample of birds in houses 1 and 2. Recognise good work in front of the team.</p><h4>Handling conflict</h4><p>Conflict happens. Deal with it early and privately. Listen to both sides, focus on the problem not the person, agree on a solution, and follow up. If a matter involves misconduct, harassment or a grievance, follow the farm's disciplinary and grievance procedures and involve your manager.</p><h4>Example</h4><p>Two workers argue over who should clean the feeders. The team leader listens to each privately, explains the rota and agrees that they will swap weekly. The leader checks after a week that the arrangement works.</p>"
+  },
+  {
+   "title": "Planning and allocating work",
+   "minutes": 15,
+   "html": "<h3>The right person on the right job at the right time</h3><h4>Planning</h4><ol><li>List the tasks for the day or week from the production schedule, such as feeding, water checks, mortality removal, cleaning, vaccination, egg collection or packing.</li><li>Estimate how long each task takes and how many people it needs.</li><li>Put tasks in order of priority: animal welfare and safety first, then time-critical tasks such as vaccinations and dispatch, then routine work.</li><li>Check resources: equipment, protective clothing, chemicals, vehicles.</li><li>Allow for leave, sick absence and training.</li></ol><h4>Allocating</h4><p>Match tasks to people's skills and training. Only trained and authorised people may operate forklifts, tractors or chemical sprayers, or vaccinate. Give newer workers tasks they can manage, with a buddy to learn from. Rotate unpleasant tasks fairly.</p><h4>Giving instructions</h4><p>A good instruction says what, where, when, how and why, and includes safety points. Ask the worker to repeat it back. For example: <em>Thandi, please collect and grade eggs in house 2 by 10:00. Use the clean trays from the store, remove cracked eggs into the red crate, and wash hands before you start.</em></p><h4>A simple allocation sheet</h4><table><tr><th>Task</th><th>Person</th><th>Time</th><th>Done</th></tr><tr><td>Feed and water check H1-H4</td><td>Sipho</td><td>06:00-07:30</td><td></td></tr><tr><td>Mortality removal and record</td><td>Lerato</td><td>07:30-08:30</td><td></td></tr></table><h4>When plans change</h4><p>Plans often change on farms: a truck arrives early, a worker is sick, or a water line bursts. Re-plan quickly, tell the team what has changed, and put welfare and safety tasks first. Note the reason so you can plan better next time.</p><p>Keep the sheet and use it to see who is ready for new tasks.</p>"
+  },
+  {
+   "title": "Assessing the team's work",
+   "minutes": 15,
+   "html": "<h3>Checking, giving feedback and improving</h3><h4>Standards</h4><p>You can only assess work against a clear standard. Standards come from work procedures, the production plan and quality rules: a house is clean when no organic matter remains; a carcass passes when there is no visible contamination; a feeder line is set at the right height for the birds' age.</p><h4>Ways to assess</h4><ul><li>Observe people while they work.</li><li>Inspect the finished job against a checklist.</li><li>Check records: output, mortality, rejects, time taken.</li><li>Ask for feedback from the next process, for example the packing line about the quality of birds received.</li></ul><h4>Giving feedback</h4><p>Give feedback soon, in private for problems and in public for praise. Be specific: describe what you saw, its effect and what you want next time. For example: <em>The drinkers in house 4 were not flushed this morning, so the water was dirty. Tomorrow please flush them before feeding.</em> Avoid insults or shouting.</p><h4>Dealing with poor performance</h4><p>First find the cause. Did the worker know the standard? Have the tools? Get trained? Is there a personal problem? Arrange coaching or training where needed. If poor performance continues, involve your manager and follow the farm's performance and disciplinary procedures, which must be fair under the Labour Relations Act.</p><h4>Reporting</h4><p>Report team results to your manager each week: targets met, problems, absenteeism, safety incidents and training needs.</p><h4>Key points</h4><ul><li>A team leader leads by example, communicates clearly and treats everyone fairly.</li><li>Plan by listing tasks, estimating time, setting priorities and checking resources.</li><li>Allocate work by skill and authorisation, and give instructions that say what, when, how and why.</li><li>Assess work against clear standards and give specific, timely feedback.</li><li>Find the cause of poor performance before acting, and follow fair procedures.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should come first when you put tasks in order of priority?",
+   "options": [
+    {
+     "text": "Animal welfare and safety",
+     "correct": true
+    },
+    {
+     "text": "Painting the office",
+     "correct": false
+    },
+    {
+     "text": "Routine paperwork",
+     "correct": false
+    },
+    {
+     "text": "Tea break",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may operate a forklift or chemical sprayer?",
+   "options": [
+    {
+     "text": "Anyone who is free",
+     "correct": false
+    },
+    {
+     "text": "Only trained and authorised people",
+     "correct": true
+    },
+    {
+     "text": "The newest worker",
+     "correct": false
+    },
+    {
+     "text": "Whoever arrives first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should a good instruction include?",
+   "options": [
+    {
+     "text": "Only the task name",
+     "correct": false
+    },
+    {
+     "text": "Only the time",
+     "correct": false
+    },
+    {
+     "text": "What, where, when, how, why and safety points",
+     "correct": true
+    },
+    {
+     "text": "Nothing; workers should know",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should feedback about a problem usually be given?",
+   "options": [
+    {
+     "text": "In front of everyone, loudly",
+     "correct": false
+    },
+    {
+     "text": "By text message a month later",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Soon, in private, and specific about what you saw",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first when a worker performs poorly?",
+   "options": [
+    {
+     "text": "Find the cause of the problem",
+     "correct": true
+    },
+    {
+     "text": "Issue a final warning",
+     "correct": false
+    },
+    {
+     "text": "Move them to another farm",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Unpleasant tasks should be rotated fairly among team members.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You can assess work fairly even if no standard has been set or explained.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to assess a team's work? (select all that apply)",
+   "options": [
+    {
+     "text": "Observe people while they work",
+     "correct": true
+    },
+    {
+     "text": "Inspect finished work against a checklist",
+     "correct": true
+    },
+    {
+     "text": "Check output and reject records",
+     "correct": true
+    },
+    {
+     "text": "Guess based on who you like",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

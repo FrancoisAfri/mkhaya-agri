@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-116144",
+ "title": "Apply animal products harvesting procedures",
+ "lessons": [
+  {
+   "title": "Animal products, their value and readiness",
+   "minutes": 15,
+   "html": "<h3>What are animal products?</h3><p>Farm animals give us many products. Some are taken while the animal is alive, such as <strong>milk, eggs, wool, mohair and honey</strong>. Others come after slaughter, such as meat, hides and skins. On many South African farms the most common harvesting jobs are milking, collecting eggs and shearing.</p><h3>Quality and quantity</h3><p>The value of a product depends on two things:</p><ul><li><strong>Quantity</strong>: how much there is, for example litres of milk, dozens of eggs or kilograms of wool.</li><li><strong>Quality</strong>: how good it is. Clean milk with a low cell count, eggs with clean whole shells, and wool that is long, strong and free of vegetable matter all get better prices.</li></ul><p>A buyer pays less, or refuses the product, if quality is poor. A tray of dirty or cracked eggs, or a can of milk with blood or dirt in it, is lost money for the farm.</p><h3>Is the product ready?</h3><p>Watch the animals and report what you see:</p><table><tr><th>Product</th><th>Signs it is ready</th></tr><tr><td>Milk</td><td>Full udder at the normal milking time; cow calm and healthy</td></tr><tr><td>Eggs</td><td>Hens have laid in the nest boxes; collect several times a day</td></tr><tr><td>Wool</td><td>Fleece has grown for the planned time (often about a year for Merinos)</td></tr><tr><td>Honey</td><td>Frames are mostly capped with wax</td></tr></table><p>Also look for signs that an animal is sick: not eating, a hot or swollen udder, diarrhoea, or a dull, tired look. Products from a sick or treated animal may not be safe. Report these animals to your supervisor before you harvest. Write down what you see, or tell your supervisor clearly: which animal, what you saw and when.</p>"
+  },
+  {
+   "title": "Harvesting and separating the product from waste",
+   "minutes": 15,
+   "html": "<h3>The core product and the waste</h3><p>When we harvest, part of what we collect is the good product (the <strong>core product</strong>) and part is <strong>waste</strong>. For example:</p><ul><li>Milk: the first squirts (foremilk) are thrown away, and milk from cows treated with antibiotics must be kept out of the tank.</li><li>Eggs: cracked, very dirty or soft-shelled eggs are taken out.</li><li>Wool: the belly wool, locks, stained pieces and dags (dung-covered wool) are kept apart from the main fleece.</li></ul><h3>Harvesting with good hygiene</h3><ol><li>Wash your hands and wear clean clothes or an apron.</li><li>Use clean containers, buckets and trays.</li><li>Handle animals calmly. A frightened cow gives less milk and a frightened sheep is hard to shear.</li><li>Harvest at the right time and in the right way for the product, as your supervisor showed you.</li><li>Do not mix good product with waste. Put waste in its own marked bin or bag.</li></ol><h3>Separating the product</h3><p>Sorting is done straight away. Eggs are checked one by one and graded. In the shearing shed, the fleece is thrown onto a table and skirted: the edges, stains and short pieces are pulled off and packed apart. Milk is passed through a filter as it goes into the can or tank.</p><p>Waste must go to the right place. Bad milk is not poured into a river or dam. Broken eggs and manure go to the place your farm uses for waste, such as the compost heap. Never feed spoiled products to other animals unless your supervisor says it is allowed.</p><h3>Safety</h3><p>Watch out for kicks when milking, and for the moving handpiece in the shearing shed. Wash your hands after handling animals and manure, because some animal diseases can pass to people.</p>"
+  },
+  {
+   "title": "Preserving and presenting animal products",
+   "minutes": 15,
+   "html": "<h3>Why we preserve products</h3><p>Fresh animal products spoil quickly. Germs grow fast in milk and eggs when they are warm. To keep the quality and the price, we must <strong>preserve</strong> the product and <strong>present</strong> it neatly for the buyer.</p><h3>Basic methods</h3><table><tr><th>Product</th><th>How to keep it</th></tr><tr><td>Milk</td><td>Cool quickly in the bulk tank or fridge; keep it cold until collection</td></tr><tr><td>Eggs</td><td>Keep in a cool, dry place, pointed end down, on clean trays</td></tr><tr><td>Wool</td><td>Keep dry; pack by type into clean bales and mark them</td></tr><tr><td>Hides and skins</td><td>Salt or dry them soon after slaughter</td></tr><tr><td>Honey</td><td>Store in clean, closed containers</td></tr></table><h3>Presentation</h3><ul><li>Pack the product in clean, undamaged containers.</li><li>Grade it so that the same sizes or types are packed together.</li><li>Label each container with the date, the type and the grade.</li><li>Store it away from chemicals, fuel, dust and animals.</li></ul><h3>Records</h3><p>Write down how much you harvested each day, for example litres of milk per cow or the number of eggs per house. These numbers help the farmer see if production is going up or down, and they show how much the farm will be paid. Report anything unusual, such as a sudden drop in eggs or blood in milk.</p><h3>Cleaning up</h3><p>After harvesting, clean all buckets, trays, filters and tables. Rinse, wash with hot water and detergent, rinse again and let them dry. Dirty equipment is one of the main causes of spoiled milk.</p><h4>Key points</h4><ul><li>Value depends on both quantity and quality.</li><li>Report sick or treated animals before you harvest.</li><li>Keep the core product apart from waste and dispose of waste properly.</li><li>Cool, pack, grade and label products to keep their quality.</li><li>Clean all equipment after every harvest.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is an animal product harvested while the animal is alive?",
+   "options": [
+    {
+     "text": "Hide",
+     "correct": false
+    },
+    {
+     "text": "Wool",
+     "correct": true
+    },
+    {
+     "text": "Carcass meat",
+     "correct": false
+    },
+    {
+     "text": "Bone meal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with milk from a cow that was treated with antibiotics?",
+   "options": [
+    {
+     "text": "Mix it with the other milk in the tank",
+     "correct": false
+    },
+    {
+     "text": "Pour it into the river",
+     "correct": false
+    },
+    {
+     "text": "Feed it to the hens without asking",
+     "correct": false
+    },
+    {
+     "text": "Keep it out of the tank, as your supervisor instructs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In the shearing shed, what are dags?",
+   "options": [
+    {
+     "text": "The best part of the fleece",
+     "correct": false
+    },
+    {
+     "text": "The shearer's tools",
+     "correct": false
+    },
+    {
+     "text": "Wool from the neck",
+     "correct": false
+    },
+    {
+     "text": "Dung-covered pieces of wool kept apart from the fleece",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should eggs be stored?",
+   "options": [
+    {
+     "text": "In the sun to keep them dry",
+     "correct": false
+    },
+    {
+     "text": "In a cool, dry place, pointed end down",
+     "correct": true
+    },
+    {
+     "text": "Next to the fuel store",
+     "correct": false
+    },
+    {
+     "text": "In a bucket of water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do we cool milk quickly after milking?",
+   "options": [
+    {
+     "text": "To make it thicker",
+     "correct": false
+    },
+    {
+     "text": "To make the cow give more milk",
+     "correct": false
+    },
+    {
+     "text": "Germs grow fast in warm milk",
+     "correct": true
+    },
+    {
+     "text": "Buyers like cold cans",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A product from a sick animal should be reported to the supervisor before it is harvested.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Good quality and a large quantity both add to the value of an animal product.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which steps help keep harvested products clean? (select all that apply)",
+   "options": [
+    {
+     "text": "Store products next to chemicals",
+     "correct": false
+    },
+    {
+     "text": "Clean equipment after every harvest",
+     "correct": true
+    },
+    {
+     "text": "Mix waste with the good product",
+     "correct": false
+    },
+    {
+     "text": "Wash your hands before harvesting",
+     "correct": true
+    },
+    {
+     "text": "Use clean containers",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

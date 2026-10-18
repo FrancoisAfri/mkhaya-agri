@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335721",
+ "title": "Tease a mare",
+ "lessons": [
+  {
+   "title": "Why and how we tease mares",
+   "minutes": 20,
+   "html": "<h3>The purpose of teasing</h3>\n<p>Teasing tests whether a mare is in heat (oestrus) by letting her meet a stallion or teaser across a safe barrier. A mare in oestrus accepts the stallion; a mare out of season rejects him. Teasing helps the stud:</p>\n<ul>\n<li>Find the right time to cover the mare or inseminate her.</li>\n<li>Pick up mares that do not cycle normally, for the vet to examine.</li>\n<li>Check whether a mare has come back into season 16 to 21 days after covering, which suggests she is not pregnant.</li>\n</ul>\n<p>Mares cycle about every 21 days in the breeding season (spring and summer), with heat lasting about 5 to 7 days.</p>\n<h3>The teaser</h3>\n<p>A teaser is usually a stallion of lower value, chosen for good manners and a strong interest in mares. Using a teaser protects valuable breeding stallions from kicks.</p>\n<h3>Teasing methods</h3>\n<table><tr><th>Method</th><th>How it works</th></tr>\n<tr><td>Teasing board or wall</td><td>A solid, padded board about chest height between mare and teaser, each held by a handler</td></tr>\n<tr><td>Stable teasing</td><td>The teaser is led past or to the mare's stable door</td></tr>\n<tr><td>Paddock or pen teasing</td><td>The teaser is in a pen next to the mares' paddock and mares come to him</td></tr>\n<tr><td>Group teasing</td><td>Teaser walked along the fence line of a group of mares</td></tr></table>\n<h3>Safety</h3>\n<ul>\n<li>Both handlers wear helmets, gloves and boots.</li>\n<li>Use strong, well-fitted halters or bridles and lead shanks, held in folds.</li>\n<li>Never stand between the mare and teaser or behind either horse.</li>\n<li>The teasing board must be solid and high enough that legs cannot go over it.</li>\n<li>Take extra care with maiden mares and mares with foals at foot.</li>\n</ul>"
+  },
+  {
+   "title": "Reading the mare's response and recording it",
+   "minutes": 20,
+   "html": "<h3>Signs of a mare in oestrus</h3>\n<ul>\n<li>Stands calmly or leans towards the teaser.</li>\n<li>Lifts or holds the tail to the side.</li>\n<li>Squats and passes small amounts of urine.</li>\n<li>\"Winks\" the vulva (repeated opening of the vulva lips, showing the clitoris).</li>\n<li>Relaxed ears and a soft expression.</li>\n</ul>\n<h3>Signs of a mare out of season (dioestrus)</h3>\n<ul>\n<li>Ears pinned back, squeals.</li>\n<li>Strikes with front legs, kicks or swings the hindquarters towards the teaser.</li>\n<li>Swishes the tail and moves away.</li>\n</ul>\n<h3>Teasing procedure at a board</h3>\n<ol>\n<li>Bring the mare to the board, standing parallel to it, with her head towards the handler.</li>\n<li>The teaser is brought to the other side, nose to nose at first.</li>\n<li>Allow the teaser to sniff the mare's neck, then her flank and hindquarters across the board.</li>\n<li>Watch her response for a few minutes. Some mares, especially maidens and mares with foals, show heat only after a while.</li>\n<li>Remove the teaser before the mare becomes upset.</li>\n</ol>\n<h3>Scoring and records</h3>\n<p>Many studs score teasing responses, for example:</p>\n<table><tr><th>Score</th><th>Meaning</th></tr>\n<tr><td>0</td><td>Strong rejection: kicks, squeals</td></tr>\n<tr><td>1</td><td>Mild rejection or no interest</td></tr>\n<tr><td>2</td><td>Some interest, not fully showing</td></tr>\n<tr><td>3</td><td>Showing: tail raised, winking</td></tr>\n<tr><td>4</td><td>Strong heat: squatting, urinating, leaning in</td></tr></table>\n<p>Record date, mare, score and remarks daily on the teasing chart. Report mares that never show heat, show heat for very long, or show heat after covering, to the stud vet.</p>\n<h4>Key points</h4>\n<ul>\n<li>Teasing tests whether a mare is in oestrus.</li>\n<li>A teaser stallion protects the valuable breeding stallion.</li>\n<li>Use a solid board; never stand between or behind the horses.</li>\n<li>Oestrus: tail raised, squatting, urinating, winking; rejection: ears back, kicking.</li>\n<li>Score and record daily and report unusual patterns to the vet.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main purpose of teasing a mare?",
+   "options": [
+    {
+     "text": "To check if she is in oestrus",
+     "correct": true
+    },
+    {
+     "text": "To exercise the stallion",
+     "correct": false
+    },
+    {
+     "text": "To train her for shows",
+     "correct": false
+    },
+    {
+     "text": "To trim her hooves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a teaser stallion used instead of the breeding stallion?",
+   "options": [
+    {
+     "text": "It is faster",
+     "correct": false
+    },
+    {
+     "text": "It is always bigger",
+     "correct": false
+    },
+    {
+     "text": "It protects the valuable breeding stallion from kicks",
+     "correct": true
+    },
+    {
+     "text": "It costs more",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which sign shows that a mare is in oestrus?",
+   "options": [
+    {
+     "text": "Ears pinned back and squealing",
+     "correct": false
+    },
+    {
+     "text": "Winking the vulva and lifting the tail",
+     "correct": true
+    },
+    {
+     "text": "Kicking at the teaser",
+     "correct": false
+    },
+    {
+     "text": "Swishing the tail and moving away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How often do mares cycle in the breeding season?",
+   "options": [
+    {
+     "text": "Every 3 days",
+     "correct": false
+    },
+    {
+     "text": "Every 6 months",
+     "correct": false
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    },
+    {
+     "text": "About every 21 days",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should handlers never stand during teasing?",
+   "options": [
+    {
+     "text": "Between the mare and teaser",
+     "correct": true
+    },
+    {
+     "text": "At the mare's head",
+     "correct": false
+    },
+    {
+     "text": "At the teaser's head",
+     "correct": false
+    },
+    {
+     "text": "Beside the board on the horse's near side",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A mare showing heat 16 to 21 days after covering may not be pregnant.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Maiden mares always show heat immediately at the board.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which mares should be reported to the stud vet? (select all that apply)",
+   "options": [
+    {
+     "text": "Mares that never show heat",
+     "correct": true
+    },
+    {
+     "text": "Mares that show heat for very long",
+     "correct": true
+    },
+    {
+     "text": "Mares that show heat after covering",
+     "correct": true
+    },
+    {
+     "text": "Mares that show a normal heat of 5 to 7 days",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

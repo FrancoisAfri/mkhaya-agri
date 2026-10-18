@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-WM-02",
+ "title": "Pre- and Post-slaughter Procedures in an Abattoir",
+ "lessons": [
+  {
+   "title": "Pre-slaughter work in the workplace",
+   "minutes": 20,
+   "html": "<h3>About this work experience</h3><p>In this module you work in the lairage and at the end of the line under supervision. You will practise the jobs done before slaughter (receiving and preparing cattle) and after slaughter (handling carcasses until dispatch). Your mentor records your progress in your logbook.</p><h3>Pre-slaughter tasks you will do</h3><ol><li><strong>Receiving trucks</strong>: help line up the truck with the ramp, check the documents and count the cattle as they offload.</li><li><strong>Offloading</strong>: let cattle walk off calmly. No hitting, shouting or tail twisting.</li><li><strong>Checking animals</strong>: look for lame, injured, sick or down animals and report them to the supervisor and meat inspector.</li><li><strong>Penning</strong>: put each lot in its own marked pen, give water and do not overcrowd.</li><li><strong>Ante-mortem inspection</strong>: help present animals to the meat inspector and follow the inspector's decisions.</li><li><strong>Moving to slaughter</strong>: move small groups calmly to the race, following the slaughter list.</li><li><strong>Lairage hygiene</strong>: clean pens and walkways when empty, and keep water troughs clean.</li></ol><h3>Animal welfare in practice</h3><p>Your mentor will watch how you handle cattle. Use your position (flight zone and point of balance), flags or paddles, and a quiet voice. Remove objects that scare cattle from the race. Use an electric prodder only if allowed, rarely, and only on the hindquarters. Treating animals with cruelty is an offence under the Animals Protection Act 71 of 1962 and is a dismissible offence at work.</p><h3>Records</h3><p>Write down pen numbers, lot numbers, counts and any problems on the lairage sheet. Accurate records make sure every carcass is traced back to its owner.</p><h3>Safety</h3><p>Work from catwalks and outside races where possible. Always know your escape route when in a pen. Never stand behind a gate that cattle may push open.</p>"
+  },
+  {
+   "title": "Post-slaughter work in the workplace",
+   "minutes": 20,
+   "html": "<h3>Post-slaughter tasks you will do</h3><ol><li><strong>Final trim and wash</strong>: check carcasses for contamination, trim with a sterilised knife, then wash from the top down.</li><li><strong>Inspection support</strong>: keep carcass, head and offal numbers matched and follow the meat inspector's instructions. Move detained carcasses to the detention rail.</li><li><strong>Weighing and labelling</strong>: weigh each side, check the ticket, classification mark and stamp.</li><li><strong>Chilling</strong>: move carcasses into the chiller, space them so they do not touch, keep doors closed, record temperatures.</li><li><strong>By-products and waste</strong>: put hides, edible offal, inedible material and condemned material into the correct containers and areas.</li><li><strong>Dispatch</strong>: check the order and the truck, load hanging carcasses, and complete the dispatch documents.</li><li><strong>Cleaning</strong>: clean your area at the end of the shift using the correct steps.</li></ol><h3>How you are assessed</h3><table><tr><th>Skill</th><th>What the mentor looks for</th></tr><tr><td>Hygiene</td><td>Hand washing, knife sterilising, no contamination of carcasses</td></tr><tr><td>Accuracy</td><td>Correct numbers, labels and records</td></tr><tr><td>Following instructions</td><td>Inspector's decisions carried out exactly</td></tr><tr><td>Safety</td><td>PPE worn, safe pushing of carcasses, cold-room safety</td></tr><tr><td>Attitude</td><td>On time, works with the team, reports problems</td></tr></table><h3>Reflecting on your work</h3><p>At the end of each week, write in your logbook: what you did, what went well, what was difficult, and what you learnt. Ask your mentor for feedback. Talking about mistakes openly is part of learning; hiding them is dangerous in a food plant.</p><h4>Key points</h4><ul><li>Receive, count and check cattle; report sick or injured animals.</li><li>Handle cattle calmly and give water and space in the lairage.</li><li>Keep records so every carcass can be traced.</li><li>Trim, wash, weigh, label and chill carcasses correctly.</li><li>Record your work in the logbook and ask for feedback.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do when you see a down animal in the truck?",
+   "options": [
+    {
+     "text": "Drag it off",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the truck",
+     "correct": false
+    },
+    {
+     "text": "Report it to the supervisor and meat inspector",
+     "correct": true
+    },
+    {
+     "text": "Use the prodder on it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are pen and lot numbers recorded on the lairage sheet?",
+   "options": [
+    {
+     "text": "To count the gates",
+     "correct": false
+    },
+    {
+     "text": "To plan lunch",
+     "correct": false
+    },
+    {
+     "text": "For the truck driver",
+     "correct": false
+    },
+    {
+     "text": "So every carcass can be traced back to its owner",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should detained carcasses go?",
+   "options": [
+    {
+     "text": "Into the dispatch truck",
+     "correct": false
+    },
+    {
+     "text": "Into the normal chiller",
+     "correct": false
+    },
+    {
+     "text": "Back to the slaughter floor",
+     "correct": false
+    },
+    {
+     "text": "To the detention rail",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you work from when moving cattle, if possible?",
+   "options": [
+    {
+     "text": "Inside the crowded pen",
+     "correct": false
+    },
+    {
+     "text": "From catwalks and outside the race",
+     "correct": true
+    },
+    {
+     "text": "Behind a gate cattle may push",
+     "correct": false
+    },
+    {
+     "text": "In front of the race exit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you write in your logbook each week?",
+   "options": [
+    {
+     "text": "What you did, what went well, what was difficult and what you learnt",
+     "correct": true
+    },
+    {
+     "text": "Only your hours",
+     "correct": false
+    },
+    {
+     "text": "The names of the cattle",
+     "correct": false
+    },
+    {
+     "text": "Nothing; the mentor writes it all",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cruelty to animals is an offence under the Animals Protection Act 71 of 1962.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hiding a mistake is better than reporting it in a food plant.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are pre-slaughter tasks? (select all that apply)",
+   "options": [
+    {
+     "text": "Giving water in the lairage",
+     "correct": true
+    },
+    {
+     "text": "Counting cattle as they offload",
+     "correct": true
+    },
+    {
+     "text": "Loading carcasses for dispatch",
+     "correct": false
+    },
+    {
+     "text": "Presenting animals for ante-mortem inspection",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

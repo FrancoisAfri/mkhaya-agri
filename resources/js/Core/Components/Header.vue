@@ -200,7 +200,7 @@ const systemLogo = computed(
     () => (page.props as any).branding?.system_logo || "/images/logo_default.png",
 );
 const systemName = computed(
-    () => (page.props as any).branding?.system_name || "MKHAYA HUB",
+    () => (page.props as any).branding?.system_name || "MKHAYA AGRI",
 );
 
 const radius = 16;

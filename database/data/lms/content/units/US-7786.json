@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7786",
+ "title": "Operate a Computer",
+ "lessons": [
+  {
+   "title": "Getting started with a computer",
+   "minutes": 20,
+   "html": "<h3>The parts of a computer</h3><p>Computers are used in agriculture and food processing for records, stock control, payroll, email, reports and machine control. Operating a computer confidently is a basic workplace skill.</p><h4>Hardware</h4><ul><li><strong>Input devices:</strong> keyboard, mouse or touchpad, scanner, barcode reader, webcam.</li><li><strong>Processing:</strong> the processor (CPU) and memory (RAM) inside the computer.</li><li><strong>Storage:</strong> hard drive or solid-state drive, USB flash drives, cloud storage.</li><li><strong>Output devices:</strong> monitor, printer, speakers.</li></ul><h4>Software</h4><ul><li><strong>Operating system:</strong> the main program that runs the computer, such as Windows, macOS or Linux.</li><li><strong>Applications:</strong> programs for specific tasks: word processor, spreadsheet, email, web browser, farm or abattoir management systems.</li></ul><h4>Starting up and shutting down</h4><ol><li>Check that cables are connected and the power outlet is safe.</li><li>Press the power button and wait for the login screen.</li><li>Log in with your own username and password.</li><li>When finished, save your work, close programs and choose Shut down from the start menu. Do not just switch off at the wall; this can damage files.</li><li>Lock the screen (on Windows: Windows key + L) when you leave the desk even for a short time.</li></ol><h4>The desktop</h4><p>The desktop shows icons, the taskbar or dock, and the start menu. Windows can be opened, minimised, maximised, moved, resized and closed. Use the taskbar or Alt + Tab to switch between open programs.</p><h4>Using the mouse and keyboard</h4><ul><li>Single click to select, double click to open, right click for a menu of options, drag to move items.</li><li>Useful shortcuts: Ctrl + C (copy), Ctrl + V (paste), Ctrl + X (cut), Ctrl + Z (undo), Ctrl + S (save), Ctrl + P (print).</li></ul>"
+  },
+  {
+   "title": "Files, folders and printing",
+   "minutes": 20,
+   "html": "<h3>Managing files</h3><p>A <strong>file</strong> is a saved document, spreadsheet, picture or other item. A <strong>folder</strong> holds files and other folders. Good file management means you and others can find work quickly.</p><h4>Good practice</h4><ul><li>Create a clear folder structure, for example: Quality &gt; Temperature logs &gt; 2026.</li><li>Use meaningful file names with dates, for example \"Chiller log 2026-10-18\".</li><li>Avoid saving everything on the desktop.</li><li>Know the file extensions: .docx (Word), .xlsx (Excel), .pdf (PDF), .jpg (picture).</li></ul><h4>Common file tasks</h4><ul><li><strong>Create</strong> a new folder: right click, New, Folder.</li><li><strong>Rename:</strong> right click, Rename.</li><li><strong>Copy</strong> keeps the original and makes a second copy; <strong>move</strong> takes it to a new place.</li><li><strong>Delete</strong> sends it to the Recycle Bin, from where it can be restored until the bin is emptied.</li><li><strong>Search</strong> for a file by name using the search box.</li></ul><h4>Saving and backups</h4><ul><li>Use Save As the first time to choose the name and folder; then Save often.</li><li>Back up important files to a network drive, an external drive or approved cloud storage. A computer can break or be stolen.</li></ul><h4>Printing</h4><ol><li>Open the file and choose Print (Ctrl + P).</li><li>Select the correct printer.</li><li>Check the preview, number of copies, page range and orientation.</li><li>Print only what you need to save paper and ink.</li><li>If the printer jams, follow the instructions on its screen. Switch it off before reaching inside, and be careful of hot parts.</li></ol><h4>Word processing basics</h4><p>In a word processor you can type, edit, format (bold, font size, alignment), add bullet lists and tables, check spelling and save documents such as reports and letters.</p>"
+  },
+  {
+   "title": "Email, internet, security and health",
+   "minutes": 20,
+   "html": "<h3>Communicating and finding information</h3><h4>Email</h4><ul><li>Fill in To, Subject and the message. Use Cc to keep others informed.</li><li>Write a clear subject line, greeting, short message and your name.</li><li>Attach files using the paperclip icon; check the right file is attached.</li><li>Reply only to those who need it; use Reply All carefully.</li><li>Be polite and professional; work email may be read by others.</li></ul><h4>Internet</h4><ul><li>Use a web browser to search for information. Check that sources are reliable, for example government departments and recognised organisations.</li><li>Do not download programs unless IT allows it.</li></ul><h3>Security</h3><ul><li>Use strong passwords: long, with letters, numbers and symbols. Never share your password or write it on the screen.</li><li>Watch for <strong>phishing</strong>: emails or messages pretending to be from a bank or supplier, asking you to click a link or give passwords or banking details. Do not click; report it.</li><li>Do not open attachments from unknown senders.</li><li>Keep antivirus and updates running.</li><li>Protect personal information of workers and customers as required by POPIA (Act 4 of 2013).</li></ul><h3>Health and care of equipment</h3><ul><li>Sit with your back supported, feet flat, screen at eye level about an arm's length away.</li><li>Take short breaks and look away from the screen regularly to rest your eyes.</li><li>Keep drinks away from the keyboard.</li><li>Do not overload plugs or use damaged cables.</li><li>Clean screens and keyboards with suitable products while the computer is off.</li></ul><h4>Key points</h4><ul><li>Hardware includes input, processing, storage and output devices; software includes the operating system and applications.</li><li>Shut down properly and lock the screen when you leave.</li><li>Use clear folders and file names, save often and back up.</li><li>Never share passwords and do not click suspicious links.</li><li>Sit correctly and take breaks to protect your health.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which of these is an input device?",
+   "options": [
+    {
+     "text": "Keyboard",
+     "correct": true
+    },
+    {
+     "text": "Monitor",
+     "correct": false
+    },
+    {
+     "text": "Printer",
+     "correct": false
+    },
+    {
+     "text": "Speakers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does Ctrl + Z do?",
+   "options": [
+    {
+     "text": "Saves the file",
+     "correct": false
+    },
+    {
+     "text": "Prints the file",
+     "correct": false
+    },
+    {
+     "text": "Undoes the last action",
+     "correct": true
+    },
+    {
+     "text": "Closes the program",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the difference between copying and moving a file?",
+   "options": [
+    {
+     "text": "Copying keeps the original; moving takes it to a new place",
+     "correct": true
+    },
+    {
+     "text": "They are the same",
+     "correct": false
+    },
+    {
+     "text": "Copying deletes the file",
+     "correct": false
+    },
+    {
+     "text": "Moving makes two copies",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "An email asks you to click a link and enter your banking password. What should you do?",
+   "options": [
+    {
+     "text": "Click and enter the password quickly",
+     "correct": false
+    },
+    {
+     "text": "Forward it to all staff",
+     "correct": false
+    },
+    {
+     "text": "Do not click; report it as possible phishing",
+     "correct": true
+    },
+    {
+     "text": "Reply with your password",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when leaving your desk for a short time?",
+   "options": [
+    {
+     "text": "Switch off at the wall",
+     "correct": false
+    },
+    {
+     "text": "Lock the screen",
+     "correct": true
+    },
+    {
+     "text": "Leave it open",
+     "correct": false
+    },
+    {
+     "text": "Unplug the keyboard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Switching off the computer at the wall is the correct way to shut it down.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Backups protect important files if a computer breaks or is stolen.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good password practices? (select all that apply)",
+   "options": [
+    {
+     "text": "Use long passwords with letters, numbers and symbols",
+     "correct": true
+    },
+    {
+     "text": "Never share your password",
+     "correct": true
+    },
+    {
+     "text": "Write your password on a note on the screen",
+     "correct": false
+    },
+    {
+     "text": "Keep your password private from co-workers",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

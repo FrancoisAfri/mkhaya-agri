@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8145",
+ "title": "Marketing of Merchandise",
+ "lessons": [
+  {
+   "title": "Understanding the agri market",
+   "minutes": 20,
+   "html": "<h3>Marketing in agri retail</h3><p>Marketing is the process of identifying what customers need, offering products and services that meet those needs profitably, and communicating that offer. In agri sales and services, customers are diverse: large commercial grain farmers, livestock producers, small-scale and emerging farmers, smallholders on communal land, game farms, and town gardeners. Each group has different needs, buying power and ways of getting information.</p><h4>Market research</h4><p>Gather information to make better decisions:</p><ul><li><strong>Internal data:</strong> sales by product, season and customer type; account histories; stock-outs and lost sales.</li><li><strong>Customer feedback:</strong> conversations at the counter, surveys, complaints, rep visit reports.</li><li><strong>Market information:</strong> crop estimates, livestock numbers, commodity prices, rainfall outlooks, and planting intentions published by industry bodies.</li><li><strong>Competitor information:</strong> their prices, ranges, services and promotions.</li></ul><h4>Segmentation and targeting</h4><p>Divide the market into groups with similar needs, then decide which to focus on.</p><table><tr><th>Segment</th><th>Typical needs</th></tr><tr><td>Large commercial crop farmers</td><td>Bulk inputs, agronomic advice, credit terms, delivery</td></tr><tr><td>Livestock farmers</td><td>Feed, licks, animal health, fencing, handling equipment</td></tr><tr><td>Emerging and small-scale farmers</td><td>Smaller pack sizes, practical advice, affordable prices, sometimes input-finance schemes</td></tr><tr><td>Hobby farmers and gardeners</td><td>Convenience, small packs, simple instructions</td></tr></table><h4>Positioning</h4><p>Positioning is how you want the target segment to see the store compared with competitors: \"the store with the best technical advice\", \"the lowest bulk prices\", or \"the one that delivers to your farm\". The position must be real and supported by what the store actually does.</p><h4>SWOT</h4><p>A SWOT analysis lists the store's Strengths, Weaknesses, Opportunities and Threats. Example opportunity: a growing number of emerging farmers in the district. Example threat: a competitor opening with longer trading hours.</p>"
+  },
+  {
+   "title": "The marketing mix",
+   "minutes": 20,
+   "html": "<h3>The four Ps</h3><h4>Product</h4><p>The product is not only the item but the whole offer: brand, pack size, quality, after-sales support and advice. Range decisions include which brands to stock, which pack sizes (a 5 kg bag of seed for small growers alongside 25 kg), and whether to add services such as soil sampling, spray calibration or sprayer repairs. Remove lines that consistently fail to sell.</p><h4>Price</h4><p>Pricing strategy considers cost, competitor prices, customer perception of value and business objectives. Options include competitive pricing on high-visibility items like fertiliser, value-based pricing on specialist products backed by advice, volume discounts for bulk buyers, and account terms. Pricing must comply with company policy and must never be misleading.</p><h4>Place</h4><p>Place is how products reach customers: the branch location and trading hours, delivery to farms, depots, online or phone ordering, and stock availability at the right season. In farming, being in stock at planting time is often worth more than a small price advantage.</p><h4>Promotion</h4><p>Promotion communicates the offer: advertising (local radio, newsletters, social media), personal selling by reps and counter staff, sales promotions, public relations (sponsoring a local agricultural show or a school), and direct marketing (WhatsApp or SMS to opted-in customers, in line with POPIA).</p><h4>Services: more Ps</h4><p>For a service-heavy business, three more elements matter: <strong>People</strong> (knowledgeable, courteous staff), <strong>Process</strong> (how easy it is to open an account, get advice, collect goods) and <strong>Physical evidence</strong> (a clean, well-laid-out store, branded vehicles, clear invoices).</p><h4>Consistency</h4><p>All elements must support the chosen position. A store positioned on technical advice cannot staff its counter with untrained temporary workers during peak season.</p>"
+  },
+  {
+   "title": "Planning and measuring marketing",
+   "minutes": 15,
+   "html": "<h3>The marketing plan</h3><p>A simple marketing plan for a branch or department includes:</p><ol><li>Situation analysis: sales trends, market conditions, SWOT.</li><li>Objectives: specific, measurable, time-bound, e.g. \"Grow animal health sales to emerging livestock farmers by 15% this financial year.\"</li><li>Target segments and positioning.</li><li>Marketing mix actions with responsibilities and dates.</li><li>Budget.</li><li>Measures and review dates.</li></ol><h4>Seasonal marketing calendar</h4><p>Plan activities around the farming year. Example for a summer-rainfall area: winter, focus on lick, feed and fire-fighting equipment; late winter to spring, fertiliser, seed and planter spares; summer, crop protection and animal health against ticks and flies; autumn, harvest supplies, grain bags and storage hygiene products.</p><h4>Measuring results</h4><ul><li>Sales and GP by product and segment against target.</li><li>Number of new and active accounts.</li><li>Customer retention: are farmers coming back season after season?</li><li>Response to campaigns: redemptions, enquiries, attendance at farmers' days.</li><li>Customer satisfaction feedback.</li></ul><h4>Responsible marketing</h4><p>Agri products include chemicals and animal remedies. Marketing claims must match the registered label and must not encourage unsafe or off-label use. Do not overstate yields or results, and do not market inputs to customers in a way that pushes them into debt they cannot repay.</p><h4>Key points</h4><ul><li>Marketing starts with understanding customer needs through research.</li><li>Segment the market and choose target segments and a clear position.</li><li>Use the marketing mix: product, price, place, promotion, plus people, process and physical evidence.</li><li>Plan around the farming calendar.</li><li>Measure results and market responsibly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is market segmentation?",
+   "options": [
+    {
+     "text": "Counting stock",
+     "correct": false
+    },
+    {
+     "text": "Cutting prices",
+     "correct": false
+    },
+    {
+     "text": "Dividing the market into groups with similar needs",
+     "correct": true
+    },
+    {
+     "text": "Opening new branches",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of 'Place' in the marketing mix?",
+   "options": [
+    {
+     "text": "Delivery to farms",
+     "correct": true
+    },
+    {
+     "text": "A discount",
+     "correct": false
+    },
+    {
+     "text": "Radio advertising",
+     "correct": false
+    },
+    {
+     "text": "The brand of seed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In a SWOT, a competitor opening nearby with longer hours is what?",
+   "options": [
+    {
+     "text": "Opportunity",
+     "correct": false
+    },
+    {
+     "text": "Weakness",
+     "correct": false
+    },
+    {
+     "text": "Threat",
+     "correct": true
+    },
+    {
+     "text": "Strength",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which product decision suits small-scale growers?",
+   "options": [
+    {
+     "text": "Closing on Saturdays",
+     "correct": false
+    },
+    {
+     "text": "Only stocking 50 kg bags",
+     "correct": false
+    },
+    {
+     "text": "Removing advice services",
+     "correct": false
+    },
+    {
+     "text": "Offering smaller pack sizes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Marketing claims for a chemical product must match what?",
+   "options": [
+    {
+     "text": "The registered label",
+     "correct": true
+    },
+    {
+     "text": "The rep's opinion",
+     "correct": false
+    },
+    {
+     "text": "Last year's flyer",
+     "correct": false
+    },
+    {
+     "text": "The competitor's advert",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Positioning must be real and supported by what the store actually does.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "For a service-heavy business, people and process are irrelevant to marketing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of the original four Ps? (select all that apply)",
+   "options": [
+    {
+     "text": "Product",
+     "correct": true
+    },
+    {
+     "text": "Price",
+     "correct": true
+    },
+    {
+     "text": "Place",
+     "correct": true
+    },
+    {
+     "text": "Profit",
+     "correct": false
+    },
+    {
+     "text": "Patience",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

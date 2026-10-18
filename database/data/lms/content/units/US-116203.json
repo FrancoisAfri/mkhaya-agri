@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116203",
+ "title": "Manipulate plants",
+ "lessons": [
+  {
+   "title": "Tools for working with plants",
+   "minutes": 15,
+   "html": "<h3>The right tool for the job</h3><p>To <strong>manipulate</strong> a plant means to change how it grows. We cut, tie, thin and train plants so they give more and better fruit. To do this you need the right tools, used the right way.</p><h4>Common tools</h4><table><tr><th>Tool</th><th>Use</th></tr><tr><td>Hand pruning shears (secateurs)</td><td>Cutting thin shoots and branches</td></tr><tr><td>Loppers (long-handled shears)</td><td>Cutting thicker branches</td></tr><tr><td>Pruning saw</td><td>Cutting big branches</td></tr><tr><td>Ladder</td><td>Reaching high branches</td></tr><tr><td>Ties, clips and string</td><td>Tying shoots to wires</td></tr></table><h4>Use tools the right way</h4><ul><li>Keep blades sharp. A sharp blade makes a clean cut that heals well.</li><li>Hold the shears so the thin blade is on the side of the branch that stays on the plant.</li><li>Do not twist the shears to cut a thick branch. Use loppers or a saw.</li><li>Clean and disinfect tools when your supervisor tells you, for example between rows or blocks. This stops diseases moving from plant to plant.</li><li>At the end of the day, clean the tools, oil them, and put them back in the store.</li></ul><h4>Work safely</h4><ul><li>Wear gloves and closed shoes. Wear safety glasses when you cut above your head.</li><li>Cut away from your body and away from other people.</li><li>Close the shears and carry them in a holster when you walk.</li><li>Put the ladder on flat, firm ground. Do not stand on the top step.</li><li>Tell your supervisor at once if you cut yourself.</li></ul><p>Keep the tools you use in good order.</p><p>Ask your supervisor to show you how to use each tool.</p>"
+  },
+  {
+   "title": "Building frames and training plants",
+   "minutes": 15,
+   "html": "<h3>Why plants need a frame</h3><p>Many crops grow better on a frame. A frame holds the plant up. It keeps fruit off the ground. It lets in sun and air. This means less disease and easier picking.</p><h4>Types of frames</h4><ul><li><strong>Trellis:</strong> poles in a row with wires between them. Used for grapes, kiwi fruit, granadillas and some apples.</li><li><strong>Stakes:</strong> one stick next to each plant. Used for tomatoes and young trees.</li><li><strong>Strings:</strong> a string from a high wire down to the plant. Used for tomatoes and cucumbers in tunnels.</li></ul><h4>Steps to put up a simple trellis</h4><ol><li>Mark the row with your supervisor.</li><li>Put strong end poles in the ground. Brace or anchor them so they do not lean.</li><li>Put middle poles in the row at the spacing your supervisor gives you.</li><li>Pull the wires tight and fix them to the poles.</li><li>Check that the poles stand straight and the wires are at the right height.</li></ol><p>Wear gloves when you work with wire. Tight wire can snap back and hurt you. Stand to the side when you pull wire tight.</p><h4>Training the plant</h4><p>Training means guiding the shoots to grow where we want.</p><ul><li>Tie shoots loosely to the wire or stake. A tight tie cuts into the stem as it grows.</li><li>Tie in a figure-of-eight between the stem and the wire.</li><li>Remove side shoots when your supervisor tells you, for example on tomatoes on strings.</li><li>Check ties often and loosen them when needed.</li></ul><p>Ask your supervisor to check your work.</p>"
+  },
+  {
+   "title": "Flowers, fruit and simple pruning",
+   "minutes": 15,
+   "html": "<h3>Working with flowers and fruit</h3><p>A plant has only so much food. If it has too many fruit, they all stay small. So we sometimes remove some flowers or fruit. This is called <strong>thinning</strong>.</p><ul><li>The fruit that stay grow bigger and better.</li><li>The branches do not break under too much weight.</li><li>The tree can give a good crop again next year.</li></ul><h4>How to thin fruit</h4><ul><li>Your supervisor tells you how many fruit to leave, or how far apart.</li><li>Remove small, damaged and badly shaped fruit first.</li><li>Remove fruit that touch each other in a bunch.</li><li>Pick off fruit gently. Do not break the shoot or pull bark.</li></ul><h3>Simple pruning</h3><p>Pruning means cutting off parts of a plant. We prune to:</p><ul><li>Remove dead, broken and diseased branches.</li><li>Open the middle of the tree to let in sun and air.</li><li>Keep the plant at a size that is easy to pick.</li><li>Get more fruiting wood.</li></ul><h4>How to make a good cut</h4><ol><li>Cut just above a bud that faces outwards, so the new shoot grows out, not into the middle.</li><li>Make the cut on a slight slope, away from the bud.</li><li>Do not leave a long stump. Do not cut into the bud.</li><li>When you remove a whole branch, cut just outside the collar (the swollen ring where it joins the trunk).</li></ol><p>Each crop is pruned in its own way and at its own time. Peaches, grapes and citrus are all different. Always follow your supervisor's instructions for the crop.</p><h4>Key points</h4><ul><li>Keep tools sharp, clean and safe; cut away from your body.</li><li>Frames like trellises and stakes hold plants up and let in sun and air.</li><li>Tie shoots loosely with a figure-of-eight.</li><li>Thinning leaves fewer, bigger and better fruit.</li><li>Cut just above an outward-facing bud and do not leave stumps.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which tool should you use to cut a thick branch?",
+   "options": [
+    {
+     "text": "Hand pruning shears, twisting hard",
+     "correct": false
+    },
+    {
+     "text": "Loppers or a pruning saw",
+     "correct": true
+    },
+    {
+     "text": "A knife",
+     "correct": false
+    },
+    {
+     "text": "String",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do we clean and disinfect pruning tools?",
+   "options": [
+    {
+     "text": "To stop diseases moving from plant to plant",
+     "correct": true
+    },
+    {
+     "text": "To make the tools heavier",
+     "correct": false
+    },
+    {
+     "text": "Because the plants like the smell",
+     "correct": false
+    },
+    {
+     "text": "To change the colour of the fruit",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you tie a shoot to a wire?",
+   "options": [
+    {
+     "text": "Very tightly so it does not move",
+     "correct": false
+    },
+    {
+     "text": "Loosely, in a figure-of-eight",
+     "correct": true
+    },
+    {
+     "text": "With wire twisted around the stem",
+     "correct": false
+    },
+    {
+     "text": "You should never tie shoots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you make a pruning cut?",
+   "options": [
+    {
+     "text": "In the middle of the branch, leaving a long stump",
+     "correct": false
+    },
+    {
+     "text": "Just above an outward-facing bud",
+     "correct": true
+    },
+    {
+     "text": "Right through the bud",
+     "correct": false
+    },
+    {
+     "text": "At the bottom of the trunk",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do we thin fruit?",
+   "options": [
+    {
+     "text": "To make the tree grow taller",
+     "correct": false
+    },
+    {
+     "text": "To get more small fruit",
+     "correct": false
+    },
+    {
+     "text": "So the fruit that stay grow bigger and better",
+     "correct": true
+    },
+    {
+     "text": "To make picking slower",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A tight tie can cut into the stem as the plant grows.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand on the top step of a ladder.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Why do we prune plants? (select all that apply)",
+   "options": [
+    {
+     "text": "To remove dead and diseased branches",
+     "correct": true
+    },
+    {
+     "text": "To let sun and air into the middle of the tree",
+     "correct": true
+    },
+    {
+     "text": "To make the tree harder to pick",
+     "correct": false
+    },
+    {
+     "text": "To keep the plant at an easy size",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

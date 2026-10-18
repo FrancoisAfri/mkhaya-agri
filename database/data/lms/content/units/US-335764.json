@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-335764",
+ "title": "Analyse equine biomechanics",
+ "lessons": [
+  {
+   "title": "Principles of equine biomechanics",
+   "minutes": 25,
+   "html": "<h3>What biomechanics studies</h3>\n<p>Biomechanics applies the laws of mechanics to the movement of living bodies. In horses it explains how bones act as levers, how muscles, tendons and ligaments produce and store force, and how conformation, shoeing, rider and saddle change the loads on tissues. At NQF level 5 you use this understanding to analyse movement, explain performance and injury risk, and advise on training, farriery and equipment, working with vets, farriers and physiotherapists.</p>\n<h3>Levers and the skeleton</h3>\n<p>Bones are levers, joints are fulcrums and muscles provide the effort. Most limb levers are designed for speed and range rather than strength: muscles attach close to the joint, so a small contraction produces a large, fast movement at the hoof.</p>\n<h3>The distal limb: tendons as springs</h3>\n<p>Below the knee and hock there are no muscles. Movement and support depend on tendons and ligaments:</p>\n<ul>\n<li><strong>Superficial and deep digital flexor tendons</strong> and the <strong>suspensory ligament</strong> support the fetlock. When the hoof lands, the fetlock sinks, stretching these structures and storing elastic energy that is returned at push-off. This spring mechanism makes the horse very efficient, but it also explains why these tissues are often injured at speed or with fatigue.</li>\n<li><strong>The stay apparatus</strong> in the forelimb and the <strong>reciprocal apparatus</strong> and patellar locking mechanism in the hindlimb allow the horse to stand and doze with little muscular effort. In the hindlimb, the hock and stifle are linked so they flex and extend together.</li>\n</ul>\n<h3>The forelimb and hindlimb roles</h3>\n<p>The horse carries roughly 60% of its body weight on the forelimbs at rest. The forelimbs act mainly as struts that absorb impact and support; the hindlimbs act mainly as the engine that drives the horse forward and, with training, carries more weight (collection). The forelimbs are attached to the trunk only by muscles and ligaments (the thoracic sling), with no collarbone, which allows the trunk to rise between the shoulders when these muscles are strong.</p>\n<h3>The back as a bridge</h3>\n<p>The spine works like a bow and string: the vertebrae and back muscles form the bow, and the abdominal muscles and ventral structures the string. When the horse engages its abdominals and steps under with the hindlimbs, the back lifts and rounds, supporting the rider. A hollow back with a high head carriage reduces this ability and loads the spine.</p>"
+  },
+  {
+   "title": "The gaits and analysing movement",
+   "minutes": 25,
+   "html": "<h3>Gait mechanics</h3>\n<table><tr><th>Gait</th><th>Beat and footfall</th><th>Biomechanical notes</th></tr>\n<tr><td>Walk</td><td>Four-beat, lateral sequence (e.g. LH, LF, RH, RF), no suspension</td><td>Head and neck nod for balance; always two or three feet on the ground</td></tr>\n<tr><td>Trot</td><td>Two-beat, diagonal pairs, with a suspension phase</td><td>Symmetrical; best gait for lameness evaluation; energy stored and returned in tendons</td></tr>\n<tr><td>Canter</td><td>Three-beat: outside hind, then inside hind with outside fore together, then inside fore, then suspension</td><td>Asymmetrical; leading leg carries a large peak load</td></tr>\n<tr><td>Gallop</td><td>Four-beat with suspension</td><td>Breathing linked to stride (one breath per stride); highest limb loads</td></tr></table>\n<h3>Stride parameters</h3>\n<ul>\n<li><strong>Stride length and stride frequency:</strong> speed equals stride length times stride frequency. Horses increase speed first mainly by lengthening the stride, then by increasing frequency.</li>\n<li><strong>Stance and swing phases:</strong> the stance phase gets shorter as speed increases, so peak forces on each limb rise.</li>\n<li><strong>Breakover:</strong> the moment the heel lifts and the hoof rotates over the toe. Long toes delay breakover and increase strain on the deep digital flexor tendon and navicular region.</li>\n<li><strong>Symmetry:</strong> left and right limbs should show matching timing, height and length of stride.</li>\n</ul>\n<h3>Analysing movement in practice</h3>\n<ol>\n<li>Observe on a firm, level surface from behind, in front and the side, at walk and trot in hand, then on the lunge both ways and under saddle.</li>\n<li>Use slow-motion video from a phone at a fixed position to assess footfall, limb flight, hoof landing and symmetry. Many apps allow frame-by-frame analysis.</li>\n<li>Assess head and pelvic movement: asymmetry indicates lameness (head nod for forelimb, hip hike for hindlimb). Inertial sensor systems can measure this objectively.</li>\n<li>Assess limb flight: winging, paddling, plaiting, forging and interference.</li>\n<li>Assess hoof landing: ideally a flat or slightly heel-first landing at trot. A consistent toe-first landing may suggest heel pain.</li>\n<li>Assess the back and neck: swing of the back, tracking up, engagement and rhythm.</li>\n</ol>\n<p>Record findings objectively and compare over time. Refer asymmetries and suspected pain to the vet before training changes.</p>"
+  },
+  {
+   "title": "Applying biomechanics: conformation, farriery, rider and training",
+   "minutes": 20,
+   "html": "<h3>Conformation and loading</h3>\n<ul>\n<li><strong>Back at the knee</strong> overloads the structures at the back of the knee and the flexor tendons.</li>\n<li><strong>Long, sloping pasterns</strong> increase strain on the suspensory apparatus; <strong>short, upright pasterns</strong> increase concussion to joints and the foot.</li>\n<li><strong>Toe-out or toe-in</strong> alters the limb's flight path and loads one side of the joints more.</li>\n<li><strong>Straight hind limbs</strong> (post-legged) predispose to suspensory and stifle problems; <strong>sickle hocks</strong> overload the plantar ligament (curb).</li>\n</ul>\n<h3>Farriery effects</h3>\n<ul>\n<li>Correct hoof-pastern axis and medial-lateral balance distribute load evenly.</li>\n<li>Easing breakover (rolled or set-back toe) reduces strain on the deep digital flexor tendon.</li>\n<li>Shoe weight, studs and traction change landing and stopping forces; studs increase grip but also joint torsion.</li>\n<li>Changes should be gradual and discussed between farrier and vet, especially for remedial cases.</li>\n</ul>\n<h3>Rider and saddle</h3>\n<ul>\n<li>A rider adds about 10 to 20% of the horse's weight as a common guideline; heavier loads reduce stride quality and increase back strain.</li>\n<li>An unbalanced or crooked rider causes asymmetrical loading and can create or mimic lameness.</li>\n<li>Saddles must clear the withers and spine, distribute weight over the long back muscles, and not restrict shoulder rotation.</li>\n</ul>\n<h3>Training applications</h3>\n<ul>\n<li><strong>Warm-up:</strong> raises tissue temperature and elasticity, reducing tendon injury risk.</li>\n<li><strong>Core and topline work:</strong> poles, hill work, transitions and stretching in a long and low frame strengthen the abdominal and back muscles that lift the back.</li>\n<li><strong>Collection:</strong> gradual training shifts weight towards the hindquarters by increasing flexion of the hindlimb joints.</li>\n<li><strong>Surfaces:</strong> very hard surfaces raise impact forces; deep, loose surfaces increase tendon strain. Consistent, well-maintained footing reduces injury risk.</li>\n<li><strong>Fatigue:</strong> tired muscles absorb less shock, so tendons and bones take more load. Most breakdown injuries happen late in hard work.</li>\n<li><strong>Progressive loading:</strong> bone, tendon and muscle adapt to gradually increased work; sudden jumps in intensity cause injury.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Distal limb tendons and the suspensory ligament act as springs storing and returning energy.</li>\n<li>Forelimbs support and absorb impact; hindlimbs propel and, with training, carry.</li>\n<li>Speed equals stride length times stride frequency; stance time falls as speed rises.</li>\n<li>Use slow-motion video and symmetry analysis; refer asymmetry to the vet.</li>\n<li>Conformation, farriery, rider and saddle all change tissue loading.</li>\n<li>Warm-up, core work, good footing and progressive loading reduce injury risk.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do the flexor tendons and suspensory ligament do when the hoof lands?",
+   "options": [
+    {
+     "text": "Contract like muscles to push off",
+     "correct": false
+    },
+    {
+     "text": "Stretch and store elastic energy",
+     "correct": true
+    },
+    {
+     "text": "Lock the knee permanently",
+     "correct": false
+    },
+    {
+     "text": "Nothing during movement",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Roughly what share of body weight do the forelimbs carry at rest?",
+   "options": [
+    {
+     "text": "About 20%",
+     "correct": false
+    },
+    {
+     "text": "About 40%",
+     "correct": false
+    },
+    {
+     "text": "About 60%",
+     "correct": true
+    },
+    {
+     "text": "About 90%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is speed related to stride?",
+   "options": [
+    {
+     "text": "Speed equals stride length times stride frequency",
+     "correct": true
+    },
+    {
+     "text": "Speed equals stance time only",
+     "correct": false
+    },
+    {
+     "text": "Speed is unrelated to stride",
+     "correct": false
+    },
+    {
+     "text": "Speed equals the number of legs on the ground",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What effect does a long toe have on breakover?",
+   "options": [
+    {
+     "text": "It speeds up breakover",
+     "correct": false
+    },
+    {
+     "text": "It has no effect",
+     "correct": false
+    },
+    {
+     "text": "It removes breakover",
+     "correct": false
+    },
+    {
+     "text": "It delays breakover and increases strain on the deep digital flexor tendon",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which gait is symmetrical with diagonal pairs and a suspension phase?",
+   "options": [
+    {
+     "text": "Walk",
+     "correct": false
+    },
+    {
+     "text": "Trot",
+     "correct": true
+    },
+    {
+     "text": "Canter",
+     "correct": false
+    },
+    {
+     "text": "Rein back",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fatigue increases the load on tendons and bones because tired muscles absorb less shock.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A crooked rider has no effect on how the horse moves.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which training practices reduce injury risk? (select all that apply)",
+   "options": [
+    {
+     "text": "A proper warm-up",
+     "correct": true
+    },
+    {
+     "text": "Progressive increases in workload",
+     "correct": true
+    },
+    {
+     "text": "Consistent, well-maintained footing",
+     "correct": true
+    },
+    {
+     "text": "Sudden jumps in intensity",
+     "correct": false
+    },
+    {
+     "text": "Hard work on very deep, loose sand only",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-KM-04",
+ "title": "Stored Grain Quality Control",
+ "lessons": [
+  {
+   "title": "What damages stored grain",
+   "minutes": 18,
+   "html": "<h3>Grain is alive</h3>\n<p>Stored grain is a living material. Kernels respire slowly, using oxygen and producing heat, carbon dioxide and moisture. Insects, mites and fungi living in the grain mass do the same, much faster. When temperature and moisture are high, this activity speeds up, creating hot spots that spread through the bin and spoil grain. Stored grain quality control is the science of keeping this activity as low as possible.</p>\n<h4>The main factors</h4>\n<ul>\n<li><strong>Moisture content</strong> – the most important factor. Grain stored above its safe moisture level supports mould growth. Safe levels differ by commodity and storage period; follow the depot's standards and grading regulations.</li>\n<li><strong>Temperature</strong> – warm grain favours insects and mould; cool grain stores much longer.</li>\n<li><strong>Moisture migration</strong> – in a bin, temperature differences between the warm centre and cold walls cause air currents that move moisture, which condenses near the top surface in winter, causing crusting and mould.</li>\n<li><strong>Damage and foreign material</strong> – broken kernels, dust and weed seeds collect in the centre spout line, are more easily attacked and block aeration airflow.</li>\n<li><strong>Time</strong> – risk increases with storage time.</li>\n</ul>\n<h4>Storage insects</h4>\n<p>Common stored product insects in South Africa include maize weevils and rice weevils (primary pests that develop inside kernels), lesser grain borer, and secondary pests such as flour beetles and grain moths that feed on damaged grain. Insects raise grain temperature and moisture, cause loss of mass and quality, and lead to downgrading or rejection.</p>\n<h4>Fungi and mycotoxins</h4>\n<p>Moulds such as Aspergillus, Fusarium and Penicillium can grow in damp or damaged grain and may produce mycotoxins such as aflatoxins, fumonisins, deoxynivalenol and zearalenone. Mycotoxins are harmful to animals and people and may not be removed by normal processing. Some come in from the field; good storage prevents further growth.</p>\n<h4>Signs of problems</h4>\n<ul>\n<li>Rising temperature readings in temperature cables.</li>\n<li>Musty or sour smells at bin vents.</li>\n<li>Crusting, caking or wet surfaces.</li>\n<li>Live insects in samples or traps.</li>\n<li>Rising carbon dioxide levels where monitored.</li>\n</ul>"
+  },
+  {
+   "title": "Preventing and controlling quality loss",
+   "minutes": 18,
+   "html": "<h3>Before grain enters storage</h3>\n<ol>\n<li>Clean and inspect empty bins, tunnels, conveyors and elevator boots; remove old grain, which harbours insects.</li>\n<li>Apply registered structural treatments where needed, strictly according to the label.</li>\n<li>Grade incoming grain and dry it to the safe storage moisture before long-term storage.</li>\n<li>Pre-clean grain to remove fines and foreign material where possible.</li>\n<li>Store different commodities and grades separately and record what is in each bin.</li>\n</ol>\n<h3>During storage</h3>\n<ul>\n<li><strong>Monitoring</strong> – read temperature cables regularly; inspect surfaces; take samples for insects and moisture according to the monitoring plan.</li>\n<li><strong>Aeration</strong> – blow ambient air through the grain when outside air is cooler (and not too humid) to cool the grain mass evenly and prevent migration. Aeration controllers can select suitable hours.</li>\n<li><strong>Turning</strong> – moving grain from one bin to another can break up hot spots and remove the fine-material core, but it costs energy and causes breakage.</li>\n<li><strong>Insect control</strong> – registered grain protectants on intake where permitted, and fumigation with phosphine in sealed structures by trained, registered fumigators. Exposure time and gas concentration must be correct, otherwise insects survive and resistance develops.</li>\n</ul>\n<h3>Fumigation safety</h3>\n<p>Phosphine gas is extremely toxic. Only trained and registered operators may fumigate. Seal and placard structures, monitor gas, keep everyone out during fumigation and ventilate and test before re-entry. Never enter a fumigated structure, and report any smell or symptoms immediately.</p>\n<h3>Records and reporting</h3>\n<p>Keep records per bin: commodity, grade, owner, intake dates, moisture, temperature readings, aeration hours, treatments and fumigations. These records demonstrate due care to grain owners and help trace problems. Report deteriorating bins to management with a plan: aerate, turn, fumigate or out-load first.</p>\n<h4>Key points</h4>\n<ul>\n<li>Moisture and temperature drive insect and mould activity in stored grain.</li>\n<li>Moisture migration and fines cores create spoilage zones.</li>\n<li>Clean bins, dry grain and keep grades separate before storage.</li>\n<li>Monitor temperatures, aerate with cool air and control insects with registered methods.</li>\n<li>Phosphine fumigation is only for trained, registered operators; never enter a fumigated structure.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the most important factor in stored grain spoilage?",
+   "options": [
+    {
+     "text": "Day of the week",
+     "correct": false
+    },
+    {
+     "text": "Moisture content",
+     "correct": true
+    },
+    {
+     "text": "Bin colour",
+     "correct": false
+    },
+    {
+     "text": "Truck size",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does moisture condense near the top grain surface in winter?",
+   "options": [
+    {
+     "text": "Rain through closed roofs",
+     "correct": false
+    },
+    {
+     "text": "Aeration with cold air",
+     "correct": false
+    },
+    {
+     "text": "Moisture migration caused by temperature differences in the bin",
+     "correct": true
+    },
+    {
+     "text": "Fumigation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should aeration fans be run to cool grain?",
+   "options": [
+    {
+     "text": "When it is raining",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "When outside air is cooler and not too humid",
+     "correct": true
+    },
+    {
+     "text": "Only at midday in summer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can happen if phosphine exposure time or concentration is too low?",
+   "options": [
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Insects survive and resistance develops",
+     "correct": true
+    },
+    {
+     "text": "The grade improves",
+     "correct": false
+    },
+    {
+     "text": "The grain dries faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of a developing problem in a bin?",
+   "options": [
+    {
+     "text": "Stable low temperatures",
+     "correct": false
+    },
+    {
+     "text": "Clean, dry surface",
+     "correct": false
+    },
+    {
+     "text": "No smell",
+     "correct": false
+    },
+    {
+     "text": "Rising temperature cable readings",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mycotoxins are always removed by normal processing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Old grain left in bins and conveyors can harbour insects.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of quality loss in stored grain? (select all that apply)",
+   "options": [
+    {
+     "text": "Steady cool temperatures",
+     "correct": false
+    },
+    {
+     "text": "Musty smells",
+     "correct": true
+    },
+    {
+     "text": "Live insects in samples",
+     "correct": true
+    },
+    {
+     "text": "Crusting or caking",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

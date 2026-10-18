@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-653308-000-00-00-KM-13",
+  "title": "Tracking and Guidance Systems as Applied on Agricultural Equipment",
+  "lessons": [
+    {
+      "title": "GNSS positioning and correction signals",
+      "minutes": 20,
+      "html": "<h3>Precision farming starts with position</h3><p>Guidance systems steer tractors along accurate lines, reduce overlap and missed strips, lower driver fatigue and allow work at night or in dust. On large maize, soya and wheat farms in the Free State, North West and Mpumalanga, auto-steer is now common. Tracking systems also record where machines are and what they have done.</p><h4>GNSS basics</h4><p>Global Navigation Satellite Systems (GNSS) include GPS (United States), GLONASS (Russia), Galileo (Europe) and BeiDou (China). A receiver on the tractor roof calculates position from the timing of signals from several satellites. Using more constellations improves availability near trees, hills and buildings.</p><h4>Accuracy levels</h4><table><tr><th>Correction type</th><th>Typical use</th><th>Notes</th></tr><tr><td>No correction (autonomous)</td><td>Basic mapping, telematics</td><td>Metre-level accuracy</td></tr><tr><td>SBAS and entry-level satellite corrections</td><td>Spraying, spreading, tillage</td><td>Sub-metre, some drift over time</td></tr><tr><td>Precise point positioning (subscription satellite)</td><td>Most field work</td><td>Better accuracy after convergence time</td></tr><tr><td>RTK (base station or network)</td><td>Planting, controlled traffic, strip-till</td><td>Centimetre-level and repeatable year to year</td></tr></table><p>RTK uses a fixed base station or a network that sends corrections by radio or cellular modem. The rover on the tractor must stay within range and receive corrections continuously. Loss of signal, poor cellular coverage in rural areas or a moved base station reduces accuracy.</p><h4>Key terms</h4><ul><li><strong>Pass-to-pass accuracy:</strong> accuracy between adjacent passes over a short time.</li><li><strong>Repeatability:</strong> returning to the same line on another day or season.</li><li><strong>Convergence:</strong> time for a correction service to reach full accuracy.</li></ul><h4>Choosing a correction level</h4><p>The right accuracy depends on the job. Spreading fertiliser on veld or lands can work with sub-metre accuracy, while planting rows that must be found again for spraying and harvest needs RTK. Higher accuracy usually costs more in equipment and subscriptions, so match it to the farmer's needs.</p>"
+    },
+    {
+      "title": "Auto-steer, implement control and telematics",
+      "minutes": 20,
+      "html": "<h3>System components</h3><ul><li><strong>Receiver and antenna:</strong> roof-mounted, clear view of the sky.</li><li><strong>Terrain compensation:</strong> an inertial measurement unit (IMU) corrects for roll, pitch and yaw so the position is calculated at ground level, not roof level, on slopes and in furrows.</li><li><strong>Display (terminal):</strong> sets up fields, guidance lines (A-B straight, curved, pivot) and implement data.</li><li><strong>Steering control:</strong> integrated systems use an electrohydraulic steering valve with a wheel-angle sensor; aftermarket systems may use an electric motor on the steering wheel.</li><li><strong>Navigation controller or ECU</strong> and wiring to the tractor CAN bus.</li></ul><h4>Implement control</h4><p>Through ISOBUS, the display can control implements: section control switches sprayer or planter sections off on areas already covered, and variable rate application changes seed or fertiliser rates according to prescription maps. Implement guidance can steer the implement itself on side slopes.</p><h4>Telematics and tracking</h4><p>Telematics units send machine location, hours, fuel use, fault codes and work records over the cellular network. Managers use them to plan service, track productivity and prevent theft. Mechanics can read fault codes remotely and arrive with the right parts.</p><h4>Installation and calibration</h4><ol><li>Mount the receiver on the tractor centre line and measure offsets accurately to the manual.</li><li>Calibrate the IMU on level ground and the wheel-angle sensor through full lock.</li><li>Tune steering response for the tractor and conditions.</li><li>Enter implement width, offsets and section layout exactly.</li><li>Test on a straight A-B line, measuring pass-to-pass error.</li></ol><h4>Fault finding</h4><p>Check the basics first: antenna cable damage, power supply and grounds, correction signal status, subscription expiry and firmware compatibility. Poor line holding is often a calibration or hydraulic issue such as worn steering joints rather than a GNSS fault.</p><h4>Safety</h4><p>Auto-steer does not detect obstacles or people. The operator must stay in the seat, watch ahead and take over at headlands. Operator presence systems disengage steering if the operator leaves the seat; never bypass them.</p><h4>Key points</h4><ul><li>GNSS accuracy depends on the correction source; RTK gives centimetre-level repeatability.</li><li>Terrain compensation corrects position on slopes.</li><li>Section control and variable rate need accurate implement settings.</li><li>Calibrate receiver offsets, IMU and wheel-angle sensor carefully.</li><li>Auto-steer does not see obstacles; the operator must stay alert.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which correction type gives centimetre-level, repeatable accuracy?",
+      "options": [
+        {
+          "text": "No correction",
+          "correct": false
+        },
+        {
+          "text": "SBAS",
+          "correct": false
+        },
+        {
+          "text": "RTK",
+          "correct": true
+        },
+        {
+          "text": "Compass",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does terrain compensation correct for?",
+      "options": [
+        {
+          "text": "Roll, pitch and yaw of the tractor",
+          "correct": true
+        },
+        {
+          "text": "Engine temperature",
+          "correct": false
+        },
+        {
+          "text": "Tyre wear",
+          "correct": false
+        },
+        {
+          "text": "Fuel quality",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does section control do on a sprayer?",
+      "options": [
+        {
+          "text": "Increases pressure",
+          "correct": false
+        },
+        {
+          "text": "Turns off sections over areas already covered",
+          "correct": true
+        },
+        {
+          "text": "Cleans the nozzles",
+          "correct": false
+        },
+        {
+          "text": "Steers the tractor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should the GNSS receiver be mounted?",
+      "options": [
+        {
+          "text": "Under the cab floor",
+          "correct": false
+        },
+        {
+          "text": "Inside the engine bay",
+          "correct": false
+        },
+        {
+          "text": "On the implement drawbar",
+          "correct": false
+        },
+        {
+          "text": "On the roof on the tractor centre line with a clear sky view",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Poor line holding with a good correction signal often points to what?",
+      "options": [
+        {
+          "text": "Calibration or worn steering joints",
+          "correct": true
+        },
+        {
+          "text": "Satellite failure",
+          "correct": false
+        },
+        {
+          "text": "Wrong engine oil",
+          "correct": false
+        },
+        {
+          "text": "Low tyre tread",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Auto-steer detects obstacles and people in the land.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Telematics can send fault codes and machine location to managers and mechanics.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are basic checks when a guidance system is not working? (select all that apply)",
+      "options": [
+        {
+          "text": "Antenna cable damage",
+          "correct": true
+        },
+        {
+          "text": "Correction signal status and subscription",
+          "correct": true
+        },
+        {
+          "text": "Power supply and grounds",
+          "correct": true
+        },
+        {
+          "text": "The colour of the tractor",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

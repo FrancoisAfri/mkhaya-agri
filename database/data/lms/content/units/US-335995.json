@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-335995",
+ "title": "Install irrigation water storage tanks",
+ "lessons": [
+  {
+   "title": "Constructing a concrete base for a tank",
+   "minutes": 20,
+   "html": "<h3>Why the base matters</h3><p>Water is heavy: one cubic metre weighs about one tonne. A 10 000 litre tank full of water puts about 10 tonnes on its base. If the base is uneven or settles, the tank can crack, bulge, lean or collapse, which is a serious safety hazard and a costly loss. Most tank manufacturers will not honour warranties unless the base meets their specification.</p><h4>Choosing the site</h4><ul><li>Firm, undisturbed ground; avoid filled ground, termite mounds, clay that swells, or areas that flood.</li><li>Away from tree roots that can lift the slab and from overhead power lines.</li><li>Access for delivery trucks and for maintenance.</li><li>Height: placing the tank higher gives more gravity pressure (about 1 bar per 10 m height), but stands must be designed by a competent person.</li><li>Check local by-laws and estate rules.</li></ul><h4>Building the slab</h4><ol><li>Mark out the slab larger than the tank diameter, as the manufacturer requires.</li><li>Excavate topsoil and organic matter down to firm ground.</li><li>Compact the base in layers with a plate compactor, using suitable fill such as G5 gravel if needed.</li><li>Set up formwork (shutters) level, using a spirit level, line level or dumpy level.</li><li>Place a damp-proof membrane if specified, and steel reinforcing mesh on spacers so it sits within the concrete, not on the ground.</li><li>Leave sleeves or conduits for outlet pipes, drains or cables if they pass through the slab.</li><li>Pour concrete of the strength specified, compact it with a poker or by rodding, and level with a screed board. The top must be flat and smooth, with no stones sticking out that could damage a plastic tank base.</li><li>Cure the concrete by keeping it damp and covered for several days before loading.</li></ol><h4>Safety</h4><p>Wet cement burns skin: wear gloves, boots, long sleeves and eye protection. Lift bags correctly. Keep excavations barricaded.</p>"
+  },
+  {
+   "title": "Positioning the tank and installing piping",
+   "minutes": 20,
+   "html": "<h3>Positioning the tank</h3><ol><li>Check the slab is cured, level and clean. Sweep off stones and grit.</li><li>Inspect the tank for transport damage before unloading.</li><li>Lift and move the tank with enough people or with slings and a crane truck as appropriate. Never roll a tank over rough ground, and never lift it by its fittings.</li><li>Place the tank centrally so the whole base is supported, with outlets facing the direction of the pipes.</li><li>Secure against wind when empty: an empty plastic tank is light and can blow over. Use tie-downs or straps where the manufacturer recommends.</li></ol><h4>Pipe connections</h4><table><tr><th>Connection</th><th>Purpose and installation points</th></tr><tr><td>Inlet</td><td>Usually at the top; supply from municipal line, borehole or gutters, with a float valve or switch controlling the level</td></tr><tr><td>Outlet</td><td>Near the bottom, slightly above the floor so sediment is not drawn into the pump; fit a strainer</td></tr><tr><td>Overflow</td><td>Near the top, same size or larger than the inlet; leads water safely away from the slab and buildings, with an insect screen</td></tr><tr><td>Drain or scour</td><td>At the lowest point, with a valve, for cleaning</td></tr><tr><td>Vent</td><td>Lets air in and out as water level changes; screened</td></tr></table><h4>Installing pipes</h4><ul><li>Use tank connectors (bulkhead fittings) with the correct seals; tighten as the manufacturer says without cracking the tank wall.</li><li>Use flexible connectors between the tank and rigid pipes, because tanks move slightly as they fill.</li><li>Support pipes so their weight does not hang on the tank fittings.</li><li>Where a tank is filled from a municipal supply, the inlet must have an air gap above the overflow level or a backflow device, so tank water cannot flow back into the drinking water main, as municipal by-laws require.</li><li>Protect plastic pipes above ground from sunlight with UV-resistant pipe or covering.</li></ul><h4>Safety</h4><p>Never enter a tank: it is a confined space, and entry needs a permit, gas testing and a standby person under OHS confined space rules. Do work from outside.</p>"
+  },
+  {
+   "title": "Fitting valves and float switches",
+   "minutes": 20,
+   "html": "<h3>Isolation and control valves</h3><ul><li><strong>Isolating valve on the outlet:</strong> a gate or ball valve next to the tank so pipes and pumps can be serviced without draining the tank.</li><li><strong>Isolating valve on the inlet:</strong> to stop filling during maintenance.</li><li><strong>Non-return valve:</strong> on pump suction or delivery where water must not flow back.</li><li><strong>Scour valve:</strong> on the drain outlet.</li><li><strong>Float valve (ball valve):</strong> a mechanical valve on the inlet that closes as a float rises, keeping the tank from overflowing.</li></ul><p>Fit valves with unions so they can be removed. Check flow arrows. Test that each valve opens and closes fully.</p><h4>Adjusting a mechanical float valve</h4><ol><li>Fill the tank and watch the level at which the float valve closes.</li><li>Adjust the float arm or float position so the valve closes a safe distance below the overflow.</li><li>Check the valve closes fully with no dripping; replace washers if needed.</li></ol><h4>Float switches</h4><p>Float switches are electrical switches that tilt or move with the water level. They control pumps:</p><table><tr><th>Use</th><th>Action</th></tr><tr><td>Filling a tank from a borehole</td><td>Stop the borehole pump when the tank is full; start it when the level drops</td></tr><tr><td>Pumping out of a tank to irrigation</td><td>Stop the irrigation pump when the tank is nearly empty (dry-run protection)</td></tr><tr><td>Alarm</td><td>Warn of high or low level</td></tr></table><h4>Fitting and adjusting float switches</h4><ul><li>Clamp the cable to a fixed point, inside the tank or on a weighted bracket, so the float tilts freely without touching the wall, pipes or other floats.</li><li>The tether length sets the difference between on and off levels: longer tether, bigger range.</li><li>Set the low-level switch so the pump stops while the outlet is still under water.</li><li>Wiring to the pump panel must be done by a qualified electrician.</li><li>Test by raising and lowering the float and confirming the pump starts and stops.</li></ul><h4>Records</h4><p>Record tank size, slab details, valve and float settings, and test results, and give the client a simple drawing of the connections.</p><h4>Key points</h4><ul><li>A full tank is very heavy; build a level, reinforced, cured concrete base.</li><li>Place outlets above the floor, fit overflow, drain and vent with screens.</li><li>Use flexible connectors and support pipes; protect municipal supplies from backflow.</li><li>Fit isolating valves and adjust float valves below overflow level.</li><li>Use float switches for pump control and dry-run protection; never enter a tank.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "About how much does one cubic metre of water weigh?",
+   "options": [
+    {
+     "text": "One tonne",
+     "correct": true
+    },
+    {
+     "text": "100 kg",
+     "correct": false
+    },
+    {
+     "text": "10 kg",
+     "correct": false
+    },
+    {
+     "text": "Ten tonnes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the tank outlet be slightly above the floor of the tank?",
+   "options": [
+    {
+     "text": "To increase pressure",
+     "correct": false
+    },
+    {
+     "text": "To save pipe",
+     "correct": false
+    },
+    {
+     "text": "So sediment is not drawn into the pump",
+     "correct": true
+    },
+    {
+     "text": "So the tank fills faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done to concrete after pouring the slab?",
+   "options": [
+    {
+     "text": "Load the tank immediately",
+     "correct": false
+    },
+    {
+     "text": "Let it dry in the sun quickly",
+     "correct": false
+    },
+    {
+     "text": "Paint it",
+     "correct": false
+    },
+    {
+     "text": "Keep it damp and covered for several days to cure",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are flexible connectors used between tank and rigid pipes?",
+   "options": [
+    {
+     "text": "They are cheaper",
+     "correct": false
+    },
+    {
+     "text": "Tanks move slightly as they fill",
+     "correct": true
+    },
+    {
+     "text": "They increase flow",
+     "correct": false
+    },
+    {
+     "text": "They filter the water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What sets the difference between the on and off levels of a tethered float switch?",
+   "options": [
+    {
+     "text": "The colour of the float",
+     "correct": false
+    },
+    {
+     "text": "The pump size",
+     "correct": false
+    },
+    {
+     "text": "The tether length",
+     "correct": true
+    },
+    {
+     "text": "The tank colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An empty plastic tank can blow over in wind if not secured.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A worker may climb into a tank to adjust a float without a permit if it is quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which connections should a storage tank normally have? (select all that apply)",
+   "options": [
+    {
+     "text": "Overflow",
+     "correct": true
+    },
+    {
+     "text": "Drain or scour",
+     "correct": true
+    },
+    {
+     "text": "Screened vent",
+     "correct": true
+    },
+    {
+     "text": "A direct connection from tank water back into the municipal main",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

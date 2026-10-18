@@ -26,7 +26,7 @@ class PayFastGateway implements GatewayContract
             'notify_url' => $notifyUrl,
             'm_payment_id' => $payment->our_ref,
             'amount' => number_format((float) $payment->amount, 2, '.', ''),
-            'item_name' => 'Mkhaya Hub — '.$payment->purpose,
+            'item_name' => 'Mkhaya Agri — '.$payment->purpose,
         ];
         $fields['signature'] = $this->signature($fields, (string) $this->gw->cred('passphrase', ''));
 

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-335739",
+ "title": "Explain and apply procedures pertaining to restricted areas at a race course on race day",
+ "lessons": [
+  {
+   "title": "Restricted areas and why they exist",
+   "minutes": 15,
+   "html": "<h3>What is a restricted area?</h3> <p>On race day a racecourse has public areas, such as the grandstands and restaurants, and restricted areas where only authorised people may go. Restricted areas protect the horses, the jockeys and the honesty of the racing. In South Africa racing is controlled by the National Horseracing Authority (NHA), and the racecourse operator and the NHA set the access rules.</p> <h4>Why access is controlled</h4> <ul> <li><strong>Integrity:</strong> to stop anyone interfering with a horse, for example giving it a prohibited substance, before a race.</li> <li><strong>Safety:</strong> racehorses are fit, excited and can kick or bolt; crowds near them are dangerous.</li> <li><strong>Order:</strong> officials, jockeys and grooms must be able to work without disturbance.</li> </ul> <h4>Typical restricted areas</h4> <table><tr><th>Area</th><th>What happens there</th></tr> <tr><td>Racecourse stables (raceday stables)</td><td>Horses are kept between arrival and their race</td></tr> <tr><td>Saddling enclosure / saddling boxes</td><td>Trainers and grooms saddle horses</td></tr> <tr><td>Parade ring</td><td>Horses are led around before the race so the public and officials can see them</td></tr> <tr><td>Weighing room and jockeys' room</td><td>Jockeys weigh out and in, change and wait</td></tr> <tr><td>Track and track entrances</td><td>Horses go out to race and return</td></tr> <tr><td>Testing (sampling) stable</td><td>Officials take samples for drug testing</td></tr> <tr><td>Veterinary area</td><td>Racecourse vets examine horses</td></tr></table> <h4>Who may enter</h4> <p>Usually only people with the right accreditation or licence: trainers, licensed grooms and stable staff, jockeys, officials, vets, farriers on duty and security. Each person may enter only the areas their card or badge allows. A groom's card does not give access to the jockeys' room, for example.</p> <h4>Your identification</h4> <p>Carry your groom's identity card or accreditation at all times on race day, and show it when asked. Never lend it to anyone. If it is lost, report it at once to your trainer.</p>"
+  },
+  {
+   "title": "Following procedures on race day",
+   "minutes": 15,
+   "html": "<h3>Arriving and entering</h3> <ol> <li>Arrive at the stable entrance and present your identification to security.</li> <li>The horse's identity may be checked against its documents or microchip by officials.</li> <li>Go to the stable you are allocated. Do not swap stables without permission.</li> <li>Bags and equipment may be searched. Co-operate politely.</li> </ol> <h4>In the raceday stables</h4> <ul> <li>Stay with your horse or make sure it is supervised as the rules require.</li> <li>Do not let unauthorised people near your horse, including owners' friends, unless the rules and the trainer allow.</li> <li>Do not give the horse any substance, feed, water additive or injection unless you are certain it is allowed and the trainer instructs it. Prohibited substances can lead to disqualification and penalties.</li> <li>Keep the stable area tidy and do not smoke near bedding.</li> </ul> <h4>Saddling and the parade ring</h4> <p>Bring the horse to the saddling area at the time set. After saddling, lead the horse to the parade ring. In the parade ring, lead on the correct side, keep moving in the set direction, and keep a safe distance. Only authorised people (trainer, owner where allowed, jockey, officials) enter the ring. Follow the instructions of the ring steward.</p> <h4>Going to and from the track</h4> <p>Follow the route set by officials. Release the horse to the jockey at the point the rules say. Wait at the place where horses return. After the race, take the horse back by the set route.</p> <h4>Testing</h4> <p>If your horse is selected for sampling, go with it directly to the testing stable. Do not let anyone else handle it on the way. Stay with the horse while the official takes the sample and sign the forms as required. Do not leave until you are told the process is finished.</p> <h4>Behaviour</h4> <ul> <li>No alcohol or drugs on duty.</li> <li>Be polite to officials and security; follow their instructions.</li> <li>Do not place bets if the rules for stable staff prohibit it; ask your trainer.</li> <li>Report anything suspicious, such as a stranger near the horses, to security or an official.</li> </ul> <p>Breaking the rules can lead to fines, suspension of your licence, and the horse being disqualified.</p> <h4>Key points</h4> <ul> <li>Restricted areas protect integrity, safety and order on race day.</li> <li>Carry and show your identification; never lend it.</li> <li>Enter only areas your accreditation allows.</li> <li>Never give a horse any substance without being sure it is allowed and instructed.</li> <li>If selected for testing, stay with the horse until the process is complete.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which body controls horse racing in South Africa?",
+   "options": [
+    {
+     "text": "SPCA",
+     "correct": false
+    },
+    {
+     "text": "National Horseracing Authority (NHA)",
+     "correct": true
+    },
+    {
+     "text": "Department of Water",
+     "correct": false
+    },
+    {
+     "text": "AgriSETA",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens in the weighing room?",
+   "options": [
+    {
+     "text": "Horses are fed",
+     "correct": false
+    },
+    {
+     "text": "Jockeys weigh out and in",
+     "correct": true
+    },
+    {
+     "text": "Grooms bathe horses",
+     "correct": false
+    },
+    {
+     "text": "The public buys tickets",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A friend asks to borrow your groom's card to see the stables. What do you do?",
+   "options": [
+    {
+     "text": "Lend it",
+     "correct": false
+    },
+    {
+     "text": "Refuse; never lend your identification",
+     "correct": true
+    },
+    {
+     "text": "Sell it",
+     "correct": false
+    },
+    {
+     "text": "Give him a copy",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Your horse is selected for testing. What must you do?",
+   "options": [
+    {
+     "text": "Go to lunch",
+     "correct": false
+    },
+    {
+     "text": "Go directly with the horse to the testing stable and stay with it",
+     "correct": true
+    },
+    {
+     "text": "Let anyone lead it there",
+     "correct": false
+    },
+    {
+     "text": "Wash it first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are restricted areas controlled?",
+   "options": [
+    {
+     "text": "To keep grooms bored",
+     "correct": false
+    },
+    {
+     "text": "For integrity, safety and order",
+     "correct": true
+    },
+    {
+     "text": "To sell more tickets",
+     "correct": false
+    },
+    {
+     "text": "For decoration",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A groom's card normally gives access to every area, including the jockeys' room.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Giving a horse a prohibited substance can lead to disqualification and penalties.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are typical restricted areas at a racecourse? (select all that apply)",
+   "options": [
+    {
+     "text": "Raceday stables",
+     "correct": true
+    },
+    {
+     "text": "Parade ring",
+     "correct": true
+    },
+    {
+     "text": "Testing stable",
+     "correct": true
+    },
+    {
+     "text": "Public restaurant",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

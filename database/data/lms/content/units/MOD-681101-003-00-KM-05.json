@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-003-00-KM-05",
+ "title": "Basic Pork Anatomy and Abnormalities",
+ "lessons": [
+  {
+   "title": "The parts of a pig",
+   "minutes": 20,
+   "html": "<h3>Why anatomy matters</h3><p>To slaughter and dress a pig cleanly, you must know where the joints, organs and gut lie. This helps you cut without damaging the gut or valuable cuts, and helps you notice abnormalities for the meat inspector.</p><h3>Digestive system</h3><p>Unlike cattle, pigs have a <strong>single stomach</strong> (they are monogastric). Food goes down the oesophagus to the stomach, then through the small intestine and the large intestine (including the colon) to the rectum. The gut contents are full of germs, so the gut must not be cut during evisceration, and the rectum is freed and tied or bagged.</p><h3>Organs</h3><table><tr><th>Organ</th><th>Where</th></tr><tr><td>Heart, lungs, windpipe</td><td>Chest cavity (together called the pluck, with the liver in some plants)</td></tr><tr><td>Diaphragm</td><td>Between chest and belly</td></tr><tr><td>Liver (with gall bladder)</td><td>Front of the belly, against the diaphragm</td></tr><tr><td>Stomach and spleen</td><td>Left front of the belly</td></tr><tr><td>Intestines</td><td>Most of the belly cavity</td></tr><tr><td>Kidneys</td><td>Under the loin, in the leaf fat</td></tr><tr><td>Bladder and reproductive organs</td><td>Pelvis</td></tr></table><h3>Lymph nodes</h3><p>Lymph nodes are small glands found in the head, neck, around organs and in the carcass. The meat inspector cuts and checks some of them because they show signs of infection. Do not cut or remove them before inspection unless your procedure says so.</p><h3>The carcass and its cuts</h3><p>The pork carcass includes the skin, back fat, and the main cuts: shoulder, loin (with the chops), belly (for bacon) and leg (for ham). The splitting saw runs down the middle of the backbone. Careless knife work or bruises on the loin and leg lower the value of the carcass.</p>"
+  },
+  {
+   "title": "Recognising abnormalities in pigs",
+   "minutes": 20,
+   "html": "<h3>Notice and report</h3><p>Your job is to notice abnormalities and report them. <strong>Only the meat inspector decides</strong> whether a carcass or organ is passed, trimmed or condemned. Keep the carcass, head and offal together and identified until inspection is complete.</p><h3>Common abnormalities</h3><table><tr><th>Abnormality</th><th>What you see</th></tr><tr><td>Pork measles (cysticercosis)</td><td>Small, fluid-filled whitish cysts in the muscles, tongue and heart. Caused by a tapeworm that can cause serious illness in people. Report at once.</td></tr><tr><td>Milk spot liver</td><td>White spots on the liver from migrating roundworms</td></tr><tr><td>Pneumonia and pleurisy</td><td>Dark, firm areas in the lungs; lungs stuck to the ribs</td></tr><tr><td>Abscesses</td><td>Pockets of pus, for example from tail biting or injections. Do not cut into them.</td></tr><tr><td>Erysipelas</td><td>Raised, diamond-shaped red patches on the skin; swollen joints</td></tr><tr><td>Arthritis</td><td>Swollen, inflamed joints</td></tr><tr><td>Bruises and bite wounds</td><td>Bloody areas from fighting or rough handling</td></tr><tr><td>Hernias</td><td>Swellings at the navel or groin, which may contain gut; take great care when cutting</td></tr><tr><td>Jaundice</td><td>Yellow fat and tissues</td></tr><tr><td>PSE / DFD meat</td><td>Pale, soft, watery meat, or dark, firm, dry meat, linked to stress</td></tr><tr><td>Unusual reddening or bleeding of skin and organs</td><td>Can be a sign of a serious disease such as African swine fever; report immediately</td></tr></table><h3>What to do</h3><ol><li>Stop and call the meat inspector.</li><li>Do not continue processing the affected parts.</li><li>If you cut into pus or a cyst, sterilise your knife and wash your hands and arms.</li><li>Wear gloves; some pig diseases can infect people.</li></ol><h4>Key points</h4><ul><li>Pigs have a single stomach; the gut must not be cut.</li><li>Know where the organs and lymph nodes are.</li><li>Pork measles can infect people: report it at once.</li><li>Common abnormalities include milk spot liver, pneumonia, abscesses and erysipelas.</li><li>Only the meat inspector decides; keep carcass, head and offal together.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How many stomach compartments does a pig have?",
+   "options": [
+    {
+     "text": "Four",
+     "correct": false
+    },
+    {
+     "text": "Three",
+     "correct": false
+    },
+    {
+     "text": "One",
+     "correct": true
+    },
+    {
+     "text": "Two",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does milk spot liver show?",
+   "options": [
+    {
+     "text": "Damage from migrating roundworms",
+     "correct": true
+    },
+    {
+     "text": "Good health",
+     "correct": false
+    },
+    {
+     "text": "Too much fat",
+     "correct": false
+    },
+    {
+     "text": "Correct bleeding",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which abnormality appears as raised, diamond-shaped red patches on the skin?",
+   "options": [
+    {
+     "text": "Pork measles",
+     "correct": false
+    },
+    {
+     "text": "Jaundice",
+     "correct": false
+    },
+    {
+     "text": "Hernia",
+     "correct": false
+    },
+    {
+     "text": "Erysipelas",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must pork measles be reported at once?",
+   "options": [
+    {
+     "text": "It makes the meat salty",
+     "correct": false
+    },
+    {
+     "text": "It is caused by a tapeworm that can cause serious illness in people",
+     "correct": true
+    },
+    {
+     "text": "It changes the price only",
+     "correct": false
+    },
+    {
+     "text": "It affects the skin colour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you cut into an abscess?",
+   "options": [
+    {
+     "text": "Continue with the same knife",
+     "correct": false
+    },
+    {
+     "text": "Sterilise your knife and wash your hands and arms",
+     "correct": true
+    },
+    {
+     "text": "Wipe it with the apron",
+     "correct": false
+    },
+    {
+     "text": "Hide the carcass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The meat inspector checks some lymph nodes because they show signs of infection.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The slaughterer decides whether an abnormal carcass is condemned.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are main cuts of a pork carcass? (select all that apply)",
+   "options": [
+    {
+     "text": "Rumen",
+     "correct": false
+    },
+    {
+     "text": "Belly",
+     "correct": true
+    },
+    {
+     "text": "Shoulder",
+     "correct": true
+    },
+    {
+     "text": "Loin",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

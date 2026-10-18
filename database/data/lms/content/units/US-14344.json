@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-14344",
+ "title": "Demonstrate an understanding of a selected business environment",
+ "lessons": [
+  {
+   "title": "What a business is and how it works",
+   "minutes": 15,
+   "html": "<h3>What is a business?</h3> <p>A business is an organisation that sells goods or services to customers to make a profit. A stud farm, a racing yard, a riding school, a feed store and a farrier are all businesses. Even a groom who earns extra money plaiting manes on show days is running a small business.</p> <h4>Goods and services</h4> <ul> <li><strong>Goods</strong> are things you can touch: horses for sale, hay, saddles.</li> <li><strong>Services</strong> are work done for someone: training a horse, livery (stabling other people's horses), riding lessons, transport.</li> </ul> <h4>Income, costs and profit</h4> <p><strong>Income</strong> is the money that comes in from customers. <strong>Costs</strong> (expenses) are the money that goes out. <strong>Profit</strong> = income - costs. If costs are bigger than income, the business makes a <strong>loss</strong>.</p> <p>Example: a livery yard has 10 horses. Each owner pays R4 000 per month. Income = R40 000. Costs: feed R15 000, bedding R4 000, wages R14 000, water and electricity R3 000, repairs R2 000. Total costs = R38 000. Profit = R2 000. If one owner leaves, the yard makes a loss.</p> <h4>Types of business ownership</h4> <table><tr><th>Type</th><th>Meaning</th></tr> <tr><td>Sole owner (sole proprietor)</td><td>One person owns and runs it</td></tr> <tr><td>Partnership</td><td>Two or more people own it together</td></tr> <tr><td>Company (Pty) Ltd</td><td>A registered company with shareholders</td></tr> <tr><td>Co-operative</td><td>Members own it together and share benefits</td></tr></table> <h4>Parts of a business</h4> <p>Even a small yard has different functions: buying (feed, bedding), operations (daily horse care), sales and marketing (finding clients), finance (money in and out), and people (staff and wages). Each worker's job fits into one of these. When you know how your work affects the whole business, you can help it succeed.</p> <p>Example: a groom who reports a leaking water trough early saves the business money on water and repairs.</p>"
+  },
+  {
+   "title": "The business environment and your role",
+   "minutes": 15,
+   "html": "<h3>The business environment</h3> <p>No business works alone. Many things outside and inside it affect how well it does. This is called the business environment.</p> <h4>Inside the business</h4> <ul> <li>Staff skills and attitude</li> <li>Equipment and facilities: stables, arena, horse box</li> <li>Management and planning</li> <li>Money available</li> </ul> <h4>Close outside the business</h4> <ul> <li><strong>Customers:</strong> horse owners, racehorse owners, riders, parents of children who ride</li> <li><strong>Suppliers:</strong> feed companies, hay farmers, saddlers, vets, farriers</li> <li><strong>Competitors:</strong> other yards offering the same service nearby</li> </ul> <h4>The wider environment</h4> <table><tr><th>Factor</th><th>Example of how it affects an equine business</th></tr> <tr><td>Economy</td><td>When people have less money, fewer can afford riding lessons; when fuel prices rise, transport costs go up</td></tr> <tr><td>Weather and climate</td><td>Drought pushes up the price of hay</td></tr> <tr><td>Laws and government</td><td>Labour laws, minimum wage, animal welfare law, disease control such as African horse sickness rules</td></tr> <tr><td>Technology</td><td>Online booking, social media marketing, cellphone payments</td></tr> <tr><td>Society</td><td>More interest in horse riding for tourism or therapy</td></tr></table> <h4>Customers keep the business alive</h4> <p>Without customers there is no income and no wages. Good service brings customers back and they tell others. Good service means:</p> <ul> <li>Horses that are clean, healthy and well cared for</li> <li>Being polite and helpful to owners and visitors</li> <li>Doing what was promised, on time</li> <li>Reporting problems honestly</li> </ul> <h4>Your role</h4> <p>Every worker affects the business. Using feed carefully, looking after tack, saving water, preventing injuries to horses and giving good service all help the business make a profit. A profitable business can pay wages, keep staff, and grow.</p> <h4>Starting your own small business</h4> <p>Some workers start a side business, such as plaiting for shows, cleaning tack or selling manure as compost. Ask: Who are my customers? What will it cost? What will I charge? Who else offers this? Check your employment contract and talk to your employer first.</p> <h4>Key points</h4> <ul> <li>A business sells goods or services to make a profit.</li> <li>Profit = income - costs; if costs are higher, there is a loss.</li> <li>Customers, suppliers and competitors are close outside factors.</li> <li>The economy, weather, laws and technology also affect a business.</li> <li>Every worker's care and service help the business succeed.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which is a service?",
+   "options": [
+    {
+     "text": "A bale of hay",
+     "correct": false
+    },
+    {
+     "text": "Riding lessons",
+     "correct": true
+    },
+    {
+     "text": "A saddle",
+     "correct": false
+    },
+    {
+     "text": "A bag of oats",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A yard has income of R40 000 and costs of R38 000. What is the profit?",
+   "options": [
+    {
+     "text": "R78 000",
+     "correct": false
+    },
+    {
+     "text": "R2 000",
+     "correct": true
+    },
+    {
+     "text": "R38 000",
+     "correct": false
+    },
+    {
+     "text": "R40 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which type of business is owned by one person?",
+   "options": [
+    {
+     "text": "Co-operative",
+     "correct": false
+    },
+    {
+     "text": "Partnership",
+     "correct": false
+    },
+    {
+     "text": "Sole proprietor",
+     "correct": true
+    },
+    {
+     "text": "Company with many shareholders",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Drought pushes up the price of hay. Which environmental factor is this?",
+   "options": [
+    {
+     "text": "Technology",
+     "correct": false
+    },
+    {
+     "text": "Weather and climate",
+     "correct": true
+    },
+    {
+     "text": "Society",
+     "correct": false
+    },
+    {
+     "text": "Competitors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who are suppliers to a riding yard?",
+   "options": [
+    {
+     "text": "Riders who pay for lessons",
+     "correct": false
+    },
+    {
+     "text": "Feed companies and farriers",
+     "correct": true
+    },
+    {
+     "text": "Other riding yards nearby",
+     "correct": false
+    },
+    {
+     "text": "The yard's own grooms",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If costs are bigger than income, the business makes a loss.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A groom's work has no effect on whether the business makes a profit.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of good customer service at a yard? (select all that apply)",
+   "options": [
+    {
+     "text": "Clean, healthy horses",
+     "correct": true
+    },
+    {
+     "text": "Being polite to owners and visitors",
+     "correct": true
+    },
+    {
+     "text": "Doing what was promised on time",
+     "correct": true
+    },
+    {
+     "text": "Hiding problems from owners",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

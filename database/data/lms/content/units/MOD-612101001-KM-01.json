@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612101001-KM-01",
+  "title": "The South African livestock farming environment",
+  "lessons": [
+    {
+      "title": "Livestock farming in South Africa",
+      "minutes": 15,
+      "html": "<h3>Livestock farming in South Africa</h3><p>Livestock farming is one of the biggest parts of farming in South Africa. Most of our land is too dry for crops. But grass and bushes grow on it, and animals can eat them. So farmers keep animals on this land.</p><h4>The main animals</h4><ul><li><strong>Cattle</strong> for beef and milk. Beef cattle often run on veld. Dairy cows are milked every day.</li><li><strong>Sheep</strong> for meat (mutton and lamb) and wool. Merino and Dohne Merino are wool sheep. Dorper is a meat sheep.</li><li><strong>Goats</strong> for meat, milk and mohair. Boer goats are meat goats. Angora goats give mohair.</li><li><strong>Pigs</strong> for pork. Most pigs are kept in houses.</li><li><strong>Poultry</strong> for eggs and chicken meat.</li></ul><h4>Where animals are farmed</h4><p>Different areas suit different animals. The Karoo is dry, so many farmers keep sheep and goats there. The sweetveld and bushveld areas carry beef cattle and game. The wetter areas in KwaZulu-Natal, the Eastern Cape coast and the Western Cape are good for dairy farms. Pigs and chickens can be farmed in many places, because they live in houses and eat bought feed.</p><h4>Who farms livestock</h4><p>There are big commercial farms with thousands of animals. There are also many small-scale and communal farmers. In communal areas, families share grazing land and bring animals to the kraal at night. Cattle are also important in many cultures for lobola and ceremonies.</p><p>All of these farmers need people who know how to look after animals. That is the work you are learning to do.</p>"
+    },
+    {
+      "title": "Farming systems and the natural environment",
+      "minutes": 15,
+      "html": "<h3>Farming systems and the natural environment</h3><h4>Extensive and intensive farming</h4><p>There are two main ways to farm animals.</p><table><tr><th>Extensive</th><th>Intensive</th></tr><tr><td>Animals graze on veld in big camps</td><td>Animals are kept in houses, pens or feedlots</td></tr><tr><td>Few animals per hectare</td><td>Many animals in a small space</td></tr><tr><td>Mostly natural grazing</td><td>Mostly bought feed</td></tr><tr><td>Example: beef cattle in the bushveld</td><td>Example: broiler houses, piggery, feedlot</td></tr></table><h4>Weather and climate</h4><p>South Africa has dry years and wet years. Drought is a big risk. In a drought, the veld does not grow and water dries up. Farmers must sell animals or buy feed. Very hot days can stress animals. Cold, wet wind can kill newborn lambs. Watch the weather and tell your supervisor when it changes.</p><h4>Looking after the veld</h4><p>The veld is the farmer's most important resource. If too many animals graze one camp for too long, the good grass dies. Then bare soil washes away in the rain. This is called <strong>overgrazing</strong> and <strong>erosion</strong>. Farmers move animals between camps so the grass can rest and grow again.</p><p>The Conservation of Agricultural Resources Act 43 of 1983 is the law that protects farm soil and veld. Water use is controlled by the National Water Act 36 of 1998.</p><h4>What you can do</h4><ul><li>Close gates so animals stay in the right camp.</li><li>Report leaking troughs and broken pipes.</li><li>Report bare patches, dongas and new weeds.</li><li>Never start fires in the veld.</li></ul><h4>Seasons on the farm</h4><p>Summer is the rainy season in most of the country. The grass grows and animals gain weight. Winter is dry in most areas. The grass turns brown and has less food value, so animals may need a lick. Learn the seasons on your farm and what work happens in each one.</p>"
+    },
+    {
+      "title": "Rules, markets and your place on the farm",
+      "minutes": 15,
+      "html": "<h3>Rules, markets and your place on the farm</h3><h4>Laws that protect animals and people</h4><p>Some laws you should know about:</p><ul><li><strong>Animals Protection Act 71 of 1962</strong> says you may not be cruel to animals. Do not beat, starve or overload them.</li><li><strong>Animal Diseases Act 35 of 1984</strong> deals with dangerous diseases like foot-and-mouth disease. Some diseases must be reported to the state vet.</li><li><strong>Meat Safety Act 40 of 2000</strong> makes sure meat sold to people is safe.</li><li><strong>OHS Act 85 of 1993</strong> protects workers from injury.</li></ul><h4>Where the animals go</h4><p>Animals are sold in different ways. Some go to <strong>auctions</strong>. Some go to <strong>feedlots</strong> to be fattened. Some go straight to the <strong>abattoir</strong>. Milk goes to a dairy factory. Wool goes to a broker. The price the farmer gets depends on the animal's weight, condition and health. A thin or sick animal sells for less money.</p><h4>Identification and records</h4><p>Animals must be marked so people know who owns them. Farmers use ear tags, tattoos and brand marks. The farmer must keep records of births, deaths, treatments and sales. Stock theft is a big problem in South Africa. Good marks and counts help to stop it.</p><h4>Your role</h4><p>Every worker helps the farm make money. You count animals, check water, watch for sick animals and report problems quickly. Be on time. Follow safety rules. Ask when you do not know.</p><h4>Key points</h4><ul><li>Cattle, sheep, goats, pigs and poultry are the main farm animals in South Africa.</li><li>Extensive farming uses veld; intensive farming uses houses and bought feed.</li><li>Overgrazing kills good grass and causes erosion.</li><li>The law protects animals from cruelty and controls dangerous diseases.</li><li>Animals must be marked and counted, and records must be kept.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why are so many South African farms used for livestock and not crops?",
+      "options": [
+        {
+          "text": "Crops are against the law",
+          "correct": false
+        },
+        {
+          "text": "Much of the land is too dry for crops but grows grazing",
+          "correct": true
+        },
+        {
+          "text": "Animals need no care",
+          "correct": false
+        },
+        {
+          "text": "There are no crop buyers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which area is known for many sheep and goats because it is dry?",
+      "options": [
+        {
+          "text": "The Karoo",
+          "correct": true
+        },
+        {
+          "text": "The KwaZulu-Natal coast",
+          "correct": false
+        },
+        {
+          "text": "The Western Cape wetlands",
+          "correct": false
+        },
+        {
+          "text": "Inside a broiler house",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of intensive farming?",
+      "options": [
+        {
+          "text": "Beef cattle in big bushveld camps",
+          "correct": false
+        },
+        {
+          "text": "Sheep grazing the Karoo veld",
+          "correct": false
+        },
+        {
+          "text": "A broiler house with bought feed",
+          "correct": true
+        },
+        {
+          "text": "Game on a large farm",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What happens when too many animals graze one camp for too long?",
+      "options": [
+        {
+          "text": "The grass grows faster",
+          "correct": false
+        },
+        {
+          "text": "The animals get fatter",
+          "correct": false
+        },
+        {
+          "text": "Water troughs fill up",
+          "correct": false
+        },
+        {
+          "text": "Good grass dies and the soil can wash away",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law says you may not be cruel to animals?",
+      "options": [
+        {
+          "text": "National Water Act 36 of 1998",
+          "correct": false
+        },
+        {
+          "text": "Animals Protection Act 71 of 1962",
+          "correct": true
+        },
+        {
+          "text": "Meat Safety Act 40 of 2000",
+          "correct": false
+        },
+        {
+          "text": "OHS Act 85 of 1993",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A thin or sick animal usually sells for less money.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Ear tags and brand marks are not needed because stock theft does not happen in South Africa.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which of these can a worker do to look after the veld? (select all that apply)",
+      "options": [
+        {
+          "text": "Close gates so animals stay in the right camp",
+          "correct": true
+        },
+        {
+          "text": "Report leaking troughs",
+          "correct": true
+        },
+        {
+          "text": "Start small fires to clean the veld",
+          "correct": false
+        },
+        {
+          "text": "Report bare patches and new weeds",
+          "correct": true
+        },
+        {
+          "text": "Leave all animals in one camp all year",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

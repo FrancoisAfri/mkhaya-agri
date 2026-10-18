@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261590",
+ "title": "Explain the application of animal cruelty legislation",
+ "lessons": [
+  {
+   "title": "Definitions and offences under animal cruelty legislation",
+   "minutes": 18,
+   "html": "<h3>Why definitions matter</h3>\n<p>The main animal cruelty law in South Africa is the <strong>Animals Protection Act 71 of 1962</strong> (APA). Whether a person can be charged often depends on how the Act defines its key terms. An inspector or prosecutor must show that the creature was an \"animal\" in terms of the Act and that the accused was its \"owner\" or was otherwise responsible.</p>\n<ul><li><strong>Animal</strong>: the Act covers domesticated animals and birds, and wild animals, birds and reptiles that are in captivity or under human control. A free-living wild animal in the veld is generally outside the APA but protected by conservation laws.</li>\n<li><strong>Owner</strong>: includes not only the legal owner but also a person who has the animal in their possession, charge, custody or control. A herder, a transport driver or a farm worker caring for animals can therefore be held responsible.</li>\n<li>Other important ideas are \"unnecessary suffering\" and the duty of care. Many offences turn on whether suffering was unnecessary, for example whether a procedure could have been done more humanely.</li></ul>\n<h4>Offences under the Act</h4>\n<p>The APA lists a wide range of offences. In summary, a person commits an offence who, for example:</p>\n<ul><li>Overloads, overdrives, overrides, beats, kicks, tortures, infuriates or terrifies an animal.</li>\n<li>Confines, chains or tethers an animal unnecessarily or in a way that causes suffering, or keeps it in a space that is too small or dirty.</li>\n<li>Fails to provide enough food, water or shelter.</li>\n<li>Abandons an animal.</li>\n<li>Transports an animal in a way that causes unnecessary suffering.</li>\n<li>Uses an animal for fighting, or allows animals to fight.</li>\n<li>Lays poison or uses traps in ways that cause unnecessary suffering, or fails to check traps.</li>\n<li>Fails to get veterinary help for a sick or injured animal when needed.</li>\n<li>As owner, allows any of the above, or fails to prevent it through negligence.</li></ul>\n<p>The <strong>Performing Animals Protection Act 24 of 1935</strong> adds rules for the training and exhibition of performing animals and the use of dogs for guarding, which require a licence.</p>"
+  },
+  {
+   "title": "Consequences, destruction of animals and SPCA powers",
+   "minutes": 18,
+   "html": "<h3>Consequences of a conviction</h3>\n<p>A person found guilty under the Animals Protection Act may face:</p>\n<ul><li>A fine or imprisonment, or both, as set by the Act.</li>\n<li>An order that the animal be forfeited (taken away) or destroyed if it is suffering.</li>\n<li>An order to pay costs, for example for veterinary treatment or care of seized animals.</li>\n<li>A declaration by the court that the person is unfit to own or keep animals for a period. Breaking that order is itself an offence.</li>\n<li>A criminal record, which can affect employment, firearm licences and permits.</li></ul>\n<p>For a farm business, the reputational damage from a cruelty case can be as serious as the fine: buyers, retailers and export markets may refuse to deal with the farm.</p>\n<h4>When an animal may be destroyed</h4>\n<p>The APA allows a police officer to destroy an animal, or have it destroyed, when the animal is so diseased or severely injured, or in such a physical condition, that it would be cruel to keep it alive, and the owner is absent or refuses to agree to its destruction. A magistrate can also order destruction. In practice this is done by a veterinarian where possible, or by a trained person using a humane method such as a correctly placed gunshot. The decision should be recorded, with the reasons, the condition of the animal, and photographs if possible.</p>\n<h4>Powers of SPCA officers</h4>\n<p>The SPCA movement is governed by the <strong>Societies for the Prevention of Cruelty to Animals Act 169 of 1993</strong>. Authorised SPCA inspectors can exercise certain powers given to police officers under the APA. These include:</p>\n<ul><li>Entering premises where animals are kept to inspect their condition.</li>\n<li>Seizing animals that are suffering, and taking them for care or treatment.</li>\n<li>Issuing warnings and instructions to improve conditions.</li>\n<li>Laying criminal charges and supporting prosecutions with evidence.</li></ul>\n<p>Inspectors must act within the law, identify themselves, and treat owners respectfully. Farm managers should co-operate, show records and fix problems quickly.</p>\n<h4>Key points</h4>\n<ul><li>The definitions of \"animal\" and \"owner\" decide who and what the APA covers.</li>\n<li>\"Owner\" includes anyone in charge or control of the animal.</li>\n<li>Offences include neglect, overloading, abandonment, cruel transport and animal fighting.</li>\n<li>Courts can fine, imprison and declare a person unfit to keep animals.</li>\n<li>Authorised SPCA inspectors can inspect, seize suffering animals and lay charges.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main animal cruelty law in South Africa?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": true
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Under the Act, who can be treated as the 'owner' of an animal?",
+   "options": [
+    {
+     "text": "Anyone who has the animal in their possession, charge, custody or control",
+     "correct": true
+    },
+    {
+     "text": "Only the person whose name is on the title deed",
+     "correct": false
+    },
+    {
+     "text": "Only a registered farmer",
+     "correct": false
+    },
+    {
+     "text": "Only the person who bought it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is an offence under the Act?",
+   "options": [
+    {
+     "text": "Providing shade in summer",
+     "correct": false
+    },
+    {
+     "text": "Vaccinating cattle",
+     "correct": false
+    },
+    {
+     "text": "Failing to provide enough food and water",
+     "correct": true
+    },
+    {
+     "text": "Calling a vet for a sick cow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which order can a court make in addition to a fine or imprisonment?",
+   "options": [
+    {
+     "text": "Cancel the person's ID document",
+     "correct": false
+    },
+    {
+     "text": "Transfer the farm to the SPCA",
+     "correct": false
+    },
+    {
+     "text": "Award the person a farming permit",
+     "correct": false
+    },
+    {
+     "text": "Declare the person unfit to own or keep animals for a period",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act governs the SPCA movement?",
+   "options": [
+    {
+     "text": "Performing Animals Protection Act 24 of 1935",
+     "correct": false
+    },
+    {
+     "text": "Societies for the Prevention of Cruelty to Animals Act 169 of 1993",
+     "correct": true
+    },
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A police officer may destroy a severely injured animal if it would be cruel to keep it alive and the owner is absent or refuses consent.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Authorised SPCA inspectors have no power to seize suffering animals.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which powers can authorised SPCA inspectors exercise? (select all that apply)",
+   "options": [
+    {
+     "text": "Seizing animals that are suffering",
+     "correct": true
+    },
+    {
+     "text": "Entering premises where animals are kept to inspect them",
+     "correct": true
+    },
+    {
+     "text": "Laying criminal charges",
+     "correct": true
+    },
+    {
+     "text": "Sentencing offenders to prison",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

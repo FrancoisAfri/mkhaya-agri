@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-02",
+ "title": "Manage, Implement, and Review a Client Relationship Management Strategy",
+ "lessons": [
+  {
+   "title": "Understanding depot clients",
+   "minutes": 18,
+   "html": "<h3>Who the clients are</h3>\n<p>A grain depot serves several types of clients, each with different needs:</p>\n<table>\n<tr><th>Client</th><th>What they value</th></tr>\n<tr><td>Farmers delivering grain</td><td>Short waiting times, fair and transparent grading and weights, quick payment information, friendly service</td></tr>\n<tr><td>Grain traders and buyers</td><td>Accurate stock and certificate records, reliable out-loading on schedule, quality as certified</td></tr>\n<tr><td>Processors (millers, feed mills)</td><td>Consistent quality, timely deliveries, correct documentation</td></tr>\n<tr><td>Transporters</td><td>Efficient turnaround, clear instructions, safe site</td></tr>\n<tr><td>Head office and owners</td><td>Volumes, profit, reputation, compliance</td></tr>\n</table>\n<p>In many areas farmers can choose between depots of different companies. A depot that treats farmers well wins tonnage; one with long queues and grading disputes loses it, sometimes for years.</p>\n<h3>Developing a client relationship management strategy</h3>\n<ol>\n<li><strong>Segment clients</strong> – large commercial farmers, emerging and smallholder farmers, traders, processors.</li>\n<li><strong>Understand needs</strong> – use surveys, farmer days, meetings and complaint records.</li>\n<li><strong>Set service standards</strong> – for example, average truck turnaround under 60 minutes, grading certificates issued on the spot, queries answered within 24 hours.</li>\n<li><strong>Plan actions</strong> – pre-season farmer information days, SMS updates on intake hours and queues, dedicated contact person for large clients, support for emerging farmers on grading standards.</li>\n<li><strong>Allocate responsibility</strong> – who manages which clients.</li>\n<li><strong>Measure</strong> – client satisfaction, complaints, tonnage retention, turnaround times.</li>\n</ol>\n<p>Use a client database or CRM system to record contact details, deliveries, preferences, queries and complaints, protecting personal information as the Protection of Personal Information Act 4 of 2013 requires.</p><p>Remember that emerging and smallholder farmers may deliver smaller loads, use hired transport and be less familiar with grading. Treating them with the same respect and clear explanations as large clients builds future business and supports the development of the sector.</p>"
+  },
+  {
+   "title": "Implementing and reviewing the strategy",
+   "minutes": 18,
+   "html": "<h3>Making it work day to day</h3>\n<p>The strategy succeeds or fails at the weighbridge and the grading point. Staff must understand the service standards and why they matter. Train front-line staff in:</p>\n<ul>\n<li>Greeting clients respectfully and explaining processes clearly.</li>\n<li>Explaining grading results with facts and showing the sample where appropriate.</li>\n<li>Handling frustrated clients calmly.</li>\n<li>Knowing when to call the supervisor or manager.</li>\n</ul>\n<h3>Handling complaints</h3>\n<ol>\n<li>Listen fully and acknowledge the client's concern.</li>\n<li>Get the facts: ticket number, sample, weighbridge record.</li>\n<li>Explain what will happen and by when.</li>\n<li>Resolve within procedure (re-grade retained sample, check weighbridge calibration).</li>\n<li>Follow up and record the outcome.</li>\n<li>Analyse complaints monthly for patterns.</li>\n</ol>\n<p>A complaint handled well often builds more loyalty than if nothing had gone wrong.</p>\n<h3>Communication with clients</h3>\n<p>Keep clients informed: intake dates and hours, grading standards for the season, tariffs, queue status and any disruptions such as breakdowns. Communicate bad news early, for example when wet grain cannot be accepted because dryers are full, and offer alternatives.</p>\n<h3>Reviewing the strategy</h3>\n<p>At least after every season:</p>\n<ul>\n<li>Compare service standards with actual performance.</li>\n<li>Review tonnage per client group compared with last year and with crop estimates.</li>\n<li>Analyse satisfaction surveys and complaints.</li>\n<li>Ask key clients for direct feedback.</li>\n<li>Decide what to keep, stop and start, and update the strategy.</li>\n</ul>\n<p>Example: a survey shows that smallholder farmers find grading confusing and feel unfairly downgraded. The depot introduces a short pre-season grading demonstration and simple printed guides in local languages. Complaints from this group drop the next season.</p>\n<h4>Key points</h4>\n<ul>\n<li>Depot clients include farmers, traders, processors, transporters and head office, each with different needs.</li>\n<li>Build a strategy: segment, understand needs, set service standards, plan, assign and measure.</li>\n<li>Train front-line staff; the strategy succeeds at the weighbridge and grading point.</li>\n<li>Handle complaints with listening, facts, resolution and follow-up.</li>\n<li>Review the strategy every season using performance, tonnage and feedback.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What do farmers delivering grain typically value most?",
+   "options": [
+    {
+     "text": "Long queues",
+     "correct": false
+    },
+    {
+     "text": "Complex tariffs",
+     "correct": false
+    },
+    {
+     "text": "Short waiting times and fair, transparent grading and weights",
+     "correct": true
+    },
+    {
+     "text": "No information",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law protects personal information kept in a client database?",
+   "options": [
+    {
+     "text": "Protection of Personal Information Act 4 of 2013",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when handling a complaint?",
+   "options": [
+    {
+     "text": "Listen fully and acknowledge the concern",
+     "correct": true
+    },
+    {
+     "text": "Refer the client to head office",
+     "correct": false
+    },
+    {
+     "text": "Defend the depot immediately",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Dryers are full and wet grain cannot be accepted. What should the depot do?",
+   "options": [
+    {
+     "text": "Accept wet grain into dry bins",
+     "correct": false
+    },
+    {
+     "text": "Close without notice",
+     "correct": false
+    },
+    {
+     "text": "Communicate early and offer alternatives",
+     "correct": true
+    },
+    {
+     "text": "Tell clients only when they arrive",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Smallholder farmers find grading confusing. What is a good response?",
+   "options": [
+    {
+     "text": "Run pre-season grading demonstrations and provide simple guides in local languages",
+     "correct": true
+    },
+    {
+     "text": "Stop accepting their grain",
+     "correct": false
+    },
+    {
+     "text": "Ignore their complaints",
+     "correct": false
+    },
+    {
+     "text": "Change their grades upward",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A complaint handled well can build client loyalty.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The client relationship strategy only needs to be reviewed once every ten years.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are useful measures for a client relationship strategy? (select all that apply)",
+   "options": [
+    {
+     "text": "Number of complaints",
+     "correct": true
+    },
+    {
+     "text": "Truck turnaround time",
+     "correct": true
+    },
+    {
+     "text": "Staff shoe sizes",
+     "correct": false
+    },
+    {
+     "text": "Client satisfaction",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

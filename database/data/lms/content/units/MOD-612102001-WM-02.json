@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-WM-02",
+  "title": "Heifer, cow and bull production and health care practices on a dairy farm",
+  "lessons": [
+    {
+      "title": "Breeding cows and heifers",
+      "minutes": 20,
+      "html": "<h3>A cow must calve to milk</h3><p>A dairy cow only produces milk after she calves, so getting cows back in calf on time is the heart of dairy production. Most farms aim for a calving interval that keeps cows producing efficiently, as set by the manager. In this module you will work in the breeding, health and handling routines of the adult herd and record your tasks in your logbook.</p><h4>Heat detection</h4><p>Many cows are missed on heat, and every missed heat costs milk and money. Watch cows at least two or three times a day, away from milking and feeding when they are calm. Signs:</p><ul><li>Standing still when mounted by another cow: the surest sign.</li><li>Mounting other cows, restlessness, bellowing.</li><li>Clear, stringy mucus from the vulva; swollen, red vulva.</li><li>Rubbed tail head, drop in milk or feed intake.</li></ul><p>Use tail paint, heat detection patches or activity collars if the farm has them. Record every heat with cow number, date and time.</p><h4>Service</h4><ul><li>AI is done by a trained technician at the time the farm's protocol says after a heat is seen.</li><li>Record service date, semen or bull used and technician.</li><li>Pregnancy is checked by the vet by rectal palpation or scanning.</li><li>Cows that are not pregnant after repeated services are reported to the manager and vet.</li></ul><h4>Bulls</h4><p>Some farms use bulls to mop up cows not in calf after AI. Bulls should be tested for fertility and disease by the vet before the season.</p><p><strong>Dairy bulls are among the most dangerous animals on a farm.</strong> Never trust a bull, even a quiet one. Never enter a bull pen or camp alone, always know your escape route, and handle bulls only with proper facilities such as a crush and strong gates.</p>"
+    },
+    {
+      "title": "Herd health routines",
+      "minutes": 20,
+      "html": "<h3>Preventing disease is cheaper than treating it</h3><p>The farm vet draws up a herd health plan. Your job is to carry out the routine tasks correctly and to spot sick animals early.</p><h4>Routine tasks</h4><ul><li><strong>Vaccinations</strong> as on the plan, for example against diseases the vet identifies for your area. Brucellosis vaccination of heifer calves and testing are controlled under the Animal Diseases Act 35 of 1984.</li><li><strong>Tick and fly control</strong> using registered products at label rates; dip tank or spray race as the farm uses.</li><li><strong>Hoof care</strong>: regular trimming by a trained person and footbaths as the vet advises.</li><li><strong>Body condition scoring</strong> at calving, at service and at drying off.</li><li><strong>Drying off</strong> at the planned date, with dry cow treatment or teat sealants as the vet prescribes.</li></ul><h4>Common health problems in adult cows</h4><table><tr><th>Problem</th><th>Signs to report</th></tr><tr><td>Mastitis</td><td>Clots or watery milk, hot swollen quarter, sick cow</td></tr><tr><td>Milk fever (low calcium)</td><td>Around calving: wobbly, cold ears, lying down, cannot get up. Emergency: call the vet</td></tr><tr><td>Retained placenta and uterine infection</td><td>Afterbirth not passed, smelly discharge</td></tr><tr><td>Lameness</td><td>Walking slowly, arched back, limping</td></tr><tr><td>Ketosis or displaced abomasum</td><td>Fresh cow off feed, sudden drop in milk</td></tr><tr><td>Tick-borne disease</td><td>High fever, red urine, weakness</td></tr></table><h4>Giving treatments</h4><ul><li>Only give medicine as prescribed by the vet or the manager's protocol and follow the label.</li><li>Use clean needles and the correct injection site and route.</li><li>Mark the cow and record the treatment and withdrawal end dates for milk and meat.</li><li>Dispose of needles in a sharps container.</li></ul><p>Notifiable diseases such as foot-and-mouth disease must be reported to the state vet. Report any blisters in the mouth or on feet, or unusual deaths, immediately.</p>"
+    },
+    {
+      "title": "Safe handling and welfare of adult stock",
+      "minutes": 20,
+      "html": "<h3>Low-stress handling</h3><p>Cows that are handled calmly are easier to work with, give more milk and cause fewer injuries.</p><h4>Understanding cattle behaviour</h4><ul><li>Cattle see almost all round but have a blind spot directly behind them. Do not approach from straight behind.</li><li>Every animal has a flight zone. Step into it to make the cow move; step out to make her stop.</li><li>Cattle follow each other. Move groups, not single animals, where possible.</li><li>Shadows, noise, flapping clothes and dogs make cattle balk.</li></ul><h4>Handling facilities</h4><ul><li>Use a crush or head clamp for treatments, AI and vet work.</li><li>Check gates, latches and floors for damage; non-slip floors prevent falls.</li><li>Never put your arm or head between a cow and a rail.</li></ul><h4>Bull safety</h4><ul><li>Never work alone with a bull.</li><li>Keep a solid barrier or escape gap between you and the bull.</li><li>Watch for warning signs: pawing, head lowered, side-on display.</li><li>Use a nose ring and bull pole when leading a bull, and only if you are trained.</li></ul><h4>Welfare responsibilities</h4><p>The Animals Protection Act 71 of 1962 makes it an offence to cause unnecessary suffering. On a dairy this means:</p><ul><li>No beating, kicking or twisting tails.</li><li>Sick and injured animals get prompt treatment or are humanely euthanased by a vet or trained person.</li><li>Downer cows are given shade, water, feed and soft footing, and lifted only with proper equipment.</li><li>Animals that are sold or culled must be fit to travel.</li></ul><h4>Key points</h4><ul><li>Good heat detection and service records keep cows calving on time.</li><li>Follow the vet's herd health plan and report sick cows early.</li><li>Record every treatment and withdrawal date.</li><li>Report suspected notifiable diseases immediately.</li><li>Never trust a bull; never work alone with one.</li><li>Handle cattle calmly and never cause unnecessary suffering.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the surest sign that a cow is on heat?",
+      "options": [
+        {
+          "text": "She stands still when mounted",
+          "correct": true
+        },
+        {
+          "text": "She drinks more water",
+          "correct": false
+        },
+        {
+          "text": "She has a cough",
+          "correct": false
+        },
+        {
+          "text": "She walks to the parlour first",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A fresh cow is wobbly, has cold ears and cannot get up. What is this likely to be?",
+      "options": [
+        {
+          "text": "Mastitis",
+          "correct": false
+        },
+        {
+          "text": "Milk fever, an emergency",
+          "correct": true
+        },
+        {
+          "text": "Normal tiredness",
+          "correct": false
+        },
+        {
+          "text": "Heat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Who must suspected foot-and-mouth disease be reported to?",
+      "options": [
+        {
+          "text": "The milk buyer only",
+          "correct": false
+        },
+        {
+          "text": "The feed company",
+          "correct": false
+        },
+        {
+          "text": "The state vet, through the manager",
+          "correct": true
+        },
+        {
+          "text": "Nobody",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where is a cow's blind spot?",
+      "options": [
+        {
+          "text": "Directly in front of her",
+          "correct": false
+        },
+        {
+          "text": "To her left side",
+          "correct": false
+        },
+        {
+          "text": "Above her",
+          "correct": false
+        },
+        {
+          "text": "Directly behind her",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where should used needles go?",
+      "options": [
+        {
+          "text": "In a sharps container",
+          "correct": true
+        },
+        {
+          "text": "In the general rubbish",
+          "correct": false
+        },
+        {
+          "text": "In the effluent pond",
+          "correct": false
+        },
+        {
+          "text": "Back in the box for reuse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A quiet dairy bull can be trusted and handled alone.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Body condition should be scored at calving, at service and at drying off.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are warning signs that a bull may charge? (select all that apply)",
+      "options": [
+        {
+          "text": "Pawing the ground",
+          "correct": true
+        },
+        {
+          "text": "Lowered head",
+          "correct": true
+        },
+        {
+          "text": "Standing side-on to show his size",
+          "correct": true
+        },
+        {
+          "text": "Lying down chewing the cud",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8177",
+ "title": "Apply grain storage hygiene",
+ "lessons": [
+  {
+   "title": "Getting ready for hygiene work",
+   "minutes": 15,
+   "html": "<h3>Why grain storage hygiene matters</h3><p>Grain is food for people and animals. In a silo, bunker, shed or store, grain can be spoiled by insects (weevils, beetles, moths), by rats, mice and birds, and by mould from damp. Old grain, dust and spilled kernels left in a store give pests a place to live and breed. When new grain comes in, the pests move into it. Clean stores protect the grain, the grade and the money of the farmer.</p><h4>What you are looking for</h4><ul><li>Old grain and dust in corners, cracks, pits, conveyors, elevators and bins.</li><li>Live insects, webbing or holes in kernels.</li><li>Rat and mouse droppings, gnaw marks, nests and burrows.</li><li>Bird droppings and feathers.</li><li>Damp spots, leaks in the roof and mouldy grain.</li></ul><h4>Prepare before you start</h4><ol><li>Get your instructions from your supervisor: which area, what to do, by when.</li><li>Make sure machinery in the area is switched off and locked out by an authorised person. Never clean a conveyor, auger or elevator that can start.</li><li>Check that the area is safe to enter. Grain bins and silos are confined spaces. Never enter a bin or silo unless you are trained, have a permit, and there is a standby person outside. Grain can flow and bury a person in seconds.</li><li>Collect your tools: brooms, brushes, shovels, scrapers, vacuum cleaner, bags or bins for waste, ladder.</li><li>Put on your PPE: overalls, safety shoes, gloves, dust mask, safety glasses. Grain dust harms your lungs.</li></ol><h4>Dust and fire</h4><p>Grain dust can burn and even explode. No smoking, no open flames and no grinding near grain dust. Report any hot or burning smell straight away.</p>"
+  },
+  {
+   "title": "Cleaning and treating the store",
+   "minutes": 15,
+   "html": "<h3>Cleaning step by step</h3><ol><li>Remove all old grain and bags from the area.</li><li>Start at the top and work down: roof beams, walls, then floor. Dust falls down.</li><li>Brush or vacuum cracks, corners, ledges and under equipment. Insects hide in small places.</li><li>Clean out pits, conveyors, elevator boots and spouts once they are locked out.</li><li>Put all sweepings and old grain in bags or bins and remove them from the store. Do not leave them outside the door where pests can breed. Follow the site's rule for disposal.</li><li>Check the roof, walls, doors and vents for holes and leaks. Report them for repair.</li></ol><h4>Keeping pests out</h4><ul><li>Close holes that rats and birds use. Fit screens on vents where required.</li><li>Keep doors closed when not in use.</li><li>Keep the area around the store clean and free of long grass and rubbish.</li></ul><h4>Treating with chemicals</h4><p>After cleaning, the store may be sprayed with an insecticide, or grain may be fumigated. <strong>Only trained and authorised people may do this.</strong> Fumigation gas can kill people. If you are not trained:</p><ul><li>Do not touch, open or move pesticide or fumigant containers.</li><li>Stay out of areas with warning signs or tape.</li><li>Never enter a store being fumigated until it has been declared safe.</li><li>Follow the instructions of the trained operator and your supervisor.</li></ul><p>All chemicals must be used according to the label, as required by Act 36 of 1947.</p><h4>Rodent bait stations</h4><p>Bait stations are placed by trained people at fixed points. Do not move them. Report if a station is damaged, empty or if you find dead rats.</p>"
+  },
+  {
+   "title": "Finishing the hygiene job",
+   "minutes": 15,
+   "html": "<h3>Checking the work</h3><p>When cleaning is done, walk the area with your supervisor. Look again in corners, pits and equipment. There should be no old grain, no dust heaps and no signs of pests. Fix anything that was missed.</p><h4>Clean up and pack away</h4><ul><li>Remove all waste from the site to the correct disposal point.</li><li>Clean your tools and put them back in their place.</li><li>Clean or replace your PPE. Throw away used dust masks in the right bin.</li><li>Wash your hands and face before eating or drinking.</li></ul><h4>Hand the area back</h4><p>Tell your supervisor the area is ready. The person in charge will remove locks from machinery only when everyone is clear.</p><h4>Records</h4><p>Hygiene work must be recorded. Fill in the hygiene checklist or logbook:</p><table><tr><th>Record</th><th>Example</th></tr><tr><td>Date</td><td>12 March</td></tr><tr><td>Area</td><td>Bin 3 and intake pit</td></tr><tr><td>Work done</td><td>Swept, vacuumed, old grain removed</td></tr><tr><td>Problems found</td><td>Weevils in pit; roof leak above bin 3</td></tr><tr><td>Reported to</td><td>Supervisor</td></tr><tr><td>Signed</td><td>Your name</td></tr></table><p>Records help the site show buyers and inspectors that the store is kept clean, and help plan pest control.</p><h4>Keep it clean every day</h4><p>Hygiene is not once a year. Sweep up spills every day, keep doors closed, and report pests as soon as you see them.</p><h4>Key points</h4><ul><li>Old grain and dust give pests a home; remove them.</li><li>Lock out machinery before cleaning. Never enter a bin or silo without training and a permit.</li><li>Wear PPE, and no smoking or flames near grain dust.</li><li>Only trained people may use insecticides or fumigants.</li><li>Check the work, clean up and record what was done and found.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must old grain be removed before new grain comes in?",
+   "options": [
+    {
+     "text": "It is worth more",
+     "correct": false
+    },
+    {
+     "text": "It is heavy",
+     "correct": false
+    },
+    {
+     "text": "Pests in old grain move into new grain",
+     "correct": true
+    },
+    {
+     "text": "It smells nice",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen before you clean a conveyor or auger?",
+   "options": [
+    {
+     "text": "Switch it on to shake out dust",
+     "correct": false
+    },
+    {
+     "text": "Ask a friend to watch it",
+     "correct": false
+    },
+    {
+     "text": "It must be switched off and locked out",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should you clean a store?",
+   "options": [
+    {
+     "text": "Only the floor",
+     "correct": false
+    },
+    {
+     "text": "Only the corners",
+     "correct": false
+    },
+    {
+     "text": "Floor first, then walls, then roof",
+     "correct": false
+    },
+    {
+     "text": "Top to bottom",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A store is being fumigated. When may you enter?",
+   "options": [
+    {
+     "text": "At lunch",
+     "correct": false
+    },
+    {
+     "text": "When you are in a hurry",
+     "correct": false
+    },
+    {
+     "text": "If you hold your breath",
+     "correct": false
+    },
+    {
+     "text": "Only when it has been declared safe",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should sweepings and old grain go?",
+   "options": [
+    {
+     "text": "Back into the bin",
+     "correct": false
+    },
+    {
+     "text": "Under the conveyor",
+     "correct": false
+    },
+    {
+     "text": "Outside the door",
+     "correct": false
+    },
+    {
+     "text": "Removed to the correct disposal point",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Grain dust can burn and even explode.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Any worker may move rodent bait stations to new places.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of pests in a grain store? (select all that apply)",
+   "options": [
+    {
+     "text": "Rat droppings",
+     "correct": true
+    },
+    {
+     "text": "Webbing on grain",
+     "correct": true
+    },
+    {
+     "text": "Holes in kernels",
+     "correct": true
+    },
+    {
+     "text": "A clean, dry floor",
+     "correct": false
+    },
+    {
+     "text": "Closed doors",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

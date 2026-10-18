@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119368",
+ "title": "Describe, interpret and represent mathematical patterns, functions and algebra in different contexts",
+ "lessons": [
+  {
+   "title": "Number patterns in everyday farm work",
+   "minutes": 15,
+   "html": "<h3>What is a pattern?</h3> <p>A pattern is something that repeats or changes by a fixed rule. When you find the rule, you can work out what comes next. Patterns are everywhere on a farm.</p> <h4>Repeating patterns</h4> <p>The feeding routine is a repeating pattern: feed at 6:00, 12:00 and 17:00, then again tomorrow at 6:00, 12:00 and 17:00. The farrier visits every 6 weeks. The pattern repeats.</p> <h4>Growing patterns</h4> <p>Some patterns grow by the same amount each time.</p> <p>Example: each stable needs 2 buckets of water a day.</p> <table><tr><th>Stables</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr> <tr><td>Buckets</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td></tr></table> <p>The rule is: <strong>buckets = 2 × number of stables</strong>. Each time we add a stable, we add 2 buckets.</p> <h4>Finding the rule</h4> <p>Look at how much the numbers change each step.</p> <p>Example: 5, 8, 11, 14, ... Each number is 3 more than the one before. The next numbers are 17 and 20.</p> <p>Example: a foal's weight in the first weeks (made-up numbers for practice): 50 kg, 60 kg, 70 kg, 80 kg. The rule is +10 kg each week. If the rule stays the same, next week is 90 kg.</p> <h4>Patterns that start somewhere</h4> <p>Sometimes there is a fixed amount plus a growing amount. A transport company charges R500 to come out, plus R20 for every kilometre.</p> <table><tr><th>Kilometres</th><th>0</th><th>10</th><th>20</th><th>30</th></tr> <tr><td>Cost (R)</td><td>500</td><td>700</td><td>900</td><td>1 100</td></tr></table> <p>Rule: <strong>cost = 500 + 20 × kilometres</strong>. For 50 km: 500 + 20 × 50 = 500 + 1 000 = R1 500.</p> <h4>Why patterns help</h4> <p>When you know the rule you can plan: how much feed for more horses, how much a trip will cost, when the next vet visit is due. You do not have to count everything one by one.</p>"
+  },
+  {
+   "title": "Simple rules, formulas and graphs",
+   "minutes": 15,
+   "html": "<h3>Using letters for numbers</h3> <p>In algebra we use a letter to stand for a number we do not know yet, or a number that can change. This makes a rule short and easy to write.</p> <p>If each horse eats 3 kg of concentrate a day and <em>h</em> is the number of horses, then:</p> <p><strong>Feed (kg) = 3 × h</strong>, often written as <strong>3h</strong>.</p> <p>For 8 horses: 3 × 8 = 24 kg a day.</p> <h4>Input and output</h4> <p>Think of a rule as a machine. You put a number in (input), the rule works on it, and a number comes out (output). This is called a function.</p> <table><tr><th>Input: horses (h)</th><th>Rule: 3h</th><th>Output: kg feed</th></tr> <tr><td>2</td><td>3 × 2</td><td>6</td></tr> <tr><td>5</td><td>3 × 5</td><td>15</td></tr> <tr><td>10</td><td>3 × 10</td><td>30</td></tr></table> <h4>Working backwards</h4> <p>Sometimes you know the output and want the input. \"We have 36 kg of feed. How many horses can we feed for one day?\"</p> <p>3h = 36, so h = 36 ÷ 3 = 12 horses.</p> <p>To work backwards, do the opposite: the opposite of multiply is divide, the opposite of add is subtract.</p> <h4>Drawing a graph</h4> <p>We can show a rule on a graph. Put the input along the bottom (horizontal axis) and the output up the side (vertical axis). Plot each pair from the table as a dot. For the rule 3h the dots make a straight line going up. A straight line means the output grows by the same amount each time.</p> <h4>Reading a graph</h4> <p>To read a graph, find your input on the bottom, go straight up to the line, then go across to read the output. Graphs help supervisors see quickly how feed, cost or time changes.</p> <h4>Practice</h4> <p>A groom earns R25 for each extra horse she clips. Rule: pay = 25n. If she clips 6 horses: 25 × 6 = R150. If she earned R200: n = 200 ÷ 25 = 8 horses.</p> <p>Always check your answer: put it back into the rule and see if it works.</p> <h4>Key points</h4> <ul> <li>A pattern changes by a fixed rule; find the change from one step to the next.</li> <li>A letter can stand for a number that changes, such as h for horses.</li> <li>A function takes an input and gives an output using a rule.</li> <li>Work backwards by doing the opposite operation.</li> <li>A rule that adds the same amount each time makes a straight-line graph.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What are the next two numbers in the pattern 5, 8, 11, 14, ...?",
+   "options": [
+    {
+     "text": "15 and 16",
+     "correct": false
+    },
+    {
+     "text": "17 and 20",
+     "correct": true
+    },
+    {
+     "text": "18 and 22",
+     "correct": false
+    },
+    {
+     "text": "16 and 18",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Each stable needs 2 buckets of water. How many buckets for 7 stables?",
+   "options": [
+    {
+     "text": "9",
+     "correct": false
+    },
+    {
+     "text": "12",
+     "correct": false
+    },
+    {
+     "text": "14",
+     "correct": true
+    },
+    {
+     "text": "27",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Transport costs R500 plus R20 per km. What does a 50 km trip cost?",
+   "options": [
+    {
+     "text": "R520",
+     "correct": false
+    },
+    {
+     "text": "R1 000",
+     "correct": false
+    },
+    {
+     "text": "R1 500",
+     "correct": true
+    },
+    {
+     "text": "R2 500",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "If feed = 3h, how many horses can 36 kg feed for one day?",
+   "options": [
+    {
+     "text": "9",
+     "correct": false
+    },
+    {
+     "text": "12",
+     "correct": true
+    },
+    {
+     "text": "33",
+     "correct": false
+    },
+    {
+     "text": "108",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "To work backwards from a rule that multiplies, what do you do?",
+   "options": [
+    {
+     "text": "Add",
+     "correct": false
+    },
+    {
+     "text": "Multiply again",
+     "correct": false
+    },
+    {
+     "text": "Divide",
+     "correct": true
+    },
+    {
+     "text": "Subtract",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In algebra, a letter can stand for a number that can change.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A rule that adds the same amount every step gives a curved graph.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of repeating patterns on a horse farm? (select all that apply)",
+   "options": [
+    {
+     "text": "Feeding at the same times every day",
+     "correct": true
+    },
+    {
+     "text": "The farrier visiting every 6 weeks",
+     "correct": true
+    },
+    {
+     "text": "A horse running away once",
+     "correct": false
+    },
+    {
+     "text": "Mucking out every morning",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

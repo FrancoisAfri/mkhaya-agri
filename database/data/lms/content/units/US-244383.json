@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244383",
+ "title": "Conduct continuous hazard identification and risk assessment within a workplace",
+ "lessons": [
+  {
+   "title": "Why we assess risk and how to prepare",
+   "minutes": 20,
+   "html": "<h3>The legal requirement</h3><p>The Occupational Health and Safety Act 85 of 1993 requires employers to identify hazards, assess the risks and put measures in place to control them, as far as is reasonably practicable. Workers must cooperate and report hazards. This is called <strong>hazard identification and risk assessment (HIRA)</strong>.</p><p><strong>Continuous</strong> HIRA means it is not a once-a-year paper exercise. It is done before each task, when conditions change, after an incident, and as part of daily work. A spray team, for example, checks the wind and the area each morning before they start.</p><h3>Key words</h3><ul><li><strong>Hazard</strong>: anything with the potential to cause harm, such as a chemical, a moving shaft, a bull, a slippery floor.</li><li><strong>Risk</strong>: the chance that the hazard will cause harm, combined with how serious the harm would be.</li><li><strong>Control</strong>: a measure that removes the hazard or lowers the risk.</li></ul><h3>Preparing for hazard identification</h3><ol><li>Know the area and the task: what work is done, by whom, with what equipment and substances.</li><li>Get the tools: a checklist or HIRA form, pen, the previous assessment, incident records, and the safe work procedures.</li><li>Wear the PPE needed for the area.</li><li>Tell the supervisor of the area that you are coming, and talk to the workers who do the job. They know where the problems are.</li><li>Plan the route so you see every part of the task, including start-up, cleaning and maintenance, not only normal work.</li></ol><p>Look for hazards in all groups: mechanical, electrical, chemical, biological (animals, zoonoses), physical (noise, heat, sun), ergonomic (lifting, repetitive work), fire, and people factors such as fatigue or lack of training.</p>"
+  },
+  {
+   "title": "Assessing risk and taking action",
+   "minutes": 20,
+   "html": "<h3>Identifying hazards</h3><p>Walk through the task step by step. For each step, ask: what can go wrong, who can be hurt, and how? Write down each hazard clearly, for example: <em>auger in the feed mill has no guard on the intake; worker's hand could be caught.</em></p><h3>Rating the risk</h3><p>Many workplaces use a simple matrix: likelihood multiplied by severity.</p><table><tr><th>Likelihood</th><th>Severity</th><th>Risk</th></tr><tr><td>Unlikely (1)</td><td>Minor injury (1)</td><td>1 Low</td></tr><tr><td>Possible (2)</td><td>Lost-time injury (2)</td><td>4 Medium</td></tr><tr><td>Likely (3)</td><td>Fatal or permanent injury (3)</td><td>9 High</td></tr></table><p>High risks need action before work continues. Follow your workplace's own matrix if it uses different numbers.</p><h3>Choosing controls: the hierarchy</h3><ol><li><strong>Eliminate</strong> the hazard (stop using it).</li><li><strong>Substitute</strong> it with something safer (a less toxic chemical).</li><li><strong>Engineering controls</strong>: guards, barriers, ventilation.</li><li><strong>Administrative controls</strong>: procedures, training, signs, job rotation.</li><li><strong>PPE</strong>: gloves, goggles, respirators. PPE is the last line of defence.</li></ol><h3>Remedial and follow-up action</h3><ul><li>Stop the work and make the area safe if there is an immediate danger.</li><li>Report findings to your supervisor and the health and safety representative, in writing.</li><li>Record what action is needed, who is responsible and by when.</li><li>Check later that the action was done and that it worked.</li><li>Update the risk assessment and tell the workers about the changes.</li></ul><h4>Key points</h4><ul><li>The OHS Act requires hazards to be identified and risks controlled.</li><li>HIRA is continuous: before tasks, when things change and after incidents.</li><li>Risk combines likelihood and severity.</li><li>Use the hierarchy of controls; PPE is the last option.</li><li>Record actions, assign responsibility and follow up.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does HIRA stand for?",
+   "options": [
+    {
+     "text": "Health Inspection and Repair Action",
+     "correct": false
+    },
+    {
+     "text": "Hazard Identification and Risk Assessment",
+     "correct": true
+    },
+    {
+     "text": "Hazard Insurance and Risk Analysis",
+     "correct": false
+    },
+    {
+     "text": "High Injury Risk Area",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Risk is a combination of…",
+   "options": [
+    {
+     "text": "Cost and time",
+     "correct": false
+    },
+    {
+     "text": "Hazard and PPE",
+     "correct": false
+    },
+    {
+     "text": "Likelihood and severity",
+     "correct": true
+    },
+    {
+     "text": "Workers and machines",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which control is highest in the hierarchy of controls?",
+   "options": [
+    {
+     "text": "PPE",
+     "correct": false
+    },
+    {
+     "text": "Signs",
+     "correct": false
+    },
+    {
+     "text": "Training",
+     "correct": false
+    },
+    {
+     "text": "Eliminating the hazard",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A guard fitted over an auger intake is which type of control?",
+   "options": [
+    {
+     "text": "Engineering",
+     "correct": true
+    },
+    {
+     "text": "Administrative",
+     "correct": false
+    },
+    {
+     "text": "PPE",
+     "correct": false
+    },
+    {
+     "text": "Substitution",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a continuous risk assessment be done?",
+   "options": [
+    {
+     "text": "Only once a year",
+     "correct": false
+    },
+    {
+     "text": "Before tasks, when conditions change and after incidents",
+     "correct": true
+    },
+    {
+     "text": "Only after an inspector visits",
+     "correct": false
+    },
+    {
+     "text": "Only when a new worker starts",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "PPE is the first and best way to control a hazard.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers who do the job are a good source of information about its hazards.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of follow-up after a risk assessment? (select all that apply)",
+   "options": [
+    {
+     "text": "Throw away the assessment form",
+     "correct": false
+    },
+    {
+     "text": "Check later that the action worked",
+     "correct": true
+    },
+    {
+     "text": "Record who is responsible and by when",
+     "correct": true
+    },
+    {
+     "text": "Update the risk assessment and inform workers",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

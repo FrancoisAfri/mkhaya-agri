@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116122",
+ "title": "Control inputs and stock in agribusiness",
+ "lessons": [
+  {
+   "title": "Planning to receive inputs",
+   "minutes": 15,
+   "html": "<h3>What are inputs?</h3><p>Inputs are the things a farm buys to produce: seed, fertiliser, feed, animal medicines, crop protection products, fuel, packaging and spare parts. They cost a lot of money, so they must be ordered at the right time, received carefully and stored well.</p><h3>Planning the right time</h3><ul><li>Look at the farm calendar: when is planting, spraying, calving or harvest? Order seed and fertiliser before planting, packaging before harvest, vaccines before the vaccination date.</li><li>Know the lead time: how long the supplier takes to deliver.</li><li>Check storage space before the delivery. Do not order 40 tonnes of fertiliser if the shed holds 20.</li><li>Do not order too early. Some products expire, and stock in the store ties up money.</li><li>Keep a <strong>minimum stock level</strong> for items used every day, such as feed and fuel, and reorder when stock reaches that level.</li></ul><h3>Receiving a delivery</h3><ol><li>Check the delivery note against the order: product, quantity, size of packs.</li><li>Count bags, boxes or litres. Weigh if needed.</li><li>Check the condition: torn bags, wet feed, leaking containers, broken seals.</li><li>Check expiry dates and batch numbers on medicines and chemicals.</li><li>Check the cold chain for vaccines: they should arrive cold.</li><li>Write any shortage or damage on the delivery note before you sign, and tell your supervisor.</li><li>Put the stock away in the correct store straight away.</li></ol><p>Signing a delivery note means you agree everything arrived in good order. Never sign for goods you have not checked.</p><h4>A farm example</h4><p>A farm plants maize in November. The supplier needs three weeks to deliver seed and fertiliser. The storeman checks the space in the shed and orders in early October, so that the inputs arrive in time, but not months before they are needed.</p>"
+  },
+  {
+   "title": "Records, legislation and safety in the store",
+   "minutes": 20,
+   "html": "<h3>Stock records</h3><p>Use a stock card, book or computer system. For each item record:</p><table><tr><th>Date</th><th>In</th><th>Out</th><th>Balance</th><th>Issued to / note</th></tr><tr><td>1 May</td><td>50 bags</td><td></td><td>50</td><td>Delivery note 2231</td></tr><tr><td>3 May</td><td></td><td>10 bags</td><td>40</td><td>Feedlot pen 2</td></tr></table><ul><li>Issue stock only against a signed request or job card.</li><li>Use <strong>first in, first out (FIFO)</strong>: older stock is used first.</li><li>Do a <strong>stock count</strong> regularly and compare it with the records. Report differences.</li><li>Keep the store locked and control the keys.</li></ul><h3>Legislation on inputs</h3><ul><li><strong>Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947</strong>: these products must be registered and used according to the label.</li><li><strong>Medicines and Related Substances Act</strong>: some animal medicines are scheduled and need a vet's prescription.</li><li><strong>Hazardous Substances Act</strong> and <strong>OHS Act 85 of 1993</strong> (including hazardous chemical regulations): safe storage and handling.</li><li><strong>Plant Improvement Act</strong>: seed quality and certified seed.</li><li>Fuel storage tanks may need approval from the local municipality and fire authority.</li></ul><h3>Safety in the store</h3><ul><li>Keep chemicals in a separate, locked, ventilated store, never with feed or seed.</li><li>Stack bags on pallets, not too high, with heavier items low.</li><li>Lift correctly: bend your knees, keep your back straight, get help for heavy loads.</li><li>No smoking or open flames near fuel, fertiliser and chemicals.</li><li>Keep fire extinguishers and spill kits in place; know the emergency numbers.</li><li>Wear the PPE on the label when handling chemicals.</li></ul><h4>Key points</h4><ul><li>Order inputs in time for the farm calendar, considering lead time and space.</li><li>Check every delivery before signing.</li><li>Record stock in and out, use FIFO and count regularly.</li><li>Act 36 of 1947 governs fertilisers, feeds and remedies.</li><li>Store chemicals apart, stack safely and prevent fire.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When should seed and fertiliser normally be ordered?",
+   "options": [
+    {
+     "text": "After planting",
+     "correct": false
+    },
+    {
+     "text": "At harvest",
+     "correct": false
+    },
+    {
+     "text": "Only when the store is empty",
+     "correct": false
+    },
+    {
+     "text": "Before planting, allowing for the supplier's lead time",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if bags arrive torn and wet?",
+   "options": [
+    {
+     "text": "Sign and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Throw them away without telling anyone",
+     "correct": false
+    },
+    {
+     "text": "Write the damage on the delivery note before signing and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Mix them with the good stock",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does FIFO mean in the store?",
+   "options": [
+    {
+     "text": "Fill in, fill out",
+     "correct": false
+    },
+    {
+     "text": "First in, first out: use older stock first",
+     "correct": true
+    },
+    {
+     "text": "Fast issue, fast order",
+     "correct": false
+    },
+    {
+     "text": "Fuel in, fertiliser out",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act covers the registration of fertilisers, farm feeds and stock remedies?",
+   "options": [
+    {
+     "text": "National Water Act",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": true
+    },
+    {
+     "text": "Labour Relations Act",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should you count stock regularly?",
+   "options": [
+    {
+     "text": "To pass the time",
+     "correct": false
+    },
+    {
+     "text": "So suppliers deliver faster",
+     "correct": false
+    },
+    {
+     "text": "To raise prices",
+     "correct": false
+    },
+    {
+     "text": "To compare with the records and find differences",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chemicals can be stored on the same pallet as animal feed if the bags are closed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Signing a delivery note means you agree the goods arrived in good order.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which things should you check when receiving a delivery? (select all that apply)",
+   "options": [
+    {
+     "text": "The driver's favourite radio station",
+     "correct": false
+    },
+    {
+     "text": "Expiry dates on medicines and chemicals",
+     "correct": true
+    },
+    {
+     "text": "Quantity against the order",
+     "correct": true
+    },
+    {
+     "text": "Condition of the packaging",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

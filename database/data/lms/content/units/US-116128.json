@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116128",
+ "title": "Apply plant manipulation methods",
+ "lessons": [
+  {
+   "title": "Tools and building the tree framework",
+   "minutes": 20,
+   "html": "<h3>What is plant manipulation?</h3><p>Plant manipulation means changing how a plant grows so it gives more and better fruit. It includes <strong>pruning</strong> (cutting), <strong>training</strong> (bending and tying), and <strong>thinning</strong> flowers or fruit. It is used in orchards (apples, pears, peaches, citrus, macadamias), vineyards and some vegetable crops such as tomatoes.</p><h3>Choosing the right tools</h3><table><tr><th>Tool</th><th>Use</th></tr><tr><td>Hand secateurs</td><td>Shoots and branches up to about finger thickness</td></tr><tr><td>Loppers</td><td>Thicker branches, with long handles for reach</td></tr><tr><td>Pruning saw</td><td>Big branches</td></tr><tr><td>Ladders / platforms</td><td>Reaching the top of trees safely</td></tr><tr><td>Ties, clips and wire</td><td>Training branches and vines onto trellises</td></tr></table><p>Keep tools <strong>sharp and clean</strong>. Sharp blades make clean cuts that heal quickly. Disinfect blades between trees or blocks when told, to stop diseases spreading. Use each tool for the size it is made for, otherwise you damage the tool and tear the bark.</p><h3>Safety</h3><ul><li>Wear gloves and eye protection; branches spring back.</li><li>Set ladders on firm, level ground. Never stand on the top step.</li><li>Cut away from your body and keep your other hand clear.</li><li>Carry secateurs closed in a holster, not in your pocket.</li></ul><h3>Framework development</h3><p>A young tree is trained to build a strong <strong>framework</strong>: the trunk and main branches (scaffold branches) that will carry the crop for many years. The farm chooses a system, such as a central leader, an open vase, or a trellis system. Principles:</p><ul><li>Choose well-spaced main branches with wide angles to the trunk; narrow angles split easily.</li><li>Remove branches that compete with the leader or grow inward.</li><li>Keep the tree open so light and air reach inside.</li><li>Bend shoots towards horizontal where the system requires it; this encourages fruiting.</li></ul>"
+  },
+  {
+   "title": "Flowers, fruit and pruning principles",
+   "minutes": 20,
+   "html": "<h3>Flower and fruit manipulation</h3><p>Trees often set more fruit than they can fill. Too many fruit means small fruit, broken branches and sometimes a poor crop the next year (alternate bearing). <strong>Thinning</strong> removes some flowers or young fruit so that the rest grow to a good size.</p><ul><li>Thin by hand, by chemical thinning (done by trained sprayers to a programme), or by removing flowers.</li><li>Leave fruit spaced evenly along the branch, as your supervisor shows you, for example one fruit per bunch or a set distance between fruit.</li><li>Remove damaged, small, diseased and misshapen fruit first.</li><li>Thin early: the sooner you thin, the more the remaining fruit benefits.</li></ul><p>In table grapes, bunches are also shaped and berries thinned. In some crops, flowers are removed from young trees so the tree grows first.</p><h3>Pruning principles</h3><p>Pruning is cutting away parts of the plant on purpose. Reasons:</p><ul><li>to remove dead, diseased and broken wood (the <strong>three Ds</strong>),</li><li>to let in light and air, which reduces disease and colours fruit,</li><li>to control the size of the tree so it can be picked and sprayed,</li><li>to balance growth and fruiting wood.</li></ul><h3>Types of cuts</h3><ul><li><strong>Thinning cut</strong>: removes a whole shoot or branch back to where it starts. Opens up the tree.</li><li><strong>Heading cut</strong>: shortens a shoot to a bud. Causes new shoots below the cut.</li></ul><p>Cut just above a bud that faces outward, at a slight slope, so water runs off. Do not leave long stubs: they die back and let disease in. Do not cut flush into the branch collar.</p><h3>When to prune</h3><p>Most deciduous fruit trees and vines are pruned in winter when dormant, with summer pruning to control growth. Citrus and subtropical trees are pruned after harvest. Always follow the farm's programme for the crop.</p><h4>Key points</h4><ul><li>Use sharp, clean tools of the right size, and work safely on ladders.</li><li>Build a strong, open framework on young trees.</li><li>Thin fruit early to get good size and avoid alternate bearing.</li><li>Remove dead, diseased and broken wood first.</li><li>Cut just above an outward bud and never leave long stubs.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which tool is best for thick branches out of reach of secateurs?",
+   "options": [
+    {
+     "text": "A hoe",
+     "correct": false
+    },
+    {
+     "text": "A spade",
+     "correct": false
+    },
+    {
+     "text": "Wire ties",
+     "correct": false
+    },
+    {
+     "text": "Loppers or a pruning saw",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should tool blades be kept sharp?",
+   "options": [
+    {
+     "text": "Sharp blades make clean cuts that heal quickly",
+     "correct": true
+    },
+    {
+     "text": "To look neat",
+     "correct": false
+    },
+    {
+     "text": "So they are lighter",
+     "correct": false
+    },
+    {
+     "text": "To use less oil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens when a tree has too many fruit?",
+   "options": [
+    {
+     "text": "The fruit become sweeter",
+     "correct": false
+    },
+    {
+     "text": "The tree grows faster",
+     "correct": false
+    },
+    {
+     "text": "Nothing changes",
+     "correct": false
+    },
+    {
+     "text": "Fruit stay small and branches can break",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What are the three Ds of pruning?",
+   "options": [
+    {
+     "text": "Dead, diseased and damaged (broken) wood",
+     "correct": true
+    },
+    {
+     "text": "Dry, dark and dense",
+     "correct": false
+    },
+    {
+     "text": "Dig, drip and dust",
+     "correct": false
+    },
+    {
+     "text": "Dormant, deep and direct",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a pruning cut be made?",
+   "options": [
+    {
+     "text": "In the middle of a branch, leaving a long stub",
+     "correct": false
+    },
+    {
+     "text": "Flush into the trunk",
+     "correct": false
+    },
+    {
+     "text": "Just above an outward-facing bud",
+     "correct": true
+    },
+    {
+     "text": "Anywhere along the shoot",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Branches with a wide angle to the trunk are usually stronger than narrow-angled branches.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand on the top step of a ladder when pruning.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What are good reasons to prune? (select all that apply)",
+   "options": [
+    {
+     "text": "To remove diseased wood",
+     "correct": true
+    },
+    {
+     "text": "To make the tree as tall as possible",
+     "correct": false
+    },
+    {
+     "text": "To control tree size for picking",
+     "correct": true
+    },
+    {
+     "text": "To let light and air into the tree",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

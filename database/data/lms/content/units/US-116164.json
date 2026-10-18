@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-116164",
+  "title": "Demonstrate an understanding of the importance of marketing",
+  "lessons": [
+    {
+      "title": "Why marketing matters",
+      "minutes": 15,
+      "html": "<h3>Growing is only half the job</h3><p>A farmer can grow the best tomatoes in the district, but if nobody buys them, they rot and the money spent on seed, fertiliser and water is lost. <strong>Marketing</strong> means everything you do to get your product to a buyer and be paid a fair price. It is just as important as growing the crop or raising the animals.</p><h4>What marketing includes</h4><ul><li>Finding out what buyers want.</li><li>Growing or raising what buyers want, when they want it.</li><li>Getting the product ready: picking, cleaning, sorting and packing.</li><li>Taking it to the buyer.</li><li>Agreeing on a price and getting paid.</li><li>Telling people about your product.</li></ul><h4>Who are the buyers?</h4><table><tr><th>Buyer</th><th>What they often want</th></tr><tr><td>Neighbours and households</td><td>Fresh produce, fair price, small amounts</td></tr><tr><td>Spaza shops and hawkers</td><td>Regular supply, good price so they can sell at a profit</td></tr><tr><td>Schools, clinics, restaurants</td><td>Reliable delivery, clean produce, set amounts every week</td></tr><tr><td>Supermarkets</td><td>Large, steady amounts, high quality, proper packing</td></tr><tr><td>Fresh produce markets</td><td>Graded and packed produce in standard containers</td></tr><tr><td>Butchers and auctions</td><td>Healthy animals in good condition</td></tr></table><h4>Example</h4><p>Lindiwe grows spinach. At first she sells only to neighbours, and much of her spinach goes to waste. She visits two spaza shops and a school kitchen nearby. They agree to buy bunches every week if she delivers on Mondays and Thursdays. Now she plants a new bed every two weeks so she always has spinach ready, and almost nothing goes to waste.</p><p>Remember: the best time to think about marketing is before you plant or buy animals. Then you grow what buyers really want.</p>"
+    },
+    {
+      "title": "Good marketing habits",
+      "minutes": 15,
+      "html": "<h3>Know your buyer</h3><p>Talk to buyers before you plant. Ask: What do you want to buy? How much? How often? What price? This helps you plant the right crop, the right amount, at the right time.</p><h4>Quality matters</h4><ul><li>Harvest at the right time, not too early or too late.</li><li>Handle produce gently so it does not bruise.</li><li>Sort it: put good, even produce together. Remove damaged or rotten produce.</li><li>Keep produce clean and in the shade.</li><li>Pack in clean crates, bags or boxes.</li></ul><p>Buyers come back to farmers who always bring good quality.</p><h4>Be reliable</h4><ul><li>Deliver the amount you promised.</li><li>Deliver on the day and time you agreed.</li><li>If there is a problem, like hail damage, tell the buyer early.</li></ul><h4>Know your costs and the price</h4><p>Write down what you spend to grow the crop. Then you know the lowest price you can accept. Check what other sellers charge. If your price is far higher, buyers may go elsewhere. If it is too low, you lose money.</p><h4>Tell people about your product</h4><ul><li>A neat sign at your gate or stall.</li><li>Word of mouth: happy customers tell others.</li><li>WhatsApp or community groups to share what is ready this week.</li><li>A small sample for a new shop to try.</li></ul><h4>Timing</h4><p>Prices often drop when everyone has the same crop at the same time, and rise when it is scarce. If you can have produce ready when others do not, you may get a better price.</p><h4>Benefits of good marketing</h4><ul><li>Less waste.</li><li>Better and more regular income.</li><li>Loyal buyers who come back.</li><li>A good name for your farm.</li></ul><h4>Key points</h4><ul><li>Marketing means getting the product to a buyer at a fair price.</li><li>Talk to buyers before you plant.</li><li>Harvest, sort and pack carefully for good quality.</li><li>Be reliable with amounts and delivery times.</li><li>Know your costs, check prices and tell people about your product.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What does marketing mean?",
+      "options": [
+        {
+          "text": "Only planting seeds",
+          "correct": false
+        },
+        {
+          "text": "Everything you do to get your product to a buyer and be paid a fair price",
+          "correct": true
+        },
+        {
+          "text": "Only driving to town",
+          "correct": false
+        },
+        {
+          "text": "Buying fertiliser",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When should you talk to buyers?",
+      "options": [
+        {
+          "text": "Before you plant",
+          "correct": true
+        },
+        {
+          "text": "Only after the crop rots",
+          "correct": false
+        },
+        {
+          "text": "Never",
+          "correct": false
+        },
+        {
+          "text": "Only once a year",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Hail damages your crop and you cannot deliver the full order. What should you do?",
+      "options": [
+        {
+          "text": "Say nothing and hope the buyer forgets",
+          "correct": false
+        },
+        {
+          "text": "Deliver rotten produce",
+          "correct": false
+        },
+        {
+          "text": "Tell the buyer early",
+          "correct": true
+        },
+        {
+          "text": "Double the price",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you write down your costs?",
+      "options": [
+        {
+          "text": "To know the lowest price you can accept",
+          "correct": true
+        },
+        {
+          "text": "To show your neighbours",
+          "correct": false
+        },
+        {
+          "text": "Because buyers ask for your diary",
+          "correct": false
+        },
+        {
+          "text": "To make the crop grow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When are prices often lowest?",
+      "options": [
+        {
+          "text": "When the product is scarce",
+          "correct": false
+        },
+        {
+          "text": "When it rains",
+          "correct": false
+        },
+        {
+          "text": "On Mondays only",
+          "correct": false
+        },
+        {
+          "text": "When everyone has the same crop at the same time",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Buyers come back to farmers who always bring good quality.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Damaged and rotten produce should be packed with the good produce.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are benefits of good marketing? (select all that apply)",
+      "options": [
+        {
+          "text": "Less waste",
+          "correct": true
+        },
+        {
+          "text": "More regular income",
+          "correct": true
+        },
+        {
+          "text": "Loyal buyers",
+          "correct": true
+        },
+        {
+          "text": "More rotten produce",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

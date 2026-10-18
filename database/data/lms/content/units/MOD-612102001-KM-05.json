@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102001-KM-05",
+  "title": "Dairy livestock feeding",
+  "lessons": [
+    {
+      "title": "The rumen and the nutrients cows need",
+      "minutes": 20,
+      "html": "<h3>Feeding the microbes that feed the cow</h3><p>A cow has four stomach compartments: rumen, reticulum, omasum and abomasum. The rumen holds a huge population of bacteria, protozoa and fungi that ferment feed. The microbes break down fibre that people and pigs cannot digest, and produce volatile fatty acids, the cow's main energy source. The microbes themselves are then digested as protein. Feeding a dairy cow therefore means feeding her rumen microbes well.</p><h4>Rumination</h4><p>Cows bring up the cud and chew it again. Chewing produces saliva, which buffers rumen acid. Enough long fibre keeps cows chewing; too little fibre and too much starch lowers rumen pH and causes acidosis.</p><h4>Nutrients</h4><table><tr><th>Nutrient</th><th>Role</th><th>Main sources</th></tr><tr><td>Energy</td><td>Milk production, maintenance, growth, pregnancy</td><td>Maize, barley, molasses, good silage and pasture</td></tr><tr><td>Protein</td><td>Milk protein, growth, rumen microbes</td><td>Soya and cottonseed oilcake, lucerne, clover, ryegrass</td></tr><tr><td>Fibre</td><td>Rumen health, milk fat</td><td>Hay, silage, pasture, straw</td></tr><tr><td>Minerals</td><td>Bones, milk, metabolism (calcium, phosphorus, magnesium, salt, trace elements)</td><td>Mineral premix, licks</td></tr><tr><td>Vitamins</td><td>Health, immunity, fertility</td><td>Fresh pasture, premix</td></tr><tr><td>Water</td><td>Milk, digestion, temperature control</td><td>Clean troughs, unlimited</td></tr></table><h4>Dry matter</h4><p>Feeds contain different amounts of water. Silage may be mostly water, while hay and meal are mostly dry. Rations are therefore calculated on a <strong>dry matter (DM)</strong> basis. Dry matter intake is the single biggest driver of milk yield: a cow that eats more DM can make more milk.</p><h4>Energy balance</h4><p>In early lactation a high-yielding cow uses more energy for milk than she can eat, so she draws on her body fat. This is called negative energy balance. Feeding to maximise intake shortens this period and supports fertility.</p>"
+    },
+    {
+      "title": "Feeds used on SA dairies",
+      "minutes": 20,
+      "html": "<h3>Roughages</h3><ul><li><strong>Pasture</strong>: kikuyu in summer, annual and perennial ryegrass and clovers in cooler months or under irrigation. Fresh pasture is a cheap, high-quality feed when well managed.</li><li><strong>Maize silage</strong>: high energy, moderate protein, widely used inland. Quality depends on harvesting at the right stage, fine chopping, good compaction and tight sealing.</li><li><strong>Lucerne hay</strong>: high protein and calcium.</li><li><strong>Oat or teff hay, straw</strong>: fibre sources, lower energy.</li></ul><h4>Concentrates</h4><ul><li><strong>Energy</strong>: yellow maize, hominy chop, barley, molasses.</li><li><strong>Protein</strong>: soybean oilcake, cottonseed oilcake, sunflower oilcake, and non-protein nitrogen such as urea in controlled amounts set by a nutritionist. Urea is toxic if overfed or poorly mixed.</li><li><strong>By-products</strong>: brewers' grains, citrus pulp and others, where available locally.</li><li><strong>Commercial dairy meals</strong>: balanced pellets formulated for different production levels.</li></ul><h4>Feed quality and safety</h4><ul><li>Mouldy feed can contain mycotoxins that lower intake, harm health and, in the case of aflatoxin, can pass into milk.</li><li>Store meal dry, use stock in rotation, control rats and birds.</li><li>Feed must be free from chemical contamination. Keep fertiliser, pesticides and fuel separate.</li><li>Feeds are regulated under the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947; use registered feeds and follow label directions.</li></ul><h4>Feed analysis</h4><p>Send samples of silage, hay and pasture to a feed laboratory. The results (DM, protein, fibre, energy) let the nutritionist balance the ration accurately instead of guessing.</p><p>Feed costs per kilogram of dry matter differ widely between feeds. Compare feeds on cost per kg DM and per unit of energy or protein, not on price per tonne as delivered, because wet feeds such as silage contain a lot of water.</p>"
+    },
+    {
+      "title": "Rations and feeding strategies",
+      "minutes": 20,
+      "html": "<h3>Balancing a ration</h3><p>A nutritionist uses the cow's weight, yield, milk composition and stage of lactation, and the analysis of the feeds, to formulate a ration that meets her needs at the lowest reasonable cost. Feeding staff must then deliver that ration accurately.</p><h4>Feeding systems</h4><ul><li><strong>Pasture plus parlour concentrate</strong>: common on the coast. Concentrate is fed in the parlour according to yield.</li><li><strong>Total mixed ration (TMR)</strong>: all feeds mixed together, so every mouthful is balanced. Reduces sorting and rumen upsets.</li><li><strong>Partial mixed ration</strong>: TMR on a feed pad plus grazing.</li></ul><h4>Feeding to stage of lactation</h4><ul><li><strong>Dry and close-up cows</strong>: controlled energy; close-up rations designed by the nutritionist to prepare for calving and reduce milk fever.</li><li><strong>Fresh cows</strong>: highly palatable, good fibre, gradual concentrate increase.</li><li><strong>Peak</strong>: maximise dry matter intake.</li><li><strong>Late lactation</strong>: reduce energy to avoid overconditioned cows.</li></ul><h4>Metabolic disorders</h4><table><tr><th>Disorder</th><th>Cause</th></tr><tr><td>Acidosis</td><td>Too much rapidly fermented starch, too little effective fibre</td></tr><tr><td>Bloat</td><td>Gas trapped in froth, often on lush legumes</td></tr><tr><td>Ketosis</td><td>Energy shortfall in early lactation, especially in fat cows</td></tr><tr><td>Milk fever</td><td>Calcium drop at calving</td></tr><tr><td>Grass tetany</td><td>Low magnesium, often on lush, fertilised grass</td></tr></table><h4>Feed efficiency and cost</h4><p>Feed efficiency is litres (or kg) of milk produced per kg of DM eaten. Feed cost per litre is total feed cost divided by litres produced. Example: feed costs R18 000 a day and the herd produces 4 000 litres; feed cost is R4.50 per litre. Compare this with the milk price to judge profitability.</p><h4>Key points</h4><ul><li>Feed the rumen microbes; enough fibre keeps cows chewing and the rumen healthy.</li><li>Dry matter intake is the main driver of milk yield.</li><li>Analyse feeds and let a nutritionist balance the ration.</li><li>Avoid mouldy feed and overfeeding urea.</li><li>Match the ration to the stage of lactation and watch for metabolic disorders.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is the cow's main energy source produced in the rumen?",
+      "options": [
+        {
+          "text": "Volatile fatty acids",
+          "correct": true
+        },
+        {
+          "text": "Lactose",
+          "correct": false
+        },
+        {
+          "text": "Vitamin C",
+          "correct": false
+        },
+        {
+          "text": "Urea",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why are rations calculated on a dry matter basis?",
+      "options": [
+        {
+          "text": "Because water is the most expensive nutrient",
+          "correct": false
+        },
+        {
+          "text": "Because feeds contain different amounts of water",
+          "correct": true
+        },
+        {
+          "text": "Because cows do not drink",
+          "correct": false
+        },
+        {
+          "text": "Because silage has no water",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which feed is high in protein and calcium?",
+      "options": [
+        {
+          "text": "Straw",
+          "correct": false
+        },
+        {
+          "text": "Molasses",
+          "correct": false
+        },
+        {
+          "text": "Lucerne hay",
+          "correct": true
+        },
+        {
+          "text": "Yellow maize",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What disorder is caused by too much starch and too little fibre?",
+      "options": [
+        {
+          "text": "Milk fever",
+          "correct": false
+        },
+        {
+          "text": "Grass tetany",
+          "correct": false
+        },
+        {
+          "text": "Ketosis",
+          "correct": false
+        },
+        {
+          "text": "Acidosis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Feed costs R18 000 a day and the herd produces 4 000 litres. What is feed cost per litre?",
+      "options": [
+        {
+          "text": "R4.50",
+          "correct": true
+        },
+        {
+          "text": "R2.22",
+          "correct": false
+        },
+        {
+          "text": "R45.00",
+          "correct": false
+        },
+        {
+          "text": "R0.45",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Aflatoxin from mouldy feed can pass into milk.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Urea can be fed in any amount because it is a protein source.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are protein-rich concentrates? (select all that apply)",
+      "options": [
+        {
+          "text": "Soybean oilcake",
+          "correct": true
+        },
+        {
+          "text": "Cottonseed oilcake",
+          "correct": true
+        },
+        {
+          "text": "Sunflower oilcake",
+          "correct": true
+        },
+        {
+          "text": "Straw",
+          "correct": false
+        },
+        {
+          "text": "Molasses",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

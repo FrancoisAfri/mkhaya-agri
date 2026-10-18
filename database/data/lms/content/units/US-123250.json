@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123250",
+ "title": "Compress wool and mohair bales",
+ "lessons": [
+  {
+   "title": "Why bales are compressed",
+   "minutes": 15,
+   "html": "<h3>Making bales smaller for transport</h3><p>Wool and mohair bales from the farm are big and soft. A lot of air is trapped in the fibre. Before bales are shipped overseas, they are often compressed (pressed very hard) by a powerful hydraulic press, so they take up less space. More bales then fit in a container, and transport costs go down. This is called <strong>dumping</strong> or compressing in many stores.</p><h4>How it works</h4><p>The press squeezes one or more bales into a much smaller block. The compressed bale is then held tightly with metal straps or bands, so it stays small. Some buyers want single bales compressed, others want bales pressed together, as the dispatch instruction says.</p><h4>Which bales are compressed?</h4><ul><li>Bales sold to a buyer and on a dispatch instruction for compressing.</li><li>Bales that have been weighed, sampled and are closed.</li><li>Bales that are dry and not damaged.</li></ul><p>Never compress a bale that is wet, torn or not on the instruction. Wet fibre pressed hard can rot during the long trip by sea.</p><h4>Keep the identity</h4><p>After pressing, the bale must still be marked with its lot number, bale number and buyer's marks. Buyers must be able to match each compressed bale to their purchase and to the test certificate.</p><h4>Before you start</h4><ul><li>Get the compressing or dispatch instruction from the supervisor.</li><li>Bring the right bales to the press area in the order on the list.</li><li>Check each bale number before pressing.</li><li>Have enough straps, buckles or bands of the right type.</li></ul>"
+  },
+  {
+   "title": "Operating the press safely",
+   "minutes": 15,
+   "html": "<h3>The press is very powerful</h3><p>A bale press uses huge hydraulic force. It can crush a person in a moment. Only trained workers chosen by the supervisor may operate the press. Everyone else must stay clear.</p><h4>Daily checks (with the machine off)</h4><ol><li>Check all guards, doors and safety gates are in place and close properly.</li><li>Check the emergency stop buttons work.</li><li>Look for hydraulic oil leaks and damaged hoses. Report them – do not use the press.</li><li>Check that the area is clean and dry, with no oil on the floor.</li><li>Check the strapping tool and straps are in good condition.</li></ol><h4>Pressing a bale</h4><ol><li>Place the bale in the press using the forklift or clamp, in the position the procedure shows.</li><li>Make sure nobody is inside or near the press.</li><li>Close the gates or doors. Most presses will not work with the gates open – never bypass this.</li><li>Start the pressing cycle and watch it.</li><li>When the press holds the bale, fit the straps as trained, through the strap channels.</li><li>Tighten and close the straps.</li><li>Release the press only when straps are secure.</li><li>Remove the bale and check it.</li></ol><h4>Never</h4><ul><li>Never put any part of your body inside the press when it can move.</li><li>Never bypass safety switches or remove guards.</li><li>Never clean or fix the press without switching off and locking out.</li><li>Never check hydraulic leaks with your hand – oil under pressure can go through skin.</li></ul>"
+  },
+  {
+   "title": "Straps, marking and records",
+   "minutes": 15,
+   "html": "<h3>Finishing the compressed bale</h3><h4>Strap safety</h4><p>Straps on a compressed bale are under great tension. If one breaks or is cut, it can whip back and cause serious injury.</p><ul><li>Wear safety glasses and gloves when strapping.</li><li>Stand to the side, not in line with the strap, when tightening or cutting.</li><li>Use the correct tool to cut straps, never a knife.</li><li>Collect cut pieces of strap; they have sharp edges.</li></ul><h4>Check the bale</h4><ul><li>All straps are in place, tight and closed.</li><li>The pack is not torn; fibre is not sticking out.</li><li>Marks are clear: lot, bale number and buyer's marks. Re-mark if needed.</li></ul><h4>Records</h4><p>Write the bale number, lot, date and any problems on the press sheet. Some stores weigh compressed bales again. Make sure the list of pressed bales matches the dispatch instruction.</p><h4>Noise and PPE</h4><p>Presses are loud. Wear hearing protection, safety boots, gloves and safety glasses. Keep long hair tied up and wear no loose clothing.</p><h4>Housekeeping</h4><p>Sweep loose fibre, clean oil spills at once with absorbent material, and remove waste straps. A tidy press area prevents slips and fires.</p><h4>Key points</h4><ul><li>Compressing reduces bale size so more bales fit in a container.</li><li>Only press dry, undamaged bales that are on the instruction.</li><li>Only trained operators use the press; never bypass gates or guards.</li><li>Stand to the side of straps and use the right tool to cut them.</li><li>Keep bale marks clear and record every pressed bale.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why are wool and mohair bales compressed?",
+   "options": [
+    {
+     "text": "To clean the fibre",
+     "correct": false
+    },
+    {
+     "text": "To dry the fibre",
+     "correct": false
+    },
+    {
+     "text": "So more bales fit in a container and transport costs less",
+     "correct": true
+    },
+    {
+     "text": "To make the fibre finer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which bale should never be compressed?",
+   "options": [
+    {
+     "text": "A wet or torn bale",
+     "correct": true
+    },
+    {
+     "text": "A dry, closed bale on the instruction",
+     "correct": false
+    },
+    {
+     "text": "A bale that has been weighed and sampled",
+     "correct": false
+    },
+    {
+     "text": "A sold bale",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see a hydraulic oil leak on the press. What do you do?",
+   "options": [
+    {
+     "text": "Keep pressing and clean later",
+     "correct": false
+    },
+    {
+     "text": "Pour water on it",
+     "correct": false
+    },
+    {
+     "text": "Feel the leak with your hand",
+     "correct": false
+    },
+    {
+     "text": "Report it and do not use the press",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you stand when tightening or cutting a strap?",
+   "options": [
+    {
+     "text": "To the side, not in line with the strap",
+     "correct": true
+    },
+    {
+     "text": "Inside the press",
+     "correct": false
+    },
+    {
+     "text": "On top of the bale",
+     "correct": false
+    },
+    {
+     "text": "In line with the strap",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done before cleaning or fixing the press?",
+   "options": [
+    {
+     "text": "Remove the guards",
+     "correct": false
+    },
+    {
+     "text": "Ask someone to watch",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out",
+     "correct": true
+    },
+    {
+     "text": "Open the gates while it runs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "After pressing, each bale must still show its lot number and bale number.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to bypass the press gate switch to work faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which PPE is needed at the press? (select all that apply)",
+   "options": [
+    {
+     "text": "Safety glasses",
+     "correct": true
+    },
+    {
+     "text": "Hearing protection",
+     "correct": true
+    },
+    {
+     "text": "A loose scarf",
+     "correct": false
+    },
+    {
+     "text": "Gloves and safety boots",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

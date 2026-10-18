@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-821101001-KM-03",
+ "title": "General Practices in the Vineyard",
+ "lessons": [
+  {
+   "title": "Being safe in the vineyard",
+   "minutes": 15,
+   "html": "<h3>Safety every day</h3> <p>The vineyard is a good place to work, but there are dangers. Know them and protect yourself and your team.</p> <h4>Wear your PPE</h4> <p>PPE means personal protective equipment. Your farm gives it to you. Use it.</p> <ul> <li>Hat or cap for the sun.</li> <li>Safety boots or strong closed shoes.</li> <li>Gloves for wire work and pruning.</li> <li>Safety glasses when pruning or cutting wire.</li> <li>Long sleeves for sun and scratches.</li> </ul> <h4>Dangers to watch for</h4> <ul> <li><strong>Sharp tools</strong>: secateurs and knives can cut you. Keep them closed when you walk.</li> <li><strong>Heat</strong>: summer days can be very hot. Drink water often, even if you are not thirsty. Rest in the shade. If someone feels dizzy, confused or stops sweating, tell the supervisor at once.</li> <li><strong>Tractors</strong>: stay out of the way of tractors and sprayers. Make sure the driver can see you.</li> <li><strong>Chemicals</strong>: obey spray signs. Do not touch containers.</li> <li><strong>Snakes</strong>: in South Africa you may find puff adders and Cape cobras. Do not touch or kill a snake. Move away slowly and tell your supervisor. If bitten, stay calm, keep still and get help.</li> <li><strong>Bees and wasps</strong>: move away. If someone has a bad reaction, get help fast.</li> <li><strong>Trellis wire</strong>: wire under tension can whip back when cut.</li> </ul> <h4>Accidents</h4> <p>Report every accident or injury, even a small cut. Know who the first aider is and where the first aid box is. The Occupational Health and Safety Act 85 of 1993 says the employer must keep the workplace safe, and you must work safely and follow safety rules.</p>"
+  },
+  {
+   "title": "Tools, hygiene and looking after the vineyard",
+   "minutes": 15,
+   "html": "<h3>Look after your tools</h3> <ul> <li>Keep secateurs sharp and clean. Blunt tools make bad cuts and tire your hand.</li> <li>Clean tools after work. Your supervisor may ask you to clean them with disinfectant to stop diseases spreading between blocks.</li> <li>Oil the moving parts so they do not rust.</li> <li>Put tools back in the store. Report broken tools.</li> <li>Never throw tools or leave them on the ground where others can step on them.</li> </ul> <h3>Hygiene</h3> <p>Grapes are food. People eat table grapes and drink wine. So we must keep them clean.</p> <ul> <li>Use the toilets provided. Never relieve yourself in the vineyard.</li> <li>Wash your hands with soap after using the toilet, before eating, and after touching chemicals.</li> <li>Tell your supervisor if you have a running stomach, vomiting or an open wound.</li> <li>Put rubbish in bins. Plastic, bottles and food in the vineyard attract pests and can end up in the grapes.</li> <li>Do not smoke in the vineyard rows.</li> </ul> <h3>Care for the vineyard</h3> <ul> <li>Walk in the rows, not over the drip pipes.</li> <li>Close gates behind you so animals do not enter.</li> <li>Do not break shoots or pull on wires.</li> <li>Report damage: broken posts, loose wires, leaking pipes, sick vines.</li> </ul> <h3>Water and energy</h3><p>Do not leave taps open or play with irrigation pipes. If you see water running where it should not, close the valve if you have been shown how, and report it. Switch off lights and pumps in sheds when you are told to. Saving water and power saves the farm money.</p> <p>When you look after the vineyard, the farm produces better grapes, and that keeps the farm and your job strong.</p>"
+  },
+  {
+   "title": "Working well with others",
+   "minutes": 15,
+   "html": "<h3>Teamwork in the vineyard</h3> <p>Most vineyard work is done in teams. One team prunes, another ties, another picks. Each person's work affects the others.</p> <h4>Follow instructions</h4> <ul> <li>Listen carefully when the supervisor explains the job.</li> <li>If you do not understand, ask. It is better to ask than to make a mistake on many vines.</li> <li>Do the job the same way on every vine, as shown.</li> <li>Work in the block and row you were given.</li> </ul> <h4>Good work habits</h4> <ul> <li>Arrive on time. Start and finish when your team does.</li> <li>Take your breaks at the right time.</li> <li>Respect your team members. No fighting or bullying.</li> <li>Help a new worker learn.</li> <li>Do not drink alcohol or use drugs before or during work. It is dangerous and against the rules.</li> </ul> <h4>Reporting and records</h4> <p>Farms keep records of the work done. You may need to:</p> <ul> <li>Sign a register each day.</li> <li>Give your name or number for the rows you completed.</li> <li>Tell your supervisor about problems you saw: pests, sick vines, broken pipes, theft.</li> </ul> <p>When reporting, say <strong>what</strong> you saw, <strong>where</strong> (block and row) and <strong>when</strong>.</p> <h4>Your rights and duties</h4> <p>You have the right to a safe workplace, PPE and clean drinking water. You have a duty to work safely, use PPE and follow the rules. If something is unsafe, tell your supervisor or your health and safety representative.</p> <h4>Key points</h4> <ul> <li>Wear your PPE and drink water often on hot days.</li> <li>Move away from snakes and tell your supervisor.</li> <li>Keep tools sharp, clean and stored safely.</li> <li>Use toilets and wash hands; grapes are food.</li> <li>Ask if you do not understand, and report what, where and when.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do if you see a snake in the vineyard?",
+   "options": [
+    {
+     "text": "Throw stones at it",
+     "correct": false
+    },
+    {
+     "text": "Move away slowly and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Pick it up",
+     "correct": false
+    },
+    {
+     "text": "Try to kill it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you drink water on a hot day?",
+   "options": [
+    {
+     "text": "Never during work",
+     "correct": false
+    },
+    {
+     "text": "Often, even if you are not thirsty",
+     "correct": true
+    },
+    {
+     "text": "Only after work",
+     "correct": false
+    },
+    {
+     "text": "Only at lunch",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should tools sometimes be disinfected between blocks?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "To stop diseases spreading",
+     "correct": true
+    },
+    {
+     "text": "To make them shiny",
+     "correct": false
+    },
+    {
+     "text": "Because the supervisor is bored",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When reporting a problem, what should you tell your supervisor?",
+   "options": [
+    {
+     "text": "Only your name",
+     "correct": false
+    },
+    {
+     "text": "What you saw, where and when",
+     "correct": true
+    },
+    {
+     "text": "Nothing, just fix it",
+     "correct": false
+    },
+    {
+     "text": "Only the weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must workers relieve themselves?",
+   "options": [
+    {
+     "text": "In the toilets provided",
+     "correct": true
+    },
+    {
+     "text": "Behind the tractor",
+     "correct": false
+    },
+    {
+     "text": "Anywhere in the rows",
+     "correct": false
+    },
+    {
+     "text": "Near the dam",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A small cut at work does not need to be reported.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If you do not understand an instruction, you should ask.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are PPE for vineyard work? (select all that apply)",
+   "options": [
+    {
+     "text": "Hat",
+     "correct": true
+    },
+    {
+     "text": "Gloves",
+     "correct": true
+    },
+    {
+     "text": "A cell phone",
+     "correct": false
+    },
+    {
+     "text": "Safety boots",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

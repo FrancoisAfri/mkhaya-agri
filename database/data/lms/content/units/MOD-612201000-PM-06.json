@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612201000-PM-06",
+  "title": "Attend to the personnel management functions on a poultry farming unit, at",
+  "lessons": [
+    {
+      "title": "Staffing the poultry unit",
+      "minutes": 25,
+      "html": "<h3>Staffing the poultry unit</h3><p>This practical module covers the personnel functions a poultry unit manager carries out: staffing, rosters, induction, training, performance, discipline and records. The aim is a stable, skilled team that keeps birds cared for every day of the year, within the law.</p><h4>Determining staffing needs</h4><p>Calculate the staff required for each house and function using workload standards: routine care per house per day, egg collection and grading, cleaning crews between flocks, maintenance, security and administration. Add allowance for leave, sick leave, training and peak tasks such as clean-out and depletion. Present the staffing plan to management with costs.</p><h4>Recruitment process</h4><ol><li>Confirm the vacancy and budget with management.</li><li>Update the job description, including biosecurity conditions of employment if any.</li><li>Advertise and shortlist using objective criteria.</li><li>Interview with structured questions and practical assessments where appropriate.</li><li>Check references and documents.</li><li>Issue written particulars of employment and obtain signed acceptance.</li><li>Register the employee for payroll, UIF and COIDA as required.</li></ol><p>Apply the Employment Equity Act: no unfair discrimination at any stage.</p><h4>Induction programme</h4><p>Run a structured induction before the new employee works unsupervised:</p><ul><li>Farm overview, structure and contacts.</li><li>Biosecurity rules - practical walk-through of entry procedures.</li><li>Health and safety: hazards, PPE, emergency procedures, first aid.</li><li>Animal welfare responsibilities.</li><li>Job tasks and SOPs; buddy assignment.</li><li>Conditions of employment, pay, leave, disciplinary and grievance procedures.</li></ul><p>Keep a signed induction checklist on file.</p><h4>Rosters and time management</h4><p>Prepare rosters covering all days and shifts, compliant with the Basic Conditions of Employment Act on hours, rest, overtime, Sunday and public holiday work. Keep accurate time and attendance records for payroll and leave.</p>"
+    },
+    {
+      "title": "Training and performance management",
+      "minutes": 25,
+      "html": "<h3>Training and performance management</h3><h4>Training needs analysis</h4><p>Compare each employee's skills with their job requirements using a skills matrix. Add needs from performance reviews, new equipment, audit findings and incidents. Prioritise safety-critical and biosecurity-critical skills.</p><h4>Training plan and delivery</h4><ul><li>On-the-job coaching by supervisors and experienced workers.</li><li>Toolbox talks on specific topics such as vaccine handling or ammonia hazards.</li><li>Formal courses with accredited providers: first aid, fire fighting, chemical handling, generator operation.</li><li>Learnerships and skills programmes through AgriSETA, linked to the workplace skills plan where the employer is required to submit one.</li></ul><p>Record attendance, results and certificates. Evaluate whether training improved performance.</p><h4>Setting performance standards</h4><p>Agree measurable standards for each role, for example:</p><table><tr><th>Role</th><th>Example standards</th></tr><tr><td>House worker</td><td>House walks completed, records accurate, mortality and weights within target, biosecurity compliance</td></tr><tr><td>Egg room worker</td><td>Grading accuracy, breakages, hygiene</td></tr><tr><td>Team leader</td><td>Team flock results, record quality, safety incidents, staff attendance</td></tr></table><h4>Reviews</h4><p>Hold informal feedback regularly and formal reviews at agreed intervals, often at the end of a flock or every six months. Discuss results, strengths, areas for improvement, support needed and new goals. Document the review and agree an action plan.</p><h4>Managing poor performance</h4><p>Follow a fair incapacity process: identify the shortfall, communicate it, provide training and support, allow a reasonable period to improve, review progress, and consider alternatives before more serious steps. Keep records of every step.</p><h4>Recognition</h4><p>Recognise strong performers through praise, responsibility, development opportunities and any incentive scheme the farm runs. Fair recognition supports retention.</p><p>Link the training plan to the farm's budget and calendar, so that training is scheduled between flocks or in quieter periods and does not leave houses short-staffed.</p>"
+    },
+    {
+      "title": "Discipline, grievances, records and wellbeing",
+      "minutes": 25,
+      "html": "<h3>Discipline, grievances, records and wellbeing</h3><h4>Applying the disciplinary code</h4><p>When misconduct is alleged:</p><ol><li>Investigate promptly: statements, records, evidence.</li><li>Decide whether informal counselling or a formal process is appropriate under the code.</li><li>For formal hearings, give written notice of the allegations, time to prepare, the right to representation by a fellow employee or union representative, and the right to call witnesses.</li><li>Ensure an impartial chairperson.</li><li>Decide on guilt and an appropriate, consistent sanction considering the employee's record and circumstances.</li><li>Communicate the outcome in writing, including appeal rights where the code provides them.</li></ol><p>Serious breaches - deliberate biosecurity violations, theft of eggs or birds, assault, being under the influence at work - may justify serious sanctions after a fair process. Consult HR or labour advisers on difficult cases. Disputes may be referred to the CCMA under the Labour Relations Act.</p><h4>Grievances</h4><p>Ensure employees know the grievance procedure. Handle grievances within set time limits, at the lowest level that can resolve them, and escalate when needed. Record outcomes. Never victimise employees for raising grievances.</p><h4>Personnel records</h4><ul><li>Contracts and written particulars.</li><li>Attendance, leave and overtime.</li><li>Training records and certificates.</li><li>Performance reviews.</li><li>Disciplinary and grievance records.</li><li>Injury records and COIDA claims.</li></ul><p>Keep records accurate, secure and confidential, and process personal information lawfully in line with the Protection of Personal Information Act.</p><h4>Health, safety and wellbeing</h4><p>Ensure risk assessments, PPE, medical surveillance where required for dust or chemical exposure, and incident investigations under the OHS Act 85 of 1993. Provide clean ablutions and eating areas. Monitor fatigue from shift work. During disease outbreaks and culling, provide clear communication and emotional support, since these events are stressful for staff.</p><h4>Key points</h4><ul><li>Base staffing on workload with allowance for leave and peaks.</li><li>Recruit fairly and induct every employee in biosecurity and safety.</li><li>Use a skills matrix and training plan; record all training.</li><li>Manage performance and misconduct with fair, documented processes.</li><li>Keep personnel records secure and support staff wellbeing.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What should staffing calculations include besides routine daily work?",
+      "options": [
+        {
+          "text": "Allowance for leave, training and peak tasks",
+          "correct": true
+        },
+        {
+          "text": "Only the manager's preference",
+          "correct": false
+        },
+        {
+          "text": "Feed prices",
+          "correct": false
+        },
+        {
+          "text": "Nothing else",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Before a formal disciplinary hearing, the employee must receive:",
+      "options": [
+        {
+          "text": "A final written warning",
+          "correct": false
+        },
+        {
+          "text": "Written notice of the allegations and time to prepare",
+          "correct": true
+        },
+        {
+          "text": "Their dismissal letter",
+          "correct": false
+        },
+        {
+          "text": "Nothing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Who may represent an employee at a disciplinary hearing?",
+      "options": [
+        {
+          "text": "Nobody",
+          "correct": false
+        },
+        {
+          "text": "The chairperson",
+          "correct": false
+        },
+        {
+          "text": "A fellow employee or union representative",
+          "correct": true
+        },
+        {
+          "text": "The person who made the complaint",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which is part of a fair incapacity (poor performance) process?",
+      "options": [
+        {
+          "text": "Dismissal at the first mistake",
+          "correct": false
+        },
+        {
+          "text": "Training and a reasonable period to improve",
+          "correct": true
+        },
+        {
+          "text": "Reducing pay without discussion",
+          "correct": false
+        },
+        {
+          "text": "Keeping no records",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where can unresolved dismissal disputes be referred?",
+      "options": [
+        {
+          "text": "The state veterinarian",
+          "correct": false
+        },
+        {
+          "text": "The feed supplier",
+          "correct": false
+        },
+        {
+          "text": "AgriSETA",
+          "correct": false
+        },
+        {
+          "text": "The CCMA",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A signed induction checklist should be kept on file for each new employee.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Personnel records may be shared freely with anyone on the farm.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are personnel records a poultry unit should keep? (select all that apply)",
+      "options": [
+        {
+          "text": "Attendance and leave",
+          "correct": true
+        },
+        {
+          "text": "Training certificates",
+          "correct": true
+        },
+        {
+          "text": "Disciplinary records",
+          "correct": true
+        },
+        {
+          "text": "Daily feed silo levels",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

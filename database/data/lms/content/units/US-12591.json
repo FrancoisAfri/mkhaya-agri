@@ -1,0 +1,183 @@
+{
+  "unit_key": "US-12591",
+  "title": "Administer husbandry practices to farm animals",
+  "lessons": [
+    {
+      "title": "Identifying and recording animals",
+      "minutes": 20,
+      "html": "<h3>Identifying and recording animals</h3><p>Husbandry practices are the regular jobs we do to keep animals healthy, identified and productive. They include marking, dipping, dosing, vaccinating, hoof care, castration and dehorning. Many of these jobs are done in the kraal and crush with a team.</p><h4>Why identify animals?</h4><ul><li>To prove who owns the animal, which helps prevent stock theft.</li><li>To keep records of birth, treatments, weights and production.</li><li>To trace animals if there is a disease outbreak.</li></ul><h4>Ways to identify animals</h4><table><tr><th>Method</th><th>Notes</th></tr><tr><td>Ear tags</td><td>Plastic tags with numbers; some are electronic. Put in the right place on the ear with the correct applicator.</td></tr><tr><td>Branding or tattooing</td><td>Under the Animal Identification Act 6 of 2002, owners must mark their cattle, sheep, goats and pigs with a registered identification mark. Done by trained people.</td></tr><tr><td>Ear notches</td><td>Used on some farms, especially for pigs.</td></tr><tr><td>Leg bands</td><td>Used on poultry, or to mark dairy cows under treatment.</td></tr></table><h4>Tagging safely</h4><ol><li>Hold the animal still in a crush or by a helper.</li><li>Clean the applicator and the tag.</li><li>Place the tag between the ear's main veins, in the position your supervisor shows you.</li><li>Squeeze firmly in one action.</li><li>Check the tag turns freely and is not too tight.</li><li>Record the tag number with the animal's details.</li></ol><h4>Records</h4><p>Every husbandry job must be recorded: date, animal or group, what was done, product used and batch number, dose and who did it. Records help the farm plan, prove good practice to buyers and meet legal requirements.</p><p>Good identification and records also help when animals are sold. Buyers and abattoirs trust animals that come with clear marks and complete treatment records.</p>"
+    },
+    {
+      "title": "Dipping, dosing and vaccinating",
+      "minutes": 25,
+      "html": "<h3>Dipping, dosing and vaccinating</h3><p>These jobs control parasites and diseases. The farm's animal health programme, made with the vet, says which products to use and when. <strong>Always follow the product label or your vet for doses and withdrawal periods.</strong> Animal remedies are registered under Act 36 of 1947 or the Medicines and Related Substances Act; use only what the farm supplies.</p><h4>External parasites (ticks, lice, mange, flies)</h4><p>Ticks spread diseases such as redwater, heartwater and gallsickness. Control methods include:</p><ul><li><strong>Plunge dip (dip tank):</strong> animals swim through a dip bath. Keep the dip at the right strength as the label says; the supervisor tops it up and tests it.</li><li><strong>Spray race or hand spray.</strong></li><li><strong>Pour-on:</strong> measured along the back line.</li></ul><h4>Internal parasites (worms)</h4><p>Worms such as wireworm in sheep and goats cause weakness, anaemia and death. They are controlled by oral dosing (drenching) or injections. Many farms only dose animals that need it, for example by checking the colour of the inner eyelid, to slow down worm resistance.</p><h4>How to drench a sheep</h4><ol><li>Calibrate the dosing gun: check it gives the right amount.</li><li>Hold the sheep's head level, not tilted up.</li><li>Put the nozzle in the side of the mouth over the tongue.</li><li>Squeeze slowly so the sheep swallows. Do not force it; the dose can go into the lungs.</li></ol><h4>Vaccinating</h4><ul><li>Keep vaccines cold at the temperature on the label (in the fridge or a cooler box), out of the sun, and never frozen.</li><li>Use clean, sterile needles. Change needles often.</li><li>Inject in the place and way the label says (under the skin or into the muscle).</li><li>Mark animals that are done so none are missed or done twice.</li></ul><h4>Safety</h4><ul><li>Wear the PPE on the label: gloves, overalls, boots, and eye protection for dips.</li><li>Never eat, drink or smoke while working with dips or medicines.</li><li>Avoid self-injection. If it happens, seek medical help and take the label.</li><li>Put used needles in a sharps container. Never throw dip or empty containers into rivers.</li></ul>"
+    },
+    {
+      "title": "Hoof care, castration and dehorning",
+      "minutes": 20,
+      "html": "<h3>Hoof care, castration and dehorning</h3><p>These jobs can cause pain and serious injury if done wrongly. Only trained workers may do them, under supervision, using clean equipment. The Animals Protection Act 71 of 1962 makes unnecessary suffering a crime. Ask your vet about pain relief and the right age for each procedure.</p><h4>Hoof care</h4><ul><li>Check feet for overgrown hooves, cracks, stones and foot rot (a bad smell and lameness, common in wet camps).</li><li>Trim overgrown hooves with sharp hoof shears, a little at a time. Do not cut into the pink, living part; it bleeds and hurts.</li><li>Foot baths with a product chosen by the vet may be used for foot rot.</li><li>Keep camps and kraals dry where possible.</li></ul><h4>Castration</h4><p>Male animals not kept for breeding are often castrated. It makes them calmer and easier to manage, and prevents unplanned mating. Methods include the rubber ring, the burdizzo (bloodless castrator) and surgical castration. Castration is done at a young age as advised by the vet, with clean equipment, and the animal is watched afterwards for swelling, bleeding or infection.</p><h4>Dehorning and disbudding</h4><p>Horns can injure other animals and people, and cause bruises in transport. Calves can be disbudded when the horn buds are still small, which is less painful than removing grown horns. Grown horns are removed only by a vet or a highly trained person with pain relief.</p><h4>Other practices</h4><ul><li><strong>Tail docking of lambs</strong> to prevent flystrike, as the farm and vet advise.</li><li><strong>Weighing</strong> to check growth and work out doses.</li><li><strong>Condition scoring:</strong> feeling the back and ribs to see if an animal is too thin or too fat.</li></ul><h4>After any procedure</h4><p>Release animals calmly, put them in a clean, dry camp with water and feed, and check them over the next days. Record everything.</p><h4>Key points</h4><ul><li>Identify animals with tags or registered marks and record all details.</li><li>Follow the label or vet for every dose and withdrawal period.</li><li>Keep vaccines cold, use clean needles and drench with the head level.</li><li>Only trained people do hoof trimming, castration and dehorning, with clean tools and vet advice on pain.</li><li>Wear PPE, dispose of needles and dip safely, and record every job.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Why are farm animals identified with tags or marks?",
+      "options": [
+        {
+          "text": "To prove ownership, keep records and trace disease",
+          "correct": true
+        },
+        {
+          "text": "To make them look nice at shows",
+          "correct": false
+        },
+        {
+          "text": "To make them grow faster",
+          "correct": false
+        },
+        {
+          "text": "To keep ticks away",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Where do you find the correct dose of a dip or dewormer?",
+      "options": [
+        {
+          "text": "Ask any co-worker",
+          "correct": false
+        },
+        {
+          "text": "Guess from the animal's size",
+          "correct": false
+        },
+        {
+          "text": "On the product label or from the vet",
+          "correct": true
+        },
+        {
+          "text": "Use double to be safe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should a sheep's head be held when drenching?",
+      "options": [
+        {
+          "text": "Tilted far up",
+          "correct": false
+        },
+        {
+          "text": "Level",
+          "correct": true
+        },
+        {
+          "text": "Pointing to the ground",
+          "correct": false
+        },
+        {
+          "text": "It does not matter",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "How should vaccines be stored?",
+      "options": [
+        {
+          "text": "In the sun to stay warm",
+          "correct": false
+        },
+        {
+          "text": "In the freezer",
+          "correct": false
+        },
+        {
+          "text": "On the kraal wall",
+          "correct": false
+        },
+        {
+          "text": "Cold in a fridge or cooler box, never frozen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When trimming hooves, what must you avoid?",
+      "options": [
+        {
+          "text": "Cutting into the pink, living part",
+          "correct": true
+        },
+        {
+          "text": "Using sharp shears",
+          "correct": false
+        },
+        {
+          "text": "Trimming a little at a time",
+          "correct": false
+        },
+        {
+          "text": "Checking for stones",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Ticks can spread diseases such as redwater and heartwater.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Any untrained worker may remove the grown horns of cattle.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should be recorded after a husbandry job? (select all that apply)",
+      "options": [
+        {
+          "text": "Date and animals treated",
+          "correct": true
+        },
+        {
+          "text": "Product, batch number and dose",
+          "correct": true
+        },
+        {
+          "text": "Who did the job",
+          "correct": true
+        },
+        {
+          "text": "Nothing; records are not needed",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

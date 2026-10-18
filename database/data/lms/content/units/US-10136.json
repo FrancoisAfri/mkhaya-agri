@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-10136",
+ "title": "Plan, organise and support project meetings and workshops",
+ "lessons": [
+  {
+   "title": "Planning a meeting or workshop",
+   "minutes": 20,
+   "html": "<h3>Why plan?</h3><p>In agri business, projects often bring many people together: a co-op launching a new grain intake system, a farmers' day with a seed company, a study group meeting, or a workshop to train silo staff on a new grading procedure. A meeting that is poorly planned wastes everyone's time and money, especially when farmers have driven long distances in harvest season. As a project support person, your job is to make sure the meeting achieves its purpose smoothly.</p><h4>Start with the purpose</h4><p>Ask the project leader: What must this meeting achieve? Is it to inform, to decide, to plan, or to train? The purpose decides who must attend, how long it should be and what format suits it. A decision meeting needs the people with authority; a training workshop needs the people who will do the work.</p><h4>Planning checklist</h4><table><tr><th>Item</th><th>Questions to answer</th></tr><tr><td>Date and time</td><td>Avoid planting, harvest and auction days. Allow travel time from outlying farms.</td></tr><tr><td>Venue</td><td>Size, access, parking for bakkies and trailers, power, toilets, shade, mobile signal</td></tr><tr><td>Participants</td><td>Who must attend, who is optional, who needs to be informed</td></tr><tr><td>Agenda</td><td>Topics, presenters, time per item, breaks</td></tr><tr><td>Resources</td><td>Projector, screen, flipcharts, extension cords, generator if load-shedding is likely, handouts</td></tr><tr><td>Catering</td><td>Numbers, dietary needs, water</td></tr><tr><td>Budget</td><td>Venue hire, catering, travel, materials; approval needed</td></tr></table><h4>The agenda</h4><p>A good agenda lists the meeting's purpose, date, time, venue and each item with the person responsible and the time allowed. Send it with any reading material at least several working days before the meeting so participants can prepare. Put decision items early, while people are fresh.</p><h4>Invitations and confirmations</h4><p>Send invitations by the channel participants actually use; many farmers respond better to a WhatsApp message or a phone call than to email. Ask for RSVPs by a date and keep a list of confirmations. Send a reminder a day or two before.</p>"
+  },
+  {
+   "title": "Supporting the meeting on the day",
+   "minutes": 20,
+   "html": "<h3>Before people arrive</h3><ul><li>Arrive early. Check the room set-up, seating, signage and the route from the gate.</li><li>Test the projector, laptop, microphone and internet. Have the presentation on a flash drive as a backup.</li><li>Prepare the attendance register. For accredited training workshops, the register is evidence and must be complete and signed.</li><li>Know where the emergency exits, first aid kit and fire extinguisher are, and who the first aider is.</li></ul><h4>During the meeting</h4><p>The chairperson leads the meeting, but you support them:</p><ul><li>Welcome participants and direct them to sign the register.</li><li>Keep time and give the chair discreet signals when an item runs over.</li><li>Distribute handouts at the right moment.</li><li>Solve problems quietly: a failed projector, too few chairs, a late caterer.</li><li>Take minutes, or support the minute-taker.</li></ul><h4>Taking minutes</h4><p>Minutes are the official record. They do not need every word said, but must capture:</p><ol><li>Date, venue, attendees and apologies.</li><li>Each agenda item, with a short summary of the discussion.</li><li>Decisions taken, worded clearly.</li><li>Actions: what, who and by when.</li></ol><p>Example action: \"Silo manager to obtain three quotes for a new moisture meter by 15 August.\"</p><h4>Workshops</h4><p>Workshops are more interactive than meetings. Plan group work, prepare flipcharts and markers, and arrange the room in groups rather than rows. Make sure language and level suit the participants; for farm workers you may need an interpreter.</p><h4>Handling difficulties</h4><p>If discussion becomes heated, support the chair in keeping to the agenda and to respectful behaviour. Note disagreements objectively in the minutes without taking sides.</p>"
+  },
+  {
+   "title": "After the meeting",
+   "minutes": 15,
+   "html": "<h3>Following up</h3><p>Much of the value of a meeting is lost if nothing happens afterwards. Your follow-up work turns decisions into action.</p><ol><li><strong>Draft the minutes</strong> within a day or two while memory is fresh. Send them to the chair to check.</li><li><strong>Distribute approved minutes</strong> to all attendees and to those who sent apologies.</li><li><strong>Track actions.</strong> Keep an action list with owner and due date. Send reminders before due dates and report progress to the project leader.</li><li><strong>Settle costs.</strong> Collect invoices for venue, catering and travel, check them against what was ordered, and submit them for payment with the correct approvals.</li><li><strong>Return equipment</strong> and leave the venue clean.</li><li><strong>File records</strong>: agenda, attendance register, minutes, presentations, invoices. Workshop registers and evaluation forms may be needed for training records and Skills Development levy reporting.</li></ol><h4>Evaluating the meeting</h4><p>Ask: Did we achieve the purpose? Did it start and end on time? Was the venue suitable? What went wrong and how can we prevent it next time? For workshops, a short evaluation form helps improve future sessions. Share lessons learned with the project team.</p><h4>Protecting information</h4><p>Attendance registers and contact lists contain personal information. Keep them secure and use them only for the purpose they were collected for, in line with POPIA.</p><h4>Key points</h4><ul><li>Start with the purpose; it drives who attends and how the meeting runs.</li><li>Avoid peak farming dates and plan for power and connectivity problems.</li><li>Send the agenda and papers early and confirm attendance.</li><li>Minutes must record decisions and actions with owner and due date.</li><li>Follow up actions, settle costs and file records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should be decided first when planning a meeting?",
+   "options": [
+    {
+     "text": "The seating plan",
+     "correct": false
+    },
+    {
+     "text": "The colour of the handouts",
+     "correct": false
+    },
+    {
+     "text": "The purpose of the meeting",
+     "correct": true
+    },
+    {
+     "text": "The catering menu",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which date is usually the worst choice for a farmers' meeting?",
+   "options": [
+    {
+     "text": "During harvest",
+     "correct": true
+    },
+    {
+     "text": "A day after the auction",
+     "correct": false
+    },
+    {
+     "text": "A day agreed with the study group",
+     "correct": false
+    },
+    {
+     "text": "A quiet mid-winter weekday",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must minutes capture for each action?",
+   "options": [
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "Every word said",
+     "correct": false
+    },
+    {
+     "text": "Who spoke the longest",
+     "correct": false
+    },
+    {
+     "text": "What, who and by when",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why bring the presentation on a flash drive?",
+   "options": [
+    {
+     "text": "As a backup if the laptop or internet fails",
+     "correct": true
+    },
+    {
+     "text": "To give away",
+     "correct": false
+    },
+    {
+     "text": "It is required by law",
+     "correct": false
+    },
+    {
+     "text": "To store minutes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should approved minutes be distributed?",
+   "options": [
+    {
+     "text": "Posted on social media",
+     "correct": false
+    },
+    {
+     "text": "To all attendees and those who sent apologies",
+     "correct": true
+    },
+    {
+     "text": "Only on request",
+     "correct": false
+    },
+    {
+     "text": "Only to the chair",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Many farmers may respond better to a phone call or WhatsApp than to email.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The minute-taker should record their own opinion about who was right in a disagreement.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are follow-up tasks after a meeting? (select all that apply)",
+   "options": [
+    {
+     "text": "Tracking action items",
+     "correct": true
+    },
+    {
+     "text": "Settling invoices",
+     "correct": true
+    },
+    {
+     "text": "Filing the attendance register",
+     "correct": true
+    },
+    {
+     "text": "Choosing the next year's crop",
+     "correct": false
+    },
+    {
+     "text": "Ploughing the venue",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

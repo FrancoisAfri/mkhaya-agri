@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-13356",
+ "title": "Assess the influence of the environment on sustainable livestock production",
+ "lessons": [
+  {
+   "title": "The environment and our animals",
+   "minutes": 15,
+   "html": "<h3>What is the environment?</h3><p>The environment is everything around the animals: the weather, the veld and grass, the water, the soil, the shelter and other animals. The environment affects how well animals grow, breed and stay healthy.</p><h4>Weather</h4><ul><li><strong>Heat</strong>: in hot weather animals pant, look for shade and eat less. Chickens and pigs suffer quickly in heat. Give shade and plenty of clean water.</li><li><strong>Cold and rain</strong>: young animals such as lambs and calves can die of cold, especially when wet and windy. Give shelter.</li><li><strong>Drought</strong>: there is little grass and water. Animals lose weight.</li></ul><h4>Grass and veld</h4><p>Cattle, sheep and goats eat veld grass and bushes. In summer the grass is green and good. In winter, in most of South Africa, the grass is dry and has less food value. Animals may need a lick or extra feed in winter. Ask your supervisor what the farm uses.</p><h4>Water</h4><p>Animals need clean water every day. A cow drinks a lot more on a hot day. Dirty troughs, broken pipes or a dry dam can make animals ill or thirsty very fast. Check troughs every day.</p><h4>Different animals, different places</h4><p>Some breeds handle heat, ticks and poor veld well, such as Nguni cattle and indigenous goats. Other breeds need better feed and care. Farmers choose animals that fit their area.</p><h4>Look and report</h4><p>Each day look at the animals, the water, the grass and the shelter. If something is wrong, tell your supervisor. For example: the trough in camp 4 is empty, or the calves are wet and cold after the storm.</p>"
+  },
+  {
+   "title": "How animals can harm the environment",
+   "minutes": 15,
+   "html": "<h3>Looking after the land</h3><p>Animals need the environment, but they can also damage it. If we damage the veld and water, there will be less food for animals next year.</p><h4>Overgrazing</h4><p>Overgrazing happens when too many animals eat in one camp for too long. The good grass dies. Bare soil is left. Weeds and bushes grow. When it rains, the water runs off and takes the soil with it. This is called <strong>erosion</strong>. Gullies (dongas) form.</p><h4>Signs of overgrazing</h4><ul><li>Very short grass and bare patches</li><li>Paths and gullies where water runs</li><li>Few good grass types, many weeds</li><li>Thin animals</li></ul><h4>Trampling</h4><p>Where animals walk and stand a lot, like around water points, gates and kraals, the soil becomes hard and bare. Move water troughs and lick blocks from time to time if your supervisor agrees.</p><h4>Water pollution</h4><p>Manure and urine near rivers and dams make the water dirty. Animals standing in a river damage the banks. Keep kraals and manure heaps away from water. Use troughs instead of letting animals drink in the river where possible.</p><h4>Dip and medicine waste</h4><p>Old dip and empty medicine containers can poison water, fish and wild animals. Never throw dip into a river or empty bottles in the veld. Follow the farm's rules for waste.</p><h4>Example</h4><p>On one farm, sheep stayed in the same camp next to the river all winter. By spring the grass was gone, the river bank was broken and the water was muddy. When the farm started moving the sheep through all the camps, the grass grew back.</p>"
+  },
+  {
+   "title": "Farming in a sustainable way",
+   "minutes": 15,
+   "html": "<h3>Using the land so it lasts</h3><p>Sustainable means we can keep farming for many years without destroying the land, water and animals. The law also asks farmers to look after soil and veld; the Conservation of Agricultural Resources Act 43 of 1983 deals with this.</p><h4>What workers can do</h4><ol><li><strong>Follow the grazing plan.</strong> Move animals to the next camp on the day you are told. Let rested camps grow back.</li><li><strong>Count the animals.</strong> Too many animals for the veld causes overgrazing. Report if numbers grow.</li><li><strong>Check water every day.</strong> Fix or report leaks and dirty troughs.</li><li><strong>Watch the animals.</strong> Report animals that are thin, panting a lot, shivering or sick.</li><li><strong>Look after shelter.</strong> Keep shade and windbreaks in good condition.</li><li><strong>Stop erosion early.</strong> Report new gullies and bare patches. Help to pack branches or stones in small gullies if asked.</li><li><strong>Look after waste.</strong> Put containers and plastic in the right place.</li></ol><h4>Seasons and planning</h4><table><tr><th>Season</th><th>What to watch</th></tr><tr><td>Summer</td><td>Heat, ticks, flies, storms and erosion</td></tr><tr><td>Autumn</td><td>Save grass for winter</td></tr><tr><td>Winter</td><td>Cold, dry grass, licks, fire risk</td></tr><tr><td>Spring</td><td>Births, first green grass, do not graze too early</td></tr></table><h4>Fire</h4><p>Dry winter veld burns easily. A fire can kill animals and destroy grazing. Do not make fires in the veld. If you see a fire, warn others and tell your supervisor at once. Do not try to fight a big fire alone.</p><h4>Key points</h4><ul><li>Weather, grass, water and shelter all affect animal health and growth.</li><li>Too many animals in one camp for too long causes overgrazing and erosion.</li><li>Keep kraals and manure away from rivers and dams.</li><li>Follow the grazing plan and check water every day.</li><li>Report thin or sick animals, new gullies and fires straight away.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you give animals on a very hot day?",
+   "options": [
+    {
+     "text": "Shade and plenty of clean water",
+     "correct": true
+    },
+    {
+     "text": "Less water",
+     "correct": false
+    },
+    {
+     "text": "A long walk",
+     "correct": false
+    },
+    {
+     "text": "Nothing extra",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is overgrazing?",
+   "options": [
+    {
+     "text": "Moving animals every day",
+     "correct": false
+    },
+    {
+     "text": "Too many animals eating in one camp for too long",
+     "correct": true
+    },
+    {
+     "text": "Feeding animals a lick",
+     "correct": false
+    },
+    {
+     "text": "Giving animals water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is erosion?",
+   "options": [
+    {
+     "text": "Grass growing well",
+     "correct": false
+    },
+    {
+     "text": "Animals drinking",
+     "correct": false
+    },
+    {
+     "text": "Soil washed or blown away",
+     "correct": true
+    },
+    {
+     "text": "Planting trees",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should kraals be kept away from rivers?",
+   "options": [
+    {
+     "text": "To make the walk shorter",
+     "correct": false
+    },
+    {
+     "text": "So the river is warmer",
+     "correct": false
+    },
+    {
+     "text": "So the grass grows taller",
+     "correct": false
+    },
+    {
+     "text": "So manure does not make the water dirty",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you see a veld fire?",
+   "options": [
+    {
+     "text": "Warn others and tell your supervisor at once",
+     "correct": true
+    },
+    {
+     "text": "Fight it alone",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Go home",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In winter the veld grass in most of South Africa has less food value.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Old dip may be thrown into the river if the river is flowing fast.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of overgrazing? (select all that apply)",
+   "options": [
+    {
+     "text": "Very short grass and bare patches",
+     "correct": true
+    },
+    {
+     "text": "Gullies where water runs",
+     "correct": true
+    },
+    {
+     "text": "Many good grass types",
+     "correct": false
+    },
+    {
+     "text": "Thin animals",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

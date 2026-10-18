@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116163",
+ "title": "Handle inputs and stock in agri-business",
+ "lessons": [
+  {
+   "title": "Knowing farm inputs and getting the store ready",
+   "minutes": 15,
+   "html": "<h3>Knowing farm inputs and getting the store ready</h3><p>Inputs are the things a farm buys to produce crops and animals. Examples are seed, fertiliser, animal feed, lick, spray chemicals, dip, vaccines, diesel, wire and spare parts. Inputs cost a lot of money, so they must be received, stored and used with care.</p><h4>Information about inputs</h4><p>Before inputs arrive, find out what is coming. The order, the delivery note and the label give you:</p><ul><li><strong>Type</strong>: what the product is, for example maize seed, LAN fertiliser or layer mash.</li><li><strong>Quality</strong>: expiry date, batch number, no damage, no wet or torn bags.</li><li><strong>Quantity</strong>: how many bags, litres or units, and their size.</li></ul><p>Ask your supervisor or read the supplier's information sheet if you do not know a product.</p><h4>Preparing the store</h4><ol><li>Know when the delivery will come, so the store is ready on time.</li><li>Clean the store and remove rubbish.</li><li>Make space on pallets, off the floor and away from walls.</li><li>Check the roof does not leak and doors lock.</li><li>Keep separate places for each kind of input. Feed and seed must never be stored with chemicals or fuel.</li><li>Put old stock in front so it is used first.</li><li>Check rat traps or bait stations, placed by trained staff.</li></ol><h4>The right store for each input</h4><table><tr><th>Input</th><th>Store</th></tr><tr><td>Feed, seed</td><td>Dry, cool, rat-proof store</td></tr><tr><td>Agro-chemicals</td><td>Locked, ventilated chemical store with signs</td></tr><tr><td>Vaccines, some medicines</td><td>Fridge at the label temperature</td></tr><tr><td>Diesel, petrol</td><td>Approved fuel tank away from buildings</td></tr></table><p>Ask your supervisor before the delivery which store and which place in the store each input must go to. This saves time when the truck arrives and keeps the driver waiting less.</p>"
+  },
+  {
+   "title": "Receiving, recording and issuing stock",
+   "minutes": 15,
+   "html": "<h3>Receiving, recording and issuing stock</h3><h4>Receiving a delivery</h4><ol><li>Compare the delivery note with the order: product, size and quantity.</li><li>Count every item. Do not sign for items you did not receive.</li><li>Check quality: torn bags, wet feed, leaking containers, past expiry date.</li><li>Write damaged or short items on the delivery note and tell your supervisor.</li><li>Store items in the right place straight away.</li></ol><h4>Stock records</h4><p>A stock card or stock book (or the farm computer system) shows every movement:</p><table><tr><th>Date</th><th>In</th><th>Out</th><th>Balance</th><th>Signed</th></tr><tr><td>3 March</td><td>40 bags</td><td></td><td>52 bags</td><td>T.M.</td></tr><tr><td>5 March</td><td></td><td>10 bags to camp 4</td><td>42 bags</td><td>T.M.</td></tr></table><ul><li>Write every item in and every item out on the same day.</li><li>Issue stock only with a signed request or the supervisor's instruction.</li><li>Use first in, first out: the oldest stock goes out first.</li><li>Count stock regularly (stock-take). The count must match the balance. Report any difference.</li></ul><h4>Input costs</h4><p>Every bag has a price. If a 50 kg bag of feed costs R400, then 10 bags wasted by rain cost the farm R4 000. Stock sitting in the store is money that cannot be used for other things. This is called inventory cost. Losses from theft, rats, expiry and damage all raise costs. Good storage and records keep costs down.</p><h4>Issuing stock</h4><p>When you issue stock, write who took it, how much, and where it is going, for example which camp, land or house. Ask the person to sign. This shows where every bag went. If stock goes missing, the records help find out what happened. Never give out stock without writing it down, even to a friend or a supervisor in a hurry.</p>"
+  },
+  {
+   "title": "Safety, the law and planning supply",
+   "minutes": 15,
+   "html": "<h3>Safety, the law and planning supply</h3><h4>Laws about inputs</h4><ul><li>The Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947 controls the registration and labelling of fertiliser, feed, farm chemicals and stock remedies. Only registered products may be sold and used, and the label must be followed.</li><li>The Occupational Health and Safety Act 85 of 1993 requires safe storage and handling at work.</li></ul><p>The label is a legal document. Always follow it for storage, use and disposal.</p><h4>Safety rules</h4><ul><li>Lift with your knees, not your back. Ask for help or use a trolley for heavy bags.</li><li>Do not stack bags too high; stacks can fall.</li><li>Wear gloves, overalls and a mask when handling chemicals and dusty products, as the label says.</li><li>Never eat, drink or smoke in a store.</li><li>Keep a fire extinguisher at the store and know how to use it.</li><li>Clean up spills at once as your supervisor shows you. Never wash chemical spills into a river or drain.</li><li>Never put chemicals into cool drink bottles or food containers.</li></ul><h4>Planning supply</h4><p>The farm must not run out, but should not buy too much. To plan, you need to know how fast an input is used.</p><p><em>Example</em>: a dairy uses 8 bags of meal a day. It takes 5 days for a delivery to arrive. So the farm needs at least 40 bags in the store when the order is placed, plus a few extra for safety.</p><ul><li>Tell your supervisor when stock reaches the reorder level.</li><li>Think about seasons: fertiliser and seed are needed before planting, lick before winter.</li></ul><h4>Key points</h4><ul><li>Check type, quality and quantity of every delivery.</li><li>Store each input in its own safe place, off the floor.</li><li>Record every movement in and out and do regular stock-takes.</li><li>Waste and losses are real costs to the farm.</li><li>Act 36 of 1947 controls feeds, fertilisers and farm chemicals; follow the label.</li><li>Report when stock reaches the reorder level.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you do if a delivery is short of what the delivery note says?",
+   "options": [
+    {
+     "text": "Sign it anyway",
+     "correct": false
+    },
+    {
+     "text": "Write the shortage on the delivery note and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Take the missing bags from another store",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must feed and seed never be stored?",
+   "options": [
+    {
+     "text": "On pallets",
+     "correct": false
+    },
+    {
+     "text": "In a dry store",
+     "correct": false
+    },
+    {
+     "text": "With chemicals or fuel",
+     "correct": true
+    },
+    {
+     "text": "Away from the walls",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A 50 kg bag of feed costs R400. What do 10 bags spoiled by rain cost the farm?",
+   "options": [
+    {
+     "text": "R400",
+     "correct": false
+    },
+    {
+     "text": "R1 000",
+     "correct": false
+    },
+    {
+     "text": "R40 000",
+     "correct": false
+    },
+    {
+     "text": "R4 000",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act controls feeds, fertilisers and farm chemicals?",
+   "options": [
+    {
+     "text": "Act 36 of 1947",
+     "correct": true
+    },
+    {
+     "text": "Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Act 36 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A farm uses 8 bags of meal a day and delivery takes 5 days. How many bags should at least be in store when ordering?",
+   "options": [
+    {
+     "text": "8",
+     "correct": false
+    },
+    {
+     "text": "13",
+     "correct": false
+    },
+    {
+     "text": "40",
+     "correct": true
+    },
+    {
+     "text": "5",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A stock-take count should match the balance in the stock records.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to keep chemicals in cool drink bottles if they are labelled.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check about the quality of inputs on delivery? (select all that apply)",
+   "options": [
+    {
+     "text": "Expiry date",
+     "correct": true
+    },
+    {
+     "text": "Torn or wet bags",
+     "correct": true
+    },
+    {
+     "text": "Leaking containers",
+     "correct": true
+    },
+    {
+     "text": "The driver's favourite colour",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

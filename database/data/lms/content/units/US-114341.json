@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114341",
+ "title": "Handle condemned material",
+ "lessons": [
+  {
+   "title": "What condemned material is",
+   "minutes": 15,
+   "html": "<h3>Meat that may not be eaten</h3><p>At the abattoir, a meat inspector checks every carcass and its organs. If meat or organs are not safe or fit for people to eat, they are <strong>condemned</strong>. Condemned material must never reach the food chain.</p><h4>Examples of condemned material</h4><ul><li>Whole carcasses of sick animals.</li><li>Organs with disease, for example livers with worms or abscesses.</li><li>Bruised, damaged or contaminated meat that was trimmed off.</li><li>Meat that fell on the floor and could not be cleaned as procedures allow.</li><li>Parts that the law says may not be used for food.</li></ul><h4>Who decides?</h4><p>Only the meat inspector decides whether meat is condemned. This follows the Meat Safety Act 40 of 2000. You must never take condemned meat back onto the line, take it home, sell it or give it to anyone. This is a serious offence and dangerous to people's health.</p><h4>Why it matters</h4><ul><li>Some diseases spread from animals to people, for example tuberculosis, measles in pork (tapeworm cysts) and anthrax.</li><li>Condemned material attracts flies, rats and dogs that spread germs.</li><li>If condemned meat is sold, people can get very sick, and the abattoir can lose its registration.</li></ul><h4>Your job</h4><ul><li>Move condemned material from the line to the condemned area or containers.</li><li>Keep it separate from good meat at all times.</li><li>Keep the area clean.</li><li>Follow the abattoir's written procedure every time.</li></ul><p>Ask your supervisor if you are unsure.</p><p>Following the procedure keeps you and the customers safe.</p>"
+  },
+  {
+   "title": "Handling, marking and storing condemned material",
+   "minutes": 15,
+   "html": "<h3>Step by step</h3><ol><li>Put on your protective clothing: overall or apron, rubber gloves, boots and hairnet. Some places need a face shield.</li><li>Collect condemned material only in the containers or chutes marked for it. These are often a special colour and say \"Condemned\".</li><li>Do not overfill containers. Close the lid.</li><li>Where the abattoir requires it, mark or stain the condemned material, or slash it, so it cannot be used as food.</li><li>Take the container to the condemned room or area. Use the set route that does not pass through clean areas.</li><li>Keep the condemned room locked. Only allowed people may go in.</li><li>Write down what was condemned, how much, and the date, if your abattoir asks you to.</li></ol><h4>Keep clean and dirty apart</h4><ul><li>Never use condemned containers for good meat, or good meat containers for condemned material.</li><li>Wash and sterilise tools and hands after handling condemned material.</li><li>Change or wash your apron before going back to a clean area.</li><li>Do not walk from the condemned room into the meat area without cleaning boots at the boot wash.</li></ul><h4>Special care</h4><p>If the inspector suspects a dangerous disease such as anthrax, follow their instructions exactly. Do not cut the carcass open. Keep people away.</p><p>Never take shortcuts through clean areas. Ask your supervisor to show you the correct route on your first day, and follow it every time, even when you are busy.</p><p>Ask questions if you are unsure.</p>"
+  },
+  {
+   "title": "Removal, disposal and cleaning",
+   "minutes": 15,
+   "html": "<h3>Getting rid of condemned material</h3><p>Condemned material must leave the abattoir in a safe and legal way. The abattoir decides the method with the veterinary services. Common methods are:</p><ul><li><strong>Rendering:</strong> cooking at high temperature at a rendering plant to make products that are not for human food.</li><li><strong>Incineration:</strong> burning in an approved incinerator.</li><li><strong>Approved burial or landfill:</strong> only at an approved site.</li></ul><h4>Rules for removal</h4><ul><li>Load condemned material only into marked, closed containers or vehicles for that purpose.</li><li>Remove it often so it does not rot and smell.</li><li>Keep the loading area clean. Never leave material lying around.</li><li>Never give condemned material to workers, dogs, pigs or anyone else.</li></ul><h4>Cleaning the containers and area</h4><ol><li>Empty the container completely.</li><li>Scrape off waste.</li><li>Wash with hot water and detergent.</li><li>Rinse.</li><li>Apply sanitiser as instructed.</li><li>Let it dry and return it to the right place.</li></ol><h4>Stay safe</h4><ul><li>Lift heavy containers with help or with a trolley. Bend your knees and keep your back straight.</li><li>Floors can be slippery. Walk, do not run.</li><li>If you cut yourself, wash the cut, report it, and cover it.</li><li>Wash your hands well before you eat or smoke in the allowed areas.</li></ul><p>Keep the area clean.</p><h4>Key points</h4><ul><li>Only the meat inspector decides what is condemned.</li><li>Condemned material must never go back to the line, home or for sale.</li><li>Use only marked, closed containers and keep the condemned room locked.</li><li>Keep clean and dirty areas apart; wash hands, tools and boots.</li><li>Remove condemned material often by an approved method.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who decides whether meat is condemned?",
+   "options": [
+    {
+     "text": "The cleaner",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The meat inspector",
+     "correct": true
+    },
+    {
+     "text": "The customer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must condemned material be put?",
+   "options": [
+    {
+     "text": "In containers marked for condemned material",
+     "correct": true
+    },
+    {
+     "text": "In any clean meat crate",
+     "correct": false
+    },
+    {
+     "text": "On the floor next to the line",
+     "correct": false
+    },
+    {
+     "text": "In a worker's bag",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is rendering?",
+   "options": [
+    {
+     "text": "Selling meat cheaply",
+     "correct": false
+    },
+    {
+     "text": "Cooking at high temperature at a plant to make products not for human food",
+     "correct": true
+    },
+    {
+     "text": "Freezing meat for later",
+     "correct": false
+    },
+    {
+     "text": "Washing carcasses",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after handling condemned material?",
+   "options": [
+    {
+     "text": "Go straight back to the meat line",
+     "correct": false
+    },
+    {
+     "text": "Wash and sterilise tools and hands and change or wash your apron",
+     "correct": true
+    },
+    {
+     "text": "Wipe your hands on your overall",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may enter the condemned room?",
+   "options": [
+    {
+     "text": "Anyone who wants to",
+     "correct": false
+    },
+    {
+     "text": "Only allowed people; the room is kept locked",
+     "correct": true
+    },
+    {
+     "text": "Visitors",
+     "correct": false
+    },
+    {
+     "text": "Dogs from the yard",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A worker may take condemned meat home if it looks fine.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Condemned material should be removed often so it does not rot and smell.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are examples of condemned material? (select all that apply)",
+   "options": [
+    {
+     "text": "Livers with abscesses",
+     "correct": true
+    },
+    {
+     "text": "Bruised meat that was trimmed off",
+     "correct": true
+    },
+    {
+     "text": "Clean carcasses passed by the inspector",
+     "correct": false
+    },
+    {
+     "text": "Whole carcasses of sick animals",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

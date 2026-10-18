@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7469",
+ "title": "Use mathematics to investigate and monitor the financial aspects of personal and community life",
+ "lessons": [
+  {
+   "title": "Budgets for home and community",
+   "minutes": 15,
+   "html": "<h3>Know where your money goes</h3><p>A <strong>budget</strong> is a plan for your money. It shows your <strong>income</strong> (money coming in) and your <strong>expenses</strong> (money going out). A budget helps you live within your income and save for the future.</p><h4>Making a monthly budget</h4><ol><li>Write down all income: net wage (take-home pay), grants, money from selling eggs or vegetables.</li><li>Write down fixed expenses: rent, transport, school fees, funeral policy, loan repayments.</li><li>Write down changing expenses: food, electricity, airtime, clothing.</li><li>Add up income. Add up expenses.</li><li>Income minus expenses = what is left. If it is negative, you spend more than you earn.</li></ol><h4>Example</h4><table><tr><th>Item</th><th>Amount (R)</th></tr><tr><td>Net wage</td><td>6 200</td></tr><tr><td>Food</td><td>2 400</td></tr><tr><td>Transport</td><td>900</td></tr><tr><td>Electricity and airtime</td><td>650</td></tr><tr><td>School costs</td><td>500</td></tr><tr><td>Funeral policy</td><td>250</td></tr><tr><td>Stokvel</td><td>500</td></tr><tr><td><strong>Total expenses</strong></td><td><strong>5 200</strong></td></tr></table><p>R6 200 minus R5 200 leaves R1 000. This money can go to savings or an emergency fund.</p><h4>Community money</h4><p>Many communities run <strong>stokvels</strong> and <strong>burial societies</strong>. Members pay in every month. If 12 members each pay R500 a month, the stokvel collects 12 × R500 = R6 000 each month. Keep written records of every payment and choose honest people to look after the money.</p><p>Look at your budget every month. Can you spend less on something? Small savings add up: R20 a week is more than R1 000 a year.</p><p>Write your budget on paper or on your phone. Look at it often. Keep slips for big things you buy.</p>"
+  },
+  {
+   "title": "Payslips, VAT and percentages",
+   "minutes": 15,
+   "html": "<h3>Understanding your payslip</h3><p>Your <strong>gross pay</strong> is what you earn before deductions. Your <strong>net pay</strong> is what you get after deductions.</p><h4>Common deductions</h4><ul><li><strong>UIF:</strong> the employee pays 1% of pay, and the employer also pays 1%.</li><li><strong>PAYE:</strong> income tax, if you earn above the tax threshold.</li><li>Other deductions you agreed to, such as a pension fund or union fees.</li></ul><h4>Example</h4><p>Gross pay is R5 800. UIF at 1% = R5 800 × 1 ÷ 100 = R58. If there are no other deductions, net pay = R5 800 − R58 = R5 742.</p><h4>Working with percentages</h4><p>A percentage means \"out of 100\". To find a percentage of an amount: amount × percentage ÷ 100.</p><ul><li>10% of R450 = R450 × 10 ÷ 100 = R45.</li><li>A pay increase of 6% on R6 000 = R360, so the new wage is R6 360.</li></ul><h4>VAT</h4><p>VAT (value-added tax) in South Africa is 15%. Many prices in shops already include VAT.</p><ul><li>A price of R200 without VAT: VAT = R200 × 15 ÷ 100 = R30. Price with VAT = R230.</li><li>To find the price without VAT from a price that includes VAT, divide by 1.15. R115 ÷ 1.15 = R100.</li></ul><h4>Comparing prices</h4><p>A 10 kg bag of maize meal costs R95 and a 5 kg bag costs R52. Price per kg: R95 ÷ 10 = R9.50; R52 ÷ 5 = R10.40. The 10 kg bag is cheaper per kilogram.</p><p>Check your payslip every month.</p><p>Ask your employer if you do not understand a deduction.</p>"
+  },
+  {
+   "title": "Interest, loans and saving",
+   "minutes": 15,
+   "html": "<h3>Interest</h3><p><strong>Interest</strong> is the price of using money. When you save, the bank pays you interest. When you borrow, you pay interest.</p><h4>Simple interest</h4><p>Simple interest = amount × rate × time (in years) ÷ 100.</p><p>Example: you save R2 000 at 5% simple interest a year for 3 years. Interest = 2 000 × 5 × 3 ÷ 100 = R300. You will have R2 300.</p><h4>Compound interest</h4><p>With compound interest, interest is added to the amount, and next year you earn interest on the interest too.</p><table><tr><th>Year</th><th>Start</th><th>Interest at 10%</th><th>End</th></tr><tr><td>1</td><td>R1 000</td><td>R100</td><td>R1 100</td></tr><tr><td>2</td><td>R1 100</td><td>R110</td><td>R1 210</td></tr><tr><td>3</td><td>R1 210</td><td>R121</td><td>R1 331</td></tr></table><p>Compound interest makes savings grow faster. It also makes debt grow faster if you do not pay.</p><h4>Loans and credit</h4><ul><li>Always ask for the <strong>total cost</strong> of a loan: everything you will pay back, including interest and fees.</li><li>Example: you borrow R3 000 and pay R350 a month for 12 months. You pay back 12 × R350 = R4 200. The cost of the loan is R4 200 − R3 000 = R1 200.</li><li>Use only registered credit providers. Never give your bank card or SASSA card and PIN to a lender.</li></ul><h4>Inflation</h4><p>Prices go up over time. This is called inflation. If bread costs R18 this year and R19.80 next year, the price went up by R1.80, which is 10%. Savings must grow faster than inflation to keep their value.</p><h4>Key points</h4><ul><li>A budget compares income with expenses; plan to save.</li><li>Net pay is gross pay minus deductions such as UIF (1%).</li><li>Percentage = amount × percentage ÷ 100; VAT in South Africa is 15%.</li><li>Compound interest grows faster than simple interest.</li><li>Always work out the total cost of a loan.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Net wage is R6 200 and expenses are R5 200. How much is left?",
+   "options": [
+    {
+     "text": "R11 400",
+     "correct": false
+    },
+    {
+     "text": "R1 000",
+     "correct": true
+    },
+    {
+     "text": "R5 200",
+     "correct": false
+    },
+    {
+     "text": "R100",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Gross pay is R5 800. What is UIF at 1%?",
+   "options": [
+    {
+     "text": "R58",
+     "correct": true
+    },
+    {
+     "text": "R5.80",
+     "correct": false
+    },
+    {
+     "text": "R580",
+     "correct": false
+    },
+    {
+     "text": "R158",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A price is R200 without VAT. What is the price with 15% VAT?",
+   "options": [
+    {
+     "text": "R215",
+     "correct": false
+    },
+    {
+     "text": "R230",
+     "correct": true
+    },
+    {
+     "text": "R300",
+     "correct": false
+    },
+    {
+     "text": "R185",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You save R2 000 at 5% simple interest for 3 years. How much interest do you earn?",
+   "options": [
+    {
+     "text": "R100",
+     "correct": false
+    },
+    {
+     "text": "R200",
+     "correct": false
+    },
+    {
+     "text": "R300",
+     "correct": true
+    },
+    {
+     "text": "R1 000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You borrow R3 000 and pay R350 a month for 12 months. What is the cost of the loan?",
+   "options": [
+    {
+     "text": "R350",
+     "correct": false
+    },
+    {
+     "text": "R3 000",
+     "correct": false
+    },
+    {
+     "text": "R4 200",
+     "correct": false
+    },
+    {
+     "text": "R1 200",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A 10 kg bag at R95 is cheaper per kilogram than a 5 kg bag at R52.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "With compound interest you earn interest only on the amount you first saved.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are fixed expenses? (select all that apply)",
+   "options": [
+    {
+     "text": "Rent",
+     "correct": true
+    },
+    {
+     "text": "Funeral policy",
+     "correct": true
+    },
+    {
+     "text": "Loan repayments",
+     "correct": true
+    },
+    {
+     "text": "Airtime that changes every month",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

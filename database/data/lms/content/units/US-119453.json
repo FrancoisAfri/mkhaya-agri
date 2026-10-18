@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119453",
+ "title": "Process poultry fresh meat products in an abattoir",
+ "lessons": [
+  {
+   "title": "Fresh poultry products and hygiene",
+   "minutes": 15,
+   "html": "<h3>What fresh products are</h3>\n<p>Fresh chicken is chilled but never frozen. It is sold as whole birds, portions such as breasts, thighs, drumsticks and wings, fillets, and giblets. Fresh product has a short shelf life, often only a few days. That is why it must be cold, clean and handled fast.</p>\n<h4>Chilling first</h4>\n<p>After evisceration and washing, birds go into a chiller. This may be a water (spin) chiller or an air chiller. The birds must be cooled to the plant's limit before cutting &ndash; usually 4 &deg;C or colder. Warm birds must not be cut and packed, because germs grow fast in warm meat.</p>\n<h4>Personal hygiene</h4>\n<ul>\n<li>Wear clean overalls or a white coat, apron, hair net, beard net and boots.</li>\n<li>Wash your hands with soap at the start of the shift, after the toilet, after breaks and after touching anything dirty.</li>\n<li>Do not wear jewellery, watches or nail polish.</li>\n<li>Do not eat, drink, smoke or chew gum in the processing area.</li>\n<li>Cover cuts with a blue plaster (easy to see) and a glove.</li>\n<li>If you have diarrhoea, vomiting, a fever or a skin infection, tell your supervisor before you start work.</li>\n</ul>\n<h4>Keeping things apart</h4>\n<p>Germs move from dirty things to clean things. This is called <strong>cross-contamination</strong>. To stop it:</p>\n<ul>\n<li>Keep raw birds and packed product apart.</li>\n<li>Keep packaging clean, closed and off the floor.</li>\n<li>Use the right colour bins: product, rework, condemned and waste.</li>\n<li>Never put meat from the floor back on the line.</li>\n</ul>\n<p>The Meat Safety Act 40 of 2000 requires hygienic handling of meat. Your plant will also have its own food safety system, such as HACCP. Follow the rules on your station card.</p>"
+  },
+  {
+   "title": "Cutting, deboning and portioning",
+   "minutes": 15,
+   "html": "<h3>Turning birds into portions</h3>\n<p>Portions are cut by hand or by machine. Each customer wants exact cuts and weights, so you must follow the product specification (spec) for your station.</p>\n<h4>Common cuts</h4>\n<table><tr><th>Cut</th><th>What it is</th></tr>\n<tr><td>Breast</td><td>Breast meat with or without the bone and skin.</td></tr>\n<tr><td>Fillet</td><td>Boneless, skinless breast meat.</td></tr>\n<tr><td>Thigh and drumstick</td><td>The leg cut at the knee joint into two pieces.</td></tr>\n<tr><td>Wing</td><td>Cut at the shoulder joint; sometimes split into tip, flat and drumette.</td></tr></table>\n<h4>Cutting by hand</h4>\n<ul>\n<li>Use a sharp knife and cut through the joints, not through the bone.</li>\n<li>Wear a cut-resistant glove on the hand that holds the meat.</li>\n<li>Cut away from yourself and from other workers.</li>\n<li>Sterilise or wash your knife as often as your plant says.</li>\n<li>Remove bone chips, feathers, bruises, blood clots and dirty pieces.</li>\n</ul>\n<h4>Using machines</h4>\n<p>Cutting machines and saws have sharp blades that do not stop easily.</p>\n<ul>\n<li>Only use a machine you have been trained on.</li>\n<li>Keep guards in place and never reach past them.</li>\n<li>Stop and lock out the machine before you clean it or clear a jam.</li>\n<li>Know where the emergency stop is.</li>\n</ul>\n<h4>Quality</h4>\n<p>Check each portion. It must be the right shape, size and weight, with no bones in boneless products and no bruises or feathers. Put faulty pieces in the rework tray. Tell the supervisor if you see the same fault again and again.</p>"
+  },
+  {
+   "title": "Weighing, packing and labelling",
+   "minutes": 15,
+   "html": "<h3>Packing fresh chicken</h3>\n<h4>Weighing</h4>\n<p>Packs are weighed on a scale. A pack must never be lighter than the weight on the label. Check the scale at the start of the shift with the test weight, or tell the supervisor if it looks wrong. Put the pack on the scale gently and wait for the reading to settle.</p>\n<h4>Packing</h4>\n<ol>\n<li>Use the right tray, bag or box for the product.</li>\n<li>Place pieces neatly; customers buy with their eyes.</li>\n<li>Add the absorbent pad if the product needs one.</li>\n<li>Seal the pack: tray film, heat seal or clip. Check that the seal is closed.</li>\n<li>Put the packs into crates or boxes as your plant says.</li>\n</ol>\n<h4>Labelling</h4>\n<p>A label tells the customer what is inside. Check every label for:</p>\n<ul>\n<li>product name;</li>\n<li>weight (and price, if the label shows it);</li>\n<li>packing date and sell-by or use-by date;</li>\n<li>batch number;</li>\n<li>storage instruction: <em>keep refrigerated</em>.</li>\n</ul>\n<p>A wrong date or wrong product name can lead to a recall. If the label printer is wrong, stop and tell the supervisor.</p>\n<h4>Into the cold</h4>\n<p>Move packed product to the chiller or despatch cold room straight away. Do not let crates stand in the passage. Write down any temperatures your checklist asks for.</p>\n<h4>Cleaning up</h4>\n<p>At the end of the shift, clean your knives, tables, scales and machines with the right chemical, wearing the gloves and eye protection shown on the label. Rinse well so no chemical is left on surfaces that touch meat.</p>\n<h4>Key points</h4>\n<ul>\n<li>Chill birds to the plant's limit before cutting and packing.</li>\n<li>Good personal hygiene and keeping things apart stop cross-contamination.</li>\n<li>Follow the spec for each cut and remove bones, bruises and feathers.</li>\n<li>Packs must never be under the label weight, and every label must be correct.</li>\n<li>Move packed product into the cold room straight away.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must birds be chilled before they are cut and packed?",
+   "options": [
+    {
+     "text": "To make them easier to pluck",
+     "correct": false
+    },
+    {
+     "text": "Germs grow fast in warm meat",
+     "correct": true
+    },
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "Because customers like cold hands",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is cross-contamination?",
+   "options": [
+    {
+     "text": "Germs moving from dirty things to clean things",
+     "correct": true
+    },
+    {
+     "text": "Cutting a bird into crosses",
+     "correct": false
+    },
+    {
+     "text": "Mixing two cuts in one pack",
+     "correct": false
+    },
+    {
+     "text": "A type of cutting machine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you cut legs and wings by hand?",
+   "options": [
+    {
+     "text": "Through the middle of the bone",
+     "correct": false
+    },
+    {
+     "text": "With a blunt knife",
+     "correct": false
+    },
+    {
+     "text": "With scissors",
+     "correct": false
+    },
+    {
+     "text": "Through the joints",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do if you have diarrhoea or a fever?",
+   "options": [
+    {
+     "text": "Work faster",
+     "correct": false
+    },
+    {
+     "text": "Take medicine and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor before you start work",
+     "correct": true
+    },
+    {
+     "text": "Wear two hair nets",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which storage instruction belongs on a fresh chicken label?",
+   "options": [
+    {
+     "text": "Keep frozen",
+     "correct": false
+    },
+    {
+     "text": "Keep refrigerated",
+     "correct": true
+    },
+    {
+     "text": "Store in the sun",
+     "correct": false
+    },
+    {
+     "text": "No instruction needed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A pack of fresh chicken may be lighter than the weight on the label.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should stop and lock out a cutting machine before cleaning it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which details must be on a fresh chicken label? (select all that apply)",
+   "options": [
+    {
+     "text": "Product name",
+     "correct": true
+    },
+    {
+     "text": "Batch number",
+     "correct": true
+    },
+    {
+     "text": "The packer's home address",
+     "correct": false
+    },
+    {
+     "text": "Sell-by or use-by date",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

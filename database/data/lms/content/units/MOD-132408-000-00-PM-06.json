@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-132408-000-00-PM-06",
+ "title": "Plan, Monitor and Control Processes in a Grain Handling and Storage Facility",
+ "lessons": [
+  {
+   "title": "Planning intake, storage and out-loading processes",
+   "minutes": 20,
+   "html": "<h3>Process planning</h3>\n<p>A grain handling facility runs linked processes: receiving, weighing, sampling and grading, intake and pre-cleaning, drying, storage and aeration, pest control and fumigation, and out-loading. Planning makes sure these processes work together at the right capacity, with the right quality controls, at every stage of the season.</p>\n<h4>Pre-season process plan</h4>\n<ol>\n<li>Forecast intake per commodity, class and grade and per week.</li>\n<li>Allocate bins per commodity and grade, including space for off-grades and wet grain awaiting drying.</li>\n<li>Define routes for each flow (pit to pre-cleaner to dryer to bin) and test them on the control system.</li>\n<li>Confirm capacities and staffing for weighbridges and grading points to meet peak truck numbers.</li>\n<li>Plan dryer operation: target moisture, temperatures for each commodity and end use, fuel supply.</li>\n<li>Plan storage protection: aeration strategy, temperature monitoring frequency, protectant use, fumigation schedule.</li>\n<li>Plan out-loading: expected orders from traders and processors, rail or road, loading rates.</li>\n<li>Prepare procedures, check sheets and records.</li>\n</ol>\n<h4>Bin management plan example</h4>\n<table>\n<tr><th>Bins</th><th>Allocation</th><th>Notes</th></tr>\n<tr><td>1-6</td><td>White maize grade 1</td><td>Long-term storage; fumigate after filling</td></tr>\n<tr><td>7-8</td><td>White maize grade 2 and 3</td><td>Separate per grade</td></tr>\n<tr><td>9-12</td><td>Yellow maize grade 1</td><td>Expected processor orders in August</td></tr>\n<tr><td>13</td><td>Wet holding</td><td>Feed dryer; empty daily</td></tr>\n<tr><td>Bunker A</td><td>Overflow white maize grade 1</td><td>Out-load first</td></tr>\n</table>\n<h4>Out-loading planning</h4>\n<p>Out-load from the highest-risk storage first (bunkers, warm bins, older grain) when grade allows. Confirm the grade and quantity against the client's certificate or contract before loading, and ensure trucks and rail wagons are clean and suitable.</p><p>Test the plan before the season with a dry run: run routes empty, check interlocks and alarms, and walk through the receiving process with the team. Problems found in March are far cheaper to fix than problems found on the first busy day of intake.</p>"
+  },
+  {
+   "title": "Monitoring and controlling the processes",
+   "minutes": 20,
+   "html": "<h3>Monitoring during operation</h3>\n<ul>\n<li><strong>Receiving</strong> – trucks waiting, turnaround time, grading rate.</li>\n<li><strong>Intake</strong> – tonnes per hour, route correctness, pre-cleaner performance.</li>\n<li><strong>Drying</strong> – inlet and outlet moisture, air temperature, fuel use, grain temperature after cooling.</li>\n<li><strong>Storage</strong> – temperature cable trends, aeration hours, insect monitoring, surface inspections.</li>\n<li><strong>Out-loading</strong> – tonnes per hour, grade checks at loading, documentation.</li>\n<li><strong>Stock</strong> – book versus physical, shrink.</li>\n<li><strong>Safety</strong> – permits, dust levels, incidents.</li>\n</ul>\n<h3>Control decisions</h3>\n<table>\n<tr><th>Situation</th><th>Possible control action</th></tr>\n<tr><td>Truck queue growing</td><td>Open extra grading point, extend weighbridge hours, call in standby staff</td></tr>\n<tr><td>Wet grain exceeding dryer capacity</td><td>Prioritise drying, limit wet intake, inform clients</td></tr>\n<tr><td>Bin core temperature rising</td><td>Aerate in suitable conditions, sample, turn grain, schedule fumigation or out-load</td></tr>\n<tr><td>Grade mixing error</td><td>Stop route, quantify affected grain, inform owner and management, correct records</td></tr>\n<tr><td>Live insects found after fumigation</td><td>Check seal and gas records, re-treat by registered fumigator, review for resistance</td></tr>\n</table>\n<h3>Quality and compliance control</h3>\n<p>Run regular check-grading, verify moisture meters and scales, and calibrate the weighbridge as scheduled. Make sure fumigation records, gas monitoring and re-entry clearance are complete and that agricultural remedies are used as the label states under Act 36 of 1947.</p>\n<h3>Process records and review</h3>\n<p>Records include intake and grading data, dryer logs, temperature logs, aeration logs, fumigation registers and out-loading certificates. Review them weekly to find trends and repeat problems. After the season, review process performance: throughput, losses, quality outcomes, costs and safety, and update procedures.</p>\n<h4>Key points</h4>\n<ul>\n<li>Plan processes from forecast intake by grade: bins, routes, capacities, drying, protection and out-loading.</li>\n<li>Out-load the highest-risk storage first when grade allows.</li>\n<li>Monitor every process with clear indicators.</li>\n<li>Take defined control actions for queues, wet grain, warming bins and grade errors.</li>\n<li>Verify equipment, keep complete records and review processes after the season.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should bins be allocated by commodity and grade before the season?",
+   "options": [
+    {
+     "text": "To reduce the number of bins",
+     "correct": false
+    },
+    {
+     "text": "To mix grades efficiently",
+     "correct": false
+    },
+    {
+     "text": "To keep grades separate and ensure space for each grade",
+     "correct": true
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which storage should usually be out-loaded first if grade allows?",
+   "options": [
+    {
+     "text": "The coolest, newest concrete bins",
+     "correct": false
+    },
+    {
+     "text": "Any bin at random",
+     "correct": false
+    },
+    {
+     "text": "Higher-risk storage such as bunkers, warm bins and older grain",
+     "correct": true
+    },
+    {
+     "text": "The bins nearest the office",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The truck queue is growing quickly. Which is a suitable action?",
+   "options": [
+    {
+     "text": "Close the weighbridge",
+     "correct": false
+    },
+    {
+     "text": "Stop grading",
+     "correct": false
+    },
+    {
+     "text": "Open an extra grading point and call in standby staff",
+     "correct": true
+    },
+    {
+     "text": "Send trucks to another province",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A bin core temperature is rising. What is an appropriate response?",
+   "options": [
+    {
+     "text": "Aerate in suitable conditions, sample and plan turning, fumigation or out-loading",
+     "correct": true
+    },
+    {
+     "text": "Turn off temperature monitoring",
+     "correct": false
+    },
+    {
+     "text": "Add wet grain",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Live insects are found after fumigation. What should be done?",
+   "options": [
+    {
+     "text": "Let staff spray household insecticide",
+     "correct": false
+    },
+    {
+     "text": "Check seal and gas records, re-treat by a registered fumigator and review for resistance",
+     "correct": true
+    },
+    {
+     "text": "Mix with clean grain",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Grade mixing errors must be reported to the owner and management and records corrected.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Moisture meters and scales do not need verification once installed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are monitored in the drying process? (select all that apply)",
+   "options": [
+    {
+     "text": "Farmers’ bank details",
+     "correct": false
+    },
+    {
+     "text": "Air temperature",
+     "correct": true
+    },
+    {
+     "text": "Inlet and outlet moisture",
+     "correct": true
+    },
+    {
+     "text": "Fuel use",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

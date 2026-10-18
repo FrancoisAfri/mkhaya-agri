@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119492",
+ "title": "Apply personal hygiene principles in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Why your hygiene matters",
+   "minutes": 15,
+   "html": "<h3>You can carry germs to the meat</h3><p>Raw chicken spoils quickly and can carry germs. People also carry germs on their hands, skin, hair, clothes and in their nose and mouth. If you are not clean, you can put germs on the meat. People who eat the meat can get sick, and the plant can lose customers. Personal hygiene is part of the rules every abattoir must follow under the Meat Safety Act 40 of 2000.</p><h4>How germs move from you to the meat</h4><ul><li>Hands not washed after the toilet, eating, smoking or touching dirty things</li><li>Dirty clothes, aprons and boots</li><li>Hair falling into the meat</li><li>Coughing or sneezing near meat</li><li>Open cuts or sores</li><li>Walking from the dirty area to the clean area without washing</li></ul><h4>Being sick</h4><p>If you have any of these, tell your supervisor <strong>before</strong> you start work:</p><ul><li>Diarrhoea (running stomach) or vomiting</li><li>Fever</li><li>Yellow skin or eyes</li><li>Sores, boils or infected cuts</li><li>Discharge from your eyes, ears or nose</li></ul><p>Your supervisor will decide if you can work, must do a job away from the meat, or must go home. This is not a punishment; it protects the food and your co-workers.</p><h4>Come to work clean</h4><p>Wash or bath every day. Keep your hair clean. Keep your fingernails short and clean, with no nail polish or false nails. Do not wear strong perfume.</p><h4>Example</h4><p>A worker has a running stomach but comes to work and says nothing because she does not want to lose pay. She can spread germs to many carcasses. Telling the supervisor protects the food, and the plant will tell her about sick leave.</p>"
+  },
+  {
+   "title": "Protective clothing and hand washing",
+   "minutes": 15,
+   "html": "<h3>Getting ready for work</h3><h4>Protective clothing</h4><p>The plant gives you protective clothing. It protects the meat from you, and protects you from the work.</p><ol><li>Take off your own jacket, jewellery and watch in the change room. Lock them in your locker.</li><li>Put on the hairnet first, covering all your hair, including your ears if required. Men with beards wear a beard net.</li><li>Put on clean overalls or a coat in the colour for your area.</li><li>Put on clean boots.</li><li>Put on your apron and gloves as your job requires.</li><li>Wash your hands and wash your boots before entering production.</li></ol><p>Never wear your protective clothing outside, in the toilet or in the canteen. Take off the apron before going to the toilet or canteen.</p><h4>How to wash your hands</h4><ol><li>Wet your hands with warm water.</li><li>Use liquid soap.</li><li>Rub palms, backs of hands, between fingers, thumbs, fingertips and under nails for at least 20 seconds.</li><li>Rinse well with clean water.</li><li>Dry with a paper towel.</li><li>Use hand sanitiser if the plant asks you to.</li></ol><h4>When to wash your hands</h4><ul><li>Before starting work and after every break</li><li>After using the toilet</li><li>After eating, drinking or smoking</li><li>After touching your face, hair, nose or the floor</li><li>After touching waste or condemned birds</li><li>When moving between areas</li><li>Any time your hands are dirty</li></ul><p>Hand wash basins are for hands only. Do not wash equipment, boots or food in them.</p><p>If soap, water or paper towels run out, tell your supervisor at once. Do not start work without washing your hands.</p>"
+  },
+  {
+   "title": "Good habits on the line",
+   "minutes": 15,
+   "html": "<h3>Hygiene every minute of the shift</h3><h4>Do</h4><ul><li>Keep your hairnet on and all hair covered.</li><li>Keep gloves clean; wash or change them as the rules say.</li><li>Cover cuts with a blue or brightly coloured plaster and wear a glove over it.</li><li>Cough or sneeze into your elbow, away from the meat, then wash your hands.</li><li>Use the boot wash every time you enter the production area.</li><li>Keep your work area clean.</li></ul><h4>Do not</h4><ul><li>Do not wear rings, earrings, watches, chains or other jewellery.</li><li>Do not eat, drink, chew gum or sweets, smoke or spit in production areas.</li><li>Do not bring phones, pens without lids or other personal things into production.</li><li>Do not touch your face, nose or hair while working.</li><li>Do not put knives or tools in your pocket or boot.</li><li>Do not walk from the dirty area to the clean area without changing and washing.</li></ul><h4>Why blue plasters?</h4><p>Blue is a colour that is not found in chicken meat, so if a plaster falls off it is easy to see. Many plasters used in food plants also contain metal so a metal detector can find them. If your plaster falls off, tell your supervisor at once.</p><h4>Helping others</h4><p>If you see a co-worker break a hygiene rule, remind them politely or tell your supervisor. If soap, paper towels or the boot wash are not working, report it. Everyone works together to keep the meat safe.</p><h4>Key points</h4><ul><li>Tell your supervisor before work if you have diarrhoea, vomiting, fever or sores.</li><li>Put on the hairnet first, then clean clothes and boots, then wash hands.</li><li>Wash hands for at least 20 seconds, after the toilet, breaks and whenever they are dirty.</li><li>No jewellery, eating, chewing gum or phones in production areas.</li><li>Cover cuts with a coloured plaster and a glove; report a lost plaster at once.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "When should you tell your supervisor that you have diarrhoea?",
+   "options": [
+    {
+     "text": "Before you start work",
+     "correct": true
+    },
+    {
+     "text": "At the end of the shift",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Only if it lasts a week",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you put on first when dressing for work?",
+   "options": [
+    {
+     "text": "Gloves",
+     "correct": false
+    },
+    {
+     "text": "The hairnet",
+     "correct": true
+    },
+    {
+     "text": "The apron",
+     "correct": false
+    },
+    {
+     "text": "Boots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are blue plasters used in food plants?",
+   "options": [
+    {
+     "text": "They are cheaper",
+     "correct": false
+    },
+    {
+     "text": "They stick better",
+     "correct": false
+    },
+    {
+     "text": "Blue is easy to see if the plaster falls into meat",
+     "correct": true
+    },
+    {
+     "text": "They match the uniform",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you cough or sneeze at work?",
+   "options": [
+    {
+     "text": "Over the meat",
+     "correct": false
+    },
+    {
+     "text": "Into your glove",
+     "correct": false
+    },
+    {
+     "text": "Into the air",
+     "correct": false
+    },
+    {
+     "text": "Into your elbow, away from the meat, then wash your hands",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must you NOT wear your apron?",
+   "options": [
+    {
+     "text": "In the toilet or canteen",
+     "correct": true
+    },
+    {
+     "text": "On the line",
+     "correct": false
+    },
+    {
+     "text": "In the cutting room",
+     "correct": false
+    },
+    {
+     "text": "In the packing area",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may wear a wedding ring on the line if it is plain.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should wash your hands after touching your face or hair.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "When must you wash your hands? (select all that apply)",
+   "options": [
+    {
+     "text": "After using the toilet",
+     "correct": true
+    },
+    {
+     "text": "After smoking",
+     "correct": true
+    },
+    {
+     "text": "After touching condemned birds",
+     "correct": true
+    },
+    {
+     "text": "Only at the end of the week",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

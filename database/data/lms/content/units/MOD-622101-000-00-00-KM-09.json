@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-622101-000-00-00-KM-09",
+ "title": "Health management",
+ "lessons": [
+  {
+   "title": "How disease happens in farmed fish",
+   "minutes": 20,
+   "html": "<h3>Host, pathogen and environment</h3><p>Disease in fish is rarely just bad luck. It usually needs three things together: a fish that is weakened (the host), a disease organism (the pathogen) and a poor environment. Many pathogens are present in water most of the time. They cause outbreaks when fish are stressed by poor water quality, overcrowding, rough handling, temperature swings or poor nutrition. A supervisor's main job in health management is to keep stress low so that the fish's own defences work.</p><h4>Main groups of pathogens</h4><ul><li><strong>Parasites</strong>: external parasites such as white spot (Ichthyophthirius), skin and gill flukes and fish lice (Argulus) are common in South African ponds.</li><li><strong>Bacteria</strong>: often secondary invaders of damaged skin and gills, causing ulcers, fin rot and septicaemia; Streptococcus is a known problem in intensive tilapia culture.</li><li><strong>Fungi and water moulds</strong>: cotton-wool growths on injured or stressed fish and on eggs.</li><li><strong>Viruses</strong>: few treatments exist, so prevention and biosecurity are everything.</li></ul><h4>Non-infectious problems</h4><p>Many losses are not infections at all: low oxygen, ammonia or nitrite poisoning, gas bubble disease from supersaturated water, chemical spills, nutritional deficiencies from old or badly stored feed, and injuries from handling or predators such as herons and otters.</p><h4>Stress as the trigger</h4><p>Stress raises stress hormones, which suppress immunity. Fish that have been graded, transported or exposed to a low-oxygen night are often hit by disease one to two weeks later. Plan stressful jobs for cool weather and avoid stacking several stressors together.</p><h4>Notifiable diseases</h4><p>Some aquatic animal diseases are controlled under the Animal Diseases Act 35 of 1984. Suspected outbreaks of these must be reported to the state veterinarian. Your farm's vet will advise which apply to your species.</p>"
+  },
+  {
+   "title": "Recognising sick fish and responding",
+   "minutes": 20,
+   "html": "<h3>Daily observation</h3><p>Healthy fish swim actively in a normal pattern, feed eagerly and have bright skin and intact fins. Train every worker to spot changes and report them the same day.</p><h4>Warning signs</h4><table><tr><th>Behaviour</th><th>Physical signs</th></tr><tr><td>Not feeding or feeding weakly</td><td>White spots, cotton-like growths</td></tr><tr><td>Flashing or rubbing on walls</td><td>Red sores, ulcers, bleeding at fin bases</td></tr><tr><td>Gasping, crowding at inflow</td><td>Pale, swollen or eroded gills</td></tr><tr><td>Swimming on side or in circles</td><td>Frayed fins, bulging eyes, swollen belly</td></tr><tr><td>Hanging alone at the edges</td><td>Dark colour, excess mucus</td></tr></table><h4>First response</h4><ol><li>Check water quality immediately; many 'disease' signs are water problems.</li><li>Reduce or stop feeding in affected units.</li><li>Isolate the unit: dedicated nets, no fish movements out.</li><li>Collect fresh moribund fish for the vet if asked; dead, decomposed fish are of little diagnostic value.</li><li>Record numbers dead each day, signs seen and actions taken.</li><li>Call the farm vet or fish health specialist.</li></ol><h4>Treatments</h4><p>Only treat on the advice of a veterinarian or qualified fish health specialist, and only with registered products used as the label directs. Dose depends on the exact water volume, so measure tanks accurately. Observe withdrawal periods on the label or vet prescription before fish are harvested for food. Record every treatment: date, unit, product, dose, person and withdrawal end date. Wear gloves and eye protection, and store remedies locked away from feed.</p><p>Remember that some treatments can damage biofilters or lower oxygen. Have aeration ready during treatment and watch fish closely.</p><p>Keep a simple health box ready at each section: gloves, a clean scoop net, labelled sample bags, a cooler with ice packs, a marker and blank record sheets. Being prepared means samples reach the vet in good condition and nothing is forgotten in a stressful moment.</p>"
+  },
+  {
+   "title": "Prevention and biosecurity",
+   "minutes": 20,
+   "html": "<h3>Prevention is cheaper than cure</h3><p>Few effective, registered treatments exist for fish, and treating a whole pond is costly. A good health plan focuses on keeping disease out and keeping fish strong.</p><h4>Keeping disease out</h4><ul><li>Buy fingerlings only from reputable hatcheries with a health history.</li><li>Quarantine new fish in a separate unit and watch them before mixing.</li><li>Screen water inlets to keep out wild fish, which carry parasites.</li><li>Foot baths and hand washing at unit entrances; change disinfectant on schedule.</li><li>Control visitors and vehicles; keep transport tanks from other farms outside.</li><li>Control birds and predators with nets and covers.</li></ul><h4>Stopping spread on the farm</h4><ul><li>Dedicated nets, buckets and brushes per unit or colour-coded per section.</li><li>Work from young and healthy units towards older or sick ones, never the other way.</li><li>Remove dead fish daily and dispose of them by burial, incineration or another method approved for the farm.</li><li>Disinfect equipment between uses and dry it in the sun.</li></ul><h4>Keeping fish strong</h4><ul><li>Good water quality every day.</li><li>Correct stocking density.</li><li>Fresh, correctly stored feed of the right type.</li><li>Gentle handling; plan grading and harvesting for cool times.</li></ul><h4>Health records and welfare</h4><p>Keep a health register per unit: daily mortalities, observations, water readings, treatments and vet visits. Trends tell you more than single days. Fish are animals and their welfare matters; the Animals Protection Act 71 of 1962 applies to cruelty to animals, so handling, transport and humane killing must be done properly.</p><h4>Key points</h4><ul><li>Disease usually needs a stressed host, a pathogen and a poor environment.</li><li>Check water quality first when fish look sick.</li><li>Treat only on vet advice with registered products; record treatments and withdrawal dates.</li><li>Quarantine new fish and keep equipment separate per unit.</li><li>Work from healthy units to sick ones, never the reverse.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which three factors usually combine to cause a fish disease outbreak?",
+   "options": [
+    {
+     "text": "Feed, price and weather",
+     "correct": false
+    },
+    {
+     "text": "A weakened host, a pathogen and a poor environment",
+     "correct": true
+    },
+    {
+     "text": "Nets, pumps and pipes",
+     "correct": false
+    },
+    {
+     "text": "Sunlight, wind and rain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Fish are gasping and not feeding. What should you check first?",
+   "options": [
+    {
+     "text": "The feed price",
+     "correct": false
+    },
+    {
+     "text": "The logbook signatures",
+     "correct": false
+    },
+    {
+     "text": "Water quality",
+     "correct": true
+    },
+    {
+     "text": "The colour of the nets",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who should advise on treating fish?",
+   "options": [
+    {
+     "text": "A veterinarian or qualified fish health specialist",
+     "correct": true
+    },
+    {
+     "text": "Any worker with experience",
+     "correct": false
+    },
+    {
+     "text": "The feed delivery driver",
+     "correct": false
+    },
+    {
+     "text": "A neighbour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order should workers move between units?",
+   "options": [
+    {
+     "text": "Sick units first, then healthy ones",
+     "correct": false
+    },
+    {
+     "text": "Random order",
+     "correct": false
+    },
+    {
+     "text": "Oldest units first always",
+     "correct": false
+    },
+    {
+     "text": "Young and healthy units first, sick ones last",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why quarantine new fish?",
+   "options": [
+    {
+     "text": "To make them grow faster",
+     "correct": false
+    },
+    {
+     "text": "To watch for disease before they mix with farm stock",
+     "correct": true
+    },
+    {
+     "text": "To save feed",
+     "correct": false
+    },
+    {
+     "text": "Because hatcheries require it for payment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fish stressed by grading or transport may develop disease one to two weeks later.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Withdrawal periods do not apply to fish because they live in water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be recorded for every treatment? (select all that apply)",
+   "options": [
+    {
+     "text": "Product and dose",
+     "correct": true
+    },
+    {
+     "text": "Unit treated and date",
+     "correct": true
+    },
+    {
+     "text": "Withdrawal end date",
+     "correct": true
+    },
+    {
+     "text": "The weather forecast for next month",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

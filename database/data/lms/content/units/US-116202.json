@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116202",
+ "title": "Operate and maintain irrigation systems",
+ "lessons": [
+  {
+   "title": "Tools for irrigation maintenance",
+   "minutes": 15,
+   "html": "<h3>Irrigation on the farm</h3> <p>Irrigation gives crops water when there is not enough rain. On South African farms you may see drip lines in orchards and vineyards, sprinklers in vegetable lands, and big centre pivots in maize or lucerne fields. Water comes from a dam, river, borehole or canal, through a pump, filters and pipes, to the plants.</p> <h4>Main parts of a system</h4> <ul> <li><strong>Pump</strong>: pushes the water.</li> <li><strong>Filter</strong>: catches sand and dirt so drippers and sprinklers do not block.</li> <li><strong>Main line and sub-mains</strong>: the big pipes.</li> <li><strong>Valves</strong>: open and close water to each block.</li> <li><strong>Laterals</strong>: small pipes or drip lines along the rows.</li> <li><strong>Emitters</strong>: drippers, micro-sprinklers or sprinklers.</li> </ul> <h4>Tools you need</h4> <table> <tr><th>Tool</th><th>Use</th></tr> <tr><td>Spade</td><td>Dig to find and fix buried pipes</td></tr> <tr><td>Pipe cutter or sharp knife</td><td>Cut pipe cleanly</td></tr> <tr><td>Joiners, end plugs, goof plugs</td><td>Join pipes and close holes</td></tr> <tr><td>Hole punch</td><td>Make holes for new drippers</td></tr> <tr><td>Spare drippers and sprinkler nozzles</td><td>Replace broken ones</td></tr> <tr><td>Spanners and pliers</td><td>Open filters and fittings</td></tr> <tr><td>Brush and bucket</td><td>Clean filters</td></tr> <tr><td>Hose clamps</td><td>Hold joins tight</td></tr> </table> <h4>Getting the tools</h4> <ul> <li>Ask your supervisor what job you will do.</li> <li>Collect the right tools and spare parts from the store. Sign for them if the farm asks.</li> <li>Check the tools: sharp knife, no broken handles.</li> <li>Put small parts in a bag or bucket so you do not lose them.</li> <li>After work, clean tools and return them.</li> </ul> <h4>Safety</h4> <ul> <li>Cut away from your body with the knife.</li> <li>Never touch electric pumps or switch boxes. Only trained people work on them.</li> <li>Be careful near dams and canals. Do not swim in them.</li> <li>Wear boots; wet soil is slippery.</li> </ul>"
+  },
+  {
+   "title": "Running the irrigation system",
+   "minutes": 15,
+   "html": "<h3>Follow the set procedure</h3> <p>Every farm has its own procedure for irrigation. Your supervisor tells you which block to water and for how long. Follow the steps exactly.</p> <h4>Before you start</h4> <ol> <li>Check that the right valves are open for the block you must water, and others are closed.</li> <li>Check the filter is clean.</li> <li>Walk the line and look for broken pipes.</li> </ol> <h4>Starting</h4> <ol> <li>The pump is started by a trained person, or by you if you have been shown how.</li> <li>Open valves slowly. Opening fast causes a water hammer that can burst pipes.</li> <li>Check the pressure gauge if there is one. Tell your supervisor if it is too high or too low.</li> </ol> <h4>While it runs</h4> <ul> <li>Walk the rows. Look for leaks, burst pipes, and drippers or sprinklers that do not work.</li> <li>Look for water running off the land or making pools. This wastes water.</li> <li>Fix small leaks with a joiner or goof plug. Report big problems.</li> <li>Write down the start time.</li> </ul> <h4>Stopping</h4> <ol> <li>At the right time, close the valves slowly, or ask for the pump to be stopped.</li> <li>Write down the stop time and any problems.</li> </ol> <h3>Simple maintenance</h3> <ul> <li><strong>Clean filters</strong> often: open, wash the screen or discs with clean water and a brush, and close tightly.</li> <li><strong>Flush lines</strong>: open the end of drip lines to let dirty water out, then close them.</li> <li><strong>Clean blocked drippers</strong> or replace them.</li> <li><strong>Repair cuts</strong> in pipes with joiners.</li> <li><strong>Keep weeds and soil</strong> away from sprinklers.</li> </ul> <p>Animals, rats, tractors and spades often damage pipes. Check after work in the lands.</p>"
+  },
+  {
+   "title": "How water affects crop growth",
+   "minutes": 15,
+   "html": "<h3>Why plants need water</h3> <p>Plants take up water through their roots. Water carries food from the soil into the plant and keeps leaves cool. Without enough water a plant wilts, grows slowly and gives a small crop.</p> <h4>Too little water</h4> <ul> <li>Leaves hang down (wilt), curl or turn yellow.</li> <li>Fruit and grain stay small.</li> <li>Plants may die in hot weather.</li> </ul> <h4>Too much water</h4> <ul> <li>Soil gets waterlogged; roots cannot breathe and may rot.</li> <li>Fertiliser is washed away below the roots.</li> <li>Diseases grow more easily.</li> <li>Water and electricity are wasted, and that costs the farm money.</li> </ul> <h4>Things that change how much water a crop needs</h4> <ul> <li><strong>Weather</strong>: hot, windy days dry the soil fast. Cool, cloudy days need less water. Rain means less irrigation.</li> <li><strong>Soil</strong>: sandy soil drains fast and needs water more often. Clay soil holds water longer.</li> <li><strong>Crop and its age</strong>: young plants have small roots and need small, regular amounts. Big plants with fruit need more.</li> <li><strong>Time of day</strong>: sprinkler watering in the heat and wind loses water to the air.</li> </ul> <h4>Checking the soil</h4> <p>You can check soil moisture by digging a small hole near the roots and squeezing the soil. If it falls apart like dust, it is dry. If it holds together and feels damp, it is fine. If water drips out, it is too wet. Some farms use probes or tensiometers; your supervisor reads them.</p> <p>Water is precious in South Africa. Farms need permission to take water, and every drop wasted is money lost. Report waste when you see it.</p> <h4>Key points</h4> <ul> <li>Collect the right tools and parts, and return them clean.</li> <li>Open and close valves slowly.</li> <li>Walk the lines and fix or report leaks.</li> <li>Clean filters and flush lines regularly.</li> <li>Too little or too much water both harm crops.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the irrigation filter do?",
+   "options": [
+    {
+     "text": "Kills weeds",
+     "correct": false
+    },
+    {
+     "text": "Pushes the water",
+     "correct": false
+    },
+    {
+     "text": "Catches sand and dirt so emitters do not block",
+     "correct": true
+    },
+    {
+     "text": "Measures the rain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should valves be opened slowly?",
+   "options": [
+    {
+     "text": "To stop a water hammer bursting pipes",
+     "correct": true
+    },
+    {
+     "text": "To save time",
+     "correct": false
+    },
+    {
+     "text": "To make the pump louder",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil needs water more often?",
+   "options": [
+    {
+     "text": "Waterlogged soil",
+     "correct": false
+    },
+    {
+     "text": "Sandy soil",
+     "correct": true
+    },
+    {
+     "text": "Rocky soil only",
+     "correct": false
+    },
+    {
+     "text": "Clay soil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a sign of too little water?",
+   "options": [
+    {
+     "text": "Roots rot",
+     "correct": false
+    },
+    {
+     "text": "Fertiliser washes away",
+     "correct": false
+    },
+    {
+     "text": "Leaves wilt and turn yellow",
+     "correct": true
+    },
+    {
+     "text": "Pools of water on the land",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with small leaks while the system runs?",
+   "options": [
+    {
+     "text": "Switch off the whole farm",
+     "correct": false
+    },
+    {
+     "text": "Fix them with a joiner or goof plug and report big problems",
+     "correct": true
+    },
+    {
+     "text": "Dig up the pipe and leave it",
+     "correct": false
+    },
+    {
+     "text": "Ignore them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Any worker may open the electric switch box of a pump.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Too much water can wash fertiliser away below the roots.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are parts of an irrigation system? (select all that apply)",
+   "options": [
+    {
+     "text": "Tractor seat",
+     "correct": false
+    },
+    {
+     "text": "Filter",
+     "correct": true
+    },
+    {
+     "text": "Pump",
+     "correct": true
+    },
+    {
+     "text": "Valves",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

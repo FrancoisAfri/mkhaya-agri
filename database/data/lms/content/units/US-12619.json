@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-12619",
+  "title": "Identify pest and diseases relevant to an agricultural commodity learner is associated with",
+  "lessons": [
+    {
+      "title": "Pests and diseases: what they are and how to spot them",
+      "minutes": 20,
+      "html": "<h3>Pests and diseases: what they are and how to spot them</h3><p>Every crop and every animal has its own pests and diseases. The commodity you work with, for example maize, citrus, vegetables, cattle or poultry, decides which ones you must know. Finding them early saves crops, animals and money.</p><h4>Pests</h4><p>A pest is an animal that damages crops or animals. Examples:</p><ul><li><strong>Insects:</strong> stalk borer and fall armyworm in maize; aphids on vegetables; false codling moth and fruit fly in citrus; bollworm in cotton and tomatoes.</li><li><strong>Mites:</strong> red spider mite on vegetables and fruit.</li><li><strong>Nematodes:</strong> tiny worms that damage roots.</li><li><strong>External parasites of animals:</strong> ticks, lice, mange mites, blowflies.</li><li><strong>Internal parasites:</strong> worms such as wireworm in sheep and goats.</li><li><strong>Vertebrate pests:</strong> rats, birds, baboons, porcupines.</li></ul><h4>Diseases</h4><p>A disease is caused by germs (fungi, bacteria or viruses) or by poor conditions. Examples:</p><ul><li><strong>Crops:</strong> grey leaf spot in maize, rust in wheat, late blight in potatoes and tomatoes, citrus black spot, powdery mildew.</li><li><strong>Animals:</strong> mastitis in dairy cows, redwater and heartwater (spread by ticks), Newcastle disease in chickens, foot rot in sheep.</li></ul><h4>Signs to look for in crops</h4><ul><li>Holes or chewed leaves, frass (insect droppings), webbing.</li><li>Spots, mould, rust-coloured powder, rotting.</li><li>Wilting, yellowing, stunted or distorted plants.</li><li>Damaged fruit or grain.</li></ul><h4>Signs to look for in animals</h4><ul><li>Not eating, standing alone, weakness.</li><li>Diarrhoea, coughing, runny nose or eyes.</li><li>Lameness, swollen udder, wounds, ticks or lice on the skin.</li><li>Sudden deaths.</li></ul><p>Your supervisor will give you a list or picture chart of the main pests and diseases of your commodity. Study it, and learn to tell harmful insects apart from useful ones, such as ladybirds that eat aphids.</p>"
+    },
+    {
+      "title": "Scouting, recording and reporting",
+      "minutes": 20,
+      "html": "<h3>Scouting, recording and reporting</h3><h4>What is scouting?</h4><p>Scouting means walking through the crop or checking the animals regularly in a planned way to look for pests and diseases. The results help the manager decide whether control is needed, and when. Spraying only when needed saves money and protects the environment.</p><h4>How to scout a crop</h4><ol><li>Follow the scouting route or pattern your supervisor gives you, for example a W or zig-zag through the block.</li><li>Stop at the set number of points. At each point check a set number of plants.</li><li>Look at the tops and undersides of leaves, stems, fruit and the soil around the plant.</li><li>Use a hand lens for small insects and mites.</li><li>Check traps if the farm uses them, such as pheromone traps for moths or fruit-fly traps, and count the catches.</li><li>Record what you find on the scouting sheet or app.</li></ol><h4>What to record</h4><table><tr><th>Item</th><th>Example</th></tr><tr><td>Date and block or camp</td><td>12 March, Block 7</td></tr><tr><td>Pest or disease</td><td>Fall armyworm</td></tr><tr><td>How many / how bad</td><td>8 of 20 plants with fresh damage</td></tr><tr><td>Growth stage</td><td>Knee-high maize</td></tr><tr><td>Where in the block</td><td>North side near the river</td></tr></table><h4>Reporting</h4><ul><li>Report to your supervisor the same day, sooner if damage is spreading fast.</li><li>If you are not sure what a pest or disease is, take a photo or a sample in a closed bag and show your supervisor.</li><li>Some animal diseases, such as foot-and-mouth disease, are controlled under the Animal Diseases Act 35 of 1984 and must be reported to the state veterinarian. Signs such as many sudden deaths or blisters on mouths and feet must be reported immediately.</li></ul><h4>Safety</h4><ul><li>Do not enter blocks that have been sprayed until the re-entry time on the label has passed and your supervisor says it is safe.</li><li>Wash your hands after handling sick plants or animals.</li><li>Never open a carcass of an animal that died suddenly.</li></ul><h4>Key points</h4><ul><li>Pests are animals that cause damage; diseases are caused by germs or poor conditions.</li><li>Know the main pests and diseases of your own commodity.</li><li>Scout regularly using a set pattern and check both sides of leaves.</li><li>Record date, place, pest, numbers and growth stage.</li><li>Report quickly; notifiable animal diseases go to the state vet.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What is a pest?",
+      "options": [
+        {
+          "text": "An animal that damages crops or animals",
+          "correct": true
+        },
+        {
+          "text": "A germ that causes disease",
+          "correct": false
+        },
+        {
+          "text": "A type of fertiliser",
+          "correct": false
+        },
+        {
+          "text": "A weed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a disease rather than a pest?",
+      "options": [
+        {
+          "text": "Fall armyworm",
+          "correct": false
+        },
+        {
+          "text": "Red spider mite",
+          "correct": false
+        },
+        {
+          "text": "Grey leaf spot",
+          "correct": true
+        },
+        {
+          "text": "Ticks",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is scouting?",
+      "options": [
+        {
+          "text": "Spraying every week whatever happens",
+          "correct": false
+        },
+        {
+          "text": "Regularly checking crops or animals in a planned way for pests and diseases",
+          "correct": true
+        },
+        {
+          "text": "Looking for new land",
+          "correct": false
+        },
+        {
+          "text": "Counting workers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which diseases are spread by ticks?",
+      "options": [
+        {
+          "text": "Mastitis and foot rot",
+          "correct": false
+        },
+        {
+          "text": "Late blight and rust",
+          "correct": false
+        },
+        {
+          "text": "Newcastle disease",
+          "correct": false
+        },
+        {
+          "text": "Redwater and heartwater",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "You find an insect you do not recognise. What should you do?",
+      "options": [
+        {
+          "text": "Take a photo or sample in a closed bag and show your supervisor",
+          "correct": true
+        },
+        {
+          "text": "Ignore it",
+          "correct": false
+        },
+        {
+          "text": "Spray the whole block yourself",
+          "correct": false
+        },
+        {
+          "text": "Wait until next season",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "When scouting, you should check the undersides of leaves as well as the tops.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Foot-and-mouth disease does not need to be reported.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should a scouting record include? (select all that apply)",
+      "options": [
+        {
+          "text": "Date and block",
+          "correct": true
+        },
+        {
+          "text": "The pest or disease found",
+          "correct": true
+        },
+        {
+          "text": "How many plants were affected",
+          "correct": true
+        },
+        {
+          "text": "The scout's shoe size",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

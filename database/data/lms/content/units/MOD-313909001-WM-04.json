@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-WM-04",
+ "title": "Resource utilisation processes in the production of animal feeds",
+ "lessons": [
+  {
+   "title": "Measuring how resources are used",
+   "minutes": 18,
+   "html": "<h3>Resource utilisation in practice</h3>\n<p>Resource utilisation is about getting the most finished feed from the raw materials, energy, labour, equipment and packaging used. In this work module you analyse real data from your mill, identify losses and implement improvements with your manager.</p>\n<h4>Key utilisation measures</h4>\n<table>\n<tr><th>Resource</th><th>Measure</th><th>Example</th></tr>\n<tr><td>Raw materials</td><td>Material yield or shrink</td><td>Tonnes finished feed / tonnes issued</td></tr>\n<tr><td>Electricity</td><td>kWh per tonne</td><td>By section: grinding, pelleting, total</td></tr>\n<tr><td>Steam / boiler fuel</td><td>kg steam or fuel per tonne pelleted</td><td>Coal, gas or diesel used</td></tr>\n<tr><td>Labour</td><td>Tonnes per paid hour</td><td>Including overtime</td></tr>\n<tr><td>Equipment</td><td>OEE, availability</td><td>Press running time versus planned time</td></tr>\n<tr><td>Packaging</td><td>Bags used / bags expected</td><td>Damaged and wasted bags</td></tr>\n<tr><td>Water</td><td>Litres per tonne</td><td>Boiler make-up, cleaning</td></tr>\n</table>\n<h4>Collecting reliable data</h4>\n<p>Data comes from weighbridge and batch records, stock takes, electricity meters (ideally sub-metered per section), boiler logs, payroll and the maintenance system. Check data quality before drawing conclusions: an unrecorded rework stream or an uncalibrated scale can make shrink look much worse or better than it is.</p>\n<h4>Understanding shrink</h4>\n<p>Some loss is normal: moisture loss during grinding and cooling, dust removed by filters, and sampling. Abnormal loss comes from spillage, leaking conveyors, overfilled bags, weighing errors, theft and unrecorded waste. Set an accepted shrink tolerance with management and investigate when actual shrink exceeds it.</p>\n<h4>Energy</h4>\n<p>Electricity is a large cost in milling and pelleting. Typical drivers are worn hammers and screens, running equipment empty, poor pellet press loading, compressed air leaks and maximum demand charges when large motors start together at peak times. Load-shedding also forces the use of generators, raising cost per tonne.</p>"
+  },
+  {
+   "title": "Improving utilisation and reporting results",
+   "minutes": 18,
+   "html": "<h3>Finding the biggest opportunities</h3>\n<p>Rank losses by their rand value. A one percent shrink on raw materials costing several thousand rand per tonne usually outweighs savings in smaller costs. A simple approach:</p>\n<ol>\n<li>Calculate the monthly cost of each loss (e.g. tonnes shrink x average raw material cost; excess kWh x tariff).</li>\n<li>Draw a Pareto chart to see the few losses that make up most of the cost.</li>\n<li>Choose one or two to improve first.</li>\n</ol>\n<h3>Typical improvement actions</h3>\n<ul>\n<li><strong>Raw materials</strong> – fix leaks and spillage points, calibrate scales, tighten bag-weight control (overfill of even 200 g per 50 kg bag adds up over thousands of bags), record all rework.</li>\n<li><strong>Energy</strong> – replace hammers and screens on schedule, stop equipment running empty, stagger motor start-ups, fix air and steam leaks, maintain steam traps and insulation.</li>\n<li><strong>Labour</strong> – match crew size to the plan, reduce overtime caused by breakdowns, cross-train operators.</li>\n<li><strong>Equipment</strong> – reduce changeover time by better sequencing, improve preventive maintenance to raise availability.</li>\n<li><strong>Packaging</strong> – handle bags carefully, set up machines properly to reduce damaged bags.</li>\n</ul>\n<h3>Implementing change</h3>\n<p>Use plan-do-check-act. Write down the baseline, the change, the expected result and who is responsible. Involve the operators who do the work; they often know the causes and must own the new method. After the change, measure again for long enough to be sure of the result, then update work instructions.</p>\n<h3>Reporting</h3>\n<p>Prepare a monthly resource utilisation report for management: key measures against target and previous months, main losses and their rand value, actions taken and results, and next actions. Keep it short and visual, with a table or simple chart.</p>\n<h3>Workplace evidence</h3>\n<p>Your portfolio for this module should include data you collected, your analysis, the improvement you implemented with your manager, the before-and-after results and the report you presented.</p>\n<h4>Key points</h4>\n<ul>\n<li>Measure yield, kWh per tonne, steam, labour, OEE, packaging and water use.</li>\n<li>Check data quality before drawing conclusions.</li>\n<li>Rank losses by rand value and tackle the biggest first.</li>\n<li>Use plan-do-check-act and involve operators.</li>\n<li>Report results monthly and update work instructions after successful changes.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How is material yield measured?",
+   "options": [
+    {
+     "text": "Number of trucks per day",
+     "correct": false
+    },
+    {
+     "text": "Bags per pallet",
+     "correct": false
+    },
+    {
+     "text": "Tonnes finished feed divided by tonnes raw material issued",
+     "correct": true
+    },
+    {
+     "text": "kWh per hour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of normal (expected) shrink?",
+   "options": [
+    {
+     "text": "Overfilled bags",
+     "correct": false
+    },
+    {
+     "text": "Moisture loss during grinding and cooling",
+     "correct": true
+    },
+    {
+     "text": "Theft",
+     "correct": false
+    },
+    {
+     "text": "Leaking conveyors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should losses be ranked to choose what to improve first?",
+   "options": [
+    {
+     "text": "Alphabetically",
+     "correct": false
+    },
+    {
+     "text": "By rand value",
+     "correct": true
+    },
+    {
+     "text": "By which is easiest to talk about",
+     "correct": false
+    },
+    {
+     "text": "Randomly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which action can reduce maximum demand electricity charges?",
+   "options": [
+    {
+     "text": "Ignoring air leaks",
+     "correct": false
+    },
+    {
+     "text": "Staggering motor start-ups",
+     "correct": true
+    },
+    {
+     "text": "Starting all large motors at the same time at peak",
+     "correct": false
+    },
+    {
+     "text": "Running equipment empty",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "After making an improvement, what should you do?",
+   "options": [
+    {
+     "text": "Measure again long enough to be sure of the result, then update work instructions",
+     "correct": true
+    },
+    {
+     "text": "Change something else immediately",
+     "correct": false
+    },
+    {
+     "text": "Hide the results",
+     "correct": false
+    },
+    {
+     "text": "Stop measuring",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An overfill of 200 g per 50 kg bag can add up to a large loss over thousands of bags.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Data quality does not need to be checked before analysing shrink.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common causes of high energy use in feed mills? (select all that apply)",
+   "options": [
+    {
+     "text": "Equipment running empty",
+     "correct": true
+    },
+    {
+     "text": "Calibrated scales",
+     "correct": false
+    },
+    {
+     "text": "Worn hammers and screens",
+     "correct": true
+    },
+    {
+     "text": "Compressed air leaks",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

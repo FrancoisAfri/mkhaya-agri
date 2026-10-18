@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-264039",
+ "title": "Install manual and automatic filters for an irrigation system",
+ "lessons": [
+  {
+   "title": "Why irrigation water needs filtering",
+   "minutes": 15,
+   "html": "<h3>The need for filtration</h3><p>Water from a dam, river, borehole or even a municipal pipe carries small bits of dirt. You often cannot see them. In an irrigation system these bits cause problems:</p><ul><li>Drippers and small sprinkler nozzles get blocked.</li><li>Plants next to a blocked dripper get no water and die.</li><li>Sprinklers throw unevenly, so some areas are dry and some are wet.</li><li>Valves leak because dirt stops them closing.</li><li>Pumps and meters wear out faster.</li></ul><p>Filters catch the dirt before it gets into the pipes. Cleaning a filter is quick and cheap. Replacing blocked drippers is slow and expensive.</p><h4>What is in the water</h4><table><tr><th>Dirt</th><th>Where it comes from</th></tr><tr><td>Sand and silt</td><td>Boreholes, rivers, broken pipes</td></tr><tr><td>Algae and slime</td><td>Dams and open tanks in sunlight</td></tr><tr><td>Leaves, insects, snails, frog eggs</td><td>Dams, rivers, canals</td></tr><tr><td>Rust and scale</td><td>Old steel pipes, hard water</td></tr><tr><td>Plastic bits and glue</td><td>New pipe installation, if pipes were not flushed</td></tr></table><h4>How fine must the filter be?</h4><p>The smaller the hole in the emitter, the finer the filter must be. Drip systems need finer filtering than pop-up sprinklers. The filter fineness is given in <strong>mesh</strong> or <strong>micron</strong>. Always use the grade the dripper or sprinkler maker asks for. Your supervisor or the design will tell you.</p><p>A filter that is too coarse lets dirt through. A filter that is much too fine blocks very fast and causes high pressure loss.</p><h4>Remember</h4><p>Always flush new pipes before you fit the emitters, so building dirt does not go straight into the system.</p>"
+  },
+  {
+   "title": "Filter elements and manual versus automatic filters",
+   "minutes": 15,
+   "html": "<h3>The filter element</h3><p>The element is the part inside the filter that catches the dirt.</p><table><tr><th>Element</th><th>What it looks like</th><th>Good for</th></tr><tr><td>Screen (mesh)</td><td>A tube of fine steel or plastic mesh</td><td>Sand and hard bits; municipal and borehole water</td></tr><tr><td>Disc</td><td>A stack of thin plastic rings with tiny grooves, pressed together</td><td>Sand and soft dirt like algae; easy to clean</td></tr><tr><td>Sand or media</td><td>A tank filled with special filter sand</td><td>Lots of algae and organic dirt, such as dam water</td></tr><tr><td>Sand separator (hydrocyclone)</td><td>A cone that spins the water</td><td>Heavy sand from boreholes and rivers</td></tr></table><p>Disc and screen elements often have colour codes to show their fineness. Never put in an element of a different grade without asking.</p><h4>Manual filters</h4><p>A manual filter must be opened and cleaned by hand.</p><ul><li>Cheap and simple.</li><li>But someone must remember to clean it. If it blocks, pressure drops and plants suffer.</li><li>Cleaning stops the irrigation while the filter is open.</li><li>Dirty water can get past when the element is taken out, if it is not done carefully.</li></ul><h4>Automatic self-flushing filters</h4><p>An automatic filter cleans itself. When it gets dirty, the pressure difference across it rises. A control unit then opens a flush valve and washes the dirt out to a drain. Some flush on a timer.</p><ul><li>No one needs to be there.</li><li>The system keeps working while it flushes, especially with banks of several filters.</li><li>Good for dirty water and large systems like sportsfields and farms.</li><li>Costs more and needs enough water pressure to flush.</li></ul><h4>Cleaning a manual filter</h4><ol><li>Turn off the water and release the pressure.</li><li>Open the housing and take out the element.</li><li>Wash it with clean water and a soft brush. Do not tear the mesh.</li><li>Check the seals, put it back, close and turn on slowly.</li></ol>"
+  },
+  {
+   "title": "Where to install filters and which valves to include",
+   "minutes": 15,
+   "html": "<h3>Positions for filters</h3><p>The filter must be placed where it protects the system and is easy to reach.</p><ul><li><strong>At the pump station:</strong> after the pump, and after the fertiliser injection point, so any undissolved fertiliser is also caught. This is the main filter.</li><li><strong>Before a pump:</strong> only a coarse suction strainer or foot valve strainer; a fine filter on the suction side starves the pump.</li><li><strong>At the start of each drip zone:</strong> a smaller safety filter after the zone valve, as a second line of protection.</li><li><strong>On a municipal connection:</strong> after the meter and backflow preventer, before the zone valves.</li><li><strong>Hydrocyclone:</strong> before the main filter, to take out heavy sand first.</li></ul><p>Put the filter where it is protected from damage, has a firm base and has space to open it and clean it. The flush water must drain away from the pump house and electric panel.</p><h4>Valves to include</h4><table><tr><th>Valve</th><th>Why</th></tr><tr><td>Isolating valve before and after the filter</td><td>To shut off the water for cleaning without draining pipes</td></tr><tr><td>Bypass with a valve (optional)</td><td>To keep water flowing in an emergency; keep it closed in normal use</td></tr><tr><td>Pressure gauges or test points before and after</td><td>To see the pressure difference and know when to clean</td></tr><tr><td>Air release valve</td><td>To let trapped air out</td></tr><tr><td>Flush or drain valve</td><td>To wash out dirt</td></tr><tr><td>Non-return valve</td><td>Where water must not flow back through the filter</td></tr></table><h4>Installing</h4><ol><li>Check the flow arrow on the filter body and fit it the right way round.</li><li>Use the correct fittings and support the filter so the pipe does not carry its weight.</li><li>Flush the pipe before connecting.</li><li>Turn on slowly and check for leaks.</li><li>Write down the clean pressure difference.</li></ol><h4>Key points</h4><ul><li>Filters stop dirt blocking drippers, nozzles and valves.</li><li>Use the filter grade the emitter maker asks for.</li><li>Screen, disc, sand and hydrocyclone filters suit different dirt.</li><li>Automatic filters clean themselves; manual filters must be cleaned by hand.</li><li>Install the main filter after the pump and fertiliser injector, with isolating valves and gauges.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What happens when drippers get blocked by dirt?",
+   "options": [
+    {
+     "text": "Plants get more water",
+     "correct": false
+    },
+    {
+     "text": "Plants next to them get no water",
+     "correct": true
+    },
+    {
+     "text": "The pump works better",
+     "correct": false
+    },
+    {
+     "text": "Pressure drops at the source",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which filter element is best for dam water with lots of algae?",
+   "options": [
+    {
+     "text": "Hydrocyclone",
+     "correct": false
+    },
+    {
+     "text": "Coarse strainer",
+     "correct": false
+    },
+    {
+     "text": "Sand (media) filter",
+     "correct": true
+    },
+    {
+     "text": "No filter",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How does an automatic self-flushing filter know when to clean itself?",
+   "options": [
+    {
+     "text": "The pressure difference across it rises, or a timer runs",
+     "correct": true
+    },
+    {
+     "text": "Someone presses a button",
+     "correct": false
+    },
+    {
+     "text": "The water changes colour",
+     "correct": false
+    },
+    {
+     "text": "It cleans every minute",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should the main filter be at a pump station?",
+   "options": [
+    {
+     "text": "On the suction side before the pump",
+     "correct": false
+    },
+    {
+     "text": "At the end of the last lateral",
+     "correct": false
+    },
+    {
+     "text": "Inside the dam",
+     "correct": false
+    },
+    {
+     "text": "After the pump and after the fertiliser injection point",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why fit pressure gauges before and after a filter?",
+   "options": [
+    {
+     "text": "To measure flow",
+     "correct": false
+    },
+    {
+     "text": "To see the pressure difference and know when to clean",
+     "correct": true
+    },
+    {
+     "text": "To start the pump",
+     "correct": false
+    },
+    {
+     "text": "To test water quality",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should release the pressure before opening a manual filter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A fine filter on the pump suction side helps the pump work better.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which valves should be included with an irrigation filter? (select all that apply)",
+   "options": [
+    {
+     "text": "Isolating valves before and after",
+     "correct": true
+    },
+    {
+     "text": "Air release valve",
+     "correct": true
+    },
+    {
+     "text": "A valve to add sand to the water",
+     "correct": false
+    },
+    {
+     "text": "Flush or drain valve",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

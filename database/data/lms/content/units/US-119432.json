@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119432",
+ "title": "Operate a portion cutting machine in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Portions and the cutting machine",
+   "minutes": 15,
+   "html": "<h3>Why we cut portions</h3>\n<p>Many customers buy chicken in pieces, not whole birds. Supermarkets, fast-food outlets and butcheries order drumsticks, thighs, wings, breasts, fillets and braai packs. A <strong>portion cutting machine</strong> cuts chilled carcasses into these portions quickly and in the same way every time.</p>\n<h4>Common portions</h4>\n<table><tr><th>Portion</th><th>Part of the bird</th></tr>\n<tr><td>Drumstick</td><td>Lower leg</td></tr>\n<tr><td>Thigh</td><td>Upper leg</td></tr>\n<tr><td>Wing (whole, or drumette, flat and tip)</td><td>Wing</td></tr>\n<tr><td>Breast (bone-in) and fillet (boneless)</td><td>Breast</td></tr>\n<tr><td>Back and neck</td><td>Frame, often for soup packs</td></tr>\n</table>\n<h4>Types of cutting machine</h4>\n<ul>\n<li><strong>Automatic cut-up line</strong> – birds hang on shackles and pass through a row of cutting modules. Each module removes one part, such as wings, then legs, then breast.</li>\n<li><strong>Bandsaw or table cutter</strong> – the operator feeds the bird or part by hand to a blade. This needs extra care.</li>\n<li><strong>Portioning machines with cameras</strong> – cut fillets to a set weight or shape.</li>\n</ul>\n<h4>Main parts and safety devices</h4>\n<ul>\n<li>Rotating circular blades or a band blade.</li>\n<li>Guides that position the bird for the cut.</li>\n<li>Guards that cover the blades.</li>\n<li>Emergency stop buttons along the machine.</li>\n<li>Interlocked doors that stop the machine when opened.</li>\n</ul>\n<p>The blades are very sharp and move fast. A moment of carelessness can cost you a finger or a hand. Only trained and authorised operators may run the machine, and the <strong>OHS Act 85 of 1993</strong> requires both the employer and you to make sure machines are used safely.</p><p><em>Example:</em> At a plant in KwaZulu-Natal, the cut-up line is set for birds of a certain size. When a flock of much bigger birds arrives, the thigh cuts start missing the joint. The operator notices, stops the line and calls the supervisor so the settings can be changed.</p>"
+  },
+  {
+   "title": "Safe start-up and operation",
+   "minutes": 20,
+   "html": "<h3>Before you start</h3>\n<ol>\n<li>Wash your hands and wear your PPE: mesh (cut-resistant) glove, apron, hair net, gumboots and ear protection if required.</li>\n<li>Check that the machine has been cleaned and sanitised and that the pre-operational check is signed.</li>\n<li>Check that all guards are in place and not damaged.</li>\n<li>Test the emergency stops as your work instruction says.</li>\n<li>Check the blades for damage, chips or looseness. Report any problem. Do not touch the blades with your bare hand.</li>\n<li>Check that you have the right setting or program for today's portion and bird size.</li>\n<li>Start the machine and let it run empty for a short time to check it sounds normal.</li>\n</ol>\n<h4>Running the machine</h4>\n<ul>\n<li>Feed birds the right way round and properly positioned in the guides or shackles.</li>\n<li>On hand-fed machines, use the push stick or holder provided. Never push product to the blade with your fingers.</li>\n<li>Keep your hands out of the danger zone marked on the machine.</li>\n<li>Do not wear loose clothing, jewellery or loose gloves that can be caught.</li>\n<li>Do not talk on a phone or look away while feeding the machine.</li>\n<li>If product jams, stop the machine first.</li>\n</ul>\n<h4>Checking the cut</h4>\n<p>Look at the portions coming off the machine:</p>\n<ul>\n<li>Is the cut in the right place, for example the thigh cut at the joint?</li>\n<li>Are there bone splinters, ragged edges or torn skin?</li>\n<li>Are portions the right size or weight for the specification?</li>\n<li>Are there pieces of bone or cartilage in boneless fillets?</li>\n</ul>\n<p>If cuts are wrong, stop and tell your supervisor. Wrong cuts can be caused by wrong settings, blunt blades or birds that are larger or smaller than the setting. Badly cut portions are downgraded, which costs money.</p>"
+  },
+  {
+   "title": "Jams, cleaning and records",
+   "minutes": 15,
+   "html": "<h3>Clearing a jam safely</h3>\n<ol>\n<li>Press the stop or emergency stop.</li>\n<li>Wait until the blades have completely stopped. Blades can keep spinning after the power is off.</li>\n<li>Apply lock-out as your plant's procedure requires before putting hands into the machine.</li>\n<li>Remove the jammed product with a hook or tool where possible, keeping hands clear of blade edges.</li>\n<li>Check for damage, close all guards, remove your lock and restart.</li>\n</ol>\n<p><strong>Never</strong> reach into a running cutter, never remove or bypass a guard and never try to stop a blade with your hand or a tool.</p>\n<h4>Changing blades</h4>\n<p>Blade changing and sharpening are done only by trained, authorised people (often the technician) with the machine locked out. Blades are carried in a blade cover and never left loose on a table.</p>\n<h4>Cleaning the machine</h4>\n<ol>\n<li>Switch off and lock out.</li>\n<li>Remove meat, fat and bone pieces by hand (with mesh gloves) and put them in the waste bin.</li>\n<li>Remove parts that are meant to be taken off for cleaning.</li>\n<li>Apply detergent, scrub, rinse and sanitise as on the cleaning schedule.</li>\n<li>Do not spray water at electrical panels and motors.</li>\n<li>Check the machine is clean before it is reassembled and used again.</li>\n</ol>\n<h4>Records</h4>\n<p>Record the start and stop times, the products cut, quantities, any breakdowns and any product put on hold. These records help with traceability and help maintenance find repeat faults.</p>\n<h4>Key points</h4>\n<ul>\n<li>Wear a mesh glove and check guards and emergency stops before starting.</li>\n<li>Never push product to a blade with your fingers; use the push stick.</li>\n<li>Stop, wait for blades to stop and lock out before clearing jams.</li>\n<li>Check cuts are in the right place and portions meet the specification.</li>\n<li>Only authorised people change or sharpen blades.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which PPE protects your hand from the cutting blade?",
+   "options": [
+    {
+     "text": "Cotton glove",
+     "correct": false
+    },
+    {
+     "text": "Mesh (cut-resistant) glove",
+     "correct": true
+    },
+    {
+     "text": "Rubber band",
+     "correct": false
+    },
+    {
+     "text": "No glove",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On a hand-fed machine, how should you push product toward the blade?",
+   "options": [
+    {
+     "text": "With your fingers",
+     "correct": false
+    },
+    {
+     "text": "With the push stick or holder provided",
+     "correct": true
+    },
+    {
+     "text": "With your elbow",
+     "correct": false
+    },
+    {
+     "text": "With a knife",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after pressing stop to clear a jam?",
+   "options": [
+    {
+     "text": "Reach in immediately",
+     "correct": false
+    },
+    {
+     "text": "Wait until the blades have completely stopped",
+     "correct": true
+    },
+    {
+     "text": "Restart it to free the jam",
+     "correct": false
+    },
+    {
+     "text": "Remove the guard while it slows",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can cause portions to be cut in the wrong place?",
+   "options": [
+    {
+     "text": "Wrong settings, blunt blades or wrong bird size",
+     "correct": true
+    },
+    {
+     "text": "Clean floors",
+     "correct": false
+    },
+    {
+     "text": "Wearing a hair net",
+     "correct": false
+    },
+    {
+     "text": "Cold room temperature",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may change or sharpen the blades?",
+   "options": [
+    {
+     "text": "Any operator",
+     "correct": false
+    },
+    {
+     "text": "Trained, authorised people with the machine locked out",
+     "correct": true
+    },
+    {
+     "text": "The cleaner during production",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Blades can keep spinning for a while after the power is switched off.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may remove a guard if it slows down your work.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should you do before starting the portion cutter? (select all that apply)",
+   "options": [
+    {
+     "text": "Check all guards are in place",
+     "correct": true
+    },
+    {
+     "text": "Test the emergency stops",
+     "correct": true
+    },
+    {
+     "text": "Check blades for damage",
+     "correct": true
+    },
+    {
+     "text": "Remove the interlock switches",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

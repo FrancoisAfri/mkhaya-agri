@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123166",
+ "title": "Apply health and safety practices in the wool and mohair fibre industry",
+ "lessons": [
+  {
+   "title": "Hazards in a wool and mohair store",
+   "minutes": 15,
+   "html": "<h3>Know the dangers in the store</h3><p>The Occupational Health and Safety Act 85 of 1993 says employers must keep the workplace safe and train workers. Workers must follow safety rules, use PPE and report dangers.</p><h4>Main hazards</h4><ul><li><strong>Heavy bales</strong> – they can fall, roll or crush people.</li><li><strong>Forklifts and bale clamps</strong> – can hit or run over people.</li><li><strong>Machines</strong> – presses, coring machines and conveyors can trap hands and arms.</li><li><strong>Knives</strong> – used for slitting bales.</li><li><strong>Dust</strong> – from fibre, can irritate lungs, eyes and skin.</li><li><strong>Noise</strong> – from presses and machines.</li><li><strong>Fire</strong> – wool and mohair, packs and dust burn.</li><li><strong>Falls</strong> – from stacks, ladders or loading docks.</li><li><strong>Lifting</strong> – bags of fibre and samples.</li></ul><h4>Your rights and duties</h4><ul><li>You must be trained before using a machine.</li><li>You may refuse to do dangerous work until it is made safe.</li><li>Report every danger and injury to your supervisor or the health and safety representative.</li></ul><h4>Signs</h4><p>Red signs: do not do this. Blue signs: you must do this (for example, wear ear protection). Yellow signs: warning. Green signs: safety, first aid and exits.</p><h4>Report and take part</h4><p>Every store should have a health and safety representative and regular safety talks. Take part, ask questions and share what you see. If you notice a near miss – something that almost caused an accident, like a bale that nearly fell – report it too. Near misses show where the next accident could happen.</p>"
+  },
+  {
+   "title": "Working safely with bales, forklifts and machines",
+   "minutes": 15,
+   "html": "<h3>Safe work every day</h3><h4>Bales and stacks</h4><ul><li>Never try to lift a bale by hand. Use a forklift, clamp or trolley.</li><li>Stack bales only as high and in the way the store allows. Stacks must be stable.</li><li>Never climb on stacks.</li><li>Never stand between a moving bale and a wall or another bale.</li></ul><h4>Forklifts</h4><ul><li>Only trained and licensed drivers may drive forklifts.</li><li>Walk only in marked walkways. Make eye contact with the driver before crossing.</li><li>Never walk or stand under raised forks.</li><li>Never ride on the forks.</li><li>Wear a reflective vest.</li></ul><h4>Machines</h4><ul><li>Keep all guards in place.</li><li>Know where the emergency stop is.</li><li>Switch off and lock out before cleaning, clearing or fixing a machine.</li><li>No loose clothes or jewellery; tie up long hair.</li></ul><h4>Knives</h4><ul><li>Cut away from your body.</li><li>Keep the blade covered when not in use.</li><li>Use the cut-resistant gloves given to you.</li></ul><h4>PPE</h4><p>Safety boots, overall, reflective vest, ear protection near loud machines, dust mask and gloves as the task needs.</p><h4>Lifting</h4><p>Bend your knees, keep your back straight, hold the load close and do not twist. Ask for help with bulky loads.</p><h4>Dust and noise</h4><p>Fibre dust can make you cough and give you sore eyes or itchy skin. Wear the dust mask and gloves given to you, and wash your hands and face at breaks. Loud noise slowly damages hearing for life, so wear ear protection whenever the press or other loud machines are running.</p>"
+  },
+  {
+   "title": "Fire, first aid and emergencies",
+   "minutes": 15,
+   "html": "<h3>Be ready for emergencies</h3><h4>Preventing fire</h4><ul><li>No smoking in the store — only in the marked smoking area.</li><li>Keep the store clean; loose fibre and dust burn easily.</li><li>Keep fuel, oil and gas away from fibre.</li><li>Report damaged cables and plugs.</li><li>Keep fire exits, fire hoses and extinguishers clear and never block them with bales.</li></ul><h4>If there is a fire</h4><ol><li>Raise the alarm.</li><li>Get everyone out using the nearest safe exit.</li><li>Go to the assembly point and wait to be counted.</li><li>Only fight a small fire if you are trained and it is safe.</li><li>Never go back inside for belongings.</li></ol><h4>First aid</h4><ul><li>Know who the first aiders are and where the first aid box is.</li><li>For a machine accident, press the emergency stop and switch off power first.</li><li>Call a first aider and the supervisor, and phone for an ambulance if serious.</li><li>Do not move a person who may have a neck or back injury unless they are in danger.</li><li>Wear gloves when dealing with blood.</li></ul><p>Only trained first aiders should give first aid. Hands-on training must be done with an accredited provider.</p><h4>Reporting</h4><p>Report every injury and near miss and write it in the injury register. Near misses help prevent the next accident.</p><h4>Key points</h4><ul><li>Bales, forklifts, machines, knives, dust, noise and fire are the main hazards.</li><li>Never lift bales by hand, climb stacks or stand under raised forks.</li><li>Keep guards on and lock out machines before cleaning or fixing them.</li><li>No smoking in the store and never block fire exits or extinguishers.</li><li>Report every injury and near miss.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Who may drive a forklift in the store?",
+   "options": [
+    {
+     "text": "Only trained and licensed drivers",
+     "correct": true
+    },
+    {
+     "text": "Visitors",
+     "correct": false
+    },
+    {
+     "text": "Any worker on a Friday",
+     "correct": false
+    },
+    {
+     "text": "Anyone who is in a hurry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do before crossing in front of a forklift?",
+   "options": [
+    {
+     "text": "Run quickly",
+     "correct": false
+    },
+    {
+     "text": "Close your eyes",
+     "correct": false
+    },
+    {
+     "text": "Shout and keep walking",
+     "correct": false
+    },
+    {
+     "text": "Use the walkway and make eye contact with the driver",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen before clearing a jammed press?",
+   "options": [
+    {
+     "text": "Remove the guard",
+     "correct": false
+    },
+    {
+     "text": "Ask a visitor to help",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out the machine",
+     "correct": true
+    },
+    {
+     "text": "Clear it while it runs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the store be kept clean of loose fibre and dust?",
+   "options": [
+    {
+     "text": "To save water",
+     "correct": false
+    },
+    {
+     "text": "It looks better for buyers only",
+     "correct": false
+    },
+    {
+     "text": "To make bales heavier",
+     "correct": false
+    },
+    {
+     "text": "Loose fibre and dust burn easily",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do you do first if there is a fire?",
+   "options": [
+    {
+     "text": "Raise the alarm",
+     "correct": true
+    },
+    {
+     "text": "Open all windows",
+     "correct": false
+    },
+    {
+     "text": "Hide in the store",
+     "correct": false
+    },
+    {
+     "text": "Go back for your phone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Near misses should also be reported.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stack bales against fire extinguishers if there is no space elsewhere.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which PPE is used in a wool store? (select all that apply)",
+   "options": [
+    {
+     "text": "Safety boots",
+     "correct": true
+    },
+    {
+     "text": "Reflective vest",
+     "correct": true
+    },
+    {
+     "text": "Ear protection near loud machines",
+     "correct": true
+    },
+    {
+     "text": "Sandals",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

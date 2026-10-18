@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123171",
+ "title": "Store wool and mohair bales",
+ "lessons": [
+  {
+   "title": "A good store",
+   "minutes": 15,
+   "html": "<h3>Keeping fibre in good condition</h3><p>Bales may stay in the broker's store for days or weeks while they are weighed, sampled, tested, displayed and sold. During that time they must be kept safe from water, dirt, pests, fire and damage, and they must be easy to find.</p><h4>What a good store has</h4><ul><li>A sound roof and walls with no leaks.</li><li>A dry floor. Bales may be placed on pallets so they do not touch damp floors.</li><li>Good ventilation.</li><li>Marked bays, aisles and walkways.</li><li>Fire equipment that is checked and easy to reach.</li><li>Pest control for rats, mice, birds and moths.</li><li>Locked doors and controlled access.</li></ul><h4>Why dryness matters</h4><p>Wet wool and mohair can rot, get mould and stain. Stained fibre loses value. Wet fibre can also heat up inside the bale. Check for leaks after every rain storm and report wet bales at once.</p><h4>Pests</h4><p>Rats chew packs and fibre and leave droppings. Moths and other insects can damage fibre. Keep the store clean, check bait stations and report signs of pests. Pest control chemicals may only be used by trained people, following the label.</p><h4>Fire</h4><p>Wool and mohair burn, and a store full of bales holds a lot of value. Keep the store clean of loose fibre, never smoke inside, and keep fuel and gas out. Know where the fire extinguishers and hoses are and how to raise the alarm.</p>"
+  },
+  {
+   "title": "Stacking and locating bales",
+   "minutes": 15,
+   "html": "<h3>Every bale in its place</h3><h4>The store plan</h4><p>The store is divided into bays, each with a number. When bales are stored, the bay is written in the records, so anyone can find a lot quickly for sampling, display or dispatch.</p><h4>Stacking rules</h4><ul><li>Keep each lot or consignment together in one bay.</li><li>Stack only as high as the store's rules allow, and on a firm, level base.</li><li>Stack straight and stable, with marks and numbers facing the aisle so they can be read.</li><li>Leave space from walls for air and inspection.</li><li>Keep aisles, walkways and fire exits clear.</li><li>Do not stack bales against or in front of fire hoses, extinguishers or electrical boards.</li></ul><h4>Moving bales</h4><ul><li>Only trained, licensed forklift drivers move bales.</li><li>Never lift bales by hand.</li><li>Do not drag bales across the floor; it tears packs.</li><li>Never stand under raised forks or between a bale and a wall.</li><li>Never climb on stacks.</li></ul><h4>Updating records</h4><p>Every time a lot is moved, update the location in the store records. A lot that cannot be found can delay a sale or dispatch.</p><h4>Store plan example</h4><p>A farmer's twelve bales arrive and are weighed. They are placed together in bay C4 with all marks facing the aisle. The bay is written on the receiving record. Later, the bales are moved to bay D2 for display. The new bay is written in the record at once, so the dispatch team can find them after the sale.</p>"
+  },
+  {
+   "title": "Daily checks and housekeeping",
+   "minutes": 15,
+   "html": "<h3>Look after the store every day</h3><h4>Daily walk-through</h4><ol><li>Look at the roof and walls for leaks, especially after rain.</li><li>Check bales for wet patches, tears and damage.</li><li>Check stacks are stable and not leaning.</li><li>Look for rat droppings, chewed packs and insects.</li><li>Check fire exits and equipment are clear.</li><li>Check doors and windows lock at the end of the day.</li></ol><p>Write what you checked on the check sheet and report problems.</p><h4>Housekeeping</h4><ul><li>Sweep up loose fibre, string and rubbish every day.</li><li>Put rubbish in closed bins.</li><li>Keep fuel, oil and chemicals out of the fibre store.</li><li>No smoking, eating or open flames in the store.</li></ul><h4>Damaged bales</h4><p>Torn packs should be repaired or patched as the store requires, so fibre is not lost or contaminated. Mark and report bales that need attention.</p><h4>Security</h4><p>Wool and mohair are valuable. Only allow people with permission into the store, and report anything suspicious.</p><h4>Key points</h4><ul><li>Keep bales dry, clean, pest-free and safe from fire.</li><li>Keep each lot together in a numbered bay and record its location.</li><li>Stack stable, within height limits, with marks facing the aisle.</li><li>Keep aisles, exits and fire equipment clear.</li><li>Do a daily walk-through and report leaks, damage and pests.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is dryness important in a fibre store?",
+   "options": [
+    {
+     "text": "It is not important",
+     "correct": false
+    },
+    {
+     "text": "Dry fibre attracts buyers",
+     "correct": false
+    },
+    {
+     "text": "Dry fibre is heavier",
+     "correct": false
+    },
+    {
+     "text": "Wet fibre can rot, get mould and stain",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is the bay number written in the records?",
+   "options": [
+    {
+     "text": "So anyone can find a lot quickly",
+     "correct": true
+    },
+    {
+     "text": "To count workers",
+     "correct": false
+    },
+    {
+     "text": "For decoration",
+     "correct": false
+    },
+    {
+     "text": "To set the price",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which way should bale marks face when stacking?",
+   "options": [
+    {
+     "text": "Downwards",
+     "correct": false
+    },
+    {
+     "text": "It does not matter",
+     "correct": false
+    },
+    {
+     "text": "Towards the aisle so they can be read",
+     "correct": true
+    },
+    {
+     "text": "Towards the wall",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should bales never be stacked?",
+   "options": [
+    {
+     "text": "In a dry store",
+     "correct": false
+    },
+    {
+     "text": "In a numbered bay",
+     "correct": false
+    },
+    {
+     "text": "On pallets",
+     "correct": false
+    },
+    {
+     "text": "In front of fire hoses or electrical boards",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do when a lot is moved to another bay?",
+   "options": [
+    {
+     "text": "Update the location in the store records",
+     "correct": true
+    },
+    {
+     "text": "Change the bale numbers",
+     "correct": false
+    },
+    {
+     "text": "Tell only the forklift driver",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rats can chew packs and fibre and leave droppings.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dragging bales across the floor is the best way to move them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are part of the daily store walk-through? (select all that apply)",
+   "options": [
+    {
+     "text": "Looking for signs of pests",
+     "correct": true
+    },
+    {
+     "text": "Checking for roof leaks",
+     "correct": true
+    },
+    {
+     "text": "Smoking a cigarette at the door",
+     "correct": false
+    },
+    {
+     "text": "Checking stacks are stable",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

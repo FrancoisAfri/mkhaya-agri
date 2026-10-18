@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8408",
+ "title": "Plan and co-ordinate problem plant control programmes",
+ "lessons": [
+  {
+   "title": "Problem plants and the law",
+   "minutes": 20,
+   "html": "<h3>What are problem plants?</h3>\n<p>Problem plants are plants that cause environmental or economic harm. They include:</p>\n<ul><li><strong>Invasive alien plants</strong> – introduced species that spread into natural areas, such as black wattle, pines, eucalyptus (blue gum), prosopis (mesquite), lantana, bugweed, triffid weed (Chromolaena), famine weed (Parthenium) and water hyacinth.</li>\n<li><strong>Weeds</strong> – plants that compete with crops or pastures.</li>\n<li><strong>Encroaching indigenous plants</strong> – bush encroachment by species like sickle bush or black thorn, and \"bankrupt bush\" (slangbos) in some areas, reducing grazing.</li>\n<li><strong>Poisonous plants</strong> – such as tulp and gifblaar that kill livestock.</li></ul>\n<h4>Impacts</h4>\n<ul><li>Reduced water in rivers and boreholes, as many invasive trees use more water than natural vegetation.</li>\n<li>Loss of grazing and crop yield.</li>\n<li>Increased fire intensity and erosion.</li>\n<li>Loss of biodiversity.</li>\n<li>Health problems for people and animals.</li></ul>\n<h4>Legal framework</h4>\n<p>Land users have legal duties to control certain invasive species. The Conservation of Agricultural Resources Act 43 of 1983 lists weeds and invader plants, and the National Environmental Management: Biodiversity Act and its Alien and Invasive Species regulations and lists categorise species according to whether they must be removed, may be kept under permit, or are restricted to certain areas. Categories and lists are updated from time to time, so always check the current lists with the provincial department or conservation authority before planning. Herbicides used must be registered under Act 36 of 1947 for that use, and the label must be followed.</p>"
+  },
+  {
+   "title": "Planning a control programme",
+   "minutes": 20,
+   "html": "<h3>Step 1: survey and map</h3>\n<p>Map the infestation: species, density (e.g. scattered, medium, dense), plant size (seedlings, young, mature), area in hectares and access. Use GPS, aerial imagery and field transects. Divide the area into management units.</p>\n<h3>Step 2: prioritise</h3>\n<ul><li>Start with <strong>lightly infested and upstream areas</strong> and keep clean areas clean; it is cheaper to stop spread than to clear dense stands.</li>\n<li>Prioritise riparian zones and catchment source areas for water benefits.</li>\n<li>Target new invaders early, before they become established (early detection, rapid response).</li></ul>\n<h3>Step 3: choose control methods (integrated control)</h3>\n<table><tr><th>Method</th><th>Examples</th></tr>\n<tr><td>Mechanical</td><td>Hand-pulling seedlings, ring-barking, felling with chainsaws or brushcutters, stacking or removing material</td></tr>\n<tr><td>Chemical</td><td>Registered herbicides applied as foliar spray, cut-stump, basal-stem or frill treatment, as the label prescribes</td></tr>\n<tr><td>Biological</td><td>Approved biocontrol agents (insects, fungi) released through recognised programmes, e.g. for prickly pear, water hyacinth and some wattles</td></tr>\n<tr><td>Fire</td><td>Controlled burning to kill seedlings after clearing, where appropriate and legal</td></tr>\n<tr><td>Land management</td><td>Restoring grass cover, correct grazing, rehabilitation with indigenous species</td></tr></table>\n<h3>Step 4: follow-up</h3>\n<p>Initial clearing is only the start. Seedlings germinate from the seed bank for years, especially after fire. Plan follow-up treatments (often several over a number of years) and budget for them from the start. Projects that skip follow-up waste the initial investment.</p>"
+  },
+  {
+   "title": "Co-ordinating teams, safety and monitoring",
+   "minutes": 15,
+   "html": "<h3>Co-ordination</h3>\n<ul><li>Work plans per management unit: method, team size, person-days, herbicide quantities, cost.</li>\n<li>Coordinate with neighbours. Clearing one farm while the neighbour's stands seed into it is wasteful. Area-wide programmes work best.</li>\n<li>Link to public programmes and funders where available.</li>\n<li>Use cleared material: fuelwood, poles, charcoal, mulch or brush packs for erosion control.</li></ul>\n<h3>Safety</h3>\n<ul><li>Teams must be trained in chainsaw and brushcutter use, herbicide handling and first aid, with PPE as required by the OHS Act 85 of 1993 and the product labels.</li>\n<li>Herbicides near water need products registered for that use; mix away from water bodies.</li>\n<li>Plan fire safety: firebreaks, weather checks, and fire-fighting equipment on site.</li>\n<li>Keep incident and herbicide-use records.</li></ul>\n<h3>Monitoring and reporting</h3>\n<ul><li>Record area treated, density before and after, method, herbicide used and person-days per management unit.</li>\n<li>Fixed-point photographs.</li>\n<li>Check kill rates after treatment and re-treat survivors.</li>\n<li>Report progress against the plan and adapt.</li></ul>\n<h4>Key points</h4>\n<ul><li>Problem plants include invasive aliens, weeds, encroaching bush and poisonous plants.</li>\n<li>Land users have legal duties; check current invasive species lists before planning.</li>\n<li>Map, prioritise light and upstream infestations, and act early on new invaders.</li>\n<li>Combine mechanical, chemical, biological and land management methods.</li>\n<li>Budget for follow-up treatments and coordinate with neighbours.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which areas should usually be cleared first?",
+   "options": [
+    {
+     "text": "Lightly infested and upstream areas",
+     "correct": true
+    },
+    {
+     "text": "The densest stands only",
+     "correct": false
+    },
+    {
+     "text": "Areas nobody visits",
+     "correct": false
+    },
+    {
+     "text": "Downstream areas only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is follow-up essential after initial clearing?",
+   "options": [
+    {
+     "text": "To count trees",
+     "correct": false
+    },
+    {
+     "text": "To sell the wood",
+     "correct": false
+    },
+    {
+     "text": "Seedlings germinate from the seed bank for years",
+     "correct": true
+    },
+    {
+     "text": "It is not essential",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a biological control method?",
+   "options": [
+    {
+     "text": "Ring-barking",
+     "correct": false
+    },
+    {
+     "text": "Releasing approved insect agents",
+     "correct": true
+    },
+    {
+     "text": "Cut-stump herbicide",
+     "correct": false
+    },
+    {
+     "text": "Hand-pulling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be true of a herbicide used for problem plant control?",
+   "options": [
+    {
+     "text": "It must be the cheapest",
+     "correct": false
+    },
+    {
+     "text": "Any garden chemical will do",
+     "correct": false
+    },
+    {
+     "text": "It must be home-made",
+     "correct": false
+    },
+    {
+     "text": "It must be registered for that use and the label followed",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why coordinate with neighbours?",
+   "options": [
+    {
+     "text": "To share lunch",
+     "correct": false
+    },
+    {
+     "text": "To avoid paying staff",
+     "correct": false
+    },
+    {
+     "text": "Their stands can seed back into cleared land",
+     "correct": true
+    },
+    {
+     "text": "It is a legal requirement in every case",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Many invasive alien trees use more water than natural vegetation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Invasive species lists never change, so they do not need to be checked.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which uses can cleared invasive material have? (select all that apply)",
+   "options": [
+    {
+     "text": "Fuelwood",
+     "correct": true
+    },
+    {
+     "text": "Brush packs for erosion control",
+     "correct": true
+    },
+    {
+     "text": "Poles or charcoal",
+     "correct": true
+    },
+    {
+     "text": "Planting it elsewhere to grow",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

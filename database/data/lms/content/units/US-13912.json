@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-13912",
+ "title": "Apply knowledge of self and team in order to develop a plan to enhance team performance",
+ "lessons": [
+  {
+   "title": "Knowing yourself as a team member",
+   "minutes": 20,
+   "html": "<h3>Why self-knowledge matters</h3><p>On an irrigation crew, a packhouse line or a farm maintenance team, how well the team works depends on the people in it. Before you can help a team perform better, you need to understand yourself: your strengths, weaknesses, habits and the way you react to others.</p><h4>Ways to understand yourself</h4><ul><li><strong>Reflect:</strong> think about a recent job that went well and one that went badly. What did you do? How did you feel? What would you do differently?</li><li><strong>Ask for feedback:</strong> ask your supervisor and colleagues what you do well and what you could improve. Listen without arguing.</li><li><strong>Use simple self-assessment tools:</strong> questionnaires on learning style, working style or team roles can give a starting point. Treat them as a guide, not a label.</li></ul><h4>Strengths and development areas</h4><table><tr><th>Area</th><th>Example strength</th><th>Example development area</th></tr><tr><td>Technical skill</td><td>Good at fault-finding on solenoid valves</td><td>Unsure about programming new controllers</td></tr><tr><td>Communication</td><td>Explains clearly to new workers</td><td>Does not speak up in meetings</td></tr><tr><td>Work habits</td><td>Always on time</td><td>Leaves tools lying around</td></tr><tr><td>Attitude</td><td>Stays calm under pressure</td><td>Gets impatient with slower workers</td></tr></table><h4>Values and behaviour</h4><p>Your values, such as honesty, respect and reliability, show in what you do: arriving on time, finishing jobs properly, reporting mistakes, and treating colleagues of every background, language and gender with respect. South African workplaces bring together many cultures; understanding your own assumptions helps you work well with everyone.</p><h4>Managing your reactions</h4><p>When something frustrates you, such as a colleague who does not pull their weight, notice your reaction before acting. Take a breath, find out the facts, and speak to the person privately and respectfully. Personal stress from home, money or health also affects work; know where to get help, such as an employee wellness programme if your employer has one.</p>"
+  },
+  {
+   "title": "Understanding the team",
+   "minutes": 20,
+   "html": "<h3>What makes a team</h3><p>A team is a group of people working together towards a shared goal, for example installing a sportsfield irrigation system on time and to standard. Members depend on each other: the trencher operator, the pipe layer, the valve installer and the person who tests the system.</p><h4>Stages of team development</h4><p>A well-known model (Tuckman) describes how teams grow:</p><table><tr><th>Stage</th><th>What happens</th></tr><tr><td>Forming</td><td>People are polite and unsure; they rely on the leader</td></tr><tr><td>Storming</td><td>Disagreements arise about roles and ways of working</td></tr><tr><td>Norming</td><td>The team agrees on rules and starts to trust each other</td></tr><tr><td>Performing</td><td>The team works smoothly and solves problems itself</td></tr><tr><td>Adjourning</td><td>The project ends and the team breaks up</td></tr></table><p>Conflict in the storming stage is normal. Handled well, it leads to better ways of working.</p><h4>Team roles</h4><p>People naturally take different roles: some generate ideas, some organise, some check details, some keep the peace, some push for action. A strong team has a mix. Notice which roles you and others take, and which are missing.</p><h4>Signs of a well-performing team</h4><ul><li>Clear goals that everyone understands</li><li>Clear roles and responsibilities</li><li>Open, respectful communication</li><li>Trust and willingness to help each other</li><li>Problems raised early and solved together</li><li>Safety rules followed by everyone</li></ul><h4>Signs of problems</h4><ul><li>Repeated rework or missed deadlines</li><li>Blaming, gossip and cliques</li><li>People not sharing information</li><li>Absenteeism and low morale</li><li>Safety short-cuts</li></ul><p>Gather facts: look at job records, rework, incident reports and talk to team members. Do not rely on rumours.</p>"
+  },
+  {
+   "title": "Developing a plan to enhance team performance",
+   "minutes": 20,
+   "html": "<h3>From observation to action</h3><p>A team performance plan turns what you have learned about yourself and the team into specific actions.</p><h4>Steps</h4><ol><li><strong>Identify the gap:</strong> compare current performance with what is required. Example: zones are often handed over with leaking valves, causing call-backs.</li><li><strong>Find causes:</strong> discuss with the team. Perhaps new members were never shown how to seal threaded joints, or there is no checklist for testing.</li><li><strong>Set goals:</strong> make them SMART: Specific, Measurable, Achievable, Relevant, Time-bound. Example: \"Reduce call-backs for leaking valves to zero within two months.\"</li><li><strong>Plan actions:</strong> who will do what, by when, with what resources.</li><li><strong>Agree with the team and supervisor:</strong> people support plans they help create.</li><li><strong>Implement and monitor:</strong> check progress regularly.</li><li><strong>Review:</strong> celebrate success, learn from what did not work, adjust the plan.</li></ol><h4>Example plan</h4><table><tr><th>Action</th><th>Who</th><th>By when</th><th>Measure</th></tr><tr><td>Short training on joint sealing and valve testing</td><td>Senior installer</td><td>End of week 1</td><td>All crew trained, signed register</td></tr><tr><td>Introduce a handover checklist</td><td>Team leader</td><td>Week 2</td><td>Checklist completed for every zone</td></tr><tr><td>Weekly 15-minute toolbox talk on problems found</td><td>Whole team</td><td>Ongoing</td><td>Talks held, issues logged</td></tr><tr><td>Personal goal: learn controller programming</td><td>You</td><td>Within 6 weeks</td><td>Programmes one site under supervision</td></tr></table><h4>Your personal contribution</h4><p>Include your own development in the plan: a skill to learn, a habit to change, or a role to take on. Leading by example builds credibility.</p><h4>Communicating the plan</h4><p>Explain the plan simply, in a language the team understands, and keep it visible. Give recognition when targets are met.</p><h4>Key points</h4><ul><li>Understand your own strengths, weaknesses and reactions through reflection and feedback.</li><li>Teams pass through forming, storming, norming and performing.</li><li>Look for clear goals, roles, trust and communication; base judgements on facts.</li><li>Set SMART goals and plan who does what by when.</li><li>Involve the team, monitor progress and review.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a good way to find out your own strengths and weaknesses?",
+   "options": [
+    {
+     "text": "Rely only on what you think",
+     "correct": false
+    },
+    {
+     "text": "Avoid feedback",
+     "correct": false
+    },
+    {
+     "text": "Reflect on past jobs and ask for honest feedback",
+     "correct": true
+    },
+    {
+     "text": "Compare yourself with the supervisor",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which stage of team development do disagreements about roles usually arise?",
+   "options": [
+    {
+     "text": "Forming",
+     "correct": false
+    },
+    {
+     "text": "Storming",
+     "correct": true
+    },
+    {
+     "text": "Norming",
+     "correct": false
+    },
+    {
+     "text": "Performing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of a well-performing team?",
+   "options": [
+    {
+     "text": "Blaming and gossip",
+     "correct": false
+    },
+    {
+     "text": "Repeated rework",
+     "correct": false
+    },
+    {
+     "text": "Safety short-cuts",
+     "correct": false
+    },
+    {
+     "text": "Problems raised early and solved together",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the 'M' in SMART goals stand for?",
+   "options": [
+    {
+     "text": "Measurable",
+     "correct": true
+    },
+    {
+     "text": "Motivated",
+     "correct": false
+    },
+    {
+     "text": "Managed",
+     "correct": false
+    },
+    {
+     "text": "Maximum",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the team help create the performance plan?",
+   "options": [
+    {
+     "text": "It saves paper",
+     "correct": false
+    },
+    {
+     "text": "The supervisor does not need to know",
+     "correct": false
+    },
+    {
+     "text": "People support plans they help create",
+     "correct": true
+    },
+    {
+     "text": "It makes the plan longer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Conflict in the storming stage is normal and can lead to better ways of working if handled well.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A team performance plan should be based on rumours rather than records.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong in an action plan? (select all that apply)",
+   "options": [
+    {
+     "text": "What action will be taken",
+     "correct": true
+    },
+    {
+     "text": "Who is responsible",
+     "correct": true
+    },
+    {
+     "text": "By when it will be done",
+     "correct": true
+    },
+    {
+     "text": "Who to blame if it fails",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

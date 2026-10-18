@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7461",
+ "title": "Use maps to access and communicate information concerning routes, location and direction",
+ "lessons": [
+  {
+   "title": "What a map shows: key, scale and direction",
+   "minutes": 15,
+   "html": "<h3>Why maps are useful on a farm</h3>\n<p>A map is a drawing of a place seen from above. Farm maps show the houses, camps, roads, dams, fences, gates and boundaries. Maps help you find your way, explain to a driver where to deliver feed, show the fire break route or tell emergency services how to reach the farm.</p>\n<h4>The key (legend)</h4>\n<p>Maps use small symbols and colours instead of drawing every detail. The <strong>key</strong> or <strong>legend</strong> is a box that tells you what each symbol means. For example:</p>\n<ul>\n<li>Blue = water, such as a dam, river or borehole.</li>\n<li>Black squares = buildings, like poultry houses or the farm office.</li>\n<li>A dashed line = a gravel or farm road.</li>\n<li>A line with small crosses = a fence.</li>\n</ul>\n<p>Always read the key first before you use a map.</p>\n<h4>Directions: the compass</h4>\n<p>The four main directions are <strong>North (N), East (E), South (S) and West (W)</strong>. On most maps North is at the top. A small arrow marked N shows which way North is. Between them are North-East (NE), South-East (SE), South-West (SW) and North-West (NW).</p>\n<p>A way to remember: in South Africa the sun rises in the east and sets in the west. In the middle of the day the sun is in the northern part of the sky.</p>\n<h4>Scale</h4>\n<p>A map is much smaller than the real place. The <strong>scale</strong> tells you how much smaller. A scale bar might show that 1 cm on the map = 100 m on the ground. If two poultry houses are 3 cm apart on the map, they are 3 × 100 = 300 m apart in real life.</p>\n<p>A scale can also be written as a ratio, like 1 : 10 000. This means 1 cm on the map is 10 000 cm (100 m) on the ground.</p>"
+  },
+  {
+   "title": "Finding locations and planning routes",
+   "minutes": 15,
+   "html": "<h3>Finding a place on a map</h3>\n<p>Many maps have a grid of squares. The columns have letters (A, B, C...) and the rows have numbers (1, 2, 3...). A <strong>grid reference</strong> like C4 tells you to go across to column C and then up or down to row 4. The place you want is in that square. Town maps, road maps and many farm maps use this system.</p>\n<p>Today many people also use a phone with GPS, which gives a location as numbers (co-ordinates) or a pin on a map app. You can send this pin to a delivery driver or an ambulance. It is still important to know landmarks, because phone signal can be weak in rural areas.</p>\n<h4>Describing a route</h4>\n<p>A route is the way you travel from one place to another. When you give directions, be clear and use landmarks:</p>\n<ol>\n<li>Start: \"From the main gate on the tar road...\"</li>\n<li>Direction and distance: \"...drive north on the gravel road for about 2 km...\"</li>\n<li>Landmarks: \"...past the big dam on your left...\"</li>\n<li>Turns: \"...turn right (east) at the second gate...\"</li>\n<li>End: \"...the broiler houses are the four long buildings ahead.\"</li>\n</ol>\n<h4>Choosing the best route</h4>\n<p>The shortest route is not always the best. Think about:</p>\n<ul>\n<li>Road condition – a gravel road may be impassable after rain.</li>\n<li>Biosecurity – feed and egg trucks should not drive past dead-bird or manure areas, and visitors' vehicles may need to stop at the wash bay first.</li>\n<li>Safety – avoid routes past heavy machinery or through camps with bulls.</li>\n<li>Low bridges or narrow gates for big trucks.</li>\n</ul>\n<h4>Working out distance</h4>\n<p>Measure the route on the map with a piece of string along the road, then lay the string on the scale bar. If the string measures 8 cm and 1 cm = 250 m, the route is 8 × 250 = 2 000 m, which is 2 km.</p>"
+  },
+  {
+   "title": "Drawing simple maps and plans",
+   "minutes": 15,
+   "html": "<h3>Making your own map</h3>\n<p>Sometimes you need to draw a quick map: to show a new worker where the feed store is, to mark where a fence is broken, or to show the route for a fire drill. A simple, clear sketch map is very helpful.</p>\n<h4>Steps to draw a sketch map</h4>\n<ol>\n<li>Draw a North arrow in a corner.</li>\n<li>Start with the main things: the road, the main buildings and the dam.</li>\n<li>Try to keep sizes and distances roughly in proportion. Things far apart should look far apart.</li>\n<li>Add smaller details: gates, taps, the dip tank, the dead-bird pit, the fire extinguishers.</li>\n<li>Use simple symbols and make a key.</li>\n<li>Add a title and the date.</li>\n</ol>\n<h4>Emergency and evacuation maps</h4>\n<p>Every workplace should have an emergency plan. A map near the door of each house can show:</p>\n<ul>\n<li>Where the exits are.</li>\n<li>The safe assembly point where everyone meets after leaving a building.</li>\n<li>Where fire extinguishers and the first aid box are kept.</li>\n</ul>\n<p>Learn the map for your work area. In a fire or emergency, walk quickly to the assembly point by the route shown. Never go back into a burning building for belongings.</p>\n<h4>Explaining where the farm is</h4>\n<p>If you must phone for an ambulance or the fire service, give clear information: the farm name, the nearest town, the road number and distance from a well-known landmark, such as \"12 km past the Engen garage on the R40, turn left at the green farm gate.\" If you can, send a GPS pin and ask someone to wait at the gate to guide them in.</p>\n<h4>Key points</h4>\n<ul>\n<li>Read the map key first to understand the symbols.</li>\n<li>North is usually at the top; know N, E, S and W.</li>\n<li>Use the scale to change map distance into real distance.</li>\n<li>Grid references and GPS pins help you find exact places.</li>\n<li>Give routes with directions, distances and landmarks.</li>\n<li>Know the emergency map and assembly point for your work area.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What part of a map tells you what the symbols mean?",
+   "options": [
+    {
+     "text": "The scale bar",
+     "correct": false
+    },
+    {
+     "text": "The key or legend",
+     "correct": true
+    },
+    {
+     "text": "The North arrow",
+     "correct": false
+    },
+    {
+     "text": "The title",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "On a map 1 cm = 100 m. Two houses are 3 cm apart on the map. How far apart are they really?",
+   "options": [
+    {
+     "text": "30 m",
+     "correct": false
+    },
+    {
+     "text": "3 m",
+     "correct": false
+    },
+    {
+     "text": "300 m",
+     "correct": true
+    },
+    {
+     "text": "3 000 m",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which direction does the sun rise?",
+   "options": [
+    {
+     "text": "East",
+     "correct": true
+    },
+    {
+     "text": "West",
+     "correct": false
+    },
+    {
+     "text": "North",
+     "correct": false
+    },
+    {
+     "text": "South",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the grid reference C4 tell you?",
+   "options": [
+    {
+     "text": "Drive 4 km to column C",
+     "correct": false
+    },
+    {
+     "text": "Turn 4 times at road C",
+     "correct": false
+    },
+    {
+     "text": "Use scale C4",
+     "correct": false
+    },
+    {
+     "text": "Go to column C and row 4",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A route measures 8 cm on a map where 1 cm = 250 m. How long is it?",
+   "options": [
+    {
+     "text": "250 m",
+     "correct": false
+    },
+    {
+     "text": "1 km",
+     "correct": false
+    },
+    {
+     "text": "2 km",
+     "correct": true
+    },
+    {
+     "text": "8 km",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "On most maps, North is at the top.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The shortest route on the farm is always the best route for a feed truck.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should you include when you phone emergency services to find the farm? (select all that apply)",
+   "options": [
+    {
+     "text": "The farm name and nearest town",
+     "correct": true
+    },
+    {
+     "text": "Road number and distance from a landmark",
+     "correct": true
+    },
+    {
+     "text": "Your favourite radio station",
+     "correct": false
+    },
+    {
+     "text": "A GPS pin if you can send one",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

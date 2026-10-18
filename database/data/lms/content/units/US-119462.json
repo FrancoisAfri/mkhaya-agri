@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119462",
+ "title": "Engage in sustained oral/signed communication and evaluate spoken/signed texts",
+ "lessons": [
+  {
+   "title": "Speaking with purpose",
+   "minutes": 20,
+   "html": "<h3>Sustained communication at work</h3>\n<p>Sustained oral or signed communication means taking part in longer exchanges: leading a team briefing, presenting a report, negotiating with a supplier, explaining a procedure to clients on a trail ride, or taking part in a meeting. At NQF level 4 you must plan what you say, adjust to your audience and evaluate what others say.</p>\n<h3>Plan your message</h3>\n<ol>\n<li><strong>Purpose:</strong> to inform, instruct, persuade, negotiate or build relationships?</li>\n<li><strong>Audience:</strong> grooms, the farm owner, clients, children, a vet? What do they already know, which language do they prefer, and what do they need from you?</li>\n<li><strong>Structure:</strong> introduction (what this is about), body (main points in a logical order), conclusion (summary and next steps).</li>\n<li><strong>Supporting material:</strong> examples, figures, a demonstration with a horse or piece of tack.</li>\n</ol>\n<h3>Delivery</h3>\n<ul>\n<li>Speak clearly at a steady pace; pause after key points.</li>\n<li>Use words your audience understands. Explain technical terms like \"laminitis\" or \"biosecurity\".</li>\n<li>Use the language most people in the group are comfortable with, or arrange interpretation, including sign language interpretation for Deaf colleagues.</li>\n<li>Make eye contact and use open body language. In sign language, facial expression carries grammar and meaning.</li>\n<li>Check understanding: ask open questions such as \"What will you do if the horse pulls back?\"</li>\n</ul>\n<h3>Adjusting register</h3>\n<p>Register is the level of formality. A safety briefing to staff can be direct and simple; a presentation to the board or a call with a client needs a more formal tone. Respect cultural norms of greeting and address, such as greeting before business and using titles for elders.</p>"
+  },
+  {
+   "title": "Listening, interacting and evaluating spoken texts",
+   "minutes": 20,
+   "html": "<h3>Active listening</h3>\n<p>Communication is two-way. Active listening means:</p>\n<ul>\n<li>Giving full attention: put the phone away, face the speaker.</li>\n<li>Showing you are listening: nodding, short responses, signing acknowledgement.</li>\n<li>Asking clarifying questions.</li>\n<li>Summarising: \"So what you are saying is that the mare has not eaten since yesterday evening.\"</li>\n<li>Holding back judgement until the person has finished.</li>\n</ul>\n<h3>Taking part in discussions</h3>\n<ul>\n<li>Take turns; do not interrupt.</li>\n<li>Build on others' ideas and give reasons for your views.</li>\n<li>Disagree respectfully: criticise ideas, not people.</li>\n<li>Help reach a decision by summarising points of agreement.</li>\n</ul>\n<h3>Evaluating spoken and signed texts</h3>\n<p>You will hear many spoken texts at work: a sales pitch from a feed rep, a radio report on drought, a vet's explanation, a political speech about land. Evaluate them critically:</p>\n<table><tr><th>Ask</th><th>Why</th></tr>\n<tr><td>What is the speaker's purpose?</td><td>To inform, sell or persuade?</td></tr>\n<tr><td>Is it fact or opinion?</td><td>Facts can be checked; opinions are views.</td></tr>\n<tr><td>What evidence is given?</td><td>Figures, trials, experience, or none?</td></tr>\n<tr><td>Is there bias?</td><td>Does the speaker gain from your decision?</td></tr>\n<tr><td>Which techniques are used?</td><td>Repetition, emotional language, exaggeration, appeals to authority</td></tr>\n<tr><td>What is left out?</td><td>Costs, risks, other options</td></tr></table>\n<p>For example, a feed rep who claims a supplement \"doubles performance\" without data is using exaggeration. Ask for trial results and compare costs in rands before deciding.</p>\n<h4>Key points</h4>\n<ul>\n<li>Plan purpose, audience and structure before speaking.</li>\n<li>Choose language and register that suit the audience; arrange interpreting when needed.</li>\n<li>Listen actively and summarise to check understanding.</li>\n<li>Disagree respectfully and help the group reach decisions.</li>\n<li>Evaluate spoken texts for purpose, fact versus opinion, evidence and bias.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is register in communication?",
+   "options": [
+    {
+     "text": "The attendance list",
+     "correct": false
+    },
+    {
+     "text": "The level of formality",
+     "correct": true
+    },
+    {
+     "text": "The volume of your voice",
+     "correct": false
+    },
+    {
+     "text": "The language of the farm owner",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of active listening?",
+   "options": [
+    {
+     "text": "Checking your phone while someone speaks",
+     "correct": false
+    },
+    {
+     "text": "Interrupting with your own story",
+     "correct": false
+    },
+    {
+     "text": "Judging before the speaker finishes",
+     "correct": false
+    },
+    {
+     "text": "Summarising what the speaker said",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A feed rep says a supplement doubles performance but shows no data. What technique is this?",
+   "options": [
+    {
+     "text": "Exaggeration",
+     "correct": true
+    },
+    {
+     "text": "Summarising",
+     "correct": false
+    },
+    {
+     "text": "Active listening",
+     "correct": false
+    },
+    {
+     "text": "Formal register",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should the conclusion of a talk include?",
+   "options": [
+    {
+     "text": "A new topic",
+     "correct": false
+    },
+    {
+     "text": "Only jokes",
+     "correct": false
+    },
+    {
+     "text": "A summary and next steps",
+     "correct": true
+    },
+    {
+     "text": "Questions about the weather",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In sign language, what carries grammar and meaning along with the hands?",
+   "options": [
+    {
+     "text": "The shoes",
+     "correct": false
+    },
+    {
+     "text": "Facial expression",
+     "correct": true
+    },
+    {
+     "text": "The colour of clothing",
+     "correct": false
+    },
+    {
+     "text": "Background noise",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Facts can be checked, while opinions are personal views.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "When you disagree in a meeting, you should criticise the person rather than the idea.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions help evaluate a spoken text? (select all that apply)",
+   "options": [
+    {
+     "text": "What is the speaker's purpose?",
+     "correct": true
+    },
+    {
+     "text": "What evidence is given?",
+     "correct": true
+    },
+    {
+     "text": "Is there bias?",
+     "correct": true
+    },
+    {
+     "text": "What is the speaker's shoe size?",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

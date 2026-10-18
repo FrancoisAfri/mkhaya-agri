@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102001-KM-09",
+  "title": "Dairy farm production management",
+  "lessons": [
+    {
+      "title": "Production planning for a dairy unit",
+      "minutes": 25,
+      "html": "<h3>From strategy to daily operations</h3><p>A dairy unit manager translates the owner's goals, such as a target milk volume, profit or herd size, into a production plan. The plan links herd numbers, calving pattern, feed supply, labour and infrastructure.</p><h4>Calving pattern</h4><p>The calving pattern decides when milk is produced and when feed is needed.</p><table><tr><th>Pattern</th><th>Advantages</th><th>Challenges</th></tr><tr><td>Year-round calving</td><td>Flat milk supply, steady cash flow, suits TMR systems and buyers wanting consistent volume</td><td>Continuous heat detection and calf rearing; no quiet period</td></tr><tr><td>Seasonal or split calving</td><td>Matches peak feed demand to pasture growth; concentrated work periods; simpler management</td><td>Uneven milk supply; buyer may pay seasonal prices; tight fertility requirements</td></tr></table><p>Pasture-based farms on the coast often concentrate calving so that peak demand coincides with spring pasture growth; inland TMR herds often calve year-round.</p><h4>Herd budget</h4><p>A herd budget projects animal numbers month by month: cows in milk, dry cows, heifers by age group, calves, culls and deaths. Combined with expected yield per cow, it gives a milk production forecast. Example: an average of 450 cows in milk producing 22 litres a day gives about 9 900 litres per day, or roughly 3.6 million litres per year.</p><h4>Feed budget</h4><p>Match feed demand (cows × DM intake per day) with feed supply (pasture growth, silage stocks, purchased feed). Build buffer stocks for drought and plan silage making and purchases ahead. A feed shortfall in early lactation costs milk for the rest of the lactation.</p><h4>Resource planning</h4><ul><li><strong>Labour</strong>: staff numbers, shifts, skills, training.</li><li><strong>Infrastructure</strong>: parlour capacity, housing, cooling, effluent, water, backup power.</li><li><strong>Inputs</strong>: semen, medicines, fertiliser, fuel, contracts.</li></ul>"
+    },
+    {
+      "title": "Key performance indicators and monitoring",
+      "minutes": 25,
+      "html": "<h3>Managing by numbers</h3><p>A manager cannot watch everything. Key performance indicators (KPIs) show where the system is working and where it needs attention. Set targets with the owner, track them monthly, and look at trends, not just single values.</p><h4>Core dairy KPIs</h4><table><tr><th>Area</th><th>KPI examples</th></tr><tr><td>Production</td><td>Litres per cow per day; fat and protein yield; litres per hectare; milk solids per cow</td></tr><tr><td>Milk quality</td><td>Bacteria count; somatic cell count; residue incidents</td></tr><tr><td>Fertility</td><td>Calving interval; days to first service; conception rate; pregnancy rate; heat detection rate</td></tr><tr><td>Health</td><td>Clinical mastitis cases per 100 cows; lameness prevalence; metabolic disease incidence</td></tr><tr><td>Young stock</td><td>Calf mortality; heifer growth versus target; age at first calving</td></tr><tr><td>Herd</td><td>Replacement rate; cull reasons; cow deaths</td></tr><tr><td>Feed</td><td>Feed cost per litre; feed efficiency; margin over feed cost</td></tr><tr><td>Labour</td><td>Cows per labour unit; litres per labour unit; overtime</td></tr></table><h4>Data sources</h4><ul><li>Herd management software and parlour meters.</li><li>Milk recording scheme results.</li><li>Milk buyer statements and quality results.</li><li>Vet reports and fertility checks.</li><li>Feed records and financial accounts.</li></ul><h4>Interpreting KPIs</h4><p>Ask: is the deviation significant, is it a trend, and what is the likely cause? For example, rising SCC with stable clinical cases may point to subclinical infections or chronic cows; rising clinical cases after rain may point to environmental mastitis from muddy yards. Use the data to target investigations rather than guess.</p><h4>Benchmarking</h4><p>Compare your KPIs with similar farms in your region, through study groups or consultants. Benchmarking shows where the biggest gains are possible.</p><p>Present KPIs in simple graphs on a whiteboard or screen in the dairy office. When the team can see the trend in cell count or calf deaths, they understand the targets better and are more likely to help improve them.</p>"
+    },
+    {
+      "title": "Risk, improvement and production systems",
+      "minutes": 25,
+      "html": "<h3>Managing production risk</h3><p>Dairy farms face risks that can quickly destroy margins.</p><ul><li><strong>Weather</strong>: drought, floods, heat. Mitigate with feed reserves, irrigation planning, shade and cooling.</li><li><strong>Disease</strong>: outbreaks and chronic problems. Mitigate with biosecurity, vaccination and a vet health plan; outbreaks of controlled diseases fall under the Animal Diseases Act 35 of 1984.</li><li><strong>Price</strong>: milk price drops and input price spikes. Mitigate with forward planning, contracts and cost control.</li><li><strong>Infrastructure</strong>: power failures, cooling breakdown. Mitigate with generators, maintenance and service contracts.</li><li><strong>People</strong>: loss of key staff, injuries. Mitigate with cross-training, retention and safety systems under the OHS Act 85 of 1993.</li></ul><h4>Continuous improvement</h4><p>Use the Plan-Do-Check-Act cycle:</p><ol><li><strong>Plan</strong>: identify a problem from KPIs; analyse causes; set a target and an action plan.</li><li><strong>Do</strong>: implement, often as a trial on one group.</li><li><strong>Check</strong>: measure results against the target.</li><li><strong>Act</strong>: adopt what worked across the farm; adjust and repeat if not.</li></ol><h4>Choosing and adapting the production system</h4><p>The best system depends on climate, land, water, capital, markets and management skills. Pasture systems usually have lower cost per litre but lower yield per cow and more weather risk. Housed TMR systems give higher, more predictable yields but higher feed and capital costs. Many farms combine both. Decisions on expansion, housing or robotics need full budgets and risk analysis, not just production targets.</p><h4>Sustainability</h4><p>Long-term production depends on healthy soils, protected water and good animal welfare. Comply with the National Water Act 36 of 1998 and the Conservation of Agricultural Resources Act 43 of 1983, and integrate effluent into the fertiliser plan.</p><h4>Key points</h4><ul><li>Production plans link calving pattern, herd budget, feed budget and resources.</li><li>Track a balanced set of KPIs monthly and look at trends.</li><li>Use data to target investigations and benchmark against similar farms.</li><li>Manage weather, disease, price, infrastructure and people risks.</li><li>Improve with Plan-Do-Check-Act and choose systems on full economics.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "450 cows in milk average 22 litres a day. What is the approximate daily production?",
+      "options": [
+        {
+          "text": "9 900 litres",
+          "correct": true
+        },
+        {
+          "text": "4 500 litres",
+          "correct": false
+        },
+        {
+          "text": "22 000 litres",
+          "correct": false
+        },
+        {
+          "text": "990 litres",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why do many coastal pasture farms concentrate calving?",
+      "options": [
+        {
+          "text": "To match peak feed demand with spring pasture growth",
+          "correct": true
+        },
+        {
+          "text": "To avoid heat detection",
+          "correct": false
+        },
+        {
+          "text": "Because the law requires it",
+          "correct": false
+        },
+        {
+          "text": "To reduce milk quality testing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which KPI belongs to fertility?",
+      "options": [
+        {
+          "text": "Bacteria count",
+          "correct": false
+        },
+        {
+          "text": "Feed cost per litre",
+          "correct": false
+        },
+        {
+          "text": "Conception rate",
+          "correct": true
+        },
+        {
+          "text": "Cows per labour unit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Rising clinical mastitis after rain most likely points to:",
+      "options": [
+        {
+          "text": "Genetic problems",
+          "correct": false
+        },
+        {
+          "text": "Low milk price",
+          "correct": false
+        },
+        {
+          "text": "Overfeeding protein",
+          "correct": false
+        },
+        {
+          "text": "Environmental mastitis from muddy conditions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "In the Plan-Do-Check-Act cycle, what happens at Check?",
+      "options": [
+        {
+          "text": "Results are measured against the target",
+          "correct": true
+        },
+        {
+          "text": "A new problem is chosen at random",
+          "correct": false
+        },
+        {
+          "text": "The plan is filed away",
+          "correct": false
+        },
+        {
+          "text": "Staff are disciplined",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Pasture systems usually have a lower cost per litre but more weather risk than housed TMR systems.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Single monthly KPI values matter more than trends.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are ways to reduce infrastructure risk on a dairy? (select all that apply)",
+      "options": [
+        {
+          "text": "Backup generators",
+          "correct": true
+        },
+        {
+          "text": "Planned maintenance",
+          "correct": true
+        },
+        {
+          "text": "Service contracts for cooling equipment",
+          "correct": true
+        },
+        {
+          "text": "Ignoring tank temperature alarms",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

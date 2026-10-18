@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-8388",
+ "title": "Apply basic conservation management planning",
+ "lessons": [
+  {
+   "title": "Why plan and what to assess",
+   "minutes": 20,
+   "html": "<h3>Conservation management planning</h3>\n<p>A conservation management plan sets out how a piece of land (a farm, a communal grazing area, a nature reserve, a wetland or a biodiversity stewardship site) will be managed to protect its natural resources while meeting the needs of its users. Without a plan, management becomes reactive: fighting fires, erosion and invasive plants as they appear, with limited money spent where it is not most needed.</p>\n<h4>The planning cycle</h4>\n<ol><li>Describe the site and its context.</li>\n<li>Assess resources and threats.</li>\n<li>Set a vision and objectives.</li>\n<li>Plan management actions.</li>\n<li>Implement.</li>\n<li>Monitor and evaluate.</li>\n<li>Review and adapt the plan (adaptive management).</li></ol>\n<h4>Site description</h4>\n<ul><li>Location, size, boundaries, ownership and tenure, neighbours.</li>\n<li>Climate (rainfall, seasonality, frost, fire season).</li>\n<li>Topography, geology and soils.</li>\n<li>Water resources: rivers, springs, wetlands, boreholes, dams.</li>\n<li>Vegetation types (biomes such as grassland, savanna, fynbos, Karoo) and veld condition.</li>\n<li>Fauna, including threatened or important species.</li>\n<li>Infrastructure: fences, roads, buildings, water points.</li>\n<li>Cultural and heritage sites (graves, rock art, sacred sites).</li>\n<li>Current land uses and users.</li></ul>\n<h4>Assessing threats and opportunities</h4>\n<p>Typical threats include invasive alien plants, bush encroachment, erosion, overgrazing, uncontrolled fire, poaching, pollution and unsustainable harvesting. Opportunities may include ecotourism, sustainable harvesting, carbon or water-related programmes, and partnerships with conservation agencies. Use maps, aerial or satellite images, fixed-point photographs and field surveys. Involve land users: they hold valuable knowledge about the site's history and changes.</p>\n<p>Also note the legal framework, for example CARA 43 of 1983 (soil, veld, invasive plants), the National Water Act 36 of 1998, NEMA and biodiversity legislation, and any protected area status.</p>"
+  },
+  {
+   "title": "Writing and implementing the plan",
+   "minutes": 20,
+   "html": "<h3>Vision and objectives</h3>\n<p>The vision is a short statement of the desired future condition, e.g. \"A productive, well-covered grassland that supports livestock, protects the wetland and provides clean water downstream.\" Objectives must be specific and measurable: \"Increase grass basal cover in camps 3–6 from an estimated 4% to 8% within five years\" or \"Clear 80% of wattle from the riparian zone within three years, with annual follow-up\".</p>\n<h3>Management actions</h3>\n<table><tr><th>Programme</th><th>Example actions</th></tr>\n<tr><td>Veld and grazing</td><td>Set stocking rate to carrying capacity, rotational grazing plan, resting camps</td></tr>\n<tr><td>Fire</td><td>Burning plan with firebreaks, timing and frequency suited to the vegetation; membership of the local Fire Protection Association</td></tr>\n<tr><td>Invasive plants</td><td>Prioritised clearing plan with follow-ups</td></tr>\n<tr><td>Erosion</td><td>Road drainage, gully rehabilitation</td></tr>\n<tr><td>Water and wetlands</td><td>Protect springs, fence wetlands, manage water points</td></tr>\n<tr><td>Biodiversity</td><td>Protect threatened species habitat, control poaching</td></tr>\n<tr><td>People</td><td>Access rules, community benefit, training, safety</td></tr></table>\n<p>For each action state who, what, where, when, cost (ZAR) and how it will be measured. Prioritise: some actions are urgent (stopping an active headcut before the rains), others are long-term.</p>\n<h3>Annual plan of operations</h3>\n<p>Break the plan into a yearly work plan with a calendar, matched to seasons: firebreaks before the fire season, clearing follow-ups when seedlings appear, erosion work in the dry season.</p>\n<h3>Monitoring</h3>\n<ul><li>Fixed-point photography each year from marked points.</li>\n<li>Veld condition assessments.</li>\n<li>Invasive plant density records.</li>\n<li>Water quality and quantity where relevant.</li>\n<li>Records of fires, livestock numbers and rainfall.</li></ul>\n<p>Review the plan annually and revise every few years. Adaptive management means learning from results and changing actions when they do not work.</p>\n<h4>Key points</h4>\n<ul><li>A conservation management plan directs effort where it is most needed.</li>\n<li>Describe the site and assess resources, threats and opportunities with land users.</li>\n<li>Set a clear vision and measurable objectives.</li>\n<li>Plan actions with responsibilities, costs and timing, organised in an annual plan of operations.</li>\n<li>Monitor with fixed-point photos and records, and adapt the plan.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is adaptive management?",
+   "options": [
+    {
+     "text": "Never changing the plan",
+     "correct": false
+    },
+    {
+     "text": "Only reacting to problems",
+     "correct": false
+    },
+    {
+     "text": "Learning from monitoring results and changing actions when they do not work",
+     "correct": true
+    },
+    {
+     "text": "Copying another farm's plan",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which objective is measurable?",
+   "options": [
+    {
+     "text": "Increase grass basal cover in camps 3-6 from 4% to 8% within five years",
+     "correct": true
+    },
+    {
+     "text": "Make the veld better",
+     "correct": false
+    },
+    {
+     "text": "Have a nice farm",
+     "correct": false
+    },
+    {
+     "text": "Do conservation work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which monitoring method uses photos taken from the same marked points each year?",
+   "options": [
+    {
+     "text": "Wealth ranking",
+     "correct": false
+    },
+    {
+     "text": "Biomonitoring",
+     "correct": false
+    },
+    {
+     "text": "Satellite tracking",
+     "correct": false
+    },
+    {
+     "text": "Fixed-point photography",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is erosion work usually best done?",
+   "options": [
+    {
+     "text": "During heavy rains",
+     "correct": false
+    },
+    {
+     "text": "In the dry season",
+     "correct": true
+    },
+    {
+     "text": "Only at night",
+     "correct": false
+    },
+    {
+     "text": "During the fire season",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why involve land users in assessing the site?",
+   "options": [
+    {
+     "text": "They are cheaper than consultants",
+     "correct": false
+    },
+    {
+     "text": "It is not necessary",
+     "correct": false
+    },
+    {
+     "text": "They hold valuable knowledge about the site's history and changes",
+     "correct": true
+    },
+    {
+     "text": "They decide the law",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cultural and heritage sites such as graves should be included in the site description.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A conservation management plan never needs to be reviewed once written.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are management programmes in a conservation plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Veld and grazing",
+     "correct": true
+    },
+    {
+     "text": "Fire management",
+     "correct": true
+    },
+    {
+     "text": "Invasive plant control",
+     "correct": true
+    },
+    {
+     "text": "Selling the farm",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119483",
+ "title": "Utilise environmental management practices on poultry farms and hatcheries",
+ "lessons": [
+  {
+   "title": "How poultry farms affect the environment",
+   "minutes": 15,
+   "html": "<h3>Our farm and the world around it</h3><p>A poultry farm or hatchery makes a lot of waste. If we do not handle it well, it can make water, soil and air dirty. It can also bring flies, rats and bad smells to neighbours. South African laws protect the environment, for example the National Water Act 36 of 1998 protects rivers and groundwater, and the Conservation of Agricultural Resources Act 43 of 1983 protects soil and veld.</p><h4>Kinds of waste</h4><ul><li><strong>Litter and manure</strong> from chicken houses.</li><li><strong>Dead birds</strong>.</li><li><strong>Hatchery waste</strong> – eggshells, eggs that did not hatch, and culled chicks.</li><li><strong>Wash water</strong> from cleaning houses and trucks.</li><li><strong>Empty chemical and vaccine containers</strong>.</li><li><strong>General waste</strong> – plastic, feed bags, boxes, chick paper.</li></ul><h4>What can go wrong</h4><ul><li>Manure washed into a stream makes the water dirty and can kill fish.</li><li>Dead birds left lying around bring jackals, dogs, rats and flies, and spread disease.</li><li>Chemicals poured on the ground can poison soil and borehole water.</li><li>Burning plastic makes poisonous smoke.</li></ul><p>Every worker can help stop these problems by following the farm's waste rules every day.</p><h4>Why this matters to the farm</h4><p>Good waste handling is not only about the law. A clean farm has fewer flies and rats, so the chickens are healthier and grow or lay better. Neighbours are happier, and the farm does not get complaints or fines. Some waste, like litter and manure, can even be sold or used as fertiliser on crops when it is handled the right way. When you follow the waste rules, you protect the chickens, the people and the farm's money.</p>"
+  },
+  {
+   "title": "Handling waste the right way",
+   "minutes": 15,
+   "html": "<h3>The right place for every waste</h3><table><tr><th>Waste</th><th>What we do</th></tr><tr><td>Litter and manure</td><td>Load and cover. Take to the approved area or buyer. Keep away from rivers, boreholes and houses.</td></tr><tr><td>Dead birds</td><td>Collect every day. Put in the closed mortality bin or the approved pit, incinerator or compost system.</td></tr><tr><td>Hatchery waste</td><td>Put in closed containers and remove as the hatchery procedure says.</td></tr><tr><td>Wash water</td><td>Let it go only to the drain or pond made for it, not to the veld or river.</td></tr><tr><td>Empty chemical containers</td><td>Rinse as the label says, puncture, and keep in the locked store for collection. Never use them for water or food.</td></tr><tr><td>Plastic, paper, boxes</td><td>Sort and put in the right bins for recycling or removal.</td></tr></table><h4>Dead birds</h4><ol><li>Wear gloves.</li><li>Pick up dead birds from the house every day.</li><li>Count them and tell the supervisor the number.</li><li>Put them in the closed bin at once. Close the lid.</li><li>Wash your hands.</li></ol><p>If many birds die at once, tell the supervisor straight away. It may be a disease that must be reported to the vet.</p><h4>Chemical spills</h4><ul><li>Keep people and animals away.</li><li>Wear gloves and boots.</li><li>Stop the spill from reaching drains or water.</li><li>Cover it with sand or soil and tell your supervisor.</li></ul>"
+  },
+  {
+   "title": "Saving water and energy, and keeping pests away",
+   "minutes": 15,
+   "html": "<h3>Small things that help</h3><h4>Save water</h4><ul><li>Fix or report leaking taps, pipes and drinkers at once.</li><li>Close hoses when you are not using them.</li><li>Use the pressure washer, which uses less water than an open hose.</li></ul><h4>Save electricity</h4><ul><li>Switch off lights in stores and offices when not needed.</li><li>Keep fans and heaters clean so they work well.</li><li>Do not change controller settings unless your supervisor tells you.</li></ul><h4>Flies and rats</h4><p>Flies breed in wet manure. Rats eat feed and carry disease.</p><ul><li>Keep litter dry and fix leaks.</li><li>Clean up spilt feed.</li><li>Keep grass short around the houses.</li><li>Check bait stations and tell the supervisor if you see rats.</li><li>Keep the mortality bin closed.</li></ul><h4>Smell and dust</h4><p>Cover litter loads and do not load in strong wind. Neighbours notice smell and dust, and complaints can cause trouble for the farm.</p><h4>Report problems</h4><p>You are the eyes of the farm. If you see a leaking pipe, a broken bin lid, a pile of wet manure, a dead bird outside the house or rubbish blowing around, tell your supervisor. Small problems are cheap to fix. If they are left, they become big problems that cost the farm money and can make birds sick.</p><h4>Key points</h4><ul><li>Waste from poultry farms can pollute water, soil and air if handled badly.</li><li>Collect dead birds every day and put them in the closed bin.</li><li>Never pour chemicals or wash water into rivers or onto the veld.</li><li>Never reuse empty chemical containers for water or food.</li><li>Fix leaks, save water and electricity, and keep flies and rats away.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law protects rivers and groundwater in South Africa?",
+   "options": [
+    {
+     "text": "The OHS Act",
+     "correct": false
+    },
+    {
+     "text": "The National Water Act 36 of 1998",
+     "correct": true
+    },
+    {
+     "text": "The Animals Protection Act",
+     "correct": false
+    },
+    {
+     "text": "The Meat Safety Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with dead birds you find in the house?",
+   "options": [
+    {
+     "text": "Throw them behind the house",
+     "correct": false
+    },
+    {
+     "text": "Put them in the closed mortality bin and record the number",
+     "correct": true
+    },
+    {
+     "text": "Give them to the dogs",
+     "correct": false
+    },
+    {
+     "text": "Leave them for the next shift",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with empty chemical containers?",
+   "options": [
+    {
+     "text": "Burn them with the plastic",
+     "correct": false
+    },
+    {
+     "text": "Use them to carry drinking water",
+     "correct": false
+    },
+    {
+     "text": "Throw them in the river",
+     "correct": false
+    },
+    {
+     "text": "Rinse as the label says, puncture and keep in the locked store for collection",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where do flies breed most on a poultry farm?",
+   "options": [
+    {
+     "text": "In wet manure",
+     "correct": true
+    },
+    {
+     "text": "In the office",
+     "correct": false
+    },
+    {
+     "text": "In clean, dry litter",
+     "correct": false
+    },
+    {
+     "text": "In feed silos",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A lot of birds die in one night. What must you do?",
+   "options": [
+    {
+     "text": "Tell the supervisor straight away",
+     "correct": true
+    },
+    {
+     "text": "Open all the doors",
+     "correct": false
+    },
+    {
+     "text": "Wait for the next day",
+     "correct": false
+    },
+    {
+     "text": "Bury them yourself and say nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to burn plastic and feed bags on the farm.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Covering litter loads helps stop smell and dust reaching neighbours.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which actions help keep rats away? (select all that apply)",
+   "options": [
+    {
+     "text": "Leaving the mortality bin open",
+     "correct": false
+    },
+    {
+     "text": "Checking bait stations",
+     "correct": true
+    },
+    {
+     "text": "Keeping grass short around the houses",
+     "correct": true
+    },
+    {
+     "text": "Cleaning up spilt feed",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

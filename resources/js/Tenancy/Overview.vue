@@ -41,7 +41,6 @@ const statusColor: Record<string, string> = { active: 'success', trial: 'info', 
         <Link :href="route('tenancy.plans.index')"><VBtn variant="tonal" prepend-icon="tabler-package">Plans</VBtn></Link>
         <Link :href="route('tenancy.resellers.index')"><VBtn variant="tonal" prepend-icon="tabler-users-group">Resellers</VBtn></Link>
         <Link :href="route('tenancy.system.index')"><VBtn variant="tonal" prepend-icon="tabler-activity-heartbeat">System</VBtn></Link>
-        <Link :href="route('tenancy.mkhaya-promo.index')"><VBtn variant="tonal" prepend-icon="tabler-speakerphone">Mkhaya Promotion</VBtn></Link>
         <!--
           These two were built and left off this row, and this row is the only way into the
           platform area: the user menu links /platform/overview and nothing else. So Modules &

@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-KM-07",
+ "title": "Feed Milling intake and reclaim operations",
+ "lessons": [
+  {
+   "title": "Receiving raw materials",
+   "minutes": 15,
+   "html": "<h3>What intake means</h3>\n<p>Intake is the first step in the mill. Trucks arrive with bulk maize, soya oilcake, sunflower oilcake, wheat bran or hominy chop, and bags or bulk bags of minerals and premixes. The intake team checks, weighs, samples, accepts or rejects, and moves the material into the right silo, bin or store. Mistakes here affect every bag of feed made later.</p>\n<h4>Step by step</h4>\n<ol>\n<li><strong>Check documents</strong> – delivery note, purchase order number, product name, supplier and vehicle registration.</li>\n<li><strong>Weigh in</strong> – the loaded truck is weighed on the weighbridge.</li>\n<li><strong>Sample</strong> – take a representative sample with a probe from several points in the load, as the sampling plan says.</li>\n<li><strong>Test</strong> – the quality controller checks moisture, smell, colour, foreign material, insects and, for high-risk materials, mycotoxins and protein.</li>\n<li><strong>Accept or reject</strong> – only accept if results meet the specification. If unsure, call the supervisor; never offload a doubtful load \"to save time\".</li>\n<li><strong>Offload</strong> – direct the truck to the correct intake pit, and make sure the conveyors are routed to the correct silo or bin.</li>\n<li><strong>Weigh out</strong> – the empty truck is weighed; the difference is the net mass received.</li>\n<li><strong>Record</strong> – capture mass, batch or lot number, silo number and test results.</li>\n</ol>\n<h4>Why routing matters</h4>\n<p>If maize is sent into a soya oilcake bin by mistake, both materials are contaminated and formulas made from that bin will be wrong. Always double-check the route on the control panel or the slide gates before starting the intake.</p>\n<h4>Bagged materials</h4>\n<p>Check bags for damage, wetness and correct labels and expiry dates. Store premixes and additives in a clean, dry, separate area. Medicated premixes must be stored securely and recorded carefully.</p>"
+  },
+  {
+   "title": "Storage and reclaim",
+   "minutes": 15,
+   "html": "<h3>Storing raw materials well</h3>\n<p>Good storage keeps raw materials in the condition they were received. Key rules:</p>\n<ul>\n<li>Keep silos and bins clean and dry; repair leaks quickly.</li>\n<li>Monitor grain temperature where probes are fitted; a rising temperature can mean insects or mould.</li>\n<li>Aerate grain as instructed to keep it cool.</li>\n<li>Control pests: rats, birds and insects. Fumigation may only be done by trained, registered fumigators – never enter a fumigated store.</li>\n<li>Use first-in-first-out so old stock does not stay behind.</li>\n<li>Keep the stock record for each bin up to date.</li>\n</ul>\n<h3>Reclaim</h3>\n<p>Reclaim means taking material out of storage and sending it to the production bins above the mill or mixer. The operator selects the source silo, the route and the destination bin, then starts the conveyors from the end of the line backwards, so that each conveyor is running before material is fed to it.</p>\n<p>Before starting, check:</p>\n<ol>\n<li>The correct source and destination bins are selected.</li>\n<li>The destination bin has space; overfilling causes chokes and spills.</li>\n<li>Magnets and scalpers are clean.</li>\n<li>Nobody is working on the line – lock-out tags are cleared only by those who placed them.</li>\n</ol>\n<h3>Safety in intake and reclaim</h3>\n<ul>\n<li>Never stand on grain in a bin or silo; flowing grain can bury you in seconds.</li>\n<li>Never enter a bin or silo without a confined space permit and trained standby person.</li>\n<li>Keep clear of the truck when it tips or reverses; use a banksman where required.</li>\n<li>Wear a dust mask, hearing protection and safety boots.</li>\n<li>Keep dust levels low and report hot bearings or belt rubbing, as these can ignite dust.</li>\n</ul>\n<h4>Key points</h4>\n<ul>\n<li>Check documents, weigh, sample and test before accepting a load.</li>\n<li>Never offload a doubtful load; call the supervisor.</li>\n<li>Check the route carefully so materials go to the correct bin.</li>\n<li>Store materials clean, dry, pest-free and first-in-first-out.</li>\n<li>Never stand on grain or enter a silo without a permit and standby person.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How is the net mass of a delivery found?",
+   "options": [
+    {
+     "text": "Counting bags",
+     "correct": false
+    },
+    {
+     "text": "Estimating by eye",
+     "correct": false
+    },
+    {
+     "text": "Loaded truck mass minus empty truck mass on the weighbridge",
+     "correct": true
+    },
+    {
+     "text": "Weight on the delivery note only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You are unsure whether a maize load meets the specification. What should you do?",
+   "options": [
+    {
+     "text": "Mix it with good maize",
+     "correct": false
+    },
+    {
+     "text": "Offload it to save time",
+     "correct": false
+    },
+    {
+     "text": "Send the truck away without telling anyone",
+     "correct": false
+    },
+    {
+     "text": "Call the supervisor before offloading",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the route be checked before intake?",
+   "options": [
+    {
+     "text": "It does not need checking",
+     "correct": false
+    },
+    {
+     "text": "So material goes into the correct bin and does not contaminate another material",
+     "correct": true
+    },
+    {
+     "text": "To save electricity",
+     "correct": false
+    },
+    {
+     "text": "To make the truck faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In which order are conveyors started for reclaim?",
+   "options": [
+    {
+     "text": "Randomly",
+     "correct": false
+    },
+    {
+     "text": "All at the same time",
+     "correct": false
+    },
+    {
+     "text": "From the source silo forward",
+     "correct": false
+    },
+    {
+     "text": "From the end of the line backwards",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may fumigate grain stores?",
+   "options": [
+    {
+     "text": "Only trained, registered fumigators",
+     "correct": true
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "Cleaners",
+     "correct": false
+    },
+    {
+     "text": "Any intake operator",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A rising grain temperature in a silo can be a sign of insects or mould.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand on grain in a bin while it is being emptied.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which checks should be made before reclaim? (select all that apply)",
+   "options": [
+    {
+     "text": "The truck driver has signed the delivery note",
+     "correct": false
+    },
+    {
+     "text": "Correct source and destination bins",
+     "correct": true
+    },
+    {
+     "text": "Magnets are clean",
+     "correct": true
+    },
+    {
+     "text": "Destination bin has space",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

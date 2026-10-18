@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909-001-01-KM-03",
+ "title": "Material Receiving, Storage and Warehousing",
+ "lessons": [
+  {
+   "title": "Receiving raw materials",
+   "minutes": 20,
+   "html": "<h3>Receiving raw materials</h3><p>Feed quality starts at the gate. A feed mill cannot make good feed from bad raw materials. Receiving is the first and most important control point.</p><h4>Receiving steps for bulk materials</h4><ol><li><strong>Documents</strong>: check the delivery note, order number, supplier, product and vehicle registration.</li><li><strong>Weighbridge</strong>: weigh the loaded truck in (gross mass).</li><li><strong>Sampling</strong>: take a representative sample with a probe from several points and depths of the load, following the sampling plan.</li><li><strong>Testing and grading</strong>: check smell, colour, temperature, insects, foreign material and moisture. The laboratory may test protein, mycotoxins and other parameters. Maize is graded against the grading regulations and the contract.</li><li><strong>Accept or reject</strong>: only accept loads that meet specification. Rejections are recorded and the supervisor informed.</li><li><strong>Off-load</strong> into the correct intake pit, with the route to the correct silo checked.</li><li><strong>Weigh out</strong> the empty truck (tare). Net mass is gross minus tare.</li></ol><h4>Warning signs at intake</h4><ul><li>Musty or sour smell, caking or visible mould, which point to mycotoxin risk.</li><li>Warm grain, which suggests heating from moisture or insects.</li><li>Live insects or rodent droppings.</li><li>Stones, glass, metal, plastic or treated (dyed) seed.</li><li>Wet loads or damaged tarpaulins.</li></ul><h4>Bagged and liquid materials</h4><p>Premixes, vitamins, minerals, amino acids and medicaments arrive bagged or in containers. Check labels, batch numbers, expiry dates and packaging damage. Liquids such as molasses and fats are sampled and pumped into dedicated tanks. Every receipt is entered into the stock system so it can be traced.</p><p>Never let a truck off-load before acceptance is confirmed. Material in a silo cannot be removed easily, and one bad load can contaminate hundreds of tonnes of good grain.</p>"
+  },
+  {
+   "title": "Storage and warehousing practice",
+   "minutes": 20,
+   "html": "<h3>Storage and warehousing practice</h3><h4>Bulk storage</h4><ul><li>Each silo or bin holds only its allocated ingredient. Labels on bins and in the control system must match.</li><li>Monitor grain temperature with probes or cables. Rising temperature means moisture migration, insects or mould. Aerate or turn the grain as instructed.</li><li>Fumigation of stored grain is done only by registered fumigators under strict controls. Nobody enters a fumigated area until it is declared safe.</li><li>Never enter a silo or bin without a confined space permit, harness, lifeline and standby person. Flowing grain can bury a person in seconds.</li></ul><h4>Warehouse layout and stock control</h4><ul><li>Store bags on pallets, off the floor and away from walls, so cleaning and inspection are possible.</li><li>Keep separate, marked areas for medicaments, premixes and general ingredients.</li><li>Use first-expired, first-out (FEFO) or first-in, first-out (FIFO) as the procedure says.</li><li>Quarantine area: suspect or rejected material is tagged and kept apart until a decision is made.</li><li>Stack heights are limited for safety and to protect bags at the bottom.</li></ul><h4>Pest control</h4><p>Rodents, birds and insects damage and contaminate stock. Keep doors closed, clean spillage, seal holes, and use a documented pest control programme with mapped bait stations managed by trained staff. Never let rodenticide come into contact with ingredients.</p><h4>Records and traceability</h4><table><tr><th>Record</th><th>Purpose</th></tr><tr><td>Goods received note</td><td>Proof of what came in, from whom, when</td></tr><tr><td>Sample and lab results</td><td>Evidence of quality at receipt</td></tr><tr><td>Bin or location record</td><td>Which batch is where</td></tr><tr><td>Stock count</td><td>Book stock versus physical stock</td></tr></table><p>Good records let the mill trace a problem feed back to the raw material batch and supplier.</p><h4>Key points</h4><ul><li>Check documents, weigh, sample, test, then accept or reject.</li><li>Mouldy, warm or infested material is a mycotoxin and quality risk.</li><li>Keep bins correctly allocated and labelled; monitor grain temperature.</li><li>Silos are confined spaces; enter only under permit.</li><li>Use FIFO or FEFO, quarantine suspect stock and keep traceable records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How is net mass of a load calculated at the weighbridge?",
+   "options": [
+    {
+     "text": "Tare minus gross",
+     "correct": false
+    },
+    {
+     "text": "Gross minus tare",
+     "correct": true
+    },
+    {
+     "text": "Gross plus tare",
+     "correct": false
+    },
+    {
+     "text": "Gross divided by two",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A load of maize smells musty and has caked lumps. What is the main risk?",
+   "options": [
+    {
+     "text": "Mycotoxins from mould",
+     "correct": true
+    },
+    {
+     "text": "Too little moisture",
+     "correct": false
+    },
+    {
+     "text": "Low price",
+     "correct": false
+    },
+    {
+     "text": "Overweight truck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does a rising grain temperature in a silo usually indicate?",
+   "options": [
+    {
+     "text": "The grain is drying perfectly",
+     "correct": false
+    },
+    {
+     "text": "The silo is empty",
+     "correct": false
+    },
+    {
+     "text": "Moisture migration, insects or mould",
+     "correct": true
+    },
+    {
+     "text": "The weighbridge is faulty",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should suspect or rejected material be kept?",
+   "options": [
+    {
+     "text": "In the production bins",
+     "correct": false
+    },
+    {
+     "text": "Mixed with good stock",
+     "correct": false
+    },
+    {
+     "text": "Outside in the yard",
+     "correct": false
+    },
+    {
+     "text": "In a tagged quarantine area",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a sample be taken from a bulk load?",
+   "options": [
+    {
+     "text": "With a probe from several points and depths",
+     "correct": true
+    },
+    {
+     "text": "From the top corner only",
+     "correct": false
+    },
+    {
+     "text": "From the spillage on the ground",
+     "correct": false
+    },
+    {
+     "text": "By the driver",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Bags should be stacked directly against warehouse walls to save space.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only registered fumigators may fumigate stored grain.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are warning signs at intake? (select all that apply)",
+   "options": [
+    {
+     "text": "Live insects",
+     "correct": true
+    },
+    {
+     "text": "Warm grain",
+     "correct": true
+    },
+    {
+     "text": "Correct delivery note",
+     "correct": false
+    },
+    {
+     "text": "Stones or glass in the load",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

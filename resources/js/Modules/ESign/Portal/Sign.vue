@@ -14,7 +14,7 @@ const { t } = useI18n()
 /*
  * An outside signer never gets the business's own application shell.
  *
- * The page draws its own full-height frame, and rendering it inside MainLayout put a MKHAYA HUB
+ * The page draws its own full-height frame, and rendering it inside MainLayout put a MKHAYA AGRI
  * navbar through the middle of the signing card and a dark product footer under it — chrome for an
  * application the signer has no account for and cannot use. A colleague is already inside the
  * system, so they keep the shell they are used to.

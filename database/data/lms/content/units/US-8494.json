@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8494",
+ "title": "Demonstrate an understanding of HIV/AIDS and its implications",
+ "lessons": [
+  {
+   "title": "What HIV and AIDS are",
+   "minutes": 15,
+   "html": "<h3>Knowing the facts</h3><p><strong>HIV</strong> stands for Human Immunodeficiency Virus. It is a virus that attacks the body's immune system – the part of the body that fights sickness. <strong>AIDS</strong> (Acquired Immune Deficiency Syndrome) is the late stage of HIV, when the immune system is so weak that the person gets serious illnesses like TB, pneumonia and some cancers.</p><p>A person can have HIV for many years and look and feel healthy. The only way to know your status is to have an HIV test.</p><h4>How HIV is passed on</h4><ul><li>Sex without a condom with a person who has HIV.</li><li>Blood – for example, sharing needles or razors, or touching blood with open cuts.</li><li>From a mother to her baby during pregnancy, birth or breastfeeding, if she is not on treatment.</li></ul><h4>HIV is NOT passed on by</h4><ul><li>hugging, shaking hands or kissing on the cheek;</li><li>sharing cups, plates, toilets or tools;</li><li>working, eating or living together;</li><li>mosquitoes or other insects;</li><li>coughing or sneezing.</li></ul><h4>Testing</h4><p>HIV tests are free at government clinics. Testing is voluntary and confidential. Counsellors explain the test and the result. Knowing your status early means you can start treatment early and stay healthy.</p><h4>TB and HIV</h4><p>TB (tuberculosis) is the most common serious illness in people with HIV in South Africa. TB can be cured with treatment. If you cough for more than two weeks, lose weight or sweat at night, go to the clinic for a TB test. People with HIV should be checked for TB often.</p>"
+  },
+  {
+   "title": "Prevention and treatment",
+   "minutes": 15,
+   "html": "<h3>Protect yourself and others</h3><h4>Prevention</h4><ul><li>Use a condom every time you have sex. Condoms are free at clinics.</li><li>Know your HIV status and your partner's status.</li><li>Have fewer sexual partners.</li><li>Do not share needles, razors or blades.</li><li>Pregnant women should test and, if HIV positive, take treatment to protect the baby.</li><li>Medical male circumcision lowers the risk for men, but they must still use condoms.</li><li>PrEP is medicine that HIV-negative people at high risk can take to prevent HIV. Ask at the clinic.</li><li>PEP is emergency medicine taken after a possible exposure, like rape or a needle injury. It must be started as soon as possible – within 72 hours. Go to a clinic or hospital at once.</li></ul><h4>Treatment</h4><p>There is no cure for HIV, but there is good treatment. Antiretroviral treatment (ART or ARVs) stops the virus from growing. A person on ART who takes the pills every day can live a long, healthy life and keep working. ART is free at government clinics.</p><p>When treatment makes the virus so low that tests cannot find it (undetectable), the person does not pass HIV on through sex. Treatment must be taken every day, as the clinic says.</p><h4>Staying healthy with HIV</h4><ul><li>Take ARVs every day.</li><li>Eat healthy food and drink clean water.</li><li>Go to the clinic for check-ups and TB screening.</li><li>Limit alcohol and do not smoke.</li></ul>"
+  },
+  {
+   "title": "HIV at work and in the community",
+   "minutes": 15,
+   "html": "<h3>Rights, respect and safety at work</h3><h4>Your rights</h4><ul><li>The Employment Equity Act says no one may be unfairly discriminated against because of their HIV status.</li><li>An employer may not force workers to test for HIV.</li><li>Your HIV status is private. Nobody may tell others without your permission.</li><li>A worker with HIV can do their job as long as they are well. If they become ill, they should be treated like any other worker with an illness.</li></ul><h4>Being a good co-worker</h4><p>Do not gossip or make jokes about people with HIV. Stigma makes people afraid to test and get treatment. Support co-workers who are sick.</p><h4>Safety with blood at work</h4><p>Farm work has cuts from tools, wire and machines. Blood can carry HIV and other germs.</p><ul><li>Treat all blood as if it can carry germs.</li><li>Wear gloves or use a plastic bag on your hands when helping someone who is bleeding.</li><li>Cover your own cuts.</li><li>Clean blood spills with bleach mixed as the label says, wearing gloves.</li><li>If blood gets on your skin, wash with soap and water. If you get a needle injury or blood in an open cut, eyes or mouth, wash it and go to the clinic at once to ask about PEP.</li></ul><p>Only trained first aiders should give first aid. Hands-on training must be done with an accredited provider.</p><h4>HIV and the farm</h4><p>When workers are sick or die from AIDS, families lose income and farms lose skilled workers. Testing, treatment and prevention protect families, communities and jobs.</p><h4>Key points</h4><ul><li>HIV attacks the immune system; AIDS is the late stage.</li><li>HIV passes through sex without a condom, blood and from mother to baby.</li><li>Testing and ARV treatment are free at government clinics.</li><li>People on ART can live long, healthy, working lives.</li><li>No unfair discrimination: HIV status is private and testing cannot be forced.</li><li>Wear gloves when dealing with blood, and seek PEP quickly after exposure.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does HIV attack?",
+   "options": [
+    {
+     "text": "The bones",
+     "correct": false
+    },
+    {
+     "text": "The eyes only",
+     "correct": false
+    },
+    {
+     "text": "The hair",
+     "correct": false
+    },
+    {
+     "text": "The immune system",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these can pass on HIV?",
+   "options": [
+    {
+     "text": "Sharing a cup",
+     "correct": false
+    },
+    {
+     "text": "Sex without a condom with a person who has HIV",
+     "correct": true
+    },
+    {
+     "text": "Hugging",
+     "correct": false
+    },
+    {
+     "text": "Mosquito bites",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is ART (ARVs)?",
+   "options": [
+    {
+     "text": "Treatment that stops the virus growing so people stay healthy",
+     "correct": true
+    },
+    {
+     "text": "A type of HIV test",
+     "correct": false
+    },
+    {
+     "text": "A cure that removes HIV completely",
+     "correct": false
+    },
+    {
+     "text": "A vaccine",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How soon must PEP be started after a possible exposure?",
+   "options": [
+    {
+     "text": "After one month",
+     "correct": false
+    },
+    {
+     "text": "Only if you feel sick",
+     "correct": false
+    },
+    {
+     "text": "After two weeks",
+     "correct": false
+    },
+    {
+     "text": "As soon as possible, within 72 hours",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A co-worker is bleeding from a cut. How should you help?",
+   "options": [
+    {
+     "text": "Use your bare hands quickly",
+     "correct": false
+    },
+    {
+     "text": "Wipe it with your shirt",
+     "correct": false
+    },
+    {
+     "text": "Wear gloves or put plastic bags on your hands",
+     "correct": true
+    },
+    {
+     "text": "Leave them alone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An employer may not force workers to test for HIV.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You can tell if someone has HIV by looking at them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which ways help prevent HIV? (select all that apply)",
+   "options": [
+    {
+     "text": "Using a condom every time",
+     "correct": true
+    },
+    {
+     "text": "Not sharing razors or needles",
+     "correct": true
+    },
+    {
+     "text": "Pregnant women with HIV taking treatment",
+     "correct": true
+    },
+    {
+     "text": "Avoiding shaking hands",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-264234",
+ "title": "Monitor and maintain health and safety standards in horticulture",
+ "lessons": [
+  {
+   "title": "Legal duties and hazards in horticulture",
+   "minutes": 20,
+   "html": "<h3>The legal framework</h3><p>The Occupational Health and Safety Act 85 of 1993 (OHS Act) requires every employer to provide and maintain, as far as reasonably practicable, a working environment that is safe and without risk to the health of employees. Employees in turn must take reasonable care of their own safety and that of others, obey safety rules, use the PPE provided and report unsafe conditions and incidents. Workplaces with more than 20 employees must appoint health and safety representatives. Injuries and occupational diseases are compensated under the Compensation for Occupational Injuries and Diseases Act 130 of 1993 (COIDA), and must be reported.</p><p>Regulations under the OHS Act relevant to horticulture include those on hazardous chemical agents, driven machinery, general safety, electrical installations and construction work.</p><h4>Common hazards in horticulture and landscape irrigation</h4><table><tr><th>Hazard</th><th>Examples</th></tr><tr><td>Chemical</td><td>Herbicides, insecticides, fungicides, fertilisers, PVC solvent cement, fuels</td></tr><tr><td>Machinery and tools</td><td>Mowers, brushcutters, chainsaws, trenchers, hedge trimmers, power tools</td></tr><tr><td>Electrical</td><td>Pump stations, controllers, extension leads in wet conditions, buried cables</td></tr><tr><td>Excavation</td><td>Trench collapse, buried services, falling into trenches</td></tr><tr><td>Ergonomic</td><td>Lifting bags and pipes, repetitive digging and bending</td></tr><tr><td>Environmental</td><td>Heat stress, sunburn and skin cancer risk, lightning, cold</td></tr><tr><td>Biological</td><td>Bee and wasp stings, snakes, tetanus from soil, compost and manure germs</td></tr><tr><td>Traffic and public</td><td>Working beside roads, on golf courses and in public parks</td></tr><tr><td>Noise and vibration</td><td>Mowers, blowers, compactors</td></tr></table><h4>The supervisor's role</h4><p>As the person monitoring standards, you are the link between the law, the company's safety system and the workers in the field. You must know the hazards of each task, make sure controls are in place before work starts, and stop unsafe work.</p>"
+  },
+  {
+   "title": "Risk assessment and controls",
+   "minutes": 20,
+   "html": "<h3>Hazard identification and risk assessment (HIRA)</h3><ol><li><strong>Identify the task and the hazards:</strong> walk the site, talk to workers, review past incidents.</li><li><strong>Assess the risk:</strong> how likely is harm, and how severe would it be? Many companies use a simple risk matrix (likelihood &times; consequence) to rate risks as low, medium or high.</li><li><strong>Decide on controls:</strong> using the hierarchy of controls.</li><li><strong>Record and communicate:</strong> write the assessment, brief the team, and keep it on site.</li><li><strong>Review:</strong> when the task, site or equipment changes, or after an incident.</li></ol><h4>Hierarchy of controls</h4><table><tr><th>Level</th><th>Example</th></tr><tr><td>Eliminate</td><td>Use a mechanical trencher operated from outside the trench instead of having people dig deep trenches by hand</td></tr><tr><td>Substitute</td><td>Use a lower-toxicity registered product; use battery tools instead of petrol where suitable</td></tr><tr><td>Engineering controls</td><td>Guards on machines, earth leakage protection, trench shoring, dust extraction</td></tr><tr><td>Administrative controls</td><td>Permits for excavation and confined spaces, safe work procedures, training, job rotation, rest breaks, signs</td></tr><tr><td>PPE</td><td>Gloves, safety boots, eye and hearing protection, respirators, sun hats, high-visibility vests</td></tr></table><p>PPE is the last line of defence, not the first. It must be suitable, provided free of charge by the employer, maintained and worn correctly.</p><h4>Toolbox talks</h4><p>Start each day or each new task with a short toolbox talk: what the job is, the hazards, the controls, emergency arrangements and who the first aider is. Use the language the team understands best and check understanding by asking questions.</p><h4>Chemical safety specifics</h4><ul><li>Use only products registered under Act 36 of 1947, as the label directs.</li><li>Keep safety data sheets available.</li><li>Store chemicals locked, labelled and away from food.</li><li>Ensure washing facilities and correct PPE.</li><li>Record applications.</li></ul>"
+  },
+  {
+   "title": "Monitoring, inspections, incidents and emergencies",
+   "minutes": 20,
+   "html": "<h3>Monitoring safety standards</h3><p>Standards slip if they are not checked. Monitoring includes:</p><ul><li><strong>Workplace inspections:</strong> use a checklist for tools, machinery guards, PPE use, chemical store, first aid boxes, fire extinguishers, electrical leads, housekeeping, trench safety and signage. Inspect daily on active sites and formally at set intervals.</li><li><strong>Observation:</strong> watch tasks being done. Correct unsafe behaviour on the spot, respectfully, and praise safe behaviour.</li><li><strong>Equipment checks:</strong> pre-use checks on mowers, brushcutters and vehicles; service records.</li><li><strong>Training records:</strong> confirm workers are trained and authorised for machines and chemicals.</li></ul><p>Record findings, assign corrective actions with responsible persons and due dates, and follow up until they are closed.</p><h4>Incidents</h4><ol><li>Make the area safe and give first aid. Call emergency services if needed.</li><li>Report to management immediately.</li><li>Preserve the scene where serious incidents require investigation.</li><li>Record the incident, including near misses.</li><li>Investigate root causes, not just who was involved: was the procedure wrong, was there no training, was equipment faulty?</li><li>Implement corrective actions and share lessons with the team.</li><li>Ensure legally required reporting is done by the employer, including under COIDA.</li></ol><h4>Emergency preparedness</h4><ul><li>Trained first aiders and stocked first aid kits on every site. First aid skills require hands-on training by an accredited provider.</li><li>Emergency numbers and site address displayed; know the nearest clinic or hospital.</li><li>Fire extinguishers serviced, and workers trained to use them.</li><li>Lightning procedure: stop outdoor work and take shelter in a building or closed vehicle when thunder is heard.</li><li>Chemical spill kits and procedures.</li><li>Snakebite: keep the person calm and still, remove rings and tight items, and get them to medical care urgently; do not cut, suck or apply a tourniquet.</li></ul><h4>Key points</h4><ul><li>Employers must provide a safe workplace; employees must work safely and report hazards.</li><li>Identify hazards and assess risks for each task.</li><li>Apply the hierarchy of controls; PPE is the last line of defence.</li><li>Inspect regularly, record findings and close out corrective actions.</li><li>Report and investigate incidents and near misses, and keep emergency arrangements ready.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Under the OHS Act, what must employees do?",
+   "options": [
+    {
+     "text": "Buy their own PPE",
+     "correct": false
+    },
+    {
+     "text": "Take reasonable care of their own and others' safety and report hazards",
+     "correct": true
+    },
+    {
+     "text": "Investigate all incidents alone",
+     "correct": false
+    },
+    {
+     "text": "Ignore safety signs on small jobs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the most effective level of the hierarchy of controls?",
+   "options": [
+    {
+     "text": "Eliminate the hazard",
+     "correct": true
+    },
+    {
+     "text": "PPE",
+     "correct": false
+    },
+    {
+     "text": "Warning signs",
+     "correct": false
+    },
+    {
+     "text": "Training only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the purpose of a toolbox talk?",
+   "options": [
+    {
+     "text": "To discuss wages",
+     "correct": false
+    },
+    {
+     "text": "To choose the team leader",
+     "correct": false
+    },
+    {
+     "text": "To plan holidays",
+     "correct": false
+    },
+    {
+     "text": "To brief the team on the job, hazards, controls and emergency arrangements",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should an incident investigation focus on?",
+   "options": [
+    {
+     "text": "Finding someone to blame",
+     "correct": false
+    },
+    {
+     "text": "Keeping it secret",
+     "correct": false
+    },
+    {
+     "text": "Root causes such as procedures, training and equipment",
+     "correct": true
+    },
+    {
+     "text": "Only serious injuries",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do in a thunderstorm when working outdoors?",
+   "options": [
+    {
+     "text": "Shelter under a tall tree",
+     "correct": false
+    },
+    {
+     "text": "Stop work and take shelter in a building or closed vehicle",
+     "correct": true
+    },
+    {
+     "text": "Continue if you wear boots",
+     "correct": false
+    },
+    {
+     "text": "Lie in a trench",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "PPE is the last line of defence and must be provided free of charge by the employer.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Near misses do not need to be recorded because no one was hurt.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are correct first aid actions for snakebite? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep the person calm and still",
+     "correct": true
+    },
+    {
+     "text": "Remove rings and tight items",
+     "correct": true
+    },
+    {
+     "text": "Cut and suck the wound",
+     "correct": false
+    },
+    {
+     "text": "Get them to medical care urgently",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

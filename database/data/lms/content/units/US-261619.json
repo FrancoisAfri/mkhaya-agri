@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-261619",
+ "title": "Use animal handling and protection equipment",
+ "lessons": [
+  {
+   "title": "Handling equipment and emergency euthanasia equipment",
+   "minutes": 16,
+   "html": "<h3>Animal handling equipment</h3>\n<p>Animal welfare workers and farm staff use equipment to catch, hold and move animals safely. The right tool, used correctly, protects both the animal and the handler.</p>\n<table><tr><th>Equipment</th><th>Use</th></tr>\n<tr><td>Leash, slip lead, harness</td><td>Leading and controlling dogs</td></tr>\n<tr><td>Muzzle (basket or fabric)</td><td>Preventing bites during examination; basket muzzles let the dog pant</td></tr>\n<tr><td>Catch pole (control pole)</td><td>Holding an aggressive or unsocialised dog at a distance; the loop goes over the head and one front leg where possible, never tightened to choke</td></tr>\n<tr><td>Cat grasper, cat trap, crush cage</td><td>Catching feral or frightened cats and giving injections safely</td></tr>\n<tr><td>Thick gloves, towels, blankets</td><td>Handling cats, small animals and birds</td></tr>\n<tr><td>Halters, lead ropes</td><td>Horses, donkeys and cattle</td></tr>\n<tr><td>Crush, head clamp, race</td><td>Restraining cattle for treatment</td></tr>\n<tr><td>Snake tongs and hooks</td><td>Moving snakes, by trained people only</td></tr></table>\n<p>Choose the least stressful method that is still safe. A friendly dog needs only a leash; a frightened dog in a corner may need a catch pole. Never drag an animal by a catch pole or use it to lift an animal off the ground.</p>\n<h4>Emergency euthanasia equipment</h4>\n<p>When an animal is badly injured, for example a horse hit by a car or a cow trapped in a ditch, emergency euthanasia may be needed. The common tools are:</p>\n<ul><li><strong>Firearms</strong> of the correct calibre for the species, used by a licensed and trained person.</li>\n<li><strong>Captive bolt pistol</strong> (penetrating), followed at once by bleeding or pithing.</li>\n<li><strong>Injectable euthanasia drugs</strong>, used only by or under the direct control of a veterinarian.</li></ul>\n<p>Such equipment must be locked away when not in use, cartridges for captive bolts must match the species, and firearm laws must be followed. Hands-on training is essential before anyone uses this equipment.</p>"
+  },
+  {
+   "title": "Temporary barriers, traffic equipment, maintenance and records",
+   "minutes": 15,
+   "html": "<h3>Temporary containment barriers</h3>\n<p>At an accident scene, a stray livestock call or a rescue, you often need to contain animals quickly. Useful barriers include:</p>\n<ul><li>Portable panels or hurdles that clip together to form a pen.</li>\n<li>Rolls of mesh or snow fencing with steel droppers.</li>\n<li>Rope and tape lines with flags to guide animals.</li>\n<li>Your vehicle and trailer, parked to block an escape route.</li>\n<li>Sheets of board held by helpers to guide pigs or sheep.</li></ul>\n<p>Barriers must be high and strong enough for the species, with no gaps or sharp ends. Do not pen animals in a way that traps people with them.</p>\n<h4>Traffic equipment</h4>\n<p>Animals on roads cause serious accidents. When working at a roadside:</p>\n<ul><li>Park safely off the road with hazard lights and the amber light bar on.</li>\n<li>Wear a reflective bib.</li>\n<li>Place warning triangles or cones well before the scene in both directions.</li>\n<li>Ask the police or traffic officers to control traffic where possible.</li>\n<li>Never stand between an animal and oncoming traffic.</li></ul>\n<h4>Maintenance of equipment</h4>\n<ul><li>Clean and disinfect leashes, muzzles, catch poles and cages after each use to prevent spread of diseases such as parvovirus.</li>\n<li>Check catch-pole cables and locking mechanisms, cage doors and trap triggers for wear.</li>\n<li>Clean and service captive bolt pistols as the manufacturer instructs; store cartridges dry.</li>\n<li>Replace frayed ropes and cracked muzzles immediately.</li></ul>\n<h4>The need for records</h4>\n<p>Records show that equipment is safe and used responsibly. Keep:</p>\n<ul><li>A maintenance log for each item: date checked, fault found, repair done, by whom.</li>\n<li>A firearm and ammunition register, as required by firearm law.</li>\n<li>A register of scheduled drugs, kept by the vet.</li>\n<li>A record of each euthanasia: animal, reason, method, person, date.</li></ul>\n<p>Good records protect staff if a case goes to court and help managers plan replacements.</p>\n<h4>Key points</h4>\n<ul><li>Pick the least stressful safe tool: leash, muzzle, catch pole, cat grasper or crush.</li>\n<li>Emergency euthanasia equipment includes firearms, captive bolts and vet-only drugs.</li>\n<li>Use portable panels, mesh and vehicles as temporary barriers.</li>\n<li>At roadsides, use hazard lights, reflective bibs and triangles.</li>\n<li>Clean, check and log all equipment, and keep firearm and euthanasia records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the advantage of a basket muzzle?",
+   "options": [
+    {
+     "text": "It is used to lift dogs",
+     "correct": false
+    },
+    {
+     "text": "It lets the dog pant",
+     "correct": true
+    },
+    {
+     "text": "It replaces a leash",
+     "correct": false
+    },
+    {
+     "text": "It stops the dog seeing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a catch pole be used?",
+   "options": [
+    {
+     "text": "To lift the dog off the ground",
+     "correct": false
+    },
+    {
+     "text": "To drag the dog to the vehicle",
+     "correct": false
+    },
+    {
+     "text": "To hold an aggressive dog at a distance without choking it",
+     "correct": true
+    },
+    {
+     "text": "To hit the dog",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must follow the use of a penetrating captive bolt?",
+   "options": [
+    {
+     "text": "Bleeding or pithing",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "Releasing the animal",
+     "correct": false
+    },
+    {
+     "text": "Waiting an hour",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When working at a roadside, where should you never stand?",
+   "options": [
+    {
+     "text": "Between an animal and oncoming traffic",
+     "correct": true
+    },
+    {
+     "text": "Behind the warning triangles",
+     "correct": false
+    },
+    {
+     "text": "Next to a police officer",
+     "correct": false
+    },
+    {
+     "text": "Behind your vehicle off the road",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should leashes, muzzles and cages be disinfected after use?",
+   "options": [
+    {
+     "text": "To make them lighter",
+     "correct": false
+    },
+    {
+     "text": "To prevent the spread of diseases such as parvovirus",
+     "correct": true
+    },
+    {
+     "text": "To make them look new",
+     "correct": false
+    },
+    {
+     "text": "Because the law requires them to be white",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Injectable euthanasia drugs may only be used by or under the direct control of a veterinarian.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Frayed ropes and cracked muzzles can be used until the end of the month.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which records should be kept for animal handling equipment and euthanasia? (select all that apply)",
+   "options": [
+    {
+     "text": "A firearm and ammunition register",
+     "correct": true
+    },
+    {
+     "text": "The colour preference of each worker",
+     "correct": false
+    },
+    {
+     "text": "A record of each euthanasia",
+     "correct": true
+    },
+    {
+     "text": "A maintenance log for each item",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114350",
+ "title": "Chill and despatch carcasses",
+ "lessons": [
+  {
+   "title": "Chilling carcasses",
+   "minutes": 15,
+   "html": "<h3>Why carcasses must be chilled</h3><p>After slaughter, a carcass is warm. Germs grow fast on warm meat. Chilling makes the meat cold quickly. This slows down germs and keeps the meat safe and fresh. The Meat Safety Act 40 of 2000 requires hygienic handling and storage of meat.</p><h4>Before the carcass goes in</h4><ul><li>The carcass must be inspected and passed by the meat inspector.</li><li>It must have the right stamps and marks.</li><li>It must be clean and trimmed.</li><li>The chiller must be clean and already cold.</li></ul><h4>Loading the chiller</h4><ul><li>Hang carcasses on the rails with space between them. Cold air must move around each carcass.</li><li>Carcasses must not touch each other, the walls or the floor.</li><li>Do not put too many carcasses in one chiller. Your supervisor tells you how many.</li><li>Keep the chiller door closed as much as possible. Every time it opens, warm air goes in.</li><li>Keep carcasses and offal apart as your abattoir's procedure says.</li></ul><h4>Checking temperature</h4><ul><li>Read the chiller thermometer and write down the temperature at the set times.</li><li>Use a clean, sanitised probe thermometer to check the deep meat temperature when you are told to.</li><li>The carcass must reach the temperature in your abattoir's procedure before it may be despatched.</li><li>Tell your supervisor at once if the chiller is too warm, the fans stop, or there is ice or water dripping on the meat.</li></ul><p>Write the chiller number on the record.</p><p>Do not put warm carcasses into a full chiller.</p>"
+  },
+  {
+   "title": "Preparing for despatch",
+   "minutes": 15,
+   "html": "<h3>Getting the order ready</h3><p>Despatch means sending the meat out to the customer.</p><h4>Check the order</h4><ol><li>Read the order: customer, number of carcasses, type and grade.</li><li>Pick the right carcasses. Check the marks and labels.</li><li>Check that each carcass is cold enough. Your supervisor or quality controller does the final check.</li><li>Weigh carcasses if needed and write down the weights.</li><li>Fill in the despatch note. Write the date, customer, carcass numbers and weights.</li></ol><h4>First in, first out</h4><p>Send out the carcasses that were slaughtered first, unless your supervisor tells you otherwise. This stops meat getting too old in the chiller.</p><h4>Personal hygiene</h4><ul><li>Wear clean protective clothing, a hairnet and a hat or helmet.</li><li>Wash your hands before you touch meat.</li><li>Do not touch meat after touching the floor, doors or the truck without washing.</li><li>Do not work with meat if you are sick with diarrhoea or have an open, infected wound.</li></ul><h4>Safety in the chiller</h4><ul><li>Wear warm clothing in cold rooms.</li><li>Floors can be wet and slippery.</li><li>Push carcasses on rails slowly. A moving carcass is heavy and can hurt you.</li><li>Know how to open the chiller door from the inside. Tell someone when you go into a cold room.</li></ul><p>Ask your supervisor if you are not sure which carcasses belong to an order. Never guess. A wrong carcass sent to a customer causes problems.</p><p>Keep the despatch area clean and tidy at all times.</p>"
+  },
+  {
+   "title": "Loading and transport",
+   "minutes": 15,
+   "html": "<h3>Loading the truck</h3><h4>Check the truck first</h4><ul><li>The truck must be a refrigerated truck, clean inside, with no smell.</li><li>The fridge unit must be on and the box cold before loading.</li><li>Hooks and rails must be clean.</li><li>Tell your supervisor if the truck is dirty or warm. Do not load it.</li></ul><h4>Loading</h4><ul><li>Load quickly so the meat does not warm up.</li><li>Hang carcasses on rails with space between them. Do not throw or drop them.</li><li>If a carcass touches the floor, stop and tell your supervisor. It may need trimming or inspection.</li><li>Keep the truck doors closed when you are not loading.</li><li>Count the carcasses and check the numbers on the despatch note.</li></ul><h4>Paperwork</h4><ul><li>The driver checks and signs the despatch note.</li><li>Write down the truck temperature when loading is done.</li><li>Keep a copy for the abattoir's records. These records help trace the meat if there is a problem.</li></ul><h4>Safety when loading</h4><ul><li>Use the loading bay. Make sure the truck is parked and the brakes are on.</li><li>Do not stand between a reversing truck and the bay.</li><li>Lift and carry quarters with a straight back, or ask for help.</li></ul><p>Report all problems.</p><h4>Key points</h4><ul><li>Chilling slows germ growth and keeps meat safe.</li><li>Hang carcasses with space so they do not touch each other, walls or the floor.</li><li>Keep chiller and truck doors closed and record temperatures.</li><li>Only despatch carcasses that are cold enough, with the right marks and paperwork.</li><li>Check that the truck is clean and cold before loading.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must carcasses be chilled?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "To slow the growth of germs and keep meat safe",
+     "correct": true
+    },
+    {
+     "text": "To change their colour",
+     "correct": false
+    },
+    {
+     "text": "To remove the stamps",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should carcasses hang in the chiller?",
+   "options": [
+    {
+     "text": "Touching each other to save space",
+     "correct": false
+    },
+    {
+     "text": "With space between them, not touching walls or the floor",
+     "correct": true
+    },
+    {
+     "text": "Lying on the floor",
+     "correct": false
+    },
+    {
+     "text": "Pushed against the fans",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which carcasses should usually be despatched first?",
+   "options": [
+    {
+     "text": "Those slaughtered first",
+     "correct": true
+    },
+    {
+     "text": "Those slaughtered last",
+     "correct": false
+    },
+    {
+     "text": "The heaviest ones only",
+     "correct": false
+    },
+    {
+     "text": "Any carcass at random",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the truck is warm or dirty?",
+   "options": [
+    {
+     "text": "Load it quickly anyway",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor and do not load it",
+     "correct": true
+    },
+    {
+     "text": "Wash it with meat on board",
+     "correct": false
+    },
+    {
+     "text": "Ask the driver to drive faster",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a carcass touches the floor while loading?",
+   "options": [
+    {
+     "text": "Hang it back up and say nothing",
+     "correct": false
+    },
+    {
+     "text": "Throw it away",
+     "correct": false
+    },
+    {
+     "text": "Stop and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Put it in another truck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The chiller door should be left open during busy times so loading is faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Despatch records help to trace meat if there is a problem.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must be on or with carcasses before despatch? (select all that apply)",
+   "options": [
+    {
+     "text": "The right stamps and marks",
+     "correct": true
+    },
+    {
+     "text": "A completed despatch note",
+     "correct": true
+    },
+    {
+     "text": "Water dripping from the ceiling",
+     "correct": false
+    },
+    {
+     "text": "A temperature check showing the meat is cold enough",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

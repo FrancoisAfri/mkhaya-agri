@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335728",
+ "title": "Assess stud farm layout and facilities",
+ "lessons": [
+  {
+   "title": "The layout of a stud farm",
+   "minutes": 20,
+   "html": "<h3>Why layout matters</h3>\n<p>A stud farm keeps stallions, broodmares, foals and young stock, often of high value. Good layout reduces injuries, disease spread and labour, and makes daily work efficient. South Africa's Thoroughbred studs in the Western Cape and KwaZulu-Natal Midlands, and Arabian, Boerperd and warmblood studs elsewhere, use similar principles.</p>\n<h3>Zones on a stud</h3>\n<table><tr><th>Zone</th><th>What to look for</th></tr>\n<tr><td>Entrance and visitor area</td><td>Controlled gate, parking away from horses, signage, wash point for vehicles</td></tr>\n<tr><td>Quarantine / isolation</td><td>Separate stables and paddock downwind and away from main herd for new arrivals and sick horses</td></tr>\n<tr><td>Stallion barn and paddocks</td><td>Strong stables, high solid fencing, double fences or lanes between stallion paddocks</td></tr>\n<tr><td>Breeding shed</td><td>Close to stallion barn, non-slip floor, high roof, teasing board, lab area</td></tr>\n<tr><td>Foaling unit</td><td>Large stables, observation room or cameras, near staff housing</td></tr>\n<tr><td>Mare and foal paddocks</td><td>Safe fencing, shade, water, close to the yard</td></tr>\n<tr><td>Weanling and yearling paddocks</td><td>Larger paddocks for exercise, grouped by age and sex</td></tr>\n<tr><td>Support areas</td><td>Feed store, tack room, office, vet room, manure heap, workshop</td></tr></table>\n<h3>Flow and biosecurity</h3>\n<ul>\n<li>Movement should flow from clean to dirty: young and healthy stock first, sick and isolation units last on daily rounds.</li>\n<li>Lanes between paddocks let horses be moved without crossing other paddocks.</li>\n<li>Vehicle and visitor routes should not pass through horse areas.</li>\n<li>Manure heaps away from stables, water sources and prevailing wind towards housing.</li>\n</ul>\n<h3>Land and environment</h3>\n<p>Assess soils, drainage, slope, water supply (boreholes, dams, rights under the National Water Act 36 of 1998), shelter belts, and risk of fire, flooding and poisonous plants. Rotational grazing needs enough camps for resting pasture.</p>"
+  },
+  {
+   "title": "Assessing facilities and reporting",
+   "minutes": 20,
+   "html": "<h3>Stables</h3>\n<ul>\n<li>Size: big enough for the horse to turn, lie down and get up; foaling stables much larger.</li>\n<li>Height and ventilation: high roofs, ridge vents and open upper doors to remove dust and ammonia.</li>\n<li>Floors: non-slip, well-drained, with rubber mats or deep bedding.</li>\n<li>Doors: open outwards or slide, with horse-proof bolts top and bottom.</li>\n<li>No sharp edges, exposed wires or low beams. Light fittings out of reach and protected.</li>\n<li>Water: automatic drinkers or buckets that can be checked and cleaned.</li>\n</ul>\n<h3>Fencing</h3>\n<table><tr><th>Type</th><th>Assessment</th></tr>\n<tr><td>Post and rail (wood)</td><td>Highly visible and safe, but needs maintenance</td></tr>\n<tr><td>Diamond mesh / horse netting</td><td>Prevents feet going through, suits foals</td></tr>\n<tr><td>Electric tape</td><td>Useful for dividing; must be visible and on a proper energiser</td></tr>\n<tr><td>Barbed wire</td><td>Unsuitable; causes serious injuries</td></tr></table>\n<p>Gateways should be wide enough for vehicles, with rounded corners in paddocks to prevent horses being trapped.</p>\n<h3>Other facilities</h3>\n<ul>\n<li><strong>Feed store:</strong> dry, vermin-proof, locked, with feed off the floor.</li>\n<li><strong>Chemical store:</strong> locked, ventilated, separate from feed, as required for agricultural remedies under Act 36 of 1947 and the OHS Act 85 of 1993.</li>\n<li><strong>Vet room:</strong> crush or stocks, good light, water, fridge for vaccines.</li>\n<li><strong>Loading ramp:</strong> solid sides, non-slip surface.</li>\n<li><strong>Fire safety:</strong> extinguishers, hoses, firebreaks, no smoking signs, evacuation plan.</li>\n<li><strong>Staff facilities:</strong> toilets, change rooms, first aid kit.</li>\n</ul>\n<h3>Writing the assessment</h3>\n<ol>\n<li>Use a checklist and a sketch map.</li>\n<li>Rate each facility: good, needs maintenance, unsafe or unsuitable.</li>\n<li>Photograph problems.</li>\n<li>Prioritise recommendations by risk and cost, with estimated amounts in ZAR.</li>\n<li>Present the report to management with a timeline for repairs.</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>Plan zones: quarantine, stallions, breeding, foaling, mares, young stock, support.</li>\n<li>Flow from clean to dirty and keep visitors out of horse areas.</li>\n<li>Stables need space, ventilation, non-slip floors and safe fittings.</li>\n<li>Use horse-safe fencing; never barbed wire.</li>\n<li>Rate facilities, photograph problems and prioritise recommendations.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should the quarantine area be placed?",
+   "options": [
+    {
+     "text": "Next to the foaling unit",
+     "correct": false
+    },
+    {
+     "text": "Away from the main herd and downwind",
+     "correct": true
+    },
+    {
+     "text": "At the entrance for visitors",
+     "correct": false
+    },
+    {
+     "text": "Inside the stallion barn",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Daily rounds should move in which order?",
+   "options": [
+    {
+     "text": "Sick horses first, then foals",
+     "correct": false
+    },
+    {
+     "text": "Random order",
+     "correct": false
+    },
+    {
+     "text": "Isolation unit first",
+     "correct": false
+    },
+    {
+     "text": "From clean (young, healthy) to dirty (sick, isolation)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which fencing is unsuitable for horses?",
+   "options": [
+    {
+     "text": "Barbed wire",
+     "correct": true
+    },
+    {
+     "text": "Post and rail",
+     "correct": false
+    },
+    {
+     "text": "Diamond mesh",
+     "correct": false
+    },
+    {
+     "text": "Visible electric tape",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should stables have high roofs and ridge vents?",
+   "options": [
+    {
+     "text": "To save on bedding",
+     "correct": false
+    },
+    {
+     "text": "To keep birds in",
+     "correct": false
+    },
+    {
+     "text": "To remove dust and ammonia",
+     "correct": true
+    },
+    {
+     "text": "To make them darker",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should paddock corners be rounded?",
+   "options": [
+    {
+     "text": "For appearance",
+     "correct": false
+    },
+    {
+     "text": "To prevent horses being trapped",
+     "correct": true
+    },
+    {
+     "text": "To save fencing",
+     "correct": false
+    },
+    {
+     "text": "To help grass grow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Feed and chemicals may be stored together in the same unlocked room.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Recommendations in a facility assessment should be prioritised by risk and cost.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a breeding shed have? (select all that apply)",
+   "options": [
+    {
+     "text": "Non-slip floor",
+     "correct": true
+    },
+    {
+     "text": "High roof",
+     "correct": true
+    },
+    {
+     "text": "A teasing board",
+     "correct": true
+    },
+    {
+     "text": "Barbed wire walls",
+     "correct": false
+    },
+    {
+     "text": "Loose objects on the floor",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

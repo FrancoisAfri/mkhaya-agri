@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-13674",
+ "title": "Identify and support learners with special needs",
+ "lessons": [
+  {
+   "title": "Recognising learners with special needs",
+   "minutes": 20,
+   "html": "<h3>Who are learners with special needs?</h3>\n<p>In equine and farm training, you may coach riders, train new grooms or run therapeutic riding sessions. Some learners have needs that, without support, make it harder for them to learn. These are sometimes called <strong>barriers to learning</strong>. South Africa's policy of inclusive education, set out in Education White Paper 6, aims to remove these barriers rather than exclude the learner.</p>\n<h4>Types of barriers</h4>\n<table><tr><th>Type</th><th>Examples</th></tr>\n<tr><td>Physical</td><td>Cerebral palsy, limited mobility, amputation, chronic illness</td></tr>\n<tr><td>Sensory</td><td>Visual impairment, hearing loss or Deafness</td></tr>\n<tr><td>Learning</td><td>Dyslexia, dyscalculia, attention difficulties (ADHD)</td></tr>\n<tr><td>Intellectual and developmental</td><td>Down syndrome, autism spectrum</td></tr>\n<tr><td>Emotional and behavioural</td><td>Anxiety, trauma, aggression, withdrawal</td></tr>\n<tr><td>Social and economic</td><td>Poverty, hunger, long travel, language of instruction not the home language</td></tr></table>\n<h3>Spotting signs</h3>\n<p>You are not expected to diagnose. Observe and note patterns:</p>\n<ul>\n<li>Difficulty following spoken instructions, or always watching others first.</li>\n<li>Avoiding reading or writing tasks; poor spelling far below other work.</li>\n<li>Poor balance or coordination beyond what is expected.</li>\n<li>Squinting, holding material very close, or turning the head to hear.</li>\n<li>Strong reactions to noise or change in routine.</li>\n<li>Frequent absence, tiredness or hunger.</li>\n</ul>\n<h3>What to do</h3>\n<ol>\n<li>Talk privately and respectfully with the learner (and parents for children). Many learners know what helps them.</li>\n<li>Check any existing records or medical information, kept confidential.</li>\n<li>Refer for specialist assessment where needed, for example to a doctor, psychologist, occupational therapist or the school's support team.</li>\n<li>Record your observations objectively.</li>\n</ol>"
+  },
+  {
+   "title": "Supporting learners and adapting your teaching",
+   "minutes": 20,
+   "html": "<h3>Principles of support</h3>\n<ul>\n<li><strong>Respect and dignity:</strong> focus on what the learner can do. Use person-first or the learner's preferred language.</li>\n<li><strong>Confidentiality:</strong> share information only with those who need it and with consent.</li>\n<li><strong>High expectations:</strong> adapt the route, not the destination, where possible.</li>\n<li><strong>Safety:</strong> around horses, extra care is needed. Plan for sudden movements and noise.</li>\n</ul>\n<h3>Adapting teaching</h3>\n<table><tr><th>Need</th><th>Possible adaptations</th></tr>\n<tr><td>Hearing loss</td><td>Face the learner, use visual signals, written cues, sign language interpreter; agree on arena hand signals</td></tr>\n<tr><td>Visual impairment</td><td>Verbal description, touch exploration of tack and horse (with a calm horse), large print, consistent layout</td></tr>\n<tr><td>Dyslexia</td><td>Demonstrations, pictures, oral assessment where allowed, extra time</td></tr>\n<tr><td>Attention difficulties</td><td>Short tasks, clear steps, frequent feedback, fewer distractions</td></tr>\n<tr><td>Autism</td><td>Predictable routine, advance warning of changes, clear literal language</td></tr>\n<tr><td>Physical disability</td><td>Mounting ramp, adapted saddle, side walkers, accessible facilities</td></tr></table>\n<h3>Therapeutic and adaptive riding</h3>\n<p>Horses can offer real benefits in balance, strength and confidence. Therapeutic riding should be run by trained instructors, with calm, suitable horses, a leader and side walkers, helmets and a doctor's or therapist's clearance.</p>\n<h3>Working with others</h3>\n<p>Plan support with parents, therapists, teachers and the learner. Write a simple individual support plan: goals, adaptations, who does what, and review dates.</p>\n<h3>Evaluating support</h3>\n<p>Review progress regularly. Is the learner reaching goals? Are adaptations still needed? Ask the learner for feedback.</p>\n<h4>Key points</h4>\n<ul>\n<li>Barriers can be physical, sensory, learning, emotional or social.</li>\n<li>Observe and record; refer for specialist assessment, do not diagnose.</li>\n<li>Respect dignity and confidentiality.</li>\n<li>Adapt teaching methods, materials and the environment to the need.</li>\n<li>Plan with the learner, family and specialists and review progress.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which policy sets out South Africa's approach to inclusive education?",
+   "options": [
+    {
+     "text": "The National Water Act",
+     "correct": false
+    },
+    {
+     "text": "Education White Paper 6",
+     "correct": true
+    },
+    {
+     "text": "The Meat Safety Act",
+     "correct": false
+    },
+    {
+     "text": "The Firearms Control Act",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is your role when you notice signs of a learning barrier?",
+   "options": [
+    {
+     "text": "Diagnose the condition",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Observe, record and refer for assessment",
+     "correct": true
+    },
+    {
+     "text": "Remove the learner from the course",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which adaptation suits a learner with hearing loss?",
+   "options": [
+    {
+     "text": "Face the learner and use visual signals",
+     "correct": true
+    },
+    {
+     "text": "Speak louder from behind",
+     "correct": false
+    },
+    {
+     "text": "Turn off the lights",
+     "correct": false
+    },
+    {
+     "text": "Give only written tests with no demonstration",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which adaptation suits a learner on the autism spectrum?",
+   "options": [
+    {
+     "text": "Constant surprise changes",
+     "correct": false
+    },
+    {
+     "text": "Long verbal lectures",
+     "correct": false
+    },
+    {
+     "text": "Vague instructions",
+     "correct": false
+    },
+    {
+     "text": "A predictable routine with advance warning of changes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Poverty and hunger are examples of which type of barrier?",
+   "options": [
+    {
+     "text": "Sensory",
+     "correct": false
+    },
+    {
+     "text": "Social and economic",
+     "correct": true
+    },
+    {
+     "text": "Physical",
+     "correct": false
+    },
+    {
+     "text": "Intellectual",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Information about a learner's special needs should be shared only with those who need it and with consent.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Therapeutic riding can be run with any horse and no side walkers.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which belong in an individual support plan? (select all that apply)",
+   "options": [
+    {
+     "text": "Goals",
+     "correct": true
+    },
+    {
+     "text": "Adaptations",
+     "correct": true
+    },
+    {
+     "text": "Review dates",
+     "correct": true
+    },
+    {
+     "text": "The learner's bank details",
+     "correct": false
+    },
+    {
+     "text": "Gossip from other learners",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

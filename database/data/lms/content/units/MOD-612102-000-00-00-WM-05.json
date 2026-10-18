@@ -1,0 +1,183 @@
+{
+  "unit_key": "MOD-612102-000-00-00-WM-05",
+  "title": "In parlour milk processing and handling",
+  "lessons": [
+    {
+      "title": "Filtering, cooling and storing milk",
+      "minutes": 20,
+      "html": "<h3>From the cow to the tank</h3><p>Milk leaves the udder at body temperature, which is ideal for bacteria to grow. What happens in the first hours after milking decides much of the milk's quality. In this module you will carry out in-parlour milk handling and record your work in your logbook.</p><h4>Filtering</h4><p>Milk passes through a filter sock in the milk line before it reaches the tank. The filter catches hair, dirt and clots. It does <strong>not</strong> make dirty milk clean, because bacteria pass through. Change the sock every milking and inspect it: clots point to mastitis, dirt points to poor teat preparation.</p><h4>Cooling</h4><ul><li><strong>Pre-cooling</strong>: many dairies run milk through a plate cooler with cold water before the tank. This saves electricity and cools milk faster.</li><li><strong>Bulk tank cooling</strong>: the tank cools milk to the storage temperature your milk buyer requires, normally around 4 °C, within the time they set.</li><li>The agitator must run so all the milk cools evenly. Make sure the first milk covers the agitator paddle before it starts, if the tank is set up that way.</li></ul><h4>Storing</h4><ul><li>Keep the tank lid closed.</li><li>Record the temperature at the end of every milking and again before collection.</li><li>If the temperature rises, check the compressor, power supply and cooling water, and tell the supervisor at once. Do not add more milk to a warm tank without permission.</li><li>Never add water, ice or anything else to the milk. Adding water is illegal and is picked up by freezing point tests.</li></ul><h4>The milk room</h4><p>Keep the milk room separate from the parlour, clean, well lit and free of flies, chemicals, animals and food. The milk room door should stay closed.</p>"
+    },
+    {
+      "title": "Milk quality tests and collection",
+      "minutes": 20,
+      "html": "<h3>How the buyer judges your milk</h3><p>When the tanker collects, the driver takes a sample from the tank. The buyer's laboratory tests it, and the results affect the price paid and whether the milk is accepted.</p><table><tr><th>Test</th><th>What it shows</th><th>Main causes of a bad result</th></tr><tr><td>Bacteria count</td><td>Hygiene and cooling</td><td>Dirty plant, poor teat preparation, slow cooling</td></tr><tr><td>Somatic cell count (SCC)</td><td>Udder health</td><td>Mastitis in the herd</td></tr><tr><td>Antibiotic residues</td><td>Medicines in milk</td><td>Treated cow's milk entering the tank</td></tr><tr><td>Freezing point</td><td>Added water</td><td>Water left in lines, leaking plate cooler, adding water</td></tr><tr><td>Fat and protein</td><td>Milk composition, often linked to payment</td><td>Feeding, breed, stage of lactation</td></tr></table><h4>Preparing for collection</h4><ol><li>Check and record the tank temperature.</li><li>Make sure the tank area and access road are clean and clear.</li><li>Be present or follow the farm's procedure while the driver measures the volume and takes the sample.</li><li>Check the volume on the collection slip and sign it.</li><li>Clean the tank after collection.</li></ol><h4>If a residue is suspected</h4><p>If you know or suspect that treated milk went into the tank, tell the supervisor and manager immediately, before collection. Some farms test the tank with a rapid residue test kit. Contaminated milk must not be sold. Hiding it can lead to a whole tanker being dumped and serious penalties for the farm.</p><h4>Hygiene during collection</h4><p>The tanker driver should not enter the parlour with dirty boots. Keep the outlet capped when not in use.</p><p>Keep copies of the buyer's monthly quality results in a file in the milk room. Discuss them with the team so that everyone sees how their daily work affects the bacteria count, the cell count and the price the farm receives.</p>"
+    },
+    {
+      "title": "Handling abnormal milk and on-farm uses",
+      "minutes": 20,
+      "html": "<h3>Milk that must not be sold</h3><p>Some milk must be kept separate from the bulk tank:</p><ul><li><strong>Colostrum</strong> from fresh cows for the first days after calving, as set by the farm.</li><li><strong>Milk from treated cows</strong> until the withdrawal period on the label or from the vet has passed.</li><li><strong>Abnormal milk</strong> from cows with clinical mastitis, or with blood.</li></ul><p>Use a separate bucket unit or divert line, clearly marked. Clean it as carefully as the main plant.</p><h4>What to do with it</h4><ul><li><strong>Good colostrum</strong> is a valuable calf feed; store surplus labelled and frozen.</li><li><strong>Waste milk with antibiotics</strong>: follow the farm's and vet's policy. Many vets advise against feeding it to calves because it can encourage resistant bacteria. Never let it reach the effluent ponds in large amounts without permission, as it is a strong pollutant.</li></ul><h4>On-farm processing</h4><p>Some farms bottle milk, make maas, yoghurt or cheese, or sell raw milk directly. This brings extra legal requirements, because milk for direct sale is food under the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972 and the health regulations made under it. The farm will need the correct certificate from the local authority's environmental health practitioner, and products usually need pasteurisation. Only trained workers should do this work, following written procedures.</p><h4>Keeping records</h4><ul><li>Tank temperatures and collection volumes.</li><li>Buyer test results each period, kept and discussed with the team.</li><li>Dumped milk: date, volume, reason.</li><li>Any incidents and corrective actions.</li></ul><h4>Key points</h4><ul><li>The filter catches dirt but does not remove bacteria.</li><li>Cool milk quickly to the buyer's required temperature and record it every milking.</li><li>Never add water or anything else to milk.</li><li>Report suspected residues before collection.</li><li>Keep colostrum, treated and abnormal milk out of the tank and record dumped milk.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What does the milk filter sock do?",
+      "options": [
+        {
+          "text": "Kills all bacteria",
+          "correct": false
+        },
+        {
+          "text": "Cools the milk",
+          "correct": false
+        },
+        {
+          "text": "Catches hair, dirt and clots",
+          "correct": true
+        },
+        {
+          "text": "Removes antibiotics",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which test detects added water in milk?",
+      "options": [
+        {
+          "text": "Freezing point test",
+          "correct": true
+        },
+        {
+          "text": "Somatic cell count",
+          "correct": false
+        },
+        {
+          "text": "Fat test",
+          "correct": false
+        },
+        {
+          "text": "CMT",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A high somatic cell count in the tank mainly shows:",
+      "options": [
+        {
+          "text": "Slow cooling",
+          "correct": false
+        },
+        {
+          "text": "Added water",
+          "correct": false
+        },
+        {
+          "text": "Good feeding",
+          "correct": false
+        },
+        {
+          "text": "Mastitis in the herd",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do if you suspect treated milk went into the tank?",
+      "options": [
+        {
+          "text": "Say nothing and hope it is diluted",
+          "correct": false
+        },
+        {
+          "text": "Tell the supervisor and manager before collection",
+          "correct": true
+        },
+        {
+          "text": "Add water to dilute it",
+          "correct": false
+        },
+        {
+          "text": "Pump it to the effluent pond yourself",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why is a plate cooler used before the bulk tank?",
+      "options": [
+        {
+          "text": "To pre-cool milk and save electricity",
+          "correct": true
+        },
+        {
+          "text": "To add water",
+          "correct": false
+        },
+        {
+          "text": "To heat the milk",
+          "correct": false
+        },
+        {
+          "text": "To test for antibiotics",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Selling milk products directly to the public brings extra food safety legal requirements.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The milk room door can be left open so dogs can rest in the cool.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which milk must be kept out of the bulk tank? (select all that apply)",
+      "options": [
+        {
+          "text": "Colostrum from fresh cows",
+          "correct": true
+        },
+        {
+          "text": "Milk from cows within the withdrawal period",
+          "correct": true
+        },
+        {
+          "text": "Milk with clots from mastitis",
+          "correct": true
+        },
+        {
+          "text": "Normal milk from healthy cows",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

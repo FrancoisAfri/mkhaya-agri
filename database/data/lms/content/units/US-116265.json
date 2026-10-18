@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116265",
+ "title": "Monitor pests, diseases and weeds on crops",
+ "lessons": [
+  {
+   "title": "Scouting and trapping pests",
+   "minutes": 20,
+   "html": "<h3>Why we scout</h3><p>Scouting means walking through a crop in a planned way to look for pests, diseases and weeds. Good scouting finds problems early, when they are still cheap and easy to control. It also stops unnecessary spraying, because you only spray when the numbers show it is needed.</p><h4>Know the common pests of your enterprise</h4><table><tr><th>Crop</th><th>Common pests</th></tr><tr><td>Maize</td><td>Fall armyworm, stalk borers, cutworms, aphids</td></tr><tr><td>Tomatoes</td><td>Tuta absoluta (tomato leafminer), bollworm, whitefly, red spider mite</td></tr><tr><td>Cabbage</td><td>Diamondback moth, aphids, cabbage webworm</td></tr><tr><td>Citrus</td><td>False codling moth, thrips, scale insects, fruit fly</td></tr></table><p>Learn the life stages of each pest (egg, larva or nymph, pupa, adult) and where they hide on the plant. Also learn to recognise beneficial insects such as ladybirds, lacewings and parasitic wasps, so they are not counted as pests.</p><h4>A scouting method</h4><ol><li>Use the same pattern every time, for example a W or zig-zag across the land, so the whole land is sampled.</li><li>Stop at a set number of points and inspect a set number of plants at each point.</li><li>Check the top and underside of leaves, growing points, stems, flowers and fruit.</li><li>Count the pests and beneficials and note the growth stage of the crop.</li><li>Record on the scouting sheet before moving on.</li></ol><h4>Traps</h4><ul><li><strong>Pheromone traps</strong> attract male moths of one species (for example bollworm, false codling moth or Tuta). Weekly counts show when a flight starts.</li><li><strong>Yellow sticky traps</strong> catch whiteflies, aphids and leafminers in tunnels.</li><li><strong>Fruit fly traps</strong> with bait or lures in orchards.</li></ul><p>Number every trap, mark it on the map, check it on a fixed day each week, record the count, and replace lures and sticky cards as the supplier recommends.</p>"
+  },
+  {
+   "title": "Monitoring diseases and collecting specimens",
+   "minutes": 20,
+   "html": "<h3>Recognising disease symptoms</h3><p>Plant diseases are caused by fungi, bacteria and viruses. You see the <strong>symptoms</strong>, not the organism itself.</p><table><tr><th>Symptom</th><th>Example</th></tr><tr><td>Leaf spots or blight</td><td>Early and late blight on tomatoes and potatoes, grey leaf spot on maize</td></tr><tr><td>Rust (orange or brown powdery pustules)</td><td>Wheat rust, bean rust</td></tr><tr><td>Powdery white growth</td><td>Powdery mildew on cucurbits and grapes</td></tr><tr><td>Wilting with brown stem inside</td><td>Fusarium or bacterial wilt</td></tr><tr><td>Mottled, curled or yellow leaves, stunting</td><td>Virus diseases, often spread by aphids or whiteflies</td></tr><tr><td>Rots on fruit or roots</td><td>Many fungi and bacteria, often after wet weather</td></tr></table><p>Weather is important: many fungal diseases spread fast in warm, humid or wet conditions. Scout more often after rain.</p><h4>Recording disease</h4><ul><li>Note the symptom, the part of the plant, the percentage of plants affected and where in the land (patches, edges, low spots).</li><li>Take a clear photo of the symptom, close up and of the whole plant.</li></ul><h4>Collecting specimens you do not recognise</h4><ol><li>Collect insects in a clean container or vial; use a soft brush. Soft-bodied insects can be stored in alcohol if your adviser asks for this.</li><li>For diseases, take whole affected plants or plant parts showing early and advanced symptoms; wrap in dry newspaper and put in a plastic bag.</li><li>Label with date, farm, land, crop, collector and what you saw.</li><li>Keep cool and deliver quickly to your supervisor, adviser or a diagnostic laboratory.</li><li>Record the identification when it comes back so you know it next time.</li></ol><p>Wash your hands after handling diseased material, and do not walk from an infected land into a clean one without cleaning boots where the farm requires it.</p>"
+  },
+  {
+   "title": "Weeds, recording and reporting",
+   "minutes": 20,
+   "html": "<h3>Monitoring weeds</h3><p>Weeds compete with the crop for water, light and nutrients, host pests and diseases, and make harvesting harder. Some are declared weeds or invader plants that must be controlled under the Conservation of Agricultural Resources Act 43 of 1983.</p><ul><li>Learn the main weeds on the farm: grasses (such as crabfinger grass, nutgrass) and broadleaf weeds (such as pigweed, blackjack, thorn apple).</li><li>Record the weed species, growth stage (seedling, flowering, seeding) and density (few, moderate, dense) for each land.</li><li>Note weeds that survived herbicide applications; this can point to resistance or poor application.</li><li>Note new weeds that have not been seen on the farm before.</li></ul><h3>Recording and reporting</h3><h4>A good scouting sheet includes</h4><ul><li>Date, scout's name, land, crop and growth stage.</li><li>Pests and beneficials counted per sampling point.</li><li>Disease symptoms and percentage affected.</li><li>Weed species and density.</li><li>Trap counts.</li><li>Weather conditions.</li></ul><h4>Turning records into recommendations</h4><p>Compare the counts with the action thresholds supplied by your crop adviser. Example: if the threshold for a pest is reached at 10% of plants infested and your count shows 4 of 50 plants (8%), keep monitoring; if next week's count is 8 of 50 (16%), recommend control to your manager. Mention the area affected, the pest stage and whether beneficial insects are present.</p><p>Report straight away if you find a pest that is new to the area or a suspected quarantine pest, so the farm can contact the Department of Agriculture.</p><h4>Key points</h4><ul><li>Scout in a fixed pattern with a fixed sample size and record at each point.</li><li>Learn pests, beneficials and their life stages.</li><li>Check traps on a fixed day and record counts.</li><li>Collect and label unknown insects and diseased plants for identification.</li><li>Compare counts with thresholds and give clear recommendations.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should a fixed pattern such as a W be used when scouting?",
+   "options": [
+    {
+     "text": "So the whole land is sampled the same way each time",
+     "correct": true
+    },
+    {
+     "text": "To walk the shortest distance",
+     "correct": false
+    },
+    {
+     "text": "To avoid looking at the crop edges",
+     "correct": false
+    },
+    {
+     "text": "Because pests only live along a W shape",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do pheromone traps attract?",
+   "options": [
+    {
+     "text": "All insects",
+     "correct": false
+    },
+    {
+     "text": "Male moths of one species",
+     "correct": true
+    },
+    {
+     "text": "Only beneficial insects",
+     "correct": false
+    },
+    {
+     "text": "Birds",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Orange or brown powdery pustules on wheat leaves are a symptom of what?",
+   "options": [
+    {
+     "text": "Powdery mildew",
+     "correct": false
+    },
+    {
+     "text": "Rust",
+     "correct": true
+    },
+    {
+     "text": "Bacterial wilt",
+     "correct": false
+    },
+    {
+     "text": "Virus disease",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The threshold is 10% of plants infested. This week 8 of 50 plants (16%) are infested. What should you recommend?",
+   "options": [
+    {
+     "text": "Continue monitoring only",
+     "correct": false
+    },
+    {
+     "text": "Recommend control to the manager",
+     "correct": true
+    },
+    {
+     "text": "Destroy the whole crop",
+     "correct": false
+    },
+    {
+     "text": "Stop scouting this land",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should diseased plant specimens be packed?",
+   "options": [
+    {
+     "text": "In a wet cloth in the sun",
+     "correct": false
+    },
+    {
+     "text": "Wrapped in dry newspaper in a plastic bag, labelled and kept cool",
+     "correct": true
+    },
+    {
+     "text": "Loose in the back of the bakkie",
+     "correct": false
+    },
+    {
+     "text": "In a sealed jar of water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Ladybirds and lacewings should be counted as pests.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Weeds that survive a herbicide spray should be noted, because this can point to resistance.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a scouting sheet include? (select all that apply)",
+   "options": [
+    {
+     "text": "Date, land, crop and growth stage",
+     "correct": true
+    },
+    {
+     "text": "Pest and beneficial counts",
+     "correct": true
+    },
+    {
+     "text": "Weed species and density",
+     "correct": true
+    },
+    {
+     "text": "The scout's bank details",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

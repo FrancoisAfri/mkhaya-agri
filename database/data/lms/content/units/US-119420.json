@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119420",
+ "title": "Understand vaccine handling and vaccinating practices for poultry",
+ "lessons": [
+  {
+   "title": "How vaccines work",
+   "minutes": 15,
+   "html": "<h3>Training the immune system</h3><p>A vaccine contains a weakened or killed form of a disease-causing organism, or part of it. When a bird is vaccinated, its immune system learns to recognise that disease and builds protection (immunity) without the bird getting seriously ill. If the bird later meets the real disease, it can fight it off. Vaccination is one of the most important tools to prevent diseases such as Newcastle disease, infectious bronchitis, Gumboro (infectious bursal disease), Marek's disease and fowl pox.</p><h4>Types of vaccine</h4><table><tr><th>Type</th><th>Features</th></tr><tr><td>Live vaccines</td><td>Contain weakened live organisms; given by spray, drinking water, eye drop or wing web; quick immunity; easily killed by heat, sunlight and disinfectants</td></tr><tr><td>Inactivated (killed) vaccines</td><td>Usually oil-based, given by injection; longer-lasting protection; often used in layers and breeders before lay</td></tr><tr><td>Recombinant / vector vaccines</td><td>Newer technology, often given at the hatchery</td></tr></table><h4>Maternal antibodies</h4><p>Chicks receive some antibodies from the hen through the egg yolk. These protect the chick for the first days but can also interfere with early vaccines. This is one reason why the vet sets the timing of vaccines carefully.</p><h4>The vaccination programme</h4><p>The vaccination programme is designed by the veterinarian for the farm, considering the type of bird, local disease risks, the hatchery's vaccinations and maternal immunity. Vaccines must be registered for use in South Africa. Never change the programme or the product without the vet's instruction.</p><h4>Vaccination is not enough alone</h4><p>Vaccines work best in healthy, unstressed birds in a clean, biosecure environment. Poor management, other diseases and stress can lead to vaccine failure.</p>"
+  },
+  {
+   "title": "Handling and storing vaccines",
+   "minutes": 15,
+   "html": "<h3>Keeping vaccines alive and effective</h3><p>Most vaccine failures on farms are caused by poor handling, not by poor vaccines.</p><h4>The cold chain</h4><ul><li>Collect or receive vaccines in a cooler box with ice packs. Do not let vials touch ice directly if the label says so, because some vaccines must not freeze.</li><li>Store vaccines in a dedicated fridge at the temperature on the label (commonly 2°C to 8°C). Never freeze vaccines unless the label requires it, as some cell-associated Marek's vaccines are kept in liquid nitrogen at the hatchery.</li><li>Keep a thermometer in the fridge and record the temperature daily.</li><li>Do not store food or drinks in the vaccine fridge.</li><li>Keep vaccines out of direct sunlight at all times.</li></ul><h4>Checking vaccines</h4><ul><li>Check the name, disease, strain, batch number and expiry date against the vet's programme.</li><li>Do not use expired vaccines, damaged vials or vaccines that have been frozen or heated by mistake.</li><li>Use the oldest stock first, if within date.</li></ul><h4>Preparing vaccines</h4><ul><li>Use only clean equipment, free of disinfectant residue, because disinfectants kill live vaccines.</li><li>Use cool, clean, non-chlorinated water or the diluent supplied, as the label says.</li><li>Mix vaccine only just before use and use it within the time on the label, usually within a short period after mixing.</li><li>Wear gloves and eye protection as the label recommends.</li></ul><h4>Disposal</h4><p>Leftover vaccine and empty vials must be disposed of as the label and farm procedures say, for example by disinfecting or incinerating. Never leave them lying around. Accidental self-injection with oil-based vaccines is a serious medical emergency: seek medical help at once and take the product label.</p>"
+  },
+  {
+   "title": "Vaccinating birds",
+   "minutes": 15,
+   "html": "<h3>Methods and good practice</h3><h4>Common methods</h4><ul><li><strong>Drinking water</strong>: stop chlorine and sanitisers in advance, use a stabiliser if instructed, withhold water briefly if instructed so birds are thirsty, and supply enough vaccine water for all birds to drink within the time on the label. Make sure all drinkers have vaccine water.</li><li><strong>Coarse spray</strong>: used for respiratory vaccines in chicks; switch off fans briefly as instructed, spray evenly over birds, and use distilled or clean non-chlorinated water.</li><li><strong>Eye drop</strong>: one drop in the eye; wait until it is absorbed before releasing the bird.</li><li><strong>Wing web</strong>: a two-pronged needle pierces the wing web, avoiding feathers, bones and blood vessels; used for fowl pox.</li><li><strong>Injection</strong>: subcutaneous (under the skin of the neck) or intramuscular (breast or thigh), with clean, calibrated injectors and correct needle size; change needles regularly.</li></ul><h4>During vaccination</h4><ul><li>Vaccinate in the cooler part of the day.</li><li>Handle birds gently to reduce stress.</li><li>Make sure every bird receives the correct dose; check the number of doses used against the number of birds.</li><li>Do not vaccinate sick birds unless the vet instructs.</li></ul><h4>Checking success</h4><p>For wing-web vaccination, check for a small swelling or scab ('take') a week later as the label says. The vet may take blood samples to measure antibody levels. Observe birds for mild reactions after live vaccines and report severe reactions.</p><h4>Records</h4><p>Record date, house, age, vaccine name, batch number, expiry, dose, method, number of birds and who vaccinated. Records support traceability and help the vet.</p><h4>Key points</h4><ul><li>Vaccines train the immune system; the vet sets the programme.</li><li>Keep vaccines cold, out of sunlight and never use expired or mishandled vaccines.</li><li>Disinfectants and chlorine kill live vaccines; use clean equipment and non-chlorinated water.</li><li>Choose the method on the label: water, spray, eye drop, wing web or injection.</li><li>Record every vaccination, and seek medical help at once after accidental self-injection.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a vaccine do?",
+   "options": [
+    {
+     "text": "Helps the immune system build protection against a disease",
+     "correct": true
+    },
+    {
+     "text": "Cures all diseases",
+     "correct": false
+    },
+    {
+     "text": "Makes birds grow faster",
+     "correct": false
+    },
+    {
+     "text": "Cleans the water lines",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who designs the farm's vaccination programme?",
+   "options": [
+    {
+     "text": "The feed supplier",
+     "correct": false
+    },
+    {
+     "text": "The veterinarian",
+     "correct": true
+    },
+    {
+     "text": "Any worker",
+     "correct": false
+    },
+    {
+     "text": "The truck driver",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must chlorine be stopped before vaccinating in drinking water?",
+   "options": [
+    {
+     "text": "It makes water taste better",
+     "correct": false
+    },
+    {
+     "text": "It speeds up vaccination",
+     "correct": false
+    },
+    {
+     "text": "It kills live vaccines",
+     "correct": true
+    },
+    {
+     "text": "It helps birds drink",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the most common cause of vaccine failure on farms?",
+   "options": [
+    {
+     "text": "Too many vaccines",
+     "correct": false
+    },
+    {
+     "text": "Using the vet's programme",
+     "correct": false
+    },
+    {
+     "text": "Healthy birds",
+     "correct": false
+    },
+    {
+     "text": "Poor handling of vaccines",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which method is used for fowl pox vaccination?",
+   "options": [
+    {
+     "text": "Wing web",
+     "correct": true
+    },
+    {
+     "text": "Drinking water only",
+     "correct": false
+    },
+    {
+     "text": "Feed",
+     "correct": false
+    },
+    {
+     "text": "Footbath",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Food and drinks may be stored in the vaccine fridge if there is space.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Accidental self-injection with an oil-based vaccine needs medical help at once.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should you check before using a vaccine? (select all that apply)",
+   "options": [
+    {
+     "text": "Expiry date",
+     "correct": true
+    },
+    {
+     "text": "Batch number",
+     "correct": true
+    },
+    {
+     "text": "That it matches the vet's programme",
+     "correct": true
+    },
+    {
+     "text": "The colour of the box only",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

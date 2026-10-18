@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-7568",
+ "title": "Demonstrate knowledge of and produce word processing documents using basic functions",
+ "lessons": [
+  {
+   "title": "Starting a document and saving it",
+   "minutes": 15,
+   "html": "<h3>What a word processor does</h3><p>A word processor is a computer program for typing letters, reports and forms. Common ones are Microsoft Word, LibreOffice Writer and Google Docs. On a seed farm you may use it to type a trial report, a notice for the workers' board, or a letter to a seed buyer.</p><h4>Opening the program</h4><ol><li>Switch on the computer and log in with your own user name and password.</li><li>Click the Start button or the program icon.</li><li>Choose <strong>Blank document</strong> to start a new page.</li></ol><h4>Parts of the screen</h4><ul><li><strong>Title bar</strong> at the top shows the name of the file.</li><li><strong>Menu or ribbon</strong> holds the buttons, such as File, Home and Insert.</li><li><strong>Cursor</strong> is the blinking line. Your typing appears where the cursor is.</li><li><strong>Scroll bar</strong> on the side moves you up and down the page.</li></ul><h4>Typing</h4><p>Type normally. The program moves to the next line by itself. Press <strong>Enter</strong> only when you want a new paragraph. Use <strong>Backspace</strong> to remove the letter to the left of the cursor and <strong>Delete</strong> to remove the letter to the right.</p><h4>Saving your work</h4><p>Save early and save often. If the power goes off during load shedding, work that is not saved is lost.</p><ol><li>Click <strong>File</strong>, then <strong>Save As</strong>.</li><li>Choose the right folder, for example <em>Trials &gt; 2026 &gt; Maize</em>.</li><li>Give the file a clear name, such as <em>Maize trial block 3 report March 2026</em>.</li><li>Click <strong>Save</strong>.</li></ol><p>After the first save, press <strong>Ctrl + S</strong> every few minutes to save again. A clear file name helps your supervisor find the file later. Do not use names like <em>Doc1</em> or <em>New</em>.</p><h4>Closing</h4><p>When you are done, save, then click <strong>File &gt; Close</strong>. If the program asks \"Do you want to save changes?\", read the question carefully before you click.</p>"
+  },
+  {
+   "title": "Editing and formatting text",
+   "minutes": 15,
+   "html": "<h3>Making changes to text</h3><p>Editing means changing words. Formatting means changing how the words look. Both make a document easy to read.</p><h4>Selecting text</h4><p>Before you change text, you must select it. Click at the start of the words, hold the left mouse button and drag to the end. The selected text turns a different colour. Double-click selects one word. <strong>Ctrl + A</strong> selects the whole document.</p><h4>Copy, cut and paste</h4><ul><li><strong>Copy (Ctrl + C)</strong> keeps the text where it is and makes a copy.</li><li><strong>Cut (Ctrl + X)</strong> removes the text so you can move it.</li><li><strong>Paste (Ctrl + V)</strong> puts the copied or cut text where the cursor is.</li><li><strong>Undo (Ctrl + Z)</strong> takes back your last action if you make a mistake.</li></ul><h4>Formatting buttons</h4><table><tr><th>Button</th><th>What it does</th></tr><tr><td>B</td><td>Makes text bold, good for headings</td></tr><tr><td>I</td><td>Makes text slanted (italic)</td></tr><tr><td>U</td><td>Underlines text</td></tr><tr><td>Font size</td><td>Makes letters bigger or smaller</td></tr><tr><td>Align</td><td>Moves text to the left, centre or right</td></tr></table><p>Use one or two fonts only. A heading can be size 14 and bold. Normal text can be size 11 or 12. A notice for the workers' board can use bigger letters so people can read it from a distance.</p><h4>Lists and tables</h4><p>Use the bullet or number button to make a list, for example the steps to clean a seed planter. Use <strong>Insert &gt; Table</strong> to make rows and columns, for example to show trial plot numbers and germination results.</p><h4>Spell check</h4><p>Words with a wavy red line may be spelt wrong. Right-click the word to see suggestions. The computer does not know every farm word or cultivar name, so check names and numbers yourself. A wrong number in a seed trial report can cause a big problem.</p>"
+  },
+  {
+   "title": "Printing and looking after files",
+   "minutes": 15,
+   "html": "<h3>Getting the document ready to print</h3><p>Before you print, check the page layout. Click <strong>Layout</strong> or <strong>Page Setup</strong>.</p><ul><li><strong>Paper size:</strong> in South Africa we normally use A4.</li><li><strong>Orientation:</strong> Portrait is tall. Landscape is wide, which is useful for big tables.</li><li><strong>Margins:</strong> the white space around the edges. Normal margins are fine for most work.</li></ul><h4>Headers, footers and page numbers</h4><p>A header or footer is text that shows on every page. Put the farm name, the date and page numbers there. Click <strong>Insert &gt; Page Number</strong>. Page numbers help when a long report is printed and the pages get mixed up.</p><h4>Print preview and printing</h4><ol><li>Click <strong>File &gt; Print</strong>.</li><li>Look at the preview on the right. Check that tables fit on the page and nothing is cut off.</li><li>Choose the correct printer.</li><li>Choose how many copies and which pages you want.</li><li>Click <strong>Print</strong>.</li></ol><p>Paper and ink cost money. Print only what you need, and check the preview first so you do not print the same thing twice.</p><h4>Looking after your files</h4><ul><li>Keep files in folders with clear names, for example by year and crop.</li><li>Use <strong>Save As</strong> with a new name when you want a new version, so the old one stays safe.</li><li>Make a backup copy on a memory stick, a server or cloud storage, as your supervisor tells you.</li><li>Never open files from unknown memory sticks or emails. They can carry viruses.</li><li>Do not share your password with anyone.</li></ul><h4>Working safely at the computer</h4><p>Sit up straight with your feet flat. Keep the screen at eye level. Rest your eyes every 20 to 30 minutes by looking at something far away. Keep drinks away from the keyboard.</p><h4>Key points</h4><ul><li>Save with a clear file name in the right folder, and save often.</li><li>Select text first, then edit or format it.</li><li>Check spelling, names and numbers yourself.</li><li>Use print preview before printing.</li><li>Keep backups and protect your password.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which keys save your document again after the first save?",
+   "options": [
+    {
+     "text": "Ctrl + P",
+     "correct": false
+    },
+    {
+     "text": "Ctrl + Z",
+     "correct": false
+    },
+    {
+     "text": "Ctrl + S",
+     "correct": true
+    },
+    {
+     "text": "Ctrl + A",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is the best file name for a trial report?",
+   "options": [
+    {
+     "text": "Doc1",
+     "correct": false
+    },
+    {
+     "text": "Maize trial block 3 report March 2026",
+     "correct": true
+    },
+    {
+     "text": "New",
+     "correct": false
+    },
+    {
+     "text": "Report",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does Undo (Ctrl + Z) do?",
+   "options": [
+    {
+     "text": "Prints the page",
+     "correct": false
+    },
+    {
+     "text": "Makes text bold",
+     "correct": false
+    },
+    {
+     "text": "Closes the program",
+     "correct": false
+    },
+    {
+     "text": "Takes back your last action",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which page orientation is wide and useful for big tables?",
+   "options": [
+    {
+     "text": "Landscape",
+     "correct": true
+    },
+    {
+     "text": "Portrait",
+     "correct": false
+    },
+    {
+     "text": "Margin",
+     "correct": false
+    },
+    {
+     "text": "Header",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before you can make text bold?",
+   "options": [
+    {
+     "text": "Print the page",
+     "correct": false
+    },
+    {
+     "text": "Close the document",
+     "correct": false
+    },
+    {
+     "text": "Select the text",
+     "correct": true
+    },
+    {
+     "text": "Turn on spell check",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spell check will always find wrong numbers and cultivar names, so you do not need to check them.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Print preview lets you see how the page will look before you print it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good habits for looking after your files? (select all that apply)",
+   "options": [
+    {
+     "text": "Keep a backup copy as your supervisor tells you",
+     "correct": true
+    },
+    {
+     "text": "Share your password with a friend",
+     "correct": false
+    },
+    {
+     "text": "Use clear folder and file names",
+     "correct": true
+    },
+    {
+     "text": "Use Save As with a new name for a new version",
+     "correct": true
+    },
+    {
+     "text": "Open files from any unknown memory stick",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

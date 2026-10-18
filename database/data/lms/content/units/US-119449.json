@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119449",
+ "title": "Manage hatching eggs for setting",
+ "lessons": [
+  {
+   "title": "Producing and collecting good hatching eggs",
+   "minutes": 15,
+   "html": "<h3>Hatchability starts on the breeder farm</h3><p>A hatching egg contains a living embryo from the moment it is laid. Everything that happens between the nest and the incubator affects whether it becomes a healthy chick. A supervisor managing hatching eggs must protect egg quality, prevent contamination and keep accurate records so the hatchery can plan.</p><h4>Nest management</h4><ul><li>Keep nest material clean and dry, or keep automatic nest pads clean and in good repair.</li><li>Encourage hens to use nests from the start of lay so floor eggs are few.</li><li>Close nests at night where the system allows, so birds do not sleep and defecate in them.</li></ul><h4>Collection</h4><ul><li>Collect eggs often during the day, as set out in the farm's procedure. Frequent collection reduces cracks, dirt and early embryo development in hot nests.</li><li>Wash and sanitise hands before collecting; use clean trays or setter trays.</li><li>Place eggs blunt (air cell) end up.</li><li>Collect and keep floor eggs separate. They are more likely to be contaminated and should not be mixed with nest eggs; follow the hatchery's rule on whether they may be set.</li></ul><h4>Grading and selection</h4><p>Select only eggs fit for setting. Reject eggs that are:</p><ul><li>cracked, with thin or rough shells;</li><li>badly dirty or stained with droppings or blood;</li><li>misshapen, very small or very large (double yolks);</li><li>outside the weight range the hatchery accepts.</li></ul><p>Do not wipe or scrub dirty eggs with a damp cloth. Rubbing pushes bacteria into the shell pores and destroys the protective cuticle. Follow the farm's approved method for slightly soiled eggs or reject them.</p>"
+  },
+  {
+   "title": "Sanitising, storage and transport",
+   "minutes": 15,
+   "html": "<h3>Keeping the embryo alive and clean</h3><h4>Egg sanitation</h4><p>Eggs are usually sanitised soon after collection to reduce bacteria on the shell. Methods include fumigation, spraying or other approved sanitisers. Use only the product and method the hatchery or vet approves, at the label rate. Many sanitising chemicals are hazardous: wear the PPE stated on the label, work in a ventilated area and never improvise doses.</p><h4>Cooling and storage</h4><ul><li>Cool eggs gradually after collection, then hold them in a dedicated egg store.</li><li>Store at the temperature and humidity set in the hatchery or breed guide. Recommended storage temperature is lower for longer storage periods, so check the guide.</li><li>Avoid temperature swings. Condensation (\"sweating\") on cold eggs moved into warm air helps bacteria enter the shell.</li><li>Hatchability falls the longer eggs are stored, so set eggs in the order they were laid and keep storage short.</li><li>Keep the egg store clean, rodent-free and used only for eggs.</li></ul><h4>Turning during storage</h4><p>For longer storage, some hatcheries tilt or turn eggs. Follow your hatchery's instructions.</p><h4>Transport to the hatchery</h4><ul><li>Use a clean, disinfected vehicle that enters through the farm's biosecurity point.</li><li>Keep eggs cool and shaded; avoid parking in the sun.</li><li>Drive carefully on farm roads to prevent cracks.</li><li>Load trolleys securely so trays cannot slide.</li></ul>"
+  },
+  {
+   "title": "Records and traceability",
+   "minutes": 15,
+   "html": "<h3>Every tray tells a story</h3><p>Hatcheries need to know where each egg came from and when it was laid, so that problems can be traced and setting can be planned.</p><h4>What to record</h4><ul><li>Flock number, house and age of the flock.</li><li>Date of lay and number of eggs collected.</li><li>Number of eggs rejected and the reason (cracked, dirty, floor, misshapen).</li><li>Sanitation done, product and time.</li><li>Egg store temperature and humidity, morning and afternoon.</li><li>Dispatch date, number of trays and vehicle.</li></ul><p>Label every trolley or batch with flock and lay date.</p><h4>Using the feedback</h4><p>The hatchery reports fertility, hatchability and chick quality per flock. If hatch results drop, look for causes on the farm: high floor-egg numbers, long storage, temperature swings in the egg store, rough handling, or a flock health or nutrition problem. Discuss results with the farm manager and hatchery manager and agree on corrections.</p><h4>Key points</h4><ul><li>Collect eggs often, with clean hands and trays, blunt end up.</li><li>Keep floor eggs separate and never scrub dirty eggs with a damp cloth.</li><li>Sanitise only with approved products at label rate and wear the correct PPE.</li><li>Store at the guide's temperature, avoid sweating, and keep storage time short.</li><li>Label and record every batch so hatch problems can be traced.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which way up should hatching eggs be placed in trays?",
+   "options": [
+    {
+     "text": "It does not matter",
+     "correct": false
+    },
+    {
+     "text": "Blunt (air cell) end up",
+     "correct": true
+    },
+    {
+     "text": "Lying on their side",
+     "correct": false
+    },
+    {
+     "text": "Pointed end up",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should dirty hatching eggs not be wiped with a damp cloth?",
+   "options": [
+    {
+     "text": "It cools the egg too fast",
+     "correct": false
+    },
+    {
+     "text": "It makes the shell too shiny",
+     "correct": false
+    },
+    {
+     "text": "It changes the egg weight",
+     "correct": false
+    },
+    {
+     "text": "It pushes bacteria into the pores and damages the cuticle",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens to hatchability when eggs are stored for a long time?",
+   "options": [
+    {
+     "text": "It stays the same",
+     "correct": false
+    },
+    {
+     "text": "It only changes for brown eggs",
+     "correct": false
+    },
+    {
+     "text": "It increases",
+     "correct": false
+    },
+    {
+     "text": "It decreases",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is \"sweating\" of eggs?",
+   "options": [
+    {
+     "text": "Eggs losing weight in the incubator",
+     "correct": false
+    },
+    {
+     "text": "Hens sitting on eggs too long",
+     "correct": false
+    },
+    {
+     "text": "Eggs being washed with warm water",
+     "correct": false
+    },
+    {
+     "text": "Condensation forming when cold eggs are moved into warm air",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Hatch results from one flock drop. Which farm cause should you check first among these?",
+   "options": [
+    {
+     "text": "The number of staff on leave",
+     "correct": false
+    },
+    {
+     "text": "The colour of the egg trays",
+     "correct": false
+    },
+    {
+     "text": "The brand of the delivery bakkie",
+     "correct": false
+    },
+    {
+     "text": "A rise in floor eggs or temperature swings in the egg store",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Floor eggs should be collected and kept separate from nest eggs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Egg sanitising chemicals can be mixed at any strength the worker thinks is best.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which eggs should be rejected for setting? (select all that apply)",
+   "options": [
+    {
+     "text": "Clean eggs within the hatchery weight range",
+     "correct": false
+    },
+    {
+     "text": "Very large double-yolk eggs",
+     "correct": true
+    },
+    {
+     "text": "Eggs heavily stained with droppings",
+     "correct": true
+    },
+    {
+     "text": "Cracked eggs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

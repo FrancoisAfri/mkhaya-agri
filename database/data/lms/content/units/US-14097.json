@@ -1,0 +1,178 @@
+{
+  "unit_key": "US-14097",
+  "title": "Know, select and use materials, tools and equipment safely for technological purposes",
+  "lessons": [
+    {
+      "title": "Choosing the right material and tool",
+      "minutes": 15,
+      "html": "<h3>Materials</h3><p>Every job on a farm uses <strong>materials</strong>. A material is what something is made from. To make a good job, you must choose the right material for the purpose.</p><table><tr><th>Material</th><th>Good for</th><th>Watch out</th></tr><tr><td>Wood (poles, planks)</td><td>Fence posts, kraals, shelves</td><td>Rots in wet soil unless treated</td></tr><tr><td>Steel and wire</td><td>Fences, gates, frames</td><td>Rusts; sharp ends cut skin</td></tr><tr><td>Plastic (PVC, polyethylene)</td><td>Water pipes, drip lines, tanks</td><td>Gets brittle in the sun over time</td></tr><tr><td>Cement and bricks</td><td>Troughs, floors, dip tanks</td><td>Wet cement burns skin</td></tr></table><h4>Hand tools</h4><p>Hand tools work with your own strength: hammer, spade, pick, panga, saw, pliers, spanner, screwdriver and wire strainer. Power tools use electricity or fuel: drill, angle grinder, chainsaw and brush cutter.</p><h4>Selecting the right tool</h4><ol><li>Think about the job. For example, to cut fencing wire use wire cutters or pliers, not a panga.</li><li>Pick the right size. A small spanner on a big nut will slip and hurt your hand.</li><li>Check the tool before you use it. Look for loose handles, cracks, blunt edges and damaged cables.</li><li>Do not use a broken tool. Put it aside and tell your supervisor.</li></ol><h4>Measuring</h4><p>Many jobs need measuring first, using a tape measure, spirit level or measuring jug. Measure twice and cut once, so you do not waste material. Write down the measurements.</p><p>A tool used for the wrong job can break, damage the work and injure you or the people around you.</p><p>Ask an experienced worker or your supervisor if you are not sure which material or tool is right. It is better to ask than to waste material or get hurt.</p>"
+    },
+    {
+      "title": "Using tools and equipment safely",
+      "minutes": 15,
+      "html": "<h3>Safety comes first</h3><p>The Occupational Health and Safety Act 85 of 1993 says your employer must give you safe tools and training, and you must work safely and use the protective equipment you are given.</p><h4>Personal protective equipment (PPE)</h4><ul><li><strong>Safety glasses or goggles</strong> when grinding, drilling, chopping or cutting wire.</li><li><strong>Gloves</strong> when handling wire, cement, sharp material or chemicals.</li><li><strong>Safety boots</strong> to protect your feet.</li><li><strong>Ear protection</strong> near loud machines such as chainsaws and brush cutters.</li><li><strong>Dust mask</strong> when cutting, sanding or mixing cement.</li></ul><h4>Safe working rules</h4><ol><li>Only use power tools you have been trained and allowed to use.</li><li>Keep your work area clean and tidy, so nobody trips.</li><li>Keep other people, especially children, away from your work.</li><li>Cut away from your body, never towards it.</li><li>Switch off and unplug a power tool before you change a blade or clean it.</li><li>Keep electrical cables away from water and sharp edges.</li><li>Carry sharp tools with the blade pointing down, and never throw tools to someone.</li></ol><h4>Never do this</h4><ul><li>Never remove a guard from a machine.</li><li>Never use a tool when you are tired, drunk or have taken drugs.</li><li>Never use petrol to clean your hands or start a fire.</li></ul><h4>Looking after tools</h4><p>After work, clean the tools, oil steel parts so they do not rust, sharpen blades, and store everything in the store room in its place. Count the tools so nothing gets lost. Report damaged tools.</p><h4>If someone is hurt</h4><p>Stop work, make the area safe, call for help and report the injury to your supervisor straight away. Only give first aid if you are trained.</p><h4>Key points</h4><ul><li>Choose the right material and tool for each job.</li><li>Check tools before use and do not use broken tools.</li><li>Always wear the correct PPE.</li><li>Switch off and unplug power tools before cleaning or changing parts.</li><li>Clean, store and count tools after work.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which material is best for water pipes and drip lines?",
+      "options": [
+        {
+          "text": "Wood",
+          "correct": false
+        },
+        {
+          "text": "Plastic (PVC or polyethylene)",
+          "correct": true
+        },
+        {
+          "text": "Bricks",
+          "correct": false
+        },
+        {
+          "text": "Cardboard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do with a tool that has a cracked handle?",
+      "options": [
+        {
+          "text": "Use it carefully",
+          "correct": false
+        },
+        {
+          "text": "Tape it and keep working",
+          "correct": false
+        },
+        {
+          "text": "Put it aside and tell your supervisor",
+          "correct": true
+        },
+        {
+          "text": "Give it to a co-worker",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What PPE protects your eyes when using an angle grinder?",
+      "options": [
+        {
+          "text": "Safety glasses or goggles",
+          "correct": true
+        },
+        {
+          "text": "Gloves",
+          "correct": false
+        },
+        {
+          "text": "Ear plugs",
+          "correct": false
+        },
+        {
+          "text": "A hat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What must you do before changing the blade on a power tool?",
+      "options": [
+        {
+          "text": "Make it run faster",
+          "correct": false
+        },
+        {
+          "text": "Ask a friend to hold it while it runs",
+          "correct": false
+        },
+        {
+          "text": "Wet it with water",
+          "correct": false
+        },
+        {
+          "text": "Switch it off and unplug it",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which law requires employers to give safe tools and training?",
+      "options": [
+        {
+          "text": "The Occupational Health and Safety Act 85 of 1993",
+          "correct": true
+        },
+        {
+          "text": "The National Water Act",
+          "correct": false
+        },
+        {
+          "text": "The Meat Safety Act",
+          "correct": false
+        },
+        {
+          "text": "The Consumer Protection Act",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You should always cut away from your body.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to remove a machine guard if it slows down your work.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "What should you do with tools at the end of the day? (select all that apply)",
+      "options": [
+        {
+          "text": "Clean them",
+          "correct": true
+        },
+        {
+          "text": "Leave them in the field",
+          "correct": false
+        },
+        {
+          "text": "Oil steel parts so they do not rust",
+          "correct": true
+        },
+        {
+          "text": "Store and count them in the store room",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

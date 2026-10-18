@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115805",
+ "title": "Train/selectively prune macadamia trees",
+ "lessons": [
+  {
+   "title": "Why and how macadamia trees are trained",
+   "minutes": 15,
+   "html": "<h3>Training young trees</h3>\n<p>Training means shaping a young tree in its first years so it grows a strong frame. Pruning means cutting branches on older trees. Both are done to get a healthy tree that carries a good crop and is easy to manage.</p>\n<h4>Why train and prune?</h4>\n<ul><li>A strong central leader (main stem) with well-spaced side branches does not split in the wind.</li>\n<li>Light gets into the tree, so more of the tree carries nuts.</li>\n<li>Air moves through the tree, which reduces disease.</li>\n<li>Sprays reach all parts of the tree.</li>\n<li>The orchard floor gets light, so grass grows and the soil does not wash away.</li>\n<li>Rows stay open so tractors and sprayers can pass.</li></ul>\n<h4>The central leader</h4>\n<p>Many South African growers train macadamias to one central leader. Macadamia buds grow in groups of three at each node. If the tip is cut, up to three shoots can grow from the node, which can make a weak fork.</p>\n<ul><li>Keep one strong, upright leader.</li>\n<li>Remove competing upright shoots that try to become a second leader, as your supervisor shows you.</li>\n<li>Select side branches that grow out at a wide angle, spaced around the tree and up the stem.</li>\n<li>Remove narrow-angled branches; they split easily.</li>\n<li>Remove low branches near the ground so the skirt is high enough for mowing and harvesting, at the height the farm sets.</li></ul>\n<h4>Tools</h4>\n<ul><li>Sharp secateurs for thin shoots</li>\n<li>Loppers for thicker branches</li>\n<li>Pruning saw for large branches</li>\n<li>Disinfectant for tools, as the farm instructs</li></ul>"
+  },
+  {
+   "title": "Selective pruning of bearing trees",
+   "minutes": 15,
+   "html": "<h3>What is selective pruning?</h3>\n<p>Selective pruning means choosing which branches to remove one by one, instead of cutting everything back. It is gentler than hedging (cutting with a machine) and keeps more of the crop.</p>\n<h3>What to remove</h3>\n<ol><li><strong>Dead, diseased and broken branches</strong> – always first.</li>\n<li><strong>Crossing and rubbing branches</strong> – they damage the bark.</li>\n<li><strong>Branches growing into the centre</strong> – they shade the inside.</li>\n<li><strong>Extra leaders</strong> – keep one main leader.</li>\n<li><strong>Low branches</strong> – that touch the ground or block machines.</li>\n<li><strong>Large branches</strong> that block light to the orchard floor or into the next row, as the supervisor marks them.</li></ol>\n<h3>When to prune</h3>\n<p>Many farms prune after harvest and before the main flowering, but the timing depends on the farm's programme and cultivar. Follow your supervisor's schedule.</p>\n<h3>Making good cuts</h3>\n<ul><li>Cut just outside the branch collar (the swollen ring at the base of the branch). Do not cut flush with the trunk and do not leave a stub.</li>\n<li>For heavy branches, use the three-cut method: first an undercut a short way out from the trunk, then a top cut a little further out to drop the branch, then the final cut at the collar. This stops the bark tearing.</li>\n<li>Make clean cuts with sharp tools.</li></ul>\n<h3>Clean-up</h3>\n<p>Pull pruned branches into the inter-row for chipping or mulching, or remove them as the farm decides. Keep rows clear.</p>\n<h3>Safety</h3>\n<ul><li>Wear gloves, eye protection, boots and a hard hat when cutting overhead.</li>\n<li>Use a stable orchard ladder on firm ground. Never stand on the top step.</li>\n<li>Chainsaws and pole saws only if trained and authorised.</li>\n<li>Do not stand under a branch you are cutting. Keep others clear.</li></ul>\n<h4>Key points</h4>\n<ul><li>Train young trees to one strong central leader with wide-angled side branches.</li>\n<li>Macadamia nodes have three buds; cutting the tip can cause a weak fork.</li>\n<li>Remove dead, crossing, inward-growing and low branches first.</li>\n<li>Cut outside the branch collar; use the three-cut method for heavy branches.</li>\n<li>Use a stable ladder and never stand under a branch you are cutting.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main aim of training a young macadamia tree?",
+   "options": [
+    {
+     "text": "To make it flower early",
+     "correct": false
+    },
+    {
+     "text": "To make it shorter than a bush",
+     "correct": false
+    },
+    {
+     "text": "To grow a strong frame with one central leader",
+     "correct": true
+    },
+    {
+     "text": "To remove all side branches",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are narrow-angled branches removed?",
+   "options": [
+    {
+     "text": "They split easily",
+     "correct": true
+    },
+    {
+     "text": "They grow nuts too fast",
+     "correct": false
+    },
+    {
+     "text": "They are too short",
+     "correct": false
+    },
+    {
+     "text": "They block irrigation",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How many buds are usually found at each macadamia node?",
+   "options": [
+    {
+     "text": "One",
+     "correct": false
+    },
+    {
+     "text": "Three",
+     "correct": true
+    },
+    {
+     "text": "Five",
+     "correct": false
+    },
+    {
+     "text": "Ten",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should a pruning cut be made when removing a branch?",
+   "options": [
+    {
+     "text": "Flush with the trunk",
+     "correct": false
+    },
+    {
+     "text": "Leaving a long stub",
+     "correct": false
+    },
+    {
+     "text": "In the middle of the branch",
+     "correct": false
+    },
+    {
+     "text": "Just outside the branch collar",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why use the three-cut method on heavy branches?",
+   "options": [
+    {
+     "text": "To save time",
+     "correct": false
+    },
+    {
+     "text": "To make more cuts for the record",
+     "correct": false
+    },
+    {
+     "text": "To stop the bark tearing",
+     "correct": true
+    },
+    {
+     "text": "To make the branch grow back",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dead, diseased and broken branches should be removed first.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should stand under the branch you are cutting so you can catch it.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are reasons to prune macadamia trees? (select all that apply)",
+   "options": [
+    {
+     "text": "Let light into the tree",
+     "correct": true
+    },
+    {
+     "text": "Improve air movement and spray cover",
+     "correct": true
+    },
+    {
+     "text": "Keep rows open for tractors",
+     "correct": true
+    },
+    {
+     "text": "Make the tree split in the wind",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

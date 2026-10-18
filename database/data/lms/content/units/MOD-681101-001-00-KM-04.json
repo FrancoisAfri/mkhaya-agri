@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-001-00-KM-04",
+ "title": "Red Meat Safety, Quality and Good Manufacturing Practices (GMPs)",
+ "lessons": [
+  {
+   "title": "Meat safety: where contamination comes from",
+   "minutes": 20,
+   "html": "<h3>Why meat safety matters</h3><p>Raw meat is a perfect place for germs (bacteria) to grow. Some bacteria, such as <em>Salmonella</em>, <em>E. coli</em> and <em>Listeria</em>, can make people seriously ill. The muscle inside a healthy animal is almost free of germs. Most contamination happens <strong>during slaughter</strong>, when germs move from the hide, hair, gut contents, dirty hands, knives and equipment onto the clean meat surface.</p><h3>Main sources of contamination</h3><table><tr><th>Source</th><th>How it happens</th></tr><tr><td>Hide and hair</td><td>The outside of the hide touches the meat during flaying; dirty cattle carry dung on the hide</td></tr><tr><td>Gut contents</td><td>A cut stomach or intestine, or leaking weasand or rectum</td></tr><tr><td>Hands and clothing</td><td>Touching the hide then the meat; dirty aprons</td></tr><tr><td>Knives and equipment</td><td>Not sterilised between cuts or carcasses</td></tr><tr><td>Floor and drains</td><td>Meat touching the floor; splashing from hoses</td></tr><tr><td>Water</td><td>Using unsafe water</td></tr><tr><td>Pests</td><td>Flies, rats, birds</td></tr></table><h3>Chemical and physical hazards</h3><p>Meat can also be contaminated by chemicals (residues of veterinary medicines if withdrawal periods were not followed, cleaning chemicals) and by physical objects (pieces of plastic, metal from broken equipment, jewellery, hair).</p><h3>Temperature</h3><p>Bacteria grow fastest at warm temperatures. Carcasses must be moved to the chillers promptly and kept cold. A broken cold chain shortens shelf life and increases the risk of food poisoning.</p><h3>The law</h3><p>The Meat Safety Act 40 of 2000 and its regulations set hygiene requirements for abattoirs, and meat inspectors check that carcasses are safe before they get the inspection stamp. Abattoirs also use food safety systems such as HACCP (Hazard Analysis and Critical Control Points) to identify where hazards can occur and control them.</p>"
+  },
+  {
+   "title": "Good manufacturing practices and meat quality",
+   "minutes": 20,
+   "html": "<h3>Good manufacturing practices (GMPs)</h3><p>GMPs are the everyday rules that keep meat safe. Every worker must follow them.</p><h4>Personal hygiene</h4><ul><li>Wash hands at the hand-wash stations each time you start, after the toilet, and whenever they become dirty.</li><li>Wear clean protective clothing, hair net and beard cover. Change clothes before going from dirty to clean areas.</li><li>No jewellery, watches, false nails or nail polish.</li><li>No eating, drinking, smoking or chewing on the slaughter floor.</li><li>Report illness, diarrhoea, infected cuts or sores to your supervisor before you start.</li></ul><h4>Hygienic slaughter practice</h4><ul><li>Use the <strong>two-knife system</strong>: one knife in use while the other is in the steriliser. Sterilisers should keep water at a high temperature (commonly at least 82 °C).</li><li>Sterilise knives and hands after touching the hide or any contaminated surface, and between carcasses.</li><li>Make the opening cuts from the inside of the hide outward, so the hair is not pushed into the meat.</li><li>Tie or clip the weasand and bag the rectum to stop leaks.</li><li>Never let meat touch the floor, walls or platforms. Meat that falls must be dealt with as the inspector says.</li><li>Trim visible contamination; do not wash it off and spread it.</li></ul><h4>Plant hygiene</h4><p>Clean and sanitise equipment and rooms according to the cleaning schedule. Control pests. Keep doors closed.</p><h3>Meat quality</h3><p>Quality is how good the meat is for the buyer: tenderness, colour, fat cover and shelf life. Quality is lowered by:</p><ul><li><strong>Bruising</strong> from rough handling, which must be trimmed away.</li><li><strong>Stress before slaughter</strong>, which can give dark, firm, dry meat (dark cutters).</li><li><strong>Poor bleeding</strong>, contamination and bad cuts.</li><li><strong>Slow chilling</strong>.</li></ul><p>In South Africa carcasses are also <strong>classified</strong> by age (teeth) and fat cover, which affects the price.</p><h4>Key points</h4><ul><li>Most contamination comes from hide, gut contents, hands and knives during slaughter.</li><li>Follow GMPs: hand washing, clean PPE, no jewellery, report illness.</li><li>Use the two-knife system and sterilise between carcasses.</li><li>Trim contamination instead of washing it off.</li><li>Calm handling and fast chilling protect meat quality.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where does most contamination of meat happen?",
+   "options": [
+    {
+     "text": "Inside the healthy muscle",
+     "correct": false
+    },
+    {
+     "text": "In the farmer's camp",
+     "correct": false
+    },
+    {
+     "text": "During slaughter, from hide, gut contents, hands and knives",
+     "correct": true
+    },
+    {
+     "text": "Only in the butchery",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the two-knife system?",
+   "options": [
+    {
+     "text": "Using two knives at once",
+     "correct": false
+    },
+    {
+     "text": "One knife in use while the other is in the steriliser",
+     "correct": true
+    },
+    {
+     "text": "Two workers sharing a knife",
+     "correct": false
+    },
+    {
+     "text": "A knife and a steel",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should visible dung contamination on a carcass be handled?",
+   "options": [
+    {
+     "text": "Trim it off",
+     "correct": true
+    },
+    {
+     "text": "Wash it off with a hose",
+     "correct": false
+    },
+    {
+     "text": "Leave it for the chiller",
+     "correct": false
+    },
+    {
+     "text": "Wipe it with a cloth",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes dark cutters?",
+   "options": [
+    {
+     "text": "Stress before slaughter",
+     "correct": true
+    },
+    {
+     "text": "Fast chilling",
+     "correct": false
+    },
+    {
+     "text": "Too much fat",
+     "correct": false
+    },
+    {
+     "text": "Correct stunning",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does HACCP help an abattoir do?",
+   "options": [
+    {
+     "text": "Grade carcasses for price",
+     "correct": false
+    },
+    {
+     "text": "Pay workers",
+     "correct": false
+    },
+    {
+     "text": "Train cattle",
+     "correct": false
+    },
+    {
+     "text": "Identify where hazards can occur and control them",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may wear watches on the slaughter floor if they are waterproof.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Bacteria grow fastest at warm temperatures, so carcasses must be chilled promptly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good manufacturing practices? (select all that apply)",
+   "options": [
+    {
+     "text": "Reporting diarrhoea before starting work",
+     "correct": true
+    },
+    {
+     "text": "Washing hands at the hand-wash station",
+     "correct": true
+    },
+    {
+     "text": "Sterilising knives between carcasses",
+     "correct": true
+    },
+    {
+     "text": "Eating a snack on the slaughter floor",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

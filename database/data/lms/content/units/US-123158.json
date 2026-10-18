@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123158",
+ "title": "Demonstrate an understanding of Rooibos culture practices",
+ "lessons": [
+  {
+   "title": "How rooibos grows",
+   "minutes": 15,
+   "html": "<h3>Knowing the plant</h3><p>Rooibos (<em>Aspalathus linearis</em>) is a fynbos plant that grows naturally only in the Cederberg, Clanwilliam and nearby areas of the Western and Northern Cape. It is a small bush with thin, needle-like green leaves. When the leaves are cut, bruised and fermented they turn red-brown, which gives \"rooibos\" (red bush) its name.</p><h4>What rooibos likes</h4><ul><li><strong>Climate</strong> – winter rain and hot, dry summers.</li><li><strong>Soil</strong> – deep, sandy, acid soils that drain well. It does not like heavy clay or wet soils.</li><li><strong>Little fertiliser</strong> – rooibos is a legume. Bacteria in small lumps (nodules) on its roots take nitrogen from the air. It also works with fungi on its roots to get other food. Too much fertiliser can harm it.</li></ul><h4>Cultivated and wild rooibos</h4><p>Most rooibos comes from cultivated lands on farms. In some areas, small farmers also harvest wild rooibos from the veld. Wild rooibos must be harvested carefully so the plants recover.</p><h4>The life of a rooibos land</h4><table><tr><th>Stage</th><th>When</th></tr><tr><td>Seed collected and treated</td><td>Before sowing</td></tr><tr><td>Sown in seedbeds</td><td>Late summer / autumn</td></tr><tr><td>Transplanted into lands</td><td>Winter, with the rains</td></tr><tr><td>First harvest</td><td>A season or more after planting, as the farm decides</td></tr><tr><td>Harvest each year</td><td>Summer to early autumn</td></tr><tr><td>Land rested or replanted</td><td>When plants get old and yield drops</td></tr></table>"
+  },
+  {
+   "title": "Soil care, planting and weed control",
+   "minutes": 15,
+   "html": "<h3>Looking after the lands</h3><h4>Soil preparation</h4><p>Lands are cleared of weeds and old plants and worked so the soil is loose. Sandy soils blow away easily in wind, so farms leave strips of natural plants or stubble, or plant windbreaks. The Conservation of Agricultural Resources Act 43 of 1983 requires farmers to protect soil from erosion.</p><h4>Crop rotation</h4><p>After a land has been in rooibos for some years, many farms rest it or plant a grain crop like oats or rye before planting rooibos again. This helps against soil diseases and pests.</p><h4>Planting</h4><p>Hardened seedlings are planted in rows in winter when the soil is wet. Workers plant at the depth and spacing the supervisor sets and press the soil firmly around the roots.</p><h4>Weed control</h4><ul><li>Weeds compete for water, which is scarce in summer.</li><li>Weeds are removed by hoeing, by hand or with herbicides.</li><li>Herbicides may only be applied by trained workers, using a product registered under Act 36 of 1947 for that use, at the label rate.</li><li>Weeds and other plants must not be harvested with the rooibos because they spoil the tea.</li></ul><h4>Pests and diseases</h4><p>Rooibos can be attacked by insects and by fungus diseases that make plants die back. Workers must report plants that are dying, wilting or eaten. The supervisor will decide what to do.</p>"
+  },
+  {
+   "title": "Harvest, processing and sustainability",
+   "minutes": 15,
+   "html": "<h3>From the land to the cup</h3><h4>Harvesting</h4><p>Rooibos is harvested in summer by cutting the top branches, leaving part of the plant to grow again for next year. It is cut by hand with sickles or by machine, tied in bundles or loaded loose, and taken quickly to the tea court.</p><h4>Processing on the farm</h4><ol><li><strong>Cutting</strong> – the branches are cut into short pieces.</li><li><strong>Bruising</strong> – the pieces are wet and bruised so the juices come out.</li><li><strong>Fermenting</strong> – the tea lies in heaps for some hours and turns red-brown with a sweet smell.</li><li><strong>Drying</strong> – the tea is spread thinly on the tea court in the sun to dry.</li></ol><p>Green rooibos is not fermented. It is dried quickly after cutting so it stays green.</p><p>The dry tea is then sent to a processor, where it is sieved, graded, cleaned and pasteurised to make it safe, and packed.</p><h4>Sustainability</h4><ul><li>Protect the natural fynbos around the lands.</li><li>Prevent soil erosion.</li><li>Use water, fertiliser and chemicals carefully.</li><li>Keep the farm clean of litter and plastic.</li></ul><h4>Key points</h4><ul><li>Rooibos is a fynbos legume that grows naturally only in the Cederberg and nearby areas.</li><li>It likes deep, sandy, acid, well-drained soils and needs little fertiliser.</li><li>Seedlings are planted in winter and the crop is harvested in summer.</li><li>Processing is cutting, bruising, fermenting and drying; green rooibos is not fermented.</li><li>Protect soil from erosion and only trained workers may apply herbicides.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the name \"rooibos\" mean?",
+   "options": [
+    {
+     "text": "Red bush",
+     "correct": true
+    },
+    {
+     "text": "Green tea",
+     "correct": false
+    },
+    {
+     "text": "Mountain plant",
+     "correct": false
+    },
+    {
+     "text": "Sweet leaf",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which soil does rooibos prefer?",
+   "options": [
+    {
+     "text": "Heavy, wet clay",
+     "correct": false
+    },
+    {
+     "text": "Deep, sandy, acid, well-drained soil",
+     "correct": true
+    },
+    {
+     "text": "Salty soil",
+     "correct": false
+    },
+    {
+     "text": "Black turf soil",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why does rooibos need little nitrogen fertiliser?",
+   "options": [
+    {
+     "text": "Bacteria in nodules on its roots take nitrogen from the air",
+     "correct": true
+    },
+    {
+     "text": "It does not need food",
+     "correct": false
+    },
+    {
+     "text": "It gets nitrogen from rain only",
+     "correct": false
+    },
+    {
+     "text": "It grows in rocks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When are rooibos seedlings planted in the lands?",
+   "options": [
+    {
+     "text": "Any time without water",
+     "correct": false
+    },
+    {
+     "text": "In mid-summer",
+     "correct": false
+    },
+    {
+     "text": "Only in spring after harvest",
+     "correct": false
+    },
+    {
+     "text": "In winter, with the rains",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the step where cut tea lies in heaps and turns red-brown?",
+   "options": [
+    {
+     "text": "Cutting",
+     "correct": false
+    },
+    {
+     "text": "Drying",
+     "correct": false
+    },
+    {
+     "text": "Pasteurising",
+     "correct": false
+    },
+    {
+     "text": "Fermenting",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Green rooibos is not fermented.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Weeds harvested with rooibos improve the taste of the tea.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which practices help sustainable rooibos farming? (select all that apply)",
+   "options": [
+    {
+     "text": "Using as much fertiliser as possible",
+     "correct": false
+    },
+    {
+     "text": "Resting lands or rotating with a grain crop",
+     "correct": true
+    },
+    {
+     "text": "Preventing soil erosion with windbreaks or strips of plants",
+     "correct": true
+    },
+    {
+     "text": "Protecting natural fynbos around the lands",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

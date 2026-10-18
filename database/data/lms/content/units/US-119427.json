@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-119427",
+ "title": "Monitor the incubation process in hatcheries",
+ "lessons": [
+  {
+   "title": "How incubation works",
+   "minutes": 15,
+   "html": "<h3>How incubation works</h3><p>A chicken egg takes about 21 days to hatch. In a hatchery, machines do the work of the hen. Your job is to watch the machines and the eggs so that as many healthy chicks as possible hatch.</p><h4>The two machines</h4><table><tr><th>Machine</th><th>What happens</th></tr><tr><td>Setter</td><td>Eggs are kept warm and turned for most of the incubation, until close to hatch</td></tr><tr><td>Hatcher</td><td>Eggs are moved into hatcher baskets near the end, are no longer turned, and the chicks hatch</td></tr></table><h4>What the embryo needs</h4><ul><li><strong>Temperature</strong>: the right, steady heat. Too hot kills embryos or gives weak chicks. Too cold slows them down and hatch is late.</li><li><strong>Humidity</strong>: the right amount of moisture in the air so the egg loses the correct amount of water.</li><li><strong>Turning</strong>: eggs in the setter are turned regularly so the embryo does not stick to the shell.</li><li><strong>Fresh air (ventilation)</strong>: the growing embryo breathes in oxygen and gives off carbon dioxide and heat.</li></ul><p>The hatchery manager sets the correct temperature, humidity and turning programme for each machine. You never change these settings on your own.</p><h4>Heat from the eggs</h4><p>In the second half of incubation the embryos make their own heat. If the cooling or air flow fails, eggs can overheat quickly. This is why machines must be watched day and night, and alarms must never be switched off or ignored.</p><h4>Your role</h4><p>You watch the machines, write down readings and report problems. You do not repair machines or change their programmes. If you think something is wrong, it is always better to report it and be checked than to wait and lose a whole setter of eggs.</p>"
+  },
+  {
+   "title": "Checking machines, candling and transfer",
+   "minutes": 15,
+   "html": "<h3>Checking machines, candling and transfer</h3><h4>Routine machine checks</h4><p>At the set times each shift:</p><ol><li>Read the temperature and humidity on each setter and hatcher display.</li><li>Compare them with the set points on the checklist.</li><li>Check that turning is happening: trays tilt to one side, then the other, at the set interval.</li><li>Check that fans run and water for humidity is flowing.</li><li>Listen for strange noises and look for alarms.</li><li>Write all readings in the machine log and sign it.</li></ol><p>If a reading is outside the allowed range, or an alarm sounds, tell your supervisor at once. Do not open machine doors for long; it lets heat and moisture out.</p><h4>Candling</h4><p>Candling means shining a bright light through the egg in a dark room. It shows:</p><ul><li><strong>Clear eggs</strong>: light passes through; these are infertile or died very early.</li><li><strong>Live embryos</strong>: dark shape with blood vessels.</li><li><strong>Dead embryos</strong>: blood ring or dark blob with no vessels.</li></ul><p>Remove clear and dead eggs as the procedure says and record how many came from each flock. The numbers help the manager find problems on breeder farms or in the hatchery.</p><h4>Transfer to the hatcher</h4><p>Near the end of incubation the eggs are moved from setter trays to hatcher baskets. Work quickly and gently, keep the eggs warm, and label each basket with the flock. Dropped or cracked eggs at transfer lose chicks.</p><h4>Safety</h4><p>Keep hands out of turning racks. Hatcher rooms can be fumigated or hot and humid; follow the hatchery rules and wear the protective equipment given to you.</p><h4>Key points</h4><ul><li>Chicken eggs take about 21 days to hatch.</li><li>Temperature, humidity, turning and fresh air must be right.</li><li>Never change machine settings or ignore an alarm.</li><li>Check and record machine readings every shift.</li><li>Candling finds clear and dead eggs; record them by flock.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "About how long does a chicken egg take to hatch?",
+   "options": [
+    {
+     "text": "7 days",
+     "correct": false
+    },
+    {
+     "text": "14 days",
+     "correct": false
+    },
+    {
+     "text": "21 days",
+     "correct": true
+    },
+    {
+     "text": "35 days",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are eggs turned in the setter?",
+   "options": [
+    {
+     "text": "So the embryo does not stick to the shell",
+     "correct": true
+    },
+    {
+     "text": "To clean the shell",
+     "correct": false
+    },
+    {
+     "text": "To cool the room",
+     "correct": false
+    },
+    {
+     "text": "To count them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During candling, light passes straight through an egg. What does this mean?",
+   "options": [
+    {
+     "text": "The embryo is growing well",
+     "correct": false
+    },
+    {
+     "text": "The egg is about to hatch",
+     "correct": false
+    },
+    {
+     "text": "The egg is too hot",
+     "correct": false
+    },
+    {
+     "text": "The egg is clear: infertile or died very early",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A setter temperature reading is outside the allowed range. What do you do?",
+   "options": [
+    {
+     "text": "Change the set point yourself",
+     "correct": false
+    },
+    {
+     "text": "Tell your supervisor at once",
+     "correct": true
+    },
+    {
+     "text": "Switch off the alarm",
+     "correct": false
+    },
+    {
+     "text": "Wait until the next day",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why can eggs overheat quickly late in incubation?",
+   "options": [
+    {
+     "text": "The shells get thinner",
+     "correct": false
+    },
+    {
+     "text": "The setter switches on extra lights",
+     "correct": false
+    },
+    {
+     "text": "The embryos make their own heat",
+     "correct": true
+    },
+    {
+     "text": "The eggs lose all their water",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Eggs in the hatcher are still turned like in the setter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Machine readings should be written in the log and signed every shift.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What does a growing embryo need in the setter? (select all that apply)",
+   "options": [
+    {
+     "text": "The right steady temperature",
+     "correct": true
+    },
+    {
+     "text": "The right humidity",
+     "correct": true
+    },
+    {
+     "text": "Fresh air",
+     "correct": true
+    },
+    {
+     "text": "Bright light all day",
+     "correct": false
+    },
+    {
+     "text": "Feed and water",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

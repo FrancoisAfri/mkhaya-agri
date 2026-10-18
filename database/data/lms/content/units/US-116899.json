@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116899",
+ "title": "Clean and sanitize a food processing system",
+ "lessons": [
+  {
+   "title": "Principles of cleaning and sanitising",
+   "minutes": 20,
+   "html": "<h3>Why clean and sanitise?</h3><p>In a food processing system such as an abattoir, deboning room or packhouse, soil (fat, protein, blood, dirt) builds up on equipment and surfaces. Bacteria live and multiply in this soil. If it is not removed, bacteria contaminate the food, cause spoilage and can make consumers ill. Hygiene requirements for food premises are set under the Foodstuffs, Cosmetics and Disinfectants Act 54 of 1972, and for abattoirs under the Meat Safety Act 40 of 2000.</p><h4>Cleaning versus sanitising</h4><ul><li><strong>Cleaning</strong> removes visible soil: fat, protein, blood and debris. It uses water, detergent and physical action (scrubbing, pressure).</li><li><strong>Sanitising</strong> reduces the number of micro-organisms on a clean surface to a safe level. It uses heat or a chemical sanitiser.</li></ul><p>Sanitising does not work on a dirty surface, because soil protects bacteria and uses up the sanitiser. Always clean first.</p><h4>Four factors that make cleaning work</h4><table><tr><th>Factor</th><th>Explanation</th></tr><tr><td>Chemical</td><td>The right detergent at the right concentration</td></tr><tr><td>Temperature</td><td>Warm water helps dissolve fat; too hot can bake protein on</td></tr><tr><td>Time</td><td>Contact time long enough for the chemical to work</td></tr><tr><td>Mechanical action</td><td>Scrubbing, brushing, pressure or turbulent flow</td></tr></table><p>If one factor is reduced, another must increase. For example, less scrubbing needs more time or a stronger chemical.</p><h4>Choosing chemicals</h4><ul><li><strong>Alkaline detergents</strong> remove fat and protein, the main soils in meat processing.</li><li><strong>Acid detergents</strong> remove mineral scale and are used periodically.</li><li><strong>Sanitisers</strong> include chlorine-based products, quaternary ammonium compounds and peracetic acid. Use only products approved for food contact surfaces, at the dilution on the label.</li></ul>"
+  },
+  {
+   "title": "The cleaning procedure",
+   "minutes": 20,
+   "html": "<h3>Step-by-step cleaning</h3><p>Every plant should have written cleaning procedures for each area and machine, stating the chemicals, concentrations, temperatures, times and responsible person. A typical sequence:</p><ol><li><strong>Prepare:</strong> stop production, remove all product and packaging from the area. Switch off, isolate and lock out machines.</li><li><strong>Dry clean:</strong> scrape and sweep loose soil, meat scraps and fat into bins. Do not hose them down the drain.</li><li><strong>Dismantle:</strong> take apart equipment as the procedure says, placing parts on clean racks, not the floor.</li><li><strong>Pre-rinse:</strong> rinse with warm water to remove loose soil.</li><li><strong>Apply detergent:</strong> at the correct concentration, often as foam, and leave for the contact time.</li><li><strong>Scrub:</strong> brush areas where soil sticks, such as joints, corners and conveyor belts.</li><li><strong>Rinse:</strong> remove all detergent and soil with clean water, top to bottom.</li><li><strong>Inspect:</strong> look and feel for remaining soil; re-clean if needed.</li><li><strong>Sanitise:</strong> apply sanitiser for the contact time on the label. Rinse afterwards only if the label requires it.</li><li><strong>Reassemble and dry:</strong> reassemble with clean hands and tools; let surfaces drain and dry.</li></ol><h4>Cleaning-in-place (CIP)</h4><p>Pipes, tanks and some closed systems are cleaned by circulating rinse water, detergent and sanitiser through them without dismantling. The CIP system's settings for temperature, flow, concentration and time must be checked and recorded.</p><h4>Avoiding re-contamination</h4><ul><li>Clean from high to low and from clean areas towards drains.</li><li>Avoid high-pressure hoses near cleaned equipment; they spray aerosols.</li><li>Use colour-coded brushes for different areas, for example food contact versus floors and drains.</li></ul><p>Sign the cleaning record when finished.</p>"
+  },
+  {
+   "title": "Safety, verification and records",
+   "minutes": 20,
+   "html": "<h3>Working safely with cleaning chemicals</h3><ul><li>Read the label and the safety data sheet (SDS) before using a chemical.</li><li>Wear the PPE required: chemical-resistant gloves, goggles or face shield, apron and boots.</li><li>Use dosing systems or measure concentrations accurately; do not guess.</li><li><strong>Never mix chemicals,</strong> especially chlorine products with acids, which can release toxic gas.</li><li>Store chemicals in a locked store, in original labelled containers, away from food and packaging.</li><li>Know where the eyewash station and emergency shower are. If chemical splashes in the eyes, rinse with clean running water for at least several minutes and get medical help.</li><li>Lock out machines before dismantling; never clean moving equipment.</li><li>Electrical panels must be protected from water.</li></ul><h3>Verifying that cleaning worked</h3><ul><li><strong>Visual inspection:</strong> no visible soil, residues or water pooling.</li><li><strong>Chemical checks:</strong> test strips or titration confirm detergent and sanitiser concentrations.</li><li><strong>ATP swabs:</strong> a quick test that shows whether organic residue remains on a surface.</li><li><strong>Microbiological swabs:</strong> sent to a laboratory to count bacteria; results show trends over time.</li></ul><h3>Records</h3><p>Record each clean: area or machine, date and time, chemicals and concentrations, person responsible, inspection result and any corrective action. Pre-operational inspection before production starts confirms the area is ready; if it fails, re-clean before production starts. Records prove compliance during audits and help find recurring problems.</p><h4>Key points</h4><ul><li>Cleaning removes soil; sanitising reduces micro-organisms on an already clean surface.</li><li>Chemical, temperature, time and mechanical action together make cleaning work.</li><li>Follow written procedures: dry clean, rinse, detergent, scrub, rinse, inspect, sanitise.</li><li>Never mix chemicals; use PPE and lock out machines.</li><li>Verify with inspection, concentration checks and swabs, and keep records.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the difference between cleaning and sanitising?",
+   "options": [
+    {
+     "text": "Cleaning removes soil; sanitising reduces micro-organisms on a clean surface",
+     "correct": true
+    },
+    {
+     "text": "They are the same thing",
+     "correct": false
+    },
+    {
+     "text": "Sanitising removes fat; cleaning kills bacteria",
+     "correct": false
+    },
+    {
+     "text": "Cleaning is only for floors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which type of detergent is mainly used to remove fat and protein?",
+   "options": [
+    {
+     "text": "Acid detergent",
+     "correct": false
+    },
+    {
+     "text": "Alkaline detergent",
+     "correct": true
+    },
+    {
+     "text": "Plain cold water",
+     "correct": false
+    },
+    {
+     "text": "Sanitiser only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should sanitiser not be applied to a dirty surface?",
+   "options": [
+    {
+     "text": "It makes the surface slippery",
+     "correct": false
+    },
+    {
+     "text": "Soil protects bacteria and uses up the sanitiser",
+     "correct": true
+    },
+    {
+     "text": "It is too expensive",
+     "correct": false
+    },
+    {
+     "text": "The surface will rust",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done first in the cleaning procedure after stopping production?",
+   "options": [
+    {
+     "text": "Apply sanitiser",
+     "correct": false
+    },
+    {
+     "text": "Reassemble the equipment",
+     "correct": false
+    },
+    {
+     "text": "Remove product, isolate and lock out machines, then dry clean",
+     "correct": true
+    },
+    {
+     "text": "Rinse with high pressure near clean equipment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does an ATP swab show?",
+   "options": [
+    {
+     "text": "The temperature of the water",
+     "correct": false
+    },
+    {
+     "text": "Whether organic residue remains on a surface",
+     "correct": true
+    },
+    {
+     "text": "The strength of the detergent",
+     "correct": false
+    },
+    {
+     "text": "The age of the equipment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Chlorine products may be mixed with acids to make them stronger.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If less scrubbing is used, more time or a stronger chemical may be needed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to verify that cleaning worked? (select all that apply)",
+   "options": [
+    {
+     "text": "Visual inspection",
+     "correct": true
+    },
+    {
+     "text": "Test strips for chemical concentration",
+     "correct": true
+    },
+    {
+     "text": "Microbiological swabs",
+     "correct": true
+    },
+    {
+     "text": "Asking the cleaner if it looks fine without checking",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

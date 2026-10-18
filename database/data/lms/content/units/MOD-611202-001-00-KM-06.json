@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-611202-001-00-KM-06",
+  "title": "Crop Protection",
+  "lessons": [
+    {
+      "title": "Pests, diseases and weeds in orchards and vineyards",
+      "minutes": 20,
+      "html": "<h3>Pests, diseases and weeds in orchards and vineyards</h3><p>Crop protection keeps pests, diseases and weeds below the level where they cause economic damage, while protecting workers, consumers and the environment.</p><h4>Common pests</h4><ul><li><strong>Codling moth</strong> - larvae tunnel into apples and pears.</li><li><strong>Fruit flies</strong> - lay eggs in ripening stone fruit, citrus and other fruit; larvae spoil the flesh.</li><li><strong>Mealybug</strong> - on grapes, apples and pears; contaminates bunches and spreads leafroll virus in vines.</li><li><strong>Mites</strong> - feed on leaves, causing bronzing and leaf drop.</li><li><strong>Scale insects and aphids</strong> - suck sap, weaken plants and produce honeydew.</li><li><strong>Thrips</strong> - mark fruit skin, reducing export quality.</li></ul><h4>Common diseases</h4><ul><li><strong>Powdery mildew</strong> - white powdery growth on leaves and bunches in grapes and on apples.</li><li><strong>Downy mildew</strong> - oil spots on grape leaves in wet, warm weather.</li><li><strong>Botrytis (grey mould)</strong> - bunch rot in grapes, especially near harvest when damp.</li><li><strong>Apple and pear scab</strong> - dark spots on leaves and fruit in wet spring weather.</li><li><strong>Root rots</strong> such as Phytophthora in waterlogged soils.</li><li><strong>Viruses</strong> spread by insects or infected plant material.</li></ul><h4>Weeds</h4><p>Weeds in the tree row compete for water and nutrients, especially in young blocks. Between rows, a managed cover crop or sward protects soil but must be kept short so it does not compete or host pests.</p><h4>Conditions that favour problems</h4><p>Many fungal diseases need leaf wetness and suitable temperatures, which is why disease risk is linked to rain, dew and irrigation. Pest populations often build quickly in warm weather. Weather monitoring therefore guides spray timing.</p>"
+    },
+    {
+      "title": "Integrated pest management and scouting",
+      "minutes": 20,
+      "html": "<h3>Integrated pest management and scouting</h3><h4>What IPM is</h4><p>Integrated pest management (IPM) combines different methods to keep pests below damaging levels, using chemicals only when needed. Export markets and food safety standards increasingly expect IPM.</p><h4>IPM methods</h4><ul><li><strong>Cultural</strong>: pruning for an open canopy, removing infected fruit and prunings, managing cover crops, good irrigation and nutrition.</li><li><strong>Biological</strong>: encouraging or releasing natural enemies such as predatory mites, ladybirds and parasitic wasps.</li><li><strong>Mechanical</strong>: traps, sticky bands, bags, netting.</li><li><strong>Behavioural</strong>: mating disruption with pheromone dispensers for codling moth and others.</li><li><strong>Chemical</strong>: selective registered products used at the right time.</li></ul><h4>Scouting</h4><p>Scouting is the regular, systematic inspection of blocks to measure pest, disease and natural enemy levels.</p><ol><li>Follow a set route through the block, sampling a fixed number of trees or vines in a pattern.</li><li>Check specific plant parts for each pest - leaves, shoots, bunches, fruit, trunks.</li><li>Check traps (pheromone, fruit fly bait traps) and count catches.</li><li>Record counts on the scouting sheet or app per block and date.</li></ol><h4>Thresholds</h4><p>An action threshold is the pest level at which control is needed to prevent economic loss. The farm's consultant sets thresholds. Spraying below the threshold wastes money and kills natural enemies; delaying past it causes damage.</p><h4>Resistance management</h4><p>Pests and fungi become resistant if the same chemical group is used repeatedly. Rotate between chemical groups (the mode of action group number on the label) as the programme specifies.</p><h4>Record keeping in IPM</h4><p>Scouting sheets are only useful if they are kept and compared. Look at trends from week to week and from season to season. A block where a pest builds up early every year may need a change in the cultural or biological controls, not only more sprays.</p>"
+    },
+    {
+      "title": "Safe and legal use of agricultural remedies",
+      "minutes": 20,
+      "html": "<h3>Safe and legal use of agricultural remedies</h3><h4>The law</h4><p>Pesticides, fungicides, herbicides and growth regulators are agricultural remedies registered under the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act 36 of 1947. It is illegal to use a remedy on a crop or for a purpose not on its registered label. The label is a legal document.</p><h4>Reading the label</h4><ul><li>Crop, target pest or disease and registered rate.</li><li>Withholding period: days between last application and harvest.</li><li>Re-entry period: time before workers may enter the sprayed block.</li><li>Required PPE.</li><li>Toxicity class, first aid and environmental warnings.</li><li>Mixing compatibility and number of applications per season.</li></ul><h4>Maximum residue limits</h4><p>Importing countries and the local market set maximum residue limits. Some export markets allow fewer active ingredients or lower limits than South Africa. Always use the farm's approved spray programme for the market, and never apply products not on it.</p><h4>Spray application</h4><p>Sprayers must be calibrated so the correct volume and dose reach the canopy. Check nozzles, pressure and fan settings. Do not spray in strong wind, before rain or in heat that causes drift and evaporation. Protect bees by not spraying flowering blocks or cover crops with products harmful to bees, as the label directs.</p><h4>Safety</h4><ul><li>Only trained workers mix and apply chemicals, wearing the PPE the label requires.</li><li>Mix at a dedicated mixing area away from water sources.</li><li>Never eat, drink or smoke while handling chemicals; wash before breaks.</li><li>Store remedies in a locked, ventilated store with spill kits.</li><li>Triple-rinse empty containers and dispose of them as the label directs; never reuse them.</li><li>If someone is poisoned, follow the label first aid, get medical help and take the label.</li></ul><h4>Records</h4><p>Record every application: date, block, product, rate, volume, operator, weather, withholding and re-entry dates.</p><h4>Key points</h4><ul><li>Know the main pests, diseases and weeds of your crop.</li><li>Scout systematically and act at the consultant's thresholds.</li><li>Rotate chemical groups to delay resistance.</li><li>The label is law: rate, crop, withholding and re-entry periods.</li><li>Record every spray and protect workers, bees and water.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which pest tunnels into apples and pears?",
+      "options": [
+        {
+          "text": "Codling moth",
+          "correct": true
+        },
+        {
+          "text": "Powdery mildew",
+          "correct": false
+        },
+        {
+          "text": "Mites",
+          "correct": false
+        },
+        {
+          "text": "Downy mildew",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is an action threshold?",
+      "options": [
+        {
+          "text": "The gate of the spray store",
+          "correct": false
+        },
+        {
+          "text": "The pest level at which control is needed to prevent loss",
+          "correct": true
+        },
+        {
+          "text": "The maximum sprayer speed",
+          "correct": false
+        },
+        {
+          "text": "The number of workers per block",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should chemical groups be rotated?",
+      "options": [
+        {
+          "text": "To use up old stock",
+          "correct": false
+        },
+        {
+          "text": "To change the colour of the spray",
+          "correct": false
+        },
+        {
+          "text": "To delay resistance",
+          "correct": true
+        },
+        {
+          "text": "To shorten re-entry periods",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the withholding period?",
+      "options": [
+        {
+          "text": "Time before workers may enter a sprayed block",
+          "correct": false
+        },
+        {
+          "text": "Time a product can be stored",
+          "correct": false
+        },
+        {
+          "text": "Time between scouting rounds",
+          "correct": false
+        },
+        {
+          "text": "Days between the last application and harvest",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Mating disruption with pheromone dispensers is which kind of IPM method?",
+      "options": [
+        {
+          "text": "Behavioural",
+          "correct": true
+        },
+        {
+          "text": "Chemical fungicide",
+          "correct": false
+        },
+        {
+          "text": "Cultural irrigation",
+          "correct": false
+        },
+        {
+          "text": "Nutritional",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "It is legal to use a remedy on a crop that is not on its label if a neighbour recommends it.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Many fungal diseases are favoured by leaf wetness from rain, dew or irrigation.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are correct practices with agricultural remedies? (select all that apply)",
+      "options": [
+        {
+          "text": "Triple-rinse empty containers",
+          "correct": true
+        },
+        {
+          "text": "Store in a locked, ventilated store",
+          "correct": true
+        },
+        {
+          "text": "Reuse empty containers for water",
+          "correct": false
+        },
+        {
+          "text": "Wear the PPE the label requires",
+          "correct": true
+        },
+        {
+          "text": "Spray in strong wind to finish quickly",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119446",
+ "title": "Process poultry frozen meat products in an abattoir",
+ "lessons": [
+  {
+   "title": "Preparing product for freezing",
+   "minutes": 15,
+   "html": "<h3>What frozen poultry products are</h3>\n<p>Many South Africans buy frozen chicken: whole birds, mixed portions, IQF (individually quick frozen) pieces, wings, livers and gizzards. Freezing lets the abattoir keep meat for months and send it far away. But freezing does not kill germs. It only stops them from growing. So the meat must be clean and cold <em>before</em> it is frozen.</p>\n<h4>Start with good, chilled meat</h4>\n<ul>\n<li>Only meat that has passed inspection may be processed.</li>\n<li>The meat must be well chilled before it goes to the freezer. Warm meat freezes slowly and can spoil in the middle.</li>\n<li>Remove meat with feathers, bruises, broken bones, bile stains or dirt. Put it in the rework or condemned bin as your plant says.</li>\n</ul>\n<h4>Portioning and packing</h4>\n<p>Birds or portions are cut, weighed and packed into bags or boxes. Some plants add a brine (salt water) solution to some products. This is controlled by law and by the plant's recipe. Never change the amount of brine or any ingredient yourself.</p>\n<ol>\n<li>Check that the bag or box is the right one for the product.</li>\n<li>Weigh the pack on the scale. Packs must not be under the weight on the label.</li>\n<li>Close the bag properly: clip, heat seal or tie. Air left in the bag causes freezer burn.</li>\n<li>Check that the label is correct: product name, weight, date, batch number and storage instruction (keep frozen).</li>\n</ol>\n<h4>Hygiene at the packing table</h4>\n<ul>\n<li>Wash and sanitise your hands and gloves often.</li>\n<li>Wear your hair net, beard net, apron and clean overalls.</li>\n<li>Do not wear watches or jewellery.</li>\n<li>If a piece falls on the floor, do not pack it. Put it in the floor-meat bin.</li>\n<li>Keep packaging off the floor and closed until you use it.</li>\n</ul>\n<p>Frozen chicken may be stored for a long time, so any mistake you make today will reach a customer months later. Pack every bag as if it were for your own family.</p>"
+  },
+  {
+   "title": "Freezing the product",
+   "minutes": 15,
+   "html": "<h3>How freezing is done</h3>\n<p>The faster meat freezes, the better its quality. Fast freezing makes small ice crystals that do little damage to the meat. Slow freezing makes big ice crystals that break the meat and cause drip loss when it thaws.</p>\n<h4>Types of freezers</h4>\n<table><tr><th>Freezer</th><th>How it works</th></tr>\n<tr><td>Blast freezer</td><td>A room with very cold, fast-moving air. Boxes are placed on racks or pallets.</td></tr>\n<tr><td>Spiral or tunnel freezer</td><td>Product moves on a belt through very cold air. Used for IQF pieces.</td></tr>\n<tr><td>Plate freezer</td><td>Boxes are pressed between cold metal plates.</td></tr></table>\n<h4>Loading the blast freezer</h4>\n<ul>\n<li>Leave space between boxes so cold air can move around each one. Boxes packed tight together freeze slowly in the middle.</li>\n<li>Do not overload the freezer.</li>\n<li>Write the time the product went in and the batch number on the freezer record.</li>\n<li>Product stays in until it is frozen through to the core. Your plant sets the time and the core temperature.</li>\n</ul>\n<h4>Checking the product</h4>\n<p>Your supervisor or quality controller will check the core temperature with a probe thermometer. Product that is not frozen hard must stay in the freezer longer. Only move it to frozen storage when it meets the plant's limit &ndash; usually -18 &deg;C or colder.</p>\n<h4>Faults to look out for</h4>\n<ul>\n<li><strong>Freezer burn:</strong> dry, white or grey patches. Caused by air in the pack or torn bags.</li>\n<li><strong>Thaw and refreeze:</strong> ice crystals inside the pack, packs stuck together, blood ice. This product must be reported.</li>\n<li><strong>Damaged boxes or bags:</strong> repack or report.</li>\n</ul>\n<h4>Safety in freezers</h4>\n<p>Blast freezers are dangerously cold and windy. Wear freezer clothing, gloves and a head cover. Never go in alone. Know where the inside door release and alarm button are. Tell your supervisor if you feel numb or very cold.</p>"
+  },
+  {
+   "title": "Storing and handling frozen stock",
+   "minutes": 15,
+   "html": "<h3>Keeping frozen product frozen</h3>\n<p>Once the product is frozen, it moves to the frozen store. It must stay frozen until the customer uses it.</p>\n<h4>In the frozen store</h4>\n<ul>\n<li>Check and write down the store temperature at the times on your checklist.</li>\n<li>Report any temperature that is too high, any alarm, or a door that does not close.</li>\n<li>Stack pallets straight and not higher than the marked height.</li>\n<li>Use FIFO or FEFO so the oldest stock goes out first.</li>\n<li>Keep different products in their own marked places.</li>\n<li>Never leave frozen product standing on the dock or in a warm passage.</li>\n</ul>\n<h4>Traceability</h4>\n<p>Every box has a batch number. The batch number tells the plant which day and which shift the product was made. If there is a problem, the plant can find and recall only that batch. If a label is missing or cannot be read, put the box aside and tell your supervisor.</p>\n<h4>Reworking product</h4>\n<p>Sometimes a pack is torn or a box is damaged. Your supervisor will tell you how to repack it. Work fast in a cold area so the product does not thaw. Never repack product that has thawed without the supervisor's or quality controller's approval.</p>\n<h4>Cleaning</h4>\n<p>Freezers and frozen stores are cleaned on a schedule. Ice build-up on the floor is a slip danger, and ice on fans makes the freezer work badly. Report ice build-up. Clean spills of blood or brine before they freeze.</p>\n<h4>Key points</h4>\n<ul>\n<li>Freezing stops germs growing but does not kill them, so freeze only clean, chilled meat.</li>\n<li>Weigh, seal and label every pack correctly; never change recipes or brine yourself.</li>\n<li>Leave space between boxes in the blast freezer and freeze to the core.</li>\n<li>Report freezer burn, thawed product and high store temperatures.</li>\n<li>Wear freezer clothing and never work in a blast freezer alone.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does freezing do to germs on meat?",
+   "options": [
+    {
+     "text": "It stops them from growing",
+     "correct": true
+    },
+    {
+     "text": "It kills all of them",
+     "correct": false
+    },
+    {
+     "text": "It makes them grow faster",
+     "correct": false
+    },
+    {
+     "text": "It removes them from the meat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must you close the bag properly?",
+   "options": [
+    {
+     "text": "To make it look nice",
+     "correct": false
+    },
+    {
+     "text": "To make the bag heavier",
+     "correct": false
+    },
+    {
+     "text": "Air left in the bag causes freezer burn",
+     "correct": true
+    },
+    {
+     "text": "So that the label sticks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why leave space between boxes in the blast freezer?",
+   "options": [
+    {
+     "text": "To save boxes",
+     "correct": false
+    },
+    {
+     "text": "So cold air can move around each box",
+     "correct": true
+    },
+    {
+     "text": "So that workers can sit down",
+     "correct": false
+    },
+    {
+     "text": "To make the freezer warmer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the batch number on a box tell the plant?",
+   "options": [
+    {
+     "text": "Which day and shift the product was made",
+     "correct": true
+    },
+    {
+     "text": "The name of the driver",
+     "correct": false
+    },
+    {
+     "text": "The price of the product",
+     "correct": false
+    },
+    {
+     "text": "The customer's address",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A piece of chicken falls on the floor at the packing table. What do you do?",
+   "options": [
+    {
+     "text": "Rinse it and pack it",
+     "correct": false
+    },
+    {
+     "text": "Pack it quickly before anyone sees",
+     "correct": false
+    },
+    {
+     "text": "Give it to the driver",
+     "correct": false
+    },
+    {
+     "text": "Put it in the floor-meat bin",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fast freezing gives better quality meat than slow freezing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You may change the amount of brine in a product if you think it needs more.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs that frozen product has a fault? (select all that apply)",
+   "options": [
+    {
+     "text": "Dry white or grey patches",
+     "correct": true
+    },
+    {
+     "text": "Packs stuck together with ice inside",
+     "correct": true
+    },
+    {
+     "text": "Correct label with batch number",
+     "correct": false
+    },
+    {
+     "text": "Torn bags",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

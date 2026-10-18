@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-264187",
+ "title": "Harvest cut roses",
+ "lessons": [
+  {
+   "title": "Knowing when a rose is ready",
+   "minutes": 15,
+   "html": "<h3>The cut stage</h3>\n<p>Roses must be cut at the right stage of opening. If they are cut too tight (too closed), they may never open in the vase and the neck can bend. If they are cut too open, they will not last long and may be damaged in transport. Each variety has its own cut stage, and the cut stage also changes with the season and the market (local market or export).</p>\n<p>Your supervisor will show you the cut stage for each variety, often with photos on a board in the greenhouse. Usually it is when the sepals (the green leaves around the bud) have folded down and the outer one or two petals start to loosen.</p>\n<h4>Quality checks while harvesting</h4>\n<ul><li>Straight, strong stem of the right length</li>\n<li>Healthy, clean leaves</li>\n<li>No pests (thrips, red spider mite, aphids)</li>\n<li>No disease, such as botrytis spots or downy mildew</li>\n<li>No damaged petals</li></ul>\n<h4>When to harvest</h4>\n<p>Harvest in the cool part of the day, usually early morning, and again in the late afternoon in hot weather. Roses are full of water then and stay fresh. Do not cut in the heat of midday if you can avoid it.</p>\n<h4>Tools and equipment</h4>\n<ul><li>Sharp, clean rose secateurs or a harvest knife</li>\n<li>Clean buckets with water or hydration solution, or a harvest trolley</li>\n<li>Gloves and long sleeves for thorns</li>\n<li>Stem length measure</li></ul>\n<p>Disinfect secateurs as the farm instructs, so that disease does not spread from plant to plant.</p>"
+  },
+  {
+   "title": "Making the cut and handling flowers",
+   "minutes": 15,
+   "html": "<h3>Where to cut</h3>\n<p>Where you cut the stem affects the next flower. A new shoot grows from a bud below your cut.</p>\n<ol><li>Follow the stem down from the flower.</li>\n<li>Cut above a healthy, outward-facing bud with a full five-leaflet leaf, at the height the farm sets (for example, above the first or second five-leaflet leaf on the new shoot, or at the knuckle).</li>\n<li>Leave enough leaves on the plant to feed it. The plant needs its leaves to make food for the next flush.</li>\n<li>Cut cleanly at a slight angle about 5 mm above the bud. Do not crush the stem.</li></ol>\n<h3>Handling</h3>\n<ul><li>Hold the stem below the head. Never hold roses by the flower.</li>\n<li>Lay stems gently in the trolley or put them straight into the bucket of water. Heads must not be crushed.</li>\n<li>Do not overfill buckets or trolleys.</li>\n<li>Move flowers to the pack shed and cold room quickly, out of the sun.</li>\n<li>Count stems and record the number per bed, variety and picker.</li></ul>\n<h3>Hygiene in the greenhouse</h3>\n<ul><li>Pick up and remove cut-off material and fallen petals. They spread botrytis.</li>\n<li>Report pests and diseases you see.</li>\n<li>Keep buckets off the ground and clean them daily.</li></ul>\n<h3>Safety</h3>\n<ul><li>Wear gloves and long sleeves against thorns. Clean and cover any scratch.</li>\n<li>Check the re-entry time before going into a sprayed greenhouse. Never enter a greenhouse that has been sprayed until the supervisor says it is safe.</li>\n<li>Drink water often; greenhouses get very hot.</li>\n<li>Cut away from your body and keep secateurs closed when not in use.</li></ul>\n<h4>Key points</h4>\n<ul><li>Cut each variety at its correct cut stage.</li>\n<li>Harvest in the cool of the morning or late afternoon.</li>\n<li>Cut cleanly above a healthy outward bud and leave enough leaves on the plant.</li>\n<li>Hold stems, not heads, and get flowers into water and cold storage fast.</li>\n<li>Never enter a sprayed greenhouse before the re-entry time.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What can happen if a rose is cut too tight (too closed)?",
+   "options": [
+    {
+     "text": "It lasts longer than normal",
+     "correct": false
+    },
+    {
+     "text": "It may never open in the vase and the neck can bend",
+     "correct": true
+    },
+    {
+     "text": "It turns blue",
+     "correct": false
+    },
+    {
+     "text": "It grows roots",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time to harvest roses?",
+   "options": [
+    {
+     "text": "Early morning",
+     "correct": true
+    },
+    {
+     "text": "Midday",
+     "correct": false
+    },
+    {
+     "text": "Only at night",
+     "correct": false
+    },
+    {
+     "text": "Whenever it is hottest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should you cut the stem?",
+   "options": [
+    {
+     "text": "Right at the soil",
+     "correct": false
+    },
+    {
+     "text": "Through a bud",
+     "correct": false
+    },
+    {
+     "text": "Anywhere on the stem",
+     "correct": false
+    },
+    {
+     "text": "About 5 mm above a healthy outward-facing bud",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you hold a rose while harvesting?",
+   "options": [
+    {
+     "text": "By the flower head",
+     "correct": false
+    },
+    {
+     "text": "By the petals",
+     "correct": false
+    },
+    {
+     "text": "By the stem below the head",
+     "correct": true
+    },
+    {
+     "text": "By the leaves",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should fallen petals be removed from the greenhouse?",
+   "options": [
+    {
+     "text": "They make the floor colourful",
+     "correct": false
+    },
+    {
+     "text": "They spread botrytis",
+     "correct": true
+    },
+    {
+     "text": "They feed the plants",
+     "correct": false
+    },
+    {
+     "text": "They are sold separately",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You must not enter a sprayed greenhouse until the re-entry time has passed and the supervisor says it is safe.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cutting all the leaves off the plant when harvesting helps the next flower grow.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which quality checks should you make while harvesting? (select all that apply)",
+   "options": [
+    {
+     "text": "Straight, strong stem of the right length",
+     "correct": true
+    },
+    {
+     "text": "No pests or disease",
+     "correct": true
+    },
+    {
+     "text": "Flower is fully open and dropping petals",
+     "correct": false
+    },
+    {
+     "text": "No damaged petals",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

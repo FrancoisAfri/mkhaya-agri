@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-116637",
+ "title": "Determine livestock mass",
+ "lessons": [
+  {
+   "title": "Why we weigh and preparing the scale",
+   "minutes": 20,
+   "html": "<h3>Why mass matters</h3><p>Weighing livestock gives the farm manager facts for decisions:</p><ul><li><strong>Dosing</strong>: many remedies are dosed by mass. Guessing leads to under-dosing (resistance, poor control) or over-dosing (poisoning, wasted money).</li><li><strong>Growth</strong>: average daily gain in a feedlot or on veld shows whether feeding and grazing are working.</li><li><strong>Marketing</strong>: animals are sold at a target mass; weighing shows when they are ready.</li><li><strong>Breeding</strong>: weaning and yearling mass are used to select replacement heifers, rams and bulls.</li><li><strong>Health</strong>: sudden mass loss can be the first sign of disease or parasites.</li></ul><h3>Preparing the weighing facility</h3><ol><li><strong>Inspect the crush, race and pens</strong>: rails, gates and the floor should be sound with no protruding bolts or broken boards. A non-slip surface keeps animals calm.</li><li><strong>Set up the scale</strong>: mechanical scales or electronic platforms with load cells. Place electronic platforms on a firm, level base. Make sure nothing (rails, stones, manure) touches the platform or load cells, or the reading will be wrong.</li><li><strong>Power</strong>: charge the indicator battery or connect power; keep cables out of the way of hooves and water.</li><li><strong>Zero the scale</strong> (tare) with the platform empty.</li><li><strong>Check accuracy</strong> with a known mass, such as bags of a known mass or a test weight, as the farm's procedure says. Record the check.</li><li><strong>Prepare records</strong>: the weighing sheet or the electronic tag reader linked to the indicator, with the list of animals.</li><li><strong>Brief the team</strong>: who moves animals, who reads the scale, who records.</li></ol><p>Weigh at a consistent time, ideally in the morning before animals have eaten and drunk a lot, as gut fill can change the mass of a large animal noticeably. Follow the farm's standard so that weights can be compared over time.</p>"
+  },
+  {
+   "title": "Weighing, recording and closing down",
+   "minutes": 20,
+   "html": "<h3>Determining mass</h3><ul><li>Move animals quietly in small groups. Use flags or a pig board rather than sticks; avoid shouting and dogs.</li><li>Let one animal at a time onto the platform. All four legs must be on the platform and the animal must not lean on the rails.</li><li>Wait for the reading to settle. Many indicators have an averaging or hold function that ignores movement.</li><li>Read the mass, check the tag number, then release the animal.</li><li>Re-zero the scale regularly during the session, because manure and mud build up on the platform.</li></ul><h3>When there is no scale</h3><p>A weigh band (heart-girth tape) placed around the chest just behind the front legs gives an estimate of mass for cattle, sheep, goats or pigs, depending on the band. It is less accurate than a scale, so record that the mass was estimated.</p><h3>Recording and submitting</h3><table><tr><th>Date</th><th>Tag no.</th><th>Group / camp</th><th>Mass (kg)</th><th>Remarks</th></tr><tr><td>14/06</td><td>ZA 0457</td><td>Weaners camp 3</td><td>212</td><td>Lame left fore</td></tr></table><ul><li>Record clearly as you go; do not rely on memory.</li><li>Note anything unusual: very light animals, injuries, illness.</li><li>Calculate totals and averages if required, and check for obvious errors (a calf of 2 120 kg is a typing error).</li><li>Submit the sheet or upload the electronic file to the manager on the same day.</li></ul><h3>Safety</h3><p>Stand outside the crush when possible. Never put your hands between a moving animal and a rail, and keep clear of the back gate as it closes.</p><h3>Restoring the facility</h3><ol><li>Switch off the indicator and disconnect power; charge the battery.</li><li>Clean manure off the platform and load cells; do not use a high-pressure hose on electronic parts.</li><li>Store the indicator and cables in a dry, secure place.</li><li>Close gates and report any damage.</li></ol><h4>Key points</h4><ul><li>Accurate mass guides dosing, feeding, marketing and selection.</li><li>Place the scale on a level base, keep it free, zero it and check it with a known mass.</li><li>Weigh one animal at a time with all four legs on the platform.</li><li>Record tag, mass and remarks immediately and submit the same day.</li><li>Clean, switch off and store the equipment after use.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is it important to dose remedies according to mass?",
+   "options": [
+    {
+     "text": "It makes the animal heavier",
+     "correct": false
+    },
+    {
+     "text": "Guessing can cause under-dosing or poisoning",
+     "correct": true
+    },
+    {
+     "text": "Labels never mention mass",
+     "correct": false
+    },
+    {
+     "text": "So the scale gets used",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with the scale before the first animal is weighed?",
+   "options": [
+    {
+     "text": "Hose it with high pressure",
+     "correct": false
+    },
+    {
+     "text": "Put a stone on it",
+     "correct": false
+    },
+    {
+     "text": "Zero it with the platform empty and check it with a known mass",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should nothing touch the platform or load cells?",
+   "options": [
+    {
+     "text": "It scratches the paint",
+     "correct": false
+    },
+    {
+     "text": "It cools the scale",
+     "correct": false
+    },
+    {
+     "text": "The animal will not walk on",
+     "correct": false
+    },
+    {
+     "text": "It makes the reading wrong",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time to weigh animals so results can be compared?",
+   "options": [
+    {
+     "text": "At a consistent time, ideally in the morning before much feeding and drinking",
+     "correct": true
+    },
+    {
+     "text": "Straight after a big drink",
+     "correct": false
+    },
+    {
+     "text": "At night in the dark",
+     "correct": false
+    },
+    {
+     "text": "Any time, it makes no difference",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a weigh band used for?",
+   "options": [
+    {
+     "text": "Tying animals in the crush",
+     "correct": false
+    },
+    {
+     "text": "Estimating mass from the heart girth when there is no scale",
+     "correct": true
+    },
+    {
+     "text": "Marking animals that were weighed",
+     "correct": false
+    },
+    {
+     "text": "Calibrating the scale",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "All four legs of the animal must be on the platform for an accurate reading.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A high-pressure hose is the best way to clean the electronic indicator.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which tasks restore the weighing facility after use? (select all that apply)",
+   "options": [
+    {
+     "text": "Clean manure off the platform",
+     "correct": true
+    },
+    {
+     "text": "Switch off and charge the indicator",
+     "correct": true
+    },
+    {
+     "text": "Leave the gates open",
+     "correct": false
+    },
+    {
+     "text": "Store the indicator in a dry, secure place",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

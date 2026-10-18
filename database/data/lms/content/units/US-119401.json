@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119401",
+ "title": "Implement the cold storage and despatch practices in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Principles of cold storage",
+   "minutes": 15,
+   "html": "<h3>Temperature controls food safety and shelf life</h3><p>Bacteria on raw chicken grow quickly at warm temperatures and slowly in the cold. Freezing stops growth but does not kill all bacteria. Cold storage therefore protects consumers, keeps quality and gives shelf life. The plant's HACCP plan and customer specifications set the temperature limits; commonly, chilled poultry is kept just above freezing up to about 4°C, and frozen product at -18°C or colder. Always use your plant's exact limits.</p><h4>Types of cold storage</h4><ul><li><strong>Chillers</strong> hold fresh product before despatch.</li><li><strong>Blast freezers</strong> freeze product quickly to the core.</li><li><strong>Holding freezers</strong> store frozen product until it is sold.</li><li><strong>Ice and IQF systems</strong> for individually quick frozen portions.</li></ul><h4>Good practice in cold rooms</h4><ol><li>Do not load warm product into a holding chiller or freezer; it raises the room temperature and the product cools too slowly. Product must first be chilled or blast frozen to the specified core temperature.</li><li>Do not overload; leave space for cold air to flow around pallets and cartons.</li><li>Keep product off the floor and away from walls.</li><li>Keep doors closed and use strip curtains; open only as needed.</li><li>Separate raw and ready-to-eat products and different customers' stock as procedure requires.</li><li>Rotate stock first expired, first out (FEFO).</li></ol><h4>Temperature monitoring</h4><p>Check and record room temperatures at set intervals and product core temperatures with a calibrated probe. Clean and sanitise the probe between products. Report readings outside the limits immediately.</p><h4>Example</h4><p>A cold room display shows the correct air temperature, but a probe in a carton reads higher. Investigation shows the carton was packed warm and loaded straight into the holding chiller. The product is held and QA decides on it.</p>"
+  },
+  {
+   "title": "Despatch practices",
+   "minutes": 15,
+   "html": "<h3>Keeping the cold chain unbroken</h3><p>Despatch is where product leaves the plant's control. Mistakes here can undo all the good work done during processing.</p><h4>Before loading</h4><ul><li>Check the order: products, quantities, customer, delivery address and dates.</li><li>Inspect the truck: refrigeration unit working, body pre-cooled to the required temperature, clean, no odours, no damage, no pests, no non-food items in the load area.</li><li>Record truck registration, driver name and the pre-cooling temperature.</li></ul><h4>Loading</h4><ol><li>Load from a refrigerated or enclosed dock where possible.</li><li>Take product out of cold storage only when the truck is ready, and load quickly.</li><li>Probe and record product temperature of a sample of cartons before loading. Reject or hold any product outside specification.</li><li>Check labels, batch codes and use-by or best-before dates match the order.</li><li>Stack cartons as specified so air can circulate and packaging is not crushed.</li><li>Keep chilled and frozen products in the correct compartments.</li><li>Close and seal the truck; record the seal number if used.</li></ol><h4>Documents</h4><p>Complete the delivery note, invoice or despatch list, temperature records and any certificates the customer or authorities require. The driver signs for the load. Keep copies, because they prove the product left in good condition and support traceability.</p><h4>Safety in the despatch area</h4><p>Forklifts and pallet jacks are used only by trained, authorised operators. Watch for wet or icy floors. Use proper lifting technique for cartons.</p><h4>Example</h4><p>A truck arrives with its fridge unit running but the body still warm. The despatch clerk records the reading, waits for the body to pre-cool, re-checks it and only then allows loading. If it cannot reach temperature, the truck is rejected.</p>"
+  },
+  {
+   "title": "Cold room safety and handling problems",
+   "minutes": 15,
+   "html": "<h3>Working safely in the cold and fixing problems</h3><h4>Cold room safety</h4><ul><li>Wear issued thermal clothing, gloves and safety boots in chillers and freezers.</li><li>Limit time in freezers and take warm-up breaks as the plant procedure states.</li><li>Check that the inside door release works and that the alarm button is working before you enter. Never disable a door release.</li><li>Tell someone when you go into a freezer, especially alone.</li><li>Watch for ice on floors and frozen spills.</li><li>Many plants use ammonia refrigeration. If you smell ammonia, leave the area immediately, raise the alarm and follow the emergency plan. Only trained people with breathing apparatus may respond.</li></ul><h4>Handling temperature problems</h4><table><tr><th>Problem</th><th>Action</th></tr><tr><td>Room temperature too high</td><td>Report, close doors, check product core temperatures, call maintenance</td></tr><tr><td>Product above limit</td><td>Place on hold, tag, report to QA for a decision</td></tr><tr><td>Power failure or load shedding</td><td>Keep doors closed, start back-up generator as per procedure, monitor and record temperatures</td></tr><tr><td>Truck arrives warm</td><td>Do not load until it is pre-cooled; reject if it cannot be</td></tr></table><h4>Stock records</h4><p>Keep accurate records of product in, product out, location and dates. Do regular stock counts. Accurate records allow quick recalls and reduce losses from expired stock.</p><h4>Key points</h4><ul><li>Cold slows bacteria; freezing stops growth but does not kill all germs.</li><li>Do not load warm product into holding rooms and do not overload them.</li><li>Pre-cool and inspect trucks, probe product before loading and record everything.</li><li>Hold any product outside temperature limits and report to QA.</li><li>In cold rooms, wear thermal clothing, never disable door releases, and leave immediately if you smell ammonia.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does freezing do to bacteria on chicken?",
+   "options": [
+    {
+     "text": "Stops growth but does not kill all bacteria",
+     "correct": true
+    },
+    {
+     "text": "Kills all bacteria",
+     "correct": false
+    },
+    {
+     "text": "Makes them grow faster",
+     "correct": false
+    },
+    {
+     "text": "Has no effect",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should warm product not be loaded into a holding freezer?",
+   "options": [
+    {
+     "text": "It is too heavy",
+     "correct": false
+    },
+    {
+     "text": "It raises the room temperature and cools too slowly",
+     "correct": true
+    },
+    {
+     "text": "It uses less electricity",
+     "correct": false
+    },
+    {
+     "text": "It makes the labels fall off",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be checked on a truck before loading?",
+   "options": [
+    {
+     "text": "The radio",
+     "correct": false
+    },
+    {
+     "text": "The driver's lunch",
+     "correct": false
+    },
+    {
+     "text": "That it is pre-cooled, clean and the refrigeration unit works",
+     "correct": true
+    },
+    {
+     "text": "The colour of the tyres",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with product that is above the temperature limit?",
+   "options": [
+    {
+     "text": "Load it quickly",
+     "correct": false
+    },
+    {
+     "text": "Put it in the warmest room",
+     "correct": false
+    },
+    {
+     "text": "Repack it",
+     "correct": false
+    },
+    {
+     "text": "Place it on hold, tag it and report to QA",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you smell ammonia in the cold store area?",
+   "options": [
+    {
+     "text": "Leave immediately, raise the alarm and follow the emergency plan",
+     "correct": true
+    },
+    {
+     "text": "Find the leak yourself",
+     "correct": false
+    },
+    {
+     "text": "Continue working",
+     "correct": false
+    },
+    {
+     "text": "Open the freezer door",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Stock should be rotated first expired, first out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to disable a freezer door's inside release to keep it closed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which documents or records are part of despatch? (select all that apply)",
+   "options": [
+    {
+     "text": "Delivery note or despatch list",
+     "correct": true
+    },
+    {
+     "text": "Product temperature records",
+     "correct": true
+    },
+    {
+     "text": "Truck registration and pre-cooling temperature",
+     "correct": true
+    },
+    {
+     "text": "The workers' leave forms",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

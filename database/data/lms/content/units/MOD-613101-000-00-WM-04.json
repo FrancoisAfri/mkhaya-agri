@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-613101-000-00-WM-04",
+ "title": "Determination of Quality and Market Readiness of Crops and Livestock",
+ "lessons": [
+  {
+   "title": "Quality standards and specifications",
+   "minutes": 20,
+   "html": "<h3>What the buyer means by quality</h3><p>Quality is defined by the market. A product is market-ready when it meets the buyer's specifications for grade, size, maturity, cleanliness, packaging, safety and documentation. In this work experience module you help assess crops and livestock against these standards and decide when they are ready to sell.</p><h4>Sources of standards</h4><ul><li><strong>Agricultural Product Standards Act 119 of 1990</strong> and its regulations set grading standards for many products sold in South Africa, including grain, many fresh fruits and vegetables, and red meat carcass classification.</li><li><strong>Buyer specifications:</strong> retailers, packhouses, feedlots and abattoirs add their own requirements, such as size ranges, packaging or live weight.</li><li><strong>Food safety requirements:</strong> maximum residue limits, withdrawal periods and certification schemes such as GLOBALG.A.P.</li></ul><h4>Typical quality factors</h4><table><tr><th>Product</th><th>Quality factors</th></tr><tr><td>Grain</td><td>Moisture, foreign matter, broken kernels, defects, insect damage, test weight</td></tr><tr><td>Vegetables and fruit</td><td>Maturity, size, colour, shape, firmness, freedom from damage and disease</td></tr><tr><td>Live cattle, sheep and goats</td><td>Weight, age (teeth), body condition, health, conformation</td></tr><tr><td>Carcasses</td><td>Age class, fat class, conformation, damage</td></tr></table><p>During your placement, obtain the specification sheet from at least one buyer and the relevant grading standard, and keep copies in your portfolio.</p><p>Learn the difference between a grade defect that lowers price and a food safety defect that makes the product unsaleable. Grade defects may still allow the product to be sold in a lower class or to another market. Food safety failures, such as residues above the limit or contamination, mean the product must not be sold at all.</p>"
+  },
+  {
+   "title": "Assessing crops for market readiness",
+   "minutes": 20,
+   "html": "<h3>From the land to the load</h3><h4>Checking maturity and condition</h4><ul><li><strong>Grain:</strong> sample from several places in the land or load and measure moisture with a calibrated meter. Compare with the buyer's or silo's acceptable moisture level. Check for mould, insects and foreign matter.</li><li><strong>Vegetables:</strong> check maturity indicators for each crop, for example firm, tight heads in cabbage, colour in tomatoes, size and skin set in potatoes.</li><li><strong>Fruit:</strong> use the maturity indices the packhouse provides, such as colour charts, firmness or sugar levels.</li></ul><h4>Grading and sorting</h4><ol><li>Set up a clean, shaded grading area.</li><li>Remove damaged, diseased and undersized product.</li><li>Sort into the grades or sizes the buyer requires.</li><li>Pack in clean, correctly labelled containers with land and date for traceability.</li><li>Check a sample of packed units against the specification before loading.</li></ol><h4>Safety and residue checks</h4><p>Before harvest, check the spray records: the last application of every chemical must be outside its pre-harvest interval from the label. If not, harvest must wait. Some buyers test for residues; a failed test can mean rejection of the load and loss of the client.</p><h4>Example</h4><p>A load of 400 crates of tomatoes is checked and 40 crates fail the size specification. That is a 10% rejection rate. Record it and look for causes, such as uneven irrigation or late harvesting.</p><p>Record maturity checks and grading results per land so trends can be compared from season to season.</p><p>Keep copies of your grading results, rejection records and buyer feedback in your portfolio, signed by your supervisor.</p>"
+  },
+  {
+   "title": "Assessing livestock for market readiness",
+   "minutes": 20,
+   "html": "<h3>Is the animal ready to sell?</h3><h4>Assessment</h4><ul><li><strong>Weight:</strong> weigh animals on a calibrated scale. Feedlots and abattoirs often pay according to weight and set target ranges.</li><li><strong>Age:</strong> estimated from the teeth; carcass age class affects the price.</li><li><strong>Condition:</strong> body condition score and fat cover; too thin or too fat both lower value.</li><li><strong>Health:</strong> only healthy animals may be sent for slaughter or sale. Sick or injured animals must be treated or handled on vet advice.</li><li><strong>Withdrawal periods:</strong> check the treatment register. No animal may go to slaughter before every withdrawal period has passed.</li></ul><h4>Documents and identification</h4><p>Animals must be marked according to the Animal Identification Act 6 of 2002, and moved with the documents required, such as a stock removal certificate and any veterinary movement permits in disease control areas. Keep copies for traceability.</p><h4>Preparing for transport</h4><ul><li>Handle animals calmly to avoid bruising, which is trimmed from the carcass and lowers payment.</li><li>Do not overload trucks; separate horned and polled animals and different sizes.</li><li>Load in the cool part of the day and provide water before loading.</li></ul><h4>Recording and feedback</h4><p>Record numbers, weights, grades and prices received. Ask the abattoir for carcass feedback on grade and bruising, and use it to improve feeding, handling and timing of sales.</p><h4>Key points</h4><ul><li>Quality is defined by grading standards and the buyer's specifications.</li><li>Check moisture, maturity, size and damage before selling crops.</li><li>Pre-harvest intervals and withdrawal periods must have passed before sale.</li><li>Weigh, age and condition-score livestock and keep identification and movement documents.</li><li>Calm handling reduces bruising and protects the price.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act provides for grading standards for many agricultural products in South Africa?",
+   "options": [
+    {
+     "text": "Agricultural Product Standards Act 119 of 1990",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    },
+    {
+     "text": "Employment Equity Act 55 of 1998",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A load of 400 crates has 40 crates that fail the size specification. What is the rejection rate?",
+   "options": [
+    {
+     "text": "4%",
+     "correct": false
+    },
+    {
+     "text": "10%",
+     "correct": true
+    },
+    {
+     "text": "40%",
+     "correct": false
+    },
+    {
+     "text": "25%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is the age of cattle usually estimated?",
+   "options": [
+    {
+     "text": "By coat colour",
+     "correct": false
+    },
+    {
+     "text": "From the teeth",
+     "correct": true
+    },
+    {
+     "text": "By height",
+     "correct": false
+    },
+    {
+     "text": "By horn length",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is bruising a problem when selling cattle?",
+   "options": [
+    {
+     "text": "It makes animals heavier",
+     "correct": false
+    },
+    {
+     "text": "Bruised meat is trimmed from the carcass and lowers payment",
+     "correct": true
+    },
+    {
+     "text": "It is required by buyers",
+     "correct": false
+    },
+    {
+     "text": "It improves the fat class",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you check in the spray records before harvest?",
+   "options": [
+    {
+     "text": "The price of the chemical",
+     "correct": false
+    },
+    {
+     "text": "That the last application is outside its pre-harvest interval",
+     "correct": true
+    },
+    {
+     "text": "The colour of the containers",
+     "correct": false
+    },
+    {
+     "text": "The name of the sprayer manufacturer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "An animal may be sent to slaughter before its withdrawal period has passed if it is in good condition.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Buyers may add their own specifications to the official grading standards.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are quality factors for grain? (select all that apply)",
+   "options": [
+    {
+     "text": "Moisture",
+     "correct": true
+    },
+    {
+     "text": "Foreign matter",
+     "correct": true
+    },
+    {
+     "text": "Insect damage",
+     "correct": true
+    },
+    {
+     "text": "Conformation",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

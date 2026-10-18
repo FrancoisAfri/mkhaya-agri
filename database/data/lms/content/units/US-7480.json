@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7480",
+ "title": "Demonstrate understanding of rational and irrational numbers and number systems",
+ "lessons": [
+  {
+   "title": "Kinds of numbers",
+   "minutes": 15,
+   "html": "<h3>The family of numbers</h3><p>We use numbers every day at work: counting carcasses, weighing meat, measuring temperature. Numbers belong to different groups.</p><table><tr><th>Group</th><th>What they are</th><th>Examples</th></tr><tr><td>Natural numbers</td><td>Counting numbers</td><td>1, 2, 3, 4 ...</td></tr><tr><td>Whole numbers</td><td>Natural numbers and zero</td><td>0, 1, 2, 3 ...</td></tr><tr><td>Integers</td><td>Whole numbers and their negatives</td><td>... −3, −2, −1, 0, 1, 2, 3 ...</td></tr><tr><td>Rational numbers</td><td>Numbers that can be written as a fraction a/b, where b is not 0</td><td>1/2, −3/4, 0.25, 5</td></tr><tr><td>Irrational numbers</td><td>Numbers that cannot be written as a fraction</td><td>π (pi), √2, √3</td></tr><tr><td>Real numbers</td><td>All rational and irrational numbers together</td><td>All of the above</td></tr></table><h4>Negative numbers at work</h4><p>Freezers run below zero. If a freezer is at −18 °C and a chiller is at 4 °C, the difference is 4 − (−18) = 22 degrees.</p><h4>Rational numbers as decimals</h4><ul><li>Some fractions give a decimal that stops: 1/4 = 0.25, 3/8 = 0.375. These are <strong>terminating decimals</strong>.</li><li>Some fractions give a decimal that repeats: 1/3 = 0.333..., 2/11 = 0.1818... These are <strong>recurring decimals</strong>.</li><li>Both kinds are rational.</li></ul><h4>Irrational numbers</h4><p>An irrational number has a decimal that never stops and never repeats. π = 3.14159... is used to work out the area and edge of circles, such as round tanks. √2 = 1.41421... We round irrational numbers when we use them, for example π ≈ 3.14.</p><p>Every natural number is also a whole number.</p><p>Every integer is also a rational number.</p>"
+  },
+  {
+   "title": "Working with fractions, decimals and percentages",
+   "minutes": 15,
+   "html": "<h3>Changing between forms</h3><p>The same amount can be written as a fraction, a decimal or a percentage.</p><table><tr><th>Fraction</th><th>Decimal</th><th>Percentage</th></tr><tr><td>1/2</td><td>0.5</td><td>50%</td></tr><tr><td>1/4</td><td>0.25</td><td>25%</td></tr><tr><td>3/4</td><td>0.75</td><td>75%</td></tr><tr><td>1/10</td><td>0.1</td><td>10%</td></tr></table><ul><li>Fraction to decimal: divide the top by the bottom. 3/5 = 3 ÷ 5 = 0.6.</li><li>Decimal to percentage: multiply by 100. 0.6 × 100 = 60%.</li><li>Percentage to decimal: divide by 100. 15% = 0.15.</li></ul><h4>Example at work</h4><p>A carcass weighs 250 kg. The trimmings are 1/50 of the weight. 250 ÷ 50 = 5 kg. As a percentage: 1/50 = 0.02 = 2%.</p><h4>Rounding</h4><p>To round to one decimal place, look at the second decimal. If it is 5 or more, round up. 12.46 kg becomes 12.5 kg. 12.43 kg becomes 12.4 kg.</p><h4>Estimating</h4><p>Before you calculate, estimate. 19 crates × 21 kg is about 20 × 20 = 400 kg. The exact answer is 399 kg. If your calculator showed 3 990, you would know something was wrong.</p><h4>Ratios</h4><p>Cleaning chemicals are often mixed as a ratio, for example 1 : 100, which means 1 part chemical to 100 parts water. For 10 litres of water you need 10 ÷ 100 = 0.1 litre, which is 100 ml of chemical. Always follow the label.</p><p>Always write the unit with your answer, such as kg, litres or %. A number without a unit can be misread and cause mistakes at work.</p><p>Check your answers with a calculator.</p>"
+  },
+  {
+   "title": "Large and small numbers and number systems",
+   "minutes": 15,
+   "html": "<h3>Powers of ten</h3><p>Big and small numbers are easier to write with powers of ten.</p><ul><li>10² = 10 × 10 = 100</li><li>10³ = 1 000</li><li>10⁶ = 1 000 000 (one million)</li></ul><p><strong>Scientific notation</strong> writes a number as a number between 1 and 10 times a power of ten.</p><ul><li>45 000 = 4.5 × 10⁴</li><li>3 200 000 = 3.2 × 10⁶</li><li>0.003 = 3 × 10⁻³</li></ul><p>A laboratory may report that a swab had 2 × 10³ bacteria. That is 2 000 bacteria.</p><h4>Units and prefixes</h4><table><tr><th>Prefix</th><th>Meaning</th><th>Example</th></tr><tr><td>kilo (k)</td><td>× 1 000</td><td>1 kg = 1 000 g</td></tr><tr><td>milli (m)</td><td>÷ 1 000</td><td>1 ml = 0.001 litre</td></tr><tr><td>centi (c)</td><td>÷ 100</td><td>1 cm = 0.01 m</td></tr></table><h4>Number systems</h4><p>We normally use the <strong>decimal</strong> system (base 10). It has ten digits, 0 to 9. Each place is worth ten times the place to its right: ones, tens, hundreds, thousands.</p><p>Computers use the <strong>binary</strong> system (base 2). It has only two digits, 0 and 1. Each place is worth two times the place to its right: 1, 2, 4, 8, 16 ...</p><ul><li>Binary 101 = (1 × 4) + (0 × 2) + (1 × 1) = 5.</li><li>Binary 1101 = 8 + 4 + 0 + 1 = 13.</li></ul><p>Time uses yet another system: 60 seconds in a minute and 60 minutes in an hour.</p><h4>Key points</h4><ul><li>Rational numbers can be written as fractions; irrational numbers like π and √2 cannot.</li><li>Terminating and recurring decimals are both rational.</li><li>Change between fractions, decimals and percentages by dividing or multiplying by 100.</li><li>Estimate first to check your answer.</li><li>Scientific notation and powers of ten make big and small numbers easy to write.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which number is irrational?",
+   "options": [
+    {
+     "text": "1/2",
+     "correct": false
+    },
+    {
+     "text": "0.25",
+     "correct": false
+    },
+    {
+     "text": "√2",
+     "correct": true
+    },
+    {
+     "text": "−3",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A freezer is at −18 °C and a chiller is at 4 °C. What is the difference?",
+   "options": [
+    {
+     "text": "14 degrees",
+     "correct": false
+    },
+    {
+     "text": "22 degrees",
+     "correct": true
+    },
+    {
+     "text": "−14 degrees",
+     "correct": false
+    },
+    {
+     "text": "4 degrees",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is 3/5 as a percentage?",
+   "options": [
+    {
+     "text": "35%",
+     "correct": false
+    },
+    {
+     "text": "60%",
+     "correct": true
+    },
+    {
+     "text": "53%",
+     "correct": false
+    },
+    {
+     "text": "0.6%",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is 45 000 written in scientific notation?",
+   "options": [
+    {
+     "text": "4.5 × 10⁴",
+     "correct": true
+    },
+    {
+     "text": "45 × 10⁵",
+     "correct": false
+    },
+    {
+     "text": "4.5 × 10³",
+     "correct": false
+    },
+    {
+     "text": "0.45 × 10²",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is binary 101 in the decimal system?",
+   "options": [
+    {
+     "text": "3",
+     "correct": false
+    },
+    {
+     "text": "101",
+     "correct": false
+    },
+    {
+     "text": "5",
+     "correct": true
+    },
+    {
+     "text": "7",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A recurring decimal such as 0.333... is a rational number.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "12.46 kg rounded to one decimal place is 12.4 kg.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which numbers are integers? (select all that apply)",
+   "options": [
+    {
+     "text": "−3",
+     "correct": true
+    },
+    {
+     "text": "0",
+     "correct": true
+    },
+    {
+     "text": "7",
+     "correct": true
+    },
+    {
+     "text": "1/2",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

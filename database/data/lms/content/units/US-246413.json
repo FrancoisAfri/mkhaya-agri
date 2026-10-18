@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246413",
+ "title": "Hunt wild animals with a client",
+ "lessons": [
+  {
+   "title": "Preparing for the hunt",
+   "minutes": 16,
+   "html": "<h3>The professional hunter's responsibility</h3>\n<p>When you hunt with a client, you are responsible for the client's safety, the legality of the hunt, the welfare of the animal and the client's experience. The client pays for your skill, judgement and honesty.</p>\n<h4>Before the client arrives</h4>\n<ul><li>Confirm permits: the property's hunting status, the provincial hunting permit for the species, TOPS or CITES permits for listed species, and your professional hunter licence.</li>\n<li>Check the client's firearm temporary import permit details, rifle calibre and ammunition.</li>\n<li>Know the property: boundaries, camps, waterpoints, roads, where target species are found, and no-hunting zones near houses and roads.</li>\n<li>Prepare the team: trackers, skinners, driver, and the vehicle with water, first aid kit, radio, shooting sticks, knives and recovery equipment.</li></ul>\n<h4>First day: checking the rifle and the client</h4>\n<p>On arrival the client must zero or check the rifle at a safe shooting range. This shows you:</p>\n<ul><li>Whether the rifle shoots where it aims after travel.</li>\n<li>How the client shoots: from shooting sticks, sitting, kneeling.</li>\n<li>Their safe-handling habits and experience.</li>\n<li>A realistic maximum shooting distance for this client. A client who groups well at 100 m from sticks should not be offered a 300 m shot.</li></ul>\n<h4>Briefing the client</h4>\n<p>Explain the plan for the day, the species and the trophy standards you are looking for, how you will signal (for example a raised hand to stop), where to walk, when to load, and that the client only shoots when you say so. Explain shot placement for each species with a picture or diagram, focusing on the heart-lung area.</p>"
+  },
+  {
+   "title": "Stalking, the shot and after the shot",
+   "minutes": 16,
+   "html": "<h3>Finding and approaching the animal</h3>\n<ul><li>Hunt into the wind so the animal does not smell you. Check the wind often with a wind-checker bottle or dust.</li>\n<li>Use cover: bushes, termite mounds, dry riverbeds. Move slowly and stop often.</li>\n<li>Let the tracker lead on tracks, and agree on silent hand signals.</li>\n<li>Judge the animal carefully with binoculars: species, sex, maturity, trophy quality, and that it is on the permit.</li></ul>\n<h4>Taking the shot</h4>\n<p>Only allow a shot when:</p>\n<ul><li>The animal is correctly identified and legal to shoot.</li>\n<li>It is standing still, broadside or slightly quartering, with a clear path to the vital area and no other animal behind it.</li>\n<li>It is within the client's proven range and the rifle is steady on sticks or a rest.</li>\n<li>There is a safe backstop and no people, vehicles or buildings in the line of fire.</li></ul>\n<p>Be ready as backup where appropriate, and watch the animal's reaction to the shot: a hard hunch, a kick of the hind legs, the direction it runs.</p>\n<h4>After the shot</h4>\n<ol><li>Reload, stay still and watch. Mark the spot where the animal stood and where it was last seen.</li>\n<li>Wait a few minutes unless the animal is clearly down, then approach carefully from behind and above, with the rifle ready.</li>\n<li>Check that the animal is dead: no eye blink when touched with a stick from a safe position.</li>\n<li>If wounded, follow up immediately and persistently with the trackers, following blood and tracks. Never give up on a wounded animal.</li>\n<li>Respect the animal: position it for photos, clean up blood, avoid disrespectful poses.</li></ol>\n<h4>Records and care of the trophy</h4>\n<p>Record the hunt in the hunting register as required by the province. Make sure the skinners handle the skin and horns correctly for the taxidermist, and that the meat is handled hygienically.</p>\n<h4>Key points</h4>\n<ul><li>Check permits, property, team and equipment before the hunt.</li>\n<li>Check the client's rifle and shooting ability on the first day and set a realistic range.</li>\n<li>Hunt into the wind, use cover and judge the animal carefully.</li>\n<li>Allow only safe, ethical shots on a correctly identified, legal animal.</li>\n<li>Follow up every wounded animal and record the hunt.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must the client check the rifle at a range on the first day?",
+   "options": [
+    {
+     "text": "It is optional",
+     "correct": false
+    },
+    {
+     "text": "To use up ammunition",
+     "correct": false
+    },
+    {
+     "text": "To confirm the rifle shoots where it aims and assess the client's shooting",
+     "correct": true
+    },
+    {
+     "text": "To scare the animals",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why do you hunt into the wind?",
+   "options": [
+    {
+     "text": "To keep dust off the rifle",
+     "correct": false
+    },
+    {
+     "text": "To stay cool",
+     "correct": false
+    },
+    {
+     "text": "To hear birds",
+     "correct": false
+    },
+    {
+     "text": "So the animal does not smell you",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which shot should a professional hunter allow?",
+   "options": [
+    {
+     "text": "A standing broadside animal within the client's proven range with a safe backstop",
+     "correct": true
+    },
+    {
+     "text": "An animal near a road",
+     "correct": false
+    },
+    {
+     "text": "A running animal at long range",
+     "correct": false
+    },
+    {
+     "text": "An animal with another animal behind it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after the shot if the animal runs off wounded?",
+   "options": [
+    {
+     "text": "Shoot another animal",
+     "correct": false
+    },
+    {
+     "text": "Wait until tomorrow without searching",
+     "correct": false
+    },
+    {
+     "text": "Follow up immediately and persistently with the trackers",
+     "correct": true
+    },
+    {
+     "text": "Give up if it is late",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How do you check that an animal is dead?",
+   "options": [
+    {
+     "text": "Pull its tail",
+     "correct": false
+    },
+    {
+     "text": "Touch the eye with a stick from a safe position and check for a blink",
+     "correct": true
+    },
+    {
+     "text": "Kick it",
+     "correct": false
+    },
+    {
+     "text": "Shout at it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The client may shoot whenever they see an animal, without waiting for the professional hunter.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hunts must be recorded in the hunting register as the province requires.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be checked before the client arrives? (select all that apply)",
+   "options": [
+    {
+     "text": "Property boundaries and no-hunting zones",
+     "correct": true
+    },
+    {
+     "text": "The client's favourite food only",
+     "correct": false
+    },
+    {
+     "text": "The client's firearm temporary import permit details",
+     "correct": true
+    },
+    {
+     "text": "Provincial hunting permits for the species",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

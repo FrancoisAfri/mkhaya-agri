@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116062",
+ "title": "Prepare a shearing shed for shearing",
+ "lessons": [
+  {
+   "title": "Cleaning the shearing shed",
+   "minutes": 15,
+   "html": "<h3>Why a clean shed matters</h3> <p>South Africa produces fine Merino wool, and much of it is sold on auction in Port Elizabeth (Gqeberha) for export. Buyers pay less for wool that is dirty or contaminated. A clean, well-prepared shearing shed protects the wool's value, the sheep's health and the shearers' safety.</p> <h4>Plan the cleaning with your supervisor</h4> <p>Start a few days before shearing begins. Your supervisor will tell you which areas to clean and what equipment to use.</p> <h4>Cleaning steps</h4> <ol> <li><strong>Remove rubbish and stored items</strong>: take out feed bags, twine, plastic, tools, old fleece and anything stored in the shed during the year.</li> <li><strong>Sweep the whole shed</strong>: shearing board, wool tables, catching pens, rafters and walls. Start high and work down so dust falls to the floor.</li> <li><strong>Clean the holding pens</strong>: remove dung and old bedding. Wet dung stains wool.</li> <li><strong>Wash floors</strong> where needed and let them dry well before sheep come in. Sheep must be dry when shorn.</li> <li><strong>Clean the wool tables, bins and press</strong>: brush off old wool and dust.</li> <li><strong>Check for pests</strong>: remove bird nests and rat droppings. Report rat problems so they can be controlled safely, away from wool and feed.</li> <li><strong>Clean the toilets and hand-wash area</strong> for the shearing team.</li> </ol> <h4>Safety while cleaning</h4> <ul> <li>Wear a dust mask when sweeping dusty areas.</li> <li>Use a safe ladder for high cleaning, with someone holding it.</li> <li>Wear gloves when handling dung and dead rodents, and wash your hands afterwards.</li> <li>Do not touch electrical wiring. Report damaged cables.</li> </ul>"
+  },
+  {
+   "title": "Recognising contamination",
+   "minutes": 15,
+   "html": "<h3>What is contamination?</h3> <p>Contamination is anything in the wool that should not be there. It lowers the price and can lead to the whole bale being downgraded. Some contaminants, like polypropylene (plastic) fibres, cannot be removed in processing and ruin the cloth made from the wool.</p> <h4>Common contaminants in a shearing shed</h4> <table> <tr><th>Contaminant</th><th>Where it comes from</th></tr> <tr><td>Plastic twine and baling twine</td><td>Feed bales, tied gates, pens</td></tr> <tr><td>Plastic bags and wrapping</td><td>Feed bags, rubbish</td></tr> <tr><td>Coloured fibres</td><td>Workers' clothes, rags, hessian</td></tr> <tr><td>Black or coloured wool</td><td>Black or spotted sheep, or goats, shorn with white sheep</td></tr> <tr><td>Dung and urine stains</td><td>Wet pens, dirty floors</td></tr> <tr><td>Paint and branding fluid</td><td>Non-scourable marking paint</td></tr> <tr><td>Vegetable matter</td><td>Seeds, burrs, hay on the floor</td></tr> <tr><td>Oil, grease and tar</td><td>Machines, handpieces</td></tr> <tr><td>Hair from dogs</td><td>Dogs lying in the shed</td></tr> </table> <h4>How to prevent it</h4> <ul> <li>Remove all plastic twine and bags from the shed and pens. Do not use plastic twine to tie gates.</li> <li>Use only approved, scourable marking products.</li> <li>Shear coloured sheep last and keep their wool separate.</li> <li>Keep dogs out of the shed.</li> <li>Workers wear clothing that does not shed coloured fibres, as the farm requires.</li> <li>Keep oil and grease away from the board and tables; wipe up spills.</li> <li>Keep sheep pens clean and dry.</li> </ul> <h4>During shearing</h4><p>Keep sweeping the board between sheep so second cuts, dung and dirt do not mix with the fleece. Pick up any twine or plastic you see straight away. Keep the wool off the floor as much as possible.</p><p>If you see contamination during cleaning or shearing, remove it and tell your supervisor.</p>"
+  },
+  {
+   "title": "Setting up equipment and checking the shed",
+   "minutes": 15,
+   "html": "<h3>Organising the shed for smooth work</h3> <p>A well-laid-out shed lets wool move quickly from the board to the table to the bins and the press, without being dropped on dirty floors.</p> <h4>Placing equipment</h4> <ul> <li><strong>Shearing stands</strong>: check each stand's overhead gear and handpiece drive. Shearers check their own handpieces; you make sure the area is clear.</li> <li><strong>Catching pens</strong>: gates open and close easily; floor not slippery.</li> <li><strong>Let-out chutes</strong>: clear, so shorn sheep leave quickly.</li> <li><strong>Wool table</strong>: placed close to the board for throwing fleeces, with enough light for skirting and classing.</li> <li><strong>Wool bins</strong>: set out and labelled for each class (for example fleece, bellies, pieces, locks).</li> <li><strong>Wool press</strong>: clean, checked and ready; bales and bale fasteners close by.</li> <li><strong>Brooms</strong>: one for each board, used only to sweep the board.</li> <li><strong>Stencils, scales and records</strong>: ready for marking and weighing bales.</li> <li><strong>First aid kit, drinking water and fire extinguisher</strong>: in place.</li> </ul> <h3>Checking the structure</h3> <p>Before shearing, walk through the shed and look for problems. Report them to your supervisor straight away so they can be fixed in time.</p> <ul> <li>Broken floor boards or slats where sheep or people can fall or get hurt.</li> <li>Loose or broken gates and pen rails.</li> <li>Holes in the roof that let rain onto the board or wool.</li> <li>Broken windows and poor lighting.</li> <li>Exposed nails, sharp edges or wire.</li> <li>Damaged electrical cables, plugs and switches.</li> <li>Uneven or slippery ramps.</li> </ul> <h4>Key points</h4> <ul> <li>Clean from the top down and remove all rubbish, dung and stored items.</li> <li>Remove plastic twine and bags; they ruin wool.</li> <li>Keep dogs out and shear coloured sheep last.</li> <li>Set out the table, bins, press and brooms for smooth flow.</li> <li>Report broken floors, gates, roof leaks and damaged wiring before shearing.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should plastic twine be removed from the shearing shed?",
+   "options": [
+    {
+     "text": "It is too expensive",
+     "correct": false
+    },
+    {
+     "text": "It is needed for the press",
+     "correct": false
+    },
+    {
+     "text": "It attracts sheep",
+     "correct": false
+    },
+    {
+     "text": "Its fibres contaminate the wool and cannot be removed in processing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When cleaning the shed, where should you start?",
+   "options": [
+    {
+     "text": "On the floor first",
+     "correct": false
+    },
+    {
+     "text": "High up, working down",
+     "correct": true
+    },
+    {
+     "text": "In the toilets only",
+     "correct": false
+    },
+    {
+     "text": "Outside only",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should black or coloured sheep be shorn?",
+   "options": [
+    {
+     "text": "Last, with their wool kept separate",
+     "correct": true
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "First",
+     "correct": false
+    },
+    {
+     "text": "Together with white sheep",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must the shed floor dry before sheep come in?",
+   "options": [
+    {
+     "text": "Sheep must be dry when shorn",
+     "correct": true
+    },
+    {
+     "text": "The shearers like it wet",
+     "correct": false
+    },
+    {
+     "text": "It makes the wool heavier",
+     "correct": false
+    },
+    {
+     "text": "Wet floors are warmer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you find a broken floor board before shearing?",
+   "options": [
+    {
+     "text": "Cover it with wool",
+     "correct": false
+    },
+    {
+     "text": "Report it to your supervisor straight away",
+     "correct": true
+    },
+    {
+     "text": "Wait until after shearing",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dogs may lie in the shearing shed during shearing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Only approved, scourable marking products should be used on sheep.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common wool contaminants? (select all that apply)",
+   "options": [
+    {
+     "text": "Coloured clothing fibres",
+     "correct": true
+    },
+    {
+     "text": "Dung stains",
+     "correct": true
+    },
+    {
+     "text": "Plastic bags",
+     "correct": true
+    },
+    {
+     "text": "Clean white fleece",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

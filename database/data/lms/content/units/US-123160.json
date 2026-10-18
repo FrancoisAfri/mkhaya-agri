@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123160",
+ "title": "Bruise, ferment and dry Rooibos cuttings",
+ "lessons": [
+  {
+   "title": "Bruising the cut tea",
+   "minutes": 15,
+   "html": "<h3>Bringing out the colour and taste</h3><p>After rooibos is cut into short pieces, it is bruised, fermented and dried on the tea court. These steps give the tea its red-brown colour, sweet smell and taste. If they are done badly, the tea loses value, so every step must be done well.</p><h4>What bruising does</h4><p>Bruising crushes the cut leaves and stems so the plant juices come out. The juices react with the air (oxidation). This is what turns the tea from green to red-brown during fermentation.</p><h4>How bruising is done</h4><ul><li>The cut tea is put in heaps or rows on the clean tea court.</li><li>It is wetted with clean water. Use only clean, safe water – the tea will be drunk by people.</li><li>It is bruised, for example by working it with a machine or by turning and pressing it, as the farm does it.</li><li>Bruising must be even. Parts not bruised stay green.</li></ul><h4>How much water?</h4><p>The supervisor decides how much water to add. Too little and the tea does not ferment well. Too much and it becomes soggy and may spoil. Follow the instructions exactly.</p><h4>Clean tea court</h4><ul><li>Sweep the court before starting.</li><li>Keep animals, dogs and chickens off the court.</li><li>No smoking, eating or spitting on the court.</li><li>Wear clean clothes and wash your hands before you work.</li></ul>"
+  },
+  {
+   "title": "Fermenting",
+   "minutes": 15,
+   "html": "<h3>Turning green into red</h3><p>After bruising, the wet tea is piled into heaps and left to ferment. During this time the tea warms up, changes colour from green to red-brown and gets a sweet, honey-like smell.</p><h4>Making the heap</h4><ul><li>Pile the bruised tea into neat heaps of the size and height the supervisor shows you.</li><li>Some farms cover the heaps, or turn them during fermentation. Follow the farm's method.</li></ul><h4>How long?</h4><p>Fermentation takes some hours. The time depends on the weather and the tea. The supervisor decides when fermentation is finished by looking at the colour and smelling the tea. Learn from the supervisor what good fermented tea looks and smells like.</p><h4>Signs of good fermentation</h4><ul><li>Even red-brown colour all through the heap.</li><li>Sweet, pleasant smell.</li></ul><h4>Signs of a problem</h4><table><tr><th>What you see</th><th>Possible cause</th></tr><tr><td>Green pieces</td><td>Not bruised enough, too little water or too short a time</td></tr><tr><td>Sour or bad smell</td><td>Too wet, too long, or dirty conditions</td></tr><tr><td>Mould</td><td>Too wet or left too long</td></tr></table><p>Tell the supervisor straight away if you see or smell a problem.</p><h4>Green rooibos</h4><p>Green (unfermented) rooibos is not left to ferment. It is dried quickly after cutting so it stays green. Keep green and red rooibos apart.</p>"
+  },
+  {
+   "title": "Drying, collecting and records",
+   "minutes": 15,
+   "html": "<h3>Drying on the tea court</h3><ol><li>When fermentation is finished, spread the tea out thinly and evenly on the tea court.</li><li>Use rakes to spread it. Thick patches dry slowly and can go mouldy.</li><li>Let it dry in the sun. On many farms it is turned during the day so it dries evenly.</li><li>The supervisor checks when the tea is dry enough.</li><li>Rake the dry tea together, and sweep it up.</li><li>Fill clean bags and close them.</li></ol><h4>Weather</h4><p>Rain spoils drying tea. Watch the weather. If rain comes, help the team to collect the tea or cover it quickly, as the supervisor says.</p><h4>Bags and storage</h4><ul><li>Use clean, new or approved bags only. Never use fertiliser or chemical bags.</li><li>Label each bag with the date, batch or land, as the farm asks.</li><li>Store bags in a clean, dry store off the floor, away from chemicals, fuel and animals.</li></ul><h4>Records</h4><p>Write down the batch, date, start and end time of fermenting, weather and number of bags filled. This helps trace any quality problem.</p><h4>Look after yourself</h4><p>The tea court is very hot in summer. Wear a hat and sunscreen, drink water often and rest in the shade during breaks. Lift bags with your legs, not your back.</p><h4>Key points</h4><ul><li>Bruising crushes the tea so juices react with air and colour develops.</li><li>Use only clean water and keep the tea court clean and free of animals.</li><li>Good fermented tea is evenly red-brown with a sweet smell.</li><li>Spread tea thinly and evenly to dry and protect it from rain.</li><li>Bag in clean bags only, label and store dry, off the floor.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does bruising do to rooibos?",
+   "options": [
+    {
+     "text": "Dries it",
+     "correct": false
+    },
+    {
+     "text": "Crushes it so the juices come out and react with air",
+     "correct": true
+    },
+    {
+     "text": "Removes the stems",
+     "correct": false
+    },
+    {
+     "text": "Makes it green",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does well-fermented rooibos look and smell like?",
+   "options": [
+    {
+     "text": "Green with a grassy smell",
+     "correct": false
+    },
+    {
+     "text": "White with no smell",
+     "correct": false
+    },
+    {
+     "text": "Even red-brown with a sweet smell",
+     "correct": true
+    },
+    {
+     "text": "Black with a sour smell",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The fermenting tea smells sour and bad. What is a possible cause?",
+   "options": [
+    {
+     "text": "The bags are new",
+     "correct": false
+    },
+    {
+     "text": "Not enough sun on the court",
+     "correct": false
+    },
+    {
+     "text": "It is too wet, left too long or conditions were dirty",
+     "correct": true
+    },
+    {
+     "text": "It is perfect",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should tea be spread thinly to dry?",
+   "options": [
+    {
+     "text": "To use more space",
+     "correct": false
+    },
+    {
+     "text": "Thick patches dry slowly and can go mouldy",
+     "correct": true
+    },
+    {
+     "text": "To change the colour",
+     "correct": false
+    },
+    {
+     "text": "So it blows away",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which bags may be used for dry tea?",
+   "options": [
+    {
+     "text": "Any bag on the farm",
+     "correct": false
+    },
+    {
+     "text": "Old fertiliser bags",
+     "correct": false
+    },
+    {
+     "text": "Chemical bags that have been washed",
+     "correct": false
+    },
+    {
+     "text": "Clean, new or approved bags",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Green rooibos is dried quickly without fermenting.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dogs and chickens may walk on the tea court if they are clean.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which rules help keep the tea court clean? (select all that apply)",
+   "options": [
+    {
+     "text": "No smoking, eating or spitting on the court",
+     "correct": true
+    },
+    {
+     "text": "Store fuel on the court",
+     "correct": false
+    },
+    {
+     "text": "Wash hands before work",
+     "correct": true
+    },
+    {
+     "text": "Sweep the court before starting",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

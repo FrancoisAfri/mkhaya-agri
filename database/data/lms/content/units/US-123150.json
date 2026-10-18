@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123150",
+ "title": "Core and grab wool and mohair samples",
+ "lessons": [
+  {
+   "title": "Why bales are sampled",
+   "minutes": 15,
+   "html": "<h3>A small sample tells buyers about the whole bale</h3><p>Buyers do not open every bale before they buy. Instead, samples are taken from every bale in a lot and tested. The results tell the buyer what the fibre is like, and they decide the price. If the sample is not taken correctly, or is mixed up with another bale, the test results will be wrong and either the farmer or the buyer will lose money.</p><h4>Two kinds of samples</h4><table><tr><th>Sample</th><th>How it is taken</th><th>What it is used for</th></tr><tr><td>Core sample</td><td>A machine pushes a hollow tube into the bale and pulls out a core of fibre</td><td>Laboratory tests such as yield (clean fibre), fineness (micron) and vegetable matter</td></tr><tr><td>Grab sample</td><td>Handfuls of fibre are pulled from the bale, usually through slits</td><td>Tests of staple length and strength, and the display sample buyers look at</td></tr></table><h4>Rules for all sampling</h4><ul><li>Follow the store's procedure and the industry testing rules exactly. Testing laboratories work to international rules set by the International Wool Textile Organisation (IWTO).</li><li>Sample every bale in the lot that the procedure says.</li><li>Always check the bale number against the list before sampling.</li><li>Never take a sample from a \"good-looking\" place only. Samples must represent the whole bale.</li><li>Keep samples from different lots completely apart.</li></ul>"
+  },
+  {
+   "title": "Core sampling",
+   "minutes": 15,
+   "html": "<h3>Using the coring machine</h3><p>Core sampling is done with a coring machine. It has hydraulic or mechanical parts and sharp coring tubes. Only trained operators may run it.</p><h4>Before you start</h4><ul><li>Check the coring tubes are clean, sharp and the right size.</li><li>Check guards, the emergency stop and hydraulic hoses. Report leaks.</li><li>Have clean, labelled sample bags or containers ready for the lot.</li></ul><h4>Steps</h4><ol><li>Move the bale into the coring position in the way the machine is designed.</li><li>Check the bale number and lot number.</li><li>Run the coring cycle. The tubes go into the bale at the positions and depth the procedure sets.</li><li>Collect all the cored fibre into the sample bag for that lot. Do not drop or lose any.</li><li>Repeat for every bale in the lot, putting all cores into the same lot bag.</li><li>Seal the bag, and label it with lot number, number of bales and date. Some stores weigh the core sample.</li><li>Clean the tubes before starting the next lot so fibre does not carry over.</li></ol><h4>Safety</h4><ul><li>Never put your hands near the tubes or bale clamps while the machine is running.</li><li>Switch off and lock out before clearing a blocked tube.</li><li>Wear safety boots, hearing protection and a dust mask if required.</li><li>Hydraulic oil under pressure can injure skin. Never check for leaks with your hand.</li></ul><h4>Core samples are sealed</h4><p>Core samples go to the laboratory sealed. Never open, change or add to a sealed sample.</p>"
+  },
+  {
+   "title": "Grab sampling and handling samples",
+   "minutes": 15,
+   "html": "<h3>Taking grab samples</h3><ol><li>Check the bale and lot numbers.</li><li>Through the slits made in the bale, pull out handfuls of fibre from the places the procedure gives (for example, from different sides).</li><li>Take fibre so the staples (natural locks) stay whole. Do not tear or cut them – length and strength are tested from them.</li><li>Put the grab from each bale into the lot's grab sample container.</li><li>When all bales are done, close and label the container with lot number, number of bales and date.</li><li>Close or patch the slits in the bales as the store says.</li></ol><h4>Labels and records</h4><ul><li>Every sample must have a label that matches the lot on the record sheet.</li><li>Write clearly. A wrong number means the wrong test result goes to the wrong farmer.</li><li>Record the date, lot, number of bales sampled and your name.</li></ul><h4>Storing and sending samples</h4><ul><li>Keep samples clean and dry, away from dust, sun and rodents.</li><li>Send them to the laboratory or display area on time.</li><li>Use the store's register to show who handed over the samples and who received them.</li></ul><h4>Honesty</h4><p>Never change a sample to make fibre look better. This is fraud and harms the whole industry.</p><h4>Key points</h4><ul><li>Core samples are for laboratory tests like yield and micron; grab samples are for length, strength and display.</li><li>Always check bale and lot numbers before sampling.</li><li>Samples must represent the whole bale; never choose only good-looking fibre.</li><li>Keep hands away from coring tubes and lock out before clearing blockages.</li><li>Label, seal and record every sample correctly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a core sample mainly used for?",
+   "options": [
+    {
+     "text": "Laboratory tests such as yield and micron",
+     "correct": true
+    },
+    {
+     "text": "Displaying to buyers only",
+     "correct": false
+    },
+    {
+     "text": "Weighing the bale",
+     "correct": false
+    },
+    {
+     "text": "Making bale packs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How is a grab sample taken?",
+   "options": [
+    {
+     "text": "By pulling handfuls of fibre from the bale, usually through slits",
+     "correct": true
+    },
+    {
+     "text": "By cutting the bale open completely",
+     "correct": false
+    },
+    {
+     "text": "By shaking the bale",
+     "correct": false
+    },
+    {
+     "text": "By a hollow tube pushed into the bale",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must staples stay whole in a grab sample?",
+   "options": [
+    {
+     "text": "To make the yield higher",
+     "correct": false
+    },
+    {
+     "text": "It makes them heavier",
+     "correct": false
+    },
+    {
+     "text": "They look nicer",
+     "correct": false
+    },
+    {
+     "text": "Length and strength are tested from them",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which organisation sets international rules for wool testing?",
+   "options": [
+    {
+     "text": "The municipality",
+     "correct": false
+    },
+    {
+     "text": "The bank",
+     "correct": false
+    },
+    {
+     "text": "The SABS only",
+     "correct": false
+    },
+    {
+     "text": "The International Wool Textile Organisation (IWTO)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before clearing a blocked coring tube?",
+   "options": [
+    {
+     "text": "Ask a visitor to help",
+     "correct": false
+    },
+    {
+     "text": "Pull it out with your hand while it runs",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out the machine",
+     "correct": true
+    },
+    {
+     "text": "Hit it with a hammer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Samples must represent the whole bale, not only the best-looking part.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to open a sealed core sample to add more fibre.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What must be on a sample label? (select all that apply)",
+   "options": [
+    {
+     "text": "Number of bales",
+     "correct": true
+    },
+    {
+     "text": "Date",
+     "correct": true
+    },
+    {
+     "text": "The buyer's favourite colour",
+     "correct": false
+    },
+    {
+     "text": "Lot number",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

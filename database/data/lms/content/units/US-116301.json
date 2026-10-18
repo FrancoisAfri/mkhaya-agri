@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116301",
+ "title": "Apply effective and responsible integrated pest, disease and weed control",
+ "lessons": [
+  {
+   "title": "IPM principles and identifying problems",
+   "minutes": 20,
+   "html": "<h3>What is integrated pest management?</h3><p><strong>Integrated pest management (IPM)</strong> is a way of controlling pests, diseases and weeds by combining several methods, based on regular monitoring, so that damage is kept below an economic level with the least harm to people, beneficial organisms and the environment. Chemicals are one tool, not the first and only answer.</p><p>Core principles:</p><ul><li><strong>Prevention</strong>: clean planting material, resistant cultivars, crop rotation, field hygiene.</li><li><strong>Monitoring</strong>: regular, structured scouting with records.</li><li><strong>Thresholds</strong>: act only when the pest level justifies the cost of control.</li><li><strong>Combined control</strong>: cultural, biological, mechanical and chemical options used together.</li><li><strong>Evaluation</strong>: check whether control worked and adjust.</li></ul><h3>Types of pest problem</h3><table><tr><th>Category</th><th>Meaning</th><th>Example</th></tr><tr><td>Key (economically damaging) pest</td><td>Occurs regularly and causes losses above threshold if not managed</td><td>Fall armyworm in maize; false codling moth in citrus</td></tr><tr><td>Sporadic pest</td><td>Only damaging in some seasons or conditions</td><td>Locust outbreaks; bollworm flare-ups</td></tr><tr><td>Secondary pest</td><td>Becomes a problem when natural enemies are killed</td><td>Red spider mite after broad-spectrum sprays</td></tr><tr><td>Disease</td><td>Caused by fungi, bacteria or viruses</td><td>Late blight on potatoes; citrus black spot</td></tr></table><h3>Diagnosing from symptoms</h3><p>Symptoms are what you see on the plant: wilting, leaf spots, chewed leaves, galls, honeydew, stunting. Different causes can look alike, so use field guides, industry manuals and extension officers, and where needed send samples to a laboratory. Distinguish pest damage from nutrient deficiency, herbicide drift, frost or water stress before deciding on control. A wrong diagnosis leads to wasted sprays.</p><h4>Using economic thresholds</h4><p>An economic threshold is the pest level at which the cost of control equals the value of the damage it prevents. Thresholds differ by crop, cultivar, growth stage and market, and are found in industry guidelines. They turn scouting counts into clear spray or no-spray decisions.</p>"
+  },
+  {
+   "title": "Control options and planning the decision",
+   "minutes": 20,
+   "html": "<h3>The control toolbox</h3><ul><li><strong>Cultural</strong>: crop rotation, planting dates, resistant cultivars, removing crop residues, correct spacing and irrigation to reduce humidity, weed-free borders.</li><li><strong>Mechanical and physical</strong>: hand weeding, cultivation, mulching, traps, nets, removing infected fruit.</li><li><strong>Biological</strong>: conserving or releasing natural enemies (ladybirds, parasitic wasps, predatory mites), and registered biological products.</li><li><strong>Chemical</strong>: registered pesticides, herbicides and fungicides, chosen for selectivity and applied at the right time and rate.</li><li><strong>Legal / regulatory</strong>: quarantine rules and declared weeds and invaders under the Conservation of Agricultural Resources Act 43 of 1983.</li></ul><h3>Resistance management</h3><p>Repeated use of products with the same mode of action selects for resistant pests and weeds. Rotate between mode-of-action groups as shown on labels, use full label rates, and combine non-chemical methods.</p><h3>Building a decision plan</h3><p>At NQF 4 you assist the manager to build a plan. A practical plan includes:</p><ol><li>The target pest and its life cycle, and when it is most vulnerable.</li><li>The monitoring method (traps, leaf counts, sweep nets) and frequency.</li><li>Action thresholds per block.</li><li>Ranked control options: non-chemical first where they are effective.</li><li>Chemical options: registered product, rate, pre-harvest interval and re-entry period, effect on beneficials and bees, market residue limits (MRLs) for export.</li><li>Cost per hectare compared with the expected loss.</li><li>Who does what, and how results are recorded.</li></ol><p>A simple decision rule: if scouting count exceeds threshold, check weather, beneficial levels and harvest date, then choose the least disruptive effective option.</p><h4>Recording the decision</h4><p>Write down why a control was chosen, the scouting data behind it and who approved it. These records help the next season's planning, satisfy buyers' audits such as GLOBALG.A.P., and show that the product was used legally and according to the label.</p>"
+  },
+  {
+   "title": "Monitoring, community and the chemical store",
+   "minutes": 20,
+   "html": "<h3>Post-application monitoring</h3><p>Scout the block again after a control action, at the interval in the plan. Compare counts with pre-treatment levels. If pest numbers have not dropped, consider: wrong diagnosis, poor coverage, incorrect rate or water volume, rain wash-off, wrong timing in the life cycle, or resistance. Record findings and adjust the plan. Also record any crop damage (phytotoxicity) and effects on beneficials.</p><h3>Environmental and community considerations</h3><ul><li>Protect water: buffer zones from rivers, dams and boreholes; no mixing or rinsing near water (National Water Act 36 of 1998).</li><li>Protect bees: avoid spraying flowering crops when bees are active; notify beekeepers.</li><li>Prevent drift onto neighbours, homes, schools and workers' housing. Inform neighbours of spray programmes where relevant.</li><li>Respect re-entry periods and display signs in the worker's languages.</li><li>Choose the least toxic effective product.</li></ul><h3>Managing the agrochemical store</h3><p>As a supervisor you oversee the store. Requirements include:</p><ul><li>A lockable, ventilated, well-lit building with a bunded impermeable floor to contain spills, away from water sources, houses and food or feed.</li><li>Warning signs, a list of products, safety data sheets, and emergency numbers on display.</li><li>Shelving off the floor; liquids below powders; herbicides kept separate from other products.</li><li>Access only for trained, authorised staff; keys controlled.</li><li>Stock register: receipts, issues, balance, batch and expiry. Use first-in, first-out.</li><li>Spill kit, eyewash, fire extinguisher and PPE at the store.</li><li>Empty containers triple-rinsed, punctured and kept for collection by an approved container recovery or disposal service.</li><li>Obsolete or expired products held securely until disposed of through a registered service.</li></ul><p>The OHS Act 85 of 1993 and its hazardous chemical regulations also apply: workers must be trained and medical surveillance may be needed for some products.</p><h4>Key points</h4><ul><li>IPM combines prevention, monitoring, thresholds and several control methods.</li><li>Correct diagnosis comes before any control decision.</li><li>Rotate modes of action to manage resistance.</li><li>Monitor after treatment and investigate if pest levels do not drop.</li><li>Protect water, bees and communities, and run a secure, recorded chemical store.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the main idea of integrated pest management?",
+   "options": [
+    {
+     "text": "Spray on a fixed calendar regardless of pest levels",
+     "correct": false
+    },
+    {
+     "text": "Use only biological control",
+     "correct": false
+    },
+    {
+     "text": "Use the strongest product available",
+     "correct": false
+    },
+    {
+     "text": "Combine several methods based on monitoring to keep damage below an economic level",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A pest that becomes a problem after broad-spectrum sprays kill its natural enemies is called a…",
+   "options": [
+    {
+     "text": "Key pest",
+     "correct": false
+    },
+    {
+     "text": "Secondary pest",
+     "correct": true
+    },
+    {
+     "text": "Sporadic pest",
+     "correct": false
+    },
+    {
+     "text": "Quarantine pest",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the best way to slow down pesticide resistance?",
+   "options": [
+    {
+     "text": "Rotate between mode-of-action groups and combine non-chemical methods",
+     "correct": true
+    },
+    {
+     "text": "Use half the label rate",
+     "correct": false
+    },
+    {
+     "text": "Use the same product every time",
+     "correct": false
+    },
+    {
+     "text": "Spray more often",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which of these is a cultural control method?",
+   "options": [
+    {
+     "text": "Releasing parasitic wasps",
+     "correct": false
+    },
+    {
+     "text": "Applying a fungicide",
+     "correct": false
+    },
+    {
+     "text": "Crop rotation",
+     "correct": true
+    },
+    {
+     "text": "Setting pheromone traps",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should liquids and powders be arranged on chemical store shelves?",
+   "options": [
+    {
+     "text": "Powders below liquids",
+     "correct": false
+    },
+    {
+     "text": "Liquids below powders",
+     "correct": true
+    },
+    {
+     "text": "On the floor",
+     "correct": false
+    },
+    {
+     "text": "Mixed together to save space",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If pest numbers have not dropped after spraying, one possible cause is poor spray coverage.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The chemical store should be close to a borehole so that water is available for mixing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which considerations protect the environment and community during pest control? (select all that apply)",
+   "options": [
+    {
+     "text": "Spraying near schools on windy days",
+     "correct": false
+    },
+    {
+     "text": "Avoiding spraying flowering crops when bees are active",
+     "correct": true
+    },
+    {
+     "text": "Respecting re-entry periods and displaying signs",
+     "correct": true
+    },
+    {
+     "text": "Buffer zones near rivers and dams",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-14339",
+ "title": "Identify and maintain the types of records required in own industry and understand why it is necessary to create evidence and maintain confidentiality",
+ "lessons": [
+  {
+   "title": "Why we keep records",
+   "minutes": 15,
+   "html": "<h3>Records are proof</h3><p>A record is information written down or saved on a computer that shows what happened, when it happened and who did it. In the wool and mohair industry, and on farms, records are needed every day. Without records, nobody can prove how many bales arrived, how much a bale weighed, or which worker took a sample.</p><h4>Records are used to</h4><ul><li>pay farmers correctly for their fibre;</li><li>trace a bale or sample from arrival to sale;</li><li>pay workers correctly;</li><li>show that safety rules and procedures were followed;</li><li>answer complaints and claims from buyers;</li><li>show auditors and inspectors that the business follows the law and standards;</li><li>plan work and make decisions.</li></ul><h4>Records as evidence</h4><p>If something goes wrong, records are the evidence of what really happened. For example, a buyer says a bale was missing. The signed delivery note, with the bale count and the driver's signature, shows whether all bales were loaded. If there is no record, the store may have to pay the claim.</p><p>A record is only good evidence if it is:</p><ul><li><strong>accurate</strong> – the facts are correct;</li><li><strong>complete</strong> – nothing is left out;</li><li><strong>made at the time</strong> – written when the work is done, not days later from memory;</li><li><strong>signed and dated</strong> – so we know who made it and when;</li><li><strong>readable</strong> – clear writing or typing.</li></ul>"
+  },
+  {
+   "title": "Types of records in our industry",
+   "minutes": 15,
+   "html": "<h3>The records you will see</h3><table><tr><th>Record</th><th>What it shows</th></tr><tr><td>Delivery notes and waybills</td><td>What was received or sent, and who signed</td></tr><tr><td>Farmer specifications</td><td>Bales sent by each farmer, with marks and descriptions</td></tr><tr><td>Receiving register</td><td>Date, farmer, bale numbers and condition on arrival</td></tr><tr><td>Weight lists</td><td>Mass of every bale</td></tr><tr><td>Sample registers</td><td>Samples taken, by whom and when, and where they were sent</td></tr><tr><td>Store location records</td><td>Where every lot is in the store</td></tr><tr><td>Dispatch records</td><td>Bales sent, buyer, truck, container and seal numbers</td></tr><tr><td>Time sheets and leave forms</td><td>Hours worked and leave taken</td></tr><tr><td>Injury and incident register</td><td>Accidents and near misses</td></tr><tr><td>Machine checks and maintenance</td><td>Forklift, press and scale checks; scale calibration</td></tr><tr><td>Training records</td><td>Who is trained and licensed for which machine</td></tr></table><h4>Paper and computer records</h4><p>Some records are on paper, some on the computer, and some on both. Paper records are filed in the right file, in order. Computer records are saved in the right folder or system and backed up.</p><h4>How long to keep records</h4><p>Records must be kept for the time the company and the law require. Do not throw away or delete records unless your supervisor tells you it is allowed.</p><h4>Who uses these records?</h4><p>Many people depend on the records you keep. The office uses weight lists to pay farmers. Buyers use test results and dispatch records. Managers use time sheets to pay wages. Auditors check training and machine records. A mistake in one record can affect all these people.</p>"
+  },
+  {
+   "title": "Keeping records correct and confidential",
+   "minutes": 15,
+   "html": "<h3>Look after the records</h3><h4>Filling in records</h4><ul><li>Write in pen, clearly.</li><li>Fill in every space. Write \"n/a\" if something does not apply.</li><li>Check numbers twice.</li><li>Sign and date.</li><li>If you make a mistake, draw one line through it so it can still be read, write the correct value and initial it. Never use correction fluid or tear out pages.</li><li>Never change someone else's record or sign for someone else. This is dishonest and can be fraud.</li></ul><h4>Confidentiality</h4><p>Some information is private. Confidential means it may only be seen by people who need it for their work. Examples:</p><ul><li>workers' personal details, wages, medical and disciplinary records;</li><li>farmers' names, addresses, bank details and how much they were paid;</li><li>prices and buyer information.</li></ul><p>The Protection of Personal Information Act (POPIA) protects people's personal information in South Africa. Businesses must keep it safe and use it only for the right purpose.</p><h4>How to keep information confidential</h4><ul><li>Do not talk about private information with friends, family or other workers.</li><li>Lock files away and lock the computer when you leave.</li><li>Do not share your password.</li><li>Do not leave papers on desks or copiers.</li><li>Shred or dispose of old private papers as the company says.</li></ul><h4>Key points</h4><ul><li>Records show what happened, when and who did it, and are used as evidence.</li><li>Good records are accurate, complete, made at the time, signed, dated and readable.</li><li>Correct mistakes with one line and initials; never use correction fluid or sign for others.</li><li>Keep records for the time the company and law require.</li><li>Personal and business information is confidential; POPIA protects personal information.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a record?",
+   "options": [
+    {
+     "text": "Information written or saved that shows what happened, when and who did it",
+     "correct": true
+    },
+    {
+     "text": "A machine part",
+     "correct": false
+    },
+    {
+     "text": "A type of bale",
+     "correct": false
+    },
+    {
+     "text": "A song on the radio",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is a signed delivery note useful?",
+   "options": [
+    {
+     "text": "It is evidence of what was sent or received",
+     "correct": true
+    },
+    {
+     "text": "It replaces the scale",
+     "correct": false
+    },
+    {
+     "text": "It is only for the driver",
+     "correct": false
+    },
+    {
+     "text": "It looks nice in the file",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a record be written?",
+   "options": [
+    {
+     "text": "A week later from memory",
+     "correct": false
+    },
+    {
+     "text": "At the end of the year",
+     "correct": false
+    },
+    {
+     "text": "At the time the work is done",
+     "correct": true
+    },
+    {
+     "text": "Only if there is a problem",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you correct a mistake in a record?",
+   "options": [
+    {
+     "text": "Draw one line through it, write the correct value and initial it",
+     "correct": true
+    },
+    {
+     "text": "Tear out the page",
+     "correct": false
+    },
+    {
+     "text": "Ask someone else to sign",
+     "correct": false
+    },
+    {
+     "text": "Use correction fluid",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law protects people's personal information in South Africa?",
+   "options": [
+    {
+     "text": "The National Water Act",
+     "correct": false
+    },
+    {
+     "text": "The Meat Safety Act",
+     "correct": false
+    },
+    {
+     "text": "The Animal Diseases Act",
+     "correct": false
+    },
+    {
+     "text": "The Protection of Personal Information Act (POPIA)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers' wages and medical records are confidential.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is acceptable to sign a record on behalf of a co-worker who forgot.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are ways to keep information confidential? (select all that apply)",
+   "options": [
+    {
+     "text": "Discussing farmers' payments with friends",
+     "correct": false
+    },
+    {
+     "text": "Locking the computer when you leave",
+     "correct": true
+    },
+    {
+     "text": "Not sharing your password",
+     "correct": true
+    },
+    {
+     "text": "Not leaving private papers on the copier",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114362",
+ "title": "Demonstrate understanding of the abattoir industry",
+ "lessons": [
+  {
+   "title": "The meat value chain",
+   "minutes": 15,
+   "html": "<h3>From farm to plate</h3><p>An abattoir is a place where animals are slaughtered and their meat is made ready for people to eat. It is one link in a long chain. This chain is called the <strong>value chain</strong>.</p><ol><li><strong>Farmer:</strong> breeds and raises cattle, sheep, goats, pigs or poultry.</li><li><strong>Feedlot:</strong> many cattle and lambs are fed in a feedlot before slaughter.</li><li><strong>Transport:</strong> trucks bring live animals to the abattoir.</li><li><strong>Abattoir:</strong> slaughters, dresses, inspects, chills and classifies carcasses.</li><li><strong>Deboning plant or wholesaler:</strong> cuts carcasses into smaller pieces.</li><li><strong>Butcher and retailer:</strong> sell meat to the public.</li><li><strong>Consumer:</strong> the person who buys and eats the meat.</li></ol><p>Every link must work well. If one link fails, the meat can be unsafe or the business can lose money.</p><h4>Products from the abattoir</h4><ul><li>Carcasses and meat.</li><li>Offal (organs such as liver, heart, tripe) that is passed for food.</li><li>Hides and skins, sold to tanneries for leather.</li><li>By-products for rendering, such as bone meal and tallow for industry.</li></ul><h4>Types of abattoirs</h4><p>South African abattoirs differ in size. Some are large, high-throughput plants that slaughter many animals every day. Others are smaller low-throughput or rural abattoirs. All must be registered and must meet the rules for their size.</p><p>Some abattoirs also do halaal or kosher slaughter for religious communities. This is done under the supervision of the religious authority and must still meet the hygiene and welfare rules.</p><p>Every worker helps keep this chain safe.</p><p>If you do your job well, the whole chain works well.</p>"
+  },
+  {
+   "title": "Laws and role-players",
+   "minutes": 15,
+   "html": "<h3>Who makes sure meat is safe?</h3><h4>Important laws</h4><ul><li><strong>Meat Safety Act 40 of 2000:</strong> all slaughter for sale must take place at a registered abattoir. Every carcass must be inspected. The abattoir must be hygienic.</li><li><strong>Animals Protection Act 71 of 1962:</strong> animals must not be treated cruelly. This includes during transport, in the pens and during slaughter.</li><li><strong>Animal Diseases Act 35 of 1984:</strong> controls animal diseases and movement of animals.</li><li><strong>Agricultural Product Standards Act 119 of 1990:</strong> rules for classifying red meat carcasses.</li><li><strong>OHS Act 85 of 1993:</strong> keeps workers safe at work.</li></ul><h4>Role-players</h4><table><tr><th>Who</th><th>Role</th></tr><tr><td>Provincial veterinary services</td><td>Register and audit abattoirs; meat inspection services</td></tr><tr><td>Meat inspectors</td><td>Inspect animals before slaughter and carcasses after slaughter</td></tr><tr><td>Classifiers</td><td>Classify red meat carcasses by age and fat</td></tr><tr><td>Abattoir owner and management</td><td>Run the abattoir legally and safely</td></tr><tr><td>Workers</td><td>Do the work hygienically, safely and humanely</td></tr><tr><td>Industry organisations</td><td>Training, information and support to abattoirs</td></tr></table><h4>Classification</h4><p>Red meat carcasses are marked with roller marks. The letters show the age (A, AB, B, C). A is the youngest. A number shows the fat code. Buyers use these marks to know what they are buying.</p><p>All of these role-players work together. When you follow the rules at your work station, you help the inspectors, the classifiers and your employer to keep the abattoir registered and the meat safe.</p><p>Ask your supervisor which inspectors and officials visit your abattoir and what they check.</p>"
+  },
+  {
+   "title": "Working in an abattoir",
+   "minutes": 15,
+   "html": "<h3>Areas of the abattoir</h3><ul><li><strong>Lairage:</strong> pens where animals rest, drink water and wait. Animals are checked by the meat inspector here (ante-mortem inspection).</li><li><strong>Stunning and bleeding:</strong> animals are stunned so they feel no pain, then bled.</li><li><strong>Dressing line:</strong> the skin, head, feet and organs are removed.</li><li><strong>Inspection point:</strong> the inspector checks the carcass, head and organs (post-mortem inspection).</li><li><strong>Chillers:</strong> cold rooms where carcasses are cooled.</li><li><strong>Despatch:</strong> meat is loaded onto refrigerated trucks.</li><li><strong>By-product areas:</strong> offal, hides and condemned material are handled separately.</li></ul><h4>Clean and dirty areas</h4><p>The abattoir is split into dirty areas (lairage, hide removal, gut room) and clean areas (chillers, despatch). Workers must not walk from dirty areas to clean areas without washing and changing as the rules say.</p><h4>What is expected of you</h4><ul><li>Arrive on time in clean protective clothing.</li><li>Wash hands and boots at every wash point.</li><li>Follow the procedure for your job every time.</li><li>Treat animals calmly. No beating, kicking or electric prodders on sensitive parts.</li><li>Use knives safely: scabbard, cut-resistant glove, cut away from your body.</li><li>Report sickness, injuries and problems to your supervisor.</li><li>Never take meat or condemned material out of the abattoir.</li></ul><h4>Careers</h4><p>You can grow from general worker to slaughterer, line supervisor, quality controller, classifier or manager through training and experience.</p><h4>Key points</h4><ul><li>The abattoir is one link in the value chain from farm to consumer.</li><li>The Meat Safety Act 40 of 2000 requires registered abattoirs and inspection of every carcass.</li><li>Meat inspectors check animals before and carcasses after slaughter.</li><li>Roller marks show age class and fat code.</li><li>Keep dirty and clean areas apart and treat animals humanely.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where must slaughter for sale take place under the Meat Safety Act?",
+   "options": [
+    {
+     "text": "On any farm",
+     "correct": false
+    },
+    {
+     "text": "At a registered abattoir",
+     "correct": true
+    },
+    {
+     "text": "In the butcher shop",
+     "correct": false
+    },
+    {
+     "text": "At the auction",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the lairage?",
+   "options": [
+    {
+     "text": "Pens where animals rest and wait before slaughter",
+     "correct": true
+    },
+    {
+     "text": "The cold room",
+     "correct": false
+    },
+    {
+     "text": "The office",
+     "correct": false
+    },
+    {
+     "text": "The truck bay",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does the letter A in carcass classification show?",
+   "options": [
+    {
+     "text": "The heaviest carcass",
+     "correct": false
+    },
+    {
+     "text": "The youngest age class",
+     "correct": true
+    },
+    {
+     "text": "The fattest carcass",
+     "correct": false
+    },
+    {
+     "text": "The farm name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which product from the abattoir goes to tanneries?",
+   "options": [
+    {
+     "text": "Offal",
+     "correct": false
+    },
+    {
+     "text": "Tallow",
+     "correct": false
+    },
+    {
+     "text": "Hides and skins",
+     "correct": true
+    },
+    {
+     "text": "Bone meal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who inspects carcasses after slaughter?",
+   "options": [
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "The meat inspector",
+     "correct": true
+    },
+    {
+     "text": "The cleaner",
+     "correct": false
+    },
+    {
+     "text": "The customer",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers may walk straight from the gut room into the chillers without washing.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The Animals Protection Act also applies to animals at the abattoir.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are links in the meat value chain? (select all that apply)",
+   "options": [
+    {
+     "text": "Farmer",
+     "correct": true
+    },
+    {
+     "text": "Feedlot",
+     "correct": true
+    },
+    {
+     "text": "Abattoir",
+     "correct": true
+    },
+    {
+     "text": "Tannery chemicals supplier only",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

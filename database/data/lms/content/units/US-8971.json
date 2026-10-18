@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-8971",
+ "title": "Analyse and respond to a variety of literary texts",
+ "lessons": [
+  {
+   "title": "Analysing a literary text",
+   "minutes": 15,
+   "html": "<h3>Going beyond the story</h3><p>To analyse a literary text means to take it apart to see how it works: how the writer builds characters, creates a mood, structures the plot and uses language to carry a message. Analysis moves beyond <em>what happens</em> to <em>how</em> and <em>why</em>.</p><h4>The questions an analyst asks</h4><ul><li><strong>Purpose</strong>: Is the text meant to entertain, persuade, protest, celebrate, teach or remember?</li><li><strong>Audience</strong>: Who was it written for? A children's folk tale and a protest poem have different audiences.</li><li><strong>Context</strong>: When and where was it written? South African texts from the apartheid years often deal with land, forced removals, labour and resistance; later texts often explore identity, change and reconciliation.</li><li><strong>Point of view</strong>: Is it told in the first person (I) or third person (he, she, they)? How does this shape what we know?</li><li><strong>Structure</strong>: How is the text organised? Does a story use flashbacks? Does a poem have stanzas that move from despair to hope?</li></ul><h4>Genres and their features</h4><table><tr><th>Genre</th><th>Features to analyse</th></tr><tr><td>Short story / novel</td><td>Plot structure, conflict, character development, setting, narrator</td></tr><tr><td>Poetry</td><td>Imagery, sound devices, rhythm, line breaks, tone</td></tr><tr><td>Drama</td><td>Dialogue, stage directions, dramatic tension, conflict between characters</td></tr><tr><td>Oral forms (izibongo, folk tales, songs)</td><td>Repetition, call and response, praise names, performance</td></tr></table><h4>Plot structure</h4><p>Many stories follow a pattern: exposition (introduction), rising action (complications), climax (turning point), falling action and resolution. Identifying the climax often reveals the central conflict and theme.</p><p>Before the next lesson, choose a short South African text and note its purpose, audience and point of view.</p>"
+  },
+  {
+   "title": "Literary devices and their effects",
+   "minutes": 15,
+   "html": "<h3>The writer's toolbox</h3><p>Naming a device is only the first step. Good analysis explains the <strong>effect</strong> of the device on the reader and how it supports the theme.</p><h4>Common devices</h4><ul><li><strong>Imagery</strong>: words that appeal to the senses. <em>The cracked earth, the smell of rain that never came.</em> Effect: makes drought vivid and painful.</li><li><strong>Metaphor and simile</strong>: comparisons that create new meaning.</li><li><strong>Symbolism</strong>: an object carrying a bigger idea, such as a fence representing division or the land representing identity and belonging.</li><li><strong>Irony</strong>: a contrast between what is expected and what happens, or between what is said and meant. A character called <em>Lucky</em> who loses everything is ironic.</li><li><strong>Foreshadowing</strong>: hints about what will happen later, building suspense.</li><li><strong>Repetition and refrain</strong>: emphasises an idea, common in poetry and song.</li><li><strong>Alliteration and onomatopoeia</strong>: sound effects, such as the drip, drip, drip of a tap.</li><li><strong>Contrast</strong>: placing opposites together, such as a rich farmhouse and a poor worker's hut, to highlight inequality.</li></ul><h4>Analysing character</h4><p>Consider how a character is revealed (actions, speech, others' reactions, narrator's comments), what motivates them, whether they change, and what they represent. A minor character may be a foil, showing up the qualities of the main character by contrast.</p><h4>Writing an analytical paragraph</h4><ol><li><strong>Point</strong>: make a clear statement. <em>The writer uses the image of the empty dam to show the family's hopelessness.</em></li><li><strong>Evidence</strong>: quote briefly from the text.</li><li><strong>Explanation</strong>: explain how the evidence supports your point and its effect on the reader.</li><li><strong>Link</strong>: connect back to the theme or question.</li></ol>"
+  },
+  {
+   "title": "Responding critically and creatively",
+   "minutes": 15,
+   "html": "<h3>Making your own response</h3><h4>Critical response</h4><p>A critical response evaluates the text. Ask:</p><ul><li>Does the text succeed in its purpose? Why or why not?</li><li>Are the characters believable?</li><li>Whose voices are heard and whose are missing? For example, does a farm story give the farm workers a voice, or only the owner?</li><li>Do you agree with the values or message of the text?</li><li>How does it compare with another text on a similar theme?</li></ul><p>Support your judgement with evidence. Saying <em>I did not like it</em> is an opinion; saying <em>the ending felt unconvincing because the conflict over the land was resolved in a single page without explanation</em> is a critical response.</p><h4>Creative response</h4><p>You can also respond by creating:</p><ul><li>A diary entry written by a character</li><li>A letter from one character to another</li><li>A new ending or a scene from a different point of view</li><li>A poem in response to the original</li><li>A short dramatised reading for the team</li></ul><p>Creative responses show that you understand the characters and themes well enough to work with them.</p><h4>Discussion</h4><p>Literary texts are good for group discussion. Listen actively, build on others' points, disagree respectfully and give reasons. These are the same skills a supervisor uses in team meetings.</p><h4>Relating texts to life and work</h4><p>Texts about drought, land, migrant labour, family or community can help us reflect on our own experience on farms and in rural communities. Analysing how a writer handles conflict can also improve how we understand conflict at work.</p><h4>Key points</h4><ul><li>Analysis asks how and why a text works, considering purpose, audience, context and structure.</li><li>Explain the effect of literary devices, not just their names.</li><li>Use point, evidence, explanation and link in analytical paragraphs.</li><li>Critical responses evaluate the text with evidence; creative responses reimagine it.</li><li>Ask whose voices are heard and whose are missing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is the climax of a story?",
+   "options": [
+    {
+     "text": "The turning point",
+     "correct": true
+    },
+    {
+     "text": "The introduction",
+     "correct": false
+    },
+    {
+     "text": "The title",
+     "correct": false
+    },
+    {
+     "text": "The list of characters",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A character called Lucky loses everything. Which device is this?",
+   "options": [
+    {
+     "text": "Alliteration",
+     "correct": false
+    },
+    {
+     "text": "Irony",
+     "correct": true
+    },
+    {
+     "text": "Onomatopoeia",
+     "correct": false
+    },
+    {
+     "text": "Refrain",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is foreshadowing?",
+   "options": [
+    {
+     "text": "A quotation",
+     "correct": false
+    },
+    {
+     "text": "A rhyme scheme",
+     "correct": false
+    },
+    {
+     "text": "Hints about what will happen later",
+     "correct": true
+    },
+    {
+     "text": "The narrator's name",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In an analytical paragraph, what follows the point and evidence?",
+   "options": [
+    {
+     "text": "A new topic",
+     "correct": false
+    },
+    {
+     "text": "A summary of the whole story",
+     "correct": false
+    },
+    {
+     "text": "A list of devices",
+     "correct": false
+    },
+    {
+     "text": "An explanation of how the evidence supports the point",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a foil in literature?",
+   "options": [
+    {
+     "text": "A minor character who shows up the main character's qualities by contrast",
+     "correct": true
+    },
+    {
+     "text": "The setting",
+     "correct": false
+    },
+    {
+     "text": "A type of poem",
+     "correct": false
+    },
+    {
+     "text": "The climax",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Naming a literary device is enough for good analysis; you do not need to explain its effect.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Asking whose voices are missing from a text is part of a critical response.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are creative responses to a literary text? (select all that apply)",
+   "options": [
+    {
+     "text": "A diary entry written by a character",
+     "correct": true
+    },
+    {
+     "text": "A new ending",
+     "correct": true
+    },
+    {
+     "text": "A poem in response",
+     "correct": true
+    },
+    {
+     "text": "Copying the text word for word",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

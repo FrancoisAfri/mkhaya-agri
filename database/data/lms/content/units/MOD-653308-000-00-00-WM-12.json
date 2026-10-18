@@ -1,0 +1,183 @@
+{
+ "unit_key": "MOD-653308-000-00-00-WM-12",
+ "title": "Installing Tractor Engine Systems Components and Parts",
+ "lessons": [
+  {
+   "title": "Preparing for engine work",
+   "minutes": 15,
+   "html": "<h3>Engine systems on a tractor</h3> <p>A tractor diesel engine has several systems: the fuel system (tank, lift pump, filters, injection pump or common rail, injectors), air intake (air cleaner, turbocharger, intercooler), cooling (radiator, water pump, thermostat, fan, belts, hoses), lubrication (oil pump, filter, cooler), exhaust and the starting and charging parts. In this module you install components of these systems under a qualified mechanic.</p> <h4>Information first</h4> <ul> <li>Read the job card and confirm the engine model and serial number. Engines in the same tractor range can differ.</li> <li>Use the service manual for torque figures, tightening sequences, belt tension and clearances.</li> <li>Compare each new part with the old one before fitting: gaskets, injectors, filters and hoses must match.</li> </ul> <h4>Safety on engine work</h4> <ul> <li>Let the engine cool. Never open a radiator cap on a hot engine; boiling coolant can spray out and scald you.</li> <li>Disconnect the battery negative terminal. Remove the key and tag the tractor.</li> <li>Diesel and oil are fire risks. No smoking or open flames. Keep a fire extinguisher near the work area.</li> <li>Fuel injection lines carry extremely high pressure on a running engine. Never loosen them with the engine running and keep hands away from spray.</li> <li>Use a hoist for heavy parts such as cylinder heads or turbochargers when needed, with a helper.</li> <li>Catch coolant and oil in drip trays. Coolant is poisonous to people and animals; dogs and livestock may drink spilled coolant, so clean it up.</li> </ul> <h4>Keeping it clean</h4> <p>Diesel fuel systems are very sensitive to dirt and water. Clean around fittings before opening them, cap open lines with proper caps and never wipe injector parts with a dusty cloth. Cover the air intake whenever the air cleaner or turbo is off, because a stone or bolt sucked into the engine can wreck it. Dust from the lands is the main enemy of tractor engines.</p>"
+  },
+  {
+   "title": "Fitting fuel, air, cooling and lubrication parts",
+   "minutes": 20,
+   "html": "<h3>Fuel system parts</h3> <ul> <li>Fit new filters with new seals. Fill or prime them as the manual describes.</li> <li>Fit injectors with new copper washers or seals and tighten clamps to the specified torque. Overtightening can distort the injector.</li> <li>After fuel work, bleed air from the system using the hand primer and bleed screws in the order the manual gives. Collect spilled diesel with rags and put them in the oily-waste bin.</li> </ul> <h3>Air intake parts</h3> <ul> <li>Fit air cleaner elements so the seal sits evenly; a poor seal lets dust bypass the filter.</li> <li>Check all intake hoses and clamps between the air cleaner, turbo and engine. A split hose lets in unfiltered dust.</li> <li>When fitting a turbocharger, prime it with clean engine oil through the oil feed before connecting the line, and check the oil drain is clear.</li> </ul> <h3>Cooling system parts</h3> <ul> <li>Fit the water pump and thermostat with new gaskets. Make sure the thermostat faces the right way.</li> <li>Tension belts to the manual's specification, using a gauge if available. A loose belt slips; a tight belt wears bearings.</li> <li>Fill with the coolant mixture the manufacturer specifies, then bleed air as the manual describes.</li> <li>Clean radiator fins of chaff and grass seeds. A blocked radiator is a common cause of overheating at harvest.</li> </ul> <h3>Lubrication and gaskets</h3> <ul> <li>Fill a new oil filter with clean oil where the design allows, oil the seal and tighten by hand as the filter says.</li> <li>Clean gasket faces with a scraper; do not let pieces fall into the engine. Use only the sealant the manual names.</li> <li>Tighten cylinder head and manifold bolts in the stated sequence and stages. Some head bolts are single-use and must be replaced; the manual will say.</li> </ul>"
+  },
+  {
+   "title": "Start-up, testing and records",
+   "minutes": 15,
+   "html": "<h3>Before starting</h3> <ul> <li>Check engine oil and coolant levels.</li> <li>Check that all hoses, clamps, wires and belts are fitted and that no tools or rags are left in the engine bay.</li> <li>Reconnect the battery. Make sure the tractor is in neutral, PTO off and people are clear.</li> </ul> <h3>First start and testing</h3> <ol> <li>On some engines the manual asks you to crank without starting until oil pressure shows. Follow it.</li> <li>Start the engine and watch the oil pressure light or gauge. If no oil pressure shows within a few seconds, stop the engine at once.</li> <li>Run at idle and check for fuel, oil, coolant and exhaust leaks.</li> <li>Watch the temperature rise. Check that the thermostat opens (the top radiator hose gets hot).</li> <li>Listen for unusual knocks, whistles from the turbo or exhaust leaks.</li> <li>Check exhaust smoke. Black smoke, white smoke or blue smoke may point to a fuel, coolant or oil problem; report it to your supervisor.</li> <li>Stop the engine, let it settle and recheck oil and coolant levels. Top up as needed when cool.</li> </ol> <h3>Record the job</h3> <p>Write on the job card the parts fitted, part numbers, fluids used, hour meter reading, any measured settings and test results. Note follow-up checks, such as retorquing or checking belt tension after a set number of hours if the manual requires it. Hand over to your supervisor for sign-off.</p> <p>Dispose of used oil, filters and coolant in marked containers for collection. Never pour them on the ground or into drains.</p> <h4>Key points</h4> <ul> <li>Work on a cool engine with the battery disconnected and the tractor tagged.</li> <li>Keep fuel and air systems spotlessly clean and cover open intakes.</li> <li>Use manual torque sequences, new gaskets and seals, and the specified fluids.</li> <li>Stop the engine at once if there is no oil pressure on start-up.</li> <li>Check for leaks, recheck levels and record the job.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why must you never open the radiator cap on a hot engine?",
+   "options": [
+    {
+     "text": "The cap will break",
+     "correct": false
+    },
+    {
+     "text": "It causes black smoke",
+     "correct": false
+    },
+    {
+     "text": "The thermostat will close",
+     "correct": false
+    },
+    {
+     "text": "Boiling coolant can spray out and scald you",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if no oil pressure shows within a few seconds of starting?",
+   "options": [
+    {
+     "text": "Keep it running for ten minutes",
+     "correct": false
+    },
+    {
+     "text": "Stop the engine at once",
+     "correct": true
+    },
+    {
+     "text": "Add coolant",
+     "correct": false
+    },
+    {
+     "text": "Rev the engine to build pressure",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a common cause of overheating at harvest time?",
+   "options": [
+    {
+     "text": "A new air filter",
+     "correct": false
+    },
+    {
+     "text": "A tight fuel cap",
+     "correct": false
+    },
+    {
+     "text": "Too much oil",
+     "correct": false
+    },
+    {
+     "text": "A radiator blocked with chaff and grass seeds",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done after work on the diesel fuel system?",
+   "options": [
+    {
+     "text": "Run the engine without filters",
+     "correct": false
+    },
+    {
+     "text": "Add oil to the fuel tank",
+     "correct": false
+    },
+    {
+     "text": "Loosen injection lines with the engine running",
+     "correct": false
+    },
+    {
+     "text": "Bleed air from the system as the manual describes",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should the air intake be covered when the air cleaner or turbo is off?",
+   "options": [
+    {
+     "text": "To stop objects or dust being sucked into the engine",
+     "correct": true
+    },
+    {
+     "text": "To save fuel",
+     "correct": false
+    },
+    {
+     "text": "To keep the engine warm",
+     "correct": false
+    },
+    {
+     "text": "To keep the battery charged",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Fuel injection lines may safely be loosened while the engine is running.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Spilled coolant should be cleaned up because it is poisonous to people and animals.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good practices when fitting cooling system parts? (select all that apply)",
+   "options": [
+    {
+     "text": "Fill with any water from the dam",
+     "correct": false
+    },
+    {
+     "text": "Bleed air after filling",
+     "correct": true
+    },
+    {
+     "text": "Fit the thermostat the right way round",
+     "correct": true
+    },
+    {
+     "text": "Tension belts to the manual's specification",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

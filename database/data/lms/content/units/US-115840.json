@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-115840",
+ "title": "Plant tea bushes",
+ "lessons": [
+  {
+   "title": "Getting ready to plant tea",
+   "minutes": 15,
+   "html": "<h3>Before planting</h3><p>Tea bushes can live and produce leaf for many years. Planting them well is the start of a good tea field. Young tea plants are grown in the nursery in sleeves (plastic bags). When they are big enough, they are planted out in the field.</p><h4>What the field needs</h4><p>Your supervisor will tell you which field to plant. The field is usually prepared before you start:</p><ul><li>The land is cleared and the soil is loosened.</li><li>Contour lines or terraces may be made on slopes so rain does not wash the soil away.</li><li>Lines are marked with pegs and string to show where the rows go.</li></ul><h4>Tools and materials</h4><ul><li>Hoe, spade or pick to make planting holes</li><li>A measuring stick to space the holes</li><li>The young tea plants in sleeves</li><li>A knife or blade to cut the sleeve</li><li>Fertiliser or compost, if your supervisor says</li><li>Water, if the soil is dry</li><li>Mulch, such as grass</li></ul><h4>Taking plants from the nursery</h4><ol><li>Water the plants in the nursery before you take them out. Wet soil in the sleeve holds together.</li><li>Choose healthy plants: green leaves, strong stem, no pests.</li><li>Carry plants upright in crates or trays. Do not carry them by the stem.</li><li>Keep them in the shade in the field. Plant them the same day.</li></ol><h4>Safety</h4><ul><li>Wear boots and gloves. Use a hat and sunscreen.</li><li>Keep tools sharp but carry them with the blade down.</li><li>Keep a safe distance from other workers when you swing a hoe or pick.</li><li>Watch for snakes in long grass. Never try to catch or kill a snake; move away and tell your supervisor.</li><li>Drink water often.</li></ul>"
+  },
+  {
+   "title": "Planting the bush and finishing the job",
+   "minutes": 15,
+   "html": "<h3>Making the hole</h3><ol><li>Find the peg or mark where the plant goes. Keep to the spacing the supervisor gives you.</li><li>Dig a hole deeper and wider than the sleeve. Put the topsoil on one side and the subsoil on the other side.</li><li>Loosen the bottom of the hole.</li><li>Mix in compost or fertiliser only if your supervisor tells you, and only the amount given.</li></ol><h4>Planting</h4><ol><li>Cut the bottom of the sleeve off. Then cut the side of the sleeve from bottom to top.</li><li>Lower the plant into the hole. Gently pull the sleeve away. Do not break the soil around the roots.</li><li>The top of the soil from the sleeve should be level with the top of the field soil. Do not plant too deep or too high.</li><li>Fill the hole with topsoil first, around the roots, then subsoil.</li><li>Press the soil firmly with your hands or foot around the plant, not on it. There should be no air holes.</li><li>Make a small dip around the plant so water collects.</li><li>Water the plant if the soil is dry.</li><li>Put mulch around the plant, but not touching the stem.</li></ol><p>Take all the plastic sleeves out of the field. Plastic left in the soil does not rot and pollutes the land.</p><h4>Finishing the job</h4><ul><li>Count the plants you planted and tell your supervisor. Write it down if you were asked to.</li><li>Put back any plants you did not plant in the shade and water them.</li><li>Collect the empty sleeves, pegs and string.</li><li>Clean the tools and put them away.</li></ul><p>In the weeks after planting, young plants need water if it does not rain, weeding, and checking for pests. Dead plants are replaced (gap filling).</p><h4>Key points</h4><ul><li>Water nursery plants before taking them out and keep them in shade.</li><li>Dig the hole bigger than the sleeve and keep topsoil apart.</li><li>Remove the sleeve without breaking the root ball.</li><li>Plant at the same level, press firm and water.</li><li>Pick up all plastic and count the plants.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should you water nursery plants before taking them out?",
+   "options": [
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "Wet soil in the sleeve holds together around the roots",
+     "correct": true
+    },
+    {
+     "text": "To kill pests",
+     "correct": false
+    },
+    {
+     "text": "So you do not need to water in the field",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you carry young tea plants?",
+   "options": [
+    {
+     "text": "By the stem",
+     "correct": false
+    },
+    {
+     "text": "In a tight sack",
+     "correct": false
+    },
+    {
+     "text": "Upside down",
+     "correct": false
+    },
+    {
+     "text": "Upright in crates or trays",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How deep should the tea plant be planted?",
+   "options": [
+    {
+     "text": "With the sleeve soil level with the field soil",
+     "correct": true
+    },
+    {
+     "text": "As deep as possible",
+     "correct": false
+    },
+    {
+     "text": "With half the roots showing",
+     "correct": false
+    },
+    {
+     "text": "Any depth",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do with the plastic sleeves?",
+   "options": [
+    {
+     "text": "Leave them in the hole",
+     "correct": false
+    },
+    {
+     "text": "Burn them in the field",
+     "correct": false
+    },
+    {
+     "text": "Collect them and take them out of the field",
+     "correct": true
+    },
+    {
+     "text": "Bury them next to the plant",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if you see a snake in the field?",
+   "options": [
+    {
+     "text": "Try to catch it",
+     "correct": false
+    },
+    {
+     "text": "Move away and tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Hit it with a hoe",
+     "correct": false
+    },
+    {
+     "text": "Ignore it and keep working next to it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Mulch should be piled up against the stem of the tea plant.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should press the soil firmly around the plant so there are no air holes.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What is part of finishing the planting job? (select all that apply)",
+   "options": [
+    {
+     "text": "Counting the plants planted",
+     "correct": true
+    },
+    {
+     "text": "Collecting empty sleeves and pegs",
+     "correct": true
+    },
+    {
+     "text": "Cleaning and putting away tools",
+     "correct": true
+    },
+    {
+     "text": "Leaving left-over plants in the sun",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

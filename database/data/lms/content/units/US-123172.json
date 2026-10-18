@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123172",
+ "title": "Apply health and safety in Rooibos production and processing",
+ "lessons": [
+  {
+   "title": "Hazards on a rooibos farm",
+   "minutes": 15,
+   "html": "<h3>Know the dangers</h3><p>The Occupational Health and Safety Act 85 of 1993 says the employer must make the farm a safe place to work. You must also work safely, wear your safety gear and report dangers.</p><h4>Dangers in the lands</h4><ul><li>Heat and sun – the Cederberg is very hot in summer.</li><li>Snakes, scorpions and bees.</li><li>Sharp tools like sickles and spades.</li><li>Tractors, harvesters and trailers.</li><li>Chemical sprays for weeds and pests.</li><li>Lifting bundles and bags.</li></ul><h4>Dangers at the tea court</h4><ul><li>Cutting machines with sharp knives and rollers.</li><li>Noise and dust.</li><li>Heat from the sun on the court.</li><li>Slippery wet floors.</li><li>Electricity near water.</li></ul><h4>Report dangers</h4><p>If you see a danger, like a missing guard, broken cable or leaking chemical, tell your supervisor at once. You have the right to refuse dangerous work until it is made safe. Speak to the health and safety representative if you have concerns.</p><h4>Safety signs</h4><p>Learn the signs on your farm. Red signs show things you must not do. Blue signs show what you must do, like wear ear protection. Yellow signs warn of danger. Green signs show safety things, like first aid and emergency exits.</p><h4>Work with the team</h4><p>Safety is everyone's job. Look out for your co-workers. If you see someone working in a dangerous way, like reaching into a machine or not drinking water on a hot day, speak up kindly or tell the supervisor. Most accidents happen when people rush or take short cuts.</p>"
+  },
+  {
+   "title": "PPE, machines and chemicals",
+   "minutes": 15,
+   "html": "<h3>Protect yourself</h3><table><tr><th>Job</th><th>PPE</th></tr><tr><td>Harvesting</td><td>Hat, sunscreen, gloves, boots</td></tr><tr><td>Cutting machine</td><td>Close-fitting overall, ear plugs, dust mask, safety glasses, boots</td></tr><tr><td>Spraying chemicals</td><td>What the label says: chemical gloves, overall, mask, goggles, boots</td></tr><tr><td>Tea court</td><td>Hat, clean clothes, boots</td></tr></table><h4>Machines</h4><ul><li>Only trained people may use machines and drive tractors.</li><li>All guards must stay in place.</li><li>Switch off and lock out before cleaning or clearing a machine.</li><li>Never push material into a cutter with your hands.</li><li>No loose clothes or jewellery; tie up long hair.</li><li>Never ride on a tractor drawbar or trailer edge.</li></ul><h4>Chemicals</h4><ul><li>Only trained workers may spray.</li><li>Use only registered products (Act 36 of 1947) at the label rate.</li><li>Never spray in wind.</li><li>Never eat, drink or smoke while working with chemicals.</li><li>Wash hands and change clothes after spraying.</li><li>Keep chemicals in the locked store, never in cold drink bottles.</li><li>Do not go into a sprayed land until the time on the label has passed.</li></ul><h4>Lifting</h4><p>Bend your knees, keep your back straight, hold the load close and ask for help with heavy bags.</p><h4>Noise and dust</h4><p>Cutting machines and sieves are loud and make a lot of dust. Loud noise every day slowly damages your hearing, and the damage does not heal. Always wear the ear plugs or ear muffs given to you when the machines are running, even for a short time. Dust gets into your lungs and eyes, so wear the dust mask and safety glasses. Change a mask when it is dirty or wet. Tell your supervisor if you often cough, have sore eyes or find it hard to hear.</p>"
+  },
+  {
+   "title": "Emergencies and first aid",
+   "minutes": 15,
+   "html": "<h3>What to do when something goes wrong</h3><h4>Heat illness</h4><p>Signs: headache, dizziness, feeling sick, very tired, hot dry skin. Move the person to the shade, loosen clothes, give sips of water if they are awake and call the supervisor. If they become confused or pass out, get medical help at once.</p><h4>Snake bite</h4><p>Keep the person still and calm. Remove rings and tight things near the bite. Call for help and take them to hospital quickly. Do not cut the bite, suck it or put ice on it.</p><h4>Chemical on skin or eyes</h4><p>Wash with lots of clean water. Take off dirty clothes. Get medical help and take the label with you.</p><h4>Machine injury</h4><ol><li>Press the emergency stop and switch off the power.</li><li>Call the first aider and supervisor.</li><li>Phone for an ambulance if it is serious.</li><li>Do not pull a trapped person out of a machine unless the machine is off and it is safe.</li></ol><h4>Fire</h4><p>Dry tea, dust and veld burn easily. Know where fire extinguishers are. Raise the alarm, get people away and only fight a small fire if you are trained and it is safe.</p><p>Only trained first aiders should give first aid. Hands-on training must be done with an accredited provider. Report every injury and write it in the injury book.</p><h4>Key points</h4><ul><li>The OHS Act 85 of 1993 says the employer and workers must work safely.</li><li>Wear the right PPE for each job.</li><li>Keep guards in place and lock out machines before cleaning.</li><li>Only trained workers spray, using registered products at label rate.</li><li>Know what to do for heat illness, snake bite, chemicals and fire.</li><li>Report every injury and danger.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a blue safety sign show?",
+   "options": [
+    {
+     "text": "Something you must do, like wear ear protection",
+     "correct": true
+    },
+    {
+     "text": "Something you must not do",
+     "correct": false
+    },
+    {
+     "text": "First aid",
+     "correct": false
+    },
+    {
+     "text": "A fire",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must you do before clearing a blocked cutting machine?",
+   "options": [
+    {
+     "text": "Pour water in",
+     "correct": false
+    },
+    {
+     "text": "Push with your foot",
+     "correct": false
+    },
+    {
+     "text": "Switch off and lock out the machine",
+     "correct": true
+    },
+    {
+     "text": "Shout to warn others and reach in",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a sign of heat illness?",
+   "options": [
+    {
+     "text": "Feeling cold and shivering in summer sun",
+     "correct": false
+    },
+    {
+     "text": "Good appetite",
+     "correct": false
+    },
+    {
+     "text": "Feeling strong",
+     "correct": false
+    },
+    {
+     "text": "Headache, dizziness and hot dry skin",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you NOT do for a snake bite?",
+   "options": [
+    {
+     "text": "Remove rings near the bite",
+     "correct": false
+    },
+    {
+     "text": "Keep the person still and calm",
+     "correct": false
+    },
+    {
+     "text": "Cut the bite and suck it",
+     "correct": true
+    },
+    {
+     "text": "Take them to hospital quickly",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should chemicals be kept?",
+   "options": [
+    {
+     "text": "In the kitchen",
+     "correct": false
+    },
+    {
+     "text": "On the tea court",
+     "correct": false
+    },
+    {
+     "text": "In the locked chemical store",
+     "correct": true
+    },
+    {
+     "text": "In cold drink bottles",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You have the right to refuse dangerous work until it is made safe.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Anyone on the farm may spray chemicals without training.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which PPE is needed when working at the cutting machine? (select all that apply)",
+   "options": [
+    {
+     "text": "Loose scarf",
+     "correct": false
+    },
+    {
+     "text": "Dust mask and safety glasses",
+     "correct": true
+    },
+    {
+     "text": "Close-fitting overall",
+     "correct": true
+    },
+    {
+     "text": "Ear plugs",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

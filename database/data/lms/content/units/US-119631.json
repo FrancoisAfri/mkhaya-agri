@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119631",
+ "title": "Explore and use a variety of strategies to learn",
+ "lessons": [
+  {
+   "title": "How people learn",
+   "minutes": 15,
+   "html": "<h3>Everyone can learn</h3> <p>Learning is not only for school. Every day at work you learn new things: a new horse's habits, a new feed, a new piece of tack. Adults learn best when the learning is useful for their life and work.</p> <h4>Different ways of learning</h4> <p>People learn in different ways. Most people use a mix:</p> <table><tr><th>Way</th><th>You learn by</th><th>Example in the yard</th></tr> <tr><td>Seeing</td><td>Watching, pictures, diagrams</td><td>Watching the head groom put on a bandage</td></tr> <tr><td>Hearing</td><td>Listening, talking, asking</td><td>The yard manager explains the feed chart</td></tr> <tr><td>Doing</td><td>Trying with your hands</td><td>Practising to fit a headcollar yourself</td></tr> <tr><td>Reading and writing</td><td>Notes, lists, books</td><td>Writing the steps for cleaning a saddle</td></tr></table> <p>Think about yourself. Do you remember better when someone shows you, tells you, or lets you try? Knowing this helps you choose how to learn new things.</p> <h4>Things that help learning</h4> <ul> <li>Being rested and not hungry</li> <li>A quiet place to think</li> <li>Asking questions when you do not understand</li> <li>Practising many times</li> <li>Linking new things to what you already know</li> </ul> <h4>Things that block learning</h4> <ul> <li>Being afraid to make mistakes</li> <li>Too much noise or too many people talking</li> <li>Being tired or worried</li> <li>Thinking \"I am too old\" or \"I am not clever\"</li> </ul> <p>Mistakes are part of learning. Every good rider fell off many times. Every good groom once put a saddle on badly. What matters is that you learn from the mistake.</p> <p>Example: Bongani did not finish school. He learns the names of all 30 horses in the yard in two weeks by saying each name when he feeds that horse. He uses hearing and doing together.</p>"
+  },
+  {
+   "title": "Strategies that help you learn",
+   "minutes": 15,
+   "html": "<h3>Useful learning strategies</h3> <p>A strategy is a plan or way of doing something. Here are strategies you can use in training and at work.</p> <h4>1. Ask questions</h4> <p>Ask \"What?\", \"Why?\" and \"How?\". Why must the girth be checked again after a few minutes? Because the horse may have blown out its belly. Knowing why helps you remember.</p> <h4>2. Watch, then do, then explain</h4> <p>Watch someone do the task. Then do it yourself while they watch. Then explain the steps to someone else. If you can teach it, you know it.</p> <h4>3. Break it into small steps</h4> <p>A big task like tacking up has many steps. Learn one step at a time: headcollar, then saddle pad, then saddle, then girth, then bridle.</p> <h4>4. Repeat and practise</h4> <p>Do it many times, a little each day. Practice every day is better than one long session.</p> <h4>5. Make memory aids</h4> <ul> <li>Make a short list or a drawing.</li> <li>Use a rhyme or a word made from first letters.</li> <li>Stick a note in the tack room.</li> </ul> <h4>6. Learn with others</h4> <p>Work in a pair or group. Talk about what you learnt. Others may explain it in a way you understand better.</p> <h4>7. Check yourself</h4> <p>At the end of the day ask: What did I learn today? What is still not clear? Who can I ask?</p> <h4>Making a learning plan</h4> <table><tr><th>Goal</th><th>Strategy</th><th>By when</th></tr> <tr><td>Learn the parts of a bridle</td><td>Take one apart with the head groom, draw it, say the names</td><td>End of this week</td></tr> <tr><td>Read the feed chart alone</td><td>Ask supervisor to explain, practise each morning</td><td>In two weeks</td></tr></table> <p>Write your goal, choose a strategy, set a date. Check your plan each week.</p> <h4>Key points</h4> <ul> <li>People learn by seeing, hearing, doing, and reading and writing.</li> <li>Mistakes are part of learning.</li> <li>Ask why, break tasks into small steps and practise often.</li> <li>Explaining a task to someone else shows you really know it.</li> <li>Make a simple learning plan with a goal, a strategy and a date.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "You learn best by watching the head groom first. Which way of learning is this?",
+   "options": [
+    {
+     "text": "Hearing",
+     "correct": false
+    },
+    {
+     "text": "Seeing",
+     "correct": true
+    },
+    {
+     "text": "Reading",
+     "correct": false
+    },
+    {
+     "text": "Smelling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which helps learning?",
+   "options": [
+    {
+     "text": "Being very tired",
+     "correct": false
+    },
+    {
+     "text": "Being afraid of mistakes",
+     "correct": false
+    },
+    {
+     "text": "Asking questions when you do not understand",
+     "correct": true
+    },
+    {
+     "text": "Lots of noise",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does 'break it into small steps' mean?",
+   "options": [
+    {
+     "text": "Do the whole task at once",
+     "correct": false
+    },
+    {
+     "text": "Learn one part of a task at a time",
+     "correct": true
+    },
+    {
+     "text": "Stop learning",
+     "correct": false
+    },
+    {
+     "text": "Break the equipment",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a good way to check you really know a task?",
+   "options": [
+    {
+     "text": "Explain it to someone else",
+     "correct": true
+    },
+    {
+     "text": "Forget it quickly",
+     "correct": false
+    },
+    {
+     "text": "Only read about it once",
+     "correct": false
+    },
+    {
+     "text": "Never try it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What three things should a learning plan have?",
+   "options": [
+    {
+     "text": "Goal, strategy, date",
+     "correct": true
+    },
+    {
+     "text": "Name, address, phone",
+     "correct": false
+    },
+    {
+     "text": "Horse, saddle, bridle",
+     "correct": false
+    },
+    {
+     "text": "Money, time, luck",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Practising a little every day is better than one long session.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Adults are too old to learn new skills.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are useful learning strategies? (select all that apply)",
+   "options": [
+    {
+     "text": "Ask what, why and how",
+     "correct": true
+    },
+    {
+     "text": "Watch, then do, then explain",
+     "correct": true
+    },
+    {
+     "text": "Make memory aids",
+     "correct": true
+    },
+    {
+     "text": "Never ask for help",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-8139",
+ "title": "Store stock",
+ "lessons": [
+  {
+   "title": "Where stock goes",
+   "minutes": 15,
+   "html": "<h3>Why we store stock well</h3><p>Stock is money. A bag of fertiliser or a box of vaccine cost the store money. If stock gets wet, eaten by rats, broken or too old, the money is lost. Good storing keeps stock safe, clean and easy to find.</p><h4>Each product has a place</h4><p>The store room, warehouse or yard is split into areas. Each area is for one kind of product.</p><table><tr><th>Area</th><th>What goes there</th></tr><tr><td>Feed store</td><td>Animal feed, lick, grain, seed</td></tr><tr><td>Fertiliser store</td><td>Fertiliser and lime</td></tr><tr><td>Chemical store (locked)</td><td>Sprays, dips, poisons</td></tr><tr><td>Fridge</td><td>Vaccines and some animal remedies</td></tr><tr><td>Hardware yard</td><td>Poles, wire, droppers, pipes</td></tr></table><h4>The big rule</h4><p><strong>Never store chemicals or fertiliser with feed or seed.</strong> If poison gets into feed, animals can die. Keep chemicals in their own locked store with a sign on the door.</p><h4>Keep it dry and clean</h4><ul><li>Put bags on pallets, not on the floor. The floor can be wet.</li><li>Keep stacks away from walls so air can move and you can check for rats.</li><li>Close doors and windows when it rains.</li><li>Sweep up spilled feed. Spills bring rats, mice and insects.</li><li>Tell your supervisor if you see rat droppings, holes in bags or weevils.</li></ul><h4>Keep it easy to find</h4><p>Put the same product together. Put the label facing out so people can read it. Put the shelf or bin number on the stock card if your store uses one.</p>"
+  },
+  {
+   "title": "Stacking and rotating stock safely",
+   "minutes": 15,
+   "html": "<h3>Safe stacking</h3><p>Bags and boxes that fall can hurt or kill a person. Stack carefully.</p><ul><li>Stack on a flat, strong pallet.</li><li>Put heavy bags at the bottom and light items on top.</li><li>Cross-stack bags: turn each layer the other way. This locks the stack.</li><li>Do not stack higher than your supervisor allows.</li><li>Keep walkways and fire exits clear. Never block a fire extinguisher.</li><li>Do not climb on stacks. Use a proper ladder.</li></ul><h4>Lifting</h4><ol><li>Stand close to the bag with feet apart.</li><li>Bend your knees, not your back.</li><li>Hold the bag close to your body.</li><li>Lift with your legs. Do not twist; turn your feet.</li><li>Ask for help or use a trolley for heavy loads.</li></ol><h3>First in, first out</h3><p>Old stock must be sold before new stock. We call this <strong>first in, first out</strong>, or FIFO.</p><ul><li>When new stock comes in, move the old stock to the front.</li><li>Put the new stock at the back.</li><li>Check dates on seed, vaccines, remedies and feed. Stock close to its date must be sold first.</li><li>Tell your supervisor about stock that has expired. Do not put it on the shelf.</li></ul><h4>Example</h4><p>You have 10 boxes of tick grease on the shelf that expire in March. A new delivery expires next year. You put the new boxes at the back and the March boxes in front, so they sell first.</p><h4>Damaged stock</h4><p>Put torn bags and broken boxes in the \"damaged\" area. Do not sell them. Your supervisor will decide what to do.</p><h4>Key points</h4><ul><li>Every product has its own place.</li><li>Never store chemicals with feed or seed.</li><li>Keep bags on pallets, dry and clean.</li><li>Stack heavy at the bottom and cross-stack.</li><li>First in, first out: old stock in front.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where must sprays and dips be stored?",
+   "options": [
+    {
+     "text": "In the hardware yard",
+     "correct": false
+    },
+    {
+     "text": "With the feed",
+     "correct": false
+    },
+    {
+     "text": "In the fridge",
+     "correct": false
+    },
+    {
+     "text": "In a locked chemical store",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why put bags on pallets?",
+   "options": [
+    {
+     "text": "So they look nice",
+     "correct": false
+    },
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "So rats can get in",
+     "correct": false
+    },
+    {
+     "text": "To keep them off a wet floor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does first in, first out mean?",
+   "options": [
+    {
+     "text": "Sell new stock first",
+     "correct": false
+    },
+    {
+     "text": "Sell old stock before new stock",
+     "correct": true
+    },
+    {
+     "text": "Close the store early",
+     "correct": false
+    },
+    {
+     "text": "Stack new stock in front",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you lift a heavy bag?",
+   "options": [
+    {
+     "text": "Pull it with one hand",
+     "correct": false
+    },
+    {
+     "text": "Bend your back and twist",
+     "correct": false
+    },
+    {
+     "text": "Throw it",
+     "correct": false
+    },
+    {
+     "text": "Bend your knees and lift with your legs",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You find rat droppings in the feed store. What do you do?",
+   "options": [
+    {
+     "text": "Tell your supervisor",
+     "correct": true
+    },
+    {
+     "text": "Sweep it under a pallet",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Put poison in the feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Heavy bags should go at the bottom of a stack.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is fine to block a fire exit with stock if the store is full.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which help keep stock dry and clean? (select all that apply)",
+   "options": [
+    {
+     "text": "Bags on pallets",
+     "correct": true
+    },
+    {
+     "text": "Sweeping up spills",
+     "correct": true
+    },
+    {
+     "text": "Leaving doors open in the rain",
+     "correct": false
+    },
+    {
+     "text": "Keeping stacks away from walls",
+     "correct": true
+    },
+    {
+     "text": "Storing feed on the wet floor",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

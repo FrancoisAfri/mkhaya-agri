@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-244036",
+ "title": "Perform horse riding proficiency skills on a trained horse",
+ "lessons": [
+  {
+   "title": "Getting ready to ride and mounting",
+   "minutes": 15,
+   "html": "<h3>Safety before you ride</h3> <p>Riding is a skill you learn step by step on a quiet, trained horse, with an instructor watching. Never ride alone when you are still learning.</p> <h4>What to wear</h4> <ul> <li>A riding helmet that fits and is done up. Wear it every time.</li> <li>Boots with a small heel, so your foot cannot slide through the stirrup.</li> <li>Long trousers that do not rub.</li> <li>Gloves if you have them. No loose scarves or jewellery.</li> </ul> <h4>Check the tack</h4> <ol> <li>Is the saddle sitting in the right place, behind the shoulder?</li> <li>Is the girth tight enough? Check it again before mounting.</li> <li>Is the bridle fitted, with the throat lash and noseband done up?</li> <li>Are the stirrups the right length? A quick guide: with your fingertips on the stirrup bar, the stirrup should reach your armpit. Your instructor will adjust it once you are on.</li> </ol> <h4>Mounting</h4> <ol> <li>Stand on the horse's left (near) side, next to its shoulder, facing the tail.</li> <li>Hold the reins in your left hand, with a hand on the withers or mane.</li> <li>Turn the stirrup towards you and put your left foot in.</li> <li>Hold the saddle with your right hand.</li> <li>Spring up gently from your right foot. Swing your right leg high over the horse's back without kicking it.</li> <li>Sit down softly in the saddle. Do not drop heavily.</li> <li>Put your right foot in the stirrup and pick up both reins.</li> </ol> <p>A mounting block is better for the horse's back and for the saddle. Use one when you can, or ask a helper for a leg-up.</p> <h4>Dismounting</h4> <p>Stop the horse. Take both feet out of the stirrups. Hold the reins in your left hand. Lean forward, swing your right leg over the back and slide down, landing softly with bent knees. Never dismount with a foot still in a stirrup.</p>"
+  },
+  {
+   "title": "Position, aids and riding at walk and trot",
+   "minutes": 15,
+   "html": "<h3>A good position</h3> <p>Sit in the lowest part of the saddle. From the side there should be a straight line from your ear, through your shoulder and hip, to your heel.</p> <ul> <li>Head up, looking where you are going</li> <li>Back straight but relaxed</li> <li>Elbows soft by your sides</li> <li>Hands low and level, thumbs on top</li> <li>Ball of the foot on the stirrup, heels slightly down</li> </ul> <h4>Holding the reins</h4> <p>The rein passes between your little finger and ring finger and out over your index finger, with your thumb on top. Keep a light, even contact with the horse's mouth. Never pull hard or jerk.</p> <h4>The aids</h4> <p>Aids are the signals you give the horse.</p> <table><tr><th>Aid</th><th>Used for</th></tr> <tr><td>Legs</td><td>Ask the horse to go forward or move over</td></tr> <tr><td>Hands (reins)</td><td>Ask the horse to slow, stop and turn</td></tr> <tr><td>Seat and weight</td><td>Support the leg and hand aids</td></tr> <tr><td>Voice</td><td>Calm or encourage the horse</td></tr></table> <h4>Walk on, halt and turn</h4> <ul> <li><strong>Walk on:</strong> squeeze with both legs; soften your hands a little.</li> <li><strong>Halt:</strong> sit tall, close your fingers on the reins and stop following the movement; relax when the horse stops.</li> <li><strong>Turn:</strong> look where you want to go, open the inside rein slightly and keep the outside leg behind the girth.</li> </ul> <h4>Trot</h4> <p>Trot is a two-beat pace. In <strong>rising trot</strong> you rise out of the saddle on one beat and sit softly on the next. Your instructor will teach you the correct diagonal. Keep your hands still while your body rises.</p> <h4>If things go wrong</h4> <p>If the horse shies or speeds up, sit deep, look up and use a steady rein to slow down. If you feel you will fall, kick your feet out of the stirrups and try to roll away from the horse. Report any fall to the instructor, even if you feel fine.</p> <h4>After riding</h4> <p>Walk the horse for a few minutes to cool down. Loosen the girth after dismounting, run up the stirrups and lead the horse back to the stable.</p> <h4>Key points</h4> <ul> <li>Always wear a fitted helmet and heeled boots.</li> <li>Check girth, bridle and stirrups before mounting.</li> <li>Mount and dismount from the left side; never with a foot left in the stirrup.</li> <li>Keep a straight line ear-shoulder-hip-heel and soft, low hands.</li> <li>Legs ask the horse to go; hands ask it to slow, stop and turn.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "From which side do you normally mount a horse?",
+   "options": [
+    {
+     "text": "Right side",
+     "correct": false
+    },
+    {
+     "text": "Left (near) side",
+     "correct": true
+    },
+    {
+     "text": "From behind",
+     "correct": false
+    },
+    {
+     "text": "From in front",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should riding boots have a small heel?",
+   "options": [
+    {
+     "text": "They look smart",
+     "correct": false
+    },
+    {
+     "text": "So the foot cannot slide through the stirrup",
+     "correct": true
+    },
+    {
+     "text": "They are cheaper",
+     "correct": false
+    },
+    {
+     "text": "For walking in mud",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which aid asks the horse to go forward?",
+   "options": [
+    {
+     "text": "Pulling the reins",
+     "correct": false
+    },
+    {
+     "text": "Squeezing with both legs",
+     "correct": true
+    },
+    {
+     "text": "Shouting",
+     "correct": false
+    },
+    {
+     "text": "Leaning back",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a good riding position from the side?",
+   "options": [
+    {
+     "text": "Straight line ear-shoulder-hip-heel",
+     "correct": true
+    },
+    {
+     "text": "Leaning far forward",
+     "correct": false
+    },
+    {
+     "text": "Feet pushed far in front",
+     "correct": false
+    },
+    {
+     "text": "Hands high near the chin",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do after dismounting?",
+   "options": [
+    {
+     "text": "Leave the girth tight and walk away",
+     "correct": false
+    },
+    {
+     "text": "Loosen the girth and run up the stirrups",
+     "correct": true
+    },
+    {
+     "text": "Gallop back to the stable",
+     "correct": false
+    },
+    {
+     "text": "Take off the bridle in the arena",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to dismount with one foot still in the stirrup.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should check the girth again just before mounting.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should a rider wear? (select all that apply)",
+   "options": [
+    {
+     "text": "A fitted riding helmet",
+     "correct": true
+    },
+    {
+     "text": "Boots with a small heel",
+     "correct": true
+    },
+    {
+     "text": "Long trousers",
+     "correct": true
+    },
+    {
+     "text": "A long loose scarf",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

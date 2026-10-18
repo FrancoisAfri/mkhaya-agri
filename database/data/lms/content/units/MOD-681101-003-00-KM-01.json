@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-681101-003-00-KM-01",
+ "title": "Background to the Abattoir Industry: Abattoir Layout, Systems and Processes",
+ "lessons": [
+  {
+   "title": "The pork industry and the pig abattoir",
+   "minutes": 15,
+   "html": "<h3>From pig farm to plate</h3><p>Pork in South Africa comes from commercial piggeries and smaller farmers. Pigs are raised on farms and sent to the abattoir at slaughter weight. The pork goes to butcheries, retailers and processors who make bacon, ham, sausages and other products. The abattoir is where live pigs are turned into safe, clean carcasses.</p><h3>Who is involved</h3><ul><li><strong>Pig producers</strong> who raise the pigs.</li><li><strong>Transporters</strong> who move pigs carefully, avoiding heat stress.</li><li><strong>Abattoir workers</strong>: slaughterers, cleaners, supervisors and quality controllers.</li><li><strong>Meat inspectors</strong> who check pigs before and after slaughter.</li><li><strong>Classifiers</strong> who classify pork carcasses.</li><li><strong>Buyers and processors</strong>.</li></ul><h3>The law</h3><p>Pig abattoirs must be registered under the <strong>Meat Safety Act 40 of 2000</strong>, which sets hygiene and inspection rules. Pigs are also protected by the Animals Protection Act 71 of 1962, and serious pig diseases such as African swine fever are controlled under the Animal Diseases Act 35 of 1984.</p><h3>How a pork line differs from beef</h3><p>Pork carcasses are usually sold <strong>with the skin on</strong>. Instead of removing the hide, the hair is removed by <strong>scalding</strong> (dipping in hot water), <strong>dehairing</strong> (in a machine that scrapes the hair off), and <strong>singeing</strong> (burning off remaining hair with a flame). Pigs are often stunned electrically or with gas, not with a captive bolt. Some abattoirs also skin pigs instead of scalding.</p><p>As a pork slaughterer, the quality of your work decides whether the meat is safe and whether the farmer gets a good price.</p><p>Pork must be handled with special care, because pigs can carry parasites and diseases that affect people. Good hygiene and careful inspection protect consumers.</p>"
+  },
+  {
+   "title": "Layout and the pork slaughter process",
+   "minutes": 15,
+   "html": "<h3>The layout</h3><p>Like all abattoirs, a pig abattoir is set up so that product flows <strong>one way</strong>, from dirty to clean. The scalding and dehairing area is a dirty area and is separated from the clean dressing area.</p><table><tr><th>Area</th><th>What happens there</th></tr><tr><td>Offloading and lairage</td><td>Pigs rest, get water and are cooled with sprayers in hot weather; ante-mortem inspection</td></tr><tr><td>Stunning area</td><td>Pigs are stunned electrically or with carbon dioxide gas</td></tr><tr><td>Bleeding area</td><td>Pigs are stuck and bled; blood is collected</td></tr><tr><td>Scalding and dehairing</td><td>Scald tank, dehairing machine</td></tr><tr><td>Singeing and polishing</td><td>Flame singer and scraping or polishing machines</td></tr><tr><td>Clean dressing area</td><td>Evisceration, splitting, head removal, inspection, trimming</td></tr><tr><td>Offal rooms</td><td>Red and rough offal handled separately</td></tr><tr><td>Chillers and dispatch</td><td>Cooling and loading of carcasses</td></tr></table><h3>The main steps of pork slaughter</h3><ol><li>Receiving and resting pigs; ante-mortem inspection.</li><li>Stunning.</li><li>Shackling and bleeding (sticking).</li><li>Scalding in hot water to loosen the hair.</li><li>Dehairing, singeing and scraping.</li><li>Opening, evisceration and head removal.</li><li>Splitting the carcass.</li><li>Post-mortem inspection, trimming and washing.</li><li>Classification, weighing and marking.</li><li>Chilling and dispatch.</li></ol><h3>Support systems</h3><p>Overhead rails, hot water and steam, electricity for stunning and machines, gas for singeing, blood collection, wastewater treatment and a record system for tracing carcasses all keep the line running.</p><h4>Key points</h4><ul><li>Pig abattoirs are registered under the Meat Safety Act 40 of 2000.</li><li>Pork is usually sold skin-on, so hair is removed by scalding, dehairing and singeing.</li><li>Pigs are often stunned electrically or with gas.</li><li>Product flows one way, from dirty to clean areas.</li><li>Each step affects meat safety and the price paid to the farmer.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How is hair usually removed from pork carcasses?",
+   "options": [
+    {
+     "text": "By removing the hide with a hide puller",
+     "correct": false
+    },
+    {
+     "text": "By shaving with a knife only",
+     "correct": false
+    },
+    {
+     "text": "It is left on",
+     "correct": false
+    },
+    {
+     "text": "By scalding, dehairing and singeing",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which law controls serious pig diseases such as African swine fever?",
+   "options": [
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": true
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Labour Relations Act 66 of 1995",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How are pigs often stunned?",
+   "options": [
+    {
+     "text": "With a captive bolt only",
+     "correct": false
+    },
+    {
+     "text": "With a hammer",
+     "correct": false
+    },
+    {
+     "text": "Electrically or with carbon dioxide gas",
+     "correct": true
+    },
+    {
+     "text": "They are not stunned",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the scald tank used for?",
+   "options": [
+    {
+     "text": "Chilling carcasses",
+     "correct": false
+    },
+    {
+     "text": "Loosening the hair with hot water",
+     "correct": true
+    },
+    {
+     "text": "Collecting blood",
+     "correct": false
+    },
+    {
+     "text": "Washing trucks",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are pigs sprayed with water in the lairage in hot weather?",
+   "options": [
+    {
+     "text": "To cool them down",
+     "correct": true
+    },
+    {
+     "text": "To clean the pens",
+     "correct": false
+    },
+    {
+     "text": "To make them heavier",
+     "correct": false
+    },
+    {
+     "text": "For inspection",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The scalding and dehairing area is a dirty area separated from the clean dressing area.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Pork carcasses are always sold with the skin removed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in pork slaughter? (select all that apply)",
+   "options": [
+    {
+     "text": "Hide pulling with the beef hide puller",
+     "correct": false
+    },
+    {
+     "text": "Scalding",
+     "correct": true
+    },
+    {
+     "text": "Stunning",
+     "correct": true
+    },
+    {
+     "text": "Singeing",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

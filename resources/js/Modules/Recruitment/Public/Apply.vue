@@ -87,12 +87,12 @@ const salaryRange = computed(() =>
           <div class="d-flex align-center justify-center gap-3 mb-2">
             <img
               src="/images/logo_default.png"
-              alt="Mkhaya Hub"
+              alt="Mkhaya Agri"
               style="height: 48px; object-fit: contain;"
               @error="($event.target as HTMLImageElement).style.display = 'none'"
             />
             <span style="font-size: 1.5rem; font-weight: 800; color: #0f172a; letter-spacing: -0.5px;">
-              MKHAYA HUB
+              MKHAYA AGRI
             </span>
           </div>
           <p class="text-medium-emphasis text-body-2 mb-0">

@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612102-000-00-00-WM-03",
+  "title": "Lactating cow feeding practices on a dairy farm",
+  "lessons": [
+    {
+      "title": "Feeding systems on South African dairies",
+      "minutes": 20,
+      "html": "<h3>Learning the farm's feeding system</h3><p>In this work experience module you will take part in the daily feeding of lactating cows on a real dairy and record your tasks in your logbook. First learn which system your farm uses.</p><table><tr><th>System</th><th>Where it is common</th><th>How cows are fed</th></tr><tr><td>Pasture-based</td><td>Coastal areas of the Western and Eastern Cape, KZN Midlands</td><td>Grazing kikuyu, ryegrass and clover, with meal in the parlour</td></tr><tr><td>Total mixed ration (TMR)</td><td>Inland, drier areas such as the Free State and North West</td><td>Cows housed or in feedlot-style pens, fed a mixed ration from a mixer wagon</td></tr><tr><td>Mixed (partial TMR)</td><td>Many areas</td><td>Grazing plus a mixed ration on a feed pad</td></tr></table><h4>Feeding groups</h4><p>Cows are grouped so each group gets the right ration. Typical groups:</p><ul><li><strong>Fresh cows</strong>: recently calved, watched closely.</li><li><strong>High producers</strong>: most energy and protein.</li><li><strong>Low producers / late lactation</strong>: less concentrate to avoid getting fat.</li><li><strong>Heifers in first lactation</strong>: sometimes kept separate, as they are still growing and get bullied.</li></ul><p>Moving cows between groups is decided by the manager using yield and stage of lactation. Record every move so the parlour feeder and feed sheet stay correct.</p><h4>The feeding day</h4><ol><li>Check the feed sheet and any changes.</li><li>Clean troughs and remove refusals; record the amount.</li><li>Mix and deliver feed, or allocate fresh pasture, after each milking.</li><li>Push up feed during the day.</li><li>Check water points and fences.</li><li>Record feed fed and observations.</li></ol><p>Spend your first days watching an experienced feeder. Learn where each feed is stored, how the mixer wagon scale works, which camp each group grazes and how refusals are measured. Ask questions and write the answers in your logbook.</p>"
+    },
+    {
+      "title": "Feeding through the lactation",
+      "minutes": 20,
+      "html": "<h3>The transition period</h3><p>The three weeks before and after calving are the most risky time in a cow's life. Her feed intake drops just as milk demand rises fast. Most metabolic diseases happen now.</p><ul><li><strong>Close-up dry cows</strong> get a special ration set by the nutritionist to prepare the rumen and help prevent milk fever.</li><li><strong>Fresh cows</strong> get the best roughage and a gradual build-up of concentrates.</li><li>Watch fresh cows daily: appetite, rumen fill, dung, temperature and milk yield.</li></ul><h4>Problems linked to feeding</h4><table><tr><th>Problem</th><th>Feeding link</th><th>Signs</th></tr><tr><td>Acidosis</td><td>Too much starch, too little fibre, sudden ration changes</td><td>Loose dung, low cud chewing, lameness, low milk fat</td></tr><tr><td>Bloat</td><td>Lush clover or lucerne, hungry cows on new pasture</td><td>Swollen left side, distress. Emergency</td></tr><tr><td>Ketosis</td><td>Too little energy in early lactation, fat cows at calving</td><td>Off feed, drop in milk, sweet smell on breath</td></tr><tr><td>Milk fever</td><td>Calcium balance around calving</td><td>Wobbly, down, cold ears</td></tr></table><p>Call the supervisor and vet straight away for bloat, milk fever and down cows.</p><h4>Body condition scoring</h4><p>Body condition score (BCS) shows fat cover on a scale, commonly 1 (very thin) to 5 (very fat). Look at the backbone, ribs, hip and pin bones and tail head. Cows should calve in moderate condition, lose some in early lactation, and regain it slowly in mid and late lactation. Score cows regularly and record the scores; big losses after calving point to underfeeding or illness.</p><h4>Water</h4><p>Check troughs at every visit. Cows drink most just after milking, so water near the parlour exit is important. Clean troughs weekly or more often in summer.</p>"
+    },
+    {
+      "title": "Measuring and improving feeding results",
+      "minutes": 20,
+      "html": "<h3>Using information to check feeding</h3><p>A good feeder keeps an eye on numbers and on the cows themselves.</p><h4>Records to use</h4><ul><li><strong>Milk recording</strong>: yields per cow and per group, butterfat and protein. A fall in butterfat can show too little fibre; very low protein can show too little energy.</li><li><strong>Feed records</strong>: kilograms fed per group and refusals. These let the manager work out feed cost per litre.</li><li><strong>Feed stock</strong>: silage, hay and meal on hand, so the manager can order before running out.</li></ul><h4>Simple calculation</h4><p>If a group of 100 cows is fed 1 800 kg of meal in a day and produces 2 600 litres, the meal per litre is 1 800 ÷ 2 600 = about 0.69 kg meal per litre. At R6.50 per kg of meal, meal cost is about R4.50 per litre. Your manager compares this with the milk price to see if feeding is profitable.</p><h4>Looking at the cows</h4><ul><li><strong>Rumen fill</strong>: a sunken hollow on the left side behind the ribs means the cow has not eaten enough.</li><li><strong>Cud chewing</strong>: most resting cows should be chewing.</li><li><strong>Dung</strong>: should stack slightly, not run or form hard balls. Undigested grain or long fibres show digestion problems.</li><li><strong>Sorting</strong>: cows that dig out meal and leave long roughage need the mix or chop length checked.</li></ul><h4>Reducing waste</h4><ul><li>Keep silage covered and the face tidy.</li><li>Store meal dry and off the floor, controlling rats and birds.</li><li>Avoid spilling feed when loading.</li><li>Feed to appetite, not far above it.</li></ul><h4>Key points</h4><ul><li>Know your farm's feeding system and the groups of cows.</li><li>The transition period around calving needs the closest attention.</li><li>Acidosis, bloat, ketosis and milk fever are linked to feeding; report signs quickly.</li><li>Score body condition and use milk recording to check feeding.</li><li>Record feed fed and refusals so cost per litre can be worked out.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "Which feeding system is common in the coastal Western and Eastern Cape?",
+      "options": [
+        {
+          "text": "Pasture-based grazing",
+          "correct": true
+        },
+        {
+          "text": "Only hay feeding",
+          "correct": false
+        },
+        {
+          "text": "No concentrates at all",
+          "correct": false
+        },
+        {
+          "text": "Feedlot finishing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "When are most metabolic diseases in dairy cows seen?",
+      "options": [
+        {
+          "text": "In mid lactation",
+          "correct": false
+        },
+        {
+          "text": "During the transition period around calving",
+          "correct": true
+        },
+        {
+          "text": "When cows are heifers",
+          "correct": false
+        },
+        {
+          "text": "Only in winter",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A swollen left side and a distressed cow on lush clover is likely:",
+      "options": [
+        {
+          "text": "Milk fever",
+          "correct": false
+        },
+        {
+          "text": "Ketosis",
+          "correct": false
+        },
+        {
+          "text": "Bloat, an emergency",
+          "correct": true
+        },
+        {
+          "text": "Mastitis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "100 cows eat 1 800 kg meal and give 2 600 litres. About how much meal is used per litre?",
+      "options": [
+        {
+          "text": "1.44 kg",
+          "correct": false
+        },
+        {
+          "text": "0.18 kg",
+          "correct": false
+        },
+        {
+          "text": "2.6 kg",
+          "correct": false
+        },
+        {
+          "text": "0.69 kg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "A sunken hollow on the left side behind the ribs means:",
+      "options": [
+        {
+          "text": "The cow has not eaten enough",
+          "correct": true
+        },
+        {
+          "text": "The cow is pregnant",
+          "correct": false
+        },
+        {
+          "text": "The cow is too fat",
+          "correct": false
+        },
+        {
+          "text": "The cow is on heat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A fall in butterfat can be a sign that the ration has too little fibre.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Moving cows between feeding groups does not need to be recorded.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are signs of acidosis? (select all that apply)",
+      "options": [
+        {
+          "text": "Loose dung",
+          "correct": true
+        },
+        {
+          "text": "Low cud chewing",
+          "correct": true
+        },
+        {
+          "text": "Low milk fat",
+          "correct": true
+        },
+        {
+          "text": "Sweet smell on breath",
+          "correct": false
+        },
+        {
+          "text": "Cold ears and lying down",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

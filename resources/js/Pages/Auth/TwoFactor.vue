@@ -240,7 +240,7 @@ export default { layout: AuthLayout }
             <div class="mt-4 p-3 rounded" style="background:rgba(255,215,0,0.08);border:1px solid rgba(255,215,0,0.25)">
               <p class="small mb-0" style="color:#ffd700">
                 <i class="bi bi-info-circle me-1"></i>
-                Never share your OTP with anyone. Mkhaya Hub will never ask for it.
+                Never share your OTP with anyone. Mkhaya Agri will never ask for it.
               </p>
             </div>
 

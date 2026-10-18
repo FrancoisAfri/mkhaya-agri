@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116321",
+ "title": "Procure and manage agricultural input",
+ "lessons": [
+  {
+   "title": "Planning input requirements",
+   "minutes": 15,
+   "html": "<h3>Knowing what you need before you buy</h3><p>Agricultural inputs are everything the farm uses to produce: seed, fertiliser, lime, agricultural remedies, animal feed, vaccines and medicines, fuel, packaging, spares and small tools. Inputs are often the largest part of variable costs, so careful procurement has a direct effect on profit.</p><h4>Working out quantities</h4><p>Start from the production plan. For each enterprise, list the area or animal numbers and the recommended rate. For example, 80 ha of maize at the fertiliser rate recommended from soil analysis, or 20 000 broilers using the feed amounts in the breeder's guide per bird. Add a small allowance for losses but avoid large overstocks. Check what is already in the store before ordering.</p><h4>Timing</h4><p>Draw up an input calendar showing when each input is needed in the field. Plan orders so stock arrives in time, taking account of supplier lead times. Fertiliser and seed for summer crops are often in short supply close to planting, and prices may rise. Ordering early can secure stock and better prices, but money tied up in stock costs interest, so balance timing with the cash flow budget.</p><h4>Specification</h4><p>Write clear specifications: product name and grade, pack size, quantity, delivery date and place. For seed, specify cultivar or hybrid and seed treatment. For agricultural remedies, use only products registered under Act 36 of 1947 for that crop and pest, as recommended by a registered adviser. For vet medicines, follow your vet's programme.</p><h4>Example</h4><p>A farm plans 80 ha of maize and finds 4 tons of fertiliser left over in the store from last season. The order is reduced by that amount, and the planner checks the bags are still dry and usable before counting them.</p>"
+  },
+  {
+   "title": "Buying inputs",
+   "minutes": 15,
+   "html": "<h3>Getting value from suppliers</h3><h4>Choosing suppliers</h4><p>Get quotes from at least two or three suppliers for major items: co-operatives, agri-dealers and direct from manufacturers. Compare more than price:</p><ul><li>Product quality and whether it meets the specification</li><li>Delivery time and reliability</li><li>Payment terms, such as 30 days or harvest credit through a co-op</li><li>Technical support from the supplier's agronomist or animal health adviser</li><li>Discounts for volume, early orders or group buying with neighbours</li></ul><h4>Purchase controls</h4><ol><li>Use a written order or purchase order with an order number for every purchase.</li><li>Get approval from the person authorised to sign for that amount.</li><li>Keep copies of quotes so the choice can be explained.</li><li>Check the invoice against the order and the delivery note before payment.</li></ol><p>These controls prevent fraud, duplicate payments and buying things nobody approved.</p><h4>Receiving deliveries</h4><p>When inputs arrive, count and check them against the delivery note. Check expiry dates on remedies, vaccines and medicines. Check seed bags for the correct cultivar and treatment, and fertiliser for torn or wet bags. Record any shortages or damage on the delivery note before signing and tell the supplier the same day. Vaccines must go straight into the fridge at the right temperature.</p><h4>Example</h4><p>Two co-ops quote for 30 tons of fertiliser. Co-op A is R150 per ton cheaper but can only deliver after planting has started. Co-op B delivers in time and offers harvest credit. Co-op B is the better choice, because late fertiliser costs far more in lost yield than the price difference. Record the reason for the decision with the quotes.</p>"
+  },
+  {
+   "title": "Storing and controlling inputs",
+   "minutes": 15,
+   "html": "<h3>Protecting the farm's money in the store</h3><h4>Storage rules</h4><ul><li><strong>Agricultural remedies</strong>: a locked, ventilated store with a bunded floor, away from food, feed and water sources, with warning signs, spill kit and fire extinguisher. Only trained people have the key.</li><li><strong>Fertiliser</strong>: dry, on pallets, away from fuel and heat. Some fertilisers are fire or explosion risks; follow the safety data sheet.</li><li><strong>Seed and feed</strong>: dry, cool, on pallets, protected from rodents and birds.</li><li><strong>Vaccines and medicines</strong>: in a fridge with a thermometer, recorded daily if required.</li><li><strong>Fuel</strong>: in approved tanks in a bunded area, no smoking, with fire extinguishers nearby.</li></ul><h4>Stock control</h4><p>Keep a stock register or use the farm system. Record every item received and every item issued, with date, quantity, who took it and for which block, enterprise or vehicle. Use the <strong>first in, first out</strong> rule so older stock is used before it expires. Do a physical stock count every month and compare it with the register. Investigate differences straight away.</p><h4>Managing use</h4><p>Compare input use with the plan. If a block used much more fertiliser than planned, find out why: a calibration error, a wrong rate or theft. Report usage per enterprise to management because it feeds directly into gross margins and the next year's budget.</p><h4>Key points</h4><ul><li>Base input quantities on the production plan and check stock before ordering.</li><li>Compare suppliers on quality, delivery, terms and support, not only price.</li><li>Use purchase orders and check invoices against orders and delivery notes.</li><li>Store remedies locked and away from food, feed and water; keep vaccines cold.</li><li>Record all receipts and issues, use first in first out, and count stock monthly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should you start when working out input quantities?",
+   "options": [
+    {
+     "text": "Last year's supplier brochure",
+     "correct": false
+    },
+    {
+     "text": "The production plan with areas, animal numbers and rates",
+     "correct": true
+    },
+    {
+     "text": "Whatever the neighbour buys",
+     "correct": false
+    },
+    {
+     "text": "The size of the store",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be checked before paying a supplier's invoice?",
+   "options": [
+    {
+     "text": "That it matches the order and the delivery note",
+     "correct": true
+    },
+    {
+     "text": "That it is printed in colour",
+     "correct": false
+    },
+    {
+     "text": "That the supplier is nearby",
+     "correct": false
+    },
+    {
+     "text": "That it arrived by email",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does 'first in, first out' mean in a store?",
+   "options": [
+    {
+     "text": "New stock is used first",
+     "correct": false
+    },
+    {
+     "text": "Stock is issued only on Mondays",
+     "correct": false
+    },
+    {
+     "text": "Older stock is used before newer stock",
+     "correct": true
+    },
+    {
+     "text": "The first worker to arrive gets stock",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where must vaccines be placed when they are delivered?",
+   "options": [
+    {
+     "text": "In the chemical store",
+     "correct": false
+    },
+    {
+     "text": "On a pallet in the shed",
+     "correct": false
+    },
+    {
+     "text": "In the bakkie until needed",
+     "correct": false
+    },
+    {
+     "text": "Straight into a fridge at the correct temperature",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a delivery is short?",
+   "options": [
+    {
+     "text": "Sign and sort it out next month",
+     "correct": false
+    },
+    {
+     "text": "Record the shortage on the delivery note and tell the supplier the same day",
+     "correct": true
+    },
+    {
+     "text": "Refuse all future deliveries",
+     "correct": false
+    },
+    {
+     "text": "Take stock from another block",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Agricultural remedies may be stored next to animal feed if the store is locked.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A monthly physical stock count should be compared with the stock register.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which factors should you compare when choosing suppliers? (select all that apply)",
+   "options": [
+    {
+     "text": "Delivery reliability",
+     "correct": true
+    },
+    {
+     "text": "Payment terms",
+     "correct": true
+    },
+    {
+     "text": "Technical support",
+     "correct": true
+    },
+    {
+     "text": "The colour of their bakkie",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

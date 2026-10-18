@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123162",
+ "title": "Conduct Rooibos harvesting",
+ "lessons": [
+  {
+   "title": "Planning the harvest",
+   "minutes": 15,
+   "html": "<h3>Harvest time</h3><p>Rooibos is harvested in summer and early autumn. Workers cut the top branches of the plant and leave the lower part to grow again for next year. The harvested material is taken quickly to the tea court for processing.</p><h4>When is a land ready?</h4><p>The supervisor decides when a land is ready to harvest. He or she looks at how big the plants are and how the season has been. Young plants are often cut lighter than older plants.</p><h4>Before harvesting</h4><ul><li>The supervisor tells the team which land to cut and how high to cut.</li><li>Check your tools. Sickles must be sharp and handles tight.</li><li>Make sure there is transport to take the rooibos to the tea court.</li><li>Bring water, a hat and sunscreen. Harvest is hot work.</li></ul><h4>Plan with the tea court</h4><p>Cut only as much as the tea court can process the same day. If harvested rooibos lies in heaps too long, it heats up and spoils.</p><h4>Clean harvest</h4><ul><li>Only rooibos must go to the tea court.</li><li>Weeds, grass, other bushes, stones, plastic and wire must stay out.</li><li>Do not harvest plants that are dead or sick, unless the supervisor says.</li></ul><h4>Work as a team</h4><p>Harvest teams usually work in rows across the land. The team leader shows where to start and how the team moves. Stay in your row, keep up with the team and do not leave gaps. Tell the team leader when your pile or bundle is ready to load, so the trailer can collect it quickly.</p>"
+  },
+  {
+   "title": "Cutting by hand and by machine",
+   "minutes": 15,
+   "html": "<h3>How to cut rooibos</h3><h4>Cutting by hand</h4><ol><li>Hold a bunch of branches in one hand.</li><li>Cut with the sickle, pulling the blade away from your body and legs.</li><li>Cut at the height the supervisor showed you. Leave enough of the plant so it can grow again.</li><li>Shake out weeds and dirt.</li><li>Put the cut branches on a pile or tie them in a bundle.</li></ol><h4>Safe use of a sickle</h4><ul><li>Keep your other hand above the cut, never in front of the blade.</li><li>Keep space between you and the next worker.</li><li>Carry the sickle with the blade pointing down and away from you.</li><li>Never leave a sickle lying on the ground where someone can step on it.</li><li>Wear gloves if the farm gives them.</li></ul><h4>Cutting by machine</h4><p>On larger farms a tractor-drawn harvester cuts the rooibos. Only trained operators may drive it.</p><ul><li>Stay well away from the cutting parts.</li><li>Never try to clear the machine while it is running.</li><li>Make sure the driver can see you.</li></ul><h4>Snakes and other dangers</h4><p>Snakes, scorpions and bees can be found in the lands. Look before you put your hand into a bush. If someone is bitten by a snake, keep the person calm and still, call the supervisor and get them to a hospital quickly. Do not cut the bite or try to suck out venom.</p>"
+  },
+  {
+   "title": "Loading, transport and records",
+   "minutes": 15,
+   "html": "<h3>Getting the rooibos to the tea court</h3><ul><li>Load bundles or loose rooibos onto the trailer or bakkie carefully.</li><li>Do not stand on the load while the vehicle moves.</li><li>Do not overload. Tie or cover the load so it does not fall off.</li><li>Keep the load in the shade if it must wait.</li><li>Take it to the tea court as soon as possible.</li></ul><h4>After harvest</h4><ul><li>Pick up string, plastic and rubbish from the land.</li><li>Clean and store tools.</li><li>Tell the supervisor about broken tools.</li></ul><h4>Records</h4><p>The supervisor or team leader writes down:</p><ul><li>the land number;</li><li>date of harvest;</li><li>number of loads or weight;</li><li>number of workers.</li></ul><p>Some farms pay or plan by weight or by bundles, so counts must be correct.</p><h4>Heat</h4><p>Harvest happens in the hottest time of the year. Drink water often, before you feel thirsty. Rest in the shade at breaks. If a worker feels dizzy, has a headache or stops sweating, move them into the shade, give water if they are awake, and call the supervisor at once.</p><h4>Key points</h4><ul><li>Cut the top branches at the height shown and leave the plant to grow again.</li><li>Harvest only what the tea court can process that day.</li><li>Keep weeds, stones and plastic out of the harvested rooibos.</li><li>Cut away from your body and keep your hand above the cut.</li><li>Drink water often and watch for heat illness.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should part of the rooibos plant be left after cutting?",
+   "options": [
+    {
+     "text": "So it can grow again for next year",
+     "correct": true
+    },
+    {
+     "text": "To shade weeds",
+     "correct": false
+    },
+    {
+     "text": "To feed animals",
+     "correct": false
+    },
+    {
+     "text": "So it looks neat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How much rooibos should be cut in one day?",
+   "options": [
+    {
+     "text": "Half a land",
+     "correct": false
+    },
+    {
+     "text": "Only one bundle",
+     "correct": false
+    },
+    {
+     "text": "Only as much as the tea court can process that day",
+     "correct": true
+    },
+    {
+     "text": "As much as possible",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should your other hand be when cutting with a sickle?",
+   "options": [
+    {
+     "text": "In your pocket",
+     "correct": false
+    },
+    {
+     "text": "On the next worker's shoulder",
+     "correct": false
+    },
+    {
+     "text": "In front of the blade",
+     "correct": false
+    },
+    {
+     "text": "Above the cut, never in front of the blade",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Someone is bitten by a snake. What should you do?",
+   "options": [
+    {
+     "text": "Make them run to the bakkie",
+     "correct": false
+    },
+    {
+     "text": "Give them alcohol",
+     "correct": false
+    },
+    {
+     "text": "Keep them calm and still, call the supervisor and get them to hospital quickly",
+     "correct": true
+    },
+    {
+     "text": "Cut the bite and suck out the venom",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A worker is dizzy, has a headache and stopped sweating. What do you do?",
+   "options": [
+    {
+     "text": "Leave them in the sun",
+     "correct": false
+    },
+    {
+     "text": "Tell them to work faster",
+     "correct": false
+    },
+    {
+     "text": "Move them to the shade, give water if awake and call the supervisor",
+     "correct": true
+    },
+    {
+     "text": "Give them a cold drink and carry on",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Weeds, stones and plastic must be kept out of harvested rooibos.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to stand on top of the load while the trailer moves.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are safe ways to work with a sickle? (select all that apply)",
+   "options": [
+    {
+     "text": "Carry it with the blade pointing down and away",
+     "correct": true
+    },
+    {
+     "text": "Keep space between you and the next worker",
+     "correct": true
+    },
+    {
+     "text": "Cut away from your body and legs",
+     "correct": true
+    },
+    {
+     "text": "Leave it lying on the ground in the rows",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+  "unit_key": "MOD-612101001-PM-04",
+  "title": "Direct and control livestock production activities",
+  "lessons": [
+    {
+      "title": "Setting production targets and work plans",
+      "minutes": 20,
+      "html": "<h3>Setting production targets and work plans</h3><p>Directing production means translating the farm's goals into targets, plans and daily work, and then controlling the work so the targets are met.</p><h4>From farm goals to targets</h4><p>The owner or manager sets goals such as 'wean more calves per cow' or 'sell lambs at a heavier weight'. The supervisor helps turn these into measurable targets for the season, for example:</p><ul><li>Weaning percentage target for the breeding herd.</li><li>Target average weaning weight or average daily gain.</li><li>Maximum acceptable mortality for young stock.</li><li>Lick and feed cost per animal within budget.</li><li>Grazing plan followed with no camp overgrazed.</li></ul><p>Targets must be realistic for the farm's rainfall, veld and genetics. Base them on the farm's own past records and on discussions with the manager.</p><h4>Production plans</h4><p>For each production phase - breeding, pregnancy, birth, pre-weaning, weaning, growing, marketing - write down what must happen, when, the resources needed and who is responsible. Link the plan to the herd health plan and the grazing plan so that the three do not conflict; for example, do not plan a vaccination in the same week as moving the herd to a far camp.</p><h4>Allocating resources</h4><p>Check labour, vehicles, equipment, feed, lick and finances against the plan. Identify gaps early and raise them with management. A clear weekly schedule on a board in the office or a WhatsApp message to the team keeps everyone working from the same plan.</p><h4>Risk planning</h4><p>Identify the main production risks - drought, predators, theft, disease, market price drops - and agree on trigger points. For example: if veld cover in a camp falls below the agreed level by a certain month, start destocking or supplementary feeding.</p>"
+    },
+    {
+      "title": "Controlling the work and quality",
+      "minutes": 20,
+      "html": "<h3>Controlling the work and quality</h3><h4>Monitoring progress</h4><p>Control means comparing what is happening with what was planned and acting on differences. Use:</p><ul><li><strong>Daily reports</strong> from team leaders: counts, water and lick checks, sick animals, births and deaths.</li><li><strong>Inspections</strong>: walk or drive the camps, inspect kraals, feed stores and water infrastructure.</li><li><strong>Measurements</strong>: weighing, body condition scoring, veld assessments, rainfall.</li><li><strong>Records</strong>: registers and production records updated and checked.</li></ul><h4>Quality standards</h4><p>Set clear standards for key practices: correct lick placement, correct camp rotation, correct tagging, birth checks twice a day in season, feed mixed to the formulation. Check samples of the work and give feedback. When standards are not met, find out why: lack of training, lack of equipment, unclear instructions, or attitude. Fix the cause, not just the symptom.</p><h4>Animal welfare</h4><p>As the person directing production, you are accountable for the animals' welfare. Ensure feed, water, shelter and handling meet the Animals Protection Act 71 of 1962. Welfare failures are both a legal risk and a production loss.</p><h4>Handling deviations</h4><table><tr><th>Deviation</th><th>Possible action</th></tr><tr><td>Calf mortality above target</td><td>Check birth supervision, colostrum, predators, weather shelter</td></tr><tr><td>Weaning weights below target</td><td>Review veld, lick, cow condition, disease</td></tr><tr><td>Lick intake far above plan</td><td>Check wastage, salt ratio, theft</td></tr><tr><td>Stock count short</td><td>Search, check fences, report to police stock theft unit</td></tr></table><p>Record what you found, what you decided and the result. This builds the farm's knowledge for next season.</p><h4>Involving team leaders</h4><p>Team leaders see problems first. Ask them each week what is slowing the work down and what they would change. Their practical ideas often solve deviations faster than new rules from the office.</p>"
+    },
+    {
+      "title": "Reporting and improving production",
+      "minutes": 20,
+      "html": "<h3>Reporting and improving production</h3><h4>Reporting to management</h4><p>A good production report is short, accurate and tells management what they need to decide. A monthly report might include:</p><ul><li>Stock reconciliation: opening numbers, births, deaths, purchases, sales, closing numbers per class.</li><li>Key indicators against targets: mortality, weights, body condition, lick and feed use.</li><li>Veld and water status, rainfall.</li><li>Health events and treatments.</li><li>Problems, risks and recommendations.</li></ul><p>Use tables and simple graphs. Explain deviations and what you have done about them. Do not hide bad news; early warning is what a manager needs.</p><h4>Costs</h4><p>Track the main production costs per animal or per kilogram: feed and lick, remedies, labour, fuel. Compare with budget. A supervisor who can show that a change in lick saved R30 per cow over a winter, without loss of condition, adds real value to the business.</p><h4>Continuous improvement</h4><p>At the end of each season, review results with the manager and team:</p><ol><li>What did we achieve against each target?</li><li>What went well and should be kept?</li><li>What went wrong, and what was the root cause?</li><li>What will we change next season?</li></ol><p>Involve the team: workers in the camps often know why a target was missed. Recognise good performance.</p><h4>Market readiness</h4><p>Plan sales so that animals reach the market in the condition and weight buyers want. Check identification, movement documents and withdrawal periods before animals leave the farm. Transport animals humanely and at suitable loading densities.</p><h4>Key points</h4><ul><li>Set realistic, measurable production targets based on the farm's records.</li><li>Link the production, health and grazing plans.</li><li>Monitor through reports, inspections, measurements and records.</li><li>Fix the cause of deviations, not only the symptom.</li><li>Report accurately and review results each season.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What should production targets be based on?",
+      "options": [
+        {
+          "text": "The highest figure seen in a magazine",
+          "correct": false
+        },
+        {
+          "text": "The farm's own records and discussion with the manager",
+          "correct": true
+        },
+        {
+          "text": "A neighbour's guess",
+          "correct": false
+        },
+        {
+          "text": "Last year's rainfall only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What does control mean in production supervision?",
+      "options": [
+        {
+          "text": "Comparing what happens with the plan and acting on differences",
+          "correct": true
+        },
+        {
+          "text": "Shouting at workers",
+          "correct": false
+        },
+        {
+          "text": "Locking the feed store",
+          "correct": false
+        },
+        {
+          "text": "Writing the plan only",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Lick intake is far above plan. Which is a sensible thing to check?",
+      "options": [
+        {
+          "text": "The colour of the bakkie",
+          "correct": false
+        },
+        {
+          "text": "The bull's age",
+          "correct": false
+        },
+        {
+          "text": "Wastage, salt ratio and theft",
+          "correct": true
+        },
+        {
+          "text": "The milk price",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Workers keep not meeting a tagging standard. What is the best first step?",
+      "options": [
+        {
+          "text": "Find out why: training, equipment, instructions or attitude",
+          "correct": true
+        },
+        {
+          "text": "Stop tagging animals",
+          "correct": false
+        },
+        {
+          "text": "Ignore it until the end of the season",
+          "correct": false
+        },
+        {
+          "text": "Do every job yourself",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Why should bad news be reported early to management?",
+      "options": [
+        {
+          "text": "So it can be hidden",
+          "correct": false
+        },
+        {
+          "text": "So the report looks longer",
+          "correct": false
+        },
+        {
+          "text": "To blame workers",
+          "correct": false
+        },
+        {
+          "text": "Early warning lets managers decide and act",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "The production, health and grazing plans should be linked so they do not conflict.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Identification, documents and withdrawal periods need not be checked before animals leave the farm.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which belong in a stock reconciliation? (select all that apply)",
+      "options": [
+        {
+          "text": "Births",
+          "correct": true
+        },
+        {
+          "text": "Deaths",
+          "correct": true
+        },
+        {
+          "text": "Sales",
+          "correct": true
+        },
+        {
+          "text": "Rainfall",
+          "correct": false
+        },
+        {
+          "text": "Fuel price",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

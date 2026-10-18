@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-123154",
+ "title": "Propagate rooibos from seed",
+ "lessons": [
+  {
+   "title": "Rooibos seed and how to prepare it",
+   "minutes": 15,
+   "html": "<h3>Starting new rooibos plants</h3><p>Rooibos (<em>Aspalathus linearis</em>) grows naturally only in a small part of South Africa, mainly the Cederberg and the area around Clanwilliam, and nearby parts of the Western and Northern Cape. Farmers grow new plants from seed in seedbeds and later plant the seedlings out in the lands.</p><h4>The seed</h4><p>Rooibos seed is very small and has a hard coat. Water cannot easily get through the hard coat, so untreated seed may lie in the soil for a long time without growing. That is why seed is treated before sowing. This is called <strong>scarification</strong> – the hard coat is scratched or softened so water can get in.</p><h4>Seed treatment</h4><ul><li>On most farms the seed is bought already treated, or it is treated by a trained person using the method the farm or seed supplier gives.</li><li>Some methods use hot water. Others use strong chemicals. Only trained people with full protective clothing may do chemical treatment. Never try it without training.</li><li>Seed may also be coated with a fungicide to protect young plants. Wear gloves when you handle treated seed, and never eat, drink or smoke while working with it.</li><li>Treated seed must not be fed to animals or people.</li></ul><h4>Good seed</h4><ul><li>Clean, with little sand and plant material.</li><li>From healthy plants.</li><li>Stored dry in a closed container until sowing.</li><li>Labelled with the date and where it came from.</li></ul><p>Ask your supervisor how much seed to use for each seedbed. Do not guess. Too much seed gives weak, crowded seedlings. Too little wastes the seedbed.</p>"
+  },
+  {
+   "title": "Making the seedbed",
+   "minutes": 15,
+   "html": "<h3>A good home for the seed</h3><h4>Choosing the place</h4><ul><li>Sandy, well-drained soil like the soil rooibos grows in naturally.</li><li>Close to water, because seedbeds must be watered or get enough rain.</li><li>Protected from strong wind where possible.</li><li>Not where water stands after rain.</li><li>Fenced if animals like buck, rabbits or livestock may walk in.</li></ul><h4>Preparing the bed</h4><ol><li>Clear weeds, stones and old plant material.</li><li>Dig or work the soil so it is loose.</li><li>Make beds with paths between them so you can work without walking on the beds. Your supervisor will show you the width.</li><li>Level the surface with a rake.</li></ol><h4>Fertiliser</h4><p>Rooibos is a legume. It lives together with helpful soil bacteria on its roots, which feed it nitrogen from the air. Too much fertiliser can harm rooibos. Only use fertiliser when your supervisor says, and only the amount given.</p><h4>Tools</h4><p>Spade, fork, rake, wheelbarrow, measuring tape and string. Clean tools after use and keep them in the store.</p><h4>Safety</h4><ul><li>Wear boots, a hat and sunscreen. Drink water often – the Cederberg is very hot in summer.</li><li>Lift with your legs, not your back.</li><li>Watch out for snakes and scorpions when clearing.</li></ul><h4>Water for the seedbed</h4><p>Check that the water supply works before you sow. Test sprinklers, hoses and taps, and fix leaks. The water must spread evenly over the whole bed. Dry corners give no seedlings, and wet spots cause rot. Ask your supervisor how long to water and at what times.</p>"
+  },
+  {
+   "title": "Sowing and early care",
+   "minutes": 15,
+   "html": "<h3>Sowing the seed</h3><p>Seed is usually sown in late summer or autumn, at the time your farm chooses, so that the seedlings are big enough to plant out when the winter rains come.</p><h4>How to sow</h4><ol><li>Water the bed lightly before sowing if it is dry.</li><li>Mix the small seed with dry, clean sand. This helps you spread it evenly.</li><li>Spread the mix evenly over the bed, or in rows if your farm sows in rows.</li><li>Cover with a thin layer of soil. Small seed must not be buried deep.</li><li>Press the soil lightly so the seed touches the soil.</li><li>Water gently with a fine spray so the seed does not wash away.</li></ol><h4>After sowing</h4><ul><li>Keep the soil damp, not wet. Too much water causes seedlings to rot and fall over (damping off).</li><li>Some farms cover beds with shade net or light material to keep moisture in. Remove it as instructed when seedlings come up.</li><li>Pull out weeds by hand when they are small.</li><li>Look out for insects and sick seedlings and tell your supervisor.</li></ul><h4>Records</h4><p>Write down the bed number, date of sowing, seed batch, amount of seed and the dates you water. This helps the farm know which seed and methods work best.</p><h4>Key points</h4><ul><li>Rooibos seed has a hard coat and must be treated (scarified) before sowing.</li><li>Only trained people may treat seed with chemicals; wear gloves with treated seed.</li><li>Seedbeds need sandy, well-drained soil, water and protection from animals.</li><li>Sow small seed shallow, mixed with sand, and water gently.</li><li>Keep beds damp but not wet to prevent damping off.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where does rooibos grow naturally?",
+   "options": [
+    {
+     "text": "The Free State maize areas",
+     "correct": false
+    },
+    {
+     "text": "The Limpopo bushveld",
+     "correct": false
+    },
+    {
+     "text": "The Cederberg and Clanwilliam area of the Western and Northern Cape",
+     "correct": true
+    },
+    {
+     "text": "KwaZulu-Natal coast",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is rooibos seed treated before sowing?",
+   "options": [
+    {
+     "text": "To kill the seed",
+     "correct": false
+    },
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "To change its colour",
+     "correct": false
+    },
+    {
+     "text": "Its hard coat stops water getting in",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why is small rooibos seed mixed with sand before sowing?",
+   "options": [
+    {
+     "text": "To keep birds away",
+     "correct": false
+    },
+    {
+     "text": "To make it grow faster",
+     "correct": false
+    },
+    {
+     "text": "To feed the seed",
+     "correct": false
+    },
+    {
+     "text": "To help spread it evenly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What happens if seedbeds are kept too wet?",
+   "options": [
+    {
+     "text": "The seed coat gets harder",
+     "correct": false
+    },
+    {
+     "text": "Seedlings grow better",
+     "correct": false
+    },
+    {
+     "text": "Weeds die",
+     "correct": false
+    },
+    {
+     "text": "Seedlings can rot and fall over (damping off)",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may treat seed with strong chemicals?",
+   "options": [
+    {
+     "text": "Any worker",
+     "correct": false
+    },
+    {
+     "text": "Only trained people wearing full protective clothing",
+     "correct": true
+    },
+    {
+     "text": "The bakkie driver",
+     "correct": false
+    },
+    {
+     "text": "Children helping on the farm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Rooibos is a legume that gets nitrogen from helpful bacteria on its roots.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Seed should be buried deep so it does not dry out.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What makes a good place for a rooibos seedbed? (select all that apply)",
+   "options": [
+    {
+     "text": "A low place where water stands after rain",
+     "correct": false
+    },
+    {
+     "text": "Close to water",
+     "correct": true
+    },
+    {
+     "text": "Fenced against animals",
+     "correct": true
+    },
+    {
+     "text": "Sandy, well-drained soil",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

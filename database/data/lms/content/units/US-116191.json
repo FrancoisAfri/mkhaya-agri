@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-116191",
+ "title": "Apply standard animal feeding procedures",
+ "lessons": [
+  {
+   "title": "Keeping feed good and keeping records",
+   "minutes": 15,
+   "html": "<h3>Why feed quality matters</h3><p>Animals need good feed to grow, give milk, have young and stay healthy. Bad feed can make them sick or even kill them. Feed is also one of the biggest costs on a farm, so we must not waste it.</p><h3>Keep feed in good condition</h3><ul><li>Store feed bags on pallets, off the floor and away from walls, so they stay dry.</li><li>Keep the store roof and doors in good order so rain does not get in.</li><li>Keep rats, mice and birds out. Their droppings spoil feed and spread disease.</li><li>Use the oldest feed first (<strong>first in, first out</strong>).</li><li>Close bags after use.</li><li>Keep feed away from chemicals, fuel and fertiliser.</li><li>Store hay and silage as your supervisor shows you; cover silage so air does not get in.</li></ul><h3>Feed level control</h3><p>Check how much feed is in the store, the silos and the feeders every day.</p><ul><li>Tell your supervisor before feed runs out, so more can be ordered in time.</li><li>Do not let feeders run empty, but do not overfill them so feed is wasted on the ground.</li></ul><h3>Keep records</h3><p>Write down on the feed sheet:</p><table><tr><th>What</th><th>Example</th></tr><tr><td>Date</td><td>12 March</td></tr><tr><td>Camp, pen or house</td><td>Pen 4 weaners</td></tr><tr><td>Type of feed</td><td>Weaner pellets</td></tr><tr><td>Amount given</td><td>3 bags (150 kg)</td></tr><tr><td>Your name</td><td>Thabo</td></tr></table><p>Records show how much each group eats and help the farmer plan and control costs.</p><h4>A farm example</h4><p>Sipho checks the feed store on Monday and sees only five bags of dairy meal left. The cows eat four bags a day. He tells his supervisor at once, so more feed can be ordered before it runs out.</p>"
+  },
+  {
+   "title": "Choosing and checking feed",
+   "minutes": 15,
+   "html": "<h3>Follow the feeding instruction</h3><p>Your supervisor tells you which feed and how much to give each group of animals. Different animals need different feed. For example, calves, dairy cows, sheep in a feedlot, broilers and sows all get different rations. Read the label on the bag and make sure it is the right one before you start.</p><h3>Measure the amount</h3><ul><li>Use the scoop, bucket or scale your supervisor gives you. Know how much one scoop or bucket holds.</li><li>Give the same amount every time, unless told to change.</li><li>Feed at the same times every day. Animals like a routine.</li></ul><h3>Check the feed before animals eat it</h3><p>Look, smell and feel the feed. Do not give it to animals if:</p><ul><li>it is <strong>mouldy</strong> (green, white or black patches, or clumps),</li><li>it is <strong>wet</strong> or hot inside,</li><li>it <strong>smells</strong> sour, musty or rotten,</li><li>there are <strong>droppings</strong>, insects, stones, plastic or wire in it,</li><li>the bag is torn and the feed is dirty.</li></ul><p>Put bad feed aside and tell your supervisor. Never mix bad feed with good feed to hide it.</p><h3>Water</h3><p>Water is the most important feed. Check troughs and drinkers every day:</p><ul><li>Is there enough water?</li><li>Is it clean? Remove algae, dead birds and dung.</li><li>Is the ball valve working? Fix leaks or report them.</li></ul><h3>Special care</h3><p>Some feeds, such as feeds containing urea or medicines, can poison animals if they get too much or the wrong kind. Only give them exactly as instructed and never give a feed meant for one kind of animal to another without permission.</p>"
+  },
+  {
+   "title": "Feeding animals and watching their behaviour",
+   "minutes": 15,
+   "html": "<h3>Feeding under supervision</h3><ol><li>Wash your hands and wear your overalls and boots.</li><li>Check the feeders are clean. Remove old, wet or spoilt feed.</li><li>Put the feed out evenly along the trough so all the animals get a fair share, and the weak ones are not pushed out.</li><li>Do not stand in a crowded pen where animals can push or crush you. Feed from outside the pen if you can.</li><li>Close gates behind you.</li><li>Fill in the feed sheet.</li></ol><h3>Watch the animals eat</h3><p>Feeding time is the best time to see if an animal is sick. Healthy animals come quickly to the feed and eat well.</p><h3>Abnormal feeding behaviour</h3><p>Report to your supervisor straight away if you see an animal that:</p><ul><li>does not come to eat, or stands alone,</li><li>eats much less than usual, or stops chewing the cud (cattle, sheep, goats),</li><li>has a swollen left side (this can be <strong>bloat</strong> in cattle and sheep, which is an emergency),</li><li>drools, coughs or struggles to swallow,</li><li>eats soil, bones, wood or wool,</li><li>bullies others away from the trough,</li><li>drinks much more or much less water than normal.</li></ul><p>Also report if a whole group suddenly eats less. The feed may be bad, or the water may be off.</p><h3>Tell clearly</h3><p>Say which animal (tag number or pen), what you saw and when. Do not try to treat the animal yourself unless you are trained and told to.</p><h4>Key points</h4><ul><li>Keep feed dry, off the floor and away from rats and chemicals.</li><li>Use the oldest feed first and record what you feed.</li><li>Check feed before use: never give mouldy, wet or smelly feed.</li><li>Check that clean water is always available.</li><li>Watch animals at feeding and report any that eat abnormally.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why should feed bags be stored on pallets?",
+   "options": [
+    {
+     "text": "To keep them off the floor so they stay dry",
+     "correct": true
+    },
+    {
+     "text": "So they are easier to count",
+     "correct": false
+    },
+    {
+     "text": "To make the store look full",
+     "correct": false
+    },
+    {
+     "text": "So rats can reach them",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What does first in, first out mean?",
+   "options": [
+    {
+     "text": "Feed the first animal in the pen first",
+     "correct": false
+    },
+    {
+     "text": "Order new feed first",
+     "correct": false
+    },
+    {
+     "text": "Use the oldest feed first",
+     "correct": true
+    },
+    {
+     "text": "Open the first bag you see",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do with mouldy feed?",
+   "options": [
+    {
+     "text": "Mix it with good feed",
+     "correct": false
+    },
+    {
+     "text": "Give it to the strongest animals",
+     "correct": false
+    },
+    {
+     "text": "Leave it in the feeder",
+     "correct": false
+    },
+    {
+     "text": "Put it aside and tell your supervisor",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A cow has a swollen left side after feeding. What could this be?",
+   "options": [
+    {
+     "text": "Bloat, an emergency to report straight away",
+     "correct": true
+    },
+    {
+     "text": "Normal digestion",
+     "correct": false
+    },
+    {
+     "text": "Pregnancy",
+     "correct": false
+    },
+    {
+     "text": "A sign she wants more feed",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should feed be spread evenly along the trough?",
+   "options": [
+    {
+     "text": "So it dries faster",
+     "correct": false
+    },
+    {
+     "text": "So all animals, including weak ones, get a fair share",
+     "correct": true
+    },
+    {
+     "text": "To use more feed",
+     "correct": false
+    },
+    {
+     "text": "So the trough stays clean",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should check water troughs every day.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "If a feed contains urea, you can give extra so the animals grow faster.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which signs of abnormal feeding should be reported? (select all that apply)",
+   "options": [
+    {
+     "text": "A whole group suddenly eating less",
+     "correct": true
+    },
+    {
+     "text": "An animal that does not come to eat",
+     "correct": true
+    },
+    {
+     "text": "An animal eating soil or bones",
+     "correct": true
+    },
+    {
+     "text": "Animals eating eagerly at the normal time",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

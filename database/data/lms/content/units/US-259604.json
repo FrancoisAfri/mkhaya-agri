@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-259604",
+ "title": "Verify compliance to safety, health and environmental requirements in the workplace",
+ "lessons": [
+  {
+   "title": "SHE requirements in a specific workplace",
+   "minutes": 15,
+   "html": "<h3>What SHE means</h3> <p>SHE stands for safety, health and environment. Every workplace has requirements that come from the law, from the company's own policies, and from customers and certification bodies. On a farm these include:</p> <ul> <li><strong>Safety law</strong>: the Occupational Health and Safety Act 85 of 1993 and its regulations (machinery, hazardous chemicals, general safety, first aid, fire equipment).</li> <li><strong>Environmental law</strong>: the National Water Act 36 of 1998 (water use and pollution), the Conservation of Agricultural Resources Act 43 of 1983 (soil, veld and invasive plants), and rules on waste such as empty chemical containers and used oil.</li> <li><strong>Agricultural remedies</strong>: Act 36 of 1947 covers registration and label use of pesticides.</li> <li><strong>Animal welfare</strong>: the Animals Protection Act 71 of 1962.</li> <li><strong>Company and customer standards</strong>: such as food safety and ethical trade audits.</li> </ul> <h4>Requirements turned into workplace rules</h4> <table> <tr><th>Area</th><th>Example requirement</th></tr> <tr><td>Workshop</td><td>Guards on grinders, eye protection, fire extinguishers serviced</td></tr> <tr><td>Chemical store</td><td>Locked, ventilated, bunded, SDS available, stock register</td></tr> <tr><td>Spraying</td><td>Trained operators, full PPE, re-entry signs, spray records</td></tr> <tr><td>Tractors</td><td>Authorised drivers, ROPS and seat belts, PTO guards</td></tr> <tr><td>Workers' welfare</td><td>Clean toilets, drinking water, first aid boxes</td></tr> <tr><td>Environment</td><td>No dumping of oil or containers, buffer zones near rivers, invasive plants controlled</td></tr> </table> <h4>Who is responsible</h4><p>The employer is responsible for providing a safe and healthy workplace and for meeting environmental duties. Supervisors make sure rules are followed in their areas. Every worker must follow the rules and report problems. When you verify compliance, you are helping the whole team meet its duties, not looking for someone to blame.</p><p>To verify compliance you must first know exactly which requirements apply to your area. Get copies of the relevant procedures, checklists and the risk assessment from your supervisor or SHE officer.</p>"
+  },
+  {
+   "title": "Monitoring compliance",
+   "minutes": 15,
+   "html": "<h3>How to monitor</h3> <p>Monitoring means checking regularly whether the requirements are being met. Use the methods in your SHE programme:</p> <ul> <li><strong>Inspections with checklists</strong>: walk through an area and tick each requirement as met or not met.</li> <li><strong>Observation of tasks</strong>: watch a job, such as a sprayer being mixed and loaded, and compare with the procedure.</li> <li><strong>Checking records</strong>: training registers, spray records, extinguisher service dates, first aid box checks, waste disposal certificates.</li> <li><strong>Talking to workers</strong>: ask how they do the job and what problems they have.</li> <li><strong>Measurements</strong> where needed, such as noise or water quality, done by trained people.</li> </ul> <h4>Doing an inspection well</h4> <ol> <li>Use the right checklist for the area.</li> <li>Tell the area supervisor you are inspecting.</li> <li>Wear the PPE required for that area.</li> <li>Check every item honestly. Write evidence, for example \"Extinguisher at workshop door last serviced over a year ago, tag expired\".</li> <li>Take photos if your workplace allows it.</li> <li>Note good practice as well as problems.</li> <li>If you find an immediate danger, such as a worker spraying without a respirator or a leaking fuel tank near a fire, stop the activity if you have the authority, or report it immediately.</li> </ol> <h4>Frequency</h4><p>Follow the schedule in your SHE programme. High-risk areas such as the chemical store, workshop and fuel point are often checked more often than offices. Keep completed checklists in the SHE file so trends can be seen.</p><h4>Common non-compliances on farms</h4> <ul> <li>PPE issued but not worn, or worn out.</li> <li>Guards removed from machinery.</li> <li>Empty chemical containers lying around or reused for water.</li> <li>Used oil poured on the ground.</li> <li>Expired extinguishers and empty first aid boxes.</li> <li>Untrained workers driving tractors.</li> <li>Missing spray records.</li> </ul>"
+  },
+  {
+   "title": "Evaluating performance and remedying non-compliance",
+   "minutes": 15,
+   "html": "<h3>Evaluating performance</h3> <p>SHE programmes include activities that must happen on time: monthly inspections, training, extinguisher servicing, toilet cleaning, medical checks for spray operators, drills. Evaluate whether they were done and whether they worked.</p> <ul> <li>Compare planned activities with what was done, for example \"12 inspections planned, 9 done\".</li> <li>Look at results: number of findings, how many were fixed on time, incidents and near misses.</li> <li>Look for patterns: the same problem in the same area every month shows the fix is not working.</li> </ul> <h3>Remedying non-compliance</h3> <p>Each problem needs action. Use simple steps:</p> <ol> <li><strong>Make it safe now</strong>: immediate action, for example take a damaged grinder out of use and tag it.</li> <li><strong>Find the cause</strong>: why did it happen? No training, no PPE available, a rushed job, an unclear procedure?</li> <li><strong>Corrective action</strong>: fix the cause, for example order PPE in the right sizes, retrain the team, repair the guard, change the procedure.</li> <li><strong>Assign responsibility and a date</strong>.</li> <li><strong>Follow up</strong>: check that the action was done and the problem has not returned.</li> <li><strong>Record</strong> everything in the non-compliance register or action list.</li> </ol> <h4>Example</h4> <p>Inspection found empty pesticide containers behind the packshed. Immediate action: containers collected and locked in the container store. Cause: no clear procedure and the collector came irregularly. Corrective action: written container procedure, training for the spray team, a monthly collection booked with an approved recycler. Follow-up inspection a month later: no containers found outside the store.</p> <h4>Communicating</h4> <p>Report findings to the supervisor and the health and safety committee. Give feedback to workers in toolbox talks. Praise good practice; people respond better when they see the reason for rules.</p> <h4>Key points</h4> <ul> <li>Know which legal, company and customer SHE requirements apply to your area.</li> <li>Monitor with checklists, observation, records and talking to workers.</li> <li>Record evidence honestly and act at once on immediate dangers.</li> <li>Evaluate whether planned SHE activities happened and worked.</li> <li>Make safe, find the cause, correct, assign, follow up and record.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which Act deals with water use and pollution in South Africa?",
+   "options": [
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": true
+    },
+    {
+     "text": "Act 36 of 1947",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step before verifying compliance in an area?",
+   "options": [
+    {
+     "text": "Know exactly which requirements apply",
+     "correct": true
+    },
+    {
+     "text": "Hand out fines",
+     "correct": false
+    },
+    {
+     "text": "Close the workplace",
+     "correct": false
+    },
+    {
+     "text": "Paint the walls",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The same problem is found in the same area every month. What does this show?",
+   "options": [
+    {
+     "text": "Inspections should stop",
+     "correct": false
+    },
+    {
+     "text": "The fix is not working",
+     "correct": true
+    },
+    {
+     "text": "The area is perfect",
+     "correct": false
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when remedying a dangerous non-compliance?",
+   "options": [
+    {
+     "text": "Make it safe now",
+     "correct": true
+    },
+    {
+     "text": "Write a letter next month",
+     "correct": false
+    },
+    {
+     "text": "Blame a worker",
+     "correct": false
+    },
+    {
+     "text": "Wait for the next meeting",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a good way to write an inspection finding?",
+   "options": [
+    {
+     "text": "With specific evidence, such as an expired service tag on a named extinguisher",
+     "correct": true
+    },
+    {
+     "text": "Just 'bad'",
+     "correct": false
+    },
+    {
+     "text": "Only a tick",
+     "correct": false
+    },
+    {
+     "text": "Nothing; remember it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Monitoring compliance can include checking training registers and spray records.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Once corrective action is assigned, there is no need to follow up.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are common non-compliances on farms? (select all that apply)",
+   "options": [
+    {
+     "text": "Workers wearing correct PPE",
+     "correct": false
+    },
+    {
+     "text": "Used oil poured on the ground",
+     "correct": true
+    },
+    {
+     "text": "Guards removed from machinery",
+     "correct": true
+    },
+    {
+     "text": "Empty chemical containers reused for water",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

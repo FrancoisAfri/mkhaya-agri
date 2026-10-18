@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-7449",
+ "title": "Critically analyse how mathematics is used in social, political and economic relations",
+ "lessons": [
+  {
+   "title": "Maths in prices, VAT and interest",
+   "minutes": 15,
+   "html": "<h3>Why this matters</h3>\n<p>Numbers are used by shops, banks, employers and government to make decisions that affect your life. If you understand the maths, you can ask good questions and make better choices. This unit is about looking carefully at how numbers are used, and who benefits.</p>\n<h4>VAT – a tax on what you buy</h4>\n<p>Value-Added Tax (VAT) is a tax added to the price of most goods and services in South Africa. The rate has been 15% since 2018; check the current rate if it changes. Some basic foods are \"zero-rated\", meaning no VAT is charged on them. Examples include brown bread, maize meal, samp, dried beans, eggs, fresh fruit and vegetables and milk. Government decided this to help poor households, because they spend a large part of their income on food.</p>\n<p>Example: an item costs R200 before VAT. VAT at 15% = R200 × 15 ÷ 100 = R30. You pay R230. A rich person and a poor person pay the same R30, but R30 is a much bigger part of a small income. This is why people argue about which goods should be zero-rated.</p>\n<h4>Interest on loans and credit</h4>\n<p>When you buy on credit, the shop or lender charges interest and fees. A radio costs R1 500 cash. On credit you pay R180 a month for 12 months. 12 × R180 = R2 160. You pay R660 more than the cash price. Adverts often show only the small monthly amount in big letters. The total cost is in small print. Always multiply it out yourself.</p>\n<h4>Price per unit</h4>\n<p>Small packets often cost more per kilogram than big ones. People who are paid weekly, or who cannot afford a big bag at once, often pay more per kilogram. Working together, for example buying in bulk as a group, can help workers save money.</p>\n<h4>Ask the questions</h4>\n<ul>\n<li>What is the total I will pay, not only the monthly amount?</li>\n<li>What is the price per kilogram or per litre?</li>\n<li>Who decided this number, and who gains from it?</li>\n</ul>"
+  },
+  {
+   "title": "Wages, increases and the cost of living",
+   "minutes": 15,
+   "html": "<h3>Percentages and fairness</h3>\n<p>Wage talks between workers, unions and employers use a lot of maths. Understanding it helps you see if an offer is fair.</p>\n<h4>The same percentage, different rands</h4>\n<p>Imagine a farm gives everyone a 6% increase.</p>\n<table>\n<tr><th>Worker</th><th>Monthly pay</th><th>6% increase</th></tr>\n<tr><td>General worker</td><td>R4 500</td><td>R270</td></tr>\n<tr><td>Supervisor</td><td>R9 000</td><td>R540</td></tr>\n<tr><td>Manager</td><td>R30 000</td><td>R1 800</td></tr>\n</table>\n<p>Everyone got \"the same\" increase, but the manager gets R1 530 more in rands than the general worker. Over years, the gap between low and high pay grows. This is why some unions ask for a fixed rand amount for everyone instead of a percentage, or a bigger percentage for the lowest paid.</p>\n<h4>Inflation – prices going up</h4>\n<p><strong>Inflation</strong> means prices rise over time. Statistics South Africa measures it with the Consumer Price Index (CPI), using a \"basket\" of goods that households buy. If inflation is 5% and your wage goes up by 3%, you can actually buy less than last year. Your \"real\" wage went down.</p>\n<p>But the official basket may not match your life. If food and transport prices rise faster than other things, poor households, who spend more of their money on food and transport, feel inflation more than the average number shows.</p>\n<h4>The minimum wage</h4>\n<p>South Africa has a National Minimum Wage, set per hour and adjusted each year. Farm workers are covered. To check your pay, multiply your hourly rate by the hours you work. If the result is below the legal minimum for those hours, ask your employer, your union or the Department of Employment and Labour.</p>\n<h4>Think critically</h4>\n<ul>\n<li>Compare an increase with inflation, not just with last year's pay.</li>\n<li>Look at the rand amount as well as the percentage.</li>\n<li>Ask what the numbers leave out.</li>\n</ul>"
+  },
+  {
+   "title": "Reading numbers in the news and in politics",
+   "minutes": 15,
+   "html": "<h3>Numbers can be used to persuade</h3>\n<p>Politicians, companies and newspapers use numbers to make a point. Numbers can be true but still give the wrong picture. You can learn to spot this.</p>\n<h4>Misleading graphs</h4>\n<p>Look at the numbers on the side of a graph (the axis). If the axis does not start at zero, a small change can look huge. A bar graph showing unemployment going from 32% to 33% can look like a big jump if the axis starts at 31%. Always read the scale, not just the shape of the picture.</p>\n<h4>Averages can hide things</h4>\n<p>Five workers earn R4 000, R4 000, R4 500, R5 000 and the owner takes R82 500. The average (mean) is R100 000 ÷ 5 = R20 000. A report could say \"average pay is R20 000\", yet four out of five people earn R5 000 or less. The middle value (median) here is R4 500, which shows the picture of most workers better.</p>\n<h4>\"Big\" and \"small\" numbers</h4>\n<p>\"Government will spend R500 million on rural roads\" sounds like a lot. But how many kilometres of road is that? How much per person in the area? Compare it with other spending. A number on its own means little until you compare it with something.</p>\n<h4>Percentages without the base</h4>\n<p>\"Crime in our town went up 100%!\" could mean it went from 1 case to 2 cases. \"Sales increased by 50%\" means little unless you know the starting amount. Always ask: percentage of what?</p>\n<h4>Questions to ask about any number</h4>\n<ol>\n<li>Who collected this number, and why?</li>\n<li>What is it compared with?</li>\n<li>Does the graph scale start at zero?</li>\n<li>Is it an average that hides very high or very low values?</li>\n<li>What is left out?</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>VAT is a tax on purchases; some basic foods are zero-rated to help poor households.</li>\n<li>Always work out the total cost of credit, not just the monthly payment.</li>\n<li>A percentage increase gives more rands to people who already earn more.</li>\n<li>If wages rise slower than inflation, you can buy less.</li>\n<li>Check graph scales, averages and the base of percentages before you believe a claim.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "An item costs R200 before VAT at 15%. What do you pay?",
+   "options": [
+    {
+     "text": "R215",
+     "correct": false
+    },
+    {
+     "text": "R230",
+     "correct": true
+    },
+    {
+     "text": "R300",
+     "correct": false
+    },
+    {
+     "text": "R203",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A radio costs R1 500 cash, or R180 a month for 12 months on credit. How much extra does credit cost?",
+   "options": [
+    {
+     "text": "R180",
+     "correct": false
+    },
+    {
+     "text": "R1 500",
+     "correct": false
+    },
+    {
+     "text": "R660",
+     "correct": true
+    },
+    {
+     "text": "R2 160",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Inflation is 5% and your wage rises by 3%. What happens to what you can buy?",
+   "options": [
+    {
+     "text": "You can buy less than before",
+     "correct": true
+    },
+    {
+     "text": "You can buy more than before",
+     "correct": false
+    },
+    {
+     "text": "Nothing changes",
+     "correct": false
+    },
+    {
+     "text": "You can buy exactly 3% more",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Four workers earn R4 000, R4 000, R4 500, R5 000 and the owner R82 500. Which value best shows what most people earn?",
+   "options": [
+    {
+     "text": "The mean of R20 000",
+     "correct": false
+    },
+    {
+     "text": "The owner's pay",
+     "correct": false
+    },
+    {
+     "text": "The total of R100 000",
+     "correct": false
+    },
+    {
+     "text": "The median of R4 500",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A graph's side axis starts at 31% instead of 0%. What is the danger?",
+   "options": [
+    {
+     "text": "Small changes can look very big",
+     "correct": true
+    },
+    {
+     "text": "The numbers are always false",
+     "correct": false
+    },
+    {
+     "text": "The graph cannot be read at all",
+     "correct": false
+    },
+    {
+     "text": "It makes changes look smaller",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A 6% increase for everyone gives the same rand amount to a general worker and a manager.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Some basic foods such as maize meal and brown bread are zero-rated for VAT in South Africa.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which questions help you think critically about a number in the news? (select all that apply)",
+   "options": [
+    {
+     "text": "What is it compared with?",
+     "correct": true
+    },
+    {
+     "text": "Who collected it and why?",
+     "correct": true
+    },
+    {
+     "text": "Is it printed in large letters?",
+     "correct": false
+    },
+    {
+     "text": "Percentage of what starting amount?",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

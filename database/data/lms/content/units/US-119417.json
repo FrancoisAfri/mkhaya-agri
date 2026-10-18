@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119417",
+ "title": "Manage a poultry production facility",
+ "lessons": [
+  {
+   "title": "Running the facility day to day",
+   "minutes": 15,
+   "html": "<h3>The supervisor as facility manager</h3><p>Managing a poultry production facility means making sure that houses, equipment, people and inputs work together to produce healthy birds or eggs efficiently, safely and in line with the law and welfare standards. Whether the unit is a broiler farm, layer farm or breeder site, the same management principles apply.</p><h4>Key areas of responsibility</h4><ul><li><strong>Bird welfare and production</strong>: environment, feed, water, health and performance.</li><li><strong>Infrastructure and equipment</strong>: houses, ventilation, heating, feeding, drinking, lighting, generators, alarms.</li><li><strong>Biosecurity</strong>: controlling the entry of disease.</li><li><strong>People</strong>: staffing, training, scheduling, health and safety.</li><li><strong>Inputs</strong>: feed, chicks, vaccines, medicines, litter, gas, chemicals.</li><li><strong>Records and reporting</strong>: production, finance, compliance.</li><li><strong>Environment and neighbours</strong>: manure, dead bird disposal, flies, odour, water use.</li></ul><h4>Daily routine</h4><ol><li>Morning walk-through of all houses: birds, temperature, ventilation, feed, water, mortality.</li><li>Check alarms and overnight records.</li><li>Brief staff and allocate tasks.</li><li>Follow up on maintenance and deliveries.</li><li>Afternoon walk-through and evening checks.</li><li>Complete daily records and report to management.</li></ol><h4>Welfare standards</h4><p>Birds must have the five freedoms: freedom from hunger and thirst; from discomfort; from pain, injury and disease; to express normal behaviour; and from fear and distress. The Animals Protection Act 71 of 1962 makes cruelty an offence, and industry welfare codes and retailer audits set further standards.</p><h4>Example</h4><p>On a broiler site with six houses, the supervisor starts each day at 06:00 with a walk-through, checks the alarm log from the night, then meets the team at 07:00 to allocate tasks and discuss any problems found.</p>"
+  },
+  {
+   "title": "Equipment, maintenance and inputs",
+   "minutes": 15,
+   "html": "<h3>Keeping the facility working</h3><h4>Planned maintenance</h4><p>Breakdowns in poultry houses can kill birds within hours, especially ventilation, water and power failures. A planned maintenance programme prevents most breakdowns.</p><table><tr><th>System</th><th>Examples of planned tasks</th></tr><tr><td>Ventilation</td><td>Fan belts, motors, shutters, inlets, cooling pads, controllers</td></tr><tr><td>Power</td><td>Generator test runs under load, fuel level, automatic changeover, battery</td></tr><tr><td>Alarms</td><td>Test temperature and power alarms; check call-out phone numbers</td></tr><tr><td>Water</td><td>Pumps, filters, regulators, nipples, meters</td></tr><tr><td>Feed</td><td>Silos, augers, pans, motors, weighing systems</td></tr><tr><td>Buildings</td><td>Roof, curtains, insulation, rodent-proofing, fences</td></tr></table><p>Do as much maintenance as possible between flocks, while houses are empty. Keep critical spares such as fan belts, nipples and fuses in stock. Record all maintenance and breakdowns.</p><h4>Managing inputs</h4><ul><li>Order feed with enough lead time; check deliveries for the correct ration and quantity; keep silos clean.</li><li>Confirm chick placement dates and numbers with the hatchery.</li><li>Keep vaccines in a monitored fridge and use them before expiry.</li><li>Store chemicals and medicines securely.</li><li>Monitor gas and diesel levels during brooding and load shedding.</li></ul><h4>Contingency planning</h4><p>Plan for power failures, water failures, feed delivery delays, extreme heat, disease outbreaks and staff shortages. Everyone must know what to do and whom to call.</p><h4>Example</h4><p>Before load shedding season, the supervisor checks that the generator starts automatically, runs it under load for a set time each week, keeps the fuel tank full and records each test. When the power fails during a heat wave, the fans keep running and no birds are lost.</p><p>Review the maintenance log monthly to see which equipment fails most often and plan replacements.</p>"
+  },
+  {
+   "title": "Performance, people and compliance",
+   "minutes": 15,
+   "html": "<h3>Measuring and improving results</h3><h4>Key performance indicators</h4><ul><li><strong>Broilers</strong>: mortality %, average weight, feed conversion ratio, daily gain, production efficiency factor, condemnations at the abattoir.</li><li><strong>Layers</strong>: hen-day production %, egg weight, feed per dozen eggs, mortality, egg grading results.</li><li><strong>Costs</strong>: feed cost per kg or per dozen, gas, electricity, labour and vet costs.</li></ul><p>Compare results with targets, previous flocks and other houses. Discuss the causes of differences with the team and the vet.</p><h4>People management</h4><ul><li>Plan staffing for all shifts including weekends; poultry need care every day.</li><li>Train workers in tasks, biosecurity, welfare and safety; keep a training register.</li><li>Follow the Basic Conditions of Employment Act on hours, leave and overtime.</li><li>Give clear instructions, fair feedback and recognition.</li><li>Maintain a safe workplace under the OHS Act 85 of 1993.</li></ul><h4>Compliance and environment</h4><ul><li>Report notifiable diseases such as avian influenza and Newcastle disease to the state vet under the Animal Diseases Act 35 of 1984.</li><li>Dispose of dead birds by approved methods, such as rendering, incineration or approved pits or composting, as authorised.</li><li>Manage manure and litter to avoid pollution of water resources under the National Water Act 36 of 1998, and to control flies and odour for neighbours.</li><li>Keep records ready for audits by customers and authorities.</li></ul><h4>Reporting</h4><p>Send regular reports to management with production figures, costs, problems, and actions taken. Close each flock with a summary and lessons for the next.</p><h4>Key points</h4><ul><li>Facility management covers welfare, equipment, biosecurity, people, inputs, records and environment.</li><li>Walk all houses at least twice a day and check alarms and records.</li><li>Use planned maintenance, especially for ventilation, power and water.</li><li>Track KPIs such as mortality, FCR, hen-day production and costs against targets.</li><li>Report notifiable diseases, dispose of dead birds correctly and manage manure responsibly.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which failures can kill birds within hours?",
+   "options": [
+    {
+     "text": "Ventilation, water and power failures",
+     "correct": true
+    },
+    {
+     "text": "A late office report",
+     "correct": false
+    },
+    {
+     "text": "A broken office chair",
+     "correct": false
+    },
+    {
+     "text": "A missing pen",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is the best time to do major maintenance in poultry houses?",
+   "options": [
+    {
+     "text": "During peak production",
+     "correct": false
+    },
+    {
+     "text": "Between flocks while houses are empty",
+     "correct": true
+    },
+    {
+     "text": "Only at night",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a key performance indicator for layers?",
+   "options": [
+    {
+     "text": "Feed conversion ratio of broilers",
+     "correct": false
+    },
+    {
+     "text": "Condemnations of broilers",
+     "correct": false
+    },
+    {
+     "text": "Hen-day production %",
+     "correct": true
+    },
+    {
+     "text": "Number of tractors",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act requires notifiable poultry diseases to be reported to the state vet?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "OHS Act 85 of 1993",
+     "correct": false
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Diseases Act 35 of 1984",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is one of the five freedoms?",
+   "options": [
+    {
+     "text": "Freedom from hunger and thirst",
+     "correct": true
+    },
+    {
+     "text": "Freedom from vaccination",
+     "correct": false
+    },
+    {
+     "text": "Freedom to leave the farm",
+     "correct": false
+    },
+    {
+     "text": "Freedom from records",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Generators should be test-run regularly as part of planned maintenance.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Poultry only need care on weekdays, so weekend staffing is not needed.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are acceptable dead bird disposal methods when authorised? (select all that apply)",
+   "options": [
+    {
+     "text": "Rendering",
+     "correct": true
+    },
+    {
+     "text": "Incineration",
+     "correct": true
+    },
+    {
+     "text": "Approved pits or composting",
+     "correct": true
+    },
+    {
+     "text": "Dumping in the river",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

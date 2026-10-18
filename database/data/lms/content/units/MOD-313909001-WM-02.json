@@ -1,0 +1,178 @@
+{
+ "unit_key": "MOD-313909001-WM-02",
+ "title": "Feed milling operations in the production of animal feeds or dry pet foods",
+ "lessons": [
+  {
+   "title": "Working in grinding, batching and mixing",
+   "minutes": 15,
+   "html": "<h3>Your work experience</h3>\n<p>In this module you work in the milling, batching and mixing sections and in packing, applying what you learned in the knowledge and practical modules. Your mentor will observe you and sign off tasks as you become competent.</p>\n<h4>Grinding</h4>\n<p>In animal feed mills, grind size depends on the species: coarse for some poultry and ruminant feeds, fine for pig and fish feeds. Pet food plants usually grind very finely before extrusion, because fine particles cook evenly and give a smooth kibble. Tasks to practise:</p>\n<ul>\n<li>Checking and changing hammer mill screens under lock-out with your mentor.</li>\n<li>Setting feed rates to the target motor load.</li>\n<li>Taking ground samples and doing a sieve test.</li>\n<li>Recording kWh, tonnes and screen changes.</li>\n</ul>\n<h4>Batching and mixing</h4>\n<ol>\n<li>Select the recipe from the plan and confirm it with the supervisor at changeovers.</li>\n<li>Prepare hand-add ingredients: weigh premixes, vitamins and medications on calibrated scales and record lot numbers.</li>\n<li>Check the batch report after each batch: actual versus target weights.</li>\n<li>Follow mix times and sequence rules.</li>\n<li>Do flushes and clean-outs as scheduled and record them.</li>\n</ol>\n<h4>A workplace example</h4>\n<p>During the night shift the batch report shows that limestone was 15 kg under target on a layer batch. Instead of letting it go, the operator stops the next batch, informs the supervisor and the batch is held. The scale is found to have a blocked discharge gate. Layers fed that batch could have laid thin-shelled eggs; the quick check protected the customer.</p>\n<p>In pet food plants, special care is taken with recipes for different pet life stages and with ingredients that must be declared on the label, because pet owners read labels closely.</p>"
+  },
+  {
+   "title": "Packing, out-loading and workplace evidence",
+   "minutes": 15,
+   "html": "<h3>Packing</h3>\n<p>Feed is packed in 25 kg to 50 kg bags or bulk bags; dry pet food is often packed in smaller retail bags on automatic form-fill-seal machines with metal detectors and check-weighers. Practise:</p>\n<ul>\n<li>Setting up for a product: correct bags or film, printed batch code and best-before date.</li>\n<li>Checking the scale or check-weigher with test weights.</li>\n<li>Testing the metal detector with test pieces at start-up and at the set intervals, and handling rejected packs as the procedure says.</li>\n<li>Checking seals and sewing.</li>\n<li>Palletising and wrapping neatly.</li>\n<li>Recording bags packed and wastage.</li>\n</ul>\n<h3>Out-loading</h3>\n<ul>\n<li>Check bulk truck compartments are clean before loading and record the inspection.</li>\n<li>Load the correct product into each compartment according to the order.</li>\n<li>Pick bagged orders using first-expired-first-out and check them against the dispatch note.</li>\n<li>Complete delivery documents and seal trucks where required.</li>\n</ul>\n<h3>Working safely</h3>\n<p>Follow lock-out rules on mixers, hammer mills and packing machines, keep hands out of moving parts on form-fill-seal machines, and use correct lifting techniques. Stay clear of forklifts and loading trucks.</p>\n<h3>Your logbook and evidence</h3>\n<table>\n<tr><th>Task</th><th>Evidence</th></tr>\n<tr><td>Hammer mill operation</td><td>Shift logs, sieve test results</td></tr>\n<tr><td>Batching</td><td>Batch reports, hand-add records</td></tr>\n<tr><td>Changeovers</td><td>Flush and clean-out records</td></tr>\n<tr><td>Packing</td><td>Scale and metal detector check sheets</td></tr>\n<tr><td>Out-loading</td><td>Truck inspection and dispatch notes</td></tr>\n</table>\n<p>Ask your mentor for regular feedback and reflect in your logbook on what you would do differently next time.</p>\n<h4>Key points</h4>\n<ul>\n<li>Grind size depends on species; pet food usually needs very fine grinding.</li>\n<li>Check every batch report and stop if a weight is out of tolerance.</li>\n<li>Test scales and metal detectors at start-up and at set intervals.</li>\n<li>Inspect bulk trucks before loading and use FEFO for bagged orders.</li>\n<li>Keep signed workplace evidence of each task.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Why is pet food usually ground very finely before extrusion?",
+   "options": [
+    {
+     "text": "To make it heavier",
+     "correct": false
+    },
+    {
+     "text": "Because animals cannot chew",
+     "correct": false
+    },
+    {
+     "text": "Fine particles cook evenly and give a smooth kibble",
+     "correct": true
+    },
+    {
+     "text": "To save bags",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The batch report shows limestone 15 kg under target on a layer batch. What should happen?",
+   "options": [
+    {
+     "text": "Add sand",
+     "correct": false
+    },
+    {
+     "text": "Delete the report",
+     "correct": false
+    },
+    {
+     "text": "Release the batch anyway",
+     "correct": false
+    },
+    {
+     "text": "Stop, inform the supervisor and hold the batch",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should the metal detector on a packing line be tested?",
+   "options": [
+    {
+     "text": "At start-up and at the set intervals",
+     "correct": true
+    },
+    {
+     "text": "Only after a complaint",
+     "correct": false
+    },
+    {
+     "text": "Never",
+     "correct": false
+    },
+    {
+     "text": "Once a year",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which method should be used for picking bagged orders?",
+   "options": [
+    {
+     "text": "Last in first out",
+     "correct": false
+    },
+    {
+     "text": "First-expired-first-out",
+     "correct": true
+    },
+    {
+     "text": "Random",
+     "correct": false
+    },
+    {
+     "text": "Heaviest first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be checked before loading a bulk truck?",
+   "options": [
+    {
+     "text": "That compartments are clean, with the inspection recorded",
+     "correct": true
+    },
+    {
+     "text": "Only the tyres",
+     "correct": false
+    },
+    {
+     "text": "The driver’s lunch",
+     "correct": false
+    },
+    {
+     "text": "The radio",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Low limestone in layer feed could lead to thin-shelled eggs.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hands may be put into a running form-fill-seal machine to fix a bag.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are good workplace evidence for this module? (select all that apply)",
+   "options": [
+    {
+     "text": "Truck inspection records",
+     "correct": true
+    },
+    {
+     "text": "Batch reports",
+     "correct": true
+    },
+    {
+     "text": "Metal detector check sheets",
+     "correct": true
+    },
+    {
+     "text": "A social media post",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

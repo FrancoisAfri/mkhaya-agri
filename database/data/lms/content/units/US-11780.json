@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-11780",
+ "title": "Understand and apply basic plumbing principles",
+ "lessons": [
+  {
+   "title": "How water behaves in pipes",
+   "minutes": 20,
+   "html": "<h3>Basic principles</h3><p>Plumbing on a farm or landscape site, whether it is a supply line to a cattle trough, a borehole to a header tank, or an irrigation mainline, follows the same physical rules.</p><ul><li><strong>Water flows from high pressure to low pressure.</strong> Pressure comes from a pump or from height (gravity).</li><li><strong>Gravity pressure:</strong> every 10 m of height gives about 1 bar (100 kPa). A tank on a 5 m stand gives about 0.5 bar at ground level.</li><li><strong>Water finds its own level:</strong> in connected pipes and tanks, water rises to the same height when it is not flowing.</li><li><strong>Friction:</strong> water loses pressure as it flows through pipes and fittings. Longer, narrower, rougher pipes and more bends mean more loss. Doubling the flow in the same pipe increases friction loss by much more than double.</li><li><strong>Water is incompressible:</strong> closing a valve quickly stops a moving column of water suddenly, causing <strong>water hammer</strong>, a shock that bangs pipes and can burst them.</li><li><strong>Air:</strong> trapped air at high points blocks flow; air valves are needed there.</li></ul><h4>Choosing pipe size</h4><p>A pipe that is too small gives poor pressure and flow at the end; one that is too large costs more and water moves slowly. Designers use tables or calculators of friction loss per 100 m for each pipe type, size and flow. As a rough practice, keep water velocity moderate, commonly below about 1.5 m/s in mainlines, to limit friction and water hammer.</p><h4>Pressure ratings</h4><p>Pipes and fittings are marked with a pressure class, for example class 6, 10 or 16 for PVC and HDPE in bar. The rating must exceed the highest pressure in the system, including surges. Pressure at the bottom of a long downhill gravity line can be very high.</p><h4>Drinking water safety</h4><p>Never connect a drinking water supply directly to a system that could contain dirty water, fertiliser or chemicals. Use an air gap or an approved backflow preventer.</p>"
+  },
+  {
+   "title": "Pipe materials, fittings and joining",
+   "minutes": 20,
+   "html": "<h3>Common pipe materials</h3><table><tr><th>Material</th><th>Features</th><th>Joining</th></tr><tr><td>uPVC</td><td>Rigid, cheap, smooth; brittle in cold and in sun if not protected</td><td>Solvent cement, rubber-ring sockets</td></tr><tr><td>HDPE (polyethylene, \"poly pipe\")</td><td>Flexible, tough, UV-resistant black pipe; ideal for farms and rough ground</td><td>Compression fittings, butt or electrofusion welding</td></tr><tr><td>LDPE</td><td>Soft, thin-wall; drip laterals and low pressure</td><td>Barbed or insert fittings</td></tr><tr><td>Copper</td><td>Hot and cold water in buildings</td><td>Compression or soldered (capillary) fittings</td></tr><tr><td>Galvanised steel</td><td>Strong; borehole columns, exposed places; rusts over time</td><td>Threaded sockets</td></tr><tr><td>PEX / multilayer</td><td>Domestic hot and cold</td><td>Crimp or press fittings</td></tr></table><h4>Fittings</h4><p>Elbows (bends), tees, reducers, sockets (couplers), unions (for removing items), end caps, adaptors (between materials or between thread and compression) and valves. Use fittings of the same pressure class as the pipe.</p><h4>Joining methods</h4><ul><li><strong>Solvent welding PVC:</strong> cut square, deburr, clean with cleaner, apply solvent cement to pipe and socket, push in fully with a slight twist, hold, wipe excess, and allow curing time before pressurising, as the product label states. Work in ventilated areas; cement fumes are flammable.</li><li><strong>Compression fittings on HDPE:</strong> cut square, slide on nut, clip ring and O-ring in order, push pipe fully home, tighten by hand plus as specified.</li><li><strong>Threaded joints:</strong> PTFE tape wound in the direction of the thread, or thread sealant; do not over-tighten plastic threads.</li><li><strong>Butt welding HDPE:</strong> needs a trained operator and a calibrated machine.</li></ul><h4>Tools</h4><p>Pipe cutter or hacksaw, deburring tool, pipe wrenches, spanners, tape measure, spirit level, PTFE tape, solvent cement and cleaner, heat-proof gloves for welding.</p>"
+  },
+  {
+   "title": "Installing, testing and maintaining pipework",
+   "minutes": 20,
+   "html": "<h3>Laying pipes</h3><ol><li>Locate existing services before digging: ask the owner, check drawings, use a detector if available.</li><li>Dig trenches to the specified depth: deep enough to protect pipes from traffic, ploughing and sun.</li><li>Remove sharp stones; bed the pipe on sand or fine soil.</li><li>Lay PVC with sockets facing uphill or towards the supply as practice requires; snake HDPE slightly to allow for expansion and contraction.</li><li>Install thrust blocks (concrete) at bends, tees and end caps on larger rigid pipelines, so pressure does not push fittings apart.</li><li>Fit air valves at high points and drain valves at low points.</li><li>Backfill with fine soil around the pipe first, then the rest, compacting lightly in layers. Leave joints exposed until testing is done.</li></ol><h4>Pressure testing</h4><ul><li>Flush the line to remove dirt.</li><li>Close the end, fill slowly with water while releasing air.</li><li>Raise pressure to the test pressure specified (often higher than working pressure but never above the pipe class).</li><li>Hold for the specified time; watch the gauge and inspect joints. A falling gauge means a leak.</li><li>Release pressure before repairing anything.</li></ul><h4>Finding and fixing faults</h4><table><tr><th>Symptom</th><th>Possible cause</th></tr><tr><td>Low pressure at the end</td><td>Pipe too small, leak, blocked filter, partly closed valve, air lock</td></tr><tr><td>Banging pipes</td><td>Water hammer from fast-closing valves; air in lines</td></tr><tr><td>Wet patch in the ground</td><td>Leaking joint or cracked pipe</td></tr><tr><td>Dripping tap or trough valve</td><td>Worn washer or seat</td></tr></table><p>Use a repair coupling or compression slip coupling for cracked pipe; cut out the damaged part cleanly first.</p><h4>Safety</h4><p>Barricade trenches; deep trenches need shoring. Never work on a pressurised pipe. Keep electricity away from water work, and leave electrical connections to qualified electricians.</p><h4>Key points</h4><ul><li>10 m of height gives about 1 bar; friction reduces pressure along pipes.</li><li>Close valves slowly to prevent water hammer.</li><li>Choose pipe material, size and pressure class for the job.</li><li>Join pipes correctly and allow solvent cement to cure.</li><li>Pressure test with joints exposed and protect drinking water from backflow.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "About how much pressure does 10 m of height give?",
+   "options": [
+    {
+     "text": "0.1 bar",
+     "correct": false
+    },
+    {
+     "text": "1 bar",
+     "correct": true
+    },
+    {
+     "text": "10 bar",
+     "correct": false
+    },
+    {
+     "text": "100 bar",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What causes water hammer?",
+   "options": [
+    {
+     "text": "Air valves",
+     "correct": false
+    },
+    {
+     "text": "Wide pipes",
+     "correct": false
+    },
+    {
+     "text": "Slow-closing valves",
+     "correct": false
+    },
+    {
+     "text": "Stopping moving water suddenly by closing a valve quickly",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which pipe is flexible, UV-resistant and ideal for rough farm ground?",
+   "options": [
+    {
+     "text": "HDPE (poly pipe)",
+     "correct": true
+    },
+    {
+     "text": "uPVC",
+     "correct": false
+    },
+    {
+     "text": "Copper",
+     "correct": false
+    },
+    {
+     "text": "Cast iron",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are thrust blocks installed on larger rigid pipelines?",
+   "options": [
+    {
+     "text": "To support the trench",
+     "correct": false
+    },
+    {
+     "text": "To filter water",
+     "correct": false
+    },
+    {
+     "text": "So pressure does not push fittings apart at bends and ends",
+     "correct": true
+    },
+    {
+     "text": "To mark the pipe route",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During a pressure test, what does a falling gauge mean?",
+   "options": [
+    {
+     "text": "The pipe is too big",
+     "correct": false
+    },
+    {
+     "text": "There is a leak",
+     "correct": true
+    },
+    {
+     "text": "The test is passed",
+     "correct": false
+    },
+    {
+     "text": "There is too much air",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Joints should be left exposed until the pressure test is done.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A drinking water line may be connected directly to a fertiliser system if a tap is fitted.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which can cause low pressure at the end of a pipeline? (select all that apply)",
+   "options": [
+    {
+     "text": "A pipe that is too small",
+     "correct": true
+    },
+    {
+     "text": "A leak",
+     "correct": true
+    },
+    {
+     "text": "An air lock",
+     "correct": true
+    },
+    {
+     "text": "A correctly sized, clean, open system",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-14609",
+ "title": "Participate in management of conflict",
+ "lessons": [
+  {
+   "title": "Understanding conflict",
+   "minutes": 20,
+   "html": "<h3>Conflict is normal</h3>\n<p>Wherever people share land, water, grazing, money or power, conflict will happen. In land care and agricultural projects common examples are: disputes over grazing camps and stray livestock; upstream irrigators taking water that downstream users need; disagreements about who benefits from a project's income; tension between a committee and members; and boundary disputes between neighbours. Conflict is not always bad. Handled well, it brings problems into the open and can lead to better decisions. Handled badly, it destroys projects and relationships, and can turn violent.</p>\n<h4>Sources of conflict</h4>\n<ul><li><strong>Resources</strong> – scarce water, land, grazing, funding.</li>\n<li><strong>Interests</strong> – different needs and goals.</li>\n<li><strong>Values</strong> – different beliefs about what is right, such as the role of women in leadership or the value of wildlife.</li>\n<li><strong>Information</strong> – misunderstanding, rumours, missing or conflicting data.</li>\n<li><strong>Relationships</strong> – history of mistrust, personality clashes.</li>\n<li><strong>Structure</strong> – unclear roles, unequal power, unfair procedures.</li></ul>\n<h4>Positions and interests</h4>\n<p>A <strong>position</strong> is what someone says they want (\"The upstream farm must stop irrigating\"). An <strong>interest</strong> is why they want it (\"We need enough water for our cattle in winter\"). Interests often overlap even when positions clash, and solutions are found by working with interests.</p>\n<h4>How conflict escalates</h4>\n<p>Conflict often moves from disagreement, to personalisation (blaming people), to wider involvement (taking sides), to hostility and possibly violence. The earlier it is addressed, the easier it is to resolve. Watch for warning signs: people stop attending meetings, rumours spread, groups meet separately, threats are made.</p>"
+  },
+  {
+   "title": "Approaches and skills for managing conflict",
+   "minutes": 20,
+   "html": "<h3>Conflict styles</h3>\n<table><tr><th>Style</th><th>Description</th><th>When useful</th></tr>\n<tr><td>Avoiding</td><td>Withdrawing from the issue</td><td>Trivial issues, or to cool down first</td></tr>\n<tr><td>Accommodating</td><td>Giving in to the other side</td><td>When the issue matters more to them</td></tr>\n<tr><td>Competing</td><td>Pushing your own position</td><td>Urgent safety or legal matters</td></tr>\n<tr><td>Compromising</td><td>Each side gives something up</td><td>When time is short and a fair split is acceptable</td></tr>\n<tr><td>Collaborating</td><td>Working together for a solution that meets both sides' interests</td><td>Important, long-term relationships, as in community projects</td></tr></table>\n<h3>Key skills</h3>\n<ul><li><strong>Active listening</strong> – give full attention, paraphrase (\"So you are saying the cattle break into your field at night…\"), and check understanding.</li>\n<li><strong>Neutral language</strong> – describe behaviour and impact, not personal attacks.</li>\n<li><strong>Questioning</strong> – open questions to uncover interests.</li>\n<li><strong>Managing emotions</strong> – stay calm, allow people to express feelings, take breaks.</li></ul>\n<h3>A problem-solving process</h3>\n<ol><li>Prepare: understand the parties, issues and history. Choose a neutral venue and time.</li>\n<li>Agree ground rules: respect, one person speaks at a time, confidentiality where needed.</li>\n<li>Each party explains their view without interruption.</li>\n<li>Identify interests and common ground.</li>\n<li>Generate options together.</li>\n<li>Evaluate options against fair criteria (law, custom, technical facts).</li>\n<li>Agree and write down actions, responsibilities and follow-up dates.</li></ol>\n<h3>Third-party help and limits</h3>\n<p>If you are not neutral, or the conflict is serious, involve a mediator: a respected elder, traditional authority, extension manager or professional mediator. Labour disputes follow the Labour Relations Act processes, and threats or violence must be reported to the police. Know your limits and refer.</p>\n<h4>Key points</h4>\n<ul><li>Conflict is normal; early, fair handling prevents escalation.</li>\n<li>Look beyond positions to underlying interests.</li>\n<li>Choose a conflict style to suit the situation; collaboration suits long-term community relationships.</li>\n<li>Use active listening, neutral language and a structured problem-solving process.</li>\n<li>Refer serious or violent conflicts to mediators, labour processes or police.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an interest in a conflict?",
+   "options": [
+    {
+     "text": "What someone says they want",
+     "correct": false
+    },
+    {
+     "text": "Why they want it, the underlying need",
+     "correct": true
+    },
+    {
+     "text": "The name of the mediator",
+     "correct": false
+    },
+    {
+     "text": "The legal ruling",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which conflict style suits important long-term community relationships?",
+   "options": [
+    {
+     "text": "Avoiding",
+     "correct": false
+    },
+    {
+     "text": "Competing",
+     "correct": false
+    },
+    {
+     "text": "Accommodating",
+     "correct": false
+    },
+    {
+     "text": "Collaborating",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is a warning sign that a conflict is escalating?",
+   "options": [
+    {
+     "text": "Rumours spread and groups meet separately",
+     "correct": true
+    },
+    {
+     "text": "Everyone attends meetings",
+     "correct": false
+    },
+    {
+     "text": "Members ask questions openly",
+     "correct": false
+    },
+    {
+     "text": "Minutes are kept",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is paraphrasing in active listening?",
+   "options": [
+    {
+     "text": "Interrupting with your own view",
+     "correct": false
+    },
+    {
+     "text": "Ignoring emotions",
+     "correct": false
+    },
+    {
+     "text": "Repeating back the other person's point in your own words to check understanding",
+     "correct": true
+    },
+    {
+     "text": "Writing the minutes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if a conflict involves threats of violence?",
+   "options": [
+    {
+     "text": "Ignore it",
+     "correct": false
+    },
+    {
+     "text": "Report it to the police and involve appropriate authorities",
+     "correct": true
+    },
+    {
+     "text": "Take sides",
+     "correct": false
+    },
+    {
+     "text": "Wait for it to pass",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Conflict can sometimes lead to better decisions when handled well.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Compromising is always the best conflict style in every situation.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are steps in a problem-solving process for conflict? (select all that apply)",
+   "options": [
+    {
+     "text": "Agree ground rules",
+     "correct": true
+    },
+    {
+     "text": "Identify interests and common ground",
+     "correct": true
+    },
+    {
+     "text": "Decide the winner before the meeting",
+     "correct": false
+    },
+    {
+     "text": "Write down agreed actions and follow-up dates",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

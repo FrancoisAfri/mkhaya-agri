@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-114378",
+ "title": "Slaughter and dress game",
+ "lessons": [
+  {
+   "title": "Harvesting game in the field",
+   "minutes": 15,
+   "html": "<h3>Game meat is different</h3><p>Game such as springbok, kudu, impala, blesbok and wildebeest are not slaughtered in a lairage. They are usually shot in the veld. This is called <strong>game harvesting</strong> or culling. After that, the carcass must be handled quickly and cleanly so that the meat stays safe. Game meat for sale must follow the Meat Safety Act 40 of 2000 and be inspected.</p><h4>Who does what</h4><ul><li>Only trained, licensed marksmen shoot the animals. Firearms are controlled by the Firearms Control Act 60 of 2000.</li><li>The harvesting team bleeds, guts and loads the carcasses.</li><li>The carcasses go to a registered field facility and then to a registered game abattoir or processing plant.</li></ul><h4>A clean, humane kill</h4><ul><li>The marksman aims at the head or neck so the animal dies at once. This is humane and also keeps the meat clean.</li><li>A belly shot is not acceptable. It causes suffering and spills gut contents into the meat.</li><li>Wounded animals must be followed up and killed quickly.</li></ul><h4>Firearm safety</h4><ul><li>Never walk in front of a shooter.</li><li>Stay in the vehicle or where the team leader tells you.</li><li>Treat every firearm as loaded.</li><li>Wear bright clothing if the team leader says so.</li></ul><h4>Bleeding in the field</h4><ul><li>Bleed the animal as soon as possible after it is shot, with a clean, sharp knife.</li><li>Hang it or lay it head-down on a slope so the blood drains.</li><li>Write the tag number, species, time and place on the record and tag the carcass.</li></ul><p>Follow the team leader.</p>"
+  },
+  {
+   "title": "Field evisceration and transport",
+   "minutes": 15,
+   "html": "<h3>Gutting the carcass</h3><p>Many game carcasses are gutted (eviscerated) in the field or at a field slaughter facility soon after being shot. Warm guts make the meat spoil quickly.</p><ol><li>Wear clean gloves and use a clean, sharp knife. Have clean water to wash hands and knives.</li><li>Tie the oesophagus and the rectum so nothing leaks.</li><li>Open the belly carefully. Do not cut the stomach or intestines.</li><li>Remove the stomach and intestines. Dispose of them as your team leader says.</li><li>Keep the heart, lungs and liver with the carcass, tagged with the same number, for the meat inspector.</li><li>Keep the inside of the carcass open so it can cool.</li></ol><h4>Keeping the carcass clean</h4><ul><li>Do not drag carcasses on the ground.</li><li>Do not put carcasses in sand, dust or water.</li><li>Do not wash the inside with dirty water.</li><li>Keep flies away as much as you can.</li></ul><h4>Transport</h4><ul><li>Hang carcasses in the vehicle if possible, or lay them on clean racks with space for air.</li><li>Do not stack carcasses on top of each other.</li><li>Keep them in shade and move them to the chiller as soon as possible.</li><li>Keep the skin on until the carcass reaches the facility, unless your procedure says otherwise.</li></ul><h4>Records</h4><p>Each carcass has a tag. The record shows species, tag number, time shot, time gutted, place and the shooter's name. These records help with traceability.</p><p>Clean knives often.</p><p>Ask your team leader if you are not sure how to gut an animal. Work carefully.</p>"
+  },
+  {
+   "title": "Dressing and inspection at the facility",
+   "minutes": 15,
+   "html": "<h3>At the game abattoir</h3><h4>Receiving</h4><ul><li>Check tags and records for every carcass.</li><li>Hang carcasses on the rail.</li><li>The meat inspector checks every carcass and its organs.</li></ul><h4>Skinning</h4><ol><li>Remove the head and feet at the correct joints.</li><li>Open the skin with the knife edge pointing outwards.</li><li>Pull the skin off without letting the hair side touch the meat.</li><li>Wash hands and sterilise the knife after touching the outside of the skin.</li><li>Keep the skin and horns if the procedure says so; they may be sold.</li></ol><h4>Trimming</h4><ul><li>Trim bullet wounds, blood clots, bruised meat, hair and dirt.</li><li>Bullet wounds can have small pieces of metal. Trim well around them.</li><li>Trim first, then wash.</li><li>Condemned material goes into the condemned bin.</li></ul><h4>Chilling</h4><p>Move dressed carcasses into the chiller quickly. Hang them with space between them. The carcass must reach the temperature in the facility's procedure before despatch.</p><h4>Safety</h4><ul><li>Some game diseases can spread to people. Wear gloves and wash your hands.</li><li>Report unusual signs in the carcass or organs.</li><li>Use a cut-resistant glove and keep knives sharp.</li><li>Horns are sharp; handle heads with care.</li></ul><p>Write down each carcass.</p><p>Keep the work area clean.</p><h4>Key points</h4><ul><li>Game is shot in the veld by trained, licensed marksmen aiming for the head or neck.</li><li>Bleed and gut carcasses quickly, without cutting the gut.</li><li>Tag every carcass and keep its organs with it for inspection.</li><li>Do not drag or stack carcasses; get them cool fast.</li><li>Trim bullet wounds well and trim before washing.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Where should the marksman aim to kill game cleanly?",
+   "options": [
+    {
+     "text": "The belly",
+     "correct": false
+    },
+    {
+     "text": "The head or neck",
+     "correct": true
+    },
+    {
+     "text": "The back legs",
+     "correct": false
+    },
+    {
+     "text": "Any part of the body",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should game be gutted soon after being shot?",
+   "options": [
+    {
+     "text": "Warm guts make the meat spoil quickly",
+     "correct": true
+    },
+    {
+     "text": "To make the carcass heavier",
+     "correct": false
+    },
+    {
+     "text": "So the skin comes off easier",
+     "correct": false
+    },
+    {
+     "text": "It is not important",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which Act controls the use of firearms?",
+   "options": [
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    },
+    {
+     "text": "Firearms Control Act 60 of 2000",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Animal Identification Act 6 of 2002",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done around bullet wounds?",
+   "options": [
+    {
+     "text": "Leave them for the customer",
+     "correct": false
+    },
+    {
+     "text": "Trim well around them because there may be metal pieces",
+     "correct": true
+    },
+    {
+     "text": "Wash them only",
+     "correct": false
+    },
+    {
+     "text": "Cover them with fat",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should game carcasses be transported?",
+   "options": [
+    {
+     "text": "Stacked on top of each other",
+     "correct": false
+    },
+    {
+     "text": "Dragged behind the vehicle",
+     "correct": false
+    },
+    {
+     "text": "Hanging or on clean racks with space for air, in shade",
+     "correct": true
+    },
+    {
+     "text": "In the sun to dry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to walk in front of a shooter if you are quick.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Each game carcass should be tagged and its organs kept with it for inspection.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be on the record for each carcass? (select all that apply)",
+   "options": [
+    {
+     "text": "Species and tag number",
+     "correct": true
+    },
+    {
+     "text": "Time shot and time gutted",
+     "correct": true
+    },
+    {
+     "text": "The place and the shooter's name",
+     "correct": true
+    },
+    {
+     "text": "The colour of the vehicle",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

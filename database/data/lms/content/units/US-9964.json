@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-9964",
+ "title": "Apply health and safety to a work area",
+ "lessons": [
+  {
+   "title": "Spotting hazards in your work area",
+   "minutes": 15,
+   "html": "<h3>Hazard and risk</h3><p>A <strong>hazard</strong> is anything that can hurt you or damage property. A <strong>risk</strong> is how likely it is to happen and how bad it would be. A loose cow in the kraal is a hazard. Walking in front of her in a narrow passage makes the risk high.</p><h3>Types of hazards on a farm</h3><table><tr><th>Type</th><th>Examples</th></tr><tr><td>Machines</td><td>Tractor PTO shafts, augers, chainsaws, belts and pulleys</td></tr><tr><td>Chemicals</td><td>Sprays, dips, fuel, cleaning products</td></tr><tr><td>Animals</td><td>Kicks, horns, bites, bulls, snakes, bees</td></tr><tr><td>Electrical</td><td>Damaged cables, wet plugs, overloaded sockets</td></tr><tr><td>Physical</td><td>Slippery floors, holes, heavy lifting, noise, heat and sun</td></tr><tr><td>Fire</td><td>Dry veld, fuel stores, welding near hay</td></tr></table><h3>Look before you work</h3><p>Every day, walk through your work area and ask: what could hurt someone here?</p><ul><li>Are guards in place on machines?</li><li>Are walkways clear of tools, hoses and spills?</li><li>Are chemicals stored and labelled correctly?</li><li>Is there enough light?</li><li>Is the fire extinguisher in its place and not blocked?</li><li>Is everyone wearing the right protective clothing?</li></ul><h3>What to do with a hazard</h3><ol><li>If it is safe and simple, fix it yourself, for example pick up a hose lying across the walkway.</li><li>If you cannot fix it, warn others (put up a sign or barrier).</li><li>Report it to your supervisor or health and safety representative straight away.</li></ol><p>Under the Occupational Health and Safety Act 85 of 1993 your employer must provide a safe workplace, and you must work safely and report unsafe conditions. You have a part to play.</p><h4>A farm example</h4><p>In the feed store, a worker sees that the grain auger guard is missing. He does not use the auger, puts a warning sign on the switch and tells his supervisor straight away. The guard is fixed before anyone gets hurt. That is how hazard spotting works.</p>"
+  },
+  {
+   "title": "Emergencies, illness and injury",
+   "minutes": 20,
+   "html": "<h3>Know before it happens</h3><p>In an emergency there is no time to learn. Know these things now:</p><ul><li>Where the fire extinguishers, first aid box and emergency exits are.</li><li>Who the first aider is.</li><li>The emergency numbers on the notice board.</li><li>Where the assembly point is.</li><li>How to switch off the electricity and the machines in your area.</li></ul><h3>When an emergency happens</h3><ol><li><strong>Raise the alarm</strong>: shout, ring the bell or blow the whistle, and tell your supervisor.</li><li><strong>Make it safe</strong>: switch off machines and power if you can do it safely.</li><li><strong>Get people out</strong>: go to the assembly point and help others. Do not stop to collect belongings.</li><li><strong>Fight a small fire only if trained and safe</strong>: use the right extinguisher and keep your escape route behind you. Never fight a fire that is growing fast.</li><li><strong>Do not go back in</strong> until the person in charge says it is safe.</li></ol><p>Limiting damage means stopping it from getting worse: closing a valve on a leaking tank, moving animals away from a veld fire, or putting sand on a fuel spill, but only when it is safe for you.</p><h3>Illness or injury at work</h3><ol><li>Check for danger to yourself before helping. Do not become a second casualty.</li><li>Call the first aider and your supervisor.</li><li>Do not move a badly injured person unless there is danger, such as fire.</li><li>If you are trained, give basic first aid while you wait. Hands-on first aid training from an accredited provider is needed before you give first aid.</li><li>Report every injury, even small cuts. It must be recorded, and you may be covered under COIDA.</li></ol><h3>Never</h3><ul><li>Never hide an injury or work on while hurt.</li><li>Never give someone medicine from your own bag.</li></ul><h4>Key points</h4><ul><li>A hazard can cause harm; risk is how likely and how serious.</li><li>Check your work area daily and report hazards.</li><li>Know where the extinguisher, first aid box and assembly point are.</li><li>In an emergency: raise the alarm, make safe, get out.</li><li>Report every injury and illness at work.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is a hazard?",
+   "options": [
+    {
+     "text": "A safety sign",
+     "correct": false
+    },
+    {
+     "text": "A first aid box",
+     "correct": false
+    },
+    {
+     "text": "A report form",
+     "correct": false
+    },
+    {
+     "text": "Anything that can hurt a person or damage property",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first thing you should do when you discover a fire?",
+   "options": [
+    {
+     "text": "Raise the alarm",
+     "correct": true
+    },
+    {
+     "text": "Collect your bag",
+     "correct": false
+    },
+    {
+     "text": "Take a photo",
+     "correct": false
+    },
+    {
+     "text": "Go back to work",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "A hose lying across a walkway is easy to move safely. What should you do?",
+   "options": [
+    {
+     "text": "Leave it for the supervisor",
+     "correct": false
+    },
+    {
+     "text": "Move it and keep the walkway clear",
+     "correct": true
+    },
+    {
+     "text": "Step over it",
+     "correct": false
+    },
+    {
+     "text": "Put a box on it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should you go back into a building after an evacuation?",
+   "options": [
+    {
+     "text": "When you feel ready",
+     "correct": false
+    },
+    {
+     "text": "When the alarm stops",
+     "correct": false
+    },
+    {
+     "text": "When the person in charge says it is safe",
+     "correct": true
+    },
+    {
+     "text": "After five minutes",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Before you help an injured person, what must you check?",
+   "options": [
+    {
+     "text": "Their name",
+     "correct": false
+    },
+    {
+     "text": "What time it is",
+     "correct": false
+    },
+    {
+     "text": "That there is no danger to yourself",
+     "correct": true
+    },
+    {
+     "text": "Their payslip",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You only need to report injuries that need a doctor.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Workers have a duty under the OHS Act to work safely and report unsafe conditions.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are farm hazards? (select all that apply)",
+   "options": [
+    {
+     "text": "A closed first aid box on the wall",
+     "correct": false
+    },
+    {
+     "text": "A wet floor in the dairy",
+     "correct": true
+    },
+    {
+     "text": "A PTO shaft without a guard",
+     "correct": true
+    },
+    {
+     "text": "Dry veld near a welding job",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

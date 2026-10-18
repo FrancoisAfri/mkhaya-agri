@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-244041",
+ "title": "Explain basic horse behaviour and body structure",
+ "lessons": [
+  {
+   "title": "How horses behave",
+   "minutes": 15,
+   "html": "<h3>The horse is a prey animal</h3>\n<p>In nature, lions and other predators hunt horses and zebras. So the horse is always watching for danger. When it is scared, it wants to <strong>run away</strong>. If it cannot run, it may kick, bite or rear.</p>\n<h4>What this means for you</h4>\n<ul>\n<li>Move calmly and slowly around horses.</li>\n<li>Speak softly before you come close, so the horse knows you are there.</li>\n<li>Do not come from behind. The horse has a blind spot right behind it and right in front of its nose.</li>\n<li>Always walk up to the shoulder.</li>\n</ul>\n<h3>Horses live in herds</h3>\n<p>Horses like to be with other horses. A horse alone can get stressed. In a herd, there is a leader, and some horses are higher in rank than others.</p>\n<h3>Body language</h3>\n<table><tr><th>What you see</th><th>What it means</th></tr>\n<tr><td>Ears forward</td><td>Interested, looking at something</td></tr>\n<tr><td>Ears flat back</td><td>Angry. Watch out for a bite or kick.</td></tr>\n<tr><td>Ears turning</td><td>Listening</td></tr>\n<tr><td>Head low, lip loose</td><td>Relaxed</td></tr>\n<tr><td>Eyes wide, white showing</td><td>Scared</td></tr>\n<tr><td>Tail swishing hard</td><td>Annoyed or in pain</td></tr>\n<tr><td>Hind leg lifted</td><td>Could kick, or is resting</td></tr>\n<tr><td>Snorting, head high</td><td>Alarmed</td></tr></table>\n<h4>Stay safe</h4>\n<ul>\n<li>Never stand directly behind a horse.</li>\n<li>Never wrap the lead rope around your hand.</li>\n<li>Wear closed shoes or boots.</li>\n</ul>"
+  },
+  {
+   "title": "Knowing the horse's body and markings",
+   "minutes": 15,
+   "html": "<h3>Parts of the horse</h3>\n<p>You must know the names of the main parts of the horse so you can talk to your supervisor, the vet or the farrier.</p>\n<ul>\n<li><strong>Head:</strong> forehead, eyes, nostrils, muzzle, ears, poll (top of the head behind the ears).</li>\n<li><strong>Neck and mane.</strong></li>\n<li><strong>Withers:</strong> the high point at the bottom of the mane. We measure the horse's height here, in hands.</li>\n<li><strong>Back, loins, croup and tail.</strong></li>\n<li><strong>Shoulder, chest, belly and flank.</strong></li>\n<li><strong>Legs:</strong> knee (front leg), hock (back leg), cannon, fetlock, pastern and hoof.</li>\n</ul>\n<h3>Colours</h3>\n<ul>\n<li><strong>Bay:</strong> brown body with black mane, tail and lower legs.</li>\n<li><strong>Chestnut:</strong> red-brown all over, mane the same colour or lighter.</li>\n<li><strong>Black:</strong> all black.</li>\n<li><strong>Grey:</strong> white and black hairs; greys get lighter as they get older.</li>\n<li><strong>Dun, palomino and skewbald</strong> are other colours.</li>\n</ul>\n<h3>White markings</h3>\n<table><tr><th>On the face</th><th>On the legs</th></tr>\n<tr><td>Star: white spot on the forehead</td><td>Sock: white up to the fetlock</td></tr>\n<tr><td>Stripe: narrow white line down the face</td><td>Stocking: white up to the knee or hock</td></tr>\n<tr><td>Blaze: wide white line down the face</td><td>Coronet: thin white ring above the hoof</td></tr>\n<tr><td>Snip: white between the nostrils</td><td></td></tr></table>\n<p>Horses can also have a brand, a microchip or a passport. These help to prove who the horse is.</p>"
+  },
+  {
+   "title": "Is the horse healthy or sick?",
+   "minutes": 15,
+   "html": "<h3>Check every horse every day</h3>\n<p>Look at each horse at least once in the morning and once in the afternoon. You are often the first person who sees that something is wrong.</p>\n<h4>Signs of a healthy horse</h4>\n<ul>\n<li>Alert, ears moving, interested in what is around it.</li>\n<li>Eats and drinks well.</li>\n<li>Shiny coat and bright, clear eyes.</li>\n<li>Normal dung balls and clear or light yellow urine.</li>\n<li>Stands evenly on all four feet and walks without limping.</li>\n<li>Breathing slow and calm when resting.</li>\n<li>Gums pink and wet.</li>\n</ul>\n<h4>Signs of a sick horse</h4>\n<ul>\n<li>Dull, head hanging, stands away from other horses.</li>\n<li>Does not eat or drink.</li>\n<li>Pawing, rolling, looking at its belly (colic).</li>\n<li>Sweating when not working.</li>\n<li>Runny nose, cough or fast breathing.</li>\n<li>Limping or not wanting to put a foot down.</li>\n<li>Wounds, swelling or heat in the legs.</li>\n<li>No dung or very runny dung.</li>\n<li>Very thin, ribs showing.</li>\n</ul>\n<h3>What to do</h3>\n<ol>\n<li>Do not wait. Tell your supervisor straight away.</li>\n<li>Say what you saw: which horse, what signs, and when you saw them.</li>\n<li>Keep the horse calm and safe until help comes.</li>\n<li>Do not give any medicine unless the vet or your supervisor tells you to.</li>\n</ol>\n<h4>Key points</h4>\n<ul>\n<li>Horses are prey animals that run from danger.</li>\n<li>Ears flat back mean an angry horse; keep away from the back end.</li>\n<li>Know the parts, colours and markings of the horse.</li>\n<li>Check every horse at least twice a day.</li>\n<li>Tell your supervisor straight away if a horse looks sick.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does a scared horse usually want to do first?",
+   "options": [
+    {
+     "text": "Run away",
+     "correct": true
+    },
+    {
+     "text": "Lie down",
+     "correct": false
+    },
+    {
+     "text": "Eat",
+     "correct": false
+    },
+    {
+     "text": "Roll",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What do ears flat back mean?",
+   "options": [
+    {
+     "text": "The horse is sleepy",
+     "correct": false
+    },
+    {
+     "text": "The horse is listening",
+     "correct": false
+    },
+    {
+     "text": "The horse is angry",
+     "correct": true
+    },
+    {
+     "text": "The horse is hungry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where do we measure the height of a horse?",
+   "options": [
+    {
+     "text": "At the poll",
+     "correct": false
+    },
+    {
+     "text": "At the withers",
+     "correct": true
+    },
+    {
+     "text": "At the croup",
+     "correct": false
+    },
+    {
+     "text": "At the hoof",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a narrow white line down the face called?",
+   "options": [
+    {
+     "text": "A sock",
+     "correct": false
+    },
+    {
+     "text": "A star",
+     "correct": false
+    },
+    {
+     "text": "A coronet",
+     "correct": false
+    },
+    {
+     "text": "A stripe",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do first if a horse looks sick?",
+   "options": [
+    {
+     "text": "Tell your supervisor straight away",
+     "correct": true
+    },
+    {
+     "text": "Give it some medicine",
+     "correct": false
+    },
+    {
+     "text": "Ride it to see how it feels",
+     "correct": false
+    },
+    {
+     "text": "Wait for a few days",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "You should always walk up to a horse from directly behind.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A healthy horse has pink, wet gums.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a sick horse? (select all that apply)",
+   "options": [
+    {
+     "text": "Does not eat or drink",
+     "correct": true
+    },
+    {
+     "text": "Pawing and rolling",
+     "correct": true
+    },
+    {
+     "text": "Limping",
+     "correct": true
+    },
+    {
+     "text": "Shiny coat and bright eyes",
+     "correct": false
+    },
+    {
+     "text": "Ears moving and alert",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

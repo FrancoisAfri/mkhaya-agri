@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-119568",
+ "title": "Demonstrate basic occupational health and knowledge pertaining to the principles of handling of materials in a workplace",
+ "lessons": [
+  {
+   "title": "Health and safety at work",
+   "minutes": 15,
+   "html": "<h3>Why health and safety matters</h3> <p>Every year farm workers get hurt lifting heavy loads, dropping things on their feet or being kicked by animals. Most injuries can be prevented. In South Africa the Occupational Health and Safety Act 85 of 1993 (the OHS Act) says the employer must provide a safe workplace, and workers must work safely too.</p> <h4>Your duties as a worker</h4> <ul> <li>Follow the safety rules and instructions.</li> <li>Wear and look after the protective clothing (PPE) you are given.</li> <li>Report hazards, injuries and near-misses to your supervisor.</li> <li>Do not use machines or tools you have not been trained on.</li> <li>Do not come to work drunk or under the influence of drugs.</li> </ul> <h4>The employer's duties</h4> <ul> <li>Give safe tools, equipment and a safe workplace.</li> <li>Give training and information.</li> <li>Give PPE free of charge where it is needed.</li> <li>Have a first aid box and someone trained in first aid.</li> </ul> <h4>What is a hazard?</h4> <p>A hazard is anything that can hurt you. In a stable yard: a wet slippery floor, a heavy bag of feed, a broken wheelbarrow, a horse that kicks, a pitchfork left lying with the prongs up.</p> <h4>Your right to refuse</h4> <p>If a job is clearly dangerous, stop and tell your supervisor before you carry on. Ask for help or the right equipment.</p> <h4>Protective clothing for handling materials</h4> <table><tr><th>PPE</th><th>Protects against</th></tr> <tr><td>Safety boots</td><td>Dropped bags, horse hooves, nails</td></tr> <tr><td>Gloves</td><td>Splinters, wire, rough bags, chemicals</td></tr> <tr><td>Dust mask</td><td>Hay and shavings dust</td></tr> <tr><td>Overall</td><td>Dirt and chemical splashes</td></tr></table> <p>Check your PPE before you use it. A glove with a hole does not protect you. Ask for a new one.</p>"
+  },
+  {
+   "title": "Lifting, carrying and stacking materials safely",
+   "minutes": 15,
+   "html": "<h3>Before you lift</h3> <ol> <li>Look at the load. How heavy is it? Is it sharp, wet or leaking?</li> <li>Look at the path. Remove things you could trip over. Open the doors first.</li> <li>Decide: can I lift it alone, or do I need help or a trolley or wheelbarrow?</li> </ol> <h4>How to lift</h4> <ol> <li>Stand close to the load, feet apart, one foot slightly forward.</li> <li>Bend your knees, not your back. Keep your back straight.</li> <li>Get a good grip with both hands.</li> <li>Lift smoothly using your leg muscles. Do not jerk.</li> <li>Keep the load close to your body.</li> <li>Do not twist your body. Turn by moving your feet.</li> <li>Put the load down the same way: bend your knees.</li> </ol> <h4>Carrying</h4> <ul> <li>Make sure you can see over the load.</li> <li>Use a wheelbarrow or trolley for feed bags and bales when you can.</li> <li>Two people carry long or heavy items. Agree who gives the count: \"one, two, three, lift\".</li> <li>Walk; do not run with a load.</li> </ul> <h4>Stacking</h4> <ul> <li>Put heavy bags at the bottom and lighter ones on top.</li> <li>Stack bags crossways so the pile does not fall.</li> <li>Do not stack higher than is safe; you must be able to reach the top without climbing on the pile.</li> <li>Stack hay on pallets, off the ground, in a dry place.</li> <li>Keep walkways clear.</li> </ul> <h4>Tools in the yard</h4> <p>Hang forks, rakes and spades on the wall, prongs facing the wall. Never leave them on the ground. Empty and tip up wheelbarrows after use.</p> <h4>If you get hurt</h4> <p>Stop working. Tell your supervisor at once, even if it seems small. A sore back can get worse. The injury must be written in the incident book. First aid must be given by a trained first aider; hands-on training from an accredited provider is needed to give first aid.</p> <h4>Key points</h4> <ul> <li>The OHS Act 85 of 1993 makes both employer and worker responsible for safety.</li> <li>Wear your PPE and report hazards and injuries.</li> <li>Bend your knees, keep your back straight and the load close.</li> <li>Do not twist; turn with your feet.</li> <li>Stack heavy at the bottom, keep walkways clear and hang tools up.</li> </ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which law covers health and safety at work in South Africa?",
+   "options": [
+    {
+     "text": "Animals Protection Act 71 of 1962",
+     "correct": false
+    },
+    {
+     "text": "Occupational Health and Safety Act 85 of 1993",
+     "correct": true
+    },
+    {
+     "text": "National Water Act 36 of 1998",
+     "correct": false
+    },
+    {
+     "text": "Meat Safety Act 40 of 2000",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should you lift a heavy feed bag?",
+   "options": [
+    {
+     "text": "Bend your back and keep legs straight",
+     "correct": false
+    },
+    {
+     "text": "Bend your knees and keep your back straight",
+     "correct": true
+    },
+    {
+     "text": "Twist while lifting",
+     "correct": false
+    },
+    {
+     "text": "Lift with one hand",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When carrying a load you need to turn. What should you do?",
+   "options": [
+    {
+     "text": "Twist your back",
+     "correct": false
+    },
+    {
+     "text": "Turn by moving your feet",
+     "correct": true
+    },
+    {
+     "text": "Drop the load",
+     "correct": false
+    },
+    {
+     "text": "Run",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a pitchfork be stored?",
+   "options": [
+    {
+     "text": "On the ground, prongs up",
+     "correct": false
+    },
+    {
+     "text": "Hung on the wall with prongs facing the wall",
+     "correct": true
+    },
+    {
+     "text": "In the horse's stable",
+     "correct": false
+    },
+    {
+     "text": "Leaning in the walkway",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Where should heavy bags go in a stack?",
+   "options": [
+    {
+     "text": "On top",
+     "correct": false
+    },
+    {
+     "text": "At the bottom",
+     "correct": true
+    },
+    {
+     "text": "In the middle",
+     "correct": false
+    },
+    {
+     "text": "On the walkway",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The employer must give needed protective clothing free of charge.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A small injury does not need to be reported.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are hazards in a stable yard? (select all that apply)",
+   "options": [
+    {
+     "text": "A wet slippery floor",
+     "correct": true
+    },
+    {
+     "text": "A pitchfork lying with the prongs up",
+     "correct": true
+    },
+    {
+     "text": "A neatly hung rake",
+     "correct": false
+    },
+    {
+     "text": "A broken wheelbarrow",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

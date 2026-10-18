@@ -1,0 +1,178 @@
+{
+  "unit_key": "MOD-653308-000-00-00-KM-03",
+  "title": "Vehicle and Equipment Fundamentals",
+  "lessons": [
+    {
+      "title": "The main parts of a tractor",
+      "minutes": 15,
+      "html": "<h3>What a tractor does</h3><p>A tractor is a power unit. It pulls, pushes, lifts and drives farm implements such as ploughs, planters, sprayers, balers and trailers. To do this it has an engine, a drivetrain, a hydraulic system, a power take-off (PTO) and an operator station.</p><h4>Main systems</h4><ul><li><strong>Engine:</strong> almost always a diesel engine. It makes power by burning fuel.</li><li><strong>Clutch:</strong> connects and disconnects the engine from the gearbox.</li><li><strong>Gearbox (transmission):</strong> gives different speeds and directions.</li><li><strong>Differential and final drives:</strong> send power to the wheels and let them turn at different speeds in corners. A diff lock makes both wheels turn together in mud.</li><li><strong>Front axle:</strong> steers the tractor. On four-wheel-drive (4WD or MFWD) tractors it is also driven.</li><li><strong>Brakes:</strong> stop the tractor. Rear brakes can often be used separately to help turn.</li><li><strong>Hydraulics:</strong> lift and lower implements on the three-point linkage and work cylinders on loaders and tippers.</li><li><strong>PTO:</strong> a spinning shaft at the back that drives implements such as slashers and balers.</li><li><strong>Electrical system:</strong> battery, alternator, starter, lights and instruments.</li><li><strong>Cab or ROPS:</strong> the operator's station with a rollover protective structure.</li></ul><h4>Two-wheel drive or four-wheel drive</h4><p>A 2WD tractor drives only the rear wheels. It is cheaper and fine for light work. A 4WD tractor drives the front wheels too, which gives better grip for heavy ploughing and wet lands.</p><h4>Instruments and the hour meter</h4><p>The dashboard shows the engine speed, oil pressure and temperature warnings, the fuel level and the hour meter. Tractors are serviced by engine hours, not by kilometres, so always write the hour meter reading on the job card before you start work.</p>"
+    },
+    {
+      "title": "Other farm equipment and safe basics",
+      "minutes": 15,
+      "html": "<h3>Equipment you will see in the workshop</h3><p>Tractor mechanics also work on equipment used with tractors and on other farm machines.</p><table><tr><th>Equipment</th><th>Use</th></tr><tr><td>Plough and disc harrow</td><td>Turning and breaking up soil</td></tr><tr><td>Planter</td><td>Planting maize, soya and other seed in rows</td></tr><tr><td>Boom sprayer</td><td>Spraying crops</td></tr><tr><td>Slasher (bossiekapper)</td><td>Cutting grass and bush, driven by PTO</td></tr><tr><td>Baler</td><td>Making hay bales</td></tr><tr><td>Front-end loader</td><td>Lifting and moving soil, manure and bales</td></tr><tr><td>Trailer</td><td>Carrying loads on the farm and road</td></tr></table><h4>Implement connections</h4><p>Implements connect in three main ways: the three-point linkage (two lower arms and a top link), the drawbar (a pin for trailed equipment), and the PTO shaft. Hydraulic hoses connect with quick couplers. Some modern implements also have electrical or data plugs.</p><h4>Safety basics around tractors</h4><ul><li>The PTO is very dangerous. It can grab loose clothing and pull a person in within a second. Keep guards in place and never step over a turning shaft.</li><li>Tractors can roll over on slopes and riverbanks. The ROPS and seatbelt save lives; never remove the ROPS.</li><li>Never start a tractor from the ground. It may be in gear and run over you.</li><li>Lower implements to the ground before working on the tractor.</li><li>Only one person on a tractor unless there is a proper passenger seat.</li></ul><h4>Reading the operator's manual</h4><p>Every tractor has an operator's manual and a workshop or service manual. The operator's manual shows controls, daily checks and service intervals. The workshop manual has repair steps, specifications and torques. Always use the right manual for the model and serial number.</p><h4>Key points</h4><ul><li>A tractor has an engine, drivetrain, hydraulics, PTO, electrics and an operator station.</li><li>The differential lets wheels turn at different speeds; the diff lock locks them.</li><li>Implements connect by three-point linkage, drawbar and PTO.</li><li>Keep PTO guards on and never remove the ROPS.</li><li>Use the correct manual for the tractor model.</li></ul>"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "question": "What does the clutch do?",
+      "options": [
+        {
+          "text": "Steers the tractor",
+          "correct": false
+        },
+        {
+          "text": "Connects and disconnects the engine from the gearbox",
+          "correct": true
+        },
+        {
+          "text": "Charges the battery",
+          "correct": false
+        },
+        {
+          "text": "Lifts the implement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What lets the rear wheels turn at different speeds in a corner?",
+      "options": [
+        {
+          "text": "The differential",
+          "correct": true
+        },
+        {
+          "text": "The PTO",
+          "correct": false
+        },
+        {
+          "text": "The radiator",
+          "correct": false
+        },
+        {
+          "text": "The top link",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which implement is usually driven by the PTO?",
+      "options": [
+        {
+          "text": "Trailer",
+          "correct": false
+        },
+        {
+          "text": "Plough",
+          "correct": false
+        },
+        {
+          "text": "Slasher",
+          "correct": true
+        },
+        {
+          "text": "Drawbar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "What is the three-point linkage made of?",
+      "options": [
+        {
+          "text": "Three hydraulic hoses",
+          "correct": false
+        },
+        {
+          "text": "Three wheels",
+          "correct": false
+        },
+        {
+          "text": "Three PTO shafts",
+          "correct": false
+        },
+        {
+          "text": "Two lower arms and a top link",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "question": "Which manual contains repair steps and torques?",
+      "options": [
+        {
+          "text": "The workshop or service manual",
+          "correct": true
+        },
+        {
+          "text": "The operator's manual only",
+          "correct": false
+        },
+        {
+          "text": "A newspaper",
+          "correct": false
+        },
+        {
+          "text": "The parts price list",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "You may step over a turning PTO shaft if you are careful.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A 4WD tractor gives better grip for heavy ploughing and wet lands.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "multi_select",
+      "question": "Which are safe practices around tractors? (select all that apply)",
+      "options": [
+        {
+          "text": "Never start a tractor from the ground",
+          "correct": true
+        },
+        {
+          "text": "Lower implements before working on the tractor",
+          "correct": true
+        },
+        {
+          "text": "Remove the ROPS to fit in sheds",
+          "correct": false
+        },
+        {
+          "text": "Keep PTO guards in place",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

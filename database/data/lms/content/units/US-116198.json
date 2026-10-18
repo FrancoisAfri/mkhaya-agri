@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-116198",
+ "title": "Harvest animal products",
+ "lessons": [
+  {
+   "title": "Animal products and when they are ready",
+   "minutes": 15,
+   "html": "<h3>Animal products and when they are ready</h3><p>Animal products are things we take from animals to use or sell. Some products come from live animals, and some come after slaughter.</p><h4>Names and where they come from</h4><table><tr><th>Product</th><th>Animal</th><th>Use</th></tr><tr><td>Milk</td><td>Dairy cows, goats</td><td>Drinking, cheese, maas</td></tr><tr><td>Eggs</td><td>Hens</td><td>Food</td></tr><tr><td>Wool</td><td>Sheep, such as Merino</td><td>Clothes, blankets</td></tr><tr><td>Mohair</td><td>Angora goats</td><td>Fine cloth</td></tr><tr><td>Honey</td><td>Bees</td><td>Food</td></tr><tr><td>Meat, hides, skins</td><td>Cattle, sheep, goats, pigs, chickens</td><td>Food, leather</td></tr><tr><td>Manure</td><td>All livestock</td><td>Fertiliser, compost</td></tr></table><p>These products earn money for the farm. South Africa is one of the large producers of mohair and wool in the world.</p><h4>Signs that a product is ready</h4><ul><li><strong>Milk</strong>: the cow has calved and is in milk; her udder is full at milking time. Milk from a cow that has just calved (colostrum) goes to the calf.</li><li><strong>Eggs</strong>: hens lay daily; eggs are ready to collect at set times.</li><li><strong>Wool</strong>: the fleece has grown to the right length, usually after about a year for Merino sheep. The shearing date is set by the farmer.</li><li><strong>Honey</strong>: the bees have capped the honey cells with wax.</li><li><strong>Animals for slaughter</strong>: they have reached the right weight and condition.</li></ul><h4>Do not harvest when</h4><ul><li>The animal has been treated with medicine and the withdrawal period on the label has not passed. Milk, eggs and meat may then not be sold.</li><li>The animal is sick.</li><li>The product is dirty or spoiled.</li></ul><p>Your supervisor will tell you which animals are ready and which are being treated. Treated animals are often marked, for example with a coloured leg band or spray mark. Learn the farm's marks so you never harvest from a treated animal by mistake.</p>"
+  },
+  {
+   "title": "Harvesting milk, eggs and wool correctly",
+   "minutes": 15,
+   "html": "<h3>Harvesting milk, eggs and wool correctly</h3><h4>Milking</h4><ol><li>Bring cows calmly to the milking shed. Do not hit or shout.</li><li>Wash your hands and wear clean clothes.</li><li>Clean and dry the teats.</li><li>Strip a few squirts from each teat into a strip cup and look for clots or blood. These are signs of mastitis. Report it.</li><li>Put on the milking machine or milk by hand.</li><li>Take off the cups when milk flow stops. Do not over-milk.</li><li>Dip teats in teat dip after milking.</li><li>Cool the milk quickly in the bulk tank.</li><li>Keep milk from treated cows separate, as marked, and do not put it in the tank.</li></ol><h4>Collecting eggs</h4><ul><li>Collect at the set times, with clean hands.</li><li>Place eggs gently in trays, pointed end down.</li><li>Keep cracked and dirty eggs apart.</li><li>Take eggs to a cool egg room.</li></ul><h4>Shearing sheep</h4><ul><li>Shearing is done by trained shearers. You may help by bringing sheep, keeping the floor clean and picking up fleeces.</li><li>Keep sheep dry before shearing; wet wool cannot be packed.</li><li>Throw the fleece onto the table so it can be skirted and classed.</li><li>Keep wool clean of straw, plastic and string.</li></ul><h4>Safety and animal care</h4><ul><li>Cows can kick. Stand to the side, move slowly and speak calmly.</li><li>The Animals Protection Act 71 of 1962 makes cruelty to animals an offence. Handle animals gently.</li><li>Wash hands after handling animals. Cover cuts.</li></ul><h4>Key points</h4><ul><li>Milk, eggs, wool, mohair, honey, meat, hides and manure are animal products.</li><li>Each product has signs that show it is ready.</li><li>Never sell products from treated animals before the withdrawal period ends.</li><li>Clean hands and gentle handling protect product quality.</li><li>Report signs of mastitis such as clots in milk.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "Which animal gives mohair?",
+   "options": [
+    {
+     "text": "Merino sheep",
+     "correct": false
+    },
+    {
+     "text": "Angora goats",
+     "correct": true
+    },
+    {
+     "text": "Dairy cows",
+     "correct": false
+    },
+    {
+     "text": "Pigs",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When is honey ready to harvest?",
+   "options": [
+    {
+     "text": "When bees have capped the cells with wax",
+     "correct": true
+    },
+    {
+     "text": "When the bees leave the hive",
+     "correct": false
+    },
+    {
+     "text": "On the first day of the month",
+     "correct": false
+    },
+    {
+     "text": "When it rains",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "You see clots in the strip cup. What could this mean?",
+   "options": [
+    {
+     "text": "The cow is very healthy",
+     "correct": false
+    },
+    {
+     "text": "The milk is extra rich",
+     "correct": false
+    },
+    {
+     "text": "The cow has mastitis",
+     "correct": true
+    },
+    {
+     "text": "The cup is new",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should be done with milk from a cow being treated with medicine?",
+   "options": [
+    {
+     "text": "Put it in the bulk tank",
+     "correct": false
+    },
+    {
+     "text": "Mix it with clean milk",
+     "correct": false
+    },
+    {
+     "text": "Sell it at a lower price",
+     "correct": false
+    },
+    {
+     "text": "Keep it separate and out of the tank until the withdrawal period ends",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should sheep be kept dry before shearing?",
+   "options": [
+    {
+     "text": "Wet wool cannot be packed",
+     "correct": true
+    },
+    {
+     "text": "Wet sheep are heavier to sell",
+     "correct": false
+    },
+    {
+     "text": "Shearers prefer warm sheep",
+     "correct": false
+    },
+    {
+     "text": "To make the wool grow",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Teats should be dipped in teat dip after milking.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Shouting at cows helps them come into the milking shed calmly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which of these are animal products? (select all that apply)",
+   "options": [
+    {
+     "text": "Wool",
+     "correct": true
+    },
+    {
+     "text": "Maize",
+     "correct": false
+    },
+    {
+     "text": "Milk",
+     "correct": true
+    },
+    {
+     "text": "Manure",
+     "correct": true
+    },
+    {
+     "text": "Lucerne",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

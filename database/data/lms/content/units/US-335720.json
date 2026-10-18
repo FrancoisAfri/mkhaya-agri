@@ -1,0 +1,182 @@
+{
+ "unit_key": "US-335720",
+ "title": "Apply remedial behavioural techniques for a horse",
+ "lessons": [
+  {
+   "title": "Understanding problem behaviour",
+   "minutes": 20,
+   "html": "<h3>Why horses develop problem behaviour</h3>\n<p>Most problem behaviours are a horse's normal response to fear, pain, confusion or poor management, which have been accidentally rewarded. Before applying any training technique, find the cause.</p>\n<h4>Common causes</h4>\n<ul>\n<li><strong>Pain:</strong> back pain from a badly fitted saddle, sharp teeth, ulcers, lameness. A horse that suddenly starts bucking or refusing may be in pain.</li>\n<li><strong>Fear:</strong> past bad experiences, such as rough loading.</li>\n<li><strong>Confusion:</strong> unclear or conflicting aids.</li>\n<li><strong>Management:</strong> too much energy feed, too little turnout, isolation from other horses.</li>\n<li><strong>Accidental reinforcement:</strong> a horse that pulls back and gets released learns that pulling back works.</li>\n</ul>\n<h3>Typical problem behaviours</h3>\n<table><tr><th>Behaviour</th><th>Possible causes</th></tr>\n<tr><td>Napping, rearing, bucking</td><td>Pain, fear, rider confusion, herd-bound</td></tr>\n<tr><td>Refusing to load</td><td>Fear of the dark, small box, past bad trips</td></tr>\n<tr><td>Biting, kicking</td><td>Pain, rough handling, food rewards, dominance learned by success</td></tr>\n<tr><td>Difficult to catch</td><td>Catching only for work, rough handling</td></tr>\n<tr><td>Pulling back when tied</td><td>Fear, earlier escape rewarded</td></tr>\n<tr><td>Stereotypies (crib-biting, weaving)</td><td>Stress, confinement, low forage diet</td></tr></table>\n<h3>Assessment before training</h3>\n<ol>\n<li>Get a full history from the owner.</li>\n<li>Have the vet rule out pain: teeth, back, feet, ulcers.</li>\n<li>Check tack fit, feeding and management.</li>\n<li>Observe the behaviour safely: when, where, with whom, and what happens just before and after.</li>\n<li>Write down a clear training goal, for example \"Loads calmly in under five minutes.\"</li>\n</ol>\n<p>Stereotypies are usually reduced by management changes (more forage, turnout and company), not by punishment or blocking devices.</p>"
+  },
+  {
+   "title": "Applying remedial training techniques",
+   "minutes": 20,
+   "html": "<h3>Learning theory</h3>\n<p>Horses learn by association and consequence.</p>\n<ul>\n<li><strong>Negative reinforcement (pressure and release):</strong> apply light pressure and release it the instant the horse gives the right response. The release teaches. Timing is everything.</li>\n<li><strong>Positive reinforcement:</strong> add something pleasant (a scratch, a food reward, a rest) for the right response.</li>\n<li><strong>Habituation:</strong> repeated, harmless exposure until the horse stops reacting.</li>\n<li><strong>Systematic desensitisation:</strong> start with a weak form of a frightening thing at a level the horse can cope with, then gradually increase it.</li>\n<li><strong>Shaping:</strong> reward small steps towards the final behaviour.</li>\n</ul>\n<p>Punishment usually increases fear and can make horses dangerous. Avoid it.</p>\n<h3>Example: remedial loading</h3>\n<ol>\n<li>Park the horsebox safely, ramp down, partitions open, interior light on.</li>\n<li>Use a well-fitted halter and long lead rope; handler wears helmet and gloves.</li>\n<li>Ask the horse forward with light pressure; release as soon as it takes a step towards the ramp.</li>\n<li>Allow it to look and sniff. Reward each step.</li>\n<li>Repeat short sessions, ending on a good step forward.</li>\n<li>When it walks in, feed it inside and walk it out calmly. Repeat until loading is calm. Then close the partition for short periods before travelling.</li>\n</ol>\n<h3>Safety rules</h3>\n<ul>\n<li>Work in a safe, enclosed area with good footing.</li>\n<li>Never stand directly in front of or behind the horse.</li>\n<li>Never wrap ropes around hands or tie a frightened horse solidly.</li>\n<li>Stop if the horse or handler is getting stressed; return to an easier step.</li>\n</ul>\n<h3>Monitoring and records</h3>\n<p>Record each session: date, duration, steps achieved, problems. Review progress with the owner, and teach the owner to handle the horse consistently, otherwise the old behaviour returns.</p>\n<h4>Key points</h4>\n<ul>\n<li>Find the cause first; rule out pain with the vet.</li>\n<li>Negative reinforcement works through the timely release of pressure.</li>\n<li>Desensitise gradually and shape small steps.</li>\n<li>Avoid punishment; it increases fear.</li>\n<li>Keep sessions short, safe and recorded, and coach the owner.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What should you rule out first when a horse suddenly starts bucking?",
+   "options": [
+    {
+     "text": "The colour of the saddle pad",
+     "correct": false
+    },
+    {
+     "text": "Pain",
+     "correct": true
+    },
+    {
+     "text": "The weather",
+     "correct": false
+    },
+    {
+     "text": "The rider's clothing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "In negative reinforcement, what teaches the horse?",
+   "options": [
+    {
+     "text": "Adding more pressure",
+     "correct": false
+    },
+    {
+     "text": "Shouting",
+     "correct": false
+    },
+    {
+     "text": "The instant release of pressure",
+     "correct": true
+    },
+    {
+     "text": "Ignoring the horse",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is systematic desensitisation?",
+   "options": [
+    {
+     "text": "Gradual exposure from a level the horse can cope with",
+     "correct": true
+    },
+    {
+     "text": "Sudden full exposure",
+     "correct": false
+    },
+    {
+     "text": "Punishing fear",
+     "correct": false
+    },
+    {
+     "text": "Tying the horse up for hours",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How are stereotypies like crib-biting usually best reduced?",
+   "options": [
+    {
+     "text": "Punishment",
+     "correct": false
+    },
+    {
+     "text": "Blocking devices only",
+     "correct": false
+    },
+    {
+     "text": "Less forage",
+     "correct": false
+    },
+    {
+     "text": "More forage, turnout and company",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a remedial loading session end?",
+   "options": [
+    {
+     "text": "With the horse escaping",
+     "correct": false
+    },
+    {
+     "text": "On a good step forward",
+     "correct": true
+    },
+    {
+     "text": "With punishment",
+     "correct": false
+    },
+    {
+     "text": "With the horse locked in",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Punishment usually increases fear and can make horses more dangerous.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A horse that pulls back and gets released learns that pulling back does not work.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "What should be done in the assessment before training? (select all that apply)",
+   "options": [
+    {
+     "text": "Get a history from the owner",
+     "correct": true
+    },
+    {
+     "text": "Have the vet rule out pain",
+     "correct": true
+    },
+    {
+     "text": "Check tack fit and management",
+     "correct": true
+    },
+    {
+     "text": "Start punishing immediately",
+     "correct": false
+    },
+    {
+     "text": "Skip observation",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

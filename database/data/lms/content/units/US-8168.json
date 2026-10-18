@@ -1,0 +1,187 @@
+{
+ "unit_key": "US-8168",
+ "title": "Combat contamination in grain",
+ "lessons": [
+  {
+   "title": "Preparing and assessing contamination",
+   "minutes": 25,
+   "html": "<h3>What contamination means in stored grain</h3><p>Contamination is anything in or on stored grain that lowers its quality, safety or value. As a supervisor or senior operator at a silo, depot or farm store, you must recognise contamination early, judge how serious it is and organise the correct response. Contaminated grain can be downgraded, rejected by buyers, or become a health risk to people and livestock.</p><h4>Types of contamination</h4><table><tr><th>Type</th><th>Examples</th></tr><tr><td>Insects and mites</td><td>Maize weevil, rice weevil, lesser grain borer, flour beetles, grain moths, mites</td></tr><tr><td>Vertebrate pests</td><td>Rats, mice, birds: droppings, urine, hair, feathers</td></tr><tr><td>Fungi and mycotoxins</td><td>Mouldy kernels, heating, aflatoxins, fumonisins</td></tr><tr><td>Chemical</td><td>Pesticide residues above limits, fuel or oil spills, fertiliser, treated seed mixed in</td></tr><tr><td>Physical</td><td>Stones, glass, metal, plastic, soil</td></tr><tr><td>Biological plant material</td><td>Poisonous weed seeds such as Datura (thorn apple)</td></tr></table><h4>Preparing</h4><ol><li>Review records: intake grades, moisture, temperature monitoring, previous treatments and fumigation dates.</li><li>Plan the inspection with your team, including safe access. Bins and silos are confined spaces: entry only with a permit, trained people, atmospheric testing where required, lock-out of conveyors and unloading equipment, and a standby person. Never walk on grain that is being withdrawn.</li><li>Prepare PPE (dust masks or respirators as required, gloves, eye protection), sampling probes, sieves, a thermometer or temperature cables, sample bags and labels.</li></ol><h4>Assessing the nature of contamination</h4><ul><li><strong>Sample</strong> from several points and depths, and sieve to find insects. Identify species, because control choice depends on it.</li><li><strong>Monitor temperature:</strong> a hot spot in a bin often signals insect activity or mould growth.</li><li><strong>Smell and look:</strong> musty, sour or chemical odours; caking, crusting, webbing.</li><li><strong>Test</strong> where needed: moisture, mycotoxin tests by approved methods, residue analysis by an accredited laboratory.</li><li><strong>Map</strong> the extent: one spot, one bin, or several stores.</li></ul><p>Record findings and report to management with a recommendation.</p>"
+  },
+  {
+   "title": "Combating contamination",
+   "minutes": 25,
+   "html": "<h3>Choosing the response</h3><p>The response depends on the type and severity of contamination, the grain's destination, legal requirements and cost. Integrated pest management combines several methods instead of relying only on chemicals.</p><h4>Physical and management measures</h4><ul><li><strong>Cleaning and screening:</strong> removes insects, dust, broken kernels and foreign matter.</li><li><strong>Turning grain:</strong> moving grain from one bin to another breaks up hot spots and allows cleaning; it can also spread contamination, so plan carefully.</li><li><strong>Aeration and cooling:</strong> lowering grain temperature slows insects and mould.</li><li><strong>Drying:</strong> reduce moisture to safe storage levels for the commodity.</li><li><strong>Segregation:</strong> isolate contaminated lots so clean grain is not affected.</li><li><strong>Hygiene and proofing:</strong> clean empty structures and seal entry points against rodents and birds.</li></ul><h4>Chemical control</h4><p>Grain protectants and fumigants are registered under Act 36 of 1947 and may be used only according to the label: the registered crop, dose, exposure time, ventilation and withholding period before sale or use. Follow the product label; never guess doses.</p><ul><li>Fumigation must be carried out by registered fumigation operators. Fumigant gases are highly toxic. Seal the structure, post warning signs, control access, monitor gas, and ventilate before re-entry clearance.</li><li>Never fumigate in a structure that cannot be sealed, and never allow anyone to enter during fumigation.</li><li>Record product, batch, dose, date, operator and clearance.</li></ul><h4>Rodents and birds</h4><p>Use bait stations placed and serviced by trained people, traps, and proofing. Keep baits away from grain and record stations on a site map.</p><h4>Mycotoxin and chemical contamination</h4><p>Mouldy or toxin-contaminated grain, and grain contaminated with fuel, treated seed or pesticide above limits, must be isolated and reported. Do not blend contaminated grain with clean grain to dilute it unless this is expressly permitted by law and the buyer. Decisions on use or disposal are management decisions, informed by laboratory results.</p><h4>Emergency</h4><p>If someone is exposed to fumigant, move them to fresh air only if it is safe for the rescuer, call emergency services and follow the product's safety data sheet. Rescuers must not enter a gassed area without proper respiratory protection.</p>"
+  },
+  {
+   "title": "Completing combating procedures",
+   "minutes": 20,
+   "html": "<h3>Checking effectiveness</h3><p>After treatment, confirm that the contamination has been controlled.</p><ul><li>Sample and sieve again after the prescribed period; check for live insects at different depths.</li><li>Monitor grain temperature for returning hot spots.</li><li>Confirm gas clearance after fumigation before anyone enters or grain is moved.</li><li>Re-test for moisture and, where relevant, residues or mycotoxins before sale.</li></ul><p>If live insects remain, investigate: was the structure properly sealed, the exposure time long enough, or are the insects resistant? Report and plan corrective action with the fumigation contractor. Repeated poor results may indicate resistance, which requires a change of approach.</p><h4>Cleaning up</h4><ul><li>Dispose of empty pesticide containers according to the label and site rules; never reuse them.</li><li>Dispose of screenings, dust and rejected grain as instructed, so they do not become a new pest source.</li><li>Clean and maintain equipment and PPE.</li><li>Release lock-outs only when everyone is clear.</li></ul><h4>Records and reporting</h4><p>Keep complete records: inspection findings, sample results, actions taken, products and doses, operators, clearance certificates, and follow-up results. Records support food safety audits, buyer queries and legal compliance, and show trends that help prevent future problems.</p><h4>Prevention</h4><p>Most contamination is preventable: clean stores before intake, accept only grain at safe moisture, keep lots segregated, monitor temperature, maintain aeration, keep the surroundings clean, and service bait stations. Train staff to report early signs.</p><h4>Key points</h4><ul><li>Identify the type and extent of contamination before acting.</li><li>Bins and silos are confined spaces; follow permit and lock-out rules.</li><li>Use integrated measures: cleaning, cooling, drying, segregation and hygiene.</li><li>Chemicals only per the registered label; fumigation only by registered operators.</li><li>Verify effectiveness, record everything and focus on prevention.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "A hot spot in a grain bin often signals what?",
+   "options": [
+    {
+     "text": "Low moisture",
+     "correct": false
+    },
+    {
+     "text": "Perfect storage",
+     "correct": false
+    },
+    {
+     "text": "Insect activity or mould growth",
+     "correct": true
+    },
+    {
+     "text": "Good aeration",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who may carry out grain fumigation?",
+   "options": [
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "Any worker",
+     "correct": false
+    },
+    {
+     "text": "Registered fumigation operators",
+     "correct": true
+    },
+    {
+     "text": "Customers",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why identify the insect species found in grain?",
+   "options": [
+    {
+     "text": "To name the bin",
+     "correct": false
+    },
+    {
+     "text": "It is not needed",
+     "correct": false
+    },
+    {
+     "text": "For a collection",
+     "correct": false
+    },
+    {
+     "text": "Control choice depends on it",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Grain is contaminated with diesel from a spill. What should be done first?",
+   "options": [
+    {
+     "text": "Sell it quickly",
+     "correct": false
+    },
+    {
+     "text": "Blend it with clean grain",
+     "correct": false
+    },
+    {
+     "text": "Isolate it and report it",
+     "correct": true
+    },
+    {
+     "text": "Aerate it and ignore",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "After fumigation, when can people enter the structure?",
+   "options": [
+    {
+     "text": "After gas clearance is confirmed",
+     "correct": true
+    },
+    {
+     "text": "Immediately",
+     "correct": false
+    },
+    {
+     "text": "After lunch",
+     "correct": false
+    },
+    {
+     "text": "When the smell is gone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Cooling grain through aeration slows insect and mould activity.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Empty pesticide containers may be reused for storing water.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are physical or management measures against contamination? (select all that apply)",
+   "options": [
+    {
+     "text": "Cleaning and screening",
+     "correct": true
+    },
+    {
+     "text": "Drying to safe moisture",
+     "correct": true
+    },
+    {
+     "text": "Segregating contaminated lots",
+     "correct": true
+    },
+    {
+     "text": "Guessing chemical doses",
+     "correct": false
+    },
+    {
+     "text": "Leaving spilled grain around the bins",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

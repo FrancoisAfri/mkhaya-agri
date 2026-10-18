@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-613101-000-00-PM-03",
+ "title": "Apply Integrated Pest and Disease Management in Agriculture",
+ "lessons": [
+  {
+   "title": "The IPM approach",
+   "minutes": 20,
+   "html": "<h3>What Integrated Pest Management means</h3><p>Integrated Pest Management (IPM) is a decision-making system that combines several methods to keep pests, diseases and weeds below the level where they cause economic loss, while protecting people, animals and the environment. Chemicals are not banned in IPM, but they are used only when monitoring shows they are needed, and then in the most targeted way.</p><h4>The IPM cycle</h4><ol><li><strong>Prevent:</strong> choose resistant cultivars and breeds, rotate crops, use clean seed and healthy animals, and keep good hygiene.</li><li><strong>Monitor:</strong> scout crops and inspect animals regularly; use traps and records.</li><li><strong>Identify:</strong> know exactly which pest or disease is present. Many insects are harmless or beneficial.</li><li><strong>Decide:</strong> compare the pest level with an action threshold, the level at which control pays for itself.</li><li><strong>Act:</strong> select the best combination of control methods.</li><li><strong>Evaluate:</strong> check whether the control worked and record the results.</li></ol><h4>Control methods</h4><table><tr><th>Method</th><th>Examples</th></tr><tr><td>Cultural</td><td>Crop rotation, planting date, removing crop residues, camp rotation for livestock</td></tr><tr><td>Mechanical and physical</td><td>Hoeing, traps, nets, removing infested plants</td></tr><tr><td>Biological</td><td>Ladybirds, parasitic wasps, predatory mites, dung beetles</td></tr><tr><td>Chemical</td><td>Registered agricultural and stock remedies, applied according to the label</td></tr></table><p>The benefits of IPM include lower chemical costs, slower development of resistance, fewer residue problems at market, and safer working conditions.</p><h4>Records</h4><p>IPM depends on records. Keep scouting sheets, trap counts, treatment records and results together for each land or herd so that decisions can be checked and improved each season. Share the results with the crop adviser and the vet, who can then fine-tune thresholds and programmes for your farm.</p>"
+  },
+  {
+   "title": "IPM in crops",
+   "minutes": 20,
+   "html": "<h3>Applying IPM in the lands</h3><h4>Monitoring and thresholds</h4><p>Scouts walk a fixed pattern through each land, for example a W-pattern, and inspect a set number of plants at each point. They record pests, beneficial insects, disease symptoms and weeds. Action thresholds come from extension guides, seed companies or crop advisers. For example, in maize, fall armyworm scouting looks at fresh leaf damage in the whorl on a sample of plants; when the percentage of damaged plants passes the recommended level, control is considered.</p><h4>Choosing a chemical when needed</h4><ul><li>Only use products registered under Act 36 of 1947 for that crop and that pest.</li><li>Follow the label for dose, water volume, number of applications and pre-harvest interval.</li><li>Rotate products with different modes of action to slow resistance.</li><li>Prefer selective products that spare beneficial insects and pollinators; do not spray flowering crops when bees are foraging.</li><li>Spray only in suitable weather: low wind, no rain expected, and avoid the hottest part of the day.</li></ul><h4>Safety</h4><p>Operators must be trained and wear the PPE listed on the label, such as overalls, chemical-resistant gloves, boots, goggles and a respirator where required. Never eat, drink or smoke while spraying. Wash hands and face before eating, and wash overalls separately from family clothing. Keep re-entry intervals: no one enters a sprayed land until the label allows it.</p><h4>Evaluating results</h4><p>A few days after spraying, scout the land again. If the pest numbers have not dropped, check the application, the weather and the product choice, and consider whether resistance may be developing. Record the result.</p>"
+  },
+  {
+   "title": "IPM for livestock health",
+   "minutes": 20,
+   "html": "<h3>Applying IPM with animals</h3><p>The same thinking applies to livestock. Internal parasites (worms) and external parasites (ticks, lice, flies) develop resistance when the same remedy is used too often.</p><h4>Worms in small stock</h4><ul><li>Do not dose the whole flock on a fixed calendar. Use faecal egg counts and the FAMACHA eye-colour system for wireworm to treat only the animals that need it.</li><li>Leave some animals untreated so that susceptible worms remain on the pasture (refugia).</li><li>Weigh animals or dose to the heaviest in the group so you do not under-dose, following the label.</li><li>Move treated animals to cleaner camps and rest heavily infested ones.</li></ul><h4>Ticks</h4><ul><li>Use strategic dipping in high-risk months, as advised by your vet, rather than dipping every week all year.</li><li>Keep the dip tank at the correct concentration by testing and topping up according to the supplier's instructions.</li><li>Choose breeds with natural tick resistance, such as Nguni, where suitable.</li></ul><h4>Disease prevention</h4><p>Biosecurity is part of IPM: quarantine new animals, control visitors and vehicles, dispose of carcasses properly and keep vaccination programmes up to date. Report controlled diseases as required by the Animal Diseases Act 35 of 1984.</p><p>Record every treatment.</p><h4>Key points</h4><ul><li>IPM combines prevention, monitoring, thresholds and several control methods.</li><li>Use chemicals only when monitoring shows they are needed, and follow the label.</li><li>Rotate modes of action to slow resistance in pests and parasites.</li><li>Use FAMACHA and egg counts to treat only the animals that need it.</li><li>Biosecurity and vaccination prevent disease in the first place.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an action threshold?",
+   "options": [
+    {
+     "text": "The date on which spraying must start every year",
+     "correct": false
+    },
+    {
+     "text": "The pest level at which control pays for itself",
+     "correct": true
+    },
+    {
+     "text": "The maximum dose on the label",
+     "correct": false
+    },
+    {
+     "text": "The number of scouts on a farm",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of biological control?",
+   "options": [
+    {
+     "text": "Hoeing weeds",
+     "correct": false
+    },
+    {
+     "text": "Crop rotation",
+     "correct": false
+    },
+    {
+     "text": "Using parasitic wasps or ladybirds",
+     "correct": true
+    },
+    {
+     "text": "Applying an insecticide",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why should products with different modes of action be rotated?",
+   "options": [
+    {
+     "text": "To use up old stock in the store",
+     "correct": false
+    },
+    {
+     "text": "To slow the development of resistance",
+     "correct": true
+    },
+    {
+     "text": "Because the label requires a different colour product",
+     "correct": false
+    },
+    {
+     "text": "To increase the pre-harvest interval",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the FAMACHA system used for?",
+   "options": [
+    {
+     "text": "Measuring rainfall",
+     "correct": false
+    },
+    {
+     "text": "Testing dip tank strength",
+     "correct": false
+    },
+    {
+     "text": "Deciding which small stock need treatment for wireworm",
+     "correct": true
+    },
+    {
+     "text": "Grading wool",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "When should a flowering crop not be sprayed?",
+   "options": [
+    {
+     "text": "Early in the season",
+     "correct": false
+    },
+    {
+     "text": "When bees are foraging",
+     "correct": true
+    },
+    {
+     "text": "When the wind is calm",
+     "correct": false
+    },
+    {
+     "text": "When the soil is dry",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "In IPM, chemicals are completely banned.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Leaving some animals untreated helps keep susceptible worms on the pasture.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are cultural control methods? (select all that apply)",
+   "options": [
+    {
+     "text": "Crop rotation",
+     "correct": true
+    },
+    {
+     "text": "Adjusting the planting date",
+     "correct": true
+    },
+    {
+     "text": "Spraying an insecticide",
+     "correct": false
+    },
+    {
+     "text": "Removing crop residues",
+     "correct": true
+    },
+    {
+     "text": "Releasing predatory mites",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

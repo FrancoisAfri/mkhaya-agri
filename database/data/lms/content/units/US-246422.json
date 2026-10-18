@@ -1,0 +1,178 @@
+{
+ "unit_key": "US-246422",
+ "title": "Comply to current Legislation impacting on hunting",
+ "lessons": [
+  {
+   "title": "Categorising huntable species and provincial legislation",
+   "minutes": 18,
+   "html": "<h3>Categories of wild and exotic animals</h3>\n<p>Before any hunt, a professional hunter must know how the target species is classified, because the category decides whether it may be hunted, when, and with which permits.</p>\n<ul><li><strong>Indigenous species</strong>: naturally occurring in South Africa, e.g. kudu, impala, blesbok, springbok, buffalo.</li>\n<li><strong>Extralimital species</strong>: indigenous to South Africa but outside their natural range in a particular province, e.g. a species introduced to a region where it never occurred naturally.</li>\n<li><strong>Exotic or alien species</strong>: not native to South Africa, e.g. fallow deer or Himalayan tahr.</li>\n<li><strong>Protected categories</strong>: provincial laws list species as specially protected, protected or ordinary game, with different rules for each. National TOPS regulations under the National Environmental Management: Biodiversity Act 10 of 2004 add requirements for listed threatened or protected species such as rhino, leopard and some antelope.</li></ul>\n<h4>Provincial legislation</h4>\n<p>Hunting is mainly regulated by provincial conservation laws, for example the Limpopo Environmental Management Act 7 of 2003 and the nature conservation ordinances still in force in other provinces. Rules differ between provinces, so always check the current law and the permits for the province where you hunt. Typical provisions include:</p>\n<ul><li><strong>Hunting permits</strong> or properties registered or exempted for hunting under the provincial authority.</li>\n<li><strong>Hunting seasons</strong> for some species and permits for hunting out of season.</li>\n<li><strong>Restricted methods</strong>: hunting at night, from a vehicle, with artificial light, with dogs, with traps or poison, or near waterholes may be prohibited or need special permits.</li>\n<li><strong>Professional hunter and outfitter licences</strong> for anyone hunting with foreign or paying clients.</li>\n<li><strong>Hunting registers</strong> recording every animal hunted, with client details.</li>\n<li><strong>Transport and export permits</strong> for carcasses and trophies, plus CITES permits for listed species.</li></ul>\n<p>Breaking these rules can lead to fines, imprisonment, loss of the professional hunting licence and confiscation of trophies.</p>"
+  },
+  {
+   "title": "The Firearms Control Act and professional hunting",
+   "minutes": 16,
+   "html": "<h3>Firearms Control Act 60 of 2000</h3>\n<p>Professional hunters work with firearms every day, so they must comply fully with the Firearms Control Act 60 of 2000 and its regulations, administered by the SAPS Central Firearms Register.</p>\n<h4>Key requirements</h4>\n<ul><li><strong>Competency certificate</strong>: a person must be found competent (training, background checks) before getting a licence.</li>\n<li><strong>Licences</strong>: each firearm must be licensed for a purpose recognised by the Act, such as hunting, and businesses in the hunting industry can hold licences for business purposes. Licences must be renewed before they expire.</li>\n<li><strong>Ammunition</strong>: only for the licensed calibre and within the limits set by law.</li>\n<li><strong>Safe storage</strong>: firearms and ammunition stored in an approved safe when not in use.</li>\n<li><strong>Carrying</strong>: firearms carried in a way that is safe and lawful, not left unattended in a vehicle.</li>\n<li><strong>Loss or theft</strong>: must be reported to the police without delay.</li></ul>\n<h4>Foreign clients</h4>\n<p>Foreign hunting clients who bring their own rifles must obtain a temporary import permit from SAPS, usually processed at the port of entry, and must carry it during the hunt. The professional hunter should check documents, serial numbers and calibres before the hunt. A client may use the professional hunter's rifle only in the way the Act allows, under the direct supervision of the licence holder.</p>\n<h4>Firearm safety in the field</h4>\n<ul><li>Treat every firearm as loaded.</li>\n<li>Never point the muzzle at anything you do not intend to shoot.</li>\n<li>Keep the chamber empty in the vehicle and while walking until the stalk requires it.</li>\n<li>Identify the target and what lies beyond it before every shot.</li>\n<li>Never use firearms after drinking alcohol.</li></ul>\n<h4>Key points</h4>\n<ul><li>Species are categorised as indigenous, extralimital or exotic, and by protection status.</li>\n<li>Provincial laws regulate permits, seasons, methods and registers; check the province.</li>\n<li>TOPS regulations add rules for threatened or protected species.</li>\n<li>The Firearms Control Act 60 of 2000 requires competency, licences and safe storage.</li>\n<li>Foreign clients need a SAPS temporary import permit for their rifles.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What is an extralimital species?",
+   "options": [
+    {
+     "text": "An extinct species",
+     "correct": false
+    },
+    {
+     "text": "An animal from another continent",
+     "correct": false
+    },
+    {
+     "text": "An indigenous South African species outside its natural range",
+     "correct": true
+    },
+    {
+     "text": "A domestic animal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which is an example of an exotic species in South Africa?",
+   "options": [
+    {
+     "text": "Impala",
+     "correct": false
+    },
+    {
+     "text": "Kudu",
+     "correct": false
+    },
+    {
+     "text": "Fallow deer",
+     "correct": true
+    },
+    {
+     "text": "Blesbok",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Which level of government mainly regulates hunting permits and seasons?",
+   "options": [
+    {
+     "text": "Hunting clubs",
+     "correct": false
+    },
+    {
+     "text": "Provincial",
+     "correct": true
+    },
+    {
+     "text": "Only international bodies",
+     "correct": false
+    },
+    {
+     "text": "Municipal",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must a foreign client obtain to bring a rifle into South Africa?",
+   "options": [
+    {
+     "text": "A SAPS temporary import permit",
+     "correct": true
+    },
+    {
+     "text": "Nothing",
+     "correct": false
+    },
+    {
+     "text": "A fishing licence",
+     "correct": false
+    },
+    {
+     "text": "A TOPS permit for each bullet",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must be done if a firearm is lost or stolen?",
+   "options": [
+    {
+     "text": "Buy a new one quietly",
+     "correct": false
+    },
+    {
+     "text": "Wait a month",
+     "correct": false
+    },
+    {
+     "text": "Report it to the police without delay",
+     "correct": true
+    },
+    {
+     "text": "Tell only the client",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Hunting rules are identical in every province, so there is no need to check provincial law.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "A person must obtain a competency certificate before getting a firearm licence.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which hunting methods may be prohibited or need special permits under provincial law? (select all that apply)",
+   "options": [
+    {
+     "text": "Using poison or traps",
+     "correct": true
+    },
+    {
+     "text": "Walking and stalking in daylight on a permitted property",
+     "correct": false
+    },
+    {
+     "text": "Hunting from a vehicle",
+     "correct": true
+    },
+    {
+     "text": "Hunting at night with artificial light",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

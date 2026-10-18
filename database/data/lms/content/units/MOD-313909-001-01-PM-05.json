@@ -1,0 +1,187 @@
+{
+ "unit_key": "MOD-313909-001-01-PM-05",
+ "title": "Monitor and Control Feed Milling Operations",
+ "lessons": [
+  {
+   "title": "Controlling the shift from plan to output",
+   "minutes": 25,
+   "html": "<h3>Controlling the shift from plan to output</h3><p>Monitoring and controlling feed milling operations means keeping the whole mill, from intake to dispatch, running to plan, to specification and safely. You are the person who sees the whole picture during the shift and makes the decisions.</p><h4>Before the shift</h4><ul><li>Review the production plan, stock positions, dispatch commitments and maintenance work orders.</li><li>Check that critical raw materials, premixes and packaging are available for the planned products.</li><li>Confirm staffing against the plan using the skills matrix.</li><li>Read the previous shift's handover: open faults, quality holds, unfinished runs.</li></ul><h4>Monitoring tools</h4><table><tr><th>Tool</th><th>What to watch</th></tr><tr><td>SCADA screens and alarms</td><td>Equipment status, levels, temperatures, chokes</td></tr><tr><td>Batch reports</td><td>Target versus actual weights, deviations</td></tr><tr><td>Process logs</td><td>Conditioner temperature, amps, throughput</td></tr><tr><td>Laboratory results</td><td>Intake quality, finished feed analysis, PDI</td></tr><tr><td>Downtime log</td><td>Stops, causes and durations</td></tr><tr><td>Floor walks</td><td>Housekeeping, safety, SOP compliance</td></tr></table><h4>Making control decisions</h4><p>During the shift, compare actual output with the plan every few hours. If a line falls behind, identify the cause and decide: resequence products, move people, call maintenance, or inform sales about a delay. Never trade away safety or feed safety to recover volume.</p><p><em>Example</em>: the pellet line is down for a die change taking two hours. You bring forward mash products that bypass the pellet line, so the mixer keeps running, and inform dispatch of the revised times.</p><p>Keep a short running log during the shift of decisions taken and why. It helps the next supervisor understand the situation and supports later reviews of what worked.</p>"
+  },
+  {
+   "title": "Managing deviations and non-conforming product",
+   "minutes": 25,
+   "html": "<h3>Managing deviations and non-conforming product</h3><h4>Types of deviation</h4><ul><li><strong>Process</strong>: conditioning temperature below the critical limit, mixer time shortened, scale out of tolerance.</li><li><strong>Material</strong>: wrong ingredient in a bin, premix past expiry, raw material failing analysis.</li><li><strong>Equipment</strong>: torn hammer mill screen, leaking diverter, failed magnet.</li><li><strong>Product</strong>: finished feed out of specification, wrong label, contamination.</li></ul><h4>Response steps</h4><ol><li><strong>Contain</strong>: stop the process if necessary and isolate affected material. Put a hold tag on bins, bags or pallets.</li><li><strong>Assess</strong>: determine which batches are affected, using batch records and routes.</li><li><strong>Inform</strong>: notify quality control and management according to the escalation procedure.</li><li><strong>Decide</strong>: quality decides whether material is released, reworked, re-graded or destroyed.</li><li><strong>Correct</strong>: fix the immediate cause and record a corrective action.</li><li><strong>Prevent</strong>: investigate the root cause and update SOPs, training or maintenance.</li></ol><h4>Rework</h4><p>Rework (fines, returned feed, off-spec product) may be added back into compatible products only under controlled rules: same or compatible species, no medicament carry-over, limited inclusion rate and recorded traceability.</p><h4>Dispatch control</h4><ul><li>Check loading orders against products and quantities.</li><li>Ensure bulk trucks are clean and the compartments were not used for incompatible products.</li><li>Confirm labels and delivery documents are correct.</li><li>Never release held product.</li></ul><h4>Reporting the shift</h4><p>At shift end, report tonnes produced versus plan, downtime and causes, quality holds and deviations, safety incidents and near misses, and actions handed over. Accurate reports support management decisions and continuous improvement.</p><p>Treat every deviation as a learning opportunity. Share the findings at shift briefings without blaming individuals, so that the whole team understands the risk and how it was controlled.</p>"
+  },
+  {
+   "title": "Safety and efficiency oversight",
+   "minutes": 25,
+   "html": "<h3>Safety and efficiency oversight</h3><h4>Safety controls you oversee</h4><ul><li><strong>Permit to work</strong>: issue or check permits for hot work, confined space entry, work at height and electrical work. Verify isolation and gas testing before signing.</li><li><strong>Lockout</strong>: audit the lockout register; ensure every person working on equipment has their own lock.</li><li><strong>Dust and housekeeping</strong>: dust build-up on beams and motors is a fire and explosion fuel; set cleaning frequencies and check them.</li><li><strong>Contractors</strong>: brief contractors on site rules and monitor their work.</li><li><strong>Emergency readiness</strong>: know the evacuation plan, assembly points and fire equipment; run drills.</li></ul><p>The OHS Act 85 of 1993 makes supervisors responsible for ensuring work under their control is done safely.</p><h4>Efficiency indicators</h4><table><tr><th>Indicator</th><th>How to improve</th></tr><tr><td>Throughput per line (t/h)</td><td>Reduce chokes, optimise feed rate, plan fewer changeovers</td></tr><tr><td>Downtime</td><td>Analyse causes, preventive maintenance, quick changeovers</td></tr><tr><td>Energy per tonne</td><td>Avoid idle running, fix air and steam leaks</td></tr><tr><td>Shrinkage</td><td>Control spillage, accurate weighing, stock reconciliation</td></tr><tr><td>First-pass quality</td><td>SOP compliance, calibrated instruments</td></tr></table><h4>Working with other departments</h4><ul><li><strong>Maintenance</strong>: report faults with clear details; agree when equipment can be released for work.</li><li><strong>Quality</strong>: share process data, follow holds and releases.</li><li><strong>Procurement and stores</strong>: warn early of shortages.</li><li><strong>Sales and dispatch</strong>: communicate delays and changes honestly and early.</li></ul><h4>Key points</h4><ul><li>Compare actual against plan during the shift and act early.</li><li>Never trade safety or feed safety for volume.</li><li>Contain, assess, inform, decide, correct and prevent for every deviation.</li><li>Rework only under controlled, traceable rules.</li><li>Oversee permits, lockout, housekeeping and emergency readiness.</li><li>Report the shift accurately to support improvement.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "The pellet line is down for a two-hour die change. What is a good control decision?",
+   "options": [
+    {
+     "text": "Stop the whole mill",
+     "correct": false
+    },
+    {
+     "text": "Bring forward mash products that bypass the pellet line",
+     "correct": true
+    },
+    {
+     "text": "Skip the conditioning step on other products",
+     "correct": false
+    },
+    {
+     "text": "Send held product instead",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is the first step when a deviation is discovered?",
+   "options": [
+    {
+     "text": "Contain: stop if needed and isolate affected material",
+     "correct": true
+    },
+    {
+     "text": "Write the monthly report",
+     "correct": false
+    },
+    {
+     "text": "Release the product",
+     "correct": false
+    },
+    {
+     "text": "Change the SOP immediately",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Who decides whether non-conforming material is released, reworked or destroyed?",
+   "options": [
+    {
+     "text": "The truck driver",
+     "correct": false
+    },
+    {
+     "text": "Any operator",
+     "correct": false
+    },
+    {
+     "text": "Quality control",
+     "correct": true
+    },
+    {
+     "text": "The customer on the phone",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Under what condition may rework be added to products?",
+   "options": [
+    {
+     "text": "Into any product at any rate",
+     "correct": false
+    },
+    {
+     "text": "Only into medicated feeds",
+     "correct": false
+    },
+    {
+     "text": "Never under any condition",
+     "correct": false
+    },
+    {
+     "text": "Into compatible products, with limits and traceability",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why must dust build-up on beams and motors be controlled?",
+   "options": [
+    {
+     "text": "It is fuel for fires and explosions",
+     "correct": true
+    },
+    {
+     "text": "It improves pellet quality",
+     "correct": false
+    },
+    {
+     "text": "It reduces energy use",
+     "correct": false
+    },
+    {
+     "text": "It hides rust",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Held product may be dispatched if the customer is waiting.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Every person working on locked-out equipment should have their own lock.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which should be included in the end-of-shift report? (select all that apply)",
+   "options": [
+    {
+     "text": "Tonnes produced versus plan",
+     "correct": true
+    },
+    {
+     "text": "Downtime and causes",
+     "correct": true
+    },
+    {
+     "text": "Safety incidents and near misses",
+     "correct": true
+    },
+    {
+     "text": "The canteen menu for tomorrow",
+     "correct": false
+    },
+    {
+     "text": "Private details of employees' families",
+     "correct": false
+    }
+   ]
+  }
+ ]
+}

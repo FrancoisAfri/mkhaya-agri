@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-119410",
+ "title": "Slaughter birds in a poultry abattoir",
+ "lessons": [
+  {
+   "title": "Receiving and hanging live birds",
+   "minutes": 20,
+   "html": "<h3>From the farm to the line</h3>\n<p>Birds arrive at the abattoir in crates on a truck. From this moment the birds must be handled humanely. The <strong>Animals Protection Act 71 of 1962</strong> makes it an offence to cause animals unnecessary suffering, and the <strong>Meat Safety Act 40 of 2000</strong> sets the rules for slaughter in registered abattoirs. Your plant's procedures are written to meet these laws.</p>\n<h4>Receiving the birds</h4>\n<ul>\n<li>Check the delivery papers: farm name, house number, number of birds and time of feed withdrawal.</li>\n<li>Look for dead birds, birds that are panting heavily or crates that are overcrowded or broken. Report these to your supervisor.</li>\n<li>Keep the crates in the shaded, ventilated holding area (lairage). Fans or misters may be used on hot days.</li>\n<li>Do not leave birds waiting longer than the plant allows.</li>\n</ul>\n<h4>Hanging (shackling)</h4>\n<p>Birds are taken from the crates and hung by both legs in metal shackles on the moving line. This is done in dim or blue light so the birds stay calm.</p>\n<ol>\n<li>Take the bird out gently, holding it by both legs or with a hand under the body. Never pull a bird out by its wing, neck or head.</li>\n<li>Place both legs firmly into the shackle. A bird hung by one leg will flap and may miss the stunner.</li>\n<li>Hang the bird calmly. Do not swing or throw it.</li>\n<li>Do not hang dead birds on the line. Put them in the DOA (dead on arrival) bin and record them.</li>\n<li>Keep up with the line speed but never at the cost of rough handling.</li>\n</ol>\n<p>Rough handling causes broken wings, bruised legs and red marks on the meat. These carcasses are downgraded, which costs the company money, and it causes the birds pain.</p>\n<h4>Your safety</h4>\n<p>Wear your dust mask if the plant requires it, because the hanging area is dusty. Keep your fingers clear of the shackle line and know where the emergency stop is.</p>"
+  },
+  {
+   "title": "Stunning, killing and bleeding",
+   "minutes": 20,
+   "html": "<h3>Stunning</h3>\n<p>Before the neck is cut, most South African plants stun birds so that they are unconscious and feel no pain. The most common method is the <strong>electrical water bath stunner</strong>. The head of the bird passes through water that carries an electrical current. Some plants use controlled-atmosphere (gas) stunning instead. Halal and kosher slaughter follows the specific requirements of the religious certifying body, and your plant will train you on them.</p>\n<h4>Signs of a good stun</h4>\n<ul>\n<li>The neck is arched and the wings are held close to the body.</li>\n<li>The eyes are open and fixed; there is no blinking.</li>\n<li>No regular breathing.</li>\n</ul>\n<h4>Signs of a poor stun</h4>\n<ul>\n<li>The bird lifts its head, flaps or blinks.</li>\n<li>The bird missed the water bath.</li>\n</ul>\n<p>If a bird is not properly stunned, it must be killed by hand at once by a trained person. Report repeated missed stuns to your supervisor so the stunner settings and water level can be checked. Never change electrical settings yourself unless you are authorised.</p>\n<h4>Killing (neck cut)</h4>\n<p>The neck is cut by an automatic killer or by hand. The cut must sever the main blood vessels in the neck so the bird bleeds quickly. A back-up person with a knife stands after the automatic killer to cut any birds the machine missed.</p>\n<ul>\n<li>Use a sharp, sterilised knife.</li>\n<li>Cut cleanly and quickly.</li>\n<li>Check every bird: no bird may reach the scalder still alive.</li>\n</ul>\n<h4>Bleeding</h4>\n<p>After the cut, birds move through the bleeding tunnel. They must be given enough time to bleed out before scalding, as set by your plant. Poor bleeding leaves red, dark carcasses that are downgraded or condemned. Blood is collected separately and must not run into the drains without control.</p>\n<p><strong>Safety:</strong> The stunner carries electricity. Never touch the water bath or electrodes while it is on. Keep knives in the scabbard and wear your mesh glove.</p>"
+  },
+  {
+   "title": "Scalding, plucking and checking the work",
+   "minutes": 20,
+   "html": "<h3>Scalding</h3>\n<p>After bleeding, birds go through the <strong>scalder</strong>, a tank of hot water. The heat loosens the feathers so the plucker can remove them. The water temperature and time are set by the plant for the type of bird. If the water is too hot, the skin is cooked and tears. If it is too cool, feathers stay in.</p>\n<ul>\n<li>Check that the scalder thermometer shows the temperature set in your work instruction and record it as required.</li>\n<li>Look for overflow of clean water; this keeps the water from getting too dirty.</li>\n<li>Report any bird that enters the scalder alive (red skin colour, called a \"red bird\"). This is a serious welfare problem and must be recorded.</li>\n</ul>\n<h3>Plucking</h3>\n<p>Pluckers have rotating rubber fingers that rub the feathers off. After the pluckers, a worker removes remaining feathers by hand (pinning). Heads and feet may then be removed by machine, and the birds are re-hung on the evisceration line in the clean area.</p>\n<h4>Checking quality</h4>\n<table><tr><th>Problem</th><th>Possible cause</th></tr>\n<tr><td>Torn skin</td><td>Scalder too hot or pluckers set too tight</td></tr>\n<tr><td>Feathers left on</td><td>Scalder too cool or worn plucker fingers</td></tr>\n<tr><td>Broken wings</td><td>Rough hanging or plucker problem</td></tr>\n<tr><td>Red, poorly bled birds</td><td>Poor neck cut or short bleed time</td></tr>\n</table>\n<p>Tell your supervisor when you see these problems, so they can be fixed before many birds are spoiled.</p>\n<h4>Safety</h4>\n<p>Scalder water and steam can burn. Do not lean over the scalder. Pluckers can trap hands and clothes; never reach into a running plucker. Machines are only cleared or adjusted after lock-out by authorised staff.</p>\n<h4>Key points</h4>\n<ul>\n<li>Handle and hang birds gently by both legs; never by wing or neck.</li>\n<li>Check every bird is properly stunned and properly cut.</li>\n<li>No bird may reach the scalder alive; report red birds.</li>\n<li>Keep scalder temperature as set and record it.</li>\n<li>Never touch the live stunner or reach into running machines.</li>\n</ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "How should a bird be hung in the shackle?",
+   "options": [
+    {
+     "text": "By one leg",
+     "correct": false
+    },
+    {
+     "text": "By both legs",
+     "correct": true
+    },
+    {
+     "text": "By the neck",
+     "correct": false
+    },
+    {
+     "text": "By one wing",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What is a sign of a good electrical stun?",
+   "options": [
+    {
+     "text": "The bird blinks and lifts its head",
+     "correct": false
+    },
+    {
+     "text": "The neck is arched and eyes are fixed with no blinking",
+     "correct": true
+    },
+    {
+     "text": "The bird flaps its wings strongly",
+     "correct": false
+    },
+    {
+     "text": "The bird calls out",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What must happen if a bird is not properly stunned?",
+   "options": [
+    {
+     "text": "Let it go through to the scalder",
+     "correct": false
+    },
+    {
+     "text": "It must be killed by hand at once by a trained person",
+     "correct": true
+    },
+    {
+     "text": "Put it back in the crate",
+     "correct": false
+    },
+    {
+     "text": "Ignore it",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "Why are birds scalded?",
+   "options": [
+    {
+     "text": "To kill germs only",
+     "correct": false
+    },
+    {
+     "text": "To loosen the feathers for plucking",
+     "correct": true
+    },
+    {
+     "text": "To cook the meat",
+     "correct": false
+    },
+    {
+     "text": "To stun the bird",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What can cause torn skin after plucking?",
+   "options": [
+    {
+     "text": "The scalder is too hot or the pluckers set too tight",
+     "correct": true
+    },
+    {
+     "text": "The birds were not fed",
+     "correct": false
+    },
+    {
+     "text": "The light was too dim",
+     "correct": false
+    },
+    {
+     "text": "The crates were too clean",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "Dead-on-arrival birds should be hung on the line with the live birds.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "The Animals Protection Act 71 of 1962 makes causing animals unnecessary suffering an offence.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are signs of a poor stun? (select all that apply)",
+   "options": [
+    {
+     "text": "The bird blinks",
+     "correct": true
+    },
+    {
+     "text": "The bird lifts its head",
+     "correct": true
+    },
+    {
+     "text": "Wings held close to the body",
+     "correct": false
+    },
+    {
+     "text": "The bird missed the water bath",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "unit_key": "US-9599",
+ "title": "Lift and move material and equipment by means of a forklift",
+ "lessons": [
+  {
+   "title": "Knowing the forklift",
+   "minutes": 20,
+   "html": "<h3>A useful but dangerous machine</h3><p>Forklifts move heavy loads like wool bales, pallets of feed, fertiliser and equipment. They are also one of the main causes of serious injuries in stores and warehouses. Regulations under the Occupational Health and Safety Act 85 of 1993 require that operators are trained and authorised by the employer. Never drive a forklift unless you are trained and authorised, and carry your licence or authorisation.</p><h4>Main parts</h4><ul><li><strong>Forks</strong> – carry the load.</li><li><strong>Mast</strong> – the upright frame that lifts the forks.</li><li><strong>Carriage and backrest</strong> – hold the forks and stop the load falling back.</li><li><strong>Overhead guard</strong> – protects the driver from falling objects.</li><li><strong>Counterweight</strong> – heavy weight at the back that balances the load.</li><li><strong>Controls</strong> – lift, lower, tilt forward and back, and drive.</li><li><strong>Seat belt</strong> – keeps the driver in the cab if the forklift tips.</li></ul><h4>The load capacity</h4><p>Every forklift has a data plate that shows the most it may lift at a certain load centre (distance from the fork face to the centre of the load). If the load is heavier, or its centre is further out, or it is lifted high, the forklift can tip forward. Never lift more than the data plate allows.</p><h4>Stability</h4><p>A forklift balances on its front wheels like a see-saw. The counterweight balances the load. Turning fast, driving with the load high, braking hard or driving across a slope can make it tip over sideways. If a forklift tips, stay in the seat, hold on, brace your feet and lean away from the fall. Never jump out – drivers are often crushed by the overhead guard.</p>"
+  },
+  {
+   "title": "Pre-use checks and safe driving",
+   "minutes": 20,
+   "html": "<h3>Check before you drive</h3><p>Do a pre-use check at the start of every shift and record it on the checklist.</p><ol><li>Walk around: look for damage, leaks, flat or damaged tyres.</li><li>Check forks for cracks or bends and that pins lock.</li><li>Check chains, mast and hydraulic hoses.</li><li>Check fuel, gas bottle (connected and no leak) or battery charge, as the type of forklift requires.</li><li>Sit in, put on the seat belt, start and test: brakes, steering, hooter, lights, reverse alarm, lift, lower and tilt.</li></ol><p>If anything is wrong, do not use the forklift. Report it and tag it out of service.</p><h4>Driving rules</h4><ul><li>Wear the seat belt.</li><li>Drive at a safe speed and slow down at corners, doors and where people walk.</li><li>Carry loads low, just clear of the floor, with the mast tilted back.</li><li>Look in the direction you are driving. If the load blocks your view, drive in reverse.</li><li>On ramps, drive with the load facing uphill.</li><li>Use the hooter at blind corners and doors.</li><li>Never carry passengers.</li><li>Never let anyone walk or stand under the raised forks.</li><li>Keep arms and legs inside the cab.</li></ul><h4>People</h4><p>Pedestrians are the biggest risk. Use marked routes, make eye contact, and stop if someone walks into your path.</p>"
+  },
+  {
+   "title": "Picking up, placing and parking",
+   "minutes": 20,
+   "html": "<h3>Handling the load</h3><h4>Picking up</h4><ol><li>Check the load weight is within the data plate capacity.</li><li>Check the load is stable and secure on the pallet.</li><li>Set the forks level and as wide as the load allows.</li><li>Drive slowly forward until the forks are fully under the load and the load touches the backrest.</li><li>Lift just enough to clear the floor, tilt back and reverse out slowly.</li></ol><h4>Stacking</h4><ol><li>Stop close to the stack with the load low.</li><li>Lift to the right height only when the forklift has stopped.</li><li>Move forward slowly, level the forks and lower the load gently into place.</li><li>Reverse out, then lower the forks before moving on.</li></ol><p>Never lift or lower while driving. Never raise people on the forks or a pallet.</p><h4>Loading trucks</h4><p>Before driving onto a truck, check the truck brakes are on, wheels are chocked and the dock plate is secure and strong enough.</p><h4>Parking</h4><ul><li>Park in the marked area, not in walkways or in front of exits or fire equipment.</li><li>Lower forks flat to the floor, neutral, handbrake on, engine off, key removed.</li><li>Charge batteries or change gas bottles only in the marked area, following procedure and with no smoking.</li></ul><h4>Key points</h4><ul><li>Only trained and authorised operators may drive a forklift.</li><li>Never exceed the data plate capacity.</li><li>Do a pre-use check every shift and do not use a faulty forklift.</li><li>Carry loads low, tilted back, wear the seat belt and never carry passengers.</li><li>If the forklift tips, stay in the seat and hold on.</li><li>Park with forks down, handbrake on and key removed.</li></ul>"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "mcq",
+   "question": "What does the forklift data plate show?",
+   "options": [
+    {
+     "text": "The colour of the forklift",
+     "correct": false
+    },
+    {
+     "text": "The fuel price",
+     "correct": false
+    },
+    {
+     "text": "The driver's name",
+     "correct": false
+    },
+    {
+     "text": "The maximum load it may lift at a certain load centre",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "How should a load be carried while driving?",
+   "options": [
+    {
+     "text": "Tilted forward",
+     "correct": false
+    },
+    {
+     "text": "High up for a better view",
+     "correct": false
+    },
+    {
+     "text": "On one fork only",
+     "correct": false
+    },
+    {
+     "text": "Low, just clear of the floor, with the mast tilted back",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "The load blocks your view forward. What should you do?",
+   "options": [
+    {
+     "text": "Drive in reverse, looking in the direction of travel",
+     "correct": true
+    },
+    {
+     "text": "Lift the load higher",
+     "correct": false
+    },
+    {
+     "text": "Ask someone to sit on the forks to guide you",
+     "correct": false
+    },
+    {
+     "text": "Drive forward slowly anyway",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "What should you do if the forklift starts to tip over?",
+   "options": [
+    {
+     "text": "Lift the forks",
+     "correct": false
+    },
+    {
+     "text": "Jump out quickly",
+     "correct": false
+    },
+    {
+     "text": "Stay in the seat, hold on, brace your feet and lean away",
+     "correct": true
+    },
+    {
+     "text": "Steer hard the other way",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "mcq",
+   "question": "During the pre-use check you find the brakes are weak. What do you do?",
+   "options": [
+    {
+     "text": "Use it only for light loads",
+     "correct": false
+    },
+    {
+     "text": "Fix it yourself with no training",
+     "correct": false
+    },
+    {
+     "text": "Do not use it, report it and tag it out of service",
+     "correct": true
+    },
+    {
+     "text": "Drive carefully",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "On a ramp, a loaded forklift should drive with the load facing uphill.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "type": "true_false",
+   "question": "It is safe to lift a person on the forks if they hold on tightly.",
+   "options": [
+    {
+     "text": "True",
+     "correct": false
+    },
+    {
+     "text": "False",
+     "correct": true
+    }
+   ]
+  },
+  {
+   "type": "multi_select",
+   "question": "Which are correct when parking a forklift? (select all that apply)",
+   "options": [
+    {
+     "text": "Park in front of the fire exit",
+     "correct": false
+    },
+    {
+     "text": "Put the handbrake on and remove the key",
+     "correct": true
+    },
+    {
+     "text": "Park in the marked area",
+     "correct": true
+    },
+    {
+     "text": "Lower the forks flat to the floor",
+     "correct": true
+    }
+   ]
+  }
+ ]
+}
