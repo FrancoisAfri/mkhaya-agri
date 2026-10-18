@@ -1,0 +1,36 @@
+// perfect-scrollbar's own stylesheet — MUST come before the template styles.
+//
+// The nav, and every other PerfectScrollbar in the app, scrolls by having its JS set scrollTop on
+// an element that this stylesheet makes `overflow: hidden`. Without it the element stays
+// `overflow: visible`, scrollTop does nothing, and long content is simply cut off at the bottom of
+// the window. It was being imported only from @layouts/styles/index.scss, which nothing @uses, so
+// it never reached the bundle — the template's rail/thumb styling did, which made the loss easy to
+// miss. Imported first so @core's rail styling still wins.
+//
+// Note the specifier: the package's exports map only publishes "./style.css", so the
+// "…/dist/style.css" path used by the orphaned file does not resolve at all.
+@use "vue3-perfect-scrollbar/style.css";
+
+// Sneat template base styles
+@use "@core/scss/template/index";
+
+// Write your overrides below
+
+// Three-level vertical nav (category › module › ribbon)
+@use "vertical-nav-hierarchy";
+
+// ── Touch targets on icon-only controls ──────────────────────────────────────
+//
+// An icon button rendered at Vuetify's `x-small` or `small` is roughly 20–28px square. The
+// accessibility minimum for anything you tap is 44px, and these are the row actions — edit, delete,
+// back — so the one most likely to be mis-tapped is also the one that deletes something.
+//
+// Global rather than scoped: `.row-action` is used across both bureau modules and a scoped style
+// would need repeating in every file that renders one, which is how the rule ends up applied in
+// some places and not others.
+//
+// The icon inside is untouched, so this widens the hit area without making the button look heavier.
+.row-action.v-btn {
+  min-inline-size: 44px;
+  min-block-size: 44px;
+}

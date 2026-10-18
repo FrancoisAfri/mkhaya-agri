@@ -1,0 +1,386 @@
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+# Regulatory Pack — South Africa, Occupational Health and Safety Act 85 of 1993
+#
+# Teaches the generic SHEQ engine how the OHS Act works. Nothing in this file is referenced by name
+# in application code (principle P2): the engine reads classifications, obligations and metric
+# conventions as data, so a change to the law is a pack release, not a deploy.
+#
+# Sources encoded here:
+#   OHS Act 85/1993 s24        — incidents that must be reported to the Provincial Director
+#   General Administrative Regulations (GAR) 8 & 9 — recording and reporting, Annexure 1 record
+#   COIDA 130/1993             — employer's report of an accident (W.Cl.2) and related submissions
+#
+# ⚠️ Legal review required before production use. The rules below are an engineering rendering of
+#    the statute, not legal advice, and s24 in particular has interpretation nuance (notably what
+#    "unable to work for 14 days or more" covers) that a practitioner should confirm.
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+
+pack_id: za-ohsa
+version: 2026.1.0
+jurisdiction: ZA
+name: South Africa — Occupational Health and Safety Act 85 of 1993
+effective_from: 2026-01-01
+description: >
+  Incident classification, statutory notification obligations, injury metrics and retention rules
+  for employers subject to the OHS Act and its regulations. Applies to non-mining workplaces;
+  mines fall under the Mine Health and Safety Act (pack za-mhsa).
+
+applies_to_site_types: [PLANT, OFFICE, PROJECT, DEPOT, SITE]
+
+# ── Classification ────────────────────────────────────────────────────────────────────────────────
+# Evaluated top-down, first match wins. Order is therefore significant and runs most-severe first.
+classifications:
+  - id: za.ohsa.s24
+    label: OHS Act section 24 — reportable incidents
+    rules:
+      # s24(1)(a) — death, unconsciousness, loss of a limb or part thereof, or an injury/illness
+      # likely to be permanently harmful, or an inability to work for 14 days or more.
+      - id: s24a
+        when:
+          any_of:
+            - outcome: FATALITY
+            - outcome: UNCONSCIOUSNESS
+            - outcome: LOSS_OF_LIMB_OR_PART
+            - outcome: PERMANENT_DEFECT_LIKELY
+            - and:
+                - outcome: { in: [INJURY_OR_ILLNESS, LOST_TIME, MEDICAL_TREATMENT, PERMANENT_DISABILITY] }
+                - likely_incapacity_days: { gte: 14 }
+        then:
+          statutory_category: "OHSA_S24(a)"
+          reportable: true
+          obligations: [immediate_pd_notification, wcl_submission_7d, annexure1_record]
+          forms: [WCL1_OR_WCL2, ANNEXURE_1]
+          investigation_minimum: ICAM
+          executive_visibility: true
+
+      # s24(1)(b) — a major incident.
+      - id: s24b
+        when:
+          outcome: MAJOR_INCIDENT
+        then:
+          statutory_category: "OHSA_S24(b)"
+          reportable: true
+          obligations: [immediate_pd_notification, annexure1_record]
+          forms: [ANNEXURE_1]
+          investigation_minimum: ICAM
+          executive_visibility: true
+
+      # s24(1)(c) — spillage of a hazardous chemical substance, or the uncontrolled release of any
+      # substance under pressure, or machinery failing/running out of control.
+      - id: s24c
+        when:
+          any_of:
+            - dangerous_substance_release: true
+            - machinery_failure_causing_danger: true
+            - uncontrolled_release_under_pressure: true
+        then:
+          statutory_category: "OHSA_S24(c)"
+          reportable: true
+          obligations: [immediate_pd_notification, annexure1_record]
+          forms: [ANNEXURE_1]
+          investigation_minimum: FIVE_WHY
+
+      # Recordable but not notifiable: GAR 9 still requires the Annexure 1 record.
+      - id: recordable_non_s24
+        when:
+          treatment_level: { in: [MEDICAL_TREATMENT, LOST_TIME, RESTRICTED_WORK] }
+        then:
+          statutory_category: RECORDABLE
+          reportable: false
+          obligations: [annexure1_record]
+          forms: [ANNEXURE_1]
+          investigation_minimum: FIVE_WHY
+
+      # First aid only — recorded internally, no statutory record required.
+      - id: first_aid_only
+        when:
+          treatment_level: FIRST_AID
+        then:
+          statutory_category: FIRST_AID
+          reportable: false
+          obligations: []
+
+      # Everything else, including near-misses. Not statutory, still investigated when the
+      # potential severity is high — see `investigation` below.
+      - id: non_recordable
+        then:
+          statutory_category: NON_RECORDABLE
+          reportable: false
+          obligations: []
+
+# ── Obligations ───────────────────────────────────────────────────────────────────────────────────
+obligations:
+  immediate_pd_notification:
+    label: "Notify the Provincial Director of the Department of Employment and Labour"
+    anchor: incident.occurred_at
+    due_in: PT24H
+    business_days: false
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Provincial Director, Department of Employment and Labour"
+    reminders: [PT12H, PT4H, PT1H]
+    escalation:
+      - after: PT12H
+        notify_role: SITE_MANAGER
+      - after: PT24H
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+  wcl_submission_7d:
+    label: "Submit W.Cl.2 (employer's report of an accident) to the Compensation Commissioner"
+    anchor: incident.occurred_at
+    due_in: P7D
+    business_days: false
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Compensation Commissioner / Provincial Director"
+    reminders: [P5D, P2D, PT12H]
+    escalation:
+      - after: P6D
+        notify_role: SITE_MANAGER
+      - after: P7D
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+  annexure1_record:
+    label: "Record the incident in the Annexure 1 register (GAR 9)"
+    anchor: incident.occurred_at
+    due_in: P7D
+    business_days: true
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Internal record — Annexure 1 register"
+    reminders: [P3D, PT24H]
+    escalation:
+      - after: P7D
+        notify_role: SITE_MANAGER
+        severity: BREACH
+    evidence_required: false
+
+# ── Investigation rigour (SHEQ-INC-7) ─────────────────────────────────────────────────────────────
+# Driven by potential severity, so a near-miss that could have killed is investigated like a
+# fatality. Thresholds are cumulative: the highest matching entry applies.
+investigation:
+  thresholds:
+    - severity_at_least: 1
+      method_minimum: NONE
+      due_in: P30D
+    - severity_at_least: 3
+      method_minimum: FIVE_WHY
+      due_in: P14D
+      team_required: false
+    - severity_at_least: 4
+      method_minimum: ICAM
+      due_in: P7D
+      team_required: true
+    - severity_at_least: 5
+      method_minimum: ICAM
+      due_in: P3D
+      team_required: true
+      independent_lead_required: true
+
+# ── Metric conventions (SHEQ-REG-7) ───────────────────────────────────────────────────────────────
+# Explicit numerator/denominator/multiplier rather than a free-text formula: packs are untrusted
+# input delivered without a deploy, and an expression evaluator over untrusted input is a code
+# execution surface. The arithmetic is identical, the attack surface is not.
+metrics:
+  exposure_base: HOURS_WORKED
+  definitions:
+    - id: LTIFR
+      label: Lost Time Injury Frequency Rate
+      numerator: lost_time_injuries
+      denominator: hours_worked
+      multiplier: 1000000
+    - id: TRIR
+      label: Total Recordable Injury Rate
+      numerator: recordable_cases
+      denominator: hours_worked
+      multiplier: 200000
+    - id: DIFR
+      label: Disabling Injury Frequency Rate
+      numerator: disabling_injuries
+      denominator: hours_worked
+      multiplier: 200000
+    - id: FIFR
+      label: Fatal Injury Frequency Rate
+      numerator: fatalities
+      denominator: hours_worked
+      multiplier: 1000000
+    - id: SEVERITY_RATE
+      label: Severity Rate
+      numerator: days_lost
+      denominator: hours_worked
+      multiplier: 1000000
+  recordability:
+    first_aid_only: false
+    restricted_work: true
+    medical_treatment_beyond_first_aid: true
+    commute_incidents: false
+
+# ── Retention (SHEQ-DATA-3) ───────────────────────────────────────────────────────────────────────
+# GAR 9 requires the incident record to be kept for three years. Medical surveillance and asbestos
+# exposure records run far longer under their own regulations; the longest applicable wins.
+retention:
+  default_years: 3
+  by_record_class:
+    incident: 3
+    incident_s24: 3
+    medical_surveillance: 40
+    asbestos_exposure: 40
+    hazardous_chemical_exposure: 40
+    risk_assessment: 3
+    inspection: 3
+    training_record: 3
+    appointment_letter: 3
+
+# ── Legal register seed (SHEQ-LEG-1) ──────────────────────────────────────────────────────────────
+legal_register:
+  - instrument: "Occupational Health and Safety Act 85 of 1993"
+    clause: "s8"
+    requirement: "Provide and maintain a working environment that is safe and without risk to health."
+    applies_to: ALL
+    responsible_role: EMPLOYER
+    evidence_type: [RISK_ASSESSMENT, INSPECTION, DOCUMENT]
+    review_frequency: P1Y
+  - instrument: "Occupational Health and Safety Act 85 of 1993"
+    clause: "s16(2)"
+    requirement: "Assign duties to a person to act on the CEO's behalf; the assignment must be in writing."
+    applies_to: ALL
+    responsible_role: CEO
+    evidence_type: [APPOINTMENT]
+    review_frequency: P1Y
+  - instrument: "Occupational Health and Safety Act 85 of 1993"
+    clause: "s17"
+    requirement: "Designate health and safety representatives where 20 or more employees are employed."
+    applies_to: EMPLOYEES_GTE_20
+    responsible_role: EMPLOYER
+    evidence_type: [APPOINTMENT]
+    review_frequency: P1Y
+  - instrument: "Occupational Health and Safety Act 85 of 1993"
+    clause: "s19"
+    requirement: "Establish a health and safety committee where two or more representatives are designated."
+    applies_to: REPRESENTATIVES_GTE_2
+    responsible_role: EMPLOYER
+    evidence_type: [DOCUMENT, MEETING]
+    review_frequency: P3M
+  - instrument: "Occupational Health and Safety Act 85 of 1993"
+    clause: "s24"
+    requirement: "Report specified incidents to the Provincial Director in the prescribed manner."
+    applies_to: ALL
+    responsible_role: SHEQ_PRACTITIONER
+    evidence_type: [OBLIGATION]
+    review_frequency: P1Y
+  - instrument: "General Safety Regulations"
+    clause: "GSR 3"
+    requirement: "Provide and maintain first aid boxes with the prescribed contents; appoint first aiders where required."
+    applies_to: ALL
+    responsible_role: SITE_MANAGER
+    evidence_type: [INSPECTION, COMPETENCY, APPOINTMENT]
+    review_frequency: P1M
+  - instrument: "Environmental Regulations for Workplaces"
+    clause: "ER 9"
+    requirement: "Provide and maintain adequate means of escape and fire fighting equipment."
+    applies_to: ALL
+    responsible_role: SITE_MANAGER
+    evidence_type: [INSPECTION]
+    review_frequency: P1Y
+  - instrument: "Construction Regulations 2014"
+    clause: "CR 5"
+    requirement: "Prepare a documented risk assessment before construction work commences, and review it."
+    applies_to: SITE_TYPE_PROJECT
+    responsible_role: SHEQ_PRACTITIONER
+    evidence_type: [RISK_ASSESSMENT]
+    review_frequency: P1Y
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Statutory forms (SHEQ-REG-6)
+#
+# The layout lives here, not in code, so a SAIOSH/SACPCMP practitioner can correct a field label,
+# add a missing box or change a source without a deploy — and so the correction is versioned with
+# the pack that produced the form.
+#
+# ⚠️ LEGAL REVIEW REQUIRED. These field lists were assembled from the published descriptions of the
+# forms, not from the gazetted originals. SHEQ-REG-6 demands a *print-exact* match to the gazetted
+# layout. Treat every `label` and the field order as DRAFT until a registered practitioner has
+# checked them against the current official form. The engine is correct; the content is not yet
+# signed off.
+#
+# `source` addresses the incident payload the generator assembles:
+#   incident.*   the incident record          site.*      the site it occurred at
+#   company.*    the employer                 person.*    the injured person
+#   settings.*   SHEQ employer particulars (COIDA number, registered name, postal address)
+#   pack.*       the classifying pack
+# A field with no source is left blank and reported as a gap.
+# ─────────────────────────────────────────────────────────────────────────────
+forms:
+  ANNEXURE_1:
+    title: "Annexure 1 — Record of incident (GAR 9)"
+    instrument: "General Administrative Regulations, Annexure 1"
+    retention: P3Y
+    guidance: "Kept by the employer. Not submitted, but must be produced on demand by an inspector."
+    sections:
+      - title: "Employer"
+        fields:
+          - { key: employer_name, label: "Name of employer", source: company.name, required: true }
+          - { key: workplace, label: "Workplace / premises", source: site.name, required: true }
+          - { key: workplace_address, label: "Address of workplace", source: site.address }
+      - title: "The incident"
+        fields:
+          - { key: incident_no, label: "Incident number", source: incident.reference, required: true }
+          - { key: date_of_incident, label: "Date of incident", source: incident.occurred_at, format: date, required: true }
+          - { key: time_of_incident, label: "Time of incident", source: incident.occurred_at, format: time, required: true }
+          - { key: place, label: "Place where incident occurred", source: incident.location_text, required: true }
+          - { key: description, label: "Brief description of incident", source: incident.description, required: true, multiline: true }
+          - { key: activity, label: "Activity at the time", source: incident.activity_at_time }
+      - title: "Person affected"
+        fields:
+          - { key: person_name, label: "Full name of injured person", source: person.full_name, required: true }
+          - { key: occupation, label: "Occupation", source: person.job_title }
+          - { key: nature_of_injury, label: "Nature of injury", source: person.injury_nature, required: true }
+          - { key: body_part, label: "Part of body affected", source: person.body_part }
+          - { key: treatment, label: "Treatment given", source: incident.treatment_level }
+          - { key: days_lost, label: "Days unable to work", source: incident.days_lost }
+      - title: "Classification"
+        fields:
+          - { key: statutory_category, label: "Classification", source: incident.statutory_category, required: true }
+          - { key: reportable, label: "Reportable under section 24", source: incident.is_reportable, format: yesno, required: true }
+          - { key: pack_version, label: "Assessed against", source: pack.label }
+
+  WCL1_OR_WCL2:
+    title: "W.Cl.2 — Employer's report of an accident (COIDA)"
+    instrument: "Compensation for Occupational Injuries and Diseases Act 130 of 1993"
+    retention: P40Y
+    guidance: >
+      Submitted to the Compensation Commissioner within seven days of an accident coming to the
+      employer's notice. W.Cl.1 is the corresponding notice of an occupational disease.
+    sections:
+      - title: "Employer particulars"
+        fields:
+          - { key: employer_name, label: "Name of employer", source: company.name, required: true }
+          - { key: coida_reg_no, label: "COIDA registration number", source: settings.coida_registration_number, required: true }
+          - { key: employer_address, label: "Postal address", source: settings.employer_postal_address }
+          - { key: nature_of_business, label: "Nature of business", source: settings.nature_of_business }
+      - title: "Employee particulars"
+        fields:
+          - { key: employee_name, label: "Full name of employee", source: person.full_name, required: true }
+          - { key: employee_number, label: "Employee number", source: person.employee_number }
+          - { key: occupation, label: "Occupation", source: person.job_title, required: true }
+          - { key: date_engaged, label: "Date employment began", source: person.engaged_on }
+      - title: "Accident particulars"
+        fields:
+          - { key: accident_date, label: "Date of accident", source: incident.occurred_at, format: date, required: true }
+          - { key: accident_time, label: "Time of accident", source: incident.occurred_at, format: time, required: true }
+          - { key: reported_date, label: "Date reported to employer", source: incident.reported_at, format: date, required: true }
+          - { key: place, label: "Place of accident", source: incident.location_text, required: true }
+          - { key: how_occurred, label: "How did the accident occur", source: incident.description, required: true, multiline: true }
+          - { key: unsafe_act, label: "Immediate action taken", source: incident.immediate_action, multiline: true }
+      - title: "Injury"
+        fields:
+          - { key: nature_of_injury, label: "Nature and extent of injury", source: person.injury_nature, required: true }
+          - { key: body_part, label: "Part of body injured", source: person.body_part, required: true }
+          - { key: treatment, label: "Medical treatment", source: incident.treatment_level, required: true }
+          - { key: days_lost, label: "Days off work to date", source: incident.days_lost }
+      - title: "Declaration"
+        fields:
+          - { key: declared_by, label: "Name of person completing this form", required: true }
+          - { key: capacity, label: "Capacity", required: true }
+          - { key: declaration_date, label: "Date", required: true }

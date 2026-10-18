@@ -1,0 +1,61 @@
+<?php
+
+namespace App\Core\UserApproval\Mails;
+
+use App\Modules\Admin\Setup\Models\CompanyIdentity;
+use Illuminate\Bus\Queueable;
+use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
+
+class sendManagersListOfAssets extends Mailable
+{
+    use Queueable, SerializesModels;
+
+    public $first_name;
+    public $surname;
+
+    public $date_left;
+      public $employee_number;
+    public $Attachment;
+    public $email;
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct($first_name, $surname,  $employee_number , $date_left ,$Attachment)
+    {
+        $this->first_name = $first_name;
+        $this->surname = $surname;
+        $this->employee_number  = $employee_number;
+        $this->date_left  = $date_left;
+        $this->Attachment  = $Attachment;
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        $companyDetails = CompanyIdentity::systemSettings();
+        $companyName = $companyDetails['company_name'];
+        $subject = "$companyName - New Employee Resignation.";
+
+        $data['support_email'] = $companyDetails['support_email'];
+        $data['first_name'] = $this->first_name;
+        $data['surname'] = $this->surname;
+        $data['company_name'] = $companyName;
+        $data['full_company_name'] = $companyDetails['full_company_name'];
+        $data['company_logo'] = url('/') . $companyDetails['company_logo_url'];
+
+        return $this->view('emails.send_list_to_manager')
+            ->from(!empty($this->email) ? $this->email : $companyDetails['mailing_address'], $companyDetails['mailing_name'])
+            ->subject($subject)
+            ->attachData($this->Attachment, 'listAssetsAndSubscriptions.pdf', [
+                'mime' => 'application/pdf',
+            ])
+            ->with($data);
+    }
+}

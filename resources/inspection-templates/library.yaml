@@ -1,0 +1,807 @@
+# ─────────────────────────────────────────────────────────────────────────────────────────────
+# Standard inspection template library
+#
+# Ships with the module so a tenant is not staring at an empty checklist builder on day one.
+# Installed as SHARED templates (company_id NULL): every tenant sees them, nobody can edit them,
+# and a tenant who wants a variant publishes their own under their own code.
+#
+# ⚠️ LEGAL REVIEW REQUIRED — same standing as the regulatory pack content. These checklists were
+# assembled from the published requirements referenced in each `basis` line, not from a certified
+# body's model documents. A SAIOSH/SACPCMP practitioner must confirm the questions before a tenant
+# relies on one as evidence of compliance. The engine is right; the content is DRAFT.
+#
+# `critical: true` means a failure fails the whole inspection regardless of score. Reserved for the
+# things that kill people — fall protection, isolation, fire egress, guarding, breathing air.
+# ─────────────────────────────────────────────────────────────────────────────────────────────
+
+templates:
+
+  # ── Applicable to every industry ──────────────────────────────────────────────────────────
+  - code: GEN-HOUSEKEEPING
+    title: General housekeeping and workplace condition
+    industry: ALL
+    basis: "OHS Act s8; General Safety Regulations 2 (workplace condition)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 85
+    sections:
+      - title: Floors and walkways
+        questions:
+          - { text: "Walkways are clear of obstruction and trip hazards", type: PASS_FAIL }
+          - { text: "Floors are free of spills, and spill kits are available", type: PASS_FAIL }
+          - { text: "Aisle markings are visible and unobstructed", type: PASS_FAIL }
+      - title: Storage and waste
+        questions:
+          - { text: "Materials are stacked stably and within height limits", type: PASS_FAIL }
+          - { text: "Waste bins are adequate, segregated and not overflowing", type: PASS_FAIL }
+          - { text: "No accumulation of combustible waste", type: PASS_FAIL, critical: true }
+      - title: Lighting and ventilation
+        questions:
+          - { text: "Lighting is adequate for the task and all fittings work", type: PASS_FAIL }
+          - { text: "Ventilation is adequate and vents are unobstructed", type: PASS_FAIL }
+          - { text: "General condition rating", type: SCALE }
+
+  - code: GEN-FIRE
+    title: Fire equipment and means of escape
+    industry: ALL
+    basis: "Environmental Regulations for Workplaces 9; SANS 1475 servicing"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Means of escape
+        questions:
+          - { text: "Escape routes are clear and unobstructed along their full length", type: PASS_FAIL, critical: true }
+          - { text: "Fire doors close fully and are not wedged open", type: PASS_FAIL, critical: true }
+          - { text: "Emergency exit doors open from the inside without a key", type: PASS_FAIL, critical: true }
+          - { text: "Escape route and exit signage is visible and illuminated", type: PASS_FAIL }
+      - title: Fire fighting equipment
+        questions:
+          - { text: "Extinguishers are in place, unobstructed and clearly marked", type: PASS_FAIL, critical: true }
+          - { text: "Every extinguisher is within its service date", type: PASS_FAIL, critical: true }
+          - { text: "Pressure gauges read in the green band", type: PASS_FAIL }
+          - { text: "Hose reels are accessible and the nozzle is present", type: PASS_FAIL }
+      - title: Detection and alarm
+        questions:
+          - { text: "Alarm call points are accessible and unobstructed", type: PASS_FAIL }
+          - { text: "Detectors are unobstructed and undamaged", type: PASS_FAIL }
+          - { text: "Date of last evacuation drill", type: TEXT }
+
+  - code: GEN-FIRSTAID
+    title: First aid provision
+    industry: ALL
+    basis: "General Safety Regulations 3 (first aid, first aiders, prescribed contents)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: First aid box
+        questions:
+          - { text: "First aid box is present and clearly marked at the required location", type: PASS_FAIL, critical: true }
+          - { text: "Contents match the prescribed list with nothing expired", type: PASS_FAIL, critical: true }
+          - { text: "Box is sealed, clean and accessible without a key", type: PASS_FAIL }
+      - title: First aiders
+        questions:
+          - { text: "The required number of trained first aiders is on duty", type: PASS_FAIL, critical: true }
+          - { text: "First aider names and contact details are displayed", type: PASS_FAIL }
+          - { text: "First aider certificates are within their validity", type: PASS_FAIL }
+      - title: Emergency information
+        questions:
+          - { text: "Emergency contact numbers are displayed and current", type: PASS_FAIL }
+          - { text: "Route to the nearest medical facility is known and posted", type: YES_NO }
+
+  - code: GEN-PPE
+    title: Personal protective equipment
+    industry: ALL
+    basis: "OHS Act s8(2)(d); General Safety Regulations 2(1)"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Provision
+        questions:
+          - { text: "PPE required by the risk assessment is issued to everyone exposed", type: PASS_FAIL, critical: true }
+          - { text: "PPE is the correct type and size for the wearer", type: PASS_FAIL }
+          - { text: "Replacement stock is available on site", type: PASS_FAIL }
+      - title: Condition and use
+        questions:
+          - { text: "PPE in use is undamaged and within its service life", type: PASS_FAIL, critical: true }
+          - { text: "PPE is being worn correctly by everyone in the area", type: PASS_FAIL, critical: true }
+          - { text: "Storage keeps PPE clean and undamaged between uses", type: PASS_FAIL }
+          - { text: "Number of people observed without required PPE", type: NUMBER }
+
+  - code: GEN-ELECTRICAL
+    title: Electrical safety
+    industry: ALL
+    basis: "Electrical Machinery Regulations; Electrical Installation Regulations"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Installations
+        questions:
+          - { text: "Distribution boards are closed, labelled and unobstructed", type: PASS_FAIL, critical: true }
+          - { text: "No exposed live conductors or damaged insulation", type: PASS_FAIL, critical: true }
+          - { text: "Earth leakage protection is fitted and tested", type: PASS_FAIL, critical: true }
+          - { text: "Certificate of Compliance is current", type: PASS_FAIL }
+      - title: Portable equipment
+        questions:
+          - { text: "Leads and plugs are undamaged", type: PASS_FAIL }
+          - { text: "No daisy-chained multi-plugs or overloaded outlets", type: PASS_FAIL }
+          - { text: "Portable equipment shows evidence of periodic testing", type: PASS_FAIL }
+
+  - code: GEN-HEIGHT
+    title: Working at height
+    industry: ALL
+    basis: "Construction Regulations 10; General Safety Regulations 6"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Fall protection
+        questions:
+          - { text: "A fall protection plan exists and is being followed", type: PASS_FAIL, critical: true }
+          - { text: "Edge protection or guardrails are in place and secure", type: PASS_FAIL, critical: true }
+          - { text: "Harnesses are inspected, in date and correctly worn", type: PASS_FAIL, critical: true }
+          - { text: "Anchor points are rated, certified and correctly used", type: PASS_FAIL, critical: true }
+      - title: Access equipment
+        questions:
+          - { text: "Ladders are secured, at the correct angle and extend past the landing", type: PASS_FAIL }
+          - { text: "Mobile platforms have wheels locked and outriggers deployed", type: PASS_FAIL }
+          - { text: "Area beneath the work is barricaded against falling objects", type: PASS_FAIL, critical: true }
+
+  - code: GEN-CHEMICAL
+    title: Hazardous chemical storage and handling
+    industry: ALL
+    basis: "Hazardous Chemical Agents Regulations; SANS 10234 (GHS)"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Storage
+        questions:
+          - { text: "Incompatible chemicals are segregated", type: PASS_FAIL, critical: true }
+          - { text: "Containers are labelled with GHS pictograms and contents", type: PASS_FAIL, critical: true }
+          - { text: "Bunding or secondary containment is adequate and empty", type: PASS_FAIL }
+          - { text: "Storage area is ventilated and secured against unauthorised access", type: PASS_FAIL }
+      - title: Information and response
+        questions:
+          - { text: "Safety data sheets are available and current for every chemical held", type: PASS_FAIL, critical: true }
+          - { text: "Spill kit is present, complete and appropriate to the chemicals stored", type: PASS_FAIL }
+          - { text: "Emergency shower and eyewash are functional and unobstructed", type: PASS_FAIL, critical: true }
+
+  # ── Mining ────────────────────────────────────────────────────────────────────────────────
+  - code: MIN-UG-DAILY
+    title: Underground workplace — daily examination
+    industry: MINING
+    basis: "Mine Health and Safety Act 29 of 1996; MHSA Regulations (daily workplace examination)"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Ground conditions
+        questions:
+          - { text: "Hanging wall and sidewalls barred down and made safe", type: PASS_FAIL, critical: true }
+          - { text: "Support installed to the support standard, spacing correct", type: PASS_FAIL, critical: true }
+          - { text: "No loose rock or unsupported ground in the travelling way", type: PASS_FAIL, critical: true }
+      - title: Ventilation and atmosphere
+        questions:
+          - { text: "Air quantity and velocity meet the standard at the face", type: PASS_FAIL, critical: true }
+          - { text: "Gas readings are within limits (methane, CO, oxygen)", type: PASS_FAIL, critical: true }
+          - { text: "Ventilation controls, doors and brattices are intact", type: PASS_FAIL }
+          - { text: "Recorded methane reading (%)", type: NUMBER }
+      - title: Escape and emergency
+        questions:
+          - { text: "Second means of egress is open and clearly marked", type: PASS_FAIL, critical: true }
+          - { text: "Refuge bay is accessible, stocked and sealed", type: PASS_FAIL, critical: true }
+          - { text: "Self-contained self-rescuers are carried and in date", type: PASS_FAIL, critical: true }
+      - title: Equipment and services
+        questions:
+          - { text: "Water and compressed air columns are intact and valved", type: PASS_FAIL }
+          - { text: "Illumination is adequate along the travelling way", type: PASS_FAIL }
+          - { text: "Explosives are stored and handled per the standard", type: PASS_FAIL, critical: true }
+
+  - code: MIN-SURFACE
+    title: Surface plant and processing area
+    industry: MINING
+    basis: "Mine Health and Safety Act 29 of 1996; SANS 10228 (conveyor safety practice)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Conveyors and moving plant
+        questions:
+          - { text: "Conveyor guards are in place at all nip points and drives", type: PASS_FAIL, critical: true }
+          - { text: "Pull-wire emergency stops are functional along the full length", type: PASS_FAIL, critical: true }
+          - { text: "Walkways alongside conveyors are clear and guarded", type: PASS_FAIL }
+      - title: Isolation
+        questions:
+          - { text: "Lock-out/tag-out is applied where work is in progress", type: PASS_FAIL, critical: true }
+          - { text: "Isolation points are labelled and accessible", type: PASS_FAIL }
+      - title: Dust and noise
+        questions:
+          - { text: "Dust suppression is operating at transfer points", type: PASS_FAIL }
+          - { text: "Hearing protection zones are demarcated and observed", type: PASS_FAIL }
+          - { text: "Measured noise level (dBA)", type: NUMBER }
+
+  # ── Construction ──────────────────────────────────────────────────────────────────────────
+  - code: CON-SITE-WEEKLY
+    title: Construction site — weekly inspection
+    industry: CONSTRUCTION
+    basis: "Construction Regulations 2014 (regs 5, 8, 9, 10, 11, 13)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Legal appointments and documents
+        questions:
+          - { text: "Construction work permit and notification are on site", type: PASS_FAIL, critical: true }
+          - { text: "Section 16(2), construction supervisor and other appointments are in writing", type: PASS_FAIL, critical: true }
+          - { text: "Health and safety file is on site and current", type: PASS_FAIL }
+          - { text: "Documented risk assessment covers the work in progress", type: PASS_FAIL, critical: true }
+      - title: Site conditions
+        questions:
+          - { text: "Perimeter is secured and the public is protected", type: PASS_FAIL, critical: true }
+          - { text: "Edge protection and openings are covered and marked", type: PASS_FAIL, critical: true }
+          - { text: "Access routes are safe and adequately lit", type: PASS_FAIL }
+          - { text: "Welfare facilities are provided and clean", type: PASS_FAIL }
+      - title: Plant and equipment
+        questions:
+          - { text: "Lifting machinery has a current load test certificate", type: PASS_FAIL, critical: true }
+          - { text: "Operators hold the required competency for the plant they use", type: PASS_FAIL, critical: true }
+          - { text: "Electrical distribution on site is protected and inspected", type: PASS_FAIL }
+
+  - code: CON-SCAFFOLD
+    title: Scaffold inspection
+    industry: CONSTRUCTION
+    basis: "Construction Regulations 16; SANS 10085 (scaffolding)"
+    subject_type: ASSET
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Structure
+        questions:
+          - { text: "Base plates and sole boards are on firm, level ground", type: PASS_FAIL, critical: true }
+          - { text: "Standards, ledgers and braces are complete and secured", type: PASS_FAIL, critical: true }
+          - { text: "Scaffold is tied to the structure at the required intervals", type: PASS_FAIL, critical: true }
+          - { text: "No components are damaged, bent or corroded", type: PASS_FAIL }
+      - title: Platforms and access
+        questions:
+          - { text: "Boards are fully decked, secured and free of defects", type: PASS_FAIL, critical: true }
+          - { text: "Guardrails, mid-rails and toe boards are fitted at every open edge", type: PASS_FAIL, critical: true }
+          - { text: "Safe access ladder is secured and extends past the platform", type: PASS_FAIL }
+      - title: Certification
+        questions:
+          - { text: "Scafftag is displayed, current and signed by a competent person", type: PASS_FAIL, critical: true }
+          - { text: "Erected and inspected by a registered scaffold inspector", type: PASS_FAIL, critical: true }
+
+  - code: CON-EXCAVATION
+    title: Excavation inspection
+    industry: CONSTRUCTION
+    basis: "Construction Regulations 13 (excavation work)"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Stability
+        questions:
+          - { text: "Sides are shored, benched or battered to the approved design", type: PASS_FAIL, critical: true }
+          - { text: "Spoil and plant are kept clear of the excavation edge", type: PASS_FAIL, critical: true }
+          - { text: "Excavation inspected by a competent person before each shift", type: PASS_FAIL, critical: true }
+      - title: Services and access
+        questions:
+          - { text: "Underground services were located and are protected", type: PASS_FAIL, critical: true }
+          - { text: "Safe means of entry and exit within 8 m of any worker", type: PASS_FAIL, critical: true }
+          - { text: "Barricading and warning signage are in place", type: PASS_FAIL }
+      - title: Atmosphere and water
+        questions:
+          - { text: "Atmosphere tested where depth or contamination requires it", type: PASS_FAIL }
+          - { text: "Water accumulation is controlled and pumped clear", type: PASS_FAIL }
+
+  # ── Manufacturing ─────────────────────────────────────────────────────────────────────────
+  - code: MAN-GUARDING
+    title: Machinery guarding and isolation
+    industry: MANUFACTURING
+    basis: "Driven Machinery Regulations 2, 6; General Machinery Regulations"
+    subject_type: ASSET
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Guarding
+        questions:
+          - { text: "All moving parts and nip points are guarded", type: PASS_FAIL, critical: true }
+          - { text: "Interlocks function and cannot be defeated", type: PASS_FAIL, critical: true }
+          - { text: "Guards are secure and require a tool to remove", type: PASS_FAIL }
+      - title: Emergency stops and controls
+        questions:
+          - { text: "Emergency stops are reachable from the operating position and work", type: PASS_FAIL, critical: true }
+          - { text: "Controls are labelled and start-up gives adequate warning", type: PASS_FAIL }
+      - title: Isolation and maintenance
+        questions:
+          - { text: "Lock-out/tag-out points are identified and functional", type: PASS_FAIL, critical: true }
+          - { text: "Maintenance is up to date per the machinery register", type: PASS_FAIL }
+          - { text: "Competent operator appointment is in place", type: PASS_FAIL }
+
+  # ── Warehousing and logistics ─────────────────────────────────────────────────────────────
+  - code: LOG-RACKING
+    title: Warehouse racking and storage
+    industry: LOGISTICS
+    basis: "SANS 10367 (steel storage racking); OHS Act s8"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Racking condition
+        questions:
+          - { text: "No bent, damaged or displaced uprights or beams", type: PASS_FAIL, critical: true }
+          - { text: "Beam safety locks are engaged throughout", type: PASS_FAIL, critical: true }
+          - { text: "Racking is plumb and anchored to the floor", type: PASS_FAIL, critical: true }
+          - { text: "Load notices are displayed and legible", type: PASS_FAIL }
+      - title: Loading practice
+        questions:
+          - { text: "Loads are within rated capacity and evenly distributed", type: PASS_FAIL }
+          - { text: "Pallets are sound and loads stable", type: PASS_FAIL }
+          - { text: "Aisles are clear and the correct width for the equipment used", type: PASS_FAIL }
+          - { text: "Damage reported since last inspection (count)", type: NUMBER }
+
+  - code: LOG-FORKLIFT
+    title: Forklift pre-use check
+    industry: LOGISTICS
+    basis: "Driven Machinery Regulation 18 (lifting equipment); SANS 10388"
+    subject_type: VEHICLE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Before starting
+        questions:
+          - { text: "No visible leaks of hydraulic oil, fuel or coolant", type: PASS_FAIL }
+          - { text: "Tyres are sound and correctly inflated", type: PASS_FAIL }
+          - { text: "Forks are undamaged and heel wear is within limits", type: PASS_FAIL, critical: true }
+          - { text: "Load chart is present and legible", type: PASS_FAIL }
+      - title: Operating checks
+        questions:
+          - { text: "Service and parking brakes function correctly", type: PASS_FAIL, critical: true }
+          - { text: "Steering, horn, lights and reversing alarm work", type: PASS_FAIL, critical: true }
+          - { text: "Mast, tilt and hydraulics operate smoothly without drift", type: PASS_FAIL }
+          - { text: "Seat belt and overhead guard are intact and used", type: PASS_FAIL, critical: true }
+      - title: Operator
+        questions:
+          - { text: "Operator holds a current licence for this class of machine", type: PASS_FAIL, critical: true }
+          - { text: "Hour meter reading", type: NUMBER }
+
+  # ── Transport and fleet ───────────────────────────────────────────────────────────────────
+  - code: FLT-VEHICLE
+    title: Vehicle pre-trip inspection
+    industry: TRANSPORT
+    basis: "National Road Traffic Act 93 of 1996; Chapter VI roadworthiness"
+    subject_type: VEHICLE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 100
+    sections:
+      - title: Roadworthiness
+        questions:
+          - { text: "Tyres have legal tread depth and no sidewall damage", type: PASS_FAIL, critical: true }
+          - { text: "Brakes function correctly with no pull or noise", type: PASS_FAIL, critical: true }
+          - { text: "All lights, indicators and reflectors work", type: PASS_FAIL, critical: true }
+          - { text: "Windscreen, wipers and mirrors are clear and intact", type: PASS_FAIL }
+      - title: Documents and equipment
+        questions:
+          - { text: "Licence disc and operator card are current", type: PASS_FAIL }
+          - { text: "Driver holds the correct licence and PrDP where required", type: PASS_FAIL, critical: true }
+          - { text: "Fire extinguisher, triangle and first aid kit are present", type: PASS_FAIL }
+      - title: Load
+        questions:
+          - { text: "Load is secured and within mass limits", type: PASS_FAIL, critical: true }
+          - { text: "Odometer reading", type: NUMBER }
+
+  # ── Food and hospitality ──────────────────────────────────────────────────────────────────
+  - code: FOOD-HYGIENE
+    title: Food premises hygiene
+    industry: HOSPITALITY
+    basis: "R638 of 2018 (hygiene requirements for food premises); SANS 10049"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Temperature control
+        questions:
+          - { text: "Cold storage is at or below 5 °C", type: PASS_FAIL, critical: true }
+          - { text: "Hot holding is at or above 65 °C", type: PASS_FAIL, critical: true }
+          - { text: "Temperature records are complete for the period", type: PASS_FAIL }
+          - { text: "Recorded fridge temperature (°C)", type: NUMBER }
+      - title: Personal hygiene
+        questions:
+          - { text: "Hand wash basins are stocked with soap and drying means", type: PASS_FAIL, critical: true }
+          - { text: "Staff wear clean protective clothing and hair restraint", type: PASS_FAIL }
+          - { text: "No staff handling food while unwell or with uncovered wounds", type: PASS_FAIL, critical: true }
+      - title: Premises and pests
+        questions:
+          - { text: "Surfaces, equipment and utensils are clean and sound", type: PASS_FAIL }
+          - { text: "No evidence of pest activity; proofing is intact", type: PASS_FAIL, critical: true }
+          - { text: "Waste is stored in covered bins and removed regularly", type: PASS_FAIL }
+          - { text: "Certificate of Acceptability is displayed and current", type: PASS_FAIL, critical: true }
+
+  # ── Healthcare ────────────────────────────────────────────────────────────────────────────
+  - code: HLT-INFECTION
+    title: Infection prevention and control
+    industry: HEALTHCARE
+    basis: "Hazardous Biological Agents Regulations; National Core Standards (IPC)"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Hand hygiene and PPE
+        questions:
+          - { text: "Hand hygiene stations are stocked and accessible at point of care", type: PASS_FAIL, critical: true }
+          - { text: "Gloves, aprons and masks are available and correctly used", type: PASS_FAIL, critical: true }
+          - { text: "Hand hygiene compliance observed (%)", type: NUMBER }
+      - title: Sharps and waste
+        questions:
+          - { text: "Sharps containers are correct, not overfilled and correctly sited", type: PASS_FAIL, critical: true }
+          - { text: "Healthcare risk waste is segregated and correctly bagged", type: PASS_FAIL, critical: true }
+          - { text: "Waste is stored securely pending collection", type: PASS_FAIL }
+      - title: Environment
+        questions:
+          - { text: "Cleaning schedules are complete and signed", type: PASS_FAIL }
+          - { text: "Isolation precautions are signed and observed where in force", type: PASS_FAIL, critical: true }
+          - { text: "Linen is handled and stored correctly", type: PASS_FAIL }
+
+  # ── Agriculture ───────────────────────────────────────────────────────────────────────────
+  - code: AGR-GENERAL
+    title: Farm safety inspection
+    industry: AGRICULTURE
+    basis: "OHS Act s8; Hazardous Chemical Agents Regulations (pesticides); DMR (tractors)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Machinery
+        questions:
+          - { text: "Power take-off guards are fitted and intact", type: PASS_FAIL, critical: true }
+          - { text: "Tractors have functioning roll-over protection and seat belts", type: PASS_FAIL, critical: true }
+          - { text: "Operators are trained and authorised for the machinery used", type: PASS_FAIL, critical: true }
+      - title: Chemicals
+        questions:
+          - { text: "Pesticides are stored locked, ventilated and separate from food", type: PASS_FAIL, critical: true }
+          - { text: "Re-entry intervals are posted and observed", type: PASS_FAIL, critical: true }
+          - { text: "Spray operators have the required PPE and it is clean", type: PASS_FAIL }
+          - { text: "Washing facilities are available where chemicals are handled", type: PASS_FAIL }
+      - title: Welfare and workers
+        questions:
+          - { text: "Drinking water, shade and sanitation are provided in the field", type: PASS_FAIL }
+          - { text: "Seasonal workers received induction before starting", type: PASS_FAIL }
+
+  # ── Office and general commercial ─────────────────────────────────────────────────────────
+  - code: OFF-GENERAL
+    title: Office workplace inspection
+    industry: OFFICE
+    basis: "Facilities Regulations; Environmental Regulations for Workplaces"
+    subject_type: AREA
+    scoring_mode: PERCENTAGE
+    pass_threshold: 85
+    sections:
+      - title: Workstations
+        questions:
+          - { text: "Workstations are adjusted to the user with adequate legroom", type: PASS_FAIL }
+          - { text: "Screens are at a suitable height and free of glare", type: PASS_FAIL }
+          - { text: "Chairs are functional and adjustable", type: PASS_FAIL }
+      - title: Environment
+        questions:
+          - { text: "Cables are managed and not a trip hazard", type: PASS_FAIL }
+          - { text: "Temperature and ventilation are comfortable", type: SCALE }
+          - { text: "Lighting is adequate at the task surface", type: PASS_FAIL }
+      - title: Facilities and emergency
+        questions:
+          - { text: "Ablutions are clean, stocked and in working order", type: PASS_FAIL }
+          - { text: "Evacuation plan is displayed and assembly point is known", type: PASS_FAIL }
+          - { text: "Fire equipment and first aid box are accessible", type: PASS_FAIL, critical: true }
+
+  # ─────────────────────────────────────────────────────────────────────────────────────────────
+  # QUALITY (QLT-2)
+  #
+  # The eight disciplines the requirement names. Same engine, same versioning, same scoring as
+  # the safety checklists — what separates them is `discipline`, so a concrete pour checklist
+  # does not appear in a safety inspector's list and a fall-protection one does not appear in a
+  # quality engineer's.
+  #
+  # `critical: true` here means the element cannot be accepted, in the same way it means
+  # somebody could be killed on the safety templates: a strength failure or an unqualified
+  # welder is not a score deduction, it is a stop.
+  #
+  # ⚠️ Same standing as the rest of this library: assembled from the published standards named in
+  # each `basis` line, not from a certified body's model documents. A competent person must
+  # confirm them before they are relied on as evidence of conformance.
+  # ─────────────────────────────────────────────────────────────────────────────────────────────
+
+  - code: QLT-CONCRETE
+    title: Concrete — pre-pour and post-pour acceptance
+    industry: CONSTRUCTION
+    discipline: CONCRETE
+    basis: "SANS 10100-2 (concrete works); SANS 5861 (sampling and testing)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Before the pour
+        questions:
+          - text: Reinforcement is as per the current drawing revision, and the revision is on site
+            type: YES_NO
+            critical: true
+          - text: Cover to reinforcement checked and within tolerance
+            type: YES_NO
+            critical: true
+          - text: Formwork is clean, true, braced and sealed against grout loss
+            type: YES_NO
+          - text: Embedded items, sleeves and cast-in plates positioned and secured
+            type: YES_NO
+          - text: Pour card raised and approved by the engineer
+            type: YES_NO
+            critical: true
+      - title: The pour
+        questions:
+          - text: Delivery notes checked against the specified mix design
+            type: YES_NO
+            critical: true
+          - text: Slump tested on arrival and within the specified range
+            type: NUMBER
+          - text: Cubes taken at the specified frequency and identified
+            type: YES_NO
+            critical: true
+          - text: Placing and compaction method as specified, no segregation observed
+            type: YES_NO
+      - title: After the pour
+        questions:
+          - text: Curing started within the specified time and maintained
+            type: YES_NO
+            critical: true
+          - text: Surface finish within tolerance, no honeycombing or exposed steel
+            type: YES_NO
+          - text: Dimensional check against drawing completed
+            type: YES_NO
+
+  - code: QLT-STEEL
+    title: Structural steel — erection and connection acceptance
+    industry: CONSTRUCTION
+    discipline: STEEL
+    basis: "SANS 2001-CS1 (structural steelwork); SANS 10162"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Material and identification
+        questions:
+          - text: Mill certificates received and traceable to the members on site
+            type: YES_NO
+            critical: true
+          - text: Members free of damage, distortion and corrosion beyond tolerance
+            type: YES_NO
+      - title: Erection
+        questions:
+          - text: Setting out, line, level and plumb within specified tolerance
+            type: YES_NO
+            critical: true
+          - text: Temporary bracing in place and adequate for the stage
+            type: YES_NO
+            critical: true
+          - text: Bolts of the specified grade, correctly made up and torqued
+            type: YES_NO
+            critical: true
+          - text: Torque records available for the connections specified as controlled
+            type: YES_NO
+      - title: Protection
+        questions:
+          - text: Protective coating intact, touch-up done where damaged
+            type: YES_NO
+          - text: Fire protection applied to the specified thickness where required
+            type: YES_NO
+
+  - code: QLT-WELDING
+    title: Welding — procedure, qualification and visual acceptance
+    industry: CONSTRUCTION
+    discipline: WELDING
+    basis: "SANS 10044 / ISO 5817 (weld quality levels); ISO 9606 (welder qualification)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Before welding
+        questions:
+          - text: Approved welding procedure specification available at the workface
+            type: YES_NO
+            critical: true
+          - text: Welder qualified and in date for this procedure and position
+            type: YES_NO
+            critical: true
+          - text: Consumables as specified, correctly stored and identified
+            type: YES_NO
+            critical: true
+          - text: Joint preparation, fit-up and cleanliness as specified
+            type: YES_NO
+          - text: Preheat applied and measured where the procedure requires it
+            type: NUMBER
+      - title: Visual acceptance
+        questions:
+          - text: No cracks, incomplete fusion or incomplete penetration
+            type: YES_NO
+            critical: true
+          - text: Undercut, porosity and spatter within the specified quality level
+            type: YES_NO
+          - text: Weld size and profile within tolerance
+            type: YES_NO
+          - text: Welds identified and traceable to the welder
+            type: YES_NO
+      - title: Non-destructive testing
+        questions:
+          - text: NDT carried out at the specified extent by a qualified technician
+            type: YES_NO
+          - text: NDT reports received and acceptable
+            type: YES_NO
+            critical: true
+
+  - code: QLT-ELECTRICAL
+    title: Electrical installation — acceptance and compliance
+    industry: CONSTRUCTION
+    discipline: ELECTRICAL
+    basis: "SANS 10142-1 (wiring code); Electrical Installation Regulations"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Installation
+        questions:
+          - text: Cable type, size and derating as per the approved design
+            type: YES_NO
+            critical: true
+          - text: Routing, support and segregation from other services as specified
+            type: YES_NO
+          - text: Terminations made up correctly and torqued where specified
+            type: YES_NO
+            critical: true
+          - text: Earthing and bonding complete and continuous
+            type: YES_NO
+            critical: true
+          - text: Circuits labelled and the distribution board schedule updated
+            type: YES_NO
+      - title: Testing and certification
+        questions:
+          - text: Insulation resistance, continuity and polarity tested and recorded
+            type: YES_NO
+            critical: true
+          - text: Earth fault loop impedance and RCD operation verified
+            type: YES_NO
+            critical: true
+          - text: Certificate of compliance issued by a registered person
+            type: YES_NO
+            critical: true
+
+  - code: QLT-PLUMBING
+    title: Plumbing and drainage — installation and test acceptance
+    industry: CONSTRUCTION
+    discipline: PLUMBING
+    basis: "SANS 10252-1 (water supply); SANS 10252-2 (drainage); SANS 10400-P"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Installation
+        questions:
+          - text: Pipe material, class and jointing method as specified
+            type: YES_NO
+            critical: true
+          - text: Falls and gradients on drainage within specification
+            type: YES_NO
+            critical: true
+          - text: Supports, brackets and thermal movement provision as specified
+            type: YES_NO
+          - text: Sleeves and fire-stopping at penetrations complete
+            type: YES_NO
+      - title: Testing
+        questions:
+          - text: Pressure test held for the specified duration with no loss
+            type: YES_NO
+            critical: true
+          - text: Drainage air or water test passed
+            type: YES_NO
+            critical: true
+          - text: Test records signed and filed
+            type: YES_NO
+
+  - code: QLT-WATERPROOFING
+    title: Waterproofing — substrate, application and flood test
+    industry: CONSTRUCTION
+    discipline: WATERPROOFING
+    basis: "SANS 10021 (waterproofing of buildings); manufacturer's specification"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 95
+    sections:
+      - title: Substrate
+        questions:
+          - text: Substrate sound, dry and prepared to the manufacturer's requirement
+            type: YES_NO
+            critical: true
+          - text: Falls to outlets correct, no ponding areas
+            type: YES_NO
+            critical: true
+          - text: Fillets, upstands and terminations formed as detailed
+            type: YES_NO
+      - title: Application
+        questions:
+          - text: Correct product, batch recorded and within shelf life
+            type: YES_NO
+            critical: true
+          - text: Number of coats and coverage rate as specified
+            type: YES_NO
+          - text: Laps, reinforcement at corners and detailing as specified
+            type: YES_NO
+      - title: Testing
+        questions:
+          - text: Flood test held for the specified period with no leakage
+            type: YES_NO
+            critical: true
+          - text: Guarantee or warranty documentation received
+            type: YES_NO
+
+  - code: QLT-FINISHES
+    title: Finishes — acceptance and handover condition
+    industry: CONSTRUCTION
+    discipline: FINISHES
+    basis: "SANS 10155 / SANS 2001 series; project specification and approved samples"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 85
+    sections:
+      - title: Conformance
+        questions:
+          - text: Material, colour and texture match the approved sample
+            type: YES_NO
+            critical: true
+          - text: Level, flatness and plumb within the specified tolerance
+            type: YES_NO
+          - text: Joints, edges and junctions as detailed
+            type: YES_NO
+          - text: Setting out and module alignment as drawn
+            type: YES_NO
+      - title: Condition
+        questions:
+          - text: No damage, staining or marking from following trades
+            type: YES_NO
+          - text: Protection in place until handover
+            type: YES_NO
+          - text: Snag list raised and signed off
+            type: YES_NO
+
+  - code: QLT-MATERIALS
+    title: Materials — receiving, verification and storage
+    industry: CONSTRUCTION
+    discipline: MATERIALS
+    basis: "ISO 9001 clause 8.4 (externally provided processes, products and services)"
+    subject_type: SITE
+    scoring_mode: PERCENTAGE
+    pass_threshold: 90
+    sections:
+      - title: Receiving
+        questions:
+          - text: Delivery matches the order and the approved material schedule
+            type: YES_NO
+            critical: true
+          - text: Material from an approved supplier on the project's list
+            type: YES_NO
+            critical: true
+          - text: Certificates, batch records or test reports received with the delivery
+            type: YES_NO
+            critical: true
+          - text: Quantity and condition checked, damage recorded before offloading
+            type: YES_NO
+      - title: Identification and storage
+        questions:
+          - text: Material identified and traceable to its certificate
+            type: YES_NO
+            critical: true
+          - text: Stored off the ground, covered and separated as the specification requires
+            type: YES_NO
+          - text: Shelf-life items marked with their expiry and rotated
+            type: YES_NO
+          - text: Non-conforming material quarantined and labelled
+            type: YES_NO
+            critical: true

@@ -1,0 +1,664 @@
+<title>Payroll Handbook</title>
+<style>
+  :root {
+    --paper:      #F4F5F7;
+    --card:       #FFFFFF;
+    --ink:        #1C1F26;
+    --ink-soft:   #4A5160;
+    --ink-faint:  #767E8E;
+    --rule:       #D6D9E0;
+    --rule-soft:  #E7E9ED;
+    --accent:     #8C2F39;
+    --seal:       #0F5257;
+    --warn-bg:    #FBF3E7;
+    --warn-edge:  #C4873A;
+    --note-bg:    #EDF3F3;
+    --note-edge:  #0F5257;
+    --code-bg:    #EEF0F3;
+
+    --display: Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --body:    ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono:    ui-monospace, Menlo, Consolas, "Courier New", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #14171C;
+      --card:       #1B1F26;
+      --ink:        #E9EBEF;
+      --ink-soft:   #AEB6C4;
+      --ink-faint:  #7B8394;
+      --rule:       #333944;
+      --rule-soft:  #262B33;
+      --accent:     #E0808A;
+      --seal:       #5FB4B0;
+      --warn-bg:    #2A2318;
+      --warn-edge:  #C4873A;
+      --note-bg:    #17262A;
+      --note-edge:  #5FB4B0;
+      --code-bg:    #242932;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper:      #14171C;
+    --card:       #1B1F26;
+    --ink:        #E9EBEF;
+    --ink-soft:   #AEB6C4;
+    --ink-faint:  #7B8394;
+    --rule:       #333944;
+    --rule-soft:  #262B33;
+    --accent:     #E0808A;
+    --seal:       #5FB4B0;
+    --warn-bg:    #2A2318;
+    --warn-edge:  #C4873A;
+    --note-bg:    #17262A;
+    --note-edge:  #5FB4B0;
+    --code-bg:    #242932;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 74rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  /* ── Head ────────────────────────────────────────────────────────────── */
+
+  header.top {
+    border-bottom: 2px solid var(--ink);
+    padding: 3rem 0 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .eyebrow {
+    font-size: .69rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 650;
+    margin: 0 0 1rem;
+  }
+  h1 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(2.2rem, 5.5vw, 3.4rem);
+    line-height: 1.05;
+    letter-spacing: -.015em;
+    margin: 0 0 .8rem;
+    text-wrap: balance;
+  }
+  .standfirst { font-size: 1.08rem; color: var(--ink-soft); max-width: 56ch; margin: 0; }
+
+  /* ── Layout: contents beside body ────────────────────────────────────── */
+
+  .layout { display: grid; gap: 2.5rem; }
+  @media (min-width: 60rem) {
+    .layout { grid-template-columns: 15rem 1fr; align-items: start; }
+    nav.toc { position: sticky; top: 1.5rem; }
+  }
+
+  nav.toc { border-top: 1px solid var(--rule); padding-top: 1rem; }
+  nav.toc h2 {
+    font-family: var(--mono);
+    font-size: .66rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+    margin: 0 0 .8rem;
+  }
+  nav.toc ol { list-style: none; margin: 0 0 1.5rem; padding: 0; counter-reset: toc; }
+  nav.toc li { counter-increment: toc; margin-bottom: .1rem; }
+  nav.toc a {
+    display: block;
+    text-decoration: none;
+    color: var(--ink-soft);
+    font-size: .87rem;
+    padding: .28rem 0;
+    border-bottom: 1px solid transparent;
+  }
+  nav.toc a::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--mono);
+    font-size: .68rem;
+    color: var(--ink-faint);
+    margin-right: .6rem;
+  }
+  nav.toc a:hover, nav.toc a:focus-visible { color: var(--accent); border-bottom-color: var(--rule); }
+  nav.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ── Sections ────────────────────────────────────────────────────────── */
+
+  section { scroll-margin-top: 1.5rem; margin-bottom: 3.5rem; }
+  section:last-child { margin-bottom: 0; }
+
+  h2.sec {
+    font-family: var(--display);
+    font-size: clamp(1.4rem, 3vw, 1.85rem);
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin: 0 0 .3rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--ink);
+    text-wrap: balance;
+  }
+  .sec-sub { color: var(--ink-faint); font-size: .88rem; margin: 0 0 1.5rem; }
+
+  h3 {
+    font-size: 1.02rem;
+    font-weight: 650;
+    margin: 2rem 0 .6rem;
+    letter-spacing: -.005em;
+  }
+  h3:first-of-type { margin-top: 1.2rem; }
+
+  p { max-width: 68ch; color: var(--ink-soft); }
+  p.intro { color: var(--ink); }
+  strong { color: var(--ink); font-weight: 650; }
+
+  /* ── Numbered procedures — the order genuinely matters ───────────────── */
+
+  ol.steps { counter-reset: step; list-style: none; margin: 1rem 0 1.5rem; padding: 0; }
+  ol.steps > li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 1.05rem 2.6rem;
+    max-width: 68ch;
+    color: var(--ink-soft);
+    font-size: .95rem;
+  }
+  ol.steps > li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: .06rem;
+    width: 1.65rem;
+    height: 1.65rem;
+    display: grid;
+    place-items: center;
+    font-family: var(--mono);
+    font-size: .74rem;
+    color: var(--card);
+    background: var(--accent);
+    border-radius: 50%;
+  }
+  ol.steps > li b { color: var(--ink); font-weight: 650; }
+  ol.steps > li:last-child { padding-bottom: 0; }
+
+  ul.plain { padding-left: 1.15rem; margin: .6rem 0 1.2rem; max-width: 68ch; }
+  ul.plain li { margin-bottom: .45rem; color: var(--ink-soft); font-size: .94rem; }
+  ul.plain li b { color: var(--ink); font-weight: 650; }
+
+  /* ── Screen path chips ───────────────────────────────────────────────── */
+
+  .path {
+    font-family: var(--mono);
+    font-size: .78rem;
+    background: var(--code-bg);
+    border: 1px solid var(--rule-soft);
+    border-radius: 2px;
+    padding: .08rem .38rem;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+
+  /* ── Callouts ────────────────────────────────────────────────────────── */
+
+  .callout {
+    border-left: 3px solid var(--note-edge);
+    background: var(--note-bg);
+    padding: .9rem 1.1rem;
+    margin: 1.3rem 0;
+    max-width: 68ch;
+    border-radius: 0 3px 3px 0;
+  }
+  .callout.warn { border-left-color: var(--warn-edge); background: var(--warn-bg); }
+  .callout p { margin: 0; font-size: .9rem; color: var(--ink-soft); max-width: none; }
+  .callout .label {
+    display: block;
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--note-edge);
+    margin-bottom: .35rem;
+    font-weight: 600;
+  }
+  .callout.warn .label { color: var(--warn-edge); }
+
+  /* ── Tables ──────────────────────────────────────────────────────────── */
+
+  .scroll { overflow-x: auto; margin: 1.2rem 0 1.5rem; }
+  table { width: 100%; border-collapse: collapse; min-width: 34rem; }
+  caption { text-align: left; font-size: .84rem; color: var(--ink-faint); padding-bottom: .7rem; }
+  th, td { text-align: left; padding: .68rem 1rem .68rem 0; border-bottom: 1px solid var(--rule-soft); vertical-align: top; font-size: .9rem; }
+  thead th {
+    font-family: var(--mono);
+    font-size: .66rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+    border-bottom: 1px solid var(--rule);
+  }
+  tbody th { font-weight: 650; color: var(--ink); width: 30%; }
+  td { color: var(--ink-soft); }
+  td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+
+  /* ── Stage strip for the run lifecycle ───────────────────────────────── */
+
+  .stages { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 1.4rem 0 1.5rem; }
+  @media (min-width: 44rem) { .stages { grid-template-columns: repeat(5, 1fr); } }
+  .stage { background: var(--card); padding: .9rem .85rem; }
+  .stage .n {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .1em;
+    color: var(--seal);
+    display: block;
+    margin-bottom: .3rem;
+  }
+  .stage b { display: block; font-size: .88rem; margin-bottom: .2rem; }
+  .stage span.d { font-size: .8rem; color: var(--ink-faint); line-height: 1.45; }
+
+  footer.end {
+    margin-top: 3rem;
+    border-top: 2px solid var(--ink);
+    padding-top: 1.25rem;
+    font-family: var(--mono);
+    font-size: .74rem;
+    color: var(--ink-faint);
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">Mkhaya Hub &middot; User Manual</p>
+    <h1>Payroll &amp; Payroll Bureau</h1>
+    <p class="standfirst">How to set up, run, approve, pay and file — for your own company and for client companies you run payroll for.</p>
+  </header>
+
+  <div class="layout">
+
+    <nav class="toc" aria-label="Contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#which">Which module you need</a></li>
+        <li><a href="#setup">Setting up Payroll</a></li>
+        <li><a href="#cycle">Choosing the pay cycle</a></li>
+        <li><a href="#run">Running a payroll</a></li>
+        <li><a href="#approve">Approvals &amp; corrections</a></li>
+        <li><a href="#pay">Paying people</a></li>
+        <li><a href="#payslips">Payslips &amp; self-service</a></li>
+        <li><a href="#statutory">SARS submissions</a></li>
+        <li><a href="#bureau-setup">Bureau: client setup</a></li>
+        <li><a href="#bureau-run">Bureau: running a client</a></li>
+        <li><a href="#checks">Assurance checks</a></li>
+        <li><a href="#insight">Reports &amp; simulations</a></li>
+        <li><a href="#trouble">Troubleshooting</a></li>
+      </ol>
+    </nav>
+
+    <main>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="which">
+        <h2 class="sec">Which module you need</h2>
+        <p class="sec-sub">They share one tax engine but serve different people.</p>
+
+        <p class="intro">Use <strong>Payroll</strong> to pay your own employees. It draws on their HR profiles, posts to your general ledger and your departmental budgets, and files your company's own returns.</p>
+        <p>Use <strong>Payroll Bureau</strong> when you run payroll <em>for other companies</em> — an accounting practice, a payroll service, or a group paying several legal entities. Each client company is kept separate, with its own SARS references, employee register, pay cycle and returns.</p>
+
+        <div class="callout">
+          <span class="label">Both at once</span>
+          <p>Many practices use both: Payroll for their own staff, Bureau for their clients. The two do not share employee data, and figures are calculated identically in each.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="setup">
+        <h2 class="sec">Setting up Payroll</h2>
+        <p class="sec-sub">Do this once, before your first run.</p>
+
+        <ol class="steps">
+          <li><b>Open the settings.</b> Go to <span class="path">Payroll &rsaquo; Settings</span>. Set your currency, pay day, and overtime rate multiplier.</li>
+          <li><b>Choose the pay cycle</b> — Weekly, Fortnightly or Monthly. See the next section; this affects tax, not just labelling.</li>
+          <li><b>Switch on the statutory deductions</b> you are liable for: PAYE, UIF and SDL. Leave a levy off only if your company genuinely is not registered for it.</li>
+          <li><b>Check the tax tables.</b> <span class="path">Payroll &rsaquo; Tax tables</span> shows the SARS parameters in use for each year of assessment — brackets, rebates, medical credits, UIF ceiling and SDL threshold. Confirm the current year is loaded before your first run.</li>
+          <li><b>Set up the approval chain.</b> <span class="path">Payroll &rsaquo; Settings &rsaquo; Approval steps</span> — add a step per approver, by role or by named person, in the order they must sign off.</li>
+          <li><b>Enter your banking format.</b> <span class="path">Payroll &rsaquo; Bank settings</span> — your bank determines the ACB file layout used when you generate a payment file.</li>
+          <li><b>Confirm employee packages.</b> Payroll reads each person's monthly package from their HR profile. Anyone with a blank package will come through at zero.</li>
+        </ol>
+
+        <div class="callout warn">
+          <span class="label">Before the first live run</span>
+          <p>Run one payroll in draft and check three people by hand — a low earner, a high earner, and someone with a medical aid and a retirement contribution. It is far cheaper to find a setup mistake in draft than in a released run.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="cycle">
+        <h2 class="sec">Choosing the pay cycle</h2>
+        <p class="sec-sub">Weekly, fortnightly and monthly are supported. The choice changes the arithmetic.</p>
+
+        <p class="intro">Pay frequency is not a display setting. It determines how income is annualised for PAYE, how far the UIF ceiling is scaled down, how ETI bands are measured, and how much of a monthly loan instalment may be recovered in one period.</p>
+
+        <div class="scroll">
+          <table>
+            <caption>The same R312 000 salary across the three cycles.</caption>
+            <thead>
+              <tr><th scope="col">Cycle</th><th scope="col" class="num">Periods a year</th><th scope="col" class="num">Gross per period</th><th scope="col" class="num">UIF ceiling</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Monthly</th><td class="num">12</td><td class="num">26 000.00</td><td class="num">17 712.00</td></tr>
+              <tr><th scope="row">Fortnightly</th><td class="num">26</td><td class="num">12 000.00</td><td class="num">8 174.77</td></tr>
+              <tr><th scope="row">Weekly</th><td class="num">52</td><td class="num">6 000.00</td><td class="num">4 087.38</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Because HR captures pay as a <strong>monthly package</strong>, Payroll scales that figure down to the length of your pay period automatically. A person on a R26 000 monthly package who is paid weekly receives R6 000 a week, not R26 000. The same applies to monthly loan instalments.</p>
+
+        <div class="callout">
+          <span class="label">Total tax is unchanged</span>
+          <p>Paying someone weekly rather than monthly does not increase or reduce their annual PAYE. The engine annualises each period at the correct number of periods, so twelve monthly deductions and fifty-two weekly ones arrive at the same year.</p>
+        </div>
+
+        <div class="callout warn">
+          <span class="label">One cycle per company here</span>
+          <p>In Payroll the cycle is a single company-wide setting. If you need to pay weekly wage staff alongside monthly salaried staff in the same entity, use <strong>Payroll Bureau</strong>, where the cycle can also be set per employee.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="run">
+        <h2 class="sec">Running a payroll</h2>
+        <p class="sec-sub">Draft to released, in five stages.</p>
+
+        <div class="stages">
+          <div class="stage"><span class="n">STAGE 1</span><b>Create</b><span class="d">Open a run for the period</span></div>
+          <div class="stage"><span class="n">STAGE 2</span><b>Populate</b><span class="d">Add employees and lines</span></div>
+          <div class="stage"><span class="n">STAGE 3</span><b>Calculate</b><span class="d">Engine works out PAYE, UIF, net</span></div>
+          <div class="stage"><span class="n">STAGE 4</span><b>Lock &amp; approve</b><span class="d">Sign-off chain runs</span></div>
+          <div class="stage"><span class="n">STAGE 5</span><b>Release</b><span class="d">Payslips, GL, budgets</span></div>
+        </div>
+
+        <ol class="steps">
+          <li><b>Create the run.</b> <span class="path">Payroll &rsaquo; Runs &rsaquo; Create</span>. Set the period start and end. The run gets a reference like <span class="path">PR-202608-0001</span>.</li>
+          <li><b>Add employees.</b> Select the staff to include. Each arrives with their basic salary scaled from the HR package. Use <b>Refresh salaries</b> later if someone's package changes mid-preparation.</li>
+          <li><b>Add earnings and deductions.</b> Enter overtime, allowances, travel, commission, bonus or leave pay-outs per person, or use the bulk line tool to apply one line across many employees. Use <b>Sync leave</b> to pull approved leave and unpaid days from the Leave module.</li>
+          <li><b>Calculate.</b> The engine computes gross, PAYE, UIF, pension, loan and advance recoveries, and net pay for everyone on the run. Recalculate as often as you like while the run is in draft.</li>
+          <li><b>Review the totals</b> against last period. A large movement with no known cause is worth explaining before anyone approves it.</li>
+          <li><b>Lock the run</b> to move it to Review. This stops further edits.</li>
+          <li><b>Submit for approval</b> and let the chain run — see the next section.</li>
+          <li><b>Release.</b> Payslips are finalised, rendered to password-protected PDFs, filed against each employee, emailed and notified. The salary journal posts to the general ledger and the cost is reported to departmental budgets.</li>
+        </ol>
+
+        <div class="callout warn">
+          <span class="label">Release is the point of no return</span>
+          <p>Releasing sends payslips to employees and posts to the ledger. After release, changes must go through <strong>Corrections</strong> rather than editing the run.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="approve">
+        <h2 class="sec">Approvals &amp; corrections</h2>
+        <p class="sec-sub">Who signs off, and what happens when something is wrong.</p>
+
+        <h3>Approving a run</h3>
+        <p>Approvers see pending runs at <span class="path">Payroll &rsaquo; Approvals</span>. Each can <strong>approve</strong>, <strong>reject</strong>, <strong>comment</strong>, <strong>escalate</strong> to the next level, or <strong>request a correction</strong> — which sends it back with a note rather than simply refusing it. Every decision is recorded against the run with the user and timestamp.</p>
+
+        <h3>Correcting a released run</h3>
+        <ol class="steps">
+          <li><b>Raise the correction.</b> <span class="path">Payroll &rsaquo; Corrections</span> — describe what is wrong and what the figure should be.</li>
+          <li><b>Get it approved.</b> A correction follows its own approve/reject step, so no released figure changes on one person's say-so.</li>
+          <li><b>Apply it.</b> Once approved, the correction is applied and recorded as its own event, leaving the original run and the amendment both visible.</li>
+        </ol>
+
+        <div class="callout">
+          <span class="label">Audit trail</span>
+          <p>Creation, calculation, locking, release and every approval decision are written to the payroll audit log, including the totals as they stood at the time.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="pay">
+        <h2 class="sec">Paying people</h2>
+        <p class="sec-sub">Bank file, or direct disbursement.</p>
+
+        <h3>Bank file</h3>
+        <ol class="steps">
+          <li>Confirm your bank and account details at <span class="path">Payroll &rsaquo; Bank settings</span>.</li>
+          <li>On the released run, choose <b>Generate bank file</b>. The file is produced in the ACB layout for your bank, with the standard header, contra and trailer records and hash totals.</li>
+          <li>Download it and upload it to your banking platform. Check the record count and batch total against the run before you authorise.</li>
+        </ol>
+        <p>Employees with no banking details, or with a net pay of zero or less, are left out of the file. Check the run's employee count against the file's record count if the two differ.</p>
+
+        <h3>Direct disbursement (Bureau)</h3>
+        <p>In the Bureau module you can instead connect a payout provider at <span class="path">Payroll &rsaquo; Bureau &rsaquo; Payouts</span>, test the connection, and disburse a finalised run directly. Payment status is updated by webhook as the provider confirms each transfer.</p>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="payslips">
+        <h2 class="sec">Payslips &amp; self-service</h2>
+        <p class="sec-sub">Encrypted, delivered, and retrievable by the employee.</p>
+
+        <p class="intro">On release, every payslip is rendered to a PDF locked with that employee's own payslip key, stored against their profile, emailed to them and raised as an in-app notification.</p>
+
+        <ul class="plain">
+          <li><b>Employees</b> open <span class="path">Payroll &rsaquo; My payslips</span> to see their own history and download any payslip. They need their payslip key to open the file.</li>
+          <li><b>Retrieving a key.</b> An administrator can re-issue an employee's key from the employee record if they have lost it.</li>
+          <li><b>Client employees (Bureau)</b> have no Hub login. Instead, issue a <b>portal link</b> from the employee record — a tokenised link to the payslip portal where they retrieve their own payslips.</li>
+          <li><b>Re-sending.</b> Use <b>Email payslips</b> on the run to send again, for example after fixing an address.</li>
+        </ul>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="statutory">
+        <h2 class="sec">SARS submissions</h2>
+        <p class="sec-sub">Monthly declarations, annual reconciliation, and the UIF return.</p>
+
+        <div class="scroll">
+          <table>
+            <caption>Where each return is produced and what it covers.</caption>
+            <thead>
+              <tr><th scope="col">Return</th><th scope="col">Where</th><th scope="col">Covers</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">EMP201</th>
+                <td><span class="path">Payroll &rsaquo; EMP201</span></td>
+                <td>Monthly employer declaration — PAYE, SDL and UIF less ETI, built from released runs for the tax month. Generating it stores a versioned submission with a PDF.</td>
+              </tr>
+              <tr>
+                <th scope="row">EMP501</th>
+                <td><span class="path">Payroll &rsaquo; EMP501</span></td>
+                <td>The annual (and interim) reconciliation, with IRP5/IT3(a) certificates per employee.</td>
+              </tr>
+              <tr>
+                <th scope="row">IRP5 / IT3(a)</th>
+                <td><span class="path">Payroll &rsaquo; IRP5</span></td>
+                <td>Tax certificate data for a year of assessment, as CSV.</td>
+              </tr>
+              <tr>
+                <th scope="row">e@syFile</th>
+                <td><span class="path">Payroll &rsaquo; e@syFile</span></td>
+                <td>An import file for SARS e@syFile Employer, for the selected year of assessment.</td>
+              </tr>
+              <tr>
+                <th scope="row">UI-19</th>
+                <td><span class="path">Payroll &rsaquo; UI-19</span></td>
+                <td>The Department of Employment and Labour declaration of employees and terminations.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout warn">
+          <span class="label">Year of assessment, not calendar year</span>
+          <p>The South African tax year runs from March to February. A return for August 2026 falls in the <strong>2027</strong> year of assessment. Check the year selector before you export — this catches people out every year.</p>
+        </div>
+
+        <p>Before filing, run <span class="path">Payroll &rsaquo; Compliance</span>. It checks readiness — missing tax numbers, missing SARS references, incomplete profiles — so gaps surface before SARS finds them.</p>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="bureau-setup">
+        <h2 class="sec">Bureau: setting up a client</h2>
+        <p class="sec-sub">Each client company is configured once, then run every period.</p>
+
+        <ol class="steps">
+          <li><b>Create the company.</b> <span class="path">Payroll &rsaquo; Bureau &rsaquo; Dashboard</span> &rsaquo; add a company. Capture the trading name, contact details, country and year of assessment.</li>
+          <li><b>Enter the SARS references</b> — PAYE, UIF and SDL reference numbers. These appear on the client's returns and certificates.</li>
+          <li><b>Set the pay frequency</b> for the company: monthly, fortnightly or weekly. This becomes the default cycle for its runs.</li>
+          <li><b>Build the component catalogue.</b> <span class="path">Bureau &rsaquo; Components</span> — define each earning, deduction, fringe benefit and company contribution once. For each, set how it calculates (a fixed amount, a percentage of basic, or a per-hour rate), whether it is taxable, what portion is taxable, whether it affects UIF, and whether a deduction is pre-tax. Or apply the standard set to start from a sensible default.</li>
+          <li><b>Load the employees.</b> Add them individually, or download the import template, fill it in and import. Capture ID number, tax number, bank details, occupation, start date and basic salary.</li>
+          <li><b>Assign components</b> to each employee, with an amount or quantity where the component needs one.</li>
+          <li><b>Set the special cases</b> per employee where they apply: a tax directive percentage, ETI opt-in, medical scheme members and dependants, a retirement contribution, or an individual pay frequency that differs from the company's.</li>
+        </ol>
+
+        <div class="callout">
+          <span class="label">Mixed pay cycles</span>
+          <p>Leave an employee's pay frequency blank and they follow the company's cycle. Set it explicitly — weekly, for instance — and they appear only on weekly runs. This is how you keep weekly wage staff and monthly salaried staff in one client company.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="bureau-run">
+        <h2 class="sec">Bureau: running a client</h2>
+        <p class="sec-sub">Process, review, finalise, pay, file.</p>
+
+        <ol class="steps">
+          <li><b>Create the run.</b> <span class="path">Bureau &rsaquo; Runs &rsaquo; New</span>. Set the period start, end and pay date. Choose the run type: <b>regular</b>, <b>off-cycle</b>, <b>bonus</b> or <b>termination</b>.</li>
+          <li><b>Add once-off inputs</b> where needed, per employee: a bonus or 13th cheque, a retro adjustment, a leave pay-out, a severance payment, a garnishee, or unpaid leave entered <b>in days</b> — the system converts days to an amount using the working days in that pay period.</li>
+          <li><b>Process the run.</b> Every active employee on this cycle gets a payslip, calculated through the tax engine: basic, components, PAYE, UIF, SDL, ETI, once-off amounts and net pay. Processing rebuilds the payslips cleanly, so you can process as many times as you need while the run is open.</li>
+          <li><b>Review</b> the totals: gross, PAYE, UIF employee and employer, SDL, ETI, deductions and net.</li>
+          <li><b>Finalise.</b> The run locks, payslips become password-protected PDFs, and the run can no longer be reprocessed.</li>
+          <li><b>Pay.</b> Generate and download the bank file, or disburse directly through a connected payout provider.</li>
+          <li><b>Email payslips</b> to the client's employees, or issue portal links for those who prefer to fetch their own.</li>
+          <li><b>File.</b> Produce the client's EMP201 for the month, and at year end the IRP5 export and e@syFile import file.</li>
+          <li><b>Post the journal.</b> Generate the GL journal for the client so the payroll cost reaches their accounting records.</li>
+        </ol>
+
+        <div class="callout warn">
+          <span class="label">Terminations</span>
+          <p>Terminate an employee on their record rather than deleting them. A terminated employee still appears on a run where they have a once-off input — such as a final settlement or severance — which is exactly what a final payslip needs.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="checks">
+        <h2 class="sec">Assurance checks</h2>
+        <p class="sec-sub">Run these before release, not after.</p>
+
+        <div class="scroll">
+          <table>
+            <caption>Each check can be run on demand and reviewed from its own screen.</caption>
+            <thead>
+              <tr><th scope="col">Check</th><th scope="col">What it looks for</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Anomalies</th><td>Payments that fall outside an employee's established pattern. Each is resolved or dismissed with a reason.</td></tr>
+              <tr><th scope="row">Ghost employees</th><td>People being paid who show no other sign of employment — duplicate banking details, no leave, no activity.</td></tr>
+              <tr><th scope="row">Leakage</th><td>Money leaving payroll that should not be — duplicate payments, recoveries that stopped, allowances that outlived their reason.</td></tr>
+              <tr><th scope="row">Cross-checks</th><td>Disagreements between payroll, the HR register and the ledger.</td></tr>
+              <tr><th scope="row">Change monitor</th><td>Master-data changes since the last run — banking details, salaries, status — each scored for risk and cleared by review.</td></tr>
+              <tr><th scope="row">Behaviour</th><td>Patterns in how payroll itself is being operated, rather than in what is paid.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout">
+          <span class="label">A practical habit</span>
+          <p>Run the change monitor and the ghost check between locking and approving. Both look at exactly the window an approver cannot see: what changed since last time.</p>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="insight">
+        <h2 class="sec">Reports &amp; simulations</h2>
+        <p class="sec-sub">Costing decisions before you make them.</p>
+
+        <ul class="plain">
+          <li><b>Simulations.</b> <span class="path">Payroll &rsaquo; Simulations</span> — model an increase, a new hire or a restructure and see the full employer cost, including PAYE, UIF, SDL and contributions, before committing.</li>
+          <li><b>Forecasting.</b> Projected payroll cost by month and department, built from actual released runs.</li>
+          <li><b>Analytics.</b> An executive view of payroll cost, headcount and movement over time.</li>
+          <li><b>Narrative reports.</b> A written report explaining what moved and why, section by section, exportable to PDF.</li>
+          <li><b>Scheduled reports.</b> <span class="path">Settings &rsaquo; Scheduled reports</span> — have a report generated and delivered on a schedule instead of remembering to pull it.</li>
+          <li><b>AI assistant.</b> Ask questions against your own payroll data rather than searching for the right report.</li>
+        </ul>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────────── -->
+      <section id="trouble">
+        <h2 class="sec">Troubleshooting</h2>
+        <p class="sec-sub">The problems that come up most often, and what causes them.</p>
+
+        <div class="scroll">
+          <table>
+            <caption>Symptom, cause, and what to do about it.</caption>
+            <thead>
+              <tr><th scope="col">Symptom</th><th scope="col">Usual cause and fix</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">An employee comes through at zero</th>
+                <td>No monthly package on their HR profile. Add it, then use <b>Refresh salaries</b> on the run and recalculate.</td>
+              </tr>
+              <tr>
+                <th scope="row">PAYE looks far too high or too low</th>
+                <td>Check the pay cycle in Settings first. Then check the employee's date of birth (age rebates), medical scheme members and dependants, and any retirement contribution — all four change PAYE materially.</td>
+              </tr>
+              <tr>
+                <th scope="row">No PAYE at all for someone</th>
+                <td>Either their annualised income falls under the tax threshold after rebates, or medical credits have absorbed it. Both are legitimate. If it is unexpected, check for an implausible number of medical dependants.</td>
+              </tr>
+              <tr>
+                <th scope="row">UIF looks small on a weekly payroll</th>
+                <td>Correct. The UIF ceiling is scaled to the pay period, so a weekly payslip is capped at roughly R4 087 of remuneration, not R17 712.</td>
+              </tr>
+              <tr>
+                <th scope="row">A loan is being recovered too slowly</th>
+                <td>Instalments are captured as monthly amounts and scaled to the period. On a weekly payroll, a R1 300 monthly instalment recovers R300 a week — R1 300 a month in total, as agreed.</td>
+              </tr>
+              <tr>
+                <th scope="row">Someone is missing from a bureau run</th>
+                <td>Check their individual pay frequency. If it is set to a different cycle from the run, they belong on that cycle's run instead. Also check that they are still active.</td>
+              </tr>
+              <tr>
+                <th scope="row">A statutory export comes back empty</th>
+                <td>Almost always the wrong year of assessment. Remember the tax year runs March to February — August 2026 is the 2027 year.</td>
+              </tr>
+              <tr>
+                <th scope="row">Bank file has fewer records than employees</th>
+                <td>Employees with no banking details or a net pay of zero or less are excluded. Fix the details and regenerate.</td>
+              </tr>
+              <tr>
+                <th scope="row">The run will not release</th>
+                <td>The approval chain is not complete. Check <span class="path">Payroll &rsaquo; Approvals</span> for the outstanding step.</td>
+              </tr>
+              <tr>
+                <th scope="row">A finalised run needs changing</th>
+                <td>It cannot be reprocessed by design. Use a correction, or in Bureau raise an off-cycle run for the adjustment.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="end">
+        Mkhaya Hub &middot; Payroll &amp; Payroll Bureau &middot; User manual
+      </footer>
+
+    </main>
+  </div>
+</div>

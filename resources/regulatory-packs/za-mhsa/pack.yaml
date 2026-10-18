@@ -1,0 +1,502 @@
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+# Regulatory Pack — South Africa, Mine Health and Safety Act 29 of 1996
+#
+# Mines are not OHS Act workplaces. Section 1 of the OHS Act excludes them, and the MHSA puts a
+# different regulator (the Chief Inspector of Mines, through the Principal Inspector), a different
+# notification regime (s11 and s23) and a different metric convention (DIFR, per 200 000 hours) in
+# its place. A mine running the za-ohsa pack would notify the wrong authority on the wrong form.
+#
+# Sources encoded here:
+#   MHSA 29/1996 s11         — employer's duty to identify hazards and assess risk
+#   MHSA 29/1996 s21         — record and report incidents
+#   MHSA 29/1996 s23         — reportable incidents; notify the Principal Inspector of Mines
+#   MHSA Chapter 2 regs      — daily workplace examination, ventilation, support
+#   COIDA 130/1993           — W.Cl.2 still applies; mineworkers are covered employees
+#   ODMWA 78/1973            — occupational diseases in mines and works (separate to COIDA)
+#
+# ⚠️ LEGAL REVIEW REQUIRED before production use. This is an engineering rendering of the statute,
+#    not legal advice. Section 23's categories and the reporting timeframes in the regulations carry
+#    interpretation nuance a registered practitioner must confirm — particularly what counts as a
+#    "serious injury", and the interaction between MHSA reporting and COIDA/ODMWA submissions.
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+
+pack_id: za-mhsa
+version: 2026.1.0
+jurisdiction: ZA
+name: South Africa — Mine Health and Safety Act 29 of 1996
+effective_from: 2026-01-01
+description: >
+  Incident classification, statutory notification obligations, injury metrics and retention rules
+  for mines subject to the Mine Health and Safety Act. Non-mining workplaces fall under the
+  Occupational Health and Safety Act (pack za-ohsa).
+
+applies_to_site_types: [MINE, SHAFT, PLANT, OPENCAST, PROCESSING, SITE]
+
+# ── Classification ────────────────────────────────────────────────────────────────────────────────
+# Evaluated top-down, first match wins. Most severe first.
+classifications:
+  - id: za.mhsa.s23
+    label: MHSA section 23 — reportable incidents
+    rules:
+      # A death at a mine. Notified immediately, and the site of the accident may not be disturbed
+      # without the Principal Inspector's permission (s12).
+      - id: mhsa_fatality
+        when:
+          outcome: FATALITY
+        then:
+          statutory_category: "MHSA_S23_FATAL"
+          reportable: true
+          obligations:
+            - immediate_pi_notification
+            - scene_preservation
+            - written_report_24h
+            - mine_accident_report
+            - wcl_submission_7d
+          forms: [MHSA_ACCIDENT_REPORT, WCL1_OR_WCL2]
+          investigation_minimum: ICAM
+          executive_visibility: true
+
+      # Serious injury: unconsciousness, loss of consciousness, loss of a limb or part, or an
+      # injury likely to be permanently harmful.
+      - id: mhsa_serious_injury
+        when:
+          any_of:
+            - outcome: UNCONSCIOUSNESS
+            - outcome: LOSS_OF_LIMB_OR_PART
+            - outcome: PERMANENT_DEFECT_LIKELY
+            - and:
+                - outcome: { in: [INJURY_OR_ILLNESS, LOST_TIME, MEDICAL_TREATMENT, PERMANENT_DISABILITY] }
+                - likely_incapacity_days: { gte: 14 }
+        then:
+          statutory_category: "MHSA_S23_SERIOUS"
+          reportable: true
+          obligations:
+            - immediate_pi_notification
+            - written_report_24h
+            - mine_accident_report
+            - wcl_submission_7d
+          forms: [MHSA_ACCIDENT_REPORT, WCL1_OR_WCL2]
+          investigation_minimum: ICAM
+          executive_visibility: true
+
+      # Events with the potential to cause serious injury even where nobody was hurt — the mining
+      # regime treats these as reportable in their own right, which the OHS Act largely does not.
+      - id: mhsa_dangerous_occurrence
+        when:
+          any_of:
+            - outcome: MAJOR_INCIDENT
+            - incident_type: FALL_OF_GROUND
+            - incident_type: INRUSH
+            - incident_type: SUBSIDENCE
+            - incident_type: METHANE_IGNITION
+            - incident_type: UNDERGROUND_FIRE
+            - incident_type: WINDING_PLANT_FAILURE
+            - incident_type: EXPLOSIVES_INCIDENT
+            - machinery_failure_causing_danger: true
+        then:
+          statutory_category: "MHSA_S23_DANGEROUS_OCCURRENCE"
+          reportable: true
+          obligations:
+            - immediate_pi_notification
+            - written_report_24h
+            - mine_accident_report
+          forms: [MHSA_ACCIDENT_REPORT]
+          investigation_minimum: ICAM
+          executive_visibility: true
+
+      # Occupational disease in a mine or works falls under ODMWA rather than COIDA.
+      - id: mhsa_occupational_disease
+        when:
+          incident_type: OCCUPATIONAL_DISEASE
+        then:
+          statutory_category: "ODMWA_REPORTABLE"
+          reportable: true
+          obligations: [odmwa_notification, mine_accident_report]
+          forms: [ODMWA_NOTIFICATION]
+          investigation_minimum: FISHBONE
+
+      # Recordable but not notifiable: still entered in the s21 record.
+      - id: mhsa_recordable
+        when:
+          treatment_level: { in: [MEDICAL_TREATMENT, LOST_TIME, RESTRICTED_WORK] }
+        then:
+          statutory_category: MHSA_RECORDABLE
+          reportable: false
+          obligations: [section21_record]
+          forms: []
+          investigation_minimum: FIVE_WHY
+
+      - id: mhsa_first_aid
+        when:
+          treatment_level: FIRST_AID
+        then:
+          statutory_category: FIRST_AID
+          reportable: false
+          obligations: [section21_record]
+
+      - id: mhsa_non_recordable
+        then:
+          statutory_category: NON_RECORDABLE
+          reportable: false
+          obligations: []
+
+# ── Obligations ───────────────────────────────────────────────────────────────────────────────────
+obligations:
+  immediate_pi_notification:
+    label: "Notify the Principal Inspector of Mines"
+    anchor: incident.occurred_at
+    due_in: PT4H
+    business_days: false
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Principal Inspector of Mines, Department of Mineral Resources and Energy"
+    reminders: [PT2H, PT1H, PT30M]
+    escalation:
+      - after: PT2H
+        notify_role: SITE_MANAGER
+      - after: PT4H
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+  scene_preservation:
+    label: "Preserve the accident site until the Principal Inspector permits disturbance (s12)"
+    anchor: incident.occurred_at
+    due_in: PT1H
+    business_days: false
+    responsible_role: SITE_MANAGER
+    recipient: "Internal — mine management"
+    reminders: [PT30M]
+    escalation:
+      - after: PT1H
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+  written_report_24h:
+    label: "Submit the written notification to the Principal Inspector"
+    anchor: incident.occurred_at
+    due_in: PT24H
+    business_days: false
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Principal Inspector of Mines"
+    reminders: [PT12H, PT4H, PT1H]
+    escalation:
+      - after: PT18H
+        notify_role: SITE_MANAGER
+      - after: PT24H
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+  mine_accident_report:
+    label: "Record the incident in the mine's statutory accident register (s21)"
+    anchor: incident.occurred_at
+    due_in: P3D
+    business_days: true
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Internal record — statutory accident register"
+    reminders: [P2D, PT24H]
+    escalation:
+      - after: P3D
+        notify_role: SITE_MANAGER
+        severity: BREACH
+    evidence_required: false
+
+  section21_record:
+    label: "Enter the incident in the s21 record of incidents"
+    anchor: incident.occurred_at
+    due_in: P7D
+    business_days: true
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Internal record — s21 register"
+    reminders: [P3D]
+    escalation:
+      - after: P7D
+        notify_role: SITE_MANAGER
+        severity: BREACH
+    evidence_required: false
+
+  wcl_submission_7d:
+    label: "Submit W.Cl.2 to the Compensation Commissioner"
+    anchor: incident.occurred_at
+    due_in: P7D
+    business_days: false
+    responsible_role: SHEQ_PRACTITIONER
+    recipient: "Compensation Commissioner"
+    reminders: [P5D, P2D, PT12H]
+    escalation:
+      - after: P6D
+        notify_role: SITE_MANAGER
+      - after: P7D
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+  odmwa_notification:
+    label: "Notify the Medical Bureau for Occupational Diseases (ODMWA)"
+    anchor: incident.occurred_at
+    due_in: P14D
+    business_days: false
+    responsible_role: OCCUPATIONAL_HEALTH_PRACTITIONER
+    recipient: "Medical Bureau for Occupational Diseases"
+    reminders: [P10D, P3D]
+    escalation:
+      - after: P14D
+        notify_role: EXECUTIVE
+        severity: BREACH
+    evidence_required: true
+
+# ── Investigation rigour (SHEQ-INC-7) ─────────────────────────────────────────────────────────────
+investigation:
+  by_potential_severity:
+    5: ICAM
+    4: ICAM
+    3: ICAM          # deeper than the OHS Act default: mining potential severity 3 is still ICAM
+    2: FIVE_WHY
+    1: FIVE_WHY
+
+# ── Metric conventions (SHEQ-REG-7) ───────────────────────────────────────────────────────────────
+# DIFR is the convention the mining industry and the DMRE report on, per 200 000 hours worked —
+# not the million-hour base the OHS Act world uses for LTIFR. A mine benchmarked on the wrong
+# multiplier looks an order of magnitude safer than it is.
+metrics:
+  exposure_base: HOURS_WORKED
+  definitions:
+    - id: DIFR
+      label: Disabling Injury Frequency Rate
+      formula: "(disabling_injuries * multiplier) / hours_worked"
+      numerator: disabling_injuries
+      denominator: hours_worked
+      multiplier: 200000
+    - id: FIFR
+      label: Fatal Injury Frequency Rate
+      formula: "(fatalities * multiplier) / hours_worked"
+      numerator: fatalities
+      denominator: hours_worked
+      multiplier: 200000
+    - id: LTIFR
+      label: Lost Time Injury Frequency Rate
+      formula: "(lost_time_injuries * multiplier) / hours_worked"
+      numerator: lost_time_injuries
+      denominator: hours_worked
+      multiplier: 200000
+    - id: TRIFR
+      label: Total Recordable Injury Frequency Rate
+      formula: "(recordable_cases * multiplier) / hours_worked"
+      numerator: recordable_cases
+      denominator: hours_worked
+      multiplier: 200000
+    - id: SEVERITY_RATE
+      label: Severity Rate
+      formula: "(days_lost * multiplier) / hours_worked"
+      numerator: days_lost
+      denominator: hours_worked
+      multiplier: 200000
+
+# ── Retention ─────────────────────────────────────────────────────────────────────────────────────
+# Longer than the OHS Act's: occupational lung disease in mining presents decades after exposure,
+# and the record is what links a claim to the workplace that caused it.
+retention:
+  incident_records: P40Y
+  medical_surveillance: P40Y
+  exposure_monitoring: P40Y
+  statutory_forms: P40Y
+  training_records: P10Y
+
+# ── Legal register (SHEQ-LEG-1) ───────────────────────────────────────────────────────────────────
+legal_register:
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s2"
+    requirement: "Ensure, as far as reasonably practicable, that the mine is designed, constructed and equipped to provide conditions for safe operation and a healthy working environment."
+    applies_to: ALL
+    responsible_role: EMPLOYER
+    evidence_type: [RISK_ASSESSMENT, DOCUMENT, INSPECTION]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s11"
+    requirement: "Identify hazards, assess the associated risks, record the significant hazards and make the assessment available."
+    applies_to: ALL
+    responsible_role: SHEQ_PRACTITIONER
+    evidence_type: [RISK_ASSESSMENT]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s12"
+    requirement: "Do not disturb the site of a reportable accident without the permission of the Principal Inspector."
+    applies_to: ALL
+    responsible_role: SITE_MANAGER
+    evidence_type: [DOCUMENT]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s13"
+    requirement: "Establish and maintain a system of medical surveillance for employees exposed to health hazards."
+    applies_to: ALL
+    responsible_role: OCCUPATIONAL_HEALTH_PRACTITIONER
+    evidence_type: [COMPETENCY, DOCUMENT]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s21"
+    requirement: "Keep a record of all incidents, injuries and occupational diseases at the mine."
+    applies_to: ALL
+    responsible_role: SHEQ_PRACTITIONER
+    evidence_type: [DOCUMENT, OBLIGATION]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s22"
+    requirement: "Employees must be trained and found competent before performing work, and records kept."
+    applies_to: ALL
+    responsible_role: TRAINING_MANAGER
+    evidence_type: [COMPETENCY]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s23"
+    requirement: "Report reportable incidents to the Principal Inspector of Mines in the prescribed manner and time."
+    applies_to: ALL
+    responsible_role: SHEQ_PRACTITIONER
+    evidence_type: [OBLIGATION]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s25"
+    requirement: "Appoint a manager for every mine that is operating, in writing."
+    applies_to: ALL
+    responsible_role: EMPLOYER
+    evidence_type: [APPOINTMENT]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s26"
+    requirement: "Appoint competent subordinate managers and supervisors in writing where required."
+    applies_to: ALL
+    responsible_role: EMPLOYER
+    evidence_type: [APPOINTMENT]
+    review_frequency: P1Y
+  - instrument: "Mine Health and Safety Act 29 of 1996"
+    clause: "s31"
+    requirement: "Where required, establish a health and safety committee and support elected health and safety representatives."
+    applies_to: EMPLOYEES_GTE_20
+    responsible_role: EMPLOYER
+    evidence_type: [APPOINTMENT, DOCUMENT, MEETING]
+    review_frequency: P3M
+  - instrument: "MHSA Regulations, Chapter 4"
+    clause: "Reg 4.1"
+    requirement: "Examine every working place at the start of each shift and record the examination."
+    applies_to: ALL
+    responsible_role: SITE_MANAGER
+    evidence_type: [INSPECTION]
+    review_frequency: P1M
+  - instrument: "MHSA Regulations, Chapter 10"
+    clause: "Reg 10.1"
+    requirement: "Provide and maintain adequate ventilation, and monitor the mine atmosphere."
+    applies_to: ALL
+    responsible_role: VENTILATION_ENGINEER
+    evidence_type: [INSPECTION, DOCUMENT]
+    review_frequency: P1M
+  - instrument: "Occupational Diseases in Mines and Works Act 78 of 1973"
+    clause: "s16"
+    requirement: "Report occupational diseases in controlled mines and works to the Medical Bureau for Occupational Diseases."
+    applies_to: ALL
+    responsible_role: OCCUPATIONAL_HEALTH_PRACTITIONER
+    evidence_type: [OBLIGATION, DOCUMENT]
+    review_frequency: P1Y
+
+# ── Statutory forms (SHEQ-REG-6) ──────────────────────────────────────────────────────────────────
+# ⚠️ Same standing as the za-ohsa forms: DRAFT until a practitioner confirms the field list and
+#    order against the gazetted original.
+forms:
+  MHSA_ACCIDENT_REPORT:
+    title: "Notification of a reportable incident (MHSA s23)"
+    instrument: "Mine Health and Safety Act 29 of 1996, section 23"
+    retention: P40Y
+    guidance: >
+      Submitted to the Principal Inspector of Mines. Immediate notification is made first by the
+      quickest available means; this is the written record that follows it.
+    sections:
+      - title: "Mine particulars"
+        fields:
+          - { key: mine_name, label: "Name of mine", source: company.name, required: true }
+          - { key: mine_number, label: "Mine registration number", source: settings.coida_registration_number, required: true }
+          - { key: workplace, label: "Shaft / section / workplace", source: site.name, required: true }
+          - { key: manager, label: "Appointed manager (s25)", source: settings.registered_employer_name }
+      - title: "The incident"
+        fields:
+          - { key: incident_no, label: "Incident reference", source: incident.reference, required: true }
+          - { key: date_of_incident, label: "Date", source: incident.occurred_at, format: date, required: true }
+          - { key: time_of_incident, label: "Time", source: incident.occurred_at, format: time, required: true }
+          - { key: place, label: "Exact location underground or on surface", source: incident.location_text, required: true }
+          - { key: classification, label: "Section 23 classification", source: incident.statutory_category, required: true }
+          - { key: description, label: "Description of the incident", source: incident.description, required: true, multiline: true }
+          - { key: activity, label: "Activity at the time", source: incident.activity_at_time }
+      - title: "Persons affected"
+        fields:
+          - { key: person_name, label: "Full name", source: person.full_name, required: true }
+          - { key: occupation, label: "Occupation", source: person.job_title }
+          - { key: nature_of_injury, label: "Nature of injury", source: person.injury_nature, required: true }
+          - { key: body_part, label: "Part of body", source: person.body_part }
+          - { key: days_lost, label: "Shifts lost to date", source: incident.days_lost }
+      - title: "Scene and immediate action"
+        fields:
+          - { key: immediate_action, label: "Immediate action taken", source: incident.immediate_action, multiline: true }
+          - { key: scene_preserved, label: "Was the site preserved (s12)", required: true }
+          - { key: notified_by, label: "Notification made by", required: true }
+          - { key: notified_at, label: "Date and time of first notification", required: true }
+
+  ODMWA_NOTIFICATION:
+    title: "Notification of an occupational disease (ODMWA)"
+    instrument: "Occupational Diseases in Mines and Works Act 78 of 1973"
+    retention: P40Y
+    guidance: >
+      Submitted to the Medical Bureau for Occupational Diseases. Occupational lung disease in mining
+      presents decades after exposure, which is why the exposure record retention is forty years.
+    sections:
+      - title: "Mine and employee"
+        fields:
+          - { key: mine_name, label: "Name of controlled mine or works", source: company.name, required: true }
+          - { key: mine_number, label: "Registration number", source: settings.coida_registration_number, required: true }
+          - { key: employee_name, label: "Full name of employee", source: person.full_name, required: true }
+          - { key: employee_number, label: "Employee number", source: person.employee_number }
+          - { key: occupation, label: "Occupation", source: person.job_title, required: true }
+      - title: "The disease"
+        fields:
+          - { key: disease, label: "Disease reported", source: person.injury_nature, required: true }
+          - { key: date_identified, label: "Date identified", source: incident.occurred_at, format: date, required: true }
+          - { key: exposure_history, label: "Summary of occupational exposure", source: incident.description, required: true, multiline: true }
+      - title: "Declaration"
+        fields:
+          - { key: practitioner, label: "Occupational health practitioner", required: true }
+          - { key: declaration_date, label: "Date", required: true }
+
+  WCL1_OR_WCL2:
+    title: "W.Cl.2 — Employer's report of an accident (COIDA)"
+    instrument: "Compensation for Occupational Injuries and Diseases Act 130 of 1993"
+    retention: P40Y
+    guidance: >
+      Mineworkers are covered employees under COIDA, so the W.Cl.2 is submitted in addition to the
+      MHSA notification — the two go to different authorities and neither substitutes for the other.
+    sections:
+      - title: "Employer particulars"
+        fields:
+          - { key: employer_name, label: "Name of employer", source: company.name, required: true }
+          - { key: coida_reg_no, label: "COIDA registration number", source: settings.coida_registration_number, required: true }
+          - { key: employer_address, label: "Postal address", source: settings.employer_postal_address }
+          - { key: nature_of_business, label: "Nature of business", source: settings.nature_of_business }
+      - title: "Employee particulars"
+        fields:
+          - { key: employee_name, label: "Full name of employee", source: person.full_name, required: true }
+          - { key: employee_number, label: "Employee number", source: person.employee_number }
+          - { key: occupation, label: "Occupation", source: person.job_title, required: true }
+      - title: "Accident particulars"
+        fields:
+          - { key: accident_date, label: "Date of accident", source: incident.occurred_at, format: date, required: true }
+          - { key: accident_time, label: "Time of accident", source: incident.occurred_at, format: time, required: true }
+          - { key: reported_date, label: "Date reported to employer", source: incident.reported_at, format: date, required: true }
+          - { key: place, label: "Place of accident", source: incident.location_text, required: true }
+          - { key: how_occurred, label: "How did the accident occur", source: incident.description, required: true, multiline: true }
+      - title: "Injury"
+        fields:
+          - { key: nature_of_injury, label: "Nature and extent of injury", source: person.injury_nature, required: true }
+          - { key: body_part, label: "Part of body injured", source: person.body_part, required: true }
+          - { key: treatment, label: "Medical treatment", source: incident.treatment_level, required: true }
+          - { key: days_lost, label: "Shifts lost to date", source: incident.days_lost }
+      - title: "Declaration"
+        fields:
+          - { key: declared_by, label: "Name of person completing this form", required: true }
+          - { key: capacity, label: "Capacity", required: true }
+          - { key: declaration_date, label: "Date", required: true }

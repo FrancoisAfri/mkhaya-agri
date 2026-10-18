@@ -1,0 +1,266 @@
+{
+  "en": {
+    "friendly": {
+      "subject": "Friendly reminder: invoice {number}",
+      "body": "Hi {party},\n\nThis is a friendly reminder that invoice {number} for {currency} {amount} was due on {due_date}. If you have already paid, thank you — please ignore this message. Otherwise you can pay online here: {pay_link}\n\nKind regards,\n{company}",
+      "sms": "{company}: friendly reminder — invoice {number} ({currency} {amount}) was due {due_date}. Pay: {pay_link}"
+    },
+    "firm": {
+      "subject": "Overdue: invoice {number} ({days} days)",
+      "body": "Hi {party},\n\nInvoice {number} for {currency} {amount} is now {days} days overdue (it was due on {due_date}). Please arrange payment as soon as possible. You can pay online here: {pay_link}\n\nRegards,\n{company}",
+      "sms": "{company}: invoice {number} ({currency} {amount}) is {days} days overdue. Please pay: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Urgent: invoice {number} is {days} days overdue",
+      "body": "Hi {party},\n\nOur records show invoice {number} for {currency} {amount} remains unpaid and is now {days} days overdue. Please settle this immediately to avoid further action. Pay now: {pay_link}\n\n{company}",
+      "sms": "{company}: URGENT — invoice {number} ({currency} {amount}) {days} days overdue. Pay now: {pay_link}"
+    },
+    "final": {
+      "subject": "Final notice: invoice {number}",
+      "body": "Hi {party},\n\nThis is a final reminder for invoice {number} ({currency} {amount}), now {days} days overdue. Unless payment is received, the account may be handed over for collection. Pay now: {pay_link}\n\n{company}",
+      "sms": "{company}: FINAL NOTICE invoice {number} ({currency} {amount}). Pay now to avoid collection: {pay_link}"
+    }
+  },
+  "af": {
+    "friendly": {
+      "subject": "Vriendelike herinnering: faktuur {number}",
+      "body": "Hallo {party},\n\nDit is 'n vriendelike herinnering dat faktuur {number} vir {currency} {amount} op {due_date} betaalbaar was. Indien u reeds betaal het, baie dankie — ignoreer asseblief hierdie boodskap. Andersins kan u aanlyn hier betaal: {pay_link}\n\nVriendelike groete,\n{company}",
+      "sms": "{company}: vriendelike herinnering — faktuur {number} ({currency} {amount}) was betaalbaar op {due_date}. Betaal: {pay_link}"
+    },
+    "firm": {
+      "subject": "Agterstallig: faktuur {number} ({days} dae)",
+      "body": "Hallo {party},\n\nFaktuur {number} vir {currency} {amount} is nou {days} dae agterstallig (dit was op {due_date} betaalbaar). Reël asseblief so gou moontlik betaling. U kan aanlyn hier betaal: {pay_link}\n\nGroete,\n{company}",
+      "sms": "{company}: faktuur {number} ({currency} {amount}) is {days} dae agterstallig. Betaal asseblief: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Dringend: faktuur {number} is {days} dae agterstallig",
+      "body": "Hallo {party},\n\nOns rekords toon dat faktuur {number} vir {currency} {amount} onbetaal bly en nou {days} dae agterstallig is. Vereffen dit asseblief onmiddellik om verdere stappe te vermy. Betaal nou: {pay_link}\n\n{company}",
+      "sms": "{company}: DRINGEND — faktuur {number} ({currency} {amount}) {days} dae agterstallig. Betaal nou: {pay_link}"
+    },
+    "final": {
+      "subject": "Finale kennisgewing: faktuur {number}",
+      "body": "Hallo {party},\n\nDit is 'n finale herinnering vir faktuur {number} ({currency} {amount}), nou {days} dae agterstallig. Tensy betaling ontvang word, mag die rekening vir invordering oorhandig word. Betaal nou: {pay_link}\n\n{company}",
+      "sms": "{company}: FINALE KENNISGEWING faktuur {number} ({currency} {amount}). Betaal nou om invordering te vermy: {pay_link}"
+    }
+  },
+  "zu": {
+    "friendly": {
+      "subject": "Isikhumbuzo esinomusa: i-invoyisi {number}",
+      "body": "Sawubona {party},\n\nLesi yisikhumbuzo esinomusa sokuthi i-invoyisi {number} ye-{currency} {amount} bekufanele ikhokhwe ngo-{due_date}. Uma usuvele ukhokhile, siyabonga — sicela ungawunaki lo myalezo. Uma kungenjalo ungakhokha online lapha: {pay_link}\n\nOzithobayo,\n{company}",
+      "sms": "{company}: isikhumbuzo esinomusa — i-invoyisi {number} ({currency} {amount}) bekufanele ikhokhwe ngo-{due_date}. Khokha: {pay_link}"
+    },
+    "firm": {
+      "subject": "Isikweletu esidlulelwe yisikhathi: i-invoyisi {number} ({days} izinsuku)",
+      "body": "Sawubona {party},\n\nI-invoyisi {number} ye-{currency} {amount} manje sesidlulelwe yisikhathi ngezinsuku ezingu-{days} (bekufanele ikhokhwe ngo-{due_date}). Sicela uhlele ukukhokha ngokushesha okukhulu. Ungakhokha online lapha: {pay_link}\n\nOzithobayo,\n{company}",
+      "sms": "{company}: i-invoyisi {number} ({currency} {amount}) sesidlulelwe yizinsuku ezingu-{days}. Sicela ukhokhe: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Kuphuthuma: i-invoyisi {number} sesidlulelwe yizinsuku ezingu-{days}",
+      "body": "Sawubona {party},\n\nAmarekhodi ethu abonisa ukuthi i-invoyisi {number} ye-{currency} {amount} ayikakhokhwa futhi manje sesidlulelwe yizinsuku ezingu-{days}. Sicela ukhokhe lokhu ngokushesha ukugwema ezinye izinyathelo. Khokha manje: {pay_link}\n\n{company}",
+      "sms": "{company}: KUPHUTHUMA — i-invoyisi {number} ({currency} {amount}) sesidlulelwe yizinsuku ezingu-{days}. Khokha manje: {pay_link}"
+    },
+    "final": {
+      "subject": "Isaziso sokugcina: i-invoyisi {number}",
+      "body": "Sawubona {party},\n\nLesi yisikhumbuzo sokugcina se-invoyisi {number} ({currency} {amount}), manje esesidlulelwe yizinsuku ezingu-{days}. Ngaphandle uma inkokhelo itholakala, i-akhawunti ingase idluliselwe ekuqoqweni kwezikweletu. Khokha manje: {pay_link}\n\n{company}",
+      "sms": "{company}: ISAZISO SOKUGCINA i-invoyisi {number} ({currency} {amount}). Khokha manje ukugwema ukuqoqwa kwezikweletu: {pay_link}"
+    }
+  },
+  "xh": {
+    "friendly": {
+      "subject": "Isikhumbuzo esinobubele: i-invoyisi {number}",
+      "body": "Molo {party},\n\nEsi sisikhumbuzo esinobubele sokuba i-invoyisi {number} ye-{currency} {amount} beyimele ihlawulwe nge-{due_date}. Ukuba sele uhlawule, enkosi — nceda ungawuhoyi lo myalezo. Kungenjalo ungahlawula kwi-intanethi apha: {pay_link}\n\nOzithobayo,\n{company}",
+      "sms": "{company}: isikhumbuzo esinobubele — i-invoyisi {number} ({currency} {amount}) beyimele ihlawulwe nge-{due_date}. Hlawula: {pay_link}"
+    },
+    "firm": {
+      "subject": "Idluliselwe lixesha: i-invoyisi {number} ({days} iintsuku)",
+      "body": "Molo {party},\n\nI-invoyisi {number} ye-{currency} {amount} ngoku sele idluliselwe lixesha ngeentsuku ezingama-{days} (beyimele ihlawulwe nge-{due_date}). Nceda ulungiselele intlawulo ngokukhawuleza. Ungahlawula kwi-intanethi apha: {pay_link}\n\nOzithobayo,\n{company}",
+      "sms": "{company}: i-invoyisi {number} ({currency} {amount}) sele idluliselwe ziintsuku ezingama-{days}. Nceda uhlawule: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Ingxamisekile: i-invoyisi {number} sele idluliselwe ziintsuku ezingama-{days}",
+      "body": "Molo {party},\n\nIirekhodi zethu zibonisa ukuba i-invoyisi {number} ye-{currency} {amount} ayikahlawulwa kwaye ngoku sele idluliselwe ziintsuku ezingama-{days}. Nceda uyihlawule ngokukhawuleza ukuphepha amanye amanyathelo. Hlawula ngoku: {pay_link}\n\n{company}",
+      "sms": "{company}: INGXAMISEKILE — i-invoyisi {number} ({currency} {amount}) idluliselwe ziintsuku ezingama-{days}. Hlawula ngoku: {pay_link}"
+    },
+    "final": {
+      "subject": "Isaziso sokugqibela: i-invoyisi {number}",
+      "body": "Molo {party},\n\nEsi sisikhumbuzo sokugqibela se-invoyisi {number} ({currency} {amount}), ngoku edluliselwe ziintsuku ezingama-{days}. Ngaphandle kokuba intlawulo iyafumaneka, i-akhawunti ingadluliselwa ekuqokeleleni amatyala. Hlawula ngoku: {pay_link}\n\n{company}",
+      "sms": "{company}: ISAZISO SOKUGQIBELA i-invoyisi {number} ({currency} {amount}). Hlawula ngoku ukuphepha ukuqokelelwa kwamatyala: {pay_link}"
+    }
+  },
+  "nso": {
+    "friendly": {
+      "subject": "Kgopotšo ya botho: invoyisi {number}",
+      "body": "Thobela {party},\n\nYe ke kgopotšo ya botho ya gore invoyisi {number} ya {currency} {amount} e be e swanetše go lefša ka {due_date}. Ge o šetše o lefile, re a leboga — hle o se ke wa šetša molaetša wo. Ge go sego bjalo o ka lefa inthaneteng mo: {pay_link}\n\nKa maitshwaro,\n{company}",
+      "sms": "{company}: kgopotšo ya botho — invoyisi {number} ({currency} {amount}) e be e swanetše go lefša ka {due_date}. Lefa: {pay_link}"
+    },
+    "firm": {
+      "subject": "E fetile nako: invoyisi {number} (matšatši a {days})",
+      "body": "Thobela {party},\n\nInvoyisi {number} ya {currency} {amount} bjale e fetilwe ke nako ka matšatši a {days} (e be e swanetše go lefša ka {due_date}). Hle o rulaganye tefo ka pela ka mo go kgonegago. O ka lefa inthaneteng mo: {pay_link}\n\nKa maitshwaro,\n{company}",
+      "sms": "{company}: invoyisi {number} ({currency} {amount}) e fetilwe ke nako ka matšatši a {days}. Hle lefa: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Go akgofa: invoyisi {number} e fetilwe ke nako ka matšatši a {days}",
+      "body": "Thobela {party},\n\nDirekoto tša rena di bontšha gore invoyisi {number} ya {currency} {amount} ga se ya lefša gomme bjale e fetilwe ke nako ka matšatši a {days}. Hle e lefe ka pela go phema magato a mangwe. Lefa bjale: {pay_link}\n\n{company}",
+      "sms": "{company}: GO AKGOFA — invoyisi {number} ({currency} {amount}) e fetilwe ke nako ka matšatši a {days}. Lefa bjale: {pay_link}"
+    },
+    "final": {
+      "subject": "Tsebišo ya mafelelo: invoyisi {number}",
+      "body": "Thobela {party},\n\nYe ke kgopotšo ya mafelelo ya invoyisi {number} ({currency} {amount}), bjale e fetilwe ke nako ka matšatši a {days}. Ge tefo e sa amogelwe, akhaonto e ka fetišetšwa go kgoboketšo ya dikoloto. Lefa bjale: {pay_link}\n\n{company}",
+      "sms": "{company}: TSEBIŠO YA MAFELELO invoyisi {number} ({currency} {amount}). Lefa bjale go phema kgoboketšo ya dikoloto: {pay_link}"
+    }
+  },
+  "st": {
+    "friendly": {
+      "subject": "Khopotso e mosa: invoyisi {number}",
+      "body": "Dumela {party},\n\nEna ke khopotso e mosa ya hore invoyisi {number} ya {currency} {amount} e ne e tshwanetse ho lefshwa ka {due_date}. Haeba o se o lefile, rea leboha — ka kopo o se ke wa natsa molaetsa ona. Ho seng jwalo o ka lefa inthaneteng mona: {pay_link}\n\nKa tlhompho,\n{company}",
+      "sms": "{company}: khopotso e mosa — invoyisi {number} ({currency} {amount}) e ne e tshwanetse ho lefshwa ka {due_date}. Lefa: {pay_link}"
+    },
+    "firm": {
+      "subject": "E fetilwe ke nako: invoyisi {number} (matsatsi a {days})",
+      "body": "Dumela {party},\n\nInvoyisi {number} ya {currency} {amount} jwale e fetilwe ke nako ka matsatsi a {days} (e ne e tshwanetse ho lefshwa ka {due_date}). Ka kopo o hlophise tefo kapele kamoo ho ka kgonehang. O ka lefa inthaneteng mona: {pay_link}\n\nKa tlhompho,\n{company}",
+      "sms": "{company}: invoyisi {number} ({currency} {amount}) e fetilwe ke nako ka matsatsi a {days}. Ka kopo lefa: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Ho potlaka: invoyisi {number} e fetilwe ke nako ka matsatsi a {days}",
+      "body": "Dumela {party},\n\nDirekoto tsa rona di bontsha hore invoyisi {number} ya {currency} {amount} ha e so lefshwe mme jwale e fetilwe ke nako ka matsatsi a {days}. Ka kopo e lefe hang-hang ho qoba mehato e meng. Lefa hona jwale: {pay_link}\n\n{company}",
+      "sms": "{company}: HO POTLAKA — invoyisi {number} ({currency} {amount}) e fetilwe ke nako ka matsatsi a {days}. Lefa hona jwale: {pay_link}"
+    },
+    "final": {
+      "subject": "Tsebiso ya ho qetela: invoyisi {number}",
+      "body": "Dumela {party},\n\nEna ke khopotso ya ho qetela ya invoyisi {number} ({currency} {amount}), jwale e fetilwe ke nako ka matsatsi a {days}. Ntle le hore tefo e amohelwe, akhaonto e ka fetiswa ho pokello ya dikoloto. Lefa hona jwale: {pay_link}\n\n{company}",
+      "sms": "{company}: TSEBISO YA HO QETELA invoyisi {number} ({currency} {amount}). Lefa hona jwale ho qoba pokello ya dikoloto: {pay_link}"
+    }
+  },
+  "tn": {
+    "friendly": {
+      "subject": "Kgakololo e e botsalano: invoyisi {number}",
+      "body": "Dumela {party},\n\nE ke kgakololo e e botsalano ya gore invoyisi {number} ya {currency} {amount} e ne e tshwanetse go duelwa ka {due_date}. Fa o setse o duetse, re a leboga — tsweetswee o se ka wa tsaya tsia molaetsa o. Fa go sa nna jalo o ka duela mo inthaneteng fa: {pay_link}\n\nKa tlotlo,\n{company}",
+      "sms": "{company}: kgakololo e e botsalano — invoyisi {number} ({currency} {amount}) e ne e tshwanetse go duelwa ka {due_date}. Duela: {pay_link}"
+    },
+    "firm": {
+      "subject": "E fetilwe ke nako: invoyisi {number} (malatsi a le {days})",
+      "body": "Dumela {party},\n\nInvoyisi {number} ya {currency} {amount} jaanong e fetilwe ke nako ka malatsi a le {days} (e ne e tshwanetse go duelwa ka {due_date}). Tsweetswee rulaganya tuelo ka bonako jo bo kgonegang. O ka duela mo inthaneteng fa: {pay_link}\n\nKa tlotlo,\n{company}",
+      "sms": "{company}: invoyisi {number} ({currency} {amount}) e fetilwe ke nako ka malatsi a le {days}. Tsweetswee duela: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Go potlaka: invoyisi {number} e fetilwe ke nako ka malatsi a le {days}",
+      "body": "Dumela {party},\n\nDirekoto tsa rona di bontsha gore invoyisi {number} ya {currency} {amount} ga e ise e duelwe mme jaanong e fetilwe ke nako ka malatsi a le {days}. Tsweetswee e duele ka bonako go efoga dikgato tse dingwe. Duela jaanong: {pay_link}\n\n{company}",
+      "sms": "{company}: GO POTLAKA — invoyisi {number} ({currency} {amount}) e fetilwe ke nako ka malatsi a le {days}. Duela jaanong: {pay_link}"
+    },
+    "final": {
+      "subject": "Kitsiso ya bofelo: invoyisi {number}",
+      "body": "Dumela {party},\n\nE ke kgakololo ya bofelo ya invoyisi {number} ({currency} {amount}), jaanong e fetilwe ke nako ka malatsi a le {days}. Ntle le fa tuelo e amogelwa, akhaonto e ka fetisediwa kwa phuthong ya dikoloto. Duela jaanong: {pay_link}\n\n{company}",
+      "sms": "{company}: KITSISO YA BOFELO invoyisi {number} ({currency} {amount}). Duela jaanong go efoga phutho ya dikoloto: {pay_link}"
+    }
+  },
+  "ss": {
+    "friendly": {
+      "subject": "Sikhumbuto lesinemusa: i-invoyisi {number}",
+      "body": "Sawubona {party},\n\nLesi sikhumbuto lesinemusa sekutsi i-invoyisi {number} ye-{currency} {amount} bekumele ikhokhwe nga-{due_date}. Nangabe usuvele ukhokhile, siyabonga — sicela ungawunaki lo mlayeto. Nangabe kungenjalo ungakhokha ku-inthanethi lapha: {pay_link}\n\nNgenhlonipho,\n{company}",
+      "sms": "{company}: sikhumbuto lesinemusa — i-invoyisi {number} ({currency} {amount}) bekumele ikhokhwe nga-{due_date}. Khokha: {pay_link}"
+    },
+    "firm": {
+      "subject": "Sekwedlulwe sikhatsi: i-invoyisi {number} (emalanga la-{days})",
+      "body": "Sawubona {party},\n\nI-invoyisi {number} ye-{currency} {amount} nyalo sekwedlulwe sikhatsi ngemalanga la-{days} (bekumele ikhokhwe nga-{due_date}). Sicela uhlele kukhokha ngekushesha lokungenteka. Ungakhokha ku-inthanethi lapha: {pay_link}\n\nNgenhlonipho,\n{company}",
+      "sms": "{company}: i-invoyisi {number} ({currency} {amount}) sekwedlulwe sikhatsi ngemalanga la-{days}. Sicela ukhokhe: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Kuphutfuma: i-invoyisi {number} sekwedlulwe sikhatsi ngemalanga la-{days}",
+      "body": "Sawubona {party},\n\nEmarekhodi etfu akhombisa kutsi i-invoyisi {number} ye-{currency} {amount} ayikakhokhwa futsi nyalo sekwedlulwe sikhatsi ngemalanga la-{days}. Sicela uyikhokhe ngekushesha kugwema letinye tinyatselo. Khokha nyalo: {pay_link}\n\n{company}",
+      "sms": "{company}: KUPHUTFUMA — i-invoyisi {number} ({currency} {amount}) sekwedlulwe sikhatsi ngemalanga la-{days}. Khokha nyalo: {pay_link}"
+    },
+    "final": {
+      "subject": "Satiso sekugcina: i-invoyisi {number}",
+      "body": "Sawubona {party},\n\nLesi sikhumbuto sekugcina se-invoyisi {number} ({currency} {amount}), nyalo lesekwedlulwe sikhatsi ngemalanga la-{days}. Ngaphandle kwekutsi inkhokhelo itfolakale, i-akhawunti ingatfunyelwa ekucoshweni kwetikweleti. Khokha nyalo: {pay_link}\n\n{company}",
+      "sms": "{company}: SATISO SEKUGCINA i-invoyisi {number} ({currency} {amount}). Khokha nyalo kugwema kucoshwa kwetikweleti: {pay_link}"
+    }
+  },
+  "ve": {
+    "friendly": {
+      "subject": "Khumbudzo ya vhuthu: invoisi {number}",
+      "body": "Ndaa {party},\n\nIyi ndi khumbudzo ya vhuthu ya uri invoisi {number} ya {currency} {amount} yo vha i tshi fanela u badelwa nga {due_date}. Arali no no badela, ri a livhuwa — ni humbelwa uri ni si dzhielwe nzhele mulaedza uyu. Arali zwi si zwo ralo ni nga badela kha inthanethe hafha: {pay_link}\n\nNga tthonifho,\n{company}",
+      "sms": "{company}: khumbudzo ya vhuthu — invoisi {number} ({currency} {amount}) yo vha i tshi fanela u badelwa nga {due_date}. Badelani: {pay_link}"
+    },
+    "firm": {
+      "subject": "Yo fhirwa nga tshifhinga: invoisi {number} (maduvha a {days})",
+      "body": "Ndaa {party},\n\nInvoisi {number} ya {currency} {amount} zwino yo fhirwa nga tshifhinga nga maduvha a {days} (yo vha i tshi fanela u badelwa nga {due_date}). Ni humbelwa uri ni dzudzanye mbadelo nga u ttavhanya. Ni nga badela kha inthanethe hafha: {pay_link}\n\nNga tthonifho,\n{company}",
+      "sms": "{company}: invoisi {number} ({currency} {amount}) yo fhirwa nga tshifhinga nga maduvha a {days}. Ni humbelwa uri ni badele: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Zwi a ttavhanyisa: invoisi {number} yo fhirwa nga maduvha a {days}",
+      "body": "Ndaa {party},\n\nRekhodo dzashu dzi sumbedza uri invoisi {number} ya {currency} {amount} a i athu badelwa nahone zwino yo fhirwa nga tshifhinga nga maduvha a {days}. Ni humbelwa uri ni badele nga u ttavhanya u iledza vhungoho vhunwe. Badelani zwino: {pay_link}\n\n{company}",
+      "sms": "{company}: ZWI A TTAVHANYISA — invoisi {number} ({currency} {amount}) yo fhirwa nga maduvha a {days}. Badelani zwino: {pay_link}"
+    },
+    "final": {
+      "subject": "Ndivhadzo ya u fhedza: invoisi {number}",
+      "body": "Ndaa {party},\n\nIyi ndi khumbudzo ya u fhedza ya invoisi {number} ({currency} {amount}), zwino yo fhirwa nga tshifhinga nga maduvha a {days}. Arali mbadelo i sa wanala, akhaunthu i nga rumelwa kha u kuvhanganya zwikolodo. Badelani zwino: {pay_link}\n\n{company}",
+      "sms": "{company}: NDIVHADZO YA U FHEDZA invoisi {number} ({currency} {amount}). Badelani zwino u iledza u kuvhanganywa ha zwikolodo: {pay_link}"
+    }
+  },
+  "ts": {
+    "friendly": {
+      "subject": "Xitsundzuxo xa vunghana: invoyisi {number}",
+      "body": "Avuxeni {party},\n\nLexi i xitsundzuxo xa vunghana xa leswaku invoyisi {number} ya {currency} {amount} a yi fanele ku hakeriwa hi {due_date}. Loko u hakerile ka ha ku, ha nkhensa — hi kombela u nga xi hlayi rungula leri. Loko swi nga ri tano u nga hakela eka inthanete laha: {pay_link}\n\nHi xichavo,\n{company}",
+      "sms": "{company}: xitsundzuxo xa vunghana — invoyisi {number} ({currency} {amount}) a yi fanele ku hakeriwa hi {due_date}. Hakela: {pay_link}"
+    },
+    "firm": {
+      "subject": "Yi hundziwe hi nkarhi: invoyisi {number} (masiku ya {days})",
+      "body": "Avuxeni {party},\n\nInvoyisi {number} ya {currency} {amount} sweswi yi hundziwe hi nkarhi hi masiku ya {days} (a yi fanele ku hakeriwa hi {due_date}). Hi kombela u lunghiselela ku hakela hi ku hatlisa. U nga hakela eka inthanete laha: {pay_link}\n\nHi xichavo,\n{company}",
+      "sms": "{company}: invoyisi {number} ({currency} {amount}) yi hundziwe hi nkarhi hi masiku ya {days}. Hi kombela u hakela: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Swa hatlisa: invoyisi {number} yi hundziwe hi masiku ya {days}",
+      "body": "Avuxeni {party},\n\nTirhekhodo ta hina ti kombisa leswaku invoyisi {number} ya {currency} {amount} a yi si hakeriwa naswona sweswi yi hundziwe hi nkarhi hi masiku ya {days}. Hi kombela u yi hakela hi ku hatlisa ku papalata magoza man'wana. Hakela sweswi: {pay_link}\n\n{company}",
+      "sms": "{company}: SWA HATLISA — invoyisi {number} ({currency} {amount}) yi hundziwe hi masiku ya {days}. Hakela sweswi: {pay_link}"
+    },
+    "final": {
+      "subject": "Xitiviso xo hetelela: invoyisi {number}",
+      "body": "Avuxeni {party},\n\nLexi i xitsundzuxo xo hetelela xa invoyisi {number} ({currency} {amount}), sweswi lexi hundziweke hi nkarhi hi masiku ya {days}. Handle ka loko ku hakela ku amukeriwa, akhawunti yi nga rhumeriwa eku hlengeleteni ka swikweleti. Hakela sweswi: {pay_link}\n\n{company}",
+      "sms": "{company}: XITIVISO XO HETELELA invoyisi {number} ({currency} {amount}). Hakela sweswi ku papalata ku hlengeletiwa ka swikweleti: {pay_link}"
+    }
+  },
+  "nr": {
+    "friendly": {
+      "subject": "Isikhumbuzo esinomusa: i-invoyisi {number}",
+      "body": "Lotjhani {party},\n\nLesi sikhumbuzo esinomusa sokobana i-invoyisi {number} ye-{currency} {amount} bekufanele ibhadelwe nga-{due_date}. Nangabe sewubhadele, siyathokoza — sibawa bona ungawuqali umlayezo lo. Nangabe kungasinjalo ungabhadela ku-inthanethi lapha: {pay_link}\n\nNgehlonipho,\n{company}",
+      "sms": "{company}: isikhumbuzo esinomusa — i-invoyisi {number} ({currency} {amount}) bekufanele ibhadelwe nga-{due_date}. Bhadela: {pay_link}"
+    },
+    "firm": {
+      "subject": "Sekudlulwe sikhathi: i-invoyisi {number} (amalanga angu-{days})",
+      "body": "Lotjhani {party},\n\nI-invoyisi {number} ye-{currency} {amount} nje sekudlulwe sikhathi ngamalanga angu-{days} (bekufanele ibhadelwe nga-{due_date}). Sibawa bona uhlele ukubhadela msinyana ngendlela okungenzeka ngayo. Ungabhadela ku-inthanethi lapha: {pay_link}\n\nNgehlonipho,\n{company}",
+      "sms": "{company}: i-invoyisi {number} ({currency} {amount}) sekudlulwe sikhathi ngamalanga angu-{days}. Sibawa ubhadele: {pay_link}"
+    },
+    "urgent": {
+      "subject": "Kuyaphuthuma: i-invoyisi {number} sekudlulwe amalanga angu-{days}",
+      "body": "Lotjhani {party},\n\nAmarekhodi wethu atjengisa bona i-invoyisi {number} ye-{currency} {amount} ayikabhadelwa begodu nje sekudlulwe sikhathi ngamalanga angu-{days}. Sibawa uyibhadele msinyana ukubalekela amagadango amanye. Bhadela nje: {pay_link}\n\n{company}",
+      "sms": "{company}: KUYAPHUTHUMA — i-invoyisi {number} ({currency} {amount}) sekudlulwe amalanga angu-{days}. Bhadela nje: {pay_link}"
+    },
+    "final": {
+      "subject": "Isaziso sokugcina: i-invoyisi {number}",
+      "body": "Lotjhani {party},\n\nLesi sikhumbuzo sokugcina se-invoyisi {number} ({currency} {amount}), nje esekudlulwe sikhathi ngamalanga angu-{days}. Ngaphandle kobana ibhadelo ifunyanwe, i-akhawunti ingathunyelwa ekuqoqweni kwamatjhwala. Bhadela nje: {pay_link}\n\n{company}",
+      "sms": "{company}: ISAZISO SOKUGCINA i-invoyisi {number} ({currency} {amount}). Bhadela nje ukubalekela ukuqoqwa kwamatjhwala: {pay_link}"
+    }
+  },
+  "fr": {
+    "friendly": {
+      "subject": "Rappel amical : facture {number}",
+      "body": "Bonjour {party},\n\nCeci est un rappel amical vous informant que la facture {number} d'un montant de {currency} {amount} était due le {due_date}. Si vous avez déjà réglé, merci — veuillez ignorer ce message. Sinon, vous pouvez payer en ligne ici : {pay_link}\n\nCordialement,\n{company}",
+      "sms": "{company} : rappel amical — la facture {number} ({currency} {amount}) était due le {due_date}. Payer : {pay_link}"
+    },
+    "firm": {
+      "subject": "En retard : facture {number} ({days} jours)",
+      "body": "Bonjour {party},\n\nLa facture {number} d'un montant de {currency} {amount} est désormais en retard de {days} jours (elle était due le {due_date}). Veuillez procéder au paiement dès que possible. Vous pouvez payer en ligne ici : {pay_link}\n\nCordialement,\n{company}",
+      "sms": "{company} : la facture {number} ({currency} {amount}) est en retard de {days} jours. Veuillez payer : {pay_link}"
+    },
+    "urgent": {
+      "subject": "Urgent : la facture {number} est en retard de {days} jours",
+      "body": "Bonjour {party},\n\nNos dossiers indiquent que la facture {number} d'un montant de {currency} {amount} demeure impayée et accuse désormais un retard de {days} jours. Veuillez la régler immédiatement afin d'éviter toute autre mesure. Payez maintenant : {pay_link}\n\n{company}",
+      "sms": "{company} : URGENT — facture {number} ({currency} {amount}) en retard de {days} jours. Payez maintenant : {pay_link}"
+    },
+    "final": {
+      "subject": "Dernier avis : facture {number}",
+      "body": "Bonjour {party},\n\nCeci est un dernier rappel concernant la facture {number} ({currency} {amount}), désormais en retard de {days} jours. À défaut de paiement, le compte pourra être transmis au recouvrement. Payez maintenant : {pay_link}\n\n{company}",
+      "sms": "{company} : DERNIER AVIS facture {number} ({currency} {amount}). Payez maintenant pour éviter le recouvrement : {pay_link}"
+    }
+  }
+}

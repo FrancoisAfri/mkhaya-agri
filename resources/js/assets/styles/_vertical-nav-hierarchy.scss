@@ -1,0 +1,216 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// Three-level vertical navigation: category › module › ribbon
+//
+// The Sneat template is built for a two-level menu: anything nested inside a
+// nav group renders as a 6px dot instead of its own icon, and the third level
+// is pushed so far in that labels truncate. Mkhaya's menu is three levels deep,
+// so this sheet re-tunes spacing, icon sizes and the active/open states so each
+// level stays readable and the hierarchy is obvious at a glance.
+// ─────────────────────────────────────────────────────────────────────────────
+
+@use "@configured-variables" as variables;
+
+// 👉 One number governs how far the whole sidebar sits from its left edge.
+//
+// The template shipped two unrelated insets: the header carried `padding: 1.0625rem 2rem` (32px,
+// plus another 8px from the logo link's `ps-2`) while the nav items carried `margin-inline: 0.75rem`
+// (12px). Nothing tied them together, so the logo sat ~28px further in than the menu beneath it and
+// the sidebar read as though it had a ragged left margin.
+//
+// Both now derive from this. Lower it to move the entire sidebar closer to the window edge.
+$nav-inline-gutter: 0.5rem;
+
+.layout-nav-type-vertical .layout-vertical-nav {
+  // 👉 The nav list scrolls. PerfectScrollbar normally owns this (its stylesheet sets
+  //    `overflow: hidden !important` and drives scrollTop itself), but stating the flex bounds
+  //    here means a long menu still scrolls natively if PS is ever inactive, instead of running
+  //    off the bottom of the window with no way to reach the last modules.
+  .nav-items {
+    flex: 1 1 0;
+    min-block-size: 0;
+    overflow-y: auto;
+  }
+
+  // 👉 The logo lines up with the menu below it rather than floating in from the edge.
+  //    The block padding is left alone — only the horizontal inset was inconsistent.
+  .nav-header {
+    padding-inline: $nav-inline-gutter;
+
+    // The header slot's own `ps-2` would re-introduce the offset this is removing.
+    > a {
+      padding-inline-start: 0 !important;
+    }
+  }
+
+  // 👉 Level 1 — categories (and the top-level Home link)
+  .nav-items > .nav-link > a,
+  .nav-items > .nav-group > .nav-group-label {
+    margin-inline: $nav-inline-gutter;
+    padding-inline: 0.75rem;
+    block-size: 2.625rem;
+    margin-block-end: 0.125rem;
+
+    > .nav-item-icon {
+      font-size: 1.375rem;
+      margin-inline: 0 0.625rem;
+      visibility: visible;
+    }
+
+    .nav-item-title {
+      font-size: 0.9375rem;
+      font-weight: 600;
+    }
+  }
+
+  // 👉 Child lists — modest indent plus a guide rail so nesting is visible
+  //    without eating the width the labels need.
+  .nav-group-children {
+    position: relative;
+    border-inline-start: 1px solid rgba(var(--v-border-color), var(--v-border-opacity));
+    margin-inline-start: 1.5rem;
+    padding-inline-start: 0.25rem;
+
+    .nav-group-children {
+      margin-inline-start: 1.125rem;
+    }
+  }
+
+  // 👉 Level 2 — modules
+  .nav-items > .nav-group > .nav-group-children > .nav-group > .nav-group-label,
+  .nav-items > .nav-group > .nav-group-children > .nav-link > a {
+    block-size: 2.375rem;
+    margin-block-end: 0.125rem;
+    margin-inline: 0.25rem 0.75rem;
+    padding-inline: 0.625rem;
+
+    > .nav-item-icon {
+      font-size: 1.125rem;
+      margin-inline: 0 0.5rem;
+      opacity: 0.85;
+      transform: none;
+      visibility: visible;
+    }
+
+    .nav-item-title {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+
+  // 👉 Level 3 — ribbons
+  .nav-items > .nav-group > .nav-group-children > .nav-group > .nav-group-children > .nav-link > a,
+  .nav-items > .nav-group > .nav-group-children > .nav-group > .nav-group-children > .nav-group > .nav-group-label {
+    block-size: 2.25rem;
+    margin-block-end: 0.0625rem;
+    margin-inline: 0.25rem 0.75rem;
+    padding-inline: 0.5rem;
+
+    > .nav-item-icon {
+      font-size: 1rem;
+      margin-inline: 0 0.5rem;
+      opacity: 0.7;
+      transform: none;
+      visibility: visible;
+    }
+
+    .nav-item-title {
+      font-size: 0.8125rem;
+      font-weight: 400;
+    }
+  }
+
+  // 👉 Group arrows shrink with the level they belong to
+  .nav-group-children .nav-group-arrow {
+    font-size: 1.125rem;
+    opacity: 0.7;
+  }
+
+  // 👉 Open nested group: the template shrink-wraps the 6px dot into a scaled
+  //    badge. With real icons that renders as a blurred blob — keep the icon.
+  .nav-group.open .nav-group-children .nav-group.open > .nav-group-label .nav-item-icon,
+  .nav-group.open .nav-group-children .nav-group.active > .nav-group-label .nav-item-icon {
+    color: inherit !important;
+    opacity: 1;
+    transform: none;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  // 👉 Active ribbon: the template turns the dot into a filled square. Use a
+  //    normal tonal highlight instead so the icon and label stay legible.
+  .nav-group .nav-link > .router-link-exact-active {
+    background-color: rgba(var(--v-global-theme-primary), 0.12) !important;
+    color: rgb(var(--v-global-theme-primary)) !important;
+
+    .nav-item-icon {
+      color: rgb(var(--v-global-theme-primary)) !important;
+      opacity: 1;
+      transform: none;
+
+      &::before {
+        content: none;
+      }
+    }
+
+    .nav-item-title {
+      font-weight: 500;
+    }
+  }
+
+  // 👉 An open branch stays legible even when it isn't the active one
+  .nav-group.open > .nav-group-label .nav-item-title {
+    color: rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity));
+  }
+}
+
+// 👉 Collapsed (mini) nav: the icon sits in the middle of the rail.
+//
+// It used to arrive there by arithmetic — a 1rem margin plus a 0.9375rem padding put a 22px icon
+// at 31–53px, whose middle is 42px, which is the middle of an 84px rail. True, and true only for
+// that icon at that rail width: change either and every icon drifts, silently, because nothing
+// says "centre" anywhere.
+//
+// What pushed them off in the first place is that a hidden title is not a removed one. The rail
+// clips `.nav-item-title` rather than hiding it, so it stays a flex item — taking its own width
+// and carrying `margin-inline-end: auto`, which eats the remaining space. The icon is then laid
+// out at the start of what is left rather than in the middle of the rail. The badge and the group
+// arrow do the same.
+//
+// So the row is centred outright and the passengers are taken out of it. Then the icon is in the
+// middle whatever its size, and whatever the rail's.
+#{variables.$selector-vertical-nav-mini} {
+  // The list keeps its default 32px indent, which the expanded menu absorbs but the rail cannot:
+  // it pushed every icon to 63–85px, past the rail's edge, so each one was clipped.
+  .nav-items {
+    padding-inline-start: 0;
+  }
+
+  .nav-items > .nav-link > a,
+  .nav-items > .nav-group > .nav-group-label {
+    justify-content: center;
+
+    // Symmetric, so the hover pill is inset evenly and the middle of the row is the middle of
+    // the rail. No horizontal padding: padding here would only offset what centring places.
+    margin-inline: 0.75rem;
+    padding-inline: 0;
+
+    > .nav-item-icon {
+      margin-inline: 0;
+    }
+
+    // Nothing else may occupy the row. Each of these is invisible in the rail and each was still
+    // taking part in the layout.
+    > .nav-item-title,
+    > .nav-item-badge,
+    > .nav-group-arrow {
+      display: none;
+    }
+  }
+
+  // The system name is clipped mid-letter by the rail; the logo alone identifies it there.
+  .nav-header a span {
+    opacity: 0;
+  }
+}

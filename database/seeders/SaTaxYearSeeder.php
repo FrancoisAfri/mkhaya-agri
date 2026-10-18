@@ -1,0 +1,149 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Modules\HR\Payroll\Models\Bureau\SaTaxYear;
+use Illuminate\Database\Seeder;
+
+/**
+ * Seeds the SARS statutory tax parameters for the last ~10 years of assessment
+ * (2017–2027). Figures were cross-verified against the SARS "rates of tax for
+ * individuals" and "medical tax credit rates" pages and TaxTim. The data is
+ * embedded (not read from a file) so it runs identically on every environment,
+ * including production. Idempotent: updates the row for each (country, tax_year)
+ * in place, so re-running never duplicates and always restores trusted values.
+ *
+ * These are national (SARS) values shared by every tenant — the table has no
+ * company_id, so there is nothing tenant-specific to seed.
+ */
+class SaTaxYearSeeder extends Seeder
+{
+    public function run(): void
+    {
+        $count = 0;
+
+        foreach ($this->years() as $r) {
+            SaTaxYear::updateOrCreate(
+                ['country' => $r['country'], 'tax_year' => $r['tax_year']],
+                [
+                    'starts_on'                      => $r['starts_on'],
+                    'ends_on'                        => $r['ends_on'],
+                    'brackets'                       => $r['brackets'],
+                    'primary_rebate'                 => $r['primary_rebate'],
+                    'secondary_rebate'               => $r['secondary_rebate'],
+                    'tertiary_rebate'                => $r['tertiary_rebate'],
+                    'threshold_under_65'             => $r['threshold_under_65'],
+                    'threshold_65_to_74'             => $r['threshold_65_to_74'],
+                    'threshold_75_plus'              => $r['threshold_75_plus'],
+                    'medical_credit_main'            => $r['medical_credit_main'],
+                    'medical_credit_first_dependant' => $r['medical_credit_first_dependant'],
+                    'medical_credit_additional'      => $r['medical_credit_additional'],
+                    'uif_rate'                       => $r['uif_rate'],
+                    'uif_monthly_ceiling'            => $r['uif_monthly_ceiling'],
+                    'sdl_rate'                       => $r['sdl_rate'],
+                    'sdl_annual_threshold'           => $r['sdl_annual_threshold'],
+                    'source'                         => 'seed',
+                    'confirmed_at'                   => now(),
+                ]
+            );
+            $count++;
+        }
+
+        $this->command?->info("SaTaxYearSeeder: upserted {$count} SARS tax year(s).");
+    }
+
+    /** SARS individual tax parameters, 2017–2027 years of assessment. */
+    private function years(): array
+    {
+        return [
+            [
+                'tax_year' => 2017, 'starts_on' => '2016-03-01', 'ends_on' => '2017-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[188000,0.26,33840],[293600,0.31,61296],[406400,0.36,96264],[550100,0.39,147996],[701300,0.41,206964]],
+                'primary_rebate' => 13500, 'secondary_rebate' => 7407, 'tertiary_rebate' => 2466,
+                'threshold_under_65' => 75000, 'threshold_65_to_74' => 116150, 'threshold_75_plus' => 129850,
+                'medical_credit_main' => 286, 'medical_credit_first_dependant' => 286, 'medical_credit_additional' => 192,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 14872, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2018, 'starts_on' => '2017-03-01', 'ends_on' => '2018-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[189880,0.26,34178],[296540,0.31,61910],[410460,0.36,97225],[555600,0.39,149475],[708310,0.41,209032],[1500000,0.45,533625]],
+                'primary_rebate' => 13635, 'secondary_rebate' => 7479, 'tertiary_rebate' => 2493,
+                'threshold_under_65' => 75750, 'threshold_65_to_74' => 117300, 'threshold_75_plus' => 131150,
+                'medical_credit_main' => 303, 'medical_credit_first_dependant' => 303, 'medical_credit_additional' => 204,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 14872, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2019, 'starts_on' => '2018-03-01', 'ends_on' => '2019-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[195850,0.26,35253],[305850,0.31,63853],[423300,0.36,100263],[555600,0.39,147891],[708310,0.41,207448],[1500000,0.45,532041]],
+                'primary_rebate' => 14067, 'secondary_rebate' => 7713, 'tertiary_rebate' => 2574,
+                'threshold_under_65' => 78150, 'threshold_65_to_74' => 121000, 'threshold_75_plus' => 135300,
+                'medical_credit_main' => 310, 'medical_credit_first_dependant' => 310, 'medical_credit_additional' => 209,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 14872, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2020, 'starts_on' => '2019-03-01', 'ends_on' => '2020-02-29', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[195850,0.26,35253],[305850,0.31,63853],[423300,0.36,100263],[555600,0.39,147891],[708310,0.41,207448],[1500000,0.45,532041]],
+                'primary_rebate' => 14220, 'secondary_rebate' => 7794, 'tertiary_rebate' => 2601,
+                'threshold_under_65' => 79000, 'threshold_65_to_74' => 122300, 'threshold_75_plus' => 136750,
+                'medical_credit_main' => 310, 'medical_credit_first_dependant' => 310, 'medical_credit_additional' => 209,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 14872, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2021, 'starts_on' => '2020-03-01', 'ends_on' => '2021-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[205900,0.26,37062],[321600,0.31,67144],[445100,0.36,105429],[584200,0.39,155505],[744800,0.41,218139],[1577300,0.45,559464]],
+                'primary_rebate' => 14958, 'secondary_rebate' => 8199, 'tertiary_rebate' => 2736,
+                'threshold_under_65' => 83100, 'threshold_65_to_74' => 128650, 'threshold_75_plus' => 143850,
+                'medical_credit_main' => 319, 'medical_credit_first_dependant' => 319, 'medical_credit_additional' => 215,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 14872, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2022, 'starts_on' => '2021-03-01', 'ends_on' => '2022-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[216200,0.26,38916],[337800,0.31,70532],[467500,0.36,110739],[613600,0.39,163335],[782200,0.41,229089],[1656600,0.45,587593]],
+                'primary_rebate' => 15714, 'secondary_rebate' => 8613, 'tertiary_rebate' => 2871,
+                'threshold_under_65' => 87300, 'threshold_65_to_74' => 135150, 'threshold_75_plus' => 151100,
+                'medical_credit_main' => 332, 'medical_credit_first_dependant' => 332, 'medical_credit_additional' => 224,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 17712, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2023, 'starts_on' => '2022-03-01', 'ends_on' => '2023-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[226000,0.26,40680],[353100,0.31,73726],[488700,0.36,115762],[641400,0.39,170734],[817600,0.41,239452],[1731600,0.45,614192]],
+                'primary_rebate' => 16425, 'secondary_rebate' => 9000, 'tertiary_rebate' => 2997,
+                'threshold_under_65' => 91250, 'threshold_65_to_74' => 141250, 'threshold_75_plus' => 157900,
+                'medical_credit_main' => 347, 'medical_credit_first_dependant' => 347, 'medical_credit_additional' => 234,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 17712, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2024, 'starts_on' => '2023-03-01', 'ends_on' => '2024-02-29', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[237100,0.26,42678],[370500,0.31,77362],[512800,0.36,121475],[673000,0.39,179147],[857900,0.41,251258],[1817000,0.45,644489]],
+                'primary_rebate' => 17235, 'secondary_rebate' => 9444, 'tertiary_rebate' => 3145,
+                'threshold_under_65' => 95750, 'threshold_65_to_74' => 148217, 'threshold_75_plus' => 165689,
+                'medical_credit_main' => 364, 'medical_credit_first_dependant' => 364, 'medical_credit_additional' => 246,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 17712, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2025, 'starts_on' => '2024-03-01', 'ends_on' => '2025-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[237100,0.26,42678],[370500,0.31,77362],[512800,0.36,121475],[673000,0.39,179147],[857900,0.41,251258],[1817000,0.45,644489]],
+                'primary_rebate' => 17235, 'secondary_rebate' => 9444, 'tertiary_rebate' => 3145,
+                'threshold_under_65' => 95750, 'threshold_65_to_74' => 148217, 'threshold_75_plus' => 165689,
+                'medical_credit_main' => 364, 'medical_credit_first_dependant' => 364, 'medical_credit_additional' => 246,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 17712, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2026, 'starts_on' => '2025-03-01', 'ends_on' => '2026-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[237100,0.26,42678],[370500,0.31,77362],[512800,0.36,121475],[673000,0.39,179147],[857900,0.41,251258],[1817000,0.45,644489]],
+                'primary_rebate' => 17235, 'secondary_rebate' => 9444, 'tertiary_rebate' => 3145,
+                'threshold_under_65' => 95750, 'threshold_65_to_74' => 148217, 'threshold_75_plus' => 165689,
+                'medical_credit_main' => 364, 'medical_credit_first_dependant' => 364, 'medical_credit_additional' => 246,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 17712, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+            [
+                'tax_year' => 2027, 'starts_on' => '2026-03-01', 'ends_on' => '2027-02-28', 'country' => 'ZA',
+                'brackets' => [[0,0.18,0],[245100,0.26,44118],[383100,0.31,79998],[530200,0.36,125599],[695800,0.39,185215],[887000,0.41,259783],[1878600,0.45,666339]],
+                'primary_rebate' => 17820, 'secondary_rebate' => 9765, 'tertiary_rebate' => 3249,
+                'threshold_under_65' => 99000, 'threshold_65_to_74' => 153250, 'threshold_75_plus' => 171300,
+                'medical_credit_main' => 376, 'medical_credit_first_dependant' => 376, 'medical_credit_additional' => 254,
+                'uif_rate' => 0.01, 'uif_monthly_ceiling' => 17712, 'sdl_rate' => 0.01, 'sdl_annual_threshold' => 500000,
+            ],
+        ];
+    }
+}

@@ -1,0 +1,556 @@
+<title>Mkhaya Payroll</title>
+<style>
+  :root {
+    --paper:      #F2F3F5;
+    --card:       #FFFFFF;
+    --ink:        #1C1F26;
+    --ink-soft:   #4A5160;
+    --ink-faint:  #767E8E;
+    --rule:       #D6D9E0;
+    --rule-soft:  #E6E8ED;
+    --accent:     #8C2F39;
+    --accent-dim: #B4525C;
+    --seal:       #0F5257;
+    --good:       #1F6B4A;
+    --shadow:     0 1px 2px rgba(28,31,38,.06), 0 8px 24px -12px rgba(28,31,38,.18);
+
+    --display: Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --body:    ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono:    ui-monospace, Menlo, Consolas, "Courier New", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #14171C;
+      --card:       #1B1F26;
+      --ink:        #E9EBEF;
+      --ink-soft:   #AEB6C4;
+      --ink-faint:  #7B8394;
+      --rule:       #333944;
+      --rule-soft:  #262B33;
+      --accent:     #E0808A;
+      --accent-dim: #C4626C;
+      --seal:       #5FB4B0;
+      --good:       #5FC08D;
+      --shadow:     0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper:      #14171C;
+    --card:       #1B1F26;
+    --ink:        #E9EBEF;
+    --ink-soft:   #AEB6C4;
+    --ink-faint:  #7B8394;
+    --rule:       #333944;
+    --rule-soft:  #262B33;
+    --accent:     #E0808A;
+    --accent-dim: #C4626C;
+    --seal:       #5FB4B0;
+    --good:       #5FC08D;
+    --shadow:     0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 62rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  /* ── Masthead, set like the head of a formal statement ───────────────── */
+
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 3.5rem 0 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .eyebrow {
+    font-family: var(--body);
+    font-size: .69rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 650;
+    margin: 0 0 1.25rem;
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(2.6rem, 7vw, 4.4rem);
+    line-height: 1.02;
+    letter-spacing: -.015em;
+    text-wrap: balance;
+    margin: 0 0 1rem;
+  }
+
+  .standfirst {
+    font-size: clamp(1.05rem, 2vw, 1.24rem);
+    color: var(--ink-soft);
+    max-width: 40ch;
+    margin: 0 0 2rem;
+    line-height: 1.5;
+  }
+
+  .refline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1rem;
+    font-family: var(--mono);
+    font-size: .74rem;
+    color: var(--ink-faint);
+    letter-spacing: .02em;
+  }
+  .refline b { color: var(--ink); font-weight: 600; }
+
+  /* ── Sections ────────────────────────────────────────────────────────── */
+
+  section { margin: 4rem 0 0; }
+
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: .5rem;
+    margin-bottom: 1.75rem;
+  }
+  .sec-head h2 {
+    font-family: var(--display);
+    font-size: clamp(1.5rem, 3.2vw, 2rem);
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .sec-head .tag {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--ink-faint);
+    white-space: nowrap;
+  }
+
+  .lede { font-size: 1.06rem; color: var(--ink-soft); max-width: 62ch; margin: 0 0 2rem; }
+
+  p { max-width: 66ch; }
+
+  /* ── The payslip figure ──────────────────────────────────────────────── */
+
+  .slip {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--accent);
+    box-shadow: var(--shadow);
+    padding: 1.5rem 1.5rem 1.25rem;
+    margin: 2.5rem 0 0;
+    overflow-x: auto;
+  }
+  .slip-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: .6rem;
+    margin-bottom: .9rem;
+    font-family: var(--mono);
+    font-size: .72rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .slip table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 34rem; }
+  .slip th {
+    text-align: right;
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+    padding: 0 0 .5rem;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .slip th:first-child { text-align: left; }
+  .slip td { padding: .42rem 0; border-bottom: 1px solid var(--rule-soft); text-align: right; font-family: var(--mono); font-size: .84rem; }
+  .slip td:first-child { text-align: left; font-family: var(--body); font-size: .92rem; color: var(--ink-soft); }
+  .slip tr:last-child td { border-bottom: none; font-weight: 700; color: var(--ink); }
+  .slip tr:last-child td:first-child { color: var(--ink); font-weight: 600; }
+  .slip-note { margin: .9rem 0 0; font-size: .82rem; color: var(--ink-faint); max-width: 60ch; }
+  .slip-note b { color: var(--accent); font-weight: 600; }
+
+  /* ── Capability grid ─────────────────────────────────────────────────── */
+
+  .grid { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  @media (min-width: 46rem) { .grid { grid-template-columns: 1fr 1fr; } }
+
+  .cell { background: var(--card); padding: 1.4rem 1.35rem; }
+  .cell h3 {
+    font-family: var(--body);
+    font-size: .95rem;
+    font-weight: 650;
+    margin: 0 0 .45rem;
+    letter-spacing: -.005em;
+  }
+  .cell p { margin: 0; font-size: .89rem; color: var(--ink-soft); line-height: 1.55; max-width: none; }
+  .cell .kicker {
+    display: block;
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--seal);
+    margin-bottom: .55rem;
+  }
+
+  /* ── Two-module comparison ───────────────────────────────────────────── */
+
+  .compare { width: 100%; border-collapse: collapse; margin-top: .5rem; }
+  .compare caption { text-align: left; font-size: .85rem; color: var(--ink-faint); padding-bottom: .8rem; }
+  .compare th, .compare td { text-align: left; padding: .8rem 1rem .8rem 0; border-bottom: 1px solid var(--rule-soft); vertical-align: top; font-size: .9rem; }
+  .compare thead th {
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+    border-bottom: 1px solid var(--rule);
+  }
+  .compare tbody th { font-weight: 600; color: var(--ink); width: 32%; }
+  .compare td { color: var(--ink-soft); }
+  .scroll { overflow-x: auto; }
+  .scroll table { min-width: 40rem; }
+
+  /* ── Pull quote / statement ──────────────────────────────────────────── */
+
+  .statement {
+    border-left: 3px solid var(--accent);
+    padding: .3rem 0 .3rem 1.5rem;
+    margin: 3rem 0;
+    max-width: 46ch;
+  }
+  .statement p {
+    font-family: var(--display);
+    font-size: clamp(1.25rem, 2.6vw, 1.6rem);
+    line-height: 1.35;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  /* ── Compliance seal list ────────────────────────────────────────────── */
+
+  .seals { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; padding: 0; list-style: none; }
+  .seals li {
+    font-family: var(--mono);
+    font-size: .72rem;
+    letter-spacing: .04em;
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    background: var(--card);
+    padding: .3rem .6rem;
+    border-radius: 2px;
+  }
+
+  ul.plain { padding-left: 1.1rem; margin: 0; }
+  ul.plain li { margin-bottom: .5rem; color: var(--ink-soft); font-size: .92rem; }
+  ul.plain li b { color: var(--ink); font-weight: 600; }
+
+  /* ── Close ───────────────────────────────────────────────────────────── */
+
+  .close {
+    margin-top: 4.5rem;
+    border-top: 2px solid var(--ink);
+    padding-top: 1.75rem;
+    display: grid;
+    gap: 1.5rem;
+  }
+  @media (min-width: 46rem) { .close { grid-template-columns: 1.4fr 1fr; align-items: start; } }
+  .close h2 { font-family: var(--display); font-size: 1.6rem; margin: 0 0 .6rem; }
+  .close p { margin: 0; color: var(--ink-soft); }
+  .close .who { font-family: var(--mono); font-size: .76rem; color: var(--ink-faint); line-height: 1.9; }
+  .close .who b { display: block; color: var(--ink); letter-spacing: .06em; text-transform: uppercase; font-size: .68rem; margin-bottom: .3rem; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Mkhaya Hub &middot; Human Resources</p>
+    <h1>Payroll that can answer for itself.</h1>
+    <p class="standfirst">South African payroll and a full multi-client payroll bureau, built on the SARS tables — weekly, fortnightly or monthly.</p>
+    <div class="refline">
+      <span><b>PAYE</b> &middot; brackets, rebates, credits</span>
+      <span><b>UIF</b> &middot; ceiling per period</span>
+      <span><b>SDL</b> &middot; threshold-tested</span>
+      <span><b>ETI</b> &middot; per qualifying employee</span>
+    </div>
+  </header>
+
+  <p class="lede">Two modules, one tax engine. <b>Payroll</b> runs your own company's staff. <b>Payroll Bureau</b> runs everybody else's — separate client companies, each with its own SARS references, pay cycle and employees, under one practice.</p>
+
+  <!-- ── The three cycles, shown rather than claimed ──────────────────── -->
+
+  <div class="slip">
+    <div class="slip-head">
+      <span>The same salary, three cycles</span>
+      <span>R312 000 per annum</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Pay cycle</th>
+          <th>Periods</th>
+          <th>Gross per period</th>
+          <th>UIF ceiling applied</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Monthly</td><td>12</td><td>26 000.00</td><td>17 712.00</td></tr>
+        <tr><td>Fortnightly</td><td>26</td><td>12 000.00</td><td>8 174.77</td></tr>
+        <tr><td>Weekly</td><td>52</td><td>6 000.00</td><td>4 087.38</td></tr>
+        <tr><td>Annual PAYE</td><td>&mdash;</td><td>identical</td><td>identical</td></tr>
+      </tbody>
+    </table>
+    <p class="slip-note">Pay frequency is not a label on a report. It sets how income is annualised for PAYE, how far the UIF ceiling is scaled down, how the ETI bands are measured, and how much of a monthly loan instalment may be recovered. <b>Get it wrong and the payslip still looks perfectly ordinary</b> &mdash; which is why it is handled once, in one place, for both modules.</p>
+  </div>
+
+  <!-- ── What the engine actually computes ───────────────────────────── -->
+
+  <section>
+    <div class="sec-head">
+      <h2>Calculated to the letter of the schedule</h2>
+      <span class="tag">Tax engine</span>
+    </div>
+    <p class="lede">Every figure is driven by the SARS parameters for the year of assessment — brackets, rebates, thresholds and credits are data, not code, so a Budget change is a table update rather than a release.</p>
+
+    <div class="grid">
+      <div class="cell">
+        <span class="kicker">PAYE</span>
+        <h3>The averaging method, properly applied</h3>
+        <p>Period income is annualised, taxed on the brackets, reduced by the age rebates and the annual medical-aid credits, then divided back to the period. Age 65 and 75 rebates apply automatically from the date of birth on the HR profile.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Section 11F</span>
+        <h3>Retirement capped, not guessed</h3>
+        <p>Pension, provident and RA contributions reduce taxable income only to 27.5% of the greater of remuneration or taxable income, and only to the annual cap pro-rated to the period. The employee still pays the full contribution; the excess is simply taxed.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Allowances &amp; benefits</span>
+        <h3>Travel at 80%, fringe benefits at cost</h3>
+        <p>Only the taxable portion of a travel allowance is subject to PAYE. Taxable employer contributions raise the PAYE base as a fringe benefit without touching gross or net — the distinction most spreadsheets quietly lose.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Once-off amounts</span>
+        <h3>Bonuses at the marginal rate</h3>
+        <p>A 13th cheque, retro adjustment or leave pay-out is taxed as the difference between the annual tax with and without it — not annualised as though it recurred every month. Severance runs on the lump-sum table with its own tax-free band.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">UIF &amp; SDL</span>
+        <h3>Ceilings and thresholds that follow the cycle</h3>
+        <p>UIF is 1% employee and 1% employer against the statutory ceiling scaled to the pay period. SDL is levied only once annualised payroll crosses the threshold, so a small employer is not charged a levy it does not owe.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">ETI</span>
+        <h3>The incentive, where it is genuinely due</h3>
+        <p>Employment Tax Incentive for qualifying employees aged 18&ndash;29, banded by monthly remuneration and months employed, tapering to nil at the ceiling. Non-monthly wages are restated to their monthly equivalent before the bands are applied.</p>
+      </div>
+    </div>
+
+    <ul class="seals">
+      <li>EMP201</li>
+      <li>EMP501</li>
+      <li>IRP5 / IT3(a)</li>
+      <li>SARS e@syFile</li>
+      <li>UI-19</li>
+      <li>ACB bank files</li>
+      <li>Tax directives</li>
+      <li>Multi-country ready</li>
+    </ul>
+  </section>
+
+  <div class="statement">
+    <p>The month you find a payroll error is never the month it started.</p>
+  </div>
+
+  <!-- ── Controls ─────────────────────────────────────────────────────── -->
+
+  <section>
+    <div class="sec-head">
+      <h2>Controls, because it is other people's money</h2>
+      <span class="tag">Governance</span>
+    </div>
+    <p class="lede">Payroll is usually the largest payment a company makes and the one nobody outside it can check. The module is built so that every figure has an owner, a trail and a second pair of eyes.</p>
+
+    <div class="grid">
+      <div class="cell">
+        <span class="kicker">Approvals</span>
+        <h3>A chain you configure</h3>
+        <p>Steps by role or by named person, with submit, approve, reject, comment, escalate and request-correction. A run cannot be released until the chain is satisfied.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Corrections</span>
+        <h3>Amendments on the record</h3>
+        <p>Corrections are suggested, approved and applied as their own tracked event rather than an untraceable edit to a released figure.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Change monitoring</span>
+        <h3>Risk-scored master-data changes</h3>
+        <p>Banking details, salaries and status changes are logged, scored for risk and surfaced for review — the changes that matter most are the ones made quietly between runs.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Assurance checks</span>
+        <h3>Ghost employees, leakage, anomalies</h3>
+        <p>Automated sweeps for duplicate banking details and unworked staff, for payments drifting outside their pattern, and for cross-checks between payroll, HR and the ledger.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Payslips</span>
+        <h3>Password-protected, stored, delivered</h3>
+        <p>Each payslip is rendered to an encrypted PDF locked with the employee's own key, filed against their profile, emailed and notified in-app. Employees retrieve their own history from self-service.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Audit</span>
+        <h3>Every run, every action</h3>
+        <p>Creation, calculation, locking, release and every approval decision are written to the payroll audit log with the user, the time and the totals as they stood.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Where the numbers go ─────────────────────────────────────────── -->
+
+  <section>
+    <div class="sec-head">
+      <h2>The numbers do not stop at the payslip</h2>
+      <span class="tag">Integration</span>
+    </div>
+    <ul class="plain">
+      <li><b>General ledger.</b> Releasing a run posts the salary journal to Finance through the posting outbox — a failure there is queued for retry and never unwinds a released payroll.</li>
+      <li><b>Departmental budgets.</b> The run's cost is reported to the budget module split by department, idempotently, so a re-release cannot charge a budget twice. Until this existed, budgets only ever heard about purchase orders.</li>
+      <li><b>Leave.</b> Leave is synchronised into the run, so unpaid days and pay-outs reach the payslip without re-keying.</li>
+      <li><b>Loans and advances.</b> Active staff loans and disbursed salary advances are recovered automatically, scaled to the pay period and matched to the payslip's own month.</li>
+      <li><b>Banking.</b> Runs generate ACB-format bank files for the employer's bank, or disburse directly through a connected payout provider with status tracked by webhook.</li>
+    </ul>
+  </section>
+
+  <!-- ── The two modules ──────────────────────────────────────────────── -->
+
+  <section>
+    <div class="sec-head">
+      <h2>One engine, two jobs</h2>
+      <span class="tag">Payroll vs Bureau</span>
+    </div>
+    <p class="lede">Both modules share the same statutory engine, so a figure calculated for your own staff and a figure calculated for a client are calculated identically. What differs is scope, and who is being served.</p>
+
+    <div class="scroll">
+      <table class="compare">
+        <caption>Choose Payroll to run your own company. Add Bureau to run payroll as a service for others.</caption>
+        <thead>
+          <tr><th scope="col"></th><th scope="col">Payroll</th><th scope="col">Payroll Bureau</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Who it pays</th>
+            <td>Your own employees, drawn from their HR profiles</td>
+            <td>Any number of separate client companies, each with its own employee register</td>
+          </tr>
+          <tr>
+            <th scope="row">Pay cycle</th>
+            <td>Weekly, fortnightly or monthly, set once for the company</td>
+            <td>Set per client company, and overridable per employee — weekly wage staff beside monthly salaried staff</td>
+          </tr>
+          <tr>
+            <th scope="row">Earnings structure</th>
+            <td>Basic plus payslip lines: overtime, allowances, travel, commission, bonus, leave pay-out</td>
+            <td>A reusable component catalogue — fixed, percentage of basic, or per hour — assigned per employee with taxable portion and UIF treatment</td>
+          </tr>
+          <tr>
+            <th scope="row">Run types</th>
+            <td>Regular runs with a configurable approval chain</td>
+            <td>Regular, off-cycle, bonus and termination runs, with once-off inputs including unpaid leave entered in days</td>
+          </tr>
+          <tr>
+            <th scope="row">Statutory output</th>
+            <td>EMP201, EMP501 with IRP5/IT3(a) certificates, UI-19</td>
+            <td>EMP201 per client, IRP5 export and SARS e@syFile import file per client</td>
+          </tr>
+          <tr>
+            <th scope="row">Payment</th>
+            <td>ACB bank file for the employer's bank</td>
+            <td>Bank file per client, or direct disbursement through a connected payout provider</td>
+          </tr>
+          <tr>
+            <th scope="row">Employee access</th>
+            <td>Self-service payslip history inside the Hub</td>
+            <td>Tokenised payslip portal for client employees who have no Hub login</td>
+          </tr>
+          <tr>
+            <th scope="row">Special cases</th>
+            <td>Loans, advances and leave recovered automatically</td>
+            <td>Tax directives at a fixed percentage, ETI opt-in, severance on the lump-sum table</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── Insight ──────────────────────────────────────────────────────── -->
+
+  <section>
+    <div class="sec-head">
+      <h2>What the payroll is telling you</h2>
+      <span class="tag">Analysis</span>
+    </div>
+    <p class="lede">Beyond the run itself, the module reads its own history: cost forecasting, executive analytics, written narrative reports, scheduled report delivery, simulations for what a proposed increase or restructure would actually cost, and an assistant that answers questions against your own payroll data.</p>
+    <div class="grid">
+      <div class="cell">
+        <span class="kicker">Simulation</span>
+        <h3>Cost it before you commit to it</h3>
+        <p>Model an increase, a new hire or a restructure and see the full employer cost — PAYE, UIF, SDL and contributions — before the decision is made.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Forecasting</span>
+        <h3>The year ahead, from the year behind</h3>
+        <p>Projected payroll cost by month and department, built from actual released runs rather than a budget line someone typed in January.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Narrative reporting</span>
+        <h3>Written, not just charted</h3>
+        <p>A plain-language report on what moved and why, section by section, exportable to PDF for a board pack.</p>
+      </div>
+      <div class="cell">
+        <span class="kicker">Compliance</span>
+        <h3>A standing readiness check</h3>
+        <p>Run the compliance sweep before a submission rather than discovering the gap when SARS does.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="close">
+    <div>
+      <h2>Built for South African payroll, and honest about it</h2>
+      <p>Mkhaya Payroll and Payroll Bureau are modules of Mkhaya Hub, sharing its tenancy isolation, role-based permissions, audit logging and multilingual interface. Statutory parameters are maintained per year of assessment, with country support built into the foundation.</p>
+    </div>
+    <div class="who">
+      <b>Modules</b>
+      Payroll<br>
+      Payroll Bureau<br><br>
+      <b>Requires</b>
+      Mkhaya Hub<br>
+      HR module for employee profiles
+    </div>
+  </footer>
+
+</div>

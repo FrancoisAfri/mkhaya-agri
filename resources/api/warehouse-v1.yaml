@@ -1,0 +1,236 @@
+openapi: 3.0.3
+info:
+  title: Mkhaya Warehouse API
+  version: "1.0"
+  description: |
+    Orders, stock, events and traceability for warehouses run by Mkhaya Warehouse Management & Intelligence.
+
+    **Authentication.** Every request carries a Sanctum personal access token (`Authorization: Bearer …`) belonging
+    to a user of one company. The token user's permissions apply, and a token limited to abilities must carry the
+    ability each operation names. Abilities `wms:warehouse:CODE` further limit a token to those warehouses.
+
+    **Rate limits.** 300 requests a minute per token by default (`429` with `Retry-After` beyond it).
+
+    **Idempotency.** Commands (`POST`, `PATCH`, `DELETE`) honour an `Idempotency-Key` header (8–120 characters).
+    The same key with the same body returns the first response with `Idempotent-Replay: true`; the same key with a
+    different body is `422`; one still in progress is `409`. Keys last 24 hours, per user. A refused request is not
+    remembered and can be corrected and resent under the same key. Orders are also idempotent on `external_ref`.
+
+    **Events.** Every event has an `event_id` (UUID), a `type`, a `schema_version` and a `sequence` (monotonic per
+    installation). A field may be added within a version; removing or renaming one makes a new version. Read the
+    feed with `GET /events?after=<sequence>`, or subscribe a webhook. Webhook deliveries are `POST`ed JSON with
+    headers `X-Mkhaya-Event`, `X-Mkhaya-Event-Id`, `X-Mkhaya-Schema-Version`, `X-Mkhaya-Timestamp` and
+    `X-Mkhaya-Signature: sha256=HMAC_SHA256(secret, timestamp + "." + body)`. Reject a delivery whose signature does
+    not match or whose timestamp is more than five minutes old, and de-duplicate on `event_id`: a delivery can
+    arrive more than once. Failed deliveries are retried with back-off for up to eight attempts, then held as dead
+    letters until replayed.
+
+    **EPCIS.** `GET /epcis/events` maps traceability onto EPCIS 2.0 / CBV concepts with GS1 Digital Link
+    identifiers. It is a mapping and has not been validated or certified for EPCIS conformance.
+servers:
+  - url: /api/v1/warehouse
+security:
+  - bearer: []
+components:
+  securitySchemes:
+    bearer: { type: http, scheme: bearer }
+  parameters:
+    IdempotencyKey: { name: Idempotency-Key, in: header, required: false, schema: { type: string, minLength: 8, maxLength: 120 } }
+    Warehouse: { name: warehouse, in: query, required: false, schema: { type: string }, description: Warehouse code; must be run by the warehouse module. }
+  schemas:
+    Event:
+      type: object
+      required: [sequence, event_id, type, schema_version, occurred_at, subject, data]
+      properties:
+        sequence: { type: integer }
+        event_id: { type: string, format: uuid }
+        type:
+          type: string
+          enum: [warehouse.receipt.posted, warehouse.stock.moved, warehouse.reservation.changed, warehouse.shipment.dispatched,
+                 warehouse.shipment.tracking, warehouse.shipment.delivered, warehouse.return.status_changed, warehouse.exception.raised]
+        schema_version: { type: integer }
+        occurred_at: { type: string, format: date-time }
+        warehouse: { type: string, nullable: true }
+        subject: { type: object, properties: { type: { type: string }, ref: { type: string } } }
+        data: { type: object, description: "Fields per type and version: see GET /event-types." }
+    Webhook:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        name: { type: string }
+        url: { type: string, format: uri, description: "https only; must resolve to a public address." }
+        event_types: { type: array, items: { type: string } }
+        warehouses: { type: array, nullable: true, items: { type: string } }
+        secret_hint: { type: string }
+        is_active: { type: boolean }
+        disabled_reason: { type: string, nullable: true }
+        last_delivered_at: { type: string, format: date-time, nullable: true }
+    Shipment:
+      type: object
+      properties:
+        shipment: { type: string }
+        status: { type: string, enum: [DISPATCHED, DELIVERED, FAILED] }
+        carrier: { type: string, nullable: true }
+        service: { type: string, nullable: true }
+        tracking_reference: { type: string, nullable: true }
+        booking_reference: { type: string, nullable: true }
+        tracking_status: { type: string, nullable: true }
+        dispatched_at: { type: string, format: date-time, nullable: true }
+        delivered_at: { type: string, format: date-time, nullable: true }
+        received_by: { type: string, nullable: true }
+        packages: { type: array, items: { type: string, description: SSCC } }
+        tracking:
+          type: array
+          items: { type: object, properties: { status: { type: string }, occurred_at: { type: string }, location: { type: string }, detail: { type: string }, source: { type: string } } }
+    Problem:
+      type: object
+      properties: { message: { type: string }, errors: { type: object } }
+  responses:
+    Forbidden: { description: The user lacks the permission or the token lacks the ability or warehouse., content: { application/json: { schema: { $ref: '#/components/schemas/Problem' } } } }
+    Invalid: { description: Validation failed or the request was refused., content: { application/json: { schema: { $ref: '#/components/schemas/Problem' } } } }
+paths:
+  /orders:
+    post:
+      summary: Send an order to fulfil (ability wms:orders)
+      parameters: [{ $ref: '#/components/parameters/IdempotencyKey' }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [warehouse, external_ref, lines]
+              properties:
+                warehouse: { type: string }
+                source: { type: string, enum: [ECOMMERCE, API] }
+                external_ref: { type: string, maxLength: 120 }
+                customer_name: { type: string }
+                ship_to: { type: object, description: "Free form; `zone` or `province` selects carrier rates." }
+                required_by: { type: string, format: date-time }
+                priority: { type: integer, minimum: 1, maximum: 100 }
+                allow_partial: { type: boolean }
+                release: { type: boolean, default: true }
+                lines:
+                  type: array
+                  maxItems: 500
+                  items: { type: object, required: [qty], properties: { sku: { type: string }, barcode: { type: string }, qty: { type: number }, uom: { type: string } } }
+      responses:
+        '201': { description: Created }
+        '200': { description: The order already existed under this external_ref }
+        '403': { $ref: '#/components/responses/Forbidden' }
+        '422': { $ref: '#/components/responses/Invalid' }
+  /orders/{ref}:
+    get:
+      summary: An order by number or external_ref (wms:read)
+      parameters: [{ name: ref, in: path, required: true, schema: { type: string } }]
+      responses: { '200': { description: OK }, '404': { description: Not found } }
+  /orders/{ref}/cancel:
+    post:
+      summary: Cancel an order (wms:orders)
+      parameters: [{ name: ref, in: path, required: true, schema: { type: string } }, { $ref: '#/components/parameters/IdempotencyKey' }]
+      responses: { '200': { description: Cancelled }, '409': { description: Too far along to cancel } }
+  /stock:
+    get:
+      summary: Available to promise per warehouse (wms:read)
+      parameters: [{ name: sku, in: query, required: true, schema: { type: string }, description: Comma-separated SKUs }]
+      responses: { '200': { description: OK } }
+  /event-types:
+    get:
+      summary: The event registry with schema versions and fields (wms:read)
+      responses: { '200': { description: OK } }
+  /events:
+    get:
+      summary: The event feed, oldest first (wms:read)
+      parameters:
+        - { name: after, in: query, schema: { type: integer }, description: Last sequence already processed }
+        - { name: 'types[]', in: query, schema: { type: array, items: { type: string } } }
+        - { $ref: '#/components/parameters/Warehouse' }
+        - { name: limit, in: query, schema: { type: integer, minimum: 1, maximum: 500, default: 200 } }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { type: object, properties: { data: { type: array, items: { $ref: '#/components/schemas/Event' } }, next_after: { type: integer } } }
+  /events/{eventId}/replay:
+    post:
+      summary: Deliver an event to webhooks again (wms:webhooks)
+      parameters: [{ name: eventId, in: path, required: true, schema: { type: string, format: uuid } }]
+      responses: { '202': { description: Queued }, '404': { description: No such event } }
+  /webhooks:
+    get:
+      summary: Subscribed endpoints (wms:webhooks)
+      responses: { '200': { description: OK } }
+    post:
+      summary: Subscribe an endpoint; the secret is returned once (wms:webhooks)
+      parameters: [{ $ref: '#/components/parameters/IdempotencyKey' }]
+      requestBody:
+        content:
+          application/json:
+            schema: { type: object, required: [name, url, event_types], properties: { name: { type: string }, url: { type: string }, event_types: { type: array, items: { type: string } }, warehouses: { type: array, items: { type: string } } } }
+      responses: { '201': { description: Subscribed; includes `secret` }, '422': { $ref: '#/components/responses/Invalid' } }
+  /webhooks/{id}:
+    patch:
+      summary: Change a subscription (wms:webhooks)
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '200': { description: OK } }
+    delete:
+      summary: Remove a subscription (wms:webhooks)
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '204': { description: Removed } }
+  /webhooks/{id}/rotate:
+    post:
+      summary: Replace the signing secret; the old one stops at once (wms:webhooks)
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { '200': { description: "{ secret }" } }
+  /movements:
+    get:
+      summary: Stock movements in warehouses the module runs (wms:read)
+      parameters:
+        - { $ref: '#/components/parameters/Warehouse' }
+        - { name: since, in: query, schema: { type: string, format: date-time } }
+        - { name: type, in: query, schema: { type: string } }
+        - { name: item, in: query, schema: { type: string } }
+        - { name: limit, in: query, schema: { type: integer, maximum: 1000 } }
+      responses: { '200': { description: OK } }
+  /reservations:
+    get:
+      summary: Reservations (wms:read)
+      parameters: [{ $ref: '#/components/parameters/Warehouse' }, { name: item, in: query, schema: { type: string } }, { name: status, in: query, schema: { type: string, enum: [OPEN, CONSUMED, RELEASED] } }]
+      responses: { '200': { description: OK } }
+  /shipments/{number}:
+    get:
+      summary: A shipment with its tracking (wms:read)
+      parameters: [{ name: number, in: path, required: true, schema: { type: string } }]
+      responses: { '200': { description: OK, content: { application/json: { schema: { $ref: '#/components/schemas/Shipment' } } } } }
+  /shipments/{number}/tracking:
+    post:
+      summary: Report a tracking event; the same external_id twice is kept once (wms:tracking)
+      parameters: [{ name: number, in: path, required: true, schema: { type: string } }, { $ref: '#/components/parameters/IdempotencyKey' }]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [status, occurred_at, external_id]
+              properties:
+                status: { type: string, enum: [BOOKED, COLLECTED, IN_TRANSIT, OUT_FOR_DELIVERY, DELIVERED, FAILED, RETURNED, EXCEPTION] }
+                occurred_at: { type: string, format: date-time }
+                location: { type: string }
+                detail: { type: string }
+                external_id: { type: string }
+                received_by: { type: string, description: Required with DELIVERED; records proof of delivery }
+      responses: { '201': { description: Recorded }, '200': { description: Already recorded }, '422': { $ref: '#/components/responses/Invalid' } }
+  /returns:
+    get:
+      summary: Customer returns (wms:read)
+      parameters: [{ name: status, in: query, schema: { type: string } }, { $ref: '#/components/parameters/Warehouse' }]
+      responses: { '200': { description: OK } }
+  /epcis/events:
+    get:
+      summary: Traceability mapped to EPCIS 2.0 / CBV (wms:read). A mapping, not a certified implementation.
+      parameters:
+        - { name: from, in: query, required: true, schema: { type: string, format: date-time } }
+        - { name: to, in: query, required: true, schema: { type: string, format: date-time } }
+        - { $ref: '#/components/parameters/Warehouse' }
+      responses: { '200': { description: An EPCISDocument (JSON-LD) with mkhaya:coverage listing missing GS1 keys } }

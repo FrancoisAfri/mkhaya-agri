@@ -1,0 +1,6 @@
+@use "global";
+// ℹ️ Nothing @uses this file — the app's entry is assets/styles/styles.scss, which imports
+// perfect-scrollbar's stylesheet itself. Kept in sync so this doesn't fail if it is ever wired up:
+// the package's exports map only publishes "./style.css", not "./dist/style.css".
+@use "vue3-perfect-scrollbar/style.css";
+@use "classes";

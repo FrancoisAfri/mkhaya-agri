@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Board &amp; Committee Management — Brochure</title>
+<style>
+  :root{
+    --navy:#0b2545; --blue:#1d4e89; --accent:#2b8a9c; --gold:#c79a3a;
+    --ink:#1c2530; --muted:#5b6573; --line:#e3e7ee; --bg:#f5f7fa; --ai:#6d4ed6;
+  }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); margin:0; background:var(--bg); line-height:1.5; font-size:14px;}
+  .page{max-width:900px; margin:0 auto; background:#fff;}
+  /* Hero */
+  .hero{background:linear-gradient(135deg,var(--navy),var(--blue)); color:#fff; padding:54px 48px;}
+  .hero .kicker{letter-spacing:.18em; text-transform:uppercase; font-size:12px; opacity:.85; margin:0 0 14px;}
+  .hero h1{font-size:40px; line-height:1.1; margin:0 0 10px; font-weight:800;}
+  .hero h2{font-size:18px; font-weight:500; margin:0 0 18px; color:#cfe0f5;}
+  .hero p{max-width:640px; margin:0; color:#e8eef7;}
+  .hero .tag{display:inline-block; margin-top:22px; background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.25); padding:8px 14px; border-radius:30px; font-size:13px;}
+  /* Sections */
+  .wrap{padding:40px 48px;}
+  h3.section{font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent);
+    margin:0 0 18px; padding-bottom:8px; border-bottom:2px solid var(--line);}
+  .why{display:grid; grid-template-columns:1fr 1fr; gap:14px 28px; margin:0 0 8px;}
+  .why div{padding-left:4px}
+  .why b{color:var(--navy)}
+  /* Feature grid */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+  .card{border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:#fff;
+    break-inside:avoid; page-break-inside:avoid;}
+  .card .n{display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px;
+    border-radius:7px; background:var(--navy); color:#fff; font-size:13px; font-weight:700; margin-right:8px;}
+  .card h4{display:flex; align-items:center; font-size:15px; margin:0 0 8px; color:var(--navy);}
+  .card .new{margin-left:auto; font-size:10px; font-weight:700; letter-spacing:.05em; padding:2px 7px;
+    border-radius:20px; background:#e8f7ee; color:#1f8a4c;}
+  .card ul{margin:0; padding-left:18px; color:var(--muted); font-size:13px;}
+  .card li{margin:3px 0;}
+  .ai-pill{display:inline-block; background:#efeaff; color:var(--ai); font-weight:600;
+    font-size:11px; padding:1px 7px; border-radius:12px; margin-right:4px;}
+  /* AI suite */
+  .ai-band{background:linear-gradient(135deg,#2a1d52,#4631a0); color:#fff; padding:40px 48px;}
+  .ai-band h3{color:#cdbff7; border-color:rgba(255,255,255,.18);}
+  table{width:100%; border-collapse:collapse; font-size:13px;}
+  .ai-band td{padding:9px 10px; border-bottom:1px solid rgba(255,255,255,.14); vertical-align:top;}
+  .ai-band td.f{font-weight:700; white-space:nowrap; color:#fff; width:34%;}
+  .ai-band .note{margin-top:18px; background:rgba(255,255,255,.1); border-left:3px solid var(--gold);
+    padding:12px 16px; border-radius:6px; font-size:13px;}
+  /* security/roles */
+  .chips{display:flex; flex-wrap:wrap; gap:10px;}
+  .chip{background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:10px 14px; font-size:13px;}
+  .chip b{color:var(--navy)}
+  .roles td{padding:10px 12px; border-bottom:1px solid var(--line); font-size:13px;}
+  .roles td.r{font-weight:700; color:var(--navy); white-space:nowrap;}
+  /* footer */
+  .cta{background:var(--navy); color:#fff; text-align:center; padding:40px 48px;}
+  .cta h3{color:#fff; border:none; font-size:22px; text-transform:none; letter-spacing:0; margin:0 0 10px;}
+  .cta p{color:#cfe0f5; max-width:560px; margin:0 auto 18px;}
+  .cta .btn{display:inline-block; background:var(--gold); color:#1c1300; font-weight:700;
+    padding:12px 26px; border-radius:30px; text-decoration:none;}
+  .cta .sig{margin-top:22px; font-style:italic; color:#9fb4d4;}
+  .stat{display:flex; flex-wrap:wrap; gap:24px; justify-content:center; margin:6px 0 30px;}
+  .stat div{text-align:center}
+  .stat b{display:block; font-size:30px; color:var(--blue); line-height:1;}
+  .stat span{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
+  @media print{ body{background:#fff} .page{max-width:none} .grid{grid-template-columns:1fr 1fr} }
+  @media (max-width:680px){ .grid,.why{grid-template-columns:1fr} .hero,.wrap,.ai-band,.cta{padding-left:24px;padding-right:24px} }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HERO -->
+  <header class="hero">
+    <p class="kicker">Mkhaya Hub · Governance</p>
+    <h1>Board &amp; Committee Management</h1>
+    <h2>The complete, AI-powered governance platform — King IV aligned</h2>
+    <p>Run a flawless board. From the first notice to the signed minute — secure, paperless and intelligent.
+       One home for meetings, packs, resolutions, minutes, compliance and risk, supercharged with AI that prepares,
+       scans and summarises so your people focus on decisions, not paperwork.</p>
+    <span class="tag">Schedule → Notice → Pack → Meet → Vote → Minute → Archive</span>
+  </header>
+
+  <!-- WHY -->
+  <section class="wrap">
+    <h3 class="section">Why boards choose Mkhaya Hub</h3>
+    <div class="why">
+      <div>✅ <b>End-to-end</b> — the entire meeting lifecycle in one secure place.</div>
+      <div>🔒 <b>Bank-grade security</b> — Azure AD SSO, 2FA, encrypted votes, watermarked packs, full audit trails.</div>
+      <div>🇿🇦 <b>King IV by design</b> — built-in tracker mapped to all 16 principles with evidence.</div>
+      <div>🤖 <b>AI does the heavy lifting</b> — risk scanning, draft minutes, pre-reads, agenda drafting, assistant.</div>
+      <div>📱 <b>Anywhere access</b> — read and annotate packs offline; sync on reconnect.</div>
+      <div>📊 <b>Insight on tap</b> — executive dashboards, scheduled reports and real-time alerts.</div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="wrap" style="padding-top:0">
+    <h3 class="section">What's inside — 19 governance modules</h3>
+    <div class="grid">
+
+      <div class="card"><h4><span class="n">1</span> Director &amp; Board Register</h4>
+        <ul><li>Executive, non-exec, independent &amp; alternate classification</li>
+        <li>Independence, appointment &amp; disqualification tracking</li>
+        <li>Automatic term &amp; rotation alerts (6-month warning)</li>
+        <li>External directors without system accounts</li></ul></div>
+
+      <div class="card"><h4><span class="n">2</span> Committees</h4>
+        <ul><li>Audit, Risk, Finance, Ethics, ad-hoc &amp; more</li>
+        <li>Mandates, objectives, terms of reference</li>
+        <li>Configurable quorum &amp; voting thresholds</li>
+        <li>Chair, secretary, member &amp; observer roles</li></ul></div>
+
+      <div class="card"><h4><span class="n">3</span> Meetings — full lifecycle</h4>
+        <ul><li>Board, committee, AGM, special &amp; round-robin</li>
+        <li>Recurring, virtual &amp; hybrid; quorum tracking</li>
+        <li>Adjourn / reconvene; notices, RSVP &amp; attendance</li>
+        <li>Calendar export</li></ul></div>
+
+      <div class="card"><h4><span class="n">4</span> Agenda Builder <span class="new">AI</span></h4>
+        <ul><li>Drag-and-drop, sub-items, standing items, timings</li>
+        <li>Reusable templates &amp; version history</li>
+        <li><span class="ai-pill">AI</span>Draft a full agenda from carried-forward business</li></ul></div>
+
+      <div class="card"><h4><span class="n">5</span> Board Packs <span class="new">AI</span></h4>
+        <ul><li>One-click compile to a watermarked PDF</li>
+        <li>Classification, secure distribution &amp; read receipts</li>
+        <li>Versioning &amp; revisions</li>
+        <li><span class="ai-pill">AI</span>One-page "what to decide" pre-read per director</li></ul></div>
+
+      <div class="card"><h4><span class="n">6</span> Offline Access &amp; Annotations</h4>
+        <ul><li>Download packs for offline reading</li>
+        <li>Private notes, highlights &amp; questions</li>
+        <li>Two-way sync on reconnect</li></ul></div>
+
+      <div class="card"><h4><span class="n">7</span> Resolutions &amp; Voting</h4>
+        <ul><li>Ordinary, special, written &amp; round-robin; auto-numbered</li>
+        <li>Secret ballot &amp; encrypted vote casts</li>
+        <li>Thresholds, chair casting vote</li>
+        <li>Conflict-of-interest exclusion with override</li></ul></div>
+
+      <div class="card"><h4><span class="n">8</span> Resolution &amp; Action Register <span class="new">AI</span></h4>
+        <ul><li>Owners, due dates, % progress, priority</li>
+        <li>Escalation, reminders &amp; evidence upload</li>
+        <li>Cross-resolution action view</li>
+        <li><span class="ai-pill">AI</span>At-risk flags + drafted reminder messages</li></ul></div>
+
+      <div class="card"><h4><span class="n">9</span> Meeting Minutes <span class="new">AI</span></h4>
+        <ul><li>Structured items, decisions &amp; voting outcomes</li>
+        <li>Draft → approved → signed → distributed</li>
+        <li>Version history &amp; amendments</li>
+        <li><span class="ai-pill">AI</span>Generate from transcript + King IV QA gate</li></ul></div>
+
+      <div class="card"><h4><span class="n">10</span> Conflicts of Interest</h4>
+        <ul><li>Annual, ad-hoc &amp; meeting-specific declarations</li>
+        <li>Categories, recusal &amp; approval workflow</li>
+        <li>Linked to voting exclusions</li></ul></div>
+
+      <div class="card"><h4><span class="n">11</span> Gift &amp; Hospitality Register</h4>
+        <ul><li>Gifts received &amp; given, counterparty &amp; value</li>
+        <li>Hospitality, travel, donation, sponsorship</li>
+        <li>Review &amp; approval workflow</li></ul></div>
+
+      <div class="card"><h4><span class="n">12</span> King IV Compliance Tracker</h4>
+        <ul><li>All 16 principles with status &amp; owners</li>
+        <li>Evidence upload per principle</li>
+        <li>Compliance dashboard at a glance</li></ul></div>
+
+      <div class="card"><h4><span class="n">13</span> Document Library</h4>
+        <ul><li>Policies, charters, contracts &amp; reports</li>
+        <li>Version control, classification, watermarking</li>
+        <li>Full access audit log &amp; full-text search</li></ul></div>
+
+      <div class="card"><h4><span class="n">14</span> Board Roles &amp; Delegations</h4>
+        <ul><li>Administrator, Secretary, Chair, Director, Observer…</li>
+        <li>Temporary delegations (acting chair)</li>
+        <li>Bulk role-matrix management</li></ul></div>
+
+      <div class="card"><h4><span class="n">15</span> Organisation &amp; Legal Entities <span class="new">NEW</span></h4>
+        <ul><li>Group structure: holding, subsidiaries, JVs</li>
+        <li>Legal-entity register: registration, jurisdiction, ownership</li>
+        <li>Statutory filings with due-date &amp; overdue alerts</li></ul></div>
+
+      <div class="card"><h4><span class="n">16</span> Board Skills Matrix <span class="new">NEW</span></h4>
+        <ul><li>Target competencies with coverage goals</li>
+        <li>Per-director proficiency &amp; visual matrix</li>
+        <li><span class="ai-pill">AI</span>Gap analysis &amp; recruitment recommendations</li></ul></div>
+
+      <div class="card"><h4><span class="n">17</span> Questionnaires &amp; Evaluations <span class="new">NEW</span></h4>
+        <ul><li>D&amp;O disclosures &amp; conflict attestations</li>
+        <li>Board &amp; committee self-evaluations</li>
+        <li>Assign, track completion &amp; collect responses</li></ul></div>
+
+      <div class="card"><h4><span class="n">18</span> AI Register — Oversight of AI <span class="new">NEW</span></h4>
+        <ul><li>Catalogue AI systems, purpose &amp; data sensitivity</li>
+        <li><span class="ai-pill">AI</span>Risk rating + expected controls</li>
+        <li>Meets the board's emerging duty to oversee AI</li></ul></div>
+
+      <div class="card"><h4><span class="n">19</span> Regulatory &amp; Market Monitor <span class="new">NEW</span></h4>
+        <ul><li><span class="ai-pill">AI</span>Curated regulatory, sector &amp; peer briefings</li>
+        <li>"Why the board should care" summaries</li>
+        <li>Tagged to governance areas</li></ul></div>
+
+    </div>
+  </section>
+
+  <!-- AI SUITE -->
+  <section class="ai-band">
+    <h3 class="section">The AI Governance Suite 🤖</h3>
+    <p style="margin-top:-6px;color:#d9cffb">Built in, not bolted on. Every AI output is a <b>draft for human review</b> — never auto-final — and every call is <b>audit-logged</b> for defensibility.</p>
+    <table>
+      <tr><td class="f">Smart Risk Scanner</td><td>Flags litigation, compliance, financial &amp; disclosure red-flags inside packs, minutes &amp; resolutions.</td></tr>
+      <tr><td class="f">Governance Assistant</td><td>Ask plain-English questions across your records and get cited answers (semantic search).</td></tr>
+      <tr><td class="f">Board-Pack Pre-Read</td><td>A one-page decision brief for every pack.</td></tr>
+      <tr><td class="f">AI Minutes</td><td>Draft minutes and extract action items from a meeting transcript.</td></tr>
+      <tr><td class="f">Minutes QA Gate</td><td>Checks minutes for completeness against King IV before approval.</td></tr>
+      <tr><td class="f">Agenda Drafting</td><td>Generates a structured agenda from carried-forward business.</td></tr>
+      <tr><td class="f">Meeting Effectiveness</td><td>Participation balance, decision velocity &amp; unresolved-item analytics.</td></tr>
+      <tr><td class="f">Skills-Gap Analysis</td><td>Board composition vs target matrix, with recommendations.</td></tr>
+      <tr><td class="f">AI Risk Rating</td><td>Risk-rates entries in your AI register.</td></tr>
+      <tr><td class="f">Regulatory Briefings</td><td>Curates external developments into board-ready summaries.</td></tr>
+    </table>
+    <div class="note">🔐 <b>Your data stays yours.</b> The AI provider is configurable per organisation — run it on a private / Azure OpenAI endpoint so confidential board material never touches shared infrastructure.</div>
+  </section>
+
+  <!-- SECURITY -->
+  <section class="wrap">
+    <h3 class="section">Security &amp; Trust</h3>
+    <div class="chips">
+      <div class="chip">🔐 <b>Azure AD SSO</b> + 2FA (TOTP)</div>
+      <div class="chip">🗳️ <b>Encrypted votes</b> &amp; secret ballot</div>
+      <div class="chip">💧 <b>Watermarked</b>, classified documents</div>
+      <div class="chip">🧾 <b>Complete audit trails</b> — incl. every AI call</div>
+      <div class="chip">🪪 <b>Session control</b> with remote revocation</div>
+      <div class="chip">🔗 <b>Signed, expiring</b> download links</div>
+    </div>
+  </section>
+
+  <!-- ROLES -->
+  <section class="wrap" style="padding-top:0">
+    <h3 class="section">Built for everyone around the table</h3>
+    <table class="roles">
+      <tr><td class="r">Company Secretary</td><td>Compile packs, run the workflow, draft minutes &amp; stay audit-ready — in a fraction of the time.</td></tr>
+      <tr><td class="r">Chairperson</td><td>Approve and sign minutes, cast deciding votes, see the full picture.</td></tr>
+      <tr><td class="r">Directors</td><td>Read packs anywhere, annotate offline, vote securely, complete disclosures on any device.</td></tr>
+      <tr><td class="r">Audit &amp; Risk Committee</td><td>Risk scanning, compliance tracking and AI oversight in one place.</td></tr>
+      <tr><td class="r">Administrators</td><td>Role management, security controls and full visibility.</td></tr>
+    </table>
+  </section>
+
+  <!-- CTA -->
+  <footer class="cta">
+    <div class="stat">
+      <div><b>19</b><span>Modules</span></div>
+      <div><b>10</b><span>AI capabilities</span></div>
+      <div><b>16</b><span>King IV principles</span></div>
+      <div><b>100%</b><span>Audit-logged</span></div>
+    </div>
+    <h3>Ready to see it?</h3>
+    <p>Request a demo and we'll walk your secretariat and directors through a full meeting cycle — from notice to signed minute.</p>
+    <a class="btn" href="#">Request a Demo</a>
+    <div class="sig">Mkhaya Hub — governance, done right.</div>
+  </footer>
+
+</div>
+</body>
+</html>

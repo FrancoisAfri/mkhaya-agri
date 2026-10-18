@@ -1,0 +1,34 @@
+// @use "@styles/style.scss";
+
+// 👉 Vertical nav
+$layout-vertical-nav-z-index: 12 !default;
+// Mkhaya nav is three levels deep (category › module › ribbon), so it needs
+// more room than the stock 260px or every deeper label gets truncated.
+$layout-vertical-nav-width: 288px !default;
+$layout-vertical-nav-collapsed-width: 80px !default;
+// Keyed to the `.hovered` class, not `:hover`. The nav's width follows `.hovered`, which is set
+// after a short delay; styling the rail off raw `:hover` let the items switch to their expanded
+// spacing while the nav was still 84px wide, for the length of that delay.
+$selector-vertical-nav-mini: ".layout-vertical-nav-collapsed .layout-vertical-nav:not(.hovered)";
+
+// 👉 Horizontal nav
+$layout-horizontal-nav-z-index: 11 !default;
+$layout-horizontal-nav-navbar-height: 64px !default;
+
+// 👉 Navbar
+$layout-vertical-nav-navbar-height: 64px !default;
+$layout-vertical-nav-navbar-is-contained: true !default;
+$layout-vertical-nav-layout-navbar-z-index: 11 !default;
+$layout-horizontal-nav-layout-navbar-z-index: 11 !default;
+
+// 👉 Main content
+$layout-boxed-content-width: 1440px !default;
+
+//  👉Footer
+$layout-vertical-nav-footer-height: 56px !default;
+
+// 👉 Layout overlay
+$layout-overlay-z-index: 11 !default;
+
+// 👉 RTL
+$enable-rtl-styles: true !default;

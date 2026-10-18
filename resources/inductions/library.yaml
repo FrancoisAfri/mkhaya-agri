@@ -1,0 +1,478 @@
+# ─────────────────────────────────────────────────────────────────────────────────────────────
+# Sector induction library
+#
+# Ships with the module so a mine is not authoring a mining induction from a blank page, and a
+# warehouse is not being shown mining content. Installed as SHARED inductions (company_id NULL):
+# every tenant sees them, a tenant who wants a variant publishes their own under their own code and
+# the tenant version wins.
+#
+# ⚠️ LEGAL REVIEW REQUIRED — same standing as the regulatory packs and the inspection library. The
+# content below was assembled from the published requirements referenced in each `basis` line, not
+# from a certified body's model induction. A SAIOSH/SACPCMP practitioner must confirm it before a
+# tenant relies on one as evidence that a person was competently briefed. The engine is right; the
+# content is DRAFT.
+#
+# Why sector matters here more than in most places: an induction is the *only* safety briefing many
+# visitors and short-term contractors will ever receive on that site. Telling a warehouse visitor
+# about self-contained self-rescuers wastes the one minute of attention they will give you, and not
+# telling a mine visitor about them is the omission that kills them underground.
+#
+# `pass_mark: 100` throughout, deliberately. These are not exams to be graded on a curve — if a
+# question is worth asking at an induction, getting it wrong means the person does not yet know
+# something they need before they walk on site.
+# ─────────────────────────────────────────────────────────────────────────────────────────────
+
+inductions:
+
+  # ── Every sector ───────────────────────────────────────────────────────────────────────────
+  - code: GEN-VISITOR
+    title: General site induction — visitors
+    sector: ALL
+    audience: VISITOR
+    basis: "OHS Act s8(2)(d) and s9; General Safety Regulations"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this site safety induction. I undertake to obey
+      all site rules and signage, to wear the personal protective equipment issued to me, to remain
+      with my host or in the areas I have been authorised to enter, and to report any injury,
+      near miss or unsafe condition immediately. I understand that I may be removed from site for
+      failing to do so. I agree to keep confidential any commercial or personal information I see
+      or hear while on site, and not to photograph or record anything without written permission.
+    content:
+      - heading: Reporting in and out
+        body: >
+          You must sign in on arrival and sign out when you leave, every time, without exception.
+          The register is how we know who is on site. If there is an emergency and you have not
+          signed out, people will be sent to look for you inside the building.
+      - heading: If the alarm sounds
+        body: >
+          Stop what you are doing, leave immediately by the nearest marked exit, and go to the
+          assembly point shown on the map at reception. Do not collect belongings. Do not use lifts.
+          Do not go back inside for any reason until the person in charge says it is safe.
+      - heading: Personal protective equipment
+        body: >
+          Wear the PPE issued to you for the whole time you are in the operational areas. If it does
+          not fit, say so before you go in — PPE in the wrong size does not protect you and will be
+          taken off.
+      - heading: Reporting injuries and hazards
+        body: >
+          Report every injury, however minor, to your host on the day it happens. Report anything
+          that looks unsafe even if it is not your job to fix it. You will never be criticised for
+          reporting something that turns out to be nothing.
+      - heading: Where you may go
+        body: >
+          Stay with your host or in the area you were authorised to enter. Many areas have hazards
+          that are not obvious to somebody who does not work there.
+    questions:
+      - id: q1
+        text: What must you do the moment the evacuation alarm sounds?
+        options:
+          - Leave immediately by the nearest exit and go to the assembly point
+          - Finish what you are doing, then leave
+          - Collect your belongings first
+          - Wait to be told what to do
+        answer: Leave immediately by the nearest exit and go to the assembly point
+      - id: q2
+        text: You see a spill in a walkway. It is not your job to clean it. What do you do?
+        options:
+          - Report it immediately
+          - Walk around it
+          - Ignore it — someone else will see it
+          - Photograph it and report it at the end of the day
+        answer: Report it immediately
+      - id: q3
+        text: You graze your hand. It barely bleeds. What must you do?
+        options:
+          - Report it to your host the same day
+          - Nothing, it is too minor to report
+          - Mention it only if it gets worse
+          - Report it at your next visit
+        answer: Report it to your host the same day
+
+  # ── Mining ─────────────────────────────────────────────────────────────────────────────────
+  - code: MIN-VISITOR
+    title: Mine visitor induction
+    sector: MINING
+    audience: VISITOR
+    basis: "Mine Health and Safety Act 29 of 1996 s5, s21 and s22; MHSA Chapter 4 regulations"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this mine safety induction. I understand that a
+      mine is a hazardous workplace and that section 22 of the Mine Health and Safety Act places a
+      duty on me personally to take reasonable care of my own health and safety and that of others
+      who may be affected by what I do. I undertake to comply with all instructions given by the
+      person supervising me, to remain in the areas I have been authorised to enter, and to report
+      any dangerous condition immediately. I agree to keep confidential any information I obtain
+      while on the mine and not to photograph or record without written permission.
+    content:
+      - heading: A mine is not an ordinary workplace
+        body: >
+          The hazards here can injure or kill within seconds and most of them are not visible to
+          somebody who does not work here. You must not go anywhere alone. Your escort is
+          responsible for you and you must stay with them at all times.
+      - heading: Your legal duty
+        body: >
+          Section 22 of the Mine Health and Safety Act places a duty on every person at a mine — not
+          only employees — to take reasonable care of their own health and safety, to obey lawful
+          instructions, and to report any situation they believe is unsafe.
+      - heading: The right to leave a dangerous place
+        body: >
+          Section 23 gives every person the right to leave a working place that is dangerous, and to
+          refuse to work in it. You will never be penalised for using that right. If you believe a
+          place is unsafe, say so and leave.
+      - heading: Underground — self-rescuers and refuge bays
+        body: >
+          If you are going underground you will be issued a self-contained self-rescuer. You must
+          carry it at all times and you will be shown how to don it before you go down. Learn where
+          the refuge bays are on the route you take. In a fire or gas event, go to the nearest refuge
+          bay and stay there until you are told to move.
+      - heading: Vehicles and trackless machinery
+        body: >
+          Trackless mobile machinery cannot see you and cannot stop quickly. Never walk behind or
+          beside a machine. Make eye contact with the operator before you cross in front of one, and
+          wait for their acknowledgement.
+      - heading: Fall of ground
+        body: >
+          Fall of ground remains a leading cause of death on South African mines. Do not enter any
+          area that has been barred off. Do not walk under unsupported ground. If you see loose rock
+          or hear cracking, leave and report it.
+      - heading: Reporting
+        body: >
+          Report every injury, near miss and dangerous condition to your escort immediately. A
+          dangerous occurrence must be reported to the Principal Inspector of Mines whether or not
+          anybody was hurt, which is why we need to know about it even when nothing happened.
+    questions:
+      - id: q1
+        text: You believe the place you are standing in is dangerous. What are you entitled to do?
+        options:
+          - Leave the working place — section 23 gives you that right
+          - Nothing, unless your escort agrees
+          - Only leave if you are an employee of the mine
+          - Wait for a supervisor to inspect it
+        answer: Leave the working place — section 23 gives you that right
+      - id: q2
+        text: What must you do before crossing in front of trackless mobile machinery?
+        options:
+          - Make eye contact with the operator and wait for acknowledgement
+          - Walk quickly so you are not in the way for long
+          - Sound your voice to warn them
+          - Cross behind it instead
+        answer: Make eye contact with the operator and wait for acknowledgement
+      - id: q3
+        text: Underground, you must carry your self-contained self-rescuer
+        options:
+          - At all times
+          - Only when travelling to the working place
+          - Only if you are going into a gassy section
+          - Only if your escort tells you to
+        answer: At all times
+      - id: q4
+        text: You see loose rock in a barred-off area. What do you do?
+        options:
+          - Stay out and report it immediately
+          - Enter carefully to look more closely
+          - Ignore it — it is barred off
+          - Take a photograph for the report
+        answer: Stay out and report it immediately
+
+  # ── Construction ───────────────────────────────────────────────────────────────────────────
+  - code: CON-CONTRACTOR
+    title: Construction site induction — contractors
+    sector: CONSTRUCTION
+    audience: CONTRACTOR
+    basis: "Construction Regulations 2014 r7 (site induction), r10 (fall protection), r11 (excavation)"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this construction site induction. I understand
+      that I may not begin any work at height, in an excavation, or on any electrical installation
+      until the required permit or authorisation has been issued. I undertake to work only within my
+      appointed scope, to use the fall protection and other equipment provided, to obey the site
+      agent and health and safety officer, and to report any injury or dangerous condition
+      immediately. I agree to keep confidential any information about this project and its client.
+    content:
+      - heading: Working at height
+        body: >
+          Construction Regulation 10 requires a fall protection plan for any work where a person
+          could fall. You may not work above two metres without one, and without the fall arrest
+          equipment it specifies. Inspect your harness before every use — a harness that has arrested
+          a fall is scrap and must never be used again.
+      - heading: Excavations
+        body: >
+          Never enter an excavation deeper than 1.5 metres unless it has been shored or benched and
+          inspected by a competent person that day. Soil that looks stable collapses without warning,
+          and a cubic metre of it weighs more than a tonne.
+      - heading: Permits to work
+        body: >
+          Hot work, confined space entry, electrical isolation, excavation and work at height each
+          need a permit before you start. The permit is not paperwork — it is the record that
+          somebody competent checked the conditions and made them safe.
+      - heading: Plant, vehicles and lifting
+        body: >
+          Stay out of the swing radius of any excavator or crane. Never stand under a suspended load.
+          Only trained and appointed operators may operate plant, and lifting equipment must have a
+          current load test certificate.
+      - heading: Housekeeping and edge protection
+        body: >
+          Keep your work area clear. Never remove edge protection, handrails or covers over openings
+          — if you must remove one to do your work, it goes back before you leave the area, and the
+          opening is guarded while it is open.
+      - heading: Reporting
+        body: >
+          Report every injury and near miss to the site agent the same day. A near miss is the
+          cheapest warning you will ever get.
+    questions:
+      - id: q1
+        text: Your harness arrested a fall last month and looks undamaged. May you use it?
+        options:
+          - No — a harness that has arrested a fall is scrap
+          - Yes, if it passes a visual inspection
+          - Yes, if a supervisor approves it
+          - Yes, for light work only
+        answer: No — a harness that has arrested a fall is scrap
+      - id: q2
+        text: When may you enter an excavation deeper than 1.5 metres?
+        options:
+          - Only when it has been shored or benched and inspected that day
+          - When the soil looks stable
+          - When somebody is watching from the top
+          - When you are only going in briefly
+        answer: Only when it has been shored or benched and inspected that day
+      - id: q3
+        text: You need to remove edge protection to complete your work. What must you do?
+        options:
+          - Guard the opening while it is open and replace the protection before leaving
+          - Remove it and work quickly
+          - Remove it and tell the site agent afterwards
+          - Leave it off — the next trade will need it off anyway
+        answer: Guard the opening while it is open and replace the protection before leaving
+
+  # ── Manufacturing ──────────────────────────────────────────────────────────────────────────
+  - code: MAN-CONTRACTOR
+    title: Manufacturing plant induction — contractors and visitors
+    sector: MANUFACTURING
+    audience: CONTRACTOR
+    basis: "OHS Act s8; Driven Machinery Regulations; General Machinery Regulations"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this plant induction. I undertake never to work
+      on any machine without positive isolation and my own personal lock applied, to wear the hearing
+      protection issued to me in designated areas, and to report any injury or unsafe condition
+      immediately. I agree to keep confidential any process, formulation or commercial information I
+      encounter on this site and not to photograph or record without written permission.
+    content:
+      - heading: Isolation and lockout
+        body: >
+          Never work on a machine that has not been positively isolated. Apply your own lock and keep
+          the only key. If somebody else's lock is on it, do not remove it and do not assume the
+          machine is safe because it is not running — stored energy in springs, hydraulics, steam and
+          raised loads will move a machine that has no power.
+      - heading: Guarding
+        body: >
+          Do not operate any machine with a guard removed, defeated or bypassed. If a guard is
+          missing, stop and report it. Almost every serious machine injury involves a guard that
+          somebody had removed to save time.
+      - heading: Noise
+        body: >
+          Wear hearing protection in every area marked as a noise zone. Noise-induced hearing loss is
+          permanent, painless and cumulative — you will not notice it happening, and it cannot be
+          reversed once it has.
+      - heading: Chemicals
+        body: >
+          Read the safety data sheet before working with any substance. Never decant a chemical into
+          an unlabelled container. Know where the nearest eye wash and safety shower are before you
+          start.
+      - heading: Forklifts and traffic
+        body: >
+          Stay in the marked pedestrian walkways. A loaded forklift cannot stop quickly and the
+          driver's view forward is blocked. Make eye contact with the driver before crossing.
+    questions:
+      - id: q1
+        text: A machine is stopped and not running. Is it safe to work on?
+        options:
+          - No — it must be positively isolated and locked with your own lock
+          - Yes, if it is switched off at the panel
+          - Yes, if the operator says it is off
+          - Yes, if you work quickly
+        answer: No — it must be positively isolated and locked with your own lock
+      - id: q2
+        text: You find a guard has been removed from a machine. What do you do?
+        options:
+          - Stop and report it
+          - Use the machine carefully
+          - Replace the guard yourself and carry on
+          - Report it at the end of the shift
+        answer: Stop and report it
+
+  # ── Logistics and warehousing ──────────────────────────────────────────────────────────────
+  - code: LOG-VISITOR
+    title: Warehouse and distribution induction
+    sector: LOGISTICS
+    audience: VISITOR
+    basis: "OHS Act s8; Driven Machinery Regulations 18 (lifting machinery)"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this warehouse induction. I undertake to remain
+      in the marked pedestrian walkways, to wear the high-visibility vest issued to me, and to report
+      any injury or unsafe condition immediately. I agree to keep confidential any customer,
+      stock or commercial information I encounter on this site.
+    content:
+      - heading: Pedestrians and forklifts
+        body: >
+          The single greatest risk here is being struck by a forklift. Stay inside the marked
+          walkways at all times. A loaded forklift travelling at walking pace needs several metres to
+          stop, and the driver's forward view is blocked by the load.
+      - heading: High-visibility clothing
+        body: >
+          Wear the high-visibility vest issued to you for the whole time you are on the warehouse
+          floor. It is what makes you visible to a driver whose view is obstructed.
+      - heading: Racking
+        body: >
+          Never climb on racking. Do not walk or stand under a raised load. Report any damaged
+          racking upright immediately — a damaged upright can collapse a whole run without warning.
+      - heading: Loading bays and vehicles
+        body: >
+          Do not walk behind a reversing vehicle. Stay out of loading bays unless you are authorised
+          and the vehicle is chocked and immobilised.
+      - heading: Manual handling
+        body: >
+          Do not lift anything you are not comfortable lifting. Use the equipment provided. Back
+          injuries here are common and slow to heal.
+    questions:
+      - id: q1
+        text: Where must you walk on the warehouse floor?
+        options:
+          - Inside the marked pedestrian walkways
+          - Anywhere, as long as you are watching for forklifts
+          - Behind the forklifts, where the driver can see you
+          - Along the racking, out of the traffic
+        answer: Inside the marked pedestrian walkways
+      - id: q2
+        text: You notice a racking upright has been struck and is bent. What do you do?
+        options:
+          - Report it immediately
+          - Avoid that aisle
+          - Note it for the next stock count
+          - Nothing — the racking is still standing
+        answer: Report it immediately
+
+  # ── Energy and utilities ───────────────────────────────────────────────────────────────────
+  - code: ENE-CONTRACTOR
+    title: Energy and utilities induction — contractors
+    sector: ENERGY
+    audience: CONTRACTOR
+    basis: "OHS Act s8; Electrical Installation Regulations; Electrical Machinery Regulations"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this induction. I undertake never to work on any
+      electrical installation without a valid permit and proof of isolation, to treat every conductor
+      as live until proven dead by my own testing, and to report any injury or dangerous condition
+      immediately. I agree to keep confidential all information about this installation, including
+      its configuration and security arrangements.
+    content:
+      - heading: Treat every conductor as live
+        body: >
+          Prove dead yourself, with your own instrument, immediately before you touch anything —
+          and prove your instrument on a known live source before and after. Somebody else's word,
+          somebody else's test, or a label is not proof.
+      - heading: Permits and isolation
+        body: >
+          No work on any installation begins without a permit to work and a proof of isolation. The
+          permit names the person who isolated it and who is responsible for restoring supply.
+      - heading: Arc flash
+        body: >
+          Wear the arc-rated clothing specified for the boundary you are working within. An arc flash
+          releases more energy in a fraction of a second than a person can move away from.
+      - heading: Working at height on structures
+        body: >
+          Fall protection is required on any structure, pylon or elevated platform. Attach before you
+          move and stay attached — most falls happen during the transition, not while working.
+      - heading: Confined spaces
+        body: >
+          Chambers, vaults and tanks are confined spaces. Never enter one without a permit, gas
+          testing and a standby person outside. More would-be rescuers die in confined spaces than
+          original victims.
+    questions:
+      - id: q1
+        text: A colleague tells you the circuit is dead. What must you do before touching it?
+        options:
+          - Prove it dead yourself, and prove your instrument before and after
+          - Accept their word — they isolated it
+          - Check the label on the panel
+          - Test it with the back of your hand
+        answer: Prove it dead yourself, and prove your instrument before and after
+      - id: q2
+        text: Somebody has collapsed inside a confined space. What do you do?
+        options:
+          - Do not enter — raise the alarm and call the trained rescue team
+          - Enter immediately to pull them out
+          - Enter while holding your breath
+          - Enter with a colleague for safety
+        answer: Do not enter — raise the alarm and call the trained rescue team
+
+  # ── Agriculture ────────────────────────────────────────────────────────────────────────────
+  - code: AGR-CONTRACTOR
+    title: Agricultural operations induction
+    sector: AGRICULTURE
+    audience: CONTRACTOR
+    basis: "OHS Act s8; Hazardous Chemical Agents Regulations 2021; Driven Machinery Regulations"
+    validity_months: 12
+    requires_nda: true
+    requires_signature: true
+    nda_text: >
+      I confirm that I have received and understood this induction. I undertake not to enter any
+      block under a re-entry restriction following spraying, to use the equipment and protective
+      clothing provided, and to report any injury or exposure immediately. I agree to keep
+      confidential any commercial information about this operation.
+    content:
+      - heading: Pesticides and re-entry periods
+        body: >
+          After spraying, a block is closed for a stated re-entry period. Do not enter a block that
+          is marked closed, for any reason. The residue is not visible and the period is calculated
+          from how long the specific product takes to become safe.
+      - heading: Tractors and implements
+        body: >
+          Never ride on an implement or in a trailer. Never approach a power take-off shaft while it
+          is turning — it will pull in clothing faster than a person can react. Tractor rollovers are
+          the leading cause of death in agriculture.
+      - heading: Chemicals and mixing
+        body: >
+          Only trained and authorised people mix or decant chemicals. Wear the full protective
+          clothing specified on the label. Wash before eating, drinking or smoking.
+      - heading: Heat and hydration
+        body: >
+          Heat exhaustion develops quickly in field conditions. Drink water regularly, take the
+          shade breaks provided, and tell somebody immediately if you feel dizzy or stop sweating.
+      - heading: Animals
+        body: >
+          Do not enter livestock enclosures unless you are authorised and accompanied. Cattle and
+          other large animals are unpredictable and will crush a person against a fence without any
+          intent to.
+    questions:
+      - id: q1
+        text: A block is marked as closed after spraying. When may you enter?
+        options:
+          - Only after the stated re-entry period has passed
+          - When the spray has visibly dried
+          - When the wind has cleared it
+          - If you are wearing gloves
+        answer: Only after the stated re-entry period has passed
+      - id: q2
+        text: What must you never approach while it is turning?
+        options:
+          - A power take-off shaft
+          - A tractor exhaust
+          - An irrigation pivot
+          - A loaded trailer
+        answer: A power take-off shaft

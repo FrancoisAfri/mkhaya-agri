@@ -1,0 +1,590 @@
+<title>Leave Bureau Sign-Off</title>
+<style>
+  :root {
+    --paper:     #F3F4F6;
+    --card:      #FFFFFF;
+    --ink:       #1A1D23;
+    --ink-soft:  #4C535F;
+    --ink-faint: #79808D;
+    --rule:      #D8DBE1;
+    --rule-soft: #E8EAEE;
+    --accent:    #1F5C4A;
+    --pass:      #1F6B45;
+    --pass-bg:   #E7F2EB;
+    --partial:   #8A5A12;
+    --partial-bg:#FBF1DF;
+    --manual:    #2A4E7A;
+    --manual-bg: #E7EEF7;
+    --gap:       #8C2F39;
+    --gap-bg:    #F8E9EA;
+
+    --display: Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --body:    ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono:    ui-monospace, Menlo, Consolas, "Courier New", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #14171B; --card: #1B1F25; --ink: #E8EAEE; --ink-soft: #AFB6C1;
+      --ink-faint: #7C8492; --rule: #333942; --rule-soft: #262B32; --accent: #6FB49C;
+      --pass: #64C08D; --pass-bg: #16281F; --partial: #D8A44E; --partial-bg: #2A2317;
+      --manual: #7FA9DC; --manual-bg: #182430; --gap: #E0808A; --gap-bg: #2B1A1C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #14171B; --card: #1B1F25; --ink: #E8EAEE; --ink-soft: #AFB6C1;
+    --ink-faint: #7C8492; --rule: #333942; --rule-soft: #262B32; --accent: #6FB49C;
+    --pass: #64C08D; --pass-bg: #16281F; --partial: #D8A44E; --partial-bg: #2A2317;
+    --manual: #7FA9DC; --manual-bg: #182430; --gap: #E0808A; --gap-bg: #2B1A1C;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 15.5px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 68rem; margin: 0 auto; padding: 0 1.25rem 5rem; }
+
+  header.top { border-bottom: 2px solid var(--ink); padding: 3rem 0 1.25rem; margin-bottom: 1.75rem; }
+  .eyebrow { font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); font-weight: 650; margin: 0 0 .9rem; }
+  h1 { font-family: var(--display); font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.05; letter-spacing: -.015em; margin: 0 0 .7rem; text-wrap: balance; }
+  .standfirst { font-size: 1.05rem; color: var(--ink-soft); max-width: 54ch; margin: 0; }
+
+  /* Scoreboard */
+  .score { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 0 0 2.5rem; }
+  @media (min-width: 46rem) { .score { grid-template-columns: repeat(4, 1fr); } }
+  .score div { background: var(--card); padding: 1rem 1.1rem; }
+  .score .n { font-family: var(--display); font-size: 2rem; line-height: 1; font-weight: 700; }
+  .score .l { font-size: .78rem; color: var(--ink-faint); margin-top: .3rem; }
+  .score .pass .n { color: var(--pass); }
+  .score .partial .n { color: var(--partial); }
+  .score .manual .n { color: var(--manual); }
+  .score .gap .n { color: var(--gap); }
+
+  h2.sec { font-family: var(--display); font-size: clamp(1.3rem, 3vw, 1.7rem); font-weight: 700; margin: 2.75rem 0 .3rem; padding-bottom: .45rem; border-bottom: 1px solid var(--ink); text-wrap: balance; }
+  .sub { color: var(--ink-faint); font-size: .85rem; margin: 0 0 1.1rem; }
+  p { max-width: 68ch; color: var(--ink-soft); }
+
+  .scroll { overflow-x: auto; margin: 0 0 1.25rem; }
+  table { width: 100%; border-collapse: collapse; min-width: 46rem; }
+  th, td { text-align: left; padding: .6rem .8rem .6rem 0; border-bottom: 1px solid var(--rule-soft); vertical-align: top; font-size: .88rem; }
+  thead th { font-family: var(--mono); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); font-weight: 500; border-bottom: 1px solid var(--rule); }
+  td.id { font-family: var(--mono); font-size: .78rem; white-space: nowrap; color: var(--ink); font-weight: 600; width: 5.5rem; }
+  td.ev { font-family: var(--mono); font-size: .72rem; color: var(--ink-faint); }
+
+  .tag { display: inline-block; font-family: var(--mono); font-size: .64rem; letter-spacing: .06em; text-transform: uppercase; padding: .18rem .45rem; border-radius: 2px; white-space: nowrap; font-weight: 600; }
+  .t-pass { color: var(--pass); background: var(--pass-bg); }
+  .t-partial { color: var(--partial); background: var(--partial-bg); }
+  .t-manual { color: var(--manual); background: var(--manual-bg); }
+  .t-gap { color: var(--gap); background: var(--gap-bg); }
+
+  .callout { border-left: 3px solid var(--accent); background: var(--card); padding: .9rem 1.1rem; margin: 1.2rem 0 1.6rem; max-width: 68ch; }
+  .callout.warn { border-left-color: var(--gap); }
+  .callout p { margin: 0; font-size: .9rem; }
+  .callout .label { display: block; font-family: var(--mono); font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: .3rem; font-weight: 600; }
+  .callout.warn .label { color: var(--gap); }
+
+  .three { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 1.25rem 0 2rem; }
+  @media (min-width: 46rem) { .three { grid-template-columns: repeat(3, 1fr); } }
+  .three div { background: var(--card); padding: 1.1rem 1.15rem; }
+  .three h3 { font-size: .95rem; margin: 0 0 .4rem; }
+  .three p { font-size: .85rem; margin: 0 0 .6rem; }
+  .three code { font-family: var(--mono); font-size: .72rem; color: var(--ink-faint); display: block; }
+
+  ul.plain { padding-left: 1.1rem; margin: .5rem 0 1.2rem; max-width: 68ch; }
+  ul.plain li { margin-bottom: .4rem; color: var(--ink-soft); font-size: .9rem; }
+  ul.plain li b { color: var(--ink); font-weight: 650; }
+
+  td.sc { font-family: var(--mono); font-size: .78rem; font-weight: 600; white-space: nowrap; width: 3.5rem; color: var(--accent); }
+  .runline { font-family: var(--mono); font-size: .78rem; background: var(--card); border: 1px solid var(--rule); padding: .7rem .9rem; margin: 1rem 0 2rem; overflow-x: auto; color: var(--ink-soft); }
+  .runline b { color: var(--pass); }
+  footer.end { margin-top: 3rem; border-top: 2px solid var(--ink); padding-top: 1.1rem; font-family: var(--mono); font-size: .72rem; color: var(--ink-faint); }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">Mkhaya Hub &middot; Leave Bureau</p>
+    <h1>Acceptance Sign-Off</h1>
+    <p class="standfirst">Your fifty test scenarios, walked in order, each against the automated test that proves it. Nothing here is asserted from memory &mdash; every row names a test that runs.</p>
+  </header>
+
+  <div class="score">
+    <div class="pass"><div class="n">373</div><div class="l">Tests passing</div></div>
+    <div class="pass"><div class="n">1&thinsp;345</div><div class="l">Assertions</div></div>
+    <div class="manual"><div class="n">1</div><div class="l">Needs a load box (&sect;47)</div></div>
+    <div class="gap"><div class="n">0</div><div class="l">Not built</div></div>
+  </div>
+
+  <div class="runline">
+    $ php -d memory_limit=1G vendor/bin/phpunit tests/Feature/LeaveBureau<br>
+    <b>OK (373 tests, 1&thinsp;345 assertions)</b>
+  </div>
+
+  <div class="callout">
+    <span class="label">How to read this</span>
+    <p>The <em>test</em> column names a real method in <code>tests/Feature/LeaveBureau</code>. Run any of them with <code>--filter</code> and watch it pass. Where a scenario needed something that did not exist, it was built &mdash; this revision added the audit log, notifications, hourly leave, the portal calendar, the absenteeism, accrual, history, reconciliation and monthly reports, the certificate block, the historical-leave importer, custom leave types, and a load-test harness.</p>
+  </div>
+
+  <h2 class="sec">1 &middot; Module activation</h2>
+  <p class="sub">LB-001 to LB-008. Two independent switches: does this deployment have the module, and is it on for this client.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">LB-001</td><td>Payroll only &mdash; Leave Bureau unavailable</td><td><span class="tag t-pass">Pass</span></td><td class="ev">FoundationTest::…off_for_a_client_until_it_is_activated</td></tr>
+        <tr><td class="sc">LB-002</td><td>Leave only &mdash; payroll integration unavailable</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb002_and_lb006 · FoundationTest::…payroll_is_not_bought</td></tr>
+        <tr><td class="sc">LB-003</td><td>Activate &mdash; functionality appears</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb003_to_lb008 · ScreensTest::…disappear_when_not_bought</td></tr>
+        <tr><td class="sc">LB-004</td><td>Deactivate &mdash; functionality withdrawn for that client</td><td><span class="tag t-pass">Pass</span></td><td class="ev">FoundationTest::…suspended_client_stops_working</td></tr>
+        <tr><td class="sc">LB-005</td><td>Activate for A &mdash; B must not receive it</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb005_activation_is_per_client</td></tr>
+        <tr><td class="sc">LB-006</td><td>Payroll + Leave &mdash; integration available</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb002_and_lb006</td></tr>
+        <tr><td class="sc">LB-007</td><td>Suspend &mdash; new submissions blocked</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb003_to_lb008 · PortalTest::…suspended</td></tr>
+        <tr><td class="sc">LB-008</td><td>Reactivate &mdash; no history lost</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb008_reactivation_loses_nothing</td></tr>
+        <tr><td class="sc">&mdash;</td><td>Trial expires and stops by itself</td><td><span class="tag t-pass">Pass</span></td><td class="ev">FoundationTest::…trial_works_until_it_expires</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">2 &middot; Multi-client bureau &mdash; the critical security section</h2>
+  <p class="sub">Three clients, employees in each, and every route between them closed.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">LB-009</td><td>Bureau opens Client A &mdash; only A shown</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb009_to_lb014_bureau_data_is_isolated</td></tr>
+        <tr><td class="sc">LB-010</td><td>Bureau opens Client B &mdash; only B shown</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb009_to_lb014</td></tr>
+        <tr><td class="sc">LB-011</td><td>Client A administrator cannot see B</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb011_lb012_and_section46</td></tr>
+        <tr><td class="sc">LB-012</td><td>Client A employee cannot see B</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…employee_sees_only_their_own_leave</td></tr>
+        <tr><td class="sc">LB-013</td><td>Search cannot surface B&rsquo;s employee</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb009_to_lb014 · HardeningTest::…import_cannot_reach</td></tr>
+        <tr><td class="sc">LB-014</td><td>Export carries only A</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…another_clients_leave_is_never_exported</td></tr>
+        <tr><td class="sc">LB-015</td><td>Direct URL / API access to B denied</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApiTest::…another_bureaus_client · ScreensTest::…another_agents_client</td></tr>
+        <tr><td class="sc">LB-016</td><td>Bureau dashboard consolidated figures</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…counts_across_every_client</td></tr>
+        <tr><td class="sc">&mdash;</td><td>Isolation at the <em>database</em>, not only in queries</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section46_isolation_holds_at_the_database</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">3 &middot; Employee creation</h2>
+  <p class="sub">John from 1 January, Sarah from 15 August.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">3</td><td>Employee, profile, policy, cycle, opening balance, accrual start</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section3_full_year_and_mid_year_joiners</td></tr>
+        <tr><td class="sc">3</td><td>Sarah 15 Aug &mdash; pro-rata, not a full year</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…mid_year_joiner_is_prorated_by_the_days_they_are_employed</td></tr>
+        <tr><td class="sc">3</td><td>Joining on the 3rd and the 28th do not earn the same</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…do_not_earn_the_same_leave</td></tr>
+        <tr><td class="sc">3</td><td>Nobody accrues before they start</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::test_nobody_accrues_before_they_start</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">4 &middot; Leave policy</h2>
+  <p class="sub">15 days, monthly accrual, carry 5. Then a second policy of 20.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">4</td><td>Accrual, balance, carry-forward, excess, expiry</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section22_carry_forward_of_five_and_expiry_of_seven</td></tr>
+        <tr><td class="sc">4</td><td>A second policy &mdash; John gets 20, not 15</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…override · FoundationTest::…only_one_policy_can_be_the_default</td></tr>
+        <tr><td class="sc">4</td><td>An override is never quietly taken back</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…recomputing_entitlements_never_takes_back_an_override</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">5 &middot; Leave types</h2>
+  <p class="sub">Every type, attribute by attribute &mdash; a data-provider case each.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">5</td><td>Annual &mdash; 15 days, 1.25/month, carry 5, expiry 6 months</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Annual"</td></tr>
+        <tr><td class="sc">5</td><td>Sick &mdash; 30 days/3 years, proof after 2 days, backdating 30</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Sick"</td></tr>
+        <tr><td class="sc">5</td><td>Family responsibility &mdash; 3 days, max 3 at once</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Family responsibility"</td></tr>
+        <tr><td class="sc">5</td><td>Maternity &mdash; 120 days, unpaid, 28 days&rsquo; notice</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Maternity"</td></tr>
+        <tr><td class="sc">5</td><td>Parental &mdash; 10 days</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Parental"</td></tr>
+        <tr><td class="sc">5</td><td>Adoption &mdash; 70 days</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Adoption"</td></tr>
+        <tr><td class="sc">5</td><td>Commissioning &mdash; 70 days</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Commissioning"</td></tr>
+        <tr><td class="sc">5</td><td>Unpaid &mdash; no balance to run out of, reaches payroll as a deduction</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…each_statutory_leave_type "Unpaid" · …carries_no_liability</td></tr>
+        <tr><td class="sc">5</td><td><b>Study / custom leave</b> &mdash; a client&rsquo;s own type, own rules</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…client_can_add_a_leave_type_of_their_own</td></tr>
+        <tr><td class="sc">5</td><td>A custom type belongs to the client that made it</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…custom_type_belongs_to_the_client_that_created_it</td></tr>
+        <tr><td class="sc">5</td><td>Paid/unpaid · accrual · approval · documents · negative · backdated · half day · cancellation</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Covered across ApplicationTest, AccrualTest, OperationsTest &mdash; see &sect;15&ndash;19</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">6 &middot; Employee self-service</h2>
+  <p class="sub">LB-017 and LB-018.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">LB-017</td><td>Balance, history, upcoming leave visible</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…dashboard · ScreensTest</td></tr>
+        <tr><td class="sc">LB-017</td><td><b>Calendar visible</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…calendar_shows_who_is_away_day_by_day</td></tr>
+        <tr><td class="sc">LB-017</td><td>Calendar marks public holidays</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…calendar_marks_public_holidays</td></tr>
+        <tr><td class="sc">LB-017</td><td>Employee sees only their own; administrator the whole client</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…employee_sees_only_their_own_leave_on_the_calendar (+2)</td></tr>
+        <tr><td class="sc">LB-018</td><td>Submit 10&ndash;12 September &rarr; status pending</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…applying_through_the_portal_is_recorded_as_self_service</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">7 &middot; Leave calculation</h2>
+  <p class="sub">Mon&ndash;Fri = 5; Wednesday holiday = 4.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">7</td><td>Monday to Friday = 5 days</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…weekends_are_skipped</td></tr>
+        <tr><td class="sc">7</td><td>Wednesday public holiday = 4 days</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section7_a_public_holiday_reduces_the_days_charged</td></tr>
+        <tr><td class="sc">7</td><td>Weekend · company holiday (shutdown) · special working day</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…special_working_day_overrides_the_weekend · HardeningTest</td></tr>
+        <tr><td class="sc">7</td><td>Half day</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…half_day_shortens_only_the_boundary_it_applies_to</td></tr>
+        <tr><td class="sc">7</td><td><b>Hourly leave</b> &mdash; 09:00&ndash;11:00 = 0.25 days</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::test_two_hours_off_costs_a_quarter_of_a_day</td></tr>
+        <tr><td class="sc">7</td><td>Hourly moves the ledger by the same fraction</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…hourly_request_moves_the_ledger_by_the_same_fraction</td></tr>
+        <tr><td class="sc">7</td><td>Hourly refused without times, across two days, or on a holiday</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest &times;4 &mdash; …without_times_is_refused, …cannot_span_two_days</td></tr>
+        <tr><td class="sc">7</td><td>Part-time employee · six-day week</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::…part_timer_accrues_a_fraction · …six_day_week_keeps_saturday</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">8&ndash;9 &middot; Bureau officer captures leave</h2>
+  <p class="sub">The most important test in the set: the employee must never look like the submitter.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">8</td><td>Leave created; submitted by = officer, for employee = John</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section8_and_9_officer_capture_never_looks_like_the_employee</td></tr>
+        <tr><td class="sc">8</td><td>Balance deducted only after approval</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…leave_only_moves_the_balance_once_it_is_approved</td></tr>
+        <tr><td class="sc">8</td><td>Pending leave is held against the balance meanwhile</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…pending_leave_is_held_against_the_balance</td></tr>
+        <tr><td class="sc">9</td><td>Reason, officer, timestamp, capture source stored</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…capture_must_say_where_the_instruction_came_from</td></tr>
+        <tr><td class="sc">9</td><td>Document attached to the capture</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section19_a_pdf_can_be_attached_and_downloaded</td></tr>
+        <tr><td class="sc">9</td><td>The officer is on the audit trail</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…leave_captured_for_somebody_else_is_logged_as_capture</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">10&ndash;12 &middot; Approval, rejection, changes</h2>
+  <p class="sub">Employee &rarr; Manager &rarr; HR, and the two ways back.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">10</td><td>Sequential chain asks one approver at a time</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…sequential_chain_asks_one_approver_at_a_time</td></tr>
+        <tr><td class="sc">10</td><td><b>Manager receives notification</b> on submission</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::test_submitting_leave_tells_the_approver</td></tr>
+        <tr><td class="sc">10</td><td>Only the approver whose turn it is; the next one when the first clears</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…only_the_approver_whose_turn_it_is_hears_about_it</td></tr>
+        <tr><td class="sc">10</td><td>Leave approved only when the whole chain agrees</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section49_the_end_to_end_journey</td></tr>
+        <tr><td class="sc">11</td><td>Rejection: status, reason visible, balance untouched</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section11_rejection_deducts_nothing_and_keeps_the_reason</td></tr>
+        <tr><td class="sc">11</td><td><b>Employee notified of the rejection, with the reason</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::test_the_employee_is_told_the_outcome</td></tr>
+        <tr><td class="sc">11</td><td>A refusal releases everyone still holding it</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…rejection_partway_through_a_chain_releases_everyone</td></tr>
+        <tr><td class="sc">12</td><td>Request changes returns it to the employee; history survives</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section12_request_changes_returns_it_to_the_employee</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">13&ndash;18 &middot; Delegation, clashes, balance, half days, cancellation, backdating</h2>
+  <p class="sub"></p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">13</td><td>Delegation routes the decision to whoever is covering</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…delegation_routes_the_decision_to_whoever_is_covering</td></tr>
+        <tr><td class="sc">13</td><td>After the window, it routes back</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…expired_delegation_does_not_reroute_anything</td></tr>
+        <tr><td class="sc">14</td><td>Overlapping leave detected</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section14_overlapping_leave_is_detected</td></tr>
+        <tr><td class="sc">14</td><td>Reported as an error rather than silently allowed</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…overlapping_leave_is_reported_as_an_error</td></tr>
+        <tr><td class="sc">15</td><td>Insufficient balance refused when the rules forbid it</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section15_insufficient_balance_is_refused_when_configured</td></tr>
+        <tr><td class="sc">15</td><td>Negative allowed up to the configured limit when it is</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…going_negative_is_allowed_up_to_the_configured_limit</td></tr>
+        <tr><td class="sc">16</td><td>Morning = 0.5 day</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…half_day_costs_half</td></tr>
+        <tr><td class="sc">16</td><td><b>Afternoon costs the same half as a morning</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…afternoon_off_costs_the_same_half_as_a_morning</td></tr>
+        <tr><td class="sc">16</td><td><b>Several half days add up to what they are worth</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…several_half_days_add_up_to_the_days_they_are_worth</td></tr>
+        <tr><td class="sc">17</td><td>Cancellation creates a reversal &mdash; [&minus;3, +3], nothing deleted</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section17_cancellation_creates_a_reversal_not_a_deletion</td></tr>
+        <tr><td class="sc">17</td><td>Cancelling twice does not credit twice</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…cancelling_twice_does_not_credit_the_days_twice</td></tr>
+        <tr><td class="sc">18</td><td>Backdated allowed &mdash; accepted and flagged</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…backdated_leave_is_flagged_and_limited</td></tr>
+        <tr><td class="sc">18</td><td><b>Backdated prohibited &mdash; refused</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…refused_outright_when_the_client_forbids_it</td></tr>
+        <tr><td class="sc">18</td><td><b>Beyond the configured window &mdash; refused</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApplicationTest::…beyond_the_configured_window_is_refused</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">19 &middot; Supporting documents</h2>
+  <p class="sub">Sick leave that needs a certificate.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">19</td><td><b>Cannot submit without the certificate</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…employee_cannot_submit_sick_leave_without_the_certificate</td></tr>
+        <tr><td class="sc">19</td><td>Short sick leave still needs none</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…short_sick_leave_needs_no_certificate</td></tr>
+        <tr><td class="sc">19</td><td><b>Cannot be approved while the certificate is outstanding</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…awaiting_its_certificate_cannot_be_approved</td></tr>
+        <tr><td class="sc">19</td><td>PDF accepted, attached and downloadable</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section19_a_pdf_can_be_attached_and_downloaded</td></tr>
+        <tr><td class="sc">19</td><td><b>JPG accepted</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…photographed_certificate_is_accepted "JPEG"</td></tr>
+        <tr><td class="sc">19</td><td><b>PNG accepted</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…photographed_certificate_is_accepted "PNG"</td></tr>
+        <tr><td class="sc">19</td><td>Invalid file type refused</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…unacceptable_file_type_is_refused</td></tr>
+        <tr><td class="sc">19</td><td>Oversized file refused</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…oversized_file_is_refused</td></tr>
+        <tr><td class="sc">19</td><td>Another client&rsquo;s document cannot be downloaded</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…another_clients_document_cannot_be_downloaded</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">20&ndash;24 &middot; Accrual, reconciliation, carry-forward, expiry, negatives</h2>
+  <p class="sub">The cron idempotency section &mdash; one of your three.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">20</td><td>Accrual = +1.25, balance 1.25</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section20_running_the_accrual_twice_does_not_double_it</td></tr>
+        <tr><td class="sc">20</td><td><b>Run it again &rarr; still 1.25, not 2.50</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::…same_accrual_twice_grants_it_once · …five_times_still_grants_one_month</td></tr>
+        <tr><td class="sc">20</td><td>The database itself refuses a duplicate</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::…database_refuses_a_duplicate_even_if_the_code_does_not_check</td></tr>
+        <tr><td class="sc">21</td><td>Balance = opening + accruals + adjustments &minus; taken + reversals</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section21_every_balance_is_arithmetic_over_its_transactions</td></tr>
+        <tr><td class="sc">21</td><td><b>Explicit verdict per employee</b> &mdash; reconciled / explained / difference</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…every_employee_gets_an_explicit_verdict</td></tr>
+        <tr><td class="sc">21</td><td>An explained difference stays visible but clears the period</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…explained_difference_leaves_the_period_clear</td></tr>
+        <tr><td class="sc">22</td><td>12 unused &rarr; carry 5, expire 7, both on the ledger</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section22_carry_forward_of_five_and_expiry_of_seven</td></tr>
+        <tr><td class="sc">22</td><td>Closing a cycle twice does not carry twice</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::…closing_a_cycle_twice_does_not_carry_the_days_twice</td></tr>
+        <tr><td class="sc">23</td><td>Expiry by transaction; the original is untouched</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::…carried_days_expire_when_their_window_closes</td></tr>
+        <tr><td class="sc">24</td><td>Negative balance raises an exception</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section24_a_negative_balance_raises_an_exception</td></tr>
+        <tr><td class="sc">24</td><td>One exception however often it is seen</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::…raises_one_exception_however_often_it_is_seen</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">25&ndash;27 &middot; Payroll integration</h2>
+  <p class="sub"></p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">25</td><td>Export carries number, code, type, dates, days, period, reference</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section25_payroll_export_carries_the_required_fields</td></tr>
+        <tr><td class="sc">25</td><td>A type without a payroll code cannot be exported</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…without_a_payroll_code_cannot_be_exported</td></tr>
+        <tr><td class="sc">26</td><td>Cut-off blocks modification; override is audited</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section26_a_locked_payroll_period_blocks_changes</td></tr>
+        <tr><td class="sc">26</td><td>Reopening a locked period needs a reason and is recorded</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…reopening_a_locked_period_needs_a_reason</td></tr>
+        <tr><td class="sc">27</td><td>Leave 5 vs payroll 4 &rarr; mismatch raised</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section27_a_leave_to_payroll_mismatch_is_reported</td></tr>
+        <tr><td class="sc">27</td><td>A difference that goes away is closed, not left open</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…difference_that_goes_away_is_closed</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">28&ndash;32 &middot; Monthly processing, references, failure, monitoring, retry</h2>
+  <p class="sub"></p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">28</td><td>100 employees processed; 3 bad ones do not stop the rest</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section28_and_30_one_bad_employee_does_not_stop_the_others</td></tr>
+        <tr><td class="sc">28</td><td>Proven at 250, across the 200-row chunk boundary</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section47_processing_streams_employees</td></tr>
+        <tr><td class="sc">29</td><td>Reference <code>LBP-2026-08-000001</code>; re-running duplicates nothing</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section29_repeated_monthly_processing_duplicates_nothing</td></tr>
+        <tr><td class="sc">30</td><td>Invalid employee flagged with a reason; others continue</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AccrualTest::…one_broken_employee_does_not_cost_everybody_else</td></tr>
+        <tr><td class="sc">30</td><td><b>Administrator notified</b> of a failed or partial run</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…run_that_leaves_employees_behind_tells_the_bureau_agent</td></tr>
+        <tr><td class="sc">30</td><td>A clean run bothers nobody</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::test_a_clean_run_bothers_nobody</td></tr>
+        <tr><td class="sc">31</td><td>Monitor: last run, times, duration, records, errors, status, run ID</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section31_the_automation_monitor_reports_every_run</td></tr>
+        <tr><td class="sc">32</td><td>Automatic retry with backoff; retry count and error history</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section32 &times;5 &mdash; …books_its_own_retry, …gives_up_and_asks_for_a_person</td></tr>
+        <tr><td class="sc">32</td><td>Retrying never pays anybody twice</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section32_retrying_never_pays_anybody_twice</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">33&ndash;34 &middot; Reports</h2>
+  <p class="sub">Every report you named, and the scheduler that sends them.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">33</td><td>Leave balance</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…balance_report_shows_the_ledger_broken_down</td></tr>
+        <tr><td class="sc">33</td><td><b>Leave history</b> &mdash; approvals <em>and</em> refusals, with reasons</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…history_report_shows_refusals_as_well_as_approvals</td></tr>
+        <tr><td class="sc">33</td><td><b>Approved / rejected</b> &mdash; the same register, narrowed</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…history_report_can_be_narrowed_to_one_outcome</td></tr>
+        <tr><td class="sc">33</td><td>Leave taken</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…taken_report_says_who_submitted_each_request</td></tr>
+        <tr><td class="sc">33</td><td><b>Accrual</b> &mdash; what the engine did and when</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…accrual_report_shows_what_the_engine_did_and_when</td></tr>
+        <tr><td class="sc">33</td><td>Expiry</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…every_advertised_report_actually_runs</td></tr>
+        <tr><td class="sc">33</td><td>Pending approval, with how long people have waited</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…pending_report_shows_how_long_people_have_been_waiting</td></tr>
+        <tr><td class="sc">33</td><td>Exception</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…every_advertised_report_actually_runs</td></tr>
+        <tr><td class="sc">33</td><td><b>Absenteeism</b> &mdash; occasions, Bradford, Mon/Fri, absence %</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…absenteeism_report_counts_occasions_not_just_days (+2)</td></tr>
+        <tr><td class="sc">33</td><td>Payroll export</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest &mdash; whole file</td></tr>
+        <tr><td class="sc">33</td><td><b>Monthly bureau report</b> &mdash; the client&rsquo;s month on one page</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…monthly_bureau_report_puts_the_clients_month_on_one_page</td></tr>
+        <tr><td class="sc">33</td><td>Payroll reconciliation, verdict per employee</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PayrollExportTest::…reconciliation_report_shows_the_verdicts</td></tr>
+        <tr><td class="sc">33</td><td>Every report checked against the database figures</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section33_reports_reconcile_with_the_database</td></tr>
+        <tr><td class="sc">34</td><td>Monthly schedule, 25th 08:00 &mdash; generated and sent automatically</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…due_schedule_runs_and_records_what_it_sent</td></tr>
+        <tr><td class="sc">34</td><td>Does not fire twice; the 31st still fires in February</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest &times;2 &mdash; …not_twice_on_the_same_pass, …still_fires_in_february</td></tr>
+        <tr><td class="sc">34</td><td>A broken schedule does not stop the others</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ReportingTest::…broken_schedule_is_recorded_and_does_not_stop_the_others</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">35&ndash;37 &middot; Portal, manager and employee access</h2>
+  <p class="sub"></p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">35</td><td>ABC administrator sees ABC only &mdash; not XYZ, not Mkhaya Transport</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…administrator_sees_the_whole_client · …never_another_client</td></tr>
+        <tr><td class="sc">35</td><td>Direct URL manipulation refused</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…another_clients_leave_type_cannot_be_used · ApiTest</td></tr>
+        <tr><td class="sc">36</td><td>A manager sees their own team and no further</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section36_a_manager_sees_their_own_team_and_no_further</td></tr>
+        <tr><td class="sc">36</td><td>Cannot open somebody outside the team; cannot approve a stranger</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section36 &times;3</td></tr>
+        <tr><td class="sc">37</td><td>Employee sees their own leave, balance, documents, history</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…employee_sees_only_their_own_leave</td></tr>
+        <tr><td class="sc">37</td><td>Cannot see a colleague&rsquo;s</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest · AssistantTest::…snapshot_never_contains_another_employees_leave</td></tr>
+        <tr><td class="sc">37</td><td>Nobody approves their own leave, not even an administrator</td><td><span class="tag t-pass">Pass</span></td><td class="ev">PortalTest::…nobody_approves_their_own_leave_even_an_administrator</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">38&ndash;40 &middot; Audit trail, adjustments, policy versions</h2>
+  <p class="sub">The audit log is new in this revision.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">38</td><td>Create leave &rarr; logged with employee, dates, days, channel</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…submitting_leave_is_written_to_the_audit_log</td></tr>
+        <tr><td class="sc">38</td><td>Capture on behalf logged as a capture, not a submission</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…logged_as_capture_not_submission</td></tr>
+        <tr><td class="sc">38</td><td>Approve &rarr; decision, deciding user, old and new status</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…approval_records_the_decision_and_the_deciding_user</td></tr>
+        <tr><td class="sc">38</td><td>Reject &rarr; with its reason</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::test_a_refusal_records_its_reason</td></tr>
+        <tr><td class="sc">38</td><td>Cancel &rarr; cancellation <em>and</em> the ledger reversal</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…cancelling_approved_leave_logs_both</td></tr>
+        <tr><td class="sc">38</td><td>Adjust balance &rarr; logged with its size</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…manual_balance_adjustment_is_logged_with_its_size</td></tr>
+        <tr><td class="sc">38</td><td>Automatic accruals not logged as manual adjustments</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…accrual_is_not_logged_as_a_manual_adjustment</td></tr>
+        <tr><td class="sc">38</td><td>Change policy · export payroll · lock · reopen · import · transfer · document · invite · processing run</td><td><span class="tag t-pass">Pass</span></td><td class="ev">20 action types across 8 services &mdash; LeaveAuditService::actions()</td></tr>
+        <tr><td class="sc">38</td><td>A scheduled run is recorded as the system, not as nobody</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…records_that_a_scheduled_job_did_it_rather_than_a_person</td></tr>
+        <tr><td class="sc">38</td><td>The log is per client and reads newest first</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest &times;2 &mdash; …confined_to_its_own_client, …newest_first</td></tr>
+        <tr><td class="sc">38</td><td>A broken audit table costs the leave nothing</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…failing_audit_write_does_not_cost_the_leave</td></tr>
+        <tr><td class="sc">38</td><td>Readable on screen, filterable by person, action and period</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ScreensTest::…audit_trail_screen_lists_what_happened_and_filters_it</td></tr>
+        <tr><td class="sc">39</td><td>+2 days with a reason &rarr; 12, as a transaction, never an overwrite</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section39_manual_adjustment_is_a_transaction</td></tr>
+        <tr><td class="sc">40</td><td>Historical leave keeps the policy that applied at the time</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section40 · FoundationTest::…history_keeps_being_explained</td></tr>
+        <tr><td class="sc">40</td><td>No two versions in force on the same day</td><td><span class="tag t-pass">Pass</span></td><td class="ev">FoundationTest::test_no_two_versions_are_ever_in_force_on_the_same_day</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">41&ndash;45 &middot; Termination, transfer, imports, bulk approval</h2>
+  <p class="sub"></p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">41</td><td>Termination stops accrual, keeps history, final balance calculated</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section41_termination_stops_accrual_and_keeps_history</td></tr>
+        <tr><td class="sc">42</td><td>Transfer between clients: history retained, new profile created</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section42_an_employee_moves_between_clients</td></tr>
+        <tr><td class="sc">42</td><td>Balance carried or forfeited per the configured rule</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section42 &times;2 &mdash; …carried_balance, …forfeited_balance</td></tr>
+        <tr><td class="sc">42</td><td>A clashing employee number is resolved rather than failing</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section42_a_clashing_employee_number_is_resolved</td></tr>
+        <tr><td class="sc">43</td><td>Import preview before committing: valid, invalid, duplicates</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section43 &times;6</td></tr>
+        <tr><td class="sc">43</td><td>A file with any error imports nothing by default</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section43_a_file_with_any_error_imports_nothing</td></tr>
+        <tr><td class="sc">43</td><td>Existing employees reported, never overwritten</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::…existing_employee_is_reported_rather_than_overwritten</td></tr>
+        <tr><td class="sc">43</td><td><b>500 employees in one pass</b>, two bad rows found in the middle</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::section43_five_hundred_employees_import_in_one_pass</td></tr>
+        <tr><td class="sc">44</td><td><b>Historical leave import</b> &mdash; validated and previewed first</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::section44_historical_leave_taken_is_previewed</td></tr>
+        <tr><td class="sc">44</td><td>Lands on the ledger as leave taken, signed correctly</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::section44_imported_history_lands_on_the_ledger</td></tr>
+        <tr><td class="sc">44</td><td>Same day twice is a duplicate; two dates are not</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::section44_the_same_leave_twice_on_one_day_is_a_duplicate</td></tr>
+        <tr><td class="sc">44</td><td>Days already signed negative refused rather than credited</td><td><span class="tag t-pass">Pass</span></td><td class="ev">SetupTest::section44_days_already_signed_negative_are_refused</td></tr>
+        <tr><td class="sc">45</td><td>Bulk approve 50; ineligible excluded, not fatal</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section45 &times;4</td></tr>
+        <tr><td class="sc">45</td><td>The ledger moves properly for each</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section45_a_bulk_approval_still_moves_the_ledger_properly</td></tr>
+        <tr><td class="sc">45</td><td><b>Notifications sent per approval</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">AuditTest::…employee_is_told_the_outcome · …reminded_once_per_window</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">46&ndash;49 &middot; Security, scale, AI, end-to-end</h2>
+  <p class="sub"></p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Your scenario</th><th>Result</th><th>The test that proves it</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">46</td><td>Company 1 requesting <code>/company/2/…</code> is refused</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::lb011_lb012_and_section46</td></tr>
+        <tr><td class="sc">46</td><td>Refused at the database, not only in queries &mdash; raw SQL returns 0 rows</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section46_isolation_holds_at_the_database</td></tr>
+        <tr><td class="sc">46</td><td>API · URL · id manipulation · export · reports · documents · search</td><td><span class="tag t-pass">Pass</span></td><td class="ev">ApiTest, ScreensTest, PortalTest, HardeningTest &mdash; 404 rather than 403</td></tr>
+        <tr><td class="sc">47</td><td>Chunked processing, failures isolated, no duplicates</td><td><span class="tag t-pass">Pass</span></td><td class="ev">OperationsTest::section47_processing_streams_employees_rather_than_loading</td></tr>
+        <tr><td class="sc">47</td><td>100 companies &times; 1,000 employees</td><td><span class="tag t-manual">Load env</span></td><td class="ev"><code>leave-bureau:benchmark --clients=100 --employees=1000</code> &mdash; seeds, times five stages, cleans up. Needs a box, not a test suite</td></tr>
+        <tr><td class="sc">48</td><td>Employee asking about a colleague gets only their own context</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AssistantTest::…employee_account_can_only_ever_ask_about_itself</td></tr>
+        <tr><td class="sc">48</td><td>Bureau-level answers stay inside the authorised scope</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AssistantTest::…bureau_snapshot_is_capped · …never_reaches_another_client</td></tr>
+        <tr><td class="sc">48</td><td>The assistant says so when it cannot answer</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AssistantTest::test_the_assistant_says_so_when_it_cannot_answer</td></tr>
+        <tr><td class="sc">49</td><td><b>The whole journey</b>: 15 days &rarr; apply 3 &rarr; approve &rarr; 12 &rarr; payroll &rarr; process &rarr; report</td><td><span class="tag t-pass">Pass</span></td><td class="ev">AcceptanceTest::section49_the_end_to_end_journey</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">50 &middot; Final acceptance criteria</h2>
+  <p class="sub">Your twenty-seven, each against the thing that proves it.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&sect;</th><th>Criterion</th><th>Result</th><th>Evidence</th></tr></thead>
+      <tbody>
+        <tr><td class="sc">&check;</td><td>Multi-company isolation works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">FORCE row level security on all 35 tables; raw SQL from a second tenant returns 0 rows</td></tr>
+        <tr><td class="sc">&check;</td><td>Employee self-service works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Portal: dashboard, applications, calendar, quote-before-submit</td></tr>
+        <tr><td class="sc">&check;</td><td>Bureau officer can capture leave</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Recorded as the officer with a capture source, never as the employee</td></tr>
+        <tr><td class="sc">&check;</td><td>Approval workflow works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Sequential and parallel chains, delegation, escalation, reminders</td></tr>
+        <tr><td class="sc">&check;</td><td>Leave calculation is accurate</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Day-by-day breakdown stored; halves, hours, part-time, six-day weeks</td></tr>
+        <tr><td class="sc">&check;</td><td>Public holidays are handled</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Gazetted holidays computed including the Sunday substitution rule</td></tr>
+        <tr><td class="sc">&check;</td><td>Accruals work</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Monthly, annual, pro-rata, ceilings, part-timers, suspended profiles</td></tr>
+        <tr><td class="sc">&check;</td><td>Carry-forward works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">12 unused &rarr; carry 5, expire 7, both on the ledger</td></tr>
+        <tr><td class="sc">&check;</td><td>Expiry works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">By transaction; the original is never deleted</td></tr>
+        <tr><td class="sc">&check;</td><td>Negative balances follow policy</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Never / manager approval / allowed to a limit &mdash; all three tested</td></tr>
+        <tr><td class="sc">&check;</td><td>Cancellation creates reversal transactions</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Movement list asserted exactly: [15, &minus;3, +3]</td></tr>
+        <tr><td class="sc">&check;</td><td>Payroll integration works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Seven required fields; locked period; no manual re-entry</td></tr>
+        <tr><td class="sc">&check;</td><td>Payroll reconciliation works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Rebuilt from approved leave, not from ledger movements &mdash; catches post-export cancellation</td></tr>
+        <tr><td class="sc">&check;</td><td>Cron jobs are idempotent</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Unique index claimed before any movement; five runs grant one month</td></tr>
+        <tr><td class="sc">&check;</td><td>Failed jobs don&rsquo;t stop other clients</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Per-tenant and per-employee isolation, both tested</td></tr>
+        <tr><td class="sc">&check;</td><td>Cron monitoring works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Nine fields on the monitor, plus automatic retry with backoff</td></tr>
+        <tr><td class="sc">&check;</td><td>Exceptions are generated</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Negative balances, invalid accruals, payroll mismatches, reopened periods</td></tr>
+        <tr><td class="sc">&check;</td><td>Reports reconcile with transactions</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Every advertised report run and checked against the database</td></tr>
+        <tr><td class="sc">&check;</td><td>Scheduled reports work</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Hourly pass, claims its slot before sending, survives the 31st in February</td></tr>
+        <tr><td class="sc">&check;</td><td><b>Audit trail is complete</b></td><td><span class="tag t-pass">Pass</span></td><td class="ev">20 action types across 8 services, with old/new values, reason and a screen</td></tr>
+        <tr><td class="sc">&check;</td><td>Client isolation enforced at backend/API level</td><td><span class="tag t-pass">Pass</span></td><td class="ev">404 rather than 403 &mdash; existence is itself a disclosure</td></tr>
+        <tr><td class="sc">&check;</td><td>Bulk processing works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">500-employee import, bulk approval, historical leave import</td></tr>
+        <tr><td class="sc">&check;</td><td>Large-scale processing works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Chunked at 250 in tests; <code>leave-bureau:benchmark</code> for the real thing</td></tr>
+        <tr><td class="sc">&check;</td><td>Employee termination works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Accrual stops, history and final balance survive</td></tr>
+        <tr><td class="sc">&check;</td><td>Policy versioning works</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Effective-dated versions; March keeps March&rsquo;s rate</td></tr>
+        <tr><td class="sc">&check;</td><td>Documents are secured</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Stored with checksums, scoped per client, 404 across clients</td></tr>
+        <tr><td class="sc">&check;</td><td>Role permissions work</td><td><span class="tag t-pass">Pass</span></td><td class="ev">Administrator / manager / employee / viewer, enforced server-side</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">The three you said to pass first</h2>
+  <p class="sub">Each proven directly, not inferred.</p>
+
+  <div class="three">
+    <div>
+      <h3>1. Bureau isolation</h3>
+      <p>A second tenant issues raw SQL against ABC&rsquo;s ledger and applications and gets <b>zero rows</b> &mdash; PostgreSQL FORCE row level security across all 35 tables, not a query that remembers to filter.</p>
+      <code>AcceptanceTest::…isolation_holds_at_the_database</code>
+      <code>HardeningTest::…second_tenant_cannot_read</code>
+    </div>
+    <div>
+      <h3>2. Cron idempotency</h3>
+      <p>The accrual runs twice, five times, and again through a whole monthly run. Balance stays <b>1.25, never 2.50</b>. A duplicate forced straight into the table &mdash; bypassing the service &mdash; is refused by the database.</p>
+      <code>AccrualTest::…database_refuses_a_duplicate</code>
+      <code>AcceptanceTest::…twice_does_not_double_it</code>
+    </div>
+    <div>
+      <h3>3. Ledger integrity</h3>
+      <p>Every balance checked against <code>SUM(days)</code> and against opening + accruals + adjustments &minus; taken. Cancellation asserts the exact movement list <b>[15, &minus;3, +3]</b>.</p>
+      <code>AcceptanceTest::…arithmetic_over_its_transactions</code>
+      <code>AcceptanceTest::…reversal_not_a_deletion</code>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <span class="label">Before a live demonstration</span>
+    <p>Your worked example takes leave <b>10&ndash;12 September</b> and expects 3 days. In 2026 the 12th is a <b>Saturday</b>, so the system will correctly say <b>2</b>. Demonstrate 10&ndash;14 September instead, or the right answer will look like a bug.</p>
+  </div>
+
+  <div class="callout">
+    <span class="label">Found on the way</span>
+    <p>Queueing the notifications surfaced a defect outside this module. A listener in <code>AppServiceProvider</code> cleared the active tenant whenever a queued job finished. On a worker that is harmless; on the <code>sync</code> connection the job runs <em>inside</em> a request, so everything after it wrote rows with a null company &mdash; which row level security then makes invisible. It now restores whatever tenant was active before the job.</p>
+  </div>
+
+  <div class="callout">
+    <span class="label">The one thing still outside a test suite</span>
+    <p>&sect;47&rsquo;s hundred companies of a thousand employees needs hardware, not another assertion. <code>leave-bureau:benchmark</code> seeds it, times seeding, processing, export, reconciliation and reporting, prints milliseconds per employee and employees per second, and deletes what it made. It refuses to run in production, and refuses to seed at all if the module is off.</p>
+  </div>
+
+  <footer class="end">
+    Mkhaya Hub &middot; Leave Bureau &middot; 373 automated tests, 1&thinsp;345 assertions &middot; every row above names a test that runs
+  </footer>
+
+</div>

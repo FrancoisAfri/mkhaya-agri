@@ -1,0 +1,288 @@
+openapi: 3.0.3
+info:
+  title: Mkhaya Hub — HelpDesk ITSM REST API
+  version: "1.0.0"
+  description: >
+    Versioned REST API for the HelpDesk / ITSM module. Covers incidents
+    (tickets), problems, changes and knowledge-base articles.
+
+    **Authentication.** All endpoints require a Sanctum personal access token
+    sent as `Authorization: Bearer <token>`. Generate tokens in
+    HelpDesk → Settings → API Access. A token inherits the issuing user's
+    HelpDesk permissions; read-only tokens are rejected from write endpoints.
+
+    **Rate limit.** 120 requests / minute / token.
+
+    **Outbound webhooks.** Subscribe external systems to `ticket.created`,
+    `ticket.assigned`, `ticket.resolved` and `ticket.sla_breached` in
+    HelpDesk → Settings → Webhooks. Each delivery is signed with an
+    `X-Hd-Signature` header (HMAC-SHA256 of the raw body using the webhook secret).
+servers:
+  - url: /api/v1
+security:
+  - bearerAuth: []
+tags:
+  - name: Incidents
+  - name: Problems
+  - name: Changes
+  - name: Knowledge Base
+  - name: Events
+  - name: Meta
+paths:
+  /incidents:
+    get:
+      tags: [Incidents]
+      summary: List incidents
+      parameters:
+        - { name: search, in: query, schema: { type: string } }
+        - { name: status_id, in: query, schema: { type: integer } }
+        - { name: priority_id, in: query, schema: { type: integer } }
+        - { name: category_id, in: query, schema: { type: integer } }
+        - { name: assigned_to, in: query, schema: { type: integer } }
+        - { name: sla_breached, in: query, schema: { type: boolean } }
+        - { name: per_page, in: query, schema: { type: integer, default: 25, maximum: 100 } }
+      responses:
+        "200": { description: Paginated incident collection }
+    post:
+      tags: [Incidents]
+      summary: Create an incident
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [subject, description]
+              properties:
+                subject: { type: string, maxLength: 255 }
+                description: { type: string }
+                priority_id: { type: integer }
+                category_id: { type: integer }
+                assigned_to: { type: integer }
+                requester_id: { type: integer }
+                source: { type: string, enum: [web, email, phone, chat, api] }
+                impact_level: { type: string, enum: [low, medium, high, critical] }
+                urgency_level: { type: string, enum: [low, medium, high, critical] }
+                tags: { type: array, items: { type: string } }
+      responses:
+        "201": { description: Created incident }
+        "403": { description: Missing permission or read-only token }
+        "422": { description: Validation error }
+  /incidents/{id}:
+    parameters:
+      - { name: id, in: path, required: true, schema: { type: integer } }
+    get:
+      tags: [Incidents]
+      summary: Get an incident (with comments)
+      responses:
+        "200": { description: Incident }
+        "404": { description: Not found }
+    put:
+      tags: [Incidents]
+      summary: Update an incident
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                subject: { type: string }
+                description: { type: string }
+                priority_id: { type: integer }
+                category_id: { type: integer }
+                status_id: { type: integer }
+                impact_level: { type: string, enum: [low, medium, high, critical] }
+                urgency_level: { type: string, enum: [low, medium, high, critical] }
+      responses:
+        "200": { description: Updated incident }
+    delete:
+      tags: [Incidents]
+      summary: Soft-delete an incident
+      responses:
+        "200": { description: "{ deleted: true }" }
+  /incidents/{id}/assign:
+    post:
+      tags: [Incidents]
+      summary: Assign an incident to an agent
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [assigned_to]
+              properties:
+                assigned_to: { type: integer, description: User id }
+      responses:
+        "200": { description: Updated incident }
+  /incidents/{id}/resolve:
+    post:
+      tags: [Incidents]
+      summary: Mark an incident resolved
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                resolution_notes: { type: string }
+      responses:
+        "200": { description: Updated incident }
+  /incidents/{id}/close:
+    post:
+      tags: [Incidents]
+      summary: Close an incident
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                resolution_notes: { type: string }
+      responses:
+        "200": { description: Updated incident }
+  /incidents/{id}/comment:
+    post:
+      tags: [Incidents]
+      summary: Add a comment / reply
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [body]
+              properties:
+                body: { type: string }
+                is_internal: { type: boolean, default: false }
+      responses:
+        "201": { description: Created comment }
+  /problems:
+    get:
+      tags: [Problems]
+      summary: List problems
+      parameters:
+        - { name: status, in: query, schema: { type: string, enum: [investigating, known_error, resolved, closed] } }
+        - { name: search, in: query, schema: { type: string } }
+        - { name: per_page, in: query, schema: { type: integer } }
+      responses:
+        "200": { description: Paginated problem collection }
+    post:
+      tags: [Problems]
+      summary: Create a problem
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [title]
+              properties:
+                title: { type: string }
+                description: { type: string }
+                root_cause: { type: string }
+                workaround: { type: string }
+                status: { type: string, enum: [investigating, known_error, resolved, closed] }
+                priority_id: { type: integer }
+                category_id: { type: integer }
+                assigned_to: { type: integer }
+      responses:
+        "200": { description: Created problem }
+  /problems/{id}:
+    parameters:
+      - { name: id, in: path, required: true, schema: { type: integer } }
+    get:
+      tags: [Problems]
+      summary: Get a problem (with linked incidents)
+      responses:
+        "200": { description: Problem }
+    put:
+      tags: [Problems]
+      summary: Update a problem
+      responses:
+        "200": { description: Updated problem }
+  /changes:
+    get:
+      tags: [Changes]
+      summary: List change requests
+      parameters:
+        - { name: status, in: query, schema: { type: string } }
+        - { name: search, in: query, schema: { type: string } }
+      responses:
+        "200": { description: Paginated change collection }
+  /changes/{id}:
+    get:
+      tags: [Changes]
+      summary: Get a change request
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      responses:
+        "200": { description: Change }
+  /kb:
+    get:
+      tags: [Knowledge Base]
+      summary: Search knowledge-base articles
+      parameters:
+        - { name: q, in: query, schema: { type: string } }
+        - { name: status, in: query, schema: { type: string } }
+        - { name: category_id, in: query, schema: { type: integer } }
+        - { name: public_only, in: query, schema: { type: boolean } }
+      responses:
+        "200": { description: Paginated article collection (no body field) }
+  /kb/{id}:
+    get:
+      tags: [Knowledge Base]
+      summary: Get a knowledge-base article (with body)
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      responses:
+        "200": { description: Article }
+  /events:
+    post:
+      tags: [Events]
+      summary: Ingest a monitoring event
+      description: >
+        Posts a monitoring/alert event. It is stored and run through the
+        correlation rules engine, which may auto-create, correlate (de-dup) or
+        resolve an incident. Returns the event with its resulting status and any
+        linked incident.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [message]
+              properties:
+                source: { type: string }
+                event_type: { type: string }
+                severity: { type: string, enum: [info, warning, critical] }
+                host: { type: string }
+                message: { type: string }
+                dedup_key: { type: string, description: Repeats sharing this key collapse onto one incident }
+                payload: { type: object }
+                occurred_at: { type: string, format: date-time }
+      responses:
+        "201": { description: "Event stored; { status, matched_rule_id, linked_ticket_id }" }
+        "403": { description: Missing permission or read-only token }
+  /meta:
+    get:
+      tags: [Meta]
+      summary: Lookup values + resource index
+      description: Statuses, priorities, categories and sources for mapping labels to IDs, plus a resource index.
+      responses:
+        "200": { description: Meta payload }
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      description: Sanctum personal access token
