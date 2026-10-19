@@ -3,6 +3,27 @@
  * Used when converting PHP navigation (fa-xxx) to Sneat nav items (mdi-xxx)
  */
 const FA_TO_MDI: Record<string, string> = {
+  // Mkhaya Agri — farms, crops, livestock and field work
+  'plant-2': 'mdi-sprout',
+  'sprout': 'mdi-sprout',
+  'seedling': 'mdi-seed',
+  'seed': 'mdi-seed',
+  'map-2': 'mdi-map-outline',
+  'tractor': 'mdi-tractor',
+  'barn': 'mdi-barn',
+  'cow': 'mdi-cow',
+  'sheep': 'mdi-sheep',
+  'egg': 'mdi-egg',
+  'paw': 'mdi-paw',
+  'wheat': 'mdi-barley',
+  'leaf': 'mdi-leaf',
+  'basket': 'mdi-basket',
+  'farm-tasks': 'mdi-clipboard-check-outline',
+  'robot-farm': 'mdi-robot-outline',
+  'farm-stock': 'mdi-warehouse',
+  'farm-money': 'mdi-cash-multiple',
+  'farm-phone': 'mdi-cellphone-check',
+
   // Common
   'home': 'mdi-home',
   'house': 'mdi-home',

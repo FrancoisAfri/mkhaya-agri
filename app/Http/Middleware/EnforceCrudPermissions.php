@@ -128,6 +128,11 @@ class EnforceCrudPermissions
         // module.active + module.tier; WorkflowAccessTest holds every route to refusing a user
         // without workflow permissions.
         'workflow.',
+        // Mkhaya Agri: the same shape. Its agri.* permissions are checked by each controller's
+        // allow() at the top of every action, behind module.active + module.tier, and farm-owned
+        // models are confined to the farms the user may reach; AgriRoutesAuthorizeTest holds every
+        // agri route to refusing a user without agri permissions.
+        'agri.',
     ];
 
     /**

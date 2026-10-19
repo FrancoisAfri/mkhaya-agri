@@ -253,6 +253,48 @@ class StockLedger
     }
 
     /**
+     * Stock consumed by a cost object that is not a production order — fertiliser on a field, a
+     * vaccine on a herd, diesel in a tractor (Mkhaya Agri). Dr the given expense account (cost of
+     * sales when none is given) / Cr Inventory, at the item's cost, with the analysis dimensions on
+     * the expense line so the cost lands on the farm, field and crop it was used on.
+     *
+     * The same controls as a production issue: the source must be named, only usable stock may
+     * leave, and a repeated request with the same idempotency key returns the original movement.
+     *
+     * Options: source_type, source_id (required); idempotency_key, date, reference, lot_id, bin_id,
+     * expense_account (code), dimensions (array).
+     */
+    public function issueTo(FinStockItem $item, float $qty, FinWarehouse $warehouse, array $options): FinStockMovement
+    {
+        $this->requireSource($options, 'A stock issue must name what the stock was used for.');
+
+        return $this->guarded($item, $options['idempotency_key'] ?? null, function () use ($item, $qty, $warehouse, $options) {
+            $source = [$options['source_type'], (int) $options['source_id']];
+            $lotId = $options['lot_id'] ?? null;
+
+            $this->assertNotExpired($lotId);
+
+            $usable = $this->available($item, $warehouse->id, $lotId, $options['bin_id'] ?? null, null, $source);
+            if ($usable + 0.0001 < $qty) {
+                throw new PostingException(sprintf(
+                    'Only %s of %s is available in %s -- the rest is reserved, quarantined or expired. %s was requested.',
+                    $this->num($usable), $item->name, $warehouse->name, $this->num($qty),
+                ));
+            }
+
+            $movement = $this->inventory->issue(
+                $item, $qty, $options['date'] ?? null, $options['reference'] ?? null, $warehouse,
+                isset($options['expense_account']) ? $this->inventory->accountIdFor($options['expense_account']) : null,
+                $this->context($options), 'issue',
+            );
+
+            $this->consumeReservation($item, $warehouse->id, $lotId, $source, $qty);
+
+            return $movement;
+        });
+    }
+
+    /**
      * Unused material back from production into stock: Dr Inventory / Cr Work in Progress, at the
      * cost it left at.
      */
@@ -587,6 +629,7 @@ class StockLedger
             toStatus: $options['to_status'] ?? null,
             strict: true,
             meta: array_intersect_key($options, array_flip(StockContext::META_COLUMNS)),
+            dimensions: $options['dimensions'] ?? [],
         );
     }
 

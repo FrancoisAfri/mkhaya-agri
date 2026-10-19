@@ -495,6 +495,10 @@ class AppServiceProvider extends ServiceProvider
             // Workflow & Automation — the central engine every module can route work through.
             // Last: it references users, company units and HR, and modules call into it.
             database_path('migrations/workflow'),
+
+            // Mkhaya Agri — the farm hierarchy and farm operations. Last: farms link to company
+            // units, asset locations and warehouses created above.
+            database_path('migrations/agri'),
         ]);
 
 

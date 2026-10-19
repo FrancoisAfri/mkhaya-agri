@@ -143,6 +143,8 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Finance\Tax\Console\RunTaxComplianceCommand::class,
         \App\Modules\Finance\Tax\Console\DeliverTaxEventsCommand::class,
         \App\Modules\Workflow\Console\WorkflowTickCommand::class,
+        \App\Modules\Agri\Console\ScanFarmAlerts::class,
+        \App\Modules\Agri\Console\SeedAgriDemo::class,
         SendAttestationReminders::class,
         EscalateOverdueAttestations::class,
         AllocateLeaveCommand::class,
@@ -487,6 +489,12 @@ return Application::configure(basePath: dirname(__DIR__))
         // budget that crossed 90% overnight is on the tracking page and in an inbox before anybody
         // raises the purchase order that would have been refused. Per-tenant fan-out inside the
         // command, because the rules and the people to tell are both tenant-scoped.
+        // Mkhaya Agri: raise the day's farm alerts (low stock, services, expiring permits, overdue
+        // tasks, withdrawal periods) before the farm day starts, and clear the ones resolved.
+        $schedule->command(\App\Modules\Agri\Console\ScanFarmAlerts::class)
+            ->dailyAt('04:30')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-alerts.log'));
+
         $schedule->command(TrackBudgetsCommand::class)
             ->dailyAt('05:05')->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/budget-tracking.log'));

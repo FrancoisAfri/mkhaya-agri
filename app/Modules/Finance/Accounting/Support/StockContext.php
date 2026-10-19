@@ -32,6 +32,12 @@ final class StockContext
          * the movement as given; the ledger never derives a balance from it.
          */
         public readonly array $meta = [],
+        /**
+         * Analysis dimensions for the journal line on the cost side of the movement (the debit of
+         * an issue, the credit of a receipt) — e.g. which farm, field and crop the fertiliser went
+         * to. Additive: a movement without them posts exactly as before.
+         */
+        public readonly array $dimensions = [],
     ) {}
 
     /** The movement columns this context fills beyond the ledger's own. */
@@ -54,6 +60,7 @@ final class StockContext
             idempotencyKey: $this->idempotencyKey,
             strict: $this->strict,
             meta: $this->meta,
+            dimensions: $this->dimensions,
         );
     }
 }

@@ -156,6 +156,11 @@ class StatementsService
         return [$cols, $r['boxes'], ['field' => '', 'label' => $r['is_payable'] ? 'Net VAT payable' : 'Net VAT refundable', 'amount' => abs($r['net'])]];
     }
 
+    /*
+     * Lines are grouped by their `tracking` dimension, falling back to `project`: Project
+     * Management has always written its code as `project`, so before the fallback every project
+     * posting landed in "Untracked" and the report could not split by project at all.
+     */
     private function byTracking(string $from, string $to, ?int $companyId): array
     {
         $rows = DB::table('fin_journal_lines as l')
@@ -166,10 +171,10 @@ class StatementsService
             ->whereBetween('j.journal_date', [$from, $to])
             ->whereIn('a.type', ['income', 'expense'])
             ->when($companyId, fn ($q) => $q->where('l.company_id', $companyId))
-            ->selectRaw("COALESCE(l.dimensions->>'tracking', 'Untracked') as tracking,
+            ->selectRaw("COALESCE(l.dimensions->>'tracking', l.dimensions->>'project', 'Untracked') as tracking,
                 COALESCE(SUM(CASE WHEN a.type='income' THEN l.base_credit - l.base_debit END),0) income,
                 COALESCE(SUM(CASE WHEN a.type='expense' THEN l.base_debit - l.base_credit END),0) expense")
-            ->groupByRaw("COALESCE(l.dimensions->>'tracking', 'Untracked')")
+            ->groupByRaw("COALESCE(l.dimensions->>'tracking', l.dimensions->>'project', 'Untracked')")
             ->get()
             ->map(fn ($r) => ['tracking' => $r->tracking, 'income' => round((float) $r->income, 2), 'expense' => round((float) $r->expense, 2), 'net' => round((float) $r->income - (float) $r->expense, 2)])
             ->all();

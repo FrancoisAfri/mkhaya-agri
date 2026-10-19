@@ -59,7 +59,8 @@ class InventoryService
             $journal = ! $item->isValued() ? null : $this->ledger->post(new FinancialEvent(
                 sourceModule: 'inventory', eventType: 'stock.receipt',
                 debits:  [['account' => $item->inventory_account_id, 'amount' => $value, 'narration' => "Receive {$item->name}"]],
-                credits: [['account' => $contra, 'amount' => $value, 'narration' => "Receive {$item->name}"]],
+                credits: [['account' => $contra, 'amount' => $value, 'narration' => "Receive {$item->name}",
+                    'dimensions' => $context?->dimensions ?: null]],
                 eventDate: $date, companyId: $item->company_id, sourceRef: "stock_item:{$item->id}",
                 description: "Stock receipt — {$item->name}",
             ));
@@ -106,7 +107,8 @@ class InventoryService
 
             $journal = ! $item->isValued() ? null : $this->ledger->post(new FinancialEvent(
                 sourceModule: 'inventory', eventType: 'stock.issue',
-                debits:  [['account' => $debitAccountId ?? $item->cogs_account_id, 'amount' => $value, 'narration' => "Issue {$item->name}"]],
+                debits:  [['account' => $debitAccountId ?? $item->cogs_account_id, 'amount' => $value, 'narration' => "Issue {$item->name}",
+                    'dimensions' => $context?->dimensions ?: null]],
                 credits: [['account' => $item->inventory_account_id, 'amount' => $value, 'narration' => "Issue {$item->name}"]],
                 eventDate: $date, companyId: $item->company_id, sourceRef: "stock_item:{$item->id}",
                 description: "Stock issue — {$item->name}",

@@ -83,6 +83,13 @@ class FinanceGlSeeder extends Seeder
             // historic cost codes.
             ['5600', 'Production Variance',       'expense',   true,  []],
             ['5610', 'Scrap & Spoilage',          'expense',   true,  []],
+            // Mkhaya Agri (config/agri.php) — also added to existing charts by the agri migrations.
+            ['4600', 'Produce Sales',             'income',    true,  []],
+            ['4610', 'Livestock Sales',           'income',    true,  []],
+            ['4620', 'Agricultural Produce Harvested', 'income', true, []],
+            ['5700', 'Farm Inputs Consumed',      'expense',   true,  []],
+            ['5710', 'Animal Health & Feed',      'expense',   true,  []],
+            ['5720', 'Farm Direct Expenses',      'expense',   true,  []],
             ['5620', 'Inventory Adjustments',     'expense',   true,  []],
             ['5630', 'Inventory Revaluation',     'expense',   true,  []],
             ['6000', 'Operating Expenses',        'expense',   false, []],

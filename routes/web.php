@@ -234,6 +234,9 @@ Route::middleware(['auth', 'auth.lock', 'check.banned', 'prevent-back-history', 
     // Workflow & Automation — the central engine
     require __DIR__.'/modules/workflow.php';
 
+    // Mkhaya Agri — farms, fields and (by phase) crops, livestock and farm operations.
+    require __DIR__.'/modules/agri.php';
+
     // Hub landings for modules that don't register their own (see the file's header).
     require __DIR__.'/modules/hubs.php';
 

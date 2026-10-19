@@ -100,6 +100,9 @@ class HubRegistry
 
         // Workflow & Automation. Declares its own hub routes in routes/modules/workflow.php.
         'workflow'              => \App\Modules\Workflow\Support\WorkflowHubs::class,
+
+        // Mkhaya Agri — farm management. Declares its own routes in routes/modules/agri.php.
+        'agri'                  => \App\Modules\Agri\Support\AgriHubs::class,
     ];
 
     /**
