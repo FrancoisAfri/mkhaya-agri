@@ -379,6 +379,20 @@ class DefinitionService
     {
         $template = TemplateLibrary::get($key) ?? throw new WorkflowException('Unknown template.');
 
+        return DB::transaction(function () use ($key) {
+            // What it starts comes with it, as drafts, unless the company already has it.
+            foreach (TemplateLibrary::requires($key) as $dep) {
+                if (! WorkflowDefinition::query()->where('key', $dep)->exists()) {
+                    $this->installOne(TemplateLibrary::get($dep));
+                }
+            }
+
+            return $this->installOne(TemplateLibrary::get($key));
+        });
+    }
+
+    private function installOne(array $template): WorkflowDefinition
+    {
         return DB::transaction(function () use ($template) {
             $formIds = [];
             foreach ($template['forms'] ?? [] as $ref => $f) {
@@ -404,7 +418,8 @@ class DefinitionService
 
     private function portableGraph(array $graph): array
     {
-        return ['nodes' => array_values($graph['nodes'] ?? []), 'edges' => array_values($graph['edges'] ?? [])];
+        return ['nodes' => array_values($graph['nodes'] ?? []), 'edges' => array_values($graph['edges'] ?? [])]
+            + (! empty($graph['events']) ? ['events' => array_values($graph['events'])] : []);
     }
 
     /** Settings are maps: an empty one is stored as {} so clients never receive a list. */

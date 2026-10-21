@@ -91,7 +91,7 @@ class WorkflowAI extends BaseModuleAI
         $roles = DB::table('roles')->orderBy('name')->pluck('name')->all();
         $context = [
             'node_types' => array_keys(NodeTypes::TYPES), 'assignee_types' => array_keys(NodeTypes::ASSIGNEE_TYPES), 'roles' => $roles,
-            'operators' => array_keys(Conditions::OPERATORS), 'actions' => array_keys(ActionCatalog::ACTIONS),
+            'operators' => array_keys(Conditions::OPERATORS), 'actions' => array_keys(ActionCatalog::all()),
             'shape' => '{"nodes":[{"key":"start","type":"start","name":"..","config":{}}],"edges":[{"from":"start","to":"..","outcome":"approved|rejected|returned|completed","condition":{"field":"amount","operator":"gt","value":50000},"is_default":true}]}',
         ];
         $json = $this->tryJson("Draft a workflow graph for this process. Return JSON with keys nodes and edges only.\n\nProcess: {$description}", $context, 'draft');
@@ -166,7 +166,7 @@ class WorkflowAI extends BaseModuleAI
                     continue;
                 }
                 $clean['action'] = $cfg['action'];
-                $clean['input'] = array_intersect_key((array) ($cfg['input'] ?? []), array_flip(array_column(ActionCatalog::ACTIONS[$cfg['action']]['inputs'], 'key')));
+                $clean['input'] = array_intersect_key((array) ($cfg['input'] ?? []), array_flip(array_column(ActionCatalog::all()[$cfg['action']]['inputs'], 'key')));
             }
             if ($type === 'notification') {
                 $clean['to'] = ['type' => 'requester'];
@@ -296,7 +296,7 @@ class WorkflowAI extends BaseModuleAI
                 'join' => "\"{$n['name']}\" waits for " . (($cfg['mode'] ?? 'all') === 'all' ? 'every branch' : (($cfg['mode'] ?? 'all') === 'any' ? 'the first branch' : ($cfg['quorum'] ?? '?') . ' branches')) . '.',
                 'delay' => "\"{$n['name']}\" waits " . (isset($cfg['hours']) ? "{$cfg['hours']} hours" : 'until ' . ($cfg['until_field'] ?? 'a date')) . '.',
                 'notification' => "\"{$n['name']}\" notifies " . (NodeTypes::ASSIGNEE_TYPES[$cfg['to']['type'] ?? ''] ?? 'someone') . '.',
-                'action' => "\"{$n['name']}\" automatically does: " . (ActionCatalog::ACTIONS[$cfg['action'] ?? '']['label'] ?? 'an action') . ' (retried if it fails).',
+                'action' => "\"{$n['name']}\" automatically does: " . (ActionCatalog::all()[$cfg['action'] ?? '']['label'] ?? 'an action') . ' (retried if it fails).',
                 default => "\"{$n['name']}\" (" . (NodeTypes::TYPES[$n['type']]['label'] ?? $n['type']) . ').',
             };
             if (in_array($n['type'], ['approval', 'user_task', 'review', 'subworkflow', 'exception'], true)) {

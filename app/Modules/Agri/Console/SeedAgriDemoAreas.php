@@ -165,6 +165,7 @@ class SeedAgriDemoAreas extends Command
             $this->area('Agricultural production, Command Centre and intelligence', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->where('code', 'BH1')->exists(), fn () => $this->production());
             $this->area('Production gateway, processing line and forecasts', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::query()->where('code', 'RIV-GW1')->exists(), fn () => $this->productionMore());
             $this->area('Production roadmap 4–8 (checklists, CCP, verification, notices, dairy, scenarios)', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Threshold::query()->where('is_ccp', true)->exists(), fn () => $this->productionRoadmap());
+            $this->area('Season processes (crop cycle on the workflow engine)', fn () => \App\Modules\Workflow\Models\WorkflowDefinition::query()->where('key', 'agri_field_season')->exists(), fn () => $this->seasonProcesses());
 
             $this->newLine();
             $failed = collect($this->results)->filter(fn ($r) => str_starts_with($r, 'FAILED'))->count();
@@ -500,6 +501,68 @@ class SeedAgriDemoAreas extends Command
     }
 
     // ── helpers ──────────────────────────────────────────────────────────────────────────────
+
+    /**
+     * Process 1 running on the demo farm: installed and published (the manager reviews what the owner
+     * submits), a season started on three Boplaas fields — one limed after a low pH, one with its crop
+     * plan approved and inputs on order, one still waiting for the lab.
+     */
+    private function seasonProcesses(): string
+    {
+        $W = \App\Modules\Workflow\Support\WorkflowPermissions::class;
+        foreach ($W::all() as $p) {
+            \Spatie\Permission\Models\Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
+        }
+        $module = DB::table('security_modules')->where('code_name', 'workflow')->value('id');
+        foreach (['manager', 'supervisor', 'finance'] as $k) {
+            $this->u[$k]->givePermissionTo([$W::VIEW, $W::START]);
+            if ($module) {
+                DB::table('security_module_access')->updateOrInsert(['module_id' => $module, 'user_id' => $this->u[$k]->id], ['active' => 1, 'access_level' => 3, 'created_at' => now(), 'updated_at' => now()]);
+            }
+        }
+        app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+        $owner = $this->u['owner'];
+        for ($round = 0; $round < 5; $round++) {
+            $status = \App\Modules\Agri\Processes\CropSeasonProcess::install($owner);
+            $waiting = collect($status)->filter(fn ($s) => $s !== 'published');
+            if ($waiting->isEmpty() && count($status) === 4) {
+                break;
+            }
+            app(\App\Modules\Workflow\Services\DefinitionService::class)->review(\App\Modules\Workflow\Models\WorkflowDefinition::query()->where('key', $waiting->keys()->first())->firstOrFail(),
+                $this->u['manager'], true, 'Checked the steps and who they go to.');
+        }
+
+        // Planning next summer: this season's fields are already planted.
+        $season = \App\Modules\Agri\Models\CropSeason::query()->where('status', 'open')->whereDate('starts_on', '>', today())->where('code', 'like', 'S%')->orderBy('starts_on')->firstOrFail();
+        $opens = $season->starts_on->copy()->addMonths(3);
+        $fields = FarmField::query()->where('farm_id', $this->boplaas->id)->where('status', 'active')->where('land_use_type', 'field')
+            ->whereNotExists(fn ($q) => $q->from('farm_fields as p')->whereColumn('p.parent_field_id', 'farm_fields.id'))->orderBy('code')->limit(3)->get();
+        Auth::setUser($this->u['manager']);
+        $run = \App\Modules\Agri\Processes\CropSeasonProcess::startSeason($this->boplaas, $season, $this->u['manager'], ['planting_window_start' => $opens->toDateString(),
+            'planting_window_end' => $opens->copy()->addDays(45)->toDateString(), 'replant_window_end' => $opens->copy()->addDays(75)->toDateString(), 'laboratory' => 'Nvirotek Labs', 'field_ids' => $fields->pluck('id')->all()]);
+        $children = \App\Modules\Workflow\Models\WorkflowInstance::query()->where('parent_instance_id', $run->id)->orderBy('id')->get()->values();
+        $tasks = app(\App\Modules\Workflow\Services\TaskService::class);
+        $open = fn ($i, $node) => \App\Modules\Workflow\Models\WorkflowTask::query()->where('instance_id', $i->id)->where('node_key', $node)->where('status', 'open')->first()
+            ?? throw new \RuntimeException("No open {$node} on {$i->reference}: ".DB::table('workflow_action_runs')->where('instance_id', $i->id)->whereNotNull('error')->value('error'));
+        $lab = fn ($i, float $ph) => \App\Modules\Agri\Models\SoilTest::query()->findOrFail($i->fresh()->data['soil_test_id'])->update(['ph' => $ph, 'p_mg_kg' => 18, 'k_mg_kg' => 140,
+            'recommendation' => $ph < 5.5 ? 'Apply 2 t/ha dolomitic lime before planting.' : 'No lime needed.']);
+        if (isset($children[0])) {
+            $lab($children[0], 5.0); // low pH: the lime task is waiting
+        }
+        if (isset($children[1])) {
+            $f = $children[1];
+            $lab($f, 6.4);
+            $crop = $f->fresh()->data['crop_options'][0] ?? 'Soya';
+            $tasks->decide($open($f, 'choose'), $this->u['manager'], 'completed', null, ['crop' => $crop]);
+            Auth::setUser($owner);
+            $tasks->decide($open($f, 'plan_ok'), $owner, 'approved', 'Rotation and budget fine.');
+            Auth::setUser($this->u['manager']);
+            $buy = \App\Modules\Workflow\Models\WorkflowInstance::query()->where('parent_instance_id', $f->id)->orderBy('id')->first();
+            $buy && $tasks->decide($open($buy, 'prepare'), $this->u['manager'], 'completed', null, ['supplier' => 'Senwes', 'amount' => 86500, 'expected_delivery' => today()->addDays(6)->toDateString()]);
+        }
+
+        return $run->reference.' with '.$children->count().' field season(s)';
+    }
 
     private function as(string $who): User
     {

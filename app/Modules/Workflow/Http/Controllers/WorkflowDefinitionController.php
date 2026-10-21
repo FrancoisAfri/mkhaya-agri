@@ -136,7 +136,7 @@ class WorkflowDefinitionController extends WorkflowController
             'catalog' => [
                 'nodes' => NodeTypes::TYPES, 'assignees' => NodeTypes::ASSIGNEE_TYPES, 'escalations' => NodeTypes::ESCALATIONS,
                 'operators' => Conditions::OPERATORS, 'patterns' => array_keys(Conditions::PATTERNS),
-                'actions' => collect(ActionCatalog::ACTIONS)->map(fn ($a, $k) => $a + ['key' => $k, 'permitted' => ActionCatalog::permitted($k, $permitted)])->values(),
+                'actions' => collect(ActionCatalog::all())->map(fn ($a, $k) => $a + ['key' => $k, 'permitted' => ActionCatalog::permitted($k, $permitted)])->values(),
                 'recordFields' => $provider?->fields() ?? [],
             ],
             'forms' => WorkflowForm::query()->with('currentVersion')->orderBy('name')->get()->map(fn ($f) => ['id' => $f->id, 'name' => $f->name,
@@ -288,7 +288,8 @@ class WorkflowDefinitionController extends WorkflowController
         return Inertia::render('Modules/Workflow/Templates', [
             'templates' => collect(TemplateLibrary::everything())->map(fn ($t, $k) => ['key' => $k, 'name' => $t['name'], 'description' => $t['description'], 'category' => $t['category'],
                 'module' => $t['module'] ?? 'generic', 'steps' => count($t['graph']['nodes']), 'forms' => count($t['forms'] ?? []),
-                'installed' => collect($installed)->contains(fn ($i) => $i === $t['key'] || str_starts_with($i, $t['key'] . '_'))])->values(),
+                'installed' => collect($installed)->contains(fn ($i) => $i === $t['key'] || str_starts_with($i, $t['key'] . '_')),
+                'requires' => collect(TemplateLibrary::requires($k))->map(fn ($r) => TemplateLibrary::get($r)['name'])->values()])->values(),
             'modules' => $this->modules(),
         ]);
     }
@@ -298,9 +299,12 @@ class WorkflowDefinitionController extends WorkflowController
         $this->allow(WorkflowPermissions::DESIGN, 'template.install');
 
         return $this->attempt(function () use ($key) {
+            $before = WorkflowDefinition::query()->pluck('id')->all();
             $d = $this->definitions->installTemplate($key);
+            $also = WorkflowDefinition::query()->whereNotIn('id', $before)->whereKeyNot($d->id)->pluck('name')->all();
 
-            return redirect()->route('workflow.definitions.designer', $d->uuid)->with('success', 'Template installed as a draft. Check who each step goes to, then publish.');
+            return redirect()->route('workflow.definitions.designer', $d->uuid)->with('success', 'Template installed as a draft. Check who each step goes to, then publish.'
+                .($also ? ' It starts other workflows, installed as drafts too — publish them first: '.implode(', ', $also).'.' : ''));
         }, 'Installed.');
     }
 

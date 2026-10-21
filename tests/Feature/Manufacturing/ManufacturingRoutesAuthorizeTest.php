@@ -145,7 +145,7 @@ class ManufacturingRoutesAuthorizeTest extends ManufacturingTestCase
             }
         }
 
-        $this->assertSame(71, $checked);
+        $this->assertSame(72, $checked);
     }
 
     public function test_every_hub_group_has_a_landing_served_by_the_hub_controller(): void

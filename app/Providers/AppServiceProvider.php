@@ -154,6 +154,9 @@ class AppServiceProvider extends ServiceProvider
     {
         LmsEnrollment::observe(LmsEnrollmentObserver::class);
 
+        // The farm's crop production cycle (process 1) runs on the workflow engine.
+        \App\Modules\Agri\Processes\CropSeasonProcess::register();
+
         // Database-backed file storage: the 'database' filesystem driver stores
         // uploads in the tenant_files table (tenant-scoped by RLS) instead of disk.
         \Illuminate\Support\Facades\Storage::extend('database', function ($app, $config) {

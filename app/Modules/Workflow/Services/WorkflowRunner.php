@@ -153,6 +153,10 @@ class WorkflowRunner
 
             case 'end':
                 $this->closeRun($run, 'completed', $cfg['outcome'] ?? 'completed');
+                // A branch end closes one branch (a recurring task's round, a side path); the request goes on.
+                if (($cfg['scope'] ?? 'request') === 'branch') {
+                    return [];
+                }
                 $this->terminate($instance, $cfg['outcome'] ?? 'completed', null, null);
 
                 return [];
@@ -227,6 +231,44 @@ class WorkflowRunner
 
             case 'subworkflow':
                 return $this->startChild($instance, $version, $node, $run);
+
+            case 'multi_instance':
+                return $this->startEach($instance, $version, $node, $run);
+
+            case 'wait_event':
+                $corr = ! blank($cfg['correlate_field'] ?? null) ? (string) data_get($instance->data, $cfg['correlate_field']) : null;
+                $run->status = 'waiting';
+                $run->detail = ['event' => (string) ($cfg['event'] ?? ''), 'correlation' => $corr];
+                $run->save();
+                $this->scheduleDeadline($instance, $run, $cfg, 'event_timeout');
+
+                return [];
+
+            case 'wait_condition':
+                [$met, $seen] = $this->conditionMet($instance, $cfg);
+                if ($met) {
+                    $run->detail = ['seen' => $seen, 'met_at' => now()->toIso8601String()];
+
+                    return $this->finish($instance, $version, $run, 'met');
+                }
+                $run->status = 'waiting';
+                $run->detail = ['seen' => $seen, 'checks' => 1];
+                $run->save();
+                WorkflowTimer::create(['company_id' => $instance->company_id, 'instance_id' => $instance->id, 'node_run_id' => $run->id, 'kind' => 'poll',
+                    'fire_at' => now()->addMinutes(max(1, (int) ($cfg['poll_minutes'] ?? 60)))]);
+                $this->scheduleDeadline($instance, $run, $cfg, 'deadline');
+
+                return [];
+
+            case 'recurring':
+                // The repeated step runs beside the main flow: schedule its first round and carry on.
+                $every = max(1, (float) ($cfg['every_days'] ?? 7));
+                WorkflowTimer::create(['company_id' => $instance->company_id, 'instance_id' => $instance->id, 'node_run_id' => $run->id, 'kind' => 'recurring',
+                    'fire_at' => now()->addMinutes((int) round(((float) ($cfg['first_after_days'] ?? $every)) * 1440)),
+                    'payload' => ['node' => $cfg['node'] ?? null, 'every_days' => $every, 'round' => 1]]);
+                $run->detail = ['node' => $cfg['node'] ?? null, 'every_days' => $every];
+
+                return $this->finish($instance, $version, $run, 'completed');
         }
 
         $this->closeRun($run, 'failed', 'unknown_type');
@@ -619,6 +661,24 @@ class WorkflowRunner
                 return ['outcome' => $in['outcome'], 'record' => $instance->subject_ref];
         }
 
+        // A module's own action: its handler does the work; what it returns under "data" joins the request.
+        if ($handler = ActionCatalog::handler($action->action_key)) {
+            $output = (array) $handler($instance, $in);
+            if (! empty($output['data']) && is_array($output['data'])) {
+                $data = $instance->data;
+                foreach ($output['data'] as $k => $v) {
+                    if (in_array($k, ['record', 'requester'], true)) {
+                        continue;
+                    }
+                    $data[$k] = $v;
+                }
+                $instance->data = $data;
+                $instance->save();
+            }
+
+            return $output;
+        }
+
         throw new WorkflowException("Unknown action \"{$action->action_key}\".");
     }
 
@@ -660,6 +720,10 @@ class WorkflowRunner
             return $this->raiseException($instance, $node, "Sub-workflow \"{$node['name']}\" refers to a workflow that is not published.");
         }
         $data = ! empty($cfg['pass_data']) ? array_diff_key($instance->data, array_flip(['requester', 'record'])) : [];
+        // Values for this child only (which input this purchase is for), rendered from the request.
+        foreach ((array) ($cfg['data'] ?? []) as $k => $v) {
+            $data[$k] = is_string($v) ? Template::render($v, $instance->data) : $v;
+        }
         $childInstance = $this->start($child, $data, $instance->requester_id,
             ['type' => $instance->subject_type, 'id' => $instance->subject_id, 'ref' => $instance->subject_ref],
             "child:{$instance->uuid}:{$node['key']}:{$run->activation}", $instance->id, $child->name . ' (for ' . $instance->reference . ')');
@@ -686,6 +750,13 @@ class WorkflowRunner
         if (! $parent || $parent->status !== 'running') {
             return;
         }
+        $each = WorkflowNodeRun::query()->where('instance_id', $parent->id)->where('status', 'waiting')->where('node_type', 'multi_instance')
+            ->whereRaw("(detail->'children')::jsonb @> ?::jsonb", [json_encode([$child->uuid])])->lockForUpdate()->first();
+        if ($each) {
+            $this->eachFinished($parent, $each);
+
+            return;
+        }
         $run = WorkflowNodeRun::query()->where('instance_id', $parent->id)->where('status', 'waiting')
             ->where('node_type', 'subworkflow')->whereRaw("detail->>'child' = ?", [$child->uuid])->lockForUpdate()->first();
         if (! $run) {
@@ -694,6 +765,240 @@ class WorkflowRunner
         $version = $parent->version()->first();
         $parent->setRelation('version', $version);
         $this->run($parent, $this->finish($parent, $version, $run, $child->status === 'completed' ? 'completed' : 'rejected'));
+    }
+
+    // ── For each, waits, signals, repeats ───────────────────────────────────
+
+    /** One child request per item of the list, each with its item, side by side. */
+    private function startEach(WorkflowInstance $instance, WorkflowVersion $version, array $node, WorkflowNodeRun $run): array
+    {
+        $cfg = $node['config'] ?? [];
+        $child = WorkflowDefinition::query()->where('key', (string) ($cfg['definition_key'] ?? ''))->first();
+        if (! $child || $child->status !== 'published') {
+            $this->closeRun($run, 'failed', 'no_child');
+
+            return $this->raiseException($instance, $node, "\"{$node['name']}\" refers to a workflow that is not published.");
+        }
+        $items = array_values((array) data_get($instance->data, (string) ($cfg['collection'] ?? ''), []));
+        $as = (string) ($cfg['item_as'] ?? 'item');
+        $base = ! empty($cfg['pass_data']) ? array_diff_key($instance->data, array_flip(['requester', 'record'])) : [];
+        $children = [];
+        foreach ($items as $i => $item) {
+            $data = $base;
+            foreach ((array) ($cfg['data'] ?? []) as $k => $v) {
+                $data[$k] = is_string($v) ? Template::render($v, $instance->data) : $v;
+            }
+            $data[$as] = $item;
+            // An item that is a record (a field) also lends its keys, so the child can say {{field_id}}.
+            if (is_array($item)) {
+                foreach ($item as $k => $v) {
+                    $data[$k] ??= $v;
+                }
+            }
+            $label = is_array($item) ? ($item['name'] ?? $item['label'] ?? $item['code'] ?? '#'.($i + 1)) : (string) $item;
+            $c = $this->start($child, $data, $instance->requester_id, ['type' => $instance->subject_type, 'id' => $instance->subject_id, 'ref' => $instance->subject_ref],
+                "each:{$instance->uuid}:{$node['key']}:{$run->activation}:{$i}", $instance->id, $child->name.' — '.$label);
+            $children[] = $c->uuid;
+        }
+        $run->detail = ['children' => $children, 'count' => count($children)];
+        if (! $children || empty($cfg['wait'] ?? true)) {
+            return $this->finish($instance, $version, $run, 'completed');
+        }
+        $run->status = 'waiting';
+        $run->save();
+        $instance->refresh();
+
+        return $this->eachFinished($instance, $run, false);
+    }
+
+    /** A child of a for-each finished: when all have, collect what they ended with and continue. */
+    private function eachFinished(WorkflowInstance $parent, WorkflowNodeRun $run, bool $resume = true): array
+    {
+        $children = WorkflowInstance::query()->whereIn('uuid', $run->detail['children'] ?? [])->get(['uuid', 'status', 'outcome', 'title']);
+        if ($children->contains(fn ($c) => $c->isOpen())) {
+            return [];
+        }
+        $version = $parent->version()->first();
+        $parent->setRelation('version', $version);
+        $node = $version->node($run->node_key);
+        $results = $children->map(fn ($c) => ['request' => $c->uuid, 'title' => $c->title, 'status' => $c->status])->values()->all();
+        if ($as = ($node['config']['results_as'] ?? null)) {
+            $data = $parent->data;
+            $data[$as] = $results;
+            $parent->data = $data;
+            $parent->save();
+        }
+        $run->detail = array_merge($run->detail ?? [], ['completed' => $children->where('status', 'completed')->count()]);
+        $next = $this->finish($parent, $version, $run, 'completed');
+        if ($resume) {
+            $this->run($parent, $next);
+
+            return [];
+        }
+
+        return $next;
+    }
+
+    /** @return array{0: bool, 1: mixed} whether a wait-until step's condition holds, and what was seen */
+    private function conditionMet(WorkflowInstance $instance, array $cfg): array
+    {
+        if (! blank($cfg['check'] ?? null)) {
+            $params = array_map(fn ($v) => is_string($v) ? Template::render($v, $instance->data) : $v, (array) ($cfg['params'] ?? []));
+            $r = \App\Modules\Workflow\Support\ConditionChecks::run((string) $cfg['check'], $instance, $params);
+
+            return [(bool) $r['met'], ['value' => $r['value'] ?? null, 'note' => $r['note'] ?? null, 'at' => now()->toIso8601String()]];
+        }
+
+        return [Conditions::evaluate($cfg['condition'] ?? null, $instance->data), ['condition' => Conditions::describe($cfg['condition'] ?? null), 'at' => now()->toIso8601String()]];
+    }
+
+    /** The latest a wait may last: a date field on the request, or hours from now. */
+    private function scheduleDeadline(WorkflowInstance $instance, WorkflowNodeRun $run, array $cfg, string $kind): void
+    {
+        $at = null;
+        if (! blank($cfg['deadline_field'] ?? null) && ($d = data_get($instance->data, $cfg['deadline_field']))) {
+            $at = \Carbon\CarbonImmutable::parse($d)->endOfDay();
+        } elseif (is_numeric($cfg['timeout_hours'] ?? null)) {
+            $at = now()->addMinutes((int) round((float) $cfg['timeout_hours'] * 60));
+        }
+        if ($at) {
+            WorkflowTimer::create(['company_id' => $instance->company_id, 'instance_id' => $instance->id, 'node_run_id' => $run->id, 'kind' => $kind, 'fire_at' => $at]);
+            $run->detail = array_merge($run->detail ?? [], ['deadline' => $at->toIso8601String()]);
+            $run->save();
+        }
+    }
+
+    /** A wait-until step's scheduled check (tick, holding the lock): met → continue; not yet → check again later. */
+    public function pollCondition(WorkflowInstance $instance, WorkflowTimer $timer): void
+    {
+        $run = WorkflowNodeRun::query()->lockForUpdate()->find($timer->node_run_id);
+        if (! $run || $run->status !== 'waiting' || $instance->status !== 'running') {
+            return;
+        }
+        $version = $instance->version()->first();
+        $instance->setRelation('version', $version);
+        $cfg = $version->node($run->node_key)['config'] ?? [];
+        [$met, $seen] = $this->conditionMet($instance, $cfg);
+        $run->detail = array_merge($run->detail ?? [], ['seen' => $seen, 'checks' => (int) ($run->detail['checks'] ?? 0) + 1]);
+        if ($met) {
+            WorkflowTimer::query()->where('node_run_id', $run->id)->where('status', 'pending')->update(['status' => 'cancelled']);
+            $this->audit->record('wait.met', $instance, ['instance' => $instance, 'context' => ['node' => $run->node_key, 'seen' => $seen]]);
+            $this->run($instance, $this->finish($instance, $version, $run, 'met'));
+
+            return;
+        }
+        $run->save();
+        WorkflowTimer::create(['company_id' => $instance->company_id, 'instance_id' => $instance->id, 'node_run_id' => $run->id, 'kind' => 'poll',
+            'fire_at' => now()->addMinutes(max(1, (int) ($cfg['poll_minutes'] ?? 60)))]);
+    }
+
+    /** A wait ran out of time (tick, holding the lock): it continues by its timeout route. */
+    public function waitTimedOut(WorkflowInstance $instance, WorkflowTimer $timer): void
+    {
+        $run = WorkflowNodeRun::query()->lockForUpdate()->find($timer->node_run_id);
+        if (! $run || $run->status !== 'waiting' || $instance->status !== 'running') {
+            return;
+        }
+        WorkflowTimer::query()->where('node_run_id', $run->id)->where('status', 'pending')->update(['status' => 'cancelled']);
+        $version = $instance->version()->first();
+        $instance->setRelation('version', $version);
+        $this->audit->record('wait.timeout', $instance, ['instance' => $instance, 'context' => ['node' => $run->node_key]]);
+        $this->run($instance, $this->finish($instance, $version, $run, 'timeout'));
+    }
+
+    /** A repeated step's round is due (tick, holding the lock): run it beside the main flow and book the next. */
+    public function recur(WorkflowInstance $instance, WorkflowTimer $timer): void
+    {
+        if ($instance->status !== 'running') {
+            return;
+        }
+        $version = $instance->version()->first();
+        $instance->setRelation('version', $version);
+        $run = WorkflowNodeRun::query()->find($timer->node_run_id);
+        $cfg = $run ? ($version->node($run->node_key)['config'] ?? []) : [];
+        if (! empty($cfg['stop_when']) && Conditions::evaluate($cfg['stop_when'], $instance->data)) {
+            return; // the condition that ends the repeats holds: no more rounds
+        }
+        $p = $timer->payload ?? [];
+        WorkflowTimer::create(['company_id' => $instance->company_id, 'instance_id' => $instance->id, 'node_run_id' => $timer->node_run_id, 'kind' => 'recurring',
+            'fire_at' => now()->addMinutes((int) round((float) ($p['every_days'] ?? 7) * 1440)), 'payload' => ['round' => (int) ($p['round'] ?? 1) + 1] + $p]);
+        if (! empty($p['node']) && $version->node($p['node'])) {
+            $this->run($instance, [[$p['node'], null]]);
+        }
+    }
+
+    /**
+     * Something happened outside the workflow — a lab result, a delivery, a hailstorm. Each waiting
+     * "wait for an event" step for that event and correlation continues as received (the event's
+     * values joining the request); each running request whose workflow handles the event as an
+     * interruption stops what it was doing and goes to the handler.
+     *
+     * @return array{resumed: int, interrupted: int}
+     */
+    public function signal(int $companyId, string $event, array $payload): array
+    {
+        $out = ['resumed' => 0, 'interrupted' => 0];
+        $runs = WorkflowNodeRun::query()->withoutGlobalScopes()->where('company_id', $companyId)->where('status', 'waiting')->where('node_type', 'wait_event')
+            ->whereRaw("detail->>'event' = ?", [$event])->get();
+        foreach ($runs as $r) {
+            DB::transaction(function () use ($r, $payload, $event, &$out) {
+                $instance = WorkflowInstance::query()->withoutGlobalScopes()->lockForUpdate()->find($r->instance_id);
+                $run = WorkflowNodeRun::query()->withoutGlobalScopes()->lockForUpdate()->find($r->id);
+                if (! $instance || $instance->status !== 'running' || $run->status !== 'waiting') {
+                    return;
+                }
+                $version = $instance->version()->first();
+                $instance->setRelation('version', $version);
+                $cfg = $version->node($run->node_key)['config'] ?? [];
+                $key = $cfg['correlate_key'] ?? null;
+                if ($key && (string) ($payload[$key] ?? '') !== (string) ($run->detail['correlation'] ?? '')) {
+                    return;
+                }
+                $data = $instance->data;
+                $data[$cfg['store_as'] ?? Str::snake(str_replace('.', '_', $event))] = $payload;
+                $instance->data = $data;
+                $instance->save();
+                WorkflowTimer::query()->where('node_run_id', $run->id)->where('status', 'pending')->update(['status' => 'cancelled']);
+                $this->audit->record('event.received', $instance, ['instance' => $instance, 'context' => ['node' => $run->node_key, 'event' => $event]]);
+                $this->run($instance, $this->finish($instance, $version, $run, 'received'));
+                $out['resumed']++;
+            });
+        }
+
+        $instances = WorkflowInstance::query()->withoutGlobalScopes()->where('company_id', $companyId)->where('status', 'running')
+            ->whereHas('version', fn ($q) => $q->withoutGlobalScopes()->whereRaw("jsonb_array_length(coalesce(graph->'events', '[]'::jsonb)) > 0"))->pluck('id');
+        foreach ($instances as $id) {
+            DB::transaction(function () use ($id, $payload, $event, &$out) {
+                $instance = WorkflowInstance::query()->withoutGlobalScopes()->lockForUpdate()->find($id);
+                if (! $instance || $instance->status !== 'running') {
+                    return;
+                }
+                $version = $instance->version()->first();
+                $instance->setRelation('version', $version);
+                foreach ($version->graph['events'] ?? [] as $h) {
+                    if (($h['event'] ?? null) !== $event) {
+                        continue;
+                    }
+                    $c = $h['correlate'] ?? null;
+                    if ($c && (string) ($payload[$c['event_key']] ?? '') !== (string) data_get($instance->data, $c['data_field'])) {
+                        continue;
+                    }
+                    $data = $instance->data;
+                    $data[$h['store_as'] ?? 'interruption'] = $payload + ['event' => $event, 'at' => now()->toIso8601String()];
+                    $instance->data = $data;
+                    $instance->save();
+                    if (($h['interrupting'] ?? true) !== false) {
+                        $this->cancelOpenWork($instance, "Interrupted by {$event}.", interrupt: true);
+                    }
+                    $this->audit->record('event.interrupted', $instance, ['instance' => $instance, 'context' => ['event' => $event, 'to' => $h['to'] ?? null]]);
+                    $this->run($instance, [[$h['to'], null]]);
+                    $out['interrupted']++;
+                    break;
+                }
+            });
+        }
+
+        return $out;
     }
 
     // ── Finishing ───────────────────────────────────────────────────────────
@@ -739,7 +1044,7 @@ class WorkflowRunner
     }
 
     /** Stop everything still open in the instance (tasks, timers, pending actions, waiting steps). */
-    public function cancelOpenWork(WorkflowInstance $instance, string $why, ?int $exceptRunId = null): void
+    public function cancelOpenWork(WorkflowInstance $instance, string $why, ?int $exceptRunId = null, bool $interrupt = false): void
     {
         $runs = WorkflowNodeRun::query()->where('instance_id', $instance->id)->whereIn('status', ['active', 'waiting'])
             ->when($exceptRunId, fn ($q) => $q->where('id', '!=', $exceptRunId))->get();
@@ -755,7 +1060,7 @@ class WorkflowRunner
             ->update(['status' => 'cancelled']);
         WorkflowActionRun::query()->where('instance_id', $instance->id)->where('status', 'pending')->where('action_key', '!=', 'provider.outcome')
             ->when($exceptRunId, fn ($q) => $q->whereIn('node_run_id', $runIds))->update(['status' => 'cancelled']);
-        if (! $exceptRunId) {
+        if (! $exceptRunId && ! $interrupt) {
             // Children started by this request stop with it (§9: cancellation reaches parallel and child work).
             WorkflowInstance::query()->where('parent_instance_id', $instance->id)->whereIn('status', WorkflowInstance::OPEN)->get()
                 ->each(function ($child) use ($why) {

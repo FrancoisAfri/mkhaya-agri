@@ -107,6 +107,8 @@ class GraphValidator
                     'user_task', 'review' => array_merge(['completed'], ! empty($cfg['allow_return']) ? ['returned'] : []),
                     'subworkflow' => ['completed', 'rejected'],
                     'exception' => ['resolved', 'cancelled'],
+                    'wait_event' => array_merge(['received'], is_numeric($cfg['timeout_hours'] ?? null) || ! blank($cfg['deadline_field'] ?? null) ? ['timeout'] : []),
+                    'wait_condition' => array_merge(['met'], is_numeric($cfg['timeout_hours'] ?? null) || ! blank($cfg['deadline_field'] ?? null) ? ['timeout'] : []),
                 };
                 $labels = array_map(fn ($e) => $e['outcome'] ?? null, $outs);
                 foreach ($outs as $e) {
@@ -208,9 +210,9 @@ class GraphValidator
                     $add($key, null, "\"{$name}\" uses an action that is not available.", 'Choose an action from the list.');
                 } else {
                     if (! ActionCatalog::permitted($action, (array) $this->settings->get('permitted_actions', $definition->company_id))) {
-                        $add($key, null, "\"{$name}\" uses \"" . ActionCatalog::ACTIONS[$action]['label'] . '", which this company has not permitted.', 'An administrator must permit it under Workflow administration, or remove the step.');
+                        $add($key, null, "\"{$name}\" uses \"" . ActionCatalog::all()[$action]['label'] . '", which this company has not permitted.', 'An administrator must permit it under Workflow administration, or remove the step.');
                     }
-                    foreach (ActionCatalog::ACTIONS[$action]['inputs'] as $input) {
+                    foreach (ActionCatalog::all()[$action]['inputs'] as $input) {
                         if (! empty($input['required']) && blank($cfg['input'][$input['key']] ?? null)) {
                             $add($key, null, "\"{$name}\" is missing \"{$input['label']}\".", 'Fill it in on the step.');
                         }
@@ -232,14 +234,64 @@ class GraphValidator
                     $add($key, null, "Sub-workflow \"{$name}\" starts this same workflow.", 'Choose a different workflow.');
                 }
             }
+            if ($type === 'multi_instance') {
+                $child = WorkflowDefinition::query()->where('key', (string) ($cfg['definition_key'] ?? ''))->first();
+                if (! $child || ! $child->current_version_id) {
+                    $add($key, null, "\"{$name}\" does not name a published workflow to start for each item.", 'Choose a published workflow.');
+                }
+                if (blank($cfg['collection'] ?? null)) {
+                    $add($key, null, "\"{$name}\" does not say which list to go through.", 'Name the field holding the list (for example fields).');
+                }
+            }
+            if ($type === 'wait_event' && blank($cfg['event'] ?? null)) {
+                $add($key, null, "\"{$name}\" does not say which event it waits for.", 'Name the event.');
+            }
+            if ($type === 'wait_condition') {
+                if (blank($cfg['check'] ?? null) && empty($cfg['condition'])) {
+                    $add($key, null, "\"{$name}\" has nothing to wait for.", 'Choose a check or write a condition.');
+                } elseif (! blank($cfg['check'] ?? null) && ! \App\Modules\Workflow\Support\ConditionChecks::exists((string) $cfg['check'])) {
+                    $add($key, null, "\"{$name}\" uses a check that is not available.", 'Choose a check from the list.');
+                }
+                foreach (Conditions::problems($cfg['condition'] ?? null) as $p) {
+                    $add($key, null, "\"{$name}\": {$p}", 'Edit the condition.');
+                }
+            }
+            if ($type === 'recurring') {
+                if (! is_numeric($cfg['every_days'] ?? null) || (float) $cfg['every_days'] <= 0) {
+                    $add($key, null, "\"{$name}\" has no interval.", 'Set how many days between rounds.');
+                }
+                $target = $nodes[$cfg['node'] ?? ''] ?? null;
+                if (! $target || in_array($target['type'], ['start', 'end'], true)) {
+                    $add($key, null, "\"{$name}\" does not name the step to repeat.", 'Choose the step each round starts at.');
+                }
+            }
             if ($type === 'document' && blank($cfg['body'] ?? null)) {
                 $add($key, null, "Document \"{$name}\" has no content.", 'Write the document template.');
             }
         }
 
-        // Reachability: every step can be reached from Start and can reach an End (§4.3: no dead ends).
+        // Interruptions: each names an event and a step that exists to go to.
+        foreach ($graph['events'] ?? [] as $h) {
+            if (blank($h['event'] ?? null) || ! isset($nodes[$h['to'] ?? ''])) {
+                $add(null, null, 'An interruption has no event or goes to a step that does not exist.', 'Name the event and the step it goes to.');
+            }
+        }
+
+        // Reachability: every step can be reached from Start — or from an interruption, or as a
+        // repeated round — and can reach an End (§4.3: no dead ends).
         if (count($starts) === 1) {
-            $reached = $this->reach([$starts[0]], $out);
+            $roots = [$starts[0]];
+            foreach ($graph['events'] ?? [] as $h) {
+                if (isset($nodes[$h['to'] ?? ''])) {
+                    $roots[] = $h['to'];
+                }
+            }
+            foreach ($nodes as $n) {
+                if ($n['type'] === 'recurring' && isset($nodes[$n['config']['node'] ?? ''])) {
+                    $roots[] = $n['config']['node'];
+                }
+            }
+            $reached = $this->reach($roots, $out);
             foreach (array_diff(array_keys($nodes), $reached) as $orphan) {
                 $add($orphan, null, '"' . ($nodes[$orphan]['name'] ?? $orphan) . '" can never be reached.', 'Connect it from an earlier step, or delete it.');
             }

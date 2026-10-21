@@ -82,6 +82,19 @@ class TickService
                     }
                     break;
 
+                case 'poll':
+                    $this->runner->pollCondition($instance, $timer);
+                    break;
+
+                case 'deadline':
+                case 'event_timeout':
+                    $this->runner->waitTimedOut($instance, $timer);
+                    break;
+
+                case 'recurring':
+                    $this->runner->recur($instance, $timer);
+                    break;
+
                 case 'reminder':
                     $this->notifier->send(array_map('intval', $timer->payload['to'] ?? []), 'reminder', "Reminder: {$instance->reference}", (string) ($timer->payload['message'] ?? ''),
                         url('/workflow/instances/' . $instance->uuid), $instance, 'reminder:' . $timer->id);

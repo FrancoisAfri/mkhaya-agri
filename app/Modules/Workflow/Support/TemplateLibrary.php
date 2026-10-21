@@ -27,10 +27,36 @@ final class TemplateLibrary
         return self::everything()[$key] ?? null;
     }
 
-    /** The original six plus the wider library, in one list. */
+    /** @var array<string, array> templates a module adds (the farm's season processes) */
+    private static array $registered = [];
+
+    /** A module adds its own processes to the gallery; they install like any other template. */
+    public static function register(array $template): void
+    {
+        self::$registered[$template['key']] = $template;
+    }
+
+    /** The original six, the wider library and what modules registered, in one list. */
     public static function everything(): array
     {
-        return self::all() + TemplateLibraryMore::all();
+        return self::all() + TemplateLibraryMore::all() + self::$registered;
+    }
+
+    /**
+     * The other templates one starts (sub-workflows, one child per item), children first, so
+     * installing it brings in what it needs.
+     */
+    public static function requires(string $key, array $seen = []): array
+    {
+        $out = [];
+        foreach (self::get($key)['graph']['nodes'] ?? [] as $n) {
+            $child = $n['config']['definition_key'] ?? null;
+            if (in_array($n['type'] ?? null, ['subworkflow', 'multi_instance'], true) && $child && $child !== $key && ! in_array($child, $seen, true) && self::get($child)) {
+                $out = [...$out, ...self::requires($child, [...$seen, $key]), $child];
+            }
+        }
+
+        return array_values(array_unique($out));
     }
 
     private static function n(string $key, string $type, string $name, int $x, int $y, array $config = []): array

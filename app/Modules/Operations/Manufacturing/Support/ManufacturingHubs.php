@@ -58,6 +58,8 @@ class ManufacturingHubs extends ModuleHubs
                     // permission their own pages check (the farm module's, not a policy on a model).
                     self::card('agri_crops', 'manufacturing/agriculture/crops', 'plant-2',
                         self::READ, 'light-green', ['ability' => \App\Modules\Agri\Support\RoleCatalog::VIEW_CROPS, 'subject' => null]),
+                    self::card('agri_seasons', 'manufacturing/agriculture/seasons', 'route',
+                        self::READ, 'teal', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class)),
                     self::card('agri_crop_intelligence', 'manufacturing/agriculture/crops/intelligence', 'radar',
                         self::READ, 'deep-purple', ['ability' => \App\Modules\Agri\Support\RoleCatalog::VIEW_CROPS, 'subject' => null]),
                     self::card('agri_livestock', 'manufacturing/agriculture/livestock', 'cow',

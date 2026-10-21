@@ -26,6 +26,14 @@ final class NodeTypes
         'document' => ['label' => 'Generate document', 'icon' => 'file-text', 'color' => 'indigo', 'outcomes' => []],
         'subworkflow' => ['label' => 'Sub-workflow', 'icon' => 'hierarchy-3', 'color' => 'cyan', 'outcomes' => ['completed', 'rejected']],
         'exception' => ['label' => 'Manual intervention', 'icon' => 'alert-octagon', 'color' => 'red', 'outcomes' => ['resolved', 'cancelled']],
+        // One child request per item of a list (one per field), side by side; waits for them all unless told not to.
+        'multi_instance' => ['label' => 'For each', 'icon' => 'stack-2', 'color' => 'cyan', 'outcomes' => []],
+        // Wait for something to happen outside (a lab result, a delivery), matched to this request, with a deadline.
+        'wait_event' => ['label' => 'Wait for an event', 'icon' => 'antenna', 'color' => 'blue-grey', 'outcomes' => ['received', 'timeout']],
+        // Wait until a condition holds (rain has fallen, a date has passed, inputs arrived), checked on a schedule, with a deadline.
+        'wait_condition' => ['label' => 'Wait until', 'icon' => 'clock-check', 'color' => 'blue-grey', 'outcomes' => ['met', 'timeout']],
+        // Start a step every N days alongside the main flow until a condition stops it (scouting every 14 days).
+        'recurring' => ['label' => 'Repeat every', 'icon' => 'repeat', 'color' => 'teal', 'outcomes' => []],
     ];
 
     /** Nodes that wait for a person. */

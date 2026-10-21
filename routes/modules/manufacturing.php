@@ -447,6 +447,14 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
                 ->name('policies.limits.destroy');
         });
             // ── Agricultural production (the production engine) ─────────────────────────────────
+        // Process 1: the crop production cycle on the workflow engine, per field.
+        Route::prefix('agriculture/seasons')->name('agriculture.seasons.')->controller(\App\Modules\Operations\Manufacturing\Http\Controllers\SeasonProcessController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            Route::post('/install', 'install')->name('install');
+            Route::post('/', 'start')->name('start');
+            Route::post('/soil/{test}', 'soilResult')->whereUuid('test')->name('soil');
+            Route::post('/damage', 'damage')->name('damage');
+        });
         Route::prefix('agriculture')->name('agriculture.')->controller(\App\Modules\Operations\Manufacturing\Http\Controllers\AgricultureController::class)->group(function () {
             Route::get('/overview', 'overview')->name('overview');
             Route::get('/cycles', 'cycles')->name('cycles');

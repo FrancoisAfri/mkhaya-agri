@@ -4,7 +4,7 @@ import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
 
 const route = ziggyRoute
-const props = defineProps<{ templates: Array<{ key: string; name: string; description: string; category: string; module: string; steps: number; forms: number; installed: boolean }>; modules: Array<{ key: string; label: string }> }>()
+const props = defineProps<{ templates: Array<{ key: string; name: string; description: string; category: string; module: string; steps: number; forms: number; installed: boolean; requires: string[] }>; modules: Array<{ key: string; label: string }> }>()
 const moduleLabel = (k: string) => props.modules.find(m => m.key === k)?.label ?? k
 
 const category = ref<string | null>(null)
@@ -35,7 +35,10 @@ const shown = computed(() => {
       <VCol v-for="t in shown" :key="t.key" cols="12" md="6" lg="4">
         <VCard border class="h-100 d-flex flex-column">
           <VCardItem><VCardTitle class="text-body-1 text-wrap">{{ t.name }}</VCardTitle><VCardSubtitle>{{ t.category }} · {{ moduleLabel(t.module) }}</VCardSubtitle></VCardItem>
-          <VCardText class="text-body-2 flex-grow-1">{{ t.description }}</VCardText>
+          <VCardText class="text-body-2 flex-grow-1">
+            {{ t.description }}
+            <div v-if="t.requires?.length" class="text-caption text-medium-emphasis mt-2">Also installs: {{ t.requires.join(', ') }}</div>
+          </VCardText>
           <VCardActions>
             <span class="text-caption text-medium-emphasis ms-2">{{ t.steps }} steps{{ t.forms ? ` · ${t.forms} form` : '' }}</span>
             <VSpacer />

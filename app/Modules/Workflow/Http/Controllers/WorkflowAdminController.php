@@ -36,7 +36,7 @@ class WorkflowAdminController extends WorkflowController
                 'key' => $p->key(), 'label' => $p->label(), 'enabled' => (bool) ($values['modules'][$p->key()] ?? false),
                 'workflow' => WorkflowDefinition::query()->where('status', 'published')->where('trigger_type', 'record_event')->where('trigger_config->event', $p->submitEvent())->value('name'),
             ])->values(),
-            'actions' => collect(ActionCatalog::ACTIONS)->map(fn ($a, $k) => ['key' => $k, 'label' => $a['label'], 'risk' => $a['risk'],
+            'actions' => collect(ActionCatalog::all())->map(fn ($a, $k) => ['key' => $k, 'label' => $a['label'], 'risk' => $a['risk'],
                 'permitted' => ActionCatalog::permitted($k, (array) ($values['permitted_actions'] ?? []))])->values(),
             'health' => [
                 'tick_last' => is_file(storage_path('logs/workflow-tick.log')) ? date(DATE_ATOM, filemtime(storage_path('logs/workflow-tick.log'))) : null,
@@ -53,7 +53,7 @@ class WorkflowAdminController extends WorkflowController
     {
         $this->allow(WorkflowPermissions::ADMIN, 'settings.update');
         $rules = collect(WorkflowSettings::KEYS)->mapWithKeys(fn ($d, $k) => [$k => 'sometimes|' . $d[2]])->all();
-        $d = $request->validate($rules + ['categories.*' => 'string|min:2|max:60|distinct', 'permitted_actions.*' => 'string|in:' . implode(',', array_keys(ActionCatalog::ACTIONS)),
+        $d = $request->validate($rules + ['categories.*' => 'string|min:2|max:60|distinct', 'permitted_actions.*' => 'string|in:' . implode(',', array_keys(ActionCatalog::all())),
             'modules.*' => 'boolean', 'reason' => 'required|string|min:5|max:1000']);
         $reason = $d['reason'];
         unset($d['reason']);

@@ -21203,6 +21203,10 @@
         "title": "Crops",
         "subtitle": "Crop plans, field work, scouting and harvests on every field"
       },
+      "agri_seasons": {
+        "title": "Season processes",
+        "subtitle": "Each field from soil test to weighbridge: rotation, inputs, rain, scouting, hail"
+      },
       "agri_crop_intelligence": {
         "title": "Crop intelligence",
         "subtitle": "Stages, scouting thresholds, irrigation, rotation and forecasts"

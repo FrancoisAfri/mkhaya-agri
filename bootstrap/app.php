@@ -145,6 +145,7 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Finance\Tax\Console\DeliverTaxEventsCommand::class,
         \App\Modules\Workflow\Console\WorkflowTickCommand::class,
         \App\Modules\Agri\Console\ScanFarmAlerts::class,
+        \App\Modules\Agri\Console\StartSeasonProcesses::class,
         \App\Modules\Agri\Console\RecordAgriPredictions::class,
         \App\Modules\Agri\Console\FetchAgriWeather::class,
         \App\Modules\Agri\Console\RetryAgriIntegrations::class,
@@ -503,6 +504,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->command(\App\Modules\Agri\Console\ScanFarmAlerts::class)
             ->dailyAt('04:30')->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/agri-alerts.log'));
+        // Process 1: a season whose planning date has arrived starts its crop production cycle on each farm.
+        $schedule->command(\App\Modules\Agri\Console\StartSeasonProcesses::class)
+            ->dailyAt('04:35')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-seasons.log'));
         // Phase 2 §10.2: today's predictions written down, and yesterday's scored where the outcome is known.
         $schedule->command(\App\Modules\Agri\Console\RecordAgriPredictions::class)
             ->dailyAt('04:45')->withoutOverlapping()->onOneServer()
