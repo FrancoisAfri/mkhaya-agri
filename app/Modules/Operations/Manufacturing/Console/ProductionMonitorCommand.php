@@ -23,7 +23,7 @@ class ProductionMonitorCommand extends Command
 {
     use RunsPerTenant;
 
-    protected $signature = 'mfg:production-monitor {--company= : Only this company id} {--agents : Run the production agents too}';
+    protected $signature = 'mfg:production-monitor {--company= : Only this company id} {--agents : Run the production agents too} {--sources : Fetch the outside sources that are due}';
 
     protected $description = 'Stale sensors, incident escalation, unconfirmed commands and forecast scoring for agricultural production';
 
@@ -37,8 +37,12 @@ class ProductionMonitorCommand extends Command
         $this->eachTenant($tenants, function (int $companyId) use ($readings, $incidents, $commands, $forecasts, $agents) {
             $done = ['stale' => $readings->sweepStale(), 'escalated' => $incidents->escalateDue(), 'unconfirmed' => $commands->sweepUnconfirmed(),
                 'scored' => $forecasts->resolveDue()];
+            if ($this->option('sources')) {
+                $done['fetched'] = count(app(\App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher::class)->fetchDue());
+            }
             if ($this->option('agents')) {
                 $done['recommended'] = $agents->run($companyId)['proposed'];
+                $done['forecast'] = $forecasts->forecastAll($companyId);
             }
             if (array_sum($done) > 0) {
                 $this->line("  company {$companyId}: ".collect($done)->filter()->map(fn ($n, $k) => "{$n} {$k}")->implode(', '));

@@ -861,7 +861,7 @@ class ProductionEngineTest extends AgriTestCase
         $this->feed($t, [[5, 25]]);
         $i = $this->as(fn () => app(Incidents::class)->raise($this->company->id, 'screen:1', ['kind' => 'manual', 'severity' => 'warning', 'title' => 'Screen check', 'unit_id' => $h->id, 'farm_id' => $this->farm->id]));
         foreach (['/manufacturing/agriculture', '/manufacturing/command', '/manufacturing/agriculture/overview', '/manufacturing/agriculture/cycles', '/manufacturing/agriculture/cycles/'.$c->uuid,
-            '/manufacturing/agriculture/units', '/manufacturing/agriculture/types', '/manufacturing/agriculture/processing', '/manufacturing/command/centre',
+            '/manufacturing/agriculture/units', '/manufacturing/agriculture/types', '/manufacturing/agriculture/packhouse', '/manufacturing/intelligence/assistant', '/manufacturing/command/centre',
             '/manufacturing/command/incidents', '/manufacturing/command/incidents/'.$i->uuid, '/manufacturing/command/devices', '/manufacturing/command/settings',
             '/manufacturing/intelligence/recommendations', '/manufacturing/intelligence/outbreaks', '/manufacturing/intelligence/opportunities',
             '/manufacturing/intelligence/sources', '/manufacturing/intelligence/forecasts'] as $url) {
@@ -880,8 +880,272 @@ class ProductionEngineTest extends AgriTestCase
         $this->actingAs($this->worker)->get('/manufacturing/command/stream?once=1')->assertForbidden();
         // The farm hub's shortcuts go to Manufacturing & Production.
         $paths = collect(\App\Modules\Agri\Support\AgriHubs::hubs())->flatMap(fn ($h) => array_column($h['cards'], 'path'))->all();
-        $this->assertContains('manufacturing/agriculture/processing', $paths);
+        $this->assertContains('manufacturing/agriculture/packhouse', $paths);
         $this->assertContains('manufacturing/command/centre', $paths);
         $this->assertNotContains('agri/packhouse', $paths);
+    }
+
+    // ── completing the specification ─────────────────────────────────────────────────────────
+
+    public function test_crops_livestock_and_the_packhouse_live_once_in_manufacturing_and_farm_keeps_shortcuts(): void
+    {
+        $this->assertSame('manufacturing/agriculture/crops', \Illuminate\Support\Facades\Route::getRoutes()->getByName('agri.crops.index')->uri());
+        $this->assertSame('manufacturing/agriculture/livestock', \Illuminate\Support\Facades\Route::getRoutes()->getByName('agri.livestock.index')->uri());
+        $this->assertSame('manufacturing/agriculture/packhouse', \Illuminate\Support\Facades\Route::getRoutes()->getByName('agri.packhouse.home')->uri());
+        $this->assertNull(\Illuminate\Support\Facades\Route::getRoutes()->getByName('manufacturing.agriculture.processing'), 'The duplicate processing screen is gone.');
+        foreach (['/manufacturing/agriculture/crops', '/manufacturing/agriculture/livestock', '/manufacturing/agriculture/packhouse'] as $url) {
+            $this->actingAs($this->admin)->get($url)->assertOk();
+        }
+        // Old addresses go to the one screen, never to a copy.
+        $this->actingAs($this->admin)->get('/agri/crops/intelligence?tab=x')->assertRedirect('/manufacturing/agriculture/crops/intelligence?tab=x');
+        $this->actingAs($this->admin)->get('/agri/livestock')->assertStatus(301);
+        $farmCards = collect(\App\Modules\Agri\Support\AgriHubs::hubs())->flatMap(fn ($h) => array_column($h['cards'], 'path'))->all();
+        foreach (['manufacturing/agriculture/crops', 'manufacturing/agriculture/livestock', 'manufacturing/agriculture/packhouse'] as $path) {
+            $this->assertContains($path, $farmCards, "Farm keeps a shortcut to {$path}.");
+            $this->assertNotContains(str_replace('manufacturing/agriculture', 'agri', $path), $farmCards);
+        }
+        $mfgCards = collect(\App\Modules\Operations\Manufacturing\Support\ManufacturingHubs::hubs())->flatMap(fn ($h) => array_column($h['cards'], 'path'))->all();
+        $this->assertSame(count($mfgCards), count(array_unique($mfgCards)), 'No screen is offered twice in Manufacturing.');
+        // The farm worker without crop permission is still refused at the moved address.
+        $this->actingAs($this->outsider)->get('/manufacturing/agriculture/crops')->assertForbidden();
+    }
+
+    public function test_feed_recorded_on_a_flock_is_drawn_from_the_farm_store_at_its_cost(): void
+    {
+        $this->openBooks();
+        $c = $this->flock($this->unit('HF'), 5000);
+        $feed = $this->stockItem('FEED-BROILER-G', 'kg', 8);
+        $this->stockOnFarm($this->farm, $feed, 3000, 8);
+        $r = $this->as(fn () => app(ProductionCycles::class)->record($c, 'feed', ['quantity' => 650, 'stock_item_id' => $feed->id, 'client_id' => 'feed-1'], $this->admin));
+        $this->assertSame('feeding', $r->link_type);
+        $this->assertEqualsWithDelta(5200.0, $r->cost, 0.01);
+        $feeding = \App\Modules\Agri\Models\Feeding::withoutGlobalScopes()->findOrFail($r->link_id);
+        $this->assertSame((int) $c->livestock_group_id, (int) $feeding->group_id);
+        $store = app(\App\Modules\Agri\Services\FarmStores::class)->storeFor($this->farm);
+        $this->assertEqualsWithDelta(2350.0, app(\App\Modules\Finance\Accounting\Services\StockLedger::class)->available($feed->fresh(), $store->id), 0.001);
+        // Retried offline, nothing is issued twice.
+        $this->as(fn () => app(ProductionCycles::class)->record($c->fresh(), 'feed', ['quantity' => 650, 'stock_item_id' => $feed->id, 'client_id' => 'feed-1'], $this->admin));
+        $this->assertEqualsWithDelta(2350.0, app(\App\Modules\Finance\Accounting\Services\StockLedger::class)->available($feed->fresh(), $store->id), 0.001);
+        // A pond with no farm group issues straight from the store.
+        $pond = $this->unit('PD', 'pond', 'TILAPIA');
+        $fish = $this->flock($pond, 2000, ['type' => 'TILAPIA']);
+        $p = $this->as(fn () => app(ProductionCycles::class)->record($fish, 'feed', ['quantity' => 40, 'stock_item_id' => $feed->id], $this->admin));
+        $this->assertSame('stock_movement', $p->link_type, 'A pond has no farm livestock group: its feed is a plain issue from the store.');
+        $this->assertGreaterThan(0, $p->cost);
+    }
+
+    public function test_a_processing_batch_made_to_an_approved_recipe_is_checked_and_keeps_its_revision(): void
+    {
+        $this->openBooks();
+        $this->asCompany($this->company, fn () => app(\App\Modules\Operations\Manufacturing\Services\ManufacturingReferenceData::class)->installFor($this->company->id));
+        $crop = $this->cropCycle($this->planted('RC-1'));
+        $cold = $this->store();
+        $bulk = $this->stockItem('MZ-R-BULK', 'kg', 4);
+        $meal = $this->stockItem('MZ-R-MEAL', 'bag', 60);
+        $this->as(fn () => app(ProductionCycles::class)->record($crop, 'harvest', ['quantity' => 1000, 'unit' => 'kg', 'destination' => 'store', 'stock_item_id' => $bulk->id,
+            'store_id' => $cold->uuid, 'unit_value' => 4, 'recorded_at' => now()->subHour()], $this->admin));
+        $lot = ProduceLot::withoutGlobalScopes()->where('kind', 'harvest')->sole();
+        [$v1, $item] = $this->asCompany($this->company, function () use ($meal, $bulk) {
+            $uom = \App\Modules\Operations\Manufacturing\Models\Uom::where('code', 'kg')->firstOrFail();
+            $item = \App\Modules\Operations\Manufacturing\Models\Item::create(['company_id' => $this->company->id, 'stock_item_id' => $meal->id, 'kind' => 'FINISHED', 'default_uom_id' => $uom->id, 'is_active' => true]);
+            $bom = \App\Modules\Operations\Manufacturing\Models\Bom::create(['company_id' => $this->company->id, 'item_id' => $item->id, 'revision' => 1, 'name' => 'Maize meal 10 kg',
+                'status' => 'DRAFT', 'yield_quantity' => 1, 'yield_uom_id' => $uom->id, 'process_loss_percent' => 0, 'created_by' => $this->admin->id]);
+            \App\Modules\Operations\Manufacturing\Models\BomLine::create(['company_id' => $this->company->id, 'bom_id' => $bom->id, 'line_no' => 10, 'component_stock_item_id' => $bulk->id,
+                'quantity_per' => 10, 'uom_id' => $uom->id, 'scrap_percent' => 0, 'line_kind' => 'COMPONENT']);
+            $bom->update(['status' => 'APPROVED', 'approved_by' => $this->prodManager->id, 'approved_at' => now()]);
+
+            return [$bom->fresh(), $item];
+        });
+        $run = fn (float $in, float $bags, $bom) => $this->as(fn () => app(Processing::class)->run($this->farm, 'processing', [['lot' => $lot->fresh(), 'quantity' => $in]],
+            [['product' => 'Maize meal 10 kg', 'quantity' => $bags, 'unit' => 'bag', 'stock_item_id' => $meal->id, 'store_id' => $cold->id]], [], ['bom' => $bom], $this->admin));
+        try {
+            $run(300, 48, $v1);
+            $this->fail('A batch far off the recipe was accepted.');
+        } catch (ValidationException $e) {
+            $this->assertStringContainsString('needs 480', $e->errors()['inputs'][0]);
+        }
+        $op = $run(490, 48, $v1);
+        $order = \App\Modules\Operations\Manufacturing\Models\ProductionOrder::withoutGlobalScopes()->findOrFail($op->production_order_id);
+        $this->assertSame($v1->id, (int) $order->bom_id);
+        // Revision 2 supersedes it; the batch already made keeps revision 1, and a draft is never made to.
+        $this->asCompany($this->company, function () use ($v1, $item) {
+            \App\Modules\Operations\Manufacturing\Models\Bom::withoutGlobalScopes()->whereKey($v1->id)->update(['status' => 'SUPERSEDED']);
+            \App\Modules\Operations\Manufacturing\Models\Bom::create(['company_id' => $this->company->id, 'item_id' => $item->id, 'revision' => 2, 'name' => 'Maize meal 10 kg',
+                'status' => 'DRAFT', 'yield_quantity' => 1, 'yield_uom_id' => $item->default_uom_id, 'created_by' => $this->admin->id]);
+        });
+        $this->assertSame($v1->id, (int) $order->fresh()->bom_id);
+        $this->assertSame(1, (int) \App\Modules\Operations\Manufacturing\Models\Bom::withoutGlobalScopes()->find($order->fresh()->bom_id)->revision);
+        $this->as(fn () => $this->assertThrows(fn () => $run(100, 10, $v1->fresh()), ValidationException::class));
+    }
+
+    public function test_a_gateway_posts_readings_collects_commands_and_reports_back_with_its_own_secret(): void
+    {
+        \Illuminate\Support\Facades\Http::fake(['https://gw.example/*' => \Illuminate\Support\Facades\Http::response(['ok' => true], 200)]);
+        $h = $this->unit('HG');
+        $this->flock($h, 1000);
+        $t = $this->device($h, 'temperature', '°C', ['code' => 'HG-T1']);
+        $fan = $this->device($h, 'fan', '', ['code' => 'HG-FAN', 'kind' => 'controller', 'controllable' => true, 'commands_need_approval' => false, 'allowed_commands' => [['command' => 'fan_on']]]);
+        $gw = $this->device($h, 'gateway', '', ['code' => 'HG-GW', 'kind' => 'gateway', 'endpoint_url' => 'https://gw.example/commands']);
+        $secret = $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Gateways::class)->issueSecret($gw));
+        $this->assertNotSame($secret, $gw->fresh()->secret_hash);
+
+        $body = ['readings' => [['device' => 'HG-T1', 'message_id' => 'g-1', 'value' => 24.5, 'measured_at' => now()->subMinute()->toIso8601String()],
+            ['device' => 'HG-T1', 'message_id' => 'g-1', 'value' => 24.5, 'measured_at' => now()->subMinute()->toIso8601String()],
+            ['device' => 'SOMEONE-ELSE', 'message_id' => 'x', 'value' => 1, 'measured_at' => now()->toIso8601String()]]];
+        $this->postJson("/api/production/gateways/{$gw->uuid}/readings", $body, ['Authorization' => 'Bearer wrong'])->assertStatus(401);
+        $r = $this->postJson("/api/production/gateways/{$gw->uuid}/readings", $body, ['Authorization' => "Bearer {$secret}"])->assertOk()->json();
+        $this->assertSame([1, 1], [$r['stored'], $r['duplicates']]);
+        $this->assertSame('SOMEONE-ELSE', $r['refused'][0]['device']);
+        $this->assertEqualsWithDelta(24.5, $t->fresh()->last_value, 0.001);
+
+        // A command is pushed to the gateway's endpoint, listed for collection, and confirmed by the gateway's report.
+        $c = $this->as(fn () => app(Commands::class)->request($fan->fresh(), 'fan_on', [], $this->responder, 'Hot'), $this->responder);
+        $this->assertSame('sent', $c->status);
+        \Illuminate\Support\Facades\Http::assertSent(fn ($req) => $req->url() === 'https://gw.example/commands' && $req['command'] === 'fan_on');
+        $this->assertStringContainsString('Delivered', collect($c->history)->last()['note']);
+        $out = $this->getJson("/api/production/gateways/{$gw->uuid}/commands", ['Authorization' => "Bearer {$secret}"])->assertOk()->json('commands');
+        $this->assertSame([['HG-FAN', 'fan_on']], array_map(fn ($x) => [$x['device'], $x['command']], $out));
+        $this->postJson("/api/production/gateways/{$gw->uuid}/commands/{$c->uuid}", ['state' => 'executed', 'detail' => 'Fans on'], ['Authorization' => "Bearer {$secret}"])
+            ->assertOk()->assertJson(['status' => 'executed']);
+        $this->assertSame([], $this->getJson("/api/production/gateways/{$gw->uuid}/commands", ['Authorization' => "Bearer {$secret}"])->json('commands'));
+    }
+
+    public function test_registered_sources_are_fetched_from_cap_rss_and_json_feeds_and_a_failure_is_retried(): void
+    {
+        $this->flock($this->unit('HC'));
+        $cap = <<<'XML'
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>SAWS-2026-1021-FS-01</identifier><sender>saws</sender><sent>2026-10-21T06:00:00+02:00</sent><status>Actual</status><msgType>Alert</msgType><scope>Public</scope>
+  <info><category>Met</category><event>Heat Wave</event><urgency>Expected</urgency><severity>Severe</severity><certainty>Likely</certainty>
+    <headline>Heatwave over Thabo Mofutsanyana</headline><description>Very hot conditions of 36 to 38 C.</description>
+    <area><areaDesc>Bethlehem</areaDesc><circle>-28.25,28.30 40</circle></area></info>
+</alert>
+XML;
+        $json = ['data' => ['items' => [['id' => 'OB-77', 'disease' => 'Newcastle disease', 'species' => 'poultry', 'status' => 'confirmed', 'lat' => -28.30, 'lng' => 28.35, 'radius' => 10]]]];
+        $rss = '<?xml version="1.0"?><rss version="2.0"><channel><title>Calls</title><item><guid>LB-1</guid><title>Land Bank emerging farmer facility</title><link>https://landbank.example/lb-1</link><description>Loans for poultry houses.</description></item></channel></rss>';
+        \Illuminate\Support\Facades\Http::fake(['https://saws.example/*' => \Illuminate\Support\Facades\Http::response($cap), 'https://vet.example/*' => \Illuminate\Support\Facades\Http::response($json),
+            'https://lb.example/*' => \Illuminate\Support\Facades\Http::response($rss), 'https://down.example/*' => \Illuminate\Support\Facades\Http::response('', 503)]);
+        $make = fn ($code, $kind, $adapter, $item, $url, $config = null) => $this->as(fn () => Source::create(['company_id' => $this->company->id, 'code' => $code, 'name' => $code, 'kind' => $kind,
+            'adapter' => $adapter, 'item_kind' => $item, 'url' => $url, 'config' => $config, 'refresh_minutes' => 30]));
+        $make('SAWS-CAP', 'weather', 'cap', 'warning', 'https://saws.example/cap.xml');
+        $make('VET-JSON', 'disease', 'json', 'outbreak', 'https://vet.example/outbreaks', ['list' => 'data.items', 'map' => ['external_id' => 'id', 'disease' => 'disease',
+            'species' => 'species', 'status' => 'status', 'latitude' => 'lat', 'longitude' => 'lng', 'radius_km' => 'radius']]);
+        $make('LB-RSS', 'government', 'rss', 'funding', 'https://lb.example/feed');
+        $make('DOWN', 'market', 'rss', 'price', 'https://down.example/feed');
+
+        $r = $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher::class)->fetchDue());
+        $this->assertTrue($r['SAWS-CAP']['ok'] && $r['VET-JSON']['ok'] && $r['LB-RSS']['ok']);
+        $this->assertFalse($r['DOWN']['ok']);
+        $w = WeatherWarning::withoutGlobalScopes()->where('farm_id', $this->farm->id)->sole();
+        $this->assertSame(['heat', 'severe'], [$w->kind, $w->severity]);
+        $this->assertSame('Newcastle disease', Outbreak::withoutGlobalScopes()->sole()->disease);
+        $this->assertSame(1, Exposure::withoutGlobalScopes()->count());
+        $this->assertSame('Land Bank emerging farmer facility', \App\Modules\Operations\Manufacturing\Models\Agriculture\Opportunity::withoutGlobalScopes()->sole()->title);
+        $down = Source::withoutGlobalScopes()->where('code', 'DOWN')->sole();
+        $this->assertSame(['failing', 1], [$down->status, $down->failure_count]);
+        $this->assertStringContainsString('503', $down->last_error);
+        // Fetched again: nothing doubles.
+        $this->travel(31)->minutes();
+        $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher::class)->fetchDue());
+        $this->assertSame([1, 1, 1], [WeatherWarning::withoutGlobalScopes()->count(), Outbreak::withoutGlobalScopes()->count(), \App\Modules\Operations\Manufacturing\Models\Agriculture\Opportunity::withoutGlobalScopes()->count()]);
+    }
+
+    public function test_forecasts_cover_head_count_eggs_yield_and_a_disease_risk_score_and_are_scored(): void
+    {
+        $broiler = $this->flock($this->unit('HX'), 10000);
+        $layer = $this->flock($this->unit('LX'), 6000, ['type' => 'LAYER']);
+        $svc = app(ProductionCycles::class);
+        $this->as(function () use ($svc, $broiler, $layer) {
+            foreach (range(6, 1) as $d) {
+                $svc->record($broiler, 'mortality', ['count' => 10, 'recorded_at' => now()->subDays($d)->setTime(8, 0)], $this->admin);
+                $svc->record($layer, 'eggs', ['quantity' => 5200 + $d * 10, 'recorded_at' => now()->subDays($d)->setTime(15, 0)], $this->admin);
+            }
+        });
+        $f = app(Forecasts::class);
+        $count = $this->as(fn () => $f->count($broiler->fresh(), today()->addDays(10)));
+        $this->assertSame(['head_count', 'mortality-run-rate'], [$count->metric, $count->model]);
+        $this->assertLessThan(9940, $count->predicted);
+        $eggs = $this->as(fn () => $f->output($layer->fresh(), today()->addDay()));
+        $this->assertEqualsWithDelta(5235, $eggs->predicted, 5);
+        $this->openBooks();
+        $crop = $this->cropCycle($this->planted('YF-1', 10));
+        $yield = $this->as(fn () => $f->yield($crop));
+        $this->assertSame(['harvest_qty', 'plan-adjusted'], [$yield->metric, $yield->model]);
+        $this->assertEqualsWithDelta(400.0, $yield->predicted, 0.5, '40 t/ha on 10 ha.');
+        $calm = $this->as(fn () => $f->diseaseRisk($broiler->fresh()));
+        $this->as(fn () => $svc->record($broiler->fresh(), 'mortality', ['count' => 150], $this->admin));
+        $this->as(fn () => app(Outbreaks::class)->report($this->source('V', 'disease'), ['external_id' => 'R1', 'disease' => 'HPAI', 'species' => 'poultry', 'status' => 'confirmed',
+            'latitude' => -28.23, 'longitude' => 28.31, 'radius_km' => 10]));
+        $risk = $this->as(fn () => $f->diseaseRisk($broiler->fresh()));
+        $this->assertGreaterThan($calm->predicted, $risk->predicted);
+        $this->assertSame('inside', $risk->inputs['exposure']);
+        // Next day: the head-count forecast for today is scored against the records.
+        $made = $this->as(fn () => $f->count($broiler->fresh(), today()));
+        $this->travel(1)->days();
+        $this->as(fn () => $f->resolveDue());
+        $this->assertSame((float) $broiler->fresh()->current_count, $made->fresh()->actual);
+        $this->assertGreaterThan(0, $this->as(fn () => $f->forecastAll($this->company->id)));
+    }
+
+    public function test_the_assistant_answers_from_the_records_and_never_operates_equipment(): void
+    {
+        $this->app->bind(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionAssistantAI::class, fn () => new class extends \App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionAssistantAI {
+            public function __construct() {}
+
+            public function answer(string $question, array $facts, bool $wantsAction): string
+            {
+                throw new \RuntimeException('down');
+            }
+        });
+        $h = $this->unit('HA');
+        $c = $this->flock($h, 3000);
+        $this->as(fn () => app(ProductionCycles::class)->record($c, 'mortality', ['count' => 30, 'reason' => 'Heat'], $this->admin));
+        $this->as(fn () => app(ProductionCycles::class)->record($c->fresh(), 'treatment', ['product_name' => 'Amoxicillin', 'withdrawal_days' => 5], $this->admin));
+        $this->as(fn () => app(Incidents::class)->raise($this->company->id, 'a:1', ['kind' => 'threshold', 'severity' => 'critical', 'title' => 'Temperature high in House HA', 'unit_id' => $h->id, 'farm_id' => $this->farm->id]));
+        $fan = $this->device($h, 'fan', '', ['kind' => 'controller', 'controllable' => true, 'allowed_commands' => [['command' => 'fan_on']]]);
+
+        $a = $this->actingAs($this->responder)->postJson('/manufacturing/intelligence/assistant', ['question' => 'Which cycles cannot be sold yet?'])->assertForbidden();
+        $a = $this->actingAs($this->prodManager)->postJson('/manufacturing/intelligence/assistant', ['question' => 'Which cycles cannot be sold yet?'])->assertOk()->json();
+        $this->assertSame('unavailable', $a['ai']);
+        $this->assertContains('holds', $a['topics']);
+        $this->assertStringContainsString($c->code, $a['answer']);
+        $this->assertStringContainsString('withdrawal', strtolower($a['answer']));
+        $b = $this->actingAs($this->prodManager)->postJson('/manufacturing/intelligence/assistant', ['question' => 'Turn on the fans in house HA'])->assertOk()->json();
+        $this->assertStringContainsString("can't operate equipment", $b['answer']);
+        $this->assertFalse($b['acts']);
+        $this->assertSame(0, Command::withoutGlobalScopes()->count());
+        $i = $this->actingAs($this->prodManager)->postJson('/manufacturing/intelligence/assistant', ['question' => 'What alarms are open?'])->assertOk()->json();
+        $this->assertStringContainsString('Temperature high in House HA', $i['answer']);
+    }
+
+    public function test_command_centre_changes_are_broadcast_on_the_organisations_private_channel(): void
+    {
+        \Illuminate\Support\Facades\Event::fake([\App\Modules\Operations\Manufacturing\Events\CommandCentreChanged::class]);
+        $this->as(fn () => app(Incidents::class)->raise($this->company->id, 'b:1', ['kind' => 'manual', 'severity' => 'warning', 'title' => 'Broadcast me']));
+        \Illuminate\Support\Facades\Event::assertDispatched(\App\Modules\Operations\Manufacturing\Events\CommandCentreChanged::class,
+            fn ($e) => $e->companyId === $this->company->id && $e->broadcastOn()->name === "private-command-centre.{$this->company->id}" && $e->what === 'incident.opened');
+        $channels = app(\Illuminate\Broadcasting\BroadcastManager::class)->driver();
+        $auth = (new \ReflectionProperty($channels, 'channels'))->getValue($channels)['command-centre.{companyId}'];
+        $this->assertTrue($auth($this->responder, $this->company->id));
+        $this->assertFalse($auth($this->responder, $this->company->id + 1));
+        $this->assertFalse($auth($this->worker, $this->company->id));
+    }
+
+    public function test_each_kind_of_production_has_its_own_panel(): void
+    {
+        $layer = $this->flock($this->unit('LP'), 5000, ['type' => 'LAYER']);
+        $this->as(fn () => app(ProductionCycles::class)->record($layer, 'eggs', ['quantity' => 4500, 'recorded_at' => now()->subHour()], $this->admin));
+        $panel = $this->as(fn () => app(Metrics::class)->panel($layer->fresh()));
+        $this->assertEqualsWithDelta(90.0, collect($panel['tiles'])->firstWhere('label', 'Hen-day lay')['value'], 0.01);
+        $pond = $this->unit('PP', 'pond', 'TILAPIA', ['area' => 1000, 'area_unit' => 'm2']);
+        $fish = $this->flock($pond, 4000, ['type' => 'TILAPIA']);
+        $this->as(fn () => app(ProductionCycles::class)->record($fish, 'weight', ['quantity' => 0.25, 'sample_size' => 30], $this->admin));
+        $this->device($pond, 'dissolved_oxygen', 'mg/l');
+        $panel = $this->as(fn () => app(Metrics::class)->panel($fish->fresh()));
+        $this->assertEqualsWithDelta(1000.0, collect($panel['tiles'])->firstWhere('label', 'Biomass')['value'], 0.01);
+        $this->assertEqualsWithDelta(1.0, collect($panel['tiles'])->firstWhere('label', 'Density')['value'], 0.001);
+        $this->assertSame(['dissolved_oxygen'], array_column($panel['sensors'], 'metric'));
+        $this->actingAs($this->admin)->get('/manufacturing/agriculture/cycles/'.$fish->uuid)->assertOk();
     }
 }

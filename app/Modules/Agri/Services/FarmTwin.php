@@ -46,7 +46,7 @@ class FarmTwin
                 'observations' => $o->count(), 'serious' => $o->whereIn('severity', ['high', 'critical'])->count(), 'irrigation_issues' => ($irr[$f->id] ?? collect())->count(),
                 'herds' => $herds->where('field_id', $f->id)->map(fn ($h) => "{$h->code} ({$h->currentHeadCount()})")->values()->all(),
                 'state' => $o->whereIn('severity', ['high', 'critical'])->isNotEmpty() || ($irr[$f->id] ?? collect())->isNotEmpty() ? 'attention' : ($p ? 'growing' : 'fallow'),
-                'link' => $p ? "/agri/crops/plans/{$p->uuid}" : null];
+                'link' => $p ? "/manufacturing/agriculture/crops/plans/{$p->uuid}" : null];
             $geom ? $features[] = ['geometry' => $geom, 'properties' => $props] : $unplaced[] = $props;
         }
         foreach (FarmLocation::query()->where('farm_id', $farm->id)->get() as $l) {

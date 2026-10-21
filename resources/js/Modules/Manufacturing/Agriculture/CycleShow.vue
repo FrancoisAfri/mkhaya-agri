@@ -8,6 +8,7 @@ import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import VueApexCharts from 'vue3-apexcharts'
 import PageErrors from '@/Modules/Agri/Components/PageErrors.vue'
+import ReadingChart from '../Command/ReadingChart.vue'
 import FormDialog, { type FormField } from '@/Modules/Agri/Components/FormDialog.vue'
 import { localDateTime } from '@/Modules/Agri/Components/agri'
 import { at, CATEGORY_ICON, human, money, num, statusColor } from './prd'
@@ -26,6 +27,10 @@ const props = defineProps<{
   forecasts: Array<Record<string, any>>
   moveTo: Array<{ value: string; title: string }>
   kinds: string[]
+  panel: { tiles: Array<{ label: string; value: number | null; unit: string | null; hint?: string | null }>; series: Array<{ name: string; unit: string; points: Array<{ x: string; y: number }> }>; sensors: Array<{ metric: string; title: string }> }
+  unitId: string | null
+  feedRations: Array<{ value: number; title: string }>
+  feedItems: Array<{ value: number; title: string }>
   can: { manage: boolean; record: boolean }
 }>()
 
@@ -38,7 +43,10 @@ const fieldsFor = (kind: string): FormField[] => {
   const common: Record<string, FormField[]> = {
     mortality: [{ key: 'count', label: 'How many died', type: 'number', required: true, cols: 6 }, { key: 'reason', label: 'Cause (if known)', cols: 12 }],
     cull: [{ key: 'count', label: 'How many culled', type: 'number', required: true, cols: 6 }, { key: 'reason', label: 'Why', cols: 12 }],
-    feed: [{ key: 'quantity', label: 'Feed (kg)', type: 'number', required: true, cols: 6 }, { key: 'cost', label: 'Cost', type: 'number', cols: 6 }],
+    feed: [{ key: 'quantity', label: 'Feed (kg)', type: 'number', required: true, cols: 6 },
+      { key: 'ration_id', label: 'Ration (drawn from the store)', type: 'select', items: props.feedRations, cols: 6 },
+      { key: 'stock_item_id', label: 'Or one feed item (drawn from the store)', type: 'select', items: props.feedItems, cols: 6, show: f => !f.ration_id },
+      { key: 'cost', label: 'Cost (only if not drawn from the store)', type: 'number', cols: 6, show: f => !f.ration_id && !f.stock_item_id }],
     water: [{ key: 'quantity', label: 'Water (litres)', type: 'number', required: true, cols: 6 }],
     weight: [{ key: 'quantity', label: 'Average weight (kg)', type: 'number', required: true, cols: 6 }, { key: 'sample_size', label: 'Weighed', type: 'number', cols: 3 },
       { key: 'uniformity_pct', label: 'Uniformity %', type: 'number', cols: 3 }],
@@ -64,6 +72,9 @@ const moving = ref(false)
 const closing = ref(false)
 const lift = ref<string | null>(null)
 const forecast = () => router.post(`/manufacturing/agriculture/cycles/${c.id}/forecast`, {}, { preserveScroll: true })
+const panelSeries = (sr: { name: string; points: Array<{ x: string; y: number }> }) => [{ name: sr.name, data: sr.points.map(p => ({ x: p.x, y: p.y })) }]
+const panelOptions = (unit: string) => ({ chart: { toolbar: { show: false }, animations: { enabled: false } }, dataLabels: { enabled: false }, stroke: { width: 2 },
+  xaxis: { type: 'category' }, yaxis: { title: { text: unit }, decimalsInFloat: 1 } })
 const mortalitySeries = computed(() => [{ name: 'Deaths', data: props.mortality.map(m => ({ x: m.date, y: m.deaths })) }])
 const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { enabled: false }, plotOptions: { bar: { columnWidth: '60%' } }, xaxis: { type: 'category' }, colors: ['#ea5455'] }
 </script>
@@ -110,6 +121,28 @@ const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { en
         <div v-if="c.output_quantity" class="text-caption">output {{ num(c.output_quantity) }} {{ definition.output_unit }}</div>
       </VCardText></VCard></VCol>
     </VRow>
+
+    <VCard v-if="panel.tiles.length || panel.series.length || panel.sensors.length" border class="mb-4">
+      <VCardTitle><VIcon :icon="CATEGORY_ICON[c.category] ?? 'tabler-leaf'" /> {{ human(c.category) }} panel</VCardTitle>
+      <VCardText>
+        <VRow v-if="panel.tiles.length" class="mb-2">
+          <VCol v-for="t in panel.tiles" :key="t.label" cols="6" md="3">
+            <div class="text-caption text-medium-emphasis">{{ t.label }}</div>
+            <div class="text-h6">{{ t.value === null ? '—' : num(t.value, 2) }} <span class="text-body-2">{{ t.value === null ? '' : t.unit }}</span></div>
+            <div v-if="t.hint" class="text-caption text-disabled">{{ t.hint }}</div>
+          </VCol>
+        </VRow>
+        <VRow>
+          <VCol v-for="sr in panel.series" :key="sr.name" cols="12" md="6">
+            <div class="text-subtitle-2">{{ sr.name }} <span class="text-medium-emphasis">({{ sr.unit }})</span></div>
+            <VueApexCharts type="line" height="180" :options="panelOptions(sr.unit)" :series="panelSeries(sr)" />
+          </VCol>
+          <VCol v-for="sn in panel.sensors" :key="sn.metric" cols="12" md="6">
+            <ReadingChart :unit="unitId" :metric="sn.metric" :title="sn.title" :height="180" />
+          </VCol>
+        </VRow>
+      </VCardText>
+    </VCard>
 
     <VRow>
       <VCol cols="12" lg="8">
@@ -168,13 +201,14 @@ const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { en
           <VCardText><VueApexCharts type="bar" height="180" :options="mortalityOptions" :series="mortalitySeries" /></VCardText>
         </VCard>
         <VCard border class="mb-4">
-          <VCardTitle class="d-flex align-center">Forecasts<VSpacer /><VBtn v-if="open && can.record && definition.category !== 'crop'" size="small" variant="tonal" @click="forecast">Forecast weight</VBtn></VCardTitle>
+          <VCardTitle class="d-flex align-center">Forecasts<VSpacer /><VBtn v-if="open && can.record" size="small" variant="tonal" @click="forecast">Update forecasts</VBtn></VCardTitle>
           <VList density="compact">
             <VListItem v-for="(f, k) in forecasts" :key="k">
-              <VListItemTitle>{{ human(f.metric) }} on {{ f.target_on }}: {{ num(f.predicted, 3) }} {{ f.unit }} <span class="text-caption">({{ num(f.lower, 3) }}–{{ num(f.upper, 3) }})</span></VListItemTitle>
+              <VListItemTitle v-if="f.metric === 'disease_risk'">Disease risk score: {{ num(f.predicted, 0) }} / 100 <span class="text-caption">(screening, not a diagnosis)</span></VListItemTitle>
+              <VListItemTitle v-else>{{ human(f.metric) }} on {{ f.target_on }}: {{ num(f.predicted, 3) }} {{ f.unit }} <span v-if="f.lower !== null" class="text-caption">({{ num(f.lower, 3) }}–{{ num(f.upper, 3) }})</span></VListItemTitle>
               <VListItemSubtitle>Forecast · {{ f.model }}<template v-if="f.actual !== null"> · actual {{ num(f.actual, 3) }}, off by {{ num(f.abs_pct_error, 1) }}%</template></VListItemSubtitle>
             </VListItem>
-            <VListItem v-if="!forecasts.length"><VListItemSubtitle>No forecasts yet. Three weighings are needed.</VListItemSubtitle></VListItem>
+            <VListItem v-if="!forecasts.length"><VListItemSubtitle>No forecasts yet: three weighings, three days of eggs or milk, or a crop plan are needed.</VListItemSubtitle></VListItem>
           </VList>
         </VCard>
         <VCard border class="mb-4">

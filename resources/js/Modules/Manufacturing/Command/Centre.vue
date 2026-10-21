@@ -27,10 +27,10 @@ type Snapshot = {
   brief: { brief: string | null; ai: string; at: string; agents: Record<string, string> } | null
 }
 
-const props = defineProps<{ snapshot: Snapshot; stream: string; can: { respond: boolean; command: boolean; approve: boolean; configure: boolean } }>()
+const props = defineProps<{ snapshot: Snapshot; stream: string; channel: string; can: { respond: boolean; command: boolean; approve: boolean; configure: boolean } }>()
 
 const snap = ref<Snapshot>(props.snapshot)
-const mode = ref<'live' | 'polling' | 'connecting'>('connecting')
+const mode = ref<'socket' | 'live' | 'polling' | 'connecting'>('connecting')
 let source: EventSource | null = null
 let poll: number | null = null
 
@@ -47,8 +47,38 @@ function startPolling() {
   if (poll) return
   poll = window.setInterval(() => router.reload({ only: ['snapshot'], onSuccess: p => { snap.value = (p.props as any).snapshot } }), 15000)
 }
-onMounted(connect)
-onBeforeUnmount(() => { source?.close(); if (poll) window.clearInterval(poll) })
+// WebSockets first: a change on the organisation's channel fetches a fresh snapshot (the socket
+// carries only "something changed", never farm data). Without Reverb, the event stream.
+let refreshTimer: number | null = null
+const refresh = () => {
+  if (refreshTimer) return
+  refreshTimer = window.setTimeout(() => {
+    refreshTimer = null
+    router.reload({ only: ['snapshot'], onSuccess: p => { snap.value = (p.props as any).snapshot } })
+  }, 400)
+}
+let socket: any = null
+onMounted(() => {
+  const echo = (window as any).Echo
+  if (echo && props.channel) {
+    try {
+      socket = echo.private(props.channel)
+      socket.listen('.changed', refresh)
+      mode.value = 'socket'
+      // Keep a slow poll as a safety net in case the socket silently drops.
+      poll = window.setInterval(refresh, 60000)
+
+      return
+    }
+    catch { socket = null }
+  }
+  connect()
+})
+onBeforeUnmount(() => {
+  source?.close()
+  if (poll) window.clearInterval(poll)
+  if (socket) (window as any).Echo?.leave(props.channel)
+})
 
 const severities = ['emergency', 'critical', 'warning', 'advisory', 'info']
 const selected = ref<{ unit: string; metric: string; title: string } | null>(null)
@@ -66,8 +96,8 @@ const ack = (id: string) => router.post(`/manufacturing/command/incidents/${id}`
       </div>
       <div class="d-flex align-center gap-2">
         <VChip v-if="snap.demo" color="info" label prepend-icon="tabler-flask">Demonstration data</VChip>
-        <VChip :color="mode === 'live' ? 'success' : 'warning'" label :prepend-icon="mode === 'live' ? 'tabler-broadcast' : 'tabler-refresh'">
-          {{ mode === 'live' ? 'Live' : mode === 'polling' ? 'Refreshing every 15 s' : 'Connecting…' }} · {{ at(snap.generated_at) }}
+        <VChip :color="['live', 'socket'].includes(mode) ? 'success' : 'warning'" label :prepend-icon="['live', 'socket'].includes(mode) ? 'tabler-broadcast' : 'tabler-refresh'">
+          {{ mode === 'socket' ? 'Live (WebSocket)' : mode === 'live' ? 'Live' : mode === 'polling' ? 'Refreshing every 15 s' : 'Connecting…' }} · {{ at(snap.generated_at) }}
         </VChip>
         <VBtn variant="tonal" prepend-icon="tabler-list" :href="'/manufacturing/command/incidents'">All incidents</VBtn>
       </div>

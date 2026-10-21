@@ -6,11 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Modules\Agri\Models\CropPlan;
 use App\Modules\Agri\Models\Farm;
 use App\Modules\Agri\Models\FarmField;
-use App\Modules\Agri\Models\FarmStore;
-use App\Modules\Agri\Models\PackhouseOperation;
-use App\Modules\Agri\Models\ProduceLot;
 use App\Modules\Agri\Services\FarmAccess;
-use App\Modules\Finance\Accounting\Models\FinStockItem;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Forecast;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\ProductionType;
@@ -20,7 +16,6 @@ use App\Modules\Operations\Manufacturing\Models\Agriculture\TypeVersion;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Unit;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\Forecasts;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\Metrics;
-use App\Modules\Operations\Manufacturing\Services\Agriculture\Processing;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionCycles;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionTypes;
 use Illuminate\Http\JsonResponse;
@@ -122,6 +117,12 @@ class AgricultureController extends Controller
             'moveTo' => $this->scoped(Unit::query(), $request)->where('farm_id', $c->farm_id)->whereKeyNot($c->unit_id ?? 0)->whereNotIn('status', ['retired'])
                 ->orderBy('code')->get(['uuid', 'code', 'name'])->map(fn ($u) => ['value' => $u->uuid, 'title' => "{$u->code} — {$u->name}"]),
             'kinds' => Record::KINDS,
+            'panel' => $this->metrics->panel($c),
+            'unitId' => $c->unit?->uuid,
+            // Feed drawn from the farm's store: its feed rations and the stock it can issue.
+            'feedRations' => \App\Modules\Agri\Models\FeedRation::query()->where('is_active', true)->orderBy('name')->get(['id', 'name'])->map(fn ($r) => ['value' => $r->id, 'title' => $r->name]),
+            'feedItems' => \App\Modules\Finance\Accounting\Models\FinStockItem::query()->where('is_active', true)->where(fn ($q) => $q->where('code', 'like', 'FEED%')->orWhere('name', 'ilike', '%feed%')
+                ->orWhere('name', 'ilike', '%mash%')->orWhere('name', 'ilike', '%pellet%'))->orderBy('name')->limit(200)->get(['id', 'name', 'uom'])->map(fn ($i) => ['value' => $i->id, 'title' => "{$i->name} ({$i->uom})"]),
             'can' => $this->can($request),
         ]);
     }
@@ -193,10 +194,10 @@ class AgricultureController extends Controller
         $this->authorize('record', Cycle::class);
         $c = $this->findCycle($request, $cycle);
         $on = $c->expected_end_on ?? today()->addWeek();
-        $f = $forecasts->weight($c, Carbon::parse($on));
+        \App\Modules\Operations\Manufacturing\Models\Agriculture\Forecast::query()->where('cycle_id', $c->id)->whereDate('made_at', today())->delete();
+        $n = $forecasts->forecastAll((int) $c->company_id);
 
-        return back()->with($f ? 'success' : 'error', $f ? sprintf('Forecast %.2f kg on %s (%.2f–%.2f).', $f->predicted, $f->target_on->toDateString(), $f->lower, $f->upper)
-            : 'At least three weighings are needed for a forecast.');
+        return back()->with($n ? 'success' : 'error', $n ? 'Forecasts updated for every running cycle.' : 'Not enough records yet for a forecast (three weighings, three days of eggs or milk, or a crop plan).');
     }
 
     public function lift(Request $request, string $restriction): RedirectResponse
@@ -232,7 +233,7 @@ class AgricultureController extends Controller
             try {
                 $c = $this->findCycle($request, $row['cycle_id']);
                 $this->cycles->record($c, $row['kind'], collect($row)->only(['client_id', 'recorded_at', 'quantity', 'unit', 'count', 'reason', 'grade', 'cost',
-                    'sample_size', 'uniformity_pct', 'product_name', 'withdrawal_days', 'dose', 'note'])->all(), $request->user(), 'offline');
+                    'sample_size', 'uniformity_pct', 'product_name', 'withdrawal_days', 'dose', 'note', 'stock_item_id', 'ration_id'])->all(), $request->user(), 'offline');
                 $created++;
             } catch (ValidationException $e) {
                 $errors[] = ['client_id' => $row['client_id'], 'errors' => $e->errors()];
@@ -327,64 +328,6 @@ class AgricultureController extends Controller
         return back()->with('success', "{$t->name} is now version {$t->version}; cycles already running keep the version they started on.");
     }
 
-    // ── Processing ───────────────────────────────────────────────────────────────────────────
-
-    public function processing(Request $request): Response
-    {
-        $this->authorize('process', Cycle::class);
-        $farms = $this->access->farmIdsFor($request->user());
-        $lots = ProduceLot::query()->whereIn('status', ['available', 'quarantined'])->when($farms !== null, fn ($q) => $q->whereIn('farm_id', $farms))
-            ->with('farm:id,name,code')->orderByDesc('produced_on')->limit(200)->get();
-
-        return Inertia::render('Modules/Manufacturing/Agriculture/Processing', [
-            'lots' => $lots->map(fn (ProduceLot $l) => ['id' => $l->uuid, 'code' => $l->code, 'product' => $l->product, 'grade' => $l->grade, 'kind' => $l->kind,
-                'remaining' => $l->remaining, 'unit' => $l->unit, 'status' => $l->status, 'farm' => $l->farm?->name, 'farm_id' => $l->farm?->uuid,
-                'produced_on' => $l->produced_on?->toDateString(), 'stocked' => (bool) $l->stock_lot_id])->values(),
-            'operations' => PackhouseOperation::query()->when($farms !== null, fn ($q) => $q->whereIn('farm_id', $farms))->latest('performed_on')->latest('id')->limit(50)->get()
-                ->map(fn (PackhouseOperation $o) => ['reference' => $o->reference, 'kind' => $o->kind, 'performed_on' => $o->performed_on?->toDateString(),
-                    'input' => $o->input_quantity, 'output' => $o->output_quantity, 'loss' => $o->loss_quantity, 'quality_passed' => $o->quality_passed,
-                    'output_value' => $o->output_value, 'production_order_id' => $o->production_order_id])->values(),
-            'batches' => $this->scoped(Cycle::query(), $request)->whereHas('type', fn ($q) => $q->where('category', 'processing'))->whereIn('status', [Cycle::ACTIVE, Cycle::PLANNED])
-                ->get(['uuid', 'code', 'name'])->map(fn ($c) => ['value' => $c->uuid, 'title' => "{$c->code} — {$c->name}"]),
-            'items' => FinStockItem::query()->where('is_active', true)->orderBy('code')->limit(500)->get(['id', 'code', 'name', 'uom'])
-                ->map(fn ($i) => ['value' => $i->id, 'title' => "{$i->code} — {$i->name}", 'uom' => $i->uom]),
-            'stores' => FarmStore::query()->when($farms !== null, fn ($q) => $q->whereIn('farm_id', $farms))->get(['id', 'uuid', 'name', 'farm_id'])
-                ->map(fn ($s) => ['value' => $s->id, 'title' => $s->name, 'farm_id' => Farm::withoutGlobalScopes()->whereKey($s->farm_id)->value('uuid')]),
-            'kinds' => PackhouseOperation::KINDS,
-            'can' => ['process' => $request->user()->can('process', Cycle::class), 'release' => $request->user()->can(\App\Modules\Operations\Manufacturing\Support\RoleCatalog::DISPOSE)],
-        ]);
-    }
-
-    public function runProcessing(Request $request, Processing $processing): RedirectResponse
-    {
-        $this->authorize('process', Cycle::class);
-        $d = $request->validate(['farm_id' => ['required', 'uuid'], 'kind' => ['required', Rule::in(PackhouseOperation::KINDS)], 'batch_id' => ['nullable', 'uuid'],
-            'inputs' => ['required', 'array', 'min:1'], 'inputs.*.lot_id' => ['required', 'uuid'], 'inputs.*.quantity' => ['required', 'numeric', 'gt:0'],
-            'outputs' => ['required', 'array', 'min:1'], 'outputs.*.product' => ['required', 'string', 'max:120'], 'outputs.*.grade' => ['nullable', 'string', 'max:40'],
-            'outputs.*.quantity' => ['required', 'numeric', 'gt:0'], 'outputs.*.unit' => ['required', 'string', 'max:12'], 'outputs.*.stock_item_id' => ['nullable', 'integer'],
-            'outputs.*.store_id' => ['nullable', 'integer'], 'quality_checks' => ['nullable', 'array'], 'loss_reason' => ['nullable', 'string', 'max:255']]);
-        $farm = $this->reachableFarm($request, $d['farm_id']);
-        $inputs = collect($d['inputs'])->map(fn ($i) => ['lot' => ProduceLot::query()->where('farm_id', $farm->id)->where('uuid', $i['lot_id'])->firstOrFail(), 'quantity' => (float) $i['quantity']])->all();
-        $batch = ! empty($d['batch_id']) ? $this->findCycle($request, $d['batch_id']) : null;
-        $checks = collect($d['quality_checks'] ?? [])->filter(fn ($c) => ! empty($c['check']))->map(fn ($c) => ['check' => $c['check'], 'value' => $c['value'] ?? null,
-            'ok' => filter_var($c['ok'] ?? true, FILTER_VALIDATE_BOOL), 'note' => $c['note'] ?? null])->values()->all();
-        $op = $processing->run($farm, $d['kind'], $inputs, $d['outputs'], [], ['quality_checks' => $checks, 'loss_reason' => $d['loss_reason'] ?? null], $request->user(), $batch);
-
-        return back()->with($op->quality_passed ? 'success' : 'warning', $op->quality_passed ? "{$op->reference} recorded." : "{$op->reference} recorded; a check failed, so what was made is held.");
-    }
-
-    public function release(Request $request, string $lot, Processing $processing): RedirectResponse
-    {
-        $this->authorize('process', Cycle::class);
-        $d = $request->validate(['note' => ['required', 'string', 'max:500'], 'checks' => ['required', 'array', 'min:1'], 'checks.*.check' => ['required', 'string'],
-            'checks.*.value' => ['nullable'], 'checks.*.ok' => ['required', 'boolean']]);
-        $farms = $this->access->farmIdsFor($request->user());
-        $l = ProduceLot::query()->where('uuid', $lot)->when($farms !== null, fn ($q) => $q->whereIn('farm_id', $farms))->firstOrFail();
-        $processing->release($l, $d['checks'], $request->user(), $d['note']);
-
-        return back()->with('success', "Lot {$l->code} released.");
-    }
-
     // ── helpers ──────────────────────────────────────────────────────────────────────────────
 
     private function recordRules(Request $request): array
@@ -394,7 +337,8 @@ class AgricultureController extends Controller
             'cost' => ['nullable', 'numeric', 'min:0'], 'sample_size' => ['nullable', 'integer', 'min:1'], 'uniformity_pct' => ['nullable', 'numeric', 'between:0,100'],
             'product_name' => ['nullable', 'string', 'max:120'], 'withdrawal_days' => ['nullable', 'integer', 'min:0', 'max:365'], 'dose' => ['nullable', 'string', 'max:60'],
             'destination' => ['nullable', Rule::in(['store', 'sold', 'loss'])], 'stock_item_id' => ['nullable', 'integer'], 'store_id' => ['nullable', 'string'],
-            'unit_value' => ['nullable', 'numeric', 'min:0'], 'client_id' => ['nullable', 'string', 'max:80'], 'note' => ['nullable', 'string', 'max:500']]);
+            'unit_value' => ['nullable', 'numeric', 'min:0'], 'client_id' => ['nullable', 'string', 'max:80'], 'note' => ['nullable', 'string', 'max:500'],
+            'ration_id' => ['nullable', 'integer']]);
     }
 
     private function recordData(Request $request, array $d): array

@@ -7,7 +7,7 @@ class Source extends ProductionModel
 {
     protected $table = 'prd_sources';
 
-    protected $casts = ['last_attempt_at' => 'datetime', 'last_success_at' => 'datetime', 'next_attempt_at' => 'datetime'];
+    protected $casts = ['last_attempt_at' => 'datetime', 'last_success_at' => 'datetime', 'next_attempt_at' => 'datetime', 'config' => 'array'];
 
     /** Whether the last good fetch is older than twice the refresh interval. */
     public function isStale(?\Carbon\CarbonInterface $now = null): bool

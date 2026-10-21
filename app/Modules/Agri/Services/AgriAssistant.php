@@ -162,7 +162,7 @@ class AgriAssistant
         $plans = CropPlan::query()->whereIn('status', CropPlan::LIVE)->with(['cropType', 'field', 'farm', 'season'])->orderBy('planned_harvest_on')->get();
         $rows = $plans->map(fn (CropPlan $p) => ['farm' => $p->farm->name, 'plan' => $p->code, 'crop' => $p->cropType?->name,
             'field' => $p->field?->code, 'hectares' => round($p->hectares(), 2), 'status' => $p->status,
-            'harvest_planned' => $p->planned_harvest_on?->toDateString(), 'url' => "/agri/crops/plans/{$p->uuid}"])->all();
+            'harvest_planned' => $p->planned_harvest_on?->toDateString(), 'url' => "/manufacturing/agriculture/crops/plans/{$p->uuid}"])->all();
         $late = $plans->where('status', CropPlan::PLANTED)->filter(fn ($p) => $p->planned_harvest_on->lt(today()))->count();
         $byStatus = $plans->countBy('status')->map(fn ($n, $s) => "{$n} {$s}")->implode(', ');
         $ha = round($plans->sum(fn ($p) => $p->hectares()), 2);
@@ -182,7 +182,7 @@ class AgriAssistant
 
             return ['farm' => $p->farm->name, 'plan' => $p->code, 'crop' => $p->cropType?->name, 'field' => $p->field?->code,
                 'per_ha' => $y['per_ha'], 'expected_per_ha' => $y['expected_per_ha'], 'unit' => $y['unit'].'/ha',
-                'variance_pct' => $y['variance_pct'], 'url' => "/agri/crops/plans/{$p->uuid}"];
+                'variance_pct' => $y['variance_pct'], 'url' => "/manufacturing/agriculture/crops/plans/{$p->uuid}"];
         })->sortBy('variance_pct')->values();
         $noTarget = $rows->whereNull('expected_per_ha')->count();
         $worst = $rows->whereNotNull('variance_pct')->first();
@@ -201,7 +201,7 @@ class AgriAssistant
     {
         $groups = LivestockGroup::query()->where('status', LivestockGroup::ACTIVE)->with(['species', 'farm'])->get();
         $rows = $groups->map(fn (LivestockGroup $g) => ['farm' => $g->farm->name, 'group' => $g->code, 'name' => $g->name,
-            'species' => $g->species?->name, 'head' => $g->currentHeadCount(), 'url' => "/agri/livestock/groups/{$g->uuid}"])->all();
+            'species' => $g->species?->name, 'head' => $g->currentHeadCount(), 'url' => "/manufacturing/agriculture/livestock/groups/{$g->uuid}"])->all();
         $loose = Animal::query()->where('status', Animal::ACTIVE)->whereNull('group_id')->count();
         $total = array_sum(array_column($rows, 'head')) + $loose;
         $bySpecies = collect($rows)->groupBy('species')->map(fn ($g, $s) => $g->sum('head').' '.$s)->implode(', ');
@@ -326,7 +326,7 @@ class AgriAssistant
                 return ['farm' => $p->farm->name, 'plan' => $p->code, 'crop' => $p->cropType?->name, 'field' => $p->field?->code, 'target' => round($target, 1),
                     'forecast' => round((float) $f->quantity, 1), 'unit' => $p->yield_unit, 'vs_target_pct' => $gap,
                     'range' => $f->low !== null && $f->high !== null ? round((float) $f->low, 1).'–'.round((float) $f->high, 1) : null, 'method' => $f->method,
-                    'forecast_on' => $f->made_on?->toDateString() ?? $f->created_at?->toDateString(), 'url' => "/agri/crops/plans/{$p->uuid}"];
+                    'forecast_on' => $f->made_on?->toDateString() ?? $f->created_at?->toDateString(), 'url' => "/manufacturing/agriculture/crops/plans/{$p->uuid}"];
             })->filter()->sortBy('vs_target_pct')->values();
         $below = $rows->where('vs_target_pct', '<', 0);
         $none = CropPlan::query()->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->count() - $rows->count();
@@ -362,7 +362,7 @@ class AgriAssistant
 
             return ['farm' => $p->farm->name, 'plan' => $p->code, 'crop' => $p->cropType?->name, 'left' => round($left, 1), 'unit' => $p->yield_unit,
                 'cost_per_unit_so_far' => $rate !== null ? round($rate, 2) : null, 'estimate' => $rate !== null ? round($rate * $left, 2) : null,
-                'url' => "/agri/crops/plans/{$p->uuid}"];
+                'url' => "/manufacturing/agriculture/crops/plans/{$p->uuid}"];
         })->filter()->values();
         $priced = $rows->whereNotNull('estimate');
 

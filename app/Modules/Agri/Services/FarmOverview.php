@@ -39,7 +39,7 @@ class FarmOverview
                     ->where('work_date', '>=', $today->copy()->startOfMonth())->sum('amount'), 0, '.', ' ')],
                 ['label' => 'Handoffs not sent', 'value' => T\PayrollHandoff::query()->where('status', 'prepared')->count()],
             ]],
-            'packhouse' => [R::VIEW_STOCK, 'Packhouse & cold stores', 'package', '/agri/packhouse', fn () => [
+            'packhouse' => [R::VIEW_STOCK, 'Packhouse & cold stores', 'package', '/manufacturing/agriculture/packhouse', fn () => [
                 ['label' => 'Lots in store', 'value' => ProduceLot::query()->where('status', 'available')->where('remaining', '>', 0)->count()],
                 ['label' => 'Held in quarantine', 'value' => $n = ProduceLot::query()->where('status', 'quarantined')->where('remaining', '>', 0)->count(), 'tone' => $n ? 'warning' : null],
                 ['label' => 'Runs this month', 'value' => \App\Modules\Agri\Models\PackhouseOperation::query()->where('performed_on', '>=', $today->copy()->startOfMonth())->count()],

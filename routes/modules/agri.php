@@ -78,79 +78,14 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::patch('/settings/{kind}/{uuid}', [AgriSettingsController::class, 'update'])->name('settings.update');
 
         // ── Module B: crops ──────────────────────────────────────────────────────────────────
-        Route::get('/crops', [CropController::class, 'index'])->name('crops.index');
-        Route::post('/crops/plans', [CropController::class, 'storePlan'])->name('crops.plans.store');
-        Route::get('/crops/plans/{plan}', [CropController::class, 'show'])->name('crops.plans.show');
-        Route::patch('/crops/plans/{plan}', [CropController::class, 'updatePlan'])->name('crops.plans.update');
-        Route::post('/crops/plans/{plan}/transition', [CropController::class, 'transition'])->name('crops.plans.transition');
-        Route::post('/crops/plans/{plan}/harvests', [CropController::class, 'storeHarvest'])->name('crops.harvests.store');
-        Route::post('/crops/activities', [CropController::class, 'storeActivity'])->name('crops.activities.store');
-        Route::post('/crops/activities/{activity}/status', [CropController::class, 'activityStatus'])->name('crops.activities.status');
-        Route::post('/crops/activities/{activity}/inputs', [CropController::class, 'storeInput'])->name('crops.inputs.store');
-        Route::delete('/crops/activities/{activity}/inputs/{input}', [CropController::class, 'destroyInput'])->name('crops.inputs.destroy');
-        Route::post('/crops/observations', [CropController::class, 'storeObservation'])->name('crops.observations.store');
-        Route::patch('/crops/observations/{observation}', [CropController::class, 'updateObservation'])->name('crops.observations.update');
 
         // Phase 2 §3: precision crop and production management.
-        Route::get('/crops/intelligence', [PrecisionCropController::class, 'index'])->name('crops.precision.home');
-        Route::get('/crops/intelligence/{tab}', [PrecisionCropController::class, 'index'])->whereIn('tab', PrecisionCropController::TABS)->name('crops.precision');
-        Route::post('/crops/plans/{plan}/stages', [PrecisionCropController::class, 'stage'])->name('crops.stages.store');
-        Route::get('/crops/rotation', [PrecisionCropController::class, 'rotation'])->name('crops.rotation');
         Route::post('/fields/{field}/split', [PrecisionCropController::class, 'split'])->name('fields.split');
         Route::post('/fields/{field}/soil-tests', [PrecisionCropController::class, 'soilTest'])->name('fields.soil-tests.store');
         Route::get('/soil-tests/{test}/report', [PrecisionCropController::class, 'soilReport'])->name('soil-tests.report');
-        Route::post('/crops/input-templates', [PrecisionCropController::class, 'saveTemplate'])->name('crops.templates.store');
-        Route::patch('/crops/input-templates/{template}', [PrecisionCropController::class, 'saveTemplate'])->name('crops.templates.update');
-        Route::post('/crops/input-templates/{template}/approve', [PrecisionCropController::class, 'approveTemplate'])->name('crops.templates.approve');
-        Route::post('/crops/input-templates/{template}/retire', [PrecisionCropController::class, 'retireTemplate'])->name('crops.templates.retire');
-        Route::post('/crops/inputs/{input}/correct', [PrecisionCropController::class, 'correctInput'])->name('crops.inputs.correct');
-        Route::post('/crops/scouting', [PrecisionCropController::class, 'observe'])->name('crops.scouting.store');
-        Route::get('/crops/scouting/photos/{photo}', [PrecisionCropController::class, 'photo'])->name('crops.scouting.photo');
-        Route::post('/crops/scouting/{observation}/suggest', [PrecisionCropController::class, 'suggest'])->name('crops.scouting.suggest');
-        Route::post('/crops/scouting/{observation}/review', [PrecisionCropController::class, 'review'])->name('crops.scouting.review');
-        Route::post('/crops/scouting/{observation}/treatment', [PrecisionCropController::class, 'treat'])->name('crops.scouting.treat');
-        Route::post('/crops/scouting/{observation}/close', [PrecisionCropController::class, 'closeObservation'])->name('crops.scouting.close');
-        Route::post('/crops/scouting-thresholds', [PrecisionCropController::class, 'saveThreshold'])->name('crops.thresholds.store');
-        Route::patch('/crops/scouting-thresholds/{threshold}', [PrecisionCropController::class, 'saveThreshold'])->name('crops.thresholds.update');
-        Route::post('/crops/irrigation/zones', [PrecisionCropController::class, 'saveZone'])->name('crops.zones.store');
-        Route::patch('/crops/irrigation/zones/{zone}', [PrecisionCropController::class, 'saveZone'])->name('crops.zones.update');
-        Route::post('/crops/irrigation/events', [PrecisionCropController::class, 'planIrrigation'])->name('crops.irrigation.store');
-        Route::post('/crops/irrigation/events/{event}', [PrecisionCropController::class, 'recordIrrigation'])->name('crops.irrigation.record');
-        Route::post('/crops/irrigation/moisture', [PrecisionCropController::class, 'moisture'])->name('crops.moisture.store');
-        Route::post('/crops/irrigation/problems', [PrecisionCropController::class, 'irrigationProblem'])->name('crops.irrigation-problems.store');
-        Route::post('/crops/irrigation/problems/{exception}/resolve', [PrecisionCropController::class, 'resolveIrrigationProblem'])->name('crops.irrigation-problems.resolve');
-        Route::post('/crops/plans/{plan}/forecasts', [PrecisionCropController::class, 'forecast'])->name('crops.forecasts.store');
-        Route::post('/crops/commitments', [PrecisionCropController::class, 'commit'])->name('crops.commitments.store');
-        Route::post('/crops/commitments/{commitment}/deliver', [PrecisionCropController::class, 'deliver'])->name('crops.commitments.deliver');
-        Route::post('/crops/overheads', [PrecisionCropController::class, 'saveOverhead'])->name('crops.overheads.store');
-        Route::patch('/crops/overheads/{rule}', [PrecisionCropController::class, 'saveOverhead'])->name('crops.overheads.update');
 
         // ── Module C: livestock ──────────────────────────────────────────────────────────────
-        Route::get('/livestock', [LivestockController::class, 'index'])->name('livestock.index');
-        Route::post('/livestock/groups', [LivestockController::class, 'storeGroup'])->name('livestock.groups.store');
-        Route::get('/livestock/groups/{group}', [LivestockController::class, 'showGroup'])->name('livestock.groups.show');
-        Route::patch('/livestock/groups/{group}', [LivestockController::class, 'updateGroup'])->name('livestock.groups.update');
-        Route::post('/livestock/groups/{group}/count', [LivestockController::class, 'countChange'])->name('livestock.groups.count');
-        Route::post('/livestock/animals', [LivestockController::class, 'storeAnimal'])->name('livestock.animals.store');
-        Route::get('/livestock/animals/{animal}', [LivestockController::class, 'showAnimal'])->name('livestock.animals.show');
-        Route::patch('/livestock/animals/{animal}', [LivestockController::class, 'updateAnimal'])->name('livestock.animals.update');
-        Route::post('/livestock/animals/{animal}/move', [LivestockController::class, 'move'])->name('livestock.animals.move');
-        Route::post('/livestock/animals/{animal}/exit', [LivestockController::class, 'exit'])->name('livestock.animals.exit');
-        Route::post('/livestock/animals/{animal}/events', [LivestockController::class, 'event'])->name('livestock.animals.events');
-        Route::post('/livestock/health', [LivestockController::class, 'treat'])->name('livestock.health.store');
-        Route::post('/livestock/weights', [LivestockController::class, 'weigh'])->name('livestock.weights.store');
         // Phase 2 §4
-        Route::post('/livestock/animals/{animal}/breeding', [LivestockController::class, 'breeding'])->name('livestock.animals.breeding');
-        Route::post('/livestock/animals/{animal}/birth', [LivestockController::class, 'birth'])->name('livestock.animals.birth');
-        Route::post('/livestock/animals/{animal}/wean', [LivestockController::class, 'wean'])->name('livestock.animals.wean');
-        Route::post('/livestock/production', [LivestockController::class, 'produce'])->name('livestock.production.store');
-        Route::post('/livestock/production/{lot}', [LivestockController::class, 'production'])->name('livestock.production.update');
-        Route::post('/livestock/feedings', [LivestockController::class, 'feed'])->name('livestock.feedings.store');
-        Route::post('/livestock/rations', [LivestockController::class, 'saveRation'])->name('livestock.rations.store');
-        Route::patch('/livestock/rations/{ration}', [LivestockController::class, 'saveRation'])->name('livestock.rations.update');
-        Route::post('/livestock/programmes', [LivestockController::class, 'saveProgramme'])->name('livestock.programmes.store');
-        Route::patch('/livestock/programmes/{programme}', [LivestockController::class, 'saveProgramme'])->name('livestock.programmes.update');
-        Route::post('/livestock/health/{record}/clear', [LivestockController::class, 'clear'])->name('livestock.health.clear');
 
         // ── Module D: farm stores ────────────────────────────────────────────────────────────
         Route::get('/stock', [FarmStockController::class, 'index'])->name('stock.index');
@@ -267,22 +202,6 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/sales/requests', [SalesController::class, 'storeRequest'])->name('sales.requests.store');
 
         // Phase 2 §8: post-harvest — lots, packhouse, storage, dispatch, traceability, recalls.
-        Route::get('/packhouse', [PackhouseController::class, 'index'])->name('packhouse.home');
-        Route::get('/packhouse/{tab}', [PackhouseController::class, 'index'])->whereIn('tab', PackhouseController::TABS)->name('packhouse');
-        Route::post('/packhouse/operations', [PackhouseController::class, 'operate'])->name('packhouse.operations.store');
-        Route::post('/packhouse/standards', [PackhouseController::class, 'saveStandard'])->name('packhouse.standards.store');
-        Route::post('/packhouse/standards/{standard}', [PackhouseController::class, 'saveStandard'])->name('packhouse.standards.update');
-        Route::post('/packhouse/lots/{lot}/move', [PackhouseController::class, 'moveLot'])->name('packhouse.lots.move');
-        Route::get('/packhouse/lots/{lot}/trace', [PackhouseController::class, 'trace'])->name('packhouse.lots.trace');
-        Route::post('/packhouse/lots/{lot}/recall', [PackhouseController::class, 'recall'])->name('packhouse.lots.recall');
-        Route::post('/packhouse/lots/{lot}/write-off', [PackhouseController::class, 'writeOff'])->name('packhouse.lots.write-off');
-        Route::post('/packhouse/stores/{store}/range', [PackhouseController::class, 'storeRange'])->name('packhouse.stores.range');
-        Route::post('/packhouse/stores/{store}/readings', [PackhouseController::class, 'reading'])->name('packhouse.stores.readings');
-        Route::post('/packhouse/readings/{reading}/correct', [PackhouseController::class, 'correct'])->name('packhouse.readings.correct');
-        Route::post('/packhouse/orders/{order}/pick', [PackhouseController::class, 'pick'])->whereUuid('order')->name('packhouse.orders.pick');
-        Route::post('/packhouse/dispatches/{dispatch}/verify', [PackhouseController::class, 'verify'])->whereUuid('dispatch')->name('packhouse.dispatches.verify');
-        Route::post('/packhouse/dispatches/{dispatch}/dispatch', [PackhouseController::class, 'dispatch'])->whereUuid('dispatch')->name('packhouse.dispatches.dispatch');
-        Route::post('/packhouse/dispatches/{dispatch}/deliver', [PackhouseController::class, 'deliver'])->whereUuid('dispatch')->name('packhouse.dispatches.deliver');
 
         // Phase 2 §7: bookings, pre-start checks, faults and repairs, warranty, documents, fuel and trips, risk.
         Route::get('/machinery/fleet', [MachineFleetController::class, 'index'])->name('machinery.fleet.home');
@@ -347,3 +266,100 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/assistant/references/{reference}', [AgriAssistantController::class, 'saveReference'])->name('assistant.references.update');
         Route::post('/assistant/references/{reference}/approve', [AgriAssistantController::class, 'approveReference'])->name('assistant.references.approve');
     });
+
+/*
+| Crops, livestock and the packhouse are production, so they live in Manufacturing & Production
+| (/manufacturing/agriculture/...), beside the production cycles, Command Centre and intelligence.
+| They stay the farm's registers — same farm permissions, same farm access, same route names — and
+| Farm Operations' hubs keep shortcuts to them. Each is in one place only; the old /agri/ addresses
+| redirect.
+*/
+Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\Http\Middleware\FarmTimeInput::class])
+    ->prefix('manufacturing/agriculture')->name('agri.')
+    ->group(function () {
+        Route::get('/crops', [CropController::class, 'index'])->name('crops.index');
+        Route::post('/crops/plans', [CropController::class, 'storePlan'])->name('crops.plans.store');
+        Route::get('/crops/plans/{plan}', [CropController::class, 'show'])->name('crops.plans.show');
+        Route::patch('/crops/plans/{plan}', [CropController::class, 'updatePlan'])->name('crops.plans.update');
+        Route::post('/crops/plans/{plan}/transition', [CropController::class, 'transition'])->name('crops.plans.transition');
+        Route::post('/crops/plans/{plan}/harvests', [CropController::class, 'storeHarvest'])->name('crops.harvests.store');
+        Route::post('/crops/activities', [CropController::class, 'storeActivity'])->name('crops.activities.store');
+        Route::post('/crops/activities/{activity}/status', [CropController::class, 'activityStatus'])->name('crops.activities.status');
+        Route::post('/crops/activities/{activity}/inputs', [CropController::class, 'storeInput'])->name('crops.inputs.store');
+        Route::delete('/crops/activities/{activity}/inputs/{input}', [CropController::class, 'destroyInput'])->name('crops.inputs.destroy');
+        Route::post('/crops/observations', [CropController::class, 'storeObservation'])->name('crops.observations.store');
+        Route::patch('/crops/observations/{observation}', [CropController::class, 'updateObservation'])->name('crops.observations.update');
+        Route::get('/crops/intelligence', [PrecisionCropController::class, 'index'])->name('crops.precision.home');
+        Route::get('/crops/intelligence/{tab}', [PrecisionCropController::class, 'index'])->whereIn('tab', PrecisionCropController::TABS)->name('crops.precision');
+        Route::post('/crops/plans/{plan}/stages', [PrecisionCropController::class, 'stage'])->name('crops.stages.store');
+        Route::get('/crops/rotation', [PrecisionCropController::class, 'rotation'])->name('crops.rotation');
+        Route::post('/crops/input-templates', [PrecisionCropController::class, 'saveTemplate'])->name('crops.templates.store');
+        Route::patch('/crops/input-templates/{template}', [PrecisionCropController::class, 'saveTemplate'])->name('crops.templates.update');
+        Route::post('/crops/input-templates/{template}/approve', [PrecisionCropController::class, 'approveTemplate'])->name('crops.templates.approve');
+        Route::post('/crops/input-templates/{template}/retire', [PrecisionCropController::class, 'retireTemplate'])->name('crops.templates.retire');
+        Route::post('/crops/inputs/{input}/correct', [PrecisionCropController::class, 'correctInput'])->name('crops.inputs.correct');
+        Route::post('/crops/scouting', [PrecisionCropController::class, 'observe'])->name('crops.scouting.store');
+        Route::get('/crops/scouting/photos/{photo}', [PrecisionCropController::class, 'photo'])->name('crops.scouting.photo');
+        Route::post('/crops/scouting/{observation}/suggest', [PrecisionCropController::class, 'suggest'])->name('crops.scouting.suggest');
+        Route::post('/crops/scouting/{observation}/review', [PrecisionCropController::class, 'review'])->name('crops.scouting.review');
+        Route::post('/crops/scouting/{observation}/treatment', [PrecisionCropController::class, 'treat'])->name('crops.scouting.treat');
+        Route::post('/crops/scouting/{observation}/close', [PrecisionCropController::class, 'closeObservation'])->name('crops.scouting.close');
+        Route::post('/crops/scouting-thresholds', [PrecisionCropController::class, 'saveThreshold'])->name('crops.thresholds.store');
+        Route::patch('/crops/scouting-thresholds/{threshold}', [PrecisionCropController::class, 'saveThreshold'])->name('crops.thresholds.update');
+        Route::post('/crops/irrigation/zones', [PrecisionCropController::class, 'saveZone'])->name('crops.zones.store');
+        Route::patch('/crops/irrigation/zones/{zone}', [PrecisionCropController::class, 'saveZone'])->name('crops.zones.update');
+        Route::post('/crops/irrigation/events', [PrecisionCropController::class, 'planIrrigation'])->name('crops.irrigation.store');
+        Route::post('/crops/irrigation/events/{event}', [PrecisionCropController::class, 'recordIrrigation'])->name('crops.irrigation.record');
+        Route::post('/crops/irrigation/moisture', [PrecisionCropController::class, 'moisture'])->name('crops.moisture.store');
+        Route::post('/crops/irrigation/problems', [PrecisionCropController::class, 'irrigationProblem'])->name('crops.irrigation-problems.store');
+        Route::post('/crops/irrigation/problems/{exception}/resolve', [PrecisionCropController::class, 'resolveIrrigationProblem'])->name('crops.irrigation-problems.resolve');
+        Route::post('/crops/plans/{plan}/forecasts', [PrecisionCropController::class, 'forecast'])->name('crops.forecasts.store');
+        Route::post('/crops/commitments', [PrecisionCropController::class, 'commit'])->name('crops.commitments.store');
+        Route::post('/crops/commitments/{commitment}/deliver', [PrecisionCropController::class, 'deliver'])->name('crops.commitments.deliver');
+        Route::post('/crops/overheads', [PrecisionCropController::class, 'saveOverhead'])->name('crops.overheads.store');
+        Route::patch('/crops/overheads/{rule}', [PrecisionCropController::class, 'saveOverhead'])->name('crops.overheads.update');
+        Route::get('/livestock', [LivestockController::class, 'index'])->name('livestock.index');
+        Route::post('/livestock/groups', [LivestockController::class, 'storeGroup'])->name('livestock.groups.store');
+        Route::get('/livestock/groups/{group}', [LivestockController::class, 'showGroup'])->name('livestock.groups.show');
+        Route::patch('/livestock/groups/{group}', [LivestockController::class, 'updateGroup'])->name('livestock.groups.update');
+        Route::post('/livestock/groups/{group}/count', [LivestockController::class, 'countChange'])->name('livestock.groups.count');
+        Route::post('/livestock/animals', [LivestockController::class, 'storeAnimal'])->name('livestock.animals.store');
+        Route::get('/livestock/animals/{animal}', [LivestockController::class, 'showAnimal'])->name('livestock.animals.show');
+        Route::patch('/livestock/animals/{animal}', [LivestockController::class, 'updateAnimal'])->name('livestock.animals.update');
+        Route::post('/livestock/animals/{animal}/move', [LivestockController::class, 'move'])->name('livestock.animals.move');
+        Route::post('/livestock/animals/{animal}/exit', [LivestockController::class, 'exit'])->name('livestock.animals.exit');
+        Route::post('/livestock/animals/{animal}/events', [LivestockController::class, 'event'])->name('livestock.animals.events');
+        Route::post('/livestock/health', [LivestockController::class, 'treat'])->name('livestock.health.store');
+        Route::post('/livestock/weights', [LivestockController::class, 'weigh'])->name('livestock.weights.store');
+        Route::post('/livestock/animals/{animal}/breeding', [LivestockController::class, 'breeding'])->name('livestock.animals.breeding');
+        Route::post('/livestock/animals/{animal}/birth', [LivestockController::class, 'birth'])->name('livestock.animals.birth');
+        Route::post('/livestock/animals/{animal}/wean', [LivestockController::class, 'wean'])->name('livestock.animals.wean');
+        Route::post('/livestock/production', [LivestockController::class, 'produce'])->name('livestock.production.store');
+        Route::post('/livestock/production/{lot}', [LivestockController::class, 'production'])->name('livestock.production.update');
+        Route::post('/livestock/feedings', [LivestockController::class, 'feed'])->name('livestock.feedings.store');
+        Route::post('/livestock/rations', [LivestockController::class, 'saveRation'])->name('livestock.rations.store');
+        Route::patch('/livestock/rations/{ration}', [LivestockController::class, 'saveRation'])->name('livestock.rations.update');
+        Route::post('/livestock/programmes', [LivestockController::class, 'saveProgramme'])->name('livestock.programmes.store');
+        Route::patch('/livestock/programmes/{programme}', [LivestockController::class, 'saveProgramme'])->name('livestock.programmes.update');
+        Route::post('/livestock/health/{record}/clear', [LivestockController::class, 'clear'])->name('livestock.health.clear');
+        Route::get('/packhouse', [PackhouseController::class, 'index'])->name('packhouse.home');
+        Route::get('/packhouse/{tab}', [PackhouseController::class, 'index'])->whereIn('tab', PackhouseController::TABS)->name('packhouse');
+        Route::post('/packhouse/operations', [PackhouseController::class, 'operate'])->name('packhouse.operations.store');
+        Route::post('/packhouse/standards', [PackhouseController::class, 'saveStandard'])->name('packhouse.standards.store');
+        Route::post('/packhouse/standards/{standard}', [PackhouseController::class, 'saveStandard'])->name('packhouse.standards.update');
+        Route::post('/packhouse/lots/{lot}/move', [PackhouseController::class, 'moveLot'])->name('packhouse.lots.move');
+        Route::get('/packhouse/lots/{lot}/trace', [PackhouseController::class, 'trace'])->name('packhouse.lots.trace');
+        Route::post('/packhouse/lots/{lot}/recall', [PackhouseController::class, 'recall'])->name('packhouse.lots.recall');
+        Route::post('/packhouse/lots/{lot}/write-off', [PackhouseController::class, 'writeOff'])->name('packhouse.lots.write-off');
+        Route::post('/packhouse/lots/{lot}/release', [PackhouseController::class, 'release'])->name('packhouse.lots.release');
+        Route::post('/packhouse/stores/{store}/range', [PackhouseController::class, 'storeRange'])->name('packhouse.stores.range');
+        Route::post('/packhouse/stores/{store}/readings', [PackhouseController::class, 'reading'])->name('packhouse.stores.readings');
+        Route::post('/packhouse/readings/{reading}/correct', [PackhouseController::class, 'correct'])->name('packhouse.readings.correct');
+        Route::post('/packhouse/orders/{order}/pick', [PackhouseController::class, 'pick'])->whereUuid('order')->name('packhouse.orders.pick');
+        Route::post('/packhouse/dispatches/{dispatch}/verify', [PackhouseController::class, 'verify'])->whereUuid('dispatch')->name('packhouse.dispatches.verify');
+        Route::post('/packhouse/dispatches/{dispatch}/dispatch', [PackhouseController::class, 'dispatch'])->whereUuid('dispatch')->name('packhouse.dispatches.dispatch');
+        Route::post('/packhouse/dispatches/{dispatch}/deliver', [PackhouseController::class, 'deliver'])->whereUuid('dispatch')->name('packhouse.dispatches.deliver');
+    });
+
+Route::middleware('auth')->get('/agri/{area}/{rest?}', fn (string $area, ?string $rest = null) => redirect('/manufacturing/agriculture/'.$area.($rest ? '/'.$rest : '').(request()->getQueryString() ? '?'.request()->getQueryString() : ''), 301))
+    ->whereIn('area', ['crops', 'livestock', 'packhouse'])->where('rest', '.*')->name('agri.moved-to-manufacturing');

@@ -37,6 +37,13 @@ class Processing
     /** @see PostHarvest::operate for the shape of inputs, outputs and packaging */
     public function run(Farm $farm, string $kind, array $inputs, array $outputs, array $packaging, array $data, User $actor, ?Cycle $batch = null): PackhouseOperation
     {
+        $bom = $data['bom'] ?? null;
+        unset($data['bom']);
+        $batchQty = (float) ($data['batch_quantity'] ?? 0);
+        unset($data['batch_quantity']);
+        if ($bom) {
+            $this->checkRecipe($bom, $batchQty ?: collect($outputs)->sum(fn ($o) => (float) $o['quantity']), $inputs);
+        }
         foreach ($inputs as $i) {
             if ($source = $this->sourceCycle($i['lot'])) {
                 if ($why = $this->cycles->blocks($source)) {
@@ -45,14 +52,16 @@ class Processing
             }
         }
 
-        return DB::transaction(function () use ($farm, $kind, $inputs, $outputs, $packaging, $data, $actor, $batch) {
-            $op = $this->postHarvest->operate($farm, $kind, $inputs, $outputs, $packaging, $data, $actor);
+        return DB::transaction(function () use ($farm, $kind, $inputs, $outputs, $packaging, $data, $actor, $batch, $bom) {
+            // Made to a recipe: the order keeps the exact revision, so a later revision never rewrites what this batch was.
+            $op = $this->postHarvest->operate($farm, $kind, $inputs, $outputs, $packaging, $data + ($bom ? ['bom_id' => $bom->id] : []), $actor);
             if ($batch) {
                 $batch->update(['production_order_id' => $op->production_order_id, 'output_quantity' => (float) $batch->output_quantity + (float) $op->output_quantity,
                     'cost_to_date' => (float) $batch->cost_to_date + (float) ($op->output_value ?? 0), 'stage' => $op->quality_passed ? 'qa' : 'processing']);
                 Record::create(['company_id' => $batch->company_id, 'cycle_id' => $batch->id, 'unit_id' => $batch->unit_id, 'kind' => 'harvest', 'recorded_at' => now(),
                     'quantity' => $op->output_quantity, 'cost' => $op->output_value, 'source' => 'manual', 'link_type' => 'packhouse_operation', 'link_id' => $op->id,
-                    'details' => ['reference' => $op->reference, 'quality_passed' => $op->quality_passed, 'production_order_id' => $op->production_order_id], 'recorded_by' => $actor->id]);
+                    'details' => array_filter(['reference' => $op->reference, 'quality_passed' => $op->quality_passed, 'production_order_id' => $op->production_order_id,
+                        'recipe' => $bom ? "{$bom->name} rev {$bom->revision}" : null], fn ($v) => $v !== null), 'recorded_by' => $actor->id]);
             }
 
             return $op;
@@ -65,7 +74,7 @@ class Processing
         if ($lot->status !== 'quarantined') {
             throw ValidationException::withMessages(['lot' => "Lot {$lot->code} is {$lot->status}, not held."]);
         }
-        if (! $actor->can(RoleCatalog::DISPOSE)) {
+        if (! $actor->can(RoleCatalog::DISPOSE) && ! $actor->can(\App\Modules\Agri\Support\RoleCatalog::MANAGE_PACKHOUSE)) {
             throw ValidationException::withMessages(['lot' => 'Releasing a quality hold needs the quality disposition permission.']);
         }
         if ((int) $lot->created_by === (int) $actor->id) {
@@ -96,6 +105,40 @@ class Processing
 
             return $lot->fresh();
         });
+    }
+
+    /**
+     * A batch made to a recipe uses only the recipe's components, each within the tolerance of what
+     * the approved revision says for that batch size (quantity per yield, plus its scrap allowance).
+     *
+     * @param  list<array{lot: ProduceLot, quantity: float}>  $inputs
+     */
+    public function checkRecipe(\App\Modules\Operations\Manufacturing\Models\Bom $bom, float $batchQty, array $inputs): void
+    {
+        if ($bom->status !== \App\Modules\Operations\Manufacturing\Models\Bom::APPROVED) {
+            throw ValidationException::withMessages(['bom_id' => "{$bom->name} revision {$bom->revision} is {$bom->status}; only an approved recipe is made to."]);
+        }
+        $tolerance = (float) config('manufacturing.agriculture.recipe_tolerance_pct', 10) / 100;
+        $yield = max((float) $bom->yield_quantity, 0.000001);
+        $lines = $bom->lines()->where('line_kind', '!=', 'PACKAGING')->get();
+        $given = collect($inputs)->groupBy(fn ($i) => (int) $i['lot']->stock_item_id)->map(fn ($g) => $g->sum(fn ($i) => (float) $i['quantity']));
+        $problems = [];
+        foreach ($given->keys() as $itemId) {
+            if (! $lines->contains(fn ($l) => (int) $l->component_stock_item_id === $itemId)) {
+                $problems[] = FinStockItem::withoutGlobalScopes()->whereKey($itemId)->value('name').' is not in the recipe.';
+            }
+        }
+        foreach ($lines->where('is_optional', false) as $l) {
+            $need = (float) $l->quantity_per * $batchQty / $yield * (1 + (float) $l->scrap_percent / 100);
+            $got = (float) ($given[(int) $l->component_stock_item_id] ?? 0);
+            if ($need > 0 && abs($got - $need) / $need > $tolerance) {
+                $problems[] = sprintf('%s: the recipe needs %s for %s made; %s was used.', FinStockItem::withoutGlobalScopes()->whereKey($l->component_stock_item_id)->value('name'),
+                    round($need, 3), $batchQty, round($got, 3));
+            }
+        }
+        if ($problems) {
+            throw ValidationException::withMessages(['inputs' => "Not to recipe ({$bom->name} rev {$bom->revision}): ".implode(' ', $problems)]);
+        }
     }
 
     /** The production cycle the lot's produce came from, through its crop plan. */

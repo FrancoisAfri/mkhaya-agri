@@ -38,7 +38,7 @@ class Sources
      * @param  callable(Source): iterable<array>  $fetch
      * @return array{ok: bool, items: int, error?: string}
      */
-    public function attempt(Source $source, callable $fetch, ?Carbon $now = null): array
+    public function attempt(Source $source, callable $fetch, ?Carbon $now = null, ?callable $handle = null): array
     {
         $now ??= now();
         if ($source->status === 'paused') {
@@ -48,7 +48,7 @@ class Sources
         try {
             $items = 0;
             foreach ($fetch($source) as $item) {
-                $this->publish($source, $item);
+                $handle ? $handle($item) : $this->publish($source, $item);
                 $items++;
             }
             $source->update(['status' => 'active', 'last_success_at' => $now, 'failure_count' => 0, 'last_error' => null,

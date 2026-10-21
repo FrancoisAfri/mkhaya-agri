@@ -35,11 +35,12 @@ class AgriHubs extends ModuleHubs
                 'cards' => [
                     self::card('farms', 'agri/farms', 'map-2', self::READ, 'green', self::needs(R::VIEW_FARMS)),
                     self::card('twin', 'agri/twin', 'map', self::READ, 'teal', self::needs(R::VIEW_FARMS)),
-                    self::card('crops', 'agri/crops', 'sprout', self::READ, 'light-green', self::needs(R::VIEW_CROPS)),
-                    self::card('crop_intelligence', 'agri/crops/intelligence', 'radar', self::READ, 'deep-purple', self::needs(R::VIEW_CROPS)),
-                    self::card('livestock', 'agri/livestock', 'cow', self::READ, 'brown', self::needs(R::VIEW_LIVESTOCK)),
+                    self::card('crops', 'manufacturing/agriculture/crops', 'sprout', self::READ, 'light-green', self::needs(R::VIEW_CROPS)),
+                    self::card('crop_intelligence', 'manufacturing/agriculture/crops/intelligence', 'radar', self::READ, 'deep-purple', self::needs(R::VIEW_CROPS)),
+                    self::card('livestock', 'manufacturing/agriculture/livestock', 'cow', self::READ, 'brown', self::needs(R::VIEW_LIVESTOCK)),
                     self::card('weather', 'agri/weather', 'cloud', self::READ, 'blue', self::needs(R::VIEW_FARMS)),
-                    // Shortcuts: production cycles, the Command Centre and intelligence are Manufacturing & Production's.
+                    // Shortcuts: crops, livestock, production cycles, the Command Centre and intelligence are
+                    // Manufacturing & Production's screens; the farm opens them from here.
                     self::card('production_cycles', 'manufacturing/agriculture/cycles', 'refresh', self::READ, 'deep-orange', self::needs(R::VIEW_FARMS)),
                     self::card('command_centre', 'manufacturing/command/centre', 'radar', self::READ, 'red', self::needs(R::VIEW_FARMS)),
                     self::card('intelligence', 'manufacturing/intelligence/recommendations', 'brain', self::READ, 'deep-purple', self::needs(R::VIEW_FARMS)),
@@ -54,8 +55,8 @@ class AgriHubs extends ModuleHubs
                     self::card('tasks', 'agri/tasks', 'clipboard-check', self::READ, 'cyan', self::needs(R::VIEW_TASKS)),
                     self::card('machinery', 'agri/machinery', 'tractor', self::READ, 'orange', self::needs(R::VIEW_MACHINERY)),
                     self::card('stock', 'agri/stock', 'farm-stock', self::READ, 'blue-grey', self::needs(R::VIEW_STOCK)),
-                    // Grading, packing and processing are Manufacturing production runs: a shortcut to them.
-                    self::card('packhouse', 'manufacturing/agriculture/processing', 'package', self::READ, 'amber', self::needs(R::VIEW_STOCK)),
+                    // Grading, packing and processing are Manufacturing production runs: a shortcut to the packhouse there.
+                    self::card('packhouse', 'manufacturing/agriculture/packhouse', 'package', self::READ, 'amber', self::needs(R::VIEW_STOCK)),
                     self::card('alerts', 'agri/alerts', 'bell', self::READ, 'red', self::needs(R::VIEW_FARMS)),
                     self::card('finance', 'agri/finance', 'farm-money', self::READ, 'green', self::needs(R::VIEW_FINANCE)),
                     self::card('sales', 'agri/sales', 'building-store', self::READ, 'orange', self::needs(R::VIEW_SALES)),

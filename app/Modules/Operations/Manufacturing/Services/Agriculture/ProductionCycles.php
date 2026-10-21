@@ -338,10 +338,47 @@ class ProductionCycles
         if ($kind === 'weight' && ! empty($data['sample_size']) && (int) $data['sample_size'] < 1) {
             throw ValidationException::withMessages(['sample_size' => 'A weighing needs at least one bird.']);
         }
+        if ($kind === 'feed' && (! empty($data['stock_item_id']) || ! empty($data['ration_id']))) {
+            return $this->feedFromStock($cycle, $data, $actor, $source);
+        }
         $unit = $data['unit'] ?? match ($kind) { 'feed', 'weight' => 'kg', 'water', 'milk' => 'l', 'eggs' => 'eggs', default => null };
         $details = collect($data)->only(['sample_size', 'uniformity_pct', 'feed_type', 'stock_item_id', 'cv_pct', 'note'])->filter(fn ($v) => $v !== null)->all();
 
         return $this->write($cycle, $kind, ['unit' => $unit, 'details' => ($data['details'] ?? []) + $details] + $data, $actor, $source);
+    }
+
+    /**
+     * Feed drawn from the farm's store: for an animal cycle it is the farm group's feeding (stock
+     * issued, cost posted, ration split into its components); for a pond or house with no group it
+     * is a plain issue from the store. The record carries the cost the stock ledger gave it.
+     */
+    private function feedFromStock(Cycle $cycle, array $data, User $actor, string $source): Record
+    {
+        $farm = Farm::withoutGlobalScopes()->findOrFail($cycle->farm_id);
+        $kg = (float) $data['quantity'];
+
+        return DB::transaction(function () use ($cycle, $data, $actor, $source, $farm, $kg) {
+            $group = $cycle->livestock_group_id ? LivestockGroup::withoutGlobalScopes()->find($cycle->livestock_group_id) : null;
+            if ($group) {
+                $feeding = app(\App\Modules\Agri\Services\LivestockIntelligence::class)->feed($farm, $group, null, ['quantity_kg' => $kg,
+                    'fed_on' => $data['recorded_at']->toDateString(), 'stock_item_id' => $data['stock_item_id'] ?? null, 'ration_id' => $data['ration_id'] ?? null,
+                    // The farm's feeding keys retries by a uuid: the same one every time for the same record.
+                    'client_id' => isset($data['client_id']) ? \Ramsey\Uuid\Uuid::uuid5(\Ramsey\Uuid\Uuid::NAMESPACE_URL, "prd-feed:{$data['client_id']}")->toString() : null], $actor);
+                $cost = (float) $feeding->cost;
+                $link = ['feeding', $feeding->id];
+            } else {
+                $item = \App\Modules\Finance\Accounting\Models\FinStockItem::query()->findOrFail($data['stock_item_id']);
+                $issued = app(\App\Modules\Agri\Services\FarmStores::class)->issue($farm, $item, $kg, ['source_type' => 'prd_cycle', 'source_id' => $cycle->id,
+                    'idempotency_key' => 'prd-feed-'.($data['client_id'] ?? $cycle->uuid.'-'.$data['recorded_at']->format('YmdHis')), 'date' => $data['recorded_at']->toDateString(),
+                    'reference' => "{$cycle->code} feed", 'expense_account' => config('agri.accounts.feed', config('agri.accounts.animal_health')), 'reason_code' => 'AGRI_USE', 'actor' => $actor]);
+                $cost = (float) $issued['value'];
+                $link = ['stock_movement', $issued['movement']->id];
+            }
+
+            return $this->write($cycle, 'feed', ['recorded_at' => $data['recorded_at'], 'quantity' => $kg, 'unit' => 'kg', 'cost' => round($cost, 2),
+                'client_id' => $data['client_id'] ?? null, 'details' => array_filter(['stock_item_id' => $data['stock_item_id'] ?? null, 'ration_id' => $data['ration_id'] ?? null,
+                    'from_store' => true]), 'link_type' => $link[0], 'link_id' => $link[1]], $actor, $source);
+        });
     }
 
     private function write(Cycle $cycle, string $kind, array $data, User $actor, string $source): Record

@@ -54,9 +54,17 @@ class ManufacturingHubs extends ModuleHubs
                         self::READ, 'green', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class)),
                     self::card('agri_units', 'manufacturing/agriculture/units', 'home-modern',
                         self::READ, 'brown', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class)),
-                    // Grading, packing and processing farm produce: production runs with lot genealogy and QA holds.
-                    self::card('agri_processing', 'manufacturing/agriculture/processing', 'package',
-                        self::READ, 'amber', ['ability' => 'process', 'subject' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class]),
+                    // The farm's crops and herds: its registers, kept once, opened here. Gated on the farm
+                    // permission their own pages check (the farm module's, not a policy on a model).
+                    self::card('agri_crops', 'manufacturing/agriculture/crops', 'plant-2',
+                        self::READ, 'light-green', ['ability' => \App\Modules\Agri\Support\RoleCatalog::VIEW_CROPS, 'subject' => null]),
+                    self::card('agri_crop_intelligence', 'manufacturing/agriculture/crops/intelligence', 'radar',
+                        self::READ, 'deep-purple', ['ability' => \App\Modules\Agri\Support\RoleCatalog::VIEW_CROPS, 'subject' => null]),
+                    self::card('agri_livestock', 'manufacturing/agriculture/livestock', 'cow',
+                        self::READ, 'brown', ['ability' => \App\Modules\Agri\Support\RoleCatalog::VIEW_LIVESTOCK, 'subject' => null]),
+                    // Grading, packing and processing farm produce: production runs with lot genealogy, recipes and QA holds.
+                    self::card('agri_packhouse', 'manufacturing/agriculture/packhouse', 'package',
+                        self::READ, 'amber', ['ability' => \App\Modules\Agri\Support\RoleCatalog::VIEW_STOCK, 'subject' => null]),
                     self::card('agri_types', 'manufacturing/agriculture/types', 'tune',
                         self::READ, 'grey', ['ability' => 'manage', 'subject' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class]),
                 ],
@@ -102,6 +110,9 @@ class ManufacturingHubs extends ModuleHubs
                         self::READ, 'green', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
                     self::card('intel_sources', 'manufacturing/intelligence/sources', 'rss',
                         self::READ, 'blue-grey', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
+                    // Questions about production, answered from the records; it never acts.
+                    self::card('intel_assistant', 'manufacturing/intelligence/assistant', 'robot-outline',
+                        self::READ, 'primary', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
                     self::card('intel_forecasts', 'manufacturing/intelligence/forecasts', 'chart-bell-curve',
                         self::READ, 'indigo', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
                 ],

@@ -28,7 +28,7 @@ use Inertia\Response;
  */
 class IntelligenceController extends Controller
 {
-    public const TABS = ['recommendations', 'outbreaks', 'opportunities', 'sources', 'forecasts'];
+    public const TABS = ['recommendations', 'outbreaks', 'opportunities', 'sources', 'forecasts', 'assistant'];
 
     public function __construct(private readonly FarmAccess $access) {}
 
@@ -67,6 +67,22 @@ class IntelligenceController extends Controller
         return $this->page($request, 'forecasts');
     }
 
+    public function assistant(Request $request): Response
+    {
+        $this->authorize('viewAny', Recommendation::class);
+
+        return $this->page($request, 'assistant');
+    }
+
+    /** A question about production, answered from the organisation's own records. Never an action. */
+    public function ask(Request $request, \App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionAssistant $assistant): \Illuminate\Http\JsonResponse
+    {
+        $this->authorize('viewAny', Recommendation::class);
+        $d = $request->validate(['question' => ['required', 'string', 'min:3', 'max:500']]);
+
+        return response()->json($assistant->ask($request->user(), $d['question']));
+    }
+
     public function decide(Request $request, string $recommendation, Recommendations $recommendations): RedirectResponse
     {
         $this->authorize('decide', Recommendation::class);
@@ -103,10 +119,29 @@ class IntelligenceController extends Controller
         $d = $request->validate(['code' => ['required', 'string', 'max:40', 'regex:/^[A-Z0-9_-]+$/'], 'name' => ['required', 'string', 'max:160'],
             'kind' => ['required', Rule::in(['weather', 'disease', 'government', 'ngo', 'market', 'research'])], 'publisher' => ['nullable', 'string', 'max:160'],
             'url' => ['nullable', 'url:https', 'max:500'], 'trust' => ['required', Rule::in(['official', 'trusted', 'community', 'unverified'])],
-            'refresh_minutes' => ['required', 'integer', 'between:5,10080']]);
+            'refresh_minutes' => ['required', 'integer', 'between:5,10080'], 'adapter' => ['nullable', Rule::in(['rss', 'cap', 'json'])],
+            'item_kind' => ['nullable', Rule::in(['warning', 'outbreak', 'funding', 'price', 'notice', 'advisory'])], 'config' => ['nullable', 'array'],
+            'config_json' => ['nullable', 'json']]);
+        if (! empty($d['adapter']) && empty($d['url'])) {
+            throw \Illuminate\Validation\ValidationException::withMessages(['url' => 'A source fetched automatically needs its https address.']);
+        }
+        $d['config'] = ! empty($d['config_json']) ? json_decode($d['config_json'], true) : ($d['config'] ?? null);
+        unset($d['config_json']);
         Source::query()->updateOrCreate(['company_id' => $request->user()->company_id, 'code' => $d['code']], $d + ['status' => 'active']);
 
         return back()->with('success', "{$d['name']} registered.");
+    }
+
+    public function fetchSource(Request $request, string $source, \App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher $fetcher): RedirectResponse
+    {
+        $this->authorize('manage', Recommendation::class);
+        $s = Source::query()->where('uuid', $source)->firstOrFail();
+        if (! $s->adapter || ! $s->url) {
+            return back()->with('error', "{$s->name} is not fetched automatically; its items arrive another way.");
+        }
+        $r = $fetcher->fetch($s);
+
+        return back()->with($r['ok'] ? 'success' : 'error', $r['ok'] ? "{$s->name}: {$r['items']} item(s) taken in." : "{$s->name} could not be fetched: {$r['error']}. It will be retried.");
     }
 
     private function page(Request $request, string $tab): Response
@@ -136,7 +171,8 @@ class IntelligenceController extends Controller
             'sources' => $tab !== 'sources' ? [] : Source::query()->orderBy('kind')->orderBy('name')->get()->map(fn (Source $s) => ['id' => $s->uuid, 'code' => $s->code, 'name' => $s->name,
                 'kind' => $s->kind, 'publisher' => $s->publisher, 'url' => $s->url, 'trust' => $s->trust, 'status' => $s->status, 'stale' => $s->isStale(),
                 'refresh_minutes' => $s->refresh_minutes, 'last_success_at' => $s->last_success_at?->toIso8601String(), 'last_attempt_at' => $s->last_attempt_at?->toIso8601String(),
-                'failure_count' => $s->failure_count, 'last_error' => $s->last_error, 'next_attempt_at' => $s->next_attempt_at?->toIso8601String()])->values(),
+                'failure_count' => $s->failure_count, 'last_error' => $s->last_error, 'next_attempt_at' => $s->next_attempt_at?->toIso8601String(),
+                'adapter' => $s->adapter, 'item_kind' => $s->item_kind])->values(),
             'publications' => $tab !== 'sources' ? [] : Publication::query()->with('source:id,name')->latest('fetched_at')->limit(50)->get()
                 ->map(fn (Publication $p) => ['title' => $p->title, 'kind' => $p->kind, 'source' => $p->source?->name, 'fetched_at' => $p->fetched_at?->toIso8601String(),
                     'revision' => $p->revision, 'flagged' => $p->flagged, 'flags' => $p->flags ?? [], 'url' => $p->url, 'body' => mb_strimwidth((string) $p->body, 0, 400, '…')])->values(),

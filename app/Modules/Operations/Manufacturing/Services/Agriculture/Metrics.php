@@ -3,6 +3,7 @@
 namespace App\Modules\Operations\Manufacturing\Services\Agriculture;
 
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle;
+use App\Modules\Operations\Manufacturing\Models\Agriculture\Device;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Reading;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Record;
 use Illuminate\Support\Carbon;
@@ -102,6 +103,8 @@ class Metrics
             }
             if ($metered !== null && $water <= 0) {
                 $flags[] = 'Water used but not recorded';
+            } elseif ($metered === null && $water <= 0 && $feed > 0) {
+                $flags[] = 'No water recorded or metered';
             }
             if ($ratio !== null && ($ratio < $ratioBand[0] || $ratio > $ratioBand[1])) {
                 $flags[] = "Water to feed {$ratio} is outside {$ratioBand[0]}–{$ratioBand[1]}";
@@ -110,6 +113,92 @@ class Metrics
         }
 
         return $days;
+    }
+
+    /**
+     * The panel a kind of production is run from: its own figures, daily series and the sensors in
+     * its unit — lay rate for layers, milk per cow for a dairy herd, biomass and water quality for a
+     * pond, climate and yield per plant for a tunnel, density and intake for broilers.
+     *
+     * @return array{tiles: list<array{label: string, value: ?float, unit: ?string, hint?: ?string}>, series: list<array{name: string, unit: string, points: list<array{x: string, y: float}>}>, sensors: list<array{metric: string, title: string}>}
+     */
+    public function panel(Cycle $cycle, int $days = 14): array
+    {
+        $def = $cycle->definition();
+        $category = $def['category'] ?? null;
+        $vars = $this->variables($cycle);
+        $daily = fn (string $kind) => Record::query()->where('cycle_id', $cycle->id)->where('kind', $kind)->whereNull('corrects_id')
+            ->where('recorded_at', '>=', today()->subDays($days - 1))->get()->groupBy(fn ($r) => $r->recorded_at->toDateString())
+            ->map(fn ($g) => (float) $g->sum('quantity'))->sortKeys();
+        $series = fn (string $name, string $unit, $byDay) => ['name' => $name, 'unit' => $unit, 'points' => collect($byDay)->map(fn ($v, $d) => ['x' => $d, 'y' => round((float) $v, 3)])->values()->all()];
+        $alive = max(1, (int) ($cycle->current_count ?? 0));
+        $unitArea = $cycle->unit?->area_unit === 'm2' ? (float) $cycle->unit->area : null;
+        $tiles = [];
+        $out = [];
+        $sensors = [];
+        switch ($category) {
+            case 'poultry':
+                if (($def['output_unit'] ?? null) === 'eggs') {
+                    $eggs = $daily('eggs');
+                    $tiles[] = ['label' => 'Hen-day lay', 'value' => $eggs->count() ? round($eggs->last() / $alive * 100, 1) : null, 'unit' => '%', 'hint' => 'last day'];
+                    $tiles[] = ['label' => 'Eggs a day (7-day mean)', 'value' => $eggs->count() ? round($eggs->take(-7)->avg()) : null, 'unit' => 'eggs'];
+                    $out[] = $series('Eggs collected', 'eggs', $eggs);
+                    $out[] = $series('Hen-day lay', '%', $eggs->map(fn ($v) => $v / $alive * 100));
+                } else {
+                    $target = $def['defaults']['target_weight_kg'] ?? null;
+                    $tiles[] = ['label' => 'Average weight', 'value' => $vars['avg_weight_kg'], 'unit' => 'kg', 'hint' => $target ? "target {$target} kg at day ".($def['defaults']['cycle_days'] ?? '—') : null];
+                    $tiles[] = ['label' => 'Stocking density', 'value' => $unitArea ? round($alive / $unitArea, 2) : null, 'unit' => 'birds/m²'];
+                    $last = Record::query()->where('cycle_id', $cycle->id)->where('kind', 'weight')->latest('recorded_at')->first();
+                    $tiles[] = ['label' => 'Uniformity', 'value' => isset($last?->details['uniformity_pct']) ? (float) $last->details['uniformity_pct'] : null, 'unit' => '%'];
+                }
+                $out[] = $series('Feed per bird', 'g', $daily('feed')->map(fn ($v) => $v * 1000 / $alive));
+                $out[] = $series('Water per bird', 'ml', $daily('water')->map(fn ($v) => $v * 1000 / $alive));
+                $sensors = ['temperature', 'humidity', 'ammonia', 'co2', 'water_flow'];
+                break;
+            case 'dairy':
+                $milk = $daily('milk');
+                $tiles[] = ['label' => 'Milk per cow', 'value' => $milk->count() ? round($milk->last() / $alive, 2) : null, 'unit' => 'l', 'hint' => 'last day'];
+                $tiles[] = ['label' => 'Herd milk (7-day mean)', 'value' => $milk->count() ? round($milk->take(-7)->avg(), 1) : null, 'unit' => 'l/day'];
+                $out[] = $series('Milk', 'l', $milk);
+                $out[] = $series('Milk per cow', 'l', $milk->map(fn ($v) => $v / $alive));
+                break;
+            case 'aquaculture':
+                $biomass = $vars['avg_weight_kg'] !== null ? round($vars['avg_weight_kg'] * $alive, 1) : null;
+                $tiles[] = ['label' => 'Biomass', 'value' => $biomass, 'unit' => 'kg', 'hint' => 'count × average weight'];
+                $tiles[] = ['label' => 'Density', 'value' => $biomass && $unitArea ? round($biomass / $unitArea, 2) : null, 'unit' => 'kg/m²'];
+                $feed = $daily('feed');
+                $tiles[] = ['label' => 'Feed rate', 'value' => $biomass && $feed->count() ? round($feed->last() / $biomass * 100, 2) : null, 'unit' => '% biomass/day'];
+                $out[] = $series('Feed', 'kg', $feed);
+                $sensors = ['dissolved_oxygen', 'water_temperature', 'ph'];
+                break;
+            case 'greenhouse':
+                $harvest = $daily('harvest');
+                $tiles[] = ['label' => 'Yield per plant', 'value' => $cycle->opening_count ? round($vars['harvest_qty'] / $cycle->opening_count, 3) : null, 'unit' => $def['output_unit'] ?? 'kg'];
+                $tiles[] = ['label' => 'Picked, last 7 days', 'value' => round($harvest->take(-7)->sum(), 1), 'unit' => $def['output_unit'] ?? 'kg'];
+                $out[] = $series('Picked', $def['output_unit'] ?? 'kg', $harvest);
+                $sensors = ['temperature', 'humidity', 'ec'];
+                break;
+            case 'crop':
+                $plan = $cycle->cropPlan;
+                $tiles[] = ['label' => 'Days since planting', 'value' => $plan?->planted_on ? (float) $plan->planted_on->diffInDays(today()) : null, 'unit' => 'days'];
+                $tiles[] = ['label' => 'Expected', 'value' => $plan && $plan->expected_yield ? round((float) $plan->expected_yield * $plan->hectares(), 2) : null, 'unit' => $plan?->yield_unit];
+                $tiles[] = ['label' => 'Harvested', 'value' => $vars['harvest_qty'], 'unit' => $plan?->yield_unit ?? $def['output_unit'] ?? null];
+                $out[] = $series('Harvested', $plan?->yield_unit ?? 't', $daily('harvest'));
+                $sensors = ['soil_moisture', 'rain'];
+                break;
+            case 'processing':
+                $tiles[] = ['label' => 'Made', 'value' => $cycle->output_quantity, 'unit' => $def['output_unit'] ?? null];
+                $tiles[] = ['label' => 'Runs', 'value' => (float) Record::query()->where('cycle_id', $cycle->id)->where('link_type', 'packhouse_operation')->count(), 'unit' => null];
+                $out[] = $series('Made', $def['output_unit'] ?? 'kg', $daily('harvest'));
+                break;
+            default:
+                $out[] = $series('Feed', 'kg', $daily('feed'));
+        }
+        // Only the sensors this unit actually has.
+        $present = $cycle->unit_id ? Device::query()->where('unit_id', $cycle->unit_id)->whereNotIn('kind', ['controller', 'gateway'])->pluck('metric')->unique()->all() : [];
+
+        return ['tiles' => $tiles, 'series' => array_values(array_filter($out, fn ($s) => $s['points'] !== [])),
+            'sensors' => collect($sensors)->intersect($present)->map(fn ($m) => ['metric' => $m, 'title' => ucfirst(str_replace('_', ' ', $m))])->values()->all()];
     }
 
     /** Daily mortality as a share of the birds alive that morning, newest last. */

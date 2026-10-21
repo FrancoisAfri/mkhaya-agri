@@ -92,6 +92,11 @@ class PackhouseController extends AgriController
                 'crews' => $farm ? FarmCrew::query()->where('farm_id', $farm->id)->get(['id', 'name'])->map(fn ($c) => ['value' => $c->id, 'title' => $c->name]) : [],
                 'machines' => $farm ? FarmMachine::query()->where('farm_id', $farm->id)->where('status', '!=', FarmMachine::DISPOSED)->get(['id', 'fleet_number', 'name'])->map(fn ($m) => ['value' => $m->id, 'title' => "{$m->code} {$m->name}"]) : [],
                 'crop_types' => CropType::query()->orderBy('name')->get(['id', 'name'])->map(fn ($c) => ['value' => $c->id, 'title' => $c->name]),
+                // Manufacturing's processing batches and approved recipes a run can be made for.
+                'batches' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::query()->whereIn('status', ['active', 'planned'])
+                    ->whereHas('type', fn ($q) => $q->where('category', 'processing'))->get(['uuid', 'code', 'name'])->map(fn ($c) => ['value' => $c->uuid, 'title' => "{$c->code} — {$c->name}"]),
+                'recipes' => \App\Modules\Operations\Manufacturing\Models\Bom::query()->where('status', \App\Modules\Operations\Manufacturing\Models\Bom::APPROVED)
+                    ->orderBy('name')->get(['uuid', 'name', 'revision'])->map(fn ($b) => ['value' => $b->uuid, 'title' => "{$b->name} (rev {$b->revision})"]),
             ],
             'can' => ['packhouse' => $request->user()->can(R::MANAGE_PACKHOUSE), 'dispatch' => $request->user()->can(R::MANAGE_DISPATCH), 'recall' => $request->user()->can(R::MANAGE_RECALLS)],
         ]);
@@ -116,13 +121,32 @@ class PackhouseController extends AgriController
             'labour_cost' => ['nullable', 'numeric', 'gte:0'], 'machine_id' => ['nullable', 'integer'], 'machine_hours' => ['nullable', 'numeric', 'gte:0'],
             'quality_checks' => ['nullable', 'array'], 'quality_checks.*.check' => ['required', 'string', 'max:80'], 'quality_checks.*.value' => ['nullable'],
             'quality_checks.*.ok' => ['nullable', 'boolean'], 'quality_checks.*.note' => ['nullable', 'string', 'max:200'], 'notes' => ['nullable', 'string', 'max:500'],
+            'batch_id' => ['nullable', 'uuid'], 'bom_id' => ['nullable', 'uuid'], 'batch_quantity' => ['nullable', 'numeric', 'gt:0'],
         ]);
         $farm = $this->workingFarm($request, $data['farm_id']);
         $inputs = collect($data['inputs'])->map(fn ($i) => ['lot' => ProduceLot::query()->where('farm_id', $farm->id)->where('uuid', $i['lot_id'])->firstOrFail(), 'quantity' => (float) $i['quantity']])->all();
         $outputs = collect($data['outputs'])->map(fn ($o) => array_merge($o, ['store_id' => ! empty($o['store_id']) ? FarmStore::query()->where('farm_id', $farm->id)->where('uuid', $o['store_id'])->value('id') : null]))->all();
-        $op = $this->post->operate($farm, $data['kind'], $inputs, $outputs, $data['packaging'] ?? [], collect($data)->except(['farm_id', 'kind', 'inputs', 'outputs', 'packaging'])->all(), $request->user());
+        // A run is a Manufacturing production run: produce under a withdrawal or hold cannot go in, and a
+        // processing batch (or an approved recipe) it was made for is recorded with it.
+        $batch = ! empty($data['batch_id']) ? \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::query()->where('uuid', $data['batch_id'])->firstOrFail() : null;
+        $recipe = ! empty($data['bom_id']) ? \App\Modules\Operations\Manufacturing\Models\Bom::query()->where('uuid', $data['bom_id'])->firstOrFail() : null;
+        $op = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Processing::class)->run($farm, $data['kind'], $inputs, $outputs, $data['packaging'] ?? [],
+            collect($data)->except(['farm_id', 'kind', 'inputs', 'outputs', 'packaging', 'batch_id', 'bom_id', 'batch_quantity'])->all()
+                + ($recipe ? ['bom' => $recipe, 'batch_quantity' => (float) ($data['batch_quantity'] ?? 0)] : []), $request->user(), $batch);
 
         return back()->with($op->quality_passed ? 'success' : 'error', "{$op->reference} recorded.".($op->quality_passed ? '' : ' Quality checks failed: the lots made are quarantined.'));
+    }
+
+    /** Release a lot a failed check held, on a passing re-inspection by someone else (Manufacturing quality disposition). */
+    public function release(Request $request, ProduceLot $lot): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_PACKHOUSE);
+        $this->assertWritable($request, $lot->farm_id);
+        $data = $request->validate(['note' => ['required', 'string', 'max:500'], 'checks' => ['required', 'array', 'min:1'], 'checks.*.check' => ['required', 'string', 'max:80'],
+            'checks.*.value' => ['nullable'], 'checks.*.ok' => ['required', 'boolean']]);
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Processing::class)->release($lot, $data['checks'], $request->user(), $data['note']);
+
+        return back()->with('success', "Lot {$lot->code} released.");
     }
 
     public function moveLot(Request $request, ProduceLot $lot): RedirectResponse

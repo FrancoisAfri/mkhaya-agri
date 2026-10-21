@@ -119,7 +119,7 @@ class FarmAlerts
             ->whereNotNull('follow_up_on')->whereDate('follow_up_on', '<=', $today)->get() as $o) {
             $out[] = $this->c('scouting_follow_up', in_array($o->severity, ['high', 'critical'], true) ? 'critical' : 'warning',
                 'Scouting follow-up due: '.str_replace('_', ' ', $o->kind), mb_strimwidth((string) $o->description, 0, 200),
-                '/agri/crops/scouting?farm='.$farm->uuid, $o->follow_up_on->toDateString(), "scouting_follow_up:{$o->id}");
+                '/manufacturing/agriculture/crops/scouting?farm='.$farm->uuid, $o->follow_up_on->toDateString(), "scouting_follow_up:{$o->id}");
         }
         $sprayed = \App\Modules\Agri\Models\ActivityInput::withoutGlobalScope('farm_access')->where('activity_inputs.farm_id', $farm->id)
             ->whereNotNull('activity_inputs.reentry_hours')->whereNull('activity_inputs.reversal_of_id')
@@ -138,14 +138,14 @@ class FarmAlerts
         // Irrigation problems nobody has resolved, and buyer commitments due or short.
         foreach ($f(\App\Modules\Agri\Models\IrrigationException::query())->whereNull('resolved_at')->get() as $x) {
             $out[] = $this->c('irrigation_issue', in_array($x->kind, ['leak', 'no_water', 'fault'], true) ? 'critical' : 'warning',
-                'Irrigation: '.str_replace('_', ' ', $x->kind), mb_strimwidth((string) $x->note, 0, 200), '/agri/crops/irrigation?farm='.$farm->uuid, null, "irrigation_issue:{$x->id}");
+                'Irrigation: '.str_replace('_', ' ', $x->kind), mb_strimwidth((string) $x->note, 0, 200), '/manufacturing/agriculture/crops/irrigation?farm='.$farm->uuid, null, "irrigation_issue:{$x->id}");
         }
         foreach ($f(\App\Modules\Agri\Models\HarvestCommitment::query())->whereIn('status', ['open', 'short'])
             ->whereDate('deliver_on', '<=', $today->copy()->addDays(3))->get() as $c) {
             $left = round($c->quantity - $c->delivered_quantity, 3);
             $out[] = $this->c('commitment_due', $c->deliver_on->lt($today) ? 'critical' : 'warning',
                 ($c->deliver_on->lt($today) ? 'Short: ' : 'Due: ')."{$c->buyer} {$left} {$c->unit}",
-                'To deliver by '.$c->deliver_on->toDateString().($c->grade ? ", grade {$c->grade}" : '').'.', '/agri/crops/harvest?farm='.$farm->uuid,
+                'To deliver by '.$c->deliver_on->toDateString().($c->grade ? ", grade {$c->grade}" : '').'.', '/manufacturing/agriculture/crops/harvest?farm='.$farm->uuid,
                 $c->deliver_on->toDateString(), "commitment_due:{$c->id}");
         }
 
@@ -155,13 +155,13 @@ class FarmAlerts
             $who = $due->pluck('who');
             $out[] = $this->c('vaccination_due', 'warning', "Vaccination overdue: {$programme} ({$who->count()})",
                 $who->take(12)->implode(', ').($who->count() > 12 ? ' and '.($who->count() - 12).' more' : '').' — due since '.$due->min('due_on').'.',
-                '/agri/livestock?farm='.$farm->uuid, $due->min('due_on'), 'vaccination_due:'.$farm->id.':'.md5($programme));
+                '/manufacturing/agriculture/livestock?farm='.$farm->uuid, $due->min('due_on'), 'vaccination_due:'.$farm->id.':'.md5($programme));
         }
         foreach ([\App\Modules\Agri\Models\Animal::class, \App\Modules\Agri\Models\LivestockGroup::class] as $cls) {
             foreach ($f($cls::query())->whereDate('quarantine_until', '>=', $today)->get() as $q) {
                 $who = $q instanceof \App\Modules\Agri\Models\Animal ? $q->tag_number : "group {$q->code}";
                 $out[] = $this->c('quarantine', 'critical', "Quarantine: {$who}", 'No movement off the farm or sale until '.$q->quarantine_until->toDateString().'.',
-                    '/agri/livestock?farm='.$farm->uuid, $q->quarantine_until->toDateString(), 'quarantine:'.class_basename($cls).":{$q->id}");
+                    '/manufacturing/agriculture/livestock?farm='.$farm->uuid, $q->quarantine_until->toDateString(), 'quarantine:'.class_basename($cls).":{$q->id}");
             }
         }
 
@@ -184,7 +184,7 @@ class FarmAlerts
             $who = $h->animal?->tag_number ?? $h->group?->code ?? 'livestock';
             $out[] = $this->c('withdrawal', 'info', "Withdrawal period: {$who}",
                 "No sale, slaughter or milk before {$h->withdrawal_until->toDateString()} ({$h->product_name}).",
-                '/agri/livestock?farm='.$farm->uuid, $h->withdrawal_until->toDateString(), "withdrawal:{$h->id}");
+                '/manufacturing/agriculture/livestock?farm='.$farm->uuid, $h->withdrawal_until->toDateString(), "withdrawal:{$h->id}");
         }
 
         foreach ($f(AnimalHealthRecord::query())->whereNotNull('next_due_on')->whereDate('next_due_on', '<=', $today->copy()->addDays(7))
@@ -192,18 +192,18 @@ class FarmAlerts
             $who = $h->animal?->tag_number ?? $h->group?->code ?? 'livestock';
             $out[] = $this->c('health_due', $h->next_due_on->lt($today) ? 'warning' : 'info', "Health follow-up due: {$who}",
                 ucfirst($h->event_type).' follow-up due '.$h->next_due_on->toDateString().'.',
-                '/agri/livestock?farm='.$farm->uuid, $h->next_due_on->toDateString(), "health_due:{$h->id}");
+                '/manufacturing/agriculture/livestock?farm='.$farm->uuid, $h->next_due_on->toDateString(), "health_due:{$h->id}");
         }
 
         foreach ($f(CropObservation::query())->where('status', 'open')->whereIn('severity', ['high', 'critical'])->get() as $o) {
             $out[] = $this->c('observation', $o->severity === 'critical' ? 'critical' : 'warning',
                 ucfirst(str_replace('_', ' ', $o->kind)).' reported ('.$o->severity.')', mb_strimwidth($o->description, 0, 200, '…'),
-                '/agri/crops?farm='.$farm->uuid, $o->observed_on->toDateString(), "observation:{$o->id}");
+                '/manufacturing/agriculture/crops?farm='.$farm->uuid, $o->observed_on->toDateString(), "observation:{$o->id}");
         }
 
         foreach ($f(CropPlan::query())->where('status', CropPlan::PLANTED)->whereDate('planned_harvest_on', '<=', $today->copy()->addDays(7))->get() as $p) {
             $out[] = $this->c('harvest_due', $p->planned_harvest_on->lt($today) ? 'warning' : 'info', "Harvest due: {$p->code}",
-                'Planned harvest '.$p->planned_harvest_on->toDateString().'.', '/agri/crops/plans/'.$p->uuid, $p->planned_harvest_on->toDateString(), "harvest_due:{$p->id}");
+                'Planned harvest '.$p->planned_harvest_on->toDateString().'.', '/manufacturing/agriculture/crops/plans/'.$p->uuid, $p->planned_harvest_on->toDateString(), "harvest_due:{$p->id}");
         }
 
         // Spend above budget on a crop plan.
@@ -271,12 +271,12 @@ class FarmAlerts
             ->where('recorded_at', '>=', $today->copy()->subDays(14))->get() as $r) {
             $store = \App\Modules\Agri\Models\FarmStore::withoutGlobalScopes()->whereKey($r->store_id)->value('name');
             $out[] = $this->c('cold_store', 'critical', "Out of range: {$store}", "{$r->deviation} at ".$r->recorded_at?->format('Y-m-d H:i').'. Record what was done about it.',
-                '/agri/packhouse/storage?farm='.$farm->uuid, null, "cold_store:{$r->id}");
+                '/manufacturing/agriculture/packhouse/storage?farm='.$farm->uuid, null, "cold_store:{$r->id}");
         }
         $held = $f(\App\Modules\Agri\Models\ProduceLot::query())->where('status', 'quarantined')->where('remaining', '>', 0)->get();
         if ($held->isNotEmpty()) {
             $out[] = $this->c('quarantine', 'warning', $held->count().' produce lot(s) held in quarantine', $held->pluck('code')->take(8)->implode(', ').' — release, rework or write off.',
-                '/agri/packhouse/lots?farm='.$farm->uuid, null, "quarantine:{$farm->id}");
+                '/manufacturing/agriculture/packhouse/lots?farm='.$farm->uuid, null, "quarantine:{$farm->id}");
         }
         foreach (app(PostHarvest::class)->recallsFor($farm)->where('status', \App\Modules\Operations\Manufacturing\Models\Recall::OPEN)->get() as $r) {
             $out[] = $this->c('recall', 'critical', "Recall open: {$r->number}", $r->title.' — '.$r->reason, "/manufacturing/quality/recalls/{$r->uuid}", null, "recall:{$r->id}");
@@ -285,7 +285,7 @@ class FarmAlerts
             ->whereDate('deliver_on', '<=', $today->copy()->addDays(2))->with('party:id,name')->get() as $o) {
             $late = $o->deliver_on->lt($today);
             $out[] = $this->c('delivery_due', $late ? 'warning' : 'info', ($late ? 'Delivery overdue: ' : 'Delivery due: ')."{$o->number} for {$o->party?->name}",
-                'Due '.$o->deliver_on->toDateString().'. Pick it from the packhouse dispatch screen.', '/agri/packhouse/dispatch?farm='.$farm->uuid, $o->deliver_on->toDateString(), "delivery_due:{$o->id}");
+                'Due '.$o->deliver_on->toDateString().'. Pick it from the packhouse dispatch screen.', '/manufacturing/agriculture/packhouse/dispatch?farm='.$farm->uuid, $o->deliver_on->toDateString(), "delivery_due:{$o->id}");
         }
 
         return $out;

@@ -376,6 +376,10 @@ Schedule::command(\App\Modules\Operations\Manufacturing\Console\ProductionMonito
     ->everyMinute()
     ->withoutOverlapping()
     ->onOneServer();
+Schedule::command(\App\Modules\Operations\Manufacturing\Console\ProductionMonitorCommand::class, ['--sources'])
+    ->everyFiveMinutes()
+    ->withoutOverlapping()
+    ->onOneServer();
 Schedule::command(\App\Modules\Operations\Manufacturing\Console\ProductionMonitorCommand::class, ['--agents'])
     ->hourlyAt(7)
     ->withoutOverlapping()

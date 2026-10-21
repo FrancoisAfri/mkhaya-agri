@@ -163,6 +163,7 @@ class SeedAgriDemoAreas extends Command
             $this->area('Outcomes, predictions, AI drafts', fn () => DB::table('agri_outcome_snapshots')->where('company_id', $this->companyId)->exists(), fn () => $this->outcomes());
             // Production moved to Manufacturing & Production: cycles, sensors, the Command Centre, intelligence.
             $this->area('Agricultural production, Command Centre and intelligence', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->where('code', 'BH1')->exists(), fn () => $this->production());
+            $this->area('Production gateway, processing line and forecasts', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::query()->where('code', 'RIV-GW1')->exists(), fn () => $this->productionMore());
 
             $this->newLine();
             $failed = collect($this->results)->filter(fn ($r) => str_starts_with($r, 'FAILED'))->count();
@@ -428,6 +429,26 @@ class SeedAgriDemoAreas extends Command
             .\App\Modules\Operations\Manufacturing\Models\Agriculture\Reading::query()->count().' readings, '
             .\App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::query()->whereIn('status', ['open', 'acknowledged'])->count().' open incidents, '
             ."{$run['proposed']} recommendations (AI brief: {$run['ai']})";
+    }
+
+    /** A farm gateway for Rivierplaas, the packhouse line as a processing batch, and today's forecasts for every cycle. */
+    private function productionMore(): string
+    {
+        $Unit = \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::class;
+        $Device = \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::class;
+        $bh1 = $Unit::query()->where('code', 'BH1')->firstOrFail();
+        $gw = $Device::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'unit_id' => $bh1->id, 'code' => 'RIV-GW1', 'name' => 'Rivierplaas poultry gateway',
+            'kind' => 'gateway', 'status' => 'online', 'last_seen_at' => now(), 'expected_interval_seconds' => 300]);
+        // The demo secret is issued and thrown away; issue a fresh one from Devices & commands to connect real hardware.
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Gateways::class)->issueSecret($gw);
+        $type = \App\Modules\Operations\Manufacturing\Models\Agriculture\ProductionType::query()->where('code', 'PROCESSING')->firstOrFail();
+        $line = $Unit::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'code' => 'PACKLINE', 'name' => 'Citrus packline', 'kind' => 'line',
+            'production_type_id' => $type->id, 'attributes' => ['demo' => true]]);
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionCycles::class)->start($type, $line,
+            ['code' => 'PACK-'.today()->format('ym').'-01', 'name' => 'Lemons export packing, this month', 'started_on' => today()->startOfMonth()->toDateString()], $this->u['owner']);
+        $n = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Forecasts::class)->forecastAll($this->companyId);
+
+        return "gateway RIV-GW1, packline batch, {$n} forecasts";
     }
 
     // ── helpers ──────────────────────────────────────────────────────────────────────────────

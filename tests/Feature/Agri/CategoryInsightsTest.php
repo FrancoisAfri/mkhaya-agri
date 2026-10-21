@@ -63,7 +63,9 @@ class CategoryInsightsTest extends AgriTestCase
         $this->assertStringEndsWith('.xlsx', $sent[0]->getAttachments()[0]->getFilename());
         $s->refresh();
         $this->assertSame('sent', $s->last_status);
-        $this->assertTrue($s->next_run_at->gt(now()->addDays(5)));
+        // On to the following Monday (how many days away depends on today), never the run just made.
+        $this->assertTrue($s->next_run_at->isFuture());
+        $this->assertSame(1, $s->next_run_at->setTimezone('Africa/Johannesburg')->dayOfWeekIso);
 
         // Someone else cannot change it; pausing it stops it.
         $this->actingAs($this->worker)->delete("/insights/farm-operations/schedules/{$s->uuid}")->assertForbidden();

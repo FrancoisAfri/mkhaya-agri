@@ -19,7 +19,7 @@ const props = defineProps<{
   stores: Array<{ id: string; name: string; kind: string; temperature_min: number | null; temperature_max: number | null; humidity_min: number | null; humidity_max: number | null }>
   data: any
   query: { lot: string | null }
-  options: { kinds: string[]; standards: any[]; items: any[]; crews: any[]; machines: any[]; crop_types: any[] }
+  options: { kinds: string[]; standards: any[]; items: any[]; crews: any[]; machines: any[]; crop_types: any[]; batches?: any[]; recipes?: any[] }
   can: { packhouse: boolean; dispatch: boolean; recall: boolean }
 }>()
 const TABS = [
@@ -42,6 +42,11 @@ const moveFields: FormField[] = [{ key: 'store_id', label: 'Store', type: 'selec
 const recallFields: FormField[] = [{ key: 'reason', label: 'Why', type: 'textarea', required: true, cols: 12 },
   { key: 'severity', label: 'Severity', type: 'select', required: true, items: ['low', 'medium', 'high'].map(x => ({ title: human(x), value: x })) }]
 const writeOff = (l: any) => { const reason = prompt(`Why is ${l.code} written off?`); if (reason) router.post(route('agri.packhouse.lots.write-off', l.uuid), { reason }, keep) }
+// A lot held by a failed check is released on a passing re-inspection, by someone other than whoever recorded it.
+const releasing = ref<any>(null)
+const recheck = ref({ note: '', checks: [{ check: '', value: '', ok: true }] })
+const startRelease = (l: any) => { releasing.value = l; recheck.value = { note: '', checks: [{ check: '', value: '', ok: true }] } }
+const release = () => router.post(route('agri.packhouse.lots.release', releasing.value.uuid), recheck.value, { ...keep, onSuccess: () => { releasing.value = null } })
 
 // operation builder
 const lots = computed(() => (props.data.lots ?? []).filter((l: any) => l.status === 'available'))
@@ -49,7 +54,8 @@ const op = ref<any>(null)
 const newOp = () => {
   op.value = { kind: 'packing', standard_id: null, performed_on: today(), inputs: [{ lot_id: null, quantity: null }],
     outputs: [{ product: '', grade: null, quantity: null, unit: 'ctn', stock_item_id: null, store_id: props.stores[0]?.id ?? null, location: '', best_before: null }],
-    packaging: [], quality_checks: [], loss_reason: '', workers: null, labour_minutes: null, labour_cost: null, machine_id: null, machine_hours: null, crew_id: null }
+    packaging: [], quality_checks: [], loss_reason: '', workers: null, labour_minutes: null, labour_cost: null, machine_id: null, machine_hours: null, crew_id: null,
+    batch_id: null, bom_id: null, batch_quantity: null }
 }
 const opStandard = computed(() => props.options.standards.find(s => s.id === op.value?.standard_id))
 const pickStandard = () => { op.value.quality_checks = (opStandard.value?.checks ?? []).map((c: any) => ({ check: c.check, value: null, note: '' })) }
@@ -133,6 +139,7 @@ const saveStd = () => router.post(std.value.uuid ? route('agri.packhouse.standar
               <td class="text-end text-no-wrap">
                 <VBtn v-if="can.packhouse && ['available', 'quarantined'].includes(l.status)" size="x-small" variant="text" @click="open('move', l)">Move</VBtn>
                 <VBtn v-if="can.recall && l.status !== 'written_off'" size="x-small" variant="text" color="error" @click="open('recall', l)">Recall</VBtn>
+                <VBtn v-if="can.packhouse && l.status === 'quarantined' && l.remaining > 0" size="x-small" variant="text" color="success" @click="startRelease(l)">Release</VBtn>
                 <VBtn v-if="can.recall && l.status === 'quarantined' && l.remaining > 0" size="x-small" variant="text" color="error" @click="writeOff(l)">Write off</VBtn>
               </td>
             </tr>
@@ -331,6 +338,11 @@ const saveStd = () => router.post(std.value.uuid ? route('agri.packhouse.standar
             <VRow v-for="c in op.quality_checks" :key="c.check" dense><VCol cols="4" class="align-self-center">{{ c.check }}</VCol>
               <VCol cols="3"><VTextField v-model="c.value" label="Value" density="compact" hide-details /></VCol><VCol cols="5"><VTextField v-model="c.note" label="Note" density="compact" hide-details /></VCol></VRow></template>
           <VRow dense class="mt-2">
+            <VCol cols="5"><VSelect v-model="op.bom_id" :items="options.recipes ?? []" label="Made to recipe (approved BOM)" density="compact" clearable hint="Inputs are checked against the recipe" persistent-hint /></VCol>
+            <VCol cols="3"><VTextField v-model.number="op.batch_quantity" type="number" label="Batch size" density="compact" :disabled="!op.bom_id" /></VCol>
+            <VCol cols="4"><VSelect v-model="op.batch_id" :items="options.batches ?? []" label="Processing batch" density="compact" clearable /></VCol>
+          </VRow>
+          <VRow dense class="mt-2">
             <VCol cols="6"><VTextField v-model="op.loss_reason" label="Why the loss" density="compact" :hint="`Loss ${num(Math.max(0, inTotal - outTotal))} if the units match`" persistent-hint /></VCol>
             <VCol cols="3"><VSelect v-model="op.crew_id" :items="options.crews" label="Crew" density="compact" clearable /></VCol>
             <VCol cols="3"><VTextField v-model.number="op.workers" type="number" label="Workers" density="compact" /></VCol>
@@ -395,5 +407,20 @@ const saveStd = () => router.post(std.value.uuid ? route('agri.packhouse.standar
       :values="{ ...dialog.row }" @update:model-value="close" />
     <FormDialog v-if="dialog?.kind === 'reading'" :model-value="true" :title="`${dialog.row.name}: reading`" :url="route('agri.packhouse.stores.readings', dialog.row.id)" :fields="readingFields"
       :values="{}" @update:model-value="close" />
+    <VDialog :model-value="!!releasing" max-width="600" @update:model-value="v => !v && (releasing = null)">
+      <VCard v-if="releasing" :title="`Release ${releasing.code}`">
+        <VCardText>
+          <VAlert type="info" variant="tonal" density="compact" class="mb-3">Record the re-inspection; every check must pass. The person who recorded the batch cannot release it.</VAlert>
+          <VRow v-for="(q, k) in recheck.checks" :key="k" dense>
+            <VCol cols="5"><VTextField v-model="q.check" label="Check" density="compact" /></VCol>
+            <VCol cols="4"><VTextField v-model="q.value" label="Result" density="compact" /></VCol>
+            <VCol cols="3"><VSwitch v-model="q.ok" :label="q.ok ? 'Pass' : 'Fail'" color="success" density="compact" hide-details /></VCol>
+          </VRow>
+          <VBtn size="small" variant="text" @click="recheck.checks.push({ check: '', value: '', ok: true })">Add a check</VBtn>
+          <VTextField v-model="recheck.note" label="Why it is released" />
+        </VCardText>
+        <VCardActions><VSpacer /><VBtn @click="releasing = null">Cancel</VBtn><VBtn color="success" :disabled="!recheck.note" @click="release">Release</VBtn></VCardActions>
+      </VCard>
+    </VDialog>
   </div>
 </template>

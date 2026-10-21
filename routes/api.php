@@ -14,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 Route::post('/manufacturing/integrations/{uuid}/webhook', [\App\Modules\Operations\Manufacturing\Http\Controllers\IntegrationController::class, 'webhook'])
     ->middleware('throttle:600,1')->name('api.manufacturing.integrations.webhook');
 
+// Agricultural production: a farm gateway posts its sensors' readings, collects the commands
+// waiting for its farm and reports what the equipment did, with its own secret. No session.
+Route::post('/production/gateways/{uuid}/readings', [\App\Modules\Operations\Manufacturing\Http\Controllers\Api\ProductionGatewayController::class, 'readings'])
+    ->middleware('throttle:600,1')->name('api.production.gateways.readings');
+Route::get('/production/gateways/{uuid}/commands', [\App\Modules\Operations\Manufacturing\Http\Controllers\Api\ProductionGatewayController::class, 'commands'])
+    ->middleware('throttle:600,1')->name('api.production.gateways.commands');
+Route::post('/production/gateways/{uuid}/commands/{command}', [\App\Modules\Operations\Manufacturing\Http\Controllers\Api\ProductionGatewayController::class, 'report'])
+    ->middleware('throttle:600,1')->name('api.production.gateways.report');
+
 // Time & Attendance clock devices: biometric readers, access-control gates and kiosks post clock
 // events here with their own secret. No session; the device names its site. The /agri/ path is kept
 // for devices set up before attendance moved into Time & Attendance.

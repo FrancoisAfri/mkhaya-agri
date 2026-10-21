@@ -16,8 +16,11 @@ const props = defineProps<{
   commands: Array<{ id: string; command: string; parameters: any; device: string | null; status: string; reason: string | null; origin: string
     requested_by: string | null; failure_reason: string | null; history: Array<{ status: string; at: string; by?: string; note?: string }>; at: string }>
   units: Array<{ value: string; title: string }>
+  issued: null | { id: string; name: string; secret: string; readings: string; commands: string }
   can: { command: boolean; approve: boolean; configure: boolean }
 }>()
+const showIssued = ref(!!props.issued)
+const rotate = (d: any) => { if (confirm(`Issue a new secret for ${d.name}? The old one stops working at once.`)) router.post(`/manufacturing/command/devices/${d.id}/secret`, {}, { preserveScroll: true, onSuccess: () => { showIssued.value = true } }) }
 
 const adding = ref(false)
 const deviceFields: FormField[] = [
@@ -29,6 +32,7 @@ const deviceFields: FormField[] = [
   { key: 'expected_interval_seconds', label: 'Reports every (seconds)', type: 'number', default: 300, cols: 6 },
   { key: 'calibration_offset', label: 'Calibration offset', type: 'number', default: 0, cols: 3 }, { key: 'calibration_factor', label: 'Factor', type: 'number', default: 1, cols: 3 },
   { key: 'controllable', label: 'Accepts commands', type: 'switch', cols: 6 }, { key: 'commands_need_approval', label: 'Commands need a second person', type: 'switch', default: true, cols: 6 },
+  { key: 'endpoint_url', label: 'Push commands to (optional URL)', hint: 'Otherwise the farm gateway collects them', cols: 12, show: f => ['controller', 'gateway'].includes(f.kind) },
 ]
 const target = ref<Record<string, any> | null>(null)
 const cmd = ref({ command: '', value: null as number | null, reason: '' })
@@ -59,7 +63,13 @@ const graph = ref<Record<string, any> | null>(null)
               <div class="text-caption">{{ d.last_measured_at ? at(d.last_measured_at) : '' }}</div></td>
             <td>{{ ago(d.last_seen_at) }}</td>
             <td><VChip size="small" label :color="d.stale || d.status === 'stale' ? 'warning' : d.status === 'online' ? 'success' : 'secondary'">{{ d.stale || d.status === 'stale' ? 'stale' : human(d.status) }}</VChip></td>
-            <td class="text-end"><VBtn v-if="d.controllable && can.command" size="small" variant="tonal" prepend-icon="tabler-send" @click="target = d; cmd = { command: d.allowed_commands?.[0]?.command ?? '', value: null, reason: '' }">Command</VBtn></td>
+            <td class="text-end">
+              <VBtn v-if="d.controllable && can.command" size="small" variant="tonal" prepend-icon="tabler-send" @click="target = d; cmd = { command: d.allowed_commands?.[0]?.command ?? '', value: null, reason: '' }">Command</VBtn>
+              <template v-if="d.kind === 'gateway'">
+                <div class="text-caption text-start">Readings: <code>{{ d.api?.readings }}</code><br>Commands: <code>{{ d.api?.commands }}</code></div>
+                <VBtn v-if="can.configure" size="x-small" variant="text" prepend-icon="tabler-key" @click="rotate(d)">{{ d.secret_issued_at ? 'New secret' : 'Issue secret' }}</VBtn>
+              </template>
+            </td>
           </tr>
           <tr v-if="!devices.length"><td colspan="6" class="text-center text-medium-emphasis py-6">No devices yet.</td></tr>
         </tbody>
@@ -101,6 +111,18 @@ const graph = ref<Record<string, any> | null>(null)
           <VAlert v-if="target.commands_need_approval" type="info" variant="tonal" density="compact">This device needs a second person to approve the command before it is sent.</VAlert>
         </VCardText>
         <VCardActions><VSpacer /><VBtn @click="target = null">Cancel</VBtn><VBtn color="primary" :disabled="!cmd.command || !cmd.reason" @click="send">Send</VBtn></VCardActions>
+      </VCard>
+    </VDialog>
+    <VDialog v-model="showIssued" max-width="640">
+      <VCard v-if="issued" :title="`Gateway ${issued.name}`">
+        <VCardText>
+          <VAlert type="warning" variant="tonal" density="compact" class="mb-3">Copy the secret now. Only its fingerprint is kept; it is not shown again.</VAlert>
+          <div class="text-caption">Secret (send as <code>Authorization: Bearer …</code>)</div>
+          <VTextField :model-value="issued.secret" readonly density="compact" class="mb-2" />
+          <div class="text-caption">Post readings: <code>POST {{ issued.readings }}</code> with <code>{"readings":[{"device","message_id","value","measured_at"}]}</code></div>
+          <div class="text-caption">Collect commands: <code>GET {{ issued.commands }}</code>; report each with <code>POST …/commands/{id}</code> and <code>{"state":"accepted|executed|failed"}</code></div>
+        </VCardText>
+        <VCardActions><VSpacer /><VBtn color="primary" @click="showIssued = false">I have copied it</VBtn></VCardActions>
       </VCard>
     </VDialog>
   </div>

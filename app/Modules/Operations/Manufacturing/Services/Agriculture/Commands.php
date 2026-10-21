@@ -157,8 +157,22 @@ class Commands
     private function send(Command $c): Command
     {
         $c->update(['sent_at' => now(), 'confirm_by' => now()->addSeconds(self::CONFIRM_SECONDS)]);
+        $c = $this->transition($c, 'sent', null, 'Queued for the gateway.');
+        // A device (or its farm's gateway) with an endpoint is sent the command now as well; either
+        // way it is only executed when the equipment says so.
+        $device = Device::query()->find($c->device_id);
+        $endpoint = $device?->endpoint_url ?: Device::query()->where('farm_id', $device?->farm_id)->where('kind', 'gateway')->whereNotNull('endpoint_url')->value('endpoint_url');
+        if ($endpoint) {
+            try {
+                $r = \Illuminate\Support\Facades\Http::timeout(5)->acceptJson()->post($endpoint, ['id' => $c->uuid, 'device' => $device->code, 'command' => $c->command,
+                    'parameters' => $c->parameters ?? (object) [], 'report_to' => url('/api/production/gateways/{gateway}/commands/'.$c->uuid)]);
+                $c->update(['history' => [...($c->history ?? []), $this->step('sent', null, $r->successful() ? 'Delivered to the equipment.' : "Push refused ({$r->status()}); waiting for the gateway to collect it.")]]);
+            } catch (\Throwable $e) {
+                $c->update(['history' => [...($c->history ?? []), $this->step('sent', null, 'Push failed; waiting for the gateway to collect it.')]]);
+            }
+        }
 
-        return $this->transition($c, 'sent', null, 'Queued for the gateway.');
+        return $c->fresh();
     }
 
     private function failed(Command $c, string $why): void
@@ -172,6 +186,7 @@ class Commands
     private function transition(Command $c, string $to, ?User $actor, ?string $note = null): Command
     {
         $c->update(['status' => $to, 'history' => [...($c->history ?? []), $this->step($to, $actor, $note)]]);
+        Incidents::broadcast((int) $c->company_id, "command.{$to}");
 
         return $c->fresh();
     }

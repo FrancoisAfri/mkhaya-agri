@@ -74,6 +74,8 @@ class ProductionRuns
                 'number' => $this->numbers->next($factory->company_id, 'PRODUCTION_ORDER', $factory->id),
                 'factory_id' => $factory->id, 'warehouse_id' => $run['warehouse']->id, 'component_warehouse_id' => $run['warehouse']->id,
                 'item_id' => $this->itemFor($outputs[0]['item'], $actor)->id, 'planned_qty' => $outQty, 'due_date' => $on,
+                // A run made to a recipe keeps the exact approved revision it was made to.
+                'bom_id' => $run['bom_id'] ?? null,
                 'priority' => 3, 'status' => PO::IN_PRODUCTION, 'demand_type' => $run['demand_type'] ?? self::DEMAND_TYPE,
                 'demand_id' => $run['demand_id'] ?? null, 'demand_reference' => $run['demand_reference'] ?? null,
                 'planned_start' => $on, 'planned_finish' => $on, 'notes' => $run['notes'] ?? ($run['description'] ?? null),

@@ -6,6 +6,7 @@
  * (flagged when it reads like an instruction), and how accurate each forecast model has been.
  */
 import { ref } from 'vue'
+import axios from 'axios'
 import { router } from '@inertiajs/vue3'
 import PageErrors from '@/Modules/Agri/Components/PageErrors.vue'
 import FormDialog, { type FormField } from '@/Modules/Agri/Components/FormDialog.vue'
@@ -27,7 +28,7 @@ const props = defineProps<{
 const tabs = [
   { value: 'recommendations', title: 'Recommendations', icon: 'tabler-bulb' }, { value: 'outbreaks', title: 'Outbreaks', icon: 'tabler-virus' },
   { value: 'opportunities', title: 'Funding & markets', icon: 'tabler-coins' }, { value: 'sources', title: 'Sources', icon: 'tabler-rss' },
-  { value: 'forecasts', title: 'Forecast accuracy', icon: 'tabler-chart-dots' },
+  { value: 'forecasts', title: 'Forecast accuracy', icon: 'tabler-chart-dots' }, { value: 'assistant', title: 'Ask', icon: 'tabler-message-chatbot' },
 ]
 const go = (t: string) => router.visit(`/manufacturing/intelligence/${t}`)
 const deciding = ref<{ id: string; decision: string } | null>(null)
@@ -44,7 +45,29 @@ const sourceFields: FormField[] = [
   { key: 'trust', label: 'Trust', type: 'select', items: ['official', 'trusted', 'community', 'unverified'], default: 'official', cols: 4 },
   { key: 'refresh_minutes', label: 'Check every (minutes)', type: 'number', default: 60, cols: 4 },
   { key: 'publisher', label: 'Publisher', cols: 6 }, { key: 'url', label: 'Address (https)', cols: 6 },
+  { key: 'adapter', label: 'Fetch it as', type: 'select', items: [{ title: 'Entered by hand', value: '' }, { title: 'RSS / Atom feed', value: 'rss' }, { title: 'CAP alerts (weather warnings)', value: 'cap' }, { title: 'JSON API', value: 'json' }], cols: 6 },
+  { key: 'item_kind', label: 'Each item is', type: 'select', items: ['notice', 'warning', 'outbreak', 'funding', 'price', 'advisory'], cols: 6, show: f => !!f.adapter },
+  { key: 'config_json', label: 'Field map (JSON)', type: 'textarea', cols: 12, show: f => f.adapter === 'json' || f.adapter === 'cap',
+    hint: 'JSON API: {"list":"data.items","map":{"external_id":"id","title":"headline","body":"summary"}}. CAP: {"default_radius_km":50}' },
 ]
+const fetching = ref<string | null>(null)
+const fetchNow = (id: string) => router.post(`/manufacturing/intelligence/sources/${id}/fetch`, {}, { preserveScroll: true, onStart: () => { fetching.value = id }, onFinish: () => { fetching.value = null } })
+// The assistant: answered from the records; it never acts.
+const question = ref('')
+const asking = ref(false)
+const chat = ref<Array<{ q: string; a: string; ai: string; topics: string[] }>>([])
+async function ask() {
+  if (question.value.trim().length < 3) return
+  asking.value = true
+  const q = question.value
+  try {
+    const r = await axios.post('/manufacturing/intelligence/assistant', { question: q })
+    chat.value.unshift({ q, a: r.data.answer, ai: r.data.ai, topics: r.data.topics })
+    question.value = ''
+  }
+  catch (e: any) { chat.value.unshift({ q, a: e?.response?.data?.message ?? 'The question could not be answered.', ai: 'error', topics: [] }) }
+  finally { asking.value = false }
+}
 const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warning' : 'info'
 </script>
 
@@ -159,7 +182,9 @@ const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warn
               <td>{{ human(s.kind) }}</td><td>{{ human(s.trust) }}</td>
               <td>{{ ago(s.last_success_at) }}<div v-if="s.last_error" class="text-caption text-error">{{ s.last_error }} ({{ s.failure_count }}×)</div></td>
               <td>{{ s.next_attempt_at ? at(s.next_attempt_at) : '—' }}</td>
-              <td><VChip size="small" label :color="s.status === 'failing' ? 'error' : s.stale ? 'warning' : 'success'">{{ s.status === 'failing' ? 'failing — retrying' : s.stale ? 'stale' : 'current' }}</VChip></td>
+              <td><VChip size="small" label :color="s.status === 'failing' ? 'error' : s.stale ? 'warning' : 'success'">{{ s.status === 'failing' ? 'failing — retrying' : s.stale ? 'stale' : 'current' }}</VChip>
+                <div class="text-caption">{{ s.adapter ? `${s.adapter.toUpperCase()} · ${s.item_kind ?? 'notice'}` : 'by hand' }}</div>
+                <VBtn v-if="s.adapter && can.manage" size="x-small" variant="text" :loading="fetching === s.id" @click="fetchNow(s.id)">Fetch now</VBtn></td>
             </tr>
           </tbody>
         </VTable>
@@ -201,6 +226,30 @@ const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warn
             <td class="text-end">{{ f.actual === null ? '—' : `${num(f.actual, 3)} (${num(f.abs_pct_error, 1)}% off)` }}</td><td>{{ f.model }}</td>
           </tr></tbody>
         </VTable>
+      </VCard>
+    </template>
+
+    <!-- Assistant -->
+    <template v-if="tab === 'assistant'">
+      <VCard border class="mb-4">
+        <VCardText>
+          <p class="text-body-2 text-medium-emphasis">Ask about your flocks, crops, herds, ponds, alarms, holds, water, outbreaks near your farms, funding or forecasts. Answers come from your own records; the assistant cannot operate equipment or approve anything.</p>
+          <div class="d-flex gap-2">
+            <VTextField v-model="question" label="Your question" placeholder="Why is mortality up in broiler house 1?" hide-details @keyup.enter="ask" />
+            <VBtn color="primary" :loading="asking" :disabled="question.trim().length < 3" @click="ask">Ask</VBtn>
+          </div>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <VChip v-for="ex in ['What needs attention right now?', 'Which cycles cannot be sold yet?', 'How is the broiler flock doing?', 'Any outbreaks near our farms?', 'Which grants could we apply for?']"
+              :key="ex" size="small" @click="question = ex; ask()">{{ ex }}</VChip>
+          </div>
+        </VCardText>
+      </VCard>
+      <VCard v-for="(m, k) in chat" :key="k" border class="mb-3">
+        <VCardText>
+          <div class="font-weight-medium mb-2"><VIcon icon="tabler-user" size="16" /> {{ m.q }}</div>
+          <div style="white-space: pre-line">{{ m.a }}</div>
+          <div class="text-caption text-medium-emphasis mt-2">{{ m.ai === 'ok' ? 'Worded by AI from your records' : 'From your records (AI wording unavailable)' }}<template v-if="m.topics.length"> · looked at {{ m.topics.join(', ') }}</template></div>
+        </VCardText>
       </VCard>
     </template>
 

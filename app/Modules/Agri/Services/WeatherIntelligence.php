@@ -206,17 +206,17 @@ class WeatherIntelligence
                     ->map(fn ($a) => ['label' => "Spraying: {$a->title}", 'from' => FarmTime::at($a->planned_on->toDateString(), '00:00', $farm), 'to' => FarmTime::at($a->planned_on->toDateString(), '23:59', $farm),
                         'key' => "act:{$a->id}", 'link' => null])->all()),
             'frost' => $f(CropPlan::query())->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->when($rule->crop_type_id, fn ($q) => $q->where('crop_type_id', $rule->crop_type_id))
-                ->get()->map(fn ($p) => ['label' => "Frost on {$p->code}", 'from' => $now, 'to' => $until, 'key' => "plan:{$p->id}", 'link' => "/agri/crops/plans/{$p->uuid}"])->all(),
+                ->get()->map(fn ($p) => ['label' => "Frost on {$p->code}", 'from' => $now, 'to' => $until, 'key' => "plan:{$p->id}", 'link' => "/manufacturing/agriculture/crops/plans/{$p->uuid}"])->all(),
             'irrigation' => $f(IrrigationEvent::query())->where('status', 'planned')->where('planned_start', '<', $until)->where('planned_start', '>', $now->copy()->subHours(1))->get()
                 ->map(fn ($e) => ['label' => 'Irrigation '.FarmTime::local($e->planned_start, $farm)->format('D H:i'), 'from' => $now, 'to' => $e->planned_start->copy()->addDay(),
-                    'key' => "irr:{$e->id}", 'link' => '/agri/crops/intelligence/irrigation'])->all(),
+                    'key' => "irr:{$e->id}", 'link' => '/manufacturing/agriculture/crops/intelligence/irrigation'])->all(),
             'harvest_access' => $f(WO::query())->where('category', 'harvesting')->whereIn('status', [WO::DRAFT, WO::APPROVED, WO::IN_PROGRESS])
                 ->where('planned_start', '<', $until)->where('planned_end', '>', $now)->get()
                 ->map(fn ($w) => ['label' => "Harvest {$w->reference}", 'from' => $w->planned_start->copy()->subDay(), 'to' => $w->planned_end, 'key' => "wo:{$w->id}", 'link' => "/agri/work-orders/{$w->uuid}"])->all(),
             'worker_heat' => $f(FarmShift::query())->where('status', '!=', 'cancelled')->where('starts_at', '<', $until)->where('ends_at', '>', $now)->get()
                 ->map(fn ($s) => ['label' => "Shift {$s->title}", 'from' => $s->starts_at, 'to' => $s->ends_at, 'key' => "shift:{$s->id}", 'link' => '/agri/roster'])->all(),
             'livestock_heat' => $f(LivestockGroup::query())->where('status', 'active')->when($rule->species_id, fn ($q) => $q->where('species_id', $rule->species_id))->get()
-                ->map(fn ($g) => ['label' => "Heat stress for {$g->code}", 'from' => $now, 'to' => $until, 'key' => "group:{$g->id}", 'link' => "/agri/livestock/groups/{$g->uuid}"])->all(),
+                ->map(fn ($g) => ['label' => "Heat stress for {$g->code}", 'from' => $now, 'to' => $until, 'key' => "group:{$g->id}", 'link' => "/manufacturing/agriculture/livestock/groups/{$g->uuid}"])->all(),
             default => [],
         };
     }

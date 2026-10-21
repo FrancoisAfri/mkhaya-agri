@@ -21159,10 +21159,6 @@
         "title": "Houses, fields & lines",
         "subtitle": "Where production happens, and what is in each now"
       },
-      "agri_processing": {
-        "title": "Processing & packhouse",
-        "subtitle": "Grade, pack and process farm produce into lots, with QA holds and genealogy"
-      },
       "agri_types": {
         "title": "Production types",
         "subtitle": "Stages, measurements, custom fields and metric formulas, versioned"
@@ -21202,6 +21198,26 @@
       "intel_forecasts": {
         "title": "Forecast accuracy",
         "subtitle": "Each model’s forecasts against what actually happened"
+      },
+      "agri_crops": {
+        "title": "Crops",
+        "subtitle": "Crop plans, field work, scouting and harvests on every field"
+      },
+      "agri_crop_intelligence": {
+        "title": "Crop intelligence",
+        "subtitle": "Stages, scouting thresholds, irrigation, rotation and forecasts"
+      },
+      "agri_livestock": {
+        "title": "Livestock",
+        "subtitle": "Herds, flocks and animals: health, withdrawals, weights, feeding"
+      },
+      "agri_packhouse": {
+        "title": "Packhouse & processing",
+        "subtitle": "Grade, pack and process produce into lots; recipes, QA holds, storage, dispatch, recalls"
+      },
+      "intel_assistant": {
+        "title": "Production assistant",
+        "subtitle": "Ask about flocks, crops, alarms, holds and forecasts — answered from your records"
       }
     },
     "common": {

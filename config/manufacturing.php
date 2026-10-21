@@ -29,6 +29,8 @@ return [
         // How long the live stream stays open before the browser reconnects, and how often it sends.
         'stream_seconds' => 55,
         'stream_every' => 5,
+        // How far a batch made to a recipe may stray from the recipe's quantities.
+        'recipe_tolerance_pct' => 10,
     ],
 
     'packages' => [

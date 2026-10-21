@@ -138,9 +138,9 @@ class AgriNotifier
     {
         $where = $obs->field_id ? \App\Modules\Agri\Models\FarmField::withoutGlobalScopes()->whereKey($obs->field_id)->value('code') : null;
         $text = "{$why}. ".ucfirst(str_replace('_', ' ', $obs->kind)).($where ? " on {$where}" : '').", {$obs->severity}: ".mb_strimwidth((string) $obs->description, 0, 200);
-        $this->tellLeads([$obs->farm_id], $escalated ? 'Scouting escalated' : 'Scouting threshold', $text, '/agri/crops/scouting');
+        $this->tellLeads([$obs->farm_id], $escalated ? 'Scouting escalated' : 'Scouting threshold', $text, '/manufacturing/agriculture/crops/scouting');
         if ($obs->responsible_user_id && ($u = $this->user((int) $obs->responsible_user_id))) {
-            $this->send($u, new \App\Modules\Agri\Notifications\FarmWorkNotice('Scouting: yours to follow up', $text, '/agri/crops/scouting'));
+            $this->send($u, new \App\Modules\Agri\Notifications\FarmWorkNotice('Scouting: yours to follow up', $text, '/manufacturing/agriculture/crops/scouting'));
         }
         if ($escalated) {
             // Whoever oversees every farm (the owner's role) hears of an escalation too.
@@ -151,7 +151,7 @@ class AgriNotifier
                 $owners = collect();
             }
             foreach ($owners as $u) {
-                $this->send($u, new \App\Modules\Agri\Notifications\FarmWorkNotice('Scouting escalated', $text, '/agri/crops/scouting'));
+                $this->send($u, new \App\Modules\Agri\Notifications\FarmWorkNotice('Scouting escalated', $text, '/manufacturing/agriculture/crops/scouting'));
             }
         }
     }
@@ -161,7 +161,7 @@ class AgriNotifier
     {
         $text = "Notifiable disease recorded on {$who}: ".($r->condition ?: 'see the health record')
             .($r->quarantine_days ? ". Quarantined for {$r->quarantine_days} days." : '. No quarantine was set — check whether one is required.');
-        $this->tellLeads([$r->farm_id], 'Notifiable disease', $text, '/agri/livestock');
+        $this->tellLeads([$r->farm_id], 'Notifiable disease', $text, '/manufacturing/agriculture/livestock');
         try {
             $owners = User::withoutGlobalScopes()->where('company_id', $r->company_id)->whereNull('deleted_at')
                 ->permission(\App\Modules\Agri\Support\RoleCatalog::ALL_FARMS)->get();
@@ -169,7 +169,7 @@ class AgriNotifier
             $owners = collect();
         }
         foreach ($owners as $u) {
-            $this->send($u, new \App\Modules\Agri\Notifications\FarmWorkNotice('Notifiable disease', $text, '/agri/livestock'));
+            $this->send($u, new \App\Modules\Agri\Notifications\FarmWorkNotice('Notifiable disease', $text, '/manufacturing/agriculture/livestock'));
         }
     }
 
@@ -186,7 +186,7 @@ class AgriNotifier
     public function storageOutOfRange(\App\Modules\Agri\Models\FarmStore $store, \App\Modules\Agri\Models\StorageReading $r): void
     {
         $this->tellLeads([$store->farm_id], "{$store->name}: out of range", "{$r->deviation} at ".$r->recorded_at?->format('D j M H:i').'. Record what was done about it.',
-            '/agri/packhouse/storage');
+            '/manufacturing/agriculture/packhouse/storage');
     }
 
     /** A machine stopped: the farm's leads hear which jobs were relying on it. */

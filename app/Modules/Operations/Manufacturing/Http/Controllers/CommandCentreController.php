@@ -14,6 +14,7 @@ use App\Modules\Operations\Manufacturing\Models\Agriculture\Threshold;
 use App\Modules\Operations\Manufacturing\Models\Agriculture\Unit;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\CommandCentre;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\Commands;
+use App\Modules\Operations\Manufacturing\Services\Agriculture\Gateways;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\Incidents;
 use App\Modules\Operations\Manufacturing\Services\Agriculture\Readings;
 use Illuminate\Http\JsonResponse;
@@ -41,6 +42,8 @@ class CommandCentreController extends Controller
         return Inertia::render('Modules/Manufacturing/Command/Centre', [
             'snapshot' => $this->centre->snapshot($request->user()),
             'stream' => '/manufacturing/command/stream',
+            // WebSockets (Reverb) when they are running; the page falls back to the event stream.
+            'channel' => 'command-centre.'.$request->user()->company_id,
             'can' => $this->can($request),
         ]);
     }
@@ -183,7 +186,10 @@ class CommandCentreController extends Controller
                     'location' => $d->location?->name, 'status' => $d->status, 'stale' => $d->isStale(), 'last_value' => $d->last_value,
                     'last_measured_at' => $d->last_measured_at?->toIso8601String(), 'last_seen_at' => $d->last_seen_at?->toIso8601String(),
                     'controllable' => $d->controllable, 'commands_need_approval' => $d->commands_need_approval, 'allowed_commands' => $d->allowed_commands ?? [],
-                    'calibration_offset' => $d->calibration_offset, 'calibration_factor' => $d->calibration_factor, 'calibrated_on' => $d->calibrated_on?->toDateString()])->values(),
+                    'calibration_offset' => $d->calibration_offset, 'calibration_factor' => $d->calibration_factor, 'calibrated_on' => $d->calibrated_on?->toDateString(),
+                    'endpoint_url' => $d->endpoint_url, 'secret_issued_at' => $d->secret_issued_at?->toIso8601String(),
+                    'api' => $d->kind === 'gateway' ? ['readings' => route('api.production.gateways.readings', $d->uuid), 'commands' => route('api.production.gateways.commands', $d->uuid)] : null])->values(),
+            'issued' => session('gateway'),
             'commands' => Command::query()->with('device:id,name')->latest('id')->limit(100)->get()->map(fn (Command $c) => ['id' => $c->uuid, 'command' => $c->command,
                 'parameters' => $c->parameters, 'device' => $c->device?->name, 'status' => $c->status, 'reason' => $c->reason, 'origin' => $c->origin,
                 'requested_by' => \App\Core\User\Models\User::query()->find($c->requested_by)?->name, 'failure_reason' => $c->failure_reason,
@@ -199,15 +205,34 @@ class CommandCentreController extends Controller
         $d = $request->validate(['unit_id' => ['required', 'uuid'], 'code' => ['required', 'string', 'max:60'], 'name' => ['required', 'string', 'max:120'],
             'kind' => ['required', Rule::in(['sensor', 'meter', 'controller', 'gateway'])], 'metric' => ['nullable', 'string', 'max:40'], 'unit' => ['nullable', 'string', 'max:20'],
             'expected_interval_seconds' => ['nullable', 'integer', 'between:10,86400'], 'calibration_offset' => ['nullable', 'numeric'], 'calibration_factor' => ['nullable', 'numeric', 'gt:0'],
-            'controllable' => ['nullable', 'boolean'], 'commands_need_approval' => ['nullable', 'boolean'], 'allowed_commands' => ['nullable', 'array']]);
+            'controllable' => ['nullable', 'boolean'], 'commands_need_approval' => ['nullable', 'boolean'], 'allowed_commands' => ['nullable', 'array'],
+            'endpoint_url' => ['nullable', 'url:https,http', 'max:500']]);
         $unit = $this->scoped(Unit::query(), $request)->where('uuid', $d['unit_id'])->firstOrFail();
         if (Device::query()->where('code', $d['code'])->exists()) {
             throw \Illuminate\Validation\ValidationException::withMessages(['code' => "A device {$d['code']} already exists."]);
         }
-        Device::create(['company_id' => $unit->company_id, 'farm_id' => $unit->farm_id, 'unit_id' => $unit->id, 'status' => 'online', 'calibrated_on' => today()]
+        $device = Device::create(['company_id' => $unit->company_id, 'farm_id' => $unit->farm_id, 'unit_id' => $unit->id, 'status' => 'online', 'calibrated_on' => today()]
             + collect($d)->except('unit_id')->filter(fn ($v) => $v !== null)->all());
+        if ($device->kind === 'gateway') {
+            return back()->with('success', "{$d['name']} added. Copy its secret now — it is not shown again.")->with('gateway', $this->issued($device, app(Gateways::class)->issueSecret($device)));
+        }
 
         return back()->with('success', "{$d['name']} added to {$unit->name}.");
+    }
+
+    /** A new secret for a gateway (the old one stops working at once). */
+    public function rotateSecret(Request $request, string $device, Gateways $gateways): RedirectResponse
+    {
+        $this->authorize('configure', Incident::class);
+        $g = $this->scoped(Device::query(), $request)->where('uuid', $device)->where('kind', 'gateway')->firstOrFail();
+
+        return back()->with('success', "New secret for {$g->name}. Copy it now — it is not shown again.")->with('gateway', $this->issued($g, $gateways->issueSecret($g)));
+    }
+
+    private function issued(Device $g, string $secret): array
+    {
+        return ['id' => $g->uuid, 'name' => $g->name, 'secret' => $secret, 'readings' => route('api.production.gateways.readings', $g->uuid),
+            'commands' => route('api.production.gateways.commands', $g->uuid)];
     }
 
     public function requestCommand(Request $request, string $device, Commands $commands): RedirectResponse

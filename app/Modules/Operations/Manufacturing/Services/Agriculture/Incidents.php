@@ -229,6 +229,17 @@ class Incidents
     {
         IncidentEvent::create(['company_id' => $incident->company_id, 'incident_id' => $incident->id, 'event' => $event,
             'actor_id' => $actor?->id, 'at' => now(), 'detail' => array_filter($detail, fn ($v) => $v !== null) ?: null]);
+        self::broadcast((int) $incident->company_id, "incident.{$event}", $incident->severity);
+    }
+
+    /** Tell open Command Centre boards; a socket that is down never stops the record being kept. */
+    public static function broadcast(int $companyId, string $what, ?string $severity = null): void
+    {
+        try {
+            \App\Modules\Operations\Manufacturing\Events\CommandCentreChanged::dispatch($companyId, $what, $severity);
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::info('Command Centre broadcast skipped', ['error' => $e->getMessage()]);
+        }
     }
 
     private function assertOpen(Incident $incident): void

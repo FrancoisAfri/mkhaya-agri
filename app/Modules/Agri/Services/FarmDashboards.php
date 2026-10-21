@@ -108,12 +108,12 @@ class FarmDashboards
             $f = HarvestForecast::query()->where('crop_plan_id', $p->id)->latest('id')->value('quantity');
 
             return ['plan' => $p->code, 'target' => round($target, 1), 'harvested' => round($in, 1), 'forecast' => $f !== null ? round((float) $f, 1) : null, 'unit' => $p->yield_unit,
-                'vs_target_pct' => $target > 0 ? round((($f ?? $in) - $target) / $target * 100, 1) : null, 'link' => "/agri/crops/plans/{$p->uuid}"];
+                'vs_target_pct' => $target > 0 ? round((($f ?? $in) - $target) / $target * 100, 1) : null, 'link' => "/manufacturing/agriculture/crops/plans/{$p->uuid}"];
         });
 
         return ['key' => 'production', 'title' => 'Production: yield against target', 'metrics' => [
-            $this->m('Crops harvested or growing with a target', $plans->count(), null, 'real_time', 'Crop plans with an expected yield', '/agri/crops'),
-            $this->m('Forecast below target', $rows->filter(fn ($r) => $r['forecast'] !== null && $r['vs_target_pct'] < 0)->count(), 'crops', 'forecast', 'Latest harvest forecast against expected yield × area', '/agri/crops/intelligence/harvest'),
+            $this->m('Crops harvested or growing with a target', $plans->count(), null, 'real_time', 'Crop plans with an expected yield', '/manufacturing/agriculture/crops'),
+            $this->m('Forecast below target', $rows->filter(fn ($r) => $r['forecast'] !== null && $r['vs_target_pct'] < 0)->count(), 'crops', 'forecast', 'Latest harvest forecast against expected yield × area', '/manufacturing/agriculture/crops/intelligence/harvest'),
         ], 'rows' => $rows->values()->all()];
     }
 
@@ -160,9 +160,9 @@ class FarmDashboards
     private function agronomy(array $ids): array
     {
         return ['key' => 'agronomy', 'title' => 'Crop health and field work', 'metrics' => [
-            $this->m('Open scouting observations', CropObservation::query()->whereIn('farm_id', $ids)->where('status', 'open')->count(), null, 'real_time', 'Scouting', '/agri/crops/intelligence/scouting'),
-            $this->m('Serious and open', CropObservation::query()->whereIn('farm_id', $ids)->where('status', 'open')->whereIn('severity', ['high', 'critical'])->count(), null, 'real_time', 'Scouting', '/agri/crops/intelligence/scouting'),
-            $this->m('Field activities due this week', \App\Modules\Agri\Models\FieldActivity::query()->whereIn('farm_id', $ids)->where('status', 'planned')->whereDate('planned_on', '<=', today()->addDays(7))->count(), null, 'real_time', 'Planned field activities', '/agri/crops'),
+            $this->m('Open scouting observations', CropObservation::query()->whereIn('farm_id', $ids)->where('status', 'open')->count(), null, 'real_time', 'Scouting', '/manufacturing/agriculture/crops/intelligence/scouting'),
+            $this->m('Serious and open', CropObservation::query()->whereIn('farm_id', $ids)->where('status', 'open')->whereIn('severity', ['high', 'critical'])->count(), null, 'real_time', 'Scouting', '/manufacturing/agriculture/crops/intelligence/scouting'),
+            $this->m('Field activities due this week', \App\Modules\Agri\Models\FieldActivity::query()->whereIn('farm_id', $ids)->where('status', 'planned')->whereDate('planned_on', '<=', today()->addDays(7))->count(), null, 'real_time', 'Planned field activities', '/manufacturing/agriculture/crops'),
         ]];
     }
 
@@ -229,7 +229,7 @@ class FarmDashboards
             $f = HarvestForecast::query()->where('crop_plan_id', $p->id)->latest('id')->value('quantity');
             $in = (float) HarvestRecord::query()->where('crop_plan_id', $p->id)->where('destination', '!=', 'loss')->sum('quantity');
             if ($owed > 0 && $f !== null && (float) $f - $in < $owed) {
-                $out[] = ['kind' => 'harvest_short', 'title' => "{$p->code}: forecast short of commitments", 'nature' => 'forecast', 'link' => "/agri/crops/plans/{$p->uuid}",
+                $out[] = ['kind' => 'harvest_short', 'title' => "{$p->code}: forecast short of commitments", 'nature' => 'forecast', 'link' => "/manufacturing/agriculture/crops/plans/{$p->uuid}",
                     'detail' => 'Forecast still to come '.round((float) $f - $in, 1)." {$p->yield_unit}, owed to buyers {$owed}."];
             }
         }

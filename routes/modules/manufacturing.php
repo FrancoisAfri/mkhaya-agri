@@ -464,9 +464,6 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::get('/types', 'types')->name('types');
             Route::post('/types', 'storeType')->name('types.store');
             Route::post('/types/{type}', 'reviseType')->whereUuid('type')->name('types.revise');
-            Route::get('/processing', 'processing')->name('processing');
-            Route::post('/processing', 'runProcessing')->name('processing.run');
-            Route::post('/processing/lots/{lot}/release', 'release')->whereUuid('lot')->name('processing.release');
         });
 
         // ── Command & Control Centre ───────────────────────────────────────────────────────────
@@ -481,6 +478,7 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::get('/devices', 'devices')->name('devices');
             Route::post('/devices', 'storeDevice')->name('devices.store');
             Route::post('/devices/{device}/commands', 'requestCommand')->whereUuid('device')->name('devices.commands');
+            Route::post('/devices/{device}/secret', 'rotateSecret')->whereUuid('device')->name('devices.secret');
             Route::post('/commands/{command}', 'decideCommand')->whereUuid('command')->name('commands.decide');
             Route::get('/settings', 'settings')->name('settings');
             Route::post('/settings/thresholds', 'storeThreshold')->name('settings.thresholds');
@@ -494,9 +492,12 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::get('/opportunities', 'opportunities')->name('opportunities');
             Route::get('/sources', 'sources')->name('sources');
             Route::get('/forecasts', 'forecasts')->name('forecasts');
+            Route::get('/assistant', 'assistant')->name('assistant');
+            Route::post('/assistant', 'ask')->name('assistant.ask');
             Route::post('/recommendations/{recommendation}', 'decide')->whereUuid('recommendation')->name('recommendations.decide');
             Route::post('/matches/{match}', 'match')->whereUuid('match')->name('matches.decide');
             Route::post('/run', 'run')->name('run');
             Route::post('/sources', 'storeSource')->name('sources.store');
+            Route::post('/sources/{source}/fetch', 'fetchSource')->whereUuid('source')->name('sources.fetch');
         });
     });

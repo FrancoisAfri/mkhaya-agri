@@ -126,6 +126,17 @@ class ManufacturingRoutesAuthorizeTest extends ManufacturingTestCase
 
                 $this->assertNotEmpty($card['gate'], "The {$group} card {$card['key']} declares no gate.");
 
+                // The farm's crops, livestock and packhouse are hosted here but are the farm module's
+                // pages: gated on the farm permission, and each action checks farm permissions itself.
+                if (str_starts_with((string) $route->getName(), 'agri.')) {
+                    $this->assertNull($card['gate']['subject'], $card['key']);
+                    $this->assertContains($card['gate']['ability'], \App\Modules\Agri\Support\RoleCatalog::everything(), $card['key']);
+                    $this->assertMatchesRegularExpression('/\$this->allow\(/', $source, "{$card['key']}: the farm page does not check a farm permission.");
+                    $checked++;
+
+                    continue;
+                }
+
                 preg_match("/\\\$this->authorize\(\s*'([a-zA-Z]+)'\s*,\s*([A-Za-z]+)::class/", $source, $m);
                 $this->assertSame($m[1] ?? null, $card['gate']['ability'],
                     "{$card['key']}: the card offers a page that authorizes something else.");
@@ -134,7 +145,7 @@ class ManufacturingRoutesAuthorizeTest extends ManufacturingTestCase
             }
         }
 
-        $this->assertSame(67, $checked);
+        $this->assertSame(71, $checked);
     }
 
     public function test_every_hub_group_has_a_landing_served_by_the_hub_controller(): void

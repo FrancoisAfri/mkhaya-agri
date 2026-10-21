@@ -146,7 +146,7 @@ class PostHarvest
                 $first = $inputs[0]['lot'];
                 $codes = collect($outputs)->map(fn ($o, $k) => $o['code'] ?? sprintf('%s-%s%d', $first->code, strtoupper(substr($kind, 0, 1)), $op->id * 10 + $k + 1))->all();
 
-                $run = $stocked ? $this->run($farm, $op, $kind, $inputs, $outputs, $packaging, $codes, $checks->all(), $actor) : null;
+                $run = $stocked ? $this->run($farm, $op, $kind, $inputs, $outputs, $packaging, $codes, $checks->all(), $actor, $data['bom_id'] ?? null) : null;
                 if (! $stocked) {
                     // Produce never put in a store has no stock to move; its packaging is a packhouse cost.
                     $used = [];
@@ -202,7 +202,7 @@ class PostHarvest
     }
 
     /** The production run that grades or packs stocked produce, at the farm's packhouse. */
-    private function run(Farm $farm, PackhouseOperation $op, string $kind, array $inputs, array $outputs, array $packaging, array $codes, array $checks, User $actor): ProductionOrder
+    private function run(Farm $farm, PackhouseOperation $op, string $kind, array $inputs, array $outputs, array $packaging, array $codes, array $checks, User $actor, ?int $bomId = null): ProductionOrder
     {
         $wh = fn (?int $id) => FinWarehouse::withoutGlobalScopes()->findOrFail($id);
         $item = fn (int $id) => FinStockItem::withoutGlobalScopes()->findOrFail($id);
@@ -213,7 +213,7 @@ class PostHarvest
             'factory' => $this->packhouse($farm), 'warehouse' => $wh($first->warehouse_id), 'performed_on' => $op->performed_on->toDateString(),
             'description' => ucfirst($kind)." at {$farm->name} ({$op->reference})", 'demand_type' => 'AGRI_PACKHOUSE', 'demand_id' => $op->id, 'demand_reference' => $op->reference,
             'loss_qty' => (float) $op->loss_quantity, 'loss_reason' => $op->loss_reason, 'labour_cost' => $op->labour_cost, 'labour_minutes' => $op->labour_minutes,
-            'quality_passed' => $op->quality_passed, 'quality_checks' => $checks ?: null, 'key' => "agri-ph-{$op->uuid}",
+            'quality_passed' => $op->quality_passed, 'quality_checks' => $checks ?: null, 'key' => "agri-ph-{$op->uuid}", 'bom_id' => $bomId,
             'dimensions' => AgriLedger::dimensions($farm, null, null, 'packhouse'),
             'inputs' => collect($inputs)->map(fn ($i) => ['item' => $item((int) $i['lot']->stock_item_id), 'qty' => (float) $i['quantity'],
                 'lot_id' => $i['lot']->stock_lot_id, 'warehouse' => $wh($i['lot']->warehouse_id)])->all(),

@@ -71,6 +71,10 @@ class Readings
             $raised = $this->evaluate($device->fresh(), $latest);
         }
 
+        if ($stored > 0) {
+            Incidents::broadcast((int) $device->company_id, 'readings');
+        }
+
         return ['stored' => $stored, 'duplicates' => $duplicates, 'out_of_order' => collect($rows)->where('quality', 'out_of_order')->count(), 'incidents' => $raised];
     }
 
