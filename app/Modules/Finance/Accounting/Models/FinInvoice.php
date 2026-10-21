@@ -29,6 +29,8 @@ class FinInvoice extends Model
         'assigned_to', 'disputed', 'dispute_reason', 'disputed_at', 'disputed_by',
         'dunning_step', 'last_reminded_at', 'pay_token',
         'terms', 'template_id',
+        // Analysis dimensions the income lines are posted with (Mkhaya Agri: farm, field, crop), kept so an amendment re-posts with them.
+        'dimensions',
     ];
 
     /**
@@ -58,6 +60,7 @@ class FinInvoice extends Model
         'total'            => 'decimal:2',
         'amount_paid'      => 'decimal:2',
         'disputed'         => 'boolean',
+        'dimensions'       => 'array',
         'disputed_at'      => 'datetime',
         'last_reminded_at' => 'datetime',
         'dunning_step'     => 'integer',

@@ -6,12 +6,13 @@ import PageErrors from '../Components/PageErrors.vue'
 import FormDialog from '../Components/FormDialog.vue'
 import RowMenu from '../Components/RowMenu.vue'
 import { human, money, num, statusColor, today } from '../Components/agri'
-import { countFields, healthFields, weightFields, type LivestockOptions } from './fields'
+import { countFields, feedFields, healthFields, produceFields, weightFields, type LivestockOptions } from './fields'
 
 const props = defineProps<{
   group: any; animals: any[]; changes: any[]; health: any[]; weights: any[]
+  intel: { sale_blocks: string[]; growth: any; feed: any; costing: any; feedings: any[]; production: any[] }
   options: LivestockOptions
-  can: { manage: boolean; health: boolean }
+  can: { manage: boolean; health: boolean; view_health?: boolean; finance?: boolean }
 }>()
 const dialog = ref<null | string>(null)
 const close = (v: boolean) => { if (!v) dialog.value = null }
@@ -33,6 +34,8 @@ const isFlock = props.group.tracking === 'group'
         <RowMenu size="default" :actions="[
           { title: 'Change head count', icon: 'tabler-plus-minus', show: can.manage && isFlock, onClick: () => (dialog = 'count') },
           { title: 'Record group weight', icon: 'tabler-scale', show: can.manage || can.health, onClick: () => (dialog = 'weight') },
+          { title: 'Feeding', icon: 'tabler-bowl', show: can.manage || can.health, onClick: () => (dialog = 'feed') },
+          { title: 'Milk, eggs, wool', icon: 'tabler-milk', show: can.manage || can.health, onClick: () => (dialog = 'produce') },
           { title: 'Edit group', icon: 'tabler-edit', show: can.manage, onClick: () => (dialog = 'edit') },
         ]" />
       </div>
@@ -42,6 +45,19 @@ const isFlock = props.group.tracking === 'group'
       Withdrawal period: animals from this group may not be sold or slaughtered before <strong>{{ group.withdrawal_until }}</strong>.
     </VAlert>
 
+    <VAlert v-if="intel.sale_blocks.length" type="error" variant="tonal" class="mb-4" icon="tabler-ban">
+      <div class="font-weight-medium">Not for sale or dispatch:</div><div v-for="b in intel.sale_blocks" :key="b">{{ b }}</div>
+    </VAlert>
+    <VRow class="mb-2">
+      <VCol cols="6" md="3"><VCard><VCardText><div class="text-caption">Feed so far</div><div class="text-h6">{{ num(intel.feed.feed_kg, 0) }} kg</div>
+        <div class="text-caption">{{ intel.feed.kg_per_head_day !== null ? intel.feed.kg_per_head_day + ' kg/head/day' : '' }}{{ intel.feed.fcr !== null ? ' · FCR ' + intel.feed.fcr : '' }}</div></VCardText></VCard></VCol>
+      <VCol cols="6" md="3"><VCard><VCardText><div class="text-caption">Growth</div><div class="text-h6">{{ intel.growth ? intel.growth.adg_kg + ' kg/day' : '—' }}</div>
+        <div class="text-caption">{{ intel.growth ? `${intel.growth.start_kg} → ${intel.growth.end_kg} kg` : 'weigh twice to see it' }}</div></VCardText></VCard></VCol>
+      <VCol v-if="intel.costing" cols="6" md="3"><VCard><VCardText><div class="text-caption">Cost this cycle</div><div class="text-h6">{{ money(intel.costing.total_costs) }}</div>
+        <div class="text-caption">{{ money(intel.costing.cost_per_head) }}/head<template v-if="intel.feed.cost_per_kg_gain"> · {{ money(intel.feed.cost_per_kg_gain) }}/kg gained</template></div></VCardText></VCard></VCol>
+      <VCol v-if="intel.costing" cols="6" md="3"><VCard><VCardText><div class="text-caption">Margin</div><div class="text-h6" :class="intel.costing.margin < 0 ? 'text-error' : 'text-success'">{{ money(intel.costing.margin) }}</div>
+        <div class="text-caption">sales {{ money(intel.costing.revenue) }}<template v-for="(c, k) in intel.costing.cost_per_unit" :key="k"> · {{ money(c) }}/{{ String(k).split('|')[1] }} {{ String(k).split('|')[0] }}</template></div></VCardText></VCard></VCol>
+    </VRow>
     <VRow class="mb-2">
       <VCol cols="6" md="3"><VCard><VCardText><div class="text-caption">Head</div><div class="text-h4">{{ num(group.head, 0) }}</div></VCardText></VCard></VCol>
       <VCol cols="6" md="3"><VCard><VCardText><div class="text-caption">Tracked</div><div class="text-h6">{{ isFlock ? 'As a flock (count)' : 'Individually' }}</div></VCardText></VCard></VCol>
@@ -86,6 +102,13 @@ const isFlock = props.group.tracking === 'group'
           </VList>
           <VCardText v-else class="text-medium-emphasis">No treatments recorded.</VCardText>
         </VCard>
+        <VCard v-if="intel.feedings.length" title="Feeding" class="mb-4">
+          <VList density="compact" lines="two"><VListItem v-for="(f, i) in intel.feedings" :key="i" :title="`${f.fed_on} · ${num(f.kg, 0)} kg`" :subtitle="f.what"><template #append>{{ money(f.cost) }}</template></VListItem></VList>
+        </VCard>
+        <VCard v-if="intel.production.length" title="Production" class="mb-4">
+          <VList density="compact"><VListItem v-for="l in intel.production" :key="l.id" :title="`${l.recorded_on} · ${num(l.quantity)} ${l.unit} ${l.product}`" :subtitle="l.lot_code">
+            <template #append><VChip v-if="l.withheld && l.status === 'recorded'" size="x-small" color="error">Withheld</VChip><VChip v-else size="x-small">{{ human(l.status) }}</VChip></template></VListItem></VList>
+        </VCard>
         <VCard v-if="weights.length" title="Weighings">
           <VList density="compact"><VListItem v-for="w in weights" :key="w.weighed_on" :title="w.weighed_on"><template #append>{{ num(w.weight_kg, 1) }} kg avg · {{ w.head_count }} head</template></VListItem></VList>
         </VCard>
@@ -94,6 +117,10 @@ const isFlock = props.group.tracking === 'group'
 
     <FormDialog :model-value="dialog === 'health'" :title="`Treat ${group.code}`" :fields="healthFields(options, { farm_id: group.farm_id, group_id: group.id })"
       :values="{ farm_id: group.farm_id, group_id: group.id, treated_on: today(), head_count: group.head }" :url="route('agri.livestock.health.store')" @update:model-value="close" />
+    <FormDialog :model-value="dialog === 'feed'" :title="`Feed ${group.code}`" :fields="feedFields(options, { farm_id: group.farm_id, group_id: group.id })" :url="route('agri.livestock.feedings.store')"
+      :values="{ farm_id: group.farm_id, group_id: group.id, fed_on: today(), head_count: group.head }" @update:model-value="close" />
+    <FormDialog :model-value="dialog === 'produce'" :title="`Production: ${group.code}`" :fields="produceFields(options, { farm_id: group.farm_id, group_id: group.id })" :url="route('agri.livestock.production.store')"
+      :values="{ farm_id: group.farm_id, group_id: group.id, recorded_on: today(), product: group.purpose === 'layers' ? 'eggs' : 'milk', unit: group.purpose === 'layers' ? 'dozen' : 'l' }" @update:model-value="close" />
     <FormDialog :model-value="dialog === 'count'" title="Change head count" :fields="countFields(options)" :values="{ changed_on: today() }"
       :url="route('agri.livestock.groups.count', group.id)" intro="Every change needs a reason; the count is never simply overwritten." @update:model-value="close" />
     <FormDialog :model-value="dialog === 'weight'" title="Group weighing" :fields="weightFields({ animal: false })" :values="{ farm_id: group.farm_id, group_id: group.id, weighed_on: today(), head_count: group.head }"

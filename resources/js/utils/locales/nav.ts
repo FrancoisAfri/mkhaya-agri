@@ -7,7 +7,8 @@
 // key omitted for a language simply shows the English name.
 
 // `more` labels the overflow menu in the horizontal bar (see HorizontalNav.vue).
-type NavNames = { categories: Record<string, string>; modules: Record<string, string>; more: string }
+// `insights` labels the Insights entry that ends every category (see MainLayout).
+type NavNames = { categories: Record<string, string>; modules: Record<string, string>; more: string; insights?: string }
 
 // ── Ribbon labels ────────────────────────────────────────────────────────────
 // The third level of the sidebar. Unlike categories and modules, these are NOT
@@ -38,6 +39,7 @@ export const ribbonLabelKeys: Record<string, string> = {
   project_management_meetings: 'project_management.meetings.title',
   project_management_portal: 'project_management.portal.title',
   project_management_evidence: 'project_management.hubs.evidence.title',
+  project_management_workspace: 'project_management.hubs.workspace.title',
   project_management_insights: 'project_management.hubs.insights.title',
   project_management_invoicing: 'project_management.hubs.invoicing.title',
   project_management_reporting: 'project_management.hubs.reporting.title',
@@ -147,6 +149,7 @@ const en: NavNames = {
   },
   modules: {},
   more: "More",
+  insights: "Insights",
 }
 
 // ── Afrikaans ────────────────────────────────────────────────────────────────
@@ -172,6 +175,7 @@ const af: NavNames = {
     sheq: "SHEQ",
   },
   more: "Meer",
+  insights: "Insigte",
 }
 
 // ── French ───────────────────────────────────────────────────────────────────
@@ -197,6 +201,7 @@ const fr: NavNames = {
     sheq: "SHEQ",
   },
   more: "Plus",
+  insights: "Analyses",
 }
 
 // ── isiZulu ──────────────────────────────────────────────────────────────────

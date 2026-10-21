@@ -29,7 +29,10 @@ class ConsolidationService
         foreach ($group->members as $member) {
             $rate = (float) $member->fx_rate;
             $ownership = (float) $member->ownership_pct / 100;
-            $balances = collect($this->reports->accountBalances((int) $member->company_id, $asOf));
+            // Each member's books are read inside that member's organisation: the ledger's rows are
+            // kept to their organisation by the database, so another company's are not visible from here.
+            $balances = collect(app(\App\Modules\Tenancy\Services\TenantContext::class)
+                ->run((int) $member->company_id, fn () => $this->reports->accountBalances((int) $member->company_id, $asOf)));
 
             $memberNet = 0.0;
             foreach ($balances as $b) {

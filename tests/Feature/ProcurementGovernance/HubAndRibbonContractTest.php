@@ -348,8 +348,8 @@ class HubAndRibbonContractTest extends TestCase
         $this->assertSame(ModuleHubs::SUPERUSER, HubAccess::level($user, self::CODE));
 
         // A loop over an empty list passes and proves nothing, which is the failure mode of every
-        // test that walks a generated collection. Seven ribbons and seventeen cards.
-        $this->assertCount(24, $this->destinations());
+        // test that walks a generated collection. Five ribbons and seventeen cards.
+        $this->assertCount(22, $this->destinations());
 
         $failures = [];
 
@@ -375,7 +375,8 @@ class HubAndRibbonContractTest extends TestCase
         $user = $this->makeModuleUser(ModuleHubs::READ);
         $this->actingAs($user);
 
-        $this->get('/procurement-governance/configure-hub')->assertStatus(302);
+        // Configure folded into Insights & Settings, which needs MODIFY.
+        $this->get('/procurement-governance/insights-hub')->assertStatus(302);
         $this->get('/procurement-governance/settings')->assertStatus(302);
 
         // ...while the READ hubs stay open, so the gate is a gate and not a wall.

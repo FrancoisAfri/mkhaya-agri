@@ -17,7 +17,7 @@ type Field = {
   latitude: number | null; longitude: number | null; status: string; notes: string | null
 }
 type Place = { id: string; name: string; location_type: string; latitude: number | null; longitude: number | null; status: string; notes: string | null }
-type Member = { id: string; user_id: number; name: string; email: string | null; role: string; status: string; since: string | null }
+type Member = { id: string; user_id: number; name: string; email: string | null; role: string; status: string; since: string | null; alert_emails: boolean }
 
 const props = defineProps<{
   farm: Farm
@@ -114,7 +114,7 @@ function savePlace() {
 const grantForm = useForm({ user_id: null as number | null, role: 'worker' })
 const grantable = computed(() => props.people.filter(p => !props.members.some(m => m.user_id === p.id && m.status === 'active')))
 function grant() { grantForm.post(route('agri.farms.access.store', props.farm.id), { ...keep, onSuccess: () => grantForm.reset() }) }
-function updateMember(m: Member, data: Record<string, string>) {
+function updateMember(m: Member, data: Record<string, string | boolean>) {
   router.patch(route('agri.farms.access.update', [props.farm.id, m.id]), data, keep)
 }
 function revoke(m: Member) {
@@ -256,6 +256,8 @@ function revoke(m: Member) {
                   <VMenu>
                     <template #activator="{ props: p }"><VBtn v-bind="p" icon variant="text" size="small" aria-label="Access actions"><VIcon icon="tabler-dots-vertical" /></VBtn></template>
                     <VList density="compact">
+                      <VListItem v-if="['manager', 'supervisor'].includes(m.role)" :prepend-icon="m.alert_emails ? 'tabler-mail-off' : 'tabler-mail'"
+                        :title="m.alert_emails ? 'Stop alert emails' : 'Send alert emails'" @click="updateMember(m, { alert_emails: !m.alert_emails })" />
                       <VListItem v-if="m.status === 'active'" prepend-icon="tabler-player-pause" title="Suspend" @click="updateMember(m, { status: 'suspended' })" />
                       <VListItem v-else prepend-icon="tabler-player-play" title="Reinstate" @click="updateMember(m, { status: 'active' })" />
                       <VListItem prepend-icon="tabler-trash" base-color="error" title="Remove" @click="revoke(m)" />

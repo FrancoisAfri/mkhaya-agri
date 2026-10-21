@@ -67,6 +67,9 @@ class FleetVehicleController extends Controller
         if ($fuel = $request->fuel_type) {
             $query->where('fuel_type', $fuel);
         }
+        if (in_array($class = $request->asset_class, ['vehicle', 'equipment'], true)) {
+            $query->where('asset_class', $class);
+        }
 
         $sortField = in_array($request->sort, [
             'registration_number', 'make', 'model', 'year', 'status', 'odometer_reading', 'created_at',
@@ -91,7 +94,7 @@ class FleetVehicleController extends Controller
             'fuelTypes'    => DB::table('fleet_fuel_types')->where('active', true)->orderBy('name')->get(['id', 'name']),
             'keySafes'     => DB::table('fleet_key_safes')->where('active', true)->orderBy('name')->get(['id', 'name']),
             'companyUnits' => DB::table('company_units')->where('active', 1)->orderBy('name')->get(['id', 'name']),
-            'filters'      => $request->only(['search', 'status', 'vehicle_type', 'fuel_type', 'sort', 'direction']),
+            'filters'      => $request->only(['search', 'status', 'vehicle_type', 'fuel_type', 'asset_class', 'sort', 'direction']),
             'stats'        => [
                 'total'          => FleetVehicle::count(),
                 'available'      => FleetVehicle::where('status', 'available')->count(),
@@ -392,7 +395,12 @@ class FleetVehicleController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $data = $request->validate([
-            'registration_number'    => 'required|string|max:20|unique:fleet_vehicles',
+            // Equipment (a tractor, a pump) often has no number plate.
+            'asset_class'            => 'nullable|in:vehicle,equipment',
+            'registration_number'    => 'required_unless:asset_class,equipment|nullable|string|max:20|unique:fleet_vehicles',
+            'name'                   => 'nullable|string|max:160',
+            'serial_number'          => 'nullable|string|max:80',
+            'hours_reading'          => 'nullable|numeric|min:0',
             'fleet_number'           => 'nullable|string|max:20|unique:fleet_vehicles',
             'make_id'                => 'nullable|exists:fleet_vehicle_makes,id',
             'model_id'               => 'nullable|exists:fleet_vehicle_models,id',
@@ -482,7 +490,11 @@ class FleetVehicleController extends Controller
     public function update(Request $request, FleetVehicle $vehicle): RedirectResponse
     {
         $data = $request->validate([
-            'registration_number'    => 'required|string|max:20|unique:fleet_vehicles,registration_number,' . $vehicle->id,
+            'asset_class'            => 'nullable|in:vehicle,equipment',
+            'registration_number'    => 'required_unless:asset_class,equipment|nullable|string|max:20|unique:fleet_vehicles,registration_number,' . $vehicle->id,
+            'name'                   => 'nullable|string|max:160',
+            'serial_number'          => 'nullable|string|max:80',
+            'hours_reading'          => 'nullable|numeric|min:0',
             'fleet_number'           => 'nullable|string|max:20|unique:fleet_vehicles,fleet_number,' . $vehicle->id,
             'make'                   => 'nullable|string|max:60',
             'model'                  => 'nullable|string|max:60',
@@ -1101,6 +1113,11 @@ class FleetVehicleController extends Controller
             'uuid'                    => $v->uuid,
             'registration_number'     => $v->registration_number,
             'registration'            => $v->registration_number,   // alias
+            'asset_class'             => $v->asset_class ?? 'vehicle',
+            'name'                    => $v->name,
+            'serial_number'           => $v->serial_number,
+            'hours_reading'           => $v->hours_reading,
+            'farm'                    => $v->farm_id && \Illuminate\Support\Facades\Schema::hasTable('farms') ? DB::table('farms')->where('id', $v->farm_id)->value('name') : null,
             'fleet_number'            => $v->fleet_number,
             'make'                    => $v->make,
             'model'                   => $v->model,

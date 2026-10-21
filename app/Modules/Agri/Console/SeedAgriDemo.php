@@ -10,7 +10,6 @@ use App\Modules\Agri\Models\CropSeason;
 use App\Modules\Agri\Models\CropType;
 use App\Modules\Agri\Models\CropVariety;
 use App\Modules\Agri\Models\Farm;
-use App\Modules\Agri\Models\FarmDocument;
 use App\Modules\Agri\Models\FarmField;
 use App\Modules\Agri\Models\FarmMachine;
 use App\Modules\Agri\Models\FarmMembership;
@@ -74,6 +73,8 @@ class SeedAgriDemo extends Command
             DB::transaction(fn () => $this->farms());
             app(FarmAlerts::class)->scan($this->companyId);
             $this->call('db:seed', ['--class' => \Database\Seeders\AgriModuleSeeder::class, '--force' => true]);
+            // Every other area (packhouse, sales, irrigation, outgrowers, compliance, office staff…).
+            $this->call('agri:demo-more', ['--company' => $this->companyId]);
             $this->info('Mkhaya Agri demo ready. Users (password '.$this->option('password').'):');
             foreach ($this->u as $key => $user) {
                 $this->line("  {$key}: {$user->email}");
@@ -85,7 +86,7 @@ class SeedAgriDemo extends Command
 
     private function people(): void
     {
-        foreach (RoleCatalog::all() as $p) {
+        foreach (RoleCatalog::everything() as $p) {
             Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
         }
         $people = [
@@ -163,6 +164,12 @@ class SeedAgriDemo extends Command
             'wheat' => $item('GRAIN-WHEAT', 'Wheat grain (B1)', 't', 0),
             'lemons' => $item('FRUIT-LEMON', 'Lemons (packhouse bins)', 'bin', 0),
         ];
+        // What each item is to the farm, so stores, budgets and the environment report can tell seed
+        // from fertiliser from fuel.
+        foreach (['seed' => 'seed', 'soyseed' => 'seed', 'map' => 'fertiliser', 'lan' => 'fertiliser', 'atrazine' => 'crop_protection', 'teb' => 'crop_protection',
+            'diesel' => 'fuel', 'lsd' => 'veterinary', 'oxy' => 'veterinary', 'mash' => 'feed', 'wheat' => 'produce', 'lemons' => 'produce'] as $k => $category) {
+            \App\Modules\Agri\Models\AgriItemSetting::withoutGlobalScopes()->updateOrCreate(['company_id' => $this->companyId, 'stock_item_id' => $i[$k]->id], ['category' => $category]);
+        }
         $stores = app(FarmStores::class);
         $open = '2026-08-01';
         foreach ([['seed', 140, 3450], ['soyseed', 70, 1150], ['map', 30000, 14.20], ['lan', 18000, 9.80], ['atrazine', 400, 95], ['teb', 80, 420], ['diesel', 6000, 21.50]] as [$k, $q, $c]) {
@@ -336,15 +343,16 @@ class SeedAgriDemo extends Command
 
         // ── Documents ─────────────────────────────────────────────────────────────────────
         $pdf = base64_encode("%PDF-1.4\n% Mkhaya Agri demo document\n");
-        $doc = fn ($farm, $d) => FarmDocument::create($d + ['company_id' => $this->companyId, 'farm_id' => $farm->id, 'status' => 'active', 'remind_days' => 30,
-            'file_name' => \Illuminate\Support\Str::slug($d['title']).'.pdf', 'mime_type' => 'application/pdf', 'file_size' => strlen(base64_decode($pdf)), 'data' => $pdf,
-            'uploaded_by' => $this->u['manager']->id]);
+        // Farm records are filed in Document Management (as the manager, who files them; someone else approves).
+        \Illuminate\Support\Facades\Auth::setUser($this->u['manager']);
+        $doc = fn ($farm, $d) => app(\App\Modules\Agri\Services\FarmDocuments::class)->file($farm, $d,
+            ['original_name' => \Illuminate\Support\Str::slug($d['title']).'.pdf', 'mime' => 'application/pdf', 'data' => $pdf], $this->u['manager']);
         $doc($boplaas, ['document_type' => 'title_deed', 'title' => 'Title deed — Boplaas 1123', 'reference' => 'T12345/1998', 'issued_on' => '1998-04-01']);
         $doc($boplaas, ['document_type' => 'water_use_licence', 'title' => 'Water use licence — pivots L1 & L3', 'reference' => 'WUL 08/C83A/A/7712', 'issued_on' => '2021-11-05', 'expires_on' => '2026-11-05']);
         $doc($boplaas, ['document_type' => 'operator_certificate', 'title' => 'Pest control operator — J. Mokoena', 'reference' => 'PCO-FS-20931', 'issued_on' => '2023-10-01', 'expires_on' => '2026-10-01']);
-        $doc($boplaas, ['document_type' => 'globalgap', 'title' => 'GLOBALG.A.P. IFA v6 certificate', 'reference' => 'GGN 4063061234567', 'issued_on' => '2026-03-12', 'expires_on' => '2027-03-11']);
-        $doc($rivier, ['document_type' => 'brand_registration', 'title' => 'Livestock brand registration — RVP', 'reference' => 'ANIM-ID 55120', 'issued_on' => '2019-05-02']);
-        $doc($rivier, ['document_type' => 'movement_permit', 'title' => 'Red-line movement permit (cattle)', 'reference' => 'VS-LP-2026-0441', 'issued_on' => '2026-09-10', 'expires_on' => '2026-11-10']);
+        $doc($boplaas, ['document_type' => 'certification', 'title' => 'GLOBALG.A.P. IFA v6 certificate', 'reference' => 'GGN 4063061234567', 'issued_on' => '2026-03-12', 'expires_on' => '2027-03-11']);
+        $doc($rivier, ['document_type' => 'certification', 'title' => 'Livestock brand registration — RVP', 'reference' => 'ANIM-ID 55120', 'issued_on' => '2019-05-02']);
+        $doc($rivier, ['document_type' => 'permit', 'title' => 'Red-line movement permit (cattle)', 'reference' => 'VS-LP-2026-0441', 'issued_on' => '2026-09-10', 'expires_on' => '2026-11-10']);
 
         // ── Money ─────────────────────────────────────────────────────────────────────────
         $ledger = app(AgriLedger::class);

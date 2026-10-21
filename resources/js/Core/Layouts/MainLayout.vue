@@ -175,6 +175,15 @@ function convertNavigation(categories: PhpCategory[], includeHome = true): (NavL
       }
     }
 
+    // Every category ends with its Insights: all its reports, analytics and schedules in one place.
+    if (moduleChildren.length > 0) {
+      moduleChildren.push({
+        title: te('nav.insights') ? t('nav.insights') : 'Insights',
+        href: `/insights/${cat.id}`,
+        icon: { icon: 'mdi-chart-box-multiple-outline' },
+      } as NavLink)
+    }
+
     if (moduleChildren.length > 0) {
       items.push({
         title: tCategory(cat),
@@ -209,6 +218,11 @@ const systemLogo = computed(() => (page.props as any).branding?.system_logo || '
 // replaces the product name beside the logo.
 const systemName = computed(() => (page.props as any).branding?.system_name || 'MKHAYA AGRI')
 function stopImpersonating() { userMenuOpen.value = false; useForm({}).post(route('tenancy.stop-impersonating')) }
+// Organisations this person belongs to (company_memberships): switching moves them, with the roles
+// they hold there, into the other organisation and reloads the app in it.
+const organisations = computed(() => ((page.props as any).organisations ?? []) as Array<{ id: number; name: string; current: boolean }>)
+const currentOrganisation = computed(() => organisations.value.find(o => o.current)?.name)
+function switchOrganisation(id: number) { userMenuOpen.value = false; useForm({}).post(route('organisations.switch', id)) }
 
 // ── Theme: apply saved DB settings on load ──────────────────────────────────
 const vuetifyTheme = useTheme()
@@ -449,6 +463,16 @@ const globalThemePrimary = computed(() => {
               <Link href="/settings/theme" class="d-flex align-center gap-x-3 px-4 py-2 text-body-2 text-high-emphasis text-decoration-none hover-bg" @click="userMenuOpen = false">
                 <VIcon size="16" color="grey-darken-1">mdi-palette</VIcon>Theme Settings
               </Link>
+              <div v-if="organisations.length > 1" class="border-t border-b py-1 my-1">
+                <p class="text-caption text-medium-emphasis px-4 mb-0">Organisation</p>
+                <button v-for="o in organisations" :key="o.id" class="w-100 d-flex align-center gap-x-3 px-4 py-2 text-body-2 hover-bg bg-transparent border-0 cursor-pointer text-start"
+                  :class="o.current ? 'text-primary font-weight-medium' : 'text-high-emphasis'" style="width: 100%;" :disabled="o.current" @click="switchOrganisation(o.id)">
+                  <VIcon size="16" :color="o.current ? 'primary' : 'grey-darken-1'">{{ o.current ? 'mdi-check-circle' : 'mdi-swap-horizontal' }}</VIcon>{{ o.name }}
+                </button>
+              </div>
+              <Link v-if="organisations.length" href="/account/organisations" class="d-flex align-center gap-x-3 px-4 py-2 text-body-2 text-high-emphasis text-decoration-none hover-bg" @click="userMenuOpen = false">
+                <VIcon size="16" color="grey-darken-1">mdi-domain</VIcon>Organisations &amp; members
+              </Link>
               <Link v-if="(authUser?.is_company_owner && authUser?.company_id) || impersonating" href="/subscription" class="d-flex align-center gap-x-3 px-4 py-2 text-body-2 text-high-emphasis text-decoration-none hover-bg" @click="userMenuOpen = false">
                 <VIcon size="16" color="grey-darken-1">mdi-card-account-details-outline</VIcon>Manage Subscription
               </Link>
@@ -595,6 +619,17 @@ const globalThemePrimary = computed(() => {
               >
                 <VIcon size="16" color="grey-darken-1">mdi-palette</VIcon>
                 Theme Settings
+              </Link>
+
+              <div v-if="organisations.length > 1" class="border-t border-b py-1 my-1">
+                <p class="text-caption text-medium-emphasis px-4 mb-0">Organisation</p>
+                <button v-for="o in organisations" :key="o.id" class="w-100 d-flex align-center gap-x-3 px-4 py-2 text-body-2 hover-bg bg-transparent border-0 cursor-pointer text-start"
+                  :class="o.current ? 'text-primary font-weight-medium' : 'text-high-emphasis'" style="width: 100%;" :disabled="o.current" @click="switchOrganisation(o.id)">
+                  <VIcon size="16" :color="o.current ? 'primary' : 'grey-darken-1'">{{ o.current ? 'mdi-check-circle' : 'mdi-swap-horizontal' }}</VIcon>{{ o.name }}
+                </button>
+              </div>
+              <Link v-if="organisations.length" href="/account/organisations" class="d-flex align-center gap-x-3 px-4 py-2 text-body-2 text-high-emphasis text-decoration-none hover-bg" @click="userMenuOpen = false">
+                <VIcon size="16" color="grey-darken-1">mdi-domain</VIcon>Organisations &amp; members
               </Link>
 
               <Link

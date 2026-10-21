@@ -33,7 +33,7 @@ class LegalRegisterController extends Controller
         $validated = $request->validate([
             'evidence_type' => ['required', Rule::in([
                 'DOCUMENT', 'INSPECTION_SCHEDULE', 'COMPETENCY', 'APPOINTMENT',
-                'ACTION', 'RISK_ASSESSMENT', 'OBLIGATION',
+                'ACTION', 'RISK_ASSESSMENT', 'OBLIGATION', 'DM_DOCUMENT',
             ])],
             'evidence_id' => ['required', 'integer', 'min:1'],
             'evidence_label' => ['nullable', 'string', 'max:255'],
@@ -112,6 +112,18 @@ class LegalRegisterController extends Controller
         ]);
 
         return back()->with('success', 'Clause change acknowledged. The line is back on computed status.');
+    }
+
+    /** A clause met (reviewed) on a day; its next review follows from its frequency. Evidence is linked separately. */
+    public function recordReview(Request $request, string $uuid): RedirectResponse
+    {
+        $companyId = $this->requireCompany($request);
+        abort_unless($request->user()?->can('sheq.compliance.manage'), 403, 'ENTITLEMENT_REQUIRED: sheq.compliance.manage');
+        $validated = $request->validate(['on' => ['required', 'date', 'before_or_equal:today']]);
+        $line = $this->register->recordReview($companyId, $uuid, $validated['on'], $request->user()?->id);
+        $this->audit($companyId, $request, 'legal_register.reviewed', $uuid, ['on' => $validated['on'], 'status_after' => $line['status']]);
+
+        return back()->with('success', 'Recorded as met on '.$validated['on'].'.');
     }
 
     private function audit(int $companyId, Request $request, string $action, string $uuid, array $after): void

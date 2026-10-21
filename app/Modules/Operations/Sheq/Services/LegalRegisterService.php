@@ -43,8 +43,31 @@ class LegalRegisterService
 
     private const LINK_TYPES = [
         'DOCUMENT', 'INSPECTION_SCHEDULE', 'COMPETENCY', 'APPOINTMENT',
-        'ACTION', 'RISK_ASSESSMENT', 'OBLIGATION',
+        'ACTION', 'RISK_ASSESSMENT', 'OBLIGATION', 'DM_DOCUMENT',
     ];
+
+    /**
+     * Evidence another module works out from its own records rather than a record linked by hand —
+     * a farm's chemical registrations, its machines' statutory inspections, its operators'
+     * certificates. Each is registered by the module that owns the records: a type the register's
+     * clauses can name, and how to judge it for a line (which carries its site).
+     *
+     * @var array<string, array{label: string, evaluate: callable(int, object): array{status: string, detail: string}}>
+     */
+    private static array $sources = [];
+
+    /** @param callable(int $companyId, object $line): array{status: string, detail: string} $evaluate */
+    public static function registerSource(string $type, string $label, callable $evaluate): void
+    {
+        self::$sources[strtoupper($type)] = ['label' => $label, 'evaluate' => $evaluate];
+    }
+
+    /** @return array<string, string> evidence type => label, for the clause editor */
+    public static function evidenceTypes(): array
+    {
+        return array_merge(array_combine(self::LINK_TYPES, array_map(fn ($t) => ucfirst(strtolower(str_replace('_', ' ', $t))), self::LINK_TYPES)),
+            ['DM_DOCUMENT' => 'Document (Document Management)'], array_map(fn ($s) => $s['label'], self::$sources));
+    }
 
     /**
      * Seed or refresh the register from a pack (SHEQ-LEG-1).
@@ -349,6 +372,10 @@ class LegalRegisterService
         }
 
         $expected = json_decode((string) $line->evidence_types, true) ?: [];
+        // Evidence a module works out for itself is judged directly, with nothing to link.
+        foreach (array_intersect($expected, array_keys(self::$sources)) as $type) {
+            $findings[] = (self::$sources[$type]['evaluate'])($companyId, $line) + ['evidence_type' => $type, 'evidence_id' => 0];
+        }
         $held = array_values(array_unique(array_column($findings, 'evidence_type')));
         $missing = array_values(array_diff($expected, $held));
 
@@ -429,8 +456,43 @@ class LegalRegisterService
             'ACTION' => $this->evaluateAction($companyId, $id),
             'RISK_ASSESSMENT' => $this->evaluateRiskAssessment($companyId, $id),
             'OBLIGATION' => $this->evaluateObligation($companyId, $id),
+            'DM_DOCUMENT' => $this->evaluateManagedDocument($companyId, $id),
             default => ['status' => 'NOT_ASSESSED', 'detail' => 'Unknown evidence type.'],
         };
+    }
+
+    /** A Document Management document: approved, and not past its expiry. */
+    private function evaluateManagedDocument(int $companyId, int $id): array
+    {
+        $doc = DB::table('documents')->where('company_id', $companyId)->where('id', $id)->whereNull('deleted_at')
+            ->first(['title', 'status', 'approval_status', 'expiry_date']);
+        if ($doc === null || $doc->status !== 'active') {
+            return ['status' => 'NON_COMPLIANT', 'detail' => 'The linked document is no longer in force.'];
+        }
+        if (! in_array($doc->approval_status, ['approved', 'published'], true)) {
+            return ['status' => 'PARTIAL', 'detail' => "{$doc->title} is on file but not yet approved."];
+        }
+        if ($doc->expiry_date !== null && Carbon::parse($doc->expiry_date)->lt(Carbon::today())) {
+            return ['status' => 'NON_COMPLIANT', 'detail' => "{$doc->title} expired on {$doc->expiry_date}."];
+        }
+
+        return ['status' => 'COMPLIANT', 'detail' => "{$doc->title} is approved".($doc->expiry_date ? " and valid to {$doc->expiry_date}." : '.')];
+    }
+
+    /**
+     * Record that a clause was met (reviewed) on a day: the next review falls due by its frequency.
+     * Evidence is linked separately.
+     */
+    public function recordReview(int $companyId, string $lineUuid, string $on, ?int $userId = null): array
+    {
+        $line = $this->line($companyId, $lineUuid);
+        DB::table('sheq_legal_register_lines')->where('id', $line->id)->update([
+            'last_reviewed_on' => Carbon::parse($on)->toDateString(),
+            'review_due' => $this->reviewDue($line->review_frequency, Carbon::parse($on)),
+            'updated_at' => now(),
+        ]);
+
+        return $this->compute($companyId, $lineUuid);
     }
 
     private function evaluateDocument(int $companyId, int $id): array
@@ -791,6 +853,7 @@ class LegalRegisterService
             'ACTION' => 'sheq_actions',
             'RISK_ASSESSMENT' => 'sheq_risk_assessments',
             'OBLIGATION' => 'sheq_statutory_obligations',
+            'DM_DOCUMENT' => 'documents',
         };
 
         return DB::table($table)->where('company_id', $companyId)->where('id', $id)->exists();

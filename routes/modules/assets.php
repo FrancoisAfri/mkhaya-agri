@@ -30,7 +30,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['web', 'auth', 'module.active:asset_management', 'module.tier:asset_management'])->prefix('assets')->name('assets.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['register-hub' => 'register', 'maintenance-hub' => 'maintenance', 'finance-hub' => 'finance', 'insights-hub' => 'insights', 'configure-hub' => 'configure'] as $hubPath => $group) {
+    foreach (['register-hub' => 'register', 'maintenance-hub' => 'maintenance', 'finance-hub' => 'finance', 'insights-hub' => 'insights'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'asset_management')->defaults('group', $group)->name('hub.' . $group);
     }

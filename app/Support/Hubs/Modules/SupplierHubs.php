@@ -25,7 +25,7 @@ class SupplierHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'directory' => [
                 'name' => 'Suppliers', 'path' => 'suppliers/directory-hub', 'icon' => 'building', 'tier' => self::READ,
                 'title' => 'supplier_management.hubs.directory.title', 'subtitle' => 'supplier_management.hubs.directory.subtitle',
@@ -78,6 +78,9 @@ class SupplierHubs extends ModuleHubs
                         gate: ['ability' => 'supplier-due-diligence', 'subject' => null]),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

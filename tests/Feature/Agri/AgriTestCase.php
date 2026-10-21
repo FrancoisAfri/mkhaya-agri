@@ -44,7 +44,7 @@ abstract class AgriTestCase extends TestCase
         $this->withoutVite();
 
         $this->activateModule();
-        foreach (RoleCatalog::all() as $permission) {
+        foreach (RoleCatalog::everything() as $permission) {
             Permission::firstOrCreate(['name' => $permission, 'guard_name' => 'web']);
         }
 
@@ -133,6 +133,51 @@ abstract class AgriTestCase extends TestCase
         return (int) \App\Modules\Agri\Models\CropType::withoutGlobalScopes()->where('company_id', $this->company->id)->where('code', $code)->value('id');
     }
 
+    /** A farm worker: an HR person (with the given login, or none) put to work on the farm. */
+    protected function worker(Farm $farm, string $first, ?User $login = null, array $o = []): \App\Modules\HR\Hr\Attendance\Models\Worker
+    {
+        return $this->asCompany($this->company, function () use ($farm, $first, $login, $o) {
+            $p = new \App\Modules\HR\Hr\Models\HRPerson(['uuid' => (string) \Illuminate\Support\Str::uuid(), 'first_name' => $first, 'surname' => 'Test',
+                'user_id' => $login?->id, 'status' => 1, 'employee_number' => 'T'.\Illuminate\Support\Str::random(6)]);
+            $p->company_id = $farm->company_id;
+            $p->save();
+
+            return \App\Modules\HR\Hr\Attendance\Models\Worker::withoutGlobalScopes()->create($o + ['company_id' => $farm->company_id, 'farm_id' => $farm->id,
+                'hr_person_id' => $p->id, 'category' => 'seasonal', 'badge_token' => \Illuminate\Support\Str::random(40), 'status' => 'active',
+                'hourly_cost_rate' => 30]);
+        });
+    }
+
+    protected function template(string $code, string $starts, string $ends, int $break = 30, array $o = []): \App\Modules\HR\Hr\Attendance\Models\ShiftTemplate
+    {
+        return $this->asCompany($this->company, fn () => \App\Modules\HR\Hr\Attendance\Models\ShiftTemplate::withoutGlobalScopes()->create($o + [
+            'company_id' => $this->company->id, 'code' => $code, 'name' => "{$code} shift", 'kind' => 'day', 'starts' => $starts, 'ends' => $ends,
+            'break_minutes' => $break, 'min_staff' => 1]));
+    }
+
+    protected function rules(array $o = []): \App\Modules\HR\Hr\Attendance\Models\RuleSet
+    {
+        return $this->asCompany($this->company, function () use ($o) {
+            $r = app(\App\Modules\HR\Hr\Attendance\Services\Workforce::class)->defaultRules($this->company->id);
+            $r->update($o);
+
+            return $r->fresh();
+        });
+    }
+
+    /** Give an HR person a SHEQ competency (the code is created in the catalogue if needed). */
+    protected function competency(\App\Modules\HR\Hr\Attendance\Models\Worker $w, string $code, ?string $expires = null): void
+    {
+        $this->asCompany($this->company, function () use ($w, $code, $expires) {
+            if (! \Illuminate\Support\Facades\DB::table('sheq_competencies')->where('company_id', $this->company->id)->where('code', $code)->exists()) {
+                \Illuminate\Support\Facades\DB::table('sheq_competencies')->insert(['company_id' => $this->company->id, 'code' => $code, 'title' => "{$code} certificate",
+                    'competency_type' => 'LICENCE', 'is_active' => true, 'created_at' => now(), 'updated_at' => now()]);
+            }
+            app(\App\Modules\Operations\Sheq\Services\CompetencyService::class)->recordManual($this->company->id, $w->hr_person_id, $code,
+                ['achieved_at' => today()->subYear()->toDateString(), 'expires_at' => $expires ?? today()->addYear()->toDateString()]);
+        });
+    }
+
     protected function speciesId(string $code): int
     {
         return (int) \App\Modules\Agri\Models\LivestockSpecies::withoutGlobalScopes()->where('company_id', $this->company->id)->where('code', $code)->value('id');
@@ -149,14 +194,23 @@ abstract class AgriTestCase extends TestCase
                 'active' => 1, 'created_at' => now(), 'updated_at' => now()]
         );
         Cache::forget('module_active_agri');
+
+        // Farm workers' time is kept by Time & Attendance, which a farm organisation therefore runs.
+        $hr = DB::table('security_categories')->where('name', 'Human Resources')->value('id')
+            ?? DB::table('security_categories')->insertGetId(['name' => 'Human Resources', 'active' => true, 'created_at' => now(), 'updated_at' => now()]);
+        DB::table('security_modules')->updateOrInsert(['code_name' => 'time_attendance'],
+            ['uuid' => (string) \Illuminate\Support\Str::uuid(), 'name' => 'Time & Attendance', 'category_id' => $hr, 'active' => 1, 'created_at' => now(), 'updated_at' => now()]);
+        Cache::forget('module_active_time_attendance');
     }
 
     protected function entitle(Company $company): void
     {
-        DB::table('company_modules')->updateOrInsert(
-            ['company_id' => $company->id, 'module_code' => 'agri'],
-            ['source' => 'addon', 'price_monthly' => 0, 'created_at' => now(), 'updated_at' => now()]
-        );
+        foreach (['agri', 'time_attendance'] as $code) {
+            DB::table('company_modules')->updateOrInsert(
+                ['company_id' => $company->id, 'module_code' => $code],
+                ['source' => 'addon', 'price_monthly' => 0, 'created_at' => now(), 'updated_at' => now()]
+            );
+        }
     }
 
     protected function makeUser(string $email, ?Role $role, Company $company): User
@@ -175,6 +229,16 @@ abstract class AgriTestCase extends TestCase
         Cache::forget('hub_module_id:agri');
 
         return $user->fresh();
+    }
+
+    /** A farm record, filed in Document Management as the farm's manager files one. */
+    protected function fileDocument(Farm $farm, string $type, string $title, ?string $expires = null, ?User $by = null, ?string $content = null): \App\Modules\Operations\DocumentManagement\Models\Document
+    {
+        $by ??= $this->manager;
+        $this->actingAs($by);
+
+        return $this->asCompany($this->company, fn () => app(\App\Modules\Agri\Services\FarmDocuments::class)->file($farm, ['document_type' => $type, 'title' => $title, 'expires_on' => $expires],
+            ['original_name' => \Illuminate\Support\Str::slug($title).'.pdf', 'mime' => 'application/pdf', 'data' => base64_encode($content ?? "%PDF-1.4\n% {$title}\n")], $by));
     }
 
     protected function asCompany(Company $company, callable $callback): mixed

@@ -120,7 +120,7 @@ class FarmFinanceController extends AgriController
                 $dims = AgriLedger::dimensions($farm, $field, $enterprise, $data['category']);
                 $journal = $data['kind'] === 'expense'
                     ? $this->ledger->expense($farm, (float) $data['amount'], $data['transacted_on'], $data['description'], $dims, $data['settled_by'], $this->expenseAccount($data['category']), "agri-txn-{$t->uuid}")
-                    : $this->ledger->sale($farm, (float) $data['amount'], $data['transacted_on'], $data['description'], $dims, $data['category'] === 'livestock' ? 'livestock' : 'produce', $data['settled_by'], "agri-txn-{$t->uuid}");
+                    : $this->ledger->sale($farm, (float) $data['amount'], $data['transacted_on'], $data['description'], $dims, in_array($data['category'], ['livestock', 'grant', 'subsidy'], true) ? $data['category'] : 'produce', $data['settled_by'], "agri-txn-{$t->uuid}");
                 $t->update(['journal_id' => $journal->id]);
             });
         } catch (PostingException $e) {
@@ -171,19 +171,29 @@ class FarmFinanceController extends AgriController
             'amount' => ['required', 'numeric', 'gt:0'],
             'period_start' => ['required', 'date'],
             'period_end' => ['required', 'date', 'after_or_equal:period_start'],
+            // §6.1: what the line budgets for, and who owns it.
+            'field_id' => ['nullable', 'string'], 'work_order_id' => ['nullable', 'string'], 'machine_id' => ['nullable', 'string'],
+            'cost_centre_id' => ['nullable', 'integer'], 'owner_id' => ['nullable', 'integer'],
         ]);
         $farm = $this->workingFarm($request, $data['farm_id']);
         $enterprise = $this->enterprise($farm, $data['enterprise'] ?? null);
+        $field = $this->fieldOn($farm, $data['field_id'] ?? null);
+        $wo = ! empty($data['work_order_id']) ? \App\Modules\Agri\Models\FarmWorkOrder::query()->where('uuid', $data['work_order_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
+        $machine = ! empty($data['machine_id']) ? \App\Modules\Agri\Models\FarmMachine::query()->where('uuid', $data['machine_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
         FarmBudgetLine::create(['company_id' => $farm->company_id, 'farm_id' => $farm->id, 'created_by' => $request->user()->id,
-            'enterprise' => $enterprise ? AgriLedger::enterpriseKey($enterprise) : null] + collect($data)->except(['farm_id', 'enterprise'])->all());
+            'enterprise' => $enterprise ? AgriLedger::enterpriseKey($enterprise) : null, 'field_id' => $field?->id, 'work_order_id' => $wo?->id,
+            'machine_id' => $machine?->id, 'owner_id' => $data['owner_id'] ?? $request->user()->id, 'status' => 'draft']
+            + collect($data)->except(['farm_id', 'enterprise', 'field_id', 'work_order_id', 'machine_id', 'owner_id'])->all());
 
-        return back()->with('success', 'Budget line added.');
+        return back()->with('success', 'Budget line drafted. Submit it for approval; it counts once approved.');
     }
 
     public function destroyBudget(Request $request, FarmBudgetLine $line): RedirectResponse
     {
         $this->allow($request, R::MANAGE_FINANCE);
         $this->assertWritable($request, $line->farm_id);
+        // An approved budget is history: it is revised, not deleted.
+        abort_if(in_array($line->status, ['approved', 'submitted'], true), 422, 'An approved or submitted budget line is revised, not removed.');
         $line->delete();
 
         return back()->with('success', 'Budget line removed.');
@@ -197,6 +207,7 @@ class FarmFinanceController extends AgriController
             'labour' => '6100',
             'fuel' => '6300',
             'repairs', 'machinery' => '6400',
+            'financing' => config('agri.accounts.finance_costs'),
             default => config('agri.accounts.direct_expense'),
         };
     }

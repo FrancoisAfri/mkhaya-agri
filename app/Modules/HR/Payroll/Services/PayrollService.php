@@ -628,7 +628,7 @@ class PayrollService
         $count = 0;
         foreach ($run->payslips as $payslip) {
             // Gross = basic salary + any earnings lines added to the payslip (allowances,
-            // travel, overtime, bonus, commission). Basic may be stored as the column OR,
+            // travel, overtime, bonus, commission, piecework). Basic may be stored as the column OR,
             // on legacy line-based payslips, as a BasicSalary line — take the larger.
             $basicLine = (float) DB::table('payroll_earnings_lines')
                 ->where('payslip_id', $payslip->id)
@@ -644,6 +644,7 @@ class PayrollService
                     EarningsLineType::TravelAllowance->value,
                     EarningsLineType::Commission->value,
                     EarningsLineType::LeavePayout->value,
+                    EarningsLineType::Piecework->value,
                 ])->sum('amount');
             $grossPay          = $basic + $earningsAdditions;
             $deductions        = $this->calculateDeductions($payslip, $grossPay);

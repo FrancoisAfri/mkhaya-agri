@@ -38,7 +38,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['module.active:performance_appraisal', 'module.tier:performance_appraisal'])->prefix('performance')->name('performance.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['my-performance-hub' => 'my_performance', 'team-hub' => 'team', 'manage-hub' => 'manage', 'insights-hub' => 'insights', 'configure-hub' => 'configure'] as $hubPath => $group) {
+    foreach (['my-performance-hub' => 'my_performance', 'team-hub' => 'team', 'manage-hub' => 'manage', 'insights-hub' => 'insights'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'performance_appraisal')->defaults('group', $group)->name('hub.' . $group);
     }

@@ -31,7 +31,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['module.active:fleet_management', 'module.tier:fleet_management'])->prefix('fleet')->name('fleet.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['my-fleet-hub' => 'my_fleet', 'approvals-hub' => 'approvals', 'manage-hub' => 'manage', 'insights-hub' => 'insights', 'configure-hub' => 'configure'] as $hubPath => $group) {
+    foreach (['my-fleet-hub' => 'my_fleet', 'approvals-hub' => 'approvals', 'manage-hub' => 'manage', 'insights-hub' => 'insights'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'fleet_management')->defaults('group', $group)->name('hub.' . $group);
     }

@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Animal extends FarmOwnedModel
 {
+    // Farm records (Document Management) can be linked to it.
+    use \App\Modules\Operations\DocumentManagement\Concerns\HasDocuments;
+
     public const ACTIVE = 'active';
 
     /** Every way an animal leaves the herd. None of them deletes it. */
@@ -16,12 +19,14 @@ class Animal extends FarmOwnedModel
 
     public const SEXES = ['female', 'male', 'castrate', 'unknown'];
 
+    public const OWNERSHIP = ['owned', 'leased', 'agisted', 'partnership', 'custody'];
+
     public const ACQUISITIONS = ['born', 'purchased', 'transferred'];
 
     protected $table = 'animals';
 
     protected $casts = [
-        'birth_date' => 'date', 'acquired_on' => 'date', 'exited_on' => 'date',
+        'birth_date' => 'date', 'acquired_on' => 'date', 'exited_on' => 'date', 'quarantine_until' => 'date', 'birth_date_estimated' => 'boolean',
         'acquisition_cost' => 'decimal:2', 'exit_value' => 'decimal:2', 'last_weight_kg' => 'decimal:2',
     ];
 

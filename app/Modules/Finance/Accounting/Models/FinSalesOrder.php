@@ -19,10 +19,11 @@ class FinSalesOrder extends Model
     protected $fillable = [
         'entity_id', 'uuid', 'company_id', 'party_id', 'quote_id', 'invoice_id', 'number', 'order_date',
         'currency', 'status', 'subtotal', 'tax_total', 'total', 'customer_ref', 'description', 'created_by',
+        'dimensions', 'deliver_on', 'delivery_address', 'source_type', 'source_id',
     ];
 
     protected $casts = [
-        'order_date' => 'date', 'subtotal' => 'decimal:2', 'tax_total' => 'decimal:2', 'total' => 'decimal:2',
+        'order_date' => 'date', 'deliver_on' => 'date', 'dimensions' => 'array', 'subtotal' => 'decimal:2', 'tax_total' => 'decimal:2', 'total' => 'decimal:2',
     ];
 
     protected static function booted(): void

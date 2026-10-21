@@ -46,13 +46,24 @@ class LivestockController extends AgriController
             ->with(['farm', 'species', 'breed', 'group', 'field'])->orderBy('tag_number')->limit(500)->get()
             ->map(fn (Animal $a) => $this->animalRow($a));
 
-        $health = AnimalHealthRecord::query()->tap($scope)->with(['farm', 'animal', 'group'])->orderByDesc('treated_on')->limit(100)->get()
-            ->map(fn ($h) => $this->healthRow($h));
+        // Treatment records are restricted (§4.3): only those allowed to see them get them.
+        $health = $request->user()->can(R::VIEW_HEALTH) ? AnimalHealthRecord::query()->tap($scope)->with(['farm', 'animal', 'group'])->orderByDesc('treated_on')->limit(100)->get()
+            ->map(fn ($h) => $this->healthRow($h)) : collect();
+        $intel = app(\App\Modules\Agri\Services\LivestockIntelligence::class);
+        $farms = $farm ? collect([$farm]) : \App\Modules\Agri\Models\Farm::query()->operational()->get();
 
         return Inertia::render('Modules/Agri/Livestock/Index', [
             'groups' => $groups,
             'animals' => $animals,
             'health' => $health,
+            // §4: herd make-up and replacements, vaccinations due, rations, programmes, recent production and feeding.
+            'composition' => $farms->flatMap(fn ($f) => collect($intel->composition($f))->map(fn ($r) => $r + ['farm' => $f->name]))->values(),
+            'vaccinations_due' => $farms->flatMap(fn ($f) => collect($intel->vaccinationsDue($f, 30))->map(fn ($r) => $r + ['farm' => $f->name]))->values(),
+            'rations' => \App\Modules\Agri\Models\FeedRation::query()->with('items')->orderBy('name')->get()->map(fn ($r) => ['id' => $r->uuid, 'name' => $r->name,
+                'species_id' => $r->species_id, 'is_active' => $r->is_active, 'items' => $r->items->map(fn ($i) => ['stock_item_id' => $i->stock_item_id, 'share_pct' => $i->share_pct,
+                    'item' => FinStockItem::withoutGlobalScopes()->whereKey($i->stock_item_id)->value('name')])]),
+            'programmes' => \App\Modules\Agri\Models\VaccinationProgramme::query()->orderBy('name')->get(),
+            'production' => \App\Modules\Agri\Models\LivestockProduction::query()->tap($scope)->orderByDesc('recorded_on')->limit(100)->get()->map(fn ($p) => $this->productionRow($p)),
             'filters' => ['farm' => $farm?->uuid, 'status' => $status, 'search' => $search, 'tab' => $request->query('tab', 'groups')],
             'options' => $this->options(),
             'can' => $this->can($request),
@@ -71,7 +82,18 @@ class LivestockController extends AgriController
             'changes' => LivestockCountChange::query()->where('group_id', $group->id)->orderByDesc('changed_on')->orderByDesc('id')->get()
                 ->map(fn ($c) => ['id' => $c->uuid, 'changed_on' => $c->changed_on->toDateString(), 'delta' => $c->delta, 'reason' => $c->reason,
                     'count_after' => $c->count_after, 'value' => self::num($c->value), 'notes' => $c->notes]),
-            'health' => AnimalHealthRecord::query()->where('group_id', $group->id)->with(['farm', 'animal', 'group'])->orderByDesc('treated_on')->get()->map(fn ($h) => $this->healthRow($h)),
+            'health' => $request->user()->can(R::VIEW_HEALTH) ? AnimalHealthRecord::query()->where('group_id', $group->id)->with(['farm', 'animal', 'group'])->orderByDesc('treated_on')->get()->map(fn ($h) => $this->healthRow($h)) : [],
+            'intel' => (function () use ($group, $request) {
+                $i = app(\App\Modules\Agri\Services\LivestockIntelligence::class);
+
+                return ['sale_blocks' => $this->livestock->saleBlocks(null, $group), 'growth' => $i->growth(null, $group),
+                    'feed' => $i->feedMetrics($group, ($group->started_on ?? $group->created_at)->toDateString(), today()->toDateString()),
+                    'costing' => $request->user()->can(R::VIEW_FINANCE) ? $i->costing($group) : null,
+                    'feedings' => \App\Modules\Agri\Models\Feeding::query()->where('group_id', $group->id)->orderByDesc('fed_on')->limit(50)->get()
+                        ->map(fn ($f) => ['fed_on' => $f->fed_on->toDateString(), 'kg' => $f->quantity_kg, 'head' => $f->head_count, 'cost' => $f->cost,
+                            'what' => collect($f->issues ?? [])->map(fn ($x) => "{$x['kg']} kg {$x['item']}")->implode(', ')]),
+                    'production' => \App\Modules\Agri\Models\LivestockProduction::query()->where('group_id', $group->id)->orderByDesc('recorded_on')->limit(60)->get()->map(fn ($p) => $this->productionRow($p))];
+            })(),
             'weights' => AnimalWeight::query()->where('group_id', $group->id)->whereNull('animal_id')->orderByDesc('weighed_on')->get()
                 ->map(fn ($w) => ['weighed_on' => $w->weighed_on->toDateString(), 'weight_kg' => (float) $w->weight_kg, 'head_count' => $w->head_count]),
             'options' => $this->options(),
@@ -92,9 +114,16 @@ class LivestockController extends AgriController
                 'exit_value' => self::num($animal->exit_value), 'notes' => $animal->notes,
                 'withdrawal_until' => $this->livestock->withdrawalUntil($animal, $animal->group)?->toDateString(),
             ],
-            'health' => $animal->healthRecords()->with(['farm', 'animal', 'group'])->orderByDesc('treated_on')->get()->map(fn ($h) => $this->healthRow($h)),
+            'health' => $request->user()->can(R::VIEW_HEALTH) ? $animal->healthRecords()->with(['farm', 'animal', 'group'])->orderByDesc('treated_on')->get()->map(fn ($h) => $this->healthRow($h)) : [],
+            'intel' => ['sale_blocks' => $this->livestock->saleBlocks($animal, $animal->group),
+                'growth' => app(\App\Modules\Agri\Services\LivestockIntelligence::class)->growth($animal, null),
+                'cost' => $request->user()->can(R::VIEW_FINANCE) ? app(\App\Modules\Agri\Services\LivestockIntelligence::class)->animalCost($animal) : null,
+                'ownership' => $animal->ownership, 'owner_name' => $animal->owner_name, 'source' => $animal->source, 'birth_date_estimated' => $animal->birth_date_estimated,
+                'quarantine_until' => $animal->quarantine_until?->toDateString(), 'exit_cause' => $animal->exit_cause,
+                'pregnancy' => ($p = $animal->events()->where('event_type', 'pregnancy_check')->whereNotNull('expected_on')->latest('occurred_on')->first())
+                    ? ['checked' => $p->occurred_on->toDateString(), 'expected_on' => $p->expected_on->toDateString(), 'sire' => $p->sire_id ? Animal::query()->whereKey($p->sire_id)->value('tag_number') : null] : null],
             'events' => $animal->events()->orderByDesc('occurred_on')->get()->map(fn ($e) => ['event_type' => $e->event_type,
-                'occurred_on' => $e->occurred_on->toDateString(), 'outcome' => $e->outcome]),
+                'occurred_on' => $e->occurred_on->toDateString(), 'outcome' => $e->outcome, 'method' => $e->method, 'expected_on' => $e->expected_on?->toDateString()]),
             'weights' => $animal->weights()->orderBy('weighed_on')->get()->map(fn ($w) => ['weighed_on' => $w->weighed_on->toDateString(),
                 'weight_kg' => (float) $w->weight_kg, 'condition_score' => self::num($w->condition_score)]),
             'offspring' => Animal::query()->where(fn ($q) => $q->where('dam_id', $animal->id)->orWhere('sire_id', $animal->id))->get(['uuid', 'tag_number', 'sex', 'birth_date'])
@@ -164,6 +193,8 @@ class LivestockController extends AgriController
             'dam_tag' => ['nullable', 'string', 'max:40'],
             'sire_tag' => ['nullable', 'string', 'max:40'],
             'notes' => ['nullable', 'string', 'max:2000'],
+            'ownership' => ['nullable', Rule::in(Animal::OWNERSHIP)], 'owner_name' => ['nullable', 'required_unless:ownership,owned,null', 'string', 'max:160'],
+            'birth_date_estimated' => ['boolean'], 'source' => ['nullable', 'string', 'max:160'],
         ]);
         $farm = $this->workingFarm($request, $data['farm_id']);
         $group = ! empty($data['group_id']) ? LivestockGroup::query()->where('uuid', $data['group_id'])->firstOrFail() : null;
@@ -215,7 +246,16 @@ class LivestockController extends AgriController
             'reason' => ['nullable', 'string', 'max:300'],
             'value' => ['nullable', 'numeric', 'gte:0'],
             'settled_by' => ['nullable', Rule::in(['bank', 'receivable'])],
+            'exit_cause' => ['nullable', 'string', 'max:120'],
         ]);
+        // A death is a mortality record: it carries its cause (the reason given, when no separate cause is).
+        $cause = $data['exit_cause'] ?? ($data['status'] === 'died' ? ($data['reason'] ?? null) : null);
+        if ($data['status'] === 'died' && blank($cause)) {
+            throw \Illuminate\Validation\ValidationException::withMessages(['exit_cause' => 'Record the cause of death, or "unknown".']);
+        }
+        if ($cause) {
+            $animal->update(['exit_cause' => mb_strimwidth($cause, 0, 120)]);
+        }
         $this->livestock->exit($animal, $data['status'], $data['exited_on'], $data['reason'] ?? null,
             isset($data['value']) ? (float) $data['value'] : null, $request->user(), $data['settled_by'] ?? 'receivable');
 
@@ -253,7 +293,12 @@ class LivestockController extends AgriController
             'vet_name' => ['nullable', 'string', 'max:120'],
             'cost' => ['nullable', 'numeric', 'gte:0'],
             'notes' => ['nullable', 'string', 'max:2000'],
+            'notifiable' => ['boolean'], 'quarantine_days' => ['nullable', 'integer', 'min:1', 'max:365'], 'requires_clearance' => ['boolean'],
+            'programme_id' => ['nullable', 'string'],
         ]);
+        if (! empty($data['programme_id'])) {
+            $data['programme_id'] = \App\Modules\Agri\Models\VaccinationProgramme::query()->where('uuid', $data['programme_id'])->value('id');
+        }
         $farm = $this->workingFarm($request, $data['farm_id']);
         $animal = ! empty($data['animal_id']) ? Animal::query()->where('uuid', $data['animal_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
         $group = ! empty($data['group_id']) ? LivestockGroup::query()->where('uuid', $data['group_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
@@ -306,7 +351,138 @@ class LivestockController extends AgriController
             'condition' => $h->condition, 'product_name' => $h->product_name, 'dose' => $h->dose, 'head_count' => $h->head_count,
             'withdrawal_until' => $h->withdrawal_until?->toDateString(), 'next_due_on' => $h->next_due_on?->toDateString(),
             'vet_name' => $h->vet_name, 'cost' => self::num($h->cost),
-            'in_withdrawal' => $h->withdrawal_until !== null && $h->withdrawal_until->gt(today())];
+            'in_withdrawal' => $h->withdrawal_until !== null && $h->withdrawal_until->gt(today()),
+            'notifiable' => $h->notifiable, 'quarantine_days' => $h->quarantine_days, 'requires_clearance' => $h->requires_clearance,
+            'cleared_at' => $h->cleared_at?->format('Y-m-d H:i'), 'clearance_note' => $h->clearance_note];
+    }
+
+    private function productionRow(\App\Modules\Agri\Models\LivestockProduction $p): array
+    {
+        return ['id' => $p->uuid, 'recorded_on' => $p->recorded_on->toDateString(), 'product' => $p->product, 'quantity' => $p->quantity, 'unit' => $p->unit,
+            'grade' => $p->grade, 'lot_code' => $p->lot_code, 'withheld' => $p->withheld, 'withheld_reason' => $p->withheld_reason, 'status' => $p->status,
+            'value' => $p->value, 'group' => $p->group_id ? LivestockGroup::query()->whereKey($p->group_id)->value('code') : null,
+            'animal' => $p->animal_id ? Animal::query()->whereKey($p->animal_id)->value('tag_number') : null];
+    }
+
+    // ── §4 actions ────────────────────────────────────────────────────────────────────────────
+
+    public function breeding(Request $request, Animal $animal, \App\Modules\Agri\Services\LivestockIntelligence $intel): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK, R::RECORD_HEALTH);
+        $this->assertWritable($request, $animal->farm_id);
+        $data = $request->validate(['type' => ['required', Rule::in(['mating', 'pregnancy_check'])], 'occurred_on' => ['required', 'date', 'before_or_equal:today'],
+            'method' => ['nullable', Rule::in(['natural', 'ai', 'et'])], 'sire_tag' => ['nullable', 'string', 'max:40'],
+            'outcome' => ['nullable', 'required_if:type,pregnancy_check', Rule::in(['pregnant', 'empty', 'doubtful'])], 'expected_on' => ['nullable', 'date']]);
+        $sire = ! empty($data['sire_tag']) ? Animal::query()->where('species_id', $animal->species_id)->whereRaw('lower(tag_number) = ?', [mb_strtolower($data['sire_tag'])])->value('id') : null;
+        $e = $intel->breeding($animal, $data['type'], $data['occurred_on'], $request->user(), $data + ['sire_id' => $sire]);
+
+        return back()->with('success', $e->expected_on ? "Pregnant: expected around {$e->expected_on->toDateString()}." : 'Breeding event recorded.');
+    }
+
+    public function birth(Request $request, Animal $animal, \App\Modules\Agri\Services\LivestockIntelligence $intel): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK);
+        $this->assertWritable($request, $animal->farm_id);
+        $data = $request->validate(['born_on' => ['required', 'date', 'before_or_equal:today'], 'tag_number' => ['required', 'string', 'max:40'],
+            'sex' => ['required', Rule::in(Animal::SEXES)], 'name' => ['nullable', 'string', 'max:80'], 'notes' => ['nullable', 'string', 'max:500']]);
+        $young = $intel->birth($animal, collect($data)->except('born_on')->all(), $data['born_on'], $request->user());
+
+        return back()->with('success', "{$young->tag_number} registered, out of {$animal->tag_number}.");
+    }
+
+    public function wean(Request $request, Animal $animal, \App\Modules\Agri\Services\LivestockIntelligence $intel): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK, R::RECORD_HEALTH);
+        $this->assertWritable($request, $animal->farm_id);
+        $data = $request->validate(['weaned_on' => ['required', 'date', 'before_or_equal:today'], 'weight_kg' => ['nullable', 'numeric', 'gt:0']]);
+        $intel->wean($animal, $data['weaned_on'], isset($data['weight_kg']) ? (float) $data['weight_kg'] : null, $request->user());
+
+        return back()->with('success', 'Weaning recorded.');
+    }
+
+    public function produce(Request $request, \App\Modules\Agri\Services\LivestockIntelligence $intel): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK, R::RECORD_HEALTH);
+        $data = $request->validate(['farm_id' => ['required', 'string'], 'group_id' => ['nullable', 'string'], 'animal_id' => ['nullable', 'string'],
+            'product' => ['required', Rule::in(['milk', 'eggs', 'wool', 'other'])], 'recorded_on' => ['required', 'date'], 'quantity' => ['required', 'numeric', 'gt:0'],
+            'unit' => ['required', 'string', 'max:12'], 'grade' => ['nullable', 'string', 'max:30'], 'lot_code' => ['nullable', 'string', 'max:60']]);
+        $farm = $this->workingFarm($request, $data['farm_id']);
+        $animal = ! empty($data['animal_id']) ? Animal::query()->where('uuid', $data['animal_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
+        $group = ! empty($data['group_id']) ? LivestockGroup::query()->where('uuid', $data['group_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
+        $lot = $intel->produce($farm, $animal, $group, $data, $request->user());
+
+        return back()->with($lot->withheld ? 'error' : 'success', $lot->withheld ? "Recorded as lot {$lot->lot_code}, WITHHELD: {$lot->withheld_reason}" : "Recorded as lot {$lot->lot_code}.");
+    }
+
+    public function production(Request $request, \App\Modules\Agri\Models\LivestockProduction $lot, \App\Modules\Agri\Services\LivestockIntelligence $intel): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK);
+        $this->assertWritable($request, $lot->farm_id);
+        $data = $request->validate(['action' => ['required', Rule::in(['sell', 'discard'])], 'value' => ['nullable', 'required_if:action,sell', 'numeric', 'gte:0'],
+            'sold_on' => ['nullable', 'date'], 'reason' => ['nullable', 'required_if:action,discard', 'string', 'max:200'], 'settled_by' => ['nullable', Rule::in(['bank', 'receivable'])]]);
+        $data['action'] === 'sell'
+            ? $intel->sellProduction($lot, (float) $data['value'], $data['sold_on'] ?? today()->toDateString(), $request->user(), $data['settled_by'] ?? 'receivable')
+            : $intel->discard($lot, $data['reason']);
+
+        return back()->with('success', $data['action'] === 'sell' ? "Lot {$lot->lot_code} sold." : "Lot {$lot->lot_code} discarded.");
+    }
+
+    public function feed(Request $request, \App\Modules\Agri\Services\LivestockIntelligence $intel): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK, R::RECORD_HEALTH);
+        $data = $request->validate(['farm_id' => ['required', 'string'], 'group_id' => ['nullable', 'string'], 'animal_id' => ['nullable', 'string'],
+            'ration_id' => ['nullable', 'string'], 'stock_item_id' => ['nullable', 'integer'], 'fed_on' => ['required', 'date', 'before_or_equal:today'],
+            'quantity_kg' => ['required', 'numeric', 'gt:0'], 'head_count' => ['nullable', 'integer', 'min:1'], 'client_id' => ['nullable', 'uuid']]);
+        $farm = $this->workingFarm($request, $data['farm_id']);
+        $animal = ! empty($data['animal_id']) ? Animal::query()->where('uuid', $data['animal_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
+        $group = ! empty($data['group_id']) ? LivestockGroup::query()->where('uuid', $data['group_id'])->where('farm_id', $farm->id)->firstOrFail() : null;
+        if (! empty($data['ration_id'])) {
+            $data['ration_id'] = \App\Modules\Agri\Models\FeedRation::query()->where('uuid', $data['ration_id'])->value('id');
+        }
+        $f = $intel->feed($farm, $group, $animal, $data, $request->user());
+
+        return back()->with('success', "{$f->quantity_kg} kg fed, issued from the store at ".number_format($f->cost, 2).'.');
+    }
+
+    public function saveRation(Request $request, ?\App\Modules\Agri\Models\FeedRation $ration = null): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK);
+        $data = $request->validate(['name' => ['required', 'string', 'max:120'], 'species_id' => ['nullable', 'integer'], 'notes' => ['nullable', 'string', 'max:500'],
+            'is_active' => ['boolean'], 'items' => ['required', 'array', 'min:1', 'max:20'], 'items.*.stock_item_id' => ['required', 'integer'],
+            'items.*.share_pct' => ['required', 'numeric', 'gt:0', 'max:100']]);
+        $sum = round(array_sum(array_column($data['items'], 'share_pct')), 3);
+        abort_if(abs($sum - 100) > 0.01, 422, "The components add up to {$sum}%; a ration must add up to 100%.");
+        \Illuminate\Support\Facades\DB::transaction(function () use ($request, $data, $ration) {
+            $row = collect($data)->except('items')->all();
+            $ration = $ration?->exists ? tap($ration)->update($row) : \App\Modules\Agri\Models\FeedRation::create($row + ['company_id' => $request->user()->company_id]);
+            $ration->items()->delete();
+            foreach ($data['items'] as $i) {
+                $ration->items()->create($i + ['company_id' => $ration->company_id]);
+            }
+        });
+
+        return back()->with('success', 'Ration saved.');
+    }
+
+    public function saveProgramme(Request $request, ?\App\Modules\Agri\Models\VaccinationProgramme $programme = null): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_LIVESTOCK);
+        $data = $request->validate(['species_id' => ['required', 'integer'], 'name' => ['required', 'string', 'max:120'], 'product' => ['nullable', 'string', 'max:120'],
+            'stock_item_id' => ['nullable', 'integer'], 'applies_to' => ['required', Rule::in(['all', 'female', 'male'])],
+            'first_at_age_days' => ['nullable', 'integer', 'min:0', 'max:3650'], 'repeat_every_days' => ['nullable', 'integer', 'min:1', 'max:3650'],
+            'withdrawal_days' => ['nullable', 'integer', 'min:0', 'max:3650'], 'is_active' => ['boolean']]);
+        $programme?->exists ? $programme->update($data) : \App\Modules\Agri\Models\VaccinationProgramme::create($data + ['company_id' => $request->user()->company_id]);
+
+        return back()->with('success', 'Vaccination programme saved.');
+    }
+
+    public function clear(Request $request, AnimalHealthRecord $record): RedirectResponse
+    {
+        $this->allow($request, R::RELEASE_HEALTH);
+        $this->assertWritable($request, $record->farm_id);
+        $this->livestock->clear($record, $request->validate(['note' => ['required', 'string', 'max:300']])['note'], $request->user());
+
+        return back()->with('success', 'Release verified.');
     }
 
     private function groupRules(): array
@@ -320,6 +496,8 @@ class LivestockController extends AgriController
             'budget_amount' => ['nullable', 'numeric', 'gte:0'],
             'started_on' => ['nullable', 'date'],
             'notes' => ['nullable', 'string', 'max:2000'],
+            'batch_code' => ['nullable', 'string', 'max:40'], 'closed_on' => ['nullable', 'date', 'after_or_equal:started_on'],
+            'target_head' => ['nullable', 'integer', 'min:1'],
         ];
     }
 
@@ -340,6 +518,10 @@ class LivestockController extends AgriController
             'acquisitions' => Animal::ACQUISITIONS,
             'exits' => Animal::EXITS,
             'health_types' => AnimalHealthRecord::TYPES,
+            'ownership' => Animal::OWNERSHIP,
+            'programmes' => \App\Modules\Agri\Models\VaccinationProgramme::query()->where('is_active', true)->orderBy('name')->get(['uuid', 'name', 'species_id', 'withdrawal_days'])
+                ->map(fn ($p) => ['id' => $p->uuid, 'name' => $p->name, 'species_id' => $p->species_id, 'withdrawal_days' => $p->withdrawal_days]),
+            'rations' => \App\Modules\Agri\Models\FeedRation::query()->where('is_active', true)->orderBy('name')->get(['uuid', 'name'])->map(fn ($r) => ['id' => $r->uuid, 'name' => $r->name]),
             'event_types' => array_values(array_diff(AnimalEvent::TYPES, ['exit'])),
             'count_reasons' => LivestockCountChange::REASONS,
         ];
@@ -349,6 +531,7 @@ class LivestockController extends AgriController
     {
         $u = $request->user();
 
-        return ['manage' => $u->can(R::MANAGE_LIVESTOCK), 'health' => $u->can(R::RECORD_HEALTH)];
+        return ['manage' => $u->can(R::MANAGE_LIVESTOCK), 'health' => $u->can(R::RECORD_HEALTH), 'view_health' => $u->can(R::VIEW_HEALTH),
+            'release' => $u->can(R::RELEASE_HEALTH), 'finance' => $u->can(R::VIEW_FINANCE)];
     }
 }

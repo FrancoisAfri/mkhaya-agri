@@ -5,6 +5,8 @@ namespace App\Modules\Finance\Accounting\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Modules\Finance\Accounting\Exceptions\PostingException;
 use App\Modules\Finance\Accounting\Models\FinAccount;
+use App\Modules\Finance\Accounting\Models\FinDeliveryNote;
+use App\Modules\Finance\Accounting\Support\ChargeTo;
 use App\Modules\Finance\Accounting\Models\FinItem;
 use App\Modules\Finance\Accounting\Models\FinParty;
 use App\Modules\Finance\Accounting\Models\FinSalesOrder;
@@ -29,11 +31,15 @@ class SalesOrderController extends Controller
                     'id' => $o->id, 'number' => $o->number, 'party' => $o->party->name, 'party_id' => $o->party_id,
                     'date' => $o->order_date?->toDateString(), 'total' => (float) $o->total, 'status' => $o->status,
                     'customer_ref' => $o->customer_ref, 'description' => $o->description, 'invoice_id' => $o->invoice_id,
-                    'deliveries' => $o->deliveryNotes->map(fn ($d) => ['id' => $d->id, 'number' => $d->number, 'date' => $d->delivery_date?->toDateString()]),
+                    'deliver_on' => $o->deliver_on?->toDateString(), 'delivery_address' => $o->delivery_address,
+                    'charge_to' => ChargeTo::choiceOf($o->dimensions), 'source_type' => $o->source_type,
+                    'deliveries' => $o->deliveryNotes->map(fn ($d) => ['id' => $d->id, 'number' => $d->number, 'date' => $d->delivery_date?->toDateString(), 'invoice_id' => $d->invoice_id]),
                     'lines' => $o->lines->map(fn ($l) => [
                         'id' => $l->id, 'account_id' => $l->account_id, 'item_id' => $l->item_id, 'description' => $l->description,
                         'quantity' => (float) $l->quantity, 'unit_price' => (float) $l->unit_price, 'tax_rate' => (float) $l->tax_rate,
                         'qty_delivered' => (float) $l->qty_delivered, 'outstanding' => $l->outstandingQty(),
+                        'unit' => $l->unit, 'grade' => $l->grade, 'price_basis' => $l->price_basis,
+                        'qty_accepted' => (float) $l->qty_accepted, 'qty_rejected' => (float) $l->qty_rejected, 'qty_invoiced' => (float) $l->qty_invoiced,
                     ]),
                 ]),
             'customers' => FinParty::customers()->where('is_active', true)->orderBy('name')->get(['id', 'name'])
@@ -43,6 +49,7 @@ class SalesOrderController extends Controller
             'items' => FinItem::active()->orderBy('name')->get()
                 ->map(fn ($i) => ['id' => $i->id, 'code' => $i->code, 'name' => $i->name, 'description' => $i->description,
                     'price' => (float) $i->sales_price, 'tax_rate' => (float) $i->tax_rate, 'account_id' => $i->sales_account_id]),
+            'chargeTo' => ChargeTo::options(),
         ]);
     }
 
@@ -70,13 +77,18 @@ class SalesOrderController extends Controller
             'deliveries'            => 'required|array|min:1',
             'deliveries.*.order_line_id' => 'required|integer',
             'deliveries.*.quantity' => 'required|numeric|min:0',
+            // What the customer accepted and turned away, when they have said.
+            'deliveries.*.accepted' => 'nullable|numeric|min:0',
+            'deliveries.*.rejected' => 'nullable|numeric|min:0',
         ]);
 
-        $map = collect($data['deliveries'])->filter(fn ($d) => (float) $d['quantity'] > 0)
-            ->mapWithKeys(fn ($d) => [(int) $d['order_line_id'] => (float) $d['quantity']])->all();
+        $sent = collect($data['deliveries'])->filter(fn ($d) => (float) $d['quantity'] > 0);
+        $map = $sent->mapWithKeys(fn ($d) => [(int) $d['order_line_id'] => (float) $d['quantity']])->all();
+        $outcomes = $sent->filter(fn ($d) => isset($d['accepted']) || isset($d['rejected']))
+            ->mapWithKeys(fn ($d) => [(int) $d['order_line_id'] => ['accepted' => (float) ($d['accepted'] ?? 0), 'rejected' => (float) ($d['rejected'] ?? 0)]])->all();
 
         try {
-            $this->orders->deliver($order, $map, $data['notes'] ?? null);
+            $this->orders->deliver($order, $map, $data['notes'] ?? null, $outcomes);
         } catch (PostingException $e) {
             throw ValidationException::withMessages(['order' => [$e->getMessage()]]);
         }
@@ -95,6 +107,18 @@ class SalesOrderController extends Controller
         return back()->with('success', "Invoice {$invoice->number} raised from {$order->number}.");
     }
 
+    /** Invoice what one delivery's customer accepted. */
+    public function invoiceDelivery(FinDeliveryNote $deliveryNote): RedirectResponse
+    {
+        try {
+            $invoice = $this->orders->invoiceDelivery($deliveryNote);
+        } catch (PostingException $e) {
+            throw ValidationException::withMessages(['order' => [$e->getMessage()]]);
+        }
+
+        return back()->with('success', $invoice ? "Invoice {$invoice->number} raised for {$deliveryNote->number}." : 'Nothing on that delivery was accepted; there is nothing to invoice.');
+    }
+
     public function cancel(FinSalesOrder $order): RedirectResponse
     {
         try {
@@ -108,7 +132,7 @@ class SalesOrderController extends Controller
 
     private function rules(Request $request): array
     {
-        return $request->validate([
+        $data = $request->validate([
             'party_id'           => 'required|exists:fin_parties,id',
             'order_date'         => 'nullable|date',
             'customer_ref'       => 'nullable|string|max:120',
@@ -120,6 +144,21 @@ class SalesOrderController extends Controller
             'lines.*.quantity'   => 'nullable|numeric|min:0',
             'lines.*.unit_price' => 'required|numeric',
             'lines.*.tax_rate'   => 'nullable|numeric|min:0|max:100',
+            'lines.*.unit'       => 'nullable|string|max:20',
+            'lines.*.grade'      => 'nullable|string|max:40',
+            'lines.*.price_basis' => 'nullable|string|max:255',
+            'deliver_on'         => 'nullable|date',
+            'delivery_address'   => 'nullable|string|max:1000',
+            'charge_to'          => 'nullable|string|max:80',
         ]);
+        if ($request->has('charge_to')) {
+            try {
+                $data['dimensions'] = ChargeTo::dimensions($request->input('charge_to'));
+            } catch (\InvalidArgumentException $e) {
+                throw ValidationException::withMessages(['charge_to' => [$e->getMessage()]]);
+            }
+        }
+
+        return $data;
     }
 }

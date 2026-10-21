@@ -52,6 +52,7 @@ const activityHeaders = [
       </div>
       <div class="d-flex flex-wrap gap-2">
         <FarmFilter :farms="options.farms" :model-value="filters.farm" />
+        <Link :href="route('agri.crops.precision', 'scouting')"><VBtn variant="tonal" prepend-icon="tabler-radar">Crop intelligence</VBtn></Link>
         <VMenu>
           <template #activator="{ props: p }"><VBtn v-bind="p" color="primary" prepend-icon="tabler-plus">Record</VBtn></template>
           <VList density="compact">

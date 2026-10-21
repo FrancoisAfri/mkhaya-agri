@@ -11,6 +11,7 @@ type Vehicle = {
   id: number; uuid: string; registration: string; registration_number: string; make: string; model: string; year: number
   color: string | null; colour: string | null; vin: string | null; fuel_type: string; vehicle_type: string
   status: string; odometer_reading: number; odometer_unit: string
+  asset_class?: string; name?: string | null; serial_number?: string | null; hours_reading?: number | null; farm?: string | null
   current_driver: string | null; department: string | null
   company_unit_id: number | null; tank_size: number | null
   next_service_due: string | null; insurance_expiry: string | null
@@ -33,6 +34,11 @@ const props = defineProps<{
 const search   = ref(props.filters?.search ?? '')
 const status   = ref(props.filters?.status ?? '')
 const fuelType = ref(props.filters?.fuel_type ?? '')
+const assetClass = ref(props.filters?.asset_class ?? '')
+const assetClasses = computed(() => [
+  { title: t('fleet_vehicles_index.asset_class.vehicle'), value: 'vehicle' },
+  { title: t('fleet_vehicles_index.asset_class.equipment'), value: 'equipment' },
+])
 let timer: ReturnType<typeof setTimeout>
 
 function applyFilters() {
@@ -40,11 +46,12 @@ function applyFilters() {
     search: search.value || undefined,
     status: status.value || undefined,
     fuel_type: fuelType.value || undefined,
+    asset_class: assetClass.value || undefined,
   }, { preserveState: true, replace: true })
 }
 
 watch(search, () => { clearTimeout(timer); timer = setTimeout(applyFilters, 400) })
-watch([status, fuelType], applyFilters)
+watch([status, fuelType, assetClass], applyFilters)
 
 const dialog  = ref(false)
 const editing = ref<Vehicle | null>(null)
@@ -61,6 +68,7 @@ function onMakeChange(makeName: string) {
 }
 
 const form = useForm({
+  asset_class: 'vehicle', name: '', serial_number: '', hours_reading: null as number | null,
   registration_number: '', make: '', model: '', year: new Date().getFullYear(),
   colour: '', vin_number: '', engine_number: '', fuel_type: '', vehicle_type: '',
   seating_capacity: 5, tank_size: null as number | null,
@@ -78,6 +86,10 @@ function openAdd() {
 function openEdit(v: Vehicle) {
   editing.value = v
   form.registration_number = v.registration_number ?? v.registration ?? ''
+  form.asset_class = v.asset_class ?? 'vehicle'
+  form.name = v.name ?? ''
+  form.serial_number = v.serial_number ?? ''
+  form.hours_reading = v.hours_reading ?? null
   form.make = v.make ?? ''
   form.model = v.model ?? ''
   const foundMake = props.makes.find(m => m.name === form.make)
@@ -147,6 +159,7 @@ const headers = [
   { title: t('fleet_vehicles_index.table.vehicle'),      key: 'vehicle' },
   { title: t('fleet_vehicles_index.table.type_fuel'),  key: 'type_fuel' },
   { title: t('fleet_vehicles_index.table.odometer'),     key: 'odometer_reading' },
+  { title: t('fleet_vehicles_index.table.hours'),        key: 'hours_reading' },
   { title: t('fleet_vehicles_index.table.driver'),       key: 'current_driver' },
   { title: t('fleet_vehicles_index.table.status'),       key: 'status' },
   { title: '',             key: 'actions', sortable: false, width: '100px' },
@@ -185,11 +198,14 @@ const headers = [
 
     <VCard class="mb-4 pa-3">
       <VRow dense>
-        <VCol cols="12" md="5">
+        <VCol cols="12" md="3">
           <VTextField v-model="search" :label="t('fleet_vehicles_index.filters.search')" prepend-inner-icon="ri-search-line" clearable density="compact" variant="outlined" hide-details />
         </VCol>
         <VCol cols="6" md="3">
           <VSelect v-model="status" :label="t('fleet_vehicles_index.filters.status')" :items="['available','booked','in_use','maintenance','retired','inactive']" clearable density="compact" variant="outlined" hide-details />
+        </VCol>
+        <VCol cols="6" md="3">
+          <VSelect v-model="assetClass" :label="t('fleet_vehicles_index.filters.asset_class')" :items="assetClasses" clearable density="compact" variant="outlined" hide-details />
         </VCol>
         <VCol cols="6" md="3">
           <VSelect v-model="fuelType" :label="t('fleet_vehicles_index.filters.fuel_type')" :items="fuelTypes" item-title="name" item-value="name" clearable density="compact" variant="outlined" hide-details />
@@ -212,14 +228,22 @@ const headers = [
               <VIcon icon="ri-car-line" color="grey-darken-1" />
             </VAvatar>
             <div>
-              <div class="font-weight-medium">{{ item.make }} {{ item.model }}</div>
-              <div class="text-caption text-medium-emphasis">{{ item.year }} · {{ item.color }}</div>
+              <div class="font-weight-medium">{{ item.name || `${item.make ?? ''} ${item.model ?? ''}` }}</div>
+              <div class="text-caption text-medium-emphasis">{{ item.year }}<template v-if="item.color"> · {{ item.color }}</template><template v-if="item.farm"> · {{ item.farm }}</template></div>
             </div>
           </div>
         </template>
         <template #item.type_fuel="{ item }">
           <VChip size="x-small" variant="tonal" color="primary" class="mr-1">{{ item.vehicle_type }}</VChip>
           <VChip size="x-small" variant="tonal" color="info">{{ item.fuel_type }}</VChip>
+        </template>
+        <template #item.hours_reading="{ item }">
+          <span v-if="item.asset_class === 'equipment' || Number(item.hours_reading) > 0">{{ Number(item.hours_reading ?? 0).toLocaleString() }} h</span>
+          <span v-else class="text-medium-emphasis">—</span>
+        </template>
+        <template #item.registration="{ item }">
+          <span v-if="item.registration">{{ item.registration }}</span>
+          <VChip v-else size="x-small" variant="tonal">{{ t('fleet_vehicles_index.asset_class.equipment') }}</VChip>
         </template>
         <template #item.odometer_reading="{ item }">
           {{ item.odometer_reading?.toLocaleString() }} {{ item.odometer_unit }}
@@ -248,6 +272,10 @@ const headers = [
         <VDivider />
         <VCardText style="max-height:75vh">
           <VRow dense class="mt-1">
+            <VCol cols="12" md="4"><VSelect v-model="form.asset_class" :label="t('fleet_vehicles_index.filters.asset_class')" :items="assetClasses" variant="outlined" density="comfortable" :error-messages="form.errors.asset_class" /></VCol>
+            <VCol cols="12" md="4"><VTextField v-model="form.name" :label="t('fleet_vehicles_index.dialog.name')" variant="outlined" density="comfortable" :error-messages="form.errors.name" /></VCol>
+            <VCol cols="12" md="4"><VTextField v-model="form.serial_number" :label="t('fleet_vehicles_index.dialog.serial_number')" variant="outlined" density="comfortable" :error-messages="form.errors.serial_number" /></VCol>
+            <VCol v-if="form.asset_class === 'equipment'" cols="12" md="4"><VTextField v-model.number="form.hours_reading" type="number" :label="t('fleet_vehicles_index.table.hours')" variant="outlined" density="comfortable" :error-messages="form.errors.hours_reading" /></VCol>
             <VCol cols="12" md="4"><VTextField v-model="form.registration_number" :label="t('fleet_vehicles_index.dialog.registration')" :error-messages="form.errors.registration_number" variant="outlined" density="comfortable" /></VCol>
             <VCol cols="12" md="4">
               <VSelect v-model="form.make" :label="t('fleet_vehicles_index.dialog.make')" :items="makes" item-title="name" item-value="name"

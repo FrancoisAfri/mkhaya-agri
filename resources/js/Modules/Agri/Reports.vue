@@ -13,7 +13,7 @@ const props = defineProps<{
 }>()
 const f = ref({ ...props.filters })
 const run = (report?: string) => router.get(route('agri.reports.index'), { ...f.value, report: report ?? f.value.report, farm: f.value.farm || undefined }, { preserveState: false })
-const exportUrl = () => route('agri.reports.export', { report: props.data!.key, farm: f.value.farm || undefined, from: f.value.from, to: f.value.to })
+const exportUrl = (format = 'csv') => route('agri.reports.export', { report: props.data!.key, farm: f.value.farm || undefined, from: f.value.from, to: f.value.to, format })
 const show = (v: any) => (typeof v === 'number' ? num(v, 3) : v ?? '—')
 </script>
 
@@ -41,6 +41,7 @@ const show = (v: any) => (typeof v === 'number' ? num(v, 3) : v ?? '—')
         <VBtn variant="tonal" @click="run()">Run</VBtn>
         <VSpacer />
         <VBtn :href="exportUrl()" prepend-icon="tabler-download" variant="outlined">CSV</VBtn>
+        <VBtn :href="exportUrl('xlsx')" prepend-icon="tabler-file-spreadsheet" variant="outlined">Excel</VBtn>
       </VCardText>
       <VTable density="compact" class="text-no-wrap">
         <thead><tr><th v-for="c in data.columns" :key="c.key">{{ c.title }}</th></tr></thead>

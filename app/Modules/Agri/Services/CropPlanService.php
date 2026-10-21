@@ -159,13 +159,20 @@ class CropPlanService
             throw ValidationException::withMessages(['planned_planting_on' => "Planting must fall inside season {$season->name} ({$season->starts_on->toDateString()} to {$season->ends_on->toDateString()})."]);
         }
 
+        // A split field is planned on its parts, which hold the area between them.
+        if (FarmField::withoutGlobalScopes()->where('parent_field_id', $field->id)->where('status', '!=', 'archived')->exists()) {
+            throw ValidationException::withMessages(['field_id' => "Field {$field->code} is split; plan on one of its parts."]);
+        }
+
         $hectares = Farm::hectares((float) $data['planned_area'], $data['area_unit'] ?? 'ha');
         $fieldHa = $field->hectares();
         if ($fieldHa !== null) {
-            // Plans that hold this field over any part of the same period.
-            $committed = CropPlan::query()
+            // Plans that hold this field over any part of the same period. An intercrop shares the
+            // ground with the main crop, so it neither counts against the area nor is counted.
+            $committed = (bool) ($data['intercrop'] ?? false) ? 0.0 : CropPlan::query()
                 ->where('field_id', $field->id)
                 ->whereIn('status', CropPlan::LIVE)
+                ->where('intercrop', false)
                 ->when($exceptId, fn ($q) => $q->whereKeyNot($exceptId))
                 ->whereDate('planned_planting_on', '<', $harvest)
                 ->whereDate('planned_harvest_on', '>', $plant)

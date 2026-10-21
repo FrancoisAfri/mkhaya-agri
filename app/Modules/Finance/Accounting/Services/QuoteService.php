@@ -43,6 +43,7 @@ class QuoteService
                 'sales_rep' => $data['sales_rep'] ?? null, 'delivery_address' => $data['delivery_address'] ?? null,
                 'postal_address' => $data['postal_address'] ?? null,
                 'crm_deal_id' => $data['crm_deal_id'] ?? null, 'created_by' => Auth::id(),
+                'dimensions' => $data['dimensions'] ?? null,
             ]);
             $quote->lines()->createMany($lines);
 
@@ -82,6 +83,7 @@ class QuoteService
                 'crm_deal_id' => $data['crm_deal_id'] ?? $quote->crm_deal_id,
                 'subtotal' => $subtotal, 'tax_total' => $taxAfter, 'total' => $total,
                 'discount_percent' => $pct, 'discount_amount' => $discountAmount,
+                'dimensions' => array_key_exists('dimensions', $data) ? $data['dimensions'] : $quote->dimensions,
 
                 /*
                  * An amended quote goes back to draft if it had been accepted.
@@ -135,6 +137,7 @@ class QuoteService
                     'quantity' => (float) $l->quantity, 'unit_price' => round((float) $l->unit_price * $factor, 4),
                     'tax_rate' => (float) $l->tax_rate, 'tax_code' => $l->tax_code,
                 ])->all(),
+                'dimensions' => $quote->dimensions,
             ]);
 
             $quote->update(['status' => 'invoiced', 'invoice_id' => $invoice->id]);
@@ -160,6 +163,7 @@ class QuoteService
                 'description' => $l['description'] ?? '', 'note' => $l['note'] ?? null,
                 'quantity' => $qty, 'unit_price' => $price, 'line_total' => $lineTotal,
                 'tax_code' => $l['tax_code'] ?? null, 'tax_rate' => $rate, 'tax_amount' => $taxAmount,
+                'unit' => $l['unit'] ?? null, 'grade' => $l['grade'] ?? null, 'price_basis' => $l['price_basis'] ?? null,
             ];
             $subtotal += $lineTotal;
             $taxTotal += $taxAmount;

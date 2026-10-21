@@ -25,6 +25,7 @@ class PurchaseRequest extends Model
         'budget_id', 'urgency', 'is_emergency', 'justification', 'delivery_location',
         'needed_by', 'currency', 'estimated_total', 'status',
         'budget_reservation_id', 'reserved_amount', 'created_by',
+        'warehouse_id', // where the goods are to be delivered (a farm store, say)
     ];
 
     protected $casts = [

@@ -65,7 +65,9 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    // Stored and computed in UTC, as every module assumes (see docs/adr/SHEQ-ADR-005). Farm screens
+    // show and take times in each farm's own zone (farms.timezone) — see App\Modules\Agri\Support\FarmTime.
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------

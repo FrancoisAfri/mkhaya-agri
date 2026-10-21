@@ -78,7 +78,7 @@ function employeeName(e: EmployeeOption) { return `${e.first_name} ${e.surname}`
             </div>
             <div class="d-flex gap-3 align-center">
               <VTextField v-model="selectedDate" type="date" density="compact" hide-details style="max-width:180px" @change="changeDate" />
-              <VBtn color="primary" prepend-icon="fas fa-plus" @click="openCreate"><i class="fa-solid fa-plus"></i> {{ t('attendance_records_page.add_record') }}</VBtn>
+              <VBtn color="primary" prepend-icon="mdi-plus" @click="openCreate">{{ t('attendance_records_page.add_record') }}</VBtn>
             </div>
           </VCardText>
         </VCard>

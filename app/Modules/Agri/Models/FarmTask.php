@@ -22,7 +22,7 @@ class FarmTask extends FarmOwnedModel
     protected $table = 'farm_tasks';
 
     protected $casts = ['due_on' => 'date', 'requires_approval' => 'boolean', 'labour_hours' => 'decimal:2',
-        'submitted_at' => 'datetime', 'reviewed_at' => 'datetime'];
+        'submitted_at' => \App\Modules\Agri\Casts\FarmDateTime::class, 'reviewed_at' => \App\Modules\Agri\Casts\FarmDateTime::class];
 
     public function assignee(): BelongsTo
     {

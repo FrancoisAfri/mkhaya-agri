@@ -27,6 +27,8 @@ class FinParty extends Model
         'registration_number', 'vendor_number', 'bank_name', 'bank_account', 'credit_terms_days', 'credit_limit',
         'sales_rep', 'default_discount_percent',
         'on_hold', 'is_active', 'tax_exempt', 'notes', 'language', 'do_not_contact',
+        // Selling: the channel margins are reported by, where it takes delivery, and who checked who it is.
+        'channel', 'delivery_points', 'verified_at', 'verified_by', 'verification_note',
     ];
 
     protected $casts = [
@@ -36,6 +38,8 @@ class FinParty extends Model
         'is_active'      => 'boolean',
         'tax_exempt'     => 'boolean',
         'do_not_contact' => 'boolean',
+        'delivery_points' => 'array',
+        'verified_at'    => 'datetime',
     ];
 
     public const KINDS = ['customer', 'supplier', 'both'];

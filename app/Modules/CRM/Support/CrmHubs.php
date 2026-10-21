@@ -27,7 +27,7 @@ class CrmHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'workspace' => [
                 'name' => 'Workspace', 'path' => 'crm/workspace', 'icon' => 'layout-grid', 'tier' => self::READ,
                 'title' => 'crm.hubs.workspace.title', 'subtitle' => 'crm.hubs.workspace.subtitle',
@@ -112,6 +112,10 @@ class CrmHubs extends ModuleHubs
                     self::card('audit', 'crm/audit', 'history', self::SUPERUSER, 'red'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'engage' => ['absorb' => ['service'], 'name' => 'Engage & Service'],
+            'insights' => ['absorb' => ['data_quality', 'configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

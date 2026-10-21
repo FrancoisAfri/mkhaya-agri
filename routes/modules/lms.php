@@ -41,7 +41,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['web', 'auth', 'module.active:learning_management', 'module.tier:learning_management'])->prefix('lms')->name('lms.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['my-learning-hub' => 'my_learning', 'team-hub' => 'team', 'courses-hub' => 'courses', 'skills-hub' => 'skills', 'compliance-hub' => 'compliance', 'seta-hub' => 'seta', 'insights-hub' => 'insights'] as $hubPath => $group) {
+    foreach (['my-learning-hub' => 'my_learning', 'courses-hub' => 'courses', 'skills-hub' => 'skills', 'compliance-hub' => 'compliance'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'learning_management')->defaults('group', $group)->name('hub.' . $group);
     }

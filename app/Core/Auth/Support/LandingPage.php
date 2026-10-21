@@ -55,6 +55,20 @@ final class LandingPage
             return route('dashboard');
         }
 
+        // Farm people (Mkhaya Agri) hold farm permissions, not the dashboard's. Those who run or
+        // oversee farms land on the farm dashboard; those who do the work, on their own list of it.
+        if (RouteFacade::has('agri.dashboard')) {
+            if (self::holdsAny($user, ['agri.farm.all', 'agri.farm.manage', 'agri.task.manage', 'agri.finance.view'])) {
+                return route('agri.dashboard');
+            }
+            if (self::holdsAny($user, ['agri.task.view', 'agri.activity.record', 'agri.workorder.view'])) {
+                return route('agri.my-work');
+            }
+            if (self::holdsAny($user, ['agri.farm.view'])) {
+                return route('agri.dashboard');
+            }
+        }
+
         if (self::isPortalMember($user) && RouteFacade::has('project-management.portal')) {
             return route('project-management.portal');
         }

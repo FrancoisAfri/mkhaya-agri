@@ -153,6 +153,9 @@ Route::middleware(['web'])->patch('/user/locale', function (\Illuminate\Http\Req
 })->name('user.locale');
 
 // ── AUTHENTICATED ROUTES ────────────────────
+// Mkhaya Agri phone app: service worker + manifest, public and data-free.
+require __DIR__.'/modules/agri-pwa.php';
+
 Route::middleware(['auth', 'auth.lock', 'check.banned', 'prevent-back-history', 'crud.permissions'])->group(function () {
 
     Route::get('/', [DashbaordController::class, 'index'])->name('dashboard');
@@ -236,6 +239,14 @@ Route::middleware(['auth', 'auth.lock', 'check.banned', 'prevent-back-history', 
 
     // Mkhaya Agri — farms, fields and (by phase) crops, livestock and farm operations.
     require __DIR__.'/modules/agri.php';
+
+    // Organisations a person belongs to, switching between them, and adding members from other
+    // organisations (company_memberships). Each action checks its own authority.
+    Route::get('/account/organisations', [\App\Modules\Tenancy\Http\Controllers\OrganisationController::class, 'index'])->name('organisations.index');
+    Route::post('/account/organisations/{company}/switch', [\App\Modules\Tenancy\Http\Controllers\OrganisationController::class, 'switch'])
+        ->whereNumber('company')->name('organisations.switch');
+    Route::post('/account/organisations/members', [\App\Modules\Tenancy\Http\Controllers\OrganisationController::class, 'invite'])->name('organisations.members.store');
+    Route::patch('/account/organisations/members/{membership}', [\App\Modules\Tenancy\Http\Controllers\OrganisationController::class, 'update'])->name('organisations.members.update');
 
     // Hub landings for modules that don't register their own (see the file's header).
     require __DIR__.'/modules/hubs.php';

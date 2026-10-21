@@ -19,7 +19,7 @@ class ActivityInput extends FarmOwnedModel
 
     protected $casts = [
         'quantity' => 'decimal:4', 'rate_per_ha' => 'decimal:4', 'unit_cost' => 'decimal:4',
-        'total_cost' => 'decimal:2', 'issued_at' => 'datetime',
+        'total_cost' => 'decimal:2', 'issued_at' => \App\Modules\Agri\Casts\FarmDateTime::class,
     ];
 
     public function activity(): BelongsTo

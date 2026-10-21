@@ -10,8 +10,6 @@ use App\Modules\Finance\Accounting\Models\FinStockItem;
 use App\Modules\Finance\Accounting\Models\FinStockMovement;
 use App\Modules\Finance\Accounting\Services\InventoryService;
 use App\Modules\Finance\Accounting\Services\StockLedger;
-use App\Modules\Procurement\Models\PurchaseRequestItem;
-use App\Modules\Procurement\Services\PurchaseRequestService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -163,11 +161,12 @@ class FarmStockController extends AgriController
         return back()->with('success', "Sold {$data['quantity']} {$item->uom} of {$item->name}; stock and income posted.");
     }
 
-    public function requisition(Request $request, PurchaseRequestService $service): RedirectResponse
+    public function requisition(Request $request): RedirectResponse
     {
         $this->allow($request, R::RECEIVE_STOCK);
         $data = $request->validate([
             'farm_id' => ['required', 'string'],
+            'store_id' => ['nullable', 'string'],
             'needed_by' => ['nullable', 'date', 'after_or_equal:today'],
             'justification' => ['required', 'string', 'max:1000'],
             'lines' => ['required', 'array', 'min:1'],
@@ -176,27 +175,7 @@ class FarmStockController extends AgriController
             'lines.*.unit_price' => ['nullable', 'numeric', 'gte:0'],
         ]);
         $farm = $this->workingFarm($request, $data['farm_id']);
-
-        $pr = DB::transaction(function () use ($data, $farm, $service, $request) {
-            $pr = $service->create([
-                'department' => 'Farm: '.$farm->name, 'project_code' => $farm->code, 'urgency' => 'normal',
-                'justification' => $data['justification'], 'delivery_location' => $farm->name.($farm->location ? ', '.$farm->location : ''),
-                'needed_by' => $data['needed_by'] ?? null, 'currency' => $farm->currency ?: 'ZAR',
-            ], $request->user()->id);
-            foreach ($data['lines'] as $line) {
-                $item = FinStockItem::query()->findOrFail($line['stock_item_id']);
-                $price = (float) ($line['unit_price'] ?? $item->avg_cost ?? 0);
-                PurchaseRequestItem::create([
-                    'purchase_request_id' => $pr->id, 'item_type' => 'goods', 'name' => $item->name,
-                    'description' => "{$item->code} for {$farm->name}", 'quantity' => $line['quantity'],
-                    'unit_price' => $price, 'line_total' => round($price * (float) $line['quantity'], 2),
-                    'source' => 'agri', 'external_ref' => "fin_stock_item:{$item->id}",
-                ]);
-            }
-            $pr->recalcTotal();
-
-            return $pr;
-        });
+        $pr = app(\App\Modules\Agri\Services\FarmProcurement::class)->requisition($farm, $data, $request->user());
 
         return back()->with('success', "Requisition {$pr->request_number} drafted in Procurement. Submit it there for approval.");
     }

@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['module.active:disciplinary', 'module.tier:disciplinary'])->prefix('disciplinary')->name('disciplinary.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['cases-hub' => 'cases', 'hearings-hub' => 'hearings', 'intelligence-hub' => 'intelligence', 'insights-hub' => 'insights', 'configure-hub' => 'configure'] as $hubPath => $group) {
+    foreach (['cases-hub' => 'cases', 'hearings-hub' => 'hearings', 'intelligence-hub' => 'intelligence', 'insights-hub' => 'insights'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'disciplinary')->defaults('group', $group)->name('hub.' . $group);
     }

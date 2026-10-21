@@ -266,7 +266,8 @@ class RoutingTest extends ManufacturingTestCase
         $this->assertSame('Modules/Manufacturing/Engineering/Routings', $page['component']);
         $this->assertCount(1, $page['props']['routings']['data']);
 
-        $cards = array_column($this->actingAs($this->planner)->get('/manufacturing/engineering')->viewData('page')['props']['cards'], 'path');
+        // The engineering cards now sit in the planning hub; only theirs are compared.
+        $cards = array_values(array_filter(array_column($this->actingAs($this->planner)->get('/manufacturing/planning')->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/engineering/')));
         $this->assertContains('/manufacturing/engineering/routings', $cards);
     }
 

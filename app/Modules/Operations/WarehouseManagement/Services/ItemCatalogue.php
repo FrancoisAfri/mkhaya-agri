@@ -284,6 +284,16 @@ class ItemCatalogue
         $mfg = $this->mfgProfile($item);
         $uom = $mfg->default_uom_id ? Uom::query()->find($mfg->default_uom_id) : null;
         $uom ??= Uom::query()->where('company_id', $item->company_id)->where('code', $item->uom ?: 'ea')->first();
+        if ($uom === null) {
+            // The item may have been profiled elsewhere (Manufacturing) before any warehouse needed units.
+            $this->ensureUnits((int) $item->company_id);
+            $uom = Uom::query()->where('company_id', $item->company_id)->where('code', $item->uom ?: 'ea')->first();
+        }
+        if ($uom === null && filled($item->uom) && mb_strlen($item->uom) <= 16) {
+            // A unit the item was set up with elsewhere (a farm's "carton", "bin", "tray"): counted as a container of its own.
+            $uom = Uom::query()->firstOrCreate(['company_id' => $item->company_id, 'code' => $item->uom],
+                ['name' => ucfirst($item->uom), 'dimension' => 'CONTAINER', 'is_base' => false, 'factor_to_base' => 1, 'decimal_places' => 0, 'is_active' => true]);
+        }
 
         if ($uom === null) {
             throw new RuntimeException("The item's base unit {$item->uom} is not a unit this company has set up.");

@@ -97,6 +97,7 @@ class FarmController extends Controller
                 'email' => $m->user?->email,
                 'role' => $m->role,
                 'status' => $m->status,
+                'alert_emails' => (bool) $m->alert_emails,
                 'since' => $m->created_at?->toDateString(),
             ]);
 

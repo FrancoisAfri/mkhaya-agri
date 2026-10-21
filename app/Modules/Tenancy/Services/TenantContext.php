@@ -27,12 +27,22 @@ class TenantContext
     public function run(?int $companyId, callable $callback): mixed
     {
         $previous = $this->current->id();
+        $previousSession = $this->sessionCompany();
         $this->apply($companyId);
 
         try {
             return $callback();
         } finally {
             $this->apply($previous);
+            // Put the connection's own company back exactly as it was found — it need not match
+            // the remembered company (a test that set it itself, a request mid-switch).
+            if ($previousSession !== null && $previousSession !== $this->sessionCompany()) {
+                try {
+                    DB::statement("SELECT set_config('app.company_id', ?, false)", [$previousSession]);
+                } catch (\Throwable) {
+                    // best-effort, as in apply()
+                }
+            }
         }
     }
 
@@ -125,7 +135,8 @@ class TenantContext
         // Same convention as ResolveCompany::stampDbSession — feature tests run
         // with the RLS session var bypassed so untenanted fixtures stay visible.
         // Tests that exercise RLS itself call set_config directly (see RlsTest).
-        if (app()->environment('testing')) {
+        // A test that opted into row-level security (set the variable itself) gets the switch too.
+        if (app()->environment('testing') && ! $this->sessionCompanySet()) {
             return;
         }
 
@@ -133,6 +144,21 @@ class TenantContext
             DB::statement("SELECT set_config('app.company_id', ?, false)", [$companyId === null ? '' : (string) $companyId]);
         } catch (\Throwable) {
             // best-effort (non-Postgres / no connection) — app scope remains
+        }
+    }
+
+    private function sessionCompanySet(): bool
+    {
+        return ($this->sessionCompany() ?? '') !== '';
+    }
+
+    /** The connection's app.company_id as set, or null when it cannot be read. */
+    private function sessionCompany(): ?string
+    {
+        try {
+            return (string) (DB::selectOne("SELECT current_setting('app.company_id', true) AS c")->c ?? '');
+        } catch (\Throwable) {
+            return null;
         }
     }
 }

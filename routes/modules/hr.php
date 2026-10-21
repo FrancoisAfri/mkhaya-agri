@@ -24,7 +24,7 @@ Route::middleware(['web', 'auth'])->group(function () {
     Route::middleware(['module.active:leave_management', 'module.tier:leave_management'])->prefix('leave-management')->name('hr.leave.')->group(function () {
 
         // ── Navigation hubs — role-filtered feature-card landing pages ────────
-        foreach (['my-leave-hub' => 'my_leave', 'approvals-hub' => 'approvals', 'workforce-hub' => 'workforce', 'insights-hub' => 'insights', 'configure-hub' => 'configure'] as $hubPath => $group) {
+        foreach (['my-leave-hub' => 'my_leave', 'approvals-hub' => 'approvals', 'workforce-hub' => 'workforce', 'insights-hub' => 'insights'] as $hubPath => $group) {
             Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
                 ->defaults('module', 'leave_management')->defaults('group', $group)->name('hub.' . $group);
         }

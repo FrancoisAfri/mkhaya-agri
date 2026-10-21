@@ -99,6 +99,8 @@ class AgriDashboardController extends AgriController
                 'top' => $open->map(fn ($a) => ['id' => $a->uuid, 'severity' => $a->severity, 'title' => $a->title, 'message' => $a->message,
                     'link' => $a->link, 'farm' => $a->farm?->name]),
             ],
+            // Every other area of the farm, each from the module that owns it.
+            'areas' => app(\App\Modules\Agri\Services\FarmOverview::class)->areas($user),
             'scope' => ['all_farms' => $access->isUnrestricted($user)],
             'can' => ['manage' => $user->can(R::MANAGE_FARMS), 'assistant' => $user->can(R::USE_ASSISTANT)],
         ]);

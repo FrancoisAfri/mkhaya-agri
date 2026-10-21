@@ -212,7 +212,7 @@ class DataSourceRegistryTest extends SupplierTestCase
 
     public function test_the_configure_hub_offers_the_card_and_every_locale_can_label_it(): void
     {
-        $cards = collect(\App\Support\Hubs\Modules\SupplierHubs::hubs()['configure']['cards']);
+        $cards = collect(\App\Support\Hubs\Modules\SupplierHubs::hubs()['insights']['cards']);
 
         $card = $cards->first(fn ($c) => str_contains((string) ($c['path'] ?? ''), 'settings/data-sources'));
         $this->assertNotNull($card, 'The Configure hub does not offer the data sources card.');

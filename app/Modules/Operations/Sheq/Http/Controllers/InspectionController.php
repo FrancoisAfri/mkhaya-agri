@@ -86,7 +86,7 @@ class InspectionController extends Controller
         $validated = $request->validate([
             'code' => ['required', 'string', 'max:40', new ReferenceCode],
             'title' => ['required', 'string', 'max:255'],
-            'subject_type' => ['nullable', Rule::in(['SITE', 'ASSET', 'VEHICLE', 'AREA', 'PROCESS'])],
+            'subject_type' => ['nullable', Rule::in(['SITE', 'ASSET', 'VEHICLE', 'AREA', 'PROCESS', 'WORK_ORDER'])],
             'scoring_mode' => ['required', Rule::in(['NONE', 'PERCENTAGE', 'WEIGHTED'])],
             'pass_threshold' => ['nullable', 'numeric', 'min:0', 'max:100'],
 

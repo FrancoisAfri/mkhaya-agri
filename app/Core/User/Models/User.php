@@ -118,6 +118,25 @@ class User extends Authenticatable
                 }
             }
         });
+
+        // Everybody is a member of the organisation they are created in, so they can switch back to
+        // it after joining another (company_memberships; Tenancy\Services\Memberships).
+        static::created(function (self $user): void {
+            // Remembered only once true: a user created by an older migration, before the table
+            // exists, must not stop every later user in the same process getting a membership.
+            static $hasTable = false;
+            $hasTable = $hasTable || \Illuminate\Support\Facades\Schema::hasTable('company_memberships');
+            if ($user->company_id && $hasTable) {
+                // Only for an organisation that exists: a user may carry a company id that was never a
+                // company (tests, imports from an older install), and that is not this hook's to fix.
+                \Illuminate\Support\Facades\DB::statement(
+                    "INSERT INTO company_memberships (user_id, company_id, status, roles, permissions, created_at, updated_at)
+                     SELECT ?, id, 'active', '[]', '[]', now(), now() FROM companies WHERE id = ?
+                     ON CONFLICT (user_id, company_id) DO NOTHING",
+                    [$user->id, $user->company_id],
+                );
+            }
+        });
     }
 
     protected $guard_name = 'web';

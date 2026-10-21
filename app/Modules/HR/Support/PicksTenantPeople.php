@@ -53,7 +53,7 @@ trait PicksTenantPeople
     {
         $companyId = $this->companyId($request ?? request());
 
-        return User::query()
+        $rows = User::query()
             ->leftJoin('hr_people', 'hr_people.user_id', '=', 'users.id')
             /*
              * Only an explicit zero removes somebody.
@@ -66,9 +66,14 @@ trait PicksTenantPeople
              */
             ->where(fn ($q) => $q->whereNull('users.status')->orWhere('users.status', '!=', 0))
             ->where(fn ($q) => $q->whereNull('hr_people.status')->orWhere('hr_people.status', '!=', 0))
+            // People who belong to this organisation but are working in another one right now
+            // (company_memberships) are still this organisation's people to pick.
+            ->when($companyId, fn ($query) => $query->withoutGlobalScope('company'))
             ->when($companyId, fn ($query) => Edition::isSelfHosted()
-                ? $query->where(fn ($q) => $q->where('users.company_id', $companyId)->orWhereNull('users.company_id'))
-                : $query->where('users.company_id', $companyId))
+                ? $query->where(fn ($q) => $q->where('users.company_id', $companyId)->orWhereNull('users.company_id')
+                    ->orWhereIn('users.id', fn ($m) => $m->select('user_id')->from('company_memberships')->where('company_id', $companyId)->where('status', 'active')))
+                : $query->where(fn ($q) => $q->where('users.company_id', $companyId)
+                    ->orWhereIn('users.id', fn ($m) => $m->select('user_id')->from('company_memberships')->where('company_id', $companyId)->where('status', 'active'))))
             ->select([
                 'users.id',
                 'users.email',
@@ -76,10 +81,20 @@ trait PicksTenantPeople
                 DB::raw('hr_people.id AS person_id'),
             ])
             ->limit($limit)
-            ->get()
+            ->get();
+
+        // Members from another organisation keep their personnel record there, out of reach of this
+        // tenant's row-level security, so the join above finds no name. Read just their names
+        // untenanted, rather than showing a manager a bare email address.
+        $missing = $rows->filter(fn ($r) => ! $r->person_name)->pluck('id');
+        $elsewhere = $missing->isEmpty() ? collect() : app(\App\Modules\Tenancy\Services\TenantContext::class)->run(null, fn () => DB::table('hr_people')
+            ->whereIn('user_id', $missing)->selectRaw("user_id, NULLIF(TRIM(CONCAT(COALESCE(first_name,''),' ',COALESCE(surname,''))), '') AS n")
+            ->pluck('n', 'user_id'));
+
+        return $rows
             ->map(fn ($row) => [
                 'id' => (int) $row->id,
-                'name' => $row->person_name ?: (string) $row->email,
+                'name' => $row->person_name ?: ($elsewhere[$row->id] ?? null) ?: (string) $row->email,
                 'email' => (string) $row->email,
                 // Lets a screen say "no personnel record yet" rather than silently treating an
                 // account as an employee.
@@ -125,9 +140,14 @@ trait PicksTenantPeople
         $row = User::query()
             ->leftJoin('hr_people', 'hr_people.user_id', '=', 'users.id')
             ->where('users.id', $userId)
+            // People who belong to this organisation but are working in another one right now
+            // (company_memberships) are still this organisation's people to pick.
+            ->when($companyId, fn ($query) => $query->withoutGlobalScope('company'))
             ->when($companyId, fn ($query) => Edition::isSelfHosted()
-                ? $query->where(fn ($q) => $q->where('users.company_id', $companyId)->orWhereNull('users.company_id'))
-                : $query->where('users.company_id', $companyId))
+                ? $query->where(fn ($q) => $q->where('users.company_id', $companyId)->orWhereNull('users.company_id')
+                    ->orWhereIn('users.id', fn ($m) => $m->select('user_id')->from('company_memberships')->where('company_id', $companyId)->where('status', 'active')))
+                : $query->where(fn ($q) => $q->where('users.company_id', $companyId)
+                    ->orWhereIn('users.id', fn ($m) => $m->select('user_id')->from('company_memberships')->where('company_id', $companyId)->where('status', 'active'))))
             ->selectRaw("COALESCE(NULLIF(TRIM(CONCAT(COALESCE(hr_people.first_name,''),' ',COALESCE(hr_people.surname,''))), ''), users.email) AS name")
             ->first();
 

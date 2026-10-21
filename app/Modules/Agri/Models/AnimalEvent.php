@@ -9,5 +9,5 @@ class AnimalEvent extends FarmOwnedModel
 
     protected $table = 'animal_events';
 
-    protected $casts = ['occurred_on' => 'date', 'details' => 'array'];
+    protected $casts = ['occurred_on' => 'date', 'expected_on' => 'date', 'details' => 'array'];
 }

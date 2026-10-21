@@ -117,7 +117,9 @@ function goToPage(url: string | null) { if (url) router.visit(url, { preserveSta
 
 const rows  = computed(() => props.courses.data)
 const links = computed(() => props.courses.links ?? [])
-const meta  = computed(() => props.courses.meta ?? {})
+// Laravel's paginator sends its counts at the top level (current_page, last_page, total…); only API
+// resources nest them under `meta`. Reading `meta` alone hid the pager, so 25 of 628 courses showed.
+const meta  = computed(() => props.courses.meta ?? props.courses ?? {})
 
 const headers = computed(() => [
   { title: t('lms_courses_index.table.course'), key: 'title', sortable: false },
@@ -133,7 +135,7 @@ const headers = computed(() => [
 <template>
   <VContainer fluid class="pa-4 pa-sm-6">
     <div class="d-flex align-center justify-space-between mb-6 flex-wrap gap-3">
-      <div><h4 class="text-h4">{{ t('lms_courses_index.title') }}</h4><p class="text-medium-emphasis mb-0">{{ t('lms_courses_index.subtitle') }}</p></div>
+      <div><h4 class="text-h4">{{ t('lms_courses_index.title') }}</h4><p class="text-medium-emphasis mb-0">{{ t('lms_courses_index.subtitle') }}<template v-if="meta.total"> · {{ meta.total }} courses</template></p></div>
       <VBtn color="primary" prepend-icon="tabler-plus" @click="openCreate">{{ t('lms_courses_index.new_course') }}</VBtn>
     </div>
 

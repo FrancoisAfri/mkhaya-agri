@@ -33,3 +33,15 @@ foreach (HubRegistry::GENERIC_HUB_ROUTES as $code) {
             ->name("hubs.{$code}.{$group}");
     }
 }
+
+/*
+ * Insights for each menu category: every report, analytics/BI view and report schedule its modules
+ * offer, filtered to what the person may open; catalogue reports can be scheduled from here.
+ */
+Route::prefix('insights/{category}')->name('insights.category')->group(function () {
+    Route::get('/', [\App\Http\Controllers\CategoryInsightsController::class, 'show']);
+    Route::post('/schedules', [\App\Http\Controllers\CategoryInsightsController::class, 'store'])->name('.schedules.store');
+    Route::patch('/schedules/{schedule}', [\App\Http\Controllers\CategoryInsightsController::class, 'update'])->whereUuid('schedule')->name('.schedules.update');
+    Route::delete('/schedules/{schedule}', [\App\Http\Controllers\CategoryInsightsController::class, 'destroy'])->whereUuid('schedule')->name('.schedules.destroy');
+    Route::post('/schedules/{schedule}/send', [\App\Http\Controllers\CategoryInsightsController::class, 'send'])->whereUuid('schedule')->name('.schedules.send');
+});

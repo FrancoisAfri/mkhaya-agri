@@ -49,10 +49,8 @@ Route::middleware(['module.active:procurement_governance', 'module.tier:procurem
         foreach ([
             'planning-hub' => 'planning',
             'tenders-hub' => 'tenders',
-            'deviations-hub' => 'deviations',
             'governance-hub' => 'governance',
             'insights-hub' => 'insights',
-            'configure-hub' => 'configure',
         ] as $path => $group) {
             Route::get("/{$path}", [ModuleHubController::class, 'show'])
                 ->defaults('module', 'procurement_governance')

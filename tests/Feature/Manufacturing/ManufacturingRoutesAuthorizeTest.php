@@ -152,10 +152,13 @@ class ManufacturingRoutesAuthorizeTest extends ManufacturingTestCase
 
     public function test_hub_cards_follow_what_the_person_may_actually_open(): void
     {
-        $cards = fn ($user, string $group) => array_column(
-            $this->actingAs($user)->get('/manufacturing/'.$group)->assertOk()->viewData('page')['props']['cards'],
+        // Engineering now sits inside Planning & Engineering and Setup inside Reports, Costing & Setup,
+        // so each check looks only at that group's cards within the hub that holds them.
+        $hubOf = ['engineering' => 'planning', 'setup' => 'reports'];
+        $cards = fn ($user, string $group) => array_values(array_filter(array_column(
+            $this->actingAs($user)->get('/manufacturing/'.$hubOf[$group])->assertOk()->viewData('page')['props']['cards'],
             'path'
-        );
+        ), fn ($p) => str_starts_with($p, '/manufacturing/'.$group.'/')));
 
         // A planner may read the engineering register and may not configure the plant.
         $this->assertContains('/manufacturing/engineering/boms', $cards($this->planner, 'engineering'));

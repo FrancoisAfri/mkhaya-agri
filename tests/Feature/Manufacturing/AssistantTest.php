@@ -235,7 +235,8 @@ class AssistantTest extends ManufacturingTestCase
         $this->actingAs($this->outsider)->get(route('manufacturing.assistant.index'))->assertForbidden();
         $this->actingAs($this->outsider)->postJson(route('manufacturing.assistant.ask'), ['question' => 'Which machines caused downtime?'])->assertForbidden();
 
-        $cards = array_column($this->actingAs($this->manager)->get('/manufacturing/assistant')->assertOk()->viewData('page')['props']['cards'], 'path');
+        // The assistant cards now sit in the reports hub; only theirs are compared.
+        $cards = array_values(array_filter(array_column($this->actingAs($this->manager)->get('/manufacturing/reports')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/assistant/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/assistant/ask', '/manufacturing/assistant/recommendations'], $cards);
 
         // The company-wide Mkhaya copilot gets the same permission-checked figures.

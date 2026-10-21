@@ -111,7 +111,8 @@ class CropController extends AgriController
                 'inputs' => $a->inputs->map(fn (ActivityInput $i) => [
                     'id' => $i->uuid, 'item' => $i->stockItem?->name, 'quantity' => (float) $i->quantity, 'uom' => $i->uom,
                     'rate_per_ha' => self::num($i->rate_per_ha), 'withholding_days' => $i->withholding_days,
-                    'total_cost' => self::num($i->total_cost), 'status' => $i->status,
+                    'total_cost' => self::num($i->total_cost), 'status' => $i->status, 'reentry_hours' => $i->reentry_hours,
+                    'correction_reason' => $i->correction_reason, 'corrects' => (bool) $i->reversal_of_id,
                 ]),
             ]),
             'harvests' => $plan->harvests()->orderBy('harvested_on')->get()->map(fn (HarvestRecord $h) => [
@@ -124,6 +125,21 @@ class CropController extends AgriController
             'finance' => ['spent' => $spent, 'income' => $income, 'budget' => self::num($plan->budget_amount),
                 'by_category' => $costs->where('type', 'expense')->mapWithKeys(fn ($c) => [$c->category => round((float) $c->net, 2)])],
             'withholding_until' => $until?->toDateString(),
+            // §3: the crop's lifecycle, needs, water, harvest outlook and margins.
+            'precision' => [
+                'stages' => \App\Modules\Agri\Models\CropStageEvent::query()->where('crop_plan_id', $plan->id)->orderByDesc('observed_on')->get(['stage', 'observed_on', 'notes'])
+                    ->map(fn ($e) => ['stage' => $e->stage, 'on' => $e->observed_on->toDateString(), 'notes' => $e->notes]),
+                'stage_options' => \App\Modules\Agri\Services\CropLifecycle::STAGES,
+                'rotation' => $plan->field ? app(\App\Modules\Agri\Services\CropLifecycle::class)->rotation($plan->field, $plan->crop_type_id, ($plan->planted_on ?? $plan->planned_planting_on)?->toDateString()) : null,
+                'soil_tests' => $plan->field ? \App\Modules\Agri\Models\SoilTest::query()->where('field_id', $plan->field_id)->orderByDesc('sampled_on')->limit(5)->get()
+                    ->map(fn ($t) => ['id' => $t->uuid, 'on' => $t->sampled_on->toDateString(), 'lab' => $t->laboratory, 'ph' => self::num($t->ph), 'p' => self::num($t->p_mg_kg),
+                        'k' => self::num($t->k_mg_kg), 'oc' => self::num($t->organic_carbon_pct), 'recommendation' => $t->recommendation, 'report' => (bool) $t->report_name,
+                        'gps' => $t->latitude !== null]) : [],
+                'inputs' => app(\App\Modules\Agri\Services\InputPlanning::class)->forPlan($plan),
+                'water' => app(\App\Modules\Agri\Services\Irrigation::class)->forPlan($plan),
+                'harvest' => app(\App\Modules\Agri\Services\HarvestPlanning::class)->overview($plan),
+                'profit' => $request->user()->can(R::VIEW_FINANCE) ? app(\App\Modules\Agri\Services\CropProfitability::class)->forPlan($plan) : null,
+            ],
             'options' => $this->options(),
             'can' => $this->can($request),
         ]);
@@ -216,6 +232,7 @@ class CropController extends AgriController
             'quantity' => ['required', 'numeric', 'gt:0'],
             'rate_per_ha' => ['nullable', 'numeric', 'gte:0'],
             'withholding_days' => ['nullable', 'integer', 'min:0', 'max:3650'],
+            'reentry_hours' => ['nullable', 'integer', 'min:0', 'max:2000'],
         ]);
         $item = FinStockItem::query()->findOrFail($data['stock_item_id']);
         $this->work->addInput($activity, $item, $data);
@@ -311,9 +328,17 @@ class CropController extends AgriController
             'destination' => ['required', Rule::in(HarvestRecord::DESTINATIONS)],
             'stock_item_id' => ['nullable', 'integer'],
             'unit_value' => ['nullable', 'numeric', 'gte:0'],
+            'lot_code' => ['nullable', 'string', 'max:60'], 'rejected_quantity' => ['nullable', 'numeric', 'gte:0'],
+            'spoiled_quantity' => ['nullable', 'numeric', 'gte:0'], 'field_loss_quantity' => ['nullable', 'numeric', 'gte:0'],
+            'containers' => ['nullable', 'integer', 'min:0'], 'commitment_id' => ['nullable', 'string'],
             'settled_by' => ['nullable', Rule::in(['bank', 'receivable'])],
             'override_reason' => ['nullable', 'string', 'max:500'],
             'notes' => ['nullable', 'string', 'max:2000'],
+            // §8.1 intake
+            'crew_id' => ['nullable', 'integer'], 'measuring_method' => ['nullable', Rule::in(['weighbridge', 'scale', 'count', 'volume', 'estimate'])],
+            'inspection_outcome' => ['nullable', Rule::in(['passed', 'conditional', 'failed'])], 'inspection_note' => ['nullable', 'string', 'max:300'],
+            'vehicle_ref' => ['nullable', 'string', 'max:60'], 'container_ref' => ['nullable', 'string', 'max:120'],
+            'store_id' => ['nullable', 'string'], 'storage_location' => ['nullable', 'string', 'max:80'],
         ]);
         $this->harvests->record($plan, $data, $request->user());
 
@@ -336,6 +361,8 @@ class CropController extends AgriController
             'planted_on' => $p->planted_on?->toDateString(), 'harvest_completed_on' => $p->harvest_completed_on?->toDateString(),
             'expected_yield' => self::num($p->expected_yield), 'yield_unit' => $p->yield_unit,
             'budget_amount' => self::num($p->budget_amount), 'expected_price' => self::num($p->expected_price),
+            'seed_lot' => $p->seed_lot, 'planting_density' => self::num($p->planting_density), 'density_unit' => $p->density_unit,
+            'production_method' => $p->production_method, 'intercrop' => (bool) $p->intercrop, 'current_stage' => $p->current_stage,
         ];
     }
 
@@ -379,6 +406,9 @@ class CropController extends AgriController
             'budget_amount' => ['nullable', 'numeric', 'gte:0'],
             'expected_price' => ['nullable', 'numeric', 'gte:0'],
             'notes' => ['nullable', 'string', 'max:3000'],
+            // §3.1
+            'seed_lot' => ['nullable', 'string', 'max:60'], 'planting_density' => ['nullable', 'numeric', 'gt:0'],
+            'density_unit' => ['nullable', 'string', 'max:20'], 'production_method' => ['nullable', 'string', 'max:30'], 'intercrop' => ['boolean'],
         ];
     }
 
@@ -402,7 +432,7 @@ class CropController extends AgriController
                 ->map(fn ($p) => ['id' => $p->uuid, 'code' => $p->code, 'farm_id' => $p->farm?->uuid, 'field_id' => $p->field?->uuid]),
             'groups' => LivestockGroup::query()->where('status', 'active')->with('farm:id,uuid')->orderBy('code')->get()
                 ->map(fn ($g) => ['id' => $g->uuid, 'code' => $g->code, 'name' => $g->name, 'farm_id' => $g->farm?->uuid]),
-            'machines' => FarmMachine::query()->where('status', '!=', 'disposed')->with('farm:id,uuid')->orderBy('code')->get()
+            'machines' => FarmMachine::query()->where('status', '!=', 'disposed')->with('farm:id,uuid')->orderBy('fleet_number')->get()
                 ->map(fn ($m) => ['id' => $m->uuid, 'code' => $m->code, 'name' => $m->name, 'farm_id' => $m->farm?->uuid]),
             'stock_items' => $items->map(fn ($i) => ['id' => $i->id, 'name' => "{$i->name} ({$i->code})", 'uom' => $i->uom]),
             'people' => $this->tenantPeopleOptions(),
@@ -411,6 +441,10 @@ class CropController extends AgriController
             'kinds' => CropObservation::KINDS,
             'severities' => CropObservation::SEVERITIES,
             'destinations' => HarvestRecord::DESTINATIONS,
+            // §8.1: the stores a harvest can go into, and the crews that bring it in.
+            'stores' => \App\Modules\Agri\Models\FarmStore::query()->where('is_active', true)->whereIn('kind', ['main', 'silo', 'cold_room', 'packhouse', 'other'])
+                ->with('farm:id,uuid')->orderBy('name')->get()->map(fn ($s) => ['id' => $s->uuid, 'name' => $s->name, 'farm_id' => $s->farm?->uuid]),
+            'crews' => \App\Modules\HR\Hr\Attendance\Models\Crew::query()->with('farm:id,uuid')->orderBy('name')->get()->map(fn ($c) => ['id' => $c->id, 'name' => $c->name, 'farm_id' => $c->farm?->uuid]),
             'yield_units' => CropType::YIELD_UNITS,
             'area_units' => Farm::AREA_UNITS,
         ];

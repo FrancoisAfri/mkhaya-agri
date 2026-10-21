@@ -21,7 +21,7 @@ class AccountingHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'sales' => [
                 'name' => 'Sales', 'path' => 'finance/accounting/sales-hub', 'icon' => 'coin', 'tier' => self::WRITE,
                 'title' => 'accounting.hubs.sales.title', 'subtitle' => 'accounting.hubs.sales.subtitle',
@@ -34,6 +34,7 @@ class AccountingHubs extends ModuleHubs
                     self::card('contracts', 'finance/accounting/contracts', 'file-sign', self::WRITE, 'blue-grey'),
                     self::card('receivables', 'finance/accounting/receivables', 'cash-plus', self::MODIFY, 'green'),
                     self::card('debtors', 'finance/accounting/debtors', 'account-alert-outline', self::MODIFY, 'orange'),
+                    self::card('disputes', 'finance/accounting/disputes', 'message-alert-outline', self::WRITE, 'red'),
                 ],
             ],
             'purchases' => [
@@ -93,6 +94,9 @@ class AccountingHubs extends ModuleHubs
                     self::card('posting_limits', 'finance/accounting/posting-limits', 'lock-outline', self::ADMIN, 'orange'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'reporting' => ['absorb' => ['configure'], 'name' => 'Reports & Settings'],
+        ]);
     }
 }

@@ -47,6 +47,8 @@ class RequisitionService
                     'name' => $item->name, 'description' => $item->description,
                     'budget_category_id' => $item->budget_category_id,
                     'quantity' => $item->quantity, 'unit_price' => $item->unit_price,
+                    // The stock item travels with the line, so the delivery posts to stock.
+                    'stock_item_id' => $item->stock_item_id ?? (preg_match('/^fin_stock_item:(\d+)$/', (string) $item->external_ref, $m) ? (int) $m[1] : null),
                 ]);
             }
 

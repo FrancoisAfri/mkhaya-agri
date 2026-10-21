@@ -25,7 +25,7 @@ class DisciplinaryHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'cases' => [
                 'name' => 'Cases', 'path' => 'disciplinary/cases-hub', 'icon' => 'folder', 'tier' => self::MODIFY,
                 'title' => 'disciplinary.hubs.cases.title', 'subtitle' => 'disciplinary.hubs.cases.subtitle',
@@ -76,6 +76,9 @@ class DisciplinaryHubs extends ModuleHubs
                     self::card('setup', 'disciplinary/setup', 'cog-outline', self::ADMIN, 'blue-grey'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

@@ -30,6 +30,22 @@ class FleetVehicleTest extends FleetTestCase
         ]);
     }
 
+    public function test_equipment_needs_no_number_plate_but_a_vehicle_does(): void
+    {
+        $this->actingAs($this->fleetManager)->post(route('fleet.vehicles.store'), [
+            'asset_class' => 'equipment', 'name' => 'John Deere 6120M', 'fleet_number' => 'T-01',
+            'vehicle_type' => 'tractor', 'fuel_type' => 'diesel', 'hours_reading' => 1200, 'status' => 'available',
+        ])->assertSessionHasNoErrors();
+        $this->assertDatabaseHas('fleet_vehicles', ['fleet_number' => 'T-01', 'asset_class' => 'equipment', 'registration_number' => null, 'name' => 'John Deere 6120M']);
+
+        $this->actingAs($this->fleetManager)->post(route('fleet.vehicles.store'), [
+            'asset_class' => 'vehicle', 'make' => 'Toyota', 'vehicle_type' => 'bakkie', 'status' => 'available',
+        ])->assertSessionHasErrors('registration_number');
+
+        $this->actingAs($this->fleetManager)->get(route('fleet.vehicles.index', ['asset_class' => 'equipment']))->assertOk()
+            ->assertInertia(fn ($page) => $page->where('vehicles.data.0.fleet_number', 'T-01')->where('vehicles.data.0.asset_class', 'equipment')->has('vehicles.data', 1));
+    }
+
     public function test_duplicate_registration_number_is_rejected(): void
     {
         FleetVehicleFactory::new()->create(['registration_number' => 'DUP-001-GP']);

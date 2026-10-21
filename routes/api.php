@@ -14,6 +14,23 @@ use Illuminate\Support\Facades\Route;
 Route::post('/manufacturing/integrations/{uuid}/webhook', [\App\Modules\Operations\Manufacturing\Http\Controllers\IntegrationController::class, 'webhook'])
     ->middleware('throttle:600,1')->name('api.manufacturing.integrations.webhook');
 
+// Time & Attendance clock devices: biometric readers, access-control gates and kiosks post clock
+// events here with their own secret. No session; the device names its site. The /agri/ path is kept
+// for devices set up before attendance moved into Time & Attendance.
+Route::post('/attendance/devices/{uuid}/clock', [\App\Modules\HR\Hr\Attendance\Http\Controllers\ClockDeviceController::class, 'receive'])
+    ->middleware('throttle:120,1')->name('api.attendance.devices.clock');
+Route::post('/agri/devices/{uuid}/clock', [\App\Modules\HR\Hr\Attendance\Http\Controllers\ClockDeviceController::class, 'receive'])
+    ->middleware('throttle:120,1')->name('api.agri.devices.clock');
+// Phase 2 §8.3: cold-room and silo sensors, through a registered sensor gateway.
+Route::post('/agri/devices/{uuid}/readings', [\App\Modules\Agri\Http\Controllers\PackhouseController::class, 'sensorReadings'])
+    ->middleware('throttle:120,1')->name('api.agri.devices.readings');
+// Phase 2 §14: telematics — machine position, engine hours and odometer from a registered device.
+Route::post('/agri/devices/{uuid}/telematics', [\App\Modules\Agri\Http\Controllers\IntegrationController::class, 'telematics'])
+    ->middleware('throttle:120,1')->name('api.agri.devices.telematics');
+// Phase 2 §16C: WhatsApp / SMS / voice messages to the farm assistant, signed by the messaging provider bridge.
+Route::post('/agri/messages/{channel}', [\App\Modules\Agri\Http\Controllers\MessagingController::class, 'inbound'])
+    ->middleware('throttle:240,1')->name('api.agri.messages');
+
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');

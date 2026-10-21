@@ -28,7 +28,7 @@ class WarehouseHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             /*
              * What the figures say: stock, suppliers, losses and money, and the reports behind them.
              */
@@ -192,7 +192,12 @@ class WarehouseHubs extends ModuleHubs
                     self::card('standards', 'warehouse/integrations/standards', 'globe', self::READ, 'blue', self::viewItems()),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'inbound' => ['absorb' => ['outbound'], 'name' => 'Inbound & Outbound'],
+            'inventory' => ['absorb' => ['products'], 'name' => 'Inventory & Products'],
+            'insights' => ['absorb' => ['layout'], 'name' => 'Insights & Layout'],
+        ]);
     }
 
     /** The accounting screens ask for the accounting grant, not merely sight of the stock. */

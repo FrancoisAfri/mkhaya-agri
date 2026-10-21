@@ -75,7 +75,7 @@ const boolFlags = [
               <h4 class="text-h4 mb-1">{{ t('attendance_statuses_page.title') }}</h4>
               <p class="mb-0 text-medium-emphasis">{{ t('attendance_statuses_page.subtitle') }}</p>
             </div>
-            <VBtn color="primary" prepend-icon="fas fa-plus" @click="openCreate"> <i class="fa-solid fa-plus"></i>{{ t('attendance_statuses_page.add_status') }}</VBtn>
+            <VBtn color="primary" prepend-icon="mdi-plus" @click="openCreate"> <i class="fa-solid fa-plus"></i>{{ t('attendance_statuses_page.add_status') }}</VBtn>
           </VCardText>
         </VCard>
       </VCol>

@@ -17,4 +17,20 @@ abstract class AgriModel extends Model
     use AuditsAgri, BelongsToCompany, HasPublicUuid;
 
     protected $guarded = ['id'];
+
+    /** Record times read in the farm's zone too, like every other moment on a farm record. */
+    public function getCasts()
+    {
+        return array_merge(['created_at' => \App\Modules\Agri\Casts\FarmDateTime::class, 'updated_at' => \App\Modules\Agri\Casts\FarmDateTime::class], parent::getCasts());
+    }
+
+    /** A moment held in a farm's zone is stored as the UTC it is (Laravel would write its wall clock as is). */
+    public function fromDateTime($value)
+    {
+        if ($value instanceof \DateTimeInterface && $value->getTimezone()->getName() !== config('app.timezone')) {
+            $value = \Illuminate\Support\Carbon::instance($value)->setTimezone(config('app.timezone'));
+        }
+
+        return parent::fromDateTime($value);
+    }
 }

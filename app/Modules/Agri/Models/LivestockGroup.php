@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class LivestockGroup extends FarmOwnedModel
 {
+    // Farm records (Document Management) can be linked to it.
+    use \App\Modules\Operations\DocumentManagement\Concerns\HasDocuments;
+
     public const PURPOSES = ['beef', 'dairy', 'breeding', 'weaners', 'feedlot', 'wool', 'mutton', 'layers', 'broilers', 'pork', 'game', 'other'];
 
     public const ACTIVE = 'active';
@@ -14,7 +17,7 @@ class LivestockGroup extends FarmOwnedModel
 
     protected $table = 'livestock_groups';
 
-    protected $casts = ['started_on' => 'date', 'budget_amount' => 'decimal:2'];
+    protected $casts = ['started_on' => 'date', 'closed_on' => 'date', 'quarantine_until' => 'date', 'budget_amount' => 'decimal:2'];
 
     public function species(): BelongsTo
     {

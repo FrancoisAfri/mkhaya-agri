@@ -30,7 +30,7 @@ class PerformanceHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'my_performance' => [
                 'name' => 'My Performance', 'path' => 'performance/my-performance-hub', 'icon' => 'target', 'tier' => self::WRITE,
                 'title' => 'performance_appraisal.hubs.my_performance.title', 'subtitle' => 'performance_appraisal.hubs.my_performance.subtitle',
@@ -89,6 +89,9 @@ class PerformanceHubs extends ModuleHubs
                     self::card('settings', 'performance/settings', 'cog-outline', self::ADMIN, 'blue-grey'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

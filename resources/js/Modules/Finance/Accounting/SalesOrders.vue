@@ -5,12 +5,15 @@ import { route as ziggyRoute } from 'ziggy-js'
 const route = ziggyRoute
 const { t } = useI18n()
 
-interface Line { id?: number; account_id: number | null; item_id: number | null; description: string; quantity: number; unit_price: number | null; tax_rate: number; qty_delivered?: number; outstanding?: number }
-interface Delivery { id: number; number: string; date: string }
-interface Order { id: number; number: string; party: string; party_id: number; date: string; total: number; status: string; customer_ref: string | null; description: string | null; invoice_id: number | null; deliveries: Delivery[]; lines: Line[] }
+interface Line { id?: number; account_id: number | null; item_id: number | null; description: string; quantity: number; unit_price: number | null; tax_rate: number; qty_delivered?: number; outstanding?: number
+  unit?: string | null; grade?: string | null; price_basis?: string | null; qty_accepted?: number; qty_rejected?: number; qty_invoiced?: number }
+interface Delivery { id: number; number: string; date: string; invoice_id: number | null }
+interface Order { id: number; number: string; party: string; party_id: number; date: string; total: number; status: string; customer_ref: string | null; description: string | null; invoice_id: number | null
+  deliver_on: string | null; delivery_address: string | null; charge_to: string | null; source_type: string | null; deliveries: Delivery[]; lines: Line[] }
 interface Option { id: number; label: string }
 interface Item { id: number; code: string; name: string; description: string | null; price: number; tax_rate: number; account_id: number | null }
-const props = defineProps<{ orders: Order[]; customers: { id: number; name: string }[]; incomeAccounts: Option[]; items: Item[] }>()
+const props = defineProps<{ orders: Order[]; customers: { id: number; name: string }[]; incomeAccounts: Option[]; items: Item[]; chargeTo: { value: string; title: string }[] }>()
+const chargeTitle = (v: string | null) => props.chargeTo.find(c => c.value === v)?.title ?? null
 
 const money = (n: number) => (n ?? 0).toLocaleString('en-ZA', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 const statusColor: Record<string, string> = { open: 'info', part_delivered: 'warning', delivered: 'success', invoiced: 'purple', cancelled: 'error' }
@@ -19,8 +22,8 @@ const confirm = ref()
 // Create / edit order
 const dialog = ref(false)
 const editingId = ref<number | null>(null)
-const blankLine = (): Line => ({ account_id: props.incomeAccounts[0]?.id ?? null, item_id: null, description: '', quantity: 1, unit_price: null, tax_rate: 15 })
-const form = useForm<any>({ party_id: null, order_date: new Date().toISOString().slice(0, 10), customer_ref: '', description: '', lines: [blankLine()] })
+const blankLine = (): Line => ({ account_id: props.incomeAccounts[0]?.id ?? null, item_id: null, description: '', quantity: 1, unit_price: null, tax_rate: 15, unit: null, grade: null, price_basis: null })
+const form = useForm<any>({ party_id: null, order_date: new Date().toISOString().slice(0, 10), customer_ref: '', description: '', charge_to: null, deliver_on: null, delivery_address: '', lines: [blankLine()] })
 const total = computed(() => form.lines.reduce((s: number, l: Line) => s + (Number(l.quantity) || 0) * (Number(l.unit_price) || 0) * (1 + (Number(l.tax_rate) || 0) / 100), 0))
 function applyItem(l: Line) {
   const it = props.items.find(i => i.id === l.item_id); if (!it) return
@@ -30,7 +33,7 @@ function applyItem(l: Line) {
 function openNew() { editingId.value = null; form.reset(); form.order_date = new Date().toISOString().slice(0, 10); form.lines = [blankLine()]; dialog.value = true }
 function openEdit(o: Order) {
   editingId.value = o.id
-  Object.assign(form, { party_id: o.party_id, order_date: o.date, customer_ref: o.customer_ref ?? '', description: o.description ?? '' })
+  Object.assign(form, { party_id: o.party_id, order_date: o.date, customer_ref: o.customer_ref ?? '', description: o.description ?? '', charge_to: o.charge_to, deliver_on: o.deliver_on, delivery_address: o.delivery_address ?? '' })
   form.lines = o.lines.map(l => ({ ...l }))
   dialog.value = true
 }
@@ -45,11 +48,12 @@ const delOrder = ref<Order | null>(null)
 const delForm = useForm<any>({ notes: '', deliveries: [] })
 function openDeliver(o: Order) {
   delOrder.value = o; delForm.reset()
-  delForm.deliveries = o.lines.map(l => ({ order_line_id: l.id, description: l.description, outstanding: l.outstanding, quantity: l.outstanding }))
+  delForm.deliveries = o.lines.map(l => ({ order_line_id: l.id, description: [l.description, l.grade].filter(Boolean).join(' '), unit: l.unit, outstanding: l.outstanding, quantity: l.outstanding, accepted: null, rejected: null }))
   delDialog.value = true
 }
 function saveDeliver() { delForm.post(route('finance.accounting.sales-orders.deliver', delOrder.value!.id), { preserveScroll: true, onSuccess: () => { delDialog.value = false } }) }
 
+function invoiceDelivery(d: Delivery) { useForm({}).post(route('finance.accounting.delivery-notes.invoice', d.id), { preserveScroll: true }) }
 function invoice(o: Order) {
   confirm.value.open(
     { title: t('acc.invoice_order'), message: t('acc.invoice_order_confirm', { number: o.number, amount: money(o.total) }), confirmText: t('acc.invoice_word'), confirmColor: 'primary', icon: 'tabler-file-invoice' },
@@ -83,12 +87,14 @@ function cancel(o: Order) {
         <tbody>
           <tr v-for="o in orders" :key="o.id">
             <td class="font-weight-medium">{{ o.number }}</td>
-            <td>{{ o.party }}</td>
+            <td>{{ o.party }}<div v-if="o.charge_to || o.deliver_on" class="text-caption text-medium-emphasis">{{ [chargeTitle(o.charge_to), o.deliver_on ? `${t('acc.deliver_on')} ${o.deliver_on}` : null].filter(Boolean).join(' · ') }}</div></td>
             <td class="text-caption">{{ o.date }}</td>
             <td class="text-right">{{ money(o.total) }}</td>
             <td class="text-caption">
               <template v-if="o.deliveries.length">
-                <VBtn v-for="d in o.deliveries" :key="d.id" size="x-small" variant="text" prepend-icon="tabler-file-type-pdf" :href="route('finance.accounting.delivery-notes.pdf', d.id)" target="_blank" :title="d.date">{{ d.number }}</VBtn>
+                <div v-for="d in o.deliveries" :key="d.id" class="d-flex align-center"><VBtn size="x-small" variant="text" prepend-icon="tabler-file-type-pdf" :href="route('finance.accounting.delivery-notes.pdf', d.id)" target="_blank" :title="d.date">{{ d.number }}</VBtn>
+                  <VChip v-if="d.invoice_id" size="x-small" color="purple" variant="tonal">{{ t('acc.invoiced_short') }}</VChip>
+                  <VBtn v-else-if="o.status !== 'cancelled'" size="x-small" variant="text" color="primary" :title="t('acc.invoice_delivery_hint')" @click="invoiceDelivery(d)">{{ t('acc.invoice_delivery') }}</VBtn></div>
               </template>
               <span v-else>—</span>
             </td>
@@ -96,7 +102,7 @@ function cancel(o: Order) {
             <td class="text-right text-no-wrap">
               <VBtn v-if="!['invoiced', 'cancelled'].includes(o.status)" icon="tabler-pencil" size="small" variant="text" :title="t('acc.edit')" @click="openEdit(o)" />
               <VBtn v-if="!['invoiced', 'cancelled'].includes(o.status)" size="x-small" variant="tonal" color="warning" class="ms-1" @click="openDeliver(o)">{{ t('acc.deliver') }}</VBtn>
-              <VBtn v-if="!['invoiced', 'cancelled'].includes(o.status)" size="x-small" variant="tonal" color="primary" class="ms-1" @click="invoice(o)">{{ t('acc.invoice_word') }}</VBtn>
+              <VBtn v-if="!['invoiced', 'cancelled'].includes(o.status) && !o.lines.some(l => (l.qty_invoiced ?? 0) > 0)" size="x-small" variant="tonal" color="primary" class="ms-1" @click="invoice(o)">{{ t('acc.invoice_word') }}</VBtn>
               <VChip v-if="o.invoice_id" size="x-small" color="purple" variant="tonal" class="ms-1">{{ t('acc.invoiced') }}</VChip>
               <VBtn v-if="!['invoiced', 'cancelled'].includes(o.status)" size="x-small" variant="text" color="error" class="ms-1" @click="cancel(o)">{{ t('acc.cancel') }}</VBtn>
             </td>
@@ -115,22 +121,29 @@ function cancel(o: Order) {
             <VAutocomplete v-model="form.party_id" :items="customers.map(c => ({ title: c.name, value: c.id }))" :label="t('acc.customer')" variant="outlined" density="comfortable" style="min-width: 240px" :error-messages="(form.errors as any).party_id" />
             <VTextField v-model="form.order_date" type="date" :label="t('acc.order_date')" variant="outlined" density="comfortable" style="max-width: 180px" />
             <VTextField v-model="form.customer_ref" :label="t('acc.customer_ref')" variant="outlined" density="comfortable" style="max-width: 200px" />
+            <VTextField v-model="form.deliver_on" type="date" :label="t('acc.deliver_on')" variant="outlined" density="comfortable" style="max-width: 180px" />
+          </div>
+          <div class="d-flex gap-3 mb-3 flex-wrap">
+            <VSelect v-if="chargeTo.length" v-model="form.charge_to" :items="chargeTo" :label="t('acc.charge_to')" :hint="t('acc.charge_to_hint')" persistent-hint clearable variant="outlined" density="comfortable" style="min-width: 240px" :error-messages="(form.errors as any).charge_to" />
+            <VTextField v-model="form.delivery_address" :label="t('acc.delivery_address')" variant="outlined" density="comfortable" style="min-width: 280px" />
           </div>
           <VTextField v-model="form.description" :label="t('acc.description')" variant="outlined" density="comfortable" class="mb-3" />
           <VTable density="compact">
-            <thead><tr><th style="width: 24%">{{ t('acc.item') }}</th><th style="width: 20%">{{ t('acc.income_account') }}</th><th>{{ t('acc.description') }}</th><th class="text-right" style="width: 80px">{{ t('acc.qty') }}</th><th class="text-right" style="width: 120px">{{ t('acc.price') }}</th><th class="text-right" style="width: 80px">{{ t('acc.tax_pct') }}</th><th></th></tr></thead>
+            <thead><tr><th style="width: 24%">{{ t('acc.item') }}</th><th style="width: 20%">{{ t('acc.income_account') }}</th><th>{{ t('acc.description') }}</th><th style="width: 90px">{{ t('acc.grade') }}</th><th style="width: 70px">{{ t('acc.unit') }}</th><th class="text-right" style="width: 80px">{{ t('acc.qty') }}</th><th class="text-right" style="width: 120px">{{ t('acc.price') }}</th><th class="text-right" style="width: 80px">{{ t('acc.tax_pct') }}</th><th></th></tr></thead>
             <tbody>
               <tr v-for="(l, i) in form.lines" :key="i">
                 <td class="pa-1"><VAutocomplete v-model="l.item_id" :items="items.map(it => ({ title: `${it.code} · ${it.name}`, value: it.id }))" density="compact" variant="outlined" hide-details clearable :placeholder="t('acc.search_item')" @update:model-value="applyItem(l)" /></td>
                 <td class="pa-1"><VAutocomplete v-model="l.account_id" :items="incomeAccounts.map(a => ({ title: a.label, value: a.id }))" density="compact" variant="outlined" hide-details /></td>
                 <td class="pa-1"><VTextField v-model="l.description" density="compact" variant="outlined" hide-details /></td>
+                <td class="pa-1"><VTextField v-model="l.grade" density="compact" variant="outlined" hide-details /></td>
+                <td class="pa-1"><VTextField v-model="l.unit" density="compact" variant="outlined" hide-details /></td>
                 <td class="pa-1"><VTextField v-model.number="l.quantity" type="number" density="compact" variant="outlined" hide-details reverse /></td>
-                <td class="pa-1"><VTextField v-model.number="l.unit_price" type="number" density="compact" variant="outlined" hide-details reverse /></td>
+                <td class="pa-1"><VTextField v-model.number="l.unit_price" type="number" density="compact" variant="outlined" hide-details reverse :hint="l.price_basis ?? undefined" :persistent-hint="!!l.price_basis" /></td>
                 <td class="pa-1"><VTextField v-model.number="l.tax_rate" type="number" density="compact" variant="outlined" hide-details reverse /></td>
                 <td class="pa-1"><VBtn icon="tabler-x" size="x-small" variant="text" :disabled="form.lines.length <= 1" @click="form.lines.splice(i, 1)" /></td>
               </tr>
             </tbody>
-            <tfoot><tr class="font-weight-bold"><td colspan="6" class="text-right">{{ t('acc.total') }}</td><td class="text-right">{{ money(total) }}</td></tr></tfoot>
+            <tfoot><tr class="font-weight-bold"><td colspan="8" class="text-right">{{ t('acc.total') }}</td><td class="text-right">{{ money(total) }}</td></tr></tfoot>
           </VTable>
           <VBtn size="small" variant="text" prepend-icon="tabler-plus" class="mt-2" @click="form.lines.push(blankLine())">{{ t('acc.add_line') }}</VBtn>
         </VCardText>
@@ -139,20 +152,23 @@ function cancel(o: Order) {
     </VDialog>
 
     <!-- Deliver dialog -->
-    <VDialog v-model="delDialog" max-width="640">
+    <VDialog v-model="delDialog" max-width="820">
       <VCard>
         <VCardTitle>{{ t('acc.record_delivery') }} — {{ delOrder?.number }}</VCardTitle>
         <VCardText>
           <VTable density="compact">
-            <thead><tr><th>{{ t('acc.line') }}</th><th class="text-right">{{ t('acc.outstanding') }}</th><th class="text-right" style="width: 140px">{{ t('acc.deliver_now') }}</th></tr></thead>
+            <thead><tr><th>{{ t('acc.line') }}</th><th class="text-right">{{ t('acc.outstanding') }}</th><th class="text-right" style="width: 130px">{{ t('acc.deliver_now') }}</th><th class="text-right" style="width: 120px">{{ t('acc.accepted') }}</th><th class="text-right" style="width: 120px">{{ t('acc.rejected') }}</th></tr></thead>
             <tbody>
               <tr v-for="(d, i) in delForm.deliveries" :key="i">
                 <td>{{ d.description }}</td>
-                <td class="text-right">{{ d.outstanding }}</td>
+                <td class="text-right">{{ d.outstanding }} {{ d.unit }}</td>
                 <td class="pa-1"><VTextField v-model.number="d.quantity" type="number" density="compact" variant="outlined" hide-details reverse :max="d.outstanding" /></td>
+                <td class="pa-1"><VTextField v-model.number="d.accepted" type="number" density="compact" variant="outlined" hide-details reverse /></td>
+                <td class="pa-1"><VTextField v-model.number="d.rejected" type="number" density="compact" variant="outlined" hide-details reverse /></td>
               </tr>
             </tbody>
           </VTable>
+          <div class="text-caption text-medium-emphasis mt-2">{{ t('acc.acceptance_hint') }}</div>
           <VTextField v-model="delForm.notes" :label="t('acc.notes')" variant="outlined" density="comfortable" class="mt-3" />
         </VCardText>
         <VCardActions class="pa-4"><VSpacer /><VBtn variant="text" @click="delDialog = false">{{ t('acc.cancel') }}</VBtn><VBtn color="primary" :loading="delForm.processing" @click="saveDeliver">{{ t('acc.record_delivery') }}</VBtn></VCardActions>

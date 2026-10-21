@@ -18,13 +18,16 @@ class ScanFarmAlerts extends Command
 
     protected $signature = 'agri:scan-alerts {--company= : Only this organisation}';
 
-    protected $description = 'Raise and clear Mkhaya Agri farm alerts for every organisation';
+    protected $description = 'Raise, clear and email Mkhaya Agri farm alerts for every organisation';
 
-    public function handle(TenantContext $tenants, FarmAlerts $alerts): int
+    public function handle(TenantContext $tenants, FarmAlerts $alerts, \App\Modules\Agri\Services\AgriNotifier $notifier): int
     {
-        $this->eachTenant($tenants, function (int $companyId) use ($alerts) {
+        $this->eachTenant($tenants, function (int $companyId) use ($alerts, $notifier) {
             $r = $alerts->scan($companyId);
-            $this->line("Company {$companyId}: {$r['farms']} farm(s), {$r['raised']} raised, {$r['resolved']} cleared.");
+            $escalated = app(\App\Modules\Agri\Services\Scouting::class)->escalateOverdue($companyId);
+            // Emails go from the scheduled scan only, never from a dashboard visit's quick refresh.
+            $m = $notifier->alerts($companyId);
+            $this->line("Company {$companyId}: {$r['farms']} farm(s), {$r['raised']} raised, {$r['resolved']} cleared; {$m['alerts']} alert(s) emailed to {$m['people']} person(s); {$escalated} scouting observation(s) escalated.");
         });
 
         return self::SUCCESS;

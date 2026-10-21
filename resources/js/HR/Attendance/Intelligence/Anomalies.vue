@@ -103,7 +103,7 @@ const statusColor: Record<string, string> = { open: 'warning', acknowledged: 'in
               <h4 class="text-h4 mb-1">Anomaly Detection</h4>
               <p class="mb-0 text-medium-emphasis">Automated detection of suspicious attendance patterns and behaviours.</p>
             </div>
-            <VBtn color="primary" prepend-icon="fas fa-search" @click="scanDialog = true">Run Detection Scan</VBtn>
+            <VBtn color="primary" prepend-icon="mdi-magnify" @click="scanDialog = true">Run Detection Scan</VBtn>
           </VCardText>
         </VCard>
       </VCol>

@@ -35,7 +35,7 @@ class ManufacturingHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             /*
              * Engineering — what the company makes and what it is made of. READ tier: a planner,
              * a buyer and a supervisor all need to read a BOM, and what any of them may change is
@@ -365,7 +365,13 @@ class ManufacturingHubs extends ModuleHubs
                         self::ADMIN, 'teal', self::configure()),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'production' => ['absorb' => ['workforce', 'maintenance', 'loss'], 'name' => 'Production & Maintenance'],
+            'planning' => ['absorb' => ['engineering', 'factories'], 'name' => 'Planning & Engineering'],
+            'quality' => ['absorb' => ['fulfilment'], 'name' => 'Quality & Fulfilment'],
+            'reports' => ['absorb' => ['accounting', 'costing', 'assistant', 'notifications', 'integrations', 'setup'], 'name' => 'Reports, Costing & Setup'],
+        ]);
     }
 
     /**

@@ -10,7 +10,7 @@ import { human, money, num, statusColor, today } from '../Components/agri'
 const props = defineProps<{
   machines: any[]; usage: any[]; services: any[]
   filters: { farm: string | null }
-  options: { farms: Array<{ id: string; name: string; status: string }>; types: string[]; service_types: string[]; people: Array<{ id: number; name: string }>; fleet: Array<{ id: number; name: string }> }
+  options: { farms: Array<{ id: string; name: string; status: string }>; types: string[]; service_types: string[]; ownership: string[]; people: Array<{ id: number; name: string }>; fleet: Array<{ id: number; name: string }> }
   can: { manage: boolean; log: boolean }
 }>()
 const dialog = ref<null | string>(null)
@@ -31,6 +31,21 @@ const machineFields = (create: boolean): FormField[] => [
   { key: 'hourly_rate', label: 'Costing rate per hour', type: 'number', cols: 4 },
   ...(create ? [] : [{ key: 'next_service_hours', label: 'Next service at (h)', type: 'number' as const, cols: 4 }, { key: 'next_service_on', label: 'Next service by', type: 'date' as const, cols: 4 }]),
   { key: 'purchase_cost', label: 'Purchase cost', type: 'number', cols: 4 }, { key: 'purchased_on', label: 'Purchased on', type: 'date', cols: 4 },
+  // §7.1: ownership, warranty, life, custody, meters, compliance
+  { key: 'service_interval_days', label: 'Or service every (days)', type: 'number', cols: 4 },
+  { key: 'ownership', label: 'Ownership', type: 'select', items: props.options.ownership.map(o => ({ title: human(o), value: o })), cols: 4 },
+  { key: 'lessor', label: 'Lessor / owner', cols: 4, show: (f: any) => f.ownership && f.ownership !== 'owned' },
+  { key: 'lease_ends_on', label: 'Lease ends', type: 'date', cols: 4, show: (f: any) => f.ownership && f.ownership !== 'owned' },
+  { key: 'warranty_until', label: 'Warranty until', type: 'date', cols: 4 }, { key: 'warranty_hours', label: 'Warranty hours', type: 'number', cols: 4 },
+  { key: 'warranty_provider', label: 'Warranty provider', cols: 4 },
+  { key: 'useful_life_years', label: 'Useful life (years)', type: 'number', cols: 4 }, { key: 'useful_life_hours', label: 'Useful life (hours)', type: 'number', cols: 4 },
+  { key: 'location', label: 'Kept at', cols: 4 },
+  { key: 'responsible_user_id', label: 'Responsible person', type: 'autocomplete', items: props.options.people.map(p => ({ title: p.name, value: p.id })), cols: 8 },
+  { key: 'odometer_km', label: 'Odometer (km)', type: 'number', cols: 4 },
+  { key: 'expected_litres_per_hour', label: 'Expected fuel (l/h)', type: 'number', cols: 4, hint: 'Leave empty to learn it from the fills' },
+  { key: 'insurance_expires_on', label: 'Insurance expires', type: 'date', cols: 4 }, { key: 'licence_expires_on', label: 'Licence expires', type: 'date', cols: 4 },
+  { key: 'inspection_expires_on', label: 'Inspection expires', type: 'date', cols: 4 },
+  { key: 'inspection_required', label: 'Needs a current inspection to be booked', type: 'switch', cols: 12 },
   { key: 'notes', label: 'Notes', type: 'textarea', cols: 12 },
 ]
 </script>
@@ -41,10 +56,12 @@ const machineFields = (create: boolean): FormField[] => [
     <div class="d-flex flex-wrap align-center justify-space-between gap-4 mb-6">
       <div>
         <h4 class="text-h4 mb-1">Machinery</h4>
-        <p class="text-body-1 text-medium-emphasis mb-0">Tractors, harvesters, implements and pumps — hours, fuel, services and costs.</p>
+        <p class="text-body-1 text-medium-emphasis mb-0">Fleet assets working on the farm: tractors, harvesters, implements and pumps, booked to jobs and costed by the hour.</p>
       </div>
       <div class="d-flex gap-2">
         <FarmFilter :farms="options.farms" :model-value="filters.farm" />
+        <VBtn variant="text" prepend-icon="tabler-truck" href="/fleet/vehicles?asset_class=equipment">Fleet register</VBtn>
+        <VBtn variant="tonal" prepend-icon="tabler-calendar-cog" :href="route('agri.machinery.fleet.home', { farm: filters.farm })">Bookings, maintenance &amp; fuel</VBtn>
         <VBtn v-if="can.manage" color="primary" prepend-icon="tabler-plus" @click="open('create')">Register machine</VBtn>
       </div>
     </div>
@@ -63,7 +80,8 @@ const machineFields = (create: boolean): FormField[] => [
               <span v-if="!m.next_service_hours && !m.next_service_on" class="text-disabled">—</span>
             </td>
             <td class="text-end">{{ num(m.hours_logged, 1) }} h<div class="text-caption">{{ num(m.fuel_litres, 0) }} l fuel</div></td>
-            <td><VChip :color="statusColor(m.status)" size="small" variant="tonal">{{ human(m.status) }}</VChip></td>
+            <td><VChip :color="statusColor(m.current_status ?? m.status)" size="small" variant="tonal">{{ human(m.current_status ?? m.status) }}</VChip>
+              <div v-if="m.out_of_service_reason" class="text-caption text-error">{{ m.out_of_service_reason }}</div></td>
             <td class="text-end"><RowMenu :actions="[
               { title: 'Log hours / fuel', icon: 'tabler-gas-station', show: can.log && m.status !== 'disposed', onClick: () => open('usage', m) },
               { title: 'Record service / repair', icon: 'tabler-tool', show: can.manage && m.status !== 'disposed', onClick: () => open('service', m) },

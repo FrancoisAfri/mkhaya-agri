@@ -88,5 +88,17 @@ class WorkflowModuleSeeder extends Seeder
                 RibbonAccess::firstOrCreate(['ribbon_id' => $ribbonId, 'user_id' => $userId], ['active' => 1, 'access_level' => self::LEVEL]);
             }
         }
+
+        // Platform administrators always get the whole module. firstOrCreate above leaves a row
+        // that something else created at read level (1) untouched, which hid the Design hub —
+        // forms, the form library and templates — from the very people who set workflows up.
+        $admins = DB::table('users')->where(fn ($q) => $q->where('is_platform_admin', true)->orWhere('is_master_admin', true))->pluck('id');
+        foreach ($admins as $userId) {
+            CategoryAccess::updateOrCreate(['category_id' => $category->id, 'user_id' => $userId], ['active' => 1, 'access_level' => self::LEVEL]);
+            ModuleAccess::updateOrCreate(['module_id' => $module->id, 'user_id' => $userId], ['active' => 1, 'access_level' => self::LEVEL]);
+            foreach ($ribbonIds as $ribbonId) {
+                RibbonAccess::updateOrCreate(['ribbon_id' => $ribbonId, 'user_id' => $userId], ['active' => 1, 'access_level' => self::LEVEL]);
+            }
+        }
     }
 }

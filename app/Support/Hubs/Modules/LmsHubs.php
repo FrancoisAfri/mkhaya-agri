@@ -30,7 +30,7 @@ class LmsHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'my_learning' => [
                 'name' => 'My Learning', 'path' => 'lms/my-learning-hub', 'icon' => 'book', 'tier' => self::READ,
                 'title' => 'learning_management.hubs.my_learning.title', 'subtitle' => 'learning_management.hubs.my_learning.subtitle',
@@ -121,6 +121,11 @@ class LmsHubs extends ModuleHubs
                     self::card('scheduled_reports', 'lms/admin/scheduled-reports', 'calendar-clock-outline', self::ADMIN, 'blue-grey'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'my_learning' => ['absorb' => ['team'], 'name' => 'My Learning & Team'],
+            'skills' => ['absorb' => ['seta'], 'name' => 'Skills & SETA'],
+            'compliance' => ['absorb' => ['insights'], 'name' => 'Compliance & Insights'],
+        ]);
     }
 }

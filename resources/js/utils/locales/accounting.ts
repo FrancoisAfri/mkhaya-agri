@@ -7,6 +7,17 @@
 
 export const accountingLocales: Record<string, { acc: Record<string, string> }> = {
   en: { acc: {
+    // Selling produce and charging income to part of the business (a farm, …).
+    grade: 'Grade', price_basis: 'Price from', charge_to: 'Charge to', charge_to_hint: 'Where the income lands — e.g. a farm. Leave blank for the business as a whole.',
+    deliver_on: 'Deliver on', sent: 'Sent', accepted: 'Accepted', rejected: 'Rejected', acceptance_hint: 'Leave accepted and rejected blank if the customer has not said; everything sent counts as accepted.',
+    invoice_delivery: 'Invoice delivery', invoice_delivery_hint: 'Invoice what the customer accepted on this delivery', invoiced_short: 'invoiced',
+    price_from_list: 'Price from list', no_list_price: 'No price list covers it',
+    disputes_title: 'Customer disputes', disputes_sub: 'A dispute holds its invoice from reminders; resolve it with a credit note when money goes back.', new_dispute: 'New dispute',
+    dispute_about: 'About', dispute_amount: 'Amount in dispute', dispute_says: 'What the customer says', resolution: 'Resolution', outcome: 'Outcome',
+    outcome_resolved: 'Resolved (upheld)', outcome_rejected: 'Rejected', credit_to_give: 'Credit to give', no_disputes: 'No disputes.',
+    for_customer: 'For customer', general_list: 'General list', valid_from: 'Valid from', valid_to: 'Valid to',
+    products_by_name: 'Products priced by name, grade and unit', add_product: 'Add product',
+    sales_channel: 'Sales channel', delivery_points: 'Delivery points', verified: 'Verified', verify: 'Verify', verify_prompt: 'How was {name} verified (registration, VAT, references)?',
     entity_no_company_title: 'No active company', entity_no_company_body: 'A set of books belongs to a company. Switch into one to add or manage its trading businesses.',
     entity_all: 'All businesses', entity_all_hint: 'Figures for every business added together. Reading only.',
     // Multi-entity — one tenant, several trading names.

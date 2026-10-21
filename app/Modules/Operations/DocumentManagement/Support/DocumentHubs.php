@@ -41,7 +41,7 @@ class DocumentHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'library' => [
                 'name' => 'Library', 'path' => 'document-management/library-hub', 'icon' => 'bookshelf', 'tier' => self::READ,
                 'title' => 'document_management.hubs.library.title',
@@ -121,6 +121,9 @@ class DocumentHubs extends ModuleHubs
                     self::card('templates', 'document-management/templates', 'file-document-edit-outline', self::MODIFY, 'purple'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'governance' => ['absorb' => ['configure'], 'name' => 'Governance & Settings'],
+        ]);
     }
 }

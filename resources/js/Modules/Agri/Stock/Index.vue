@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { router } from '@inertiajs/vue3'
+import { Link, router } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
 import PageErrors from '../Components/PageErrors.vue'
 import FormDialog from '../Components/FormDialog.vue'
@@ -39,6 +39,8 @@ const items = props.catalogue.map(i => ({ title: i.name, value: i.id }))
       </div>
       <div class="d-flex flex-wrap gap-2">
         <FarmFilter :farms="farms" :model-value="farm?.id" :allow-all="false" />
+        <Link :href="route('agri.stock.control', { tab: 'stores', farm: farm?.id })"><VBtn variant="tonal" prepend-icon="tabler-adjustments-horizontal">Stock control & purchasing</VBtn></Link>
+        <Link :href="route('agri.packhouse', { tab: 'lots', farm: farm?.id })"><VBtn variant="tonal" prepend-icon="tabler-package">Packhouse &amp; dispatch</VBtn></Link>
         <VMenu v-if="(can.receive || can.sell) && farm">
           <template #activator="{ props: p }"><VBtn v-bind="p" color="primary" prepend-icon="tabler-plus">Stock</VBtn></template>
           <VList density="compact">

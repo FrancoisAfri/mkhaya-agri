@@ -204,7 +204,8 @@ class WorkforceTest extends ManufacturingTestCase
 
     public function test_the_workforce_screens_are_for_those_with_the_labour_grant(): void
     {
-        $cards = array_column($this->actingAs($this->supervisor)->get('/manufacturing/workforce')->assertOk()->viewData('page')['props']['cards'], 'path');
+        // The workforce cards now sit in the production hub; only theirs are compared.
+        $cards = array_values(array_filter(array_column($this->actingAs($this->supervisor)->get('/manufacturing/production')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/workforce/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/workforce/roster', '/manufacturing/workforce/qualifications', '/manufacturing/workforce/labour'], $cards);
         $this->actingAs($this->welder)->get(route('manufacturing.workforce.labour'))->assertForbidden();
 

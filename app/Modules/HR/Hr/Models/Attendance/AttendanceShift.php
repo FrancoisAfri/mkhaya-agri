@@ -7,6 +7,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class AttendanceShift extends Model
 {
+    /** Shifts are the roster's templates too (the attendance engine), which address them by uuid. */
+    protected static function booted(): void
+    {
+        static::creating(fn ($s) => $s->uuid ??= (string) \Illuminate\Support\Str::uuid());
+    }
+
     use SoftDeletes;
 
     protected $table = 'attendance_shifts';

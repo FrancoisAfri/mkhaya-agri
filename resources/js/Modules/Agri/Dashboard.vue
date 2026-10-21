@@ -15,6 +15,7 @@ defineProps<{
   machinery: null | { machines: number; service_due: number }
   finance: null | { income: number; costs: number; gross_margin: number; by_farm: Array<{ farm: string; id: string; income: number; costs: number; gross_margin: number }> }
   alerts: { total: number; critical: number; top: Array<{ id: string; severity: string; title: string; message: string | null; link: string | null; farm: string | null }> }
+  areas: Array<{ key: string; title: string; icon: string; link: string; figures: Array<{ label: string; value: number | string; tone?: string | null }> }>
   scope: { all_farms: boolean }
   can: { manage: boolean; assistant: boolean }
 }>()
@@ -131,6 +132,26 @@ const severityIcon = (s: string) => ({ critical: 'tabler-alert-octagon', warning
       </VCol>
     </VRow>
 
+    <!-- Every other area, each read from the module that owns it -->
+    <div v-if="areas?.length" class="mt-6">
+      <h5 class="text-h5 mb-3">Every area</h5>
+      <VRow>
+        <VCol v-for="a in areas" :key="a.key" cols="12" sm="6" lg="4" xl="3">
+          <VCard class="h-100" :href="a.link">
+            <VCardItem>
+              <template #prepend><VAvatar color="primary" variant="tonal" rounded><VIcon :icon="`tabler-${a.icon}`" /></VAvatar></template>
+              <VCardTitle>{{ a.title }}</VCardTitle>
+            </VCardItem>
+            <VCardText>
+              <div v-for="f in a.figures" :key="f.label" class="d-flex justify-space-between text-body-2 py-1">
+                <span class="text-medium-emphasis">{{ f.label }}</span>
+                <strong :class="f.tone ? `text-${f.tone}` : ''">{{ typeof f.value === 'number' ? num(f.value, 0) : f.value }}</strong>
+              </div>
+            </VCardText>
+          </VCard>
+        </VCol>
+      </VRow>
+    </div>
     <h5 class="text-h5 mt-6 mb-3">Farms</h5>
     <VRow>
       <VCol v-for="f in farms" :key="f.id" cols="12" sm="6" lg="4">

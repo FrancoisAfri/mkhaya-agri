@@ -35,33 +35,29 @@ class ProjectHubs extends ModuleHubs
         return [
             ['key' => 'dashboard', 'name' => 'PM Dashboard', 'path' => 'project-management', 'icon' => 'layout-dashboard', 'tier' => self::READ],
             ['key' => 'projects', 'name' => 'Projects', 'path' => 'project-management/projects', 'icon' => 'folders', 'tier' => self::READ],
-            // The offline field loop. READ tier: this is the page for the people doing the work,
-            // and putting it behind a higher tier would put it behind the people who need it.
-            ['key' => 'field', 'name' => 'My Work', 'path' => 'project-management/field', 'icon' => 'device-mobile', 'tier' => self::READ],
-            // Approvals are personal rather than per-project: what is waiting on *me*, wherever it
-            // came from. READ tier, because whether you can decide anything is settled per request
-            // by the flow — a page that lists nothing for someone who approves nothing is honest,
-            // and hiding it from them would hide their own submissions too.
-            ['key' => 'approvals', 'name' => 'Approvals', 'path' => 'project-management/approvals', 'icon' => 'checkup-list', 'tier' => self::READ],
-            // Notices to a whole project team. READ tier for the same reason as approvals: whether
-            // you can *post* is settled by policy, and hiding the page from readers would hide the
-            // notices from exactly the people they were written for.
-            ['key' => 'announcements', 'name' => 'Announcements', 'path' => 'project-management/announcements', 'icon' => 'speakerphone', 'tier' => self::READ],
-            // Portfolios and programmes — the level above a project. READ tier: it is a rollup,
-            // and who may see which project is already settled per project.
-            ['key' => 'portfolio', 'name' => 'Portfolio', 'path' => 'project-management/portfolio', 'icon' => 'stack-2', 'tier' => self::READ],
-            // Meetings are cross-project by nature — a person's week has meetings from three jobs
-            // in it — so they are a direct page rather than something reached from one project.
-            ['key' => 'meetings', 'name' => 'Meetings', 'path' => 'project-management/meetings', 'icon' => 'calendar-event', 'tier' => self::READ],
-            // The portal. READ tier, and it shows nothing at all to somebody with no external
-            // membership — which is the correct answer for staff, not an error.
-            ['key' => 'portal', 'name' => 'Portal', 'path' => 'project-management/portal', 'icon' => 'door-enter', 'tier' => self::READ],
+            // Everything else that used to sit here — My Work, Approvals, Announcements, Meetings,
+            // the Portal and Portfolio — is now a card (Workspace, or Insights for Portfolio), so the
+            // module keeps to five sidebar ribbons. Their READ tiers and reasons are unchanged.
         ];
     }
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
+            // 👉 Workspace — the day-to-day pages that used to be direct ribbons. All READ: whether
+            //    you can approve, post or sign is settled per request, and hiding the pages would
+            //    hide people's own submissions and notices from them.
+            'workspace' => [
+                'name' => 'Workspace', 'path' => 'project-management/workspace', 'icon' => 'briefcase', 'tier' => self::READ,
+                'title' => 'project_management.hubs.workspace.title', 'subtitle' => 'project_management.hubs.workspace.subtitle',
+                'cards' => [
+                    self::card('field', 'project-management/field', 'device-mobile', self::READ, 'primary', ['ability' => 'viewAny', 'subject' => \App\Modules\Operations\ProjectManagement\Models\Task::class]),
+                    self::card('approvals_inbox', 'project-management/approvals', 'checkup-list', self::READ, 'amber', self::seeProjects(), 'project_management.approvals.title', 'project_management.approvals.subtitle'),
+                    self::card('meetings', 'project-management/meetings', 'calendar-event', self::READ, 'indigo', self::seeProjects(), 'project_management.meetings.title', 'project_management.meetings.subtitle'),
+                    self::card('announcements', 'project-management/announcements', 'speakerphone', self::READ, 'orange', self::seeProjects(), 'project_management.announcements.title', 'project_management.announcements.subtitle'),
+                    self::card('portal', 'project-management/portal', 'door-enter', self::READ, 'cyan'),
+                ],
+            ],
             'evidence' => [
                 'name' => 'Evidence', 'path' => 'project-management/evidence', 'icon' => 'clipboard-check', 'tier' => self::READ,
                 'title' => 'project_management.hubs.evidence.title', 'subtitle' => 'project_management.hubs.evidence.subtitle',
@@ -85,6 +81,7 @@ class ProjectHubs extends ModuleHubs
                 'name' => 'PM Insights', 'path' => 'project-management/insights', 'icon' => 'chart-line', 'tier' => self::READ,
                 'title' => 'project_management.hubs.insights.title', 'subtitle' => 'project_management.hubs.insights.subtitle',
                 'cards' => [
+                    self::card('portfolio', 'project-management/portfolio', 'stack-2', self::READ, 'indigo', self::seeProjects(), 'project_management.portfolio.title', 'project_management.portfolio.subtitle'),
                     self::card('analytics', 'project-management/insights/analytics', 'chart-histogram', self::READ, 'primary', self::seeProjects()),
                     self::card('reports', 'project-management/insights/reports', 'file-analytics', self::READ, 'blue', self::seeProjects()),
                     // Deterministic warnings first, drafting second — so it is useful with no AI
@@ -175,7 +172,12 @@ class ProjectHubs extends ModuleHubs
                     self::card('integrations', 'project-management/setup/integrations', 'plug-connected', self::ADMIN, 'grey', self::adminSettings()),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: Dashboard, Projects, Workspace, Commercial, Insights & Setup.
+            'workspace' => ['absorb' => ['evidence'], 'name' => 'Workspace'],
+            'invoicing' => ['absorb' => ['reporting', 'contractors'], 'name' => 'Commercial'],
+            'insights' => ['absorb' => ['setup'], 'name' => 'Insights & Setup'],
+        ]);
     }
 
 

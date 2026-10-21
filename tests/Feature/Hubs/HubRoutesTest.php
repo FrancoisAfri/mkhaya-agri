@@ -57,11 +57,15 @@ class HubRoutesTest extends TestCase
             foreach ($hubs::hubs() as $group => $hub) {
                 foreach ($hub['cards'] as $card) {
                     $path = trim(explode('?', $card['path'], 2)[0], '/');
-                    $this->assertContains(
-                        $path,
-                        $uris,
-                        "[{$code}.{$group}] card {$card['key']} links to {$path}, which has no GET route.",
-                    );
+                    // A literal route, or a parameterised one that answers the path (not the 404 fallback).
+                    $answered = in_array($path, $uris, true) || (function () use ($path) {
+                        try {
+                            return ! Route::getRoutes()->match(\Illuminate\Http\Request::create('/'.$path, 'GET'))->isFallback;
+                        } catch (\Symfony\Component\HttpKernel\Exception\HttpExceptionInterface) {
+                            return false;
+                        }
+                    })();
+                    $this->assertTrue($answered, "[{$code}.{$group}] card {$card['key']} links to {$path}, which has no GET route.");
                 }
             }
         }

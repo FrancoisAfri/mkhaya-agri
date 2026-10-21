@@ -5,8 +5,8 @@ import { route as ziggyRoute } from 'ziggy-js'
 const route = ziggyRoute
 const { t } = useI18n()
 
-interface Line { account_id: number | null; item_id: number | null; description: string; quantity: number; unit_price: number | null; tax_rate: number }
-interface Quote { id: number; number: string; party: string; party_id: number; date: string; valid_until: string | null; subtotal: number; discount_percent: number; discount_amount: number; tax_total: number; total: number; status: string; description: string | null; customer_ref: string | null; vendor_number: string | null; sales_rep: string | null; delivery_address: string | null; postal_address: string | null; invoice_id: number | null; sales_order_id: number | null; crm_deal_id: number | null; editable: boolean }
+interface Line { account_id: number | null; item_id: number | null; description: string; quantity: number; unit_price: number | null; tax_rate: number; unit?: string | null; grade?: string | null; price_basis?: string | null }
+interface Quote { id: number; number: string; party: string; party_id: number; date: string; valid_until: string | null; subtotal: number; discount_percent: number; discount_amount: number; tax_total: number; total: number; status: string; description: string | null; customer_ref: string | null; vendor_number: string | null; sales_rep: string | null; delivery_address: string | null; postal_address: string | null; invoice_id: number | null; sales_order_id: number | null; crm_deal_id: number | null; editable: boolean; charge_to?: string | null }
 interface Option { id: number; label: string }
 interface Item { id: number; code: string; name: string; description: string | null; unit: string; price: number; tax_rate: number; account_id: number | null }
 const props = defineProps<{
@@ -21,7 +21,18 @@ const props = defineProps<{
   deals: { id: number; label: string; party_id: number | null }[]
   templates: { id: number; name: string; terms: string | null; is_default: boolean }[]
   defaultTerms: string | null
+  chargeTo: { value: string; title: string }[]
 }>()
+
+// The customer's price for a line's item or product (by grade and unit), and which list it came from.
+async function priceFromList(l: any) {
+  const q = new URLSearchParams(Object.entries({ party_id: form.party_id, item_id: l.item_id, description: l.item_id ? null : l.description, grade: l.grade, unit: l.unit })
+    .filter(([, v]) => v !== null && v !== '' && v !== undefined).map(([k, v]) => [k, String(v)]))
+  const r = await fetch(`${route('finance.accounting.price-lists.price')}?${q}`, { headers: { Accept: 'application/json' }, credentials: 'same-origin' })
+  if (!r.ok) return
+  const p = await r.json()
+  if (p.price !== null) { l.unit_price = p.price; l.price_basis = p.basis } else { l.price_basis = t('acc.no_list_price') }
+}
 
 const defaultTemplateId = props.templates.find(t => t.is_default)?.id ?? props.templates[0]?.id ?? null
 function onTemplateChange(id: number | null) {
@@ -77,8 +88,8 @@ function onDealSelected(dealId: number | null) {
 
 const dialog = ref(false)
 const editingId = ref<number | null>(null)
-const blankLine = (): any => ({ account_id: props.incomeAccounts[0]?.id ?? null, item_id: null, description: '', note: '', _showNote: false, quantity: 1, unit_price: null, tax_rate: 15 })
-const form = useForm<any>({ party_id: null, quote_date: new Date().toISOString().slice(0, 10), valid_until: '', customer_ref: '', vendor_number: '', sales_rep: '', discount_percent: 0, description: '', delivery_address: '', postal_address: '', crm_deal_id: null, template_id: defaultTemplateId, terms: '', lines: [blankLine()] })
+const blankLine = (): any => ({ account_id: props.incomeAccounts[0]?.id ?? null, item_id: null, description: '', note: '', _showNote: false, quantity: 1, unit_price: null, tax_rate: 15, unit: null, grade: null, price_basis: null })
+const form = useForm<any>({ party_id: null, quote_date: new Date().toISOString().slice(0, 10), valid_until: '', customer_ref: '', vendor_number: '', sales_rep: '', discount_percent: 0, description: '', delivery_address: '', postal_address: '', crm_deal_id: null, template_id: defaultTemplateId, terms: '', charge_to: null, lines: [blankLine()] })
 
 const money = (n: number) => (n ?? 0).toLocaleString('en-ZA', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 
@@ -106,7 +117,7 @@ function openEdit(q: Quote) {
   editingId.value = q.id
   form.party_id = q.party_id; form.quote_date = q.date; form.valid_until = q.valid_until ?? ''; form.description = q.description ?? ''; form.crm_deal_id = q.crm_deal_id
   form.customer_ref = q.customer_ref ?? ''; form.vendor_number = q.vendor_number ?? ''; form.sales_rep = q.sales_rep ?? ''; form.discount_percent = q.discount_percent ?? 0
-  form.delivery_address = q.delivery_address ?? ''; form.postal_address = q.postal_address ?? ''
+  form.delivery_address = q.delivery_address ?? ''; form.postal_address = q.postal_address ?? ''; form.charge_to = q.charge_to ?? null
   form.template_id = (q as any).template_id ?? defaultTemplateId; form.terms = (q as any).terms ?? ''
   const lines = props.quoteLines[q.id] ?? []
   form.lines = lines.length ? lines.map(l => ({ ...l })) : [blankLine()]
@@ -323,12 +334,13 @@ onMounted(() => {
           </div>
           <div class="d-flex gap-3 mb-3 flex-wrap">
             <VTextField v-model="form.description" :label="t('acc.description_notes')" variant="outlined" density="comfortable" style="flex:1 1 300px" />
+            <VSelect v-if="chargeTo.length" v-model="form.charge_to" :items="chargeTo" :label="t('acc.charge_to')" :hint="t('acc.charge_to_hint')" persistent-hint clearable variant="outlined" density="comfortable" style="min-width: 240px" :error-messages="(form.errors as any).charge_to" />
             <VSelect v-if="templates.length" v-model="form.template_id" :items="templates.map(tp => ({ title: tp.name + (tp.is_default ? ` · ${t('acc.default_label')}` : ''), value: tp.id }))" :label="t('acc.template')" variant="outlined" density="comfortable" style="max-width: 240px" @update:model-value="onTemplateChange" />
           </div>
           <VTextarea v-model="form.terms" :label="t('acc.terms_conditions')" :placeholder="t('acc.terms_ph')" variant="outlined" density="comfortable" rows="2" auto-grow class="mb-3" />
 
           <VTable density="compact">
-            <thead><tr><th style="width: 22%">{{ t('acc.item') }}</th><th style="width: 18%">{{ t('acc.income_account') }}</th><th>{{ t('acc.description') }}</th><th class="text-right" style="width: 80px">{{ t('acc.qty') }}</th><th class="text-right" style="width: 120px">{{ t('acc.price') }}</th><th class="text-right" style="width: 80px">{{ t('acc.tax_pct') }}</th><th class="text-right">{{ t('acc.total') }}</th><th></th></tr></thead>
+            <thead><tr><th style="width: 22%">{{ t('acc.item') }}</th><th style="width: 18%">{{ t('acc.income_account') }}</th><th>{{ t('acc.description') }}</th><th style="width: 90px">{{ t('acc.grade') }}</th><th style="width: 70px">{{ t('acc.unit') }}</th><th class="text-right" style="width: 80px">{{ t('acc.qty') }}</th><th class="text-right" style="width: 120px">{{ t('acc.price') }}</th><th class="text-right" style="width: 80px">{{ t('acc.tax_pct') }}</th><th class="text-right">{{ t('acc.total') }}</th><th></th></tr></thead>
             <tbody>
               <template v-for="(l, i) in form.lines" :key="i">
                 <tr>
@@ -340,26 +352,29 @@ onMounted(() => {
                   </VAutocomplete></td>
                   <td class="pa-1"><VAutocomplete v-model="l.account_id" :items="incomeAccounts.map(a => ({ title: a.label, value: a.id }))" density="compact" variant="outlined" hide-details /></td>
                   <td class="pa-1"><VTextField v-model="l.description" density="compact" variant="outlined" hide-details /></td>
+                  <td class="pa-1"><VTextField v-model="l.grade" density="compact" variant="outlined" hide-details /></td>
+                  <td class="pa-1"><VTextField v-model="l.unit" density="compact" variant="outlined" hide-details /></td>
                   <td class="pa-1"><VTextField v-model.number="l.quantity" type="number" density="compact" variant="outlined" hide-details reverse /></td>
-                  <td class="pa-1"><VTextField v-model.number="l.unit_price" type="number" density="compact" variant="outlined" hide-details reverse /></td>
+                  <td class="pa-1"><VTextField v-model.number="l.unit_price" type="number" density="compact" variant="outlined" reverse :hint="l.price_basis ?? undefined" :persistent-hint="!!l.price_basis" :hide-details="!l.price_basis" /></td>
                   <td class="pa-1"><VTextField v-model.number="l.tax_rate" type="number" density="compact" variant="outlined" hide-details reverse /></td>
                   <td class="text-right pe-2">{{ money((Number(l.quantity) || 0) * (Number(l.unit_price) || 0)) }}</td>
                   <td class="pa-1 text-no-wrap">
+                    <VBtn icon="tabler-list-search" size="x-small" variant="text" :title="t('acc.price_from_list')" :disabled="!l.item_id && !l.description" @click="priceFromList(l)" />
                     <VBtn :icon="l.note || l._showNote ? 'tabler-notes' : 'tabler-note'" size="x-small" variant="text" :color="l.note ? 'primary' : undefined" :title="t('acc.line_note')" @click="l._showNote = !l._showNote" />
                     <VBtn icon="tabler-x" size="x-small" variant="text" :disabled="form.lines.length <= 1" @click="form.lines.splice(i, 1)" />
                   </td>
                 </tr>
                 <tr v-if="l._showNote || l.note">
                   <td></td>
-                  <td colspan="7" class="pa-1"><VTextField v-model="l.note" density="compact" variant="outlined" hide-details :placeholder="t('acc.line_note_placeholder')" prepend-inner-icon="tabler-note" /></td>
+                  <td colspan="9" class="pa-1"><VTextField v-model="l.note" density="compact" variant="outlined" hide-details :placeholder="t('acc.line_note_placeholder')" prepend-inner-icon="tabler-note" /></td>
                 </tr>
               </template>
             </tbody>
             <tfoot>
-              <tr><td colspan="6" class="text-right">{{ t('acc.subtotal') }}</td><td class="text-right">{{ money(grossSubtotal) }}</td><td></td></tr>
-              <tr v-if="discountAmount > 0"><td colspan="6" class="text-right">{{ t('acc.discount') }} ({{ form.discount_percent }}%)</td><td class="text-right text-error">−{{ money(discountAmount) }}</td><td></td></tr>
-              <tr><td colspan="6" class="text-right">{{ t('acc.vat') }}</td><td class="text-right">{{ money(taxTotal) }}</td><td></td></tr>
-              <tr class="font-weight-bold"><td colspan="6" class="text-right">{{ t('acc.total') }}</td><td class="text-right">{{ money(total) }}</td><td></td></tr>
+              <tr><td colspan="8" class="text-right">{{ t('acc.subtotal') }}</td><td class="text-right">{{ money(grossSubtotal) }}</td><td></td></tr>
+              <tr v-if="discountAmount > 0"><td colspan="8" class="text-right">{{ t('acc.discount') }} ({{ form.discount_percent }}%)</td><td class="text-right text-error">−{{ money(discountAmount) }}</td><td></td></tr>
+              <tr><td colspan="8" class="text-right">{{ t('acc.vat') }}</td><td class="text-right">{{ money(taxTotal) }}</td><td></td></tr>
+              <tr class="font-weight-bold"><td colspan="8" class="text-right">{{ t('acc.total') }}</td><td class="text-right">{{ money(total) }}</td><td></td></tr>
             </tfoot>
           </VTable>
           <VBtn size="small" variant="text" prepend-icon="tabler-plus" class="mt-2" @click="addLine">{{ t('acc.add_line') }}</VBtn>

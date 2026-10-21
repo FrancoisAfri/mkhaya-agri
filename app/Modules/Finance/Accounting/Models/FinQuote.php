@@ -25,11 +25,12 @@ class FinQuote extends Model
         'currency', 'status', 'subtotal', 'tax_total', 'total', 'description',
         'customer_ref', 'vendor_number', 'sales_rep', 'discount_percent', 'discount_amount',
         'delivery_address', 'postal_address', 'crm_deal_id', 'invoice_id', 'sales_order_id', 'created_by',
-        'terms', 'template_id',
+        'terms', 'template_id', 'dimensions',
     ];
 
     protected $casts = [
         'quote_date'       => 'date',
+        'dimensions'       => 'array',
         'valid_until'      => 'date',
         'subtotal'         => 'decimal:2',
         'tax_total'        => 'decimal:2',

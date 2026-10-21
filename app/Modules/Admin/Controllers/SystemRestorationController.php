@@ -239,7 +239,6 @@ class SystemRestorationController extends Controller
             'attendance_shift'         => ['label' => 'Attendance Shift',    'class' => \App\Modules\HR\Hr\Models\Attendance\AttendanceShift::class,                          'module' => 'Attendance',     'module_code' => 'time_attendance',      'searchable' => ['name']],
             'attendance_status'        => ['label' => 'Attendance Status',   'class' => \App\Modules\HR\Hr\Models\Attendance\AttendanceStatus::class,                         'module' => 'Attendance',     'module_code' => 'time_attendance',      'searchable' => ['name']],
             'attendance_work_calendar' => ['label' => 'Work Calendar',       'class' => \App\Modules\HR\Hr\Models\Attendance\AttendanceWorkCalendar::class,                   'module' => 'Attendance',     'module_code' => 'time_attendance',      'searchable' => ['name']],
-            'roster_schedule'          => ['label' => 'Roster Schedule',     'class' => \App\Modules\HR\Hr\Models\Attendance\RosterSchedule::class,                           'module' => 'Attendance',     'module_code' => 'time_attendance',      'searchable' => ['name']],
 
             // ── HR – Leave ────────────────────────────────────────────────────
             'leave_request'              => ['label' => 'Leave Request',              'class' => \App\Modules\HR\Leave\Models\LeaveRequest::class,              'module' => 'Leave', 'module_code' => 'leave_management', 'searchable' => ['status', 'leave_type_id']],

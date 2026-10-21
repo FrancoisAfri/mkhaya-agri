@@ -46,12 +46,14 @@ class FinanceQuoteController extends Controller
                     'delivery_address' => $q->delivery_address, 'postal_address' => $q->postal_address,
                     'invoice_id' => $q->invoice_id, 'sales_order_id' => $q->sales_order_id, 'crm_deal_id' => $q->crm_deal_id,
                     'terms' => $q->terms, 'template_id' => $q->template_id,
+                    'charge_to' => \App\Modules\Finance\Accounting\Support\ChargeTo::choiceOf($q->dimensions),
                     'editable' => $q->isEditable(),
                 ]),
             'quoteLines' => FinQuote::with('lines')->orderByDesc('id')->limit(200)->get()
                 ->mapWithKeys(fn ($q) => [$q->id => $q->lines->map(fn ($l) => [
                     'account_id' => $l->account_id, 'item_id' => $l->item_id, 'description' => $l->description, 'note' => $l->note,
                     'quantity' => (float) $l->quantity, 'unit_price' => (float) $l->unit_price, 'tax_rate' => (float) $l->tax_rate,
+                    'unit' => $l->unit, 'grade' => $l->grade, 'price_basis' => $l->price_basis,
                 ])]),
             'customers' => FinParty::customers()->where('is_active', true)->orderBy('name')->get()
                 ->map(fn ($p) => [
@@ -79,6 +81,8 @@ class FinanceQuoteController extends Controller
                 ->whereIn('doc_type', ['quote', 'both'])->orderByDesc('is_default')->orderBy('name')
                 ->get(['id', 'name', 'terms', 'is_default']),
             'defaultTerms' => \App\Modules\Finance\Accounting\Models\FinSetting::current()->default_terms,
+            // Where the income can be charged (a farm, …), offered by the modules that own them.
+            'chargeTo' => \App\Modules\Finance\Accounting\Support\ChargeTo::options(),
         ]);
     }
 
@@ -167,7 +171,24 @@ class FinanceQuoteController extends Controller
             'lines.*.quantity'    => 'nullable|numeric|min:0',
             'lines.*.unit_price'  => 'required|numeric',
             'lines.*.tax_rate'    => 'nullable|numeric|min:0|max:100',
-        ]);
+            'lines.*.unit'        => 'nullable|string|max:20',
+            'lines.*.grade'       => 'nullable|string|max:40',
+            'lines.*.price_basis' => 'nullable|string|max:255',
+            'charge_to'           => 'nullable|string|max:80',
+        ]) + $this->chargeTo($request);
+    }
+
+    /** The chosen "charge to" as the dimensions the quote carries. */
+    private function chargeTo(Request $request): array
+    {
+        if (! $request->has('charge_to')) {
+            return [];
+        }
+        try {
+            return ['dimensions' => \App\Modules\Finance\Accounting\Support\ChargeTo::dimensions($request->input('charge_to'))];
+        } catch (\InvalidArgumentException $e) {
+            throw ValidationException::withMessages(['charge_to' => [$e->getMessage()]]);
+        }
     }
 
     /**

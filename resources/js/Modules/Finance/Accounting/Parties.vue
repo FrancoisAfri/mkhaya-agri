@@ -5,7 +5,8 @@ import { route as ziggyRoute } from 'ziggy-js'
 const route = ziggyRoute
 const { t } = useI18n()
 
-interface Party { id: number; kind: string; category: string | null; price_list_id: number | null; source: string; code: string; name: string; contact_name: string | null; email: string | null; website: string | null; phone: string | null; fax: string | null; vat_number: string | null; tax_exempt: boolean; registration_number: string | null; vendor_number: string | null; bank_name: string | null; bank_account: string | null; credit_terms_days: number; credit_limit: number | null; sales_rep: string | null; default_discount_percent: number | null; on_hold: boolean; is_active: boolean; synced: boolean; locked?: string[] }
+interface Party { id: number; kind: string; category: string | null; price_list_id: number | null; source: string; code: string; name: string; contact_name: string | null; email: string | null; website: string | null; phone: string | null; fax: string | null; vat_number: string | null; tax_exempt: boolean; registration_number: string | null; vendor_number: string | null; bank_name: string | null; bank_account: string | null; credit_terms_days: number; credit_limit: number | null; sales_rep: string | null; default_discount_percent: number | null; on_hold: boolean; is_active: boolean; synced: boolean; locked?: string[]
+  channel?: string | null; delivery_points?: { name: string; address: string | null }[]; verified_at?: string | null; verification_note?: string | null }
 const props = defineProps<{ kind: 'customer' | 'supplier'; parties: Party[]; synced: boolean; source_name: string; categories: string[]; priceLists?: { id: number; name: string }[]; people?: { id: number; name: string }[] }>()
 
 const isCustomer = computed(() => props.kind === 'customer')
@@ -26,7 +27,7 @@ const editing = ref<Party | null>(null)
  */
 const lockedFields = computed(() => new Set(editing.value?.locked ?? []))
 const isLocked = (field: string) => lockedFields.value.has(field)
-const form = useForm({ kind: props.kind, category: '', price_list_id: null as number | null, code: '', name: '', contact_name: '', email: '', website: '', phone: '', fax: '', address: '', city: '', country: '', postal_address: '', vat_number: '', tax_exempt: false, registration_number: '', vendor_number: '', bank_name: '', bank_account: '', credit_terms_days: 30, credit_limit: null as number | null, sales_rep: '', default_discount_percent: null as number | null, on_hold: false, is_active: true })
+const form = useForm({ kind: props.kind, category: '', price_list_id: null as number | null, code: '', name: '', contact_name: '', email: '', website: '', phone: '', fax: '', address: '', city: '', country: '', postal_address: '', vat_number: '', tax_exempt: false, registration_number: '', vendor_number: '', bank_name: '', bank_account: '', credit_terms_days: 30, credit_limit: null as number | null, sales_rep: '', default_discount_percent: null as number | null, on_hold: false, is_active: true, channel: '' as string | null, delivery_points: [] as { name: string; address: string | null }[] })
 const syncForm = useForm({ kind: props.kind })
 const confirm = ref()
 
@@ -54,7 +55,7 @@ const filtered = computed(() => {
 function openNew() { editing.value = null; form.reset(); form.kind = props.kind; dialog.value = true }
 function openEdit(p: Party) {
   editing.value = p
-  Object.assign(form, { kind: p.kind, category: p.category ?? '', price_list_id: p.price_list_id, code: p.code, name: p.name, contact_name: p.contact_name ?? '', email: p.email ?? '', website: p.website ?? '', phone: p.phone ?? '', fax: p.fax ?? '', address: (p as any).address ?? '', city: (p as any).city ?? '', country: (p as any).country ?? '', postal_address: (p as any).postal_address ?? '', vat_number: p.vat_number ?? '', tax_exempt: p.tax_exempt, registration_number: p.registration_number ?? '', vendor_number: p.vendor_number ?? '', bank_name: p.bank_name ?? '', bank_account: p.bank_account ?? '', credit_terms_days: p.credit_terms_days, credit_limit: p.credit_limit, sales_rep: p.sales_rep ?? '', default_discount_percent: p.default_discount_percent, on_hold: p.on_hold, is_active: p.is_active })
+  Object.assign(form, { kind: p.kind, category: p.category ?? '', price_list_id: p.price_list_id, code: p.code, name: p.name, contact_name: p.contact_name ?? '', email: p.email ?? '', website: p.website ?? '', phone: p.phone ?? '', fax: p.fax ?? '', address: (p as any).address ?? '', city: (p as any).city ?? '', country: (p as any).country ?? '', postal_address: (p as any).postal_address ?? '', vat_number: p.vat_number ?? '', tax_exempt: p.tax_exempt, registration_number: p.registration_number ?? '', vendor_number: p.vendor_number ?? '', bank_name: p.bank_name ?? '', bank_account: p.bank_account ?? '', credit_terms_days: p.credit_terms_days, credit_limit: p.credit_limit, sales_rep: p.sales_rep ?? '', default_discount_percent: p.default_discount_percent, on_hold: p.on_hold, is_active: p.is_active, channel: p.channel ?? '', delivery_points: (p.delivery_points ?? []).map(d => ({ ...d })) })
   dialog.value = true
 }
 function save() {
@@ -62,6 +63,7 @@ function save() {
   editing.value ? form.patch(route('finance.accounting.parties.update', editing.value.id), opts) : form.post(route('finance.accounting.parties.store'), opts)
 }
 function syncNow() { syncForm.post(route('finance.accounting.parties.sync'), { preserveScroll: true }) }
+function verify(p: Party) { const note = prompt(t('acc.verify_prompt', { name: p.name })); if (note) router.post(route('finance.accounting.parties.verify', p.id), { note }, { preserveScroll: true }) }
 function statement(p: Party) { router.get(route('finance.accounting.parties.statement', p.id)) }
 // Jump to the invoice/bill or quote form with this party preselected (the target page
 // reads ?party and opens its create dialog).
@@ -99,7 +101,9 @@ const sourceLabel = (p: Party) => p.source === 'crm' ? 'CRM' : (p.source === 'su
         <tbody>
           <tr v-for="p in filtered" :key="p.id">
             <td class="font-weight-medium">{{ p.code }}</td>
-            <td><a class="cursor-pointer text-high-emphasis" @click="openEdit(p)">{{ p.name }}</a></td>
+            <td><a class="cursor-pointer text-high-emphasis" @click="openEdit(p)">{{ p.name }}</a>
+              <VIcon v-if="p.verified_at" icon="tabler-rosette-discount-check" color="success" size="16" class="ms-1" :title="`${t('acc.verified')} ${p.verified_at}: ${p.verification_note ?? ''}`" />
+              <div v-if="p.channel" class="text-caption text-medium-emphasis">{{ p.channel }}</div></td>
             <td><VChip v-if="p.category" size="x-small" variant="tonal">{{ p.category }}</VChip><span v-else class="text-medium-emphasis">—</span></td>
             <td class="text-caption">{{ p.email || p.phone || '—' }}</td>
             <td class="text-right text-caption">{{ p.credit_terms_days }}d</td>
@@ -121,6 +125,7 @@ const sourceLabel = (p: Party) => p.source === 'crm' ? 'CRM' : (p.source === 'su
                   <VListItem v-if="isCustomer" prepend-icon="tabler-file-description" :title="t('acc.create_quotation')" @click="createQuote(p)" />
                   <VListItem prepend-icon="tabler-file-text" :title="t('acc.statement')" @click="statement(p)" />
                   <VListItem prepend-icon="tabler-pencil" :title="t('acc.view_edit')" @click="openEdit(p)" />
+                  <VListItem v-if="isCustomer && !p.verified_at" prepend-icon="tabler-rosette-discount-check" :title="t('acc.verify')" @click="verify(p)" />
                 </VList>
               </VMenu>
             </td>
@@ -158,6 +163,16 @@ const sourceLabel = (p: Party) => p.source === 'crm' ? 'CRM' : (p.source === 'su
           </div>
           <div v-if="isCustomer && priceLists?.length" class="mb-3">
             <VSelect v-model="form.price_list_id" :items="priceLists.map(p => ({ title: p.name, value: p.id }))" :label="t('acc.price_list_optional')" variant="outlined" density="comfortable" clearable style="max-width: 340px" />
+          </div>
+          <div v-if="isCustomer" class="mb-3">
+            <VTextField v-model="form.channel" :label="t('acc.sales_channel')" variant="outlined" density="comfortable" style="max-width: 240px" class="mb-2" />
+            <div class="text-caption text-medium-emphasis mb-1">{{ t('acc.delivery_points') }}</div>
+            <div v-for="(d, k) in form.delivery_points" :key="k" class="d-flex gap-2 mb-1">
+              <VTextField v-model="d.name" :label="t('acc.name')" density="compact" variant="outlined" hide-details style="max-width: 200px" />
+              <VTextField v-model="d.address" :label="t('acc.delivery_address')" density="compact" variant="outlined" hide-details />
+              <VBtn icon="tabler-x" size="x-small" variant="text" @click="form.delivery_points.splice(k, 1)" />
+            </div>
+            <VBtn size="x-small" variant="text" prepend-icon="tabler-plus" @click="form.delivery_points.push({ name: '', address: '' })">{{ t('acc.delivery_points') }}</VBtn>
           </div>
           <div class="d-flex gap-3 mb-3">
             <VTextField v-model="form.contact_name" :label="t('acc.contact_person')" variant="outlined" density="comfortable" />

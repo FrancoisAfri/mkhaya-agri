@@ -43,7 +43,7 @@ class FarmProfitability
             ->get();
 
         $estimated = $this->estimatedCosts($farm, $from, $to);
-        $budget = FarmBudgetLine::query()->where('farm_id', $farm->id)
+        $budget = FarmBudgetLine::query()->where('farm_id', $farm->id)->where('status', 'approved')
             ->whereDate('period_start', '<=', $to)->whereDate('period_end', '>=', $from)->get();
 
         $labels = $this->enterpriseLabels($farm);
@@ -120,7 +120,7 @@ class FarmProfitability
             $machine += $m;
         }
         // Machine time logged without an activity is the farm's.
-        $loose = MachineUsageLog::query()->where('farm_id', $farm->id)->whereNull('activity_id')
+        $loose = MachineUsageLog::query()->where('farm_id', $farm->id)->where(fn ($q) => $q->whereNull('source_type')->orWhere('source_type', '!=', 'agri_activity'))
             ->whereBetween('used_on', [$from, $to])->with('machine')->get()
             ->sum(fn ($u) => $u->machine && $u->machine->hourly_rate ? (float) $u->hours * (float) $u->machine->hourly_rate : 0);
         if ($loose > 0) {
@@ -128,7 +128,16 @@ class FarmProfitability
             $machine += $loose;
         }
 
-        return ['labour' => round($labour, 2), 'machine' => round($machine, 2), 'total' => round($labour + $machine, 2), 'by_enterprise' => $by];
+        // Approved time and piecework (Phase 2 labour), costed at approval. Not in the ledger:
+        // payroll's journals carry no farm dimensions, so this is the only place it is counted.
+        $approved = app(LabourCosting::class)->forFarm($farm, \Illuminate\Support\Carbon::parse($from), \Illuminate\Support\Carbon::parse($to));
+        foreach ($approved['by_enterprise'] as $key => $amount) {
+            $by[$key] = ($by[$key] ?? 0) + $amount;
+        }
+        $approvedLabour = (float) $approved['totals']['total'];
+
+        return ['labour' => round($labour, 2), 'approved_labour' => round($approvedLabour, 2), 'machine' => round($machine, 2),
+            'total' => round($labour + $approvedLabour + $machine, 2), 'by_enterprise' => $by];
     }
 
     /** @return array<string, array{name: string, kind: string, hectares: ?float, head: ?int, budget: ?float}> */

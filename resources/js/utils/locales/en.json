@@ -19726,7 +19726,8 @@
     "filters": {
       "search": "Search registration, make, model…",
       "status": "Status",
-      "fuel_type": "Fuel Type"
+      "fuel_type": "Fuel Type",
+      "asset_class": "Asset class"
     },
     "table": {
       "registration": "Registration",
@@ -19737,7 +19738,8 @@
       "status": "Status",
       "actions": "Actions",
       "view": "View",
-      "no_driver": "—"
+      "no_driver": "—",
+      "hours": "Hours"
     },
     "statuses": {
       "available": "Available",
@@ -19773,13 +19775,19 @@
       "cancel": "Cancel",
       "save": "Save",
       "add": "Add Vehicle",
-      "error_alert": "Please fix the errors highlighted in the form above."
+      "error_alert": "Please fix the errors highlighted in the form above.",
+      "name": "Name",
+      "serial_number": "Serial number"
     },
     "delete_dialog": {
       "title": "Delete Vehicle",
       "message": "Remove {registration} from the fleet?",
       "cancel": "Cancel",
       "confirm": "Delete"
+    },
+    "asset_class": {
+      "vehicle": "Vehicle",
+      "equipment": "Equipment"
     }
   },
   "fleet_vehicles_qr": {

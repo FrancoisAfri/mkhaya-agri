@@ -73,7 +73,11 @@ class AgriLedger
         string $kind = 'produce', string $settledBy = 'bank', ?string $idempotencyKey = null): FinJournal
     {
         $debit = $settledBy === 'receivable' ? config('finance.ar_control') : config('finance.default_bank');
-        $account = $kind === 'livestock' ? config('agri.accounts.livestock_sales') : config('agri.accounts.produce_sales');
+        $account = match ($kind) {
+            'livestock' => config('agri.accounts.livestock_sales'),
+            'grant', 'subsidy' => config('agri.accounts.grants'),
+            default => config('agri.accounts.produce_sales'),
+        };
 
         return $this->ledger->post(new FinancialEvent(
             sourceModule: 'agri', eventType: 'agri.sale',

@@ -55,7 +55,9 @@ class TaxBusinessesTest extends TaxTestCase
     public function test_a_business_from_another_company_is_refused(): void
     {
         $rival = \App\Modules\Tenancy\Models\Company::create(['name' => 'Rival']);
-        $theirs = FinEntity::withoutGlobalScopes()->create(['company_id' => $rival->id, 'name' => 'Rival Ltd', 'status' => 'active']);
+        // Theirs is written inside their organisation: the database refuses it from ours.
+        $theirs = app(\App\Modules\Tenancy\Services\TenantContext::class)->run((int) $rival->id,
+            fn () => FinEntity::withoutGlobalScopes()->create(['company_id' => $rival->id, 'name' => 'Rival Ltd', 'status' => 'active']));
 
         $this->actingAs($this->reviewer)->post(route('tax.registrations.store'), [
             'entity_id' => $theirs->id, 'tax_type_id' => $this->vat()->id, 'reference' => '4123456789',

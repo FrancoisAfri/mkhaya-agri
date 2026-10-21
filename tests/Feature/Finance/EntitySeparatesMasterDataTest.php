@@ -252,10 +252,11 @@ class EntitySeparatesMasterDataTest extends TestCase
     {
         $otherCompany = $this->anotherTenant();
 
-        $theirs = FinParty::withoutGlobalScopes()->create([
+        // Theirs is written inside their organisation: the database refuses it from ours.
+        $theirs = app(\App\Modules\Tenancy\Services\TenantContext::class)->run((int) $otherCompany, fn () => FinParty::withoutGlobalScopes()->create([
             'company_id' => (int) $otherCompany, 'kind' => 'customer',
             'code' => 'THEIRS-'.Str::random(5), 'name' => 'Another tenant\'s customer',
-        ]);
+        ]));
 
         foreach ([$this->mk, $this->move] as $entity) {
             $this->as($entity, function () use ($theirs) {

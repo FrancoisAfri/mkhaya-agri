@@ -44,6 +44,20 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        // Every date-time bound to a query is stored and compared in the application's zone (UTC),
+        // whatever zone it was held in — see UtcPostgresConnection.
+        // Mkhaya Agri: stock received into a farm store (a purchase order's delivery) carries the farm's
+        // dimensions, and a chemical is only received where its storage class is allowed.
+        $this->app->bind('stock.warehouse_dimensions', fn () => fn ($warehouse) => \App\Modules\Agri\Services\FarmInventory::dimensionsFor($warehouse));
+        $this->app->bind('stock.receipt_guard', fn () => function ($item, $warehouse) {
+            if (\App\Modules\Agri\Services\FarmInventory::dimensionsFor($warehouse) !== []) {
+                \App\Modules\Agri\Services\FarmInventory::ensureUnit($item);
+                app(\App\Modules\Agri\Services\ChemicalControls::class)->assertStorable($item, (int) $warehouse->id);
+            }
+        });
+
+        \Illuminate\Database\Connection::resolverFor('pgsql', fn ($pdo, $database, $prefix, $config) => new \App\Support\Database\UtcPostgresConnection($pdo, $database, $prefix, $config));
+
         // Memoises who is confined to which factories for the request; a global scope on a dozen
         // models reads it, so a fresh instance each time would be a query per query.
         $this->app->singleton(\App\Modules\Operations\Manufacturing\Services\FactoryAccess::class);
@@ -304,6 +318,51 @@ class AppServiceProvider extends ServiceProvider
                 }
             });
         }
+        // Farm compliance is SHEQ's legal register: the farm adds evidence only its records can give.
+        // Time and attendance runs on farms as sites: their time zones, who may reach them, and the
+        // field, job and farm records an attendance session points at.
+        \App\Modules\HR\Hr\Attendance\Support\Sites::register(
+            fn (?int $farmId) => \App\Modules\Agri\Support\FarmTime::zone($farmId),
+            fn () => app(\App\Modules\Agri\Services\FarmAccess::class)->farmIdsFor(),
+            ['site' => \App\Modules\Agri\Models\Farm::class, 'field' => \App\Modules\Agri\Models\FarmField::class, 'work_order' => \App\Modules\Agri\Models\FarmWorkOrder::class],
+            fn ($farm) => app(\App\Modules\Agri\Services\FarmRegistry::class)->assertOperational($farm),
+        );
+        \App\Modules\HR\Hr\Attendance\Support\Sites::hooks([
+            'can_write' => fn ($user, int $farmId) => app(\App\Modules\Agri\Services\FarmAccess::class)->canWrite($user, $farmId),
+            'options' => fn (bool $operationalOnly) => \App\Modules\Agri\Models\Farm::query()->when($operationalOnly, fn ($q) => $q->operational())->orderBy('name')
+                ->with(['fields' => fn ($q) => $q->where('status', '!=', 'archived')->orderBy('code')])->get()
+                ->map(fn ($f) => ['id' => $f->uuid, 'code' => $f->code, 'name' => $f->name, 'status' => $f->status, 'warehouse_id' => $f->warehouse_id,
+                    'fields' => $f->fields->map(fn ($x) => ['id' => $x->uuid, 'code' => $x->code, 'name' => $x->name, 'hectares' => $x->hectares()])->values()])->values()->all(),
+        ]);
+        \App\Modules\Agri\Services\FarmCompliance::registerEvidence();
+        // Insights: the farm's reports can be sent on a schedule from Farm Operations › Insights.
+        foreach (\App\Modules\Agri\Http\Controllers\AgriReportController::REPORTS as $key => [$title, $description, $ability]) {
+            \App\Shared\Insights\ReportCatalog::register("agri:{$key}", $title, $description, 'agri', [\App\Modules\Agri\Support\RoleCatalog::VIEW_REPORTS, $ability],
+                fn ($as, string $from, string $to, array $params) => app(\App\Modules\Agri\Http\Controllers\AgriReportController::class)->build($key,
+                    ! empty($params['farm']) ? \App\Modules\Agri\Models\Farm::query()->where('uuid', $params['farm'])->value('id') : null, $from, $to),
+                ['farm' => 'farm']);
+        }
+        // A produce lot in a store follows its stock lot, whichever module moves the stock (a
+        // warehouse pick or shipment, a production run, a recall hold).
+        \App\Modules\Finance\Accounting\Models\FinStockMovement::created(function ($m) {
+            static $ready = null;
+            $lots = array_filter([$m->lot_id, $m->to_lot_id]);
+            if ($lots && ($ready ??= \Illuminate\Support\Facades\Schema::hasColumn('produce_lots', 'stock_lot_id'))) {
+                foreach (\App\Modules\Agri\Models\ProduceLot::withoutGlobalScopes()->whereIn('stock_lot_id', $lots)->get() as $lot) {
+                    app(\App\Modules\Agri\Services\PostHarvest::class)->syncFromStock($lot);
+                }
+            }
+        });
+        // Farm jobs can be gated by a SHEQ inspection (spraying, work at height, …).
+        \App\Modules\Operations\Sheq\Services\InspectionGates::offer(\App\Modules\Operations\Sheq\Services\InspectionGates::SUBJECT_WORK_ORDER, 'Farm jobs',
+            collect(\App\Modules\Agri\Models\FarmWorkOrder::CATEGORIES)->mapWithKeys(fn ($c) => [$c => ucfirst(str_replace('_', ' ', $c))])->all());
+        // Farm sales are Accounting quotes, orders and invoices: a person raising one in Accounting
+        // charges it to a farm they can reach, and its income lands on that farm's dimensions.
+        \App\Modules\Finance\Accounting\Support\ChargeTo::register('agri_farm',
+            fn () => \App\Modules\Agri\Models\Farm::query()->operational()->orderBy('name')->get(['uuid', 'name'])
+                ->map(fn ($f) => ['value' => "agri_farm:{$f->uuid}", 'title' => "Farm: {$f->name}"])->all(),
+            fn (string $uuid) => \Illuminate\Support\Str::isUuid($uuid) && ($farm = \App\Modules\Agri\Models\Farm::query()->where('uuid', $uuid)->first())
+                ? \App\Modules\Agri\Services\AgriLedger::dimensions($farm, null, null, 'produce') : null);
         Gate::policy(\App\Modules\Operations\ProjectManagement\Models\Task::class, \App\Modules\Operations\ProjectManagement\Policies\TaskPolicy::class);
         Gate::policy(\App\Modules\Operations\ProjectManagement\Models\EvidenceEvent::class, \App\Modules\Operations\ProjectManagement\Policies\EvidencePolicy::class);
         Gate::policy(\App\Modules\Operations\DocumentManagement\Models\Document::class, \App\Modules\Operations\DocumentManagement\Policies\DocumentPolicy::class);

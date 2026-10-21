@@ -52,6 +52,8 @@ class AttendanceClockingService
 
             $record = $this->resolveOrCreateRecord($employeeId, $now, $clocking);
             $clocking->update(['attendance_record_id' => $record->id]);
+            // One engine: the clocking opens a timesheet session, measured and approved like everyone's.
+            app(\App\Modules\HR\Hr\Attendance\Services\Attendance::class)->adopt($clocking->id);
 
             if (isset($meta['latitude'], $meta['longitude'])) {
                 $this->saveGpsLog($employeeId, $clocking->id, $meta);
@@ -101,6 +103,7 @@ class AttendanceClockingService
             if ($lastClockIn?->attendance_record_id) {
                 $this->updateRecordHours($lastClockIn->attendance_record_id, $lastClockIn->clocked_at, $now);
             }
+            app(\App\Modules\HR\Hr\Attendance\Services\Attendance::class)->adopt($clocking->id);
 
             if (isset($meta['latitude'], $meta['longitude'])) {
                 $this->saveGpsLog($employeeId, $clocking->id, $meta);

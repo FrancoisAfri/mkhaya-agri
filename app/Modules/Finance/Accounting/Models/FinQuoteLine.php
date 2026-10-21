@@ -14,7 +14,7 @@ class FinQuoteLine extends Model
 
     protected $fillable = [
         'entity_id', 'quote_id', 'account_id', 'item_id', 'description', 'note', 'quantity', 'unit_price',
-        'line_total', 'tax_code', 'tax_rate', 'tax_amount',
+        'line_total', 'tax_code', 'tax_rate', 'tax_amount', 'unit', 'grade', 'price_basis',
     ];
 
     protected $casts = [

@@ -243,7 +243,8 @@ class MaintenanceTest extends ManufacturingTestCase
 
     public function test_the_maintenance_screens_and_who_may_do_what(): void
     {
-        $cards = array_column($this->actingAs($this->technician)->get('/manufacturing/maintenance')->assertOk()->viewData('page')['props']['cards'], 'path');
+        // The maintenance cards now sit in the production hub; only theirs are compared.
+        $cards = array_values(array_filter(array_column($this->actingAs($this->technician)->get('/manufacturing/production')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/maintenance/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/maintenance/machines', '/manufacturing/maintenance/preventive', '/manufacturing/maintenance/oee'], $cards);
 
         $list = $this->actingAs($this->technician)->get(route('manufacturing.maintenance.machines.index'))->assertOk()->viewData('page');

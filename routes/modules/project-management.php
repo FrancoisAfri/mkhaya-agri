@@ -49,7 +49,7 @@ Route::middleware(['module.active:project_management', 'module.tier:project_mana
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
         // ── Hub landings — role-filtered feature cards ─────────────────────────
-        foreach (['evidence', 'insights', 'invoicing', 'reporting', 'contractors', 'setup'] as $hub) {
+        foreach (['workspace', 'insights', 'invoicing'] as $hub) {
             Route::get("/{$hub}", [ModuleHubController::class, 'show'])
                 ->defaults('module', 'project_management')
                 ->defaults('group', $hub)

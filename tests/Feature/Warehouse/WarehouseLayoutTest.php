@@ -422,7 +422,7 @@ class WarehouseLayoutTest extends WarehouseTestCase
                 ->where('labels.0.qr', fn ($svg) => str_contains($svg, '<svg')));
         $this->get(route('warehouse.layout.history', ['warehouse' => $wh->uuid]))->assertOk()
             ->assertInertia(fn ($p) => $p->component('Modules/Warehouse/Layout/History'));
-        $this->get(route('warehouse.hub.layout'))->assertOk();
+        $this->get(route('warehouse.hub.insights'))->assertOk();
     }
 
     public function test_every_page_component_exists(): void

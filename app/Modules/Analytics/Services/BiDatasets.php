@@ -139,6 +139,44 @@ class BiDatasets
                 ],
             ],
 
+            'agri' => [
+                'module' => 'agri',
+                /*
+                 * What the farm grows and harvests, and where produce went — no people: workers,
+                 * timesheets and pay stay inside the platform.
+                 */
+                'datasets' => [
+                    'farms' => [
+                        'table' => 'mkhaya_farms', 'source' => 'farms',
+                        'columns' => ['code' => 'STRING', 'name' => 'STRING', 'farm_type' => 'STRING', 'status' => 'STRING',
+                            'area' => 'DECIMAL(14,4)', 'area_unit' => 'STRING', 'latitude' => 'DECIMAL(10,7)', 'longitude' => 'DECIMAL(10,7)'],
+                    ],
+                    'crop_plans' => [
+                        'table' => 'mkhaya_crop_plans', 'source' => 'crop_plans',
+                        'columns' => ['code' => 'STRING', 'status' => 'STRING', 'current_stage' => 'STRING', 'production_method' => 'STRING',
+                            'planned_area' => 'DECIMAL(14,4)', 'area_unit' => 'STRING', 'planned_planting_on' => 'DATE', 'planted_on' => 'DATE',
+                            'planned_harvest_on' => 'DATE', 'harvest_completed_on' => 'DATE', 'expected_yield' => 'DECIMAL(14,3)', 'yield_unit' => 'STRING',
+                            'budget_amount' => 'DECIMAL(18,2)', 'expected_price' => 'DECIMAL(18,4)'],
+                    ],
+                    'harvests' => [
+                        'table' => 'mkhaya_harvests', 'source' => 'harvest_records',
+                        'columns' => ['lot_code' => 'STRING', 'harvested_on' => 'DATE', 'quantity' => 'DECIMAL(14,3)', 'unit' => 'STRING', 'grade' => 'STRING',
+                            'moisture_pct' => 'DECIMAL(6,2)', 'area_harvested' => 'DECIMAL(14,4)', 'destination' => 'STRING', 'unit_value' => 'DECIMAL(18,4)',
+                            'rejected_quantity' => 'DECIMAL(14,3)', 'spoiled_quantity' => 'DECIMAL(14,3)', 'inspection_outcome' => 'STRING'],
+                    ],
+                    'field_activities' => [
+                        'table' => 'mkhaya_field_activities', 'source' => 'field_activities',
+                        'columns' => ['activity_type' => 'STRING', 'status' => 'STRING', 'planned_on' => 'DATE', 'completed_at' => 'DATE',
+                            'area_covered' => 'DECIMAL(14,4)', 'labour_hours' => 'DECIMAL(10,2)', 'labour_cost' => 'DECIMAL(18,2)', 'machine_hours' => 'DECIMAL(10,2)'],
+                    ],
+                    'produce_lots' => [
+                        'table' => 'mkhaya_produce_lots', 'source' => 'produce_lots',
+                        'columns' => ['code' => 'STRING', 'kind' => 'STRING', 'product' => 'STRING', 'grade' => 'STRING', 'quantity' => 'DECIMAL(14,3)',
+                            'remaining' => 'DECIMAL(14,3)', 'unit' => 'STRING', 'status' => 'STRING', 'produced_on' => 'DATE', 'best_before' => 'DATE', 'unit_cost' => 'DECIMAL(18,4)'],
+                    ],
+                ],
+            ],
+
             'sheq' => [
                 'module' => 'sheq',
                 'datasets' => [

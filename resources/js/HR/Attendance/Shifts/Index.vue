@@ -70,7 +70,7 @@ function doDelete() { useForm({}).delete(`/attendance/shifts/${deleteId.value}`,
               <h4 class="text-h4 mb-1">{{ t('attendance_shift.title') }}</h4>
               <p class="mb-0 text-medium-emphasis">{{ t('attendance_shift.subtitle') }}</p>
             </div>
-            <VBtn color="primary" prepend-icon="fas fa-plus" @click="openCreate"><i class="fa-solid fa-plus"></i> {{ t('attendance_shift.add_shift') }}</VBtn>
+            <VBtn color="primary" prepend-icon="mdi-plus" @click="openCreate">{{ t('attendance_shift.add_shift') }}</VBtn>
           </VCardText>
         </VCard>
       </VCol>

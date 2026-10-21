@@ -16,6 +16,7 @@ class ProcurementRequisitionItem extends Model
     protected $fillable = [
         'uuid', 'procurement_requisition_id', 'name', 'description',
         'budget_category_id', 'quantity', 'unit_price', 'line_total',
+        'stock_item_id',
     ];
 
     protected $casts = ['quantity' => 'decimal:2', 'unit_price' => 'decimal:2', 'line_total' => 'decimal:2'];

@@ -127,9 +127,10 @@ class EntitySwitcherTest extends TestCase
     {
         $otherCompany = $this->anotherTenant();
 
-        $theirs = FinEntity::withoutGlobalScopes()->create([
+        // Theirs is written inside their organisation: the database refuses it from ours.
+        $theirs = app(\App\Modules\Tenancy\Services\TenantContext::class)->run((int) $otherCompany, fn () => FinEntity::withoutGlobalScopes()->create([
             'company_id' => $otherCompany, 'name' => 'Somebody Else '.Str::random(4), 'status' => 'active',
-        ]);
+        ]));
 
         $before = app(CurrentEntity::class)->id();
 

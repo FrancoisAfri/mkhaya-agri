@@ -268,7 +268,8 @@ class LossPreventionTest extends ManufacturingTestCase
         $this->actingAs($this->analyst)->post(route('manufacturing.loss.findings.scan'))->assertSessionHas('success');
         $this->actingAs($this->outsider)->get(route('manufacturing.loss.findings.index'))->assertForbidden();
 
-        $cards = array_column($this->actingAs($this->analyst)->get('/manufacturing/loss')->assertOk()->viewData('page')['props']['cards'], 'path');
+        // The loss cards now sit in the production hub; only theirs are compared.
+        $cards = array_values(array_filter(array_column($this->actingAs($this->analyst)->get('/manufacturing/production')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/loss/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/loss/findings', '/manufacturing/loss/rules'], $cards);
 
         $this->artisan('mfg:scan-losses', ['--company' => $this->company->id])->assertSuccessful();

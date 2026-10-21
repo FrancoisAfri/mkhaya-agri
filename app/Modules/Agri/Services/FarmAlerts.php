@@ -7,9 +7,10 @@ use App\Modules\Agri\Models\CropObservation;
 use App\Modules\Agri\Models\CropPlan;
 use App\Modules\Agri\Models\Farm;
 use App\Modules\Agri\Models\FarmAlert;
-use App\Modules\Agri\Models\FarmDocument;
 use App\Modules\Agri\Models\FarmMachine;
 use App\Modules\Agri\Models\FarmTask;
+use App\Modules\Agri\Services\PostHarvest;
+use App\Modules\Agri\Services\ProduceDispatches;
 use App\Modules\Finance\Accounting\Models\FinStockItem;
 use App\Modules\Finance\Accounting\Services\StockLedger;
 use Illuminate\Support\Carbon;
@@ -37,9 +38,14 @@ class FarmAlerts
         $raised = 0;
         $resolved = 0;
 
+        $home = $farms->sortBy('id')->first();
         foreach ($farms as $farm) {
             $seen = [];
-            foreach ($this->conditions($farm, $horizon) as $c) {
+            $conditions = $this->conditions($farm, $horizon);
+            if ($home && $farm->id === $home->id) {
+                array_push($conditions, ...$this->organisationConditions((int) $farm->company_id, $farm));
+            }
+            foreach ($conditions as $c) {
                 $seen[] = $c['dedupe_key'];
                 $raised += $this->upsert($farm, $c) ? 1 : 0;
             }
@@ -95,19 +101,83 @@ class FarmAlerts
             }
         }
 
-        foreach ($f(FarmDocument::query())->where('status', 'active')->whereNotNull('expires_on')->get() as $d) {
-            $state = $d->expiryState();
-            if (in_array($state, ['expired', 'expiring'], true)) {
-                $out[] = $this->c('document_expiry', $state === 'expired' ? 'critical' : 'warning',
-                    ($state === 'expired' ? 'Expired: ' : 'Expiring: ').$d->title,
-                    ucfirst(str_replace('_', ' ', $d->document_type)).' '.($state === 'expired' ? 'expired on ' : 'expires on ').$d->expires_on->toDateString().'.',
-                    '/agri/documents?farm='.$farm->uuid, $d->expires_on->toDateString(), "document_expiry:{$d->id}");
-            }
+        // Farm records (Document Management) that have expired or are about to.
+        foreach (FarmDocuments::expiring([$farm->id], $horizon) as ['document' => $d, 'state' => $state]) {
+            $out[] = $this->c('document_expiry', $state === 'expired' ? 'critical' : 'warning',
+                ($state === 'expired' ? 'Expired: ' : 'Expiring: ').$d->title,
+                ucfirst(str_replace('_', ' ', (string) $d->document_type)).' '.($state === 'expired' ? 'expired on ' : 'expires on ').$d->expiry_date->toDateString().'.',
+                FarmDocuments::url($d), $d->expiry_date->toDateString(), "document_expiry:{$d->id}");
         }
 
         foreach ($f(FarmTask::query())->whereIn('status', FarmTask::PENDING)->whereDate('due_on', '<', $today)->get() as $t) {
             $out[] = $this->c('task_overdue', $t->priority === 'urgent' ? 'critical' : 'warning', "Overdue task: {$t->title}",
                 'Was due '.$t->due_on->toDateString().'.', '/agri/tasks?farm='.$farm->uuid, $t->due_on->toDateString(), "task_overdue:{$t->id}");
+        }
+
+        // Scouting that is due a follow-up, and fields nobody may enter yet after a spray (re-entry interval).
+        foreach ($f(\App\Modules\Agri\Models\CropObservation::query())->where('status', 'open')->where('action_required', true)
+            ->whereNotNull('follow_up_on')->whereDate('follow_up_on', '<=', $today)->get() as $o) {
+            $out[] = $this->c('scouting_follow_up', in_array($o->severity, ['high', 'critical'], true) ? 'critical' : 'warning',
+                'Scouting follow-up due: '.str_replace('_', ' ', $o->kind), mb_strimwidth((string) $o->description, 0, 200),
+                '/agri/crops/scouting?farm='.$farm->uuid, $o->follow_up_on->toDateString(), "scouting_follow_up:{$o->id}");
+        }
+        $sprayed = \App\Modules\Agri\Models\ActivityInput::withoutGlobalScope('farm_access')->where('activity_inputs.farm_id', $farm->id)
+            ->whereNotNull('activity_inputs.reentry_hours')->whereNull('activity_inputs.reversal_of_id')
+            ->join('field_activities as a', 'a.id', '=', 'activity_inputs.activity_id')->whereNotNull('a.completed_at')
+            ->where('a.completed_at', '>=', now()->subDays(14))->get(['activity_inputs.id', 'activity_inputs.reentry_hours', 'a.completed_at', 'a.field_id', 'a.title']);
+        foreach ($sprayed as $r) {
+            $until = \Illuminate\Support\Carbon::parse($r->completed_at)->addHours((int) $r->reentry_hours);
+            if ($until->isFuture()) {
+                $code = $r->field_id ? \App\Modules\Agri\Models\FarmField::withoutGlobalScopes()->whereKey($r->field_id)->value('code') : 'the field';
+                $out[] = $this->c('reentry', 'warning', "No entry: {$code} until ".$until->format('D H:i'),
+                    "Re-entry interval after {$r->title}. Workers stay out without protective equipment until then.", null,
+                    $until->toDateString(), "reentry:{$r->id}");
+            }
+        }
+
+        // Irrigation problems nobody has resolved, and buyer commitments due or short.
+        foreach ($f(\App\Modules\Agri\Models\IrrigationException::query())->whereNull('resolved_at')->get() as $x) {
+            $out[] = $this->c('irrigation_issue', in_array($x->kind, ['leak', 'no_water', 'fault'], true) ? 'critical' : 'warning',
+                'Irrigation: '.str_replace('_', ' ', $x->kind), mb_strimwidth((string) $x->note, 0, 200), '/agri/crops/irrigation?farm='.$farm->uuid, null, "irrigation_issue:{$x->id}");
+        }
+        foreach ($f(\App\Modules\Agri\Models\HarvestCommitment::query())->whereIn('status', ['open', 'short'])
+            ->whereDate('deliver_on', '<=', $today->copy()->addDays(3))->get() as $c) {
+            $left = round($c->quantity - $c->delivered_quantity, 3);
+            $out[] = $this->c('commitment_due', $c->deliver_on->lt($today) ? 'critical' : 'warning',
+                ($c->deliver_on->lt($today) ? 'Short: ' : 'Due: ')."{$c->buyer} {$left} {$c->unit}",
+                'To deliver by '.$c->deliver_on->toDateString().($c->grade ? ", grade {$c->grade}" : '').'.', '/agri/crops/harvest?farm='.$farm->uuid,
+                $c->deliver_on->toDateString(), "commitment_due:{$c->id}");
+        }
+
+        // Livestock: vaccinations overdue under a programme, and animals or groups in quarantine.
+        // One alert per programme, naming who is overdue — not one per animal, which would bury everything else.
+        foreach (collect(app(LivestockIntelligence::class)->vaccinationsDue($farm, 0))->where('overdue', true)->groupBy('programme') as $programme => $due) {
+            $who = $due->pluck('who');
+            $out[] = $this->c('vaccination_due', 'warning', "Vaccination overdue: {$programme} ({$who->count()})",
+                $who->take(12)->implode(', ').($who->count() > 12 ? ' and '.($who->count() - 12).' more' : '').' — due since '.$due->min('due_on').'.',
+                '/agri/livestock?farm='.$farm->uuid, $due->min('due_on'), 'vaccination_due:'.$farm->id.':'.md5($programme));
+        }
+        foreach ([\App\Modules\Agri\Models\Animal::class, \App\Modules\Agri\Models\LivestockGroup::class] as $cls) {
+            foreach ($f($cls::query())->whereDate('quarantine_until', '>=', $today)->get() as $q) {
+                $who = $q instanceof \App\Modules\Agri\Models\Animal ? $q->tag_number : "group {$q->code}";
+                $out[] = $this->c('quarantine', 'critical', "Quarantine: {$who}", 'No movement off the farm or sale until '.$q->quarantine_until->toDateString().'.',
+                    '/agri/livestock?farm='.$farm->uuid, $q->quarantine_until->toDateString(), 'quarantine:'.class_basename($cls).":{$q->id}");
+            }
+        }
+
+        // Jobs past their planned finish, and problems from the field nobody has resolved yet.
+        foreach ($f(\App\Modules\Agri\Models\FarmWorkOrder::query())->whereIn('status', \App\Modules\Agri\Models\FarmWorkOrder::OPEN)
+            ->where('status', '!=', 'draft')->where('planned_end', '<', now())->get() as $wo) {
+            $out[] = $this->c('work_order_overdue', $wo->priority === 'urgent' ? 'critical' : 'warning', "Overdue job: {$wo->reference} {$wo->title}",
+                'Planned to finish '.$wo->planned_end->format('Y-m-d H:i').'; now '.str_replace('_', ' ', $wo->status).'.',
+                "/agri/work-orders/{$wo->uuid}", $wo->planned_end->toDateString(), "work_order_overdue:{$wo->id}");
+        }
+        foreach ($f(\App\Modules\Agri\Models\WorkOrderLog::query())->where('kind', 'issue')->whereNull('resolved_at')
+            ->whereIn('issue_type', ['incident', 'hazard', 'equipment_failure'])->with('workOrder')->get() as $l) {
+            $out[] = $this->c('field_issue', $l->severity === 'high' ? 'critical' : 'warning',
+                ucfirst(str_replace('_', ' ', $l->issue_type)).' reported on '.($l->workOrder?->reference ?? 'a job'),
+                mb_strimwidth($l->note ?: 'Reported from the field.', 0, 200), $l->workOrder ? "/agri/work-orders/{$l->workOrder->uuid}" : null,
+                $l->logged_at?->toDateString(), "field_issue:{$l->id}");
         }
 
         foreach ($f(AnimalHealthRecord::query())->whereDate('withdrawal_until', '>', $today)->with(['animal', 'group'])->get() as $h) {
@@ -152,6 +222,137 @@ class FarmAlerts
                         '/agri/finance?farm='.$farm->uuid, null, "budget_overrun:{$p->id}");
                 }
             }
+        }
+
+        // Phase 2 §12.1: compliance obligations overdue, without evidence, or due soon.
+        foreach (app(FarmCompliance::class)->conditions($farm) as $c) {
+            $out[] = $c;
+        }
+        // Phase 2 §11.2: weather that meets an approved rule and something planned; provider warnings.
+        foreach (app(WeatherIntelligence::class)->conditions($farm) as $c) {
+            $out[] = $c;
+        }
+        // Every other part of the farm: machines, cold stores, produce, recalls, deliveries, the roster and time.
+        foreach ([fn () => $this->machines($farm, $f, $today, $horizon), fn () => $this->produce($farm, $f, $today), fn () => $this->people($farm, $f, $today)] as $area) {
+            try {
+                array_push($out, ...$area());
+            } catch (\Throwable $e) {
+                report($e);   // one area failing never stops the others being checked
+            }
+        }
+
+        return $out;
+    }
+
+    /** Machines stopped by a fault, open serious faults, and warranties about to end. */
+    private function machines(Farm $farm, callable $f, Carbon $today, int $horizon): array
+    {
+        $out = [];
+        $code = fn (?int $id) => FarmMachine::withoutGlobalScopes()->whereKey($id)->first(['fleet_number', 'name']);
+        foreach ($f(\App\Modules\Agri\Models\MachineFault::query())->where('status', '!=', 'resolved')->whereIn('severity', ['major', 'critical'])->get() as $x) {
+            $m = $code($x->machine_id);
+            $out[] = $this->c('machine_fault', $x->stops_machine ? 'critical' : 'warning', ($x->stops_machine ? 'Machine stopped: ' : 'Machine fault: ')."{$m?->code} {$m?->name}",
+                $x->description, '/agri/machinery/fleet/maintenance?farm='.$farm->uuid, null, "machine_fault:{$x->id}");
+        }
+        foreach ($f(FarmMachine::query())->where('status', '!=', FarmMachine::DISPOSED)->whereNotNull('warranty_until')
+            ->whereBetween('warranty_until', [$today->toDateString(), $today->copy()->addDays($horizon)->toDateString()])->get() as $m) {
+            $out[] = $this->c('warranty', 'info', "Warranty ends {$m->warranty_until->toDateString()}: {$m->code} {$m->name}",
+                'Claim anything still under warranty before then.', '/agri/machinery?farm='.$farm->uuid, $m->warranty_until->toDateString(), "warranty:{$m->id}");
+        }
+
+        return $out;
+    }
+
+    /** Cold stores out of range with nothing done, produce held back, recalls still open, and deliveries due. */
+    private function produce(Farm $farm, callable $f, Carbon $today): array
+    {
+        $out = [];
+        foreach ($f(\App\Modules\Agri\Models\StorageReading::query())->where('out_of_range', true)->whereNull('corrective_action')
+            ->where('recorded_at', '>=', $today->copy()->subDays(14))->get() as $r) {
+            $store = \App\Modules\Agri\Models\FarmStore::withoutGlobalScopes()->whereKey($r->store_id)->value('name');
+            $out[] = $this->c('cold_store', 'critical', "Out of range: {$store}", "{$r->deviation} at ".$r->recorded_at?->format('Y-m-d H:i').'. Record what was done about it.',
+                '/agri/packhouse/storage?farm='.$farm->uuid, null, "cold_store:{$r->id}");
+        }
+        $held = $f(\App\Modules\Agri\Models\ProduceLot::query())->where('status', 'quarantined')->where('remaining', '>', 0)->get();
+        if ($held->isNotEmpty()) {
+            $out[] = $this->c('quarantine', 'warning', $held->count().' produce lot(s) held in quarantine', $held->pluck('code')->take(8)->implode(', ').' — release, rework or write off.',
+                '/agri/packhouse/lots?farm='.$farm->uuid, null, "quarantine:{$farm->id}");
+        }
+        foreach (app(PostHarvest::class)->recallsFor($farm)->where('status', \App\Modules\Operations\Manufacturing\Models\Recall::OPEN)->get() as $r) {
+            $out[] = $this->c('recall', 'critical', "Recall open: {$r->number}", $r->title.' — '.$r->reason, "/manufacturing/quality/recalls/{$r->uuid}", null, "recall:{$r->id}");
+        }
+        foreach (ProduceDispatches::ordersFor($farm)->whereIn('status', ['open', 'part_delivered'])->whereNotNull('deliver_on')
+            ->whereDate('deliver_on', '<=', $today->copy()->addDays(2))->with('party:id,name')->get() as $o) {
+            $late = $o->deliver_on->lt($today);
+            $out[] = $this->c('delivery_due', $late ? 'warning' : 'info', ($late ? 'Delivery overdue: ' : 'Delivery due: ')."{$o->number} for {$o->party?->name}",
+                'Due '.$o->deliver_on->toDateString().'. Pick it from the packhouse dispatch screen.', '/agri/packhouse/dispatch?farm='.$farm->uuid, $o->deliver_on->toDateString(), "delivery_due:{$o->id}");
+        }
+
+        return $out;
+    }
+
+    /** The roster in the coming week, and time and piecework waiting for a decision. */
+    private function people(Farm $farm, callable $f, Carbon $today): array
+    {
+        $out = [];
+        $week = [$today->copy()->startOfDay(), $today->copy()->addDays(7)->endOfDay()];
+        foreach ($f(\App\Modules\HR\Hr\Attendance\Models\RosteredShift::query())->where('status', '!=', 'cancelled')->whereBetween('starts_at', $week)
+            ->withCount('activeAssignments')->get() as $s) {
+            if ($s->min_staff && $s->active_assignments_count < $s->min_staff) {
+                $out[] = $this->c('roster_gap', 'warning', "Short-staffed: {$s->title} ".$s->starts_at->format('D j M H:i'),
+                    "{$s->active_assignments_count} of {$s->min_staff} people assigned.", '/attendance/roster?farm='.$farm->uuid, $s->starts_at->toDateString(), "roster_gap:{$s->id}");
+            }
+        }
+        $drafts = $f(\App\Modules\HR\Hr\Attendance\Models\RosteredShift::query())->where('status', 'draft')->whereBetween('starts_at', [$week[0], $today->copy()->addDays(2)->endOfDay()])->count();
+        if ($drafts) {
+            $out[] = $this->c('roster_draft', 'warning', "{$drafts} shift(s) in the next two days are not published", 'Nobody has been told about them yet.',
+                '/attendance/roster?farm='.$farm->uuid, null, "roster_draft:{$farm->id}");
+        }
+        $count = fn (string $cls, array $where, string $dateCol) => $f($cls::query())->where($where)->whereDate($dateCol, '<', $today->copy()->subDays(2))->count();
+        $waiting = [
+            ['timesheets', $count(\App\Modules\HR\Hr\Attendance\Models\Timesheet::class, ['status' => 'complete'], 'work_date'), 'timesheet(s) waiting for approval', '/attendance/timesheets'],
+            ['piecework', $count(\App\Modules\HR\Hr\Attendance\Models\PieceworkEntry::class, ['status' => 'submitted'], 'work_date'), 'piecework entr(ies) waiting for approval', '/attendance/piecework'],
+            ['corrections', $f(\App\Modules\HR\Hr\Attendance\Models\Correction::query())->where('status', 'requested')->count(), 'clock correction(s) waiting for review', '/attendance/timesheets'],
+            ['shift_swap', $f(\App\Modules\HR\Hr\Attendance\Models\ShiftSwap::query())->where('status', 'requested')->count(), 'shift swap(s) waiting for a decision', '/attendance/roster'],
+        ];
+        foreach ($waiting as [$kind, $n, $what, $path]) {
+            if ($n) {
+                $out[] = $this->c($kind, 'warning', "{$n} {$what}", 'Payroll and labour costs wait on them.', "{$path}?farm={$farm->uuid}", null, "{$kind}:{$farm->id}");
+            }
+        }
+
+        return $out;
+    }
+
+    /**
+     * What concerns the whole organisation rather than one farm — cash running short, a payroll
+     * handoff that does not match, messages from devices and services that failed. Raised on the
+     * organisation's first farm, so the owner and finance see them with the rest.
+     */
+    public function organisationConditions(int $companyId, Farm $home): array
+    {
+        $out = [];
+        try {
+            $cash = app(FarmCashFlow::class)->forecast($companyId, 13);
+            if ($cash['first_shortage'] ?? null) {
+                $out[] = $this->c('cash', 'critical', 'Cash runs short in the week of '.$cash['first_shortage'],
+                    'The 13-week forecast goes below zero (lowest R'.number_format((float) ($cash['lowest'] ?? 0), 0, '.', ' ').').', '/agri/finance/intelligence/cashflow', null, "cash:{$companyId}");
+            }
+        } catch (\Throwable $e) {
+            report($e);
+        }
+        $mismatch = \App\Modules\HR\Hr\Attendance\Models\PayrollHandoffLine::withoutGlobalScopes()->where('company_id', $companyId)->where('status', 'mismatch')->count();
+        $unsent = \App\Modules\HR\Hr\Attendance\Models\PayrollHandoff::withoutGlobalScopes()->where('company_id', $companyId)->where('status', 'prepared')
+            ->where('created_at', '<', now()->subDays(3))->count();
+        if ($mismatch || $unsent) {
+            $out[] = $this->c('payroll', $mismatch ? 'critical' : 'warning', $mismatch ? "{$mismatch} payroll handoff line(s) do not match what payroll paid" : "{$unsent} payroll handoff(s) prepared but not sent",
+                'Approved time and piecework are not yet settled with payroll.', '/attendance/payroll-handoff', null, "payroll:{$companyId}");
+        }
+        $failed = \App\Modules\Agri\Models\IntegrationEvent::withoutGlobalScopes()->where('company_id', $companyId)->whereIn('status', ['failed', 'dead'])->get(['status', 'integration']);
+        if ($failed->isNotEmpty()) {
+            $dead = $failed->where('status', 'dead')->count();
+            $out[] = $this->c('integration', $dead ? 'critical' : 'warning', $failed->count().' integration message(s) failed',
+                $failed->pluck('integration')->unique()->implode(', ').($dead ? " — {$dead} gave up after retries." : ' — they are being retried.'), '/agri/integrations', null, "integration:{$companyId}");
         }
 
         return $out;

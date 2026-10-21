@@ -9,6 +9,11 @@
     <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}">
     <link rel="apple-touch-icon" href="{{ asset('favicon.png') }}">
+    @if (request()->is('agri/*'))
+    {{-- Mkhaya Agri "My Work" installs as a phone app and works offline (routes/modules/agri-pwa.php). --}}
+    <link rel="manifest" href="/agri/manifest.webmanifest">
+    <meta name="theme-color" content="#16a34a">
+    @endif
 
     <title inertia>{{ config('app.name', 'MKHAYA AGRI') }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

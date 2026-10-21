@@ -11,7 +11,7 @@ class FinDeliveryNoteLine extends Model
 
     protected $table = 'fin_delivery_note_lines';
 
-    protected $fillable = ['entity_id', 'delivery_note_id', 'order_line_id', 'description', 'quantity'];
+    protected $fillable = ['entity_id', 'delivery_note_id', 'order_line_id', 'description', 'quantity', 'qty_accepted', 'qty_rejected'];
 
-    protected $casts = ['quantity' => 'decimal:4'];
+    protected $casts = ['quantity' => 'decimal:4', 'qty_accepted' => 'decimal:4', 'qty_rejected' => 'decimal:4'];
 }

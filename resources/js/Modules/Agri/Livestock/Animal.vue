@@ -10,8 +10,10 @@ import { exitFields, healthFields, weightFields, type LivestockOptions } from '.
 
 const props = defineProps<{
   animal: any; health: any[]; events: any[]; weights: any[]; offspring: any[]
+  intel: { sale_blocks: string[]; growth: any; cost: any; ownership: string; owner_name: string | null; source: string | null; birth_date_estimated: boolean
+    quarantine_until: string | null; exit_cause: string | null; pregnancy: null | { checked: string; expected_on: string; sire: string | null } }
   options: LivestockOptions
-  can: { manage: boolean; health: boolean }
+  can: { manage: boolean; health: boolean; view_health?: boolean; finance?: boolean }
 }>()
 const dialog = ref<null | string>(null)
 const close = (v: boolean) => { if (!v) dialog.value = null }
@@ -35,7 +37,11 @@ const camps = computed(() => props.options.farms.find(f => f.id === props.animal
         <VBtn v-if="active && can.health" color="primary" prepend-icon="tabler-vaccine" @click="dialog = 'health'">Treat</VBtn>
         <RowMenu size="default" :actions="[
           { title: 'Record weight', icon: 'tabler-scale', show: active && (can.manage || can.health), onClick: () => (dialog = 'weight') },
-          { title: 'Breeding / life event', icon: 'tabler-heart', show: active && (can.manage || can.health), onClick: () => (dialog = 'event') },
+          { title: 'Mating / insemination', icon: 'tabler-heart', show: active && animal.sex === 'female' && (can.manage || can.health), onClick: () => (dialog = 'mating') },
+          { title: 'Pregnancy check', icon: 'tabler-stethoscope', show: active && animal.sex === 'female' && (can.manage || can.health), onClick: () => (dialog = 'pregcheck') },
+          { title: 'Birth', icon: 'tabler-baby-carriage', show: active && animal.sex === 'female' && can.manage, onClick: () => (dialog = 'birth') },
+          { title: 'Weaning', icon: 'tabler-milk-off', show: active && (can.manage || can.health), onClick: () => (dialog = 'wean') },
+          { title: 'Other life event', icon: 'tabler-calendar-event', show: active && (can.manage || can.health), onClick: () => (dialog = 'event') },
           { title: 'Move', icon: 'tabler-arrows-move', show: active && can.manage, onClick: () => (dialog = 'move') },
           { title: 'Record exit (sold, died…)', icon: 'tabler-logout', color: 'error', show: active && can.manage, onClick: () => (dialog = 'exit') },
         ]" />
@@ -44,6 +50,12 @@ const camps = computed(() => props.options.farms.find(f => f.id === props.animal
 
     <VAlert v-if="animal.withdrawal_until" type="warning" variant="tonal" class="mb-4" icon="tabler-alert-triangle">
       In a withdrawal period until <strong>{{ animal.withdrawal_until }}</strong> — may not be sold or slaughtered before then.
+    </VAlert>
+    <VAlert v-if="active && intel.sale_blocks.length" type="error" variant="tonal" class="mb-4" icon="tabler-ban">
+      <div class="font-weight-medium">Not for sale or dispatch:</div><div v-for="b in intel.sale_blocks" :key="b">{{ b }}</div>
+    </VAlert>
+    <VAlert v-if="intel.pregnancy" type="info" variant="tonal" class="mb-4" icon="tabler-heart">
+      Pregnant (checked {{ intel.pregnancy.checked }}) — expected around <strong>{{ intel.pregnancy.expected_on }}</strong><template v-if="intel.pregnancy.sire">, sire {{ intel.pregnancy.sire }}</template>.
     </VAlert>
     <VAlert v-if="!active" type="info" variant="tonal" class="mb-4">Left the herd on {{ animal.exited_on }} ({{ animal.status }}){{ animal.exit_reason ? ': ' + animal.exit_reason : '' }}{{ animal.exit_value ? ' · ' + money(animal.exit_value) : '' }}. The record is kept.</VAlert>
 
@@ -57,6 +69,12 @@ const camps = computed(() => props.options.farms.find(f => f.id === props.animal
             <VListItem title="Came from"><template #append>{{ human(animal.acquisition) }} {{ animal.acquired_on ?? '' }}</template></VListItem>
             <VListItem v-if="animal.acquisition_cost" title="Purchase price"><template #append>{{ money(animal.acquisition_cost) }}</template></VListItem>
             <VListItem title="Dam / sire"><template #append>{{ animal.dam ?? '—' }} / {{ animal.sire ?? '—' }}</template></VListItem>
+            <VListItem title="Ownership"><template #append>{{ human(intel.ownership) }}<template v-if="intel.owner_name"> · {{ intel.owner_name }}</template></template></VListItem>
+            <VListItem v-if="intel.source" title="Source"><template #append>{{ intel.source }}</template></VListItem>
+            <VListItem v-if="intel.birth_date_estimated" title="Age"><template #append>estimated</template></VListItem>
+            <VListItem v-if="intel.growth" title="Growth"><template #append>{{ intel.growth.adg_kg }} kg/day ({{ intel.growth.weighings }} weighings)</template></VListItem>
+            <VListItem v-if="intel.cost" title="Cost so far"><template #append>{{ money(intel.cost.total) }}</template></VListItem>
+            <VListItem v-if="intel.exit_cause" title="Cause of death / exit"><template #append>{{ intel.exit_cause }}</template></VListItem>
             <VListItem title="Last weight"><template #append>{{ animal.last_weight_kg ? num(animal.last_weight_kg, 0) + ' kg' : '—' }}</template></VListItem>
           </VList>
         </VCard>
@@ -106,6 +124,23 @@ const camps = computed(() => props.options.farms.find(f => f.id === props.animal
       :values="{ farm_id: animal.farm_id, animal_id: animal.id, weighed_on: today() }" :url="route('agri.livestock.weights.store')" @update:model-value="close" />
     <FormDialog :model-value="dialog === 'exit'" :title="`${animal.tag_number} leaves the herd`" :fields="exitFields(options)" :values="{ exited_on: today() }"
       :url="route('agri.livestock.animals.exit', animal.id)" intro="The animal's record and history are kept; it simply takes no new records." @update:model-value="close" />
+    <FormDialog :model-value="dialog === 'mating'" title="Mating or insemination" :url="route('agri.livestock.animals.breeding', animal.id)" :values="{ type: 'mating', occurred_on: today(), method: 'natural' }" :fields="[
+      { key: 'occurred_on', label: 'Date', type: 'date', required: true },
+      { key: 'method', label: 'Method', type: 'select', items: [{ title: 'Natural', value: 'natural' }, { title: 'Artificial insemination', value: 'ai' }, { title: 'Embryo transfer', value: 'et' }] },
+      { key: 'sire_tag', label: 'Sire tag (or AI straw sire)', cols: 12 },
+    ]" @update:model-value="close" />
+    <FormDialog :model-value="dialog === 'pregcheck'" title="Pregnancy check" :url="route('agri.livestock.animals.breeding', animal.id)" :values="{ type: 'pregnancy_check', occurred_on: today(), outcome: 'pregnant' }" :fields="[
+      { key: 'occurred_on', label: 'Date', type: 'date', required: true },
+      { key: 'outcome', label: 'Result', type: 'select', required: true, items: [{ title: 'Pregnant', value: 'pregnant' }, { title: 'Empty', value: 'empty' }, { title: 'Doubtful', value: 'doubtful' }] },
+      { key: 'expected_on', label: 'Expected birth (blank: from the mating and gestation)', type: 'date', show: (f: any) => f.outcome === 'pregnant' },
+    ]" @update:model-value="close" />
+    <FormDialog :model-value="dialog === 'birth'" :title="`Birth from ${animal.tag_number}`" :url="route('agri.livestock.animals.birth', animal.id)" :values="{ born_on: today() }" :fields="[
+      { key: 'born_on', label: 'Born on', type: 'date', required: true }, { key: 'tag_number', label: 'Tag for the young', required: true },
+      { key: 'sex', label: 'Sex', type: 'select', required: true, items: options.sexes.map(x => ({ title: human(x), value: x })) }, { key: 'name', label: 'Name' },
+    ]" intro="Registered with this dam, and the sire from her last mating." @update:model-value="close" />
+    <FormDialog :model-value="dialog === 'wean'" :title="`Wean ${animal.tag_number}`" :url="route('agri.livestock.animals.wean', animal.id)" :values="{ weaned_on: today() }" :fields="[
+      { key: 'weaned_on', label: 'Weaned on', type: 'date', required: true }, { key: 'weight_kg', label: 'Weaning weight (kg)', type: 'number' },
+    ]" @update:model-value="close" />
     <FormDialog :model-value="dialog === 'event'" title="Breeding or life event" :url="route('agri.livestock.animals.events', animal.id)" :values="{ occurred_on: today() }"
       :fields="[{ key: 'event_type', label: 'Event', type: 'select', required: true, items: options.event_types }, { key: 'occurred_on', label: 'Date', type: 'date', required: true },
         { key: 'outcome', label: 'Outcome / notes', cols: 12 }]" @update:model-value="close" />

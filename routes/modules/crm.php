@@ -38,7 +38,7 @@ Route::middleware(['web', 'auth', 'module.active:crm', 'module.tier:crm'])
         Route::get('/', [CrmDashboardController::class, 'index'])->name('dashboard');
 
         // ── Navigation hubs — role-filtered feature-card landing pages ─────────
-        foreach (['workspace', 'sell', 'engage', 'service', 'insights', 'data-quality', 'configure'] as $hub) {
+        foreach (['workspace', 'sell', 'engage', 'insights'] as $hub) {
             Route::get("/{$hub}", [ModuleHubController::class, 'show'])
                 ->defaults('module', 'crm')
                 ->defaults('group', str_replace('-', '_', $hub))

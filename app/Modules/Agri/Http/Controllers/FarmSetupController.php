@@ -87,8 +87,9 @@ class FarmSetupController extends Controller
             'role' => ['required', Rule::in(FarmMembership::ROLES)],
         ]);
         // Looked up inside the organisation, so somebody else's user id is simply "not found".
-        $member = User::query()->where('company_id', $farm->company_id)->find($data['user_id']);
-        abort_if($member === null, 422, 'That person is not part of this organisation.');
+        $member = User::withoutGlobalScopes()->find($data['user_id']);
+        abort_if($member === null || ! app(\App\Modules\Tenancy\Services\Memberships::class)->isMember($member, (int) $farm->company_id),
+            422, 'That person is not part of this organisation.');
 
         $this->registry->grant($farm, $member, $data['role'], $request->user());
 
@@ -103,6 +104,7 @@ class FarmSetupController extends Controller
         $data = $request->validate([
             'role' => ['sometimes', Rule::in(FarmMembership::ROLES)],
             'status' => ['sometimes', Rule::in([FarmMembership::ACTIVE, FarmMembership::SUSPENDED])],
+            'alert_emails' => ['sometimes', 'boolean'],
         ]);
 
         if (($data['status'] ?? null) === FarmMembership::SUSPENDED) {
@@ -150,6 +152,8 @@ class FarmSetupController extends Controller
             'area_unit' => ['required', Rule::in(Farm::AREA_UNITS)],
             'soil_type' => ['nullable', 'string', 'max:60'],
             'irrigation' => ['nullable', Rule::in(FarmField::IRRIGATION)],
+            'slope_pct' => ['nullable', 'numeric', 'between:0,100'],
+            'water_source' => ['nullable', Rule::in(FarmField::WATER_SOURCES)],
             'latitude' => ['nullable', 'numeric', 'between:-90,90', 'required_with:longitude'],
             'longitude' => ['nullable', 'numeric', 'between:-180,180', 'required_with:latitude'],
             'notes' => ['nullable', 'string', 'max:2000'],

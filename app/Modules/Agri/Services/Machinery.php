@@ -24,11 +24,14 @@ class Machinery
     public function register(Farm $farm, array $data): FarmMachine
     {
         $this->registry->assertOperational($farm);
-        $taken = FarmMachine::withoutGlobalScope('farm_access')->whereRaw('lower(code) = ?', [mb_strtolower(trim($data['code']))])->exists();
+        $taken = FarmMachine::withoutGlobalScope('farm_access')->whereRaw('lower(fleet_number) = ?', [mb_strtolower(trim($data['code']))])->exists();
         if ($taken) {
             throw ValidationException::withMessages(['code' => "Machine code {$data['code']} is already used in this organisation."]);
         }
         $interval = $data['service_interval_hours'] ?? null;
+        if (empty($data['next_service_on']) && ! empty($data['service_interval_days'])) {
+            $data['next_service_on'] = today()->addDays((int) $data['service_interval_days'])->toDateString();
+        }
 
         return FarmMachine::create($data + [
             'company_id' => $farm->company_id, 'farm_id' => $farm->id, 'status' => FarmMachine::ACTIVE,
@@ -84,10 +87,18 @@ class Machinery
                 'provider' => $data['provider'] ?? null, 'cost' => $data['cost'] ?? null, 'recorded_by' => $actor->id,
             ]);
 
-            $updates = ['status' => FarmMachine::ACTIVE];
+            // A service or repair does not by itself return a stopped machine: an open fault is returned to service by approval (§7.3).
+            $updates = in_array($machine->status, [FarmMachine::MAINTENANCE, FarmMachine::OUT_OF_SERVICE], true)
+                && \App\Modules\Agri\Models\MachineFault::withoutGlobalScopes()->where('vehicle_id', $machine->id)->whereIn('status', \App\Modules\Agri\Models\MachineFault::OPEN)->where('stops_machine', true)->exists()
+                ? [] : ['status' => FarmMachine::AVAILABLE];
             if (($data['service_type'] ?? 'service') === 'service') {
                 $updates['next_service_hours'] = $machine->service_interval_hours ? (float) $hoursAt + (float) $machine->service_interval_hours : null;
-                $updates['next_service_on'] = $data['next_service_on'] ?? null;
+                // Time-based schedule: the next one a set number of days on, unless a date is given.
+                $updates['next_service_on'] = $data['next_service_on']
+                    ?? ($machine->service_interval_days ? \Illuminate\Support\Carbon::parse($data['serviced_on'])->addDays($machine->service_interval_days)->toDateString() : null);
+            }
+            if (($data['service_type'] ?? null) === 'inspection' && ! empty($data['inspection_expires_on'])) {
+                $updates['inspection_expires_on'] = $data['inspection_expires_on'];
             }
             if ((float) $hoursAt > (float) $machine->hours_reading) {
                 $updates['hours_reading'] = $hoursAt;

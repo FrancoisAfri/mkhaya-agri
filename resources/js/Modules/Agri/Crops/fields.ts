@@ -31,6 +31,10 @@ export const planFields = (o: CropOptions, withFarm = true): FormField[] => [
   { key: 'expected_yield', label: 'Expected yield per ha', type: 'number', cols: 4 },
   { key: 'yield_unit', label: 'Yield unit', type: 'select', items: o.yield_units, default: 't', cols: 2 },
   { key: 'expected_price', label: 'Expected price per unit', type: 'number', cols: 3 },
+  { key: 'production_method', label: 'Production method', type: 'select', items: ['conventional', 'conservation', 'organic', 'irrigated', 'dryland', 'protected', 'hydroponic'].map(x => ({ title: x[0].toUpperCase() + x.slice(1), value: x })), cols: 4 },
+  { key: 'seed_lot', label: 'Seed lot', cols: 4 }, { key: 'planting_density', label: 'Planting density', type: 'number', cols: 2 },
+  { key: 'density_unit', label: 'Per', cols: 2, hint: 'plants/ha, kg/ha' },
+  { key: 'intercrop', label: 'Intercrop — shares the field with the main crop', type: 'switch', cols: 12 },
   { key: 'budget_amount', label: 'Budget (total)', type: 'number', cols: 3 },
   { key: 'notes', label: 'Notes', type: 'textarea', cols: 12 },
 ]
@@ -55,6 +59,7 @@ export const inputFields = (o: CropOptions): FormField[] => [
   { key: 'quantity', label: 'Quantity', type: 'number', required: true, cols: 4 },
   { key: 'rate_per_ha', label: 'Rate per ha', type: 'number', cols: 4 },
   { key: 'withholding_days', label: 'Withholding period (days)', type: 'number', cols: 4, hint: 'Chemicals: days before harvest is allowed' },
+  { key: 'reentry_hours', label: 'Re-entry interval (hours)', type: 'number', cols: 4, hint: 'Hours before people may go back into the field' },
 ]
 
 export const completeFields: FormField[] = [
@@ -92,6 +97,20 @@ export const harvestFields = (o: CropOptions, yieldUnit: string): FormField[] =>
   { key: 'stock_item_id', label: 'Stored as stock item', type: 'autocomplete', items: o.stock_items.map(i => ({ title: i.name, value: i.id })), cols: 6, show: (f: any) => f.destination === 'store' },
   { key: 'unit_value', label: 'Value per unit', type: 'number', cols: 6, hint: 'Fair value at harvest, or the sale price', show: (f: any) => ['store', 'sold'].includes(f.destination) },
   { key: 'settled_by', label: 'Paid', type: 'select', items: [{ title: 'Received in the bank', value: 'bank' }, { title: 'Owed by the buyer', value: 'receivable' }], default: 'receivable', cols: 6, show: (f: any) => f.destination === 'sold' },
+  { key: 'lot_code', label: 'Lot code', cols: 6, hint: 'Blank: one is made, like PLAN-20261019-1' },
+  { key: 'containers', label: 'Crates / bins', type: 'number', cols: 6 },
+  { key: 'rejected_quantity', label: 'Rejected', type: 'number', cols: 4 }, { key: 'spoiled_quantity', label: 'Spoiled', type: 'number', cols: 4 },
+  { key: 'field_loss_quantity', label: 'Left in the field', type: 'number', cols: 4 },
+  // §8.1 intake
+  { key: 'store_id', label: 'Into store', type: 'select', items: ((o as any).stores ?? []).filter((s: any) => !(o as any).farm_id || s.farm_id === (o as any).farm_id).map((s: any) => ({ title: s.name, value: s.id })),
+    cols: 6, hint: 'Blank: the farm\'s main store', show: (f: any) => f.destination === 'store' },
+  { key: 'storage_location', label: 'Bin / bay / position', cols: 6, show: (f: any) => f.destination === 'store' },
+  { key: 'crew_id', label: 'Crew', type: 'select', items: ((o as any).crews ?? []).filter((c: any) => !(o as any).farm_id || c.farm_id === (o as any).farm_id).map((c: any) => ({ title: c.name, value: c.id })), cols: 4 },
+  { key: 'measuring_method', label: 'Measured by', type: 'select', items: ['weighbridge', 'scale', 'count', 'volume', 'estimate'].map(x => ({ title: x[0].toUpperCase() + x.slice(1), value: x })), cols: 4 },
+  { key: 'inspection_outcome', label: 'Inspection', type: 'select', items: ['passed', 'conditional', 'failed'].map(x => ({ title: x[0].toUpperCase() + x.slice(1), value: x })), cols: 4 },
+  { key: 'inspection_note', label: 'Inspection note', cols: 12, show: (f: any) => !!f.inspection_outcome && f.inspection_outcome !== 'passed' },
+  { key: 'container_ref', label: 'Crate / bin / trailer numbers', cols: 6 }, { key: 'vehicle_ref', label: 'Vehicle', cols: 6 },
+  { key: 'commitment_id', label: 'Delivers against commitment', type: 'select', items: (o as any).commitments ?? [], cols: 12, show: () => ((o as any).commitments ?? []).length > 0 },
   { key: 'override_reason', label: 'Withholding override reason', type: 'textarea', cols: 12, hint: 'Only if harvesting inside a withholding period, and only by someone who approves crop work' },
   { key: 'notes', label: 'Notes', type: 'textarea', cols: 12 },
 ]

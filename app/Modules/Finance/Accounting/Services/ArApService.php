@@ -69,6 +69,7 @@ class ArApService
                 'tax_total' => $taxTotal, 'total' => $total,
                 'amount_paid' => 0, 'description' => $data['description'] ?? null, 'created_by' => Auth::id(),
                 'terms' => $data['terms'] ?? null, 'template_id' => $data['template_id'] ?? null,
+                'dimensions' => $data['dimensions'] ?? null,
             ]);
             $invoice->lines()->createMany($lines);
 
@@ -297,7 +298,8 @@ class ArApService
             // Dr AR control; Cr income per line; Cr VAT output.
             $debits[] = ['account' => $this->acc('ar_control'), 'amount' => (float) $invoice->total, 'narration' => "Invoice {$invoice->number}"];
             foreach ($lines as $l) {
-                $credits[] = ['account' => $l['account_id'], 'amount' => $l['line_total'], 'narration' => $l['description']];
+                $credits[] = ['account' => $l['account_id'], 'amount' => $l['line_total'], 'narration' => $l['description']]
+                    + ($invoice->dimensions ? ['dimensions' => $invoice->dimensions] : []);
             }
             if ($invoice->tax_total > 0) {
                 $credits[] = ['account' => $this->acc('vat_output'), 'amount' => (float) $invoice->tax_total, 'narration' => 'VAT'];
@@ -440,7 +442,8 @@ class ArApService
                 'description' => $reason, 'created_by' => Auth::id(),
             ]);
 
-            $debits = [['account' => $incomeAccountId, 'amount' => $net, 'narration' => "Credit note {$cn->number}"]];
+            $debits = [['account' => $incomeAccountId, 'amount' => $net, 'narration' => "Credit note {$cn->number}"]
+                + ($invoice->dimensions ? ['dimensions' => $invoice->dimensions] : [])];
             if ($tax > 0) {
                 $debits[] = ['account' => $this->acc('vat_output'), 'amount' => $tax, 'narration' => 'VAT'];
             }

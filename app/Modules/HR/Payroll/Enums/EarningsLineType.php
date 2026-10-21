@@ -10,6 +10,9 @@ enum EarningsLineType: string
     case Allowance      = 'allowance';
     case TravelAllowance = 'travel_allowance';
     case Commission     = 'commission';
+    // Production-based pay (kilograms picked, crates packed) handed over by Mkhaya Agri once a
+    // supervisor has approved the quantity; remuneration like basic pay, not an allowance.
+    case Piecework      = 'piecework';
     case LeavePayout    = 'leave_payout';   // leave encashment — an earning, from the Leave module
     case UnpaidLeave    = 'unpaid_leave';   // leave without pay — a deduction, from the Leave module
     case Paye           = 'paye';

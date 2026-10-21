@@ -22,6 +22,12 @@ use Illuminate\Validation\ValidationException;
  */
 class FarmStores
 {
+    /**
+     * How a farm store runs in the warehouse: produce is counted, not scanned, until the farm labels
+     * its bins and switches scanning on under Warehouse settings.
+     */
+    public const WAREHOUSE_POLICIES = ['scan_to_confirm' => false];
+
     public function __construct(private readonly StockLedger $ledger, private readonly AgriLedger $money) {}
 
     /** The farm's store, opened the first time it is needed. */
@@ -39,12 +45,55 @@ class FarmStores
             $warehouse = FinWarehouse::withoutGlobalScopes()->where('company_id', $farm->company_id)->where('code', $code)->first()
                 ?? FinWarehouse::create([
                     'company_id' => $farm->company_id, 'code' => $code, 'name' => "{$farm->name} store",
-                    'address' => $farm->location, 'is_active' => true, 'is_default' => false,
+                    'address' => $farm->location, 'is_active' => true, 'is_default' => false, 'policies' => self::WAREHOUSE_POLICIES,
                 ]);
             $farm->forceFill(['warehouse_id' => $warehouse->id])->saveQuietly();
+            \App\Modules\Agri\Models\FarmStore::withoutGlobalScopes()->firstOrCreate(['warehouse_id' => $warehouse->id],
+                ['company_id' => $farm->company_id, 'farm_id' => $farm->id, 'kind' => 'main', 'name' => $warehouse->name]);
 
             return $warehouse;
         });
+    }
+
+    /**
+     * Use stock from a farm store, first-expiring lot first (FEFO). Stock received in lots — a seed
+     * batch, a chemical's batch number — is issued lot by lot, one movement each; stock held in one
+     * place is one movement under the caller's idempotency key, exactly as before. The options are
+     * StockLedger::issueTo's; `warehouse` picks a store other than the farm's main one.
+     *
+     * @return array{movement: FinStockMovement, movements: list<FinStockMovement>, value: float, warehouse_id: int, lots: list<?int>}
+     */
+    public function issue(Farm $farm, FinStockItem $item, float $qty, array $options): array
+    {
+        $warehouse = $options['warehouse'] ?? $this->storeFor($farm);
+        $actor = $options['actor'] ?? null;
+        unset($options['warehouse'], $options['actor']);
+        $source = isset($options['source_type'], $options['source_id']) ? [$options['source_type'], (int) $options['source_id']] : null;
+        $key = $options['idempotency_key'] ?? null;
+
+        // A request already posted (a retry) is answered from what it posted, not picked again.
+        if ($key && ($done = FinStockMovement::withoutGlobalScopes()->where('company_id', $farm->company_id)
+            ->where(fn ($q) => $q->where('idempotency_key', $key)->orWhere('idempotency_key', 'like', $key.'#%'))->orderBy('id')->get())->isNotEmpty()) {
+            return $this->issued($done->all(), (int) $warehouse->id);
+        }
+        // §5.3: a restricted chemical, or anything from a locked store, only by an authorised person.
+        app(ChemicalControls::class)->assertMayUse($item, $actor, (int) $warehouse->id);
+        $picks = isset($options['lot_id']) ? [['lot_id' => $options['lot_id'], 'bin_id' => $options['bin_id'] ?? null, 'qty' => $qty]]
+            : $this->ledger->pick($item, (int) $warehouse->id, $qty, $source);
+        $movements = [];
+        foreach ($picks as $i => $p) {
+            $movements[] = $this->ledger->issueTo($item, (float) $p['qty'], $warehouse, array_merge($options,
+                ['lot_id' => $p['lot_id'], 'bin_id' => $p['bin_id']], $key ? ['idempotency_key' => $i === 0 ? $key : "{$key}#{$i}"] : []));
+        }
+
+        return $this->issued($movements, (int) $warehouse->id);
+    }
+
+    /** @param list<FinStockMovement> $movements */
+    private function issued(array $movements, int $warehouseId): array
+    {
+        return ['movement' => $movements[0], 'movements' => $movements, 'value' => round(array_sum(array_map(fn ($m) => abs((float) $m->value), $movements)), 2),
+            'warehouse_id' => $warehouseId, 'lots' => array_map(fn ($m) => $m->lot_id, $movements)];
     }
 
     public function available(FinStockItem $item, Farm $farm): float
@@ -63,6 +112,7 @@ class FarmStores
             throw ValidationException::withMessages(['quantity' => 'Quantity must be more than zero.']);
         }
         $contra = $basis === 'opening' ? config('finance.retained_earnings_account') : config('finance.ap_control');
+        app(ChemicalControls::class)->assertStorable($item, (int) $this->storeFor($farm)->id);
 
         return $this->ledger->receive($item, $qty, $unitCost, $this->storeFor($farm), [
             'date' => $date, 'reference' => $reference ?: ($basis === 'opening' ? 'Opening balance' : 'Farm delivery'),

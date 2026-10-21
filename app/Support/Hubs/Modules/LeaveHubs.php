@@ -31,7 +31,7 @@ class LeaveHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'my_leave' => [
                 'name' => 'My Leave', 'path' => 'leave-management/my-leave-hub', 'icon' => 'calendar-user', 'tier' => self::READ,
                 'title' => 'leave_management.hubs.my_leave.title', 'subtitle' => 'leave_management.hubs.my_leave.subtitle',
@@ -82,6 +82,9 @@ class LeaveHubs extends ModuleHubs
                     self::card('approval_config', 'leave-management/setup/approval-config', 'clipboard-check-outline', self::ADMIN, 'green'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

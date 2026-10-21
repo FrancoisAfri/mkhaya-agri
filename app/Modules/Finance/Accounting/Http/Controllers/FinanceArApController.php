@@ -76,6 +76,7 @@ class FinanceArApController extends Controller
                 'credit_limit' => $p->credit_limit !== null ? (float) $p->credit_limit : null,
                 'default_discount_percent' => $p->default_discount_percent !== null ? (float) $p->default_discount_percent : null,
                 'on_hold' => $p->on_hold, 'is_active' => $p->is_active, 'synced' => $p->isSynced(),
+                'channel' => $p->channel, 'delivery_points' => $p->delivery_points ?? [], 'verified_at' => $p->verified_at?->toDateString(), 'verification_note' => $p->verification_note,
                 // Which fields the source system rewrites, so the form can show them as its own
                 // rather than letting somebody type into a box that reverts at the next sync.
                 'locked' => $p->isSynced() ? PartySyncService::sourceOwnedColumns($p->source) : [],
@@ -431,6 +432,10 @@ class FinanceArApController extends Controller
             'default_discount_percent' => 'nullable|numeric|min:0|max:100',
             'on_hold'             => 'boolean',
             'is_active'           => 'boolean',
+            'channel'             => 'nullable|string|max:30',
+            'delivery_points'     => 'nullable|array',
+            'delivery_points.*.name' => 'required|string|max:80',
+            'delivery_points.*.address' => 'nullable|string|max:300',
         ]);
     }
 }

@@ -74,10 +74,8 @@ Route::middleware(['module.active:sheq', 'module.tier:sheq'])
         foreach ([
             'safety-hub' => 'safety',
             'risk-hub' => 'risk',
-            'assurance-hub' => 'assurance',
             'insights-hub' => 'insights',
             'compliance-hub' => 'compliance',
-            'configure-hub' => 'configure',
         ] as $path => $group) {
             Route::get("/{$path}", [ModuleHubController::class, 'show'])
                 ->defaults('module', 'sheq')
@@ -955,4 +953,18 @@ Route::middleware(['module.active:sheq', 'module.tier:sheq'])
             ->name('legal-register.not-applicable');
         Route::post('/legal-register/{uuid}/acknowledge', [LegalRegisterController::class, 'acknowledgeChange'])
             ->name('legal-register.acknowledge');
+        Route::post('/legal-register/{uuid}/reviewed', [LegalRegisterController::class, 'recordReview'])
+            ->name('legal-register.reviewed');
+
+        // Compliance schemes the organisation writes, adopted per site into the legal register;
+        // and which inspections gate which kinds of work in other modules.
+        Route::get('/compliance-schemes', [\App\Modules\Operations\Sheq\Http\Controllers\ComplianceSchemeController::class, 'index'])->name('compliance-schemes');
+        Route::post('/compliance-schemes', [\App\Modules\Operations\Sheq\Http\Controllers\ComplianceSchemeController::class, 'store'])->name('compliance-schemes.store');
+        Route::post('/compliance-schemes/{uuid}/clauses', [\App\Modules\Operations\Sheq\Http\Controllers\ComplianceSchemeController::class, 'clause'])
+            ->whereUuid('uuid')->name('compliance-schemes.clauses');
+        Route::post('/compliance-schemes/{uuid}/publish', [\App\Modules\Operations\Sheq\Http\Controllers\ComplianceSchemeController::class, 'publish'])
+            ->whereUuid('uuid')->name('compliance-schemes.publish');
+        Route::post('/compliance-schemes/{uuid}/adopt', [\App\Modules\Operations\Sheq\Http\Controllers\ComplianceSchemeController::class, 'adopt'])
+            ->whereUuid('uuid')->name('compliance-schemes.adopt');
+        Route::post('/inspection-gates', [\App\Modules\Operations\Sheq\Http\Controllers\ComplianceSchemeController::class, 'gate'])->name('inspection-gates');
     });

@@ -159,6 +159,13 @@ class CurrentEntity
      */
     public function defaultFor(int $companyId): ?FinEntity
     {
+        // Read and, if need be, create the business inside that organisation: the database keeps
+        // each organisation's businesses to itself, and this may run for a company being set up.
+        return app(\App\Modules\Tenancy\Services\TenantContext::class)->run($companyId, fn () => $this->defaultForCompany($companyId));
+    }
+
+    private function defaultForCompany(int $companyId): ?FinEntity
+    {
         /*
          * Active first, whatever the default flag says.
          *

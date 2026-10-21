@@ -49,6 +49,18 @@ class HubCardTest extends TestCase
     }
 
 
+    /** A path that a parameterised GET route answers (insights/{category}), other than the 404 fallback. */
+    private function routes(string $path): bool
+    {
+        try {
+            $route = Route::getRoutes()->match(\Illuminate\Http\Request::create($path, 'GET'));
+
+            return ! $route->isFallback;
+        } catch (\Symfony\Component\HttpKernel\Exception\HttpExceptionInterface) {
+            return false;
+        }
+    }
+
     public function test_every_hub_card_opens_a_route_that_exists(): void
     {
         $uris = [];
@@ -68,7 +80,7 @@ class HubCardTest extends TestCase
                     $checked++;
                     $path = ltrim((string) preg_replace('/\?.*$/', '', $card['path']), '/');
 
-                    if (! isset($uris[$path])) {
+                    if (! isset($uris[$path]) && ! $this->routes('/'.$path)) {
                         $short = substr($class, (int) strrpos($class, '\\') + 1);
                         $dead[] = "{$short}/{$group}: the '{$card['key']}' card opens /{$path}, which has no GET route";
                     }

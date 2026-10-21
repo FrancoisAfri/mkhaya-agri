@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { router } from '@inertiajs/vue3'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -31,7 +32,18 @@ const props = defineProps<{
   lines: Line[]
   summary: Summary
   needsCompany?: boolean
+  site?: { name: string } | null
+  documents?: { value: number; title: string }[]
+  canManage?: boolean
 }>()
+
+// Proving a clause: link the document, then record when it was met.
+const pick = ref<Record<string, number | null>>({})
+const metOn = ref<Record<string, string>>({})
+const linkDocument = (line: Line) => router.post(`/sheq/legal-register/${line.uuid}/evidence`,
+  { evidence_type: 'DM_DOCUMENT', evidence_id: pick.value[line.uuid] }, { preserveScroll: true, onSuccess: () => { pick.value[line.uuid] = null } })
+const recordMet = (line: Line) => router.post(`/sheq/legal-register/${line.uuid}/reviewed`,
+  { on: metOn.value[line.uuid] || new Date().toISOString().slice(0, 10) }, { preserveScroll: true })
 
 const search = ref('')
 const instrument = ref<string | null>(null)
@@ -79,6 +91,7 @@ const isOverdue = (line: Line) =>
     <div class="mb-5">
       <h1 class="text-h5 font-weight-bold">{{ t('sheq.legal.title') }}</h1>
       <p class="text-body-2 text-medium-emphasis mb-0">{{ t('sheq.legal.subtitle') }}</p>
+      <VChip v-if="site" class="mt-2" size="small" color="primary" variant="tonal" prepend-icon="mdi-map-marker">{{ t('sheq.legal.for_site', { site: site.name }) }}</VChip>
     </div>
 
     <VAlert v-if="needsCompany" type="info" variant="tonal" class="mb-4">
@@ -251,6 +264,18 @@ const isOverdue = (line: Line) =>
                           density="compact" class="mt-3">
                     {{ t('sheq.legal.not_applicable_because', { reason: line.not_applicable_reason }) }}
                   </VAlert>
+
+                  <div v-if="canManage && line.is_applicable" class="mt-4">
+                    <div class="text-caption text-medium-emphasis mb-2">{{ t('sheq.legal.act_hint') }}</div>
+                    <div class="d-flex flex-wrap align-center gap-2">
+                      <VAutocomplete v-model="pick[line.uuid]" :items="documents ?? []" :label="t('sheq.legal.link_document')" density="compact"
+                                     variant="outlined" hide-details clearable style="min-width: 280px; max-width: 420px" @click.stop />
+                      <VBtn size="small" variant="tonal" :disabled="!pick[line.uuid]" @click.stop="linkDocument(line)">{{ t('sheq.legal.link') }}</VBtn>
+                      <VTextField v-model="metOn[line.uuid]" type="date" :label="t('sheq.legal.met_on')" density="compact" variant="outlined" hide-details
+                                  style="max-width: 180px" @click.stop />
+                      <VBtn size="small" color="primary" @click.stop="recordMet(line)">{{ t('sheq.legal.record_met') }}</VBtn>
+                    </div>
+                  </div>
                 </div>
               </td>
             </tr>

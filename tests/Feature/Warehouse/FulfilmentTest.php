@@ -418,7 +418,7 @@ class FulfilmentTest extends WarehouseTestCase
         $this->get(route('warehouse.outbound.orders.documents', $o->uuid))->assertOk()->assertInertia(fn ($p) => $p->component('Modules/Warehouse/Outbound/Documents')->has('packages', 1));
         $this->get(route('warehouse.outbound.waves.index'))->assertOk();
         $this->get(route('warehouse.outbound.sla'))->assertOk()->assertInertia(fn ($p) => $p->component('Modules/Warehouse/Outbound/Sla'));
-        $this->get(route('warehouse.hub.outbound'))->assertOk();
+        $this->get(route('warehouse.hub.inbound'))->assertOk();
         foreach (['Orders', 'OrderShow', 'Waves', 'Wave', 'Documents', 'Sla'] as $page) {
             $this->assertFileExists(resource_path("js/Modules/Warehouse/Outbound/{$page}.vue"));
         }

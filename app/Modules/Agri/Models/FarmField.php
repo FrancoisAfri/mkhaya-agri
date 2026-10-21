@@ -15,9 +15,14 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  */
 class FarmField extends Model
 {
+    // Farm records (Document Management) can be linked to it.
+    use \App\Modules\Operations\DocumentManagement\Concerns\HasDocuments;
+
     use AuditsAgri, BelongsToCompany, HasPublicUuid;
 
     public const LAND_USE_TYPES = ['field', 'paddock', 'camp', 'orchard', 'vineyard', 'greenhouse', 'tunnel', 'nursery', 'pasture', 'pond', 'other'];
+
+    public const WATER_SOURCES = ['borehole', 'river', 'dam', 'municipal', 'canal', 'rain', 'other'];
 
     public const IRRIGATION = ['dryland', 'centre_pivot', 'drip', 'sprinkler', 'flood', 'micro', 'other'];
 
@@ -26,6 +31,7 @@ class FarmField extends Model
     protected $fillable = [
         'uuid', 'company_id', 'farm_id', 'code', 'name', 'land_use_type', 'area', 'area_unit',
         'soil_type', 'irrigation', 'latitude', 'longitude', 'boundary', 'status', 'notes', 'created_by',
+        'slope_pct', 'water_source', 'parent_field_id',
     ];
 
     protected $casts = [

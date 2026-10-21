@@ -19,6 +19,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  */
 class Farm extends Model
 {
+    // Farm records (Document Management) can be linked to it.
+    use \App\Modules\Operations\DocumentManagement\Concerns\HasDocuments;
+
     use AuditsAgri, BelongsToCompany, HasPublicUuid;
 
     public const ACTIVE = 'active';
@@ -48,7 +51,7 @@ class Farm extends Model
         'longitude' => 'decimal:7',
         'boundary' => 'array',
         'settings' => 'array',
-        'archived_at' => 'datetime',
+        'archived_at' => \App\Modules\Agri\Casts\FarmDateTime::class,
     ];
 
     protected static function booted(): void

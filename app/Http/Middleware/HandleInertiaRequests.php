@@ -55,6 +55,13 @@ class HandleInertiaRequests extends Middleware
              * null and no query runs.
              */
             'switchableCompanies' => $this->switchableCompanies($user),
+            // The organisations this person belongs to (company_memberships), for the switcher in
+            // the user menu. Empty for platform admins, who use "view as company" instead.
+            'organisations' => fn () => $user && $user->company_id && ! ($user->is_platform_admin || ($user->is_master_admin ?? false))
+                ? app(\App\Modules\Tenancy\Services\Memberships::class)->for($user)
+                    ->map(fn ($m) => ['id' => $m->company_id, 'name' => $m->company->name, 'current' => (int) $m->company_id === (int) $user->company_id])
+                    ->values()->all()
+                : [],
 
             'auth' => [
                 'user' => $user ? array_merge(

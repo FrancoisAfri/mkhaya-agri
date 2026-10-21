@@ -25,7 +25,7 @@ class FarmRegistry
         'farm_fields', 'farm_locations',
         'crop_plans', 'field_activities', 'crop_observations', 'harvest_records',
         'livestock_groups', 'animals', 'animal_health_records',
-        'farm_budget_lines', 'farm_transactions', 'farm_machines', 'farm_tasks', 'farm_documents',
+        'farm_budget_lines', 'farm_transactions', 'fleet_vehicles', 'farm_tasks',
     ];
 
     public function __construct(private FarmAccess $access) {}
@@ -135,7 +135,7 @@ class FarmRegistry
         if (! $actor->can(RoleCatalog::MANAGE_ACCESS) || ! $this->access->canReach($actor, $farm->id)) {
             throw ValidationException::withMessages(['user_id' => 'You cannot give access to a farm outside your own authority.']);
         }
-        if ((int) $member->company_id !== (int) $farm->company_id) {
+        if (! app(\App\Modules\Tenancy\Services\Memberships::class)->isMember($member, (int) $farm->company_id)) {
             throw ValidationException::withMessages(['user_id' => 'That person is not part of this organisation.']);
         }
 

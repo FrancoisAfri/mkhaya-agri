@@ -12,7 +12,7 @@ class FinPriceListItem extends Model
 
     protected $table = 'fin_price_list_items';
 
-    protected $fillable = ['entity_id', 'price_list_id', 'item_id', 'price'];
+    protected $fillable = ['entity_id', 'price_list_id', 'item_id', 'description', 'grade', 'unit', 'price'];
 
     protected $casts = ['price' => 'decimal:4'];
 

@@ -25,22 +25,27 @@ class AttendanceHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'my_time' => [
                 'name' => 'My Time', 'path' => 'attendance/my-time-hub', 'icon' => 'clock', 'tier' => self::WRITE,
                 'title' => 'time_attendance.hubs.my_time.title', 'subtitle' => 'time_attendance.hubs.my_time.subtitle',
                 'cards' => [
                     self::card('clock', 'attendance/clocking/kiosk', 'fingerprint', self::WRITE, 'green'),
+                    self::card('badge_kiosk', 'attendance/badge-kiosk', 'qrcode', self::WRITE, 'teal'),
                 ],
             ],
             'manage' => [
                 'name' => 'Manage', 'path' => 'attendance/manage-hub', 'icon' => 'tools', 'tier' => self::MODIFY,
                 'title' => 'time_attendance.hubs.manage.title', 'subtitle' => 'time_attendance.hubs.manage.subtitle',
                 'cards' => [
-                    self::card('records', 'attendance/records', 'table-clock', self::MODIFY, 'blue'),
-                    self::card('missed_clockings', 'attendance/clocking/missed', 'clock-alert-outline', self::MODIFY, 'orange'),
+                    self::card('people', 'attendance/people', 'account-group-outline', self::MODIFY, 'primary'),
                     self::card('roster', 'attendance/roster', 'calendar-month-outline', self::MODIFY, 'indigo'),
-                    self::card('shifts', 'attendance/shifts', 'calendar-clock-outline', self::MODIFY, 'teal'),
+                    self::card('timesheets', 'attendance/timesheets', 'clock-check-outline', self::MODIFY, 'blue'),
+                    self::card('records', 'attendance/records', 'table-clock', self::MODIFY, 'blue-grey'),
+                    self::card('missed_clockings', 'attendance/clocking/missed', 'clock-alert-outline', self::MODIFY, 'orange'),
+                    self::card('piecework', 'attendance/piecework', 'scale-balance', self::MODIFY, 'green'),
+                    self::card('payroll_handoff', 'attendance/payroll-handoff', 'receipt', self::MODIFY, 'deep-purple'),
+                    self::card('shifts', 'attendance/time-settings', 'calendar-clock-outline', self::MODIFY, 'teal'),
                 ],
             ],
             'workforce' => [
@@ -82,6 +87,10 @@ class AttendanceHubs extends ModuleHubs
                     self::card('audit', 'attendance/audit', 'history', self::ADMIN, 'red'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'manage' => ['absorb' => ['my_time'], 'name' => 'Time & Approvals'],
+            'compliance' => ['absorb' => ['configure'], 'name' => 'Compliance & Settings'],
+        ]);
     }
 }

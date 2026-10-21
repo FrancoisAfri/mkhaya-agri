@@ -35,17 +35,17 @@ class MachineryController extends AgriController
 
         return Inertia::render('Modules/Agri/Machinery/Index', [
             'machines' => $machines,
-            'usage' => MachineUsageLog::query()->whereIn('machine_id', $ids)->with('machine:id,code,name')->orderByDesc('used_on')->limit(60)->get()
+            'usage' => MachineUsageLog::query()->whereIn('vehicle_id', $ids)->with('machine:id,code,name')->orderByDesc('used_on')->limit(60)->get()
                 ->map(fn ($u) => ['machine' => $u->machine?->code, 'used_on' => $u->used_on->toDateString(), 'hours' => (float) $u->hours,
                     'reading' => self::num($u->hours_reading_after), 'fuel_litres' => self::num($u->fuel_litres), 'fuel_cost' => self::num($u->fuel_cost), 'notes' => $u->notes]),
-            'services' => MachineService::query()->whereIn('machine_id', $ids)->orderByDesc('serviced_on')->limit(60)->get()
+            'services' => MachineService::query()->whereIn('vehicle_id', $ids)->orderByDesc('completed_date')->limit(60)->get()
                 ->map(fn ($s) => ['machine_id' => $s->machine_id, 'serviced_on' => $s->serviced_on->toDateString(), 'type' => $s->service_type,
                     'hours' => self::num($s->hours_at_service), 'description' => $s->description, 'provider' => $s->provider, 'cost' => self::num($s->cost)]),
             'filters' => ['farm' => $farm?->uuid],
             'options' => [
                 'farms' => $this->farmOptions(),
                 'types' => FarmMachine::TYPES,
-                'service_types' => MachineService::TYPES,
+                'service_types' => MachineService::TYPES, 'ownership' => FarmMachine::OWNERSHIP,
                 'people' => $this->tenantPeopleOptions(),
                 'fleet' => Schema::hasTable('fleet_vehicles') ? FleetVehicle::query()->orderBy('registration_number')->limit(500)
                     ->get(['id', 'registration_number', 'fleet_number', 'make', 'model'])
@@ -100,6 +100,7 @@ class MachineryController extends AgriController
             'hours_at_service' => ['nullable', 'numeric', 'gte:0'], 'description' => ['required', 'string', 'max:300'],
             'provider' => ['nullable', 'string', 'max:150'], 'cost' => ['nullable', 'numeric', 'gte:0'],
             'next_service_on' => ['nullable', 'date', 'after:serviced_on'], 'settled_by' => ['nullable', Rule::in(['bank', 'payable'])],
+            'inspection_expires_on' => ['nullable', 'date', 'after:serviced_on'],
         ]);
         $this->machinery->service($machine, $data, $request->user());
 
@@ -127,7 +128,11 @@ class MachineryController extends AgriController
             'purchase_cost' => self::num($m->purchase_cost), 'purchased_on' => $m->purchased_on?->toDateString(),
             'status' => $m->status, 'disposed_on' => $m->disposed_on?->toDateString(), 'disposal_reason' => $m->disposal_reason,
             'service_due' => $m->status !== 'disposed' && $m->serviceDue(14, 10),
-            'hours_logged' => round((float) ($m->hours_logged ?? 0), 1), 'fuel_litres' => round((float) ($m->fuel_litres ?? 0), 1), 'notes' => $m->notes];
+            'hours_logged' => round((float) ($m->hours_logged ?? 0), 1), 'fuel_litres' => round((float) ($m->fuel_litres ?? 0), 1), 'notes' => $m->notes,
+            'current_status' => $m->currentStatus(), 'out_of_service_reason' => $m->out_of_service_reason]
+            + collect(['ownership', 'lessor', 'lease_payment', 'warranty_hours', 'warranty_provider', 'useful_life_years', 'useful_life_hours', 'location',
+                'responsible_user_id', 'odometer_km', 'cycles', 'inspection_required', 'expected_litres_per_hour', 'service_interval_days'])->mapWithKeys(fn ($k) => [$k => $m->{$k}])->all()
+            + collect(['lease_ends_on', 'warranty_until', 'insurance_expires_on', 'licence_expires_on', 'inspection_expires_on'])->mapWithKeys(fn ($k) => [$k => $m->{$k}?->toDateString()])->all();
     }
 
     private function rules(): array
@@ -140,6 +145,14 @@ class MachineryController extends AgriController
             'service_interval_hours' => ['nullable', 'numeric', 'gt:0'], 'hourly_rate' => ['nullable', 'numeric', 'gte:0'],
             'purchase_cost' => ['nullable', 'numeric', 'gte:0'], 'purchased_on' => ['nullable', 'date', 'before_or_equal:today'],
             'notes' => ['nullable', 'string', 'max:2000'],
+            // §7.1: ownership, warranty, life, custody, meters, compliance dates.
+            'ownership' => ['nullable', Rule::in(FarmMachine::OWNERSHIP)], 'lessor' => ['nullable', 'string', 'max:160'], 'lease_ends_on' => ['nullable', 'date'],
+            'lease_payment' => ['nullable', 'numeric', 'gte:0'], 'warranty_until' => ['nullable', 'date'], 'warranty_hours' => ['nullable', 'numeric', 'gt:0'],
+            'warranty_provider' => ['nullable', 'string', 'max:160'], 'useful_life_years' => ['nullable', 'integer', 'between:1,80'],
+            'useful_life_hours' => ['nullable', 'numeric', 'gt:0'], 'location' => ['nullable', 'string', 'max:160'], 'responsible_user_id' => ['nullable', 'integer'],
+            'odometer_km' => ['nullable', 'numeric', 'gte:0'], 'cycles' => ['nullable', 'integer', 'gte:0'], 'insurance_expires_on' => ['nullable', 'date'],
+            'licence_expires_on' => ['nullable', 'date'], 'inspection_expires_on' => ['nullable', 'date'], 'inspection_required' => ['boolean'],
+            'expected_litres_per_hour' => ['nullable', 'numeric', 'gt:0'], 'service_interval_days' => ['nullable', 'integer', 'between:1,1095'],
         ];
     }
 }

@@ -4384,16 +4384,16 @@
         "subtitle": "Manage leads, contacts, accounts and the deal pipeline"
       },
       "engage": {
-        "title": "Engage",
-        "subtitle": "Reach out — activities, calls, meetings and campaigns"
+        "title": "Engage & Service",
+        "subtitle": "Reach out — activities, calls, meetings and campaigns. Handle complaints and gather customer feedback."
       },
       "service": {
         "title": "Service",
         "subtitle": "Handle complaints and gather customer feedback"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Reports, analytics and performance metrics"
+        "title": "Insights & Settings",
+        "subtitle": "Reports, analytics and performance metrics. Approvals, deduplication, cleanup and imports. Fields, objects, automations, integrations and settings."
       },
       "data_quality": {
         "title": "Data Quality",
@@ -4740,8 +4740,8 @@
         "subtitle": "Depreciation and procurement"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Utilization, compliance and reports"
+        "title": "Insights & Settings",
+        "subtitle": "Utilization, compliance and reports. Categories, types and settings."
       },
       "configure": {
         "title": "Configure",
@@ -4846,8 +4846,8 @@
         "subtitle": "Vehicles, cards and projects"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Reports and analytics"
+        "title": "Insights & Settings",
+        "subtitle": "Reports and analytics. Setup and integrations."
       },
       "configure": {
         "title": "Configure",
@@ -4944,8 +4944,8 @@
         "subtitle": "Journals, accounts and banking"
       },
       "reporting": {
-        "title": "Reporting",
-        "subtitle": "Statements and analytics"
+        "title": "Reports & Settings",
+        "subtitle": "Statements and analytics. Tax, budgets and settings."
       },
       "configure": {
         "title": "Configure",
@@ -5108,6 +5108,10 @@
       "sars_submissions": {
         "title": "SARS Submissions",
         "subtitle": "Generated returns & audit trail"
+      },
+      "disputes": {
+        "title": "Customer Disputes",
+        "subtitle": "Held invoices, resolved with a credit note"
       }
     }
   },
@@ -5276,8 +5280,8 @@
         "subtitle": "AI and workforce insights"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Reports and dashboards"
+        "title": "Insights & Settings",
+        "subtitle": "Reports and dashboards. Module setup."
       },
       "configure": {
         "title": "Configure",
@@ -5767,8 +5771,8 @@
   "learning_management": {
     "hubs": {
       "my_learning": {
-        "title": "My Learning",
-        "subtitle": "Courses, plans and portfolios"
+        "title": "My Learning & Team",
+        "subtitle": "Courses, plans and portfolios. Team learning dashboards."
       },
       "team": {
         "title": "Team",
@@ -5779,12 +5783,12 @@
         "subtitle": "Courses, enrollments and marking"
       },
       "skills": {
-        "title": "Skills",
-        "subtitle": "Skills, succession and training"
+        "title": "Skills & SETA",
+        "subtitle": "Skills, succession and training. Learnerships and submissions."
       },
       "compliance": {
-        "title": "Compliance",
-        "subtitle": "Certifications and rules"
+        "title": "Compliance & Insights",
+        "subtitle": "Certifications and rules. Reports, costs and AI chat."
       },
       "seta": {
         "title": "SETA / QCTO",
@@ -5997,8 +6001,8 @@
         "subtitle": "Clock in and out"
       },
       "manage": {
-        "title": "Manage",
-        "subtitle": "Records, rosters and shifts"
+        "title": "Time & Approvals",
+        "subtitle": "Records, rosters and shifts. Clock in and out."
       },
       "workforce": {
         "title": "Workforce",
@@ -6009,8 +6013,8 @@
         "subtitle": "Analytics and reports"
       },
       "compliance": {
-        "title": "Compliance",
-        "subtitle": "Policy and BCEA"
+        "title": "Compliance & Settings",
+        "subtitle": "Policy and BCEA. Settings and audit."
       },
       "configure": {
         "title": "Configure",
@@ -6032,11 +6036,11 @@
       },
       "roster": {
         "title": "Roster",
-        "subtitle": "Shift roster"
+        "subtitle": "Shifts from templates or rotating patterns, with checks, swaps and publishing."
       },
       "shifts": {
-        "title": "Setup",
-        "subtitle": "Shift setup"
+        "title": "Shifts & time settings",
+        "subtitle": "Shift templates, labour rule sets, piece rates and clock devices."
       },
       "workforce": {
         "title": "Workforce",
@@ -6097,6 +6101,26 @@
       "audit": {
         "title": "Audit & Logs",
         "subtitle": "Change audit trail"
+      },
+      "people": {
+        "title": "People & crews",
+        "subtitle": "Everyone whose time is kept: category, crew, rules, badge, consent and the site they work on."
+      },
+      "timesheets": {
+        "title": "Timesheets",
+        "subtitle": "Clock sessions measured against the roster, with corrections, overtime and approval."
+      },
+      "badge_kiosk": {
+        "title": "Badge kiosk",
+        "subtitle": "A shared device: scan a badge or pick a name to clock a crew in and out."
+      },
+      "piecework": {
+        "title": "Piecework",
+        "subtitle": "Output by worker or crew at approved rates, approved before it is paid."
+      },
+      "payroll_handoff": {
+        "title": "Payroll handoff",
+        "subtitle": "A pay period’s approved time and piecework, sent to payroll and reconciled."
       }
     }
   },
@@ -6115,8 +6139,8 @@
         "subtitle": "HR leave management"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Leave reports"
+        "title": "Insights & Settings",
+        "subtitle": "Leave reports. Leave types and rules."
       },
       "configure": {
         "title": "Configure",
@@ -6221,8 +6245,8 @@
         "subtitle": "Cycles, succession and pay"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Reports and analytics"
+        "title": "Insights & Settings",
+        "subtitle": "Reports and analytics. Templates and settings."
       },
       "configure": {
         "title": "Configure",
@@ -10242,8 +10266,8 @@
         "subtitle": "The monthly Project & Financial Report"
       },
       "invoicing": {
-        "title": "Project Invoicing",
-        "subtitle": "Professional fee and disbursement invoices, annexures and cashflow"
+        "title": "Commercial",
+        "subtitle": "Professional fee and disbursement invoices, annexures and cashflow. The monthly Project & Financial Report. Contracts and the invoices contractors submit for their work."
       },
       "evidence": {
         "title": "Evidence",
@@ -10254,8 +10278,8 @@
         "subtitle": "Working calendars and the modules this tenant can connect to"
       },
       "insights": {
-        "title": "PM Insights",
-        "subtitle": "The portfolio in charts, and every dataset as rows you can export"
+        "title": "Insights & Setup",
+        "subtitle": "The portfolio in charts, and every dataset as rows you can export. Working calendars and the modules this tenant can connect to."
       },
       "contractors": {
         "title": "Subcontractors",
@@ -10264,6 +10288,10 @@
       "dashboard": {
         "title": "Dashboard",
         "subtitle": "Portfolio health, open work and the latest evidence from the field"
+      },
+      "workspace": {
+        "title": "Workspace",
+        "subtitle": "Your field work, the approvals waiting on you, meetings, team notices, the client portal and the evidence behind progress."
       }
     },
     "cards": {
@@ -10354,6 +10382,14 @@
       "contract_templates": {
         "title": "Contract Templates",
         "subtitle": "The standard wording your contracts start from"
+      },
+      "field": {
+        "title": "My work",
+        "subtitle": "Your tasks and field updates, which work offline and sync when you are back in signal."
+      },
+      "portal": {
+        "title": "Client portal",
+        "subtitle": "What external clients and subcontractors see of the projects they are on."
       }
     },
     "dashboard": {
@@ -12834,8 +12870,8 @@
         "subtitle": "RFx, orders and invoices"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Reports and analytics"
+        "title": "Insights & Settings",
+        "subtitle": "Reports and analytics. Module settings."
       },
       "configure": {
         "title": "Configure",
@@ -14533,16 +14569,16 @@
         "subtitle": "Report, review and discharge safety obligations"
       },
       "risk": {
-        "title": "Risk",
-        "subtitle": "Assessed hazards, controls and permits to work"
+        "title": "Risk & Assurance",
+        "subtitle": "Assessed hazards, controls and permits to work. Inspections, competency, documents and contractors."
       },
       "assurance": {
         "title": "Assurance",
         "subtitle": "Inspections, competency, documents and contractors"
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Trends, KPIs and the monthly report"
+        "title": "Insights & Settings",
+        "subtitle": "Trends, KPIs and the monthly report. Sites and the device sync queue."
       },
       "configure": {
         "title": "Configure",
@@ -14797,6 +14833,10 @@
       "command_centre": {
         "title": "Command centre",
         "subtitle": "What is happening now, which sites are getting worse, and the evidence under every number"
+      },
+      "compliance_schemes": {
+        "title": "Compliance Schemes & Gates",
+        "subtitle": "Schemes you adopt per site (GLOBALG.A.P., SIZA…), and inspections that must pass before work starts"
       }
     },
     "packs": {
@@ -14880,7 +14920,13 @@
       "expand": "Expand",
       "expand_row": "Show evidence for clause {clause}",
       "collapse_row": "Hide evidence for clause {clause}",
-      "filter_by": "Filter by {status}"
+      "filter_by": "Filter by {status}",
+      "for_site": "Site: {site}",
+      "record_met": "Record as met",
+      "met_on": "Met on",
+      "link_document": "Link a document",
+      "link": "Link",
+      "act_hint": "Link the document that proves it, then record when it was met; the next review follows from the clause's frequency."
     },
     "evidence_type": {
       "risk_assessment": "Risk assessment",
@@ -14891,7 +14937,11 @@
       "competency": "Competency",
       "obligation": "Obligation",
       "meeting": "Meeting",
-      "action": "Action"
+      "action": "Action",
+      "dm_document": "Document (Document Management)",
+      "agri_machine_inspection": "Farm machine inspections",
+      "agri_chemical_registration": "Chemical registrations",
+      "agri_operator_certificates": "Operator certificates"
     },
     "features": {
       "regulatory_engine": "Regulatory pack engine",
@@ -17020,6 +17070,41 @@
         "equipment_certification_required": "No equipment certificate on file",
         "evidence_unavailable": "Could not be checked"
       }
+    },
+    "schemes": {
+      "title": "Compliance schemes & job gates",
+      "subtitle": "Schemes your organisation works under (GLOBALG.A.P., SIZA, organic, a customer's code), adopted per site into the legal register — and which inspections must pass before a kind of work starts.",
+      "new": "New scheme",
+      "name": "Name",
+      "code": "Code",
+      "scheme": "Scheme / standard",
+      "jurisdiction": "Jurisdiction",
+      "clauses": "Clauses",
+      "clause": "Clause",
+      "instrument": "Section / source",
+      "requirement": "Requirement",
+      "category": "Category",
+      "evidence": "What proves it",
+      "frequency": "Renewal (e.g. P12M)",
+      "role": "Responsible role",
+      "add_clause": "Add clause",
+      "publish": "Publish",
+      "adopt": "Adopt at a site",
+      "site": "Site",
+      "whole_org": "Whole organisation",
+      "adopted_at": "Adopted at",
+      "version": "v{n}",
+      "draft": "Draft",
+      "published": "Published",
+      "none": "No schemes yet.",
+      "gates": "Inspections that gate work",
+      "gates_hint": "The work may not start until the inspection, carried out for that job, has passed.",
+      "template": "Inspection",
+      "work": "Work",
+      "kind": "Kind of work",
+      "add_gate": "Add gate",
+      "remove": "Remove",
+      "no_gates": "No gates yet."
     }
   },
   "procurement_governance": {
@@ -17089,12 +17174,12 @@
         "subtitle": "Deviation requests, approvals and compliance"
       },
       "governance": {
-        "title": "Governance",
-        "subtitle": "Procurement records, approvals, documents and compliance"
+        "title": "Governance & Deviations",
+        "subtitle": "Procurement records, approvals, documents and compliance. Deviation requests, approvals and compliance."
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Spend, performance and officer capacity"
+        "title": "Insights & Settings",
+        "subtitle": "Spend, performance and officer capacity. Capabilities, rules engine and approval chains."
       },
       "configure": {
         "title": "Configure",
@@ -19401,8 +19486,8 @@
         "subtitle": "Upload, find and organise documents"
       },
       "governance": {
-        "title": "Governance",
-        "subtitle": "Confidentiality, legal holds and activity"
+        "title": "Governance & Settings",
+        "subtitle": "Confidentiality, legal holds and activity. File types, size limits and naming."
       },
       "configure": {
         "title": "Configure",
@@ -20781,12 +20866,12 @@
         "subtitle": "Factories, work centres, shifts, units, numbering and policies"
       },
       "production": {
-        "title": "Production",
-        "subtitle": "Production orders from draft to close: approval, release, material, operations and output"
+        "title": "Production & Maintenance",
+        "subtitle": "Production orders from draft to close: approval, release, material, operations and output. Roster, qualifications and labour planned against worked. Machines, preventive maintenance, breakdowns and OEE. Waste and losses found, investigated, verified and saved."
       },
       "quality": {
-        "title": "Quality",
-        "subtitle": "Inspections, non-conformances and the plans that say what to check"
+        "title": "Quality & Fulfilment",
+        "subtitle": "Inspections, non-conformances and the plans that say what to check. Production promised to customers, and work sent to suppliers."
       },
       "costing": {
         "title": "Costing",
@@ -20797,8 +20882,8 @@
         "subtitle": "Machines, preventive maintenance, breakdowns and OEE"
       },
       "planning": {
-        "title": "Planning",
-        "subtitle": "Demand and forecasts, material requirements, suppliers and planning parameters"
+        "title": "Planning & Engineering",
+        "subtitle": "Demand and forecasts, material requirements, suppliers and planning parameters. Products, bills of materials and where each material is used. Stock between factories, and what each factory has."
       },
       "workforce": {
         "title": "Workforce",
@@ -20813,8 +20898,8 @@
         "subtitle": "Waste and losses found, investigated, verified and saved"
       },
       "reports": {
-        "title": "Reports",
-        "subtitle": "Management dashboards by role"
+        "title": "Reports, Costing & Setup",
+        "subtitle": "Management dashboards by role. Treatments, cost subledger and reconciliation. Standard costs, variances against them, and margins. Questions answered from your own records. Who is told about what, and when it escalates. ERPs, scales, scanners, printers, MES and machine gateways. Factories, work centres, shifts, units, numbering and policies."
       },
       "notifications": {
         "title": "Alerts",
@@ -23442,12 +23527,12 @@
         "subtitle": "The product master as the warehouse needs it: units, packaging, barcodes and status."
       },
       "inventory": {
-        "title": "Inventory",
-        "subtitle": "What is where, in which state, what can be promised, and how every figure got there."
+        "title": "Inventory & Products",
+        "subtitle": "What is where, in which state, what can be promised, and how every figure got there. The product master as the warehouse needs it: units, packaging, barcodes and status."
       },
       "inbound": {
-        "title": "Inbound",
-        "subtitle": "What is expected, the dock diary, receiving, discrepancies, returns and supplier performance."
+        "title": "Inbound & Outbound",
+        "subtitle": "What is expected, the dock diary, receiving, discrepancies, returns and supplier performance. Orders from every source, allocated, picked, packed and shipped against their deadlines."
       },
       "floor": {
         "title": "Floor Work",
@@ -23458,8 +23543,8 @@
         "subtitle": "Orders from every source, allocated, picked, packed and shipped against their deadlines."
       },
       "insights": {
-        "title": "Insights",
-        "subtitle": "Stock, suppliers, losses and money, with the reports behind every figure."
+        "title": "Insights & Layout",
+        "subtitle": "Stock, suppliers, losses and money, with the reports behind every figure. Warehouses, the locations inside them, labels and the change history."
       }
     },
     "cards": {
@@ -26604,6 +26689,156 @@
       "audit": {
         "title": "Tax audit trail",
         "subtitle": "Who did what, when and why — calculations, changes, approvals and denials."
+      }
+    }
+  },
+  "agri": {
+    "hubs": {
+      "production": {
+        "title": "Farms & Production",
+        "subtitle": "Farms and fields, the farm map, crops and field work, livestock, and the weather."
+      },
+      "operations": {
+        "title": "Operations",
+        "subtitle": "The day's work and the farm business: jobs, work orders, tasks, machinery, stores, the packhouse, alerts, finance, sales, outgrowers, the assistant, integrations and settings."
+      },
+      "people": {
+        "title": "People & Compliance",
+        "subtitle": "Shortcuts to the farm’s people in Time & Attendance — workers, rosters, timesheets, piecework and the payroll handoff — and to safety, compliance and documents."
+      },
+      "insights": {
+        "title": "Insights",
+        "subtitle": "The farm's dashboards, outcomes, reports and analytics, and every Farm Operations report you can schedule."
+      }
+    },
+    "cards": {
+      "farms": {
+        "title": "Farms & Fields",
+        "subtitle": "The farm register: farms, fields, blocks and their boundaries."
+      },
+      "twin": {
+        "title": "Farm Map & Planner",
+        "subtitle": "The farm on a map, with imagery, and what-if plans tested before you commit."
+      },
+      "crops": {
+        "title": "Crops & Field Work",
+        "subtitle": "Crop plans by season, field activities, inputs and harvests."
+      },
+      "crop_intelligence": {
+        "title": "Crop Intelligence",
+        "subtitle": "Scouting, pests and disease, irrigation and harvest forecasts per field."
+      },
+      "livestock": {
+        "title": "Livestock",
+        "subtitle": "Herds and animals, health and vaccinations, feeding, breeding and weights."
+      },
+      "weather": {
+        "title": "Weather & Environment",
+        "subtitle": "Forecasts and warnings, rainfall, water and energy use, and sustainability."
+      },
+      "my_work": {
+        "title": "My Work",
+        "subtitle": "Your jobs for today, on the phone, even without signal."
+      },
+      "work_orders": {
+        "title": "Work Orders",
+        "subtitle": "Planned and reactive farm jobs, with labour, materials and machines booked."
+      },
+      "tasks": {
+        "title": "Farm Tasks",
+        "subtitle": "Smaller to-dos and follow-ups across the farms."
+      },
+      "machinery": {
+        "title": "Machinery",
+        "subtitle": "The fleet: bookings, pre-start checks, fuel, faults, services and warranties."
+      },
+      "stock": {
+        "title": "Farm Stores",
+        "subtitle": "Stock on hand by store and lot, issues, receipts, counts and reorders."
+      },
+      "packhouse": {
+        "title": "Packhouse & Dispatch",
+        "subtitle": "Produce lots, grading and packing, cold storage, orders, dispatch and recalls."
+      },
+      "alerts": {
+        "title": "Farm Alerts",
+        "subtitle": "What needs attention now: stock, livestock, crops, machines and weather."
+      },
+      "workforce": {
+        "title": "Workforce",
+        "subtitle": "Farm workers, their skills and certificates, and workforce analytics."
+      },
+      "roster": {
+        "title": "Roster",
+        "subtitle": "Shifts and crews planned against the work."
+      },
+      "attendance": {
+        "title": "Attendance",
+        "subtitle": "Clock-ins and timesheets, approved before they are paid."
+      },
+      "piecework": {
+        "title": "Piecework",
+        "subtitle": "Output-based pay: rates, tallies and approvals."
+      },
+      "payroll": {
+        "title": "Payroll Handoff",
+        "subtitle": "Approved hours and piecework, sent to payroll for the period."
+      },
+      "compliance": {
+        "title": "Compliance & Safety",
+        "subtitle": "Obligations and certifications, safety reports into SHEQ, and safety checklists."
+      },
+      "documents": {
+        "title": "Compliance Documents",
+        "subtitle": "Certificates, permits and records, versioned and approved, with expiry reminders."
+      },
+      "finance": {
+        "title": "Farm Finance",
+        "subtitle": "Budgets, costs by field and enterprise, cash flow, reconciliation and exports."
+      },
+      "sales": {
+        "title": "Sales & Contracts",
+        "subtitle": "Buyers, price lists, quotes, contracts, disputes and market prices."
+      },
+      "outgrowers": {
+        "title": "Outgrowers",
+        "subtitle": "Contracted growers, the inputs advanced to them, and their deliveries."
+      },
+      "insights": {
+        "title": "Role Dashboards",
+        "subtitle": "A dashboard for each role, with the figures it is accountable for."
+      },
+      "outcomes": {
+        "title": "Outcomes",
+        "subtitle": "Measured results against a baseline, period by period."
+      },
+      "reports": {
+        "title": "Farm Reports",
+        "subtitle": "Standard farm reports, to screen, CSV or Excel."
+      },
+      "assistant": {
+        "title": "Farm Assistant",
+        "subtitle": "Ask about the farms in plain language; drafts need a person to approve them."
+      },
+      "integrations": {
+        "title": "Integrations",
+        "subtitle": "Sensors, telematics, messaging and weather feeds, and anything that failed to arrive."
+      },
+      "settings": {
+        "title": "Farm Settings",
+        "subtitle": "Seasons, crop types, enterprises, categories and the farm defaults."
+      },
+      "finance_intelligence": {
+        "title": "Finance intelligence",
+        "subtitle": "Budgets against actuals, cost reports, cash flow and profitability by enterprise."
+      },
+      "workforce_analytics": {
+        "title": "Workforce analytics",
+        "subtitle": "Hours, absence, output and labour cost by crop, against budget."
+      },
+      "all_insights": {
+        "title": "All Farm Operations insights",
+        "subtitle": "Every report and analytics view in Farm Operations, and report schedules sent by email."
       }
     }
   }

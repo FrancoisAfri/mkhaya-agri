@@ -87,7 +87,7 @@ function formatTime(iso: string): string {
               <VChip color="success" variant="tonal" label>
                 <i class="fas fa-signal me-1"></i>{{ t('attendance_dashboard.attendance_rate', { rate: attendanceRate }) }}
               </VChip>
-              <VBtn color="primary" variant="tonal" prepend-icon="fas fa-plus" @click="router.visit('/attendance/records')">
+              <VBtn color="primary" variant="tonal" prepend-icon="mdi-plus" @click="router.visit('/attendance/records')">
                 {{ t('attendance_dashboard.add_record') }}
               </VBtn>
             </div>

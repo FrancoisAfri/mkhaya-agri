@@ -19,7 +19,7 @@ class FieldActivity extends FarmOwnedModel
     protected $table = 'field_activities';
 
     protected $casts = [
-        'planned_on' => 'date', 'completed_at' => 'datetime', 'area_covered' => 'decimal:4',
+        'planned_on' => 'date', 'completed_at' => \App\Modules\Agri\Casts\FarmDateTime::class, 'area_covered' => 'decimal:4',
         'labour_hours' => 'decimal:2', 'labour_cost' => 'decimal:2', 'machine_hours' => 'decimal:2',
     ];
 

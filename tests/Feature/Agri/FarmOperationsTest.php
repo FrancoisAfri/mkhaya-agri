@@ -5,7 +5,6 @@ namespace Tests\Feature\Agri;
 use App\Modules\Agri\Models\CropPlan;
 use App\Modules\Agri\Models\Farm;
 use App\Modules\Agri\Models\FarmAlert;
-use App\Modules\Agri\Models\FarmDocument;
 use App\Modules\Agri\Models\FarmMachine;
 use App\Modules\Agri\Models\FarmTask;
 use App\Modules\Agri\Models\FarmTransaction;
@@ -176,7 +175,7 @@ class FarmOperationsTest extends AgriTestCase
 
         $this->actingAs($this->manager)->post(route('agri.machinery.dispose', $m->uuid), ['disposed_on' => today()->toDateString(), 'reason' => 'Traded in'])->assertSessionHasNoErrors();
         $this->actingAs($this->manager)->post(route('agri.machinery.usage', $m->uuid), ['used_on' => today()->toDateString(), 'hours' => 2])->assertSessionHasErrors('machine');
-        $this->assertSame(1, DB::table('machine_usage_logs')->where('machine_id', $m->id)->count());
+        $this->assertSame(1, DB::table('fleet_usage_logs')->where('vehicle_id', $m->id)->count());
     }
 
     // ── G: tasks ─────────────────────────────────────────────────────────────────────────────
@@ -243,21 +242,19 @@ class FarmOperationsTest extends AgriTestCase
     {
         $farm = $this->farm('NORTH');
         $this->member($this->manager, $farm);
-        $this->actingAs($this->manager)->post(route('agri.documents.store'), [
-            'farm_id' => $farm->uuid, 'document_type' => 'water_use_licence', 'title' => 'Water use licence — borehole 2',
-            'expires_on' => today()->addDays(10)->toDateString(), 'remind_days' => 30,
-            'file' => UploadedFile::fake()->createWithContent('licence.pdf', '%PDF-1.4 test licence'),
-        ])->assertSessionHasNoErrors();
-        $doc = FarmDocument::withoutGlobalScopes()->firstOrFail();
-        $this->assertSame('%PDF-1.4 test licence', base64_decode($doc->data));
-        $this->actingAs($this->manager)->get(route('agri.documents.download', $doc->uuid))->assertOk();
+        // A farm record is a Document Management document; its bytes are in the database, not on disk.
+        $doc = $this->fileDocument($farm, 'water_use_licence', 'Water use licence — borehole 2', today()->addDays(10)->toDateString(), null, '%PDF-1.4 test licence');
+        $version = DB::table('document_versions')->where('id', $doc->current_version_id)->first();
+        $this->assertSame('documents', $version->disk);
+        $this->assertSame('%PDF-1.4 test licence', DB::table('tenant_files')->where('disk', 'documents')->where('path', $version->path)->exists()
+            ? \Illuminate\Support\Facades\Storage::disk('documents')->get($version->path) : null);
 
         $scan = fn () => $this->asCompany($this->company, fn () => app(FarmAlerts::class)->scan($this->company->id));
         $scan();
         $scan();
         $this->assertSame(1, FarmAlert::withoutGlobalScopes()->where('kind', 'document_expiry')->count(), 'A repeated scan does not duplicate the alert.');
 
-        $doc->forceFill(['expires_on' => today()->addYears(5)])->saveQuietly();
+        $doc->forceFill(['expiry_date' => today()->addYears(5)])->saveQuietly();
         $scan();
         $this->assertSame(FarmAlert::RESOLVED, FarmAlert::withoutGlobalScopes()->where('kind', 'document_expiry')->value('status'));
     }

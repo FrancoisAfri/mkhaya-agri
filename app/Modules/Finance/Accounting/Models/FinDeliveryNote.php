@@ -14,7 +14,7 @@ class FinDeliveryNote extends Model
 
     protected $table = 'fin_delivery_notes';
 
-    protected $fillable = ['entity_id', 'uuid', 'company_id', 'order_id', 'party_id', 'number', 'delivery_date', 'notes', 'created_by'];
+    protected $fillable = ['entity_id', 'uuid', 'company_id', 'order_id', 'party_id', 'number', 'delivery_date', 'notes', 'created_by', 'invoice_id'];
 
     protected $casts = ['delivery_date' => 'date'];
 

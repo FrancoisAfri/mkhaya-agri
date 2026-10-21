@@ -346,7 +346,7 @@ class ProductMasterTest extends WarehouseTestCase
             ->assertInertia(fn ($p) => $p->component('Modules/Warehouse/Products/Scan')->where('result.item.code', 'SOAP-1')->where('result.batch', 'L9'));
         $this->get(route('warehouse.products.labels', ['items' => [$this->item->uuid]]))->assertOk()
             ->assertInertia(fn ($p) => $p->component('Modules/Warehouse/Products/Labels')->has('labels', 1)->where('labels.0.barcode', self::EAN));
-        $this->get(route('warehouse.hub.products'))->assertOk();
+        $this->get(route('warehouse.hub.inventory'))->assertOk();
 
         foreach (['Products/Index', 'Products/Show', 'Products/Scan', 'Products/Labels'] as $page) {
             $this->assertFileExists(resource_path("js/Modules/Warehouse/{$page}.vue"));

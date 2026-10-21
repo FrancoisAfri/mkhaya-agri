@@ -23,7 +23,7 @@ class DocumentApprovalWorkflow extends Model
 
     protected $guarded = ['id'];
 
-    protected $casts = ['is_active' => 'boolean', 'is_mandatory' => 'boolean'];
+    protected $casts = ['is_active' => 'boolean', 'is_mandatory' => 'boolean', 'separate_from_submitter' => 'boolean'];
 
     protected static function booted(): void
     {

@@ -15,6 +15,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  */
 class CropPlan extends FarmOwnedModel
 {
+    // Farm records (Document Management) can be linked to it.
+    use \App\Modules\Operations\DocumentManagement\Concerns\HasDocuments;
+
     public const DRAFT = 'draft';
     public const APPROVED = 'approved';
     public const PLANTED = 'planted';
@@ -36,7 +39,7 @@ class CropPlan extends FarmOwnedModel
         'planned_area' => 'decimal:4', 'expected_yield' => 'decimal:3', 'budget_amount' => 'decimal:2',
         'expected_price' => 'decimal:2',
         'planned_planting_on' => 'date', 'planned_harvest_on' => 'date', 'planted_on' => 'date',
-        'harvest_completed_on' => 'date', 'approved_at' => 'datetime',
+        'harvest_completed_on' => 'date', 'approved_at' => \App\Modules\Agri\Casts\FarmDateTime::class,
     ];
 
     public function season(): BelongsTo

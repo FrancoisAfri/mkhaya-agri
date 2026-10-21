@@ -166,11 +166,13 @@ class NavigationTest extends ProjectManagementTestCase
     /** Nothing is carded that the tier system would then refuse to show. */
     public function test_setup_pages_are_admin_tier_all_the_way_down(): void
     {
-        $setup = ProjectHubs::hubs()['setup'];
+        // Setup now sits inside Insights & Setup, so the hub is READ; its setup cards stay ADMIN.
+        $setup = collect(ProjectHubs::hubs()['insights']['cards'])
+            ->filter(fn ($c) => str_starts_with($c['path'], 'project-management/setup') || $c['key'] === 'contract_templates');
 
-        $this->assertSame(ProjectHubs::ADMIN, $setup['tier']);
+        $this->assertCount(8, $setup);
 
-        foreach ($setup['cards'] as $card) {
+        foreach ($setup as $card) {
             $this->assertSame(
                 ProjectHubs::ADMIN,
                 $card['tier'],
@@ -192,7 +194,7 @@ class NavigationTest extends ProjectManagementTestCase
      */
     public function test_a_card_whose_page_checks_a_policy_declares_that_policy(): void
     {
-        $audit = collect(ProjectHubs::hubs()['evidence']['cards'])->firstWhere('key', 'evidence_audit');
+        $audit = collect(ProjectHubs::hubs()['workspace']['cards'])->firstWhere('key', 'evidence_audit');
 
         $this->assertNotNull($audit, 'The evidence audit card has gone missing.');
         $this->assertSame(
@@ -315,7 +317,7 @@ class NavigationTest extends ProjectManagementTestCase
     /** The Subcontractors hub really does offer all three of its pages. */
     public function test_the_subcontractors_hub_offers_the_register_the_invoices_and_the_contracts(): void
     {
-        $paths = $this->hubCardPaths($this->manager, 'contractors');
+        $paths = $this->hubCardPaths($this->manager, 'invoicing');
 
         $this->assertContains('/project-management/contractors/register', $paths);
         $this->assertContains('/project-management/contractors/invoices', $paths);
@@ -341,9 +343,10 @@ class NavigationTest extends ProjectManagementTestCase
             'The manager must be at a tier that cards every Setup page, or the gate is not what is hiding them.'
         );
 
-        $offered = $this->hubCardPaths($this->manager, 'setup');
+        $offered = array_values(array_filter($this->hubCardPaths($this->manager, 'insights'),
+            fn ($p) => str_starts_with($p, '/project-management/setup') || $p === '/project-management/contracts/templates'));
 
-        foreach (ProjectHubs::hubs()['setup']['cards'] as $card) {
+        foreach (ProjectHubs::hubs()['insights']['cards'] as $card) {
             if (($card['gate']['ability'] ?? null) !== 'manageSettings') {
                 continue; // readable by design — see the templates library below
             }
@@ -366,7 +369,7 @@ class NavigationTest extends ProjectManagementTestCase
         $this->manager->givePermissionTo(RoleCatalog::MANAGE_SETTINGS);
         app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
 
-        $paths = $this->hubCardPaths($this->manager->fresh(), 'setup');
+        $paths = $this->hubCardPaths($this->manager->fresh(), 'insights');
 
         $this->assertContains('/project-management/setup/calendars', $paths);
         $this->assertContains('/project-management/setup/integrations', $paths);
@@ -420,7 +423,7 @@ class NavigationTest extends ProjectManagementTestCase
     }
 
     /** The card paths a hub actually renders for a user. */
-    private function hubCardPaths(\App\Core\User\Models\User $user, string $group = 'evidence'): array
+    private function hubCardPaths(\App\Core\User\Models\User $user, string $group = 'workspace'): array
     {
         $response = $this->actingAs($user)->get('/project-management/' . $group);
 

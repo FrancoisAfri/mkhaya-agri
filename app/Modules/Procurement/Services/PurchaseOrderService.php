@@ -62,6 +62,8 @@ class PurchaseOrderService
                 'order_date'                 => now()->toDateString(),
                 'received_status'            => 'pending',
                 'created_by'                 => $userId,
+                // Delivered where the request asked for it (a farm store, say), else the default.
+                'warehouse_id'               => $req->purchaseRequest?->warehouse_id,
             ]);
 
             foreach ($req->items as $item) {
@@ -71,6 +73,7 @@ class PurchaseOrderService
                     'budget_category_id' => $item->budget_category_id,
                     'quantity'           => $item->quantity,
                     'unit_price'         => $item->unit_price,
+                    'stock_item_id'      => $item->stock_item_id ?? null,
                     'is_asset'           => $this->looksLikeAsset($item->name),
                 ]);
             }

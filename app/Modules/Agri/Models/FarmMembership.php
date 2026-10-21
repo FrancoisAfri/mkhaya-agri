@@ -30,10 +30,10 @@ class FarmMembership extends Model
     protected $table = 'farm_memberships';
 
     protected $fillable = [
-        'uuid', 'company_id', 'farm_id', 'user_id', 'role', 'status', 'granted_by', 'suspended_at', 'suspended_by',
+        'uuid', 'company_id', 'farm_id', 'user_id', 'role', 'status', 'granted_by', 'suspended_at', 'suspended_by', 'alert_emails',
     ];
 
-    protected $casts = ['suspended_at' => 'datetime'];
+    protected $casts = ['suspended_at' => \App\Modules\Agri\Casts\FarmDateTime::class, 'alert_emails' => 'boolean'];
 
     protected static function booted(): void
     {

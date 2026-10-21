@@ -61,6 +61,11 @@ class GrnStockPoster
             foreach ($lines as $line) {
                 $extra = $extras[$line->id] ?? [];
                 $item = FinStockItem::query()->findOrFail($this->stockItemId($line));
+                // A module that owns the warehouse (Mkhaya Agri's farm stores) may check the receipt first
+                // (and set up what it needs), and names the analysis dimensions its postings carry.
+                if (app()->bound('stock.receipt_guard')) {
+                    app('stock.receipt_guard')($item, $warehouse);
+                }
                 $poItem = $line->purchase_order_item_id ? $line->purchaseOrderItem : null;
                 $uomId = $line->txn_uom_id ?? $poItem?->uom_id;
                 $profile = ItemProfile::query()->where('stock_item_id', $item->id)->first();
@@ -83,6 +88,7 @@ class GrnStockPoster
 
                 $lots = $this->lots($item, $mfg, $line, $extra, $accepted['base_qty'], $grn);
                 $common = [
+                    'dimensions' => app()->bound('stock.warehouse_dimensions') ? (array) app('stock.warehouse_dimensions')($warehouse) : [],
                     'contra' => $this->contraFor($grn), 'reference' => $grn->grn_number, 'status' => $status,
                     'bin_id' => $bin?->id, 'source_type' => 'GRN', 'source_id' => $grn->id,
                     'txn_uom_id' => $accepted['txn_uom_id'], 'occurred_at' => $grn->received_at ?? now(), 'reason_code' => 'RECEIPT',

@@ -190,6 +190,10 @@ class Livestock
         if (in_array($status, ['sold', 'slaughtered'], true)) {
             $this->assertNoWithdrawal($animal, $animal->group, $date);
         }
+        // A quarantined animal does not leave the farm, whatever the paperwork says.
+        if ($status === 'transferred' && $animal->quarantine_until && $animal->quarantine_until->gte(Carbon::parse($date))) {
+            throw ValidationException::withMessages(['status' => "{$animal->tag_number} is in quarantine until {$animal->quarantine_until->toDateString()} and may not leave the farm."]);
+        }
 
         return DB::transaction(function () use ($animal, $status, $date, $reason, $value, $actor, $settledBy) {
             $animal->update(['status' => $status, 'exited_on' => $date, 'exit_reason' => $reason, 'exit_value' => $value]);
@@ -240,21 +244,35 @@ class Livestock
                     'withdrawal_days' => $data['withdrawal_days'] ?? null, 'withdrawal_until' => $withdrawalUntil,
                     'next_due_on' => $data['next_due_on'] ?? null, 'vet_name' => $data['vet_name'] ?? null,
                     'cost' => $data['cost'] ?? null, 'notes' => $data['notes'] ?? null, 'recorded_by' => $actor->id,
+                    // §4.3
+                    'notifiable' => (bool) ($data['notifiable'] ?? false), 'quarantine_days' => $data['quarantine_days'] ?? null,
+                    'requires_clearance' => (bool) ($data['requires_clearance'] ?? false), 'programme_id' => $data['programme_id'] ?? null,
                 ]);
+                // Quarantine: the animal, or the whole group, may not move off or be sold until it ends.
+                if (! empty($data['quarantine_days'])) {
+                    $until = Carbon::parse($data['treated_on'])->addDays((int) $data['quarantine_days'])->toDateString();
+                    $target = $animal ?? $group;
+                    if (! $target->quarantine_until || $target->quarantine_until->lt($until)) {
+                        $target->update(['quarantine_until' => $until]);
+                    }
+                }
+                if ($record->notifiable) {
+                    app(AgriNotifier::class)->notifiableDisease($record, $animal?->tag_number ?? $group?->code ?? '');
+                }
 
                 if (! empty($data['stock_item_id']) && (float) ($data['quantity'] ?? 0) > 0) {
                     $item = FinStockItem::query()->findOrFail($data['stock_item_id']);
-                    $movement = $this->stock->issueTo($item, (float) $data['quantity'], $this->stores->storeFor($farm), [
+                    $issued = $this->stores->issue($farm, $item, (float) $data['quantity'], [
                         'source_type' => 'agri_health', 'source_id' => $record->id,
                         'idempotency_key' => "agri-health-{$record->uuid}", 'date' => $data['treated_on'],
                         'reference' => "{$farm->code} ".($animal?->tag_number ?? $group?->code)." {$data['event_type']}",
-                        'expense_account' => config('agri.accounts.animal_health'), 'reason_code' => 'AGRI_USE',
+                        'expense_account' => config('agri.accounts.animal_health'), 'reason_code' => 'AGRI_USE', 'actor' => $actor,
                         'dimensions' => AgriLedger::dimensions($farm, null, $group, 'animal_health'),
                     ]);
                     $record->update([
-                        'stock_movement_id' => $movement->id,
+                        'stock_movement_id' => $issued['movement']->id,
                         'product_name' => $record->product_name ?: $item->name,
-                        'cost' => $record->cost ?? abs((float) $movement->value),
+                        'cost' => $record->cost ?? $issued['value'],
                     ]);
                 }
 
@@ -314,12 +332,55 @@ class Livestock
         return $until ? Carbon::parse($until) : null;
     }
 
+    /**
+     * §4.3: why an animal or group may not be sold, slaughtered or dispatched on a date — a running
+     * withdrawal period, a quarantine, or a treatment whose release has not been verified.
+     *
+     * @return list<string>
+     */
+    public function saleBlocks(?Animal $animal, ?LivestockGroup $group, ?string $onDate = null): array
+    {
+        $on = Carbon::parse($onDate ?? today());
+        $why = [];
+        if ($until = $this->withdrawalUntil($animal, $group, $on->toDateString())) {
+            $why[] = 'Still inside a treatment withdrawal period until '.$until->toDateString().'.';
+        }
+        foreach (array_filter([$animal, $group]) as $x) {
+            if ($x->quarantine_until && $x->quarantine_until->gte($on)) {
+                $why[] = ($x instanceof Animal ? $x->tag_number : "Group {$x->code}").' is in quarantine until '.$x->quarantine_until->toDateString().'.';
+            }
+        }
+        $uncleared = AnimalHealthRecord::query()->where('requires_clearance', true)->whereNull('cleared_at')
+            ->where(fn ($q) => $q->when($animal, fn ($w) => $w->orWhere('animal_id', $animal->id))
+                ->when($group, fn ($w) => $w->orWhere(fn ($g) => $g->where('group_id', $group->id)->whereNull('animal_id'))))->get();
+        foreach ($uncleared as $r) {
+            $why[] = "The {$r->event_type} of {$r->treated_on->toDateString()}".($r->product_name ? " ({$r->product_name})" : '').' needs a verified release before sale.';
+        }
+
+        return $why;
+    }
+
+    /** Verify a treatment's release (a residue test, a vet's sign-off) once its withdrawal is over. */
+    public function clear(AnimalHealthRecord $record, string $note, User $actor): AnimalHealthRecord
+    {
+        if (! $record->requires_clearance || $record->cleared_at) {
+            throw ValidationException::withMessages(['clearance' => 'Nothing to clear on this record.']);
+        }
+        if ($record->withdrawal_until && $record->withdrawal_until->isFuture()) {
+            throw ValidationException::withMessages(['clearance' => 'The withdrawal period runs until '.$record->withdrawal_until->toDateString().'; it cannot be released before.']);
+        }
+        if ((int) $record->recorded_by === (int) $actor->id) {
+            throw ValidationException::withMessages(['clearance' => 'Somebody other than the person who recorded the treatment verifies its release.']);
+        }
+        $record->update(['cleared_by' => $actor->id, 'cleared_at' => now(), 'clearance_note' => mb_strimwidth($note, 0, 300)]);
+
+        return $record;
+    }
+
     private function assertNoWithdrawal(?Animal $animal, ?LivestockGroup $group, string $date): void
     {
-        $until = $this->withdrawalUntil($animal, $group, $date);
-        if ($until) {
-            throw ValidationException::withMessages(['status' => 'Still inside a treatment withdrawal period until '.$until->toDateString().
-                '. It may not be sold or slaughtered before then.']);
+        if ($why = $this->saleBlocks($animal, $group, $date)) {
+            throw ValidationException::withMessages(['status' => implode(' ', $why).' It may not be sold, slaughtered or dispatched yet.']);
         }
     }
 

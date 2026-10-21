@@ -11,6 +11,7 @@ use App\Modules\Agri\Models\FieldActivity;
 use App\Modules\Agri\Models\LivestockGroup;
 use App\Modules\Finance\Accounting\Exceptions\PostingException;
 use App\Modules\Finance\Accounting\Models\FinStockItem;
+use App\Modules\Finance\Accounting\Models\FinStockMovement;
 use App\Modules\Finance\Accounting\Services\StockLedger;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -79,6 +80,7 @@ class FieldWork
             'uom' => $item->uom,
             'rate_per_ha' => $data['rate_per_ha'] ?? null,
             'withholding_days' => $data['withholding_days'] ?? null,
+            'reentry_hours' => $data['reentry_hours'] ?? null,
             'status' => ActivityInput::PLANNED,
         ]);
     }
@@ -124,16 +126,17 @@ class FieldWork
 
                     foreach ($inputs as $input) {
                         $item = FinStockItem::withoutGlobalScopes()->findOrFail($input->stock_item_id);
-                        $movement = $this->stock->issueTo($item, (float) $input->quantity, $warehouse, [
-                            'source_type' => 'agri_activity', 'source_id' => $activity->id,
+                        $issued = $this->stores->issue($farm, $item, (float) $input->quantity, [
+                            'warehouse' => $warehouse, 'source_type' => 'agri_activity', 'source_id' => $activity->id,
                             'idempotency_key' => "agri-input-{$input->uuid}",
                             'date' => $completedAt->toDateString(),
                             'reference' => "{$farm->code} {$activity->title}",
                             'expense_account' => $account,
-                            'reason_code' => 'AGRI_USE',
+                            'reason_code' => 'AGRI_USE', 'actor' => $actor,
                             'dimensions' => AgriLedger::dimensions($farm, $activity->field, $enterprise, 'inputs'),
                         ]);
-                        $total = abs((float) $movement->value);
+                        $movement = $issued['movement'];
+                        $total = $issued['value'];
                         $input->update([
                             'status' => ActivityInput::ISSUED,
                             'warehouse_id' => $warehouse->id,
@@ -169,6 +172,63 @@ class FieldWork
             });
         } catch (PostingException $e) {
             throw ValidationException::withMessages(['inputs' => $e->getMessage()]);
+        }
+    }
+
+    /**
+     * Phase 2 §3.6 acceptance: the actual quantity of an input already issued was wrong. Nothing is
+     * edited: the original issue is reversed in the stock ledger (its journal reversed with it) and
+     * the right quantity issued as a new line that points at the one it corrects. Both stay in the
+     * history and the audit trail; the cost reports, which read the books, show the net.
+     */
+    public function correctInput(ActivityInput $input, float $quantity, string $reason, User $actor): ?ActivityInput
+    {
+        if ($input->status !== ActivityInput::ISSUED || ! $input->stock_movement_id) {
+            throw ValidationException::withMessages(['input' => 'Only an input that was issued can be corrected.']);
+        }
+        if ($quantity < 0 || abs($quantity - (float) $input->quantity) < 0.0001) {
+            throw ValidationException::withMessages(['quantity' => 'Give the quantity actually used, different from what was recorded.']);
+        }
+        if (trim($reason) === '') {
+            throw ValidationException::withMessages(['reason' => 'Say why the quantity is being corrected.']);
+        }
+        $activity = $input->activity()->withoutGlobalScopes()->firstOrFail();
+        $farm = $activity->farm;
+
+        try {
+            return DB::transaction(function () use ($input, $quantity, $reason, $actor, $activity, $farm) {
+                // Every movement the line issued (one per lot when it came from several), each reversed.
+                $original = FinStockMovement::withoutGlobalScopes()->findOrFail($input->stock_movement_id);
+                $all = $original->idempotency_key
+                    ? FinStockMovement::withoutGlobalScopes()->where('company_id', $original->company_id)
+                        ->where(fn ($q) => $q->where('idempotency_key', $original->idempotency_key)->orWhere('idempotency_key', 'like', $original->idempotency_key.'#%'))->get()
+                    : collect([$original]);
+                foreach ($all as $i => $m) {
+                    $this->stock->reverse($m, "Correction: {$reason}", "agri-input-reverse-{$input->uuid}".($i ? "#{$i}" : ''));
+                }
+                $input->update(['status' => ActivityInput::REVERSED, 'correction_reason' => mb_strimwidth($reason, 0, 300)]);
+                if ($quantity <= 0) {
+                    return null;   // none was used after all
+                }
+                $item = FinStockItem::withoutGlobalScopes()->findOrFail($input->stock_item_id);
+                $enterprise = $activity->cropPlan ?? $activity->livestockGroup;
+                $issued = $this->stores->issue($farm, $item, $quantity, [
+                    'source_type' => 'agri_activity', 'source_id' => $activity->id, 'idempotency_key' => "agri-input-correct-{$input->uuid}",
+                    'date' => today()->toDateString(), 'reference' => "{$farm->code} {$activity->title} (corrected)",
+                    'expense_account' => $activity->livestock_group_id ? config('agri.accounts.animal_health') : config('agri.accounts.inputs'),
+                    'reason_code' => 'AGRI_USE', 'actor' => $actor, 'dimensions' => AgriLedger::dimensions($farm, $activity->field, $enterprise, 'inputs'),
+                ]);
+                $movement = $issued['movement'];
+                $total = $issued['value'];
+
+                return ActivityInput::create(['company_id' => $input->company_id, 'farm_id' => $input->farm_id, 'activity_id' => $input->activity_id,
+                    'stock_item_id' => $input->stock_item_id, 'warehouse_id' => $movement->warehouse_id, 'quantity' => $quantity, 'uom' => $input->uom,
+                    'rate_per_ha' => $input->rate_per_ha, 'withholding_days' => $input->withholding_days, 'reentry_hours' => $input->reentry_hours,
+                    'unit_cost' => round($total / $quantity, 4), 'total_cost' => $total, 'stock_movement_id' => $movement->id, 'status' => ActivityInput::ISSUED,
+                    'issued_at' => now(), 'issued_by' => $actor->id, 'reversal_of_id' => $input->id, 'correction_reason' => mb_strimwidth($reason, 0, 300)]);
+            });
+        } catch (PostingException $e) {
+            throw ValidationException::withMessages(['quantity' => $e->getMessage()]);
         }
     }
 

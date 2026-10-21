@@ -20,7 +20,7 @@ use Illuminate\Validation\ValidationException;
  */
 class FarmTasks
 {
-    public function __construct(private readonly FarmAccess $access, private readonly FarmRegistry $registry) {}
+    public function __construct(private readonly FarmAccess $access, private readonly FarmRegistry $registry, private readonly AgriNotifier $notifier) {}
 
     public function create(Farm $farm, array $data, User $actor): FarmTask
     {
@@ -28,9 +28,14 @@ class FarmTasks
         $this->assertAssignable($farm, $data['assigned_to'] ?? null);
         $this->assertLinksOn($farm, $data);
 
-        return FarmTask::create($data + [
+        $task = FarmTask::create($data + [
             'company_id' => $farm->company_id, 'farm_id' => $farm->id, 'status' => FarmTask::OPEN, 'created_by' => $actor->id,
         ]);
+        if ($task->assigned_to && (int) $task->assigned_to !== (int) $actor->id) {
+            $this->notifier->taskAssigned($task);
+        }
+
+        return $task;
     }
 
     public function update(FarmTask $task, array $data): FarmTask
@@ -40,7 +45,11 @@ class FarmTasks
         }
         $this->assertAssignable($task->farm, $data['assigned_to'] ?? null);
         $this->assertLinksOn($task->farm, $data);
+        $before = $task->assigned_to;
         $task->update($data);
+        if ($task->assigned_to && (int) $task->assigned_to !== (int) $before) {
+            $this->notifier->taskAssigned($task);
+        }
 
         return $task;
     }
@@ -68,6 +77,9 @@ class FarmTasks
             'completion_notes' => $data['completion_notes'] ?? null,
             'submitted_at' => now(), 'submitted_by' => $actor->id,
         ] + ($task->requires_approval ? [] : ['reviewed_at' => now(), 'reviewed_by' => $actor->id]));
+        if ($task->requires_approval) {
+            $this->notifier->taskSubmitted($task, $actor);
+        }
 
         return $task;
     }
@@ -87,6 +99,7 @@ class FarmTasks
             'status' => $approve ? FarmTask::APPROVED : FarmTask::REJECTED,
             'reviewed_by' => $actor->id, 'reviewed_at' => now(), 'review_note' => $note,
         ]);
+        $this->notifier->taskReviewed($task, $approve, $actor);
 
         return $task;
     }
@@ -99,6 +112,21 @@ class FarmTasks
         $task->update(['status' => FarmTask::CANCELLED]);
 
         return $task;
+    }
+
+    /**
+     * Whether the person reaches this farm when working in its organisation. Somebody who belongs
+     * here but is working in another organisation right now has their farm memberships here
+     * all the same; FarmAccess would answer for the organisation they are in.
+     */
+    private function reachesInOrganisation(User $user, Farm $farm): bool
+    {
+        if ((int) $user->company_id === (int) $farm->company_id) {
+            return $this->access->canReach($user, $farm->id);
+        }
+
+        return \App\Modules\Agri\Models\FarmMembership::withoutGlobalScopes()->where('farm_id', $farm->id)
+            ->where('user_id', $user->id)->where('status', \App\Modules\Agri\Models\FarmMembership::ACTIVE)->exists();
     }
 
     /** A task's crop plan, herd or machine must be on the task's own farm. */
@@ -126,8 +154,9 @@ class FarmTasks
         if (! $userId) {
             return;
         }
-        $user = User::query()->find($userId);
-        if (! $user || (int) $user->company_id !== (int) $farm->company_id || ! $this->access->canReach($user, $farm->id)) {
+        $user = User::withoutGlobalScopes()->find($userId);
+        if (! $user || ! app(\App\Modules\Tenancy\Services\Memberships::class)->isMember($user, (int) $farm->company_id)
+            || ! $this->reachesInOrganisation($user, $farm)) {
             throw ValidationException::withMessages(['assigned_to' => 'That person does not have access to this farm. Give them access first.']);
         }
     }

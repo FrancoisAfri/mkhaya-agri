@@ -21,7 +21,7 @@ class FleetHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'my_fleet' => [
                 'name' => 'My Fleet', 'path' => 'fleet/my-fleet-hub', 'icon' => 'layout-grid', 'tier' => self::READ,
                 'title' => 'fleet_management.hubs.my_fleet.title', 'subtitle' => 'fleet_management.hubs.my_fleet.subtitle',
@@ -73,6 +73,9 @@ class FleetHubs extends ModuleHubs
                     self::card('integrations', 'fleet/integrations', 'connection', self::ADMIN, 'cyan'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

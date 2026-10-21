@@ -18,4 +18,13 @@ const COLORS: Record<string, string> = {
 }
 export const statusColor = (s: string | null | undefined) => COLORS[s ?? ''] ?? 'default'
 
-export const today = () => new Date().toISOString().slice(0, 10)
+/** A local "YYYY-MM-DD" (toISOString would give the UTC date: yesterday, before 02:00 in SAST). */
+export const ymd = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+export const today = () => ymd(new Date())
+
+/** A local "YYYY-MM-DDTHH:MM" for datetime inputs (toISOString would give UTC, two hours off in SAST). */
+export const localDateTime = (d: Date) => {
+  const p = (n: number) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}`
+}
+export const hoursFromNow = (h: number) => { const d = new Date(); d.setMinutes(0, 0, 0); d.setHours(d.getHours() + h); return localDateTime(d) }

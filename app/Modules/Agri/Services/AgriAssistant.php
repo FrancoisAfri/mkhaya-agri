@@ -8,7 +8,6 @@ use App\Modules\Agri\Models\AnimalHealthRecord;
 use App\Modules\Agri\Models\CropPlan;
 use App\Modules\Agri\Models\Farm;
 use App\Modules\Agri\Models\FarmAlert;
-use App\Modules\Agri\Models\FarmDocument;
 use App\Modules\Agri\Models\FarmMachine;
 use App\Modules\Agri\Models\FarmTask;
 use App\Modules\Agri\Models\LivestockGroup;
@@ -40,9 +39,27 @@ class AgriAssistant
         'tasks' => ['Which tasks are overdue or waiting for approval?', [R::VIEW_TASKS]],
         'documents' => ['Which permits or certificates are expiring?', [R::VIEW_DOCUMENTS]],
         'profitability' => ['Which enterprises are most and least profitable this year?', [R::VIEW_FINANCE]],
+        // Phase 2 §10.1
+        'yield_risk' => ['Which fields are likely to fall below their yield target?', [R::VIEW_CROPS]],
+        'harvest_cost' => ['What is the estimated cost of harvesting the remaining crop?', [R::VIEW_CROPS]],
+        'stock_before_harvest' => ['Which stock items may run out before harvest?', [R::VIEW_STOCK]],
+        'late_work_orders' => ['Which work orders are behind schedule?', [R::VIEW_WORK_ORDERS]],
+        'labour_per_kg' => ['What is the labour cost per kilogram this season?', [R::VIEW_WORKFORCE]],
+        'buyer_payments' => ['Which buyers have outstanding payments?', [R::VIEW_SALES, R::VIEW_FINANCE]],
+        'livestock_care' => ['Which livestock groups require scheduled care?', [R::VIEW_LIVESTOCK]],
+        'machine_risk' => ['Which machines should be inspected first?', [R::VIEW_MACHINERY]],
     ];
 
     private const KEYWORDS = [
+        // The specific §10.1 questions first: they share words with the broader topics below.
+        'stock_before_harvest' => ['before harvest', 'run out before', 'last until harvest'],
+        'harvest_cost' => ['cost of harvesting', 'cost to harvest', 'harvesting cost', 'harvest the remaining'],
+        'yield_risk' => ['below their yield target', 'below target', 'fall below', 'miss their yield', 'under target'],
+        'labour_per_kg' => ['labour cost per', 'labor cost per', 'per kilogram', 'per kg'],
+        'buyer_payments' => ['outstanding payment', 'unpaid', 'owe us', 'owes us', 'buyers have outstanding', 'debtors'],
+        'late_work_orders' => ['behind schedule', 'running late', 'late work order', 'overdue work order', 'work orders behind'],
+        'livestock_care' => ['scheduled care', 'vaccination', 'vaccinate', 'due for care', 'dipping', 'deworm'],
+        'machine_risk' => ['inspected first', 'failure risk', 'break down', 'breakdown', 'likely to fail', 'risk of failure'],
         'withdrawal' => ['withdrawal', 'withholding', 'cannot be sold', 'can\'t be sold', 'not be sold', 'treated', 'treatment'],
         'yield' => ['yield', 'per hectare', 'per ha', 'tonnes', 'tons'],
         'profitability' => ['profit', 'margin', 'income', 'cost', 'expense', 'money', 'budget', 'spend'],
@@ -116,7 +133,8 @@ class AgriAssistant
         $method = lcfirst(str_replace('_', '', ucwords($topic, '_')));
         $a = $this->{$method}($farms);
 
-        return $a + ['topic' => $topic, 'title' => self::TOPICS[$topic][0], 'refused' => false,
+        // §10.1: every answer from farm data says the period it covers, the records it read and what it assumed.
+        return $a + ['period' => 'As of '.today()->toDateString(), 'assumptions' => []] + ['topic' => $topic, 'title' => self::TOPICS[$topic][0], 'refused' => false,
             'farms' => $farms->pluck('name')->all(), 'as_of' => now()->toDateTimeString(), 'read_only' => true];
     }
 
@@ -257,13 +275,13 @@ class AgriAssistant
 
     private function documents($farms): array
     {
-        $docs = FarmDocument::query()->where('status', 'active')->whereNotNull('expires_on')
-            ->whereDate('expires_on', '<=', today()->addDays((int) config('agri.alert_horizon_days', 30)))->with('farm')->orderBy('expires_on')->get();
-        $rows = $docs->map(fn ($d) => ['farm' => $d->farm->name, 'document' => $d->title, 'type' => str_replace('_', ' ', $d->document_type),
-            'expires_on' => $d->expires_on->toDateString(), 'state' => $d->expiryState()])->all();
-        $expired = $docs->filter(fn ($d) => $d->expiryState() === 'expired')->count();
+        $names = $farms->pluck('name', 'id');
+        $docs = FarmDocuments::expiring($farms->pluck('id')->all());
+        $rows = $docs->map(fn ($x) => ['farm' => $names[$x['farm_id']] ?? null, 'document' => $x['document']->title, 'type' => str_replace('_', ' ', (string) $x['document']->document_type),
+            'expires_on' => $x['document']->expiry_date->toDateString(), 'state' => $x['state']])->all();
+        $expired = $docs->where('state', 'expired')->count();
 
-        return ['columns' => ['farm', 'document', 'type', 'expires_on', 'state'], 'rows' => $rows, 'sources' => ['Farm compliance documents'],
+        return ['columns' => ['farm', 'document', 'type', 'expires_on', 'state'], 'rows' => $rows, 'sources' => ['Farm records in Document Management'],
             'flags' => [], 'recommendations' => [],
             'summary' => $docs->isEmpty() ? 'No permit, licence or certificate expires in the next '.config('agri.alert_horizon_days', 30).' days.'
                 : "{$docs->count()} document(s) expired or expiring, {$expired} already expired."];
@@ -290,6 +308,193 @@ class AgriAssistant
             'period' => ['from' => $from, 'to' => $to, 'label' => 'this year'],
             'summary' => $rows ? "Most profitable: {$rows[0]['enterprise']} ({$rows[0]['farm']}) with a gross margin of ".number_format($rows[0]['gross_margin'], 2).
                 '. Least: '.end($rows)['enterprise'].' at '.number_format(end($rows)['gross_margin'], 2).'.' : 'No income or cost has been posted against a farm this year.'];
+    }
+
+    // ── Phase 2 §10.1 ───────────────────────────────────────────────────────────────────────
+
+    private function yieldRisk($farms): array
+    {
+        $rows = CropPlan::query()->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->whereNotNull('expected_yield')->with(['cropType', 'field', 'farm'])->get()
+            ->map(function (CropPlan $p) {
+                $f = \App\Modules\Agri\Models\HarvestForecast::query()->where('crop_plan_id', $p->id)->latest('id')->first();
+                $target = (float) $p->expected_yield * $p->hectares();
+                if (! $f || $target <= 0) {
+                    return null;
+                }
+                $gap = round(((float) $f->quantity - $target) / $target * 100, 1);
+
+                return ['farm' => $p->farm->name, 'plan' => $p->code, 'crop' => $p->cropType?->name, 'field' => $p->field?->code, 'target' => round($target, 1),
+                    'forecast' => round((float) $f->quantity, 1), 'unit' => $p->yield_unit, 'vs_target_pct' => $gap,
+                    'range' => $f->low !== null && $f->high !== null ? round((float) $f->low, 1).'–'.round((float) $f->high, 1) : null, 'method' => $f->method,
+                    'forecast_on' => $f->made_on?->toDateString() ?? $f->created_at?->toDateString(), 'url' => "/agri/crops/plans/{$p->uuid}"];
+            })->filter()->sortBy('vs_target_pct')->values();
+        $below = $rows->where('vs_target_pct', '<', 0);
+        $none = CropPlan::query()->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->count() - $rows->count();
+
+        return ['columns' => ['farm', 'plan', 'crop', 'field', 'target', 'forecast', 'range', 'unit', 'vs_target_pct', 'forecast_on'], 'rows' => $rows->all(),
+            'sources' => ['The latest harvest forecast of each growing crop', 'Expected yield × planted area on each crop plan'],
+            'assumptions' => ['Target = expected yield per hectare × the plan\'s area.', 'A crop without a forecast or an expected yield is left out.'],
+            'flags' => $none > 0 ? [$this->flag('INSUFFICIENT', "{$none} growing crop(s) have no forecast or no expected yield, so they cannot be judged.")] : [],
+            'recommendations' => $below->take(3)->map(fn ($r) => "Scout {$r['field']} ({$r['plan']}): forecast {$r['vs_target_pct']}% against target.")->values()->all(),
+            'drafts' => $below->take(3)->map(fn ($r) => ['kind' => 'work_order', 'title' => "Scout {$r['field']} for yield loss", 'farm' => $r['farm'],
+                'payload' => ['category' => 'other', 'title' => "Scout {$r['field']} ({$r['plan']}) for yield loss", 'plan' => $r['plan']],
+                'reason' => "Forecast {$r['forecast']} {$r['unit']} against a target of {$r['target']} ({$r['vs_target_pct']}%)."])->values()->all(),
+            'summary' => $rows->isEmpty() ? 'No growing crop has both a forecast and a target yet.'
+                : ($below->isEmpty() ? 'Every forecast crop is on or above its yield target.' : "{$below->count()} crop(s) are forecast below target; the furthest is {$below->first()['plan']} at {$below->first()['vs_target_pct']}%.")];
+    }
+
+    private function harvestCost($farms): array
+    {
+        $rows = CropPlan::query()->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->with(['cropType', 'farm'])->get()->map(function (CropPlan $p) {
+            $in = (float) \App\Modules\Agri\Models\HarvestRecord::query()->where('crop_plan_id', $p->id)->where('destination', '!=', 'loss')->sum('quantity');
+            $f = \App\Modules\Agri\Models\HarvestForecast::query()->where('crop_plan_id', $p->id)->latest('id')->first();
+            $expected = $f?->quantity ?? ($p->expected_yield !== null ? (float) $p->expected_yield * $p->hectares() : null);
+            if ($expected === null) {
+                return null;
+            }
+            $left = max(0, (float) $expected - $in);
+            // What harvesting has cost per unit so far on this crop: approved labour on harvesting jobs, over what came in.
+            $woIds = \App\Modules\Agri\Models\FarmWorkOrder::query()->where('crop_plan_id', $p->id)->where('category', 'harvesting')->pluck('id');
+            $spent = (float) \App\Modules\HR\Hr\Attendance\Models\Timesheet::query()->whereIn('work_order_id', $woIds)->where('status', 'approved')->sum('cost_amount')
+                + (float) \App\Modules\HR\Hr\Attendance\Models\PieceworkEntry::query()->whereIn('work_order_id', $woIds)->where('status', 'approved')->sum('amount')
+                + (float) \App\Modules\Agri\Models\FarmWorkOrder::query()->whereIn('id', $woIds)->sum('actual_machine_cost');
+            $rate = $in > 0 && $spent > 0 ? $spent / $in : null;
+
+            return ['farm' => $p->farm->name, 'plan' => $p->code, 'crop' => $p->cropType?->name, 'left' => round($left, 1), 'unit' => $p->yield_unit,
+                'cost_per_unit_so_far' => $rate !== null ? round($rate, 2) : null, 'estimate' => $rate !== null ? round($rate * $left, 2) : null,
+                'url' => "/agri/crops/plans/{$p->uuid}"];
+        })->filter()->values();
+        $priced = $rows->whereNotNull('estimate');
+
+        return ['columns' => ['farm', 'plan', 'crop', 'left', 'unit', 'cost_per_unit_so_far', 'estimate'], 'rows' => $rows->all(),
+            'sources' => ['Harvest forecasts and records', 'Approved time, piecework and machine cost on each crop\'s harvesting work orders'],
+            'assumptions' => ['The rest of the crop costs what harvesting has cost per unit so far.', 'Left to harvest = latest forecast (else expected yield × area) less what is in.'],
+            'flags' => $rows->count() > $priced->count() ? [$this->flag('INSUFFICIENT', ($rows->count() - $priced->count()).' crop(s) have no harvesting costs yet, so no estimate is given for them.')] : [],
+            'recommendations' => [],
+            'summary' => $priced->isEmpty() ? 'No crop has harvesting costs recorded yet, so the cost of the rest cannot be estimated.'
+                : 'About R'.number_format($priced->sum('estimate'), 2).' to harvest what is left on '.$priced->count().' crop(s), at each crop\'s cost per unit so far.'];
+    }
+
+    private function stockBeforeHarvest($farms): array
+    {
+        $inventory = app(FarmInventory::class);
+        $rows = collect();
+        foreach ($farms as $farm) {
+            $next = CropPlan::query()->where('farm_id', $farm->id)->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->where('planned_harvest_on', '>=', today())->min('planned_harvest_on');
+            if (! $next) {
+                continue;
+            }
+            $days = today()->diffInDays(Carbon::parse($next));
+            foreach ($inventory->reorderSuggestions($farm, (int) $days) as $r) {
+                if ($r['days_left'] < $days) {
+                    $rows->push(['farm' => $farm->name, 'item' => $r['item'], 'item_id' => $r['item_id'], 'available' => $r['available'], 'per_day' => $r['per_day'],
+                        'days_left' => $r['days_left'], 'harvest_from' => Carbon::parse($next)->toDateString(), 'order_by' => $r['order_by'], 'suggest' => $r['suggest'], 'uom' => $r['uom'] ?? null]);
+                }
+            }
+        }
+
+        return ['columns' => ['farm', 'item', 'available', 'per_day', 'days_left', 'harvest_from', 'order_by'], 'rows' => $rows->sortBy('days_left')->values()->all(),
+            'sources' => ['The last 90 days\' issues from each farm store', 'What is in store and on order', 'Each farm\'s next planned harvest'],
+            'assumptions' => ['Use continues at the last 90 days\' daily rate.', 'Stock on order arrives on time.'],
+            'flags' => [], 'recommendations' => [],
+            'drafts' => $rows->take(5)->map(fn ($r) => ['kind' => 'requisition', 'title' => "Requisition {$r['item']}", 'farm' => $r['farm'],
+                'payload' => ['lines' => [['stock_item_id' => $r['item_id'], 'quantity' => $r['suggest']]], 'justification' => "Runs out in {$r['days_left']} days; harvest starts {$r['harvest_from']}."],
+                'reason' => "{$r['item']}: {$r['days_left']} days left at {$r['per_day']}/day, harvest from {$r['harvest_from']}."])->values()->all(),
+            'summary' => $rows->isEmpty() ? 'Nothing is forecast to run out before the next harvest.' : $rows->count().' item(s) may run out before harvest; the first is '.$rows->sortBy('days_left')->first()['item'].'.'];
+    }
+
+    private function lateWorkOrders($farms): array
+    {
+        $wos = \App\Modules\Agri\Models\FarmWorkOrder::query()->whereIn('status', [\App\Modules\Agri\Models\FarmWorkOrder::APPROVED, \App\Modules\Agri\Models\FarmWorkOrder::IN_PROGRESS, \App\Modules\Agri\Models\FarmWorkOrder::PAUSED])
+            ->where('planned_end', '<', now())->with('farm')->orderBy('planned_end')->get();
+        $rows = $wos->map(fn ($w) => ['farm' => $w->farm?->name, 'work_order' => $w->reference, 'title' => $w->title, 'status' => $w->status,
+            'due' => $w->planned_end?->format('Y-m-d H:i'), 'late_by_hours' => (int) round($w->planned_end->diffInMinutes(now()) / 60), 'url' => "/agri/work-orders/{$w->uuid}"])->all();
+
+        return ['columns' => ['farm', 'work_order', 'title', 'status', 'due', 'late_by_hours'], 'rows' => $rows,
+            'sources' => ['Approved, started and paused work orders and their planned end'], 'assumptions' => ['Behind schedule = still open after its planned end.'],
+            'flags' => [], 'recommendations' => [],
+            'summary' => $wos->isEmpty() ? 'No work order is behind schedule.' : "{$wos->count()} work order(s) are past their planned end; the oldest is {$wos->first()->reference}."];
+    }
+
+    private function labourPerKg($farms): array
+    {
+        $season = \App\Modules\Agri\Models\CropSeason::query()->where('status', 'open')->orderBy('starts_on')->first();
+        $from = $season?->starts_on ?? today()->startOfYear();
+        $rows = collect();
+        foreach ($farms as $farm) {
+            foreach (app(WorkforceAnalytics::class)->costByCrop($farm, $from, today()) as $r) {
+                $plan = CropPlan::query()->where('farm_id', $farm->id)->where('code', $r['crop'])->first();
+                $kg = $plan ? \App\Modules\Agri\Models\HarvestRecord::query()->where('crop_plan_id', $plan->id)->get()
+                    ->sum(fn ($h) => match ($h->unit) { 'kg' => (float) $h->quantity, 't' => (float) $h->quantity * 1000, default => 0 }) : 0;
+                $rows->push(['farm' => $farm->name, 'plan' => $r['crop'], 'labour_cost' => $r['labour_cost'], 'harvested_kg' => round($kg, 1),
+                    'per_kg' => $kg > 0 ? round($r['labour_cost'] / $kg, 3) : null]);
+            }
+        }
+        $kg = $rows->sum('harvested_kg');
+        $cost = $rows->where('harvested_kg', '>', 0)->sum('labour_cost');
+
+        return ['columns' => ['farm', 'plan', 'labour_cost', 'harvested_kg', 'per_kg'], 'rows' => $rows->all(),
+            'period' => $from->toDateString().' to '.today()->toDateString().($season ? " ({$season->name})" : ''),
+            'sources' => ['Approved timesheets and piecework charged to each crop', 'Harvest records in kg or tonnes'],
+            'assumptions' => ['All of a crop\'s labour this season is spread over what it has yielded so far.', 'Harvests recorded in other units are left out.'],
+            'flags' => $rows->whereNull('per_kg')->count() ? [$this->flag('INSUFFICIENT', $rows->whereNull('per_kg')->count().' crop(s) have labour but no harvest in kg yet.')] : [],
+            'recommendations' => [],
+            'summary' => $kg > 0 ? 'R'.number_format($cost / $kg, 3).' of labour per kg harvested this season, over '.number_format($kg).' kg.' : 'Nothing has been harvested in kg this season yet.'];
+    }
+
+    private function buyerPayments($farms): array
+    {
+        $sales = app(FarmSales::class);
+        // Buyers are the Accounting customers the farms have invoiced.
+        $partyIds = \App\Modules\Finance\Accounting\Models\FinInvoice::query()->where('direction', 'receivable')
+            ->whereIn(\Illuminate\Support\Facades\DB::raw("dimensions->>'agri_farm'"), collect($farms)->map(fn ($f) => (string) $f->id)->all())->distinct()->pluck('party_id');
+        $rows = \App\Modules\Finance\Accounting\Models\FinParty::query()->whereIn('id', $partyIds)->get()->map(fn ($b) => ['buyer' => $b->name] + collect($sales->statement($b))->except('invoices')->all())
+            ->filter(fn ($r) => $r['outstanding'] > 0)->sortByDesc('overdue')->values();
+
+        return ['columns' => ['buyer', 'invoiced', 'paid', 'outstanding', 'overdue'], 'rows' => $rows->all(),
+            'sources' => ['Finance sales invoices and receipts for each farm buyer'], 'assumptions' => ['Overdue = past the invoice due date and not fully paid.'],
+            'flags' => [], 'recommendations' => [],
+            'summary' => $rows->isEmpty() ? 'No farm buyer owes anything.' : $rows->count().' buyer(s) owe R'.number_format($rows->sum('outstanding'), 2).', R'.number_format($rows->sum('overdue'), 2).' of it overdue.'];
+    }
+
+    private function livestockCare($farms): array
+    {
+        $rows = collect();
+        foreach ($farms as $farm) {
+            foreach (app(LivestockIntelligence::class)->vaccinationsDue($farm, 14) as $r) {
+                $rows->push(['farm' => $farm->name, 'programme' => $r['programme'], 'who' => $r['who'], 'due_on' => $r['due_on'], 'overdue' => $r['overdue'] ? 'yes' : '']);
+            }
+        }
+
+        return ['columns' => ['farm', 'programme', 'who', 'due_on', 'overdue'], 'rows' => $rows->sortBy('due_on')->values()->all(),
+            'sources' => ['Vaccination programmes and the treatments recorded against each group and animal'], 'assumptions' => ['Due in the next 14 days, or overdue.'],
+            'flags' => [], 'recommendations' => [],
+            'drafts' => $rows->take(5)->map(fn ($r) => ['kind' => 'work_order', 'title' => "{$r['programme']}: {$r['who']}", 'farm' => $r['farm'],
+                'payload' => ['category' => 'vaccination', 'title' => "{$r['programme']}: {$r['who']}"], 'reason' => "{$r['programme']} due {$r['due_on']}."])->values()->all(),
+            'summary' => $rows->isEmpty() ? 'No livestock care is due in the next two weeks.' : $rows->count().' scheduled treatment(s) due in the next two weeks or overdue.'];
+    }
+
+    private function machineRisk($farms): array
+    {
+        $risk = app(MachineRisk::class);
+        $rows = collect();
+        foreach ($farms as $farm) {
+            foreach ($risk->forFarm($farm) as $a) {
+                $rows->push(['farm' => $farm->name, 'machine' => "{$a['machine']['code']} {$a['machine']['name']}", 'machine_id' => $a['machine']['id'], 'score' => $a['score'], 'risk' => $a['risk'],
+                    'confidence' => $a['confidence'], 'factors' => collect($a['factors'])->pluck('factor')->implode('; ')]);
+            }
+        }
+        $rows = $rows->sortByDesc('score')->values();
+        $high = $rows->where('risk', 'high');
+
+        return ['columns' => ['farm', 'machine', 'score', 'risk', 'confidence', 'factors'], 'rows' => $rows->all(),
+            'sources' => ['Service schedules, faults, pre-start checks and hour meters of each machine'],
+            'assumptions' => ['A points score that ranks machines for inspection. It does not say when or whether a machine will fail.'],
+            'flags' => $rows->where('confidence', 'low')->count() ? [$this->flag('LIMITED', $rows->where('confidence', 'low')->count().' machine(s) have little history, so their scores are rough.')] : [],
+            'recommendations' => [],
+            'drafts' => $high->take(5)->map(fn ($r) => ['kind' => 'inspection', 'title' => "Inspect {$r['machine']}", 'farm' => $r['farm'],
+                'payload' => ['machine_id' => $r['machine_id']], 'reason' => "Risk {$r['score']}/100: {$r['factors']}."])->values()->all(),
+            'summary' => $rows->isEmpty() ? 'No machines on your farms.' : ($high->isEmpty() ? 'No machine stands out for inspection.' : $high->count().' machine(s) should be inspected before their next job; first '.$high->first()['machine'].'.')];
     }
 
     private function empty(?string $topic, string $summary, bool $refused = false): array

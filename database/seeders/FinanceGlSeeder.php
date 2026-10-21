@@ -48,6 +48,7 @@ class FinanceGlSeeder extends Seeder
             ['1200', 'Accounts Receivable',       'asset',     true,  []],
             ['1250', 'Retention Receivable',      'asset',     true,  []],
             ['1270', 'Staff Loans Receivable',    'asset',     true,  []],
+            ['1280', 'Grower Input Advances',     'asset',     true,  []],   // Mkhaya Agri outgrowers
             ['1300', 'Inventory',                 'asset',     true,  []],
             // Manufacturing: material issued to production sits here until the order completes.
             ['1310', 'Work in Progress',          'asset',     true,  []],
@@ -87,9 +88,11 @@ class FinanceGlSeeder extends Seeder
             ['4600', 'Produce Sales',             'income',    true,  []],
             ['4610', 'Livestock Sales',           'income',    true,  []],
             ['4620', 'Agricultural Produce Harvested', 'income', true, []],
+            ['4630', 'Farm Grants & Subsidies', 'income', true, []],
             ['5700', 'Farm Inputs Consumed',      'expense',   true,  []],
             ['5710', 'Animal Health & Feed',      'expense',   true,  []],
             ['5720', 'Farm Direct Expenses',      'expense',   true,  []],
+            ['5730', 'Farm Finance Costs',        'expense',   true,  []],
             ['5620', 'Inventory Adjustments',     'expense',   true,  []],
             ['5630', 'Inventory Revaluation',     'expense',   true,  []],
             ['6000', 'Operating Expenses',        'expense',   false, []],

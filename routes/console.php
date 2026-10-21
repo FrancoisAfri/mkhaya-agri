@@ -40,6 +40,11 @@ Artisan::command('inspire', function () {
 
 // ── Licensing heartbeat (remote revocation) ──────────────────────────────────
 // No-op unless LICENSE_REMOTE is enabled; checks in with the authority hourly.
+// ── Insights: report schedules set up on each category's Insights page ──────
+Schedule::command(\App\Console\Commands\Insights\SendScheduledReports::class)
+    ->everyFifteenMinutes()
+    ->withoutOverlapping();
+
 Schedule::command(\App\Console\Commands\License\LicenseHeartbeat::class)
     ->hourly()
     ->withoutOverlapping();

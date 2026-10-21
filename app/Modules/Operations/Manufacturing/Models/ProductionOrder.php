@@ -32,7 +32,7 @@ class ProductionOrder extends Model
         'act_machine_cost', 'act_overhead_cost', 'created_by', 'approved_by', 'approved_at', 'released_by',
         'released_at', 'started_by', 'started_at', 'completed_at', 'closed_by', 'closed_at',
         'close_journal_id', 'notes', 'standard_cost_id', 'act_scrap_cost', 'act_subcontract_cost',
-        'sched_earliest_start', 'sched_finish',
+        'sched_earliest_start', 'sched_finish', 'order_type',
     ];
 
     protected $casts = [
@@ -71,6 +71,10 @@ class ProductionOrder extends Model
 
     public const SOURCE_TYPE = 'PRODUCTION_ORDER';
 
+    /** An order made to a BOM, or a run recorded from what a batch actually used and made (ProductionRuns). */
+    public const STANDARD = 'STANDARD';
+    public const RUN = 'RUN';
+
     /** Confined to the factories the signed-in person is assigned to (MFG-001.09). */
     protected static function booted(): void
     {
@@ -92,6 +96,10 @@ class ProductionOrder extends Model
     public function supervisor(): BelongsTo { return $this->belongsTo(\App\Core\User\Models\User::class, 'supervisor_id'); }
 
     public function components(): HasMany { return $this->hasMany(ProductionOrderComponent::class, 'order_id'); }
+
+    public function outputs(): HasMany { return $this->hasMany(ProductionOrderOutput::class, 'order_id'); }
+
+    public function isRun(): bool { return $this->order_type === self::RUN; }
 
     public function operations(): HasMany { return $this->hasMany(ProductionOrderOperation::class, 'order_id')->orderBy('sequence'); }
 

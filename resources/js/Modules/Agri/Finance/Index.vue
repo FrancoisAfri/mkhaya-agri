@@ -44,6 +44,7 @@ const exportUrl = computed(() => route('agri.finance.export', { farm: props.farm
         <VTextField v-model="from" type="date" label="From" density="compact" hide-details style="max-width: 160px" />
         <VTextField v-model="to" type="date" label="To" density="compact" hide-details style="max-width: 160px" />
         <VBtn variant="tonal" @click="apply">Apply</VBtn>
+        <VBtn variant="tonal" prepend-icon="tabler-chart-dots" :href="route('agri.finance.intelligence.home', { farm: farm?.id, from, to })">Budgets, cash flow &amp; reports</VBtn>
         <VMenu v-if="farm">
           <template #activator="{ props: p }"><VBtn v-bind="p" color="primary" prepend-icon="tabler-plus">Record</VBtn></template>
           <VList density="compact">
@@ -146,7 +147,7 @@ const exportUrl = computed(() => route('agri.finance.export', { farm: props.farm
           { key: 'counterparty', label: 'Buyer' },
         ]" @update:model-value="close" />
       <FormDialog :model-value="dialog === 'budget'" title="Budget line" :url="route('agri.finance.budgets.store')"
-        :values="{ farm_id: farm.id, period_start: period.from, period_end: new Date(new Date().getFullYear(), 11, 31).toISOString().slice(0, 10) }"
+        :values="{ farm_id: farm.id, period_start: period.from, period_end: `${new Date().getFullYear()}-12-31` }"
         :fields="[
           { key: 'category', label: 'Category', type: 'select', required: true, items: options.budget_categories },
           { key: 'enterprise', label: 'Crop or herd', type: 'select', items: options.enterprises },

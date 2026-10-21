@@ -26,6 +26,7 @@ class AgriReportController extends AgriController
         'activities' => ['Field activity log', 'Every completed field activity with labour, machine hours and input cost.', R::VIEW_CROPS],
         'chemicals' => ['Chemical & fertiliser application register', 'What was applied where, how much, and its withholding period — the spray record auditors ask for.', R::VIEW_CROPS],
         'herd' => ['Livestock register', 'Head count by farm, group and species.', R::VIEW_LIVESTOCK],
+        'labour' => ['Labour cost by crop and herd', 'Approved hours, overtime and piecework, costed — reconciles to the approved timesheets and piecework.', R::VIEW_WORKFORCE],
         'treatments' => ['Animal treatment register', 'Vaccinations and treatments with products, doses and withdrawal dates.', R::VIEW_LIVESTOCK],
     ];
 
@@ -43,7 +44,7 @@ class AgriReportController extends AgriController
 
         $data = null;
         if ($report && isset(self::REPORTS[$report]) && $user->can(self::REPORTS[$report][2])) {
-            $data = ['key' => $report, 'title' => self::REPORTS[$report][0]] + $this->build($report, $farm?->id, $from, $to);
+            $data = ['key' => $report, 'title' => self::REPORTS[$report][0], 'nature' => 'actual', 'nature_note' => 'Approved and posted records only.'] + $this->build($report, $farm?->id, $from, $to);
         }
 
         return Inertia::render('Modules/Agri/Reports', [
@@ -62,6 +63,18 @@ class AgriReportController extends AgriController
         $farm = $this->farmFilter($request);
         $data = $this->build($report, $farm?->id, $from, $to);
 
+        // §13: Excel as well as CSV.
+        if ($request->query('format') === 'xlsx') {
+            return response()->streamDownload(function () use ($data, $report, $from, $to) {
+                $book = new \PhpOffice\PhpSpreadsheet\Spreadsheet;
+                $sheet = $book->getActiveSheet()->setTitle(mb_substr($report, 0, 30));
+                $sheet->fromArray([array_column($data['columns'], 'title')], null, 'A1');
+                $sheet->fromArray(array_map(fn ($row) => array_map(fn ($c) => $row[$c['key']] ?? null, $data['columns']), $data['rows']), null, 'A2');
+                $sheet->setCellValue('A'.(count($data['rows']) + 3), "Approved records, {$from} to {$to}. Generated ".now()->toDateTimeString().' UTC.');
+                (new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($book))->save('php://output');
+            }, "agri-{$report}-{$from}-{$to}.xlsx", ['Content-Type' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet']);
+        }
+
         return response()->streamDownload(function () use ($data) {
             $out = fopen('php://output', 'w');
             fputcsv($out, array_column($data['columns'], 'title'));
@@ -72,7 +85,7 @@ class AgriReportController extends AgriController
         }, "agri-{$report}-{$from}-{$to}.csv", ['Content-Type' => 'text/csv']);
     }
 
-    private function build(string $report, ?int $farmId, string $from, string $to): array
+    public function build(string $report, ?int $farmId, string $from, string $to): array
     {
         $f = fn ($q) => $q->when($farmId, fn ($w) => $w->where('farm_id', $farmId));
         $col = fn (string $key, string $title) => ['key' => $key, 'title' => $title];
@@ -117,6 +130,22 @@ class AgriReportController extends AgriController
                     ->push(['farm' => 'All', 'group' => '—', 'name' => 'Not in a group', 'species' => '', 'purpose' => '',
                         'head' => Animal::query()->tap($f)->where('status', 'active')->whereNull('group_id')->count(), 'camp' => ''])
                     ->filter(fn ($r) => $r['head'] > 0 || $r['group'] !== '—')->values()->all(),
+            ],
+            'labour' => [
+                'columns' => [$col('farm', 'Farm'), $col('enterprise', 'Crop / herd'), $col('hours', 'Hours'), $col('overtime_hours', 'Overtime h'),
+                    $col('time_cost', 'Time cost'), $col('piecework', 'Piecework'), $col('total', 'Labour cost'), $col('per_unit', 'Cost per unit'), $col('uncosted_hours', 'Hours with no rate')],
+                'rows' => \App\Modules\Agri\Models\Farm::query()->when($farmId, fn ($q) => $q->whereKey($farmId))->get()
+                    ->flatMap(function ($farm) use ($from, $to) {
+                        $labels = \App\Modules\Agri\Models\CropPlan::query()->where('farm_id', $farm->id)->with('cropType')->get()
+                            ->mapWithKeys(fn ($p) => ['crop_plan:'.$p->id => "{$p->code} · {$p->cropType?->name}"])
+                            ->merge(\App\Modules\Agri\Models\LivestockGroup::query()->where('farm_id', $farm->id)->get()->mapWithKeys(fn ($g) => ['livestock_group:'.$g->id => "{$g->code} · {$g->name}"]));
+
+                        return collect(app(\App\Modules\Agri\Services\LabourCosting::class)->forFarm($farm, \Illuminate\Support\Carbon::parse($from), \Illuminate\Support\Carbon::parse($to))['rows'])
+                            ->map(fn ($r) => ['farm' => $farm->name, 'enterprise' => $labels[$r['enterprise']] ?? 'Whole farm', 'hours' => $r['hours'],
+                                'overtime_hours' => $r['overtime_hours'], 'time_cost' => $r['time_cost'], 'piecework' => $r['piecework'], 'total' => $r['total'],
+                                'per_unit' => collect($r['units'])->map(fn ($u) => $u['cost_per_unit'] !== null ? "{$u['cost_per_unit']} / {$u['unit']}" : null)->filter()->implode(', ') ?: null,
+                                'uncosted_hours' => $r['uncosted_hours']]);
+                    })->values()->all(),
             ],
             'treatments' => [
                 'columns' => [$col('date', 'Date'), $col('farm', 'Farm'), $col('subject', 'Animal / group'), $col('type', 'Type'), $col('product', 'Product'),

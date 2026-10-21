@@ -43,7 +43,7 @@ function goToPage(url: string | null) {
 
 const rows  = computed(() => props.enrollments.data)
 const links = computed(() => props.enrollments.links ?? [])
-const meta  = computed(() => props.enrollments.meta ?? {})
+const meta  = computed(() => props.enrollments.meta ?? props.enrollments ?? {})
 
 const headers = computed(() => [
   { title: t('lms_enrollments.table.employee'), key: 'user', sortable: false },

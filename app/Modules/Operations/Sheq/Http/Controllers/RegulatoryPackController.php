@@ -246,9 +246,18 @@ class RegulatoryPackController extends Controller
         }
 
         $this->legalRegisterService->recomputeAll($companyId);
+        // One site's register (?site=<uuid>), e.g. a farm's, when asked for.
+        $site = $request->filled('site') && Str::isUuid((string) $request->query('site'))
+            ? DB::table('sheq_sites')->where('company_id', $companyId)->where('uuid', $request->query('site'))->first(['id', 'name']) : null;
 
         return Inertia::render('Modules/Sheq/Regulatory/LegalRegister', [
-            'lines' => $this->legalRegisterService->register($companyId),
+            'lines' => $this->legalRegisterService->register($companyId, $site ? ['site_id' => $site->id] : []),
+            'site' => $site ? ['name' => $site->name] : null,
+            // What a person can link as evidence: documents in Document Management (newest first).
+            'documents' => \Illuminate\Support\Facades\Schema::hasTable('documents') ? DB::table('documents')->where('company_id', $companyId)->whereNull('deleted_at')
+                ->where('status', 'active')->orderByDesc('updated_at')->limit(300)->get(['id', 'title', 'expiry_date', 'approval_status'])
+                ->map(fn ($d) => ['value' => $d->id, 'title' => $d->title.($d->expiry_date ? " (to {$d->expiry_date})" : '')])->values() : [],
+            'canManage' => (bool) $request->user()?->can('sheq.compliance.manage'),
             'summary' => $this->legalRegisterService->summary($companyId),
             'needsCompany' => false,
         ]);

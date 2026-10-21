@@ -43,7 +43,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['module.active:accounting', 'module.tier:accounting', 'finance.group-view'])->prefix('finance/accounting')->name('finance.accounting.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['sales-hub' => 'sales', 'purchases-hub' => 'purchases', 'ledger-hub' => 'ledger', 'reporting-hub' => 'reporting', 'configure-hub' => 'configure'] as $hubPath => $group) {
+    foreach (['sales-hub' => 'sales', 'purchases-hub' => 'purchases', 'ledger-hub' => 'ledger', 'reporting-hub' => 'reporting'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'accounting')->defaults('group', $group)->name('hub.' . $group);
     }
@@ -143,6 +143,7 @@ Route::middleware(['module.active:accounting', 'module.tier:accounting', 'financ
     Route::post('/parties',                         [FinanceArApController::class, 'storeParty'])->name('parties.store');
     Route::patch('/parties/{party}',                [FinanceArApController::class, 'updateParty'])->name('parties.update');
     Route::get('/parties/{party}/statement',        [FinanceArApController::class, 'statement'])->name('parties.statement');
+    Route::post('/parties/{party}/verify',          \App\Modules\Finance\Accounting\Http\Controllers\PartyVerificationController::class)->name('parties.verify');
 
     Route::get('/receivables',                      [FinanceArApController::class, 'receivables'])->name('receivables');
     Route::get('/payables',                         [FinanceArApController::class, 'payables'])->name('payables');
@@ -169,6 +170,7 @@ Route::middleware(['module.active:accounting', 'module.tier:accounting', 'financ
     Route::get('/price-lists',                       [PriceListController::class, 'index'])->name('price-lists');
     Route::post('/price-lists',                      [PriceListController::class, 'store'])->name('price-lists.store');
     Route::patch('/price-lists/{priceList}',         [PriceListController::class, 'update'])->name('price-lists.update');
+    Route::get('/price-lists/price',                 [PriceListController::class, 'price'])->name('price-lists.price');
 
     // Items (products & services master)
     Route::get('/items',                            [FinanceItemController::class, 'index'])->name('items');
@@ -205,6 +207,11 @@ Route::middleware(['module.active:accounting', 'module.tier:accounting', 'financ
     Route::post('/sales-orders/{order}/invoice',    [SalesOrderController::class, 'invoice'])->name('sales-orders.invoice');
     Route::post('/sales-orders/{order}/cancel',     [SalesOrderController::class, 'cancel'])->name('sales-orders.cancel');
     Route::get('/delivery-notes/{deliveryNote}/pdf', [FinanceDocumentController::class, 'deliveryNotePdf'])->name('delivery-notes.pdf');
+    Route::post('/delivery-notes/{deliveryNote}/invoice', [SalesOrderController::class, 'invoiceDelivery'])->name('delivery-notes.invoice');
+    // Customer disputes: raised against an invoice (held from dunning), resolved with a credit note when money goes back.
+    Route::get('/disputes',                         [\App\Modules\Finance\Accounting\Http\Controllers\DisputeController::class, 'index'])->name('disputes');
+    Route::post('/disputes',                        [\App\Modules\Finance\Accounting\Http\Controllers\DisputeController::class, 'store'])->name('disputes.store');
+    Route::post('/disputes/{dispute}/resolve',      [\App\Modules\Finance\Accounting\Http\Controllers\DisputeController::class, 'resolve'])->name('disputes.resolve');
 
     // Documents — PDF + email
     Route::get('/quotes/{quote}/pdf',               [FinanceDocumentController::class, 'quotePdf'])->name('quotes.pdf');

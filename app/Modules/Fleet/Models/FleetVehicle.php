@@ -39,6 +39,7 @@ class FleetVehicle extends Model
         'vin_number', 'chassis_number', 'engine_number', 'colour', 'vehicle_type', 'fuel_type',
         'transmission', 'engine_capacity', 'seating_capacity', 'gvm', 'tank_size',
         'odometer_reading', 'hours_reading', 'status', 'status_reason', 'location',
+        'asset_class', 'name', 'serial_number', 'farm_id',
         'company_unit_id', 'department_id', 'assigned_driver_id', 'key_safe_name',
         'purchase_date', 'purchase_price',
         'current_value', 'disposal_date', 'disposal_reason', 'disposal_type',

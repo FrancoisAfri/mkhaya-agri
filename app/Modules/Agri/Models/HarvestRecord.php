@@ -13,6 +13,7 @@ class HarvestRecord extends FarmOwnedModel
     protected $casts = [
         'harvested_on' => 'date', 'quantity' => 'decimal:3', 'moisture_pct' => 'decimal:2',
         'area_harvested' => 'decimal:4', 'unit_value' => 'decimal:4',
+        'rejected_quantity' => 'float', 'spoiled_quantity' => 'float', 'field_loss_quantity' => 'float',
     ];
 
     public function cropPlan(): BelongsTo

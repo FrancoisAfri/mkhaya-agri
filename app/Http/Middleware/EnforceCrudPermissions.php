@@ -50,6 +50,15 @@ class EnforceCrudPermissions
      * and do not need an additional CRUD permission check.
      */
     private const EXEMPT_ROUTE_PREFIXES = [
+        // A category's Insights page shows only the hub cards the person's tier and gates allow, and
+        // its schedules are checked against each report's own permission and the owner; there is no
+        // 'insights.category.view' permission to hold.
+        'insights.category',
+        // The attendance engine's screens ask for a T&A permission or the farm permission a farm role
+        // carries, in every action (HR\Hr\Attendance\Http\Controllers\EngineController::allow); the
+        // names this middleware would derive ('attendance.people.view', …) exist in neither set.
+        'attendance.people.', 'attendance.crews.', 'attendance.time-settings', 'attendance.roster.', 'attendance.timesheets.',
+        'attendance.badge-kiosk', 'attendance.piecework.', 'attendance.payroll-handoff.',
         'hr.leave.setup.',
         'hr.leave.admin-cancel',
         'hr.leave.payouts',
@@ -133,6 +142,12 @@ class EnforceCrudPermissions
         // models are confined to the farms the user may reach; AgriRoutesAuthorizeTest holds every
         // agri route to refusing a user without agri permissions.
         'agri.',
+        // Organisations & members (company_memberships): switching is open to any signed-in person
+        // among their own memberships, and adding/changing members is checked by
+        // OrganisationController against the organisation's administrator roles. The derived
+        // names ('organisations.switch', 'create') exist nowhere. OrganisationsTest holds every
+        // route to its own check.
+        'organisations.',
     ];
 
     /**

@@ -9,7 +9,6 @@ use App\Modules\HR\Hr\Controllers\Attendance\AttendanceShiftController;
 use App\Modules\HR\Hr\Controllers\Attendance\AttendanceStatusController;
 use App\Modules\HR\Hr\Controllers\Attendance\AttendanceWorkCalendarController;
 use App\Modules\HR\Hr\Controllers\Attendance\WorkforcePressureController;
-use App\Modules\HR\Hr\Controllers\Attendance\RosterIntelligenceController;
 use App\Modules\HR\Hr\Controllers\Attendance\AttendanceWellnessController;
 use App\Modules\HR\Hr\Controllers\Attendance\AttendanceDisciplineController;
 use App\Modules\HR\Hr\Controllers\Attendance\AttendancePolicyController;
@@ -26,7 +25,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['web', 'auth', 'module.active:time_attendance', 'module.tier:time_attendance'])->prefix('attendance')->name('attendance.')->group(function () {
 
     // ── Navigation hubs — role-filtered feature-card landing pages ────────────
-    foreach (['my-time-hub' => 'my_time', 'manage-hub' => 'manage', 'workforce-hub' => 'workforce', 'insights-hub' => 'insights', 'compliance-hub' => 'compliance', 'configure-hub' => 'configure'] as $hubPath => $group) {
+    foreach (['manage-hub' => 'manage', 'workforce-hub' => 'workforce', 'insights-hub' => 'insights', 'compliance-hub' => 'compliance'] as $hubPath => $group) {
         Route::get("/{$hubPath}", [ModuleHubController::class, 'show'])
             ->defaults('module', 'time_attendance')->defaults('group', $group)->name('hub.' . $group);
     }
@@ -114,18 +113,9 @@ Route::middleware(['web', 'auth', 'module.active:time_attendance', 'module.tier:
     });
 
     // ── Phase 6: Smart Roster & Shift Intelligence ────────────────────────────
-    Route::prefix('roster')->name('roster.')->group(function () {
-        Route::get('/',                                               [RosterIntelligenceController::class, 'index'])->name('index')->middleware('crud.permissions:attendance.roster.view');
-        Route::post('/',                                              [RosterIntelligenceController::class, 'store'])->name('store')->middleware('crud.permissions:attendance.roster.manage');
-        Route::get('/{rosterSchedule}',                               [RosterIntelligenceController::class, 'show'])->name('show')->middleware('crud.permissions:attendance.roster.view');
-        Route::post('/{rosterSchedule}/generate-ai',                  [RosterIntelligenceController::class, 'generateAi'])->name('generate-ai')->middleware('crud.permissions:attendance.roster.ai');
-        Route::post('/{rosterSchedule}/optimize-staffing',            [RosterIntelligenceController::class, 'optimizeStaffing'])->name('optimize-staffing')->middleware('crud.permissions:attendance.roster.ai');
-        Route::post('/{rosterSchedule}/optimize-distribution',        [RosterIntelligenceController::class, 'optimizeDistribution'])->name('optimize-distribution')->middleware('crud.permissions:attendance.roster.ai');
-        Route::post('/{rosterSchedule}/ai-report',                    [RosterIntelligenceController::class, 'aiReport'])->name('ai-report')->middleware('crud.permissions:attendance.roster.ai');
-        Route::post('/{rosterSchedule}/publish',                      [RosterIntelligenceController::class, 'publish'])->name('publish')->middleware('crud.permissions:attendance.roster.manage');
-        Route::post('/{rosterSchedule}/archive',                      [RosterIntelligenceController::class, 'archive'])->name('archive')->middleware('crud.permissions:attendance.roster.manage');
-        Route::put('/assignments/{rosterAssignment}',                  [RosterIntelligenceController::class, 'updateAssignment'])->name('assignments.update')->middleware('crud.permissions:attendance.roster.manage');
-    });
+    // The roster is the attendance engine's (shifts, templates, rotating patterns, swaps): see the
+    // engine group at the end of this file. The old department schedules (roster_schedules) are no
+    // longer edited; their entries were carried into rostered shifts.
 
     // ── Phase 7: Employee Wellness Signals ────────────────────────────────────
     Route::prefix('wellness')->name('wellness.')->group(function () {
@@ -227,4 +217,71 @@ Route::middleware(['web', 'auth', 'module.active:time_attendance', 'module.tier:
         Route::post('/ers/test',      [AttendanceSettingsController::class, 'testErsConnection'])->name('ers.test');
         Route::put('/notifications',  [AttendanceSettingsController::class, 'updateNotifications'])->name('notifications.update');
     });
+});
+
+
+/*
+ * The time-and-attendance engine: people (workers, crews, consent, badges), the roster (shifts,
+ * templates, rotating patterns, swaps), timesheets (clocking, sessions, corrections, overtime),
+ * piecework, the payroll handoff and their settings — for everyone, and on a farm for its people.
+ *
+ * Its own group: the controllers ask for a T&A permission or the farm permission a farm role
+ * carries (EngineController), so a farm manager without a T&A access tier still reaches their
+ * farms' people. Times typed in are read in the site's zone (FarmTimeInput).
+ */
+Route::middleware(['web', 'auth', 'module.active:time_attendance', \App\Modules\Agri\Http\Middleware\FarmTimeInput::class])
+    ->prefix('attendance')->name('attendance.')->group(function () {
+    Route::get('/people', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'index'])->name('people.index');
+    Route::post('/people', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'enlist'])->name('people.store');
+    Route::post('/people/bulk', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'registerMany'])->name('people.bulk');
+    Route::patch('/people/{worker}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'update'])->name('people.update');
+    Route::post('/people/{worker}/status', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'status'])->name('people.status');
+    Route::post('/people/{worker}/consent', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'consent'])->name('people.consent');
+    Route::get('/people/{worker}/badge', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'badge'])->name('people.badge');
+    Route::post('/people/{worker}/badge', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'newBadge'])->name('people.badge.renew');
+    Route::post('/people/{worker}/unavailable', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'unavailable'])->name('people.unavailable');
+    Route::post('/crews', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'storeCrew'])->name('crews.store');
+    Route::get('/time-settings', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'settings'])->name('time-settings');
+    Route::post('/time-settings/devices', [\App\Modules\HR\Hr\Attendance\Http\Controllers\ClockDeviceController::class, 'store'])->name('time-settings.devices.store');
+    Route::post('/time-settings/devices/{device}/secret', [\App\Modules\HR\Hr\Attendance\Http\Controllers\ClockDeviceController::class, 'renew'])->name('time-settings.devices.renew');
+    Route::post('/time-settings/devices/{device}/toggle', [\App\Modules\HR\Hr\Attendance\Http\Controllers\ClockDeviceController::class, 'toggle'])->name('time-settings.devices.toggle');
+    Route::post('/time-settings/rules', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'saveRuleSet'])->name('time-settings.rules.store');
+    Route::patch('/time-settings/rules/{ruleSet}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'saveRuleSet'])->name('time-settings.rules.update');
+    Route::post('/time-settings/templates', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'saveTemplate'])->name('time-settings.templates.store');
+    Route::patch('/time-settings/templates/{template}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'saveTemplate'])->name('time-settings.templates.update');
+    Route::post('/time-settings/rates', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'saveRate'])->name('time-settings.rates.store');
+    Route::post('/time-settings/rates/{rate}/approve', [\App\Modules\HR\Hr\Attendance\Http\Controllers\WorkforceController::class, 'approveRate'])->name('time-settings.rates.approve');
+    Route::get('/roster', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'index'])->name('roster.index');
+    Route::post('/roster/shifts', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'storeShift'])->name('roster.shifts.store');
+    Route::patch('/roster/shifts/{shift}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'updateShift'])->name('roster.shifts.update');
+    Route::post('/roster/shifts/{shift}/cancel', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'cancelShift'])->name('roster.shifts.cancel');
+    Route::post('/roster/shifts/{shift}/assign', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'assign'])->name('roster.shifts.assign');
+    Route::get('/roster/shifts/{shift}/check', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'check'])->name('roster.shifts.check');
+    Route::get('/roster/shifts/{shift}/history', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'history'])->name('roster.shifts.history');
+    Route::post('/roster/assignments/{assignment}/remove', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'unassign'])->name('roster.assignments.remove');
+    Route::post('/roster/assignments/{assignment}/swap', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'requestSwap'])->name('roster.swaps.store');
+    Route::post('/roster/swaps/{swap}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'reviewSwap'])->name('roster.swaps.review');
+    Route::post('/roster/rotate', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'rotate'])->name('roster.rotate');
+    Route::post('/roster/patterns', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'savePattern'])->name('roster.patterns.store');
+    Route::post('/roster/patterns/{pattern}/apply', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'applyPattern'])->name('roster.patterns.apply');
+    Route::post('/roster/patterns/{pattern}/retire', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'retirePattern'])->name('roster.patterns.retire');
+    Route::post('/roster/publish', [\App\Modules\HR\Hr\Attendance\Http\Controllers\RosterController::class, 'publish'])->name('roster.publish');
+    Route::get('/timesheets', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'index'])->name('timesheets.index');
+    Route::get('/badge-kiosk', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'kiosk'])->name('badge-kiosk');
+    Route::post('/timesheets/clock', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'clock'])->name('timesheets.clock');
+    Route::post('/timesheets/approve', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'approveMany'])->name('timesheets.approve-many');
+    Route::post('/timesheets/{timesheet}/decide', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'decide'])->name('timesheets.decide');
+    Route::get('/timesheets/{timesheet}/events', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'events'])->name('timesheets.events');
+    Route::post('/timesheets/{timesheet}/corrections', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'requestCorrection'])->name('timesheets.corrections.store');
+    Route::post('/timesheets/corrections/{correction}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'reviewCorrection'])->name('timesheets.corrections.review');
+    Route::post('/timesheets/overtime', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'requestOvertime'])->name('timesheets.overtime.store');
+    Route::post('/timesheets/overtime/{overtime}', [\App\Modules\HR\Hr\Attendance\Http\Controllers\AttendanceController::class, 'reviewOvertime'])->name('timesheets.overtime.review');
+    Route::get('/piecework', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PieceworkController::class, 'index'])->name('piecework.index');
+    Route::post('/piecework', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PieceworkController::class, 'store'])->name('piecework.store');
+    Route::post('/piecework/{entry}/review', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PieceworkController::class, 'review'])->name('piecework.review');
+    Route::get('/payroll-handoff', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PayrollHandoffController::class, 'index'])->name('payroll-handoff.index');
+    Route::post('/payroll-handoff', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PayrollHandoffController::class, 'prepare'])->name('payroll-handoff.prepare');
+    Route::post('/payroll-handoff/{handoff}/send', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PayrollHandoffController::class, 'send'])->name('payroll-handoff.send');
+    Route::post('/payroll-handoff/{handoff}/reconcile', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PayrollHandoffController::class, 'reconcile'])->name('payroll-handoff.reconcile');
+    Route::get('/payroll-handoff/{handoff}/export', [\App\Modules\HR\Hr\Attendance\Http\Controllers\PayrollHandoffController::class, 'export'])->name('payroll-handoff.export');
 });

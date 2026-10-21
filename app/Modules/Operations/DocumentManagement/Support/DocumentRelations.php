@@ -35,6 +35,12 @@ class DocumentRelations
     public const ROUTING = 'routing';
     public const LOSS_FINDING = 'loss_finding';
     public const SUBCONTRACT = 'subcontract_order';
+    public const FARM = 'farm';
+    public const FARM_FIELD = 'farm_field';
+    public const CROP_PLAN = 'crop_plan';
+    public const LIVESTOCK_GROUP = 'livestock_group';
+    public const ANIMAL = 'animal';
+    public const FARM_MACHINE = 'farm_machine';
 
     /*
      * The rest of Phase 4. Each is registered only where the module actually exists on this
@@ -214,6 +220,14 @@ class DocumentRelations
                 'resolve' => ['name'],
                 'search' => ['name'],
             ],
+            // Farm records (Mkhaya Agri): a farm's title deeds, leases and certificates, and the
+            // records a document is about — a field, a crop, a herd, an animal, a machine.
+            self::FARM => ['label' => 'Farm', 'model' => \App\Modules\Agri\Models\Farm::class, 'resolve' => ['name'], 'search' => ['name', 'code'], 'subtitle' => 'code'],
+            self::FARM_FIELD => ['label' => 'Field', 'model' => \App\Modules\Agri\Models\FarmField::class, 'resolve' => ['code', 'name'], 'search' => ['code', 'name']],
+            self::CROP_PLAN => ['label' => 'Crop plan', 'model' => \App\Modules\Agri\Models\CropPlan::class, 'resolve' => ['code'], 'search' => ['code']],
+            self::LIVESTOCK_GROUP => ['label' => 'Herd or flock', 'model' => \App\Modules\Agri\Models\LivestockGroup::class, 'resolve' => ['code', 'name'], 'search' => ['code', 'name']],
+            self::ANIMAL => ['label' => 'Animal', 'model' => \App\Modules\Agri\Models\Animal::class, 'resolve' => ['tag_number', 'name'], 'search' => ['tag_number', 'name']],
+            self::FARM_MACHINE => ['label' => 'Farm machine', 'model' => \App\Modules\Agri\Models\FarmMachine::class, 'resolve' => ['code', 'name'], 'search' => ['code', 'name', 'registration']],
             // A relation whose module is not installed is dropped rather than offered: pointing at
             // a class that does not exist turns a dropdown into a fatal error.
         ], fn (array $relation) => class_exists($relation['model']));

@@ -214,6 +214,33 @@ abstract class ModuleHubs
         ];
     }
 
+    /**
+     * Fold hubs into one another so a module keeps to at most five sidebar ribbons.
+     *
+     * $plan maps a surviving hub to what it absorbs: ['insights' => ['absorb' => ['configure'],
+     * 'name' => 'Insights & Settings']]. The absorbed hubs' cards follow the survivor's own, the
+     * survivor's tier drops to the lowest of them (each card still carries its own tier, so nobody
+     * sees a card they could not open before), and the absorbed hubs disappear — their landing
+     * routes with them, since every module registers its landings from hubs().
+     */
+    protected static function consolidate(array $hubs, array $plan): array
+    {
+        foreach ($plan as $target => $spec) {
+            foreach ($spec['absorb'] ?? [] as $from) {
+                $hubs[$target]['cards'] = array_merge($hubs[$target]['cards'], $hubs[$from]['cards']);
+                $hubs[$target]['tier'] = min($hubs[$target]['tier'], $hubs[$from]['tier']);
+                unset($hubs[$from]);
+            }
+            foreach (['name', 'icon'] as $k) {
+                if (isset($spec[$k])) {
+                    $hubs[$target][$k] = $spec[$k];
+                }
+            }
+        }
+
+        return $hubs;
+    }
+
     private static function stripQuery(string $path): string
     {
         return trim(explode('?', $path, 2)[0], '/');

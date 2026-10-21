@@ -144,7 +144,14 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Finance\Tax\Console\DeliverTaxEventsCommand::class,
         \App\Modules\Workflow\Console\WorkflowTickCommand::class,
         \App\Modules\Agri\Console\ScanFarmAlerts::class,
+        \App\Modules\Agri\Console\RecordAgriPredictions::class,
+        \App\Modules\Agri\Console\FetchAgriWeather::class,
+        \App\Modules\Agri\Console\RetryAgriIntegrations::class,
+        \App\Modules\Agri\Console\AgriIntegrity::class,
+        \App\Modules\Agri\Console\AgriReleaseGates::class,
         \App\Modules\Agri\Console\SeedAgriDemo::class,
+        \App\Modules\Agri\Console\SeedAgriWorkforceDemo::class,
+        \App\Modules\Agri\Console\SeedAgriDemoAreas::class,
         SendAttestationReminders::class,
         EscalateOverdueAttestations::class,
         AllocateLeaveCommand::class,
@@ -494,6 +501,18 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->command(\App\Modules\Agri\Console\ScanFarmAlerts::class)
             ->dailyAt('04:30')->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/agri-alerts.log'));
+        // Phase 2 §10.2: today's predictions written down, and yesterday's scored where the outcome is known.
+        $schedule->command(\App\Modules\Agri\Console\RecordAgriPredictions::class)
+            ->dailyAt('04:45')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-predictions.log'));
+        // Phase 2 §11.1: the farms' forecasts from the approved provider, then weather alerts.
+        $schedule->command(\App\Modules\Agri\Console\FetchAgriWeather::class)
+            ->everyThreeHours()->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-weather.log'));
+        // Phase 2 §14: failed integration messages retried with back-off.
+        $schedule->command(\App\Modules\Agri\Console\RetryAgriIntegrations::class)
+            ->everyFifteenMinutes()->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-integrations.log'));
 
         $schedule->command(TrackBudgetsCommand::class)
             ->dailyAt('05:05')->withoutOverlapping()->onOneServer()

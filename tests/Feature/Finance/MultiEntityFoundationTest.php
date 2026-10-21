@@ -133,9 +133,10 @@ class MultiEntityFoundationTest extends TestCase
             'created_at' => now(), 'updated_at' => now(),
         ]);
 
-        $theirs = FinEntity::withoutGlobalScopes()->create([
+        // Theirs is written inside their organisation: the database refuses it from ours.
+        $theirs = app(\App\Modules\Tenancy\Services\TenantContext::class)->run((int) $otherCompanyId, fn () => FinEntity::withoutGlobalScopes()->create([
             'company_id' => $otherCompanyId, 'name' => 'Their Brand', 'status' => 'active',
-        ]);
+        ]));
 
         $this->assertFalse(app(CurrentEntity::class)->set($theirs->id),
             'An entity from another tenant was accepted as the active one.');

@@ -10,13 +10,15 @@ export type FieldItem = string | { title: string; value: any }
 export type FormField = {
   key: string
   label: string
-  type?: 'text' | 'number' | 'date' | 'select' | 'autocomplete' | 'textarea' | 'switch' | 'file'
+  type?: 'text' | 'number' | 'date' | 'datetime' | 'select' | 'multiselect' | 'autocomplete' | 'textarea' | 'switch' | 'file'
   items?: FieldItem[] | ((form: Record<string, any>) => FieldItem[])
   cols?: number
   hint?: string
   required?: boolean
   default?: any
   show?: (form: Record<string, any>) => boolean
+  multiple?: boolean   // files: keep every one chosen
+  accept?: string
 }
 
 const props = withDefaults(defineProps<{
@@ -38,7 +40,7 @@ const itemsFor = (f: FormField) => {
   const raw = typeof f.items === 'function' ? f.items(form.value) : (f.items ?? [])
   return raw.map(i => (typeof i === 'string' ? { title: human(i), value: i } : i))
 }
-const blank = () => Object.fromEntries(props.fields.map(f => [f.key, f.default ?? (f.type === 'switch' ? false : f.type === 'file' ? null : (f.type === 'number' ? null : ''))]))
+const blank = () => Object.fromEntries(props.fields.map(f => [f.key, f.default ?? (f.type === 'switch' ? false : f.type === 'multiselect' ? [] : f.type === 'file' ? null : (f.type === 'number' ? null : ''))]))
 
 const form = ref(useForm<Record<string, any>>(blank()))
 watch(() => props.modelValue, open => {
@@ -73,15 +75,18 @@ function submit() {
           <VCol v-for="f in visible" :key="f.key" cols="12" :sm="f.cols ?? 6">
             <VSelect v-if="f.type === 'select'" v-model="form[f.key]" :label="f.label + (f.required ? ' *' : '')" :items="itemsFor(f)"
               :error-messages="form.errors[f.key]" :hint="f.hint" :persistent-hint="!!f.hint" clearable />
+            <VSelect v-else-if="f.type === 'multiselect'" v-model="form[f.key]" :label="f.label + (f.required ? ' *' : '')" :items="itemsFor(f)" multiple chips closable-chips
+              :error-messages="form.errors[f.key]" :hint="f.hint" :persistent-hint="!!f.hint" />
             <VAutocomplete v-else-if="f.type === 'autocomplete'" v-model="form[f.key]" :label="f.label + (f.required ? ' *' : '')" :items="itemsFor(f)"
               :error-messages="form.errors[f.key]" :hint="f.hint" :persistent-hint="!!f.hint" clearable />
             <VTextarea v-else-if="f.type === 'textarea'" v-model="form[f.key]" :label="f.label + (f.required ? ' *' : '')" rows="2" auto-grow
               :error-messages="form.errors[f.key]" :hint="f.hint" :persistent-hint="!!f.hint" />
             <VSwitch v-else-if="f.type === 'switch'" v-model="form[f.key]" :label="f.label" color="primary" inset hide-details="auto"
               :error-messages="form.errors[f.key]" />
-            <VFileInput v-else-if="f.type === 'file'" :label="f.label" prepend-icon="" prepend-inner-icon="tabler-paperclip"
-              :error-messages="form.errors[f.key]" :hint="f.hint" :persistent-hint="!!f.hint" @update:model-value="v => (form[f.key] = Array.isArray(v) ? v[0] : v)" />
-            <VTextField v-else v-model="form[f.key]" :type="f.type === 'number' ? 'number' : f.type === 'date' ? 'date' : 'text'"
+            <VFileInput v-else-if="f.type === 'file'" :label="f.label" prepend-icon="" prepend-inner-icon="tabler-paperclip" :multiple="!!f.multiple" :accept="f.accept"
+              :error-messages="form.errors[f.key] ?? form.errors[f.key + '.0']" :hint="f.hint" :persistent-hint="!!f.hint"
+              @update:model-value="v => (form[f.key] = f.multiple ? (Array.isArray(v) ? v : v ? [v] : []) : (Array.isArray(v) ? v[0] : v))" />
+            <VTextField v-else v-model="form[f.key]" :type="f.type === 'number' ? 'number' : f.type === 'date' ? 'date' : f.type === 'datetime' ? 'datetime-local' : 'text'"
               :label="f.label + (f.required ? ' *' : '')" :error-messages="form.errors[f.key]" :hint="f.hint" :persistent-hint="!!f.hint"
               @update:model-value="v => { if (f.type === 'number') form[f.key] = v === '' ? null : Number(v) }" />
           </VCol>

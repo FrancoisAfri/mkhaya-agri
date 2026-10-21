@@ -21,7 +21,7 @@ class AssetHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'register' => [
                 'name' => 'Register', 'path' => 'assets/register-hub', 'icon' => 'clipboard-list', 'tier' => self::WRITE,
                 'title' => 'asset_management.hubs.register.title', 'subtitle' => 'asset_management.hubs.register.subtitle',
@@ -72,6 +72,9 @@ class AssetHubs extends ModuleHubs
                     self::card('locations', 'assets/settings/locations', 'map-marker-outline', self::ADMIN, 'green'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 }

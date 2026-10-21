@@ -11,7 +11,8 @@ class AnimalHealthRecord extends FarmOwnedModel
     protected $table = 'animal_health_records';
 
     protected $casts = [
-        'treated_on' => 'date', 'withdrawal_until' => 'date', 'next_due_on' => 'date',
+        'treated_on' => 'date', 'withdrawal_until' => 'date', 'next_due_on' => 'date', 'notifiable' => 'boolean', 'requires_clearance' => 'boolean',
+        'cleared_at' => \App\Modules\Agri\Casts\FarmDateTime::class,
         'quantity' => 'decimal:4', 'cost' => 'decimal:2',
     ];
 

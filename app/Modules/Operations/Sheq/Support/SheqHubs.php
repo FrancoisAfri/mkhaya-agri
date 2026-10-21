@@ -35,7 +35,7 @@ class SheqHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'safety' => [
                 'name' => 'Safety', 'path' => 'sheq/safety-hub', 'icon' => 'shield-alert', 'tier' => self::READ,
                 'title' => 'sheq.hubs.safety.title', 'subtitle' => 'sheq.hubs.safety.subtitle',
@@ -135,6 +135,7 @@ class SheqHubs extends ModuleHubs
                 'cards' => [
                     self::card('regulatory_packs', 'sheq/regulatory-packs', 'book-open-page-variant', self::READ, 'indigo'),
                     self::card('legal_register', 'sheq/legal-register', 'scale-balance', self::READ, 'teal'),
+                    self::card('compliance_schemes', 'sheq/compliance-schemes', 'certificate-outline', self::READ, 'green'),
                     /*
                      * Who is on site, right now (CON-16). In Operations rather than Configure
                      * because it is read during an evacuation, and the person who opens it then
@@ -304,7 +305,11 @@ class SheqHubs extends ModuleHubs
                     self::card('settings', 'sheq/settings', 'tune', self::READ, 'grey'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'risk' => ['absorb' => ['assurance'], 'name' => 'Risk & Assurance'],
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 
     /**

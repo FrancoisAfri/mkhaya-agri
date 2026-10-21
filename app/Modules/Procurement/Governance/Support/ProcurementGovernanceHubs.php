@@ -39,7 +39,7 @@ class ProcurementGovernanceHubs extends ModuleHubs
 
     public static function hubs(): array
     {
-        return [
+        return static::consolidate([
             'planning' => [
                 'name' => 'Planning', 'path' => 'procurement-governance/planning-hub',
                 'icon' => 'calendar-check', 'tier' => self::READ,
@@ -113,7 +113,11 @@ class ProcurementGovernanceHubs extends ModuleHubs
                     self::card('settings', 'procurement-governance/settings', 'cog-outline', self::ADMIN, 'blue-grey'),
                 ],
             ],
-        ];
+        ], [
+            // Five sidebar ribbons at most: these hubs fold into their neighbours.
+            'governance' => ['absorb' => ['deviations'], 'name' => 'Governance & Deviations'],
+            'insights' => ['absorb' => ['configure'], 'name' => 'Insights & Settings'],
+        ]);
     }
 
     /**

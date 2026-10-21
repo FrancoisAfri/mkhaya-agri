@@ -158,6 +158,13 @@ class ApprovalService
             return ['request' => null, 'error' => __('document_management.approvals.closed')];
         }
 
+        // Four eyes, where the workflow asks for them: whoever submitted the document, or uploaded
+        // the version being approved, does not approve it.
+        if ($decision === 'approved' && $request->workflow?->separate_from_submitter
+            && in_array((int) $user?->id, [(int) $request->submitted_by, (int) \App\Modules\Operations\DocumentManagement\Models\DocumentVersion::query()->whereKey($request->version_id)->value('uploaded_by')], true)) {
+            return ['request' => null, 'error' => __('document_management.approvals.not_your_own')];
+        }
+
         // A decision on a step that is not the one in progress would let somebody approve a later
         // stage before the earlier one had run, which is the whole point of sequential.
         if ($assignment->position !== $request->current_position) {

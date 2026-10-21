@@ -15,9 +15,9 @@ class FinPriceList extends Model
 
     protected $table = 'fin_price_lists';
 
-    protected $fillable = ['entity_id', 'uuid', 'company_id', 'name', 'is_active'];
+    protected $fillable = ['entity_id', 'uuid', 'company_id', 'name', 'is_active', 'party_id', 'currency', 'valid_from', 'valid_to'];
 
-    protected $casts = ['is_active' => 'boolean'];
+    protected $casts = ['is_active' => 'boolean', 'valid_from' => 'date', 'valid_to' => 'date'];
 
     protected static function booted(): void
     {
