@@ -20866,12 +20866,12 @@
         "subtitle": "Factories, work centres, shifts, units, numbering and policies"
       },
       "production": {
-        "title": "Production & Maintenance",
-        "subtitle": "Production orders from draft to close: approval, release, material, operations and output. Roster, qualifications and labour planned against worked. Machines, preventive maintenance, breakdowns and OEE. Waste and losses found, investigated, verified and saved."
+        "title": "Production, Planning & Maintenance",
+        "subtitle": "Orders, the shop floor, planning and engineering, factories, workforce, maintenance, loss prevention and customer orders."
       },
       "quality": {
-        "title": "Quality & Fulfilment",
-        "subtitle": "Inspections, non-conformances and the plans that say what to check. Production promised to customers, and work sent to suppliers."
+        "title": "Quality, Reports & Setup",
+        "subtitle": "Inspections, non-conformances, traceability and recalls; management reports, costing, accounting, alerts, integrations and setup."
       },
       "costing": {
         "title": "Costing",
@@ -20920,6 +20920,18 @@
       "integrations": {
         "title": "Integrations",
         "subtitle": "ERPs, scales, scanners, printers, MES and machine gateways"
+      },
+      "agriculture": {
+        "title": "Agriculture & Intelligence",
+        "subtitle": "Flocks, crops, herds, ponds and processing batches on one production engine, with the agents’ recommendations, outbreaks near your farms, funding opportunities and forecasts."
+      },
+      "command": {
+        "title": "Command Centre",
+        "subtitle": "Live values from every house, field and pond, alarms and incidents with their escalation, and the commands sent to equipment."
+      },
+      "intelligence": {
+        "title": "Intelligence",
+        "subtitle": "Recommendations, outbreaks, opportunities, sources and forecast accuracy. Advice only — a person decides."
       }
     },
     "cards": {
@@ -21134,6 +21146,62 @@
       "integration_connections": {
         "title": "Connections",
         "subtitle": "Set-up, validation, mappings, messages and failures"
+      },
+      "agri_overview": {
+        "title": "Production overview",
+        "subtitle": "Every cycle running now, by kind of production"
+      },
+      "agri_cycles": {
+        "title": "Production cycles",
+        "subtitle": "Flocks, crop seasons, herds, ponds and batches: records, stages and metrics"
+      },
+      "agri_units": {
+        "title": "Houses, fields & lines",
+        "subtitle": "Where production happens, and what is in each now"
+      },
+      "agri_processing": {
+        "title": "Processing & packhouse",
+        "subtitle": "Grade, pack and process farm produce into lots, with QA holds and genealogy"
+      },
+      "agri_types": {
+        "title": "Production types",
+        "subtitle": "Stages, measurements, custom fields and metric formulas, versioned"
+      },
+      "command_centre": {
+        "title": "Command Centre",
+        "subtitle": "Live values, alarms and incidents across every farm"
+      },
+      "command_incidents": {
+        "title": "Incidents",
+        "subtitle": "Each alarm through acknowledgement, escalation and resolution"
+      },
+      "command_devices": {
+        "title": "Devices & commands",
+        "subtitle": "Sensors, meters and controllers, and every command sent"
+      },
+      "command_settings": {
+        "title": "Alarm settings",
+        "subtitle": "Thresholds and who is told, then who next"
+      },
+      "intel_recommendations": {
+        "title": "Recommendations",
+        "subtitle": "What the agents suggest, with evidence; approve to act"
+      },
+      "intel_outbreaks": {
+        "title": "Disease outbreaks",
+        "subtitle": "Reported outbreaks and the farms near them — never a diagnosis"
+      },
+      "intel_opportunities": {
+        "title": "Funding & markets",
+        "subtitle": "Grants, loans and programmes the farms may suit"
+      },
+      "intel_sources": {
+        "title": "Sources",
+        "subtitle": "Weather, veterinary, government and market feeds and what they published"
+      },
+      "intel_forecasts": {
+        "title": "Forecast accuracy",
+        "subtitle": "Each model’s forecasts against what actually happened"
       }
     },
     "common": {
@@ -26758,7 +26826,7 @@
       },
       "packhouse": {
         "title": "Packhouse & Dispatch",
-        "subtitle": "Produce lots, grading and packing, cold storage, orders, dispatch and recalls."
+        "subtitle": "Grading, packing and processing — in Manufacturing & Production"
       },
       "alerts": {
         "title": "Farm Alerts",
@@ -26839,6 +26907,18 @@
       "all_insights": {
         "title": "All Farm Operations insights",
         "subtitle": "Every report and analytics view in Farm Operations, and report schedules sent by email."
+      },
+      "production_cycles": {
+        "title": "Production cycles",
+        "subtitle": "Flocks, crops, herds and ponds — in Manufacturing & Production"
+      },
+      "command_centre": {
+        "title": "Command Centre",
+        "subtitle": "Live values, alarms and incidents"
+      },
+      "intelligence": {
+        "title": "Intelligence",
+        "subtitle": "Recommendations, outbreaks nearby, funding and forecasts"
       }
     }
   }

@@ -37,6 +37,77 @@ class ManufacturingHubs extends ModuleHubs
     {
         return static::consolidate([
             /*
+             * Agricultural production — the production engine: cycles (flocks, crop seasons, ponds,
+             * batches) with their records and metrics, the units they run in, the production types
+             * they are configured by, and processing of farm produce. The farm's own registers stay
+             * the farm's; these pages work through them.
+             */
+            'agriculture' => [
+                'name' => 'Agricultural Production', 'path' => 'manufacturing/agriculture',
+                'icon' => 'sprout', 'tier' => self::READ,
+                'title' => 'manufacturing.hubs.agriculture.title',
+                'subtitle' => 'manufacturing.hubs.agriculture.subtitle',
+                'cards' => [
+                    self::card('agri_overview', 'manufacturing/agriculture/overview', 'chart-donut',
+                        self::READ, 'primary', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class)),
+                    self::card('agri_cycles', 'manufacturing/agriculture/cycles', 'refresh',
+                        self::READ, 'green', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class)),
+                    self::card('agri_units', 'manufacturing/agriculture/units', 'home-modern',
+                        self::READ, 'brown', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class)),
+                    // Grading, packing and processing farm produce: production runs with lot genealogy and QA holds.
+                    self::card('agri_processing', 'manufacturing/agriculture/processing', 'package',
+                        self::READ, 'amber', ['ability' => 'process', 'subject' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class]),
+                    self::card('agri_types', 'manufacturing/agriculture/types', 'tune',
+                        self::READ, 'grey', ['ability' => 'manage', 'subject' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class]),
+                ],
+            ],
+
+            /*
+             * Command & Control Centre — live values, alarms, incidents and their escalation, and
+             * the commands sent to equipment, each through its states.
+             */
+            'command' => [
+                'name' => 'Command Centre', 'path' => 'manufacturing/command',
+                'icon' => 'radar', 'tier' => self::READ,
+                'title' => 'manufacturing.hubs.command.title',
+                'subtitle' => 'manufacturing.hubs.command.subtitle',
+                'cards' => [
+                    self::card('command_centre', 'manufacturing/command/centre', 'monitor-dashboard',
+                        self::READ, 'error', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::class)),
+                    self::card('command_incidents', 'manufacturing/command/incidents', 'alert-octagon',
+                        self::READ, 'deep-orange', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::class)),
+                    self::card('command_devices', 'manufacturing/command/devices', 'access-point',
+                        self::READ, 'indigo', ['ability' => 'configure', 'subject' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::class]),
+                    self::card('command_settings', 'manufacturing/command/settings', 'bell-cog-outline',
+                        self::READ, 'grey', ['ability' => 'configure', 'subject' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::class]),
+                ],
+            ],
+
+            /*
+             * Intelligence — the agents' recommendations, disease outbreaks near the farms, funding
+             * and market opportunities, outside sources and forecast accuracy. Advice only: nothing
+             * here acts without a person.
+             */
+            'intelligence' => [
+                'name' => 'Intelligence', 'path' => 'manufacturing/intelligence',
+                'icon' => 'brain', 'tier' => self::READ,
+                'title' => 'manufacturing.hubs.intelligence.title',
+                'subtitle' => 'manufacturing.hubs.intelligence.subtitle',
+                'cards' => [
+                    self::card('intel_recommendations', 'manufacturing/intelligence/recommendations', 'lightbulb-on-outline',
+                        self::READ, 'amber', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
+                    self::card('intel_outbreaks', 'manufacturing/intelligence/outbreaks', 'virus-outline',
+                        self::READ, 'error', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
+                    self::card('intel_opportunities', 'manufacturing/intelligence/opportunities', 'hand-coin-outline',
+                        self::READ, 'green', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
+                    self::card('intel_sources', 'manufacturing/intelligence/sources', 'rss',
+                        self::READ, 'blue-grey', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
+                    self::card('intel_forecasts', 'manufacturing/intelligence/forecasts', 'chart-bell-curve',
+                        self::READ, 'indigo', self::viewSubject(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class)),
+                ],
+            ],
+
+            /*
              * Engineering — what the company makes and what it is made of. READ tier: a planner,
              * a buyer and a supervisor all need to read a BOM, and what any of them may change is
              * settled per request by the policy rather than by hiding the register.
@@ -366,11 +437,10 @@ class ManufacturingHubs extends ModuleHubs
                 ],
             ],
         ], [
-            // Five sidebar ribbons at most: these hubs fold into their neighbours.
-            'production' => ['absorb' => ['workforce', 'maintenance', 'loss'], 'name' => 'Production & Maintenance'],
-            'planning' => ['absorb' => ['engineering', 'factories'], 'name' => 'Planning & Engineering'],
-            'quality' => ['absorb' => ['fulfilment'], 'name' => 'Quality & Fulfilment'],
-            'reports' => ['absorb' => ['accounting', 'costing', 'assistant', 'notifications', 'integrations', 'setup'], 'name' => 'Reports, Costing & Setup'],
+            // Five sidebar ribbons at most (the dashboard is one): these hubs fold into their neighbours.
+            'agriculture' => ['absorb' => ['intelligence'], 'name' => 'Agriculture & Intelligence'],
+            'production' => ['absorb' => ['planning', 'engineering', 'factories', 'workforce', 'maintenance', 'loss', 'fulfilment'], 'name' => 'Production, Planning & Maintenance'],
+            'quality' => ['absorb' => ['reports', 'accounting', 'costing', 'assistant', 'notifications', 'integrations', 'setup'], 'name' => 'Quality, Reports & Setup'],
         ]);
     }
 

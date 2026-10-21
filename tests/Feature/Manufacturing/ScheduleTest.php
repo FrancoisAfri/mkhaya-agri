@@ -206,7 +206,7 @@ class ScheduleTest extends ManufacturingTestCase
     {
         $a = $this->order(4, 10);
 
-        $cards = array_column($this->actingAs($this->scheduler2)->get('/manufacturing/planning')->viewData('page')['props']['cards'], 'path');
+        $cards = array_column($this->actingAs($this->scheduler2)->get('/manufacturing/production')->viewData('page')['props']['cards'], 'path');
         $this->assertContains('/manufacturing/planning/schedule', $cards);
 
         $page = $this->actingAs($this->scheduler2)->get(route('manufacturing.planning.schedule'))->assertOk()->viewData('page');

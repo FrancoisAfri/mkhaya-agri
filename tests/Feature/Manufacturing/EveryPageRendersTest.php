@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 class EveryPageRendersTest extends ManufacturingTestCase
 {
     /** Routes that answer with JSON or a file rather than a page. */
-    private const NOT_PAGES = ['manufacturing.workforce.labour.hours', 'manufacturing.fulfilment.customer-orders.quote',
+    private const NOT_PAGES = [
+        // The Command Centre's live stream and reading series are not pages.
+        'manufacturing.command.stream', 'manufacturing.command.series','manufacturing.workforce.labour.hours', 'manufacturing.fulfilment.customer-orders.quote',
         'manufacturing.floor.queue', 'manufacturing.floor.identify'];
 
     public function test_every_screen_opens_and_its_page_exists(): void
@@ -36,7 +38,7 @@ class EveryPageRendersTest extends ManufacturingTestCase
             if ($response->headers->get('content-type') && str_contains($response->headers->get('content-type'), 'json')) {
                 continue;
             }
-            $this->assertSame(200, $response->status(), "{$name} did not open: ".$response->status());
+            $this->assertSame(200, $response->getStatusCode(), "{$name} did not open: ".$response->getStatusCode());
             $component = $response->viewData('page')['component'] ?? null;
             $this->assertNotNull($component, "{$name} rendered no page");
             $this->assertFileExists(resource_path("js/{$component}.vue"), "{$name} renders {$component}, which does not exist");

@@ -222,7 +222,7 @@ class PlanningTest extends ManufacturingTestCase
 
     public function test_the_planning_screens_and_who_may_do_what(): void
     {
-        $cards = array_column($this->actingAs($this->planner2)->get('/manufacturing/planning')->assertOk()->viewData('page')['props']['cards'], 'path');
+        $cards = array_column($this->actingAs($this->planner2)->get('/manufacturing/production')->assertOk()->viewData('page')['props']['cards'], 'path');
         $this->assertEqualsCanonicalizing(['/manufacturing/planning/demand', '/manufacturing/planning/mrp', '/manufacturing/planning/schedule', '/manufacturing/planning/suppliers', '/manufacturing/planning/parameters'], $cards);
 
         $demand = $this->actingAs($this->planner2)->get(route('manufacturing.planning.demand', ['rule' => 'PRIORITY']))->assertOk()->viewData('page');

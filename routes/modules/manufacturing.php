@@ -446,4 +446,57 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::delete('/policies/limits/{uuid}', [SetupController::class, 'destroyApprovalLimit'])
                 ->name('policies.limits.destroy');
         });
+            // ── Agricultural production (the production engine) ─────────────────────────────────
+        Route::prefix('agriculture')->name('agriculture.')->controller(\App\Modules\Operations\Manufacturing\Http\Controllers\AgricultureController::class)->group(function () {
+            Route::get('/overview', 'overview')->name('overview');
+            Route::get('/cycles', 'cycles')->name('cycles');
+            Route::post('/cycles', 'store')->name('cycles.store');
+            Route::get('/cycles/{cycle}', 'show')->whereUuid('cycle')->name('cycles.show');
+            Route::post('/cycles/{cycle}/records', 'record')->whereUuid('cycle')->name('cycles.records');
+            Route::post('/cycles/{cycle}/stage', 'advance')->whereUuid('cycle')->name('cycles.stage');
+            Route::post('/cycles/{cycle}/move', 'move')->whereUuid('cycle')->name('cycles.move');
+            Route::post('/cycles/{cycle}/close', 'close')->whereUuid('cycle')->name('cycles.close');
+            Route::post('/cycles/{cycle}/forecast', 'forecast')->whereUuid('cycle')->name('cycles.forecast');
+            Route::post('/restrictions/{restriction}/lift', 'lift')->whereUuid('restriction')->name('restrictions.lift');
+            Route::post('/sync', 'sync')->name('sync');
+            Route::get('/units', 'units')->name('units');
+            Route::post('/units', 'storeUnit')->name('units.store');
+            Route::get('/types', 'types')->name('types');
+            Route::post('/types', 'storeType')->name('types.store');
+            Route::post('/types/{type}', 'reviseType')->whereUuid('type')->name('types.revise');
+            Route::get('/processing', 'processing')->name('processing');
+            Route::post('/processing', 'runProcessing')->name('processing.run');
+            Route::post('/processing/lots/{lot}/release', 'release')->whereUuid('lot')->name('processing.release');
+        });
+
+        // ── Command & Control Centre ───────────────────────────────────────────────────────────
+        Route::prefix('command')->name('command.')->controller(\App\Modules\Operations\Manufacturing\Http\Controllers\CommandCentreController::class)->group(function () {
+            Route::get('/centre', 'centre')->name('centre');
+            Route::get('/stream', 'stream')->name('stream');
+            Route::get('/series', 'series')->name('series');
+            Route::get('/incidents', 'incidents')->name('incidents');
+            Route::get('/incidents/{incident}', 'incident')->whereUuid('incident')->name('incidents.show');
+            Route::post('/incidents/{incident}', 'act')->whereUuid('incident')->name('incidents.act');
+            Route::get('/incidents/{incident}/evidence/{index}', 'evidence')->whereUuid('incident')->whereNumber('index')->name('incidents.evidence');
+            Route::get('/devices', 'devices')->name('devices');
+            Route::post('/devices', 'storeDevice')->name('devices.store');
+            Route::post('/devices/{device}/commands', 'requestCommand')->whereUuid('device')->name('devices.commands');
+            Route::post('/commands/{command}', 'decideCommand')->whereUuid('command')->name('commands.decide');
+            Route::get('/settings', 'settings')->name('settings');
+            Route::post('/settings/thresholds', 'storeThreshold')->name('settings.thresholds');
+            Route::post('/settings/escalation', 'storePolicy')->name('settings.escalation');
+        });
+
+        // ── Intelligence: recommendations, outbreaks, opportunities, sources, forecasts ────────
+        Route::prefix('intelligence')->name('intelligence.')->controller(\App\Modules\Operations\Manufacturing\Http\Controllers\IntelligenceController::class)->group(function () {
+            Route::get('/recommendations', 'recommendations')->name('recommendations');
+            Route::get('/outbreaks', 'outbreaks')->name('outbreaks');
+            Route::get('/opportunities', 'opportunities')->name('opportunities');
+            Route::get('/sources', 'sources')->name('sources');
+            Route::get('/forecasts', 'forecasts')->name('forecasts');
+            Route::post('/recommendations/{recommendation}', 'decide')->whereUuid('recommendation')->name('recommendations.decide');
+            Route::post('/matches/{match}', 'match')->whereUuid('match')->name('matches.decide');
+            Route::post('/run', 'run')->name('run');
+            Route::post('/sources', 'storeSource')->name('sources.store');
+        });
     });

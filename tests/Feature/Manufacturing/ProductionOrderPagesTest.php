@@ -121,8 +121,9 @@ class ProductionOrderPagesTest extends ManufacturingTestCase
 
     public function test_the_production_hub_offers_orders_to_those_who_may_read_them(): void
     {
-        $cards = fn ($user) => array_column($this->actingAs($user)->get('/manufacturing/production')->assertOk()
-            ->viewData('page')['props']['cards'], 'path');
+        // The production hub also holds planning, engineering and maintenance cards; this is about orders.
+        $cards = fn ($user) => array_values(array_filter(array_column($this->actingAs($user)->get('/manufacturing/production')->assertOk()
+            ->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/production/')));
 
         $this->assertContains('/manufacturing/production/orders', $cards($this->planner));
         $this->assertContains('/manufacturing/production/orders', $cards($this->operator));

@@ -180,7 +180,7 @@ class DashboardsTest extends ManufacturingTestCase
         $this->actingAs($this->outsider)->get(route('manufacturing.reports.planning'))->assertForbidden();
 
         // Each role's hub shows only its dashboards.
-        $cards = array_column($this->actingAs($this->scheduler)->get('/manufacturing/reports')->assertOk()->viewData('page')['props']['cards'], 'path');
+        $cards = array_column($this->actingAs($this->scheduler)->get('/manufacturing/quality')->assertOk()->viewData('page')['props']['cards'], 'path');
         $this->assertSame(['/manufacturing/reports/planning'], array_values($cards));
     }
 }

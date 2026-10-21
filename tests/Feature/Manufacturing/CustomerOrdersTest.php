@@ -210,7 +210,7 @@ class CustomerOrdersTest extends ManufacturingTestCase
         $this->assertSame('PO-ACME-9', $show['props']['customer']['customer_ref']);
 
         // The fulfilment cards now sit in the quality hub; only theirs are compared.
-        $cards = array_values(array_filter(array_column($this->actingAs($this->sales)->get('/manufacturing/quality')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/fulfilment/')));
+        $cards = array_values(array_filter(array_column($this->actingAs($this->sales)->get('/manufacturing/production')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/fulfilment/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/fulfilment/customer-orders', '/manufacturing/fulfilment/subcontracting'], $cards);
     }
 }

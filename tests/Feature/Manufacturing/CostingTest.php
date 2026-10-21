@@ -274,7 +274,7 @@ class CostingTest extends ManufacturingTestCase
     public function test_the_costing_screens_and_who_may_do_what(): void
     {
         // The costing cards now sit in the reports hub; only theirs are compared.
-        $cards = array_values(array_filter(array_column($this->actingAs($this->costAccountant)->get('/manufacturing/reports')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/costing/')));
+        $cards = array_values(array_filter(array_column($this->actingAs($this->costAccountant)->get('/manufacturing/quality')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/costing/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/costing/standards', '/manufacturing/costing/variances', '/manufacturing/costing/profitability'], $cards);
         $this->actingAs($this->engineer)->get(route('manufacturing.costing.standards.index'))->assertForbidden();
 

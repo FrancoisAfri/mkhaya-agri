@@ -511,9 +511,11 @@ class QualityTest extends ManufacturingTestCase
 
     public function test_the_quality_screens_render_and_each_role_sees_only_its_own_actions(): void
     {
-        $cards = array_column($this->actingAs($this->inspector)->get('/manufacturing/quality')->assertOk()->viewData('page')['props']['cards'], 'path');
+        // The quality hub also holds reports and setup; this is about its quality cards.
+        $q = fn ($p) => str_starts_with($p, '/manufacturing/quality/');
+        $cards = array_values(array_filter(array_column($this->actingAs($this->inspector)->get('/manufacturing/quality')->assertOk()->viewData('page')['props']['cards'], 'path'), $q));
         $this->assertEqualsCanonicalizing(['/manufacturing/quality/inspections', '/manufacturing/quality/nonconformances', '/manufacturing/quality/plans'], $cards);
-        $this->assertSame([], array_column($this->actingAs($this->engineer)->get('/manufacturing/quality')->viewData('page')['props']['cards'], 'path'));
+        $this->assertSame([], array_values(array_filter(array_column($this->actingAs($this->engineer)->get('/manufacturing/quality')->viewData('page')['props']['cards'], 'path'), $q)));
 
         // The quality manager defines a plan and its check through the screens.
         $this->actingAs($this->qualityManager)->post(route('manufacturing.quality.plans.store'), [

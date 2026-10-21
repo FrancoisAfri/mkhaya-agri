@@ -126,6 +126,25 @@ final class RoleCatalog
     public const VIEW_INTEGRATIONS = 'mfg.integration.view';
     public const MANAGE_INTEGRATIONS = 'mfg.integration.manage';
 
+    // Agricultural production (the production engine): reading the cycles, recording what happened
+    // in them, and setting up the types, units, devices and thresholds they run on.
+    public const VIEW_AGRICULTURE = 'mfg.agri.view';
+    public const RECORD_AGRICULTURE = 'mfg.agri.record';
+    public const MANAGE_AGRICULTURE = 'mfg.agri.manage';
+
+    // Command & Control Centre: watching, responding to incidents, asking equipment to act, and
+    // approving what it is asked. Requesting and approving a command are never the same person.
+    public const VIEW_COMMAND = 'mfg.command.view';
+    public const RESPOND_INCIDENTS = 'mfg.command.respond';
+    public const REQUEST_COMMANDS = 'mfg.command.request';
+    public const APPROVE_COMMANDS = 'mfg.command.approve';
+
+    // Intelligence: weather, disease, funding and market sources, the agents' recommendations, and
+    // deciding on them. A recommendation does nothing until somebody with DECIDE approves it.
+    public const VIEW_INTELLIGENCE = 'mfg.intel.view';
+    public const MANAGE_INTELLIGENCE = 'mfg.intel.manage';
+    public const DECIDE_RECOMMENDATIONS = 'mfg.intel.decide';
+
     // Configuration (MFG-001)
     public const CONFIGURE = 'mfg.configure';
 
@@ -198,6 +217,16 @@ final class RoleCatalog
             self::MANAGE_TRANSFERS,
             self::VIEW_INTEGRATIONS,
             self::MANAGE_INTEGRATIONS,
+            self::VIEW_AGRICULTURE,
+            self::RECORD_AGRICULTURE,
+            self::MANAGE_AGRICULTURE,
+            self::VIEW_COMMAND,
+            self::RESPOND_INCIDENTS,
+            self::REQUEST_COMMANDS,
+            self::APPROVE_COMMANDS,
+            self::VIEW_INTELLIGENCE,
+            self::MANAGE_INTELLIGENCE,
+            self::DECIDE_RECOMMENDATIONS,
             self::CONFIGURE,
             self::ALL_FACTORIES,
         ];

@@ -294,6 +294,9 @@ class AppServiceProvider extends ServiceProvider
         Gate::policy(\App\Modules\Operations\Manufacturing\Models\DowntimeEvent::class, \App\Modules\Operations\Manufacturing\Policies\DowntimeEventPolicy::class);
         Gate::policy(\App\Modules\Operations\Manufacturing\Models\FloorEscalation::class, \App\Modules\Operations\Manufacturing\Policies\FloorEscalationPolicy::class);
         Gate::policy(\App\Modules\Operations\Manufacturing\Models\Recall::class, \App\Modules\Operations\Manufacturing\Policies\RecallPolicy::class);
+        Gate::policy(\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::class, \App\Modules\Operations\Manufacturing\Policies\AgriculturePolicy::class);
+        Gate::policy(\App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::class, \App\Modules\Operations\Manufacturing\Policies\CommandCentrePolicy::class);
+        Gate::policy(\App\Modules\Operations\Manufacturing\Models\Agriculture\Recommendation::class, \App\Modules\Operations\Manufacturing\Policies\IntelligencePolicy::class);
         Gate::policy(\App\Modules\Operations\Manufacturing\Models\StandardCost::class, \App\Modules\Operations\Manufacturing\Policies\StandardCostPolicy::class);
         Gate::policy(\App\Modules\Operations\Manufacturing\Models\MachineProfile::class, \App\Modules\Operations\Manufacturing\Policies\MachineProfilePolicy::class);
         Gate::policy(\App\Modules\Operations\Manufacturing\Models\PlanRun::class, \App\Modules\Operations\Manufacturing\Policies\PlanRunPolicy::class);

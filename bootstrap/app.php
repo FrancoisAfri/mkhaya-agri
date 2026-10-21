@@ -67,6 +67,7 @@ use App\Modules\Operations\ProjectManagement\Console\SeedPerformanceCommand;
 use App\Modules\Operations\ProjectManagement\Console\SendProjectAlertsCommand;
 use App\Modules\Operations\Manufacturing\Console\InstallReferenceDataCommand as InstallManufacturingReferenceData;
 use App\Modules\Operations\Manufacturing\Console\EscalateFloorCommand;
+use App\Modules\Operations\Manufacturing\Console\ProductionMonitorCommand;
 use App\Modules\Operations\Manufacturing\Console\GenerateMaintenanceCommand;
 use App\Modules\Operations\Manufacturing\Console\ScanLossesCommand;
 use App\Modules\Operations\Manufacturing\Console\SendAlertsCommand;
@@ -196,6 +197,7 @@ return Application::configure(basePath: dirname(__DIR__))
         SendProjectAlertsCommand::class,
         InstallManufacturingReferenceData::class,
         EscalateFloorCommand::class,
+        ProductionMonitorCommand::class,
         GenerateMaintenanceCommand::class,
         ScanLossesCommand::class,
         SendAlertsCommand::class,

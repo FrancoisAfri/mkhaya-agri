@@ -134,7 +134,7 @@ class ManufacturingRoutesAuthorizeTest extends ManufacturingTestCase
             }
         }
 
-        $this->assertSame(53, $checked);
+        $this->assertSame(67, $checked);
     }
 
     public function test_every_hub_group_has_a_landing_served_by_the_hub_controller(): void
@@ -152,9 +152,9 @@ class ManufacturingRoutesAuthorizeTest extends ManufacturingTestCase
 
     public function test_hub_cards_follow_what_the_person_may_actually_open(): void
     {
-        // Engineering now sits inside Planning & Engineering and Setup inside Reports, Costing & Setup,
-        // so each check looks only at that group's cards within the hub that holds them.
-        $hubOf = ['engineering' => 'planning', 'setup' => 'reports'];
+        // Engineering now sits inside Production, Planning & Maintenance and Setup inside Quality,
+        // Reports & Setup, so each check looks only at that group's cards within the hub that holds them.
+        $hubOf = ['engineering' => 'production', 'setup' => 'quality'];
         $cards = fn ($user, string $group) => array_values(array_filter(array_column(
             $this->actingAs($user)->get('/manufacturing/'.$hubOf[$group])->assertOk()->viewData('page')['props']['cards'],
             'path'

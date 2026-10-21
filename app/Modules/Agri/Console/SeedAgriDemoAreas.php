@@ -161,6 +161,8 @@ class SeedAgriDemoAreas extends Command
             $this->area('Environment records and supplier disputes', fn () => DB::table('agri_environment_records')->where('company_id', $this->companyId)->exists(), fn () => $this->environment());
             $this->area('Scheduled insights', fn () => ReportSchedule::query()->where('company_id', $this->companyId)->where('report_key', 'like', 'agri:%')->exists(), fn () => $this->insights());
             $this->area('Outcomes, predictions, AI drafts', fn () => DB::table('agri_outcome_snapshots')->where('company_id', $this->companyId)->exists(), fn () => $this->outcomes());
+            // Production moved to Manufacturing & Production: cycles, sensors, the Command Centre, intelligence.
+            $this->area('Agricultural production, Command Centre and intelligence', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->where('code', 'BH1')->exists(), fn () => $this->production());
 
             $this->newLine();
             $failed = collect($this->results)->filter(fn ($r) => str_starts_with($r, 'FAILED'))->count();
@@ -259,6 +261,173 @@ class SeedAgriDemoAreas extends Command
         \Illuminate\Support\Facades\Cache::flush();
 
         return $modules->count().' modules, '.$role->permissions()->count().' permissions';
+    }
+
+    /**
+     * The production engine on the demo farms: broiler and layer houses and a tilapia pond at
+     * Rivierplaas, the maize on Boplaas as a crop cycle, a day of sensor readings (with a house
+     * running hot, a sensor gone quiet and a fan command waiting for approval), outside sources
+     * (one failing), a heat warning, an outbreak report near Rivierplaas, a funding call, the
+     * agents' recommendations and weight forecasts. Every unit is marked as demonstration data.
+     */
+    private function production(): string
+    {
+        // The demo is seeded without calling the AI service: the brief is written when the agents next run.
+        config(['manufacturing.agriculture.ai_brief' => false]);
+        $Mfg = \App\Modules\Operations\Manufacturing\Support\RoleCatalog::class;
+        foreach ($Mfg::all() as $p) {
+            \Spatie\Permission\Models\Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
+        }
+        $owner = $this->u['owner'];
+        $owner->givePermissionTo($Mfg::all());
+        // The farm's people respond to the Command Centre; the manager also decides and approves.
+        $mfgModule = DB::table('security_modules')->where('code_name', 'manufacturing')->value('id');
+        foreach (['manager', 'supervisor', 'herdsman'] as $k) {
+            if (! isset($this->u[$k])) {
+                continue;
+            }
+            $this->u[$k]->givePermissionTo(array_merge([$Mfg::VIEW_AGRICULTURE, $Mfg::RECORD_AGRICULTURE, $Mfg::VIEW_COMMAND, $Mfg::RESPOND_INCIDENTS, $Mfg::VIEW_INTELLIGENCE],
+                $k === 'manager' ? [$Mfg::MANAGE_AGRICULTURE, $Mfg::APPROVE_COMMANDS, $Mfg::DECIDE_RECOMMENDATIONS, $Mfg::REQUEST_COMMANDS, $Mfg::INSPECT, $Mfg::DISPOSE] : [$Mfg::REQUEST_COMMANDS]));
+            if ($mfgModule) {
+                DB::table('security_module_access')->updateOrInsert(['module_id' => $mfgModule, 'user_id' => $this->u[$k]->id],
+                    ['access_level' => $k === 'manager' ? 3 : 2, 'active' => 1, 'updated_at' => now(), 'created_at' => now()]);
+            }
+        }
+        app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+        $owner = $owner->fresh();
+        Auth::setUser($owner);
+
+        $types = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionTypes::class);
+        $types->installDefaults($this->companyId);
+        $type = fn (string $code) => \App\Modules\Operations\Manufacturing\Models\Agriculture\ProductionType::query()->where('code', $code)->firstOrFail();
+        $cycles = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionCycles::class);
+        $readings = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Readings::class);
+        $Unit = \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::class;
+        $Device = \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::class;
+        $unit = fn (Farm $farm, string $code, string $name, string $kind, ?string $t, array $o = []) => $Unit::create($o + ['company_id' => $this->companyId, 'farm_id' => $farm->id,
+            'code' => $code, 'name' => $name, 'kind' => $kind, 'production_type_id' => $t ? $type($t)->id : null, 'attributes' => ['demo' => true]]);
+
+        $bh1 = $unit($this->rivier, 'BH1', 'Broiler house 1', 'house', 'BROILER', ['capacity' => 30000, 'capacity_unit' => 'birds', 'area' => 1500, 'area_unit' => 'm2', 'biosecurity_zone' => 'Poultry A']);
+        $bh2 = $unit($this->rivier, 'BH2', 'Broiler house 2', 'house', 'BROILER', ['capacity' => 30000, 'capacity_unit' => 'birds', 'area' => 1500, 'area_unit' => 'm2', 'biosecurity_zone' => 'Poultry A', 'status' => 'cleaning']);
+        $lh1 = $unit($this->rivier, 'LH1', 'Layer house 1', 'house', 'LAYER', ['capacity' => 8000, 'capacity_unit' => 'birds', 'area' => 1100, 'area_unit' => 'm2', 'biosecurity_zone' => 'Poultry B']);
+        $pond = $unit($this->rivier, 'POND1', 'Tilapia pond 1', 'pond', 'TILAPIA', ['capacity' => 15000, 'capacity_unit' => 'fish', 'area' => 2000, 'area_unit' => 'm2']);
+        $plan = CropPlan::withoutGlobalScopes()->where('farm_id', $this->boplaas->id)->whereIn('status', [CropPlan::PLANTED, CropPlan::HARVESTING])->where('code', 'like', 'MZ%')->first();
+        $land = $plan ? $unit($this->boplaas, 'FLD-'.$plan->code, 'Maize — '.($plan->field?->name ?? $plan->code), 'field', 'MAIZE', ['field_id' => $plan->field_id, 'area' => $plan->planned_area, 'area_unit' => 'ha']) : null;
+
+        // A broiler flock, day 24: daily feed and water, a little mortality, weekly weighings.
+        $placed = today()->subDays(24);
+        $flock = $cycles->start($type('BROILER'), $bh1, ['code' => 'BRO-2610-01', 'name' => 'Ross 308 flock October', 'opening_count' => 28000,
+            'started_on' => $placed->toDateString(), 'breed' => 'Ross 308', 'source_ref' => 'Limpopo Hatchery batch 4471', 'custom' => ['hatchery' => 'Limpopo Hatchery']], $owner);
+        foreach (['brooding' => 1, 'grower' => 11] as $stage => $day) {
+            \App\Modules\Operations\Manufacturing\Models\Agriculture\StageEvent::create(['company_id' => $this->companyId, 'cycle_id' => $flock->id, 'from_stage' => $flock->fresh()->stage,
+                'to_stage' => $stage, 'at' => $placed->copy()->addDays($day)->setTime(7, 0), 'by' => $owner->id]);
+            $flock->update(['stage' => $stage]);
+        }
+        $weights = [7 => 0.19, 14 => 0.49, 21 => 0.97];
+        for ($d = 1; $d <= 23; $d++) {
+            $day = $placed->copy()->addDays($d);
+            $alive = (int) $flock->fresh()->current_count;
+            $intake = min(0.17, 0.012 + 0.0068 * $d);                       // kg a bird a day, rising
+            $feed = round($alive * $intake);
+            $cycles->record($flock->fresh(), 'feed', ['quantity' => $feed, 'cost' => round($feed * 8.4, 2), 'recorded_at' => $day->copy()->setTime(7, 30), 'client_id' => "demo-bro-feed-{$d}"], $owner);
+            $cycles->record($flock->fresh(), 'water', ['quantity' => round($feed * 1.85), 'recorded_at' => $day->copy()->setTime(18, 0), 'client_id' => "demo-bro-water-{$d}"], $owner);
+            $dead = $d <= 3 ? 55 - $d * 10 : ($d === 22 ? 96 : 8 + ($d % 5));
+            $cycles->record($flock->fresh(), 'mortality', ['count' => $dead, 'reason' => $d <= 3 ? 'Starve-outs' : ($d === 22 ? 'Heat stress' : 'Found dead'), 'recorded_at' => $day->copy()->setTime(8, 0), 'client_id' => "demo-bro-mort-{$d}"], $owner);
+            if (isset($weights[$d])) {
+                $cycles->record($flock->fresh(), 'weight', ['quantity' => $weights[$d], 'sample_size' => 100, 'uniformity_pct' => 84 - $d / 7, 'recorded_at' => $day->copy()->setTime(9, 0), 'client_id' => "demo-bro-wt-{$d}"], $owner);
+            }
+        }
+        $cycles->record($flock->fresh(), 'treatment', ['product_name' => 'Vitamin & electrolyte (Stress Pack)', 'dose' => '1 g/l', 'reason' => 'Heat stress', 'recorded_at' => $placed->copy()->addDays(22)->setTime(10, 0)], $owner);
+
+        // Layers in lay, with eggs collected; the tilapia pond; the maize as a crop cycle.
+        $layers = $cycles->start($type('LAYER'), $lh1, ['code' => 'LAY-2604-01', 'name' => 'Hy-Line Brown flock', 'opening_count' => 7600, 'started_on' => today()->subDays(196)->toDateString(), 'breed' => 'Hy-Line Brown'], $owner);
+        $cycles->advance($layers, 'laying', $owner);
+        for ($d = 14; $d >= 1; $d--) {
+            $cycles->record($layers->fresh(), 'eggs', ['quantity' => 6650 + random_int(-120, 120), 'recorded_at' => today()->subDays($d)->setTime(15, 0), 'client_id' => "demo-lay-eggs-{$d}"], $owner);
+            $cycles->record($layers->fresh(), 'feed', ['quantity' => 870, 'cost' => 870 * 7.9, 'recorded_at' => today()->subDays($d)->setTime(7, 0), 'client_id' => "demo-lay-feed-{$d}"], $owner);
+        }
+        $fish = $cycles->start($type('TILAPIA'), $pond, ['code' => 'TIL-2607-01', 'name' => 'Nile tilapia stocking', 'opening_count' => 12000, 'started_on' => today()->subDays(90)->toDateString(), 'area' => 0.2], $owner);
+        $cycles->advance($fish, 'grow_out', $owner);
+        if ($land) {
+            $cycles->start($type('MAIZE'), $land, ['crop_plan_id' => $plan->id, 'code' => 'MZ-CYC-'.$plan->code, 'started_on' => ($plan->planted_on ?? today()->subMonths(4))->toDateString()], $owner);
+        }
+
+        // A day of readings in broiler house 1, the last forty minutes running hot.
+        $dev = fn ($u, string $code, string $name, string $metric, ?string $label, array $o = []) => $Device::create($o + ['company_id' => $this->companyId, 'farm_id' => $u->farm_id,
+            'unit_id' => $u->id, 'code' => $code, 'name' => $name, 'metric' => $metric, 'unit' => $label, 'expected_interval_seconds' => 600, 'status' => 'online', 'calibrated_on' => today()->subMonths(2), 'last_seen_at' => now()]);
+        $temp = $dev($bh1, 'BH1-T1', 'BH1 temperature (centre)', 'temperature', '°C');
+        $rh = $dev($bh1, 'BH1-RH1', 'BH1 humidity', 'humidity', '%');
+        $nh3 = $dev($bh1, 'BH1-NH3', 'BH1 ammonia', 'ammonia', 'ppm');
+        $flow = $dev($bh1, 'BH1-WF1', 'BH1 water flow', 'water_flow', 'l/h');
+        $meter = $dev($bh1, 'BH1-WM1', 'BH1 water meter', 'water_meter', 'l', ['kind' => 'meter']);
+        $fan = $dev($bh1, 'BH1-FAN', 'BH1 tunnel fans', 'fan', null, ['kind' => 'controller', 'controllable' => true, 'commands_need_approval' => true,
+            'allowed_commands' => [['command' => 'fan_on'], ['command' => 'fan_off'], ['command' => 'set_speed', 'min' => 0, 'max' => 100]]]);
+        $series = fn (callable $f, int $hours = 24, int $every = 10) => collect(range($hours * 60 / $every, 0))->map(fn ($k) => [$k * $every, $f($k * $every)])->all();
+        $send = fn ($d, array $points, ?Carbon $received = null) => $readings->ingest($d->fresh(), array_map(fn ($p) => ['message_id' => "demo-{$d->code}-".now()->subMinutes($p[0])->format('YmdHi'),
+            'value' => round($p[1], 2), 'measured_at' => now()->subMinutes($p[0])->toIso8601String()], $points), $received);
+        $send($rh, $series(fn ($m) => 58 + 6 * sin($m / 230) + random_int(-10, 10) / 10));
+        $send($nh3, $series(fn ($m) => 11 + 3 * sin($m / 300) + random_int(-5, 5) / 10));
+        $send($flow, $series(fn ($m) => 780 + 260 * sin(($m + 300) / 230) + random_int(-30, 30)));
+        $cum = 412000.0;
+        $send($meter, $series(function ($m) use (&$cum) { $cum += 120 + random_int(0, 30); return $cum; }));
+        $send($temp, $series(fn ($m) => $m <= 40 ? 33.2 + (40 - $m) / 40 : 27.5 + 2.5 * sin($m / 230) + random_int(-4, 4) / 10));
+        // The layer house sensor went quiet two hours ago.
+        $quiet = $dev($lh1, 'LH1-T1', 'LH1 temperature', 'temperature', '°C');
+        $readings->ingest($quiet->fresh(), array_map(fn ($p) => ['message_id' => "demo-LH1-T1-{$p[0]}", 'value' => $p[1], 'measured_at' => now()->subMinutes($p[0])->toIso8601String()],
+            $series(fn ($m) => 23 + random_int(-5, 5) / 10, 6)), now()->subMinutes(130));
+        $Device::query()->whereKey($quiet->id)->update(['last_seen_at' => now()->subMinutes(130)]);
+        $readings->sweepStale();
+        $do = $dev($pond, 'POND1-DO', 'Pond 1 dissolved oxygen', 'dissolved_oxygen', 'mg/l');
+        $send($do, $series(fn ($m) => 6.2 + 1.2 * sin($m / 230) + random_int(-2, 2) / 10));
+
+        // The supervisor asks for the fans at 80 %: waiting for the manager.
+        if (isset($this->u['supervisor'])) {
+            app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Commands::class)->request($fan->fresh(), 'set_speed', ['value' => 80], $this->u['supervisor']->fresh(),
+                'BH1 above 32 °C since mid-afternoon', null, 'demo-fan-80');
+        }
+
+        // Outside sources: weather, veterinary, funding and a market feed that is down.
+        $Source = \App\Modules\Operations\Manufacturing\Models\Agriculture\Source::class;
+        $saws = $Source::create(['company_id' => $this->companyId, 'code' => 'SAWS', 'name' => 'South African Weather Service warnings', 'kind' => 'weather', 'publisher' => 'SAWS', 'url' => 'https://www.weathersa.co.za', 'trust' => 'official', 'refresh_minutes' => 30]);
+        $vet = $Source::create(['company_id' => $this->companyId, 'code' => 'DALRRD-VET', 'name' => 'Animal disease reports (DALRRD)', 'kind' => 'disease', 'publisher' => 'Department of Agriculture, Land Reform and Rural Development', 'url' => 'https://www.dalrrd.gov.za', 'trust' => 'official', 'refresh_minutes' => 360]);
+        $lda = $Source::create(['company_id' => $this->companyId, 'code' => 'LIMPOPO-LDARD', 'name' => 'Limpopo Agriculture funding calls', 'kind' => 'government', 'publisher' => 'Limpopo Department of Agriculture and Rural Development', 'trust' => 'official', 'refresh_minutes' => 1440]);
+        $mkt = $Source::create(['company_id' => $this->companyId, 'code' => 'MKT-FEED', 'name' => 'Poultry market prices', 'kind' => 'market', 'trust' => 'trusted', 'refresh_minutes' => 60]);
+        $src = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Sources::class);
+        foreach ([$saws, $vet, $lda] as $s) {
+            $src->attempt($s, fn () => []);
+        }
+        $src->attempt($mkt, fn () => [['external_id' => 'broiler-live-'.today()->subDay()->format('Ymd'), 'kind' => 'price', 'title' => 'Live broilers R28.40/kg']], now()->subHours(5));
+        $src->attempt($mkt->fresh(), fn () => throw new \RuntimeException('Connection timed out after 30 s'));
+
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\RegionalWarnings::class)->apply($saws->fresh(), ['external_id' => 'SAWS-LP-HEAT-'.today()->format('md'), 'kind' => 'heat',
+            'severity' => 'severe', 'latitude' => (float) $this->rivier->latitude + 0.1, 'longitude' => (float) $this->rivier->longitude - 0.1, 'radius_km' => 80,
+            'starts_at' => today()->addDay()->setTime(11, 0)->toIso8601String(), 'ends_at' => today()->addDays(3)->setTime(18, 0)->toIso8601String(),
+            'message' => 'Heatwave: persistently high temperatures of 38–41 °C expected over the Mopani district from tomorrow until Friday.']);
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Outbreaks::class)->report($vet->fresh(), ['external_id' => 'HPAI-LP-2026-017', 'disease' => 'Highly pathogenic avian influenza (H5N1)',
+            'species' => 'poultry', 'status' => 'suspected', 'latitude' => (float) $this->rivier->latitude + 0.12, 'longitude' => (float) $this->rivier->longitude + 0.08, 'radius_km' => 10,
+            'region' => 'Greater Tzaneen', 'reported_on' => today()->subDay()->toDateString(), 'body' => 'Suspected HPAI on a commercial layer farm; samples sent for confirmation. Movement controls within 10 km.']);
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Opportunities::class)->register($lda->fresh(), ['external_id' => 'LDARD-POULTRY-AQUA-2026', 'kind' => 'grant',
+            'title' => 'Poultry and aquaculture expansion grant 2026/27', 'funder' => 'Limpopo Department of Agriculture and Rural Development', 'amount_max' => 750000,
+            'opens_on' => today()->subWeek()->toDateString(), 'closes_on' => today()->addWeeks(5)->toDateString(), 'url' => 'https://www.lda.gov.za',
+            'summary' => 'Co-funding for housing, cooling, water and biosecurity upgrades for commercial and emerging poultry and fish farmers in Limpopo.',
+            'eligibility' => ['categories' => ['poultry', 'aquaculture'], 'provinces' => ['Limpopo'], 'requires' => ['SARS tax clearance', 'Proof of land tenure', 'Three-year business plan']]]);
+
+        // The agents look at all of it; weight forecasts for the flock, and last flock's scored forecasts.
+        $run = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Orchestrator::class)->run($this->companyId);
+        $forecasts = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Forecasts::class);
+        $forecasts->weight($flock->fresh(), $placed->copy()->addDays(28));
+        $forecasts->weight($flock->fresh(), $placed->copy()->addDays(35));
+        foreach ([[7, 0.18, 0.192], [14, 0.47, 0.49], [21, 0.93, 0.97], [28, 1.48, 1.52], [35, 2.06, 2.11]] as [$day, $pred, $actual]) {
+            $f = \App\Modules\Operations\Manufacturing\Models\Agriculture\Forecast::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'metric' => 'avg_weight_kg',
+                'target_on' => today()->subDays(60 - $day)->toDateString(), 'predicted' => $pred, 'lower' => $pred - 0.06, 'upper' => $pred + 0.06, 'unit' => 'kg',
+                'model' => 'linear-trend', 'model_version' => '1.0', 'made_at' => today()->subDays(63 - $day), 'inputs' => ['flock' => 'BRO-2608-01 (previous)']]);
+            $forecasts->resolve($f, $actual);
+        }
+
+        return \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->count().' units, '.\App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::query()->count().' cycles, '
+            .\App\Modules\Operations\Manufacturing\Models\Agriculture\Reading::query()->count().' readings, '
+            .\App\Modules\Operations\Manufacturing\Models\Agriculture\Incident::query()->whereIn('status', ['open', 'acknowledged'])->count().' open incidents, '
+            ."{$run['proposed']} recommendations (AI brief: {$run['ai']})";
     }
 
     // ── helpers ──────────────────────────────────────────────────────────────────────────────

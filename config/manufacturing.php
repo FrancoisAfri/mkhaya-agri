@@ -20,16 +20,29 @@
 return [
     'default_package' => env('MANUFACTURING_DEFAULT_PACKAGE', 'ENTERPRISE'),
 
+    /*
+    | Agricultural production, the Command Centre and intelligence. The AI brief is optional: with it
+    | off, or with the AI service down, the Command Centre runs on its rules alone.
+    */
+    'agriculture' => [
+        'ai_brief' => env('MANUFACTURING_AGRI_AI_BRIEF', true),
+        // How long the live stream stays open before the browser reconnects, and how often it sends.
+        'stream_seconds' => 55,
+        'stream_every' => 5,
+    ],
+
     'packages' => [
         'ESSENTIALS' => [
             'label' => 'Essentials',
-            'features' => ['setup', 'engineering', 'production', 'floor', 'quality', 'reports'],
+            // Agricultural production and the Command Centre's alarms come with every package: a farm
+            // without its water and temperature alarms is not a smaller product, it is an unsafe one.
+            'features' => ['setup', 'engineering', 'production', 'floor', 'quality', 'reports', 'agriculture', 'command'],
             'max_factories' => 1,
         ],
         'PROFESSIONAL' => [
             'label' => 'Professional',
             'features' => ['setup', 'engineering', 'production', 'floor', 'quality', 'reports', 'planning', 'costing', 'maintenance',
-                'workforce', 'fulfilment', 'loss', 'notifications', 'accounting'],
+                'workforce', 'fulfilment', 'loss', 'notifications', 'accounting', 'agriculture', 'command', 'intelligence'],
             'max_factories' => 3,
         ],
         'ENTERPRISE' => [

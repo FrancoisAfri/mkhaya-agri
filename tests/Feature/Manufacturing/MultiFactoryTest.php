@@ -166,7 +166,7 @@ class MultiFactoryTest extends ManufacturingTestCase
         $this->assertSame([], $site['props']['data']['tables']['by_factory']);
 
         // The factories cards now sit in the planning hub; only theirs are compared.
-        $cards = array_values(array_filter(array_column($this->actingAs($this->boss)->get('/manufacturing/planning')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/factories/')));
+        $cards = array_values(array_filter(array_column($this->actingAs($this->boss)->get('/manufacturing/production')->assertOk()->viewData('page')['props']['cards'], 'path'), fn ($p) => str_starts_with($p, '/manufacturing/factories/')));
         $this->assertEqualsCanonicalizing(['/manufacturing/factories/transfers', '/manufacturing/factories/network'], $cards);
     }
 }

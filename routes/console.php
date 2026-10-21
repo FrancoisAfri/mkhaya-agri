@@ -370,6 +370,17 @@ Schedule::command(\App\Modules\Operations\Manufacturing\Console\SyncIntegrations
     ->withoutOverlapping()
     ->onOneServer();
 
+// Every minute — agricultural production: stale sensors, incident escalation to backups, unconfirmed
+// equipment commands, forecast scoring. Hourly the production agents run too.
+Schedule::command(\App\Modules\Operations\Manufacturing\Console\ProductionMonitorCommand::class)
+    ->everyMinute()
+    ->withoutOverlapping()
+    ->onOneServer();
+Schedule::command(\App\Modules\Operations\Manufacturing\Console\ProductionMonitorCommand::class, ['--agents'])
+    ->hourlyAt(7)
+    ->withoutOverlapping()
+    ->onOneServer();
+
 // Daily 06:30 — measure the manufacturing assistant's recommendations against what happened next.
 Schedule::command(\App\Modules\Operations\Manufacturing\Console\MeasureAssistantCommand::class)
     ->dailyAt('06:30')
