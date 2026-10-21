@@ -176,14 +176,18 @@ class Incidents
                 'user_ids' => array_map('intval', (array) ($s['user_ids'] ?? [])), 'roles' => (array) ($s['roles'] ?? []), 'channels' => (array) ($s['channels'] ?? ['in_app'])])->all();
         }
         $minutes = self::DEFAULT_MINUTES[$incident->severity] ?? null;
+        // Urgent alarms also go to people's phones on the channels the organisation has set up.
+        $messaging = app(\App\Shared\Messaging\CompanyMessaging::class);
+        $channels = ['in_app', ...(in_array($incident->severity, ['critical', 'emergency'], true)
+            ? array_values(array_filter(['sms', 'whatsapp'], fn ($c) => $messaging->usable((int) $incident->company_id, $c))) : [])];
         $who = fn (string $permission) => User::query()->where('company_id', $incident->company_id)->where('status', 1)->get()
             ->filter(fn (User $u) => $u->can($permission))->pluck('id')->all();
         $first = $who(RoleCatalog::RESPOND_INCIDENTS);
         $backup = array_values(array_diff($who(RoleCatalog::MANAGE_AGRICULTURE), $first));
 
         return array_values(array_filter([
-            ['level' => 1, 'after_minutes' => $minutes, 'user_ids' => $first, 'roles' => [], 'channels' => ['in_app']],
-            $backup ? ['level' => 2, 'after_minutes' => $minutes, 'user_ids' => $backup, 'roles' => [], 'channels' => ['in_app']] : null,
+            ['level' => 1, 'after_minutes' => $minutes, 'user_ids' => $first, 'roles' => [], 'channels' => $channels],
+            $backup ? ['level' => 2, 'after_minutes' => $minutes, 'user_ids' => $backup, 'roles' => [], 'channels' => $channels] : null,
         ]));
     }
 
@@ -211,9 +215,15 @@ class Incidents
                     } elseif ($channel === 'email') {
                         $user->notify(new ManufacturingAlert('agri_incident', $title, (string) ($incident->detail ?? $incident->title),
                             '/manufacturing/command/incidents/'.$incident->uuid, ['mail'], $level - 1));
+                    } elseif ($channel === 'sms') {
+                        $error = app(\App\Shared\Messaging\CompanyMessaging::class)->sms($user, "{$title}. ".url('/manufacturing/command/incidents/'.$incident->uuid),
+                            in_array($incident->severity, ['critical', 'emergency'], true));
+                    } elseif ($channel === 'whatsapp') {
+                        // The organisation's approved alert template: {{1}} severity, {{2}} what, {{3}} where to look.
+                        $error = app(\App\Shared\Messaging\CompanyMessaging::class)->whatsapp((int) $incident->company_id, $user,
+                            [strtoupper($incident->severity).($level > 1 ? ' (escalated)' : ''), $incident->title, url('/manufacturing/command/incidents/'.$incident->uuid)]);
                     } else {
-                        // SMS and WhatsApp go out once their gateways are configured; until then the attempt is logged.
-                        $error = "No {$channel} gateway is configured.";
+                        $error = "Unknown channel {$channel}.";
                     }
                 } catch (\Throwable $e) {
                     $error = mb_strimwidth($e->getMessage(), 0, 250);

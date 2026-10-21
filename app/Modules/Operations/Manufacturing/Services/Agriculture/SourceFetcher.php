@@ -51,7 +51,17 @@ class SourceFetcher
     /** @return list<array> */
     public function items(Source $source): array
     {
-        $response = Http::timeout(20)->withHeaders(['User-Agent' => 'Mkhaya Agri production intelligence', 'Accept' => '*/*'])->get($source->url);
+        $request = Http::timeout(20)->withHeaders(['User-Agent' => 'Mkhaya Agri production intelligence', 'Accept' => '*/*']);
+        $auth = $source->auth();
+        $query = [];
+        match ($auth['type'] ?? null) {
+            'header' => $request = $request->withHeaders([$auth['name'] ?? 'Authorization' => $auth['value'] ?? '']),
+            'bearer' => $request = $request->withToken($auth['value'] ?? ''),
+            'basic' => $request = $request->withBasicAuth($auth['username'] ?? '', $auth['password'] ?? ''),
+            'query' => $query = [$auth['name'] ?? 'key' => $auth['value'] ?? ''],
+            default => null,
+        };
+        $response = $request->get($source->url, $query);
         if (! $response->successful()) {
             throw new RuntimeException("{$source->url} answered {$response->status()}.");
         }
@@ -79,6 +89,7 @@ class SourceFetcher
                 : $this->sources->publish($source, ['kind' => 'warning'] + $item),
             'outbreak' => $this->outbreaks->report($source, $item + ['status' => 'suspected', 'disease' => $item['title'] ?? 'Reported disease']),
             'funding' => $this->opportunities->register($source, $item),
+            'regulation' => app(RegulatoryNotices::class)->publish($source, $item),
             default => $this->sources->publish($source, $item + ['kind' => $kind]),
         };
     }

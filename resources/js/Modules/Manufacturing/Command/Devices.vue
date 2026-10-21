@@ -32,6 +32,7 @@ const deviceFields: FormField[] = [
   { key: 'expected_interval_seconds', label: 'Reports every (seconds)', type: 'number', default: 300, cols: 6 },
   { key: 'calibration_offset', label: 'Calibration offset', type: 'number', default: 0, cols: 3 }, { key: 'calibration_factor', label: 'Factor', type: 'number', default: 1, cols: 3 },
   { key: 'controllable', label: 'Accepts commands', type: 'switch', cols: 6 }, { key: 'commands_need_approval', label: 'Commands need a second person', type: 'switch', default: true, cols: 6 },
+  { key: 'calibration_interval_days', label: 'Calibrate every (days)', type: 'number', cols: 6, show: f => ['sensor', 'meter'].includes(f.kind) },
   { key: 'endpoint_url', label: 'Push commands to (optional URL)', hint: 'Otherwise the farm gateway collects them', cols: 12, show: f => ['controller', 'gateway'].includes(f.kind) },
 ]
 const target = ref<Record<string, any> | null>(null)
@@ -39,6 +40,7 @@ const cmd = ref({ command: '', value: null as number | null, reason: '' })
 const send = () => router.post(`/manufacturing/command/devices/${target.value!.id}/commands`, cmd.value, { preserveScroll: true, onSuccess: () => { target.value = null } })
 const decide = (id: string, decision: string) => router.post(`/manufacturing/command/commands/${id}`, { decision }, { preserveScroll: true })
 const graph = ref<Record<string, any> | null>(null)
+const validate = (d: any) => { const note = prompt(`How was ${d.name} tested on site? (what was commanded, what it did)`); if (note) router.post(`/manufacturing/command/devices/${d.id}/validate`, { note }, { preserveScroll: true }) }
 </script>
 
 <template>
@@ -57,13 +59,17 @@ const graph = ref<Record<string, any> | null>(null)
         <thead><tr><th>Device</th><th>Where</th><th class="text-end">Last value</th><th>Heard</th><th>Status</th><th /></tr></thead>
         <tbody>
           <tr v-for="d in devices" :key="d.id">
-            <td class="font-weight-medium">{{ d.name }}<div class="text-caption text-medium-emphasis">{{ d.code }} · {{ human(d.kind) }}<template v-if="d.calibrated_on"> · calibrated {{ d.calibrated_on }}</template></div></td>
+            <td class="font-weight-medium">{{ d.name }}<div class="text-caption text-medium-emphasis">{{ d.code }} · {{ human(d.kind) }}<template v-if="d.calibrated_on"> · calibrated {{ d.calibrated_on }}</template>
+              <template v-if="d.calibration_due"> · <span :class="{ 'text-error': d.calibration_due < new Date().toISOString().slice(0, 10) }">due {{ d.calibration_due }}</span></template>
+              <template v-if="d.uptime_pct !== null"> · {{ d.uptime_pct }}% of readings in 24 h</template></div>
+              <VChip v-if="d.controllable" size="x-small" label :color="d.validated_at ? 'success' : 'warning'" class="mt-1">{{ d.validated_at ? 'validated for live control' : 'simulation only — not validated' }}</VChip></td>
             <td>{{ d.location }}</td>
             <td class="text-end"><a v-if="d.metric && d.kind !== 'controller'" href="#" @click.prevent="graph = d">{{ num(d.last_value, 2) }} {{ d.unit }}</a><span v-else>—</span>
               <div class="text-caption">{{ d.last_measured_at ? at(d.last_measured_at) : '' }}</div></td>
             <td>{{ ago(d.last_seen_at) }}</td>
             <td><VChip size="small" label :color="d.stale || d.status === 'stale' ? 'warning' : d.status === 'online' ? 'success' : 'secondary'">{{ d.stale || d.status === 'stale' ? 'stale' : human(d.status) }}</VChip></td>
             <td class="text-end">
+              <VBtn v-if="d.controllable && !d.validated_at && can.approve" size="small" variant="text" prepend-icon="tabler-shield-check" @click="validate(d)">Validate</VBtn>
               <VBtn v-if="d.controllable && can.command" size="small" variant="tonal" prepend-icon="tabler-send" @click="target = d; cmd = { command: d.allowed_commands?.[0]?.command ?? '', value: null, reason: '' }">Command</VBtn>
               <template v-if="d.kind === 'gateway'">
                 <div class="text-caption text-start">Readings: <code>{{ d.api?.readings }}</code><br>Commands: <code>{{ d.api?.commands }}</code></div>
@@ -109,6 +115,7 @@ const graph = ref<Record<string, any> | null>(null)
           <VTextField v-if="(target.allowed_commands ?? []).find((a: any) => a.command === cmd.command)?.max !== undefined" v-model.number="cmd.value" type="number" label="Value" />
           <VTextField v-model="cmd.reason" label="Why" />
           <VAlert v-if="target.commands_need_approval" type="info" variant="tonal" density="compact">This device needs a second person to approve the command before it is sent.</VAlert>
+          <VAlert v-if="!target.validated_at" type="warning" variant="tonal" density="compact" class="mt-2">Not validated for live control: the command will be simulated and nothing sent to the equipment.</VAlert>
         </VCardText>
         <VCardActions><VSpacer /><VBtn @click="target = null">Cancel</VBtn><VBtn color="primary" :disabled="!cmd.command || !cmd.reason" @click="send">Send</VBtn></VCardActions>
       </VCard>

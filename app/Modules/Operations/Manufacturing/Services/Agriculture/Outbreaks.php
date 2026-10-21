@@ -126,6 +126,19 @@ class Outbreaks
         if ($band === 'watch') {
             return;
         }
+        // A community or unverified report is shown and proposed for verification, never alarmed on.
+        $publication = $o->publication_id ? \App\Modules\Operations\Manufacturing\Models\Agriculture\Publication::query()->with('source')->find($o->publication_id) : null;
+        if ($publication && ! $this->sources->trusted($publication)) {
+            $key = "verify-outbreak:{$o->id}:{$farm->id}";
+            $rec = Recommendation::query()->where('dedupe_key', $key)->first() ?? Recommendation::create(['company_id' => $o->company_id, 'farm_id' => $farm->id,
+                'agent' => 'biosecurity', 'title' => "Verify a unverified report: {$o->disease} near {$farm->name}", 'dedupe_key' => $key, 'priority' => 'normal',
+                'rationale' => "{$e->statement} The report comes from {$publication->source?->name}, which is not an official or trusted source. Check it with the state veterinarian or a second source, then verify it under Intelligence → Sources so it is assessed with alarms.",
+                'evidence' => ['outbreak' => $o->uuid, 'source' => $publication->source?->name, 'trust' => $publication->source?->trust, 'distance_km' => $e->distance_km],
+                'action_kind' => 'review', 'confidence' => 0.3]);
+            $e->update(['recommendation_id' => $rec->id]);
+
+            return;
+        }
         $incident = $this->incidents->raise($o->company_id, "exposure:{$o->id}:{$farm->id}", ['kind' => 'outbreak_exposure',
             'severity' => $band === 'inside' ? 'critical' : 'warning', 'title' => "{$o->disease} reported {$e->distance_km} km from {$farm->name}",
             'detail' => $e->statement, 'farm_id' => $farm->id]);

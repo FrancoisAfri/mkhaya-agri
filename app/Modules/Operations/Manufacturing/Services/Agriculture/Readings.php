@@ -78,6 +78,17 @@ class Readings
         return ['stored' => $stored, 'duplicates' => $duplicates, 'out_of_order' => collect($rows)->where('quality', 'out_of_order')->count(), 'incidents' => $raised];
     }
 
+    /** A reading taken by hand, through the unit's manual device for that measure (made the first time). */
+    public function manual(Unit $unit, string $metric, float $value, \DateTimeInterface $at, ?string $unitLabel = null, ?string $clientId = null): array
+    {
+        $code = 'MAN-'.$unit->code.'-'.strtoupper($metric);
+        $device = Device::query()->where('code', $code)->first() ?? Device::create(['company_id' => $unit->company_id, 'farm_id' => $unit->farm_id, 'unit_id' => $unit->id,
+            'code' => $code, 'name' => ucfirst(str_replace('_', ' ', $metric)).' (by hand) — '.$unit->name, 'kind' => 'manual', 'metric' => $metric, 'unit' => $unitLabel,
+            'status' => 'online', 'expected_interval_seconds' => 86400]);
+
+        return $this->ingest($device, [['message_id' => $clientId ?? ('manual-'.\Illuminate\Support\Str::uuid()), 'value' => $value, 'measured_at' => Carbon::instance($at)->toIso8601String()]]);
+    }
+
     /** @return list<string> the numbers of incidents opened or repeated */
     public function evaluate(Device $device, Reading $reading): array
     {
@@ -91,8 +102,9 @@ class Readings
             if (! $low && ! $high) {
                 continue;
             }
-            // Out of range for the whole sustain time, not a single spike.
-            if ($t->sustain_seconds > 0) {
+            // Out of range for the whole sustain time, not a single spike — except a reading taken by
+            // hand or at a critical control point, where one bad result is the evidence.
+            if ($t->sustain_seconds > 0 && $device->kind !== 'manual' && ! $t->is_ccp) {
                 $since = $reading->measured_at->copy()->subSeconds($t->sustain_seconds);
                 $window = Reading::query()->where('device_id', $device->id)->where('metric', $reading->metric)->where('quality', '!=', 'out_of_order')
                     ->whereBetween('measured_at', [$since, $reading->measured_at])->get();
@@ -115,9 +127,48 @@ class Readings
                 'metric' => $reading->metric, 'observed_value' => $reading->value,
             ]);
             $out[] = $incident->number;
+            if ($t->is_ccp) {
+                $this->ccpDeviation($t, $device, $reading, $incident, $cycle);
+            }
         }
 
         return $out;
+    }
+
+    /**
+     * A critical control point out of its limits (HACCP): the batch running on that line is put on
+     * hold at once, with the corrective action the plan names, and nothing it makes is released
+     * until the hold is lifted with a reason.
+     */
+    private function ccpDeviation(Threshold $t, Device $device, Reading $reading, Incident $incident, ?Cycle $batch): void
+    {
+        $incident->forceFill(['severity' => in_array($incident->severity, ['emergency'], true) ? $incident->severity : 'critical'])->save();
+        if (! $batch || \App\Modules\Operations\Manufacturing\Models\Agriculture\Restriction::query()->where('cycle_id', $batch->id)->where('source_type', 'prd_incident')
+            ->where('source_id', $incident->id)->exists()) {
+            return;
+        }
+        \App\Modules\Operations\Manufacturing\Models\Agriculture\Restriction::create(['company_id' => $batch->company_id, 'cycle_id' => $batch->id, 'kind' => 'qa_hold',
+            'reason' => sprintf('Critical control point %s at %s %s (limits %s–%s). %s', str_replace('_', ' ', $reading->metric), $reading->value, $device->unit,
+                $t->min_value ?? '–', $t->max_value ?? '–', $t->corrective_action ? "Corrective action: {$t->corrective_action}" : 'Take the corrective action in the HACCP plan.'),
+            'starts_on' => today(), 'source_type' => 'prd_incident', 'source_id' => $incident->id]);
+    }
+
+    /** Devices past their calibration interval: an advisory each, until they are calibrated. */
+    public function calibrationDue(): int
+    {
+        $n = 0;
+        Device::query()->whereNotNull('calibration_interval_days')->where('status', '!=', 'retired')->each(function (Device $d) use (&$n) {
+            $due = $d->calibrated_on?->copy()->addDays($d->calibration_interval_days);
+            if ($due && $due->isFuture()) {
+                return;
+            }
+            $this->incidents->raise($d->company_id, "calibration:{$d->id}", ['kind' => 'calibration_due', 'severity' => 'advisory',
+                'title' => "{$d->name} is due for calibration", 'detail' => $d->calibrated_on ? 'Last calibrated '.$d->calibrated_on->toDateString().'; due every '.$d->calibration_interval_days.' days.' : 'No calibration recorded.',
+                'farm_id' => $d->farm_id, 'unit_id' => $d->unit_id, 'device_id' => $d->id, 'metric' => $d->metric]);
+            $n++;
+        });
+
+        return $n;
     }
 
     /**
@@ -128,7 +179,7 @@ class Readings
     {
         $now ??= now();
         $n = 0;
-        Device::query()->whereIn('status', ['online'])->whereNotIn('kind', ['gateway', 'controller'])->each(function (Device $d) use ($now, &$n) {
+        Device::query()->whereIn('status', ['online'])->whereNotIn('kind', ['gateway', 'controller', 'manual'])->each(function (Device $d) use ($now, &$n) {
             if (! $d->isStale($now)) {
                 return;
             }

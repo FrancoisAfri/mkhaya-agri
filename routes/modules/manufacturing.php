@@ -457,6 +457,9 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::post('/cycles/{cycle}/move', 'move')->whereUuid('cycle')->name('cycles.move');
             Route::post('/cycles/{cycle}/close', 'close')->whereUuid('cycle')->name('cycles.close');
             Route::post('/cycles/{cycle}/forecast', 'forecast')->whereUuid('cycle')->name('cycles.forecast');
+            Route::post('/cycles/{cycle}/photos', 'photo')->whereUuid('cycle')->name('cycles.photos');
+            Route::get('/photos/{photo}', 'photoImage')->whereUuid('photo')->name('photos.show');
+            Route::post('/cycles/{cycle}/scenarios', 'scenario')->whereUuid('cycle')->name('cycles.scenarios');
             Route::post('/restrictions/{restriction}/lift', 'lift')->whereUuid('restriction')->name('restrictions.lift');
             Route::post('/sync', 'sync')->name('sync');
             Route::get('/units', 'units')->name('units');
@@ -479,10 +482,13 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::post('/devices', 'storeDevice')->name('devices.store');
             Route::post('/devices/{device}/commands', 'requestCommand')->whereUuid('device')->name('devices.commands');
             Route::post('/devices/{device}/secret', 'rotateSecret')->whereUuid('device')->name('devices.secret');
+            Route::post('/devices/{device}/validate', 'validateDevice')->whereUuid('device')->name('devices.validate');
             Route::post('/commands/{command}', 'decideCommand')->whereUuid('command')->name('commands.decide');
             Route::get('/settings', 'settings')->name('settings');
             Route::post('/settings/thresholds', 'storeThreshold')->name('settings.thresholds');
             Route::post('/settings/escalation', 'storePolicy')->name('settings.escalation');
+            Route::post('/settings/channels', 'storeChannel')->name('settings.channels');
+            Route::post('/settings/channels/test', 'testChannel')->name('settings.channels.test');
         });
 
         // ── Intelligence: recommendations, outbreaks, opportunities, sources, forecasts ────────
@@ -499,5 +505,6 @@ Route::middleware(['module.active:manufacturing', 'module.tier:manufacturing', \
             Route::post('/run', 'run')->name('run');
             Route::post('/sources', 'storeSource')->name('sources.store');
             Route::post('/sources/{source}/fetch', 'fetchSource')->whereUuid('source')->name('sources.fetch');
+            Route::post('/publications/{publication}/verify', 'verify')->whereUuid('publication')->name('publications.verify');
         });
     });

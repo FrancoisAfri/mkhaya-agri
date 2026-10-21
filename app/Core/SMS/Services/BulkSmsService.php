@@ -34,24 +34,17 @@ class BulkSmsService
             'msisdn'   => $msisdn,
         ]);
 
-        $ch = curl_init();
-        curl_setopt_array($ch, [
-            CURLOPT_URL            => self::URL,
-            CURLOPT_PORT           => self::PORT,
-            CURLOPT_POST           => 1,
-            CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_POSTFIELDS     => $body,
-            CURLOPT_TIMEOUT        => 20,
-            CURLOPT_CONNECTTIMEOUT => 20,
-        ]);
+        // Laravel's HTTP client rather than raw curl: the same request, and tests can fake it.
+        try {
+            $r = \Illuminate\Support\Facades\Http::timeout(20)->connectTimeout(20)->withBody($body, 'application/x-www-form-urlencoded')->post(self::URL);
+        } catch (\Throwable $e) {
+            Log::warning('BulkSMS dispatch failed', ['error' => $e->getMessage()]);
 
-        $response = curl_exec($ch);
-        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        $curlErr  = curl_error($ch);
-        curl_close($ch);
-
-        if (!$response || $httpCode !== 200) {
-            Log::warning('BulkSMS dispatch failed', ['http_code' => $httpCode, 'curl_error' => $curlErr]);
+            return false;
+        }
+        $response = $r->body();
+        if ($response === '' || $r->status() !== 200) {
+            Log::warning('BulkSMS dispatch failed', ['http_code' => $r->status()]);
             return false;
         }
 

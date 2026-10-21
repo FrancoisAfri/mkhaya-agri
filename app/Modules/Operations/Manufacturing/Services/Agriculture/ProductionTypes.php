@@ -24,19 +24,65 @@ class ProductionTypes
     public const VARIABLES = ['opening_count', 'current_count', 'mortality', 'culls', 'feed_kg', 'water_l', 'avg_weight_kg', 'live_weight_kg',
         'opening_weight_kg', 'output_qty', 'harvest_qty', 'eggs', 'milk_l', 'area', 'cost', 'age_days', 'treatments'];
 
+    /**
+     * What has to be done at each stage, by kind of production. Starting a cycle, or moving it into a
+     * stage, puts these on the farm's task list with their due dates.
+     */
+    public const CHECKLISTS = [
+        'BROILER' => ['placement' => [['Pre-heat the house to 32–33 °C 24 hours before chicks arrive', -1, 'urgent'], ['Check every drinker line and feeder pan', -1, 'high'], ['Count and weigh a sample of chicks on arrival', 0, 'high']],
+            'brooding' => [['Crop-fill check: 95% of chicks with full crops at 24 hours', 1, 'high'], ['Raise drinkers and feeders with the birds', 5, 'normal']],
+            'grower' => [['Weigh 100 birds and record uniformity', 0, 'normal'], ['Switch to grower feed', 0, 'normal']],
+            'finisher' => [['Check withdrawal periods before catching is booked', 0, 'high'], ['Book catching crew and abattoir slot', 2, 'high']],
+            'depletion' => [['Lift feed 8–10 hours before catching', 0, 'urgent'], ['Record the count and weight loaded', 0, 'high']],
+            'cleanout' => [['Remove litter, wash and disinfect the house', 2, 'high'], ['Biosecurity check before the next placement', 10, 'high']]],
+        'LAYER' => ['rearing' => [['Vaccination programme on schedule', 7, 'high'], ['Weekly body-weight check against the breed curve', 7, 'normal']],
+            'laying' => [['Light programme set for lay', 0, 'high'], ['Daily egg collection and grading', 0, 'normal']],
+            'depletion' => [['Check withdrawal periods before sale', 0, 'high']]],
+        'MAIZE' => ['land_prep' => [['Soil sample and lime as recommended', 0, 'normal']], 'planting' => [['Calibrate the planter for the target population', 0, 'high']],
+            'vegetative' => [['Scout for stalk borer and fall armyworm weekly', 7, 'high']], 'grain_fill' => [['Check moisture before harvest is booked', 0, 'normal']],
+            'harvest' => [['Calibrate the weighbridge or yield monitor', 0, 'high']]],
+        'BEEF' => ['backgrounding' => [['Process on arrival: tag, weigh, vaccinate, dose', 0, 'urgent']], 'feedlot' => [['Step-up ration over 21 days', 0, 'high']],
+            'market' => [['Check withdrawal periods before loading', 0, 'urgent']]],
+        'DAIRY' => ['lactation' => [['Monthly milk recording with cell count', 30, 'normal'], ['Daily CMT on cows with high cell counts', 0, 'normal']],
+            'dry' => [['Dry-off treatment and teat sealant', 0, 'high'], ['Check the withdrawal period before calving', 45, 'high']]],
+        'TILAPIA' => ['stocking' => [['Test pond water: oxygen, pH, ammonia before stocking', -1, 'urgent'], ['Acclimatise fingerlings for 30 minutes', 0, 'high']],
+            'grow_out' => [['Weekly sample weigh and feed adjustment', 7, 'normal'], ['Dawn oxygen check', 0, 'high']], 'harvest' => [['Stop feeding 48 hours before harvest', -2, 'high']]],
+        'TUNNEL-TOMATO' => ['transplant' => [['Flush and test the fertigation EC and pH', -1, 'high']], 'vegetative' => [['Weekly IPM scouting: whitefly, Tuta absoluta', 7, 'high']],
+            'harvesting' => [['Grade and pack to the buyer specification', 0, 'normal']]],
+        'PROCESSING' => ['intake' => [['Intake inspection and temperature of incoming produce', 0, 'high']], 'processing' => [['Record each critical control point', 0, 'urgent']],
+            'qa' => [['Release or hold each batch against the specification', 0, 'urgent']]],
+    ];
+
     public function installDefaults(int $companyId): void
     {
         foreach (self::defaults() as $code => $d) {
-            if (ProductionType::query()->where('company_id', $companyId)->where('code', $code)->exists()) {
+            if ($existing = ProductionType::query()->where('company_id', $companyId)->where('code', $code)->first()) {
+                $this->addChecklists($existing);
+
                 continue;
             }
             $parent = isset($d['parent']) ? ProductionType::query()->where('company_id', $companyId)->where('code', $d['parent'])->value('id') : null;
+            $lists = self::CHECKLISTS[$code] ?? [];
+            $d['stages'] = collect($d['stages'] ?? [])->map(fn ($st) => isset($lists[$st['code']])
+                ? $st + ['tasks' => array_map(fn ($t) => ['title' => $t[0], 'due_offset_days' => $t[1], 'priority' => $t[2]], $lists[$st['code']])] : $st)->all();
             $type = $this->create(['company_id' => $companyId, 'code' => $code, 'parent_id' => $parent] + collect($d)->except(['parent', 'thresholds'])->all(), null, 'Installed default');
             foreach ($d['thresholds'] ?? [] as [$metric, $min, $max, $severity, $sustain]) {
                 Threshold::create(['company_id' => $companyId, 'production_type_id' => $type->id, 'metric' => $metric, 'min_value' => $min,
                     'max_value' => $max, 'severity' => $severity, 'sustain_seconds' => $sustain]);
             }
         }
+    }
+
+    /** Give an installed default type its stage checklists (a new version), once. */
+    public function addChecklists(ProductionType $type): void
+    {
+        $lists = self::CHECKLISTS[$type->code] ?? null;
+        if (! $lists || collect($type->stages ?? [])->contains(fn ($st) => ! empty($st['tasks']))) {
+            return;
+        }
+        $stages = collect($type->stages ?? [])->map(fn ($st) => isset($lists[$st['code']])
+            ? $st + ['tasks' => array_map(fn ($t) => ['title' => $t[0], 'due_offset_days' => $t[1], 'priority' => $t[2]], $lists[$st['code']])] : $st)->all();
+        $this->revise($type, ['stages' => $stages], null, 'Stage checklists added');
     }
 
     public function create(array $data, ?User $actor, string $note = 'Created'): ProductionType

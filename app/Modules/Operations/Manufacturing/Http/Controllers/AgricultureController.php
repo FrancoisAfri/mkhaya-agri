@@ -118,6 +118,12 @@ class AgricultureController extends Controller
                 ->orderBy('code')->get(['uuid', 'code', 'name'])->map(fn ($u) => ['value' => $u->uuid, 'title' => "{$u->code} — {$u->name}"]),
             'kinds' => Record::KINDS,
             'panel' => $this->metrics->panel($c),
+            'costs' => $this->metrics->costs($c),
+            'photos' => \App\Modules\Operations\Manufacturing\Models\Agriculture\PhotoAnalysis::query()->where('cycle_id', $c->id)->latest('id')->limit(12)->get()
+                ->map(fn ($p) => ['id' => $p->uuid, 'subject' => $p->subject, 'question' => $p->question, 'status' => $p->status, 'findings' => $p->findings, 'model' => $p->model,
+                    'at' => $p->created_at?->toIso8601String(), 'url' => "/manufacturing/agriculture/photos/{$p->uuid}"])->values(),
+            'scenarios' => \App\Modules\Operations\Manufacturing\Models\Agriculture\Scenario::query()->where('cycle_id', $c->id)->latest('id')->limit(5)->get()
+                ->map(fn ($x) => ['id' => $x->uuid, 'name' => $x->name, 'best' => $x->best, 'inputs' => $x->inputs, 'results' => $x->results, 'model' => $x->model, 'at' => $x->created_at?->toIso8601String()])->values(),
             'unitId' => $c->unit?->uuid,
             // Feed drawn from the farm's store: its feed rations and the stock it can issue.
             'feedRations' => \App\Modules\Agri\Models\FeedRation::query()->where('is_active', true)->orderBy('name')->get(['id', 'name'])->map(fn ($r) => ['value' => $r->id, 'title' => $r->name]),
@@ -245,6 +251,41 @@ class AgricultureController extends Controller
         return response()->json(['created' => $created, 'duplicates' => $dupes, 'errors' => $errors, 'at' => now()->toIso8601String()]);
     }
 
+    /** A photo for the vision model to look at; kept in the database with what it saw. */
+    public function photo(Request $request, string $cycle, \App\Modules\Operations\Manufacturing\Services\Agriculture\PhotoVision $vision): RedirectResponse
+    {
+        $this->authorize('record', Cycle::class);
+        $d = $request->validate(['subject' => ['required', Rule::in(\App\Modules\Operations\Manufacturing\Services\Agriculture\PhotoVision::SUBJECTS)],
+            'question' => ['nullable', 'string', 'max:500'], 'mime' => ['required', 'string', 'max:40'], 'data' => ['required', 'string', 'max:7000000']]);
+        $p = $vision->analyse($this->findCycle($request, $cycle), $d['subject'], $d['mime'], $d['data'], $d['question'] ?? null, $request->user());
+
+        return back()->with($p->status === 'done' ? 'success' : 'warning', $p->status === 'done' ? 'Photo looked at — see what the model saw.' : ($p->findings['note'] ?? 'Photo kept for review.'));
+    }
+
+    public function photoImage(Request $request, string $photo): \Illuminate\Http\Response
+    {
+        $this->authorize('viewAny', Cycle::class);
+        $p = \App\Modules\Operations\Manufacturing\Models\Agriculture\PhotoAnalysis::query()->where('uuid', $photo)->firstOrFail();
+        $this->findCycle($request, Cycle::query()->whereKey($p->cycle_id)->value('uuid'));
+
+        return response(base64_decode($p->image_data), 200, ['Content-Type' => $p->mime, 'Cache-Control' => 'private, max-age=3600']);
+    }
+
+    /** Placements and grow-out lengths compared for this cycle's type, by margin per day. */
+    public function scenario(Request $request, string $cycle, \App\Modules\Operations\Manufacturing\Services\Agriculture\ScenarioPlanner $planner): RedirectResponse
+    {
+        $this->authorize('record', Cycle::class);
+        $c = $this->findCycle($request, $cycle);
+        $d = $request->validate(['placements' => ['required', 'string', 'max:200'], 'days' => ['required', 'string', 'max:200'], 'chick_price' => ['required', 'numeric', 'gt:0'],
+            'feed_price_kg' => ['required', 'numeric', 'gt:0'], 'live_price_kg' => ['required', 'numeric', 'gt:0'], 'max_density_kg_m2' => ['nullable', 'numeric', 'gt:0']]);
+        $list = fn ($v) => array_map('intval', preg_split('/[\s,;]+/', trim($v)));
+        $x = $planner->growOut($c->type, $c, ['placements' => $list($d['placements']), 'days' => $list($d['days'])] + collect($d)->only(['chick_price', 'feed_price_kg', 'live_price_kg', 'max_density_kg_m2'])->all(),
+            $request->user(), 'Grow-out options for '.$c->code);
+
+        return back()->with('success', $x->best ? sprintf('Best: %s placed, %s days — R%s margin (R%s a day).', number_format($x->best['placed']), $x->best['days'], number_format($x->best['margin']), number_format($x->best['margin_per_day']))
+            : 'No option stays inside the density limit.');
+    }
+
     // ── Units ─────────────────────────────────────────────────────────────────────────────────
 
     public function units(Request $request): Response
@@ -338,7 +379,8 @@ class AgricultureController extends Controller
             'product_name' => ['nullable', 'string', 'max:120'], 'withdrawal_days' => ['nullable', 'integer', 'min:0', 'max:365'], 'dose' => ['nullable', 'string', 'max:60'],
             'destination' => ['nullable', Rule::in(['store', 'sold', 'loss'])], 'stock_item_id' => ['nullable', 'integer'], 'store_id' => ['nullable', 'string'],
             'unit_value' => ['nullable', 'numeric', 'min:0'], 'client_id' => ['nullable', 'string', 'max:80'], 'note' => ['nullable', 'string', 'max:500'],
-            'ration_id' => ['nullable', 'integer']]);
+            'ration_id' => ['nullable', 'integer'], 'metric' => ['nullable', 'string', 'max:40'], 'scc' => ['nullable', 'numeric', 'min:0'],
+            'butterfat_pct' => ['nullable', 'numeric', 'between:0,20'], 'protein_pct' => ['nullable', 'numeric', 'between:0,20'], 'cows_milked' => ['nullable', 'integer', 'min:0']]);
     }
 
     private function recordData(Request $request, array $d): array

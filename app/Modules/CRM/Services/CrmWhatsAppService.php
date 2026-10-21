@@ -27,10 +27,25 @@ class CrmWhatsAppService
         // Prefer the Integrations hub (meta_whatsapp), then in-app CRM settings,
         // then config/services, then env — so any of them "just works".
         $hub = Schema::hasTable('crm_integrations') ? CrmIntegration::configFor('meta_whatsapp') : [];
+        // The organisation's own WhatsApp Business number comes first: one tenant never sends from another's.
+        $own = self::companyNumber();
+        if (! empty($own['token']) && ! empty($own['phone_number_id'])) {
+            $hub = $own + $hub;
+        }
 
         $this->token         = (string) (($hub['token'] ?? '') ?: CrmSetting::get('whatsapp_token') ?: config('services.whatsapp.token') ?: env('WHATSAPP_TOKEN', ''));
         $this->phoneNumberId = (string) (($hub['phone_number_id'] ?? '') ?: CrmSetting::get('whatsapp_phone_number_id') ?: config('services.whatsapp.phone_number_id') ?: env('WHATSAPP_PHONE_NUMBER_ID', ''));
         $this->baseUrl       = rtrim((string) (($hub['base_url'] ?? '') ?: CrmSetting::get('whatsapp_base_url') ?: config('services.whatsapp.base_url') ?: 'https://graph.facebook.com/v18.0'), '/');
+    }
+
+    /** @var array<int|string, array> the organisation's own WhatsApp settings, looked up once per request */
+    private static array $own = [];
+
+    private static function companyNumber(): array
+    {
+        $company = app(\App\Modules\Tenancy\Services\CurrentCompany::class)->id() ?? 'none';
+
+        return self::$own[$company] ??= (\App\Shared\Messaging\CompanyChannel::for('whatsapp')?->settings() ?? []);
     }
 
     public function isConfigured(): bool

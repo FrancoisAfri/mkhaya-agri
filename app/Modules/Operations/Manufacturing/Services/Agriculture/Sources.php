@@ -100,6 +100,32 @@ class Sources
             'content_hash' => $hash, 'flagged' => (bool) $flags, 'flags' => $flags ?: null]);
     }
 
+    /** Whether what this item says may be escalated: an official or trusted source, or a person verified it. */
+    public function trusted(Publication $p): bool
+    {
+        return $p->verified_at !== null || in_array($p->source?->trust, ['official', 'trusted'], true);
+    }
+
+    /**
+     * A person confirms an item from a community or unverified source (a second source, a phone call
+     * to the state vet). What it reported is then assessed again, now with alarms.
+     */
+    public function verify(Publication $p, \App\Core\User\Models\User $actor, string $note): Publication
+    {
+        if (trim($note) === '') {
+            throw \Illuminate\Validation\ValidationException::withMessages(['note' => 'Say how it was verified.']);
+        }
+        if ($p->flagged) {
+            throw \Illuminate\Validation\ValidationException::withMessages(['note' => 'This item was flagged for text that reads like instructions; it cannot be verified as it stands.']);
+        }
+        $p->update(['verified_at' => now(), 'verified_by' => $actor->id, 'verification_note' => $note]);
+        foreach (\App\Modules\Operations\Manufacturing\Models\Agriculture\Outbreak::query()->where('publication_id', $p->id)->get() as $o) {
+            app(Outbreaks::class)->assess($o);
+        }
+
+        return $p->fresh();
+    }
+
     /** Plain text: tags and their script or style content removed, entities decoded, control characters gone. */
     public function clean(string $text, int $max): string
     {

@@ -134,6 +134,51 @@ class Forecasts
             'unit' => $unit, 'model' => $model, 'model_version' => $version, 'made_at' => now(), 'inputs' => $inputs]);
     }
 
+    /**
+     * Live weight by a second, curved model: a quadratic through the weighings, which follows the
+     * acceleration of growth a straight line misses. Both are made and measured; the better one for
+     * each measure becomes the champion.
+     */
+    public function weightQuadratic(Cycle $cycle, Carbon $on): ?Forecast
+    {
+        $points = $cycle->records()->where('kind', 'weight')->whereNull('corrects_id')->orderBy('recorded_at')->get()
+            ->map(fn ($r) => [(float) $cycle->started_on->diffInDays($r->recorded_at->copy()->startOfDay()), (float) $r->quantity])->values()->all();
+        if (count($points) < 3) {
+            return null;
+        }
+        // y = c + k·x²: a least-squares line in x².
+        [$c, $k, $sd] = self::fit(array_map(fn ($p) => [$p[0] ** 2, $p[1]], $points));
+        $x = (float) $cycle->started_on->diffInDays($on->copy()->startOfDay());
+        $y = $c + $k * $x ** 2;
+
+        return $this->store($cycle, 'avg_weight_kg', $on, $y, $y - 1.96 * $sd, $y + 1.96 * $sd, 'kg', 'quadratic-trend', '1.0',
+            ['points' => count($points), 'intercept' => round($c, 5), 'per_day_squared' => round($k, 7), 'residual_sd' => round($sd, 5), 'day' => $x]);
+    }
+
+    /**
+     * Continuous improvement: for each measure, the model with the lowest error over at least three
+     * scored forecasts becomes the champion the screens and agents rely on; the comparison is kept.
+     *
+     * @return array<string, string> metric => champion model
+     */
+    public function chooseChampions(int $companyId): array
+    {
+        $out = [];
+        foreach (collect($this->accuracy($companyId))->groupBy('metric') as $metric => $models) {
+            $eligible = $models->filter(fn ($m) => $m['forecasts'] >= 3 && $m['mape'] !== null)->sortBy('mape')->values();
+            if ($eligible->isEmpty()) {
+                continue;
+            }
+            $best = $eligible->first();
+            \App\Modules\Operations\Manufacturing\Models\Agriculture\ModelChoice::query()->updateOrCreate(['company_id' => $companyId, 'metric' => $metric],
+                ['model' => $best['model'], 'model_version' => $best['version'], 'mape' => $best['mape'], 'forecasts' => $best['forecasts'], 'chosen_at' => now(),
+                    'compared' => $models->values()->all()]);
+            $out[$metric] = $best['model'];
+        }
+
+        return $out;
+    }
+
     /** Record what actually happened against every forecast for that metric and date. */
     public function resolve(Forecast $f, float $actual): Forecast
     {
@@ -178,7 +223,8 @@ class Forecasts
             $end = Carbon::parse($c->expected_end_on ?? today()->addWeek());
             $category = $c->type?->category;
             $jobs = [
-                'avg_weight_kg' => fn () => in_array($category, ['poultry', 'livestock', 'aquaculture'], true) ? $this->weight($c, $end->isPast() ? today()->addWeek() : $end) : null,
+                'avg_weight_kg' => fn () => in_array($category, ['poultry', 'livestock', 'aquaculture'], true)
+                    ? tap($this->weight($c, $end->isPast() ? today()->addWeek() : $end), fn () => $this->weightQuadratic($c, $end->isPast() ? today()->addWeek() : $end)) : null,
                 'head_count' => fn () => $c->opening_count ? $this->count($c, $end->isPast() ? today()->addWeek() : $end) : null,
                 'eggs' => fn () => $c->type?->output_unit === 'eggs' ? $this->output($c, today()->addDay(), 'eggs') : null,
                 'milk_l' => fn () => $category === 'dairy' ? $this->output($c, today()->addDay(), 'milk') : null,

@@ -150,7 +150,7 @@ class ProductionEngineTest extends AgriTestCase
     {
         return $this->as(fn () => Device::create($o + ['company_id' => $this->company->id, 'farm_id' => $unit->farm_id, 'unit_id' => $unit->id,
             'code' => strtoupper($metric).'-'.$unit->code.'-'.\Illuminate\Support\Str::random(4), 'name' => ucfirst($metric)." sensor {$unit->code}",
-            'metric' => $metric, 'unit' => $unitLabel, 'expected_interval_seconds' => 300, 'last_seen_at' => now(), 'status' => 'online'])->fresh());
+            'metric' => $metric, 'unit' => $unitLabel, 'expected_interval_seconds' => 300, 'last_seen_at' => now(), 'status' => 'online', 'validated_at' => now()])->fresh());
     }
 
     /** @param  list<array{0: int, 1: float}>  $minutesAgoAndValue */
@@ -680,7 +680,8 @@ class ProductionEngineTest extends AgriTestCase
         $this->as(fn () => app(Orchestrator::class)->run($this->company->id));
         $rec = Recommendation::withoutGlobalScopes()->where('agent', 'flock')->sole();
         $this->assertSame(['proposed', 'task'], [$rec->status, $rec->action_kind]);
-        $this->assertSame(0, FarmTask::withoutGlobalScopes()->count(), 'Nothing happens before a person approves.');
+        $fromAgents = fn () => FarmTask::withoutGlobalScopes()->where('description', 'like', '%recommendation, approved by%')->count();
+        $this->assertSame(0, $fromAgents(), 'Nothing happens before a person approves.');
         $this->as(fn () => $this->assertThrows(fn () => app(Recommendations::class)->approve($rec, $this->responder), ValidationException::class), $this->responder);
         $rec = $this->as(fn () => app(Recommendations::class)->approve($rec, $this->prodManager, 'Do it'), $this->prodManager);
         $task = FarmTask::withoutGlobalScopes()->findOrFail($rec->task_id);
@@ -1147,5 +1148,290 @@ XML;
         $this->assertEqualsWithDelta(1.0, collect($panel['tiles'])->firstWhere('label', 'Density')['value'], 0.001);
         $this->assertSame(['dissolved_oxygen'], array_column($panel['sensors'], 'metric'));
         $this->actingAs($this->admin)->get('/manufacturing/agriculture/cycles/'.$fish->uuid)->assertOk();
+    }
+
+    // ── messaging, Claude, and roadmap phases 4 to 8 ─────────────────────────────────────────
+
+    private function cell(User $u, string $number): void
+    {
+        $this->asCompany($this->company, function () use ($u, $number) {
+            $p = new \App\Modules\HR\Hr\Models\HRPerson(['uuid' => (string) \Illuminate\Support\Str::uuid(), 'first_name' => 'Cell', 'surname' => 'Test', 'user_id' => $u->id,
+                'status' => 1, 'employee_number' => 'C'.\Illuminate\Support\Str::random(6), 'cell_number' => $number]);
+            $p->company_id = $this->company->id;
+            $p->save();
+        });
+    }
+
+    public function test_each_company_sets_up_its_own_sms_and_whatsapp_and_critical_alarms_reach_phones(): void
+    {
+        \Illuminate\Support\Facades\Http::fake(['bulksms.2way.co.za/*' => \Illuminate\Support\Facades\Http::response('0|IN_PROGRESS|123', 200),
+            'graph.facebook.com/*' => \Illuminate\Support\Facades\Http::response(['messages' => [['id' => 'wamid.1']]], 200)]);
+        $this->cell($this->responder, '0821234567');
+        $this->cell($this->admin, '0831112222');
+        $this->actingAs($this->admin)->post('/manufacturing/command/settings/channels', ['channel' => 'whatsapp', 'is_active' => true, 'phone_number_id' => '1098'])
+            ->assertSessionHasErrors('phone_number_id');
+        $this->actingAs($this->admin)->post('/manufacturing/command/settings/channels', ['channel' => 'sms', 'is_active' => true, 'provider' => 'bulksms', 'username' => 'boplaas', 'password' => 's3cret'])
+            ->assertSessionHasNoErrors();
+        $this->actingAs($this->admin)->post('/manufacturing/command/settings/channels', ['channel' => 'whatsapp', 'is_active' => true, 'phone_number_id' => '1098', 'token' => 'EAAG-token',
+            'alert_template' => 'farm_alert', 'template_language' => 'en'])->assertSessionHasNoErrors();
+        $status = $this->as(fn () => app(\App\Shared\Messaging\CompanyMessaging::class)->status($this->company->id));
+        $this->assertTrue($status['sms']['configured'] && $status['whatsapp']['configured']);
+        $this->assertArrayNotHasKey('token', $status['whatsapp'], 'Secrets are never read back.');
+        $this->assertStringNotContainsString('EAAG-token', (string) DB::table('company_messaging_channels')->value('config'), 'Stored encrypted.');
+        // Another organisation does not see them.
+        $other = Company::create(['name' => 'Ander']);
+        $this->assertSame(['configured' => false], array_intersect_key(app(\App\Shared\Messaging\CompanyMessaging::class)->status($other->id)['whatsapp'], ['configured' => 1]));
+
+        $this->actingAs($this->admin)->post('/manufacturing/command/settings/channels/test', ['channel' => 'whatsapp'])->assertSessionHas('success');
+        \Illuminate\Support\Facades\Http::assertSent(fn ($r) => str_contains($r->url(), '/1098/messages') && $r['to'] === '27831112222' && $r['template']['name'] === 'farm_alert');
+
+        $i = $this->as(fn () => app(Incidents::class)->raise($this->company->id, 'phones:1', ['kind' => 'water_interruption', 'severity' => 'critical', 'title' => 'Water interruption in House 9']));
+        $logs = NotificationLog::withoutGlobalScopes()->where('incident_id', $i->id)->where('user_id', $this->responder->id)->pluck('status', 'channel')->all();
+        $this->assertSame(['in_app' => 'sent', 'sms' => 'sent', 'whatsapp' => 'sent'], $logs);
+        \Illuminate\Support\Facades\Http::assertSent(fn ($r) => str_contains($r->url(), 'bulksms') && str_contains($r->body(), '27821234567'));
+        // A warning stays in the app; a person without a cell number is logged as such, not skipped silently.
+        $w = $this->as(fn () => app(Incidents::class)->raise($this->company->id, 'phones:2', ['kind' => 'threshold', 'severity' => 'warning', 'title' => 'Humidity high']));
+        $this->assertSame(['in_app'], NotificationLog::withoutGlobalScopes()->where('incident_id', $w->id)->pluck('channel')->unique()->values()->all());
+        $this->assertStringContainsString('No cell number', (string) $this->as(fn () => app(\App\Shared\Messaging\CompanyMessaging::class)->sms($this->prodManager, 'x', true)));
+        // CRM sends from the organisation's own number too.
+        $this->as(fn () => $this->assertTrue((new \App\Modules\CRM\Services\CrmWhatsAppService)->isConfigured()));
+    }
+
+    public function test_production_ai_runs_on_claude_first_like_crm_and_helpdesk(): void
+    {
+        foreach ([ProductionBriefAI::class, \App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionAssistantAI::class] as $class) {
+            $module = (new \ReflectionProperty($class, 'module'))->getDefaultValue();
+            $this->assertContains($module, config('ai.chat.claude_first'), "{$class} is not on the Claude-first list.");
+        }
+        $this->assertContains('agri', config('ai.chat.claude_first'));
+    }
+
+    public function test_sources_send_the_credentials_their_provider_issued(): void
+    {
+        \Illuminate\Support\Facades\Http::fake(['https://paid.example/*' => \Illuminate\Support\Facades\Http::response('<rss version="2.0"><channel></channel></rss>')]);
+        $this->actingAs($this->admin)->post('/manufacturing/intelligence/sources', ['code' => 'PAID', 'name' => 'Paid market feed', 'kind' => 'market', 'trust' => 'trusted',
+            'refresh_minutes' => 60, 'url' => 'https://paid.example/feed', 'adapter' => 'rss', 'item_kind' => 'price', 'auth_type' => 'header', 'auth_name' => 'X-API-Key', 'auth_value' => 'k-123'])
+            ->assertSessionHasNoErrors();
+        $src = Source::withoutGlobalScopes()->where('code', 'PAID')->sole();
+        $this->assertStringNotContainsString('k-123', (string) $src->credentials);
+        $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher::class)->fetch($src));
+        \Illuminate\Support\Facades\Http::assertSent(fn ($r) => $r->hasHeader('X-API-Key', 'k-123'));
+        $this->as(function () use ($src) {
+            $src->putAuth(['type' => 'query', 'name' => 'apikey', 'value' => 'q-9']);
+            $src->save();
+            app(\App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher::class)->fetch($src->fresh());
+        });
+        \Illuminate\Support\Facades\Http::assertSent(fn ($r) => str_contains($r->url(), 'apikey=q-9'));
+    }
+
+    public function test_phase_4_an_unverified_report_is_shown_but_alarms_only_once_a_person_verifies_it_and_notices_reach_the_right_farms(): void
+    {
+        $this->flock($this->unit('HV'));
+        $community = $this->source('WHATSAPP-GROUP', 'disease', 'community');
+        $this->as(fn () => app(Outbreaks::class)->report($community, ['external_id' => 'C-1', 'disease' => 'Newcastle disease', 'species' => 'poultry', 'status' => 'suspected',
+            'latitude' => -28.24, 'longitude' => 28.32, 'radius_km' => 10]));
+        $this->assertSame(1, Exposure::withoutGlobalScopes()->count());
+        $this->assertSame(0, Incident::withoutGlobalScopes()->count(), 'No alarm on an unverified report.');
+        $this->assertStringStartsWith('Verify', Recommendation::withoutGlobalScopes()->sole()->title);
+        $pub = Publication::withoutGlobalScopes()->sole();
+        $this->actingAs($this->prodManager)->post("/manufacturing/intelligence/publications/{$pub->uuid}/verify", ['note' => 'Confirmed by the state vet, Bethlehem'])->assertSessionHasNoErrors();
+        $this->assertSame('outbreak_exposure', Incident::withoutGlobalScopes()->sole()->kind);
+        $this->assertNotNull($pub->fresh()->verified_at);
+
+        $limpopo = $this->farm('LP2');
+        $limpopo->forceFill(['location' => 'Tzaneen, Limpopo'])->save();
+        $farms = $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\RegulatoryNotices::class)->publish($this->source('GAZETTE', 'government'),
+            ['external_id' => 'GG-1', 'title' => 'Poultry movement permits required in the Free State', 'body' => 'From 1 November all poultry moved between farms needs a permit.',
+                'provinces' => ['Free State'], 'categories' => ['poultry']]));
+        $this->assertSame([$this->farm->id], $farms);
+        $this->assertSame('regulatory', Recommendation::withoutGlobalScopes()->where('agent', 'regulatory')->sole()->agent);
+    }
+
+    public function test_phase_5_anomalies_and_the_specialist_agents_propose_with_evidence(): void
+    {
+        $h1 = $this->unit('E1');
+        $h2 = $this->unit('E2');
+        $a = $this->flock($h1, 10000);
+        $b = $this->flock($h2, 10000);
+        $svc = app(ProductionCycles::class);
+        $this->as(function () use ($svc, $a, $b) {
+            foreach (range(12, 1) as $d) {
+                $svc->record($a, 'water', ['quantity' => $d === 1 ? 5200 : 1700 + ($d % 3) * 20, 'recorded_at' => now()->subDays($d)->setTime(18, 0)], $this->admin);
+                $svc->record($a, 'feed', ['quantity' => 900, 'cost' => 900 * 8, 'recorded_at' => now()->subDays($d)->setTime(7, 0)], $this->admin);
+                $svc->record($b, 'feed', ['quantity' => 1200, 'cost' => 1200 * 8, 'recorded_at' => now()->subDays($d)->setTime(7, 0)], $this->admin);
+            }
+            $svc->record($a, 'weight', ['quantity' => 1.2, 'sample_size' => 50], $this->admin);
+            $svc->record($b, 'weight', ['quantity' => 1.2, 'sample_size' => 50], $this->admin);
+        });
+        $pond = $this->unit('PA', 'pond', 'TILAPIA');
+        $this->flock($pond, 3000, ['type' => 'TILAPIA']);
+        $do = $this->device($pond, 'dissolved_oxygen', 'mg/l');
+        $this->feed($do, [[300, 6.8], [240, 6.1], [180, 5.4], [120, 4.9], [60, 4.4], [0, 4.1]]);
+        $dairy = $this->flock($this->unit('DP', 'pen', 'DAIRY'), 120, ['type' => 'DAIRY']);
+        $this->as(fn () => $svc->record($dairy, 'milk', ['quantity' => 2400, 'scc' => 520000, 'recorded_at' => now()->subHours(3)], $this->admin));
+
+        $run = $this->as(fn () => app(Orchestrator::class)->run($this->company->id));
+        $this->assertSame('ok', $run['agents']['anomaly']);
+        $anomaly = Recommendation::withoutGlobalScopes()->where('agent', 'anomaly')->get()->first(fn ($r) => str_contains($r->title, 'Water'));
+        $this->assertNotNull($anomaly, 'The day the water jumped is flagged.');
+        $this->assertGreaterThan(3, $anomaly->evidence['z']);
+        $eff = Recommendation::withoutGlobalScopes()->where('agent', 'efficiency')->sole();
+        $this->assertStringContainsString($b->code, $eff->title);
+        $this->assertGreaterThan(0, $eff->evidence['extra_feed_kg']);
+        $this->assertSame('urgent', Recommendation::withoutGlobalScopes()->where('agent', 'aquaculture')->sole()->priority);
+        $this->assertStringContainsString('mastitis', Recommendation::withoutGlobalScopes()->where('agent', 'dairy')->sole()->rationale);
+    }
+
+    public function test_phase_5_crop_agent_weighs_soil_moisture_against_the_rain_forecast_and_watches_ndvi(): void
+    {
+        $this->openBooks();
+        $crop = $this->cropCycle($this->planted('CA-1'));
+        $sm = $this->device($crop->unit, 'soil_moisture', '%');
+        $this->feed($sm, [[0, 12]]);
+        $this->as(fn () => \App\Modules\Agri\Models\WeatherReading::withoutGlobalScopes()->create(['company_id' => $this->company->id, 'farm_id' => $this->farm->id, 'provider' => 'test',
+            'kind' => 'forecast', 'period_start' => now()->addHours(10), 'period_end' => now()->addHours(11), 'fetched_at' => now(), 'rain_mm' => 22]));
+        $this->as(fn () => \App\Modules\Agri\Models\FieldImagery::withoutGlobalScopes()->create(['company_id' => $this->company->id, 'farm_id' => $this->farm->id,
+            'field_id' => $crop->unit->field_id, 'captured_on' => today()->subDay(), 'source' => 'sentinel-2', 'index' => 'ndvi', 'mean' => 0.41, 'change_pct' => -22, 'cloud_pct' => 3]));
+        $this->as(fn () => app(Orchestrator::class)->run($this->company->id));
+        $recs = Recommendation::withoutGlobalScopes()->where('agent', 'crop')->get();
+        $this->assertStringStartsWith('Hold irrigation', $recs->first(fn ($r) => str_contains($r->title, 'irrigation'))->title);
+        $this->assertNotNull($recs->first(fn ($r) => str_contains($r->title, 'Vegetation dropped')));
+        $panel = $this->as(fn () => app(Metrics::class)->panel($crop->fresh()));
+        $this->assertSame('NDVI (satellite)', collect($panel['tiles'])->firstWhere('label', 'NDVI (satellite)')['label']);
+    }
+
+    public function test_phase_6_stage_checklists_become_farm_tasks_and_hand_measurements_raise_the_same_alarms(): void
+    {
+        $c = $this->flock($this->unit('WK'), 8000, ['started_on' => today()->toDateString()]);
+        $tasks = FarmTask::withoutGlobalScopes()->where('description', 'like', "%[{$c->code}/placement#%")->get();
+        $this->assertCount(3, $tasks);
+        $this->assertSame(today()->subDay()->toDateString(), $tasks->firstWhere('priority', 'urgent')->due_on->toDateString(), 'Pre-heating is due the day before placement.');
+        $this->as(fn () => app(ProductionCycles::class)->advance($c, 'brooding', $this->admin));
+        $this->as(fn () => app(ProductionCycles::class)->advance($c->fresh(), 'brooding', $this->admin, 'repeat'));
+        $this->assertCount(2, FarmTask::withoutGlobalScopes()->where('description', 'like', "%[{$c->code}/brooding#%")->get(), 'Each checklist item once.');
+
+        $pond = $this->unit('PM', 'pond', 'TILAPIA');
+        $fish = $this->flock($pond, 2000, ['type' => 'TILAPIA']);
+        $r = $this->as(fn () => app(ProductionCycles::class)->record($fish, 'measurement', ['metric' => 'dissolved_oxygen', 'quantity' => 3.1, 'unit' => 'mg/l'], $this->admin));
+        $this->assertNotEmpty($r->details['incidents'], 'One bad hand test is enough to alarm.');
+        $this->assertSame('critical', Incident::withoutGlobalScopes()->where('metric', 'dissolved_oxygen')->sole()->severity);
+        $this->assertSame('manual', Device::withoutGlobalScopes()->where('code', 'MAN-PM-DISSOLVED_OXYGEN')->value('kind'));
+    }
+
+    public function test_phase_7_a_ccp_deviation_holds_the_batch_its_lots_and_calibration_and_costs_are_tracked(): void
+    {
+        $this->openBooks();
+        $line = $this->unit('LINE', 'line', 'PROCESSING');
+        $this->as(fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Threshold::create(['company_id' => $this->company->id, 'unit_id' => $line->id, 'metric' => 'core_temperature',
+            'min_value' => 72, 'severity' => 'critical', 'sustain_seconds' => 900, 'is_ccp' => true, 'corrective_action' => 'Re-pasteurise the batch and recalibrate the probe']));
+        $batch = $this->as(fn () => app(ProductionCycles::class)->start($this->type('PROCESSING'), $line, ['code' => 'BATCH-1'], $this->admin));
+        $this->as(fn () => app(ProductionCycles::class)->record($batch, 'measurement', ['metric' => 'core_temperature', 'quantity' => 66, 'unit' => '°C'], $this->admin));
+        $hold = \App\Modules\Operations\Manufacturing\Models\Agriculture\Restriction::withoutGlobalScopes()->where('cycle_id', $batch->id)->sole();
+        $this->assertSame('qa_hold', $hold->kind);
+        $this->assertStringContainsString('Re-pasteurise', $hold->reason);
+        // What the held batch makes is held too, and cannot be released while the hold stands.
+        $crop = $this->cropCycle($this->planted('CC-1'));
+        $cold = $this->store();
+        $bulk = $this->stockItem('CC-BULK', 'kg', 4);
+        $juice = $this->stockItem('CC-JUICE', 'l', 9);
+        $this->as(fn () => app(ProductionCycles::class)->record($crop, 'harvest', ['quantity' => 500, 'unit' => 'kg', 'destination' => 'store', 'stock_item_id' => $bulk->id,
+            'store_id' => $cold->uuid, 'unit_value' => 4, 'recorded_at' => now()->subHour()], $this->admin));
+        $lot = ProduceLot::withoutGlobalScopes()->where('kind', 'harvest')->sole();
+        $this->as(fn () => app(Processing::class)->run($this->farm, 'processing', [['lot' => $lot, 'quantity' => 400]],
+            [['product' => 'Juice', 'quantity' => 300, 'unit' => 'l', 'stock_item_id' => $juice->id, 'store_id' => $cold->id, 'code' => 'JUICE-1']], [], [], $this->admin, $batch->fresh()));
+        $made = ProduceLot::withoutGlobalScopes()->where('code', 'JUICE-1')->sole();
+        $this->assertSame('quarantined', $made->status);
+        $this->as(fn () => $this->assertThrows(fn () => app(Processing::class)->release($made, [['check' => 'Re-test', 'ok' => true]], $this->prodManager, 'ok'), ValidationException::class), $this->prodManager);
+        $this->as(fn () => app(ProductionCycles::class)->lift($hold, $this->prodManager, 'Re-pasteurised, probe recalibrated'), $this->prodManager);
+        $this->assertSame('available', $this->as(fn () => app(Processing::class)->release($made->fresh(), [['check' => 'Core temperature re-test', 'value' => 75, 'ok' => true]], $this->prodManager, 'Within limits'), $this->prodManager)->status);
+
+        // Calibration due.
+        $probe = $this->device($line, 'core_temperature', '°C', ['calibration_interval_days' => 30, 'calibrated_on' => today()->subDays(45)]);
+        $this->assertSame(1, $this->as(fn () => app(Readings::class)->calibrationDue()));
+        $this->assertSame('calibration_due', Incident::withoutGlobalScopes()->where('device_id', $probe->id)->sole()->kind);
+
+        // Costs by what they were spent on, with labour from the farm tasks done for the flock.
+        $f = $this->flock($this->unit('CO'), 1000);
+        $this->as(function () use ($f) {
+            app(ProductionCycles::class)->record($f, 'feed', ['quantity' => 500, 'cost' => 4000], $this->admin);
+            app(ProductionCycles::class)->record($f, 'treatment', ['product_name' => 'Vitamins', 'cost' => 300], $this->admin);
+            FarmTask::withoutGlobalScopes()->create(['company_id' => $this->company->id, 'farm_id' => $this->farm->id, 'title' => 'Clean drinkers', 'status' => 'approved',
+                'livestock_group_id' => $f->livestock_group_id, 'labour_hours' => 10, 'priority' => 'normal', 'created_by' => $this->admin->id]);
+        });
+        $costs = $this->as(fn () => app(Metrics::class)->costs($f->fresh()));
+        $this->assertEqualsWithDelta(4000 + 300 + 350, $costs['total'], 0.01);
+        $this->assertEqualsWithDelta(4.65, $costs['per_head'], 0.01);
+    }
+
+    public function test_phase_8_control_is_interlocked_simulated_until_validated_and_validated_only_by_an_approver(): void
+    {
+        $h = $this->unit('IL');
+        $this->flock($h, 5000);
+        $valve = $this->device($h, 'valve', '', ['kind' => 'controller', 'controllable' => true, 'commands_need_approval' => false, 'validated_at' => null,
+            'allowed_commands' => [['command' => 'valve_open'], ['command' => 'valve_close'], ['command' => 'heater_on', 'block_if' => ['metric' => 'temperature', 'above' => 30]]]]);
+        $svc = app(Commands::class);
+        try {
+            $this->as(fn () => $svc->request($valve, 'valve_close', [], $this->responder, 'Fix leak'), $this->responder);
+            $this->fail('Water was cut with birds in the house.');
+        } catch (ValidationException $e) {
+            $this->assertStringContainsString('Interlock', $e->errors()['command'][0]);
+        }
+        $t = $this->device($h, 'temperature', '°C');
+        $this->feed($t, [[0, 31.5]]);
+        $this->as(fn () => $this->assertThrows(fn () => $svc->request($valve->fresh(), 'heater_on', [], $this->responder, 'Cold'), ValidationException::class), $this->responder);
+
+        $c = $this->as(fn () => $svc->request($valve->fresh(), 'valve_open', [], $this->responder, 'Flush'), $this->responder);
+        $this->assertSame('executed', $c->status);
+        $this->assertTrue($c->parameters['simulated']);
+        $this->assertStringContainsString('Simulated', collect($c->history)->last()['note']);
+        $this->actingAs($this->responder)->post("/manufacturing/command/devices/{$valve->uuid}/validate", ['note' => 'Tested'])->assertForbidden();
+        $this->actingAs($this->prodManager)->post("/manufacturing/command/devices/{$valve->uuid}/validate", ['note' => 'Opened and closed on site, flow confirmed'])->assertSessionHasNoErrors();
+        $live = $this->as(fn () => $svc->request($valve->fresh(), 'valve_open', [], $this->responder, 'Flush'), $this->responder);
+        $this->assertSame('sent', $live->status);
+    }
+
+    public function test_phase_8_photos_are_looked_at_by_claude_within_quota_and_kept_without_a_key(): void
+    {
+        $c = $this->flock($this->unit('PH'), 2000);
+        $img = base64_encode("\x89PNG\r\n\x1a\nfake");
+        config(['ai.chat.providers.anthropic.key' => null]);
+        $p = $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\PhotoVision::class)->analyse($c, 'litter', 'image/png', $img, 'Is the litter too wet?', $this->admin));
+        $this->assertSame('unavailable', $p->status);
+        $this->assertSame($img, DB::table('prd_photo_analyses')->where('id', $p->id)->value('image_data'), 'The photo is kept in the database.');
+
+        config(['ai.chat.providers.anthropic.key' => 'sk-test']);
+        \Illuminate\Support\Facades\Http::fake(['api.anthropic.com/*' => \Illuminate\Support\Facades\Http::response(['content' => [['type' => 'text',
+            'text' => '{"observations":["Caked litter near the drinker line"],"possible_issues":[{"issue":"Leaking drinkers","confidence":"medium","look_for":"Wet patches under nipples"}],"urgent":false,"image_quality":"good","caveat":"One photo of one area"}']],
+            'usage' => ['input_tokens' => 1500, 'output_tokens' => 120]])]);
+        $p = $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\PhotoVision::class)->analyse($c, 'litter', 'image/png', $img, null, $this->admin));
+        $this->assertSame('done', $p->status);
+        $this->assertSame('Leaking drinkers', $p->findings['possible_issues'][0]['issue']);
+        $this->assertStringContainsString('not a diagnosis', $p->findings['note']);
+        \Illuminate\Support\Facades\Http::assertSent(fn ($r) => $r['messages'][0]['content'][0]['type'] === 'image');
+        $this->assertSame(1620, (int) DB::table('ai_usage_log')->where('feature', 'manufacturing.photo_vision')->value('total_tokens'), 'Metered like every AI call.');
+        $this->actingAs($this->admin)->get("/manufacturing/agriculture/photos/{$p->uuid}")->assertOk()->assertHeader('Content-Type', 'image/png');
+    }
+
+    public function test_phase_8_scenarios_find_the_best_grow_out_inside_the_density_limit_and_the_best_model_becomes_champion(): void
+    {
+        $house = $this->unit('SC', 'house', 'BROILER', ['area' => 1500, 'area_unit' => 'm2']);
+        $c = $this->flock($house, 20000);
+        $x = $this->as(fn () => app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ScenarioPlanner::class)->growOut($this->type('BROILER'), $c,
+            ['placements' => [20000, 26000, 32000], 'days' => [32, 35, 42], 'chick_price' => 8.5, 'feed_price_kg' => 8.4, 'live_price_kg' => 28, 'max_density_kg_m2' => 39], $this->admin, 'Test'));
+        $this->assertCount(9, $x->results);
+        $this->assertTrue($x->best['within_density']);
+        $this->assertSame(collect($x->results)->where('within_density', true)->max('margin_per_day'), $x->best['margin_per_day']);
+        $this->assertTrue(collect($x->results)->contains(fn ($r) => ! $r['within_density']), '32 000 birds to 42 days is over 39 kg/m².');
+        $this->assertSame('the breed standard', $x->inputs['growth_basis']);
+
+        foreach ([['linear-trend', [1.0, 1.1, 1.2]], ['quadratic-trend', [1.0, 1.02, 1.01]]] as [$model, $preds]) {
+            foreach ($preds as $k => $pred) {
+                $f = $this->as(fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Forecast::create(['company_id' => $this->company->id, 'cycle_id' => $c->id, 'metric' => 'avg_weight_kg',
+                    'target_on' => today()->subDays($k + 1), 'predicted' => $pred, 'unit' => 'kg', 'model' => $model, 'model_version' => '1.0', 'made_at' => now()]));
+                $this->as(fn () => app(Forecasts::class)->resolve($f, 1.0));
+            }
+        }
+        $chosen = $this->as(fn () => app(Forecasts::class)->chooseChampions($this->company->id));
+        $this->assertSame('quadratic-trend', $chosen['avg_weight_kg']);
     }
 }

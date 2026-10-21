@@ -7,7 +7,7 @@ use App\Core\AI\Base\BaseModuleAI;
 /** Words the production assistant's answer from the facts it was given — and only those. Metered. */
 class ProductionAssistantAI extends BaseModuleAI
 {
-    protected string $module = 'agri';
+    protected string $module = 'manufacturing';
 
     public function answer(string $question, array $facts, bool $wantsAction): string
     {

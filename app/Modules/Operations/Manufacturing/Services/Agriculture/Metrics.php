@@ -184,6 +184,16 @@ class Metrics
                 $tiles[] = ['label' => 'Expected', 'value' => $plan && $plan->expected_yield ? round((float) $plan->expected_yield * $plan->hectares(), 2) : null, 'unit' => $plan?->yield_unit];
                 $tiles[] = ['label' => 'Harvested', 'value' => $vars['harvest_qty'], 'unit' => $plan?->yield_unit ?? $def['output_unit'] ?? null];
                 $out[] = $series('Harvested', $plan?->yield_unit ?? 't', $daily('harvest'));
+                // The field from the satellite: vegetation index by capture.
+                $fieldId = $cycle->unit?->field_id ?? $plan?->field_id;
+                if ($fieldId) {
+                    $ndvi = \App\Modules\Agri\Models\FieldImagery::withoutGlobalScopes()->where('field_id', $fieldId)->where('index', 'ndvi')->orderBy('captured_on')->limit(30)->get();
+                    if ($ndvi->isNotEmpty()) {
+                        $tiles[] = ['label' => 'NDVI (satellite)', 'value' => round((float) $ndvi->last()->mean, 2), 'unit' => null,
+                            'hint' => $ndvi->last()->captured_on?->toDateString().($ndvi->last()->change_pct !== null ? sprintf(', %+.0f%% since last', $ndvi->last()->change_pct) : '')];
+                        $out[] = ['name' => 'NDVI (satellite)', 'unit' => 'index', 'points' => $ndvi->map(fn ($i) => ['x' => $i->captured_on?->toDateString(), 'y' => round((float) $i->mean, 3)])->values()->all()];
+                    }
+                }
                 $sensors = ['soil_moisture', 'rain'];
                 break;
             case 'processing':
@@ -199,6 +209,35 @@ class Metrics
 
         return ['tiles' => $tiles, 'series' => array_values(array_filter($out, fn ($s) => $s['points'] !== [])),
             'sensors' => collect($sensors)->intersect($present)->map(fn ($m) => ['metric' => $m, 'title' => ucfirst(str_replace('_', ' ', $m))])->values()->all()];
+    }
+
+    /**
+     * What a cycle has cost, by what it was spent on — feed from the store, treatments, other inputs
+     * and costs recorded, and labour from the farm tasks done for it — and per unit of what it made,
+     * per animal and per hectare.
+     */
+    public function costs(Cycle $cycle): array
+    {
+        $records = $cycle->records()->whereNull('corrects_id')->get();
+        $by = $records->groupBy('kind')->map(fn ($g) => round((float) $g->sum('cost'), 2))->filter(fn ($v) => $v > 0);
+        $hours = (float) \App\Modules\Agri\Models\FarmTask::withoutGlobalScopes()->where('farm_id', $cycle->farm_id)
+            ->where(fn ($q) => $q->when($cycle->livestock_group_id, fn ($w) => $w->orWhere('livestock_group_id', $cycle->livestock_group_id))
+                ->when($cycle->crop_plan_id, fn ($w) => $w->orWhere('crop_plan_id', $cycle->crop_plan_id))->when(! $cycle->livestock_group_id && ! $cycle->crop_plan_id, fn ($w) => $w->whereRaw('1 = 0')))
+            ->sum('labour_hours');
+        $labour = round($hours * (float) config('manufacturing.agriculture.labour_rate', 35), 2);
+        $lines = $by->mapWithKeys(fn ($v, $k) => [match ($k) { 'feed' => 'Feed', 'treatment' => 'Animal health', 'harvest' => 'Processing', 'cost' => 'Other costs', 'input' => 'Inputs', default => ucfirst($k) } => $v])->all();
+        if ($labour > 0) {
+            $lines['Labour ('.round($hours, 1).' h)'] = $labour;
+        }
+        $total = round(array_sum($lines), 2);
+        $vars = $this->variables($cycle);
+        $made = (float) ($vars['output_qty'] ?: $vars['harvest_qty'] ?: $vars['eggs'] ?: $vars['milk_l']);
+        $def = $cycle->definition();
+
+        return ['lines' => $lines, 'total' => $total,
+            'per_output' => $made > 0 ? round($total / $made, 4) : null, 'output_unit' => $def['output_unit'] ?? null,
+            'per_head' => $cycle->opening_count ? round($total / max(1, (int) ($cycle->current_count ?: $cycle->opening_count)), 2) : null, 'count_unit' => $def['count_unit'] ?? null,
+            'per_area' => $cycle->area ? round($total / $cycle->area, 2) : null, 'area_unit' => $cycle->area_unit];
     }
 
     /** Daily mortality as a share of the birds alive that morning, newest last. */

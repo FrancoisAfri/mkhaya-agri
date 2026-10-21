@@ -99,6 +99,7 @@ class ProductionCycles
                 $unit->update(['status' => 'active']);
             }
             StageEvent::create(['company_id' => $cycle->company_id, 'cycle_id' => $cycle->id, 'to_stage' => (string) $cycle->stage, 'at' => $started, 'by' => $actor->id, 'note' => 'Started']);
+            $this->stageTasks($cycle->fresh(), (string) $cycle->stage, $actor, $started);
 
             return $cycle->fresh();
         });
@@ -119,6 +120,7 @@ class ProductionCycles
         }
         StageEvent::create(['company_id' => $cycle->company_id, 'cycle_id' => $cycle->id, 'from_stage' => $cycle->stage, 'to_stage' => $stage, 'at' => now(), 'by' => $actor->id, 'note' => $note]);
         $cycle->update(['stage' => $stage, 'status' => Cycle::ACTIVE, 'started_on' => $cycle->started_on ?? today()]);
+        $this->stageTasks($cycle->fresh(), $stage, $actor, now());
 
         return $cycle->fresh();
     }
@@ -171,6 +173,7 @@ class ProductionCycles
             'mortality', 'cull' => $this->removal($cycle, $kind, $data, $actor, $source),
             'treatment' => $this->treatment($cycle, $data, $actor, $source),
             'harvest' => $this->harvest($cycle, $data, $actor, $source),
+            'measurement' => $this->measurement($cycle, $data, $actor, $source),
             default => $this->measure($cycle, $kind, $data, $actor, $source),
         };
     }
@@ -191,6 +194,36 @@ class ProductionCycles
         }
 
         return $why;
+    }
+
+    /**
+     * The stage's checklist onto the farm's task list, each with its due date counted from the stage
+     * starting (a negative offset is a day before: pre-heating a house is done before the chicks arrive).
+     * Each item is put there once per cycle and stage.
+     *
+     * @return int the tasks created
+     */
+    public function stageTasks(Cycle $cycle, string $stage, User $actor, \DateTimeInterface $from): int
+    {
+        if (! $cycle->farm_id) {
+            return 0;
+        }
+        $tasks = collect($cycle->definition()['stages'] ?? [])->firstWhere('code', $stage)['tasks'] ?? [];
+        $n = 0;
+        foreach ($tasks as $i => $t) {
+            $tag = "[{$cycle->code}/{$stage}#{$i}]";
+            if (\App\Modules\Agri\Models\FarmTask::withoutGlobalScopes()->where('farm_id', $cycle->farm_id)->where('description', 'like', "%{$tag}%")->exists()) {
+                continue;
+            }
+            \App\Modules\Agri\Models\FarmTask::withoutGlobalScopes()->create(['company_id' => $cycle->company_id, 'farm_id' => $cycle->farm_id,
+                'title' => mb_strimwidth("{$t['title']} — {$cycle->code}", 0, 200), 'description' => "Stage checklist for {$cycle->name}, {$stage}. {$tag}",
+                'priority' => in_array($t['priority'] ?? 'normal', \App\Modules\Agri\Models\FarmTask::PRIORITIES, true) ? $t['priority'] : 'normal',
+                'due_on' => Carbon::parse($from)->addDays((int) ($t['due_offset_days'] ?? 0))->toDateString(), 'status' => \App\Modules\Agri\Models\FarmTask::OPEN,
+                'livestock_group_id' => $cycle->livestock_group_id, 'crop_plan_id' => $cycle->crop_plan_id, 'requires_approval' => false, 'created_by' => $actor->id]);
+            $n++;
+        }
+
+        return $n;
     }
 
     public function hold(Cycle $cycle, string $kind, string $reason, ?string $until, User $actor, ?string $sourceType = null, ?int $sourceId = null): Restriction
@@ -330,6 +363,25 @@ class ProductionCycles
         });
     }
 
+    /**
+     * A measurement taken by hand — a pond water test, a tunnel EC reading, a core temperature — is
+     * a reading like a sensor's: kept on the unit's series and checked against the same thresholds,
+     * so a bad result raises the same alarm.
+     */
+    private function measurement(Cycle $cycle, array $data, User $actor, string $source): Record
+    {
+        if (empty($data['metric']) || ! is_numeric($data['quantity'] ?? null)) {
+            throw ValidationException::withMessages(['metric' => 'Say what was measured and the value.']);
+        }
+        $unit = $cycle->unit_id ? Unit::query()->find($cycle->unit_id) : null;
+        if (! $unit) {
+            throw ValidationException::withMessages(['metric' => 'This cycle is not in a house, field, pond or line to measure.']);
+        }
+        $result = app(Readings::class)->manual($unit, (string) $data['metric'], (float) $data['quantity'], $data['recorded_at'], $data['unit'] ?? null, $data['client_id'] ?? null);
+
+        return $this->write($cycle, 'measurement', $data + ['details' => ['metric' => $data['metric'], 'incidents' => $result['incidents']]], $actor, $source);
+    }
+
     private function measure(Cycle $cycle, string $kind, array $data, User $actor, string $source): Record
     {
         if (in_array($kind, ['feed', 'water', 'weight', 'eggs', 'milk'], true) && (float) ($data['quantity'] ?? 0) <= 0) {
@@ -342,7 +394,7 @@ class ProductionCycles
             return $this->feedFromStock($cycle, $data, $actor, $source);
         }
         $unit = $data['unit'] ?? match ($kind) { 'feed', 'weight' => 'kg', 'water', 'milk' => 'l', 'eggs' => 'eggs', default => null };
-        $details = collect($data)->only(['sample_size', 'uniformity_pct', 'feed_type', 'stock_item_id', 'cv_pct', 'note'])->filter(fn ($v) => $v !== null)->all();
+        $details = collect($data)->only(['sample_size', 'uniformity_pct', 'feed_type', 'stock_item_id', 'cv_pct', 'note', 'scc', 'butterfat_pct', 'protein_pct', 'cows_milked'])->filter(fn ($v) => $v !== null)->all();
 
         return $this->write($cycle, $kind, ['unit' => $unit, 'details' => ($data['details'] ?? []) + $details] + $data, $actor, $source);
     }

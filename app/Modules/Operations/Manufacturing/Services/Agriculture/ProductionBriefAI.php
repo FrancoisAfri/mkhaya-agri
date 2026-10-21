@@ -13,7 +13,7 @@ use App\Core\AI\Base\BaseModuleAI;
  */
 class ProductionBriefAI extends BaseModuleAI
 {
-    protected string $module = 'agri';
+    protected string $module = 'manufacturing';
 
     public function brief(array $findings): string
     {

@@ -164,6 +164,7 @@ class SeedAgriDemoAreas extends Command
             // Production moved to Manufacturing & Production: cycles, sensors, the Command Centre, intelligence.
             $this->area('Agricultural production, Command Centre and intelligence', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->where('code', 'BH1')->exists(), fn () => $this->production());
             $this->area('Production gateway, processing line and forecasts', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::query()->where('code', 'RIV-GW1')->exists(), fn () => $this->productionMore());
+            $this->area('Production roadmap 4–8 (checklists, CCP, verification, notices, dairy, scenarios)', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Threshold::query()->where('is_ccp', true)->exists(), fn () => $this->productionRoadmap());
 
             $this->newLine();
             $failed = collect($this->results)->filter(fn ($r) => str_starts_with($r, 'FAILED'))->count();
@@ -449,6 +450,53 @@ class SeedAgriDemoAreas extends Command
         $n = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Forecasts::class)->forecastAll($this->companyId);
 
         return "gateway RIV-GW1, packline batch, {$n} forecasts";
+    }
+
+    /** Phases 4 to 8 on the demo: what the Command Centre, intelligence and processing look like with them. */
+    private function productionRoadmap(): string
+    {
+        config(['manufacturing.agriculture.ai_brief' => false]);
+        $owner = $this->u['owner'];
+        $M = '\\App\\Modules\\Operations\\Manufacturing\\Models\\Agriculture\\';
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionTypes::class)->installDefaults($this->companyId);
+        $line = \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->where('code', 'PACKLINE')->firstOrFail();
+        \App\Modules\Operations\Manufacturing\Models\Agriculture\Threshold::create(['company_id' => $this->companyId, 'unit_id' => $line->id, 'metric' => 'cold_room_temperature',
+            'max_value' => 8, 'severity' => 'critical', 'is_ccp' => true, 'corrective_action' => 'Move product to the backup cold room, check the compressor, re-test the core temperature before release.']);
+        \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::query()->whereIn('code', ['BH1-T1', 'BH1-RH1', 'BH1-NH3', 'BH1-WM1'])->update(['calibration_interval_days' => 90]);
+        $community = \App\Modules\Operations\Manufacturing\Models\Agriculture\Source::create(['company_id' => $this->companyId, 'code' => 'FARMERS-GROUP', 'name' => 'Tzaneen poultry farmers group',
+            'kind' => 'disease', 'trust' => 'community', 'refresh_minutes' => 1440]);
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Outbreaks::class)->report($community, ['external_id' => 'TPF-2026-10-20', 'disease' => 'Infectious coryza (reported by a member)',
+            'species' => 'poultry', 'status' => 'suspected', 'latitude' => (float) $this->rivier->latitude - 0.05, 'longitude' => (float) $this->rivier->longitude + 0.03, 'radius_km' => 5,
+            'body' => 'A member reports coughing and swollen faces in a backyard flock near the Letsitele road.']);
+        $gazette = \App\Modules\Operations\Manufacturing\Models\Agriculture\Source::query()->where('code', 'LIMPOPO-LDARD')->firstOrFail();
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\RegulatoryNotices::class)->publish($gazette, ['external_id' => 'LDARD-NOTICE-2026-14',
+            'title' => 'Poultry movement permits in Mopani district', 'body' => 'Until further notice, live poultry moved between properties in the Mopani district needs a movement permit from the state veterinarian.',
+            'provinces' => ['Limpopo'], 'categories' => ['poultry']]);
+        $types = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionTypes::class);
+        $dairyType = \App\Modules\Operations\Manufacturing\Models\Agriculture\ProductionType::query()->where('code', 'DAIRY')->firstOrFail();
+        $parlour = \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'code' => 'DAIRY1',
+            'name' => 'Dairy herd camp', 'kind' => 'pen', 'production_type_id' => $dairyType->id, 'capacity' => 150, 'capacity_unit' => 'cows', 'attributes' => ['demo' => true]]);
+        $cycles = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ProductionCycles::class);
+        $herd = $cycles->start($dairyType, $parlour, ['code' => 'DAI-2610-01', 'name' => 'Jersey herd', 'opening_count' => 120, 'started_on' => today()->subDays(20)->toDateString(), 'breed' => 'Jersey'], $owner);
+        for ($d = 14; $d >= 1; $d--) {
+            $cycles->record($herd->fresh(), 'milk', ['quantity' => 2350 + random_int(-60, 60), 'cows_milked' => 118, 'scc' => $d === 1 ? 465000 : 210000 + random_int(-20000, 20000),
+                'butterfat_pct' => 4.9, 'protein_pct' => 3.8, 'recorded_at' => today()->subDays($d)->setTime(6, 30), 'client_id' => "demo-milk-{$d}"], $owner);
+        }
+        $flock = \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::query()->where('code', 'BRO-2610-01')->firstOrFail();
+        app(\App\Modules\Operations\Manufacturing\Services\Agriculture\ScenarioPlanner::class)->growOut($flock->type, $flock,
+            ['placements' => [24000, 28000, 32000], 'days' => [32, 35, 38, 42], 'chick_price' => 8.5, 'feed_price_kg' => 8.4, 'live_price_kg' => 28, 'max_density_kg_m2' => 39], $owner, 'Next placement in BH1');
+        $run = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Orchestrator::class)->run($this->companyId);
+        $f = app(\App\Modules\Operations\Manufacturing\Services\Agriculture\Forecasts::class);
+        $f->forecastAll($this->companyId);
+        foreach ([[7, 0.17], [14, 0.47], [21, 0.95], [28, 1.51], [35, 2.15]] as [$day, $pred]) {
+            $q = \App\Modules\Operations\Manufacturing\Models\Agriculture\Forecast::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'metric' => 'avg_weight_kg',
+                'target_on' => today()->subDays(60 - $day)->toDateString(), 'predicted' => $pred + 0.02, 'lower' => $pred - 0.04, 'upper' => $pred + 0.08, 'unit' => 'kg',
+                'model' => 'quadratic-trend', 'model_version' => '1.0', 'made_at' => today()->subDays(63 - $day), 'inputs' => ['flock' => 'BRO-2608-01 (previous)']]);
+            $f->resolve($q, [7 => 0.192, 14 => 0.49, 21 => 0.97, 28 => 1.52, 35 => 2.11][$day]);
+        }
+        $champions = $f->chooseChampions($this->companyId);
+
+        return "checklists, CCP on PACKLINE, dairy herd, {$run['proposed']} recommendations, champions: ".json_encode($champions);
     }
 
     // ── helpers ──────────────────────────────────────────────────────────────────────────────

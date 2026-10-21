@@ -27,6 +27,9 @@ class Commands
 {
     public const CONFIRM_SECONDS = 120;
 
+    /** Commands that would take water, feed or heat away from animals: never while they are in the unit. */
+    public const NEVER_WHEN_OCCUPIED = ['valve_close', 'water_off', 'feeder_off', 'heater_off', 'fans_all_off'];
+
     public function __construct(private readonly Incidents $incidents) {}
 
     public function request(Device $device, string $command, array $parameters, User $actor, string $reason, ?Recommendation $from = null, ?string $key = null): Command
@@ -61,6 +64,9 @@ class Commands
         }
         if ($device->status !== 'online') {
             $refuse("{$device->name} is {$device->status}; a command could not be confirmed.");
+        }
+        if ($why = $this->interlocked($device, $command, $allowed)) {
+            $refuse($why);
         }
 
         return DB::transaction(function () use ($device, $base, $actor) {
@@ -154,13 +160,58 @@ class Commands
         return Command::query()->where('status', 'sent')->whereIn('device_id', Device::query()->where('farm_id', $gateway->farm_id)->pluck('id'))->orderBy('id')->get();
     }
 
+    /**
+     * Safety interlocks, checked before anything is asked of a device:
+     *  - water and feed are never cut, and heating never switched off, while animals are in the unit;
+     *  - a device's own rule: refuse while a measure on the unit is above or below a limit
+     *    ({"command":"heater_on","block_if":{"metric":"temperature","above":30}}).
+     */
+    public function interlocked(Device $device, string $command, ?array $allowed): ?string
+    {
+        $occupied = $device->unit_id && \App\Modules\Operations\Manufacturing\Models\Agriculture\Cycle::query()->where('unit_id', $device->unit_id)
+            ->where('status', 'active')->where('current_count', '>', 0)->exists();
+        if ($occupied && in_array($command, self::NEVER_WHEN_OCCUPIED, true)) {
+            return "Interlock: '{$command}' is refused while animals are in ".($device->unit?->name ?? 'the unit').'. Empty the unit or do it by hand on site.';
+        }
+        $rule = $allowed['block_if'] ?? null;
+        if ($rule && ! empty($rule['metric'])) {
+            $value = Device::query()->where('unit_id', $device->unit_id)->where('metric', $rule['metric'])->where('status', 'online')->value('last_value');
+            if ($value !== null && ((isset($rule['above']) && $value > $rule['above']) || (isset($rule['below']) && $value < $rule['below']))) {
+                return sprintf("Interlock: '%s' is refused while %s is %s.", $command, str_replace('_', ' ', $rule['metric']), $value);
+            }
+        }
+
+        return null;
+    }
+
+    /** A person who may approve commands confirms the device has been tested on site; it then takes live commands. */
+    public function validate(Device $device, User $actor, string $note): Device
+    {
+        if (! $actor->can(RoleCatalog::APPROVE_COMMANDS)) {
+            throw ValidationException::withMessages(['device' => 'Validating equipment for live control needs the command approval permission.']);
+        }
+        if (trim($note) === '') {
+            throw ValidationException::withMessages(['note' => 'Say how it was tested (what was commanded and what the equipment did).']);
+        }
+        $device->forceFill(['validated_at' => now(), 'validated_by' => $actor->id])->save();
+        Incidents::broadcast((int) $device->company_id, 'device.validated');
+
+        return $device;
+    }
+
     private function send(Command $c): Command
     {
+        // Equipment not yet validated on site is never sent anything: the command runs as a simulation.
+        $device = Device::query()->find($c->device_id);
+        if (! $device?->validated_at) {
+            $c->update(['parameters' => ($c->parameters ?? []) + ['simulated' => true], 'executed_at' => now()]);
+
+            return $this->transition($c, 'executed', null, 'Simulated: this device has not been validated for live control, so nothing was sent.');
+        }
         $c->update(['sent_at' => now(), 'confirm_by' => now()->addSeconds(self::CONFIRM_SECONDS)]);
         $c = $this->transition($c, 'sent', null, 'Queued for the gateway.');
         // A device (or its farm's gateway) with an endpoint is sent the command now as well; either
         // way it is only executed when the equipment says so.
-        $device = Device::query()->find($c->device_id);
         $endpoint = $device?->endpoint_url ?: Device::query()->where('farm_id', $device?->farm_id)->where('kind', 'gateway')->whereNotNull('endpoint_url')->value('endpoint_url');
         if ($endpoint) {
             try {

@@ -161,7 +161,7 @@ return [
          */
         'claude_first' => array_values(array_filter(array_map('trim', explode(',', (string) env(
             'AI_CLAUDE_FIRST',
-            'sheq,helpdesk,crm,manufacturing,tender_pursuit,lms,content_marketing,ai_campaign_manager'
+            'sheq,helpdesk,crm,manufacturing,agri,tender_pursuit,lms,content_marketing,ai_campaign_manager'
         ))))),
 
         'chain' => array_values(array_filter(array_map('trim', explode(',', (string) env(

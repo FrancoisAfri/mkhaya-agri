@@ -22,6 +22,7 @@ const props = defineProps<{
   publications: Array<Record<string, any>>
   accuracy: Array<{ model: string; version: string; metric: string; forecasts: number; mape: number | null; bias: number | null; coverage: number | null }>
   forecastsRecent: Array<Record<string, any>>
+  champions?: Record<string, { model: string; version: string; mape: number | null; chosen_at: string }>
   brief: Record<string, any> | null
   can: { decide: boolean; manage: boolean }
 }>()
@@ -47,6 +48,12 @@ const sourceFields: FormField[] = [
   { key: 'publisher', label: 'Publisher', cols: 6 }, { key: 'url', label: 'Address (https)', cols: 6 },
   { key: 'adapter', label: 'Fetch it as', type: 'select', items: [{ title: 'Entered by hand', value: '' }, { title: 'RSS / Atom feed', value: 'rss' }, { title: 'CAP alerts (weather warnings)', value: 'cap' }, { title: 'JSON API', value: 'json' }], cols: 6 },
   { key: 'item_kind', label: 'Each item is', type: 'select', items: ['notice', 'warning', 'outbreak', 'funding', 'price', 'advisory'], cols: 6, show: f => !!f.adapter },
+  { key: 'auth_type', label: 'The provider issued', type: 'select', cols: 6, show: f => !!f.adapter,
+    items: [{ title: 'Nothing — open feed', value: 'none' }, { title: 'An API key in a header', value: 'header' }, { title: 'A bearer token', value: 'bearer' }, { title: 'An API key in the address', value: 'query' }, { title: 'A username and password', value: 'basic' }] },
+  { key: 'auth_name', label: 'Header or parameter name', hint: 'e.g. X-API-Key, apikey', cols: 6, show: f => ['header', 'query'].includes(f.auth_type) },
+  { key: 'auth_value', label: 'Key or token (stored encrypted)', cols: 12, show: f => ['header', 'bearer', 'query'].includes(f.auth_type) },
+  { key: 'auth_username', label: 'Username', cols: 6, show: f => f.auth_type === 'basic' },
+  { key: 'auth_password', label: 'Password (stored encrypted)', cols: 6, show: f => f.auth_type === 'basic' },
   { key: 'config_json', label: 'Field map (JSON)', type: 'textarea', cols: 12, show: f => f.adapter === 'json' || f.adapter === 'cap',
     hint: 'JSON API: {"list":"data.items","map":{"external_id":"id","title":"headline","body":"summary"}}. CAP: {"default_radius_km":50}' },
 ]
@@ -68,6 +75,7 @@ async function ask() {
   catch (e: any) { chat.value.unshift({ q, a: e?.response?.data?.message ?? 'The question could not be answered.', ai: 'error', topics: [] }) }
   finally { asking.value = false }
 }
+const verify = (p: any) => { const note = prompt(`How was "${p.title}" verified? (e.g. confirmed with the state vet, a second source)`); if (note) router.post(`/manufacturing/intelligence/publications/${p.id}/verify`, { note }, { preserveScroll: true }) }
 const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warning' : 'info'
 </script>
 
@@ -183,7 +191,7 @@ const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warn
               <td>{{ ago(s.last_success_at) }}<div v-if="s.last_error" class="text-caption text-error">{{ s.last_error }} ({{ s.failure_count }}×)</div></td>
               <td>{{ s.next_attempt_at ? at(s.next_attempt_at) : '—' }}</td>
               <td><VChip size="small" label :color="s.status === 'failing' ? 'error' : s.stale ? 'warning' : 'success'">{{ s.status === 'failing' ? 'failing — retrying' : s.stale ? 'stale' : 'current' }}</VChip>
-                <div class="text-caption">{{ s.adapter ? `${s.adapter.toUpperCase()} · ${s.item_kind ?? 'notice'}` : 'by hand' }}</div>
+                <div class="text-caption">{{ s.adapter ? `${s.adapter.toUpperCase()} · ${s.item_kind ?? 'notice'}` : 'by hand' }}<template v-if="s.has_credentials"> · <VIcon icon="tabler-key" size="12" /> credentials</template></div>
                 <VBtn v-if="s.adapter && can.manage" size="x-small" variant="text" :loading="fetching === s.id" @click="fetchNow(s.id)">Fetch now</VBtn></td>
             </tr>
           </tbody>
@@ -196,6 +204,8 @@ const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warn
             <VListItemTitle><VIcon v-if="p.flagged" icon="tabler-alert-triangle" color="warning" size="16" /> {{ p.title }} <span class="text-caption text-medium-emphasis">{{ p.source }} · {{ human(p.kind) }} · {{ ago(p.fetched_at) }}<template v-if="p.revision > 1"> · revision {{ p.revision }}</template></span></VListItemTitle>
             <VListItemSubtitle style="white-space: normal">{{ p.body }}</VListItemSubtitle>
             <div v-if="p.flagged" class="text-caption text-warning">{{ p.flags.join(' ') }}</div>
+            <div v-if="p.verified_at" class="text-caption text-success">Verified: {{ p.verification_note }}</div>
+            <VBtn v-else-if="['community', 'unverified'].includes(p.trust) && !p.flagged && can.decide" size="x-small" variant="tonal" class="mt-1" @click="verify(p)">Verify</VBtn>
           </VListItem>
         </VList>
       </VCard>
@@ -209,7 +219,8 @@ const bandColor = (b: string) => b === 'inside' ? 'error' : b === 'near' ? 'warn
         <VTable density="comfortable">
           <thead><tr><th>Model</th><th>Forecasts</th><th class="text-end">Mean absolute % error</th><th class="text-end">Bias</th><th class="text-end">Actual inside interval</th></tr></thead>
           <tbody>
-            <tr v-for="(a, k) in accuracy" :key="k"><td class="font-weight-medium">{{ a.model }} {{ a.version }}<div class="text-caption">{{ human(a.metric) }}</div></td>
+            <tr v-for="(a, k) in accuracy" :key="k"><td class="font-weight-medium">{{ a.model }} {{ a.version }}
+              <VChip v-if="champions?.[a.metric]?.model === a.model" size="x-small" color="success" label class="ms-1">champion</VChip><div class="text-caption">{{ human(a.metric) }}</div></td>
               <td>{{ a.forecasts }}</td><td class="text-end">{{ a.mape === null ? '—' : `${num(a.mape, 1)}%` }}</td><td class="text-end">{{ num(a.bias, 3) }}</td>
               <td class="text-end">{{ a.coverage === null ? '—' : `${num(a.coverage, 0)}%` }}</td></tr>
             <tr v-if="!accuracy.length"><td colspan="5" class="text-center text-medium-emphasis py-4">No forecast has reached its date yet.</td></tr>

@@ -188,6 +188,10 @@ class CommandCentreController extends Controller
                     'controllable' => $d->controllable, 'commands_need_approval' => $d->commands_need_approval, 'allowed_commands' => $d->allowed_commands ?? [],
                     'calibration_offset' => $d->calibration_offset, 'calibration_factor' => $d->calibration_factor, 'calibrated_on' => $d->calibrated_on?->toDateString(),
                     'endpoint_url' => $d->endpoint_url, 'secret_issued_at' => $d->secret_issued_at?->toIso8601String(),
+                    'validated_at' => $d->validated_at?->toIso8601String(), 'calibration_due' => $d->calibration_interval_days && $d->calibrated_on ? $d->calibrated_on->copy()->addDays($d->calibration_interval_days)->toDateString() : null,
+                    // Equipment health: how much of what it should have sent in the last day arrived.
+                    'uptime_pct' => in_array($d->kind, ['sensor', 'meter'], true) ? min(100, round(\App\Modules\Operations\Manufacturing\Models\Agriculture\Reading::query()->where('device_id', $d->id)
+                        ->where('measured_at', '>=', now()->subDay())->count() / max(1, 86400 / max(60, $d->expected_interval_seconds)) * 100)) : null,
                     'api' => $d->kind === 'gateway' ? ['readings' => route('api.production.gateways.readings', $d->uuid), 'commands' => route('api.production.gateways.commands', $d->uuid)] : null])->values(),
             'issued' => session('gateway'),
             'commands' => Command::query()->with('device:id,name')->latest('id')->limit(100)->get()->map(fn (Command $c) => ['id' => $c->uuid, 'command' => $c->command,
@@ -206,6 +210,7 @@ class CommandCentreController extends Controller
             'kind' => ['required', Rule::in(['sensor', 'meter', 'controller', 'gateway'])], 'metric' => ['nullable', 'string', 'max:40'], 'unit' => ['nullable', 'string', 'max:20'],
             'expected_interval_seconds' => ['nullable', 'integer', 'between:10,86400'], 'calibration_offset' => ['nullable', 'numeric'], 'calibration_factor' => ['nullable', 'numeric', 'gt:0'],
             'controllable' => ['nullable', 'boolean'], 'commands_need_approval' => ['nullable', 'boolean'], 'allowed_commands' => ['nullable', 'array'],
+            'calibration_interval_days' => ['nullable', 'integer', 'between:1,3650'],
             'endpoint_url' => ['nullable', 'url:https,http', 'max:500']]);
         $unit = $this->scoped(Unit::query(), $request)->where('uuid', $d['unit_id'])->firstOrFail();
         if (Device::query()->where('code', $d['code'])->exists()) {
@@ -218,6 +223,17 @@ class CommandCentreController extends Controller
         }
 
         return back()->with('success', "{$d['name']} added to {$unit->name}.");
+    }
+
+    /** A person confirms the equipment was tested on site; it then takes live commands instead of simulated ones. */
+    public function validateDevice(Request $request, string $device, Commands $commands): RedirectResponse
+    {
+        $this->authorize('approveCommand', Incident::class);
+        $d = $request->validate(['note' => ['required', 'string', 'max:500']]);
+        $dev = $this->scoped(Device::query(), $request)->where('uuid', $device)->firstOrFail();
+        $commands->validate($dev, $request->user(), $d['note']);
+
+        return back()->with('success', "{$dev->name} is validated for live control.");
     }
 
     /** A new secret for a gateway (the old one stops working at once). */
@@ -270,7 +286,8 @@ class CommandCentreController extends Controller
         return Inertia::render('Modules/Manufacturing/Command/Settings', [
             'thresholds' => Threshold::query()->with(['unit:id,code,name'])->orderBy('metric')->get()->map(fn (Threshold $t) => ['id' => $t->uuid, 'metric' => $t->metric,
                 'min' => $t->min_value, 'max' => $t->max_value, 'severity' => $t->severity, 'sustain_minutes' => round($t->sustain_seconds / 60, 1),
-                'scope' => $t->unit?->name ?? ProductionType::query()->whereKey($t->production_type_id)->value('name'), 'is_active' => $t->is_active, 'message' => $t->message])->values(),
+                'scope' => $t->unit?->name ?? ProductionType::query()->whereKey($t->production_type_id)->value('name'), 'is_active' => $t->is_active, 'message' => $t->message,
+                'is_ccp' => $t->is_ccp, 'corrective_action' => $t->corrective_action])->values(),
             'policies' => collect(Incident::SEVERITIES)->map(fn ($s) => ['severity' => $s, 'steps' => EscalationPolicy::query()->where('severity', $s)->value('steps')
                 ? json_decode(EscalationPolicy::query()->where('severity', $s)->value('steps'), true) : null,
                 'default_minutes' => Incidents::DEFAULT_MINUTES[$s] ?? null])->values(),
@@ -278,7 +295,65 @@ class CommandCentreController extends Controller
             'units' => $this->scoped(Unit::query(), $request)->orderBy('code')->get(['uuid', 'code', 'name'])->map(fn ($u) => ['value' => $u->uuid, 'title' => "{$u->code} — {$u->name}"]),
             'users' => $users->map(fn ($u) => ['value' => $u->id, 'title' => $u->name]),
             'severities' => Incident::SEVERITIES,
+            'channels' => app(\App\Shared\Messaging\CompanyMessaging::class)->status((int) $request->user()->company_id),
+            'myMobile' => app(\App\Shared\Messaging\CompanyMessaging::class)->mobile($request->user()),
         ]);
+    }
+
+    /**
+     * The organisation's own alert channels: its SMS account (the same company SMS setup the rest
+     * of the system uses) and its WhatsApp Business number with the approved alert template.
+     * Secrets are only ever written, never shown back.
+     */
+    public function storeChannel(Request $request): RedirectResponse
+    {
+        $this->authorize('configure', Incident::class);
+        $company = (int) $request->user()->company_id;
+        $d = $request->validate(['channel' => ['required', Rule::in(['sms', 'whatsapp'])], 'is_active' => ['required', 'boolean'],
+            'provider' => ['nullable', Rule::in(['bulksms'])], 'username' => ['nullable', 'string', 'max:120'], 'password' => ['nullable', 'string', 'max:255'],
+            'phone_number_id' => ['nullable', 'string', 'max:60'], 'business_account_id' => ['nullable', 'string', 'max:60'], 'token' => ['nullable', 'string', 'max:2000'],
+            'base_url' => ['nullable', 'url:https', 'max:200'], 'alert_template' => ['nullable', 'string', 'max:120', 'regex:/^[a-z0-9_]+$/'],
+            'template_language' => ['nullable', 'string', 'max:12']]);
+        if ($d['channel'] === 'sms') {
+            $cfg = \App\Core\SMS\Models\SmsConfiguration::withoutGlobalScopes()->firstOrNew(['company_id' => $company]);
+            $cfg->fill(['provider' => $d['provider'] ?? 'bulksms', 'sms_username' => $d['username'] ?? $cfg->sms_username, 'is_active' => $d['is_active']]);
+            if (! empty($d['password'])) {
+                $cfg->sms_password = $d['password'];
+            }
+            if ($d['is_active'] && (! $cfg->sms_username || empty($cfg->getAttributes()['sms_password'] ?? null))) {
+                throw \Illuminate\Validation\ValidationException::withMessages(['username' => 'Give the SMS account username and password before switching it on.']);
+            }
+            $cfg->save();
+        } else {
+            $ch = \App\Shared\Messaging\CompanyChannel::for('whatsapp', $company) ?? new \App\Shared\Messaging\CompanyChannel(['company_id' => $company, 'channel' => 'whatsapp']);
+            $settings = array_filter(['phone_number_id' => $d['phone_number_id'] ?? null, 'business_account_id' => $d['business_account_id'] ?? null,
+                'base_url' => $d['base_url'] ?? null, 'token' => $d['token'] ?? null], fn ($v) => $v !== null && $v !== '') + $ch->settings();
+            if ($d['is_active'] && (empty($settings['token']) || empty($settings['phone_number_id']) || empty($d['alert_template'] ?? $ch->alert_template))) {
+                throw \Illuminate\Validation\ValidationException::withMessages(['phone_number_id' => 'Give the phone number id, access token and the approved alert template before switching WhatsApp on.']);
+            }
+            $ch->putSettings($settings);
+            $ch->fill(['alert_template' => $d['alert_template'] ?? $ch->alert_template, 'template_language' => $d['template_language'] ?? $ch->template_language ?? 'en',
+                'is_active' => $d['is_active'], 'updated_by' => $request->user()->id])->save();
+        }
+
+        return back()->with('success', strtoupper($d['channel']).' alert channel saved.');
+    }
+
+    /** Send a test to the person setting it up, on their own HR cell number. */
+    public function testChannel(Request $request): RedirectResponse
+    {
+        $this->authorize('configure', Incident::class);
+        $d = $request->validate(['channel' => ['required', Rule::in(['sms', 'whatsapp'])]]);
+        $m = app(\App\Shared\Messaging\CompanyMessaging::class);
+        $company = (int) $request->user()->company_id;
+        $error = $d['channel'] === 'sms'
+            ? $m->sms($request->user(), 'Mkhaya Agri: a test alert from your Command Centre. No action needed.', true)
+            : $m->whatsapp($company, $request->user(), ['TEST', 'A test alert from your Command Centre', url('/manufacturing/command/centre')]);
+        if ($d['channel'] === 'whatsapp' && ($ch = \App\Shared\Messaging\CompanyChannel::for('whatsapp', $company))) {
+            $ch->forceFill(['last_test_at' => now(), 'last_test_status' => $error ?? 'Delivered to the WhatsApp API.'])->save();
+        }
+
+        return back()->with($error ? 'error' : 'success', $error ?? 'Test sent to '.$m->mobile($request->user()).'.');
     }
 
     public function storeThreshold(Request $request): RedirectResponse
@@ -286,10 +361,12 @@ class CommandCentreController extends Controller
         $this->authorize('configure', Incident::class);
         $d = $request->validate(['metric' => ['required', 'string', 'max:40'], 'min_value' => ['nullable', 'numeric'], 'max_value' => ['nullable', 'numeric'],
             'severity' => ['required', Rule::in(Incident::SEVERITIES)], 'sustain_minutes' => ['nullable', 'numeric', 'between:0,1440'], 'unit_id' => ['nullable', 'uuid'],
-            'production_type_id' => ['nullable', 'uuid'], 'message' => ['nullable', 'string', 'max:255']]);
+            'production_type_id' => ['nullable', 'uuid'], 'message' => ['nullable', 'string', 'max:255'], 'is_ccp' => ['nullable', 'boolean'],
+            'corrective_action' => ['nullable', 'string', 'max:500', 'required_if:is_ccp,true']]);
         abort_if(($d['min_value'] ?? null) === null && ($d['max_value'] ?? null) === null, 422, 'Give a minimum, a maximum or both.');
         Threshold::create(['company_id' => $request->user()->company_id, 'metric' => $d['metric'], 'min_value' => $d['min_value'] ?? null, 'max_value' => $d['max_value'] ?? null,
             'severity' => $d['severity'], 'sustain_seconds' => (int) round(((float) ($d['sustain_minutes'] ?? 0)) * 60), 'message' => $d['message'] ?? null,
+            'is_ccp' => (bool) ($d['is_ccp'] ?? false), 'corrective_action' => $d['corrective_action'] ?? null,
             'unit_id' => ! empty($d['unit_id']) ? $this->scoped(Unit::query(), $request)->where('uuid', $d['unit_id'])->value('id') : null,
             'production_type_id' => ! empty($d['production_type_id']) ? ProductionType::query()->where('uuid', $d['production_type_id'])->value('id') : null]);
 

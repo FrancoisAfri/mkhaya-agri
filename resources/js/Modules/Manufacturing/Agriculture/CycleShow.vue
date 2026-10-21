@@ -30,6 +30,9 @@ const props = defineProps<{
   panel: { tiles: Array<{ label: string; value: number | null; unit: string | null; hint?: string | null }>; series: Array<{ name: string; unit: string; points: Array<{ x: string; y: number }> }>; sensors: Array<{ metric: string; title: string }> }
   unitId: string | null
   feedRations: Array<{ value: number; title: string }>
+  costs: { lines: Record<string, number>; total: number; per_output: number | null; output_unit: string | null; per_head: number | null; count_unit: string | null; per_area: number | null; area_unit: string | null }
+  photos: Array<{ id: string; subject: string; question: string | null; status: string; findings: any; model: string | null; at: string; url: string }>
+  scenarios: Array<{ id: string; name: string; best: any; inputs: any; results: any[]; model: string; at: string }>
   feedItems: Array<{ value: number; title: string }>
   can: { manage: boolean; record: boolean }
 }>()
@@ -56,16 +59,38 @@ const fieldsFor = (kind: string): FormField[] => {
       ...(c.crop_plan ? [] : [{ key: 'count', label: `${props.definition.count_unit ?? 'Head'} taken out`, type: 'number', cols: 6 } as FormField]),
       { key: 'grade', label: 'Grade', cols: 6 }],
     eggs: [{ key: 'quantity', label: 'Eggs collected', type: 'number', required: true, cols: 6 }],
-    milk: [{ key: 'quantity', label: 'Milk (litres)', type: 'number', required: true, cols: 6 }],
+    milk: [{ key: 'quantity', label: 'Milk (litres)', type: 'number', required: true, cols: 6 }, { key: 'cows_milked', label: 'Cows milked', type: 'number', cols: 6 },
+      { key: 'scc', label: 'Somatic cell count (per ml)', type: 'number', cols: 4 }, { key: 'butterfat_pct', label: 'Butterfat %', type: 'number', cols: 4 }, { key: 'protein_pct', label: 'Protein %', type: 'number', cols: 4 }],
+    measurement: [{ key: 'metric', label: 'What was measured', type: 'select', required: true, cols: 6,
+      items: ['dissolved_oxygen', 'ph', 'ammonia', 'water_temperature', 'temperature', 'humidity', 'ec', 'soil_moisture', 'core_temperature', 'brix'] },
+      { key: 'quantity', label: 'Value', type: 'number', required: true, cols: 3 }, { key: 'unit', label: 'Unit', cols: 3 }],
     cost: [{ key: 'cost', label: 'Amount', type: 'number', required: true, cols: 6 }, { key: 'reason', label: 'For', cols: 6 }],
     observation: [{ key: 'note', label: 'What was seen', type: 'textarea', required: true, cols: 12 }],
   }
   return [when, ...(common[kind] ?? [{ key: 'quantity', label: 'Quantity', type: 'number', cols: 6 }, { key: 'note', label: 'Note', cols: 12 }]),
     { key: 'kind', label: '', default: kind, show: () => false }]
 }
-const quick = computed(() => props.definition.category === 'crop'
-  ? ['harvest', 'treatment', 'cost', 'observation']
-  : props.definition.category === 'processing' ? ['cost', 'observation'] : ['mortality', 'feed', 'water', 'weight', 'treatment', 'harvest', 'eggs', 'observation'])
+const quick = computed(() => ({
+  crop: ['harvest', 'treatment', 'measurement', 'cost', 'observation'],
+  greenhouse: ['harvest', 'treatment', 'measurement', 'cost', 'observation'],
+  processing: ['measurement', 'cost', 'observation'],
+  dairy: ['milk', 'mortality', 'feed', 'treatment', 'weight', 'cost', 'observation'],
+  aquaculture: ['feed', 'weight', 'mortality', 'measurement', 'treatment', 'harvest', 'observation'],
+} as Record<string, string[]>)[props.definition.category ?? ''] ?? ['mortality', 'feed', 'water', 'weight', 'treatment', 'harvest', 'eggs', 'measurement', 'observation'])
+// Photos for the vision model: read in the browser, sent as base64, kept in the database.
+const photoSubject = ref(props.definition.category === 'crop' || props.definition.category === 'greenhouse' ? 'crop' : props.definition.category === 'aquaculture' ? 'fish' : 'birds')
+const photoQuestion = ref('')
+const sendingPhoto = ref(false)
+function sendPhoto(e: Event) {
+  const file = (e.target as HTMLInputElement).files?.[0]
+  if (!file) return
+  const r = new FileReader()
+  r.onload = () => router.post(`/manufacturing/agriculture/cycles/${c.id}/photos`, { subject: photoSubject.value, question: photoQuestion.value, mime: file.type, data: String(r.result).split(',')[1] },
+    { preserveScroll: true, onStart: () => { sendingPhoto.value = true }, onFinish: () => { sendingPhoto.value = false; photoQuestion.value = '' } })
+  r.readAsDataURL(file)
+}
+const scenario = ref({ placements: String(c.opening_count ?? 20000), days: '32, 35, 38, 42', chick_price: 8.5, feed_price_kg: 8.4, live_price_kg: 28, max_density_kg_m2: 39 })
+const runScenario = () => router.post(`/manufacturing/agriculture/cycles/${c.id}/scenarios`, scenario.value, { preserveScroll: true })
 const stageTo = ref('')
 const advance = () => router.post(`/manufacturing/agriculture/cycles/${c.id}/stage`, { stage: stageTo.value }, { preserveScroll: true })
 const moving = ref(false)
@@ -180,6 +205,58 @@ const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { en
           </VTable>
         </VCard>
 
+        <VCard border class="mb-4">
+          <VCardTitle class="d-flex align-center gap-2"><VIcon icon="tabler-camera" /> Photos</VCardTitle>
+          <VCardText>
+            <div v-if="open && can.record" class="d-flex gap-2 flex-wrap align-center mb-3">
+              <VSelect v-model="photoSubject" :items="['birds', 'litter', 'droppings', 'crop', 'fish', 'animals', 'product', 'other']" label="Photo of" density="compact" hide-details style="max-width: 160px" />
+              <VTextField v-model="photoQuestion" label="What should it look at? (optional)" density="compact" hide-details />
+              <VBtn tag="label" color="primary" variant="tonal" :loading="sendingPhoto" prepend-icon="tabler-upload">Add photo<input type="file" accept="image/*" hidden @change="sendPhoto"></VBtn>
+            </div>
+            <VRow>
+              <VCol v-for="p in photos" :key="p.id" cols="12" md="6">
+                <VCard variant="outlined">
+                  <VImg :src="p.url" height="160" cover />
+                  <VCardText class="text-body-2">
+                    <div class="d-flex justify-space-between"><strong>{{ human(p.subject) }}</strong><VChip size="x-small" label :color="p.status === 'done' ? (p.findings?.urgent ? 'error' : 'success') : 'secondary'">{{ p.status === 'done' ? (p.findings?.urgent ? 'look now' : 'seen') : p.status }}</VChip></div>
+                    <div v-if="p.question" class="text-caption text-medium-emphasis">{{ p.question }}</div>
+                    <ul v-if="p.findings?.observations?.length" class="text-caption ps-4 mt-1"><li v-for="(o, k) in p.findings.observations" :key="k">{{ o }}</li></ul>
+                    <div v-for="(i, k) in p.findings?.possible_issues ?? []" :key="'i' + k" class="text-caption"><VChip size="x-small" label>{{ i.confidence }}</VChip> {{ i.issue }} — <span class="text-medium-emphasis">{{ i.look_for }}</span></div>
+                    <div class="text-caption text-disabled mt-1">{{ p.findings?.note }}<template v-if="p.model"> · {{ p.model }}</template></div>
+                  </VCardText>
+                </VCard>
+              </VCol>
+              <VCol v-if="!photos.length" cols="12" class="text-caption text-medium-emphasis">No photos yet. The vision model describes what it sees — never a diagnosis.</VCol>
+            </VRow>
+          </VCardText>
+        </VCard>
+
+        <VCard v-if="['poultry', 'aquaculture', 'livestock'].includes(definition.category ?? '') && definition.output_unit !== 'eggs'" border class="mb-4">
+          <VCardTitle class="d-flex align-center gap-2"><VIcon icon="tabler-chart-arrows" /> Grow-out options</VCardTitle>
+          <VCardText>
+            <VRow dense>
+              <VCol cols="6" md="3"><VTextField v-model="scenario.placements" label="Numbers placed (comma-separated)" density="compact" /></VCol>
+              <VCol cols="6" md="3"><VTextField v-model="scenario.days" label="Days grown (comma-separated)" density="compact" /></VCol>
+              <VCol cols="4" md="2"><VTextField v-model.number="scenario.chick_price" type="number" label="Price per chick / fingerling" density="compact" /></VCol>
+              <VCol cols="4" md="2"><VTextField v-model.number="scenario.feed_price_kg" type="number" label="Feed R/kg" density="compact" /></VCol>
+              <VCol cols="4" md="2"><VTextField v-model.number="scenario.live_price_kg" type="number" label="Live price R/kg" density="compact" /></VCol>
+            </VRow>
+            <VBtn size="small" color="primary" variant="tonal" :disabled="!can.record" @click="runScenario">Compare</VBtn>
+            <template v-for="x in scenarios.slice(0, 1)" :key="x.id">
+              <VAlert v-if="x.best" type="success" variant="tonal" density="compact" class="mt-3">
+                Best: {{ num(x.best.placed, 0) }} placed, {{ x.best.days }} days → {{ num(x.best.sold, 0) }} sold at {{ num(x.best.avg_weight_kg, 2) }} kg, margin {{ money(x.best.margin) }} ({{ money(x.best.margin_per_day) }} a day)<template v-if="x.best.density_kg_m2 !== null">, {{ x.best.density_kg_m2 }} kg/m²</template>.
+              </VAlert>
+              <VTable density="compact" class="mt-2">
+                <thead><tr><th>Placed</th><th>Days</th><th class="text-end">Weight</th><th class="text-end">Margin</th><th class="text-end">A day</th><th>Density</th></tr></thead>
+                <tbody><tr v-for="(r, k) in [...x.results].sort((a, b) => b.margin_per_day - a.margin_per_day).slice(0, 8)" :key="k" :class="{ 'text-disabled': !r.within_density }">
+                  <td>{{ num(r.placed, 0) }}</td><td>{{ r.days }}</td><td class="text-end">{{ num(r.avg_weight_kg, 2) }} kg</td><td class="text-end">{{ money(r.margin) }}</td><td class="text-end">{{ money(r.margin_per_day) }}</td>
+                  <td>{{ r.density_kg_m2 ?? '—' }}<template v-if="!r.within_density"> over limit</template></td></tr></tbody>
+              </VTable>
+              <div class="text-caption text-medium-emphasis">Growth from {{ x.inputs.growth_basis }}; FCR {{ x.inputs.fcr_model }}; {{ x.model }}. A comparison of options, not a promise.</div>
+            </template>
+          </VCardText>
+        </VCard>
+
         <VCard v-if="reconcile.length" border class="mb-4">
           <VCardTitle>Feed and water, day by day</VCardTitle>
           <VTable density="compact">
@@ -210,6 +287,18 @@ const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { en
             </VListItem>
             <VListItem v-if="!forecasts.length"><VListItemSubtitle>No forecasts yet: three weighings, three days of eggs or milk, or a crop plan are needed.</VListItemSubtitle></VListItem>
           </VList>
+        </VCard>
+        <VCard border class="mb-4">
+          <VCardTitle>Costs</VCardTitle>
+          <VTable density="compact">
+            <tbody>
+              <tr v-for="(v, k) in costs.lines" :key="k"><td>{{ k }}</td><td class="text-end">{{ money(v) }}</td></tr>
+              <tr class="font-weight-bold"><td>Total</td><td class="text-end">{{ money(costs.total) }}</td></tr>
+              <tr v-if="costs.per_output !== null"><td class="text-caption">Per {{ costs.output_unit }}</td><td class="text-end text-caption">R {{ num(costs.per_output, 2) }}</td></tr>
+              <tr v-if="costs.per_head !== null"><td class="text-caption">Per {{ costs.count_unit ?? 'head' }}</td><td class="text-end text-caption">R {{ num(costs.per_head, 2) }}</td></tr>
+              <tr v-if="costs.per_area !== null"><td class="text-caption">Per {{ costs.area_unit }}</td><td class="text-end text-caption">R {{ num(costs.per_area, 2) }}</td></tr>
+            </tbody>
+          </VTable>
         </VCard>
         <VCard border class="mb-4">
           <VCardTitle>Holds &amp; withdrawals</VCardTitle>

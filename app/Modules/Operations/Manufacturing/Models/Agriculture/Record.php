@@ -9,7 +9,7 @@ class Record extends ProductionModel
 
     protected $casts = ['details' => 'array', 'recorded_at' => 'datetime', 'quantity' => 'float', 'cost' => 'float'];
 
-    public const KINDS = ['mortality', 'cull', 'feed', 'water', 'weight', 'transfer', 'treatment', 'harvest', 'eggs', 'milk', 'input', 'cost', 'observation'];
+    public const KINDS = ['mortality', 'cull', 'feed', 'water', 'weight', 'transfer', 'treatment', 'harvest', 'eggs', 'milk', 'input', 'cost', 'observation', 'measurement'];
 
     /** Kinds that take animals out of the cycle. */
     public const REMOVALS = ['mortality', 'cull'];

@@ -31,6 +31,8 @@ return [
         'stream_every' => 5,
         // How far a batch made to a recipe may stray from the recipe's quantities.
         'recipe_tolerance_pct' => 10,
+        // Cost of an hour of farm labour where a task does not carry its own cost.
+        'labour_rate' => (float) env('MANUFACTURING_AGRI_LABOUR_RATE', 35),
     ],
 
     'packages' => [

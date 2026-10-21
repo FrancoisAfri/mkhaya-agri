@@ -35,8 +35,9 @@ class ProductionMonitorCommand extends Command
     public function handle(TenantContext $tenants, Readings $readings, Incidents $incidents, Commands $commands, Forecasts $forecasts, Orchestrator $agents): int
     {
         $this->eachTenant($tenants, function (int $companyId) use ($readings, $incidents, $commands, $forecasts, $agents) {
-            $done = ['stale' => $readings->sweepStale(), 'escalated' => $incidents->escalateDue(), 'unconfirmed' => $commands->sweepUnconfirmed(),
+            $done = ['stale' => $readings->sweepStale(), 'calibration' => $readings->calibrationDue(), 'escalated' => $incidents->escalateDue(), 'unconfirmed' => $commands->sweepUnconfirmed(),
                 'scored' => $forecasts->resolveDue()];
+            $forecasts->chooseChampions($companyId);
             if ($this->option('sources')) {
                 $done['fetched'] = count(app(\App\Modules\Operations\Manufacturing\Services\Agriculture\SourceFetcher::class)->fetchDue());
             }

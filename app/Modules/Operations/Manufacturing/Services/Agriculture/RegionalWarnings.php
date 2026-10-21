@@ -45,11 +45,15 @@ class RegionalWarnings
         $message = $pub->body;
         $farms = Farm::withoutGlobalScopes()->where('company_id', $source->company_id)->whereNotNull('latitude')->where('status', Farm::ACTIVE)->get()
             ->filter(fn (Farm $f) => Outbreaks::distanceKm((float) $w['latitude'], (float) $w['longitude'], (float) $f->latitude, (float) $f->longitude) <= (float) $w['radius_km']);
+        $trusted = $this->sources->trusted($pub->setRelation('source', $source));
         foreach ($farms as $farm) {
             WeatherWarning::withoutGlobalScopes()->updateOrCreate(['farm_id' => $farm->id, 'provider' => $source->code, 'external_id' => $w['external_id']],
                 ['company_id' => $farm->company_id, 'kind' => $w['kind'], 'severity' => $w['severity'], 'starts_at' => Carbon::parse($w['starts_at']),
                     'ends_at' => ! empty($w['ends_at']) ? Carbon::parse($w['ends_at']) : null, 'message' => mb_strimwidth($message, 0, 1000), 'fetched_at' => now()]);
-            $this->advise($source, $farm, $w, $pub->flagged);
+            // An unverified feed's warning is on the farm's weather record; it raises nothing until verified.
+            if ($trusted) {
+                $this->advise($source, $farm, $w, $pub->flagged);
+            }
         }
 
         return $farms->pluck('id')->values()->all();

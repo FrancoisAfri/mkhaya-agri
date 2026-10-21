@@ -7,7 +7,7 @@ class Device extends ProductionModel
 {
     protected $table = 'prd_devices';
 
-    protected $casts = ['allowed_commands' => 'array', 'controllable' => 'boolean', 'commands_need_approval' => 'boolean', 'last_seen_at' => 'datetime', 'last_measured_at' => 'datetime', 'calibrated_on' => 'date', 'last_value' => 'float', 'calibration_offset' => 'float', 'calibration_factor' => 'float', 'secret_issued_at' => 'datetime'];
+    protected $casts = ['allowed_commands' => 'array', 'controllable' => 'boolean', 'commands_need_approval' => 'boolean', 'last_seen_at' => 'datetime', 'last_measured_at' => 'datetime', 'calibrated_on' => 'date', 'last_value' => 'float', 'calibration_offset' => 'float', 'calibration_factor' => 'float', 'secret_issued_at' => 'datetime', 'validated_at' => 'datetime'];
 
     protected $hidden = ['secret_hash'];
 

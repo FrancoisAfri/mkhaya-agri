@@ -44,6 +44,11 @@ class Processing
         if ($bom) {
             $this->checkRecipe($bom, $batchQty ?: collect($outputs)->sum(fn ($o) => (float) $o['quantity']), $inputs);
         }
+        // A batch on hold (a critical control point out of limits) still records what it makes, but
+        // everything it makes is held until the hold is lifted.
+        if ($batch && ($held = $this->cycles->blocks($batch))) {
+            $data['quality_checks'] = [...($data['quality_checks'] ?? []), ['check' => 'Batch on hold', 'value' => mb_strimwidth(implode(' ', $held), 0, 180), 'ok' => false]];
+        }
         foreach ($inputs as $i) {
             if ($source = $this->sourceCycle($i['lot'])) {
                 if ($why = $this->cycles->blocks($source)) {
@@ -85,6 +90,9 @@ class Processing
         }
         if (($source = $this->sourceCycle($lot)) && ($why = $this->cycles->blocks($source))) {
             throw ValidationException::withMessages(['lot' => 'The produce is still restricted: '.implode(' ', $why)]);
+        }
+        if (($batch = $this->madeInBatch($lot)) && ($why = $this->cycles->blocks($batch))) {
+            throw ValidationException::withMessages(['lot' => "Batch {$batch->code} that made it is on hold: ".implode(' ', $why)]);
         }
         if (trim($note) === '') {
             throw ValidationException::withMessages(['note' => 'Say why the hold is released.']);
@@ -139,6 +147,14 @@ class Processing
         if ($problems) {
             throw ValidationException::withMessages(['inputs' => "Not to recipe ({$bom->name} rev {$bom->revision}): ".implode(' ', $problems)]);
         }
+    }
+
+    /** The processing batch a lot was made in, through the run that made it. */
+    public function madeInBatch(ProduceLot $lot): ?Cycle
+    {
+        $ops = DB::table('produce_lot_links')->where('child_lot_id', $lot->id)->pluck('operation_id')->filter()->unique();
+
+        return $ops->isEmpty() ? null : Cycle::query()->whereIn('id', Record::query()->where('link_type', 'packhouse_operation')->whereIn('link_id', $ops)->pluck('cycle_id'))->first();
     }
 
     /** The production cycle the lot's produce came from, through its crop plan. */
