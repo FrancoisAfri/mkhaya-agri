@@ -173,6 +173,12 @@ class SeedAgriDemoAreas extends Command
             $this->area('Peer benchmarks (opt-in, demonstration peer bands)', fn () => \App\Modules\Agri\Models\PeerBenchmark::query()->where('seeded', true)->exists(), fn () => $this->benchmarks());
             $this->area('Consumer trace code (QR on a packed lot, certifications)', fn () => \App\Modules\Agri\Models\TraceToken::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->traceCode());
             $this->area('Carbon registry (registered project, period, issuance, retirement, export)', fn () => \App\Modules\Agri\Models\CarbonRegistration::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->carbonRegistry());
+            // Residues and MRLs, certification checklists, export document packs.
+            $this->area('Residue, certification and export permissions on the farm roles', fn () => \Spatie\Permission\Models\Permission::query()->where('name', \App\Modules\Agri\Support\RoleCatalog::MANAGE_EXPORTS)->exists()
+                && $this->u['owner']->can(\App\Modules\Agri\Support\RoleCatalog::OVERRIDE_RESIDUES), fn () => $this->residuePermissions());
+            $this->area('Residue register (MRL starter set, banned actives, lab results)', fn () => \App\Modules\Agri\Models\ResidueTest::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->residues());
+            $this->area('Certification checklists (GLOBALG.A.P., SIZA, organic; self-assessment)', fn () => \App\Modules\Agri\Models\SchemeInstall::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->certification());
+            $this->area('Export consignment and its document pack', fn () => \App\Modules\Agri\Models\ExportConsignment::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->exportPack());
             $this->area('Season processes (crop cycle on the workflow engine)', fn () => \App\Modules\Workflow\Models\WorkflowDefinition::query()->where('key', 'agri_field_season')->exists(), fn () => $this->seasonProcesses());
 
             $this->newLine();
@@ -1902,5 +1908,124 @@ class SeedAgriDemoAreas extends Command
         $e = $reg->export($r->fresh(), null, $owner);
 
         return "VCS-DEMO-5123 registered, 1 verified period (212 t), 169.6 t issued + 42.4 t buffer, 25 t retired, export {$e->file_name}";
+    }
+
+    /** The new permissions exist, and the farm roles that should have them do. */
+    private function residuePermissions(): string
+    {
+        $new = [\App\Modules\Agri\Support\RoleCatalog::MANAGE_RESIDUES, \App\Modules\Agri\Support\RoleCatalog::OVERRIDE_RESIDUES, \App\Modules\Agri\Support\RoleCatalog::MANAGE_EXPORTS];
+        foreach ($new as $p) {
+            \Spatie\Permission\Models\Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
+        }
+        $n = 0;
+        foreach (\App\Modules\Agri\Support\RoleCatalog::suggestedRoles() as $name => $perms) {
+            $role = \App\Core\Role\Models\Role::query()->where('name', $name)->where('guard_name', 'web')->first();
+            if ($role && ($give = array_values(array_intersect($new, $perms)))) {
+                $role->givePermissionTo($give);
+                $n++;
+            }
+        }
+        \App\Core\Role\Models\Role::query()->where('name', 'Organisation Owner')->first()?->givePermissionTo($new);
+        app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+        foreach ($this->u as $k => $user) {
+            $this->u[$k] = $user->fresh();
+        }
+
+        return "3 permissions on {$n} farm roles";
+    }
+
+    /**
+     * The MRL starter set, Rivierplaas's lemons grown for the EU, UK and home market, a water test,
+     * and two lab results: the packed cartons well within every limit, and a Class 2 lot over the EU
+     * imazalil MRL but within South Africa's.
+     */
+    private function residues(): string
+    {
+        $rc = app(\App\Modules\Agri\Services\ResidueControls::class);
+        $owner = $this->as('owner');
+        $n = $rc->installStarterSet($this->companyId, $owner);
+        $this->plan('CIT-26-O1')->forceFill(['target_markets' => ['EU', 'UK', 'ZA']])->saveQuietly();
+        $packed = ProduceLot::withoutGlobalScopes()->where('farm_id', $this->rivier->id)->where('kind', 'packed')->where('product', 'Lemons 15kg carton')->latest('id')->firstOrFail();
+        $class2 = ProduceLot::withoutGlobalScopes()->where('farm_id', $this->rivier->id)->where('grade', 'Class 2')->where('product', 'Lemons')->latest('id')->firstOrFail();
+        $class2->forceFill(['target_markets' => ['EU', 'ZA']])->saveQuietly();   // offered to an EU buyer and locally
+        $cert = fn (string $ref) => ['name' => "{$ref}.pdf", 'mime' => 'application/pdf', 'data' => $this->pdf("Residue certificate {$ref}")];
+        $t1 = $rc->recordTest($this->rivier, ['laboratory' => 'Hearshaw & Kinnes Analytical Laboratory', 'lab_reference' => 'HK-26-11873', 'sample_type' => 'lot',
+            'produce_lot_id' => $packed->id, 'sampled_on' => today()->subDays(2)->toDateString(), 'reported_on' => today()->subDay()->toDateString(), 'notes' => 'Multi-residue screen (demonstration).'],
+            [['active_ingredient' => 'Imazalil', 'measured_mg_kg' => 2.1, 'loq_mg_kg' => 0.01], ['active_ingredient' => 'Thiabendazole', 'measured_mg_kg' => 1.4, 'loq_mg_kg' => 0.01],
+                ['active_ingredient' => 'Pyrimethanil', 'below_loq' => true, 'loq_mg_kg' => 0.01], ['active_ingredient' => 'Chlorpyrifos', 'below_loq' => true, 'loq_mg_kg' => 0.005]], $cert('HK-26-11873'), $owner);
+        $t2 = $rc->recordTest($this->rivier, ['laboratory' => 'Hearshaw & Kinnes Analytical Laboratory', 'lab_reference' => 'HK-26-11874', 'sample_type' => 'lot',
+            'produce_lot_id' => $class2->id, 'sampled_on' => today()->subDays(2)->toDateString(), 'reported_on' => today()->subDay()->toDateString(), 'notes' => 'Second drench on this lot (demonstration).'],
+            [['active_ingredient' => 'Imazalil', 'measured_mg_kg' => 4.6, 'loq_mg_kg' => 0.01], ['active_ingredient' => 'Thiabendazole', 'measured_mg_kg' => 2.2, 'loq_mg_kg' => 0.01]], $cert('HK-26-11874'), $owner);
+        app(EnvironmentReport::class)->record($this->rivier, ['kind' => 'water_quality', 'recorded_on' => today()->subMonths(2)->toDateString(), 'quantity' => 1, 'unit' => 'test',
+            'method' => 'Laboratory analysis (E. coli, nitrates)', 'description' => 'Irrigation dam and packhouse water: E. coli < 1 cfu/100 ml (demonstration)'], $owner);
+
+        return "{$n['limits']} starter MRLs and {$n['restrictions']} restrictions (verify against the official lists), tests {$t1->reference} (pass) and {$t2->reference} (over the EU MRL, within ZA)";
+    }
+
+    /** The three checklists installed and adopted at Rivierplaas, with part of the self-assessment answered. */
+    private function certification(): string
+    {
+        $cs = app(\App\Modules\Agri\Services\CertificationSchemes::class);
+        $owner = $this->as('owner');
+        $schemes = [];
+        foreach (array_keys(\App\Modules\Agri\Support\CertificationTemplates::all()) as $code) {
+            $schemes[$code] = $cs->install($this->companyId, $code, $owner);
+            $cs->adopt($this->rivier->fresh(), $schemes[$code], $owner);
+        }
+        $farm = $this->rivier->fresh();
+        $mgr = $this->as('manager');
+        $answers = [
+            'globalgap-ifa-v6-smart-fv' => [['AF 01.02', 'compliant', 'Site risk assessment 2026 on file.'], ['AF 02.02', 'compliant', 'Internal self-assessment done in September.'],
+                ['AF 03.01', 'compliant', 'Hygiene risk assessment reviewed with the packhouse team.'], ['AF 07.01', 'non_compliant', 'Recall test not yet done this season: book a mock recall before the audit.'],
+                ['AF 05.01', 'not_applicable', 'No subcontracted field work this season.'], ['FV 06.07', 'compliant', 'Containers to Agrirecovery; slips filed.']],
+            'siza-social-environmental' => [['S 2.1', 'compliant', 'Contracts signed in Sepedi and English.'], ['S 2.3', 'non_compliant', 'Two packhouse weeks over 10 h overtime: roster fixed from November.'],
+                ['S 6.1', 'not_applicable', 'No worker housing on the farm.']],
+            'organic-za-eu' => [['ORG 1.1', 'non_compliant', 'Block O1 is conventional: organic conversion of block O3 started 2025.'], ['ORG 4.1', 'not_applicable', 'No new plantings this season.']],
+        ];
+        $n = 0;
+        foreach ($answers as $code => $rows) {
+            foreach ($rows as [$clause, $answer, $comment]) {
+                $cs->answer($farm, $schemes[$code], $clause, $answer, $comment, $mgr);
+                $n++;
+            }
+        }
+
+        return '3 checklists installed and adopted at Rivierplaas, '.$n.' control points answered';
+    }
+
+    /** An export load of lemons to Rotterdam, its consignment, the farm's codes and the generated pack. */
+    private function exportPack(): string
+    {
+        $disp = app(ProduceDispatches::class);
+        $ex = app(\App\Modules\Agri\Services\ExportDocuments::class);
+        $mgr = $this->as('manager');
+        $buyer = $this->party('Fruitmasters Rotterdam BV', 'customer', ['category' => 'produce_buyer', 'credit_terms_days' => 45, 'country' => 'NL',
+            'address' => 'Merwehaven, Vierhavensstraat 40, 3029 BE Rotterdam, Netherlands']);
+        $packed = ProduceLot::withoutGlobalScopes()->where('farm_id', $this->rivier->id)->where('kind', 'packed')->where('product', 'Lemons 15kg carton')->latest('id')->firstOrFail();
+        $qty = min(400, (float) $packed->fresh()->remaining - 1);
+        if ($qty <= 0) {
+            throw new \RuntimeException('No packed lemons left for an export load.');
+        }
+        $order = $disp->order($this->rivier, ['party_id' => $buyer->id, 'deliver_on' => today()->addDays(24)->toDateString(), 'customer_ref' => 'FM-RTM-26-0912', 'delivery_address' => 'Merwehaven, Rotterdam'],
+            [['product' => 'Lemons 15kg carton', 'grade' => 'Class 1', 'quantity' => $qty, 'unit' => 'carton', 'price' => 11.8]], $mgr);
+        $order->update(['currency' => 'EUR']);
+        $load = $disp->pick($order, [['order_line_id' => $order->lines()->first()->id, 'lot_id' => $packed->id, 'quantity' => $qty]], ['vehicle' => 'Reefer container MSKU 908812-3'], $this->as('supervisor'));
+        $contents = $load->packages()->with('contents')->get()->flatMap->contents;
+        $load = $disp->verifyLoad($load, $contents->mapWithKeys(fn ($c) => [$c->id => (float) $c->qty])->all(), 'ML-ZA 2208871', $this->as('manager'));
+        foreach ([['PUC', 'R4417', null], ['PHC', 'P1802', FarmStore::withoutGlobalScopes()->where('farm_id', $this->rivier->id)->where('kind', 'packhouse')->value('id')], ['FBO', 'N2290', null],
+            ['EXPORTER', 'E0915', null]] as [$kind, $code, $store]) {
+            $ex->saveCode($this->rivier, ['kind' => $kind, 'code' => $code, 'store_id' => $store, 'valid_until' => '2027-09-30', 'notes' => 'Demonstration code']);
+        }
+        $c = $ex->prepare($load, ['incoterm' => 'FOB', 'incoterm_place' => 'Durban', 'currency' => 'EUR', 'transport_mode' => 'sea', 'notify_party' => 'Fruitmasters Rotterdam BV, logistics desk, +31 10 000 0000',
+            'container_no' => 'MSKU9088123', 'vessel' => 'MSC Demonstration', 'voyage' => 'NW642R', 'carrier' => 'MSC', 'booking_ref' => 'MSC-DUR-778120',
+            'port_of_loading' => 'Durban (ZADUR)', 'port_of_discharge' => 'Rotterdam (NLRTM)', 'final_destination' => 'Rotterdam', 'departure_on' => today()->addDays(4)->toDateString(),
+            'arrival_on' => today()->addDays(24)->toDateString(), 'temperature_setpoint_c' => 7.5, 'temperature_min_c' => 7, 'temperature_max_c' => 8, 'ventilation' => '15 m³/h',
+            'inspection_point' => 'Durban Fresh Produce Terminal', 'inspection_on' => today()->addDays(2)->toDateString(), 'exporter_address' => 'Rivierplaas, Letsitele, Limpopo, South Africa',
+            'additional_declarations' => 'The fruit was produced in a place of production found free of Phyllosticta citricarpa (demonstration wording).'], $mgr);
+        $c->lines()->withoutGlobalScopes()->get()->each(fn ($l) => $l->update(['gross_kg' => round((float) $l->net_kg * 1.07, 2), 'pallets' => max(1, (int) ceil((float) $l->cartons / 80)),
+            'pallet_ids' => $l->pallet_ids ?: 'RV-P-0001..0005', 'puc' => 'R4417']));
+        $docs = $ex->generate($c->fresh(), null, $mgr);
+
+        return "load {$load->number} to Rotterdam, consignment {$c->reference}, ".count($docs).' documents in Document Management (ready to ship)';
     }
 }

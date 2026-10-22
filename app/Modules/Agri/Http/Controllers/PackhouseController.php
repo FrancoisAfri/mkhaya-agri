@@ -55,7 +55,8 @@ class PackhouseController extends AgriController
                 'humidity_min' => $s->humidity_min, 'humidity_max' => $s->humidity_max])->values(),
             'data' => $farm ? match ($tab) {
                 'lots' => ['lots' => ProduceLot::query()->where('farm_id', $farm->id)->when(! $request->boolean('all'), fn ($q) => $q->whereIn('status', ProduceLot::LIVE))
-                    ->orderByDesc('produced_on')->orderByDesc('id')->limit(300)->get()->map(fn ($l) => $this->post->lotRow($l) + ['store' => $storeName[$l->store_id] ?? null, 'stocked' => $l->isStocked()])],
+                    ->orderByDesc('produced_on')->orderByDesc('id')->limit(300)->get()->map(fn ($l) => $this->post->lotRow($l) + ['store' => $storeName[$l->store_id] ?? null, 'stocked' => $l->isStocked(),
+                        'residue' => app(\App\Modules\Agri\Services\ResidueControls::class)->summary($l)])],
                 'operations' => ['operations' => PackhouseOperation::query()->where('farm_id', $farm->id)->orderByDesc('performed_on')->orderByDesc('id')->limit(100)->get()
                     ->map(fn ($o) => $o->toArray() + ['loss_pct' => $o->input_quantity > 0 ? round($o->loss_quantity / $o->input_quantity * 100, 1) : null,
                         'production_order' => $o->production_order_id ? \App\Modules\Operations\Manufacturing\Models\ProductionOrder::query()->whereKey($o->production_order_id)
@@ -73,7 +74,14 @@ class PackhouseController extends AgriController
                             'unit' => $l->unit, 'price' => (float) $l->unit_price, 'dispatched' => $sent[$l->id] ?? 0,
                             'accepted' => (float) $l->qty_accepted, 'rejected' => (float) $l->qty_rejected])->values(),
                         'picks' => in_array($o->status, ['open', 'part_delivered'], true) ? $this->dispatches->pickList($o) : []]),
-                    'dispatches' => $this->dispatches->loads($farm),
+                    // Each load with its residue check for the market it goes to, and (an export) its document pack.
+                    'dispatches' => $this->dispatches->loads($farm)->map(function ($d) {
+                        $load = \App\Modules\Operations\WarehouseManagement\Models\FulfilmentOrder::query()->where('uuid', $d['id'])->first();
+                        $exports = app(\App\Modules\Agri\Services\ExportDocuments::class);
+
+                        return $d + ($load ? ['residue' => app(\App\Modules\Agri\Services\ResidueControls::class)->gate($load), 'export' => $exports->isExport($load),
+                            'export_refusal' => $exports->dispatchRefusal($load), 'export_url' => route('agri.exports.index')] : []);
+                    })->values(),
                     'warehouse' => ['orders' => '/warehouse/outbound/orders', 'shipments' => '/warehouse/outbound/shipments'],
                     'exceptions' => $this->dispatches->exceptions($farm),
                     'new_order' => route('finance.accounting.sales-orders')],
@@ -98,7 +106,8 @@ class PackhouseController extends AgriController
                 'recipes' => \App\Modules\Operations\Manufacturing\Models\Bom::query()->where('status', \App\Modules\Operations\Manufacturing\Models\Bom::APPROVED)
                     ->orderBy('name')->get(['uuid', 'name', 'revision'])->map(fn ($b) => ['value' => $b->uuid, 'title' => "{$b->name} (rev {$b->revision})"]),
             ],
-            'can' => ['packhouse' => $request->user()->can(R::MANAGE_PACKHOUSE), 'dispatch' => $request->user()->can(R::MANAGE_DISPATCH), 'recall' => $request->user()->can(R::MANAGE_RECALLS)],
+            'can' => ['packhouse' => $request->user()->can(R::MANAGE_PACKHOUSE), 'dispatch' => $request->user()->can(R::MANAGE_DISPATCH), 'recall' => $request->user()->can(R::MANAGE_RECALLS),
+                'override_residues' => $request->user()->can(R::OVERRIDE_RESIDUES)],
         ]);
     }
 

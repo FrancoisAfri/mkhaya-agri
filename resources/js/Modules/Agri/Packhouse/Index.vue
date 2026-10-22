@@ -2,6 +2,8 @@
 import { computed, ref } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
+import { useI18n } from 'vue-i18n'
+import ResidueChip from '../Residues/ResidueChip.vue'
 import PageErrors from '../Components/PageErrors.vue'
 import FormDialog, { type FormField } from '../Components/FormDialog.vue'
 import FarmFilter from '../Components/FarmFilter.vue'
@@ -29,6 +31,13 @@ const TABS = [
   { key: 'standards', title: 'Grading standards', icon: 'tabler-list-check' },
 ]
 const keep = { preserveScroll: true }
+const { t } = useI18n()
+const rk = (key: string, params?: Record<string, unknown>) => t(`agri.residues.${key}`, params ?? {})
+// A load the residue check stopped: an authorised person lets it go with a reason (kept on record).
+const overrideResidue = (d: any) => {
+  const reason = prompt(rk('override_prompt', { market: d.residue?.market ?? '' }))
+  if (reason) router.post(route('agri.residues.override', d.id), { reason }, keep)
+}
 const go = (tab: string, extra: Record<string, any> = {}) => router.get(route('agri.packhouse', tab), { farm: props.farm?.id, ...extra }, { preserveState: false })
 const dialog = ref<null | { kind: string; row?: any }>(null)
 const open = (kind: string, row: any = null) => { dialog.value = { kind, row } }
@@ -135,7 +144,8 @@ const saveStd = () => router.post(std.value.uuid ? route('agri.packhouse.standar
               <td class="text-end">{{ num(l.remaining) }} / {{ num(l.quantity) }} {{ l.unit }}<div v-if="l.unit_cost" class="text-caption">{{ money(l.unit_cost) }}/{{ l.unit }}</div></td>
               <td>{{ l.store ?? '—' }}<div class="text-caption">{{ [l.location, l.pallet_ref].filter(Boolean).join(' · ') }}</div></td>
               <td class="text-caption">{{ l.produced_on }}<template v-if="l.best_before"><br>best before {{ l.best_before }}</template></td>
-              <td><VChip size="x-small" :color="LOT_COLOR[l.status] ?? statusColor(l.status)">{{ human(l.status) }}</VChip></td>
+              <td><VChip size="x-small" :color="LOT_COLOR[l.status] ?? statusColor(l.status)">{{ human(l.status) }}</VChip>
+                <div v-if="l.residue" class="mt-1"><ResidueChip :status="l.residue.overall" :markets="l.residue.markets" /></div></td>
               <td class="text-end text-no-wrap">
                 <VBtn v-if="can.packhouse && ['available', 'quarantined'].includes(l.status)" size="x-small" variant="text" @click="open('move', l)">Move</VBtn>
                 <VBtn v-if="can.recall && l.status !== 'written_off'" size="x-small" variant="text" color="error" @click="open('recall', l)">Recall</VBtn>
@@ -225,10 +235,18 @@ const saveStd = () => router.post(std.value.uuid ? route('agri.packhouse.standar
               <td><div v-for="i in d.items" :key="i.id" class="text-caption">{{ i.lot }} × {{ num(i.quantity) }} {{ i.unit }}</div></td>
               <td class="text-caption">{{ d.vehicle }}<template v-if="d.seal_no"><br>seal {{ d.seal_no }}</template></td>
               <td><VChip size="x-small" :color="statusColor(d.status)">{{ human(d.status) }}</VChip>
-                <div v-if="d.shipment?.delivered_at" class="text-caption">{{ d.shipment.delivered_at }} · {{ d.shipment.received_by }}</div></td>
+                <div v-if="d.shipment?.delivered_at" class="text-caption">{{ d.shipment.delivered_at }} · {{ d.shipment.received_by }}</div>
+                <div v-if="d.residue?.market" class="mt-1"><span class="text-caption">{{ rk('for_market', { market: d.residue.market, country: d.residue.country }) }}</span>
+                  <VChip size="x-small" class="ms-1" :color="d.residue.blocks.length ? (d.residue.override ? 'warning' : 'error') : 'success'">
+                    {{ d.residue.blocks.length ? (d.residue.override ? rk('overridden') : rk('blocked')) : rk('clear') }}</VChip>
+                  <div v-for="(b, i) in (d.status === 'dispatched' || d.status === 'delivered' ? [] : d.residue.blocks)" :key="i" class="text-caption text-error">{{ b }}</div>
+                  <div v-if="d.residue.override" class="text-caption">{{ rk('override_by', { by: d.residue.override.by, at: d.residue.override.at, reason: d.residue.override.reason }) }}</div></div>
+                <div v-if="d.export" class="mt-1"><a :href="`${d.export_url}?farm=${farm?.id ?? ''}`" class="text-caption">{{ rk('export_pack') }}</a>
+                  <span v-if="d.export_refusal && !['dispatched', 'delivered'].includes(d.status)" class="text-caption text-error"> · {{ d.export_refusal }}</span></div></td>
               <td class="text-end text-no-wrap"><template v-if="can.dispatch">
                 <VBtn v-if="d.status === 'picking'" size="x-small" variant="tonal" @click="verify(d)">Count onto vehicle</VBtn>
                 <VBtn v-if="d.status === 'loaded'" size="x-small" color="primary" variant="tonal" @click="send(d)">Dispatch</VBtn>
+                <VBtn v-if="can.override_residues && ['picking', 'loaded'].includes(d.status) && d.residue?.blocks?.length && !d.residue?.override" size="x-small" color="warning" variant="text" @click="overrideResidue(d)">{{ rk('override') }}</VBtn>
                 <VBtn v-if="d.status === 'dispatched'" size="x-small" color="success" variant="tonal" @click="openDelivery(d)">Delivered</VBtn></template>
                 <a v-if="d.shipment?.has_pod" :href="`/warehouse/outbound/shipments/${d.shipment.id}/pod`" class="text-caption ms-2">POD</a></td></tr>
             <tr v-if="!data.dispatches?.length"><td colspan="6" class="text-center text-medium-emphasis py-4">No loads.</td></tr>

@@ -33,10 +33,25 @@ use RuntimeException;
  */
 class Dispatching
 {
+    /**
+     * Checks other modules make before goods leave — a farm's residue gate, its export document
+     * pack. Each answers why the order may not ship, or null; the first refusal stops the dispatch,
+     * whichever screen it was made from.
+     *
+     * @var array<string, callable(FulfilmentOrder): ?string>
+     */
+    private static array $guards = [];
+
     public function __construct(
         private readonly StockLedger $ledger,
         private readonly FulfilmentOrders $orders,
     ) {}
+
+    /** @param callable(FulfilmentOrder): ?string $guard */
+    public static function registerGuard(string $name, callable $guard): void
+    {
+        self::$guards[$name] = $guard;
+    }
 
     /** @param Collection<int,Package> $packages */
     public function dispatch(FulfilmentOrder $order, Collection $packages, array $attrs, User $user, ?UploadedFile $signature = null): Shipment
@@ -60,6 +75,11 @@ class Dispatching
         }
         if (($why = app(WarehouseQuality::class)->dispatchRefusal($order)) !== null) {
             throw new RuntimeException($why);
+        }
+        foreach (self::$guards as $guard) {
+            if (($why = $guard($order)) !== null) {
+                throw new RuntimeException($why);
+            }
         }
         if (($order->warehouse->policies['dispatch_requires_pack_check'] ?? true) && $order->packages()->where('status', 'OPEN')->exists()) {
             throw new RuntimeException('A package for this order is still open. Close or empty it before dispatching -- this warehouse checks the pack first.');

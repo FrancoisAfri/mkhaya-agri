@@ -37,7 +37,7 @@ class FarmDocuments
         'livestock_group' => DocumentRelations::LIVESTOCK_GROUP, 'animal' => DocumentRelations::ANIMAL, 'machine' => DocumentRelations::FARM_MACHINE];
 
     public const TYPES = ['title_deed', 'lease', 'water_use_licence', 'pesticide_registration', 'operator_certificate', 'veterinary_certificate',
-        'insurance', 'audit_report', 'certification', 'permit', 'contract', 'report', 'other'];
+        'insurance', 'audit_report', 'certification', 'permit', 'contract', 'report', 'export_document', 'other'];
 
     public function __construct(private readonly DocumentService $documents, private readonly ApprovalService $approvals) {}
 

@@ -56,7 +56,7 @@ class FarmCompliance
         };
     }
 
-    private static function machines(object $line): array
+    public static function machines(object $line): array
     {
         $farm = self::farmOfLine($line);
         if (! $farm) {
@@ -75,7 +75,7 @@ class FarmCompliance
         return self::byDate($first->inspection_expires_on, 'All '.$machines->count().' machine inspections current.');
     }
 
-    private static function chemicals(int $companyId): array
+    public static function chemicals(int $companyId): array
     {
         $chem = ChemicalProduct::withoutGlobalScopes()->where('company_id', $companyId)->whereNotNull('registration_expires_on')->orderBy('registration_expires_on')->first();
 
@@ -83,7 +83,7 @@ class FarmCompliance
             : ['status' => 'NON_COMPLIANT', 'detail' => 'No chemical registration dates on the register.'];
     }
 
-    private static function operators(object $line): array
+    public static function operators(object $line): array
     {
         $farm = self::farmOfLine($line);
         if (! $farm) {

@@ -113,6 +113,7 @@ class CropController extends AgriController
                     'rate_per_ha' => self::num($i->rate_per_ha), 'withholding_days' => $i->withholding_days,
                     'total_cost' => self::num($i->total_cost), 'status' => $i->status, 'reentry_hours' => $i->reentry_hours,
                     'correction_reason' => $i->correction_reason, 'corrects' => (bool) $i->reversal_of_id,
+                    'residue_warnings' => $i->stockItem ? app(\App\Modules\Agri\Services\ResidueControls::class)->sprayWarnings($a, $i->stockItem) : [],
                 ]),
             ]),
             'harvests' => $plan->harvests()->orderBy('harvested_on')->get()->map(fn (HarvestRecord $h) => [
@@ -236,8 +237,12 @@ class CropController extends AgriController
         ]);
         $item = FinStockItem::query()->findOrFail($data['stock_item_id']);
         $this->work->addInput($activity, $item, $data);
+        // Spray time: an active banned (or restricted) in a market this crop is grown for is warned about here;
+        // the dispatch gate is what stops the produce going there.
+        $warnings = app(\App\Modules\Agri\Services\ResidueControls::class)->sprayWarnings($activity, $item);
 
-        return back()->with('success', "{$item->name} added to the activity. It is issued from the farm store when the work is completed.");
+        return back()->with('success', "{$item->name} added to the activity. It is issued from the farm store when the work is completed.")
+            ->with('warning', $warnings ? implode(' ', $warnings) : null);
     }
 
     public function destroyInput(Request $request, FieldActivity $activity, ActivityInput $input): RedirectResponse
@@ -271,8 +276,11 @@ class CropController extends AgriController
             'cancel' => $this->work->cancel($activity),
         };
 
+        $warnings = $data['action'] === 'complete' ? app(\App\Modules\Agri\Services\ResidueControls::class)->activityWarnings($activity) : [];
+
         return back()->with('success', $data['action'] === 'complete'
-            ? 'Activity completed; its inputs were issued from the farm store.' : 'Activity updated.');
+            ? 'Activity completed; its inputs were issued from the farm store.' : 'Activity updated.')
+            ->with('warning', $warnings ? implode(' ', $warnings) : null);
     }
 
     // ── Observations and harvests ────────────────────────────────────────────────────────────

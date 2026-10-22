@@ -40,6 +40,7 @@ class CropPlan extends FarmOwnedModel
         'expected_price' => 'decimal:2',
         'planned_planting_on' => 'date', 'planned_harvest_on' => 'date', 'planted_on' => 'date',
         'harvest_completed_on' => 'date', 'approved_at' => \App\Modules\Agri\Casts\FarmDateTime::class,
+        'target_markets' => 'array',   // the markets the crop is grown for (residue and banned-active checks)
     ];
 
     public function season(): BelongsTo

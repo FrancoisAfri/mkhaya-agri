@@ -341,6 +341,13 @@ class AppServiceProvider extends ServiceProvider
                     'fields' => $f->fields->map(fn ($x) => ['id' => $x->uuid, 'code' => $x->code, 'name' => $x->name, 'hectares' => $x->hectares()])->values()])->values()->all(),
         ]);
         \App\Modules\Agri\Services\FarmCompliance::registerEvidence();
+        // Certification checklists: control points the farm's own records evidence (spray records, PHI, residues…).
+        \App\Modules\Agri\Services\CertificationEvidence::register();
+        // Before a farm load ships: the residue/MRL gate for its market, and an export load's document pack.
+        \App\Modules\Operations\WarehouseManagement\Services\Dispatching::registerGuard('agri_residues',
+            fn ($order) => app(\App\Modules\Agri\Services\ResidueControls::class)->dispatchRefusal($order));
+        \App\Modules\Operations\WarehouseManagement\Services\Dispatching::registerGuard('agri_export_pack',
+            fn ($order) => app(\App\Modules\Agri\Services\ExportDocuments::class)->dispatchRefusal($order));
         // Insights: the farm's reports can be sent on a schedule from Farm Operations › Insights.
         foreach (\App\Modules\Agri\Http\Controllers\AgriReportController::REPORTS as $key => [$title, $description, $ability]) {
             \App\Shared\Insights\ReportCatalog::register("agri:{$key}", $title, $description, 'agri', [\App\Modules\Agri\Support\RoleCatalog::VIEW_REPORTS, $ability],

@@ -13,7 +13,8 @@ class ProduceLot extends FarmOwnedModel
 
     protected $table = 'produce_lots';
 
-    protected $casts = ['quantity' => 'float', 'remaining' => 'float', 'unit_cost' => 'float', 'produced_on' => 'date', 'best_before' => 'date'];
+    protected $casts = ['quantity' => 'float', 'remaining' => 'float', 'unit_cost' => 'float', 'produced_on' => 'date', 'best_before' => 'date',
+        'target_markets' => 'array'];   // the markets the lot is for; none named: its crop plan's, else the organisation's default markets
 
     public function isStocked(): bool
     {

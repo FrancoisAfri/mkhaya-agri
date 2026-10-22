@@ -33,6 +33,9 @@ use App\Modules\Agri\Http\Controllers\SatelliteController;
 use App\Modules\Agri\Http\Controllers\BenchmarkController;
 use App\Modules\Agri\Http\Controllers\TraceController;
 use App\Modules\Agri\Http\Controllers\CarbonController;
+use App\Modules\Agri\Http\Controllers\CertificationController;
+use App\Modules\Agri\Http\Controllers\ExportController;
+use App\Modules\Agri\Http\Controllers\ResidueController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -208,6 +211,35 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::get('/carbon/documents/{document}', [CarbonController::class, 'downloadDocument'])->name('carbon.documents.show');
         Route::post('/carbon/registrations/{registration}/exports', [CarbonController::class, 'export'])->name('carbon.exports.store');
         Route::get('/carbon/exports/{export}', [CarbonController::class, 'downloadExport'])->name('carbon.exports.show');
+
+        // Residues and MRLs (dispatch gate), certification checklists with the farm's self-assessment, export document packs.
+        Route::get('/residues', [ResidueController::class, 'index'])->name('residues.home');
+        Route::get('/residues/{tab}', [ResidueController::class, 'index'])->whereIn('tab', ResidueController::TABS)->name('residues');
+        Route::post('/residues/tests', [ResidueController::class, 'storeTest'])->name('residues.tests.store');
+        Route::get('/residues/tests/{test}/certificate', [ResidueController::class, 'certificate'])->name('residues.tests.certificate');
+        Route::post('/residues/lots/{lot}/markets', [ResidueController::class, 'lotMarkets'])->name('residues.lots.markets');
+        Route::post('/residues/plans/{plan}/markets', [ResidueController::class, 'planMarkets'])->name('residues.plans.markets');
+        Route::post('/residues/limits', [ResidueController::class, 'saveLimit'])->name('residues.limits.store');
+        Route::patch('/residues/limits/{limit}', [ResidueController::class, 'saveLimit'])->name('residues.limits.update');
+        Route::delete('/residues/limits/{limit}', [ResidueController::class, 'deleteLimit'])->name('residues.limits.destroy');
+        Route::post('/residues/starter-set', [ResidueController::class, 'starter'])->name('residues.starter');
+        Route::post('/residues/import', [ResidueController::class, 'import'])->name('residues.import');
+        Route::post('/residues/restrictions', [ResidueController::class, 'saveRestriction'])->name('residues.restrictions.store');
+        Route::delete('/residues/restrictions/{restriction}', [ResidueController::class, 'deleteRestriction'])->name('residues.restrictions.destroy');
+        Route::post('/residues/markets', [ResidueController::class, 'saveMarket'])->name('residues.markets.store');
+        Route::patch('/residues/markets/{market}', [ResidueController::class, 'saveMarket'])->name('residues.markets.update');
+        Route::post('/residues/dispatches/{dispatch}/override', [ResidueController::class, 'override'])->whereUuid('dispatch')->name('residues.override');
+        Route::get('/certification', [CertificationController::class, 'index'])->name('certification.index');
+        Route::post('/certification/install', [CertificationController::class, 'install'])->name('certification.install');
+        Route::post('/certification/farms/{farm}/adopt', [CertificationController::class, 'adopt'])->name('certification.adopt');
+        Route::post('/certification/farms/{farm}/answers', [CertificationController::class, 'answer'])->name('certification.answer');
+        Route::get('/certification/farms/{farm}/pdf', [CertificationController::class, 'pdf'])->name('certification.pdf');
+        Route::get('/exports', [ExportController::class, 'index'])->name('exports.index');
+        Route::post('/exports/dispatches/{dispatch}', [ExportController::class, 'save'])->whereUuid('dispatch')->name('exports.save');
+        Route::post('/exports/consignments/{consignment}/lines', [ExportController::class, 'lines'])->name('exports.lines');
+        Route::post('/exports/consignments/{consignment}/generate', [ExportController::class, 'generate'])->name('exports.generate');
+        Route::post('/exports/farms/{farm}/codes', [ExportController::class, 'saveCode'])->name('exports.codes.store');
+        Route::delete('/exports/codes/{code}', [ExportController::class, 'deleteCode'])->name('exports.codes.destroy');
 
         // Phase 2 §16: the farm map, crop imagery, the decision simulator.
         Route::get('/twin', [TwinController::class, 'index'])->name('twin.home');

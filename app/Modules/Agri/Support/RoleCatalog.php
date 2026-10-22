@@ -186,6 +186,16 @@ final class RoleCatalog
     /** Verify that a treated animal or group may be sold (a residue test, a vet's release). */
     public const RELEASE_HEALTH = 'agri.health.release';
 
+    // ── Residues, certification and export documents ─────────────────────────────────────────
+    /** The MRL register (markets, limits, banned actives, CSV import) and laboratory residue results. */
+    public const MANAGE_RESIDUES = 'agri.residue.manage';
+
+    /** Letting a load the residue check stopped go anyway, with a reason (audited). */
+    public const OVERRIDE_RESIDUES = 'agri.residue.override';
+
+    /** Export consignments, exporter registration codes and generating the export document pack. */
+    public const MANAGE_EXPORTS = 'agri.export.manage';
+
     /** @return list<string> */
     public static function all(): array
     {
@@ -208,6 +218,7 @@ final class RoleCatalog
             self::APPROVE_PIECEWORK, self::PAYROLL_HANDOFF, self::MANAGE_LABOUR_RULES,
             self::VIEW_WORK_ORDERS, self::MANAGE_WORK_ORDERS, self::APPROVE_WORK_ORDERS, self::VERIFY_WORK_ORDERS,
             self::REVIEW_DIAGNOSIS, self::VIEW_HEALTH, self::RELEASE_HEALTH,
+            self::MANAGE_RESIDUES, self::OVERRIDE_RESIDUES, self::MANAGE_EXPORTS,
         ];
     }
 
@@ -250,10 +261,10 @@ final class RoleCatalog
                 self::RECORD_ACTIVITIES, self::RECORD_HARVEST, self::RECORD_HEALTH, self::VIEW_HEALTH, self::VIEW_WORK_ORDERS],
             'Farm Finance Officer' => [...$view, self::VIEW_FINANCE, self::MANAGE_FINANCE, self::APPROVE_BUDGETS, self::RECEIVE_STOCK, self::USE_ASSISTANT,
                 self::PAYROLL_HANDOFF],
-            'Farm Sales Officer' => [...$view, self::VIEW_SALES, self::MANAGE_SALES, self::MANAGE_DISPATCH, self::VIEW_FINANCE],
-            'Packhouse Supervisor' => [...$view, self::MANAGE_PACKHOUSE, self::MANAGE_DISPATCH, self::RECORD_HARVEST, self::ISSUE_STOCK],
+            'Farm Sales Officer' => [...$view, self::VIEW_SALES, self::MANAGE_SALES, self::MANAGE_DISPATCH, self::VIEW_FINANCE, self::MANAGE_EXPORTS],
+            'Packhouse Supervisor' => [...$view, self::MANAGE_PACKHOUSE, self::MANAGE_DISPATCH, self::RECORD_HARVEST, self::ISSUE_STOCK, self::MANAGE_EXPORTS, self::MANAGE_RESIDUES],
             'Farm Workshop Technician' => [...$view, self::MANAGE_MACHINERY, self::RECORD_ACTIVITIES, self::ISSUE_STOCK, self::ISSUE_FUEL],
-            'Farm Agronomist' => [...$view, self::PLAN_CROPS, self::RECORD_ACTIVITIES, self::REVIEW_DIAGNOSIS, self::USE_ASSISTANT, self::MANAGE_REFERENCES, self::MANAGE_WEATHER],
+            'Farm Agronomist' => [...$view, self::PLAN_CROPS, self::RECORD_ACTIVITIES, self::REVIEW_DIAGNOSIS, self::USE_ASSISTANT, self::MANAGE_REFERENCES, self::MANAGE_WEATHER, self::MANAGE_RESIDUES],
             'Farm Viewer' => $view,
         ];
     }
