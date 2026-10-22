@@ -32,6 +32,10 @@ use App\Modules\Agri\Services\HarvestPlanning;
 use App\Modules\Agri\Services\InputPlanning;
 use App\Modules\Agri\Services\Irrigation;
 use App\Modules\Agri\Services\Scouting;
+use App\Modules\Agri\Services\WaterBalance;
+use App\Modules\Agri\Models\CropCoefficient;
+use App\Modules\Agri\Models\IrrigationRecommendation;
+use App\Modules\Agri\Models\Farm;
 use App\Modules\Agri\Support\RoleCatalog as R;
 use App\Modules\Finance\Accounting\Models\FinStockItem;
 use Illuminate\Http\JsonResponse;
@@ -362,6 +366,51 @@ class PrecisionCropController extends AgriController
         return back()->with('success', 'Resolved.');
     }
 
+    // ── Irrigation scheduling from evapotranspiration ─────────────────────────────────────────
+
+    public function planRecommendation(Request $request, IrrigationRecommendation $recommendation, WaterBalance $balance): RedirectResponse
+    {
+        $this->allow($request, R::RECORD_ACTIVITIES);
+        $this->assertWritable($request, $recommendation->farm_id);
+        $data = $request->validate(['planned_start' => ['nullable', 'date']]);
+        $balance->plan($recommendation, $request->user(), $data['planned_start'] ?? null);
+
+        return back()->with('success', 'Irrigation planned from the water balance.');
+    }
+
+    public function dismissRecommendation(Request $request, IrrigationRecommendation $recommendation, WaterBalance $balance): RedirectResponse
+    {
+        $this->allow($request, R::RECORD_ACTIVITIES);
+        $this->assertWritable($request, $recommendation->farm_id);
+        $balance->dismiss($recommendation, $request->user());
+
+        return back()->with('success', 'Recommendation dismissed.');
+    }
+
+    public function saveCoefficient(Request $request, CropCoefficient $coefficient, WaterBalance $balance): RedirectResponse
+    {
+        $this->allow($request, R::PLAN_CROPS);
+        $data = $request->validate(['kc_ini' => ['required', 'numeric', 'between:0.05,2'], 'kc_mid' => ['required', 'numeric', 'between:0.05,2'], 'kc_end' => ['required', 'numeric', 'between:0.05,2'],
+            'stage_ini_pct' => ['required', 'integer', 'between:0,100'], 'stage_dev_pct' => ['required', 'integer', 'between:0,100'], 'stage_mid_pct' => ['required', 'integer', 'between:0,100'],
+            'stage_late_pct' => ['required', 'integer', 'between:0,100'], 'root_depth_m' => ['required', 'numeric', 'between:0.1,5'], 'depletion_p' => ['required', 'numeric', 'between:0.1,0.9'],
+            'source' => ['nullable', 'string', 'max:200']]);
+        $balance->saveCoefficient($coefficient, $data, $request->user());
+        foreach (Farm::query()->operational()->get() as $farm) {
+            \Illuminate\Support\Facades\Cache::forget("agri_water_balance:{$farm->id}");
+        }
+
+        return back()->with('success', 'Crop coefficients saved; the water balance is worked out again.');
+    }
+
+    public function refreshBalance(Request $request, WaterBalance $balance): RedirectResponse
+    {
+        $this->allow($request, R::VIEW_CROPS);
+        $farm = $this->farm($request->validate(['farm_id' => ['required', 'string']])['farm_id']);
+        $r = $balance->computeFarm($farm);
+
+        return back()->with('success', "Water balance worked out for {$r['scopes']} zone(s); {$r['recommendations']} irrigation(s) recommended this week.");
+    }
+
     // ── §3.5 harvest ──────────────────────────────────────────────────────────────────────────
 
     public function forecast(Request $request, CropPlan $plan, HarvestPlanning $harvest): RedirectResponse
@@ -445,6 +494,15 @@ class PrecisionCropController extends AgriController
 
     private function irrigationData($farm): array
     {
+        $balance = app(WaterBalance::class);
+        foreach ($farm ? [$farm] : Farm::query()->operational()->get() as $f) {
+            try {
+                $balance->computeIfStale($f);
+            } catch (\Throwable $e) {
+                report($e);    // the screen still shows what was recorded
+            }
+        }
+
         $zones = IrrigationZone::query()->when($farm, fn ($q) => $q->where('farm_id', $farm->id))->with('field')->orderBy('code')->get();
         $events = IrrigationEvent::query()->when($farm, fn ($q) => $q->where('farm_id', $farm->id))
             ->where(fn ($q) => $q->where('status', 'planned')->orWhere('actual_start', '>=', now()->subDays(30)))->with('zone')->orderByDesc('planned_start')->limit(200)->get();
@@ -467,6 +525,7 @@ class PrecisionCropController extends AgriController
             'exceptions' => IrrigationException::query()->when($farm, fn ($q) => $q->where('farm_id', $farm->id))->whereNull('resolved_at')->orderByDesc('id')->get()
                 ->map(fn ($x) => ['id' => $x->uuid, 'kind' => $x->kind, 'note' => $x->note, 'field' => $x->field_id ? FarmField::query()->whereKey($x->field_id)->value('code') : null,
                     'at' => $x->created_at->format('Y-m-d H:i')]),
+            'balance' => $balance->screen($farm),
             'pumps' => FarmMachine::query()->when($farm, fn ($q) => $q->where('farm_id', $farm->id))->whereIn('vehicle_type', ['pump', 'irrigation'])
                 ->get(['uuid', 'code', 'name', 'farm_id'])->map(fn ($m) => ['id' => $m->uuid, 'name' => "{$m->code} {$m->name}"]),
         ];

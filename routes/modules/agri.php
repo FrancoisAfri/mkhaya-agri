@@ -30,6 +30,9 @@ use App\Modules\Agri\Http\Controllers\FarmController;
 use App\Modules\Agri\Http\Controllers\FarmSetupController;
 use App\Modules\Agri\Http\Controllers\FieldMapController;
 use App\Modules\Agri\Http\Controllers\SatelliteController;
+use App\Modules\Agri\Http\Controllers\BenchmarkController;
+use App\Modules\Agri\Http\Controllers\TraceController;
+use App\Modules\Agri\Http\Controllers\CarbonController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -179,7 +182,32 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::get('/crop-health/settings', [SatelliteController::class, 'settings'])->name('satellite.settings');
         Route::put('/crop-health/settings/{provider}', [SatelliteController::class, 'save'])->name('satellite.settings.save');
         Route::post('/crop-health/settings/{provider}/check', [SatelliteController::class, 'check'])->name('satellite.settings.check');
+        Route::post('/crop-health/drop-rules', [SatelliteController::class, 'saveDropRule'])->name('satellite.drop-rules.store');
+        Route::patch('/crop-health/drop-rules/{rule}', [SatelliteController::class, 'saveDropRule'])->name('satellite.drop-rules.update');
+        Route::delete('/crop-health/drop-rules/{rule}', [SatelliteController::class, 'deleteDropRule'])->name('satellite.drop-rules.destroy');
         Route::get('/farms/{farm}/ndvi', [SatelliteController::class, 'farmLayers'])->name('farms.ndvi');
+
+        // Peer benchmarks (opt-in, anonymised), consumer trace tokens and labels, carbon registry tracking.
+        Route::get('/benchmarks', [BenchmarkController::class, 'index'])->name('benchmarks.index');
+        Route::post('/benchmarks/opt-in', [BenchmarkController::class, 'optIn'])->name('benchmarks.opt-in');
+        Route::get('/trace', [TraceController::class, 'index'])->name('trace.index');
+        Route::post('/trace/settings', [TraceController::class, 'settings'])->name('trace.settings');
+        Route::post('/trace/lots/{lot}', [TraceController::class, 'issue'])->name('trace.issue');
+        Route::patch('/trace/tokens/{token}', [TraceController::class, 'update'])->name('trace.update');
+        Route::post('/trace/tokens/{token}/revoke', [TraceController::class, 'revoke'])->name('trace.revoke');
+        Route::get('/trace/labels', [TraceController::class, 'labels'])->name('trace.labels');
+        Route::get('/carbon', [CarbonController::class, 'index'])->name('carbon.index');
+        Route::post('/carbon/projects/{record}/register', [CarbonController::class, 'register'])->name('carbon.register');
+        Route::patch('/carbon/registrations/{registration}', [CarbonController::class, 'update'])->name('carbon.update');
+        Route::post('/carbon/registrations/{registration}/periods', [CarbonController::class, 'period'])->name('carbon.periods.store');
+        Route::patch('/carbon/periods/{period}', [CarbonController::class, 'updatePeriod'])->name('carbon.periods.update');
+        Route::post('/carbon/periods/{period}/monitoring', [CarbonController::class, 'monitoring'])->name('carbon.monitoring.store');
+        Route::post('/carbon/registrations/{registration}/issuances', [CarbonController::class, 'issuance'])->name('carbon.issuances.store');
+        Route::post('/carbon/issuances/{issuance}/transactions', [CarbonController::class, 'transaction'])->name('carbon.transactions.store');
+        Route::post('/carbon/registrations/{registration}/documents', [CarbonController::class, 'document'])->name('carbon.documents.store');
+        Route::get('/carbon/documents/{document}', [CarbonController::class, 'downloadDocument'])->name('carbon.documents.show');
+        Route::post('/carbon/registrations/{registration}/exports', [CarbonController::class, 'export'])->name('carbon.exports.store');
+        Route::get('/carbon/exports/{export}', [CarbonController::class, 'downloadExport'])->name('carbon.exports.show');
 
         // Phase 2 §16: the farm map, crop imagery, the decision simulator.
         Route::get('/twin', [TwinController::class, 'index'])->name('twin.home');
@@ -341,6 +369,10 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/crops/irrigation/moisture', [PrecisionCropController::class, 'moisture'])->name('crops.moisture.store');
         Route::post('/crops/irrigation/problems', [PrecisionCropController::class, 'irrigationProblem'])->name('crops.irrigation-problems.store');
         Route::post('/crops/irrigation/problems/{exception}/resolve', [PrecisionCropController::class, 'resolveIrrigationProblem'])->name('crops.irrigation-problems.resolve');
+        Route::post('/crops/irrigation/recommendations/{recommendation}/plan', [PrecisionCropController::class, 'planRecommendation'])->name('crops.irrigation-recommendations.plan');
+        Route::post('/crops/irrigation/recommendations/{recommendation}/dismiss', [PrecisionCropController::class, 'dismissRecommendation'])->name('crops.irrigation-recommendations.dismiss');
+        Route::patch('/crops/irrigation/coefficients/{coefficient}', [PrecisionCropController::class, 'saveCoefficient'])->name('crops.coefficients.update');
+        Route::post('/crops/irrigation/balance', [PrecisionCropController::class, 'refreshBalance'])->name('crops.irrigation-balance.refresh');
         Route::post('/crops/plans/{plan}/forecasts', [PrecisionCropController::class, 'forecast'])->name('crops.forecasts.store');
         Route::post('/crops/commitments', [PrecisionCropController::class, 'commit'])->name('crops.commitments.store');
         Route::post('/crops/commitments/{commitment}/deliver', [PrecisionCropController::class, 'deliver'])->name('crops.commitments.deliver');

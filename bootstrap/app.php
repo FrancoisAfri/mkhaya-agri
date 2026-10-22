@@ -149,6 +149,8 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Agri\Console\RecordAgriPredictions::class,
         \App\Modules\Agri\Console\FetchAgriWeather::class,
         \App\Modules\Agri\Console\FetchSatelliteImagery::class,
+        \App\Modules\Agri\Console\ComputeWaterBalance::class,
+        \App\Modules\Agri\Console\ComputePeerBenchmarks::class,
         \App\Modules\Agri\Console\RetryAgriIntegrations::class,
         \App\Modules\Agri\Console\AgriIntegrity::class,
         \App\Modules\Agri\Console\AgriReleaseGates::class,
@@ -521,6 +523,15 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->command(\App\Modules\Agri\Console\FetchSatelliteImagery::class)
             ->dailyAt('05:20')->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/agri-satellite.log'));
+        // Irrigation scheduling: each zone's soil-water balance from ET0 and the week's recommendations,
+        // before the alert scan raises "irrigation due".
+        $schedule->command(\App\Modules\Agri\Console\ComputeWaterBalance::class)
+            ->dailyAt('04:15')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-water-balance.log'));
+        // Peer benchmarks: opted-in organisations' yields and costs, aggregated (k-anonymous) once a week.
+        $schedule->command(\App\Modules\Agri\Console\ComputePeerBenchmarks::class)
+            ->weeklyOn(0, '03:30')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-benchmarks.log'));
         // Phase 2 §14: failed integration messages retried with back-off.
         $schedule->command(\App\Modules\Agri\Console\RetryAgriIntegrations::class)
             ->everyFifteenMinutes()->withoutOverlapping()->onOneServer()

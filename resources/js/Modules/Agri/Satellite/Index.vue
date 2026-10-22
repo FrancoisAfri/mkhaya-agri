@@ -146,7 +146,7 @@ const sparkPath = (s: number[]) => {
                     <tr v-for="p in [...series.points].reverse().slice(0, 8)" :key="p.id">
                       <td>{{ p.date }}</td><td class="text-end">{{ num(p.mean, 3) }}</td>
                       <td class="text-end">{{ p.cloud_pct === null ? '—' : `${num(p.cloud_pct, 0)}%` }}</td>
-                      <td class="text-end" :class="changeColour(p.change_pct) ? `text-${changeColour(p.change_pct)}` : ''">{{ pct(p.change_pct) }}</td>
+                      <td class="text-end" :class="changeColour(p.change_pct) ? `text-${changeColour(p.change_pct)}` : ''">{{ pct(p.change_pct) }}<VIcon v-if="p.suppressed" icon="tabler-info-circle" size="14" class="ms-1" color="info" :title="p.suppressed" /></td>
                     </tr>
                   </tbody>
                 </VTable>

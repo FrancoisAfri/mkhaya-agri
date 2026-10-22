@@ -4,15 +4,18 @@
  * stored secret is never sent back, a blank field keeps it), cloud limit, daily request budget,
  * how far back a first fetch reaches, and a connection check per provider.
  */
-import { reactive } from 'vue'
+import { reactive, ref } from 'vue'
 import { Link, router } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
 import { useI18n } from 'vue-i18n'
 import PageErrors from '../Components/PageErrors.vue'
+import FormDialog, { type FormField } from '../Components/FormDialog.vue'
 
 type Settings = { max_cloud_pct: number; daily_budget: number; lookback_days: number; require_plan: boolean; zone_stats: boolean; images: boolean }
 type Provider = { key: string; name: string; source: string; active: boolean; configured: boolean; has: Record<string, boolean>; client_id_hint: string | null; settings: Settings; last_test: null | { at: string; ok: boolean | null; message: string | null } }
-const props = defineProps<{ providers: Provider[]; usage: null | { used: number; budget: number } }>()
+type DropRule = { id?: string; crop_type_id: number | null; crop?: string | null; category?: string | null; activity_types: string[]; after_harvest: boolean; within_days: number; is_active?: boolean; note: string | null }
+const props = defineProps<{ providers: Provider[]; usage: null | { used: number; budget: number }; drop_rules: DropRule[]; default_drop_rules: DropRule[];
+  crop_types: Array<{ id: number; name: string }>; activity_types: string[]; can_rules: boolean }>()
 
 const { t } = useI18n()
 const k = (key: string, params?: Record<string, unknown>) => t(`agri.satellite.${key}`, params ?? {})
@@ -34,6 +37,15 @@ function save(p: Provider) {
 function check(p: Provider) {
   router.post(route('agri.satellite.settings.check', p.key), {}, { preserveScroll: true })
 }
+const d = (key: string, params?: Record<string, unknown>) => t(`agri.drop_rules.${key}`, params ?? {})
+const ruleDialog = ref<null | { row: DropRule | null }>(null)
+const ruleFields: FormField[] = [
+  { key: 'crop_type_id', label: d('crop'), type: 'select', items: [{ title: d('any_crop'), value: null }, ...props.crop_types.map(c => ({ title: c.name, value: c.id }))] },
+  { key: 'activity_types', label: d('activities'), type: 'multiselect', items: props.activity_types.map(a => ({ title: d(`activity_${a}`), value: a })) },
+  { key: 'within_days', label: d('within_days'), type: 'number', required: true, cols: 6 }, { key: 'after_harvest', label: d('after_harvest'), type: 'switch', cols: 6 },
+  { key: 'is_active', label: d('active'), type: 'switch', cols: 6 }, { key: 'note', label: d('note'), cols: 12 },
+]
+const removeRule = (r: DropRule) => { if (r.id && confirm(d('confirm_remove'))) router.delete(route('agri.satellite.drop-rules.destroy', r.id), { preserveScroll: true }) }
 const SIGNUP: Record<string, string> = { copernicus: 'https://dataspace.copernicus.eu', agromonitoring: 'https://agromonitoring.com' }
 </script>
 
@@ -88,5 +100,30 @@ const SIGNUP: Record<string, string> = { copernicus: 'https://dataspace.copernic
         </VCard>
       </VCol>
     </VRow>
+
+    <VCard class="mt-6" :title="d('title')" :subtitle="d('subtitle')">
+      <VCardText>
+        <VTable density="compact">
+          <thead><tr><th>{{ d('crop') }}</th><th>{{ d('activities') }}</th><th>{{ d('within_days') }}</th><th>{{ d('note') }}</th><th /></tr></thead>
+          <tbody>
+            <tr v-for="(r, i) in (drop_rules.length ? drop_rules : default_drop_rules)" :key="r.id ?? `default-${i}`" :class="r.is_active === false ? 'text-disabled' : ''">
+              <td>{{ r.crop ?? (r.category ? d(`category_${r.category}`) : d('any_crop')) }}</td>
+              <td>{{ [...r.activity_types.map(a => d(`activity_${a}`)), ...(r.after_harvest ? [d('a_harvest')] : [])].join(', ') }}</td>
+              <td>{{ d('days', { n: r.within_days }) }}</td>
+              <td class="text-caption">{{ r.note }}</td>
+              <td class="text-end text-no-wrap"><template v-if="can_rules && r.id">
+                <VBtn size="x-small" variant="tonal" @click="ruleDialog = { row: r }">{{ d('edit') }}</VBtn>
+                <VBtn size="x-small" variant="text" color="error" @click="removeRule(r)">{{ d('remove') }}</VBtn></template></td>
+            </tr>
+          </tbody>
+        </VTable>
+        <p v-if="!drop_rules.length" class="text-caption text-medium-emphasis mt-2 mb-0">{{ d('using_defaults') }}</p>
+      </VCardText>
+      <VCardActions v-if="can_rules"><VBtn variant="tonal" prepend-icon="tabler-plus" @click="ruleDialog = { row: null }">{{ d('add') }}</VBtn></VCardActions>
+    </VCard>
+    <FormDialog v-if="ruleDialog" :model-value="true" :title="ruleDialog.row ? d('edit') : d('add')" :method="ruleDialog.row ? 'patch' : 'post'"
+      :url="ruleDialog.row?.id ? route('agri.satellite.drop-rules.update', ruleDialog.row.id) : route('agri.satellite.drop-rules.store')" :fields="ruleFields"
+      :values="ruleDialog.row ? { ...ruleDialog.row } : { crop_type_id: null, activity_types: ['mowing', 'harvesting'], after_harvest: true, within_days: 21, is_active: true }"
+      @update:model-value="(v: boolean) => { if (!v) ruleDialog = null }" />
   </div>
 </template>

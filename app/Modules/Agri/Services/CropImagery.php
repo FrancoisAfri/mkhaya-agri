@@ -46,6 +46,7 @@ class CropImagery
                     'max' => $data['max'] ?? null, 'cloud_pct' => $data['cloud_pct'] ?? null, 'cells' => $data['cells'] ?? null, 'image_mime' => $data['image_mime'] ?? null,
                     'image_data' => $data['image_data'] ?? null, 'change_pct' => $change, 'recorded_by' => $actor?->id]);
             $flag = null;
+            $suppressed = null;
             if ($prev && ($data['flag'] ?? true) && (float) ($data['cloud_pct'] ?? 0) <= self::MAX_CLOUD) {
                 $prevCells = collect($prev->cells ?? [])->keyBy('id');
                 $dropped = collect($data['cells'] ?? [])->filter(function ($c) use ($prevCells) {
@@ -53,7 +54,12 @@ class CropImagery
 
                     return $before > 0 && ((float) $c['value'] - $before) / $before * 100 <= -self::DROP_PCT;
                 })->values();
-                if (($change !== null && $change <= -self::DROP_PCT) || $dropped->isNotEmpty()) {
+                $drop = ($change !== null && $change <= -self::DROP_PCT) || $dropped->isNotEmpty();
+                // A cut, mowing or harvest just before the capture explains the drop: no flag, but say why.
+                if ($drop && ($suppressed = $this->expectedDrop($field, $plan, \Illuminate\Support\Carbon::parse($data['captured_on'])))) {
+                    $drop = false;
+                }
+                if ($drop) {
                     $why = $change !== null && $change <= -self::DROP_PCT
                         ? strtoupper($data['index'])." fell {$change}% across {$field->code} since {$prev->captured_on->toDateString()}"
                         : $dropped->count().' zone(s) of '.$field->code.' fell more than '.self::DROP_PCT.'% since '.$prev->captured_on->toDateString();
@@ -67,8 +73,67 @@ class CropImagery
                 }
             }
 
-            return ['imagery' => $img, 'flag' => $flag, 'change_pct' => $change];
+            if ($img->flag_suppressed !== $suppressed) {
+                $img->forceFill(['flag_suppressed' => $suppressed])->save();
+            }
+
+            return ['imagery' => $img, 'flag' => $flag, 'change_pct' => $change, 'suppressed' => $suppressed];
         });
+    }
+
+    /**
+     * Built-in "expected drop" rules, used while an organisation has written none of its own: fodder
+     * (lucerne, oats, teff) and pasture after a cut or mowing, and any crop after it is harvested.
+     *
+     * @return list<array{crop_type_id: ?int, category: ?string, activity_types: list<string>, after_harvest: bool, within_days: int, note: string}>
+     */
+    public static function defaultDropRules(): array
+    {
+        return [
+            ['crop_type_id' => null, 'category' => 'fodder', 'activity_types' => ['mowing', 'harvesting'], 'after_harvest' => true, 'within_days' => 28,
+                'note' => 'Fodder and pasture: NDVI falls after every cut and recovers as it regrows.'],
+            ['crop_type_id' => null, 'category' => null, 'activity_types' => ['harvesting'], 'after_harvest' => true, 'within_days' => 30,
+                'note' => 'Any crop: the canopy is gone once it is harvested.'],
+        ];
+    }
+
+    /** The reason a drop on this capture is expected, or null when it is not. */
+    public function expectedDrop(FarmField $field, ?CropPlan $plan, \Illuminate\Support\Carbon $capturedOn): ?string
+    {
+        $plan ??= CropPlan::withoutGlobalScopes()->where('field_id', $field->id)->where('status', '!=', CropPlan::CANCELLED)
+            ->whereDate('planned_planting_on', '<=', $capturedOn)->orderByDesc('planned_planting_on')->first();
+        $type = $plan?->crop_type_id ? \App\Modules\Agri\Models\CropType::withoutGlobalScopes()->find($plan->crop_type_id) : null;
+        $own = \App\Modules\Agri\Models\ImageryDropRule::withoutGlobalScopes()->where('company_id', $field->company_id)->where('is_active', true)->get();
+        $rules = $own->isNotEmpty()
+            ? $own->map(fn ($r) => ['crop_type_id' => $r->crop_type_id, 'category' => null, 'activity_types' => $r->activity_types ?? [], 'after_harvest' => $r->after_harvest,
+                'within_days' => $r->within_days, 'note' => $r->note])->all()
+            : self::defaultDropRules();
+        $pasture = in_array($field->land_use_type, ['pasture', 'paddock', 'camp'], true);
+        foreach ($rules as $rule) {
+            $applies = $rule['crop_type_id'] !== null ? (int) $rule['crop_type_id'] === (int) $type?->id
+                : ($rule['category'] === null || $rule['category'] === $type?->category || ($rule['category'] === 'fodder' && $pasture));
+            if (! $applies) {
+                continue;
+            }
+            $since = $capturedOn->copy()->subDays((int) $rule['within_days'])->startOfDay();
+            $act = $rule['activity_types'] ? \App\Modules\Agri\Models\FieldActivity::withoutGlobalScopes()->where('field_id', $field->id)
+                ->whereIn('activity_type', $rule['activity_types'])->where('status', 'completed')
+                ->whereBetween('completed_at', [$since, $capturedOn->copy()->endOfDay()])->orderByDesc('completed_at')->first() : null;
+            if ($act) {
+                return mb_strimwidth(sprintf('Expected drop: %s on %s, %d day(s) before this capture (rule: within %d days).',
+                    str_replace('_', ' ', $act->activity_type), $act->completed_at->toDateString(), (int) $act->completed_at->copy()->startOfDay()->diffInDays($capturedOn->copy()->startOfDay()), $rule['within_days']), 0, 300);
+            }
+            if ($rule['after_harvest']) {
+                $h = \App\Modules\Agri\Models\HarvestRecord::withoutGlobalScopes()->where('field_id', $field->id)
+                    ->whereBetween('harvested_on', [$since->toDateString(), $capturedOn->toDateString()])->orderByDesc('harvested_on')->first();
+                if ($h) {
+                    return mb_strimwidth(sprintf('Expected drop: harvest recorded on %s, %d day(s) before this capture (rule: within %d days).',
+                        $h->harvested_on->toDateString(), (int) $h->harvested_on->copy()->startOfDay()->diffInDays($capturedOn->copy()->startOfDay()), $rule['within_days']), 0, 300);
+                }
+            }
+        }
+
+        return null;
     }
 
     public function validate(ImageryFlag $flag, string $outcome, ?string $note, User $actor): ImageryFlag

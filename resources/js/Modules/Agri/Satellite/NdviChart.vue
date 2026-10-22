@@ -1,5 +1,5 @@
 <script lang="ts">
-export type NdviPoint = { id: string; date: string; mean: number; min: number | null; max: number | null; cloud_pct: number | null; change_pct: number | null; source: string; image: boolean }
+export type NdviPoint = { id: string; date: string; mean: number; min: number | null; max: number | null; cloud_pct: number | null; change_pct: number | null; source: string; image: boolean; suppressed?: string | null }
 export type NdviZone = { id: string; name: string; zone_class: string | null; points: Array<{ date: string; value: number }> }
 export type NdviSeries = { field: { id: string; code: string; name: string }; points: NdviPoint[]; zones: NdviZone[] }
 </script>

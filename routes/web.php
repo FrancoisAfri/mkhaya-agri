@@ -155,6 +155,8 @@ Route::middleware(['web'])->patch('/user/locale', function (\Illuminate\Http\Req
 // ── AUTHENTICATED ROUTES ────────────────────
 // Mkhaya Agri phone app: service worker + manifest, public and data-free.
 require __DIR__.'/modules/agri-pwa.php';
+// Mkhaya Agri consumer trace page (QR code on the pack): public, no login.
+require __DIR__.'/modules/agri-public.php';
 
 Route::middleware(['auth', 'auth.lock', 'check.banned', 'prevent-back-history', 'crud.permissions'])->group(function () {
 

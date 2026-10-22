@@ -59,6 +59,7 @@ class AgriHubs extends ModuleHubs
                     self::card('stock', 'agri/stock', 'farm-stock', self::READ, 'blue-grey', self::needs(R::VIEW_STOCK)),
                     // Grading, packing and processing are Manufacturing production runs: a shortcut to the packhouse there.
                     self::card('packhouse', 'manufacturing/agriculture/packhouse', 'package', self::READ, 'amber', self::needs(R::VIEW_STOCK)),
+                    self::card('trace', 'agri/trace', 'qrcode', self::READ, 'lime', self::needs(R::VIEW_STOCK)),
                     self::card('alerts', 'agri/alerts', 'bell', self::READ, 'red', self::needs(R::VIEW_FARMS)),
                     self::card('finance', 'agri/finance', 'farm-money', self::READ, 'green', self::needs(R::VIEW_FINANCE)),
                     self::card('sales', 'agri/sales', 'building-store', self::READ, 'orange', self::needs(R::VIEW_SALES)),
@@ -81,6 +82,7 @@ class AgriHubs extends ModuleHubs
                     self::card('payroll', 'attendance/payroll-handoff', 'receipt', self::READ, 'deep-purple', self::needs(R::PAYROLL_HANDOFF)),
                     self::card('compliance', 'sheq/legal-register', 'shield-check', self::READ, 'red', self::needs(R::VIEW_FARMS)),
                     self::card('documents', 'document-management?relation=farm', 'certificate', self::READ, 'blue-grey', self::needs(R::VIEW_DOCUMENTS)),
+                    self::card('carbon', 'agri/carbon', 'leaf', self::READ, 'green', self::needs(R::VIEW_REPORTS)),
                 ],
             ],
             // Insights: the farm's dashboards, outcomes, reports and analytics, and Farm Operations' Insights page.
@@ -92,6 +94,7 @@ class AgriHubs extends ModuleHubs
                     self::card('outcomes', 'agri/outcomes', 'chart-line', self::READ, 'indigo', self::needs(R::VIEW_REPORTS)),
                     self::card('reports', 'agri/reports', 'chart-bar', self::READ, 'blue', self::needs(R::VIEW_REPORTS)),
                     self::card('finance_intelligence', 'agri/finance/intelligence', 'report-money', self::READ, 'green', self::needs(R::VIEW_FINANCE)),
+                    self::card('benchmarks', 'agri/benchmarks', 'chart-candle', self::READ, 'orange', self::needs(R::VIEW_REPORTS)),
                     self::card('workforce_analytics', 'agri/workforce/analytics', 'chart-histogram', self::READ, 'teal', self::needs(R::VIEW_WORKFORCE)),
                     self::card('all_insights', 'insights/farm-operations', 'chart-dots', self::READ, 'deep-purple', self::needs(R::VIEW_REPORTS)),
                 ],

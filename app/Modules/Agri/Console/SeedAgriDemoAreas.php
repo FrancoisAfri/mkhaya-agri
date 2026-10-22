@@ -168,6 +168,11 @@ class SeedAgriDemoAreas extends Command
             $this->area('Agricultural production, Command Centre and intelligence', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Unit::query()->where('code', 'BH1')->exists(), fn () => $this->production());
             $this->area('Production gateway, processing line and forecasts', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Device::query()->where('code', 'RIV-GW1')->exists(), fn () => $this->productionMore());
             $this->area('Production roadmap 4–8 (checklists, CCP, verification, notices, dairy, scenarios)', fn () => \App\Modules\Operations\Manufacturing\Models\Agriculture\Threshold::query()->where('is_ccp', true)->exists(), fn () => $this->productionRoadmap());
+            // Irrigation scheduling from ET, peer benchmarks, consumer trace codes, the carbon registry.
+            $this->area('Irrigation scheduling (ET history, water balance, this week\'s schedule)', fn () => \App\Modules\Agri\Models\WaterBalanceDay::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->waterBalance());
+            $this->area('Peer benchmarks (opt-in, demonstration peer bands)', fn () => \App\Modules\Agri\Models\PeerBenchmark::query()->where('seeded', true)->exists(), fn () => $this->benchmarks());
+            $this->area('Consumer trace code (QR on a packed lot, certifications)', fn () => \App\Modules\Agri\Models\TraceToken::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->traceCode());
+            $this->area('Carbon registry (registered project, period, issuance, retirement, export)', fn () => \App\Modules\Agri\Models\CarbonRegistration::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->carbonRegistry());
             $this->area('Season processes (crop cycle on the workflow engine)', fn () => \App\Modules\Workflow\Models\WorkflowDefinition::query()->where('key', 'agri_field_season')->exists(), fn () => $this->seasonProcesses());
 
             $this->newLine();
@@ -1766,5 +1771,136 @@ class SeedAgriDemoAreas extends Command
         }
 
         return "4 outcome snapshots (2 baselines), {$p} predictions, ".count($drafts).' AI drafts, 3 references';
+    }
+
+    /**
+     * Weather with ET0 for the last 45 days and the coming week (only where the provider has not
+     * sent a day already), soils on the irrigated fields, lucerne on K2, then the water balance:
+     * per-zone history, the probes resetting it, and this week's recommendations.
+     */
+    private function waterBalance(): string
+    {
+        foreach (['O1' => 'Sandy clay loam', 'K2' => 'Loam'] as $code => $soil) {
+            $f = $this->field($code);
+            if (! $f->soil_type) {
+                FarmField::withoutGlobalScopes()->whereKey($f->id)->update(['soil_type' => $soil]);
+            }
+        }
+        $k2 = $this->field('K2');
+        if (! CropPlan::withoutGlobalScopes()->where('field_id', $k2->id)->whereIn('status', CropPlan::LIVE)->exists()) {
+            CropPlan::withoutGlobalScopes()->create(['company_id' => $this->companyId, 'farm_id' => $k2->farm_id, 'field_id' => $k2->id,
+                'season_id' => \App\Modules\Agri\Models\CropSeason::withoutGlobalScopes()->where('company_id', $this->companyId)->orderByDesc('starts_on')->value('id'),
+                'crop_type_id' => $this->cropType('LUCERNE'), 'code' => 'LUC-24-K2', 'planned_area' => 40, 'area_unit' => 'ha', 'planned_planting_on' => '2024-03-15',
+                'planted_on' => '2024-03-15', 'planned_harvest_on' => '2028-03-15', 'status' => CropPlan::PLANTED, 'yield_unit' => 'bales', 'created_by' => $this->u['manager']->id]);
+        }
+        $days = 0;
+        foreach ([[$this->boplaas, 5.2, 1.1], [$this->rivier, 5.9, 0.9]] as [$farm, $base, $swing]) {
+            for ($d = -46; $d <= 7; $d++) {
+                $day = today()->addDays($d);
+                $kind = $d < 0 ? 'observed' : 'daily';
+                if (\App\Modules\Agri\Models\WeatherReading::withoutGlobalScopes()->where('farm_id', $farm->id)->where('kind', $kind)
+                    ->where('period_start', Carbon::parse($day->toDateString(), 'UTC'))->exists()) {
+                    continue;
+                }
+                $wave = sin(($day->dayOfYear + $farm->id) / 3.1);
+                $rain = in_array(($day->dayOfYear + $farm->id * 3) % 11, [0, 1], true) ? round(4 + abs($wave) * 14, 1) : 0.0;
+                $tMax = round(25 + 4 * $wave + ($farm->is($this->rivier) ? 4 : 0), 1);
+                $tMin = round($tMax - 13 - abs($wave) * 3, 1);
+                \App\Modules\Agri\Models\WeatherReading::withoutGlobalScopes()->create(['company_id' => $this->companyId, 'farm_id' => $farm->id, 'field_id' => null,
+                    'provider' => 'open_meteo', 'kind' => $kind, 'period_start' => Carbon::parse($day->toDateString(), 'UTC'), 'period_end' => Carbon::parse($day->toDateString(), 'UTC')->addDay(),
+                    'fetched_at' => now(), 'temp_min' => $tMin, 'temp_max' => $tMax, 'rain_mm' => $rain,
+                    'et0_mm' => round(max(2.5, $base + $swing * $wave - ($rain > 0 ? 1.6 : 0)), 2), 'et0_source' => 'provider']);
+                $days++;
+            }
+        }
+        $wb = app(\App\Modules\Agri\Services\WaterBalance::class);
+        $zones = 0;
+        $recs = 0;
+        foreach ([$this->boplaas, $this->rivier] as $farm) {
+            $r = $wb->computeFarm($farm->fresh());
+            $zones += $r['scopes'];
+            $recs += $r['recommendations'];
+        }
+
+        return "{$days} weather day(s) with ET0, {$zones} zone balance(s), {$recs} irrigation recommendation(s) this week";
+    }
+
+    /**
+     * The organisation opts in, and — the demo being one organisation — the peer bands it would see
+     * are seeded directly, marked as demonstration figures, for the crops it grows.
+     */
+    private function benchmarks(): string
+    {
+        foreach ([[$this->boplaas, 'Free State'], [$this->rivier, 'Limpopo']] as [$farm, $province]) {
+            $settings = $farm->fresh()->settings ?? [];
+            if (empty($settings['province'])) {
+                Farm::withoutGlobalScopes()->whereKey($farm->id)->update(['settings' => json_encode($settings + ['province' => $province])]);
+            }
+        }
+        app(\App\Modules\Agri\Services\PeerBenchmarks::class)->optIn($this->companyId, true, $this->u['owner']);
+        $bands = [
+            // crop, name, season, province, [yield t/ha], [cost/ha], [cost/t], farms, organisations
+            ['MAIZE-W', 'White maize', 'S2026/27', 'Free State', [6.1, 8.4, 11.6], [14500, 18900, 24200], [1850, 2250, 2900], 23, 9],
+            ['MAIZE-W', 'White maize', 'S2025/26', 'Free State', [5.6, 7.9, 10.8], [13900, 17800, 23100], [1900, 2300, 3050], 27, 10],
+            ['WHEAT', 'Wheat', 'W2026', 'Free State', [5.2, 6.4, 7.6], [16800, 19500, 23400], [2700, 3050, 3600], 14, 6],
+            ['SOY', 'Soybean', 'S2026/27', 'Free State', [2.4, 3.1, 3.8], [9800, 11900, 14200], [3300, 3850, 4600], 19, 8],
+            ['CITRUS', 'Citrus', 'W2026', 'Limpopo', [38, 52, 68], [95000, 128000, 165000], [2100, 2500, 3100], 9, 4],
+        ];
+        $n = 0;
+        foreach ($bands as [$code, $name, $season, $province, $yield, $perHa, $perT, $farms, $orgs]) {
+            foreach (['yield_t_ha' => [$yield, ''], 'cost_per_ha' => [$perHa, 'ZAR'], 'cost_per_t' => [$perT, 'ZAR']] as $metric => [[$p25, $med, $p75], $cur]) {
+                \App\Modules\Agri\Models\PeerBenchmark::query()->updateOrCreate(
+                    ['season_key' => $season, 'crop_code' => $code, 'region_key' => 'province:'.\Illuminate\Support\Str::slug($province), 'metric' => $metric, 'currency' => $cur],
+                    ['crop_name' => $name, 'region_label' => $province, 'farms' => $farms, 'organisations' => $orgs, 'p25' => $p25, 'median' => $med, 'p75' => $p75,
+                        'seeded' => true, 'computed_at' => now()]);
+                $n++;
+            }
+        }
+
+        return "opted in; {$n} demonstration peer band(s) for maize, wheat, soybean and citrus";
+    }
+
+    private function traceCode(): string
+    {
+        $trace = app(\App\Modules\Agri\Services\PublicTrace::class);
+        $trace->saveSettings($this->companyId, \App\Modules\Agri\Services\PublicTrace::DEFAULTS, ['GLOBALG.A.P. IFA v6 (demo GGN 4063061999999)', 'SIZA ethical audit (demo)']);
+        $lot = ProduceLot::withoutGlobalScopes()->where('company_id', $this->companyId)->where('kind', 'packed')->where('status', 'available')->orderBy('id')->first()
+            ?? ProduceLot::withoutGlobalScopes()->where('company_id', $this->companyId)->whereIn('kind', \App\Modules\Agri\Services\PublicTrace::TRACEABLE)->where('status', 'available')->orderBy('id')->firstOrFail();
+        $t = $trace->issue($lot, $this->u['owner']);
+
+        return "lot {$lot->code} → ".$trace->url($t);
+    }
+
+    /** The verified soil-carbon project, listed with Verra: a verified period, an issuance with its buffer, a retirement and an export package. */
+    private function carbonRegistry(): string
+    {
+        $reg = app(\App\Modules\Agri\Services\CarbonRegistry::class);
+        $owner = $this->u['owner'];
+        $project = \App\Modules\Agri\Models\EnvironmentRecord::withoutGlobalScopes()->where('company_id', $this->companyId)->where('kind', 'carbon_project')
+            ->where('verification', 'verified')->orderBy('id')->firstOrFail();
+        $r = $reg->register($project, ['registry' => 'verra_vcs', 'registry_project_id' => 'VCS-DEMO-5123', 'status' => 'registered', 'status_on' => today()->subMonths(4)->toDateString(),
+            'proponent' => 'Boplaas Boerdery (demo)', 'crediting_starts_on' => '2025-11-01', 'crediting_ends_on' => '2045-10-31', 'buffer_pct' => 20,
+            'notes' => 'Demonstration listing: VM0042 improved agricultural land management (no-till, cover crops) on Kliprant and Rivierkant.'], $owner);
+        $period = $reg->addPeriod($r, ['starts_on' => '2025-11-01', 'ends_on' => '2026-04-30', 'claimed_t' => 230]);
+        $fields = FarmField::withoutGlobalScopes()->where('farm_id', $project->farm_id)->orderBy('code')->limit(2)->get();
+        $rows = [];
+        foreach ($fields as $i => $f) {
+            $rows[] = ['measured_on' => '2026-04-10', 'parameter' => 'SOC stock 0–30 cm', 'value' => 46.2 + $i * 3.1, 'unit' => 't C/ha', 'field_id' => $f->id,
+                'method' => 'Dry combustion, 12 cores composited', 'source' => 'Nviro Tech Labs report NT-26-'.(410 + $i)];
+            $rows[] = ['measured_on' => '2026-04-10', 'parameter' => 'Bulk density 0–30 cm', 'value' => 1.38 - $i * 0.04, 'unit' => 'g/cm³', 'field_id' => $f->id, 'method' => 'Core method', 'source' => 'Field sampling'];
+        }
+        $rows[] = ['measured_on' => '2026-04-30', 'parameter' => 'Area under no-till', 'value' => 200, 'unit' => 'ha', 'method' => 'Field records', 'source' => 'Mkhaya Agri field activities'];
+        $rows[] = ['measured_on' => '2026-04-30', 'parameter' => 'Diesel avoided (fewer tillage passes)', 'value' => 6400, 'unit' => 'l', 'method' => 'Fuel log comparison', 'source' => 'Fleet fuel issues'];
+        $reg->addMonitoring($period, $rows, $owner);
+        $reg->updatePeriod($period, ['status' => 'verified', 'verified_t' => 212, 'verifier' => 'SGS South Africa (demo)', 'verified_on' => today()->subMonths(2)->toDateString()]);
+        $iss = $reg->addIssuance($r->fresh(), ['period_id' => $period->id, 'vintage' => 2026, 'quantity_t' => 169.6, 'serial_start' => 'VCS-DEMO-5123-2026-000001',
+            'serial_end' => 'VCS-DEMO-5123-2026-000170', 'issued_on' => today()->subMonth()->toDateString()]);
+        $reg->addTransaction($iss, ['kind' => 'retirement', 'quantity_t' => 25, 'transacted_on' => today()->subDays(10)->toDateString(), 'beneficiary' => 'Boplaas Boerdery — own 2026 footprint',
+            'serial_start' => 'VCS-DEMO-5123-2026-000001', 'serial_end' => 'VCS-DEMO-5123-2026-000025', 'reason' => 'Voluntary offset of farm diesel use'], $owner);
+        $reg->addDocument($r, 'monitoring_report', ['original_name' => 'monitoring-report-2025-26.pdf', 'mime' => 'application/pdf', 'data' => $this->pdf('VM0042 monitoring report 2025/26')], $period->id, $owner);
+        $reg->addDocument($r, 'pdd', ['original_name' => 'project-description.pdf', 'mime' => 'application/pdf', 'data' => $this->pdf('VM0042 project description')], null, $owner);
+        $e = $reg->export($r->fresh(), null, $owner);
+
+        return "VCS-DEMO-5123 registered, 1 verified period (212 t), 169.6 t issued + 42.4 t buffer, 25 t retired, export {$e->file_name}";
     }
 }

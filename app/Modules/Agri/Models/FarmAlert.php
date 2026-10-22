@@ -11,7 +11,7 @@ class FarmAlert extends FarmOwnedModel
 
     public const KINDS = ['low_stock', 'service_due', 'document_expiry', 'task_overdue', 'withdrawal', 'observation', 'harvest_due', 'budget_overrun', 'health_due',
         'machine_fault', 'warranty', 'cold_store', 'quarantine', 'recall', 'delivery_due', 'roster_gap', 'roster_draft', 'timesheets', 'piecework', 'corrections',
-        'shift_swap', 'payroll', 'cash', 'integration'];
+        'shift_swap', 'payroll', 'cash', 'integration', 'irrigation_due'];
 
     protected $table = 'farm_alerts';
 

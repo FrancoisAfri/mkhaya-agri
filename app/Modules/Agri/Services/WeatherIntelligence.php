@@ -66,6 +66,15 @@ class WeatherIntelligence
                     'temperature' => $h['temperature'] ?? null, 'humidity' => $h['humidity'] ?? null, 'wind_speed' => $h['wind_speed'] ?? null,
                     'wind_gust' => $h['wind_gust'] ?? null, 'rain_mm' => $h['rain_mm'] ?? null, 'rain_probability' => $h['rain_probability'] ?? null]);
         }
+        // The forecast's daily rows (with ET0): kept per day as kind 'daily'. A day that has passed
+        // keeps its last forecast, so the water balance has an estimate until observations arrive.
+        foreach ($data['daily'] ?? [] as $d) {
+            WeatherReading::withoutGlobalScope('farm_access')->updateOrCreate(
+                ['farm_id' => $farm->id, 'field_id' => null, 'provider' => $p['key'], 'kind' => 'daily', 'period_start' => Carbon::parse($d['period_start'])->utc()],
+                ['company_id' => $farm->company_id, 'period_end' => Carbon::parse($d['period_end'])->utc(), 'fetched_at' => $now,
+                    'temp_min' => $d['temp_min'] ?? null, 'temp_max' => $d['temp_max'] ?? null, 'rain_mm' => $d['rain_mm'] ?? null,
+                    'et0_mm' => $d['et0_mm'] ?? null, 'et0_source' => isset($d['et0_mm']) ? 'provider' : null]);
+        }
         foreach ($client->warnings((float) $farm->latitude, (float) $farm->longitude) as $w) {
             WeatherWarning::withoutGlobalScope('farm_access')->updateOrCreate(['farm_id' => $farm->id, 'provider' => $p['key'], 'external_id' => $w['external_id']],
                 ['company_id' => $farm->company_id, 'kind' => $w['kind'], 'severity' => $w['severity'], 'starts_at' => Carbon::parse($w['starts_at']),
@@ -89,7 +98,8 @@ class WeatherIntelligence
             WeatherReading::withoutGlobalScope('farm_access')->updateOrCreate(
                 ['farm_id' => $farm->id, 'field_id' => null, 'provider' => $p['key'], 'kind' => 'observed', 'period_start' => Carbon::parse($d['period_start'])->utc()],
                 ['company_id' => $farm->company_id, 'period_end' => Carbon::parse($d['period_end'])->utc(), 'fetched_at' => now(),
-                    'temp_min' => $d['temp_min'], 'temp_max' => $d['temp_max'], 'rain_mm' => $d['rain_mm']]);
+                    'temp_min' => $d['temp_min'], 'temp_max' => $d['temp_max'], 'rain_mm' => $d['rain_mm'],
+                    'et0_mm' => $d['et0_mm'] ?? null, 'et0_source' => isset($d['et0_mm']) ? 'provider' : null]);
             $n++;
         }
 

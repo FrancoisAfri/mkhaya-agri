@@ -22,6 +22,8 @@ class OpenMeteoProvider implements WeatherProvider
             'latitude' => $latitude, 'longitude' => $longitude, 'forecast_days' => max(1, min(16, $days)), 'timezone' => 'UTC', 'wind_speed_unit' => 'kmh',
             'current' => 'temperature_2m,relative_humidity_2m,wind_speed_10m,wind_gusts_10m,precipitation',
             'hourly' => 'temperature_2m,relative_humidity_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m',
+            // The day's FAO-56 Penman-Monteith reference ET0, for irrigation scheduling (WaterBalance).
+            'daily' => 'temperature_2m_max,temperature_2m_min,precipitation_sum,et0_fao_evapotranspiration',
         ]);
         if (! $r->successful()) {
             throw new RuntimeException('Open-Meteo forecast failed: HTTP '.$r->status());
@@ -38,7 +40,7 @@ class OpenMeteoProvider implements WeatherProvider
         }
         $c = $j['current'] ?? null;
 
-        return ['current' => $c ? ['period_start' => Carbon::parse($c['time'], 'UTC')->toIso8601String(), 'period_end' => Carbon::parse($c['time'], 'UTC')->addMinutes((int) ($c['interval'] ?? 900) / 60)->toIso8601String(),
+        return ['daily' => $this->days($j['daily'] ?? []), 'current' => $c ? ['period_start' => Carbon::parse($c['time'], 'UTC')->toIso8601String(), 'period_end' => Carbon::parse($c['time'], 'UTC')->addMinutes((int) ($c['interval'] ?? 900) / 60)->toIso8601String(),
             'temperature' => $c['temperature_2m'] ?? null, 'humidity' => $c['relative_humidity_2m'] ?? null, 'wind_speed' => $c['wind_speed_10m'] ?? null,
             'wind_gust' => $c['wind_gusts_10m'] ?? null, 'rain_mm' => $c['precipitation'] ?? null, 'rain_probability' => null] : null, 'hourly' => $hourly];
     }
@@ -47,16 +49,23 @@ class OpenMeteoProvider implements WeatherProvider
     {
         $r = Http::timeout(20)->retry(2, 500)->get($this->config['archive_url'] ?? 'https://archive-api.open-meteo.com/v1/archive', [
             'latitude' => $latitude, 'longitude' => $longitude, 'start_date' => $from, 'end_date' => $to, 'timezone' => 'UTC',
-            'daily' => 'temperature_2m_max,temperature_2m_min,precipitation_sum',
+            'daily' => 'temperature_2m_max,temperature_2m_min,precipitation_sum,et0_fao_evapotranspiration',
         ]);
         if (! $r->successful()) {
             throw new RuntimeException('Open-Meteo history failed: HTTP '.$r->status());
         }
-        $d = $r->json('daily') ?? [];
+
+        return $this->days($r->json('daily') ?? []);
+    }
+
+    /** Open-Meteo's daily block in the provider shape; et0_mm is null where it sent none. */
+    private function days(array $d): array
+    {
         $out = [];
         foreach ($d['time'] ?? [] as $i => $day) {
             $out[] = ['period_start' => Carbon::parse($day, 'UTC')->toIso8601String(), 'period_end' => Carbon::parse($day, 'UTC')->addDay()->toIso8601String(),
-                'temp_min' => $d['temperature_2m_min'][$i] ?? null, 'temp_max' => $d['temperature_2m_max'][$i] ?? null, 'rain_mm' => $d['precipitation_sum'][$i] ?? null];
+                'temp_min' => $d['temperature_2m_min'][$i] ?? null, 'temp_max' => $d['temperature_2m_max'][$i] ?? null, 'rain_mm' => $d['precipitation_sum'][$i] ?? null,
+                'et0_mm' => $d['et0_fao_evapotranspiration'][$i] ?? null];
         }
 
         return $out;

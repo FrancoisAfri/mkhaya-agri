@@ -232,8 +232,9 @@ class FarmAlerts
         foreach (app(WeatherIntelligence::class)->conditions($farm) as $c) {
             $out[] = $c;
         }
-        // Every other part of the farm: machines, cold stores, produce, recalls, deliveries, the roster and time.
-        foreach ([fn () => $this->machines($farm, $f, $today, $horizon), fn () => $this->produce($farm, $f, $today), fn () => $this->people($farm, $f, $today)] as $area) {
+        // Every other part of the farm: machines, cold stores, produce, recalls, deliveries, the roster and time, irrigation.
+        foreach ([fn () => $this->machines($farm, $f, $today, $horizon), fn () => $this->produce($farm, $f, $today), fn () => $this->people($farm, $f, $today),
+            fn () => $this->irrigationDue($farm)] as $area) {
             try {
                 array_push($out, ...$area());
             } catch (\Throwable $e) {
@@ -258,6 +259,20 @@ class FarmAlerts
             ->whereBetween('warranty_until', [$today->toDateString(), $today->copy()->addDays($horizon)->toDateString()])->get() as $m) {
             $out[] = $this->c('warranty', 'info', "Warranty ends {$m->warranty_until->toDateString()}: {$m->code} {$m->name}",
                 'Claim anything still under warranty before then.', '/agri/machinery?farm='.$farm->uuid, $m->warranty_until->toDateString(), "warranty:{$m->id}");
+        }
+
+        return $out;
+    }
+
+    /** Zones past their allowed depletion in the water balance with no irrigation planned in the next two days. */
+    private function irrigationDue(Farm $farm): array
+    {
+        $out = [];
+        foreach (app(WaterBalance::class)->pastThreshold($farm) as $z) {
+            $where = $z['field'].($z['zone'] ? " · {$z['zone']}" : '');
+            $out[] = $this->c('irrigation_due', $z['depletion'] >= ($z['raw'] + $z['taw']) / 2 ? 'critical' : 'warning', "Irrigation due: {$where}",
+                sprintf('Root zone %s mm dry against %s mm readily available water on %s, and no irrigation is planned in the next two days.', round($z['depletion'], 1), round($z['raw'], 1), $z['on']),
+                '/manufacturing/agriculture/crops/intelligence/irrigation?farm='.$farm->uuid, $z['on'], "irrigation_due:{$z['scope']}");
         }
 
         return $out;

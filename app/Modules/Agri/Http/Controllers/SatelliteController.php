@@ -119,7 +119,34 @@ class SatelliteController extends AgriController
                     'last_test' => $p?->last_test_at ? ['at' => $p->last_test_at->format('Y-m-d H:i'), 'ok' => $p->last_test_ok, 'message' => $p->last_test_message] : null];
             })->values(),
             'usage' => ($active = $rows->firstWhere('is_active', true)) ? ['used' => $this->satellite->budget($active)->used(), 'budget' => (int) $active->options()['daily_budget']] : null,
+            // Expected drops (a cut, mowing, a harvest) that raise no flag; the built-in ones apply until the organisation writes its own.
+            'drop_rules' => \App\Modules\Agri\Models\ImageryDropRule::query()->orderBy('id')->get()->map(fn ($r) => ['id' => $r->uuid, 'crop_type_id' => $r->crop_type_id,
+                'crop' => $r->crop_type_id ? \App\Modules\Agri\Models\CropType::query()->whereKey($r->crop_type_id)->value('name') : null,
+                'activity_types' => $r->activity_types, 'after_harvest' => $r->after_harvest, 'within_days' => $r->within_days, 'is_active' => $r->is_active, 'note' => $r->note])->values(),
+            'default_drop_rules' => \App\Modules\Agri\Services\CropImagery::defaultDropRules(),
+            'crop_types' => \App\Modules\Agri\Models\CropType::query()->where('is_active', true)->orderBy('name')->get(['id', 'name']),
+            'activity_types' => ['mowing', 'harvesting', 'pruning', 'soil_preparation', 'other'],
+            'can_rules' => $request->user()->can(R::PLAN_CROPS),
         ]);
+    }
+
+    public function saveDropRule(Request $request, ?\App\Modules\Agri\Models\ImageryDropRule $rule = null): RedirectResponse
+    {
+        $this->allow($request, R::PLAN_CROPS);
+        $data = $request->validate(['crop_type_id' => ['nullable', 'integer', Rule::exists('crop_types', 'id')], 'activity_types' => ['present', 'array'],
+            'activity_types.*' => [Rule::in(['mowing', 'harvesting', 'pruning', 'soil_preparation', 'other'])], 'after_harvest' => ['boolean'],
+            'within_days' => ['required', 'integer', 'between:1,120'], 'is_active' => ['boolean'], 'note' => ['nullable', 'string', 'max:300']]);
+        $rule?->exists ? $rule->update($data) : \App\Modules\Agri\Models\ImageryDropRule::create($data + ['company_id' => $request->user()->company_id]);
+
+        return back()->with('success', 'Expected-drop rule saved.');
+    }
+
+    public function deleteDropRule(Request $request, \App\Modules\Agri\Models\ImageryDropRule $rule): RedirectResponse
+    {
+        $this->allow($request, R::PLAN_CROPS);
+        $rule->delete();
+
+        return back()->with('success', 'Expected-drop rule removed.');
     }
 
     public function save(Request $request, string $provider): RedirectResponse

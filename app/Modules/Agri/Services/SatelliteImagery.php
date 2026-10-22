@@ -332,7 +332,8 @@ class SatelliteImagery
         return [
             'field' => ['id' => $field->uuid, 'code' => $field->code, 'name' => $field->name],
             'points' => $rows->map(fn ($r) => ['id' => $r->uuid, 'date' => $r->captured_on->toDateString(), 'mean' => $r->mean, 'min' => $r->min, 'max' => $r->max,
-                'cloud_pct' => $r->cloud_pct, 'change_pct' => $r->change_pct, 'source' => $r->source, 'image' => $r->image_mime === 'image/png'])->values(),
+                'cloud_pct' => $r->cloud_pct, 'change_pct' => $r->change_pct, 'source' => $r->source, 'image' => $r->image_mime === 'image/png',
+                'suppressed' => $r->flag_suppressed])->values(),
             'zones' => array_values($zoneSeries),
         ];
     }

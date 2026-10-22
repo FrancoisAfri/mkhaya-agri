@@ -6,6 +6,8 @@ import PageErrors from '../Components/PageErrors.vue'
 import FormDialog, { type FormField } from '../Components/FormDialog.vue'
 import FarmFilter from '../Components/FarmFilter.vue'
 import { hoursFromNow, human, money, num, statusColor, today } from '../Components/agri'
+import { useI18n } from 'vue-i18n'
+import WaterBalanceChart from './WaterBalanceChart.vue'
 
 /**
  * Phase 2 §3 in one place: scouting, irrigation, harvest, input planning and crop profitability.
@@ -84,6 +86,19 @@ const irrigationFields: FormField[] = [
   { key: 'planned_m3', label: 'Or volume (m³)', type: 'number' }, { key: 'notes', label: 'Notes', cols: 12 },
 ]
 const moistureMax = 60
+// Water balance (ET-based scheduling)
+const { t } = useI18n()
+const w = (key: string, params?: Record<string, unknown>) => t(`agri.water.${key}`, params ?? {})
+const balanceOpen = ref<string | null>(null)
+const shownBalance = computed(() => (props.data.balance?.balances ?? []).find((b: any) => b.scope === balanceOpen.value) ?? (props.data.balance?.balances ?? [])[0] ?? null)
+const coefficientFields = computed<FormField[]>(() => [
+  { key: 'kc_ini', label: w('kc_ini'), type: 'number', required: true, cols: 4 }, { key: 'kc_mid', label: w('kc_mid'), type: 'number', required: true, cols: 4 },
+  { key: 'kc_end', label: w('kc_end'), type: 'number', required: true, cols: 4 },
+  { key: 'stage_ini_pct', label: w('stage_ini'), type: 'number', required: true, cols: 3 }, { key: 'stage_dev_pct', label: w('stage_dev'), type: 'number', required: true, cols: 3 },
+  { key: 'stage_mid_pct', label: w('stage_mid'), type: 'number', required: true, cols: 3 }, { key: 'stage_late_pct', label: w('stage_late'), type: 'number', required: true, cols: 3 },
+  { key: 'root_depth_m', label: w('root_depth'), type: 'number', required: true, cols: 6 }, { key: 'depletion_p', label: w('depletion_p'), type: 'number', required: true, cols: 6 },
+  { key: 'source', label: w('source'), cols: 12 },
+])
 
 // ── Harvest ─────────────────────────────────────────────────────────────────────────────────
 const commitFields: FormField[] = [
@@ -206,6 +221,51 @@ const expanded = ref<string | null>(null)
         <div class="d-flex align-center gap-2 flex-wrap"><strong>{{ human(x.kind) }}</strong><span v-if="x.field">on {{ x.field }}</span> · {{ x.at }} · {{ x.note }}<VSpacer />
           <VBtn v-if="can.record" size="x-small" variant="tonal" @click="(() => { const r = ask('What was done?'); if (r) post('agri.crops.irrigation-problems.resolve', x.id, { resolution: r }) })()">Resolve</VBtn></div>
       </VAlert>
+      <!-- Water balance: ET0 × Kc against the root zone's readily available water -->
+      <VRow class="mb-1">
+        <VCol cols="12" md="5">
+          <VCard :title="w('schedule_title')" :subtitle="w('schedule_subtitle')">
+            <VTable density="compact">
+              <thead><tr><th>{{ w('day') }}</th><th>{{ w('zone') }}</th><th class="text-end">{{ w('depth') }}</th><th class="text-end">m³</th><th /></tr></thead>
+              <tbody>
+                <tr v-for="r in data.balance?.schedule ?? []" :key="r.id" :title="r.reason">
+                  <td class="text-no-wrap">{{ r.on }}</td>
+                  <td>{{ r.label }}</td>
+                  <td class="text-end text-no-wrap">{{ num(r.gross_mm, 1) }} mm<div class="text-caption text-medium-emphasis">{{ w('net', { mm: num(r.net_mm, 1) }) }}</div></td>
+                  <td class="text-end">{{ r.m3 !== null ? num(r.m3, 0) : '—' }}</td>
+                  <td class="text-end text-no-wrap">
+                    <VChip v-if="r.status === 'planned'" size="x-small" color="success">{{ w('planned') }}</VChip>
+                    <template v-else-if="can.record">
+                      <VBtn size="x-small" color="primary" variant="tonal" @click="post('agri.crops.irrigation-recommendations.plan', r.id)">{{ w('plan_it') }}</VBtn>
+                      <VBtn size="x-small" variant="text" @click="post('agri.crops.irrigation-recommendations.dismiss', r.id)">{{ w('dismiss') }}</VBtn>
+                    </template>
+                  </td>
+                </tr>
+                <tr v-if="!(data.balance?.schedule ?? []).length"><td colspan="5" class="text-center text-medium-emphasis py-4">{{ w('no_schedule') }}</td></tr>
+              </tbody>
+            </VTable>
+            <VCardText class="pt-2 d-flex gap-2 align-center">
+              <VBtn v-if="filters.farm" size="small" variant="tonal" prepend-icon="tabler-refresh" @click="post('agri.crops.irrigation-balance.refresh', {}, { farm_id: filters.farm })">{{ w('recalculate') }}</VBtn>
+              <VBtn size="small" variant="text" prepend-icon="tabler-leaf" @click="open('coefficients')">{{ w('coefficients') }}</VBtn>
+            </VCardText>
+          </VCard>
+        </VCol>
+        <VCol cols="12" md="7">
+          <VCard :title="w('balance_title')" :subtitle="w('balance_subtitle')">
+            <VCardText>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <VChip v-for="b in data.balance?.balances ?? []" :key="b.scope" size="small" :color="b.past ? 'error' : (shownBalance?.scope === b.scope ? 'primary' : undefined)"
+                  :variant="shownBalance?.scope === b.scope ? 'flat' : 'tonal'" @click="balanceOpen = b.scope">
+                  {{ b.label }}<span v-if="b.crop" class="ms-1 text-caption">· {{ b.crop }}</span> · {{ num(b.depletion, 0) }}/{{ num(b.raw, 0) }} mm
+                </VChip>
+              </div>
+              <WaterBalanceChart v-if="shownBalance" :points="shownBalance.points" />
+              <div v-else class="text-medium-emphasis py-4 text-center">{{ w('no_balance') }}</div>
+              <p class="text-caption text-medium-emphasis mt-2 mb-0">{{ w('method') }}</p>
+            </VCardText>
+          </VCard>
+        </VCol>
+      </VRow>
       <VRow>
         <VCol cols="12" md="8">
           <VCard title="Irrigation, planned and given">
@@ -421,6 +481,23 @@ const expanded = ref<string | null>(null)
       { key: 'kind', label: 'What', type: 'select', required: true, items: opts(['leak', 'fault', 'over_applied', 'under_applied', 'no_water', 'other']) },
       { key: 'note', label: 'Details', type: 'textarea', cols: 12 },
     ]" :values="{ farm_id: farmId, kind: 'leak' }" @update:model-value="close" />
+    <VDialog v-if="dialog?.kind === 'coefficients'" :model-value="true" max-width="900" @update:model-value="close">
+      <VCard :title="w('coefficients')" :subtitle="w('coefficients_subtitle')">
+        <VTable density="compact">
+          <thead><tr><th>{{ w('crop') }}</th><th>Kc</th><th>{{ w('stages') }}</th><th>{{ w('root_depth') }}</th><th>p</th><th>{{ w('source') }}</th><th /></tr></thead>
+          <tbody>
+            <tr v-for="c in data.balance?.coefficients ?? []" :key="c.id">
+              <td>{{ c.crop }}</td><td class="text-no-wrap">{{ c.kc_ini }} / {{ c.kc_mid }} / {{ c.kc_end }}</td>
+              <td class="text-no-wrap">{{ c.stage_ini_pct }}/{{ c.stage_dev_pct }}/{{ c.stage_mid_pct }}/{{ c.stage_late_pct }}%</td>
+              <td>{{ c.root_depth_m }} m</td><td>{{ c.depletion_p }}</td><td class="text-caption">{{ c.source }}</td>
+              <td><VBtn v-if="can.plan" size="x-small" variant="tonal" @click="dialog = { kind: 'coefficient', row: c }">{{ w('edit') }}</VBtn></td>
+            </tr>
+          </tbody>
+        </VTable>
+      </VCard>
+    </VDialog>
+    <FormDialog v-if="dialog?.kind === 'coefficient'" :model-value="true" :title="dialog.row.crop" method="patch" :url="route('agri.crops.coefficients.update', dialog.row.id)"
+      :fields="coefficientFields" :values="{ ...dialog.row }" :intro="w('coefficient_intro')" @update:model-value="close" />
     <FormDialog v-if="dialog?.kind === 'commit'" :model-value="true" title="Buyer commitment" :url="route('agri.crops.commitments.store')" :fields="commitFields"
       :values="{ farm_id: farmId, unit: 't' }" @update:model-value="close" />
     <FormDialog v-if="dialog?.kind === 'template'" :model-value="true" :title="dialog.row ? 'Edit input rate' : 'New input rate'" :method="dialog.row ? 'patch' : 'post'"
