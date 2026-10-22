@@ -175,12 +175,20 @@ class CertificationSchemes
     /** The self-assessment as a PDF for the auditor. */
     public function pdf(Farm $farm, object $scheme, User $actor): string
     {
+        return Pdf::loadHTML($this->html($farm, $scheme, $actor))->setPaper('a4', 'landscape')->output();
+    }
+
+    /** What the auditor PDF is printed from; headed with the company's logo and name where it is white-labelled. */
+    public function html(Farm $farm, object $scheme, User $actor): string
+    {
         $a = $this->assessment($farm, $scheme);
+        $brand = \App\Modules\Agri\Support\OutputBranding::for((int) $farm->company_id);
         $l = fn (string $k, array $p = []) => e(UiLabels::get("agri.certification.pdf.{$k}", $p));
         $st = fn (string $s) => e(UiLabels::get("agri.certification.status.{$s}"));
         $colour = ['compliant' => '#2e7d32', 'non_compliant' => '#c62828', 'no_evidence' => '#ef6c00', 'not_applicable' => '#757575'];
         $html = '<html><head><meta charset="utf-8"><style>body{font-family:DejaVu Sans,sans-serif;font-size:9px;color:#222}h1{font-size:15px;margin:0}h2{font-size:11px;margin:14px 0 4px}'
             .'table{width:100%;border-collapse:collapse}td,th{border:1px solid #bbb;padding:3px;vertical-align:top;text-align:left}th{background:#eee}.muted{color:#666}.s{font-weight:bold}</style></head><body>';
+        $html .= \App\Modules\Agri\Support\OutputBranding::pdfHeader($brand);
         $html .= '<h1>'.e($scheme->name).'</h1><div class="muted">'.$l('subtitle', ['farm' => $farm->name, 'date' => today()->toDateString(), 'by' => $actor->name]).'</div>';
         $html .= '<p class="muted">'.$l('disclaimer').'</p>';
         $html .= '<h2>'.$l('summary').'</h2><table><tr><th>'.$l('level').'</th><th>'.$l('applicable').'</th><th>'.$l('compliant').'</th><th>'.$l('non_compliant').'</th><th>'
@@ -204,8 +212,11 @@ class CertificationSchemes
             $html .= '<tr><td>'.e($p['clause']).'</td><td>'.e(UiLabels::get("agri.certification.levels.{$p['level']}")).'</td><td>'.e($p['requirement']).'</td><td class="s" style="color:'
                 .($colour[$p['status']] ?? '#222').'">'.$st($p['status']).'</td><td>'.($ev ?: '<span class="muted">—</span>').'</td></tr>';
         }
-        $html .= '</table></body></html>';
+        $html .= '</table>';
+        if ($brand['white_label']) {
+            $html .= '<p class="muted">'.$l('prepared_by', ['brand' => e($brand['name'])]).'</p>';
+        }
 
-        return Pdf::loadHTML($html)->setPaper('a4', 'landscape')->output();
+        return $html.'</body></html>';
     }
 }

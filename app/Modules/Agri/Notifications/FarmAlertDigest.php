@@ -32,8 +32,8 @@ class FarmAlertDigest extends Notification
             $mail->line('…and '.(count($this->alerts) - 25).' more.');
         }
 
-        return $mail->action('Open farm alerts', url('/agri/alerts'))
-            ->line('You get these because you manage or supervise these farms, or reach every farm. Alert emails can be turned off per person on the farm\'s People & access tab.');
+        return \App\Modules\Agri\Support\AgriMail::brand($mail->action('Open farm alerts', url('/agri/alerts'))
+            ->line('You get these because you manage or supervise these farms, or reach every farm. Alert emails can be turned off per person on the farm\'s People & access tab.'), $notifiable->company_id ?? null);
     }
 
     public function toArray(object $notifiable): array

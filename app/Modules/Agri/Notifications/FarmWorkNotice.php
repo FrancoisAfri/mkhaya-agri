@@ -20,7 +20,7 @@ class FarmWorkNotice extends Notification
 
     public function toMail(object $notifiable): MailMessage
     {
-        return (new MailMessage)->subject($this->subject)->line($this->text)->action('Open my work', url($this->url));
+        return \App\Modules\Agri\Support\AgriMail::brand((new MailMessage)->subject($this->subject)->line($this->text)->action('Open my work', url($this->url)), $notifiable->company_id ?? null);
     }
 
     public function toArray(object $notifiable): array

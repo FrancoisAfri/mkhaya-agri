@@ -64,14 +64,26 @@ class CompanyMessaging
      */
     public function whatsapp(int $companyId, User $user, array $params): ?string
     {
+        $to = $this->mobile($user);
+        if (! $to) {
+            return 'No cell number on the person\'s HR record.';
+        }
+
+        return $this->whatsappTo($companyId, $to, $params);
+    }
+
+    /**
+     * The same template message, to a number that is not on an HR record (a contracted grower's).
+     *
+     * @param  list<string>  $params
+     * @return string|null an error, or null when sent
+     */
+    public function whatsappTo(int $companyId, string $to, array $params): ?string
+    {
         $wa = CompanyChannel::for('whatsapp', $companyId);
         $s = $wa?->settings() ?? [];
         if (! $wa?->is_active || empty($s['token']) || empty($s['phone_number_id']) || ! $wa->alert_template) {
             return 'WhatsApp is not set up for this organisation.';
-        }
-        $to = $this->mobile($user);
-        if (! $to) {
-            return 'No cell number on the person\'s HR record.';
         }
         $base = rtrim($s['base_url'] ?? 'https://graph.facebook.com/v18.0', '/');
         $r = Http::timeout(10)->withToken($s['token'])->post("{$base}/{$s['phone_number_id']}/messages", [

@@ -28,17 +28,21 @@ use Throwable;
  * Replies are in the person's chosen language where it is supported (English, Afrikaans); the
  * figures in an assistant answer stay as computed. An unknown or unverified number gets nothing
  * but how to link it.
+ *
+ * A number that is not a staff contact may be a contracted grower's, proved by signing in to the
+ * grower portal with a code sent to it: GrowerPortal answers its "balance", "deliveries",
+ * "statement" and "next visit" from that grower's own records.
  */
 class AgriMessaging
 {
     private const T = [
-        'en' => ['unknown' => 'This number is not linked to a Mkhaya Agri account. Link it under My work → Messaging, then send the code you are given.',
+        'en' => ['unknown' => 'This number is not linked to a farm account. Staff: link it under My work → Messaging, then send the code you are given. Growers: sign in to your grower portal once with this number.',
             'verified' => 'Your number is linked. Send "help" to see what you can ask.', 'bad_code' => 'That code is wrong or has expired.',
             'help' => 'Ask a question about your farms, or send: "shift" (your next shifts), "hazard <what>" (report a danger), "obs <what>" (a field observation), "alerts on" / "alerts off".',
             'no_shifts' => 'You have no shifts coming up.', 'shifts' => 'Your next shifts:', 'reported' => 'Reported as :ref. Thank you.', 'observed' => 'Observation recorded on :farm.',
             'alerts_on' => 'Farm alerts will be sent to this number.', 'alerts_off' => 'Farm alerts will no longer be sent here.', 'no_farm' => 'You are not on any farm yet.',
             'not_allowed' => 'Your permissions do not cover that.', 'error' => 'That did not go through: :why'],
-        'af' => ['unknown' => 'Hierdie nommer is nie aan \'n Mkhaya Agri-rekening gekoppel nie. Koppel dit onder My werk → Boodskappe, en stuur dan die kode wat jy kry.',
+        'af' => ['unknown' => 'Hierdie nommer is nie aan \'n plaasrekening gekoppel nie. Personeel: koppel dit onder My werk → Boodskappe, en stuur dan die kode wat jy kry. Produsente: meld een keer met hierdie nommer by jou produsenteportaal aan.',
             'verified' => 'Jou nommer is gekoppel. Stuur "hulp" om te sien wat jy kan vra.', 'bad_code' => 'Daardie kode is verkeerd of het verval.',
             'help' => 'Vra \'n vraag oor jou plase, of stuur: "skof" (jou volgende skofte), "gevaar <wat>" (rapporteer \'n gevaar), "obs <wat>" (\'n veldwaarneming), "waarskuwings aan" / "waarskuwings af".',
             'no_shifts' => 'Jy het geen skofte wat kom nie.', 'shifts' => 'Jou volgende skofte:', 'reported' => 'Gerapporteer as :ref. Dankie.', 'observed' => 'Waarneming aangeteken op :farm.',
@@ -76,7 +80,8 @@ class AgriMessaging
         $text = trim($text);
         $lang = $c?->language ?? 'en';
         if (! $c) {
-            return $this->t('en', 'unknown');
+            // Not a staff number: perhaps a contracted grower's, proved by a code sign-in to their portal.
+            return app(GrowerPortal::class)->messageReply($channel, $from, $text) ?? $this->t('en', 'unknown');
         }
         if (! $c->verified_at) {
             if (preg_match('/(\d{6})/', $text, $m) && $c->code_hash && $c->code_expires_at?->isFuture() && hash_equals($c->code_hash, hash('sha256', $m[1]))) {
@@ -190,20 +195,26 @@ class AgriMessaging
     /** Outbound: an alert or a reply, through the configured provider (the log when none is set). */
     public function send(MessagingContact $c, string $text): bool
     {
+        return $this->sendTo($c->channel, $c->address, $text);
+    }
+
+    /** Outbound to a number (a staff contact's, or a grower's), through the configured provider. */
+    public function sendTo(string $channel, string $address, string $text): bool
+    {
         $driver = config('agri.messaging.driver', 'log');
         try {
-            if ($driver === 'whatsapp_cloud' && $c->channel === 'whatsapp') {
+            if ($driver === 'whatsapp_cloud' && $channel === 'whatsapp') {
                 $r = Http::withToken((string) config('agri.messaging.whatsapp_token'))->timeout(10)->retry(2, 500)
                     ->post('https://graph.facebook.com/v19.0/'.config('agri.messaging.whatsapp_phone_id').'/messages',
-                        ['messaging_product' => 'whatsapp', 'to' => ltrim($c->address, '+'), 'type' => 'text', 'text' => ['body' => mb_strimwidth($text, 0, 4000)]]);
+                        ['messaging_product' => 'whatsapp', 'to' => ltrim($address, '+'), 'type' => 'text', 'text' => ['body' => mb_strimwidth($text, 0, 4000)]]);
 
                 return $r->successful();
             }
-            Log::channel(config('logging.default'))->info('agri.message', ['to' => $c->address, 'channel' => $c->channel, 'text' => $text]);
+            Log::channel(config('logging.default'))->info('agri.message', ['to' => $address, 'channel' => $channel, 'text' => $text]);
 
             return true;
         } catch (Throwable $e) {
-            Log::warning('agri.message.failed', ['to' => $c->address, 'error' => $e->getMessage()]);
+            Log::warning('agri.message.failed', ['to' => $address, 'error' => $e->getMessage()]);
 
             return false;
         }

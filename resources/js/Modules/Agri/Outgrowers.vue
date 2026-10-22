@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
+import { useI18n } from 'vue-i18n'
 import PageErrors from './Components/PageErrors.vue'
 import FormDialog, { type FormField } from './Components/FormDialog.vue'
 import FarmFilter from './Components/FarmFilter.vue'
@@ -14,7 +15,33 @@ const props = defineProps<{
   growers: any[]; contracts: any[]; advances: any[]; inspections: any[]; collections: any[]; settlements: any[]; forecast: any[]
   options: { stores: any[]; items: any[] }
   can: { manage: boolean; approve: boolean }
+  portal: {
+    accounts: Array<{ id: string; grower_id: number; grower: string; name: string; mobile: string | null; email: string | null; locale: string; status: string;
+      mobile_verified: boolean; last_login_at: string | null; invited_at: string | null }>
+    activity: Array<{ id: string; at: string; grower: string; event: string; channel: string | null; ip: string | null; by: string | null; detail: Record<string, any> | null }>
+    reports: Array<{ id: string; grower: string; kind: string; date: string; planted_on: string | null; hectares: number | null; details: string; has_photo: boolean; status: string; response: string | null }>
+    visits: Array<{ id: string; grower: string; date: string; purpose: string; notes: string | null; status: string }>
+    notices: Array<{ id: string; grower: string | null; title: string; body: string; date: string }>
+    login_url: string
+  }
 }>()
+const { t } = useI18n()
+const p = (key: string, params?: Record<string, unknown>) => t(`agri.outgrower_portal.${key}`, params ?? {})
+const accountOf = (g: any) => props.portal.accounts.find(a => a.grower_id === g.id)
+const purposes = ['inspection', 'field_visit', 'collection', 'training']
+const inviteFields = computed<FormField[]>(() => [{ key: 'name', label: p('name'), cols: 12 }, { key: 'mobile', label: p('mobile'), hint: p('mobile_hint'), cols: 6 },
+  { key: 'email', label: p('email'), cols: 6 },
+  { key: 'locale', label: p('language'), type: 'select', items: [{ title: 'English', value: 'en' }, { title: 'Afrikaans', value: 'af' }], cols: 6 }])
+const noticeFields = computed<FormField[]>(() => [{ key: 'grower_id', label: p('to'), type: 'select', items: [{ title: p('all_growers'), value: '' },
+  ...props.growers.map((g: any) => ({ title: `${g.code} ${g.name ?? ''}`, value: g.uuid }))], cols: 12 },
+  { key: 'title', label: p('title'), required: true, cols: 12 }, { key: 'body', label: p('body'), type: 'textarea', required: true, cols: 12 }])
+const visitFields = computed<FormField[]>(() => [{ key: 'planned_on', label: p('date'), type: 'date', required: true, cols: 6 },
+  { key: 'purpose', label: p('purpose'), type: 'select', required: true, items: purposes.map(x => ({ title: p(`purpose_${x}`), value: x })), cols: 6 },
+  { key: 'notes', label: p('notes'), type: 'textarea', cols: 12 }])
+const answerFields = computed<FormField[]>(() => [{ key: 'response', label: p('answer'), type: 'textarea', required: true, cols: 12 },
+  { key: 'status', label: p('status'), type: 'select', items: [{ title: p('status_answered'), value: 'answered' }, { title: p('status_closed'), value: 'closed' }], cols: 6 }])
+const revoke = (a: any) => router.post(route('agri.outgrowers.portal.revoke', a.id), {}, keep)
+const restore = (a: any) => router.post(route('agri.outgrowers.portal.restore', a.id), {}, keep)
 const tab = ref('growers')
 const keep = { preserveScroll: true }
 const dialog = ref<null | { kind: string; row?: any }>(null)
@@ -52,7 +79,7 @@ const approveSettlement = (s: any) => router.post(route('agri.outgrowers.settlem
         <FarmFilter :farms="farms" :model-value="farm?.id" :allow-all="false" /></div>
     </div>
     <VTabs v-model="tab" class="mb-4"><VTab value="growers">Growers</VTab><VTab value="contracts">Contracts</VTab><VTab value="forecast">Forecast</VTab>
-      <VTab value="collections">Collections</VTab><VTab value="settlements">Settlements</VTab></VTabs>
+      <VTab value="collections">Collections</VTab><VTab value="settlements">Settlements</VTab><VTab value="portal">{{ p('tab') }}</VTab></VTabs>
 
     <VCard v-if="tab === 'growers'"><VTable density="compact">
       <thead><tr><th>Grower</th><th class="text-end">Advanced</th><th class="text-end">Outstanding</th><th class="text-end">Collected</th><th class="text-end">To pay</th><th /></tr></thead>
@@ -70,7 +97,8 @@ const approveSettlement = (s: any) => router.post(route('agri.outgrowers.settlem
         <td class="text-end text-no-wrap">
           <VBtn v-if="can.approve && c.status === 'draft'" size="x-small" color="success" variant="tonal" @click="approve(c)">Approve</VBtn>
           <template v-if="can.manage && c.status === 'active'"><VBtn size="x-small" variant="text" @click="dialog = { kind: 'advance', row: c }">Advance</VBtn>
-            <VBtn size="x-small" variant="text" @click="dialog = { kind: 'inspect', row: c }">Inspect</VBtn><VBtn size="x-small" variant="tonal" @click="dialog = { kind: 'collect', row: c }">Collect</VBtn></template></td></tr>
+            <VBtn size="x-small" variant="text" @click="dialog = { kind: 'inspect', row: c }">Inspect</VBtn>
+            <VBtn size="x-small" variant="text" @click="dialog = { kind: 'visit', row: c }">{{ p('plan_visit') }}</VBtn><VBtn size="x-small" variant="tonal" @click="dialog = { kind: 'collect', row: c }">Collect</VBtn></template></td></tr>
         <tr v-if="!contracts.length"><td colspan="6" class="text-center text-medium-emphasis py-4">No contracts.</td></tr></tbody>
     </VTable></VCard>
 
@@ -93,6 +121,72 @@ const approveSettlement = (s: any) => router.post(route('agri.outgrowers.settlem
         <td class="text-end"><VBtn v-if="can.approve && s.status === 'draft'" size="x-small" color="success" variant="tonal" @click="approveSettlement(s)">Approve</VBtn></td></tr></tbody>
     </VTable></VCard>
 
+    <template v-if="tab === 'portal'">
+      <VCard class="mb-4" :title="p('accounts')" :subtitle="p('accounts_hint', { url: portal.login_url })">
+        <template #append><VBtn v-if="can.manage" size="small" variant="tonal" prepend-icon="tabler-send" @click="dialog = { kind: 'notice' }">{{ p('send_message') }}</VBtn></template>
+        <VTable density="compact">
+          <thead><tr><th>{{ p('grower') }}</th><th>{{ p('sign_in_with') }}</th><th>{{ p('status') }}</th><th>{{ p('last_sign_in') }}</th><th /></tr></thead>
+          <tbody><tr v-for="g in growers" :key="g.id">
+            <td>{{ g.code }} {{ g.name }}</td>
+            <td><template v-if="accountOf(g)">{{ accountOf(g)?.mobile }}<VIcon v-if="accountOf(g)?.mobile_verified" icon="tabler-brand-whatsapp" size="14" class="ms-1" :title="p('number_proved')" />
+              <div class="text-caption">{{ accountOf(g)?.email }}</div></template></td>
+            <td><VChip v-if="accountOf(g)" size="x-small" :color="statusColor(accountOf(g)?.status === 'revoked' ? 'rejected' : accountOf(g)?.status === 'invited' ? 'submitted' : 'active')">{{ p('status_' + accountOf(g)?.status) }}</VChip>
+              <span v-else class="text-caption text-medium-emphasis">{{ p('not_invited') }}</span></td>
+            <td class="text-caption">{{ accountOf(g)?.last_login_at ?? '' }}</td>
+            <td class="text-end text-no-wrap"><template v-if="can.manage">
+              <VBtn size="x-small" variant="text" @click="dialog = { kind: 'invite', row: g }">{{ accountOf(g) ? p('reinvite') : p('invite') }}</VBtn>
+              <VBtn v-if="accountOf(g) && accountOf(g)?.status !== 'revoked'" size="x-small" variant="tonal" color="error" @click="revoke(accountOf(g))">{{ p('revoke') }}</VBtn>
+              <VBtn v-if="accountOf(g)?.status === 'revoked'" size="x-small" variant="tonal" @click="restore(accountOf(g))">{{ p('restore') }}</VBtn></template></td>
+          </tr></tbody>
+        </VTable>
+      </VCard>
+
+      <VCard class="mb-4" :title="p('reports')">
+        <VTable density="compact">
+          <thead><tr><th>{{ p('date') }}</th><th>{{ p('grower') }}</th><th>{{ p('report') }}</th><th>{{ p('status') }}</th><th /></tr></thead>
+          <tbody><tr v-for="r in portal.reports" :key="r.id">
+            <td class="text-no-wrap">{{ r.date }}</td><td>{{ r.grower }}</td>
+            <td><div class="font-weight-medium">{{ p('kind_' + r.kind) }}<template v-if="r.planted_on"> · {{ r.planted_on }}</template><template v-if="r.hectares"> · {{ r.hectares }} ha</template></div>
+              <div class="text-body-2">{{ r.details }}</div><div v-if="r.response" class="text-caption text-primary">{{ r.response }}</div></td>
+            <td><VChip size="x-small" :color="statusColor(r.status === 'answered' ? 'active' : r.status)">{{ p('status_' + r.status) }}</VChip></td>
+            <td class="text-end text-no-wrap"><VBtn v-if="r.has_photo" size="x-small" variant="text" icon="tabler-photo" :href="route('agri.outgrowers.reports.photo', r.id)" target="_blank" :aria-label="p('photo')" />
+              <VBtn v-if="can.manage && r.status === 'open'" size="x-small" variant="tonal" @click="dialog = { kind: 'answer', row: r }">{{ p('answer') }}</VBtn></td>
+          </tr><tr v-if="!portal.reports.length"><td colspan="5" class="text-center text-medium-emphasis py-4">{{ p('no_reports') }}</td></tr></tbody>
+        </VTable>
+      </VCard>
+
+      <VRow>
+        <VCol cols="12" md="6"><VCard :title="p('visits')"><VList density="compact">
+          <VListItem v-for="v in portal.visits" :key="v.id"><VListItemTitle>{{ v.date }} · {{ v.grower }} · {{ p('purpose_' + v.purpose) }}</VListItemTitle>
+            <VListItemSubtitle>{{ v.notes ?? '' }}</VListItemSubtitle></VListItem>
+          <VListItem v-if="!portal.visits.length"><VListItemSubtitle>{{ p('no_visits') }}</VListItemSubtitle></VListItem></VList></VCard></VCol>
+        <VCol cols="12" md="6"><VCard :title="p('messages')"><VList density="compact">
+          <VListItem v-for="n in portal.notices" :key="n.id"><VListItemTitle>{{ n.title }}</VListItemTitle>
+            <VListItemSubtitle>{{ n.date }} · {{ n.grower ?? p('all_growers') }}</VListItemSubtitle></VListItem>
+          <VListItem v-if="!portal.notices.length"><VListItemSubtitle>{{ p('no_messages') }}</VListItemSubtitle></VListItem></VList></VCard></VCol>
+      </VRow>
+
+      <VCard class="mt-4" :title="p('activity')">
+        <VTable density="compact">
+          <thead><tr><th>{{ p('when') }}</th><th>{{ p('grower') }}</th><th>{{ p('what') }}</th><th>{{ p('channel') }}</th><th>{{ p('by_or_from') }}</th></tr></thead>
+          <tbody><tr v-for="e in portal.activity" :key="e.id">
+            <td class="text-no-wrap text-caption">{{ e.at }}</td><td>{{ e.grower }}</td>
+            <td>{{ p('event_' + e.event) }}<span v-if="e.detail?.command" class="text-caption"> · {{ e.detail.command }}</span></td>
+            <td>{{ e.channel ?? '' }}</td><td class="text-caption">{{ e.by ?? e.ip ?? '' }}</td>
+          </tr><tr v-if="!portal.activity.length"><td colspan="5" class="text-center text-medium-emphasis py-4">{{ p('no_activity') }}</td></tr></tbody>
+        </VTable>
+      </VCard>
+    </template>
+
+    <FormDialog v-if="dialog?.kind === 'invite'" :model-value="true" :title="p('invite_title', { code: dialog.row.code })" :url="route('agri.outgrowers.portal.invite', dialog.row.uuid)"
+      :fields="inviteFields" :intro="p('invite_intro')" :values="{ name: accountOf(dialog.row)?.name ?? dialog.row.name, mobile: accountOf(dialog.row)?.mobile, email: accountOf(dialog.row)?.email, locale: accountOf(dialog.row)?.locale ?? 'en' }"
+      @update:model-value="close" />
+    <FormDialog v-if="dialog?.kind === 'notice'" :model-value="true" :title="p('send_message')" :url="route('agri.outgrowers.notices.store')" :fields="noticeFields"
+      :values="{ farm_id: farm?.id, grower_id: '' }" @update:model-value="close" />
+    <FormDialog v-if="dialog?.kind === 'visit'" :model-value="true" :title="p('visit_title', { ref: dialog.row.reference })" :url="route('agri.outgrowers.visits.store', dialog.row.uuid)"
+      :fields="visitFields" :values="{ planned_on: today(), purpose: 'inspection' }" @update:model-value="close" />
+    <FormDialog v-if="dialog?.kind === 'answer'" :model-value="true" :title="p('answer_title', { grower: dialog.row.grower })" :url="route('agri.outgrowers.reports.answer', dialog.row.id)"
+      :fields="answerFields" :values="{ status: 'answered' }" @update:model-value="close" />
     <FormDialog v-if="dialog?.kind === 'grower'" :model-value="true" title="Grower" :url="route('agri.outgrowers.store')" :fields="growerFields" :values="{ farm_id: farm?.id }" @update:model-value="close" />
     <FormDialog v-if="dialog?.kind === 'contract'" :model-value="true" :title="`Contract for ${dialog.row.code}`" :url="route('agri.outgrowers.contracts.store', dialog.row.uuid)" :fields="contractFields" :values="{ unit: 'kg' }" @update:model-value="close" />
     <FormDialog v-if="dialog?.kind === 'advance'" :model-value="true" :title="`Advance on ${dialog.row.reference}`" :url="route('agri.outgrowers.advances.store', dialog.row.uuid)" :fields="advanceFields" :values="{ kind: 'input', issued_on: today() }" @update:model-value="close" />

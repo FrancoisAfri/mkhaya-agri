@@ -39,7 +39,8 @@ class FarmTaskUpdate extends Notification
             $mail->line('Note: '.$this->note);
         }
 
-        return $mail->action($this->event === self::SUBMITTED ? 'Review it' : 'Open my work', url($this->event === self::SUBMITTED ? '/agri/tasks?view=review' : '/agri/my-work'));
+        return \App\Modules\Agri\Support\AgriMail::brand($mail->action($this->event === self::SUBMITTED ? 'Review it' : 'Open my work', url($this->event === self::SUBMITTED ? '/agri/tasks?view=review' : '/agri/my-work')),
+            $notifiable->company_id ?? null);
     }
 
     public function toArray(object $notifiable): array

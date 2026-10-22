@@ -185,6 +185,10 @@ class SeedAgriDemoAreas extends Command
             $this->area('Market price feed, SAFEX maize history and hedges', fn () => \App\Modules\Agri\Models\PriceFeed::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->marketFeeds());
             $this->area('Grain loads (weighbridge, silo, buyer, lost load, settlement)', fn () => \App\Modules\Agri\Models\GrainTicket::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->grainLoads());
             $this->area('Season processes (crop cycle on the workflow engine)', fn () => \App\Modules\Workflow\Models\WorkflowDefinition::query()->where('key', 'agri_field_season')->exists(), fn () => $this->seasonProcesses());
+            // The grower portal: two growers with sign-ins, messages from the company, a visit and a report.
+            $this->area('Grower portal (two growers signed up, messages, a visit, a report)', fn () => \App\Modules\Agri\Models\GrowerAccount::withoutGlobalScopes()
+                ->where('company_id', $this->companyId)->exists(), fn () => $this->growerPortal());
+            $this->growerLogins();
 
             $this->newLine();
             $failed = collect($this->results)->filter(fn ($r) => str_starts_with($r, 'FAILED'))->count();
@@ -1559,6 +1563,63 @@ class SeedAgriDemoAreas extends Command
         $og->draftSettlement($b->fresh(), $this->as('finance'));
 
         return "3 growers, 2 contracts, 2 advances, 2 inspections, 3 collections, 2 settlements (1 approved)";
+    }
+
+    private const GROWER_PASSWORD = 'GrowerDemo2026!';
+
+    /**
+     * Two of the Rivier outgrowers with portal sign-ins (already proved, so WhatsApp commands answer
+     * on their numbers), two messages from the company, a planned inspection and a planting report.
+     * Written directly rather than through the invitation, so running the demo sends nobody an SMS.
+     */
+    private function growerPortal(): string
+    {
+        $owner = $this->as('owner');
+        $made = 0;
+        foreach (['GR-001' => ['Thandi Mahlangu', '+27827741120', 'thandi@mahlangu.demo'], 'GR-002' => ['Mpho Tshivhase', '+27763320918', null]] as $code => [$name, $mobile, $email]) {
+            $g = Grower::query()->where('code', $code)->first();
+            if (! $g) {
+                continue;
+            }
+            $a = \App\Modules\Agri\Models\GrowerAccount::create(['company_id' => $this->companyId, 'grower_id' => $g->id, 'name' => $name, 'mobile' => $mobile, 'email' => $email,
+                'locale' => $code === 'GR-002' ? 'af' : 'en', 'status' => 'active', 'password' => self::GROWER_PASSWORD, 'mobile_verified_at' => now()->subDays(3),
+                'invited_at' => now()->subDays(5), 'invited_by' => $owner->id, 'last_login_at' => now()->subDays(1), 'last_login_ip' => '196.21.0.10']);
+            $portal = app(\App\Modules\Agri\Services\GrowerPortal::class);
+            $portal->event($a, 'invited', 'web', null, null, ['mobile' => $mobile, 'email' => $email], $owner->id);
+            $portal->event($a, 'signed_in', 'web', '196.21.0.10', 'Mozilla/5.0 (Linux; Android 14)', ['by' => 'whatsapp']);
+            $portal->event($a, 'command', 'whatsapp', null, null, ['command' => 'balance']);
+            $made++;
+        }
+        \App\Modules\Agri\Models\GrowerNotice::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'title' => 'Lemon intake times this week',
+            'body' => "The packhouse takes outgrower bins Monday to Friday, 07:00–15:00.\nBring your delivery note; bins over 18 °C pulp temperature are held back.", 'sent_by' => $owner->id]);
+        $g1 = Grower::query()->where('code', 'GR-001')->first();
+        if ($g1) {
+            \App\Modules\Agri\Models\GrowerNotice::create(['company_id' => $this->companyId, 'farm_id' => $this->rivier->id, 'grower_id' => $g1->id, 'title' => 'Thrips on the north rows',
+                'body' => 'The last inspection found thrips scarring on the north rows. Our officer will bring the spray programme on the next visit.', 'sent_by' => $owner->id]);
+            $c = \App\Modules\Agri\Models\GrowerContract::query()->where('grower_id', $g1->id)->first();
+            \App\Modules\Agri\Models\GrowerVisit::create(['company_id' => $this->companyId, 'grower_id' => $g1->id, 'contract_id' => $c?->id, 'planned_on' => today()->addDays(6),
+                'purpose' => 'inspection', 'notes' => 'Pre-harvest inspection and spray programme.', 'status' => 'planned', 'officer_id' => $owner->id, 'created_by' => $owner->id]);
+            \App\Modules\Agri\Models\GrowerReport::create(['company_id' => $this->companyId, 'grower_id' => $g1->id, 'contract_id' => $c?->id, 'kind' => 'planting',
+                'planted_on' => today()->subDays(10), 'hectares' => 2.5, 'details' => 'Replanted 2.5 ha of Eureka lemons on the east block after the hail.', 'status' => 'open']);
+        }
+
+        return "{$made} grower sign-ins, 2 messages, 1 planned visit, 1 planting report";
+    }
+
+    private function growerLogins(): void
+    {
+        $uuid = DB::table('companies')->where('id', $this->companyId)->value('uuid');
+        $accounts = \App\Modules\Agri\Models\GrowerAccount::withoutGlobalScopes()->where('company_id', $this->companyId)->where('status', 'active')->get();
+        if ($accounts->isEmpty()) {
+            return;
+        }
+        $this->newLine();
+        $this->line('  Grower portal: '.route('grower.portal.login', ['c' => $uuid]));
+        foreach ($accounts as $a) {
+            $this->line(sprintf('    %-18s %-14s password %s  (or a one-time code to %s)', $a->name, $a->mobile ?? $a->email, self::GROWER_PASSWORD, $a->email ?? $a->mobile));
+        }
+        $this->line('  White label is off for this organisation. To see the portal, trace page and PDFs in its own name: as a platform admin,');
+        $this->line('  Platform → Companies → White-label on (or: UPDATE companies SET white_label = true WHERE id = '.$this->companyId.'), then upload the company logo in its branding settings.');
     }
 
     private function sheq(): string

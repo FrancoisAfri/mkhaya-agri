@@ -6,7 +6,6 @@ use App\Modules\Agri\Models\ProduceLot;
 use App\Modules\Agri\Models\TraceToken;
 use App\Modules\Agri\Services\PublicTrace;
 use App\Modules\Agri\Support\RoleCatalog as R;
-use App\Modules\Agri\Support\UiLabels;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -104,7 +103,7 @@ class TraceController extends AgriController
                     'qr' => 'data:image/svg+xml;base64,'.base64_encode($this->trace->qrSvg($t, 220))];
             }
         }
-        $html = view('agri.trace-labels', ['labels' => $labels, 'scan' => UiLabels::get('agri.trace_public.scan_label')])->render();
+        $html = $this->trace->labelsHtml($labels, (int) $tokens->first()->company_id);
 
         return Pdf::loadHTML($html)->setPaper('a4')->stream('trace-labels.pdf');
     }

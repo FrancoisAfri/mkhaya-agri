@@ -356,6 +356,14 @@ class ExportDocuments
 
     // ── the documents ────────────────────────────────────────────────────────────────────────
 
+    /** The HTML a document of the pack is printed from (what the PDF shows), for the current data. */
+    public function documentHtml(ExportConsignment $c, string $kind): string
+    {
+        $version = (int) ExportDocument::withoutGlobalScopes()->where('consignment_id', $c->id)->where('kind', $kind)->max('version');
+
+        return $this->html($kind, $this->data($c), $c, max(1, $version));
+    }
+
     private function html(string $kind, array $d, ExportConsignment $c, int $version): string
     {
         $L = fn (string $k, array $p = []) => e(UiLabels::get("agri.exports.pdf.{$k}", $p));
@@ -369,6 +377,8 @@ class ExportDocuments
         $out = '<html><head><meta charset="utf-8"><style>body{font-family:DejaVu Sans,sans-serif;font-size:9.5px;color:#222}h1{font-size:16px;margin:0 0 2px}h2{font-size:11px;margin:12px 0 4px}'
             .'table{width:100%;border-collapse:collapse;margin-bottom:6px}td,th{border:1px solid #bbb;padding:3px;text-align:left;vertical-align:top}th{background:#f0f0f0}'
             .'.kv th{width:18%}.note{border:1px solid #ef6c00;background:#fff3e0;padding:5px;margin:6px 0}.muted{color:#666}.r{text-align:right}</style></head><body>';
+        $brand = \App\Modules\Agri\Support\OutputBranding::for((int) $c->company_id);
+        $out .= \App\Modules\Agri\Support\OutputBranding::pdfHeader($brand);
         $out .= '<h1>'.e(UiLabels::get("agri.exports.kinds.{$kind}")).'</h1><div class="muted">'.$L('header', ['ref' => $c->reference, 'version' => $version, 'date' => today()->toDateString(),
             'load' => $d['load'] ?? '—', 'order' => $d['order'] ?? '—']).'</div>';
         if (in_array($kind, self::APPLICATIONS, true)) {
@@ -402,7 +412,7 @@ class ExportDocuments
         if ($kind === 'commercial_invoice') {
             $out .= '<div>'.$L('invoice_total', ['currency' => $v('currency'), 'amount' => number_format($sum('amount'), 2), 'incoterm' => $v('incoterm')]).'</div>';
         }
-        $out .= '<p class="muted">'.$L('footer').'</p></body></html>';
+        $out .= '<p class="muted">'.$L('footer', ['brand' => \App\Modules\Agri\Support\OutputBranding::credit($brand)]).'</p></body></html>';
 
         return $out;
     }

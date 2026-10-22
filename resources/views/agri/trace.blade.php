@@ -22,10 +22,16 @@
         .badge { display: inline-block; background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent); border-radius: 999px; padding: 2px 10px; font-size: .85rem; margin: 2px 4px 2px 0; font-weight: 600; }
         .warn { border-color: var(--warn); color: var(--warn); font-weight: 600; }
         footer { color: var(--muted); font-size: .8rem; text-align: center; margin-top: 18px; }
+        .brand { display: flex; align-items: center; gap: 10px; margin: 0 0 14px; font-weight: 600; }
+        .brand img { height: 36px; width: auto; max-width: 160px; object-fit: contain; }
     </style>
 </head>
 <body>
 <main>
+    @php($brand = $s['brand'] ?? ['white_label' => false, 'name' => \App\Modules\Tenancy\Services\CompanyBranding::PRODUCT, 'logo_data_uri' => null])
+    @if ($brand['white_label'])
+        <div class="brand">@if ($brand['logo_data_uri'])<img src="{{ $brand['logo_data_uri'] }}" alt="">@endif<span>{{ $brand['name'] }}</span></div>
+    @endif
     @if ($s['withdrawn'])
         <div class="card warn">{{ $L('withdrawn') }}</div>
     @endif
@@ -54,7 +60,7 @@
             @foreach ($s['certifications'] as $c)<span class="badge">{{ $c }}</span>@endforeach
         </div>
     @endif
-    <footer>{{ $L('footer') }}</footer>
+    <footer>{{ $L('footer', ['brand' => $brand['name']]) }}</footer>
 </main>
 </body>
 </html>

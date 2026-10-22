@@ -41,6 +41,13 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        // Mkhaya Agri contracted growers signing in to their own portal. Separate from 'web' so a
+        // grower's sign-in is accepted by no staff route, role check or module gate.
+        'grower_portal' => [
+            'driver' => 'session',
+            'provider' => 'grower_accounts',
+        ],
     ],
 
     /*
@@ -64,6 +71,11 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => env('AUTH_MODEL', App\Core\User\Models\User::class),
+        ],
+
+        'grower_accounts' => [
+            'driver' => 'eloquent',
+            'model' => App\Modules\Agri\Models\GrowerAccount::class,
         ],
 
         // 'users' => [

@@ -280,9 +280,13 @@ class HandleInertiaRequests extends Middleware
     }
 
     /**
-     * White-label branding shared to the frontend: whether the feature is active for
-     * this user's company, and the company's in-system logo URL when it is. self_hosted
-     * is always white-label. Falls back to null so the UI uses the default logo.
+     * White-label branding shared to the frontend: whether the feature is active for the company
+     * in play, and that company's in-system logo URL and name when it is. self_hosted is always
+     * white-label. Falls back to null so the UI uses the default logo.
+     *
+     * The company in play is the current one (CurrentCompany, set by ResolveCompany) — for a
+     * platform administrator switched into a client that is the client, whose branding they must
+     * see — falling back to the user's home company.
      *
      * @return array{white_label: bool, system_logo: ?string, system_name: ?string}
      */
@@ -293,30 +297,19 @@ class HandleInertiaRequests extends Middleware
             return $off;
         }
 
-        $cid = $user->company_id ?? null;
-        $whiteLabel = Edition::isSelfHosted()
-            || ($cid && (bool) DB::table('companies')->where('id', $cid)->value('white_label'));
-
-        if (! $whiteLabel) {
+        $branding = app(\App\Modules\Tenancy\Services\CompanyBranding::class);
+        $b = $branding->for($branding->companyIdFor($user), withLogoData: false);
+        if (! $b['white_label']) {
             return $off;
         }
-
-        $identity = $cid
-            ? DB::table('company_identities')
-                ->where('company_id', $cid)
-                ->first(['company_logo', 'company_name', 'full_company_name'])
-            : null;
-
-        $raw = $identity->company_logo ?? null;
-        $name = trim((string) ($identity->company_name ?? '')) ?: trim((string) ($identity->full_company_name ?? ''));
 
         return [
             'white_label' => true,
             // Served from the DB via the branding route; the version tag busts the
             // browser cache whenever the logo changes.
-            'system_logo' => $raw ? '/settings/branding/logo?v='.substr(md5($raw), 0, 10) : null,
+            'system_logo' => $b['has_logo'] ? '/settings/branding/logo?v='.$b['logo_version'] : null,
             // The company's own name replaces the product name in the header.
-            'system_name' => $name !== '' ? $name : null,
+            'system_name' => $b['name'],
         ];
     }
 

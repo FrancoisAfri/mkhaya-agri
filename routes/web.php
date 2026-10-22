@@ -157,6 +157,8 @@ Route::middleware(['web'])->patch('/user/locale', function (\Illuminate\Http\Req
 require __DIR__.'/modules/agri-pwa.php';
 // Mkhaya Agri consumer trace page (QR code on the pack): public, no login.
 require __DIR__.'/modules/agri-public.php';
+// Mkhaya Agri grower portal: contracted growers on their own guard, outside the staff group.
+require __DIR__.'/modules/agri-grower-portal.php';
 
 Route::middleware(['auth', 'auth.lock', 'check.banned', 'prevent-back-history', 'crud.permissions'])->group(function () {
 

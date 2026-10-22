@@ -133,7 +133,8 @@ class PublicTrace
                 $story = Cache::remember($this->cacheKey($row->id), now()->addMinutes(10), fn () => $this->story(TraceToken::withoutGlobalScopes()->findOrFail($row->id)));
                 DB::table('agri_trace_tokens')->where('id', $row->id)->update(['views' => DB::raw('views + 1'), 'last_viewed_at' => now()]);
 
-                return $story;
+                // Resolved on every view, not cached with the story: switching white label on or off shows at once.
+                return $story + ['brand' => \App\Modules\Agri\Support\OutputBranding::for((int) $row->company_id)];
             });
         });
     }
@@ -142,6 +143,14 @@ class PublicTrace
      * The consumer story: built field by field from what the token allows. Nothing that is not
      * named here can reach the page.
      */
+    /** The printable sheet of QR labels, wearing the company's name where it is white-labelled. */
+    public function labelsHtml(array $labels, int $companyId): string
+    {
+        $brand = \App\Modules\Agri\Support\OutputBranding::for($companyId);
+
+        return view('agri.trace-labels', ['labels' => $labels, 'scan' => \App\Modules\Agri\Support\UiLabels::get('agri.trace_public.scan_label'), 'brand' => $brand])->render();
+    }
+
     public function story(TraceToken $token): array
     {
         $v = $this->clean($token->visibility ?? []);

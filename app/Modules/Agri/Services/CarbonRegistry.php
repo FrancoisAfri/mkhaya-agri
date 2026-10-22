@@ -306,15 +306,22 @@ class CarbonRegistry
 
     private function summaryPdf(CarbonRegistration $reg, EnvironmentRecord $project, Farm $farm, Collection $periods): string
     {
+        return Pdf::loadHTML($this->summaryHtml($reg, $project, $farm, $periods))->setPaper('a4')->output();
+    }
+
+    /** What the registry summary PDF is printed from; headed with the company's logo and name where it is white-labelled. */
+    public function summaryHtml(CarbonRegistration $reg, EnvironmentRecord $project, Farm $farm, Collection $periods): string
+    {
         $issuances = CarbonIssuance::query()->where('registration_id', $reg->id)->orderBy('issued_on')->get();
         $html = view('agri.carbon-summary', [
             'reg' => $reg, 'project' => $project, 'farm' => $farm, 'periods' => $periods, 'issuances' => $issuances,
             'balance' => $this->balance($reg), 'registry' => self::REGISTRIES[$reg->registry] === 'Other' ? ($reg->registry_name ?: 'Other') : self::REGISTRIES[$reg->registry],
             'L' => fn (string $k, array $p = []) => UiLabels::get('agri.carbon.'.$k, $p),
             'monitoring' => CarbonMonitoring::query()->whereIn('period_id', $periods->pluck('id'))->get()->groupBy('period_id'),
+            'brand' => \App\Modules\Agri\Support\OutputBranding::for((int) $farm->company_id),
         ])->render();
 
-        return Pdf::loadHTML($html)->setPaper('a4')->output();
+        return $html;
     }
 
     private function checkRegistry(array $data): void

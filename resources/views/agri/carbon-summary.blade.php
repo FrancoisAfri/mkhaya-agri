@@ -13,6 +13,7 @@
     .r { text-align: right; }
 </style></head>
 <body>
+{!! \App\Modules\Agri\Support\OutputBranding::pdfHeader($brand ?? ['white_label' => false]) !!}
 <h1>{{ $L('summary_title') }}</h1>
 <div>{{ $project->description }}</div>
 
@@ -58,5 +59,5 @@
     <tr><td>{{ $L('transferred') }}</td><td>{{ number_format($balance['transferred'], 3) }} tCO2e</td></tr>
     <tr><td>{{ $L('held') }}</td><td>{{ number_format($balance['held'], 3) }} tCO2e</td></tr>
 </table>
-<p class="note">{{ $L('no_api') }} {{ $L('generated', ['at' => now()->format('Y-m-d H:i')]) }}</p>
+<p class="note">{{ $L('no_api') }} {{ $L('generated', ['at' => now()->format('Y-m-d H:i')]) }}@if (! empty($brand['white_label'])) {{ $L('prepared_by', ['brand' => $brand['name']]) }}@endif</p>
 </body></html>

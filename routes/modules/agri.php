@@ -179,6 +179,14 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/outgrower-contracts/{contract}/inspections', [OutgrowerController::class, 'inspect'])->name('outgrowers.inspections.store');
         Route::post('/outgrower-contracts/{contract}/collections', [OutgrowerController::class, 'collect'])->name('outgrowers.collections.store');
         Route::post('/outgrower-settlements/{settlement}/approve', [OutgrowerController::class, 'approveSettlement'])->name('outgrowers.settlements.approve');
+        // The grower portal, from the staff side: invite, withdraw, messages, visits, grower reports.
+        Route::post('/outgrowers/{grower}/portal', [OutgrowerController::class, 'invite'])->name('outgrowers.portal.invite');
+        Route::post('/outgrower-accounts/{account}/revoke', [OutgrowerController::class, 'revoke'])->name('outgrowers.portal.revoke');
+        Route::post('/outgrower-accounts/{account}/restore', [OutgrowerController::class, 'restore'])->name('outgrowers.portal.restore');
+        Route::post('/outgrower-notices', [OutgrowerController::class, 'notice'])->name('outgrowers.notices.store');
+        Route::post('/outgrower-contracts/{contract}/visits', [OutgrowerController::class, 'scheduleVisit'])->name('outgrowers.visits.store');
+        Route::post('/outgrower-reports/{growerReport}/answer', [OutgrowerController::class, 'answerReport'])->name('outgrowers.reports.answer');
+        Route::get('/outgrower-reports/{growerReport}/photo', [OutgrowerController::class, 'reportPhoto'])->name('outgrowers.reports.photo');
 
         // Satellite crop health: NDVI per field and zone fetched from the organisation's provider.
         Route::get('/crop-health', [SatelliteController::class, 'index'])->name('satellite.index');
