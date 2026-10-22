@@ -26,6 +26,7 @@ class FarmRegistry
         'crop_plans', 'field_activities', 'crop_observations', 'harvest_records',
         'livestock_groups', 'animals', 'animal_health_records',
         'farm_budget_lines', 'farm_transactions', 'fleet_vehicles', 'farm_tasks',
+        'field_boundary_versions', 'field_zones', 'field_map_imports',
     ];
 
     public function __construct(private FarmAccess $access) {}

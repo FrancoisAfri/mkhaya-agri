@@ -31,7 +31,7 @@ class FarmField extends Model
     protected $fillable = [
         'uuid', 'company_id', 'farm_id', 'code', 'name', 'land_use_type', 'area', 'area_unit',
         'soil_type', 'irrigation', 'latitude', 'longitude', 'boundary', 'status', 'notes', 'created_by',
-        'slope_pct', 'water_source', 'parent_field_id',
+        'slope_pct', 'water_source', 'parent_field_id', 'mapped_area_ha',
     ];
 
     protected $casts = [
@@ -39,6 +39,7 @@ class FarmField extends Model
         'latitude' => 'decimal:7',
         'longitude' => 'decimal:7',
         'boundary' => 'array',
+        'mapped_area_ha' => 'decimal:4',
     ];
 
     protected static function booted(): void

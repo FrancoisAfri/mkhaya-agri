@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { Link, router, useForm } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
+import { useI18n } from 'vue-i18n'
 import PageErrors from '../Components/PageErrors.vue'
 
 type Farm = {
@@ -32,6 +33,7 @@ const props = defineProps<{
   can: { manage: boolean; manage_fields: boolean; manage_access: boolean }
 }>()
 
+const { t } = useI18n()
 const tab = ref('fields')
 const label = (s: string | null) => (s ?? '').replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase())
 const statusColor = (s: string) => ({ active: 'success', inactive: 'warning', archived: 'secondary', suspended: 'error' } as Record<string, string>)[s] ?? 'default'
@@ -138,7 +140,9 @@ function revoke(m: Member) {
           {{ farm.code }} · {{ label(farm.farm_type) }}<template v-if="farm.location"> · {{ farm.location }}</template>
         </p>
       </div>
-      <div v-if="can.manage" class="d-flex gap-2">
+      <div class="d-flex gap-2">
+        <VBtn variant="tonal" prepend-icon="tabler-map-2" @click="router.visit(route('agri.farms.map', farm.id))">{{ t('agri.field_map.open_map') }}</VBtn>
+        <template v-if="can.manage">
         <VBtn variant="tonal" prepend-icon="tabler-edit" @click="editFarm">Edit</VBtn>
         <VMenu>
           <template #activator="{ props: p }"><VBtn v-bind="p" icon variant="text" aria-label="More actions"><VIcon icon="tabler-dots-vertical" /></VBtn></template>
@@ -149,6 +153,7 @@ function revoke(m: Member) {
             <VListItem v-if="!farm.has_history" prepend-icon="tabler-trash" base-color="error" title="Delete" @click="destroyFarm" />
           </VList>
         </VMenu>
+        </template>
       </div>
     </div>
 
@@ -182,7 +187,7 @@ function revoke(m: Member) {
             <VBtn color="primary" prepend-icon="tabler-plus" :disabled="!operational" @click="newField">Add field</VBtn>
           </VCardText>
           <VTable>
-            <thead><tr><th>Code</th><th>Name</th><th>Use</th><th class="text-end">Area</th><th>Soil · irrigation</th><th>Status</th><th v-if="can.manage_fields" /></tr></thead>
+            <thead><tr><th>Code</th><th>Name</th><th>Use</th><th class="text-end">Area</th><th>Soil · irrigation</th><th>Status</th><th /></tr></thead>
             <tbody>
               <tr v-for="f in fields" :key="f.id" :class="{ 'text-disabled': f.status === 'archived' }">
                 <td class="font-weight-medium">{{ f.code }}</td>
@@ -191,8 +196,10 @@ function revoke(m: Member) {
                 <td class="text-end">{{ f.area !== null ? `${f.area.toLocaleString()} ${f.area_unit}` : '—' }}</td>
                 <td>{{ [f.soil_type, label(f.irrigation)].filter(Boolean).join(' · ') || '—' }}</td>
                 <td><VChip :color="statusColor(f.status)" size="small" variant="tonal">{{ label(f.status) }}</VChip></td>
-                <td v-if="can.manage_fields" class="text-end">
-                  <VMenu>
+                <td class="text-end text-no-wrap">
+                  <VBtn icon variant="text" size="small" :aria-label="t('agri.field_map.field_on_map')" :title="t('agri.field_map.field_on_map')"
+                    @click="router.visit(route('agri.farms.map', { farm: farm.id, field: f.id }))"><VIcon icon="tabler-map-pin" /></VBtn>
+                  <VMenu v-if="can.manage_fields">
                     <template #activator="{ props: p }"><VBtn v-bind="p" icon variant="text" size="small" aria-label="Field actions"><VIcon icon="tabler-dots-vertical" /></VBtn></template>
                     <VList density="compact">
                       <VListItem prepend-icon="tabler-edit" title="Edit" @click="editField(f)" />

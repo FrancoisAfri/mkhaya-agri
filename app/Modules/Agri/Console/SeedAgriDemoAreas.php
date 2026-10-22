@@ -140,6 +140,7 @@ class SeedAgriDemoAreas extends Command
             $this->area('Farm roles reach Time & Attendance', fn () => $this->farmTimeAccess(true), fn () => $this->farmTimeAccess(false));
             $this->area('Owner reaches every module', fn () => $this->ownerHasEverything(), fn () => $this->ownerEverything());
             $this->area('Farm map (boundaries, fields, locations)', fn () => $this->boplaas->fresh()->boundary !== null, fn () => $this->map());
+            $this->area('Field maps (management zones, boundary history)', fn () => \App\Modules\Agri\Models\FieldZone::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->fieldMaps());
             $this->area('Catalogue (chemicals, input rates, grading standard)', fn () => GradingStandard::query()->where('name', 'Lemons — CGA export standard')->exists(), fn () => $this->catalogue());
             $this->area('Budgets (revisions, new lines)', fn () => DB::table('farm_budget_revisions')->where('company_id', $this->companyId)->exists(), fn () => $this->budgets());
             $this->area('Finance plans (loans, capex, overheads, export)', fn () => FarmLoan::query()->where('reference', 'LB-PL-88213')->exists(), fn () => $this->financePlans());
@@ -700,6 +701,139 @@ class SeedAgriDemoAreas extends Command
         $loc($this->rivier, 'Opstal', 'house', 0, 0);
 
         return "{$n} fields, 2 farm boundaries, 8 locations";
+    }
+
+    /**
+     * Management zones on the demo fields (sectors on the pivots, strips on the square lands) and a
+     * boundary history: every mapped field and both farms get their first version, and two lands
+     * show a later correction, so the history and the area audit have something to show.
+     */
+    private function fieldMaps(): string
+    {
+        $maps = app(\App\Modules\Agri\Services\FieldMaps::class);
+        $owner = $this->u['owner'];
+        $mgr = $this->as('manager');
+        $versions = 0;
+        $zones = 0;
+        foreach ([$this->boplaas, $this->rivier] as $farm) {
+            $farm = $farm->fresh();
+            if ($shape = \App\Modules\Agri\Support\Geo::polygon($farm->boundary)) {
+                $ha = \App\Modules\Agri\Support\Geo::hectares($shape);
+                $farm->forceFill(['mapped_area_ha' => $ha])->saveQuietly();
+                if (! \App\Modules\Agri\Models\FieldBoundaryVersion::query()->where('farm_id', $farm->id)->whereNull('field_id')->exists()) {
+                    $this->boundaryVersion($farm, null, 1, 'seeded', null, $shape, $owner, today()->subDays(420));
+                    $versions++;
+                }
+            }
+        }
+
+        // Two lands were first mapped from a rough GPS walk and later corrected from the aerial photo.
+        $corrected = ['L2' => 1.07, 'O1' => 0.93];
+        foreach (FarmField::withoutGlobalScopes()->where('company_id', $this->companyId)->whereNotNull('boundary')->get() as $f) {
+            $shape = \App\Modules\Agri\Support\Geo::polygon($f->boundary);
+            if (! $shape) {
+                continue;
+            }
+            $f->forceFill(['mapped_area_ha' => \App\Modules\Agri\Support\Geo::hectares($shape)])->saveQuietly();
+            $farm = $f->farm_id === $this->boplaas->id ? $this->boplaas : $this->rivier;
+            if (\App\Modules\Agri\Models\FieldBoundaryVersion::query()->where('field_id', $f->id)->exists()) {
+                continue;
+            }
+            if (isset($corrected[$f->code])) {
+                $rough = $this->scaled($shape, $corrected[$f->code]);
+                $this->boundaryVersion($farm, $f, 1, 'seeded', null, $rough, $owner, today()->subDays(400));
+                $this->boundaryVersion($farm, $f, 2, 'edited', $rough, $shape, $mgr, today()->subDays(35), 'Corrected from the 2026 aerial photo; the old line followed the road, not the fence.');
+                $versions += 2;
+            } else {
+                $this->boundaryVersion($farm, $f, 1, 'seeded', null, $shape, $owner, today()->subDays(400));
+                $versions++;
+            }
+        }
+
+        // Zones: sectors on a centre pivot, strips across a square land, named the way agronomists do.
+        $plan = [
+            'L1' => ['sectors', [['North-east (deep red soil)', 'high', 'Hutton'], ['South (shallow)', 'low', 'Glenrosa'], ['West', 'medium', 'Clovelly']]],
+            'L3' => ['sectors', [['Pivot east', 'high', 'Hutton'], ['Pivot west (wet corner)', 'medium', 'Avalon']]],
+            'L2' => ['strips', [['Strip A', 'high', 'Avalon'], ['Strip B', 'medium', 'Avalon'], ['Strip C (stony)', 'low', 'Glenrosa']]],
+            'L4' => ['strips', [['Bottom land', 'high', 'Westleigh'], ['Slope', 'medium', 'Clovelly'], ['Rocky ridge', 'exclude', null]]],
+            'O1' => ['strips', [['Young block', 'medium', 'Oakleaf'], ['Mature block', 'high', 'Oakleaf']]],
+            'K2' => ['sectors', [['Lucerne east', 'high', null], ['Lucerne west', 'medium', null]]],
+        ];
+        foreach ($plan as $code => [$how, $parts]) {
+            $field = FarmField::withoutGlobalScopes()->where('company_id', $this->companyId)->where('code', $code)->first();
+            $shape = $field ? \App\Modules\Agri\Support\Geo::polygon($field->boundary) : null;
+            if (! $shape) {
+                continue;
+            }
+            $shapes = $how === 'sectors' ? $this->sectors($shape, count($parts)) : $this->strips($shape, count($parts));
+            foreach ($parts as $i => [$name, $class, $soil]) {
+                $maps->saveZone($field, ['name' => $name, 'zone_class' => $class, 'soil_type' => $soil,
+                    'notes' => $class === 'exclude' ? 'Not planted: rock outcrop. No inputs.' : null], $shapes[$i], $mgr);
+                $zones++;
+            }
+        }
+
+        return "{$zones} zones, {$versions} boundary versions";
+    }
+
+    private function boundaryVersion(Farm $farm, ?FarmField $field, int $version, string $source, ?array $previous, array $shape, User $by, Carbon $at, ?string $reason = null): void
+    {
+        $geo = \App\Modules\Agri\Support\Geo::class;
+        $v = \App\Modules\Agri\Models\FieldBoundaryVersion::create(['company_id' => $farm->company_id, 'farm_id' => $farm->id, 'field_id' => $field?->id,
+            'version' => $version, 'source' => $source, 'boundary' => $shape, 'previous_boundary' => $previous,
+            'area_ha' => $geo::hectares($shape), 'previous_area_ha' => $previous ? $geo::hectares($previous) : null,
+            'recorded_area_ha' => $field ? $field->hectares() : Farm::hectares($farm->area !== null ? (float) $farm->area : null, $farm->area_unit),
+            'reason' => $reason, 'changed_by' => $by->id]);
+        $v->forceFill(['created_at' => $at, 'updated_at' => $at])->saveQuietly();
+    }
+
+    /** A shape grown or shrunk about its middle. */
+    private function scaled(array $shape, float $factor): array
+    {
+        [$cx, $cy] = \App\Modules\Agri\Support\Geo::centroid($shape);
+        $ring = array_map(fn ($c) => [round($cx + ($c[0] - $cx) * $factor, 7), round($cy + ($c[1] - $cy) * $factor, 7)], $shape['coordinates'][0]);
+
+        return ['type' => 'Polygon', 'coordinates' => [$ring]];
+    }
+
+    /** Pie slices of a (round) field, kept a little inside its edge. */
+    private function sectors(array $shape, int $n): array
+    {
+        [$cx, $cy] = \App\Modules\Agri\Support\Geo::centroid($shape);
+        $r = 0.0;
+        foreach ($shape['coordinates'][0] as $c) {
+            $r = max($r, hypot(($c[0] - $cx) * cos(deg2rad($cy)) * 111320, ($c[1] - $cy) * 110900));
+        }
+        $r *= 0.9;   // inside the polygonal circle's flats
+        $out = [];
+        for ($i = 0; $i < $n; $i++) {
+            $ring = [[$cx, $cy]];
+            for ($s = 0; $s <= 12; $s++) {
+                $a = 2 * M_PI * ($i + $s / 12) / $n;
+                $ring[] = [round($cx + $r * cos($a) / (111320 * cos(deg2rad($cy))), 7), round($cy + $r * sin($a) / 110900, 7)];
+            }
+            $ring[] = [$cx, $cy];
+            $out[] = ['type' => 'Polygon', 'coordinates' => [$ring]];
+        }
+
+        return $out;
+    }
+
+    /** West-to-east strips of a (square) field, kept a few metres inside its edge. */
+    private function strips(array $shape, int $n): array
+    {
+        [$x0, $y0, $x1, $y1] = \App\Modules\Agri\Support\Geo::bounds($shape);
+        $mx = 5 / (111320 * cos(deg2rad($y0)));
+        $my = 5 / 110900;
+        [$x0, $x1, $y0, $y1] = [$x0 + $mx, $x1 - $mx, $y0 + $my, $y1 - $my];
+        $out = [];
+        for ($i = 0; $i < $n; $i++) {
+            $a = round($x0 + ($x1 - $x0) * $i / $n, 7);
+            $b = round($x0 + ($x1 - $x0) * ($i + 1) / $n, 7);
+            $out[] = ['type' => 'Polygon', 'coordinates' => [[[$a, $y0], [$b, $y0], [$b, $y1], [$a, $y1], [$a, $y0]]]];
+        }
+
+        return $out;
     }
 
     private function catalogue(): string

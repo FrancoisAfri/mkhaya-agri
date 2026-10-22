@@ -34,6 +34,7 @@ class AgriHubs extends ModuleHubs
                 'title' => 'agri.hubs.production.title', 'subtitle' => 'agri.hubs.production.subtitle',
                 'cards' => [
                     self::card('farms', 'agri/farms', 'map-2', self::READ, 'green', self::needs(R::VIEW_FARMS)),
+                    self::card('field_map', 'agri/field-map', 'vector-polygon', self::READ, 'light-green', self::needs(R::VIEW_FARMS)),
                     self::card('twin', 'agri/twin', 'map', self::READ, 'teal', self::needs(R::VIEW_FARMS)),
                     self::card('crops', 'manufacturing/agriculture/crops', 'sprout', self::READ, 'light-green', self::needs(R::VIEW_CROPS)),
                     self::card('crop_intelligence', 'manufacturing/agriculture/crops/intelligence', 'radar', self::READ, 'deep-purple', self::needs(R::VIEW_CROPS)),

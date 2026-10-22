@@ -42,7 +42,7 @@ class Farm extends Model
     protected $fillable = [
         'uuid', 'company_id', 'code', 'name', 'farm_type', 'location', 'address', 'area', 'area_unit',
         'latitude', 'longitude', 'boundary', 'timezone', 'currency', 'status', 'archived_at',
-        'company_unit_id', 'asset_location_id', 'warehouse_id', 'settings', 'created_by',
+        'company_unit_id', 'asset_location_id', 'warehouse_id', 'settings', 'created_by', 'mapped_area_ha',
     ];
 
     protected $casts = [
@@ -50,6 +50,7 @@ class Farm extends Model
         'latitude' => 'decimal:7',
         'longitude' => 'decimal:7',
         'boundary' => 'array',
+        'mapped_area_ha' => 'decimal:4',
         'settings' => 'array',
         'archived_at' => \App\Modules\Agri\Casts\FarmDateTime::class,
     ];

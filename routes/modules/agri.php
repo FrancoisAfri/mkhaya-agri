@@ -28,6 +28,7 @@ use App\Modules\Agri\Http\Controllers\MachineryController;
 use App\Modules\Agri\Http\Controllers\MyWorkController;
 use App\Modules\Agri\Http\Controllers\FarmController;
 use App\Modules\Agri\Http\Controllers\FarmSetupController;
+use App\Modules\Agri\Http\Controllers\FieldMapController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -67,6 +68,23 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
 
         Route::post('/farms/{farm}/locations', [FarmSetupController::class, 'storeLocation'])->name('farms.locations.store');
         Route::patch('/farms/{farm}/locations/{location}', [FarmSetupController::class, 'updateLocation'])->name('farms.locations.update');
+
+        // Field maps: draw, import, edit and export boundaries; management zones; soil on the map.
+        Route::get('/field-map', [FieldMapController::class, 'home'])->name('field-map');
+        Route::get('/farms/{farm}/map', [FieldMapController::class, 'show'])->name('farms.map');
+        Route::post('/farms/{farm}/map/check', [FieldMapController::class, 'check'])->name('farms.map.check');
+        Route::put('/farms/{farm}/map/boundary', [FieldMapController::class, 'farmBoundary'])->name('farms.map.boundary');
+        Route::post('/farms/{farm}/map/fields', [FieldMapController::class, 'storeField'])->name('farms.map.fields.store');
+        Route::put('/farms/{farm}/map/fields/{field}/boundary', [FieldMapController::class, 'fieldBoundary'])->name('farms.map.fields.boundary');
+        Route::post('/farms/{farm}/map/fields/{field}/zones', [FieldMapController::class, 'storeZone'])->name('farms.map.zones.store');
+        Route::patch('/farms/{farm}/map/fields/{field}/zones/{zone}', [FieldMapController::class, 'updateZone'])->name('farms.map.zones.update');
+        Route::delete('/farms/{farm}/map/fields/{field}/zones/{zone}', [FieldMapController::class, 'destroyZone'])->name('farms.map.zones.destroy');
+        Route::post('/farms/{farm}/map/locations', [FieldMapController::class, 'storeLocation'])->name('farms.map.locations.store');
+        Route::patch('/farms/{farm}/map/locations/{location}', [FieldMapController::class, 'moveLocation'])->name('farms.map.locations.move');
+        Route::post('/farms/{farm}/map/imports', [FieldMapController::class, 'upload'])->name('farms.map.imports.store');
+        Route::post('/farms/{farm}/map/imports/{import}/apply', [FieldMapController::class, 'apply'])->name('farms.map.imports.apply');
+        Route::delete('/farms/{farm}/map/imports/{import}', [FieldMapController::class, 'discard'])->name('farms.map.imports.discard');
+        Route::get('/farms/{farm}/map/export/{format}', [FieldMapController::class, 'export'])->whereIn('format', ['geojson', 'kml'])->name('farms.map.export');
 
         Route::post('/farms/{farm}/access', [FarmSetupController::class, 'grant'])->name('farms.access.store');
         Route::patch('/farms/{farm}/access/{membership}', [FarmSetupController::class, 'updateMembership'])->name('farms.access.update');
