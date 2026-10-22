@@ -42,11 +42,16 @@ class Integrations
             // Accounting connectors (Xero, QuickBooks Online, Sage): a record pushed out, a payment pulled in.
             'accounting_push' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\Accounting\AccountingSync::class)->push($p, $e),
             'accounting_pull' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\Accounting\AccountingSync::class)->applyPayment($p, $e),
+            // Machinery data (John Deere Operations Center, CNH FieldOps): a sync pulled, one field operation
+            // imported, a boundary or an approved prescription sent to the machines.
+            'machine_pull' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\MachineData\MachineDataSync::class)->pull($p, $e),
+            'machine_import' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\MachineData\MachineDataSync::class)->applyOperation($p, $e),
+            'machine_push' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\MachineData\MachineDataSync::class)->push($p, $e),
         ];
     }
 
     /** Outbound fetches: the farm asks an outside service, rather than receiving a message. */
-    private const OUTBOUND = ['weather', 'satellite', 'price_feed', 'webhook', 'accounting_push'];
+    private const OUTBOUND = ['weather', 'satellite', 'price_feed', 'webhook', 'accounting_push', 'machine_pull', 'machine_push'];
 
     /**
      * Handlers that commit as they go. The satellite fetch stores each scene in its own transaction
@@ -55,7 +60,9 @@ class Integrations
      */
     private const OWN_TRANSACTIONS = ['satellite', 'price_feed',   // a price feed records its own failure on the feed, which a rollback would undo
         'webhook',            // the subscription's delivery count and last error survive a failed delivery
-        'accounting_push'];   // a contact created on the other side keeps its id even if the invoice after it fails
+        'accounting_push',    // a contact created on the other side keeps its id even if the invoice after it fails
+        'machine_pull',       // each field and operation is kept as it is read; a failure part-way keeps what came before
+        'machine_push'];      // the link records the failure the retry starts from
 
     /** @return array{event: IntegrationEvent, replayed: bool} */
     public function receive(int $companyId, string $integration, string $key, array $payload, ?int $deviceId = null, ?int $farmId = null): array

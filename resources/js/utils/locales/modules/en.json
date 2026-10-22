@@ -27146,6 +27146,14 @@
       "accounting": {
         "title": "Accounting Connectors",
         "subtitle": "Keep the books in Xero, QuickBooks or Sage: connect, map accounts and sync invoices, bills, journals and payments."
+      },
+      "prescriptions": {
+        "title": "Variable-rate prescriptions",
+        "subtitle": "A rate per zone from the field's zones or NDVI, approved by a second person, exported as shapefile or ISO-XML and sent to the machines."
+      },
+      "machine_data": {
+        "title": "Machine data (Deere, CNH)",
+        "subtitle": "John Deere Operations Center and CNH FieldOps: boundaries, machines, engine hours and field operations in; prescriptions out."
       }
     },
     "satellite": {
@@ -28616,6 +28624,330 @@
         "journal": "Journal",
         "payment": "Payment"
       }
+    },
+    "machine_data": {
+      "breadcrumb": "Operations",
+      "title": "Machine data",
+      "subtitle": "John Deere Operations Center and CNH FieldOps (Case IH, New Holland): field boundaries, machines, engine hours and field operations come in; boundaries and approved prescriptions go out to the machines.",
+      "approval": "A live connection needs this platform's developer app approved by John Deere (developer.deere.com, then each organisation grants it access in Operations Center) and by CNH (its developer portal, which also issues the subscription key). Until then a platform shows \"needs developer approval\" and nothing is called.",
+      "tabs": {
+        "connections": "Connections",
+        "fields": "Fields",
+        "machines": "Machines",
+        "operations": "Operations",
+        "conflicts": "Conflicts",
+        "log": "Sync log"
+      },
+      "status": {
+        "needs_registration": "Needs developer approval",
+        "disconnected": "Not connected",
+        "choose_organisation": "Choose an organisation",
+        "needs_org_access": "Waiting for organisation access",
+        "connected": "Connected",
+        "error": "Connection problem"
+      },
+      "registration": {
+        "deere": "John Deere has not approved this platform's app yet (or its client id and secret are not set). Apply at developer.deere.com, register the redirect URI below and ask for production access.",
+        "cnh": "CNH has not approved this platform's app yet (or its client id and secret are not set). Apply on the CNH Industrial developer portal for FieldOps access, register the redirect URI below and set the subscription key."
+      },
+      "counts": "{fields} fields paired ({fields_unmatched} to pair) · {machines} machines ({machines_unmatched} to pair) · {operations} operations ({waiting} waiting)",
+      "last_sync": "Last sync {at}",
+      "connected_at": "Connected {at}",
+      "never": "never",
+      "redirect_uri": "Redirect URI to register",
+      "organisation": "Organisation",
+      "choose_organisation": "Use this organisation",
+      "needs_access": "has not granted access",
+      "org_access": "{org} has not yet granted this app access to its data in John Deere Operations Center. Open the access page, enable the app for the organisation, then check again.",
+      "grant_access": "Open the access page",
+      "recheck": "Check again",
+      "connect": "Connect",
+      "reconnect": "Reconnect",
+      "disconnect": "Disconnect",
+      "disconnect_confirm": "Disconnect {name}? Pairings, imported operations and the sync log are kept.",
+      "sync_now": "Sync now",
+      "ignore": "Leave out",
+      "cancel": "Cancel",
+      "last_result": "Last run: {fields} fields, {boundaries_updated} boundary update(s), {conflicts} conflict(s), {machines} machines, {readings} reading(s), {operations} operation(s), {operations_waiting} waiting.",
+      "settings": {
+        "title": "What is synced",
+        "import_boundaries": "Read their fields and boundaries",
+        "import_machines": "Read their machines",
+        "import_telemetry": "Read engine hours and positions",
+        "import_operations": "Read field operations (as applied, seeding, harvest)",
+        "push_boundaries": "Send our boundary when only ours changed",
+        "complete_imported": "Complete imported applications at once (issues the inputs from the farm store)",
+        "save": "Save settings"
+      },
+      "fields": {
+        "intro": "Their fields are paired with ours by code or name; pair the rest by hand, or create a field from theirs. A boundary changed only on their side becomes a new version of ours, noted as coming from them. Changed on both sides, it waits under Conflicts.",
+        "theirs": "Their field",
+        "ours": "Our field",
+        "status": "Status",
+        "pair_with": "Pair with our field",
+        "pair": "Pair",
+        "farm": "Farm",
+        "code": "Code",
+        "create": "Create field",
+        "none": "No fields read yet: sync first.",
+        "no_boundary": "no boundary",
+        "vertices": "{n} points",
+        "send_title": "Send our boundaries",
+        "send_intro": "Fields of ours that are not on their side yet: sending one creates it there with its boundary."
+      },
+      "machines": {
+        "intro": "Their machines are paired with our Fleet machines by serial number or VIN. A paired machine's engine hours come in as telematics, so its hour meter, usage and service due follow the machine itself.",
+        "theirs": "Their machine",
+        "ours": "Our machine",
+        "serial": "Serial / VIN",
+        "vin": "VIN",
+        "pair_with": "Pair with our machine",
+        "code": "Code",
+        "create": "Register machine",
+        "none": "No machines read yet: sync first.",
+        "hours": "{h} h on the meter",
+        "service_at": "service at {h} h",
+        "service_due": "Service due"
+      },
+      "operations": {
+        "intro": "Every operation read from the machines, kept with its raw payload. An application or seeding becomes (or fills) a field activity and its inputs; importing it again updates it, never doubles it. A harvest brings its yield, which is recorded as a harvest once the crop is weighed.",
+        "products": "Their products",
+        "products_intro": "Pair each product name with one of our stock items; waiting operations are read again.",
+        "date": "When",
+        "type": "Operation",
+        "field": "Field",
+        "detail": "As applied",
+        "became": "Became",
+        "none": "No operations imported yet.",
+        "yield": "{total} {unit} · {per_ha} per ha · {moisture}% moisture",
+        "samples": "{n} rate samples",
+        "harvested": "Harvest lot {lot}: {q} {unit}",
+        "record_harvest": "Record as harvest",
+        "reapply": "Read again",
+        "raw": "Raw payload",
+        "destination": "Where it went",
+        "stock_item": "Stored as stock item",
+        "quantity": "Quantity",
+        "unit_value": "Value per unit"
+      },
+      "destination": {
+        "store": "Into the farm store",
+        "sold": "Sold off the field",
+        "own_use": "Own use",
+        "loss": "Loss"
+      },
+      "operation_type": {
+        "application": "Application",
+        "seeding": "Seeding",
+        "harvest": "Harvest"
+      },
+      "op_status": {
+        "imported": "Imported",
+        "applied": "Applied",
+        "needs_field": "Field to pair",
+        "needs_product": "Product to pair",
+        "failed": "Failed"
+      },
+      "unit": {
+        "kg_ha": "kg/ha",
+        "l_ha": "l/ha",
+        "seeds_ha": "seeds/ha"
+      },
+      "link_status": {
+        "linked": "Paired",
+        "unmatched": "To pair",
+        "ignored": "Left out",
+        "pending": "Waiting",
+        "sent": "Sent",
+        "failed": "Failed"
+      },
+      "matched_by": {
+        "serial": "by serial number",
+        "vin": "by VIN",
+        "name": "by name",
+        "code": "by code",
+        "person": "by hand",
+        "created": "created from theirs"
+      },
+      "conflicts": {
+        "intro": "A boundary that changed both here and on the machine platform since they last agreed. Neither is overwritten: keep ours (and send it to them) or take theirs (as a new version of ours).",
+        "ours": "Ours",
+        "theirs": "Theirs",
+        "keep_ours": "Keep ours",
+        "take_theirs": "Take theirs",
+        "keep_confirm": "Keep our boundary and send it to the machine platform?",
+        "take_confirm": "Take their boundary as the field's new version?",
+        "map": "Field map",
+        "none": "No conflicts."
+      },
+      "conflict_status": {
+        "open": "Open",
+        "kept_ours": "Kept ours",
+        "took_theirs": "Took theirs"
+      },
+      "log": {
+        "intro": "Every sync, operation and file sent goes through the integration log: a failed one keeps the platform's own message and is retried with back-off; a retry never imports or sends twice.",
+        "sent": "Prescriptions sent",
+        "prescription": "Prescription",
+        "external": "Their id",
+        "remote_status": "Their status",
+        "error": "Error",
+        "at": "When",
+        "none_sent": "Nothing sent yet.",
+        "messages": "Messages",
+        "kind": "Message",
+        "attempts": "Attempts",
+        "retry": "Retry",
+        "replays": "{n} repeat(s) answered",
+        "next": "next try {at}",
+        "none": "No messages yet."
+      },
+      "integration": {
+        "machine_pull": "Sync",
+        "machine_import": "Operation in",
+        "machine_push": "Sent to the machines"
+      }
+    },
+    "prescriptions": {
+      "breadcrumb": "Farms & Production",
+      "title": "Variable-rate prescriptions",
+      "subtitle": "How much of a product goes on each part of a field: from the field's management zones or its latest NDVI, checked by a second person, then exported for the monitor or sent to John Deere Operations Center or CNH FieldOps.",
+      "new": "New prescription",
+      "new_intro": "Choose the field, the product and where the zones come from. Every zone's rate can be changed afterwards.",
+      "all_farms": "All farms",
+      "all": "All",
+      "none": "No prescriptions yet.",
+      "code": "Prescription",
+      "field": "Field",
+      "product": "Product",
+      "area": "Area",
+      "quantity": "Quantity",
+      "cost": "Cost",
+      "status_label": "Status",
+      "people": "Drafted → approved",
+      "create": "Create draft",
+      "cancel": "Cancel",
+      "cancel_rx": "Cancel prescription",
+      "status": {
+        "draft": "Draft",
+        "submitted": "Waiting for approval",
+        "approved": "Approved",
+        "sent": "Sent to machines",
+        "applied": "Applied",
+        "cancelled": "Cancelled"
+      },
+      "operation": {
+        "seeding": "Seeding",
+        "fertiliser": "Fertiliser",
+        "lime": "Lime",
+        "crop_protection": "Crop protection"
+      },
+      "source": {
+        "zones": "Management zones",
+        "ndvi": "NDVI classes"
+      },
+      "method": {
+        "equal_interval": "Equal intervals",
+        "quantile": "Quantiles (equal areas)"
+      },
+      "unit": {
+        "kg_ha": "kg/ha",
+        "l_ha": "l/ha",
+        "seeds_ha": "seeds/ha"
+      },
+      "base_unit": {
+        "kg_ha": "kg",
+        "l_ha": "l",
+        "seeds_ha": "seeds"
+      },
+      "format": {
+        "shapefile": "Shapefile (.zip)",
+        "isoxml": "ISO-XML (TASKDATA)",
+        "geojson": "GeoJSON"
+      },
+      "f": {
+        "farm": "Farm",
+        "field": "Field",
+        "zones_n": "{n} zones",
+        "ndvi_on": "NDVI {d}",
+        "no_ndvi": "no NDVI",
+        "operation": "Operation",
+        "product": "Product (stock item)",
+        "unit": "Rate unit",
+        "per_stock_unit": "Per stock unit {uom}",
+        "per_stock_unit_hint": "How many kg, l or seeds one stock unit holds (e.g. 80000 seeds a bag).",
+        "name": "Name",
+        "source": "Zones from",
+        "classes": "Classes",
+        "method": "Classed by",
+        "base_rate": "Base rate",
+        "step_pct": "Step per class",
+        "flat_rate": "Flat rate to compare",
+        "flat_rate_hint": "Empty: the base rate.",
+        "flip_off": "More product on the stronger zones",
+        "flip_on": "More product on the weaker zones (flipped)",
+        "planned_on": "Planned for",
+        "preview": "Rates by class:",
+        "preview_note": "(class 1 is the weakest; zones marked exclude get none)"
+      },
+      "class_n": "Class {n}",
+      "excluded": "Excluded",
+      "settings": "Settings",
+      "settings_intro": "Changing these makes the zones and rates again. An approved prescription goes back to draft as a new version.",
+      "rebuild": "Save and rebuild",
+      "submit": "Submit for approval",
+      "approve": "Approve",
+      "reject": "Send back",
+      "reject_note": "What should change",
+      "sent_back": "Sent back: {note}",
+      "four_eyes": "You drafted or submitted this prescription: somebody else approves it before it can go to a machine.",
+      "new_version": "This is a new version of an approved prescription: it must be approved again before it is sent.",
+      "map_failed": "The map could not be loaded.",
+      "legend": "Rate ({unit}):",
+      "totals": "Totals",
+      "treated": "Treated",
+      "average_rate": "Average rate",
+      "flat_vs": "Against a flat {rate} {unit} over the treated area:",
+      "flat_quantity": "Flat-rate quantity",
+      "flat_cost": "Flat-rate cost",
+      "saving": "Saving",
+      "extra": "Extra cost",
+      "basis": "{source}: {classes} classes, {method}; base {base}, step {step}%; {direction}.",
+      "ndvi_of": "NDVI of {d}.",
+      "approval_line": "Drafted by {by}; approved by {approver} ({at}).",
+      "zones": "Zones",
+      "zone": "Zone",
+      "class": "Class",
+      "rate": "Rate ({unit})",
+      "rates_note": "Saving rates makes a new version if this one was approved.",
+      "save_rates": "Save rates",
+      "files": "Machine files",
+      "files_intro": "Made for this version and kept with it. The shapefile carries the rate in the RATE attribute; ISO-XML has one treatment zone per rate.",
+      "make": "Make {format}",
+      "older": "Earlier versions:",
+      "machines": "Send to the machines",
+      "machines_intro": "An approved prescription goes to the organisation's files on the platform, ready for the display.",
+      "sends_as": "Sends {format}",
+      "not_connected": "Not connected",
+      "send": "Send",
+      "send_needs_approval": "Only an approved version can be sent.",
+      "send_status": {
+        "pending": "Waiting",
+        "sent": "Sent",
+        "failed": "Failed"
+      },
+      "work": "Field work",
+      "plan_work": "Plan the work",
+      "compare": "As applied against prescribed",
+      "compare_intro": "From the machine's operation: its rate samples inside each zone where it recorded them, otherwise its average rate.",
+      "compare_none": "No operation from the machines is linked to this prescription yet.",
+      "compare_total": "Applied {applied} {unit} against {prescribed} {unit} prescribed",
+      "prescribed": "Prescribed",
+      "applied": "Applied",
+      "difference": "Difference",
+      "basis_label": "From",
+      "basis_samples": "{n} samples in the zone",
+      "basis_average": "field average"
     }
   }
 }

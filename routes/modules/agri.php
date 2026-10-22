@@ -286,6 +286,39 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/accounting/{provider}/settings', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'settings'])->name('accounting.settings');
         Route::post('/accounting/{provider}/sync', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'syncNow'])->name('accounting.sync');
 
+        // Machinery data: John Deere Operations Center and CNH FieldOps (fields, machines, operations in; boundaries and prescriptions out).
+        Route::get('/machine-data', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'index'])->name('machine-data.index');
+        Route::post('/machine-data/fields/{link}', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'linkField'])->name('machine-data.fields.link');
+        Route::post('/machine-data/machines/{link}', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'linkMachine'])->name('machine-data.machines.link');
+        Route::post('/machine-data/products/{link}', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'linkProduct'])->name('machine-data.products.link');
+        Route::post('/machine-data/conflicts/{conflict}', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'resolve'])->name('machine-data.conflicts.resolve');
+        Route::post('/machine-data/operations/{operation}/harvest', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'harvest'])->name('machine-data.operations.harvest');
+        Route::post('/machine-data/operations/{operation}/reapply', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'reapply'])->name('machine-data.operations.reapply');
+        Route::get('/machine-data/operations/{operation}/raw', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'raw'])->name('machine-data.operations.raw');
+        Route::post('/machine-data/events/{event}/retry', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'retry'])->name('machine-data.retry');
+        Route::get('/machine-data/{provider}/connect', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'connect'])->name('machine-data.connect');
+        Route::get('/machine-data/{provider}/callback', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'callback'])->name('machine-data.callback');
+        Route::post('/machine-data/{provider}/organisation', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'organisation'])->name('machine-data.organisation');
+        Route::post('/machine-data/{provider}/recheck', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'recheck'])->name('machine-data.recheck');
+        Route::post('/machine-data/{provider}/disconnect', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'disconnect'])->name('machine-data.disconnect');
+        Route::post('/machine-data/{provider}/settings', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'settings'])->name('machine-data.settings');
+        Route::post('/machine-data/{provider}/sync', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'syncNow'])->name('machine-data.sync');
+        Route::post('/machine-data/{provider}/boundaries/{field}', [\App\Modules\Agri\Http\Controllers\MachineDataController::class, 'pushBoundary'])->name('machine-data.boundaries.push');
+
+        // Variable-rate prescriptions: zones or NDVI classes, four-eyes approval, machine files, send, plan, compare.
+        Route::get('/prescriptions', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'index'])->name('prescriptions.index');
+        Route::post('/prescriptions', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'store'])->name('prescriptions.store');
+        Route::get('/prescriptions/{prescription}', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'show'])->name('prescriptions.show');
+        Route::patch('/prescriptions/{prescription}', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'update'])->name('prescriptions.update');
+        Route::post('/prescriptions/{prescription}/submit', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'submit'])->name('prescriptions.submit');
+        Route::post('/prescriptions/{prescription}/approve', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'approve'])->name('prescriptions.approve');
+        Route::post('/prescriptions/{prescription}/reject', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'reject'])->name('prescriptions.reject');
+        Route::post('/prescriptions/{prescription}/cancel', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'cancel'])->name('prescriptions.cancel');
+        Route::post('/prescriptions/{prescription}/export', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'export'])->name('prescriptions.export');
+        Route::get('/prescriptions/{prescription}/files/{file}', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'download'])->name('prescriptions.files.download');
+        Route::post('/prescriptions/{prescription}/send', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'send'])->name('prescriptions.send');
+        Route::post('/prescriptions/{prescription}/plan', [\App\Modules\Agri\Http\Controllers\PrescriptionController::class, 'plan'])->name('prescriptions.plan');
+
         // Phase 2 §13: role dashboards with labelled figures and exports.
         Route::get('/insights', [InsightsController::class, 'index'])->name('insights.home');
         Route::get('/insights/{role}', [InsightsController::class, 'index'])->whereIn('role', array_keys(\App\Modules\Agri\Services\FarmDashboards::ROLES))->name('insights');

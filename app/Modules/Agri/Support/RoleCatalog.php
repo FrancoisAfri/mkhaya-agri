@@ -210,6 +210,16 @@ final class RoleCatalog
     /** Connecting Xero, QuickBooks or Sage, mapping accounts, choosing the book of record and syncing. */
     public const MANAGE_ACCOUNTING = 'agri.accounting.manage';
 
+    // ── Machinery data and variable-rate prescriptions ──────────────────────────────────────
+    /** Connecting John Deere Operations Center or CNH FieldOps, matching fields, machines and products, syncing and resolving conflicts. */
+    public const MANAGE_MACHINE_DATA = 'agri.machinedata.manage';
+
+    /** Drafting variable-rate prescriptions, making their machine files, sending approved ones and planning the work. */
+    public const PLAN_PRESCRIPTIONS = 'agri.prescription.plan';
+
+    /** Approving a prescription somebody else drafted (it is an instruction to a machine: four eyes). */
+    public const APPROVE_PRESCRIPTIONS = 'agri.prescription.approve';
+
     /** @return list<string> */
     public static function all(): array
     {
@@ -235,6 +245,7 @@ final class RoleCatalog
             self::MANAGE_RESIDUES, self::OVERRIDE_RESIDUES, self::MANAGE_EXPORTS,
             self::VIEW_HEDGES, self::MANAGE_HEDGES,
             self::MANAGE_API, self::MANAGE_ACCOUNTING,
+            self::MANAGE_MACHINE_DATA, self::PLAN_PRESCRIPTIONS, self::APPROVE_PRESCRIPTIONS,
         ];
     }
 
@@ -279,8 +290,9 @@ final class RoleCatalog
                 self::PAYROLL_HANDOFF, self::VIEW_SALES, self::VIEW_HEDGES, self::MANAGE_HEDGES, self::MANAGE_ACCOUNTING],
             'Farm Sales Officer' => [...$view, self::VIEW_SALES, self::MANAGE_SALES, self::MANAGE_DISPATCH, self::VIEW_FINANCE, self::MANAGE_EXPORTS, self::VIEW_HEDGES, self::MANAGE_HEDGES],
             'Packhouse Supervisor' => [...$view, self::MANAGE_PACKHOUSE, self::MANAGE_DISPATCH, self::RECORD_HARVEST, self::ISSUE_STOCK, self::MANAGE_EXPORTS, self::MANAGE_RESIDUES],
-            'Farm Workshop Technician' => [...$view, self::MANAGE_MACHINERY, self::RECORD_ACTIVITIES, self::ISSUE_STOCK, self::ISSUE_FUEL],
-            'Farm Agronomist' => [...$view, self::PLAN_CROPS, self::RECORD_ACTIVITIES, self::REVIEW_DIAGNOSIS, self::USE_ASSISTANT, self::MANAGE_REFERENCES, self::MANAGE_WEATHER, self::MANAGE_RESIDUES],
+            'Farm Workshop Technician' => [...$view, self::MANAGE_MACHINERY, self::RECORD_ACTIVITIES, self::ISSUE_STOCK, self::ISSUE_FUEL, self::MANAGE_MACHINE_DATA],
+            'Farm Agronomist' => [...$view, self::PLAN_CROPS, self::RECORD_ACTIVITIES, self::REVIEW_DIAGNOSIS, self::USE_ASSISTANT, self::MANAGE_REFERENCES, self::MANAGE_WEATHER, self::MANAGE_RESIDUES,
+                self::PLAN_PRESCRIPTIONS],
             'Farm Viewer' => $view,
         ];
     }

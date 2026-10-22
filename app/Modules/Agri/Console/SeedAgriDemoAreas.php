@@ -195,6 +195,13 @@ class SeedAgriDemoAreas extends Command
                 ->where('name', 'Demo integration')->exists(), fn () => $this->farmApi());
             $this->area('Xero connection (not connected: app registration needed; example mappings)', fn () => \App\Modules\Agri\Models\AccountingMapping::withoutGlobalScopes()
                 ->where('company_id', $this->companyId)->exists(), fn () => $this->xeroExample());
+            // Machinery data and variable-rate prescriptions: Deere (awaiting developer approval) with imported operations; an approved fertiliser prescription.
+            $this->area('Machine-data and prescription permissions on the farm roles', fn () => \Spatie\Permission\Models\Permission::query()->where('name', \App\Modules\Agri\Support\RoleCatalog::MANAGE_MACHINE_DATA)->exists()
+                && $this->u['owner']->can(\App\Modules\Agri\Support\RoleCatalog::APPROVE_PRESCRIPTIONS), fn () => $this->machineDataPermissions());
+            $this->area('Variable-rate LAN prescription on L1 from its zones (approved; shapefile, ISO-XML)', fn () => \App\Modules\Agri\Models\Prescription::withoutGlobalScopes()
+                ->where('company_id', $this->companyId)->exists(), fn () => $this->prescriptionExample());
+            $this->area('John Deere connection (needs developer approval; as-applied and yield imported)', fn () => \App\Modules\Agri\Models\MachineOperation::withoutGlobalScopes()
+                ->where('company_id', $this->companyId)->exists(), fn () => $this->deereExample());
             $this->growerLogins();
             $this->apiTokenOnce();
 
@@ -1693,6 +1700,137 @@ class SeedAgriDemoAreas extends Command
         $map('tracking', 'farm:'.$this->rivier->id, $this->rivier->name, 'demo-opt-rivier', null, 'Rivierplaas', ['category_id' => 'demo-tc-farm', 'category' => 'Farm']);
 
         return 'status '.$c->fresh()->status.'; 9 example mappings; the books stay in our own ledger';
+    }
+
+    private function machineDataPermissions(): string
+    {
+        $new = [\App\Modules\Agri\Support\RoleCatalog::MANAGE_MACHINE_DATA, \App\Modules\Agri\Support\RoleCatalog::PLAN_PRESCRIPTIONS, \App\Modules\Agri\Support\RoleCatalog::APPROVE_PRESCRIPTIONS];
+        foreach ($new as $p) {
+            \Spatie\Permission\Models\Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
+        }
+        $n = 0;
+        foreach (\App\Modules\Agri\Support\RoleCatalog::suggestedRoles() as $name => $perms) {
+            $role = \App\Core\Role\Models\Role::query()->where('name', $name)->where('guard_name', 'web')->first();
+            if ($role && ($give = array_values(array_intersect($new, $perms)))) {
+                $role->givePermissionTo($give);
+                $n++;
+            }
+        }
+        \App\Core\Role\Models\Role::query()->where('name', 'Organisation Owner')->first()?->givePermissionTo($new);
+        app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+        foreach ($this->u as $k => $user) {
+            $this->u[$k] = $user->fresh();
+        }
+
+        return "3 permissions on {$n} farm roles";
+    }
+
+    /**
+     * LAN top-dressing on the maize in L1, from its three management zones: drafted by the manager,
+     * approved by the owner (four eyes), its shapefile, ISO-XML and GeoJSON kept in the database, and
+     * planned as field work with the LAN planned from the store. Not sent: no machine platform is
+     * connected in the demo.
+     */
+    private function prescriptionExample(): string
+    {
+        $rx = app(\App\Modules\Agri\Services\Prescriptions::class);
+        $l1 = $this->field('L1');
+        $mgr = $this->as('manager');
+        $p = $rx->create($l1, ['name' => 'LAN top-dressing, maize L1', 'operation' => 'fertiliser', 'stock_item_id' => $this->existingItem('FERT-LAN')->id, 'unit' => 'kg_ha',
+            'source' => 'zones', 'base_rate' => 150, 'step_pct' => 20, 'flip' => false, 'flat_rate' => 150, 'planned_on' => today()->addDays(6)->toDateString(),
+            'notes' => 'V6 top-dressing. More N where the deep red soil carries the yield; the shallow south gets less.'], $mgr);
+        $rx->submit($p, $mgr);
+        $p = $rx->approve($p->fresh(), $this->as('owner'));
+        ['activity' => $a] = $rx->plan($p, today()->addDays(6)->toDateString(), $this->u['owner']);
+        $files = \App\Modules\Agri\Models\PrescriptionFile::withoutGlobalScopes()->where('prescription_id', $p->id)->count();
+        $s = $rx->summary($p->fresh());
+
+        return "{$p->code}: ".$p->zones()->count().' zones, '.number_format($s['quantity'], 0).' kg LAN (R'.number_format($s['cost'], 0).", flat rate R".number_format($s['flat_cost'], 0)."); {$files} files; planned as \"{$a->title}\"";
+    }
+
+    /**
+     * John Deere Operations Center as the demo shows it: the platform's developer app is not yet
+     * approved here, so the connection waits for that — with what an approved connection had already
+     * read: L1, L2 and L3 paired, the 6120M paired by its VIN (and a sprayer of theirs to pair),
+     * MAP banded at planting on L1 (become a field activity with its input, waiting for a person to complete it,
+     * through the same import as a live sync) and the wheat on L3 combined yesterday (yield by zone,
+     * not yet recorded as a harvest), and one boundary that changed on both sides, waiting under
+     * Conflicts.
+     */
+    private function deereExample(): string
+    {
+        $geo = \App\Modules\Agri\Support\Geo::class;
+        $c = \App\Modules\Agri\Models\MachineConnection::for($this->companyId, 'deere');
+        $c->forceFill(['status' => \App\Modules\Agri\Models\MachineConnection::registered('deere') ? 'disconnected' : 'needs_registration',
+            'org_id' => '4100-demo', 'org_name' => 'Boplaas Boerdery (example)', 'organisations' => [['id' => '4100-demo', 'name' => 'Boplaas Boerdery (example)', 'needs_access' => false, 'access_url' => null]],
+            'connected_by' => $this->u['owner']->id, 'last_sync' => ['fields' => 3, 'fields_unmatched' => 0, 'boundaries_updated' => 0, 'conflicts' => 1, 'machines' => 2, 'machines_unmatched' => 1,
+                'readings' => 1, 'operations' => 2, 'operations_waiting' => 0, 'prescriptions_checked' => 0],
+            'last_sync_at' => now()->subHours(3)])->save();
+        $sync = app(\App\Modules\Agri\MachineData\MachineDataSync::class);
+        $link = fn (string $kind, string $ext, string $name, ?int $local, string $status = 'linked', ?string $by = 'name', array $data = []) => \App\Modules\Agri\Models\MachineLink::withoutGlobalScopes()
+            ->updateOrCreate(['connection_id' => $c->id, 'kind' => $kind, 'external_id' => $ext], ['company_id' => $this->companyId, 'external_name' => $name, 'local_id' => $local,
+                'status' => $status, 'matched_by' => $status === 'linked' ? $by : null, 'data' => $data ?: null, 'synced_at' => now()->subHours(3)]);
+
+        $fields = [];
+        foreach (['L1' => 'f-langkamp', 'L2' => 'f-rivierkant', 'L3' => 'f-boland'] as $code => $ext) {
+            $f = $this->field($code);
+            $shape = $geo::polygon($f->boundary);
+            $h = \App\Modules\Agri\MachineData\MachineDataSync::hash($shape);
+            $fields[$code] = $link('field', $ext, "{$code} {$f->name}", $f->id, 'linked', 'code', ['name' => "{$code} {$f->name}", 'area_ha' => $geo::hectares($shape), 'boundary' => $shape]);
+            $fields[$code]->forceFill(['external_hash' => $h, 'local_hash' => $h])->save();
+        }
+        // L2: the operator re-drove the edge in Operations Center while the office corrected it from the photo.
+        $l2 = $this->field('L2');
+        $theirs = $this->scaled($geo::polygon($l2->boundary), 1.03);
+        $fields['L2']->forceFill(['data' => array_merge($fields['L2']->data, ['boundary' => $theirs, 'area_ha' => $geo::hectares($theirs)])])->save();
+        \App\Modules\Agri\Models\MachineConflict::withoutGlobalScopes()->create(['company_id' => $this->companyId, 'connection_id' => $c->id, 'link_id' => $fields['L2']->id, 'kind' => 'boundary',
+            'field_id' => $l2->id, 'ours' => $geo::polygon($l2->boundary), 'theirs' => $theirs, 'ours_ha' => $geo::hectares($geo::polygon($l2->boundary)), 'theirs_ha' => $geo::hectares($theirs), 'status' => 'open']);
+
+        $t = $this->machine('T-01');
+        if (blank($t->vin_number)) {
+            $t->forceFill(['vin_number' => '1L06120MCKR901234'])->saveQuietly();
+        }
+        $link('machine', 'm-6120m', '6120M', $t->id, 'linked', 'vin', ['name' => '6120M', 'vin' => $t->vin_number, 'make' => 'John Deere', 'model' => '6120M', 'type' => 'Tractor']);
+        if (blank($t->telematics_ref)) {
+            $t->forceFill(['telematics_ref' => 'deere:m-6120m'])->saveQuietly();
+        }
+        $link('machine', 'm-r4038', 'R4038 sprayer (contractor)', null, 'unmatched', null, ['name' => 'R4038 sprayer (contractor)', 'serial' => '1N04038RXPT045112', 'make' => 'John Deere', 'model' => 'R4038', 'type' => 'Sprayer']);
+
+        // The operations, through the same import a live sync uses.
+        $l1 = $this->field('L1');
+        $start = today()->subDays(9)->setTime(7, 40);
+        $centre = $geo::centroid($geo::polygon($l1->boundary));
+        $mapArea = round((float) $l1->mapped_area_ha ?: (float) $l1->area, 2);
+        $map = ['id' => 'op-demo-map-l1', 'type' => 'application', 'field_id' => 'f-langkamp', 'machine_id' => 'm-6120m', 'operator' => 'Sipho Nkosi',
+            'started_at' => $start->toIso8601String(), 'ended_at' => $start->copy()->addHours(6)->toIso8601String(), 'area_ha' => $mapArea,
+            'products' => [['name' => 'MAP fertiliser 11:22:0', 'rate' => 120.0, 'unit' => 'kg_ha', 'total' => round(120 * $mapArea, 1), 'total_unit' => 'kg', 'area_ha' => $mapArea]],
+            'rate_points' => [['lng' => $centre[0], 'lat' => $centre[1], 'rate' => 121.4]],
+            'raw' => ['operation' => ['id' => 'op-demo-map-l1', 'fieldOperationType' => 'application', 'startDate' => $start->toIso8601String(), 'cropSeason' => (string) today()->year,
+                'machines' => [['id' => 'm-6120m']], 'operators' => [['name' => 'Sipho Nkosi']], 'example' => true],
+                'measurement' => ['measurementName' => 'ApplicationRateResult', 'area' => ['value' => $mapArea, 'unit' => 'ha'],
+                    'productTotals' => [['name' => 'MAP fertiliser 11:22:0', 'averageMaterial' => ['value' => 120.0, 'unit' => 'kg1ha'], 'totalMaterial' => ['value' => round(120 * $mapArea, 1), 'unit' => 'kg']]]]]];
+        $e1 = $sync->queueOperation($c, $map, $this->u['owner']);
+
+        $l3 = $this->field('L3');
+        $l3Area = round((float) $l3->mapped_area_ha ?: (float) $l3->area, 2);
+        $zones = \App\Modules\Agri\Models\FieldZone::withoutGlobalScopes()->where('field_id', $l3->id)->where('status', 'active')->orderBy('name')->get();
+        $yield = ['id' => 'op-demo-wheat-l3', 'type' => 'harvest', 'field_id' => 'f-boland', 'machine_id' => null, 'operator' => 'Contractor: Van Wyk Stroper',
+            'started_at' => today()->subDay()->setTime(10, 15)->toIso8601String(), 'ended_at' => today()->subDay()->setTime(17, 50)->toIso8601String(), 'area_ha' => $l3Area, 'products' => [],
+            'harvest' => ['total' => round(5.6 * $l3Area, 1), 'unit' => 't', 'yield_per_ha' => 5.6, 'moisture_pct' => 12.8,
+                'zones' => $zones->map(fn ($z, $i) => ['name' => $z->name, 'geometry' => $z->boundary, 'yield' => $i === 0 ? 6.1 : 4.9])->values()->all()],
+            'rate_points' => [],
+            'raw' => ['operation' => ['id' => 'op-demo-wheat-l3', 'fieldOperationType' => 'harvest', 'cropName' => 'WHEAT', 'example' => true],
+                'measurement' => ['measurementName' => 'HarvestYieldResult', 'area' => ['value' => $l3Area, 'unit' => 'ha'], 'averageYield' => ['value' => 5.6, 'unit' => 't1ha'],
+                    'totalYield' => ['value' => round(5.6 * $l3Area, 1), 'unit' => 't']], 'moisture' => ['averageMoisture' => ['value' => 12.8, 'unit' => 'prcnt']]]];
+        $e2 = $sync->queueOperation($c, $yield, $this->u['owner']);
+        foreach ([$e1, $e2] as $e) {
+            if ($e->status !== 'processed') {
+                throw new \RuntimeException("Example operation not imported: {$e->error}");
+            }
+        }
+        $op = \App\Modules\Agri\Models\MachineOperation::withoutGlobalScopes()->where('external_id', 'op-demo-map-l1')->first();
+
+        return 'status '.$c->fresh()->status.'; 3 fields paired (1 conflict), 6120M paired by VIN, 1 sprayer to pair; MAP on L1 '.($op?->status).', wheat yield on L3 imported';
     }
 
     private function apiTokenOnce(): void

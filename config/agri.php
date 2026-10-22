@@ -151,4 +151,63 @@ return [
             ],
         ],
     ],
+
+    /*
+    | Machinery data connectors: John Deere Operations Center and CNH FieldOps (Case IH / New Holland).
+    | Neither can be used until the platform's developer app is approved by the manufacturer: Deere
+    | through developer.deere.com (production access, then each customer organisation grants the app
+    | access in Operations Center), CNH through its developer portal (develop.cnhindustrial.com, which
+    | also issues an API subscription key). The redirect URI to register is
+    | /agri/machine-data/{provider}/callback. Endpoints are the documented ones as last known; they
+    | live here so a change on their side is a config change, not a code change.
+    */
+    'machine_data' => [
+        'timeout' => 30,
+        'first_sync_days' => (int) env('AGRI_MACHINE_FIRST_SYNC_DAYS', 120),   // how far back the first operation import looks
+        'providers' => [
+            'deere' => [
+                'name' => 'John Deere Operations Center',
+                'client_id' => env('DEERE_CLIENT_ID'),
+                'client_secret' => env('DEERE_CLIENT_SECRET'),
+                'scopes' => env('DEERE_SCOPES', 'openid profile offline_access ag1 ag2 ag3 eq1 eq2 files org1 org2 work1 work2'),
+                'authorize_url' => env('DEERE_AUTHORIZE_URL', 'https://signin.johndeere.com/oauth2/aus78tnlaysMraFhC1t7/v1/authorize'),
+                'token_url' => env('DEERE_TOKEN_URL', 'https://signin.johndeere.com/oauth2/aus78tnlaysMraFhC1t7/v1/token'),
+                'revoke_url' => env('DEERE_REVOKE_URL', 'https://signin.johndeere.com/oauth2/aus78tnlaysMraFhC1t7/v1/revoke'),
+                // Production; the sandbox is https://sandboxapi.deere.com/platform.
+                'api_url' => env('DEERE_API_URL', 'https://partnerapi.deere.com/platform'),
+                // The organisation-level access grant: each organisation enables the app here after signing in.
+                'connections_url' => env('DEERE_CONNECTIONS_URL', 'https://connections.deere.com/connections/{client_id}/select-organizations'),
+                'accept' => 'application/vnd.deere.axiom.v3+json',
+                'prescription_format' => 'shapefile',      // Operations Center files: a zipped shapefile prescription
+            ],
+            'cnh' => [
+                'name' => 'CNH FieldOps (Case IH / New Holland)',
+                'client_id' => env('CNH_CLIENT_ID'),
+                'client_secret' => env('CNH_CLIENT_SECRET'),
+                'subscription_key' => env('CNH_SUBSCRIPTION_KEY'),   // sent as Ocp-Apim-Subscription-Key
+                'scopes' => env('CNH_SCOPES', 'openid profile offline_access'),
+                'audience' => env('CNH_AUDIENCE', 'https://api.cnhind.com'),
+                'authorize_url' => env('CNH_AUTHORIZE_URL', 'https://identity.cnhind.com/authorize'),
+                'token_url' => env('CNH_TOKEN_URL', 'https://identity.cnhind.com/oauth/token'),
+                'api_url' => env('CNH_API_URL', 'https://ag.api.cnhind.com/v1'),
+                'prescription_format' => 'isoxml',         // FieldOps takes ISO-XML task data
+            ],
+        ],
+    ],
+
+    /*
+    | Variable-rate prescriptions. ISO-XML rates are written as the ISO 11783-11 setpoint DDIs in their
+    | own units and resolution: mass per area in mg/m² (1 kg/ha = 100), volume per area in mm³/m²
+    | (1 l/ha = 100), count per area in 0.001/m² (1 seed/ha = 0.1). Check a file on the monitor that
+    | will use it before the first job.
+    */
+    'prescriptions' => [
+        'grid_m' => 20,                 // the side of an NDVI grid cell when a capture has points, not zones
+        'max_zones' => 250,             // ISO-XML allows 254 treatment zones
+        'isoxml' => [
+            'kg_ha' => ['ddi' => '0006', 'factor' => 100],
+            'l_ha' => ['ddi' => '0001', 'factor' => 100],
+            'seeds_ha' => ['ddi' => '0011', 'factor' => 0.1],
+        ],
+    ],
 ];

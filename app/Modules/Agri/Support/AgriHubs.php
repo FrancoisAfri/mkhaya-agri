@@ -37,6 +37,8 @@ class AgriHubs extends ModuleHubs
                     self::card('field_map', 'agri/field-map', 'vector-polygon', self::READ, 'light-green', self::needs(R::VIEW_FARMS)),
                     self::card('twin', 'agri/twin', 'map', self::READ, 'teal', self::needs(R::VIEW_FARMS)),
                     self::card('crop_health', 'agri/crop-health', 'satellite', self::READ, 'green', self::needs(R::VIEW_CROPS)),
+                    // Variable-rate prescriptions from the field's zones or NDVI, approved, sent to the machines.
+                    self::card('prescriptions', 'agri/prescriptions', 'grid-dots', self::READ, 'lime', self::needs(R::VIEW_CROPS)),
                     self::card('crops', 'manufacturing/agriculture/crops', 'sprout', self::READ, 'light-green', self::needs(R::VIEW_CROPS)),
                     self::card('crop_intelligence', 'manufacturing/agriculture/crops/intelligence', 'radar', self::READ, 'deep-purple', self::needs(R::VIEW_CROPS)),
                     self::card('livestock', 'manufacturing/agriculture/livestock', 'cow', self::READ, 'brown', self::needs(R::VIEW_LIVESTOCK)),
@@ -73,6 +75,8 @@ class AgriHubs extends ModuleHubs
                     // The public farm API (tokens, webhooks, call log, docs) and the Xero / QuickBooks / Sage connectors.
                     self::card('api', 'agri/api', 'api', self::READ, 'indigo', self::needs(R::MANAGE_API)),
                     self::card('accounting', 'agri/accounting', 'building-bank', self::READ, 'green', self::needs(R::MANAGE_ACCOUNTING)),
+                    // John Deere Operations Center and CNH FieldOps: fields, machines and operations in; prescriptions out.
+                    self::card('machine_data', 'agri/machine-data', 'tractor', self::READ, 'green', self::needs(R::MANAGE_MACHINE_DATA)),
                     self::card('settings', 'agri/settings', 'settings', self::READ, 'grey', self::needs(R::VIEW_FARMS)),
                 ],
             ],

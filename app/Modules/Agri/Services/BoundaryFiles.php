@@ -601,4 +601,133 @@ class BoundaryFiles
             $x->endElement();
         }
     }
+
+    // ── writing a shapefile ──────────────────────────────────────────────────────────────────
+
+    /** The .prj every shapefile we write carries: plain WGS84 longitude/latitude. */
+    public const WGS84_PRJ = 'GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]';
+
+    /**
+     * Polygons and their attributes as a zipped ESRI shapefile (.shp, .shx, .dbf, .prj, .cpg) —
+     * the format every monitor reads. The reverse of reading one above: rings written clockwise for
+     * an outline and anticlockwise for a hole, attributes as dBASE III fields (C text, N numbers).
+     *
+     * @param list<array{geometry: array, properties: array}> $items
+     * @param list<array{name: string, type: string, len: int, dec?: int}> $fields
+     */
+    public function toShapefileZip(array $items, string $layer, array $fields): string
+    {
+        $layer = preg_replace('/[^A-Za-z0-9_\-]/', '_', $layer) ?: 'layer';
+        $records = [];
+        $box = [INF, INF, -INF, -INF];
+        foreach ($items as $item) {
+            $parts = [];
+            $points = [];
+            $rbox = [INF, INF, -INF, -INF];
+            foreach (Geo::polygons(Geo::close(Geo::polygon($item['geometry']) ?? ['type' => 'Polygon', 'coordinates' => []])) as $rings) {
+                foreach ($rings as $i => $ring) {
+                    if (count($ring) < 4) {
+                        continue;
+                    }
+                    $clockwise = $this->ringSum($ring) > 0;
+                    if (($i === 0) !== $clockwise) {
+                        $ring = array_reverse($ring);
+                    }
+                    $parts[] = count($points);
+                    foreach ($ring as $c) {
+                        $points[] = [(float) $c[0], (float) $c[1]];
+                        $rbox = [min($rbox[0], $c[0]), min($rbox[1], $c[1]), max($rbox[2], $c[0]), max($rbox[3], $c[1])];
+                    }
+                }
+            }
+            if (! $points) {
+                $records[] = pack('V', 0);   // a null shape keeps the attribute row in step
+
+                continue;
+            }
+            $box = [min($box[0], $rbox[0]), min($box[1], $rbox[1]), max($box[2], $rbox[2]), max($box[3], $rbox[3])];
+            $rec = pack('V', 5).pack('e4', ...$rbox).pack('VV', count($parts), count($points));
+            foreach ($parts as $p) {
+                $rec .= pack('V', $p);
+            }
+            foreach ($points as $pt) {
+                $rec .= pack('e2', $pt[0], $pt[1]);
+            }
+            $records[] = $rec;
+        }
+        if ($box[0] === INF) {
+            $box = [0, 0, 0, 0];
+        }
+        $shp = '';
+        $shx = '';
+        $offset = 50;   // in 16-bit words, after the 100-byte header
+        foreach ($records as $n => $rec) {
+            $words = intdiv(strlen($rec), 2);
+            $shp .= pack('NN', $n + 1, $words).$rec;
+            $shx .= pack('NN', $offset, $words);
+            $offset += 4 + $words;
+        }
+        $header = fn (int $lengthWords) => pack('N', 9994).str_repeat("\0", 20).pack('N', $lengthWords).pack('VV', 1000, 5).pack('e4', ...$box).pack('e4', 0, 0, 0, 0);
+        $shpBytes = $header(50 + intdiv(strlen($shp), 2)).$shp;
+        $shxBytes = $header(50 + intdiv(strlen($shx), 2)).$shx;
+
+        $files = ["{$layer}.shp" => $shpBytes, "{$layer}.shx" => $shxBytes, "{$layer}.dbf" => $this->dbf($items, $fields),
+            "{$layer}.prj" => self::WGS84_PRJ, "{$layer}.cpg" => 'UTF-8'];
+        $tmp = tempnam(sys_get_temp_dir(), 'agri-shp-');
+        $zip = new \ZipArchive;
+        try {
+            $zip->open($tmp, \ZipArchive::OVERWRITE);
+            foreach ($files as $name => $bytes) {
+                $zip->addFromString($name, $bytes);
+            }
+            $zip->close();
+
+            return (string) file_get_contents($tmp);
+        } finally {
+            @unlink($tmp);
+        }
+    }
+
+    /** A dBASE III table, one row per item, in the item order the .shp uses. */
+    private function dbf(array $items, array $fields): string
+    {
+        $recLen = 1 + array_sum(array_map(fn ($f) => (int) $f['len'], $fields));
+        $headerLen = 32 + 32 * count($fields) + 1;
+        $out = pack('C4', 3, (int) date('Y') - 1900, (int) date('n'), (int) date('j')).pack('V', count($items)).pack('vv', $headerLen, $recLen).str_repeat("\0", 20);
+        foreach ($fields as $f) {
+            $out .= str_pad(substr(strtoupper($f['name']), 0, 10), 11, "\0").$f['type'].str_repeat("\0", 4).pack('CC', (int) $f['len'], (int) ($f['dec'] ?? 0)).str_repeat("\0", 14);
+        }
+        $out .= "\r";
+        foreach ($items as $item) {
+            $out .= ' ';
+            foreach ($fields as $f) {
+                $v = $item['properties'][$f['name']] ?? null;
+                $len = (int) $f['len'];
+                if ($f['type'] === 'N') {
+                    $txt = $v === null ? '' : number_format((float) $v, (int) ($f['dec'] ?? 0), '.', '');
+                    $out .= str_pad(substr($txt, 0, $len), $len, ' ', STR_PAD_LEFT);
+                } else {
+                    $txt = (string) ($v ?? '');
+                    // Cut on a character, not a byte, so a long UTF-8 name stays readable.
+                    while (strlen($txt) > $len) {
+                        $txt = mb_substr($txt, 0, mb_strlen($txt) - 1);
+                    }
+                    $out .= str_pad($txt, $len, ' ');
+                }
+            }
+        }
+
+        return $out."\x1A";
+    }
+
+    /** Positive for a clockwise ring (the reader's test, above). */
+    private function ringSum(array $ring): float
+    {
+        $sum = 0.0;
+        for ($i = 0; $i < count($ring) - 1; $i++) {
+            $sum += ($ring[$i + 1][0] - $ring[$i][0]) * ($ring[$i + 1][1] + $ring[$i][1]);
+        }
+
+        return $sum;
+    }
 }
