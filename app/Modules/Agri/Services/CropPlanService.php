@@ -79,7 +79,7 @@ class CropPlanService
     public function plant(CropPlan $plan, string $date): CropPlan
     {
         $this->assertTransition($plan, CropPlan::PLANTED);
-        if (Carbon::parse($date)->isAfter(today())) {
+        if (Carbon::parse($date)->toDateString() > \App\Modules\Agri\Support\FarmTime::today($plan->farm_id)->toDateString()) {
             throw ValidationException::withMessages(['planted_on' => 'Planting cannot be recorded for a date that has not happened yet.']);
         }
         $plan->update(['status' => CropPlan::PLANTED, 'planted_on' => $date]);

@@ -39,6 +39,9 @@ class CropSeasonProcessTest extends AgriTestCase
     protected function setUp(): void
     {
         parent::setUp();
+        // Start each test in the morning: the tests move the clock forward by hours, and a run started late in
+        // the evening would cross midnight and close planting windows that the test means to keep open.
+        $this->travelTo(today()->setTime(7, 0));
         $this->catalogue();
         DB::table('company_modules')->updateOrInsert(['company_id' => $this->company->id, 'module_code' => 'workflow'],
             ['source' => 'addon', 'price_monthly' => 0, 'created_at' => now(), 'updated_at' => now()]);

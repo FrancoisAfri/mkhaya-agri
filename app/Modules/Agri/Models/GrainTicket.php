@@ -49,6 +49,7 @@ class GrainTicket extends FarmOwnedModel
     /** The day the load counts on: when it was weighed out, else when it left the field. */
     public function loadDate(): ?string
     {
-        return ($this->second_weighed_at ?? $this->first_weighed_at ?? $this->dispatched_at ?? $this->created_at)?->toDateString();
+        // The farm's own calendar day, so a load weighed after midnight local time is booked on that day.
+        return \App\Modules\Agri\Support\FarmTime::local($this->second_weighed_at ?? $this->first_weighed_at ?? $this->dispatched_at ?? $this->created_at, $this->farm_id)?->toDateString();
     }
 }

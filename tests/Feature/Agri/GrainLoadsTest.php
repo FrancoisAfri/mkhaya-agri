@@ -250,9 +250,9 @@ class GrainLoadsTest extends AgriTestCase
         $deliver('BUY 3', 42000, 'AF-100');                                                      // the buyer's receipt written on a second ticket
         $one = GrainTicket::withoutGlobalScopes()->where('vehicle_reg', 'BUY1')->sole();
         $this->asCompany($this->company, fn () => app(GrainSettlements::class)->capture($this->company->id, ['party_id' => $this->buyer->id, 'reference' => 'AF-ST-1',
-            'statement_date' => today()->toDateString(), 'period_from' => today()->subDay()->toDateString(), 'period_to' => today()->toDateString()],
-            [['our_ticket_ref' => $one->number, 'buyer_ticket_ref' => 'AF-100', 'net_kg' => 30000, 'settled_kg' => 30000, 'grade' => 'WM1', 'price_per_t' => 4000, 'delivered_on' => today()->toDateString()],
-                ['buyer_ticket_ref' => 'AF-999', 'vehicle_reg' => 'NOT OURS', 'net_kg' => 33000, 'settled_kg' => 33000, 'price_per_t' => 4000, 'delivered_on' => today()->toDateString()]], $this->manager));
+            'statement_date' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString(), 'period_from' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->subDay()->toDateString(), 'period_to' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString()],
+            [['our_ticket_ref' => $one->number, 'buyer_ticket_ref' => 'AF-100', 'net_kg' => 30000, 'settled_kg' => 30000, 'grade' => 'WM1', 'price_per_t' => 4000, 'delivered_on' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString()],
+                ['buyer_ticket_ref' => 'AF-999', 'vehicle_reg' => 'NOT OURS', 'net_kg' => 33000, 'settled_kg' => 33000, 'price_per_t' => 4000, 'delivered_on' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString()]], $this->manager));
 
         $r = $this->asCompany($this->company, fn () => app(GrainLoads::class)->reconcile());
         $codes = collect($r['items'])->groupBy('code');
@@ -293,10 +293,10 @@ class GrainLoadsTest extends AgriTestCase
 
         // The elevator's CSV: line 1 by our ticket number (10 kg out: within tolerance), line 2 found by truck, day and mass — graded WM2 by them.
         $csv = "Ticket,Your Ref,Vehicle,Date,Gross,Tare,Net,Moisture,Grade,Payable,Price,Amount\n"
-            ."AF-201,{$t1->number},FS1,".today()->format('d/m/Y').",44010,14000,30010,13.0,WM1,29679,4000,118716.00\n"
-            ."AF-202,,FS 2,".today()->format('d/m/Y').",46000,14000,32000,12.0,WM2,32000,3850,123200.00\n";
+            ."AF-201,{$t1->number},FS1,".\App\Modules\Agri\Support\FarmTime::today($this->farmA)->format('d/m/Y').",44010,14000,30010,13.0,WM1,29679,4000,118716.00\n"
+            ."AF-202,,FS 2,".\App\Modules\Agri\Support\FarmTime::today($this->farmA)->format('d/m/Y').",46000,14000,32000,12.0,WM2,32000,3850,123200.00\n";
         $this->actingAs($this->manager)->post(route('agri.grain.settlements.import'), ['party_id' => $this->buyer->id, 'contract_id' => $c->uuid, 'reference' => 'AF-ST-77',
-            'statement_date' => today()->toDateString(), 'charges' => 500, 'charges_note' => 'Grain levy', 'file' => UploadedFile::fake()->createWithContent('afgri.csv', $csv)])->assertSessionHasNoErrors();
+            'statement_date' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString(), 'charges' => 500, 'charges_note' => 'Grain levy', 'file' => UploadedFile::fake()->createWithContent('afgri.csv', $csv)])->assertSessionHasNoErrors();
         $s = GrainSettlement::withoutGlobalScopes()->sole();
         $this->assertSame('csv', $s->source);
         $this->assertSame($csv, base64_decode(DB::table('agri_grain_settlements')->where('id', $s->id)->value('file_data')), 'The imported file is kept in the database.');
@@ -307,7 +307,7 @@ class GrainLoadsTest extends AgriTestCase
         $this->assertEquals(123200, $lines[1]->expected_amount);
         $this->assertSame('AF-201', $t1->fresh()->buyer_ticket_ref);
         // The same statement again is refused; the same receipt claimed twice is a duplicate.
-        $this->actingAs($this->manager)->post(route('agri.grain.settlements.import'), ['party_id' => $this->buyer->id, 'reference' => 'AF-ST-77', 'statement_date' => today()->toDateString(),
+        $this->actingAs($this->manager)->post(route('agri.grain.settlements.import'), ['party_id' => $this->buyer->id, 'reference' => 'AF-ST-77', 'statement_date' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString(),
             'file' => UploadedFile::fake()->createWithContent('afgri.csv', $csv)])->assertSessionHasErrors('reference');
 
         // The balance now follows what the buyer settled.
@@ -349,8 +349,8 @@ class GrainLoadsTest extends AgriTestCase
         $this->actingAs($this->manager)->post(route('agri.grain.capture'), ['farm_id' => $this->farmA->uuid, 'movement' => 'field_to_buyer', 'crop_plan_id' => $this->plan->uuid,
             'party_id' => $this->buyer->id, 'contract_id' => $c->uuid, 'vehicle_reg' => 'DUP 1', 'gross_kg' => 44000, 'tare_kg' => 14000, 'moisture_pct' => 12])->assertSessionHasNoErrors();
         $t = GrainTicket::withoutGlobalScopes()->sole();
-        $line = ['our_ticket_ref' => $t->number, 'net_kg' => 30000, 'settled_kg' => 30000, 'price_per_t' => 3900, 'delivered_on' => today()->toDateString()];
-        $this->actingAs($this->manager)->post(route('agri.grain.settlements.store'), ['party_id' => $this->buyer->id, 'reference' => 'S-1', 'statement_date' => today()->toDateString(),
+        $line = ['our_ticket_ref' => $t->number, 'net_kg' => 30000, 'settled_kg' => 30000, 'price_per_t' => 3900, 'delivered_on' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString()];
+        $this->actingAs($this->manager)->post(route('agri.grain.settlements.store'), ['party_id' => $this->buyer->id, 'reference' => 'S-1', 'statement_date' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString(),
             'lines' => [$line, $line]])->assertSessionHasNoErrors();
         $s = GrainSettlement::withoutGlobalScopes()->sole();
         $this->assertSame(['matched', 'duplicate'], $s->lines()->pluck('match_status')->all());
@@ -364,7 +364,7 @@ class GrainLoadsTest extends AgriTestCase
         // A worker records harvests but sells nothing: loads yes, settlements no; somebody with no farm permission, nothing.
         $this->actingAs($this->worker)->get(route('agri.grain', 'loads'))->assertOk();
         $this->actingAs($this->worker)->get(route('agri.grain', 'settlements'))->assertForbidden();
-        $this->actingAs($this->worker)->post(route('agri.grain.settlements.store'), ['party_id' => $this->buyer->id, 'reference' => 'X', 'statement_date' => today()->toDateString(), 'lines' => [['net_kg' => 1]]])->assertForbidden();
+        $this->actingAs($this->worker)->post(route('agri.grain.settlements.store'), ['party_id' => $this->buyer->id, 'reference' => 'X', 'statement_date' => \App\Modules\Agri\Support\FarmTime::today($this->farmA)->toDateString(), 'lines' => [['net_kg' => 1]]])->assertForbidden();
         $this->actingAs($this->worker)->post(route('agri.grain.weighbridges.store'), ['farm_id' => $this->farmA->uuid, 'name' => 'x'])->assertForbidden();
         $this->actingAs($this->outsider)->get(route('agri.grain', 'loads'))->assertForbidden();
         $this->actingAs($this->outsider)->post(route('agri.grain.capture'), [])->assertForbidden();

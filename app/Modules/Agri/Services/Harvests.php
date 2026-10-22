@@ -40,7 +40,8 @@ class Harvests
             throw ValidationException::withMessages(['crop_plan_id' => "Plan {$plan->code} is {$plan->status}; only a planted crop can be harvested."]);
         }
         $date = Carbon::parse($data['harvested_on']);
-        if ($date->isAfter(today())) {
+        // "Today" is the farm's own date: a load weighed at 00:30 in Bothaville is today's, not tomorrow's in UTC.
+        if ($date->toDateString() > \App\Modules\Agri\Support\FarmTime::today($plan->farm_id)->toDateString()) {
             throw ValidationException::withMessages(['harvested_on' => 'A harvest cannot be recorded for a future date.']);
         }
         if ($plan->planted_on && $date->lt($plan->planted_on)) {
