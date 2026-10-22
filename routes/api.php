@@ -36,6 +36,9 @@ Route::post('/agri/devices/{uuid}/readings', [\App\Modules\Agri\Http\Controllers
 // Phase 2 §14: telematics — machine position, engine hours and odometer from a registered device.
 Route::post('/agri/devices/{uuid}/telematics', [\App\Modules\Agri\Http\Controllers\IntegrationController::class, 'telematics'])
     ->middleware('throttle:120,1')->name('api.agri.devices.telematics');
+// Grain: a farm weighbridge posts each weighing; first and second weighings are paired into load tickets.
+Route::post('/agri/devices/{uuid}/weighings', [\App\Modules\Agri\Http\Controllers\GrainController::class, 'deviceWeighings'])
+    ->middleware('throttle:240,1')->name('api.agri.devices.weighings');
 // Phase 2 §16C: WhatsApp / SMS / voice messages to the farm assistant, signed by the messaging provider bridge.
 Route::post('/agri/messages/{channel}', [\App\Modules\Agri\Http\Controllers\MessagingController::class, 'inbound'])
     ->middleware('throttle:240,1')->name('api.agri.messages');

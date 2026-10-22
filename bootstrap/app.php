@@ -152,6 +152,7 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Agri\Console\ComputeWaterBalance::class,
         \App\Modules\Agri\Console\ComputePeerBenchmarks::class,
         \App\Modules\Agri\Console\RetryAgriIntegrations::class,
+        \App\Modules\Agri\Console\FetchPriceFeeds::class,
         \App\Modules\Agri\Console\AgriIntegrity::class,
         \App\Modules\Agri\Console\AgriReleaseGates::class,
         \App\Modules\Agri\Console\SeedAgriDemo::class,
@@ -532,6 +533,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->command(\App\Modules\Agri\Console\ComputePeerBenchmarks::class)
             ->weeklyOn(0, '03:30')->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/agri-benchmarks.log'));
+        // Grain marketing: the organisations' commodity price feeds after the SAFEX close, then every open hedge marked to market.
+        $schedule->command(\App\Modules\Agri\Console\FetchPriceFeeds::class)
+            ->dailyAt('18:30')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-price-feeds.log'));
         // Phase 2 §14: failed integration messages retried with back-off.
         $schedule->command(\App\Modules\Agri\Console\RetryAgriIntegrations::class)
             ->everyFifteenMinutes()->withoutOverlapping()->onOneServer()

@@ -196,6 +196,13 @@ final class RoleCatalog
     /** Export consignments, exporter registration codes and generating the export document pack. */
     public const MANAGE_EXPORTS = 'agri.export.manage';
 
+    // ── Grain marketing: hedging ─────────────────────────────────────────────────────────────
+    /** Seeing the hedging register (futures and options positions and their mark-to-market). */
+    public const VIEW_HEDGES = 'agri.hedge.view';
+
+    /** Recording, closing and marking hedges. Records only: nothing trades with a broker. */
+    public const MANAGE_HEDGES = 'agri.hedge.manage';
+
     /** @return list<string> */
     public static function all(): array
     {
@@ -219,6 +226,7 @@ final class RoleCatalog
             self::VIEW_WORK_ORDERS, self::MANAGE_WORK_ORDERS, self::APPROVE_WORK_ORDERS, self::VERIFY_WORK_ORDERS,
             self::REVIEW_DIAGNOSIS, self::VIEW_HEALTH, self::RELEASE_HEALTH,
             self::MANAGE_RESIDUES, self::OVERRIDE_RESIDUES, self::MANAGE_EXPORTS,
+            self::VIEW_HEDGES, self::MANAGE_HEDGES,
         ];
     }
 
@@ -260,8 +268,8 @@ final class RoleCatalog
             'Farm Worker' => [self::VIEW_FARMS, self::VIEW_CROPS, self::VIEW_LIVESTOCK, self::VIEW_TASKS,
                 self::RECORD_ACTIVITIES, self::RECORD_HARVEST, self::RECORD_HEALTH, self::VIEW_HEALTH, self::VIEW_WORK_ORDERS],
             'Farm Finance Officer' => [...$view, self::VIEW_FINANCE, self::MANAGE_FINANCE, self::APPROVE_BUDGETS, self::RECEIVE_STOCK, self::USE_ASSISTANT,
-                self::PAYROLL_HANDOFF],
-            'Farm Sales Officer' => [...$view, self::VIEW_SALES, self::MANAGE_SALES, self::MANAGE_DISPATCH, self::VIEW_FINANCE, self::MANAGE_EXPORTS],
+                self::PAYROLL_HANDOFF, self::VIEW_SALES, self::VIEW_HEDGES, self::MANAGE_HEDGES],
+            'Farm Sales Officer' => [...$view, self::VIEW_SALES, self::MANAGE_SALES, self::MANAGE_DISPATCH, self::VIEW_FINANCE, self::MANAGE_EXPORTS, self::VIEW_HEDGES, self::MANAGE_HEDGES],
             'Packhouse Supervisor' => [...$view, self::MANAGE_PACKHOUSE, self::MANAGE_DISPATCH, self::RECORD_HARVEST, self::ISSUE_STOCK, self::MANAGE_EXPORTS, self::MANAGE_RESIDUES],
             'Farm Workshop Technician' => [...$view, self::MANAGE_MACHINERY, self::RECORD_ACTIVITIES, self::ISSUE_STOCK, self::ISSUE_FUEL],
             'Farm Agronomist' => [...$view, self::PLAN_CROPS, self::RECORD_ACTIVITIES, self::REVIEW_DIAGNOSIS, self::USE_ASSISTANT, self::MANAGE_REFERENCES, self::MANAGE_WEATHER, self::MANAGE_RESIDUES],

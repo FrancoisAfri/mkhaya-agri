@@ -7,7 +7,7 @@ class GradingStandard extends AgriModel
 {
     protected $table = 'grading_standards';
 
-    protected $casts = ['grades' => 'array', 'checks' => 'array', 'is_active' => 'boolean'];
+    protected $casts = ['grades' => 'array', 'checks' => 'array', 'is_active' => 'boolean', 'grain_rules' => 'array'];   // grain_rules: weighbridge deductions (GrainGrading)
 
     /** @return list<string> */
     public function gradeCodes(): array

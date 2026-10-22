@@ -6,6 +6,7 @@ import PageErrors from '../Components/PageErrors.vue'
 import FormDialog, { type FormField } from '../Components/FormDialog.vue'
 import FarmFilter from '../Components/FarmFilter.vue'
 import { human, money, num, statusColor, today } from '../Components/agri'
+import { useI18n } from 'vue-i18n'
 
 /**
  * Phase 2 §9: what is particular to selling a crop — contracts, the contract position, market prices
@@ -31,6 +32,7 @@ const ACCOUNTING = [
   { key: 'quotes', title: 'Quotes', icon: 'tabler-file-dollar' }, { key: 'orders', title: 'Sales orders', icon: 'tabler-clipboard-list' },
   { key: 'disputes', title: 'Disputes', icon: 'tabler-message-report' }, { key: 'debtors', title: 'Who owes what', icon: 'tabler-cash' },
 ] as const
+const { t } = useI18n()
 const keep = { preserveScroll: true }
 const go = (tab: string, extra: Record<string, any> = {}) => router.get(route('agri.sales', tab), { farm: props.farm?.id, ...extra }, { preserveState: false })
 const dialog = ref<null | { kind: string; row?: any }>(null)
@@ -43,10 +45,14 @@ const opts = (xs: string[]) => xs.map(x => ({ title: human(x), value: x }))
 const ct = ref<any>(null)
 const newContract = () => {
   ct.value = { party_id: null, crop_type_id: null, product: '', quantity: null, unit: 'kg', tolerance_pct: 5, windows: [{ from: today(), to: today(), quantity: null, location: '' }],
-    standard_id: null, accepted_grades: [], quality_spec: '', pricing: 'fixed', price: null, formula: { market: '', product: '', unit: 'kg', lookback_days: 7, adjust_pct: 0, premium: 0, floor: null, cap: null },
+    standard_id: null, accepted_grades: [], quality_spec: '', pricing: 'fixed', price: null, formula: { market: '', product: '', unit: 'kg', lookback_days: 7, adjust_pct: 0, premium: 0, floor: null, cap: null, contract_month: '', basis: 0, pool_price: null, grade_premiums: {} },
     packaging: '', transport: 'farm', rejection_rules: '', dispute_procedure: '', advance_amount: null, input_financing: [] }
 }
-const saveContract = () => router.post(route('agri.sales.contracts.store'), { ...ct.value, farm_id: props.farm?.id, formula: ct.value.pricing === 'formula' ? ct.value.formula : null },
+// Grade premiums and discounts as "WM1=0, WM2=-25, WM3=-60" (per unit, a minus is a discount).
+const gradePremiums = ref('')
+const parsePremiums = (v: string) => Object.fromEntries(v.split(',').map(x => x.split('=').map(y => y.trim())).filter(x => x.length === 2 && x[0] && x[1] !== '' && !isNaN(Number(x[1]))).map(([g, p]) => [g, Number(p)]))
+const saveContract = () => router.post(route('agri.sales.contracts.store'), { ...ct.value, farm_id: props.farm?.id,
+  formula: ct.value.pricing !== 'fixed' ? { ...ct.value.formula, grade_premiums: parsePremiums(gradePremiums.value) } : null },
   { ...keep, onSuccess: () => { ct.value = null } })
 const setStatus = (c: any, status: string) => router.post(route('agri.sales.contracts.status', c.uuid), { status }, keep)
 const amendFields = (c: any): FormField[] => [
@@ -205,14 +211,23 @@ const requestFields: FormField[] = [
           </VRow>
           <VBtn size="small" variant="text" prepend-icon="tabler-plus" @click="ct.windows.push({ from: today(), to: today(), quantity: null, location: '' })">Window</VBtn>
           <VRow dense class="mt-2">
-            <VCol cols="3"><VSelect v-model="ct.pricing" :items="[{ title: 'Fixed price', value: 'fixed' }, { title: 'Market formula', value: 'formula' }]" label="Pricing" /></VCol>
+            <VCol cols="3"><VSelect v-model="ct.pricing" :items="[{ title: t('agri.sales_pricing.fixed'), value: 'fixed' }, { title: t('agri.sales_pricing.formula'), value: 'formula' }, { title: t('agri.sales_pricing.basis'), value: 'basis' }, { title: t('agri.sales_pricing.pool'), value: 'pool' }]" :label="t('agri.sales_pricing.label')" /></VCol>
             <VCol v-if="ct.pricing === 'fixed'" cols="3"><VTextField v-model.number="ct.price" type="number" label="Price per unit" /></VCol>
+            <template v-else-if="ct.pricing === 'basis'">
+              <VCol cols="3"><VTextField v-model="ct.formula.market" :label="t('agri.sales_pricing.futures_market')" /></VCol>
+              <VCol cols="3"><VTextField v-model="ct.formula.contract_month" :label="t('agri.sales_pricing.contract_month')" placeholder="2027-07" /></VCol>
+              <VCol cols="3"><VTextField v-model.number="ct.formula.basis" type="number" :label="t('agri.sales_pricing.basis_amount')" :hint="t('agri.sales_pricing.basis_hint')" persistent-hint /></VCol>
+            </template>
+            <template v-else-if="ct.pricing === 'pool'">
+              <VCol cols="3"><VTextField v-model.number="ct.formula.pool_price" type="number" :label="t('agri.sales_pricing.pool_price')" :hint="t('agri.sales_pricing.pool_hint')" persistent-hint /></VCol>
+            </template>
             <template v-else>
               <VCol cols="3"><VTextField v-model="ct.formula.market" label="Market followed" /></VCol><VCol cols="3"><VTextField v-model="ct.formula.product" label="As quoted (product)" /></VCol>
               <VCol cols="3"><VTextField v-model.number="ct.formula.lookback_days" type="number" label="Look back (days)" /></VCol>
               <VCol cols="3"><VTextField v-model.number="ct.formula.adjust_pct" type="number" label="Adjust %" /></VCol><VCol cols="3"><VTextField v-model.number="ct.formula.premium" type="number" label="Premium / unit" /></VCol>
               <VCol cols="3"><VTextField v-model.number="ct.formula.floor" type="number" label="Floor" /></VCol><VCol cols="3"><VTextField v-model.number="ct.formula.cap" type="number" label="Cap" /></VCol>
             </template>
+            <VCol v-if="ct.pricing !== 'fixed'" cols="12"><VTextField v-model="gradePremiums" :label="t('agri.sales_pricing.grade_premiums')" :hint="t('agri.sales_pricing.grade_premiums_hint')" persistent-hint /></VCol>
             <VCol cols="6"><VSelect v-model="ct.standard_id" :items="options.standards" label="Grading standard" clearable /></VCol>
             <VCol cols="6"><VSelect v-model="ct.transport" :items="[{ title: 'Farm delivers', value: 'farm' }, { title: 'Buyer collects', value: 'buyer' }]" label="Transport" /></VCol>
             <VCol cols="12"><VTextarea v-model="ct.quality_spec" label="Quality specification" rows="2" /></VCol>

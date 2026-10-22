@@ -52,6 +52,14 @@ class FarmSales
         if (($data['pricing'] ?? 'fixed') === 'formula' && empty($data['formula']['market'])) {
             throw ValidationException::withMessages(['formula' => 'A formula price names the market it follows.']);
         }
+        // Basis + futures: a futures month of the market followed, and the basis (the buyer's
+        // location differential) added to it. Pool: the pool's price, provisional until the pool closes.
+        if (($data['pricing'] ?? 'fixed') === 'basis' && (empty($data['formula']['market']) || empty($data['formula']['contract_month']) || ! isset($data['formula']['basis']))) {
+            throw ValidationException::withMessages(['formula' => 'A basis price names the futures market, the contract month (YYYY-MM) and the basis.']);
+        }
+        if (($data['pricing'] ?? 'fixed') === 'pool' && empty($data['formula']['pool_price'])) {
+            throw ValidationException::withMessages(['formula' => 'A pool contract carries the pool price (provisional until the pool closes).']);
+        }
         $windows = collect($data['windows'] ?? []);
         if ($windows->isEmpty() || abs($windows->sum('quantity') - (float) $data['quantity']) > 0.001) {
             throw ValidationException::withMessages(['windows' => 'The delivery windows must add up to the contract quantity.']);
@@ -129,6 +137,22 @@ class FarmSales
             return ['price' => round((float) $c->price + $gradePremium, 4), 'basis' => "Fixed contract price {$c->price}".($gradePremium ? " + {$gradePremium} for {$grade}" : '').'.'];
         }
         $f = $c->formula;
+        if ($c->pricing === 'pool') {
+            return ['price' => round((float) $f['pool_price'] + $gradePremium, 4), 'basis' => 'Pool price '.$f['pool_price'].(! empty($f['pool_final']) ? ' (final)' : ' (provisional)')
+                .($gradePremium ? " + {$gradePremium} for {$grade}" : '').'.'];
+        }
+        if ($c->pricing === 'basis') {
+            $m = MarketPrice::query()->where('kind', 'actual')->where('price_type', 'futures')->where('contract_month', $f['contract_month'])->where('market', $f['market'])
+                ->when($c->crop_type_id, fn ($q) => $q->where('crop_type_id', $c->crop_type_id), fn ($q) => $q->whereRaw('lower(product) = ?', [mb_strtolower($f['product'] ?? $c->product)]))
+                ->where('price_date', '<=', $on)->orderByDesc('price_date')->orderByDesc('id')->first();
+            if (! $m) {
+                return ['price' => null, 'basis' => "No {$f['market']} {$f['contract_month']} futures price on or before {$on}; the contract cannot be priced yet."];
+            }
+            $futures = MarketData::convertPrice((float) $m->price, $m->unit, $c->unit) ?? (float) $m->price;
+
+            return ['price' => round($futures + (float) $f['basis'] + $gradePremium, 4), 'basis' => "{$m->market} {$f['contract_month']} futures {$m->price_date->toDateString()}: {$m->price} {$m->currency}/{$m->unit} ({$m->source})"
+                .sprintf(' %+g basis', (float) $f['basis']).($gradePremium ? " + {$gradePremium} for {$grade}" : '').'.'];
+        }
         $days = (int) ($f['lookback_days'] ?? 7);
         $m = MarketPrice::query()->where('kind', 'actual')->where('market', $f['market'])->whereRaw('lower(product) = ?', [mb_strtolower($f['product'] ?? $c->product)])
             ->where('unit', $f['unit'] ?? $c->unit)->when(! empty($f['grade']), fn ($q) => $q->where('grade', $f['grade']))
@@ -189,9 +213,12 @@ class FarmSales
         $lines = FinSalesOrderLine::query()->whereIn('order_id', FinSalesOrder::query()->where('source_type', 'agri_contract')->where('source_id', $c->id)
             ->where('status', '!=', 'cancelled')->pluck('id'))->get();
         $ordered = (float) $lines->sum('quantity');
+        // Grain delivered load by load over the weighbridge, against the contract directly.
+        $loads = GrainSettlements::loadsOn($c);
 
-        return ['contracted' => $c->quantity, 'ordered' => round($ordered, 3), 'delivered' => round((float) $lines->sum('qty_accepted'), 3),
-            'rejected' => round((float) $lines->sum('qty_rejected'), 3), 'remaining' => round(max(0, $c->quantity - $ordered), 3), 'unit' => $c->unit];
+        return ['contracted' => $c->quantity, 'ordered' => round($ordered, 3), 'delivered' => round((float) $lines->sum('qty_accepted') + $loads, 3),
+            'rejected' => round((float) $lines->sum('qty_rejected'), 3), 'remaining' => round(max(0, $c->quantity - $ordered - $loads), 3), 'unit' => $c->unit,
+            'loads' => round($loads, 3)];
     }
 
     /**

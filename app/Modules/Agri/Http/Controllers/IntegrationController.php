@@ -41,7 +41,7 @@ class IntegrationController extends AgriController
                     'next_attempt_at' => $e->next_attempt_at?->format('Y-m-d H:i'), 'payload' => $e->payload]),
             'devices' => FarmClockDevice::query()->with('farm:id,name')->orderBy('name')->get()->map(fn ($d) => ['name' => $d->name, 'kind' => $d->kind, 'farm' => $d->farm?->name,
                 'active' => (bool) $d->is_active, 'last_seen_at' => $d->last_seen_at?->format('Y-m-d H:i'), 'events' => $d->events_received,
-                'scope' => ['biometric' => 'Clock events', 'access_control' => 'Clock events', 'kiosk' => 'Clock events', 'sensor_gateway' => 'Store readings', 'telematics' => 'Machine position and meters'][$d->kind] ?? $d->kind]),
+                'scope' => ['biometric' => 'Clock events', 'access_control' => 'Clock events', 'kiosk' => 'Clock events', 'sensor_gateway' => 'Store readings', 'telematics' => 'Machine position and meters', 'weighbridge' => 'Grain weighings'][$d->kind] ?? $d->kind]),
         ]);
     }
 

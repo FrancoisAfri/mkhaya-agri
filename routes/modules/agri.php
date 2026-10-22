@@ -17,6 +17,8 @@ use App\Modules\Agri\Http\Controllers\LivestockController;
 use App\Modules\Agri\Http\Controllers\MachineFleetController;
 use App\Modules\Agri\Http\Controllers\PackhouseController;
 use App\Modules\Agri\Http\Controllers\SalesController;
+use App\Modules\Agri\Http\Controllers\GrainController;
+use App\Modules\Agri\Http\Controllers\MarketController;
 use App\Modules\Agri\Http\Controllers\SafetyController;
 use App\Modules\Agri\Http\Controllers\InsightsController;
 use App\Modules\Agri\Http\Controllers\IntegrationController;
@@ -288,6 +290,33 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/sales/prices', [SalesController::class, 'storePrice'])->name('sales.prices.store');
         Route::post('/sales/listings', [SalesController::class, 'storeListing'])->name('sales.listings.store');
         Route::post('/sales/requests', [SalesController::class, 'storeRequest'])->name('sales.requests.store');
+
+        // Grain load by load: field log, weighbridge, tickets, bins, lost loads, buyers' settlements, contract balances.
+        Route::get('/grain', [GrainController::class, 'index'])->name('grain.home');
+        Route::get('/grain/{tab}', [GrainController::class, 'index'])->whereIn('tab', GrainController::TABS)->name('grain');
+        Route::post('/grain/loads/dispatch', [GrainController::class, 'dispatchLoad'])->name('grain.dispatch');
+        Route::post('/grain/loads', [GrainController::class, 'capture'])->name('grain.capture');
+        Route::post('/grain/weighings', [GrainController::class, 'weighing'])->name('grain.weighings.store');
+        Route::post('/grain/tickets/{ticket}/assess', [GrainController::class, 'assess'])->name('grain.tickets.assess');
+        Route::post('/grain/tickets/{ticket}/void', [GrainController::class, 'void'])->name('grain.tickets.void');
+        Route::post('/grain/tickets/{ticket}/photos', [GrainController::class, 'photos'])->name('grain.tickets.photos');
+        Route::get('/grain/photos/{photo}', [GrainController::class, 'photo'])->name('grain.photos.show');
+        Route::post('/grain/weighbridges', [GrainController::class, 'registerWeighbridge'])->name('grain.weighbridges.store');
+        Route::post('/grain/settlements', [GrainController::class, 'storeSettlement'])->name('grain.settlements.store');
+        Route::post('/grain/settlements/import', [GrainController::class, 'importSettlement'])->name('grain.settlements.import');
+        Route::post('/grain/settlements/{settlement}/match', [GrainController::class, 'matchSettlement'])->name('grain.settlements.match');
+        Route::post('/grain/settlements/{settlement}/post', [GrainController::class, 'postSettlement'])->name('grain.settlements.post');
+
+        // Market prices per contract month (feeds and typed in), the hedging register, price position and valuation.
+        Route::get('/markets', [MarketController::class, 'index'])->name('markets.home');
+        Route::get('/markets/{tab}', [MarketController::class, 'index'])->whereIn('tab', MarketController::TABS)->name('markets');
+        Route::post('/markets/prices', [MarketController::class, 'storePrice'])->name('markets.prices.store');
+        Route::post('/markets/feeds', [MarketController::class, 'storeFeed'])->name('markets.feeds.store');
+        Route::patch('/markets/feeds/{feed}', [MarketController::class, 'storeFeed'])->name('markets.feeds.update');
+        Route::post('/markets/feeds/{feed}/fetch', [MarketController::class, 'fetchFeed'])->name('markets.feeds.fetch');
+        Route::post('/markets/hedges', [MarketController::class, 'storeHedge'])->name('markets.hedges.store');
+        Route::post('/markets/hedges/mark', [MarketController::class, 'markHedges'])->name('markets.hedges.mark');
+        Route::post('/markets/hedges/{hedge}/close', [MarketController::class, 'closeHedge'])->name('markets.hedges.close');
 
         // Phase 2 §8: post-harvest — lots, packhouse, storage, dispatch, traceability, recalls.
 

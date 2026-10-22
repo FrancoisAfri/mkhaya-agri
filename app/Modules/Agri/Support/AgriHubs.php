@@ -63,6 +63,9 @@ class AgriHubs extends ModuleHubs
                     self::card('alerts', 'agri/alerts', 'bell', self::READ, 'red', self::needs(R::VIEW_FARMS)),
                     self::card('finance', 'agri/finance', 'farm-money', self::READ, 'green', self::needs(R::VIEW_FINANCE)),
                     self::card('sales', 'agri/sales', 'building-store', self::READ, 'orange', self::needs(R::VIEW_SALES)),
+                    // Grain load by load over the weighbridge, to the bin and the buyer; market prices and hedges.
+                    self::card('grain', 'agri/grain', 'truck', self::READ, 'amber', self::needs(R::VIEW_STOCK)),
+                    self::card('markets', 'agri/markets', 'chart-candle', self::READ, 'deep-orange', self::needs(R::VIEW_SALES)),
                     self::card('exports', 'agri/exports', 'ship', self::READ, 'indigo', self::needs(R::VIEW_SALES)),
                     self::card('outgrowers', 'agri/outgrowers', 'users', self::READ, 'teal', self::needs(R::VIEW_OUTGROWERS)),
                     self::card('assistant', 'agri/assistant', 'robot-farm', self::READ, 'deep-purple', self::needs(R::USE_ASSISTANT)),

@@ -179,6 +179,11 @@ class SeedAgriDemoAreas extends Command
             $this->area('Residue register (MRL starter set, banned actives, lab results)', fn () => \App\Modules\Agri\Models\ResidueTest::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->residues());
             $this->area('Certification checklists (GLOBALG.A.P., SIZA, organic; self-assessment)', fn () => \App\Modules\Agri\Models\SchemeInstall::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->certification());
             $this->area('Export consignment and its document pack', fn () => \App\Modules\Agri\Models\ExportConsignment::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->exportPack());
+            // Grain marketing: price feeds and SAFEX history, the hedging register, and maize loads over the weighbridge.
+            $this->area('Hedging permissions on the farm roles', fn () => \Spatie\Permission\Models\Permission::query()->where('name', \App\Modules\Agri\Support\RoleCatalog::MANAGE_HEDGES)->exists()
+                && $this->u['owner']->can(\App\Modules\Agri\Support\RoleCatalog::MANAGE_HEDGES), fn () => $this->hedgePermissions());
+            $this->area('Market price feed, SAFEX maize history and hedges', fn () => \App\Modules\Agri\Models\PriceFeed::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->marketFeeds());
+            $this->area('Grain loads (weighbridge, silo, buyer, lost load, settlement)', fn () => \App\Modules\Agri\Models\GrainTicket::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->grainLoads());
             $this->area('Season processes (crop cycle on the workflow engine)', fn () => \App\Modules\Workflow\Models\WorkflowDefinition::query()->where('key', 'agri_field_season')->exists(), fn () => $this->seasonProcesses());
 
             $this->newLine();
@@ -1225,7 +1230,7 @@ class SeedAgriDemoAreas extends Command
         $owner = $this->u['manager'];
         $series = [
             ['White maize WM1', 'MAIZE-W', 'WM1', 'JSE SAFEX', 'Randfontein', 't', [3920, 3985, 4060, 4110, 4205, 4180, 4090, 4010, 3975, 4040, 4125, 4190]],
-            ['Yellow maize YM1', 'MAIZE-W', 'YM1', 'JSE SAFEX', 'Randfontein', 't', [3850, 3900, 3975, 4020, 4080, 4060, 3990, 3940, 3905, 3960, 4010, 4075]],
+            ['Yellow maize YM1', 'MAIZE-Y', 'YM1', 'JSE SAFEX', 'Randfontein', 't', [3850, 3900, 3975, 4020, 4080, 4060, 3990, 3940, 3905, 3960, 4010, 4075]],
             ['Wheat', 'WHEAT', 'B1', 'JSE SAFEX', 'Randfontein', 't', [5620, 5680, 5745, 5810, 5890, 5940, 5870, 5790, 5720, 5760, 5830, 5905]],
             ['Soybeans', 'SOY', null, 'JSE SAFEX', 'Randfontein', 't', [7650, 7720, 7840, 7980, 8120, 8060, 7930, 7860, 7790, 7880, 7990, 8075]],
             ['Lemons 15kg carton', 'CITRUS', 'Class 1', 'Joburg Market', 'Gauteng', 'carton', [128, 134, 141, 152, 166, 178, 171, 160, 148, 139, 145, 158]],
@@ -2027,5 +2032,199 @@ class SeedAgriDemoAreas extends Command
         $docs = $ex->generate($c->fresh(), null, $mgr);
 
         return "load {$load->number} to Rotterdam, consignment {$c->reference}, ".count($docs).' documents in Document Management (ready to ship)';
+    }
+
+    private function hedgePermissions(): string
+    {
+        $new = [\App\Modules\Agri\Support\RoleCatalog::VIEW_HEDGES, \App\Modules\Agri\Support\RoleCatalog::MANAGE_HEDGES];
+        foreach ($new as $p) {
+            \Spatie\Permission\Models\Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
+        }
+        $n = 0;
+        foreach (\App\Modules\Agri\Support\RoleCatalog::suggestedRoles() as $name => $perms) {
+            $role = \App\Core\Role\Models\Role::query()->where('name', $name)->where('guard_name', 'web')->first();
+            if ($role && ($give = array_values(array_intersect($new, $perms)))) {
+                $role->givePermissionTo($give);
+                $n++;
+            }
+        }
+        \App\Core\Role\Models\Role::query()->where('name', 'Organisation Owner')->first()?->givePermissionTo($new);
+        app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+        foreach ($this->u as $k => $user) {
+            $this->u[$k] = $user->fresh();
+        }
+
+        return "2 permissions on {$n} farm roles";
+    }
+
+    /**
+     * The broker's SAFEX close as a price feed (paused until it points at the organisation's own
+     * vendor), 90 trading days of white and yellow maize futures per month as that feed delivers
+     * them, the yellow-maize spot series put on the right crop, and three hedges on white maize —
+     * two open, marked to market every day of their life, and one closed.
+     */
+    private function marketFeeds(): string
+    {
+        $white = $this->cropType('MAIZE-W');
+        $yellow = $this->cropType('MAIZE-Y');
+        // The yellow-maize spot prices were filed under white maize; they are yellow maize's.
+        MarketPrice::query()->where('product', 'Yellow maize YM1')->where('crop_type_id', $white)->update(['crop_type_id' => $yellow]);
+
+        $feeds = app(\App\Modules\Agri\Services\PriceFeeds::class);
+        $feed = $feeds->save($this->companyId, ['name' => 'SAFEX close (broker CSV)', 'adapter' => 'csv', 'url' => 'https://prices.broker.example/safex/close.csv',
+            'market' => 'JSE SAFEX', 'currency' => 'ZAR', 'unit' => 't', 'price_type' => 'futures', 'refresh_minutes' => 1440, 'paused' => true,
+            'config' => ['delimiter' => ';', 'date_format' => 'd/m/Y', 'columns' => ['date' => 'Date', 'product' => 'Contract', 'contract_month' => 'Expiry', 'price' => 'MTM'],
+                'products' => ['WMAZ' => ['product' => 'White maize', 'crop_code' => 'MAIZE-W'], 'YMAZ' => ['product' => 'Yellow maize', 'crop_code' => 'MAIZE-Y']]],
+            'auth' => ['type' => 'bearer', 'value' => 'demo-token-replace-me']], null, $this->u['finance'] ?? $this->u['owner']);
+
+        // Futures per month: a level, a drift over the 90 days and a wobble, so the chart reads like a market.
+        $curves = [['White maize', $white, '2026-12', 3960, 0.9], ['White maize', $white, '2027-03', 4050, 1.0], ['White maize', $white, '2027-07', 4140, 1.1],
+            ['Yellow maize', $yellow, '2026-12', 3880, 0.7], ['Yellow maize', $yellow, '2027-07', 4020, 0.8]];
+        $n = 0;
+        for ($d = 90; $d >= 0; $d--) {
+            $day = today()->subDays($d);
+            if ($day->isWeekend()) {
+                continue;
+            }
+            foreach ($curves as $i => [$product, $type, $month, $level, $drift]) {
+                $price = round($level + (90 - $d) * $drift + 38 * sin(($d + $i * 7) / 6.0) + 14 * cos($d / 2.3), 0);
+                $feeds->store($feed, ['product' => $product, 'crop_type_id' => $type, 'grade' => null, 'market' => 'JSE SAFEX', 'region' => null, 'price_date' => $day->toDateString(),
+                    'price' => $price, 'currency' => 'ZAR', 'unit' => 't', 'kind' => 'actual', 'price_type' => 'futures', 'contract_month' => $month, 'source' => $feed->name,
+                    'source_url' => $feed->url, 'feed_id' => $feed->id, 'flagged' => false]);
+                $n++;
+            }
+        }
+        $feed->forceFill(['last_success_at' => now()->subHours(3), 'last_attempt_at' => now()->subHours(3), 'last_items' => count($curves)])->save();
+
+        $hedging = app(\App\Modules\Agri\Services\Hedging::class);
+        $fin = $this->u['finance'] ?? $this->u['owner'];
+        Auth::setUser($fin);
+        $plan = $this->plan('MZ-26-L1');
+        $tiger = $this->party('Tiger Brands Milling', 'customer', ['category' => 'produce_buyer', 'credit_terms_days' => 30]);
+        $price = fn (string $month, int $daysAgo) => (float) MarketPrice::query()->where('crop_type_id', $white)->where('contract_month', $month)
+            ->where('price_date', '<=', today()->subDays($daysAgo)->toDateString())->orderByDesc('price_date')->value('price');
+        $fut = $hedging->open($this->companyId, ['crop_type_id' => $white, 'instrument' => 'futures', 'side' => 'sell', 'contract_month' => '2027-07', 'contracts' => 2,
+            'entry_price' => $price('2027-07', 60) + 60, 'entry_date' => today()->subDays(60)->toDateString(), 'broker' => 'RMB Agri desk', 'account' => 'RMB-AG-4471',
+            'farm_id' => $this->boplaas->id, 'crop_plan_id' => $plan->id, 'notes' => 'Locks in the July price on 200 t of the L1 maize.'], $fin);
+        $put = $hedging->open($this->companyId, ['crop_type_id' => $white, 'instrument' => 'option', 'side' => 'buy', 'option_type' => 'put', 'strike' => 4000, 'premium' => 95,
+            'contract_month' => '2026-12', 'contracts' => 1, 'entry_price' => $price('2026-12', 30), 'entry_date' => today()->subDays(30)->toDateString(), 'broker' => 'RMB Agri desk',
+            'account' => 'RMB-AG-4471', 'farm_id' => $this->boplaas->id, 'notes' => 'A floor under 100 t for the December delivery.'], $fin);
+        $old = $hedging->open($this->companyId, ['crop_type_id' => $white, 'instrument' => 'futures', 'side' => 'sell', 'contract_month' => '2026-12', 'contracts' => 1,
+            'entry_price' => $price('2026-12', 85), 'entry_date' => today()->subDays(85)->toDateString(), 'broker' => 'RMB Agri desk', 'account' => 'RMB-AG-4471',
+            'contract_id' => \App\Modules\Agri\Models\SalesContract::query()->where('party_id', $tiger->id)->value('id')], $fin);
+        $marks = 0;
+        foreach ([$fut, $put, $old] as $h) {
+            for ($d = (int) $h->entry_date->diffInDays(today()); $d >= 0; $d--) {
+                $marks += $hedging->mark($h->fresh(), today()->subDays($d)->toDateString()) ? 1 : 0;
+                if ($h->id === $old->id && $d === 20) {
+                    $hedging->close($h->fresh(), 'closed', $price('2026-12', 20), today()->subDays(20)->toDateString(), $fin);
+                    break;
+                }
+            }
+        }
+
+        return "1 feed (paused until pointed at your vendor), {$n} futures prices, 3 hedges, {$marks} daily marks";
+    }
+
+    /**
+     * Last season's L4 maize coming in: loads into the new maize silo (two over the weighbridge from the field
+     * log, one of them with a tare that is off; two typed from the slip), four to Afgri at Bothaville
+     * on a basis contract, one out of the silo to them, and one load that left the field and never
+     * arrived. Afgri's statement has three of the four field loads and the silo load; one of them
+     * they graded WM2 against our WM1.
+     */
+    private function grainLoads(): string
+    {
+        $loads = app(\App\Modules\Agri\Services\GrainLoads::class);
+        app(\App\Modules\Agri\Services\GrainGrading::class)->ensureDefaults($this->companyId);
+        $sup = $this->as('supervisor');
+        $plan = $this->lateMaize();
+        $silo = app(FarmInventory::class)->addStore($this->boplaas, ['kind' => 'silo', 'name' => 'Silo 2 (maize)', 'capacity' => 1500, 'capacity_unit' => 't']);
+        $item = $this->item('GRAIN-MAIZE-W', 'White maize grain (bulk)', 't', 3800, 'produce');
+        [$bridge] = app(\App\Modules\HR\Hr\Attendance\Services\ClockDevices::class)->register($this->boplaas, 'Boplaas weighbridge (60 t)', 'weighbridge', $this->u['owner']);
+        $afgri = $this->party('Afgri Bothaville', 'customer', ['category' => 'produce_buyer', 'credit_terms_days' => 30, 'address' => 'Afgri silo, Bothaville']);
+
+        $sales = app(FarmSales::class);
+        $contract = $sales->contract($this->companyId, ['farm_id' => $this->boplaas->id, 'party_id' => $afgri->id, 'crop_type_id' => $this->cropType('MAIZE-W'), 'product' => 'White maize',
+            'quantity' => 300, 'unit' => 't', 'tolerance_pct' => 5, 'windows' => [['from' => today()->subDays(10)->toDateString(), 'to' => today()->addDays(60)->toDateString(), 'quantity' => 300, 'location' => 'Afgri Bothaville silo']],
+            'accepted_grades' => ['WM1', 'WM2', 'WM3'], 'pricing' => 'basis', 'formula' => ['market' => 'JSE SAFEX', 'contract_month' => '2026-12', 'basis' => -120, 'grade_premiums' => ['WM2' => -60, 'WM3' => -150]],
+            'currency' => 'ZAR', 'transport' => 'farm', 'quality_spec' => 'SA grading regulations; moisture over 14% taken at a drying charge', 'rejection_rules' => 'Over 18% moisture refused at intake'], $this->as('manager'));
+        $sales->setStatus($contract, 'active', $this->as('owner'));
+
+        $base = ['crop_plan_id' => $plan->id, 'driver' => null];
+        $toSilo = ['movement' => 'field_to_store', 'to_store_id' => $silo->id, 'stock_item_id' => $item->id] + $base;
+        $toAfgri = ['movement' => 'field_to_buyer', 'party_id' => $afgri->id, 'contract_id' => $contract->id, 'destination_name' => 'Afgri Bothaville silo'] + $base;
+
+        // Over the weighbridge from the field log: the truck's two weighings, then the grader.
+        $viaBridge = function (array $where, string $reg, string $driver, int $daysAgo, string $in, string $out, float $gross, float $tare, float $moisture, float $fm, string $loadRef) use ($loads, $sup, $bridge) {
+            $t = $loads->dispatch($this->boplaas, $where + ['vehicle_reg' => $reg, 'driver' => $driver, 'load_ref' => $loadRef, 'dispatched_at' => $this->demoAt($daysAgo, $in)->subMinutes(35)], $sup);
+            $loads->weigh($this->companyId, ['vehicle_reg' => $reg, 'mass_kg' => $gross, 'weighed_at' => $this->demoAt($daysAgo, $in), 'external_id' => "demo-{$t->number}-1"], $bridge, null);
+            $loads->weigh($this->companyId, ['vehicle_reg' => $reg, 'mass_kg' => $tare, 'weighed_at' => $this->demoAt($daysAgo, $out), 'external_id' => "demo-{$t->number}-2"], $bridge, null);
+
+            return $loads->assess($t->fresh(), ['moisture_pct' => $moisture, 'foreign_matter_pct' => $fm], $sup);
+        };
+        // Typed from the slip.
+        $bySlip = fn (array $where, string $reg, string $driver, int $daysAgo, string $in, string $out, float $gross, float $tare, float $moisture, float $fm, array $extra = []) => $loads->capture($this->boplaas,
+            $where + $extra + ['vehicle_reg' => $reg, 'driver' => $driver, 'gross_kg' => $gross, 'tare_kg' => $tare, 'moisture_pct' => $moisture, 'foreign_matter_pct' => $fm,
+                'weighed_in_at' => $this->demoAt($daysAgo, $in), 'weighed_out_at' => $this->demoAt($daysAgo, $out)], $sup);
+
+        $n = [];
+        $n[] = $bySlip($toSilo, 'FBX 412 FS', 'Thabo Mokoena', 3, '07:40', '08:05', 43820, 14060, 14.2, 0.25);
+        $n[] = $bySlip($toSilo, 'FBX 412 FS', 'Thabo Mokoena', 3, '09:55', '10:20', 44110, 14010, 13.6, 0.4);
+        $n[] = $viaBridge($toSilo, 'FBX 412 FS', 'Thabo Mokoena', 2, '08:10', '08:31', 43650, 14040, 15.1, 0.3, 'L1-17');
+        // The same truck empty at 15.2 t: 8% over its usual tare — somebody rode back on it, or the bin was not tipped clean.
+        $n[] = $viaBridge($toSilo, 'FBX 412 FS', 'Thabo Mokoena', 2, '11:02', '11:24', 45010, 15180, 14.8, 0.45, 'L1-19');
+        $n[] = $bySlip($toAfgri, 'HTY 908 FS', 'Jan Botha', 2, '06:30', '06:52', 46200, 15400, 13.1, 0.2, ['buyer_ticket_ref' => 'AFB-55102']);
+        $n[] = $bySlip($toAfgri, 'HTY 908 FS', 'Jan Botha', 2, '13:15', '13:37', 46480, 15420, 12.9, 0.25, ['buyer_ticket_ref' => 'AFB-55131']);
+        $n[] = $bySlip($toAfgri, 'HTY 908 FS', 'Jan Botha', 1, '06:40', '07:01', 45900, 15380, 13.4, 0.35);
+        $n[] = $bySlip($toAfgri, 'KLM 233 FS', 'Piet Mahlangu', 1, '10:05', '10:29', 45120, 14900, 12.8, 0.2);
+        // Out of the silo to Afgri: 30 t of the WM1.
+        $n[] = $loads->capture($this->boplaas, ['movement' => 'store_to_buyer', 'from_store_id' => $silo->id, 'stock_item_id' => $item->id, 'crop_plan_id' => $plan->id, 'party_id' => $afgri->id,
+            'contract_id' => $contract->id, 'destination_name' => 'Afgri Bothaville silo', 'vehicle_reg' => 'KLM 233 FS', 'driver' => 'Piet Mahlangu', 'gross_kg' => 44950,
+            'tare_kg' => 14930, 'moisture_pct' => 12.6, 'foreign_matter_pct' => 0.25, 'grade' => 'WM1', 'weighed_in_at' => $this->demoAt(1, '13:10'), 'weighed_out_at' => $this->demoAt(1, '13:44')], $sup);
+        // Left the field this morning and never reached the weighbridge.
+        $lost = $loads->dispatch($this->boplaas, $toSilo + ['vehicle_reg' => 'CJT 771 FS', 'driver' => 'Sello Dube', 'load_ref' => 'L1-23', 'dispatched_at' => now()->subHours(9)], $sup);
+
+        // Afgri's statement: three of our four field loads and the silo load. One they graded WM2.
+        $f = collect($n)->filter(fn ($t) => $t->movement !== 'field_to_store')->values();
+        $line = fn ($t, ?string $ref, string $grade, ?float $netAdj = 0) => ['buyer_ticket_ref' => $ref, 'our_ticket_ref' => $ref ? null : $t->number, 'vehicle_reg' => $t->vehicle_reg,
+            'delivered_on' => $t->loadDate(), 'gross_kg' => $t->gross_kg, 'tare_kg' => $t->tare_kg, 'net_kg' => $t->net_kg + $netAdj, 'moisture_pct' => $t->moisture_pct, 'grade' => $grade,
+            'settled_kg' => $t->settled_kg, 'price_per_t' => ($p = $sales->contractPrice($contract->fresh(), $grade, $t->loadDate())['price']) !== null ? round($p, 2) : null];
+        $s = app(\App\Modules\Agri\Services\GrainSettlements::class)->capture($this->companyId, ['party_id' => $afgri->id, 'contract_id' => $contract->id, 'farm_id' => $this->boplaas->id,
+            'reference' => 'AFB-ST-2026-118', 'statement_date' => today()->toDateString(), 'period_from' => today()->subDays(3)->toDateString(), 'period_to' => today()->toDateString(),
+            'charges' => 1840, 'charges_note' => 'Maize Trust levy and intake handling'],
+            [$line($f[0], 'AFB-55102', $f[0]->grade), $line($f[1], 'AFB-55131', 'WM2', 10), $line($f[2], null, $f[2]->grade), $line($f[4], null, $f[4]->grade)], $this->as('manager'));
+
+        $flagged = collect($n)->filter(fn ($t) => ! empty($t->fresh()->flags))->count();
+
+        return count($n).' loads ('.$flagged.' flagged), 1 lost load ('.$lost->number."), contract {$contract->reference}, statement {$s->reference}: "
+            .($s->totals['matched'] ?? 0).' matched, '.($s->totals['differs'] ?? 0).' with a difference';
+    }
+
+    /**
+     * Last season's white maize on L4, still coming in: a late Free State harvest. (This season's L1
+     * maize was only just planted and is inside its herbicide's withholding period.)
+     */
+    private function lateMaize(): CropPlan
+    {
+        $existing = CropPlan::withoutGlobalScopes()->where('company_id', $this->companyId)->where('code', 'MZ-25-L4')->first();
+        if ($existing) {
+            return $existing;
+        }
+        $season = \App\Modules\Agri\Models\CropSeason::withoutGlobalScopes()->firstOrCreate(['company_id' => $this->companyId, 'code' => 'S2025/26'],
+            ['name' => 'Summer 2025/26', 'starts_on' => '2025-08-01', 'ends_on' => '2026-07-31', 'status' => \App\Modules\Agri\Models\CropSeason::OPEN]);
+        $plans = app(\App\Modules\Agri\Services\CropPlanService::class);
+        $plan = $plans->create($this->boplaas, $this->field('L4'), ['code' => 'MZ-25-L4', 'season_id' => $season->id, 'crop_type_id' => $this->cropType('MAIZE-W'),
+            'planned_area' => 95, 'area_unit' => 'ha', 'planned_planting_on' => '2025-11-15', 'planned_harvest_on' => '2026-07-15', 'expected_yield' => 6.5, 'yield_unit' => 't',
+            'expected_price' => 3900, 'notes' => 'Dryland. Late harvest: the lands were too wet to take the combines in winter.'], $this->as('manager'));
+        $plans->approve($plan, $this->as('owner'));
+
+        return $plans->plant($plan->fresh(), '2025-11-18')->fresh();
+    }
+
+    /** A demo moment: so many days ago at a farm clock time. */
+    private function demoAt(int $daysAgo, string $time): Carbon
+    {
+        return Carbon::parse(today()->subDays($daysAgo)->toDateString().' '.$time, 'Africa/Johannesburg');
     }
 }

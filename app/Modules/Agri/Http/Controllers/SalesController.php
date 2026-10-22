@@ -81,7 +81,7 @@ class SalesController extends AgriController
         $this->allow($request, R::MANAGE_SALES);
         $data = $request->validate($this->contractRules() + ['farm_id' => ['nullable', 'string'], 'party_id' => ['required', 'integer', 'exists:fin_parties,id'], 'crop_type_id' => ['nullable', 'integer'],
             'variety_id' => ['nullable', 'integer'], 'product' => ['required', 'string', 'max:120'], 'unit' => ['required', 'string', 'max:12'],
-            'pricing' => ['required', Rule::in(['fixed', 'formula'])], 'currency' => ['nullable', 'string', 'size:3'], 'standard_id' => ['nullable', 'integer'],
+            'pricing' => ['required', Rule::in(['fixed', 'formula', 'basis', 'pool'])], 'currency' => ['nullable', 'string', 'size:3'], 'standard_id' => ['nullable', 'integer'],
             'dispute_procedure' => ['nullable', 'string', 'max:1000']]);
         if (! empty($data['farm_id'])) {
             $data['farm_id'] = $this->workingFarm($request, $data['farm_id'])->id;
@@ -174,7 +174,8 @@ class SalesController extends AgriController
             'price' => ['nullable', 'numeric', 'gt:0'], 'formula' => ['nullable', 'array'], 'formula.market' => ['nullable', 'string', 'max:120'], 'formula.product' => ['nullable', 'string', 'max:120'],
             'formula.grade' => ['nullable', 'string', 'max:40'], 'formula.unit' => ['nullable', 'string', 'max:12'], 'formula.lookback_days' => ['nullable', 'integer', 'between:1,90'],
             'formula.adjust_pct' => ['nullable', 'numeric'], 'formula.premium' => ['nullable', 'numeric'], 'formula.floor' => ['nullable', 'numeric'], 'formula.cap' => ['nullable', 'numeric'],
-            'formula.grade_premiums' => ['nullable', 'array'], 'packaging' => ['nullable', 'string', 'max:500'], 'transport' => ['nullable', Rule::in(['farm', 'buyer'])],
+            'formula.grade_premiums' => ['nullable', 'array'], 'formula.contract_month' => ['nullable', 'regex:/^\d{4}-(0[1-9]|1[0-2])$/'], 'formula.basis' => ['nullable', 'numeric'],
+            'formula.pool_price' => ['nullable', 'numeric', 'gt:0'], 'formula.pool_final' => ['nullable', 'boolean'], 'packaging' => ['nullable', 'string', 'max:500'], 'transport' => ['nullable', Rule::in(['farm', 'buyer'])],
             'rejection_rules' => ['nullable', 'string', 'max:1000'], 'advance_amount' => ['nullable', 'numeric', 'gte:0'], 'input_financing' => ['nullable', 'array'],
             'input_financing.*.item' => ['required', 'string', 'max:120'], 'input_financing.*.value' => ['required', 'numeric', 'gt:0'], 'input_financing.*.recover_from' => ['nullable', 'string', 'max:120']];
     }
