@@ -29,6 +29,7 @@ use App\Modules\Agri\Http\Controllers\MyWorkController;
 use App\Modules\Agri\Http\Controllers\FarmController;
 use App\Modules\Agri\Http\Controllers\FarmSetupController;
 use App\Modules\Agri\Http\Controllers\FieldMapController;
+use App\Modules\Agri\Http\Controllers\SatelliteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -170,6 +171,15 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::post('/outgrower-contracts/{contract}/inspections', [OutgrowerController::class, 'inspect'])->name('outgrowers.inspections.store');
         Route::post('/outgrower-contracts/{contract}/collections', [OutgrowerController::class, 'collect'])->name('outgrowers.collections.store');
         Route::post('/outgrower-settlements/{settlement}/approve', [OutgrowerController::class, 'approveSettlement'])->name('outgrowers.settlements.approve');
+
+        // Satellite crop health: NDVI per field and zone fetched from the organisation's provider.
+        Route::get('/crop-health', [SatelliteController::class, 'index'])->name('satellite.index');
+        Route::post('/crop-health/fetch', [SatelliteController::class, 'fetch'])->name('satellite.fetch');
+        Route::get('/crop-health/images/{imagery}', [SatelliteController::class, 'image'])->name('satellite.image');
+        Route::get('/crop-health/settings', [SatelliteController::class, 'settings'])->name('satellite.settings');
+        Route::put('/crop-health/settings/{provider}', [SatelliteController::class, 'save'])->name('satellite.settings.save');
+        Route::post('/crop-health/settings/{provider}/check', [SatelliteController::class, 'check'])->name('satellite.settings.check');
+        Route::get('/farms/{farm}/ndvi', [SatelliteController::class, 'farmLayers'])->name('farms.ndvi');
 
         // Phase 2 §16: the farm map, crop imagery, the decision simulator.
         Route::get('/twin', [TwinController::class, 'index'])->name('twin.home');

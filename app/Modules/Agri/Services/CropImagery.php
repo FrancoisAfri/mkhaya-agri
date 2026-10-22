@@ -26,7 +26,11 @@ class CropImagery
     public const DROP_PCT = 15.0;     // a fall of this much in the mean, or in a zone, is worth a look
     public const MAX_CLOUD = 30.0;
 
-    public function import(FarmField $field, array $data, User $actor): array
+    /**
+     * $actor is null for the scheduled satellite fetch. $data['flag'] = false keeps a capture
+     * without comparing it for a drop (a secondary index fetched beside NDVI).
+     */
+    public function import(FarmField $field, array $data, ?User $actor): array
     {
         if (! in_array($data['index'], FieldImagery::INDICES, true)) {
             throw ValidationException::withMessages(['index' => 'Choose the vegetation index.']);
@@ -40,9 +44,9 @@ class CropImagery
             $img = FieldImagery::query()->updateOrCreate(['field_id' => $field->id, 'index' => $data['index'], 'captured_on' => $data['captured_on'], 'source' => $data['source']],
                 ['company_id' => $field->company_id, 'farm_id' => $field->farm_id, 'crop_plan_id' => $plan?->id, 'mean' => $data['mean'], 'min' => $data['min'] ?? null,
                     'max' => $data['max'] ?? null, 'cloud_pct' => $data['cloud_pct'] ?? null, 'cells' => $data['cells'] ?? null, 'image_mime' => $data['image_mime'] ?? null,
-                    'image_data' => $data['image_data'] ?? null, 'change_pct' => $change, 'recorded_by' => $actor->id]);
+                    'image_data' => $data['image_data'] ?? null, 'change_pct' => $change, 'recorded_by' => $actor?->id]);
             $flag = null;
-            if ($prev && (float) ($data['cloud_pct'] ?? 0) <= self::MAX_CLOUD) {
+            if ($prev && ($data['flag'] ?? true) && (float) ($data['cloud_pct'] ?? 0) <= self::MAX_CLOUD) {
                 $prevCells = collect($prev->cells ?? [])->keyBy('id');
                 $dropped = collect($data['cells'] ?? [])->filter(function ($c) use ($prevCells) {
                     $before = (float) ($prevCells[$c['id']]['value'] ?? 0);
@@ -57,7 +61,7 @@ class CropImagery
                     $obs = CropObservation::create(['company_id' => $field->company_id, 'farm_id' => $field->farm_id, 'field_id' => $field->id, 'crop_plan_id' => $plan?->id,
                         'observed_on' => today(), 'kind' => 'plant_health', 'severity' => 'medium', 'status' => 'open', 'action_required' => true,
                         'description' => "Imagery ({$data['source']}): {$why}. Go and look — imagery shows where, not what.", 'latitude' => $first['lat'] ?? null, 'longitude' => $first['lng'] ?? null,
-                        'recorded_by' => $actor->id]);
+                        'recorded_by' => $actor?->id]);
                     $flag = ImageryFlag::create(['company_id' => $field->company_id, 'farm_id' => $field->farm_id, 'imagery_id' => $img->id, 'field_id' => $field->id,
                         'reason' => mb_strimwidth($why, 0, 300), 'cells' => $dropped->all() ?: null, 'observation_id' => $obs->id]);
                 }

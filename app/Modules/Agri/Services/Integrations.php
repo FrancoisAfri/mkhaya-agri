@@ -33,14 +33,25 @@ class Integrations
             'telematics' => fn (array $p, IntegrationEvent $e) => $this->telematics($p, $e),
             'messaging' => fn (array $p, IntegrationEvent $e) => app(AgriMessaging::class)->respond($p),
             'weather' => fn (array $p, IntegrationEvent $e) => ['hours' => app(WeatherIntelligence::class)->refresh(Farm::withoutGlobalScope('farm_access')->findOrFail($p['farm_id']))],
+            'satellite' => fn (array $p, IntegrationEvent $e) => app(SatelliteImagery::class)->handle($p, $e),
         ];
     }
+
+    /** Outbound fetches: the farm asks an outside service, rather than receiving a message. */
+    private const OUTBOUND = ['weather', 'satellite'];
+
+    /**
+     * Handlers that commit as they go. The satellite fetch stores each scene in its own transaction
+     * and counts each paid request at once, so a failure part-way neither forgets what a request
+     * cost nor throws away the scenes already stored — the retry carries on from there.
+     */
+    private const OWN_TRANSACTIONS = ['satellite'];
 
     /** @return array{event: IntegrationEvent, replayed: bool} */
     public function receive(int $companyId, string $integration, string $key, array $payload, ?int $deviceId = null, ?int $farmId = null): array
     {
         $e = IntegrationEvent::withoutGlobalScopes()->firstOrCreate(['company_id' => $companyId, 'integration' => $integration, 'idempotency_key' => mb_strimwidth($key, 0, 160)],
-            ['direction' => $integration === 'weather' ? 'out' : 'in', 'device_id' => $deviceId, 'farm_id' => $farmId, 'payload' => $payload, 'status' => 'received']);
+            ['direction' => in_array($integration, self::OUTBOUND, true) ? 'out' : 'in', 'device_id' => $deviceId, 'farm_id' => $farmId, 'payload' => $payload, 'status' => 'received']);
         if (! $e->wasRecentlyCreated && in_array($e->status, ['processed', 'dead'], true)) {
             $e->increment('replays');
 
@@ -60,7 +71,7 @@ class Integrations
             return $e;
         }
         try {
-            $result = DB::transaction(fn () => $handler($e->payload, $e));
+            $result = in_array($e->integration, self::OWN_TRANSACTIONS, true) ? $handler($e->payload, $e) : DB::transaction(fn () => $handler($e->payload, $e));
             $e->update(['status' => 'processed', 'result' => $result, 'error' => null, 'processed_at' => now(), 'attempts' => $e->attempts + 1, 'next_attempt_at' => null]);
         } catch (Throwable $x) {
             $attempts = $e->attempts + 1;

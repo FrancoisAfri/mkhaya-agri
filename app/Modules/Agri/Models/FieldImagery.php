@@ -12,4 +12,10 @@ class FieldImagery extends FarmOwnedModel
     protected $hidden = ['image_data'];
 
     protected $casts = ['captured_on' => 'date', 'mean' => 'float', 'min' => 'float', 'max' => 'float', 'cloud_pct' => 'float', 'cells' => 'array', 'change_pct' => 'float'];
+
+    /** The rendered picture is kept once, on the capture — not again in every audit entry. */
+    public function getActivitylogOptions(): \Spatie\Activitylog\LogOptions
+    {
+        return parent::getActivitylogOptions()->logExcept(['updated_at', 'created_at', 'data', 'image_data']);
+    }
 }

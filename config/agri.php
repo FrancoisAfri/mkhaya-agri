@@ -35,6 +35,30 @@ return [
         'forecast_days' => (int) env('AGRI_WEATHER_DAYS', 7),
     ],
 
+    // Satellite crop health fetched per field and zone. Each organisation picks its provider and enters its own
+    // credentials (Farm Operations → Crop health → Satellite settings); the endpoints and request details are here.
+    'satellite' => [
+        'providers' => [
+            // Copernicus Data Space Ecosystem: Sentinel-2 L2A through the Sentinel Hub APIs it hosts (free quota per account).
+            'copernicus' => ['name' => 'Copernicus Data Space (Sentinel-2 L2A)', 'source' => 'Sentinel-2 L2A (CDSE)',
+                'class' => \App\Modules\Agri\Satellite\CopernicusProvider::class,
+                'token_url' => env('AGRI_CDSE_TOKEN_URL', 'https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token'),
+                'statistics_url' => env('AGRI_CDSE_STATISTICS_URL', 'https://sh.dataspace.copernicus.eu/api/v1/statistics'),
+                'process_url' => env('AGRI_CDSE_PROCESS_URL', 'https://sh.dataspace.copernicus.eu/api/v1/process'),
+                'collection' => 'sentinel-2-l2a',
+                // Scene-level filter before the per-field cloud mask: loose, so a clear field under a cloudy tile still counts.
+                'tile_max_cloud' => (int) env('AGRI_CDSE_TILE_MAX_CLOUD', 80),
+                'resolution_deg' => 0.0001,          // ≈ 10 m, Sentinel-2's red/NIR resolution, in CRS84 degrees
+                'image_max_px' => 512],
+            // OpenWeather Agro API: polygons registered once, then NDVI statistics and pictures per polygon.
+            'agromonitoring' => ['name' => 'AgroMonitoring (OpenWeather Agro API)', 'source' => 'AgroMonitoring',
+                'class' => \App\Modules\Agri\Satellite\AgroMonitoringProvider::class,
+                'base_url' => env('AGRI_AGRO_BASE_URL', 'https://api.agromonitoring.com/agro/1.0'),
+                'min_coverage_pct' => 80],          // a scene covering less of the polygon than this is "no data"
+        ],
+        'timeout' => 30,
+    ],
+
     // Phase 2 §16C: messaging. The webhook is signed with this secret (HMAC-SHA256 of the raw body, header X-Agri-Signature).
     // Outbound: 'log' (default, nothing leaves the server) or 'whatsapp_cloud' with the Meta WhatsApp Cloud API token and phone id.
     'messaging' => [

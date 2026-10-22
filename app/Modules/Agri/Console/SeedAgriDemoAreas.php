@@ -33,6 +33,7 @@ use App\Modules\Agri\Services\AgriDrafts;
 use App\Modules\Agri\Services\AgriLedger;
 use App\Modules\Agri\Services\AgriPredictions;
 use App\Modules\Agri\Services\CropImagery;
+use App\Modules\Agri\Models\FieldImagery;
 use App\Modules\Agri\Services\CropLifecycle;
 use App\Modules\Agri\Services\DecisionSimulator;
 use App\Modules\Agri\Services\EnvironmentReport;
@@ -149,6 +150,7 @@ class SeedAgriDemoAreas extends Command
             $this->area('Weather (rules, warnings)', fn () => DB::table('agri_weather_rules')->where('company_id', $this->companyId)->exists(), fn () => $this->weather());
             $this->area('Market prices and buyer requests', fn () => MarketPrice::query()->exists(), fn () => $this->market());
             $this->area('Crops (stages, thresholds, imagery, simulation, commitment)', fn () => DB::table('crop_stage_events')->where('company_id', $this->companyId)->exists(), fn () => $this->crops());
+            $this->area('Satellite crop health (NDVI per field and zone, pictures)', fn () => \App\Modules\Agri\Models\SatelliteScene::withoutGlobalScopes()->where('company_id', $this->companyId)->exists(), fn () => $this->satellite());
             $this->area('Livestock (rations, feeding, vaccination, movements, production)', fn () => FeedRation::query()->exists(), fn () => $this->livestock());
             $this->area('Cold store and packhouse runs', fn () => FarmStore::withoutGlobalScopes()->where('farm_id', $this->rivier->id)->where('kind', 'cold_room')->exists(), fn () => $this->packhouse());
             $this->area('Storage readings and sensors', fn () => DB::table('storage_readings')->where('company_id', $this->companyId)->exists(), fn () => $this->storage());
@@ -774,6 +776,176 @@ class SeedAgriDemoAreas extends Command
         }
 
         return "{$zones} zones, {$versions} boundary versions";
+    }
+
+    /**
+     * Five months of Sentinel-2 NDVI on every mapped land, as the daily fetch would have stored
+     * it: a scene every five days, the cloudy ones remembered and skipped, each field's own
+     * seasonal curve (maize just up, wheat ripening, lucerne cut and regrowing, the orchard
+     * steady), zones above or below their field, the shallow south of L1 lagging behind, and the
+     * mature citrus block falling sharply in the last pass — which raises the imagery flag and a
+     * scouting check through the same import as any capture. Each stored scene has a small NDVI
+     * picture drawn here with GD.
+     */
+    private function satellite(): string
+    {
+        $img = app(CropImagery::class);
+        $geo = \App\Modules\Agri\Support\Geo::class;
+        $source = (string) config('agri.satellite.providers.copernicus.source', 'Sentinel-2 L2A (CDSE)');
+        \App\Modules\Agri\Models\SatelliteProvider::withoutGlobalScopes()->firstOrCreate(['company_id' => $this->companyId, 'provider' => 'copernicus'],
+            ['is_active' => false, 'settings' => \App\Modules\Agri\Models\SatelliteProvider::DEFAULTS]);
+
+        // NDVI by days from today (negative = past), per land.
+        $curves = [
+            'L1' => fn (int $t) => $t < -12 ? 0.19 + 0.01 * sin($t / 7) : 0.19 + (0.36 - 0.19) * min(1, ($t + 12) / 10),            // maize, emerged 13 Oct
+            'L2' => fn (int $t) => 0.27 + 0.03 * sin($t / 11),                                                                        // stubble, soybeans to come
+            'L3' => fn (int $t) => 0.24 + 0.58 * exp(-(($t + 62) / 38) ** 2),                                                        // winter wheat, now ripening
+            'L4' => fn (int $t) => 0.31 + 0.04 * sin($t / 15),                                                                        // veld, fallow land
+            'K2' => fn (int $t) => 0.46 + 0.28 * fmod(($t + 400) / 35, 1.0),                                                         // lucerne, cut every 5 weeks
+            'K1' => fn (int $t) => 0.33 + 0.08 * max(0, ($t + 40) / 40),                                                              // camp, greening up with spring
+            'O1' => fn (int $t) => 0.66 + 0.03 * sin($t / 20),                                                                        // citrus, evergreen
+        ];
+        $zoneFactor = ['high' => 1.07, 'medium' => 1.0, 'low' => 0.88, 'other' => 0.95];
+        $last = today()->subDays(2);
+        $dates = collect(range(29, 0))->map(fn ($i) => $last->copy()->subDays(5 * $i));
+        // Cloud over the farm per pass (the same pass covers every land): about one in five too cloudy.
+        $cloud = $dates->mapWithKeys(fn ($d, $i) => [$d->toDateString() => $i === 29 || $i === 28 ? 3.0 : [2, 4, 64, 9, 1, 18, 3, 88, 6, 2, 41, 5, 12, 3, 97, 7, 2, 4, 71, 3, 26, 8, 2, 55, 4, 1, 6, 79, 3, 5][$i]]);
+
+        $stored = $cloudy = $pictures = $flags = 0;
+        foreach ($curves as $code => $curve) {
+            $field = FarmField::withoutGlobalScopes()->where('company_id', $this->companyId)->where('code', $code)->first();
+            $shape = $field ? $geo::polygon($field->boundary) : null;
+            if (! $shape) {
+                continue;
+            }
+            $zones = \App\Modules\Agri\Models\FieldZone::withoutGlobalScopes()->where('field_id', $field->id)->where('status', 'active')->where('zone_class', '!=', 'exclude')->orderBy('name')->get();
+            $grid = $this->ndviGrid($shape, $zones);
+            $bounds = $geo::bounds($shape);
+            $have = FieldImagery::withoutGlobalScopes()->where('field_id', $field->id)->where('index', 'ndvi')->pluck('captured_on')->map(fn ($d) => $d->toDateString())->all();
+            mt_srand(crc32($code));
+            foreach ($dates as $n => $date) {
+                $day = $date->toDateString();
+                $t = (int) today()->diffInDays($date, false);
+                $cl = (float) $cloud[$day];
+                if (in_array($day, $have, true)) {
+                    continue;   // a capture somebody posted for that day already
+                }
+                if ($cl > 30) {
+                    \App\Modules\Agri\Models\SatelliteScene::withoutGlobalScopes()->create(['company_id' => $this->companyId, 'farm_id' => $field->farm_id, 'field_id' => $field->id,
+                        'provider' => 'copernicus', 'acquired_on' => $day, 'scene_ref' => "S2L2A:{$day}", 'cloud_pct' => $cl, 'status' => 'too_cloudy', 'bounds' => $bounds]);
+                    $cloudy++;
+
+                    continue;
+                }
+                $isLast = $n === $dates->count() - 1;
+                $values = [];
+                foreach ($zones as $z) {
+                    $lag = $code === 'L1' && str_starts_with($z->name, 'South') ? 9 : 0;           // shallow soil: emerged later
+                    $v = $curve($t - $lag) * ($zoneFactor[$z->zone_class] ?? 1.0) + (mt_rand(-10, 10) / 1000);
+                    if ($code === 'O1' && $isLast && $z->zone_class === 'high') {
+                        $v *= 0.66;                                                                // the mature block falls: blocked drip line
+                    }
+                    $values[$z->uuid] = round(max(0.05, min(0.95, $v)), 4);
+                }
+                $base = $curve($t) + (mt_rand(-8, 8) / 1000);
+                $mean = $values ? array_sum(array_map(fn ($z) => $values[$z->uuid] * max(0.01, (float) $z->area_ha), $zones->all())) / max(0.01, $zones->sum(fn ($z) => max(0.01, (float) $z->area_ha))) : $base;
+                $mean = round(max(0.05, min(0.95, $mean)), 4);
+                $cells = $zones->map(function ($z) use ($values, $geo) {
+                    $c = $geo::centroid($geo::polygon($z->boundary));
+
+                    return ['id' => $z->uuid, 'name' => $z->name, 'value' => $values[$z->uuid], 'lat' => $c[1] ?? null, 'lng' => $c[0] ?? null];
+                })->values()->all();
+                $png = $this->ndviPng($grid, $values, $mean);
+                $r = $img->import($field, ['index' => 'ndvi', 'captured_on' => $day, 'source' => $source, 'mean' => $mean,
+                    'min' => round(max(0, $mean - 0.14 - mt_rand(0, 40) / 1000), 4), 'max' => round(min(1, $mean + 0.12 + mt_rand(0, 40) / 1000), 4),
+                    'cloud_pct' => $cl, 'cells' => $cells ?: null, 'image_mime' => 'image/png', 'image_data' => base64_encode($png), 'client_id' => "S2L2A:{$day}",
+                    // Only the last pass is compared for a drop here: earlier passes interleave with captures posted by hand.
+                    'flag' => $isLast], null);
+                \App\Modules\Agri\Models\SatelliteScene::withoutGlobalScopes()->create(['company_id' => $this->companyId, 'farm_id' => $field->farm_id, 'field_id' => $field->id,
+                    'provider' => 'copernicus', 'acquired_on' => $day, 'scene_ref' => "S2L2A:{$day}", 'cloud_pct' => $cl, 'status' => 'stored',
+                    'imagery_id' => $r['imagery']->id, 'bounds' => $bounds, 'zones' => count($cells), 'has_image' => true]);
+                $stored++;
+                $pictures++;
+                $flags += $r['flag'] ? 1 : 0;
+            }
+        }
+
+        return "{$stored} scenes stored with pictures, {$cloudy} too cloudy, {$flags} flag(s)";
+    }
+
+    /** Which zone each pixel of a field's picture falls in (null outside the field, -1 inside but in no zone). */
+    private function ndviGrid(array $shape, \Illuminate\Support\Collection $zones): array
+    {
+        $geo = \App\Modules\Agri\Support\Geo::class;
+        [$w0, $s0, $e0, $n0] = $geo::bounds($shape);
+        $k = cos(deg2rad(($s0 + $n0) / 2));
+        $wm = ($e0 - $w0) * 111320 * $k;
+        $hm = ($n0 - $s0) * 110574;
+        $scale = 48 / max($wm, $hm, 1);
+        $w = max(8, (int) round($wm * $scale));
+        $h = max(8, (int) round($hm * $scale));
+        $zoneShapes = $zones->map(fn ($z) => [$z->uuid, $geo::polygon($z->boundary)])->all();
+        $cells = [];
+        for ($y = 0; $y < $h; $y++) {
+            for ($x = 0; $x < $w; $x++) {
+                $pt = [$w0 + ($x + 0.5) / $w * ($e0 - $w0), $n0 - ($y + 0.5) / $h * ($n0 - $s0)];
+                if (! $geo::contains($shape, $pt)) {
+                    $cells[$y][$x] = null;
+
+                    continue;
+                }
+                $cells[$y][$x] = -1;
+                foreach ($zoneShapes as [$uuid, $zs]) {
+                    if ($zs && $geo::contains($zs, $pt)) {
+                        $cells[$y][$x] = $uuid;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return ['w' => $w, 'h' => $h, 'cells' => $cells];
+    }
+
+    /** A small NDVI picture: each pixel its zone's value (or the field mean) with a little texture, transparent outside the field. */
+    private function ndviPng(array $grid, array $values, float $mean): string
+    {
+        $im = imagecreatetruecolor($grid['w'], $grid['h']);
+        imagesavealpha($im, true);
+        imagealphablending($im, false);
+        imagefill($im, 0, 0, imagecolorallocatealpha($im, 0, 0, 0, 127));
+        $ramp = \App\Modules\Agri\Satellite\CopernicusProvider::RAMP;
+        $colour = function (float $v) use ($ramp) {
+            $v = max($ramp[0][0], min(end($ramp)[0], $v));
+            for ($i = 1; $i < count($ramp); $i++) {
+                if ($v <= $ramp[$i][0]) {
+                    [$a, $ca] = $ramp[$i - 1];
+                    [$b, $cb] = $ramp[$i];
+                    $f = ($v - $a) / (($b - $a) ?: 1);
+                    $ca = sscanf($ca, '#%02x%02x%02x');
+                    $cb = sscanf($cb, '#%02x%02x%02x');
+
+                    return array_map(fn ($p, $q) => (int) round($p + ($q - $p) * $f), $ca, $cb);
+                }
+            }
+
+            return sscanf(end($ramp)[1], '#%02x%02x%02x');
+        };
+        foreach ($grid['cells'] as $y => $row) {
+            foreach ($row as $x => $zone) {
+                if ($zone === null) {
+                    continue;
+                }
+                $v = ($zone !== -1 ? ($values[$zone] ?? $mean) : $mean) + sin($x * 0.9 + $y * 0.4) * 0.025 + (mt_rand(-20, 20) / 1000);
+                [$r, $g, $b] = $colour($v);
+                imagesetpixel($im, $x, $y, imagecolorallocatealpha($im, $r, $g, $b, 0));
+            }
+        }
+        ob_start();
+        imagepng($im);
+        imagedestroy($im);
+
+        return (string) ob_get_clean();
     }
 
     private function boundaryVersion(Farm $farm, ?FarmField $field, int $version, string $source, ?array $previous, array $shape, User $by, Carbon $at, ?string $reason = null): void

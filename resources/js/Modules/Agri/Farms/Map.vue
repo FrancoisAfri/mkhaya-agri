@@ -15,6 +15,7 @@ import axios from 'axios'
 import { useI18n } from 'vue-i18n'
 import PageErrors from '../Components/PageErrors.vue'
 import { human, num } from '../Components/agri'
+import NdviChart, { type NdviSeries } from '../Satellite/NdviChart.vue'
 
 type Geometry = { type: string; coordinates: any }
 type Version = { id: string; version: number; source: string; source_name: string | null; area_ha: number | null; previous_area_ha: number | null; recorded_area_ha: number | null; reason: string | null; by: string | null; at: string | null; boundary: Geometry | null }
@@ -101,11 +102,13 @@ onMounted(async () => {
   const streets = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 21, maxNativeZoom: 19, attribution: '&copy; OpenStreetMap contributors',
   })
-  for (const g of ['farm', 'fields', 'zones', 'locations', 'soil', 'history', 'preview'])
+  // NDVI pictures sit under the field outlines, so the outlines stay clickable.
+  lmap.createPane('ndvi').style.zIndex = '350'
+  for (const g of ['farm', 'fields', 'zones', 'locations', 'soil', 'history', 'preview', 'ndvi'])
     groups[g] = L.featureGroup().addTo(lmap)
   L.control.layers(
     { [k('basemap_satellite')]: satellite, [k('basemap_streets')]: streets },
-    { [k('layer_farm')]: groups.farm, [k('layer_fields')]: groups.fields, [k('layer_zones')]: groups.zones, [k('layer_locations')]: groups.locations, [k('layer_soil')]: groups.soil },
+    { [k('layer_ndvi')]: groups.ndvi, [k('layer_farm')]: groups.farm, [k('layer_fields')]: groups.fields, [k('layer_zones')]: groups.zones, [k('layer_locations')]: groups.locations, [k('layer_soil')]: groups.soil },
     { collapsed: true },
   ).addTo(lmap)
   L.control.scale({ imperial: false }).addTo(lmap)
@@ -117,6 +120,7 @@ onMounted(async () => {
   drawPreview(true)
   if (props.focus)
     pick('field', props.focus, true)
+  loadNdvi()
 })
 onBeforeUnmount(() => { lmap?.remove(); lmap = null })
 watch(() => props.map, () => draw(), { deep: false })
@@ -219,6 +223,33 @@ function pick(kind: Sel['kind'], id: string | null, zoom = false) {
   if (zoom && kind === 'location' && id && placeLayers[id]) lmap.setView(placeLayers[id].getLatLng(), 17)
 }
 function clearSelection() { sel.value = null; shownVersion.value = null; groups.history?.clearLayers(); draw() }
+
+// ── satellite NDVI ──────────────────────────────────────────────────────────
+type NdviLayer = { id: string; date: string; field: string; code: string; mean: number; cloud_pct: number | null; bounds: [number, number, number, number]; url: string }
+const ndvi = ref<null | { layers: NdviLayer[]; series: Record<string, NdviSeries>; ramp: Array<[number, string]> }>(null)
+const ndviDate = ref<string | null>(null)
+const ndviDates = computed(() => [...new Set((ndvi.value?.layers ?? []).map(l => l.date))].sort().reverse())
+const selSeries = computed(() => (selField.value && ndvi.value ? ndvi.value.series[selField.value.id] ?? null : null))
+async function loadNdvi() {
+  if (!props.farm) return
+  try {
+    const { data } = await axios.get(route('agri.farms.ndvi', props.farm.id))
+    ndvi.value = data
+    ndviDate.value = ndviDates.value[0] ?? null
+    drawNdvi()
+  }
+  catch { ndvi.value = null }   // no crop view permission, or nothing yet: the map works without it
+}
+function drawNdvi() {
+  if (!lmap || !groups.ndvi) return
+  groups.ndvi.clearLayers()
+  for (const l of (ndvi.value?.layers ?? []).filter(x => x.date === ndviDate.value)) {
+    const [w, s, e, n] = l.bounds
+    L.imageOverlay(l.url, [[s, w], [n, e]], { pane: 'ndvi', opacity: 0.85, alt: `NDVI ${l.code} ${l.date}` }).addTo(groups.ndvi)
+  }
+}
+watch(ndviDate, () => drawNdvi())
+const rampCss = computed(() => `linear-gradient(to right, ${(ndvi.value?.ramp ?? []).map(r => r[1]).join(', ')})`)
 
 // ── drawing and editing shapes ──────────────────────────────────────────────
 type Editing = { kind: 'new-field' | 'field' | 'farm' | 'new-zone' | 'zone'; id?: string; fieldId?: string }
@@ -529,6 +560,16 @@ const sourceLabel = (s: string) => k(`source_${s}`)
               <span><span class="agri-swatch" style="border:2px dashed #ffb300" /> {{ k('legend_farm') }}</span>
               <span v-for="(c, cls) in ZONE_COLOURS" :key="cls"><span class="agri-swatch" :style="`background:${c}`" /> {{ k(`class_${cls}`) }}</span>
             </VCardText>
+            <VCardText v-if="ndviDates.length" class="d-flex flex-wrap gap-3 align-center text-caption pt-0">
+              <VSelect v-model="ndviDate" :items="ndviDates" :label="k('ndvi_date')" clearable density="compact" hide-details prepend-inner-icon="tabler-satellite" style="max-inline-size: 220px" />
+              <template v-if="ndviDate">
+                <strong>NDVI</strong>
+                <span>{{ ndvi!.ramp[0][0] }}</span>
+                <span class="agri-ndvi-ramp" :style="`background:${rampCss}`" />
+                <span>{{ ndvi!.ramp[ndvi!.ramp.length - 1][0] }}</span>
+                <span class="text-medium-emphasis">{{ k('ndvi_fields', { n: ndvi!.layers.filter(l => l.date === ndviDate).length }) }}</span>
+              </template>
+            </VCardText>
             <VCardText v-if="map.soil.length" class="d-flex flex-wrap gap-3 text-caption pt-0">
               <strong>{{ k('soil_ph') }}:</strong>
               <span v-for="b in PH_BANDS" :key="b.key"><span class="agri-swatch agri-swatch-round" :style="`background:${b.colour}`" /> {{ k(b.key) }}</span>
@@ -590,6 +631,18 @@ const sourceLabel = (s: string) => k(`source_${s}`)
                 <div v-if="!selField.zones.length" class="text-caption text-medium-emphasis">{{ k('no_zones') }}</div>
               </VList>
             </VCardText>
+
+            <template v-if="selSeries && selSeries.points.length">
+              <VDivider />
+              <VCardText>
+                <div class="d-flex align-center mb-1">
+                  <span class="text-subtitle-2">{{ k('ndvi_series') }}</span>
+                  <VSpacer />
+                  <Link :href="`${route('agri.satellite.index')}?farm=${farm?.id}&field=${selField.id}`" class="text-caption">{{ k('crop_health') }}</Link>
+                </div>
+                <NdviChart :series="selSeries" :height="220" />
+              </VCardText>
+            </template>
 
             <VDivider />
             <VCardText>
@@ -739,6 +792,7 @@ const sourceLabel = (s: string) => k(`source_${s}`)
 .agri-map-pin .dot.moving { background: #ff1744; }
 .agri-map-pin .lbl { position: absolute; inset-inline-start: 16px; inset-block-start: -2px; white-space: nowrap; color: #fff; font-size: 12px; font-weight: 600; text-shadow: 0 0 3px #000; }
 .agri-swatch { display: inline-block; inline-size: 12px; block-size: 12px; vertical-align: middle; border-radius: 2px; }
+.agri-ndvi-ramp { display: inline-block; inline-size: 160px; block-size: 10px; border-radius: 2px; vertical-align: middle; }
 .agri-swatch-round { border-radius: 50%; border: 1px solid #212121; }
 .agri-map-fields tbody tr:hover { background: rgba(var(--v-theme-primary), 0.06); }
 </style>

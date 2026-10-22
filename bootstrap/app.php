@@ -148,6 +148,7 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Agri\Console\StartSeasonProcesses::class,
         \App\Modules\Agri\Console\RecordAgriPredictions::class,
         \App\Modules\Agri\Console\FetchAgriWeather::class,
+        \App\Modules\Agri\Console\FetchSatelliteImagery::class,
         \App\Modules\Agri\Console\RetryAgriIntegrations::class,
         \App\Modules\Agri\Console\AgriIntegrity::class,
         \App\Modules\Agri\Console\AgriReleaseGates::class,
@@ -516,6 +517,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->command(\App\Modules\Agri\Console\FetchAgriWeather::class)
             ->everyThreeHours()->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/agri-weather.log'));
+        // Satellite crop health: new Sentinel-2 / AgroMonitoring scenes per watched field and zone, within each organisation's budget.
+        $schedule->command(\App\Modules\Agri\Console\FetchSatelliteImagery::class)
+            ->dailyAt('05:20')->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-satellite.log'));
         // Phase 2 §14: failed integration messages retried with back-off.
         $schedule->command(\App\Modules\Agri\Console\RetryAgriIntegrations::class)
             ->everyFifteenMinutes()->withoutOverlapping()->onOneServer()
