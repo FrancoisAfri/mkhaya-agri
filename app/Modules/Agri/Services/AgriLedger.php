@@ -57,13 +57,13 @@ class AgriLedger
     {
         $credit = $settledBy === 'payable' ? config('finance.ap_control') : config('finance.default_bank');
 
-        return $this->ledger->post(new FinancialEvent(
+        return $this->booked($this->ledger->post(new FinancialEvent(
             sourceModule: 'agri', eventType: 'agri.expense',
             debits: [['account' => $account ?? config('agri.accounts.direct_expense'), 'amount' => $amount, 'narration' => $description, 'dimensions' => $dimensions]],
             credits: [['account' => $credit, 'amount' => $amount, 'narration' => $description]],
             eventDate: $date, companyId: $farm->company_id, currency: $farm->currency ?: 'ZAR',
             sourceRef: "farm:{$farm->id}", description: $description, idempotencyKey: $idempotencyKey,
-        ));
+        )));
     }
 
     /**
@@ -79,12 +79,25 @@ class AgriLedger
             default => config('agri.accounts.produce_sales'),
         };
 
-        return $this->ledger->post(new FinancialEvent(
+        return $this->booked($this->ledger->post(new FinancialEvent(
             sourceModule: 'agri', eventType: 'agri.sale',
             debits: [['account' => $debit, 'amount' => $amount, 'narration' => $description]],
             credits: [['account' => $account, 'amount' => $amount, 'narration' => $description, 'dimensions' => $dimensions]],
             eventDate: $date, companyId: $farm->company_id, currency: $farm->currency ?: 'ZAR',
             sourceRef: "farm:{$farm->id}", description: $description, idempotencyKey: $idempotencyKey,
-        ));
+        )));
+    }
+
+    /**
+     * The organisation's book of record decides what a posting is: with our own ledger it is the
+     * books; with Xero, QuickBooks or Sage it is also queued for export to them (the journal is
+     * still recorded here, as the farm's sub-ledger). Stock movements and other farm journals that
+     * do not pass through here are swept up by the scheduled sync.
+     */
+    private function booked(FinJournal $journal): FinJournal
+    {
+        app(\App\Modules\Agri\Accounting\AccountingSync::class)->journalPosted($journal);
+
+        return $journal;
     }
 }

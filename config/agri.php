@@ -78,4 +78,77 @@ return [
         // Grid electricity differs by country and year: unset until the organisation sets its published factor.
         'grid_kwh' => ['kg_co2e' => env('AGRI_GRID_FACTOR') !== null ? (float) env('AGRI_GRID_FACTOR') : null, 'source' => env('AGRI_GRID_FACTOR_SOURCE')],
     ],
+
+    // The public farm API (v1, /api/agri/v1): calls per minute per token unless the client sets its own,
+    // how long an Idempotency-Key is remembered, and webhook delivery.
+    'api' => [
+        'per_minute' => (int) env('AGRI_API_PER_MINUTE', 120),
+        'max_page' => 200,
+        'idempotency_hours' => 24,
+        'token_days' => (int) env('AGRI_API_TOKEN_DAYS', 365),     // the longest a token may live
+        'webhook_timeout' => (int) env('AGRI_WEBHOOK_TIMEOUT', 5),
+        'log_days' => (int) env('AGRI_API_LOG_DAYS', 90),
+    ],
+
+    /*
+    | Accounting connectors. A live connection needs the platform registered as an app with each
+    | provider (Xero developer portal, Intuit developer portal, Sage developer portal), with the
+    | redirect URI /agri/accounting/{provider}/callback, and the client id and secret here. Until then
+    | an organisation's connection waits in "needs app registration". Endpoints are the providers'
+    | documented ones; they live here so a change on their side is a config change.
+    */
+    'accounting' => [
+        'timeout' => 30,
+        'providers' => [
+            'xero' => [
+                'name' => 'Xero',
+                'client_id' => env('XERO_CLIENT_ID'),
+                'client_secret' => env('XERO_CLIENT_SECRET'),
+                // Apps registered with Xero after March 2026 use the granular scopes (accounting.invoices,
+                // accounting.payments, accounting.manualjournals, …): set XERO_SCOPES to what the app was granted.
+                'scopes' => env('XERO_SCOPES', 'openid profile email offline_access accounting.transactions accounting.contacts accounting.settings'),
+                'authorize_url' => 'https://login.xero.com/identity/connect/authorize',
+                'token_url' => 'https://identity.xero.com/connect/token',
+                'revoke_url' => 'https://identity.xero.com/connect/revocation',
+                'connections_url' => 'https://api.xero.com/connections',
+                'api_url' => env('XERO_API_URL', 'https://api.xero.com/api.xro/2.0'),
+                'tracking_categories' => 2,                // Xero allows two active tracking categories
+            ],
+            'quickbooks' => [
+                'name' => 'QuickBooks Online',
+                'client_id' => env('QBO_CLIENT_ID'),
+                'client_secret' => env('QBO_CLIENT_SECRET'),
+                'scopes' => 'com.intuit.quickbooks.accounting',
+                'authorize_url' => 'https://appcenter.intuit.com/connect/oauth2',
+                'token_url' => 'https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer',
+                'revoke_url' => 'https://developer.api.intuit.com/v2/oauth2/tokens/revoke',
+                'api_url' => env('QBO_SANDBOX', false) ? 'https://sandbox-quickbooks.api.intuit.com/v3/company' : 'https://quickbooks.api.intuit.com/v3/company',
+                'minor_version' => env('QBO_MINOR_VERSION', '75'),
+            ],
+            'sage' => [
+                'name' => 'Sage Business Cloud Accounting',
+                'client_id' => env('SAGE_CLIENT_ID'),
+                'client_secret' => env('SAGE_CLIENT_SECRET'),
+                'scopes' => 'full_access',
+                // Sage Accounting API v3.1: one sign-in for its regions; the person picks their country there.
+                'authorize_url' => 'https://www.sageone.com/oauth2/auth/central?filter=apiv3.1',
+                'token_url' => 'https://oauth.accounting.sage.com/token',
+                'revoke_url' => 'https://oauth.accounting.sage.com/revoke',
+                'api_url' => env('SAGE_API_URL', 'https://api.accounting.sage.com/v3.1'),
+                'regions' => [
+                    'uk' => ['name' => 'United Kingdom', 'supported' => true],
+                    'ie' => ['name' => 'Ireland', 'supported' => true],
+                    'us' => ['name' => 'United States', 'supported' => true],
+                    'ca' => ['name' => 'Canada', 'supported' => true],
+                    'es' => ['name' => 'Spain', 'supported' => true],
+                    'fr' => ['name' => 'France', 'supported' => true],
+                    'de' => ['name' => 'Germany', 'supported' => true],
+                    // Sage Business Cloud Accounting in South Africa (the former Sage One SA) is a separate
+                    // product with its own API (version 2.0.0, API key plus the user's sign-in, per company id),
+                    // not the v3.1 API above. Not built: kept here so the screen can say so.
+                    'za' => ['name' => 'South Africa', 'supported' => false, 'api_url' => env('SAGE_ZA_API_URL', 'https://resellers.accounting.sageone.co.za/api/2.0.0')],
+                ],
+            ],
+        ],
+    ],
 ];

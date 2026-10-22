@@ -153,6 +153,7 @@ return Application::configure(basePath: dirname(__DIR__))
         \App\Modules\Agri\Console\ComputePeerBenchmarks::class,
         \App\Modules\Agri\Console\RetryAgriIntegrations::class,
         \App\Modules\Agri\Console\FetchPriceFeeds::class,
+        \App\Modules\Agri\Console\SyncAccounting::class,
         \App\Modules\Agri\Console\AgriIntegrity::class,
         \App\Modules\Agri\Console\AgriReleaseGates::class,
         \App\Modules\Agri\Console\SeedAgriDemo::class,
@@ -537,6 +538,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->command(\App\Modules\Agri\Console\FetchPriceFeeds::class)
             ->dailyAt('18:30')->withoutOverlapping()->onOneServer()
             ->appendOutputTo(storage_path('logs/agri-price-feeds.log'));
+        // Accounting connectors: farm documents and journals out to Xero / QuickBooks / Sage, payments back.
+        $schedule->command(\App\Modules\Agri\Console\SyncAccounting::class)
+            ->hourlyAt(20)->withoutOverlapping()->onOneServer()
+            ->appendOutputTo(storage_path('logs/agri-accounting.log'));
         // Phase 2 §14: failed integration messages retried with back-off.
         $schedule->command(\App\Modules\Agri\Console\RetryAgriIntegrations::class)
             ->everyFifteenMinutes()->withoutOverlapping()->onOneServer()
@@ -856,6 +861,16 @@ return Application::configure(basePath: dirname(__DIR__))
             }
 
             return ProblemDetails::fromThrowable($e, $request);
+        });
+
+        // The public farm API answers every error as a problem document too, including the 401 from
+        // auth:sanctum and a validation failure, so an integrator writes one error handler.
+        $exceptions->render(function (Throwable $e, Request $request) {
+            if (! $request->is('api/agri/v1/*')) {
+                return null;
+            }
+
+            return \App\Modules\Agri\Api\ApiProblem::fromThrowable($e, $request);
         });
 
         // SHEQ API errors are RFC 9457 problem details (SHEQ-API-4), for the same reason as PM

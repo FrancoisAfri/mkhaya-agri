@@ -27138,6 +27138,14 @@
       "markets": {
         "title": "Markets & Hedging",
         "subtitle": "SAFEX and spot prices from your price feed, futures and options positions marked to market, and what is still exposed."
+      },
+      "api": {
+        "title": "API & Webhooks",
+        "subtitle": "Tokens for your own systems, webhook subscriptions, the API call log and the documentation."
+      },
+      "accounting": {
+        "title": "Accounting Connectors",
+        "subtitle": "Keep the books in Xero, QuickBooks or Sage: connect, map accounts and sync invoices, bills, journals and payments."
       }
     },
     "satellite": {
@@ -28386,6 +28394,228 @@
       "invite_intro": "The grower is sent a link and signs in with a one-time code to this mobile number or email address. They see only their own contracts, deliveries, advances and statements.",
       "visit_title": "Plan a visit, {ref}",
       "answer_title": "Answer {grower}"
+    },
+    "api": {
+      "breadcrumb": "Operations",
+      "title": "API & Webhooks",
+      "subtitle": "Let your own systems read the farm and record work through the farm API. Each token belongs to this organisation, acts as its own named user and reaches only the farms you give it.",
+      "docs": "API documentation",
+      "spec": "OpenAPI document",
+      "base_url": "Base URL",
+      "tabs": {
+        "tokens": "Tokens",
+        "webhooks": "Webhooks",
+        "calls": "Call log"
+      },
+      "new_token": "New token",
+      "new_webhook": "New subscription",
+      "revealed_token": "Token for {name}",
+      "revealed_secret": "Signing secret for {name}",
+      "revealed_note": "Copy it now and keep it somewhere safe. It is not shown again; if it is lost, revoke it and make another.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "col": {
+        "name": "Name",
+        "abilities": "Abilities",
+        "farms": "Farms",
+        "state": "State",
+        "last_used": "Last used",
+        "expires": "Expires",
+        "calls": "Calls (30 days)",
+        "token": "Token",
+        "url": "URL",
+        "events": "Events",
+        "deliveries": "Deliveries",
+        "status": "Status",
+        "when": "When",
+        "client": "Client",
+        "method": "Method",
+        "path": "Path",
+        "ms": "ms",
+        "error": "Error",
+        "event": "Event",
+        "attempts": "Attempts"
+      },
+      "all_farms": "All farms",
+      "never": "never",
+      "service_user": "Acts as {user}",
+      "rate": "{n} calls a minute",
+      "state": {
+        "active": "Active",
+        "expired": "Expired",
+        "revoked": "Revoked"
+      },
+      "revoke": "Revoke",
+      "revoke_confirm": "Revoke the token for {name}? Anything using it stops working at once.",
+      "f": {
+        "name": "Name",
+        "name_hint": "What uses it, e.g. \"Agronomy app\" or \"Packhouse ERP\"",
+        "description": "Description",
+        "abilities": "Abilities",
+        "farms": "Farms",
+        "farms_hint": "Leave empty for every farm (only if you reach every farm yourself).",
+        "expires": "Expires after (days)",
+        "rate": "Calls per minute",
+        "url": "Receiver URL (https)",
+        "events": "Events"
+      },
+      "ability": {
+        "farms_read": "Read farms, fields and zones",
+        "crops_read": "Read seasons, crop plans, field activities, inputs used and NDVI",
+        "activities_write": "Plan field activities",
+        "harvests_read": "Read harvests, produce lots, trace and grain tickets",
+        "livestock_read": "Read animals, groups and animal events",
+        "livestock_write": "Record animal events",
+        "stock_read": "Read stock on hand",
+        "work_orders_read": "Read work orders",
+        "work_orders_write": "Move work orders on",
+        "weather_read": "Read weather",
+        "sales_read": "Read sales contracts",
+        "finance_read": "Read farm finance summaries",
+        "webhooks_manage": "Manage its own webhook subscriptions"
+      },
+      "no_tokens": "No tokens yet.",
+      "no_webhooks": "No subscriptions yet.",
+      "no_calls": "No calls yet.",
+      "no_deliveries": "No deliveries yet.",
+      "switch_on": "Switch on",
+      "pause": "Pause",
+      "paused": "Paused",
+      "test": "Send test",
+      "remove": "Remove",
+      "remove_confirm": "Remove the subscription {name}?",
+      "summary": "{calls} calls in the last 24 hours, {errors} answered with an error.",
+      "deliveries": "Recent deliveries",
+      "next_try": "next try {at}",
+      "all_clients": "All clients",
+      "made_by_api": "made by {client}",
+      "signature": "Each delivery is signed: X-Mkhaya-Signature: t=<time>,v1=<HMAC-SHA256 of \"<time>.<body>\" with the secret>. Failed deliveries are retried five times with back-off.",
+      "cancel": "Cancel",
+      "create": "Create",
+      "replayed": "replayed",
+      "retry": "Retry",
+      "failures": "{n} failed"
+    },
+    "api_docs": {
+      "breadcrumb": "API & Webhooks",
+      "title": "Farm API documentation",
+      "subtitle": "Version 1. Every endpoint, the ability it needs, its parameters and an example answer.",
+      "download": "Download OpenAPI (JSON)",
+      "filter": "Find an endpoint",
+      "ability": "Ability",
+      "public": "No token needed",
+      "any_token": "Any farm API token",
+      "parameters": "Parameters",
+      "body": "Request body",
+      "response": "Example answer",
+      "required": "required",
+      "fields": "Fields",
+      "webhooks": "Webhook events",
+      "schemas": "Records",
+      "curl": "Example call"
+    },
+    "accounting": {
+      "breadcrumb": "Operations",
+      "title": "Accounting Connectors",
+      "subtitle": "Keep the farm’s books in Xero, QuickBooks Online or Sage Business Cloud Accounting instead of our own ledger.",
+      "registration": "A live connection needs this platform registered as an app with each provider (client id and secret, and the redirect URI below). Until then a provider shows \"needs app registration\" and nothing is sent.",
+      "tabs": {
+        "connections": "Connections",
+        "mapping": "Mapping",
+        "log": "Sync log"
+      },
+      "book": {
+        "title": "Book of record",
+        "intro": "Choose where the books are kept. Our own ledger keeps working either way: with an external system it becomes the farm’s sub-ledger, and farm invoices, bills and journals are queued for export there; payments recorded there come back and mark ours paid.",
+        "internal": "Our own ledger",
+        "set": "Use this",
+        "current": "The books are kept in: {book}",
+        "changed": "since {at}",
+        "needs_connection": "Connect it first"
+      },
+      "status": {
+        "needs_registration": "Needs app registration",
+        "disconnected": "Not connected",
+        "choose_tenant": "Choose an organisation",
+        "connected": "Connected",
+        "error": "Connection problem"
+      },
+      "connect": "Connect",
+      "reconnect": "Reconnect",
+      "disconnect": "Disconnect",
+      "disconnect_confirm": "Disconnect {name}? Mappings and the sync log are kept; if it is the book of record, the books go back to our own ledger.",
+      "tenant": "Organisation",
+      "choose_tenant": "Use this organisation",
+      "region": "Sage region",
+      "region_unsupported": "Not available yet: Sage in this country uses a different API.",
+      "redirect_uri": "Redirect URI to register",
+      "last_sync": "Last sync {at}",
+      "connected_at": "Connected {at}",
+      "never": "never",
+      "pull": "Read their chart and contacts",
+      "sync_now": "Sync now",
+      "counts": "{synced} synced · {failed} failed · {pending} waiting",
+      "settings": {
+        "title": "What is synced",
+        "push_invoices": "Sales invoices and settlements",
+        "push_bills": "Purchase bills",
+        "push_journals": "Journals (cost allocations, stock issues)",
+        "pull_payments": "Read payments back",
+        "default_item": "Default product/service item",
+        "default_item_hint": "QuickBooks needs an item on every invoice line; this one is used where an account has none mapped.",
+        "sync_from": "Or send records dated from",
+        "sync_from_hint": "Empty: everything recorded from the moment the books moved there.",
+        "save": "Save settings"
+      },
+      "mapping": {
+        "intro": "Tell us what each of our accounts, tax codes, farm dimensions and contacts is called on the other side. Accounts with the same code match themselves when you read their chart.",
+        "pull_first": "Read their chart and contacts first (Connections tab), then map here.",
+        "accounts": "Accounts",
+        "taxes": "Tax codes",
+        "dimensions": "Farms, fields and enterprises (tracking)",
+        "contacts": "Customers and suppliers",
+        "ours": "Ours",
+        "theirs": "Theirs",
+        "item": "Item (QuickBooks)",
+        "category": "Category",
+        "option": "Option",
+        "matched_by": "Matched by {how}",
+        "contacts_note": "A customer or supplier with no match is created on the other side the first time a document for it is sent.",
+        "save": "Save mapping",
+        "none": "— not mapped —",
+        "dimension": {
+          "farm": "Farm",
+          "field": "Field",
+          "enterprise": "Enterprise"
+        },
+        "provider": "System"
+      },
+      "log": {
+        "intro": "Every record sent or read back, with its id on the other side. A failed one shows the provider’s own message; fix the cause (usually a mapping) and retry. A retry never creates a second copy.",
+        "type": "Record",
+        "ref": "Ours",
+        "status": "Status",
+        "external": "Theirs",
+        "attempts": "Attempts",
+        "error": "Error",
+        "synced_at": "Synced",
+        "retry": "Retry",
+        "none": "Nothing sent yet.",
+        "all": "All",
+        "direction_in": "read back",
+        "direction_out": "sent"
+      },
+      "link_status": {
+        "synced": "Synced",
+        "failed": "Failed",
+        "pending": "Waiting"
+      },
+      "type": {
+        "invoice": "Sales invoice",
+        "bill": "Purchase bill",
+        "journal": "Journal",
+        "payment": "Payment"
+      }
     }
   }
 }

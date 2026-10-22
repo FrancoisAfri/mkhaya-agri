@@ -263,6 +263,29 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::get('/integrations', [IntegrationController::class, 'index'])->name('integrations.index');
         Route::post('/integrations/events/{event}/retry', [IntegrationController::class, 'retry'])->name('integrations.retry');
 
+        // The public farm API: tokens, webhooks, the call log and the docs (the API itself is routes/api/agri.php).
+        Route::get('/api', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'index'])->name('api.index');
+        Route::get('/api/docs', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'docs'])->name('api.docs');
+        Route::post('/api/tokens', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'storeToken'])->name('api.tokens.store');
+        Route::post('/api/tokens/{client}/revoke', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'revoke'])->name('api.tokens.revoke');
+        Route::post('/api/webhooks', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'storeWebhook'])->name('api.webhooks.store');
+        Route::post('/api/webhooks/{subscription}/toggle', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'toggleWebhook'])->name('api.webhooks.toggle');
+        Route::post('/api/webhooks/{subscription}/test', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'testWebhook'])->name('api.webhooks.test');
+        Route::delete('/api/webhooks/{subscription}', [\App\Modules\Agri\Http\Controllers\ApiAccessController::class, 'destroyWebhook'])->name('api.webhooks.destroy');
+
+        // Accounting connectors: Xero, QuickBooks Online, Sage Business Cloud Accounting; the book of record.
+        Route::get('/accounting', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'index'])->name('accounting.index');
+        Route::post('/accounting/book', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'book'])->name('accounting.book');
+        Route::post('/accounting/links/{link}/retry', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'retry'])->name('accounting.links.retry');
+        Route::get('/accounting/{provider}/connect', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'connect'])->name('accounting.connect');
+        Route::get('/accounting/{provider}/callback', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'callback'])->name('accounting.callback');
+        Route::post('/accounting/{provider}/tenant', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'tenant'])->name('accounting.tenant');
+        Route::post('/accounting/{provider}/disconnect', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'disconnect'])->name('accounting.disconnect');
+        Route::post('/accounting/{provider}/pull', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'pull'])->name('accounting.pull');
+        Route::post('/accounting/{provider}/mappings', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'mappings'])->name('accounting.mappings');
+        Route::post('/accounting/{provider}/settings', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'settings'])->name('accounting.settings');
+        Route::post('/accounting/{provider}/sync', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'syncNow'])->name('accounting.sync');
+
         // Phase 2 §13: role dashboards with labelled figures and exports.
         Route::get('/insights', [InsightsController::class, 'index'])->name('insights.home');
         Route::get('/insights/{role}', [InsightsController::class, 'index'])->whereIn('role', array_keys(\App\Modules\Agri\Services\FarmDashboards::ROLES))->name('insights');

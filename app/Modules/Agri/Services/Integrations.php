@@ -37,18 +37,25 @@ class Integrations
             // Grain: a weighbridge's weighings, paired into load tickets; a commodity price feed fetched.
             'weighbridge' => fn (array $p, IntegrationEvent $e) => app(GrainLoads::class)->fromDevice($p, $e),
             'price_feed' => fn (array $p, IntegrationEvent $e) => app(PriceFeeds::class)->handle($p, $e),
+            // The public farm API: a farm event delivered to a subscriber, signed.
+            'webhook' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\Api\Webhooks::class)->deliver($p, $e),
+            // Accounting connectors (Xero, QuickBooks Online, Sage): a record pushed out, a payment pulled in.
+            'accounting_push' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\Accounting\AccountingSync::class)->push($p, $e),
+            'accounting_pull' => fn (array $p, IntegrationEvent $e) => app(\App\Modules\Agri\Accounting\AccountingSync::class)->applyPayment($p, $e),
         ];
     }
 
     /** Outbound fetches: the farm asks an outside service, rather than receiving a message. */
-    private const OUTBOUND = ['weather', 'satellite', 'price_feed'];
+    private const OUTBOUND = ['weather', 'satellite', 'price_feed', 'webhook', 'accounting_push'];
 
     /**
      * Handlers that commit as they go. The satellite fetch stores each scene in its own transaction
      * and counts each paid request at once, so a failure part-way neither forgets what a request
      * cost nor throws away the scenes already stored — the retry carries on from there.
      */
-    private const OWN_TRANSACTIONS = ['satellite', 'price_feed'];   // a price feed records its own failure on the feed, which a rollback would undo
+    private const OWN_TRANSACTIONS = ['satellite', 'price_feed',   // a price feed records its own failure on the feed, which a rollback would undo
+        'webhook',            // the subscription's delivery count and last error survive a failed delivery
+        'accounting_push'];   // a contact created on the other side keeps its id even if the invoice after it fails
 
     /** @return array{event: IntegrationEvent, replayed: bool} */
     public function receive(int $companyId, string $integration, string $key, array $payload, ?int $deviceId = null, ?int $farmId = null): array

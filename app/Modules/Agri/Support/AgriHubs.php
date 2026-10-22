@@ -70,6 +70,9 @@ class AgriHubs extends ModuleHubs
                     self::card('outgrowers', 'agri/outgrowers', 'users', self::READ, 'teal', self::needs(R::VIEW_OUTGROWERS)),
                     self::card('assistant', 'agri/assistant', 'robot-farm', self::READ, 'deep-purple', self::needs(R::USE_ASSISTANT)),
                     self::card('integrations', 'agri/integrations', 'plug', self::READ, 'blue-grey', self::needs(R::MANAGE_INTEGRATIONS)),
+                    // The public farm API (tokens, webhooks, call log, docs) and the Xero / QuickBooks / Sage connectors.
+                    self::card('api', 'agri/api', 'api', self::READ, 'indigo', self::needs(R::MANAGE_API)),
+                    self::card('accounting', 'agri/accounting', 'building-bank', self::READ, 'green', self::needs(R::MANAGE_ACCOUNTING)),
                     self::card('settings', 'agri/settings', 'settings', self::READ, 'grey', self::needs(R::VIEW_FARMS)),
                 ],
             ],

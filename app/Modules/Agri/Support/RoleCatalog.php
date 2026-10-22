@@ -203,6 +203,13 @@ final class RoleCatalog
     /** Recording, closing and marking hedges. Records only: nothing trades with a broker. */
     public const MANAGE_HEDGES = 'agri.hedge.manage';
 
+    // ── The public farm API and accounting connectors ────────────────────────────────────────
+    /** Issuing and revoking API tokens, webhook subscriptions and reading the API call log. */
+    public const MANAGE_API = 'agri.api.manage';
+
+    /** Connecting Xero, QuickBooks or Sage, mapping accounts, choosing the book of record and syncing. */
+    public const MANAGE_ACCOUNTING = 'agri.accounting.manage';
+
     /** @return list<string> */
     public static function all(): array
     {
@@ -227,6 +234,7 @@ final class RoleCatalog
             self::REVIEW_DIAGNOSIS, self::VIEW_HEALTH, self::RELEASE_HEALTH,
             self::MANAGE_RESIDUES, self::OVERRIDE_RESIDUES, self::MANAGE_EXPORTS,
             self::VIEW_HEDGES, self::MANAGE_HEDGES,
+            self::MANAGE_API, self::MANAGE_ACCOUNTING,
         ];
     }
 
@@ -268,7 +276,7 @@ final class RoleCatalog
             'Farm Worker' => [self::VIEW_FARMS, self::VIEW_CROPS, self::VIEW_LIVESTOCK, self::VIEW_TASKS,
                 self::RECORD_ACTIVITIES, self::RECORD_HARVEST, self::RECORD_HEALTH, self::VIEW_HEALTH, self::VIEW_WORK_ORDERS],
             'Farm Finance Officer' => [...$view, self::VIEW_FINANCE, self::MANAGE_FINANCE, self::APPROVE_BUDGETS, self::RECEIVE_STOCK, self::USE_ASSISTANT,
-                self::PAYROLL_HANDOFF, self::VIEW_SALES, self::VIEW_HEDGES, self::MANAGE_HEDGES],
+                self::PAYROLL_HANDOFF, self::VIEW_SALES, self::VIEW_HEDGES, self::MANAGE_HEDGES, self::MANAGE_ACCOUNTING],
             'Farm Sales Officer' => [...$view, self::VIEW_SALES, self::MANAGE_SALES, self::MANAGE_DISPATCH, self::VIEW_FINANCE, self::MANAGE_EXPORTS, self::VIEW_HEDGES, self::MANAGE_HEDGES],
             'Packhouse Supervisor' => [...$view, self::MANAGE_PACKHOUSE, self::MANAGE_DISPATCH, self::RECORD_HARVEST, self::ISSUE_STOCK, self::MANAGE_EXPORTS, self::MANAGE_RESIDUES],
             'Farm Workshop Technician' => [...$view, self::MANAGE_MACHINERY, self::RECORD_ACTIVITIES, self::ISSUE_STOCK, self::ISSUE_FUEL],

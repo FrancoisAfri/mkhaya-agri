@@ -107,6 +107,9 @@ require __DIR__ . '/api/sheq.php';
 // Workflow & Automation — versioned API (PRS §21)
 require __DIR__ . '/api/workflow.php';
 
+// ── Mkhaya Agri public farm API (/api/agri/v1) — Sanctum tokens per API client ──
+require __DIR__ . '/api/agri.php';
+
 // ── Leave Bureau REST API (Sanctum token; the client company is named per request) ──
 
 /*

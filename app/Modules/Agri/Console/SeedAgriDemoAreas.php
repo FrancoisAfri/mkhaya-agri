@@ -188,7 +188,15 @@ class SeedAgriDemoAreas extends Command
             // The grower portal: two growers with sign-ins, messages from the company, a visit and a report.
             $this->area('Grower portal (two growers signed up, messages, a visit, a report)', fn () => \App\Modules\Agri\Models\GrowerAccount::withoutGlobalScopes()
                 ->where('company_id', $this->companyId)->exists(), fn () => $this->growerPortal());
+            // The public farm API and the accounting connectors.
+            $this->area('API and accounting-connector permissions on the farm roles', fn () => \Spatie\Permission\Models\Permission::query()->where('name', \App\Modules\Agri\Support\RoleCatalog::MANAGE_API)->exists()
+                && $this->u['owner']->can(\App\Modules\Agri\Support\RoleCatalog::MANAGE_ACCOUNTING), fn () => $this->apiPermissions());
+            $this->area('Farm API (demo integration token, webhook subscription)', fn () => \App\Modules\Agri\Models\ApiClient::withoutGlobalScopes()->where('company_id', $this->companyId)
+                ->where('name', 'Demo integration')->exists(), fn () => $this->farmApi());
+            $this->area('Xero connection (not connected: app registration needed; example mappings)', fn () => \App\Modules\Agri\Models\AccountingMapping::withoutGlobalScopes()
+                ->where('company_id', $this->companyId)->exists(), fn () => $this->xeroExample());
             $this->growerLogins();
+            $this->apiTokenOnce();
 
             $this->newLine();
             $failed = collect($this->results)->filter(fn ($r) => str_starts_with($r, 'FAILED'))->count();
@@ -1604,6 +1612,99 @@ class SeedAgriDemoAreas extends Command
         }
 
         return "{$made} grower sign-ins, 2 messages, 1 planned visit, 1 planting report";
+    }
+
+    /** The token made for the demo integration this run, printed once at the end. */
+    private ?string $apiToken = null;
+
+    private function apiPermissions(): string
+    {
+        $new = [\App\Modules\Agri\Support\RoleCatalog::MANAGE_API, \App\Modules\Agri\Support\RoleCatalog::MANAGE_ACCOUNTING];
+        foreach ($new as $p) {
+            \Spatie\Permission\Models\Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
+        }
+        $n = 0;
+        foreach (\App\Modules\Agri\Support\RoleCatalog::suggestedRoles() as $name => $perms) {
+            $role = \App\Core\Role\Models\Role::query()->where('name', $name)->where('guard_name', 'web')->first();
+            if ($role && ($give = array_values(array_intersect($new, $perms)))) {
+                $role->givePermissionTo($give);
+                $n++;
+            }
+        }
+        \App\Core\Role\Models\Role::query()->where('name', 'Organisation Owner')->first()?->givePermissionTo($new);
+        app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+        foreach ($this->u as $k => $user) {
+            $this->u[$k] = $user->fresh();
+        }
+
+        return "2 permissions on {$n} farm roles";
+    }
+
+    /**
+     * A token for a demo integration (an agronomy app reading the farms and planning field work) and
+     * a webhook subscription for a packhouse ERP. The subscription is paused: its URL is an example,
+     * and a live one would collect failed deliveries for every harvest in the demo.
+     */
+    private function farmApi(): string
+    {
+        $owner = $this->u['owner'];
+        ['client' => $client, 'token' => $token] = app(\App\Modules\Agri\Api\ApiTokens::class)->issue($this->companyId, ['name' => 'Demo integration',
+            'description' => 'An agronomy app: reads farms, crops, harvests, livestock, stock, weather and jobs; plans field activities; manages its own webhooks.',
+            'abilities' => ['farms:read', 'crops:read', 'activities:write', 'harvests:read', 'livestock:read', 'stock:read', 'weather:read', 'work_orders:read', 'sales:read', 'webhooks:manage'],
+            'expires_in_days' => 365], $owner);
+        $this->apiToken = $token;
+        ['subscription' => $sub] = app(\App\Modules\Agri\Api\Webhooks::class)->subscribe($this->companyId, ['name' => 'Packhouse ERP (example)',
+            'url' => 'https://erp.example.co.za/mkhaya/webhooks', 'events' => ['harvest.recorded', 'lot.dispatched', 'alert.raised']], $owner);
+        $sub->update(['is_active' => false]);
+
+        return "token for {$client->name} acting as {$client->serviceUser?->email}; subscription {$sub->name} (paused)";
+    }
+
+    /**
+     * Xero as the connector the demo shows: not connected (the platform has no Xero app registered
+     * here), with an example of the chart a connection would read and the farm's accounts, VAT and
+     * farms mapped onto it — so the mapping screen has something to show.
+     */
+    private function xeroExample(): string
+    {
+        $c = \App\Modules\Agri\Models\AccountingConnection::for($this->companyId, 'xero');
+        $c->forceFill(['status' => \App\Modules\Agri\Models\AccountingConnection::registered('xero') ? 'disconnected' : 'needs_registration',
+            'catalog' => ['example' => true, 'pulled_at' => null,
+                'accounts' => [['id' => 'demo-200', 'code' => '200', 'name' => 'Sales — produce', 'type' => 'REVENUE'], ['id' => 'demo-210', 'code' => '210', 'name' => 'Sales — livestock', 'type' => 'REVENUE'],
+                    ['id' => 'demo-310', 'code' => '310', 'name' => 'Farm inputs', 'type' => 'DIRECTCOSTS'], ['id' => 'demo-320', 'code' => '320', 'name' => 'Farm direct costs', 'type' => 'DIRECTCOSTS'],
+                    ['id' => 'demo-090', 'code' => '090', 'name' => 'Business bank account', 'type' => 'BANK']],
+                'tax_rates' => [['id' => 'OUTPUT2', 'code' => 'OUTPUT2', 'name' => '15% VAT on Income', 'rate' => 15.0], ['id' => 'INPUT2', 'code' => 'INPUT2', 'name' => '15% VAT on Expenses', 'rate' => 15.0],
+                    ['id' => 'ZERORATEDOUTPUT', 'code' => 'ZERORATEDOUTPUT', 'name' => 'Zero rated income', 'rate' => 0.0]],
+                'tracking' => [['id' => 'demo-tc-farm', 'name' => 'Farm', 'options' => [['id' => 'demo-opt-boplaas', 'name' => 'Boplaas'], ['id' => 'demo-opt-rivier', 'name' => 'Rivierplaas']]],
+                    ['id' => 'demo-tc-ent', 'name' => 'Enterprise', 'options' => [['id' => 'demo-opt-maize', 'name' => 'Maize'], ['id' => 'demo-opt-citrus', 'name' => 'Citrus']]]],
+                'items' => []],
+            'settings' => ['push_invoices' => true, 'push_bills' => true, 'push_journals' => true, 'pull_payments' => true]])->save();
+        $map = fn (string $kind, string $key, string $label, string $id, ?string $code, string $name, ?array $extra = null) => \App\Modules\Agri\Models\AccountingMapping::withoutGlobalScopes()
+            ->updateOrCreate(['connection_id' => $c->id, 'kind' => $kind, 'local_key' => $key],
+                ['company_id' => $this->companyId, 'local_label' => $label, 'external_id' => $id, 'external_code' => $code, 'external_name' => $name, 'extra' => $extra]);
+        $map('account', (string) config('agri.accounts.produce_sales'), 'Produce sales', 'demo-200', '200', 'Sales — produce');
+        $map('account', (string) config('agri.accounts.livestock_sales'), 'Livestock sales', 'demo-210', '210', 'Sales — livestock');
+        $map('account', (string) config('agri.accounts.inputs'), 'Inputs issued to fields', 'demo-310', '310', 'Farm inputs');
+        $map('account', (string) config('agri.accounts.direct_expense'), 'Farm direct expenses', 'demo-320', '320', 'Farm direct costs');
+        $map('account', (string) config('finance.default_bank'), 'Bank', 'demo-090', '090', 'Business bank account');
+        $map('tax', 'STD', 'STD Standard rate (15%)', 'OUTPUT2', 'OUTPUT2', '15% VAT on Income');
+        $map('tax', 'ZR', 'ZR Zero rated', 'ZERORATEDOUTPUT', 'ZERORATEDOUTPUT', 'Zero rated income');
+        $map('tracking', 'farm:'.$this->boplaas->id, $this->boplaas->name, 'demo-opt-boplaas', null, 'Boplaas', ['category_id' => 'demo-tc-farm', 'category' => 'Farm']);
+        $map('tracking', 'farm:'.$this->rivier->id, $this->rivier->name, 'demo-opt-rivier', null, 'Rivierplaas', ['category_id' => 'demo-tc-farm', 'category' => 'Farm']);
+
+        return 'status '.$c->fresh()->status.'; 9 example mappings; the books stay in our own ledger';
+    }
+
+    private function apiTokenOnce(): void
+    {
+        $this->newLine();
+        $this->line('  Farm API: '.url('/api/agri/v1').' (docs: Farm Operations → API & Webhooks → API documentation; contract: '.url('/api/agri/v1/openapi.json').')');
+        if ($this->apiToken) {
+            $this->line('    Demo integration token (shown once, copy it now): <info>'.$this->apiToken.'</info>');
+            $this->line('    Try: curl -H "Authorization: Bearer '.$this->apiToken.'" '.url('/api/agri/v1/farms'));
+        } else {
+            $this->line('    The demo integration token was made on an earlier run and is not shown again; revoke it and make another under API & Webhooks if you need one.');
+        }
     }
 
     private function growerLogins(): void

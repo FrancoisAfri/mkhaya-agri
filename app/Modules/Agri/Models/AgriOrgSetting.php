@@ -7,10 +7,10 @@ class AgriOrgSetting extends AgriModel
 {
     protected $table = 'agri_org_settings';
 
-    protected $casts = ['benchmarks_opt_in' => 'boolean', 'benchmarks_opted_at' => \App\Modules\Agri\Casts\FarmDateTime::class, 'trace_defaults' => 'array', 'certifications' => 'array'];
+    protected $casts = ['benchmarks_opt_in' => 'boolean', 'benchmarks_opted_at' => \App\Modules\Agri\Casts\FarmDateTime::class, 'trace_defaults' => 'array', 'certifications' => 'array', 'book_of_record_changed_at' => 'datetime'];
 
     public static function for(int $companyId): self
     {
-        return static::withoutGlobalScopes()->firstOrCreate(['company_id' => $companyId], ['benchmarks_opt_in' => false]);
+        return static::withoutGlobalScopes()->firstOrCreate(['company_id' => $companyId], ['benchmarks_opt_in' => false, 'book_of_record' => 'internal']);
     }
 }

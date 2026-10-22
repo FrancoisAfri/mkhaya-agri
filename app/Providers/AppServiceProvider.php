@@ -341,6 +341,8 @@ class AppServiceProvider extends ServiceProvider
                     'fields' => $f->fields->map(fn ($x) => ['id' => $x->uuid, 'code' => $x->code, 'name' => $x->name, 'hectares' => $x->hectares()])->values()])->values()->all(),
         ]);
         \App\Modules\Agri\Services\FarmCompliance::registerEvidence();
+        // The public farm API: harvests, dispatched lots, alerts, completed work… to webhook subscribers.
+        \App\Modules\Agri\Api\Webhooks::listen();
         // Certification checklists: control points the farm's own records evidence (spray records, PHI, residues…).
         \App\Modules\Agri\Services\CertificationEvidence::register();
         // Before a farm load ships: the residue/MRL gate for its market, and an export load's document pack.
