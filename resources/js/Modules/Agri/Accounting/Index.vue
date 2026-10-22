@@ -1,7 +1,8 @@
 <script setup lang="ts">
 /**
  * Accounting connectors: the book of record (our ledger, or Xero / QuickBooks Online / Sage), each
- * provider's connection (OAuth: connect, choose the organisation, disconnect) and sync settings,
+ * provider's connection (OAuth: connect, choose the organisation, disconnect; Sage South Africa:
+ * Sage username and password, check, choose the company) and sync settings,
  * the mapping of our accounts, tax codes, farm dimensions and contacts onto theirs, and the sync
  * log of every record sent or read back, with retry.
  */
@@ -13,7 +14,8 @@ import PageErrors from '../Components/PageErrors.vue'
 
 type Provider = { provider: string; name: string; registered: boolean; status: string; tenant: string | null; tenant_id: string | null; tenants: Array<{ id: string; name: string }>
   region: string | null; last_sync_at: string | null; connected_at: string | null; last_error: string | null; settings: Record<string, any>; redirect_uri: string
-  catalog_pulled_at: string | null; counts: Record<string, number>; mappings: number }
+  catalog_pulled_at: string | null; counts: Record<string, number>; mappings: number
+  sign_in: 'oauth' | 'password'; username: string | null; has_password: boolean; own_api_key: boolean; platform_api_key: boolean | null }
 const props = defineProps<{
   tab: 'connections' | 'mapping' | 'log'
   provider: string
@@ -21,7 +23,7 @@ const props = defineProps<{
   book_changed_at: string | null
   providers: Provider[]
   data: Record<string, any>
-  regions: Array<{ value: string; title: string; supported: boolean }>
+  regions: Array<{ value: string; title: string; supported: boolean; sign_in: 'oauth' | 'password' }>
 }>()
 
 const { t } = useI18n()
@@ -40,6 +42,14 @@ const bookItems = computed(() => [{ value: 'internal', title: k('book.internal')
 const region = ref<Record<string, string>>({ sage: props.providers.find(p => p.provider === 'sage')?.region ?? 'uk' })
 const connectUrl = (p: Provider) => route('agri.accounting.connect', p.provider) + (p.provider === 'sage' ? `?region=${region.value.sage}` : '')
 const regionOk = computed(() => props.regions.find(r => r.value === region.value.sage)?.supported ?? false)
+// Sage South Africa: no redirect; the Sage username and password (write-only: never sent back here), then the company.
+const sageZa = computed(() => props.regions.find(r => r.value === region.value.sage)?.sign_in === 'password')
+const sagePw = (p: Provider) => p.provider === 'sage' && (p.status === 'connected' ? p.sign_in === 'password' && zaEditing.value : sageZa.value)
+const zaEditing = ref(false)
+const za = ref({ username: props.providers.find(p => p.provider === 'sage')?.username ?? '', password: '', api_key: '' })
+const zaBusy = ref(false)
+const zaSignIn = () => router.post(route('agri.accounting.sage.sign-in'), { username: za.value.username, password: za.value.password || null, api_key: za.value.api_key || null }, {
+  ...keep, onStart: () => { zaBusy.value = true }, onFinish: () => { zaBusy.value = false; za.value.password = ''; za.value.api_key = ''; zaEditing.value = false } })
 const tenantPick = ref<Record<string, string | null>>({})
 const chooseTenant = (p: Provider) => router.post(route('agri.accounting.tenant', p.provider), { tenant_id: tenantPick.value[p.provider] }, keep)
 const disconnect = (p: Provider) => confirm(k('disconnect_confirm', { name: p.name })) && router.post(route('agri.accounting.disconnect', p.provider), {}, keep)
@@ -138,11 +148,27 @@ const retry = (l: any) => router.post(route('agri.accounting.links.retry', l.id)
               <div class="text-body-2">{{ k('counts', { synced: p.counts.synced ?? 0, failed: p.counts.failed ?? 0, pending: p.counts.pending ?? 0 }) }}</div>
               <div class="text-caption">{{ k('last_sync', { at: p.last_sync_at ?? k('never') }) }}<template v-if="p.connected_at"> · {{ k('connected_at', { at: p.connected_at }) }}</template></div>
               <div v-if="p.last_error" class="text-body-2 text-error mt-1">{{ p.last_error }}</div>
-              <div class="text-caption mt-2">{{ k('redirect_uri') }}: <code style="word-break: break-all">{{ p.redirect_uri }}</code></div>
+              <div v-if="p.sign_in === 'password'" class="text-caption mt-2">{{ k('sage_za.signed_in_as', { user: p.username ?? '—' }) }}
+                <VBtn v-if="p.status === 'connected' && !zaEditing" size="x-small" variant="text" @click="zaEditing = true">{{ k('sage_za.change') }}</VBtn></div>
+              <div v-else class="text-caption mt-2">{{ k('redirect_uri') }}: <code style="word-break: break-all">{{ p.redirect_uri }}</code></div>
 
               <div v-if="p.provider === 'sage' && p.status !== 'connected'" class="mt-3">
                 <VSelect v-model="region.sage" :items="regions.map(r => ({ value: r.value, title: r.title + (r.supported ? '' : ' *') }))" :label="k('region')" density="compact" hide-details />
                 <div v-if="!regionOk" class="text-caption text-warning mt-1">{{ k('region_unsupported') }}</div>
+              </div>
+
+              <div v-if="sagePw(p)" class="mt-3">
+                <div class="text-subtitle-2 mb-1">{{ k('sage_za.title') }}</div>
+                <p class="text-caption mb-2">{{ k('sage_za.intro') }}</p>
+                <VTextField v-model="za.username" :label="k('sage_za.username')" autocomplete="off" density="compact" class="mb-2" hide-details="auto" />
+                <VTextField v-model="za.password" type="password" :label="k('sage_za.password')" autocomplete="new-password" density="compact" class="mb-2"
+                  :placeholder="p.has_password ? k('sage_za.password_kept') : undefined" persistent-placeholder :hint="k('sage_za.password_hint')" persistent-hint />
+                <VTextField v-model="za.api_key" type="password" :label="k('sage_za.api_key')" autocomplete="off" density="compact" class="mb-2"
+                  :placeholder="p.own_api_key ? k('sage_za.api_key_kept') : undefined" persistent-placeholder
+                  :hint="p.platform_api_key ? k('sage_za.api_key_hint_platform') : k('sage_za.api_key_hint_none')" persistent-hint />
+                <VBtn size="small" color="primary" variant="flat" :loading="zaBusy" :disabled="!za.username || (!za.password && !p.has_password)" @click="zaSignIn">{{ k('sage_za.check') }}</VBtn>
+                <VBtn v-if="zaEditing" size="small" variant="text" @click="zaEditing = false">{{ k('sage_za.cancel') }}</VBtn>
+                <div class="text-caption mt-2">{{ k('sage_za.tracking_note') }}</div>
               </div>
 
               <div v-if="p.status === 'choose_tenant' || (p.tenants.length > 1 && p.status === 'connected')" class="mt-3 d-flex gap-2 align-center">
@@ -162,7 +188,7 @@ const retry = (l: any) => router.post(route('agri.accounting.links.retry', l.id)
               </template>
             </VCardText>
             <VCardActions class="flex-wrap">
-              <VBtn v-if="p.status !== 'connected'" color="primary" variant="flat" size="small" :disabled="!p.registered || (p.provider === 'sage' && !regionOk)"
+              <VBtn v-if="p.status !== 'connected' && !(p.provider === 'sage' && sageZa)" color="primary" variant="flat" size="small" :disabled="!p.registered || (p.provider === 'sage' && !regionOk)"
                 :href="p.registered ? connectUrl(p) : undefined">{{ p.tenant_id ? k('reconnect') : k('connect') }}</VBtn>
               <template v-else>
                 <VBtn size="small" variant="tonal" @click="pull(p)">{{ k('pull') }}</VBtn>

@@ -4,6 +4,10 @@ namespace App\Modules\Agri\Accounting;
 
 use App\Modules\Agri\Models\AccountingConnection;
 use App\Modules\Agri\Models\AccountingMapping;
+use App\Modules\Agri\Models\CropPlan;
+use App\Modules\Agri\Models\Farm;
+use App\Modules\Agri\Models\FarmField;
+use App\Modules\Agri\Models\LivestockGroup;
 use App\Modules\Finance\Accounting\Models\FinInvoice;
 use App\Modules\Finance\Accounting\Models\FinJournal;
 use Illuminate\Support\Facades\DB;
@@ -12,13 +16,16 @@ use Illuminate\Support\Facades\DB;
  * Our documents in the shape every connector takes, with each of our codes already replaced by what
  * it is in the connected system: an account by its mapped account, a tax code by its mapped tax
  * rate, a farm / field / enterprise dimension by its mapped tracking option (Xero tracking
- * category, QuickBooks class or department, Sage analysis type). A missing account or tax mapping
+ * category, QuickBooks class or department, Sage analysis type; Sage South Africa analysis code). A missing account or tax mapping
  * stops the push with a message that says exactly what to map; tracking is optional.
  */
 class AccountingDocuments
 {
     /** @var array<string, array<string, AccountingMapping>> */
     private array $maps = [];
+
+    /** @var array<string, string> */
+    private array $labelCache = [];
 
     public function invoice(AccountingConnection $c, FinInvoice $inv, string $contactId): array
     {
@@ -37,6 +44,7 @@ class AccountingDocuments
                 'tax' => $l->tax_code ? $this->tax($c, (string) $l->tax_code) : $this->defaultTax($c),
                 'item' => $item ? ['id' => $item->external_id] : ($opts['default_item'] ? ['id' => (string) $opts['default_item']] : null),
                 'tracking' => $this->tracking($c, $dims),
+                'labels' => $this->labels($dims),
             ];
         }
 
@@ -50,7 +58,7 @@ class AccountingDocuments
         $rows = DB::table('fin_journal_lines as l')->join('fin_accounts as a', 'a.id', '=', 'l.account_id')->where('l.journal_id', $j->id)->orderBy('l.id')
             ->get(['a.code', 'l.debit', 'l.credit', 'l.narration', 'l.dimensions']);
         $lines = $rows->map(fn ($l) => ['description' => (string) ($l->narration ?: $j->description ?: $j->journal_no), 'debit' => round((float) $l->debit, 2), 'credit' => round((float) $l->credit, 2),
-            'account' => $this->account($c, (string) $l->code), 'tracking' => $this->tracking($c, json_decode((string) $l->dimensions, true) ?: [])])->values()->all();
+            'account' => $this->account($c, (string) $l->code), 'tracking' => $this->tracking($c, $d = json_decode((string) $l->dimensions, true) ?: []), 'labels' => $this->labels($d)])->values()->all();
 
         return ['number' => (string) $j->journal_no, 'date' => $j->journal_date?->toDateString() ?? (string) $j->journal_date, 'narration' => (string) ($j->description ?: $j->event_type),
             'currency' => (string) ($j->currency ?: 'ZAR'), 'lines' => $lines];
@@ -108,6 +116,35 @@ class AccountingDocuments
         return $out;
     }
 
+    /**
+     * The farm, field and enterprise a line carries, as words ("Farm NORTH", "Field N-03",
+     * "Crop plan CP-24-001"), keyed by dimension: for a provider that has no tracking of its own, or
+     * where none is mapped, the connector can write them into the line description.
+     *
+     * @return array<string, string>
+     */
+    public function labels(array $dims): array
+    {
+        $code = fn (string $model, $id) => $this->labelCache[$model.':'.$id] ??= (string) ($model::withoutGlobalScopes()->whereKey($id)->value('code') ?? $id);
+        $out = [];
+        if (! empty($dims['agri_farm'])) {
+            $out['farm'] = 'Farm '.($dims['tracking'] ?? $code(Farm::class, $dims['agri_farm']));
+        }
+        if (! empty($dims['agri_field'])) {
+            $out['field'] = 'Field '.$code(FarmField::class, $dims['agri_field']);
+        }
+        if (! empty($dims['agri_enterprise']) && str_contains((string) $dims['agri_enterprise'], ':')) {
+            [$type, $id] = explode(':', (string) $dims['agri_enterprise'], 2);
+            $out['enterprise'] = match ($type) {
+                'crop_plan' => 'Crop plan '.$code(CropPlan::class, $id),
+                'livestock_group' => 'Livestock '.$code(LivestockGroup::class, $id),
+                default => str_replace('_', ' ', ucfirst($type)).' '.$id,
+            };
+        }
+
+        return $out;
+    }
+
     /** An invoice's farm dimensions: its own, else those on its journal's lines. */
     public function dimensionsOf(?array $dims, ?int $journalId): array
     {
@@ -122,6 +159,7 @@ class AccountingDocuments
     public function forget(): void
     {
         $this->maps = [];
+        $this->labelCache = [];
     }
 
     private function map(AccountingConnection $c, string $kind, string $key): ?AccountingMapping

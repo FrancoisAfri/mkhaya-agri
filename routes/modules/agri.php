@@ -277,6 +277,7 @@ Route::middleware(['module.active:agri', 'module.tier:agri', \App\Modules\Agri\H
         Route::get('/accounting', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'index'])->name('accounting.index');
         Route::post('/accounting/book', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'book'])->name('accounting.book');
         Route::post('/accounting/links/{link}/retry', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'retry'])->name('accounting.links.retry');
+        Route::post('/accounting/sage/sign-in', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'sageSignIn'])->name('accounting.sage.sign-in');
         Route::get('/accounting/{provider}/connect', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'connect'])->name('accounting.connect');
         Route::get('/accounting/{provider}/callback', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'callback'])->name('accounting.callback');
         Route::post('/accounting/{provider}/tenant', [\App\Modules\Agri\Http\Controllers\AccountingController::class, 'tenant'])->name('accounting.tenant');

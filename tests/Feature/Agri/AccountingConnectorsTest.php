@@ -389,8 +389,10 @@ class AccountingConnectorsTest extends AgriTestCase
         }
         // No app registration: connecting says so instead of sending anyone anywhere.
         $this->actingAs($this->admin)->get(route('agri.accounting.connect', 'quickbooks'))->assertRedirect()->assertSessionHasErrors('provider');
-        // Sage in South Africa is a different API: refused before connecting.
+        // Sage in South Africa is a different API with no OAuth redirect: the connect link says to sign in with the Sage username and
+        // password instead (SageSouthAfricaConnectorTest covers that sign-in).
         $this->actingAs($this->admin)->get(route('agri.accounting.connect', 'sage').'?region=za')->assertSessionHasErrors('region');
+        $this->assertStringContainsString('username and password', session('errors')->first('region'));
         // The books cannot move to a system that is not connected.
         $this->actingAs($this->admin)->post(route('agri.accounting.book'), ['book_of_record' => 'xero'])->assertSessionHasErrors('book_of_record');
         Http::assertNothingSent();

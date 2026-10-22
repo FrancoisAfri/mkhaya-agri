@@ -144,9 +144,30 @@ return [
                     'fr' => ['name' => 'France', 'supported' => true],
                     'de' => ['name' => 'Germany', 'supported' => true],
                     // Sage Business Cloud Accounting in South Africa (the former Sage One SA) is a separate
-                    // product with its own API (version 2.0.0, API key plus the user's sign-in, per company id),
-                    // not the v3.1 API above. Not built: kept here so the screen can say so.
-                    'za' => ['name' => 'South Africa', 'supported' => false, 'api_url' => env('SAGE_ZA_API_URL', 'https://resellers.accounting.sageone.co.za/api/2.0.0')],
+                    // product with its own API, not the v3.1 API above: the SA Accounting API v2.0.0, called
+                    // with an API key issued to the integrator (apikey query parameter), the person's own Sage
+                    // username and password (HTTP Basic) and the company id on every call. No OAuth, no app
+                    // registration: SageSouthAfricaConnector. The key can be overridden per organisation.
+                    'za' => [
+                        'name' => 'South Africa',
+                        'supported' => true,
+                        'sign_in' => 'password',
+                        'product' => 'Sage Business Cloud Accounting (South Africa)',
+                        'api_url' => env('SAGE_ZA_API_URL', 'https://resellers.accounting.sageone.co.za/api/2.0.0'),
+                        'api_key' => env('SAGE_ZA_API_KEY'),
+                        'page_size' => 100,                    // the API returns at most 100 rows per call ($top / $skip)
+                        'max_pages' => 50,
+                        'per_minute' => (int) env('SAGE_ZA_PER_MINUTE', 100),   // throttle per company, below Sage's limit
+                        'retries' => 3,                        // on 429 / 503, honouring Retry-After
+                        'max_wait' => 60,                      // seconds, the longest a single back-off waits
+                        // Analysis categories (Sage SA's tracking: up to three per company) and their codes.
+                        'analysis_categories' => 'AnalysisCategory/Get',
+                        'analysis_codes' => 'AnalysisType/Get',
+                        'allocations' => 'Allocation/Get',
+                        // Farm / field / enterprise also written into the line description, so it is visible
+                        // in Sage even where no analysis code is mapped.
+                        'tracking_in_description' => true,
+                    ],
                 ],
             ],
         ],

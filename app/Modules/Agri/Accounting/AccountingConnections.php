@@ -13,7 +13,8 @@ use Illuminate\Validation\ValidationException;
 /**
  * Connecting an organisation to Xero, QuickBooks Online or Sage: the OAuth 2.0 authorisation-code
  * flow with a one-time state, the tokens kept encrypted on the connection, the tenant (organisation,
- * realm, business) chosen after connecting, and disconnecting. Nothing here works until the
+ * realm, business) chosen after connecting, and disconnecting. Sage in South Africa is the
+ * exception: a sign-in with the Sage username and password (signIn), no redirect. Nothing here works until the
  * platform has registered an app with the provider (client id and secret in config); until then a
  * connection says so.
  */
@@ -21,9 +22,15 @@ class AccountingConnections
 {
     public const CONNECTORS = [AccountingConnection::XERO => XeroConnector::class, AccountingConnection::QUICKBOOKS => QuickBooksConnector::class, AccountingConnection::SAGE => SageConnector::class];
 
+    /** Sage's South African product: its own API, signed in with the Sage username and password (SageSouthAfricaConnector). */
+    public const SAGE_ZA = 'za';
+
     public function connector(AccountingConnection $c): Connector
     {
         $class = self::CONNECTORS[$c->provider] ?? throw new \InvalidArgumentException("No connector for {$c->provider}.");
+        if ($c->provider === AccountingConnection::SAGE && $c->region === self::SAGE_ZA) {
+            $class = SageSouthAfricaConnector::class;
+        }
 
         return new $class($c);
     }
@@ -38,6 +45,9 @@ class AccountingConnections
     {
         $this->assertProvider($provider);
         $c = AccountingConnection::for($companyId, $provider);
+        if ($provider === AccountingConnection::SAGE && ($region ?: 'uk') === self::SAGE_ZA) {
+            throw ValidationException::withMessages(['region' => 'Sage Business Cloud Accounting South Africa does not sign in through a Sage page: enter your Sage username and password on the Sage card, check the connection, then choose the company.']);
+        }
         if (! AccountingConnection::registered($provider)) {
             $c->update(['status' => 'needs_registration']);
             throw ValidationException::withMessages(['provider' => config("agri.accounting.providers.{$provider}.name").' is not set up on this platform yet: the platform needs an app registered with '
@@ -49,6 +59,7 @@ class AccountingConnections
             if (! ($regions[$region]['supported'] ?? false)) {
                 throw ValidationException::withMessages(['region' => ($regions[$region]['name'] ?? $region).': Sage Business Cloud Accounting there runs on a different Sage API that this connector does not speak yet.']);
             }
+            $this->switchRegion($c, $region);
         }
         $state = Str::random(48);
         $c->forceFill(['oauth_state' => hash('sha256', $state), 'oauth_state_expires_at' => now()->addMinutes(15), 'region' => $provider === AccountingConnection::SAGE ? $region : null,
@@ -93,6 +104,62 @@ class AccountingConnections
         return $c->fresh();
     }
 
+    /**
+     * Sage South Africa: the person's Sage username and password (and, if the organisation has its
+     * own, an API key) checked against Company/Get, kept encrypted, and the company chosen — at once
+     * when there is one, else from the list. A blank password keeps the one already stored (the
+     * screen never shows it); a blank API key keeps the organisation's own, else the platform's.
+     *
+     * @param array{username: string, password?: ?string, api_key?: ?string} $data
+     */
+    public function signIn(int $companyId, array $data, User $actor): AccountingConnection
+    {
+        $c = AccountingConnection::for($companyId, AccountingConnection::SAGE);
+        $old = $c->region === self::SAGE_ZA ? $c->tokens() : [];
+        $username = trim((string) $data['username']);
+        $cred = array_filter(['username' => $username,
+            'password' => filled($data['password'] ?? null) ? (string) $data['password'] : (($old['username'] ?? null) === $username ? ($old['password'] ?? null) : null),
+            'api_key' => filled($data['api_key'] ?? null) ? trim((string) $data['api_key']) : ($old['api_key'] ?? null)]);
+        if (empty($cred['password'])) {
+            throw ValidationException::withMessages(['password' => 'Enter the Sage password.']);
+        }
+        $this->switchRegion($c, self::SAGE_ZA);
+        $c->forceFill(['region' => self::SAGE_ZA, 'oauth_state' => null, 'oauth_state_expires_at' => null]);
+        try {
+            $tenants = $this->connector($c)->tenants($cred, []);
+        } catch (AccountingApiError $e) {
+            $c->forceFill(['status' => $c->isConnected() ? $c->status : 'error', 'last_error' => mb_strimwidth($e->getMessage(), 0, 500)])->save();
+            throw ValidationException::withMessages(['username' => $e->getMessage()]);
+        }
+        $c->putTokens($cred);
+        $c->forceFill(['tenants' => $tenants, 'connected_at' => now(), 'connected_by' => $actor->id, 'last_error' => null])->save();
+        if ($c->tenant_id && collect($tenants)->contains('id', $c->tenant_id)) {
+            return $this->chooseTenant($c, $c->tenant_id);
+        }
+        if (count($tenants) === 1) {
+            return $this->chooseTenant($c, $tenants[0]['id']);
+        }
+        $c->update(['status' => $tenants ? 'choose_tenant' : 'error', 'last_error' => $tenants ? null : 'This Sage sign-in has no company.']);
+
+        return $c->fresh();
+    }
+
+    /**
+     * Moving a Sage connection between the v3.1 product and the South African one is a different
+     * set of books: the sign-in, the company, what was mapped and what was pushed are forgotten.
+     */
+    private function switchRegion(AccountingConnection $c, string $region): void
+    {
+        if (! $c->exists || ! $c->region || $c->region === $region || ($c->region !== self::SAGE_ZA && $region !== self::SAGE_ZA)) {
+            return;
+        }
+        AccountingLink::withoutGlobalScopes()->where('connection_id', $c->id)->delete();
+        AccountingMapping::withoutGlobalScopes()->where('connection_id', $c->id)->delete();
+        $c->putTokens(null);
+        $c->forceFill(['catalog' => null, 'tenant_id' => null, 'tenant_name' => null, 'tenants' => null, 'region' => $region,
+            'status' => $region === self::SAGE_ZA || AccountingConnection::registered($c->provider) ? 'disconnected' : 'needs_registration'])->save();
+    }
+
     public function chooseTenant(AccountingConnection $c, string $tenantId): AccountingConnection
     {
         $t = collect($c->tenants ?? [])->firstWhere('id', $tenantId);
@@ -115,7 +182,7 @@ class AccountingConnections
     {
         $this->connector($c)->revoke();
         $c->putTokens(null);
-        $c->forceFill(['status' => AccountingConnection::registered($c->provider) ? 'disconnected' : 'needs_registration', 'last_error' => null])->save();
+        $c->forceFill(['status' => AccountingConnection::registered($c->provider) || $c->region === self::SAGE_ZA ? 'disconnected' : 'needs_registration', 'last_error' => null])->save();
         $settings = AgriOrgSetting::for((int) $c->company_id);
         if ($settings->book_of_record === $c->provider) {
             // The books cannot be a system we no longer reach: back to our own ledger, said out loud on the screen.

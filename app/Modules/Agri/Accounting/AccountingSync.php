@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
 /**
- * The farm's books in Xero, QuickBooks Online or Sage.
+ * The farm's books in Xero, QuickBooks Online or Sage (Business Cloud Accounting v3.1, or its South
+ * African product).
  *
  * An organisation has ONE book of record. With our own ledger (the default) nothing here runs and
  * every posting is the books, as before. With a connected external system, our ledger keeps
@@ -362,13 +363,20 @@ class AccountingSync
     private function contactFor(AccountingConnection $c, Connector $connector, int $partyId, string $kind): string
     {
         $m = AccountingMapping::withoutGlobalScopes()->where('connection_id', $c->id)->where('kind', 'contact')->where('local_key', (string) $partyId)->first();
-        if ($m?->external_id) {
-            return $m->external_id;
+        $fits = $m?->external_id && $connector->contactFits($m->external_id, $kind);
+        if ($fits || ($m?->extra['by_kind'][$kind] ?? null)) {
+            return $fits ? $m->external_id : $m->extra['by_kind'][$kind];
         }
         $party = FinParty::withoutGlobalScopes()->where('company_id', $c->company_id)->findOrFail($partyId);
         $found = $connector->findContact((string) $party->name, $party->vat_number ?: null, $kind);
         $by = $found['matched_by'] ?? 'created';
         $id = $found['id'] ?? $connector->createContact(['name' => (string) $party->name, 'email' => $party->email, 'tax_number' => $party->vat_number], $kind)['id'];
+        if ($m?->external_id) {
+            // Mapped already as the other kind (Sage South Africa keeps customers and suppliers apart): kept, with this one beside it.
+            $m->update(['extra' => array_replace_recursive($m->extra ?? [], ['by_kind' => [$kind => $id]])]);
+
+            return $id;
+        }
         AccountingMapping::withoutGlobalScopes()->updateOrCreate(['connection_id' => $c->id, 'kind' => 'contact', 'local_key' => (string) $partyId],
             ['company_id' => $c->company_id, 'local_label' => $party->name, 'external_id' => $id, 'external_name' => $found['name'] ?? $party->name, 'extra' => ['matched_by' => $by]]);
 

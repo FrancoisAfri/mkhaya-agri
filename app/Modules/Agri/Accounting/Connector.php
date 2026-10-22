@@ -57,6 +57,12 @@ abstract class Connector
      */
     abstract public function payments(?Carbon $since): array;
 
+    /** Whether a contact id there can stand for a $kind (customer | supplier). One contact list for both: always. */
+    public function contactFits(string $externalId, string $kind): bool
+    {
+        return true;
+    }
+
     public function config(?string $key = null): mixed
     {
         $c = config('agri.accounting.providers.'.$this->provider(), []);

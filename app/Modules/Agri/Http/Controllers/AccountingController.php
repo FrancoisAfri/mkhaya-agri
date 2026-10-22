@@ -27,7 +27,7 @@ use Symfony\Component\HttpFoundation\Response as HttpResponse;
 
 /**
  * Farm Operations → Accounting connectors: the book of record, connecting Xero, QuickBooks Online
- * or Sage (OAuth), the mapping of our accounts, tax codes, farm dimensions, contacts and items onto
+ * or Sage (OAuth; Sage South Africa by username and password), the mapping of our accounts, tax codes, farm dimensions, contacts and items onto
  * theirs, and the per-record sync log with retry.
  */
 class AccountingController extends AgriController
@@ -49,13 +49,14 @@ class AccountingController extends AgriController
         $selected = $conns[$provider];
 
         $counts = AccountingLink::query()->selectRaw('connection_id, status, COUNT(*) as n')->groupBy('connection_id', 'status')->get()->groupBy('connection_id');
-        $providers = $conns->map(fn (AccountingConnection $c) => ['provider' => $c->provider, 'name' => config("agri.accounting.providers.{$c->provider}.name"),
+        $providers = $conns->map(fn (AccountingConnection $c) => ['provider' => $c->provider, 'name' => $c->provider === AccountingConnection::SAGE && $c->region === AccountingConnections::SAGE_ZA
+                ? config('agri.accounting.providers.sage.regions.za.product') : config("agri.accounting.providers.{$c->provider}.name"),
             'registered' => AccountingConnection::registered($c->provider), 'status' => $c->status, 'tenant' => $c->tenant_name, 'tenant_id' => $c->tenant_id,
             'tenants' => $c->tenants ?? [], 'region' => $c->region, 'last_sync_at' => $c->last_sync_at?->format('Y-m-d H:i'), 'connected_at' => $c->connected_at?->format('Y-m-d H:i'),
             'last_error' => $c->last_error, 'settings' => $c->options(), 'redirect_uri' => AccountingConnections::redirectUri($c->provider),
             'catalog_pulled_at' => $c->catalog['pulled_at'] ?? null,
             'counts' => collect($counts[$c->id] ?? [])->mapWithKeys(fn ($r) => [$r->status => (int) $r->n])->all(),
-            'mappings' => AccountingMapping::query()->where('connection_id', $c->id)->count()])->values()->all();
+            'mappings' => AccountingMapping::query()->where('connection_id', $c->id)->count()] + $this->signInFacts($c))->values()->all();
 
         $data = match ($tab) {
             'connections' => [],
@@ -69,7 +70,8 @@ class AccountingController extends AgriController
             'tab' => $tab, 'provider' => $provider, 'book_of_record' => $book,
             'book_changed_at' => $settings->book_of_record_changed_at?->format('Y-m-d H:i'),
             'providers' => $providers, 'data' => $data,
-            'regions' => collect(config('agri.accounting.providers.sage.regions', []))->map(fn ($r, $k) => ['value' => $k, 'title' => $r['name'], 'supported' => (bool) $r['supported']])->values()->all(),
+            'regions' => collect(config('agri.accounting.providers.sage.regions', []))->map(fn ($r, $k) => ['value' => $k, 'title' => $r['name'], 'supported' => (bool) $r['supported'],
+                'sign_in' => $r['sign_in'] ?? 'oauth'])->values()->all(),
         ]);
     }
 
@@ -103,6 +105,16 @@ class AccountingController extends AgriController
 
         return to_route('agri.accounting.index', ['provider' => $provider])->with('success', $c->status === 'connected'
             ? "Connected to {$c->tenant_name}." : 'Connected. Choose which organisation to use.');
+    }
+
+    /** Sage South Africa: username and password (and optionally the organisation's own API key) checked, kept encrypted, the company listed. */
+    public function sageSignIn(Request $request): RedirectResponse
+    {
+        $this->allow($request, R::MANAGE_ACCOUNTING);
+        $data = $request->validate(['username' => ['required', 'string', 'max:200'], 'password' => ['nullable', 'string', 'max:200'], 'api_key' => ['nullable', 'string', 'max:200']]);
+        $c = $this->connections->signIn((int) $request->user()->company_id, $data, $request->user());
+
+        return back()->with('success', $c->status === 'connected' ? "Signed in to Sage South Africa: using {$c->tenant_name}." : 'Signed in to Sage South Africa. Choose the company to use.');
     }
 
     public function tenant(Request $request, string $provider): RedirectResponse
@@ -228,6 +240,17 @@ class AccountingController extends AgriController
             'contacts' => $parties->map(fn ($p) => ['key' => (string) $p->id, 'label' => $p->name, 'vat_number' => $p->vat_number, 'kind' => $p->kind, 'map' => $maps['contact'][(string) $p->id] ?? null])->values()->all(),
             'needs_items' => $c->provider === AccountingConnection::QUICKBOOKS,
         ];
+    }
+
+    /** How the connection signs in, and for Sage South Africa what is stored — never the password or the key themselves. */
+    private function signInFacts(AccountingConnection $c): array
+    {
+        $za = $c->provider === AccountingConnection::SAGE && $c->region === AccountingConnections::SAGE_ZA;
+        $cred = $za ? $c->tokens() : [];
+
+        return ['sign_in' => $za ? 'password' : 'oauth', 'username' => $cred['username'] ?? null, 'has_password' => filled($cred['password'] ?? null),
+            'own_api_key' => filled($cred['api_key'] ?? null),
+            'platform_api_key' => $c->provider === AccountingConnection::SAGE ? filled(config('agri.accounting.providers.sage.regions.za.api_key')) : null];
     }
 
     private function provider(string $provider): string
