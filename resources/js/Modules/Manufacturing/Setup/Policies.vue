@@ -24,8 +24,8 @@ const props = defineProps<{
   policies: Policy[]
   limits: Limit[]
   factories: Array<{ id: string; code: string; name: string }>
-  document_types: string[]
-  permissions: string[]
+  limit_document_types: string[]
+  approvers: Array<{ value: string; key: string; holders: number }>
 }>()
 
 // '' is the company default that factories inherit until they set their own.
@@ -74,6 +74,30 @@ const scopeItems = computed(() => [
 const limitForm = useForm({
   factory_uuid: null as string | null, document_type: 'PRODUCTION_ORDER', min_amount: 0,
   max_amount: null as number | null, required_permission: '', escalate_after_hours: null as number | null,
+})
+
+// A permission in words; a code nobody has a label for still shows, as the code.
+const approverLabel = (code: string) => {
+  const a = props.approvers.find(x => x.value === code)
+  return a?.key ? t(`manufacturing.approver.${a.key}`) : code
+}
+const approverItems = computed(() => props.approvers.map(a => ({
+  value: a.value, title: approverLabel(a.value),
+  subtitle: a.holders ? t('manufacturing.policies.holders', { n: a.holders }, a.holders) : t('manufacturing.policies.no_holders'),
+  holders: a.holders,
+})))
+const chosen = computed(() => props.approvers.find(a => a.value === limitForm.required_permission) ?? null)
+
+// The band read back as a sentence before it is added.
+const summary = computed(() => {
+  if (!limitForm.required_permission) return ''
+  const factory = props.factories.find(f => f.id === limitForm.factory_uuid)
+  return t('manufacturing.policies.summary', {
+    from: money(Number(limitForm.min_amount) || 0),
+    to: limitForm.max_amount ? t('manufacturing.policies.summary_to', { n: money(Number(limitForm.max_amount)) }) : t('manufacturing.policies.summary_above'),
+    where: factory ? t('manufacturing.policies.summary_where', { f: factory.name }) : t('manufacturing.policies.summary_where_all'),
+    who: approverLabel(limitForm.required_permission),
+  })
 })
 
 function addLimit() {
@@ -162,17 +186,19 @@ const money = (n: number) => n.toLocaleString(undefined, { minimumFractionDigits
             <th class="text-end">{{ t('manufacturing.policies.from') }}</th>
             <th class="text-end">{{ t('manufacturing.policies.up_to') }}</th>
             <th>{{ t('manufacturing.policies.permission') }}</th>
+            <th>{{ t('manufacturing.policies.escalate') }}</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="l in limits" :key="l.id">
             <td>{{ t(`manufacturing.document_type.${l.document_type}`) }}</td>
-            <td>{{ l.factory ?? t('manufacturing.numbering.company_wide') }}</td>
+            <td>{{ l.factory ?? t('manufacturing.policies.factory_all') }}</td>
             <td class="text-end">{{ money(l.min_amount) }}</td>
             <!-- A null ceiling means "and everything above", not "no limit configured". -->
             <td class="text-end">{{ l.max_amount === null ? t('manufacturing.policies.and_above') : money(l.max_amount) }}</td>
-            <td><code>{{ l.required_permission }}</code></td>
+            <td>{{ approverLabel(l.required_permission) }}</td>
+            <td>{{ l.escalate_after_hours ? t('manufacturing.policies.hours', { n: l.escalate_after_hours }) : '—' }}</td>
             <td class="text-end">
               <VBtn icon="tabler-trash" variant="text" size="small" :aria-label="t('manufacturing.common.remove')"
                     @click="removeLimit(l)" />
@@ -184,38 +210,54 @@ const money = (n: number) => n.toLocaleString(undefined, { minimumFractionDigits
 
       <VCardText>
         <VDivider class="mb-4" />
-        <VRow dense>
-          <VCol cols="12" md="3">
-            <VSelect v-model="limitForm.document_type" :error-messages="limitForm.errors.document_type"
-                     :items="document_types.map(d => ({ title: t(`manufacturing.document_type.${d}`), value: d }))"
-                     :label="t('manufacturing.numbering.document')" />
-          </VCol>
-          <VCol cols="12" md="3">
-            <VSelect v-model="limitForm.factory_uuid" clearable :items="factories" item-value="id"
-                     :item-title="(f: any) => `${f.code} — ${f.name}`"
-                     :label="t('manufacturing.numbering.factory')" />
-          </VCol>
-          <VCol cols="6" md="3">
-            <VTextField v-model.number="limitForm.min_amount" type="number" min="0" step="any"
-                        :error-messages="limitForm.errors.min_amount" :label="t('manufacturing.policies.from')" />
-          </VCol>
-          <VCol cols="6" md="3">
-            <VTextField v-model.number="limitForm.max_amount" type="number" min="0" step="any"
-                        :error-messages="limitForm.errors.max_amount" :label="t('manufacturing.policies.up_to')"
-                        :hint="t('manufacturing.policies.blank_ceiling')" persistent-hint />
+        <div class="text-subtitle-1 font-weight-medium mb-1">{{ t('manufacturing.policies.new_band') }}</div>
+        <p class="text-body-2 text-medium-emphasis mb-4">
+          {{ t(`manufacturing.document_type.${limit_document_types[0]}`) }} — {{ t('manufacturing.policies.limits_applies') }}
+        </p>
+        <VRow>
+          <VCol cols="12" md="6">
+            <div class="text-caption text-medium-emphasis mb-1">{{ t('manufacturing.policies.order_value') }}</div>
+            <div class="d-flex gap-3">
+              <VTextField v-model.number="limitForm.min_amount" type="number" min="0" step="any"
+                          :error-messages="limitForm.errors.min_amount" :label="t('manufacturing.policies.from')" />
+              <VTextField v-model.number="limitForm.max_amount" type="number" min="0" step="any"
+                          :error-messages="limitForm.errors.max_amount" :label="t('manufacturing.policies.up_to')"
+                          :hint="t('manufacturing.policies.blank_ceiling')" persistent-hint />
+            </div>
           </VCol>
           <VCol cols="12" md="6">
-            <VSelect v-model="limitForm.required_permission" :items="permissions"
-                     :error-messages="limitForm.errors.required_permission"
-                     :label="t('manufacturing.policies.permission')" />
+            <VSelect v-model="limitForm.factory_uuid" clearable :items="factories" item-value="id"
+                     :item-title="(f: any) => `${f.code} — ${f.name}`" :placeholder="t('manufacturing.policies.factory_all')"
+                     persistent-placeholder :hint="t('manufacturing.policies.factory_hint')" persistent-hint
+                     :label="t('manufacturing.numbering.factory')" />
+          </VCol>
+          <VCol cols="12" md="6">
+            <VSelect v-model="limitForm.required_permission" :items="approverItems"
+                     :error-messages="limitForm.errors.required_permission" :label="t('manufacturing.policies.permission')"
+                     :hint="t('manufacturing.policies.approver_hint')" persistent-hint>
+              <template #item="{ props: itemProps, item }">
+                <VListItem v-bind="itemProps" :subtitle="item.raw.subtitle">
+                  <template #append>
+                    <VIcon v-if="!item.raw.holders" icon="tabler-alert-triangle" color="warning" size="18" />
+                  </template>
+                </VListItem>
+              </template>
+            </VSelect>
           </VCol>
           <VCol cols="12" md="6">
             <VTextField v-model.number="limitForm.escalate_after_hours" type="number" min="1" max="720"
-                        :label="t('manufacturing.policies.escalate_after')" suffix="h" />
+                        :label="t('manufacturing.policies.escalate_after')" suffix="h"
+                        :hint="t('manufacturing.policies.escalate_hint')" persistent-hint />
           </VCol>
         </VRow>
-        <VBtn color="primary" :loading="limitForm.processing" :disabled="!limitForm.required_permission"
-              @click="addLimit">{{ t('manufacturing.policies.add_limit') }}</VBtn>
+        <VAlert v-if="chosen && !chosen.holders" type="warning" variant="tonal" density="compact" class="mt-4">
+          {{ t('manufacturing.policies.no_holders') }}
+        </VAlert>
+        <VAlert v-else-if="summary" type="info" variant="tonal" density="compact" class="mt-4">{{ summary }}</VAlert>
+        <div class="d-flex justify-end mt-4">
+          <VBtn color="primary" prepend-icon="tabler-plus" :loading="limitForm.processing" :disabled="!limitForm.required_permission"
+                @click="addLimit">{{ t('manufacturing.policies.add_limit') }}</VBtn>
+        </div>
       </VCardText>
     </VCard>
   </div>

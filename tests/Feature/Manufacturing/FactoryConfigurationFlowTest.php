@@ -347,6 +347,48 @@ class FactoryConfigurationFlowTest extends ManufacturingTestCase
         ])->assertSessionHasErrors('max_amount');
     }
 
+    public function test_overlapping_bands_are_refused_so_every_order_value_meets_one_band(): void
+    {
+        $band = fn (float $min, ?float $max) => $this->as()->post(route('manufacturing.setup.policies.limits.store'), [
+            'document_type' => 'PRODUCTION_ORDER', 'min_amount' => $min, 'max_amount' => $max, 'required_permission' => 'mfg.order.approve']);
+
+        $band(0, 50000)->assertSessionHasNoErrors();
+        $band(50000, null)->assertSessionHasNoErrors();
+        $band(40000, 60000)->assertSessionHasErrors('min_amount');
+        $band(100000, null)->assertSessionHasErrors('min_amount'); // inside the open-ended top band
+        $this->assertSame(2, $this->asCompany($this->company, fn () => ApprovalLimit::count()));
+    }
+
+    public function test_a_band_is_only_offered_where_it_is_enforced_and_names_a_real_permission(): void
+    {
+        // Bands are checked when a production order is approved -- a band on anything else would never apply.
+        $this->as()->post(route('manufacturing.setup.policies.limits.store'), [
+            'document_type' => 'INTEL_CASE', 'min_amount' => 0, 'required_permission' => 'mfg.order.approve',
+        ])->assertSessionHasErrors('document_type');
+        $this->as()->post(route('manufacturing.setup.policies.limits.store'), [
+            'document_type' => 'PRODUCTION_ORDER', 'min_amount' => 0, 'required_permission' => 'mfg.order.aprove',
+        ])->assertSessionHasErrors('required_permission');
+
+        $props = $this->as()->get(route('manufacturing.setup.policies'))->assertOk()->viewData('page')['props'];
+        $this->assertSame(['PRODUCTION_ORDER'], $props['limit_document_types']);
+        $approve = collect($props['approvers'])->firstWhere('value', 'mfg.order.approve');
+        $this->assertSame('approve_orders', $approve['key'], 'shown in words, not as a code');
+        $holders = \App\Core\User\Models\User::permission('mfg.order.approve')->where('company_id', $this->company->id)->where('status', 1)->count();
+        $this->assertSame($holders, $approve['holders']);
+    }
+
+    public function test_every_numbered_document_and_every_approver_has_a_label(): void
+    {
+        $en = json_decode(file_get_contents(resource_path('js/utils/locales/modules/en.json')), true)['manufacturing'];
+        foreach (array_keys(\App\Modules\Operations\Manufacturing\Services\ManufacturingReferenceData::documentTypes()) as $type) {
+            $this->assertArrayHasKey($type, $en['document_type'], "{$type} would show as manufacturing.document_type.{$type}");
+        }
+        $names = array_flip((new \ReflectionClass(\App\Modules\Operations\Manufacturing\Support\RoleCatalog::class))->getConstants());
+        foreach (ApprovalLimit::APPROVER_PERMISSIONS as $p) {
+            $this->assertArrayHasKey(strtolower($names[$p]), $en['approver'], $p);
+        }
+    }
+
     // ── Who may configure ────────────────────────────────────────────────────────────────────
 
     public function test_nobody_but_a_configurator_can_change_the_plant(): void

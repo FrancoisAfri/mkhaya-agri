@@ -25,6 +25,7 @@ use App\Modules\Operations\Manufacturing\Services\NumberSequences;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
+use Illuminate\Validation\ValidationException;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -789,8 +790,6 @@ class SetupController extends Controller
     {
         $this->authorize('configure', Factory::class);
 
-        $companyId = (int) $request->user()->company_id;
-
         return Inertia::render('Modules/Manufacturing/Setup/Numbering', [
             'sequences' => NumberSequence::query()->with('factory:id,uuid,name')
                 ->orderBy('document_type')->get()
@@ -808,7 +807,7 @@ class SetupController extends Controller
                     'reset_period' => $s->reset_period,
                     'is_active' => (bool) $s->is_active,
                     // What the next document will actually be called, period segment included.
-                    'preview' => $sequences->preview($companyId, $s->document_type,
+                    'preview' => $sequences->preview((int) $s->company_id, $s->document_type,
                         $s->factory_id ? (int) $s->factory_id : null),
                 ]),
             'document_types' => array_keys(ManufacturingReferenceData::documentTypes()),
@@ -934,9 +933,32 @@ class SetupController extends Controller
                     'is_active' => (bool) $l->is_active,
                 ]),
             'factories' => $this->factoryOptions(),
-            'document_types' => array_keys(ManufacturingReferenceData::documentTypes()),
-            'permissions' => \App\Modules\Operations\Manufacturing\Support\RoleCatalog::all(),
+            // Bands are checked when a production order is approved; offering other documents
+            // would let somebody configure a band that is never enforced.
+            'limit_document_types' => ApprovalLimit::DOCUMENT_TYPES,
+            'approvers' => $this->approverOptions(ApprovalLimit::query()->pluck('required_permission')->all()),
         ]);
+    }
+
+    /**
+     * The permissions a band can ask for, in words, with how many people in the organisation hold
+     * each: a band nobody can approve stops every order in its range.
+     */
+    private function approverOptions(array $inUse): array
+    {
+        $names = array_flip((new \ReflectionClass(\App\Modules\Operations\Manufacturing\Support\RoleCatalog::class))->getConstants());
+        $companyId = app(\App\Modules\Tenancy\Services\CurrentCompany::class)->id();
+
+        return collect([...ApprovalLimit::APPROVER_PERMISSIONS, ...$inUse])->unique()->values()
+            ->map(function (string $permission) use ($names, $companyId) {
+                try {
+                    $holders = \App\Core\User\Models\User::permission($permission)->where('company_id', $companyId)->where('status', 1)->count();
+                } catch (\Spatie\Permission\Exceptions\PermissionDoesNotExist) {
+                    $holders = 0;
+                }
+
+                return ['value' => $permission, 'key' => strtolower($names[$permission] ?? ''), 'holders' => $holders];
+            })->all();
     }
 
     public function saveFactoryPolicy(Request $request): RedirectResponse
@@ -985,10 +1007,10 @@ class SetupController extends Controller
 
         $data = $request->validate([
             'factory_uuid' => ['nullable', 'string', $this->tenantExists('mfg_factories', 'uuid', true)],
-            'document_type' => ['required', 'string', 'max:48'],
+            'document_type' => ['required', Rule::in(ApprovalLimit::DOCUMENT_TYPES)],
             'min_amount' => ['required', 'numeric', 'min:0'],
             'max_amount' => ['nullable', 'numeric', 'gt:min_amount'],
-            'required_permission' => ['required', 'string', 'max:128'],
+            'required_permission' => ['required', Rule::in(\App\Modules\Operations\Manufacturing\Support\RoleCatalog::all())],
             'escalate_after_hours' => ['nullable', 'integer', 'between:1,720'],
         ]);
 
@@ -999,6 +1021,18 @@ class SetupController extends Controller
         }
 
         unset($data['factory_uuid']);
+
+        // Two bands over the same amounts would leave it to chance which one an order meets.
+        $min = (float) $data['min_amount'];
+        $max = isset($data['max_amount']) ? (float) $data['max_amount'] : null;
+        $clash = ApprovalLimit::query()->where('document_type', $data['document_type'])->where('is_active', true)
+            ->when($factoryId, fn ($q) => $q->where('factory_id', $factoryId), fn ($q) => $q->whereNull('factory_id'))
+            ->get()->first(fn (ApprovalLimit $l) => ($max === null || $max > (float) $l->min_amount)
+                && ($l->max_amount === null || $min < (float) $l->max_amount));
+        if ($clash) {
+            throw ValidationException::withMessages(['min_amount' => sprintf('This overlaps the band from %s %s; adjust the amounts so each order value falls in one band.',
+                number_format((float) $clash->min_amount, 2), $clash->max_amount === null ? 'and above' : 'up to '.number_format((float) $clash->max_amount, 2))]);
+        }
 
         ApprovalLimit::create($data + ['factory_id' => $factoryId, 'is_active' => true]);
 

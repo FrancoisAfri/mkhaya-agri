@@ -21312,7 +21312,13 @@
       "MATERIAL_ISSUE": "Material issue",
       "PRODUCTION_RECEIPT": "Production receipt",
       "QUALITY_INSPECTION": "Quality inspection",
-      "SCRAP_NOTE": "Scrap note"
+      "SCRAP_NOTE": "Scrap note",
+      "NONCONFORMANCE": "Nonconformance report",
+      "RECALL": "Recall",
+      "PLAN_RUN": "Planning run",
+      "SUBCONTRACT": "Subcontract order",
+      "LOSS_FINDING": "Loss finding",
+      "TRANSFER": "Inter-factory transfer"
     },
     "bom_action": {
       "SUBMITTED": "Submitted for approval",
@@ -21704,14 +21710,30 @@
       "allow_negative": "Allow stock to go negative",
       "allow_over_issue": "Allow issuing more than the order needs",
       "limits": "Approval limits",
-      "limits_hint": "Who may sign what, by value. Rows together cover the whole range.",
+      "limits_hint": "Production orders above a value need a more senior approver. Each band covers a range of order values; together they should cover every value.",
       "from": "From",
       "up_to": "Up to",
       "and_above": "and above",
-      "permission": "Approver permission",
+      "permission": "Approved by",
       "blank_ceiling": "Leave empty for \"and everything above\"",
       "no_limits": "No approval bands configured.",
-      "add_limit": "Add band"
+      "add_limit": "Add band",
+      "limits_applies": "Checked when a production order is approved, using the order's estimated value.",
+      "approver_hint": "Only people holding this permission can approve orders in the band",
+      "holders": "{n} person holds it | {n} people hold it",
+      "no_holders": "Nobody holds it yet — orders in this band could not be approved",
+      "factory_all": "All factories",
+      "factory_hint": "A factory's own bands are used before the company-wide ones",
+      "escalate_hint": "Remind the approver's manager if it waits this long",
+      "escalate": "Escalates after",
+      "hours": "{n} h",
+      "summary": "Production orders worth {from} {to} {where} need approval by someone who can “{who}”.",
+      "summary_to": "up to {n}",
+      "summary_above": "and above",
+      "summary_where_all": "at any factory",
+      "summary_where": "at {f}",
+      "new_band": "New band",
+      "order_value": "Order value"
     },
     "calendar_reason": {
       "HOLIDAY": "Holiday",
@@ -23599,6 +23621,16 @@
       "discard": "Set aside",
       "no_messages": "No messages yet.",
       "dup_n": "{n} duplicate(s) ignored"
+    },
+    "approver": {
+      "approve_orders": "Approve production orders",
+      "release_orders": "Release production orders to the floor",
+      "approve_costs": "Approve production costs",
+      "approve_accounting": "Approve manufacturing finance",
+      "approve_plan": "Approve production plans",
+      "override_controls": "Override production controls",
+      "all_factories": "Work across all factories (operations director)",
+      "configure": "Configure manufacturing"
     }
   },
   "warehouse_management": {

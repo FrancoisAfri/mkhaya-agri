@@ -166,6 +166,8 @@ class EveryScreenRendersTest extends ManufacturingTestCase
         $numbering = $this->page($this->configurator, route('manufacturing.setup.numbering'))['props']['sequences'];
         $this->assertStringStartsWith('PO-'.now()->format('Y').'-', collect($numbering)
             ->firstWhere('document_type', 'PRODUCTION_ORDER')['preview']);
+        // Every sequence shows the number it will issue next, read from its own company.
+        $this->assertSame([], collect($numbering)->whereNull('preview')->pluck('document_type')->all());
     }
 
     public function test_the_units_screen_groups_containers_apart_from_measurable_units(): void

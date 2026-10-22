@@ -2,6 +2,7 @@
 
 namespace App\Modules\Operations\Manufacturing\Models;
 
+use App\Modules\Operations\Manufacturing\Support\RoleCatalog;
 use App\Modules\Operations\Manufacturing\Concerns\HasPublicUuid;
 use App\Modules\Tenancy\Traits\BelongsToCompany;
 use Illuminate\Database\Eloquent\Model;
@@ -30,6 +31,16 @@ class ApprovalLimit extends Model
     }
 
     protected $table = 'mfg_approval_limits';
+
+    /** The documents a band is enforced on: production orders, when they are approved. */
+    public const DOCUMENT_TYPES = ['PRODUCTION_ORDER'];
+
+    /** The permissions that make sense as a band's approver, most common first. */
+    public const APPROVER_PERMISSIONS = [
+        RoleCatalog::APPROVE_ORDERS, RoleCatalog::RELEASE_ORDERS, RoleCatalog::APPROVE_COSTS,
+        RoleCatalog::APPROVE_ACCOUNTING, RoleCatalog::APPROVE_PLAN, RoleCatalog::OVERRIDE_CONTROLS,
+        RoleCatalog::ALL_FACTORIES, RoleCatalog::CONFIGURE,
+    ];
 
     protected $fillable = [
         'uuid', 'company_id', 'factory_id', 'document_type', 'min_amount', 'max_amount',
