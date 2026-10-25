@@ -247,6 +247,7 @@ return [
         'no_workflow' => 'No approval workflow applies to this document.',
         'no_steps' => 'That workflow has no approval steps yet.',
         'not_yours' => 'Tumello ena ha e a abeloa uena.',
+        'not_your_own' => 'Motho e mong eo e seng ya rometseng kapa ya kentseng tokomane ena ke yena ya e amohelang.',
         'already_decided' => 'That approval has already been answered.',
         'closed' => 'This approval is no longer open.',
         'not_current_step' => 'An earlier step has not finished yet.',

@@ -247,6 +247,7 @@ return [
         'no_workflow' => 'No approval workflow applies to this document.',
         'no_steps' => 'That workflow has no approval steps yet.',
         'not_yours' => 'Hierdie goedkeuring is nie aan u toegewys nie.',
+        'not_your_own' => 'Iemand anders as die persoon wat hierdie dokument ingedien of opgelaai het, keur dit goed.',
         'already_decided' => 'That approval has already been answered.',
         'closed' => 'This approval is no longer open.',
         'not_current_step' => 'An earlier step has not finished yet.',

@@ -247,6 +247,7 @@ return [
         'no_workflow' => 'No approval workflow applies to this document.',
         'no_steps' => 'That workflow has no approval steps yet.',
         'not_yours' => 'This approval is not assigned to you.',
+        'not_your_own' => 'Lomunye umuntu longasuye lowalitfumela noma lowalifaka lelidokhumente nguye lolivumako.',
         'already_decided' => 'That approval has already been answered.',
         'closed' => 'This approval is no longer open.',
         'not_current_step' => 'An earlier step has not finished yet.',
