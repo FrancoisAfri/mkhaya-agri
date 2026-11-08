@@ -79,7 +79,7 @@ const statCards = computed(() => [
     value: props.stats.total_runs,
     icon:  'tabler-player-play',
     color: 'primary',
-    bg:    'rgba(115,103,240,0.12)',
+    bg:    'rgba(106, 13, 173,0.12)',
     formatted: false,
   },
   {

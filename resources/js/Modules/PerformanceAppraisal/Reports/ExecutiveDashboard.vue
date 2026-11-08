@@ -57,7 +57,7 @@ const trendOptions = computed<ApexOptions>(() => ({
   xaxis: { categories: props.cycleTrend.map(r => r.cycle), labels: { style: { fontSize: '11px' } } },
   yaxis: { min: 0, max: 100, title: { text: 'Avg Score %' } },
   tooltip: { shared: true, y: [{ formatter: (v: number) => `${v}%` }, { formatter: (v: number) => `${v} participants` }] },
-  theme: { mode: themeMode.value }, grid: { borderColor: 'rgba(128,128,128,0.15)' }, colors: ['#7367f0', '#00cfe8'],
+  theme: { mode: themeMode.value }, grid: { borderColor: 'rgba(128,128,128,0.15)' }, colors: ['#6A0DAD', '#00cfe8'],
 }))
 const trendSeries = computed(() => [
   { name: 'Avg Score', data: props.cycleTrend.map(r => r.avg_score) },
@@ -148,5 +148,5 @@ const topEmpSeries = computed(() => [{ name: 'Score', data: props.topEmployees.m
 </template>
 
 <style scoped lang="scss">
-.exec-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #0d47a1 0%, #7367f0 60%, #9c27b0 100%); }
+.exec-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #0d47a1 0%, #6A0DAD 60%, #9c27b0 100%); }
 </style>

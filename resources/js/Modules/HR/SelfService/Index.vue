@@ -98,13 +98,13 @@ const initials = computed(() => {
   <div>
 
     <!-- ── Hero / Profile card ──────────────────────────────────────────────── -->
-    <VCard flat class="mb-6" style="background:linear-gradient(135deg,#7367f0 0%,#9e95f5 100%);border-radius:12px;overflow:hidden;">
+    <VCard flat class="mb-6" style="background:linear-gradient(135deg,#6A0DAD 0%,#9e95f5 100%);border-radius:12px;overflow:hidden;">
       <VCardText class="pa-8">
         <VRow align="center">
           <VCol cols="12" md="auto">
             <VAvatar size="80" color="white" style="border:3px solid rgba(255,255,255,0.5)">
               <img v-if="person?.avatar" :src="person.avatar" alt="Avatar" style="width:100%;height:100%;object-fit:cover;" />
-              <span v-else class="text-h5 font-weight-bold" style="color:#7367f0">{{ initials }}</span>
+              <span v-else class="text-h5 font-weight-bold" style="color:#6A0DAD">{{ initials }}</span>
             </VAvatar>
           </VCol>
           <VCol cols="12" md="auto">
@@ -117,7 +117,7 @@ const initials = computed(() => {
           <VSpacer />
           <VCol cols="12" md="auto" class="d-flex flex-wrap gap-2 justify-end">
             <VBtn color="white" variant="elevated" prepend-icon="tabler-calendar-plus"
-              style="color:#7367f0;font-weight:600"
+              style="color:#6A0DAD;font-weight:600"
               :href="route('hr.leave.apply')">
               Apply for Leave
             </VBtn>
@@ -276,7 +276,7 @@ const initials = computed(() => {
                   <div class="d-flex align-center gap-3">
                     <div class="d-flex align-center justify-center rounded-lg flex-shrink-0"
                       style="width:40px;height:40px;background:#f3f1ff;">
-                      <VIcon icon="tabler-device-laptop" size="20" color="#7367f0" />
+                      <VIcon icon="tabler-device-laptop" size="20" color="#6A0DAD" />
                     </div>
                     <div class="min-width-0">
                       <p class="text-body-2 font-weight-medium mb-0 text-truncate">{{ asset.name }}</p>

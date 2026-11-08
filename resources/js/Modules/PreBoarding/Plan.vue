@@ -160,7 +160,7 @@ const { t } = useI18n()
                 :color="plan.status.value === 'completed' ? 'success' : 'primary'"
                 rounded
                 height="10"
-                bg-color="rgba(115,103,240,0.12)"
+                bg-color="rgba(106, 13, 173,0.12)"
               />
 
               <div class="d-flex flex-column gap-2 mt-4">

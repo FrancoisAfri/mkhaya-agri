@@ -577,7 +577,7 @@ const columnTotals = computed<Record<string, number>>(() => {
 .pa-ribbon {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #1a237e 0%, #7367f0 100%);
+  background: linear-gradient(135deg, #1a237e 0%, #6A0DAD 100%);
 }
 :deep(.v-data-table-header__content) { font-weight: 700; }
 :deep(.totals-row) {

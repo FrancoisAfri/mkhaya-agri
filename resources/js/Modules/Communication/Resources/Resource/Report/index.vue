@@ -49,8 +49,8 @@ const reportCards = [
     title:       t('resource_reports.cards.resource.title'),
     description: t('resource_reports.cards.resource.description'),
     icon:        'tabler-folders',
-    color:       '#7367F0',
-    gradient:    'linear-gradient(135deg,#7367F0,#5e52d4)',
+    color:       '#6A0DAD',
+    gradient:    'linear-gradient(135deg,#6A0DAD,#5e52d4)',
   },
   {
     key:         'branding',
@@ -281,7 +281,7 @@ function typeColor(val: unknown): string {
               {{ t('resource_reports.hero.subtitle') }}
             </p>
           </div>
-          <VChip color="white" label class="font-weight-bold" style="color:#7367F0">
+          <VChip color="white" label class="font-weight-bold" style="color:#6A0DAD">
             {{ t('resource_reports.hero.active_rows', { count: activeRows.length }) }}
           </VChip>
         </VCardText>
@@ -513,7 +513,7 @@ function typeColor(val: unknown): string {
 
 <style scoped lang="scss">
 .reports-ribbon {
-  background: linear-gradient(135deg, #7367F0 0%, #4e42c8 100%);
+  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
   border: 0;
   overflow: hidden;
   border-radius: 12px;

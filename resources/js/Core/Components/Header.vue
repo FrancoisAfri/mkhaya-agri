@@ -249,7 +249,7 @@ const strokeColor = computed(() => {
                     <span
                         class="brand font-bold tracking-wide hidden sm:block transition-all duration-300"
                         :class="isScrolled ? 'text-base' : 'text-lg'"
-                        style="color: #020d31"
+                        style="color: #16161F"
                         >{{ systemName }}</span
                     >
                 </Link>
@@ -276,7 +276,7 @@ const strokeColor = computed(() => {
                         <Link
                             href="/"
                             class="nav-link font-semibold flex-shrink-0"
-                            style="color: #020d31"
+                            style="color: #16161F"
                         >
                             <i class="fa-solid fa-house mr-1" /> Home
                         </Link>
@@ -646,7 +646,7 @@ const strokeColor = computed(() => {
                     <Link
                         href="/"
                         class="nav-link font-semibold block"
-                        style="color: #020d31"
+                        style="color: #16161F"
                     >
                         <i class="fa-solid fa-house mr-2" /> Home
                     </Link>
@@ -821,7 +821,7 @@ const strokeColor = computed(() => {
     align-items: center;
     justify-content: center;
     border-radius: 9999px;
-    color: #020d31;
+    color: #16161F;
     background: rgba(2, 13, 49, 0.06);
     transition: background 0.2s;
 }

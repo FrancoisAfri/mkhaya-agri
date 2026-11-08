@@ -1,0 +1,64 @@
+/* ───────────────────────────────────────────────────────────────────────────────────────────
+   Mkhaya design layer — applied on top of Vuetify/Sneat across every screen.
+   Calm canvas, white surfaces with hairline borders, generous radius, clear type hierarchy.
+   Hub: the accent follows the active theme colour, so a white-labelled company keeps its own.
+   ─────────────────────────────────────────────────────────────────────────────────────────── */
+:root {
+  --mk-purple: rgb(var(--v-theme-primary)); --mk-purple-soft: rgba(var(--v-theme-primary), .09); --mk-gold: #E4C746; --mk-teal: #00CED1;
+  --mk-ink: #16161F; --mk-text: #2B2B38; --mk-muted: #77778A; --mk-line: #EEEEF3; --mk-canvas: #F7F7FA;
+  --mk-radius: 18px;
+}
+body, .v-application { font-family: 'Nunito Sans', 'Inter', system-ui, sans-serif !important; color: var(--mk-text); background: var(--mk-canvas) !important; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6, .v-card-title, .v-toolbar-title { font-family: 'Montserrat', 'Nunito Sans', sans-serif !important; letter-spacing: -.3px !important; color: var(--mk-ink); }
+.text-h5 { font-weight: 700 !important; }
+.v-btn { letter-spacing: .1px !important; font-weight: 600 !important; text-transform: none !important; }
+.v-btn--size-large { font-size: 15px !important; }
+
+/* Surfaces */
+.v-card { border: 1px solid var(--mk-line) !important; box-shadow: 0 1px 2px rgba(17,17,26,.03) !important; }
+.v-card.v-card--variant-tonal, .v-card.bg-primary, .v-dialog > .v-overlay__content > .v-card { border: 0 !important; }
+.v-dialog > .v-overlay__content > .v-card { border-radius: 20px !important; box-shadow: 0 24px 64px rgba(17,17,26,.18) !important; }
+.v-card-title { font-size: 16px !important; font-weight: 700 !important; }
+.v-card-subtitle { color: var(--mk-muted) !important; opacity: 1 !important; }
+.v-container--fluid { max-width: 1680px; }
+
+/* Inputs */
+.v-field--variant-outlined .v-field__outline { --v-field-border-opacity: .14; }
+.v-field--focused .v-field__outline { --v-field-border-opacity: 1; }
+.v-field__input, .v-label { font-size: 14px !important; }
+
+/* Tables */
+.v-table { background: transparent !important; }
+.v-table > .v-table__wrapper > table > thead > tr > th { font-family: 'Nunito Sans', sans-serif; font-size: 12px !important; font-weight: 700 !important; color: var(--mk-muted) !important; text-transform: none !important; letter-spacing: .2px; background: #FBFBFD !important; border-bottom: 1px solid var(--mk-line) !important; }
+.v-table > .v-table__wrapper > table > tbody > tr > td { border-bottom: 1px solid #F4F4F7 !important; font-size: 13.5px; }
+.v-table.v-table--hover > .v-table__wrapper > table > tbody > tr:hover > td { background: #FAF8FD !important; }
+.v-data-table-footer { font-size: 12px; color: var(--mk-muted); }
+
+/* Chips & alerts */
+.v-chip { font-weight: 600; letter-spacing: .1px; }
+.v-alert { border: 0 !important; }
+
+/* Sidebar (vertical nav) */
+.layout-vertical-nav { background: #fff !important; border-right: 1px solid var(--mk-line) !important; box-shadow: none !important; }
+.layout-vertical-nav .nav-link a, .layout-vertical-nav .nav-group-label { border-radius: 12px !important; margin: 1px 10px !important; font-weight: 600; color: #45455A !important; }
+.layout-vertical-nav .nav-link a.router-link-active, .layout-vertical-nav .nav-link a.active { background: var(--mk-purple-soft) !important; color: var(--mk-purple) !important; box-shadow: none !important; }
+.layout-vertical-nav .nav-section-title { font-size: 11px !important; letter-spacing: 1px !important; color: #A0A0B0 !important; }
+.layout-navbar { background: rgba(247,247,250,.85) !important; backdrop-filter: blur(10px); box-shadow: none !important; border-bottom: 1px solid transparent; }
+
+/* Page headings used across modules */
+.v-container h3.text-h5 { font-size: 26px !important; margin-bottom: 2px !important; }
+.v-container .text-body-2.text-medium-emphasis { color: var(--mk-muted) !important; }
+
+/* Scrollbars */
+*::-webkit-scrollbar { width: 10px; height: 10px; } *::-webkit-scrollbar-thumb { background: #DCDCE6; border-radius: 10px; border: 3px solid transparent; background-clip: content-box; }
+
+/* The template drew a stray filter glyph before every select/autocomplete. */
+.v-input.v-autocomplete::before, .v-input.v-select::before, .v-input.v-text-field::before { display: none !important; content: none !important; }
+
+/* Footer: quiet, like the rest of the canvas. */
+.layout-footer footer, footer.bg-\[\#020d31\] { background: transparent !important; color: var(--mk-muted) !important; border-top: 1px solid var(--mk-line); }
+footer.bg-\[\#020d31\] span, footer.bg-\[\#020d31\] p { color: var(--mk-muted) !important; }
+footer.bg-\[\#020d31\] img { width: 24px !important; height: 24px !important; }
+
+/* Open nav groups: no grey slab, just the purple label. */
+.layout-vertical-nav .nav-group.open > .nav-group-label, .layout-vertical-nav .nav-group.active > .nav-group-label { background: transparent !important; color: var(--mk-purple) !important; }

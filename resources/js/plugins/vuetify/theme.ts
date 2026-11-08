@@ -1,5 +1,5 @@
-export const staticPrimaryColor = '#7367F0'
-export const staticPrimaryDarkenColor = '#6259EE'
+export const staticPrimaryColor = '#6A0DAD'
+export const staticPrimaryDarkenColor = '#5A0B93'
 
 /**
  * The `primary-darken-1` shade for an arbitrary primary colour.
@@ -11,7 +11,7 @@ export const staticPrimaryDarkenColor = '#6259EE'
  * your own colour, or simply reload after saving, and every hover state goes flat — the theme
  * looks applied but stops responding to the pointer.
  *
- * 7% is the ratio between the shipped pair (#7367F0 → #6259EE), so a custom colour behaves like
+ * 7% is the ratio between the shipped pair (#6A0DAD → #5A0B93), so a custom colour behaves like
  * the built-in ones rather than merely differently-wrong.
  */
 export function darkenHex(hex: string, amount = 0.07): string {

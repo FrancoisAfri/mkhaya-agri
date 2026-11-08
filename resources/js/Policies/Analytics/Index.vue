@@ -100,7 +100,7 @@ const attestationTrendOptions = computed<ApexOptions>(() => ({
   chart: { type: 'area', toolbar: { show: false }, zoom: { enabled: false } },
   stroke: { curve: 'smooth', width: [2, 2, 2] },
   fill: { type: 'gradient', gradient: { opacityFrom: 0.3, opacityTo: 0.05 } },
-  colors: ['#696cff', success, warning],
+  colors: ['#6A0DAD', success, warning],
   xaxis: { categories: props.attestationTrend.map(r => monthLabel(r.month)) },
   yaxis: { labels: { formatter: (v: number) => String(Math.round(v)) } },
   legend: { position: 'top' }, grid: { borderColor: '#f1f3f4' },

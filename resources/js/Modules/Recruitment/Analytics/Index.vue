@@ -121,7 +121,7 @@ const kpiCards = computed(() => [
 const appTrendOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'line', toolbar: { show: false }, zoom: { enabled: false } },
   stroke:  { curve: 'smooth', width: [3, 2] },
-  colors:  ['#696cff', success],
+  colors:  ['#6A0DAD', success],
   xaxis:   { categories: props.applicationTrend.map(r => monthLabel(r.month)) },
   yaxis:   { labels: { formatter: (v: number) => String(Math.round(v)) } },
   tooltip: { y: { formatter: (v: number) => t('recruitement_analytic.charts.app_trend.tooltip_apps', { count: v }) } },
@@ -138,7 +138,7 @@ const appTrendSeries = computed(() => [
 const funnelOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'bar', toolbar: { show: false } },
   plotOptions: { bar: { horizontal: true, borderRadius: 4, distributed: true } },
-  colors:  ['#696cff', info, warning, error, success],
+  colors:  ['#6A0DAD', info, warning, error, success],
   xaxis:   { categories: props.funnelConversion.map(r => r.stage.charAt(0).toUpperCase() + r.stage.slice(1)) },
   tooltip: { y: { formatter: (v: number) => t('recruitement_analytic.charts.funnel.tooltip', { count: v }) } },
   dataLabels: { enabled: true, formatter: (v: number) => v },
@@ -166,7 +166,7 @@ const monthlyHiresSeries = computed(() => [
 
 // ── Jobs by status donut ──────────────────────────────────────────────────────
 const jobStatusColors: Record<string, string> = {
-  open: '#696cff', filled: success, closed: secondary, draft: warning, cancelled: error,
+  open: '#6A0DAD', filled: success, closed: secondary, draft: warning, cancelled: error,
 }
 const jobsByStatusOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'donut' },
@@ -182,7 +182,7 @@ const jobsByStatusSeries = computed(() => props.jobsByStatus.map(r => r.count))
 const sourceOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'bar', toolbar: { show: false } },
   plotOptions: { bar: { borderRadius: 4, columnWidth: '55%' } },
-  colors:  ['#696cff', success],
+  colors:  ['#6A0DAD', success],
   xaxis:   { categories: props.sourceEffectiveness.map(r => r.source) },
   yaxis:   { labels: { formatter: (v: number) => String(Math.round(v)) } },
   tooltip: { y: [{ formatter: (v: number) => t('recruitement_analytic.charts.source_effectiveness.tooltip_apps', { count: v }) }, { formatter: (v: number) => t('recruitement_analytic.charts.source_effectiveness.tooltip_hires', { count: v }) }] },

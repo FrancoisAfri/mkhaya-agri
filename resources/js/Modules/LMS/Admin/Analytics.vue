@@ -9,7 +9,7 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 useTheme()
 
-const primary   = '#696cff'
+const primary   = '#6A0DAD'
 const success   = '#28c76f'
 const warning   = '#ff9f43'
 const error     = '#ea5455'

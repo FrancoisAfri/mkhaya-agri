@@ -131,7 +131,7 @@ const scoreDistSeries = computed(() => [
 const scoreTrendOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'line', toolbar: { show: false }, zoom: { enabled: false } },
   stroke:  { curve: 'smooth', width: 3 },
-  colors:  ['#696cff'],
+  colors:  ['#6A0DAD'],
   markers: { size: 5 },
   xaxis:   { categories: props.scoreTrend.map(r => monthLabel(r.month)) },
   yaxis:   { min: 0, max: 5, labels: { formatter: (v: number) => v.toFixed(1) } },
@@ -149,7 +149,7 @@ const scoreTrendSeries = computed(() => [
 const deptPerfOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'bar', toolbar: { show: false } },
   plotOptions: { bar: { horizontal: true, borderRadius: 4 } },
-  colors:  ['#696cff'],
+  colors:  ['#6A0DAD'],
   xaxis:   { categories: props.deptPerformance.map(r => r.department), min: 0, max: 5 },
   tooltip: { y: { formatter: (v: number) => `${v} avg score` } },
   dataLabels: { enabled: true, formatter: (v: number) => v.toFixed(2), offsetX: 25 },

@@ -34,7 +34,7 @@ const p = (hex: string, alpha = 1) =>
 
 const contentTypeConfig: Record<number, { icon: string; color: string; bg: string }> = {
   1: { icon: 'tabler-speakerphone',     color: '#FF9F43', bg: '#fff8ee' },
-  2: { icon: 'tabler-news', color: '#7367F0', bg: '#f3f1ff' },
+  2: { icon: 'tabler-news', color: '#6A0DAD', bg: '#f3f1ff' },
   3: { icon: 'tabler-calendar-star',        color: '#00CFE8', bg: '#e8fafd' },
   4: { icon: 'tabler-shield-lock',  color: '#EA5455', bg: '#ffeaea' },
 }
@@ -64,7 +64,7 @@ const kpiCards = computed(() => [
     value: store.totalContent,
     sub:   t('communication_dashboard.kpi.total_active', { count: store.totalActive }),
     icon:  'tabler-files',
-    color: '#7367F0',
+    color: '#6A0DAD',
     bg:    '#f3f1ff',
   },
   {
@@ -99,7 +99,7 @@ const trendOptions = computed(() => ({
   chart:   { type: 'area', toolbar: { show: false }, sparkline: { enabled: false } },
   stroke:  { curve: 'smooth', width: 2 },
   fill:    { type: 'gradient', gradient: { shadeIntensity: 1, opacityFrom: 0.3, opacityTo: 0.05 } },
-  colors:  ['#7367F0', '#00CFE8', '#FF9F43', '#EA5455', '#28C76F'],
+  colors:  ['#6A0DAD', '#00CFE8', '#FF9F43', '#EA5455', '#28C76F'],
   legend:  { position: 'top', horizontalAlign: 'left' },
   xaxis:   { categories: props.monthlyTrends.map(t => t.month) },
   tooltip: { y: { formatter: (v: number) => `${v} ${t('communication_dashboard.items')}` } },
@@ -117,7 +117,7 @@ const trendSeries = computed(() => [
 
 const donutOptions = computed(() => ({
   chart:   { type: 'donut', toolbar: { show: false } },
-  colors:  ['#FF9F43', '#7367F0', '#00CFE8', '#EA5455'],
+  colors:  ['#FF9F43', '#6A0DAD', '#00CFE8', '#EA5455'],
   labels:  props.contentStats.map(c => c.label),
   legend:  { position: 'bottom' },
   plotOptions: {
@@ -436,7 +436,7 @@ const spotDonutSeries = computed(() =>
 @use "@core/scss/template/libs/apex-chart.scss";
 
 .hero-bg {
-  background: linear-gradient(135deg, #7367F0 0%, #4e42c8 100%);
+  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
   border-radius: 12px;
   position: relative;
   overflow: hidden;

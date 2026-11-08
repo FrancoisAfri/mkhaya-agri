@@ -14,7 +14,7 @@ const success = '#28c76f'
 const warning = '#ff9f43'
 const error   = '#ea5455'
 const info     = '#00cfe8'
-const primary  = '#7367f0'
+const primary  = '#6A0DAD'
 const secondary = '#82868b'
 
 // ── Types ──────────────────────────────────────────────────────────────────────

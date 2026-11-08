@@ -319,7 +319,7 @@ const { t } = useI18n()
                 v-for="plan in person.pre_boarding_plans"
                 :key="plan.id"
                 class="d-flex align-center justify-space-between pa-2 rounded cursor-pointer"
-                :style="activePlan?.id === plan.id ? 'background: rgba(115,103,240,0.1);' : ''"
+                :style="activePlan?.id === plan.id ? 'background: rgba(106, 13, 173,0.1);' : ''"
                 @click="activePlan = plan"
               >
                 <span class="text-body-2 font-weight-medium">Plan #{{ plan.id }}</span>

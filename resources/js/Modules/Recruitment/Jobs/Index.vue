@@ -22,7 +22,7 @@ watch(status, applyFilters)
 
 const draftCount = computed(() => Math.max(0, props.stats.total - props.stats.active - props.stats.filled))
 const statCards = computed(() => [
-  { label: t('recruitment_jobs.stat_total'), value: props.stats.total, icon: 'tabler-briefcase', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('recruitment_jobs.stat_total'), value: props.stats.total, icon: 'tabler-briefcase', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('recruitment_jobs.stat_active'), value: props.stats.active, icon: 'tabler-briefcase-check', color: 'success', bg: 'rgba(40,199,111,0.12)' },
   { label: t('recruitment_jobs.stat_filled'), value: props.stats.filled, icon: 'tabler-user-check', color: 'info', bg: 'rgba(0,207,232,0.12)' },
   { label: t('recruitment_jobs.stat_draft'), value: draftCount.value, icon: 'tabler-file-pencil', color: 'warning', bg: 'rgba(255,159,67,0.12)' },

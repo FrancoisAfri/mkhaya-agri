@@ -175,5 +175,5 @@ const cadenceColor = (c: string) => ({ daily: 'info', weekly: 'warning', monthly
 </template>
 
 <style scoped lang="scss">
-.pa-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #1a237e 0%, #7367f0 100%); }
+.pa-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #1a237e 0%, #6A0DAD 100%); }
 </style>

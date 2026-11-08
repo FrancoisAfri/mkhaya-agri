@@ -79,7 +79,7 @@ const commsSeries = computed(() => [
 const commsOptions = computed<ApexOptions>(() => ({
   chart: { type: 'line', toolbar: { show: false } }, stroke: { width: 3, curve: 'smooth' },
   xaxis: { categories: props.callsEmailsTrend.map(d => d.month) }, dataLabels: { enabled: false },
-  legend: { position: 'top' }, colors: ['#16B1FF', '#7367F0'],
+  legend: { position: 'top' }, colors: ['#16B1FF', '#6A0DAD'],
 }))
 </script>
 

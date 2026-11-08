@@ -24,7 +24,7 @@ function reasonLabel(val: string) { const map: Record<string, string> = { better
 function monthLabel(m: string) { const [year, month] = m.split('-'); const d = new Date(Number(year), Number(month) - 1); return d.toLocaleDateString('en-ZA', { month: 'short', year: '2-digit' }) }
 
 const statCards = computed(() => [
-  { label: t('offboarding.total_plans'), value: props.kpis.total_plans, icon: 'tabler-user-share', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('offboarding.total_plans'), value: props.kpis.total_plans, icon: 'tabler-user-share', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('offboarding.active'), value: props.kpis.active_plans, icon: 'tabler-player-play', color: 'info', bg: 'rgba(0,207,232,0.12)' },
   { label: t('offboarding.completed'), value: props.kpis.completed_plans, icon: 'tabler-circle-check', color: 'success', bg: 'rgba(40,199,111,0.12)' },
   { label: t('offboarding.reports_kpi_interviews'), value: props.kpis.interview_count, icon: 'tabler-message-report', color: 'warning', bg: 'rgba(255,159,67,0.12)' },

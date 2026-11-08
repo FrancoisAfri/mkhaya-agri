@@ -12,7 +12,7 @@
   .meta span { font-size: 10px; color: #666; }
   .meta strong { color: #333; }
   table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
-  thead tr { background: #7367f0; color: #fff; }
+  thead tr { background: #6A0DAD; color: #fff; }
   thead th { padding: 7px 8px; text-align: left; font-size: 10px; font-weight: 700; }
   tbody tr:nth-child(even) { background: #f5f5ff; }
   tbody td { padding: 6px 8px; font-size: 10px; border-bottom: 1px solid #e0e0e0; }

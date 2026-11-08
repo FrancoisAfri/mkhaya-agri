@@ -14,7 +14,7 @@ const colorVariables = (themeColors: ThemeInstance['themes']['value']['colors'])
 export const getScatterChartConfig = (themeColors: ThemeInstance['themes']['value']['colors']) => {
   const scatterColors = {
     series1: '#ff9f43',
-    series2: '#7367f0',
+    series2: '#6A0DAD',
     series3: '#28c76f',
   }
 
@@ -231,7 +231,7 @@ export const getRadialBarChartConfig = (themeColors: ThemeInstance['themes']['va
     series1: '#fdd835',
     series2: '#32baff',
     series3: '#00d4bd',
-    series4: '#7367f0',
+    series4: '#6A0DAD',
     series5: '#FFA1A1',
   }
 
@@ -599,7 +599,7 @@ export const getHeatMapChartConfig = (themeColors: ThemeInstance['themes']['valu
             { to: 30, from: 21, name: '20-30', color: '#9d95f5' },
             { to: 40, from: 31, name: '30-40', color: '#8f85f3' },
             { to: 50, from: 41, name: '40-50', color: '#8176f2' },
-            { to: 60, from: 51, name: '50-60', color: '#7367f0' },
+            { to: 60, from: 51, name: '50-60', color: '#6A0DAD' },
           ],
         },
       },

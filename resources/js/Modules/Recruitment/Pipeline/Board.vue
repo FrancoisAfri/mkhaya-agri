@@ -42,7 +42,7 @@ const columnColor: Record<string, string> = {
 }
 
 const columnBg: Record<string, string> = {
-  applied:    'rgba(115,103,240,0.06)',
+  applied:    'rgba(106, 13, 173,0.06)',
   screening:  'rgba(0,0,0,0.03)',
   assessment: 'rgba(134,96,231,0.06)',
   interview:  'rgba(255,159,67,0.06)',
@@ -194,10 +194,10 @@ function onDragEnd() {
           minWidth: '268px',
           maxWidth: '280px',
           background: dragOverStatus === col.status
-            ? 'rgba(115,103,240,0.12)'
+            ? 'rgba(106, 13, 173,0.12)'
             : (columnBg[col.status] ?? 'rgba(0,0,0,0.03)'),
           border: dragOverStatus === col.status
-            ? '2px dashed rgba(115,103,240,0.5)'
+            ? '2px dashed rgba(106, 13, 173,0.5)'
             : '1px solid rgba(0,0,0,0.08)',
           height: '100%',
           transition: 'background 0.15s, border 0.15s',

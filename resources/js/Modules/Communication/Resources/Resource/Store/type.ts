@@ -17,7 +17,7 @@ export const RESOURCE_TYPE_CONFIG: Record<number, {
   bg:       string
   gradient: string
 }> = {
-  1: { label: 'Forms',               icon: 'mdi-form-select',           color: '#7367F0', bg: '#f3f1ff', gradient: 'linear-gradient(135deg,#7367F0,#5e52d4)' },
+  1: { label: 'Forms',               icon: 'mdi-form-select',           color: '#6A0DAD', bg: '#f3f1ff', gradient: 'linear-gradient(135deg,#6A0DAD,#5e52d4)' },
   2: { label: 'Legal Documents',     icon: 'mdi-scale-balance',         color: '#EA5455', bg: '#ffeaea', gradient: 'linear-gradient(135deg,#EA5455,#c73c3c)' },
   3: { label: 'Employee Handbook',   icon: 'mdi-book-open-page-variant', color: '#FF9F43', bg: '#fff8ee', gradient: 'linear-gradient(135deg,#FF9F43,#e0852a)' },
   4: { label: 'Health & Safety',     icon: 'mdi-heart-pulse',           color: '#28C76F', bg: '#edfaf1', gradient: 'linear-gradient(135deg,#28C76F,#1da058)' },

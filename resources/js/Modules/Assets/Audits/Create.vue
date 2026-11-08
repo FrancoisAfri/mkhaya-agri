@@ -81,7 +81,7 @@ function submit() {
       </VCol>
 
       <VCol cols="12" md="5">
-        <VCard elevation="0" border color="rgba(115,103,240,0.06)">
+        <VCard elevation="0" border color="rgba(106, 13, 173,0.06)">
           <VCardText class="pa-6">
             <VIcon icon="tabler-info-circle" color="primary" size="28" class="mb-3" />
             <p class="text-body-1 font-weight-medium mb-2">How it works</p>

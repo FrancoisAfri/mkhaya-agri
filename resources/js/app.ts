@@ -11,6 +11,7 @@ import { createPinia } from 'pinia'
 import { i18n, SUPPORTED_LOCALES, loadLocale, storedLocale } from './i18n'
 import '@styles/tailwind.css'
 import '@styles/styles.scss'
+import '@styles/mkhaya.css'
 
 
 

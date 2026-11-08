@@ -814,7 +814,7 @@ function riskColor(score: unknown) {
 .leave-ribbon {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #4a148c 0%, #7367f0 100%);
+  background: linear-gradient(135deg, #4a148c 0%, #6A0DAD 100%);
 }
 
 :deep(.v-data-table-header__content) {

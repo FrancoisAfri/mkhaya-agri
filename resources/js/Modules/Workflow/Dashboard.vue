@@ -23,7 +23,7 @@ const hrs = (v: number | null) => (v === null || v === undefined || Number.isNaN
 const trendChart = computed(() => ({
   series: [{ name: 'Started', data: props.trend.started }, { name: 'Finished', data: props.trend.completed }],
   options: { chart: { toolbar: { show: false }, fontFamily: 'inherit' }, plotOptions: { bar: { columnWidth: '45%', borderRadius: 3 } }, dataLabels: { enabled: false },
-    xaxis: { categories: props.trend.weeks.map(w => new Date(w).toLocaleDateString('en-ZA', { day: 'numeric', month: 'short' })) }, legend: { position: 'top' }, colors: ['#7367f0', '#28c76f'],
+    xaxis: { categories: props.trend.weeks.map(w => new Date(w).toLocaleDateString('en-ZA', { day: 'numeric', month: 'short' })) }, legend: { position: 'top' }, colors: ['#6A0DAD', '#28c76f'],
     grid: { strokeDashArray: 4 }, yaxis: { forceNiceScale: true, labels: { formatter: (v: number) => String(Math.round(v)) } } },
 }))
 const timeChart = computed(() => ({

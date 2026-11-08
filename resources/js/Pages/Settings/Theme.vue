@@ -26,7 +26,7 @@ const page = usePage()
 
 // ── Preset colors ───────────────────────────────────────────────────────────
 const presetColors: { main: string; darken: string; label: string }[] = [
-  { main: '#7367F0', darken: '#6259EE', label: 'Sneat Purple' },
+  { main: '#6A0DAD', darken: '#5A0B93', label: 'Sneat Purple' },
   { main: '#0D9394', darken: '#0C8485', label: 'Teal' },
   { main: '#FFB400', darken: '#E6A200', label: 'Amber' },
   { main: '#FF4C51', darken: '#E64449', label: 'Rose' },

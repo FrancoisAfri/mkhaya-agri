@@ -96,7 +96,7 @@ const kpiCards = [
       return Math.round(avg)
     }),
     icon: 'tabler-trending-up',
-    color: '#7367F0'
+    color: '#6A0DAD'
   }
 ]
 
@@ -192,7 +192,7 @@ const frictionPoliciesChartSeries = computed(() => [
   <div>
     <!-- Hero Section -->
     <VCard class="mb-6" flat>
-      <div class="hero-background pa-8 bg-gradient-to-r" style="background: linear-gradient(135deg, #7367F0 0%, #6F5FE8 100%); border-radius: 12px; color: white;">
+      <div class="hero-background pa-8 bg-gradient-to-r" style="background: linear-gradient(135deg, #6A0DAD 0%, #6F5FE8 100%); border-radius: 12px; color: white;">
         <h2 class="text-h3 mb-2 font-weight-bold text-white">Policy Dashboard</h2>
         <p class="text-white/80 mb-0">Live policy intelligence, compliance tracking, and behavioral insights</p>
       </div>

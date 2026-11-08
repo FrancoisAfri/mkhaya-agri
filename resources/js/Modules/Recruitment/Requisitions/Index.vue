@@ -30,7 +30,7 @@ const statusOptions = computed(() => [
 ])
 
 const statCards = computed(() => [
-  { label: t('recruitment_requisition_pages.stat_total'), value: props.stats.total, icon: 'tabler-files', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('recruitment_requisition_pages.stat_total'), value: props.stats.total, icon: 'tabler-files', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('recruitment_requisition_pages.stat_draft'), value: props.stats.draft, icon: 'tabler-file-pencil', color: 'default', bg: 'rgba(168,170,174,0.12)' },
   { label: t('recruitment_requisition_pages.stat_pending'), value: props.stats.pending, icon: 'tabler-clock-exclamation', color: 'warning', bg: 'rgba(255,159,67,0.12)' },
   { label: t('recruitment_requisition_pages.stat_approved'), value: props.stats.approved, icon: 'tabler-circle-check', color: 'success', bg: 'rgba(40,199,111,0.12)' },

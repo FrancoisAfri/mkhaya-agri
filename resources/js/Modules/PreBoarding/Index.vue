@@ -67,7 +67,7 @@ const statCards = computed(() => [
     value: props.stats.total,
     icon:  'tabler-users',
     color: 'primary',
-    bg:    'rgba(115,103,240,0.12)',
+    bg:    'rgba(106, 13, 173,0.12)',
   },
   {
     label: 'Pre-Boarding',

@@ -118,7 +118,7 @@ const valueTrendOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'area', toolbar: { show: false }, zoom: { enabled: false } },
   stroke:  { curve: 'smooth', width: 2 },
   fill:    { type: 'gradient', gradient: { opacityFrom: 0.4, opacityTo: 0.05 } },
-  colors:  ['#696cff'],
+  colors:  ['#6A0DAD'],
   xaxis:   { categories: props.valueTrend.map(r => monthLabel(r.month)) },
   yaxis:   { labels: { formatter: (v: number) => fmtR(v) } },
   tooltip: { y: { formatter: (v: number) => fmtR(v) } },
@@ -132,7 +132,7 @@ const valueTrendSeries = computed(() => [
 const byCategoryOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'bar', toolbar: { show: false } },
   plotOptions: { bar: { horizontal: true, borderRadius: 4 } },
-  colors:  ['#696cff'],
+  colors:  ['#6A0DAD'],
   xaxis:   { categories: props.byCategory.map(r => r.category) },
   tooltip: { y: { formatter: (v: number) => `${v} assets` } },
   dataLabels: { enabled: false },
@@ -144,7 +144,7 @@ const byCategorySeries = computed(() => [
 
 // ── By status donut ───────────────────────────────────────────────────────────
 const statusColors: Record<string, string> = {
-  available: success, assigned: '#696cff', maintenance: warning,
+  available: success, assigned: '#6A0DAD', maintenance: warning,
   disposed: secondary, lost: error, stolen: error,
 }
 const byStatusOptions = computed<ApexOptions>(() => ({
@@ -176,7 +176,7 @@ const maintTrendSeries = computed(() => [
 const maintByTypeOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'pie' },
   labels:  props.maintenanceByType.map(r => r.type),
-  colors:  ['#696cff', warning, success, info, error],
+  colors:  ['#6A0DAD', warning, success, info, error],
   legend:  { position: 'bottom' },
   dataLabels: { enabled: true },
 }))
@@ -186,7 +186,7 @@ const maintByTypeSeries = computed(() => props.maintenanceByType.map(r => r.coun
 const deprOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'bar', toolbar: { show: false } },
   plotOptions: { bar: { borderRadius: 4, columnWidth: '60%' } },
-  colors:  ['#696cff', success],
+  colors:  ['#6A0DAD', success],
   xaxis:   { categories: props.depreciationByCategory.map(r => r.category) },
   yaxis:   { labels: { formatter: (v: number) => fmtR(v) } },
   tooltip: { y: { formatter: (v: number) => fmtR(v) } },

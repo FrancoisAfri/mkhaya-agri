@@ -48,7 +48,7 @@ function clearFilters() {
 }
 
 const statCards = computed(() => [
-  { label: t('assets_index.stats.total_assets'), value: props.stats.total, icon: 'tabler-package', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('assets_index.stats.total_assets'), value: props.stats.total, icon: 'tabler-package', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('assets_index.stats.active_in_use'), value: props.stats.active, icon: 'tabler-circle-check', color: 'success', bg: 'rgba(40,199,111,0.12)' },
   { label: t('assets_index.stats.unallocated'), value: props.stats.unallocated, icon: 'tabler-inbox', color: 'warning', bg: 'rgba(255,159,67,0.12)' },
   { label: t('assets_index.stats.in_maintenance'), value: props.stats.maintenance, icon: 'tabler-tool', color: 'info', bg: 'rgba(0,207,232,0.12)' },

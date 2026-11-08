@@ -76,7 +76,7 @@ const kpiCards = computed(() => [
 ])
 
 const attendTrendOptions = computed<ApexOptions>(() => ({
-  chart: { type: 'line', toolbar: { show: false }, zoom: { enabled: false } }, stroke: { curve: 'smooth', width: [3, 2, 2] }, colors: ['#696cff', error, warning],
+  chart: { type: 'line', toolbar: { show: false }, zoom: { enabled: false } }, stroke: { curve: 'smooth', width: [3, 2, 2] }, colors: ['#6A0DAD', error, warning],
   xaxis: { categories: props.attendanceTrend.map(r => monthLabel(r.month)) }, yaxis: { labels: { formatter: (v: number) => String(Math.round(v)) } },
   tooltip: { y: { formatter: (v: number) => `${v} records` } }, legend: { position: 'top' }, markers: { size: 4 }, grid: { borderColor: '#f1f3f4' },
 }))
@@ -102,7 +102,7 @@ const otTrendOptions = computed<ApexOptions>(() => ({
 const otTrendSeries = computed(() => [{ name: 'Overtime Hours', data: props.overtimeTrend.map(r => r.total_ot) }])
 
 const byStatusOptions = computed<ApexOptions>(() => ({
-  chart: { type: 'donut' }, labels: props.byStatus.map(r => r.status), colors: ['#696cff', success, warning, info, error],
+  chart: { type: 'donut' }, labels: props.byStatus.map(r => r.status), colors: ['#6A0DAD', success, warning, info, error],
   legend: { position: 'bottom' }, plotOptions: { pie: { donut: { size: '65%', labels: { show: true, total: { show: true, label: 'Total' } } } } }, dataLabels: { enabled: false },
 }))
 const byStatusSeries = computed(() => props.byStatus.map(r => r.count))

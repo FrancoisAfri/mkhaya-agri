@@ -13,7 +13,7 @@ const success = '#28c76f'
 const warning = '#ff9f43'
 const error   = '#ea5455'
 const info     = '#00cfe8'
-const primary  = '#696cff'
+const primary  = '#6A0DAD'
 const secondary = '#82868b'
 
 interface Kpis {

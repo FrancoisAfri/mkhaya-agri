@@ -352,7 +352,7 @@ onUnmounted(() => {
 
 // ── --v-global-theme-primary CSS var ───────────────────────────────────────
 const globalThemePrimary = computed(() => {
-  const hex = vuetifyTheme.current.value.colors.primary ?? '#7367F0'
+  const hex = vuetifyTheme.current.value.colors.primary ?? '#6A0DAD'
   const r = parseInt(hex.slice(1, 3), 16)
   const g = parseInt(hex.slice(3, 5), 16)
   const b = parseInt(hex.slice(5, 7), 16)

@@ -48,7 +48,7 @@ const options = computed(() => {
     yaxis: { title: { text: data.value?.unit ?? '' }, decimalsInFloat: 1 },
     tooltip: { x: { format: 'dd MMM HH:mm' } },
     annotations: { yaxis: lines },
-    colors: [data.value?.stale ? '#a8aaae' : '#7367f0'],
+    colors: [data.value?.stale ? '#a8aaae' : '#6A0DAD'],
   }
 })
 </script>

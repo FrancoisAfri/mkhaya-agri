@@ -18,7 +18,7 @@ watch(search, () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyF
 function clearFilters() { search.value = ''; visibility.value = ''; status.value = ''; router.get(route('recruitment.vacancies.index'), {}, { replace: true }) }
 
 const statCards = computed(() => [
-  { label: t('recruitment_vacancies.stat_total'), value: props.stats.total, icon: 'tabler-briefcase', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('recruitment_vacancies.stat_total'), value: props.stats.total, icon: 'tabler-briefcase', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('recruitment_vacancies.stat_draft'), value: props.stats.draft, icon: 'tabler-file-pencil', color: 'default', bg: 'rgba(168,170,174,0.12)' },
   { label: t('recruitment_vacancies.stat_internal'), value: props.stats.internal, icon: 'tabler-users', color: 'info', bg: 'rgba(23,162,184,0.12)' },
   { label: t('recruitment_vacancies.stat_external'), value: props.stats.external, icon: 'tabler-world', color: 'success', bg: 'rgba(40,199,111,0.12)' },

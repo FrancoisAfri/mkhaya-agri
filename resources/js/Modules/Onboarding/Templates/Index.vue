@@ -25,7 +25,7 @@ function formatDate(val: string | null) { if (!val) return '—'; return new Dat
 function employmentTypeLabel(val: string | null) { if (!val) return '—'; const map: Record<string, string> = { permanent: t('onboarding_templates.employment_permanent'), contract: t('onboarding_templates.employment_contract'), part_time: t('onboarding_templates.employment_part_time'), fixed_term: t('onboarding_templates.employment_fixed_term') }; return map[val] ?? val }
 
 const statCards = computed(() => [
-  { label: t('onboarding_templates.total_templates'), value: props.stats.total, icon: 'mdi-file-document-multiple-outline', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('onboarding_templates.total_templates'), value: props.stats.total, icon: 'mdi-file-document-multiple-outline', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('onboarding_templates.active'), value: props.stats.active, icon: 'mdi-check-circle-outline', color: 'success', bg: 'rgba(40,199,111,0.12)' },
   { label: t('onboarding_templates.inactive'), value: props.stats.inactive, icon: 'mdi-pause-circle-outline', color: 'warning', bg: 'rgba(255,159,67,0.12)' },
 ])

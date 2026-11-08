@@ -33,7 +33,7 @@ watch(status, applyFilters)
 function clearFilters() { search.value = ''; status.value = ''; router.get(route('offboarding.index'), {}, { replace: true }) }
 
 const statCards = computed(() => [
-  { label: t('offboarding.total_plans'), value: props.stats.total, icon: 'tabler-user-share', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('offboarding.total_plans'), value: props.stats.total, icon: 'tabler-user-share', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('offboarding.active'), value: props.stats.active, icon: 'tabler-player-play', color: 'info', bg: 'rgba(0,207,232,0.12)' },
   { label: t('offboarding.completed'), value: props.stats.completed, icon: 'tabler-circle-check', color: 'success', bg: 'rgba(40,199,111,0.12)' },
   { label: t('offboarding.pending'), value: props.stats.pending, icon: 'tabler-clock', color: 'warning', bg: 'rgba(255,159,67,0.12)' },

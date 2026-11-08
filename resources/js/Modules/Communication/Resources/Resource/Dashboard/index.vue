@@ -25,7 +25,7 @@ const kpiCards = computed(() => [
     value: props.totalResources,
     sub:   t('resource_dashboard.kpi.total_active', { count: props.totalActive }),
     icon:  'tabler-folders',
-    color: '#7367F0',
+    color: '#6A0DAD',
     bg:    '#f3f1ff',
   },
   {
@@ -60,7 +60,7 @@ const trendOptions = computed(() => ({
   chart:   { type: 'area', toolbar: { show: false } },
   stroke:  { curve: 'smooth', width: 2 },
   fill:    { type: 'gradient', gradient: { shadeIntensity: 1, opacityFrom: 0.25, opacityTo: 0.03 } },
-  colors:  ['#7367F0', '#28C76F', '#EA5455'],
+  colors:  ['#6A0DAD', '#28C76F', '#EA5455'],
   legend:  { position: 'top', horizontalAlign: 'left' },
   xaxis:   { categories: props.monthlyTrends.map(t => t.month) },
   tooltip: { y: { formatter: (v: number) => `${v} ${t('resource_dashboard.trend.resources')}` } },
@@ -260,7 +260,7 @@ const barSeries = computed(() => [
 @use "@core/scss/template/libs/apex-chart.scss";
 
 .res-hero {
-  background: linear-gradient(135deg, #7367F0 0%, #4e42c8 100%);
+  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
   border-radius: 12px;
   position: relative;
   overflow: hidden;

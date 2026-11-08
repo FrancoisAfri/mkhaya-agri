@@ -199,7 +199,7 @@ function submitBulk() {
     </VCard>
 
     <!-- Bulk action toolbar -->
-    <div v-if="selected.length" class="d-flex align-center gap-3 mb-3 pa-3 rounded-lg" style="background: rgba(115,103,240,0.08); border: 1px solid rgba(115,103,240,0.3);">
+    <div v-if="selected.length" class="d-flex align-center gap-3 mb-3 pa-3 rounded-lg" style="background: rgba(106, 13, 173,0.08); border: 1px solid rgba(106, 13, 173,0.3);">
       <span class="text-body-2 font-weight-semibold text-primary">{{ selected.length }} selected</span>
       <VBtn size="small" color="primary" variant="tonal" prepend-icon="tabler-transfer" @click="bulkForm.action = 'move'; showBulkDialog = true">
         Move Stage

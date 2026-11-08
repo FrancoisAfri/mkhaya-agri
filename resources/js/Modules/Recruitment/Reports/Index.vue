@@ -251,7 +251,7 @@ function conversionColor(rate: number): string {
                 width: '28px',
                 height: `${barHeight(item.count)}px`,
                 minHeight: item.count > 0 ? '4px' : '0px',
-                background: 'rgba(115,103,240,1)',
+                background: 'rgba(106, 13, 173,1)',
                 borderRadius: '4px 4px 0 0',
               }"
             />

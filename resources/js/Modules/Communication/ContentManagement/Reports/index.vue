@@ -49,7 +49,7 @@ const reportCards = [
     title:       t('communication_reports.cards.content.title'),
     description: t('communication_reports.cards.content.description'),
     icon:        'tabler-files',
-    color:       '#7367F0',
+    color:       '#6A0DAD',
   },
   {
     key:         'spotlight',
@@ -473,7 +473,7 @@ function typeColor(val: unknown): string {
 
 <style scoped lang="scss">
 .reports-ribbon {
-  background: linear-gradient(135deg, #7367F0 0%, #4e42c8 100%);
+  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
   border: 0;
   overflow: hidden;
   border-radius: 12px;

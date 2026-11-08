@@ -142,7 +142,7 @@ const kpiCards = computed(() => [
 const bookingTrendOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'line', toolbar: { show: false }, zoom: { enabled: false } },
   stroke:  { curve: 'smooth', width: [3, 3, 2] },
-  colors:  ['#696cff', success, error],
+  colors:  ['#6A0DAD', success, error],
   xaxis:   { categories: props.bookingTrend.map(r => monthLabel(r.month)) },
   yaxis:   { labels: { formatter: (v: number) => String(Math.round(v)) } },
   tooltip: { y: { formatter: (v: number) => t('fleet_analytics_index.charts.bookings_tooltip', { count: v }) } },
@@ -159,7 +159,7 @@ const bookingTrendSeries = computed(() => [
 // ── Vehicle status donut ──────────────────────────────────────────────────────
 const statusColors: Record<string, string> = {
   available:   success,
-  booked:      '#696cff',
+  booked:      '#6A0DAD',
   maintenance: warning,
   offroad:     error,
   disposed:    secondary,
@@ -210,7 +210,7 @@ const fuelEfficiencySeries = computed(() => [
 const maintCatOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'bar', toolbar: { show: false } },
   plotOptions: { bar: { borderRadius: 4, columnWidth: '55%' } },
-  colors:  ['#696cff'],
+  colors:  ['#6A0DAD'],
   xaxis:   { categories: props.maintenanceByCategory.map(r => r.category) },
   yaxis:   { labels: { formatter: (v: number) => fmtR(v) } },
   tooltip: { y: { formatter: (v: number) => fmtR(v) } },
@@ -223,7 +223,7 @@ const maintCatSeries = computed(() => [
 
 // ── Maintenance status donut ──────────────────────────────────────────────────
 const maintStatusColors: Record<string, string> = {
-  scheduled:   '#696cff',
+  scheduled:   '#6A0DAD',
   in_progress: warning,
   completed:   success,
   cancelled:   secondary,
@@ -274,7 +274,7 @@ const fineAuthSeries = computed(() => [
 const costBreakdownOptions = computed<ApexOptions>(() => ({
   chart:   { type: 'donut' },
   labels:  [t('fleet_analytics_index.charts.fuel'), t('fleet_analytics_index.charts.maintenance'), t('fleet_analytics_index.charts.fines'), t('fleet_analytics_index.charts.tollgates')],
-  colors:  [warning, '#696cff', error, info],
+  colors:  [warning, '#6A0DAD', error, info],
   legend:  { position: 'bottom' },
   dataLabels: { enabled: false },
   plotOptions: {

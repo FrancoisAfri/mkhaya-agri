@@ -61,7 +61,7 @@ const vfNodes = computed(() => graph.value.nodes.map(n => ({
 const vfEdges = computed(() => graph.value.edges.map(e => ({
   id: e.key, source: e.from, target: e.to, type: 'smoothstep', markerEnd: MarkerType.ArrowClosed, selectable: true,
   label: e.label || (e.outcome ? label(e.outcome) : e.is_default ? 'otherwise' : e.condition ? describe(e.condition, props.catalog.operators) : undefined),
-  style: { stroke: selectedEdge.value === e.key ? '#7367f0' : problems.value.some(p => p.edge === e.key) ? '#ea5455' : e.outcome === 'rejected' ? '#ea5455' : '#90a4ae', strokeWidth: selectedEdge.value === e.key ? 2.5 : 1.5 },
+  style: { stroke: selectedEdge.value === e.key ? '#6A0DAD' : problems.value.some(p => p.edge === e.key) ? '#ea5455' : e.outcome === 'rejected' ? '#ea5455' : '#90a4ae', strokeWidth: selectedEdge.value === e.key ? 2.5 : 1.5 },
   labelStyle: { fontSize: '11px' }, labelBgStyle: { fill: 'rgb(var(--v-theme-surface))' },
 })))
 
@@ -289,7 +289,7 @@ const outcomeItems = computed(() => (props.catalog.nodes[edgeFrom.value?.type ??
           </template>
           <Background :gap="20" />
           <Controls />
-          <MiniMap pannable zoomable :node-color="(n: any) => (problemNodes.has(n.id) ? '#ea5455' : '#7367f0')" />
+          <MiniMap pannable zoomable :node-color="(n: any) => (problemNodes.has(n.id) ? '#ea5455' : '#6A0DAD')" />
         </VueFlow>
       </div>
 

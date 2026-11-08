@@ -9,7 +9,7 @@ export const { themeConfig, layoutConfig } = defineThemeConfig({
     title: 'mkhaya-hub',
     logo: h('img', { src: '/images/logo_default.png', style: 'height: 32px; width: 32px; object-fit: contain;' }),
     contentWidth: ContentWidth.Fluid,
-    contentLayoutNav: AppContentLayoutNav.Horizontal,
+    contentLayoutNav: AppContentLayoutNav.Vertical,
     overlayNavFromBreakpoint: breakpointsVuetify.md,
     i18n: {
       enable: false,

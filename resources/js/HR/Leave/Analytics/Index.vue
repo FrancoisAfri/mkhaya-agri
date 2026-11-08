@@ -82,7 +82,7 @@ const kpiCards = computed(() => [
 
 const trendOptions = computed<ApexOptions>(() => ({
   chart: { type: 'line', toolbar: { show: false }, zoom: { enabled: false } },
-  stroke: { curve: 'smooth', width: [3, 3, 2] }, colors: ['#696cff', success, warning],
+  stroke: { curve: 'smooth', width: [3, 3, 2] }, colors: ['#6A0DAD', success, warning],
   xaxis: { categories: props.monthlyTrend.map(r => monthLabel(r.month)) },
   yaxis: { labels: { formatter: (v: number) => String(Math.round(v)) } },
   tooltip: { y: { formatter: (v: number) => `${v} requests` } },
@@ -106,7 +106,7 @@ const byStatusSeries = computed(() => props.byStatus.map(r => r.count))
 
 const byTypeOptions = computed<ApexOptions>(() => ({
   chart: { type: 'bar', toolbar: { show: false } },
-  plotOptions: { bar: { horizontal: true, borderRadius: 4 } }, colors: ['#696cff'],
+  plotOptions: { bar: { horizontal: true, borderRadius: 4 } }, colors: ['#6A0DAD'],
   xaxis: { categories: props.byLeaveType.map(r => r.leave_type) },
   tooltip: { y: { formatter: (v: number) => `${v} requests` } },
   dataLabels: { enabled: false }, grid: { borderColor: '#f1f3f4' },

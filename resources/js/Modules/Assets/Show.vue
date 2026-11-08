@@ -299,7 +299,7 @@ const conditionItems = computed(() => [
           <VCardText v-if="custody_log.length" class="pa-5">
             <div class="d-flex flex-column gap-3">
               <div v-for="entry in custody_log" :key="entry.id" class="d-flex align-start gap-3">
-                <div class="d-flex align-center justify-center rounded-circle flex-shrink-0" style="width:36px; height:36px; background: rgba(115,103,240,0.12);"><VIcon icon="tabler-history" size="18" color="primary" /></div>
+                <div class="d-flex align-center justify-center rounded-circle flex-shrink-0" style="width:36px; height:36px; background: rgba(106, 13, 173,0.12);"><VIcon icon="tabler-history" size="18" color="primary" /></div>
                 <div class="flex-grow-1"><p class="text-body-2 font-weight-medium mb-0 text-capitalize">{{ entry.action.replace('_', ' ') }}</p><p v-if="entry.notes" class="text-caption text-medium-emphasis mb-0">{{ entry.notes }}</p></div>
                 <span class="text-caption text-medium-emphasis flex-shrink-0">{{ formatDate(entry.occurred_at) }}</span>
               </div>

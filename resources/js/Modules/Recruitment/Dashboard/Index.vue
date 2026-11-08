@@ -19,7 +19,7 @@ const props = defineProps<{
 }>()
 
 const statCards = computed(() => [
-  { label: t('recruitment_dashboard.open_applications'), value: props.stats.open_applications, icon: 'tabler-user-share', color: 'primary', bg: 'rgba(115,103,240,0.12)' },
+  { label: t('recruitment_dashboard.open_applications'), value: props.stats.open_applications, icon: 'tabler-user-share', color: 'primary', bg: 'rgba(106, 13, 173,0.12)' },
   { label: t('recruitment_dashboard.total_candidates'), value: props.stats.total_candidates, icon: 'tabler-users', color: 'info', bg: 'rgba(0,207,232,0.12)' },
   { label: t('recruitment_dashboard.open_jobs'), value: props.stats.open_jobs, icon: 'tabler-briefcase', color: 'warning', bg: 'rgba(255,159,67,0.12)' },
   { label: t('recruitment_dashboard.interviews_today'), value: props.stats.interviews_today, icon: 'tabler-calendar-user', color: 'success', bg: 'rgba(40,199,111,0.12)' },
