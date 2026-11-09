@@ -9,7 +9,9 @@
   --mk-radius: 18px;
 }
 body, .v-application { font-family: 'Nunito Sans', 'Inter', system-ui, sans-serif !important; color: var(--mk-text); background: var(--mk-canvas) !important; -webkit-font-smoothing: antialiased; }
-h1, h2, h3, h4, .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6, .v-card-title, .v-toolbar-title { font-family: 'Montserrat', 'Nunito Sans', sans-serif !important; letter-spacing: -.3px !important; color: var(--mk-ink); }
+h1, h2, h3, h4, .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6, .v-card-title, .v-toolbar-title { font-family: 'Montserrat', 'Nunito Sans', sans-serif !important; letter-spacing: -.3px !important; }
+/* Heading colour only on the light canvas: a heading inside a coloured banner keeps its own (white) colour. */
+.v-main h1:not([class*="text-"]):not([style*="color"]), .v-card-title { color: var(--mk-ink); }
 .text-h5 { font-weight: 700 !important; }
 .v-btn { letter-spacing: .1px !important; font-weight: 600 !important; text-transform: none !important; }
 .v-btn--size-large { font-size: 15px !important; }
