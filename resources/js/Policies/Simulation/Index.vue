@@ -117,16 +117,16 @@ const trendMax = computed(() => {
   <VRow>
     <!-- ── Header Ribbon ───────────────────────────────────────────────── -->
     <VCol cols="12">
-      <VCard class="simulation-ribbon" style="background: linear-gradient(135deg,#5a67d8 0%,#6b46c1 100%);">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">Phase 12 — Unique Feature</div>
-            <h4 class="text-h4 text-white mb-1">Policy Simulation Engine</h4>
-            <p class="mb-0 text-white opacity-90">
+            <div class="text-overline">Phase 12 — Unique Feature</div>
+            <h4 class="text-h4 mb-1">Policy Simulation Engine</h4>
+            <p class="text-medium-emphasis mb-0">
               Run a policy against historical violation data to project violation counts and identify impacted departments.
             </p>
           </div>
-          <VChip color="white" class="text-deep-purple" label>
+          <VChip color="primary" variant="tonal" class="text-deep-purple" label>
             What-If Analysis
           </VChip>
         </VCardText>

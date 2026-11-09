@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useI18n } from 'vue-i18n'
 
@@ -306,7 +306,7 @@ const offerSeries = computed(() => props.offerConversion.map(r => r.count))
             <VCardSubtitle>{{ t('recruitement_analytic.charts.app_trend.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="applicationTrend.length" type="line" :height="280" :options="appTrendOptions" :series="appTrendSeries" />
+            <MkChart v-if="applicationTrend.length" type="line" :height="280" :options="appTrendOptions" :series="appTrendSeries" />
             <VEmptyState v-else :icon="'tabler-chart-line'" :title="t('recruitement_analytic.charts.app_trend.empty_title')" :text="t('recruitement_analytic.charts.app_trend.empty_text')" size="80" />
           </VCardText>
         </VCard>
@@ -318,7 +318,7 @@ const offerSeries = computed(() => props.offerConversion.map(r => r.count))
             <VCardSubtitle>{{ t('recruitement_analytic.charts.jobs_by_status.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="jobsByStatus.length" type="donut" :height="280" :options="jobsByStatusOptions" :series="jobsByStatusSeries" />
+            <MkChart v-if="jobsByStatus.length" type="donut" :height="280" :options="jobsByStatusOptions" :series="jobsByStatusSeries" />
             <VEmptyState v-else :icon="'tabler-briefcase'" :title="t('recruitement_analytic.charts.jobs_by_status.empty_title')" size="60" />
           </VCardText>
         </VCard>
@@ -334,7 +334,7 @@ const offerSeries = computed(() => props.offerConversion.map(r => r.count))
             <VCardSubtitle>{{ t('recruitement_analytic.charts.funnel.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="funnelConversion.length" type="bar" :height="280" :options="funnelOptions" :series="funnelSeries" />
+            <MkChart v-if="funnelConversion.length" type="bar" :height="280" :options="funnelOptions" :series="funnelSeries" />
             <VEmptyState v-else :icon="'tabler-filter'" :title="t('recruitement_analytic.charts.funnel.empty_title')" size="70" />
           </VCardText>
         </VCard>
@@ -346,7 +346,7 @@ const offerSeries = computed(() => props.offerConversion.map(r => r.count))
             <VCardSubtitle>{{ t('recruitement_analytic.charts.monthly_hires.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="monthlyHires.length" type="area" :height="280" :options="monthlyHiresOptions" :series="monthlyHiresSeries" />
+            <MkChart v-if="monthlyHires.length" type="area" :height="280" :options="monthlyHiresOptions" :series="monthlyHiresSeries" />
             <VEmptyState v-else :icon="'tabler-user-plus'" :title="t('recruitement_analytic.charts.monthly_hires.empty_title')" size="70" />
           </VCardText>
         </VCard>
@@ -362,7 +362,7 @@ const offerSeries = computed(() => props.offerConversion.map(r => r.count))
             <VCardSubtitle>{{ t('recruitement_analytic.charts.source_effectiveness.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="sourceEffectiveness.length" type="bar" :height="260" :options="sourceOptions" :series="sourceSeries" />
+            <MkChart v-if="sourceEffectiveness.length" type="bar" :height="260" :options="sourceOptions" :series="sourceSeries" />
             <VEmptyState v-else :icon="'tabler-world'" :title="t('recruitement_analytic.charts.source_effectiveness.empty_title')" size="70" />
           </VCardText>
         </VCard>
@@ -374,7 +374,7 @@ const offerSeries = computed(() => props.offerConversion.map(r => r.count))
             <VCardSubtitle>{{ t('recruitement_analytic.charts.offer_conversion.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="offerConversion.length" type="pie" :height="260" :options="offerOptions" :series="offerSeries" />
+            <MkChart v-if="offerConversion.length" type="pie" :height="260" :options="offerOptions" :series="offerSeries" />
             <VEmptyState v-else :icon="'tabler-handshake'" :title="t('recruitement_analytic.charts.offer_conversion.empty_title')" size="70" />
           </VCardText>
         </VCard>

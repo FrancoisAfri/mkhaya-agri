@@ -6,7 +6,7 @@
  */
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import PageErrors from '@/Modules/Agri/Components/PageErrors.vue'
 import ReadingChart from '../Command/ReadingChart.vue'
 import FormDialog, { type FormField } from '@/Modules/Agri/Components/FormDialog.vue'
@@ -160,7 +160,7 @@ const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { en
         <VRow>
           <VCol v-for="sr in panel.series" :key="sr.name" cols="12" md="6">
             <div class="text-subtitle-2">{{ sr.name }} <span class="text-medium-emphasis">({{ sr.unit }})</span></div>
-            <VueApexCharts type="line" height="180" :options="panelOptions(sr.unit)" :series="panelSeries(sr)" />
+            <MkChart type="line" height="180" :options="panelOptions(sr.unit)" :series="panelSeries(sr)" />
           </VCol>
           <VCol v-for="sn in panel.sensors" :key="sn.metric" cols="12" md="6">
             <ReadingChart :unit="unitId" :metric="sn.metric" :title="sn.title" :height="180" />
@@ -275,7 +275,7 @@ const mortalityOptions = { chart: { toolbar: { show: false } }, dataLabels: { en
       <VCol cols="12" lg="4">
         <VCard v-if="mortality.length" border class="mb-4">
           <VCardTitle>Mortality, last 14 days</VCardTitle>
-          <VCardText><VueApexCharts type="bar" height="180" :options="mortalityOptions" :series="mortalitySeries" /></VCardText>
+          <VCardText><MkChart type="bar" height="180" :options="mortalityOptions" :series="mortalitySeries" /></VCardText>
         </VCard>
         <VCard border class="mb-4">
           <VCardTitle class="d-flex align-center">Forecasts<VSpacer /><VBtn v-if="open && can.record" size="small" variant="tonal" @click="forecast">Update forecasts</VBtn></VCardTitle>

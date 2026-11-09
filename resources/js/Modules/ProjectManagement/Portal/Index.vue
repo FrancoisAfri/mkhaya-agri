@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useDisplay } from 'vuetify'
 import { router, useForm } from '@inertiajs/vue3'
@@ -488,7 +488,7 @@ const INVOICE_COLOUR: Record<string, string> = {
                 <VCardTitle class="text-body-1">{{ t('project_management.portal.progress_by_project') }}</VCardTitle>
               </VCardItem>
               <VCardText>
-                <VueApexCharts
+                <MkChart
                   type="bar" :height="Math.max(180, projects.length * 52)"
                   :options="progressOptions" :series="progressSeries"
                 />
@@ -502,7 +502,7 @@ const INVOICE_COLOUR: Record<string, string> = {
                 <VCardTitle class="text-body-1">{{ t('project_management.portal.by_stage') }}</VCardTitle>
               </VCardItem>
               <VCardText>
-                <VueApexCharts type="donut" :height="260" :options="stageOptions" :series="stageSeries" />
+                <MkChart type="donut" :height="260" :options="stageOptions" :series="stageSeries" />
               </VCardText>
             </VCard>
           </VCol>
@@ -516,7 +516,7 @@ const INVOICE_COLOUR: Record<string, string> = {
                 <VCardSubtitle>{{ t('project_management.portal.delivery_sub') }}</VCardSubtitle>
               </VCardItem>
               <VCardText>
-                <VueApexCharts
+                <MkChart
                   type="bar" :height="Math.max(180, projects.length * 52)"
                   :options="deliveryOptions" :series="deliverySeries"
                 />

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useTheme } from 'vuetify'
 import type { ApexOptions } from 'apexcharts'
 import { computed } from 'vue'
@@ -109,7 +109,7 @@ const divisionHeaders = computed(() => [
         <VCard variant="outlined" class="h-100">
           <VCardTitle class="pa-4 pb-2 d-flex align-center gap-2"><VIcon color="primary">ri-bar-chart-grouped-line</VIcon>{{ t('leave.leave_trends') }} — {{ props.year }}</VCardTitle>
           <VCardText>
-            <VueApexCharts v-if="props.trendSeries.length" type="bar" height="280" :options="trendChartOptions" :series="props.trendSeries"></VueApexCharts>
+            <MkChart v-if="props.trendSeries.length" type="bar" height="280" :options="trendChartOptions" :series="props.trendSeries"></MkChart>
             <div v-else class="pa-8 text-center text-medium-emphasis">{{ t('leave_executive_dashboard.no_leave_data', { year: props.year }) }}</div>
           </VCardText>
         </VCard>
@@ -118,7 +118,7 @@ const divisionHeaders = computed(() => [
         <VCard variant="outlined" class="h-100">
           <VCardTitle class="pa-4 pb-2 d-flex align-center gap-2"><VIcon color="info">ri-money-dollar-circle-line</VIcon>{{ t('leave.liability_by_type') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts v-if="liabilityDonutSeries.length" type="donut" height="280" :options="liabilityDonutOptions" :series="liabilityDonutSeries"></VueApexCharts>
+            <MkChart v-if="liabilityDonutSeries.length" type="donut" height="280" :options="liabilityDonutOptions" :series="liabilityDonutSeries"></MkChart>
             <div v-else class="pa-8 text-center text-medium-emphasis">{{ t('leave_executive_dashboard.no_liability_data') }}</div>
           </VCardText>
         </VCard>
@@ -129,7 +129,7 @@ const divisionHeaders = computed(() => [
       <VCardTitle class="pa-4 pb-2 d-flex align-center gap-2"><VIcon color="warning">ri-building-line</VIcon>{{ t('leave.department_pressure') }}</VCardTitle>
       <VRow class="pa-4 pt-0">
         <VCol cols="12" md="7">
-          <VueApexCharts v-if="props.divisionPressure.length" type="bar" :height="Math.max(200, props.divisionPressure.length * 38)" :options="pressureChartOptions" :series="pressureSeries"></VueApexCharts>
+          <MkChart v-if="props.divisionPressure.length" type="bar" :height="Math.max(200, props.divisionPressure.length * 38)" :options="pressureChartOptions" :series="pressureSeries"></MkChart>
           <div v-else class="pa-6 text-center text-medium-emphasis">{{ t('leave_executive_dashboard.no_division_data') }}</div>
         </VCol>
         <VCol cols="12" md="5">

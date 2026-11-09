@@ -70,7 +70,7 @@ class SelfServiceController extends Controller
             return [
                 'type_id'   => $lt->id,
                 'type_name' => $lt->name,
-                'color'     => '#7367f0',
+                'color'     => '#6A0DAD',
                 'balance'   => $latest !== null ? (float) $latest : null,
                 'taken'     => (float) $taken,
             ];

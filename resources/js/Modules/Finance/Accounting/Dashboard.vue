@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue'
 import { useForm, router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 const route = ziggyRoute
 const { t } = useI18n()
 
@@ -89,12 +89,12 @@ function saveLayout() {
     <VRow class="mt-1">
       <VCol cols="12" lg="8">
         <VCard border><VCardTitle class="text-subtitle-1">{{ t('acc.trend_title') }}</VCardTitle><VCardText>
-          <VueApexCharts type="line" :height="300" :options="trendOptions" :series="trendSeries" />
+          <MkChart type="line" :height="300" :options="trendOptions" :series="trendSeries" />
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" lg="4">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.expenses_by_category') }}</VCardTitle><VCardText>
-          <VueApexCharts v-if="hasExp" type="donut" :height="300" :options="expenseDonut.options" :series="expenseDonut.series" />
+          <MkChart v-if="hasExp" type="donut" :height="300" :options="expenseDonut.options" :series="expenseDonut.series" />
           <div v-else class="text-center text-medium-emphasis py-12">{{ t('acc.no_expenses') }}</div>
         </VCardText></VCard>
       </VCol>
@@ -102,7 +102,7 @@ function saveLayout() {
         <VCard border><VCardTitle class="text-subtitle-1 d-flex align-center">{{ t('acc.ar_ap_title') }}<VSpacer />
           <VBtn size="small" variant="text" color="primary" append-icon="tabler-arrow-right" @click="router.visit(route('finance.accounting.statements', { tab: 'ar_aging' }))">{{ t('acc.aging_report') }}</VBtn>
         </VCardTitle><VCardText>
-          <VueApexCharts type="bar" :height="280" :options="arApOptions" :series="arApSeries" />
+          <MkChart type="bar" :height="280" :options="arApOptions" :series="arApSeries" />
         </VCardText></VCard>
       </VCol>
     </VRow>

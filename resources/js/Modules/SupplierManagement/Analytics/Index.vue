@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useI18n } from 'vue-i18n'
 
@@ -393,7 +393,7 @@ const bucketOptionsChart = computed<ApexOptions>(() => ({
         <VCard elevation="0" border>
           <VCardTitle class="text-subtitle-1">{{ t('supplier_analytics.charts.by_status') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="donut" :height="280" :options="statusOptionsChart" :series="statusSeries" />
+            <MkChart type="donut" :height="280" :options="statusOptionsChart" :series="statusSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -401,7 +401,7 @@ const bucketOptionsChart = computed<ApexOptions>(() => ({
         <VCard elevation="0" border>
           <VCardTitle class="text-subtitle-1">{{ t('supplier_analytics.charts.by_segment') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="donut" :height="280" :options="segmentOptionsChart" :series="segmentSeries" />
+            <MkChart type="donut" :height="280" :options="segmentOptionsChart" :series="segmentSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -409,7 +409,7 @@ const bucketOptionsChart = computed<ApexOptions>(() => ({
         <VCard elevation="0" border>
           <VCardTitle class="text-subtitle-1">{{ t('supplier_analytics.charts.risk_by_level') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="donut" :height="280" :options="riskOptionsChart" :series="riskSeries" />
+            <MkChart type="donut" :height="280" :options="riskOptionsChart" :series="riskSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -418,7 +418,7 @@ const bucketOptionsChart = computed<ApexOptions>(() => ({
         <VCard elevation="0" border>
           <VCardTitle class="text-subtitle-1">{{ t('supplier_analytics.charts.onboarding_trend') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="line" :height="280" :options="onboardingOptionsChart" :series="onboardingSeries" />
+            <MkChart type="line" :height="280" :options="onboardingOptionsChart" :series="onboardingSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -426,7 +426,7 @@ const bucketOptionsChart = computed<ApexOptions>(() => ({
         <VCard elevation="0" border>
           <VCardTitle class="text-subtitle-1">{{ t('supplier_analytics.charts.top_spend') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="bar" :height="280" :options="spendOptionsChart" :series="spendSeries" />
+            <MkChart type="bar" :height="280" :options="spendOptionsChart" :series="spendSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -435,7 +435,7 @@ const bucketOptionsChart = computed<ApexOptions>(() => ({
         <VCard elevation="0" border>
           <VCardTitle class="text-subtitle-1">{{ t('supplier_analytics.charts.doc_expiry') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="bar" :height="280" :options="bucketOptionsChart" :series="bucketSeries" />
+            <MkChart type="bar" :height="280" :options="bucketOptionsChart" :series="bucketSeries" />
           </VCardText>
         </VCard>
       </VCol>

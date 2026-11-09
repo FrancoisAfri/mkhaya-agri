@@ -94,16 +94,16 @@ const cadenceColor = (c: string) => ({ daily: 'info', weekly: 'warning', monthly
 <template>
   <VRow>
     <VCol cols="12">
-      <VCard class="pa-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">{{ t('pa_reports.module') }}</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('pa_reports.scheduled_reports') }}</h4>
-            <p class="mb-0 text-white opacity-90">{{ t('pa_reports.scheduled.subtitle') }}</p>
+            <div class="text-overline">{{ t('pa_reports.module') }}</div>
+            <h4 class="text-h4 mb-1">{{ t('pa_reports.scheduled_reports') }}</h4>
+            <p class="text-medium-emphasis mb-0">{{ t('pa_reports.scheduled.subtitle') }}</p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-chart-bar" href="/performance/reports">{{ t('pa_reports.reports_engine') }}</VBtn>
-            <VBtn color="white" class="text-primary" prepend-icon="tabler-plus" @click="openCreate">{{ t('pa_reports.scheduled.new_schedule') }}</VBtn>
+            <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-chart-bar" href="/performance/reports">{{ t('pa_reports.reports_engine') }}</VBtn>
+            <VBtn color="primary" class="text-primary" prepend-icon="tabler-plus" @click="openCreate">{{ t('pa_reports.scheduled.new_schedule') }}</VBtn>
           </div>
         </VCardText>
       </VCard>
@@ -175,5 +175,5 @@ const cadenceColor = (c: string) => ({ daily: 'info', weekly: 'warning', monthly
 </template>
 
 <style scoped lang="scss">
-.pa-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #1a237e 0%, #6A0DAD 100%); }
+.pa-ribbon { border: 0; overflow: hidden;  }
 </style>

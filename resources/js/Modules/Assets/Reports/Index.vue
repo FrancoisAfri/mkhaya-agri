@@ -244,18 +244,18 @@ const statusColor = (v: unknown) => {
 <template>
   <VRow>
     <VCol cols="12">
-      <VCard class="reports-hero">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">{{ t('assets_reports_engine.hero.subtitle') }}</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('assets_reports_engine.hero.title') }}</h4>
-            <p class="mb-0 text-white opacity-90">{{ t('assets_reports_engine.hero.description') }}</p>
+            <div class="text-overline">{{ t('assets_reports_engine.hero.subtitle') }}</div>
+            <h4 class="text-h4 mb-1">{{ t('assets_reports_engine.hero.title') }}</h4>
+            <p class="text-medium-emphasis mb-0">{{ t('assets_reports_engine.hero.description') }}</p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VChip color="white" class="text-secondary font-weight-semibold" label>
+            <VChip color="primary" variant="tonal" class="text-secondary font-weight-semibold" label>
               {{ activeRows.length }} {{ t('assets_reports_engine.hero.active_rows') }}
             </VChip>
-            <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-chart-bar" href="/assets/analytics">
+            <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-chart-bar" href="/assets/analytics">
               {{ t('assets_reports_engine.hero.bi_analytics') }}
             </VBtn>
           </div>
@@ -412,7 +412,7 @@ const statusColor = (v: unknown) => {
 .reports-hero {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #1a3a5c 0%, #2d6a9f 100%);
+  
 }
 :deep(.v-data-table-header__content) { font-weight: 700; }
 </style>

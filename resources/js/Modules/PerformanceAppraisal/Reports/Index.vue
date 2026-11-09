@@ -356,22 +356,22 @@ const columnTotals = computed<Record<string, number>>(() => {
   <VRow>
     <!-- Ribbon header -->
     <VCol cols="12">
-      <VCard class="pa-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">{{ t('pa_reports.module') }}</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('pa_reports.title') }}</h4>
-            <p class="mb-0 text-white opacity-90">{{ t('pa_reports.subtitle') }}</p>
+            <div class="text-overline">{{ t('pa_reports.module') }}</div>
+            <h4 class="text-h4 mb-1">{{ t('pa_reports.title') }}</h4>
+            <p class="text-medium-emphasis mb-0">{{ t('pa_reports.subtitle') }}</p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VChip color="white" class="text-primary font-weight-bold" label>
+            <VChip color="primary" variant="tonal" class="font-weight-bold" label>
               {{ activeRows.length }} {{ t('pa_reports.active_rows') }}
             </VChip>
             <div class="d-flex gap-2">
-              <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-chart-bar" href="/performance/analytics">
+              <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-chart-bar" href="/performance/analytics">
                 {{ t('pa_reports.bi_analytics') }}
               </VBtn>
-              <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-calendar-clock" href="/performance/reports/scheduled">
+              <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-calendar-clock" href="/performance/reports/scheduled">
                 {{ t('pa_reports.scheduled_reports') }}
               </VBtn>
             </div>
@@ -577,7 +577,7 @@ const columnTotals = computed<Record<string, number>>(() => {
 .pa-ribbon {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #1a237e 0%, #6A0DAD 100%);
+  
 }
 :deep(.v-data-table-header__content) { font-weight: 700; }
 :deep(.totals-row) {

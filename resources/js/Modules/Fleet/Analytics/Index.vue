@@ -3,7 +3,7 @@ import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 const { t } = useI18n()
@@ -505,7 +505,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.booking_trend_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="bookingTrend.length"
               type="line"
               :height="280"
@@ -527,7 +527,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.fleet_status_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="vehicleStatus.length"
               type="donut"
               :height="280"
@@ -552,7 +552,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.fuel_spend_trend_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="fuelTrend.length"
               type="area"
               :height="260"
@@ -574,7 +574,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.fuel_efficiency_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="fuelByVehicleType.length"
               type="bar"
               :height="260"
@@ -599,7 +599,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.maintenance_cost_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="maintenanceByCategory.length"
               type="bar"
               :height="260"
@@ -621,7 +621,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.maintenance_status_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="maintenanceByStatus.length"
               type="donut"
               :height="260"
@@ -646,7 +646,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.fines_by_status_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="finesByStatus.length"
               type="donut"
               :height="260"
@@ -668,7 +668,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.fines_by_authority_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="finesByAuthority.length"
               type="bar"
               :height="260"
@@ -693,7 +693,7 @@ const costBreakdownSeries = computed(() => [
             <VCardSubtitle>{{ t('fleet_analytics_index.charts.cost_breakdown_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               type="donut"
               :height="280"
               :options="costBreakdownOptions"

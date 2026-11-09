@@ -3,7 +3,7 @@ import { ref, reactive, computed } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import NudgeWidget from '../Components/NudgeWidget.vue'
 
 const { t } = useI18n()
@@ -400,7 +400,7 @@ const burnoutColor = (risk: string | null) =>
             Team KPI Completion
           </VCardTitle>
           <VCardText class="pa-2">
-            <VueApexCharts
+            <MkChart
               v-if="kpi_chart.length"
               type="bar"
               :height="Math.max(180, kpi_chart.length * 36)"
@@ -422,7 +422,7 @@ const burnoutColor = (risk: string | null) =>
             Team Burnout Risk
           </VCardTitle>
           <VCardText class="pa-2">
-            <VueApexCharts
+            <MkChart
               v-if="burnout_chart.series.length"
               type="donut"
               height="220"
@@ -532,7 +532,7 @@ const burnoutColor = (risk: string | null) =>
       <VCardText class="pa-2">
         <VRow dense>
           <VCol cols="12" md="8">
-            <VueApexCharts
+            <MkChart
               type="bar"
               height="200"
               :options="wellnessBarOptions"

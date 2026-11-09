@@ -145,7 +145,7 @@ class CrmSurveyService
 
         $html = "<p>Hi {$name},</p>"
             . "<p>We’d value your feedback. Please take a moment to complete our short survey: <strong>{$survey->name}</strong>.</p>"
-            . "<p><a href=\"{$link}\" style=\"display:inline-block;padding:12px 22px;background:#7367F0;color:#fff;border-radius:6px;text-decoration:none\">Start the survey</a></p>"
+            . "<p><a href=\"{$link}\" style=\"display:inline-block;padding:12px 22px;background:#6A0DAD;color:#fff;border-radius:6px;text-decoration:none\">Start the survey</a></p>"
             . "<p>Or paste this link into your browser:<br>{$link}</p>"
             . "<p>Thank you,<br>".config('app.name')."</p>";
 

@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 useTheme()
@@ -219,7 +219,7 @@ const byPolicyStatusSeries = computed(() => props.byStatus.map(r => r.count))
         <VCard height="100%">
           <VCardItem><VCardTitle>Violation Trend</VCardTitle><VCardSubtitle>Monthly violations raised vs resolved</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="violationTrend.length" type="line" :height="280" :options="violationTrendOptions" :series="violationTrendSeries" />
+            <MkChart v-if="violationTrend.length" type="line" :height="280" :options="violationTrendOptions" :series="violationTrendSeries" />
             <VEmptyState v-else icon="tabler-chart-line" title="No violation trend" text="No violations in this period." size="80" />
           </VCardText>
         </VCard>
@@ -228,7 +228,7 @@ const byPolicyStatusSeries = computed(() => props.byStatus.map(r => r.count))
         <VCard height="100%">
           <VCardItem><VCardTitle>Policy Portfolio</VCardTitle><VCardSubtitle>Policies by status</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byStatus.length" type="donut" :height="280" :options="byPolicyStatusOptions" :series="byPolicyStatusSeries" />
+            <MkChart v-if="byStatus.length" type="donut" :height="280" :options="byPolicyStatusOptions" :series="byPolicyStatusSeries" />
             <VEmptyState v-else icon="tabler-file-text" title="No policy data" size="60" />
           </VCardText>
         </VCard>
@@ -240,7 +240,7 @@ const byPolicyStatusSeries = computed(() => props.byStatus.map(r => r.count))
         <VCard height="100%">
           <VCardItem><VCardTitle>Attestation Trend</VCardTitle><VCardSubtitle>Monthly attestations — total, completed, and overdue</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="attestationTrend.length" type="area" :height="260" :options="attestationTrendOptions" :series="attestationTrendSeries" />
+            <MkChart v-if="attestationTrend.length" type="area" :height="260" :options="attestationTrendOptions" :series="attestationTrendSeries" />
             <VEmptyState v-else icon="tabler-lock-pen" title="No attestation data" size="70" />
           </VCardText>
         </VCard>
@@ -249,7 +249,7 @@ const byPolicyStatusSeries = computed(() => props.byStatus.map(r => r.count))
         <VCard height="100%">
           <VCardItem><VCardTitle>Violation Severity</VCardTitle><VCardSubtitle>Breakdown by severity level</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="violationBySeverity.length" type="donut" :height="260" :options="severityOptions" :series="severitySeries" />
+            <MkChart v-if="violationBySeverity.length" type="donut" :height="260" :options="severityOptions" :series="severitySeries" />
             <VEmptyState v-else icon="tabler-alert-triangle" title="No severity data" size="60" />
           </VCardText>
         </VCard>
@@ -261,7 +261,7 @@ const byPolicyStatusSeries = computed(() => props.byStatus.map(r => r.count))
         <VCard height="100%">
           <VCardItem><VCardTitle>Attestation Status</VCardTitle><VCardSubtitle>Current status distribution</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="attestationByStatus.length" type="pie" :height="260" :options="attestStatusOptions" :series="attestStatusSeries" />
+            <MkChart v-if="attestationByStatus.length" type="pie" :height="260" :options="attestStatusOptions" :series="attestStatusSeries" />
             <VEmptyState v-else icon="tabler-checks" title="No attestation data" size="60" />
           </VCardText>
         </VCard>

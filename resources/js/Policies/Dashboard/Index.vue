@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useTheme } from 'vuetify'
 import { hexToRgb } from '@/@core/utils/colorConverter'
 
@@ -192,9 +192,9 @@ const frictionPoliciesChartSeries = computed(() => [
   <div>
     <!-- Hero Section -->
     <VCard class="mb-6" flat>
-      <div class="hero-background pa-8 bg-gradient-to-r" style="background: linear-gradient(135deg, #6A0DAD 0%, #6F5FE8 100%); border-radius: 12px; color: white;">
-        <h2 class="text-h3 mb-2 font-weight-bold text-white">Policy Dashboard</h2>
-        <p class="text-white/80 mb-0">Live policy intelligence, compliance tracking, and behavioral insights</p>
+      <div class="mb-4 mk-page-head">
+        <h2 class="text-h3 mb-2 font-weight-bold">Policy Dashboard</h2>
+        <p class="text-medium-emphasis mb-0">Live policy intelligence, compliance tracking, and behavioral insights</p>
       </div>
     </VCard>
 
@@ -224,7 +224,7 @@ const frictionPoliciesChartSeries = computed(() => [
       <VCol cols="12" lg="6">
         <VCard title="Department Compliance & Adoption">
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="departmentComplianceChartSeries.length > 0"
               type="bar"
               :series="departmentComplianceChartSeries"
@@ -242,7 +242,7 @@ const frictionPoliciesChartSeries = computed(() => [
       <VCol cols="12" lg="6">
         <VCard title="Exception Approval Status">
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="exceptionApprovalChartSeries.length > 0 && exceptionApprovalChartSeries[0] > 0"
               type="donut"
               :series="exceptionApprovalChartSeries"
@@ -262,7 +262,7 @@ const frictionPoliciesChartSeries = computed(() => [
       <VCol cols="12">
         <VCard title="Policies Causing Most Friction">
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="frictionPoliciesChartSeries.length > 0 && policyEffectiveness.policies_causing_friction.length > 0"
               type="bar"
               :series="frictionPoliciesChartSeries"

@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useTheme } from 'vuetify'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 /**
@@ -411,7 +411,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.schedule_health_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="healthSeries.some(v => v > 0)"
             type="donut" :height="h" :options="healthOptions" :series="healthSeries"
           />
@@ -430,7 +430,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.task_mix_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="taskMixSeries.some(v => v > 0)"
             type="donut" :height="h" :options="taskMixOptions" :series="taskMixSeries"
           />
@@ -449,7 +449,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.by_stage_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="stageSeries.some(v => v > 0)"
             type="donut" :height="h" :options="stageOptions" :series="stageSeries"
           />
@@ -468,7 +468,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.evidence_trend_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="area" :height="h" :options="evidenceOptions" :series="evidenceSeries" />
+          <MkChart type="area" :height="h" :options="evidenceOptions" :series="evidenceSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -481,7 +481,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.evidence_domains_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="domainSeries.length"
             type="donut" :height="h" :options="domainOptions" :series="domainSeries"
           />
@@ -500,7 +500,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.progress_by_project_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="charts.progress_by_project.length"
             type="bar" :height="h" :options="progressOptions" :series="progressSeries"
           />
@@ -519,7 +519,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.overdue_by_project_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="charts.overdue_by_project.length"
             type="bar" :height="h" :options="overdueOptions" :series="overdueSeries"
           />
@@ -538,7 +538,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.hours_trend_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="hoursOptions" :series="hoursSeries" />
+          <MkChart type="bar" :height="h" :options="hoursOptions" :series="hoursSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -554,7 +554,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.budget_vs_actual_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="charts.budget_vs_actual.length"
             type="bar" :height="h" :options="budgetOptions" :series="budgetSeries"
           />
@@ -579,7 +579,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.cost_position_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="160" :options="costPositionOptions" :series="costPositionSeries" />
+          <MkChart type="bar" :height="160" :options="costPositionOptions" :series="costPositionSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -591,7 +591,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.cost_trend_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="area" :height="h" :options="costTrendOptions" :series="costTrendSeries" />
+          <MkChart type="area" :height="h" :options="costTrendOptions" :series="costTrendSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -603,7 +603,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.cost_by_category_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="donut" :height="h" :options="costCategoryOptions" :series="costCategorySeries" />
+          <MkChart type="donut" :height="h" :options="costCategoryOptions" :series="costCategorySeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -617,7 +617,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.allocation_by_person_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="allocationOptions" :series="allocationSeries" />
+          <MkChart type="bar" :height="h" :options="allocationOptions" :series="allocationSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -629,7 +629,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.workload_health_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="donut" :height="h" :options="workloadOptions" :series="workloadSeries" />
+          <MkChart type="donut" :height="h" :options="workloadOptions" :series="workloadSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -641,7 +641,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.role_mix_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="donut" :height="h" :options="roleMixOptions" :series="roleMixSeries" />
+          <MkChart type="donut" :height="h" :options="roleMixOptions" :series="roleMixSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -701,7 +701,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.earned_value_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h - 60" :options="evmOptions" :series="evmSeries" />
+          <MkChart type="bar" :height="h - 60" :options="evmOptions" :series="evmSeries" />
 
           <!-- The two indices, which are what a project manager is actually asked for. -->
           <div class="d-flex gap-4 justify-center mt-2">
@@ -733,7 +733,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.cash_flow_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="cashFlowOptions" :series="cashFlowSeries" />
+          <MkChart type="bar" :height="h" :options="cashFlowOptions" :series="cashFlowSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -811,7 +811,7 @@ const approvalSeries = computed(() => {
           <VCardSubtitle>{{ t('project_management.insights.approval_backlog_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="approvalOptions" :series="approvalSeries" />
+          <MkChart type="bar" :height="h" :options="approvalOptions" :series="approvalSeries" />
         </VCardText>
       </VCard>
     </VCol>

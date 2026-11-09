@@ -208,20 +208,20 @@ function clearFilters() { filters.employeeIds = []; filters.departments = [] }
   <VRow>
     <!-- Header ribbon -->
     <VCol cols="12">
-      <VCard class="attendance-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">{{ t('attendance_report.breadcrumb_module') }}</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('attendance_report.title') }}</h4>
-            <p class="mb-0 text-white opacity-90">
+            <div class="text-overline">{{ t('attendance_report.breadcrumb_module') }}</div>
+            <h4 class="text-h4 mb-1">{{ t('attendance_report.title') }}</h4>
+            <p class="text-medium-emphasis mb-0">
               {{ t('attendance_report.subtitle') }}
             </p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VChip color="white" class="text-primary font-weight-bold" label>
+            <VChip color="primary" variant="tonal" class="font-weight-bold" label>
               {{ activeRows.length }} {{ t('attendance_report.active_rows') }}
             </VChip>
-            <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-chart-bar" href="/attendance/analytics">
+            <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-chart-bar" href="/attendance/analytics">
               {{ t('attendance_report.bi_analytics') }}
             </VBtn>
           </div>
@@ -442,7 +442,7 @@ function clearFilters() { filters.employeeIds = []; filters.departments = [] }
 .attendance-ribbon {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+  
 }
 :deep(.v-data-table-header__content) { font-weight: 700; }
 :deep(.totals-row) {

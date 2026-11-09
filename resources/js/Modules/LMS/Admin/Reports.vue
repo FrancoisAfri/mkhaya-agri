@@ -415,23 +415,23 @@ const columnTotals = computed<Record<string, number>>(() => {
   <VRow>
     <!-- Ribbon header -->
     <VCol cols="12">
-      <VCard class="lms-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">Learning Management</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('lms_admin_report.page_title') }}</h4>
-            <p class="mb-0 text-white opacity-90">
+            <div class="text-overline">Learning Management</div>
+            <h4 class="text-h4 mb-1">{{ t('lms_admin_report.page_title') }}</h4>
+            <p class="text-medium-emphasis mb-0">
               {{ t('lms_admin_report.page_description') }}
             </p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VChip color="white" class="text-primary font-weight-bold" label>
+            <VChip color="primary" variant="tonal" class="font-weight-bold" label>
               {{ t('lms_admin_report.active_rows', { count: activeRows.length }) }}
             </VChip>
             <div class="d-flex gap-2">
               <VBtn
                 variant="outlined"
-                color="white"
+                color="primary"
                 size="small"
                 prepend-icon="tabler-calendar-clock"
                 href="/lms/admin/scheduled-reports"
@@ -763,7 +763,7 @@ const columnTotals = computed<Record<string, number>>(() => {
 .lms-ribbon {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+  
 }
 
 :deep(.v-data-table-header__content) { font-weight: 700; }

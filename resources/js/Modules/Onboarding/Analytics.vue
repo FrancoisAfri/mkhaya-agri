@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useTheme } from 'vuetify'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { route as ziggyRoute } from 'ziggy-js'
 
 /**
@@ -127,7 +127,7 @@ const hasAgeing = computed(() => ageingSeries.value.some(v => v > 0))
             <VCardSubtitle>{{ t('onboarding_analytics.volume_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="analytics.monthly_volume.length" type="bar" :height="280" :options="volumeOptions" :series="volumeSeries" />
+            <MkChart v-if="analytics.monthly_volume.length" type="bar" :height="280" :options="volumeOptions" :series="volumeSeries" />
             <p v-else class="text-body-2 text-medium-emphasis text-center py-8">{{ t('onboarding_analytics.no_data') }}</p>
           </VCardText>
         </VCard>
@@ -140,7 +140,7 @@ const hasAgeing = computed(() => ageingSeries.value.some(v => v > 0))
             <VCardSubtitle>{{ t('onboarding_analytics.ageing_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="hasAgeing" type="donut" :height="280" :options="ageingOptions" :series="ageingSeries" />
+            <MkChart v-if="hasAgeing" type="donut" :height="280" :options="ageingOptions" :series="ageingSeries" />
             <p v-else class="text-body-2 text-medium-emphasis text-center py-8">{{ t('onboarding_analytics.nothing_overdue') }}</p>
           </VCardText>
         </VCard>
@@ -153,7 +153,7 @@ const hasAgeing = computed(() => ageingSeries.value.some(v => v > 0))
             <VCardSubtitle>{{ t('onboarding_analytics.department_sub') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="analytics.by_department.length" type="bar" :height="280" :options="departmentOptions" :series="departmentSeries" />
+            <MkChart v-if="analytics.by_department.length" type="bar" :height="280" :options="departmentOptions" :series="departmentSeries" />
             <p v-else class="text-body-2 text-medium-emphasis text-center py-8">{{ t('onboarding_analytics.no_data') }}</p>
           </VCardText>
         </VCard>

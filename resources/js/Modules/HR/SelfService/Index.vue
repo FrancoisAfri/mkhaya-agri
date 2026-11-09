@@ -98,25 +98,25 @@ const initials = computed(() => {
   <div>
 
     <!-- ── Hero / Profile card ──────────────────────────────────────────────── -->
-    <VCard flat class="mb-6" style="background:linear-gradient(135deg,#6A0DAD 0%,#9e95f5 100%);border-radius:12px;overflow:hidden;">
+    <VCard variant="flat" flat class="mb-4 mk-page-head">
       <VCardText class="pa-8">
         <VRow align="center">
           <VCol cols="12" md="auto">
-            <VAvatar size="80" color="white" style="border:3px solid rgba(255,255,255,0.5)">
+            <VAvatar size="80" color="primary" variant="tonal">
               <img v-if="person?.avatar" :src="person.avatar" alt="Avatar" style="width:100%;height:100%;object-fit:cover;" />
               <span v-else class="text-h5 font-weight-bold" style="color:#6A0DAD">{{ initials }}</span>
             </VAvatar>
           </VCol>
           <VCol cols="12" md="auto">
-            <h2 class="text-h4 font-weight-bold text-white mb-1">{{ person?.name ?? 'Welcome' }}</h2>
-            <p class="mb-0 text-white" style="opacity:.9">{{ person?.job_title }}</p>
-            <p v-if="person?.department" class="mb-0 text-white text-body-2" style="opacity:.75">
+            <h2 class="text-h4 font-weight-bold mb-1">{{ person?.name ?? 'Welcome' }}</h2>
+            <p class="text-medium-emphasis mb-0">{{ person?.job_title }}</p>
+            <p v-if="person?.department" class="text-medium-emphasis mb-0 text-body-2">
               <VIcon icon="tabler-building" size="14" class="me-1" />{{ person.department }}
             </p>
           </VCol>
           <VSpacer />
           <VCol cols="12" md="auto" class="d-flex flex-wrap gap-2 justify-end">
-            <VBtn color="white" variant="elevated" prepend-icon="tabler-calendar-plus"
+            <VBtn color="primary" variant="elevated" prepend-icon="tabler-calendar-plus"
               style="color:#6A0DAD;font-weight:600"
               :href="route('hr.leave.apply')">
               Apply for Leave

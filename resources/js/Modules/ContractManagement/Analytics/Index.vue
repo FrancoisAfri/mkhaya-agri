@@ -3,7 +3,7 @@ import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 const { t } = useI18n()
@@ -234,7 +234,7 @@ const activeFilterCount = computed(() => [props.filters.status, props.filters.ty
         <VCard border>
           <VCardTitle>{{ t('contracts_analytics.charts.monthly_trend') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="line" :height="280" :options="trendOptions" :series="trendSeries" />
+            <MkChart type="line" :height="280" :options="trendOptions" :series="trendSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -242,7 +242,7 @@ const activeFilterCount = computed(() => [props.filters.status, props.filters.ty
         <VCard border>
           <VCardTitle>{{ t('contracts_analytics.charts.by_status') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="donut" :height="280" :options="statusOptions" :series="statusSeries" />
+            <MkChart type="donut" :height="280" :options="statusOptions" :series="statusSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -251,7 +251,7 @@ const activeFilterCount = computed(() => [props.filters.status, props.filters.ty
         <VCard border>
           <VCardTitle>{{ t('contracts_analytics.charts.by_type') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="bar" :height="280" :options="typeOptions" :series="typeSeries" />
+            <MkChart type="bar" :height="280" :options="typeOptions" :series="typeSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -259,7 +259,7 @@ const activeFilterCount = computed(() => [props.filters.status, props.filters.ty
         <VCard border>
           <VCardTitle>{{ t('contracts_analytics.charts.ai_risk_distribution') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="donut" :height="280" :options="riskOptions" :series="riskSeries" />
+            <MkChart type="donut" :height="280" :options="riskOptions" :series="riskSeries" />
           </VCardText>
         </VCard>
       </VCol>
@@ -268,7 +268,7 @@ const activeFilterCount = computed(() => [props.filters.status, props.filters.ty
         <VCard border>
           <VCardTitle>{{ t('contracts_analytics.charts.top_suppliers') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts type="bar" :height="280" :options="supplierOptions" :series="supplierSeries" />
+            <MkChart type="bar" :height="280" :options="supplierOptions" :series="supplierSeries" />
           </VCardText>
         </VCard>
       </VCol>

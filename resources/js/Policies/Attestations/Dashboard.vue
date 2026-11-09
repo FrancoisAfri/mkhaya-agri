@@ -4,7 +4,7 @@ import { route as ziggyRoute } from 'ziggy-js'
 import { useTheme } from 'vuetify'
 import { hexToRgb } from '@core/utils/colorConverter'
 import type { ApexOptions } from 'apexcharts'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 
 const route = ziggyRoute
 const vuetifyTheme = useTheme()
@@ -296,17 +296,17 @@ const topPolicyChartOptions = computed<ApexOptions>(() => {
 <template>
   <VRow class="match-height">
     <VCol cols="12">
-      <VCard class="attestation-hero">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">Attestation Intelligence</div>
-            <h4 class="text-h4 text-white mb-1">Policy Attestation Dashboard</h4>
-            <p class="mb-0 text-white opacity-90">
+            <div class="text-overline">Attestation Intelligence</div>
+            <h4 class="text-h4 mb-1">Policy Attestation Dashboard</h4>
+            <p class="text-medium-emphasis mb-0">
               Track compliance performance, completion bottlenecks, and overdue risk across departments.
             </p>
           </div>
           <VBtn
-            color="white"
+            color="primary"
             class="text-primary"
             variant="flat"
             prepend-icon="tabler-file-check"
@@ -346,7 +346,7 @@ const topPolicyChartOptions = computed<ApexOptions>(() => {
           <VCardSubtitle>Completed vs remaining attestations per department</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="departmentRows.length"
             type="bar"
             :height="320"
@@ -374,7 +374,7 @@ const topPolicyChartOptions = computed<ApexOptions>(() => {
           <VCardSubtitle>Current compliance mix</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             type="donut"
             :height="320"
             :options="statusDonutOptions"
@@ -404,7 +404,7 @@ const topPolicyChartOptions = computed<ApexOptions>(() => {
           <VCardSubtitle>Most frequently acknowledged policies</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             v-if="topPolicies.length"
             type="bar"
             :height="300"
@@ -544,6 +544,6 @@ const topPolicyChartOptions = computed<ApexOptions>(() => {
 @use "@core/scss/template/libs/apex-chart.scss";
 
 .attestation-hero {
-  background: linear-gradient(135deg, rgb(var(--v-theme-primary)) 0%, #5a4fd6 100%);
+  
 }
 </style>

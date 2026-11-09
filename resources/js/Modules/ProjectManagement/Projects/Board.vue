@@ -4,7 +4,7 @@ import { useFitToViewport } from '@/composables/useFitToViewport'
 import { router, usePage } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import TaskDrawer from './TaskDrawer.vue'
 import AssigneeStack from '@/Components/Shared/AssigneeStack.vue'
@@ -1189,7 +1189,7 @@ const { el: pageEl, height: pageHeight } = useFitToViewport()
       <VRow v-if="phaseMix.length" class="pa-4 ma-0" dense>
         <VCol cols="12" md="5">
           <div class="text-body-2 font-weight-medium mb-1">{{ t('project_management.views.tl_by_phase') }}</div>
-          <VueApexCharts type="donut" :height="240" :options="phaseOptions" :series="phaseSeries" />
+          <MkChart type="donut" :height="240" :options="phaseOptions" :series="phaseSeries" />
         </VCol>
 
         <VCol cols="12" md="7">
@@ -1202,7 +1202,7 @@ const { el: pageEl, height: pageHeight } = useFitToViewport()
               :title="t('project_management.views.tl_person_detail', {
                 name: person.name, done: person.done, total: person.total, percent: person.percent })"
             >
-              <VueApexCharts
+              <MkChart
                 type="donut" :height="92" :width="92"
                 :options="personDialOptions"
                 :series="[person.percent, 100 - person.percent]"

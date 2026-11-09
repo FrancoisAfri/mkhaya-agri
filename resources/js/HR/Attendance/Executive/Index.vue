@@ -53,17 +53,17 @@ async function generateAiSummary() {
   <VRow>
 
     <VCol cols="12">
-      <VCard class="exec-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="py-6 px-6">
           <div class="d-flex align-center justify-space-between flex-wrap gap-4">
             <div>
-              <div class="text-overline text-white opacity-80">{{ t('attendance_executive.breadcrumb_module') }}</div>
-              <h4 class="text-h4 text-white mb-1">{{ t('attendance_executive.title') }}</h4>
-              <p class="mb-0 text-white opacity-80">{{ t('attendance_executive.subtitle') }}</p>
+              <div class="text-overline">{{ t('attendance_executive.breadcrumb_module') }}</div>
+              <h4 class="text-h4 mb-1">{{ t('attendance_executive.title') }}</h4>
+              <p class="text-medium-emphasis mb-0">{{ t('attendance_executive.subtitle') }}</p>
             </div>
             <div class="d-flex flex-column align-end gap-2">
-              <VChip color="white" class="font-weight-bold" label prepend-icon="tabler-calendar-today">{{ today }} {{ t('attendance_executive.today_label') }}</VChip>
-              <VChip color="white" class="font-weight-bold" label prepend-icon="tabler-account-group">{{ totalActive }} {{ t('attendance_executive.active_employees') }}</VChip>
+              <VChip color="primary" variant="tonal" class="font-weight-bold" label prepend-icon="tabler-calendar-today">{{ today }} {{ t('attendance_executive.today_label') }}</VChip>
+              <VChip color="primary" variant="tonal" class="font-weight-bold" label prepend-icon="tabler-account-group">{{ totalActive }} {{ t('attendance_executive.active_employees') }}</VChip>
             </div>
           </div>
         </VCardText>
@@ -226,6 +226,6 @@ async function generateAiSummary() {
 </template>
 
 <style scoped lang="scss">
-.exec-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #1565c0 100%); }
+.exec-ribbon { border: 0; overflow: hidden;  }
 .trend-table { border-collapse: collapse; width: 100%; th { font-size: 0.75rem; font-weight: 600; text-align: left; padding: 4px 8px; color: rgba(var(--v-theme-on-surface), 0.6); border-bottom: 1px solid rgba(var(--v-border-color), 0.3); } td { padding: 6px 8px; border-bottom: 1px solid rgba(var(--v-border-color), 0.15); vertical-align: middle; } tr:hover td { background: rgba(var(--v-theme-primary), 0.04); } }
 </style>

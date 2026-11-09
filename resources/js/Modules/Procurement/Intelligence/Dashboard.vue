@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -207,7 +207,7 @@ const sevItems = computed(() => [
         <VCard border class="mb-4">
           <VCardTitle>{{ t('spend_intelligence.charts.severity_mix') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts v-if="kpis.open" type="donut" height="240" :options="severityChart.options" :series="severityChart.series" />
+            <MkChart v-if="kpis.open" type="donut" height="240" :options="severityChart.options" :series="severityChart.series" />
             <div v-else class="text-medium-emphasis text-center py-6">{{ t('spend_intelligence.charts.no_data') }}</div>
           </VCardText>
         </VCard>
@@ -215,7 +215,7 @@ const sevItems = computed(() => [
         <VCard border class="mb-4">
           <VCardTitle>{{ t('spend_intelligence.charts.by_type') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts v-if="kpis.open" type="bar" height="260" :options="typeChart.options" :series="typeChart.series" />
+            <MkChart v-if="kpis.open" type="bar" height="260" :options="typeChart.options" :series="typeChart.series" />
             <div v-else class="text-medium-emphasis text-center py-6">{{ t('spend_intelligence.charts.no_data') }}</div>
           </VCardText>
         </VCard>

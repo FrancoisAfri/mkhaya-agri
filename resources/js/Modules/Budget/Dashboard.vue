@@ -2,7 +2,7 @@
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 
 const { t } = useI18n()
 const route = ziggyRoute
@@ -176,7 +176,7 @@ const donutOptions = {
         <VCard border>
           <VCardTitle>{{ t('budgets_dashboard.allocation_by_type.title') }}</VCardTitle>
           <VCardText>
-            <VueApexCharts v-if="donutSeries.length" type="donut" height="280" :options="donutOptions" :series="donutSeries" />
+            <MkChart v-if="donutSeries.length" type="donut" height="280" :options="donutOptions" :series="donutSeries" />
             <div v-else class="text-center text-medium-emphasis py-6">{{ t('budgets_dashboard.allocation_by_type.no_data') }}</div>
             <VTable class="mt-2">
               <thead>

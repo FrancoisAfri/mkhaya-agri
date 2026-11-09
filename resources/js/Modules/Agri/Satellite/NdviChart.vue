@@ -13,7 +13,7 @@ import { computed, defineAsyncComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const props = withDefaults(defineProps<{ series: NdviSeries; height?: number }>(), { height: 280 })
-const VueApexCharts = defineAsyncComponent(() => import('vue3-apexcharts'))
+const VueApexCharts = defineAsyncComponent(() => import('@/Components/Charts/MkChart.vue'))
 const { t } = useI18n()
 const k = (key: string) => t(`agri.satellite.${key}`)
 

@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 const route = ziggyRoute
 const { t } = useI18n()
 
@@ -78,49 +78,49 @@ const has = (a: any[]) => a && a.length > 0
     <VRow>
       <VCol cols="12" md="6" lg="4">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.income_by_account') }}</VCardTitle><VCardText>
-          <VueApexCharts v-if="has(data.income_by_account)" type="donut" :height="290" :options="incomeDonut.options" :series="incomeDonut.series" />
+          <MkChart v-if="has(data.income_by_account)" type="donut" :height="290" :options="incomeDonut.options" :series="incomeDonut.series" />
           <div v-else class="text-center text-medium-emphasis py-12">{{ t('acc.no_income_period') }}</div>
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" md="6" lg="4">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.expenses_by_category') }}</VCardTitle><VCardText>
-          <VueApexCharts v-if="has(data.expenses_by_category)" type="donut" :height="290" :options="expenseDonut.options" :series="expenseDonut.series" />
+          <MkChart v-if="has(data.expenses_by_category)" type="donut" :height="290" :options="expenseDonut.options" :series="expenseDonut.series" />
           <div v-else class="text-center text-medium-emphasis py-12">{{ t('acc.no_expenses_period') }}</div>
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" lg="4">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.receivables_vs_payables') }}</VCardTitle><VCardText>
-          <VueApexCharts type="bar" :height="290" :options="arApOptions" :series="arApSeries" />
+          <MkChart type="bar" :height="290" :options="arApOptions" :series="arApSeries" />
         </VCardText></VCard>
       </VCol>
 
       <VCol cols="12" lg="8">
         <VCard border><VCardTitle class="text-subtitle-1">{{ t('acc.monthly_ien') }} · {{ year }}</VCardTitle><VCardText>
-          <VueApexCharts type="line" :height="320" :options="trendOptions" :series="trendSeries" />
+          <MkChart type="line" :height="320" :options="trendOptions" :series="trendSeries" />
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" lg="4">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.cumulative_net_profit') }} · {{ year }}</VCardTitle><VCardText>
-          <VueApexCharts type="area" :height="320" :options="cumulativeOptions" :series="cumulativeSeries" />
+          <MkChart type="area" :height="320" :options="cumulativeOptions" :series="cumulativeSeries" />
         </VCardText></VCard>
       </VCol>
 
       <VCol cols="12" lg="6">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.top_customers') }}</VCardTitle><VCardText>
-          <VueApexCharts v-if="has(data.income_by_customer)" type="bar" :height="300" :options="customers.options" :series="customers.series" />
+          <MkChart v-if="has(data.income_by_customer)" type="bar" :height="300" :options="customers.options" :series="customers.series" />
           <div v-else class="text-center text-medium-emphasis py-12">{{ t('acc.no_invoiced_revenue') }}</div>
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" lg="6">
         <VCard border class="h-100"><VCardTitle class="text-subtitle-1">{{ t('acc.top_suppliers') }}</VCardTitle><VCardText>
-          <VueApexCharts v-if="has(data.top_suppliers)" type="bar" :height="300" :options="suppliers.options" :series="suppliers.series" />
+          <MkChart v-if="has(data.top_suppliers)" type="bar" :height="300" :options="suppliers.options" :series="suppliers.series" />
           <div v-else class="text-center text-medium-emphasis py-12">{{ t('acc.no_supplier_bills') }}</div>
         </VCardText></VCard>
       </VCol>
 
       <VCol cols="12">
         <VCard border><VCardTitle class="text-subtitle-1">{{ t('acc.expense_mix_by_month') }} · {{ year }}</VCardTitle><VCardText>
-          <VueApexCharts v-if="has(data.expense_monthly.series)" type="bar" :height="320" :options="expOptions" :series="data.expense_monthly.series" />
+          <MkChart v-if="has(data.expense_monthly.series)" type="bar" :height="320" :options="expOptions" :series="data.expense_monthly.series" />
           <div v-else class="text-center text-medium-emphasis py-12">{{ t('acc.no_expense_data_year') }}</div>
         </VCardText></VCard>
       </VCol>

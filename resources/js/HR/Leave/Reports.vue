@@ -460,20 +460,20 @@ function riskColor(score: unknown) {
   <VRow>
     <!-- Ribbon header -->
     <VCol cols="12">
-      <VCard class="leave-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">{{ t('leave.reports_workspace') }}</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('leave.reports_engine') }}</h4>
-            <p class="mb-0 text-white opacity-90">
+            <div class="text-overline">{{ t('leave.reports_workspace') }}</div>
+            <h4 class="text-h4 mb-1">{{ t('leave.reports_engine') }}</h4>
+            <p class="text-medium-emphasis mb-0">
               11 specialised reports — balances, taken leave, transactions, allowances, payouts, pending, cancelled, violations, AI anomalies, burnout risk, and department trends.
             </p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VChip color="white" class="text-primary font-weight-bold" label>
+            <VChip color="primary" variant="tonal" class="font-weight-bold" label>
               {{ activeRows.length }} Active Rows
             </VChip>
-            <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-chart-bar" href="/leave-management/analytics">
+            <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-chart-bar" href="/leave-management/analytics">
               BI Analytics
             </VBtn>
           </div>
@@ -814,7 +814,7 @@ function riskColor(score: unknown) {
 .leave-ribbon {
   border: 0;
   overflow: hidden;
-  background: linear-gradient(135deg, #4a148c 0%, #6A0DAD 100%);
+  
 }
 
 :deep(.v-data-table-header__content) {

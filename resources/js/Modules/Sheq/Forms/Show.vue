@@ -77,7 +77,7 @@ const submitFinal = () => finalise.post(`/sheq/forms/${props.form.uuid}/finalise
          Trust & Authority, applied literally: the instrument, the pack version that produced the
          layout and the audit guarantee are stated as credentials, because the person signing this
          is taking responsibility for it. -->
-    <VCard elevation="0" rounded="lg" class="hero mb-4 no-print">
+    <VCard variant="flat" elevation="0" rounded="lg" class="mb-4 mk-page-head no-print">
       <div class="pa-6">
         <div class="d-flex align-start justify-space-between flex-wrap gap-4">
           <div style="min-inline-size: 0">
@@ -89,7 +89,7 @@ const submitFinal = () => finalise.post(`/sheq/forms/${props.form.uuid}/finalise
             </div>
 
             <h1 class="hero-title">{{ form.title }}</h1>
-            <p v-if="form.content.instrument" class="hero-instrument">
+            <p v-if="form.content.instrument" class="text-medium-emphasis hero-instrument">
               {{ form.content.instrument }}
             </p>
 
@@ -340,8 +340,6 @@ const submitFinal = () => finalise.post(`/sheq/forms/${props.form.uuid}/finalise
 /* Trust & Authority, scoped to this page rather than imposed on the app: navy carries the
    institutional weight, and the gold rule is the certification accent the style calls for. */
 .hero {
-  background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
-  color: #fff;
   border-block-end: 3px solid #B45309;
 }
 

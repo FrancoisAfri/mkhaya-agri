@@ -5,7 +5,7 @@
  * stopped reporting. Points measured late are drawn where they were measured.
  */
 import { computed, onMounted, ref, watch } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import axios from 'axios'
 import { ago } from '../Agriculture/prd'
 
@@ -68,7 +68,7 @@ const options = computed(() => {
     <VProgressLinear v-if="loading" indeterminate height="2" />
     <VAlert v-if="failed" type="warning" variant="tonal" density="compact">The readings could not be loaded.</VAlert>
     <div v-else-if="data && !data.points.length" class="text-caption text-medium-emphasis py-6 text-center">No readings in this period.</div>
-    <VueApexCharts v-else-if="data" type="line" :height="height" :options="options" :series="series" />
+    <MkChart v-else-if="data" type="line" :height="height" :options="options" :series="series" />
     <div v-if="data" class="text-caption text-medium-emphasis">Times in {{ data.timezone }}.</div>
   </div>
 </template>

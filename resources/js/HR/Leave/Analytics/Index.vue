@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useI18n } from 'vue-i18n'
 
@@ -204,7 +204,7 @@ const deptSeries = computed(() => [{ name: 'Requests', data: props.byDepartment.
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('leave.monthly_leave_trend') }}</VCardTitle><VCardSubtitle>Requests submitted, approved, and pending per month</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="monthlyTrend.length" type="line" :height="280" :options="trendOptions" :series="trendSeries" />
+            <MkChart v-if="monthlyTrend.length" type="line" :height="280" :options="trendOptions" :series="trendSeries" />
             <VEmptyState v-else icon="tabler-chart-line" title="No trend data" text="No leave requests found for this period." size="80" />
           </VCardText>
         </VCard>
@@ -213,7 +213,7 @@ const deptSeries = computed(() => [{ name: 'Requests', data: props.byDepartment.
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('leave.by_status') }}</VCardTitle><VCardSubtitle>Request distribution by approval status</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byStatus.length" type="donut" :height="280" :options="byStatusOptions" :series="byStatusSeries" />
+            <MkChart v-if="byStatus.length" type="donut" :height="280" :options="byStatusOptions" :series="byStatusSeries" />
             <VEmptyState v-else icon="tabler-calendar" title="No data" size="60" />
           </VCardText>
         </VCard>
@@ -225,7 +225,7 @@ const deptSeries = computed(() => [{ name: 'Requests', data: props.byDepartment.
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('leave.requests_by_leave_type') }}</VCardTitle><VCardSubtitle>Volume of applications per leave category</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byLeaveType.length" type="bar" :height="260" :options="byTypeOptions" :series="byTypeSeries" />
+            <MkChart v-if="byLeaveType.length" type="bar" :height="260" :options="byTypeOptions" :series="byTypeSeries" />
             <VEmptyState v-else icon="tabler-tag" title="No leave type data" size="70" />
           </VCardText>
         </VCard>
@@ -234,7 +234,7 @@ const deptSeries = computed(() => [{ name: 'Requests', data: props.byDepartment.
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('leave.by_department') }}</VCardTitle><VCardSubtitle>Leave requests per department</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byDepartment.length" type="bar" :height="260" :options="deptOptions" :series="deptSeries" />
+            <MkChart v-if="byDepartment.length" type="bar" :height="260" :options="deptOptions" :series="deptSeries" />
             <VEmptyState v-else icon="tabler-office-building" title="No department data" size="70" />
           </VCardText>
         </VCard>

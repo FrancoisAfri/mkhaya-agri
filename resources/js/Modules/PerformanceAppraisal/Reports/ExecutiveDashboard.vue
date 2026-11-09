@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useTheme } from 'vuetify'
 import { useI18n } from 'vue-i18n'
 import type { ApexOptions } from 'apexcharts'
@@ -102,16 +102,16 @@ const topEmpSeries = computed(() => [{ name: 'Score', data: props.topEmployees.m
 <template>
   <VRow>
     <VCol cols="12">
-      <VCard class="exec-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">{{ t('pa_reports.module') }}</div>
-            <h4 class="text-h4 text-white mb-1">{{ t('pa_reports.exec_title') }}</h4>
-            <p class="mb-0 text-white opacity-90">{{ t('pa_reports.exec_subtitle') }}</p>
+            <div class="text-overline">{{ t('pa_reports.module') }}</div>
+            <h4 class="text-h4 mb-1">{{ t('pa_reports.exec_title') }}</h4>
+            <p class="text-medium-emphasis mb-0">{{ t('pa_reports.exec_subtitle') }}</p>
           </div>
           <div class="d-flex flex-column align-end gap-2">
-            <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-table" href="/performance/reports">{{ t('pa_reports.reports_engine') }}</VBtn>
-            <VBtn variant="outlined" color="white" size="small" prepend-icon="tabler-calendar-clock" href="/performance/reports/scheduled">{{ t('pa_reports.scheduled_reports') }}</VBtn>
+            <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-table" href="/performance/reports">{{ t('pa_reports.reports_engine') }}</VBtn>
+            <VBtn variant="outlined" color="primary" size="small" prepend-icon="tabler-calendar-clock" href="/performance/reports/scheduled">{{ t('pa_reports.scheduled_reports') }}</VBtn>
           </div>
         </VCardText>
       </VCard>
@@ -126,13 +126,13 @@ const topEmpSeries = computed(() => [{ name: 'Score', data: props.topEmployees.m
     <VCol cols="6" sm="4" md="3" lg=""><VCard variant="tonal" color="deep-orange" class="h-100"><VCardText class="pa-4"><p class="text-caption mb-1 text-medium-emphasis">{{ t('pa_reports.exec_kpi.burnout_risks') }}</p><p class="text-h4 font-weight-bold">{{ kpis.burnout_risks }}</p><p class="text-caption mt-1">{{ t('pa_reports.exec_kpi.burnout_sub') }}</p></VCardText></VCard></VCol>
     <VCol cols="6" sm="4" md="3" lg=""><VCard variant="tonal" color="red-darken-2" class="h-100"><VCardText class="pa-4"><p class="text-caption mb-1 text-medium-emphasis">{{ t('pa_reports.exec_kpi.open_violations') }}</p><p class="text-h4 font-weight-bold">{{ kpis.open_violations }}</p><p class="text-caption mt-1">{{ t('pa_reports.exec_kpi.violations_sub') }}</p></VCardText></VCard></VCol>
 
-    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="primary" size="20">tabler-chart-donut</VIcon>{{ t('pa_reports.chart.score_distribution') }}</VCardTitle><VCardText><VueApexCharts v-if="distDonutSeries.length && distDonutSeries.some(v => v > 0)" type="donut" height="300" :options="distDonutOptions" :series="distDonutSeries" /><div v-else class="pa-8 text-center text-medium-emphasis"><VIcon size="40" class="mb-2 d-block mx-auto">tabler-chart-donut</VIcon>{{ t('pa_reports.empty_states.no_score_data') }}</div></VCardText></VCard></VCol>
-    <VCol cols="12" md="8"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="indigo" size="20">tabler-chart-line</VIcon>{{ t('pa_reports.chart.cycle_trend') }}</VCardTitle><VCardText><VueApexCharts v-if="cycleTrend.length" type="line" height="300" :options="trendOptions" :series="trendSeries" /><div v-else class="pa-8 text-center text-medium-emphasis"><VIcon size="40" class="mb-2 d-block mx-auto">tabler-chart-line</VIcon>{{ t('pa_reports.empty_states.no_cycle_data') }}</div></VCardText></VCard></VCol>
-    <VCol cols="12" md="8"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="teal" size="20">tabler-building</VIcon>{{ t('pa_reports.chart.dept_scores') }}</VCardTitle><VCardText><VueApexCharts v-if="deptScores.length" type="bar" :height="Math.max(250, deptScores.length * 38)" :options="deptBarOptions" :series="deptBarSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_dept_data') }}</div></VCardText></VCard></VCol>
-    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="warning" size="20">tabler-clipboard-list</VIcon>{{ t('pa_reports.chart.pip_status') }}</VCardTitle><VCardText><VueApexCharts v-if="pipDonutSeries.length && pipDonutSeries.some(v => v > 0)" type="donut" height="260" :options="pipDonutOptions" :series="pipDonutSeries" /><div v-else class="pa-8 text-center text-medium-emphasis"><VIcon size="40" class="mb-2 d-block mx-auto">tabler-clipboard-check</VIcon>{{ t('pa_reports.empty_states.no_pip_data') }}</div></VCardText></VCard></VCol>
-    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="blue-grey" size="20">tabler-message-dots</VIcon>{{ t('pa_reports.chart.feedback_type') }}</VCardTitle><VCardText><VueApexCharts v-if="feedbackBarSeries[0].data.length" type="bar" height="260" :options="feedbackBarOptions" :series="feedbackBarSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_feedback_data') }}</div></VCardText></VCard></VCol>
-    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="cyan" size="20">tabler-rosette-discount-check</VIcon>{{ t('pa_reports.chart.kpi_status') }}</VCardTitle><VCardText><VueApexCharts v-if="kpiStatusSeries.length && kpiStatusSeries.some(v => v > 0)" type="pie" height="260" :options="kpiStatusOptions" :series="kpiStatusSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_kpi_data') }}</div></VCardText></VCard></VCol>
-    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="success" size="20">tabler-trophy</VIcon>{{ t('pa_reports.chart.top_performers') }}</VCardTitle><VCardText><VueApexCharts v-if="topEmployees.length" type="bar" :height="Math.max(240, topEmployees.length * 32)" :options="topEmpOptions" :series="topEmpSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_employee_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="primary" size="20">tabler-chart-donut</VIcon>{{ t('pa_reports.chart.score_distribution') }}</VCardTitle><VCardText><MkChart v-if="distDonutSeries.length && distDonutSeries.some(v => v > 0)" type="donut" height="300" :options="distDonutOptions" :series="distDonutSeries" /><div v-else class="pa-8 text-center text-medium-emphasis"><VIcon size="40" class="mb-2 d-block mx-auto">tabler-chart-donut</VIcon>{{ t('pa_reports.empty_states.no_score_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="8"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="indigo" size="20">tabler-chart-line</VIcon>{{ t('pa_reports.chart.cycle_trend') }}</VCardTitle><VCardText><MkChart v-if="cycleTrend.length" type="line" height="300" :options="trendOptions" :series="trendSeries" /><div v-else class="pa-8 text-center text-medium-emphasis"><VIcon size="40" class="mb-2 d-block mx-auto">tabler-chart-line</VIcon>{{ t('pa_reports.empty_states.no_cycle_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="8"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="teal" size="20">tabler-building</VIcon>{{ t('pa_reports.chart.dept_scores') }}</VCardTitle><VCardText><MkChart v-if="deptScores.length" type="bar" :height="Math.max(250, deptScores.length * 38)" :options="deptBarOptions" :series="deptBarSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_dept_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="warning" size="20">tabler-clipboard-list</VIcon>{{ t('pa_reports.chart.pip_status') }}</VCardTitle><VCardText><MkChart v-if="pipDonutSeries.length && pipDonutSeries.some(v => v > 0)" type="donut" height="260" :options="pipDonutOptions" :series="pipDonutSeries" /><div v-else class="pa-8 text-center text-medium-emphasis"><VIcon size="40" class="mb-2 d-block mx-auto">tabler-clipboard-check</VIcon>{{ t('pa_reports.empty_states.no_pip_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="blue-grey" size="20">tabler-message-dots</VIcon>{{ t('pa_reports.chart.feedback_type') }}</VCardTitle><VCardText><MkChart v-if="feedbackBarSeries[0].data.length" type="bar" height="260" :options="feedbackBarOptions" :series="feedbackBarSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_feedback_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="cyan" size="20">tabler-rosette-discount-check</VIcon>{{ t('pa_reports.chart.kpi_status') }}</VCardTitle><VCardText><MkChart v-if="kpiStatusSeries.length && kpiStatusSeries.some(v => v > 0)" type="pie" height="260" :options="kpiStatusOptions" :series="kpiStatusSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_kpi_data') }}</div></VCardText></VCard></VCol>
+    <VCol cols="12" md="4"><VCard class="h-100"><VCardTitle class="d-flex align-center gap-2 pa-4 pb-2"><VIcon color="success" size="20">tabler-trophy</VIcon>{{ t('pa_reports.chart.top_performers') }}</VCardTitle><VCardText><MkChart v-if="topEmployees.length" type="bar" :height="Math.max(240, topEmployees.length * 32)" :options="topEmpOptions" :series="topEmpSeries" /><div v-else class="pa-8 text-center text-medium-emphasis">{{ t('pa_reports.empty_states.no_employee_data') }}</div></VCardText></VCard></VCol>
 
     <VCol cols="12">
       <VCard><VCardTitle class="d-flex align-center gap-2 pa-4 pb-0"><VIcon color="primary" size="20">tabler-list</VIcon>{{ t('pa_reports.chart.score_band_summary') }}</VCardTitle>
@@ -148,5 +148,5 @@ const topEmpSeries = computed(() => [{ name: 'Score', data: props.topEmployees.m
 </template>
 
 <style scoped lang="scss">
-.exec-ribbon { border: 0; overflow: hidden; background: linear-gradient(135deg, #0d47a1 0%, #6A0DAD 60%, #9c27b0 100%); }
+.exec-ribbon { border: 0; overflow: hidden;  }
 </style>

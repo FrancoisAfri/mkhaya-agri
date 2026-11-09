@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useI18n } from 'vue-i18n'
 
@@ -306,7 +306,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Average performance score over time (target: 3.5)</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="scoreTrend.length" type="line" :height="280" :options="scoreTrendOptions" :series="scoreTrendSeries" />
+            <MkChart v-if="scoreTrend.length" type="line" :height="280" :options="scoreTrendOptions" :series="scoreTrendSeries" />
             <VEmptyState v-else icon="tabler-chart-line" :title="t('pa.analytics.no_scores')" :text="t('pa.analytics.no_scores_sub')" size="80" />
           </VCardText>
         </VCard>
@@ -318,7 +318,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Employees per score band (1–5)</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="scoreDistribution.length" type="bar" :height="280" :options="scoreDistOptions" :series="scoreDistSeries" />
+            <MkChart v-if="scoreDistribution.length" type="bar" :height="280" :options="scoreDistOptions" :series="scoreDistSeries" />
             <VEmptyState v-else icon="tabler-chart-bar" :title="t('pa.analytics.no_distribution_data')" size="60" />
           </VCardText>
         </VCard>
@@ -334,7 +334,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Average score per department</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="deptPerformance.length" type="bar" :height="300" :options="deptPerfOptions" :series="deptPerfSeries" />
+            <MkChart v-if="deptPerformance.length" type="bar" :height="300" :options="deptPerfOptions" :series="deptPerfSeries" />
             <VEmptyState v-else icon="tabler-building" :title="t('pa.analytics.no_dept_data')" size="70" />
           </VCardText>
         </VCard>
@@ -346,7 +346,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Percentage of KPIs marked completed</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="kpiCompletion.length" type="bar" :height="300" :options="kpiCompOptions" :series="kpiCompSeries" />
+            <MkChart v-if="kpiCompletion.length" type="bar" :height="300" :options="kpiCompOptions" :series="kpiCompSeries" />
             <VEmptyState v-else icon="tabler-circle-check" :title="t('pa.analytics.no_kpi_data')" size="70" />
           </VCardText>
         </VCard>
@@ -362,7 +362,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Performance improvement plans by status</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="pipStatus.length" type="donut" :height="260" :options="pipStatusOptions" :series="pipStatusSeries" />
+            <MkChart v-if="pipStatus.length" type="donut" :height="260" :options="pipStatusOptions" :series="pipStatusSeries" />
             <VEmptyState v-else icon="tabler-clipboard-exclamation" :title="t('pa.analytics.no_pip_data')" size="60" />
           </VCardText>
         </VCard>
@@ -374,7 +374,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Monthly 360° and peer feedback submissions</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="feedbackTrend.length" type="area" :height="260" :options="feedbackTrendOptions" :series="feedbackTrendSeries" />
+            <MkChart v-if="feedbackTrend.length" type="area" :height="260" :options="feedbackTrendOptions" :series="feedbackTrendSeries" />
             <VEmptyState v-else icon="tabler-messages" :title="t('pa.analytics.no_feedback_data')" size="60" />
           </VCardText>
         </VCard>
@@ -386,7 +386,7 @@ const probationSeries = computed(() => props.probationSummary.map(r => r.count))
             <VCardSubtitle>Outcomes by status</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="probationSummary.length" type="pie" :height="260" :options="probationOptions" :series="probationSeries" />
+            <MkChart v-if="probationSummary.length" type="pie" :height="260" :options="probationOptions" :series="probationSeries" />
             <VEmptyState v-else icon="tabler-user-clock" :title="t('pa.analytics.no_probation_data')" size="60" />
           </VCardText>
         </VCard>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
@@ -243,7 +243,7 @@ const tiles = computed(() => props.summary ? [
           <VCardSubtitle>{{ t('project_management.monthly_reporting.trend_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="line" :height="300" :options="trendOptions" :series="trendSeries" />
+          <MkChart type="line" :height="300" :options="trendOptions" :series="trendSeries" />
         </VCardText>
       </VCard>
 
@@ -254,7 +254,7 @@ const tiles = computed(() => props.summary ? [
               <VCardTitle class="text-body-1">{{ t('project_management.monthly_reporting.by_stage') }}</VCardTitle>
             </VCardItem>
             <VCardText>
-              <VueApexCharts
+              <MkChart
                 v-if="stageSeries.length" type="donut" :height="280"
                 :options="mixOptions(stageLabels, STAGE_COLOURS)" :series="stageSeries"
               />
@@ -271,7 +271,7 @@ const tiles = computed(() => props.summary ? [
               <VCardTitle class="text-body-1">{{ t('project_management.monthly_reporting.by_status') }}</VCardTitle>
             </VCardItem>
             <VCardText>
-              <VueApexCharts
+              <MkChart
                 v-if="statusSeries.length" type="donut" :height="280"
                 :options="mixOptions(statusLabels, STATUS_COLOURS)" :series="statusSeries"
               />
@@ -289,7 +289,7 @@ const tiles = computed(() => props.summary ? [
               <VCardSubtitle>{{ t('project_management.monthly_reporting.by_progress_sub') }}</VCardSubtitle>
             </VCardItem>
             <VCardText>
-              <VueApexCharts type="bar" :height="260" :options="bandOptions" :series="bandSeries" />
+              <MkChart type="bar" :height="260" :options="bandOptions" :series="bandSeries" />
             </VCardText>
           </VCard>
         </VCol>
@@ -334,7 +334,7 @@ const tiles = computed(() => props.summary ? [
           <VCardSubtitle>{{ t('project_management.monthly_reporting.cashflow_heading') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="280" :options="cashflowOptions" :series="cashflowSeries" />
+          <MkChart type="bar" :height="280" :options="cashflowOptions" :series="cashflowSeries" />
         </VCardText>
       </VCard>
     </template>

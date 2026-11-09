@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, computed } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 interface Series { categories: string[]; reps: { name: string; data: number[] }[] }
@@ -45,7 +45,7 @@ const options = computed<ApexOptions>(() => ({
       </div>
     </VCardTitle>
     <VCardText>
-      <VueApexCharts v-if="hasData" type="bar" :height="360" :options="options" :series="series" />
+      <MkChart v-if="hasData" type="bar" :height="360" :options="options" :series="series" />
       <div v-else class="text-medium-emphasis text-body-2 py-8 text-center">
         No won-revenue data yet for the {{ mode }} view.
       </div>

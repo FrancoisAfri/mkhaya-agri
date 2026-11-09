@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -71,19 +71,19 @@ const promoSeries = computed(() => ({
     <VRow>
       <VCol cols="12" md="6">
         <VCard border><VCardText>
-          <VueApexCharts v-if="genderAvg.labels.length" type="bar" height="280" :options="barOptions(genderAvg.labels, t('pa_dei.charts.avg_score_gender'))" :series="genderAvg.series" />
+          <MkChart v-if="genderAvg.labels.length" type="bar" height="280" :options="barOptions(genderAvg.labels, t('pa_dei.charts.avg_score_gender'))" :series="genderAvg.series" />
           <div v-else class="text-center py-10 text-medium-emphasis">{{ t('pa_dei.empty.no_data') }}</div>
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" md="6">
         <VCard border><VCardText>
-          <VueApexCharts v-if="ethnicityAvg.labels.length" type="bar" height="280" :options="barOptions(ethnicityAvg.labels, t('pa_dei.charts.avg_score_ethnicity'))" :series="ethnicityAvg.series" />
+          <MkChart v-if="ethnicityAvg.labels.length" type="bar" height="280" :options="barOptions(ethnicityAvg.labels, t('pa_dei.charts.avg_score_ethnicity'))" :series="ethnicityAvg.series" />
           <div v-else class="text-center py-10 text-medium-emphasis">{{ t('pa_dei.empty.no_data') }}</div>
         </VCardText></VCard>
       </VCol>
       <VCol cols="12" md="6">
         <VCard border><VCardText>
-          <VueApexCharts v-if="promoSeries.labels.length" type="bar" height="280" :options="barOptions(promoSeries.labels, t('pa_dei.charts.promotion_ready_gender'))" :series="promoSeries.series" />
+          <MkChart v-if="promoSeries.labels.length" type="bar" height="280" :options="barOptions(promoSeries.labels, t('pa_dei.charts.promotion_ready_gender'))" :series="promoSeries.series" />
           <div v-else class="text-center py-10 text-medium-emphasis">{{ t('pa_dei.empty.no_promotion') }}</div>
         </VCardText></VCard>
       </VCol>

@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useI18n } from 'vue-i18n'
 
@@ -283,7 +283,7 @@ const learnershipStatusColor: Record<string, string> = {
             <VCardSubtitle>{{ t('lms-admins_analytic.charts.enrolment_trend.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="enrollmentTrend.length" type="line" :height="280" :options="trendOptions" :series="trendSeries" />
+            <MkChart v-if="enrollmentTrend.length" type="line" :height="280" :options="trendOptions" :series="trendSeries" />
             <VEmptyState v-else icon="tabler-chart-line" :title="t('lms-admins_analytic.charts.enrolment_trend.empty_title')" :text="t('lms-admins_analytic.charts.enrolment_trend.empty_text')" size="80" />
           </VCardText>
         </VCard>
@@ -295,7 +295,7 @@ const learnershipStatusColor: Record<string, string> = {
             <VCardSubtitle>{{ t('lms-admins_analytic.charts.compliance_rate.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="complianceRate.length" type="line" :height="280" :options="complianceLineOptions" :series="complianceLineSeries" />
+            <MkChart v-if="complianceRate.length" type="line" :height="280" :options="complianceLineOptions" :series="complianceLineSeries" />
             <VEmptyState v-else icon="tabler-shield-check" :title="t('lms-admins_analytic.charts.compliance_rate.empty_title')" size="60" />
           </VCardText>
         </VCard>
@@ -311,7 +311,7 @@ const learnershipStatusColor: Record<string, string> = {
             <VCardSubtitle>{{ t('lms-admins_analytic.charts.completion_by_course.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="completionByCourse.length" type="bar" :height="260" :options="completionByCourseOptions" :series="completionByCourseSeries" />
+            <MkChart v-if="completionByCourse.length" type="bar" :height="260" :options="completionByCourseOptions" :series="completionByCourseSeries" />
             <VEmptyState v-else icon="tabler-books" :title="t('lms-admins_analytic.charts.completion_by_course.empty_title')" size="70" />
           </VCardText>
         </VCard>
@@ -323,7 +323,7 @@ const learnershipStatusColor: Record<string, string> = {
             <VCardSubtitle>{{ t('lms-admins_analytic.charts.department_progress.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="departmentProgress.length" type="bar" :height="260" :options="deptProgressOptions" :series="deptProgressSeries" />
+            <MkChart v-if="departmentProgress.length" type="bar" :height="260" :options="deptProgressOptions" :series="deptProgressSeries" />
             <VEmptyState v-else icon="tabler-office-building" :title="t('lms-admins_analytic.charts.department_progress.empty_title')" size="70" />
           </VCardText>
         </VCard>
@@ -339,7 +339,7 @@ const learnershipStatusColor: Record<string, string> = {
             <VCardSubtitle>{{ t('lms-admins_analytic.charts.skills_gap.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="skillsGapTop.length" type="bar" :height="260" :options="skillsGapOptions" :series="skillsGapSeries" />
+            <MkChart v-if="skillsGapTop.length" type="bar" :height="260" :options="skillsGapOptions" :series="skillsGapSeries" />
             <VEmptyState v-else icon="tabler-chart-bar" :title="t('lms-admins_analytic.charts.skills_gap.empty_title')" :text="t('lms-admins_analytic.charts.skills_gap.empty_text')" size="80" />
           </VCardText>
         </VCard>

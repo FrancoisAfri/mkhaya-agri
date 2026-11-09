@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 const { t } = useI18n()
@@ -110,13 +110,13 @@ const commsOptions = computed<ApexOptions>(() => ({
     <VRow>
       <VCol cols="12" md="8">
         <VCard :title="t('crm_analytics_index.charts.deals_vs_won')">
-          <VCardText><VueApexCharts type="line" :height="300" :options="trendOptions" :series="trendSeries" /></VCardText>
+          <VCardText><MkChart type="line" :height="300" :options="trendOptions" :series="trendSeries" /></VCardText>
         </VCard>
       </VCol>
       <VCol cols="12" md="4">
         <VCard :title="t('crm_analytics_index.charts.lead_sources')">
           <VCardText>
-            <VueApexCharts v-if="leadSourceMix.length" type="donut" :height="300" :options="sourceOptions" :series="sourceSeries" />
+            <MkChart v-if="leadSourceMix.length" type="donut" :height="300" :options="sourceOptions" :series="sourceSeries" />
             <div v-else class="text-medium-emphasis text-body-2">{{ t('crm_analytics_index.charts.no_leads') }}</div>
           </VCardText>
         </VCard>
@@ -124,13 +124,13 @@ const commsOptions = computed<ApexOptions>(() => ({
 
       <VCol cols="12" md="6">
         <VCard :title="t('crm_analytics_index.charts.new_leads')">
-          <VCardText><VueApexCharts type="area" :height="280" :options="leadsOptions" :series="leadsSeries" /></VCardText>
+          <VCardText><MkChart type="area" :height="280" :options="leadsOptions" :series="leadsSeries" /></VCardText>
         </VCard>
       </VCol>
       <VCol cols="12" md="6">
         <VCard :title="t('crm_analytics_index.charts.pipeline_funnel')">
           <VCardText>
-            <VueApexCharts v-if="funnel.length" type="bar" :height="280" :options="funnelOptions" :series="funnelSeries" />
+            <MkChart v-if="funnel.length" type="bar" :height="280" :options="funnelOptions" :series="funnelSeries" />
             <div v-else class="text-medium-emphasis text-body-2">{{ t('crm_analytics_index.charts.no_pipeline') }}</div>
           </VCardText>
         </VCard>
@@ -138,14 +138,14 @@ const commsOptions = computed<ApexOptions>(() => ({
 
       <VCol cols="12">
         <VCard :title="t('crm_analytics_index.charts.calls_emails')">
-          <VCardText><VueApexCharts type="line" :height="280" :options="commsOptions" :series="commsSeries" /></VCardText>
+          <VCardText><MkChart type="line" :height="280" :options="commsOptions" :series="commsSeries" /></VCardText>
         </VCard>
       </VCol>
 
       <VCol cols="12" md="6">
         <VCard :title="t('crm_analytics_index.charts.activity_volume')">
           <VCardText>
-            <VueApexCharts v-if="activityVolume.length" type="bar" :height="260" :options="actOptions" :series="actSeries" />
+            <MkChart v-if="activityVolume.length" type="bar" :height="260" :options="actOptions" :series="actSeries" />
             <div v-else class="text-medium-emphasis text-body-2">{{ t('crm_analytics_index.charts.no_activities') }}</div>
           </VCardText>
         </VCard>

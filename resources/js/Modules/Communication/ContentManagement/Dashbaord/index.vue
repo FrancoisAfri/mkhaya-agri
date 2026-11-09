@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, watch } from 'vue'
-import VueApexCharts       from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useTheme }        from 'vuetify'
 import { hexToRgb } from '@/@core/utils/colorConverter'
 import { useI18n } from 'vue-i18n'
@@ -184,9 +184,9 @@ const spotDonutSeries = computed(() =>
   <div>
 
     <VCard flat class="mb-6">
-      <div class="hero-bg pa-8">
-        <h2 class="text-h4 font-weight-bold text-white mb-1">{{ t('communication_dashboard.page_title') }}</h2>
-        <p class="text-white mb-0" style="opacity:.8">{{ t('communication_dashboard.subtitle') }}</p>
+      <div class="mb-4 mk-page-head">
+        <h2 class="text-h4 font-weight-bold mb-1">{{ t('communication_dashboard.page_title') }}</h2>
+        <p class="text-medium-emphasis mb-0">{{ t('communication_dashboard.subtitle') }}</p>
       </div>
     </VCard>
 
@@ -219,7 +219,7 @@ const spotDonutSeries = computed(() =>
             <VCardSubtitle>{{ t('communication_dashboard.trend.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="monthlyTrends.length"
               type="area"
               :series="trendSeries"
@@ -243,7 +243,7 @@ const spotDonutSeries = computed(() =>
             <VCardSubtitle>{{ t('communication_dashboard.content_breakdown.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="donutSeries.some(v => v > 0)"
               type="donut"
               :series="donutSeries"
@@ -264,7 +264,7 @@ const spotDonutSeries = computed(() =>
             <VCardSubtitle>{{ t('communication_dashboard.active_inactive.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="contentStats.length"
               type="bar"
               :series="activeBarSeries"
@@ -322,7 +322,7 @@ const spotDonutSeries = computed(() =>
             <VCardSubtitle>{{ t('communication_dashboard.spotlight_distribution.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts
+            <MkChart
               v-if="spotDonutSeries.some(v => v > 0)"
               type="donut"
               :series="spotDonutSeries"
@@ -436,7 +436,7 @@ const spotDonutSeries = computed(() =>
 @use "@core/scss/template/libs/apex-chart.scss";
 
 .hero-bg {
-  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
+  
   border-radius: 12px;
   position: relative;
   overflow: hidden;

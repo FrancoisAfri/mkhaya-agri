@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useTheme } from 'vuetify'
 import { useI18n } from 'vue-i18n'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 /**
@@ -281,7 +281,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.position_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="donut" :height="h" :options="positionOptions" :series="positionSeries" />
+          <MkChart type="donut" :height="h" :options="positionOptions" :series="positionSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -293,7 +293,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.bands_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="donut" :height="h" :options="bandOptions" :series="bandSeries" />
+          <MkChart type="donut" :height="h" :options="bandOptions" :series="bandSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -305,7 +305,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.alerts_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="donut" :height="h" :options="alertOptions" :series="alertSeries" />
+          <MkChart type="donut" :height="h" :options="alertOptions" :series="alertSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -315,7 +315,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
       <VCard border class="h-100">
         <VCardItem><VCardTitle class="text-body-1">{{ t('budgets_insights.chart.by_category') }}</VCardTitle></VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             type="bar" :height="h"
             :options="compositionOptions(charts.by_category)" :series="compositionSeries(charts.by_category)"
           />
@@ -327,7 +327,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
       <VCard border class="h-100">
         <VCardItem><VCardTitle class="text-body-1">{{ t('budgets_insights.chart.by_type') }}</VCardTitle></VCardItem>
         <VCardText>
-          <VueApexCharts
+          <MkChart
             type="bar" :height="h"
             :options="compositionOptions(charts.by_expenditure_type)" :series="compositionSeries(charts.by_expenditure_type)"
           />
@@ -343,7 +343,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.spend_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts v-if="hasSpend" :height="h" :options="spendOptions" :series="spendSeries" />
+          <MkChart v-if="hasSpend" :height="h" :options="spendOptions" :series="spendSeries" />
           <!-- An empty chart reads as broken; the sentence says which screen fills it. -->
           <div v-else class="text-center text-medium-emphasis py-8 text-body-2">
             {{ t('budgets_insights.chart.spend_empty') }}
@@ -359,7 +359,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.pipeline_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="area" :height="h" :options="encumbranceOptions" :series="encumbranceSeries" />
+          <MkChart type="area" :height="h" :options="encumbranceOptions" :series="encumbranceSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -372,7 +372,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.backlog_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="backlogOptions" :series="backlogSeries" />
+          <MkChart type="bar" :height="h" :options="backlogOptions" :series="backlogSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -384,7 +384,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.cycle_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="cycleOptions" :series="cycleSeries" />
+          <MkChart type="bar" :height="h" :options="cycleOptions" :series="cycleSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -393,7 +393,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
       <VCard border class="h-100">
         <VCardItem><VCardTitle class="text-body-1">{{ t('budgets_insights.chart.adjustments_title') }}</VCardTitle></VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="adjustmentOptions" :series="adjustmentSeries" />
+          <MkChart type="bar" :height="h" :options="adjustmentOptions" :series="adjustmentSeries" />
         </VCardText>
       </VCard>
     </VCol>
@@ -405,7 +405,7 @@ const hasSpend = computed(() => props.charts.spend_trend.some(r => r.amount > 0)
           <VCardSubtitle>{{ t('budgets_insights.chart.source_sub') }}</VCardSubtitle>
         </VCardItem>
         <VCardText>
-          <VueApexCharts type="bar" :height="h" :options="sourceOptions" :series="sourceSeries" />
+          <MkChart type="bar" :height="h" :options="sourceOptions" :series="sourceSeries" />
         </VCardText>
       </VCard>
     </VCol>

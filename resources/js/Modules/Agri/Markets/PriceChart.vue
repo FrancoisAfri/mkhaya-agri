@@ -7,7 +7,7 @@ import { computed, defineAsyncComponent } from 'vue'
 
 type Series = { key: string; label: string; unit: string; currency: string; points: Array<{ date: string; price: number }> }
 const props = withDefaults(defineProps<{ series: Series[]; height?: number }>(), { height: 320 })
-const VueApexCharts = defineAsyncComponent(() => import('vue3-apexcharts'))
+const VueApexCharts = defineAsyncComponent(() => import('@/Components/Charts/MkChart.vue'))
 const ms = (d: string) => new Date(`${d}T00:00:00`).getTime()
 
 const chartSeries = computed(() => props.series.map(s => ({ name: s.label, data: s.points.map(p => ({ x: ms(p.date), y: p.price })) })))

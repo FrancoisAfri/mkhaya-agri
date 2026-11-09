@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 import { useI18n } from 'vue-i18n'
 
@@ -187,7 +187,7 @@ const deptHeaders = computed(() => [
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('attendance_analytics.attendance_trend') }}</VCardTitle><VCardSubtitle>{{ t('attendance_analytics.trend_sub') }}</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="attendanceTrend.length" type="line" :height="280" :options="attendTrendOptions" :series="attendTrendSeries" />
+            <MkChart v-if="attendanceTrend.length" type="line" :height="280" :options="attendTrendOptions" :series="attendTrendSeries" />
             <VEmptyState v-else icon="tabler-chart-line" :title="t('attendance_analytics.no_attendance_data')" :text="t('attendance_analytics.no_records_found')" size="80" />
           </VCardText>
         </VCard>
@@ -196,7 +196,7 @@ const deptHeaders = computed(() => [
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('attendance_analytics.by_status') }}</VCardTitle><VCardSubtitle>{{ t('attendance_analytics.status_sub') }}</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byStatus.length" type="donut" :height="280" :options="byStatusOptions" :series="byStatusSeries" />
+            <MkChart v-if="byStatus.length" type="donut" :height="280" :options="byStatusOptions" :series="byStatusSeries" />
             <VEmptyState v-else icon="tabler-calendar-check" :title="t('attendance_analytics.no_status_data')" size="60" />
           </VCardText>
         </VCard>
@@ -208,7 +208,7 @@ const deptHeaders = computed(() => [
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('attendance_analytics.avg_hours_trend') }}</VCardTitle><VCardSubtitle>{{ t('attendance_analytics.hours_trend_sub') }}</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="hoursTrend.length" type="area" :height="260" :options="hoursTrendOptions" :series="hoursTrendSeries" />
+            <MkChart v-if="hoursTrend.length" type="area" :height="260" :options="hoursTrendOptions" :series="hoursTrendSeries" />
             <VEmptyState v-else icon="tabler-timer" :title="t('attendance_analytics.no_hours_data')" size="70" />
           </VCardText>
         </VCard>
@@ -217,7 +217,7 @@ const deptHeaders = computed(() => [
         <VCard height="100%">
           <VCardItem><VCardTitle>{{ t('attendance_analytics.overtime_trend') }}</VCardTitle><VCardSubtitle>{{ t('attendance_analytics.overtime_trend_sub') }}</VCardSubtitle></VCardItem>
           <VCardText>
-            <VueApexCharts v-if="overtimeTrend.length" type="bar" :height="260" :options="otTrendOptions" :series="otTrendSeries" />
+            <MkChart v-if="overtimeTrend.length" type="bar" :height="260" :options="otTrendOptions" :series="otTrendSeries" />
             <VEmptyState v-else icon="tabler-clock-plus" :title="t('attendance_analytics.no_overtime_data')" size="70" />
           </VCardText>
         </VCard>

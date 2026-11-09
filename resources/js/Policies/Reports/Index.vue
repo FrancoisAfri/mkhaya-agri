@@ -326,28 +326,28 @@ function clearFilters() {
 <template>
   <VRow>
     <VCol cols="12">
-      <VCard class="policy-ribbon reports-ribbon">
+      <VCard variant="flat" class="mb-4 mk-page-head policy-ribbon">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">
+            <div class="text-overline">
               Policy Intelligence Workspace
             </div>
-            <h4 class="text-h4 text-white mb-1">
+            <h4 class="text-h4 mb-1">
               Policy Reports Engine
             </h4>
-            <p class="mb-0 text-white opacity-90">
+            <p class="text-medium-emphasis mb-0">
               Fixed-header data tables for violations, compliance, attestations, policy questions, events, cases, and investigations.
             </p>
           </div>
           <div class="d-flex gap-3 align-center flex-wrap">
-            <VChip color="white" class="text-secondary" label>
+            <VChip color="primary" variant="tonal" class="text-secondary" label>
               {{ activeRows.length }} Active Rows
             </VChip>
-            <VBtn color="white" variant="outlined" prepend-icon="tabler-chart-bar" href="/policies/analytics">
+            <VBtn color="primary" variant="outlined" prepend-icon="tabler-chart-bar" href="/policies/analytics">
               BI Analytics
             </VBtn>
             <VBtn
-              color="white"
+              color="primary"
               variant="tonal"
               prepend-icon="tabler-calendar-clock"
               href="/policy-reports/scheduled"
@@ -630,7 +630,7 @@ function clearFilters() {
 }
 
 .reports-ribbon {
-  background: linear-gradient(135deg, #005f56 0%, #0b8b78 100%);
+  
 }
 
 :deep(.v-data-table-header__content) {

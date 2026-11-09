@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import { useI18n } from 'vue-i18n'
 import { RESOURCE_TYPE_CONFIG, getResourceTypeConfig } from '../Store/type'
 
@@ -117,9 +117,9 @@ const barSeries = computed(() => [
   <div>
 
     <VCard flat class="mb-6">
-      <div class="res-hero pa-8">
-        <h2 class="text-h4 font-weight-bold text-white mb-1">{{ t('resource_dashboard.hero.title') }}</h2>
-        <p class="text-white mb-0" style="opacity:.8">{{ t('resource_dashboard.hero.subtitle') }}</p>
+      <div class="mb-4 mk-page-head">
+        <h2 class="text-h4 font-weight-bold mb-1">{{ t('resource_dashboard.hero.title') }}</h2>
+        <p class="text-medium-emphasis mb-0">{{ t('resource_dashboard.hero.subtitle') }}</p>
       </div>
     </VCard>
 
@@ -150,7 +150,7 @@ const barSeries = computed(() => [
             <VCardSubtitle>{{ t('resource_dashboard.trend.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="monthlyTrends.length" type="area"
+            <MkChart v-if="monthlyTrends.length" type="area"
               :series="trendSeries" :options="trendOptions" height="260" />
             <div v-else class="d-flex align-center justify-center py-10 text-medium-emphasis">
               {{ t('resource_dashboard.trend.no_data') }}
@@ -168,7 +168,7 @@ const barSeries = computed(() => [
             <VCardSubtitle>{{ t('resource_dashboard.breakdown.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="donutSeries.some(v => v > 0)" type="donut"
+            <MkChart v-if="donutSeries.some(v => v > 0)" type="donut"
               :series="donutSeries" :options="donutOptions" height="280" />
             <div v-else class="d-flex align-center justify-center py-10 text-medium-emphasis">
               {{ t('resource_dashboard.breakdown.no_data') }}
@@ -184,7 +184,7 @@ const barSeries = computed(() => [
             <VCardSubtitle>{{ t('resource_dashboard.active_bar.subtitle') }}</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="typeStats.length" type="bar"
+            <MkChart v-if="typeStats.length" type="bar"
               :series="barSeries" :options="barOptions" height="280" />
           </VCardText>
         </VCard>
@@ -260,7 +260,7 @@ const barSeries = computed(() => [
 @use "@core/scss/template/libs/apex-chart.scss";
 
 .res-hero {
-  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
+  
   border-radius: 12px;
   position: relative;
   overflow: hidden;

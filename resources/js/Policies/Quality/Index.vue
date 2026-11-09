@@ -132,18 +132,18 @@ const totalIssues   = computed(() => props.analyses.reduce((sum, a) => sum + a.i
   <VRow>
     <!-- ── Header Ribbon ───────────────────────────────────────────────── -->
     <VCol cols="12">
-      <VCard style="background: linear-gradient(135deg,#d53f8c 0%,#805ad5 100%); border-radius:12px; overflow:hidden;">
+      <VCard variant="flat" class="mb-4 mk-page-head">
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6">
           <div>
-            <div class="text-overline text-white opacity-90">Phase 13 — Policy Intelligence</div>
-            <h4 class="text-h4 text-white mb-1">Policy Quality &amp; Conflict Detection</h4>
-            <p class="mb-0 text-white opacity-90">
+            <div class="text-overline">Phase 13 — Policy Intelligence</div>
+            <h4 class="text-h4 mb-1">Policy Quality &amp; Conflict Detection</h4>
+            <p class="text-medium-emphasis mb-0">
               Detect duplicate rules, contradicting clauses, scope overlaps — and get AI-powered improvement suggestions.
             </p>
           </div>
           <div class="d-flex gap-3 flex-wrap">
-            <VChip color="white" class="text-pink-darken-2" label>Conflict Engine</VChip>
-            <VChip color="white" class="text-deep-purple" label>Quality AI</VChip>
+            <VChip color="primary" variant="tonal" class="text-pink-darken-2" label>Conflict Engine</VChip>
+            <VChip color="primary" variant="tonal" class="text-deep-purple" label>Quality AI</VChip>
           </div>
         </VCardText>
       </VCard>

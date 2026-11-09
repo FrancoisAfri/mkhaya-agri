@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { useTheme } from 'vuetify'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 import type { ApexOptions } from 'apexcharts'
 
 useTheme()
@@ -318,7 +318,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Monthly purchase value of assets acquired in the period</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="valueTrend.length" type="area" :height="280" :options="valueTrendOptions" :series="valueTrendSeries" />
+            <MkChart v-if="valueTrend.length" type="area" :height="280" :options="valueTrendOptions" :series="valueTrendSeries" />
             <VEmptyState v-else icon="tabler-chart-line" title="No acquisition data" text="No assets purchased in this period." size="80" />
           </VCardText>
         </VCard>
@@ -330,7 +330,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Current portfolio breakdown by status</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byStatus.length" type="donut" :height="280" :options="byStatusOptions" :series="byStatusSeries" />
+            <MkChart v-if="byStatus.length" type="donut" :height="280" :options="byStatusOptions" :series="byStatusSeries" />
             <VEmptyState v-else icon="tabler-package" title="No assets" size="60" />
           </VCardText>
         </VCard>
@@ -346,7 +346,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Count of assets per category</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="byCategory.length" type="bar" :height="280" :options="byCategoryOptions" :series="byCategorySeries" />
+            <MkChart v-if="byCategory.length" type="bar" :height="280" :options="byCategoryOptions" :series="byCategorySeries" />
             <VEmptyState v-else icon="tabler-shapes" title="No category data" size="70" />
           </VCardText>
         </VCard>
@@ -384,7 +384,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Monthly maintenance spend</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="maintenanceCostTrend.length" type="bar" :height="260" :options="maintTrendOptions" :series="maintTrendSeries" />
+            <MkChart v-if="maintenanceCostTrend.length" type="bar" :height="260" :options="maintTrendOptions" :series="maintTrendSeries" />
             <VEmptyState v-else icon="tabler-tool" title="No maintenance data" text="No maintenance records in this period." size="70" />
           </VCardText>
         </VCard>
@@ -396,7 +396,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Work order breakdown by type</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="maintenanceByType.length" type="pie" :height="260" :options="maintByTypeOptions" :series="maintByTypeSeries" />
+            <MkChart v-if="maintenanceByType.length" type="pie" :height="260" :options="maintByTypeOptions" :series="maintByTypeSeries" />
             <VEmptyState v-else icon="tabler-clipboard-list" title="No maintenance types" size="60" />
           </VCardText>
         </VCard>
@@ -412,7 +412,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Original vs current book value comparison</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="depreciationByCategory.length" type="bar" :height="260" :options="deprOptions" :series="deprSeries" />
+            <MkChart v-if="depreciationByCategory.length" type="bar" :height="260" :options="deprOptions" :series="deprSeries" />
             <VEmptyState v-else icon="tabler-trending-down" title="No depreciation data" size="70" />
           </VCardText>
         </VCard>
@@ -424,7 +424,7 @@ const assignTrendSeries = computed(() => [
             <VCardSubtitle>Monthly asset assignment events</VCardSubtitle>
           </VCardItem>
           <VCardText>
-            <VueApexCharts v-if="assignmentTrend.length" type="line" :height="260" :options="assignTrendOptions" :series="assignTrendSeries" />
+            <MkChart v-if="assignmentTrend.length" type="line" :height="260" :options="assignTrendOptions" :series="assignTrendSeries" />
             <VEmptyState v-else icon="tabler-user-share" title="No assignment data" size="70" />
           </VCardText>
         </VCard>

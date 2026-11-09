@@ -3020,7 +3020,7 @@
   dependencies:
     "@vue/shared" "3.5.35"
 
-"@vue/runtime-core@3.5.35":
+"@vue/runtime-core@^3.0.0", "@vue/runtime-core@3.5.35":
   version "3.5.35"
   resolved "https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.5.35.tgz"
   integrity sha512-A/xFNX9loIcWDygeQuNCfKuh0CoYBzxhqEMNah5TSFg9Z53DrFYEN2qi5CU9necjM1OWYegYREUTHmXTmhfXtg==
@@ -4327,6 +4327,14 @@ earcut@^3.0.0:
   version "3.0.2"
   resolved "https://registry.npmjs.org/earcut/-/earcut-3.0.2.tgz"
   integrity sha512-X7hshQbLyMJ/3RPhyObLARM2sNxxmRALLKx1+NVFFnQ9gKzmCrxm9+uLIAdBcvc8FNLpctqlQ2V6AE92Ol9UDQ==
+
+echarts@^5.5.1, echarts@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.npmjs.org/echarts/-/echarts-5.6.0.tgz"
+  integrity sha512-oTbVTsXfKuEhxftHqL5xprgLoc0k7uScAwtryCgWF6hPYFLRwOUHiFmHGCBKP5NPFNkDVopOieyUqYGH8Fa3kA==
+  dependencies:
+    tslib "2.3.0"
+    zrender "5.6.1"
 
 ejs@^3.1.10:
   version "3.1.10"
@@ -8962,6 +8970,11 @@ tslib@^2.1.0, tslib@^2.6.2, tslib@^2.8.1:
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+
 tsutils@^3.21.0:
   version "3.21.0"
   resolved "https://registry.npmjs.org/tsutils/-/tsutils-3.21.0.tgz"
@@ -9556,10 +9569,22 @@ vue-chartjs@5.3.3:
   resolved "https://registry.npmjs.org/vue-chartjs/-/vue-chartjs-5.3.3.tgz"
   integrity sha512-jqxtL8KZ6YJ5NTv6XzrzLS7osyegOi28UGNZW0h9OkDL7Sh1396ht4Dorh04aKrl2LiSalQ84WtqiG0RIJb0tA==
 
+vue-demi@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz"
+  integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
+
 vue-demi@>=0.14.8:
   version "0.14.10"
   resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.10.tgz"
   integrity sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==
+
+vue-echarts@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.npmjs.org/vue-echarts/-/vue-echarts-7.0.3.tgz"
+  integrity sha512-/jSxNwOsw5+dYAUcwSfkLwKPuzTQ0Cepz1LxCOpj2QcHrrmUa/Ql0eQqMmc1rTPQVrh2JQ29n2dhq75ZcHvRDw==
+  dependencies:
+    vue-demi "^0.13.11"
 
 vue-eslint-parser@^9.4.3:
   version "9.4.3"
@@ -9626,7 +9651,7 @@ vue-tsc@^3.2.5:
     "@volar/typescript" "2.4.28"
     "@vue/language-core" "3.3.2"
 
-"vue@^2.7.0 || ^3.2.25", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.0-0 || ^2.7.0", vue@^3.0.11, vue@^3.2.0, vue@^3.2.25, vue@^3.3, vue@^3.3.0, vue@^3.5.0, vue@^3.5.11, vue@^3.5.14, "vue@> 3.0.0", vue@>=3, vue@>=3.0.0, vue@>=3.2.13, "vue@2 || 3", vue@3.5.35:
+"vue@^2.7.0 || ^3.1.1", "vue@^2.7.0 || ^3.2.25", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.0-0 || ^2.7.0", vue@^3.0.11, vue@^3.2.0, vue@^3.2.25, vue@^3.3, vue@^3.3.0, vue@^3.5.0, vue@^3.5.11, vue@^3.5.14, "vue@> 3.0.0", vue@>=3, vue@>=3.0.0, vue@>=3.2.13, "vue@2 || 3", vue@3.5.35:
   version "3.5.35"
   resolved "https://registry.npmjs.org/vue/-/vue-3.5.35.tgz"
   integrity sha512-cx89fnr+0kVGHiNFG6y6s0bdjypJRFNZn6x3WPstNdQR1bi1mbB7h4v5IBGTsPJU3nK1+0Iqj3Zf+hZWMieR4Q==
@@ -10154,6 +10179,13 @@ ziggy@^2.4.0:
     irc "0.3.6"
     nopt "2.1.2"
     xtend "2.0.6"
+
+zrender@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.npmjs.org/zrender/-/zrender-5.6.1.tgz"
+  integrity sha512-OFXkDJKcrlx5su2XbzJvj/34Q3m6PvyCZkVPHGYpcCJ52ek4U/ymZyfuV1nKE23AyBJ51E/6Yr0mhZ7xGTO4ag==
+  dependencies:
+    tslib "2.3.0"
 
 zwitch@^2.0.4:
   version "2.0.4"

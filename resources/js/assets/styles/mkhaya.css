@@ -64,3 +64,13 @@ footer.bg-\[\#020d31\] img { width: 24px !important; height: 24px !important; }
 
 /* Open nav groups: no grey slab, just the purple label. */
 .layout-vertical-nav .nav-group.open > .nav-group-label, .layout-vertical-nav .nav-group.active > .nav-group-label { background: transparent !important; color: var(--mk-purple) !important; }
+
+/* Page header (design guide pattern 1): no banner card. Eyebrow, a 28px title, a muted line, actions on the right. */
+.mk-page-head { background: transparent !important; border: 0 !important; box-shadow: none !important; color: var(--mk-ink) !important; overflow: visible !important; }
+.mk-page-head > .v-card-text, .mk-page-head > .v-card-item { padding: 4px 0 12px !important; }
+.mk-page-head :is(h1, h2, h3, h4) { font-size: 28px !important; line-height: 1.25 !important; font-weight: 700 !important; letter-spacing: -.6px !important; color: var(--mk-ink) !important; }
+.mk-page-head .text-overline, .mk-page-head .header-crumbs { color: rgba(var(--v-theme-on-surface), .55) !important; font-size: 12px !important; font-weight: 600; letter-spacing: .4px; line-height: 1.6 !important; }
+.mk-page-head::before, .mk-page-head::after { display: none !important; }
+/* A card that only wraps a page header must not paint a white box around it. */
+.v-card:has(> .mk-page-head) { background: transparent !important; border: 0 !important; box-shadow: none !important; overflow: visible !important; }
+.mk-page-head { padding-top: 8px; }

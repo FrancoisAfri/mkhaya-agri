@@ -2,7 +2,7 @@
 import { computed, reactive, ref } from 'vue'
 import { router } from '@inertiajs/vue3'
 import { route as ziggyRoute } from 'ziggy-js'
-import VueApexCharts from 'vue3-apexcharts'
+import MkChart from '@/Components/Charts/MkChart.vue'
 
 const route = ziggyRoute
 const props = defineProps<{
@@ -148,7 +148,7 @@ const exportUrl = (report: string, format = 'csv') => route('workflow.reports.ex
       <VRow>
         <VCol cols="12" md="8">
           <VCard border class="mb-4"><VCardItem><VCardTitle class="text-body-1">Throughput by week</VCardTitle></VCardItem>
-            <VCardText><VueApexCharts v-if="trend.weeks.length" type="bar" height="260" :options="trendChart.options" :series="trendChart.series" /><div v-else class="text-medium-emphasis">No requests in the period.</div></VCardText></VCard>
+            <VCardText><MkChart v-if="trend.weeks.length" type="bar" height="260" :options="trendChart.options" :series="trendChart.series" /><div v-else class="text-medium-emphasis">No requests in the period.</div></VCardText></VCard>
           <VCard border><VCardItem><VCardTitle class="text-body-1">Processes compared</VCardTitle></VCardItem>
             <VTable density="compact">
               <thead><tr><th>Workflow</th><th class="text-end">Started</th><th class="text-end">Completed</th><th class="text-end">Rejected</th><th class="text-end">Running</th><th class="text-end">Average</th></tr></thead>
@@ -159,7 +159,7 @@ const exportUrl = (report: string, format = 'csv') => route('workflow.reports.ex
         </VCol>
         <VCol cols="12" md="4">
           <VCard border><VCardItem><VCardTitle class="text-body-1">Where the time goes</VCardTitle><VCardSubtitle>Finished requests, {{ hrs(s.hours_elapsed) }} in all</VCardSubtitle></VCardItem>
-            <VCardText><VueApexCharts v-if="s.hours_elapsed > 0" type="donut" height="260" :options="timeChart.options" :series="timeChart.series" /><div v-else class="text-medium-emphasis">No finished requests yet.</div>
+            <VCardText><MkChart v-if="s.hours_elapsed > 0" type="donut" height="260" :options="timeChart.options" :series="timeChart.series" /><div v-else class="text-medium-emphasis">No finished requests yet.</div>
               <div class="text-caption text-medium-emphasis mt-2">Cost or effort figures are not shown: the engine does not hold reliable cost data.</div></VCardText></VCard>
         </VCol>
       </VRow>

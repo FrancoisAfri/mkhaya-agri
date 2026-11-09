@@ -268,20 +268,20 @@ function typeColor(val: unknown): string {
   <VRow>
 
     <VCol cols="12">
-      <VCard class="reports-ribbon" flat>
+      <VCard variant="flat" class="mb-4 mk-page-head" flat>
         <VCardText class="d-flex flex-wrap align-center justify-space-between gap-4 py-6 px-7">
           <div>
-            <div class="text-overline text-white mb-1" style="opacity:.85">
+            <div class="text-overline mb-1">
               {{ t('resource_reports.hero.overline') }}
             </div>
-            <h4 class="text-h4 text-white font-weight-bold mb-1">
+            <h4 class="text-h4 font-weight-bold mb-1">
               {{ t('resource_reports.hero.title') }}
             </h4>
-            <p class="mb-0 text-white" style="opacity:.8">
+            <p class="text-medium-emphasis mb-0">
               {{ t('resource_reports.hero.subtitle') }}
             </p>
           </div>
-          <VChip color="white" label class="font-weight-bold" style="color:#6A0DAD">
+          <VChip color="primary" variant="tonal" label class="font-weight-bold" style="color:#6A0DAD">
             {{ t('resource_reports.hero.active_rows', { count: activeRows.length }) }}
           </VChip>
         </VCardText>
@@ -513,7 +513,7 @@ function typeColor(val: unknown): string {
 
 <style scoped lang="scss">
 .reports-ribbon {
-  background: linear-gradient(135deg, #6A0DAD 0%, #4e42c8 100%);
+  
   border: 0;
   overflow: hidden;
   border-radius: 12px;

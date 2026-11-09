@@ -12,7 +12,7 @@ import { computed, defineAsyncComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const props = withDefaults(defineProps<{ points: BalancePoint[]; height?: number }>(), { height: 260 })
-const VueApexCharts = defineAsyncComponent(() => import('vue3-apexcharts'))
+const VueApexCharts = defineAsyncComponent(() => import('@/Components/Charts/MkChart.vue'))
 const { t } = useI18n()
 const k = (key: string) => t(`agri.water.${key}`)
 const ms = (d: string) => new Date(`${d}T00:00:00`).getTime()
