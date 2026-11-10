@@ -243,6 +243,7 @@ Route::middleware(['auth', 'auth.lock', 'check.banned', 'prevent-back-history', 
 
     // Mkhaya Agri — farms, fields and (by phase) crops, livestock and farm operations.
     require __DIR__.'/modules/agri.php';
+    require __DIR__.'/modules/bi.php';
 
     // Organisations a person belongs to, switching between them, and adding members from other
     // organisations (company_memberships). Each action checks its own authority.

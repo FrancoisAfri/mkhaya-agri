@@ -50,6 +50,9 @@ class EnforceCrudPermissions
      * and do not need an additional CRUD permission check.
      */
     private const EXEMPT_ROUTE_PREFIXES = [
+        // Business Intelligence checks BIAccess in every action (company add-on, BI level, the module
+        // behind each visual), behind module.active:business_intelligence.
+        'bi.',
         // A category's Insights page shows only the hub cards the person's tier and gates allow, and
         // its schedules are checked against each report's own permission and the owner; there is no
         // 'insights.category.view' permission to hold.

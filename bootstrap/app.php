@@ -141,6 +141,8 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withCommands([
+        \App\Modules\BI\Console\BICheckCommand::class,
+        \App\Modules\BI\Console\RunBISchedules::class,
         \App\Modules\Finance\Tax\Console\RunTaxComplianceCommand::class,
         \App\Modules\Finance\Tax\Console\DeliverTaxEventsCommand::class,
         \App\Modules\Workflow\Console\WorkflowTickCommand::class,

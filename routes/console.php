@@ -416,3 +416,9 @@ Schedule::command(\App\Modules\Workflow\Console\WorkflowTickCommand::class)
     ->withoutOverlapping(10)
     ->onOneServer()
     ->appendOutputTo(storage_path('logs/workflow-tick.log'));
+
+// ── BI dashboard email schedules ─────────────────────────────────────────────
+// Every minute; each schedule sends at its own time, built as its owner inside its company.
+Schedule::command(\App\Modules\BI\Console\RunBISchedules::class)
+    ->everyMinute()
+    ->withoutOverlapping();
