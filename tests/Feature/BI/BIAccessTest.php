@@ -50,7 +50,7 @@ class BIAccessTest extends WorkflowTestCase
 
     public function test_sold_as_an_add_on_a_company_without_it_gets_no_bi(): void
     {
-        config(['bi.included' => false]);
+        \App\Modules\BI\Support\BISettings::set(false);
         $this->actingAs($this->designer)->get('/bi')->assertRedirect(route('dashboard'))->assertSessionHas('error');
         $this->actingAs($this->designer)->postJson('/bi/query', ['config' => ['kind' => 'kpi', 'dataset' => 'fin_sales']])->assertStatus(403);
     }
@@ -84,5 +84,23 @@ class BIAccessTest extends WorkflowTestCase
         // The test company subscribes to workflow + BI only, so finance data is outside its subscription.
         $this->actingAs($this->designer)->postJson('/bi/query', ['config' => ['kind' => 'kpi', 'dataset' => 'fin_sales', 'measures' => ['revenue']]])
             ->assertOk()->assertJson(['locked' => 'subscription']);
+    }
+
+    public function test_the_platform_admin_switches_bi_for_every_company_on_and_off(): void
+    {
+        $platform = $this->user('platform', []);
+        $platform->forceFill(['is_platform_admin' => true])->save();
+
+        $this->actingAs($this->designer)->get('/bi/platform')->assertForbidden();
+        $this->actingAs($this->designer)->post('/bi/platform', ['included' => false])->assertForbidden();
+        $this->actingAs($platform)->get('/bi/platform')->assertOk()->assertInertia(fn ($p) => $p->component('Modules/BI/Platform', false)->where('included', true));
+
+        // Off: a paid add-on, and this company (without it) loses BI.
+        $this->actingAs($platform)->post('/bi/platform', ['included' => false])->assertSessionHas('success');
+        $this->actingAs($this->designer)->get('/bi')->assertRedirect(route('dashboard'));
+
+        // On again: every company has it.
+        $this->actingAs($platform)->post('/bi/platform', ['included' => true]);
+        $this->actingAs($this->designer)->get('/bi')->assertOk();
     }
 }

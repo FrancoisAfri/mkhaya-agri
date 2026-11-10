@@ -7,6 +7,11 @@ use Illuminate\Support\Facades\Route;
 | Business Intelligence — a paid module. Each visual is also checked against the module that owns
 | its data, so a company only ever sees dashboards built from what it subscribes to.
 */
+// The platform-wide switch (BI for every company, or a paid add-on) — platform administrators only,
+// outside the company gate: a platform administrator need not be working inside a company.
+Route::get('/bi/platform', [BIController::class, 'platform'])->name('bi.platform');
+Route::post('/bi/platform', [BIController::class, 'savePlatform'])->name('bi.platform.save');
+
 Route::middleware(['module.active:business_intelligence'])->prefix('bi')->name('bi.')->group(function () {
     Route::get('/', [BIController::class, 'index'])->name('index');
     Route::post('/', [BIController::class, 'store'])->name('store');

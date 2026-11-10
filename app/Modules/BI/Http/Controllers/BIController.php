@@ -40,6 +40,7 @@ class BIController extends Controller
                     'widgets' => count($t['widgets']), 'modules' => count($t['modules'])])->values(),
             'dashboards' => $this->visible($request)->orderBy('name')->get(['uuid', 'name', 'description', 'visibility', 'owner_id', 'template_key', 'updated_at']),
             'canDesign' => BIAccess::canDesign($request->user()),
+            'isPlatform' => BIAccess::isPlatform($request->user()),
         ]);
     }
 
@@ -106,6 +107,30 @@ class BIController extends Controller
         DB::table('bi_dashboards')->where('id', $d->id)->delete();
 
         return redirect('/bi')->with('success', 'Dashboard deleted.');
+    }
+
+    /** The platform-wide switch: BI for every company, or a paid add-on. Platform administrators only. */
+    public function platform(Request $request): Response
+    {
+        abort_unless(BIAccess::isPlatform($request->user()), 403);
+        $row = \App\Modules\BI\Support\BISettings::row();
+
+        return Inertia::render('Modules/BI/Platform', [
+            'included' => \App\Modules\BI\Support\BISettings::included(),
+            'updatedAt' => $row?->updated_at,
+            'updatedBy' => $row?->updated_by ? DB::table('users')->where('id', $row->updated_by)->value('email') : null,
+            'companiesWithAddon' => (int) (DB::table('company_modules')->where('module_code', 'business_intelligence')->distinct()->count('company_id')),
+            'whereToSwitch' => "Platform \u2192 Companies \u2192 open the company \u2192 add the Business Intelligence module (or the company owner adds it under Subscription)",
+        ]);
+    }
+
+    public function savePlatform(Request $request): RedirectResponse
+    {
+        abort_unless(BIAccess::isPlatform($request->user()), 403);
+        $data = $request->validate(['included' => ['required', 'boolean']]);
+        \App\Modules\BI\Support\BISettings::set((bool) $data['included'], $request->user()->id);
+
+        return back()->with('success', $data['included'] ? 'Business Intelligence is now included for every company.' : 'Business Intelligence is now a paid add-on.');
     }
 
     /** Numbers for one visual, always computed on the server. */

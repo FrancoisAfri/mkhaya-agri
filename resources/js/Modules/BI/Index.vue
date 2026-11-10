@@ -7,7 +7,7 @@ import { computed, ref } from 'vue'
 const props = defineProps<{
   templates: { key: string; name: string; group: string; description: string; icon: string; widgets: number; modules: number }[]
   dashboards: { uuid: string; name: string; description: string | null; visibility: string; template_key: string | null; updated_at: string }[]
-  canDesign: boolean
+  canDesign: boolean; isPlatform?: boolean
 }>()
 
 const search = ref('')
@@ -30,7 +30,10 @@ const vis = (v: string) => ({ private: 'Only me', shared: 'Shared', organisation
         <h1 class="mkbi-title">Dashboards</h1>
         <p class="mkbi-sub">{{ templates.length }} ready-made dashboards built on the modules you use — open one, filter it, click any chart to drill in.</p>
       </div>
-      <VBtn v-if="canDesign" color="primary" prepend-icon="tabler-plus" @click="newDialog = true">New dashboard</VBtn>
+      <div class="d-flex gap-2">
+        <VBtn v-if="isPlatform" variant="tonal" prepend-icon="tabler-settings" href="/bi/platform">Platform setting</VBtn>
+        <VBtn v-if="canDesign" color="primary" prepend-icon="tabler-plus" @click="newDialog = true">New dashboard</VBtn>
+      </div>
     </header>
 
     <section v-if="dashboards.length" class="mb-8">
