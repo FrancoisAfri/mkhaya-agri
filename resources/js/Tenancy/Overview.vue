@@ -47,6 +47,8 @@ const statusColor: Record<string, string> = { active: 'success', trial: 'info', 
           Pricing and Payment Settings could only be opened by typing the URL.
         -->
         <Link :href="route('tenancy.modules.index')"><VBtn variant="tonal" prepend-icon="tabler-apps">Modules &amp; Pricing</VBtn></Link>
+        <!-- BI for every company, or a paid add-on (platform admins only). -->
+        <Link href="/bi/platform"><VBtn variant="tonal" prepend-icon="tabler-chart-pie">Business Intelligence</VBtn></Link>
         <Link :href="route('tenancy.payment-settings.index')"><VBtn variant="tonal" prepend-icon="tabler-credit-card">Payment Settings</VBtn></Link>
       </div>
     </div>
