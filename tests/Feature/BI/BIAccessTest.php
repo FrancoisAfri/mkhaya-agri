@@ -40,8 +40,17 @@ class BIAccessTest extends WorkflowTestCase
         Cache::forget('module_active_' . BIAccess::MODULE);
     }
 
-    public function test_a_company_without_the_add_on_gets_no_bi(): void
+    public function test_bi_is_included_for_every_company_by_default(): void
     {
+        // No add-on row at all: BI is part of the system (config/bi.php, BI_INCLUDED=true).
+        \Illuminate\Support\Facades\Cache::forget('module_active_' . BIAccess::MODULE);
+        $this->actingAs($this->designer)->get('/bi')->assertOk()->assertInertia(fn ($p) => $p->where('canDesign', true));
+        $this->actingAs($this->viewer)->get('/bi')->assertOk()->assertInertia(fn ($p) => $p->where('canDesign', false));
+    }
+
+    public function test_sold_as_an_add_on_a_company_without_it_gets_no_bi(): void
+    {
+        config(['bi.included' => false]);
         $this->actingAs($this->designer)->get('/bi')->assertRedirect(route('dashboard'))->assertSessionHas('error');
         $this->actingAs($this->designer)->postJson('/bi/query', ['config' => ['kind' => 'kpi', 'dataset' => 'fin_sales']])->assertStatus(403);
     }

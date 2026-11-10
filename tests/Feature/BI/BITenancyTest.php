@@ -118,6 +118,7 @@ class BITenancyTest extends WorkflowTestCase
 
     public function test_a_stand_alone_install_switches_bi_on_from_its_licence(): void
     {
+        config(['bi.included' => false]); // sold as an add-on, so the licence decides
         DB::table('company_modules')->where('module_code', BIAccess::MODULE)->delete();
         Cache::forget('module_active_' . BIAccess::MODULE);
         $this->actingAs($this->designerA)->get('/bi')->assertRedirect(); // SaaS: no add-on, no BI

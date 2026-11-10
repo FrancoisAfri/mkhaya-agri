@@ -125,6 +125,11 @@ class CompanyEntitlements
     /** Does the ACTIVE company (or license, self-hosted) allow this module? */
     public function currentAllowsModule(string $code): bool
     {
+        // BI is included for every company unless it is being sold as an add-on (config/bi.php).
+        if ($code === 'business_intelligence' && config('bi.included', true)) {
+            return true;
+        }
+
         // Self-hosted: the signed license is the gate (existing behaviour).
         if (Edition::isSelfHosted()) {
             return $this->license->allows($code);

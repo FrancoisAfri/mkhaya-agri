@@ -103,6 +103,7 @@ class BIExportScheduleTest extends WorkflowTestCase
         $this->actingAs($this->designer)->post('/bi/schedules', ['dashboard' => 't:farm_overview', 'name' => 'X', 'weekday' => null, 'month_day' => null, 'format' => 'csv', 'period' => 'mtd',
             'frequency' => 'daily', 'send_time' => '07:00', 'recipients' => ['a@example.com']]);
         $s = DB::table('bi_schedules')->where('company_id', $this->company->id)->first();
+        config(['bi.included' => false]); // sold as an add-on, then taken away
         DB::table('company_modules')->where('company_id', $this->company->id)->where('module_code', BIAccess::MODULE)->delete();
         Cache::forget('module_active_' . BIAccess::MODULE);
 
