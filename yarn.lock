@@ -1032,12 +1032,12 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz"
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
-"@floating-ui/core@^1.6.0":
-  version "1.7.5"
-  resolved "https://registry.npmjs.org/@floating-ui/core/-/core-1.7.5.tgz"
-  integrity sha512-1Ih4WTWyw0+lKyFMcBHGbb5U5FtuHJuujoyyr5zTaWS5EYMeT6Jb2AuDeftsCsEuchO+mM2ij5+q9crhydzLhQ==
+"@floating-ui/core@^1.6.0", "@floating-ui/core@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/@floating-ui/core/-/core-1.8.0.tgz"
+  integrity sha512-0CIZ5itps/8x7BG8dEIhs53BvCUH2PCoogtakwRTut+Arm58sJooJ0AuZhLw2HJYIR5cMLNPBSS728sPho2khQ==
   dependencies:
-    "@floating-ui/utils" "^0.2.11"
+    "@floating-ui/utils" "^0.2.12"
 
 "@floating-ui/dom@^1.5.1", "@floating-ui/dom@^1.6.5", "@floating-ui/dom@1.6.8":
   version "1.6.8"
@@ -1047,10 +1047,18 @@
     "@floating-ui/core" "^1.6.0"
     "@floating-ui/utils" "^0.2.5"
 
-"@floating-ui/utils@^0.2.11", "@floating-ui/utils@^0.2.5":
-  version "0.2.11"
-  resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.11.tgz"
-  integrity sha512-RiB/yIh78pcIxl6lLMG0CgBXAZ2Y0eVHqMPYugu+9U0AeT6YBeiJpf7lbdJNIugFP5SIjwNRgo4DhR1Qxi26Gg==
+"@floating-ui/dom@^1.7.0":
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.8.0.tgz"
+  integrity sha512-yXSrzeHZBTZadLOlfyhCkJHNeLJnHRnRInwdZ40L7ZiaAtrBwoYlsDrX3v5zB1Utk7CLfzcOVnVVWoXEky7Ceg==
+  dependencies:
+    "@floating-ui/core" "^1.8.0"
+    "@floating-ui/utils" "^0.2.12"
+
+"@floating-ui/utils@^0.2.12", "@floating-ui/utils@^0.2.5":
+  version "0.2.12"
+  resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.12.tgz"
+  integrity sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==
 
 "@formkit/drag-and-drop@0.1.6":
   version "0.1.6"
@@ -1256,6 +1264,11 @@
   dependencies:
     mute-stream "^1.0.0"
 
+"@interactjs/types@1.10.28":
+  version "1.10.28"
+  resolved "https://registry.npmjs.org/@interactjs/types/-/types-1.10.28.tgz"
+  integrity sha512-vPmu4HWmsg0Fub3BPKGk7DuozkhgVK84TVkziY47v8Uh0A14gph55/vVRaQN4oZov0lGNJNK6Jyddim2qd/4vw==
+
 "@intlify/bundle-utils@11.0.1":
   version "11.0.1"
   resolved "https://registry.npmjs.org/@intlify/bundle-utils/-/bundle-utils-11.0.1.tgz"
@@ -1401,6 +1414,11 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
+
+"@juggle/resize-observer@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/@juggle/resize-observer/-/resize-observer-3.4.0.tgz"
+  integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
 "@kurkle/color@^0.3.0":
   version "0.3.4"
@@ -2771,6 +2789,20 @@
   version "1.12.2"
   resolved "https://registry.npmjs.org/@unrs/resolver-binding-darwin-arm64/-/resolver-binding-darwin-arm64-1.12.2.tgz"
   integrity sha512-u9DiNT1auQMO20A9SyTuG3wUgQWB9Z7KjAg0uFuCDR1FsAY8A0CG2S6JpHS1xwm/w1G08bjXZDcyOCjv1WAm2w==
+
+"@vexip-ui/hooks@^2.8.0":
+  version "2.9.4"
+  resolved "https://registry.npmjs.org/@vexip-ui/hooks/-/hooks-2.9.4.tgz"
+  integrity sha512-dGUiBAeHIsnSVigGSPHcuHBVqrSGW8LV+zGohvOpBfXs8Ynn5ZcSmybIWJ3G826NsicPu9rqwcJG8uvSgG4k4Q==
+  dependencies:
+    "@floating-ui/dom" "^1.7.0"
+    "@juggle/resize-observer" "^3.4.0"
+    "@vexip-ui/utils" "2.16.4"
+
+"@vexip-ui/utils@^2.16.1", "@vexip-ui/utils@2.16.4":
+  version "2.16.4"
+  resolved "https://registry.npmjs.org/@vexip-ui/utils/-/utils-2.16.4.tgz"
+  integrity sha512-KX+Q4EsuwDp6ZlRJ7OAkiYxu52D5CVM8zpqQz/FXYV+JUtzl9T3dvxgtA8gQ0wm5Sh/xT6jp8Wo4X7tLAzRh/A==
 
 "@vitejs/plugin-vue-jsx@5.1.1":
   version "5.1.1"
@@ -5550,6 +5582,15 @@ grid-index@^1.1.0:
   resolved "https://registry.npmjs.org/grid-index/-/grid-index-1.1.0.tgz"
   integrity sha512-HZRwumpOGUrHyxO5bqKZL0B0GlUpwtCAzZ42sgxUPniu33R1LSFH5yrIcBCHjkctCAh3mtWKcKd9J4vDDdeVHA==
 
+grid-layout-plus@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/grid-layout-plus/-/grid-layout-plus-1.1.1.tgz"
+  integrity sha512-7CWehJubrVC8Ps5QFUlnDsp0kiREvKfi3Pdjp21EyY8BNzSusqI3Utcxvu1Y9UUKe3YExvbhJzIxHK6rorbRaQ==
+  dependencies:
+    "@vexip-ui/hooks" "^2.8.0"
+    "@vexip-ui/utils" "^2.16.1"
+    interactjs "^1.10.27"
+
 has-bigints@^1.0.2:
   version "1.1.0"
   resolved "https://registry.npmjs.org/has-bigints/-/has-bigints-1.1.0.tgz"
@@ -5752,6 +5793,13 @@ ini@^1.3.5:
   version "1.3.8"
   resolved "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
+
+interactjs@^1.10.27:
+  version "1.10.28"
+  resolved "https://registry.npmjs.org/interactjs/-/interactjs-1.10.28.tgz"
+  integrity sha512-QCa4ksTPd2p/FZ4I6hrH6fogjLqru1TxYywRiKYNuLZtrlAxTIYUa/MYsE7PnUgWZJU3SrGVDjiz065BeaXYng==
+  dependencies:
+    "@interactjs/types" "1.10.28"
 
 internal-slot@^1.1.0:
   version "1.1.0"

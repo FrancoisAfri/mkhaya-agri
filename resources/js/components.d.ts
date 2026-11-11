@@ -47,7 +47,9 @@ declare module 'vue' {
     HorizontalNavLink: typeof import('./@layouts/components/HorizontalNavLink.vue')['default']
     HorizontalNavPopper: typeof import('./@layouts/components/HorizontalNavPopper.vue')['default']
     I18n: typeof import('./@core/components/I18n.vue')['default']
+    InstallAppButton: typeof import('./Components/Shared/InstallAppButton.vue')['default']
     KbArticleEditor: typeof import('./@core/components/KbArticleEditor.vue')['default']
+    MkChart: typeof import('./Components/Charts/MkChart.vue')['default']
     MoreBtn: typeof import('./@core/components/MoreBtn.vue')['default']
     NavBarActions: typeof import('./Components/Shared/NavBarActions.vue')['default']
     Notifications: typeof import('./@core/components/Notifications.vue')['default']
@@ -70,5 +72,6 @@ declare module 'vue' {
     VerticalNavLayout: typeof import('./@layouts/components/VerticalNavLayout.vue')['default']
     VerticalNavLink: typeof import('./@layouts/components/VerticalNavLink.vue')['default']
     VerticalNavSectionTitle: typeof import('./@layouts/components/VerticalNavSectionTitle.vue')['default']
+    Visual: typeof import('./Components/BI/Visual.vue')['default']
   }
 }
