@@ -13,6 +13,38 @@
     {{-- Mkhaya Agri "My Work" installs as a phone app and works offline (routes/modules/agri-pwa.php). --}}
     <link rel="manifest" href="/agri/manifest.webmanifest">
     <meta name="theme-color" content="#16a34a">
+    @else
+    {{--
+      Installable: every user can put the app on a phone's home screen or a laptop's desktop/dock and
+      open it like any other app (the "Install app" button in the top bar). The manifest names the
+      app and its icon; /sw.js keeps only the build's hashed files and shows an offline notice, never
+      a stale page. The beforeinstallprompt event fires once and early, so it is caught here, before
+      the app mounts, for the button to use.
+    --}}
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#6A0DAD">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Mkhaya Agri">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <script>
+        window.addEventListener('beforeinstallprompt', function (e) {
+            e.preventDefault();
+            window.__mkInstallPrompt = e;
+            window.dispatchEvent(new Event('mk-installable'));
+        });
+        window.addEventListener('appinstalled', function () {
+            window.__mkInstallPrompt = null;
+            window.__mkInstalled = true;
+            window.dispatchEvent(new Event('mk-installed'));
+        });
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').catch(function () { /* the app works without it */ });
+            });
+        }
+    </script>
     @endif
 
     <title inertia>{{ config('app.name', 'MKHAYA AGRI') }}</title>

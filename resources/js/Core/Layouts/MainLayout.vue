@@ -9,6 +9,7 @@ import Footer from '@/Core/Components/Footer.vue'
 import OfflineBanner from '@/Components/OfflineBanner.vue'
 import OfflineGuard  from '@/Components/OfflineGuard.vue'
 import NavBarActions from '@/Components/Shared/NavBarActions.vue'
+import InstallAppButton from '@/Components/Shared/InstallAppButton.vue'
 import FinanceEntityPicker from '@/Components/Shared/FinanceEntityPicker.vue'
 import { faToMdi } from '@/utils/faToMdi'
 import { ribbonLabelKeys, ribbonSlug } from '@/utils/locales/nav'
@@ -429,6 +430,7 @@ const globalThemePrimary = computed(() => {
         <FinanceEntityPicker />
 
         <VSpacer />
+        <InstallAppButton app-name="Mkhaya Agri" />
         <NavBarActions />
 
         <div v-if="authUser" class="position-relative" v-click-outside="() => { userMenuOpen = false }">
@@ -540,6 +542,7 @@ const globalThemePrimary = computed(() => {
         <VSpacer />
 
         <!-- Action icons -->
+        <InstallAppButton app-name="Mkhaya Agri" />
         <NavBarActions />
 
         <!-- User menu -->

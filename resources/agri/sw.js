@@ -21,7 +21,8 @@ self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const keep = [SHELL, ASSETS]
     for (const key of await caches.keys()) {
-      if (!keep.includes(key)) await caches.delete(key)
+      // Only this worker's own older caches: the whole-app worker (/sw.js) shares this storage.
+      if (key.startsWith('agri-') && !keep.includes(key)) await caches.delete(key)
     }
     await self.clients.claim()
   })())
